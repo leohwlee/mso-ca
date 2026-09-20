@@ -9,10 +9,11 @@ C&ED Money Service Operators Licensing System portal, and Hong Kong
 e-Legislation for the Ordinance) and were the current editions on the portal
 as at 6 September 2026.
 
-Documents 01–13 are the guidelines and the Ordinance. Documents 14–29 are the
-circulars, added on 6 September 2026: the Guidance Notes ¶6.1 name five
-reference sources for the assessment and item (5) is "Circulars issued by C&ED
-to MSOs", so they are examinable, and only the three 2026 ones had been kept.
+Documents 01–09 are the Guidance Notes and the guidelines, and 13 is the
+Ordinance. Everything else is a circular: 10–12, the three from 2026, were the
+only ones kept at first, and 14–29 were added on 6 September 2026 — the Guidance
+Notes ¶6.1 name five reference sources for the assessment and item (5) is
+"Circulars issued by C&ED to MSOs", so they are examinable.
 The rolling UN-sanctions and FATF-statement circulars are still deliberately
 left out — they change weekly and carry no examinable rule.
 
@@ -50,15 +51,43 @@ left out — they change weekly and carry no examinable rule.
 
 The Traditional Chinese editions in `TC/` carry the same numbers.
 
+## Which documents each module is examined from
+
+Guidance Notes ¶5.2 name the seven modules; ¶6.1 names five categories of
+reference material, but neither says which category feeds which module. The
+mapping below is derived from the bank itself — every citation in
+[`web/questions.json`](../web/questions.json) resolved to the document it names,
+by the numbers used in the table above. A question may cite two documents, so
+the per-document figures can sum above the module total.
+
+| Module | Source documents (questions citing each) | Questions |
+|---|---|---|
+| **1** General knowledge on AML/CFT and counter-proliferation financing | **02** ch. 1 & 6 (102) · **10** (18) · **13** Sch. 1 (11) · **14** (6) | 126 |
+| **2** Part 1–7 of the AMLO | **13** Parts 1–7 (300) · **23** (7) · **28** (1) | 308 |
+| **3** Schedules to the AMLO | **13** Sch. 2 (182), Sch. 1 (37), Sch. 4 (34), Sch. 3 (7) · **11** (2) | 260 |
+| **4** Guidelines promulgated by the C&ED | **03** (164) · **01** (51) · **07** (25) · **05** (19) · **06** (16) · **08** (14) · **13** (8) · **09** (7) · **11** (7) · **04** (6) · **27** (5) · **20** (3) · **12** (2) · **18** (2) · **10** (1) | 310 |
+| **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (83) · **15** (6) · **13** (5) · **07** (3) · **05** (1) · **10** (1) | 96 |
+| **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11 (300) · **13** (20) · **26** (14) · **25** (12) · **24** (8) · **21** (6) | 340 |
+| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** ch. 7–9 (140) · **22** (9) · **16** (5) · **13** (3) | 154 |
+
+Three documents feed no question of their own: **17**, **19** and **29**. For
+**19** that is by design — it is the format template, described just below. For
+**17** and **29**, the FAQ circular and the FAQ page it links to, it is not, and
+it is the clearest gap in the bank: the page's 28 Guideline questions each name
+the paragraph they elaborate, which would feed modules 6 and 7, and its 15
+licensing questions would feed module 4.
+
 Two of these are worth singling out. **19** is the only set of sample questions
 C&ED has ever published, and it settles what the paper looks like: seven items,
 each a stem with four numbered statements and the five fixed options
 `a) 1, 2 and 3  b) 1, 2 and 4  c) 2, 3 and 4  d) 1, 3 and 4  e) All of the above`.
 Guidance Notes ¶7.1 carries an eighth in the same family, with five statements
 and a different fixed block. **29** is not a PDF: circular 17 announces the FAQ
-but only links to it, so the page itself is archived as Markdown. Every FAQ
-answer names the Guideline paragraph it elaborates, which is what makes it
-usable as question material.
+but only links to it, so the page itself is archived as Markdown. It holds two
+series — 28 questions on the AML/CFT Guideline, each answer closing with a Key
+Reference naming the paragraph it elaborates, and 15 on licence application,
+which carry no such reference. The first series is what makes the page usable
+as question material.
 
 Live pages to re-check for newer editions and for the rolling UN-sanctions and
 FATF-statement circulars (deliberately not archived here):

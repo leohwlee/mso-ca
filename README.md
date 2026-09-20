@@ -18,7 +18,7 @@ own browser.
 ## Quick start
 
 1. **Download `mso-ca.html`** from the [Releases page](../../releases/latest)
-   (about 3.5 MB — the questions and fonts are inside the file).
+   (about 3.7 MB — the questions and fonts are inside the file).
 2. **Open it in Google Chrome.** Double-click it, or right-click → Open with →
    Google Chrome. Edge and Firefox work too.
 3. **Choose your paper language** and start.
@@ -75,14 +75,17 @@ every question traces to a real provision rather than rewording its neighbour.
 |---|---|---|
 | 1 · General knowledge on AML/CFT and counter-proliferation financing | 126 | AML/CFT Guideline ch. 1 & 6; AMLO Sch. 1; circulars |
 | 2 · Parts 1–7 of the AMLO | 308 | AMLO (Cap. 615, consolidated 15 May 2026) |
-| 3 · Schedules to the AMLO | 260 | AMLO Schedules 1–3 |
-| 4 · Guidelines promulgated by the C&ED | 310 | Licensing Guide, fitness-and-propriety, business-plan, AML-policy and disciplinary guidelines, circulars |
+| 3 · Schedules to the AMLO | 260 | AMLO Schedules 1–4 |
+| 4 · Guidelines promulgated by the C&ED | 310 | Licensing Guide, Guidance Notes, fitness-and-propriety, business-plan, AML-policy and disciplinary guidelines, circulars |
 | 5 · Systems and controls (i): governance and strategy | 96 | AML/CFT Guideline ch. 2–3; circulars |
 | 6 · Systems and controls (ii): AML/CFT control areas | 340 | AML/CFT Guideline ch. 4–6, 10–11; circulars |
 | 7 · Systems and controls (iii): demonstrating and monitoring compliance | 154 | AML/CFT Guideline ch. 7–9; circulars |
 
 > These are reconstructions for practice, not real exam questions. C&ED has
 > never released a past paper.
+
+[`docs/README.md`](docs/README.md) breaks this down further, mapping each
+module to the individual source files — down to the chapter, Part and Schedule.
 
 ### Two question formats
 
@@ -142,10 +145,11 @@ questions C&ED has ever published.
 ## Where your history lives
 
 In your own browser's local storage, on your own computer. Nothing is sent
-anywhere — the file contains no network code. History survives closing the
-browser, restarting it, and replacing the HTML file with a newer edition. It
-belongs to one browser on one machine, so two people on their own computers keep
-separate histories, and clearing that browser's site data erases it.
+anywhere — the file makes no network requests, and contains no remote URLs.
+History survives closing the browser, restarting it, and replacing the HTML
+file with a newer edition. It belongs to one browser on one machine, so two
+people on their own computers keep separate histories, and clearing that
+browser's site data erases it.
 
 One Chrome detail: Chrome keeps a single shared store for all local HTML files,
 so if you use other local pages, treat *Save history to file* as the reliable
@@ -154,7 +158,7 @@ record.
 ## For developers
 
 The repository holds the app's parts (`web/`) and a small Go program that folds
-them into the single file. Requires Go ≥ 1.21 and nothing else.
+them into the single file. Requires Go ≥ 1.27 and nothing else.
 
 ```bash
 go test ./...                          # question-bank checks + vet
@@ -171,12 +175,14 @@ review found it in real questions.
 | Check | What it stops |
 |---|---|
 | Per-module counts, 4 or 5 options, both languages, a citation | questions going missing or half-written |
-| Option length balance and rank | "always pick the longest" — it once passed 64% of simulated papers |
+| Option length balance, rank, spread and standout | "always pick the longest" — it once passed 64% of simulated papers |
 | Citation has a locator | citing a document with no paragraph to turn to |
 | Statutory Chinese terms | wording the official Chinese editions never use |
 | ML/TF pairing | dropping the terrorist-financing half in Chinese |
 | No positional references | "option 2" in an explanation, when options are shuffled |
 | No duplicate stems, no shared answer across modules | one question asked twice |
+| Absolutes in combination statements | "always" and "never" marking the false statement |
+| Even option punctuation | a stray semicolon marking the right answer |
 | Combination format | the printed option block, verbatim, and a spread of answer letters |
 
 The method behind that table — how to write a bilingual bank from a fixed set of
