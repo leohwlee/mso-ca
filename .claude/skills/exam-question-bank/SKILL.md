@@ -181,6 +181,7 @@ suite, generalised:
 | No duplicate stems, and no answer shared across sections | one question asked twice |
 | Terminology matches the official edition of each language | wording the source never uses |
 | Fixed option blocks verbatim; no answer letter above 40% | drift in the printed format |
+| A stem that cites a provision states what it provides; no number-only options or keys | recall of clause numbers standing in for knowledge of the rules |
 
 ### The meta-rule, learned three times
 
@@ -340,6 +341,37 @@ parentheses, bullet-like enumeration, quoted terms, trailing citations.
   keyed elsewhere before assuming a gap exists.
 
 ---
+
+### 7. Numbers as the unknown
+
+Not a surface tell but a validity fault, and it hides in a bank built from
+statutes: the question tests where a rule lives, or what a numbered provision
+says, instead of the rule. "What is the relationship between section 3(1)(a) and
+section 3(2)?" can only be answered by someone who remembers what those numbers
+carry; so can four options reading "Section 7 / Section 5 / Section 23 / Section
+30". Official sample papers, at least in this exam, never do that: the stem names
+the topic in words and the citation sits in the answer key. An audit of this
+bank found 44 such items in 1,594, almost all in the modules organised by the
+structure of the Ordinance, because authoring by section number produces stems
+anchored on section numbers.
+
+**The rule the owner settled on:** a stem may cite a provision, and should say
+what it provides, but the unknown is always substance. The model form is
+*"Section N requires X. In which situation does Y apply?"* The number stays as a
+citation; the content is stated; the question is about the rule. Sub-numbers
+(subsection (2), paragraph (b)) are never the thing asked, an option never
+relies on a number to carry its meaning, and exact wording is never the answer.
+Two deliberate exceptions: structure items at the level the official keys use
+(which Part, which Schedule), and stems that quote a defined term, which *is*
+their content.
+
+**Guard it three ways**, all mechanical: a stem that cites a fine-grained
+provision must keep a few substantive words once citations, document names and
+the vocabulary of asking are stripped; ban the interrogative shapes that make a
+number the object ("what does section N…?", "how do sections N and M relate?"),
+anchored so that a scenario followed by "what does section N require?" still
+passes; and forbid two or more number-only options, or a number-only key. Tune
+the patterns against the bank until the only hits are the items you mean to fix.
 
 ## Bilingual rules
 
