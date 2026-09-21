@@ -926,3 +926,180 @@ func TestNoSemicolonTell(t *testing.T) {
 		}
 	}
 }
+
+// The three guards below hold a rule the bank's owner set in September 2026,
+// after meeting m3-243 in a mock paper: "What is the relationship between
+// section 3(1)(a) and section 3(2) of Schedule 2?" A stem may cite a provision
+// by number, and should say what it provides, but the thing the candidate has
+// to supply is always substance — a rule, a condition, a consequence. Nobody
+// should need to recall what a subsection number says, which number a rule
+// lives under, or a provision's exact wording. That is also how C&ED's own
+// sample questions read: every stem names its topic in words, and the section
+// appears only in the answer key. The September 2026 audit found 31 stems
+// asking what a number said, 6 whose keyed answer was a bare section number,
+// 5 whose options differed only by their numbers and 2 asking for exact wording.
+//
+// Two things are deliberately allowed. A structure item that cites only a Part
+// or a Schedule ("Which Part of the AMLO contains the licensing regime?") is at
+// the level the official answer keys use, and the owner chose to keep those. And
+// a stem that quotes a defined term ("How is ‘money’ defined in Schedule 1?") is
+// about that term, which is its content.
+
+var (
+	// a fine-grained citation: section, subsection, paragraph, division, item
+	fineRef = regexp.MustCompile(`(?i)(\bsections?\s+\d+[A-Z]?(\(\d+[A-Z]?\))*(\([a-z]+\))*(\([ivx]+\))*|\bs\.\s*\d+[A-Z]?(\(\d+[A-Z]?\))*(\([a-z]+\))*|\bsubsections?\s+\(\d+[A-Z]?\)|\bparagraphs?\s+\(?\d+(\.\d+)*[a-z]?\)?(\([a-z]+\))*|¶\s*\d+(\.\d+)*(\([a-z]+\))*|\bitems?\s+\d+|\bDivision\s+\d|\bclauses?\s+\d+|\bfootnote\s+\d+)`)
+	// a coarse one: Part, Schedule, Chapter, Appendix, Cap.
+	coarseRef = regexp.MustCompile(`(?i)(\bSchedule\s+\d|\bParts?\s+\d[A-Z]?|\bChapters?\s+(\d+|[IVX]+)\b|\bSection\s+[IVX]+\b|\bAppendix\s+[A-Z]\b|\bCap\.?\s*\d+)`)
+	docName   = regexp.MustCompile(`(?i)\b(AMLO|Ordinance|Guideline|Guidelines|Guidance Notes|Licensing Guide|UNATMO|DTROP|OSCO|WMD\(CPS\)O|circular|C&ED|CCE|MSO|MSOs|AML/CFT|Companies Ordinance|Banking Ordinance)\b`)
+	numPunct  = regexp.MustCompile(`[\d$,.%()]+`)
+	latinWord = regexp.MustCompile(`[A-Za-z][A-Za-z'\-/&]+`)
+	quoted    = regexp.MustCompile(`[“"‘「『][^”"’」』]{2,}[”"’」』]`)
+	// the Chinese fine-grained citation, and everything to strip before counting
+	// what a Chinese stem says
+	tcFineRef = regexp.MustCompile(`第[\dA-Za-z().]+(條|款|段|分部)`)
+	tcStrip   = regexp.MustCompile(`《[^》]*》|附表\s*\d+[A-Z]?|第\s*[\dA-Za-z().]+\s*(條|款|段|部|章|項|節|分部)|\([a-z]\)|\(\d+\)|[\dA-Za-z().]+`)
+)
+
+// stemStopWords are the words a stem can be made of without saying anything:
+// grammar, the names of the documents, and the vocabulary of citation itself.
+var stemStopWords = map[string]bool{}
+
+func init() {
+	for _, w := range strings.Fields(`the of to a an and or in on under which what is are does do how between with
+		for by its it that this these those be has have from as at not no one two both main body following
+		correct true false statements statement regarding about found set out where section sections paragraph
+		paragraphs part parts schedule chapter subject matter division structured character differ basic effect
+		apply applies applied purpose scope mean means say says state states provide provides govern governs
+		according should must may when if whether than more less only also any all such into out so their they
+		them itself who whom whose then there here some own same can cannot will would could per via versus vs
+		described describe describes refer refers referred contains contained cover covers covered deal deals
+		dealt addressed address addresses relationship relate relates each other another differ differs did done`) {
+		stemStopWords[w] = true
+	}
+}
+
+// substantiveWords is what remains of an English stem once its citations, the
+// document names and the words of asking are removed: the words that say what
+// the question is about.
+func substantiveWords(s string) []string {
+	s = fineRef.ReplaceAllString(s, " ")
+	s = coarseRef.ReplaceAllString(s, " ")
+	s = docName.ReplaceAllString(s, " ")
+	s = numPunct.ReplaceAllString(s, " ")
+	var out []string
+	for _, w := range latinWord.FindAllString(s, -1) {
+		if !stemStopWords[strings.ToLower(w)] {
+			out = append(out, w)
+		}
+	}
+	return out
+}
+
+// hanLeft counts the Chinese characters of a stem once its citations are removed.
+func hanLeft(s string) int {
+	n := 0
+	for _, r := range tcStrip.ReplaceAllString(s, " ") {
+		if unicode.Is(unicode.Han, r) {
+			n++
+		}
+	}
+	return n
+}
+
+// TestStemStatesContent: a stem that cites a section, subsection or paragraph
+// must also say, in words, what that provision is about. "What does section 16
+// of Schedule 2 prohibit?" leaves nothing once the citation is removed; the
+// candidate can only answer it by knowing what number 16 carries. The floor is
+// three substantive English words, or eight Chinese characters. Structure items
+// citing only a Part or Schedule, and stems quoting a defined term, are exempt
+// for the reasons given above.
+func TestStemStatesContent(t *testing.T) {
+	bank := loadBank(t)
+	for _, q := range bank {
+		if q.combo() {
+			continue // the statements carry the content; the stem only names the passage
+		}
+		if fineRef.MatchString(q.En.Q) && !quoted.MatchString(q.En.Q) {
+			if words := substantiveWords(q.En.Q); len(words) < 3 {
+				t.Errorf("%s (en): the stem cites a provision but says nothing about it beyond %q; state what the provision provides: %q",
+					q.ID, words, q.En.Q)
+			}
+		}
+		if tcFineRef.MatchString(q.Tc.Q) && !quoted.MatchString(q.Tc.Q) {
+			if n := hanLeft(q.Tc.Q); n < 8 {
+				t.Errorf("%s (tc): the stem cites a provision but says only %d characters about it; state what the provision provides: %q",
+					q.ID, n, q.Tc.Q)
+			}
+		}
+	}
+}
+
+// TestNoNumberInterrogatives bans the sentence shapes that make a number the
+// unknown: "What is the effect of section 5(1)?", "What does section 16
+// prohibit?", "How do sections 4 and 15 relate?", "To which transactions does
+// section 13 apply?". A stem that first states the rule and then asks a question
+// about it ("Section 3(1)(a) requires CDD before a business relationship. In
+// which situation may verification follow?") is the intended form and matches
+// none of these. The "what does section N" pattern is anchored to the start of
+// the stem for exactly that reason: a scenario followed by "what does section 10
+// require?" has already said what the question is about.
+func TestNoNumberInterrogatives(t *testing.T) {
+	bank := loadBank(t)
+	const ref = `(?:section|s\.|subsection|paragraph|¶|division)s?\s*[\d(]`
+	const tref = `第[\dA-Za-z().]+(?:條|款|段|分部)`
+	patterns := map[string][]*regexp.Regexp{
+		"en": {
+			regexp.MustCompile(`(?i)\bwhat\s+(?:is|are|was)\s+(?:the\s+)?(?:basic\s+|general\s+|main\s+|overall\s+)?(?:effect|purpose|subject\s+matter|scope|gist|thrust|significance|relationship|division|structure)\s+(?:of|between)\s+(?:the\s+)?` + ref),
+			regexp.MustCompile(`(?i)^\s*what\s+(?:[\w-]+\s+){0,2}(?:does|do)\s+(?:the\s+)?` + ref + `[^?]{0,40}\?$`),
+			regexp.MustCompile(`(?i)\bhow\s+(?:do|does|is|are)\s+(?:the\s+)?` + ref + `[^?]*\b(?:relate|differ|distinguish|interact|align|compare|structured|divided)`),
+			regexp.MustCompile(`(?i)\brelationship\s+between\s+(?:the\s+)?` + ref),
+			regexp.MustCompile(`(?i)^\s*to\s+(?:which|what|whom)\s+[^?]{0,30}\b(?:does|do)\s+` + ref + `[^?]{0,25}\bapply\s*\?$`),
+		},
+		"tc": {
+			regexp.MustCompile(tref + `(?:與|及|和)` + tref + `(?:在[^？]{0,8})?(?:有何關係|的關係|如何分工|有何分別|如何互動|如何配合|如何相互)`),
+			regexp.MustCompile(`^(?:《[^》]*》)?(?:附表\s*\d+)?` + tref + `(?:規定|禁止|訂明|要求|載有|涵蓋|授予|賦予|訂立)(?:甚麼|什麼|何事|哪些|哪一項)[^？]{0,6}？$`),
+			regexp.MustCompile(tref + `(?:的|之)(?:結構|主題|內容|基本效力|效力|目的|範圍)(?:為何|是甚麼|是什麼)`),
+		},
+	}
+	for _, q := range bank {
+		for lang, stem := range map[string]string{"en": q.En.Q, "tc": q.Tc.Q} {
+			for _, re := range patterns[lang] {
+				if m := re.FindString(stem); m != "" {
+					t.Errorf("%s (%s): the stem asks what a numbered provision says (%q); state the rule and ask about it instead",
+						q.ID, lang, m)
+					break
+				}
+			}
+		}
+	}
+}
+
+// TestNoNumberOnlyOptions: an option may carry a citation, but not be one. Four
+// options reading "Section 7 / Section 5 / Section 23 / Section 30" ask the
+// candidate which number a rule lives under, which is the recall the owner ruled
+// out; so is a keyed answer that is a bare list of sections. An option that pairs
+// a number with what it is ("section 13 of Schedule 2, a remittance other than
+// a wire transfer") is fine, and so are Part- and Schedule-level options, which
+// belong to the structure items kept on purpose.
+func TestNoNumberOnlyOptions(t *testing.T) {
+	bank := loadBank(t)
+	bare := regexp.MustCompile(`(?i)^\s*(?:in|under|at|by|see)?\s*(?:section|s\.|subsection|paragraph|¶|item|division)s?\s*[\d(]`)
+	isBare := func(o string) bool { return bare.MatchString(o) && len(substantiveWords(o)) <= 2 }
+	for _, q := range bank {
+		if q.combo() {
+			continue // the fixed option block is lists of statement numbers by design
+		}
+		n := 0
+		for _, o := range q.En.Options {
+			if isBare(o) {
+				n++
+			}
+		}
+		if n >= 2 {
+			t.Errorf("%s: %d of %d options are bare section numbers; say what each provision is, or ask about the rule",
+				q.ID, n, len(q.En.Options))
+		} else if q.Answer >= 0 && q.Answer < len(q.En.Options) && isBare(q.En.Options[q.Answer]) {
+			t.Errorf("%s: the keyed answer is a bare section number: %q", q.ID, q.En.Options[q.Answer])
+		}
+	}
+}

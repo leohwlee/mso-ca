@@ -184,6 +184,7 @@ review found it in real questions.
 | Absolutes in combination statements | "always" and "never" marking the false statement |
 | Even option punctuation | a stray semicolon marking the right answer |
 | Combination format | the printed option block, verbatim, and a spread of answer letters |
+| Stems state the provision; no number-only options | asking what a section number says, or which number a rule lives under |
 
 The method behind that table — how to write a bilingual bank from a fixed set of
 documents, verify it blind, and measure the surface tells that let a candidate

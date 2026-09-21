@@ -401,24 +401,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.27及6.10段；《大規模毀滅武器（提供服務的管制）條例》第4條"
   },
   "en": {
-   "q": "Section 4 of the Weapons of Mass Destruction (Control of Provision of Services) Ordinance prohibits a person from doing what?",
+   "q": "Section 4 of the Weapons of Mass Destruction (Control of Provision of Services) Ordinance prohibits a person from providing services that may be connected to proliferation financing (PF), and the Guideline notes that the provision of services is widely defined. As the Guideline describes the section, what is the test for whether the prohibition applies?",
    "options": [
-    "Providing services reasonably believed or suspected to be connected to proliferation financing",
-    "Exporting any dual-use goods without a licence from the Commerce and Economic Development Bureau",
-    "Operating a money service business without first notifying the Commerce and Economic Development Bureau",
-    "Providing any services to a customer located in the DPRK or Iran, regardless of reasonable suspicion"
+    "The person believes or suspects on reasonable grounds that the services may relate to PF",
+    "The person has actual knowledge that the services will be used to finance a weapons programme",
+    "The customer or any other recipient of the services is located in the DPRK or in Iran",
+    "The CCE has given the person a written notice that the recipient is a party under sanctions"
    ],
-   "explain": "s.4 WMD(CPS)O prohibits providing services where a person believes or suspects, on reasonable grounds, that the services may be connected to PF — a belief/suspicion test, not a blanket prohibition (¶1.27, ¶6.10). Dual-use export licensing and CEDB notification are not what s.4 itself prohibits, and a blanket DPRK/Iran-customer ban misstates the test — the country-specific UNSO regulations (¶6.9) are a separate regime."
+   "explain": "The Guideline describes section 4 as prohibiting the provision of services where the person believes or suspects, on reasonable grounds, that those services may be connected to PF, so the trigger is reasonable belief or suspicion. Requiring actual knowledge that the services will finance a weapons programme sets the bar higher than the section does. The location of the recipient in the DPRK or Iran is the concern of the country-specific regulations made under the UNSO rather than the test in this section, and a written notice from the CCE is no part of the test either, which turns on the person's own state of mind."
   },
   "tc": {
-   "q": "《大規模毀滅武器（提供服務的管制）條例》第4條禁止任何人作出甚麼行為？",
+   "q": "《大規模毀滅武器（提供服務的管制）條例》第4條禁止任何人提供可能與擴散資金籌集有關的服務，而本指引指出「提供服務」被廣泛界定。按本指引對該條的描述，判斷該項禁止是否適用的驗證標準是甚麼？",
    "options": [
-    "基於合理理由相信或懷疑與擴散資金籌集有關而提供服務",
-    "未領有商務及經濟發展局發出的許可證而出口任何兩用物品",
-    "未有事先通知商務及經濟發展局，而經營任何金錢服務業務",
-    "不論有否合理懷疑，向位於朝鮮或伊朗的客戶提供任何服務"
+    "該人基於合理理由相信或懷疑該等服務可能與擴散資金籌集有關",
+    "該人確實知道該等服務將會用於資助發展大規模毀滅武器的有關計劃",
+    "接受該等服務的客戶或其他收受服務的人位於朝鮮或伊朗境內",
+    "關長已向該人發出書面通知，指明該等服務的收受人屬受制裁的一方"
    ],
-   "explain": "該條例第4條禁止任何人在基於合理理由相信或懷疑服務可能與擴散資金籌集有關的情況下提供服務——這是一項相信／懷疑的驗證標準，並非一概而論的禁止（第1.27及6.10段）。兩用物品出口許可及知會商務及經濟發展局並非第4條本身所禁止的事宜；一概禁止向朝鮮或伊朗客戶提供服務亦錯誤描述了相信／懷疑驗證標準——按國家劃分的《聯合國制裁條例》規例（第6.9段）屬另一制度。"
+   "explain": "本指引描述該條禁止任何人在基於合理理由相信或懷疑服務可能與擴散資金籌集有關的情況下提供服務，因此觸發禁止的是合理的相信或懷疑。要求該人確實知道服務將用於資助武器計劃，是把門檻定得比該條為高。收受人是否位於朝鮮或伊朗，是根據《聯合國制裁條例》針對該兩國訂立的規例所處理的事宜，並非該條的驗證標準。關長的書面通知亦非該標準的一部分，該標準取決於該人本身的認知狀態。"
   }
  },
  {
@@ -659,28 +659,28 @@
   "module": 1,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.1",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.1段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.1; s.7(1) & (6) AMLO",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.1段；《打擊洗錢條例》第7(1)及(6)條"
   },
   "en": {
-   "q": "Under which provision of the AMLO is the Guideline on AML/CFT for MSOs published?",
+   "q": "Paragraph 1.1 of the Guideline states that it is published under section 7 of the AMLO, the provision that allows a relevant authority such as the CCE to publish guidelines on the operation of Schedule 2. What legal status does a guideline published under that provision have?",
    "options": [
-    "Section 7",
-    "Section 5",
-    "Section 23",
-    "Section 30"
+    "It is not subsidiary legislation, even though it is published in the Gazette under the AMLO",
+    "It is subsidiary legislation, and takes effect on the day it is published in the Gazette",
+    "It forms part of Schedule 2 itself once it has been adopted by a notice published in the Gazette",
+    "It takes effect as a condition attached to each licence that the CCE grants to an MSO"
    ],
-   "explain": "¶1.1 states the Guideline is published under section 7 of the AMLO. Section 5 creates the offence of contravening a specified provision, section 23 requires guidelines on the pecuniary penalty power to be published before that power is first exercised, and section 30 concerns the grant of a licence."
+   "explain": "Section 7 of the AMLO lets a relevant authority publish in the Gazette any guideline it considers appropriate for giving guidance on the operation of Schedule 2, and the same section provides that a guideline so published is not subsidiary legislation. Its force comes instead from the rules on evidence and on the CCE having regard to it that paragraph 1.8 sets out. It is therefore not subsidiary legislation that takes effect on gazettal, it does not become part of Schedule 2, which is amended by the Secretary for Financial Services and the Treasury by notice in the Gazette, and it is not a licence condition, which is a separate matter the CCE deals with when granting a licence."
   },
   "tc": {
-   "q": "《打擊洗錢及恐怖分子資金籌集指引》是根據《打擊洗錢條例》哪一條條文發出？",
+   "q": "本指引第1.1段述明本指引根據《打擊洗錢條例》第7條公布，該條容許有關當局（例如關長）就附表2的施行公布指引。根據該條公布的指引具有甚麼法律地位？",
    "options": [
-    "第7條",
-    "第5條",
-    "第23條",
-    "第30條"
+    "它並非附屬法例，儘管它是根據該條例在憲報公布的",
+    "它屬附屬法例，自其在憲報刊登當日起即告生效",
+    "它一經憲報公告採納，即成為附表2本身的一部分",
+    "它以關長批給金錢服務經營者牌照時附加的條件形式生效"
    ],
-   "explain": "第1.1段訂明本指引根據《打擊洗錢條例》第7條發出。第5條訂立違反指明的條文的罪行，第23條規定須在首次行使施加罰款的權力前刊登有關指引，第30條則關乎批出牌照。"
+   "explain": "《打擊洗錢條例》第7條容許有關當局在憲報公布它認為對附表2條文的施行提供導引屬適當的指引，而同一條訂明如此公布的指引不是附屬法例。指引的效力來自第1.8段所載關於證據及關長須顧及指引的規則。因此，它並非自刊登憲報起生效的附屬法例，不會成為附表2的一部分（附表2由財經事務及庫務局局長藉憲報公告修訂），亦非牌照條件，牌照條件是關長批出牌照時另行處理的事宜。"
   }
  },
  {
@@ -1672,28 +1672,28 @@
   "module": 1,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.5; s.6 & 7 UNATMO",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.5段；《聯合國（反恐怖主義措施）條例》第6及7條"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.5(b); s.7 UNATMO",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.5(b)段；《聯合國（反恐怖主義措施）條例》第7條"
   },
   "en": {
-   "q": "Which section of the UNATMO prohibits the provision or collection of property for use to commit terrorist acts?",
+   "q": "Section 7 of the UNATMO, as the Guideline describes it, prohibits any person from providing or collecting property for use to commit terrorist acts. Which circumstance brings the provision or collection of property within this prohibition?",
    "options": [
-    "Section 7",
-    "Section 6",
-    "Section 8A",
-    "Section 11L"
+    "The property is being provided or collected so that it can be used to carry out a terrorist act",
+    "The recipient of the property has been specified as a terrorist or a terrorist associate",
+    "The property has been frozen by the Secretary for Security as suspected terrorist property",
+    "The person is reckless as to whether the property is specified terrorist property"
    ],
-   "explain": "¶6.5 lists the relevant UNATMO provisions: section 6 empowers the Secretary for Security to freeze suspected terrorist property; section 7 prohibits the provision or collection of property for use to commit terrorist acts; section 8A prohibits dealing with specified terrorist property; and section 11L concerns financing terrorist travel."
+   "explain": "The Guideline describes this provision as directed at the purpose for which property is provided or collected, so it applies where the property is to be used to commit terrorist acts. The status of the recipient as a specified terrorist or terrorist associate is the concern of the separate prohibition on making property or financial services available to, or collecting or soliciting them for, terrorists and terrorist associates. Property frozen by the Secretary for Security engages the freezing power, and recklessness as to whether property is specified terrorist property is an element of the separate offence of dealing with such property, so neither by itself brings a provision or collection of property within this prohibition."
   },
   "tc": {
-   "q": "《聯合國（反恐怖主義措施）條例》哪一條禁止提供或籌集財產以用於進行恐怖主義行為？",
+   "q": "按本指引所述，《聯合國（反恐怖主義措施）條例》第7條禁止任何人提供或籌集財產以作出恐怖主義行為。下列哪種情況令提供或籌集財產的行為落入該項禁止的範圍？",
    "options": [
-    "第7條",
-    "第6條",
-    "第8A條",
-    "第11L條"
+    "該財產是為了讓人可以用來作出恐怖主義行為而被提供或籌集的",
+    "收受該財產的人已被指明為恐怖分子或與恐怖分子有聯繫者",
+    "該財產已被保安局局長以懷疑屬恐怖分子財產為由凍結",
+    "該人罔顧該財產是否屬指明的恐怖分子財產而處理該財產"
    ],
-   "explain": "第6.5段列出相關條文：第6條授權保安局局長凍結懷疑屬恐怖分子財產的財產；第7條禁止提供或籌集財產以用於進行恐怖主義行為；第8A條禁止處理指明恐怖分子財產；第11L條則關乎資助恐怖分子旅行。"
+   "explain": "本指引描述該條文針對提供或籌集財產的目的，因此凡財產是用以作出恐怖主義行為，該條即適用。收受人是否已被指明為恐怖分子或與恐怖分子有聯繫者，是另一項禁止向恐怖分子及與恐怖分子有聯繫者提供財產或金融服務或為其籌集或徵求的條文所關注的事宜。財產被保安局局長凍結，涉及的是凍結權力，而罔顧財產是否屬指明的恐怖分子財產，則是處理該等財產的另一罪行的元素，因此兩者本身均不會令提供或籌集財產的行為落入該項禁止的範圍。"
   }
  },
  {
@@ -4042,24 +4042,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.5(c)段；《聯合國（反恐怖主義措施）條例》第8條"
   },
   "en": {
-   "q": "Section 8 of the UNATMO prohibits which conduct in relation to terrorists and terrorist associates?",
+   "q": "Section 8 of the UNATMO, as the Guideline describes it, prohibits any person from making available, collecting or soliciting property or financial (or related) services for terrorists and terrorist associates. Which of the following conduct falls within that prohibition?",
    "options": [
-    "Making available, collecting or soliciting property or financial services for them",
-    "Providing or collecting property for use to commit terrorist acts",
-    "Dealing with property knowing it to be specified terrorist property",
-    "Providing or collecting property in order to finance terrorism-related travel"
+    "Soliciting donations of property on behalf of a person who is a terrorist associate",
+    "Giving property for a terrorist act to a person who is not a terrorist or terrorist associate",
+    "Financing a person's travel between states so that the person can receive terrorist training",
+    "Dealing with property while reckless as to whether it is specified terrorist property"
    ],
-   "explain": "¶6.5(c) states that section 8 prohibits any person from making available or collecting or soliciting property or financial (or related) services for terrorists and terrorist associates. Section 7 concerns property for use to commit terrorist acts, section 8A concerns dealing with specified terrorist property, and section 11L concerns financing terrorism-related travel — each a different UNATMO offence from the one in section 8."
+   "explain": "The prohibition turns on who the property or services are for: it covers making property or financial services available to terrorists and terrorist associates, and equally covers collecting or soliciting property for them, so soliciting donations for a terrorist associate is within it. Giving property for a terrorist act to someone who is neither a terrorist nor a terrorist associate is caught instead by the separate prohibition on providing or collecting property for use to commit terrorist acts. Financing travel between states for terrorist training is the separate offence of financing terrorist travel, and dealing with property while reckless as to whether it is specified terrorist property is the separate offence of dealing with terrorist property."
   },
   "tc": {
-   "q": "《聯合國（反恐怖主義措施）條例》第8條就恐怖分子及恐怖分子聯繫者禁止哪種行為？",
+   "q": "按本指引所述，《聯合國（反恐怖主義措施）條例》第8條禁止任何人向恐怖分子及與恐怖分子有聯繫者提供財產或金融（或有關的）服務，或為其籌集財產或尋求金融（或有關的）服務。下列哪項行為屬該項禁止的範圍？",
    "options": [
-    "為他們提供、籌集或徵求財產或財務（或相關）服務",
-    "提供或籌集財產以供作出恐怖主義行為",
-    "在知悉財產屬指明恐怖分子財產的情況下處理該財產",
-    "提供或籌集財產以資助與恐怖主義相關的旅程"
+    "代表一名與恐怖分子有聯繫者向其他人徵求捐贈財產",
+    "向與恐怖分子並無聯繫的人提供財產以作出恐怖主義行為",
+    "資助某人往來國家之間的旅程，以便該人接受恐怖主義培訓",
+    "在罔顧財產是否屬指明的恐怖分子財產的情況下處理該財產"
    ],
-   "explain": "第6.5(c)段訂明第8條禁止任何人為恐怖分子及恐怖分子聯繫者提供、籌集或徵求財產或財務（或相關）服務。第7條關乎用於作出恐怖主義行為的財產，第8A條關乎處理指明恐怖分子財產，第11L條則關乎資助與恐怖主義相關的旅程——三者均為該條例下不同於第8條的罪行。"
+   "explain": "該項禁止的關鍵在於財產或服務是為誰而提供：它涵蓋向恐怖分子及與恐怖分子有聯繫者提供財產或金融服務，亦同樣涵蓋為他們籌集或徵求財產，因此代表與恐怖分子有聯繫者徵求捐贈屬其範圍。向與恐怖分子並無聯繫的人提供財產以作出恐怖主義行為，是由另一項禁止提供或籌集財產以作出恐怖主義行為的條文規管。資助往來國家之間的旅程以接受恐怖主義培訓，屬資助恐怖分子旅程的另一罪行，而在罔顧財產是否屬指明的恐怖分子財產的情況下處理財產，則屬處理恐怖分子財產的另一罪行。"
   }
  },
  {
@@ -4107,33 +4107,33 @@
   "format": "combination"
  },
  {
+  "id": "m1-121",
   "module": 1,
   "answer": 0,
   "source": {
-   "en": "C&ED Circular MSSB/MIS_06/2018 (31 Jul 2018) ¶1 — commencement of Cap. 629",
-   "tc": "香港海關通函 MSSB/MIS_06/2018（2018年7月31日）第1段——第629章的生效日期"
+   "en": "C&ED Circular MSSB/MIS_06/2018 (31 Jul 2018) ¶3 — disclosure on request by travellers about to leave or arriving not via a specified control point",
+   "tc": "香港海關通函 MSSB/MIS_06/2018（2018年7月31日）第3段——即將離境或非經指明管制站抵港的旅客應要求披露"
   },
   "en": {
-   "q": "The C&ED circular of 31 July 2018 reminded MSOs that the Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance (Cap. 629) had come into operation. On what date did the Ordinance come into operation?",
+   "q": "The C&ED circular of 31 July 2018 reminded MSOs that the Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance (Cap. 629) had come into operation on 16 July 2018. As the circular summarises the Ordinance, what must a traveller who is about to leave Hong Kong do about a large quantity of CBNIs in his or her possession?",
    "options": [
-    "16 July 2018",
-    "31 July 2018",
-    "16 October 2018",
-    "31 December 2018"
+    "Disclose them when a Customs officer asks, and then make a written declaration",
+    "Declare them in writing at the Red Channel before going through the control point",
+    "Declare them in advance through the C&ED's online CBNI Declaration System",
+    "Report them to the Joint Financial Intelligence Unit before leaving"
    ],
-   "explain": "The circular states that the Ordinance came into operation on 16 July 2018. 31 July 2018 is the date of the circular itself, not the commencement date of the Ordinance, and neither 16 October 2018 nor 31 December 2018 appears anywhere in the circular."
+   "explain": "The circular explains that a traveller who is about to leave Hong Kong, like one who arrives other than through a specified control point, must disclose on the request of a Customs officer whether he or she is carrying a large quantity of CBNIs and, if so, make a written declaration. The Red Channel written declaration is the procedure for travellers arriving through a specified control point, and the advance declaration through the CBNI Declaration System is the procedure for a large quantity of CBNIs moving in a cargo consignment. The Joint Financial Intelligence Unit receives suspicious transaction reports, and the circular gives it no role in the declaration of CBNIs."
   },
   "tc": {
-   "q": "香港海關2018年7月31日的通函提醒金錢服務經營者，《實體貨幣及不記名可轉讓票據跨境流動條例》（第629章）已經生效。該條例於哪一日生效？",
+   "q": "香港海關2018年7月31日的通函提醒金錢服務經營者，《實體貨幣及不記名可轉讓票據跨境流動條例》（第629章）已於2018年7月16日起實施。按通函對該條例的概述，即將離開香港的旅客如管有大量現金類物品，須怎樣做？",
    "options": [
-    "2018年7月16日",
-    "2018年7月31日",
-    "2018年10月16日",
-    "2018年12月31日"
+    "在海關人員要求下披露管有該等物品，如有的話再作出書面申報",
+    "在通過管制站前，使用紅通道向海關人員就該等物品作出書面申報",
+    "利用海關網上的現金類物品申報系統就該等物品預先申報",
+    "在離境前向聯合財情組就管有該等物品提交報告並保留副本"
    ],
-   "explain": "通函述明該條例於2018年7月16日生效。2018年7月31日是通函本身的日期，並非該條例的生效日期；2018年10月16日及2018年12月31日則完全沒有在通函中出現。"
-  },
-  "id": "m1-121"
+   "explain": "通函解釋，即將離開香港的旅客，與非經指明管制站抵港的旅客一樣，須在海關人員要求下披露是否管有大量現金類物品，如有的話，須作出書面申報。使用紅通道作出書面申報，是經指明管制站抵港旅客的程序，而透過現金類物品申報系統預先申報，則是同一批次屬貨物的大量現金類物品的程序。聯合財情組接收可疑交易報告，通函並無賦予它在申報現金類物品方面任何角色。"
+  }
  },
  {
   "module": 1,
@@ -7736,24 +7736,24 @@
    "tc": "《打擊洗錢條例》第15(3)條"
   },
   "en": {
-   "q": "Under section 15(3), in which criminal proceedings is the section 15(2) protection disapplied?",
+   "q": "Section 15(2) of the AMLO provides that, where a person whom an investigator requires to answer a question or give an explanation claims beforehand that the answer might incriminate them, the requirement and the answer are not admissible in evidence against them in criminal proceedings. Section 15(3) then removes that protection in one situation. In which prosecution can the answer be used against the person?",
    "options": [
-    "Proceedings under section 13, or Part V of the Crimes Ordinance, regarding the answer",
-    "Proceedings for any offence under Schedule 2 of the AMLO in which the answer is relied on",
-    "Proceedings for an offence under section 10 in respect of a record produced under section 9",
-    "Proceedings for an offence under section 20 in respect of the same answer or explanation"
+    "A prosecution for giving the investigator a false or misleading answer, or for perjury",
+    "A prosecution for the contravention that the investigator was appointed to look into",
+    "A prosecution for a breach of a Schedule 2 requirement that the answer happens to reveal",
+    "A prosecution for dealing with proceeds of crime that the answer itself brought to light"
    ],
-   "explain": "Section 15(3) disapplies the section 15(2) protection in criminal proceedings in which the person is charged with an offence under section 13(1), (3), (5), (6), (7) or (8), or under Part V of the Crimes Ordinance (Cap. 200), in respect of the answer, response, explanation or further particulars — a false answer can still be prosecuted. Schedule 2 offences generally, section 10 proceedings over a section 9 record, and section 20 proceedings are not within that carve-out."
+   "explain": "The protection is lifted where the person is charged, in respect of that very answer, with an offence of not complying with the investigator's requirement or of giving a false or misleading answer, or with perjury under Part V of the Crimes Ordinance, so a person cannot lie to the investigator and then shelter behind the privilege. It stays in place for a prosecution of the contravention under investigation, for a Schedule 2 breach the answer reveals, and for dealing with proceeds of crime, because in each of those cases the compelled answer would be used to prove a different offence against the person."
   },
   "tc": {
-   "q": "根據第15(3)條，第15(2)條的保障在哪類刑事法律程序中並不適用？",
+   "q": "《打擊洗錢條例》第15(2)條訂明，如調查員要求某人回答問題或給予解釋，而該人在回答前聲稱該回答可能導致其入罪，則該要求及該回答不得在刑事法律程序中接納為針對該人的證據。第15(3)條隨後在一種情況下撤去這項保障。在哪一類檢控中，該回答可用作針對該人的證據？",
    "options": [
-    "根據第13條或《刑事罪行條例》第V部而涉及該答覆的法律程序",
-    "根據《打擊洗錢條例》附表2所訂罪行而依賴該答覆提出的法律程序",
-    "根據第10條而就根據第9條交出的有關紀錄而提出的任何法律程序",
-    "就同一答覆或解釋而根據第20條所訂的罪行提出的任何法律程序"
+    "就向調查員給予虛假或具誤導性的回答，或就偽證罪而提出的檢控",
+    "就調查員獲委任去調查的該項違反行為本身而對該人提出的檢控",
+    "就該回答碰巧揭露的某項違反附表2規定的行為而對該人提出的檢控",
+    "就該回答本身所揭發的處理犯罪得益的行為而對該人提出的檢控"
    ],
-   "explain": "第15(3)條訂明，如該人被控就該答覆、回應、解釋或進一步詳情而犯第13(1)、(3)、(5)、(6)、(7)或(8)條或《刑事罪行條例》（第200章）第V部所訂罪行，第15(2)條的保障即不適用——換言之，虛假答覆仍可被檢控。附表2所訂罪行整體而言、涉及第9條紀錄的第10條法律程序，以及第20條的法律程序，均不在該例外之列。"
+   "explain": "如該人就該項回答本身而被控不遵從調查員要求或給予虛假或具誤導性回答的罪行，或被控《刑事罪行條例》第V部所訂的偽證罪，該項保障即告撤去，因此該人不能在向調查員說謊後仍以該特權作掩護。至於就正接受調查的違反行為、就該回答所揭露的違反附表2規定的行為，或就處理犯罪得益而提出的檢控，該保障仍然適用，因為在該等情況下，被迫作出的回答會被用以證明該人干犯另一項罪行。"
   }
  },
  {
@@ -8157,24 +8157,24 @@
    "tc": "《打擊洗錢條例》第21(9)條"
   },
   "en": {
-   "q": "Which of the section 21 powers are NOT exercisable in relation to the Government?",
+   "q": "Section 21 of the AMLO lets a relevant authority discipline a financial institution that has contravened a specified provision. The measures available are a public reprimand, an order to take remedial action by a set date, a pecuniary penalty of up to the greater of $10,000,000 or three times the profit gained or cost avoided, and a further daily penalty where a remedial order is not complied with. Section 21(9) withholds some of these measures where the financial institution concerned is the Government. Which measures are withheld?",
    "options": [
-    "The pecuniary penalty and daily pecuniary penalty powers in subsections (2)(c) and (4)",
-    "The power to publicly reprimand the financial institution under subsection (2)(a)",
-    "The power to order the financial institution to take remedial action under subsection (2)(b)",
-    "Every power specified anywhere in section 21, including remedial orders and reprimand"
+    "The pecuniary penalty and the daily penalty for not complying with a remedial order",
+    "The public reprimand and the order to take remedial action by a specified date",
+    "The public reprimand and the public disclosure of the decision and its reasons",
+    "The order to take remedial action and the daily penalty for not complying with it"
    ],
-   "explain": "Section 21(9) provides that only the powers in subsections (2)(c) and (4) — pecuniary penalty and daily pecuniary penalty — are unavailable against the Government; public reprimand and remedial orders remain exercisable, and it is not true that every section 21 power is barred."
+   "explain": "The measures withheld against the Government are the two that involve payment: the pecuniary penalty and the daily penalty that backs a remedial order. A relevant authority may still publicly reprimand the Government and order it to remedy the contravention by a set date, so any pairing that includes the reprimand or the remedial order is wrong. Disclosing the details and reasons of a decision is likewise not withheld, and the remedial order remains available even though the daily penalty for ignoring it does not."
   },
   "tc": {
-   "q": "第21條下哪些權力不可就政府行使？",
+   "q": "《打擊洗錢條例》第21條容許有關當局對違反指明的條文的金融機構採取紀律行動。可用的措施包括公開譴責、命令該機構在指明日期前採取糾正行動、命令繳付最高為$10,000,000或因該項違反而獲取的利潤或避免的開支的3倍（以較大者為準）的罰款，以及在該機構不遵從糾正命令時進一步施加的按日罰款。第21(9)條訂明，如有關金融機構是政府，其中某些措施不可行使。哪些措施不可行使？",
    "options": [
-    "第(2)(c)及(4)款的罰款權力及每日罰款權力",
-    "第(2)(a)款所指明的公開譴責有關金融機構的權力",
-    "第(2)(b)款所指明的命令金融機構採取糾正行動的權力",
-    "第21條下的一切權力，包括糾正命令及公開譴責在內"
+    "繳付罰款，以及就不遵從糾正命令而施加的按日罰款",
+    "公開譴責，以及命令在指明日期前採取糾正行動",
+    "公開譴責，以及向公眾披露該決定的詳情及理由",
+    "命令採取糾正行動，以及不遵從時的按日罰款"
    ],
-   "explain": "第21(9)條訂明只有第(2)(c)及(4)款所指明的權力（即罰款及每日罰款的權力）不可就政府行使；公開譴責及糾正命令的權力仍然可用，並非第21條下所有權力均告不可用。"
+   "explain": "不可就政府行使的，是涉及繳付款項的兩項措施：罰款，以及用以支持糾正命令的按日罰款。有關當局仍可公開譴責政府，並命令政府在指明日期前糾正該項違反，因此凡包括公開譴責或糾正命令的組合均屬錯誤。披露決定的詳情及理由同樣沒有被禁止，而即使不遵從糾正命令的按日罰款不可行使，糾正命令本身仍然可用。"
   }
  },
  {
@@ -8418,24 +8418,24 @@
    "tc": "《打擊洗錢條例》第51條"
   },
   "en": {
-   "q": "What regulation-making power does section 51 confer, and on whom?",
+   "q": "Part 5 of the AMLO, which contains the licensing regime for money service operators, has its own regulation-making power in section 51, separate from the general power in section 77 to make regulations for the better carrying out of the Ordinance. Who may make regulations under the Part 5 power, and what does the separation mean for the general power?",
    "options": [
-    "The Commissioner of Customs and Excise, to make regulations for the better carrying out of Part 5",
-    "The Chief Executive in Council, to make regulations for the whole Ordinance under section 77",
-    "The Secretary for Financial Services and the Treasury, to make regulations for Schedule 2",
-    "The Review Tribunal, to make its own rules of procedure and practice for the conduct of review hearings"
+    "The Commissioner of Customs and Excise, and the general power does not extend to Part 5",
+    "The Chief Executive in Council, who simply exercises the general power for Part 5 as well",
+    "The Commissioner of Customs and Excise, with each regulation approved by the Chief Executive",
+    "The Secretary for Financial Services and the Treasury, acting jointly with the Commissioner"
    ],
-   "explain": "Section 51 gives the Commissioner of Customs and Excise the power to make regulations for the better carrying out of Part 5 alone; the Chief Executive in Council's general regulation-making power for the rest of the Ordinance is in section 77, and neither the Secretary nor the Review Tribunal holds a regulation-making power under section 51."
+   "explain": "Regulations for the better carrying out of the licensing Part are made by the Commissioner of Customs and Excise, the regulator of money service operators, and the Chief Executive in Council's general regulation-making power is expressly stated not to cover that Part or the parallel Parts for the other regulated sectors. The Chief Executive in Council therefore does not make Part 5 regulations, the Commissioner's power is not conditioned on any approval by the Chief Executive, and the Secretary for Financial Services and the Treasury has no regulation-making role under the Ordinance."
   },
   "tc": {
-   "q": "第51條授予何人甚麼訂立規例的權力？",
+   "q": "《打擊洗錢條例》第5部載有金錢服務經營者的發牌制度，並在第51條設有其本身的訂立規例權力，有別於第77條為更佳地施行本條例而訂立規例的一般權力。誰可根據第5部的權力訂立規例？這種區分對一般權力有何影響？",
    "options": [
-    "海關關長，就更佳地實施第5部的條文訂立規例",
-    "行政長官會同行政會議，根據第77條就整條條例訂立規例",
-    "財經事務及庫務局局長，就附表2訂立規例",
-    "覆核審裁處，就覆核聆訊的進行訂立其本身的程序及常規規則"
+    "海關關長，而該一般權力並不延伸至第5部本身",
+    "行政長官會同行政會議，就第5部一併行使該一般權力",
+    "海關關長，惟每項規例均須經行政長官批准方可訂立",
+    "財經事務及庫務局局長，與海關關長聯合行使該權力"
    ],
-   "explain": "第51條只授權海關關長就更佳地實施第5部訂立規例；行政長官會同行政會議就本條例其餘部分訂立規例的一般權力載於第77條，局長及覆核審裁處均無第51條下的訂立規例權力。"
+   "explain": "為更佳地施行發牌部分而訂立的規例，由監管金錢服務經營者的海關關長訂立，而行政長官會同行政會議訂立規例的一般權力，則明文訂明不涵蓋該部及其他受規管行業的相應部分。因此，行政長官會同行政會議不會訂立第5部的規例，關長的權力並不以行政長官的批准為條件，財經事務及庫務局局長在本條例下亦無訂立規例的職能。"
   }
  },
  {
@@ -8447,24 +8447,24 @@
    "tc": "《打擊洗錢條例》第77條（第7部）"
   },
   "en": {
-   "q": "Under section 77, the Chief Executive in Council's power to make regulations for the better carrying out of the Ordinance does NOT extend to which Parts?",
+   "q": "Section 77(1) of the AMLO empowers the Chief Executive in Council to make regulations for the better carrying out of the provisions and purposes of the Ordinance, but excepts certain Parts, each of which carries its own regulation-making power. Which Parts are excepted?",
    "options": [
-    "Parts 5, 5A, 5B and 5C, which are expressly excepted",
-    "Part 7 alone, since that Part contains the power itself",
-    "Parts 1 and 2 only, covering definitions and preliminary matters",
-    "No Parts are excepted, and the power extends to the whole Ordinance"
+    "The Parts regulating money service operators, trust or company service providers, virtual asset activities and precious metals and stones dealers (Parts 5, 5A, 5B and 5C)",
+    "The Parts imposing the customer due diligence and record-keeping requirements and conferring the supervision and investigation powers on the relevant authorities (Parts 2 and 3)",
+    "The Parts establishing the AML/CFT Review Tribunal to hear reviews and imposing the confidentiality requirements on relevant authorities and their staff (Parts 6 and 6A)",
+    "The Parts governing the disciplinary actions of relevant authorities and containing the miscellaneous provisions, including section 77 itself (Parts 4 and 7)"
    ],
-   "explain": "Section 77(1) confers the power on the Chief Executive in Council to make regulations for the better carrying out of the Ordinance except Parts 5, 5A, 5B and 5C — those Parts have their own regulation-making regimes (e.g. section 51 for Part 5). Part 7 itself is not excepted, nor are Parts 1 and 2, and the exception is not empty."
+   "explain": "Section 77(1) confers the regulation-making power on the Chief Executive in Council for the Ordinance as a whole except Parts 5, 5A, 5B and 5C, which regulate money service operators, trust or company service providers, virtual asset activities and dealings in precious metals and stones. Each of those Parts has its own regulation-making provision, for example section 51, under which the Commissioner of Customs and Excise may make regulations for the better carrying out of Part 5. The customer due diligence and supervision Parts, the Review Tribunal and confidentiality Parts, and the disciplinary and miscellaneous Parts are not excepted, so regulations under section 77 may reach them."
   },
   "tc": {
-   "q": "根據第77條，行政長官會同行政會議就更佳地實施本條例訂立規例的權力，不延伸至以下哪些部？",
+   "q": "《打擊洗錢條例》第77(1)條授權行政長官會同行政會議為更佳地施行本條例的條文及達致本條例的目的而訂立規例，但剔除了若干部，該等部各自設有本身的訂立規例權力。哪些部獲剔除？",
    "options": [
-    "第5、5A、5B及5C部，該等部明文獲得剔除",
-    "只有第7部獲剔除，因為該部載有有關權力的條文本身",
-    "只有第1部及第2部獲剔除，即涉及釋義及導言的部分",
-    "並無任何一部獲得剔除，該項權力延伸至整條條例"
+    "規管金錢服務經營、信託或公司服務提供者、虛擬資產活動及貴金屬及寶石交易的各部（第5、5A、5B及5C部）",
+    "訂明有關客戶盡職審查及備存紀錄的規定，以及授予有關當局各項監管及調查權力的各部（第2及3部）",
+    "設立打擊洗錢及恐怖分子資金籌集覆核審裁處，以及對有關當局及其人員施加保密規定的各部（第6及6A部）",
+    "規管有關當局採取的紀律行動，以及載有包括第77條本身在內的各項雜項條文的各部（第4及7部）"
    ],
-   "explain": "第77(1)條授予行政長官會同行政會議就更佳地實施本條例訂立規例的權力，但明文剔除第5、5A、5B及5C部——該等部另有本身的訂立規例機制（如第5部的第51條）。第7部本身並未獲剔除，第1、2部亦然，而該項剔除亦非空言。"
+   "explain": "第77(1)條授予行政長官會同行政會議就整條條例訂立規例的權力，但第5、5A、5B及5C部除外，該等部分別規管金錢服務經營、信託或公司服務提供者、涉及虛擬資產的活動及貴金屬及寶石交易。該等部各自設有本身的訂立規例條文，例如根據第51條，海關關長可為更佳地施行第5部而訂立規例。客戶盡職審查及監管調查的各部、覆核審裁處及保密規定的各部，以及紀律行動及雜項條文的各部均沒有被剔除，故第77條下的規例可涵蓋該等部。"
   }
  },
  {
@@ -10475,24 +10475,24 @@
    "tc": "《打擊洗錢條例》第17條與第47條的比較"
   },
   "en": {
-   "q": "What distinguishes a warrant issued under section 17 from one issued under section 47?",
+   "q": "The AMLO provides for two different magistrate's warrants to enter premises, each issued on information on oath. A warrant under section 17 (call it the records warrant) is aimed at records or documents that may be required to be produced in an investigation by a relevant authority under Part 3. A warrant under section 47 (call it the evidence warrant) is aimed at premises where an offence of operating a money service without a licence is suspected, and is executed by an authorized officer of the Customs and Excise Department. Which statement correctly contrasts the two warrants?",
    "options": [
-    "Section 17 targets records producible under Part 3; section 47 targets evidence of a section 29 offence",
-    "A section 17 warrant may be issued only by a judge on sworn information; a section 47 warrant only by a magistrate",
-    "A section 17 warrant permits arrest of persons found on the premises; a section 47 warrant does not permit entry at all",
-    "A section 47 warrant is valid for only 7 days from issue; a section 17 warrant carries no time limit"
+    "The evidence warrant lets the officer seize cash or other articles and detain people found on the premises, which the records warrant does not",
+    "The evidence warrant must be executed within 7 days of its date, whereas the records warrant carries no time limit on entering the premises",
+    "The records warrant is issued by a judge on the application of the investigator, whereas the evidence warrant is issued by a magistrate",
+    "The records warrant authorises entry by force where necessary, whereas the evidence warrant confers no power to break into the premises"
    ],
-   "explain": "Section 17(1) concerns premises on which there is or is likely to be a record or document that may be required to be produced under Part 3. Section 47(1) concerns premises on which an offence under section 29 — operating a money service without a licence — is suspected. Both warrants are in fact issued by a magistrate on information on oath, not a judge; a section 17 warrant does not itself authorize arrest, and a section 47 warrant plainly authorizes entry; and it is the section 17 warrant, not the section 47 warrant, that carries the 7-day period."
+   "explain": "Under the warrant for evidence of unlicensed operation, the authorized officer may seize, remove or detain not just records but cash or other articles that appear to be evidence, may detain anyone on the premises who appears able to give relevant information until the search is over, and may break in by force. The warrant for records under investigation authorises entry, by force if necessary, and the search for and seizure of records or documents, but confers no power over cash or persons. It is the records warrant, not the evidence warrant, that must be executed within 7 days of its date, and both warrants are issued by a magistrate, not a judge."
   },
   "tc": {
-   "q": "根據第17條發出的手令與根據第47條發出的手令有何分別？",
+   "q": "《打擊洗錢條例》設有兩種不同的進入處所的裁判官手令，均須根據經宣誓而作的告發發出。第17條的手令（下稱紀錄手令）針對在有關當局根據第3部進行的調查中可被要求交出的紀錄或文件。第47條的手令（下稱證據手令）針對懷疑有人在沒有牌照的情況下經營金錢服務的處所，並由香港海關的獲授權人員執行。以下哪項陳述正確對比這兩種手令？",
    "options": [
-    "第17條針對第3部下須交出的紀錄；第47條則針對第29條罪行的證據",
-    "第17條手令須由法官因經宣誓的告發而發出；第47條手令則須由裁判官發出",
-    "第17條手令准許拘捕在處所內發現的人；第47條手令則完全不准許進入處所",
-    "第47條手令的有效期只有7日；而第17條的手令則並無任何時限"
+    "證據手令准許該人員檢取現金或其他物品，並扣留在處所內發現的人，而紀錄手令則無此等權力",
+    "證據手令須在自其日期起計的7日期間內執行，而紀錄手令則對進入處所並無任何時限規定",
+    "紀錄手令由法官應調查員的申請而發出，而證據手令則由裁判官根據經宣誓的告發而發出",
+    "紀錄手令授權在有必要時強行進入處所，而證據手令則不賦予破門及強行進入處所的權力"
    ],
-   "explain": "第17(1)條關乎其內存有或相當可能存有根據第3部可能須交出的紀錄或文件的處所。第47(1)條則關乎懷疑有第29條罪行（無牌經營金錢服務）發生的處所。兩者事實上均由裁判官因經宣誓而作的告發而發出，並非由法官發出；第17條手令本身並不授權拘捕，而第47條手令明顯准許進入處所；訂有7日期限的是第17條手令，而非第47條手令。"
+   "explain": "根據針對無牌經營證據的手令，獲授權人員不但可檢取、移走或扣留紀錄，亦可檢取看來屬證據的現金或其他物品，可扣留在處所內發現而看來有能力提供相關資料的人直至搜查完畢，並可破門強行進入。針對調查中紀錄的手令則授權進入處所（如有必要可強行進入）及搜尋和檢取紀錄或文件，但不賦予處置現金或人身的權力。須在自手令日期起計7日內執行的是紀錄手令而非證據手令，而兩種手令均由裁判官而非法官發出。"
   }
  },
  {
@@ -12943,24 +12943,24 @@
    "tc": "《打擊洗錢條例》第5(9)條（連同第5(7)條一併理解）"
   },
   "en": {
-   "q": "The section 5(9) defence is available to which persons charged under section 5(7)?",
+   "q": "Section 5(7) of the AMLO makes it an offence for an employee of a financial institution, a person employed to work for it, or a person concerned in its management to knowingly cause or knowingly permit the institution to contravene a specified provision. Section 5(9) then provides a defence of proving that one acted in accordance with the policies and procedures the institution established and maintained to ensure compliance with that provision. Who may rely on that defence?",
    "options": [
-    "An employee of a financial institution, or a person employed to work for one",
-    "Any person concerned in the management of the institution, including its directors",
-    "The financial institution itself, rather than any individual connected with it",
-    "Any person at all, provided that they did not personally benefit from the breach"
+    "An employee of the institution or a person employed to work for it, but not a person concerned in its management",
+    "Anyone charged with that offence, including a director or other person concerned in the institution's management",
+    "The financial institution itself, when it is prosecuted for the contravention that the employee caused or permitted",
+    "A person charged with the aggravated offence of causing the contravention with intent to defraud the institution"
    ],
-   "explain": "Section 5(9) makes the defence available, in proceedings under section 5(7), only to a person who is an employee of a financial institution or is employed to work for one. It does not extend on its terms to a person merely concerned in the institution's management, to the institution itself, or to anyone at all regardless of personal benefit."
+   "explain": "The defence is open to a person prosecuted for knowingly causing or permitting the contravention who is an employee of the financial institution or is employed to work for it. A person concerned in the institution's management is within the offence but is not among those to whom the defence is extended. The institution itself faces separate offences for its own contravention and has no such defence, and the defence attaches to the knowing offence rather than to the aggravated offence of causing a contravention with intent to defraud."
   },
   "tc": {
-   "q": "第5(9)條的免責辯護可供根據第5(7)條被控的哪些人援引？",
+   "q": "《打擊洗錢條例》第5(7)條訂明，任何屬金融機構的僱員、受僱為金融機構工作或關涉金融機構的管理的人，如明知而致使或明知而准許該機構違反指明的條文，即屬犯罪。第5(9)條隨後提供一項免責辯護：證明自己的作為是按照該機構為確保該條文獲遵守而設立和維持的政策及程序。誰可援引該免責辯護？",
    "options": [
-    "金融機構的僱員，或受僱為金融機構工作的人",
-    "參與該機構管理的任何人，包括其董事",
-    "該金融機構本身，而非與其有關連的任何個人",
-    "任何人士，只要其並無從該項違反中取得個人利益"
+    "該機構的僱員或受僱為其工作的人，但不包括關涉該機構管理的人",
+    "被控該罪行的任何人，包括董事或其他關涉該機構管理事務的人在內",
+    "該金融機構本身，當其因僱員所致使或准許的該項違反行為而被檢控時",
+    "被控犯出於詐騙該機構的意圖而致使該項違反的較嚴重罪行的人"
    ],
-   "explain": "第5(9)條訂明，該免責辯護只可在根據第5(7)條提起的法律程序中，供屬金融機構僱員或受僱為金融機構工作的人援引。按其字面，並不延伸至僅參與該機構管理的人、該機構本身，或不論是否取得個人利益的任何人。"
+   "explain": "該免責辯護可供因明知而致使或准許違反而被檢控、且屬該金融機構的僱員或受僱為該機構工作的人援引。關涉該機構的管理的人雖屬該罪行的涵蓋範圍，但並不在獲賦予該免責辯護的人之列。該機構本身就其自身的違反另有獨立罪行，並無此項免責辯護，而該免責辯護附屬於明知而犯的罪行，並不適用於出於詐騙意圖而致使違反的較嚴重罪行。"
   }
  },
  {
@@ -13190,24 +13190,24 @@
    "tc": "《打擊洗錢條例》第5(1)條"
   },
   "en": {
-   "q": "What is the basic effect of section 5(1) of the AMLO?",
+   "q": "Section 5(1) of the AMLO provides that Schedule 2, which sets out the customer due diligence and record-keeping requirements, has effect with respect to financial institutions, subject to three qualifications in the subsections that follow it. What do those qualifications do?",
    "options": [
-    "Schedule 2 has effect for financial institutions, subject to subsections (2) to (4)",
-    "Schedule 2 has effect for every person who carries on business in Hong Kong",
-    "Schedule 1, not Schedule 2, has effect with respect to financial institutions",
-    "Schedule 3, not Schedule 2, has effect with respect to financial institutions"
+    "They narrow the Schedule's reach for insurers, insurance intermediaries and stored value facility issuers",
+    "They extend the Schedule to designated non-financial businesses and professions such as solicitors and accountants",
+    "They set the fines and imprisonment for an institution that knowingly contravenes a requirement of the Schedule",
+    "They pick out which requirements of the Schedule count as specified provisions for the offence and disciplinary rules"
    ],
-   "explain": "Section 5(1) provides that, subject to subsections (2), (3) and (4), Schedule 2 has effect with respect to financial institutions. It is Schedule 2 — not Schedule 1 or Schedule 3 — that carries the customer due diligence and record-keeping requirements, and section 5(1) applies only to financial institutions, not to every business in Hong Kong; section 5A separately extends Schedule 2 to DNFBPs."
+   "explain": "The qualifications narrow the Schedule for three kinds of institution: an authorized insurer is covered for its long term business, licensed insurance agents, agencies and broker companies for transactions involving the kinds of insurance contract picked out from the Insurance Ordinance, and an SVF licensee or bank issuing a stored value facility where the facility can store more than $3,000 and is a physical device. Extending the Schedule to designated non-financial businesses and professions is done by a separate section of the Ordinance, the penalties for knowing contravention belong to the offence provisions rather than to the scope of the Schedule, and the list of specified provisions is a definition, not a qualification on the Schedule's effect."
   },
   "tc": {
-   "q": "《打擊洗錢條例》第5(1)條的基本效力為何？",
+   "q": "《打擊洗錢條例》第5(1)條訂明，載有客戶盡職審查及備存紀錄規定的附表2就金融機構而具有效力，但受其後各款的三項規限所限。該等規限有何作用？",
    "options": [
-    "附表2就金融機構有效力，受(2)至(4)款所限",
-    "附表2就在香港經營任何業務的每一個人具有效力",
-    "就金融機構而言，具有效力的是附表1，並非附表2",
-    "就金融機構而言，具有效力的是附表3，並非附表2"
+    "限制附表2對保險人、保險中介人及儲值支付工具發行人的適用範圍",
+    "將附表2的整個適用範圍擴展至律師及會計師等各類指定非金融業人士",
+    "訂明金融機構明知而違反附表2所訂規定時可被判處的罰款及監禁刑罰",
+    "指出附表2當中的哪些規定就罪行條文及紀律行動而言屬於指明的條文"
    ],
-   "explain": "第5(1)條訂明，在第(2)、(3)及(4)款的規限下，附表2就金融機構具有效力。訂有客戶盡職審查及備存紀錄規定的是附表2，並非附表1或附表3；而第5(1)條只適用於金融機構，並非香港的每一項業務；第5A條則另行將附表2的適用範圍擴展至指定非金融企業及行業。"
+   "explain": "該等規限就三類機構收窄附表2的適用範圍：獲授權保險人僅就其長期業務受涵蓋，持牌保險代理、代理機構及經紀公司僅就涉及《保險業條例》所指明類別的保險合約的交易受涵蓋，工具持牌人或銀行發行儲值支付工具，則只在該工具可儲存超逾$3,000的價值且屬實物裝置時才受涵蓋。將附表2擴展至指定非金融業人士由本條例另一條文處理，明知而違反的刑罰屬罪行條文而非附表2適用範圍的事宜，而指明的條文的列表是一項定義，並非對附表2效力的規限。"
   }
  },
  {
@@ -13452,24 +13452,24 @@
    "tc": "《打擊洗錢條例》第10(1)、(3)、(5)、(6)及(9)條"
   },
   "en": {
-   "q": "What distinguishes the offences in sections 10(5) and 10(6) from those in sections 10(1) and 10(3)?",
+   "q": "Section 10 of the AMLO creates offences for a person who fails to comply with a requirement imposed by an authorized person under section 9, or who produces a false or misleading record or gives a false or misleading answer in purported compliance with such a requirement. Each has a basic form, punishable on indictment by up to 1 year's or 2 years' imprisonment, and an aggravated form with a heavier maximum. What makes the offence the aggravated one?",
    "options": [
-    "Sections 10(5) and (6) require intent to defraud and carry a 7-year maximum, while sections 10(1) and (3) do not",
-    "Sections 10(5) and (6) carry a $1,000,000 fine but only a 2-year maximum, not section 10(9)'s 7 years",
-    "Sections 10(5) and (6) apply only to corporate licensees, not to individuals or partners",
-    "Sections 10(1) and (3) require intent to defraud, while sections 10(5) and (6) do not"
+    "The person acts with intent to defraud, which lifts the maximum term on indictment to 7 years' imprisonment",
+    "The person is a licensed money service operator, which lifts the maximum fine on indictment to $1,000,000",
+    "The record or answer is false or misleading in a material particular, which lifts the maximum term to 2 years",
+    "The person had no reasonable excuse for the failure, which lifts the maximum fine on indictment to $1,000,000"
    ],
-   "explain": "Section 10(1) covers failure to comply without reasonable excuse, and section 10(3) covers knowingly or recklessly producing false material - neither requires intent to defraud. Sections 10(5) and (6) cover the same conduct but committed with intent to defraud, and section 10(9) sets the maximum for offences under subsections (5)-(8) at $1,000,000 and 7 years on indictment, not 2 years; there is no restriction to corporate licensees."
+   "explain": "The aggravated offences are committed where the failure to comply, or the production of the false or misleading record or answer, is done with intent to defraud, and a person convicted on indictment is then liable to a fine of $1,000,000 and imprisonment for 7 years. Being a licensee is not an element of any of these offences. Falsity in a material particular and the absence of a reasonable excuse are elements of the basic offences themselves, the basic false-record offence already carrying a $1,000,000 fine and 2 years and the basic failure-to-comply offence a $200,000 fine and 1 year, so neither is what raises the offence to the aggravated form."
   },
   "tc": {
-   "q": "第10(5)及10(6)條的罪行與第10(1)及10(3)條的罪行有何分別？",
+   "q": "《打擊洗錢條例》第10條就以下的人訂立罪行：沒有遵從獲授權人根據第9條施加的要求的人，或交出虛假或具誤導性的紀錄或給予虛假或具誤導性的回答以充作遵從該要求的人。每項罪行均有基本形式（循公訴程序定罪最高可處監禁1年或2年）及最高刑罰較重的加重形式。甚麼因素令罪行成為加重形式？",
    "options": [
-    "第10(5)及(6)條須具有欺騙意圖，最高刑期為7年，第10(1)及(3)條則不須具備該意圖",
-    "第10(5)及(6)條可處罰款1,000,000元，最高刑期2年，並非第10(9)條的7年",
-    "第10(5)及(6)條只適用於法團持牌人，並不適用於個人或合夥人本人",
-    "第10(1)及(3)條須具有欺騙意圖，而第10(5)及(6)條則完全不須"
+    "該人出於詐騙意圖而作出，令循公訴程序定罪的最高監禁刑期提高至7年",
+    "該人是持牌金錢服務經營者，令最高罰款提高至$1,000,000",
+    "該紀錄或回答在要項上屬虛假或具誤導性，令可處的最高監禁刑期提高至2年",
+    "該人無合理辯解而不遵從，令最高罰款提高至$1,000,000"
    ],
-   "explain": "第10(1)條涵蓋無合理辯解而不遵從規定，第10(3)條涵蓋在知情或罔顧下提供虛假材料——兩者均不須具備欺騙意圖。第10(5)及(6)條涵蓋相同行為，惟具有欺騙意圖；第10(9)條就第(5)至(8)款的罪行訂明循公訴程序定罪最高可處罰款1,000,000元及監禁7年，並非2年；亦無只適用於法團持牌人的限制。"
+   "explain": "如不遵從要求，或交出虛假或具誤導性的紀錄或給予該等回答，是出於詐騙意圖而作出，即構成加重罪行，一經循公訴程序定罪，可處罰款$1,000,000及監禁7年。持牌人身分並非該等罪行的任何元素。在要項上屬虛假以及沒有合理辯解，均是基本罪行本身的元素：基本的虛假紀錄罪行已可處罰款$1,000,000及監禁2年，基本的不遵從罪行則可處罰款$200,000及監禁1年，因此兩者均不是令罪行升級為加重形式的因素。"
   }
  },
  {
@@ -13869,33 +13869,33 @@
   }
  },
  {
+  "id": "m2-301",
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "C&ED Circular MSSB/MIS_08/2022 (12 Dec 2022) ¶1 — passage of the AML/CTF (Amendment) Bill 2022",
-   "tc": "香港海關通函 MSSB/MIS_08/2022（2022年12月12日）第1段——《2022年打擊洗錢及恐怖分子資金籌集（修訂）條例草案》獲立法會通過"
+   "en": "C&ED Circular MSSB/MIS_08/2022 (12 Dec 2022) ¶1 and ¶4 — passage of the AML/CTF (Amendment) Bill 2022",
+   "tc": "香港海關通函 MSSB/MIS_08/2022（2022年12月12日）第1及第4段——《2022年打擊洗錢及恐怖分子資金籌集（修訂）條例草案》獲立法會通過"
   },
   "en": {
-   "q": "The Anti-Money Laundering and Counter-Terrorist Financing (Amendment) Bill 2022 was passed by the Legislative Council. According to the circular, on what date was it passed, and how does it come into effect?",
+   "q": "In its circular of 12 December 2022, the C&ED reminded MSOs that the Anti-Money Laundering and Counter-Terrorist Financing (Amendment) Bill 2022 had been passed by the Legislative Council on 7 December 2022 and would come into effect in phases from 1 April 2023. What did the circular say the C&ED would do about the Guideline on AML/CFT for MSOs as a result?",
    "options": [
-    "Passed on 7 December 2022; it comes into effect in phases from 1 April 2023.",
-    "Passed on 12 December 2022; it comes into effect in phases from 1 April 2023.",
-    "Passed on 7 December 2022; it comes into effect all at once on 1 June 2023.",
-    "Passed on 1 April 2023; it comes into effect all at once on 1 June 2023."
+    "Review it and amend it in line with the latest requirements of the amended Ordinance, consulting the MSO sector before the revised Guideline is gazetted",
+    "Withdraw it from 1 April 2023 and rely on the Licensing Guide in the meantime, until a replacement Guideline could be drafted and published in the Gazette",
+    "Gazette the amended Guideline together with the Ordinance on 1 June 2023, treating the consultation already held on the Bill itself as sufficient",
+    "Leave it unchanged, since the amendments concerned dealers in precious metals and stones and virtual asset service providers rather than the money service sector"
    ],
-   "explain": "Paragraph 1 of the circular states that the Amendment Bill 2022 was passed by the Legislative Council on 7 December 2022 and will come into effect in phases from 1 April 2023. It does not take effect all at once on 1 June 2023: the circular itself gives 1 April 2023 for some changes (the registration of dealers in precious metals and stones and the enhanced penalty for unlicensed money service operation) and 1 June 2023 for others (the licensing of virtual asset service business and the miscellaneous and technical amendments). 12 December 2022 is the date of the circular, not the date of passage, and 1 April 2023 is the first commencement date, not the date of passage."
+   "explain": "The circular closes by saying that the C&ED has started reviewing the Guideline on AML/CFT for MSOs, will make corresponding amendments in accordance with the latest requirements of the amended Ordinance so as to give practical guidance, and will consult the MSO sector on the amendments before the Guideline is published in the Gazette for implementation. It does not withdraw the Guideline or substitute the Licensing Guide, and it promises a sector consultation rather than gazetting on a fixed date without one. Leaving the Guideline unchanged is wrong because the circular lists several amendments, such as the PEP definition and digital identification, as being particularly relevant to MSOs."
   },
   "tc": {
-   "q": "《2022年打擊洗錢及恐怖分子資金籌集（修訂）條例草案》已獲立法會通過。根據通函，該草案於何日通過，並以何種方式生效？",
+   "q": "香港海關在2022年12月12日的通函中提醒金錢服務經營者，立法會已於2022年12月7日通過《2022年打擊洗錢及恐怖分子資金籌集（修訂）條例草案》，並將由2023年4月1日起分階段生效。通函表示，海關會因此就《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》採取甚麼行動？",
    "options": [
-    "於2022年12月7日通過；由2023年4月1日起分階段生效。",
-    "於2022年12月12日通過；由2023年4月1日起分階段生效。",
-    "於2022年12月7日通過；並於2023年6月1日一次過生效。",
-    "於2023年4月1日通過；並於2023年6月1日一次過生效。"
+    "檢視該指引並按修訂後的條例的最新要求作出修訂，在修訂後的指引刊憲生效前諮詢業界意見",
+    "由2023年4月1日起撤回該指引，在新指引草擬及刊憲前，暫時以《牌照指引》代替該指引",
+    "於2023年6月1日與條例一併將修訂後的指引刊憲，以就條例草案本身已作的諮詢為已足",
+    "維持該指引不變，因為修訂針對貴金屬及寶石交易商及虛擬資產服務者而非金錢服務經營者"
    ],
-   "explain": "通函第1段指出，《2022年打擊洗錢及恐怖分子資金籌集（修訂）條例草案》於2022年12月7日獲立法會通過，並由2023年4月1日起分階段生效，而非於2023年6月1日一次過生效：通函本身列明部分修改（貴重金屬及寶石交易商的註冊規定，以及對無牌經營金錢服務的加重罰則）由2023年4月1日起實施，其他修改（虛擬資產服務業務的發牌規定，以及雜項及技術性修訂）則由2023年6月1日起實施。2022年12月12日是通函的日期而非草案通過的日期；2023年4月1日則是首個生效日期而非通過日期。"
-  },
-  "id": "m2-301"
+   "explain": "通函結尾指出，海關現正檢視《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》，並會根據修訂後的條例的最新要求作出相應修訂，以提供實務指引，而在修訂後的指引正式刊憲生效前，海關將諮詢業界意見。通函並無撤回該指引或以《牌照指引》代替，亦承諾先諮詢業界而非在指定日期直接刊憲。維持指引不變亦不正確，因為通函列出多項與金錢服務業較為相關的修訂，例如政治人物的定義及數碼身分識別。"
+  }
  },
  {
   "module": 2,
@@ -14043,6 +14043,7 @@
   "id": "m2-306"
  },
  {
+  "id": "m2-307",
   "module": 2,
   "answer": 0,
   "source": {
@@ -14050,26 +14051,25 @@
    "tc": "香港海關通函 MSSB/MIS_08/2022（2022年12月12日）第3(d)段——《2022年打擊洗錢及恐怖分子資金籌集（修訂）條例草案》獲立法會通過"
   },
   "en": {
-   "q": "According to the circular, how did the amendments enhance the deterrent effect against unlicensed money service operation, and from what date?",
+   "q": "The C&ED circular of 12 December 2022 stated that, with effect from 1 April 2023, the amendments to the AMLO enhanced the deterrent effect against unlicensed money service operation. According to the circular, what did that enhancement consist of?",
    "options": [
-    "From 1 April 2023, a maximum fine of HK$1 million and two years' imprisonment on conviction on indictment.",
-    "From 1 April 2023, a maximum fine of HK$1 million and two years' imprisonment, but on summary conviction only.",
-    "From 1 June 2023, a maximum fine of HK$1 million and seven years' imprisonment on conviction on indictment.",
-    "From 1 June 2023, a maximum fine of HK$100,000 and six months' imprisonment on conviction on indictment."
+    "A maximum penalty on conviction on indictment of a fine of HK$1 million and imprisonment for two years",
+    "A maximum penalty on summary conviction of a fine of HK$100,000 and imprisonment for six months",
+    "A pecuniary penalty of up to HK$1 million that the CCE may impose as a disciplinary sanction",
+    "A fine of HK$1 million and imprisonment for two years ordered by the Review Tribunal rather than by a court"
    ],
-   "explain": "Paragraph 3(d) of the circular states that, with effect from 1 April 2023, the deterrent effect for unlicensed money service operation was enhanced by imposing a maximum penalty of a fine of HK$1 million and imprisonment for two years on conviction on indictment. This change took effect on 1 April 2023, not 1 June 2023 (the date of the other miscellaneous and technical amendments); the penalty the circular describes is for conviction on indictment, not summary conviction only; and the figures are HK$1 million and two years, not seven years, and not HK$100,000 and six months."
+   "explain": "Paragraph 3(d) of the circular says the deterrent effect for unlicensed money service operation was enhanced by imposing a maximum penalty of a fine of HK$1 million and imprisonment for two years on conviction on indictment. A fine of HK$100,000 and six months' imprisonment is the summary conviction limb of section 29 of the AMLO, not the enhancement the circular describes. The enhancement is a criminal penalty imposed by a court on conviction, not a disciplinary pecuniary penalty imposed by the CCE, and the Review Tribunal reviews specified decisions rather than sentencing offenders."
   },
   "tc": {
-   "q": "根據通函，修訂如何加強對無牌經營金錢服務的阻嚇作用？由何日起生效？",
+   "q": "香港海關2022年12月12日的通函指出，由2023年4月1日起，《打擊洗錢條例》的修訂加強了對無牌經營金錢服務的阻嚇作用。根據通函，該項加強的內容是甚麼？",
    "options": [
-    "由2023年4月1日起，循公訴程序定罪最高可處罰款港幣100萬元及監禁兩年。",
-    "由2023年4月1日起，最高可處罰款港幣100萬元及監禁兩年，但僅限循簡易程序定罪。",
-    "由2023年6月1日起，循公訴程序定罪最高可處罰款港幣100萬元及監禁七年。",
-    "由2023年6月1日起，循公訴程序定罪最高可處罰款港幣10萬元及監禁六個月。"
+    "循公訴程序定罪，最高可處罰款港幣100萬元及監禁兩年",
+    "循簡易程序定罪，最高可處罰款港幣10萬元及監禁六個月",
+    "由關長以紀律制裁方式施加最高港幣100萬元的罰款",
+    "由覆核審裁處而非由法庭判處罰款港幣100萬元及監禁兩年刑罰"
    ],
-   "explain": "通函第3(d)段指出，由2023年4月1日起，透過就無牌經營金錢服務訂定循公訴程序定罪最高可處罰款港幣100萬元及監禁兩年的罰則，加強阻嚇作用。這項修改由2023年4月1日而非2023年6月1日（其他雜項及技術性修訂的生效日期）起生效；通函所述的罰則是循公訴程序定罪的罰則，而非僅限循簡易程序定罪；罰則數額是港幣100萬元及監禁兩年，而非監禁七年，亦非港幣10萬元及監禁六個月。"
-  },
-  "id": "m2-307"
+   "explain": "通函第3(d)段指出，針對無牌經營金錢服務，把適用於經公訴程序定罪者的罰則提高至罰款一百萬港元和監禁兩年，以加強阻嚇作用。罰款港幣10萬元及監禁六個月是《打擊洗錢條例》第29條循簡易程序定罪的一項罰則，並非通函所述的加強措施。該項加強是法庭在定罪後判處的刑事罰則，並非關長施加的紀律罰款；覆核審裁處負責覆核指明的決定，並不判處刑罰。"
+  }
  },
  {
   "module": 2,
@@ -14134,28 +14134,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 1, Part 1, s.1",
-   "tc": "《打擊洗錢條例》附表1第1部第1條"
+   "en": "AMLO Sch. 1, Part 1, s.1 (definition of “money laundering”)",
+   "tc": "《打擊洗錢條例》附表1第1部第1條（「洗錢」的定義）"
   },
   "en": {
-   "q": "Where in the AMLO are the statutory definitions of \"money laundering\" and \"terrorist financing\" found?",
+   "q": "Section 1 of Part 1 of Schedule 1 to the AMLO defines “money laundering” by reference to acts dealing with property that is, or represents, the proceeds of an indictable offence. Which statement about that definition is correct?",
    "options": [
-    "Section 1 of Part 1 of Schedule 1",
-    "Section 1 of Part 2 of Schedule 1",
-    "Part 5 of the main body of the Ordinance",
-    "Schedule 3, which lists the licensing fees"
+    "An act intended to make the proceeds appear otherwise is covered even where the disguise has failed",
+    "The proceeds of a summary offence are covered as long as the offence was committed in Hong Kong",
+    "Conduct abroad is covered whenever it is an offence where it occurred, whatever Hong Kong law provides",
+    "Property that represents the proceeds indirectly, rather than being the proceeds itself, is left outside"
    ],
-   "explain": "The definitions of ML and TF (and of money service, money changing service and remittance service) are in Schedule 1, Part 1, section 1. Part 2 of Schedule 1 is a separate interpretation section covering different terms (such as Commissioner and business day). Part 5 of the main body regulates money service operation; Schedule 3 lists fees."
+   "explain": "The definition turns on the intention behind the act: money laundering is an act intended to have the effect of making the property not appear to be, or not appear to represent, the proceeds, so an unsuccessful disguise is still within it. The property must be the proceeds of an indictable offence under Hong Kong law, or of conduct that would have been an indictable offence had it occurred in Hong Kong, so a summary offence does not qualify and foreign conduct is judged against Hong Kong law rather than the law of the place where it occurred. Property that in whole or in part, directly or indirectly, represents such proceeds is expressly included."
   },
   "tc": {
-   "q": "《打擊洗錢條例》中「洗錢」及「恐怖分子資金籌集」的法定定義載於何處？",
+   "q": "《打擊洗錢條例》附表1第1部第1條以處理屬於或代表可公訴罪行收益的財產的行為，界定「洗錢」。關於該定義，以下哪項陳述正確？",
    "options": [
-    "附表1第1部第1條",
-    "本條例附表1第2部第1條",
-    "條例正文第5部",
-    "附表3，即費用表"
+    "出於使收益看似並非收益的意圖而作出的行為即屬涵蓋，不論掩飾有否成功",
+    "簡易程序罪行的收益，在該罪行是於香港干犯的情況下亦屬涵蓋範圍",
+    "在外地作出的作為，凡在當地屬罪行即屬涵蓋，與香港法律的規定無關",
+    "間接代表有關收益而本身並非該等收益的財產，並不在該定義所涵蓋的範圍之內"
    ],
-   "explain": "「洗錢」及「恐怖分子資金籌集」的定義（以及金錢服務、貨幣兌換服務及匯款服務的定義）載於附表1第1部第1條。附表1第2部是另一條獨立的釋義條文，涵蓋不同的詞語（例如「關長」及「營業日」）。條例正文第5部規管金錢服務的經營；附表3則列明費用。"
+   "explain": "該定義的關鍵在於行為背後的意圖：洗錢是指出於使有關財產看似並非收益或看似不代表收益的意圖而作出的行為，因此掩飾即使不成功，仍屬定義範圍之內。有關財產必須是干犯香港法律所訂可公訴罪行的收益，或是作出假使在香港發生即屬可公訴罪行的作為而獲取的收益，因此簡易程序罪行不符合定義，而在外地作出的作為亦是按香港法律而非當地法律判斷。全部或部分、直接或間接代表該等收益的財產，明文包括在內。"
   }
  },
  {
@@ -16816,28 +16816,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.13(1)",
-   "tc": "《打擊洗錢條例》附表2第13(1)條"
+   "en": "AMLO Sch. 2, s.13(1) & (3)",
+   "tc": "《打擊洗錢條例》附表2第13(1)及(3)條"
   },
   "en": {
-   "q": "To which transactions does section 13 of Schedule 2 apply?",
+   "q": "Section 13 of Schedule 2 lays down special requirements for certain remittance transactions carried out by a licensed money service operator: before carrying out the transaction it must identify and verify the originator and record particulars of the transaction. Which of the following transactions is within the scope of those requirements?",
    "options": [
-    "A remittance transaction (not a wire transfer) of $8,000 or more, carried out by a licensed money service operator",
-    "Any remittance transaction of any amount, carried out by any financial institution whatsoever",
-    "Only remittance transactions involving $120,000 or more, the occasional-transaction CDD threshold instead",
-    "All wire transfers, of any amount, carried out by a licensed money service operator"
+    "Sending US$1,500 in cash, worth about HK$11,700, for collection by a payee overseas",
+    "Sending US$900 in cash, worth about HK$7,000, for collection by a payee overseas",
+    "Sending HK$9,000 to a payee overseas by wire transfer into that payee's bank account",
+    "Exchanging HK$9,000 into foreign banknotes for a customer who will carry them overseas"
    ],
-   "explain": "Section 13(1) applies to a remittance transaction, other than a wire transfer, involving an amount equal to or above $8,000 or the equivalent in any other currency, that is carried out by a licensed money service operator. $120,000 is the unrelated section 3(1)(b) occasional-transaction threshold; wire transfers are excluded from section 13 altogether and instead governed by section 12; and the section only applies to licensed MSOs, not financial institutions generally."
+   "explain": "The remittance requirements apply to a transaction for sending money to a place outside Hong Kong, other than a wire transfer, involving $8,000 or more or the equivalent in any other currency, carried out by a licensed money service operator. US$1,500 is worth well over $8,000, so the cash remittance for collection overseas is caught even though it is denominated in another currency. US$900 falls below the threshold, a wire transfer is excluded from these requirements and is governed instead by the separate wire-transfer rules, and exchanging banknotes for a customer to carry abroad is money changing, not a transaction for sending money to a place outside Hong Kong."
   },
   "tc": {
-   "q": "附表2第13條適用於哪些交易？",
+   "q": "附表2第13條就持牌金錢服務經營者進行的若干匯款交易訂立特別規定：在進行交易之前，經營者須識別及核實匯款人的身分，並記錄該宗交易的資料。下列哪宗交易屬於該等規定的適用範圍？",
    "options": [
-    "由持牌金錢服務經營者進行、款額8,000元或以上、並非電傳轉賬的匯款交易",
-    "由任何金融機構進行的任何款額的任何匯款交易，並不設任何下限",
-    "只限涉及120,000元或以上的匯款交易，即非經常交易適用的客戶盡職審查門檻",
-    "持牌金錢服務經營者進行的所有電傳轉賬交易，不論其款額多寡"
+    "以現金匯出1,500美元（約值11,700港元），由海外收款人領取",
+    "以現金匯出900美元（約值7,000港元），由海外收款人領取",
+    "以電傳轉賬方式，將9,000港元匯入海外收款人在當地開立的銀行戶口",
+    "為將親自攜帶外幣鈔票出境的客戶，把9,000港元兌換成等值外幣鈔票"
    ],
-   "explain": "第13(1)條適用於由持牌金錢服務經營者進行、涉及款額相等於或高於8,000元（或任何其他貨幣等值款額）、並非電傳轉賬的匯款交易。120,000元是第3(1)(b)條就非經常交易另行訂立、與本條無關的門檻；電傳轉賬完全不受第13條規管，而是由第12條規管；本條亦只適用於持牌金錢服務經營者，並非一般金融機構。"
+   "explain": "匯款交易的特別規定適用於由持牌金錢服務經營者進行、將金錢送往香港以外地方、涉及8,000元或以上款額（或折算為任何其他貨幣的相同款額）、而並非電傳轉賬的交易。1,500美元遠高於8,000港元，因此即使以另一貨幣計算，該宗由海外收款人領取的現金匯款仍受規管。900美元低於門檻；電傳轉賬不受這些規定規管，而是由另行訂立的電傳轉賬規定處理；為客戶兌換鈔票供其親自攜帶出境屬貨幣兌換，並非將金錢送往香港以外地方的交易。"
   }
  },
  {
@@ -16920,28 +16920,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.13(2)(c)(v)",
-   "tc": "《打擊洗錢條例》附表2第13(2)(c)(v)條"
+   "en": "AMLO Sch. 2, s.13(2)(c)",
+   "tc": "《打擊洗錢條例》附表2第13(2)(c)條"
   },
   "en": {
-   "q": "Which of the following must a licensed MSO record under section 13(2)(c)(v) of Schedule 2?",
+   "q": "Section 13(2) of Schedule 2 requires a licensed money service operator, before carrying out a remittance transaction of $8,000 or more that is not a wire transfer, to record particulars of the originator and of the transaction. An operator's remittance form already captures the originator's name, identification document number (with the place of issue where it is a travel document) and address, and the currency and amount. Which further particulars must it record?",
    "options": [
-    "The date and time instructions were received, the recipient's name and address, and delivery method",
-    "The currency and amount involved, and the exchange rate applied to the transaction",
-    "The originator's occupation, employer, and the purpose of the remittance",
-    "The purpose of the remittance, and the relationship between the originator and recipient"
+    "The date and time the instructions were received, the recipient's name and address, and the method of delivery",
+    "The originator's occupation, the purpose of the remittance, and the source of the funds that are being remitted",
+    "The recipient's identification document number and date of birth, and the recipient's relationship to the originator",
+    "The exchange rate applied to the transaction, the fee charged, and the originator's telephone contact number"
    ],
-   "explain": "Section 13(2)(c) requires recording the originator's name; identification document number and, for a travel document, place of issue; address; the currency and amount involved under paragraph (iv); and, under paragraph (v), the date and time of receipt of the instructions, the recipient's name and address and the method of delivery. Currency and amount is a real but different item (paragraph (iv), not (v)); occupation, employer, purpose and the parties' relationship are not items section 13(2)(c) requires at all."
+   "explain": "Before carrying out such a remittance the operator must record the originator's name, identification document number with the place of issue for a travel document, and address, the currency and amount involved, and also the date and time of receipt of the instructions, the recipient's name and address and the method of delivery. That last group is what the form still lacks. The originator's occupation, the purpose and source of the funds, the recipient's document details and relationship, and the exchange rate, fee and telephone number are not particulars that the remittance rule requires to be recorded."
   },
   "tc": {
-   "q": "根據附表2第13(2)(c)(v)條，持牌金錢服務經營者須記錄下列哪項？",
+   "q": "附表2第13(2)條規定，持牌金錢服務經營者在進行涉及8,000元或以上、並非電傳轉賬的匯款交易之前，須記錄匯款人及該宗交易的資料。某經營者的匯款表格已載有匯款人的姓名、識別文件號碼（如屬旅行證件，連同發出地方）及地址，以及所涉的貨幣及款額。經營者還須記錄哪些資料？",
    "options": [
-    "接獲指示的日期及時間、收款人姓名及地址，以及交付方法",
-    "所涉的貨幣及款額，以及該宗交易當時所採用的實際兌換匯率",
-    "匯款人的職業、僱主資料，以及匯款的目的",
-    "匯款目的，以及匯款人與收款人之間的關係"
+    "接獲指示的日期及時間、收款人的姓名及地址，以及送遞的方式",
+    "匯款人的職業、該筆匯款的目的，以及所匯出資金的實際來源",
+    "收款人的識別文件號碼及出生日期，以及收款人與匯款人的關係",
+    "該宗交易所採用的兌換率、所收取的費用，以及匯款人的電話號碼"
    ],
-   "explain": "第13(2)(c)條規定須記錄匯款人姓名；身分證明文件號碼，及（如屬旅行證件）簽發地點；地址；第(iv)節所指的所涉貨幣及款額；以及第(v)節所指的接獲指示的日期及時間、收款人的姓名及地址和交付方法。貨幣及款額是真實但屬另一項目（第(iv)節，並非第(v)節）；職業、僱主、匯款目的及雙方關係，均非第13(2)(c)條要求記錄的項目。"
+   "explain": "在進行該等匯款交易之前，經營者須記錄匯款人的姓名、識別文件號碼（如屬旅行證件，連同發出地方）及地址、所涉的貨幣及款額，並須記錄接獲指示的日期及時間、收款人的姓名及地址，以及送遞的方式。表格尚欠的正是最後一組資料。匯款人的職業、匯款目的及資金來源、收款人的證件資料及與匯款人的關係，以及兌換率、費用和電話號碼，均非匯款交易規定要求記錄的項目。"
   }
  },
  {
@@ -17317,24 +17317,24 @@
    "tc": "《打擊洗錢條例》附表2第15條"
   },
   "en": {
-   "q": "What two kinds of situation engage the special requirements in section 15 of Schedule 2?",
+   "q": "Section 15 of Schedule 2 requires an MSO to take extra measures, such as obtaining senior management approval, in a situation that the relevant authority specifies in a written notice given to the MSO. In which other situation do the same requirements apply, without any notice?",
    "options": [
-    "A situation specified by the relevant authority in a written notice, and any other situation that by its nature may present a high risk of ML/TF",
-    "A situation specified by the relevant authority in a written notice, and any situation involving a customer who is not resident in Hong Kong",
-    "A situation where the customer is not physically present for identification, and any situation flagged by the institution's internal audit",
-    "A situation in which a suspicious transaction report has already been filed, and any occasional transaction of $120,000 or more"
+    "Any other situation that by its very nature may present a high risk of ML/TF",
+    "Any situation in which the customer is not physically present for identification",
+    "Any occasional transaction at or above the $120,000 customer due diligence threshold",
+    "Any situation in which the customer was verified after the relationship began"
    ],
-   "explain": "Section 15 applies in a situation specified by the relevant authority (or, for certain DNFBPs, the relevant regulatory body) in a written notice, and, separately, in any other situation that by its nature may present a high risk of money laundering or terrorist financing — the second limb is self-executing and needs no notice. Non-residence, non-face-to-face identification (which instead triggers section 9), an existing STR, and the $120,000 occasional-transaction CDD threshold in section 3 are none of them the section 15 trigger."
+   "explain": "The special high-risk requirements are engaged in two ways: by a written notice from the relevant authority specifying a situation, and, independently, by any other situation that by its nature may present a high risk of money laundering or terrorist financing, which needs no notice at all. A customer who is not physically present triggers the separate non-face-to-face measures, an occasional transaction at or above $120,000 triggers the ordinary customer due diligence duty rather than the high-risk measures, and verification completed after a relationship begins is a permitted deferral with its own conditions, not a high-risk trigger."
   },
   "tc": {
-   "q": "哪兩類情況會觸發附表2第15條的特別規定？",
+   "q": "附表2第15條規定，在有關當局藉給予金錢服務經營者的書面通知指明的情況下，經營者須採取額外措施，例如取得高級管理層的批准。在毋須任何通知的情況下，同樣的規定還適用於哪一種情況？",
    "options": [
-    "有關當局以書面通知指明的情況，以及按其性質可能構成高洗錢或恐怖分子資金籌集風險的任何其他情況",
-    "有關當局以書面通知指明的情況，以及涉及並非通常居於香港的客戶的任何情況",
-    "客戶為身分識別目的而未能親身到場的情況，以及該機構內部審計部門標記的任何情況",
-    "已就該客戶提交可疑交易報告的情況，以及涉及金額達120,000元或以上的任何一項非經常的交易"
+    "按其性質可能構成高洗錢／恐怖分子資金籌集風險的任何其他情況",
+    "客戶為進行身分識別的目的而未有親身到場接受核實的任何情況",
+    "款額達120,000元客戶盡職審查門檻或以上的任何非經常交易",
+    "客戶的身分在業務關係建立之後方獲得核實的任何其他情況"
    ],
-   "explain": "第15條適用於有關當局（或就若干指定非金融企業及行業而言，有關監管團體）以書面通知指明的情況，以及另外，按其性質可能構成高洗錢或恐怖分子資金籌集風險的任何其他情況——第二項屬自動適用，毋須任何通知。非香港居民、非面對面身分識別（其觸發的是第9條）、已提交可疑交易報告，以及第3條120,000元非經常交易客戶盡職審查門檻，均非第15條的觸發點。"
+   "explain": "高風險情況的特別規定可循兩個途徑觸發：一是有關當局以給予該機構的書面通知指明某情況；二是按其性質可能構成高洗錢或恐怖分子資金籌集風險的任何其他情況，後者完全毋須任何通知。客戶未有親身到場觸發的是另行訂立的非面對面措施；款額達120,000元或以上的非經常交易觸發的是一般客戶盡職審查責任，而非高風險措施；在業務關係建立後才完成核實則是附有本身條件的准許延後安排，並非高風險的觸發點。"
   }
  },
  {
@@ -17444,28 +17444,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.16",
-   "tc": "《打擊洗錢條例》附表2第16條"
+   "en": "AMLO Sch. 2, s.16; AML/CFT Guideline ¶4.14.1",
+   "tc": "《打擊洗錢條例》附表2第16條；《打擊洗錢及恐怖分子資金籌集指引》第4.14.1段"
   },
   "en": {
-   "q": "What does section 16 of Schedule 2 prohibit?",
+   "q": "Section 16 of Schedule 2 prohibits an MSO from opening or maintaining an anonymous account, or an account in a fictitious name, for any customer. Which of the following accounts does that prohibition catch?",
    "options": [
-    "Opening or maintaining an anonymous account, or an account in a fictitious name, for a customer",
-    "Establishing or continuing a correspondent banking relationship with a shell bank",
-    "Opening any account for a customer who is not resident in Hong Kong, without verification",
-    "Maintaining any account that has been dormant or inactive for more than five consecutive years"
+    "An account identified by a reference code alone, with no record anywhere of who the customer is",
+    "A numbered account whose holder's identity the MSO has verified and keeps on its CDD record",
+    "An account in the name of a company whose beneficial owners the MSO has identified and verified",
+    "An account of a customer verified after the relationship began, as the deferral rule allows"
    ],
-   "explain": "Section 16 provides that a financial institution or DNFBP must not open, or maintain, any anonymous account or account in a fictitious name for any customer — covering both opening and continuing to maintain such accounts. Correspondent banking with a shell bank is prohibited separately, by section 17, in the same 'Prohibitions' division. Section 16 says nothing about non-resident customers or dormant accounts."
+   "explain": "An account that carries no record of who the customer is, however it is labelled, is an anonymous account, and the prohibition covers both opening and continuing to maintain it. A confidential numbered account is permitted, because the Guideline requires it to be subject to exactly the same due diligence and control measures as any other relationship, with the customer's identity verified and known to enough staff for effective due diligence and monitoring. A company account with identified beneficial owners, and an account whose customer was verified after the relationship began under the permitted deferral, are both in a real name with a known customer, so neither is anonymous or fictitious."
   },
   "tc": {
-   "q": "附表2第16條禁止甚麼？",
+   "q": "附表2第16條禁止金錢服務經營者為任何客戶開立或維持匿名戶口，亦禁止為任何客戶以虛構的姓名或名稱開立或維持戶口。下列哪個戶口屬該禁止範圍之內？",
    "options": [
-    "為任何客戶開立或維持任何匿名帳戶或以虛構名稱開立的帳戶",
-    "與空殼銀行建立或維持代理銀行業務關係，不論是否已終止",
-    "為並非通常居於香港的客戶開立帳戶，而不進一步核實其身分",
-    "維持任何已連續不活躍超過五年、且客戶未曾聯絡的帳戶"
+    "僅以參考編號識別、任何地方均無記錄客戶是何人的戶口",
+    "持有人身分已由經營者核實並載於客戶盡職審查紀錄的編號戶口",
+    "以公司名義開立、而經營者已識別及核實其實益擁有人的戶口",
+    "客戶身分按延後核實的安排在業務關係建立後才核實的戶口"
    ],
-   "explain": "第16條訂明金融機構或指定非金融企業及行業不得為任何客戶開立或維持任何匿名帳戶或以虛構名稱開立的帳戶——同時涵蓋開立及繼續維持該等帳戶。與空殼銀行的代理銀行業務關係則由同屬「禁止事項」部的第17條另行禁止。第16條並無提及非香港居民客戶或不活躍帳戶。"
+   "explain": "不論如何標示，凡沒有記錄客戶是何人的戶口即屬匿名戶口，而禁止範圍同時涵蓋開立及繼續維持該戶口。設有保密號碼的戶口是容許的，因為指引要求該等戶口須遵從與其他業務關係一模一樣的盡職審查及管控措施，客戶身分須經核實並讓相當數目的職員知悉，以執行有效的盡職審查和持續監察。以公司名義開立而實益擁有人已獲識別的戶口，以及客戶按准許的延後安排在業務關係建立後才核實的戶口，均以真實名稱開立且客戶身分已知，因此都不屬匿名或虛構名稱戶口。"
   }
  },
  {
@@ -17779,28 +17779,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.19(1)",
-   "tc": "《打擊洗錢條例》附表2第19(1)條"
+   "en": "AMLO Sch. 2, s.19(1); AML/CFT Guideline ¶4.9.9",
+   "tc": "《打擊洗錢條例》附表2第19(1)條；《打擊洗錢及恐怖分子資金籌集指引》第4.9.9段"
   },
   "en": {
-   "q": "What procedures does section 19(1) of Schedule 2 require an institution to establish and maintain?",
+   "q": "Section 19(1) of Schedule 2 requires an MSO to establish and maintain effective procedures for determining whether a person is a politically exposed person. An MSO screens every new customer against a commercial PEP database but does not screen the beneficial owners of its corporate customers. Does it satisfy the requirement?",
    "options": [
-    "Effective procedures for determining whether a customer or beneficial owner is a politically exposed person",
-    "Effective procedures for identifying and handling wire transfers that do not comply with section 12(5)",
-    "Effective procedures, for each customer and product, for the duties under sections 3, 4, 5, 9 and 15",
-    "Procedures for reporting suspicious transactions to the Joint Financial Intelligence Unit without delay"
+    "No, because the procedures must be able to determine whether a beneficial owner of a customer is a PEP as well as the customer",
+    "Yes, because a beneficial owner falls to be screened when the relationship is later assessed as presenting a high risk",
+    "Yes, because a beneficial owner's status is checked under ongoing monitoring of the relationship rather than at the outset",
+    "No, because the procedures must rely on the Commissioner's own list of politically exposed persons rather than a commercial database"
    ],
-   "explain": "Section 19(1) requires effective procedures for determining whether a customer or a beneficial owner of a customer is a politically exposed person — the operational counterpart to the section 10 special requirements. Procedures for wire transfers that breach section 12(5), and procedures for carrying out the duties under sections 3, 4, 5, 9, 10 and 15, are the separate section 19(2) and 19(3) duties, not section 19(1). STR reporting to the JFIU is not a Schedule 2 procedure requirement at all."
+   "explain": "The procedures duty is framed in terms of both a customer and a beneficial owner of a customer, so screening that stops at the customer cannot determine whether a corporate customer's beneficial owner is a politically exposed person. Neither the statute nor the Guideline confines beneficial-owner screening to high-risk relationships or defers it to ongoing monitoring: the status has to be determinable so that the PEP measures, such as senior management approval, can be applied before the relationship is established. The Guideline gives reference to publicly available information and screening against commercially available databases as acceptable ways of doing this, and there is no Commissioner's list to use instead."
   },
   "tc": {
-   "q": "附表2第19(1)條規定機構須建立及維持甚麼程序？",
+   "q": "附表2第19(1)條規定金錢服務經營者須設立及維持有效的程序，以斷定某人是否政治人物。某經營者以商業政治人物數據庫篩查每名新客戶，但不篩查其公司客戶的實益擁有人。該經營者是否符合有關規定？",
    "options": [
-    "有效程序，以斷定某客戶或該客戶的實益擁有人是否為政治人物",
-    "有效程序，以識別及處理未有遵從附表2第12(5)條規定的所有電傳轉賬",
-    "就每種客戶及產品而言的有效程序，以履行第3、4、5、9及15條下的責任",
-    "須在毫不延遲的情況下向聯合財富情報組舉報可疑交易的程序"
+    "不符合，因為有關程序除客戶本人外，亦須能斷定客戶的實益擁有人是否政治人物",
+    "符合，因為實益擁有人須待有關業務關係其後被評為高風險時才進行篩查",
+    "符合，因為實益擁有人的身分是在持續監察業務關係時查核，而非在開始時查核",
+    "不符合，因為有關程序須依據關長本身編製的政治人物名單，而非商業數據庫"
    ],
-   "explain": "第19(1)條規定須有有效程序，以斷定客戶或客戶的實益擁有人是否政治人物——即第10條特別規定在運作層面的對應安排。識別及處理未有遵從第12(5)條的電傳轉賬，以及履行第3、4、5、9、10及15條下責任的程序，分別屬另外的第19(2)及19(3)條規定，並非第19(1)條。向聯合財富情報組舉報可疑交易並非附表2的程序規定。"
+   "explain": "程序責任的表述同時涵蓋客戶及客戶的實益擁有人，因此僅止於客戶本人的篩查，無法斷定公司客戶的實益擁有人是否政治人物。條例及指引均沒有把實益擁有人的篩查限於高風險關係，亦沒有把它押後至持續監察階段：有關身分必須可予斷定，政治人物措施（例如高級管理層批准）才能在建立業務關係之前執行。指引指出參考公開資料及與商業數據庫核對均屬可接受的做法，並不存在可供代替的關長名單。"
   }
  },
  {
@@ -18206,24 +18206,24 @@
    "tc": "《打擊洗錢條例》附表2第23條"
   },
   "en": {
-   "q": "Section 23 of Schedule 2 requires all reasonable measures for two purposes. What are they?",
+   "q": "Section 23 of Schedule 2 requires an MSO to take all reasonable measures to ensure that proper safeguards exist, and to mitigate ML/TF risks. Against what must those safeguards protect?",
    "options": [
-    "Ensuring proper safeguards to prevent a contravention of Part 2 or 3, and mitigating ML/TF risks",
-    "Establishing procedures to determine PEP status, and to identify non-compliant wire transfers",
-    "Keeping transaction and customer records for at least 5 years in their original or copied form",
-    "Ensuring proper safeguards to prevent contravention of Part 1 or 2, and mitigating general operational risks"
+    "A contravention of the customer due diligence and record-keeping requirements in Schedule 2",
+    "A breach of any condition that the Commissioner has attached to the MSO's money service licence",
+    "A loss of customers' funds through operational failure or dishonesty on the part of its staff",
+    "A disclosure that would tip off a customer that a suspicious transaction report has been made"
    ],
-   "explain": "Section 23 requires all reasonable measures (a) to ensure proper safeguards exist to prevent a contravention of any requirement under Part 2 or 3 of Schedule 2, and (b) to mitigate ML/TF risks. Determining PEP status and identifying non-compliant wire transfers is the section 19 procedures duty; keeping records for 5 years is the section 20/21 record-keeping duty; and the safeguards duty concerns Parts 2 and 3 and ML/TF risk specifically, not Parts 1 and 2 or operational risk generally."
+   "explain": "The safeguards limb of the duty is directed at preventing a contravention of any requirement under the customer due diligence and record-keeping parts of Schedule 2, and the second limb adds a general duty to mitigate money laundering and terrorist financing risks. Licence conditions are enforced through the licensing provisions of the Ordinance, not through this safeguards duty. Operational losses are not what the provision addresses, and the prohibition on tipping off arises under the separate reporting legislation rather than under Schedule 2."
   },
   "tc": {
-   "q": "附表2第23條規定須為兩個目的採取一切合理措施。該兩個目的是甚麼？",
+   "q": "附表2第23條規定金錢服務經營者須採取所有合理措施，以確保有適當的預防措施存在，並減低洗錢／恐怖分子資金籌集風險。該等預防措施須防範甚麼？",
    "options": [
-    "確保設有適當防護措施以防止違反附表2第2或3部，並減低洗錢及恐怖分子資金籌集風險",
-    "訂立及維持有效程序以斷定政治人物身分，並識別不符規定的電傳轉賬",
-    "保存所有交易及客戶紀錄至少5年，另須以文件正本或副本形式妥為保存",
-    "確保設有適當的防護措施，以防止違反附表2第1或2部的規定，並須減低一般的營運風險"
+    "違反附表2所施加的客戶盡職審查及備存紀錄規定",
+    "違反關長就該金錢服務經營者的牌照所附加的任何條件",
+    "因營運失誤或職員不誠實而導致客戶的資金蒙受損失",
+    "作出會向客戶通風報訊、透露已提交可疑交易報告的披露"
    ],
-   "explain": "第23條規定須採取一切合理措施：(a)確保設有適當防護措施，以防止違反附表2第2或3部下的任何規定；及(b)減低洗錢及恐怖分子資金籌集風險。斷定政治人物身分及識別不符規定的電傳轉賬屬第19條的程序責任；保存紀錄5年屬第20/21條的紀錄保存責任；而防護措施責任所防範的是第2及3部（並非第1及2部），所減低的是洗錢及恐怖分子資金籌集風險（並非一般營運風險）。"
+   "explain": "該責任的預防措施一環，旨在防止附表2中客戶盡職審查及備存紀錄部分的任何規定遭違反，而第二環則另加一項減低洗錢及恐怖分子資金籌集風險的一般責任。牌照條件是透過條例的發牌條文執行，並非透過這項預防措施責任。營運損失並非該條文所處理的事項，而禁止通風報訊的規定則源自另行訂立的舉報法例，並非附表2。"
   }
  },
  {
@@ -19777,28 +19777,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.3(1)(b)",
-   "tc": "《打擊洗錢條例》附表2第3(1)(b)條"
+   "en": "AMLO Sch. 2, s.3(1)(b); AML/CFT Guideline ¶4.2.4–4.2.5",
+   "tc": "《打擊洗錢條例》附表2第3(1)(b)條；《打擊洗錢及恐怖分子資金籌集指引》第4.2.4至4.2.5段"
   },
   "en": {
-   "q": "What phrase in section 3(1)(b) of Schedule 2 prevents a customer from avoiding CDD by splitting a large occasional transaction?",
+   "q": "Section 3(1)(b) of Schedule 2 requires CDD before an occasional transaction of $120,000 or more, and applies that threshold to the transaction whether it is carried out in a single operation or in several operations that appear to the institution to be linked. A walk-in customer changes $70,000 worth of foreign currency in the morning and returns that afternoon to change a further $60,000. What does the rule mean for the MSO?",
    "options": [
-    "“Whether the transaction is carried out in a single operation or in several operations that appear to be linked”",
-    "“Subject to subsection (2), before establishing a business relationship with the customer”",
-    "“Subject to section 4 of this Schedule, a financial institution or a DNFBP must carry out customer due diligence measures”",
-    "“Involving an amount equal to or above $120,000 or an equivalent amount in any other currency”"
+    "If the two exchanges appear to it to be linked, CDD is required because their combined amount reaches the threshold",
+    "CDD is not required, because each exchange taken on its own falls below the threshold set for an occasional transaction",
+    "CDD is required, but it may be completed after the second exchange under the rule allowing later verification",
+    "The two exchanges are aggregated because they fall on the same day, whether or not they appear to be linked"
    ],
-   "explain": "Section 3(1)(b) applies the $120,000 threshold 'whether the transaction is carried out in a single operation or in several operations that appear to be linked' — this is the anti-structuring phrase. The other quoted phrases are real text from elsewhere in section 3(1): paragraph (a)'s trigger for establishing a business relationship, the chapeau, and the threshold amount itself — none of them is the anti-structuring wording."
+   "explain": "The rule stops a customer avoiding CDD by splitting one dealing into smaller operations: where several operations appear to the MSO to be linked, the threshold is applied to their combined amount, and $70,000 plus $60,000 exceeds $120,000, so CDD is required. Treating each exchange separately is exactly what the rule prevents. CDD must be carried out before the occasional transaction is carried out, and the provision allowing verification to be completed later applies to establishing a business relationship, not to an occasional transaction. The statutory test is whether the operations appear to the MSO to be linked, the timeframe within which they occur being a factor in that judgment rather than an automatic rule."
   },
   "tc": {
-   "q": "附表2第3(1)(b)條中哪一句用語防止客戶藉拆細大額非經常交易而規避客戶盡職審查？",
+   "q": "附表2第3(1)(b)條規定，在執行款額相等於120,000元或以上的非經常交易之前須執行客戶盡職審查，而不論該交易是以單一次操作執行，或是以該機構覺得是有關連的若干次操作執行，均適用該門檻。一名沒有業務關係的客戶上午兌換價值70,000元的外幣，下午再回來兌換另外60,000元。該規則對金錢服務經營者有何意義？",
    "options": [
-    "「不論該交易是以單一項操作進行，或是以看來屬有關連的多項操作進行」",
-    "「（除第(2)款另有規定外）在與該名客戶建立有關業務關係之前」",
-    "「除本附表第4條另有規定外，金融機構或指定非金融企業及行業須執行客戶盡職審查措施」",
-    "「涉及相等於120,000元或以上的款額（或折算為任何其他貨幣的相同款額）」"
+    "如經營者覺得兩次兌換有關連，因合計款額達到門檻，須執行客戶盡職審查",
+    "無須執行客戶盡職審查，因為每次兌換本身均低於非經常交易所訂的門檻",
+    "須執行客戶盡職審查，但可根據容許延後核實的規則，在第二次兌換後才完成",
+    "兩次兌換因在同一日進行而須合計，不論經營者是否覺得兩者有關連"
    ],
-   "explain": "第3(1)(b)條規定120,000元門檻的適用「不論該交易是以單一項操作進行，或是以看來屬有關連的多項操作進行」——這是防止拆細交易的用語。其餘引文均為第3(1)條其他部分的真實條文：(a)段中與建立業務關係有關的觸發條件、引言部分，以及門檻款額本身——均非防止拆細交易的用語。"
+   "explain": "該規則防止客戶把一宗交易拆細為多次較小的操作以規避客戶盡職審查：如若干次操作在經營者看來有關連，門檻便適用於其合計款額，而70,000元加60,000元超過120,000元，故須執行客戶盡職審查。把每次兌換分開處理，正是該規則所要防止的。客戶盡職審查須在執行非經常交易之前完成，而容許延後完成核實的條文適用於建立業務關係，並不適用於非經常交易。法定測試是有關操作在經營者看來是否有關連，交易進行的時間是判斷時的一項因素，而非自動適用的規則。"
   }
  },
  {
@@ -20566,24 +20566,24 @@
    "tc": "《打擊洗錢條例》附表2第1(1)條（「先前客戶」的定義）"
   },
   "en": {
-   "q": "For a financial institution other than a licensed VAS provider, before what date must a business relationship have been established for the customer to be a “pre-existing customer”?",
+   "q": "The definition of “pre-existing customer” in section 1(1) of Schedule 2 is what brings a customer within the trigger-based CDD regime in section 6 rather than the ordinary rule that CDD comes before a business relationship. For an MSO, the definition uses the date on which the AMLO commenced, 1 April 2012. An individual used an MSO's counter for a few occasional currency exchanges in 2010 and 2011 but never had a business relationship with it, and in 2026 asks to open a remittance account. Is the individual a pre-existing customer of the MSO?",
    "options": [
-    "1 April 2012",
-    "1 March 2018",
-    "1 June 2023",
-    "1 April 2023"
+    "No, because the definition requires a business relationship established before the cut-off date, so CDD comes first",
+    "Yes, because any dealings with the MSO before the cut-off date qualify, so CDD can wait for a trigger event under section 6",
+    "Yes, provided the MSO still holds the records of those earlier exchanges and can review them under the monitoring duty",
+    "No, because the pre-existing customer concept applies to designated non-financial businesses rather than to financial institutions"
    ],
-   "explain": "Paragraph (a) of the definition sets the date at 1 April 2012 for financial institutions other than licensed VAS providers. The other dates are 1 June 2023 for licensed VAS providers, 1 March 2018 for DNFBPs other than Category B PMS registrants, and 1 April 2023 for Category B PMS registrants."
+   "explain": "A pre-existing customer of a financial institution is a customer with whom that institution had established a business relationship before the cut-off date, and a business relationship is one that has, or is expected to have, an element of duration. Occasional exchanges at the counter are occasional transactions rather than a business relationship, so the individual is not a pre-existing customer and the ordinary rule applies: CDD before the relationship is established. Earlier dealings of any kind are not enough, holding old records makes no difference, and the definition has a limb for financial institutions as well as for designated non-financial businesses and professions."
   },
   "tc": {
-   "q": "就持牌虛擬資產服務提供者以外的金融機構而言，業務關係須在哪一日期前建立，該客戶方屬「先前客戶」？",
+   "q": "附表2第1(1)條「先前客戶」的定義，決定客戶是否納入第6條以觸發事件為本的客戶盡職審查制度，而非建立業務關係前先執行客戶盡職審查的一般規則。就金錢服務經營者而言，該定義採用《打擊洗錢條例》生效的日期，即2012年4月1日。某人在2010及2011年曾在某金錢服務經營者的櫃位進行數次非經常貨幣兌換，但從未與其建立業務關係，並於2026年要求開立匯款戶口。該人是否該經營者的先前客戶？",
    "options": [
-    "2012年4月1日",
-    "2018年3月1日",
-    "2023年6月1日",
-    "2023年4月1日"
+    "不是，因為該定義要求在截止日期前已建立業務關係，故開戶前須執行客戶盡職審查",
+    "是，因為在截止日期前與經營者的任何往來均符合定義，客戶盡職審查可等待第6條的觸發事件",
+    "是，但前提是該經營者仍持有該等早前兌換的紀錄，並可根據持續監察責任覆核該等紀錄",
+    "不是，因為先前客戶的概念是為指定非金融業人士而設的，並不適用於金融機構"
    ],
-   "explain": "該定義的(a)段就持牌虛擬資產服務提供者以外的金融機構，訂明日期為2012年4月1日。其他日期為持牌虛擬資產服務提供者的2023年6月1日、B類貴金屬及寶石交易商註冊人以外指定非金融企業及行業的2018年3月1日，以及B類註冊人的2023年4月1日。"
+   "explain": "金融機構的先前客戶，是指在截止日期前已與該機構建立業務關係的客戶，而業務關係是指延續一段時間是其元素或預期是其元素的關係。在櫃位進行的非經常兌換屬非經常交易而非業務關係，因此該人並非先前客戶，一般規則適用：在建立關係前執行客戶盡職審查。早前的任何往來均不足夠，持有舊紀錄亦無分別，而該定義既有適用於金融機構的一段，亦有適用於指定非金融業人士的一段。"
   }
  },
  {
@@ -20595,24 +20595,24 @@
    "tc": "《打擊洗錢條例》附表2第1(1)條（「先前客戶」的定義）"
   },
   "en": {
-   "q": "For a DNFBP other than a Category B PMS registrant, what is the cut-off date for a customer to be a “pre-existing customer”?",
+   "q": "The definition of “pre-existing customer” in section 1(1) of Schedule 2 has separate limbs for different kinds of institution, each with its own cut-off date: the AMLO's commencement on 1 April 2012 for financial institutions other than licensed VAS providers, and 1 March 2018, when the regime was extended to designated non-financial businesses and professions, for most of those businesses. An MSO established a business relationship with a customer in 2016 and has never carried out CDD on that customer. Can the MSO treat the customer as a pre-existing customer on the strength of the 2018 date?",
    "options": [
-    "1 March 2018",
-    "1 April 2012",
-    "1 June 2023",
-    "1 January 2018"
+    "No, because that later limb applies to designated non-financial businesses and professions, and an MSO is a financial institution",
+    "Yes, because the latest date in the definition applies to whichever institution the customer chooses to deal with",
+    "Yes, because an MSO is treated as a designated non-financial business and profession for the purposes of Schedule 2",
+    "No, because the pre-existing customer concept is designed for designated businesses and has no application to an MSO"
    ],
-   "explain": "Paragraph (c) of the definition sets the date at 1 March 2018 for a DNFBP other than a Category B PMS registrant, reflecting the commencement of the extension of the regime to designated non-financial businesses and professions."
+   "explain": "Each limb of the definition is tied to a class of institution: the limb for a financial institution other than a licensed VAS provider uses the date on which the AMLO commenced, while the later date belongs to the limb for a DNFBP other than a Category B PMS registrant. A licensed MSO is a financial institution under Schedule 1, so its customer is pre-existing if, and only if, the relationship was established before the AMLO commenced, and a relationship formed in 2016 is an ordinary one for which CDD should have preceded its establishment. The customer cannot choose a limb, an MSO is not a DNFBP, and the concept does apply to financial institutions."
   },
   "tc": {
-   "q": "就B類貴金屬及寶石交易商註冊人以外的指定非金融企業及行業而言，客戶屬「先前客戶」的截止日期為何？",
+   "q": "附表2第1(1)條「先前客戶」的定義就不同類別的機構分別訂有段落，各有其截止日期：就持牌虛擬資產服務提供者以外的金融機構而言，是《打擊洗錢條例》生效的2012年4月1日；就大部分指定非金融業人士而言，則是該制度擴展至指定非金融業人士的2018年3月1日。某金錢服務經營者於2016年與一名客戶建立業務關係，其後從未對該客戶執行客戶盡職審查。該經營者可否以2018年的日期為依據，把該客戶視為先前客戶？",
    "options": [
-    "2018年3月1日",
-    "2012年4月1日",
-    "2023年6月1日",
-    "2018年1月1日"
+    "不可，因為該較後日期的一段適用於指定非金融業人士，而金錢服務經營者屬金融機構",
+    "可以，因為定義中最後的一個日期，適用於客戶選擇與之往來的任何一類機構",
+    "可以，因為就附表2的目的而言，金錢服務經營者是被視為指定非金融業人士的",
+    "不可，因為先前客戶的概念是為指定非金融業人士而設，對金錢服務經營者並不適用"
    ],
-   "explain": "該定義的(c)段就B類貴金屬及寶石交易商註冊人以外的指定非金融企業及行業，訂明日期為2018年3月1日，反映該制度擴展至指定非金融企業及行業的生效日期。"
+   "explain": "該定義的每一段均與一類機構掛鈎：適用於持牌虛擬資產服務提供者以外的金融機構的一段，採用《打擊洗錢條例》生效的日期，而較後的日期則屬於適用於貴金屬及寶石B類註冊人以外的指定非金融業人士的一段。持牌金錢服務經營者根據附表1屬金融機構，因此其客戶須在條例生效前已建立關係方屬先前客戶，而於2016年建立的關係屬一般關係，本應在建立前先執行客戶盡職審查。客戶不能自行選擇適用的一段，金錢服務經營者並非指定非金融業人士，而該概念亦確實適用於金融機構。"
   }
  },
  {
@@ -20868,28 +20868,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.1(1) (definition of “customer due diligence measures”)",
-   "tc": "《打擊洗錢條例》附表2第1(1)條（「客戶盡職審查措施」的定義）"
+   "en": "AMLO Sch. 2, s.1(1) (definition of “customer due diligence measures”) and s.2(1)",
+   "tc": "《打擊洗錢條例》附表2第1(1)條（「客戶盡職審查措施」的定義）及第2(1)條"
   },
   "en": {
-   "q": "Where does Schedule 2 locate the content of “customer due diligence measures”?",
+   "q": "Section 1(1) of Schedule 2 defines “customer due diligence measures” as the measures set out in section 2(1) of the Schedule, and other provisions of the Schedule then say when those measures must be carried out. Which of the following duties is NOT one of those measures, but is imposed by Schedule 2 as a separate obligation?",
    "options": [
-    "In section 2(1) of Schedule 2",
-    "In section 3(1) of Schedule 2",
-    "In Part 1 of Schedule 1 to the AMLO",
-    "In guidelines published under section 7"
+    "Continuously monitoring the business relationship, including scrutinising the customer's transactions",
+    "Taking reasonable measures to verify the identity of the beneficial owner of a corporate customer",
+    "Identifying a person who purports to act for the customer and verifying that person's authority",
+    "Obtaining information about the purpose and intended nature of an intended business relationship"
    ],
-   "explain": "The Schedule 2 definition provides that customer due diligence measures means the measures set out in section 2(1) of that Schedule — identification and verification of the customer, beneficial owner measures, purpose and intended nature of the relationship, and measures relating to persons purporting to act."
+   "explain": "The measures defined as customer due diligence measures are identifying and verifying the customer, identifying any beneficial owner and taking reasonable measures to verify that person's identity, obtaining information on the purpose and intended nature of a business relationship unless it is obvious, and identifying and verifying a person purporting to act for the customer together with that person's authority. Continuous monitoring of the business relationship, with its periodic review of documents, scrutiny of transactions and examination of unusual transactions, is a distinct duty imposed by a separate provision, which is why the Schedule can require CDD before a relationship begins and monitoring throughout it. The beneficial owner, authority to act and purpose and nature steps are all within the defined measures."
   },
   "tc": {
-   "q": "附表2將「客戶盡職審查措施」的內容置於何處？",
+   "q": "附表2第1(1)條把「客戶盡職審查措施」界定為該附表第2(1)條列出的措施，附表其他條文則訂明何時須執行該等措施。以下哪項責任並非該等措施之一，而是附表2另行施加的責任？",
    "options": [
-    "該條例附表2第2(1)條",
-    "該條例附表2第3(1)條",
-    "該條例附表1第1部",
-    "根據第7條公布的指引"
+    "持續監察業務關係，包括審查為客戶執行的交易是否符合對客戶的認知",
+    "就客戶的實益擁有人採取合理措施，核實該實益擁有人的身分",
+    "識別看似代表客戶行事的人，並核實該人代表客戶行事的授權",
+    "取得關於擬建立的業務關係的目的及擬具有的性質的資料"
    ],
-   "explain": "附表2的定義訂明「客戶盡職審查措施」指該附表第2(1)條所列的措施——識別及核實客戶身分、實益擁有人措施、業務關係的目的及擬有性質，以及關於聲稱代客戶行事的人的措施。"
+   "explain": "被界定為客戶盡職審查措施的措施，是識別及核實客戶身分、識別實益擁有人並採取合理措施核實其身分、取得關於業務關係的目的及擬具有的性質的資料（顯而易見者除外），以及識別及核實看似代表客戶行事的人的身分連同其授權。持續監察業務關係，包括定期覆核文件、審查交易及審視異乎尋常的交易，是由另一條文另行施加的責任，故附表可規定在建立關係前執行客戶盡職審查，並在關係存續期間持續監察。實益擁有人、行事授權以及目的及性質三項步驟，均屬所界定的措施之內。"
   }
  },
  {
@@ -20901,24 +20901,24 @@
    "tc": "《打擊洗錢條例》附表2第1(1)條（「先前客戶」的定義）"
   },
   "en": {
-   "q": "Which commencement date does the “pre-existing customer” definition tie to licensed VAS providers, reflecting when their licensing regime began?",
+   "q": "Under the definition of “pre-existing customer” in section 1(1) of Schedule 2, the relevant date for an MSO is the AMLO's commencement on 1 April 2012, and the definition is framed by reference to a business relationship established before that date. A person who has held an account with a Hong Kong bank since 2005 approaches an MSO for the first time in 2026 and asks to establish a business relationship. Can the MSO treat the person as a pre-existing customer?",
    "options": [
-    "1 June 2023",
-    "1 April 2012",
-    "1 March 2018",
-    "1 April 2023"
+    "No, because the definition looks at the relationship with the MSO itself, so CDD must precede the new relationship",
+    "Yes, because the person's relationship with a Hong Kong financial institution pre-dates the commencement of the AMLO",
+    "Yes, provided the bank confirms in writing that it carried out CDD on the person before the relationship began",
+    "No, because a bank customer can be pre-existing for the bank alone and the concept does not extend to MSOs"
    ],
-   "explain": "Paragraph (b) of the definition, as replaced in 2022, sets the date at 1 June 2023 for a licensed VAS provider — the commencement of the virtual asset service provider licensing regime."
+   "explain": "The definition is framed institution by institution: a pre-existing customer of a financial institution is one with whom that institution had established a business relationship before the cut-off date. The person has never dealt with the MSO, so the relationship now proposed is a new one and CDD must be carried out before it is established. A relationship with a different institution does not count, a confirmation from the bank does not make the person a pre-existing customer of the MSO, and the concept does apply to an MSO as a financial institution."
   },
   "tc": {
-   "q": "「先前客戶」的定義就持牌虛擬資產服務提供者採用哪一個生效日期？該日期反映其發牌制度何時開始？",
+   "q": "根據附表2第1(1)條「先前客戶」的定義，就金錢服務經營者而言，有關日期是《打擊洗錢條例》生效的2012年4月1日，而該定義是以在該日期前已建立的業務關係為基準。某人自2005年起在一間香港銀行持有戶口，於2026年首次接觸某金錢服務經營者，要求建立業務關係。該經營者可否把該人視為先前客戶？",
    "options": [
-    "2023年6月1日",
-    "2012年4月1日",
-    "2018年3月1日",
-    "2023年4月1日"
+    "不可，因為該定義看的是與該經營者本身的關係，故建立新關係前須先執行客戶盡職審查",
+    "可以，因為該人與一間香港的金融機構所建立的業務關係，早於《打擊洗錢條例》生效之前",
+    "可以，但前提是該銀行以書面確認，其在關係開始前已對該人執行客戶盡職審查",
+    "不可，因為銀行客戶可就該銀行而言屬先前客戶，但此一概念並不延伸至金錢服務經營者本身"
    ],
-   "explain": "經2022年重訂的該定義(b)段就持牌虛擬資產服務提供者訂明日期為2023年6月1日，即虛擬資產服務提供者發牌制度的生效日期。"
+   "explain": "該定義是逐一機構而訂的：金融機構的先前客戶，是指在截止日期前已與該機構建立業務關係的客戶。該人從未與該金錢服務經營者往來，故現擬建立的關係屬新關係，須在建立前執行客戶盡職審查。與另一機構的關係並不計算在內，銀行的確認亦不會使該人成為該經營者的先前客戶，而該概念確實適用於作為金融機構的金錢服務經營者。"
   }
  },
  {
@@ -21919,28 +21919,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.3(1)(a) and s.3(2) compared",
-   "tc": "《打擊洗錢條例》附表2第3(1)(a)條與第3(2)條的比較"
+   "en": "AMLO Sch. 2, s.3(1)(a) & s.3(2)",
+   "tc": "《打擊洗錢條例》附表2第3(1)(a)及3(2)條"
   },
   "en": {
-   "q": "What is the relationship between section 3(1)(a) and section 3(2) of Schedule 2?",
+   "q": "Section 3(1)(a) of Schedule 2 requires an MSO to carry out customer due diligence before establishing a business relationship, but section 3(2) allows one step to be completed afterwards where that is necessary not to interrupt the normal conduct of business and any resulting ML/TF risk is effectively managed. Which step may be deferred in that way?",
    "options": [
-    "Section 3(1)(a) requires CDD first; section 3(2) narrowly allows verification afterwards",
-    "Section 3(2) repeals section 3(1)(a); CDD before establishing a relationship is no longer required",
-    "Section 3(2) applies only to DNFBPs; section 3(1)(a) applies only to financial institutions",
-    "Section 3(2) allows CDD to be skipped entirely in urgent cases; section 3(1)(a) does not apply then"
+    "Verifying the identity of the customer and the identity of any beneficial owner of the customer",
+    "Identifying the customer and obtaining the purpose and intended nature of the relationship",
+    "Carrying out the whole of customer due diligence, including identification of the customer",
+    "Verifying the identity and authority of a person purporting to act on behalf of the customer"
    ],
-   "explain": "Section 3(1)(a) is expressly subject to subsection (2), which permits verification of the customer and any beneficial owner after establishing the relationship, but only where necessary not to interrupt normal business conduct and any resulting risk is effectively managed — a narrow, conditional deferral, not a repeal, a sectoral carve-out, or an urgency-based exemption from CDD altogether."
+   "explain": "The deferral is confined to verification of identity: the MSO may verify the customer, and any beneficial owner of the customer, after the relationship is established, and must then complete that verification as soon as reasonably practicable. Identification itself, the purpose and intended nature of the relationship, and the identity and authority of anyone acting for the customer are not covered by the deferral and remain steps to be taken before the relationship begins, so the whole of due diligence cannot be postponed."
   },
   "tc": {
-   "q": "附表2第3(1)(a)條與第3(2)條有何關係？",
+   "q": "附表2第3(1)(a)條規定金錢服務經營者須在建立業務關係之前執行客戶盡職審查，但第3(2)條容許在為免干擾業務正常運作而有此需要、且因此引致的任何洗錢／恐怖分子資金籌集風險已獲有效管理的情況下，將其中一個步驟押後完成。可以如此押後的是哪個步驟？",
    "options": [
-    "第3(1)(a)條規定須先進行客戶盡職審查；第3(2)條則狹義容許其後核實",
-    "第3(2)條廢除第3(1)(a)條；建立業務關係前無須再進行客戶盡職審查",
-    "第3(2)條只適用於指定非金融企業及行業；第3(1)(a)條只適用於金融機構",
-    "第3(2)條容許在緊急情況下完全略過客戶盡職審查；第3(1)(a)條屆時不適用"
+    "核實該名客戶的身分，以及核實該客戶的任何實益擁有人的身分",
+    "識別客戶的身分，以及取得該業務關係的目的及擬具有的性質",
+    "執行整套客戶盡職審查措施，包括識別客戶身分的措施在內",
+    "核實看似代表客戶行事的人的身分，以及核實該人代表客戶的授權"
    ],
-   "explain": "第3(1)(a)條明文受第(2)款規限，該款准許在建立關係後方核實客戶及任何實益擁有人的身分，但只限為免打斷正常業務往來而有此需要，且因此產生的風險獲有效管理——這是狹窄、附條件的延後安排，並非廢除規定、業別劃分，或在緊急情況下完全豁免客戶盡職審查。"
+   "explain": "延後安排僅限於身分核實：經營者可在業務關係建立之後才核實客戶及該客戶任何實益擁有人的身分，其後並須在合理地切實可行的範圍內盡快完成核實。識別身分本身、業務關係的目的及擬具有的性質，以及代表客戶行事的人的身分及授權，均不在延後安排之列，仍須在建立關係之前完成，因此整套盡職審查不能押後。"
   }
  },
  {
@@ -21952,24 +21952,24 @@
    "tc": "《打擊洗錢條例》附表2第4條與第15條的比較；《打擊洗錢及恐怖分子資金籌集指引》第4.1.2段"
   },
   "en": {
-   "q": "How do sections 4 and 15 of Schedule 2 relate to one another?",
+   "q": "Section 4 of Schedule 2 deals with simplified customer due diligence for listed kinds of customer and product, and section 15 with additional measures in high-risk situations. Guideline paragraph 4.1.2 presents them as the two ends of a risk-based approach to due diligence. Which statement about how the two provisions operate is correct?",
    "options": [
-    "Section 4 permits simplified CDD in lower-risk situations, while section 15 adds requirements in high-risk situations",
-    "Both sections impose additional requirements, and section 15's requirements are simply the stricter of the two",
-    "Section 4 applies only to financial institutions, while section 15 applies only to DNFBPs",
-    "Section 15 displaces section 4 whenever both could otherwise apply to the same customer"
+    "Simplified due diligence is a permission the MSO may use, whereas the high-risk measures are mandatory once such a situation arises",
+    "Both are mandatory: the MSO must reduce its measures for listed customers and must add measures in a high-risk situation",
+    "Both are permissive: the MSO may reduce its measures for listed customers and may add measures in a high-risk situation",
+    "Simplified due diligence is mandatory for listed customers, whereas the high-risk measures are left to the MSO's own judgement"
    ],
-   "explain": "Section 4 allows an institution to carry out only the section 2(1)(a), (ab), (c) and (d) measures instead of full CDD where the customer or product falls within its listed categories; the Guideline at paragraph 4.1.2 frames this as the low-risk route, saying an MSO may apply simplified due diligence measures in low risk situations. Section 15 works in the opposite direction: in specified high-risk situations it adds senior management approval and either source of wealth/funds enquiries or additional mitigating measures. Both sections apply to financial institutions and DNFBPs alike, and nothing in the text makes one displace the other."
+   "explain": "Where the MSO has reasonable grounds to believe a customer or product falls within the listed categories, the simplified route is expressed as something it may carry out instead of all the due diligence measures, so it is an option. In a situation specified by written notice, or one that by its nature may present a high risk of money laundering or terrorist financing, the additional measures such as senior management approval are expressed as things the MSO must do. The Guideline reflects the same asymmetry: an MSO should conduct enhanced due diligence where risks are high, and may apply simplified due diligence in low-risk situations."
   },
   "tc": {
-   "q": "附表2第4條與第15條有何關係？",
+   "q": "附表2第4條處理就所列類別的客戶及產品進行的簡化客戶盡職審查，第15條則處理高風險情況下的額外措施。指引第4.1.2段把兩者說明為風險為本的盡職審查方法的兩端。關於這兩項條文如何運作，下列哪項陳述正確？",
    "options": [
-    "第4條在較低風險下准許簡化客戶盡職審查，第15條則在高風險下加入額外規定",
-    "兩條均施加額外規定，第15條的規定只是兩者中較嚴格的一項",
-    "第4條只適用於金融機構，而第15條則只適用於指定非金融企業及行業",
-    "凡兩條均可能適用於同一名客戶時，第15條即取代第4條"
+    "簡化客戶盡職審查是經營者可選用的安排，而高風險措施在有關情況出現後即屬強制",
+    "兩者均屬強制：經營者就所列客戶須減省措施，在高風險情況下亦須增加措施",
+    "兩者均屬准許：經營者就所列客戶可減省措施，在高風險情況下亦可增加措施",
+    "簡化客戶盡職審查就所列客戶屬強制安排，而高風險措施則交由經營者自行判斷"
    ],
-   "explain": "第4條准許機構在客戶或產品屬其所列類別的情況下，只進行第2(1)(a)、(ab)、(c)及(d)條的措施，以代替完整的客戶盡職審查；《打擊洗錢及恐怖分子資金籌集指引》第4.1.2段將此定性為低風險途徑，訂明金錢服務經營者在低風險的情況下可採取簡化盡職審查措施。第15條方向相反：在指明的高風險情況下，加入高級管理層批准，以及財富及資金來源查究或額外減低風險措施兩者之一。兩條同樣適用於金融機構及指定非金融企業及行業，文本中並無一條取代另一條的規定。"
+   "explain": "如經營者有合理理由相信客戶或產品屬所列類別，簡化途徑的表述是可以代替全部盡職審查措施而執行的安排，因此屬於選項。在書面通知指明的情況或按其性質可能構成高洗錢或恐怖分子資金籌集風險的情況下，額外措施（例如高級管理層批准）的表述是經營者必須執行的事項。指引反映同一不對稱：風險屬高時經營者應採取更嚴格的盡職審查措施，而在低風險情況下則可採取簡化盡職審查措施。"
   }
  },
  {
@@ -21981,24 +21981,24 @@
    "tc": "《打擊洗錢條例》附表2第20條與第21條的比較"
   },
   "en": {
-   "q": "What is the division of subject matter between sections 20 and 21 of Schedule 2?",
+   "q": "Section 20 of Schedule 2 sets out what records an MSO must keep and for how long, and section 21 sets out the form in which they may be kept. For customers with whom it has a business relationship, an MSO proposes to scan each customer's identification documents into its computer database and destroy the paper originals, and to delete each customer's scanned identification records five years after that customer's latest transaction is completed. Which part of the proposal is not permitted?",
    "options": [
-    "Section 20 governs what must be kept and for how long, while section 21 governs the form of keeping",
-    "Section 20 applies to financial institutions only, and section 21 applies to DNFBPs only",
-    "Section 20 covers transaction records only, and section 21 covers customer records only",
-    "Section 21 sets a materially longer retention period than section 20 requires"
+    "The deletion timing, because customer identification records must be kept throughout the relationship and five years beyond it",
+    "The scanning, because identification documents obtained for verifying identity must be retained in their original paper form",
+    "Both parts, because originals must be kept and the five years run from the end of the relationship rather than from a transaction",
+    "Neither part, because five years from the completion of a transaction is the retention period for that customer's records as well"
    ],
-   "explain": "Section 20 sets out the duty to keep records — what must be kept under subsection (1) and the retention periods under subsections (2), (3), (3A) and any extension under (4). Section 21 addresses the manner of keeping: originals, or copies on microfilm or in a computer database. Neither section is confined to one type of institution or one type of record, and section 21 does not itself set any retention period."
+   "explain": "A document required to be kept may be kept as the original or as a copy on microfilm or in the database of a computer, so scanning the identification documents and discarding the paper is permitted. Records obtained in identifying and verifying a customer must be kept throughout the business relationship and for at least five years after it ends, so deleting them five years after the customer's latest transaction can cut that period short while the relationship continues. Five years from completion is the period for the records of a transaction, not for the customer's identification records, and there is no requirement to keep originals."
   },
   "tc": {
-   "q": "附表2第20條與第21條在主題上如何分工？",
+   "q": "附表2第20條訂明金錢服務經營者須備存哪些紀錄及備存多久，第21條則訂明紀錄可用的備存形式。就與其有業務關係的客戶，某金錢服務經營者建議把每名客戶的識別文件掃描至其電腦數據庫後銷毀紙本正本，並在該客戶最近一項交易完成五年後刪除其識別文件的掃描紀錄。建議中哪一部分不獲准許？",
    "options": [
-    "第20條規管須保存哪些紀錄及保存多久，第21條規管保存的形式",
-    "第20條只限金融機構，第21條只限指定非金融企業及行業",
-    "第20條只涵蓋交易紀錄，第21條只涵蓋客戶紀錄",
-    "第21條訂明的保存期，較第20條所訂者明顯更長"
+    "刪除的時間，因為客戶識別紀錄須在業務關係持續期間及關係終止後五年內備存",
+    "掃描的做法，因為為核實身分而取得的識別文件，必須一直以紙本正本的形式備存",
+    "兩部分均不獲准許，因為正本必須備存，而五年期亦須由關係終止之日而非由交易起計",
+    "兩部分均獲准許，因為自交易完成起計五年，正是該客戶各項紀錄的備存期"
    ],
-   "explain": "第20條訂明保存紀錄的責任——第(1)款訂明須保存甚麼，第(2)、(3)、(3A)款訂明保存期，第(4)款則訂明延長。第21條則處理保存方式：正本，或以縮微膠卷或電腦資料庫保存的副本。兩條均不限於單一類別的機構或單一類別的紀錄，第21條本身亦無訂明任何保存期。"
+   "explain": "規定須備存的文件，可備存正本，或以微縮影片或電腦數據庫備存複本，因此把識別文件掃描後銷毀紙本是獲准許的。在識別及核實客戶身分時取得的紀錄，須在業務關係持續期間備存，並在關係終止後至少再備存五年，因此在客戶最近一項交易完成五年後便刪除，可能在關係仍然持續時縮短該備存期。自交易完成起計五年是交易紀錄的備存期，而非客戶識別紀錄的備存期，而條文亦無規定必須備存正本。"
   }
  },
  {
@@ -22039,24 +22039,24 @@
    "tc": "《打擊洗錢條例》附表2第2部第3分部（禁制）第16及17條"
   },
   "en": {
-   "q": "What is the subject matter of Division 3 of Part 2 of Schedule 2?",
+   "q": "Division 3 of Part 2 of Schedule 2 contains two prohibitions: section 16 forbids opening or maintaining an anonymous account or an account in a fictitious name for any customer, and section 17 forbids establishing or continuing a correspondent banking relationship with a shell bank. Which of these prohibitions binds a licensed MSO?",
    "options": [
-    "Prohibitions — anonymous accounts, and correspondent banking relationships with shell banks",
-    "Special requirements that apply to higher-risk customers and transactions generally",
-    "General customer due diligence obligations that apply to every customer relationship",
-    "Record-keeping requirements governing the documents, data and information obtained"
+    "The anonymous account prohibition, because the shell bank rule is addressed to authorized institutions",
+    "Both prohibitions, because each is addressed to financial institutions generally, licensed MSOs included",
+    "The shell bank prohibition, because an MSO's overseas remittance partners are correspondent relationships",
+    "Neither prohibition, because both are addressed to authorized institutions under the Banking Ordinance"
    ],
-   "explain": "Division 3 of Part 2 of Schedule 2 is headed Prohibitions and contains section 16 (anonymous accounts and accounts in fictitious names) and section 17 (an authorized institution's correspondent banking relationships with shell banks). Division 2 contains the special requirements for higher-risk situations, Division 1 the general CDD obligations, and Part 3 the record-keeping requirements — each a different part of the Schedule from Division 3."
+   "explain": "The anonymous account rule is addressed to a financial institution or a DNFBP, and a licensed MSO is a financial institution, so it must not open or maintain an anonymous account or an account in a fictitious name. The shell bank rule is addressed to an authorized institution, that is a bank regulated under the Banking Ordinance, and correspondent banking is defined as banking services provided by an authorized institution to another institution, so it does not reach an MSO. It is therefore wrong to say that both rules bind an MSO, that the shell bank rule does, or that neither does."
   },
   "tc": {
-   "q": "附表2第2部第3分部的主題為何？",
+   "q": "附表2第2部第3分部載有兩項禁止規定：第16條禁止為任何客戶開立或維持匿名戶口或以虛構姓名或名稱開立的戶口，第17條禁止與空殼銀行建立或維持代理銀行服務關係。哪一項禁止規定約束持牌金錢服務經營者？",
    "options": [
-    "禁止事項——匿名帳戶，以及與空殼銀行的代理銀行服務關係",
-    "適用於所有較高風險客戶及交易的特別規定",
-    "適用於每段客戶關係本身的一般客戶盡職審查責任",
-    "規管所取得的有關文件、數據及資料的各項紀錄保存規定"
+    "匿名戶口的禁止規定，因為空殼銀行規則是針對認可機構而訂的",
+    "兩項禁止規定，因為兩者均一般地針對金融機構，包括持牌金錢服務經營者",
+    "空殼銀行的禁止規定，因為金錢服務經營者的海外匯款夥伴屬代理銀行關係",
+    "兩項均不約束，因為兩者均針對《銀行業條例》下的認可機構而訂"
    ],
-   "explain": "附表2第2部第3分部標題為「禁止事項」，載有第16條（匿名帳戶及以虛構名稱開立的帳戶）及第17條（認可機構與空殼銀行的代理銀行服務關係）。第2分部載有較高風險情況的特別規定，第1分部載有一般客戶盡職審查責任，第3部則載有紀錄保存規定——各屬附表中不同於第3分部的部分。"
+   "explain": "匿名戶口規則的對象是金融機構或指定非金融業人士，而持牌金錢服務經營者屬金融機構，故不得為客戶開立或維持匿名戶口或以虛構姓名或名稱開立的戶口。空殼銀行規則的對象是認可機構，即受《銀行業條例》規管的銀行，而代理銀行服務的定義是由認可機構向另一機構提供銀行服務，故該規則不涉及金錢服務經營者。因此，說兩項規則均約束金錢服務經營者、說空殼銀行規則約束之，或說兩者均不約束之，均不正確。"
   }
  },
  {
@@ -22093,28 +22093,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.5 and s.6 compared",
-   "tc": "《打擊洗錢條例》附表2第5條與第6條的比較"
+   "en": "AMLO Sch. 2, s.5 and s.6 compared; AML/CFT Guideline ¶4.12.3",
+   "tc": "《打擊洗錢條例》附表2第5條與第6條的比較；《打擊洗錢及恐怖分子資金籌集指引》第4.12.3段"
   },
   "en": {
-   "q": "How do the termination consequences in sections 5 and 6 of Schedule 2 differ?",
+   "q": "Section 5 of Schedule 2 requires an MSO to continuously monitor each business relationship, and section 6 requires CDD on a pre-existing customer when specified trigger events occur. An MSO has a customer whose relationship was established before the AMLO commenced, and it has never carried out CDD on that customer. How do the two duties apply to that customer?",
    "options": [
-    "Section 6(2) requires termination if a pre-existing customer fails the section 6(1) trigger, while section 5 has none",
-    "Both sections require termination on identical terms whenever ongoing monitoring reveals any discrepancy",
-    "Section 5 requires termination for suspicious transactions, while section 6 imposes no termination duty at all",
-    "Neither section provides for termination, since only section 3(4) contains a rule of that kind"
+    "Monitoring applies now, using the records the MSO already holds, and CDD falls due when a trigger event occurs",
+    "Neither duty applies until the MSO carries out CDD afresh, treating the customer as newly onboarded",
+    "CDD falls due at once for a pre-existing customer, and monitoring begins once that CDD is complete",
+    "Monitoring is deferred until CDD is done, but a trigger event brings both duties forward together"
    ],
-   "explain": "Section 5 sets out the continuous monitoring duty and, in subsection (3), additional measures for higher-risk customers, but contains no termination provision of its own. Section 6(2) requires termination as soon as reasonably practicable where the institution cannot carry out CDD on a pre-existing customer once a section 6(1) trigger arises. Section 3(4) separately contains a parallel termination rule for other circumstances — that rule exists alongside sections 5 and 6, and does not mean section 6(2) itself lacks one."
+   "explain": "The monitoring duty attaches to every business relationship, and the Schedule confirms that it reaches a pre-existing customer by providing that, before CDD is first carried out on such a customer, the periodic review is limited to the documents, data and information the institution already holds. CDD on a pre-existing customer is not required at once: it becomes due when a trigger event occurs, such as an unusual transaction, a material change in how the account is operated, a suspicion of ML/TF or a doubt about identification information. Monitoring is therefore neither suspended pending CDD nor delayed until after it, and CDD is trigger-based rather than immediate."
   },
   "tc": {
-   "q": "附表2第5條與第6條的終止關係後果有何不同？",
+   "q": "附表2第5條規定金錢服務經營者須持續監察每段業務關係，第6條則規定在指明的觸發事件出現時，須對先前客戶執行客戶盡職審查。某金錢服務經營者有一名客戶，其業務關係在《打擊洗錢條例》生效前建立，而該經營者從未對該客戶執行客戶盡職審查。這兩項責任如何適用於該客戶？",
    "options": [
-    "第6(2)條規定，先前客戶如未能符合第6(1)款的要求，須終止關係，第5條並無終止條文",
-    "只要在持續監察期間發現任何輕微差異，兩條均一律規定須按完全相同的條款終止關係",
-    "第5條規定機構一旦發現任何可疑交易即須終止關係，而第6條則完全無任何終止責任",
-    "兩條均完全並無終止規定，此類終止規則其實只見於第3(4)條當中而已"
+    "監察責任即時適用，以經營者已持有的紀錄進行，客戶盡職審查則在觸發事件出現時到期",
+    "兩項責任均不適用，直至經營者把該客戶視作新客戶重新執行客戶盡職審查為止",
+    "須即時對先前客戶執行客戶盡職審查，監察責任則在該項審查完成之後才開始",
+    "監察責任押後至客戶盡職審查完成為止，但觸發事件會令兩項責任一併提前"
    ],
-   "explain": "第5條訂明持續監察責任，並在第(3)款訂明就較高風險客戶的額外措施，但本身並無終止條文。第6(2)條規定，如第6(1)款的觸發情況出現而機構無法就先前客戶進行客戶盡職審查，須在合理切實可行範圍內盡快終止關係。第3(4)條就其他情況另訂有相對應的終止規則——該規則是在第5、6條以外並存的規定，並不代表第6(2)條本身沒有終止規定。"
+   "explain": "監察責任附隨於每段業務關係，而附表訂明，在首次對先前客戶執行客戶盡職審查之前，定期覆核限於機構已持有的文件、數據及資料，正好確認該責任及於先前客戶。對先前客戶的客戶盡職審查並非即時到期，而是在觸發事件出現時才須執行，例如異乎尋常的交易、戶口操作模式出現相當程度的轉變、懷疑涉及洗錢／恐怖分子資金籌集，或懷疑身分識別資料是否真實。因此，監察既不會因等待客戶盡職審查而暫停，亦不會押後至審查之後才開始，而客戶盡職審查亦是以觸發事件為本，而非即時執行。"
   }
  },
  {
@@ -22126,24 +22126,24 @@
    "tc": "《打擊洗錢條例》附表2第12條與第13條的比較"
   },
   "en": {
-   "q": "Which institutions are subject to section 13 of Schedule 2, and how does that differ from section 12?",
+   "q": "Section 12 of Schedule 2 governs wire transfers, and section 13 governs a remittance transaction of $8,000 or more, other than a wire transfer, carried out by a licensed MSO. A walk-in customer asks an MSO to send $9,000 to a relative overseas, and the MSO arranges it through a cash-based settlement rather than by electronic means. Which duty, which would have applied had the transaction been a wire transfer, does NOT arise here?",
    "options": [
-    "Section 13 applies to licensed MSOs' non-wire remittances, while section 12 applies to institutions generally for wire transfers",
-    "Section 13 applies to authorized institutions, while section 12 applies only to licensed money service operators",
-    "Both sections apply identically to every financial institution, without any distinction between them",
-    "Section 13 applies only to virtual asset transfers carried out by any financial institution at all"
+    "Including the originator's and recipient's particulars in a message or payment form accompanying the transfer",
+    "Verifying the originator's identity by reference to the originator's identification document before proceeding",
+    "Recording the originator's address together with the originator's name and identification document number",
+    "Recording the recipient's name and address together with the method by which the money is to be delivered"
    ],
-   "explain": "Section 13(1) applies to a remittance transaction other than a wire transfer, of $8,000 or above, carried out by a licensed money service operator. Section 12 applies to financial institutions generally in relation to wire transfers, subject to the exclusions in section 12(2) — the institution and transfer-type coverage of the two sections is not reversed, identical, or limited to virtual assets."
+   "explain": "For a wire transfer the ordering institution must include the recorded originator and recipient information in the message or payment form accompanying the transfer, so that it travels with the payment. The remittance rule for a non-wire transaction of $8,000 or more instead requires the MSO, before carrying it out, to identify the originator, verify identity by reference to the identification document, and record the originator's name, identification document number and address, the currency and amount, the date and time of the instructions, the recipient's name and address and the method of delivery. Verification against the identification document, the originator's address and the recipient's name, address and delivery method are therefore all required here, and it is the accompanying-message duty that belongs to wire transfers."
   },
   "tc": {
-   "q": "附表2第13條適用於哪些機構？與第12條有何分別？",
+   "q": "附表2第12條規管電傳轉帳，第13條則規管持牌金錢服務經營者進行的、款額相等於8,000元或以上而並非電傳轉帳的匯款交易。一名沒有業務關係的客戶要求金錢服務經營者把9,000元匯給海外親屬，而經營者以現金結算方式而非電子方式安排。假如該交易屬電傳轉帳便會適用的責任中，哪一項在此並不產生？",
    "options": [
-    "第13條適用於持牌經營者的非電傳轉賬匯款交易，第12條則就電傳轉賬適用於金融機構",
-    "第13條特別適用於認可機構的匯款交易，第12條則只適用於金錢服務經營者",
-    "不論交易性質為何，第12條及第13條兩者均不加區別地一律適用於每一間金融機構",
-    "第13條的適用範圍其實只限於任何金融機構進行的虛擬資產轉移交易"
+    "把匯款人及收款人的資料，載入附隨該項轉帳的信息或付款表格內",
+    "在進行該項交易之前，先藉參考匯款人的識別文件核實匯款人的身分",
+    "連同匯款人的姓名及識別文件號碼，一併記錄匯款人的地址",
+    "記錄收款人的姓名及地址，以及有關金錢將會採用的送遞方式"
    ],
-   "explain": "第13(1)條適用於持牌金錢服務經營者進行、8,000元或以上而並非電傳轉賬的匯款交易。第12條則就電傳轉賬一般適用於金融機構，並受第12(2)款的例外規定所限——兩條所涵蓋的機構及轉賬類型並非互換、並非完全相同，亦不限於虛擬資產。"
+   "explain": "就電傳轉帳而言，匯款機構須把所記錄的匯款人及收款人資料，載入附隨該項轉帳的信息或付款表格內，使資料隨款項一併傳送。至於並非電傳轉帳而款額達8,000元或以上的匯款交易，規則則要求金錢服務經營者在進行交易前識別匯款人的身分、藉參考識別文件核實其身分，並記錄匯款人的姓名、識別文件號碼及地址、所涉貨幣及款額、接獲指示的日期及時間、收款人的姓名及地址，以及送遞方式。因此，藉識別文件核實身分、匯款人地址，以及收款人的姓名、地址及送遞方式在此均屬必須，而附隨信息的責任則是電傳轉帳獨有的。"
   }
  },
  {
@@ -22419,24 +22419,24 @@
    "tc": "《打擊洗錢條例》附表2第23條與第19條的比較"
   },
   "en": {
-   "q": "How do the obligations in sections 19 and 23 of Schedule 2 differ in character?",
+   "q": "Section 19 of Schedule 2 requires an MSO to establish and maintain effective procedures for certain matters, and section 23 requires it to take all reasonable measures to ensure that proper safeguards exist to prevent contraventions of the Schedule's requirements and to mitigate ML/TF risk. Which of the following is reached by the section 23 safeguards duty but is not among the matters for which section 19 requires procedures?",
    "options": [
-    "Section 19 sets specific procedures, e.g. PEP determination, while section 23 is a general safeguards duty",
-    "Section 19 applies only to financial institutions, while section 23 applies only to DNFBPs, with no overlap",
-    "Section 23 is narrower than section 19 and is limited to record-keeping obligations under Part 3",
-    "The two sections are alternative routes to compliance, so satisfying one discharges the other"
+    "Keeping the transaction and customer records that the Schedule requires",
+    "Determining whether a customer or a beneficial owner is a politically exposed person",
+    "Applying simplified customer due diligence to a customer who is eligible for it",
+    "Identifying and handling wire transfers that lack the required accompanying information"
    ],
-   "explain": "Section 19 prescribes particular procedures for identified matters - determining PEP status, handling non-compliant wire and virtual asset transfers, and carrying out the duties under sections 3, 4, 5, 9, 10 and 15. Section 23 is instead a general duty to take all reasonable measures to ensure safeguards against any Part 2 or 3 contravention and to mitigate ML/TF risk. Section 19 is not confined to financial institutions, section 23 is not confined to record-keeping, and the two duties are cumulative, not alternatives."
+   "explain": "The procedures duty covers determining politically exposed person status, identifying and handling wire transfers and virtual asset transfers that lack the required information, and carrying out the duties on when CDD is required, simplified due diligence, ongoing monitoring, customers not physically present, politically exposed persons and high-risk situations. It says nothing about record-keeping. The safeguards duty is wider, reaching any contravention of either the CDD requirements or the record-keeping requirements of the Schedule, so record-keeping falls within it, while the other three matters are already within the procedures duty."
   },
   "tc": {
-   "q": "附表2第19條與第23條的責任在性質上有何不同？",
+   "q": "附表2第19條規定金錢服務經營者須就若干事項設立及維持有效程序，第23條則規定其須採取所有合理措施，確保有適當的預防措施以防止違反附表的規定，並減低洗錢／恐怖分子資金籌集風險。以下哪一項屬第23條的預防措施責任所涵蓋，但並非第19條規定須設立程序的事項？",
    "options": [
-    "第19條就個別事項訂明具體程序（如政治人物身分），第23條為一般防護責任",
-    "第19條只適用於金融機構，第23條則只適用於指定非金融企業及行業，兩者互不重疊",
-    "第23條較第19條為窄，只限於第3部下的紀錄保存責任及相關安排",
-    "兩條屬達致合規的替代途徑，遵從當中其一即已履行另一項規定"
+    "備存附表規定的交易紀錄及客戶紀錄",
+    "斷定客戶或客戶的實益擁有人是否政治人物",
+    "對合資格的客戶採用簡化客戶盡職審查",
+    "識辨及處理欠缺規定附隨資料的電傳轉帳"
    ],
-   "explain": "第19條就已識別的事項訂明特定程序——斷定政治人物身分、處理不符規定的電傳轉賬及虛擬資產轉移，以及履行第3、4、5、9、10及15條的責任。第23條則是一般責任，須採取一切合理措施防止違反第2或3部的任何規定，並減低洗錢／恐怖分子資金籌集風險。第19條不只限於金融機構，第23條亦不只限於紀錄保存，兩者屬並行責任，並非二擇其一的替代方案。"
+   "explain": "設立程序的責任涵蓋斷定政治人物身分、識辨及處理欠缺規定資料的電傳轉帳及虛擬資產轉帳，以及履行關於何時須執行客戶盡職審查、簡化客戶盡職審查、持續監察、不曾現身的客戶、政治人物及高風險情況的責任。該責任並無提及備存紀錄。預防措施的責任範圍較廣，及於違反附表中客戶盡職審查規定或備存紀錄規定的任何情況，因此備存紀錄屬其範圍之內，而其餘三項事項則已屬設立程序的責任所涵蓋。"
   }
  },
  {
@@ -24251,28 +24251,28 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Disciplinary Fining Guideline (May 2018) ¶9(a)(iii)",
-   "tc": "《紀律處分罰款指引》（2018年5月）第9(a)(iii)段"
+   "en": "Disciplinary Fining Guideline (May 2018) ¶9(a)(ix)",
+   "tc": "《紀律處分罰款指引》（2018年5月）第9(a)(ix)段"
   },
   "en": {
-   "q": "How does the reputational factor in the Disciplinary Fining Guideline differ in wording from that in the pecuniary penalty guideline?",
+   "q": "Paragraph 9(a) of the Disciplinary Fining Guideline lists factors bearing on the nature, seriousness and impact of a contravention. An MSO that has never been disciplined or asked for an undertaking committed a one-off CDD lapse, earning nothing beyond its usual commission, which unknowingly let a criminal syndicate launder HK$3 million through it. Which listed factor do these facts engage?",
    "options": [
-    "Cites only HK's reputation as a financial centre, not money-services integrity",
-    "The Fining Guideline omits any reputational factor from its list entirely",
-    "The Fining Guideline refers only to the MSO's own commercial reputation",
-    "The two guidelines use exactly identical wording for this factor"
+    "The nature and extent of any financial crime facilitated by or attributable to the contravention",
+    "Whether the contravention was indicative of a pattern of repeated contraventions by the MSO",
+    "Whether the MSO had previously undertaken not to engage in the conduct that led to the contravention",
+    "The amount of any benefit gained or costs avoided by the MSO or its staff as a result of the contravention"
    ],
-   "explain": "Paragraph 9(a)(iii) of the Disciplinary Fining Guideline asks only whether the contravention is potentially damaging to the reputation of Hong Kong as an international financial centre. The corresponding paragraph of the pecuniary penalty guideline (doc 08, ¶9(a)(iii)) additionally refers to the integrity of the operation of money services in Hong Kong — the Fining Guideline is narrower, not silent, not MSO-specific, and not identically worded."
+   "explain": "Among the factors going to the nature, seriousness and impact of a contravention, the Fining Guideline lists the nature and extent of any financial crime facilitated, occasioned or otherwise attributable to the contravention, and a CDD lapse that let HK$3 million of criminal proceeds pass through the MSO engages exactly that factor. A single lapse is not indicative of a pattern of contraventions, an MSO never asked for an undertaking cannot have broken one, and earning no more than its usual commission means there is no benefit gained or cost avoided to weigh."
   },
   "tc": {
-   "q": "《紀律處分罰款指引》的聲譽因素在措辭上與《施加罰款紀律行動指引》有何不同？",
+   "q": "《紀律處分罰款指引》第9(a)段列出與違規行為的性質、嚴重性及影響有關的因素。一名從未受紀律處分亦從未被要求作出承諾的金錢服務經營者，一次性地未有執行客戶盡職審查，除一般佣金外並無其他得益，卻在不知情下讓一個犯罪集團經其清洗港幣300萬元。這些事實涉及所列的哪項因素？",
    "options": [
-    "本指引只提及香港作為金融中心的聲譽，未提金錢服務健全性",
-    "《紀律處分罰款指引》完全沒有列出任何聲譽方面的因素",
-    "《紀律處分罰款指引》只提及金錢服務經營者的商業聲譽",
-    "兩者在此項因素的措辭上完全一模一樣，並無任何分別"
+    "促成、引致或可歸因於該違規行為的任何金融罪行的性質及程度",
+    "該違規行為是否顯示出該金錢服務經營者的一套重複違規行事模式",
+    "該金錢服務經營者過往曾否承諾不會作出引致有關違規的行為",
+    "該金錢服務經營者或其職員從違規行為中所獲利益或所避免開支的數額"
    ],
-   "explain": "《紀律處分罰款指引》第9(a)(iii)段只詢問該項違反是否可能損害香港作為國際金融中心的聲譽。《施加罰款紀律行動指引》的對應段落（第9(a)(iii)段）則另加香港金錢服務營運的健全性——《紀律處分罰款指引》的範圍較窄，並非完全沒有聲譽因素，亦非只限於個別經營者本身，措辭亦非完全相同。"
+   "explain": "在與違規行為的性質、嚴重性及影響有關的因素中，《紀律處分罰款指引》列出促成、引致或可歸因於該違規行為的任何金融罪行的性質及程度；一次客戶盡職審查的疏漏令港幣300萬元犯罪得益經該經營者清洗，正正涉及這項因素。一次疏漏不足以顯示一套違規模式；從未被要求作出承諾的經營者不可能違反承諾；而除一般佣金外並無得益，即沒有所獲利益或所避免的開支可供衡量。"
   }
  },
  {
@@ -24313,24 +24313,24 @@
    "tc": "《有關適當人選準則的指引》（2018年4月）第2段；《補充指引》（2020年1月）第2段"
   },
   "en": {
-   "q": "Both fitness-and-propriety guidelines emphasise the same statutory point about section 30(4). What is it?",
+   "q": "Section 30(4) of the AMLO lists the matters the CCE must have regard to in determining whether an applicant for an MSO licence is a fit and proper person. An applicant argues that, since none of the listed matters counts against him, the CCE cannot refuse him on any other ground. According to paragraph 2 of both fitness-and-propriety guidelines, what is the position?",
    "options": [
-    "Beyond required matters, the CCE may weigh any other relevant matter",
-    "Section 30(4) is a complete and exhaustive list of all relevant matters",
-    "Section 30(4) applies only to corporate licence applicants, not individuals",
-    "Section 30(4) may be waived by the CCE in an appropriate particular case"
+    "The CCE must have regard to the listed matters and may also take into account any other matter he considers relevant",
+    "The CCE is confined to the listed matters, so an applicant against whom none of them counts is entitled to the licence",
+    "The CCE may look beyond the listed matters when assessing an existing licensee, but at the grant stage the list is exhaustive",
+    "The CCE treats the listed matters as guidance he may set aside in an individual case after weighing all the facts and circumstances"
    ],
-   "explain": "Paragraph 2 of both guidelines states that section 30(4) details the matters the CCE must have regard to, and that in addition the CCE may take into account any other matter it considers relevant — it is not an exhaustive list, is not limited to corporate applicants, and section 30(4) is a statutory requirement the CCE cannot simply waive."
+   "explain": "Paragraph 2 of the Guideline on Criteria for Determining Fitness and Propriety, repeated in paragraph 2 of the Supplementary Guideline, states that section 30(4) details the matters the CCE must have regard to and that, in addition to those matters, the CCE may take into account any other matter he considers relevant. The list therefore binds the CCE without confining him, so an applicant clear on every listed matter has no entitlement to a licence. The wider discretion is not reserved for existing licensees, and the listed matters are statutory matters the CCE must consider rather than guidance he may set aside."
   },
   "tc": {
-   "q": "兩份適當人選指引均強調關於第30(4)條的同一法定要點。該要點是甚麼？",
+   "q": "《打擊洗錢條例》第30(4)條詳列關長在斷定金錢服務經營者牌照申請人是否適當人選時須顧及的事宜。一名申請人聲稱，由於所列事宜均無對其不利，關長不能以任何其他理由拒絕其申請。根據兩份適當人選指引的第2段，情況如何？",
    "options": [
-    "除須顧及的事宜外，關長亦可考慮相關的其他事宜",
-    "第30(4)條是所有相關事宜的完整詳盡清單",
-    "第30(4)條只適用於公司申請人，不適用於個人",
-    "關長可在適當的個別個案中豁免第30(4)條的適用"
+    "關長必須顧及所列事宜，此外亦可考慮其認為有關的任何其他事宜",
+    "關長受所列事宜所限，沒有一項事宜對其不利的申請人有權獲批牌照",
+    "關長評估現有持牌人時可考慮清單以外的事宜，但批給階段則以清單為限",
+    "關長視所列事宜為指引，在個別個案中衡量全部事實及情況後可將其撇開"
    ],
-   "explain": "兩份指引的第2段均訂明第30(4)條詳列關長必須顧及的事宜，而除該等事宜外，關長可考慮其認為相關的任何其他事宜——並非詳盡清單，亦不限於公司申請人；第30(4)條屬法定規定，關長不能隨意豁免。"
+   "explain": "《有關適當人選準則的指引》第2段及《補充指引》第2段均訂明，第30(4)條詳述關長在斷定申請人是否適當人選時須顧及的事宜，而除必須顧及的事宜外，關長亦可考慮任何其他其認為有關的事宜。因此該清單約束關長但並不限制關長，所列事宜均無不利的申請人並無獲批牌照的權利。該較寬的酌情權並非留待評估現有持牌人時才適用，而所列事宜屬關長必須考慮的法定事宜，並非可以撇開的指引。"
   }
  },
  {
@@ -24966,24 +24966,24 @@
    "tc": "《遞交打擊洗錢及恐怖分子資金籌集政策的指引》（12/2019版）第3項"
   },
   "en": {
-   "q": "Which paragraphs of the AML/CFT Guideline must an MSO indicate compliance with when describing regular CDD in its policy?",
+   "q": "Item 3 of the Guidelines for Submission of AML/CFT Policy asks an MSO, when describing regular CDD and its application within the company, to indicate how it will comply with the paragraphs of the AML/CFT Guideline on when CDD measures must be carried out (paragraphs 4.2.1 to 4.2.6). What else must the MSO indicate in that part of the policy?",
    "options": [
-    "Paragraphs 4.2.1 to 4.2.6, and how linked transactions are dealt with",
-    "Paragraphs 1.1 to 1.10, in the Overview chapter of the AML/CFT Guideline",
-    "Paragraphs 6.1 to 6.19, in the terrorist financing and sanctions chapter",
-    "Paragraphs 9.1 to 9.7, in the staff training chapter of the AML/CFT Guideline"
+    "How any linked transactions will be dealt with",
+    "How source of funds and source of wealth are checked",
+    "Whether records can be retrieved within about a day",
+    "What counts as a normal level of business activity"
    ],
-   "explain": "Item 3 states that in describing regular CDD, the MSO should indicate how paragraphs 4.2.1 to 4.2.6 of the AML/CFT Guideline (Chapter 4, Customer Due Diligence) will be complied with, and how linked transactions will be dealt with — not the Overview (Chapter 1), terrorist financing/sanctions (Chapter 6), or staff training (Chapter 9, where paragraph 9.7 is the cross-reference used in item 16) chapters."
+   "explain": "Under the heading for regular CDD and its application within the company, item 3 states that the MSO should indicate how paragraphs 4.2.1 to 4.2.6 of the AML/CFT Guideline will be complied with and how linked transactions will be dealt with, which matters because a series of linked occasional transactions can together reach the CDD thresholds. Source of funds and source of wealth belong to the enhanced due diligence part of item 3, the retrieval of records within a reasonable time such as one day belongs to the record keeping part, and the normal level of business activity belongs to transaction monitoring under on-going monitoring."
   },
   "tc": {
-   "q": "金錢服務經營者在政策中描述一般客戶盡職審查時，須說明遵從《打擊洗錢指引》哪些段落？",
+   "q": "《遞交打擊洗錢及恐怖分子資金籌集政策的指引》第3項要求金錢服務經營者在描述常規的客戶盡職審查及其在公司內的適用範圍時，表明如何遵從《打擊洗錢指引》中關於何時須執行客戶盡職審查措施的段落（第4.2.1至4.2.6段）。在政策的該部分，金錢服務經營者還須表明甚麼？",
    "options": [
-    "第4.2.1至4.2.6段，連同如何處理關連交易",
-    "第1.1至1.10段，即《打擊洗錢指引》概覽一章",
-    "第6.1至6.19段，即恐怖分子資金籌集及制裁一章",
-    "第9.1至9.7段，即《打擊洗錢指引》員工培訓一章"
+    "如何處理有關連的多項交易",
+    "如何核查資金來源及財富來源",
+    "紀錄能否在合理時限內提取",
+    "如何界定業務活動的正常水平"
    ],
-   "explain": "第3項訂明，在描述一般客戶盡職審查時，金錢服務經營者應說明將如何遵從《打擊洗錢指引》第4.2.1至4.2.6段（第4章，客戶盡職審查），以及將如何處理有關連交易——並非概覽（第1章）、恐怖分子資金籌集及制裁（第6章），或員工培訓（第9章，當中第9.7段正是第16項所引用的交叉參照）。"
+   "explain": "在常規的客戶盡職審查及其在公司內的適用範圍一節下，第3項訂明金錢服務經營者應表明如何遵從《打擊洗錢指引》第4.2.1至4.2.6段的規定，以及如何處理有關連的交易；這一點重要，因為一連串有關連的非經常交易合計可達客戶盡職審查的門檻。資金來源及財富來源屬第3項中更嚴格的盡職審查部分，能否在合理時限（例如一日）內提取紀錄屬備存紀錄部分，而業務活動的正常水平則屬持續監察下的監察交易部分。"
   }
  },
  {
@@ -26791,24 +26791,24 @@
    "tc": "《牌照指引》（2026年5月）第2.9段"
   },
   "en": {
-   "q": "Under which sections of the AMLO are the conditions endorsed on an MSO licence imposed or amended?",
+   "q": "Paragraph 2.9 of the Licensing Guide says an MSO licence must be in the form specified by the CCE, must be endorsed with the conditions imposed or amended on the grant or renewal of the licence or on the amendment of its conditions (sections 30, 31 or 32 of the AMLO), and must specify the period for which it is valid. What address must the licence specify?",
    "options": [
-    "Sections 30, 31 or 32",
-    "Sections 34, 35 or 36",
-    "Sections 43, 44 or 45",
-    "Sections 38, 39 or 39A"
+    "For a licence to operate at specified premises, the address of every such premises, and in any other case the licensee's correspondence address",
+    "The address of the licensee's registered office or principal place of business, whether or not it is licensed to operate at specified premises",
+    "The address of the licensee's principal premises, with any additional business premises recorded instead in the register of licensees",
+    "The residential address of the individual licensee, or of each of its partners or directors, for the service of notices by the CCE"
    ],
-   "explain": "Paragraph 2.9 states that a licence must be endorsed with the conditions imposed or amended under section 30, 31 or 32 of the AMLO — the grant, renewal and amendment provisions respectively — and must specify the premises address or correspondence address and the validity period."
+   "explain": "Paragraph 2.9(a) provides that, in relation to a licence to operate a money service at specified premises, the licence must specify the address of every premises at which the licensee may operate a money service, and in any other case the correspondence address of the licensee. A registered office or principal place of business is not the test, the licence itself carries every operating premises rather than leaving additional premises to the register alone, and the personal residential addresses of the licensee, partners or directors are not what the licence specifies."
   },
   "tc": {
-   "q": "批註於金錢服務經營者牌照上的條件，是根據《打擊洗錢條例》哪些條文施加或修訂？",
+   "q": "《牌照指引》第2.9段訂明，金錢服務經營者牌照須採用關長指明的格式，須批註在批給牌照、將牌照續期或修改牌照條件時（《打擊洗錢條例》第30、31或32條）施加或修改的條件，並須指明牌照的有效期。牌照須指明甚麼地址？",
    "options": [
-    "第30、31或32條",
-    "第34、35或36條",
-    "第43、44或45條",
-    "第38、39或39A條"
+    "就准予在指明處所經營的牌照而言，每一個該等處所的地址，其他情況則為持牌人的通訊地址",
+    "持牌人的註冊辦事處或主要營業地點的地址，不論其是否獲准在指明處所經營金錢服務",
+    "持牌人主要處所的地址，至於其他各個業務處所的地址則改為載於持牌人登記冊內",
+    "個人持牌人或其每名合夥人或董事的住宅地址，以便關長日後向其送達各項通知書"
    ],
-   "explain": "第2.9段訂明牌照須批註根據《打擊洗錢條例》第30、31或32條（分別為批出、續期及修訂條文）施加或修訂的條件，並須指明處所地址或通訊地址及有效期。"
+   "explain": "第2.9(a)段訂明，就准予在指明處所經營金錢服務的牌照而言，牌照須指明持牌人可經營金錢服務所在的每一個處所的地址；如屬任何其他情況，則指明持牌人的通訊地址。註冊辦事處或主要營業地點並非準則；牌照本身載有每一個經營處所，而非把額外處所交由登記冊記載；持牌人、合夥人或董事的個人住址亦非牌照須指明的資料。"
   }
  },
  {
@@ -28454,24 +28454,24 @@
    "tc": "《牌照指引》（2026年5月）第8.10段"
   },
   "en": {
-   "q": "Besides criminal sanction, what other consequences may follow a contravention of sections 35(1), 36(1), 37(1), 38(1), 39(1) or 39A(1)?",
+   "q": "Sections 35(1), 36(1), 37(1), 38(1) and 39(1) of the AMLO require a licensee to obtain the CCE's prior approval before a person becomes its director, ultimate owner or partner and before it operates at new or particular premises, and section 39A(1) requires it to display the original licence at its specified premises. Each contravention is a criminal offence. According to paragraph 8.10 of the Licensing Guide, what further consequence may a licensee that contravenes them face?",
    "options": [
-    "Disciplinary or administrative sanctions such as suspension and revocation of the licence",
-    "A further fine of HK$50,000 and up to 6 months' imprisonment, in addition to the first",
-    "A mandatory increase in the amount of the licence fee payable on the next renewal",
-    "Referral of the matter to the Companies Registry for striking off under s.43(1)(c) within 30 days"
+    "Disciplinary or administrative sanctions, such as suspension or revocation of its licence by the CCE",
+    "A court order disqualifying it from holding an MSO licence for a period specified in the order",
+    "Automatic lapse of its licence, so that it must apply afresh before it may continue operating",
+    "A pecuniary penalty imposed by the Review Tribunal in place of any criminal prosecution"
    ],
-   "explain": "Paragraph 8.10 states that apart from criminal sanction, a licensee who contravenes sections 35(1), 36(1), 37(1), 38(1), 39(1) or 39A(1) of the AMLO may also be subject to disciplinary and/or administrative sanctions such as suspension and revocation of licence. The HK$50,000 fine and 6 months' imprisonment is itself the criminal sanction the question excludes, not a separate consequence; a fee increase and referral to the Companies Registry are not mentioned in paragraph 8.10."
+   "explain": "Paragraph 8.10 answers that, apart from criminal sanction, a licensee who contravenes sections 35(1), 36(1), 37(1), 38(1), 39(1) or 39A(1) may also be subject to disciplinary and/or administrative sanctions such as suspension and revocation of licence, which are actions of the CCE. Disqualification by court order is the consequence the AMLO attaches to operating without a licence, not to these approval and display duties. A licence does not lapse automatically on a contravention, and the Review Tribunal reviews specified decisions rather than imposing penalties in place of prosecution."
   },
   "tc": {
-   "q": "除刑事制裁外，違反第35(1)、36(1)、37(1)、38(1)、39(1)或39A(1)條還可能招致甚麼後果？",
+   "q": "《打擊洗錢條例》第35(1)、36(1)、37(1)、38(1)及39(1)條規定，持牌人須先取得關長批准，方可讓某人成為其董事、最終擁有人或合夥人，或在新的或特定處所經營金錢服務；第39A(1)條則規定持牌人須在指明處所展示牌照正本。違反各該條均屬刑事罪行。根據《牌照指引》第8.10段，違反該等條文的持牌人還可能面對甚麼後果？",
    "options": [
-    "紀律及／或行政制裁，例如暫時吊銷及撤銷牌照",
-    "另加5萬元罰款及監禁6個月，在原罰則之外",
-    "下次續期時須強制上調的有關牌照費用款額",
-    "將事宜轉交公司註冊處以撤銷公司註冊（30日內）"
+    "受到關長施加的紀律及／或行政制裁，例如牌照被暫時吊銷及撤銷",
+    "法庭頒令取消其在命令指明的期間內持有金錢服務經營者牌照的資格",
+    "其牌照自動失效，持牌人須重新提出牌照申請方可繼續經營金錢服務",
+    "由覆核審裁處向持牌人施加罰款，以取代對該持牌人的任何刑事檢控"
    ],
-   "explain": "第8.10段訂明，除刑事制裁外，違反《打擊洗錢及恐怖分子資金籌集條例》第35(1)、36(1)、37(1)、38(1)、39(1)或39A(1)條的持牌人，亦可能受到紀律及／或行政制裁，例如暫時吊銷及撤銷牌照。港幣5萬元罰款及監禁6個月本身正是題目所指、獲排除在外的刑事制裁，並非另一項後果；上調牌照費用及轉交公司註冊處，第8.10段均未有提及。"
+   "explain": "第8.10段回答指，除刑事制裁外，違反第35(1)、36(1)、37(1)、38(1)、39(1)或39A(1)條的持牌人，還可能要面對紀律及／或行政制裁，例如牌照被暫時吊銷及撤銷，而該等制裁由關長施加。法庭頒令取消持牌資格是《打擊洗錢條例》就無牌經營金錢服務所訂的後果，並非就該等批准及展示責任而設。牌照不會因違反而自動失效，而覆核審裁處負責覆核指明的決定，並不代替檢控而施加罰款。"
   }
  },
  {
@@ -32658,28 +32658,28 @@
   "module": 5,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.1; s.23, Sch. 2, AMLO",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第3.1段；《打擊洗錢條例》附表2第23條"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.2(a)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第3.2(a)段"
   },
   "en": {
-   "q": "Under section 23 of Schedule 2 to the AMLO, an MSO must take all reasonable measures to do what?",
+   "q": "Paragraph 3.2 of the Guideline expects an MSO to have AML/CFT Systems that enable it to manage and mitigate the ML/TF risks relevant to it. A newly licensed MSO's compliance officer drafts such Systems and puts them into use at once, intending to brief the directors at a later meeting. Which expectation of the Guideline has not been met?",
    "options": [
-    "Ensure safeguards to mitigate ML/TF risk and prevent contravention of Schedule 2",
-    "Guarantee, as an absolute warranty, that no customer will ever launder money through the MSO",
-    "Report every single cash transaction to the CCE regardless of amount or risk",
-    "Refuse to process all transactions above HK$120,000 without exception"
+    "The AML/CFT Systems should be approved by the MSO's senior management",
+    "The AML/CFT Systems should be lodged with the CCE before being used",
+    "The AML/CFT Systems should be cleared by the independent audit function first",
+    "The AML/CFT Systems should be signed off by the money laundering reporting officer"
    ],
-   "explain": "Section 23 of Schedule 2 requires all reasonable measures to (a) ensure proper safeguards exist to prevent contravention of Part 2 (CDD) or Part 3 (record-keeping), and (b) mitigate ML/TF risks. It is a duty to have safeguards, not an absolute guarantee, a blanket cash-reporting duty, or a fixed transaction ceiling."
+   "explain": "The Guideline expects the AML/CFT Systems to be approved by senior management, so Systems that the compliance officer has drafted and put into use without that approval fall short on this point, even though establishing and maintaining the Systems is the compliance officer's responsibility. The CCE does not approve or endorse an individual MSO's Systems, since its Guideline sets the standards the Systems must meet rather than clearing each one. The independent audit function reviews the Systems regularly to ensure their effectiveness rather than clearing them before use, and the money laundering reporting officer acts as the central reference point for suspicious transaction reporting, not as the person who signs off on the Systems."
   },
   "tc": {
-   "q": "根據《打擊洗錢條例》附表2第23條，金錢服務經營者必須採取一切合理措施以達致甚麼目的？",
+   "q": "本指引第3.2段期望金錢服務經營者備有打擊洗錢／恐怖分子資金籌集制度，使其能夠管理和減低與其相關的洗錢／恐怖分子資金籌集風險。一名新獲發牌的金錢服務經營者的合規主任草擬了有關制度並隨即推行，打算在稍後的會議上才向董事簡報。這做法未有符合本指引的哪項期望？",
    "options": [
-    "確保設有保障措施，減低洗錢／恐怖分子資金籌集風險及防止違反附表2",
-    "絕對保證絕不會有任何客戶透過該經營者清洗黑錢",
-    "不論金額或風險高低，須將每一宗現金交易申報予關長",
-    "一律拒絕處理所有超過港幣120,000元的交易，不設例外"
+    "該制度應經該經營者的高級管理層審批",
+    "該制度應在推行前先行送交關長批准",
+    "該制度應先經獨立的審核職能覆核及通過",
+    "該制度應由洗錢報告主任簽署確認方可推行"
    ],
-   "explain": "附表2第23條規定金錢服務經營者須採取一切合理措施：(a)確保設有保障措施，防止違反附表2第2部（客戶盡職審查）或第3部（備存紀錄）的規定；及(b)減低洗錢／恐怖分子資金籌集風險。這是設置保障措施的責任，並非絕對擔保、劃一現金申報責任，或固定交易上限。"
+   "explain": "本指引期望打擊洗錢／恐怖分子資金籌集制度須經高級管理層審批，因此由合規主任草擬並在未經審批下推行的制度，在這一點上未達期望，儘管建立及維持制度確是合規主任的職責。關長並不批准或認可個別經營者的制度，其指引訂明制度須符合的準則，而非逐一審批。獨立的審核職能是定期覆核制度以確保成效，而非在推行前先行覆核，洗錢報告主任則是報告可疑交易的中央聯絡點，並非簽署確認制度的人。"
   }
  },
  {
@@ -34814,24 +34814,24 @@
    "tc": "《打擊洗錢條例》附表2第19(3)條；《打擊洗錢指引》第3.2段"
   },
   "en": {
-   "q": "How does the statutory duty in section 19(3) of Schedule 2 relate to the Guideline's requirements on an MSO's AML/CFT Systems in paragraph 3.2?",
+   "q": "Section 19(3) of Schedule 2 to the AMLO requires an MSO to establish and maintain effective procedures, not inconsistent with the Ordinance, for carrying out its Schedule 2 duties on when to conduct CDD, simplified CDD, ongoing monitoring, and the special requirements for customers not physically present, politically exposed persons and other high-risk situations. The Guideline expects those procedures to form part of AML/CFT Systems approved by senior management. For what does section 19(3) require the procedures to be established and maintained?",
    "options": [
-    "Section 19(3) requires effective procedures for the duties under sections 3, 4, 5, 9, 10 and 15 of Schedule 2, and paragraph 3.2 requires senior management to approve the resulting AML/CFT Systems",
-    "Section 19(3)'s procedural duty is superseded by the broader duty in section 23 of Schedule 2, which paragraph 3.1 says an MSO meets through a risk-based AML/CFT System, certified by the CO within 14 days",
-    "Paragraph 3.2's requirement that senior management approve the AML/CFT Systems applies only where section 22(1)'s duty on overseas branches is also engaged",
-    "Both impose the identical requirement in identical wording, so the statutory minimum and the Guideline's expectations are simply the same provision restated"
+    "Each kind of customer, business relationship, product and transaction that the MSO handles",
+    "Each branch or subsidiary the MSO operates outside Hong Kong, so far as local law allows",
+    "Each customer whose transactions reach the CDD threshold within a twelve-month period",
+    "Each risk rating (low, medium or high) given in the MSO's institutional risk assessment"
    ],
-   "explain": "Section 19(3) of Schedule 2 requires an institution, for each kind of customer, business relationship, product and transaction, to establish effective procedures not inconsistent with the Ordinance for carrying out the duties under sections 3, 4, 5, 9, 10 and 15. Paragraph 3.2 of the Guideline separately requires that the resulting AML/CFT Systems be approved by senior management, monitored and enhanced if necessary — a distinct, complementary requirement, not one displaced by section 23/paragraph 3.1, and not conditional on the overseas-branch duty in section 22(1)."
+   "explain": "Section 19(3) frames the duty by reference to the MSO's business: for each kind of customer, business relationship, product and transaction, the MSO must have effective procedures for carrying out its CDD, ongoing monitoring and special high-risk duties, and Chapter 3 of the Guideline treats those procedures as part of the AML/CFT Systems that senior management approves. The duty concerning overseas branches and subsidiaries is a separate provision about applying Schedule 2 standards abroad. The CDD threshold determines when CDD is needed for an occasional transaction rather than how procedures are organised, and the risk ratings from an institutional risk assessment inform how the procedures are calibrated but are not the basis on which the statute requires them to be established."
   },
   "tc": {
-   "q": "附表2第19(3)條的法定責任，與本指引第3.2段就打擊洗錢系統的規定有何關係？",
+   "q": "《打擊洗錢條例》附表2第19(3)條規定金錢服務經營者須設立及維持不抵觸該條例的有效程序，以履行附表2下關於何時須執行客戶盡職審查、簡化客戶盡職審查、持續監察，以及客戶沒有為身分識別的目的而現身、客戶屬政治人物及其他高度風險情況的特別規定的責任。本指引則期望該等程序構成經高級管理層審批的打擊洗錢／恐怖分子資金籌集制度的一部分。第19(3)條規定須就甚麼設立及維持該等程序？",
    "options": [
-    "第19(3)條規定須設有有效程序，以履行附表2第3、4、5、9、10及15條的責任，第3.2段規定所得的打擊洗錢系統須經高級管理層批准",
-    "第19(3)條這項程序責任已被第23條規定的更廣泛責任取代，第3.1段訂明須以風險為本方式建立打擊洗錢系統以符合第23條，並須每年由合規主任確認",
-    "第3.2段規定打擊洗錢系統須經高級管理層批准，惟此規定只在第22(1)條的境外分行及附屬企業責任同時適用時方適用",
-    "兩者以完全相同的措辭，就完全相同的事宜施加完全相同的法定責任，法定最低要求與本指引期望之間並無任何分別"
+    "該經營者所處理的每一種類別的客戶、業務關係、產品以及交易",
+    "該經營者在香港以外的每間分行或附屬企業，如當地法律准許",
+    "在十二個月期間內交易總額達到盡職審查門檻的每名客戶",
+    "該經營者機構風險評估所評定的每個風險級別，即低、中或高"
    ],
-   "explain": "附表2第19(3)條規定機構須就每種客戶、業務關係、產品及交易，建立與本條例並無抵觸的有效程序，以履行第3、4、5、9、10及15條下的責任。本指引第3.2段另行規定所得的打擊洗錢系統須經高級管理層批准、監察及在必要時強化——此為獨立而互補的規定，並非被第23條／第3.1段取代，亦非以第22(1)條的境外分行責任為前提。"
+   "explain": "第19(3)條以經營者的業務為框架訂明該責任：金錢服務經營者須就每種類別的客戶、業務關係、產品及交易，設有有效程序以履行客戶盡職審查、持續監察及高度風險情況的特別責任，而本指引第3章把該等程序視為經高級管理層審批的打擊洗錢／恐怖分子資金籌集制度的一部分。關於境外分行及附屬企業的責任是另一項關於在境外適用附表2標準的條文。盡職審查門檻決定非經常交易何時須執行盡職審查，而非程序如何組織，機構風險評估所得的風險級別影響程序的鬆緊，但並非法例規定設立程序的基礎。"
   }
  },
  {
@@ -35340,24 +35340,24 @@
    "tc": "《打擊洗錢條例》附表2第22(1)條；《打擊洗錢指引》第3.16段"
   },
   "en": {
-   "q": "How do section 22(1) of Schedule 2 and ¶3.16 of the Guideline align on overseas operations?",
+   "q": "Section 22(1) of Schedule 2, echoed in paragraph 3.16 of the Guideline, requires a Hong Kong-incorporated MSO to see that its overseas branches, and its subsidiary undertakings carrying on the same business, have compliance procedures in place. What must those procedures ensure?",
    "options": [
-    "Both require overseas branches/subsidiaries to match Schedule 2 Parts 2 and 3, where local law permits",
-    "Section 22(1) applies to branches only, and the Guideline extends the same duty to subsidiaries only",
-    "Both require procedures matching Schedule 2 Part 2 only, and Part 3 record-keeping is not covered",
-    "The Guideline's provision imposes a considerably stricter standard than section 22(1) and displaces it entirely"
+    "CDD and record-keeping procedures similar to Parts 2 and 3 of Schedule 2, so far as local law permits",
+    "Compliance with the local law of that place alone, since Schedule 2 has no effect outside Hong Kong itself",
+    "Compliance with the CDD requirements in Part 2 of Schedule 2 alone, leaving record-keeping to the local rules",
+    "Compliance with every requirement of Schedule 2 in full, whatever the local law of that place permits or forbids"
    ],
-   "explain": "AMLO Sch. 2 s.22(1) and ¶3.16 of the Guideline (not ¶3.15, which only states the general group-wide AML/CFT Systems obligation) impose the same duty: a Hong Kong-incorporated MSO must ensure its overseas branches and subsidiary undertakings carrying on the same business have procedures to comply, to the extent local law permits, with requirements similar to Parts 2 and 3 of Schedule 2 (CDD and record-keeping). The duty covers both branches and subsidiaries together, covers both Parts 2 and 3, and the Guideline provision implements rather than displaces the statutory duty."
+   "explain": "The statutory duty, restated in the Guideline, is that the branches and same-business subsidiaries must have procedures ensuring compliance with requirements similar to those in Parts 2 and 3 of Schedule 2, that is customer due diligence and record-keeping, to the extent permitted by the laws and regulations of that place. Local law does not displace the duty, because the procedures still have to mirror Schedule 2 as far as local law allows. Record-keeping is covered together with CDD, and the duty is expressly limited by what local law permits rather than requiring Schedule 2 in full regardless."
   },
   "tc": {
-   "q": "附表2第22(1)條與本指引第3.16段就境外業務如何相互配合？",
+   "q": "附表2第22(1)條（本指引第3.16段亦有述及）規定，在香港成立為法團的金錢服務經營者須確保其外地分行，以及經營相同業務的附屬企業，設有合規程序。該等程序須確保甚麼？",
    "options": [
-    "兩者規定境外分支及附屬企業須設有符合附表2第2、3部的程序，以當地法律准許為限",
-    "第22(1)條只適用於分支機構，本指引則只將同一責任擴展至附屬企業",
-    "兩者均只規定設有符合附表2第2部的程序，並不涵蓋第3部的備存紀錄規定，範圍較窄",
-    "本指引的條文施加比第22(1)條更嚴格的標準，並完全取代該條文"
+    "在當地法律准許範圍內，遵守與附表2第2及3部相類似的盡職審查及備存紀錄規定",
+    "遵守該地方的當地法律即可，因為附表2在香港以外的任何地方並無效力可言",
+    "遵守附表2第2部的盡職審查規定即可，備存紀錄則交由當地的規則處理",
+    "不論該地方的法律准許與否，均須全面遵守附表2所施加的每一項規定"
    ],
-   "explain": "《打擊洗錢條例》附表2第22(1)條與本指引第3.16段（而非第3.15段——該段只訂明推行集團層面打擊洗錢制度的一般責任）訂明同一責任：在香港註冊成立的金錢服務經營者須確保其經營相同業務的境外分支機構及附屬企業，在當地法律准許範圍內設有程序以遵從與附表2第2及3部（盡職審查及備存紀錄）類似的規定。該責任同時涵蓋分支機構及附屬企業，也同時涵蓋第2及3部，而本指引條文是落實而非取代該法定責任。"
+   "explain": "該法定責任（本指引亦有重述）是分行及經營相同業務的附屬企業須設有程序，確保與附表2第2及3部所施加的規定（即客戶盡職審查及備存紀錄）相類似的規定，在該地方法律及規例准許的範圍內獲遵守。當地法律並不取代該責任，因為該等程序仍須在當地法律容許的範圍內反映附表2的規定。備存紀錄與客戶盡職審查一併涵蓋，而該責任明文以當地法律准許的範圍為限，並非要求不論當地法律如何均全面遵守附表2。"
   }
  },
  {
@@ -39149,24 +39149,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.12段註腳38"
   },
   "en": {
-   "q": "What is the consequence of not applying EDD to a former non-Hong Kong PEP without conducting an appropriate risk assessment?",
+   "q": "Paragraph 4.9.12 of the Guideline allows an MSO, with the approval of its senior management and following an assessment of the ML/TF risk, to decide not to apply the EDD measures to a customer who is a former non-Hong Kong PEP. Footnote 38 states how the CCE will treat an MSO that stops applying those measures without having conducted an appropriate risk assessment. How will the CCE treat that MSO?",
    "options": [
-    "The MSO will be considered by the CCE as contravening section 10(1) or 10(2) of Schedule 2",
-    "The MSO will be considered by the CCE as contravening section 15(a) or 15(b) of Schedule 2",
-    "The MSO must file a suspicious transaction report with the JFIU without delay",
-    "The MSO will be considered by the CCE as contravening section 19(1) of Schedule 2, a screening duty"
+    "As contravening the special requirements for non-Hong Kong PEPs in section 10 of Schedule 2, where appropriate",
+    "As contravening the special requirements for other high risk situations in section 15 of Schedule 2, where appropriate",
+    "As contravening the duty in section 19 of Schedule 2 to keep effective procedures for determining whether a customer is a PEP",
+    "As contravening the continuous monitoring duty in section 5 of Schedule 2 to keep the customer's CDD information up to date"
    ],
-   "explain": "Footnote 38 to ¶4.9.12 states that if an MSO does not apply EDD measures to a former non-Hong Kong PEP without conducting an appropriate risk assessment, the MSO will be considered by the CCE as contravening section 10(1) or 10(2) of Schedule 2. Section 15(a)/15(b) is the equivalent provision for former Hong Kong or international organisation PEPs (footnote 42), section 19(1) governs non-Hong Kong PEP identification procedures generally (¶4.9.9), and no STR filing is mentioned in footnote 38."
+   "explain": "The Guideline treats the risk assessment as the foundation of any decision to relax the EDD measures for a former non-Hong Kong PEP, so an MSO that drops those measures without an appropriate assessment is regarded by the CCE as contravening the special requirements for non-Hong Kong PEPs in section 10 of Schedule 2, and it should keep records of the assessment as proof of compliance. The special requirements for other high risk situations in section 15 are the route that governs former Hong Kong and international organisation PEPs, not former non-Hong Kong PEPs. The duty to keep effective procedures for determining whether a customer is a PEP concerns identifying PEPs, and the continuous monitoring duty concerns keeping CDD information current, so neither is the provision that the footnote says is contravened."
   },
   "tc": {
-   "q": "如未有進行適當風險評估即不對前非香港政治人物採取加強盡職審查，有何後果？",
+   "q": "《指引》第4.9.12段容許金錢服務經營者在高級管理層批准及評估洗錢／恐怖分子資金籌集風險後，決定對屬前非香港政治人物的客戶不採取更嚴格盡職審查措施。註腳38訂明，如經營者未經適當風險評估即不採取該等措施，關長會如何看待。關長會如何看待該經營者？",
    "options": [
-    "關長會視該經營者為違反附表2第10(1)或10(2)條",
-    "關長會視該經營者為違反附表2第15(a)或15(b)條",
-    "該經營者須毫不延誤向聯合財富情報組提交可疑交易報告",
-    "關長會視該經營者為違反附表2第19(1)條，即一般篩查責任"
+    "視之為違反附表2第10條就非香港政治人物訂立的特別規定（如適用）",
+    "視之為違反附表2第15條就其他高風險情況訂立的特別規定（如適用）",
+    "視之為違反附表2第19條備存有效程序以斷定客戶是否政治人物的責任",
+    "視之為違反附表2第5條持續監察以確保客戶盡職審查資料反映現況的責任"
    ],
-   "explain": "第4.9.12段註腳38訂明，如該經營者未有進行適當風險評估即不對前非香港政治人物採取加強盡職審查措施，在適當情況下關長會視其為違反附表2第10(1)或10(2)條。第15(a)或15(b)條是就前香港或國際組織政治人物而設的相應條文（見註腳42），第19(1)條規管的是非香港政治人物識別程序的一般規定（第4.9.9段），註腳38並無提及須提交可疑交易報告。"
+   "explain": "《指引》以風險評估作為決定放寬前非香港政治人物更嚴格盡職審查措施的基礎，故經營者未經適當評估即不採取該等措施，關長會視之為違反附表2第10條就非香港政治人物訂立的特別規定，經營者亦應備存評估紀錄以證明符合規定。附表2第15條就其他高風險情況訂立的特別規定，是規管前香港及國際組織政治人物的途徑，並非前非香港政治人物。備存有效程序以斷定客戶是否政治人物的責任關乎識別政治人物，持續監察的責任則關乎保持客戶盡職審查資料反映現況，兩者均非註腳所指被違反的條文。"
   }
  },
  {
@@ -39323,24 +39323,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.18段註腳42"
   },
   "en": {
-   "q": "What happens if an MSO relieves a former Hong Kong or international organisation PEP of EDD without first conducting an appropriate risk assessment?",
+   "q": "Paragraph 4.9.18 of the Guideline allows an MSO, with the approval of its senior management and following an assessment of the ML/TF risk, to decide not to apply the EDD measures in a high risk business relationship with a customer who is a former Hong Kong or international organisation PEP. Footnote 42 adds what the MSO should retain in that situation and what it serves to prove. What should be retained, and as proof of what?",
    "options": [
-    "The MSO will be considered by the CCE as contravening section 15(a) or 15(b) of Schedule 2",
-    "The MSO will be considered by the CCE as contravening section 10(1) or 10(2) of Schedule 2",
-    "There is no consequence, provided the MSO's senior management approved the original decision",
-    "The MSO must immediately obtain all CDD information from the PEP as if from an intermediary"
+    "Records of the risk assessment, as proof of compliance with the special requirements for other high risk situations in section 15 of Schedule 2",
+    "Records of the risk assessment, as proof of compliance with the special requirements for non-Hong Kong PEPs in section 10 of Schedule 2",
+    "A written record of the senior management approval, as proof that the customer has ceased to be a PEP for the purposes of the Guideline",
+    "A note of the date on which the individual left office, as proof that the prescribed period after which EDD may cease has expired"
    ],
-   "explain": "Footnote 42 to ¶4.9.18 states that if an MSO does not apply EDD to a former Hong Kong or international organisation PEP without conducting an appropriate risk assessment, the MSO will be considered by the CCE as contravening section 15(a) or 15(b) of Schedule 2. Section 10(1)/10(2) is the equivalent provision for former non-Hong Kong PEPs (footnote 38) — the wrong regime here. Senior management approval is a precondition for the original RBA decision, not an excuse for skipping the risk assessment, and the intermediary hand-back duty in ¶4.11.7 has no bearing on PEP EDD relief."
+   "explain": "Where an MSO decides not to apply the EDD measures to a former Hong Kong or international organisation PEP, it should retain records of the risk assessment on which the decision rests as proof of compliance with the special requirements for other high risk situations in section 15 of Schedule 2, because an MSO that relaxes those measures without an appropriate assessment is regarded by the CCE as contravening those requirements. The special requirements for non-Hong Kong PEPs in section 10 govern former non-Hong Kong PEPs, not this category. Senior management approval is a condition of the decision but does not change the customer's status, as a person who has been entrusted with a prominent function remains within the PEP definition. The handling of a former PEP is based on an assessment of risk and not merely on prescribed time limits, so the date of leaving office is not the proof required."
   },
   "tc": {
-   "q": "如金錢服務經營者未經適當風險評估，即免除前香港或國際組織政治人物的加強盡職審查，會有何後果？",
+   "q": "《指引》第4.9.18段容許金錢服務經營者在高級管理層批准及評估洗錢／恐怖分子資金籌集風險後，決定在與屬前香港或國際組織政治人物的客戶的高風險業務關係中不採取更嚴格盡職審查措施。註腳42補充經營者在此情況下應備存甚麼，以及用以證明甚麼。應備存甚麼？用以證明甚麼？",
    "options": [
-    "關長會視該經營者為違反附表2第15(a)或15(b)條",
-    "關長會視該經營者為違反附表2第10(1)或10(2)條",
-    "並無後果，只要該經營者高級管理層已批准原有決定即可",
-    "該經營者須即時從該政治人物取得所有資料，猶如中介人一樣"
+    "相關風險評估的紀錄，以證明已符合附表2第15條就其他高風險情況訂立的特別規定",
+    "相關風險評估的紀錄，以證明已符合附表2第10條就非香港政治人物訂立的特別規定",
+    "高級管理層批准的書面紀錄，以證明該客戶就《指引》而言已不再屬於政治人物",
+    "該名個人離任日期的記錄，以證明可停止更嚴格盡職審查措施的訂明期限已屆滿"
    ],
-   "explain": "第4.9.18段註腳42訂明，如該經營者未有進行適當風險評估即不對前香港或國際組織政治人物採取加強盡職審查措施，在適當情況下關長會視其為違反附表2第15(a)或15(b)條。第10(1)或10(2)條是就前非香港政治人物而設的相應條文（見註腳38）——用於本題屬錯誤制度。高級管理層的批准只是原有風險為本決定的先決條件，並非略去風險評估的藉口；而第4.11.7段中介人交還資料的責任，與政治人物加強盡職審查的豁免亦無關。"
+   "explain": "經營者決定不對前香港或國際組織政治人物採取更嚴格盡職審查措施時，應備存有關決定所依據的風險評估紀錄，以證明已符合附表2第15條就其他高風險情況訂立的特別規定，因為未經適當評估即放寬該等措施的經營者，會被關長視為違反該等規定。附表2第10條就非香港政治人物訂立的特別規定規管的是前非香港政治人物，並非這一類別。高級管理層的批准是作出決定的條件，但不會改變客戶的身分，曾擔任重要職務的人仍屬政治人物的定義範圍。前政治人物的處理方法應依據風險評估而定，不應僅訂明時限，故離任日期並非所需的證明。"
   }
  },
  {
@@ -40895,24 +40895,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第5.1(b)(ii)段"
   },
   "en": {
-   "q": "Which two elements must both be present before a transaction falls within ¶5.1(b)(ii), and what must the MSO then do?",
+   "q": "Paragraph 5.1(b)(ii) of the Guideline, giving effect to section 5(1) of Schedule 2, requires an MSO as part of transaction monitoring to identify certain transactions, examine their background and purposes and keep its findings. Which transactions must be identified and examined in this way, and how must the findings be kept?",
    "options": [
-    "The transaction is complex, unusually large or of an unusual pattern, with no apparent economic or lawful purpose; the MSO must examine the background and record findings in writing",
-    "The transaction is inconsistent with the MSO's knowledge of the customer, the customer's business, risk profile and source of funds; the MSO must conduct appropriate scrutiny of the transaction",
-    "The customer's documents, data and information are out of date and no longer relevant; the MSO must review them under Part 2 of Schedule 2",
-    "The transaction is equal to or above $120,000 and the customer is resident outside Hong Kong; the MSO must immediately file an STR without further enquiry"
+    "Transactions that are complex, unusually large or of an unusual pattern and also have no apparent economic or lawful purpose, with the findings set out in writing",
+    "Transactions that are inconsistent with the MSO's knowledge of the customer, the customer's business or source of funds, with the findings reported orally to senior management",
+    "Transactions that are complex or unusually large in amount, whether or not an economic or lawful purpose is apparent to the MSO, with the findings set out in writing",
+    "Transactions at or above the $120,000 threshold for occasional transactions that lack an apparent purpose, with the findings sent to the JFIU in the form of a report"
    ],
-   "explain": "¶5.1(b)(ii) requires both limbs — (A) complex, unusually large in amount or of an unusual pattern, and (B) no apparent economic or lawful purpose — before the MSO must examine the background and purposes and set out its findings in writing. Scrutiny for consistency with known customer information is the separate (b)(i) limb; out-of-date records trigger (a) ongoing CDD, not (b)(ii); and $120,000 is the occasional-transaction CDD threshold, not a trigger for immediate STR filing without enquiry."
+   "explain": "This limb of transaction monitoring captures a transaction only when two features are present together: it is complex, unusually large in amount or of an unusual pattern, and it has no apparent economic or lawful purpose. The MSO then examines the background and purposes of the transaction and sets out its findings in writing. Scrutinising transactions for consistency with what the MSO knows of the customer is the separate first limb of transaction monitoring, and an oral report to senior management does not satisfy the requirement for written findings. A complex or large transaction that has an apparent lawful purpose does not by itself fall within this limb, the $120,000 figure is the threshold for carrying out CDD on an occasional transaction, and a report to the JFIU is a separate duty that arises where suspicion is formed."
   },
   "tc": {
-   "q": "交易須同時具備哪兩項要素方屬第5.1(b)(ii)段所指者？該經營者其後須怎樣做？",
+   "q": "《指引》第5.1(b)(ii)段落實附表2第5(1)條，規定金錢服務經營者在監察交易時識別某類交易，審查其背景及目的，並保存審查所得。哪類交易須按此方式識別及審查？審查所得須以何種方式保存？",
    "options": [
-    "該交易複雜、款額異常龐大或模式不尋常，且無明顯經濟或合法目的；該經營者須審查背景，並以書面記錄",
-    "該交易與該經營者對客戶、其業務、風險狀況及資金來源的了解不一致；該經營者其後須對該交易進行適當審查",
-    "客戶的文件、數據及資料已過時且不再相關；該經營者須根據附表2第2部檢視該等有關資料",
-    "該交易款額等於或超過120,000元，且客戶在香港以外居住；該經營者須立即提交可疑交易報告而無須進一步查詢"
+    "複雜、款額大得異乎尋常或進行模式異乎尋常，而且沒有明顯經濟或合法目的的交易，審查所得須藉書面列明",
+    "與經營者對客戶、客戶的業務或資金來源的認知不符的交易，審查所得須以口頭方式向高級管理層匯報",
+    "複雜或款額大得異乎尋常的交易，不論經營者能否看出明顯的經濟或合法目的，審查所得須藉書面列明",
+    "達到120,000元非經常交易門檻而沒有明顯目的的交易，審查所得須以報告的形式送交聯合財富情報組"
    ],
-   "explain": "第5.1(b)(ii)段規定需同時符合兩項要素：(A)屬複雜、款額異常龐大或模式不尋常；及(B)並無明顯的經濟或合法目的，該經營者方需審查背景及目的，並以書面列明審查結果。與已知客戶資料一致性的審查屬另一項(b)(i)款；資料過時則觸發(a)持續客戶盡職審查，而非(b)(ii)；120,000元則是非經常交易的客戶盡職審查門檻，並非無須查詢即提交可疑交易報告的觸發點。"
+   "explain": "監察交易的這一項規定，須同時具備兩項特徵的交易方屬其範圍：該交易複雜、款額大得異乎尋常或進行模式異乎尋常，而且沒有明顯經濟或合法目的。經營者其後須審查該交易的背景及目的，並藉書面列明審查所得。審查交易是否符合經營者對客戶的認知，屬監察交易的另一項規定，而以口頭向高級管理層匯報並不符合須以書面列明審查所得的規定。複雜或款額龐大但有明顯合法目的的交易，本身不屬這項規定的範圍；120,000元是就非經常交易進行客戶盡職審查的門檻，向聯合財富情報組作出報告則是在產生懷疑時才適用的另一項責任。"
   }
  },
  {
@@ -41787,24 +41787,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.5(a)段"
   },
   "en": {
-   "q": "What power does section 6 of the UNATMO confer, and on whom?",
+   "q": "Paragraph 6.5 of the Guideline lists the provisions of the UNATMO that are of particular relevance to MSOs. One of them, section 6, confers a power to freeze property that is suspected of being terrorist property. Which authority holds that freezing power?",
    "options": [
-    "It empowers the Secretary for Security to freeze any property that is suspected of being terrorist property",
-    "It empowers the Chief Executive to apply to the Court of First Instance for an order specifying a person or property as a terrorist or associate",
-    "It empowers the Commissioner of Customs and Excise to take disciplinary action against an MSO for breaching a specified provision of the AMLO",
-    "It empowers the Court of First Instance to make a confiscation order over any property derived from an indictable offence"
+    "The Secretary for Security, exercising the power under the UNATMO directly",
+    "The Chief Executive, by publishing a notice of the property in the Gazette",
+    "The Court of First Instance, on an application made by the Chief Executive",
+    "The Commissioner of Customs and Excise, as the regulator of licensed MSOs"
    ],
-   "explain": "¶6.5(a) states that section 6 of the UNATMO empowers the Secretary for Security to freeze suspected terrorist property. The Chief Executive's power to apply to the Court of First Instance is conferred by section 5 (¶6.4); the CCE's disciplinary power over specified provisions arises under a different part of the AMLO framework; and no confiscation-order power is conferred by section 6."
+   "explain": "Under the UNATMO the power to freeze suspected terrorist property rests with the Secretary for Security, who may also licence exceptions so that frozen property can be released for permitted payments. The Chief Executive's role is to specify a person or property as a terrorist, terrorist associate or terrorist property by notice in the Gazette, or to apply to the Court of First Instance for an order to that effect, and neither of those steps is itself a freeze. The Commissioner of Customs and Excise supervises MSOs under the AMLO and has no freezing power under the UNATMO."
   },
   "tc": {
-   "q": "《聯合國（反恐怖主義措施）條例》第6條授予何人甚麼權力？",
+   "q": "《指引》第6.5段列出《聯合國（反恐怖主義措施）條例》中與金錢服務經營者尤其相關的條文。其中第6條授予凍結懷疑屬恐怖分子財產的財產的權力。該凍結權力由哪一當局行使？",
    "options": [
-    "授權保安局局長凍結任何懷疑屬恐怖分子財產的財產",
-    "授權行政長官向原訟法庭申請命令，將某人或財產指明為恐怖分子",
-    "授權關長向違反指明的條文的金錢服務經營者採取紀律處分",
-    "授權原訟法庭就源自任何可公訴罪行的財產作出充公令"
+    "保安局局長，直接根據該條例行使該權力",
+    "行政長官，藉在憲報刊登關於該財產的公告行使",
+    "原訟法庭，應行政長官提出的申請而行使",
+    "海關關長，以持牌金錢服務經營者監管者的身分行使"
    ],
-   "explain": "第6.5(a)段訂明《聯合國（反恐怖主義措施）條例》第6條授權保安局局長凍結懷疑屬恐怖分子財產的財產。行政長官向原訟法庭申請命令的權力源自第5條（第6.4段）；關長就違反指明的條文採取紀律處分的權力屬《打擊洗錢條例》架構的另一部分；第6條並無授予任何充公令的權力。"
+   "explain": "根據《聯合國（反恐怖主義措施）條例》，凍結懷疑屬恐怖分子財產的財產的權力屬於保安局局長，局長亦可就禁令批予特許，准許將已凍結的財產解凍以作獲准的付款。行政長官的角色是在憲報刊登公告指明某人或財產為恐怖分子、與恐怖分子有聯繫者或恐怖分子財產，或向原訟法庭申請作出該等指明的命令，兩者本身均不是凍結。海關關長根據《打擊洗錢條例》監管金錢服務經營者，並無該條例下的凍結權力。"
   }
  },
  {
@@ -42051,24 +42051,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.7(b)段"
   },
   "en": {
-   "q": "What second limb of prohibition does ¶6.7(b) create?",
+   "q": "Paragraph 6.7 of the Guideline explains that, except under the authority of a licence granted by the Chief Executive, the regulations made under the UNSO make it an offence to make funds available to designated persons and entities, and create a second offence concerning property that such persons and entities already hold. An MSO is asked to exchange into another currency a sum of cash that it knows belongs to a designated entity, and no money is to be passed to that entity or to anyone acting for it. How does the second offence apply?",
    "options": [
-    "Dealing, directly or indirectly, with funds or other financial assets or economic resources belonging to, or owned or controlled by, such persons or entities",
-    "Providing any service where a person believes or suspects, on reasonable grounds, that the service may be connected with proliferation financing",
-    "Advertising or marketing financial services in a jurisdiction that is the subject of a sanctions regime imposed by another jurisdiction's authorities",
-    "Employing, whether directly or indirectly, any person who is a terrorist associate as that term is defined under section 2 of the UNATMO"
+    "It is committed, because handling funds that belong to such an entity is a dealing with them, which is prohibited whether direct or indirect",
+    "It is not committed, because the regulations prohibit making funds available to the entity rather than handling funds it already holds",
+    "It is committed unless the Secretary for Security first licenses the exchange, as for the release of property frozen under the UNATMO",
+    "It is not committed, provided the MSO reports the exchange to the JFIU before completing it and keeps a record of that report on file"
    ],
-   "explain": "¶6.7(b) prohibits dealing, directly or indirectly, with funds or other financial assets or economic resources belonging to, or owned or controlled by, the persons or entities in ¶6.7(a). The 'believes or suspects on reasonable grounds' service prohibition belongs to section 4 of the WMD(CPS)O (¶6.10); unilateral foreign sanctions are addressed at ¶6.11 without creating an HK-law offence; and employing a terrorist associate is not itself the prohibited conduct under ¶6.7(b) — dealing with property is."
+   "explain": "The regulations create two distinct offences: making funds or other assets available to or for the benefit of designated persons and entities and those connected with them, and dealing, directly or indirectly, with funds, other financial assets or economic resources that belong to or are owned or controlled by such persons or entities. Exchanging cash that belongs to a designated entity handles that entity's funds, so it is a dealing with them even though nothing is made available to the entity, and the absence of the first offence does not take it outside the second. A licence under these regulations is granted by the Chief Executive, not the Secretary for Security, whose licensing role concerns the UNATMO. A report to the JFIU may be required where suspicion arises but does not make a prohibited dealing lawful."
   },
   "tc": {
-   "q": "第6.7(b)段訂立哪一項禁制？",
+   "q": "《指引》第6.7段解釋，除獲行政長官批予的特許授權外，根據《聯合國制裁條例》訂立的規例訂明，向被指認的個人及實體提供資金即屬犯罪，並另設一項關於該等個人及實體已持有的財產的罪行。某金錢服務經營者獲要求將一筆其知悉屬於某被指認實體的現金兌換成另一貨幣，而不會有任何款項交予該實體或代其行事的任何人。該另一項罪行如何適用？",
    "options": [
-    "直接或間接處理屬於該等人士或實體所有，或由其擁有或控制的任何資金、其他金融資產或經濟資源",
-    "任何人有合理理由相信或懷疑某項服務可能與擴散資金籌集有關連，而仍然提供該項服務",
-    "在其他司法管轄區主管當局實施單方面制裁制度所針對的司法管轄區宣傳或推廣金融服務",
-    "直接或間接僱用任何根據《聯合國（反恐怖主義措施）條例》第2條界定為恐怖分子聯繫者的人士"
+    "屬犯罪，因為經手屬於該實體的資金即屬處理其資金，不論直接或間接處理均受禁止",
+    "不屬犯罪，因為規例禁止的是向該實體提供資金，而非處理該實體已持有的資金",
+    "屬犯罪，除非保安局局長批予特許，如同解凍《聯合國（反恐怖主義措施）條例》下的財產",
+    "不屬犯罪，前提是經營者在完成兌換前向聯合財富情報組報告該交易，並備存有關報告的紀錄"
    ],
-   "explain": "第6.7(b)段禁止直接或間接處理屬於第6.7(a)款所述人士或實體所有，或由其擁有或控制的任何資金、其他金融資產或經濟資源。「有合理理由相信或懷疑」的服務禁制屬《大規模毀滅武器(提供服務的管制)條例》第4條（第6.10段）；其他司法管轄區的單方面制裁見第6.11段，並不構成香港法例下的罪行；僱用恐怖分子聯繫者本身並非第6.7(b)款所禁止的行為——處理財產才是。"
+   "explain": "有關規例訂立兩項不同的罪行：向被指認的個人及實體以及與其有關連者提供資金或其他資產，或為其利益而提供；以及直接或間接處理屬於該等個人或實體或由其擁有或控制的資金、其他財務資產或經濟資源。兌換屬於被指認實體的現金即經手該實體的資金，即使沒有向該實體提供任何款項，仍屬處理其資金，不構成第一項罪行並不表示可脫離第二項罪行的範圍。該等規例下的特許由行政長官批予，而非保安局局長，後者的特許職能屬於《聯合國（反恐怖主義措施）條例》。產生懷疑時可能須向聯合財富情報組作出報告，但報告並不使受禁止的處理行為變為合法。"
   }
  },
  {
@@ -42663,24 +42663,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.13段"
   },
   "en": {
-   "q": "What two capabilities does ¶6.13 identify as particularly vital for an MSO?",
+   "q": "Paragraph 6.13 of the Guideline says it is particularly vital that an MSO can identify terrorist suspects and possible designated parties and detect prohibited transactions, and to that end requires it to maintain a database of the names and particulars of terrorists and designated parties that consolidates the lists made known to it. An MSO instead subscribes to such a database maintained by a third party service provider. What does the Guideline expect of the MSO in that case?",
    "options": [
-    "Identifying terrorist suspects and designated parties, and detecting prohibited transactions",
-    "Freezing suspect property directly, and prosecuting offenders through the courts",
-    "Granting licence exceptions, and issuing formal waivers to designated parties",
-    "Publishing new designations in the Gazette, and updating the register the CCE maintains for MSOs"
+    "It should take appropriate measures, such as periodic sample testing, to ensure that the subscribed database is complete and accurate",
+    "It should obtain the prior approval of the CCE for the provider, since the duty to keep a database cannot be passed to a third party",
+    "It may rely on the provider's own quality controls, since responsibility for the completeness of the database passes to the provider",
+    "It should refer every possible name match back to the provider to confirm whether it is genuine, in place of its own enhanced checks"
    ],
-   "explain": "¶6.13 states that it is particularly vital that an MSO should be able to identify terrorist suspects and possible designated parties, and detect prohibited transactions — and it is to this end that the database requirement exists. Freezing property and prosecution are law-enforcement functions; granting licence exceptions or waivers is a Security Bureau/Chief Executive function under ¶6.6/6.8; and publishing designations is a government function, not an MSO capability."
+   "explain": "The Guideline permits an MSO to subscribe to a database of terrorists and designated parties maintained by a third party service provider as an alternative to building its own, but it must then take appropriate measures, periodic sample testing being the example given, to ensure that the database is complete and accurate. No approval of the provider by the CCE is called for, and the alternative is expressly allowed rather than being a prohibited delegation. Responsibility for the database's completeness stays with the MSO, so it cannot simply rely on the provider's controls. Possible name matches found in screening must be resolved by the MSO's own enhanced checks to determine whether they are genuine hits."
   },
   "tc": {
-   "q": "第6.13段指出金錢服務經營者具備哪兩項能力至為關鍵？",
+   "q": "《指引》第6.13段指出，金錢服務經營者能夠識別嫌疑恐怖分子及可能被指認的各方，以及偵察被禁止的交易，這點至為重要，並為此要求經營者備存記錄恐怖分子及被指認各方的名稱及詳細資料的數據庫，以綜合經營者所知的各種名單。某經營者改為登記使用由第三者服務供應商備存的這類數據庫。在此情況下，《指引》對該經營者有何期望？",
    "options": [
-    "識別恐怖分子嫌疑人及指定人士，以及偵測受禁交易",
-    "直接凍結嫌疑財產，以及透過法院檢控犯罪者",
-    "批出豁免許可，以及向指定人士發出正式寬免",
-    "在憲報刊登新指定，以及更新關長為經營者備存的登記冊"
+    "應採取適當措施（例如定期抽樣測試），以確保所登記使用的數據庫完整而準確",
+    "應事先取得關長對該供應商的批准，因為備存數據庫的責任不能交由第三者承擔",
+    "可依賴供應商本身的品質管控，因為數據庫是否完整的責任已轉移至該供應商",
+    "應將每個可能相符的名稱交回供應商確認是否真正相符，以取代自行進行更嚴格的查核"
    ],
-   "explain": "第6.13段訂明該經營者必須能夠識別恐怖分子嫌疑人及可能的指定人士，並偵測受禁交易——資料庫的規定正是為此而設。凍結財產及檢控屬執法機構職能；批出豁免許可或寬免屬第6.6/6.8段所述保安局／行政長官的職能；而公布指定屬政府職能，並非經營者的能力。"
+   "explain": "《指引》容許金錢服務經營者登記使用由第三者服務供應商備存的恐怖分子及被指認各方數據庫，以代替自行建立，但經營者須採取適當措施（例如定期抽樣測試），以確保該數據庫完整而準確。《指引》沒有要求關長批准該供應商，而此做法是明文准許的另一安排，並非受禁止的責任轉授。數據庫是否完整的責任仍在經營者，故不能單靠供應商的管控。篩查中發現可能相符的名稱，須由經營者自行進行更嚴格的查核，以斷定是否真正相符。"
   }
  },
  {
@@ -44190,24 +44190,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第11.2段"
   },
   "en": {
-   "q": "Where a transaction is a wire transfer, which requirements apply and which guidance should the MSO have regard to?",
+   "q": "Paragraph 11.2 of the Guideline stresses that a remittance transaction, which the AMLO defines as a transaction for sending money to a place outside Hong Kong, is different from a wire transfer, which is carried out by an ordering institution on behalf of an originator by electronic means. An MSO sends money to a place outside Hong Kong for a customer by electronic means, making it available at a beneficiary institution. Which special requirements govern that transaction, and which chapter of the Guideline should the MSO have regard to in complying with them?",
    "options": [
-    "The requirements under section 12 of Schedule 2, having regard to Chapter 10",
-    "The special requirements under section 13 of Schedule 2, having regard to the guidance in Chapter 11",
-    "Both sections 12 and 13 of Schedule 2, having regard to Chapters 10 and 11 equally",
-    "Neither, since section 1(4) of Schedule 2 excludes wire transfers from these requirements"
+    "The special requirements for wire transfers in section 12 of Schedule 2, having regard to the guidance on wire transfers in Chapter 10",
+    "The special requirements for remittance transactions in section 13 of Schedule 2, having regard to the guidance on remittances in Chapter 11",
+    "The special requirements in both section 12 and section 13 of Schedule 2 together, having regard to Chapters 10 and 11 in equal measure",
+    "The general CDD requirements in section 3 of Schedule 2, having regard to Chapter 4, since the beneficiary institution carries the transfer duties"
    ],
-   "explain": "¶11.2 stresses that a remittance transaction is different from a wire transfer, and states that where the transaction is a wire transfer an MSO should have regard to the guidance provided in Chapter 10 in complying with the special requirements under section 12 of Schedule 2. Section 13 applies to remittance transactions other than wire transfers."
+   "explain": "A transfer carried out by electronic means through an ordering institution so that money is made available at a beneficiary institution is a wire transfer as the AMLO defines it, so the special requirements for wire transfers in section 12 of Schedule 2 govern it and the MSO should have regard to the Chapter 10 guidance in complying with them. The special requirements for remittance transactions in section 13 apply to a remittance other than a wire transfer, so they do not run in parallel with the wire transfer requirements. The CDD requirements do not displace the wire transfer requirements, and an MSO that carries out the transfer as the ordering institution has its own duties under those requirements, which it cannot leave to the beneficiary institution."
   },
   "tc": {
-   "q": "如某交易屬電傳轉帳，適用哪些規定？該經營者應參考哪份指引？",
+   "q": "《指引》第11.2段強調，匯款交易（《打擊洗錢條例》界定為為將金錢送往香港以外地方而進行的交易）與電傳轉帳（由匯款機構代表匯款人藉電子方式進行的交易）是不同的。某金錢服務經營者代客戶藉電子方式將金錢送往香港以外地方，並在收款機構提供該筆金錢。該交易受哪些特別規定規管？經營者在遵守該等規定時應顧及《指引》哪一章？",
    "options": [
-    "附表2第12條的有關規定，並應參考第10章的指引",
-    "附表2第13條所訂的特別規定，並應參考第11章的指引",
-    "附表2第12及13條同時適用，並須同等參考第10及11章",
-    "兩者均不適用，因附表2第1(4)條將電傳轉帳豁除於該等規定之外"
+    "附表2第12條關於電傳轉帳的特別規定，並顧及第10章關於電傳轉帳的導引",
+    "附表2第13條關於匯款交易的特別規定，並顧及第11章關於匯款交易的導引",
+    "附表2第12條及第13條的特別規定同時適用，並同等顧及第10章及第11章的導引",
+    "附表2第3條的一般客戶盡職審查規定，並顧及第4章，因為轉帳的責任由收款機構承擔"
    ],
-   "explain": "第11.2段強調匯款交易有別於電傳轉帳，並訂明如該交易屬電傳轉帳，該經營者在遵從附表2第12條所訂的特別規定時，應參考第10章所提供的指引。第13條則適用於電傳轉帳以外的匯款交易。"
+   "explain": "由匯款機構藉電子方式進行，使金錢可在收款機構提供的轉帳，屬《打擊洗錢條例》所界定的電傳轉帳，故受附表2第12條關於電傳轉帳的特別規定規管，經營者在遵守該等規定時應顧及第10章的導引。附表2第13條關於匯款交易的特別規定適用於並非電傳轉帳的匯款交易，因此不會與電傳轉帳的規定同時適用。客戶盡職審查的規定不會取代電傳轉帳的規定，而作為匯款機構進行轉帳的經營者在該等規定下有其本身的責任，不能交由收款機構承擔。"
   }
  },
  {
@@ -45146,28 +45146,28 @@
   "module": 6,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶11.1",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第11.1段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶11.1–11.3 & ¶11.6; s.13(2), Sch. 2, AMLO",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第11.1至11.3及11.6段；《打擊洗錢條例》附表2第13(2)條"
   },
   "en": {
-   "q": "Under which provision of the AMLO are the special requirements for carrying out remittance transactions found?",
+   "q": "Paragraph 11.1 of the Guideline introduces the special requirements in section 13 of Schedule 2 for remittance transactions, which apply to a remittance other than a wire transfer of $8,000 or above and consist of identifying the originator, verifying the originator's identity by reference to an identification document and recording prescribed particulars. On the instruction of a customer who holds no account with it, an MSO has $9,000 paid out to a recipient overseas through its counterpart, and completes the identification, verification and record later the same day when the customer returns with an identification document. Has the MSO complied with the special requirements?",
    "options": [
-    "Section 13 of Schedule 2 to the AMLO",
-    "Section 12 of Schedule 2 to the AMLO",
-    "Section 5 of Schedule 2 to the AMLO",
-    "Section 3(1) of Schedule 2 to the AMLO"
+    "No, because the identification, the verification and the record must all be completed before the remittance is carried out",
+    "Yes, because the record may be made at any time on the day of the remittance provided it is then kept in accordance with Chapter 8",
+    "Yes, because verification against an identification document is required for a wire transfer but not for other remittance transactions",
+    "No, because a customer who holds no account with the MSO cannot be treated as the originator of a remittance transaction"
    ],
-   "explain": "¶11.1 states that under section 13 in Schedule 2 of the AMLO there are special requirements for carrying out remittance transactions, and that it is important that MSOs should fully understand their obligations under those requirements."
+   "explain": "Each of the special requirements for a remittance transaction is expressed as something the MSO must do before carrying out the transaction: identifying the originator, verifying the originator's identity by reference to an identification document and recording the prescribed particulars. Sending the money first and completing those steps when the customer returns therefore does not comply, whatever the timing on the same day, and keeping the record afterwards under Chapter 8 is an additional duty rather than a substitute for making it in time. The verification requirement belongs to remittances other than wire transfers, so it applies here, and where the customer has no account with the MSO the person who instructs the MSO to carry out the remittance is the originator, so the transaction could have been carried out lawfully once the steps were complete."
   },
   "tc": {
-   "q": "進行匯款交易的特別規定載於《打擊洗錢條例》的哪一條文？",
+   "q": "《指引》第11.1段引介附表2第13條就匯款交易訂立的特別規定，該等規定適用於款額為8,000元或以上而並非電傳轉帳的匯款交易，內容包括識別匯款人、藉參考識別文件核實匯款人的身分，以及記錄訂明的資料。某金錢服務經營者按一名沒有在其開立戶口的客戶的指示，透過其海外對手方向海外收款人付出9,000元，其後於同日客戶攜同識別文件回來時才完成識別、核實及記錄。該經營者是否已遵從該等特別規定？",
    "options": [
-    "《打擊洗錢條例》附表2第13條",
-    "《打擊洗錢條例》附表2第12條",
-    "《打擊洗錢條例》附表2第5條",
-    "《打擊洗錢條例》附表2第3(1)條"
+    "否，因為識別匯款人、核實其身分及作出記錄均須在進行匯款交易之前完成",
+    "是，因為紀錄可於匯款當日的任何時間作出，其後按第8章的規定保存即可",
+    "是，因為藉識別文件核實身分的規定適用於電傳轉帳，而非其他匯款交易",
+    "否，因為沒有在該經營者開立戶口的客戶不能被視為匯款交易的匯款人"
    ],
-   "explain": "第11.1段訂明《打擊洗錢條例》附表2第13條就進行匯款交易訂有特別規定；金錢服務經營者必須充分理解該等規定下的責任。"
+   "explain": "匯款交易的每項特別規定均訂明為經營者在進行該交易之前須做的事：識別匯款人、藉參考識別文件核實匯款人的身分，以及記錄訂明的資料。先付出款項，待客戶回來才完成該等步驟，即使在同一日內亦不符合規定；其後按第8章保存紀錄是另一項責任，不能取代及時作出記錄。核實身分的規定屬於並非電傳轉帳的匯款交易，故適用於本個案；客戶如沒有在經營者開立戶口，指示經營者進行匯款交易的人即為匯款人，故在完成各步驟後，該交易本可合法進行。"
   }
  },
  {
@@ -47154,24 +47154,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第7.1段"
   },
   "en": {
-   "q": "Under which statutory provisions does the obligation to file a suspicious transaction report arise?",
+   "q": "The statutory duty to report, which the Guideline traces to the DTROP, the OSCO and the UNATMO, is triggered by knowledge or suspicion about property. An MSO suspects that funds a customer wants to remit are intended for use in committing an indictable offence, though no offence has yet taken place. Does the duty to file an STR apply?",
    "options": [
-    "Sections 25A(1) of both the DTROP and the OSCO, and section 12(1) of the UNATMO itself",
-    "Section 5 of Schedule 2 to the AMLO alone, which deals with customer due diligence measures rather than reporting",
-    "Section 25A of the AMLO, since the AMLO governs all of an MSO's record-keeping and reporting duties",
-    "Section 4 of the WMD(CPS)O, which addresses proliferation-financing sanctions rather than STR obligations"
+    "Yes, since the duty covers property intended to be used in connection with an indictable offence",
+    "No, because the duty is confined to property that already represents proceeds of crime",
+    "No, because a suspicion about future use is not a matter the JFIU can act on",
+    "Yes, provided the amount involved exceeds the $120,000 occasional transaction threshold"
    ],
-   "explain": "¶7.1 states that it is a statutory obligation under sections 25A(1) of the DTROP and the OSCO, as well as section 12(1) of the UNATMO, that a person who knows or suspects that property falls within the specified descriptions shall as soon as it is reasonable for them to do so file an STR with the JFIU. The AMLO governs CDD and record-keeping, not the STR obligation itself, and the WMD(CPS)O is a separate sanctions regime."
+   "explain": "The Guideline states that the duty arises where a person knows or suspects that property represents any person's proceeds of, was used in connection with, or is intended to be used in connection with drug trafficking or an indictable offence, or is terrorist property. Intended future use is therefore within the duty, and the person must file an STR with the JFIU as soon as it is reasonable to do so. The duty is not limited to proceeds already in hand, the JFIU receives reports of suspicion of every kind, and no monetary threshold applies, because the reporting provisions cover any property."
   },
   "tc": {
-   "q": "提交可疑交易報告的責任源自哪些法定條文？",
+   "q": "本指引指出，提交可疑交易報告的法定責任源於《販毒（追討得益）條例》、《有組織及嚴重罪行條例》及《聯合國（反恐怖主義措施）條例》，並由對財產的知悉或懷疑所觸發。某金錢服務經營者懷疑客戶擬匯出的款項是擬用於干犯可公訴罪行，但罪行尚未發生。提交可疑交易報告的責任是否適用？",
    "options": [
-    "《販毒（追討得益）條例》及《有組織及嚴重罪行條例》第25A(1)條，以及《聯合國（反恐怖主義措施）條例》第12(1)條",
-    "僅《打擊洗錢條例》附表2第5條的規定，該條處理的是客戶盡職審查的相關措施，而非提交報告的法定責任",
-    "僅《打擊洗錢條例》第25A條的規定，因該條例規管的是經營者的所有備存紀錄及報告整體責任範圍",
-    "《大規模毀滅武器（提供服務的管制）條例》第4條的有關規定，處理的是擴散資金籌集的有關制裁措施，而非報告的責任"
+    "適用，因為擬用於與可公訴罪行有關的用途的財產，亦屬該責任涵蓋的範圍",
+    "不適用，因為該責任所涵蓋的是已經代表任何人的犯罪得益的財產",
+    "不適用，因為對財產未來用途的懷疑並非聯合財富情報組可處理的事項",
+    "適用，但以所涉款額超過非經常交易的120,000元門檻為條件"
    ],
-   "explain": "第7.1段訂明，根據《販毒（追討得益）條例》及《有組織及嚴重罪行條例》第25A(1)條，以及《聯合國（反恐怖主義措施）條例》第12(1)條，任何人如知悉或懷疑任何財產屬指明的描述，均有法定責任在合理範圍內盡快向聯合財富情報組提交可疑交易報告。《打擊洗錢條例》規管的是客戶盡職審查及備存紀錄，而非報告責任本身；《大規模毀滅武器（提供服務的管制）條例》則屬另一套制裁制度。"
+   "explain": "本指引訂明，任何人如知悉或懷疑任何財產代表任何人販毒或干犯可公訴罪行的得益、曾用於與此有關的用途，或擬用於與此有關的用途，或屬恐怖分子財產，即負有該責任。因此，擬作未來用途的財產亦在責任範圍之內，該人須在合理範圍內盡快向聯合財富情報組提交可疑交易報告。該責任並不限於已到手的犯罪得益，聯合財富情報組接收各類懷疑的報告，而且由於舉報條文適用於「任何財產」，並無任何金額門檻。"
   }
  },
  {
@@ -50032,24 +50032,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第8.3(b)段"
   },
   "en": {
-   "q": "Which other documents and records must be kept under ¶8.3(b)?",
+   "q": "Paragraph 8.3(b) of the Guideline requires an MSO to keep the other documents and records it obtains throughout the CDD and ongoing monitoring process. An MSO applied simplified due diligence to a customer when the relationship began and, two years later, carried out enhanced due diligence after an unusual transaction. Which of those records does this requirement cover?",
    "options": [
-    "Other documents and records obtained throughout the CDD and ongoing monitoring process, including SDD and EDD",
-    "Only documents obtained at the very outset, when the business relationship was first established",
-    "Only documents relating to enhanced due diligence measures applied to the MSO's high-risk customers",
-    "Only documents relating to transactions that exceed the applicable CDD threshold amount"
+    "Both sets, because records obtained at any stage of CDD and ongoing monitoring are covered",
+    "The enhanced due diligence records, because simplified due diligence produces no record to keep",
+    "The simplified due diligence records, because enhanced checks are recorded as transaction records",
+    "Neither set, because the requirement is about identity documents and account records instead"
    ],
-   "explain": "¶8.3(b): an MSO must keep other documents and records obtained throughout the CDD and ongoing monitoring process, including SDD and EDD — not only documents from account opening, only EDD material for high-risk customers, or only records tied to above-threshold transactions."
+   "explain": "The requirement is framed by the process rather than by the stage or the level of scrutiny: it reaches the other documents and records obtained throughout CDD and ongoing monitoring, and it says expressly that this includes simplified and enhanced due diligence. The simplified due diligence carried out at the start therefore generates records that must be kept, and so does the enhanced due diligence two years later. Enhanced checks are part of ongoing monitoring rather than a separate category of transaction record, and the identity documents and account records are covered by other limbs of the same paragraph, which sit alongside this one rather than displacing it."
   },
   "tc": {
-   "q": "根據第8.3(b)款，須保存哪些其他文件及紀錄？",
+   "q": "本指引第8.3(b)段規定金錢服務經營者須備存在執行盡職審查及持續監察程序期間取得的其他文件及紀錄。某金錢服務經營者在業務關係開始時對一名客戶執行簡化的盡職審查，兩年後因一宗異常交易而執行更嚴格的盡職審查。這項規定涵蓋當中哪些紀錄？",
    "options": [
-    "在整個客戶盡職審查及持續監察過程中取得的其他文件及紀錄，包括簡化及加強盡職審查",
-    "只限在業務關係剛建立、辦理開戶及首次核實身分手續當時所取得的相關文件",
-    "只限與適用於高風險客戶的加強盡職審查措施有關的文件，不包括簡化盡職審查的文件",
-    "只限與金額超過適用客戶盡職審查門檻的個別交易直接有關的文件及單據紀錄"
+    "兩者均涵蓋，因為盡職審查及持續監察任何階段取得的紀錄均屬其範圍",
+    "更嚴格的盡職審查的紀錄，因為簡化的盡職審查並不會產生須備存的紀錄",
+    "簡化的盡職審查的紀錄，因為更嚴格的查核所得資料是作為交易紀錄另行備存",
+    "兩者均不涵蓋，因為這項規定針對的是身分文件及戶口紀錄而非查核紀錄"
    ],
-   "explain": "第8.3(b)款：經營者須保存在整個客戶盡職審查及持續監察過程中取得的其他文件及紀錄，包括簡化盡職審查及加強盡職審查——並非只限開戶時的文件、只限適用於高風險客戶的加強盡職審查文件，或只限與超過門檻交易有關的文件。"
+   "explain": "這項規定以程序為框架，而非以階段或審查的嚴格程度為界：它涵蓋在執行盡職審查及持續監察程序期間取得的其他文件及紀錄，並明文包括簡化的盡職審查及更嚴格的盡職審查。因此，業務關係開始時的簡化的盡職審查所產生的紀錄須予備存，兩年後的更嚴格的盡職審查所產生的紀錄亦然。更嚴格的查核屬持續監察的一部分，並非另一類交易紀錄，而身分文件及戶口紀錄則由同一段的其他分項涵蓋，該等分項與這一項並行，並不取代它。"
   }
  },
  {
