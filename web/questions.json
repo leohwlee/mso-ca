@@ -10546,16 +10546,16 @@
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "AMLO s.5A(3) & (6)",
-   "tc": "《打擊洗錢條例》第5A(3)及(6)條"
+   "en": "AMLO s.22(2) & (3)",
+   "tc": "《打擊洗錢條例》第22(2)及(3)條"
   },
   "en": {
-   "q": "Under section 5A(3) and (6) of the AMLO, which of the following statements about when an AML/CTF requirement applies to a DNFBP who is an accounting professional or a legal professional are correct?",
+   "q": "Under section 22(2) and (3) of the AMLO, which of the following statements about the notice a relevant authority must give after taking disciplinary action against a financial institution under section 21 are correct?",
    "statements": [
-    "The requirement applies only when, by way of business, the professional in Hong Kong prepares for or carries out for a client a transaction concerning an activity listed in section 5A(3).",
-    "The listed activities include the buying or selling of real estate and the managing of client money, securities or other assets of a client.",
-    "For the purposes of section 5A, it is immaterial whether the subject matter of such a transaction is located in Hong Kong or in any other place.",
-    "The requirement also applies whenever the professional gives a client legal or accounting advice, even if the advice is unconnected with preparing for or carrying out a listed transaction."
+    "Where the authority exercises a power under section 21 against the institution, it must inform the institution of its decision by notice in writing.",
+    "The notice must set out the reasons for the decision and, so far as applicable, the terms in which the institution is reprimanded under that decision.",
+    "The notice must state the amount of any pecuniary penalty imposed, and any period for paying it other than the one section 21(3)(a) already specifies.",
+    "The notice must tell the institution that it may apply to the Court of First Instance for a review of the decision, and must specify the time for doing so."
    ],
    "options": [
     "1, 2 and 3",
@@ -10564,15 +10564,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 4 is false: section 5A(3) provides that an AML/CTF requirement applying to an accounting professional or a legal professional 'only applies' when, by way of business, the professional in Hong Kong prepares for or carries out for a client a transaction concerning one or more of the listed activities, so advice unconnected with such a transaction does not engage the requirement. Statement 1 restates that limitation. Statement 2 is correct: the listed activities in section 5A(3)(a) and (b) include the buying or selling of real estate and the managing of client money, securities or other assets (the list continues with the management of bank, savings or securities accounts, the organisation of contributions for corporations, the creation, operation or management of legal persons or legal arrangements, the buying or selling of business entities, and trust or company services). Statement 3 restates section 5A(6): it is immaterial whether the subject matter of a transaction referred to in section 5A(3) is in Hong Kong or elsewhere."
+   "explain": "Statement 4 is false: section 22(3)(e) requires the notice to include a statement that the financial institution may apply to the Review Tribunal, not the Court of First Instance, for a review of the decision, and section 22(3) requires no time for making that application to be specified in the notice. Statements 1, 2 and 3 are correct: section 22(2) requires the relevant authority, if it exercises a power under section 21 in respect of a financial institution, to inform the institution of its decision by notice in writing; section 22(3)(a) and (b) require a statement of the reasons for the decision and, in so far as applicable, the terms in which the institution is reprimanded under it; and section 22(3)(d) requires the amount of any pecuniary penalty imposed and, where the penalty is to be paid within a period other than that specified in section 21(3)(a), the period within which it is required to be paid."
   },
   "tc": {
-   "q": "根據《打擊洗錢條例》第5A(3)及(6)條，關於打擊洗錢／恐怖分子資金籌集規定（條例稱為「反洗錢及恐怖分子集資規定」）何時適用於屬會計專業人士或法律專業人士的指定非金融業人士，下列哪些陳述正確？",
+   "q": "根據《打擊洗錢條例》第22(2)及(3)條，就有關當局根據第21條對金融機構採取紀律行動後須發出的通知而言，以下哪些陳述正確？",
    "statements": [
-    "該規定僅在該專業人士以業務形式在香港為客戶擬備或進行關乎第5A(3)條所列內容的交易時，方適用。",
-    "所列內容包括購買或出售地產，以及管理客戶的款項、證券或其他任何資產。",
-    "為施行第5A條，該等交易的標的不論是位於香港或任何其他地方，均無關重要。",
-    "該專業人士每當向客戶提供法律或會計意見時，即使該意見與擬備或進行所列交易無關，該規定亦適用。"
+    "有關當局如根據第21條就該金融機構行使權力，須藉書面通知將其決定告知該機構。",
+    "該通知須載有作出該決定的理由的說明，以及在適用範圍內根據該決定譴責該機構的內容。",
+    "該通知須載有根據該決定施加的罰款金額，以及並非第21(3)(a)條所指明的繳付罰款限期。",
+    "該通知須提示該機構可向原訟法庭申請覆核該決定，並須指明提出該項申請的限期。"
    ],
    "options": [
     "1、2 及 3",
@@ -10581,7 +10581,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述4 不正確：第5A(3)條訂明，適用於會計專業人士或法律專業人士的反洗錢及恐怖分子集資規定，「僅在」該專業人士以業務形式在香港為客戶擬備或進行關乎所列一項或多於一項內容的交易的情況下方適用，故與該等交易無關的意見並不引發該規定。陳述1 複述該項限制。陳述2 正確：第5A(3)(a)及(b)條所列內容包括購買或出售地產，以及管理客戶的款項、證券或其他資產（其餘所列內容為管理銀行戶口、儲蓄戶口或證券戶口；為成立、營運或管理法團而組織資金；成立、營運或管理法人或法律安排；購買或出售業務實體；以及信託或公司服務）。陳述3 複述第5A(6)條：第5A(3)條提述的交易的標的，不論是位於香港或其他地方，均無關重要。"
+   "explain": "陳述4錯誤：第22(3)(e)條規定通知須載有該金融機構可向覆核審裁處（而非原訟法庭）申請覆核該決定的提示，而第22(3)條並無規定通知須指明提出該項申請的限期。陳述1、2及3正確：第22(2)條規定，有關當局如根據第21條就某金融機構行使權力，須藉書面通知將其決定告知該機構；第22(3)(a)及(b)條規定通知須載有作出該決定的理由的說明，以及在適用範圍內根據該決定譴責該機構的內容；第22(3)(d)條則規定通知須載有根據該決定施加的罰款金額，如該罰款須在並非第21(3)(a)條指明的限期內繳付，亦須載有繳付該罰款的限期。"
   },
   "format": "combination"
  },
@@ -10590,28 +10590,28 @@
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "AMLO s.5A(6)",
-   "tc": "《打擊洗錢條例》第5A(6)條"
+   "en": "AMLO s.7(3); cf. s.7(6)",
+   "tc": "《打擊洗錢條例》第7(3)條；另見第7(6)條"
   },
   "en": {
-   "q": "For the purposes of section 5A, does it matter whether the subject matter of the transaction is in Hong Kong or elsewhere?",
+   "q": "The AML/CFT Guideline for MSOs is published under section 7 of the AMLO. Under section 7(3), what follows once the relevant authority amends it?",
    "options": [
-    "No — section 5A(6) provides that it is immaterial where the subject matter is",
-    "Yes — the requirement applies only where the subject matter is in Hong Kong",
-    "Yes — it applies only where the subject matter is outside Hong Kong",
-    "It depends on the type of DNFBP that is concerned in the case"
+    "A reference to the guideline in this or any other Ordinance is read as a reference to it as amended",
+    "The other provisions of section 7 stop applying to the guideline once it has been amended",
+    "The amendments take effect only once the Legislative Council has approved them by resolution",
+    "The amendments bind only those licensees who were consulted before the guideline was amended"
    ],
-   "explain": "Section 5A(6) states, to avoid doubt, that for the purposes of that section it is immaterial whether the subject matter of a transaction referred to in subsection (3), (4) or (5) is in Hong Kong or elsewhere. What matters is that the professional acts in Hong Kong."
+   "explain": "Section 7(3) lets a relevant authority or a regulatory body amend the whole or any part of a guideline published under section 7, in a manner consistent with the power to publish it. Paragraph (b) then provides that any reference to the guideline in this or any other Ordinance, however expressed, is to be construed as a reference to the guideline as so amended unless the context otherwise requires, so an MSO is held to the current text. Paragraph (a) contradicts any suggestion that section 7 falls away on amendment: its other provisions apply to the amendments, with necessary modifications, as they apply to the guideline. No resolution of the Legislative Council is required — section 7(6) provides that a guideline published under the section is not subsidiary legislation — and the section does not limit an amendment to licensees who were consulted."
   },
   "tc": {
-   "q": "就第5A條而言，交易的標的在香港或在其他地方，是否重要？",
+   "q": "《打擊洗錢及恐怖分子資金籌集指引》是根據《打擊洗錢條例》第7條公布的。根據第7(3)條，有關當局修訂該指引後，會有甚麼效果？",
    "options": [
-    "不重要——第5A(6)條訂明標的位於何處並不重要",
-    "重要——該規定只在標的位於香港時方適用",
-    "重要——該規定只在標的位於香港以外時方適用",
-    "視乎有關指定非金融企業及行業的類別而定"
+    "本條例或其他條例中提述該指引之處，須解釋為提述經修訂的指引",
+    "第7條的其他條文，在該指引經修訂後即不再適用於該指引",
+    "有關修訂須先經立法會以決議批准，方可對持牌人生效",
+    "有關修訂只對在修訂前曾獲當局諮詢的持牌人具約束力"
    ],
-   "explain": "第5A(6)條為免生疑問訂明，就該條而言，第(3)、(4)或(5)款所提述的交易的標的位於香港或其他地方，並不重要。關鍵在於該專業人士是在香港行事。"
+   "explain": "第7(3)條容許有關當局或監管機構修訂根據第7條公布的指引的全部或任何部分，修訂方式須與其公布該指引的權力相符。該款(b)段訂明，本條例或任何其他條例中提述該指引之處（不論實際如何稱述），除文意另有所指外，須解釋為提述經如此修訂的該指引，故金錢服務經營者須遵從現行文本。該款(a)段的規定，與第7條其他條文於修訂後不再適用的說法相反：本條其他條文在經必要變通後，適用於該等修訂，一如適用於該指引。有關修訂無須經立法會以決議批准——第7(6)條訂明根據本條公布的指引不是附屬法例——該條亦無將修訂的效力局限於曾獲諮詢的持牌人。"
   }
  },
  {
@@ -10619,28 +10619,28 @@
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "AMLO s.5A(7)",
-   "tc": "《打擊洗錢條例》第5A(7)條"
+   "en": "AMLO s.80(1); cf. s.80(1B)",
+   "tc": "《打擊洗錢條例》第80(1)條；另見第80(1B)條"
   },
   "en": {
-   "q": "What does “AML/CTF requirement” mean for the purposes of section 5A?",
+   "q": "The Commissioner has to give a licensee a notice under the AMLO. Under section 80(1), where must the notice be left or posted for it to count as duly given for all purposes?",
    "options": [
-    "A requirement set out in Part 2, 3 or 4 of Schedule 2 itself",
-    "Any requirement found anywhere in the Ordinance",
-    "A requirement set out in a guideline published under section 7",
-    "Any condition imposed on a licence under Part 5"
+    "At any of the premises specified in the licensee's licence as premises where it may operate a money service",
+    "At the licensee's last known residential address, or at the residential address of any of its directors",
+    "At the registered office of the licensee as shown in the records kept by the Registrar of Companies",
+    "At any address the licensee has given the Commissioner, provided it is confirmed by electronic means"
    ],
-   "explain": "Section 5A(7) defines AML/CTF requirement as a requirement set out in Part 2, 3 or 4 of Schedule 2. This is narrower than the section 8 concept of a prescribed requirement, which covers the whole Ordinance and licence conditions."
+   "explain": "Section 80(1) provides that a notice or other document, however described, that the Commissioner is authorized or required to give or send to a licensee under the Ordinance is to be regarded for all purposes as duly given or sent if it is left at, or sent by post to, the premises — or any one of the premises — specified in the licensee's licence as premises at which the licensee may operate a money service. The other addresses are real rules, but they belong to section 80(1B), which governs notices given by the Registrar and notices the Commissioner gives in connection with dealers in precious metals and stones: a last known residential address for an individual, a registered office or last known business address for a company, and a last known electronic mail address. None of them is the route for a notice to an MSO licensee."
   },
   "tc": {
-   "q": "就第5A條而言，「打擊洗錢及恐怖分子資金籌集規定」指甚麼？",
+   "q": "關長根據《打擊洗錢條例》須向持牌人發出通知。根據第80(1)條，該通知須留在或郵寄往何處，方就所有目的而言視為已妥為發出？",
    "options": [
-    "附表2第2、3或4部所列的規定",
-    "本條例任何部分的任何規定",
-    "根據第7條公布的指引所列的規定",
-    "第5部下施加於牌照的任何條件"
+    "該持牌人所持牌照指明的其可經營金錢服務的處所",
+    "該持牌人最後為人所知的住址，或其董事的住址",
+    "公司註冊處紀錄所顯示的該持牌人的註冊辦事處",
+    "該持牌人向關長提供並經電子方式確認的任何地址"
    ],
-   "explain": "第5A(7)條界定「打擊洗錢及恐怖分子資金籌集規定」為附表2第2、3或4部所列的規定。這較第8條「訂明規定」的概念為窄，後者涵蓋整條條例及牌照條件。"
+   "explain": "第80(1)條訂明，根據本條例關長獲授權或須向持牌人發出或送出的通知或其他文件（不論實際如何稱述），如留在或郵寄往該持牌人所持牌照指明的其可經營金錢服務的處所，或多於一個處所當中任何處所，就所有目的而言，須視為已妥為發出或送出。其餘地址確有其事，但屬第80(1B)條的規定：該款管限由處長發出的通知，以及關長在與貴重金屬及寶石交易商相關的情況下發出的通知——個人最後為人所知的住址、公司的註冊辦事處或最後為人所知的營業地址，以及最後為人所知的電郵地址。該等途徑均非向金錢服務經營者持牌人發出通知的途徑。"
   }
  },
  {
@@ -12646,18 +12646,18 @@
  {
   "id": "m2-264",
   "module": 2,
-  "answer": 0,
+  "answer": 3,
   "source": {
-   "en": "AMLO s.9(1B)",
-   "tc": "《打擊洗錢條例》第9(1B)條"
+   "en": "AMLO s.23",
+   "tc": "《打擊洗錢條例》第23條"
   },
   "en": {
-   "q": "Under section 9(1B) of the AMLO, where the inspection subject is a licensed VAS provider or an associated entity of a licensed VAS provider, which of the following statements about the routine inspection powers of an authorized person are correct?",
+   "q": "Under section 23 of the AMLO, which of the following statements about the guidelines on how a relevant authority exercises its power to impose a pecuniary penalty are correct?",
    "statements": [
-    "The authorized person may at any reasonable time enter the business premises of the licensed VAS provider or of an associated entity of the licensed VAS provider.",
-    "The authorized person may inspect any specified business record, and may make copies of it or otherwise record its details, in the course of the inspection.",
-    "The authorized person may make inquiries of a related corporation of the licensed VAS provider, or of a related corporation of an associated entity of the provider.",
-    "The authorized person may make inquiries of any information holder once the Secretary for Financial Services has certified that the inquiry is necessary for the inspection."
+    "Before it first imposes a pecuniary penalty under section 21(2)(c), the authority must publish guidelines on how it proposes to exercise that power.",
+    "Those guidelines go in the Gazette, and section 23 requires the authority to review and publish them again once in every three years after that.",
+    "In exercising the power to impose a pecuniary penalty, the authority must have regard to the guidelines that it has published under section 23(1).",
+    "Guidelines published under section 23(1) are not subsidiary legislation, whatever further manner of publication the authority may choose for them."
    ],
    "options": [
     "1, 2 and 3",
@@ -12666,15 +12666,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 4 is false because section 9(1B)(c)(ii) allows inquiries of an information holder only subject to section 9(6), which requires the authorized person to have reasonable cause to believe that the information sought cannot be obtained under section 9(1B)(c)(i) from the provider, its associated entity or their related corporations. Statements 1, 2 and 3 are correct: section 9(1B)(a) permits entry at any reasonable time to the business premises of the licensed VAS provider or of an associated entity, section 9(1B)(b) permits inspection and copying of any specified business record, and section 9(1B)(c)(i) lists a related corporation of the provider and a related corporation of an associated entity among the persons of whom inquiries may be made."
+   "explain": "Statement 2 is false: section 23(1) requires the guidelines to be published in the Gazette and in any other manner that the relevant authority considers appropriate, but section 23 imposes no duty to review them or to publish them again at any interval. Statements 1, 3 and 4 are correct: section 23(1) requires the authority, before it first exercises the power to impose a pecuniary penalty referred to in section 21(2)(c), to publish guidelines indicating the manner in which it proposes to exercise that power; section 23(2) requires it to have regard to those guidelines when it exercises the power; and section 23(3) provides that guidelines published under section 23(1) are not subsidiary legislation."
   },
   "tc": {
-   "q": "根據《打擊洗錢條例》第9(1B)條，如視察對象屬持牌虛擬資產服務提供者或其有聯繫實體，關於獲授權人進行例行視察的權力，下列哪些陳述正確？",
+   "q": "根據《打擊洗錢條例》第23條，就有關當局如何行使施加罰款的權力的指引而言，以下哪些陳述正確？",
    "statements": [
-    "獲授權人可於任何合理時間進入該持牌虛擬資產服務提供者的業務處所，或該提供者的有聯繫實體的業務處所。",
-    "獲授權人可在視察過程中查閱任何指明業務紀錄，並可複製或複印該等紀錄，或以其他方式記錄該等紀錄的細節。",
-    "獲授權人可向該持牌虛擬資產服務提供者的有連繫法團，或該提供者的有聯繫實體的有連繫法團作出查訊。",
-    "獲授權人可向任何資料持有人作出查訊，但須先由財經事務及庫務局局長證明該項查訊對該視察屬必要。"
+    "有關當局在首次根據第21(2)(c)條施加罰款前，須公布指引，示明其擬採用何種方式行使該權力。",
+    "該等指引須在憲報刊登，而第23條規定有關當局其後須每三年檢討並再次公布該等指引一次。",
+    "有關當局在行使施加罰款的權力時，須顧及它根據第23(1)條刊登及公布的指引。",
+    "根據第23(1)條刊登及公布的指引不是附屬法例，不論有關當局另選何種方式公布該等指引。"
    ],
    "options": [
     "1、2 及 3",
@@ -12683,7 +12683,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述4 不正確，因為第9(1B)(c)(ii)條訂明，向資料持有人作出查訊須受第9(6)條規限，即獲授權人須有合理因由相信不能夠藉根據第9(1B)(c)(i)條向該提供者、其有聯繫實體或它們的有連繫法團查訊而取得所尋求的資料。陳述1、2 及 3 正確：第9(1B)(a)條准許獲授權人於任何合理時間進入該持牌虛擬資產服務提供者或其有聯繫實體的業務處所；第9(1B)(b)條准許查閱和複製任何指明業務紀錄；第9(1B)(c)(i)條則將該提供者的有連繫法團及其有聯繫實體的有連繫法團列為可被查訊的人。"
+   "explain": "陳述2錯誤：第23(1)條規定有關當局須在憲報刊登指引，並以其認為適當的其他方式公布，但第23條並無規定當局須檢討該等指引，亦無規定須每隔任何期間再次公布。陳述1、3及4正確：第23(1)條規定有關當局在首次行使第21(2)(c)條提述的施加罰款權力前，須公布指引，示明其擬採用何種方式行使該權力；第23(2)條規定當局行使該權力時，須顧及該等指引；第23(3)條則訂明根據第23(1)條刊登及公布的指引不是附屬法例。"
   },
   "format": "combination"
  },
@@ -13898,33 +13898,33 @@
   }
  },
  {
+  "id": "m2-302",
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "C&ED Circular MSSB/MIS_08/2022 (12 Dec 2022) ¶2 — passage of the AML/CTF (Amendment) Bill 2022",
-   "tc": "香港海關通函 MSSB/MIS_08/2022（2022年12月12日）第2段——《2022年打擊洗錢及恐怖分子資金籌集（修訂）條例草案》獲立法會通過"
+   "en": "AMLO s.13(12); cf. s.13(13)",
+   "tc": "《打擊洗錢條例》第13(12)條；另見第13(13)條"
   },
   "en": {
-   "q": "According to the circular, what does the amended AMLO require of a person who seeks to carry on a business of dealing in precious metals and stones in Hong Kong and engage in transactions at or above HK$120,000?",
+   "q": "A prosecution is instituted as a result of the findings of an investigation under section 11 of the AMLO, and the court convicts the person prosecuted. What order may the court make about the cost of that investigation?",
    "options": [
-    "Register with the Commissioner of Customs and Excise from 1 April 2023.",
-    "Register with the Commissioner of Customs and Excise only from 1 June 2023.",
-    "Obtain a licence from the Securities and Futures Commission from 1 June 2023.",
-    "Obtain a licence from the Commissioner of Customs and Excise from 1 April 2023."
+    "That the person pay the relevant authority the whole or a part of the costs and expenses of the investigation",
+    "That the person pay the Financial Secretary the whole or a part of the costs and expenses of the investigation",
+    "That the relevant authority bear its own costs and expenses of the investigation, which it cannot recover",
+    "That the person pay the costs and expenses of the investigation into the general revenue of the Government"
    ],
-   "explain": "Paragraph 2 of the circular states that, with effect from 1 April 2023, any person who seeks to carry on a business of dealing in precious metals and stones in Hong Kong and engage in transactions at or above HK$120,000 is required to register with the Commissioner of Customs and Excise, and that C&ED would promulgate the details of the registration regime. What is required is registration, not a licence from the Commissioner, and the requirement starts on 1 April 2023 rather than only from 1 June 2023. A licence from the Securities and Futures Commission from 1 June 2023 is the requirement the circular describes for virtual asset service business, not for dealing in precious metals and stones."
+   "explain": "Section 13(12) provides that if a person is convicted on a prosecution instituted as a result of the findings of an investigation under section 11, the court may order the person to pay to the relevant authority the whole or a part of the costs and expenses of the investigation, and the authority may recover that amount as a civil debt due to it. The Financial Secretary appears in section 13(13), which applies where the costs and expenses have already been paid out of moneys provided by the Legislative Council: it is then the relevant authority, not the convicted person, that must pay over what it has received. Section 13(12) leaves neither the authority to bear its own costs nor the money to be paid into the general revenue."
   },
   "tc": {
-   "q": "根據通函，任何人如尋求在香港經營貴重金屬及寶石交易業務，並進行款額達港幣120,000元或以上的交易，經修訂的《打擊洗錢及恐怖分子資金籌集條例》規定該人須怎樣做？",
+   "q": "根據《打擊洗錢條例》第11條進行的調查，其調查所得導致某人遭檢控，而法院裁定該人罪名成立。就該項調查的費用而言，法院可作出甚麼命令？",
    "options": [
-    "由2023年4月1日起向海關關長註冊。",
-    "僅由2023年6月1日起向海關關長註冊。",
-    "由2023年6月1日起向證監會申領牌照。",
-    "由2023年4月1日起向海關關長申領牌照。"
+    "命令該人向有關當局繳付該項調查的全部或部分費用及開支",
+    "命令該人向財政司司長繳付該項調查的全部或部分費用及開支",
+    "命令有關當局自行承擔該項調查的費用及開支，並不得予以追討",
+    "命令該人將該項調查的費用及開支繳付予政府一般收入"
    ],
-   "explain": "通函第2段指出，由2023年4月1日起，任何人如尋求在香港經營貴重金屬及寶石交易業務，並進行款額達港幣120,000元或以上的交易，須向海關關長註冊，而海關會稍後公布註冊制度的詳情。所規定的是註冊，而非向海關關長申領牌照；規定亦由2023年4月1日起生效，而非僅由2023年6月1日起。由2023年6月1日起向證券及期貨事務監察委員會申領牌照，是通函就虛擬資產服務業務而非貴重金屬及寶石交易業務所述的規定。"
-  },
-  "id": "m2-302"
+   "explain": "第13(12)條訂明，如根據第11條進行調查，而調查所得導致任何人遭檢控並被法院定罪，則該法院可命令該人向有關當局繳付該項調查的全部或部分費用及開支，而該當局可將該等費用及開支作為拖欠該當局的民事債項予以追討。財政司司長見於第13(13)條：該條適用於有關費用及開支已由立法會所撥款項支付的情況，屆時須支付款項的是有關當局，而非被定罪的人。第13(12)條既不是由當局自行承擔費用，亦不是將款項撥入政府一般收入。"
+  }
  },
  {
   "module": 2,
@@ -15092,28 +15092,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 1, Part 2 (definition of “legal professional”)",
-   "tc": "《打擊洗錢條例》附表1第2部（「法律專業人士」的定義）"
+   "en": "AMLO Sch. 4, s.1(2)",
+   "tc": "《打擊洗錢條例》附表4第1(2)條"
   },
   "en": {
-   "q": "Who is a \"legal professional\" for the purposes of the AMLO?",
+   "q": "Schedule 4 to the AMLO gives its own meanings to “chairperson”, “ordinary member” and “panel member”. How does it deal with “review”, “parties”, “Secretary” and “specified decision”?",
    "options": [
-    "A solicitor or foreign lawyer per the Legal Practitioners Ordinance",
-    "A solicitor or a barrister who is admitted to practise in Hong Kong",
-    "Any person who provides legal advice to others by way of business",
-    "A solicitor only — foreign lawyers are expressly excluded"
+    "It gives them the same meaning as they have in Part 6 of the Ordinance",
+    "It gives them the same meaning as they have in Part 1 of the Ordinance",
+    "It gives them the same meaning as they have in Schedule 1 to the Ordinance",
+    "It defines each of them again, in its own opening list of meanings"
    ],
-   "explain": "Part 2 of Schedule 1 defines legal professional as a solicitor, or a foreign lawyer, each as defined by section 2(1) of the Legal Practitioners Ordinance (Cap. 159) — it does not turn on being a barrister, on merely giving legal advice for business, and it does not exclude foreign lawyers."
+   "explain": "Section 1(2) of Schedule 4 provides that “application for review”, “parties”, “review”, “Secretary”, “specified authority”, “specified decision” and “Tribunal” have the same meaning as in Part 6, the Part that establishes the Review Tribunal and governs applications to it. Section 1(1) defines only the three terms the Schedule needs for its own machinery — chairperson, ordinary member and panel member — and does not repeat the Part 6 terms. Neither Part 1 nor Schedule 1 supplies them."
   },
   "tc": {
-   "q": "就《打擊洗錢條例》而言，何人屬「法律專業人士」？",
+   "q": "《打擊洗錢條例》附表4就「主席」、「普通成員」及「委員」自行給予涵義。該附表如何處理「覆核」、「各方」、「局長」及「指明決定」？",
    "options": [
-    "《法律執業者條例》的律師或外地律師",
-    "在香港獲正式認許執業的律師或大律師",
-    "以業務方式向其他人提供法律意見的任何人",
-    "只限本地律師，外地律師明文被排除在外"
+    "給予該等詞與本條例第6部所給予者相同的涵義",
+    "給予該等詞與本條例第1部所給予者相同的涵義",
+    "給予該等詞與本條例附表1所給予者相同的涵義",
+    "在該附表開首的涵義列表中再次界定該等詞"
    ],
-   "explain": "附表1第2部界定「法律專業人士」為《法律執業者條例》（第159章）第2(1)條所界定的律師，或該條所界定的外地律師——並不取決於是否大律師，也不只是以業務方式提供法律意見，更沒有將外地律師排除在外。"
+   "explain": "附表4第1(2)條訂明，「覆核申請」、「各方」、「覆核」、「局長」、「指明當局」、「指明決定」及「審裁處」具有第6部給予該等詞的涵義；第6部正是設立覆核審裁處並規管覆核申請的部分。第1(1)條只界定該附表本身運作所需的三個詞，即主席、普通成員及委員，並無重複界定第6部的詞。第1部及附表1均無給予該等詞涵義。"
   }
  },
  {
@@ -15121,28 +15121,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 1, Part 1, s.1 (definition of “trust or company service”)",
-   "tc": "《打擊洗錢條例》附表1第1部第1條（「信託或公司服務」的定義）"
+   "en": "AMLO Sch. 4, s.2(4)",
+   "tc": "《打擊洗錢條例》附表4第2(4)條"
   },
   "en": {
-   "q": "Which of the following falls within the definition of \"trust or company service\"?",
+   "q": "A member of the panel from which ordinary members of the Review Tribunal are drawn wants to leave office. Under Schedule 4 to the AMLO, how is that done?",
    "options": [
-    "Providing a registered office for a corporation, partnership or trust",
-    "Independently auditing a corporation's annual financial statements",
-    "Acting as a corporation's external legal adviser in civil litigation matters",
-    "Providing general insurance broking or agency services to a corporation"
+    "By giving notice in writing to the Secretary, who appointed the panel in the first place",
+    "By giving notice in writing to the chairperson, who recommends the appointments made",
+    "By giving notice in writing to the Commissioner, who licenses the money service sector",
+    "By applying to the Tribunal itself for a discharge from office, on stated grounds"
    ],
-   "explain": "The definition covers, among other things, providing a registered office, business address, correspondence or administrative address for a corporation, partnership or other legal person or arrangement. Auditing accounts, acting as litigation counsel, and insurance broking or agency work are all separate professional services that fall outside the definition."
+   "explain": "Section 2(4) of Schedule 4 provides that a panel member may resign from office by giving notice in writing to the Secretary — the same person who appoints the panel under section 2(1) and who may remove a member from it under section 2(5). The chairperson recommends which panel members are appointed as ordinary members for a particular review under section 4(1) but receives no resignation; the Commissioner has no role in the panel; and Schedule 4 provides for no application to the Tribunal for a discharge."
   },
   "tc": {
-   "q": "下列何者屬「信託或公司服務」定義的範圍？",
+   "q": "審裁處的普通成員是從委員團中選出的。某委員擬離任。根據《打擊洗錢條例》附表4，該委員如何辭職？",
    "options": [
-    "為法團、合夥或信託提供註冊辦事處",
-    "獨立審計該法團的周年財務報表",
-    "在民事訴訟中擔任法團的對外法律顧問",
-    "向法團提供一般的保險經紀或代理服務"
+    "藉向當初委出委員團的局長發出書面通知而辭職",
+    "藉向建議有關委任的審裁處主席發出書面通知",
+    "藉向規管金錢服務業的海關關長發出書面通知",
+    "以陳述理由的方式向審裁處申請免除其職務"
    ],
-   "explain": "該定義涵蓋（其中包括）為法團、合夥或任何其他法人或法律安排提供註冊辦事處、業務地址、通訊或行政地址。審計帳目、在訴訟中擔任法律顧問，以及保險經紀或代理工作，均屬定義範圍以外的獨立專業服務。"
+   "explain": "附表4第2(4)條訂明，委員可藉向局長發出書面通知而辭職；局長亦是根據第2(1)條委出委員團，並可根據第2(5)條將委員免任的人。主席根據第4(1)條建議由哪些委員就某項覆核獲委任為普通成員，但並非接受辭職的人；海關關長在委員團並無角色；附表4亦無訂明可向審裁處申請免除職務。"
   }
  },
  {
@@ -21509,28 +21509,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 1, Part 2 (definition of “estate agent”)",
-   "tc": "《打擊洗錢條例》附表1第2部（「地產代理」的定義）"
+   "en": "AMLO Sch. 1, Part 2 (definition of “re-domiciled entity”)",
+   "tc": "《打擊洗錢條例》附表1第2部（「經遷冊實體」的定義）"
   },
   "en": {
-   "q": "Who is an “estate agent” for the purposes of the AMLO?",
+   "q": "Schedule 1 to the AMLO defines a “re-domiciled entity” more narrowly than a “re-domiciled company”. What must have happened to the company as well?",
    "options": [
-    "A licensed estate agent or licensed salesperson per the Estate Agents Ordinance",
-    "Only a licensed estate agent, not a licensed salesperson",
-    "Any person arranging property transactions by way of business, licensed or not",
-    "Only an estate agent who is also a member of a professional body"
+    "It must have been deregistered, as section 820E(3)(a) of the Companies Ordinance requires",
+    "It must have been registered here as a non-Hong Kong company, under that same Ordinance",
+    "It must have been listed on a recognized stock market outside Hong Kong for two years",
+    "It must have been wound up in the place in which it was originally incorporated"
    ],
-   "explain": "Part 2 of Schedule 1 defines estate agent as a licensed estate agent as defined by section 2(1) of the Estate Agents Ordinance (Cap. 511), or a licensed salesperson as defined by that section — both categories are covered, and both require a licence. Both are DNFBPs."
+   "explain": "Part 2 of Schedule 1 defines a re-domiciled entity as a re-domiciled company that is deregistered as required by section 820E(3)(a) of the Companies Ordinance (Cap. 622), so deregistration is the further step that separates the two terms; re-domiciled company itself takes its meaning from section 2(1) of that Ordinance. The definition says nothing about registration as a non-Hong Kong company, about listing, or about winding up. The distinction matters to an MSO because section 22(1) of Schedule 2 extends the duty to have compliance procedures at overseas branches and subsidiary undertakings to a financial institution that is a re-domiciled entity, as well as to one incorporated in Hong Kong."
   },
   "tc": {
-   "q": "就《打擊洗錢條例》而言，何人屬「地產代理」？",
+   "q": "《打擊洗錢條例》附表1對「經遷冊實體」的界定，較「經遷冊公司」為窄。該公司還須符合甚麼情況？",
    "options": [
-    "《地產代理條例》所指的持牌地產代理或營業員",
-    "只限持牌地產代理，不包括持牌營業員",
-    "以業務方式安排物業交易的人，不論是否持牌",
-    "只限同時屬某專業團體會員的地產代理人"
+    "該公司已按《公司條例》第820E(3)(a)條撤銷註冊",
+    "該公司已根據《公司條例》在香港註冊成為非香港公司",
+    "該公司已在香港以外地方的認可證券市場上市滿兩年",
+    "該公司已在其原來成立為法團的地方展開清盤程序"
    ],
-   "explain": "附表1第2部界定「地產代理」為《地產代理條例》（第511章）第2(1)條所界定的持牌地產代理，或該條所界定的持牌營業員——兩個類別均包括在內，且均須持牌。兩者均屬指定非金融企業及行業。"
+   "explain": "附表1第2部將經遷冊實體界定為已按《公司條例》（第622章）第820E(3)(a)條的規定撤銷註冊的經遷冊公司，故撤銷註冊正是區分兩詞的額外步驟；至於經遷冊公司一詞，則具有該條例第2(1)條所給予的涵義。該定義並無提及註冊為非香港公司、上市或清盤。此項區分對金錢服務經營者而言有其意義：附表2第22(1)條把在海外分行及附屬企業設立合規程序的責任，既施加於在香港成立為法團的金融機構，亦施加於屬經遷冊實體的金融機構。"
   }
  },
  {
@@ -21628,28 +21628,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 1, Part 2 (definition of “regulatory body”, para (a))",
-   "tc": "《打擊洗錢條例》附表1第2部（「規管機構」的定義，(a)段）"
+   "en": "AMLO Sch. 4, s.9(2)",
+   "tc": "《打擊洗錢條例》附表4第9(2)條"
   },
   "en": {
-   "q": "Is the AFRC always the “regulatory body” for an accounting professional under Schedule 1, or does HKICPA ever take that role?",
+   "q": "Schedule 4 to the AMLO lets the chairperson of the Review Tribunal determine two kinds of application sitting as the Tribunal's sole member. One is an application to stay execution of a specified decision. What is the other?",
    "options": [
-    "Not always — HKICPA takes that role for specified purposes",
-    "Always — the AFRC is the regulatory body for every purpose, with no exception",
-    "Never the AFRC — HKICPA alone is always the regulatory body",
-    "It depends on entity type — HKICPA for corporate practices, AFRC for individuals"
+    "An application to extend the time within which an application for review may be made",
+    "An application to join a further party to a review that has already been commenced",
+    "An application to have a sitting of the Tribunal, or a part of a sitting, held in private",
+    "An application to have the Tribunal's costs order registered in the Court of First Instance"
    ],
-   "explain": "Schedule 1 makes the AFRC the regulatory body for an accounting professional generally, subject to two exceptions: for the purposes of section 4 it is the AFRC or HKICPA, and for the purposes of section 7(1) to (3) it is HKICPA as overseen by the AFRC under section 9(b) of the Accounting and Financial Reporting Council Ordinance. The distinction turns on which section applies, not on whether the professional is a corporate practice or an individual."
+   "explain": "Section 9(2) of Schedule 4 provides that the chairperson may also determine an application as the sole member of the Tribunal where it is an application made under section 59(2) for the grant of an extension of the time within which an application for review may be made, or an application made under section 69(2) for a stay of execution of a specified decision. Schedule 4 makes no provision for joining a further party to a review; a sitting is held in private under section 6(7) on the determination of the Tribunal rather than of the chairperson alone; and it is a relevant authority, not the Tribunal, that registers a pecuniary penalty order in the Court of First Instance."
   },
   "tc": {
-   "q": "就會計專業人士而言，附表1下的「監管機構」是否一律為會財局，抑或香港會計師公會有時也擔任該角色？",
+   "q": "《打擊洗錢條例》附表4容許審裁處主席作為審裁處唯一成員裁定兩類申請。其中一類是要求暫緩執行某指明決定的申請。另一類是甚麼？",
    "options": [
-    "並非一律——就指明目的，香港會計師公會或在會財局監督下擔任該角色",
-    "一律如此——監管機構就任何目的而言均為會財局，並無例外",
-    "一律並非會財局——監管機構一律單獨為香港會計師公會",
-    "視乎實體類別而定——法團執業由香港會計師公會規管，個人則由會財局規管"
+    "要求延展某人提出覆核申請的限期的申請",
+    "要求將另一方加入已展開的覆核的申請",
+    "要求將聆訊或部分聆訊以非公開形式進行的申請",
+    "要求將審裁處的訟費命令在原訟法庭登記的申請"
    ],
-   "explain": "附表1一般以會財局作為會計專業人士的監管機構，但有兩項例外：就第4條而言，監管機構為會財局或香港會計師公會；就第7(1)、(2)及(3)條而言，則為根據《會計及財務匯報局條例》第9(b)條由會財局監督的香港會計師公會。分野在於所適用的條文，而非該會計專業人士屬法團執業抑或個人。"
+   "explain": "附表4第9(2)條訂明，如某項申請是根據第59(2)條向審裁處作出、其目的是要求延展提出覆核申請的限期，或是根據第69(2)條向審裁處作出、其目的是要求暫緩執行某指明決定，則主席亦可作為審裁處唯一成員裁定該項申請。附表4並無訂明可將另一方加入覆核；聆訊以非公開形式進行，是根據第6(7)條由審裁處裁定，而非由主席單獨裁定；在原訟法庭登記罰款命令的，是有關當局而非審裁處。"
   }
  },
  {
@@ -21773,45 +21773,45 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 1, Part 2 (definition of “accounting professional”)",
-   "tc": "《打擊洗錢條例》附表1第2部（「會計專業人士」的定義）"
+   "en": "AMLO Sch. 4, s.4(2)",
+   "tc": "《打擊洗錢條例》附表4第4(2)條"
   },
   "en": {
-   "q": "Which of the following is included in the definition of “accounting professional” in Schedule 1?",
+   "q": "Two panel members are appointed as ordinary members of the Review Tribunal. Under Schedule 4 to the AMLO, what is the scope of that appointment?",
    "options": [
-    "A certified public accountant, a corporate practice, or a CPA firm",
-    "Only a certified public accountant who practises alone, not within a firm",
-    "Any person who holds a recognized accounting degree or professional diploma",
-    "Only a member of an overseas accounting body who happens to practise in Hong Kong"
+    "It is an appointment to act in relation to a specified review, and may be renewed later",
+    "It is an appointment to act in relation to every review begun while the member serves",
+    "It is an appointment for a fixed term of three years from the date it is first made",
+    "It runs until the member resigns, or until the Secretary removes them from the panel"
    ],
-   "explain": "Part 2 of Schedule 1 defines accounting professional as a certified public accountant (or certified public accountant (practising)) as defined by the Professional Accountants Ordinance or the AFRC Ordinance; a corporate practice as defined by the AFRC Ordinance; or a CPA firm as defined by that Ordinance. Sole practice, an academic qualification and overseas body membership are not, by themselves, the statutory test."
+   "explain": "Section 4(2) of Schedule 4 provides that, subject to sections 4(3) and 4(5), a panel member who is appointed as an ordinary member is appointed to act in relation to a specified review, and may be reappointed after the term of appointment or reappointment has expired — so the appointment is made review by review rather than as a standing office. The three-year maximum belongs to the chairperson under section 3(1). Resignation under section 4(3), and the loss of office under section 4(5) when a person ceases to be a panel member, bring an appointment to an end but do not describe its scope."
   },
   "tc": {
-   "q": "附表1「會計專業人士」的定義包括下列何者？",
+   "q": "兩名委員獲委任為審裁處的普通成員。根據《打擊洗錢條例》附表4，該項委任的範圍為何？",
    "options": [
-    "執業會計師、法團執業或會計師事務所",
-    "只限獨資執業、並非在事務所執業的執業會計師",
-    "任何持有認可會計學位或專業文憑的人",
-    "只限碰巧在香港執業的海外會計團體會員"
+    "獲委任就指明的覆核行事，並可於任期屆滿後獲再度委任",
+    "獲委任就該成員任內展開的每一項覆核行事並作出裁定",
+    "獲委任的任期為自首次獲委任當日起計的三年期間",
+    "任期直至該成員辭職或局長將其從委員團免任為止"
    ],
-   "explain": "附表1第2部界定「會計專業人士」為《專業會計師條例》或《會計及財務匯報局條例》所界定的執業會計師（或執業會計師（執業中））；該條例所界定的法團執業；或該條例所界定的會計師事務所。獨資執業、學歷資格或海外團體會員身分，本身並非法定驗證標準。"
+   "explain": "附表4第4(2)條訂明，在不抵觸第4(3)及4(5)條的條文下，獲委任為普通成員的委員，獲委任就指明的覆核行事，並可在委任或再度委任的任期屆滿後獲再度委任，故該項委任是逐項覆核作出，而非常設職位。三年的任期上限屬主席所有，見第3(1)條。第4(3)條的辭職，以及第4(5)條所訂委員停任委員時即停任普通成員，均只令委任終止，而非界定委任的範圍。"
   }
  },
  {
   "id": "m3-240",
   "module": 3,
-  "answer": 3,
+  "answer": 2,
   "source": {
-   "en": "AMLO Sch. 1, Part 2 (definition of “regulatory body”)",
-   "tc": "《打擊洗錢條例》附表1第2部（「監管機構」的定義）"
+   "en": "AMLO Sch. 2, s.18(7) (definitions)",
+   "tc": "《打擊洗錢條例》附表2第18(7)條（定義）"
   },
   "en": {
-   "q": "Under the definition of “regulatory body” in Part 2 of Schedule 1 to the AMLO, which of the following statements are correct?",
+   "q": "Under section 18(7) of Schedule 2 to the AMLO, which of the following statements about the terms used in the provisions on carrying out customer due diligence measures by means of an intermediary are correct?",
    "statements": [
-    "In relation to an accounting professional, the regulatory body is the AFRC, except in the two situations dealt with in subparagraphs (ii) and (iii) of paragraph (a).",
-    "In relation to an estate agent, the regulatory body is the Registrar of Companies, the Estate Agents Authority having no role under this definition.",
-    "In relation to a legal professional, the regulatory body is the Law Society, and the definition does not name any other body for legal professionals.",
-    "For the purposes of section 4, the regulatory body for an accounting professional is the AFRC or the HKICPA, and for section 7(1), (2) and (3) it is the HKICPA as overseen by the AFRC."
+    "An intermediary financial institution is any institution outside Hong Kong on which a Hong Kong institution relies to carry out those measures.",
+    "A related foreign financial institution carries on, outside Hong Kong, a business similar to that carried on by an intermediary financial institution.",
+    "A related foreign financial institution may be an institution that is within the same group of companies as the financial institution relying on it.",
+    "A group policy is a policy of the group of companies to which the institution belongs that applies to it and to the related foreign institution."
    ],
    "options": [
     "1, 2 and 3",
@@ -21820,15 +21820,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 2 is false: paragraph (b) of the definition makes the Estate Agents Authority the regulatory body in relation to an estate agent; the Registrar of Companies is not a regulatory body under this definition. Statements 1, 3 and 4 are correct: paragraph (a) names the AFRC as the regulatory body for an accounting professional subject to subparagraphs (ii) and (iii), which substitute the AFRC or the HKICPA for the purposes of section 4 and the HKICPA as overseen by the AFRC for the purposes of section 7(1), (2) and (3); and paragraph (c) names the Law Society as the regulatory body for a legal professional."
+   "explain": "Statement 1 is false: section 18(7) defines an intermediary financial institution as a financial institution mentioned in section 18(3)(b) — an authorized institution, a licensed corporation, an authorized insurer, a licensed individual insurance agent, a licensed insurance agency or a licensed insurance broker company — each of which is a Hong Kong institution. It is the related foreign financial institution that is defined by reference to a place outside Hong Kong. Statements 2, 3 and 4 are correct: a related foreign financial institution must carry on outside Hong Kong a business similar to that carried on by an intermediary financial institution and fall within one of the listed descriptions, the first of which is being within the same group of companies as the financial institution; and a group policy is a policy of the group of companies to which the financial institution belongs that applies both to that institution and to the relevant related foreign financial institution."
   },
   "tc": {
-   "q": "根據《打擊洗錢條例》附表1第2部「監管機構」的定義，下列哪些陳述正確？",
+   "q": "根據《打擊洗錢條例》附表2第18(7)條，就藉中介人執行客戶盡職審查措施的條文所用的詞而言，以下哪些陳述正確？",
    "statements": [
-    "就會計專業人士而言，監管機構一律指會財局，但(a)段第(ii)及(iii)節所處理的那兩種情況除外。",
-    "就地產代理而言，監管機構指公司註冊處處長，而地產代理監管局在該定義下並無任何角色。",
-    "就法律專業人士而言，監管機構指律師會，而該定義並無就法律專業人士指明任何其他團體。",
-    "就第4條而言，會計專業人士的監管機構指會財局或香港會計師公會；就第7(1)至(3)條而言，則指受會財局監督的公會。"
+    "中介人金融機構指任何在香港以外地方、而香港機構倚賴其執行該等措施的機構。",
+    "相關外地金融機構在香港以外地方，經營與中介人金融機構所經營的業務相類似的業務。",
+    "相關外地金融機構可以是與倚賴它的該香港金融機構屬於同一公司集團的另一機構。",
+    "集團政策指該金融機構所屬的公司集團的政策，而該政策適用於該機構及該相關外地金融機構。"
    ],
    "options": [
     "1、2 及 3",
@@ -21837,7 +21837,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述2 不正確：該定義的(b)段訂明，就地產代理而言，監管機構指地產代理監管局；公司註冊處處長並非該定義下的監管機構。陳述1、3 及 4 正確：(a)段訂明會計專業人士的監管機構為會財局，但受第(ii)及(iii)節規限——就第4條而言指會財局或香港會計師公會，就第7(1)、(2)及(3)條而言則指受會財局監督的香港會計師公會；(c)段則訂明法律專業人士的監管機構為律師會。"
+   "explain": "陳述1錯誤：第18(7)條將中介人金融機構界定為第18(3)(b)款所述的金融機構，即認可機構、持牌法團、獲授權保險人、持牌個人保險代理、持牌保險代理機構或持牌保險經紀公司，各者均為香港機構。以香港以外地方界定的，是相關外地金融機構。陳述2、3及4正確：相關外地金融機構須在香港以外地方經營與中介人金融機構所經營的業務相類似的業務，並須屬所列描述之一，其中首項是與該金融機構屬同一公司集團；集團政策則指該金融機構所屬的公司集團的政策，而該政策同時適用於該機構及有關的相關外地金融機構。"
   },
   "format": "combination"
  },
