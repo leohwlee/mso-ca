@@ -63,8 +63,8 @@ the per-document figures can sum above the module total.
 | Module | Source documents (questions citing each) | Questions |
 |---|---|---|
 | **1** General knowledge on AML/CFT and counter-proliferation financing | **02** ch. 1 & 6 (102) · **10** (18) · **13** Sch. 1 (11) · **14** (6) | 126 |
-| **2** Part 1–7 of the AMLO | **13** Parts 1–7 (300) · **23** (7) · **28** (1) | 308 |
-| **3** Schedules to the AMLO | **13** Sch. 2 (182), Sch. 1 (37), Sch. 4 (34), Sch. 3 (7) · **11** (2) | 260 |
+| **2** Part 1–7 of the AMLO | **13** Parts 1–7 (301) · **23** (6) · **28** (1) | 308 |
+| **3** Schedules to the AMLO | **13** Sch. 2 (183), Sch. 4 (38), Sch. 1 (32), Sch. 3 (7) · **11** (2) | 260 |
 | **4** Guidelines promulgated by the C&ED | **03** (164) · **01** (51) · **07** (25) · **05** (19) · **06** (16) · **08** (14) · **13** (8) · **09** (7) · **11** (7) · **04** (6) · **27** (5) · **20** (3) · **12** (2) · **18** (2) · **10** (1) | 310 |
 | **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (83) · **15** (6) · **13** (5) · **07** (3) · **05** (1) · **10** (1) | 96 |
 | **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11 (300) · **13** (20) · **26** (14) · **25** (12) · **24** (8) · **21** (6) | 340 |
