@@ -696,8 +696,8 @@
    "statements": [
     "The Guideline is issued by the Commissioner of Customs and Excise (CCE) and sets out the relevant AML/CFT statutory and regulatory requirements.",
     "The Guideline sets out the AML/CFT standards which MSOs should meet in order to comply with the statutory requirements under the AMLO.",
-    "Compliance with the Guideline by MSOs is enforced through the AMLO and its subsidiary provisions.",
-    "An MSO which fails to comply with the Guideline is not exposed to disciplinary action under the AMLO.",
+    "Compliance with the Guideline by MSOs is enforced through the Anti-Money Laundering and Counter-Terrorist Financing Ordinance.",
+    "An MSO which fails to comply with the Guideline is not exposed to disciplinary or other actions under the AMLO for that failure.",
     "Non-compliance with the Guideline has no bearing on the fitness and properness of an MSO's sole proprietor, partner, director or ultimate owner."
    ],
    "options": [
@@ -714,8 +714,8 @@
    "statements": [
     "本指引由海關關長（關長）公布，載列與打擊洗錢及恐怖分子資金籌集相關的法定及監管規定。",
     "本指引載列金錢服務經營者為履行《打擊洗錢條例》的法定規定而應遵守的打擊洗錢及恐怖分子資金籌集準則。",
-    "金錢服務經營者對本指引的遵行情況，會按照《打擊洗錢條例》及其附屬條文強制執行。",
-    "金錢服務經營者未有遵守本指引，不會面對根據《打擊洗錢條例》採取的紀律行動。",
+    "金錢服務經營者對本指引的遵行情況，會按照《打擊洗錢及恐怖分子資金籌集條例》強制執行。",
+    "金錢服務經營者未有遵守本指引，不會因此面對根據《打擊洗錢條例》採取的紀律行動及其他行動。",
     "金錢服務經營者不遵從本指引，對其獨資經營者、合夥人、董事或最終擁有人是否適當人選並無影響。"
    ],
    "options": [
@@ -725,7 +725,7 @@
     "1、2 及 5",
     "3、4 及 5"
    ],
-   "explain": "陳述4 及 5 不正確。陳述4 不正確，因為第1.3段訂明，金錢服務經營者如未有遵守本指引，或會因沒有遵守相關規定而面對根據《打擊洗錢條例》採取的紀律行動及其他行動。陳述5 不正確，因為同段亦訂明，金錢服務經營者不遵從本指引，將對其獨資經營者、合夥人、董事和最終擁有人（如適用）作為適當人選帶有負面影響。陳述1、2 及 3 正確：本指引由關長公布，載列與打擊洗錢及恐怖分子資金籌集相關的法定及監管規定；本指引載列金錢服務經營者為履行《打擊洗錢條例》的法定規定而應遵守的打擊洗錢及恐怖分子資金籌集準則；而本指引的遵行情況會按照《打擊洗錢條例》強制執行。"
+   "explain": "陳述4 及 5 不正確。陳述4 不正確，因為第1.3段訂明，金錢服務經營者如未有遵守本指引，或會因沒有遵守相關規定而面對根據《打擊洗錢條例》採取的紀律行動及其他行動。陳述5 不正確，因為同段亦指出，金錢服務經營者不遵從本指引，可能對其獨資經營者、合夥人、董事和最終擁有人（如適用）作為適當人選帶有負面影響。陳述1、2 及 3 正確：本指引由關長公布，載列與打擊洗錢及恐怖分子資金籌集相關的法定及監管規定；本指引載列金錢服務經營者為履行《打擊洗錢條例》的法定規定而應遵守的打擊洗錢及恐怖分子資金籌集準則；而本指引的遵行情況會按照《打擊洗錢條例》強制執行。"
   },
   "format": "combination"
  },
@@ -4130,9 +4130,9 @@
     "在海關人員要求下披露管有該等物品，如有的話再作出書面申報",
     "在通過管制站前，使用紅通道向海關人員就該等物品作出書面申報",
     "利用海關網上的現金類物品申報系統就該等物品預先申報",
-    "在離境前向聯合財情組就管有該等物品提交報告並保留副本"
+    "在離境前向聯合財富情報組就管有該等物品提交報告"
    ],
-   "explain": "通函解釋，即將離開香港的旅客，與非經指明管制站抵港的旅客一樣，須在海關人員要求下披露是否管有大量現金類物品，如有的話，須作出書面申報。使用紅通道作出書面申報，是經指明管制站抵港旅客的程序，而透過現金類物品申報系統預先申報，則是同一批次屬貨物的大量現金類物品的程序。聯合財情組接收可疑交易報告，通函並無賦予它在申報現金類物品方面任何角色。"
+   "explain": "通函解釋，即將離開香港的旅客，與非經指明管制站抵港的旅客一樣，須在海關人員要求下披露是否管有大量現金類物品，如有的話，須作出書面申報。使用紅通道作出書面申報，是經指明管制站抵港旅客的程序，而透過現金類物品申報系統預先申報，則是同一批次屬貨物的大量現金類物品的程序。聯合財富情報組接收可疑交易報告，通函並無賦予它在申報現金類物品方面任何角色。"
   }
  },
  {
@@ -4325,7 +4325,7 @@
     "Yes, but only if the exchange volume exceeds $8,000 per day",
     "No, provided that it notifies the C&ED of the service annually"
    ],
-   "explain": "s.25: Part 5 does not apply to the Government or to an authorized institution, nor to certain licensed corporations, insurers, insurance intermediaries and SVF licensees operating a money service that is ancillary to their principal business — they are regulated by their own regulators."
+   "explain": "s.25: Part 5 does not apply to the Government or to an authorized institution, nor to certain licensed corporations, insurers, insurance intermediaries and SVF licensees operating a money service that is ancillary to their principal business, nor to a stablecoin licensee whose money service is a business activity under its stablecoin licence — they are regulated by their own regulators."
   },
   "tc": {
    "q": "一間持牌銀行（認可機構）向客戶提供貨幣兌換服務。它是否需要根據《打擊洗錢條例》第5部領取金錢服務經營者牌照？",
@@ -4335,7 +4335,7 @@
     "需要，但只限每日兌換額超過8,000元",
     "不需要，但須每年就該服務通知海關"
    ],
-   "explain": "第25條：第5部不適用於政府及認可機構，亦不適用於經營附帶於其主要業務的金錢服務的若干持牌法團、保險人、保險中介人及儲值支付工具持牌人——他們由本身的監管機構規管。"
+   "explain": "第25條：第5部不適用於政府及認可機構，亦不適用於經營附屬於其主要業務的金錢服務的若干持牌法團、保險人、保險中介人及工具持牌人，以及經營屬其穩定幣牌照下業務活動的金錢服務的穩定幣持牌人——他們由本身的監管機構規管。"
   }
  },
  {
@@ -5811,7 +5811,7 @@
     "It must obtain the Commissioner's written exemption each year",
     "Part 5 applies to it only in respect of remittance, not money changing"
    ],
-   "explain": "Section 25 provides that Part 5 does not apply to the Government, nor to an authorized institution, nor to a licensed corporation, authorized insurer, licensed insurance broker company, licensed individual insurance agent, licensed insurance agency, SVF licensee or certain other bodies that operate a money service ancillary to their principal business."
+   "explain": "Section 25 provides that Part 5 does not apply to the Government or an authorized institution, nor to a licensed corporation, authorized insurer, licensed insurance broker company, licensed individual insurance agent, licensed insurance agency or SVF licensee whose money service is ancillary to its principal business, nor to a system operator or settlement institution of a designated retail payment system whose money service is ancillary to its business as such, nor to a stablecoin licensee whose money service is a business activity under its stablecoin licence."
   },
   "tc": {
    "q": "某持牌法團經營附屬於其主要業務的金錢服務。就《打擊洗錢條例》第5部而言，其處境為何？",
@@ -5821,7 +5821,7 @@
     "須每年取得海關關長的書面豁免",
     "第5部只就匯款（而非貨幣兌換）適用於該法團"
    ],
-   "explain": "第25條訂明第5部並不適用於政府，亦不適用於認可機構，以及經營附屬於其主要業務的金錢服務的持牌法團、認可保險人、持牌保險經紀公司、持牌個人保險代理、持牌保險代理機構、儲值支付工具持牌人及若干其他團體。"
+   "explain": "第25條訂明第5部不適用於政府及認可機構，亦不適用於經營金錢服務的持牌法團、獲授權保險人、持牌保險經紀公司、持牌個人保險代理、持牌保險代理機構或工具持牌人（前提是該服務附屬於其主要業務），經營金錢服務的指定零售支付系統的系統營運者或交收機構（前提是該服務附屬於其作為系統營運者或交收機構的業務），以及經營符合以下說明的金錢服務的穩定幣持牌人：該金錢服務是該持牌人在其穩定幣牌照下的業務活動。"
   }
  },
  {
@@ -20025,28 +20025,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.1(1) (definition of “beneficial owner”, corporation acting for another)",
-   "tc": "《打擊洗錢條例》附表2第1(1)條（「實益擁有人」的定義——代另一人行事的法團）"
+   "en": "AMLO Sch. 2, s.1(1) (definition of “beneficial owner”, corporation acting for another); AML/CFT Guideline ¶4.4.1, ¶4.4.6",
+   "tc": "《打擊洗錢條例》附表2第1(1)條（「實益擁有人」的定義——代另一人行事的法團）；《打擊洗錢及恐怖分子資金籌集指引》第4.4.1及4.4.6段"
   },
   "en": {
-   "q": "A corporate customer is acting on behalf of another person. Who is the beneficial owner under Schedule 2?",
+   "q": "A corporate customer is acting on behalf of an individual. Who is the beneficial owner under Schedule 2?",
    "options": [
-    "That other person on whose behalf it acts",
+    "The individual on whose behalf it acts",
     "The corporation's largest shareholder in any event",
     "The corporation itself, in every case",
     "The corporation's board of directors collectively"
    ],
-   "explain": "Sub-paragraph (a)(ii) of the definition provides that if the corporation is acting on behalf of another person, beneficial owner means that other person. The same structure appears for partnerships in (b)(ii) and for other persons in (d)(ii)."
+   "explain": "Sub-paragraph (a)(ii) of the definition provides that if the corporation is acting on behalf of another person, the beneficial owner is that other person, and ¶4.4.1 of the Guideline makes clear that a beneficial owner is always a natural person: the one who ultimately owns or controls the customer or on whose behalf a transaction is conducted. Where the corporation acts for an individual, that individual is the beneficial owner. The corporation itself cannot be one, being its largest shareholder does not by itself make anyone a beneficial owner, and the board as a body is not the test. The same structure appears for partnerships in (b)(ii) and for other persons in (d)(ii)."
   },
   "tc": {
-   "q": "某公司客戶是代另一人行事。就附表2而言，誰是實益擁有人？",
+   "q": "某公司客戶是代一名個人行事。就附表2而言，誰是實益擁有人？",
    "options": [
-    "該法團代其行事的另一人",
+    "該法團代其行事的該名個人",
     "無論如何均為該法團的最大股東",
     "在任何情況下均為該法團本身",
     "該法團的董事會全體成員"
    ],
-   "explain": "該定義的(a)(ii)節訂明，如該法團是代另一人行事，則「實益擁有人」指該另一人。合夥的(b)(ii)節及其他人的(d)(ii)節採用相同結構。"
+   "explain": "該定義的(a)(ii)節訂明，如該法團是代另一人行事，則「實益擁有人」指該另一人；而《打擊洗錢及恐怖分子資金籌集指引》第4.4.1段清楚說明實益擁有人必屬自然人，即最終擁有、控制客戶或由客戶代其進行交易或活動的自然人。因此，法團代一名個人行事時，該名個人即為實益擁有人。法團本身不能是實益擁有人；單憑身為最大股東並不令人成為實益擁有人；董事會整體亦非有關準則。合夥的(b)(ii)節及其他人的(d)(ii)節採用相同結構。"
   }
  },
  {
@@ -20824,16 +20824,16 @@
   "module": 3,
   "answer": 2,
   "source": {
-   "en": "AMLO Sch. 2, s.1(1) (definition of “beneficial owner”)",
-   "tc": "《打擊洗錢條例》附表2第1(1)條（「實益擁有人」的定義）"
+   "en": "AMLO Sch. 2, s.1(1) (definition of “beneficial owner”); AML/CFT Guideline ¶4.4.1",
+   "tc": "《打擊洗錢條例》附表2第1(1)條（「實益擁有人」的定義）；《打擊洗錢及恐怖分子資金籌集指引》第4.4.1段"
   },
   "en": {
    "q": "Under the definition of “beneficial owner” in section 1(1) of Schedule 2 to the AMLO, which of the following statements are correct?",
    "statements": [
-    "In relation to a corporation, the beneficial owner is the individual who owns or controls the largest single holding of issued share capital in that corporation.",
+    "In relation to a corporation, the beneficial owner is the individual who, directly or indirectly, owns or controls the largest single holding of issued share capital in that corporation.",
     "In relation to a partnership, an individual who is entitled to or controls, directly or indirectly, more than a 25% share of the capital or profits of the partnership is a beneficial owner.",
     "In relation to a trust, the settlor, the trustee, a protector or enforcer of the trust, and an individual who has ultimate control over the trust are all beneficial owners.",
-    "In relation to a person not falling within the corporation, partnership or trust limbs, an individual who ultimately owns or controls the person is a beneficial owner, and so is any person on whose behalf it acts."
+    "In relation to a person not falling within the corporation, partnership or trust limbs, an individual who ultimately owns or controls the person is a beneficial owner, and so is any individual on whose behalf it acts."
    ],
    "options": [
     "1, 2 and 3",
@@ -20842,15 +20842,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 1 is false: for a corporation the threshold in paragraph (a)(i)(A) is more than 25% of the issued share capital, and an individual entitled to exercise or control more than 25% of the voting rights, or who exercises ultimate control over the management, is also a beneficial owner. Statements 2, 3 and 4 are correct: paragraph (b)(i)(A) uses the more-than-25% share of capital or profits test for a partnership; paragraph (c) lists, for a trust, a beneficiary with a vested interest, the settlor, the trustee, a protector or enforcer, and an individual with ultimate control; and paragraph (d) supplies the residual test for any other person."
+   "explain": "Statement 1 is false: for a corporation the threshold in paragraph (a)(i)(A) is more than 25% of the issued share capital, and an individual entitled to exercise or control more than 25% of the voting rights, or who exercises ultimate control over the management, is also a beneficial owner. Statements 2, 3 and 4 are correct: paragraph (b)(i)(A) uses the more-than-25% share of capital or profits test for a partnership; paragraph (c) lists, for a trust, a beneficiary with a vested interest, the settlor, the trustee, a protector or enforcer, and an individual with ultimate control; and paragraph (d) supplies the residual test for any other person, which, read with ¶4.4.1 of the Guideline (a beneficial owner is always a natural person, the one who ultimately owns or controls the customer or on whose behalf a transaction is conducted), covers an individual who ultimately owns or controls that person and an individual on whose behalf it acts."
   },
   "tc": {
    "q": "根據《打擊洗錢條例》附表2第1(1)條「實益擁有人」的定義，下列哪些陳述正確？",
    "statements": [
-    "就法團而言，實益擁有人指在該法團之中持有單一最大的已發行股本權益的個人，而非按百分比計算。",
+    "就法團而言，實益擁有人指在該法團之中直接或間接擁有或控制單一最大的已發行股本權益的個人。",
     "就合夥而言，直接或間接地有權攤分或控制該合夥的資本或利潤的25%以上的個人，屬實益擁有人。",
     "就信託而言，該信託的財產授予人、受託人、保護人或執行人，以及對該信託擁有最終控制權的個人，均屬實益擁有人。",
-    "就不屬法團、合夥或信託的人而言，最終擁有或控制該人的個人屬實益擁有人；如該人是代表另一人行事，則該另一人屬實益擁有人。"
+    "就不屬法團、合夥或信託的人而言，最終擁有或控制該人的個人屬實益擁有人；如該人是代表某名個人行事，該名個人亦屬實益擁有人。"
    ],
    "options": [
     "1、2 及 3",
@@ -20859,7 +20859,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述1 不正確：就法團而言，(a)(i)(A)段的門檻是已發行股本的25%以上，而有權行使或支配25%以上投票權的行使，或行使對法團管理最終控制權的個人，亦屬實益擁有人。陳述2、3 及 4 正確：(b)(i)(A)段就合夥採用攤分或控制資本或利潤25%以上的準則；(c)段就信託列出享有既得權益的受益人、財產授予人、受託人、保護人或執行人，以及擁有最終控制權的個人；(d)段則就其他人訂明剩餘的準則。"
+   "explain": "陳述1 不正確：就法團而言，(a)(i)(A)段的門檻是已發行股本的25%以上，而有權行使或支配25%以上投票權的行使，或行使對法團管理最終控制權的個人，亦屬實益擁有人。陳述2、3 及 4 正確：(b)(i)(A)段就合夥採用攤分或控制資本或利潤25%以上的準則；(c)段就信託列出享有既得權益的受益人、財產授予人、受託人、保護人或執行人，以及擁有最終控制權的個人；(d)段則就其他人訂明剩餘的準則，結合《打擊洗錢及恐怖分子資金籌集指引》第4.4.1段（實益擁有人必屬自然人，即最終擁有、控制客戶或由客戶代其進行交易或活動的自然人），該準則涵蓋最終擁有或控制該人的個人，以及該人代其行事的個人。"
   },
   "format": "combination"
  },
@@ -25070,24 +25070,24 @@
    "tc": "《遞交打擊洗錢及恐怖分子資金籌集政策的指引》（12/2019版）第3項"
   },
   "en": {
-   "q": "Where funding is provided by a third party, what does the AML/CFT Policy guideline require the policy to address?",
+   "q": "In its part on customer due diligence, what does the AML/CFT Policy guideline require the policy to cover where funding is provided by a third party?",
    "options": [
-    "Identifying and verifying the ultimate beneficial owner, including a legal person or trust",
+    "Identifying and verifying the ultimate beneficial owner of a funder such as a legal person or trust",
     "How source of funds and source of wealth measures are incorporated into the EDD process",
     "The procedures for carrying out the Customer Risk Assessment and the applicant's obligation to do so",
     "The consequences of any failure to carry out customer due diligence measures"
    ],
-   "explain": "Item 3 states that funding provided by a third party requires the applicant to identify and verify its ultimate beneficial owner, including legal persons, partnerships, trusts and other legal arrangements, with the policy setting out the procedures and steps taken to comply. SOF/SOW in the EDD process, CRA procedures, and general CDD-failure consequences are separate sub-topics of the same item 3."
+   "explain": "Item 3 states that funding provided by a third party requires the applicant to identify and verify its ultimate beneficial owner, and it names legal persons, partnerships, trusts and other legal arrangements. Read with ¶4.4.1 of the AML/CFT Guideline, under which a beneficial owner is always a natural person, those are the kinds of funder whose beneficial owner must be found, not beneficial owners themselves. The policy must set out the procedures and steps taken to comply. SOF/SOW in the EDD process, CRA procedures, and general CDD-failure consequences are separate sub-topics of the same item 3."
   },
   "tc": {
-   "q": "如資金由第三方提供，《遞交打擊洗錢政策的指引》要求政策處理甚麼？",
+   "q": "《遞交打擊洗錢及恐怖分子資金籌集政策的指引》在客戶盡職審查部分，要求政策就資金由第三方提供的情況涵蓋甚麼？",
    "options": [
-    "識別及核實最終實益擁有人的程序，包括法人、合夥或信託",
-    "資金來源及財富來源措施如何納入加強盡職審查程序",
-    "進行客戶風險評估的程序，以及申請人就此的法定責任",
-    "一般未能完成進行客戶盡職審查措施的有關後果"
+    "識別及核實出資者（例如法人或信託）的最終實益擁有人",
+    "資金來源及財富來源措施如何納入更嚴格的盡職審查程序",
+    "進行客戶風險評估的程序，以及申請人就此的法律責任",
+    "未有執行客戶盡職審查措施時所引致的任何後果"
    ],
-   "explain": "第3項訂明由第三方提供資金，須由申請人識別及核實其最終實益擁有人，包括法人、合夥、信託及其他法律安排；並規定政策須載明為遵從該等規定所採取的程序及步驟。加強盡職審查中的資金來源／財富來源措施、客戶風險評估程序，以及一般未能進行客戶盡職審查的後果，均屬第3項下的其他子課題。"
+   "explain": "第3項訂明由第三方提供資金，須由申請人識別及核實其最終實益擁有人，並提及法人、合夥、信託及其他法律安排。結合《打擊洗錢及恐怖分子資金籌集指引》第4.4.1段（實益擁有人必屬自然人），這些是須追查其實益擁有人的出資者類別，而非實益擁有人本身。政策須載明為遵從該等規定所採取的程序及步驟。更嚴格的盡職審查中的資金來源／財富來源措施、客戶風險評估程序，以及一般未能進行客戶盡職審查的後果，均屬第3項下的其他子課題。"
   }
  },
  {
@@ -25751,8 +25751,8 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Licensing Guide (May 2026) §3.1",
-   "tc": "《牌照指引》（2026年5月）第3.1段"
+   "en": "Licensing Guide (May 2026) §3.1; AMLO s.25",
+   "tc": "《牌照指引》（2026年5月）第3.1段；《打擊洗錢條例》第25條"
   },
   "en": {
    "q": "What does the Licensing Guide say the CCE will do if an applicant has been exempted from the MSO licensing requirements?",
@@ -25762,17 +25762,17 @@
     "The CCE will refer the applicant to the relevant alternative regulator for a licence",
     "The CCE will grant a licence subject to additional conditions"
    ],
-   "explain": "Paragraph 3.1 lists the exempt categories — the Government, authorized institutions, and various licensed bodies operating a money service ancillary to their principal business — and states that the CCE will not accept any application for the grant or renewal of a licence if an applicant has been exempted from the MSO licensing requirements."
+   "explain": "Paragraph 3.1 states that the CCE will not accept any application for the grant or renewal of a licence if an applicant has been exempted from the MSO licensing requirements. The exemptions come from section 25 of the AMLO and cover the Government, authorized institutions, various regulated bodies operating a money service ancillary to their principal business, and a stablecoin licensee whose money service is a business activity under its stablecoin licence."
   },
   "tc": {
    "q": "如申請人已獲豁免遵守金錢服務經營者發牌規定，《牌照指引》訂明海關關長會怎樣做？",
    "options": [
-    "關長不會接受任何批出或續期該牌照的有關申請",
-    "關長會按簡化的條款及條件批出牌照",
+    "關長不會接納其提出的任何批給牌照或牌照續期申請",
+    "關長會按簡化的條款及條件批給牌照",
     "關長會將申請人轉介相關的另一監管機構申領牌照",
-    "關長會在附加額外條件下批出牌照"
+    "關長會在附加額外條件下批給牌照"
    ],
-   "explain": "第3.1段列出獲豁免類別——政府、認可機構，以及經營附屬於其主要業務的金錢服務的各類持牌團體——並訂明如申請人已獲豁免遵守金錢服務經營者發牌規定，關長不會接受任何批出或續期牌照的申請。"
+   "explain": "第3.1段訂明，如申請人已獲豁免遵守金錢服務經營者發牌規定，關長不會接受任何批出或續期牌照的申請。有關豁免源自《打擊洗錢條例》第25條，涵蓋政府、認可機構、經營附屬於其主要業務的金錢服務的各類受規管機構，以及經營屬其穩定幣牌照下業務活動的金錢服務的穩定幣持牌人。"
   }
  },
  {
@@ -26420,14 +26420,14 @@
   "module": 4,
   "answer": 1,
   "source": {
-   "en": "Licensing Guide (May 2026) §4.1",
-   "tc": "《牌照指引》（2026年5月）第4.1段"
+   "en": "Licensing Guide (May 2026) §4.1; AMLO s.30(3), s.31(4)",
+   "tc": "《牌照指引》（2026年5月）第4.1段；《打擊洗錢條例》第30(3)及31(4)條"
   },
   "en": {
-   "q": "Paragraph 4.1 of the Licensing Guide summarises section 30(3) of the AMLO. Which of the following statements about whose fitness and propriety must be established are correct?",
+   "q": "Paragraph 4.1 of the Licensing Guide sets out, under section 30(3) of the AMLO, whose fitness and propriety the CCE must be satisfied of. Which of the following statements are correct?",
    "statements": [
     "The CCE may grant or renew a licence to operate a money service only if satisfied of the matters that section 30(3) sets out for the applicant's business form.",
-    "Where the applicant is an individual, that individual and each ultimate owner must be a fit and proper person to operate a money service.",
+    "Where the applicant is an individual, that individual must be a fit and proper person to operate a money service, whether the licence is being granted or renewed.",
     "Where the applicant is a partnership, only the managing partner need be a fit and proper person, and the remaining partners and ultimate owners are not examined.",
     "Where the applicant is a corporation, each director and each ultimate owner must be a fit and proper person to be associated with the business of operating a money service."
    ],
@@ -26438,13 +26438,13 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 3 is false: paragraph 4.1(b) requires each partner and each ultimate owner in the partnership to be a fit and proper person, so the test is not confined to one managing partner. Statements 1, 2 and 4 are correct: the CCE may grant or renew only if satisfied of the matters set out for the applicant's business form; for an individual applicant the individual and each ultimate owner must be fit and proper to operate a money service; and for a corporation each director and each ultimate owner must be fit and proper to be associated with the business of operating a money service."
+   "explain": "Statement 3 is false: section 30(3)(a)(ii), which paragraph 4.1(b) summarises, requires each partner in the partnership to be a fit and proper person to operate a money service, and any ultimate owner to be fit and proper to be associated with the business of operating a money service, so the test is not confined to one managing partner. Statements 1, 2 and 4 are correct: the CCE may grant or renew only if satisfied of the matters section 30(3) sets out for the applicant's business form (section 31(4) applies them on renewal); for an individual applicant, section 30(3)(a)(i) requires the individual to be fit and proper to operate a money service, on a grant and on a renewal alike; and for a corporation, section 30(3)(a)(iii) requires each director and any ultimate owner to be fit and proper to be associated with the business of operating a money service. Whatever the applicant's business form, an ultimate owner takes the 'associated with the business' test."
   },
   "tc": {
-   "q": "《牌照指引》第4.1段概述《打擊洗錢條例》第30(3)條。關於須確立何人的適當人選資格，下列哪些陳述正確？",
+   "q": "《牌照指引》第4.1段按《打擊洗錢條例》第30(3)條，列出關長須信納哪些人屬適當人選。下列哪些陳述正確？",
    "statements": [
     "關長僅可在信納第30(3)條就申請人的業務形式所列的事宜後，方可批給經營金錢服務的牌照或將牌照續期。",
-    "如申請人屬個人，該名個人及每名最終擁有人均須屬經營金錢服務的適當人選。",
+    "如申請人屬個人，不論是批給牌照或將牌照續期，該名個人均須屬經營金錢服務的適當人選。",
     "如申請人屬合夥，只須主事的合夥人屬適當人選，其餘合夥人及最終擁有人則無須考慮。",
     "如申請人屬法團，該法團的每名董事及每名最終擁有人均須屬與經營金錢服務業務有聯繫的適當人選。"
    ],
@@ -26455,7 +26455,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述3 不正確：第4.1(b)段規定該合夥的每名合夥人及每名最終擁有人均須屬適當人選，該項要求並不限於一名主事的合夥人。陳述1、2 及 4 正確：關長僅可在信納就申請人的業務形式所列的事宜後方可批給牌照或將牌照續期；如申請人屬個人，該名個人及每名最終擁有人均須屬經營金錢服務的適當人選；如申請人屬法團，每名董事及每名最終擁有人均須屬與經營金錢服務業務有聯繫的適當人選。"
+   "explain": "陳述3 不正確：第4.1(b)段所概述的第30(3)(a)(ii)條規定，該合夥的每名合夥人均須屬經營金錢服務的適當人選，而其最終擁有人（如有）須屬與經營金錢服務業務有聯繫的適當人選，該項要求並不限於一名主事的合夥人。陳述1、2 及 4 正確：關長僅可在信納第30(3)條就申請人的業務形式所列的事宜後方可批給牌照或將牌照續期（第31(4)條將該等事宜適用於續期）；如申請人屬個人，第30(3)(a)(i)條規定該名個人須屬經營金錢服務的適當人選，批給牌照及牌照續期皆然；如申請人屬法團，第30(3)(a)(iii)條規定每名董事及最終擁有人（如有）均須屬與經營金錢服務業務有聯繫的適當人選。不論申請人屬何種業務形式，最終擁有人須符合的都是「與經營金錢服務業務有聯繫」的準則。"
   },
   "format": "combination"
  },
@@ -26464,28 +26464,28 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Licensing Guide (May 2026) §4.13",
-   "tc": "《牌照指引》（2026年5月）第4.13段"
+   "en": "Licensing Guide (May 2026) §5.7, §XIV; AMLO Sch. 3, items 4–5",
+   "tc": "《牌照指引》（2026年5月）第5.7段及第XIV節；《打擊洗錢條例》附表3第4及5項"
   },
   "en": {
-   "q": "How is the fit and proper person test fee charged?",
+   "q": "A partnership with two partners, and an ultimate owner who is not a partner, applies for the grant of a licence. How is the fit and proper person test fee charged on the application?",
    "options": [
-    "It is a one-off fee for each applicant subject to the test",
-    "It is charged annually for the life of the licence",
-    "It is charged once per licence application, whatever the number of persons",
-    "It is charged only where the person has not previously been tested"
+    "Once for each of the three persons subject to the test: both partners and the ultimate owner",
+    "Once for the application as a whole, whatever the number of persons who are tested",
+    "Once for each of the two partners, as an ultimate owner is not subject to the test",
+    "Once for the partnership itself, since the partnership is the applicant for the licence"
    ],
-   "explain": "Paragraph 4.13 states that there is a one-off fee for each applicant subject to the fit and proper person test, and the Schedule 3 fee table charges $945 for each person who is subject to the test. Paragraph 4.14 confirms the fee is non-refundable."
+   "explain": "Paragraph 5.7 requires each partner and each ultimate owner of a partnership applicant to apply for the fit and proper person test, and the fee schedule in Section XIV, following item 4 of Schedule 3 to the AMLO, adds HK$945 for each person who is subject to the test, so the fee is charged three times here: once for each partner and once for the ultimate owner. It is not a single charge per application, the ultimate owner is not outside the test, and the partnership is not charged in place of the persons tested. On a renewal the same HK$945 is charged again for each such person (item 5)."
   },
   "tc": {
-   "q": "適當人選測試費用如何收取？",
+   "q": "某合夥有兩名合夥人，另有一名並非合夥人的最終擁有人，現申請批給牌照。該申請的適當人選判定費用如何收取？",
    "options": [
-    "就每名須接受測試的申請人收取一次性費用",
-    "在牌照有效期內按年收取",
-    "每份牌照申請收取一次，不論人數多少",
-    "只就此前未接受過測試的人收取"
+    "就三名須判定的人各收取一次：兩名合夥人及最終擁有人",
+    "整份申請收取一次，不論須判定是否適當人選的人數多少",
+    "就兩名合夥人各收取一次，因最終擁有人毋須判定是否適當人選",
+    "向合夥本身收取一次，因該合夥才是牌照的申請人"
    ],
-   "explain": "第4.13段訂明就每名須接受適當人選測試的申請人收取一次性費用；附表3費用表就每名須接受測試的人收取945元。第4.14段確認該費用不獲退還。"
+   "explain": "第5.7段規定，如申請人屬合夥，合夥的每名合夥人及每名最終擁有人均須申請進行適當人選判定；而依照《打擊洗錢條例》附表3第4項的第XIV節收費表，就每一個須判定是否適當人選的人另加945元，因此本例須收取三次：兩名合夥人及該最終擁有人各一次。費用並非按每份申請收取一次，最終擁有人亦須接受判定，也不是向合夥本身收取以代替受判定的人。續期時，亦會就每名該等人士再收取945元（第5項）。"
   }
  },
  {
@@ -27117,7 +27117,7 @@
    "statements": [
     "On receipt of a licence application the applicant is given an acknowledgment receipt, and a reminder for any outstanding documents is issued where necessary.",
     "Where an applicant fails to provide the requisite information or documents within a specified period, the application is considered invalid and will not be processed by C&ED.",
-    "Once all the requisite documents are submitted the applicant receives an invitation letter for nominating the eligible persons, the demand note for the fees following within 14 days.",
+    "Once all the requisite documents are submitted the applicant receives an invitation letter to nominate eligible persons, who may be any of its staff members authorized in writing.",
     "At the interview the original documents and the payment record are verified, and the applicant must sign the application in the presence of the C&ED officers."
    ],
    "options": [
@@ -27127,15 +27127,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 3 is false: paragraph 5.4 states that when all the requisite documents are submitted the applicant receives a notice for an interview together with a demand note for the licence and fit and proper person test fees, as well as the invitation letter for nominating the eligible persons, so the demand note is issued at the same time. Statements 1, 2 and 4 are correct: an acknowledgment receipt is issued on receipt of the application, with a reminder for outstanding documents where necessary; an application whose requisite information or documents are not provided within a specified period is invalid and will not be processed; and at the interview the original documents and the payment record are verified and the applicant signs the application before the C&ED officers."
+   "explain": "Statement 3 is false: paragraph 5.4 describes the invitation letter as one for nominating the eligible persons, i.e. the sole proprietor, partners or directors of the applicant; a staff member authorized in writing may attend the licensing interview under paragraph 5.5, but is not an eligible person for the Assessment. Statements 1, 2 and 4 are correct: an acknowledgment receipt is issued on receipt of the application, with a reminder for outstanding documents where necessary; an application whose requisite information or documents are not provided within a specified period is invalid and will not be processed; and at the interview the original documents and the payment record are verified and the applicant signs the application before the C&ED officers."
   },
   "tc": {
    "q": "根據《牌照指引》第5.4段，關於牌照申請書的處理，下列哪些陳述正確？",
    "statements": [
     "海關收到牌照申請書後會向申請人發出確認收到申請書通知，並在有需要時發信催交尚欠文件。",
     "如申請人未能在指明期限內提供所需資料或遞交所需文件，該申請會被視作無效，不會獲海關處理。",
-    "申請人遞交全部所需文件後，會收到邀請提名合資格人士應考能力評核的信件，繳費單則於其後14日內發出。",
-    "申請人須在會面時讓本署人員查驗文件的正本及繳費紀錄，並在海關人員面前於牌照申請書上簽署。"
+    "申請人遞交全部所需文件後，會收到邀請提名合資格人士應考的信件，任何獲書面授權的員工均可獲提名。",
+    "海關人員會在會面時查驗文件的正本及繳費紀錄，而申請人須在海關人員面前於牌照申請書上簽署。"
    ],
    "options": [
     "1、2 及 3",
@@ -27144,7 +27144,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述3 不正確：第5.4段訂明申請人遞交全部所需文件後，會收到會面通知及申請批給牌照及適當人選判定費用的繳費單，並同時收到邀請提名合資格人士應考能力評核的信件，故繳費單是一併發出的。陳述1、2 及 4 正確：海關收到申請書後會發出確認收到申請書通知，並在有需要時發信催交尚欠文件；未能在指明期限內提供所需資料或文件的申請會被視作無效而不獲處理；申請人亦須在會面時讓人員查驗文件正本及繳費紀錄，並在海關人員面前於申請書上簽署。"
+   "explain": "陳述3 不正確：第5.4段所指的是邀請提名合資格人士（即申請人的獨資經營者、合夥人或董事）應考能力評核的信件；獲書面授權的員工可按第5.5段出席發牌會面，但並非應考能力評核的合資格人士。陳述1、2 及 4 正確：海關收到申請書後會發出確認收到申請書通知，並在有需要時發信催交尚欠文件；未能在指明期限內提供所需資料或文件的申請會被視作無效而不獲處理；申請人亦須在會面時讓人員查驗文件正本及繳費紀錄，並在海關人員面前於申請書上簽署。"
   },
   "format": "combination"
  },
@@ -27688,7 +27688,7 @@
     "A licensee must submit the application for renewal (Form 2), the supplementary information sheet and the relevant annex, together with the fit and proper person declaration forms.",
     "The number of fit and proper person declaration forms submitted is subject to the number of persons required for the fit and proper person test.",
     "The renewal submission must also include the licensee's Business Plan, its AML Policy and photocopies of the requisite documents, and may be made by post, in person or via C&ED's website.",
-    "Once all the requisite documents are found to be in order, a notice for an interview and a demand note are issued, and the fees paid are refunded if renewal is refused."
+    "Once all the requisite documents are found to be in order, a notice for an interview is issued, and the fees paid are refunded if the renewal is refused."
    ],
    "options": [
     "1, 2 and 3",
@@ -27697,7 +27697,7 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 4 is false: paragraph 6.3 states that the notice for an interview is issued together with a demand note for payment of the respective fees, which are non-refundable, so no refund follows a refusal. Statements 1, 2 and 3 are correct: the renewal application on Form 2 goes in with the supplementary information sheet, the relevant annex and the fit and proper person declaration forms; the number of those forms depends on the number of persons required for the fit and proper person test; and the Business Plan, AML Policy and photocopies of the requisite documents must accompany them, the whole being submitted by post, in person or via C&ED's website."
+   "explain": "Statement 4 is false: paragraph 6.3 states that the notice for an interview is issued once all the requisite documents are found to be in order, and that the fees are non-refundable, so no refund follows a refusal. Statements 1, 2 and 3 are correct: the renewal application on Form 2 goes in with the supplementary information sheet, the relevant annex and the fit and proper person declaration forms; the number of those forms depends on the number of persons required for the fit and proper person test; and the Business Plan, AML Policy and photocopies of the requisite documents must accompany them, the whole being submitted by post, in person or via C&ED's website."
   },
   "tc": {
    "q": "根據《牌照指引》第6.3段，關於持牌人如何為牌照續期，下列哪些陳述正確？",
@@ -27705,7 +27705,7 @@
     "持牌人須遞交申請金錢服務經營者牌照續期表格（表格2）、補充資料表格及相關附件，連同適當人選聲明表格。",
     "所須遞交的適當人選聲明表格的有關數目，須視乎須進行適當人選判定的有關人數的多寡而定。",
     "續期申請亦須連同持牌人的業務計劃、打擊洗錢政策及所需文件的複本一併遞交，並可郵寄、親自或透過海關的網址遞交。",
-    "如全部所需文件確認符合要求，關長會發出會面通知連同繳費單；如續期申請被拒，已繳付的費用可獲退還。"
+    "如全部所需文件確認符合要求，關長會向持牌人發出會面通知；如續期申請被拒，已繳付的費用可獲退還。"
    ],
    "options": [
     "1、2 及 3",
@@ -27714,7 +27714,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述4 不正確：第6.3段訂明關長會發出會面通知連同繳付有關費用的繳費單，而所繳付的費用概不退還，故申請被拒亦不獲退款。陳述1、2 及 3 正確：續期申請須以表格2連同補充資料表格、相關附件及適當人選聲明表格遞交；該等聲明表格的數目視乎須進行適當人選判定的人數而定；業務計劃、打擊洗錢政策及所需文件的複本亦須一併遞交，並可郵寄、親自或透過海關的網址遞交。"
+   "explain": "陳述4 不正確：第6.3段訂明，全部所需文件確認符合要求後，關長會向持牌人發出會面通知，而所繳付的費用概不退還，故申請被拒亦不獲退款。陳述1、2 及 3 正確：續期申請須以表格2連同補充資料表格、相關附件及適當人選聲明表格遞交；該等聲明表格的數目視乎須進行適當人選判定的人數而定；業務計劃、打擊洗錢政策及所需文件的複本亦須一併遞交，並可郵寄、親自或透過海關的網址遞交。"
   },
   "format": "combination"
  },
@@ -27971,28 +27971,28 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Licensing Guide (May 2026) §6.3",
-   "tc": "《牌照指引》（2026年5月）第6.3段"
+   "en": "Licensing Guide (May 2026) §6.3; AMLO s.31(2)(c)",
+   "tc": "《牌照指引》（2026年5月）第6.3段；《打擊洗錢條例》第31(2)(c)條"
   },
   "en": {
    "q": "What does the C&ED issue when all requisite renewal documents are found to be in order?",
    "options": [
-    "A notice for an interview and a demand note for fees, which are non-refundable",
+    "A notice for an interview, with the fees already paid being non-refundable",
     "The renewed licence, issued immediately without an interview",
     "A provisional renewal permit valid for 90 days pending the interview",
-    "A written confirmation under s.6.3 that no interview is required for renewal"
+    "A written confirmation that no interview is required for the renewal of the licence"
    ],
-   "explain": "Paragraph 6.3 states that when all the requisite documents are found to be in order, the CCE will issue a notice for an interview together with a demand note for payment of the respective fees, which are non-refundable. There is no immediate renewal without interview, no 90-day provisional permit (90 days is instead the reminder period before expiry under paragraph 6.2), and no confirmation waiving the interview."
+   "explain": "Paragraph 6.3 states that when all the requisite documents are found to be in order, the CCE will issue a notice for an interview to the licensee, and that the fees are non-refundable; the fee itself must accompany the renewal application under section 31(2)(c) of the AMLO. There is no immediate renewal without interview, no 90-day provisional permit (90 days is instead the reminder period before expiry under paragraph 6.2), and no confirmation waiving the interview."
   },
   "tc": {
    "q": "當所有所需的續期文件齊備妥當時，香港海關會發出甚麼？",
    "options": [
-    "面談通知，連同繳付有關費用（不獲退還）的繳費通知書",
-    "即時發出已續期的牌照，完全無須進行任何面談",
-    "發出有效期90日的臨時續期許可證，以待安排面談",
-    "發出書面確認，訂明毋須進行續期面談（第6.3段）"
+    "向持牌人發出會面通知，所繳付的費用概不退還",
+    "即時發出已續期的牌照，無須進行會面",
+    "發出有效期90日的臨時續期許可證，以待安排會面",
+    "發出書面確認，訂明牌照續期無須進行會面"
    ],
-   "explain": "第6.3段訂明，當所有所需文件齊備妥當時，關長會向持牌人發出面談通知，連同繳付有關費用的繳費通知書；該等費用不獲退還。並無即時無須面談的續期、並無90日臨時許可（90日其實是第6.2段牌照屆滿前發出提示的期間），亦無豁免面談的書面確認。"
+   "explain": "第6.3段訂明，當所有所需文件確認符合要求時，關長會向持牌人發出會面通知，而所繳付的費用概不退還；根據《打擊洗錢條例》第31(2)(c)條，續期申請本身須附隨附表3指明的費用。並無即時無須會面的續期、並無90日臨時許可（90日其實是第6.2段牌照屆滿前發出提示的期間），亦無豁免會面的書面確認。"
   }
  },
  {
@@ -28033,24 +28033,24 @@
    "tc": "《牌照指引》（2026年5月）第5.4段"
   },
   "en": {
-   "q": "What does an applicant receive on the C&ED's receipt of a licence application?",
+   "q": "What does an applicant receive first when C&ED receives a licence application?",
    "options": [
     "An acknowledgment receipt, with a reminder issued if any documents are outstanding",
-    "A notice for an interview, together with a demand note for the licence fee within 45 days",
+    "A notice to attend an interview at the allotted time, bringing the original documents",
     "An invitation letter to nominate eligible persons to attend the Assessment",
     "An appointment letter fixing the date, time and centre for the Assessment"
    ],
-   "explain": "Paragraph 5.4 states that on receipt of a licence application, C&ED issues an acknowledgment receipt of the application, with a reminder for outstanding documents issued where necessary. The interview notice and demand note, the invitation letter to nominate eligible persons, and the Assessment appointment letter are all issued at later stages of the same paragraph's process — once all requisite documents are submitted, or after the interview — not on mere receipt."
+   "explain": "Paragraph 5.4 states that on receipt of a licence application, C&ED issues an acknowledgment receipt of the application, with a reminder for outstanding documents issued where necessary. The notice for an interview and the invitation letter to nominate eligible persons come only once all the requisite documents have been submitted, and the Assessment appointment letter later still — none of them on mere receipt of the application."
   },
   "tc": {
-   "q": "香港海關接獲牌照申請後，申請人會收到甚麼？",
+   "q": "香港海關接獲牌照申請時，申請人首先會收到甚麼？",
    "options": [
-    "申請的收妥通知，如有需要，並發提示要求提交欠交文件",
-    "面談通知，連同繳付牌照費用的繳費通知書（45日內）",
-    "邀請提名合資格人士出席應考能力評核的邀請信",
+    "確認收到申請書的通知，如有需要，另發信催交尚欠文件",
+    "於編配的時間出席會面的通知，並須帶同文件正本",
+    "邀請提名合資格人士應考能力評核的信件",
     "預約應考能力評核的日期、時間及試場的信件"
    ],
-   "explain": "第5.4段訂明，香港海關接獲牌照申請後，會向申請人發出收妥通知；如有需要，並會發出提示要求提交任何欠交的文件。面談通知連同繳費通知書、提名合資格人士的邀請信，以及預約能力評核的信件，均屬同一段所述較後階段（提交所有所需文件後或面談後）才發出的文件，並非接獲申請時即發出。"
+   "explain": "第5.4段訂明，香港海關接獲牌照申請後，會向申請人發出確認收到申請書通知；如有需要，會發信催交尚欠文件。會面通知及提名合資格人士的邀請信，須待申請人遞交全部所需文件後才會發出，預約應考能力評核的信件則更後才發出——均非接獲申請時即發出。"
   }
  },
  {
@@ -28831,28 +28831,28 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Licensing Guide (May 2026) §11.1(h)",
-   "tc": "《牌照指引》（2026年5月）第11.1(h)段"
+   "en": "Licensing Guide (May 2026) §4.15(b); Guidance Notes on the Competence Assessment (Dec 2022) ¶3.1, ¶8.2",
+   "tc": "《牌照指引》（2026年5月）第4.15(b)段；《能力評核須知》（2022年12月）第3.1及8.2段"
   },
   "en": {
-   "q": "What continuing obligation does the Licensing Guide impose in relation to the Competence Assessment?",
+   "q": "What does the Licensing Guide require of an applicant or a licensee in relation to the Competence Assessment?",
    "options": [
-    "At least one senior management member — sole proprietor, partner or director — must have attended the Assessment",
-    "Every member of senior management, not merely one, must have passed rather than attended the Assessment within 30 days",
-    "The compliance officer, rather than the sole proprietor, partner or director, must have attended the Assessment",
+    "At least one senior management member — sole proprietor, partner or director — must have passed the Assessment",
+    "Every member of senior management, not merely one of them, must have passed the Assessment within 30 days",
+    "The compliance officer, rather than the sole proprietor, partner or director, must have passed the Assessment",
     "All staff, not only senior management, must attend the Assessment within 30 days of the C&ED interview"
    ],
-   "explain": "Paragraph 11.1(h) lists among a licensee's obligations that it must ensure at least one of the members of the senior management — that is, the sole proprietor, partner or director — has attended the Assessment. The Guidance Notes require passing (not merely attending) by at least one member, not every member; the compliance officer is not part of this senior-management list; and the 30-day/interview timeline (Guidance Notes ¶4.5) governs eligible persons for a new licence application, not all staff."
+   "explain": "Paragraph 4.15(b) requires the sole proprietor, or any one of the partners or directors, of an applicant or a licensee to pass the Competence Assessment conducted by the C&ED, and the Guidance Notes put the same rule as at least one member of the senior management passing it (¶3.1); once the licensee no longer has such a member who passed, its company-based qualification is void (¶8.2). One member must pass, not every member; the compliance officer is not part of this senior-management list; and the 30-day/interview timeline (Guidance Notes ¶4.5) governs eligible persons for a new licence application, not all staff."
   },
   "tc": {
-   "q": "《牌照指引》就能力評核施加甚麼持續責任？",
+   "q": "《牌照指引》就能力評核對申請人或持牌人有何要求？",
    "options": [
-    "高級管理層（獨資經營者、合夥人或董事）中至少一名成員須曾參加能力評核",
-    "高級管理層每名成員（而非僅一名）均須通過（而非只曾參加）能力評核（30日內）",
-    "須曾參加能力評核的是合規主任，而非獨資經營者、合夥人或董事",
-    "全體員工（而非只限高級管理層）均須於與海關會面後30日內參加能力評核"
+    "至少一名高級管理層成員（獨資經營者、合夥人或董事）須已在能力評核取得合格成績",
+    "高級管理層每名成員（而非僅一名）均須於30日內在能力評核取得合格成績",
+    "須在能力評核取得合格成績的是合規主任，而非獨資經營者、合夥人或董事",
+    "全體員工（而非只限高級管理層）均須於與海關會面後30日內應考能力評核"
    ],
-   "explain": "第11.1(h)段在持牌人的責任中列明，持牌人須確保其高級管理層（即獨資經營者、合夥人或董事）中至少一名成員曾參加能力評核。《須知》要求的是至少一名成員「通過」（而非只是參加）評核，並非每名成員；合規主任並不屬於此處的高級管理層名單；而《須知》第4.5段所訂的30日／會面時限，規管的是新申請的合資格人士，並非所有員工。"
+   "explain": "《牌照指引》第4.15(b)段規定，申請人或持牌人的獨資經營者、任何一名合夥人及董事必須在由海關舉行的能力評核取得合格成績；《能力評核須知》第3.1段亦訂明高級管理層中必須有最少一名成員在能力評核取得合格成績，而第8.2段訂明，如持牌人的高級管理層中不再有最少一名成員取得合格成績，此項以公司為單位的資格即自動失效。須取得合格成績的是最少一名成員，並非每名成員；合規主任並不屬於此處的高級管理層名單；而《須知》第4.5段所訂的30日／會面時限，規管的是新申請的合資格人士，並非所有員工。"
   }
  },
  {
@@ -29063,15 +29063,15 @@
   "module": 4,
   "answer": 1,
   "source": {
-   "en": "Licensing Guide (May 2026) §11.1",
-   "tc": "《牌照指引》（2026年5月）第11.1段"
+   "en": "Licensing Guide (May 2026) §11.1, §4.15(b)",
+   "tc": "《牌照指引》（2026年5月）第11.1及4.15(b)段"
   },
   "en": {
-   "q": "According to paragraph 11.1 of the Licensing Guide, which of the following statements about the obligations of a licensee are correct?",
+   "q": "According to the Licensing Guide, which of the following statements about the obligations of a licensee are correct?",
    "statements": [
     "A licensee must report on suspicious transactions and must develop and maintain an effective AML Policy to mitigate ML/TF risks.",
     "A licensee licensed to operate a money service at premises specified in the licence must display the original of the licence in a conspicuous place at those premises.",
-    "A licensee must ensure that its Compliance Officer, rather than any member of the senior management, has attended the Assessment.",
+    "A licensee must ensure that its Compliance Officer, rather than any member of the senior management, has passed the Assessment.",
     "Where a bank account is used for the money service business, it must be in the name of the licensee's company, the sole proprietor, partner, director or ultimate owner of the licensee."
    ],
    "options": [
@@ -29081,14 +29081,14 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 3 is false: paragraph 11.1(h) requires a licensee to ensure that at least one member of the senior management, i.e. the sole proprietor, a partner or a director, has attended the Assessment; the Compliance Officer is not the person that obligation names. Statements 1, 2 and 4 are correct: paragraph 11.1(a) and (b) require a licensee to report on suspicious transactions and to develop and maintain an effective AML Policy to mitigate ML/TF risks; paragraph 11.1(e) requires a licensee licensed to operate at premises specified in the licence to display the original of the licence in a conspicuous place at those premises; and paragraph 11.1(j) requires any bank account used for the business to be in the name of the licensee's company, the sole proprietor, partner, director or ultimate owner of the licensee."
+   "explain": "Statement 3 is false: paragraph 11.1(h) places the Assessment obligation on the senior management, i.e. the sole proprietor, a partner or a director, and paragraph 4.15(b) requires at least one of them to pass the Assessment; the Compliance Officer is not the person that obligation names. Statements 1, 2 and 4 are correct: paragraph 11.1(a) and (b) require a licensee to report on suspicious transactions and to develop and maintain an effective AML Policy to mitigate ML/TF risks; paragraph 11.1(e) requires a licensee licensed to operate at premises specified in the licence to display the original of the licence in a conspicuous place at those premises; and paragraph 11.1(j) requires any bank account used for the business to be in the name of the licensee's company, the sole proprietor, partner, director or ultimate owner of the licensee."
   },
   "tc": {
-   "q": "根據《牌照指引》第11.1段，關於持牌人的責任，下列哪些陳述正確？",
+   "q": "根據《牌照指引》，關於持牌人的責任，下列哪些陳述正確？",
    "statements": [
     "持牌人必須報告可疑交易，並必須制訂並維持有效的打擊洗錢政策，以減低洗錢或恐怖分子資金籌集風險。",
     "領有牌照在牌照指明的處所經營金錢服務的持牌人，須在該指明處所內的一處顯眼地方展示該牌照的正本。",
-    "持牌人須確保其合規主任（而非其高級管理層的任何一名成員）已經應考該項有關能力評核。",
+    "持牌人須確保其合規主任（而非其高級管理層的任何一名成員）已在能力評核取得合格成績。",
     "如有使用銀行帳戶經營金錢服務業務，該帳戶必須屬持牌人公司、獨資經營者、合夥人、董事或最終擁有人名下。"
    ],
    "options": [
@@ -29098,7 +29098,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述3 不正確：第11.1(h)段規定持牌人必須確保高級管理層（即獨資經營者、合夥人或董事）中有最少一名成員已應考能力評核；該項責任所指的並非合規主任。陳述1、2 及 4 正確：第11.1(a)及(b)段規定持牌人必須報告可疑交易，並制訂並維持有效的打擊洗錢政策以減低洗錢或恐怖分子資金籌集風險；第11.1(e)段規定領有牌照在牌照指明的處所經營金錢服務的持牌人，須在該指明處所內的一處顯眼地方展示牌照正本；第11.1(j)段規定用以經營金錢服務業務的銀行帳戶必須屬持牌人公司、持牌人的獨資經營者、合夥人、董事或最終擁有人名下。"
+   "explain": "陳述3 不正確：第11.1(h)段將能力評核的責任加諸高級管理層（即獨資經營者、合夥人或董事），而第4.15(b)段規定其中最少一名成員須在能力評核取得合格成績；該項責任所指的並非合規主任。陳述1、2 及 4 正確：第11.1(a)及(b)段規定持牌人必須報告可疑交易，並制訂並維持有效的打擊洗錢政策以減低洗錢或恐怖分子資金籌集風險；第11.1(e)段規定領有牌照在牌照指明的處所經營金錢服務的持牌人，須在該指明處所內的一處顯眼地方展示牌照正本；第11.1(j)段規定用以經營金錢服務業務的銀行帳戶必須屬持牌人公司、持牌人的獨資經營者、合夥人、董事或最終擁有人名下。"
   },
   "format": "combination"
  },
@@ -29762,15 +29762,15 @@
   "module": 4,
   "answer": 1,
   "source": {
-   "en": "Guidance Notes on the Competence Assessment (Dec 2022) ¶4.4",
-   "tc": "《能力評核須知》（2022年12月）第4.4段"
+   "en": "Guidance Notes on the Competence Assessment (Dec 2022) ¶4.2, ¶4.4(i) and (iii); Licensing Guide (May 2026) §6.2, §6.4(c)",
+   "tc": "《能力評核須知》（2022年12月）第4.2段及第4.4(i)及(iii)段；《牌照指引》（2026年5月）第6.2及6.4(c)段"
   },
   "en": {
-   "q": "According to paragraph 4.4 of the Guidance Notes on the Competence Assessment, which of the following statements about the nomination of eligible persons to attend the Assessment are correct?",
+   "q": "Under the Guidance Notes on the Competence Assessment and the Licensing Guide, which of the following statements about the nomination of eligible persons to attend the Assessment are correct?",
    "statements": [
-    "Nomination of eligible persons to attend the Assessment is made by a licence applicant or a licensee only once, and only in the circumstances that the paragraph lists.",
+    "Where the licensee is a corporation, no more than three of its directors, who must be natural persons, can be nominated for the Assessment.",
     "A nomination is made by a licence applicant where a new licence application is filed with the Customs and Excise Department.",
-    "A nomination is made within 90 days before the expiry of the licence even where the licensee already has an eligible person who has passed the Assessment.",
+    "At renewal, a licensee that already has an eligible person who has passed the Assessment is exempt from nominating anyone to attend it.",
     "A nomination is made upon notification by a licensee of the deletion of the only eligible person who has passed the Assessment."
    ],
    "options": [
@@ -29780,14 +29780,14 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 3 is false: paragraph 4.4(ii) provides for a nomination within 90 days before the expiry of the licence only where the licensee has no eligible person who has passed the Assessment. Statements 1, 2 and 4 are correct: paragraph 4.4 states that nomination would be made by a licence applicant or a licensee only for once and under the listed circumstances, namely where a new licence application is filed, within 90 days before expiry where the licensee has no eligible person who has passed, and upon notification by a licensee of the deletion of the only eligible person who has passed the Assessment."
+   "explain": "Statement 3 is false: under paragraph 6.2 of the Licensing Guide the reminder enclosing the invitation letter for nominating eligible persons goes to each licensee 90 days before expiry, and under paragraph 6.4(c) the renewal application is invalid if the licensee fails to nominate any eligible person within seven days of receiving that letter; no exemption is made for a licensee that already has someone who has passed. Statements 1, 2 and 4 are correct: under paragraph 4.2 of the Guidance Notes not more than three directors of a corporation, who must be natural persons, can be nominated; and paragraph 4.4 provides for a nomination by a licence applicant when a new licence application is filed, and by a licensee upon notification of the deletion of the only eligible person who has passed the Assessment."
   },
   "tc": {
-   "q": "根據《能力評核須知》第4.4段，關於提名合資格人士應考能力評核，下列哪些陳述正確？",
+   "q": "根據《能力評核須知》及《牌照指引》，關於提名合資格人士應考能力評核，下列哪些陳述正確？",
    "statements": [
-    "牌照申請人／持牌人僅限提名合資格人士應考能力評核一次，並只限在該段所列的情況下提名。",
+    "如持牌人屬法團，可獲提名應考能力評核的董事（必須屬自然人）不得超過三名。",
     "牌照申請人如已向香港海關遞交新的牌照申請，即須就此作出提名。",
-    "即使持牌人已有合資格人士在能力評核取得合格成績，仍須在牌照有效期屆滿前90日內作出提名。",
+    "續牌時，如持牌人已有合資格人士在能力評核取得合格成績，即獲豁免提名任何人應考。",
     "持牌人具報唯一在能力評核取得合格成績的合資格人士已卸任時，須作出提名。"
    ],
    "options": [
@@ -29797,7 +29797,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述3不正確：第4.4(ii)段訂明，只有在牌照有效期屆滿前90日內，而持牌人已沒有合資格人士在能力評核取得合格成績的情況下，才作出提名。陳述1、2及4正確：第4.4段訂明，牌照申請人／持牌人僅限在所列情況下提名合資格人士應考能力評核一次，即已遞交新的牌照申請；在牌照有效期屆滿前90日內而持牌人已沒有合資格人士取得合格成績；以及持牌人已具報唯一在能力評核取得合格成績的合資格人士已卸任。"
+   "explain": "陳述3 不正確：根據《牌照指引》第6.2段，本署會在牌照有效期屆滿前90日向每名持牌人發出提示通知，並夾附信件邀請提名合資格人士應考能力評核；根據第6.4(c)段，持牌人如未有在接獲邀請信當日起計7日內提名任何合資格人士應考能力評核，其續牌申請即屬無效——已有人取得合格成績的持牌人並不獲豁免。陳述1、2 及 4 正確：根據《能力評核須知》第4.2段，法團可獲提名應考的董事必須屬自然人，且不得超過三名；第4.4段則訂明，牌照申請人在遞交新的牌照申請時，以及持牌人具報唯一在能力評核取得合格成績的合資格人士已卸任時，均須作出提名。"
   },
   "format": "combination"
  },
@@ -29806,8 +29806,8 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Guidance Notes on the Competence Assessment (Dec 2022) ¶4.5",
-   "tc": "《能力評核須知》（2022年12月）第4.5段"
+   "en": "Guidance Notes on the Competence Assessment (Dec 2022) ¶4.5; Licensing Guide (May 2026) §6.2",
+   "tc": "《能力評核須知》（2022年12月）第4.5段；《牌照指引》（2026年5月）第6.2段"
   },
   "en": {
    "q": "For the grant of a licence, within what period must the eligible persons attend the Assessment?",
@@ -29815,19 +29815,19 @@
     "Within 30 days of the interview with C&ED officers",
     "Within 30 days of submitting the licence application",
     "Within 90 days of attending the interview with C&ED officers",
-    "Within 30 days of the issue of the renewal reminder letter"
+    "Within 30 days of receiving the renewal invitation letter"
    ],
-   "explain": "Paragraph 4.5 states that for granting an MSO licence, the eligible persons of the licence applicant shall attend the Assessment within 30 days of attending the interview with the officers of the C&ED — the period is 30 days, not 90, and it runs from the interview, not from submitting the application or from a reminder letter, which is instead the trigger for renewal under paragraph 4.6."
+   "explain": "Paragraph 4.5 states that for granting an MSO licence, the eligible persons of the licence applicant shall attend the Assessment within 30 days of attending the interview with the officers of the C&ED — the period is 30 days, not 90, and it runs from the interview, not from submitting the application. Receipt of the invitation letter is instead what starts the 30 days on a renewal, under paragraph 6.2 of the Licensing Guide."
   },
   "tc": {
-   "q": "就批出牌照而言，合資格人士須於甚麼期限內參加評核？",
+   "q": "就批給牌照而言，合資格人士須於甚麼期限內應考能力評核？",
    "options": [
-    "與香港海關人員面談後30日內",
-    "於提交牌照申請後30日內",
-    "於與香港海關人員面談後90日內",
-    "於發出續期提示信後30日內"
+    "於與香港海關人員會面後30日內",
+    "於遞交牌照申請後30日內",
+    "於與香港海關人員會面後90日內",
+    "於接獲續期邀請信後30日內"
    ],
-   "explain": "第4.5段訂明就批出金錢服務經營者牌照而言，牌照申請人的合資格人士須於與香港海關人員面談後30日內參加評核——期限為30日而非90日，並由面談起計，而非由提交申請起計；提示信發出則是第4.6段續牌時的觸發事件。"
+   "explain": "第4.5段訂明，就批給金錢服務經營者牌照而言，牌照申請人的合資格人士必須在與香港海關人員會面當日起計30日內應考能力評核——期限為30日而非90日，並由會面起計，而非由遞交申請起計；接獲邀請信則是《牌照指引》第6.2段所訂續牌時30日期間的起計點。"
   }
  },
  {
@@ -29864,28 +29864,28 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Guidance Notes on the Competence Assessment (Dec 2022) ¶4.6",
-   "tc": "《能力評核須知》（2022年12月）第4.6段"
+   "en": "Licensing Guide (May 2026) §6.2; Guidance Notes on the Competence Assessment (Dec 2022) ¶4.5",
+   "tc": "《牌照指引》（2026年5月）第6.2段；《能力評核須知》（2022年12月）第4.5段"
   },
   "en": {
    "q": "For renewing a licence, from what event does the 30-day period for attending the Assessment run?",
    "options": [
-    "At the issue of the reminder letter",
+    "At receipt of the invitation letter",
     "At the submission of the renewal application",
     "At the interview with C&ED officers",
     "At the expiry of the existing licence"
    ],
-   "explain": "Paragraph 4.6 states that for renewing an MSO licence, the eligible persons of the licensee shall attend the Assessment within 30 days upon the issue of the reminder letter, delivered 90 days before the licence's expiry. The interview with C&ED officers is instead the trigger for a first grant under paragraph 4.5; submitting the renewal application and the licence's eventual expiry are not the trigger."
+   "explain": "Paragraph 6.2 of the Licensing Guide states that the nominated eligible persons will attend the Assessment within 30 days upon receipt of the invitation letter, which the department sends with the renewal reminder to each licensee 90 days before expiry; the seven-day period for nominating them runs from the same receipt. The interview with C&ED officers is instead the trigger for a first grant under paragraph 4.5 of the Guidance Notes; submitting the renewal application and the licence's eventual expiry are not the trigger."
   },
   "tc": {
-   "q": "就續期牌照而言，出席評核的30日期間自哪一事件起計？",
+   "q": "就牌照續期而言，應考能力評核的30日期間自哪一事件起計？",
    "options": [
-    "提示信發出之時",
-    "提交續期申請之時",
-    "與海關人員面談之時",
+    "接獲邀請信之時",
+    "遞交續期申請之時",
+    "與海關人員會面之時",
     "現有牌照屆滿之時"
    ],
-   "explain": "第4.6段訂明就續期金錢服務經營者牌照而言，持牌人的合資格人士須於提示信發出後30日內參加評核，該信會在牌照屆滿前90日送達。與海關人員面談是第4.5段批出新牌照的觸發事件，並非續期的觸發事件；提交續期申請及牌照屆滿本身均非觸發事件。"
+   "explain": "《牌照指引》第6.2段訂明，獲提名應考能力評核的合資格人士將在接獲邀請信當日起計30日內應考；該邀請信夾附於本署在牌照有效期屆滿前90日向每名持牌人發出的提示通知內，而提名的7日期限亦由同一接獲日起計。與海關人員會面是《能力評核須知》第4.5段批給新牌照的觸發事件，並非續期的觸發事件；遞交續期申請及牌照屆滿本身均非觸發事件。"
   }
  },
  {
@@ -30093,17 +30093,17 @@
     "A licence in its own right, issued directly by the CCE under section 30 of the AMLO itself",
     "A qualification valid for five years from the date of the result, renewable on written application"
    ],
-   "explain": "Paragraph 8.1 states that a pass in the Assessment is considered by the CCE to be a company-based qualification, which is also one of the F&P person statuses to be associated with the business of operating a money service — it is not a personal qualification that survives the holder's departure (paragraph 8.2 voids it automatically), not a licence in its own right, and not subject to any five-year or renewal rule."
+   "explain": "Paragraph 8.1 states that a pass in the Assessment is considered by the CCE to be a company-based qualification, which is also one of the F&P person statuses to be associated with the business of operating a money service — it is not a personal qualification that survives the holder's departure (paragraph 8.2 voids it automatically), not a licence in its own right, and not a qualification valid for five years and renewable on written application."
   },
   "tc": {
-   "q": "海關關長如何界定通過評核的性質？",
+   "q": "海關關長如何界定在能力評核取得合格成績的性質？",
    "options": [
-    "屬以公司為單位的資格，亦是與金錢服務經營業務有聯繫的其中一項適當人選資格",
+    "屬以公司為單位的資格，亦是與經營金錢服務業務有聯繫的其中一項適當人選資格",
     "屬應考個人的個人資格，即使該人其後不再屬持牌人的高級管理層，資格仍然有效",
     "本身即屬一種牌照，由關長根據《打擊洗錢條例》第30條直接發出",
     "屬自結果公布日期起計五年內有效的資格，並可憑書面申請續期"
    ],
-   "explain": "第8.1段訂明海關關長視通過評核為以公司為單位的資格，該資格亦是與經營金錢服務業務有聯繫的其中一項適當人選資格——並非在該人離任後仍然有效的個人資格（第8.2段訂明會自動失效），本身亦不是一種牌照，更沒有五年有效期或續期安排。"
+   "explain": "第8.1段訂明海關關長視在能力評核取得合格成績為以公司為單位的資格，該資格亦是與經營金錢服務業務有聯繫的其中一項適當人選資格——並非在該人離任後仍然有效的個人資格（第8.2段訂明會自動失效），本身亦不是一種牌照，更不是自結果公布日期起計五年內有效、並可憑書面申請續期的資格。"
   }
  },
  {
@@ -30169,28 +30169,28 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Guidance Notes on the Competence Assessment (Dec 2022) ¶8.2",
-   "tc": "《能力評核須知》（2022年12月）第8.2段"
+   "en": "Guidance Notes on the Competence Assessment (Dec 2022) ¶8.2; Licensing Guide (May 2026) §6.2",
+   "tc": "《能力評核須知》（2022年12月）第8.2段；《牌照指引》（2026年5月）第6.2段"
   },
   "en": {
    "q": "Which arrangement applies where a licensee whose qualification has become void is due for renewal within 180 days?",
    "options": [
-    "The paragraph 4.6 renewal timetable applies",
+    "The renewal timetable for the Assessment applies",
     "The licence is suspended pending a fresh Assessment",
     "The licensee must submit a fresh licence application",
     "The 30-day period is extended to 90 days"
    ],
-   "explain": "Paragraph 8.2 states that for licensees due for renewal within 180 days, the Assessment arrangement will follow paragraph 4.6 — the renewal timetable running from the reminder letter issued 90 days before expiry — rather than a suspension, a fresh application, or an extended 90-day period."
+   "explain": "Paragraph 8.2 states that for licensees due for renewal within 180 days, the Assessment arrangement will follow the one relating to the renewal of licence — under which, per paragraph 6.2 of the Licensing Guide, the nominated eligible persons attend within 30 days of receiving the invitation letter sent with the reminder 90 days before expiry — rather than a suspension, a fresh application, or an extended 90-day period."
   },
   "tc": {
    "q": "如資格已失效的持牌人須於180日內續期，適用甚麼安排？",
    "options": [
-    "依照第4.6段（續牌安排）辦理",
+    "依照續牌時的能力評核安排辦理",
     "牌照暫時吊銷，直至重新完成評核",
     "該持牌人須重新提出牌照申請",
     "該30日期間延長至90日"
    ],
-   "explain": "第8.2段訂明，就須於180日內續期的持牌人而言，評核安排會依照第4.6段辦理——即自牌照屆滿前90日發出提示信起計的續期時間表，而非暫時吊銷牌照、重新申請牌照，或將30日期間延長至90日。"
+   "explain": "第8.2段訂明，就須於180日內續期的持牌人而言，評核安排會依照關於牌照續期的安排辦理——按《牌照指引》第6.2段，獲提名的合資格人士須在接獲隨牌照屆滿前90日提示通知夾附的邀請信當日起計30日內應考——而非暫時吊銷牌照、重新申請牌照，或將30日期間延長至90日。"
   }
  },
  {
@@ -30637,24 +30637,24 @@
    "tc": "《能力評核須知》（2022年12月）第13.1段"
   },
   "en": {
-   "q": "Under which severe weather conditions will the Assessment be suspended?",
+   "q": "Under which severe weather conditions will the Assessment be rescheduled?",
    "options": [
-    "Signal No. 8+ and/or black rainstorm warning still up at 8am on the day",
+    "Where signal No. 8 or above and/or the Black warning is in force at or after 8 a.m.",
     "Where typhoon signal No. 3 is hoisted at any time on the scheduled date",
     "Where only the amber rainstorm warning is issued, with no typhoon signal",
-    "Where any typhoon signal was hoisted the evening before but is later lowered"
+    "Where a typhoon signal was hoisted the evening before but was lowered before 8 a.m."
    ],
-   "explain": "Paragraph 13.1 states that the Assessment will be held as scheduled when typhoon signal No. 3 or lower, and/or rainstorm signal amber or red, is issued, but if typhoon signal No. 8 or above and/or the black rainstorm warning is still hoisted at or after 8:00 a.m. on the scheduled date, the Assessment will be suspended — signal 3 alone, an amber warning alone, or a signal already lowered by the morning do not trigger suspension."
+   "explain": "Paragraph 13.1 states that the Assessment will be held as scheduled when typhoon signal No. 3 or lower, and/or rainstorm signal amber or red, is issued, but if typhoon signal No. 8 or above and/or the black rainstorm warning is still in force at or after 8:00 a.m. on the scheduled date, the Assessment will be rescheduled, with any other arrangements needed published on the first working day that follows — signal 3 alone, an amber warning alone, or a signal lowered before 8 a.m. do not lead to a rescheduling."
   },
   "tc": {
-   "q": "在哪種惡劣天氣情況下評核會暫停？",
+   "q": "在哪種惡劣天氣情況下能力評核會改期？",
    "options": [
-    "上午8時後，8號以上信號及／或黑雨警告仍生效",
-    "原定日期任何時間懸掛3號颱風信號即可",
-    "只發出黃色暴雨警告，並無懸掛任何颱風信號",
-    "前一晚曾懸掛颱風信號，其後已除下"
+    "八號或以上熱帶氣旋及／或「黑色」暴雨警告信號於當日上午8時或之後仍然生效",
+    "在原定考試日期的任何時間，天文台曾發出三號熱帶氣旋警告信號",
+    "天文台只發出「黃色」暴雨警告信號，而沒有發出任何熱帶氣旋警告信號",
+    "前一晚曾發出熱帶氣旋警告信號，但已於當日上午8時前除下"
    ],
-   "explain": "第13.1段訂明一般而言，如發出3號或以下颱風信號及／或黃色或紅色暴雨警告，評核會如期舉行；但如在原定日期上午8時或之後，8號或以上颱風信號及／或黑色暴雨警告仍然生效，評核會暫停——單是3號信號、單是黃色暴雨警告，或信號已於當日早上除下，均不會觸發暫停。"
+   "explain": "第13.1段訂明，一般而言，如天文台發出三號或以下的熱帶氣旋、「黃色」或「紅色」暴雨警告信號，考試會如期舉行；如八號或以上的熱帶氣旋及／或「黑色」暴雨警告信號於原定考試日期上午8時或之後仍然生效，能力評核會改期，如需另作安排，會於隨後首個工作日公布——單是三號信號、單是「黃色」暴雨警告信號，或信號已於當日上午8時前除下，均不會導致改期。"
   }
  },
  {
@@ -31637,28 +31637,28 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Guidance Notes ¶4.4(ii); Licensing Guide §6.2",
-   "tc": "《能力評核須知》第4.4(ii)段；《牌照指引》第6.2段"
+   "en": "Guidance Notes on the Competence Assessment (Dec 2022) ¶4.6; Licensing Guide (May 2026) §6.2, §6.4(c)",
+   "tc": "《能力評核須知》（2022年12月）第4.6段；《牌照指引》（2026年5月）第6.2及6.4(c)段"
   },
   "en": {
    "q": "Both the Guidance Notes and the Licensing Guide use a 90-day period in the renewal context. What does each refer to?",
    "options": [
-    "Guidance Notes: nomination window with no eligible passer, and Licensing Guide: when the reminder letter is sent",
+    "Both mark when the reminder is sent to every licensee, whether or not an eligible person has passed",
     "Both of them refer to the statutory deadline for submitting the renewal application before expiry",
     "Both refer to the 30-day period within which the eligible person(s) must attend the Assessment after receiving the invitation",
     "The Guidance Notes refer to the reminder letter, and the Licensing Guide to the renewal application deadline itself"
    ],
-   "explain": "Paragraph 4.4(ii) of the Guidance Notes permits nomination within 90 days before expiry where the licensee has no eligible person who has passed the Assessment. Paragraph 6.2 of the Licensing Guide states the reminder enclosing the invitation letter is sent 90 days before expiry - a different 90-day reference. The actual renewal deadline is 45 days before expiry, and the Assessment must be attended within 30 days of the invitation, not 90."
+   "explain": "Paragraph 4.6 of the Guidance Notes says the reminder letter is delivered to each licensee 90 days before the expiry of the licence, and paragraph 6.2 of the Licensing Guide says the department sends each licensee, 90 days before expiry, a reminder enclosing the invitation letter for nominating eligible persons — the same 90-day point. Every licensee receives it, including one that already has a person who has passed the Assessment, and under paragraph 6.4(c) of the Guide the renewal application is invalid if no eligible person is nominated within seven days of receiving the invitation letter. The renewal deadline itself is 45 days before expiry, and the Assessment is attended within 30 days of receiving the invitation letter, not 90."
   },
   "tc": {
    "q": "《能力評核須知》及《牌照指引》在續期情境中均使用90日期間。各自所指為何？",
    "options": [
-    "《須知》指提名期間，《牌照指引》指提示信發出時間",
-    "兩者均指持牌人提交續期申請所須遵守的法定期限",
-    "兩者均指合資格人士接獲邀請信後須於30日內出席評核的期間",
-    "《須知》指提示信發出時間，《牌照指引》指續期申請期限"
+    "兩者均指向每名持牌人發出提示通知之時，不論有人合格與否",
+    "兩者均指持牌人遞交續期申請所須遵守的法定最後期限",
+    "兩者均指合資格人士接獲邀請信後須於30日內應考能力評核的期間",
+    "《須知》指提示通知書發出時間，《牌照指引》指續期申請期限"
    ],
-   "explain": "《能力評核須知》第4.4(ii)段准許在持牌人並無已通過評核的合資格人士時，於牌照屆滿前90日內作出提名。《牌照指引》第6.2段則訂明附有邀請信的提示，會在屆滿前90日送達——是另一項不同的90日規定。實際續期申請期限為屆滿前45日，而評核須在接獲邀請信後30日內出席，並非90日。"
+   "explain": "《能力評核須知》第4.6段指提示通知書會在牌照有效期屆滿前90日交付每名持牌人；《牌照指引》第6.2段亦訂明本署會在牌照有效期屆滿前90日向每名持牌人發出提示通知，並夾附信件邀請提名合資格人士應考能力評核——兩者指的是同一個90日時間點。每名持牌人均會收到該通知，包括已有人在能力評核取得合格成績的持牌人；根據《牌照指引》第6.4(c)段，如未有在接獲邀請信當日起計7日內提名任何合資格人士，續牌申請即屬無效。實際續期申請期限為屆滿前45日，而合資格人士須在接獲邀請信後30日內應考能力評核，並非90日。"
   }
  },
  {
@@ -31994,8 +31994,8 @@
    "q": "According to paragraphs 13.1 and 14.2 of the Guidance Notes on the Competence Assessment, which of the following statements about severe weather arrangements and notice of changes are correct?",
    "statements": [
     "As a general rule the Assessment is held as scheduled where typhoon signal No. 3 or lower, and/or rainstorm signal 'Amber' or 'Red', is issued by the Hong Kong Observatory.",
-    "The Assessment is suspended if typhoon signal No. 8 or above, and/or the 'Black' rainstorm warning, is still hoisted at or after 8:00 a.m. on the scheduled date.",
-    "Alternative arrangements following such a suspension are published in the Gazette on the day of the suspension itself, and nowhere else.",
+    "The Assessment is rescheduled if typhoon signal No. 8 or above, and/or the 'Black' rainstorm warning, is still hoisted at or after 8:00 a.m. on the scheduled date.",
+    "Any other arrangements needed after such a rescheduling are published in the Gazette on the date originally scheduled for the Assessment.",
     "Where changes to the Assessment arrangements are required by C&ED, candidates are informed by email before the Assessment as soon as practicable."
    ],
    "options": [
@@ -32005,14 +32005,14 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 3 is false: paragraph 13.1 says that alternative arrangements, if any, will be published on the website of the Money Service Operators Licensing System on the first working day that follows, not in the Gazette on the day of the suspension. Statements 1, 2 and 4 are correct: the Assessment is held as scheduled under typhoon signal No. 3 or lower and the Amber or Red rainstorm signal; it is suspended where typhoon signal No. 8 or above or the Black rainstorm warning is still hoisted at or after 8:00 a.m. on the scheduled date; and paragraph 14.2 provides for notice by email before the Assessment as soon as practicable where C&ED requires changes."
+   "explain": "Statement 3 is false: paragraph 13.1 says that any other arrangements needed will be published on the website of the Money Service Operators Licensing System on the first working day that follows, not in the Gazette on the scheduled date. Statements 1, 2 and 4 are correct: the Assessment is held as scheduled under typhoon signal No. 3 or lower and the Amber or Red rainstorm signal; it is rescheduled where typhoon signal No. 8 or above or the Black rainstorm warning is still in force at or after 8:00 a.m. on the scheduled date; and paragraph 14.2 provides for notice by email before the Assessment as soon as practicable where C&ED requires changes."
   },
   "tc": {
    "q": "根據《能力評核須知》第13.1及14.2段，關於惡劣天氣下的安排及更改安排的通知，下列哪些陳述正確？",
    "statements": [
     "一般而言，如天文台發出三號或以下熱帶氣旋、「黃色」或「紅色」暴雨警告信號，考試會如期舉行。",
     "如八號或以上熱帶氣旋及／或「黑色」暴雨警告於考試日上午8時或之後仍然生效，能力評核會改期。",
-    "如因暫停考試而需要另作其他安排，有關的安排會於暫停當日在憲報公布。",
+    "如因能力評核改期而需要另作其他安排，有關的安排會於原定考試當日在憲報公布。",
     "如海關須更改能力評核的安排，將於能力評核舉行之前盡快以電郵通知應考者。"
    ],
    "options": [
@@ -32022,7 +32022,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述3 不正確：第13.1段訂明如需另作安排，金錢服務經營者牌照系統網頁將於隨後首個工作日公布有關安排，而非於暫停當日在憲報公布。陳述1、2 及 4 正確：在三號或以下的熱帶氣旋、「黃色」或「紅色」暴雨警告信號下考試如期舉行；八號或以上的熱帶氣旋及／或「黑色」暴雨警告信號於當日上午8時或之後仍然生效則會改期；而第14.2段亦訂明海關須更改安排時，會於能力評核舉行前盡快以電郵通知應考者。"
+   "explain": "陳述3 不正確：第13.1段訂明如需另作安排，金錢服務經營者牌照系統網頁將於隨後首個工作日公布有關安排，而非於原定考試當日在憲報公布。陳述1、2 及 4 正確：在三號或以下的熱帶氣旋、「黃色」或「紅色」暴雨警告信號下考試如期舉行；八號或以上的熱帶氣旋及／或「黑色」暴雨警告信號於當日上午8時或之後仍然生效則會改期；而第14.2段亦訂明海關須更改安排時，會於能力評核舉行前盡快以電郵通知應考者。"
   },
   "format": "combination"
  },
@@ -37208,9 +37208,9 @@
   "en": {
    "q": "How does the Guideline describe a beneficial owner in general terms?",
    "options": [
-    "The natural person who ultimately owns or controls the customer, or transacts on their behalf",
+    "The natural person who ultimately owns or controls the customer, or for whom the customer transacts",
     "Any natural person formally named as a shareholder in the company's register",
-    "Any natural person authorised to give instructions to operate the customer's account, per section 4.5.1",
+    "Any natural person whom the customer has authorised to give instructions for operating its account",
     "The individual who physically attends the MSO's premises to open the account"
    ],
    "explain": "¶4.4.1 states that beneficial owner refers to the natural person(s) who ultimately own or control the customer, or on whose behalf a transaction or activity is conducted. Being named as a shareholder, being authorised to give instructions (the PPTA test in ¶4.5.1), or physically attending the premises (¶4.3.16) are each different concepts, not the beneficial-owner definition."
@@ -37218,10 +37218,10 @@
   "tc": {
    "q": "本指引一般如何描述實益擁有人？",
    "options": [
-    "最終擁有或控制該客戶，或代其進行交易的自然人",
+    "最終擁有或控制該客戶，或由客戶代其進行交易的自然人",
     "在公司股東名冊上正式列名的任何自然人",
-    "獲正式授權發出指示以操作客戶帳戶的任何人，見指引",
-    "親身到該經營者的處所開立帳戶的個人"
+    "獲客戶授權發出指示以操作該客戶帳戶的任何自然人",
+    "親身到金錢服務經營者的處所開立帳戶的個人"
    ],
    "explain": "第4.4.1段訂明實益擁有人指最終擁有或控制該客戶的自然人，或某項交易或活動是代其進行的自然人。在股東名冊上列名、獲授權發出操作帳戶指示（第4.5.1段看似代客戶行事的人的判斷標準），或親身到處所開戶（第4.3.16段），均屬不同概念，並非實益擁有人的定義。"
   }
@@ -37684,28 +37684,28 @@
   "module": 6,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.4.8",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.4.8段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.4.1, ¶4.4.8",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.4.1及4.4.8段"
   },
   "en": {
    "q": "How is the beneficial owner defined in relation to an unincorporated body other than a partnership?",
    "options": [
-    "An individual who ultimately owns or controls it, or the person it is acting on behalf of",
+    "An individual who ultimately owns or controls it, or the individual on whose behalf it acts",
     "Every registered member of the unincorporated body, regardless of role",
     "The chairperson or president who represents the unincorporated body publicly",
-    "Whoever physically signs the account-opening documents on the body's behalf under paragraph 4.4.9"
+    "Whoever signs the account-opening documents on the body's behalf as its authorised signatory"
    ],
-   "explain": "¶4.4.8 states that in relation to an unincorporated body other than a partnership, beneficial owner means an individual who ultimately owns or controls the unincorporated body, or, if the unincorporated body is acting on behalf of another person, that other person; every member, the chairperson, and the person who signs the paperwork are not the statutory test."
+   "explain": "¶4.4.8 states that in relation to an unincorporated body other than a partnership, beneficial owner means an individual who ultimately owns or controls the unincorporated body, or, if the unincorporated body is acting on behalf of another person, that other person; ¶4.4.1 makes clear that a beneficial owner is always a natural person, so the second limb points to the individual on whose behalf the body acts. Every member, the chairperson, and the person who signs the paperwork are not the statutory test."
   },
   "tc": {
    "q": "就合夥以外的非法團團體而言，實益擁有人如何界定？",
    "options": [
-    "最終擁有或控制團體的個人，或其代表行事的另一人",
+    "最終擁有或控制團體的個人，或團體代其行事的個人",
     "該非法團團體所有登記在冊的成員，不論職級高低",
     "公開對外代表該非法團團體的有關主席或會長",
-    "代表該團體在開立帳戶文件上簽署的人（經授權簽署）"
+    "以獲授權簽署人身分代表該團體簽署開戶文件的人"
    ],
-   "explain": "第4.4.8段訂明就合夥以外的非法團團體而言，實益擁有人指最終擁有或控制該非法團團體的個人；或如該團體是代另一人行事，則指該另一人；所有成員、主席或會長，以及在文件上簽署的人，均非法定測試。"
+   "explain": "第4.4.8段訂明就合夥以外的非法團團體而言，實益擁有人指最終擁有或控制該非法團團體的個人；或如該團體是代另一人行事，則指該另一人；而第4.4.1段清楚說明實益擁有人必屬自然人，故第二項所指的是該團體代其行事的個人。所有成員、主席或會長，以及在文件上簽署的人，均非法定測試。"
   }
  },
  {
@@ -45204,28 +45204,28 @@
   "module": 6,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) Appendix A ¶1",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）附錄A第1段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) Appendix A ¶1–2",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）附錄A第1至2段"
   },
   "en": {
    "q": "A non-resident individual attends an MSO's premises in Hong Kong in person. By reference to what should their identity be verified?",
    "options": [
     "Their valid travel document, such as a passport of their own",
     "A Hong Kong identity card, which everyone in Hong Kong must hold",
-    "A national identity card of their home country",
+    "An international driving permit with a photograph",
     "A driving licence bearing a recent photograph"
    ],
-   "explain": "Appendix A ¶1 states that the identity of an individual physically present in Hong Kong should be verified by reference to their Hong Kong identity card or travel document, and specifically that the identity of a non-resident should be verified by reference to their valid travel document."
+   "explain": "Appendix A ¶1 states that the identity of an individual physically present in Hong Kong should be verified by reference to their Hong Kong identity card or travel document, and specifically that the identity of a non-resident should be verified by reference to their valid travel document. ¶1 names the Hong Kong identity card, or a document of identity, for Hong Kong residents, not for a non-resident. A national driving licence appears in Appendix A ¶2 among the documents for non-residents who are not physically present in Hong Kong, so it is not the reference for a non-resident who attends in person, and footnote 72 states that international driving permits are not acceptable for that purpose."
   },
   "tc": {
    "q": "某非居民個人親身前往金錢服務經營者在香港的處所。其身分應參照甚麼核實？",
    "options": [
-    "其本人有效的旅行證件，例如其護照",
-    "香港身分證，因身處香港的人均須持有",
-    "其原居國家的國家身分證",
+    "其本人有效的旅遊證件，例如其護照",
+    "香港身份證，因身處香港的人均須持有",
+    "載有其照片的國際駕駛許可證",
     "載有本人近照的駕駛執照"
    ],
-   "explain": "附錄A第1段訂明身處香港的個人的身分，應參照其香港身分證或旅行證件核實；並特別訂明非居民的身分應參照其有效旅行證件核實。"
+   "explain": "附錄A第1段訂明身處香港的個人的身分，應參照其香港身分證或旅行證件核實；並特別訂明非居民的身分應參照其有效旅行證件核實。該段就香港居民指明的是香港身分證或簽證身分書，並非用於非居民。國家駕駛執照列於附錄A第2段，屬適用於沒有現身香港的非香港居民的文件，並非親身到場的非居民的核實依據；註腳72亦訂明國際駕駛許可證不能用於此目的。"
   }
  },
  {
@@ -45958,27 +45958,27 @@
   "answer": 0,
   "source": {
    "en": "Circular MSSB/MIS_03/2023 (22 Nov 2023), Appendix section (2) Identification and verification of a beneficial owner",
-   "tc": "通函MSSB/MIS_03/2023（2023年11月22日）附錄第(2)節「識別及核實實益擁有人」"
+   "tc": "通函MSSB/MIS_03/2023（2023年11月22日）附錄第(2)節「識別和核實實益擁有人身分」"
   },
   "en": {
    "q": "An MSO identifies and verifies the individual holding 40% of a corporate customer's shares, but not a second individual who holds 30% through an intermediate holding company. What does the circular require?",
    "options": [
-    "Identify all beneficial owners, including anyone indirectly owning or controlling more than 25%, and take reasonable measures to verify their identities",
+    "Identify all beneficial owners, including any individual indirectly owning or controlling more than 25%, and take reasonable measures to verify their identities",
     "Nothing further, because only the individual holding the largest shareholding in a corporate customer has to be identified as its beneficial owner",
     "Identify the second individual only where the intermediate holding company is incorporated outside Hong Kong or is itself also a customer of the MSO",
     "Record the second individual's name without verification, because interests held indirectly through another company do not require any verification"
    ],
-   "explain": "Appendix section (2) lists as a deficiency that some MSOs failed to identify all beneficial owners of a corporate customer (for example, individuals who ultimately own or control more than a 25% interest) and verify their identities. Beneficial owners of a corporation include all individuals who own or control, directly or indirectly, more than 25% of the voting rights or share capital, any individual exercising ultimate control over its management, and any person on whose behalf the customer acts; the MSO should follow the chain of ownership to the beneficial owners. An individual holding 30% through an intermediate company is therefore a beneficial owner who must be identified and verified with reasonable measures. Stopping at the largest holder, making identification depend on where the intermediate company is incorporated, or omitting verification for indirect holdings all fall short."
+   "explain": "Appendix section (2) lists as a deficiency that some MSOs failed to identify all beneficial owners of a corporate customer (for example, individuals who ultimately own or control more than a 25% interest) and verify their identities. Beneficial owners of a corporation include all individuals who own or control, directly or indirectly, more than 25% of the voting rights or share capital, any individual exercising ultimate control over its management, and any individual on whose behalf the customer acts, since a beneficial owner is always a natural person (AML/CFT Guideline ¶4.4.1); the MSO should follow the chain of ownership to the beneficial owners. An individual holding 30% through an intermediate company is therefore a beneficial owner who must be identified and verified with reasonable measures. Stopping at the largest holder, making identification depend on where the intermediate company is incorporated, or omitting verification for indirect holdings all fall short."
   },
   "tc": {
-   "q": "某金錢服務經營者識別並核實了持有公司客戶40%股份的個人，但沒有識別另一名透過中間控股公司持有30%的個人。通函有何要求？",
+   "q": "某金錢服務經營者識別並核實了持有公司客戶40%股份的個人，但沒有識別另一名透過中介控權公司持有30%的個人。通函有何要求？",
    "options": [
-    "識別所有實益擁有人，包括任何間接擁有或控制超過25%的人，並採取合理措施核實他們的身分",
+    "識別所有實益擁有人，包括任何間接擁有或控制超過25%的個人，並採取合理措施核實他們的身分",
     "無須再採取任何行動，因為只有公司客戶中持股量最大的個人才須被識別為其實益擁有人",
-    "只有在該中間控股公司在香港以外成立，或其本身亦是經營者的客戶時，才須識別第二名個人",
+    "只有在該中介控權公司在香港以外成立，或其本身亦是經營者的客戶時，才須識別第二名個人",
     "記錄第二名個人的姓名而不作核實，因為透過另一間公司間接持有的權益無須作任何核實"
    ],
-   "explain": "附錄第(2)節把部分經營者未能識別公司客戶的所有實益擁有人（例如最終擁有或控制超過25%權益的個人）並核實其身分列為不足之處。法團的實益擁有人包括所有直接或間接擁有或控制該法團超過25%投票權或股本的個人、任何對其管理行使最終控制權的個人，以及任何客戶代其行事的人；經營者應循擁有權鏈追溯至實益擁有人。因此，透過中間公司持有30%的個人是必須識別並以合理措施核實的實益擁有人。止步於持股最多的人、視乎中間公司的成立地點才決定是否識別，或對間接持有的權益略去核實，均未達標準。"
+   "explain": "附錄第(2)節把部分經營者未能識別公司客戶的所有實益擁有人（例如最終擁有或控制超過25%權益的個人）並核實其身分列為不足之處。法團的實益擁有人包括所有直接或間接擁有或控制該法團超過25%投票權或股本的個人、任何對其管理行使最終控制權的個人，以及客戶代其行事的任何個人，因為實益擁有人必屬自然人（《打擊洗錢及恐怖分子資金籌集指引》第4.4.1段）；經營者應循擁有權鏈追溯至實益擁有人。因此，透過中間公司持有30%的個人是必須識別並以合理措施核實的實益擁有人。止步於持股最多的人、視乎中間公司的成立地點才決定是否識別，或對間接持有的權益略去核實，均未達標準。"
   },
   "id": "m6-323"
  },
@@ -50944,7 +50944,7 @@
   "tc": {
    "q": "根據本指引第9.6段，下列關於培訓技巧、工具及材料的陳述，哪些正確？",
    "statements": [
-    "金錢服務經營者應視乎可運用的資源及職員的培訓需要，考慮混合使用各種培訓技巧及工具。",
+    "金錢服務經營者獲鼓勵視乎可運用的資源及職員的培訓需要，考慮混合使用各種培訓技巧及工具。",
     "這些技巧及工具可包括網上學習系統、課堂上的集思培訓及相關影片。",
     "紙張形式或以內聯網為本的程序手冊，屬金錢服務經營者可使用的培訓工具之一。",
     "財務行動特別組織的文章及典型案件並非由關長發出，因此不可用作培訓材料。",
@@ -50957,7 +50957,7 @@
     "1、2 及 5",
     "3、4 及 5"
    ],
-   "explain": "第9.6段訂明，金錢服務經營者應視乎可運用的資源及職員的培訓需要，考慮混合使用各種培訓技巧及工具，而這些技巧及工具可包括網上學習系統、課堂上的集思培訓、相關影片及紙張形式或以內聯網為本的程序手冊。因此陳述1、2 及 3 正確。陳述4 不正確，因為第9.6段訂明經營者可考慮使用財務行動特別組織的文章及典型案件作為培訓材料。陳述5 不正確，因為經營者應能夠向關長證明所有培訓材料是最新的，並且符合現行規定及標準。"
+   "explain": "第9.6段指出，金錢服務經營者獲鼓勵視乎可運用的資源及職員的培訓需要，考慮混合使用各種培訓技巧及工具，而這些技巧及工具可包括網上學習系統、課堂上的集思培訓、相關影片及紙張形式或以內聯網為本的程序手冊。因此陳述1、2 及 3 正確。陳述4 不正確，因為第9.6段訂明經營者可考慮使用財務行動特別組織的文章及典型案件作為培訓材料。陳述5 不正確，因為經營者應能夠向關長證明所有培訓材料是最新的，並且符合現行規定及標準；該段並無規定培訓材料須事先獲批准。"
   },
   "format": "combination"
  },
