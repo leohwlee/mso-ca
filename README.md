@@ -78,8 +78,8 @@ every question traces to a real provision rather than rewording its neighbour.
 | 3 · Schedules to the AMLO | 260 | AMLO Schedules 1–4 |
 | 4 · Guidelines promulgated by the C&ED | 310 | Licensing Guide, Guidance Notes, fitness-and-propriety, business-plan, AML-policy and disciplinary guidelines, circulars |
 | 5 · Systems and controls (i): governance and strategy | 96 | AML/CFT Guideline ch. 2–3; circulars |
-| 6 · Systems and controls (ii): AML/CFT control areas | 340 | AML/CFT Guideline ch. 4–6, 10–11; circulars |
-| 7 · Systems and controls (iii): demonstrating and monitoring compliance | 154 | AML/CFT Guideline ch. 7–9; circulars |
+| 6 · Systems and controls (ii): AML/CFT control areas | 340 | AML/CFT Guideline ch. 4–6, 10–11; circulars; the FAQ |
+| 7 · Systems and controls (iii): demonstrating and monitoring compliance | 154 | AML/CFT Guideline ch. 7–9; the FAQ |
 
 > These are reconstructions for practice, not real exam questions. C&ED has
 > never released a past paper.
@@ -118,13 +118,13 @@ never shuffles it — there the order is part of the question. Tick
 
 ### The official documents
 
-All **29** of them, English and Traditional Chinese, are in
+All **23** of them, English and Traditional Chinese, are in
 [`docs/`](docs/README.md), so every citation in the app can be checked against
 the source. They are the five reference sources Guidance Notes ¶6.1 names: the
 Ordinance, the AML/CFT Guideline, the Licensing Guide, the other C&ED
 guidelines, and the circulars C&ED issues to MSOs.
 
-`docs/EN/19` is worth opening on its own — it is the only set of sample
+`docs/EN/23` is worth opening on its own — it is the only set of sample
 questions C&ED has ever published.
 
 ## Everything else the app does

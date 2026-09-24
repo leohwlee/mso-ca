@@ -50,7 +50,7 @@ the file. If you redistribute `mso-ca.html`, that comment must stay.
 
 ## 4 · The official documents — not licensed here
 
-`docs/EN/` and `docs/TC/` — 29 publications of the Government of the Hong Kong
+`docs/EN/` and `docs/TC/` — 23 publications of the Government of the Hong Kong
 Special Administrative Region, and the Anti-Money Laundering and Counter-
 Terrorist Financing Ordinance as published on Hong Kong e-Legislation.
 
