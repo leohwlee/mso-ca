@@ -82,6 +82,13 @@ SAMPLE4 = ("Sample question 4", "參考試題4")
 # a marker for a contrast that only the English text draws (the combined view shows it too)
 FLAG_EN = f'<span class="only-en">{flag()}</span>'
 
+
+def only(lang, block):
+    """A callout shown only in one language's view (and in the combined view), for a point
+    that only that language's texts raise. pack_css.css hides .only-en in the Chinese view
+    and .only-tc in the English view."""
+    return block.replace('<div class="trap">', f'<div class="trap only-{lang}">', 1)
+
 # ---------------------------------------------------------------- A. the route
 A = sec('route', [("Licensing Guide", "《牌照指引》"), ("¶5.1–5.11", "第5.1至5.11段"), ("CA Notes ¶4.5", "《能力評核須知》第4.5段")],
         ("From application to licence", "由申請到領牌"),
@@ -116,8 +123,8 @@ A = sec('route', [("Licensing Guide", "《牌照指引》"), ("¶5.1–5.11", "�
          ("Your nominees sit the Assessment", "獲提名人士應考能力評核"),
          ("Counted from the interview, for a new application", "新申請：自會面起計"),
          ("Not attending the designated session may result in refusal of the licence application; at renewal it will result in rejection (<a href=\"#renewal\">renewal countdown</a>)",
-          "未有出席指定時段的評核，會導致相關申請被拒絕；續牌時亦然（見<a href=\"#renewal\">續牌倒數</a>）",
-          LG("5.4, 6.2"), FLAG_EN),
+          "未有出席指定時段的評核，可能導致牌照申請被拒絕；續牌時則會導致相關申請被拒絕（見<a href=\"#renewal\">續牌倒數</a>）",
+          cc(LG("5.4, 5.10(i), 6.2"), GN("3.1")), flag()),
          cc(GN("4.5"), LG("5.4"))),
         (("after 30 days", "30日後"),
          ("One retake if nobody passed", "如無人合格，可重考一次"),
@@ -142,6 +149,10 @@ A = sec('route', [("Licensing Guide", "《牌照指引》"), ("¶5.1–5.11", "�
         trap(("Invalid and refused are different endings", "無效與被拒是兩種不同的結局"), None, cc(LG("5.4"), LG("5.10–5.11")),
              vs=[(("Invalid", "無效"), ("Information or documents were not produced within the specified period. The application is simply not processed.", "未能在指明期限內提供資料或文件。申請只是不獲處理。")),
                  (("Refused", "被拒"), ("The Commissioner decides against you and says so in writing. You have 21 days to take it to the Review Tribunal.", "關長作出不利於你的決定並以書面通知。你有21日時間向覆核審裁處申請覆核。"))]),
+        # the Chinese ¶5.4 says 會導致 where the Chinese ¶5.10(i) and CA Notes ¶3.1 say 可能 (owner's call C02: may)
+        only('tc', trap(("", "新申請缺席評核：是「可能」被拒，不是「會」被拒"),
+             ("", "《牌照指引》第5.4段寫「如未能在指定的時段應考能力評核，會導致相關申請被拒絕」，但同一指引第5.10(i)段指申請人的高級管理層中沒有成員應考能力評核時，關長「可能拒絕」批給牌照，《能力評核須知》第3.1段亦寫「可能導致」牌照申請被拒絕。故新申請缺席評核，應理解為可能被拒。續牌則不同：第6.2段訂明缺席會導致相關申請被拒絕。"),
+             cc(LG("5.4, 5.10(i), 6.2"), GN("3.1")))),
         trap(("A shop that takes foreign currency is not a money changer", "收取外幣的商店不是貨幣兌換商"),
              ("The Licensing Guide spells out an exclusion the statutory definition leaves unsaid: exchanging currency only incidentally to a main business, such as a retail shop accepting foreign currency from customers, is not a money changing service. The hotel exception in the Ordinance itself is on the Schedule 1 page.",
               "《牌照指引》明確列出法定定義沒有明言的排除情況：只屬主要業務附帶部分的貨幣兌換，例如零售商店向顧客收取外幣，不屬貨幣兌換服務。條例本身的酒店例外，見附表1一頁。"),
@@ -204,9 +215,9 @@ B_ = sec('premises', [("Licensing Guide", "《牌照指引》"), ("¶4.4–4.11"
            td("An invalid application, not processed, or a refusal", "申請視作無效、不獲處理，或被拒絕"),
            td("The same", "同上")),
         tr(rh("Not kept up once licensed", "持牌後未能維持"),
-           td("Failure will result in suspension and/or revocation, including when the office fails to serve as the point of contact with C&amp;ED, such as when none of the licensee's personnel is there",
+           td("Failure may result in suspension and/or revocation, including when the office fails to serve as the point of contact with C&amp;ED, such as when none of the licensee's personnel is there. Paragraph 4.7 says it will; the list of grounds and the official sample paper say may",
               "未能維持或會導致暫時吊銷及／或撤銷牌照，包括本地管理辦事處未能作為與海關溝通的聯絡點，例如持牌人的人員並不在場",
-              LG("4.7")),
+              cc(LG("4.7, 7.1(e)"), SAMPLE4), post=FLAG_EN),
            td("Failure will result in suspension and/or revocation, though the list of grounds says the Commissioner may", "未能維持將會導致暫時吊銷及／或撤銷牌照，但該指引列出的理由則指關長可以這樣做", cc(LG("4.11"), LG("7.1(d)")))),
     ], minw=760, cls='cmp')
     + traps(
@@ -553,8 +564,8 @@ G_ = sec('renewal', [("Licensing Guide", "《牌照指引》"), ("¶6.1–6.4", 
          ("Your nominees sit the Assessment", "獲提名人士應考能力評核"),
          ("From receiving the invitation letter", "自接獲邀請信當日起計"),
          ("Not attending the designated session will result in rejection of the application; for a new licence it may result in refusal (<a href=\"#route\">getting licensed</a>)",
-          "未有出席指定時段的評核，會導致相關申請被拒絕；新申請亦然（見<a href=\"#route\">申領牌照</a>）",
-          LG("5.4, 6.2"), FLAG_EN),
+          "未有出席指定時段的評核，會導致相關申請被拒絕；新申請則可能導致牌照申請被拒絕（見<a href=\"#route\">申領牌照</a>）",
+          cc(LG("5.4, 5.10(i), 6.2"), GN("3.1")), flag()),
          LG("6.2")),
         (("45 days", "45日"),
          ("Lodge the renewal application, accompanied by the Schedule 3 fee: the duly completed Form 2, supplementary information sheet and relevant annex. The other papers go with them; anything missing is chased under the next row",
