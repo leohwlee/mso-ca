@@ -20684,7 +20684,7 @@
    "tc": "《打擊洗錢條例》附表2第3(1)(b)條；第1(1)條（「非經常交易」的定義）"
   },
   "en": {
-   "q": "A walk-in customer with no ongoing relationship with the MSO hands over $150,000 in cash for a single remittance, not by any electronic transfer. Which Schedule 2 concepts are engaged?",
+   "q": "A customer with no ongoing relationship with the MSO hands over $150,000 in cash for a single remittance, not by any electronic transfer. Which Schedule 2 concepts are engaged?",
    "options": [
     "An occasional transaction, requiring CDD under section 3(1)(b) because it is at or above $120,000",
     "A business relationship, requiring CDD under section 3(1)(a) before the relationship is established",
@@ -20694,7 +20694,7 @@
    "explain": "With no business relationship, the dealing is an occasional transaction as defined in section 1(1) of Schedule 2. Section 3(1)(b) requires CDD before carrying out for the customer an occasional transaction involving an amount equal to or above $120,000, so a single $150,000 cash remittance is squarely within it. The $8,000 threshold in section 3(1A) applies to wire transfers, which this is not, and the $120,000 test looks at the transaction, not at a yearly aggregate."
   },
   "tc": {
-   "q": "某即場客戶與該金錢服務經營者並無持續關係，以現金交付150,000元辦理一次過匯款，並非以任何電子方式轉賬。這觸發附表2的哪些概念？",
+   "q": "某客戶與該金錢服務經營者並無持續關係，以現金交付150,000元辦理一次過匯款，並非以任何電子方式轉賬。這觸發附表2的哪些概念？",
    "options": [
     "屬非經常交易，因款額達到或超過120,000元而須按第3(1)(b)條進行客戶盡職審查",
     "屬業務關係，故須按第3(1)(a)條在建立該項關係之前進行客戶盡職審查",
@@ -20713,22 +20713,22 @@
    "tc": "《打擊洗錢條例》附表2第1(1)及3(1A)條的應用"
   },
   "en": {
-   "q": "A walk-in customer asks an MSO to make an electronic transfer of $10,000 to a recipient at an overseas institution. Which threshold applies?",
+   "q": "An occasional customer asks an MSO to make an electronic transfer of $10,000 to a recipient at an overseas institution. Which threshold applies?",
    "options": [
     "The $8,000 wire-transfer threshold in section 3(1A), since this is a wire transfer",
     "The general $120,000 occasional-transaction threshold in section 3(1)(b)",
     "The $20,000 annual-premium threshold applicable to certain insurance policies",
-    "No CDD threshold at all, because a walk-in customer has no business relationship"
+    "No CDD threshold at all, because an occasional customer has no business relationship"
    ],
    "explain": "Section 1(4) defines a wire transfer as an electronic transaction by an ordering institution to make money available to a recipient at a beneficiary institution — this transfer qualifies. Section 3(1A) then requires CDD before an occasional wire transfer of $8,000 or above, displacing the general $120,000 occasional-transaction threshold in section 3(1)(b). The $20,000 figure is real, but it applies to certain life insurance premiums under section 4(5)(c), not to wire transfers; and a threshold still applies even though the customer has no business relationship, because this is an occasional transaction."
   },
   "tc": {
-   "q": "某即場客戶要求金錢服務經營者以電子方式將10,000元轉予境外機構的收款人。適用哪一門檻？",
+   "q": "某非經常客戶要求金錢服務經營者以電子方式將10,000元轉予境外機構的收款人。適用哪一門檻？",
    "options": [
     "第3(1A)條的8,000元電傳轉賬門檻，因該交易屬電傳轉賬",
     "第3(1)(b)條所指的一般120,000元非經常交易門檻",
     "適用於若干保險保單的20,000元周年保費門檻",
-    "完全無須任何門檻，因該即場客戶並無業務關係"
+    "完全無須任何門檻，因該非經常客戶並無業務關係"
    ],
    "explain": "第1(4)條界定「電傳轉賬」為匯款機構以電子方式進行、旨在使款項可在收款機構供收款人取用的交易——本交易符合此定義。第3(1A)條繼而規定在進行8,000元或以上的單次電傳轉賬前須進行客戶盡職審查，取代第3(1)(b)條的一般120,000元非經常交易門檻。20,000元是真實門檻，但適用於第4(5)(c)條下若干人壽保險保費，並非電傳轉賬；而即使客戶並無業務關係，門檻仍然適用，因這屬非經常交易。"
   }
@@ -43679,24 +43679,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第10.5段"
   },
   "en": {
-   "q": "An MSO acting as ordering institution executes a cross-border wire transfer of $9,000 for a walk-in customer with no account, sent to a recipient who holds an account at the beneficiary institution. Which combination satisfies ¶10.5?",
+   "q": "An MSO acting as ordering institution executes a cross-border wire transfer of $9,000 for an occasional customer with no account, sent to a recipient who holds an account at the beneficiary institution. Which combination satisfies ¶10.5?",
    "options": [
     "Originator's name, a unique reference number assigned by the MSO, originator's date and place of birth, recipient's name, and the recipient's account number at the beneficiary institution",
-    "Originator's name and identity card number, the originator's own account number at the ordering institution, which this walk-in customer does not have, and the recipient's name only",
+    "Originator's name and identity card number, the originator's own account number at the ordering institution, which this occasional customer does not have, and the recipient's name only",
     "Originator's name and address, a unique reference number assigned by the MSO, and the recipient's name and address at the beneficiary institution",
     "A unique reference number and the recipient's name only, on the basis that $9,000 falls below the $120,000 threshold for occasional-transaction due diligence"
    ],
-   "explain": "For a transfer of $8,000 or above, ¶10.5 requires all five items. With no account, ¶10.5(b) is satisfied by a unique reference number assigned by the MSO; ¶10.5(c) may be satisfied for an individual by date and place of birth; and since the recipient holds an account, ¶10.5(e) requires the recipient's account number at the beneficiary institution. Quoting an account number the walk-in originator does not have, adding an address the recipient limb does not require, and invoking the unrelated $120,000 occasional-transaction CDD threshold are each incomplete or wrong."
+   "explain": "For a transfer of $8,000 or above, ¶10.5 requires all five items. With no account, ¶10.5(b) is satisfied by a unique reference number assigned by the MSO; ¶10.5(c) may be satisfied for an individual by date and place of birth; and since the recipient holds an account, ¶10.5(e) requires the recipient's account number at the beneficiary institution. Quoting an account number the originator does not have, adding an address the recipient limb does not require, and invoking the unrelated $120,000 occasional-transaction CDD threshold are each incomplete or wrong."
   },
   "tc": {
-   "q": "某金錢服務經營者以匯款機構身分，為一名並無戶口的即場客戶執行一宗9,000元的跨境電傳轉帳，收款人在收款機構持有戶口。哪一組合符合第10.5段？",
+   "q": "某金錢服務經營者以匯款機構身分，為一名並無戶口的非經常客戶執行一宗9,000元的跨境電傳轉帳，收款人在收款機構持有戶口。哪一組合符合第10.5段？",
    "options": [
     "匯款人姓名，由該經營者編配的獨特參考編號，匯款人的出生日期及地方，收款人姓名，以及收款人在收款機構的戶口號碼",
-    "匯款人姓名及身分證號碼，匯款人在匯款機構的戶口號碼（惟此即場客戶其實根本並無該戶口），以及僅收款人姓名",
+    "匯款人姓名及身分證號碼，匯款人在匯款機構的戶口號碼（惟此非經常客戶其實根本並無該戶口），以及僅收款人姓名",
     "匯款人姓名及地址，由該經營者編配的一個獨特參考編號，以及收款人在收款機構的姓名及地址",
     "僅一個獨特參考編號及收款人姓名，理由是9,000元低於非經常交易客戶盡職審查的120,000元門檻"
    ],
-   "explain": "就8,000元或以上的轉帳，第10.5段規定須具備全部五項資料。由於客戶並無戶口，第10.5(b)款可由該經營者編配的獨特參考編號滿足；第10.5(c)款就個人而言可由出生日期及地方滿足；而由於收款人持有戶口，第10.5(e)款須具備收款人在收款機構的戶口號碼。引用即場匯款人根本沒有的戶口號碼、在收款人一項加入並非規定的地址，以及援引無關的120,000元非經常交易客戶盡職審查門檻，均屬不完整或錯誤。"
+   "explain": "就8,000元或以上的轉帳，第10.5段規定須具備全部五項資料。由於客戶並無戶口，第10.5(b)款可由該經營者編配的獨特參考編號滿足；第10.5(c)款就個人而言可由出生日期及地方滿足；而由於收款人持有戶口，第10.5(e)款須具備收款人在收款機構的戶口號碼。引用該匯款人根本沒有的戶口號碼、在收款人一項加入並非規定的地址，以及援引無關的120,000元非經常交易客戶盡職審查門檻，均屬不完整或錯誤。"
   }
  },
  {
@@ -43912,7 +43912,7 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第10.9段"
   },
   "en": {
-   "q": "A walk-in customer makes a single occasional wire transfer of $5,000. Nothing suggests it is linked to other transactions and no suspicion of ML/TF arises. Must the ordering institution verify the originator's identity?",
+   "q": "An occasional customer makes a single wire transfer of $5,000. Nothing suggests it is linked to other transactions and no suspicion of ML/TF arises. Must the ordering institution verify the originator's identity?",
    "options": [
     "No — for an occasional wire transfer below $8,000, the ordering institution is in general not required to verify the originator's identity",
     "Yes — verification is required for every occasional wire transfer, regardless of amount, once the customer walks in without any account on file",
@@ -43922,7 +43922,7 @@
    "explain": "¶10.9 states that for an occasional wire transfer below $8,000 the ordering institution is in general not required to verify the originator's identity, absent linked transactions reaching $8,000 or a suspicion of ML/TF. That general rule is not overridden merely because the customer has no account or no business relationship; and the ¶10.6 information requirements — including the originator's name — still apply regardless of the verification exemption."
   },
   "tc": {
-   "q": "某即場客戶進行一宗5,000元的單一宗電傳轉帳。並無跡象顯示其與其他交易有關連，亦無洗錢／恐怖分子資金籌集的懷疑。匯款機構是否須核實匯款人身分？",
+   "q": "某非經常客戶進行一宗5,000元的單一宗電傳轉帳。並無跡象顯示其與其他交易有關連，亦無洗錢／恐怖分子資金籌集的懷疑。匯款機構是否須核實匯款人身分？",
    "options": [
     "無須——就低於8,000元的非經常電傳轉帳，匯款機構一般無須核實匯款人的身分",
     "須要——只要客戶並無帳戶而即場進行交易，每宗非經常電傳轉帳均須核實",
@@ -44785,24 +44785,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第11.3段與第10.9段的比較"
   },
   "en": {
-   "q": "An MSO sends $10,000 abroad for a walk-in customer by a non-electronic remittance arrangement. Which provision governs the identification requirement?",
+   "q": "An MSO sends $10,000 abroad for an occasional customer by a non-electronic remittance arrangement. Which provision governs the identification requirement?",
    "options": [
     "Section 13 of Schedule 2 (Chapter 11) — a remittance other than a wire transfer",
     "Section 12 of Schedule 2 (Chapter 10), because the amount exceeds $8,000",
     "Section 5 of Schedule 2, because ongoing monitoring applies to the transaction",
     "Neither provision applies, because the customer has no business relationship with the MSO"
    ],
-   "explain": "¶11.3 applies section 13 of Schedule 2 to a remittance transaction other than a wire transfer of $8,000 or above, and Chapter 11 (not Chapter 10) governs it because ¶10.1/¶11.2 define a wire transfer as carried out by electronic means, which this non-electronic remittance is not. Section 12/Chapter 10 governs wire transfers specifically, not merely amounts over $8,000; section 5 concerns ongoing monitoring, not originator identification; and a walk-in customer's single transaction is itself enough to trigger the requirement without any pre-existing business relationship."
+   "explain": "¶11.3 applies section 13 of Schedule 2 to a remittance transaction other than a wire transfer of $8,000 or above, and Chapter 11 (not Chapter 10) governs it because ¶10.1/¶11.2 define a wire transfer as carried out by electronic means, which this non-electronic remittance is not. Section 12/Chapter 10 governs wire transfers specifically, not merely amounts over $8,000; section 5 concerns ongoing monitoring, not originator identification; and an occasional customer's single transaction is itself enough to trigger the requirement without any pre-existing business relationship."
   },
   "tc": {
-   "q": "某金錢服務經營者以非電子方式的匯款安排，為一名即場客戶匯出10,000元至海外。哪一項條文規管其身分識別規定？",
+   "q": "某金錢服務經營者以非電子方式的匯款安排，為一名非經常客戶匯出10,000元至海外。哪一項條文規管其身分識別規定？",
    "options": [
     "附表2第13條（第11章）——電傳轉帳以外的匯款",
     "附表2第12條（第10章），因款額超過8,000元",
     "附表2第5條，因該交易適用持續監察規定",
     "兩者均不適用，因該客戶與該經營者並無業務關係"
    ],
-   "explain": "第11.3段就8,000元或以上而並非電傳轉帳的匯款交易適用附表2第13條，並由第11章（而非第10章）規管，因第10.1及11.2段將電傳轉帳界定為以電子方式進行，而此宗非電子匯款並不符合此定義。第12條／第10章專門規管電傳轉帳（並非單純因款額超過8,000元）；第5條涉及持續監察，並非匯款人身分識別；而即場客戶的單一交易本身已足以觸發有關規定，無須任何預先存在的業務關係。"
+   "explain": "第11.3段就8,000元或以上而並非電傳轉帳的匯款交易適用附表2第13條，並由第11章（而非第10章）規管，因第10.1及11.2段將電傳轉帳界定為以電子方式進行，而此宗非電子匯款並不符合此定義。第12條／第10章專門規管電傳轉帳（並非單純因款額超過8,000元）；第5條涉及持續監察，並非匯款人身分識別；而非經常客戶的單一交易本身已足以觸發有關規定，無須任何預先存在的業務關係。"
   }
  },
  {
