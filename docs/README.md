@@ -2,31 +2,25 @@
 
 [繁體中文版 →](README.zh-Hant.md)
 
-The 23 documents the question bank is written from, in English (`EN/`) and
-Traditional Chinese (`TC/`). The same number denotes the same document in both
-languages. All were downloaded from the official sources listed below (the
-C&ED Money Service Operators Licensing System portal, and Hong Kong
-e-Legislation for the Ordinance). They were checked against the portal again on
-24 September 2026: 02 and 03 are byte-identical to the editions it now serves.
+The 23 documents the question bank and the revision pack are written from, in
+English (`EN/`) and Traditional Chinese (`TC/`). The same number denotes the
+same document in both languages. All were downloaded from the official sources
+listed below (the C&ED Money Service Operators Licensing System portal, and Hong
+Kong e-Legislation for the Ordinance), and were last checked against the portal
+on 24 September 2026.
 
 Documents 01–09 are the Guidance Notes and the guidelines, 10 is the
 Ordinance, 11–21 are the circulars still in force, oldest first, 22 is the FAQ
-page and 23 is the official sample paper. Seven of the circulars were archived
-on 6 September 2026; the other four, 15, 17, 20 and 21, were missed then and
-added on 24 September 2026. The Guidance Notes ¶6.1 name five reference sources
-for the assessment and item (5) is "Circulars issued by C&ED to MSOs", so they
-are examinable.
+page and 23 is the official sample paper. The Guidance Notes ¶6.1 name five
+reference sources for the assessment and item (5) is "Circulars issued by C&ED
+to MSOs", so the circulars are examinable.
 
-Only current documents belong here. A circular whose content a later official
-document now covers is superseded, and on 24 September 2026 ten were removed.
-Forty-nine questions cited nine of them. Five were re-cited to the current
-document that makes the same point; the other 44 were re-aimed onto current
-sources, because their point was history or only the circular made it. The 23
-that remain were then renumbered 01–23 in the order above, so these numbers
-differ from the ones in earlier commits. The FATF-statement circulars replace
-one another after each FATF plenary, so only the latest, 20, is kept. The
-UN-sanctions notices are still left out: each announces one change to a
-sanctions list, and the examinable rules on screening are in 02 ch. 6.
+Only current documents belong here: a circular whose content a later official
+document now covers is superseded, and is removed. The FATF-statement circulars
+replace one another after each FATF plenary, so only the latest, 20, is kept.
+The UN-sanctions notices are left out: each announces one change to a sanctions
+list, and the examinable rules on screening are in 02 ch. 6. The numbers 01–23
+date from 24 September 2026; earlier commits number the documents differently.
 
 | # | Document (`EN/`) | Version | Source |
 |---|---|---|---|
@@ -67,21 +61,19 @@ the per-document figures can sum above the module total.
 
 | Module | Source documents (questions citing each) | Questions |
 |---|---|---|
-| **1** General knowledge on AML/CFT and counter-proliferation financing | **02** ch. 1 & 6 (102) · **19** (18) · **10** Sch. 1 (11) · **11** (6) | 126 |
+| **1** General knowledge on AML/CFT and counter-proliferation financing | **02** ch. 1, 6–7 (102) · **19** (18) · **10** (12) · **11** (6) | 126 |
 | **2** Part 1–7 of the AMLO | **10** Parts 1–7 (307) · **18** (1) | 308 |
-| **3** Schedules to the AMLO | **10** Sch. 2 (183), Sch. 4 (38), Sch. 1 (32), Sch. 3 (7) | 260 |
-| **4** Guidelines promulgated by the C&ED | **03** (171) · **01** (56) · **07** (25) · **05** (20) · **06** (17) · **08** (14) · **10** (13) · **09** (8) · **04** (6) · **16** (5) · **19** (1) | 310 |
-| **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (89) · **10** (5) · **07** (3) · **05** (1) · **19** (1) | 96 |
-| **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11 (300) · **10** (20) · **14** (14) · **13** (12) · **22** (8) · **12** (6) | 340 |
-| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** ch. 7–9 (153) · **10** (3) · **22** (1) | 154 |
+| **3** Schedules to the AMLO | **10** Sch. 2 (183), Sch. 4 (38), Sch. 1 (32), Sch. 3 (7) · **02** ch. 4, 10–11 (16) | 260 |
+| **4** Guidelines promulgated by the C&ED | **03** (171) · **01** (56) · **07** (25) · **05** (20) · **06** (17) · **08** (14) · **10** (13) · **09** (8) · **04** (7) · **16** (5) · **19** (1) | 310 |
+| **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (91) · **10** (4) · **07** (3) · **05** (1) · **19** (1) | 96 |
+| **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11, App. A, glossary (301) · **10** (21) · **14** (14) · **13** (12) · **22** (8) · **12** (6) | 340 |
+| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** ch. 3, 7–9 (153) · **10** (3) · **22** (1) | 154 |
 
-Five documents feed no question of their own: **23** and the four added on
-24 September 2026, **15**, **17**, **20** and **21**. For **23** that is by
-design — it is the format template, described just below. **22**, the FAQ
-page, fed none until 24 September 2026, when nine re-aimed questions were
-written from its Guideline series, eight in module 6 and one in module 7. Its
-remaining Guideline questions, each naming the paragraph it elaborates, are the
-obvious place to add more.
+Five documents feed no question of their own: **15**, **17**, **20**, **21**
+and **23**. For **23** that is by design — it is the format template, described
+just below. **22**, the FAQ page, feeds nine questions from its Guideline
+series, eight in module 6 and one in module 7; its other Guideline questions,
+each naming the paragraph it elaborates, are the obvious place to add more.
 
 Two of these are worth singling out. **23** is the only set of sample questions
 C&ED has ever published, and it settles what the paper looks like: seven items,
@@ -99,7 +91,6 @@ Live pages to re-check for newer editions, for the next FATF statement (which
 replaces 20), and for the UN-sanctions notices (deliberately not archived here):
 
 - FAQs: <https://eservices.customs.gov.hk/MSOS/common/faqs>
-
 - Guidelines: <https://eservices.customs.gov.hk/MSOS/common/guidelines>
 - Circulars: <https://eservices.customs.gov.hk/MSOS/common/circulars>
 - The Ordinance: <https://www.elegislation.gov.hk/hk/cap615>
@@ -109,8 +100,8 @@ Administrative Region and are reproduced here for study reference only.
 
 They are **not covered by the licences that apply to the rest of this
 repository** — see [LICENSE-CONTENT.md](../LICENSE-CONTENT.md). The MIT licence
-on the code and the CC BY licence on the question bank grant no rights in them,
-because they are not the author's to grant. If you redistribute this repository
+on the rest of the repository grants no rights in them, because they are not the
+author's to grant. If you redistribute this repository
 or reuse the bank commercially, satisfy yourself about the terms on which these
 documents may be copied; every one is available from the official sources listed
 above.

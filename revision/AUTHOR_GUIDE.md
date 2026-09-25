@@ -108,10 +108,10 @@ Write `<key>.py` (and optionally `<key>_fig.py`). It must define:
   the exact sources drawn on. No `&` in `short`/`tab`.
 
 ## Check your work (mandatory loop)
-Build the pack first (`python pack_build.py`), then run:
-`cd revision && PYTHONIOENCODING=utf-8 python review/page_check.py <key> <KEY>_BODY <KEY>_NAV <key>`
+Build the pack first (`python pack_build.py`), then run, from `revision/`:
+`PYTHONIOENCODING=utf-8 python review/page_check.py <key> <KEY>_BODY <KEY>_NAV <key>`
 It prints problems (language purity, dead links, figures not drawn per view, bullets, duplicate ids) and
-renders every figure to `review/preview/<key>_figN_{en,tc,both}.png`. Open every PNG with the Read tool
+renders every figure to `review/preview/<key>_figN_{en,tc,both}.png`. Open every PNG
 and look hard: overlapping or clipped text, labels far from lines, arrows crossing boxes/text, cramped or
 half-empty boxes, small text. Fix and re-run until the checker is clean and the figures look right.
 Also re-read your text against the sources once more at the end.
