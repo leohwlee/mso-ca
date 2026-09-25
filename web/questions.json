@@ -17662,14 +17662,14 @@
    "explain": "Section 18(3)(a) lists an accounting professional, estate agent, legal professional and TCSP licensee as specified intermediaries only where the person can satisfy the institution that they have adequate procedures in place to prevent ML/TF. Being required to register, be licensed or be regulated under an equivalent jurisdiction's law is instead the section 18(3)(c) test for overseas professionals, not the domestic professionals covered by paragraph (a). No residence period or minimum-engagement duration appears in section 18(3)."
   },
   "tc": {
-   "q": "會計專業人士、地產代理、法律專業人士或信託或公司服務提供者持牌人，須另行符合甚麼條件方可擔任指明中介人？",
+   "q": "會計專業人士、地產代理、法律專業人士或信託或公司服務持牌人，須另行符合甚麼條件方可擔任指明中介人？",
    "options": [
     "須能令該機構信納其設有充分程序以防止洗錢及恐怖分子資金籌集",
     "須根據對等司法管轄區的法律被規定註冊、領牌，或受該法律規管",
     "須已在香港境內連續通常居住至少三年的時間",
     "須已連續不間斷地為該同一客戶行事至少十二個月"
    ],
-   "explain": "第18(3)(a)條將會計專業人士、地產代理、法律專業人士及信託或公司服務提供者持牌人列為指明中介人，但須以該人能令機構信納其設有充分程序以防止洗錢及恐怖分子資金籌集為條件。根據對等司法管轄區法律須註冊、領牌或受規管，是第18(3)(c)條就境外專業人士所定的測試，並非適用於(a)款所涵蓋的本地專業人士。第18(3)條並無居住年期或最短委聘期的規定。"
+   "explain": "第18(3)(a)條將會計專業人士、地產代理、法律專業人士及信託或公司服務持牌人列為指明中介人，但須以該人能令機構信納其設有充分程序以防止洗錢及恐怖分子資金籌集為條件。根據對等司法管轄區法律須註冊、領牌或受規管，是第18(3)(c)條就境外專業人士所定的測試，並非適用於(a)款所涵蓋的本地專業人士。第18(3)條並無居住年期或最短委聘期的規定。"
   }
  },
  {
@@ -20664,28 +20664,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.1(1) (definition of “correspondent banking”)",
-   "tc": "《打擊洗錢條例》附表2第1(1)條（「代理銀行服務」的定義）"
+   "en": "AMLO Sch. 2, s.18(3)(b); AML/CFT Guideline for MSOs (Jun 2023) ¶4.11.8",
+   "tc": "《打擊洗錢條例》附表2第18(3)(b)條；《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.11.8段"
   },
   "en": {
-   "q": "How is \"correspondent banking\" defined in Schedule 2?",
+   "q": "Section 18 of Schedule 2 allows an MSO to carry out customer due diligence measures by means of a specified intermediary, provided the intermediary consents in writing and the MSO is satisfied that it will provide copies of its CDD records on request without delay. Another licensed MSO introduces a customer to the MSO and offers to act as its specified intermediary for that customer. Can it do so?",
    "options": [
-    "Banking services by an authorized institution to another, enabling it to serve its own customers",
-    "Any banking relationship between two authorized institutions located in different jurisdictions",
-    "The provision of clearing and settlement services between banks within Hong Kong",
-    "Any arrangement under which one bank simply holds an account with another bank"
+    "No, because a licensed MSO is not among the financial institutions that can be specified intermediaries",
+    "Yes, because a licensed MSO is a financial institution, provided it consents in writing to act",
+    "Yes, provided it can satisfy the MSO that it has adequate procedures in place to prevent ML/TF",
+    "No, because a specified intermediary must carry on its business in a place outside Hong Kong"
    ],
-   "explain": "The Schedule 2 definition is the provision of banking services by an authorized institution to another institution to enable that other institution to provide services and products to its own customers. A cross-jurisdiction relationship, Hong Kong clearing and settlement services, or simply holding an account with another bank do not by themselves capture the nested-customer element that defines correspondent banking."
+   "explain": "Section 18(1) permits a customer due diligence measure to be carried out by means of an intermediary specified in section 18(3), subject to the written-consent and records conditions. Section 18(3) specifies: (a) an accounting professional, estate agent, legal professional or TCSP licensee able to satisfy the institution that it has adequate procedures to prevent ML/TF; (b) a financial institution that is an authorized institution, a licensed corporation, an authorized insurer, a licensed individual insurance agent, a licensed insurance agency or a licensed insurance broker company; (c) certain professionals and institutions in an equivalent jurisdiction that are regulated there, have measures to comply with requirements similar to those of Schedule 2 and are supervised for that compliance; and (d) a related foreign financial institution meeting the group-policy conditions. A licensed MSO is a financial institution, but paragraph (b) does not name it and it falls within no other paragraph, so it cannot be a specified intermediary; Guideline ¶4.11.8 lists the same domestic intermediaries. Written consent is a condition for relying on an intermediary that is already specified, so it cannot make a licensed MSO one; the adequate-procedures test belongs to the professionals in paragraph (a); and paragraphs (a) and (b) cover Hong Kong persons, so an intermediary need not be outside Hong Kong."
   },
   "tc": {
-   "q": "附表2如何界定「代理銀行服務」？",
+   "q": "附表2第18條容許金錢服務經營者藉著指明中介人執行客戶盡職審查措施，條件是該中介人藉書面同意擔任其中介人，而經營者信納該中介人可應要求，沒有延誤地提供其在執行措施時取得的文件複本或紀錄。另一持牌金錢服務經營者向該經營者介紹一名客戶，並表示願意就該客戶擔任其指明中介人。它可否擔任？",
    "options": [
-    "認可機構向另一機構提供銀行服務，使該機構能向其本身客戶提供服務",
-    "位於不同司法管轄區的任何兩間認可機構之間所存在的銀行業務關係",
-    "香港境內任何銀行彼此之間提供的結算及交收服務安排",
-    "一間銀行單純在另一間銀行開立戶口的任何安排，不論規模"
+    "不可以，因為持牌金錢服務經營者並不屬可擔任指明中介人的金融機構",
+    "可以，因為持牌金錢服務經營者屬金融機構，但須藉書面同意擔任中介人",
+    "可以，條件是它能令經營者信納其設有充分程序以防止洗錢及恐怖分子資金籌集",
+    "不可以，因為指明中介人必須是在香港以外地方經營業務的人士或機構"
    ],
-   "explain": "附表2的定義為認可機構向另一機構提供銀行服務，使該另一機構能向其本身客戶提供服務及產品。跨司法管轄區的銀行關係、香港境內的結算及交收服務，或單純在另一銀行開立戶口，本身均未能反映界定代理銀行服務的「客戶之客戶」元素。"
+   "explain": "第18(1)條容許藉著第18(3)條指明的中介人執行客戶盡職審查措施，但須符合書面同意及提供紀錄的條件。第18(3)條所指明的中介人是：(a) 能令有關機構信納其本身有充分程序以防止洗錢及恐怖分子資金籌集的會計專業人士、地產代理、法律專業人士或信託或公司服務持牌人；(b) 屬認可機構、持牌法團、獲授權保險人、持牌個人保險代理、持牌保險代理機構或持牌保險經紀公司的金融機構；(c) 在對等司法管轄區須註冊、領牌或受規管，已有措施確保遵從與附表2所施加的規定相類似的規定，並就此受當地主管當局監管的若干專業人士及機構；以及 (d) 符合集團政策條件的相關外地金融機構。持牌金錢服務經營者雖屬金融機構，但(b)段並無將其列出，它亦不屬任何其他一段，故不能擔任指明中介人；《打擊洗錢及恐怖分子資金籌集指引》第4.11.8段列出的本地中介人亦相同。書面同意是依賴已屬指明中介人者的條件，並不能令持牌金錢服務經營者成為指明中介人；充分程序的測試屬(a)段專業人士的條件；而(a)及(b)段涵蓋的是香港的人士及機構，故中介人並不須位於香港以外地方。"
   }
  },
  {
@@ -21204,28 +21204,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.14(1)(a)",
-   "tc": "《打擊洗錢條例》附表2第14(1)(a)條"
+   "en": "AMLO Sch. 2, s.14(1) and s.1(1) (definition of “correspondent banking”)",
+   "tc": "《打擊洗錢條例》附表2第14(1)條及第1(1)條（「代理銀行服務」的定義）"
   },
   "en": {
-   "q": "Before establishing a correspondent banking relationship, what information must an authorized institution collect about the proposed respondent bank?",
+   "q": "Section 14 of Schedule 2 sets special requirements that must be met before a correspondent banking relationship is established: sufficient information about the proposed respondent bank must be collected, its reputation and the quality of its supervision determined, and its AML/CFT controls assessed. Who must meet those requirements, and in relation to which institutions?",
    "options": [
-    "Sufficient information to understand fully the respondent bank's business",
-    "Only the respondent bank's audited financial statements, without further inquiry",
-    "Only written confirmation that the respondent bank holds a valid banking licence",
-    "Only a list of the respondent bank's current directors and controllers"
+    "An authorized institution, in relation to an institution outside Hong Kong whose business is similar to its own",
+    "A financial institution such as a licensed MSO, in relation to a bank with which it keeps an account",
+    "A licensed MSO, in relation to an overseas counterpart through which it pays out its customers' remittances",
+    "An authorized institution, in relation to another authorized institution in Hong Kong that uses its services"
    ],
-   "explain": "Section 14(1)(a) of Schedule 2 requires collecting sufficient information about the proposed respondent bank to enable the institution to understand fully the nature of that bank's business — not merely one document type — alongside determining its reputation under paragraph (b) and assessing its AML/CFT controls under paragraph (c)."
+   "explain": "Section 14(1) is addressed to an authorized institution: before establishing a correspondent banking relationship with an institution located in a place outside Hong Kong that carries on a business similar to that carried on by an authorized institution (the proposed respondent bank), it must collect sufficient information to understand fully the nature of that bank's business, determine from publicly available information its reputation and the quality of its supervision, and assess its anti-money laundering and anti-terrorist financing controls. Section 14(2) then adds senior management approval and further conditions. Correspondent banking is itself defined in section 1(1) as the provision of banking services by an authorized institution to another institution to enable the latter to provide services and products to its own customers. Section 14 places no duty on any other financial institution: a licensed MSO is not an authorized institution, so it bears no section 14 duty, whether it keeps an account with a bank or pays out remittances through an overseas counterpart. Nor does section 14 reach an authorized institution's dealings with another authorized institution in Hong Kong: the proposed respondent bank must be located in a place outside Hong Kong."
   },
   "tc": {
-   "q": "在建立代理銀行服務關係前，認可機構須就擬受代理銀行收集甚麼資料？",
+   "q": "附表2第14條訂明在建立代理銀行服務關係前須符合的特別規定：須收集關於擬受代理銀行的足夠資料，斷定其信譽及所受監管的質素，並評估其打擊洗錢及打擊恐怖分子資金籌集的管控措施。須符合該等規定的是誰？所涉的又是哪些機構？",
    "options": [
-    "足夠資料，使其能完全了解該擬受代理銀行的業務",
-    "只限該受代理銀行的經審計財務報表，並不再作查詢",
-    "只限書面確認該受代理銀行持有有效銀行牌照",
-    "只限該受代理銀行現任董事及控制人的名單"
+    "認可機構，就所經營業務與其本身相類似的香港以外地方機構而言",
+    "金融機構，例如持牌金錢服務經營者，就其開立戶口的銀行而言",
+    "持牌金錢服務經營者，就其用以向客戶支付匯款的海外交易對手而言",
+    "認可機構，就使用其銀行服務的另一間位於香港的認可機構而言"
    ],
-   "explain": "附表2第14(1)(a)條規定須收集關於該擬受代理銀行的足夠資料，使其能完全了解該銀行業務的性質——不僅限於單一文件——此外(b)段須斷定其信譽，(c)段須評估其打擊洗錢及打擊恐怖分子資金籌集的管控措施。"
+   "explain": "第14(1)條的對象是認可機構：凡位於香港以外地方的某機構所經營的業務，與認可機構所經營者相類似（擬受代理銀行），該認可機構在與擬受代理銀行建立代理銀行服務關係前，須收集關於擬受代理銀行的足夠資料，以令本身能夠完全了解其業務的性質；基於公眾可用的資料，斷定其信譽及所受監管的質素；並評估其打擊洗錢及打擊恐怖分子資金籌集的管控措施。第14(2)條再加上須取得高級管理層批准等條件。代理銀行服務本身在第1(1)條界定為由一間認可機構向另一間機構提供銀行服務，使後者能向其本身客戶提供服務及產品。第14條並無對其他金融機構施加責任：持牌金錢服務經營者並非認可機構，不論它在銀行開立戶口，或透過海外交易對手支付匯款，均不負第14條的責任。第14條亦不涵蓋認可機構與另一間香港認可機構之間的往來：擬受代理銀行必須位於香港以外地方。"
   }
  },
  {
@@ -21233,28 +21233,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.14(1)(b)",
-   "tc": "《打擊洗錢條例》附表2第14(1)(b)條"
+   "en": "AMLO Sch. 2, s.18(3)(c); AML/CFT Guideline for MSOs (Jun 2023) ¶4.11.10",
+   "tc": "《打擊洗錢條例》附表2第18(3)(c)條；《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.11.10段"
   },
   "en": {
-   "q": "From what source must an authorized institution determine the reputation of a proposed respondent bank and the quality of its supervision?",
+   "q": "An MSO proposes to rely on an unrelated bank abroad to carry out customer due diligence measures on customers that the bank introduces. The bank is licensed and supervised in its home jurisdiction, which is not a member of the Financial Action Task Force and does not impose requirements similar to those imposed under Schedule 2. Can the bank act as the MSO's specified intermediary under section 18 of Schedule 2?",
    "options": [
-    "Publicly available information about the bank",
-    "Information supplied by the respondent bank itself",
-    "A report commissioned from an independent consultant",
-    "Confidential intelligence provided by the Monetary Authority"
+    "No, because an unrelated overseas intermediary must carry on business in an equivalent jurisdiction",
+    "Yes, because the equivalent-jurisdiction test governs overseas lawyers and accountants rather than banks",
+    "Yes, because being licensed and supervised in its home jurisdiction is what section 18 requires",
+    "No, because an overseas intermediary must belong to the same group of companies as the MSO"
    ],
-   "explain": "Section 14(1)(b) requires the authorized institution to determine, from publicly available information, the reputation of the proposed respondent bank and the quality of its supervision by authorities in that place performing functions similar to those of the Monetary Authority."
+   "explain": "Section 18(3)(c) specifies overseas intermediaries, among them an institution that carries on, in an equivalent jurisdiction, a business similar to that carried on by an intermediary financial institution such as an authorized institution, provided it is required to be registered or licensed, or is regulated, under the law of that jurisdiction, has measures in place to ensure compliance with requirements similar to those imposed under Schedule 2, and is supervised for that compliance by an authority there. Under section 1(1) an equivalent jurisdiction is a member of the Financial Action Task Force other than Hong Kong, or a jurisdiction that imposes requirements similar to those imposed under Schedule 2. The bank's home jurisdiction is neither, so the bank falls outside paragraph (c) however it is licensed and supervised, and as an unrelated bank it is not a related foreign financial institution under paragraph (d). Guideline ¶4.11.10 sets out the same criteria. The equivalent-jurisdiction condition in paragraph (c) applies to institutions carrying on a business similar to that of an intermediary financial institution, banks among them, as well as to overseas professionals; licensing and supervision are two of the paragraph (c) conditions but not all of them; and an overseas intermediary need not belong to the MSO's group, since paragraph (c) is open to unrelated intermediaries and relatedness matters only under paragraph (d)."
   },
   "tc": {
-   "q": "認可機構須基於甚麼來源斷定擬受代理銀行的信譽及其所受監管的質素？",
+   "q": "某金錢服務經營者擬依賴海外一間與其並無關連的銀行，對該銀行所介紹的客戶執行客戶盡職審查措施。該銀行在其所在司法管轄區領有牌照並受監管，但該司法管轄區並非財務行動特別組織的成員，亦沒有施加與根據附表2而施加的規定相類似的規定。該銀行可否根據附表2第18條擔任該經營者的指明中介人？",
    "options": [
-    "關於該銀行的公眾可用的資料",
-    "該受代理銀行本身提供的資料",
-    "委聘獨立顧問撰寫的報告",
-    "金融管理專員提供的機密情報"
+    "不可以，因為與其並無關連的海外中介人必須在對等司法管轄區經營業務",
+    "可以，因為對等司法管轄區的規定針對的是海外律師及專業會計師，而非銀行",
+    "可以，因為在其所在司法管轄區領有牌照並受監管，已符合第18條的規定",
+    "不可以，因為海外中介人必須是與該經營者屬同一公司集團的機構"
    ],
-   "explain": "第14(1)(b)條規定認可機構須基於公眾可用的資料，斷定該擬受代理銀行的信譽，以及在該地方執行與金融管理專員的職能相類似的職能的主管當局對其監管的質素。"
+   "explain": "第18(3)(c)條指明海外中介人，其中包括在對等司法管轄區經營與中介人金融機構（例如認可機構）所經營的業務相類似的業務的機構，但該機構須按該司法管轄區的法律規定，須根據該法律註冊或領牌或受規管，已有措施確保遵從與根據附表2施加的規定相類似的規定，並在遵從該等規定方面受到該司法管轄區主管當局監管。根據第1(1)條，對等司法管轄區指屬財務行動特別組織的成員的司法管轄區（香港除外），或施加與根據附表2而施加的規定相類似的規定的司法管轄區。該銀行所在的司法管轄區兩者皆非，故不論該銀行如何領牌及受監管，均不屬(c)段所指；而由於該銀行與經營者並無關連，它亦不是(d)段所指的相關外地金融機構。《打擊洗錢及恐怖分子資金籌集指引》第4.11.10段載有相同準則。(c)段的對等司法管轄區條件，既適用於海外專業人士，亦適用於經營與中介人金融機構相類似業務的機構（包括銀行）；領有牌照及受監管只是(c)段的其中兩項條件；而海外中介人並不須與經營者屬同一公司集團，因(c)段容許與經營者並無關連的中介人，是否有關連只在(d)段才相關。"
   }
  },
  {
@@ -21306,28 +21306,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.14(2)(d)",
-   "tc": "《打擊洗錢條例》附表2第14(2)(d)條"
+   "en": "AMLO Sch. 2, s.12(3)(e)",
+   "tc": "《打擊洗錢條例》附表2第12(3)(e)條"
   },
   "en": {
-   "q": "In relation to a respondent bank's customers who will be able to directly operate the accounts maintained for the respondent bank, of what must the authorized institution be satisfied?",
+   "q": "An MSO acting as ordering institution must record particulars of the recipient of a wire transfer. It is sending $15,000 for a customer who holds no account with it to a recipient who will collect the money in cash at a bank in Manila and holds no account with that bank. Which number must the MSO record for the recipient?",
    "options": [
-    "That the bank will verify and monitor those customers, and provide documents on request",
-    "That the bank will verify those customers' identities, with no ongoing monitoring obligation",
-    "That those customers will each be individually approved by the authorized institution",
-    "That the number of such customers will not exceed a limit fixed by the authorized institution"
+    "A unique reference number that the Manila bank assigns to the transfer",
+    "A unique reference number that the MSO itself assigns to the transfer",
+    "The number of the identity document the recipient will show at the bank",
+    "The number of the account the Manila bank keeps for settling with the MSO"
    ],
-   "explain": "Section 14(2)(d) requires satisfaction on two combined points: that the respondent bank will verify and continuously monitor those customers to standards similar to Schedule 2, and that it will provide the resulting documents, data or information on request. Verification alone, without the monitoring limb, does not satisfy the sub-section — the two are joined by 'and', which is why the option promising verification with no ongoing monitoring obligation is wrong despite being half right."
+   "explain": "Section 12(3)(e) requires an ordering institution to record the number of the recipient's account maintained with the beneficiary institution and to which the money for the wire transfer is paid or, in the absence of such an account, a unique reference number assigned to the wire transfer by the beneficiary institution. The Manila bank, at which the money is made available to the recipient, is the beneficiary institution, so the number to record is the reference number it assigns. A reference number assigned by the ordering institution itself is what section 12(3)(b) calls for where the originator has no account from which the money is paid: it identifies the originator's side of the transfer, not the recipient's. Section 12(3) does not call for the recipient's identity document number, and the account the Manila bank uses to settle with the MSO is not an account of the recipient."
   },
   "tc": {
-   "q": "就將能夠直接操作為擬受代理銀行維持的戶口的該擬受代理銀行客戶，認可機構須信納甚麼？",
+   "q": "屬匯款機構的金錢服務經營者須就電傳轉賬記錄收款人的資料。某經營者為一名沒有在其開立戶口的客戶匯出15,000元，收款人將在馬尼拉一間銀行以現金提取款項，並沒有在該銀行開立戶口。該經營者須為收款人記錄哪一個號碼？",
    "options": [
-    "該銀行會核實並監察該等客戶，並應要求提供文件",
-    "該銀行會核實客戶的身分，但並無持續監察的責任",
-    "該等客戶均須先經該認可機構逐一審批同意",
-    "該等客戶的數目不會超過該認可機構所定的上限"
+    "由馬尼拉該銀行編配予該項轉賬的獨特參考編號",
+    "由該經營者本身編配予該項轉賬的獨特參考編號",
+    "收款人在該銀行提款時出示的識別文件的號碼",
+    "馬尼拉該銀行為與該經營者結算而開立的戶口號碼"
    ],
-   "explain": "第14(2)(d)條規定須信納兩項合併要點：該擬受代理銀行會按與附表2相類似的規定核實並持續監察該等客戶，並會應要求提供所取得的文件、數據或資料。單憑核實而不包括監察部分，並不符合該款規定——兩者以「並」字連接，這正是只提核實身分而不設持續監察責任的選項雖然說對一半卻仍然錯誤的原因。"
+   "explain": "第12(3)(e)條規定，匯款機構須記錄該收款人在有關收款機構開立的戶口（該戶口為電傳轉賬所付金錢的對象）的號碼，或（如沒有該戶口）由該收款機構編配予該電傳轉賬的獨特參考編號。款項在馬尼拉該銀行向收款人提供，該銀行即屬收款機構，故須記錄的是由它編配的參考編號。由匯款機構本身編配的獨特參考編號，是第12(3)(b)條在匯款人沒有作為電傳轉賬所付金錢來源的戶口時所規定的，涉及的是匯款人一方，而非收款人一方。第12(3)條並無規定記錄收款人的識別文件號碼，而馬尼拉該銀行為與經營者結算而開立的戶口，亦不是收款人的戶口。"
   }
  },
  {
@@ -21335,28 +21335,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.7(2)",
-   "tc": "《打擊洗錢條例》附表2第7(2)條"
+   "en": "AMLO Sch. 2, s.12(3)",
+   "tc": "《打擊洗錢條例》附表2第12(3)條"
   },
   "en": {
-   "q": "What was an authorized institution required to do on the commencement of the Ordinance in relation to a pre-existing correspondent banking relationship?",
+   "q": "Section 12(3) of Schedule 2 requires an MSO acting as ordering institution to record specified particulars of the originator and of the recipient of a wire transfer. An MSO is to send a customer's $20,000 wire transfer to a bank overseas. By when must it make that record?",
    "options": [
-    "Terminate the relationship, unless the three section 7(2) conditions were met",
-    "Continue the relationship regardless, since it predated the Ordinance's commencement",
-    "Apply to the Monetary Authority in writing for permission to continue the relationship",
-    "Convert the relationship into an ordinary customer account relationship automatically"
+    "Before it carries out the wire transfer to the overseas bank",
+    "Within 3 business days after it has carried out the transfer",
+    "Once the overseas bank has confirmed payment to the recipient",
+    "Before the recipient collects the money from the overseas bank"
    ],
-   "explain": "Section 7(2) required termination on the commencement date unless, before that date, the institution had carried out the section 14(1) measures and was satisfied the respondent bank's controls were adequate and effective; had documented both parties' responsibilities; and was satisfied as to the respondent bank's handling of directly-operating customers. No application to the Monetary Authority or automatic conversion is provided for."
+   "explain": "Section 12(3) fixes the timing in its opening words: before carrying out a wire transfer, a financial institution that is an ordering institution must record the originator's name; the number of the originator's account from which the money is paid or, in the absence of such an account, a unique reference number it assigns to the transfer; the originator's address, customer identification number or identification document number or, for an individual, date and place of birth (which section 12(3A) disapplies below $8,000); the recipient's name; and the recipient's account number or a unique reference number. The 3-business-day period in section 12 belongs to section 12(6): an institution that includes only the information recorded under section 12(3)(b) with a domestic wire transfer must, on request, provide the information recorded under section 12(3)(a) and (c) within 3 business days after receiving the request. Nothing in section 12(3) lets the record wait until payment is confirmed, or until just before the recipient collects the money."
   },
   "tc": {
-   "q": "就本條例生效前已存在的代理銀行服務關係，認可機構在本條例生效時須怎樣做？",
+   "q": "附表2第12(3)條規定，屬匯款機構的金錢服務經營者須記錄電傳轉賬的匯款人及收款人的若干資料。某經營者將為客戶把20,000元以電傳轉賬匯往海外一間銀行。它須於何時作出該紀錄？",
    "options": [
-    "結束該關係，除非三項法定條件已獲符合",
-    "不論如何均可繼續該關係，因其早於本條例生效",
-    "以書面向金融管理專員申請准許繼續該關係",
-    "自動將該關係轉為一般客戶戶口關係"
+    "在向該海外銀行進行該項電傳轉賬之前",
+    "在進行該項電傳轉賬後的3個營業日內",
+    "在該海外銀行確認已向收款人付款之後",
+    "在收款人從該海外銀行提取款項之前"
    ],
-   "explain": "第7(2)條規定須於生效日期結束該關係，除非該機構在該日期前已執行第14(1)條所列的措施並信納該受代理銀行的管控措施充分並有效；已以文件記錄雙方的責任；並就該受代理銀行如何處理可直接操作戶口的客戶感到信納。條文並無向金融管理專員申請或自動轉換的安排。"
+   "explain": "第12(3)條的開首字句已訂明時間：在進行電傳轉賬之前，屬匯款機構的金融機構須記錄匯款人的姓名或名稱；該匯款人在該機構開立、作為電傳轉賬所付金錢來源的戶口的號碼，或（如沒有此戶口）由該機構編配予該電傳轉賬的獨特參考編號；匯款人的地址、客戶識別號碼或識別文件號碼，或（如匯款人屬個人）出生日期及地方（第12(3A)條訂明此項不適用於8,000元以下的款額）；收款人的姓名或名稱；以及收款人的戶口號碼或獨特參考編號。第12條中的3個營業日期限屬於第12(6)條：金融機構如就本地電傳轉賬只包括根據第12(3)(b)條記錄的資料，則須應要求，在接獲該要求後的3個營業日內，提供根據第12(3)(a)及(c)條記錄的資料。第12(3)條並無容許經營者延至付款獲確認後，或延至收款人提取款項之前，才作出紀錄。"
   }
  },
  {
@@ -42100,7 +42100,7 @@
    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》第4.11.9段，關於確定本地中介人是否符合第4.11.8段所載準則，下列哪些陳述正確？",
    "statements": [
     "金錢服務經營者應採取適當措施，以確定該本地中介人是否符合第4.11.8段所載的準則。",
-    "如該中介人屬法律專業人士或信託或公司服務提供者持牌人，有關措施可包括確定其是否須就該客戶遵從附表2的有關規定。",
+    "如該中介人屬法律專業人士或信託或公司服務持牌人，有關措施可包括確定其是否須就該客戶遵從附表2的有關規定。",
     "就該中介人的地位，或任何集團打擊洗錢／恐怖分子資金籌集標準的實施及審計程度作出查詢，並不屬有關措施。",
     "覆核該本地中介人打擊洗錢／恐怖分子資金籌集的政策及程序，屬該段所舉的措施之一。"
    ],
@@ -42111,7 +42111,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述3 不正確：第4.11.9(b)段把就該本地中介人的地位，或任何集團打擊洗錢／恐怖分子資金籌集標準的實施及審計程度作出查詢，列為經營者可採取的措施之一，故該做法不但沒有被排除，反而是該段明文所舉者。陳述1、2 及 4 正確：該段規定經營者應採取適當措施，以確定該本地中介人是否符合第4.11.8段所載準則；所舉例子包括如該中介人屬會計專業人士、地產代理、法律專業人士或信託或公司服務提供者持牌人，確定其是否須就該客戶遵從附表2的有關規定，以及覆核該中介人打擊洗錢／恐怖分子資金籌集的政策及程序。"
+   "explain": "陳述3 不正確：第4.11.9(b)段把就該本地中介人的地位，或任何集團打擊洗錢／恐怖分子資金籌集標準的實施及審計程度作出查詢，列為經營者可採取的措施之一，故該做法不但沒有被排除，反而是該段明文所舉者。陳述1、2 及 4 正確：該段規定經營者應採取適當措施，以確定該本地中介人是否符合第4.11.8段所載準則；所舉例子包括如該中介人屬會計專業人士、地產代理、法律專業人士或信託或公司服務持牌人，確定其是否須就該客戶遵從附表2的有關規定，以及覆核該中介人打擊洗錢／恐怖分子資金籌集的政策及程序。"
   },
   "format": "combination"
  },
