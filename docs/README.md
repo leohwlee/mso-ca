@@ -2,20 +2,31 @@
 
 [繁體中文版 →](README.zh-Hant.md)
 
-The 29 documents the question bank is written from, in English (`EN/`) and
+The 23 documents the question bank is written from, in English (`EN/`) and
 Traditional Chinese (`TC/`). The same number denotes the same document in both
 languages. All were downloaded from the official sources listed below (the
 C&ED Money Service Operators Licensing System portal, and Hong Kong
-e-Legislation for the Ordinance) and were the current editions on the portal
-as at 6 September 2026.
+e-Legislation for the Ordinance). They were checked against the portal again on
+24 September 2026: 02 and 03 are byte-identical to the editions it now serves.
 
-Documents 01–09 are the Guidance Notes and the guidelines, and 13 is the
-Ordinance. Everything else is a circular: 10–12, the three from 2026, were the
-only ones kept at first, and 14–29 were added on 6 September 2026 — the Guidance
-Notes ¶6.1 name five reference sources for the assessment and item (5) is
-"Circulars issued by C&ED to MSOs", so they are examinable.
-The rolling UN-sanctions and FATF-statement circulars are still deliberately
-left out — they change weekly and carry no examinable rule.
+Documents 01–09 are the Guidance Notes and the guidelines, 10 is the
+Ordinance, 11–21 are the circulars still in force, oldest first, 22 is the FAQ
+page and 23 is the official sample paper. Seven of the circulars were archived
+on 6 September 2026; the other four, 15, 17, 20 and 21, were missed then and
+added on 24 September 2026. The Guidance Notes ¶6.1 name five reference sources
+for the assessment and item (5) is "Circulars issued by C&ED to MSOs", so they
+are examinable.
+
+Only current documents belong here. A circular whose content a later official
+document now covers is superseded, and on 24 September 2026 ten were removed.
+Forty-nine questions cited nine of them. Five were re-cited to the current
+document that makes the same point; the other 44 were re-aimed onto current
+sources, because their point was history or only the circular made it. The 23
+that remain were then renumbered 01–23 in the order above, so these numbers
+differ from the ones in earlier commits. The FATF-statement circulars replace
+one another after each FATF plenary, so only the latest, 20, is kept. The
+UN-sanctions notices are still left out: each announces one change to a
+sanctions list, and the examinable rules on screening are in 02 ch. 6.
 
 | # | Document (`EN/`) | Version | Source |
 |---|---|---|---|
@@ -28,26 +39,20 @@ left out — they change weekly and carry no examinable rule.
 | 07 | Guidelines for Submission of AML/CFT Policy | Ver 12-2019 | MSOS portal, guidelines |
 | 08 | Disciplinary Action Guideline on Pecuniary Penalty | Apr 2018 | MSOS portal, guidelines |
 | 09 | Disciplinary Fining Guideline | May 2018 | MSOS portal, guidelines |
-| 10 | Circular: Trade-based Money Laundering Guidance (MSSB/MIS_01/2026) | 20 Jan 2026 | MSOS portal, circulars |
-| 11 | Circular: Fee Revision for MSO Licence (MSSB/MIS_02/2026) | 13 Mar 2026 | MSOS portal, circulars |
-| 12 | Circular: Licensing Guide New Fees (MSSB/MIS_03/2026) | 15 May 2026 | MSOS portal, circulars |
-| 13 | Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615 (consolidated) | as at 15 May 2026 | e-Legislation, verified copy |
-| 14 | Circular: Cross-boundary Movement of Currency Ordinance, Cap. 629 (MSSB/MIS_06/2018) | 31 Jul 2018 | MSOS portal, circulars |
-| 15 | Circular: ML/TF Institutional Risk Assessment (MSSB/MIS_07/2018) | 13 Aug 2018 | MSOS portal, circulars |
-| 16 | Circular: Suspicious Transaction Report (MSSB/MIS_08/2018) | 13 Aug 2018 | MSOS portal, circulars |
-| 17 | Circular: FAQ Applicable to All MSOs (MSSB/GUIDE_01/2019) | 29 Mar 2019 | MSOS portal, circulars |
-| 18 | Circular: Competence Assessment for MSOs (MSSB/MIS_01/2021) | 4 Mar 2021 | MSOS portal, circulars |
-| 19 | Competence Assessment — Sample Questions (MSSB/CA_01/2021) | 12 May 2021 | MSOS portal, circulars |
-| 20 | Circular: Competence Assessment on Licence Renewal (MSSB/MIS_04/2021) | 3 Dec 2021 | MSOS portal, circulars |
-| 21 | Circular: ML/TF Risks of Delivery Channels (MSSB/MIS_05/2021) | 13 Dec 2021 | MSOS portal, circulars |
-| 22 | Circular: Record-keeping Requirements Reminder (MSSB/MIS_04/2022) | 16 Jun 2022 | MSOS portal, circulars |
-| 23 | Circular: Passage of the AMLO Amendment Bill 2022 (MSSB/MIS_08/2022) | 12 Dec 2022 | MSOS portal, circulars |
-| 24 | Circular: Consultation Conclusions on the Revised AML/CFT Guideline (MSSB/MIS_02/2023) | 31 May 2023 | MSOS portal, circulars |
-| 25 | Circular: Supervisory Findings on Customer Due Diligence (MSSB/MIS_03/2023) | 22 Nov 2023 | MSOS portal, circulars |
-| 26 | Circular: ML/TF Risks of Third Party Payments (MSSB/MIS_01/2024) | 17 Sep 2024 | MSOS portal, circulars |
-| 27 | Circular: E-submission of the Periodic Return (MSSB/MIS_02/2025) | 30 May 2025 | MSOS portal, circulars |
-| 28 | Circular: Amendments to the Money Changers Ordinance, Cap. 34 (MSSB/MIS_04/2025) | 17 Nov 2025 | MSOS portal, circulars |
-| 29 | FAQ applicable to all MSOs — the portal page itself (`.md`, not a PDF) | as at 8 Dec 2022 | MSOS portal, FAQs page |
+| 10 | Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615 (consolidated) | as at 15 May 2026 | e-Legislation, verified copy |
+| 11 | Circular: Cross-boundary Movement of Currency Ordinance, Cap. 629 (MSSB/MIS_06/2018) | 31 Jul 2018 | MSOS portal, circulars |
+| 12 | Circular: ML/TF Risks of Delivery Channels (MSSB/MIS_05/2021) | 13 Dec 2021 | MSOS portal, circulars |
+| 13 | Circular: Supervisory Findings on Customer Due Diligence (MSSB/MIS_03/2023) | 22 Nov 2023 | MSOS portal, circulars |
+| 14 | Circular: ML/TF Risks of Third Party Payments (MSSB/MIS_01/2024) | 17 Sep 2024 | MSOS portal, circulars |
+| 15 | Circular: Fraudulent Websites and Social Media Platforms related to MSOs (MSSB/MIS_01/2025) | 24 Apr 2025 | MSOS portal, circulars |
+| 16 | Circular: E-submission of the Periodic Return (MSSB/MIS_02/2025) | 30 May 2025 | MSOS portal, circulars |
+| 17 | Circular: E-form Submission for Passenger Information (Currency and Bearer Negotiable Instruments) (MSSB/MIS_03/2025) | 23 Jun 2025 | MSOS portal, circulars |
+| 18 | Circular: Amendments to the Money Changers Ordinance, Cap. 34 (MSSB/MIS_04/2025) | 17 Nov 2025 | MSOS portal, circulars |
+| 19 | Circular: Trade-based Money Laundering Guidance (MSSB/MIS_01/2026) | 20 Jan 2026 | MSOS portal, circulars |
+| 20 | Circular: Statements issued by the FATF (MSSB/FATF_02/2026) — the latest FATF statement | 3 Jul 2026 | MSOS portal, circulars |
+| 21 | Circular: FATF public consultation on guidance to increase payment transparency (MSSB/FATF_03/2026) | 16 Jul 2026 | MSOS portal, circulars |
+| 22 | FAQ applicable to all MSOs — the portal page itself (`.md`, not a PDF) | as at 8 Dec 2022 | MSOS portal, FAQs page |
+| 23 | Competence Assessment — Sample Questions (MSSB/CA_01/2021) | 12 May 2021 | MSOS portal, circulars |
 
 The Traditional Chinese editions in `TC/` carry the same numbers.
 
@@ -62,35 +67,36 @@ the per-document figures can sum above the module total.
 
 | Module | Source documents (questions citing each) | Questions |
 |---|---|---|
-| **1** General knowledge on AML/CFT and counter-proliferation financing | **02** ch. 1 & 6 (102) · **10** (18) · **13** Sch. 1 (11) · **14** (6) | 126 |
-| **2** Part 1–7 of the AMLO | **13** Parts 1–7 (301) · **23** (6) · **28** (1) | 308 |
-| **3** Schedules to the AMLO | **13** Sch. 2 (183), Sch. 4 (38), Sch. 1 (32), Sch. 3 (7) · **11** (2) | 260 |
-| **4** Guidelines promulgated by the C&ED | **03** (164) · **01** (51) · **07** (25) · **05** (19) · **06** (16) · **08** (14) · **13** (8) · **09** (7) · **11** (7) · **04** (6) · **27** (5) · **20** (3) · **12** (2) · **18** (2) · **10** (1) | 310 |
-| **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (83) · **15** (6) · **13** (5) · **07** (3) · **05** (1) · **10** (1) | 96 |
-| **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11 (300) · **13** (20) · **26** (14) · **25** (12) · **24** (8) · **21** (6) | 340 |
-| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** ch. 7–9 (140) · **22** (9) · **16** (5) · **13** (3) | 154 |
+| **1** General knowledge on AML/CFT and counter-proliferation financing | **02** ch. 1 & 6 (102) · **19** (18) · **10** Sch. 1 (11) · **11** (6) | 126 |
+| **2** Part 1–7 of the AMLO | **10** Parts 1–7 (307) · **18** (1) | 308 |
+| **3** Schedules to the AMLO | **10** Sch. 2 (183), Sch. 4 (38), Sch. 1 (32), Sch. 3 (7) | 260 |
+| **4** Guidelines promulgated by the C&ED | **03** (171) · **01** (56) · **07** (25) · **05** (20) · **06** (17) · **08** (14) · **10** (13) · **09** (8) · **04** (6) · **16** (5) · **19** (1) | 310 |
+| **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (89) · **10** (5) · **07** (3) · **05** (1) · **19** (1) | 96 |
+| **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11 (300) · **10** (20) · **14** (14) · **13** (12) · **22** (8) · **12** (6) | 340 |
+| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** ch. 7–9 (153) · **10** (3) · **22** (1) | 154 |
 
-Three documents feed no question of their own: **17**, **19** and **29**. For
-**19** that is by design — it is the format template, described just below. For
-**17** and **29**, the FAQ circular and the FAQ page it links to, it is not, and
-it is the clearest gap in the bank: the page's 28 Guideline questions each name
-the paragraph they elaborate, which would feed modules 6 and 7, and its 15
-licensing questions would feed module 4.
+Five documents feed no question of their own: **23** and the four added on
+24 September 2026, **15**, **17**, **20** and **21**. For **23** that is by
+design — it is the format template, described just below. **22**, the FAQ
+page, fed none until 24 September 2026, when nine re-aimed questions were
+written from its Guideline series, eight in module 6 and one in module 7. Its
+remaining Guideline questions, each naming the paragraph it elaborates, are the
+obvious place to add more.
 
-Two of these are worth singling out. **19** is the only set of sample questions
+Two of these are worth singling out. **23** is the only set of sample questions
 C&ED has ever published, and it settles what the paper looks like: seven items,
 each a stem with four numbered statements and the five fixed options
 `a) 1, 2 and 3  b) 1, 2 and 4  c) 2, 3 and 4  d) 1, 3 and 4  e) All of the above`.
 Guidance Notes ¶7.1 carries an eighth in the same family, with five statements
-and a different fixed block. **29** is not a PDF: circular 17 announces the FAQ
-but only links to it, so the page itself is archived as Markdown. It holds two
+and a different fixed block. **22** is not a PDF: the FAQ exists only as a page on
+the portal, so the page itself is archived as Markdown. It holds two
 series — 28 questions on the AML/CFT Guideline, each answer closing with a Key
 Reference naming the paragraph it elaborates, and 15 on licence application,
 which carry no such reference. The first series is what makes the page usable
 as question material.
 
-Live pages to re-check for newer editions and for the rolling UN-sanctions and
-FATF-statement circulars (deliberately not archived here):
+Live pages to re-check for newer editions, for the next FATF statement (which
+replaces 20), and for the UN-sanctions notices (deliberately not archived here):
 
 - FAQs: <https://eservices.customs.gov.hk/MSOS/common/faqs>
 

@@ -1,3 +1,11 @@
 mso-ca.exe
 mso-ca.exe~
 dist/
+__pycache__/
+# revision pack: the built page and the review tools' output
+revision/mso-revision-pack.html
+revision/chrome-prof-*/
+revision/review/preview/
+revision/review/sections/
+revision/review/audit-prof/
+revision/review/*check_*.txt

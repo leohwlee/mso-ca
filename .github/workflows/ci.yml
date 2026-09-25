@@ -29,3 +29,8 @@ jobs:
           mkdir -p dist
           go run . -export-html dist/mso-ca.html
           ls -lh dist/mso-ca.html
+
+      - name: Build revision pack
+        run: |
+          python3 revision/pack_build.py dist/mso-revision-pack.html
+          ls -lh dist/mso-revision-pack.html
