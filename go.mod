@@ -1,3 +1,3 @@
-module mso-ca-go
+module mso-ca
 
 go 1.27

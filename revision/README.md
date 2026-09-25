@@ -21,10 +21,12 @@ The build is deterministic: the same sources give the same bytes on any platform
 
 - `pack_build.py` assembles the pages: the document list, the switcher, the outline.
 - One module per page, figures in the matching `*_fig.py`:
-  - `p1`–`p7` are the AMLO Parts (`p3_sec`, `p4_sec`, `p5_sec` for Parts 3–5).
+  - `p1`–`p7` and `p6a` are the AMLO Parts (`p3_sec`, `p4_sec`, `p5_sec` for
+    Parts 3–5).
   - `s1`–`s4` are the Schedules; Schedule 2 is `s2page`, built from `bl_sec1`,
     `bl_sec2`, `s2x` and `s2appx`, with figures in `bl_figs` and `bl_figs2`.
-  - `g1`–`g8` are the Guideline chapters.
+  - `g1`–`g8` are the Guideline chapters; `g8` covers chapters 8 and 9, and
+    there is no `g4`, because chapters 4, 10 and 11 sit on the Schedule 2 page.
   - `gl` covers the C&ED guidelines, and `ci` the circulars and the FAQ.
 - `bl_core.py` and `ui.py` hold the shared building blocks; `pack_css.css` and
   `pack_js.js` hold the page's style and behaviour.

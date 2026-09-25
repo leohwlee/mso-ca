@@ -1,4 +1,4 @@
-// mso-ca-go — offline mock-exam app for the C&ED MSO Competence Assessment.
+// mso-ca — offline mock-exam app for the C&ED MSO Competence Assessment.
 // Serves an embedded single-page app on 127.0.0.1 and opens the browser.
 package main
 
