@@ -41,13 +41,13 @@ point cites its section or paragraph, so you can check it against the source.
 | File | What's inside | Organised by |
 |---|---|---|
 | **Revision pack**<br>`mso-revision-pack.html`<br>about 3 MB | 21 pages of tables and figures on the AMLO's Parts 1–7 and Schedules 1–4, the AML/CFT Guideline, the other C&ED guidelines, and the circulars and FAQ | Source document, with each page naming the exam modules it serves |
-| **Mock exam**<br>`mso-ca.html`<br>about 4 MB | 1,594 questions with explanations (1,242 with four options, 352 in the combination format), drawn into 35-question, 75-minute mocks under the real pass rule | The 7 exam modules, below |
+| **Mock exam**<br>`mso-ca.html`<br>about 4 MB | 1,585 questions with explanations (1,238 with four options, 347 in the combination format), drawn into 35-question, 75-minute mocks under the real pass rule | The 7 exam modules, below |
 
 | Module | Questions | Revision-pack pages |
 |---|---|---|
 | 1 · General knowledge on AML/CFT and counter-proliferation financing | 126 | AML/CFT Guideline ch. 1, 6 and 7; AMLO Sch. 1 |
 | 2 · Parts 1–7 of the AMLO | 308 | AMLO Parts 1–7 |
-| 3 · Schedules to the AMLO | 260 | AMLO Sch. 1–4 |
+| 3 · Schedules to the AMLO | 251 | AMLO Sch. 1–4 |
 | 4 · Guidelines promulgated by the C&ED | 310 | C&ED guidelines; AMLO Part 5 |
 | 5 · Systems and controls (i): governance and strategy | 96 | AML/CFT Guideline ch. 2 and 3 |
 | 6 · Systems and controls (ii): AML/CFT control areas | 340 | AMLO Sch. 2, with AML/CFT Guideline ch. 4, 10 and 11; AML/CFT Guideline ch. 2 and 5–9 |

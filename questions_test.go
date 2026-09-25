@@ -51,7 +51,7 @@ var comboOptions = map[int]map[string][]string{
 // sized to the volume of official source material behind it, so that every
 // question traces to a real provision rather than rewording its neighbour.
 // See README for the measured source volumes.
-var minPerModule = map[int]int{1: 126, 2: 308, 3: 260, 4: 310, 5: 96, 6: 340, 7: 154}
+var minPerModule = map[int]int{1: 126, 2: 308, 3: 251, 4: 310, 5: 96, 6: 340, 7: 154}
 
 // Every sample question C&ED publishes is a combination item, so each module
 // must carry a working number of them rather than leaving the format to one

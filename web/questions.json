@@ -14609,35 +14609,6 @@
   }
  },
  {
-  "id": "m3-18",
-  "module": 3,
-  "answer": 0,
-  "source": {
-   "en": "AMLO Sch. 2, s.13A",
-   "tc": "《打擊洗錢條例》附表2第13A條"
-  },
-  "en": {
-   "q": "Under section 13A(3) of Schedule 2, below what amount is an ordering institution NOT required to obtain the originator's address, customer identification number or identification document number for a virtual asset transfer?",
-   "options": [
-    "Virtual assets amounting to less than $8,000",
-    "Virtual assets amounting to less than $120,000",
-    "Virtual assets amounting to less than $50,000",
-    "There is no such exemption at any amount"
-   ],
-   "explain": "Sch. 2 s.13A(3): the requirement in s.13A(2)(c) to obtain the originator's address, customer identification number or identification document number does not apply to a virtual asset transfer involving virtual assets amounting to less than $8,000 — the same figure as the wire-transfer CDD threshold in s.3(1A), not the $120,000 general threshold or any $50,000 figure, and the exemption does exist."
-  },
-  "tc": {
-   "q": "根據附表2第13A(3)條，匯款機構就低於多少金額的虛擬資產轉賬，無需取得匯款人的地址、客戶識別號碼或識別文件號碼？",
-   "options": [
-    "低於8,000元的虛擬資產",
-    "低於120,000元的虛擬資產",
-    "低於50,000元的虛擬資產",
-    "並無此豁免——上述資料必須一律取得"
-   ],
-   "explain": "附表2第13A(3)條：第13A(2)(c)條要求取得匯款人地址、客戶識別號碼或識別文件號碼的規定，不適用於涉及低於8,000元虛擬資產的虛擬資產轉賬——與第3(1A)條電傳轉帳盡職審查門檻相同，而非120,000元的一般門檻或任何50,000元的數字，而且該豁免確實存在。"
-  }
- },
- {
   "id": "m3-19",
   "module": 3,
   "answer": 0,
@@ -16256,108 +16227,6 @@
   }
  },
  {
-  "id": "m3-70",
-  "module": 3,
-  "answer": 3,
-  "source": {
-   "en": "AMLO Sch. 2, s.11(1) & (2)",
-   "tc": "《打擊洗錢條例》附表2第11(1)及(2)條"
-  },
-  "en": {
-   "q": "Under section 11(1) and (2) of Schedule 2 to the AMLO, which of the following statements about the beneficiaries of insurance policies are correct?",
-   "statements": [
-    "Recording the beneficiary's name is all that section 11(1)(a) requires at the point when the policy holder of an insurance policy identifies a beneficiary or a new beneficiary by name or title.",
-    "Where a beneficiary is designated by description or other means, the financial institution must establish the beneficiary's identity immediately, at the time of the designation, rather than at any later point.",
-    "For a beneficiary designated by description or other means, the institution must obtain enough information to satisfy itself that it will be able to establish the beneficiary's identity when a right is exercised or at the first payout.",
-    "The specified measures in section 11(3) must be carried out at the time the beneficiary exercises a right vested in the beneficiary under the policy or at the time of payout, or the first payout if there is more than one, whichever is the earlier."
-   ],
-   "options": [
-    "1, 2 and 3",
-    "1, 2 and 4",
-    "2, 3 and 4",
-    "1, 3 and 4",
-    "All of the above"
-   ],
-   "explain": "Statement 2 is false: where a beneficiary is designated by description or other means, section 11(1)(b) requires the institution to obtain sufficient information about the beneficiary to satisfy itself that it will be able to establish the beneficiary's identity at the time the beneficiary exercises a right under the policy or at the time of the first payout, whichever is earlier; it does not require the identity to be established at the moment of designation. Statements 1, 3 and 4 are correct: section 11(1)(a) requires the name of a beneficiary identified by name to be recorded; section 11(1)(b) sets the sufficient-information requirement for a beneficiary designated by description; and section 11(2) requires the specified measures in section 11(3) to be carried out at the time the beneficiary exercises a right vested under the policy or at the time of payout (or the first payout), whichever is the earlier."
-  },
-  "tc": {
-   "q": "根據《打擊洗錢條例》附表2第11(1)及(2)條，關於保險單的受益人，下列哪些陳述正確？",
-   "statements": [
-    "如保險單的保單持有人藉姓名或名稱指明一名受益人或新受益人，第11(1)(a)條在該時點只規定金融機構記錄該受益人的姓名或名稱。",
-    "如該受益人是藉描述或其他方式被指定的，金融機構須在指定之時即時確立該受益人的身分，而非在其後任何時間才確立。",
-    "如受益人是藉描述或其他方式被指定的，機構須取得關於該受益人的足夠資料，以使本身信納它可於該受益人行使保單權益時或首次獲得付款時（以較早者為準）確立其身分。",
-    "第11(3)款指明的措施，須在受益人行使根據保險單歸屬於該受益人的權益時，或在該受益人獲得付款（如有多於一次付款，則指第一次付款）時執行，以較早者為準。"
-   ],
-   "options": [
-    "1、2 及 3",
-    "1、2 及 4",
-    "2、3 及 4",
-    "1、3 及 4",
-    "以上皆是"
-   ],
-   "explain": "陳述2 不正確：如受益人是藉描述或其他方式被指定的，第11(1)(b)條規定金融機構須取得關於該受益人的足夠資料，以使本身信納它可於該受益人行使保單權益時或首次獲得付款時（以較早者為準）確立其身分；該條並不要求在指定時即時確立身分。陳述1、3 及 4 正確：第11(1)(a)條規定須記錄藉姓名或名稱指明的受益人的姓名或名稱；第11(1)(b)條就藉描述指定的受益人訂明取得足夠資料的規定；第11(2)條則規定須在受益人行使保單權益時或獲得付款（如有多於一次付款，則指第一次付款）時（以較早者為準）執行第11(3)款指明的措施。"
-  },
-  "format": "combination"
- },
- {
-  "id": "m3-71",
-  "module": 3,
-  "answer": 0,
-  "source": {
-   "en": "AMLO Sch. 2, s.11(2)",
-   "tc": "《打擊洗錢條例》附表2第11(2)條"
-  },
-  "en": {
-   "q": "At what point must a financial institution verify the identity of an insurance policy beneficiary under section 11(2) of Schedule 2?",
-   "options": [
-    "When the beneficiary exercises a policy right, or at first payout, whichever is earlier",
-    "Only once the payout amount exceeds $120,000, the occasional-transaction CDD threshold",
-    "At the time the insurance policy is first issued to the policy holder, in every case",
-    "Within 30 days after the beneficiary is designated or identified by the policy holder"
-   ],
-   "explain": "Section 11(2) requires the specified measures to be carried out at the time the beneficiary exercises a right vested in them under the policy, or at the time of payout (or the first payout where there is more than one), whichever is the earlier. $120,000 is the unrelated section 3(1)(b) occasional-transaction threshold; policy issuance and a 30-day window after designation are not the trigger the Ordinance uses."
-  },
-  "tc": {
-   "q": "根據附表2第11(2)條，金融機構須於何時核實保險保單受益人的身分？",
-   "options": [
-    "該受益人行使保單權利時，或首次派款時，以較早者為準",
-    "只在有關派款超過120,000元（即非經常交易門檻）時",
-    "在任何情況下，一律於保單首次向持有人簽發之時",
-    "於保單持有人首次指定或識別該受益人之後30日內"
-   ],
-   "explain": "第11(2)條規定須於該受益人行使保單所賦予其的權利時，或於派款時（如有多於一次派款，則為首次派款時），以較早者為準，進行所指明的措施。120,000元是第3(1)(b)條就非經常交易另行訂立、與本條無關的門檻；保單簽發時或指定後30日內，均非本條例採用的觸發時點。"
-  }
- },
- {
-  "id": "m3-72",
-  "module": 3,
-  "answer": 0,
-  "source": {
-   "en": "AMLO Sch. 2, s.11(3)(b)",
-   "tc": "《打擊洗錢條例》附表2第11(3)(b)條"
-  },
-  "en": {
-   "q": "Where an insurance policy beneficiary is a legal person or trust, when must the institution verify the beneficial owners' identities?",
-   "options": [
-    "Where there is high ML/TF risk given the beneficial owners' circumstances, and identification alone applies otherwise",
-    "Using documents, data or information provided by a governmental body or other source recognized by the relevant authority",
-    "Never — identifying the legal person or trust itself is always sufficient on its own",
-    "Only where the payout to the beneficiary exceeds $8,000, the wire-transfer CDD threshold"
-   ],
-   "explain": "Section 11(3)(b) requires identifying the beneficial owners of a beneficiary that is a legal person or trust and, if there is a high risk of money laundering or terrorist financing having regard to the particular circumstances of the beneficial owners, taking reasonable measures to verify their identities so that the institution knows who they are. Verifying the beneficiary itself using governmental-body documents is the separate section 11(3)(a) limb; identification of the legal person is always required, not merely sufficient on its own; and $8,000 is the unrelated wire-transfer threshold."
-  },
-  "tc": {
-   "q": "如保險保單受益人是法人或信託，機構須於何時核實實益擁有人的身分？",
-   "options": [
-    "當顧及實益擁有人的特定情況而存在高洗錢／恐怖分子資金籌集風險時",
-    "依據政府機構，或有關當局認可的其他來源所提供的文件、數據或資料",
-    "永不需要——單獨識別該法人或信託本身在任何情況下均已足夠",
-    "只在向受益人的派款超過8,000元（電傳轉賬的客戶盡職審查門檻）時"
-   ],
-   "explain": "第11(3)(b)條規定須識別屬法人或信託的受益人的實益擁有人；如顧及該等實益擁有人的特定情況而存在高洗錢／恐怖分子資金籌集風險，則須採取合理措施核實其身分，以令該機構知悉他們是何人。以政府機構文件核實受益人本身，是另一項規定，見第11(3)(a)款；識別該法人本身是必然要求，並非單獨已經足夠；而8,000元則是與本條無關的電傳轉賬門檻。"
-  }
- },
- {
   "id": "m3-73",
   "module": 3,
   "answer": 0,
@@ -17003,79 +16872,6 @@
   }
  },
  {
-  "id": "m3-92",
-  "module": 3,
-  "answer": 0,
-  "source": {
-   "en": "AMLO Sch. 2, s.13A(1)",
-   "tc": "《打擊洗錢條例》附表2第13A(1)條"
-  },
-  "en": {
-   "q": "Under section 13A(1) of Schedule 2 to the AMLO, which of the following statements about what constitutes a virtual asset transfer are correct?",
-   "statements": [
-    "A virtual asset transfer is a transaction carried out by an institution, the ordering institution, on behalf of an originator by transferring any virtual assets.",
-    "The transaction is carried out with a view to making the virtual assets available to the originator or to another person, the recipient.",
-    "The virtual assets are made available at an institution, the beneficiary institution, which may be the ordering institution or another institution.",
-    "A transaction is a virtual asset transfer where the ordering institution and the beneficiary institution are both licensed in Hong Kong, and not otherwise."
-   ],
-   "options": [
-    "1, 2 and 3",
-    "1, 2 and 4",
-    "2, 3 and 4",
-    "1, 3 and 4",
-    "All of the above"
-   ],
-   "explain": "Statement 4 is false: the closing words of section 13A(1) provide that a transaction is a virtual asset transfer whether or not one or more other institutions (intermediary institutions) participate in completion of the transfer of the virtual assets. Statements 1, 2 and 3 are correct: section 13A(1)(a) requires the transaction to be carried out by an institution (the ordering institution) on behalf of an originator by transferring any virtual assets; section 13A(1)(b)(i) requires it to be carried out with a view to making the virtual assets available to that person or another person (the recipient); and section 13A(1)(b)(ii) requires the virtual assets to be made available at an institution (the beneficiary institution), which may be the ordering institution or another institution."
-  },
-  "tc": {
-   "q": "根據《打擊洗錢條例》附表2第13A(1)條，關於何謂虛擬資產轉賬，下列哪些陳述正確？",
-   "statements": [
-    "虛擬資產轉賬是由某機構（匯款機構）代匯款人進行的交易，而進行方式是將任何虛擬資產轉出。",
-    "該項轉賬是使該等虛擬資產可供該匯款人或另一人（即有關的收款人）使用。",
-    "該等虛擬資產是可供在某機構（收款機構）使用，而該機構可屬匯款機構或另一機構。",
-    "該項交易在匯款機構及收款機構均在香港領牌的情況下，才屬虛擬資產轉賬。"
-   ],
-   "options": [
-    "1、2 及 3",
-    "1、2 及 4",
-    "2、3 及 4",
-    "1、3 及 4",
-    "以上皆是"
-   ],
-   "explain": "陳述4 不正確：第13A(1)條的結尾部分訂明，不論是否有一個或多於一個其他機構（中介機構）參與完成該項虛擬資產轉賬，該項交易均屬虛擬資產轉賬。陳述1、2 及 3 正確：第13A(1)(a)條規定該項轉賬是由某機構（匯款機構）代匯款人進行，而進行方式是將任何虛擬資產轉出；第13A(1)(b)(i)條規定該項轉賬是使該等虛擬資產可供該人或另一人（收款人）使用；第13A(1)(b)(ii)條則規定該等虛擬資產是可供在某機構（收款機構）使用，而該機構可屬匯款機構或另一機構。"
-  },
-  "format": "combination"
- },
- {
-  "id": "m3-93",
-  "module": 3,
-  "answer": 0,
-  "source": {
-   "en": "AMLO Sch. 2, s.11(1)(a)",
-   "tc": "《打擊洗錢條例》附表2第11(1)(a)條"
-  },
-  "en": {
-   "q": "Where the beneficiary of an insurance policy is identified by name, what must the financial institution do at that point?",
-   "options": [
-    "Record the name of the beneficiary and no more",
-    "Verify the beneficiary's identity immediately",
-    "Obtain senior management approval for the designation",
-    "Notify the relevant authority of the designation"
-   ],
-   "explain": "Section 11(1)(a) requires the institution, whenever a beneficiary or new beneficiary is identified or designated by the policy holder, to record the name of the beneficiary where the beneficiary is identified by name. Verification comes later, under section 11(2)."
-  },
-  "tc": {
-   "q": "如保險保單的受益人是以姓名識別，金融機構當時須怎樣做？",
-   "options": [
-    "記錄該受益人的姓名",
-    "即時核實該受益人的身分",
-    "就該項指定取得高級管理層批准",
-    "將該項指定通知有關當局"
-   ],
-   "explain": "第11(1)(a)條規定，每當保單持有人識別或指定受益人或新受益人時，如該受益人是以姓名識別，機構須記錄該受益人的姓名。核實則按第11(2)條在較後階段進行。"
-  }
- },
- {
   "id": "m3-94",
   "module": 3,
   "answer": 0,
@@ -17234,50 +17030,6 @@
    ],
    "explain": "第13(2)條規定持牌金錢服務經營者在進行第13條適用的匯款交易之前，須識別匯款人、藉參考其識別文件核實其身分，並記錄所指明的詳情。"
   }
- },
- {
-  "id": "m3-99",
-  "module": 3,
-  "answer": 4,
-  "source": {
-   "en": "AMLO Sch. 2, s.11(3)",
-   "tc": "《打擊洗錢條例》附表2第11(3)條"
-  },
-  "en": {
-   "q": "Under section 11(3) of Schedule 2 to the AMLO, which of the following statements about the specified measures for the beneficiary of an insurance policy are correct?",
-   "statements": [
-    "Section 11(3)(a) names a governmental body, and the relevant authority or any other relevant authority, as the sources on which the verification of the beneficiary's identity may properly rest.",
-    "Documents, data or information provided by an authority outside Hong Kong performing similar functions to a relevant authority, or by any other reliable and independent source recognized by it, may also be used.",
-    "Where the beneficiary is a legal person or trust, the specified measures include identifying the beneficial owners of that legal person or trust, in addition to verifying the beneficiary's own identity.",
-    "Where the beneficiary is a legal person or trust and there is a high risk of ML or TF having regard to the circumstances of its beneficial owners, the institution must take reasonable measures to verify their identities."
-   ],
-   "options": [
-    "1, 2 and 3",
-    "1, 2 and 4",
-    "2, 3 and 4",
-    "1, 3 and 4",
-    "All of the above"
-   ],
-   "explain": "All four statements are correct. Section 11(3)(a) allows the beneficiary's identity to be verified on the basis of documents, data or information provided by a governmental body, the relevant authority or any other relevant authority, an authority outside Hong Kong performing similar functions, or any other reliable and independent source recognized by the relevant authority. Section 11(3)(b) adds, where the beneficiary is a legal person or trust, the identification of its beneficial owners and, if there is a high risk of money laundering or terrorist financing having regard to the beneficial owners' particular circumstances, reasonable measures to verify their identities so that the institution knows who they are."
-  },
-  "tc": {
-   "q": "根據《打擊洗錢條例》附表2第11(3)條，關於就保險單受益人執行的指明措施，下列哪些陳述正確？",
-   "statements": [
-    "第11(3)(a)條把政府機構，以及有關當局或任何其他有關主管當局，列為可據以核實受益人身分的各項來源。",
-    "由在香港以外地方執行相類似職能的主管當局，或由有關當局認可的任何其他可靠及獨立來源所提供的文件、數據或資料，亦可用以核實受益人身分。",
-    "如受益人是法人或信託，指明措施除核實受益人本身的身分外，亦包括識別該法人或信託的各名實益擁有人。",
-    "如受益人是法人或信託，而在顧及其實益擁有人的情況後有高度洗錢或恐怖分子資金籌集風險，金融機構須採取合理措施核實該等人的身分。"
-   ],
-   "options": [
-    "1、2 及 3",
-    "1、2 及 4",
-    "2、3 及 4",
-    "1、3 及 4",
-    "以上皆是"
-   ],
-   "explain": "以上四項陳述全部正確。第11(3)(a)條准許根據政府機構、有關當局或任何其他有關主管當局、在香港以外地方執行相類似職能的主管當局，或有關當局認可的任何其他可靠及獨立來源所提供的文件、數據或資料，核實受益人的身分。第11(3)(b)條則訂明，如受益人是法人或信託，須識別其實益擁有人，並在顧及該等實益擁有人的特定情況後有高度的洗錢或恐怖分子資金籌集風險時，採取合理措施核實其身分，以使機構知道該等實益擁有人為何人。"
-  },
-  "format": "combination"
  },
  {
   "id": "m3-100",
@@ -17496,50 +17248,6 @@
    ],
    "explain": "附表4第6(9)條訂明，覆核的各方均有權在審裁處聆訊中親自陳詞，或（就任何法團而言）透過其高級人員或僱員陳詞，亦有權透過律師或大律師陳詞；任何其他人則須在審裁處許可下，方可代該方陳詞。因此，屬法團的持牌金錢服務經營者有權透過其本身的任何高級人員或僱員陳詞，不論該人擔任何職位。外間會計師、同一公司集團內另一公司的高級人員，以及該經營者的最終擁有人（除非該人同時是其高級人員或僱員），均屬「任何其他人」，須獲審裁處許可方可陳詞。關長批准某人成為持牌人的最終擁有人，或同屬一個公司集團，均不會令該人有權代該經營者陳詞。"
   }
- },
- {
-  "id": "m3-107",
-  "module": 3,
-  "answer": 1,
-  "source": {
-   "en": "AMLO Sch. 2, s.17(3) & (4)",
-   "tc": "《打擊洗錢條例》附表2第17(3)及(4)條"
-  },
-  "en": {
-   "q": "Under section 17(3) and (4) of Schedule 2 to the AMLO, which of the following statements about when a corporation is an “affiliate” of another corporation, and who is a “controller” of a corporation, are correct?",
-   "statements": [
-    "A corporation is an affiliate of another corporation if it is a subsidiary of that other corporation, as the definition in Schedule 2 provides.",
-    "A corporation is also an affiliate of another corporation if at least one individual who is a controller of the corporation is at the same time a controller of the other corporation.",
-    "A person is a controller if the person, alone or with any associate, is entitled to exercise or control more than 25% of the voting rights at any general meeting.",
-    "A person in accordance with whose directions the directors of the corporation are accustomed to act is a controller, unless they do so only on advice given in a professional capacity."
-   ],
-   "options": [
-    "1, 2 and 3",
-    "1, 2 and 4",
-    "2, 3 and 4",
-    "1, 3 and 4",
-    "All of the above"
-   ],
-   "explain": "Statement 3 is false: under the definition of controller in section 17(4), the voting-rights limb requires entitlement, alone or with any associate or associates, to exercise or control the exercise of more than 50% of the voting rights at any general meeting, not more than 25%. Statements 1, 2 and 4 are correct: section 17(3)(a) makes a subsidiary an affiliate; section 17(3)(b) makes two corporations affiliates where at least one individual is a controller of both; and paragraph (a) of the definition of controller covers a person in accordance with whose directions or instructions the directors are accustomed to act, excluding a person whose advice is followed only because it is given in a professional capacity."
-  },
-  "tc": {
-   "q": "根據《打擊洗錢條例》附表2第17(3)及(4)條，關於法團在何時屬另一法團的「有聯繫者」及何人屬法團的「控制人」，下列哪些陳述正確？",
-   "statements": [
-    "如某法團是另一法團的附屬公司，該法團即屬該另一法團的有聯繫者，其定義載於附表2。",
-    "如有至少一名屬某法團的控制人的個人，同時屬另一法團的控制人，該法團亦屬該另一法團的有聯繫者。",
-    "某人如單獨或聯同其任何相關者，有權行使或控制某法團成員大會上25%以上投票權的行使，即屬該法團的控制人。",
-    "某法團的董事慣於按照某人的指示行事，該人即屬控制人，但如該等董事純粹因參照該人的專業意見而如此行事，則屬例外。"
-   ],
-   "options": [
-    "1、2 及 3",
-    "1、2 及 4",
-    "2、3 及 4",
-    "1、3 及 4",
-    "以上皆是"
-   ],
-   "explain": "陳述3 不正確：根據第17(4)條「控制人」的定義，投票權一項須為單獨或聯同任何相關者，有權在成員大會上行使50%以上的投票權或控制該數量投票權的行使，而非25%以上。陳述1、2 及 4 正確：第17(3)(a)條訂明附屬公司屬有聯繫者；第17(3)(b)條訂明如有至少一名個人同時屬兩間法團的控制人，兩者即屬有聯繫者；「控制人」定義的(a)段涵蓋董事慣於按照其指示或指令行事的人，但純粹因參照其以專業身分作出的意見而行事者除外。"
-  },
-  "format": "combination"
  },
  {
   "id": "m3-108",
@@ -21256,50 +20964,6 @@
    ],
    "explain": "第18(3)(c)條指明海外中介人，其中包括在對等司法管轄區經營與中介人金融機構（例如認可機構）所經營的業務相類似的業務的機構，但該機構須按該司法管轄區的法律規定，須根據該法律註冊或領牌或受規管，已有措施確保遵從與根據附表2施加的規定相類似的規定，並在遵從該等規定方面受到該司法管轄區主管當局監管。根據第1(1)條，對等司法管轄區指屬財務行動特別組織的成員的司法管轄區（香港除外），或施加與根據附表2而施加的規定相類似的規定的司法管轄區。該銀行所在的司法管轄區兩者皆非，故不論該銀行如何領牌及受監管，均不屬(c)段所指；而由於該銀行與經營者並無關連，它亦不是(d)段所指的相關外地金融機構。《打擊洗錢及恐怖分子資金籌集指引》第4.11.10段載有相同準則。(c)段的對等司法管轄區條件，既適用於海外專業人士，亦適用於經營與中介人金融機構相類似業務的機構（包括銀行）；領有牌照及受監管只是(c)段的其中兩項條件；而海外中介人並不須與經營者屬同一公司集團，因(c)段容許與經營者並無關連的中介人，是否有關連只在(d)段才相關。"
   }
- },
- {
-  "id": "m3-223",
-  "module": 3,
-  "answer": 4,
-  "source": {
-   "en": "AMLO Sch. 2, s.14(2)",
-   "tc": "《打擊洗錢條例》附表2第14(2)條"
-  },
-  "en": {
-   "q": "Under section 14(2) of Schedule 2 to the AMLO, which of the following statements about the conditions an authorized institution must satisfy before establishing a correspondent banking relationship with a proposed respondent bank are correct?",
-   "statements": [
-    "Before the relationship is established, it must have obtained approval from its own senior management for establishing the relationship with the proposed respondent bank.",
-    "Having complied with section 14(1), it must be satisfied that the anti-money laundering and anti-terrorist financing controls of the proposed respondent bank are adequate and effective.",
-    "It must have documented its own responsibilities and the responsibilities of the proposed respondent bank in that correspondent banking relationship.",
-    "As regards the respondent bank's customers who will directly operate the accounts it is to maintain, it must be satisfied that the bank will verify and monitor them and can provide the documents."
-   ],
-   "options": [
-    "1, 2 and 3",
-    "1, 2 and 4",
-    "2, 3 and 4",
-    "1, 3 and 4",
-    "All of the above"
-   ],
-   "explain": "All four statements are correct: section 14(2)(a) requires senior management approval; section 14(2)(b) requires the institution, having complied with section 14(1), to be satisfied that the proposed respondent bank's anti-money laundering and anti-terrorist financing controls are adequate and effective; section 14(2)(c) requires it to have documented its responsibilities and those of the proposed respondent bank; and section 14(2)(d) requires it to be satisfied that, for customers able to directly operate the accounts, the respondent bank will verify their identities and continuously monitor the relationships to standards similar to Schedule 2 and will be able to provide the documents, data or information obtained on request."
-  },
-  "tc": {
-   "q": "根據《打擊洗錢條例》附表2第14(2)條，關於認可機構在與擬受代理銀行建立代理銀行服務關係前須符合的條件，下列哪些陳述正確？",
-   "statements": [
-    "在建立該關係前，它須已就與擬受代理銀行建立該關係取得其本身高級管理層的批准。",
-    "在遵守第14(1)條的規定後，它須信納擬受代理銀行的打擊洗錢及打擊恐怖分子資金籌集的管控措施是充分並有效的。",
-    "它須已以文件記錄它本身在該代理銀行服務關係中的各項責任及擬受代理銀行的責任。",
-    "就擬受代理銀行將會能夠直接操作其戶口的客戶而言，它須信納該銀行將會核實及監察該等客戶，並能應要求提供有關文件。"
-   ],
-   "options": [
-    "1、2 及 3",
-    "1、2 及 4",
-    "2、3 及 4",
-    "1、3 及 4",
-    "以上皆是"
-   ],
-   "explain": "陳述1、2、3 及 4 均正確：第14(2)(a)條規定須取得高級管理層的批准；第14(2)(b)條規定在遵守第14(1)條後，須信納擬受代理銀行的打擊洗錢及打擊恐怖分子資金籌集管控措施充分並有效；第14(2)(c)條規定須已以文件記錄它及擬受代理銀行的責任；第14(2)(d)條則規定，就能夠直接操作戶口的客戶，須信納擬受代理銀行將會按與附表2相類似的規定核實其身分並持續監察業務關係，並能應要求提供所取得的文件、數據或資料。"
-  },
-  "format": "combination"
  },
  {
   "id": "m3-224",

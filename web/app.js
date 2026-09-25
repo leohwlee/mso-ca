@@ -509,7 +509,7 @@ function startExam() {
 }
 
 function resumeExam() {
-  const saved = store.get(examKey(), null);
+  const saved = loadExam();
   if (!saved) { render(); return; }
   if (Date.now() >= saved.endsAt) { exam = saved; finishExam(true); return; }
   exam = saved;
@@ -519,6 +519,23 @@ function resumeExam() {
 }
 
 function saveExam() { if (exam) store.set(examKey(), exam); }
+
+/* the saved exam, less any question a newer edition of the bank has removed, so a
+   paper started on an older file still resumes (a paper left empty is discarded) */
+function loadExam() {
+  const e = store.get(examKey(), null);
+  if (!e || !Array.isArray(e.qids)) return null;
+  const keep = e.qids.filter(id => byId.has(id));
+  if (keep.length === e.qids.length) return e;
+  if (!keep.length) { store.del(examKey()); return null; }
+  const at = keep.indexOf(e.qids[e.cur]);
+  e.cur = at >= 0 ? at : Math.min(e.cur, keep.length - 1);
+  for (const id of e.qids) if (!byId.has(id)) { delete e.answers[id]; delete e.optOrder[id]; }
+  e.flags = (e.flags || []).filter(id => byId.has(id));
+  e.qids = keep;
+  store.set(examKey(), e);
+  return e;
+}
 
 function examView() {
   const q = byId.get(exam.qids[exam.cur]);
@@ -1012,8 +1029,9 @@ function importHistoryText(text) {
   const data = JSON.parse(raw);
   const list = Array.isArray(data) ? data : data && data.attempts;
   if (!Array.isArray(list)) throw new Error('no attempts');
+  // an attempt may name questions this edition no longer has; the views skip those, so keep it
   const valid = list.filter(a => a && typeof a.ts === 'number' && Array.isArray(a.qids) && a.answers
-    && typeof a.score === 'number' && Array.isArray(a.moduleWrong) && a.qids.every(id => byId.has(id)));
+    && typeof a.score === 'number' && Array.isArray(a.moduleWrong));
   const existing = store.get(attemptsKey(), []);
   const have = new Set(existing.map(a => a.ts));
   const added = valid.filter(a => !have.has(a.ts));
@@ -1237,7 +1255,7 @@ async function boot() {
   if (Array.isArray(savedSel) && savedSel.length) pmodSel = new Set(savedSel.filter(n => n >= 1 && n <= 7));
 
   // an exam that expired while the app was closed → submit it now
-  const saved = store.get(examKey(), null);
+  const saved = loadExam();
   if (saved && Date.now() >= saved.endsAt) {
     exam = saved;
     finishExam(true);

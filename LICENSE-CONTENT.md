@@ -10,7 +10,7 @@ Everything except the two items below is licensed under MIT. Full text in
 
 - the app: `main.go`, `questions_test.go`, `web/app.js`, `web/style.css` and
   `web/index.html`, with the build scripts and the workflows;
-- the question bank, `web/questions.json`: 1,594 questions, statements and
+- the question bank, `web/questions.json`: 1,585 questions, statements and
   explanations in English and Traditional Chinese;
 - the revision pack in `revision/`: its generator, and the text and figures of
   its pages.
