@@ -26,6 +26,10 @@ own browser.
 Keep the file somewhere permanent, like your Documents folder, and open the
 same file each time — that is where your history lives.
 
+The same Releases page also has **`mso-revision-pack.html`**, a bilingual revision
+pack covering the Ordinance, the Guideline, the C&ED guidelines and the circulars.
+It also opens in Chrome; its source is in [`revision/`](revision/README.md).
+
 ## How to prepare for the exam
 
 A sensible way to use it, from a standing start to exam day.
@@ -197,8 +201,9 @@ text uses the operating system's fonts.
 
 **Releases** are cut by tag. Pushing a tag beginning with `v` runs
 [`release.yml`](.github/workflows/release.yml), which vets and tests the bank,
-builds the file from that exact commit, and attaches it to a GitHub release. The
-tests run before the build, so a tag that fails never becomes a download.
+builds the file from that exact commit, and attaches it to a GitHub release
+together with the revision pack built from `revision/`. The tests run before the
+build, so a tag that fails never becomes a download.
 
 ```bash
 git tag v1.5.0

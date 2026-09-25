@@ -23,6 +23,10 @@
 請把檔案放在固定位置（例如「文件」資料夾），每次開啟同一個檔案——你的應考紀錄
 就存在那裡。
 
+同一 Releases 頁面亦提供 **`mso-revision-pack.html`**：涵蓋條例、《打擊洗錢指引》、
+海關其他指引及通函的中英對照溫習資料，同樣可用 Chrome 開啟；原始碼在
+[`revision/`](revision/README.md)。
+
 ## 如何用它備試
 
 由零開始到應考當日，建議這樣用。
@@ -168,8 +172,8 @@ go run .                               # 或：開發時在本機提供 web/
 
 **發佈**以標籤觸發。推送以 `v` 開頭的標籤，會執行
 [`release.yml`](.github/workflows/release.yml)：先 vet 及測試題庫，再從該
-commit 產生檔案並附加到 GitHub release。測試在產生檔案之前執行，所以未通過檢查
-的標籤不會變成可供下載的版本。
+commit 產生檔案，連同由 `revision/` 產生的溫習資料一併附加到 GitHub release。
+測試在產生檔案之前執行，所以未通過檢查的標籤不會變成可供下載的版本。
 
 ```bash
 git tag v1.5.0

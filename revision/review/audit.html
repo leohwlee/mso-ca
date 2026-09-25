@@ -1,0 +1,71 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>pack audit</title></head>
+<body>
+<!-- Loads the pack in a frame of the width given as ?w=, switches through every document and
+     language view, and writes what it finds into #out for headless Chrome's --dump-dom. -->
+<iframe id="f" src="../mso-revision-pack.html" style="height:900px;border:0"></iframe>
+<pre id="out">running</pre>
+<script>
+var W = +(new URLSearchParams(location.search).get('w') || 1200);
+var f = document.getElementById('f');
+f.style.width = W + 'px';
+var CJK = /[⺀-鿿豈-﫿＀-￯　-〿]/;
+var LAT = /[A-Za-z]{3,}/g;
+var ROMAN = /^(i|ii|iii|iv|v|vi|vii|viii|ix|x|xi|xii)$/i;
+function snip(t, i) { return t.slice(Math.max(0, i - 30), i + 40).replace(/\s+/g, ' '); }
+f.onload = function () {
+  setTimeout(function () {
+    var d = f.contentDocument, root = d.documentElement, out = [];
+    var docs = Array.prototype.map.call(d.querySelectorAll('section.doc'), function (s) { return s.id; });
+    out.push('width ' + W + ', docs ' + docs.length);
+    docs.forEach(function (doc) {
+      ['en', 'tc', 'both'].forEach(function (lang) {
+        d.querySelectorAll('section.doc').forEach(function (x) { x.hidden = x.id !== doc; });
+        root.setAttribute('data-doc', doc);
+        root.setAttribute('data-lang', lang);
+        var sec = d.getElementById(doc);
+        var txt = sec.innerText;
+        var probs = [];
+        if (doc === 'doc-g7') out.push('  sanity ' + doc + ' ' + lang + ' chars ' + txt.length + ' svgs shown ' + Array.prototype.filter.call(sec.querySelectorAll('svg.fig'), function (s) { return s.getBoundingClientRect().width > 0; }).length);
+        if (lang === 'en') {
+          var m = txt.match(new RegExp(CJK.source, 'g'));
+          if (m) { var i = txt.search(CJK); probs.push('CJK in EN view x' + m.length + ': ' + snip(txt, i)); }
+        }
+        if (lang === 'tc') {
+          var r, bad = [];
+          LAT.lastIndex = 0;
+          while ((r = LAT.exec(txt))) { if (!ROMAN.test(r[0])) bad.push(r[0] + ' @ ' + snip(txt, r.index)); }
+          if (bad.length) probs.push('Latin in TC view x' + bad.length + ': ' + bad.slice(0, 6).join(' | '));
+        }
+        if (W < 600) {
+          var sw = root.scrollWidth, cw = root.clientWidth;
+          if (sw > cw + 1) probs.push('page scrolls sideways: ' + sw + ' > ' + cw);
+          var wide = [];
+          sec.querySelectorAll('*').forEach(function (el) {
+            var rc = el.getBoundingClientRect();
+            if (rc.width && rc.right > cw + 1 && !el.closest('.tbl, .figwrap, .mx, pre, .scroll, table, svg')) wide.push(el.tagName.toLowerCase() + '.' + (el.className && el.className.baseVal === undefined ? el.className : '') + ' ' + Math.round(rc.right));
+          });
+          if (wide.length) probs.push('wider than screen: ' + wide.slice(0, 5).join(' | '));
+        }
+        if (lang !== 'both' || W >= 600) {
+          sec.querySelectorAll('svg.fig').forEach(function (sv, k) {
+            if (!sv.getBoundingClientRect().width) return;
+            var vb = sv.viewBox.baseVal, outside = [];
+            sv.querySelectorAll('text').forEach(function (t) {
+              var b; try { b = t.getBBox(); } catch (e) { return; }
+              if (!b.width) return;
+              if (b.x < vb.x - 2 || b.y < vb.y - 2 || b.x + b.width > vb.x + vb.width + 2 || b.y + b.height > vb.y + vb.height + 2)
+                outside.push((t.textContent || '').slice(0, 30));
+            });
+            if (outside.length) probs.push('svg ' + k + ' text outside viewBox: ' + outside.slice(0, 4).join(' | '));
+          });
+        }
+        if (probs.length) out.push(doc + ' [' + lang + '] ' + probs.join(' ;; '));
+      });
+    });
+    out.push('done');
+    document.getElementById('out').textContent = out.join('\n');
+  }, 1500);
+};
+</script>
+</body></html>
