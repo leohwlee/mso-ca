@@ -14334,7 +14334,7 @@
     "A transaction with a customer whose business relationship has lasted less than a year",
     "A transaction carried out for a customer outside the MSO's normal business hours"
    ],
-   "explain": "An occasional transaction is a transaction between the MSO and a customer who does not have a business relationship with it (e.g. a walk-in exchange or remittance customer). $8,000/$120,000 are CDD thresholds that attach to occasional transactions (s.3(1)(b), (1A)) — they are not part of the definition itself, and relationship duration and business hours are irrelevant to it."
+   "explain": "An occasional transaction is a transaction between the MSO and a customer who does not have a business relationship with it. $8,000/$120,000 are CDD thresholds that attach to occasional transactions (s.3(1)(b), (1A)) — they are not part of the definition itself, and relationship duration and business hours are irrelevant to it."
   },
   "tc": {
    "q": "根據《打擊洗錢條例》附表2，「非經常交易」是指：",
@@ -14344,7 +14344,7 @@
     "與該客戶的業務關係建立不足一年的有關交易",
     "在該金錢服務經營者正常營業時間以外所進行的交易"
    ],
-   "explain": "非經常交易的定義是金錢服務經營者與跟它並無業務關係的客戶之間的交易（例如街客的兌換或匯款交易）。120,000元／8,000元的盡職審查門檻是附於非經常交易之上的另一規定（第3(1)(b)、(1A)條），並非定義本身的一部分；關係長短及營業時間與定義無關。"
+   "explain": "非經常交易的定義是金錢服務經營者與跟它沒有業務關係的客戶之間的交易。120,000元／8,000元的盡職審查門檻是附於非經常交易之上的另一規定（第3(1)(b)、(1A)條），並非定義本身的一部分；關係長短及營業時間與定義無關。"
   }
  },
  {
@@ -14356,7 +14356,7 @@
    "tc": "《打擊洗錢條例》附表2第3(1A)條；《打擊洗錢及恐怖分子資金籌集指引》第4.2.1(b)(ii)段、第4.2.4至4.2.5段"
   },
   "en": {
-   "q": "A walk-in customer sends three wire transfers of $3,000 each to the same recipient within an hour. What does Schedule 2 require?",
+   "q": "A customer who does not have a business relationship with an MSO sends three wire transfers of $3,000 each through it to the same recipient within an hour. What does Schedule 2 require?",
    "options": [
     "CDD must be carried out — the $8,000 threshold applies to linked transfers, which total $9,000",
     "Nothing is required — each individual transfer is below the $8,000 threshold",
@@ -14366,7 +14366,7 @@
    "explain": "Sch. 2 s.3(1A): CDD applies to a wire transfer of $8,000 or more, whether carried out in a single operation or in several operations that appear linked (¶4.2.4–4.2.5). Three linked $3,000 transfers total $9,000, above the threshold, so CDD is triggered even though no single transfer reaches it. The $120,000 figure is the separate s.3(1)(b) threshold for non-wire occasional transactions and does not apply to wire transfers."
   },
   "tc": {
-   "q": "一名街客在一小時內向同一收款人先後發出三筆各 3,000 元的電傳轉帳。附表2有何規定？",
+   "q": "一名沒有業務關係的客戶在一小時內向同一收款人先後發出三筆各 3,000 元的電傳轉帳。附表2有何規定？",
    "options": [
     "必須執行盡職審查——8,000元門檻適用於合計9,000元的關連轉帳",
     "毋須任何行動——每筆交易均低於8,000元，而該門檻由關長每年釐定",
@@ -19489,7 +19489,7 @@
    "tc": "《打擊洗錢條例》附表2第3(1)(b)條；《打擊洗錢及恐怖分子資金籌集指引》第4.2.4至4.2.5段"
   },
   "en": {
-   "q": "Section 3(1)(b) of Schedule 2 requires CDD before an occasional transaction of $120,000 or more, and applies that threshold to the transaction whether it is carried out in a single operation or in several operations that appear to the institution to be linked. A walk-in customer changes $70,000 worth of foreign currency in the morning and returns that afternoon to change a further $60,000. What does the rule mean for the MSO?",
+   "q": "Section 3(1)(b) of Schedule 2 requires CDD before an occasional transaction of $120,000 or more, and applies that threshold to the transaction whether it is carried out in a single operation or in several operations that appear to the institution to be linked. A customer who does not have a business relationship with an MSO changes $70,000 worth of foreign currency in the morning and returns that afternoon to change a further $60,000. What does the rule mean for the MSO?",
    "options": [
     "If the two exchanges appear to it to be linked, CDD is required because their combined amount reaches the threshold",
     "CDD is not required, because each exchange taken on its own falls below the threshold set for an occasional transaction",
@@ -20713,22 +20713,22 @@
    "tc": "《打擊洗錢條例》附表2第1(1)及3(1A)條的應用"
   },
   "en": {
-   "q": "An occasional customer asks an MSO to make an electronic transfer of $10,000 to a recipient at an overseas institution. Which threshold applies?",
+   "q": "A customer who does not have a business relationship with an MSO asks it to make an electronic transfer of $10,000 to a recipient at an overseas institution. Which threshold applies?",
    "options": [
     "The $8,000 wire-transfer threshold in section 3(1A), since this is a wire transfer",
     "The general $120,000 occasional-transaction threshold in section 3(1)(b)",
     "The $20,000 annual-premium threshold applicable to certain insurance policies",
-    "No CDD threshold at all, because an occasional customer has no business relationship"
+    "No CDD threshold at all, because the customer has no business relationship"
    ],
    "explain": "Section 1(4) defines a wire transfer as an electronic transaction by an ordering institution to make money available to a recipient at a beneficiary institution — this transfer qualifies. Section 3(1A) then requires CDD before an occasional wire transfer of $8,000 or above, displacing the general $120,000 occasional-transaction threshold in section 3(1)(b). The $20,000 figure is real, but it applies to certain life insurance premiums under section 4(5)(c), not to wire transfers; and a threshold still applies even though the customer has no business relationship, because this is an occasional transaction."
   },
   "tc": {
-   "q": "某非經常客戶要求金錢服務經營者以電子方式將10,000元轉予境外機構的收款人。適用哪一門檻？",
+   "q": "一名沒有業務關係的客戶要求金錢服務經營者以電子方式將10,000元轉予境外機構的收款人。適用哪一門檻？",
    "options": [
     "第3(1A)條的8,000元電傳轉賬門檻，因該交易屬電傳轉賬",
     "第3(1)(b)條所指的一般120,000元非經常交易門檻",
     "適用於若干保險保單的20,000元周年保費門檻",
-    "完全無須任何門檻，因該非經常客戶並無業務關係"
+    "完全無須任何門檻，因該客戶與經營者沒有業務關係"
    ],
    "explain": "第1(4)條界定「電傳轉賬」為匯款機構以電子方式進行、旨在使款項可在收款機構供收款人取用的交易——本交易符合此定義。第3(1A)條繼而規定在進行8,000元或以上的單次電傳轉賬前須進行客戶盡職審查，取代第3(1)(b)條的一般120,000元非經常交易門檻。20,000元是真實門檻，但適用於第4(5)(c)條下若干人壽保險保費，並非電傳轉賬；而即使客戶並無業務關係，門檻仍然適用，因這屬非經常交易。"
   }
@@ -21790,7 +21790,7 @@
    "tc": "《打擊洗錢條例》附表2第12條與第13條的比較"
   },
   "en": {
-   "q": "Section 12 of Schedule 2 governs wire transfers, and section 13 governs a remittance transaction of $8,000 or more, other than a wire transfer, carried out by a licensed MSO. A walk-in customer asks an MSO to send $9,000 to a relative overseas, and the MSO arranges it through a cash-based settlement rather than by electronic means. Which duty, which would have applied had the transaction been a wire transfer, does NOT arise here?",
+   "q": "Section 12 of Schedule 2 governs wire transfers, and section 13 governs a remittance transaction of $8,000 or more, other than a wire transfer, carried out by a licensed MSO. A customer who does not have a business relationship with an MSO asks it to send $9,000 to a relative overseas, and the MSO arranges it through a cash-based settlement rather than by electronic means. Which duty, which would have applied had the transaction been a wire transfer, does NOT arise here?",
    "options": [
     "Including the originator's and recipient's particulars in a message or payment form accompanying the transfer",
     "Verifying the originator's identity by reference to the originator's identification document before proceeding",
@@ -22232,20 +22232,20 @@
    "options": [
     "A retail shop accepting foreign currency incidental to its business",
     "A dedicated street-level shop set up specifically to exchange currency",
-    "An office that exchanges currency for walk-in customers as its business",
+    "An office that exchanges currency for its customers as its business",
     "A company whose business is buying and selling foreign banknotes to the public"
    ],
-   "explain": "§2.3: a money changing service is currency exchange operated in Hong Kong as a business, but excludes a service incidental to the main business (e.g. a retail business accepting foreign currencies in transactions) and a qualifying hotel service. A dedicated exchange shop, a walk-in exchange office, and a banknote-trading company all run currency exchange AS the business itself, so each is a licensable money changing service."
+   "explain": "§2.3: a money changing service is currency exchange operated in Hong Kong as a business, but excludes a service incidental to the main business (e.g. a retail business accepting foreign currencies in transactions) and a qualifying hotel service. A dedicated exchange shop, an exchange office, and a banknote-trading company all run currency exchange AS the business itself, so each is a licensable money changing service."
   },
   "tc": {
    "q": "根據《牌照指引》，下列哪項不屬須領牌的貨幣兌換服務？",
    "options": [
     "零售商店在交易中附帶接受外幣",
     "專門經營貨幣找換的臨街店舖",
-    "以兌換貨幣為業務、接待街客的辦事處",
+    "以為顧客兌換貨幣為業務的辦事處",
     "以向公眾買賣外幣鈔票為業務的公司"
    ],
-   "explain": "第2.3段：貨幣兌換服務指在香港作為業務經營的兌換貨幣服務，但不包括附帶於主要業務的服務（例如零售商在交易中接受外幣），亦不包括合資格的酒店服務。臨街找換店、接待街客的兌換辦事處，以及買賣外幣鈔票的公司，均以兌換貨幣本身作為業務，因此均屬須領牌的貨幣兌換服務。"
+   "explain": "第2.3段：貨幣兌換服務指在香港作為業務經營的兌換貨幣服務，但不包括附帶於主要業務的服務（例如零售商在交易中接受外幣），亦不包括合資格的酒店服務。臨街找換店、兌換辦事處，以及買賣外幣鈔票的公司，均以兌換貨幣本身作為業務，因此均屬須領牌的貨幣兌換服務。"
   }
  },
  {
