@@ -14431,7 +14431,7 @@
     "任何由現有客戶介紹的客戶",
     "其董事與經營者東主相熟的公司"
    ],
-   "explain": "附表2第4(3)條准許就特定客戶不識別／核實實益擁有人：《打擊洗錢條例》所界定的金融機構（或對等司法管轄區的類似機構）、在任何證券市場上市的法團、若干投資工具、香港政府或公共機構，以及對等司法管轄區的政府／公共機構（第4.8.10段）。一般私人公司並無此豁免。"
+   "explain": "附表2第4(3)條准許就特定客戶不識別／核實實益擁有人：《打擊洗錢條例》所界定的金融機構（或對等司法管轄區的類似機構）、在任何證券市場上市的法團、若干投資公司、香港政府或公共機構，以及對等司法管轄區的政府／公共機構（第4.8.10段）。一般私人公司並無此豁免。"
   }
  },
  {
@@ -15522,7 +15522,7 @@
     "由現有客戶引介的任何客戶",
     "居住於對等司法管轄區的任何一名客戶"
    ],
-   "explain": "第4(3)條列出金融機構；在對等司法管轄區成立、經營類似業務並設有類似合規措施及受監督的機構；在任何證券市場上市的法團；若干投資工具；政府或香港任何公共機構；以及對等司法管轄區的政府或執行類似公共機構職能的團體。"
+   "explain": "第4(3)條列出金融機構；在對等司法管轄區成立、經營類似業務並設有類似合規措施及受監督的機構；在任何證券市場上市的法團；若干投資公司；政府或香港任何公共機構；以及對等司法管轄區的政府或執行類似公共機構職能的團體。"
   }
  },
  {
@@ -17473,28 +17473,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.17(2)",
-   "tc": "《打擊洗錢條例》附表2第17(2)條"
+   "en": "AMLO Sch. 4, s.6(9)(a)(i) & (b)",
+   "tc": "《打擊洗錢條例》附表4第6(9)(a)(i)及(b)條"
   },
   "en": {
-   "q": "When does a corporation have a “physical presence” in a place for the purposes of the shell bank prohibition?",
+   "q": "A licensed MSO that is a corporation applies to the Review Tribunal for a review of a decision of the Commissioner. Besides a solicitor or counsel, through whom is the MSO entitled to be heard at a sitting of the Tribunal on that review without needing the Tribunal's leave?",
    "options": [
-    "When it carries on banking business at premises and at least one full-time employee performs banking-related duties there",
-    "When it is a subsidiary of another corporation carrying on banking business in that place, or shares a common controller with it",
-    "When it maintains a registered office address in that place, regardless of whether it carries on any business there",
-    "When it holds a banking licence issued by the authorities of that place, even without any staff or premises there"
+    "One of its own officers or employees, whatever post that person holds in it",
+    "An outside accountant it has retained to present its case at the hearing",
+    "Its ultimate owner, once the Commissioner has approved that person as such",
+    "An officer of another company in its group of companies, as one of the group"
    ],
-   "explain": "Section 17(2) provides that a corporation has a physical presence in a place if it carries on banking business at premises there and at least one full-time employee performs banking-related duties at those premises — a mailing address or a licence alone is not enough. Being a subsidiary of, or sharing a controller with, another corporation carrying on banking business there is instead the section 17(3) test for whether two corporations are 'affiliates', a different concept."
+   "explain": "Section 6(9) of Schedule 4 entitles each party to a review to be heard in person or, in the case of a corporation, through an officer or employee, and also through a solicitor or counsel; any other person may be heard for a party only with the leave of the Tribunal. A licensed MSO that is a corporation is therefore entitled to be heard through any of its own officers or employees, whatever their post. An outside accountant, an officer of another company in the same group, and the MSO's ultimate owner, unless that person is also one of its officers or employees, are each any other person, heard only if the Tribunal gives leave. Neither the Commissioner's approval of a person as a licensee's ultimate owner nor membership of the same group of companies gives that person a right to be heard for the MSO."
   },
   "tc": {
-   "q": "就空殼銀行禁止規定而言，法團在何時方在某地方有「實體存在」？",
+   "q": "某持牌金錢服務經營者屬法團，就關長的決定向覆核審裁處申請覆核。除律師或大律師外，該經營者無需審裁處許可，即有權在該項覆核的審裁處聆訊中透過何人陳詞？",
    "options": [
-    "當其在該地方處所經營銀行業務，並有至少一名全職僱員執行銀行相關職責",
-    "當其為在該地方經營銀行業務的另一法團的附屬公司，或與之共有同一控制人",
-    "當其在該地方設有註冊辦事處地址，但並不在當地經營任何實質業務",
-    "當其持有該地方當局發出的銀行牌照，即使在當地並無任何員工或處所"
+    "該經營者本身的高級人員或僱員，不論該人擔任何職位",
+    "受該經營者委聘、在聆訊中代其陳述案情的外間會計師",
+    "其最終擁有人，但該人須已獲關長批准成為最終擁有人",
+    "同一公司集團內另一公司的高級人員，因同屬該集團"
    ],
-   "explain": "第17(2)條訂明，如法團在某地方的處所經營銀行業務，並有該法團至少一名全職僱員在該等處所執行與銀行業務有關的職責，該法團即在該地方有實體存在——僅有郵寄地址或牌照並不足夠。屬於在該地方經營銀行業務的另一法團的附屬公司，或與其共有控制人，是第17(3)條判斷某法團是否屬另一法團的「有聯繫者」的測試，屬另一概念。"
+   "explain": "附表4第6(9)條訂明，覆核的各方均有權在審裁處聆訊中親自陳詞，或（就任何法團而言）透過其高級人員或僱員陳詞，亦有權透過律師或大律師陳詞；任何其他人則須在審裁處許可下，方可代該方陳詞。因此，屬法團的持牌金錢服務經營者有權透過其本身的任何高級人員或僱員陳詞，不論該人擔任何職位。外間會計師、同一公司集團內另一公司的高級人員，以及該經營者的最終擁有人（除非該人同時是其高級人員或僱員），均屬「任何其他人」，須獲審裁處許可方可陳詞。關長批准某人成為持牌人的最終擁有人，或同屬一個公司集團，均不會令該人有權代該經營者陳詞。"
   }
  },
  {
@@ -17546,28 +17546,28 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.17(4) (definition of “controller”)",
-   "tc": "《打擊洗錢條例》附表2第17(4)條（「控制人」的定義）"
+   "en": "AMLO Sch. 2, s.22(1); Sch. 1, Part 2 (definitions of “financial institution” and “re-domiciled entity”)",
+   "tc": "《打擊洗錢條例》附表2第22(1)條；附表1第2部（「金融機構」及「經遷冊實體」的定義）"
   },
   "en": {
-   "q": "Under section 17(4) of Schedule 2, what voting threshold makes a person a “controller” of a corporation?",
+   "q": "Section 22(1) of Schedule 2 requires certain financial institutions to ensure that their branches, and their subsidiary undertakings that carry on the same business as a financial institution outside Hong Kong, have procedures in place to ensure compliance with requirements similar to those imposed under Parts 2 and 3 of the Schedule that are applicable to the institution, to the extent the law of that place permits. Which licensed MSOs does that duty bind?",
    "options": [
-    "Entitlement, alone or with associates, to exercise or control more than 50% of the voting rights at any general meeting",
-    "A person in accordance with whose directions the corporation's directors are accustomed to act, other than a professional adviser",
-    "Entitlement, alone or with associates, to exercise more than 25% of the voting rights at any general meeting",
-    "Holding more than 50% of the issued share capital of the corporation, regardless of actual voting rights"
+    "Those incorporated in Hong Kong, and those companies that are re-domiciled entities",
+    "Those incorporated in Hong Kong, and those incorporated in an equivalent jurisdiction",
+    "Those incorporated in Hong Kong, and those that are registered non-Hong Kong companies",
+    "Those incorporated in Hong Kong, and partnerships of companies incorporated in Hong Kong"
    ],
-   "explain": "Section 17(4)'s 'controller' definition has two disjunctive limbs: a person whose directions the directors are accustomed to follow (excluding professional advisers) — which involves no voting percentage at all — or a person who, alone or with associates, is entitled to exercise or control more than 50% of the voting rights at any general meeting. Only the second limb turns on a voting threshold, and it is set at more than 50%, not 25% or a share-capital measure that ignores voting rights."
+   "explain": "Section 22(1) is addressed to a financial institution that is incorporated in Hong Kong or is a re-domiciled entity, and a licensed money service operator is a financial institution under Part 2 of Schedule 1, so the duty binds a licensed MSO of either kind. Part 2 of Schedule 1 defines a re-domiciled entity as a re-domiciled company that is deregistered as required by section 820E(3)(a) of the Companies Ordinance (Cap. 622); the words bringing such an entity within section 22(1) were inserted by an amendment in 2025 (14 of 2025). The subsection does not reach an MSO incorporated in an equivalent jurisdiction or a registered non-Hong Kong company, neither of which is incorporated in Hong Kong or a re-domiciled entity; nor does it reach a partnership, which is not incorporated at all, even where each of its partners is a company incorporated in Hong Kong."
   },
   "tc": {
-   "q": "根據附表2第17(4)條，何種投票權門檻令某人成為法團的「控制人」？",
+   "q": "附表2第22(1)條規定，某些金融機構須確保其分行，以及其在香港以外地方經營與金融機構相同的業務的附屬企業，設有程序，確保與根據該附表第2及3部施加的適用於該機構的規定相類似的規定在該地方法律准許的範圍內獲遵守。該項責任適用於哪些持牌金錢服務經營者？",
    "options": [
-    "單獨或聯同相聯者，有權行使或控制行使該法團任何成員大會超過50%的投票權",
-    "該法團的董事一直慣於按其指示或指令行事的人，但以專業身分提供有關意見者除外",
-    "單獨或聯同一名或多於一名相聯者，有權行使超過25%的投票權的人",
-    "持有該法團超過50%的已發行股本的人，不論其實際投票權為何"
+    "在香港成立為法團者，以及身為經遷冊實體的經營者",
+    "在香港成立為法團者，以及在對等司法管轄區成立為法團者",
+    "在香港成立為法團者，以及屬註冊非香港公司的經營者",
+    "在香港成立為法團者，以及由在香港成立為法團的公司組成的合夥"
    ],
-   "explain": "第17(4)條「控制人」的定義設有兩個互為替代的部分：該法團董事慣於按其指示行事的人（不包括專業顧問）——完全不涉及投票權百分比；或單獨或聯同相聯者，有權行使或控制行使任何成員大會超過50%投票權的人。只有第二部分涉及投票權門檻，且門檻定於超過50%，而非25%或不論投票權的股本測試。"
+   "explain": "第22(1)條的對象是在香港成立為法團或屬經遷冊實體的金融機構，而根據附表1第2部，持牌金錢服務經營者屬金融機構，因此屬上述任何一類的持牌金錢服務經營者均受該項責任約束。附表1第2部將經遷冊實體界定為已按《公司條例》（第622章）第820E(3)(a)條的規定撤銷註冊的經遷冊公司；第22(1)條把經遷冊實體納入的字眼，是由2025年第14號第273條修訂加入的。該款並不涵蓋在對等司法管轄區成立為法團的經營者或註冊非香港公司，因為兩者既非在香港成立為法團，亦非經遷冊實體；該款亦不涵蓋合夥，因為合夥並非法團，即使其每名合夥人都是在香港成立為法團的公司亦然。"
   }
  },
  {
@@ -19921,18 +19921,18 @@
  {
   "id": "m3-180",
   "module": 3,
-  "answer": 4,
+  "answer": 3,
   "source": {
-   "en": "AMLO Sch. 2, s.7",
-   "tc": "《打擊洗錢條例》附表2第7條"
+   "en": "AMLO Sch. 2, s.4(1), s.4(3)(c) & (d); Sch. 1, Part 2 (definition of “financial institution”); AML/CFT Guideline ¶4.8.10(d), ¶4.8.12, ¶4.8.14",
+   "tc": "《打擊洗錢條例》附表2第4(1)、4(3)(c)及(d)條；附表1第2部（「金融機構」的定義）；《打擊洗錢及恐怖分子資金籌集指引》第4.8.10(d)、4.8.12及4.8.14段"
   },
   "en": {
-   "q": "Under section 7 of Schedule 2 to the AMLO, which of the following statements about pre-existing respondent banks are correct?",
+   "q": "Before establishing a business relationship, or before carrying out an occasional transaction that calls for customer due diligence, an MSO may carry out simplified customer due diligence where it has reasonable grounds to believe the customer falls within section 4(3) of Schedule 2. For a customer that is an investment vehicle, section 4(3)(d) turns on the person responsible for carrying out measures similar to customer due diligence measures in relation to its investors (the responsible person). Which of the following statements are correct?",
    "statements": [
-    "Section 7 applies to a customer of an authorized institution that is an institution located outside Hong Kong carrying on a business similar to that of an authorized institution, with which the authorized institution established a correspondent banking relationship before the Ordinance commenced.",
-    "The authorized institution had to terminate its correspondent banking relationship with such a respondent bank on the date of commencement of the Ordinance itself, unless each and every one of the conditions set out in section 7(2) was satisfied at that time.",
-    "One of those conditions is that, before the commencement date, the authorized institution had carried out the measures in section 14(1) in relation to the respondent bank and was then satisfied that the respondent bank's anti-money laundering and anti-terrorist financing controls were adequate and effective.",
-    "Another condition is that the authorized institution had documented its own responsibilities and those of the respondent bank before the commencement date, and was satisfied that the respondent bank had verified the identities of the customers who could directly operate the accounts maintained for it."
+    "Where the responsible person is a financial institution, such as an authorized institution, a licensed corporation, an authorized insurer or a licensed money service operator, the investment vehicle falls within section 4(3)(d).",
+    "Where the responsible person is a corporation listed on any stock exchange, in Hong Kong or elsewhere, and subject to that exchange's disclosure requirements that ensure adequate transparency of its beneficial ownership, the vehicle falls within section 4(3)(d).",
+    "Where the responsible person is an institution that is incorporated or established in Hong Kong or an equivalent jurisdiction, has measures to meet requirements similar to Schedule 2's and is supervised for compliance, the vehicle falls within section 4(3)(d).",
+    "Section 4(3)(d) looks to the person responsible for those measures in relation to all of the vehicle's investors, so a person responsible for them in relation to only some of the investors is not the responsible person."
    ],
    "options": [
     "1, 2 and 3",
@@ -19941,15 +19941,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "All four statements are correct. Section 7(1) defines the respondent bank to which the section applies as an institution outside Hong Kong carrying on a business similar to an authorized institution's, with which the authorized institution established a correspondent banking relationship before the Ordinance commenced. Section 7(2) required the relationship to be terminated on the commencement date unless the authorized institution had earlier carried out the section 14(1) measures and been satisfied that the respondent bank's anti-money laundering and anti-terrorist financing controls were adequate and effective, had documented the two institutions' responsibilities, and was satisfied that the respondent bank had verified, and would continuously monitor, the customers able to operate the accounts directly and could provide the related documents, data or information on request."
+   "explain": "Section 4(1) lets an MSO carry out only the measures in section 2(1)(a), (ab), (c) and (d), instead of all the customer due diligence measures, where it has reasonable grounds to believe the customer falls within section 4(3). Under section 4(3)(d), an investment vehicle falls within it where the person responsible for carrying out measures similar to the customer due diligence measures in relation to all the investors of the vehicle is (i) a financial institution, a class that Schedule 1, Part 2 defines to include an authorized institution, a licensed corporation, an authorized insurer and a licensed money service operator; or an institution incorporated or established (ii) in Hong Kong or (iii) in an equivalent jurisdiction that has measures in place to ensure compliance with requirements similar to those imposed under Schedule 2 and is supervised for compliance with those requirements. Statements 1 and 3 follow from those limbs, and statement 4 from the words \"in relation to all the investors\". Statement 2 is false: a corporation listed on a stock exchange is a class of customer under section 4(3)(c), not a class of responsible person under (d), and the disclosure test it borrows is the Guideline's explanation of the listed-corporation class (¶4.8.12). Guideline ¶4.8.10(d) sets out the same categories, and ¶4.8.14 confines the responsible person to the categories of institution in section 4(3)(d)."
   },
   "tc": {
-   "q": "根據《打擊洗錢條例》附表2第7條，關於先前受代理的銀行，下列哪些陳述正確？",
+   "q": "在建立業務關係之前，或在進行須執行客戶盡職審查的非經常交易之前，如金錢服務經營者有合理理由相信客戶屬附表2第4(3)條所指的客戶，可只執行簡化客戶盡職審查。就屬投資公司的客戶而言，第4(3)(d)條視乎負責就其投資者執行與客戶盡職審查措施相類似的措施的人（下稱「負責人」）屬何人而定。下列哪些陳述正確？",
    "statements": [
-    "第7條適用於認可機構的以下客戶：該客戶屬處於香港以外地方、經營與認可機構相類似業務的機構，並在本條例生效日期前已與該認可機構建立代理銀行服務關係。",
-    "除非第7(2)條所列的每一項條件在當時均已全部符合，否則認可機構須在本條例的生效日期當日結束它與該受代理銀行的代理銀行服務關係。",
-    "其中一項條件是，在生效日期前的某時間，認可機構已就該受代理銀行執行第14(1)條所列的措施，並在當時信納該銀行的打擊洗錢及打擊恐怖分子資金籌集的管控措施是充分並有效的。",
-    "另一項條件是，認可機構在生效日期前已以文件記錄它本身及該受代理銀行的責任，並信納該銀行已核實能夠直接操作為其維持的戶口的客戶的身分，且能夠應要求提供有關的文件、數據或資料。"
+    "如負責人屬金融機構，例如認可機構、持牌法團、獲授權保險人或持牌金錢服務經營者，該投資公司即屬第4(3)(d)條所指的客戶。",
+    "如負責人屬在香港或其他地方的任何證券市場上市、並須遵守該證券市場確保其實益擁有權具充分透明度的披露規定的法團，該投資公司即屬第4(3)(d)條所指的客戶。",
+    "如負責人屬在香港或對等司法管轄區成立為法團或設立、設有措施確保與附表2相類似的規定獲遵從，並在有否遵從該等規定方面受到監管的機構，該投資公司即屬第4(3)(d)條所指的客戶。",
+    "第4(3)(d)條所指的負責人，是負責就該投資公司的所有投資者執行該等措施的人，只負責就部分投資者執行該等措施的人並不屬該條所指的負責人。"
    ],
    "options": [
     "1、2 及 3",
@@ -19958,7 +19958,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "以上四項陳述全部正確。第7(1)條界定本條所適用的受代理銀行，為處於香港以外地方、經營與認可機構相類似業務，並在本條例生效日期前已與認可機構建立代理銀行服務關係的機構。第7(2)條規定，除非認可機構在生效日期前已就該銀行執行第14(1)條的措施並信納其打擊洗錢及打擊恐怖分子資金籌集的管控措施充分並有效、已以文件記錄雙方的責任，並信納該銀行已核實能夠直接操作戶口的客戶的身分並會持續監察該等客戶，且能夠應要求提供有關的文件、數據或資料，否則須在生效日期結束該關係。"
+   "explain": "第4(1)條規定，如金錢服務經營者有合理理由相信客戶屬第(3)款所指的客戶，可只就該客戶執行第2(1)(a)、(ab)、(c)及(d)條所列的客戶盡職審查措施，而無需執行所有措施。根據第4(3)(d)條，投資公司如負責就該投資公司的所有投資者執行與客戶盡職審查措施相類似的措施的人屬 (i) 金融機構（附表1第2部所界定的金融機構包括認可機構、持牌法團、獲授權保險人及持牌金錢服務經營者），或屬 (ii) 在香港或 (iii) 在對等司法管轄區成立為法團或設立、設有措施以確保與根據本附表所施加的規定相類似的規定獲遵從，並在有否遵從該等規定方面受到監管的機構，即屬該款所指的客戶。陳述1及3與上述各段相符，陳述4出自「所有投資者」一語。陳述2不正確：在證券市場上市的法團是第4(3)(c)條所指的一類客戶，而非第(d)段所指的負責人；該陳述借用的披露規定，是《指引》第4.8.12段就上市法團一類客戶所作的闡釋。《指引》第4.8.10(d)段列出相同的類別，第4.8.14段亦把負責人限於第4(3)(d)條所列的各類機構。"
   },
   "format": "combination"
  },
