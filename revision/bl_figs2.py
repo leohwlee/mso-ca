@@ -64,8 +64,8 @@ def fig4():
             ["在建立或維持業務關係之前，", "執行全部三項更嚴格的盡職審查措施：", "(a) 取得高級管理層批准；",
              "(b) 採取合理措施確立財富來源及資金來源；", "(c) 執行更嚴格的持續監察。"],
             "¶4.9.10 · s.5(3)(b), 10, 15 Sch. 2", 'must', answer=True)
-    NO = N(368, 262, ["Standard CDD under the risk-based approach.", "The PEP EDD package applies only if the relationship is or becomes high risk."],
-           ["按風險為本方法執行標準盡職審查。", "業務關係屬於或其後變為高風險時，", "才須執行政治人物的更嚴格措施。"],
+    NO = N(368, 262, ["All four CDD measures under the risk-based approach.", "The PEP EDD package applies only if the relationship is or becomes high risk."],
+           ["按風險為本方法執行", "全部四項盡職審查措施。", "業務關係屬於或其後變為高風險時，", "才須執行政治人物的更嚴格措施。"],
            "¶4.9.17(a)–(c)", 'ok', answer=True)
     R2 = N(640, 350, ["Risk-based, not merely a time limit.",
                       "For a former Hong Kong or international-organisation PEP this arises only in a high-risk relationship.",

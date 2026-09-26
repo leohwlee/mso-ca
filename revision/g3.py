@@ -60,7 +60,7 @@ S1 = sec('build', ["s.23 Sch. 2", "¶3.1–3.4", "¶1.6"],
            td("Take enhanced measures to manage and mitigate those risks", "採取更嚴格的措施以管理和減低風險", "¶3.2(c)")),
         tr(td("Your business is small or simple", "你的業務規模細小或簡單"),
            td("Size the systems to the nature, size and complexity of the business and its ML/TF risks. They should still include the four parts",
-              "制度須顧及業務的性質、規模及複雜程度，以及其洗錢／恐怖分子資金籌集風險；但仍應包括四個部分", "¶3.4", post=flag())),
+              "制度應顧及業務的性質、規模及複雜程度，以及其洗錢／恐怖分子資金籌集風險；但仍應包括四個部分", "¶3.4", post=flag())),
         tr(td("Your risks are lower", "你的風險較低"),
            td("You may simplify the systems, but only on the three conditions in the <a href=\"#simplify\">next section</a>",
               "你可簡化制度，但只限於符合<a href=\"#simplify\">下一節</a>的三項條件", "¶3.3")),
@@ -253,12 +253,12 @@ S6 = sec('audit', ["¶3.11–3.14", ("FAQ Q23", "常見問題第23問")],
              "¶3.11–3.12(c)"),
         trap(("Employee screening is about hiring, not customers", "僱員甄選關乎聘用僱員，而非客戶"), None, cc("¶3.14", "¶6.16"),
              vs=[(("Employee screening", "僱員甄選"), ("Adequate and appropriate screening procedures, to ensure high standards when hiring employees. One of the four parts of the system.", "設立妥善而適當的甄選程序，確保聘用僱員時採用崇高標準；是制度四個部分之一。")),
-                 (("Sanctions screening", "制裁篩查"), ("Screening customers and beneficial owners against sanctions lists, a separate control in Chapter 6.", "以制裁名單篩查客戶及實益擁有人，是第6章另一項管控措施。"))]),
+                 (("Screening mechanism", "篩查機制"), ("Screening customers and any beneficial owners against the current database, a separate control in Chapter 6.", "根據當時的數據庫對客戶及該等客戶的任何實益擁有人進行篩查，是第6章另一項管控措施。"))]),
     ))
 
 # ---------------------------------------------------------------- 7. the group
 S7 = sec('group', ["¶3.15–3.19", ("fn 10–11", "註10至11"), "s.22 Sch. 2"],
-         ("Overseas branches and subsidiaries: one group standard, and the higher rule wins", "外地分行及附屬企業：集團統一標準，以較嚴格者為準"),
+         ("Overseas branches and subsidiary undertakings: one group standard, and the higher rule wins", "外地分行及附屬企業：集團統一標準，以較嚴格者為準"),
     P("Follow the left-hand column down. The box on the right of the group-wide systems runs alongside them; the two questions below decide which box at the foot applies.",
       "沿左欄向下走。集團層面制度右方的方格與制度同步進行；其下兩個問題決定底部哪一個方格適用。")
     + fig(fig_group, ("The statutory core, section 22 of Schedule 2, covers CDD and record keeping only and is on the Schedule 2 page. The Guideline stretches the group standard to its other requirements and adds the higher-of-the-two rule.",
@@ -269,7 +269,7 @@ S7 = sec('group', ["¶3.15–3.19", ("fn 10–11", "註10至11"), "s.22 Sch. 2"]
            td("Information required for CDD and for managing ML/TF risk", "為盡職審查及管理洗錢／恐怖分子資金籌集風險所需的資料", "¶3.17(a)"),
            td("Shared within the group", "在集團內共用")),
         tr(firm("Should", "應"),
-           td("Customer, account and transaction information from overseas branches and subsidiaries in the same business as a financial institution, when necessary for AML/CFT purposes",
+           td("Customer, account and transaction information from overseas branches and subsidiary undertakings in the same business as a financial institution, when necessary for AML/CFT purposes",
               "外地分行及經營與金融機構相同業務的附屬企業的客戶、帳戶及交易資料（在有需要時，為打擊洗錢／恐怖分子資金籌集的目的）", "¶3.17(b)"),
            td("The group-level compliance, audit and/or AML/CFT functions", "集團層面的合規、審核及／或打擊洗錢／恐怖分子資金籌集職能")),
         tr(firm("Should include", "應包括"),
@@ -280,7 +280,7 @@ S7 = sec('group', ["¶3.15–3.19", ("fn 10–11", "註10至11"), "s.22 Sch. 2"]
            td("Part of what goes up to the group-level functions", "屬交予集團層面職能的資料之一")),
         tr(firm("Should receive", "應能取得"),
            td("Such information, when relevant and appropriate to risk management", "在與風險管理有關及適用時的這類資料", "fn 11"),
-           td("Back down to the branches and subsidiaries", "反向交予分行及附屬企業")),
+           td("Back down to the branches and subsidiary undertakings", "反向交予分行及附屬企業")),
     ], note=B("Every row is subject to two conditions: the laws and regulations of the jurisdictions involved must permit it, and there must be adequate safeguards on the confidentiality and use of the information, including safeguards to prevent tipping off.",
               "每一行均受兩項條件限制：所涉司法管轄區的法律及規例須准許；以及須妥善保障共用資料的保密需要及用途，包括防止通風報訊。") + ' ' + cite_html("¶3.17"), minw=760)
     + traps(
@@ -302,11 +302,11 @@ G3_BODY = S1 + S2 + S3 + S4 + S5 + S6 + S7
 
 G3_META = dict(
     tab=("3", "3"),
-    short=("Guideline Ch. 3 · AML/CFT Systems", "指引第3章 · 打擊洗錢制度"),
+    short=("Guideline Ch. 3 · AML/CFT Systems", "指引第3章 · 打擊洗錢／恐怖分子資金籌集制度"),
     eyebrow=("AML/CFT Guideline · Chapter 3 · Modules 5 and 7", "《打擊洗錢指引》第3章 · 單元五及七"),
     title=("AML/CFT Systems and who answers for them", "打擊洗錢／恐怖分子資金籌集制度及其負責人"),
-    lede=("Chapter 3 decides who in your business answers for AML/CFT, and what they need to do it. Senior management approves the systems and appoints a compliance officer and an MLRO; an independent audit function checks that the systems work; staff are screened when hired and trained throughout. If you are a Hong Kong-incorporated MSO with overseas branches, or subsidiaries in the same business as a financial institution, the same standard follows them wherever it is relevant and applicable. Where the rules differ, you require them to apply the higher one as far as host law permits; if host law does not permit it, you inform the CCE and take additional measures.",
-          "第3章決定你的業務中由誰為打擊洗錢／恐怖分子資金籌集負責，以及他們需要甚麼條件。高級管理層審批制度，並委任合規主任及洗錢報告主任；獨立的審核職能檢查制度是否奏效；僱員在聘用時經甄選，並持續接受培訓。如你是在香港成立為法團的金錢服務經營者，並設有外地分行或經營與金融機構相同業務的附屬企業，在本指引的規定關乎及適用於它們時，同一標準亦適用於它們。如規定有所不同，你須規定它們在當地法律准許的範圍內執行較嚴格者；如當地法律不准許，須通知關長並採取額外措施。"),
+    lede=("Chapter 3 decides who in your business answers for AML/CFT, and what they need to do it. Senior management approves the systems and appoints a compliance officer and an MLRO; an independent audit function checks that the systems work; staff are screened when hired and trained throughout. If you are a Hong Kong-incorporated MSO with overseas branches, or subsidiary undertakings in the same business as a financial institution, the same standard follows them wherever it is relevant and applicable. Where the rules differ, you require them to apply the higher one as far as host law permits; if host law does not permit it, you inform the CCE and take additional measures.",
+          "第3章決定你的業務中由誰為打擊洗錢／恐怖分子資金籌集負責，以及他們需要甚麼條件。高級管理層審批制度，並委任合規主任及洗錢報告主任；獨立的審核職能檢查制度是否奏效；僱員在聘用時經甄選，並持續接受培訓。如你是在香港成立為法團的金錢服務經營者，並設有外地分行或經營與金融機構相同業務的附屬企業，在本指引的規定關乎及適用於它們時，同一標準亦適用於它們。如規定有所不同，你應規定它們在當地法律准許的範圍內執行較嚴格者；如當地法律不准許，應通知關長並採取額外措施。"),
     foot=("Drawn from Chapter 3, paragraphs 3.1 to 3.19 and footnotes 9 to 11, of the Customs and Excise Department's Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Money Service Operators), June 2023, with paragraphs 1.6, 2.2–2.3, 4.1.2, 6.16, 7.7, 7.9, 7.12–7.13 and 7.31; sections 22 and 23 of Schedule 2 to the Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615 (consolidated 15 May 2026); the Licensing Guide for Money Service Operators (May 2026), paragraphs 4.15 and 11.3; the Supplementary Guideline on Criteria for Determining Fitness and Propriety (January 2020), paragraph 6(g); and FAQ Q23.",
           "取材自海關《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》（2023年6月）第3章第3.1至3.19段及註9至11，以及第1.6、2.2至2.3、4.1.2、6.16、7.7、7.9、7.12至7.13及7.31段；《打擊洗錢及恐怖分子資金籌集條例》（第615章）（2026年5月15日綜合版）附表2第22及23條；《金錢服務經營者牌照指引》（2026年5月）第4.15及11.3段；《有關適當人選準則的補充指引》（2020年1月）第6(g)段；以及常見問題第23問。"),
 )

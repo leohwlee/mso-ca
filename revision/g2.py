@@ -63,10 +63,10 @@ A = sec('rba', ["¶2.1", ("¶2.2 · ¶2.13", "第2.2、2.13段")],
         trap(("Each assessment feeds the other", "兩項評估互相影響"), None, cc("¶2.15", "¶2.4(a)(ii)"),
              vs=[(("Institutional into customer", "由機構層面到客戶層面"),
                   ("The customer risk assessment framework should be designed on the results of the institutional assessment.",
-                   "客戶風險評估框架應根據機構層面風險評估的結果制訂。")),
+                   "客戶風險評估框架應根據你在機構層面進行洗錢／恐怖分子資金籌集風險評估的結果制訂。")),
                  (("Customer into institutional", "由客戶層面到機構層面"),
                   ("The number and proportion of customers identified as high risk is one of the customer risk factors the institutional assessment weighs.",
-                   "識別為高風險的客戶數目及比例，是機構層面風險評估須考慮的客戶風險因素之一。"))]),
+                   "識別為高風險的客戶數目及比例，是機構層面的評估須考慮的客戶風險因素之一。"))]),
     ))
 
 # ---------------------------------------------------------------- B. the institutional assessment
@@ -139,7 +139,7 @@ TERMS = table([th("Term", "詞語"), th("What it means", "意思")], [
 ], minw=720)
 
 C_ = sec('factors', [("¶2.2 · ¶2.4", "第2.2、2.4段"), ("fn 3–4", "註3至4"), "¶2.15", ("Sample question 1", "參考試題1")],
-         ("What the institutional assessment weighs, and what it does not", "機構層面風險評估考慮甚麼，以及不考慮甚麼"),
+         ("What the institutional assessment weighs, and what it does not", "機構層面的洗錢／恐怖分子資金籌集風險評估考慮甚麼，以及不考慮甚麼"),
     P("Chapter 2 has three lists that look alike. Read the figure across: each line pairs items that deal with the same thing, so you can keep the four areas, the five factor groups and the three customer factor groups apart. The table under it gives every factor in the five groups.",
       "第2章有三份相似的清單。橫向閱讀下圖：每條連線把處理同一事項的項目配對，讓你分清四個範疇、五組因素及三組客戶因素。圖下的表列出五組中的每一項因素。")
     + fig(fig_lists, ("The lines pair items by name; the Guideline does not draw them. The fifth group, other risk factors, has no counterpart in the customer framework's list.",
@@ -182,12 +182,12 @@ D_ = sec('group', ["¶2.7–2.8", "s.22 Sch. 2"],
         tr(td("Part of a financial group that has already carried out a group-wide or regional ML/TF risk assessment",
               "屬某金融集團的成員，而集團或地區層面已進行洗錢／恐怖分子資金籌集風險評估", "¶2.8"),
            td("You <b>may</b> refer to or rely on it, for your own institutional assessment and for a group-wide one, <b>provided</b> it adequately reflects the ML/TF risks posed to you in the local context",
-              "你<b>可</b>參考或依賴有關評估，以施行本身的機構層面風險評估及集團層面風險評估，<b>惟</b>有關評估須充分反映你在本地層面所面對的洗錢／恐怖分子資金籌集風險", post=flag())),
+              "你<b>可</b>參考或依賴有關評估，以施行本身在機構層面及集團層面的洗錢／恐怖分子資金籌集風險評估，<b>惟</b>有關評估須充分反映你在本地層面所面對的洗錢／恐怖分子資金籌集風險", post=flag())),
         tr(td("That group assessment does not adequately reflect your local risks", "該集團評估未能充分反映你在本地面對的風險", "¶2.8"),
-           td("The condition for relying on it is not met, so the institutional assessment remains yours to carry out", "未符合依賴該評估的條件，因此機構層面風險評估仍須由你自行進行", "¶2.2 · ¶2.8",
+           td("The condition for relying on it is not met, so the institutional assessment remains yours to carry out", "未符合依賴該評估的條件，因此機構層面的評估仍須由你自行進行", "¶2.2 · ¶2.8",
               pre=INFER + ' ')),
         tr(td("A stand-alone MSO, with no branches, no subsidiaries and no group", "獨立經營，沒有分行、附屬企業或所屬集團", "¶2.2 · ¶2.7"),
-           td("Your own institutional assessment only; the group-wide assessment applies to MSOs with branches or subsidiaries", "只須進行本身的機構層面風險評估；集團層面評估適用於設有分行或附屬企業的經營者", "¶2.2 · ¶2.7",
+           td("Your own institutional assessment only; the group-wide assessment applies to MSOs with branches or subsidiaries", "只須進行本身機構層面的評估；集團層面的評估適用於設有分行或附屬企業的經營者", "¶2.2 · ¶2.7",
               pre=INFER + ' ')),
     ], minw=720)
     + traps(
@@ -204,7 +204,7 @@ D_ = sec('group', ["¶2.7–2.8", "s.22 Sch. 2"],
 E_ = sec('review', [("¶2.3(d) · ¶2.9", "第2.3(d)、2.9段"), ("¶2.11–2.12", "第2.11至2.12段"), "¶1.3", "¶5.3"],
          ("Keeping it current: every two years, on trigger events, and before any launch", "保持評估反映現況：每兩年一次、遇觸發事件時，以及推出新事物前"),
     P("Find what has happened in the left column. The first two rows send you back to review the institutional assessment; the last three call for a separate risk assessment of the new thing, done before launch.",
-      "在左欄找出發生了甚麼。首兩行須覆核機構層面的風險評估；最後三行須在推出前，就新事物另行進行風險評估。")
+      "在左欄找出發生了甚麼。首兩行須覆核機構層面的洗錢／恐怖分子資金籌集風險評估；最後三行須在推出前，就新事物另行進行風險評估。")
     + table([th("What has happened", "發生了甚麼"), th("What the Guideline expects", "指引的期望")], [
         tr(td("Two years have passed since the last assessment", "距上次評估已兩年", "¶2.9"),
            td("Conduct the assessment again", "再次進行評估")),
@@ -213,7 +213,7 @@ E_ = sec('review', [("¶2.3(d) · ¶2.9", "第2.3(d)、2.9段"), ("¶2.11–2.12
            td("A trigger event: review the assessment", "屬觸發事件：覆核評估")),
         tr(td("You launch new products and services", "你推出新的產品及服務", "¶2.9 · ¶2.11(a) · ¶2.12"),
            td("Both duties. Assess the new product's ML/TF risks before launch and take measures to manage and mitigate them; the launch is also a trigger event for reviewing the institutional assessment",
-              "兩項責任同時適用。推出前先評估新產品的洗錢／恐怖分子資金籌集風險，並採取措施管理和減低風險；推出新產品亦屬觸發事件，須覆核機構層面的風險評估", post=flag())),
+              "兩項責任同時適用。推出前先評估新產品的洗錢／恐怖分子資金籌集風險，並採取措施管理和減低風險；推出新產品亦屬觸發事件，須覆核機構層面的評估", post=flag())),
         tr(td("You develop a new business practice, including a new delivery mechanism", "你開發新經營方法，包括新的交付機制", "¶2.11(a) · ¶2.12"),
            td("Identify and assess its ML/TF risks before launch, and take appropriate measures to manage and mitigate them",
               "推出前先識別和評估其洗錢／恐怖分子資金籌集風險，並採取適當措施管理和減低風險")),
@@ -237,7 +237,7 @@ E_ = sec('review', [("¶2.3(d) · ¶2.9", "第2.3(d)、2.9段"), ("¶2.11–2.12
     ])
     + traps(
         trap(("Three review periods not to mix up", "三個容易混淆的周期"), None, cc("¶2.9", "¶5.3", LG("2.10")),
-             vs=[(("Institutional assessment", "機構層面風險評估"), ("Every two years, and on trigger events.", "每兩年一次，以及遇觸發事件時。")),
+             vs=[(("Institutional assessment", "機構層面的評估"), ("Every two years, and on trigger events.", "每兩年一次，以及遇觸發事件時。")),
                  (("High-risk customers", "高風險客戶"), ("A review of their CDD information at least once a year, more often if you consider it necessary (<a href=\"#s2-sdd-edd\">Schedule 2 page</a>).", "最少每年覆核一次其盡職審查資料，如認為有需要則更頻密（見<a href=\"#s2-sdd-edd\">附表2一頁</a>）。")),
                  (("Your licence", "你的牌照"), ("Normally valid for two years, then renewed (<a href=\"#gl-route\">Licensing page</a>).", "有效期一般為兩年，其後須續期（見<a href=\"#gl-route\">牌照一頁</a>）。"))]),
         trap(("New technology on an old product still needs assessing", "既有產品使用嶄新科技亦須評估"),
@@ -264,10 +264,10 @@ F_ = sec('cra', [("¶2.13–2.16", "第2.13至2.16段"), ("fn 5–8", "註5至8"
               "應採取均衡而合乎常理的原則，不應無理妨礙正當的業務及個人接受你提供的服務", post=flag())),
         tr(rh("What should the records show?", "紀錄應顯示甚麼？", "¶2.16 · s.20(1)(b)(ii) Sch. 2"),
            td("Among other things, (a) how you assess the customer's ML/TF risks, and (b) that the extent of CDD and ongoing monitoring is appropriate to those risks. The Guideline's margin ties this to the customer records duty in Schedule 2; retention periods are in the <a href=\"#s2-records\">records section</a>",
-              "其中包括：(a)你如何評估客戶的洗錢／恐怖分子資金籌集風險；及(b)基於該風險，所執行的盡職審查措施及持續監察程度是合適的。指引旁註把此要求連繫至附表2有關客戶紀錄的責任；保存期見<a href=\"#s2-records\">紀錄一節</a>")),
+              "其中包括：(a)你如何評估客戶的洗錢／恐怖分子資金籌集風險；及(b)基於該風險，所執行的盡職審查措施及持續監察程度是合適的。指引旁註把此要求連繫至附表2就每名客戶備存紀錄的責任；保存期見<a href=\"#s2-records\">紀錄一節</a>")),
         tr(rh("What has the C&amp;ED found going wrong?", "海關發現甚麼問題？", CI("22 Nov 2023")),
            td("Its supervisory findings on customer risk assessment, and what it expects instead, are on the <a href=\"#ci-cdd\">Circulars page</a>",
-              "海關就客戶風險評估的巡查發現及期望，見<a href=\"#ci-cdd\">通函一頁</a>")),
+              "海關在監管工作中就客戶風險評估的發現，以及預期的規管標準，見<a href=\"#ci-cdd\">通函一頁</a>")),
     ], minw=760)
     + traps(
         trap(("Initial, then final: two moments, two decisions", "初步與敲定：兩個時刻，兩項決定"), None, "¶2.13–2.14",

@@ -55,13 +55,13 @@ S5 = sec('sdd-edd', ["¶2.13, 4.1.2", "¶4.8–4.9", "¶4.15–4.16", "s.4, 10, 
     + U.traps(
         U.trap(("$8,000 again, doing a different job", "又是$8,000，但作用不同"), None, "s.4(1), 4(5)(c), 3(1A) Sch. 2",
                vs=[(("A life policy premium", "人壽保險單保費"), ("Up to $8,000 a year, or $20,000 single: a product for which simplified measures are allowed.", "每年不多於$8,000，或整付不多於$20,000：可採用簡化措施的產品。")),
-                   (("A wire transfer", "電傳轉帳"), ("$8,000 or more: the amount at which CDD must be carried out before an occasional wire transfer (simplified CDD under s.4 of Schedule 2 can still apply to a qualifying customer).", "$8,000或以上：進行非經常電傳轉帳前必須執行客戶盡職審查的款額（如客戶符合資格，仍可按附表2第4條採用簡化客戶盡職審查）。"))]),
+                   (("A wire transfer", "電傳轉賬"), ("$8,000 or more: the amount at which CDD must be carried out before an occasional wire transfer (simplified CDD under s.4 of Schedule 2 can still apply to a qualifying customer).", "$8,000或以上：進行非經常電傳轉賬前必須執行客戶盡職審查的款額（如客戶符合資格，仍可按附表2第4條採用簡化客戶盡職審查）。"))]),
         U.trap(("High-risk EDD is a menu; the PEP measures are all three", "高風險的更嚴格措施可選取；政治人物的措施須全部執行"), None, "¶4.9.2, 4.9.6 fn 36 · ¶4.9.10, 4.9.23",
                vs=[(("High risk in general", "一般高風險情況"), ("The listed EDD measures are examples. Choose measures proportionate to the risk that you can justify to the CCE; you are not expected to apply them all.", "所列的更嚴格盡職審查措施只是例子。按風險選擇合乎比例、能向關長提供理據的措施，毋須全部執行。")),
                    (("A PEP the rule catches", "受規定涵蓋的政治人物"), ("All three measures, every time: senior management approval, source of wealth and source of funds, enhanced ongoing monitoring. Only their depth is scaled to the risk.", "每次均須執行全部三項：高級管理層批准、財富來源及資金來源、更嚴格的持續監察。只有措施的深度按風險調整。"))]),
         U.trap(("\"Equivalent jurisdiction\" is not just a FATF member", "「對等司法管轄區」不限於特別組織成員"),
-               ("It means (a) a FATF member other than Hong Kong, or (b) a jurisdiction that imposes requirements similar to Schedule 2. For (b) you may have to judge for yourself; document the assessment, drawing for example on FATF-style regional body membership and mutual evaluations, FATF findings of strategic deficiencies and C&amp;ED advisory circulars; review it regularly or on trigger events. The term decides the SDD customers above, the payment route for a customer not present, and which overseas intermediaries you may rely on.",
-                "指(a)特別組織成員的司法管轄區（香港除外），或(b)施加類似附表2規定的司法管轄區。就(b)項或須自行評估，並應將評估記錄在案，例如參考是否與特別組織相類似職能的地區組織成員及其相互評估報告、是否被特別組織識別為在打擊洗錢／恐怖分子資金籌集策略上有缺失，以及關長發出的忠告通函；並須定期及／或遇有觸發事件時覆核。這個詞決定上文可簡化的客戶、客戶沒有現身時的付款途徑，以及可依賴哪些海外中介人。"),
+               ("It means (a) a FATF member other than Hong Kong, or (b) a jurisdiction that imposes requirements similar to Schedule 2. For (b) you may have to judge for yourself; document the assessment, drawing for example on FATF-style regional body membership and mutual evaluations, FATF findings of strategic deficiencies and advisory circulars issued by the CCE; review it regularly or on trigger events. The term decides the SDD customers above, the payment route for a customer not present, and which overseas intermediaries you may rely on.",
+                "指(a)特別組織成員的司法管轄區（香港除外），或(b)施加類似附表2規定的司法管轄區。就(b)項或須自行評估，並應將評估記錄在案，例如參考是否與特別組織相類似職能的地區組織成員及其相互評估報告、是否被特別組織識別為缺乏執行打擊洗錢／恐怖分子資金籌集策略，以及關長發出的忠告通函；並須定期及／或遇有觸發事件時覆核。這個詞決定上文可簡化的客戶、客戶沒有現身時的付款途徑，以及可依賴哪些海外中介人。"),
                "s.1 Sch. 2 · ¶4.16.1–4.16.3"),
     )
     + numreq([
@@ -78,7 +78,7 @@ S5 = sec('sdd-edd', ["¶2.13, 4.1.2", "¶4.8–4.9", "¶4.15–4.16", "s.4, 10, 
     ]))
 
 PEP_KEY = U.legend([('hex', ("a question you answer", "你須回答的問題")), ('', ("a fact or step", "事實或步驟")),
-                    ('must', ("the rules say must", "規定：必須")), ('ok', ("standard CDD applies", "按標準盡職審查")),
+                    ('must', ("the rules say must", "規定：必須")), ('ok', ("all four CDD measures apply", "按全部四項盡職審查措施")),
                     ('may', ("risk-based: may be relaxed with approval", "按風險：經批准可放寬"))])
 
 S6 = sec('pep', ["¶4.9.7–4.9.26", "s.1, 5, 10, 15, 19 Sch. 2"], ("Politically exposed persons: three kinds, two rules", "政治人物：三種類別，兩條規則"),
@@ -95,7 +95,7 @@ S6 = sec('pep', ["¶4.9.7–4.9.26", "s.1, 5, 10, 15, 19 Sch. 2"], ("Politically
         U.tr(U.rh("Who is a former PEP?", "誰是前政治人物？", "¶4.9.11, 4.9.18 · s.1 Sch. 2"), U.td("For non-Hong Kong PEPs, Schedule 2 defines it: someone who has been, but is not currently, entrusted with a prominent public function outside Hong Kong, <b>and</b> that person's family members and close associates. For Hong Kong and international-organisation PEPs, ¶4.9.18 covers a PEP who is no longer entrusted with the function",
                                                                                               "就非香港政治人物，附表2有所界定：曾在香港以外地方擔任、但目前沒有擔任重要公職的人，<b>以及</b>其家庭成員及關係密切的人。就香港及國際組織政治人物，第4.9.18段適用於不再擔任有關職位的政治人物")),
         U.tr(U.rh("How do you find them?", "如何識別？", "¶4.9.9, 4.9.16, 4.9.19–4.9.21 · s.19(1) Sch. 2"), U.td("For non-Hong Kong PEPs, <b>effective procedures</b> are a statutory must; for Hong Kong and international-organisation PEPs, you should take <b>reasonable measures</b>. Commercial databases support that work but never replace knowing a customer's occupation and employer. Under-classifying raises ML risk; over-classifying wastes compliance effort",
-                                                                                                                  "就非香港政治人物，設有<b>有效程序</b>是法定要求；就香港政治人物及國際組織政治人物，應採取<b>合理措施</b>。商業數據庫只是支援工具，不能取代了解客戶的職業及僱主。分類不足會提高洗錢風險；分類過度則造成不必要的合規負擔", post=U.flag())),
+                                                                                                                  "就非香港政治人物，設有<b>有效程序</b>是法定要求；就香港政治人物及國際組織政治人物，應採取<b>合理措施</b>。商業數據庫只是支援工具，不能取代了解客戶的職業及僱主。識別政治人物的門檻過高會令金錢服務經營者面對較高的洗錢風險；門檻過低則會令金錢服務經營者及其客戶承擔不必要的合規責任", post=U.flag())),
         U.tr(U.rh("How much EDD?", "更嚴格措施做到多深？", "¶4.9.22–4.9.23"), U.td("Scaled to the function held, the jurisdiction, the product and delivery channel, and for a former PEP the ¶4.9.12 and ¶4.9.18 factors. The risk posed by family members and close associates varies, to some extent, with the social-economic and cultural structure of the PEP's jurisdiction",
                                                                               "按所擔任的公職、司法管轄區、產品及交付渠道，以及（前政治人物）第4.9.12及4.9.18段的因素調整。家庭成員及關係密切的人的風險，某程度上視乎政治人物所屬司法管轄區的社會、經濟及文化結構而定")),
     ], minw=700)

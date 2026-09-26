@@ -43,7 +43,7 @@ def cc(*cs):
 A = sec('life', [("Part 5", "第5部"), "s.24–s.53", ("your own Part", "你自己的一部")],
         ("The life of your licence", "牌照的一生"),
     P("Read the diagram top to bottom once, then follow the loop on the left. After you apply, the hexagon is the test you have to pass; the red box under the grant lists the duties you have to keep; the bottom row is what can happen next. Only <b>renewal</b>, on the left, keeps the licence, and it sends you back through the same test. The other four take it from you: it expires unrenewed, the Commissioner revokes or suspends it, you stop, or it simply ends. A suspension lasts for a period, or until an event, that the Commissioner specifies, so it takes the licence away for a time rather than ending it.",
-      "看圖時先由上而下讀一遍，然後跟着左邊的迴路走。申請後，六角形是你必須通過的測試；批給下方的紅色方格是你必須履行的責任；底部一行是其後可能出現的情況。只有左邊的<b>續期</b>會保留牌照，而續期要你再次通過同一測試。其餘四個方格都會令你失去牌照：沒有續期而期滿失效、關長撤銷或暫時吊銷牌照、你自行停業，或牌照自動失效。暫時吊銷只維持關長指明的一段期間，或直至關長指明的事件發生為止，所以是暫時拿走牌照，而非令牌照終結。")
+      "看圖時先由上而下讀一遍，然後跟着左邊的迴路走。申請後，六角形是你必須通過的測試；批給下方的紅色方格是你必須履行的責任；底部一行是其後可能出現的情況。只有左邊的<b>續期</b>會保留牌照，而續期要你再次通過同一測試。其餘四個方格都會令你失去牌照：沒有續期而期滿失效、關長撤銷或暫時吊銷牌照、你自行停業，或牌照不再有效。暫時吊銷只維持關長指明的一段期間，或直至關長指明的事件發生為止，所以是暫時拿走牌照，而非令牌照終結。")
     + U.fig(fig_life, ("Renewal is not a formality. Section 31(4) applies the whole of section 30(3) and (4) again, so every person who had to be fit and proper at the grant has to be fit and proper again, and the Commissioner may amend, remove or add conditions at that moment.",
                        "續期並非例行公事。第31(4)條再次適用第30(3)及(4)條全部內容，故批給時須屬適當人選的每一個人，續期時仍須是適當人選；關長亦可於此時修改、免除或新增條件。"), LIFE_KEY)
     + numreq([
@@ -65,7 +65,7 @@ A = sec('life', [("Part 5", "第5部"), "s.24–s.53", ("your own Part", "你自
          "s.31(11)–(12)"),
         (("more than 25%", "25%以上"),
          ("Makes someone an ultimate owner, who must then be a fit and proper person", "使某人成為最終擁有人，該人因而須是適當人選"),
-         ("Partnership: more than 25% of the capital or profits, or of the voting rights. Corporation: more than 25% of the issued share capital (including through a trust or bearer shares), or of the voting rights at general meetings. Either may be held directly or indirectly. Separately, anyone who exercises ultimate control over management is an ultimate owner, whatever the percentage",
+         ("Partnership: more than 25% of the capital or profits, or of the voting rights. Corporation: more than 25% of the issued share capital (including through a trust or bearer share holding), or of the voting rights at general meetings. Either may be held directly or indirectly. Separately, anyone who exercises ultimate control over management is an ultimate owner, whatever the percentage",
           "合夥：資本或利潤、或投票權的25%以上。法團：已發行股本（包括透過信託或持票人股份持有）、或成員大會上投票權的25%以上。直接或間接持有均計算。另外，行使對管理最終的控制權的人，不論所佔百分比，亦屬最終擁有人"),
          ("Becoming one without approval is an offence by that person: level 5 and 6 months. The licensee may also face discipline, and an owner who is no longer fit and proper can cost it the licence", "未經批准而成為最終擁有人，該人即屬犯罪：第5級罰款及監禁6個月。持牌人亦可受紀律處分；最終擁有人不再是適當人選，更可令持牌人失去牌照"),
          "s.24 · s.36(7) · s.43(1)(c) · s.34(1)"),
@@ -83,14 +83,14 @@ C = sec('scope', ["s.25 · s.29", "s.46–s.48", ("who is in, who is out", "誰�
     ]), minw=640)
     + table(h("Part 5 does not apply to", "第5部不適用於") + h("On what condition", "條件"), ''.join([
         '<tr>' + d("The <b>Government</b>", "<b>政府</b>", "s.25") + d("None: it is outside Part 5 outright", "無條件：全面不適用") + '</tr>',
-        '<tr>' + d("An <b>authorized institution</b>, that is, a bank", "<b>認可機構</b>，即銀行", "s.25(a)") + d("None: outright", "無條件：全面不適用") + '</tr>',
+        '<tr>' + d("An <b>authorized institution</b> (as defined in the Banking Ordinance)", "<b>認可機構</b>（具有《銀行業條例》給予該詞的涵義）", "s.25(a) · Sch. 1 Pt 2") + d("None: outright", "無條件：全面不適用") + '</tr>',
         '<tr>' + d("A licensed corporation, an authorized insurer, a licensed insurance broker company, or a licensed individual insurance agent or licensed insurance agency", "持牌法團、獲授權保險人、持牌保險經紀公司，或持牌個人保險代理或持牌保險代理機構", "s.25(b)–(e)") + U.td("Only while the money service is <b>ancillary to its principal business</b>", "只限其金錢服務<b>附屬於其主要業務</b>", post=U.flag()) + '</tr>',
         '<tr>' + d("An SVF licensee", "工具持牌人（即根據《支付系統及儲值支付工具條例》第8F條獲批給牌照的人）", "s.25(f)") + d("The same ancillary test", "同樣須附屬於其主要業務") + '</tr>',
         '<tr>' + d("The system operator or settlement institution of a designated retail payment system", "指定零售支付系統的系統營運者或交收機構", "s.25(g)") + d("Ancillary to its business as system operator or settlement institution", "該服務附屬於其作為系統營運者或交收機構的業務") + '</tr>',
         '<tr>' + d("A stablecoin licensee", "穩定幣持牌人", "s.25(h)") + U.td("Where the money service is a business activity under its stablecoin licence. There is no ancillary test", "其金錢服務屬該持牌人在其穩定幣牌照下的業務活動。此項不設附屬測試", post=U.flag()) + '</tr>',
     ]), minw=640)
     + U.traps(
-        U.trap(("A bank is out; a broker may not be", "銀行不適用；經紀則未必"),
+        U.trap(("An authorized institution is out; a licensed insurance broker company may not be", "認可機構不適用；持牌保險經紀公司則未必"),
                ("The Government and authorized institutions are outside Part 5 whatever they do. Licensed corporations, authorized insurers, licensed insurance broker companies, licensed insurance agents or agencies and SVF licensees are outside only while the money service is ancillary to their principal business. So a company whose principal business is money service needs a licence even if it holds one of those licences. A designated retail payment system operator or settlement institution is outside only while the service is ancillary to that business. A stablecoin licensee is outside where the service is a business activity under its stablecoin licence.",
                 "政府及認可機構無論做甚麼都不受第5部規管。持牌法團、獲授權保險人、持牌保險經紀公司、持牌個人保險代理或持牌保險代理機構及工具持牌人，只有在金錢服務附屬於其主要業務時才獲豁免；因此主要業務是金錢服務的公司，即使持有上述牌照，仍須領牌。指定零售支付系統的系統營運者或交收機構，須該服務附屬於其作為系統營運者或交收機構的業務；穩定幣持牌人則須該金錢服務是其在穩定幣牌照下的業務活動。"),
                "s.25(a)–(h)"),
@@ -108,22 +108,22 @@ FP = table(
         + d("Each partner must be fit and proper <b>to operate</b>; the ultimate owner, <b>to be associated with</b> the business.", "每名合夥人須是<b>經營</b>的適當人選；最終擁有人則須是<b>與該業務有聯繫</b>的適當人選。") + '</tr>',
         '<tr>' + rh("A corporation", "法團", "s.30(3)(a)(iii)")
         + d("<b>Each director</b>, and the ultimate owner if there is one. Note that the corporation itself is not the one tested.", "<b>每名董事</b>；如有最終擁有人，該擁有人亦須符合。留意受測試的並非法團本身。")
-        + d("Both are tested as fit and proper <b>to be associated with</b> the business. The <b>to operate</b> wording never applies to a corporation.", "兩者均按<b>與該業務有聯繫</b>的適當人選標準測試。<b>經營</b>一語從不適用於法團。") + '</tr>',
+        + d("Both are tested as fit and proper <b>to be associated with</b> the business. The <b>to operate</b> wording never applies to a corporation.", "董事須是<b>與經營金錢服務有聯繫</b>的適當人選；最終擁有人須是<b>與該業務有聯繫</b>的適當人選。「<b>經營</b>金錢服務的適當人選」這個標準從不適用於法團。") + '</tr>',
         '<tr class="note"><td colspan="3">'
-        + B("<b>Ultimate owner</b> of a <b>corporation</b>: more than <b>25%</b> of the issued share capital (held directly or indirectly, including through a trust or bearer shares), or of the voting rights at general meetings, or <b>ultimate control over the management</b>. Of a <b>partnership</b>: more than 25% of the capital or profits, or of the voting rights, or ultimate control over the management. These two limbs match limb (i) of the Schedule 2 beneficial owner; Schedule 2 adds a limb (ii), 'the person on whose behalf it acts', which Part 5 gives only for an individual licensee. Of an <b>individual</b> licensee there is no percentage: it means another individual who ultimately owns or controls that individual's money service business, or the person the individual acts for.",
+        + B("<b>Ultimate owner</b> of a <b>corporation</b>: more than <b>25%</b> of the issued share capital (held directly or indirectly, including through a trust or bearer share holding), or of the voting rights at general meetings, or <b>ultimate control over the management</b>. Of a <b>partnership</b>: more than 25% of the capital or profits, or of the voting rights, or ultimate control over the management. These two limbs match limb (i) of the Schedule 2 beneficial owner; Schedule 2 adds a limb (ii), 'the person on whose behalf it acts', which Part 5 gives only for an individual licensee. Of an <b>individual</b> licensee there is no percentage: it means another individual who ultimately owns or controls that individual's money service business, or the person the individual acts for.",
             "<b>法團</b>的<b>最終擁有人</b>：直接或間接地擁有或控制（包括透過信託或持票人股份持有）已發行股本的<b>25%以上</b>，或成員大會上投票權的25%以上，或可行使對管理<b>最終的控制權</b>。<b>合夥</b>的最終擁有人：資本或利潤、或投票權的25%以上，或對管理最終的控制權。這兩部分與附表2實益擁有人的第(i)節相同；附表2另有「代表另一人行事時指該另一人」一節，第5部只就個人持牌人設此一節。<b>個人</b>持牌人的最終擁有人則不設百分比：指最終擁有或控制該名個人的金錢服務業務的另一名個人，或該名個人代其行事的人。")
         + ' ' + cite_html("s.24 · s.1 Sch. 2") + '</td></tr>',
     ]), minw=700)
 
 D = sec('fitproper', ["s.30(3)–(4)", "s.24", ("the gate", "入場關卡")],
         ("Fit and proper: who is tested, and on what", "適當人選：誰受測試，測試甚麼"),
-    P("The fit and proper test is the spine of Part 5. It decides whether a licence is granted or renewed, whether a new director, partner or owner may join, and whether a licence is revoked or suspended. The section 30(4) list is written into the grant, the renewal and each of the three people approvals; the revocation section asks only whether a person is <b>no longer</b> fit and proper, without repeating the list.",
-      "適當人選測試是第5部的骨幹。批給或續期牌照、新董事、合夥人或擁有人可否加入、牌照是否撤銷或暫時吊銷，全部取決於它。第30(4)條的因素明文適用於批給、續期及三項人事批准；撤銷條文只問某人是否<b>不再</b>是適當人選，沒有重複列出這些因素。")
+    P("Whether each person is a fit and proper person is the spine of Part 5. It decides whether a licence is granted or renewed, whether a new director, partner or owner may join, and whether a licence is revoked or suspended. The section 30(4) list is written into the grant, the renewal and each of the three people approvals; the revocation section asks only whether a person is <b>no longer</b> fit and proper, without repeating the list.",
+      "各人是否屬適當人選，是第5部的骨幹。批給或續期牌照、新董事、合夥人或擁有人可否加入、牌照是否撤銷或暫時吊銷，全部取決於它。第30(4)條的因素明文適用於批給、續期及三項人事批准；撤銷條文只問某人是否<b>不再</b>是適當人選，沒有重複列出這些因素。")
     + FP
     + U.traps(
         U.trap(("'To operate' or 'to be associated with' depends on who is tested, not on the kind of applicant", "「經營」還是「有聯繫」，取決於受測試的是誰，而非申請人屬哪一類"), None, "s.30(3)(a)",
                vs=[(("Fit and proper to operate a money service", "經營金錢服務的適當人選"), ("The individual, where the applicant is an individual; <b>each partner</b>, where it is a partnership.", "申請人屬個人時，該名個人；申請人屬合夥時，<b>每名合夥人</b>。")),
-                   (("Fit and proper to be associated with the business", "與經營金錢服務業務有聯繫的適當人選"), ("<b>Each director</b>, where the applicant is a corporation; and <b>any ultimate owner</b>, whether the applicant is an individual, a partnership or a corporation.", "申請人屬法團時，<b>每名董事</b>；以及<b>任何最終擁有人</b>，不論申請人屬個人、合夥還是法團。"))]),
+                   (("Fit and proper to be associated with the business", "與經營金錢服務業務有聯繫的適當人選"), ("<b>Each director</b>, where the applicant is a corporation; and <b>any ultimate owner</b>, whether the applicant is an individual, a partnership or a corporation.", "申請人屬法團時，<b>每名董事</b>（須是與經營金錢服務有聯繫的適當人選）；以及<b>任何最終擁有人</b>，不論申請人屬個人、合夥還是法團。"))]),
         U.trap(("A listed conviction or bankruptcy is weighed, not an automatic bar", "指明罪行的定罪或破產須予衡量，並非自動禁制"),
                ("The Commissioner <b>must have regard to</b> the section 30(4) matters, in addition to any other matter he considers relevant. An applicant who falls within section 30(4) is scrutinised, but the Commissioner has regard to the facts and circumstances of each applicant before deciding whether he or she is fit and proper.",
                 "關長除須考慮其認為有關的任何其他事宜外，亦<b>須顧及</b>第30(4)條所列事宜。屬第30(4)條所指的申請人須經仔細審查，但關長會考慮個別申請人的事實及情況，才斷定其是否適當人選。"),
@@ -136,14 +136,14 @@ D = sec('fitproper', ["s.30(3)–(4)", "s.24", ("the gate", "入場關卡")],
         '<tr>' + rh("Convictions outside Hong Kong", "香港以外的定罪紀錄", "s.30(4)(b)") + d("For conduct that would have been one of those offences had it happened in Hong Kong; for any offence relating to money laundering or terrorist financing; or for any offence that needed a finding of fraud, corruption or dishonesty",
                                                                                               "假使在香港作出即構成上述罪行的行為；任何關乎洗錢或恐怖分子資金籌集的罪行；或任何須裁斷該人曾欺詐、舞弊或不誠實行事的罪行") + '</tr>',
         '<tr>' + rh("Compliance record", "遵從紀錄", "s.30(4)(c)") + d("Whether the person has <b>persistently failed</b> to comply with a requirement under the Ordinance or a Part 5 regulation", "該人是否<b>屢次不遵從</b>本條例的規定或第5部的規例") + '</tr>',
-        '<tr>' + rh("Solvency", "償債能力", "s.30(4)(d)–(e)") + d("An individual: an undischarged bankrupt, or subject to bankruptcy proceedings. A corporation: in liquidation, subject to a winding up order, or with a receiver appointed", "個人：未獲解除破產，或正受破產法律程序規限。法團：正在清盤、受清盤令規限，或已委任接管人") + '</tr>',
+        '<tr>' + rh("Solvency", "償債能力", "s.30(4)(d)–(e)") + d("An individual: an undischarged bankrupt, or the subject of any bankruptcy proceedings. A corporation: in liquidation, the subject of a winding up order, or with a receiver appointed", "個人：未獲解除破產的破產人，或破產程序的標的。法團：正在清盤當中、清盤令的標的，或有接管人已就該法團而獲委任") + '</tr>',
         '<tr>' + rh("Anything else", "其他任何事項", "s.30(4)") + d("The list comes <b>in addition to</b> any other matter the Commissioner considers relevant: a floor, not a ceiling", "上述因素是在關長認為相關的任何其他事項<b>以外</b>另加的：是下限，不是上限") + '</tr>',
     ]), minw=680)
-    + '<h3>' + B("The premises test, and the domestic-premises trap", "處所測試，以及住宅處所的陷阱") + '</h3>'
+    + '<h3>' + B("Suitable premises, and the domestic-premises trap", "適合的處所，以及住宅處所的陷阱") + '</h3>'
     + table(h("If you apply to operate at particular premises", "如申請在特定處所經營") + h("The rule", "規則"), ''.join([
         '<tr>' + rh("Any premises", "任何處所", "s.30(3)(b)(i)") + d("The Commissioner must be satisfied they are <b>suitable</b> for operating a money service", "關長須信納該處所<b>適合</b>用作經營金錢服務") + '</tr>',
         '<tr>' + rh("Domestic premises", "住宅處所", "s.30(3)(b)(ii)") + d("You must also have the <b>written consent of every occupant</b> for an authorized person to enter and use the section 9 inspection powers", "你亦須已取得<b>每名佔用人的書面同意</b>，讓獲授權人進入並行使第9條的視察權力") + '</tr>',
-        '<tr>' + rh("Later on", "其後", "s.34(1)(b)") + U.td("If an occupant <b>revokes</b> that consent, or a <b>new occupant refuses</b> to give it, the Commissioner may revoke or suspend the licence. A new flatmate can cost you the licence", "如佔用人<b>撤回</b>同意，或<b>新佔用人拒絕</b>給予同意，關長可撤銷或暫時吊銷牌照。一名新室友足以令你失去牌照", post=U.flag()) + '</tr>',
+        '<tr>' + rh("Later on", "其後", "s.34(1)(b)") + U.td("If an occupant <b>revokes</b> that consent, or a <b>new occupant refuses</b> to give it, the Commissioner may revoke or suspend the licence. A new flatmate can cost you the licence", "如佔用人<b>撤銷</b>同意，或<b>新佔用人拒絕</b>給予同意，關長可撤銷或暫時吊銷牌照。一名新室友足以令你失去牌照", post=U.flag()) + '</tr>',
     ]), minw=640))
 
 # ---------------------------------------------------------------- E. approvals
@@ -156,7 +156,7 @@ E = sec('approvals', ["s.35–s.39", ("ask first", "先申請")],
     + table(h("Section", "條文") + h("Not allowed", "不得") + h("Until", "除非") + h("Penalty", "刑罰"),
         ''.join([
             '<tr>' + rh("35", "35", "s.35")
-            + d("A person must not <b>become a director</b> of a corporate licensee", "任何人不得<b>成為</b>法團持牌人的<b>董事</b>")
+            + d("A person must not <b>become a director</b> of a licensee that is a corporation", "如持牌人屬法團，任何人不得<b>成為</b>該法團的<b>董事</b>")
             + d("The Commissioner has given <b>written approval</b> on the licensee's application, satisfied the person is fit and proper to be associated with the business", "關長應持牌人的申請，信納該人是與該業務有聯繫的適當人選，並已給予<b>書面批准</b>")
             + d("Level 5 (HK$50,000) and 6 months, without reasonable excuse", "第5級罰款（港幣5萬元）及監禁6個月（無合理辯解）", None, 'pen') + '</tr>',
             '<tr>' + rh("36", "36", "s.36")
@@ -164,7 +164,7 @@ E = sec('approvals', ["s.35–s.39", ("ask first", "先申請")],
             + d("The same written approval on the same test", "同樣須按同一測試取得書面批准")
             + d("Level 5 (HK$50,000) and 6 months", "第5級罰款（港幣5萬元）及監禁6個月", None, 'pen') + '</tr>',
             '<tr>' + rh("37", "37", "s.37")
-            + d("A person must not <b>become a partner</b> in a partnership licensee", "任何人不得<b>成為</b>合夥持牌人的<b>合夥人</b>")
+            + d("A person must not <b>become a partner</b> in a licensee that is a partnership", "如持牌人屬合夥，任何人不得<b>成為</b>該合夥的<b>合夥人</b>")
             + d("The same approval, but the test is fit and proper <b>to operate</b> a money service", "同樣須取得批准，但測試標準是<b>經營</b>金錢服務的適當人選")
             + d("Level 5 (HK$50,000) and 6 months", "第5級罰款（港幣5萬元）及監禁6個月", None, 'pen') + '</tr>',
             '<tr>' + rh("38", "38", "s.38")
@@ -214,9 +214,9 @@ F = sec('duties', ["s.39A–s.41", "s.27–s.28 · s.33 · s.52", ("while you ho
     + table(h("The licence and the register", "牌照及登記冊") + h("The rule", "規則"), ''.join([
         '<tr>' + rh("What the licence shows", "牌照須載明甚麼", "s.33") + d("It is in a form the Commissioner specifies, and must give the address of every premises where you may operate (or, if you are not tied to premises, your correspondence address), be endorsed with the conditions imposed or amended under sections 30, 31 or 32, and state the period for which it is valid", "牌照須採用關長指明的格式，並須指明你可經營金錢服務所在的每一個處所的地址（如屬任何其他情況，則為你的通訊地址）、批註根據第30、31或32條施加或修改的條件，並指明牌照的有效期") + '</tr>',
         '<tr>' + rh("What the register holds", "登記冊載有甚麼", "s.27(1)–(2)") + d("Every licensee's name, and either every premises address or, for a licensee not tied to premises, a correspondence address. Kept at the Commissioner's office, in any form he thinks fit", "每名持牌人的姓名或名稱，以及其可經營金錢服務的每一個處所的地址；如屬任何其他情況，則為該持牌人的通訊地址。由關長以其認為合適的形式在其辦事處備存") + '</tr>',
-        '<tr>' + rh("Who may look", "誰可查閱", "s.27(3)–(4)") + d("The public, <b>free of charge</b> during normal office hours, so anyone can check they are dealing with a licensee", "公眾可在正常辦公時間內<b>免費</b>查閱，以核實對方是否持牌人") + '</tr>',
+        '<tr>' + rh("Who may look", "誰可查閱", "s.27(3)–(4)") + d("The public, <b>free of charge</b> during normal office hours, so anyone can check they are dealing with a licensee", "公眾人士有權在通常辦公時間內<b>免費</b>查閱，以確定其是否正與持牌人有往來") + '</tr>',
         '<tr>' + rh("A certified copy", "核證複本", "s.28(2)–(3)") + d("Admissible without further proof and <b>evidence</b> of what it states; a name missing from it is evidence the person was not licensed on the date the copy was certified", "毋須進一步證明即獲接納，並屬所述事實的<b>證據</b>；複本上沒有某人的姓名或名稱，即可作為證據，證明該人在該複本經核證當日並沒有獲批給牌照") + '</tr>',
-        '<tr>' + rh("The Commissioner's certificate", "關長的證明書", "s.28(4)") + U.td("That a name was entered, removed or never entered: <b>conclusive evidence</b>", "述明姓名或名稱曾記入、已刪除或從未記入：屬<b>確證</b>", post=U.flag()) + '</tr>',
+        '<tr>' + rh("The Commissioner's certificate", "關長的證明書", "s.28(4)") + U.td("That a name was entered, removed or never entered: <b>conclusive evidence</b>", "述明姓名或名稱已名列於登記冊、已從登記冊刪除或未有名列於登記冊：屬<b>確證</b>", post=U.flag()) + '</tr>',
     ]), minw=640))
 
 # ---------------------------------------------------------------- G. losing it
@@ -230,12 +230,12 @@ G = sec('losing', ["s.30–s.34", "s.41 · s.42", ("how it ends", "如何終結"
         + d("On receipt of the notice, or the time it specifies, whichever is later", "收到通知時或通知指明的時間，以較遲者為準")
         + d("—", "—") + d("Yes", "可以", "s.54") + '</tr>',
         '<tr>' + rh("Revoked or suspended", "撤銷或暫時吊銷", "s.34")
-        + d("Someone who had to be fit and proper <b>no longer is</b>, or consent to enter <b>domestic premises</b> is revoked or refused. A reasonable opportunity to be heard comes first. The Licensing Guide gives a longer, non-exhaustive list of examples, such as a periodic return not submitted on time: see the <a href=\"#gl-endings\">Guidelines page</a>", "本須屬適當人選的人<b>不再</b>是適當人選，或<b>住宅處所</b>的進入同意被撤回或拒絕給予。須先給予合理的陳詞機會。《牌照指引》另列出並非詳盡無遺的例子，例如未能按時遞交定期申報表：見<a href=\"#gl-endings\">指引頁</a>", cc("s.34(1), (3)", LG("7.1–7.2")))
+        + d("Someone who had to be fit and proper <b>no longer is</b>, or consent to enter <b>domestic premises</b> is revoked or refused. A reasonable opportunity to be heard comes first. The Licensing Guide gives a longer, non-exhaustive list of examples, such as a periodic return not submitted on time: see the <a href=\"#gl-endings\">Guidelines page</a>", "本須屬適當人選的人<b>不再</b>是適當人選，或<b>住宅處所</b>的進入同意被撤銷或拒絕給予。須先給予合理的陳詞機會。《牌照指引》另列出並非詳盡無遺的例子，例如未能按時遞交定期申報表：見<a href=\"#gl-endings\">指引頁</a>", cc("s.34(1), (3)", LG("7.1–7.2")))
         + U.td("At the time the notice specifies; the notice also sets a suspension's terms, or the time to surrender a revoked licence", "在通知指明的時間；通知亦須載明吊銷的條款，或撤銷後交回牌照的期限", post=U.flag())
         + d("No; and failing to surrender a revoked licence is an offence at level 5", "不退還；沒有交回已撤銷的牌照即屬犯罪，可處第5級罰款")
         + d("Yes", "可以", "s.54") + '</tr>',
         '<tr>' + rh("Not renewed", "不獲續期", "s.31")
-        + d("The renewal application fails the same fit and proper and premises tests as a new application", "續期申請未能通過與新申請相同的適當人選及處所測試")
+        + d("The renewal application does not meet the same requirements as a new application: that each person is a fit and proper person, and that the premises are suitable to be used for the operation of a money service", "續期申請未能符合與新申請相同的規定：各人須屬適當人選，處所須適合用作經營金錢服務")
         + U.td("If you applied in time, the licence stays in force past its expiry until the refusal takes effect, unless you withdraw the application or the licence is revoked or suspended", "如你按時申請，牌照在期滿後仍然有效，直至拒絕續期的決定生效為止；但如申請被撤回，或牌照被撤銷或暫時吊銷，則不在此限", post=U.flag())
         + d("—", "—") + d("Yes", "可以", "s.54") + '</tr>',
         '<tr>' + rh("It expires", "期滿失效", "s.30(10) · s.31(12)")
@@ -246,7 +246,7 @@ G = sec('losing', ["s.30–s.34", "s.41 · s.42", ("how it ends", "如何終結"
         + d("Your own decision, notified in writing before the date of cessation", "你自己的決定，須在停業日期前書面具報")
         + d("From the date of cessation; return the licence within 7 days beginning on that date", "自停業日期起；須在自停業日期起計的7日內交回牌照")
         + d("No, if it is returned for cancellation", "如交回以作取消，則不退還", "s.41(3)") + d("Nothing to review", "無可覆核") + '</tr>',
-        '<tr>' + rh("It simply ends", "自動失效", "s.42")
+        '<tr>' + rh("It simply ends", "牌照不再有效", "s.42")
         + d("An individual dies; a partnership dissolves; a corporation's winding up commences", "個人去世；合夥解散；法團開始清盤")
         + d("At that moment, with no decision, notice or hearing", "即時失效，毋須任何決定、通知或聆訊")
         + d("—", "—") + d("No: it is not a decision", "不可以：這不是決定") + '</tr>',
@@ -260,7 +260,7 @@ H_ = sec('enforce', ["s.43–s.48", "s.26 · s.50–s.53", ("the sharp end", "�
     + table(h("Power", "權力") + h("Aimed at", "針對") + h("What it allows", "可以做甚麼") + h("The limits", "限制"), ''.join([
         '<tr>' + rh("Discipline", "紀律行動", "s.43–s.45")
         + d("A <b>licensee</b> that breaches a Part 5 regulation, a licence condition, or sections 35(1) to 41(1)", "違反第5部規例、牌照條件或第35(1)至41(1)條的<b>持牌人</b>")
-        + d("Public reprimand, a remedial order, a penalty of up to <b>$1,000,000</b>, and up to <b>$10,000 a day</b> while a remedial order is ignored", "公開譴責、糾正命令、最高<b>$1,000,000</b>的罰款；不遵從糾正命令期間，另可命令繳付每日最高<b>$10,000</b>的罰款")
+        + d("Public reprimand, an order to take remedial action, a pecuniary penalty of up to <b>$1,000,000</b>, and up to <b>$10,000 a day</b> while that order is not complied with", "公開譴責、命令採取糾正行動、最高<b>$1,000,000</b>的罰款；不遵從該命令期間，另可命令繳付每日最高<b>$10,000</b>的罰款")
         + d("A reasonable opportunity to be heard first; a written notice with reasons and the Tribunal statement; penalty guidelines published before first use", "須先給予合理的陳詞機會；書面通知須載明理由及覆核審裁處的提示；首次施加罰款前須公布指引") + '</tr>',
         '<tr>' + rh("Authorized officers", "獲授權人員", "s.46")
         + d("Staffing the two powers below", "執行下列兩項權力的人員")
@@ -272,7 +272,7 @@ H_ = sec('enforce', ["s.43–s.48", "s.26 · s.50–s.53", ("the sharp end", "�
         + d("Obstructing the officer is an offence: level 6 and 6 months", "妨礙該人員即屬犯罪：第6級罰款及監禁6個月") + '</tr>',
         '<tr>' + rh("Arrest", "拘捕", "s.48")
         + d("Reasonable grounds to suspect <b>unlicensed operation</b>", "有合理理由懷疑<b>無牌經營</b>")
-        + d("Arrest without a warrant, or detain for further enquiries; reasonable force against forcible resistance", "可無手令拘捕或扣留以作進一步查訊；如遭強行反抗，可使用合理武力")
+        + d("Arrest without a warrant, or detain for further enquiries; use any force that is reasonably necessary if the person forcibly resists or attempts to evade", "可無手令拘捕或扣留以作進一步查訊；如遭強行反抗或企圖逃避，可使用合理所需的武力")
         + d("Show evidence of appointment if asked; a search of the person only by an officer of the same sex; no one held more than <b>48 hours</b> without being charged and brought before a magistrate", "如被要求須出示委任證明；搜身只可由同性人員進行；任何人不得被扣留超過<b>48小時</b>而不予落案起訴及帶到裁判法院") + '</tr>',
         '<tr>' + rh("Regulations and fees", "規例及費用", "s.50–s.51 · s.26(2)")
         + d("The rules and prices of the Part 5 regime", "第5部制度的規則及收費")
@@ -286,7 +286,7 @@ H_ = sec('enforce', ["s.43–s.48", "s.26 · s.50–s.53", ("the sharp end", "�
          ("Payable within 30 days (or any longer period the Commissioner specifies) after it takes effect; on the Commissioner's application the Court of First Instance may register it, and it then counts as a civil order of that Court for payment of money", "須在生效後30日（或關長指明的較長期間）內繳付；原訟法庭可應關長申請登記該命令，登記後視為原訟法庭在民事司法管轄權範圍內作出的繳付款項命令"),
          "s.43(2)(c), (3), (5)"),
         (("up to $10,000 a day", "每日最高$10,000"),
-         ("A further daily penalty the Commissioner may order if a remedial order is not complied with", "糾正命令未獲遵從時，關長可進一步命令繳付的按日罰款"),
+         ("A further daily pecuniary penalty the Commissioner may order if an order to take remedial action is not complied with", "持牌人沒有遵從命令採取糾正行動時，關長可進一步命令繳付的按日罰款"),
          ("For each day the failure continues after the date by which the remedial action was due", "命令指明的採取糾正行動期限後，未遵從狀況持續的每一日"),
          ("If ordered, payable for each day of continued non-compliance, separate from any penalty under s.43(2)(c)", "如關長作出命令，須就持續未遵從的每一日繳付不超逾$10,000的按日罰款，與根據第43(2)(c)條判處的罰款分開計算"),
          "s.43(4)"),
@@ -296,7 +296,7 @@ H_ = sec('enforce', ["s.43–s.48", "s.26 · s.50–s.53", ("the sharp end", "�
          ("You may not be held beyond it unless charged and brought before a magistrate", "除非已被落案起訴及帶到裁判法院應訊，否則不得被扣留超過此時限"),
          "s.48(4)"),
         (("12 months", "12個月"),
-         ("The window for prosecuting a Part 5 offence that is not indictable", "檢控第5部非可公訴罪行的期限"),
+         ("The window for prosecuting a Part 5 offence that is not indictable", "檢控第5部所訂罪行（可公訴罪行除外）的期限"),
          ("From when the Commissioner discovers the offence or it comes to his notice, not from when you committed it", "自關長發現或知悉該罪行時起計，而非自你作出該行為時起計"),
          ("Once it passes, proceedings for that offence can no longer be instituted", "期限屆滿後，即不能再就該罪行提起法律程序"),
          "s.53"),

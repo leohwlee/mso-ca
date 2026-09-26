@@ -76,10 +76,15 @@ def fig_roles():
                ("An introduction to the background to ML/TF and the importance you place on it; the need to identify suspicious transactions and report them to the MLRO; and the offence of tipping off",
                 "洗錢／恐怖分子資金籌集的背景，以及你對此問題的重視的簡介；識別可疑交易並向洗錢報告主任舉報的必要；以及「通風報訊」的罪行"),
                'plain', "¶9.5(a)")
-    FL = Card(40, 320, ("Staff dealing directly with the public, such as front-line staff", "與公眾有直接接觸的職員（例如前線人員）"),
+    FL = Card(40, 320, ("Staff dealing directly with the public (e.g. front-line personnel)", "與公眾有直接接觸的職員（例如前線工作人員）"),
               ("The importance of their role in your ML/TF strategy as the first point of contact with potential money launderers; the CDD and record-keeping policies relevant to their job; the circumstances that may give rise to suspicion, the lines of reporting, and when extra vigilance may be needed",
                "在你的洗錢／恐怖分子資金籌集策略中，他們作為與潛在洗錢人第一個接觸點的重要性；與其職責相關的客戶盡職審查及備存紀錄政策及程序；可能引起懷疑的情況及相關政策及程序，例如報告的流程及應何時提高警覺"),
               'plain', "¶9.5(b)")
+    # Hand-set the Chinese title: break it before the bracket, so the example term is not split across lines.
+    tl = FL.text[1].replace('（', '|（').split('|')
+    FL.seg['tc'] = [(l, FL.seg['tc'][0][1], FL.seg['tc'][0][2]) for l in tl] + [s for s in FL.seg['tc'] if s[2] == FL.size]
+    FL.seg['both'] = FL.seg['en'] + FL.seg['tc']
+    FL.h = sum(z * LH for _, _, z in FL.seg[lay()]) + 16 + (CS * LH if FL.cite else 0)
     BO = Card(375, 235, ("Back-office staff, depending on their roles", "後勤職員（視乎他們的職責）"),
               ("Customer verification and the related processing procedures; recognising unusual activity, including abnormal settlements, payments or delivery instructions",
                "客戶核實及相關處理程序；如何識別不尋常活動，包括不正常的結算、付款及交付指示"),
@@ -91,7 +96,7 @@ def fig_roles():
     JF = Card(230, 220, ("The JFIU", "財富情報組"), ("Receives the suspicious transaction reports", "接收可疑交易報告"), 'faint')
     MG = Card(625, 335, ("Managerial staff, including internal audit officers and compliance officers", "經理級人員包括內部審計人員及合規主任"),
               ("Higher-level training on every aspect of your AML/CFT regime; and specific training on their duties to supervise or manage staff, audit the system, perform random checks, and report suspicious transactions to the JFIU",
-               "更高層次的培訓，涵蓋你打擊洗錢制度的各方面；以及涵蓋監督或管理職員、系統審查、進行隨機抽查，以及向財富情報組舉報可疑交易的職責的特定培訓"),
+               "更高層次的培訓，涵蓋你打擊洗錢／恐怖分子資金籌集制度的各方面；以及涵蓋監督或管理職員、系統審查、進行隨機抽查，以及向財富情報組舉報可疑交易的職責的特定培訓"),
               'plain', "¶9.5(d)")
     ALL.y = 14
     NEW.y = ALL.y + ALL.h + 16
@@ -108,11 +113,11 @@ def fig_roles():
         b.append(f'<line class="e" x1="{n.cx:.0f}" y1="{n.y + n.h:.0f}" x2="{n.cx:.0f}" y2="{bus:.0f}"/>')
     b.append(f'<line class="e" x1="{FL.cx:.0f}" y1="{bus:.0f}" x2="{MG.cx:.0f}" y2="{bus:.0f}"/>')
     b.append(edge([(ML.cx, bus), (ML.cx, ML.y)], mid=m))
-    b.append(mlab(ML.cx + 12, (bus + ML.y) / 2 + 5 + (8 if lay() == 'both' else 0), "internal reports", "內部舉報", 'start'))
+    b.append(mlab(ML.cx + 12, (bus + ML.y) / 2 + 5 + (8 if lay() == 'both' else 0), "internal reports", "內部報告", 'start'))
     b.append(edge([ML.bottom, JF.top], mid=m))
     b.append(mlab(ML.cx + 12, (ML.y + ML.h + JF.y) / 2 + 5 + (8 if lay() == 'both' else 0), "STR", "可疑交易報告", 'start'))
-    aria = ("Training by role. Every member of staff should be made aware of five points, listed in the table below. Every new joiner, whatever their seniority, learns the background to ML/TF, to report suspicious transactions to the MLRO, and the tipping-off offence. Front-line staff learn the importance of their role as first point of contact, the CDD and record-keeping policies for their job, and when to be suspicious and how to report. Back-office staff learn verification and processing and to recognise abnormal settlements, payments or delivery instructions. Managerial staff, including internal audit officers and compliance officers, get higher-level training on the whole regime and on supervising, auditing, random checks and their duties in reporting to the JFIU. Internal reports from every group go to the MLRO, trained to assess them and report suspicious transactions to the JFIU, and to keep abreast of developments.",
-            "按職位劃分的培訓。應促使每名職員留意下表所列五項。所有新職員不論資歷，學習洗錢及恐怖分子資金籌集的背景、向洗錢報告主任舉報可疑交易，以及「通風報訊」的罪行。前線職員學習其作為第一個接觸點的重要性、與其職責相關的盡職審查及備存紀錄政策，以及何時須起疑及如何舉報。後勤職員學習核實及處理程序，並識別不正常的結算、付款及交付指示。經理級人員包括內部審計人員及合規主任，接受涵蓋整個制度的更高層次培訓，以及監督、審查、隨機抽查及向財富情報組舉報的職責的培訓。各類職員的內部舉報均交予洗錢報告主任，其培訓涵蓋評估舉報、向財富情報組舉報可疑交易及掌握最新發展。")
+    aria = ("Training by role. Every member of staff should be made aware of five points, listed in the table below. Every new joiner, whatever their seniority, learns the background to ML/TF, to report suspicious transactions to the MLRO, and the tipping-off offence. Front-line personnel learn the importance of their role as first point of contact, the CDD and record-keeping policies for their job, and when to be suspicious and how to report. Back-office staff learn verification and processing and to recognise abnormal settlements, payments or delivery instructions. Managerial staff, including internal audit officers and compliance officers, get higher-level training on the whole regime and on supervising, auditing, random checks and their duties in reporting to the JFIU. Internal reports from every group go to the MLRO, trained to assess them and report suspicious transactions to the JFIU, and to keep abreast of developments.",
+            "按職位劃分的培訓。應促使每名職員留意下表所列五項。所有新職員不論資歷，學習洗錢及恐怖分子資金籌集的背景、向洗錢報告主任舉報可疑交易，以及「通風報訊」的罪行。前線工作人員學習其作為第一個接觸點的重要性、與其職責相關的盡職審查及備存紀錄政策，以及何時須起疑及如何舉報。後勤職員學習核實及處理程序，並識別不正常的結算、付款及交付指示。經理級人員包括內部審計人員及合規主任，接受涵蓋整個制度的更高層次培訓，以及監督、審查、隨機抽查及向財富情報組舉報的職責的培訓。各類職員的內部報告均交予洗錢報告主任，其培訓涵蓋評估該等報告、向財富情報組舉報可疑交易及掌握最新發展。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 

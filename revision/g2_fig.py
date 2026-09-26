@@ -88,8 +88,8 @@ def fig_lists():
     X = (10, 340, 640)
     CWS = (310, 280, 350)   # the third column is widest so its long title fits on two lines
     heads = [
-        (["Institutional assessment:", "the 4 areas it covers"], ["機構層面風險評估：", "涵蓋的4個範疇"], "¶2.2"),
-        (["Institutional assessment:", "the 5 groups of factors"], ["機構層面風險評估：", "考慮的5組因素"], "¶2.4"),
+        (["Institutional assessment:", "the 4 areas it covers"], ["機構層面的評估：", "涵蓋的4個範疇"], "¶2.2"),
+        (["Institutional assessment:", "the 5 groups of factors"], ["機構層面的評估：", "考慮的5組因素"], "¶2.4"),
         (["Customer risk framework:", "the 3 groups of factors"], ["客戶風險評估框架：", "包含的3組因素"], "¶2.15"),
     ]
     v = lay()
@@ -134,7 +134,7 @@ def fig_lists():
         b.append(f'<line class="e" x1="{p.x + p.w}" y1="{p.cy:.1f}" x2="{q.x}" y2="{q.cy:.1f}"/>')
     H = max(n.y + n.h for n in f + c3) + 14
     aria = ("Three lists from Chapter 2 side by side. The institutional assessment covers four areas: your customers; the countries your customers are from or in; the countries where you operate; and your products, services, transactions and delivery channels. It weighs five groups of factors: customer, country, product service or transaction, delivery or distribution channel, and other. The customer risk assessment framework generally has three groups: customer, country, and product, service, transaction or delivery channel. Lines pair the items that deal with the same thing; the other risk factors have no counterpart in the customer framework.",
-            "第2章三份清單並列。機構層面風險評估涵蓋四個範疇：你的客戶；客戶所屬或所在的國家；你業務所在的國家；以及你的產品、服務、交易及交付渠道。它考慮五組因素：客戶、國家、產品服務或交易、交付或分銷渠道，以及其他。客戶風險評估框架一般包含三組：客戶、國家，以及產品、服務、交易或交付渠道。連線把處理同一事項的項目配對；其他風險因素在客戶框架中沒有對應組別。")
+            "第2章三份清單並列。機構層面的洗錢／恐怖分子資金籌集風險評估涵蓋四個範疇：你的客戶；客戶所屬或所在的國家；你業務所在的國家；以及你的產品、服務、交易及交付渠道。它考慮五組因素：客戶、國家、產品服務或交易、交付或分銷渠道，以及其他。客戶風險評估框架一般包含三組：客戶、國家，以及產品、服務、交易或交付渠道。連線把處理同一事項的項目配對；其他風險因素在客戶框架中沒有對應組別。")
     return svg(W, H, ''.join(b), aria, 'g2l', 860)
 
 

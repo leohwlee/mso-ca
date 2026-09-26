@@ -248,6 +248,6 @@ APX = sec('docs', [("App. A", "附錄A"), "¶4.3.3–4.3.4", "¶4.3.7–4.3.12",
                     ("Examples: a s.18(3) intermediary, a member of the judiciary in an equivalent jurisdiction, an officer of the issuing country's embassy, consulate or high commission, a Justice of the Peace, or a professional such as an accountant, lawyer, notary public or chartered secretary.",
                      "例子：附表2第18(3)條的中介人、對等司法管轄區的司法人員、發證國家的大使館、領事館或高級專員公署人員、太平紳士，或會計師、律師、公證人、特許秘書等專業人士。")),
                    (("Witness to Appendix I of Form 3A (Licensing Guide)", "表格3A附錄I的見證人（《牌照指引》）"),
-                    ("An authorised C&ED officer, a practising professional such as a solicitor, accountant or auditor, a notary public or a Justice of the Peace. This is for the fit-and-proper declaration in a licence application, not for customers (see <a href=\"#gl-route\">Getting licensed</a>).",
-                     "海關的獲授權人員、執業專業人士（例如事務律師、會計師或核數師）、公證人或太平紳士。這是牌照申請中的適當人選聲明所用，與客戶無關（見<a href=\"#gl-route\">申領牌照一節</a>）。"))]),
+                    ("An authorised C&ED officer, a practising professional such as a solicitor, accountant or auditor, a notary public or a Justice of the Peace. This is for the Fit and Proper Person Declaration Form in a licence application, not for customers (see <a href=\"#gl-route\">Getting licensed</a>).",
+                     "海關的獲授權人員、執業專業人士（例如事務律師、會計師或核數師）、公證人或太平紳士。這是牌照申請中的適當人選聲明表格所用，與客戶無關（見<a href=\"#gl-route\">申領牌照一節</a>）。"))]),
     ))

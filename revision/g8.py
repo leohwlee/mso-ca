@@ -59,10 +59,10 @@ A = sec('file', ["¶8.1–8.3", "¶8.5", "fn 66", "¶2.3, 2.16, 5.14", "¶6.18, 
               "與該交易有關而取得或產生的文件的正本或複本，及數據及資料的紀錄：應足以重組個別交易，以便在有需要時為檢控犯罪活動提供證據",
               "¶8.5 · s.20(1)(a) Sch. 2", post=flag())),
     ], note=B("The customer records are kept for the whole relationship and at least five years after it ends, or at least five years after an occasional transaction equal to or above the CDD threshold; transaction records for at least five years after completion. The clocks are drawn on the <a href=\"#s2-records\">Schedule 2 page</a>.",
-              "客戶紀錄須在業務關係存續期間備存，並在關係終止後最少五年，或在總值相等於或超過盡職審查門檻的非經常交易後最少五年；交易紀錄則在交易完成後最少五年。各時限見<a href=\"#s2-records\">附表2一頁</a>。") + ' ' + cite_html("¶8.4, 8.6"), minw=820)
+              "第8.3段提述的所有文件及紀錄應在與有關客戶的業務關係繼續期間備存，並在關係終止後最少五年，或在總值相等於或超過盡職審查門檻的非經常交易後最少五年；交易紀錄則在交易完成後最少五年。各時限見<a href=\"#s2-records\">附表2一頁</a>。") + ' ' + cite_html("¶8.4, 8.6"), minw=820)
     + h3("Beyond the customer file: other records to keep", "客戶檔案以外：其他備存的紀錄")
     + table([th("The record", "紀錄"), th("What to keep, and why", "備存甚麼及其目的")], [
-        tr(rh("Your institutional risk assessment", "機構層面的風險評估"),
+        tr(rh("Your institutional ML/TF risk assessment", "機構層面的洗錢／恐怖分子資金籌集風險評估"),
            td("The appropriate steps should include documenting the risk assessment process, including the identification and assessment of relevant risks, supported by qualitative and quantitative analysis and information obtained from relevant internal and external sources; and having appropriate mechanisms to provide the risk assessment to the Commissioner when required to do so",
               "適當步驟應包括記錄風險評估程序，包括識別和評估有關風險的程序，並輔以從相關內部與外部來源取得的定質與定量分析及資料；以及設有適當機制應關長要求提供風險評估結果", "¶2.3(a), (e)")),
         tr(rh("Each customer risk assessment", "每項客戶風險評估"),
@@ -71,7 +71,7 @@ A = sec('file', ["¶8.1–8.3", "¶8.5", "fn 66", "¶2.3, 2.16, 5.14", "¶6.18, 
         tr(rh("Steps taken to identify grounds for suspicion", "為識辨有否懷疑的理由而採取的步驟"),
            td("The findings and outcomes of the steps taken, such as examining the background and purposes of the transactions, and the rationale of any decision made after taking them, should be properly documented in writing and be available to the Commissioner, other competent authorities and auditors",
               "所採取步驟（例如審查交易的背景及目的）的發現及結果、採取步驟後作出任何決定的理由，應以書面方式妥為記錄在案，以便提交予關長、其他主管當局及核數師", "¶5.10, 5.14")),
-        tr(rh("Internal reports and STRs", "內部舉報及可疑交易報告"),
+        tr(rh("Internal reports and STRs", "內部報告及可疑交易報告"),
            td("You must establish and maintain a record of all ML/TF reports made to the MLRO, and a record of all STRs made to the JFIU",
               "你必須建立及保存向洗錢報告主任作出的所有洗錢／恐怖分子資金籌集報告的完整紀錄，以及向財富情報組提交的所有可疑交易報告的紀錄", "¶7.29–7.30")),
         tr(rh("Screening", "篩查"),
@@ -143,9 +143,9 @@ ORD3 = ("the Drug Trafficking (Recovery of Proceeds) Ordinance (DTROP), the Orga
 C_ = sec('who', ["¶9.1", "¶9.4–9.5"],
          ("What every member of staff should know, and what each role adds", "每名職員應知道甚麼，以及各職位須額外學習甚麼"),
     '<p>' + B("Read the figure from the top. The red band applies to everyone, the next band to every newcomer, and the boxes below to particular groups. The arrows are the reporting line: every internal report reaches the MLRO, who assesses it and reports suspicious transactions to the JFIU.",
-      "由上而下看圖。紅色橫條適用於所有職員，下一條適用於每名新職員，下方各方格則適用於特定類別的職員。箭頭是舉報流程：所有內部舉報均交予洗錢報告主任，由其評估並向財富情報組舉報可疑交易。") + ' ' + cite_html("¶7.9, 7.12(b), 9.5(e)") + '</p>'
+      "由上而下看圖。紅色橫條適用於所有職員，下一條適用於每名新職員，下方各方格則適用於特定類別的職員。箭頭是舉報流程：所有內部報告均交予洗錢報告主任，由其評估並向財富情報組舉報可疑交易。") + ' ' + cite_html("¶7.9, 7.12(b), 9.5(e)") + '</p>'
     + fig(fig_roles, ("The group lists are areas the Guideline says may be appropriate, in addition to the five points for everyone. The groups overlap: a new front-line recruit is both a new joiner and a member of staff dealing with the public.",
-                      "各類職員的清單，是指引指在五項共同事項以外「或適用」的培訓範疇。各類別會重疊：新入職的前線職員既是新職員，也是與公眾有直接接觸的職員。"), ROLES_KEY)
+                      "各類職員的清單，是指引指在五項共同事項以外「或適用」的培訓範疇。各類別會重疊：新入職的前線工作人員既是新職員，也是與公眾有直接接觸的職員。"), ROLES_KEY)
     + h3("The five points every member of staff should be made aware of", "應促使每名職員留意的五項事項")
     + table([th("Staff should be made aware of", "應促使職員留意"), th("Whose", "誰的"), th("Source", "出處")], [
         tr(td("The statutory obligations, and the possible consequences of failing to comply with the CDD and record-keeping requirements",
@@ -204,7 +204,7 @@ D_ = sec('cycle', ["¶9.2–9.3", "¶9.6–9.8", APG16],
     + h3("How firmly the Guideline puts each point", "指引對每一點的語氣強弱")
     + table([th("How firmly", "語氣"), th("The point", "要點")], [
         tr(vd(chip("your responsibility", "你的責任", 'ink')),
-           td("Providing adequate training so that staff can implement your AML/CFT Systems", "為職員提供充分培訓，確保他們足以執行打擊洗錢制度", "¶9.2")),
+           td("Providing adequate training so that staff can implement your AML/CFT Systems", "為職員提供充分培訓，確保他們受訓後足以執行打擊洗錢／恐怖分子資金籌集制度", "¶9.2")),
         tr(vd(SHOULD),
            td("Tailoring scope and frequency to your specific risks, pitched to staff's job functions, responsibilities and experience", "培訓的範疇及頻密程度切合你面對的特定風險，並顧及職員的職能、職責及經驗", "¶9.2")),
         tr(vd(SHOULD),
@@ -248,8 +248,8 @@ D_ = sec('cycle', ["¶9.2–9.3", "¶9.6–9.8", APG16],
                  (("Should", "應"),
                   ("Being able to demonstrate to the Commissioner that all materials are up to date and in line with current requirements and standards.",
                    "能夠向關長證明所有培訓材料都是最新的，並符合現行規定及標準。"))]),
-        trap(("The 2019 policy template's training cross-reference does not match the 2023 Guideline", "2019年政策範本就培訓範疇引用的段落，與2023年版指引不符"),
-             ("Item 16 of the AML/CFT Policy template, version 12/2019, lists the training topics and ends with other issues set out in paragraph 9.7 of the Guideline. In the June 2023 Guideline, ¶9.7 is about training records; the topics by staff group are in ¶9.5.",
+        trap(("The 2019 AML/CFT Policy guidelines' training cross-reference does not match the 2023 Guideline", "2019年版《打擊洗錢政策指引》就培訓範疇引用的段落，與2023年版指引不符"),
+             ("Item 16 of the AML/CFT Policy guidelines, Ver. (12/2019), lists the training topics and ends with other issues set out in paragraph 9.7 of the Guideline. In the June 2023 Guideline, ¶9.7 is about training records; the topics by staff group are in ¶9.5.",
               "《打擊洗錢政策指引》（2019年12月版）第16項列出培訓範疇，最後一項是「《打擊洗錢指引》第9.7段所載列的其他事宜」。在2023年6月版指引中，第9.7段關乎培訓紀錄；按職員類別劃分的培訓範疇則在第9.5段。"),
              cc(APG16, "¶9.5, 9.7")),
     ))

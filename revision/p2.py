@@ -83,8 +83,8 @@ def fig_chain():
     N3 = BCard(250, 500, ("You contravene a specified provision", "你違反指明的條文"),
                ("One of the Schedule 2 duties that section 5(11) lists", "即第5(11)條所列的附表2責任之一"), cite="s.5(11)")
     O1 = BCard(16, 260, ("Part 4 discipline", "第4部紀律行動"),
-               ("Any one or more of: public|reprimand, a remedial order,|and a penalty up to the|greater of $10,000,000 or|3 times the profit gained|or costs avoided.|No one has to show you knew",
-                "一項或多於一項：公開譴責、|糾正命令、罰款（上限為|$10,000,000或所獲取的利潤|或所避免的開支的3倍，|以較大者為準）。|毋須證明你明知"), 'must', "s.21(1)–(2)", answer=True)
+               ("Any one or more of: public|reprimand, an order to take|remedial action, and a|penalty up to the greater of|$10,000,000 or 3 times the|profit gained or costs avoided.|No one has to show you knew",
+                "一項或多於一項：公開譴責、|採取糾正行動的命令、|罰款（上限為$10,000,000|或所獲取的利潤或所避免的|開支的3倍，以較大者為準）。|毋須證明你明知"), 'must', "s.21(1)–(2)", answer=True)
     O2 = BCard(290, 222, ("Offence:|the institution knew", "罪行：機構明知而違反"),
                ("On indictment,|$1,000,000 and 2 years", "公訴程序：|罰款$1,000,000及監禁2年"), 'stop', "s.5(5)", answer=True)
     O3 = BCard(526, 222, ("Offence:|intent to defraud", "罪行：機構意圖詐騙"),
@@ -178,25 +178,25 @@ SPEC = [
      "在為不干擾正常業務運作而有必要，且洗錢或恐怖分子資金籌集風險已獲有效管理的情況下，於建立業務關係後才核實身分", False,
      ("A permission. Once you use it, completing verification as soon as reasonably practicable (subsection (3)) is specified", "屬准許。但一旦採用，在合理地切實可行的範圍內盡快完成核實（第(3)款）即屬指明的條文"), "s.3(2) Sch. 2"),
     ("Do not proceed, or end the relationship, when CDD cannot be completed", "未能完成客戶盡職審查時，不可進行交易，或須終止業務關係", True, None, "s.3(4) Sch. 2"),
-    ("Simplified due diligence for the listed low-risk customers and products", "就所列低風險客戶及產品執行簡化客戶盡職審查", False,
+    ("Simplified customer due diligence for the listed low-risk customers and products", "就所列低風險客戶及產品執行簡化客戶盡職審查", False,
      ("A permission, so there is nothing in it to break", "屬准許，故當中並無可違反之處"), "s.4 Sch. 2"),
-    ("Monitor each business relationship continuously, adding measures for customers not present, PEPs and high-risk situations",
+    ("Monitor each business relationship continuously, adding measures for customers not present, politically exposed persons and high-risk situations",
      "持續監察每段業務關係；就沒有現身的客戶、政治人物及高風險情況採取額外措施", True, None, "s.5(1), (3) Sch. 2"),
-    ("Carry out CDD on a pre-existing customer when a trigger event occurs, or end the relationship", "先前客戶出現觸發事件時執行客戶盡職審查，否則須終止業務關係", True, None, "s.6 Sch. 2"),
+    ("Carry out CDD on a pre-existing customer when an unusual or suspicious transaction, or one not consistent with your knowledge of the customer, takes place, or a material change occurs in the way the customer's account is operated; otherwise end the relationship", "先前客戶出現異乎尋常或可疑的交易、不符合你對該客戶的認知的交易，或其戶口的操作模式出現相當程度的轉變時，執行客戶盡職審查，否則須終止業務關係", True, None, "s.6 Sch. 2"),
     ("Take at least one extra measure when the customer is not physically present", "客戶沒有現身時，最少採取一項額外措施", True, None, "s.9 Sch. 2"),
-    ("For a PEP: senior management approval, and source of wealth and of funds", "就政治人物：取得高級管理層批准，並確立財富來源及資金來源", True,
-     ("The former-PEP exemption in subsection (3) is not", "第(3)款有關前政治人物的豁免則不是"), "s.10 Sch. 2"),
+    ("For a politically exposed person: senior management approval, and source of wealth and of funds", "就政治人物：取得高級管理層批准，並確立財富來源及資金來源", True,
+     ("The former politically exposed person exemption in subsection (3) is not", "第(3)款有關前政治人物的豁免則不是"), "s.10 Sch. 2"),
     ("Wire transfers: record, include, pass on and chase the originator and recipient information", "電傳轉帳：記錄、附上、傳遞及追補匯款人及收款人資料", True,
      ("The exemptions and the batch-file option are not", "豁免情況及群組檔案安排則不是"), "s.12 Sch. 2"),
     ("Remittance transactions other than wire transfers, of $8,000 or more: identify and verify the originator, and record the details", "$8,000或以上的匯款交易（電傳轉帳除外）：識別及核實匯款人身分，並記錄有關資料", True, None, "s.13(2) Sch. 2"),
-    ("Virtual asset transfers: obtain, record and submit the originator and recipient information", "虛擬資產轉帳：取得、記錄及提交匯款人及收款人資料", True, None, "s.13A Sch. 2"),
-    ("Enhanced measures in high-risk situations, including any the Commissioner specifies in a written notice", "在高風險情況下（包括關長藉書面通知指明的情況）採取更嚴格措施", True, None, "s.15 Sch. 2"),
+    ("Virtual asset transfers: obtain, record and submit the originator and recipient information", "虛擬資產轉賬：取得、記錄及提交匯款人及收款人資料", True, None, "s.13A Sch. 2"),
+    ("Special requirements in other high risk situations, including any situation the Commissioner specifies in a notice in writing", "關於其他高度風險情況的規定，包括關長藉書面通知指明的情況", True, None, "s.15 Sch. 2"),
     ("Never open or keep an anonymous account, or one in a fictitious name", "不得開立或維持匿名戶口，或以虛構姓名或名稱開立的戶口", True, None, "s.16 Sch. 2"),
     ("When relying on an intermediary: obtain its data immediately, and make sure copies come on request", "依賴中介人時：立刻取得其數據或資料，並確保可應要求取得複本", True,
      ("The permission to rely, in subsection (1), is not", "第(1)款准許依賴中介人的條文則不是"), "s.18 Sch. 2"),
-    ("Effective procedures: PEP screening, wire and virtual asset transfers, and each kind of customer, relationship, product and transaction",
-     "有效的程序：斷定政治人物、處理電傳轉帳及虛擬資產轉帳，以及就每種客戶、業務關係、產品及交易而設的程序", True, None, "s.19 Sch. 2"),
-    ("Keep records for at least five years, longer if a notice says so, in the prescribed form", "按訂明方式備存紀錄最少五年；如有通知規定則更長", True,
+    ("Effective procedures: determining whether a customer is a politically exposed person, wire and virtual asset transfers, and each kind of customer, relationship, product and transaction",
+     "有效的程序：斷定政治人物、處理電傳轉帳及虛擬資產轉賬，以及就每種客戶、業務關係、產品及交易而設的程序", True, None, "s.19 Sch. 2"),
+    ("Keep records for at least five years, longer if a notice says so, in the manner section 21 sets out: the original, or a copy on microfilm or in the database of a computer", "備存紀錄最少五年，如有通知規定則更長，並須以第21條所列方式備存：正本，或以微縮影片或電腦數據庫備存的複本", True,
      ("The Commissioner's power to demand a longer period is not; complying with his notice is", "關長要求延長期間的權力則不是；遵從其通知才是"), "s.20–21 Sch. 2"),
     ("Make overseas branches and subsidiaries follow similar requirements, or inform the Commissioner and mitigate", "確保海外分行及附屬企業遵從類似規定，否則須通知關長並減低風險", True, None, "s.22(1)–(2) Sch. 2"),
     ("Take all reasonable measures to prevent a breach of Schedule 2 Parts 2 and 3, and to mitigate ML/TF risk", "採取所有合理措施，防止違反附表2第2及3部，並減低洗錢及恐怖分子資金籌集風險", True, None, "s.23 Sch. 2"),
@@ -222,15 +222,15 @@ C_ = sec('specified', ["s.5(11)", ("the list", "清單")],
     + table([th("The Schedule 2 rule, in plain words", "附表2的規定（淺白說明）"), th("Specified provision?", "是否指明的條文？")], spec_rows(), minw=700, cls='spec')
     + traps(
         trap(("A permission cannot be breached, but the duties around it can", "准許本身不能違反，但相關的責任可以"),
-             ("Delayed verification and simplified due diligence are permissions, so neither is on the list. The duties around them are. Once you verify late, you must complete the verification as soon as reasonably practicable. If you cannot complete CDD, or that verification, you must not establish a business relationship or carry out an occasional transaction with that customer, or must end an existing relationship as soon as reasonably practicable. A customer who does not meet the simplified due diligence conditions simply gets full CDD; failing those conditions is not itself a reason to stop.",
-              "延後核實及簡化客戶盡職審查屬准許，故不在清單之內，但相關的責任則在清單之內。一旦延後核實，你須在合理地切實可行的範圍內盡快完成核實。如不能完成客戶盡職審查或該項核實，便不可建立業務關係或進行非經常交易，或須在合理地切實可行的範圍內盡快結束業務關係。客戶如不符合簡化客戶盡職審查的條件，你便須執行全面的客戶盡職審查；不符合這些條件本身並不是停止交易的理由。"),
+             ("Delayed verification and simplified customer due diligence are permissions, so neither is on the list. The duties around them are. Once you verify late, you must complete the verification as soon as reasonably practicable. If you cannot complete CDD, or that verification, you must not establish a business relationship or carry out an occasional transaction with that customer, or must end an existing relationship as soon as reasonably practicable. A customer who does not meet the simplified customer due diligence conditions simply gets all the CDD measures; failing those conditions is not itself a reason to stop.",
+              "延後核實及簡化客戶盡職審查屬准許，故不在清單之內，但相關的責任則在清單之內。一旦延後核實，你須在合理地切實可行的範圍內盡快完成核實。如不能完成客戶盡職審查或該項核實，便不可建立業務關係或進行非經常交易，或須在合理地切實可行的範圍內盡快結束業務關係。客戶如不符合簡化客戶盡職審查的條件，你便須執行所有客戶盡職審查措施；不符合這些條件本身並不是停止交易的理由。"),
              "s.3(1), (2)–(4), 4(1) Sch. 2"),
     ))
 
 # ---------------------------------------------------------------- D. guidelines
 def fig_guide():
     W = 1000
-    TOP = BCard(250, 500, ("You did not follow a provision of the C&ED Guideline", "你沒有遵從海關指引的某項條文"),
+    TOP = BCard(250, 500, ("You did not follow a provision of the Guideline", "你沒有遵從指引的某項條文"),
                 ("A guideline published in the Gazette under section 7|on how Schedule 2 operates", "即根據第7條在憲報公布、就附表2的施行提供導引的指引"), cite="s.7(1)")
     G1 = BCard(10, 310, ("Not by itself|a ground for proceedings", "此事本身不構成被起訴的理由"),
                ("No judicial or other proceedings can|rest on the guideline breach alone", "不能單憑沒有遵守指引，|而提起任何司法或其他法律程序"), 'ok', "s.7(4)", answer=True)
@@ -252,8 +252,8 @@ def fig_guide():
     b.append(f'<polyline class="e" points="{G1.cx:.0f},{by:.0f} {G3.cx:.0f},{by:.0f}"/>')
     for g in row:
         b.append(edge([(g.cx, by), g.top], mid=m))
-    aria = ("What a departure from the C&ED Guideline means: it is not by itself a ground for proceedings, but the Commissioner must have regard to relevant provisions when deciding whether Schedule 2 was contravened; and in proceedings under the Ordinance before a court the guideline is admissible in evidence, and the court must take into account any provision it finds relevant.",
-            "沒有遵從海關指引的後果：此事本身不構成被起訴的理由；但關長在決定有否違反附表2時須顧及相關條文；而在根據本條例於法院進行的法律程序中，該指引可獲接納為證據，法院如覺得指引內的條文攸關有關問題，須考慮該條文。")
+    aria = ("What a departure from the Guideline means: it is not by itself a ground for proceedings, but the Commissioner must have regard to relevant provisions when deciding whether Schedule 2 was contravened; and in proceedings under the Ordinance before a court the guideline is admissible in evidence, and the court must take into account any provision it finds relevant.",
+            "沒有遵從指引的後果：此事本身不構成被起訴的理由；但關長在決定有否違反附表2時須顧及相關條文；而在根據本條例於法院進行的法律程序中，該指引可獲接納為證據，法院如覺得指引內的條文攸關有關問題，須考慮該條文。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 

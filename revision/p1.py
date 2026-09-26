@@ -74,17 +74,17 @@ def fig_map():
            ("Binds financial institutions, you included, to Schedule 2, and makes it a crime to contravene a specified provision knowingly or with intent to defraud a relevant authority",
             "令附表2對金融機構（包括你）具約束力；|明知而違反指明的條文，或出於詐騙有關當局的意圖而違反，即屬犯罪"), href="#doc-p2")
     S2 = C(SX, SW, ("Schedule 2 · The duties themselves" + LINK, "附表2 · 具體規定" + LINK),
-           ("When and how to carry out CDD, ongoing monitoring, transfers and record keeping",
+           ("When and how to carry out CDD, monitor business relationships continuously, handle transfers and keep records",
             "何時及如何執行客戶盡職審查、持續監察、轉帳及備存紀錄"), href="#doc-s2")
     P3 = C(PX, PW, ("Part 3 · Supervision and investigations" + LINK, "第3部 · 監管及調查" + LINK),
            ("Routine inspections, investigations, warrants, and the offences for not cooperating",
             "例行視察、調查、手令，以及不合作的罪行"), href="#doc-p3")
     P4 = C(PX, PW, ("Part 4 · Disciplinary actions" + LINK, "第4部 · 紀律行動" + LINK),
-           ("For breaching a specified provision of Schedule 2: reprimands, remedial orders and penalties up to the greater of $10,000,000 or three times the profit gained or costs avoided",
-            "就違反附表2的指明條文作出譴責、糾正命令，以及最高為$10,000,000或所獲取的利潤或所避免的開支的3倍（以較大者為準）的罰款"), href="#doc-p4")
+           ("For breaching a specified provision of Schedule 2: reprimands, orders to take remedial action and penalties up to the greater of $10,000,000 or 3 times the profit gained or costs avoided",
+            "就違反附表2的指明條文：譴責、採取糾正行動的命令，|以及最高$10,000,000或所獲取的利潤或所避免的開支的3倍|（以較大者為準）的罰款"), href="#doc-p4")
     P5 = C(PX, PW, ("Part 5 · Regulation of money service" + LINK, "第5部 · 對經營金錢服務的規管" + LINK),
            ("Your licence: grant, renewal, approvals, duties, and the Commissioner's own discipline",
-            "你的牌照：批給、續期、批准、責任，以及關長本身的紀律權力"), href="#doc-p5")
+            "你的牌照：批給、續期、批准、責任，以及關長本身的紀律處分權力"), href="#doc-p5")
     S3 = C(SX, SW, ("Schedule 3 · Fees" + LINK, "附表3 · 費用" + LINK),
            ("Fees for licence applications|and renewals, approvals, new or|particular premises, and register|copies and certificates",
             "牌照申請及續期、批准、新增或特定處所，|以及登記冊複本及證明書的收費"), href="#doc-s3")
@@ -166,13 +166,13 @@ B_ = sec('rulebook', ["s.2(2)", "s.6 · s.7", "s.50 · s.51", "s.58 · s.76 · s
         tr(td("Schedule 2, the CDD and record-keeping duties", "附表2，即盡職審查及備存紀錄的規定", "s.6"),
            td("The <b>Secretary</b>", "<b>局長</b>"),
            td("Notice published in the Gazette", "藉憲報公告")),
-        tr(td("Schedule 3, the money service licence fees", "附表3，即金錢服務牌照的費用", "s.50"),
+        tr(td("Schedule 3, the fees (for licences, approvals and register copies)", "附表3，即費用（牌照、批准及登記冊複本）", "s.50"),
            td("The <b>Commissioner</b>", "<b>關長</b>", post=flag()),
            td("Notice published in the Gazette", "藉憲報公告")),
         tr(td("Schedule 4, the Review Tribunal provisions", "附表4，即覆核審裁處的條文", "s.58(2)"),
            td("The <b>Secretary</b>", "<b>局長</b>"),
            td("Notice published in the Gazette", "藉憲報公告")),
-        tr(td("Guidelines on how Schedule 2 operates, such as the C&amp;ED Guideline for money service operators", "就附表2的施行而發出的指引，例如海關為金錢服務經營者發出的指引", "s.7(1), (3), (6)"),
+        tr(td("Guidelines on how Schedule 2 operates, such as the Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Money Service Operators)", "就附表2的施行而發出的指引，例如《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》", "s.7(1), (3), (6)"),
            td("The <b>relevant authority</b>, which for you is the Commissioner", "<b>有關當局</b>，就你而言即關長"),
            td("Published in the Gazette, and amendable from time to time. Not subsidiary legislation", "在憲報公布，並可不時修訂。並非附屬法例")),
         tr(td("Guidelines on imposing pecuniary penalties", "施加罰款的指引", "s.23 · s.45"),
@@ -204,11 +204,11 @@ C_ = sec('govt', ["s.3", "s.4", ("with s.21(9)", "另及第21(9)條"), "s.25"],
     P("Two short sections, each with a qualification that changes the answer. Find the situation on the left.",
       "兩條簡短的條文，各有一項會改變答案的限制。先在左邊找出情況。")
     + table([th("The situation", "情況"), th("The general rule", "一般規則"), th("The qualification", "限制")], [
-        tr(rh("A Government body is the one dealing in money, or breaking a rule", "政府機構本身處理款項，或違反規定", "s.3"),
+        tr(rh("The Government is the one dealing in money, or breaking a rule", "政府本身處理款項，或違反規定", "s.3"),
            td("The Ordinance applies to the Government, <b>except as otherwise expressly provided</b>.", "除另有<b>明文規定</b>外，本條例適用於政府。"),
-           td("Two express exceptions matter to you. Part 5 does not apply to the Government at all, so it needs no licence. And the Part 4 pecuniary penalty, including the daily penalty, cannot be imposed on the Government; a reprimand and a remedial order still can.",
-              "有兩項明文例外與你相關。第5部完全不適用於政府，故政府毋須領牌。第4部的罰款（包括每日罰款）不可向政府施加；但譴責及糾正命令仍然可以。", "s.25 · s.21(9)", post=flag())),
-        tr(rh("A Customs officer, acting in good faith while carrying out an inspection, causes you loss", "海關人員在視察期間真誠行事，令你蒙受損失", "s.4(1)"),
+           td("Two express exceptions matter to you. Part 5 does not apply to the Government at all, so it needs no licence. And the Part 4 pecuniary penalty, including the daily pecuniary penalty, cannot be imposed on the Government; a reprimand and an order to take remedial action still can.",
+              "有兩項明文例外與你相關。第5部完全不適用於政府，故政府毋須領牌。第4部的罰款（包括按日罰款）不可向政府施加；但譴責及採取糾正行動的命令仍然可以。", "s.25 · s.21(9)", post=flag())),
+        tr(rh("A public officer employed in the Customs and Excise Department, acting in good faith while carrying out an inspection, causes you loss", "受僱於香港海關的公職人員在視察期間真誠行事，令你蒙受損失", "s.4(1)"),
            td("The relevant authority and <b>any other person</b> incur no civil liability for acts or omissions in good faith in performing, or purporting to perform, a function under the Ordinance.", "有關當局及<b>任何其他人</b>在執行或本意是執行本條例的職能時，真誠地作出的作為或不作為，均無須招致民事法律責任。"),
            td("The shield is personal. The <b>Government's</b> own liability for what a public officer did is not affected, so a claim can still lie against the Government.", "該保障只屬個人。<b>政府</b>就公職人員的作為或不作為而須負的法律責任不受影響，故仍可向政府提出申索。", "s.4(2)")),
         tr(rh("The officer acted outside his actual powers, but honestly believed he was exercising them", "該人員超越實際權力行事，但真誠相信自己在行使權力", "s.4(1)"),

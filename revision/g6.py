@@ -190,8 +190,8 @@ DB = sec('database', ["¶6.11–6.15", "¶6.19"],
 # ---------------------------------------------------------------- 5. screening
 SCR = sec('screening', ["¶6.16–6.17", "fn 58", "¶4.4.1", Q24, C2023],
           ("When to screen, and whom", "何時篩查，篩查誰"),
-    P("The top band is your customer; the bottom band is a single cross-border transfer. Red boxes are screened every time, whatever risk rating the customer carries; the grey box is screened on a risk-based approach.",
-      "上半部是你的客戶；下半部是一宗跨境轉帳。紅色方格不論客戶的風險評級為何，每次都要篩查；灰色方格按風險為本的方法篩查。")
+    P("The top band is your customer; the bottom band is a single cross-border wire transfer. Red boxes are screened every time, whatever risk rating the customer carries; the grey box is screened on a risk-based approach.",
+      "上半部是你的客戶；下半部是一宗跨境電傳轉帳。紅色方格不論客戶的風險評級為何，每次都要篩查；灰色方格按風險為本的方法篩查。")
     + fig(fig_who, ("The payment-chain list is the C&amp;ED FAQ's minimum for 'all relevant parties'; it is also summarised on the <a href=\"#ci-edd\">Circulars page</a>. Screening for politically exposed persons is a separate duty: see the <a href=\"#s2-pep\">PEP section</a>.",
                     "付款鏈名單是海關常見問題對「相關各方」的最低要求，亦撮錄於<a href=\"#ci-edd\">通函一頁</a>。政治人物篩查屬另一責任，見<a href=\"#s2-pep\">政治人物</a>一節。"), WHO_KEY)
     + table([th("The situation", "情況"), th("Whom you screen", "篩查誰")], [
@@ -203,7 +203,7 @@ SCR = sec('screening', ["¶6.16–6.17", "fn 58", "¶4.4.1", Q24, C2023],
            td("Exactly the same people: screening is carried out irrespective of the risk profile attributed to the customer", "完全相同：不論客戶的風險狀況為何均應篩查", "fn 58", post=flag())),
         tr(rh("A new or updated designation is added to your database", "數據庫加入新增或更新的指認"),
            td("Your customers and their beneficial owners; connected parties and persons purporting to act on the customer's behalf (PPTAs) on a risk-based approach", "你的客戶及其實益擁有人；有關連者及看似代表客戶行事的人按風險為本的方法處理", "¶6.16(b), 6.17")),
-        tr(rh("A customer asks you to send a cross-border or cross-boundary remittance", "客戶要求你匯出一筆跨境匯款"),
+        tr(rh("A customer asks you to carry out a cross-border or cross-boundary wire transfer or remittance transaction", "客戶要求你執行一宗跨境電傳轉帳或匯款交易"),
            td("All relevant parties in the transfer: the FAQ's minimum list is in the figure above", "轉帳的相關各方：常見問題列出的最低要求見上圖", cc("¶6.16(c)", Q24), post=flag())),
     ], minw=760)
     + numreq([
@@ -251,9 +251,9 @@ MAT = sec('match', ["¶6.18", "¶6.14", "¶7.1", "¶4.9.1"],
         trap(("A possible match is not yet a hit", "可能吻合不等於真正吻合"), None, "¶6.18 · ¶6.6–6.8",
              vs=[(("Possible match", "可能吻合"), ("Carry out enhanced checks to decide whether it is genuine.", "執行更嚴格的查核，以斷定是否真正吻合。")),
                  (("Genuine hit", "真正吻合"), ("The prohibitions apply: any payment to or for the party needs a licence.", "禁令適用：向該方或為其利益付款均須取得特許。"))]),
-        trap(("Report to the JFIU; ask the bureau for a licence", "向財富情報組舉報；向政策局申請特許"), None, "¶6.6, 6.8, 6.18",
+        trap(("Report to the JFIU; ask the bureau for a licence", "向財富情報組舉報；向保安局或商務及經濟發展局申請特許"), None, "¶6.6, 6.8, 6.18",
              vs=[(("Suspicion of TF, PF or a sanctions violation", "懷疑涉及恐怖分子資金籌集、擴散資金籌集或違反制裁"), ("Report to the JFIU.", "向財富情報組報告。")),
-                 (("Permission to pay a designated party", "准許向指定一方或被指認人士付款"), ("Write to the bureau for the law concerned: see <a href=\"#g6-regimes\">Three laws</a>.", "向有關法例的政策局提出書面申請：見<a href=\"#g6-regimes\">三條法例</a>。"))]),
+                 (("Permission to pay a designated party", "准許向指定一方或被指認人士付款"), ("Write to the bureau for the law concerned: see <a href=\"#g6-regimes\">Three laws</a>.", "按所涉法例，向保安局（《聯合國（反恐怖主義措施）條例》）或商務及經濟發展局（《聯合國制裁條例》）提出書面申請：見<a href=\"#g6-regimes\">三條法例</a>。"))]),
         trap(("Enhanced checks are not enhanced due diligence", "更嚴格的查核不等於更嚴格的盡職審查"), None, cc("¶6.18", "¶4.9.1"),
              vs=[(("Enhanced checks", "更嚴格的查核"), ("Done when screening throws up a possible name match, to decide whether it is a genuine hit.", "在篩查期間識別出可能吻合的姓名／名稱時執行，以斷定是否真正吻合。")),
                  (("Enhanced due diligence (EDD)", "更嚴格的盡職審查"), ("Measures you must apply to a business relationship or transaction to mitigate and manage high ML/TF risks: see the <a href=\"#s2-sdd-edd\">Schedule 2 page</a>.", "為減低及管理高度洗錢／恐怖分子資金籌集風險，必須對業務關係或交易執行的措施：見<a href=\"#s2-sdd-edd\">附表2一頁</a>。"))]),

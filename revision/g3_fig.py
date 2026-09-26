@@ -81,7 +81,7 @@ def fig_build():
              ("Proper safeguards to mitigate ML/TF risks and to prevent any breach of Part 2 or 3 of Schedule 2, met by internal AML/CFT Systems built on the risk-based approach",
               "確保設有合適的保障措施，以減低洗錢／恐怖分子資金籌集風險，並防止違反附表2第2或3部的任何規定；方法是按風險為本的方法執行內部打擊洗錢／恐怖分子資金籌集制度"),
              'must', "s.23 Sch. 2 · ¶3.1")
-    Bx = Card(40, 920, ("Senior management approves the systems; you monitor them and enhance them if necessary", "制度經高級管理層審批；你須監察其推行情況，並視乎需要優化"),
+    Bx = Card(40, 920, ("Senior management approves the systems; you monitor them and enhance them if necessary", "制度經高級管理層審批；你應監察其推行情況，並視乎需要優化"),
               ("Enhanced measures where higher risks are identified; sized to your business. See the table below",
                "識別出較高風險時採取更嚴格的措施；按業務規模釐定。見下表"),
               'must', "¶3.2, 3.4")
@@ -111,7 +111,7 @@ def fig_build():
         b.append(edge([(c.cx, jy), c.top], mid=m))
     b.append(mlabel(Bx.cx + 10, Bx.y + Bx.h + 38, "should include all four", "其中應包括四項", 'start'))
     aria = ("The shape of the AML/CFT Systems. At the top is the statutory duty to take all reasonable measures to ensure proper safeguards exist to mitigate ML/TF risks and prevent breaches of Parts 2 and 3 of Schedule 2, met by internal systems built on the risk-based approach. Below it, senior management approves the systems, which are monitored and enhanced if necessary, with enhanced measures for higher risks, and sized to the business. The systems should include four parts: compliance management arrangements, meaning at least senior management oversight and a compliance officer and an MLRO; an independent audit function; employee screening procedures; and an ongoing employee training programme, detailed in Chapter 9.",
-            "打擊洗錢／恐怖分子資金籌集制度的結構。頂部是法定責任：採取一切合理措施，確保設有合適的保障措施以減低風險及防止違反附表2第2或3部，方法是按風險為本的方法執行內部制度。其下是高級管理層審批制度，並須監察及視乎需要優化，在識別出較高風險時採取更嚴格的措施，並按業務規模釐定。制度應包括四個部分：合規管理安排（最低限度包括高級管理層監督，以及委任合規主任和洗錢報告主任）；獨立的審核職能；僱員甄選程序；以及持續的僱員培訓計劃（詳見第9章）。")
+            "打擊洗錢／恐怖分子資金籌集制度的結構。頂部是法定責任：採取一切合理措施，確保設有合適的保障措施以減低風險及防止違反附表2第2或3部，方法是按風險為本的方法執行內部制度。其下是高級管理層審批制度，並應監察及視乎需要優化，在識別出較高風險時採取更嚴格的措施，並按業務規模釐定。制度應包括四個部分：合規管理安排（最低限度包括高級管理層監督，以及委任合規主任和洗錢報告主任）；獨立的審核職能；僱員甄選程序；以及持續的僱員培訓計劃（詳見第9章）。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
@@ -123,8 +123,8 @@ BUILD_KEY = legend([('must', ("a duty on you: the statute's, then the Guideline'
 def fig_simplify():
     W = 1000
     Q = [Node(40, 580, ("Is there any suspicion of ML/TF?", "是否懷疑有洗錢／恐怖分子資金籌集的情況？"), "¶3.3", shape='hex'),
-         Node(40, 580, ("(a) Do you still comply with Schedule 2, the institutional risk assessment steps and the three duties in paragraph 3.2?",
-                        "(a) 你是否仍符合附表2的法定規定、機構層面風險評估的步驟，以及第3.2段的三項責任？"), "¶3.3(a) · ¶2.2–2.3, 3.2", shape='hex'),
+         Node(40, 580, ("(a) Do you still comply with Schedule 2, the institutional ML/TF risk assessment steps and the three duties in paragraph 3.2?",
+                        "(a) 你是否仍符合附表2的法定規定、機構層面的洗錢／恐怖分子資金籌集風險評估的步驟，以及第3.2段的三項責任？"), "¶3.3(a) · ¶2.2–2.3, 3.2", shape='hex'),
          Node(40, 580, ("(b) Was the lower risk identified through an appropriate risk assessment, such as the institutional ML/TF risk assessment?",
                         "(b) 較低風險是否基於適當的風險評估（例如機構層面的洗錢／恐怖分子資金籌集風險評估）而識別出來？"), "¶3.3(b)", shape='hex'),
          Node(40, 580, ("(c) Are the simplified systems approved by senior management and reviewed from time to time?",
@@ -135,6 +135,7 @@ def fig_simplify():
               ("Any suspicion, or any one condition not met, is enough", "只要懷疑有洗錢／恐怖分子資金籌集，或任何一項條件未符合，即不得簡化"),
               'stop', "¶3.3", answer=True)
     set_tc(ST, ["只要懷疑有洗錢／", "恐怖分子資金籌集，", "或任何一項條件未符合，", "即不得簡化"])
+    set_tc(Q[1], ["(a) 你是否仍符合附表2的法定規定、機構層面的", "洗錢／恐怖分子資金籌集風險評估的步驟，以及第3.2段的三項責任？"])
     set_tc(Q[2], ["(b) 較低風險是否基於適當的風險評估（例如機構層面的", "洗錢／恐怖分子資金籌集風險評估）而識別出來？"])
     H = place([([Q[0]], 52), ([Q[1]], 52), ([Q[2]], 52), ([Q[3]], 52), ([OK], 0)], y0=14)
     # The black box keeps its content height, centred on the question column; the four
@@ -156,7 +157,7 @@ def fig_simplify():
     b.append(f'<line class="e" x1="{xc}" y1="{Q[0].cy:.0f}" x2="{xc}" y2="{Q[3].cy:.0f}"/>')
     b.append(edge([(xc, ST.cy), ST.left], mid=m))
     aria = ("When the AML/CFT Systems may be simplified. First, if there is any suspicion of ML/TF, the systems may not be simplified. Otherwise three conditions must all be met: the MSO still complies with Schedule 2 and with paragraphs 2.2, 2.3 and 3.2; the lower risk was identified through an appropriate risk assessment such as the institutional ML/TF risk assessment; and the simplified systems are approved by senior management and reviewed from time to time. If all are met, the nature, scale and complexity of the systems may be simplified; if any fails, they may not.",
-            "何時可簡化打擊洗錢／恐怖分子資金籌集制度。首先，如懷疑有洗錢／恐怖分子資金籌集的情況，即不得簡化。否則須同時符合三項條件：金錢服務經營者仍符合附表2及第2.2、2.3及3.2段的規定；較低風險是基於適當的風險評估（例如機構層面的風險評估）識別出來；以及簡化制度經高級管理層審批並不時覆核。三項均符合，即可簡化制度的性質、規模及複雜程度；任何一項不符合，即不得簡化。")
+            "何時可簡化打擊洗錢／恐怖分子資金籌集制度。首先，如懷疑有洗錢／恐怖分子資金籌集的情況，即不得簡化。否則須同時符合三項條件：金錢服務經營者仍符合附表2及第2.2、2.3及3.2段的規定；較低風險是基於適當的風險評估（例如機構層面的洗錢／恐怖分子資金籌集風險評估）識別出來；以及簡化制度經高級管理層審批並不時覆核。三項均符合，即可簡化制度的性質、規模及複雜程度；任何一項不符合，即不得簡化。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
@@ -201,7 +202,7 @@ def fig_lines():
     b.append(edge([ML.bottom, JF.top], mid=m, mstart=True))
     b.append(mlabel(ML.cx + 10, ML.y + ML.h + 46, "main point of contact", "主要聯絡點", 'start'))
     aria = ("Who answers to whom. At the top, the board or its delegated committee where applicable, and senior management, understand the ML/TF risks and ensure they are managed; senior management is responsible for effective systems, and management information should reach them in a timely, complete, understandable and accurate manner. Senior management appoints the compliance officer, at the management level, with overall responsibility for establishing and maintaining the systems, and the MLRO, a senior staff member who is the central reference point for suspicious transaction reporting. Both have regular contact with senior management and direct access when required. The independent audit function has a direct line of communication to senior management. The MLRO is the main point of contact with the JFIU and law enforcement agencies.",
-            "誰向誰負責。頂部是董事會或獲其授權的委員會（如適用）及高級管理層：他們須清楚了解洗錢／恐怖分子資金籌集風險並確保妥善管理；高級管理層有責任推行有效的制度，而管理資料應以合時、完整、易於理解及準確的方式通知高級管理層。高級管理層委任屬管理層的合規主任，全面負責建立及維持制度；並委任一名高級職員擔任洗錢報告主任，作為報告可疑交易的中央聯絡點。兩者均與高級管理層保持定期聯絡，並在有需要時直接聯絡。獨立的審核職能能與高級管理層直接溝通。洗錢報告主任是與財富情報組及執法機構的主要聯絡點。")
+            "誰向誰負責。頂部是董事會或獲其授權的委員會（如適用）及高級管理層：他們應清楚了解洗錢／恐怖分子資金籌集風險並確保妥善管理；高級管理層有責任推行有效的制度，而管理資料應以合時、完整、易於理解及準確的方式通知高級管理層。高級管理層委任屬管理層的合規主任，全面負責建立及維持制度；並委任一名高級職員擔任洗錢報告主任，作為報告可疑交易的中央聯絡點。兩者均與高級管理層保持定期聯絡，並在有需要時直接聯絡。獨立的審核職能能與高級管理層直接溝通。洗錢報告主任是與財富情報組及執法機構的主要聯絡點。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
@@ -254,7 +255,7 @@ def fig_group():
                        "你是在香港成立為法團的金錢服務經營者，設有外地分行，或經營與金融機構相同業務的附屬企業"), None, 'plain', "¶3.15")
     G = Card(40, 580, ("Run group-wide AML/CFT Systems", "推行集團層面的打擊洗錢／恐怖分子資金籌集制度"),
              ("The Guideline's requirements, including the four parts in paragraph 3.4, wherever relevant and applicable. In particular, CDD and record-keeping procedures similar to Schedule 2 Parts 2 and 3, as far as local law permits",
-              "在相關及適用時執行本指引的規定，包括第3.4段的四個部分；尤其須設有程序，在當地法律准許的範圍內遵守與附表2第2及3部相類似的盡職審查及備存紀錄規定"),
+              "在相關及適用時執行本指引的規定，包括第3.4段的四個部分；尤其應該設有程序，在當地法律准許的範圍內遵守與附表2第2及3部相類似的盡職審查及備存紀錄規定"),
              'must', "¶3.15–3.16 · fn 10 · s.22(1) Sch. 2")
     SH = Card(680, 280, ("Alongside: share information within the group", "同時：在集團內共用資料"),
               ("As far as the laws allow, with safeguards on confidentiality and use, including against tipping off", "在法律准許的範圍內，並妥善保障資料的保密及用途（包括防止通風報訊）"),
@@ -262,15 +263,15 @@ def fig_group():
     Q = Node(40, 580, ("Do the host jurisdiction's AML/CFT requirements differ from the requirements in paragraph 3.15?",
                        "所在的司法管轄區對打擊洗錢／恐怖分子資金籌集的規定，是否與第3.15段所述的規定有所不同？"), "¶3.18", shape='hex')
     NF = Card(680, 280, ("No further step", "無須再採取步驟"), ("The group-wide systems apply", "上述集團層面的制度照常適用"), 'plain', "¶3.15")
-    D = Node(40, 580, ("Does host law permit the branch or subsidiary to apply the higher requirements, particularly CDD and record keeping?",
+    D = Node(40, 580, ("Does host law permit the branch or subsidiary undertaking to apply the higher requirements, particularly CDD and record keeping?",
                        "所在的司法管轄區的法律是否准許分行或附屬企業執行較嚴格的規定，尤其是盡職審查及備存紀錄規定？"), "¶3.18–3.19", shape='hex')
     OK = Card(40, 250, ("Require it to apply the higher of the two sets", "規定其執行兩者中較嚴格的規定"), None, 'ok', "¶3.18", answer=True)
     NO = Card(320, 300, ("Inform the CCE, and take additional measures", "通知關長，並採取額外措施"),
-              ("To mitigate the ML/TF risks the branch or subsidiary faces because it cannot comply", "以有效減低分行或附屬企業因不能遵從規定而面對的洗錢／恐怖分子資金籌集風險"),
+              ("To mitigate the ML/TF risks the branch or subsidiary undertaking faces because it cannot comply", "以有效減低分行或附屬企業因不能遵從規定而面對的洗錢／恐怖分子資金籌集風險"),
               'must', "¶3.19 · s.22(2) Sch. 2", answer=True)
     set_tc(S, [], title=["你是在香港成立為法團的金錢服務經營者，設有外地分行，", "或經營與金融機構相同業務的附屬企業"])
     set_tc(Q, ["所在的司法管轄區對打擊洗錢／恐怖分子資金籌集的規定，", "是否與第3.15段所述的規定有所不同？"])
-    set_tc(G, ["在相關及適用時執行本指引的規定，包括第3.4段的四個部分；", "尤其須設有程序，在當地法律准許的範圍內遵守",
+    set_tc(G, ["在相關及適用時執行本指引的規定，包括第3.4段的四個部分；", "尤其應該設有程序，在當地法律准許的範圍內遵守",
                "與附表2第2及3部相類似的盡職審查及備存紀錄規定"])
     set_tc(SH, ["在法律准許的範圍內，", "並妥善保障資料的保密及用途", "（包括防止通風報訊）"])
     OK.h = NO.h = max(OK.h, NO.h)
@@ -288,8 +289,8 @@ def fig_group():
     b.append(edge([(D.cx, jy), (NO.cx, jy), NO.top], mid=m))
     b.append(mlabel(OK.cx - 10, jy + 36, "yes", "是", 'end'))
     b.append(mlabel(NO.cx + 10, jy + 36, "no", "否", 'start'))
-    aria = ("The group-wide rule. A Hong Kong-incorporated MSO with overseas branches or subsidiary undertakings in the same business as a financial institution runs group-wide AML/CFT Systems applying the Guideline's requirements, including the four parts in paragraph 3.4, wherever relevant and applicable, and in particular CDD and record-keeping procedures similar to Schedule 2 Parts 2 and 3 as far as local law permits. Alongside, it shares information within the group as far as the laws allow, with safeguards including against tipping off. First question: do the host jurisdiction's requirements differ? If not, the group-wide systems apply and there is no further step. If they do, second question: does host law permit the higher requirements, particularly CDD and record keeping? If yes, the MSO requires the branch or subsidiary to apply the higher of the two sets. If no, the MSO informs the CCE and takes additional measures to mitigate the risks.",
-            "集團層面的規則。在香港成立為法團的金錢服務經營者如設有外地分行或經營與金融機構相同業務的附屬企業，須推行集團層面的制度，在相關及適用時執行本指引的規定（包括第3.4段的四個部分），尤其須在當地法律准許的範圍內遵守與附表2第2及3部相類似的盡職審查及備存紀錄規定。同時在法律准許的範圍內於集團內共用資料，並設有保障措施，包括防止通風報訊。第一個問題：所在的司法管轄區的規定是否有所不同？如沒有不同，集團層面的制度照常適用，無須再採取步驟。如有不同，第二個問題：當地法律是否准許執行較嚴格的規定（尤其是盡職審查及備存紀錄規定）？如准許，金錢服務經營者須規定分行或附屬企業執行兩者中較嚴格的規定；如不准許，須通知關長，並採取額外措施減低風險。")
+    aria = ("The group-wide rule. A Hong Kong-incorporated MSO with overseas branches or subsidiary undertakings in the same business as a financial institution runs group-wide AML/CFT Systems applying the Guideline's requirements, including the four parts in paragraph 3.4, wherever relevant and applicable, and in particular CDD and record-keeping procedures similar to Schedule 2 Parts 2 and 3 as far as local law permits. Alongside, it shares information within the group as far as the laws allow, with safeguards including against tipping off. First question: do the host jurisdiction's requirements differ? If not, the group-wide systems apply and there is no further step. If they do, second question: does host law permit the higher requirements, particularly CDD and record keeping? If yes, the MSO requires the branch or subsidiary undertaking to apply the higher of the two sets. If no, the MSO informs the CCE and takes additional measures to mitigate the risks.",
+            "集團層面的規則。在香港成立為法團的金錢服務經營者如設有外地分行或經營與金融機構相同業務的附屬企業，應推行集團層面的制度，在相關及適用時執行本指引的規定（包括第3.4段的四個部分），尤其應該在當地法律准許的範圍內遵守與附表2第2及3部相類似的盡職審查及備存紀錄規定。同時在法律准許的範圍內於集團內共用資料，並設有保障措施，包括防止通風報訊。第一個問題：所在的司法管轄區的規定是否有所不同？如沒有不同，集團層面的制度照常適用，無須再採取步驟。如有不同，第二個問題：當地法律是否准許執行較嚴格的規定（尤其是盡職審查及備存紀錄規定）？如准許，金錢服務經營者應規定分行或附屬企業執行兩者中較嚴格的規定；如不准許，應通知關長，並採取額外措施減低風險。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 

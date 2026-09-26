@@ -49,8 +49,8 @@ def mc(kind, en, tc, cite=None):
     return f'<td class="m-{kind}">{B(en, tc)}{cite_html(cite)}</td>'
 
 
-MX_KEY = legend([('must', ("full CDD: all four measures, before the transaction", "全面盡職審查：交易前執行全部四項措施")),
-                 ('rec', ("a record or identification duty short of full CDD", "未達全面盡職審查的紀錄或身分識別責任")),
+MX_KEY = legend([('must', ("CDD measures: all four, before the transaction", "客戶盡職審查措施：交易前執行全部四項措施")),
+                 ('rec', ("a record or identification duty short of the CDD measures", "未達客戶盡職審查措施的紀錄或身分識別責任")),
                  ('', ("no CDD trigger from the amount alone", "單憑款額不觸發盡職審查"))])
 
 MATRIX = (MX_KEY + '<div class="tbl mx"><table style="min-width:860px"><thead><tr>'
@@ -60,23 +60,23 @@ MATRIX = (MX_KEY + '<div class="tbl mx"><table style="min-width:860px"><thead><t
           + tr(rh("Money changing", "貨幣兌換"),
                mc('none', "No trigger from the amount", "款額本身不觸發"),
                mc('none', "No trigger from the amount. There is no $8,000 threshold for money changing", "款額本身不觸發。貨幣兌換並無$8,000門檻"),
-               mc('cdd', "Full CDD", "全面盡職審查", "s.3(1)(b) Sch. 2"))
+               mc('cdd', "CDD measures", "客戶盡職審查措施", "s.3(1)(b) Sch. 2"))
           + tr(rh("A remittance that is not a wire transfer", "並非電傳轉帳的匯款", "s.13 Sch. 2"),
                mc('none', "No trigger from the amount", "款額本身不觸發"),
                mc('rec', "Before the remittance: identify the originator, verify against the identification document, and record the details listed below", "進行匯款前：識別匯款人、根據其識別文件核實身分，並記錄下文所列資料", "s.13(2) Sch. 2 · ¶11.3, 11.6"),
-               mc('cdd', "Full CDD, and the remittance record as well", "全面盡職審查，並須備存匯款紀錄", "s.3(1)(b), 13 Sch. 2"))
+               mc('cdd', "CDD measures, and the remittance record as well", "客戶盡職審查措施，並須備存匯款紀錄", "s.3(1)(b), 13 Sch. 2"))
           + tr(rh("A wire transfer, with you as ordering institution", "電傳轉帳（你是匯款機構）", "s.12 Sch. 2"),
                mc('rec', "No CDD trigger, but record and send the originator's and recipient's names and account or reference numbers", "不觸發盡職審查，但須記錄及附上匯款人及收款人的姓名及戶口號碼或參考編號", "s.12(3), (3A), (5)(b) Sch. 2"),
-               mc('cdd', "Full CDD, and the fuller originator information: address, customer or ID document number, or date and place of birth", "全面盡職審查，並附上較完整的匯款人資料：地址、客戶識別號碼或識別文件號碼，或出生日期及地點", "s.3(1A)(a), 12(5)(a) Sch. 2"),
+               mc('cdd', "CDD measures, and the fuller originator information: address, customer or ID document number, or date and place of birth", "客戶盡職審查措施，並附上較完整的匯款人資料：地址、客戶識別號碼或識別文件號碼，或出生日期及地方", "s.3(1A)(a), 12(5)(a) Sch. 2"),
                mc('cdd', "The same as from $8,000", "與$8,000起的規定相同"))
           + tr(rh("A virtual asset transfer, as ordering institution", "虛擬資產轉帳（你是匯款機構）", "s.13A Sch. 2"),
                mc('rec', "No CDD trigger, but obtain, record and submit the same short set of information", "不觸發盡職審查，但須取得、記錄及提交同一組簡略資料", "s.13A(2)–(4) Sch. 2"),
-               mc('cdd', "Full CDD, and the full information", "全面盡職審查，並提交完整資料", "s.3(1A)(b), 13A(4)(a) Sch. 2"),
+               mc('cdd', "CDD measures, and the full information", "客戶盡職審查措施，並提交完整資料", "s.3(1A)(b), 13A(4)(a) Sch. 2"),
                mc('cdd', "The same as from $8,000", "與$8,000起的規定相同"))
           + tr(rh("Any other occasional transaction, such as buying a cashier order or gift cheque", "任何其他非經常交易，例如購買銀行本票或禮券", "fn 13"),
                mc('none', "No trigger from the amount", "款額本身不觸發"),
                mc('none', "No trigger from the amount", "款額本身不觸發"),
-               mc('cdd', "Full CDD", "全面盡職審查", "s.3(1)(b) Sch. 2"))
+               mc('cdd', "CDD measures", "客戶盡職審查措施", "s.3(1)(b) Sch. 2"))
           + '<tr class="note"><td colspan="4">' + B("<b>At any amount, for any service:</b> suspicion of ML/TF, or doubt about identity information obtained earlier, requires CDD; so does establishing a business relationship.",
                                                      "<b>任何款額、任何服務：</b>懷疑涉及洗錢或恐怖分子資金籌集，或懷疑過往取得的身分資料時，均須執行盡職審查；建立業務關係時亦然。")
           + ' ' + cite_html("s.3(1)(a), (d)–(e) Sch. 2") + ' '
@@ -85,7 +85,7 @@ MATRIX = (MX_KEY + '<div class="tbl mx"><table style="min-width:860px"><thead><t
           + ' ' + cite_html("s.3(1)(b), (1A) Sch. 2 · ¶4.2.4–4.2.5") + '</td></tr>'
           + '</tbody></table></div>')
 
-THR = sec('thresholds', ["s.3(1), (1A) Sch. 2", "s.12, 13, 13A Sch. 2", ("occasional customers", "非經常客戶")],
+THR = sec('thresholds', ["s.3(1), (1A) Sch. 2", "s.12, 13, 13A Sch. 2", ("occasional transactions", "非經常交易")],
           ("Which threshold applies to which service", "哪個門檻適用於哪種服務"),
     P("Every figure in this table is about a customer you have no business relationship with. Find your service on the left and read across to the amount. The key sits above the table because the cell colours carry the answer.",
       "表內每個數字都關乎與你沒有業務關係的客戶。在左邊找出你的服務，再橫向找到款額。圖例置於表上，因為格子的顏色就是答案。")
@@ -101,7 +101,7 @@ THR = sec('thresholds', ["s.3(1), (1A) Sch. 2", "s.12, 13, 13A Sch. 2", ("occasi
     ], minw=760)
     + numreq([
         (("HK$8,000", "8,000元"),
-         ("Full CDD before the transaction, plus the full originator information in the message", "在交易前執行全面盡職審查，並在信息內附上完整的匯款人資料"),
+         ("CDD measures before the transaction, plus the full originator information in the message", "在交易前執行客戶盡職審查措施，並在信息內附上完整的匯款人資料"),
          ("An occasional wire transfer or virtual asset transfer, in one operation or several that appear linked", "非經常的電傳轉帳或虛擬資產轉帳，不論以單一次或看來有關連的若干次操作進行"),
          PART4,
          "s.3(1A), 12(5)(a) Sch. 2 · s.5(5), 21 · ¶4.2.1(b)(ii)–(iii)"),
@@ -111,7 +111,7 @@ THR = sec('thresholds', ["s.3(1), (1A) Sch. 2", "s.12, 13, 13A Sch. 2", ("occasi
          ("The duty is itself a specified provision, with the same Part 4 and criminal exposure", "此責任本身即屬指明的條文，同樣可引致第4部紀律處分及刑事責任"),
          "s.13 Sch. 2 · ¶11.3–11.6"),
         (("HK$120,000", "120,000元"),
-         ("Full CDD before the transaction", "在交易前執行全面盡職審查"),
+         ("CDD measures before the transaction", "在交易前執行客戶盡職審查措施"),
          ("Any other occasional transaction, money changing and non-wire remittances included, in one operation or several that appear linked", "任何其他非經常交易（包括貨幣兌換及並非電傳轉帳的匯款），不論以單一次或看來有關連的若干次操作進行"),
          ("The same exposure. Aggregating linked transactions is your duty, not the customer's", "後果相同。合併計算有關連的交易是你的責任，不是客戶的責任"),
          "s.3(1)(b) Sch. 2 · ¶4.2.1(b)(i), 4.2.4"),
@@ -128,15 +128,15 @@ THR = sec('thresholds', ["s.3(1), (1A) Sch. 2", "s.12, 13, 13A Sch. 2", ("occasi
     ])
     + traps(
         trap(("$8,000 means two different things", "$8,000有兩種不同意思"), None, "s.3(1A), 13 Sch. 2 · ¶4.2.4, 8.4",
-             vs=[(("A wire transfer", "電傳轉帳"), ("$8,000 triggers full CDD: all four measures.", "$8,000即觸發全面盡職審查：全部四項措施。")),
-                 (("A remittance that is not a wire transfer", "並非電傳轉帳的匯款"), ("$8,000 triggers the remittance duty: identify, verify by ID document, record. Full CDD waits for $120,000.", "$8,000觸發匯款責任：識別、以識別文件核實、記錄。全面盡職審查要到$120,000才觸發。"))]),
+             vs=[(("A wire transfer", "電傳轉帳"), ("$8,000 triggers the CDD measures: all four of them.", "$8,000即觸發客戶盡職審查措施：全部四項措施。")),
+                 (("A remittance that is not a wire transfer", "並非電傳轉帳的匯款"), ("$8,000 triggers the remittance duty: identify, verify by ID document, record. The CDD measures wait for $120,000.", "$8,000觸發匯款責任：識別、以識別文件核實、記錄。客戶盡職審查措施要到$120,000才觸發。"))]),
         trap(("Exactly $8,000 is caught", "剛好$8,000亦包括在內"),
              ("Schedule 2 and the Guideline say 'equal to or above $8,000', so a wire transfer or remittance of exactly $8,000 is caught.",
               "附表2及指引均寫明「相等於$8,000或以上」，因此剛好$8,000的電傳轉帳或匯款亦包括在內。"),
              "s.12(5)(a), 13(1) Sch. 2 · ¶10.5"),
         trap(("A wire transfer's record duty has no floor", "電傳轉帳的紀錄責任不設下限"),
              ("Below $8,000 you still record and send four items. The threshold only adds the fifth: address, customer or ID document number, or date and place of birth.",
-              "即使在$8,000以下，你仍須記錄及附上四項資料。門檻只是加上第五項：地址、客戶識別號碼或識別文件號碼，或出生日期及地點。"),
+              "即使在$8,000以下，你仍須記錄及附上四項資料。門檻只是加上第五項：地址、客戶識別號碼或識別文件號碼，或出生日期及地方。"),
              "s.12(3), (3A) Sch. 2"),
     ))
 
@@ -186,7 +186,7 @@ MON = sec('monitoring', ["s.5–6 Sch. 2", "Ch. 5", "¶4.12"],
         tr(td("Suspicion of ML/TF, or doubt about earlier identity information, as for any customer", "懷疑涉及洗錢或恐怖分子資金籌集，或懷疑過往的身分資料，與任何客戶相同", "s.3(1)(d)–(e) Sch. 2"), td("Carry out CDD", "執行盡職審查")),
         tr(td("Trigger events the Guideline gives as examples: a dormant account is re-activated, or the account's beneficial ownership or control changes. You must also consider trigger events specific to your own customers and business", "指引列舉的觸發事件例子：把不動戶口重新活躍起來，或戶口的實益擁有權或控制權有變。你亦須考慮本身客戶及業務特有的其他觸發事件", "¶4.12.2"),
            td("Treat them as trigger events for CDD. Not the same as the file review a reactivated dormant customer gets under ongoing monitoring", "視為須執行盡職審查的觸發事件。這有別於不動客戶恢復活躍時在持續監察下進行的資料覆核", post=flag())),
-        tr(td("You cannot complete CDD in any of these cases", "在上述任何情況下未能完成盡職審查", "s.6(2) Sch. 2"), td("End the relationship as soon as reasonably practicable", "在合理地切實可行範圍內盡快終止業務關係")),
+        tr(td("You cannot complete CDD in any of these cases", "在上述任何情況下未能完成盡職審查", "s.6(2) Sch. 2"), td("End the relationship as soon as reasonably practicable", "在合理地切實可行的範圍內盡快結束業務關係")),
     ], note=B("Before a pre-existing customer's first CDD under the Schedule, reviewing the file means reviewing only what you hold at the time of the review.", "在按附表首次就先前客戶執行盡職審查之前，覆核資料只須覆核你在覆核時持有的資料。") + ' ' + cite_html("s.5(2) Sch. 2"), minw=720)
     + numreq([
         (("at least yearly", "最少每年一次"),
@@ -198,7 +198,7 @@ MON = sec('monitoring', ["s.5–6 Sch. 2", "Ch. 5", "¶4.12"],
         (("1 April 2012", "2012年4月1日"),
          ("The cut-off date that makes a customer pre-existing", "界定先前客戶的分界日期"),
          ("Relationships a money service operator established before that date", "金錢服務經營者在該日期前建立的業務關係"),
-         ("A trigger event then requires CDD, and failing that the relationship must end", "其後如出現觸發事件即須執行盡職審查，未能完成則須終止關係"),
+         ("A trigger event then requires CDD, and failing that the relationship must end", "其後如出現觸發事件即須執行盡職審查，未能完成則須結束關係"),
          "s.1, 6 Sch. 2"),
     ])
     + traps(
@@ -271,15 +271,15 @@ TRN = sec('transfers', ["s.12, 13, 13A Sch. 2", "Ch. 10–11", "¶10.2"],
     + table([th("Your role in the transfer", "你在轉帳中的角色"), th("Procedures to spot transfers lacking information", "識辨欠缺資料的轉帳的程序"),
              th("When the information is missing, incomplete or meaningless", "資料遺漏、不完整或不具意義時"), th("Also", "另須")], [
         tr(rh("Ordering institution: you send it", "匯款機構：由你發出", "s.19(2) Sch. 2"),
-           td("Safeguards against sending a non-compliant transfer: reasonable measures, such as regular review or testing by internal control or audit, to spot domestic or cross-border transfers lacking required information; risk-based policies for handling them; and timely fixes for control deficiencies", "設有防止發出不合規轉帳的保障措施：採取合理措施（例如定期覆核或藉內部管控或審計職能進行測試），識辨欠缺所需資料的本地或跨境電傳轉帳；設有處理這些轉帳的風險為本政策；並適時糾正管控不足之處", "¶10.13"),
+           td("Safeguards against sending a non-compliant transfer: reasonable measures, such as regular review or testing by internal control or audit, to spot domestic or cross-border wire transfers lacking required information; risk-based policies for handling them; and timely fixes for control deficiencies", "設有防止發出不合規轉帳的保障措施：採取合理措施（例如定期覆核或藉內部管控或審計職能進行測試），識辨欠缺所需資料的本地或跨境電傳轉帳；設有處理這些轉帳的風險為本政策；並適時糾正管控不足之處", "¶10.13"),
            td("Do not let it go out without the required information", "不讓欠缺所需資料的轉帳發出", "s.12(5) Sch. 2 · ¶10.13"),
-           td("From $8,000 the originator information must be accurate, and an occasional originator's identity verified. On the domestic shortcut, law enforcement agencies should get the full originator information immediately on request", "$8,000起所附匯款人資料必須準確，並須核實非經常客戶匯款人的身分。採用本地轉帳簡便安排時，應按執法機構要求立即提供全部匯款人資料", "¶10.8–10.9, 10.12")),
+           td("From $8,000 the originator information must be accurate and, for an occasional wire transfer, the originator's identity verified. On the domestic shortcut, law enforcement agencies should get the full originator information immediately on request", "$8,000起所附匯款人資料必須準確；如屬非經常電傳轉帳，並須核實匯款人的身分。採用本地轉帳簡便安排時，應按執法機構要求立即提供全部匯款人資料", "¶10.8–10.9, 10.12")),
         tr(rh("Intermediary institution", "中介機構", "s.19(2) Sch. 2"),
-           td("Reasonable measures, consistent with straight-through processing, to spot cross-border transfers lacking required information; risk-based policies on when to execute, reject or suspend such a transfer, and on the follow-up", "採取與直通式處理程序一致的合理措施，識辨欠缺所需資料的跨境電傳轉帳；設有風險為本政策，以斷定何時執行、拒絕或暫停這類轉帳，以及適當的跟進行動", "¶10.16"),
+           td("Reasonable measures, consistent with straight-through processing, to spot cross-border wire transfers lacking required information; risk-based policies on when to execute, reject or suspend such a transfer, and on the follow-up", "採取與直通式處理程序一致的合理措施，識辨欠缺所需資料的跨境電傳轉帳；設有風險為本政策，以斷定何時執行、拒絕或暫停這類轉帳，以及適當的跟進行動", "¶10.16"),
            td("Only in a transfer that is not domestic: obtain what is missing from the sending institution as soon as reasonably practicable; failing that, consider restricting or ending that relationship, or mitigate; and if the information is incomplete or meaningless, mitigate", "只限非本地電傳轉帳：在合理地切實可行範圍內盡快向發出轉帳指示的機構取得遺漏資料；如未能取得，考慮限制或結束與該機構的業務關係，或減低風險；如資料不完整或不具意義，亦須減低風險", "s.12(10) Sch. 2 · ¶10.17–10.18", post=flag()),
-           td("Pass on everything received. If technical limits stop the information travelling between a cross-border transfer and a related domestic one, you should keep a record of all the information received for at least 5 years", "傳遞收到的全部資料。如因技術限制而未能在跨境轉帳與相關本地轉帳之間保留資料，應把收到的所有資料存檔至少5年", "s.12(8) Sch. 2 · ¶10.14–10.15")),
+           td("Pass on everything received. If technical limits stop the information travelling between a cross-border wire transfer and a related domestic wire transfer, you should keep a record of all the information received for at least 5 years", "傳遞收到的全部資料。如因技術限制而未能在跨境電傳轉帳與相關本地電傳轉帳之間保留資料，應把收到的所有資料存檔至少5年", "s.12(8) Sch. 2 · ¶10.14–10.15")),
         tr(rh("Beneficiary institution", "收款機構", "s.19(2) Sch. 2"),
-           td("Reasonable measures, such as post-event monitoring, to spot domestic or cross-border transfers lacking required information; risk-based policies on when to execute, reject or suspend such a transfer, and on the follow-up", "採取合理措施（例如事後監察），識辨欠缺所需資料的本地或跨境電傳轉帳；設有風險為本政策，以斷定何時執行、拒絕或暫停這類轉帳，以及適當的跟進行動", "¶10.19"),
+           td("Reasonable measures, such as post-event monitoring, to spot domestic or cross-border wire transfers lacking required information; risk-based policies on when to execute, reject or suspend such a transfer, and on the follow-up", "採取合理措施（例如事後監察），識辨欠缺所需資料的本地或跨境電傳轉帳；設有風險為本政策，以斷定何時執行、拒絕或暫停這類轉帳，以及適當的跟進行動", "¶10.19"),
            td("Obtain what is missing from the sending institution as soon as reasonably practicable; failing that, consider restricting or ending that relationship, or mitigate. For a domestic transfer the statute names only the originator's account or reference number; ¶10.20 words the duty for any required information, domestic or cross-border. Incomplete or meaningless information: mitigate", "在合理地切實可行範圍內盡快向發出轉帳指示的機構取得遺漏資料；如未能取得，考慮限制或結束與該機構的業務關係，或減低風險。就本地電傳轉帳，條例只指明匯款人戶口號碼或參考編號；第10.20段則把責任寫成涵蓋本地或跨境轉帳的任何所需資料。資料不完整或不具意義：減低風險", "s.12(9)–(10) Sch. 2 · ¶10.20–10.21", post=flag()),
            td("From $8,000, verify the recipient's identity if it has not been verified before", "就$8,000或以上的轉帳，如未曾核實收款人的身分，便應加以核實", "¶10.22")),
     ], note=B("Follow these requirements in every jurisdiction where you operate, directly or through agents, according to your role in the transfer.", "你應就在電傳轉帳中擔當的角色，在直接營運或通過代理人營運的每個司法管轄區遵從這些規定。") + ' ' + cite_html("¶10.1"), minw=980)
@@ -293,9 +293,9 @@ TRN = sec('transfers', ["s.12, 13, 13A Sch. 2", "Ch. 10–11", "¶10.2"],
            td("A licensed money service operator, and only from $8,000", "持牌金錢服務經營者，而且只在$8,000或以上適用", post=flag()),
            td("Any financial institution acting in the chain", "任何在鏈中行事的金融機構")),
         tr(rh("The identity check", "身分核實"),
-           td("Full CDD from $8,000 for an occasional customer", "非經常客戶由$8,000起須執行全面盡職審查", "s.3(1A)(a) Sch. 2"),
+           td("CDD measures before an occasional transaction of $8,000 or more", "在執行涉及$8,000或以上的非經常交易之前，須執行客戶盡職審查措施", "s.3(1A)(a) Sch. 2"),
            td("Before the remittance: identify the originator and verify against the identification document", "進行匯款前：識別匯款人，並根據其識別文件核實身分", "s.13(2)(a)–(b) Sch. 2"),
-           td("Full CDD from $8,000 for an occasional customer", "非經常客戶由$8,000起須執行全面盡職審查", "s.3(1A)(b) Sch. 2")),
+           td("CDD measures before an occasional transaction of $8,000 or more", "在執行涉及$8,000或以上的非經常交易之前，須執行客戶盡職審查措施", "s.3(1A)(b) Sch. 2")),
         tr(rh("Does the information travel?", "資料是否隨轉帳傳遞？"),
            td("Yes: in the message or payment form accompanying the transfer", "是：附於隨轉帳的信息或付款表格內"),
            td("No: it is a record you keep", "否：屬你備存的紀錄"),
@@ -333,7 +333,7 @@ def fig_records():
     W = 1000
     L1 = Card(20, 320, ("Each transaction", "每項交易"), ("Documents, data and information obtained in connection with it, kept even if the relationship ends", "與每項交易有關而取得的文件、數據及資料；即使業務關係在期間終止，仍須備存"), cite="s.20(1)(a), (2) Sch. 2")
     L2 = Card(20, 320, ("Customers in a relationship", "業務關係中的客戶"), ("Identity and verification records for the customer and any beneficial owner; account files; business correspondence", "客戶及任何實益擁有人的身分識別及核實紀錄；戶口檔案；業務通訊"), cite="s.20(1)(b), (3) Sch. 2")
-    L3 = Card(20, 320, ("Occasional customers", "非經常客戶"), ("Customer records, when an occasional transaction reaches a CDD threshold", "非經常交易達盡職審查門檻時的客戶紀錄"), cite="s.20(3A) Sch. 2")
+    L3 = Card(20, 320, ("Occasional transactions", "非經常交易"), ("Customer records, when an occasional transaction reaches a CDD threshold", "達盡職審查門檻時，就該客戶備存的紀錄"), cite="s.20(3A) Sch. 2")
     same_h(L1, L2, L3)
     H = place([([L1], 22), ([L2], 22), ([L3], 0)], y0=16)
     b = [n.render() for n in (L1, L2, L3)]
@@ -361,16 +361,16 @@ def fig_records():
     b += [five(X0, y3, "at least 5 years from completion", "自交易完成起最少5年"),
           tick(X0, y3, "transaction completed", "交易完成")]
     aria = ("Three retention clocks, each red bar the same five years. Records of each transaction: at least five years from completion, even if the relationship ends meanwhile. Customer records in a business relationship: kept throughout the relationship and for at least five years after it ends, so they run longest. Customer records for an occasional transaction at a CDD threshold: at least five years from completion.",
-            "三個備存時限，每條紅色橫條都代表同樣的五年。每項交易的紀錄：自交易完成起最少五年，即使業務關係在期間終止。業務關係中的客戶紀錄：在關係存續期間備存，並在關係終止後最少五年，因此備存最久。達盡職審查門檻的非經常交易的客戶紀錄：自交易完成起最少五年。")
+            "三個備存時限，每條紅色橫條都代表同樣的五年。每項交易的紀錄：自交易完成起最少五年，即使業務關係在期間終止。業務關係中就每名客戶備存的紀錄：在關係存續期間備存，並在關係終止後最少五年，因此備存最久。非經常交易達盡職審查門檻時就該客戶備存的紀錄：自交易完成起最少五年。")
     return svg(W, H + 20, ''.join(b), aria, m, 820)
 
 
 REC = sec('records', ["s.20–21 Sch. 2", "Ch. 8", ("with ¶9.7", "另及第9.7段")],
           ("Record keeping: what, how long, and in what form", "備存紀錄：甚麼、多久、以甚麼形式"),
-    P("Each lane is one kind of record, and every red bar is the same five years. What to learn is where it starts: from the transaction for transaction records, and for customer records from the end of the relationship, or from completion for an occasional customer's records. The arrow at the end of each bar means at least.",
-      "每一行是一類紀錄，每條紅色橫條都是同樣的五年。要記的是它從何時開始計算：交易紀錄由交易起計；客戶紀錄由業務關係終止起計，非經常客戶的紀錄則由交易完成起計。橫條末端的箭頭表示「最少」。")
+    P("Each lane is one kind of record, and every red bar is the same five years. What to learn is where it starts: from the transaction for transaction records, and for customer records from the end of the relationship, or from completion for records kept for an occasional transaction. The arrow at the end of each bar means at least.",
+      "每一行是一類紀錄，每條紅色橫條都是同樣的五年。要記的是它從何時開始計算：交易紀錄由交易起計；就每名客戶備存的紀錄由業務關係終止起計，為非經常交易備存的紀錄則由交易完成起計。橫條末端的箭頭表示「最少」。")
     + fig(fig_records, ("A written notice from the Commissioner can require any of these records to be kept for longer, where they are relevant to an ongoing investigation or to another purpose the notice states; keeping them for that period is then itself a specified provision.",
-                          "關長可藉書面通知，要求把與正在進行的調查或通知所述其他目的相關的紀錄保存較長時間；遵從該期間本身即屬指明的條文。"),
+                          "關長可藉書面通知，要求把與正在進行的調查或通知所述其他目的相關的紀錄備存較長時間；遵從該期間本身即屬指明的條文。"),
           legend([('must', ("the minimum period after the trigger", "觸發事件後的最短期間")), ('', ("kept while the relationship lasts", "在關係存續期間備存"))]))
     + table([th("If the record is", "如紀錄是"), th("Keep it as", "須以下列形式備存")], [
         tr(td("A document", "文件", "s.21(a) Sch. 2"), td("The <b>original</b>; or a <b>copy on microfilm or in a computer database</b>", "<b>正本</b>；或<b>以微縮影片或電腦數據庫備存的複本</b>", post=flag())),
@@ -383,7 +383,7 @@ REC = sec('records', ["s.20–21 Sch. 2", "Ch. 8", ("with ¶9.7", "另及第9.7�
          ("Record keeping is a specified provision, so a gap carries Part 4 discipline and, if knowing, an offence", "備存紀錄屬指明的條文，出現缺口可引致第4部紀律處分；明知而為即屬犯罪"),
          "s.20(1)(a), (2) Sch. 2 · ¶8.5–8.6"),
         (("at least 5 years", "最少5年"),
-         ("Keep the customer records: identity and verification, account files, business correspondence", "備存客戶紀錄：身分識別及核實、戶口檔案、業務通訊"),
+         ("Keep the customer records: identity and verification, account files, business correspondence", "就每名客戶備存紀錄：身分識別及核實、戶口檔案、業務通訊"),
          ("Throughout the relationship, then from the date it ends. For an occasional transaction at a CDD threshold ($8,000 for wire and virtual asset transfers, $120,000 for any other), from the date it is completed", "在業務關係存續期間，其後自關係終止之日起計。如屬達盡職審查門檻的非經常交易（電傳轉帳及虛擬資產轉帳為$8,000，其他交易為$120,000），則自交易完成之日起計"),
          ("The same exposure, and an intermediary you relied on must be able to hand copies over within the same period", "後果相同；你所依賴的中介人亦須能在同一期間內交出複本"),
          "s.20(1)(b), (3), (3A), 18(4)(b) Sch. 2 · ¶8.4"),
@@ -405,10 +405,10 @@ REC = sec('records', ["s.20–21 Sch. 2", "Ch. 8", ("with ¶9.7", "另及第9.7�
              "s.21 Sch. 2"),
         trap(("Two different starting points for five years", "五年有兩個不同的起算點"), None, "s.20(2)–(3A) Sch. 2",
              vs=[(("Transaction records", "交易紀錄"), ("Five years from the transaction, even if the customer leaves the next day.", "由交易起計五年，即使客戶翌日便終止關係。")),
-                 (("Customer records", "客戶紀錄"), ("In a business relationship: five years from the end of the relationship, however long it lasted. For an occasional transaction at a CDD threshold: five years from its completion.", "業務關係中的客戶紀錄：由業務關係終止起計五年，不論關係維持了多久。如屬達盡職審查門檻的非經常交易：自交易完成起計五年。"))]),
+                 (("Customer records", "就每名客戶備存的紀錄"), ("In a business relationship: five years from the end of the relationship, however long it lasted. For an occasional transaction at a CDD threshold: five years from its completion.", "業務關係中：由業務關係終止起計五年，不論關係維持了多久。如屬達盡職審查門檻的非經常交易：自交易完成起計五年。"))]),
         trap(("Which occasional transactions carry the completion clock", "哪些非經常交易適用「自交易完成起計」"), None,
              "s.20(3A), 3(1)(b), (1A) Sch. 2 · ¶8.4",
-             vs=[(("Wire transfers and virtual asset transfers", "電傳轉帳及虛擬資產轉帳"), ("An occasional transaction of $8,000 or more: keep the customer records for at least five years from the date it is completed.", "總值相等於或超過$8,000的非經常交易：客戶紀錄須由交易完成當日起計備存至少5年。")),
+             vs=[(("Wire transfers and virtual asset transfers", "電傳轉帳及虛擬資產轉帳"), ("An occasional transaction of $8,000 or more: keep the customer records for at least five years from the date it is completed.", "總值相等於或超過$8,000的非經常交易：就該客戶備存的紀錄須由交易完成當日起計備存至少5年。")),
                  (("Any other type, money changing included", "其他類別的交易（包括貨幣兌換）"), ("The CDD threshold, and so the completion clock, is $120,000, not $8,000.", "盡職審查門檻，亦即適用「自交易完成起計」的門檻，是$120,000，而非$8,000。"))]),
     ))
 
@@ -433,7 +433,7 @@ SYS = sec('systems', ["s.15–17 Sch. 2", "s.19, 22, 23 Sch. 2", "¶4.14–4.15"
               "不得為任何客戶開立或維持匿名戶口，或以虛構姓名或名稱開立或維持戶口。設有保密號碼的戶口不應作為匿名戶口：應遵從一模一樣的盡職審查及管控措施，客戶身分須經核實並讓相當數目的職員知悉，而該戶口的電傳轉帳和匯款須顯示戶口持有人的真實姓名。所有客戶的盡職審查紀錄必須可向關長、其他主管當局、合規主任、核數師及其他獲適當授權的人員提供",
               ("¶4.14.1 · fn 49–50", "第4.14.1段 · 註49至50"))),
         tr(rh("Effective procedures", "有效的程序", "s.19 Sch. 2"), td("For deciding whether a customer or beneficial owner is a PEP; for handling wire and virtual asset transfers that lack the required information; and, for each kind of customer, relationship, product and transaction, for carrying out the duties on CDD, simplified CDD, monitoring, customers not present, PEPs and high-risk situations", "用以斷定客戶或實益擁有人是否政治人物；處理欠缺所需資料的電傳轉帳及虛擬資產轉帳；以及就每種客戶、業務關係、產品及交易，履行盡職審查、簡化盡職審查、持續監察、客戶沒有現身、政治人物及高風險情況的責任")),
-        tr(rh("Branches and subsidiaries outside Hong Kong", "香港以外的分行及附屬企業", "s.22 Sch. 2"), td("If you are incorporated in Hong Kong or re-domiciled here, make sure overseas branches, and subsidiaries in the same business, follow requirements similar to Schedule 2 Parts 2 and 3 as far as local law allows. Where local law forbids it, inform the Commissioner and take additional measures", "如你在香港成立為法團或屬經遷冊實體，須確保海外分行及經營相同業務的附屬企業，在當地法律准許的範圍內遵從與附表2第2及3部相類似的規定。如當地法律不准許，須通知關長並採取額外措施")),
+        tr(rh("Branches and subsidiaries outside Hong Kong", "香港以外的分行及附屬企業", "s.22 Sch. 2"), td("If you are incorporated in Hong Kong or re-domiciled here, make sure overseas branches, and subsidiaries in the same business, follow requirements similar to Schedule 2 Parts 2 and 3 as far as local law allows. Where local law forbids it, inform the relevant authority and take additional measures", "如你在香港成立為法團或屬經遷冊實體，須確保海外分行及經營相同業務的附屬企業，在當地法律准許的範圍內遵從與附表2第2及3部相類似的規定。如當地法律不准許，須通知有關當局並採取增補措施")),
         tr(rh("Safeguards", "預防措施", "s.23 Sch. 2"), td("Take all reasonable measures to ensure proper safeguards exist against contravening Parts 2 and 3 of the Schedule, and to mitigate ML/TF risks", "採取所有合理措施，確保有適當的預防措施防止違反附表第2或3部，並減低洗錢及恐怖分子資金籌集風險")),
         tr(rh("Correspondent banking and shell banks", "代理銀行服務及空殼銀行", "s.14, 17 Sch. 2"), td("Duties on authorized institutions only; they do not bind a money service operator", "只屬認可機構的責任，並不約束金錢服務經營者")),
     ], minw=720)

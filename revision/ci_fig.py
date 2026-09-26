@@ -68,7 +68,7 @@ def fig_tpp():
              ("Establish the source of funds of the customer or beneficial owner. Take extra care if the relationship is hard to verify, the payer cannot be identified before payment, or one payer serves several unrelated customers",
               "確立相關客戶或實益擁有人的資金來源。如雙方關係難以核實、付款前未能提供付款人身分資料，或同一付款人為多名看似無關連的客戶付款或收款，須格外留神"), 'must', TP("7–8"))
     OK = Card(40, 520, ("Accept it, then watch more closely", "接納，然後加強監察"),
-              ("Enhanced ongoing monitoring, with third-party red flags defined in your monitoring system; stay alert to the payer being the true beneficial owner; report to the JFIU on grounds for suspicion",
+              ("Ongoing monitoring stepped up, with red flags for third party payments defined in your transaction monitoring system; stay alert to the payer being the true beneficial owner; report to the JFIU on grounds for suspicion",
                "加強持續監察，並在交易監察系統中為第三方支付設定可疑交易訊號；留意付款人可能才是真正的實益擁有人；如有懷疑理由，向財富情報組報告"), 'ok', TP("9"), answer=True)
     H = place([([A], 32), ([Q1, X1], 40), ([Q2, X2], 40), ([DD], 32), ([Q3, E], 40), ([OK], 0)], y0=14)
     b = [n.render() for n in (A, Q1, X1, Q2, X2, DD, Q3, E, OK)]
@@ -84,7 +84,7 @@ def fig_tpp():
     b.append(slabel((Q3.x + Q3.w + E.x) / 2, Q3.cy - 8, "yes", "是"))
     b.append(edge([Q3.bottom, OK.top], ("no", "否"), Q3.cx + 10, (Q3.bottom[1] + OK.top[1]) / 2 + 4, 'start', mid=m))
     b.append(edge([E.bottom, (E.cx, OK.cy), OK.right], mid=m))
-    aria = ("Deciding on a third-party payment. A payment comes from someone other than the customer. If your controls cannot handle the risk, accept no third-party payment at all. If they can, accept it only in exceptional and legitimate circumstances in line with the customer's profile; otherwise refuse, and report if suspicious. Before accepting, evaluate the need, verify the payer and the relationship on a risk-sensitive basis, get senior management approval and record it all. A higher-risk payer gets enhanced scrutiny, including the source of funds; immediate family, the customer's beneficial owners or affiliated companies, and regulated financial institutions are generally lower risk. Accepted payments get enhanced ongoing monitoring and a report to the JFIU if suspicion arises.",
+    aria = ("Deciding on a third-party payment. A payment comes from someone other than the customer. If your controls cannot handle the risk, accept no third-party payment at all. If they can, accept it only in exceptional and legitimate circumstances in line with the customer's profile; otherwise refuse, and report if suspicious. Before accepting, evaluate the need, verify the payer and the relationship on a risk-sensitive basis, get senior management approval and record it all. A higher-risk payer gets enhanced scrutiny, including the source of funds; immediate family, the customer's beneficial owners or affiliated companies, and regulated financial institutions are generally lower risk. Ongoing monitoring of accepted payments is stepped up, and a suspicious transaction report goes to the JFIU if there are grounds for suspicion.",
             "處理第三方支付。有款項來自客戶以外的人。如你的管控措施無法應付風險，則完全不接受第三方支付。如能應付，只在符合客戶狀況的特殊及合法情況下接納；否則不予接納，如有懷疑須舉報。接納前須評估需要、因應風險核實付款人身分及雙方關係、取得高級管理層批准並妥為記錄。較高風險的付款人須接受更嚴格審查，包括確立資金來源；直系親屬、客戶的實益擁有人或聯繫公司，以及受規管金融機構一般屬較低風險。接納的付款須加強持續監察，如有懷疑須向財富情報組報告。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
@@ -119,7 +119,7 @@ def fig_tbml():
     ctl = [
         Card(10, 485, ("1 · Understanding ML/TF risks", "1 · 了解洗錢及恐怖分子資金籌集的風險"),
              ("A customer risk assessment framework that picks out higher-risk customers and weighs material changes in their profile; flag and escalate to senior management when several risk indicators appear; training and guidance so both the first and second lines of defence are risk-aware",
-              "客戶風險評估框架能識別較高風險的客戶，並評估客戶狀況重大轉變的合理性；客戶出現多項風險指標時，作出標記並上報高級管理層；輔以員工培訓及指導，使第一及第二道防線均具備風險意識"), 'must', TB("1")),
+              "客戶風險評估框架能識別較高風險的客戶，並評估客戶狀況有相當程度的轉變的合理性；客戶出現多項風險指標時，作出標記並上報高級管理層；輔以員工培訓及指導，使第一及第二道防線均具備風險意識"), 'must', TB("1")),
         Card(504, 485, ("2 · Customer due diligence", "2 · 客戶盡職審查"),
              ("EDD for high-risk customers; consider asking for source of funds and wealth; much higher risk from a new entity without significant assets, staff or operations; proactively consider anti-fraud checks on information customers provide, to verify the transaction is genuine and assess how likely the originator or recipient is a shell company; review documents periodically",
               "對高風險客戶施加更嚴格的盡職審查要求，並考慮索取資金及財富來源資料；新成立而缺乏顯著資產、員工或活躍業務的法律實體風險較高；主動考慮以反欺詐程序審查客戶提供的資料，以核實交易真實性及評估匯款人或收款人為空殼公司的可能性；定期審查文件"), 'must', TB("2")),

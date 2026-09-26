@@ -87,7 +87,7 @@ def dash(pts):
 def fig_route():
     W = 1000
     S1 = BCard(40, 540, ("You submit the application, with the Schedule 3 fee", "你遞交申請，並附隨附表3指明的費用"),
-               ("Form 1 with the supplementary information sheet and annex; a Business Plan and an AML/CFT Policy; a fit-and-proper declaration for each person to be tested; copies of the listed documents; two 4R photographs for each premises",
+               ("Form 1 with the supplementary information sheet and annex; a Business Plan and an AML/CFT Policy; a Fit and Proper Person Declaration Form for each person to be tested; copies of the listed documents; two 4R photographs for each premises",
                 "表格1連同補充資料表格及附件；業務計劃及打擊洗錢政策；\n每名須接受判定人士的適當人選聲明表格；\n所列文件的複本；每個處所兩張4R照片"),
                cite=("s.30(1)(b) · Licensing Guide ¶5.1, 5.8", "第30(1)(b)條 · 《牌照指引》第5.1、5.8段"))
     S2 = BCard(40, 540, ("C&ED acknowledges receipt, and chases anything outstanding", "海關確認收件，並催交尚欠文件"), None, cite=LG("5.4"))
@@ -106,12 +106,12 @@ def fig_route():
     S5 = BCard(40, 540, ("Your nominees sit the Assessment\nwithin 30 days of the interview", "獲提名人士須於會面後30日內應考能力評核"),
                ("Every candidate from the company sits the same session", "同一公司的應考者須應考同一時段"), 'must', GN("4.3, 4.5"))
     R5 = BCard(655, 315, ("Nobody passes: one more try", "無人合格：再有一次機會"),
-               ("A retake after 30 days from\nthe result notice. Still no pass:\nthe application may be refused",
+               ("A retake after 30 days upon the\nnotification of result. Still no pass:\nthe application may be refused",
                 "於成績通知發出30日後重考。\n仍無人合格：申請可被拒絕"), 'must', GN("4.5"), answer=True)
     D = Node(70, 480, ("Is the Commissioner satisfied on every test?", "關長是否信納各項測試？"), None, shape='hex')
     G = BCard(40, 250, ("Licence granted", "批給牌照"), ("Normally valid for 2 years", "有效期一般為2年"), 'ok', LG("2.10"), answer=True)
     F = BCard(330, 330, ("Refused by written notice", "以書面通知拒絕"),
-              ("You can take it to the Review\nTribunal within 21 days of the notice", "可於通知送出後21日內\n向覆核審裁處申請覆核"), 'stop', LG("5.10–5.11"),
+              ("You can take it to the Review\nTribunal within 21 days of the notice", "可於通知送出後21日內\n向覆核審裁處提出上訴"), 'stop', LG("5.10–5.11"),
               href="#p6-clock", answer=True)
     H = place([([S1], 30), ([S2, R2], 30), ([S3, V], 30), ([S4], 30), ([S5, R5], 40), ([D], 44), ([G, F], 0)], y0=14)
     b = [n.render() for n in (S1, S2, R2, S3, V, S4, S5, R5, D, G, F)]
@@ -130,8 +130,8 @@ def fig_route():
     jy = D.bottom[1] + 22
     b.append(edge([D.bottom, (D.cx, jy), (G.cx, jy), G.top], ("yes", "是"), G.cx - 8, jy + 14, 'end', mid=m))
     b.append(edge([D.bottom, (D.cx, jy), (F.cx, jy), F.top], ("no", "否"), F.cx + 8, jy + 14, 'start', mid=m))
-    aria = ("The route to a licence. You submit Form 1 with the supporting papers, and the application must be accompanied by the Schedule 3 fee; C&ED acknowledges and chases anything missing, and an application still incomplete after the specified period is invalid and not processed. Once everything is in, C&ED sends a notice of interview and an invitation to nominate candidates for the Assessment. At the interview originals are checked, you sign the application and explain your plans. Your nominees sit the Assessment within 30 days, with one retake after 30 days from the result if nobody passes. Fit-and-proper checks and a premises inspection run alongside. The Commissioner then grants a licence, normally for two years, or refuses by written notice, which you can take to the Review Tribunal within 21 days of the notice.",
-            "申領牌照的流程。你遞交表格1及證明文件，申請須附隨附表3指明的費用；海關確認收件並催交尚欠文件，逾指明期限仍不齊備的申請視作無效，不獲處理。文件齊備後，海關發出會面通知及提名應考能力評核人選的邀請信。會面時查驗正本，你須簽署申請書並闡釋計劃。獲提名人士須於30日內應考，如無人合格，可於成績通知發出30日後重考一次。適當人選判定及處所視察同步進行。其後關長批給牌照（有效期一般為2年），或以書面通知拒絕，你可於通知送出後21日內向覆核審裁處申請覆核。")
+    aria = ("The route to a licence. You submit Form 1 with the supporting papers, and the application must be accompanied by the Schedule 3 fee; C&ED acknowledges and chases anything missing, and an application still incomplete after the specified period is invalid and not processed. Once everything is in, C&ED sends a notice of interview and an invitation to nominate candidates for the Assessment. At the interview originals are checked, you sign the application and explain your plans. Your nominees sit the Assessment within 30 days, with one retake after 30 days upon the notification of result if nobody passes. Fit-and-proper checks and a premises inspection run alongside. The Commissioner then grants a licence, normally for two years, or refuses by written notice, which you can take to the Review Tribunal within 21 days of the notice.",
+            "申領牌照的流程。你遞交表格1及證明文件，申請須附隨附表3指明的費用；海關確認收件並催交尚欠文件，逾指明期限仍不齊備的申請視作無效，不獲處理。文件齊備後，海關發出會面通知及提名應考能力評核人選的邀請信。會面時查驗正本，你須簽署申請書並闡釋計劃。獲提名人士須於30日內應考，如無人合格，可於成績通知發出30日後重考一次。適當人選判定及處所視察同步進行。其後關長批給牌照（有效期一般為2年），或以書面通知拒絕，你可於通知送出後21日內向覆核審裁處提出上訴。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
@@ -142,7 +142,7 @@ ROUTE_KEY = legend([('', ("a step on the way", "流程中的步驟")), ('must', 
 
 # ---------------------------------------------------------------- 2. pass rule
 # Module labels with hand-set line breaks, so no Chinese word is split.
-MODS = [(["AML/CFT and", "CPF basics"], ["打擊洗錢／", "恐怖分子", "資金籌集及", "擴散資金", "籌集常識"]),
+MODS = [(["AML/CFT and", "counter", "proliferation", "financing basics"], ["打擊洗錢及", "恐怖分子", "資金籌集與", "打擊擴散", "資金籌集常識"]),
         (["AMLO Parts", "1 to 7"], ["條例", "第1至7部"]),
         (["AMLO", "Schedules"], ["條例附表"]),
         (["C&ED", "guidelines"], ["海關指引"]),
@@ -231,7 +231,7 @@ def fig_renew():
               ("Of receiving the invitation.\nMissing the session: the application\nwill be rejected",
                "自接獲邀請信當日起計。\n未有出席指定時段的評核，\n會導致相關申請被拒絕"), 'must', LG("6.2"), answer=True)
     R = BCard(672, 290, ("Nobody passes: one retake", "無人合格：可重考一次"),
-              ("After 30 days from the result notice and before expiry. Still nobody: renewal may be refused",
+              ("After 30 days upon the notification of result and before expiry. Still nobody: renewal may be refused",
                "於成績通知發出30日後、\n期滿前重考。仍無人合格：\n續期可被拒絕"), 'must', GN("4.6"), answer=True)
     N.y = L.y = 14
     top1 = max(N.h, L.h)
@@ -293,7 +293,7 @@ def fig_renew():
     BAD.y = GOOD.y = oy
     b += [BAD.render(), GOOD.render()]
     H = oy + max(BAD.h, GOOD.h) + 14
-    aria = ("The renewal countdown, in days before expiry. At 90 days C&ED sends every licensee a reminder with an invitation to nominate. You nominate within 7 days of receiving it, and your nominees sit within 30 days of receiving it; missing the session means the application will be rejected. If nobody passes, one retake is allowed after 30 days from the result and before expiry. Form 2, the supplementary sheet and the annex must be lodged not later than 45 days before expiry, accompanied by the Schedule 3 fee. C&ED then chases missing documents, which must arrive within the specified period, and interviews you. Missing any of the three invalidity deadlines, the 7-day nomination, the 45-day lodging or the specified period for chased documents, makes the application invalid, so the licence lapses at expiry. A valid application in time keeps the licence in force until it is renewed or, if refused, until the refusal takes effect, unless the application is withdrawn or the licence is revoked or suspended under section 34.",
+    aria = ("The renewal countdown, in days before expiry. At 90 days C&ED sends every licensee a reminder with an invitation to nominate. You nominate within 7 days of receiving it, and your nominees sit within 30 days of receiving it; missing the session means the application will be rejected. If nobody passes, one retake is allowed after 30 days upon the notification of result and before expiry. Form 2, the supplementary sheet and the annex must be lodged not later than 45 days before expiry, accompanied by the Schedule 3 fee. C&ED then chases missing documents, which must arrive within the specified period, and interviews you. Missing any of the three invalidity deadlines, the 7-day nomination, the 45-day lodging or the specified period for chased documents, makes the application invalid, so the licence lapses at expiry. A valid application in time keeps the licence in force until it is renewed or, if refused, until the refusal takes effect, unless the application is withdrawn or the licence is revoked or suspended under section 34.",
             "續牌倒數，以期滿前日數計算。第90日海關向每名持牌人發出提示，並夾附提名邀請信。你須在接獲邀請信當日起計7日內提名，獲提名人士須在接獲邀請信當日起計30日內應考；未有出席指定時段的評核，會導致相關申請被拒絕。如無人合格，可於成績通知發出30日後、期滿前重考一次。表格2、補充資料表格及相關附件須在期滿前45日或之前遞交，並附隨附表3指明的費用。其後海關催交尚欠文件，須在指明期限內交出，然後與你會面。7日內提名、期滿前45日遞交、在指明期限內交出尚欠文件，任何一項未能做到，申請即屬無效，牌照於期滿時失效。按時遞交有效申請，牌照會持續有效，直至獲續期；如續期被拒絕，則直至拒絕的決定生效為止；除非申請被撤回，或牌照根據第34條被撤銷或暫時吊銷。")
     return svg(W, H, ''.join(b), aria, m, 860)
 
@@ -327,9 +327,9 @@ def fig_scale():
         BCard(RX, RW, ("Putting it right", "作出補救"),
               ("Remedial steps once the breach\nsurfaced, action against those\ninvolved, steps against a repeat", "發現違規後採取補救措施、\n對涉事人員採取行動、防止再犯"), 'ok', "¶9(b)(ii)"),
         BCard(RX, RW, ("Cooperating", "合作"), ("With the Commissioner, other authorities and law enforcement during the investigation", "在調查期間與關長、\n其他有關當局及執法機構合作"), 'ok', "¶9(b)(iii)"),
-        BCard(RX, RW, ("Reporting it yourself", "主動舉報"), ("Promptly, effectively and completely", "迅速、有效及完整"), 'ok', "¶9(d)(iv)"),
-        BCard(RX, RW, ("Following current guidance", "遵從當時的指引"),
-              ("Conduct in line with the guidance current at the time is generally not disciplined at all", "符合當時適用指引的行為，\n一般不會招致紀律行動"), 'ok', "¶9(d)(i)"),
+        BCard(RX, RW, ("Reporting it yourself", "知會關長"), ("Promptly, effectively and completely", "迅速、有效及完全地知會關長\n有關違規行為或可能違規行為"), 'ok', "¶9(d)(iv)"),
+        BCard(RX, RW, ("Following current guidance", "遵從當時適用的導引"),
+              ("Conduct in line with the guidance current at the time is generally not disciplined at all", "符合當時適用的導引的行為，\n一般不會招致紀律行動"), 'ok', "¶9(d)(i)"),
     ]
     CEIL = BCard(MX, MW, ("The ceiling", "上限"),
                  ("Part 4: $10,000,000 or 3 times the profit gained or cost avoided, whichever is greater.\nPart 5: $1,000,000",
@@ -340,9 +340,9 @@ def fig_scale():
     CONS = BCard(MX, MW, ("Consistency", "一致"),
                  ("Like cases treated alike; what other authorities did about the same incident is weighed",
                   "相若的個案一般貫徹一致處理；\n其他當局就同一事件的行動\n亦會考慮"), 'plain', "¶9(c)(iii), (d)(ii)")
-    FLOOR = BCard(MX, MW, ("Not your ruin", "不致令你陷入困境"),
+    FLOOR = BCard(MX, MW, ("Not your ruin", "不致令你陷入財政困難"),
                   ("It should not be likely to put you in financial jeopardy; your size and financial resources are weighed",
-                   "罰款不應令你陷入財政困境；\n會考慮你的規模及財政資源"), 'plain', "¶7")
+                   "罰款不應令你陷入財政困難；\n會考慮你的規模及財政資源"), 'plain', "¶7")
     top = 60
     y = top
     for n in up:
@@ -379,7 +379,7 @@ def fig_scale():
     # consistency is itself a ¶9 factor, so it feeds the seriousness box from below
     b.append(edge([CONS.top, SER.bottom], mid=m))
     aria = ("What moves a pecuniary penalty. On the left, factors that make it heavier: intent or recklessness; long, frequent or patterned breaches; harm to the integrity of money services, Hong Kong's reputation or other people; systemic weaknesses in CDD and record keeping; concealment or likely repetition; previous breaches, broken undertakings and gains. On the right, factors that make it lighter: negligence or a technical breach, remediation, cooperation, prompt and complete self-reporting, and conduct in line with the guidance current at the time. Both columns feed the seriousness of the breach, which decides the penalty. Consistency is also weighed in judging seriousness: like cases treated alike, and what other authorities did about the same incident. In the middle are also the limits that apply whatever the factors: a statutory ceiling, and never so heavy as to put the operator in financial jeopardy.",
-            "影響罰款的因素。左邊令罰款較重：蓄意或罔顧後果；持續、頻密或成為模式的違規；損害在香港經營金錢服務業務的廉潔穩健、香港的聲譽或他人；客戶盡職審查及備存紀錄的系統性缺失；隱瞞或相當可能再犯；過往違規、違反承諾及得益。右邊令罰款較輕：疏忽或技術性違規、補救、合作、迅速而完整地主動舉報，以及符合當時有效指引的行為。兩邊的因素都用來衡量違規的嚴重程度，由嚴重程度決定罰款。衡量嚴重程度時亦會考慮一致性：相若的個案一般貫徹一致處理，以及其他有關當局就相同事件採取的行動。中間亦列出不論因素為何都適用的限制：法定上限，以及不致令經營者陷入財政困境。")
+            "影響罰款的因素。左邊令罰款較重：蓄意或罔顧後果；持續、頻密或成為模式的違規；損害在香港經營金錢服務業務的廉潔穩健、香港的聲譽或他人；客戶盡職審查及備存紀錄的系統性缺失；隱瞞或相當可能再犯；過往違規、違反承諾及得益。右邊令罰款較輕：疏忽或技術性違規、補救、合作、迅速而完全地知會關長有關違規行為，以及符合當時適用的導引的行為。兩邊的因素都用來衡量違規的嚴重程度，由嚴重程度決定罰款。衡量嚴重程度時亦會考慮一致性：相若的個案一般貫徹一致處理，以及其他有關當局就相同事件採取的行動。中間亦列出不論因素為何都適用的限制：法定上限，以及不致令經營者陷入財政困難。")
     return svg(W, bottom + 14, ''.join(b), aria, m, 860)
 
 

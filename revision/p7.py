@@ -39,7 +39,7 @@ A = sec('proof', [("Part 7", "第7部"), "s.78", ("with s.60, s.63", "另及第6
         tr(rh("The Commissioner, for any purpose other than a criminal one", "關長（刑事以外的任何目的）", "s.78"),
            td("That you contravened any Ordinance, a notice or requirement, a licence condition or any other condition; or were responsible for, assisted, were concerned in, attempted or conspired in such a thing; or that it might occur",
               "你違反任何條例、通知或要求、牌照條件或其他條件；或曾對此負責、協助、牽涉其中、企圖或串謀；或此等事宜可能發生"),
-           td("The <b>civil standard</b>, as in civil proceedings in a court", "<b>民事舉證準則</b>，與法院的民事法律程序相同", post=flag())),
+           td("The <b>standard of proof applicable to civil proceedings in a court of law</b>", "<b>適用於在法院進行的民事法律程序的舉證準則</b>", post=flag())),
         tr(rh("The Review Tribunal, on the facts of a review", "覆核審裁處（覆核中的事實）", "s.60(4)"),
            td("Any matter of fact in the review", "覆核中的任何事實事宜"),
            td("The <b>balance of probabilities</b>", "<b>相對可能性的衡量</b>")),
@@ -52,23 +52,23 @@ A = sec('proof', [("Part 7", "第7部"), "s.78", ("with s.60, s.63", "另及第6
     ], minw=760)
     + traps(
         trap(("Why discipline is easier to prove than a crime", "為何紀律行動比刑事罪行容易證明"),
-             ("The same conduct can lead to Part 4 discipline and to a prosecution. For the discipline, the Commissioner needs only the civil standard and no proof of knowledge; the prosecution must prove the offence, including that the institution acted knowingly.",
-              "同一行為可同時引致第4部紀律行動及刑事檢控。紀律行動只需民事舉證準則，亦毋須證明明知；刑事檢控則須證明罪行成立，包括機構明知而為。"),
+             ("The same conduct can lead to Part 4 discipline and to a prosecution. For the discipline, the Commissioner needs only the standard of proof applicable to civil proceedings, and no proof of knowledge; the prosecution must prove the offence, including that the institution acted knowingly.",
+              "同一行為可同時引致第4部紀律行動及刑事檢控。紀律行動只需符合適用於民事法律程序的舉證準則，亦毋須證明明知；刑事檢控則須證明罪行成立，包括機構明知而為。"),
              "s.78 · s.21(1) · s.5(5)"),
     ))
 
 # ---------------------------------------------------------------- B. who prosecutes
 B_ = sec('prosecute', ["s.79", ("with s.53", "另及第53條")],
          ("Who prosecutes, and what that caps", "由誰檢控，以及刑罰上限為何"),
-    P("Two routes lead into court. Take the right-hand one and follow it down: the Commissioner may prosecute without the Department of Justice, but only in a magistrate's court.",
-      "有兩條途徑進入法院。沿右邊一條往下看：關長可不經律政司自行檢控，但只能在裁判法院進行。")
+    P("Two routes lead into court. Take the right-hand one and follow it down: the Commissioner may prosecute in his own name, without the Secretary for Justice, but only before a magistrate.",
+      "有兩條途徑進入法院。沿右邊一條往下看：關長可不經律政司司長而以本身的名義檢控，但只能由裁判官審訊。")
     + fig(fig_prosecute, ("The practical result: when the Commissioner prosecutes in his own name, the ceiling is the summary penalty written into the offence section.",
                             "實際結果是：關長以本身名義提出檢控時，上限是罪行條文所訂的簡易程序罰則。"),
           legend([('', ("a step or a fact", "步驟或事實")), ('may', ("a power or permission on the Commissioner's side", "關長一方持有的權力或准許")),
                   ('must', ("a limit that follows", "隨之而來的限制"))]))
     + numreq([
         (("12 months", "12個月"),
-         ("The window for prosecuting a Part 5 offence that is not indictable", "檢控第5部非可公訴罪行的期限"),
+         ("The window for prosecuting a Part 5 offence that is not indictable", "檢控第5部所訂罪行（可公訴罪行除外）的期限"),
          ("Counted from when the offence is discovered by, or comes to the notice of, the Commissioner, not from when it was committed", "自關長發現或知悉該罪行時起計，而非自罪行發生時起計"),
          ("Proceedings for that offence can no longer be instituted", "即不可再就該罪行提起法律程序"),
          "s.53"),
@@ -76,7 +76,7 @@ B_ = sec('prosecute', ["s.79", ("with s.53", "另及第53條")],
     + traps(
         trap(("The 12-month rule belongs to Part 5 only", "12個月的規定只屬第5部"),
              ("It overrides the Magistrates Ordinance time limit for non-indictable offences under Part 5, such as failing to display the licence or to notify a change. It says nothing about offences elsewhere in the Ordinance.",
-              "它就第5部的非可公訴罪行（例如沒有展示牌照或沒有具報改變）取代《裁判官條例》的時限；對條例其他部分的罪行並無規定。"),
+              "它就第5部所訂罪行（可公訴罪行除外），例如沒有展示牌照或沒有具報改變，取代《裁判官條例》的時限；對條例其他部分的罪行並無規定。"),
              "s.53"),
     ))
 
@@ -98,7 +98,7 @@ C_ = sec('notices', ["s.80", ("with s.59", "另及第59條")],
     + traps(
         trap(("Deemed service to a licensee: premises only, no email", "向持牌人視為妥為發出：只限處所，不包括電郵"), None, "s.80(1), (1B)(e) · s.59(1) · s.38 · s.40 · s.41",
              vs=[(("Commissioner to a licensee", "關長致持牌人"), ("Left at or posted to your licensed premises. Email is not in the subsection.", "留在或郵寄往你的持牌處所。該款並無提及電郵。")),
-                 (("Why it matters", "為何重要"), ("A decision notice posted to a branch still named in your licence starts the 21 days for review. Keep the premises in your licence current: a change in premises particulars must be notified within one month (s.40); a new premises can be used only after the Commissioner, on your application, has added it to the licence (s.38); ceasing at a premises must be notified in writing before the date of cessation, and the licence returned for amendment within 7 days beginning on the date of cessation (s.41).", "郵寄往牌照上仍列明的分店的決定通知，同樣開始計算21日的覆核限期。須保持牌照上的處所資料準確：處所詳情有改變，須在一個月內向關長具報（第40條）；新的營業處所須先由你申請、關長加入牌照後方可使用（第38條）；停止在某處所經營，須在停業日期前以書面具報，並在自停業日期起計的7日內交回牌照以作修訂（第41條）。"))]),
+                 (("Why it matters", "為何重要"), ("A notice informing you of a decision, posted to a branch still named in your licence, starts the 21 days for review. Keep the premises in your licence current: a change in premises particulars must be notified within one month (s.40); a new premises can be used only after the Commissioner, on your application, has added it to the licence (s.38); ceasing at a premises must be notified in writing before the date of cessation, and the licence returned for amendment within 7 days beginning on the date of cessation (s.41).", "郵寄往牌照上仍列明的分店、告知你有關決定的通知，同樣開始計算21日的覆核限期。須保持牌照上的處所資料準確：處所詳情有改變，須在一個月內向關長具報（第40條）；新的營業處所須先由你申請、關長加入牌照後方可使用（第38條）；停止在某處所經營，須在停業日期前以書面具報，並在自停業日期起計的7日內交回牌照以作修訂（第41條）。"))]),
     ))
 
 # ---------------------------------------------------------------- D. what you can hold back
@@ -110,9 +110,9 @@ D_ = sec('privilege', ["s.81", ("with s.9A, s.12A, s.64", "另及第9A、12A、6
         tr(rh("Legal professional privilege", "法律專業保密權", "s.81"),
            td("The Ordinance does not affect any claim, right or entitlement arising from legal professional privilege.", "本條例不影響基於法律專業保密權而產生的任何聲稱、權利或享有權。"),
            td("A requirement to disclose the <b>name and address of a lawyer's client</b> still has to be met, whether or not the lawyer is qualified in Hong Kong.", "披露<b>法律執業者的客戶的姓名或名稱及地址</b>的要求仍須遵從，不論該執業者是否在香港取得資格。", post=flag())),
-        tr(rh("Your customers' affairs, when another regulator's officer asks", "由其他監管當局的人員查詢你客戶的事務時", "s.9A · s.12A"),
-           td("You need not disclose a customer's affairs to an officer sent by a regulator that is not your own.", "你毋須向並非你的有關當局的其他監管當局所派的人員披露客戶事務。"),
-           td("Unless that regulator is of the opinion, and certifies in writing, that disclosure is necessary; in an investigation, the investigator must also have reasonable cause to believe the customer may be able to give information relevant to the investigation.", "除非該監管當局認為（並藉書面證明它認為）披露屬必要；在調查中，調查員另須有合理因由相信該客戶是可能有能力提供與該項調查相關的資料的人。")),
+        tr(rh("Your customers' affairs, when another regulatory authority's officer asks", "由其他監管當局的人員查詢你客戶的事務時", "s.9A · s.12A"),
+           td("You need not disclose a customer's affairs to an officer sent by another regulatory authority, one that is not your relevant authority.", "你毋須向並非你的有關當局的其他監管當局所派的人員披露客戶事務。"),
+           td("Unless that other regulatory authority is of the opinion, and certifies in writing, that disclosure is necessary; in an investigation, the investigator must also have reasonable cause to believe the customer may be able to give information relevant to the investigation.", "除非該監管當局認為（並藉書面證明它認為）披露屬必要；在調查中，調查員另須有合理因由相信該客戶是可能有能力提供與該項調查相關的資料的人。")),
         tr(rh("A bank's other customers, at the Review Tribunal", "在覆核審裁處：銀行的其他客戶", "s.64"),
            td("An authorized institution acting as banker or financial adviser to the applicant need not disclose the affairs of its other customers.", "擔任申請人的銀行或財務顧問的認可機構，毋須披露其其他客戶的事務。"),
            td("It covers customers other than the applicant only.", "只涵蓋申請人以外的客戶。")),
