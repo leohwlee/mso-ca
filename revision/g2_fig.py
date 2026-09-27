@@ -4,6 +4,7 @@ from ui import *
 from bl_core import _runs
 from bl_figs import lines_down
 from gl_fig import dash
+from ci_fig import CI, cc_
 
 
 # ---------------------------------------------------------------- 1. institutional assessment cycle
@@ -19,9 +20,9 @@ def fig_ira():
     L, LW = 50, 510          # left column: the steps
     R_, RW = 610, 360        # right column: the factors, and what sits beside the steps
     IN = Card(L, LW, ("What you draw on", "資料來源"),
-              ("Quantitative and qualitative information from relevant internal and external sources, which may include risk assessments and guidance by the FATF, inter-governmental organisations, governments and authorities, Hong Kong's jurisdiction-wide risk assessment and any higher risks the CCE notifies",
-               "從相關內部與外部來源取得的數量及質量分析資料，可包括特別組織、跨政府組織、各地政府及主管當局發出的相關風險評估及導引，包括香港在司法管轄區層面的風險評估，以及關長通報的任何較高風險"),
-              'plain', "¶2.6")
+              ("Quantitative and qualitative information from relevant internal and external sources, which may include risk assessments and guidance by the FATF, inter-governmental organisations, governments and authorities and Hong Kong's jurisdiction-wide risk assessment. Any higher risks the CCE notifies must always be taken into account",
+               "從相關內部與外部來源取得的數量及質量分析資料，可包括特別組織、跨政府組織、各地政府及主管當局發出的相關風險評估及導引，包括香港在司法管轄區層面的風險評估。關長通報的任何較高風險，一律須顧及"),
+              'plain', cc_("¶2.6", CI("13 Dec 2021")))
     FACT = Card(R_, RW, ("What you weigh", "須考慮的因素"),
                 ("Customer, country, product, service or transaction, delivery channel and other risk factors, across four areas. The next section lists every one",
                  "客戶、國家、產品、服務或交易、交付渠道及其他風險因素，涵蓋四個範疇。下一節逐項列出"),
@@ -72,8 +73,8 @@ def fig_ira():
     # the loop back to the top
     rx = 24
     b.append(edge([V.left, (rx, V.cy), (rx, A.cy), A.left], mid=m))
-    aria = ("The institutional ML/TF risk assessment as a cycle. It draws on quantitative and qualitative information from relevant internal and external sources, which may include risk assessments and guidance by the FATF, inter-governmental organisations, governments and authorities, Hong Kong's jurisdiction-wide risk assessment and higher risks the CCE notifies. Document the risk assessment process of identifying and assessing the risks. Weigh every relevant factor, then decide the overall risk level and the level and type of mitigation. Senior management approves the results. Keep records of the factors, the sources and the evaluation of your AML/CFT Systems; alongside, have mechanisms to provide the assessment to the CCE when required. Every two years, and on trigger events material to your business and risk exposure, review and update the assessment, document the results and have senior management approve them; then the cycle starts again. New products, business practices and technologies are assessed before launch, and a launch of new products is also a trigger event.",
-            "機構層面的洗錢／恐怖分子資金籌集風險評估是一個循環。評估參考相關內部與外部來源的數量及質量分析資料，可包括特別組織、跨政府組織、各地政府及主管當局的風險評估及導引、香港在司法管轄區層面的風險評估，以及關長通報的較高風險。記錄識別和評估風險的程序。考慮所有相關風險因素，然後決定整體風險水平及減低風險措施的程度和類別。由高級管理層審批結果。備存風險因素、資料來源及對制度評估的紀錄；同時設有機制應關長要求提供評估結果。每兩年一次，以及遇有顯著影響業務及所面對風險的觸發事件時，覆核及更新評估，記錄結果並由高級管理層審批，然後再次開始。新產品、新經營方法及嶄新科技須在推出前評估，推出新產品亦屬觸發事件。")
+    aria = ("The institutional ML/TF risk assessment as a cycle. It draws on quantitative and qualitative information from relevant internal and external sources, which may include risk assessments and guidance by the FATF, inter-governmental organisations, governments and authorities, and Hong Kong's jurisdiction-wide risk assessment; higher risks the CCE notifies must always be taken into account. Document the risk assessment process of identifying and assessing the risks. Weigh every relevant factor, then decide the overall risk level and the level and type of mitigation. Senior management approves the results. Keep records of the factors, the sources and the evaluation of your AML/CFT Systems; alongside, have mechanisms to provide the assessment to the CCE when required. Every two years, and on trigger events material to your business and risk exposure, review and update the assessment, document the results and have senior management approve them; then the cycle starts again. New products, business practices and technologies are assessed before launch, and a launch of new products is also a trigger event.",
+            "機構層面的洗錢／恐怖分子資金籌集風險評估是一個循環。評估參考相關內部與外部來源的數量及質量分析資料，可包括特別組織、跨政府組織、各地政府及主管當局的風險評估及導引、香港在司法管轄區層面的風險評估；關長通報的較高風險，一律須顧及。記錄識別和評估風險的程序。考慮所有相關風險因素，然後決定整體風險水平及減低風險措施的程度和類別。由高級管理層審批結果。備存風險因素、資料來源及對制度評估的紀錄；同時設有機制應關長要求提供評估結果。每兩年一次，以及遇有顯著影響業務及所面對風險的觸發事件時，覆核及更新評估，記錄結果並由高級管理層審批，然後再次開始。新產品、新經營方法及嶄新科技須在推出前評估，推出新產品亦屬觸發事件。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
@@ -88,8 +89,8 @@ def fig_lists():
     X = (10, 340, 640)
     CWS = (310, 280, 350)   # the third column is widest so its long title fits on two lines
     heads = [
-        (["Institutional assessment:", "the 4 areas it covers"], ["機構層面風險評估：", "涵蓋的4個範疇"], "¶2.2"),
-        (["Institutional assessment:", "the 5 groups of factors"], ["機構層面風險評估：", "考慮的5組因素"], "¶2.4"),
+        (["Institutional assessment:", "the 4 areas it covers"], ["機構層面的評估：", "涵蓋的4個範疇"], "¶2.2"),
+        (["Institutional assessment:", "the 5 groups of factors"], ["機構層面的評估：", "考慮的5組因素"], "¶2.4"),
         (["Customer risk framework:", "the 3 groups of factors"], ["客戶風險評估框架：", "包含的3組因素"], "¶2.15"),
     ]
     v = lay()
@@ -134,7 +135,7 @@ def fig_lists():
         b.append(f'<line class="e" x1="{p.x + p.w}" y1="{p.cy:.1f}" x2="{q.x}" y2="{q.cy:.1f}"/>')
     H = max(n.y + n.h for n in f + c3) + 14
     aria = ("Three lists from Chapter 2 side by side. The institutional assessment covers four areas: your customers; the countries your customers are from or in; the countries where you operate; and your products, services, transactions and delivery channels. It weighs five groups of factors: customer, country, product service or transaction, delivery or distribution channel, and other. The customer risk assessment framework generally has three groups: customer, country, and product, service, transaction or delivery channel. Lines pair the items that deal with the same thing; the other risk factors have no counterpart in the customer framework.",
-            "第2章三份清單並列。機構層面風險評估涵蓋四個範疇：你的客戶；客戶所屬或所在的國家；你業務所在的國家；以及你的產品、服務、交易及交付渠道。它考慮五組因素：客戶、國家、產品服務或交易、交付或分銷渠道，以及其他。客戶風險評估框架一般包含三組：客戶、國家，以及產品、服務、交易或交付渠道。連線把處理同一事項的項目配對；其他風險因素在客戶框架中沒有對應組別。")
+            "第2章三份清單並列。機構層面的洗錢／恐怖分子資金籌集風險評估涵蓋四個範疇：你的客戶；客戶所屬或所在的國家；你業務所在的國家；以及你的產品、服務、交易及交付渠道。它考慮五組因素：客戶、國家、產品服務或交易、交付或分銷渠道，以及其他。客戶風險評估框架一般包含三組：客戶、國家，以及產品、服務、交易或交付渠道。連線把處理同一事項的項目配對；其他風險因素在客戶框架中沒有對應組別。")
     return svg(W, H, ''.join(b), aria, 'g2l', 860)
 
 

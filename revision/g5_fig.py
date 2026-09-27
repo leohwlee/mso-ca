@@ -145,13 +145,13 @@ def fig_unusual():
     b.append(f'<line class="n n-faint" x1="{REC.x}" y1="{yr}" x2="{REC.x + REC.w}" y2="{yr}"/>')
     b.append(lab(REC.x, ANY.y - 9, "Applies throughout, not a next step", "適用於整個過程，並非下一步", anchor='start'))
     m = 'g5u'
-    # the Guideline's two situations meet at one joint, marked with the word each view's text
-    # joins them by, and go on as one arrow; the alert box (from the circular) keeps its own
+    # the Guideline's two situations meet at one joint, marked 'or' in both views (either one alone
+    # calls for the steps: owner's call E6), and go on as one arrow; the alert box (from the circular) keeps its own
     tb = Ta.y + Ta.h
     jy = tb + (42 if both else 24)
     mx = (Ta.cx + Tb.cx) / 2
     b.append(f'<polyline class="e" points="{Ta.cx:.0f},{tb:.0f} {Ta.cx:.0f},{jy:.0f} {Tb.cx:.0f},{jy:.0f} {Tb.cx:.0f},{tb:.0f}"/>')
-    b.append(lab(mx, jy - 9, "or", "及"))
+    b.append(lab(mx, jy - 9, "or", "或"))
     b.append(edge([(mx, jy), (mx, S.y)], mid=m))
     b.append(edge([(Tc.cx, tb), (Tc.cx, S.y)], mid=m))
     b.append(edge([(Q1.cx, S.y + S.h), Q1.top], mid=m))
@@ -172,7 +172,7 @@ def fig_unusual():
     # stopping CDD is still recorded: down the right margin, clear of the outcome boxes
     b.append(edge([X1.right, (982, X1.cy), (982, REC.cy), (REC.x + REC.w, REC.cy)], mid=m))
     aria = ("What to do when a transaction does not add up. Three situations send you into the steps: the customer's transactions do not fit what you know of the customer, its business, risk profile or source of funds; a transaction is complex, unusually large or of an unusual pattern and has no apparent economic or lawful purpose; or your monitoring system raises an alert, which you should not close without sufficient justification and analysis. Take appropriate steps to find out whether there are grounds for suspicion, such as examining the background and purposes, making enquiries of the customer, or obtaining more CDD information. If you reasonably believe that performing the CDD process will tip off the customer, document the basis for that assessment and file an STR with the JFIU; you may stop pursuing the process. Otherwise, if the enquiries give a satisfactory explanation you may conclude there are no grounds for suspicion and take no further action, still considering an update to the customer's risk profile. If they do not, you may conclude there are grounds for suspicion, and an STR should be made. Every route ends in a written record of the findings, outcomes and the rationale for any decision, available to the CCE, other competent authorities and auditors. At any point, any suspicion identified during transaction monitoring means an STR to the JFIU.",
-            "交易不合情理時應怎樣做。指引指在以下情況應採取步驟：客戶的交易不符合你對該客戶、其業務、風險狀況或資金來源的認知；及交易複雜、款額大得異乎尋常或模式異乎尋常，並且沒有明顯經濟或合法目的。通函另指，監察交易系統發出警報時，應採取步驟，而非在沒有充分理由及分析的情況下消除警報。你應採取適當步驟以識辨有否懷疑的理由，例如審查交易的背景及目的、詢問客戶或索取額外的盡職審查資料。如你合理地相信執行盡職審查程序會向客戶通風報訊，應把評估的基礎記錄在案並向財富情報組提交可疑交易報告；你可停止繼續跟進該程序。否則，如查詢取得可信納的解釋，可斷定沒有懷疑的理由而不再採取行動，但仍應考慮更新客戶的風險狀況；如未能取得，可斷定為有懷疑的理由，並應提交可疑交易報告。每條路線均以書面記錄告終：發現、結果及任何決定的理由，以便提交予關長、其他主管當局及核數師。在任何時候，如在交易監察過程中識別出可懷疑之處，便應提交可疑交易報告。")
+            "交易不合情理時應怎樣做。指引指在以下任何一種情況應採取步驟：客戶的交易不符合你對該客戶、其業務、風險狀況或資金來源的認知；或交易複雜、款額大得異乎尋常或模式異乎尋常，並且沒有明顯經濟或合法目的。通函另指，監察交易系統發出警報時，應採取步驟，而非在沒有充分理由及分析的情況下消除警報。你應採取適當步驟以識辨有否懷疑的理由，例如審查交易的背景及目的、詢問客戶或索取額外的盡職審查資料。如你合理地相信執行盡職審查程序會向客戶通風報訊，應把評估的基礎記錄在案並向財富情報組提交可疑交易報告；你可停止繼續跟進該程序。否則，如查詢取得可信納的解釋，可斷定沒有懷疑的理由而不再採取行動，但仍應考慮更新客戶的風險狀況；如未能取得，可斷定為有懷疑的理由，並應提交可疑交易報告。每條路線均以書面記錄告終：發現、結果及任何決定的理由，以便提交予關長、其他主管當局及核數師。在任何時候，如在交易監察過程中識別出可懷疑之處，便應提交可疑交易報告。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 

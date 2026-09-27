@@ -37,15 +37,15 @@ def fig_tracks():
                 ("your relevant authority · Sch. 1 Pt 2", "你的有關當局 · 附表1第2部"))
     AP = Node(L, CW, ("Authorized person", "獲授權人"), "s.9(12)")
     INV = Node(M, CW, ("Investigator", "調查員"), "s.11(1)")
-    S9 = Node(L, CW, ("May enter your registered premises at any reasonable time, inspect and copy your business records, and make inquiries. No suspicion of anything is required.",
-                      "可在任何合理時間進入你已登記的處所，查閱和複製你的業務紀錄，並作出查訊。毋須有任何懷疑。"), "s.9(1A)", 'may', answer=True)
+    S9 = Node(L, CW, ("May enter your business premises at any reasonable time, inspect and copy your business records, and make inquiries. No suspicion of anything is required.",
+                      "可在任何合理時間，進入你的業務處所，查閱和複製你的業務紀錄，並作出查訊。毋須有任何懷疑。"), "s.9(1A)", 'may', answer=True)
     S12 = Node(M, CW, ("May require you in writing to produce records, to attend and answer questions, and to give any other assistance. Needs a reason to investigate.",
                        "可藉書面要求你交出紀錄、會晤並回答問題，以及提供其他協助。須有調查理由。"), "s.11(1) · s.12(2)", 'may', answer=True)
     WAR = Node(R, CW, ("A magistrate may issue a warrant to enter (by force if necessary), search, seize and remove",
                        "裁判官可發出手令，以進入（如有必要可強行進入）、搜尋、檢取和移走"), "s.17(1)", 'may', answer=True)
     REC = Node(L, 630, ("The records and documents you are required to produce",
                         "你被要求交出的紀錄及文件"))
-    FAIL = Node(165, 340, ("You do not comply with an inspector's or investigator's requirement", "你沒有遵從視察人員或調查員施加的要求"), "s.9 · s.12")
+    FAIL = Node(165, 340, ("You do not comply with an authorized person's or investigator's requirement", "你沒有遵從獲授權人或調查員施加的要求"), "s.9 · s.12")
     CFI = Node(M, 630, ("The authorized person or investigator who imposed the requirement may apply to the Court of First Instance, by originating summons, for an inquiry into the failure",
                         "施加要求的獲授權人或調查員，可藉原訴傳票向原訟法庭申請，要求對該項不遵從進行查訊"), "s.14(1)", 'may', answer=True)
     CRIM = Node(L, CW, ("Prosecution. Three tiers of offence, from no reasonable excuse up to intent to defraud.",
@@ -97,8 +97,8 @@ def fig_tracks():
     bl_tc = ["就同一行為，其中一項仍待決或不得再次提起時，", "另一項即不得提起；命令遵從則不受此限"]
     b.append(txt((CRIM.cx + PUN.cx) / 2, ty + 4, bl_en, bl_tc))
     Ht = ty + 10 + nlines(bl_en, bl_tc) * 17.6 + 8
-    aria = ("The Commissioner authorises an authorized person in writing for routine inspection, and directs or appoints an investigator. The inspector may enter your registered premises without suspicion; the investigator may compel you to attend and answer. Both are after the same records, and a magistrate's warrant is a third way to take them. If you do not comply with an inspector's or investigator's requirement, you may be prosecuted (non-compliance under a warrant is the separate s.17(9) offence); separately, the authorized person or investigator may apply to the Court of First Instance, which may order you to comply and may punish you as if for contempt. For the same conduct, while prosecution or contempt-style proceedings are pending or cannot be brought again, the other is barred; an order to comply is not barred.",
-            "關長藉書面授權獲授權人作例行視察，並指示或委任調查員。視察者毋須任何懷疑即可進入你已登記的處所；調查員則可強制你會晤及回答。兩者針對同一批紀錄，而裁判官手令是取得同一批紀錄的第三條途徑。你若不遵從視察人員或調查員施加的要求，可被刑事檢控（不遵從手令下的要求屬第17(9)條所訂的另一項罪行）；另外，獲授權人或調查員亦可向原訟法庭申請，法庭可命令你遵從，並可猶如藐視法庭罪般懲罰你。就同一行為，刑事檢控或猶如藐視法庭罪的懲罰程序其中一項仍待決或不得再次提起時，另一項即不得提起；命令遵從則不受此限。")
+    aria = ("The Commissioner authorises an authorized person in writing for routine inspection, and directs or appoints an investigator. The authorized person may enter your business premises (as shown in the register) without suspicion; the investigator may compel you to attend and answer. Both are after the same records, and a magistrate's warrant is a third way to take them. If you do not comply with an authorized person's or investigator's requirement, you may be prosecuted (non-compliance under a warrant is the separate s.17(9) offence); separately, the authorized person or investigator may apply to the Court of First Instance, which may order you to comply and may punish you as if for contempt. For the same conduct, while prosecution or contempt-style proceedings are pending or cannot be brought again, the other is barred; an order to comply is not barred.",
+            "關長藉書面授權獲授權人作例行視察，並指示或委任調查員。獲授權人毋須任何懷疑即可進入你的業務處所（登記冊所顯示者）；調查員則可強制你會晤及回答。兩者針對同一批紀錄，而裁判官手令是取得同一批紀錄的第三條途徑。你若不遵從獲授權人或調查員施加的要求，可被刑事檢控（不遵從手令下的要求屬第17(9)條所訂的另一項罪行）；另外，獲授權人或調查員亦可向原訟法庭申請，法庭可命令你遵從，並可猶如藐視法庭罪般懲罰你。就同一行為，刑事檢控或猶如藐視法庭罪的懲罰程序其中一項仍待決或不得再次提起時，另一項即不得提起；命令遵從則不受此限。")
     return svg(W, Ht, ''.join(b), aria, m, 860)
 
 

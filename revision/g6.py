@@ -25,6 +25,13 @@ def vd(ch):
     return f'<td class="verdict">{ch}</td>'
 
 
+def only(lang, block):
+    """A callout shown only in one language's view (and in the combined view), for a point
+    that only that language's texts raise. pack_css.css hides .only-en in the Chinese view
+    and .only-tc in the English view."""
+    return block.replace('<div class="trap">', f'<div class="trap only-{lang}">', 1)
+
+
 UNSO = ("UNSO", "《聯合國制裁條例》")
 WMD4 = ("WMD(CPS)O s.4", "《大規模毀滅武器（提供服務的管制）條例》第4條")
 Q24 = ("FAQ Q24", "常見問題第24問")
@@ -110,7 +117,7 @@ PRO = sec('prohibited', ["¶6.5", "¶6.7", "¶6.10", "fn 56", "fn 57"],
            td("Prohibits providing or collecting property to finance a person's travel between states for a specified purpose: perpetrating, planning, preparing or taking part in terrorist acts, or giving or receiving training connected with them",
               "禁止提供或籌集財產，以資助某人為指明目的進行往來國家之間的旅程，即作出、籌劃、籌備或參與恐怖主義行為，或提供或接受與此有關連的培訓"),
            td("With the intention, <b>or</b> knowing, that the travel is for that purpose: either state of mind is enough; and <b>even if no terrorist act occurs</b>",
-              "在<b>懷有意圖及知悉</b>的情況下；<b>即使實際上沒有恐怖主義行為發生</b>", post=flag())),
+              "在<b>懷有意圖或知悉</b>該旅程是為指明目的的情況下，兩者其一即可；<b>即使實際上沒有恐怖主義行為發生</b>", cc("¶6.5(e)", "¶1.11(a)"), post=flag())),
     ], minw=820)
     + h3("UNSO: whom the offence reaches", "《聯合國制裁條例》：罪行涵蓋的對象")
     + P("Except under the authority of a licence granted by the Chief Executive, each of the following is an offence. In the table, 'funds' stands for funds, other financial assets or economic resources, and making them available covers doing so directly or indirectly, to the person or for their benefit.",
@@ -142,6 +149,9 @@ PRO = sec('prohibited', ["¶6.5", "¶6.7", "¶6.10", "fn 56", "fn 57"],
              ("Dealing with property is caught when you know it is specified terrorist property, or property of a specified terrorist or terrorist associate. You do not have to know: being reckless as to whether it is such property is enough.",
               "如你知道財產屬指明的恐怖分子財產，或屬指明的恐怖分子或與恐怖分子有聯繫者的財產，處理該財產即受禁制。毋須確實知道：罔顧其是否屬該等財產已足夠。"),
              cc("¶6.5(d)", UA("8A"))),
+        only('tc', trap(("", "資助恐怖分子旅程：懷有意圖或知悉，其一即可"),
+             ("", "指引第6.5(e)段寫第11L條禁止任何人「在懷有意圖及知悉的情況下」提供或籌集財產，以資助某人為指明目的而進行往來國家之間的旅程；但同一指引第1.11(a)段引述《打擊洗錢條例》附表1第1部第1條界定「恐怖分子資金籌集」時，是以「或」連接「懷有…意圖」與「知道」。故資助恐怖分子旅程，懷有意圖或知悉其中一項即已足夠。"),
+             cc("¶6.5(e)", "¶1.11(a)"))),
         trap(("Two routes against proliferation financing", "打擊擴散資金籌集的兩條途徑"), None, "¶6.10",
              vs=[(("UNSO regulations for the DPRK and Iran", "《聯合國制裁條例》下針對朝鮮及伊朗的規例"), ("List-based: the question is whether the person is designated.", "以名單為本：問題在於對方是否被指認。")),
                  (("WMD(CPS)O section 4", "《大規模毀滅武器（提供服務的管制）條例》第4條"), ("Belief-based: any service you believe or suspect, on reasonable grounds, may be connected to PF. Lending money counts.", "以判斷為本：凡你基於合理理由相信或懷疑可能與擴散資金籌集有關的服務，均受禁制。借出款項亦包括在內。"))]),
@@ -190,8 +200,8 @@ DB = sec('database', ["¶6.11–6.15", "¶6.19"],
 # ---------------------------------------------------------------- 5. screening
 SCR = sec('screening', ["¶6.16–6.17", "fn 58", "¶4.4.1", Q24, C2023],
           ("When to screen, and whom", "何時篩查，篩查誰"),
-    P("The top band is your customer; the bottom band is a single cross-border transfer. Red boxes are screened every time, whatever risk rating the customer carries; the grey box is screened on a risk-based approach.",
-      "上半部是你的客戶；下半部是一宗跨境轉帳。紅色方格不論客戶的風險評級為何，每次都要篩查；灰色方格按風險為本的方法篩查。")
+    P("The top band is your customer; the bottom band is a single cross-border wire transfer. Red boxes are screened every time, whatever risk rating the customer carries; the grey box is screened on a risk-based approach.",
+      "上半部是你的客戶；下半部是一宗跨境電傳轉帳。紅色方格不論客戶的風險評級為何，每次都要篩查；灰色方格按風險為本的方法篩查。")
     + fig(fig_who, ("The payment-chain list is the C&amp;ED FAQ's minimum for 'all relevant parties'; it is also summarised on the <a href=\"#ci-edd\">Circulars page</a>. Screening for politically exposed persons is a separate duty: see the <a href=\"#s2-pep\">PEP section</a>.",
                     "付款鏈名單是海關常見問題對「相關各方」的最低要求，亦撮錄於<a href=\"#ci-edd\">通函一頁</a>。政治人物篩查屬另一責任，見<a href=\"#s2-pep\">政治人物</a>一節。"), WHO_KEY)
     + table([th("The situation", "情況"), th("Whom you screen", "篩查誰")], [
@@ -203,7 +213,7 @@ SCR = sec('screening', ["¶6.16–6.17", "fn 58", "¶4.4.1", Q24, C2023],
            td("Exactly the same people: screening is carried out irrespective of the risk profile attributed to the customer", "完全相同：不論客戶的風險狀況為何均應篩查", "fn 58", post=flag())),
         tr(rh("A new or updated designation is added to your database", "數據庫加入新增或更新的指認"),
            td("Your customers and their beneficial owners; connected parties and persons purporting to act on the customer's behalf (PPTAs) on a risk-based approach", "你的客戶及其實益擁有人；有關連者及看似代表客戶行事的人按風險為本的方法處理", "¶6.16(b), 6.17")),
-        tr(rh("A customer asks you to send a cross-border or cross-boundary remittance", "客戶要求你匯出一筆跨境匯款"),
+        tr(rh("A customer asks you to carry out a cross-border or cross-boundary wire transfer or remittance transaction", "客戶要求你執行一宗跨境電傳轉帳或匯款交易"),
            td("All relevant parties in the transfer: the FAQ's minimum list is in the figure above", "轉帳的相關各方：常見問題列出的最低要求見上圖", cc("¶6.16(c)", Q24), post=flag())),
     ], minw=760)
     + numreq([
@@ -251,9 +261,9 @@ MAT = sec('match', ["¶6.18", "¶6.14", "¶7.1", "¶4.9.1"],
         trap(("A possible match is not yet a hit", "可能吻合不等於真正吻合"), None, "¶6.18 · ¶6.6–6.8",
              vs=[(("Possible match", "可能吻合"), ("Carry out enhanced checks to decide whether it is genuine.", "執行更嚴格的查核，以斷定是否真正吻合。")),
                  (("Genuine hit", "真正吻合"), ("The prohibitions apply: any payment to or for the party needs a licence.", "禁令適用：向該方或為其利益付款均須取得特許。"))]),
-        trap(("Report to the JFIU; ask the bureau for a licence", "向財富情報組舉報；向政策局申請特許"), None, "¶6.6, 6.8, 6.18",
+        trap(("Report to the JFIU; ask the bureau for a licence", "向財富情報組舉報；向保安局或商務及經濟發展局申請特許"), None, "¶6.6, 6.8, 6.18",
              vs=[(("Suspicion of TF, PF or a sanctions violation", "懷疑涉及恐怖分子資金籌集、擴散資金籌集或違反制裁"), ("Report to the JFIU.", "向財富情報組報告。")),
-                 (("Permission to pay a designated party", "准許向指定一方或被指認人士付款"), ("Write to the bureau for the law concerned: see <a href=\"#g6-regimes\">Three laws</a>.", "向有關法例的政策局提出書面申請：見<a href=\"#g6-regimes\">三條法例</a>。"))]),
+                 (("Permission to pay a designated party", "准許向指定一方或被指認人士付款"), ("Write to the bureau for the law concerned: see <a href=\"#g6-regimes\">Three laws</a>.", "按所涉法例，向保安局（《聯合國（反恐怖主義措施）條例》）或商務及經濟發展局（《聯合國制裁條例》）提出書面申請：見<a href=\"#g6-regimes\">三條法例</a>。"))]),
         trap(("Enhanced checks are not enhanced due diligence", "更嚴格的查核不等於更嚴格的盡職審查"), None, cc("¶6.18", "¶4.9.1"),
              vs=[(("Enhanced checks", "更嚴格的查核"), ("Done when screening throws up a possible name match, to decide whether it is a genuine hit.", "在篩查期間識別出可能吻合的姓名／名稱時執行，以斷定是否真正吻合。")),
                  (("Enhanced due diligence (EDD)", "更嚴格的盡職審查"), ("Measures you must apply to a business relationship or transaction to mitigate and manage high ML/TF risks: see the <a href=\"#s2-sdd-edd\">Schedule 2 page</a>.", "為減低及管理高度洗錢／恐怖分子資金籌集風險，必須對業務關係或交易執行的措施：見<a href=\"#s2-sdd-edd\">附表2一頁</a>。"))]),

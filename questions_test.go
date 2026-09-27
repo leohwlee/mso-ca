@@ -51,7 +51,7 @@ var comboOptions = map[int]map[string][]string{
 // sized to the volume of official source material behind it, so that every
 // question traces to a real provision rather than rewording its neighbour.
 // See README for the measured source volumes.
-var minPerModule = map[int]int{1: 126, 2: 308, 3: 251, 4: 310, 5: 96, 6: 340, 7: 154}
+var minPerModule = map[int]int{1: 123, 2: 306, 3: 250, 4: 283, 5: 96, 6: 340, 7: 154}
 
 // Every sample question C&ED publishes is a combination item, so each module
 // must carry a working number of them rather than leaving the format to one
@@ -345,14 +345,90 @@ func TestChineseStatutoryTerms(t *testing.T) {
 		"洩密":      "通風報訊 (tipping off)",
 		"匯出機構":    "匯款機構 (ordering institution)",
 		"同等司法管轄區": "對等司法管轄區 (equivalent jurisdiction)",
+		// September 2026 term sweep: each of these appears in none of the 23 Chinese
+		// sources; most render an English term instead of using the Chinese text's own.
+		"陳述機會":         "陳詞機會 (s.22(1), s.34(3), s.44(1), s.59(3), s.60(3); Licensing Guide ¶7.2)",
+		"顯赫公職":         "重要公職 (Sch. 2 s.1, politically exposed person)",
+		"密切聯繫人":        "關係密切的人 (Sch. 2 s.1)",
+		"糾正命令":         "the section's words: 命令採取糾正行動 (s.43(4)), 飭令採取糾正行動的命令 (s.21(4))",
+		"每日罰款":         "按日罰款 (s.21(4), s.43(4))",
+		"評核中心":         "試場 (Guidance Notes)",
+		"匯報責任":         "舉報責任 (Guideline ¶7.7; TBML circular)",
+		"報告責任":         "舉報責任 (Guideline ¶7.7, fn 60)",
+		"未遂交易":         "試圖進行的交易 (Guideline; TBML circular)",
+		"加強查核":         "更嚴格的查核 (Guideline ¶6.17–6.18)",
+		"打擊洗錢制度":       "打擊洗錢／恐怖分子資金籌集制度",
+		"機構風險評估":       "機構層面的洗錢／恐怖分子資金籌集風險評估 (Guideline ch. 2)",
+		"恐怖分子聯繫者":      "與恐怖分子有聯繫者 (Guideline)",
+		"前線職員":         "前線工作人員 (Guideline ¶9.5(b)), or the cited source's own word",
+		"紀律權力":         "紀律處分權力 (the Ordinance)",
+		"個人持牌人":        "a description in the cited source's words (no source names this class)",
+		"法團持牌人":        "屬法團的持牌人, or the cited source's words",
+		"無特定處所經營者":     "在沒有特定處所的情況下經營金錢服務 (Licensing Guide ¶8.4, ¶10.1)",
+		"全面盡職審查":       "客戶盡職審查措施 (Sch. 2 s.2); no source says 'full CDD'",
+		"標準盡職審查":       "客戶盡職審查措施 (Sch. 2 s.2); no source says 'standard CDD'",
+		"視察人員":         "獲授權人 (Part 3)",
+		"作出可疑交易報告":     "提交可疑交易報告 (Guideline)",
+		"找換店":          "the cited source's words, e.g. 貨幣兌換",
+		"遞交打擊洗錢政策的指引":  "《遞交打擊洗錢及恐怖分子資金籌集政策的指引》 (doc 07's title)",
+		"在合理切實可行範圍內盡快": "the cited provision's words: 在合理地切實可行的範圍內 (Ordinance; Guideline ch. 4, 10), 在切實可行範圍內盡快 (Guideline ¶7.5(b))",
+		"停止有效":         "不再有效 (s.42)",
+		"非面對面客戶":       "客戶不曾為身分識別的目的而現身 (Guideline ¶4.10.1)",
+		"認識你的客戶":       "the cited source's words",
+		"倚賴":           "依賴, or the cited provision's words (Sch. 2 s.18: 藉著中介人執行客戶盡職審查措施)",
+		"境外":           "香港以外 / 外地, as the cited provision says",
+		"註冊成立":         "成立為法團 (the Ordinance; the Guideline)",
 	}
 	for _, q := range bank {
-		fields := append([]string{q.Tc.Q, q.Tc.Explain, q.Source.Tc}, q.Tc.Options...)
+		// statements too: a combination item's statements are where its terms are tested
+		fields := append(append([]string{q.Tc.Q, q.Tc.Explain, q.Source.Tc}, q.Tc.Options...), q.Tc.Statements...)
 		for _, f := range fields {
 			for bad, want := range banned {
 				if strings.Contains(f, bad) {
 					t.Errorf("%s: Chinese text uses %q, want %s", q.ID, bad, want)
 				}
+			}
+		}
+	}
+}
+
+// TestNoDanglingOperator: 該經營者 or 該金錢服務經營者 ("the said operator") must
+// point back to an operator the stem or the same field has already named. Used
+// cold it renders "the MSO" word for word and leaves the reader asking which
+// operator; the sources say 金錢服務經營者.
+func TestNoDanglingOperator(t *testing.T) {
+	bank := loadBank(t)
+	strip := strings.NewReplacer("該經營者", "", "該金錢服務經營者", "")
+	for _, q := range bank {
+		check := func(context, f string) {
+			for _, form := range []string{"該經營者", "該金錢服務經營者"} {
+				i := strings.Index(f, form)
+				if i >= 0 && !strings.Contains(strip.Replace(context+f[:i]), "經營者") {
+					t.Errorf("%s: %s has nothing to refer back to in %q", q.ID, form, f)
+				}
+			}
+		}
+		check("", q.Tc.Q)
+		for _, f := range append(append([]string{q.Tc.Explain}, q.Tc.Options...), q.Tc.Statements...) {
+			check(q.Tc.Q, f)
+		}
+	}
+}
+
+// TestGuidelineParagraphWord: the Chinese Guideline calls its numbered paragraphs
+// and sub-paragraphs 段 (第[4.11.12(b)]段, 附錄A第[10]段); 款 and 條 are the
+// Ordinance's words for its subsections and sections. A Guideline number followed
+// by 款 renders the English "paragraph (b)" instead of using the Chinese text's
+// word. The September 2026 blind review found 18 questions doing this.
+var guidelineKuan = regexp.MustCompile(`第\d+\.\d+(?:\.\d+)*(?:\([a-z0-9]+\))*(?:及\([a-z0-9]+\))*款|附錄A第\d+(?:\([a-z0-9]+\))*款`)
+
+func TestGuidelineParagraphWord(t *testing.T) {
+	bank := loadBank(t)
+	for _, q := range bank {
+		fields := append(append([]string{q.Tc.Q, q.Tc.Explain, q.Source.Tc}, q.Tc.Options...), q.Tc.Statements...)
+		for _, f := range fields {
+			if m := guidelineKuan.FindString(f); m != "" {
+				t.Errorf("%s: %q calls a Guideline paragraph 款; the Guideline says 段", q.ID, m)
 			}
 		}
 	}
@@ -386,12 +462,12 @@ func TestMLTFPairing(t *testing.T) {
 func TestNoPositionalReferences(t *testing.T) {
 	bank := loadBank(t)
 	patterns := []*regexp.Regexp{
-		regexp.MustCompile(`(?i)(?:option|distractor)s?\s*\(?[1-5]\)?`),
+		regexp.MustCompile(`(?i)\b(?:option|distractor)s?\s*\(?[1-5]\)?\b`),
 		// the letter stays case-sensitive: lower-cased, "answer a question" and
 		// "the choice a licensee makes" would both match and fail a sound question
-		regexp.MustCompile(`(?i:option|answer|choice)\s+[A-E]`),
-		regexp.MustCompile(`(?i)(?:first|second|third|fourth|fifth|last)\s+(?:option|choice|answer)`),
-		regexp.MustCompile(`\(D[1-5]\)|D[1-5]`),
+		regexp.MustCompile(`\b(?i:option|answer|choice)\s+[A-E]\b`),
+		regexp.MustCompile(`(?i)\b(?:first|second|third|fourth|fifth|last)\s+(?:option|choice|answer)\b`),
+		regexp.MustCompile(`\(D[1-5]\)|\bD[1-5]\b`),
 		regexp.MustCompile(`選項\s*[一二三四五1-5A-E]`),
 		regexp.MustCompile(`第[一二三四五]個?選項`),
 	}

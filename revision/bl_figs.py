@@ -223,7 +223,7 @@ def fig1():
     N = Box(770, 260, None, [("No CDD trigger. Stay alert: linked occasional transactions that together reach the threshold should be added up.", "毋須執行盡職審查。但應留意：有關連的非經常交易合計達門檻，應合併計算。")], 'plain', "¶4.2.4–4.2.5", answer=True)
     D4 = Hex(280, 420, ("How much ML/TF risk do this customer and relationship carry?", "這名客戶及業務關係的洗錢／恐怖分子資金籌集風險有多高？"), ("risk-based approach · ¶4.1.2, 4.8.1", "風險為本的方法 · 第4.1.2、4.8.1段"))
     S = Box(20, 310, None, [("Low risk: simplified due diligence is permitted. Simplify the measures, never the ongoing monitoring. Stop SDD if the risk rises, suspicion arises or documents are doubted.", "低風險：可執行簡化盡職審查。可簡化措施，但持續監察絕不可免。風險上升、有懷疑或對文件存疑時，即停止簡化。")], 'may', "¶4.8.2–4.8.3, 4.8.6 · s.5(1) Sch. 2", answer=True)
-    M = Box(360, 260, None, [("Standard CDD: all four measures, to an extent that matches the risk.", "標準盡職審查：全部四項措施，程度與風險相稱。")], 'plain', "¶4.8.1", answer=True)
+    M = Box(360, 260, None, [("All four CDD measures, to an extent that matches the risk.", "全部四項盡職審查措施，程度與風險相稱。")], 'plain', "¶4.8.1", answer=True)
     E = Box(690, 330, None, [("High risk: enhanced due diligence is mandatory. Senior management approves the relationship; monitoring is enhanced; add measures such as source of funds and wealth.", "高風險：必須執行更嚴格的盡職審查。高級管理層批准業務關係；加強持續監察；增加措施，例如查明資金來源及財富來源。")], 'must', "¶4.9.1–4.9.4, 4.9.6 · s.15 Sch. 2", answer=True)
     D5 = Hex(310, 360, ("Can you actually complete these measures?", "能否切實完成這些措施？"), "¶4.13.1 · s.3(4) Sch. 2")
     Pn = Box(30, 440, None, [("Proceed. Verify identity before or during establishment; only exceptionally afterwards, under the ¶4.7 controls. Then monitor the relationship continuously.", "可以進行。在建立業務關係之前或過程中核實身分；只可在例外情況下、按第4.7段的管控措施於其後核實。此後持續監察業務關係。")], 'ok', "¶4.7.1, 4.7.3 · Ch. 5 · s.5 Sch. 2", answer=True)
@@ -257,8 +257,8 @@ def fig1():
     b.append(edge([M.bottom, D5.top], mid=m))
     b.append(edge([D5.left, (Pn.cx, D5.cy), Pn.top], YES, (D5.x + Pn.cx) / 2, D5.cy - 7, mid=m))
     b.append(edge([D5.right, (X.cx, D5.cy), X.top], NO, (D5.x + D5.w + X.cx) / 2, D5.cy - 7, mid=m))
-    aria = ("Decision tree: a business relationship needs CDD before it is established; an occasional transaction needs CDD at HK$8,000 for wire or virtual-asset transfers and HK$120,000 otherwise, or whenever ML/TF is suspected or earlier identity information is doubted. All paths then meet a risk assessment that selects simplified, standard or enhanced due diligence, and finally a check on whether CDD can be completed.",
-            "決策樹：建立業務關係前須執行盡職審查；非經常交易在電傳轉帳或虛擬資產轉帳達8,000元、其他交易達120,000元時，或有懷疑時，須執行盡職審查；其後按風險選擇簡化、標準或更嚴格的盡職審查，最後判斷能否完成。")
+    aria = ("Decision tree: a business relationship needs CDD before it is established; an occasional transaction needs CDD at HK$8,000 for wire or virtual-asset transfers and HK$120,000 otherwise, or whenever ML/TF is suspected or earlier identity information is doubted. All paths then meet a risk assessment that selects simplified due diligence, all four CDD measures or enhanced due diligence, and finally a check on whether CDD can be completed.",
+            "決策樹：建立業務關係前須執行盡職審查；非經常交易在電傳轉帳或虛擬資產轉帳達8,000元、其他交易達120,000元時，或有懷疑時，須執行盡職審查；其後按風險選擇簡化盡職審查措施、全部四項盡職審查措施或更嚴格的盡職審查措施，最後判斷能否完成。")
     return svg(W, H + 16, ''.join(b), aria, m, 860)
 
 
@@ -273,7 +273,7 @@ def fig3():
     ho = Box(290, 240, ("Ms Ho · natural person", "何女士 · 自然人"),
              PARAS_WH, 'ok', answer=True)
     peak = Box(30, 480, ("Peak Holdings Ltd · corporate shareholder", "峰匯控股有限公司 · 法團股東"),
-               [("An intermediate layer, not a beneficial owner itself: a beneficial owner is a natural person. Look through it to the individuals behind it.", "屬中介層，本身並非實益擁有人：實益擁有人是自然人。須穿透至其背後的個人。")], 'faint', "¶4.4.1, 4.4.6, 4.4.13 · s.1 Sch. 2", answer=True)
+               [("An intermediate layer, not a beneficial owner itself: the ownership limb covers only individuals. Look through it to the individuals behind it.", "屬中介層，本身並非實益擁有人：擁有權一項只涵蓋個人。須穿透至其背後的個人。")], 'faint', "¶4.4.1, 4.4.6, 4.4.13 · s.1 Sch. 2", answer=True)
     chan = Box(530, 190, ("Ms Chan", "陳女士"), [("natural person", "自然人"), ("30% direct", "直接持有30%"), ("→ beneficial owner", "→ 實益擁有人")], 'ok', answer=True)
     lee = Box(740, 290, ("Mr Lee · sole director", "李先生 · 唯一董事"),
               [("10%: not a beneficial owner by ownership.", "持有10%："), ("", "以擁有權計並非實益擁有人。"),
@@ -351,12 +351,12 @@ def fig5():
                        ("", "在可行情況下將資金或其他資產以原狀退回；"), ("", "考慮提交可疑交易報告。")],
                       'must', "¶4.7.4", answer=True)),
     ], m)
-    g2 = Box(60, 360, None, [("Verify the identity of the customer and any beneficial owner before or during the transaction.", "在執行交易之前或過程中，核實客戶及任何實益擁有人的身分。")], 'ok', "¶4.7.1 · s.3(1)(b), (1A) Sch. 2", answer=True)
+    g2 = Box(60, 360, None, [("Verify the identity of the customer and any beneficial owner before the transaction is carried out.", "在執行交易之前，核實客戶及任何實益擁有人的身分。")], 'ok', "¶4.2.1(b) · s.3(1)(b), (1A) Sch. 2", answer=True)
     s2 = Box(440, 370, ("No exception", "沒有例外"), [("Verification cannot wait until after an occasional transaction: the delayed-verification exception covers business relationships only.", "非經常交易不可在交易後才核實：延後核實的例外只適用於業務關係。")], 'stop', "s.3(1)(b), (1A), (2) Sch. 2", answer=True)
     t2, low2 = _track(low1 + 24, ("An occasional transaction", "非經常交易"), [g2, s2], [
         (60, [(["first contact"], ["首次接觸"], 'c-sans', 11)]),
         (430, [(["transaction carried out"], ["執行交易"], 'c-sans', 11)]),
     ], m)
-    aria = ("Two timelines. For a business relationship, verification normally happens before or during establishment; exceptionally afterwards on three conditions within a reasonable timeframe, after which the MSO terminates, returns funds and considers an STR. For an occasional transaction there is no exception: verify before or during the transaction.",
-            "兩條時間線。業務關係：一般在建立之前或過程中核實；例外情況下可在合理時限內於其後核實，逾期則終止關係、退回資金並考慮提交可疑交易報告。非經常交易：沒有例外，須在交易之前或過程中核實。")
+    aria = ("Two timelines. For a business relationship, verification normally happens before or during establishment; exceptionally afterwards on three conditions within a reasonable timeframe, after which the MSO terminates, returns funds and considers an STR. For an occasional transaction there is no exception: verify before the transaction.",
+            "兩條時間線。業務關係：一般在建立之前或過程中核實；例外情況下可在合理時限內於其後核實，逾期則終止關係、退回資金並考慮提交可疑交易報告。非經常交易：沒有例外，須在交易之前核實。")
     return svg(W5, low2 + 10, t1 + t2, aria, m, 860)

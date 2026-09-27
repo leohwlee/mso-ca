@@ -43,6 +43,9 @@ link to it instead (`<a href="#s2-monitoring">Schedule 2 page</a>`).
   differ (may / 將, or / 及, should / 必須), the English view says what the English text says and the Chinese
   view what the Chinese text says. Never compare the two versions on the page. A point that exists in one
   language's text only can be shown in that view only, with the `only-en` / `only-tc` classes.
+  The exceptions are the items the owner decided as one answer for both views (`CONFLICT-CALLS.md`): there
+  the view whose own passage departs teaches the decision from passages in its own language that support it,
+  and may show the departing wording as easy to confuse, in that view only.
 
 ## Accuracy — the non-negotiable part
 Every sentence must be grounded in a source passage, and every table cell, card and callout carries a
@@ -53,9 +56,17 @@ Extract their text first (e.g. `pdftotext -layout`) and search it for distinctiv
 - Never invent examples, numbers or lists and present them as the source's. If you illustrate, say so.
 - Chinese must use the **official Chinese terms of the Chinese source** it cites (docs/TC/02, docs/TC/10):
   e.g. 可疑交易報告, 聯合財富情報組 (short form 財富情報組), 洗錢報告主任, 合規主任, 通風報訊,
-  客戶盡職審查, 更嚴格的客戶盡職審查措施, 政治人物, 實益擁有人, 風險為本的方法, 機構層面的風險評估,
+  客戶盡職審查, 更嚴格的客戶盡職審查措施, 政治人物, 實益擁有人, 風險為本的方法,
+  機構層面的洗錢／恐怖分子資金籌集風險評估 (the Guideline's only form; 機構層面的風險評估 is the FAQ's),
   針對性金融制裁, 擴散資金籌集, 指定各方 / 被指認各方 (as the paragraph says), 恐怖分子財產, 批給, 會面, 應考能力評核,
   數據庫, 複本, 證明人, 覆核, 職員, 打擊洗錢／恐怖分子資金籌集制度. Check each term in the source before use.
+- The documents do not share one vocabulary: take the word from the document a cell cites (the Licensing
+  Guide says 業務處所 and 銀行帳戶, the Business Plan guideline 營業處所 and 銀行戶口; Schedule 2 writes
+  虛擬資產轉賬, the Guideline 虛擬資產轉帳). Some text extracts store common characters as look-alike code points
+  (行 as U+FA08, 金 as U+F90A), so normalise them before concluding that a term is absent.
+- Short names are labels, not key terms: AMLO and 《打擊洗錢條例》, and the abbreviations MSO and CDD, which the
+  official sample paper itself uses, may appear anywhere, including beside a passage that cites only the
+  Ordinance (which calls itself "this Ordinance" / 本條例). The owner decided this on 27 September 2026.
 - If two documents conflict, teach the side the owner chose (`CONFLICT-CALLS.md`); for a conflict not listed
   there, say so neutrally and ask the owner rather than picking one silently.
 

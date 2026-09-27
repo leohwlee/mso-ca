@@ -35,7 +35,8 @@ The build is deterministic: the same sources give the same bytes on any platform
 
 ## Rules the owner set
 
-- Each language view follows its own source text. The English view is English
+- Each language view follows its own source text, except where the owner decided
+  one answer for both views (listed in `CONFLICT-CALLS.md`). The English view is English
   only, the Chinese view Chinese only, and both appear together only in the combined
   view. No page compares the two language versions.
 - Where two official documents disagree, the owner's call decides, in both views.

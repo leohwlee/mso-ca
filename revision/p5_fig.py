@@ -53,12 +53,12 @@ def fig_life():
           "續期：申請須於期滿前45日或之前提出"), "s.31(2)(a)", 'ok'),
         (("It expires: not renewed, so it lapses when its period runs out. Trading on is unlicensed operation",
           "期滿失效：牌照未獲續期，即於有效期屆滿時失效；其後繼續經營即屬無牌經營"), "s.30(10) · s.29(1)", 'stop'),
-        (("Revoked, or suspended for a time: no longer fit and proper, or consent to enter domestic premises withdrawn or refused",
-          "撤銷或暫時吊銷一段時間：有人已不再是適當人選；或住宅處所的進入同意被撤回或遭拒絕給予"), "s.34(1)–(2)", 'may'),
+        (("Revoked, or suspended for a time: no longer fit and proper, or consent to enter domestic premises revoked or refused",
+          "撤銷或暫時吊銷一段時間：有人已不再是適當人選；或住宅處所的進入同意被撤銷或遭拒絕給予"), "s.34(1)–(2)", 'may'),
         (("You stop: notify in writing before the date, and return the licence within 7 days beginning on it",
           "主動停業：須在停業日期前以書面向關長具報該意向，並在自停業日期起計7日內交回牌照"), "s.41(1)", 'must'),
         (("It simply ends: death, dissolution of the partnership, or commencement of winding up",
-          "自動失效：持牌個人去世、合夥解散，或法團開始清盤"), "s.42", 'stop'),
+          "牌照不再有效：持牌個人去世、合夥解散，或法團開始清盤"), "s.42", 'stop'),
     ]
     # measure the five outcomes, then give them one height so the row lines up
     hh = max(Node(x, BW, t, c).h for x, (t, c, k) in zip(BX, outs))
@@ -80,8 +80,8 @@ def fig_life():
     # renewal goes back through the same test
     b.append(edge([RENEW.left, (16, RENEW.cy), (16, APPLY.cy), (APPLY.x, APPLY.cy)], mid=m))
     b.append(loop_label((16 + APPLY.x) / 2, APPLY.cy - 8, "renewal re-runs the same test · s.31(4)", "續期時重做同一測試 · 第31(4)條"))
-    aria = ("The licence lifecycle. An application with the Schedule 3 fee meets the fit and proper test and the premises test. Refusal comes with reasons and a Review Tribunal route. A grant normally lasts two years, and any conditions are endorsed on it. While operating you display the licence and notify changes within a month; new directors, partners and ultimate owners need prior written approval, and new premises must be added to the licence first. The licence is then either renewed, on an application made not later than 45 days before expiry and on the same test, or it expires unrenewed, is revoked or suspended by the Commissioner, ends by your own cessation, or ends automatically on death, dissolution or winding up.",
-            "牌照的生命周期。申請連同附表3費用，須通過適當人選測試及處所測試。拒絕批給須附理由，並可向覆核審裁處申請覆核。批給的牌照一般有效兩年（關長可另定期間），如有條件須批註在牌照上。經營期間須展示牌照，並於一個月內具報改變；新董事、合夥人及最終擁有人須事先取得書面批准，新處所須先加入牌照。其後牌照或予續期（續期申請須在期滿前45日或之前提出，並再次通過同一測試），或因沒有續期而期滿失效、被關長撤銷或暫時吊銷、主動停業，或因去世、解散、清盤而自動失效。")
+    aria = ("The licence lifecycle. An application with the Schedule 3 fee is tested on whether everyone who must be a fit and proper person is one, and whether the premises are suitable. Refusal comes with reasons and a Review Tribunal route. A grant normally lasts two years, and any conditions are endorsed on it. While operating you display the licence and notify changes within a month; new directors, partners and ultimate owners need prior written approval, and new premises must be added to the licence first. The licence is then either renewed, on an application made not later than 45 days before expiry and on the same test, or it expires unrenewed, is revoked or suspended by the Commissioner, ends by your own cessation, or ends automatically on death, dissolution or winding up.",
+            "牌照的生命周期。申請連同附表3費用，須經測試：所有須屬適當人選的人是否適當人選，以及處所是否適合。拒絕批給須附理由，並可向覆核審裁處申請覆核。批給的牌照一般有效兩年（關長可另定期間），如有條件須批註在牌照上。經營期間須展示牌照，並於一個月內具報改變；新董事、合夥人及最終擁有人須事先取得書面批准，新處所須先加入牌照。其後牌照或予續期（續期申請須在期滿前45日或之前提出，並再次通過同一測試），或因沒有續期而期滿失效、被關長撤銷或暫時吊銷、主動停業，或因持牌人去世、合夥解散、法團開始清盤而不再有效。")
     return svg(W, H + 16, ''.join(b), aria, m, 860)
 
 
