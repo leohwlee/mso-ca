@@ -142,8 +142,8 @@ PRO = sec('prohibited', ["¶6.5", "¶6.7", "¶6.10", "fn 56", "fn 57"],
         tr(rh("Provision of services, under the WMD(CPS)O", "《大規模毀滅武器（提供服務的管制）條例》下的提供服務", "¶6.10"),
            td("Widely defined, and includes lending money or any other provision of financial assistance", "定義廣泛，包括借出款項或以其他方式提供金融資助")),
     ], minw=720)
-    + P("The maximum penalty for the UNATMO financing offences (14 years and a fine) is on the <a href=\"#g1-offences\">Guideline Ch. 1 page</a>, beside the other penalties it is easily confused with. The Guideline states none for the UNSO or WMD(CPS)O offences.",
-        "《聯合國（反恐怖主義措施）條例》資金籌集罪行的最高刑罰（監禁14年及罰款）見<a href=\"#g1-offences\">指引第1章一頁</a>，並與容易混淆的其他刑罰並列。指引沒有列出《聯合國制裁條例》或《大規模毀滅武器（提供服務的管制）條例》罪行的刑罰。")
+    + P("The maximum penalty for the UNATMO financing offences (14 years and a fine) is on the <a href=\"#g1-offences\">Guideline Ch. 1 page</a>, beside the other penalties it is easily confused with. The Guideline states no penalty for the UNSO offences or for the WMD(CPS)O prohibition.",
+        "《聯合國（反恐怖主義措施）條例》資金籌集罪行的最高刑罰（監禁14年及罰款）見<a href=\"#g1-offences\">指引第1章一頁</a>，並與容易混淆的其他刑罰並列。指引沒有列出《聯合國制裁條例》罪行或《大規模毀滅武器（提供服務的管制）條例》禁令的刑罰。")
     + traps(
         trap(("Recklessness is enough to deal unlawfully", "罔顧已足以構成非法處理"),
              ("Dealing with property is caught when you know it is specified terrorist property, or property of a specified terrorist or terrorist associate. You do not have to know: being reckless as to whether it is such property is enough.",
@@ -161,8 +161,8 @@ PRO = sec('prohibited', ["¶6.5", "¶6.7", "¶6.10", "fn 56", "fn 57"],
 # ---------------------------------------------------------------- 4. the database
 DB = sec('database', ["¶6.11–6.15", "¶6.19"],
          ("Keeping the list you screen against", "備存用作篩查的名單"),
-    P("Read the figure from left to right: what should go into the database, the database itself, and the ways you may hold it. Below it, screening draws on the same database.",
-      "由左至右閱讀下圖：數據庫應收錄的名單、數據庫本身，以及你可選用的備存方式。下方是使用同一數據庫進行的篩查。")
+    P("Read the figure from left to right: what should go into the database, the database itself, and who may keep it or run the screening. Below it, screening draws on the same database.",
+      "由左至右閱讀下圖：數據庫應收錄的名單、數據庫本身，以及由誰備存數據庫或執行篩查。下方是使用同一數據庫進行的篩查。")
     + fig(fig_db, ("The Commissioner draws UNSC updates on terrorism, TF and PF to your attention from time to time. The dashed lines are the alternatives open to you.",
                    "每當聯合國安理會就恐怖主義、恐怖分子資金籌集及擴散資金籌集頒布更新資料，關長會不時通知金錢服務經營者。虛線表示你可選用的方式。"), DB_KEY)
     + table([th("The situation", "情況"), th("What the Guideline expects", "指引的要求")], [
@@ -242,9 +242,9 @@ SCR = sec('screening', ["¶6.16–6.17", "fn 58", "¶4.4.1", Q24, C2023],
               "擴大至有關連者及看似代表客戶行事的人的規定，適用於建立關係時的篩查及根據新增或更新指認進行的篩查。轉帳篩查本已涵蓋付款的相關各方。"),
              "¶6.17"),
         trap(("Beneficial owners were the gap the C&amp;ED found", "海關發現的漏洞在於實益擁有人"),
-             ("In its 2023 supervisory findings the C&amp;ED found MSOs screening customers against a commercial database for PEPs and targeted financial sanctions without extending it to beneficial owners. It restated that customers, their beneficial owners and all relevant parties in remittances are to be screened against sanctions and designated-persons lists, irrespective of risk profile. The circular words this as a requirement; the Guideline paragraph it cites says 'should'.",
-              "海關在2023年的巡查結果中發現，有經營者以商業數據庫篩查客戶是否屬政治人物或受針對性金融制裁，但沒有擴大至實益擁有人。海關重申，不論客戶的風險狀況為何，均須與制裁名單及被指認的個人名單比對，篩查客戶、其實益擁有人及匯款交易的所有相關各方。通函用「須」，而所引用的指引第6.16段用「應」。"),
-             cc(C2023, "¶6.16")),
+             ("In its 2023 supervisory findings the C&amp;ED found MSOs screening customers against a commercial database for PEPs and targeted financial sanctions without extending it to beneficial owners. It restated that customers, their beneficial owners and all relevant parties in remittances are to be screened against sanctions and designated-persons lists, irrespective of risk profile. The circular words this as a requirement; the Guideline's 'should' in ¶6.16 is a mandatory requirement too (¶1.6).",
+              "海關在2023年的巡查結果中發現，有經營者以商業數據庫篩查客戶是否屬政治人物或受針對性金融制裁，但沒有擴大至實益擁有人。海關重申，不論客戶的風險狀況為何，均須與制裁名單及被指認的個人名單比對，篩查客戶、其實益擁有人及匯款交易的所有相關各方。通函用「須」；指引第6.16段用「應」，按第1.6段同樣屬強制規定。"),
+             cc(C2023, "¶6.16", "¶1.6")),
     ))
 
 
@@ -280,8 +280,8 @@ G6_META = dict(
     short=("Guideline Ch. 6 · Sanctions", "指引第6章 · 制裁"),
     eyebrow=("AML/CFT Guideline · Chapter 6 · Modules 1 and 6", "《打擊洗錢指引》第6章 · 單元一及單元六"),
     title=("Terrorist financing, sanctions and proliferation financing", "恐怖分子資金籌集、金融制裁及擴散資金籌集"),
-    lede=("Chapter 6 decides whom you must not pay without a licence, and how you find out in time. Three laws name the targets and set the prohibitions. The Guideline then has you keep a database of every list made known to you, screen customers, beneficial owners and all relevant parties to a transfer against it whatever their risk, check possible matches, report suspicion to the JFIU and keep the records.",
-          "第6章決定哪些人你未獲特許便不可付款，以及如何及時發現他們。三條法例負責指明對象及訂立禁令。指引則要求你備存數據庫，綜合你所知的每份名單；不論風險高低，以數據庫篩查客戶、實益擁有人及轉帳的相關各方；查核可能吻合的名字；向財富情報組舉報懷疑；並備存紀錄。"),
-    foot=("Sources: Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Money Service Operators), June 2023, Chapter 6 with ¶4.3.19, ¶4.4.1, ¶4.9.1 and ¶7.1; C&amp;ED FAQ applicable to all MSOs, Q24; C&amp;ED circular of 22 November 2023 (supervisory findings on CDD).",
-          "資料來源：《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》（2023年6月）第6章，以及第4.3.19、4.4.1、4.9.1及7.1段；海關適用於所有金錢服務經營者的常見問題第24問；海關2023年11月22日（盡職審查巡查結果）通函。"),
+    lede=("Chapter 6 decides whom you must not serve or pay, and how you find out in time. Three laws set the prohibitions: UNATMO and the UNSO name their targets, while the WMD(CPS)O turns on your own reasonable belief or suspicion that a service may be connected to PF. The Guideline then has you keep a database of every list made known to you, screen customers, beneficial owners and all relevant parties to a transfer against it whatever their risk, check possible matches, report suspicion to the JFIU and keep the records.",
+          "第6章決定哪些人你不可為其提供服務或向其付款，以及如何及時發現他們。三條法例訂立禁令：《聯合國（反恐怖主義措施）條例》及《聯合國制裁條例》指明對象；《大規模毀滅武器（提供服務的管制）條例》則取決於你是否基於合理理由相信或懷疑某項服務可能與擴散資金籌集有關。指引則要求你備存數據庫，綜合你所知的每份名單；不論風險高低，以數據庫篩查客戶、實益擁有人及轉帳的相關各方；查核可能吻合的名字；向財富情報組舉報懷疑；並備存紀錄。"),
+    foot=("Sources: Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Money Service Operators), June 2023, Chapter 6 with ¶1.6, ¶1.11(a), ¶4.3.19, ¶4.4.1, ¶4.9.1, ¶7.1 and ¶7.33; C&amp;ED FAQ applicable to all MSOs, Q24; C&amp;ED circular of 22 November 2023 (supervisory findings on CDD).",
+          "資料來源：《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》（2023年6月）第6章，以及第1.6、1.11(a)、4.3.19、4.4.1、4.9.1、7.1及7.33段；海關適用於所有金錢服務經營者的常見問題第24問；海關2023年11月22日（盡職審查巡查結果）通函。"),
 )

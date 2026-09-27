@@ -48,8 +48,8 @@ S1 = sec('build', ["s.23 Sch. 2", "¶3.1–3.4", "¶1.6"],
          ("Your AML/CFT Systems: approved at the top, built from four parts", "你的打擊洗錢／恐怖分子資金籌集制度：由高層審批，由四個部分組成"),
     P("Read the figure from the top. The red boxes are duties on you: first the statute's, then the Guideline's. The four grey boxes are the parts every system should contain; select (a) to (c) to jump to the section that covers each.",
       "由上而下閱讀。紅色方格是你的責任：先是條例的，再是指引的。四個灰色方格是每套制度應包括的部分；點選(a)至(c)即跳往下文相關部分。")
-    + fig(fig_build, ("The statute sets the goal in one sentence; Chapter 3 turns it into people and functions. The four parts are scaled to your business, but a small MSO still needs all four.",
-                        "條例用一句訂明目標；第3章把它化為人員及職能。四個部分按業務規模釐定，但規模細小的金錢服務經營者仍須具備全部四項。"), BUILD_KEY)
+    + fig(fig_build, ("The statute sets the goal in one sentence; Chapter 3 turns it into people and functions. The four parts are scaled to your business, but a small MSO should still have all four.",
+                        "條例用一句訂明目標；第3章把它化為人員及職能。四個部分按業務規模釐定，但規模細小的金錢服務經營者仍應具備全部四項。"), BUILD_KEY)
     + table([th("The situation", "情況"), th("What the Guideline expects", "指引的要求")], [
         tr(td("You set up the systems", "你建立制度"),
            td("Have them approved by senior management, so that they let you manage and mitigate the risks relevant to you effectively",
@@ -240,14 +240,15 @@ S6 = sec('audit', ["¶3.11–3.14", ("FAQ Q23", "常見問題第23問")],
         tr(rh("Outside eyes", "外界覆核"),
            td("<b>Where appropriate</b>, also seek a review from external parties", "<b>在適當情況下</b>，亦應尋求外界進行覆核", "¶3.13")),
         tr(rh("Validating transaction monitoring", "核實交易監察"),
-           td("See the <a href=\"#ci-edd\">Circulars page</a>", "見<a href=\"#ci-edd\">通函一頁</a>", FAQ(23))),
+           td("An external party, or your internal audit function. Subject to appropriate segregation of duties, the internal audit function should have sufficient expertise and resources to carry out an independent review of your AML/CFT Systems. The same answer is in the <a href=\"#ci-edd\">FAQ table on the Circulars page</a>",
+              "外界人士，或你的內部審核職能。內部審核職能除了適當的分工外，亦應具備足夠的專業知識和資源，以對你的打擊洗錢／恐怖分子資金籌集制度作出獨立覆核。同一答案亦見<a href=\"#ci-edd\">通函一頁的常見問題表</a>", cc(FAQ(23), "¶3.11"))),
     ], minw=720)
     + traps(
         trap(("External review is “where appropriate”, not a standing requirement", "外界覆核屬「在適當情況下」，並非固定要求"),
              ("Chapter 3 requires an independent audit function and regular reviews sized to your business. It adds an external review only where appropriate, and names no frequency.",
               "第3章要求設立獨立的審核職能，並按業務規模定期覆核；外界覆核只屬在適當情況下的補充，亦沒有訂明頻密程度。"),
              "¶3.11–3.13"),
-        trap(("The audit function reviews the compliance function", "審核職能須覆核合規職能"),
+        trap(("The audit function reviews the compliance function", "審核職能的覆核範圍包括合規職能"),
              ("Item (c) of the review is the effectiveness of the compliance function itself, and the audit function has its own direct line of communication to senior management. A list of review items that leaves out the compliance function is incomplete.",
               "覆核範圍第(c)項正是合規職能本身是否有效，而審核職能能與高級管理層直接溝通。覆核範圍的清單如遺漏合規職能，即不完整。"),
              "¶3.11–3.12(c)"),

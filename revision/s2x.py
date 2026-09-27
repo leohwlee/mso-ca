@@ -169,7 +169,9 @@ MON = sec('monitoring', ["s.5–6 Sch. 2", "Ch. 5", "¶4.12"],
         tr(rh("The customer was not physically present for identification", "客戶沒有為身分識別的目的而現身", "s.5(3)(a) Sch. 2"),
            td("Additional measures to compensate for the risk this creates", "採取額外措施，以應對由此引致的風險"),
            td("You identified and verified the customer through a recognized digital identification system", "你以認可數碼識別系統識別及核實了客戶身分", "s.5(4) Sch. 2")),
-        tr(rh("The customer or a beneficial owner is known to be a PEP", "已知客戶或實益擁有人屬政治人物", "s.5(3)(b) Sch. 2"),
+        tr(rh("The customer or a beneficial owner is known to be a politically exposed person, which in Schedule 2 means a non-Hong Kong PEP. A Hong Kong or international-organisation PEP comes under the next row when the relationship is high risk (see <a href=\"#s2-pep\">PEPs</a>)",
+              "已知客戶或實益擁有人屬政治人物，即附表2所指的非香港政治人物。香港或國際組織政治人物，在業務關係屬高風險時才屬下一行的情況（見<a href=\"#s2-pep\">政治人物一節</a>）",
+              "s.1, 5(3)(b) Sch. 2 · ¶4.9.17, 5.9 fn 54"),
            td("The same additional measures", "同樣的額外措施"),
            td("It is a former PEP who, on an appropriate risk assessment, does not present a high risk", "屬前政治人物，而基於適當風險評估，不會造成高度風險", "s.5(5) Sch. 2", post=flag())),
         tr(rh("The customer or a beneficial owner is in a high-risk situation under section 15", "客戶或實益擁有人涉及第15條所指的高風險情況", "s.5(3)(c) Sch. 2"),
@@ -199,9 +201,9 @@ MON = sec('monitoring', ["s.5–6 Sch. 2", "Ch. 5", "¶4.12"],
     ])
     + traps(
         trap(("Simplified or enhanced, monitoring never switches off", "不論簡化或更嚴格，監察從不停止"),
-             ("Simplified due diligence lightens the four measures, but the duty to monitor never falls away: you must still continuously monitor every business relationship (ongoing CDD and transaction monitoring). What changes with the risk is the extent: you may reduce it in low-risk situations, for example by reducing the monitoring and scrutiny of transactions under a reasonable monetary threshold, and you should enhance it where the risk is high.",
-              "簡化盡職審查減輕四項措施，但監察責任並不因此消失：你仍須持續監察每段業務關係（即持續進行盡職審查及監察交易）。隨風險改變的是監察程度：在低風險的情況下可下調監察的程度，例如下調持續監察和審查合理的金額門檻下的交易的程度；風險屬於高度時則應更嚴格執行交易監察。"),
-             "s.4–5 Sch. 2 · ¶4.8.6, 4.8.8(d) · ¶5.9"),
+             ("Simplified due diligence can reduce the extent of the CDD measures, but the duty to monitor never falls away: you must still continuously monitor every business relationship (ongoing CDD and transaction monitoring). What changes with the risk is the extent: you may reduce it in low-risk situations, for example by reducing the monitoring and scrutiny of transactions under a reasonable monetary threshold, and you should enhance it where the risk is high.",
+              "簡化盡職審查措施可下調盡職審查措施的程度，但監察責任並不因此消失：你仍須持續監察每段業務關係（即持續進行盡職審查及監察交易）。隨風險改變的是監察程度：在低風險的情況下可下調監察的程度，例如下調持續監察和審查合理的金額門檻下的交易的程度；風險屬於高度時則應更嚴格執行交易監察。"),
+             "s.4–5 Sch. 2 · ¶4.8.1, 4.8.6, 4.8.8(d) · ¶5.9"),
     ))
 
 
@@ -217,7 +219,7 @@ def fig_wire():
     REC = Card(LX, LW, ("Recipient", "收款人"), None)
     DORD = Card(RX, RW, ("Before sending: record, then include in the message", "發出前：記錄，並附於信息內"),
                 ("Always the originator's name and account or reference number, and the recipient's name and account or reference number. From $8,000, also the originator's address, customer or ID document number, or date and place of birth, and the originator information must be accurate",
-                 "一律附上匯款人及收款人各自的姓名及戶口號碼或參考編號。由$8,000起，另須附上匯款人地址、客戶識別號碼或識別文件號碼，或出生日期及地點，而所附匯款人資料必須準確"),
+                 "一律附上匯款人及收款人各自的姓名及戶口號碼或參考編號。由$8,000起，另須附上匯款人地址、客戶識別號碼或識別文件號碼，或出生日期及地方，而所附匯款人資料必須準確"),
                 'must', "s.12(3), (3A), (5) Sch. 2 · ¶10.8", answer=True)
     DINT = Card(RX, RW, ("Pass everything on", "全部傳遞"),
                 ("All the information received with the transfer goes to the next institution. In a transfer that is not domestic, also chase anything missing, as the beneficiary institution does",
@@ -252,7 +254,7 @@ def fig_wire():
     sy = REC.y + REC.h + 28   # a rule sets the options band apart from the chain
     b.append(f'<line class="e" x1="20" y1="{sy:.0f}" x2="{W - 20}" y2="{sy:.0f}" stroke-dasharray="5 5"/>')
     aria = ("A wire transfer runs from the originator to the ordering institution, through any intermediary institutions, to the beneficiary institution and the recipient. The ordering institution records and includes the originator's and recipient's names and account or reference numbers, adding the originator's address or identity number or date and place of birth from $8,000, when the originator information must also be accurate. An intermediary passes everything on and, in a transfer that is not domestic, chases missing information. A beneficiary institution chases missing information from the sending institution and, failing that, considers restricting or terminating the relationship with that institution, or takes reasonable measures to mitigate the risk. Below the chain: the ordering institution's two shortcuts, a domestic transfer carrying only the originator's account or reference number with the rest supplied within three business days of a request, and a batch file; and the transfers outside section 12.",
-            "電傳轉帳由匯款人經匯款機構、任何中介機構，到達收款機構及收款人。匯款機構記錄並附上匯款人及收款人的姓名及戶口號碼或參考編號，$8,000起另加匯款人地址、識別號碼或出生日期及地點，而所附匯款人資料必須準確。中介機構須傳遞全部資料，如屬非本地電傳轉帳亦須追補遺漏資料。收款機構須向發出轉帳指示的機構追補遺漏資料；如未能取得，須考慮限制或結束與該機構的業務關係，或採取合理措施減低風險。鏈下方為匯款機構的兩項簡便安排：本地轉帳可只附匯款人戶口號碼或參考編號，其餘資料在接獲要求後三個營業日內提供；以及群組檔案；另有不受第12條規管的轉帳。")
+            "電傳轉帳由匯款人經匯款機構、任何中介機構，到達收款機構及收款人。匯款機構記錄並附上匯款人及收款人的姓名及戶口號碼或參考編號，$8,000起另加匯款人地址、識別號碼或出生日期及地方，而所附匯款人資料必須準確。中介機構須傳遞全部資料，如屬非本地電傳轉帳亦須追補遺漏資料。收款機構須向發出轉帳指示的機構追補遺漏資料；如未能取得，須考慮限制或結束與該機構的業務關係，或採取合理措施減低風險。鏈下方為匯款機構的兩項簡便安排：本地轉帳可只附匯款人戶口號碼或參考編號，其餘資料在接獲要求後三個營業日內提供；以及群組檔案；另有不受第12條規管的轉帳。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
@@ -269,7 +271,7 @@ TRN = sec('transfers', ["s.12, 13 Sch. 2", "Ch. 10–11", "¶10.2"],
         tr(rh("Ordering institution: you send it", "匯款機構：由你發出", "s.19(2) Sch. 2"),
            td("Safeguards against sending a non-compliant transfer: reasonable measures, such as regular review or testing by internal control or audit, to spot domestic or cross-border wire transfers lacking required information; risk-based policies for handling them; and timely fixes for control deficiencies", "設有防止發出不合規轉帳的保障措施：採取合理措施（例如定期覆核或藉內部管控或審計職能進行測試），識辨欠缺所需資料的本地或跨境電傳轉帳；設有處理這些轉帳的風險為本政策；並適時糾正管控不足之處", "¶10.13"),
            td("Do not let it go out without the required information", "不讓欠缺所需資料的轉帳發出", "s.12(5) Sch. 2 · ¶10.13"),
-           td("From $8,000 the originator information must be accurate and, for an occasional wire transfer, the originator's identity verified. On the domestic shortcut, law enforcement agencies should get the full originator information immediately on request", "$8,000起所附匯款人資料必須準確；如屬非經常電傳轉帳，並須核實匯款人的身分。採用本地轉帳簡便安排時，應按執法機構要求立即提供全部匯款人資料", "¶10.8–10.9, 10.12")),
+           td("From $8,000 the originator information must be accurate and, for an occasional wire transfer, the originator's identity verified. Below $8,000 you are in general not required to verify an occasional originator's identity, except when several transactions appear to you to be linked and are equal to or above $8,000, or when there is a suspicion of ML/TF. On the domestic shortcut, law enforcement agencies should get the full originator information immediately on request", "$8,000起所附匯款人資料必須準確；如屬非經常電傳轉帳，並須核實匯款人的身分。8,000元以下的非經常電傳轉帳，一般無需核實匯款人的身分，除非你認為數項電傳轉帳交易似乎有關連並涉及相等於8,000元或以上的款額，或懷疑涉及洗錢／恐怖分子資金籌集活動。採用本地轉帳簡便安排時，全部匯款人資料亦需按執法機構要求立即提供", "¶10.8–10.9, 10.12", post=flag())),
         tr(rh("Intermediary institution", "中介機構", "s.19(2) Sch. 2"),
            td("Reasonable measures, consistent with straight-through processing, to spot cross-border wire transfers lacking required information; risk-based policies on when to execute, reject or suspend such a transfer, and on the follow-up", "採取與直通式處理程序一致的合理措施，識辨欠缺所需資料的跨境電傳轉帳；設有風險為本政策，以斷定何時執行、拒絕或暫停這類轉帳，以及適當的跟進行動", "¶10.16"),
            td("Only in a transfer that is not domestic: obtain what is missing from the sending institution as soon as reasonably practicable; failing that, consider restricting or ending that relationship, or mitigate; and if the information is incomplete or meaningless, mitigate", "只限非本地電傳轉帳：在合理地切實可行範圍內盡快向發出轉帳指示的機構取得遺漏資料；如未能取得，考慮限制或結束與該機構的業務關係，或減低風險；如資料不完整或不具意義，亦須減低風險", "s.12(10) Sch. 2 · ¶10.17–10.18", post=flag()),
@@ -298,7 +300,7 @@ TRN = sec('transfers', ["s.12, 13 Sch. 2", "Ch. 10–11", "¶10.2"],
     ], minw=720, cls='cmp')
     + numreq([
         (("3 business days", "3個營業日"),
-         ("Supply the originator information a domestic wire transfer left out: the name and, from $8,000, the address, customer or ID document number, or date and place of birth. Law enforcement agencies should get it immediately on request", "提供本地電傳轉帳所略去的匯款人資料：姓名，以及$8,000起的地址、客戶識別號碼或識別文件號碼，或出生日期及地點。如執法機構要求，應立即提供"),
+         ("Supply the originator information a domestic wire transfer left out: the name and, from $8,000, the address, customer or ID document number, or date and place of birth. Law enforcement agencies should get it immediately on request", "提供本地電傳轉帳所略去的匯款人資料：姓名，以及$8,000起的地址、客戶識別號碼或識別文件號碼，或出生日期及地方。該等資料亦需按執法機構要求立即提供"),
          ("You used the domestic shortcut, and the next institution or the Commissioner asks", "你採用了本地轉帳的簡便安排，而下一間機構或關長提出要求"),
          ("A breach of a specified provision. Business days exclude public holidays and gale or black rainstorm warning days", "屬違反指明的條文。營業日不包括公眾假日，以及烈風或黑色暴雨警告日"),
          "s.12(3A), (6) Sch. 2 · Sch. 1 Pt 2 · ¶10.12"),

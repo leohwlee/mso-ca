@@ -99,7 +99,7 @@ def fig_cert():
 
 
 CERT_KEY = U.legend([('', ("a step", "步驟")), ('hex', ("a question you answer", "你須回答的問題")),
-                     ('must', ("a duty on you", "你的責任")), ('ok', ("safe to proceed", "可以進行"))])
+                     ('must', ("a duty on you", "你的責任")), ('ok', ("you may proceed", "可以進行"))])
 
 
 # ---------------------------------------------------------------- the section

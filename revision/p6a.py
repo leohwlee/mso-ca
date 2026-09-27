@@ -135,7 +135,7 @@ A = sec('who', [("Part 6A", "第6A部"), "s.76A–s.76G", ("added 2022", "2022�
         trap(("It is not only the licensee who is bound", "受約束的不只是持牌人"),
              ("Section 76E catches any person on whom a section 9 or 12 requirement has been imposed. A bank or any other person required to produce your records is bound in the same way as you are.",
               "第76E條涵蓋任何被施加第9或12條要求的人。被要求交出你紀錄的銀行或任何其他人，與你一樣受到約束。"),
-             "s.76E(1)(a) · s.9(6) · s.12(1)"),
+             "s.76E(1)(a) · s.9(3)(b), (5) · s.12(1)–(2)"),
     ))
 
 # ---------------------------------------------------------------- B. your own duty
@@ -198,15 +198,15 @@ C_ = sec('gateways', ["s.76C", "s.76D", "s.76E(4)", "s.76G"],
         grow("In a summary that identifies no one", "以無法識別任何人的撮要形式", (0, 1, 0), "s.76D(1)(a)"),
         grow("With the consent of the person it came from, and of anyone it is about", "經提供資料的人及資料所關乎的人同意", (0, 1, 0), "s.76D(1)(f)"),
         grow("To a liquidator, the Review Tribunal, or the Securities and Futures Appeals Tribunal", "向清盤人、覆核審裁處或證券及期貨事務上訴審裁處", (0, 1, 0), "s.76D(1)(b)–(d)"),
-        grow("To eighteen listed officials and bodies, among them the Chief Executive, the Financial Secretary, the other financial regulators and the Commissioner of the Independent Commission Against Corruption, if desirable in the public interest and the recipient needs it", "向十八個指明的人員及機構（包括行政長官、財政司司長、其他金融監管機構及廉政專員），但須顧及公眾利益並屬可取，而接收者亦有需要", (0, 1, 0), "s.76D(1)(g), (2)"),
+        grow("To eighteen listed officials and bodies, among them the Chief Executive, the Financial Secretary, the other financial regulators and the Commissioner of the Independent Commission Against Corruption, if satisfied it is desirable or expedient, having regard to the public interest and the interest of the investing public, and to the recipient's need for it in performing its functions", "向十八個指明的人員及機構（包括行政長官、財政司司長、其他金融監管機構及廉政專員），但須經顧及公眾利益及投資大眾的利益，以及接收者執行職能時的需要，信納披露屬可取或合宜", (0, 1, 0), "s.76D(1)(g), (2)"),
         grow("Inspection or investigation material, to the Secretary for Justice, the Commissioner of Police, the Commissioner of the Independent Commission Against Corruption or the Review Tribunal", "視察或調查所得資料，向律政司司長、警務處處長、廉政專員或覆核審裁處", (0, 1, 0), "s.76D(1)(h)"),
         grow("To an overseas regulator bound by adequate secrecy provisions, on the same public-interest test", "向受充分保密條文規限的香港以外監管機構，並須符合同樣的公眾利益準則", (0, 1, 0), "s.76D(1)(i), (2)"),
     ], note=B("Part 6A does not override the disclosure rules in the Banking, Insurance, Payment Systems and Stored Value Facilities, and Securities and Futures Ordinances, or in any other Ordinance governing a financial regulator.",
              "第6A部並不損害《銀行業條例》、《保險業條例》、《支付系統及儲值支付工具條例》、《證券及期貨條例》，或管限金融監管者的任何其他條例中關於披露資料的條文。") + ' ' + cite_html("s.76G"), minw=760, cls='gw')
     + traps(
         trap(("Two permitted disclosures carry a public-interest test", "兩類獲准許的披露須符合公眾利益準則"),
-             ("Passing information to the listed officials and bodies, or to an overseas regulator, is allowed only if the Commissioner is satisfied it is desirable or expedient, having regard to the public interest and the recipient's need for it. The other permitted disclosures have no such test.",
-              "向指明人員及機構或香港以外監管機構披露資料，只有在關長經顧及公眾利益及接收者的需要，信納披露屬可取或合宜時，方可進行。其他獲准許的披露並無此準則。"),
+             ("Passing information to the listed officials and bodies, or to an overseas regulator, is allowed only if the Commissioner is satisfied it is desirable or expedient, having regard to the public interest and the interest of the investing public, and to the recipient's need for the information in performing its functions. The other permitted disclosures have no such test.",
+              "向指明人員及機構或香港以外監管機構披露資料，只有在關長經顧及公眾利益及投資大眾的利益，以及有關接收者在執行其職能時有需要取得該等資料，而信納披露屬可取或合宜時，方可進行。其他獲准許的披露並無此準則。"),
              "s.76D(2)"),
     ))
 

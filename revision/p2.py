@@ -89,7 +89,7 @@ def fig_chain():
                ("On indictment,|$1,000,000 and 2 years", "公訴程序：|罰款$1,000,000及監禁2年"), 'stop', "s.5(5)", answer=True)
     O3 = BCard(526, 222, ("Offence:|intent to defraud", "罪行：機構意圖詐騙"),
                ("The institution|meant to defraud|a relevant authority.|On indictment,|$1,000,000 and 7 years", "意圖詐騙有關當局。|公訴程序：|罰款$1,000,000及監禁7年"), 'stop', "s.5(6)", answer=True)
-    O4 = BCard(762, 222, ("Offence:|staff or managers", "罪行：僱員及管理層"),
+    O4 = BCard(762, 222, ("Two offences:|staff or managers", "兩項罪行：僱員及管理層"),
                ("An employee, anyone employed to work for it, or anyone concerned in its management, who caused or permitted the breach knowingly, or to defraud",
                 "僱員、受僱為機構工作的人，|或關涉機構管理的人，|明知而致使或准許違反，|或為詐騙而如此行事"), 'stop', "s.5(7)–(8)", answer=True)
     row = (O1, O2, O3, O4)
@@ -108,9 +108,10 @@ def fig_chain():
     b.append(f'<polyline class="e" points="{N3.cx:.0f},{N3.bottom[1]:.0f} {N3.cx:.0f},{by:.0f}"/>')
     for o in row:
         b.append(edge([(o.cx, by), o.top], mid=m))
-    b.append(flabel(N3.cx + 12, by - 12, "discipline and prosecution can both follow", "紀律行動與刑事檢控可同時進行"))
-    aria = ("How a Schedule 2 breach reaches a money service operator: the licensee is a financial institution, Schedule 2 has effect on it in full, and contravening a specified provision opens Part 4 discipline, which needs no proof of knowledge, and three criminal offences: the institution acting knowingly, the institution acting with intent to defraud, and its employees, people employed to work for it or people concerned in its management causing or permitting the contravention.",
-            "附表2的違規如何牽涉金錢服務經營者：持牌人屬金融機構，附表2對其全面具有效力；違反指明的條文會開啟第4部紀律行動（毋須證明明知）及三類刑事罪行：機構明知而違反、機構意圖詐騙，以及其僱員、受僱為機構工作或關涉機構管理的人致使或准許違反。")
+    # s.5 and s.21 say nothing that makes one route bar the other (the p4 page says the same)
+    b.append(flabel(N3.cx + 12, by - 12, "neither s.5 nor s.21 makes one rule out the other", "第5條及第21條均沒有規定其中一條途徑排除另一條"))
+    aria = ("How a Schedule 2 breach reaches a money service operator: the licensee is a financial institution, Schedule 2 has effect on it in full, and contravening a specified provision opens Part 4 discipline, which needs no proof of knowledge, and four criminal offences: the institution acting knowingly, the institution acting with intent to defraud any relevant authority, and its employees, people employed to work for it or people concerned in its management knowingly causing or knowingly permitting the contravention, or causing or permitting it with intent to defraud the institution or any relevant authority (these last two share one box). Neither section 5 nor section 21 makes one route rule out the other.",
+            "附表2的違規如何牽涉金錢服務經營者：持牌人屬金融機構，附表2對其全面具有效力；違反指明的條文會開啟第4部紀律行動（毋須證明明知）及四項刑事罪行：機構明知而違反、機構意圖詐騙任何有關當局而違反，以及其僱員、受僱為機構工作或關涉機構管理的人明知而致使或明知而准許違反，或意圖詐騙該機構或任何有關當局而致使或准許違反（後兩項合併於一個方格）。第5條及第21條均沒有規定其中一條途徑排除另一條。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
@@ -269,7 +270,7 @@ D_ = sec('guidelines', ["s.7", "s.23 · s.45", ("guidelines", "指引")],
         tr(rh("Your copy", "你手上的版本"),
            td("Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Money Service Operators), June 2023", "《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》，2023年6月"),
            td("Disciplinary Fining Guideline, May 2018, under section 23; and Disciplinary Action Guideline on Imposition of Pecuniary Penalty, April 2018, under section 45", "《紀律處分罰款指引》（2018年5月），根據第23條；以及《施加罰款紀律行動指引》（2018年4月），根據第45條", post=flag())),
-        tr(rh("When it must exist", "何時必須存在"), td("Whenever the authority considers it appropriate", "有關當局認為適當時"), td("<b>Before</b> the penalty power is first used", "在首次行使罰款權力<b>之前</b>")),
+        tr(rh("Must it be published?", "是否必須公布？"), td("No. The authority <b>may</b> publish any guideline it considers appropriate for guidance on how Schedule 2 operates", "否。有關當局<b>可</b>公布它認為對就附表2的施行而提供導引屬適當的指引", "s.7(1)", post=flag()), td("Yes, <b>before</b> the penalty power is first used", "是，須在首次行使罰款權力<b>之前</b>公布", "s.23(1) · s.45(1)")),
         tr(rh("Where published", "在哪裏公布"), td("The Gazette", "憲報"), td("The Gazette, and any other manner the authority considers appropriate", "憲報，以及有關當局認為適當的其他方式")),
         tr(rh("Who must weigh it", "誰必須考慮"), td("The authority, when assessing a Schedule 2 breach; a court, in proceedings under the Ordinance", "有關當局評估有否違反附表2時；法院審理本條例下的法律程序時"), td("The authority, every time it imposes a penalty", "有關當局每次施加罰款時")),
         tr(rh("Legal status", "法律地位"), td("Not subsidiary legislation; a reference to it means the guideline as amended", "並非附屬法例；提述該指引即指經修訂的版本"), td("Not subsidiary legislation", "並非附屬法例")),

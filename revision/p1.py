@@ -65,8 +65,8 @@ def fig_map():
     PX, PW, SX, SW = 16, 500, 648, 336
     C = _card
     P1 = C(PX, PW, ("Part 1 · Preliminary" + LINK, "第1部 · 導言" + LINK),
-           ("Makes Schedule 1 the home of the shared definitions, applies the Ordinance to the Government, and shields anyone performing its functions in good faith from civil liability",
-            "以附表1載列通用釋義；條例適用於政府；|真誠執行職能者免負民事法律責任"), href="#doc-p1")
+           ("Makes Schedule 1 the home of the shared definitions, applies the Ordinance to the Government, and shields from civil liability anyone performing in good faith a function it gives a relevant authority",
+            "以附表1載列通用釋義；條例適用於政府；|真誠執行賦予或委予有關當局的職能者，|免負民事法律責任"), href="#doc-p1")
     S1 = C(SX, SW, ("Schedule 1 · Interpretation" + LINK, "附表1 · 釋義" + LINK),
            ("Money service, ML and TF, financial institution, relevant authority and other shared terms",
             "金錢服務、洗錢、恐怖分子資金籌集、金融機構、有關當局等通用詞語"), href="#doc-s1")
@@ -206,11 +206,14 @@ C_ = sec('govt', ["s.3", "s.4", ("with s.21(9)", "另及第21(9)條"), "s.25"],
     + table([th("The situation", "情況"), th("The general rule", "一般規則"), th("The qualification", "限制")], [
         tr(rh("The Government is the one dealing in money, or breaking a rule", "政府本身處理款項，或違反規定", "s.3"),
            td("The Ordinance applies to the Government, <b>except as otherwise expressly provided</b>.", "除另有<b>明文規定</b>外，本條例適用於政府。"),
-           td("Two express exceptions matter to you. Part 5 does not apply to the Government at all, so it needs no licence. And the Part 4 pecuniary penalty, including the daily pecuniary penalty, cannot be imposed on the Government; a reprimand and an order to take remedial action still can.",
-              "有兩項明文例外與你相關。第5部完全不適用於政府，故政府毋須領牌。第4部的罰款（包括按日罰款）不可向政府施加；但譴責及採取糾正行動的命令仍然可以。", "s.25 · s.21(9)", post=flag())),
+           td("Two express provisions matter to you. Part 5 does not apply to the Government at all, so it needs no licence. And the Part 4 powers to order a pecuniary penalty, including the daily pecuniary penalty, are not exercisable in relation to the Government; a reprimand and an order to take remedial action still can be made.",
+              "有兩項明文規定與你相關。第5部不適用於政府，故政府毋須領牌。第4部命令繳付罰款（包括按日罰款）的權力，不可就政府而行使；但公開譴責及採取糾正行動的命令仍然可以作出。", "s.25 · s.21(9)", post=flag())),
         tr(rh("A public officer employed in the Customs and Excise Department, acting in good faith while carrying out an inspection, causes you loss", "受僱於香港海關的公職人員在視察期間真誠行事，令你蒙受損失", "s.4(1)"),
-           td("The relevant authority and <b>any other person</b> incur no civil liability for acts or omissions in good faith in performing, or purporting to perform, a function under the Ordinance.", "有關當局及<b>任何其他人</b>在執行或本意是執行本條例的職能時，真誠地作出的作為或不作為，均無須招致民事法律責任。"),
+           td("The relevant authority or <b>any other person</b> incurs no civil liability for acts or omissions in good faith in performing, or purporting to perform, a function <b>conferred or imposed on the relevant authority</b> by or under the Ordinance. The words do not reach a duty the Ordinance puts on you, such as your own Schedule 2 duties.", "有關當局或<b>任何其他人</b>，如在執行或本意是執行藉或根據本條例<b>賦予或委予該當局的職能</b>時，真誠地作出任何作為或有任何不作為，均無須招致任何民事法律責任。條文並不涵蓋條例加於你的責任，例如你本身在附表2下的責任。", post=flag()),
            td("The shield is personal. The <b>Government's</b> own liability for what a public officer did is not affected, so a claim can still lie against the Government.", "該保障只屬個人。<b>政府</b>就公職人員的作為或不作為而須負的法律責任不受影響，故仍可向政府提出申索。", "s.4(2)")),
+        tr(rh("The body acting is a regulatory body: the Accounting and Financial Reporting Council or the Hong Kong Institute of Certified Public Accountants, the Estate Agents Authority, or the Law Society", "作出行為的是監管機構：會財局或香港會計師公會、地產代理監管局，或律師會", "s.4(1A) · Sch. 1 Pt 2"),
+           td("A regulatory body likewise incurs no civil liability for acts or omissions in good faith in performing, or purporting to perform, a function conferred or imposed on the <b>regulatory body</b> by or under the Ordinance.", "監管機構如在執行或本意是執行藉本條例或根據本條例賦予或委予<b>該機構</b>的職能時，真誠地作出任何作為或有任何不作為，亦無須招致任何民事法律責任。"),
+           td("A subsection of its own. It shields the regulatory body itself: it does not repeat the words \"or any other person\" of subsection (1).", "這是另一款，只保障監管機構本身：沒有重複第(1)款「或任何其他人」的字眼。")),
         tr(rh("The officer acted outside his actual powers, but honestly believed he was exercising them", "該人員超越實際權力行事，但真誠相信自己在行使權力", "s.4(1)"),
            td("Covered. The words are <b>performance or purported performance</b> of a function, so an honest mistake about the scope of a power is still protected.", "受保障。條文用語是<b>執行或本意是執行</b>職能，故對權力範圍的真誠誤解仍受保障。"),
            td("Good faith is the condition. An act done in bad faith falls outside the section.", "條件是真誠。以不真誠方式作出的作為不在保障之內。")),
@@ -219,13 +222,13 @@ C_ = sec('govt', ["s.3", "s.4", ("with s.21(9)", "另及第21(9)條"), "s.25"],
            td("It gives no protection from criminal liability.", "它並不就刑事法律責任提供任何保障。")),
     ], minw=760)
     + traps(
-        trap(("The Government is covered, then carved out", "條例適用於政府，但另有豁除"),
-             ("Start from coverage: the Ordinance does apply to the Government. Only an express provision takes it out, and the two you need are the Part 5 licensing exemption and the ban on Part 4 money penalties.",
-              "先記住適用：條例確實適用於政府。只有明文條文才可把政府豁除，而你需要記住的是第5部的發牌豁免，以及第4部罰款不適用於政府。"),
+        trap(("The Government is covered, except as otherwise expressly provided", "除另有明文規定外，條例適用於政府"),
+             ("Start from coverage: the Ordinance does apply to the Government. Only an express provision takes it out, and the two you need are these: Part 5 does not apply to the Government, and the Part 4 powers to order a pecuniary penalty are not exercisable in relation to it.",
+              "先記住適用：條例確實適用於政府。只有明文規定才可令政府不受某些條文規限，你需要記住的兩項是：第5部不適用於政府；第4部命令繳付罰款的權力，不可就政府而行使。"),
              "s.3 · s.25 · s.21(9)"),
         trap(("Immune from civil liability, not from the law", "免負民事法律責任，並非凌駕法律"),
              None, "s.4",
-             vs=[(("What it covers", "涵蓋甚麼"), ("Civil liability, for good-faith acts in performing or purporting to perform a function.", "真誠執行或本意是執行職能時的民事法律責任。")),
+             vs=[(("What it covers", "涵蓋甚麼"), ("Civil liability for good-faith acts in performing, or purporting to perform, a relevant authority's function (whoever performs it) or a regulatory body's function (the body itself).", "真誠執行或本意是執行有關當局的職能（不論由誰執行）或監管機構的職能（只限該機構本身）時的民事法律責任。")),
                  (("What it does not", "不涵蓋甚麼"), ("Criminal liability, bad-faith acts, and the Government's own liability for its officers.", "刑事法律責任、不真誠的作為，以及政府就其人員的作為而須負的法律責任。"))]),
     ))
 

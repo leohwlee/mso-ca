@@ -38,8 +38,8 @@ def fig_life():
     W = 1010
     APPLY = Node(370, 460, ("Apply to the Commissioner, in the form and manner he specifies, with the Schedule 3 fee",
                             "以關長指明的格式及方式向關長申請，並附隨附表3指明的費用"), "s.30(1)")
-    TEST = Node(330, 540, ("Is everyone who must be fit and proper actually fit and proper? Are the premises suitable?",
-                           "所有須屬適當人選的人是否適當人選？處所是否適合？"), "s.30(3) · s.30(4)", shape='hex')
+    TEST = Node(330, 540, ("Is everyone who must be fit and proper actually fit and proper? Are the premises suitable and, if they are domestic premises, has every occupant consented in writing?",
+                           "所有須屬適當人選的人是否適當人選？處所是否適合？如屬住宅處所，是否已取得每名佔用人的書面同意？"), "s.30(3) · s.30(4)", shape='hex')
     REFUSE = Node(48, 252, ("Refused. Written notice giving reasons, and telling you about the Review Tribunal.",
                             "拒絕批給。發出書面通知載明理由，並告知可向覆核審裁處申請覆核。"), "s.30(8)–(9)", 'stop', answer=True)
     GRANT = Node(330, 540, ("Licence granted, valid for 2 years unless the Commissioner sets another period. Any condition he thinks fit may be endorsed on it.",
@@ -80,8 +80,8 @@ def fig_life():
     # renewal goes back through the same test
     b.append(edge([RENEW.left, (16, RENEW.cy), (16, APPLY.cy), (APPLY.x, APPLY.cy)], mid=m))
     b.append(loop_label((16 + APPLY.x) / 2, APPLY.cy - 8, "renewal re-runs the same test · s.31(4)", "續期時重做同一測試 · 第31(4)條"))
-    aria = ("The licence lifecycle. An application with the Schedule 3 fee is tested on whether everyone who must be a fit and proper person is one, and whether the premises are suitable. Refusal comes with reasons and a Review Tribunal route. A grant normally lasts two years, and any conditions are endorsed on it. While operating you display the licence and notify changes within a month; new directors, partners and ultimate owners need prior written approval, and new premises must be added to the licence first. The licence is then either renewed, on an application made not later than 45 days before expiry and on the same test, or it expires unrenewed, is revoked or suspended by the Commissioner, ends by your own cessation, or ends automatically on death, dissolution or winding up.",
-            "牌照的生命周期。申請連同附表3費用，須經測試：所有須屬適當人選的人是否適當人選，以及處所是否適合。拒絕批給須附理由，並可向覆核審裁處申請覆核。批給的牌照一般有效兩年（關長可另定期間），如有條件須批註在牌照上。經營期間須展示牌照，並於一個月內具報改變；新董事、合夥人及最終擁有人須事先取得書面批准，新處所須先加入牌照。其後牌照或予續期（續期申請須在期滿前45日或之前提出，並再次通過同一測試），或因沒有續期而期滿失效、被關長撤銷或暫時吊銷、主動停業，或因持牌人去世、合夥解散、法團開始清盤而不再有效。")
+    aria = ("The licence lifecycle. An application with the Schedule 3 fee is tested on whether everyone who must be a fit and proper person is one, whether the premises are suitable and, for domestic premises, whether every occupant has consented in writing. Refusal comes with reasons and a Review Tribunal route. A grant normally lasts two years, and any conditions are endorsed on it. While operating you display the licence and notify changes within a month; new directors, partners and ultimate owners need prior written approval, and new premises must be added to the licence first. The licence is then either renewed, on an application made not later than 45 days before expiry and on the same test, or it expires unrenewed, is revoked or suspended by the Commissioner, ends by your own cessation, or ends automatically on death, dissolution or winding up.",
+            "牌照的生命周期。申請連同附表3費用，須經測試：所有須屬適當人選的人是否適當人選、處所是否適合，以及（如屬住宅處所）是否已取得每名佔用人的書面同意。拒絕批給須附理由，並可向覆核審裁處申請覆核。批給的牌照一般有效兩年（關長可另定期間），如有條件須批註在牌照上。經營期間須展示牌照，並於一個月內具報改變；新董事、合夥人及最終擁有人須事先取得書面批准，新處所須先加入牌照。其後牌照或予續期（續期申請須在期滿前45日或之前提出，並再次通過同一測試），或因沒有續期而期滿失效、被關長撤銷或暫時吊銷、主動停業，或因持牌人去世、合夥解散、法團開始清盤而不再有效。")
     return svg(W, H + 16, ''.join(b), aria, m, 860)
 
 

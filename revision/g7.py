@@ -58,7 +58,8 @@ A_ = sec('duty', [("Guideline Ch. 7", "指引第7章"), ("¶7.1–7.6", "第7.1�
            td("Conduct abroad that would be indictable here counts: see the <a href=\"#ci-warnings\">Circulars page</a>", "在外地發生、假若在香港發生即屬可公訴罪行的行為亦計算在內：見<a href=\"#ci-warnings\">通函一頁</a>",
               ("OSCO s.25(4)", "《有組織及嚴重罪行條例》第25(4)條"))),
         tr(td("You have already reported this customer once", "你已就此客戶舉報一次", "¶7.28"),
-           td("Each further suspicion, of the same nature or not, is reported again: see <a href=\"#after\">After the report</a>", "其後每項可疑情況，不論是否屬同一性質，均須再次報告：見<a href=\"#after\">提交報告後</a>", "¶7.28")),
+           td("Further suspicious transactions or events, of the same nature or different, must continue to be reported to the MLRO, who should make further reports to the JFIU if appropriate: see <a href=\"#after\">After the report</a>",
+              "更多可疑交易或事件，不論是否屬同一性質，均必須繼續向洗錢報告主任報告，如恰當，他將向財富情報組作進一步報告：見<a href=\"#after\">提交報告後</a>", "¶7.28")),
     ], minw=760)
     + numreq([
         (("3 months and $50,000", "監禁3個月及罰款50,000元"),
@@ -178,8 +179,8 @@ FLAG_TBL = table([f'<th style="width:50%">{B(*FLAGS[0][0])}</th>', f'<th style="
 
 B_ = sec('spot', [("Guideline Ch. 7", "指引第7章"), ("¶7.3 · ¶7.10–7.11", "第7.3、7.10至7.11段"), ("fn 61–63", "註61至63"), ("¶5.11–5.13", "第5.11至5.13段")],
          ("Something at the counter does not add up", "櫃位上的交易有點不對勁"),
-    P("Start at the top box and follow the arrows. The four boxes in the dashed frame are the JFIU's SAFE approach, which you may adopt where it applies. The red flags in the table after the figure are what should start you down this path.",
-      "由頂部方格開始，順着箭嘴閱讀。虛線框內的四個方格是財富情報組推廣的ＳＡＦＥ方法，你可按情況採用。圖後表內的可疑交易指標，正是引發這個流程的訊號。")
+    P("Start at the top box and follow the arrows. The four boxes in the dashed frame are the JFIU's SAFE approach, which you may adopt where it applies; the line round the left of the frame is the way through by other appropriate steps. The red flags in the table after the figure are what should start you down this path.",
+      "由頂部方格開始，順着箭嘴閱讀。虛線框內的四個方格是財富情報組推廣的ＳＡＦＥ方法，你可按情況採用；繞過虛線框左邊的線，是以其他適當步驟審查的途徑。圖後表內的可疑交易指標，正是引發這個流程的訊號。")
     + fig(fig_safe, ("The guidance you give staff and agents should let them form a suspicion or recognise the signs, taking account of the transactions and customer instructions they are likely to meet, the product or service, and the means of delivery (¶7.10). Details of SAFE are on the JFIU's website (¶7.11).",
                      "你為職員及代理人提供的導引，應讓他們能產生懷疑或辨別有關跡象，並應顧及他們可能遇到的交易及客戶指示的性質、產品或服務類別及交付方式（第7.10段）。ＳＡＦＥ方法的詳情載於財富情報組網站（第7.11段）。"), SAFE_KEY)
     + h3("The red flags, in six groups", "可疑交易指標：六個類別")
@@ -237,6 +238,11 @@ C_ = sec('internal', [("Guideline Ch. 7", "指引第7章"), ("¶7.7–7.9 · ¶7
     ))
 
 # ---------------------------------------------------------------- D. filing with the JFIU
+# ¶7.5(b) sets the Guideline's clock; the statutory offence in the same row's consequence is ¶1.24's,
+# so ¶1.24 is attached to that cell rather than to the requirement
+LATE = ("A departure from the Guideline's standard. Separately, under the statute, failing to disclose as soon as it is reasonable is the offence of failing to report (up to 3 months and $50,000)",
+        "未符合指引的標準；另外，根據法例，未能在合理範圍內盡快作出披露屬沒有舉報的罪行（最高監禁3個月及罰款50,000元）")
+
 D_ = sec('jfiu', [("Guideline Ch. 7", "指引第7章"), ("¶7.5 · ¶7.12 · ¶7.18–7.23", "第7.5、7.12、7.18至7.23段"), ("fn 59 · fn 65", "註59 · 註65")],
          ("The MLRO files: what the report must say, and when", "洗錢報告主任提交報告：須說明甚麼，何時提交"),
     P("Each row is a situation the MLRO may face when filing, and what the Guideline expects in it. The table after it sets out every time limit in the chain from the counter to the JFIU.",
@@ -245,7 +251,7 @@ D_ = sec('jfiu', [("Guideline Ch. 7", "指引第7章"), ("¶7.5 · ¶7.12 · ¶7
         tr(td("The suspicion arises before the transaction", "懷疑在交易前出現", "¶7.19"),
            td("The STR may be made before the transaction or activity occurs, whether or not the intended transaction ultimately takes place", "可在可疑交易或活動發生前提交報告，而不論該擬作交易最終有否成事", "¶7.19")),
         tr(td("It only looks suspicious once completed", "交易完成後才看似可疑", "¶7.19"),
-           td("The STR is made after the transaction or activity has been completed", "在交易或活動完成後才作披露", "¶7.19")),
+           td("The STR may be made after the transaction or activity has been completed", "可在該交易或活動完成後始作披露", "¶7.19")),
         tr(td("It is urgent: the customer has told you to move funds or other property, close the account, make cash available for collection, or make significant changes to the relationship", "情況緊急：客戶已指示你移動資金或其他財產、結束戶口、安排現金備取，或對業務關係作出重大變動", "¶7.21"),
            td("Say so in the STR, particularly when the account is part of an ongoing law enforcement investigation", "在可疑交易報告中述明，特別是當有關戶口是執法機構正在進行調查的一部分", "¶7.21")),
         tr(td("Urgent, and the circumstances are exceptional", "情況緊急而且特殊", "¶7.21"),
@@ -268,8 +274,8 @@ D_ = sec('jfiu', [("Guideline Ch. 7", "指引第7章"), ("¶7.5 · ¶7.12 · ¶7
         (("As soon as reasonably practical", "在切實可行範圍內盡快"),
          ("The STR is made", "提交可疑交易報告"),
          ("Counted from when the suspicion was first identified", "由最初識辨有關懷疑時起計"),
-         ("A departure from the Guideline's standard. Separately, under the statute, failing to disclose as soon as it is reasonable is the offence of failing to report (up to 3 months and $50,000)", "未符合指引的標準；另外，根據法例，未能在合理範圍內盡快作出披露屬沒有舉報的罪行（最高監禁3個月及罰款50,000元）"),
-         cc("¶7.5(b)", "¶1.24")),
+         LATE,
+         "¶7.5(b)"),
         (("As soon as reasonable after the evaluation", "評估完成後在合理範圍內盡快"),
          ("The MLRO discloses to the JFIU, with the information the suspicion rests on", "洗錢報告主任向財富情報組披露，連同懷疑所根據的資料"),
          ("Once the MLRO's review of the internal report is complete and there are grounds for knowledge or suspicion", "洗錢報告主任完成覆核內部報告，並判定有知悉或懷疑的理由"),
@@ -280,7 +286,7 @@ D_ = sec('jfiu', [("Guideline Ch. 7", "指引第7章"), ("¶7.5 · ¶7.12 · ¶7
          ("After the transaction", "在交易之後"),
          ("Outside this condition, the after-the-event defence in ¶7.25(b) does not cover you", "不符合此條件，便不能以第7.25(b)段的事後免責辯護保障自己"),
          "¶7.25(b)"),
-    ], heading=False)
+    ], heading=False).replace(f'{B(*LATE)}</td>', f'{B(*LATE)}{cite_html("¶1.24")}</td>', 1)
     + P("You should ensure the STRs you file with the JFIU are of high quality, taking into account the feedback and guidance provided by the JFIU in its quarterly report and by the Commissioner from time to time. "
         + cite_html(cc("¶7.23", "fn 65")),
         "你應留意由財富情報組在季度報告及關長不時提供的反饋意見及導引，以確保向財富情報組提交的可疑交易報告屬高水平。"
@@ -313,8 +319,8 @@ REG_TBL = table([th("The register records", "紀錄冊記錄"), th("Register of 
 
 E_ = sec('after', [("Guideline Ch. 7", "指引第7章"), ("¶7.24–7.30", "第7.24至7.30段")],
          ("The report is in: consent, the defence, and a relationship you should review", "報告已提交：同意、免責辯護，以及應覆核的業務關係"),
-    P("Read the figure from the top. The decision box is the JFIU's; every red box is yours, including the “yes” branch, and the review at the foot applies whichever way the decision goes. The green column on the right is the defence the filing gives you.",
-      "由上而下閱讀。決策方格屬財富情報組的考慮；每個紅色方格都是你的責任，包括「是」的分支，而底部的覆核不論決定如何都適用。右邊的綠色方格是提交報告為你帶來的免責辯護。")
+    P("Read the figure from the top. The decision box is the JFIU's; every red box is yours, including the “yes” branch. The line down the left runs from the filing straight to the review box: the review is due upon filing, whatever the JFIU later says, so it applies whichever way the decision goes. The green column on the right is the defence the filing gives you.",
+      "由上而下閱讀。決策方格屬財富情報組的考慮；每個紅色方格都是你的責任，包括「是」的分支。左邊的線由提交報告直達覆核方格：提交報告後便應立即覆核，不論財富情報組其後有否給予反饋，因此不論決定如何都適用。右邊的綠色方格是提交報告為你帶來的免責辯護。")
     + fig(fig_after, ("Acknowledgement and consent come under section 25A of DTROP and OSCO and section 12 of UNATMO (¶7.24). The defence is under DTROP and OSCO s.25A(2) and UNATMO s.12(2) (¶7.25).",
                       "確認收到報告及給予同意，是根據《販毒（追討得益）條例》及《有組織及嚴重罪行條例》第25A條，以及《聯合國（反恐怖主義措施）條例》第12條（第7.24段）。免責辯護見《販毒（追討得益）條例》及《有組織及嚴重罪行條例》第25A(2)條，以及《聯合國（反恐怖主義措施）條例》第12(2)條（第7.25段）。"), AFTER_KEY)
     + traps(
@@ -337,8 +343,8 @@ E_ = sec('after', [("Guideline Ch. 7", "指引第7章"), ("¶7.24–7.30", "第7
 # ---------------------------------------------------------------- F. court documents
 F_ = sec('lea', [("Guideline Ch. 7", "指引第7章"), ("¶7.31–7.35", "第7.31至7.35段"), ("¶7.9", "第7.9段")],
          ("Law enforcement serves a court order, or asks about a customer", "執法機構送達法庭文件，或查詢某客戶"),
-    P("The three columns follow a case from investigation to the court's final orders: the top box is the document, the box beneath it is what it asks of you. The band at the top is what you set up before anything arrives; the band at the foot applies whatever arrives.",
-      "三欄按案件由調查至法院最終命令的次序排列：上方格是文件，下方格是它對你的要求。頂部橫額是收到任何文件前須做好的準備；底部橫額不論收到甚麼都適用。")
+    P("The three columns follow a case from investigation to the court's final orders: the top box is the document, the box beneath it is what it asks of you or what may follow for you. The band at the top is what you set up before anything arrives; the band at the foot applies whatever arrives.",
+      "三欄按案件由調查至法院最終命令的次序排列：上方格是文件，下方格是它對你的要求，或對你可能的影響。頂部橫額是收到任何文件前須做好的準備；底部橫額不論收到甚麼都適用。")
     + fig(fig_lea, ("These court documents help law enforcement agencies investigate, and restrain and confiscate illicit proceeds (¶7.31). For the restraint order, the Guideline's margin cites DTROP s.10–11, OSCO s.15–16 and UNATMO s.6 (¶7.33). Elsewhere the Guideline says UNATMO s.6 empowers the Secretary for Security to freeze suspected terrorist property (¶6.5(a)): see <a href=\"#g6-regimes\">Three laws</a>.",
                     "這類法庭文件對於協助執法機構進行調查，以至限制及沒收非法得益，至為重要（第7.31段）。就限制令，指引在旁註引述《販毒（追討得益）條例》第10及11條、《有組織及嚴重罪行條例》第15及16條及《聯合國（反恐怖主義措施）條例》第6條（第7.33段）。指引另指出，《聯合國（反恐怖主義措施）條例》第6條授權保安局局長凍結懷疑是恐怖分子的財產（第6.5(a)段）：見<a href=\"#g6-regimes\">三條法例</a>。"), LEA_KEY)
     + traps(
@@ -364,6 +370,6 @@ G7_META = dict(
     title=("Suspicious Transaction Reports", "可疑交易報告"),
     lede=("Chapter 7 decides what happens between a doubt at your counter and a report on the JFIU's desk: who must speak, to whom, how fast, and what they must not say. It also sets what you owe after the report is in, and when law enforcement comes to you with a court order.",
           "第7章決定由櫃位上的一個疑問，到財富情報組收到報告之間發生甚麼：誰須舉報、向誰舉報、要多快，以及不可說甚麼。本章亦訂明報告提交後你須承擔的責任，以及執法機構帶同法庭文件前來時你須怎樣做。"),
-    foot=("Drawn from Chapter 7 of the Customs and Excise Department's Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Money Service Operators), June 2023, with paragraphs 1.22 to 1.25 and 5.10 to 5.14, the C&amp;ED circulars of 13 December 2021 and 20 January 2026, and sample question 5 of 12 May 2021.",
-          "取材自香港海關《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》（2023年6月）第7章，另參考第1.22至1.25段及第5.10至5.14段、海關2021年12月13日及2026年1月20日的通函，以及2021年5月12日的參考試題5。"),
+    foot=("Drawn from Chapter 7 of the Customs and Excise Department's Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Money Service Operators), June 2023, with paragraphs 1.22 to 1.25, 5.10 to 5.14 and 6.5(a), the C&amp;ED circulars of 13 December 2021, 17 September 2024 and 20 January 2026, and sample question 5 of 12 May 2021.",
+          "取材自香港海關《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》（2023年6月）第7章，另參考第1.22至1.25段、第5.10至5.14段及第6.5(a)段、海關2021年12月13日、2024年9月17日及2026年1月20日的通函，以及2021年5月12日的參考試題5。"),
 )

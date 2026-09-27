@@ -146,11 +146,11 @@ def fig_regimes():
         (["Proliferation", "WMD(CPS)O, Cap. 526"], ["擴散", "《大規模毀滅武器（提供服務的管制）條例》", "（第526章）"])))], 8, 12.5)
     a1 = C6(X[0], CW, ("The UN decisions behind it", "背後的聯合國決定"),
             ("UNSCR 1373 (2001) on preventing terrorist acts and UNSCR 2178 (2014) on travel for terrorist acts or training; also certain conventions and FATF Recommendations",
-             "安理會第1373 (2001)號決議（防止恐怖主義行為）及第2178 (2014)號決議（以恐怖主義行為或培訓為目的的旅程）；以及若干多邊公約及特別組織的建議"),
+             ["安理會第1373 (2001)號決議", "（防止恐怖主義行為）", "及第2178 (2014)號決議", "（以恐怖主義行為或培訓為目的的旅程）；", "以及若干多邊公約及特別組織的建議"]),
             'faint', "¶6.3")
     b1 = C6(X[1], CW, ("The UN decisions behind it", "背後的聯合國決定"),
             ("Sanctions decided by the UNSC, targeted financial sanctions included. Its regulations specific to the DPRK and Iran are part of the counter-PF regime",
-             "聯合國安理會所決定的制裁，包括針對性金融制裁。該條例下針對朝鮮及伊朗訂立的規例，屬打擊擴散資金籌集制度的一部分"),
+             ["聯合國安理會所決定的制裁，", "包括針對性金融制裁。該條例下", "針對朝鮮及伊朗訂立的規例，", "屬打擊擴散資金籌集制度的一部分"]),
             'faint', "¶6.7, 6.10")
     c1 = C6(X[2], CW, ("Where it sits", "定位"),
             ("Part of Hong Kong's counter-PF legislation, alongside the UNSO regulations specific to the DPRK and Iran",
@@ -158,11 +158,11 @@ def fig_regimes():
             'faint', "¶6.10")
     a2 = C6(X[0], CW, ("Who names the target", "誰指明對象"),
             ("Where a UNSC Committee has designated, the Chief Executive may specify by Gazette notice (s.4). The Chief Executive may also apply to the Court of First Instance for an order, which is also gazetted (s.5). The Secretary for Security may freeze suspected terrorist property (s.6)",
-             "如安理會委員會已作出指定，行政長官可在憲報刊登公告指明（第4條）。行政長官亦可向原訟法庭申請命令，命令亦會刊憲（第5條）。保安局局長可凍結懷疑是恐怖分子的財產（第6條）"),
+             ["如安理會委員會已作出指定，行政長官", "可在憲報刊登公告指明（第4條）。", "行政長官亦可向原訟法庭申請命令，", "命令亦會刊憲（第5條）。保安局局長", "可凍結懷疑是恐怖分子的財產（第6條）"]),
             'may', "¶6.4–6.5")
     b2 = C6(X[1], CW, ("Who names the target", "誰指明對象"),
             ("Targets include persons and entities designated by the UNSC or its Committees. The Chief Executive makes the regulations; designated persons and entities are specified by notice in the Gazette or on the Commerce and Economic Development Bureau website",
-             "對象包括聯合國安理會或其委員會指認的人士及實體。行政長官訂立規例；被指認的個人及實體透過在憲報或商務及經濟發展局網站刊登的公告指明"),
+             ["對象包括聯合國安理會或其委員會", "指認的人士及實體。行政長官訂立規例；", "被指認的個人及實體透過在憲報或", "商務及經濟發展局網站刊登的公告指明"]),
             'may', "¶6.7")
     c2 = C6(X[2], CW, ("Your belief, not a list", "準則在於你的判斷，而非名單"),
             ("The ban applies where you believe or suspect, on reasonable grounds, that a service may be connected to PF",
@@ -170,23 +170,23 @@ def fig_regimes():
             'plain', "¶6.10")
     a3 = C6(X[0], CW, ("What you must not do", "你不可做的事"),
             ("Provide or collect property for terrorist acts (s.7); make property or financial services available to terrorists or associates (s.8); deal with specified terrorist property (s.8A); fund travel for terrorist acts or training (s.11L)",
-             "提供或籌集財產以作出恐怖主義行為（第7條）；向恐怖分子或與恐怖分子有聯繫者提供財產或金融服務（第8條）；處理指明的恐怖分子財產（第8A條）；資助為恐怖主義行為或培訓而進行的旅程（第11L條）"),
+             ["提供或籌集財產以作出恐怖主義行為", "（第7條）；向恐怖分子或與恐怖分子", "有聯繫者提供財產或金融服務（第8條）；", "處理指明的恐怖分子財產（第8A條）；", "資助為恐怖主義行為或培訓而進行的旅程", "（第11L條）"]),
             'must', "¶6.5")
     b3 = C6(X[1], CW, ("What you must not do", "你不可做的事"),
             ("Make funds, other financial assets or economic resources available, directly or indirectly, to or for the benefit of designated persons or entities, anyone acting on their behalf or at their direction or owned or controlled by them, or entities owned by any of these; or deal with funds belonging to, or owned or controlled by, them",
-             "直接或間接向被指認的個人或實體、代表其或按其指示行事或由其擁有或控制者，或上述者擁有的實體，提供資金、其他財務資產或經濟資源，或為其利益而提供；或處理屬於他們或由他們擁有或控制的該等資金"),
+             ["直接或間接向被指認的個人或實體、", "代表其或按其指示行事或由其擁有或", "控制者，或上述者擁有的實體，", "提供資金、其他財務資產或經濟資源，", "或為其利益而提供；或處理屬於他們", "或由他們擁有或控制的該等資金"]),
             'must', "¶6.7")
     c3 = C6(X[2], CW, ("What you must not do", "你不可做的事"),
             ("Provide any such service. 'Services' is widely defined: lending money and any other financial assistance are included",
-             "提供任何該等服務。「提供服務」的定義廣泛，包括借出款項或以其他方式提供金融資助"),
+             ["提供任何該等服務。", "「提供服務」的定義廣泛，", "包括借出款項或以其他方式提供金融資助"]),
             'must', "¶6.10")
     a4 = C6(X[0], CW, ("The way round it: a licence", "例外：特許"),
             ("The Secretary for Security can license unfreezing, and payments such as reasonable living or legal expenses or sums due under the Employment Ordinance. Write to the Security Bureau",
-             "保安局局長可批予特許，准許解凍財產或支付款項，例如合理生活開支／法律開支，或根據《僱傭條例》需要給予的費用。向保安局提出書面申請"),
+             ["保安局局長可批予特許，准許解凍財產", "或支付款項，例如合理生活開支／", "法律開支，或根據《僱傭條例》需要", "給予的費用。向保安局提出書面申請"]),
             'may', "¶6.6")
     b4 = C6(X[1], CW, ("The way round it: a licence", "例外：特許"),
             ("The Chief Executive may grant one in circumstances the regulation specifies. Write to the Commerce and Economic Development Bureau",
-             "行政長官可按有關規例在指明情況下批予特許。向商務及經濟發展局提出書面申請"),
+             ["行政長官可按有關規例", "在指明情況下批予特許。", "向商務及經濟發展局提出書面申請"]),
             'may', "¶6.8")
     c4 = C6(X[2], CW, ("Licence: none described in the Guideline", "特許：指引沒有提及"), None, 'faint', "¶6.10")
     rows = [[a1, b1, c1], [a2, b2, c2], [a3, b3, c3], [a4, b4, c4]]
@@ -214,7 +214,7 @@ REG_KEY = legend([('faint', ("background: the UN decision behind the law, or whe
 # ---------------------------------------------------------------- 2. the database
 def fig_db():
     W = 1000
-    hsvg, hh = heads([(161, 290, ("What should go in", "應收錄的名單")), (847, 274, ("Ways to hold it", "備存方式"))], 6, 12)
+    hsvg, hh = heads([(161, 290, ("What should go in", "應收錄的名單")), (847, 274, ("Who may keep it, or run the screening", "由誰備存數據庫或執行篩查"))], 6, 12)
     i1 = C6(16, 290, ("Lists published in the Gazette or on the Commerce and Economic Development Bureau website", ["在憲報或商務及經濟", "發展局網站刊登的名單"]), None, 'must', "¶6.15(a)")
     i2 = C6(16, 290, ("Lists the Commissioner draws to your attention", "關長不時告知的名單"), None, 'must', "¶6.15(b)")
     i3 = C6(16, 290, ("New UNSC listings, as soon as practicable", "安理會新列名：盡快加入"),
@@ -246,13 +246,13 @@ def fig_db():
     for n in (o1, o2, o3):
         b.append(f'<polyline class="e e-dash" points="{db.x + db.w:.0f},{db.cy:.0f} {kx},{db.cy:.0f} {kx},{n.cy:.0f} {n.x:.0f},{n.cy:.0f}"/>')
     b.append(edge([db.bottom, scr.top], mid=m))
-    aria = ("What feeds the sanctions database and how it may be held. Three inputs, all of which should go in: lists published in the Gazette or on the Commerce and Economic Development Bureau website; lists the Commissioner draws to your attention; and new UNSC listings, added as soon as practicable even if Hong Kong has not yet legislated. They feed one database that consolidates every list, is updated promptly and is easy for staff to reach. Alternatives for holding it: keep it yourself; subscribe to a third-party provider's database and take appropriate measures, such as periodic sample testing, to make sure it is complete and accurate; or let your overseas office keep it or run the screening, with the ultimate responsibility staying with you. The database is used for every screening.",
-            "制裁數據庫的來源及備存方式。三項來源均應收錄：在憲報或商務及經濟發展局網站刊登的名單；關長不時告知的名單；以及安理會新列名，即使香港尚未立法亦應在切實可行範圍內盡快加入。三者匯入同一數據庫，數據庫應綜合各種名單、及時更新並讓職員易於查閱。可選用的備存方式：自行備存；登記使用第三者服務供應商的數據庫，並採取適當措施（例如定期抽樣測試），確保數據庫完整而準確；或由在外地的辦事處備存或執行篩查，但最終責任仍由你承擔。每次篩查均使用此數據庫。")
+    aria = ("What feeds the sanctions database, and who may keep it or run the screening. Three inputs, all of which should go in: lists published in the Gazette or on the Commerce and Economic Development Bureau website; lists the Commissioner draws to your attention; and new UNSC listings, added as soon as practicable even if Hong Kong has not yet legislated. They feed one database that consolidates every list, is updated promptly and is easy for staff to reach. Who may keep it or run the screening, as alternatives: you keep it yourself; you subscribe to a third-party provider's database and take appropriate measures, such as periodic sample testing, to make sure it is complete and accurate; or you rely on your overseas office to keep the database or to run the screening, with the ultimate responsibility staying with you. The database is used for every screening.",
+            "制裁數據庫的來源，以及由誰備存數據庫或執行篩查。三項來源均應收錄：在憲報或商務及經濟發展局網站刊登的名單；關長不時告知的名單；以及安理會新列名，即使香港尚未立法亦應在切實可行範圍內盡快加入。三者匯入同一數據庫，數據庫應綜合各種名單、及時更新並讓職員易於查閱。由誰備存數據庫或執行篩查，可擇一採用：自行備存；登記使用第三者服務供應商的數據庫，並採取適當措施（例如定期抽樣測試），確保數據庫完整而準確；或依賴在外地的辦事處備存數據庫或執行篩查程序，但最終責任仍由你承擔。每次篩查均使用此數據庫。")
     return svg(W, scr.y + scr.h + 14, ''.join(b), aria, m, 860)
 
 
 DB_KEY = legend([('must', ("a duty on you: what should go in, and the database you keep", "你的責任：應收錄的名單及你備存的數據庫")),
-                 ('', ("a way to hold it: the dashed lines are alternatives", "備存方式：虛線表示可選用的方式")),
+                 ('', ("who may keep it or run the screening: the dashed lines are alternatives", "由誰備存或執行篩查：虛線表示可選用的方式")),
                  ('faint', ("covered in the next section", "見下一節"))])
 
 
@@ -313,7 +313,7 @@ def fig_match():
            'may', "¶6.6, 6.8", answer=True)
     D2 = Node(395, 270, ("Any suspicion of TF, PF or a sanctions violation?", "是否懷疑涉及恐怖分子資金籌集、擴散資金籌集或違反制裁？"), None, shape='hex')
     R = C6(700, 290, ("Report to the JFIU", "向財富情報組作出報告"),
-           ("For terrorist property this is also a statutory duty: an STR as soon as it is reasonable to do so", "如屬恐怖分子財產，這亦是法定責任：須在合理範圍內盡快提交可疑交易報告"),
+           ("For terrorist property this is also a statutory duty: an STR as soon as it is reasonable to do so", ["如屬恐怖分子財產，這亦是法定責任：", "須在合理範圍內盡快提交可疑交易報告"]),
            'must', "¶6.18, 7.1", answer=True)
     K = C6(150, 720, ("Record everything", "全部記錄在案"),
            ("The enhanced-check results, together with all screening records, documented or recorded electronically",

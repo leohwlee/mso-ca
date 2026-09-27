@@ -29,8 +29,11 @@ def set_tc_lines(n, lines):
 def fig_service():
     W = 1000
     HK = "Hong Kong"
-    START = Card(290, 420, (f"A service operated in {HK} as a business", "在香港作為業務經營的服務"),
-                 ("Both definitions require this before anything else", "兩項定義都先要求符合這一點"), cite=PT1)
+    # the same width as the question below it, so its two lines break evenly
+    START = Node(330, 340, (f"Is the service operated in {HK} as a business?", "該服務是否在香港作為業務經營？"), PT1, shape='hex')
+    # failing the shared first condition takes a service outside both definitions
+    NOB = Card(730, 250, ("Not a money service", "不屬金錢服務"),
+               ("Both definitions require it", "兩項定義都要求這一點"), 'ok', answer=True)
     Q1 = Node(330, 340, ("What does the service do?", "該服務做甚麼？"), None, shape='hex')
     MCD = Card(10, 400, ("Exchanging currencies", "兌換貨幣"),
                ("Currency includes a cheque and a traveller's cheque", "貨幣包括支票及旅行支票"), cite=PT1)
@@ -50,12 +53,14 @@ def fig_service():
     MC = Card(215, 250, ("A money changing service", "屬貨幣兌換服務"), LIC, 'must', "s.29 · s.25", answer=True)
     ROK = Card(535, 190, ("Not operating a remittance service", "不被視為經營匯款服務"), None, 'ok', answer=True)
     RS = Card(740, 250, ("A remittance service", "屬匯款服務"), LIC, 'must', "s.29 · s.25", answer=True)
-    rows = [([START], 30), ([Q1], 56), ([MCD, NOT, RSD], 32), ([Q2, Q4], 56), ([HOK, MC, ROK, RS], 0)]
+    rows = [([START, NOB], 40), ([Q1], 56), ([MCD, NOT, RSD], 32), ([Q2, Q4], 56), ([HOK, MC, ROK, RS], 0)]
     H = place(rows)
     top_align([MCD, NOT, RSD], [Q2, Q4], [HOK, MC, ROK, RS])
-    b = [n.render() for n in (START, Q1, MCD, NOT, RSD, Q2, Q4, HOK, MC, ROK, RS)]
+    b = [n.render() for n in (START, NOB, Q1, MCD, NOT, RSD, Q2, Q4, HOK, MC, ROK, RS)]
     m = 's1s'
-    b.append(edge([START.bottom, Q1.top], mid=m))
+    # place() centres a row, so the hexagon's right point and the box's middle share one y
+    b.append(edge([START.right, NOB.left], ("no", "否"), (START.x + START.w + NOB.x) / 2, START.cy - 8, mid=m))
+    b.append(edge([START.bottom, Q1.top], ("yes", "是"), START.cx + 8, (START.bottom[1] + Q1.y) / 2 + 5, 'start', mid=m))
     jy = Q1.bottom[1] + 26
     # a shared stem is drawn once, then each branch starts at the junction
     b.append(edge([Q1.bottom, (Q1.cx, jy)], marker=False, mid=m))
@@ -72,8 +77,8 @@ def fig_service():
     b.append(edge([(Q2.cx, fy2), (MC.cx, fy2), MC.top], ("no", "否"), MC.cx + 8, MC.y - 8, 'start', mid=m))
     b.append(edge([(Q4.cx, fy4), (ROK.cx, fy4), ROK.top], ("yes", "是"), ROK.cx + 8, ROK.y - 8, 'start', mid=m))
     b.append(edge([(Q4.cx, fy4), (RS.cx, fy4), RS.top], ("no", "否"), RS.cx + 8, RS.y - 8, 'start', mid=m))
-    aria = ("Is it a money service? A service operated in Hong Kong as a business that exchanges currencies, cheques and traveller's cheques included, is a money changing service unless the hotel exception applies. One that sends money out of Hong Kong, receives it from outside, arranges either, or arranges for money to be received outside Hong Kong is a remittance service, unless the person only provides financial institutions with a message or support system for transmitting funds. Anything else is not a money service. A money service needs a licence unless Part 5 does not apply.",
-            "是否屬金錢服務？在香港作為業務經營、兌換貨幣（包括支票及旅行支票）的服務屬貨幣兌換服務，除非符合酒店例外。把金錢送往香港以外地方、從香港以外地方收取、作出上述安排，或安排在香港以外地方收取金錢的服務屬匯款服務，除非該人只為金融機構提供資金傳送的信息或支援系統。其他服務不屬金錢服務。金錢服務須領牌，除非第5部不適用。")
+    aria = ("Is it a money service? First, is the service operated in Hong Kong as a business? If not, it is not a money service, because both definitions require it. If it is, a service that exchanges currencies, cheques and traveller's cheques included, is a money changing service unless the hotel exception applies. One that sends money out of Hong Kong, receives it from outside, arranges either, or arranges for money to be received outside Hong Kong is a remittance service, unless the person only provides financial institutions with a message or support system for transmitting funds. Anything else is not a money service. A money service needs a licence unless Part 5 does not apply.",
+            "是否屬金錢服務？首先，該服務是否在香港作為業務經營？如否，即不屬金錢服務，因為兩項定義都要求這一點。如是，兌換貨幣（包括支票及旅行支票）的服務屬貨幣兌換服務，除非符合酒店例外。把金錢送往香港以外地方、從香港以外地方收取、作出上述安排，或安排在香港以外地方收取金錢的服務屬匯款服務，除非該人只為金融機構提供資金傳送的信息或支援系統。其他服務不屬金錢服務。金錢服務須領牌，除非第5部不適用。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
@@ -84,8 +89,8 @@ A = sec('service', [("Schedule 1", "附表1"), ("Part 1", "第1部"), ("money se
         ("Is it a money service?", "是否屬金錢服務？"),
     P("Start at the top and answer the questions in the hexagons. The two red boxes at the bottom are the only two kinds of money service there are; everything else is outside the money service licensing regime in Part 5.",
       "由頂部開始，回答六邊形內的問題。底部兩個紅色方格是僅有的兩種金錢服務；其他一切都在第5部的金錢服務發牌制度之外。")
-    + fig(fig_service, ("A money service is a money changing service or a remittance service, nothing more. Whether a particular operator then needs a licence is Part 5's question: banks never do, and some other licensed firms do not when the money service is only ancillary to their main business.",
-                          "金錢服務只有貨幣兌換服務及匯款服務兩種。個別經營者是否須領牌，則屬第5部的問題：銀行一律毋須領牌；其他某些持牌機構的金錢服務如只屬其主要業務的附帶部分，亦毋須領牌。"), SKEY)
+    + fig(fig_service, ("A money service is a money changing service or a remittance service, nothing more. Whether a particular operator then needs a licence is Part 5's question (s.25). Part 5 does not apply to the Government or to an authorized institution; nor to certain other institutions whose money service is ancillary to their principal business (for the system operator or settlement institution of a designated retail payment system, ancillary to its business as a system operator or settlement institution); nor to a stablecoin licensee whose money service is a business activity of the licensee under its stablecoin licence. The <a href=\"#p5-scope\">Part 5 page</a> lists them.",
+                          "金錢服務只有貨幣兌換服務及匯款服務兩種。個別經營者是否須領牌，則屬第5部的問題（第25條）。第5部不適用於政府及認可機構；亦不適用於金錢服務附屬於其主要業務的某些其他機構（指定零售支付系統的系統營運者或交收機構，則須附屬於其作為系統營運者或交收機構的業務）；以及所經營的金錢服務是該持牌人在其穩定幣牌照下的業務活動的穩定幣持牌人。名單見<a href=\"#p5-scope\">第5部一頁</a>。"), SKEY)
     + traps(
         trap(("Receiving money from abroad is remittance too", "從外地收款同樣屬匯款"),
              ("The definition runs both ways. Paying out in Hong Kong money that was sent from overseas is receiving money from a place outside Hong Kong, and arranging for someone overseas to be paid is also caught.",
@@ -119,7 +124,7 @@ B_ = sec('mltf', [("Part 1", "第1部"), ("ML and TF", "洗錢及恐怖分子資
         tr(rh("Must it be used?", "財產是否須被實際使用？"),
            td("—", "—"),
            td("<b>No.</b> The first limb applies whether or not the property is actually used", "<b>否。</b>不論財產實際上有否被如此使用，第一項均適用", post=flag())),
-        tr(rh("Borrowed words", "借用的詞語"),
+        tr(rh("Where the key words are defined", "關鍵詞語的定義出處"),
            td("Property is defined in Schedule 1 itself, and covers money, goods, choses in action and land anywhere", "財產在附表1界定，涵蓋位於任何地方的金錢、貨品、據法權產及土地"),
            td("Terrorist, terrorist act and terrorist associate take their meaning from the United Nations (Anti-Terrorism Measures) Ordinance", "恐怖分子、恐怖主義行為及與恐怖分子有聯繫者的涵義，取自《聯合國（反恐怖主義措施）條例》")),
     ], minw=760, cls='cmp')
@@ -158,9 +163,9 @@ C_ = sec('bodies', [("Part 2", "第2部"), ("who regulates whom", "誰監管誰"
         trap(("Financial institution or DNFBP", "金融機構還是指定非金融業人士"), None, PT2,
              vs=[(("Financial institution", "金融機構"), ("Banks, SVF and stablecoin licensees, licensed corporations, licensed VAS providers, authorized insurers and the licensed insurance agents, agencies and brokers, <b>licensed money service operators</b> and the <b>Postmaster General</b>.", "認可機構、工具持牌人及穩定幣持牌人、持牌法團、持牌虛擬資產服務提供者、獲授權保險人及持牌保險代理、代理機構及經紀公司、<b>持牌金錢服務經營者</b>及<b>郵政署署長</b>。")),
                  (("DNFBP: a closed list of five", "指定非金融業人士：只有五類"), ("Accounting professional, estate agent, legal professional, TCSP licensee, <b>Category B</b> PMS registrant.", "會計專業人士、地產代理、法律專業人士、信託或公司服務持牌人、貴金屬及寶石<b>B類</b>註冊人。"))]),
-        trap(("Part 2 of Schedule 1 moves; Part 1 does not", "附表1第2部可變；第1部不可變"),
-             ("The list of financial institutions and relevant authorities sits in Part 2, which the Secretary can amend by notice in the Gazette. The core definitions in Part 1, money service among them, can only be changed by an amending Ordinance.",
-              "金融機構及有關當局的名單載於第2部，局長可藉憲報公告修訂。第1部的核心定義（包括金錢服務）只可由修訂條例修改。"),
+        trap(("The list of institutions and regulators can change by Gazette notice", "金融機構及有關當局的名單可藉憲報公告修訂"),
+             ("The list of financial institutions and relevant authorities sits in Part 2, which the Secretary for Financial Services and the Treasury may amend by notice published in the Gazette. Section 2(2) gives no such power over Part 1, where money service is defined.",
+              "金融機構及有關當局的名單載於第2部，財經事務及庫務局局長可藉憲報公告修訂。第2(2)條並無就第1部（包括金錢服務的定義）賦予此權力。"),
              "s.2(2)"),
     ))
 

@@ -16,6 +16,19 @@ def vd(ch):
 
 SHOULD = chip("should", "應", 'ink')
 
+# ¶9.6, E26 in CONFLICT-CALLS.md: the English text "encourages" you to consider a mix of training
+# methods; the Chinese text says 應…考慮 (should consider), which ¶1.6 makes a requirement. Each view
+# shows its own text's strength, so this chip is drawn once per language.
+MIX = ('<span class="chip only-en">encouraged to consider</span> '
+       '<span class="chip ink only-tc" lang="zh-Hant">應考慮</span>')
+
+
+def only(lang, block):
+    """A callout shown only in one language's view (and in the combined view), for a point that
+    only that language's text makes (as in gl.py). pack_css.css hides .only-en in the Chinese view
+    and .only-tc in the English view."""
+    return block.replace('<div class="trap">', f'<div class="trap only-{lang}">', 1)
+
 # ---------------------------------------------------------------- A. what goes in the file
 A = sec('file', ["¶8.1–8.3", "¶8.5", "fn 66", "¶2.3, 2.16, 5.14", "¶6.18, 7.29–7.30"],
         ("Keep enough to rebuild each transaction and to show each check", "備存足以重組每宗交易、證明每項審查的紀錄"),
@@ -58,7 +71,7 @@ A = sec('file', ["¶8.1–8.3", "¶8.5", "fn 66", "¶2.3, 2.16, 5.14", "¶6.18, 
            td("The original or a copy of the documents, and a record of the data and information, obtained or generated in connection with it: enough to reconstruct the individual transaction and, if necessary, to provide evidence for the prosecution of criminal activity",
               "與該交易有關而取得或產生的文件的正本或複本，及數據及資料的紀錄：應足以重組個別交易，以便在有需要時為檢控犯罪活動提供證據",
               "¶8.5 · s.20(1)(a) Sch. 2", post=flag())),
-    ], note=B("The customer records are kept for the whole relationship and at least five years after it ends, or at least five years after an occasional transaction equal to or above the CDD threshold; transaction records for at least five years after completion. The clocks are drawn on the <a href=\"#s2-records\">Schedule 2 page</a>.",
+    ], note=B("The customer records should be kept throughout the business relationship and for at least five years after it ends, or for at least five years after an occasional transaction equal to or above the CDD threshold; transaction records for at least five years after the transaction is completed. The clocks are drawn on the <a href=\"#s2-records\">Schedule 2 page</a>.",
               "第8.3段提述的所有文件及紀錄應在與有關客戶的業務關係繼續期間備存，並在關係終止後最少五年，或在總值相等於或超過盡職審查門檻的非經常交易後最少五年；交易紀錄則在交易完成後最少五年。各時限見<a href=\"#s2-records\">附表2一頁</a>。") + ' ' + cite_html("¶8.4, 8.6"), minw=820)
     + h3("Beyond the customer file: other records to keep", "客戶檔案以外：其他備存的紀錄")
     + table([th("The record", "紀錄"), th("What to keep, and why", "備存甚麼及其目的")], [
@@ -117,8 +130,8 @@ B_ = sec('elsewhere', ["¶8.9–8.12", "Sch. 2 Pt 3", "s.18(4) Sch. 2"],
         tr(rh("The intermediary stops providing its services", "中介人終止提供服務"),
            td("Make sure it will pass the documents and records to you", "應確保中介人會將文件及紀錄交回你", "¶8.12")),
     ], minw=720)
-    + '<p>' + B("The data itself comes from the intermediary immediately after each measure, and before relying on it you must be satisfied that copies will come without delay: see the <a href=\"#s2-rely\">Schedule 2 page</a>. The record-keeping chapter adds the speed for copies you ask for later.",
-        "數據須在中介人執行每項措施後立刻取得；依賴中介人之前，你須信納複本會沒有延誤地提供：見<a href=\"#s2-rely\">附表2一頁</a>。備存紀錄一章補充的是你其後索取複本時的速度。") + ' ' + cite_html("¶8.10–8.11 · s.18(1)(b), (4)(a)–(b) Sch. 2") + '</p>'
+    + '<p>' + B("Immediately after the intermediary carries out each measure, you must obtain from it the data or information it obtained in doing so, and before relying on it you must be satisfied that copies will come without delay: see the <a href=\"#s2-rely\">Schedule 2 page</a>. The record-keeping chapter adds the speed for copies you ask for later.",
+        "你須在中介人執行每項措施之後，立刻從中介人取得其在執行該措施時取得的數據或資料；依賴中介人之前，你須信納複本會沒有延誤地提供：見<a href=\"#s2-rely\">附表2一頁</a>。備存紀錄一章補充的是你其後索取複本時的速度。") + ' ' + cite_html("¶8.10–8.11 · s.18(1)(b), (4)(a)–(b) Sch. 2") + '</p>'
     + numreq([
         (("as soon as reasonably practicable", "盡快在合理地切實可行的範圍內"),
          ("The intermediary provides the documents and records you request", "中介人提供你所要求的文件及紀錄"),
@@ -142,8 +155,8 @@ ORD3 = ("the Drug Trafficking (Recovery of Proceeds) Ordinance (DTROP), the Orga
 
 C_ = sec('who', ["¶9.1", "¶9.4–9.5"],
          ("What every member of staff should know, and what each role adds", "每名職員應知道甚麼，以及各職位須額外學習甚麼"),
-    '<p>' + B("Read the figure from the top. The red band applies to everyone, the next band to every newcomer, and the boxes below to particular groups. The arrows are the reporting line: every internal report reaches the MLRO, who assesses it and reports suspicious transactions to the JFIU.",
-      "由上而下看圖。紅色橫條適用於所有職員，下一條適用於每名新職員，下方各方格則適用於特定類別的職員。箭頭是舉報流程：所有內部報告均交予洗錢報告主任，由其評估並向財富情報組舉報可疑交易。") + ' ' + cite_html("¶7.9, 7.12(b), 9.5(e)") + '</p>'
+    '<p>' + B("Read the figure from the top. The red band applies to everyone, the next band to every newcomer, and the boxes below to particular groups. The lines are the internal reporting line: from every band and box, every internal report reaches the MLRO, who assesses it and reports suspicious transactions to the JFIU.",
+      "由上而下看圖。紅色橫條適用於所有職員，下一條適用於每名新職員，下方各方格則適用於特定類別的職員。連線是內部舉報流程：不論來自哪一橫條或方格，所有內部報告均交予洗錢報告主任，由其評估並向財富情報組舉報可疑交易。") + ' ' + cite_html("¶7.9, 7.12(b), 9.5(e)") + '</p>'
     + fig(fig_roles, ("The group lists are areas the Guideline says may be appropriate, in addition to the five points for everyone. The groups overlap: a new front-line recruit is both a new joiner and a member of staff dealing with the public.",
                       "各類職員的清單，是指引指在五項共同事項以外「或適用」的培訓範疇。各類別會重疊：新入職的前線工作人員既是新職員，也是與公眾有直接接觸的職員。"), ROLES_KEY)
     + h3("The five points every member of staff should be made aware of", "應促使每名職員留意的五項事項")
@@ -169,7 +182,7 @@ C_ = sec('who', ["¶9.1", "¶9.4–9.5"],
               "洗錢／恐怖分子資金籌集的嶄新及新興技巧、方法及趨勢，以職員履行其特定職責所需為限", "¶9.4(e)"),
            td("Theirs, as far as their role needs", "職員的，以履行其職責所需為限"),
            td("None named", "沒有指明")),
-    ], note=B("Why the Guideline insists: even a well-designed internal control system can be compromised if the staff using it are not adequately trained.",
+    ], note=B("Why the Guideline insists: the effective implementation of even a well-designed internal control system can be compromised if the staff using it are not adequately trained.",
               "指引堅持培訓的原因：如沒有為使用系統的職員提供充分培訓，即使是設計精湛的內部監控系統，其成效也會受到影響。") + ' ' + cite_html("¶9.1"), minw=820)
     + traps(
         trap(("Three ordinances for failing to report; six for everything else", "未有舉報涉及三條條例；其他責任涉及六條"), None, "¶9.4(b)–(c)",
@@ -211,7 +224,7 @@ D_ = sec('cycle', ["¶9.2–9.3", "¶9.6–9.8", APG16],
            td("Requiring new staff to attend initial training as soon as possible after being hired or appointed; and regular refresher training", "新職員獲聘用或委任後盡快接受初步培訓；以及定期舉辦複修培訓", "¶9.2")),
         tr(vd(SHOULD),
            td("A clear and well-articulated policy for ensuring relevant staff receive adequate AML/CFT training", "實施清晰及明確的政策，確保有關職員獲得充分的打擊洗錢培訓", "¶9.3")),
-        tr(vd(chip("encouraged to consider", "應考慮") + flag()),
+        tr(vd(MIX + flag()),
            td("Using a mix of training techniques and tools, depending on your resources and staff's learning needs", "視乎可運用的資源及職員的培訓需要，混合使用各種培訓技巧及工具", "¶9.6")),
         tr(vd(chip("may consider", "可考慮")),
            td("Including available FATF papers and typologies in the training materials", "使用特別組織的文章及典型案件作為培訓材料", "¶9.6")),
@@ -241,13 +254,16 @@ D_ = sec('cycle', ["¶9.2–9.3", "¶9.6–9.8", APG16],
          "¶9.7"),
     ])
     + traps(
-        trap(("A mix of methods is encouraged; showing the materials are up to date is a should", "混合使用培訓方法是「應考慮」；證明培訓材料屬最新是「應」"), None, "¶9.6",
-             vs=[(("Encouraged to consider", "應考慮"),
-                  ("A mix of training techniques and tools, depending on your available resources and your staff's learning needs.",
-                   "混合使用各種培訓技巧及工具，視乎你可運用的資源及職員的培訓需要。")),
-                 (("Should", "應"),
-                  ("Being able to demonstrate to the Commissioner that all materials are up to date and in line with current requirements and standards.",
-                   "能夠向關長證明所有培訓材料都是最新的，並符合現行規定及標準。"))]),
+        only('en', trap(("A mix of methods is encouraged; showing the materials are up to date is a should", ""), None, "¶9.6",
+             vs=[(("Encouraged to consider", ""),
+                  ("A mix of training techniques and tools, depending on your available resources and your staff's learning needs.", "")),
+                 (("Should", ""),
+                  ("Being able to demonstrate to the Commissioner that all materials are up to date and in line with current requirements and standards.", ""))])),
+        only('tc', trap(("", "混合使用培訓方法是「應」考慮；使用特別組織的文章是「可」考慮"), None, "¶1.6 · ¶9.6",
+             vs=[(("", "應考慮"),
+                  ("", "視乎可運用的資源及職員的培訓需要，考慮在提供培訓時混合使用各種培訓技巧及工具。「應」即表示屬強制規定，但規定的是作出考慮，並非必須混合使用。")),
+                 (("", "可考慮"),
+                  ("", "使用特別組織的文章及典型案件作為培訓材料。"))])),
         trap(("The 2019 AML/CFT Policy guidelines' training cross-reference does not match the 2023 Guideline", "2019年版《打擊洗錢政策指引》就培訓範疇引用的段落，與2023年版指引不符"),
              ("Item 16 of the AML/CFT Policy guidelines, Ver. (12/2019), lists the training topics and ends with other issues set out in paragraph 9.7 of the Guideline. In the June 2023 Guideline, ¶9.7 is about training records; the topics by staff group are in ¶9.5.",
               "《打擊洗錢政策指引》（2019年12月版）第16項列出培訓範疇，最後一項是「《打擊洗錢指引》第9.7段所載列的其他事宜」。在2023年6月版指引中，第9.7段關乎培訓紀錄；按職員類別劃分的培訓範疇則在第9.5段。"),
@@ -262,8 +278,8 @@ G8_META = dict(
     short=("Guideline Ch. 8–9 · Records and training", "指引第8至9章 · 紀錄與培訓"),
     eyebrow=("AML/CFT Guideline · Chapters 8 and 9 · Modules 6 and 7", "《打擊洗錢指引》第8及9章 · 單元六及七"),
     title=("Record-keeping and Staff Training", "備存紀錄及職員培訓"),
-    lede=("Records are how you prove every other duty was done, and how investigators and the Court follow the money; training is what makes your controls work, because even a well-designed system can be compromised if the staff using it are not adequately trained. This page covers what goes in the file beyond the retention clocks on the Schedule 2 page, who is answerable for records held elsewhere, what each member of staff should learn, and how you show the training happened and worked.",
-          "紀錄是你證明已履行其他所有責任的方法，也是調查當局及法院追查資金的依據；培訓則令監控措施真正運作，因為如職員未受充分培訓，即使是設計精湛的系統，其成效也會受到影響。本頁講述附表2一頁的備存時限以外檔案須載有甚麼、存放於別處的紀錄由誰負責、每名職員應學習甚麼，以及你如何證明培訓已進行並具成效。"),
-    foot=("Drawn from the Customs and Excise Department's Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Money Service Operators), June 2023, Chapters 8 and 9 with ¶2.3, 2.16, 3.1, 4.11.3, 5.10, 5.14, 6.18 and 7.29–7.30; sections 18 and 23 and Part 3 of Schedule 2 to the AMLO; the AML/CFT Policy guidelines, version 12/2019, item 16; and the official sample questions of 12 May 2021.",
-          "取材自香港海關《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》（2023年6月）第8及9章，並參考第2.3、2.16、3.1、4.11.3、5.10、5.14、6.18及7.29至7.30段；《打擊洗錢條例》附表2第18及23條及第3部；《打擊洗錢政策指引》（2019年12月版）第16項；以及2021年5月12日發出的官方參考試題。"),
+    lede=("Records are how you prove every other duty was done, how investigating authorities trace property or funds, and how the Court examines past transactions; training is what makes your controls work, because the effective implementation of even a well-designed internal control system can be compromised if the staff using it are not adequately trained. This page covers what goes in the file beyond the retention clocks on the Schedule 2 page, who is answerable for records held elsewhere, what each member of staff should learn, and how you show the training happened and worked.",
+          "紀錄是你證明已履行其他所有責任的方法，也讓調查當局追查財產或資金，並協助法院審查過往交易；培訓則令監控措施真正運作，因為如職員未受充分培訓，即使是設計精湛的內部監控系統，其成效也會受到影響。本頁講述附表2一頁的備存時限以外檔案須載有甚麼、存放於別處的紀錄由誰負責、每名職員應學習甚麼，以及你如何證明培訓已進行並具成效。"),
+    foot=("Drawn from the Customs and Excise Department's Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Money Service Operators), June 2023, Chapters 8 and 9 with ¶2.3, 2.16, 3.1, 4.11.3, 5.10, 5.14, 6.18, 7.9, 7.12(b) and 7.29–7.30; sections 18 and 23 and Part 3 of Schedule 2 to the AMLO; the Licensing Guide, ¶4.10–4.11; the AML/CFT Policy guidelines, version 12/2019, item 16; and the official sample questions of 12 May 2021.",
+          "取材自香港海關《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》（2023年6月）第8及9章，並參考第2.3、2.16、3.1、4.11.3、5.10、5.14、6.18、7.9、7.12(b)及7.29至7.30段；《打擊洗錢條例》附表2第18及23條及第3部；《牌照指引》第4.10至4.11段；《打擊洗錢政策指引》（2019年12月版）第16項；以及2021年5月12日發出的官方參考試題。"),
 )

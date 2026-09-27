@@ -32,6 +32,10 @@ def DAG(p):
     return (f"Disciplinary Action Guideline ¶{p}", f"《施加罰款紀律行動指引》第{_runs(p)}段")
 
 
+# the Licensing Guide's fee schedule (section XIV), where the fees for changes are set
+LGF = ("Licensing Guide fee schedule", "《牌照指引》收費表")
+
+
 def cc(*cs):
     """Join several citations into one."""
     pairs = [cite_pair(c) for c in cs]
@@ -81,6 +85,13 @@ BADP = chip("not suitable", "不適合")
 SAMPLE4 = ("Sample question 4", "參考試題4")
 # a marker for a contrast that only the English text draws (the combined view shows it too)
 FLAG_EN = f'<span class="only-en">{flag()}</span>'
+# the same for a contrast that only the Chinese text draws
+FLAG_TC = f'<span class="only-tc">{flag()}</span>'
+# Missing the Assessment: "may" for a new licence, "will" at renewal (owner's calls E2 and B1).
+# The Chinese ¶5.4 says 會導致, so the Chinese view's "may" rests on ¶5.10(i) and CA Notes ¶3.1
+# (可能) and leaves ¶5.4 out of the citation; the English ¶5.4 says "may" and stays cited.
+ASSESS_MISS = ("Licensing Guide ¶5.4, 5.10(i), 6.2 · CA Guidance Notes ¶3.1",
+               "《牌照指引》第5.10(i)、6.2段 · 《能力評核須知》第3.1段")
 
 
 def only(lang, block):
@@ -114,7 +125,7 @@ A = sec('route', [("Licensing Guide", "《牌照指引》"), ("¶5.1–5.11", "�
     ], note=B("Appendix I to Form 3A is signed in front of a witness: an authorized officer of the C&amp;ED, a practising professional such as a solicitor, accountant or auditor, a notary public, or a Justice of the Peace. The witness checks the particulars against the declarant's original identity document and certifies them.",
               "表格3A的附錄I須在見證人面前簽署。見證人可以是海關的獲授權人員、執業專業人士（例如事務律師、會計師或核數師）、公證人或太平紳士。見證人須以聲明人身份證明文件的正本核對所載資料並作出證明。") + ' ' + cite_html(LG("5.8")), minw=860)
     + numreq_c([
-        (("2 photographs", "兩張照片"),
+        (("At least 2 photographs", "最少兩張照片"),
          ("4R size, 102 × 152 mm: one of the inside, such as the counter or office, one of the outside, such as the signboard", "4R尺寸（102 × 152毫米）：一張顯示內部（例如櫃枱或辦事處），一張顯示外部（例如招牌）"),
          ("Each particular premises, and each separate place used as the local management office or the local place for storage of books and records; at grant and at renewal", "每個特定處所，以及另設作本地管理辦事處或本地儲存帳目及紀錄地點的每個地點；批給及續期時均適用"),
          ("Documents still missing after the specified period make the application invalid", "逾指明期限仍欠交文件，申請即屬無效"),
@@ -124,7 +135,7 @@ A = sec('route', [("Licensing Guide", "《牌照指引》"), ("¶5.1–5.11", "�
          ("Counted from the interview, for a new application", "新申請：自會面起計"),
          ("Not attending the designated session may result in refusal of the licence application; at renewal it will result in rejection (<a href=\"#renewal\">renewal countdown</a>)",
           "未有出席指定時段的評核，可能導致牌照申請被拒絕；續牌時則會導致相關申請被拒絕（見<a href=\"#renewal\">續牌倒數</a>）",
-          cc(LG("5.4, 5.10(i), 6.2"), GN("3.1")), flag()),
+          ASSESS_MISS, flag()),
          cc(GN("4.5"), LG("5.4"))),
         (("after 30 days", "30日後"),
          ("One retake if nobody passed", "如無人合格，可重考一次"),
@@ -146,9 +157,9 @@ A = sec('route', [("Licensing Guide", "《牌照指引》"), ("¶5.1–5.11", "�
         trap(("Staff can stand in at the interview (partnerships and corporations only), never at the Assessment", "員工可代為出席會面（只限合夥及法團），但不可代考能力評核"), None, cc(LG("5.5"), GN("4.2")),
              vs=[(("The interview", "會面"), ("A sole proprietor must attend in person. For a partnership or corporation, partners, directors or staff members may attend if every partner or the board has authorised them in writing.", "獨資業務須由獨資經營者親自出席。合夥或法團可由合夥人、董事或員工出席，但須獲每一名合夥人或董事局書面授權。")),
                  (("The Assessment", "能力評核"), ("Only senior management: the sole proprietor, partners, or directors who are natural persons, and no more than three.", "只限高級管理層：獨資經營者、合夥人，或屬自然人的董事，最多三人。"))]),
-        trap(("Invalid and refused are different endings", "無效與被拒是兩種不同的結局"), None, cc(LG("5.4"), LG("5.10–5.11")),
-             vs=[(("Invalid", "無效"), ("Information or documents were not produced within the specified period. The application is simply not processed.", "未能在指明期限內提供資料或文件。申請只是不獲處理。")),
-                 (("Refused", "被拒"), ("The Commissioner decides against you and says so in writing. You have 21 days to take it to the Review Tribunal.", "關長作出不利於你的決定並以書面通知。你有21日時間向覆核審裁處提出上訴。"))]),
+        trap(("Not processed, or refused", "不獲處理與被拒"), None, cc(LG("5.4"), LG("5.10–5.11")),
+             vs=[(("Invalid, so not processed", "無效，故不獲處理"), ("Information or documents were not produced within the specified period. The application is considered invalid and is not processed by C&amp;ED.", "未能在指明期限內提供資料或文件。申請被視作無效，不會獲海關處理。")),
+                 (("Refused", "被拒"), ("The Commissioner decides against you and says so in writing. You have 21 days to take it to the Review Tribunal. An incomplete or invalid application is itself one of the listed situations in which he may refuse.", "關長作出不利於你的決定並以書面通知。你有21日時間向覆核審裁處提出上訴。申請人遞交的申請不完整或無效，本身亦屬所列關長可能拒絕批給牌照的情況之一。"))]),
         # the Chinese ¶5.4 says 會導致 where the Chinese ¶5.10(i) and CA Notes ¶3.1 say 可能 (owner's call E2: may)
         only('tc', trap(("", "新申請缺席評核：是「可能」被拒，不是「會」被拒"),
              ("", "《牌照指引》第5.4段寫「如未能在指定的時段應考能力評核，會導致相關申請被拒絕」，但同一指引第5.10(i)段指申請人的高級管理層中沒有成員應考能力評核時，關長「可能拒絕」批給牌照，《能力評核須知》第3.1段亦寫「可能導致」牌照申請被拒絕。故新申請缺席評核，應理解為可能被拒。續牌則不同：第6.2段訂明缺席會導致相關申請被拒絕。"),
@@ -253,14 +264,15 @@ C_ = sec('standing', [("Licensing Guide", "《牌照指引》"), ("¶4.15 · ¶7
               "高級管理層中必須有最少一名成員（獨資經營者、合夥人或董事）在能力評核<b>取得合格成績</b>",
               cc(LG("4.15(b)"), GN("3.1"))),
            td("A ground for refusal if nobody attends or nobody passes", "如無人應考或無人合格，屬拒絕申請的理由", LG("5.10(i)–(j)")),
-           td("The company's pass lapses automatically; the <a href=\"#ca\">Assessment section</a> has the 30-day chance to sit again", "公司的合格資格自動失效；30日內再考的機會見<a href=\"#ca\">能力評核一節</a>")),
+           td("The company-based qualification becomes void automatically. A partnership or corporation then gets one chance to sit within 30 days; a sole proprietorship does not (<a href=\"#ca\">Assessment section</a>)",
+              "此項以公司為單位取得的資格自動失效。合夥及法團可獲一次機會於30日內應考，但獨資經營的持牌人除外（見<a href=\"#ca\">能力評核一節</a>）", post=flag())),
         tr(rh("Periodic returns", "定期申報表", LG("11.2")),
            td("Lodged within 2 weeks beginning from each half year, in the form and manner the Commissioner specifies. Each return covers the half year just ended: the January to June return is lodged from 1 July. Since 2025 they are half-yearly and online only: see the <a href=\"#ci-returns\">Circulars page</a>",
               "每半年開始後的兩星期內，按關長指明的格式及方式遞交。每份申報表涵蓋剛結束的半年：1月至6月的申報表由7月1日起遞交。自2025年起每半年遞交一次，並只接受網上遞交：見<a href=\"#ci-returns\">通函一頁</a>",
               ("Circular 30 May 2025", "2025年5月30日通函")),
            dash_td(),
            td("Late filing may result in the suspension and/or revocation of the licence",
-              "未能按時遞交定期申報表，或會導致牌照被暫時吊銷及／或撤銷。第11.2段及通函均寫「將會導致」，但《牌照指引》列出的理由則指關長可以這樣做", cc(LG("7.1(f), 11.2"), ("Circular 30 May 2025", "2025年5月30日通函")))),
+              "未能按時遞交定期申報表，或會導致牌照被暫時吊銷及／或撤銷：《牌照指引》第7.1(f)段把此列為關長可撤銷或暫時吊銷牌照的情況。該指引第11.2段及該通函則寫「將會導致」", cc(LG("7.1(f), 11.2"), ("Circular 30 May 2025", "2025年5月30日通函")), post=FLAG_TC)),
         tr(rh("A money service that actually runs", "確實經營的金錢服務", LG("7.1(g)")),
            td("A genuine intention and readiness to carry on the business you applied for", "確實有意並已準備經營申請時所述的業務", FPS("6(f)")),
            td("Weighed in the fit and proper person test", "在適當人選判定中考慮"),
@@ -294,8 +306,8 @@ D_ = sec('plans', [("Business Plan guidelines", "《業務計劃指引》"), ("A
         tr(rh("How the business runs", "業務如何運作"),
            td("The whole transaction process in Hong Kong, from order to movement of funds, compliance and record keeping; each product, its launch date and full delivery channel through every foreign agent or MSO, with the service agreements; how customer funds are protected if an agent fails",
               "在香港的整個交易流程，由落單、資金流動，到合規及備存紀錄；每項產品、推出時間，以及經每個外地代理人或金錢服務經營者的完整交付渠道，連同服務協議；代理人未能履行時如何保障客戶資金", BPG("6–7")),
-           td("Distribution channels, with the percentage of face-to-face and non-face-to-face business; how you make money; the payment, fund-flow and settlement system for remittances and wire transfers, with checks on counterparties and on overseas branches and agents",
-              "分銷渠道，連同面對面及非面對面交易的百分比；收費模式；匯款及電傳轉帳的支付、資金流動及結算系統，以及對交易對手、海外分行及代理人的查核", APG("5, 9–10"))),
+           td("The products and services: money changing and/or remittance services; distribution channels, with the percentage of face-to-face and non-face-to-face business; how you make money; the payment, fund-flow and settlement system for remittances and wire transfers, with checks on counterparties and on overseas branches and agents",
+              "產品及服務：貨幣兌換及／或匯款服務；分銷渠道，連同面對面及非面對面交易的百分比；收費模式；匯款及電傳轉帳的支付、資金流動及結算系統，以及對交易對手、海外分行及代理人的查核", APG("4–5, 9–10"))),
         tr(rh("Money", "資金"),
            td("Every bank account used, with its number and owner, and no third-party account; if you think you need no bank account, a detailed account of how you will provide the service without one; expected profit margin and turnover for each product over the next two years, and running capital",
               "所用的每個銀行戶口的號碼及擁有人，不得使用第三方銀行戶口；如認為無需開設銀行戶口，須詳述如何在沒有銀行戶口的情況下提供金錢服務；未來兩年每項產品的預計利潤幅度及營業額，以及營運資本", BPG("8–9")),
@@ -522,7 +534,7 @@ F_ = sec('ca', [("CA Guidance Notes", "《能力評核須知》"), ("December 20
         (("8:00 a.m.", "上午8時"),
          ("If typhoon signal No. 8 or above, or the black rainstorm warning, is still in force at or after this time on the day, the Assessment will be suspended",
           "如八號或以上熱帶氣旋警告信號，或黑色暴雨警告信號，於當日上午8時或之後仍然生效，能力評核會改期"),
-         ("Signal No. 3 or below, or an amber or red rainstorm warning: it goes ahead", "三號或以下信號，或黃色、紅色暴雨警告：如期舉行"),
+         ("As a general rule, signal No. 3 or below, or an amber or red rainstorm warning: it is held as scheduled", "一般而言，三號或以下信號，或黃色、紅色暴雨警告：如期舉行"),
          ("Alternative arrangements, if any, will be published on the licensing system's website on the first working day that follows", "如需另作安排，會於隨後首個工作日在牌照系統網頁公布"),
          GN("13.1")),
     ], heading=False)
@@ -544,7 +556,7 @@ F_ = sec('ca', [("CA Guidance Notes", "《能力評核須知》"), ("December 20
              vs=[(("7 days", "7日"), ("To nominate, from receiving a renewal invitation. To ask for a re-check, from the date of issuance of the result notification.", "提名：自接獲續牌邀請信起計。要求覆檢：自成績通知發出當日起計。")),
                  (("14 days", "14日"), ("For the result, after the Assessment. For the re-check reply, after C&amp;ED receives your request.", "成績：評核後14日內。覆檢回覆：海關接獲要求後14日內。"))]),
         trap(("A pass belongs to the company, and it is not a licence", "合格屬於公司，亦不等於牌照"),
-             ("The pass is a company-based qualification. It lapses automatically when no sole proprietor, partner or director who passed remains. Passing does not make you eligible for a licence either: every other licensing requirement still has to be met.",
+             ("The pass is a company-based qualification. It becomes void automatically when no sole proprietor, partner or director who passed remains. Passing does not make you eligible for a licence either: every other licensing requirement still has to be met.",
               "合格成績是以公司為單位的資格。當再沒有已合格的獨資經營者、合夥人或董事時，資格自動失效。合格亦不代表可獲發牌：其他所有發牌規定仍須符合。"),
              GN("8.1–8.2, 12.5, 14.1")),
         trap(("Up to three may sit; one must pass", "最多三人應考；最少一人合格"),
@@ -558,8 +570,8 @@ G_ = sec('renewal', [("Licensing Guide", "《牌照指引》"), ("¶6.1–6.4", 
          ("Renewal: the 90-day countdown", "續牌：90日倒數"),
     P("Read the line from left to right, in days before expiry. The key tells your deadlines from C&amp;ED's own steps; the two boxes at the foot are the two ways the countdown can end.",
       "由左至右閱讀時間線，以期滿前日數計算。圖例分辨你的限期與海關的步驟；底部兩個方格是倒數的兩種結局。")
-    + fig(fig_renew, ("The reminder at 90 days is a courtesy. The Licensing Guide is explicit that applying 45 days before expiry is your legal responsibility whether or not a reminder arrives.",
-                        "90日的提示只屬提醒。《牌照指引》明言，不論有否收到提示，在期滿前45日申請續期是你的法律責任。"), RENEW_KEY)
+    + fig(fig_renew, ("The reminder encloses the invitation letter, but the Licensing Guide adds that it is the licensee's legal responsibility to apply for renewal 45 days before expiry. When you must nominate, the letter starts two clocks: 7 days to nominate and 30 days to sit, both counted from the day you receive it. The figure draws those two marks as if it arrived on day 90.",
+                        "提示通知夾附邀請信，但《牌照指引》亦指出，持牌人有法定責任在牌照有效期屆滿前45日申請續期。如須提名，邀請信會開始兩個限期：7日內提名及30日內應考，均自接獲邀請信當日起計。圖中這兩個標記假設邀請信於第90日接獲。"), RENEW_KEY)
     + numreq_c([
         (("7 days", "7日"),
          ("Nominate who will sit the Assessment", "提名應考能力評核的人選"),
@@ -572,7 +584,7 @@ G_ = sec('renewal', [("Licensing Guide", "《牌照指引》"), ("¶6.1–6.4", 
          ("From receiving the invitation letter", "自接獲邀請信當日起計"),
          ("Not attending the designated session will result in rejection of the application; for a new licence it may result in refusal (<a href=\"#route\">getting licensed</a>)",
           "未有出席指定時段的評核，會導致相關申請被拒絕；新申請則可能導致牌照申請被拒絕（見<a href=\"#route\">申領牌照</a>）",
-          cc(LG("5.4, 5.10(i), 6.2"), GN("3.1")), flag()),
+          ASSESS_MISS, flag()),
          LG("6.2")),
         (("45 days", "45日"),
          ("Lodge the renewal application, accompanied by the Schedule 3 fee: the duly completed Form 2, supplementary information sheet and relevant annex. The other papers go with them; anything missing is chased under the next row",
@@ -602,14 +614,14 @@ H_ = sec('changes', [("Licensing Guide", "《牌照指引》"), ("¶8.1–10.4",
     P("Find the change you are making in the left column. The form and its timing are in the next two columns; the last says what has to go with it.",
       "在左欄找出你要作的改變。其後兩欄是表格及時限；最後一欄是須一併提交的文件。")
     + table([th("You want to", "你要"), th("Form", "表格"), th("When", "時限"), th("What goes with it", "須一併提交")], [
-        tr(td("Bring in a new director, partner or ultimate owner", "有人擬成為新董事、合夥人或最終擁有人", LG("8.1–8.3")),
+        tr(td("Bring in a new director, partner or ultimate owner", "有人擬成為新董事、合夥人或最終擁有人", cc(LG("8.1–8.3"), LGF)),
            td("Form 4", "表格4"),
            td("<b>Before</b> the person takes the role: written approval comes first", "該人就任<b>之前</b>：須先取得書面批准", post=flag()),
            td("The person's Fit and Proper Person Declaration Form, and the fee for each person", "該人的適當人選聲明表格，以及每人的費用")),
-        tr(td("Trade at more premises", "增加經營處所", LG("8.4")),
-           td("Form 5", "表格5"), td("Before you trade there", "在該處經營之前"), td("The fee for each new premises", "每個新處所的費用")),
-        tr(td("Move from no particular premises to particular premises", "由沒有特定處所改為在特定處所經營", LG("8.4")),
-           td("Form 5", "表格5"), td("Before you trade there", "在該處經營之前"), td("A Business Plan and an updated AML Policy as well", "另須提交業務計劃及經修訂的打擊洗錢政策")),
+        tr(td("Trade at more premises", "增加經營處所", cc(LG("8.4"), LGF)),
+           td("Form 5", "表格5"), td("Before you trade there", "在該處經營之前"), td("The fee for each new business premises", "每一新的業務處所的費用")),
+        tr(td("Move from no particular premises to particular premises", "由沒有特定處所改為在特定處所經營", cc(LG("8.4"), LGF)),
+           td("Form 5", "表格5"), td("Before you trade there", "在該處經營之前"), td("The fee for each business premises, plus a Business Plan and an updated AML Policy", "每一業務處所的費用，另須遞交業務計劃及經修訂的打擊洗錢政策")),
         tr(td("Move from particular premises to none", "由特定處所改為沒有特定處所", LG("10.1")),
            td("Form 7, then a new application", "表格7，然後提出新申請"), td("Notify cessation of the existing business first", "先具報停止現有業務"),
            td("A fresh application to operate without particular premises", "以沒有特定處所的方式經營的新申請")),
@@ -626,7 +638,7 @@ H_ = sec('changes', [("Licensing Guide", "《牌照指引》"), ("¶8.1–10.4",
            td("Return the licence, valid or expired, within 7 days beginning on the date of cessation or expiry. No fee is refunded", "於停業或期滿日期起計的7日內交回有效或已期滿的牌照。費用概不退還")),
     ], minw=900)
     + table([th("Group", "類別"), th("The fourteen changes that go on Form 6", "須以表格6具報的十四項改變")], [
-        tr(rh("Identity", "身分"), td("Business or corporation name; principal or correspondence address; contact details", "業務或法團名稱；主要（通訊）地址；聯絡資料")),
+        tr(rh("Identity", "身分"), td("Business or corporation name; principal (correspondence) address; contact details", "業務或法團名稱；主要（通訊）地址；聯絡資料")),
         tr(rh("Premises", "處所"), td("Business premises information, and their telephone or fax number; any other business run there; the occupants of particular premises in a mixed commercial and residential building; the local management office; the local place for storage of books and records",
                                      "業務處所資料及其電話或傳真號碼；在處所內經營的其他業務；位於混合式商住樓宇的特定處所的佔用人；本地管理辦事處；本地儲存帳目及紀錄地點")),
         tr(rh("People", "人員"), td("Particulars of the sole proprietor, partners, directors and ultimate owners; a change among partners, directors or ultimate owners; a change in any of their fit-and-proper status; the compliance officer or MLRO",
@@ -706,16 +718,16 @@ PEN_TBL = table([th("", ""), th("Disciplinary Fining Guideline, May 2018", "《�
        td("The MSO concerned, and other MSOs from breaching the same or similar provisions", "有關金錢服務經營者，以及防止其他經營者違反相同或類似條文", DFG("5")),
        td("The licensee concerned, and other licensees generally", "有關持牌人，以及一般的其他持牌人", DAG("6"))),
     '<tr>' + rh("In common", "兩者相同") + '<td colspan="2">'
-    + B("Decisions are usually publicised; a penalty should not be likely to put you in financial jeopardy; the more serious the breach, the likelier and larger the penalty; and the same four groups of factors in the figure above.",
-        "決定通常會公布；罰款不應令你陷入財政困難；違規越嚴重，越可能被罰且罰款越高；以及上圖所示相同的四組因素。")
+    + B("Decisions are usually publicised; a penalty should not be likely to put you in financial jeopardy; the more serious the breach, the likelier and larger the penalty; and the same four groups of factors in paragraph 9: (a) the nature, seriousness and impact of the contravention; (b) the conduct after the contravention; (c) the previous disciplinary record and compliance history; (d) other relevant factors. The figure above sorts the factors by their effect, not by group.",
+        "決定通常會公布；罰款不應令你陷入財政困難；違規越嚴重，越可能被罰且罰款越高；以及第9段相同的四組因素：(a)有關違規行為的性質、嚴重性及影響；(b)作出違規行為後的行為；(c)過往的紀律處分紀錄及合規情況；(d)其他相關的因素。上圖按因素的作用排列，而非按組別。")
     + cite_html(cc(DFG("3, 7–9"), DAG("4, 7–9"))) + '</td></tr>',
 ], note=B("What each guideline is in law, and why they share a name, is on the <a href=\"#p2-guidelines\">Part 2 page</a>.", "兩份指引在法律上的地位，以及名稱為何相近，見<a href=\"#p2-guidelines\">第2部一頁</a>。"), minw=820, cls='cmp')
 
 J_ = sec('penalty', [("Disciplinary Fining Guideline", "《紀律處分罰款指引》"), ("May 2018 · s.23", "2018年5月 · 第23條"),
                      ("Disciplinary Action Guideline", "《施加罰款紀律行動指引》"), ("April 2018 · s.45", "2018年4月 · 第45條")],
          ("How the Commissioner sets a pecuniary penalty", "關長如何釐定罰款"),
-    P("The two guidelines list the same factors, numbered the same way in paragraph 9. On the left are those that make a penalty heavier, on the right those that make it lighter. Both columns feed the grey box where seriousness is weighed. Of the other grey boxes, the ceiling and \"Not your ruin\" (paragraph 7) are limits that hold whatever the factors say. \"Consistency\" is not a limit, and its arrow runs up into the seriousness box: it is itself among the factors weighed in judging seriousness (paragraphs 9(c)(iii) and 9(d)(ii)). What was done in similar cases, and what other authorities did about the same incident, count too.",
-      "兩份指引列出相同的因素，並同樣編號於第9段。左邊令罰款較重，右邊令罰款較輕。兩邊的因素都導向衡量嚴重程度的灰色方格。其餘灰色方格中，「上限」及「不致令你陷入財政困難」（第7段）是不論因素為何都適用的限制。「一致」並非限制，故其箭頭向上導向衡量嚴重程度的方格：它同屬第9段衡量嚴重程度時考慮的因素（第9(c)(iii)及9(d)(ii)段）。過往類似個案的處理，以及其他有關當局就相同事件採取的行動，亦會納入考慮。")
+    P("The two guidelines list the same factors, numbered the same way in paragraph 9. On the left are those that make a penalty heavier, on the right those that make it lighter. Both columns feed the grey box where seriousness is weighed. Of the other grey boxes, the ceiling and \"Not your ruin\" (paragraph 7) are limits that hold whatever the factors say. \"Like cases, and other authorities\" is not a limit, and its arrow runs up into the seriousness box: what was done in previous similar cases (paragraph 9(d)(ii)), and any punishment imposed or regulatory action taken or likely to be taken by other relevant authorities on the same incident (paragraph 9(c)(iii)), are themselves among the factors weighed in judging seriousness, and neither is said to push the penalty one way.",
+      "兩份指引列出相同的因素，並同樣編號於第9段。左邊令罰款較重，右邊令罰款較輕。兩邊的因素都導向衡量嚴重程度的灰色方格。其餘灰色方格中，「上限」及「不致令你陷入財政困難」（第7段）是不論因素為何都適用的限制。「相若個案及其他當局」並非限制，故其箭頭向上導向衡量嚴重程度的方格：關長及／或其他有關當局曾就過往的類似個案採取甚麼行動（第9(d)(ii)段），以及其他有關當局就相同事件施加的任何懲罰或所採取或相當可能會採取的監管行動（第9(c)(iii)段），本身都是衡量嚴重程度時考慮的因素，指引沒有說明它們令罰款較重或較輕。")
     + fig(fig_scale, ("Paragraph references are to either guideline. Neither list is complete: the Commissioner considers all the circumstances, some factors may not apply, and others not listed may.",
                         "段落編號適用於兩份指引。兩份清單均非詳盡無遺：關長會考慮所有情況，部分因素未必適用，未列出的因素亦可能相關。"), SCALE_KEY)
     + PEN_TBL

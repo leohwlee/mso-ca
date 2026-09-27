@@ -87,9 +87,9 @@ B_ = sec('fatf', ["¶1.13", CIRC],
 
 # ---------------------------------------------------------------- 3. the six ordinances
 LAW_NOTE = B("The Guideline says it is very important that MSOs and their officers and staff fully understand their responsibilities under each of these laws. "
-             "Convictions under several of these ordinances also count against fitness and properness: see the <a href=\"#p5-fitproper\">Part 5 page</a>.",
+             "In determining whether a person is fit and proper, the Commissioner must have regard, in addition to any other matter the Commissioner considers relevant, to whether the person has been convicted of certain offences under the AMLO, UNATMO, DTROP or OSCO: see the <a href=\"#p5-fitproper\">Part 5 page</a>.",
              "指引指出，金錢服務經營者及它們的主管人員和職員均須充分了解他們在這些法例之下的各種責任，這點至為重要。"
-             "根據其中數條條例被定罪，亦會影響是否適當人選的判斷：見<a href=\"#p5-fitproper\">第5部一頁</a>。") + ' ' + cite_html(cc("¶1.14", "s.30(4)(a)"))
+             "關長在斷定某人是否適當人選時，除須考慮任何其他其認為有關的事宜外，亦須顧及該人是否曾被裁定犯打擊洗錢條例、《聯合國（反恐怖主義措施）條例》、《販毒（追討得益）條例》或《有組織及嚴重罪行條例》所訂的某些罪行：見<a href=\"#p5-fitproper\">第5部一頁</a>。") + ' ' + cite_html(cc("¶1.14", "s.30(4)(a)"))
 
 C_ = sec('laws', ["¶1.14–1.21", "¶1.26–1.27"],
          ("Six ordinances, and which one a question is about", "六條條例：題目問的是哪一條"),
@@ -141,7 +141,7 @@ C_ = sec('laws', ["¶1.14–1.21", "¶1.26–1.27"],
         only('tc', trap(("", "《聯合國制裁條例》：制裁對象包括人士，不只是地方"),
              ("", "指引第1.26段寫該條例「就《聯合國憲章》第七章所引起而對中華人民共和國以外地方施加制裁而訂定條文」，只提地方；但同一指引第6.7段指出，該條例授權行政長官訂立規例以執行安理會所決定的制裁，包括對若干人士及實體實施針對性金融制裁。故該條例的制裁對象是人士及中華人民共和國以外地方。"),
              cc("¶1.26", "¶6.7"))),
-        trap(("526, 537, 575: three chapter numbers in a row", "526、537、575：三個相近的章號"),
+        trap(("526, 537, 575: three chapter numbers that look alike", "526、537、575：三個相近的章號"),
              ("Weapons of mass destruction is Cap. 526, UN sanctions Cap. 537, anti-terrorism Cap. 575. The two crime-proceeds ordinances are DTROP Cap. 405 and OSCO Cap. 455, and the AMLO is Cap. 615.",
               "大規模毀滅武器為第526章，聯合國制裁為第537章，反恐怖主義措施為第575章。兩條關於犯罪得益的條例是《販毒（追討得益）條例》第405章及《有組織及嚴重罪行條例》第455章；打擊洗錢條例是第615章。"),
              "¶1.14"),
@@ -150,8 +150,8 @@ C_ = sec('laws', ["¶1.14–1.21", "¶1.26–1.27"],
 # ---------------------------------------------------------------- 4. the offences
 D_ = sec('offences', ["¶1.22–1.25", "¶1.27", "¶1.16–1.17", "¶7.6", "¶7.25"],
          ("Crimes you or any of your staff can commit", "你或你任何一名職員都可能觸犯的罪行"),
-    P("Start from the top box and follow each of the three things you might do. The black boxes are offences under DTROP, OSCO and UNATMO; each is committed by \"a person\", so they reach you and every member of your staff, not only the licensee. The dashed box at the foot, reached from the disclosure path, links to Chapter 7. The table after the figure has every penalty the Guideline gives for these crimes and for terrorist financing.",
-      "由頂部方格開始，沿你可能採取的三種做法往下看。黑色方格是《販毒（追討得益）條例》、《有組織及嚴重罪行條例》及《聯合國（反恐怖主義措施）條例》下的罪行；條文針對的是「任何人」，因此適用於你及你的每一名職員，而不限於持牌人。底部的虛線方格由披露一路引出，連結至第7章。圖後的表格列出指引就這些罪行及恐怖分子資金籌集所載的每項刑罰。")
+    P("Start from the top box and follow each of the three things you might do. The black boxes are offences under DTROP, OSCO and UNATMO. None of them is limited to the licensee, so they reach you and every member of your staff. The dashed box at the foot, reached from the disclosure path, links to Chapter 7. The table after the figure has every penalty the Guideline gives for these crimes and for terrorist financing.",
+      "由頂部方格開始，沿你可能採取的三種做法往下看。黑色方格是《販毒（追討得益）條例》、《有組織及嚴重罪行條例》及《聯合國（反恐怖主義措施）條例》下的罪行。這些罪行並不限於持牌人，因此適用於你及你的每一名職員。底部的虛線方格由披露一路引出，連結至第7章。圖後的表格列出指引就這些罪行及恐怖分子資金籌集所載的每項刑罰。")
     + fig(fig_offences, ("The failure-to-disclose offence covers property that represents proceeds of, was used in connection with, or is intended to be used in connection with, drug trafficking or an indictable offence, and terrorist property. The dealing offence covers proceeds only.",
                           "未有披露的罪行涵蓋代表販毒或可公訴罪行的得益、曾在與其有關的情況下使用或擬如此使用的財產，以及恐怖分子財產。處理得益的罪行則只涵蓋得益。"), OFF_KEY)
     + numreq([
@@ -183,12 +183,13 @@ D_ = sec('offences', ["¶1.22–1.25", "¶1.27", "¶1.16–1.17", "¶7.6", "¶7.
          cc("¶1.25", "¶7.6", DISC)),
     ], minw=860)
     + traps(
-        trap(("Four offences, four different states of mind", "四項罪行，四種不同的心態要求"), None, cc("¶1.22", "¶1.24–1.25", "¶1.27", "¶6.10", WMD4),
+        trap(("Three offences and one prohibition, four different states of mind", "三項罪行及一項禁止規定，四種不同的心態要求"), None, cc("¶1.22", "¶1.24–1.25", "¶1.27", "¶6.10", WMD4),
              vs=[(("Dealing", "處理得益"), ("Knowing, or having reasonable grounds to believe, that the property is proceeds.", "知道或有合理理由相信該財產是得益。")),
                  (("Failure to disclose", "未有披露"), ("Knowledge or suspicion that the property is proceeds or terrorist property.", "知悉或懷疑該財產是得益或恐怖分子財產。")),
                  (("Tipping off", "通風報訊"), ("Knowing or suspecting that a disclosure has been made.", "知道或懷疑已曾作出披露。")),
-                 (("Providing services (PF)", "提供服務（擴散資金籌集）"), ("Believing or suspecting, on reasonable grounds, that the services may be connected to PF. Services are widely defined and include lending money or other financial assistance. Chapter 1 gives no penalty.",
-                                                                      "基於合理理由相信或懷疑該等服務可能與擴散資金籌集有關。提供服務的定義廣泛，包括借出款項或以其他方式提供財政資助。指引第1章沒有列明刑罰。"))]),
+                 (("Providing services (PF): prohibited by WMD(CPS)O section 4", "提供服務（擴散資金籌集）：《大規模毀滅武器（提供服務的管制）條例》第4條禁止"),
+                  ("Believing or suspecting, on reasonable grounds, that the services may be connected to PF. Services are widely defined and include lending money or other financial assistance. Chapter 1 describes this only as a prohibition and gives no penalty.",
+                   "基於合理理由相信或懷疑該等服務可能與擴散資金籌集有關。提供服務的定義廣泛，包括借出款項或以其他方式提供財政資助。指引第1章只把此描述為禁止規定，沒有列明刑罰。"))]),
         only('tc', trap(("", "提供服務：基於合理理由相信或懷疑「可能」與擴散資金籌集有關，已足夠"),
              ("", "指引第1.27段寫第4條禁止某人提供任何服務予他人，「如該人基於合理理由相信或懷疑該等服務與擴散資金籌集有關」；但同一指引第6.10段寫該條禁止任何人提供任何基於合理理由相信或懷疑「可能」與擴散資金籌集有關的服務。故只要基於合理理由相信或懷疑服務可能與擴散資金籌集有關，禁令即適用。"),
              cc("¶1.27", "¶6.10"))),
@@ -204,10 +205,10 @@ D_ = sec('offences', ["¶1.22–1.25", "¶1.27", "¶1.16–1.17", "¶7.6", "¶7.
 # ---------------------------------------------------------------- 5. status of the Guideline
 E_ = sec('status', ["¶1.1–1.8"],
          ("Reading the Guideline: 'should' binds you as much as 'must'", "閱讀指引：「應」與「須」同樣具約束力"),
-    P("Start from the top box, a requirement you have not met, and read the three boxes below it left to right. The two red boxes are what can follow for the MSO and for the people behind it; the dashed box links to the Part 2 page.",
-      "由頂部方格開始，即你未有遵守的一項規定，然後由左至右閱讀下方三個方格。兩個紅色方格分別是金錢服務經營者本身及其背後人士所面對的後果；虛線方格連結至第2部一頁。")
-    + fig(fig_status, ("Both red boxes say 'may': the MSO may face disciplinary and other action, and non-compliance may also reflect adversely on the fitness and properness of the people behind it (¶1.3).",
-                        "留意兩個紅色方格的用詞：經營者「或會」面對紀律行動及其他行動；經營者不遵從指引，「將」對其背後人士作為適當人選帶有負面影響（第1.3段）。"), STATUS_KEY)
+    P("Start from the top box, a requirement you have not met, and read the three boxes below it left to right. The two red boxes are what can follow for the MSO itself, and for its sole proprietor, partner, director and ultimate owner; the dashed box links to the Part 2 page.",
+      "由頂部方格開始，即你未有遵守的一項規定，然後由左至右閱讀下方三個方格。兩個紅色方格分別是金錢服務經營者本身，以及其獨資經營者、合夥人、董事和最終擁有人所面對的後果；虛線方格連結至第2部一頁。")
+    + fig(fig_status, ("Both red boxes say 'may': the MSO may face disciplinary and other action, and non-compliance may also reflect adversely on the fitness and properness of its sole proprietor, partner, director and ultimate owner, where applicable (¶1.3).",
+                        "留意兩個紅色方格的用詞：經營者「或會」面對紀律行動及其他行動；經營者不遵從指引，「將」對其獨資經營者、合夥人、董事和最終擁有人（如適用）作為適當人選帶有負面影響（第1.3段）。"), STATUS_KEY)
     + traps(
         trap(("'Should' is not a softer 'must'", "「應」不是較寬鬆的「須」"), None, "¶1.6",
              vs=[(("Must", "須／必須"), ("A mandatory requirement.", "強制規定。")),
@@ -229,6 +230,6 @@ G1_META = dict(
     title=("Threats, Laws and Offences", "威脅、法例與罪行"),
     lede=("Chapter 1 is the general knowledge the first module tests: what laundering, terrorist financing and proliferation financing are, the international standard behind Hong Kong's rules, the six ordinances that carry them, and the crimes you or any of your staff can commit under them. It also settles how to read the rest of the Guideline: a 'should' binds you as firmly as a 'must'.",
           "第1章是第一個單元考核的常識：洗錢、恐怖分子資金籌集及擴散資金籌集是甚麼，香港規則背後的國際標準，實施這些標準的六條條例，以及你或你任何一名職員都可能因而觸犯的罪行。本章亦確立閱讀指引其餘部分的方法：「應」與「須」同樣具約束力。"),
-    foot=("Drawn from Chapter 1 (paragraphs 1.1 to 1.27) and the Glossary of the C&amp;ED Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Money Service Operators), June 2023, with paragraph 6.1 for the contrast between ML and TF, paragraph 7.25 for the statutory defence, section 30(4)(a) of the AMLO, and the C&amp;ED circular MSSB/FATF_02/2026 of 3 July 2026 on the FATF's statements.",
-          "取材自海關《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》（2023年6月）第1章（第1.1至1.27段）及詞彙部分；洗錢與恐怖分子資金籌集的分別取自第6.1段，法定免責辯護取自第7.25段，另參考打擊洗錢條例第30(4)(a)條，以及海關2026年7月3日有關特別組織聲明的通函。"),
+    foot=("Drawn from Chapter 1 (paragraphs 1.1 to 1.27) and the Glossary of the C&amp;ED Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Money Service Operators), June 2023, with paragraph 6.1 for the contrast between ML and TF, paragraphs 6.7 and 6.10 for the UNSO and the WMD(CPS)O, paragraph 7.6 for tipping off, paragraph 7.25 for the statutory defence, section 30(4)(a) of the AMLO, and the C&amp;ED circular MSSB/FATF_02/2026 of 3 July 2026 on the FATF's statements.",
+          "取材自海關《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》（2023年6月）第1章（第1.1至1.27段）及詞彙部分；洗錢與恐怖分子資金籌集的分別取自第6.1段，《聯合國制裁條例》及《大規模毀滅武器（提供服務的管制）條例》取自第6.7及6.10段，通風報訊取自第7.6段，法定免責辯護取自第7.25段，另參考打擊洗錢條例第30(4)(a)條，以及海關2026年7月3日有關特別組織聲明的通函。"),
 )

@@ -86,8 +86,8 @@ A = sec('bench', [("Schedule 4", "附表4"), ("with s.55–s.58", "另及第55�
         ("Who sits on a review", "誰審理覆核"),
     P("Read from the top: one appointing authority, two pools of people, and the three who sit. The dashed arrow is the chairperson's only part in choosing the other two.",
       "由上而下閱讀：一個委任當局、兩批人選，以及三名出席聆訊的人。虛線箭頭是主席在選擇另外兩人時唯一的角色。")
-    + fig(fig_bench, ("Schedule 4 has effect because section 58 says so, and the Secretary may amend it by notice in the Gazette. The Secretary may also set up additional tribunals, each run on the same rules.",
-                        "附表4因第58條的規定而具有效力，局長可藉憲報公告修訂。局長亦可增設審裁處，每個均按相同規則運作。"),
+    + fig(fig_bench, ("Schedule 4 has effect because section 58 says so, and the Secretary may amend it by notice in the Gazette. The Secretary may also set up additional tribunals, and the Ordinance applies to each of them, with necessary modifications, as it applies to the Tribunal (s.55(3)).",
+                        "附表4因第58條的規定而具有效力，局長可藉憲報公告修訂。局長亦可增設審裁處，而本條例的條文在經必要的變通後，適用於每個增設的審裁處（第55(3)條）。"),
           BENCH_KEY)
     + table([th("", ""), th("The chairperson", "主席"), th("A panel member", "委員"), th("An ordinary member (sits on one review)", "普通成員（就一項覆核行事）")], [
         tr(rh("Qualification", "資格"), td("Eligible for appointment as a High Court judge", "具資格根據《高等法院條例》獲委任為法官", "s.56(2)"),
@@ -117,16 +117,16 @@ A = sec('bench', [("Schedule 4", "附表4"), ("with s.55–s.58", "另及第55�
          "s.3(1)–(2), 5(1) Sch. 4"),
         (("2 ordinary members", "2名普通成員"),
          ("With the chairperson, the members who must be present at every sitting", "連同主席，每次聆訊必須出席的成員"),
-         ("Every sitting, unless the review is being decided by the chairperson alone", "每次聆訊，除非覆核由主席單獨裁定"),
-         ("Without them the Tribunal is not properly constituted, except where the chairperson may sit alone", "如他們缺席，審裁處即未妥為組成，但主席可單獨審理的情況除外"),
+         ("Every sitting, unless the chairperson is determining the review or an application as the sole member of the Tribunal", "每次聆訊，除非主席作為審裁處唯一成員裁定覆核或申請"),
+         ("Schedule 4 states no consequence: it says only that they must be present", "附表4並無訂明後果，只規定他們須出席"),
          "s.56(1) · s.6(3), 9 Sch. 4"),
     ])
     + traps(
-        trap(("The Secretary appoints the Tribunal; the Chief Justice appoints only a stand-in for a stay", "審裁處由局長委任；終審法院首席法官只委任處理暫緩執行申請的代任法官"), None, "s.56(1) · s.4(1), 9(5) Sch. 4",
+        trap(("The Secretary appoints the Tribunal; the Chief Justice appoints only a stand-in for one kind of stay application", "審裁處由局長委任；終審法院首席法官只為一類暫緩執行申請委任代任法官"), None, "s.56(1) · s.4(1), 9(2)(b), 9(5) Sch. 4",
              vs=[(("The Secretary for Financial Services and the Treasury", "財經事務及庫務局局長"),
                   ("Appoints the chairperson, the panel, and the 2 ordinary members for each review (on the chairperson's recommendation).", "委任主席、委員團，以及（按主席的建議）每項覆核的2名普通成員。")),
                  (("The Chief Justice", "終審法院首席法官"),
-                  ("Appoints a judge or deputy judge of the Court of First Instance to decide a stay application when the chairperson cannot act, or considers it improper or undesirable to act.", "當主席不能處理暫緩執行申請，或認為由自己處理是不恰當或不可取時，委任原訟法庭法官或暫委法官裁定該申請。"))]),
+                  ("Appoints a judge or deputy judge of the Court of First Instance to decide an application for a stay of execution of the specified decision (s.69(2)) when the chairperson cannot act, or considers it improper or undesirable to act.", "當主席不能處理暫緩執行指明決定的申請（第69(2)條），或認為由自己處理是不恰當或不可取時，委任原訟法庭法官或暫委法官裁定該申請。"))]),
     ))
 
 # ---------------------------------------------------------------- B. how a sitting runs
@@ -138,10 +138,10 @@ B_ = sec('sitting', ["s.6 Sch. 4", "s.10 Sch. 4"],
         tr(rh("Convening and directions", "召開聆訊及指示", "s.6(1)–(2) Sch. 4"), td("The chairperson convenes sittings as often as needed, and may at any time after an application arrives give the parties directions on procedure and on time limits for complying", "主席按需要召開聆訊，並可在接獲申請後隨時就程序事宜及遵從時限向各方作出指示")),
         tr(rh("Who must be present", "誰須出席", "s.6(3)–(4) Sch. 4"), td("The chairperson and 2 ordinary members; the chairperson presides", "主席及2名普通成員；由主席主持")),
         tr(rh("How questions are decided", "問題如何裁定", "s.6(5) Sch. 4"), td("By majority of the votes cast by the chairperson and the ordinary members, except that a <b>question of law is decided by the chairperson alone</b>", "由主席及普通成員所投的過半數票裁定，但<b>法律問題由主席單獨裁定</b>", post=flag())),
-        tr(rh("In public or in private", "公開或閉門", "s.6(6)–(8) Sch. 4"), td("<b>In public</b> unless the Tribunal decides, on its own initiative or on a party's application, that the interests of justice require a private sitting. An application for a private sitting is itself heard in private", "<b>公開進行</b>，除非審裁處主動或應任何一方的申請，裁定為達致公正須閉門進行。閉門聆訊的申請本身須閉門聆訊", post=flag())),
-        tr(rh("Who may speak for a party", "誰可代表一方陳詞", "s.6(9), (11) Sch. 4"), td("The party in person, a corporation through an officer or employee, a partnership through a partner, and the Commissioner through a public officer employed in Customs; or a solicitor or counsel; or anyone else with the Tribunal's leave", "當事人親自陳詞；法團透過高級人員或僱員；合夥透過合夥人；關長透過受僱於香港海關的公職人員；或透過律師或大律師；或在審裁處許可下透過任何其他人")),
+        tr(rh("In public or in private", "公開或閉門", "s.6(6)–(8) Sch. 4"), td("<b>In public</b>, unless the Tribunal, on its own initiative or on a party's application, determines that in the interests of justice a sitting or part of it should not be held in public: it <b>may</b> then hold that sitting or part in private. The hearing of an application for a private sitting must itself be held in private", "<b>公開進行</b>，除非審裁處主動或應任何一方的申請而裁定，為達致公正，某次聆訊或其中任何部分不應該公開進行，則審裁處<b>可</b>閉門進行該次聆訊或該部分聆訊。閉門聆訊的申請，其聆訊須閉門進行", post=flag())),
+        tr(rh("Who may speak for a party", "誰可代表一方陳詞", "s.6(9), (11) Sch. 4"), td("The party in person, a corporation through an officer or employee, a partnership through a partner, and the Commissioner through a public officer employed in the Customs and Excise Department; or a solicitor or counsel; or anyone else with the Tribunal's leave", "當事人親自陳詞；法團透過高級人員或僱員；合夥透過合夥人；關長透過受僱任職於香港海關的公職人員；或透過律師或大律師；或在審裁處許可下透過任何其他人")),
         tr(rh("The record", "紀錄", "s.6(10) Sch. 4"), td("The chairperson prepares a record of the proceedings of every sitting", "主席須為每次聆訊擬備程序紀錄")),
-        tr(rh("Privileges and immunities", "特權和豁免權", "s.10 Sch. 4"), td("The Tribunal, its members, the parties, witnesses and lawyers have those they would have in civil proceedings in the Court of First Instance", "審裁處、其成員、各方、證人及律師享有的特權和豁免權，與在原訟法庭進行的民事法律程序相同")),
+        tr(rh("Privileges and immunities", "特權和豁免權", "s.10 Sch. 4"), td("Except as otherwise provided in the Ordinance, the Tribunal, its chairperson and ordinary members, the parties to a review, and any witness, solicitor, counsel or other person involved in a review have the same privileges and immunities in respect of the review as they would have if it were civil proceedings before the Court of First Instance", "除本條例另有規定外，審裁處、其主席及普通成員，以及覆核的各方，以及覆核所涉的任何證人、律師、大律師或其他人，就該項覆核享有的特權和豁免權，與假使該項覆核是在原訟法庭進行的民事法律程序該等人士便會享有的一樣")),
     ], minw=720))
 
 # ---------------------------------------------------------------- C. shortcuts
@@ -159,23 +159,23 @@ C_ = sec('shortcuts', ["s.7–s.9 Sch. 4"],
         tr(rh("The chairperson alone decides the whole review", "主席單獨裁定整項覆核", "s.9(1), (3) Sch. 4"),
            td("The parties tell the Tribunal in writing, <b>before any sitting</b>, that they agree to it", "各方<b>在任何聆訊舉行前</b>以書面通知審裁處，表示同意"),
            td("The chairperson sitting alone counts for all purposes as the full Tribunal", "由主席作為審裁處唯一成員構成的審裁處，就所有目的而言，須視為連同2名普通成員構成的審裁處")),
-        tr(rh("The chairperson alone decides an application to extend time, or for a stay", "主席單獨裁定延展限期或暫緩執行的申請", "s.9(2), (4) Sch. 4"),
-           td("<b>Nothing further</b>: no agreement is needed for these two", "<b>毋須其他條件</b>：這兩類申請毋須各方同意", post=flag()),
-           td("After deciding a stay, the chairperson reports the decision and reasons to the Tribunal", "裁定暫緩執行後，主席須向審裁處報告裁定及理由")),
-        tr(rh("The chairperson cannot, or considers he should not, hear a stay application", "主席不能或認為不宜處理暫緩執行申請", "s.9(5) Sch. 4"),
+        tr(rh("The chairperson alone decides an application to extend the time for applying for review (s.59(2)), or for a stay of execution of the specified decision (s.69(2))", "主席單獨裁定延展提出覆核申請的限期的申請（第59(2)條），或暫緩執行指明決定的申請（第69(2)條）", "s.9(2), (4) Sch. 4"),
+           td("<b>Nothing further</b>: no agreement is needed for these two. An application for a stay of execution of the Tribunal's own determination (s.70) is not one of them", "<b>毋須其他條件</b>：這兩類申請毋須各方同意。申請暫緩執行審裁處的裁定（第70條）並不屬這兩類申請", post=flag()),
+           td("After deciding a stay of the specified decision, the chairperson reports the decision and reasons to the Tribunal", "裁定暫緩執行指明決定的申請後，主席須向審裁處報告裁定及理由")),
+        tr(rh("The chairperson cannot, or considers he should not, hear an application for a stay of the specified decision", "主席不能或認為不宜處理暫緩執行指明決定的申請", "s.9(5) Sch. 4"),
            td("Illness, absence from Hong Kong or another cause, or he considers it improper or undesirable to act", "因傷病、不在香港或其他因由而不能執行職能，或主席認為由自己處理是不恰當或不可取的"),
            td("A judge or deputy judge of the Court of First Instance, appointed by the Chief Justice, decides it as if chairperson", "由終審法院首席法官委任的原訟法庭法官或暫委法官，猶如主席般裁定")),
     ], minw=760)
     + traps(
         trap(("Sitting alone: agreement for a review, none for two applications", "單獨審理：覆核須同意，兩類申請則毋須"), None, "s.9(1)–(2) Sch. 4",
              vs=[(("The whole review", "整項覆核"), ("Only if the parties agree in writing before any sitting.", "須各方在任何聆訊前以書面同意。")),
-                 (("An extension of time, or a stay", "延展限期或暫緩執行"), ("The chairperson may decide these alone, with no agreement needed.", "主席可單獨裁定，毋須各方同意。"))]),
+                 (("An extension of time to apply for review, or a stay of the specified decision", "延展提出覆核申請的限期，或暫緩執行指明決定"), ("The chairperson may decide these two applications alone, with no agreement needed.", "主席可單獨裁定這兩類申請，毋須各方同意。"))]),
     ))
 
 # ---------------------------------------------------------------- D. changes mid-review
 D_ = sec('changes', ["s.5 Sch. 4", "s.4(5) Sch. 4"],
          ("When people change during a review", "覆核期間的人事變動"),
-    P("Two rules decide whether a review survives a change of people.", "兩條規則決定覆核在人事變動後能否繼續。")
+    P("Three rules decide what happens to a review when people change.", "三條規則決定覆核在人事變動後會怎樣。")
     + table([th("What changes", "發生甚麼變動"), th("What happens to the review", "覆核會怎樣")], [
         tr(rh("The chairperson's term ends before the review is decided", "主席任期在覆核裁定前屆滿", "s.5(1) Sch. 4"), td("He may carry on as chairperson for that review until it is decided", "他可繼續擔任該項覆核的主席，直至覆核獲裁定為止")),
         tr(rh("The membership changes during the proceedings", "在程序進行期間成員有變", "s.5(2)–(3) Sch. 4"), td("The proceedings continue <b>only if the parties consent</b>. Otherwise they are discontinued, and may begin anew", "<b>須各方同意</b>，程序方可繼續；否則程序即告終止，但可重新開始", post=flag())),
