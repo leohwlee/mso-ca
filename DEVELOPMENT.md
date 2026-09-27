@@ -25,6 +25,7 @@ review found it in real questions.
 | Option length balance, rank, spread and standout | "always pick the longest" — it once passed 64% of simulated papers |
 | Citation has a locator | citing a document with no paragraph to turn to |
 | Statutory Chinese terms | wording the official Chinese editions never use |
+| Chinese 該經營者 names its operator first | "the MSO" rendered word for word as "the said operator", pointing at nothing |
 | ML/TF pairing | dropping the terrorist-financing half in Chinese |
 | No positional references | "option 2" in an explanation, when options are shuffled |
 | No duplicate stems, no shared answer across modules | one question asked twice |

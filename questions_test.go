@@ -392,6 +392,29 @@ func TestChineseStatutoryTerms(t *testing.T) {
 	}
 }
 
+// TestNoDanglingOperator: 該經營者 or 該金錢服務經營者 ("the said operator") must
+// point back to an operator the stem or the same field has already named. Used
+// cold it renders "the MSO" word for word and leaves the reader asking which
+// operator; the sources say 金錢服務經營者.
+func TestNoDanglingOperator(t *testing.T) {
+	bank := loadBank(t)
+	strip := strings.NewReplacer("該經營者", "", "該金錢服務經營者", "")
+	for _, q := range bank {
+		check := func(context, f string) {
+			for _, form := range []string{"該經營者", "該金錢服務經營者"} {
+				i := strings.Index(f, form)
+				if i >= 0 && !strings.Contains(strip.Replace(context+f[:i]), "經營者") {
+					t.Errorf("%s: %s has nothing to refer back to in %q", q.ID, form, f)
+				}
+			}
+		}
+		check("", q.Tc.Q)
+		for _, f := range append(append([]string{q.Tc.Explain}, q.Tc.Options...), q.Tc.Statements...) {
+			check(q.Tc.Q, f)
+		}
+	}
+}
+
 // TestMLTFPairing: where the English says ML/TF the Chinese must carry both
 // limbs. Dropping the terrorist-financing half changes what is being asked.
 func TestMLTFPairing(t *testing.T) {
