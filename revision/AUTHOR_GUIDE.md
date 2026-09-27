@@ -43,6 +43,9 @@ link to it instead (`<a href="#s2-monitoring">Schedule 2 page</a>`).
   differ (may / 將, or / 及, should / 必須), the English view says what the English text says and the Chinese
   view what the Chinese text says. Never compare the two versions on the page. A point that exists in one
   language's text only can be shown in that view only, with the `only-en` / `only-tc` classes.
+  The exceptions are the items the owner decided as one answer for both views (`CONFLICT-CALLS.md`): there
+  the view whose own passage departs teaches the decision from passages in its own language that support it,
+  and may show the departing wording as easy to confuse, in that view only.
 
 ## Accuracy — the non-negotiable part
 Every sentence must be grounded in a source passage, and every table cell, card and callout carries a
