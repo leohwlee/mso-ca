@@ -125,8 +125,8 @@ A = sec('chain', [("Part 2", "第2部"), "s.5", ("with Sch. 1, s.21", "另及附
                   ('stop', ("a criminal offence, tried in court", "刑事罪行，由法院審理"))]))
     + traps(
         trap(("The carve-outs in section 5 are not yours", "第5條的例外與你無關"),
-             ("There are three. Long term business limits Schedule 2 for authorized insurers; subsection (3) limits it, for licensed insurance agents, agencies and broker companies, to transactions involving certain contracts of insurance; and the $3,000 physical-device test limits it for the issue of stored value facilities by SVF licensees or banks. None of them touches a money service operator, so a question that applies any of them to you is wrong.",
-              "共有三項。「長期業務」限制附表2對獲授權保險人的適用範圍；第(3)款把附表2對持牌個人保險代理、持牌保險代理機構及持牌保險經紀公司的適用範圍，限於涉及某些保險合約的交易；$3,000及實物裝置的測試則限制其對工具持牌人或銀行發行儲值支付工具的適用範圍。這些例外全都與金錢服務經營者無關，任何把它們套用在你身上的選項都是錯的。"),
+             ("None of the three touches a money service operator, so a question that applies any of them to you is wrong: they limit Schedule 2 only for authorized insurers, for licensed insurance agents, agencies and broker companies, and for the issue of stored value facilities by SVF licensees or banks.",
+              "三項例外全都與金錢服務經營者無關，任何把它們套用在你身上的選項都是錯的：它們只限制附表2對獲授權保險人、對持牌個人保險代理、持牌保險代理機構及持牌保險經紀公司，以及對工具持牌人或銀行發行儲值支付工具的適用範圍。"),
              "s.5(2)–(4)"),
         trap(("Knowledge decides the crime, not the discipline", "明知與否決定罪行，而非紀律行動"), None, "s.5(5) · s.21(1)",
              vs=[(("Prosecution", "刑事檢控"), ("Needs the institution to have acted knowingly, or with intent to defraud.", "須證明機構明知而違反，或意圖詐騙。")),
@@ -189,19 +189,18 @@ SPEC = [
     ("Wire transfers: record, include, pass on and chase the originator and recipient information", "電傳轉帳：記錄、附上、傳遞及追補匯款人及收款人資料", True,
      ("The exemptions and the batch-file option are not", "豁免情況及群組檔案安排則不是"), "s.12 Sch. 2"),
     ("Remittance transactions other than wire transfers, of $8,000 or more: identify and verify the originator, and record the details", "$8,000或以上的匯款交易（電傳轉帳除外）：識別及核實匯款人身分，並記錄有關資料", True, None, "s.13(2) Sch. 2"),
-    ("Virtual asset transfers: obtain, record and submit the originator and recipient information", "虛擬資產轉賬：取得、記錄及提交匯款人及收款人資料", True, None, "s.13A Sch. 2"),
     ("Special requirements in other high risk situations, including any situation the Commissioner specifies in a notice in writing", "關於其他高度風險情況的規定，包括關長藉書面通知指明的情況", True, None, "s.15 Sch. 2"),
     ("Never open or keep an anonymous account, or one in a fictitious name", "不得開立或維持匿名戶口，或以虛構姓名或名稱開立的戶口", True, None, "s.16 Sch. 2"),
     ("When relying on an intermediary: obtain its data immediately, and make sure copies come on request", "依賴中介人時：立刻取得其數據或資料，並確保可應要求取得複本", True,
      ("The permission to rely, in subsection (1), is not", "第(1)款准許依賴中介人的條文則不是"), "s.18 Sch. 2"),
-    ("Effective procedures: determining whether a customer is a politically exposed person, wire and virtual asset transfers, and each kind of customer, relationship, product and transaction",
-     "有效的程序：斷定政治人物、處理電傳轉帳及虛擬資產轉賬，以及就每種客戶、業務關係、產品及交易而設的程序", True, None, "s.19 Sch. 2"),
+    ("Effective procedures: determining whether a customer is a politically exposed person, wire transfers, and each kind of customer, relationship, product and transaction",
+     "有效的程序：斷定政治人物、處理電傳轉帳，以及就每種客戶、業務關係、產品及交易而設的程序", True, None, "s.19(1), (2), (3) Sch. 2"),
     ("Keep records for at least five years, longer if a notice says so, in the manner section 21 sets out: the original, or a copy on microfilm or in the database of a computer", "備存紀錄最少五年，如有通知規定則更長，並須以第21條所列方式備存：正本，或以微縮影片或電腦數據庫備存的複本", True,
      ("The Commissioner's power to demand a longer period is not; complying with his notice is", "關長要求延長期間的權力則不是；遵從其通知才是"), "s.20–21 Sch. 2"),
     ("Make overseas branches and subsidiaries follow similar requirements, or inform the Commissioner and mitigate", "確保海外分行及附屬企業遵從類似規定，否則須通知關長並減低風險", True, None, "s.22(1)–(2) Sch. 2"),
     ("Take all reasonable measures to prevent a breach of Schedule 2 Parts 2 and 3, and to mitigate ML/TF risk", "採取所有合理措施，防止違反附表2第2及3部，並減低洗錢及恐怖分子資金籌集風險", True, None, "s.23 Sch. 2"),
-    ("Insurance policy beneficiaries, correspondent banking and shell banks", "保險單受益人、代理銀行服務及空殼銀行", True,
-     ("Specified, but written for insurers and banks, not for you", "屬指明的條文，但針對保險人及銀行，並非針對你"), "s.7, 11, 14, 17 Sch. 2"),
+    ("Insurance policy beneficiaries, correspondent banking, shell banks and virtual asset transfers", "保險單受益人、代理銀行服務、空殼銀行及虛擬資產轉賬", True,
+     ("Specified, but written for insurers, banks and financial institutions that carry out virtual asset transfers, not for you", "屬指明的條文，但針對保險人、銀行及進行虛擬資產轉賬的金融機構，並非針對你"), "s.7, 11, 13A, 14, 17, 19(2A) Sch. 2"),
 ]
 
 

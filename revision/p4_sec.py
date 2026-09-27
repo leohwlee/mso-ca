@@ -200,8 +200,8 @@ A = sec('doors', [("Part 4", "第4部"), "s.20A–s.23", ("with s.5, s.43", "另
     P("Start at the top of the diagram and follow what you actually broke; the words beside each arrow say when that door opens. Breaking a <b>Schedule 2 duty</b> always opens the Part 4 door. It also opens the criminal door if the breach was <b>knowing</b> or made with <b>intent to defraud</b>; neither s.5 nor s.21 makes one door shut the other. Breaking a <b>licence condition or a Part 5 duty</b> opens the Commissioner's s.43 door instead, with a penalty ceiling at most a tenth as high. Each of the eight Part 5 duties it lists is also an offence in its own section if broken without reasonable excuse (see the Part 5 page: <a href=\"#p5-approvals\">approvals</a> and <a href=\"#p5-duties\">ongoing duties</a>). Picking the wrong door is the easiest mark to lose here.",
       "由圖的頂端開始，順着你實際違反了甚麼往下看；每條箭咀旁的字說明該道門何時開啟。違反<b>附表2的責任</b>，必定開啟第4部的門；如屬<b>明知而違反</b>，或<b>出於詐騙意圖</b>而違反，亦會開啟刑事的門；第5條及第21條均沒有規定開啟其中一道門便排除另一道。違反<b>牌照條件或第5部的責任</b>，開啟的則是關長第43條的門，罰款上限最多只有十分之一。該條所列的八項第5部責任，如無合理辯解而違反，本身亦各屬所屬條文的罪行（見第5部一頁的<a href=\"#p5-approvals\">批准</a>及<a href=\"#p5-duties\">持續責任</a>）。選錯門，是這裏最容易失的分。")
     + U.fig(fig_doors,
-            ("Section 20A takes licensed virtual asset service providers out of Part 4 entirely by excluding them from the meaning of financial institution. Everything else in the Part reads as normal for a money service operator.",
-             "第20A條把持牌虛擬資產服務提供者排除於「金融機構」的涵義之外，因此第4部完全不適用於他們。就金錢服務經營者而言，本部其餘條文如常適用。"),
+            ("Part 4 reaches a money service operator in full; its only exclusion, section 20A, is for licensed virtual asset service providers.",
+             "第4部全面適用於金錢服務經營者；該部唯一的排除條文是第20A條，只適用於持牌虛擬資產服務提供者。"),
             U.legend([('must', ("Part 4 discipline", "第4部紀律行動")), ('may', ("Part 5 discipline", "第5部紀律行動")),
                       ('stop', ("criminal offence", "刑事罪行")), ('ok', ("your review route", "你的覆核途徑")),
                       ('', ("what you broke, or a step", "違反的規定或程序步驟"))]))
@@ -259,10 +259,6 @@ B_ = sec('procedure', ["s.22 · s.23", ("also s.44–45", "另及第44、45條")
                ("Part 4's pecuniary penalty and daily pecuniary penalty cannot be imposed on the Government, which matters because the Postmaster General is a financial institution. A public reprimand and an order to take remedial action still can be.",
                 "第4部的罰款及按日罰款不可向政府施加；由於郵政署署長屬金融機構，這一點有實際意義。公開譴責及採取糾正行動的命令則仍可施加。"),
                "s.21(9) · Sch. 1 Pt 2"),
-        U.trap(("Part 4 stops at licensed virtual asset providers", "第4部不適用於持牌虛擬資產服務提供者"),
-               ("Section 20A takes licensed VAS providers out of the meaning of financial institution for Part 4, so none of its powers reach them. Everything in it still reaches you.",
-                "第20A條把持牌虛擬資產服務提供者排除於第4部「金融機構」的涵義之外，故第4部的權力完全不適用於他們；但對你全部適用。"),
-               "s.20A"),
     ))
 
 # ---------------------------------------------------------------- C. numbers

@@ -464,7 +464,10 @@ F_ = sec('ca', [("CA Guidance Notes", "《能力評核須知》"), ("December 20
               "指引<a href=\"#g3-audit\">第3章</a>：獨立審核；<a href=\"#g7-after\">第7章</a>：提交報告後備存的登記冊；<a href=\"#g8-file\">第8章</a>：紀錄須載有的內容，以及<a href=\"#g8-elsewhere\">存放於別處的紀錄</a>；<a href=\"#g8-cycle\">第9章</a>：培訓紀錄；<a href=\"#s2-records\">附表2</a>：備存期限；<a href=\"#ci-returns\">通函一頁</a>：定期申報表")),
     ], note=B("Questions are set mainly from five public sources: the Ordinance, the AML/CFT Guideline, the Licensing Guide, the other C&amp;ED guidelines, and the circulars. The official samples give four numbered statements and five fixed options, the last being all of the above.",
               "試題主要取材自五類公開資料：條例、《打擊洗錢指引》、《牌照指引》、海關其他指引，以及通函。官方參考試題列出四項編號陳述，配以五個固定選項，最後一項為以上皆是。")
-       + ' ' + cite_html(cc(GN("5.2, 6.1"), ("Sample questions, 12 May 2021", "2021年5月12日參考試題"))), minw=760)
+       + ' ' + cite_html(cc(GN("5.2, 6.1"), ("Sample questions, 12 May 2021", "2021年5月12日參考試題")))
+       + ' ' + B("Filing sources under modules is this pack's reading: the Guidance Notes name the seven modules but not the documents behind them, and module 4, \"Guidelines promulgated by the C&amp;ED\", may also draw on the AML/CFT Guideline, which they describe as promulgated by C&amp;ED.",
+                 "把資料歸入各單元是本資料包的理解：《能力評核須知》列出七個單元的範疇，但沒有指明各單元取材自哪些文件；單元四「海關頒布的指引」亦可能涵蓋《打擊洗錢指引》，因為《須知》形容該指引由海關頒布。")
+       + ' ' + cite_html(GN("5.2, 6.1(2)")), minw=760)
     + h3("Who may sit: senior management, and why", "誰可應考：高級管理層，以及原因")
     + table([th("A candidate must be all of these", "應考者必須同時符合以下各項")], [
         tr(td("Senior management of the applicant or licensee, overseeing the operation of the money service business", "牌照申請人或持牌人的高級管理層，負責監督金錢服務業務的運作", GN("4.1(i)"))),

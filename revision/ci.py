@@ -18,10 +18,6 @@ def dcell(en, tc):
     return f'<td class="numreq"><span class="answer" tabindex="0">{B(en, tc)}</span></td>'
 
 
-def dash_td():
-    return '<td class="faint">—</td>'
-
-
 def only(lang, block):
     """A callout shown only in one language's view (and in the combined view), for a point
     that only that language's texts raise (as in gl.py)."""
@@ -61,13 +57,13 @@ A = sec('dates', [("C&ED circulars", "海關通函"), ("2018 to 2026", "2018至2
               "《貨幣兌換商條例》（第34章）的修訂：該條例附表2及3有關交易單據及展示匯率的規定"),
              ("MSOs that change money", "經營貨幣兌換服務的金錢服務經營者"), CI("17 Nov 2025")),
         drow(("15 May 2026", "2026年5月15日"),
-             ("New licence fees: Schedule 3 to the Ordinance as amended by L.N. 22 of 2026. The Licensing Guide fee schedule lists the same figures. <a href=\"#s3-fees\">The fee table</a>",
-              "新牌照費用生效：經2026年第22號法律公告修訂的條例附表3。《牌照指引》的收費表列出相同的數字。<a href=\"#s3-fees\">費用表</a>"),
+             ("The licence fees in Schedule 3 to the Ordinance as amended by L.N. 22 of 2026. The Licensing Guide fee schedule lists the same figures. <a href=\"#s3-fees\">The fee table</a>",
+              "經2026年第22號法律公告修訂的條例附表3所訂的牌照費用。《牌照指引》的收費表列出相同的數字。<a href=\"#s3-fees\">費用表</a>"),
              ("Every applicant and licensee", "所有申請人及持牌人"), cc(("Sch. 3", "附表3"), ("Licensing Guide fee schedule", "《牌照指引》收費表"))),
         drow(("19 Jun 2026", "2026年6月19日"),
-             ("The FATF's Call for Action statement of 19 June 2026, with countermeasures called for on the DPRK and Iran and EDD proportionate to the risk for Myanmar; and its updated statement on increased monitoring, which the circular does not date, adding Bosnia and Herzegovina and Iraq. The FATF also published the outcomes of its plenary of 17 to 19 June 2026. <a href=\"#edd\">The two lists</a>",
-              "特別組織於2026年6月19日發出的呼籲採取行動聲明，要求對朝鮮民主主義人民共和國及伊朗採取針對措施，對緬甸採取與風險相稱的更嚴格的盡職審查措施；以及其有關被加強監察的司法管轄區的最新聲明（通函未註明其日期），把波斯尼亞和黑塞哥維那及伊拉克加入名單。特別組織亦發表了其2026年6月17至19日全體會議的成果。<a href=\"#edd\">兩份名單</a>"),
-             ("Every MSO with customers or transactions connected to these jurisdictions", "客戶或交易與這些司法管轄區有關連的金錢服務經營者"), CI("3 Jul 2026")),
+             ("The FATF's Call for Action statement of 19 June 2026, naming the jurisdictions subject to a call for countermeasures or for EDD proportionate to the risk; and its updated statement on increased monitoring, which the circular does not date. The FATF also published the outcomes of its plenary of 17 to 19 June 2026. <a href=\"#edd\">What each statement asks</a>",
+              "特別組織於2026年6月19日發出的呼籲採取行動聲明，列出需遵從特別組織要求而採取針對措施，或採取與風險相稱的更嚴格的盡職審查措施的司法管轄區；以及其經更新的有關被加強監察的司法管轄區的聲明（通函未註明其日期）。特別組織亦發表了其2026年6月17至19日全體會議的成果。<a href=\"#edd\">各聲明的要求</a>"),
+             ("Every MSO with customers or transactions connected to the jurisdictions listed", "客戶或交易與所列司法管轄區有關連的金錢服務經營者"), CI("3 Jul 2026")),
         drow(("End of 2030", "2030年底"),
              ("All jurisdictions are expected to be ready to implement the FATF's revised Recommendation 16 on payment transparency, agreed in June 2025, by the end of 2030. The FATF consulted on guidance for it until 21 August 2026. <a href=\"#edd\">What it changes</a>",
               "所有司法區預計需於2030年底前實施特別組織於2025年6月通過的第16項建議修訂（支付透明度）。特別組織就相關指引進行諮詢，回覆須於2026年8月21日之前提交。<a href=\"#edd\">修訂內容</a>"),
@@ -320,25 +316,21 @@ G_ = sec('edd', [("FAQ", "常見問題"), ("with circulars of", "另參考"), ("
              vs=[(("Call for Action statement", "呼籲採取行動聲明"), ("The jurisdictions \"for which this is called for by the FATF\". EDD proportionate to the risk should be applied.", "屬「特別組織對其作出呼籲的司法管轄區」。應採取與風險相稱的更嚴格的盡職審查措施。")),
                  (("Increased Monitoring statement", "被加強監察聲明"), ("EDD is not mandatory; the connection should be taken into account in the customer's overall risk profile.", "毋須強制採取更嚴格的盡職審查措施；有關連繫應計入客戶的整體風險狀況。"))]),
     )
-    + h3("The lists as the FATF left them in June 2026", "特別組織於2026年6月公布的名單")
-    + P("The lists change whenever the FATF issues updated statements. This version comes from the Call for Action statement of 19 June 2026 and an updated statement on increased monitoring; the FATF also published the outcomes of its plenary of 17 to 19 June 2026. They reached MSOs by a circular of 3 July 2026 that followed an earlier one of 20 March 2026. The circular reminds you to check the FATF website for the latest statements. Each row is a jurisdiction or group; read across for what the FATF asks.",
-        "每當特別組織發出最新聲明，名單便會改變。以下版本來自特別組織於2026年6月19日發出的呼籲採取行動聲明，以及一份有關被加強監察的司法管轄區的最新聲明；特別組織亦發表了其2026年6月17至19日全體會議的成果。有關內容經2026年7月3日的通函轉達金錢服務經營者（此前一份通函於2026年3月20日發出）。通函指你應瀏覽特別組織網站，查閱最新聲明。每一行是一個或一組司法管轄區；橫向閱讀可見特別組織的要求。")
-    + table([th("Jurisdiction", "司法管轄區"), th("Which statement", "所屬聲明"), th("What the FATF calls for", "特別組織的要求")], [
-        tr(rh("Democratic People's Republic of Korea", "朝鮮民主主義人民共和國"),
+    + h3("What each FATF statement asks for", "特別組織各份聲明的要求")
+    + P("The lists change whenever the FATF issues updated statements, so learn what each kind of listing asks for, not the names on it; the circular reminds you to browse the FATF website for the statements the FATF issues from time to time. Each row is one kind of listing; read across for what the FATF calls for.",
+        "每當特別組織發出經更新的聲明，名單便會改變，因此要記的是每類名單的要求，而非名單上的名稱；通函提醒你應瀏覽特別組織的網站，查閱特別組織不時發表的聲明。每一行是一類名單；橫向閱讀可見特別組織的要求。")
+    + table([th("The listing", "名單"), th("Which statement", "所屬聲明"), th("What the FATF calls for", "特別組織的要求")], [
+        tr(rh("Jurisdictions subject to a call for countermeasures", "需遵從特別組織要求而採取針對措施的司法管轄區"),
            td("High-Risk Jurisdictions subject to a Call for Action", "呼籲各方對高風險司法管轄區採取行動的聲明"),
-           td("Countermeasures, with greater vigilance and renewed implementation and enforcement. The FATF's listed countermeasures include ending correspondent relationships with DPRK banks, closing their subsidiaries or branches, and limiting business relationships and financial transactions with DPRK persons. The FATF also highlights that, as set out in UNSCR 2270, the DPRK frequently uses front companies, shell companies, joint ventures and complex, opaque ownership structures to violate sanctions; whom to screen is on the <a href=\"#g6-screening\">Guideline Chapter 6 page</a>",
-              "採取針對措施，並需要更多的警覺性和重新實施和執行有關措施。特別組織列出的針對措施包括終止與該國銀行的代理關係、關閉該國銀行的任何子公司或分行，以及限制與該國人士的業務關係和金融交易。特別組織亦強調，正如聯合國安全理事會第2270號決議中所述，朝鮮民主主義人民共和國經常使用前置公司、空殼公司、合營公司以及複雜且不透明的擁有權結構，以達到違反制裁的目的；須篩查的對象見<a href=\"#g6-screening\">指引第6章一頁</a>", CI("3 Jul 2026", ("notes 2, 3", "註2、3")))),
-        tr(rh("Iran", "伊朗"),
+           td("Countermeasures. Examples of countermeasures are in the Interpretative Note to FATF Recommendation 19", "採取針對措施。針對措施的例子載於第19項建議的註釋內", CI("3 Jul 2026", ("note 4", "註4")))),
+        tr(rh("Jurisdictions subject to a call for EDD proportionate to the risk", "需遵從特別組織要求而採取與風險相稱的更嚴格的盡職審查措施的司法管轄區"),
            td("High-Risk Jurisdictions subject to a Call for Action", "呼籲各方對高風險司法管轄區採取行動的聲明"),
-           td("Effective countermeasures; the FATF remains concerned about terrorist financing threats from Iran", "採取有效的針對措施；特別組織繼續關注來自伊朗的恐怖分子資金籌集風險")),
-        tr(rh("Myanmar", "緬甸"),
-           td("High-Risk Jurisdictions subject to a Call for Action", "呼籲各方對高風險司法管轄區採取行動的聲明"),
-           td("EDD proportionate to the risk, called for since October 2022. As part of that EDD, the FATF requires financial institutions to increase the degree and nature of monitoring of the business relationship, to determine whether its transactions or activities appear unusual or suspicious. If no further progress is made by October 2026, the FATF will consider countermeasures", "採取與風險相稱的更嚴格的盡職審查措施，自2022年10月起已有此要求。特別組織要求金融機構在執行更嚴格的盡職審查時，應增強對業務關係的監控程度和性質，以釐清該等交易或活動是否有看似不尋常或可疑的情況。若緬甸於2026年10月或之前仍沒有取得進展，特別組織將會考慮採取針對措施", CI("3 Jul 2026", ("note 5", "註5")), post=flag())),
-        tr(rh("Jurisdictions under increased monitoring, with Bosnia and Herzegovina and Iraq newly added", "被加強監察的司法管轄區，新加入波斯尼亞和黑塞哥維那及伊拉克"),
+           td("EDD proportionate to the risks arising from the jurisdiction. As part of that EDD, the FATF requires financial institutions to increase the degree and nature of monitoring of the business relationship, to determine whether its transactions or activities appear unusual or suspicious", "採取與風險相稱的更嚴格的盡職審查措施。特別組織要求金融機構在執行更嚴格的盡職審查時，應增強對業務關係的監控程度和性質，以釐清該等交易或活動是否有看似不尋常或可疑的情況", CI("3 Jul 2026", ("note 5", "註5")), post=flag())),
+        tr(rh("Jurisdictions under increased monitoring", "被加強監察的司法管轄區"),
            td("Jurisdictions under Increased Monitoring", "有關被加強監察的司法管轄區的聲明"),
            td("They have committed to resolve strategic deficiencies swiftly within agreed timeframes; the FATF monitors their progress and encourages its members to take the statement into account in their risk analysis", "這些司法管轄區承諾於協定時間內迅速解決策略性缺失；特別組織會密切監察其進展，並鼓勵成員在進行風險分析時參考該聲明")),
-    ], note=B("For every jurisdiction identified as high-risk, the FATF calls for enhanced due diligence and, in the most serious cases, countermeasures. The circular names only the two jurisdictions added to the increased-monitoring list; the full list is on the FATF website.",
-              "就所有被識別為高風險的國家而言，特別組織要求採取更嚴格的盡職審查，並在最嚴重的情況下採取針對措施。通函只列出新加入被加強監察名單的兩個司法管轄區；完整名單載於特別組織網站。") + ' ' + cite_html(CI("3 Jul 2026")), minw=820)
+    ], note=B("For all countries identified as high-risk, the FATF calls for enhanced due diligence and, in the most serious cases, countermeasures. The circular of 3 July 2026 passed on the statements of June 2026; the lists themselves are on the FATF website.",
+              "就所有被識別為高風險的國家而言，特別組織要求採取更嚴格的盡職審查，並在最嚴重的情況下採取針對措施。2026年7月3日的通函轉達了特別組織2026年6月的聲明；名單本身載於特別組織網站。") + ' ' + cite_html(CI("3 Jul 2026")), minw=820)
     + traps(
         trap(("Two sets of names for the lists", "兩套名單名稱"), ("Learn the titles the circular of July 2026 uses, and match the FAQ's older titles to them by what each list asks for.", "應記住2026年7月通函所用的名稱，並按各名單的要求，把常見問題的舊名稱與之對應。"),
              cc(FAQ(17), CI("3 Jul 2026")),
@@ -387,10 +379,10 @@ H_ = sec('returns', [("Circular", "通函"), ("30 May 2025", "2025年5月30日")
     ))
 
 # ---------------------------------------------------------------- I. other laws
-I_ = sec('laws', [("Circulars", "通函"), ("31 Jul 2018 · 23 Jun 2025", "2018年7月31日、2025年6月23日"), ("17 Nov 2025", "2025年11月17日"), ("AMLO Parts 5B, 5C", "《打擊洗錢條例》第5B、5C部")],
-         ("Other laws, and side businesses, that reach your counter", "與你的櫃位相關的其他法例及兼營業務"),
-    P("Each row is something you might do besides running the money service, or a law outside the AMLO that a circular flagged. Read across for what it requires and since when.",
-      "每一行是你在經營金錢服務以外可能做的事，或通函提醒的條例以外法例。橫向閱讀可見其要求及生效日期。")
+I_ = sec('laws', [("Circulars", "通函"), ("31 Jul 2018 · 23 Jun 2025", "2018年7月31日、2025年6月23日"), ("17 Nov 2025", "2025年11月17日")],
+         ("Other laws that reach your counter", "與你的櫃位相關的其他法例"),
+    P("Each row is a situation under a law outside the AMLO that a circular flagged. Read across for what it requires and since when.",
+      "每一行是通函提醒的條例以外法例所涵蓋的情況。橫向閱讀可見其要求及生效日期。")
     + table([th("If you", "如你"), th("What you must do", "你必須"), th("Since", "生效日期"), th("Law and penalty", "法例及罰則")], [
         tr(td("Arrive in Hong Kong through a specified control point carrying currency or bearer negotiable instruments worth more than HK$120,000", "經指明管制站抵港，並攜帶總價值高於港幣120,000元的貨幣或不記名可轉讓票據", CI("31 Jul 2018")),
            td("Make a written declaration to a Customs officer, using the Red Channel", "使用紅通道，向海關人員作出書面申報"),
@@ -408,22 +400,13 @@ I_ = sec('laws', [("Circulars", "通函"), ("31 Jul 2018 · 23 Jun 2025", "2018�
         tr(td("Change money", "經營貨幣兌換", CI("17 Nov 2025")),
            td("Meet the Money Changers Ordinance's rules on transaction notes and the display of rates, in its Schedules 2 and 3 as amended", "遵守經修訂的《貨幣兌換商條例》附表2及3有關交易單據及展示匯率的法定責任"),
            td("Amended with effect from 24 Aug 2025", "修訂於2025年8月24日生效"), td("Money Changers Ordinance, Cap. 34", "《貨幣兌換商條例》（第34章）")),
-        tr(td("Also carry on a precious metals and stones business, in transactions with payments of at least $120,000", "兼營貴金屬及寶石業務，並進行付款總額不少於$120,000的交易", ("s.53ZUE · Sch. 3H · Sch. 3I", "第5C部「未經註冊而進行某些交易屬罪行」的條文 · 附表3H · 附表3I")),
-           td("Register with the Commissioner: no person other than a registrant may carry out such a transaction in Hong Kong", "向關長註冊：除註冊人以外，任何人均不得在香港進行這類交易"),
-           dash_td(), td("AMLO Part 5C, not covered further in this pack", "《打擊洗錢條例》第5C部，本資料包不再詳述")),
-        tr(td("Also carry on a business of providing a VA service, that is, operating a virtual asset exchange", "兼營提供虛擬資產服務的業務，即經營虛擬資產交易所", ("s.53ZRD · s.53ZRK · Sch. 3B", "第5B部「經營虛擬資產服務業務須領牌照」及「申請及批給牌照」的條文 · 附表3B")),
-           td("Be licensed by the SFC. Only a licensed provider for the VA service is outside the prohibition, so your licence to operate a money service does not cover it", "向證監會領取牌照。只有有關虛擬資產服務的持牌提供者不受此禁止所限，因此你經營金錢服務的牌照並不涵蓋此業務"),
-           dash_td(), td("AMLO Part 5B", "《打擊洗錢條例》第5B部")),
-        tr(td("Carry out virtual asset transfers for customers", "為客戶進行虛擬資產轉帳", "s.13A, 20(3A) Sch. 2"),
-           td("Meet Schedule 2's special requirements for virtual asset transfers and its record-keeping rules: see the <a href=\"#s3-lettered\">Schedule 3 page</a>", "遵守附表2有關虛擬資產轉帳的特別規定及備存紀錄的規定：見<a href=\"#s3-lettered\">附表3一頁</a>"),
-           dash_td(), td("Schedule 2, sections 13A and 20(3A)", "附表2第13A及20(3A)條")),
-    ], minw=900)
+    ], note=B("Your licence under the AMLO is a licence to operate a money service; dealings in precious metals and stones, and activities involving virtual assets, are regulated separately, under its Parts 5C and 5B.",
+              "你根據《打擊洗錢條例》持有的牌照，是經營金錢服務的牌照；從事貴金屬及寶石交易，以及涉及虛擬資產的活動，則另受該條例第5C部及第5B部規管。") + ' ' + cite_html(("s.30(2) · Parts 5B, 5C", "第30(2)條 · 第5B、5C部")), minw=900)
     + traps(
-        trap(("Three $120,000 lines, and 'more than' is not 'at or above'", "三條$120,000界線，「高於」不等於「或以上」"), None,
-             cc(CI("31 Jul 2018"), "s.3(1)(b) Sch. 2", ("s.53ZUE · Sch. 3H · Sch. 3I", "第5C部「未經註冊而進行某些交易屬罪行」的條文 · 附表3H · 附表3I")),
+        trap(("Two $120,000 lines, and 'more than' is not 'equal to or above'", "兩條$120,000界線，「高於」不等於「或以上」"), None,
+             cc(CI("31 Jul 2018"), "s.3(1)(b), (1A)(a) Sch. 2"),
              vs=[(("Crossing the boundary", "跨境"), ("More than HK$120,000 in currency or bearer negotiable instruments carried or shipped: declare it.", "攜帶或運送的貨幣或不記名可轉讓票據總價值高於港幣120,000元：須申報。")),
-                 (("Your own CDD", "你的盡職審查"), ("An occasional transaction of $120,000 or more, unless it is a wire transfer or a virtual asset transfer, which have their own $8,000 line.", "涉及相等於$120,000或以上的款額的非經常交易即須進行；電傳轉帳及虛擬資產轉帳則另有$8,000的界線。")),
-                 (("A precious metals sideline", "兼營貴金屬"), ("Transactions with payments of at least $120,000: only a registrant may carry them out.", "付款總額不少於$120,000的交易：只有註冊人才可進行。"))]),
+                 (("Your own CDD", "你的盡職審查"), ("An occasional transaction of $120,000 or more, unless it is a wire transfer, which has its own $8,000 line.", "涉及相等於$120,000或以上的款額的非經常交易即須進行；電傳轉帳則另有$8,000的界線。"))]),
     ))
 
 CI_NAV = [('dates', 'What took effect when', '生效日期'), ('warnings', 'Risk warnings', '風險警示'),
@@ -435,5 +418,5 @@ CI_BODY = A + B_ + C_ + D_ + F_ + G_ + H_ + I_
 
 # The page footer, used by the ci entry in pack_build.py. It names only the circulars that are
 # still current sources, plus the one superseded circular whose five STR filing points are kept.
-CI_FOOT = ("Drawn from the C&amp;ED circulars to money service operators dated 31 July 2018, 13 December 2021, 22 November 2023, 17 September 2024, 24 April 2025 (fraudulent websites and social media), 30 May 2025, 23 June 2025 (the e-form for declaring currency and bearer negotiable instruments), 17 November 2025, 20 January 2026, 3 July 2026 (the FATF statements of June 2026) and 16 July 2026 (the FATF consultation on Recommendation 16 guidance), and the FAQ applicable to all money service operators on the C&amp;ED portal, with paragraphs 7.1(f) and 11.2 and the fee schedule of the Licensing Guide; paragraphs 2.2, 2.3, 2.13, 3.2, 4.1.2, 4.1.3, 4.3.1, 4.3.3, 4.4.5, 4.9.15, 4.10.2, 4.15.1, 5.2, 6.16 to 6.18, 8.5, 10.5 and Appendix A of the AML/CFT Guideline; sections 34(1), 53ZRD, 53ZRK and 53ZUE of, and Schedules 2, 3, 3B, 3H and 3I to, the Ordinance; and section 25(4) of the Organized and Serious Crimes Ordinance.",
-           "取材自海關致金錢服務經營者的通函（日期為2018年7月31日、2021年12月13日、2023年11月22日、2024年9月17日、2025年4月24日（欺詐網站及社交媒體）、2025年5月30日、2025年6月23日（申報現金類物品的電子表格）、2025年11月17日、2026年1月20日、2026年7月3日（特別組織2026年6月的聲明）及2026年7月16日（特別組織就第16項建議指引的諮詢）），以及海關網站上適用於所有金錢服務經營者的常見問題，並參考《牌照指引》第7.1(f)及11.2段及收費表、《打擊洗錢指引》第2.2、2.3、2.13、3.2、4.1.2、4.1.3、4.3.1、4.3.3、4.4.5、4.9.15、4.10.2、4.15.1、5.2、6.16至6.18、8.5、10.5段及附錄A、條例第34(1)條、第5B部有關虛擬資產服務牌照的條文、第5C部有關貴金屬及寶石交易註冊的條文，以及附表2、3、3B、3H及3I，以及《有組織及嚴重罪行條例》第25(4)條。")
+CI_FOOT = ("Drawn from the C&amp;ED circulars to money service operators dated 31 July 2018, 13 December 2021, 22 November 2023, 17 September 2024, 24 April 2025 (fraudulent websites and social media), 30 May 2025, 23 June 2025 (the e-form for declaring currency and bearer negotiable instruments), 17 November 2025, 20 January 2026, 3 July 2026 (the FATF statements of June 2026) and 16 July 2026 (the FATF consultation on Recommendation 16 guidance), and the FAQ applicable to all money service operators on the C&amp;ED portal, with paragraphs 7.1(f) and 11.2 and the fee schedule of the Licensing Guide; paragraphs 2.2, 2.3, 2.13, 3.2, 4.1.2, 4.1.3, 4.3.1, 4.3.3, 4.4.5, 4.9.15, 4.10.2, 4.15.1, 5.2, 6.16 to 6.18, 8.5, 10.5 and Appendix A of the AML/CFT Guideline; sections 30(2) and 34(1), the headings of Parts 5B and 5C, and Schedules 2 and 3 of the Ordinance; and section 25(4) of the Organized and Serious Crimes Ordinance.",
+           "取材自海關致金錢服務經營者的通函（日期為2018年7月31日、2021年12月13日、2023年11月22日、2024年9月17日、2025年4月24日（欺詐網站及社交媒體）、2025年5月30日、2025年6月23日（申報現金類物品的電子表格）、2025年11月17日、2026年1月20日、2026年7月3日（特別組織2026年6月的聲明）及2026年7月16日（特別組織就第16項建議指引的諮詢）），以及海關網站上適用於所有金錢服務經營者的常見問題，並參考《牌照指引》第7.1(f)及11.2段及收費表、《打擊洗錢指引》第2.2、2.3、2.13、3.2、4.1.2、4.1.3、4.3.1、4.3.3、4.4.5、4.9.15、4.10.2、4.15.1、5.2、6.16至6.18、8.5、10.5段及附錄A、條例第30(2)及34(1)條、第5B部及第5C部的標題，以及附表2及3，以及《有組織及嚴重罪行條例》第25(4)條。")

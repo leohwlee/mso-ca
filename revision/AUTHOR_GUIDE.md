@@ -64,6 +64,9 @@ Extract their text first (e.g. `pdftotext -layout`) and search it for distinctiv
   Guide says 業務處所 and 銀行帳戶, the Business Plan guideline 營業處所 and 銀行戶口; Schedule 2 writes
   虛擬資產轉賬, the Guideline 虛擬資產轉帳). Some text extracts store common characters as look-alike code points
   (行 as U+FA08, 金 as U+F90A), so normalise them before concluding that a term is absent.
+- Short names are labels, not key terms: AMLO and 《打擊洗錢條例》, and the abbreviations MSO and CDD, which the
+  official sample paper itself uses, may appear anywhere, including beside a passage that cites only the
+  Ordinance (which calls itself "this Ordinance" / 本條例). The owner decided this on 27 September 2026.
 - If two documents conflict, teach the side the owner chose (`CONFLICT-CALLS.md`); for a conflict not listed
   there, say so neutrally and ask the owner rather than picking one silently.
 

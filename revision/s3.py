@@ -1,4 +1,5 @@
-# AMLO Schedule 3: fees, with the lettered Schedules 3A to 3K that follow it.
+# AMLO Schedule 3: fees. The lettered Schedules 3A to 3K that follow it belong to other
+# regimes and get one boundary line in the rules table.
 from ui import *
 
 FEE_SRC = (("Sch. 3", "附表3"), ("Licensing Guide fee schedule", "《牌照指引》收費表"))
@@ -101,7 +102,7 @@ B_ = sec('bill', ["items 4–5 Sch. 3", "s.30(3)"],
 # ---------------------------------------------------------------- C. who sets fees, and refunds
 C_ = sec('rules', ["s.50", "s.34(7) · s.41(3)", "s.27–s.28"],
          ("Who sets the fees, and when money is not returned", "誰訂定費用，以及何時不獲退還"),
-    P("Five short questions with fixed answers.", "五條答案固定的簡短問題。")
+    P("Six short questions with fixed answers.", "六條答案固定的簡短問題。")
     + table([th("The question", "問題"), th("The answer", "答案")], [
         tr(rh("Who can change the fees?", "誰可修改費用？", "s.50 · s.26"),
            td("The Commissioner, by notice in the Gazette. Unlike making Part 5 regulations, this is a power he may delegate", "關長，藉憲報公告修改。與訂立第5部規例不同，這是一項他可以轉授的權力")),
@@ -113,36 +114,10 @@ C_ = sec('rules', ["s.50", "s.34(7) · s.41(3)", "s.27–s.28"],
            td("Part 5 gives him no such power. The fee waivers in the Ordinance sit in the virtual asset and precious metals regimes", "第5部並無賦予此權力。條例中的寬免費用條文，只見於虛擬資產及貴金屬制度", post=flag())),
         tr(rh("Does inspecting the register cost anything?", "查閱登記冊是否收費？", "s.27(4) · s.28(1)"),
            td("No: the public may inspect it free during normal office hours. Copies and certificates are charged at the Schedule 3 rates", "不收費：公眾可在正常辦公時間內免費查閱。複本及證明書則按附表3收費")),
+        tr(rh("Do Schedules 3A to 3K apply to you?", "附表3A至3K是否適用於你？", ("Sch. 3 · Sch. 3A–3K", "附表3 · 附表3A至3K")),
+           td("No. Only Schedule 3 prices your licence; the lettered Schedules belong to the trust or company service, virtual asset and precious metals and stones regimes of Parts 5A to 5C", "不適用。只有附表3訂明你的牌照收費；附有字母的附表屬於第5A至5C部的信託或公司服務、虛擬資產及貴金屬及寶石制度")),
     ], minw=720))
 
-# ---------------------------------------------------------------- D. the lettered schedules
-D_ = sec('lettered', [("Schedules", "附表"), "3A–3K", ("other regimes", "其他制度")],
-         ("Schedules 3A to 3K: the other regimes' schedules", "附表3A至3K：其他制度的附表"),
-    P("These eleven schedules sit between Schedule 3 and Schedule 4 because they were added later for Parts 5A to 5C. None places a duty on a money service operator; knowing what each one is protects you from a distractor that borrows its number.",
-      "這十一個附表位於附表3與附表4之間，是其後為第5A至5C部而增補的。它們都不對金錢服務經營者施加責任；知道每個附表的內容，可避免被借用其編號的干擾選項誤導。")
-    + table([th("Schedule", "附表"), th("What it contains", "內容"), th("The regime", "所屬制度")], [
-        tr(rh("3A", "3A"), td("Fees", "費用"), td("Trust or company service providers, Part 5A", "信託或公司服務提供者（第5A部）")),
-        tr(rh("3B", "3B"), td("The list of virtual asset services", "虛擬資產服務的清單"), td("Virtual asset service providers, Part 5B", "虛擬資產服務提供者（第5B部）")),
-        tr(rh("3C", "3C"), td("Fees", "費用"), td("Virtual asset service providers, Part 5B", "虛擬資產服務提供者（第5B部）")),
-        tr(rh("3D", "3D"), td("Prescribed particulars of associated entities", "有聯繫實體的訂明詳情"), td("Virtual asset service providers, Part 5B", "虛擬資產服務提供者（第5B部）")),
-        tr(rh("3E", "3E"), td("What an annual return must contain", "周年申報表的資料"), td("Virtual asset service providers, Part 5B", "虛擬資產服務提供者（第5B部）")),
-        tr(rh("3F", "3F"), td("Prescribed financial statements and other documents of auditable entities", "須予審計實體的訂明財務報表及其他訂明文件"), td("Virtual asset service providers, Part 5B", "虛擬資產服務提供者（第5B部）")),
-        tr(rh("3G", "3G"), td("Transitional arrangements for the 2022 amending Ordinance", "《2022年修訂條例》的過渡安排"), td("Virtual asset service providers, Part 5B", "虛擬資產服務提供者（第5B部）")),
-        tr(rh("3H", "3H"), td("$120,000: the amount in the definition of a specified cash transaction", "$120,000：指明現金交易定義中的款額"), td("Dealers in precious metals and stones, Part 5C", "貴金屬及寶石交易商（第5C部）", post=flag())),
-        tr(rh("3I", "3I"), td("$120,000: the amount in the definition of a specified transaction", "$120,000：指明交易定義中的款額"), td("Dealers in precious metals and stones, Part 5C", "貴金屬及寶石交易商（第5C部）")),
-        tr(rh("3J", "3J"), td("What a cash transaction report must contain", "現金交易報告須提供的資料"), td("Dealers in precious metals and stones, Part 5C", "貴金屬及寶石交易商（第5C部）")),
-        tr(rh("3K", "3K"), td("Fees", "費用"), td("Dealers in precious metals and stones, Part 5C", "貴金屬及寶石交易商（第5C部）")),
-    ], minw=700)
-    + traps(
-        trap(("Two $120,000 figures, in two different places", "兩個$120,000，位於兩個不同地方"), None, cc("s.3(1)(b) Sch. 2", "Sch. 3H", "Sch. 3I", ("s.53ZTZ", "第5C部的釋義條文")),
-             vs=[(("Yours", "你的"), ("The CDD threshold for an occasional transaction other than a wire or virtual asset transfer, in Schedule 2. The other Schedule 2 thresholds are on the <a href=\"#s2-thresholds\">Schedule 2 page</a>.", "附表2中，電傳轉帳及虛擬資產轉帳以外的非經常交易的客戶盡職審查門檻。附表2的其他門檻見<a href=\"#s2-thresholds\">附表2一頁</a>。")),
-                 (("Not yours", "不是你的"), ("The precious metals and stones dealers' amounts for a specified cash transaction (Schedule 3H, paid in cash) and a specified transaction (Schedule 3I, paid other than in cash).", "附表3H（指明現金交易，以現金付款）及附表3I（指明交易，藉現金以外方式付款）中，貴金屬及寶石交易商適用的款額。"))]),
-        trap(("Virtual asset transfers still reach you through Schedule 2", "虛擬資產轉帳仍經附表2與你有關"),
-             ("The virtual asset licensing schedules are not yours, but the Guideline's examples of occasional transactions include virtual asset transfers. An MSO must carry out CDD before one involving virtual assets that amount to no less than $8,000; section 13A of Schedule 2 sets special requirements for virtual asset transfers; and the records of such an occasional transaction must be kept for at least 5 years from the date it is completed.",
-              "虛擬資產發牌制度的附表與你無關；但《打擊洗錢指引》所舉的非經常交易例子包括虛擬資產轉帳。金錢服務經營者在執行涉及不少於8,000元的款額的虛擬資產的虛擬資產轉帳之前，須執行客戶盡職審查；附表2第13A條訂明虛擬資產轉帳的特別規定；而該等非經常交易的紀錄，須在自交易完成之日起計的至少5年期間內備存。"),
-             ("¶4.2.1, 8.4 · s.3(1A), 13A, 20(3A) Sch. 2", "第4.2.1及8.4段 · 附表2第3(1A)、13A、20(3A)條")),
-    ))
-
 S3_NAV = [('fees', 'The fee table', '費用表'), ('bill', 'Working out a bill', '計算費用'),
-          ('rules', 'Who sets fees; refunds', '費用的訂定與退還'), ('lettered', 'Schedules 3A to 3K', '附表3A至3K')]
-S3_BODY = A + B_ + C_ + D_
+          ('rules', 'Who sets fees; refunds', '費用的訂定與退還')]
+S3_BODY = A + B_ + C_

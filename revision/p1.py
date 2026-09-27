@@ -91,8 +91,8 @@ def fig_map():
     PX5 = C(PX, PW, ("Parts 5A, 5B and 5C · Other sectors", "第5A、5B及5C部 · 其他行業"),
             ("Trust or company service providers, virtual asset services, and dealers in precious metals and stones",
              "信託或公司服務提供者、虛擬資產服務，以及貴金屬及寶石交易商"), kind='faint')
-    SX3 = C(SX, SW, ("Schedules 3A to 3K" + LINK, "附表3A至3K" + LINK),
-            ("Those regimes' fees, forms and amounts", "上述三個制度的費用、表格及款額"), kind='faint', href="#s3-lettered")
+    SX3 = C(SX, SW, ("Schedules 3A to 3K", "附表3A至3K"),
+            ("Those regimes' fees, forms and amounts", "上述三個制度的費用、表格及款額"), kind='faint')
     P6 = C(PX, PW, ("Part 6 · Review Tribunal" + LINK, "第6部 · 覆核審裁處" + LINK),
            ("Challenge the Commissioner's decisions, then appeal to the Court of Appeal with leave",
             "就關長的決定申請覆核，其後經許可可上訴至上訴法庭"), href="#doc-p6")
@@ -189,12 +189,12 @@ B_ = sec('rulebook', ["s.2(2)", "s.6 · s.7", "s.50 · s.51", "s.58 · s.76 · s
            td("Rules", "規則")),
     ], minw=780)
     + traps(
-        trap(("The Secretary or the Commissioner?", "局長還是關長？"), None, ("s.2(2) · s.6 · s.50 · s.58(2) · s.53ZTM · s.53ZVQ", "第2(2)條 · 第6條 · 第50條 · 第58(2)條 · 第5B部修訂附表3B至3F的條文 · 第5C部修訂附表3H至3K的條文"),
-             vs=[(("The Secretary", "局長"), ("Schedule 1 Part 2, Schedule 2 and Schedule 4. The policy-level rules. (For other sectors the Secretary also amends Schedule 3B of the virtual asset regime and Schedules 3H and 3I of the precious metals and stones regime.)", "附表1第2部、附表2及附表4。屬政策層面的規則。（就其他行業而言，局長亦可修訂虛擬資產制度的附表3B，以及貴金屬及寶石交易商制度的附表3H及3I。）")),
-                 (("The Commissioner", "關長"), ("Schedule 3: the fees for your own licensing regime, which he administers. He also amends Schedules 3J and 3K of the precious metals and stones regime, which do not apply to you.", "附表3：由他執行的發牌制度的費用。他亦可修訂貴金屬及寶石交易商制度的附表3J及3K，但該兩個附表不適用於你。"))]),
+        trap(("The Secretary or the Commissioner?", "局長還是關長？"), None, "s.2(2) · s.6 · s.50 · s.58(2)",
+             vs=[(("The Secretary", "局長"), ("Schedule 1 Part 2, Schedule 2 and Schedule 4. The policy-level rules.", "附表1第2部、附表2及附表4。屬政策層面的規則。")),
+                 (("The Commissioner", "關長"), ("Schedule 3: the fees for your own licensing regime, which he administers.", "附表3：由他執行的發牌制度的費用。"))]),
         trap(("What the Commissioner can never hand to someone else", "關長絕不可轉授的權力"),
-             ("Under section 26 he may delegate any of his functions under the Ordinance in writing to a public officer employed in the Customs and Excise Department, except two: the power to delegate itself, and the power to make Part 5 regulations under section 51. Amending the Schedule 3 fees under section 50 is not on that list, so it can be delegated. Part 5C, the precious metals and stones regime, has its own separate list.",
-              "根據第26條，海關關長可藉書面把其在本條例下的職能轉授予受僱於香港海關的公職人員，只有兩項除外：轉授權本身，以及根據第51條訂立第5部規例的權力。根據第50條修訂附表3費用並不在此列，故可以轉授。第5C部（貴金屬及寶石交易商制度）另有其本身的獨立規定。"),
+             ("Under section 26 he may delegate any of his functions under the Ordinance in writing to a public officer employed in the Customs and Excise Department, except two: the power to delegate itself, and the power to make Part 5 regulations under section 51. Amending the Schedule 3 fees under section 50 is not on that list, so it can be delegated.",
+              "根據第26條，海關關長可藉書面把其在本條例下的職能轉授予受僱於香港海關的公職人員，只有兩項除外：轉授權本身，以及根據第51條訂立第5部規例的權力。根據第50條修訂附表3費用並不在此列，故可以轉授。"),
              "s.26 · s.50 · s.51"),
     ))
 

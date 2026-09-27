@@ -69,10 +69,6 @@ MATRIX = (MX_KEY + '<div class="tbl mx"><table style="min-width:860px"><thead><t
                mc('rec', "No CDD trigger, but record and send the originator's and recipient's names and account or reference numbers", "不觸發盡職審查，但須記錄及附上匯款人及收款人的姓名及戶口號碼或參考編號", "s.12(3), (3A), (5)(b) Sch. 2"),
                mc('cdd', "CDD measures, and the fuller originator information: address, customer or ID document number, or date and place of birth", "客戶盡職審查措施，並附上較完整的匯款人資料：地址、客戶識別號碼或識別文件號碼，或出生日期及地方", "s.3(1A)(a), 12(5)(a) Sch. 2"),
                mc('cdd', "The same as from $8,000", "與$8,000起的規定相同"))
-          + tr(rh("A virtual asset transfer, as ordering institution", "虛擬資產轉帳（你是匯款機構）", "s.13A Sch. 2"),
-               mc('rec', "No CDD trigger, but obtain, record and submit the same short set of information", "不觸發盡職審查，但須取得、記錄及提交同一組簡略資料", "s.13A(2)–(4) Sch. 2"),
-               mc('cdd', "CDD measures, and the full information", "客戶盡職審查措施，並提交完整資料", "s.3(1A)(b), 13A(4)(a) Sch. 2"),
-               mc('cdd', "The same as from $8,000", "與$8,000起的規定相同"))
           + tr(rh("Any other occasional transaction, such as buying a cashier order or gift cheque", "任何其他非經常交易，例如購買銀行本票或禮券", "fn 13"),
                mc('none', "No trigger from the amount", "款額本身不觸發"),
                mc('none', "No trigger from the amount", "款額本身不觸發"),
@@ -85,7 +81,7 @@ MATRIX = (MX_KEY + '<div class="tbl mx"><table style="min-width:860px"><thead><t
           + ' ' + cite_html("s.3(1)(b), (1A) Sch. 2 · ¶4.2.4–4.2.5") + '</td></tr>'
           + '</tbody></table></div>')
 
-THR = sec('thresholds', ["s.3(1), (1A) Sch. 2", "s.12, 13, 13A Sch. 2", ("occasional transactions", "非經常交易")],
+THR = sec('thresholds', ["s.3(1), (1A) Sch. 2", "s.12, 13 Sch. 2", ("occasional transactions", "非經常交易")],
           ("Which threshold applies to which service", "哪個門檻適用於哪種服務"),
     P("Every figure in this table is about a customer you have no business relationship with. Find your service on the left and read across to the amount. The key sits above the table because the cell colours carry the answer.",
       "表內每個數字都關乎與你沒有業務關係的客戶。在左邊找出你的服務，再橫向找到款額。圖例置於表上，因為格子的顏色就是答案。")
@@ -101,7 +97,7 @@ THR = sec('thresholds', ["s.3(1), (1A) Sch. 2", "s.12, 13, 13A Sch. 2", ("occasi
     ], minw=760)
     + numreq([
         (("HK$8,000", "8,000元"),
-         ("CDD measures before the transaction, plus the full originator information in the message", "在交易前執行客戶盡職審查措施，並在信息內附上完整的匯款人資料"),
+         ("CDD measures before the transaction; for a wire transfer, also the full originator information in the message", "在交易前執行客戶盡職審查措施；如屬電傳轉帳，並須在信息內附上完整的匯款人資料"),
          ("An occasional wire transfer or virtual asset transfer, in one operation or several that appear linked", "非經常的電傳轉帳或虛擬資產轉帳，不論以單一次或看來有關連的若干次操作進行"),
          PART4,
          "s.3(1A), 12(5)(a) Sch. 2 · s.5(5), 21 · ¶4.2.1(b)(ii)–(iii)"),
@@ -260,8 +256,8 @@ def fig_wire():
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
-TRN = sec('transfers', ["s.12, 13, 13A Sch. 2", "Ch. 10–11", "¶10.2"],
-          ("Wire transfers, remittances and virtual asset transfers", "電傳轉帳、匯款及虛擬資產轉帳"),
+TRN = sec('transfers', ["s.12, 13 Sch. 2", "Ch. 10–11", "¶10.2"],
+          ("Wire transfers and remittances", "電傳轉帳及匯款"),
     P("Read the left column top to bottom: it is the path of a wire transfer. The red box beside each institution is its duty. Below the dashed line are the ordering institution's two shortcuts and the transfers outside section 12. When you pay your own supplier or receive money for yourself, you are the originator or recipient, not an institution in the chain, and none of this applies.",
       "由上至下閱讀左欄：這是電傳轉帳的路徑。每間機構旁邊的紅色方格是其責任。虛線以下是匯款機構的兩項簡便安排，以及不受第12條規管的轉帳。當你為自己付款予供應商或自行收款時，你是匯款人或收款人，並非鏈中的機構，上述規定一概不適用。")
     + fig(fig_wire, ("The chain works only if every link does its part: the information you attach as ordering institution is what the next institution checks, and what it must chase if it is missing.",
@@ -283,28 +279,23 @@ TRN = sec('transfers', ["s.12, 13, 13A Sch. 2", "Ch. 10–11", "¶10.2"],
            td("Obtain what is missing from the sending institution as soon as reasonably practicable; failing that, consider restricting or ending that relationship, or mitigate. For a domestic transfer the statute names only the originator's account or reference number; ¶10.20 words the duty for any required information, domestic or cross-border. Incomplete or meaningless information: mitigate", "在合理地切實可行範圍內盡快向發出轉帳指示的機構取得遺漏資料；如未能取得，考慮限制或結束與該機構的業務關係，或減低風險。就本地電傳轉帳，條例只指明匯款人戶口號碼或參考編號；第10.20段則把責任寫成涵蓋本地或跨境轉帳的任何所需資料。資料不完整或不具意義：減低風險", "s.12(9)–(10) Sch. 2 · ¶10.20–10.21", post=flag()),
            td("From $8,000, verify the recipient's identity if it has not been verified before", "就$8,000或以上的轉帳，如未曾核實收款人的身分，便應加以核實", "¶10.22")),
     ], note=B("Follow these requirements in every jurisdiction where you operate, directly or through agents, according to your role in the transfer.", "你應就在電傳轉帳中擔當的角色，在直接營運或通過代理人營運的每個司法管轄區遵從這些規定。") + ' ' + cite_html("¶10.1"), minw=980)
-    + table([th("", ""), th("Wire transfer", "電傳轉帳"), th("Remittance transaction, not a wire transfer", "匯款交易（並非電傳轉帳）"), th("Virtual asset transfer", "虛擬資產轉帳")], [
+    + table([th("", ""), th("Wire transfer", "電傳轉帳"), th("Remittance transaction, not a wire transfer", "匯款交易（並非電傳轉帳）")], [
         tr(rh("What it is", "是甚麼"),
            td("An institution, by electronic means, makes money available at an institution", "機構藉電子方式，將款項轉往某機構提供予收款人", "s.1(4) Sch. 2"),
-           td("Sending, or arranging to send, money to a place outside Hong Kong", "將金錢或安排將金錢送往香港以外地方", "s.13(3) Sch. 2"),
-           td("An institution transfers virtual assets to make them available at an institution", "機構轉出虛擬資產，以供在某機構提供予收款人", "s.13A(1) Sch. 2")),
+           td("Sending, or arranging to send, money to a place outside Hong Kong", "將金錢或安排將金錢送往香港以外地方", "s.13(3) Sch. 2")),
         tr(rh("Who it binds", "約束誰"),
            td("Any financial institution acting as ordering, intermediary or beneficiary institution", "任何以匯款、中介或收款機構身分行事的金融機構"),
-           td("A licensed money service operator, and only from $8,000", "持牌金錢服務經營者，而且只在$8,000或以上適用", post=flag()),
-           td("Any financial institution acting in the chain", "任何在鏈中行事的金融機構")),
+           td("A licensed money service operator, and only from $8,000", "持牌金錢服務經營者，而且只在$8,000或以上適用", post=flag())),
         tr(rh("The identity check", "身分核實"),
            td("CDD measures before an occasional transaction of $8,000 or more", "在執行涉及$8,000或以上的非經常交易之前，須執行客戶盡職審查措施", "s.3(1A)(a) Sch. 2"),
-           td("Before the remittance: identify the originator and verify against the identification document", "進行匯款前：識別匯款人，並根據其識別文件核實身分", "s.13(2)(a)–(b) Sch. 2"),
-           td("CDD measures before an occasional transaction of $8,000 or more", "在執行涉及$8,000或以上的非經常交易之前，須執行客戶盡職審查措施", "s.3(1A)(b) Sch. 2")),
+           td("Before the remittance: identify the originator and verify against the identification document", "進行匯款前：識別匯款人，並根據其識別文件核實身分", "s.13(2)(a)–(b) Sch. 2")),
         tr(rh("Does the information travel?", "資料是否隨轉帳傳遞？"),
            td("Yes: in the message or payment form accompanying the transfer", "是：附於隨轉帳的信息或付款表格內"),
-           td("No: it is a record you keep", "否：屬你備存的紀錄"),
-           td("Yes: submitted to the beneficiary institution under published codes and guidelines", "是：按已公布的守則及指引提交予收款機構")),
+           td("No: it is a record you keep", "否：屬你備存的紀錄")),
         tr(rh("Procedures you must have", "須設立的程序"),
            td("For identifying and handling transfers that lack the required information", "識辨及處理欠缺所需資料的轉帳", "s.19(2) Sch. 2"),
-           td("No specific procedures duty in section 19: section 19(3) covers only the duties under sections 3, 4, 5, 9, 10 and 15, and section 13 is not among them", "第19條並無針對匯款交易的特定程序規定：第19(3)條只涵蓋第3、4、5、9、10及15條所指的責任，並不包括第13條", "s.19(3) Sch. 2", post=flag()),
-           td("For identifying and handling transfers that lack the required information", "識辨及處理欠缺所需資料的轉帳", "s.19(2A) Sch. 2")),
-    ], minw=860, cls='cmp')
+           td("No specific procedures duty in section 19: section 19(3) covers only the duties under sections 3, 4, 5, 9, 10 and 15, and section 13 is not among them", "第19條並無針對匯款交易的特定程序規定：第19(3)條只涵蓋第3、4、5、9、10及15條所指的責任，並不包括第13條", "s.19(3) Sch. 2", post=flag())),
+    ], minw=720, cls='cmp')
     + numreq([
         (("3 business days", "3個營業日"),
          ("Supply the originator information a domestic wire transfer left out: the name and, from $8,000, the address, customer or ID document number, or date and place of birth. Law enforcement agencies should get it immediately on request", "提供本地電傳轉帳所略去的匯款人資料：姓名，以及$8,000起的地址、客戶識別號碼或識別文件號碼，或出生日期及地點。如執法機構要求，應立即提供"),
@@ -432,10 +423,10 @@ SYS = sec('systems', ["s.15–17 Sch. 2", "s.19, 22, 23 Sch. 2", "¶4.14–4.15"
            td("Never open or maintain an anonymous account, or one in a fictitious name, for any customer. A confidential numbered account should not work as one: it should get exactly the same CDD and controls, the customer's identity must be verified and known to enough staff, and transfers and remittances from it must show the account holder's real name. Every customer's CDD record must be available to the Commissioner, other competent authorities, the compliance officer, auditors and other staff with appropriate authority",
               "不得為任何客戶開立或維持匿名戶口，或以虛構姓名或名稱開立或維持戶口。設有保密號碼的戶口不應作為匿名戶口：應遵從一模一樣的盡職審查及管控措施，客戶身分須經核實並讓相當數目的職員知悉，而該戶口的電傳轉帳和匯款須顯示戶口持有人的真實姓名。所有客戶的盡職審查紀錄必須可向關長、其他主管當局、合規主任、核數師及其他獲適當授權的人員提供",
               ("¶4.14.1 · fn 49–50", "第4.14.1段 · 註49至50"))),
-        tr(rh("Effective procedures", "有效的程序", "s.19 Sch. 2"), td("For deciding whether a customer or beneficial owner is a PEP; for handling wire and virtual asset transfers that lack the required information; and, for each kind of customer, relationship, product and transaction, for carrying out the duties on CDD, simplified CDD, monitoring, customers not present, PEPs and high-risk situations", "用以斷定客戶或實益擁有人是否政治人物；處理欠缺所需資料的電傳轉帳及虛擬資產轉帳；以及就每種客戶、業務關係、產品及交易，履行盡職審查、簡化盡職審查、持續監察、客戶沒有現身、政治人物及高風險情況的責任")),
+        tr(rh("Effective procedures", "有效的程序", "s.19(1), (2), (3) Sch. 2"), td("For deciding whether a customer or beneficial owner is a PEP; for handling wire transfers that lack the required information; and, for each kind of customer, relationship, product and transaction, for carrying out the duties on CDD, simplified CDD, monitoring, customers not present, PEPs and high-risk situations", "用以斷定客戶或實益擁有人是否政治人物；處理欠缺所需資料的電傳轉帳；以及就每種客戶、業務關係、產品及交易，履行盡職審查、簡化盡職審查、持續監察、客戶沒有現身、政治人物及高風險情況的責任")),
         tr(rh("Branches and subsidiaries outside Hong Kong", "香港以外的分行及附屬企業", "s.22 Sch. 2"), td("If you are incorporated in Hong Kong or re-domiciled here, make sure overseas branches, and subsidiaries in the same business, follow requirements similar to Schedule 2 Parts 2 and 3 as far as local law allows. Where local law forbids it, inform the relevant authority and take additional measures", "如你在香港成立為法團或屬經遷冊實體，須確保海外分行及經營相同業務的附屬企業，在當地法律准許的範圍內遵從與附表2第2及3部相類似的規定。如當地法律不准許，須通知有關當局並採取增補措施")),
         tr(rh("Safeguards", "預防措施", "s.23 Sch. 2"), td("Take all reasonable measures to ensure proper safeguards exist against contravening Parts 2 and 3 of the Schedule, and to mitigate ML/TF risks", "採取所有合理措施，確保有適當的預防措施防止違反附表第2或3部，並減低洗錢及恐怖分子資金籌集風險")),
-        tr(rh("Correspondent banking and shell banks", "代理銀行服務及空殼銀行", "s.14, 17 Sch. 2"), td("Duties on authorized institutions only; they do not bind a money service operator", "只屬認可機構的責任，並不約束金錢服務經營者")),
+        tr(rh("Correspondent banking and shell banks", "代理銀行服務及空殼銀行", "s.14, 17 Sch. 2"), td("They do not bind a money service operator: both are duties on authorized institutions only", "並不約束金錢服務經營者：兩者都只屬認可機構的責任")),
     ], minw=720)
     + traps(
         trap(("A PEP needs both; another high-risk relationship needs one of two", "政治人物兩者皆須；其他高風險業務關係二擇其一"), None, "s.10, 15 Sch. 2 · ¶4.9.10, 4.9.17",

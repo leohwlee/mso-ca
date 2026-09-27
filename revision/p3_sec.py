@@ -39,7 +39,7 @@ CMP = table(
         + d("Only to check whether you are complying, have complied, or are likely to be able to comply with the rules. <b>No suspicion of wrongdoing is needed.</b>", "只為確定你是否正遵從、已遵從或相當可能能夠遵從有關規定。<b>毋須懷疑有任何不當行為。</b>", "s.9(1)")
         + d("Because the Commissioner has <b>reasonable cause to believe</b> an offence may have been committed, or has <b>reason to inquire</b> into a contravention while considering disciplinary action.", "因關長<b>有合理因由相信</b>可能已犯罪行，或在考慮紀律處分時<b>有理由查訊</b>是否有違反。", "s.11(1)") + '</tr>',
         '<tr>' + rh("Who it can be aimed at", "對象是誰")
-        + d("A <b>prescribed person</b>, called the <b>inspection subject</b>. A licensed money service operator is one of the twelve kinds of <b>non-Part 5B prescribed person</b> listed in the Ordinance, alongside authorized institutions, licensed corporations, authorized insurers, TCSP licensees and others, so the power reaches you.", "<b>訂明人士</b>，即<b>視察對象</b>。條例列出十二類<b>非第5B部訂明人士</b>，持牌金錢服務經營者是其中之一（其他包括認可機構、持牌法團、獲授權保險人、信託或公司服務持牌人等），因此這項權力適用於你。", "s.8 · s.9(1)")
+        + d("A <b>prescribed person</b>, called the <b>inspection subject</b>. A licensed money service operator is one of the <b>non-Part 5B prescribed persons</b> listed in section 8, alongside authorized institutions, licensed corporations, authorized insurers, TCSP licensees and others, so the power reaches you.", "<b>訂明人士</b>，即<b>視察對象</b>。持牌金錢服務經營者是第8條所列的<b>非第5B部訂明人士</b>之一（其他包括認可機構、持牌法團、獲授權保險人、信託或公司服務持牌人等），因此這項權力適用於你。", "s.8 · s.9(1)")
         + d("A <b>covered person</b>: the person the investigation is about, or anyone the investigator reasonably believes holds relevant records or information. The list is not limited to prescribed persons.", "<b>受涵蓋人</b>：被調查的人，或調查員有合理因由相信管有相關紀錄或資料的任何人。此範圍不限於訂明人士。", "s.12(1)") + '</tr>',
         '<tr>' + rh("Where", "在哪裏")
         + d("Your <b>business premises</b>, at any reasonable time. For you those are the premises shown in the <b>register of licensees</b> the Commissioner keeps.", "你的<b>業務處所</b>，可在任何合理時間進入。就你而言，即關長備存的<b>持牌人登記冊</b>所顯示的處所。", "s.9(1A), (15)")
@@ -115,7 +115,7 @@ STD = table(
     h("The wording", "用語") + h("Where it is used", "用於何處"),
     ''.join([
         '<tr>' + rh("at any reasonable time", "於任何合理時間")
-        + d("When an authorized person may enter your business premises to inspect. It is the <b>only</b> limit on the timing of a routine visit.", "獲授權人可於何時進入你的業務處所作視察。這是例行到訪在時間上的<b>唯一</b>限制。", "s.9(1A), (1B)") + '</tr>',
+        + d("When an authorized person may enter your business premises to inspect. It is the <b>only</b> limit on the timing of a routine visit.", "獲授權人可於何時進入你的業務處所作視察。這是例行到訪在時間上的<b>唯一</b>限制。", "s.9(1A)") + '</tr>',
         '<tr>' + rh("at all reasonable times", "在任何合理時間")
         + d("When <b>you</b> may inspect and copy records that have been taken from you: an investigator or authorized person holding them must permit it, and an officer who removed them under a warrant may. Almost the same phrase, working in your favour.", "指<b>你</b>可於何時查閱及複製被取走的紀錄：管有紀錄的調查員或獲授權人須准許；根據手令移走紀錄的人則可准許。用語與上一行幾乎相同（只差「於」與「在」一字），但此處對你有利。", "s.17(6) · s.19(1)") + '</tr>',
         '<tr>' + rh("as soon as reasonably practicable", "在合理地切實可行範圍內盡快")

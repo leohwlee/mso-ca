@@ -83,20 +83,16 @@ B_ = sec('prosecute', ["s.79", ("with s.53", "另及第53條")],
 # ---------------------------------------------------------------- C. notices
 C_ = sec('notices', ["s.80", ("with s.59", "另及第59條")],
          ("How a notice reaches you", "通知如何送達你"),
-    P("For a licensee, s.80(1) sets the deemed-service rule: a notice from the Commissioner counts as duly given if it is left at or posted to a premises named in the licence. Other senders have other rules. Find the sender on the left.",
-      "就持牌人而言，第80(1)條訂明視為妥為發出的規則：關長的通知如留在或郵寄往牌照指明的任何處所，即須視為已妥為發出。其他發件人另有規則。在左邊找出發件人。")
-    + table([th("The sender", "發件人"), th("It counts as duly given if", "在以下情況視為妥為發出")], [
+    P("The table is the rule for a notice from the Commissioner to you; the box below it says why the premises in your licence matter.",
+      "上表是關長向你發出通知的規則；表下的方框說明牌照上的處所為何重要。")
+    + table([th("The sender", "發件人"), th("It is regarded as duly given or sent if", "在以下情況須視為已妥為發出或送出")], [
         tr(rh("The Commissioner, writing to you as a licensee", "關長致你（持牌人）", "s.80(1)"),
            td("It is <b>left at, or sent by post to,</b> the premises, or any of the premises, specified in your licence as premises where you may operate a money service",
               "通知<b>留在或郵寄往</b>你所持牌照指明你可經營金錢服務的處所，或其中任何處所", post=flag())),
-        tr(rh("The Registrar of Companies, or the Commissioner under the precious metals and stones regime", "公司註冊處處長，或關長根據貴金屬及寶石制度", "s.80(1A)–(1B)"),
-           td("Left at or posted to a last known business, residential or correspondence address, a registered office, or <b>sent to the last known email address</b>",
-              "留在或郵寄往最後為人所知的營業地址、住址或通訊地址、註冊辦事處，或<b>以電子方式傳送往最後為人所知的電郵地址</b>")),
-        tr(rh("The Insurance Authority, the Monetary Authority or the Securities and Futures Commission", "保監局、金融管理專員或證監會", "s.80(2)–(5)"),
-           td("The service rules of their own Ordinances apply, with necessary modifications", "各自條例的送達規則經必要變通後適用")),
-    ], minw=700)
+    ], note=B("The rest of section 80, including its email option, is for other regimes' senders: the Registrar of Companies, the Commissioner in connection with Part 5C, and the Insurance Authority, the Monetary Authority and the Securities and Futures Commission.",
+              "第80條其餘各款（包括以電子方式傳送往電郵地址的做法）屬其他制度的發件人：公司註冊處處長、關長（在與第5C部相關的情況下），以及保監局、金融管理專員及證監會。") + ' ' + cite_html("s.80(1A)–(5)"), minw=700)
     + traps(
-        trap(("Deemed service to a licensee: premises only, no email", "向持牌人視為妥為發出：只限處所，不包括電郵"), None, "s.80(1), (1B)(e) · s.59(1) · s.38 · s.40 · s.41",
+        trap(("Deemed service to a licensee: premises only, no email", "向持牌人視為妥為發出：只限處所，不包括電郵"), None, "s.80(1) · s.59(1) · s.38 · s.40 · s.41",
              vs=[(("Commissioner to a licensee", "關長致持牌人"), ("Left at or posted to your licensed premises. Email is not in the subsection.", "留在或郵寄往你的持牌處所。該款並無提及電郵。")),
                  (("Why it matters", "為何重要"), ("A notice informing you of a decision, posted to a branch still named in your licence, starts the 21 days for review. Keep the premises in your licence current: a change in premises particulars must be notified within one month (s.40); a new premises can be used only after the Commissioner, on your application, has added it to the licence (s.38); ceasing at a premises must be notified in writing before the date of cessation, and the licence returned for amendment within 7 days beginning on the date of cessation (s.41).", "郵寄往牌照上仍列明的分店、告知你有關決定的通知，同樣開始計算21日的覆核限期。須保持牌照上的處所資料準確：處所詳情有改變，須在一個月內向關長具報（第40條）；新的營業處所須先由你申請、關長加入牌照後方可使用（第38條）；停止在某處所經營，須在停業日期前以書面具報，並在自停業日期起計的7日內交回牌照以作修訂（第41條）。"))]),
     ))

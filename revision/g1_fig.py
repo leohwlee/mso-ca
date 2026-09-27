@@ -108,7 +108,7 @@ def fig_fatf():
 
 FATF_KEY = legend([('', ("the FATF, and what follows for Hong Kong", "特別組織及其對香港的影響")),
                    ('may', ("action others may take", "其他各方可採取的行動")),
-                   ('faint', ("the latest circular, and where to read on", "最新通函及延伸閱讀"))])
+                   ('faint', ("the C&amp;ED circular, and where to read on", "海關通函及延伸閱讀"))])
 
 
 # ---------------------------------------------------------------- 3. the offences
