@@ -415,6 +415,25 @@ func TestNoDanglingOperator(t *testing.T) {
 	}
 }
 
+// TestGuidelineParagraphWord: the Chinese Guideline calls its numbered paragraphs
+// and sub-paragraphs 段 (第[4.11.12(b)]段, 附錄A第[10]段); 款 and 條 are the
+// Ordinance's words for its subsections and sections. A Guideline number followed
+// by 款 renders the English "paragraph (b)" instead of using the Chinese text's
+// word. The September 2026 blind review found 18 questions doing this.
+var guidelineKuan = regexp.MustCompile(`第\d+\.\d+(?:\.\d+)*(?:\([a-z0-9]+\))*(?:及\([a-z0-9]+\))*款|附錄A第\d+(?:\([a-z0-9]+\))*款`)
+
+func TestGuidelineParagraphWord(t *testing.T) {
+	bank := loadBank(t)
+	for _, q := range bank {
+		fields := append(append([]string{q.Tc.Q, q.Tc.Explain, q.Source.Tc}, q.Tc.Options...), q.Tc.Statements...)
+		for _, f := range fields {
+			if m := guidelineKuan.FindString(f); m != "" {
+				t.Errorf("%s: %q calls a Guideline paragraph 款; the Guideline says 段", q.ID, m)
+			}
+		}
+	}
+}
+
 // TestMLTFPairing: where the English says ML/TF the Chinese must carry both
 // limbs. Dropping the terrorist-financing half changes what is being asked.
 func TestMLTFPairing(t *testing.T) {

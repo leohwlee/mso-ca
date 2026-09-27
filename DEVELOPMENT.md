@@ -26,6 +26,7 @@ review found it in real questions.
 | Citation has a locator | citing a document with no paragraph to turn to |
 | Statutory Chinese terms | wording the official Chinese editions never use |
 | Chinese 該經營者 names its operator first | "the MSO" rendered word for word as "the said operator", pointing at nothing |
+| Guideline paragraphs are 段 in Chinese | a Guideline paragraph called 款, the Ordinance's word for a subsection |
 | ML/TF pairing | dropping the terrorist-financing half in Chinese |
 | No positional references | "option 2" in an explanation, when options are shuffled |
 | No duplicate stems, no shared answer across modules | one question asked twice |
