@@ -2638,16 +2638,16 @@
   "module": 1,
   "answer": 4,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.13",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.13段"
+   "en": "C&ED Circular MSSB/MIS_03/2025 (23 Jun 2025) ¶1–3 — E-form Submission for Passenger Information (Currency and Bearer Negotiable Instruments)",
+   "tc": "香港海關通函 MSSB/MIS_03/2025（2025年6月23日）第1至3段——提交旅客資料電子表格（現金類物品）"
   },
   "en": {
-   "q": "According to paragraph 6.13 of the AML/CFT Guideline, which of the following statements about the database of terrorists and designated parties that an MSO should maintain are correct?",
+   "q": "According to the C&ED's circular of 23 June 2025 to MSOs, which of the following statements about its E-form Submission for Passenger Information for currency and bearer negotiable instruments (CBNIs) are correct?",
    "statements": [
-    "It is particularly vital that an MSO should be able to identify terrorist suspects and possible designated parties, and detect prohibited transactions.",
-    "To this end, an MSO should ensure that it maintains a database of names and particulars of terrorists and designated parties.",
-    "That database should consolidate the various lists that have from time to time been made known to the MSO itself.",
-    "Alternatively, an MSO may subscribe to such a database kept by a third party provider, taking appropriate measures to ensure its completeness and accuracy."
+    "Travellers may use the E-form before arriving in or leaving Hong Kong to pre-fill information on CBNIs worth more than HK$120,000.",
+    "Pre-filling the information in the E-form lets the traveller obtain a QR code for making a declaration.",
+    "To make the declaration, the traveller presents the QR code obtained from the E-form to a Customs officer on the spot.",
+    "The C&ED invites MSOs to use the E-form, as their business may require declaring CBNIs carried through the passenger channel."
    ],
    "options": [
     "1, 2 and 3",
@@ -2656,15 +2656,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "None of the four statements is false. Paragraph 6.13 says it is particularly vital that an MSO should be able to identify terrorist suspects and possible designated parties and detect prohibited transactions (statement 1); that to this end an MSO should ensure it maintains a database of names and particulars of terrorists and designated parties (statement 2), which consolidates the various lists that have been made known to the MSO (statement 3); and that, alternatively, an MSO may subscribe to such a database maintained by a third party service provider and take appropriate measures, such as periodic sample testing, to ensure its completeness and accuracy (statement 4)."
+   "explain": "All four statements are correct: the circular says travellers may use the E-form to pre-fill information of CBNIs with a total value of more than HK$120,000 (or its equivalent in foreign currencies) prior to their arrival in or departure from Hong Kong, to obtain a QR code for making a declaration; the declaration procedure is to pre-fill the information, obtain the QR code and present it to a Customs officer on the spot; and, as the business of MSOs may require a declaration for the cross-boundary transportation of CBNIs through the passenger channel, the C&ED invites MSOs to use the E-form, which may reduce the clearance time on the spot."
   },
   "tc": {
-   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》第6.13段，關於金錢服務經營者須確保備存的恐怖分子及被指認各方數據庫，下列哪些陳述正確？",
+   "q": "根據香港海關2025年6月23日致金錢服務經營者的通函，關於「提交旅客資料電子表格（現金類物品）」，下列哪些陳述正確？",
    "statements": [
-    "金錢服務經營者應能夠識別嫌疑恐怖分子、可能被指認的各方，以及偵察被禁止的交易，這點至為重要。",
-    "為此，金錢服務經營者須確保備存記錄恐怖分子及被指認各方的名稱及詳細資料的數據庫。",
-    "該數據庫須用以綜合金錢服務經營者所知的各種恐怖分子及被指認各方名單的資料。",
-    "金錢服務經營者亦可登記使用由第三者服務供應商備存的這類數據庫，並採取適當措施確保數據庫完整而準確。"
+    "旅客可在抵達或離開香港前，以電子表格預先填寫總價值高於12萬港元的現金類物品資料。",
+    "旅客以電子表格預先填寫現金類物品的資料後，可獲取二維碼作申報之用。",
+    "按申報流程，旅客於現場向海關人員出示從電子表格獲取的二維碼，以完成申報。",
+    "鑑於金錢服務經營者的業務或需要經旅客通道跨境運送現金類物品，海關誠邀其使用電子表格。"
    ],
    "options": [
     "1、2 及 3",
@@ -2673,7 +2673,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "四項陳述均正確，並無不正確的陳述。第6.13段訂明，金錢服務經營者應能夠識別嫌疑恐怖分子、可能被指認的各方，以及偵察被禁止的交易，這點至為重要（陳述1）；為此，金錢服務經營者須確保備存記錄恐怖分子及被指認各方的名稱及詳細資料的數據庫（陳述2），以綜合金錢服務經營者所知的各種名單的資料（陳述3）；金錢服務經營者亦可另作安排，登記使用由第三者服務供應商備存的這類數據庫，並採取適當措施（例如定期抽樣測試），以確保數據庫完整而準確（陳述4）。"
+   "explain": "四項陳述均正確：通函指出，旅客可在抵達／離開香港前，使用電子表格預先填寫總價值高於12萬港元（或等值外幣）的貨幣及不記名可轉讓票據（現金類物品）的資料，以獲取二維碼作申報；申報流程是以電子表格預先填寫現金類物品資料、獲取二維碼，然後於現場向海關人員出示二維碼以完成申報；鑑於金錢服務經營者的日常業務或需要經旅客通道跨境運送現金類物品及其申報，海關誠邀各金錢服務經營者使用電子表格，以節省現場清關時間。"
   },
   "format": "combination"
  },
@@ -2682,28 +2682,28 @@
   "module": 1,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.13",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.13段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) Glossary",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）詞彙表"
   },
   "en": {
-   "q": "What should the database of names and particulars of terrorists and designated parties consolidate?",
+   "q": "According to the Glossary of the AML/CFT Guideline, what does the term “AML/CFT Systems” mean?",
    "options": [
-    "The various lists of terrorists and designated parties made known to the MSO",
-    "Only the list published in the Hong Kong Gazette, to the exclusion of any other list",
-    "Only the lists relating to jurisdictions where the MSO operates a physical branch",
-    "Only the consolidated list maintained by the Financial Action Task Force"
+    "AML/CFT policies, procedures and controls",
+    "A statutory regime under the AMLO and related laws",
+    "Arrangements by which the CCE supervises MSOs",
+    "Electronic systems the JFIU uses to receive STRs"
    ],
-   "explain": "¶6.13 requires an MSO to maintain a database consolidating the various lists of terrorists and designated parties that have been made known to it (or to subscribe to an equivalent third-party database). ¶6.15 confirms this covers both the Gazette/CEDB website lists and the lists the CCE separately draws to MSOs' attention -- not the Gazette alone, not branch-linked lists only, and not the FATF's own list."
+   "explain": "The Glossary defines “AML/CFT Systems” as AML/CFT policies, procedures and controls, and ¶2.1 uses the term the same way: an MSO should adopt an RBA in the design and implementation of its AML/CFT policies, procedures and controls, “hereafter collectively referred to as AML/CFT Systems”. The term does not mean a statutory regime under the AMLO and related laws, the arrangements by which the CCE supervises MSOs, or the electronic systems the JFIU uses to receive STRs."
   },
   "tc": {
-   "q": "記錄恐怖分子及被指認各方的名稱及詳細資料的數據庫，須綜合哪些名單的資料？",
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》的詞彙部分，「打擊洗錢／恐怖分子資金籌集制度」一詞指甚麼？",
    "options": [
-    "金錢服務經營者所知的各種恐怖分子及被指認各方名單",
-    "只限於香港憲報公布的名單，並不包括其他名單",
-    "只限與金錢服務經營者設有分支機構的司法管轄區有關的名單",
-    "只限財務行動特別組織自行備存的綜合名單"
+    "打擊洗錢／恐怖分子資金籌集政策、程序及管控措施",
+    "根據《打擊洗錢條例》及相關法例設立的法定規管架構",
+    "關長藉以監督金錢服務經營者合規情況的各項安排",
+    "聯合財富情報組用以接收可疑交易報告的電子系統"
    ],
-   "explain": "第6.13段規定金錢服務經營者須確保備存記錄恐怖分子及被指認各方的名稱及詳細資料的數據庫，以綜合金錢服務經營者所知的各種名單的資料（或登記使用由第三者服務供應商備存的這類數據庫）。第6.15段確認當中包括在憲報或商務及經濟發展局網站刊登的名單，以及關長不時告知金錢服務經營者的名單——並非只限憲報名單、只與分支機構有關的名單，或財務行動特別組織自身的名單。"
+   "explain": "本指引詞彙部分將「打擊洗錢／恐怖分子資金籌集制度」界定為打擊洗錢／恐怖分子資金籌集政策、程序及管控措施；第2.1段亦以同一意思使用此詞：金錢服務經營者制訂和執行打擊洗錢／恐怖分子資金籌集政策、程序及管控措施（下文統稱為「打擊洗錢／恐怖分子資金籌集制度」）時，應採用風險為本的方法。此詞並非指根據《打擊洗錢條例》及相關法例設立的法定規管架構、關長藉以監督金錢服務經營者合規情況的安排，亦非聯合財富情報組用以接收可疑交易報告的電子系統。"
   }
  },
  {
@@ -2711,16 +2711,16 @@
   "module": 1,
   "answer": 1,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.14",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.14段"
+   "en": "FAQ applicable to all MSOs (C&ED portal), AML Q17; C&ED Circular MSSB/FATF_02/2026 (3 Jul 2026) items (1)–(2)",
+   "tc": "《適用於所有金錢服務經營者的常見問題》（海關網站）打擊洗錢部分第17問；香港海關通函 MSSB/FATF_02/2026（2026年7月3日）第(1)至(2)項"
   },
   "en": {
-   "q": "According to paragraph 6.14 of the AML/CFT Guideline, which of the following statements about UNSCRs and sanctions lists and their significance for an MSO are correct?",
+   "q": "According to the C&ED's FAQ for MSOs and its circular on the statements issued by the FATF, which of the following statements about the FATF's lists of jurisdictions and what they mean for an MSO are correct?",
    "statements": [
-    "Whether or not a UNSCR or sanctions list has been implemented through Hong Kong legislation, there are offences under existing legislation relating to ML, TF and PF that are relevant.",
-    "Inclusion of a country, individual, entity or activity in a UNSCR or sanctions list may constitute grounds for knowledge or suspicion under the relevant ML, TF and PF laws, triggering statutory obligations and offence provisions.",
-    "An MSO adds the countries, individuals and entities included in a UNSCR or sanctions list to its database at the next quarterly review of that database following their promulgation by the Security Council.",
-    "The CCE draws the attention of MSOs from time to time to updates to UNSCRs or sanctions lists relating to terrorism, TF and PF promulgated by the UN Security Council."
+    "Only jurisdictions listed in the FATF statement on High-Risk Jurisdictions subject to a Call for Action are to be regarded as jurisdictions for which the FATF calls for enhanced due diligence.",
+    "Conducting enhanced due diligence is not mandatory for customers connected to jurisdictions listed in the FATF statement on Jurisdictions under Increased Monitoring.",
+    "MSOs are reminded to browse the website of the Commerce and Economic Development Bureau for updated statements issued by the FATF from time to time.",
+    "A customer's connection to a jurisdiction listed in the FATF statement on Jurisdictions under Increased Monitoring should be taken into account in determining the customer's overall risk profile."
    ],
    "options": [
     "1, 2 and 3",
@@ -2729,15 +2729,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 3 is false: paragraph 6.14 requires MSOs to ensure that countries, individuals and entities included in UNSCRs and sanctions lists are included in the database as soon as practicable after they are promulgated by the UNSC, rather than at the database's next quarterly review. Statements 1, 2 and 4 are correct: whether or not a UNSCR or sanctions list has been implemented through Hong Kong legislation, there are relevant offences under existing ML, TF and PF legislation; inclusion in such a list may constitute grounds for knowledge or suspicion for the purposes of those laws, triggering statutory (including reporting) obligations and offence provisions; and the CCE draws MSOs' attention from time to time to updates to UNSCRs or sanctions lists relating to terrorism, TF and PF promulgated by the UNSC."
+   "explain": "Statement 3 is false: the C&ED's circular reminds MSOs to browse the website of the FATF for the latest information, including any updated statements issued by the FATF from time to time. The AML/CFT Guideline names the Commerce and Economic Development Bureau's website as a place where lists for an MSO's screening database are published, not as a source of the FATF's statements. Statements 1, 2 and 4 are correct: the FAQ says that only jurisdictions listed in the FATF's call-for-action statement should be regarded as jurisdictions for which enhanced due diligence is called for by the FATF, and enhanced due diligence proportionate to the risks should be conducted on business relationships and transactions with customers from them; conducting enhanced due diligence is not mandatory for customers connected to jurisdictions on the increased-monitoring list; however, that connection should be taken into account in determining the customer's overall risk profile. The FAQ still uses the two statements' former titles, “The FATF Public Statement” and “Improving Global Anti-Money Laundering and Counter-Financing of Terrorism Compliance: On-going Process”; they are the statements the FATF now issues on High-Risk Jurisdictions subject to a Call for Action and on Jurisdictions under Increased Monitoring."
   },
   "tc": {
-   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》第6.14段，關於聯合國安理會決議及制裁名單對金錢服務經營者的意義，下列哪些陳述正確？",
+   "q": "根據香港海關的常見問題及其有關財務行動特別組織的聲明的通函，關於特別組織聲明所列的司法管轄區及其對金錢服務經營者的意義，下列哪些陳述正確？",
    "statements": [
-    "不論聯合國安理會決議或制裁名單是否已透過香港法例實施，現行有關洗錢、恐怖分子資金籌集及擴散資金籌集的法例下均有相關的罪行。",
-    "某國家、個人、實體或活動被列入安理會決議或制裁名單，可就相關洗錢、恐怖分子資金籌集及擴散資金籌集法例構成知悉或懷疑的理由，從而觸發法定責任及罪行條文。",
-    "金錢服務經營者會在其數據庫下一次季度檢討時，才將聯合國安理會決議或制裁名單所列的國家、個人及實體納入該數據庫。",
-    "海關關長會不時提請各金錢服務經營者注意聯合國安全理事會所頒布的有關恐怖主義、恐怖分子資金籌集及擴散資金籌集的各項決議或制裁名單的任何更新。"
+    "只有特別組織有關呼籲各方對高風險司法管轄區採取行動的聲明所列的司法管轄區，才被視為特別組織對其作出呼籲的司法管轄區。",
+    "對與特別組織有關被加強監察的司法管轄區的聲明所列司法管轄區有關連的客戶採取更嚴格盡職審查措施，並非強制性規定。",
+    "金錢服務經營者應瀏覽商務及經濟發展局的網站，以查閱最新資料，包括特別組織不時發表的最新聲明。",
+    "在釐定客戶的整體風險狀況時，應顧及到客戶與特別組織有關被加強監察的司法管轄區的聲明所列司法管轄區有關連。"
    ],
    "options": [
     "1、2 及 3",
@@ -2746,7 +2746,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述3 不正確：第6.14段規定，金錢服務經營者應確保在聯合國安理會頒布決議或制裁名單後，在切實可行的範圍內盡快將所列的國家、個人及實體納入數據庫，而非留待數據庫下一次季度檢討時才納入。陳述1、2 及 4 正確：不論聯合國安理會決議或制裁名單是否已透過香港法例實施，現行有關洗錢、恐怖分子資金籌集及擴散資金籌集的法例下均有相關罪行；被列入該等名單可就該等法例構成知悉或懷疑的理由，從而觸發法定（包括舉報）責任及罪行條文；海關關長亦不時提請金錢服務經營者注意聯合國安理會頒布的有關恐怖主義、恐怖分子資金籌集及擴散資金籌集的決議或制裁名單的更新。"
+   "explain": "陳述3 不正確：香港海關的通函提醒金錢服務經營者應瀏覽特別組織的網站，以查閱最新資料，包括特別組織不時發表的最新聲明。《打擊洗錢及恐怖分子資金籌集指引》提及商務及經濟發展局網站，是指在該網站刊登、須加入經營者數據庫的名單，而非特別組織的聲明。陳述1、2 及 4 正確：常見問題指出，只有特別組織呼籲各方對高風險司法管轄區採取行動的聲明所列的司法管轄區，才被視為特別組織對其作出呼籲的司法管轄區，金錢服務經營者應對涉及來自這些司法管轄區的客戶的業務關係和交易採取與風險相稱的更嚴格的客戶盡職審查；對與被加強監察的司法管轄區有關連的客戶採取更嚴格盡職審查措施並非強制性規定，然而在釐定客戶的整體風險狀況時，應顧及到客戶與有關司法管轄區有關連。常見問題仍沿用這兩份聲明的舊有名稱「特別組織公開聲明」及「改善全球打擊洗錢及恐怖分子資金籌集的合規情況：持續進展」，即現時特別組織有關呼籲各方對高風險司法管轄區採取行動的聲明，以及有關被加強監察的司法管轄區的聲明。"
   },
   "format": "combination"
  },
@@ -2755,28 +2755,28 @@
   "module": 1,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.14",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.14段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.13",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.13段"
   },
   "en": {
-   "q": "When should countries, individuals and entities newly included in UNSCRs and sanctions lists be added to an MSO's database?",
+   "q": "According to the AML/CFT Guideline, one objective of the FATF is to set standards for combating ML, TF and PF. What is the other objective it gives the FATF?",
    "options": [
-    "As soon as practicable after UNSC promulgation, regardless of HK implementation",
-    "Only once the relevant sanctions have been implemented through Hong Kong legislation",
-    "At the next scheduled annual review of the MSO's AML/CFT systems and controls",
-    "Only when the CCE issues a circular expressly directing MSOs to do so"
+    "Promoting effective implementation of legal, regulatory and operational measures",
+    "Licensing and supervising the financial institutions in its member jurisdictions",
+    "Prosecuting money laundering offences that cross its member jurisdictions' borders",
+    "Designating terrorists and freezing their property on behalf of the United Nations"
    ],
-   "explain": "¶6.14 requires MSOs to ensure that countries, individuals and entities included in UNSCRs and sanctions lists are added to the database as soon as practicable after promulgation by the UNSC, regardless of whether the sanctions have been implemented by Hong Kong legislation. Waiting for Hong Kong implementation, for the next annual review, or for a CCE circular would each mean missing the 'as soon as practicable' deadline ¶6.14 sets."
+   "explain": "¶1.13 states that the objectives of the FATF are to set standards and promote effective implementation of legal, regulatory and operational measures for combating ML, TF, PF and other related threats to the integrity of the international financial system. The Guideline describes the FATF as an inter-governmental body that sets standards and monitors jurisdictions' compliance through evaluations; licensing and supervising financial institutions, prosecuting offences, and designating terrorists and freezing their property are not among the objectives it gives the FATF."
   },
   "tc": {
-   "q": "新列入聯合國安理會決議及制裁名單的國家、個人及實體，應何時加入金錢服務經營者的數據庫？",
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，財務行動特別組織的宗旨之一是制訂打擊洗錢、恐怖分子資金籌集及擴散資金籌集的標準。本指引所述的另一項宗旨是甚麼？",
    "options": [
-    "在聯合國安理會頒布後，在切實可行範圍內盡快加入，不論有否透過香港法例實施",
-    "只在有關制裁已正式透過香港法例實施之後，方須將其加入數據庫",
-    "在該金錢服務經營者下次的打擊洗錢／恐怖分子資金籌集制度及管控措施年度覆核時",
-    "只在海關關長就此另行發出通函明確指示金錢服務經營者須加入時"
+    "推動有效執行法律、監管及作業措施",
+    "向成員司法管轄區的金融機構發牌並作出監管",
+    "檢控跨越成員司法管轄區邊界的洗錢罪行",
+    "代表聯合國指認恐怖分子並凍結其財產"
    ],
-   "explain": "第6.14段訂明，當聯合國安理會頒布決議或制裁名單列入若干國家、個人及實體後，金錢服務經營者應在切實可行範圍內盡快確保數據庫已收錄該等國家、個人及實體，而不論有關制裁是否已透過立法在香港實施。等待香港法例實施、等待下次年度覆核，或等待海關關長發出通函，均會錯過第6.14段訂明「切實可行範圍內盡快」的要求。"
+   "explain": "第1.13段指出，特別組織的宗旨是制訂標準，並推動有效執行法律、監管及作業措施，以打擊洗錢、恐怖分子資金籌集、擴散資金籌集及其他影響國際金融體系完整性的相關威脅。本指引所述的特別組織，是制訂標準並透過評核監察各司法管轄區合規情況的跨政府組織；向金融機構發牌及作出監管、檢控罪行，以及指認恐怖分子並凍結其財產，均不屬本指引所述的特別組織宗旨。"
   }
  },
  {
@@ -2784,16 +2784,16 @@
   "module": 1,
   "answer": 3,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.15",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.15段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.2 & Glossary",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.2段及詞彙表"
   },
   "en": {
-   "q": "According to paragraph 6.15 of the AML/CFT Guideline, which of the following statements about the lists an MSO should include in its screening database, and how that database should be kept, are correct?",
+   "q": "According to the AML/CFT Guideline, which of the following statements about how the terms, abbreviations and other words used in it are to be interpreted are correct?",
    "statements": [
-    "An MSO should include in its database the lists published in the Gazette or on the website of the CEDB.",
-    "An MSO may omit from its database the lists that the CCE draws to its attention from time to time.",
-    "The database should also be subject to timely update whenever there are changes to the lists that it consolidates.",
-    "The database should also be made easily accessible by the relevant staff members of the MSO."
+    "Terms and abbreviations used in the Guideline should be interpreted by reference to the definitions set out in its Glossary.",
+    "Where applicable, the interpretation of other words or phrases should follow those set out in the FATF Recommendations.",
+    "In the Glossary, “CDD” means customer due diligence, and “JFIU” means the Joint Financial Intelligence Unit.",
+    "In the Glossary, “Schedule 2” means Schedule 2 to the Anti-Money Laundering and Counter-Terrorist Financing Ordinance."
    ],
    "options": [
     "1, 2 and 3",
@@ -2802,15 +2802,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 2 is false: paragraph 6.15 requires an MSO to include in its database both the lists published in the Gazette or on the website of the Commerce and Economic Development Bureau and the lists that the CCE draws to the attention of MSOs from time to time. Statements 1, 3 and 4 are correct: the Gazette and CEDB website lists must be included; the database should be subject to timely update whenever there are changes; and it should be made easily accessible by relevant staff."
+   "explain": "Statement 2 is false: ¶1.2 says that, where applicable, the interpretation of other words or phrases should follow those set out in the AMLO, not the FATF Recommendations; the Glossary turns to the FATF Recommendations only for the meaning of “financial institutions”, which is itself a Glossary term. Statements 1, 3 and 4 are correct: ¶1.2 says terms and abbreviations used in the Guideline should be interpreted by reference to the definitions set out in the Glossary part of the Guideline, and the Glossary gives CDD as customer due diligence, JFIU as the Joint Financial Intelligence Unit and Schedule 2 as Schedule 2 to the AMLO."
   },
   "tc": {
-   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》第6.15段，關於金錢服務經營者應加入其篩查數據庫的名單及該數據庫的備存方式，下列哪些陳述正確？",
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，關於本指引所用的用語、縮寫及其他詞語應如何詮釋，下列哪些陳述正確？",
    "statements": [
-    "金錢服務經營者應將在憲報或商務及經濟發展局網站刊登的名單加入其數據庫。",
-    "金錢服務經營者可不將關長不時告知金錢服務經營者的名單加入其數據庫。",
-    "該數據庫亦應在其整合的名單有任何變動時，及時作出更新。",
-    "該數據庫亦應讓金錢服務經營者的相關職員易於查閱。"
+    "本指引中所用的用語及縮寫，應參照本指引詞彙部分載列的釋義。",
+    "如適用的話，其他詞語或短語的詮釋，應按照特別組織建議所載列的釋義。",
+    "詞彙部分訂明，「盡職審查」指客戶盡職審查，「財富情報組」指聯合財富情報組。",
+    "詞彙部分訂明，「附表2」指《打擊洗錢及恐怖分子資金籌集條例》附表2。"
    ],
    "options": [
     "1、2 及 3",
@@ -2819,7 +2819,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述2 不正確：第6.15段訂明，金錢服務經營者應將下列各項加入其數據庫：在憲報或商務及經濟發展局網站刊登的名單，以及關長不時告知金錢服務經營者的名單。陳述1、3 及 4 正確：在憲報或商務及經濟發展局網站刊登的名單應加入數據庫；每當資料有變化時，該數據庫亦應及時更新，讓相關職員易於查閱。"
+   "explain": "陳述2 不正確：第1.2段訂明，如適用的話，其他詞語或短語的詮釋應按照《打擊洗錢條例》所載列的釋義，而非特別組織建議；詞彙部分只就「金融機構」一詞採用特別組織建議所載的定義，而該詞本身是詞彙部分所列的用語。陳述1、3 及 4 正確：第1.2段訂明本指引中的用語及縮寫應參照本指引詞彙部分載列的釋義；詞彙部分訂明「盡職審查」指客戶盡職審查、「財富情報組」指聯合財富情報組，而「附表2」指《打擊洗錢條例》附表2。"
   },
   "format": "combination"
  },
@@ -2828,28 +2828,28 @@
   "module": 1,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.15",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.15段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.13",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.13段"
   },
   "en": {
-   "q": "Besides being kept up to date, what other quality does the Guideline require of an MSO's screening database?",
+   "q": "According to the AML/CFT Guideline, the FATF Recommendations form the basis for a co-ordinated response to threats to the integrity of the financial system. What else does it say they help ensure?",
    "options": [
-    "It should be made easily accessible by relevant staff",
-    "It should be stored only in hard-copy form at the MSO's registered office",
-    "It should be encrypted so that only the compliance officer can open it",
-    "It should be filed with the CCE each time it is amended"
+    "A level playing field",
+    "One global sanctions list",
+    "Free movement of capital",
+    "Stable exchange rates"
    ],
-   "explain": "¶6.15 states that the database should be subject to timely update whenever there are changes, and should be made easily accessible by relevant staff. Restricting access to a single officer would defeat the screening purpose described in ¶6.13."
+   "explain": "¶1.13 states that the FATF Recommendations, recognised as the international standard for combating ML, TF and PF, form the basis for a co-ordinated response to these threats to the integrity of the financial system and help ensure a level playing field. The Guideline does not say that they produce one global sanctions list, secure the free movement of capital or keep exchange rates stable."
   },
   "tc": {
-   "q": "除應及時更新外，本指引還要求金錢服務經營者的篩查數據庫具備甚麼特質？",
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，特別組織建議為協調應對影響國際金融體系完整性的威脅提供基礎。本指引指出，這些建議還有助於甚麼？",
    "options": [
-    "應讓相關職員易於查閱該數據庫",
-    "應只以印本形式存放於註冊辦事處",
-    "應予加密，使只有合規主任方可開啟",
-    "每次修訂後應向海關關長存檔備案"
+    "營造公平競爭的環境",
+    "訂立單一的全球制裁名單",
+    "確保資本自由流動",
+    "維持貨幣匯率穩定"
    ],
-   "explain": "第6.15段訂明，每當資料有變化時，數據庫亦應及時更新，讓相關職員易於查閱。若只限單一人員查閱，將有違第6.13段所述的篩查目的。"
+   "explain": "第1.13段指出，特別組織建議獲承認為打擊洗錢、恐怖分子資金籌集及擴散資金籌集的國際標準，這些建議為協調應對影響國際金融體系完整性的威脅提供基礎，並有助營造公平競爭的環境。本指引並無指這些建議會訂立單一的全球制裁名單、確保資本自由流動或維持貨幣匯率穩定。"
   }
  },
  {
@@ -2857,28 +2857,28 @@
   "module": 1,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.16(a)",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.16(a)段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.13",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.13段"
   },
   "en": {
-   "q": "At what point should an MSO first screen a customer and any beneficial owners against its current database?",
+   "q": "According to the AML/CFT Guideline, the FATF's stringent follow-up after its evaluations includes identifying high-risk and other monitored jurisdictions. What could those jurisdictions be subject to?",
    "options": [
-    "At the establishment of the business relationship",
-    "At the first anniversary of the relationship",
-    "Only when a transaction exceeds HK$8,000",
-    "Only when the customer is assessed as high risk"
+    "Enhanced scrutiny by the FATF, or counter-measures by FATF members and the international community",
+    "Counter-measures by the FATF, or enhanced scrutiny by FATF members and the international community",
+    "Expulsion from the FATF, or the freezing of their central banks' reserves on the orders of the FATF",
+    "Fines imposed on them by the FATF, or a ban by the FATF on remittances made to or from them"
    ],
-   "explain": "¶6.16(a) requires screening of customers and any beneficial owners against the current database at the establishment of the relationship. Footnote 58 makes clear that screening is carried out irrespective of the risk profile attributed to the customer."
+   "explain": "¶1.13 states that the FATF's stringent follow-up after its evaluations includes identifying high-risk and other monitored jurisdictions which could be subject to enhanced scrutiny by the FATF or counter-measures by the FATF members and the international community at large. The roles do not run the other way: the scrutiny is the FATF's, while the counter-measures come from its members and the international community. The Guideline mentions no expulsion, freezing of central bank reserves, fines or remittance bans imposed by the FATF."
   },
   "tc": {
-   "q": "金錢服務經營者應在何時首次根據當時的數據庫對客戶及任何實益擁有人進行篩查？",
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，特別組織在評核後進行的嚴格跟進程序，包括識別高度風險及其他受監察的司法管轄區。這些司法管轄區可能會面對甚麼？",
    "options": [
-    "在建立業務關係時",
-    "在業務關係的首個周年日",
-    "只在交易超過8,000港元時",
-    "只在該客戶被評為高風險時"
+    "特別組織加強審查，或特別組織的成員及國際社會採取針對措施",
+    "特別組織採取針對措施，或特別組織的成員及國際社會加強審查",
+    "被逐出特別組織，或按特別組織的命令凍結其中央銀行的外匯儲備",
+    "被特別組織處以罰款，或由特別組織禁止與其進行的匯款交易"
    ],
-   "explain": "第6.16(a)段訂明，應在建立關係當時，根據當時的數據庫對客戶及該等客戶的任何實益擁有人進行篩查。註腳58明確指出，不論客戶的風險狀況為何均應篩查。"
+   "explain": "第1.13段指出，特別組織在評核後進行嚴格的跟進程序，其中包括識別高度風險及其他受監察的司法管轄區；特別組織可能會加強對這些地區的審查工作，而特別組織的成員及國際社會也可能對這些司法管轄區採取針對措施。兩者的角色不可倒轉：加強審查的是特別組織，採取針對措施的是特別組織的成員及國際社會。本指引並無提及特別組織會把這些司法管轄區逐出、下令凍結其中央銀行的儲備、處以罰款或禁止與其進行匯款交易。"
   }
  },
  {
@@ -2886,28 +2886,28 @@
   "module": 1,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.16 footnote 58",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.16段註腳58"
+   "en": "C&ED Circular MSSB/FATF_02/2026 (3 Jul 2026) item (1) — FATF statement on High-Risk Jurisdictions subject to a Call for Action",
+   "tc": "香港海關通函 MSSB/FATF_02/2026（2026年7月3日）第(1)項——財務行動特別組織有關呼籲各方對高風險司法管轄區採取行動的聲明"
   },
   "en": {
-   "q": "How does a customer's assessed risk rating affect whether sanctions-database screening is carried out?",
+   "q": "The C&ED's circular of 3 July 2026 passes on the FATF statement on High-Risk Jurisdictions subject to a Call for Action. For all countries identified as high-risk, what does the FATF call on its members, and urge all jurisdictions, to do?",
    "options": [
-    "It does not -- screening should be carried out irrespective of the customer's risk profile",
-    "Only customers assessed as medium or high risk need be screened against the database",
-    "Low-risk customers may be screened once every three years instead of at each trigger point",
-    "A customer's risk rating determines the frequency, though not whether, screening is carried out"
+    "Apply enhanced due diligence to them and, in the most serious cases, apply countermeasures",
+    "Weigh the statement in their risk analysis and, in the most serious cases, apply enhanced due diligence",
+    "Apply enhanced due diligence to them and, in the most serious cases, file suspicious transaction reports",
+    "Monitor their progress closely and, in the most serious cases, apply countermeasures"
    ],
-   "explain": "Footnote 58 to ¶6.16 states expressly that screening should be carried out irrespective of the risk profile attributed to the customer -- an absolute rule with no risk-based carve-out at all. Unlike the extent of CDD measures elsewhere in the Guideline, which the RBA does adjust, neither whether nor how often sanctions screening happens varies with a customer's risk rating, so the 'affects frequency, not whether' option is also wrong."
+   "explain": "The circular reports that, for all countries identified as high-risk, the FATF calls on all members and urges all jurisdictions to apply enhanced due diligence and, in the most serious cases, to apply countermeasures, to protect the international financial system from the money laundering, terrorist financing and proliferation financing risks emanating from those countries. Taking a statement into account in risk analysis is what the FATF encourages its members to do with its separate statement on Jurisdictions under Increased Monitoring, and closely monitoring progress is what the FATF itself does for the jurisdictions on that list; neither is the call made for high-risk countries. Nor is filing suspicious transaction reports the step the FATF names for the most serious cases: that step is countermeasures."
   },
   "tc": {
-   "q": "客戶被評定的風險狀況，對於須否與制裁數據庫進行篩查有何影響？",
+   "q": "香港海關2026年7月3日的通函轉達財務行動特別組織有關呼籲各方對高風險司法管轄區採取行動的聲明。就所有被識別為高風險的國家而言，特別組織要求所有成員及促請所有司法管轄區怎樣做？",
    "options": [
-    "沒有影響——不論客戶的風險狀況為何，均應進行篩查",
-    "只有被評為中或高風險的客戶，才須與數據庫進行篩查",
-    "低風險客戶可改為每三年篩查一次，而非在每個觸發點篩查",
-    "客戶的風險狀況決定篩查的頻密程度，但不影響是否須進行篩查"
+    "對其採取更嚴格的盡職審查，及在最嚴重的情況下採取針對措施",
+    "在風險分析時參考該聲明，及在最嚴重的情況下採取更嚴格的盡職審查",
+    "對其採取更嚴格的盡職審查，及在最嚴重的情況下提交可疑交易報告",
+    "密切監察這些國家的進展，及在最嚴重的情況下採取針對措施"
    ],
-   "explain": "第6.16段的註腳58明確訂明，不論客戶被評定的風險狀況為何，均應進行篩查——這是一項絕對規定，完全沒有按風險調整的空間。與本指引其他部分可按風險為本的方法調整程度的客戶盡職審查措施不同，篩查是否進行及進行的頻密程度，均不會因客戶的風險評級而有所不同，故「只影響頻密程度」的選項同樣錯誤。"
+   "explain": "通函指出，就所有被識別為高風險的國家而言，特別組織要求所有成員及促請所有司法管轄區採取更嚴格的盡職審查，及在最嚴重的情況下採取針對措施，以免國際金融體系因這些國家出現洗錢、恐怖分子資金籌集和擴散資金籌集的風險而受損。在進行風險分析時參考聲明所載述的資料，是特別組織就另一份有關被加強監察的司法管轄區的聲明而鼓勵其成員做的事；密切監察進展，則是特別組織本身對該名單上的司法管轄區所做的事，兩者均非特別組織對高風險國家的要求。在最嚴重的情況下，特別組織要求採取的是針對措施，而非提交可疑交易報告。"
   }
  },
  {
@@ -2915,16 +2915,16 @@
   "module": 1,
   "answer": 2,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.16 and footnote 58",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.16段及註腳58"
+   "en": "C&ED Circular MSSB/MIS_01/2024 (17 Sep 2024) Purpose of this circular, page 2, and closing paragraph, page 6 — the C&ED's monitoring of the sector and its response to breaches",
+   "tc": "香港海關通函 MSSB/MIS_01/2024（2024年9月17日）第1頁「本通函的目的」及第5頁末段——海關對金錢服務業的監察及對違規情況的回應"
   },
   "en": {
-   "q": "According to paragraph 6.16 of the AML/CFT Guideline, which of the following statements about the screening mechanism an MSO should implement against terrorist suspects and possible sanctioned parties are correct?",
+   "q": "According to the C&ED's circular of 17 September 2024 on third party payments, which of the following statements about the C&ED's monitoring of the MSO sector and its response to breaches are correct?",
    "statements": [
-    "Screening against the database may be dispensed with for customers assessed as low risk, since it should be applied on a risk-sensitive basis.",
-    "An MSO should screen its customers and any beneficial owners of the customers against the current database at the establishment of the relationship.",
-    "An MSO should screen its customers and any beneficial owners of the customers against all new and any updated designations to the database as soon as is practicable.",
-    "An MSO should screen all relevant parties in a cross-border or cross-boundary wire transfer, including a remittance transaction, against the current database before executing the transfer."
+    "Where MSOs breach statutory and regulatory requirements, the C&ED may impose disciplinary sanctions, while suspending or revoking a licence requires an order of the court.",
+    "The C&ED continually monitors AML/CFT trends relating to the MSO sector and promulgates guidance and circulars from time to time as necessary to assist the sector in identifying suspicious transactions.",
+    "All material issues and deficiencies identified will be investigated, including situations where there is reason to suspect that MSOs have knowingly facilitated third party payments.",
+    "The situations to be investigated include those where MSOs appear to have failed to detect and act on any red flags, including inadequate procedures and controls."
    ],
    "options": [
     "1, 2 and 3",
@@ -2933,15 +2933,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 1 is false: footnote 58 to paragraph 6.16 says screening should be carried out irrespective of the risk profile attributed to the customer, so it cannot be dispensed with for low-risk customers. Statements 2, 3 and 4 are correct: an effective screening mechanism should include screening customers and any beneficial owners against the current database at the establishment of the relationship; screening them against all new and any updated designations to the database as soon as practicable; and screening all relevant parties in a cross-border or cross-boundary wire transfer, including a remittance transaction, against the current database before executing the transfer."
+   "explain": "Statement 1 is false: the circular says the C&ED will not hesitate to take enforcement actions, disciplinary sanctions and suspension or revocation of a licence, where appropriate, against MSOs for breach of statutory and regulatory requirements; suspending or revoking a licence is among the C&ED's own actions, and the circular calls for no court order. Statements 2, 3 and 4 are correct: the C&ED continually monitors AML/CFT trends relating to the MSO sector and promulgates guidance and circulars from time to time as necessary, to assist the sector in identifying suspicious transactions and remaining vigilant on risk trends; and all material issues and deficiencies identified will be investigated, including situations where there is reason to suspect that MSOs have knowingly facilitated third party payments as well as situations where it appears that they have failed to detect and act on any red flags, including inadequate procedures and controls."
   },
   "tc": {
-   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》第6.16段，關於金錢服務經營者為防範嫌疑恐怖分子及可能受制裁的各方而應實施的篩查機制，下列哪些陳述正確？",
+   "q": "根據香港海關2024年9月17日有關第三方支付的通函，關於海關對金錢服務業的監察及其對違規情況的回應，下列哪些陳述正確？",
    "statements": [
-    "對於被評為低風險的客戶，可免除根據數據庫進行篩查，因為篩查應按風險敏感度進行。",
-    "金錢服務經營者應在建立關係當時，根據當時的數據庫對客戶及其任何實益擁有人進行篩查。",
-    "金錢服務經營者應在切實可行範圍內盡快根據數據庫內所有新增及任何更新的指認，對客戶及其任何實益擁有人進行篩查。",
-    "金錢服務經營者應在執行跨境電傳轉帳（包括匯款交易）前，根據當時的數據庫對該轉帳的相關各方進行篩查。"
+    "金錢服務經營者違反法定及規管性規定時，海關可採取紀律處分，但暫時吊銷或撤銷牌照則須由法院頒令。",
+    "海關持續監察有關金錢服務業的打擊洗錢及恐怖分子資金籌集趨勢，並適時發布指引及通函以協助業者識辨可疑交易。",
+    "海關會調查所發現的重要事項及不足之處，包括有理由懷疑金錢服務經營者明知而促成第三方支付的情況。",
+    "海關會調查的情況包括金錢服務經營者因程序及管控措施不足等原因，而看似未能偵察任何可疑交易訊號並作出相應行動的情況。"
    ],
    "options": [
     "1、2 及 3",
@@ -2950,7 +2950,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述1 不正確：第6.16段的註腳58訂明，不論客戶的風險狀況為何均應篩查，故不能對低風險客戶免除篩查。陳述2、3 及 4 正確：有效的篩查機制應包括在建立關係當時，根據當時的數據庫對客戶及該等客戶的任何實益擁有人進行篩查；在切實可行範圍內盡快根據數據庫內所有新增及任何更新的指認對他們進行篩查；以及在執行跨境電傳轉帳（包括匯款交易）前根據當時的數據庫對相關各方進行篩查。"
+   "explain": "陳述1 不正確：通函指出，金錢服務經營者違反法定及規管性規定時，海關會根據情況，毫不猶疑地採取執法行動、紀律處分及暫時吊銷或撤銷牌照；暫時吊銷或撤銷牌照是海關本身會採取的行動，通函並沒有指須由法院頒令。陳述2、3 及 4 正確：海關持續監察有關金錢服務業的打擊洗錢及恐怖分子資金籌集趨勢，並適時發布指引及通函以協助業者識辨可疑交易及對風險趨勢保持警覺；海關亦會調查所有就此發現的重要事項及不足之處，包括有理由懷疑金錢服務經營者明知而促成第三方支付的情況，以及金錢服務經營者因程序及管控措施不足等原因而看似未能偵察任何可疑交易訊號並作出相應行動的情況。"
   },
   "format": "combination"
  },
@@ -2959,16 +2959,16 @@
   "module": 1,
   "answer": 1,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.17",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.17段"
+   "en": "C&ED Circular MSSB/FATF_02/2026 (3 Jul 2026) item (2) and Note 6 — FATF statement on Jurisdictions under Increased Monitoring",
+   "tc": "香港海關通函 MSSB/FATF_02/2026（2026年7月3日）第(2)項及註6——財務行動特別組織有關被加強監察的司法管轄區的聲明"
   },
   "en": {
-   "q": "According to paragraph 6.17 of the AML/CFT Guideline, which of the following statements about the parties to whom the screening requirements in paragraphs 6.16(a) and (b) should extend are correct?",
+   "q": "According to the C&ED's circular of 3 July 2026 on the statements issued by the FATF, which of the following statements about the FATF statement on Jurisdictions under Increased Monitoring are correct?",
    "statements": [
-    "The screening requirements set out in paragraphs 6.16(a) and (b) should extend to the connected parties of a customer.",
-    "For this purpose, connected parties are those defined in paragraph 4.3.19 of the Guideline.",
-    "Those screening requirements do not extend to persons purporting to act on behalf of a customer (PPTAs).",
-    "The extension of those screening requirements to such parties should be carried out using a risk-based approach (RBA)."
+    "The statement lists jurisdictions that have committed to resolve swiftly the strategic deficiencies in their regimes within agreed timeframes.",
+    "The FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies.",
+    "The FATF calls on its members to apply countermeasures to these jurisdictions until their strategic deficiencies are resolved.",
+    "The FATF encourages its members to take into account the information presented in the statement in their risk analysis."
    ],
    "options": [
     "1, 2 and 3",
@@ -2977,15 +2977,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 3 is false: paragraph 6.17 states that the screening requirements in paragraphs 6.16(a) and (b) should extend to connected parties and to PPTAs of a customer, so PPTAs are within the extended screening. Statements 1, 2 and 4 are correct: the requirements extend to connected parties as defined in paragraph 4.3.19, and the extension is applied using an RBA."
+   "explain": "Statement 3 is false: the circular says that the FATF encourages its members to take into account the information presented in the statement in their risk analysis; it reports no call for countermeasures against the jurisdictions under increased monitoring. Statements 1, 2 and 4 are correct: the statement sets out the list of jurisdictions that have committed to resolve swiftly the strategic deficiencies in their regimes to counter money laundering, terrorist financing and proliferation financing within agreed timeframes and are subject to increased monitoring; the FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies; and it encourages its members to take the information presented in the statement into account in their risk analysis."
   },
   "tc": {
-   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》第6.17段，關於第6.16(a)及(b)段的篩查規定應擴大至涵蓋的人士，下列哪些陳述正確？",
+   "q": "根據香港海關2026年7月3日有關財務行動特別組織的聲明的通函，關於特別組織有關被加強監察的司法管轄區的聲明，下列哪些陳述正確？",
    "statements": [
-    "第6.16(a)及(b)段載列的篩查規定，應擴大至涵蓋與客戶有關連的人士。",
-    "就此而言，與客戶有關連的人士是指符合本指引第4.3.19段所界定者。",
-    "第6.16(a)及(b)段的篩查規定並不擴大至涵蓋看似代表客戶行事的人。",
-    "該等篩查規定擴大至涵蓋上述人士，應透過風險為本的方法進行。"
+    "該聲明所列的司法管轄區已承諾於協定時間內迅速解決其制度方面的策略性缺失。",
+    "特別組織將會密切監察這些司法管轄區在處理已識別的策略性缺失方面的進展。",
+    "特別組織要求其成員對這些司法管轄區採取針對措施，直至其策略性缺失獲得解決。",
+    "特別組織鼓勵其成員在進行風險分析時，參考該聲明所載述的資料。"
    ],
    "options": [
     "1、2 及 3",
@@ -2994,7 +2994,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述3 不正確：第6.17段訂明，第6.16(a)及(b)段載列的篩查規定應擴大至涵蓋與客戶有關連的人士及看似代表客戶行事的人，故看似代表客戶行事的人亦在擴大篩查的範圍內。陳述1、2 及 4 正確：該等規定擴大至涵蓋符合第4.3.19段所界定與客戶有關連的人士，並透過風險為本的方法進行。"
+   "explain": "陳述3 不正確：通函指出，特別組織鼓勵其成員在進行風險分析時參考該聲明所載述的資料，並沒有提及要求對被加強監察的司法管轄區採取針對措施。陳述1、2 及 4 正確：該聲明載有承諾於協定時間內迅速解決其在打擊洗錢、恐怖分子資金籌集及大規模毀滅武器擴散資金籌集制度方面的策略性缺失，且受加強監察的司法管轄區的名單；特別組織將會密切監察這些司法管轄區在處理已識別的策略性缺失方面的進展；並鼓勵其成員在進行風險分析時參考該聲明所載述的資料。"
   },
   "format": "combination"
  },
@@ -3003,16 +3003,16 @@
   "module": 1,
   "answer": 3,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.18",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.18段"
+   "en": "C&ED Circular MSSB/MIS_01/2024 (17 Sep 2024) opening paragraphs 2–3, page 1 — how MSOs may be exploited and what they risk",
+   "tc": "香港海關通函 MSSB/MIS_01/2024（2024年9月17日）第1頁第2至3段——金錢服務經營者可能遭到利用的情況及須承擔的後果"
   },
   "en": {
-   "q": "According to paragraph 6.18 of the AML/CFT Guideline, which of the following statements about what an MSO should do when possible name matches are identified during screening are correct?",
+   "q": "According to the C&ED's circular of 17 September 2024 on third party payments, which of the following statements about how MSOs may be exploited for money laundering, and what they risk, are correct?",
    "statements": [
-    "When possible name matches are identified during screening, an MSO should conduct enhanced checks to determine whether the possible matches are genuine hits.",
-    "In case of any suspicion of TF, PF or sanctions violations, the MSO should make a report to the Commerce and Economic Development Bureau.",
-    "Records of the results of the enhanced checking should be properly documented, or else recorded electronically.",
-    "All screening records, together with the enhanced checking results, should likewise be documented or recorded electronically."
+    "Cross-boundary remittance services offered by MSOs, particularly inward remittance initiated by transient customers, could be exploited as a conduit for transferring crime proceeds.",
+    "The vulnerabilities of some MSOs are exacerbated by accepting third party payments, as criminals would attempt to use them to split transactions into amounts below the CDD thresholds.",
+    "If MSOs fail to take reasonable steps to detect or properly address apparent red flags, they may be in breach of legal or regulatory requirements.",
+    "MSOs may also be exposed to civil and criminal liabilities as a result of their involvement in the associated money laundering activities."
    ],
    "options": [
     "1, 2 and 3",
@@ -3021,15 +3021,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 2 is false: paragraph 6.18 states that in case of any suspicions of TF, PF or sanctions violations the MSO should make a report to the JFIU, not to the Commerce and Economic Development Bureau. Statements 1, 3 and 4 are correct: when possible name matches are identified during screening, an MSO should conduct enhanced checks to determine whether the possible matches are genuine hits, and records of the enhanced checking results, together with all screening records, should be documented, or recorded electronically."
+   "explain": "Statement 2 is false: the circular says the vulnerabilities of some MSOs are exacerbated by their acceptance of payment from third parties because criminals would attempt to use third party payments for transactions in order to obscure the identity of the beneficial owner or the source of illicit funds; it does not give splitting transactions below the CDD thresholds as the reason. Breaking one transaction into two or more below the CDD thresholds appears in the circular as a separate red flag, where multiple customers seem to be working together. Statements 1, 3 and 4 are correct: cross-boundary remittance service offered by MSOs, particularly inward remittance initiated by transient customers, could be exploited as a conduit for transfer of crime proceeds; if MSOs fail to take reasonable steps to detect or properly address apparent red flags, they may be in breach of legal or regulatory requirements; and MSOs may also be exposed to civil and criminal liabilities as a result of their involvement in the associated money laundering activities."
   },
   "tc": {
-   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》第6.18段，關於金錢服務經營者在篩查期間識別出可能吻合的姓名／名稱時應採取的行動，下列哪些陳述正確？",
+   "q": "根據香港海關2024年9月17日有關第三方支付的通函，關於金錢服務經營者可能如何遭到利用進行洗錢，以及其須承擔的後果，下列哪些陳述正確？",
    "statements": [
-    "如篩查期間識別出可能吻合的姓名／名稱，經營者便應執行更嚴格的查核，以斷定是否真正吻合。",
-    "如經營者懷疑有涉及恐怖分子資金籌集、擴散資金籌集或制裁的違規情況，便應向商務及經濟發展局報告。",
-    "更嚴格查核所得的結果應妥為記錄在案，或以電子方式加以記錄及保存。",
-    "所有篩查紀錄連同更嚴格查核的結果，同樣應妥為記錄在案或以電子方式記錄。"
+    "金錢服務經營者提供的跨境匯款服務，尤其是短期客戶要求進行的匯入服務，可利用作犯罪得益的轉帳管道。",
+    "由於罪犯可藉第三方支付將交易拆分至低於客戶盡職審查門檻，接受第三方支付的金錢服務經營者有更大可能遭到利用。",
+    "如金錢服務經營者沒有採取合理步驟偵察或妥為處理明顯的可疑交易訊號，即可能違反法律規定或規管性規定。",
+    "如沒有妥為處理明顯的可疑交易訊號，金錢服務經營者亦可能因涉及有關洗錢活動而須負上民事或刑事責任。"
    ],
    "options": [
     "1、2 及 3",
@@ -3038,7 +3038,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述2 不正確：第6.18段訂明，如金錢服務經營者懷疑有任何涉及恐怖分子資金籌集、擴散資金籌集或制裁的違規情況，便應向聯合財富情報組作出報告，而非向商務及經濟發展局報告。陳述1、3 及 4 正確：如篩查期間識別出可能吻合的姓名／名稱，金錢服務經營者便應執行更嚴格的查核，以斷定可能吻合的姓名／名稱是否真正吻合；更嚴格查核的結果連同所有篩查紀錄，應記錄在案或以電子方式記錄。"
+   "explain": "陳述2 不正確：通函指出，由於罪犯可藉使用第三方支付進行交易以掩飾實益擁有人的身分或非法資金的來源，接受第三方支付的金錢服務經營者有更大可能遭到利用；通函並沒有以把交易拆分至低於客戶盡職審查門檻作為原因。多名客戶合謀將一項交易拆分為低於客戶盡職審查門檻的兩項或更多的交易，是通函另外列出的可疑交易訊號。陳述1、3 及 4 正確：金錢服務經營者提供的跨境匯款服務，尤其是短期客戶要求進行的匯入服務，可利用作犯罪得益的轉帳管道；如金錢服務經營者沒有採取合理步驟偵察或妥為處理明顯的可疑交易訊號，即可能違反法律規定或規管性規定，亦可能因涉及有關洗錢活動而須負上民事或刑事責任。"
   },
   "format": "combination"
  },
@@ -3047,28 +3047,28 @@
   "module": 1,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.18",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.18段"
+   "en": "C&ED Circular MSSB/MIS_01/2025 (24 Apr 2025) ¶1–2 — suspected fraudulent websites related to an MSO's business identity",
+   "tc": "香港海關通函 MSSB/MIS_01/2025（2025年4月24日）第1至2段——與金錢服務經營者業務身分有關的疑似欺詐網站"
   },
   "en": {
-   "q": "What records relating to sanctions screening should an MSO keep?",
+   "q": "The C&ED has drawn MSOs' attention to an upward trend of fraudulent websites and bogus social media advertisements impersonating MSOs' identities to carry out illegal money service operations or fraudulent activities. What does it recommend an MSO do on encountering a suspected fraudulent website related to its own business identity?",
    "options": [
-    "Enhanced-checking results, plus screening records, in writing or electronically",
-    "Only records of matches later confirmed to be genuine hits, not cleared ones",
-    "Only the screening records for customers assessed as high risk of ML/TF",
-    "No records are required once a possible match is cleared as a false positive"
+    "Notify the public, and report the case to the C&ED and the Hong Kong Police Force",
+    "Notify the Privacy Commissioner for Personal Data, and report the case to the C&ED and the JFIU",
+    "Notify the public, and report the case to the JFIU and the Hong Kong Monetary Authority",
+    "Notify its bank, and report the case to the Hong Kong Police Force and the ICAC"
    ],
-   "explain": "¶6.18 requires that records of enhanced checking results, together with all screening records, be documented or recorded electronically. The requirement is not limited to confirmed genuine hits, is not limited to high-risk customers, and does not lapse once a match is cleared as a false positive -- the cleared-match records must still be kept."
+   "explain": "The circular recommends that an MSO encountering a suspected fraudulent website related to its own business identity notify the public, and report the case to the C&ED and the Hong Kong Police Force. It does not recommend notifying the Privacy Commissioner for Personal Data or the MSO's bank instead of the public, nor reporting the case to the JFIU, the Hong Kong Monetary Authority or the ICAC."
   },
   "tc": {
-   "q": "金錢服務經營者就制裁篩查應保存哪些紀錄？",
+   "q": "香港海關提醒金錢服務經營者，越來越多欺詐網站和偽造社交媒體平台廣告仿冒金錢服務經營者，以經營非法金錢服務業務或進行欺詐。如遇到與其業務身分有關的疑似欺詐網站，海關建議金錢服務經營者怎樣做？",
    "options": [
-    "更嚴格查核的結果連同篩查紀錄，記錄在案或以電子方式記錄",
-    "只限其後被確認為真正吻合的紀錄，不包括已排除的個案",
-    "只限洗錢╱恐怖分子資金籌集高風險客戶的篩查紀錄",
-    "一旦可能吻合被排除為誤報，即無須保存紀錄"
+    "向公眾發出通知，並向海關及香港警務處報案",
+    "通知個人資料私隱專員，並向海關及聯合財富情報組報案",
+    "向公眾發出通知，並向聯合財富情報組及金管局報案",
+    "通知其往來銀行，並向警務處及廉政公署報案"
    ],
-   "explain": "第6.18段規定，更嚴格查核的結果連同篩查紀錄，均應記錄在案或以電子方式記錄。此規定並不限於已確認的真正吻合個案，亦不限於高風險客戶，而且吻合個案一旦被排除為誤報，紀錄仍須保存，並非可豁免。"
+   "explain": "通函建議金錢服務經營者如遇到與其業務身分有關的疑似欺詐網站，向公眾發出通知，並向海關及香港警務處報案。通函並非建議以通知個人資料私隱專員或經營者的往來銀行代替向公眾發出通知，亦沒有建議向聯合財富情報組、金管局或廉政公署報案。"
   }
  },
  {
@@ -3076,16 +3076,16 @@
   "module": 1,
   "answer": 4,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.19",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.19段"
+   "en": "C&ED Circular MSSB/FATF_03/2026 (16 Jul 2026) ¶2 — revisions to FATF Recommendation 16",
+   "tc": "香港海關通函 MSSB/FATF_03/2026（2026年7月16日）第2段——財務行動特別組織第16項建議的修訂"
   },
   "en": {
-   "q": "According to paragraph 6.19 of the AML/CFT Guideline, which of the following statements about an MSO relying on its overseas office for database maintenance or screening are correct?",
+   "q": "According to the C&ED's circular of 16 July 2026 on the FATF's public consultation, which of the following statements about the revisions to the FATF Standards on payment transparency are correct?",
    "statements": [
-    "An MSO may rely on its overseas office to maintain the database against which screening is carried out.",
-    "An MSO may equally rely on its overseas office to undertake the screening process on its own behalf.",
-    "The ultimate responsibility for ensuring compliance with the regulations and legislation on TF, financial sanctions and PF remains with the MSO.",
-    "That ultimate responsibility remains with the MSO even where the database is maintained, or the screening undertaken, by its overseas office."
+    "The revisions to FATF Recommendation 16, agreed in June 2025, will keep pace with changes in the payment landscape.",
+    "The revisions strengthen the international payment system by increasing the transparency of information that accompanies cross-border payments.",
+    "The revisions require the introduction of tools to protect against fraud and error, to strengthen the international payment system.",
+    "All jurisdictions around the world are expected to be ready to implement the changes by the end of 2030."
    ],
    "options": [
     "1, 2 and 3",
@@ -3094,15 +3094,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "All four statements are correct: paragraph 6.19 states that an MSO may rely on its overseas office to maintain the database or to undertake the screening process, but reminds the MSO that the ultimate responsibility for ensuring compliance with the relevant regulations and legislation on TF, financial sanctions and PF remains with the MSO, whichever office does the work."
+   "explain": "All four statements are correct: the circular says the revisions to FATF's Recommendation 16, agreed in June 2025, will keep pace with changes in the payment landscape, and strengthen the safety and security of the international payment system by increasing transparency of information that accompanies cross-border payments and requiring the introduction of tools to protect against fraud and error; and all jurisdictions around the world are expected to be ready to implement the changes by the end of 2030."
   },
   "tc": {
-   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》第6.19段，關於金錢服務經營者依賴其在外地的辦事處備存數據庫或執行篩查，下列哪些陳述正確？",
+   "q": "根據香港海關2026年7月16日有關財務行動特別組織展開公眾諮詢的通函，關於加強支付透明度的標準的修訂，下列哪些陳述正確？",
    "statements": [
-    "金錢服務經營者可依賴其設於外地的辦事處備存用作篩查的相關數據庫。",
-    "金錢服務經營者可同樣依賴其設於外地的辦事處代為執行篩查程序。",
-    "確保關於恐怖分子資金籌集、金融制裁及擴散資金籌集的法規獲遵守的最終責任，仍由經營者承擔。",
-    "即使數據庫由其外地辦事處備存，或篩查由該辦事處執行，最終責任仍由該經營者承擔。"
+    "財務行動特別組織於2025年6月通過的第16項建議的修訂，將與支付格局的變化同步。",
+    "有關修訂透過提升跨境支付資訊的透明度，以增強國際支付系統的安全及穩定。",
+    "有關修訂要求引入防止詐騙及錯誤的工具，以增強國際支付系統的安全及穩定。",
+    "所有的司法區預計需於2030年底前實施第16項建議的修訂所帶來的相關變更。"
    ],
    "options": [
     "1、2 及 3",
@@ -3111,7 +3111,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "四項陳述均正確：第6.19段訂明，金錢服務經營者可依賴其在外地的辦事處備存數據庫或執行篩查程序，但金錢服務經營者須留意，不論工作由哪個辦事處執行，確保關於恐怖分子資金籌集、金融制裁及擴散資金籌集的相關法規及法例獲遵守的最終責任，仍由金錢服務經營者承擔。"
+   "explain": "四項陳述均正確：通函指出，財務行動特別組織於2025年6月通過的第16項建議的修訂，將與支付格局的變化同步；並透過提升跨境支付資訊的透明度，及要求引入防止詐騙及錯誤的工具，以增強國際支付系統的安全及穩定；所有的司法區預計需於2030年底前實施相關的變更。"
   },
   "format": "combination"
  },
@@ -3120,16 +3120,16 @@
   "module": 1,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.12",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.12段"
+   "en": "C&ED Circular MSSB/MIS_01/2024 (17 Sep 2024) opening paragraphs and footnote 2, page 1 — money exchange gangs and syndicated money laundering in neighbouring regions",
+   "tc": "香港海關通函 MSSB/MIS_01/2024（2024年9月17日）第1頁首兩段及註2——「換錢黨」及犯罪集團在鄰近地區進行的洗錢活動"
   },
   "en": {
-   "q": "According to paragraph 6.12 of the AML/CFT Guideline, which of the following statements about the policies, procedures and controls an MSO should have for compliance with the regulations and legislation on TF, financial sanctions and PF are correct?",
+   "q": "According to the C&ED's circular of 17 September 2024 on third party payments, which of the following statements about the money laundering activities in neighbouring regions that it describes are correct?",
    "statements": [
-    "An MSO should establish and maintain effective policies, procedures and controls to ensure compliance with the legislation on TF, financial sanctions and PF.",
-    "The legal and regulatory obligations of the MSO itself in relation to TF, financial sanctions and PF should be well understood.",
-    "The legal and regulatory obligations of the MSO's staff in relation to those matters should likewise be well understood.",
-    "Provided those obligations are understood by the MSO's management, the Guideline does not call for any guidance or training to be given to staff."
+    "Given the geographic proximity and closely connected financial activities among the Mainland, Hong Kong and Macao, syndicated money laundering in neighbouring regions poses heightened threats to the MSO sector.",
+    "The cross-boundary money exchange syndicates described in the circular operate criminal networks involved in money laundering and underground money exchange with parallel trading of Renminbi and other currencies.",
+    "For the purpose of typology, “money exchange gangs” are illicit groups that unlawfully provide large-amount currency exchange services for individuals and entities, as well as offer high-interest loan services to gamblers in Macao.",
+    "Money exchange gangs seek to circumvent Hong Kong's requirement to declare large quantities of currency at its control points, by illegally exchanging substantial amounts of Hong Kong dollars in cash for gamblers."
    ],
    "options": [
     "1, 2 and 3",
@@ -3138,15 +3138,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 4 is false: paragraph 6.12 states that adequate guidance and training should be provided to staff, so understanding at management level alone is not enough. Statements 1, 2 and 3 are correct: an MSO should establish and maintain effective policies, procedures and controls to ensure compliance with the relevant regulations and legislation on TF, financial sanctions and PF, and the legal and regulatory obligations of the MSO and those of its staff should be well understood."
+   "explain": "Statement 4 is false: footnote 2 of the circular says money exchange gangs seek to circumvent the Mainland's regulations on foreign exchange controls and overseas debit card withdrawal limit, by illegally exchanging substantial amounts of Hong Kong dollars in cash for gamblers; the circular does not say they are aimed at Hong Kong's requirement to declare currency at its control points. Statements 1, 2 and 3 are correct: the C&ED notes with concern that the syndicated money laundering activities in neighbouring regions pose heightened threats to the MSO sector, given the geographic proximity and closely connected financial activities among the Mainland, Hong Kong and Macao; the cross-boundary money exchange syndicates it describes operate criminal networks involved in illegal activities related to money laundering and underground money exchange with parallel trading of Renminbi and other currencies; and, for the purpose of typology, “money exchange gangs” refers to illicit groups that unlawfully provide large-amount currency exchange services for individuals and entities, as well as high-interest loan services to gamblers in Macao."
   },
   "tc": {
-   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》第6.12段，關於金錢服務經營者為確保遵守有關恐怖分子資金籌集、金融制裁及擴散資金籌集的法規及法例而應設有的政策、程序及管控措施，下列哪些陳述正確？",
+   "q": "根據香港海關2024年9月17日有關第三方支付的通函，關於通函所述在鄰近地區進行的洗錢活動，下列哪些陳述正確？",
    "statements": [
-    "經營者應設立及維持有效的政策、程序及管控措施，確保關於恐怖分子資金籌集、金融制裁及擴散資金籌集的法例獲遵守。",
-    "金錢服務經營者本身在恐怖分子資金籌集、金融制裁及擴散資金籌集方面的法律及監管責任，應獲充分了解。",
-    "金錢服務經營者的職員在上述該等事宜方面的法律及監管責任，同樣應獲充分了解。",
-    "如金錢服務經營者的管理層了解有關責任，本指引即無要求向職員提供任何導引或培訓。"
+    "由於內地、香港和澳門地理位置相近，而且金融活動有密切聯繫，犯罪集團在鄰近地區進行的洗錢活動對金錢服務業造成高風險。",
+    "通函所述的跨境貨幣兌換集團經營數個犯罪網絡，進行的非法活動包括洗錢和平行交易人民幣及其他貨幣的地下錢莊。",
+    "為便於分類，「換錢黨」指非法向個人及實體提供大額貨幣兌換服務，以及向澳門賭客提供高利貸服務的非法團體。",
+    "換錢黨旨在透過非法為賭客兌換大額港幣現金，繞過香港有關旅客在管制站申報大量現金類物品的規定。"
    ],
    "options": [
     "1、2 及 3",
@@ -3155,7 +3155,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述4 不正確：第6.12段訂明，職員應獲提供充足導引及培訓，故僅管理層了解有關責任並不足夠。陳述1、2 及 3 正確：金錢服務經營者應設立及維持有效的政策、程序及管控措施，確保關於恐怖分子資金籌集、金融制裁及擴散資金籌集的相關法規及法例獲遵守，而金錢服務經營者及其職員均應充分了解本身的法律及監管責任。"
+   "explain": "陳述4 不正確：通函註2指出，換錢黨旨在透過非法為賭客兌換大額港幣現金，繞過內地有關外幣兌換管制措施及海外扣帳卡提款限額的規例；通函並沒有指換錢黨針對香港在管制站申報現金類物品的規定。陳述1、2 及 3 正確：由於內地、香港和澳門不僅地理位置相近，而且金融活動有密切聯繫，海關察悉並關注犯罪集團在鄰近地區進行的洗錢活動對金錢服務業所造成的高風險；通函所述的跨境貨幣兌換集團經營數個犯罪網絡，進行的非法活動包括洗錢和平行交易人民幣及其他貨幣的地下錢莊；而為便於分類，「換錢黨」指非法向個人及實體提供大額貨幣兌換服務，以及向澳門賭客提供高利貸服務的非法團體。"
   },
   "format": "combination"
  },
@@ -40153,45 +40153,45 @@
   "module": 6,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.1",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.1段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.4",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.4段"
   },
   "en": {
-   "q": "What is the essential difference in focus between money laundering and terrorist financing?",
+   "q": "An MSO should conduct enhanced ongoing monitoring of a business relationship that presents a high ML/TF risk. Which of the following does the AML/CFT Guideline give as examples of how to do so?",
    "options": [
-    "ML's focus is on the source of the property — criminal proceeds; TF's focus is on the destination or use of property, which may be legitimate in origin",
-    "TF is only made out where a terrorist act has actually been carried out using the property; ML merely requires the property to be suspected of criminal origin",
-    "ML concerns wire transfers of an amount equal to or above $8,000; TF concerns remittance transactions below that same threshold amount",
-    "ML depends on the Court of First Instance making an order that specifies the property; TF depends on a notice being published in the Gazette by the Chief Executive"
+    "Increasing the number and timing of controls applied, and selecting patterns of transactions that need further examination",
+    "Reviewing the customer's existing CDD records once every two years, and updating the CDD information at each review",
+    "Obtaining the CCE's approval to continue the business relationship, and suspending the relationship until approval is given",
+    "Relying on the customer's bank to monitor the relationship, and asking that bank to examine any unusual transactions it finds"
    ],
-   "explain": "¶6.1 states that different from ML — the focus of which is on the handling of criminal proceeds, i.e. the source of property is what matters — the focus of TF is on the destination or use of property, which may have derived from legitimate sources. TF liability does not depend on a terrorist act actually occurring (¶6.5(e)); the $8,000 threshold and the Gazette/Court of First Instance mechanisms in ¶6.4 and ¶6.7 are unrelated to this definitional distinction."
+   "explain": "¶4.9.4 states that an MSO should conduct enhanced ongoing monitoring of a business relationship that presents a high ML/TF risk, for example, by increasing the number and timing of controls applied, and selecting patterns of transactions that need further examination, with reference to Chapter 5. A review of CDD records once every two years falls short of ¶5.3, under which all customers that present high ML/TF risks should be subject to a minimum of an annual review. Approval to continue a high-risk relationship comes from the MSO's own senior management (¶4.9.3), not from the CCE. And ¶4.9.4 puts the monitoring on the MSO itself: the Guideline states that an MSO cannot rely even on an intermediary to continuously monitor its business relationship with a customer (footnote 44)."
   },
   "tc": {
-   "q": "洗錢與恐怖分子資金籌集在重心上的根本分別為何？",
+   "q": "金錢服務經營者應就可引致高度洗錢／恐怖分子資金籌集風險的業務關係執行更嚴格的持續監察。下列哪一項是《打擊洗錢及恐怖分子資金籌集指引》就如何執行此項監察所舉的例子？",
    "options": [
-    "洗錢的重心在於財產的來源——即處理犯罪得益；恐怖分子資金籌集的重心在於財產的終點或用途，而有關財產可以是從合法來源取得的",
-    "恐怖分子資金籌集只在恐怖主義行為已利用財產實際發生後方告成立；洗錢則只須該財產涉嫌屬過去發生的犯罪得益",
-    "洗錢涉及匯款機構處理款額相等於或高於8,000元的電傳轉帳；恐怖分子資金籌集則涉及低於該門檻的匯款交易",
-    "洗錢須視乎原訟法庭有否應行政長官的申請而作出指明財產的命令；恐怖分子資金籌集則須視乎行政長官有否已在憲報刊登相關公告"
+    "增加執行管控措施的次數及時間，以及篩選需要進一步查驗的交易模式",
+    "每兩年覆核一次關於客戶的現存盡職審查紀錄，並於每次覆核時更新有關資料",
+    "取得關長批准才可維持有關業務關係，並在獲得批准之前暫停該業務關係",
+    "依賴客戶所用的銀行監察業務關係，並由該銀行查驗其發現的任何異乎尋常的交易"
    ],
-   "explain": "第6.1段訂明，洗錢著重處理犯罪得益，即財產來源才是重點關注所在；恐怖分子資金籌集則有所不同，其重心在於財產的終點或用途，而有關財產可以是從合法來源取得的。恐怖分子資金籌集的罪責並不取決於恐怖主義行為是否實際發生（見第6.5(e)段）；第6.4及6.7段所述的8,000元門檻及憲報／原訟法庭機制，均與此定義上的分別無關。"
+   "explain": "第4.9.4段訂明，金錢服務經營者應就可引致高度洗錢／恐怖分子資金籌集風險的業務關係執行更嚴格的持續監察，例如增加執行管控措施的次數及時間，以及篩選需要進一步查驗的交易模式，並應參照第5章。每兩年覆核一次盡職審查紀錄，未達第5.3段的要求：金錢服務經營者最低限度應每年對所有可引致洗錢／恐怖分子資金籌集高度風險的客戶進行一次覆核。維持可引致高度風險的業務關係，須取得的是金錢服務經營者的高級管理層的批准（第4.9.3段），而非關長的批准。第4.9.4段亦把持續監察的責任放在金錢服務經營者本身：註腳44訂明，金錢服務經營者不可依賴中介人持續監察其與客戶的業務關係。"
   }
  },
  {
   "id": "m6-182",
   "module": 6,
-  "answer": 4,
+  "answer": 1,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.1",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.1段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.5(a)(i) & (vi), ¶4.8.7(a)(i)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.5(a)(i)及(vi)段、第4.8.7(a)(i)段"
   },
   "en": {
-   "q": "According to paragraph 6.1 of the AML/CFT Guideline, which of the following statements about terrorist financing (TF) are correct?",
+   "q": "Which of the following does the AML/CFT Guideline give as examples of potentially higher risk factors relating to the customer?",
    "statements": [
-    "Terrorist financing is described as the financing of terrorist acts, and also of terrorists and of terrorist organisations.",
-    "It generally refers to carrying out transactions involving property owned by terrorists or terrorist organisations, or used or intended to assist the commission of terrorist acts.",
-    "Money laundering differs in that its focus is on the handling of criminal proceeds, so that the source of the property is what actually matters in that case.",
-    "The focus of terrorist financing is instead on the destination or use of the property, which may have derived from legitimate sources."
+    "There is a significant unexplained geographic difference between the MSO and the customer.",
+    "Defined groups of individuals conduct transactions at single or multiple locations or across multiple services.",
+    "The customer is a government entity or a public body in Hong Kong or in an equivalent jurisdiction.",
+    "The customer knows little or is reluctant to disclose details about the recipient or the originator."
    ],
    "options": [
     "1, 2 and 3",
@@ -40200,15 +40200,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "All four statements are correct. Paragraph 6.1 describes TF as the financing of terrorist acts, and of terrorists and terrorist organisations (statement 1), and says that it generally refers to the carrying out of transactions involving property owned by terrorists or terrorist organisations, or that has been, or is intended to be, used to assist the commission of terrorist acts (statement 2). It then contrasts TF with ML, whose focus is on the handling of criminal proceeds so that the source of the property is what matters (statement 3), whereas the focus of TF is on the destination or use of property, which may have derived from legitimate sources (statement 4)."
+   "explain": "Statement 3 is false: a government entity or a public body in Hong Kong or in an equivalent jurisdiction is one of the Guideline's examples of potentially lower risk factors (paragraph 4.8.7(a)(i)), not of higher ones. Statements 1, 2 and 4 are correct: among the customer risk factors in its examples of potentially higher risk factors, paragraph 4.9.5(a)(i) lists a business relationship conducted in unusual circumstances, e.g. significant unexplained geographic difference between the MSO and the customer, and defined groups of individuals conducting transactions at single or multiple locations or across multiple services; and paragraph 4.9.5(a)(vi) lists a customer who knows little or is reluctant to disclose details about the recipient/originator."
   },
   "tc": {
-   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》第6.1段，關於恐怖分子資金籌集，下列哪些陳述正確？",
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，下列哪些是屬客戶風險因素的潛在較高風險因素例子？",
    "statements": [
-    "恐怖分子資金籌集即資助恐怖主義行為，亦指資助恐怖分子及恐怖主義組織。",
-    "該用語一般指進行涉及恐怖分子或恐怖主義組織所擁有，或已被或擬被用以協助恐怖主義行為的財產的交易。",
-    "洗錢則有所不同：洗錢著重處理犯罪得益，即財產的來源才是重點關注所在。",
-    "至於恐怖分子資金籌集，其重心則在於財產的終點或用途，而有關財產可以是從合法來源取得的。"
+    "金錢服務經營者與客戶顯然距離遙遠而原因不明。",
+    "特定組別的個人在一個或多個地點進行交易或就多種服務進行交易。",
+    "客戶屬在香港或對等司法管轄區的政府機構或公共機構。",
+    "客戶對於收款人／匯款人的詳情所知甚少，或不願披露有關詳情。"
    ],
    "options": [
     "1、2 及 3",
@@ -40217,7 +40217,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "四項陳述均正確。第6.1段訂明恐怖分子資金籌集即資助恐怖主義行為、恐怖分子及恐怖主義組織（陳述1），並指出恐怖分子資金籌集一般指進行牽涉財產的交易，而有關財產由恐怖分子或恐怖主義組織擁有或曾經或意圖用於協助作出恐怖主義行為（陳述2）。該段其後把恐怖分子資金籌集與洗錢作對比：洗錢著重處理犯罪得益，即財產來源才是重點關注所在（陳述3）；而恐怖分子資金籌集則有所不同，其重心在於財產的終點或用途，而有關財產可以是從合法來源取得的（陳述4）。"
+   "explain": "陳述3 不正確：在香港或對等司法管轄區的政府機構或公共機構，是第4.8.7(a)(i)段所舉潛在較低風險因素的例子，而非較高風險因素。陳述1、2 及 4 正確：在潛在較高風險因素的例子中，第4.9.5(a)(i)段所列的客戶風險因素包括業務關係異乎尋常，例如金錢服務經營者與客戶顯然距離遙遠而原因不明、特定組別的個人在一個或多個地點進行交易或就多種服務進行交易；第4.9.5(a)(vi)段則列出客戶對於收款人／匯款人的詳情所知甚少，或不願披露有關詳情。"
   },
   "format": "combination"
  },
@@ -40226,28 +40226,28 @@
   "module": 6,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.2",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.2段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.5.3",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.5.3段"
   },
   "en": {
-   "q": "What does UNSCR 1373 (2001) call on member states to do?",
+   "q": "A company's accounts clerk is authorised to give an MSO instructions on the company's business relationship, and the MSO has determined that the clerk is a person purporting to act on behalf of the customer (PPTA). According to the AML/CFT Guideline, how should the MSO identify and verify the clerk's identity?",
    "options": [
-    "To act so as to prevent and to suppress the financing of terrorist acts of any kind",
-    "To publish the names of individuals and organisations connected with Al-Qa'ida, ISIL (Da'esh) and the Taliban",
-    "To adopt a country-specific approach against the Democratic People's Republic of Korea and Iran",
-    "To prevent the travel of persons for the purpose of committing terrorist acts or undergoing terrorist training"
+    "In line with the identification and verification requirements for a customer that is a natural person",
+    "In line with the identification and verification requirements for a customer that is a legal person",
+    "By the identity checks laid down in the board resolution that authorises the clerk to act for the company",
+    "In line with the requirements for identifying a connected party of the customer, by obtaining the clerk's name"
    ],
-   "explain": "¶6.2 states that UNSCR 1373 (2001) calls on all member states to act to prevent and suppress the financing of terrorist acts. Publishing the Al-Qa'ida/ISIL/Taliban-linked names is a separate mechanism under other UNSCRs described in the same paragraph; the DPRK/Iran country-specific approach comes from UNSCR 1718 (2006) and 2231 (2015) (¶6.9); and preventing travel for terrorist purposes or training is implemented via UNSCR 2178 (2014) (¶6.3) — none of these is what UNSCR 1373 calls on member states to do."
+   "explain": "¶4.5.3 states that an MSO should identify and verify the identity of the PPTA in line with the identification and verification requirements for a customer that is a natural person or a legal person, where applicable. The clerk is a natural person, so the natural-person requirements apply, even though the customer the clerk acts for is a company. A board resolution or similar written authorization is the documentary evidence by which the MSO verifies a PPTA's authority to act (¶4.5.4); it sets no standard for checking identity. Obtaining names is how an MSO identifies the connected parties of a legal-person customer (¶4.3.18), which for a corporation are its directors (¶4.3.19(a)); footnote 26 adds that a connected party who also satisfies the definition of a PPTA has to be identified and verified under the relevant requirements. (The FAQ adds that an MSO may instead verify PPTAs by other reasonable measures commensurate with the ML/TF risks, for example, where a business relationship is assessed to present a low ML/TF risk, by reference to a list of PPTAs confirmed by a department or person within the customer independent of them; this question asks what the Guideline requires.)"
   },
   "tc": {
-   "q": "聯合國安全理事會第1373(2001)號決議要求成員國作甚麼？",
+   "q": "某公司的會計文員獲授權就該公司的業務關係向金錢服務經營者發出指示，而金錢服務經營者已判斷該文員屬看似代表客戶行事的人。根據《打擊洗錢及恐怖分子資金籌集指引》，金錢服務經營者應如何識別及核實該文員的身分？",
    "options": [
-    "採取行動，以防止和遏制一切恐怖分子資金籌集行為",
-    "公布涉及基地組織、伊黎伊斯蘭國和塔利班的個人及組織名單",
-    "對朝鮮民主主義人民共和國及伊朗伊斯蘭共和國採取國家層面的應對措施",
-    "防止任何人士進行以恐怖主義行為或恐怖主義培訓為目的的旅程"
+    "遵守金錢服務經營者識別及核實屬自然人客戶的規定",
+    "遵守金錢服務經營者識別及核實屬法人客戶的規定",
+    "按照授權該文員的董事會決議案內所訂明的核實身分方式",
+    "遵守金錢服務經營者識別客戶的有關連者的規定，收集其姓名"
    ],
-   "explain": "第6.2段訂明安理會通過的第1373(2001)號決議，要求全體成員國採取行動，防止和遏制恐怖分子資金籌集行為。公布涉及基地組織、伊黎伊斯蘭國（達伊沙）和塔利班組織的個人及組織的名單，是同段所述、依據其他決議的另一機制；針對朝鮮及伊朗的國家層面措施源自第1718(2006)及2231(2015)號決議（第6.9段）；防止以恐怖主義行為或恐怖主義培訓為目的的旅程則源自第2178(2014)號決議（第6.3段）——均非第1373號決議要求成員國作出的事項。"
+   "explain": "第4.5.3段訂明，金錢服務經營者識別及核實看似是代表客戶行事的人的身分時，應遵守識別及核實屬自然人或法人客戶的規定（如適用）。該文員是自然人，因此適用屬自然人客戶的規定，即使其所代表的客戶是公司亦然。董事會的決議案或類似書面授權，是第4.5.4段所指用以核實看似代表客戶行事的人的授權的文件證據，並非查核身分的標準。收集姓名是金錢服務經營者識別法人客戶的有關連者的方法（第4.3.18段），而就法團而言，有關連者指該客戶的董事（第4.3.19(a)段）；註腳26亦指出，如有關連者符合看似代表客戶行事的人的定義，金錢服務經營者必須參照相關規定識別和核實該人的身分。（常見問題另指出，金錢服務經營者可採用與洗錢及恐怖分子資金籌集風險相稱的其他合理措施核實看似代表客戶行事的人的身分，例如倘業務關係的洗錢及恐怖分子資金籌集風險被評為屬於低，可根據看似代表客戶行事的人的清單核實其身分，而該清單上的人之身分及行事權力已由客戶內部獨立於身分被核實的人的部門或個人核實；本題問的是《指引》的規定。）"
   }
  },
  {
@@ -40328,16 +40328,16 @@
   "module": 6,
   "answer": 3,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.3",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.3段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.5(a)(ii), (iii) & (v), ¶4.8.7(a)(iv)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.5(a)(ii)、(iii)及(v)段、第4.8.7(a)(iv)段"
   },
   "en": {
-   "q": "According to paragraph 6.3 of the AML/CFT Guideline, which of the following statements about what the UNATMO implements are correct?",
+   "q": "For a customer that is a legal person or a legal arrangement, which of the following does the AML/CFT Guideline give as examples of potentially higher risk factors?",
    "statements": [
-    "The UNATMO further implements a decision under UNSCR 1373 (2001) relating to measures for the prevention of terrorist acts.",
-    "It also implements a decision under UNSCR 1540 (2004) relating to the global non-proliferation of all weapons of mass destruction worldwide.",
-    "It further implements a decision under UNSCR 2178 (2014) relating to the prevention of travel for the purpose of terrorist acts or terrorist training.",
-    "The UNATMO implements as well certain terrorism-related multilateral conventions and certain FATF Recommendations."
+    "It is a legal person or legal arrangement involving a shell vehicle without a clear and legitimate commercial purpose.",
+    "It is a collective investment scheme authorised for offering to the public in Hong Kong or in an equivalent jurisdiction.",
+    "It is a company that has nominee shareholders, nominee directors, bearer shares or bearer share warrants.",
+    "Its ownership structure appears unusual or excessively complex given the nature of its business."
    ],
    "options": [
     "1, 2 and 3",
@@ -40346,15 +40346,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 2 is false: paragraph 6.3 does not name UNSCR 1540 (2004) among what the UNATMO implements; that resolution belongs to the global approach to proliferation financing described at paragraph 6.9, which Hong Kong gives effect to through regulations made under the UNSO and through the WMD(CPS)O. Statements 1, 3 and 4 are correct: paragraph 6.3 states that the UNATMO further implements a decision under UNSCR 1373 (2001) relating to measures for the prevention of terrorist acts and a decision under UNSCR 2178 (2014) relating to the prevention of travel for the purpose of terrorist acts or terrorist training, as well as certain terrorism-related multilateral conventions and certain FATF Recommendations."
+   "explain": "Statement 2 is false: a collective investment scheme authorised for offering to the public in Hong Kong or in an equivalent jurisdiction is one of the Guideline's examples of potentially lower risk factors (paragraph 4.8.7(a)(iv)), not of higher ones. Statements 1, 3 and 4 are correct: among the customer risk factors in its examples of potentially higher risk factors, paragraph 4.9.5(a) lists legal persons or legal arrangements that involve a shell vehicle without a clear and legitimate commercial purpose (item (ii)); companies that have nominee shareholders, nominee directors, bearer shares or bearer share warrants (item (iii)); and an ownership structure of the legal person or legal arrangement that appears unusual or excessively complex given the nature of its business (item (v))."
   },
   "tc": {
-   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》第6.3段，關於《聯合國（反恐怖主義措施）條例》所實施的內容，下列哪些陳述正確？",
+   "q": "就屬法人或法律安排的客戶而言，下列哪些是《打擊洗錢及恐怖分子資金籌集指引》所舉的潛在較高風險因素例子？",
    "statements": [
-    "該條例進一步實施安理會第1373(2001)號決議中關於防止恐怖主義行為的措施的決定。",
-    "該條例亦實施安理會第1540(2004)號決議中有關全球防止大規模毀滅武器擴散的決定。",
-    "該條例並實施安理會第2178(2014)號決議中有關防止為恐怖主義行為或恐怖主義培訓而旅行的決定。",
-    "該條例同時實施某些關於防止恐怖主義的多邊公約及財務行動特別組織的某些建議。"
+    "該法人或法律安排牽涉空殼公司，而並沒有明確及合法的商業目的。",
+    "該客戶是在香港或對等司法管轄區獲授權向公眾發售的集體投資計劃。",
+    "該客戶是有代名人股東、代名人董事、持票人股份或持票人認股權證的公司。",
+    "就該客戶的業務性質而言，其擁有權結構似乎異乎尋常或過於繁複。"
    ],
    "options": [
     "1、2 及 3",
@@ -40363,7 +40363,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述2 不正確：第6.3段並無把安理會第1540(2004)號決議列為《聯合國（反恐怖主義措施）條例》所實施的決定；該號決議是第6.9段所述在全球層面遏止擴散資金籌集的依據，香港是透過根據《聯合國制裁條例》訂立的規例及《大規模毀滅武器（提供服務的管制）條例》予以實施。陳述1、3 及 4 正確：第6.3段訂明該條例進一步實施第1373(2001)號決議中關於防止恐怖主義行為的措施的決定，以及第2178(2014)號決議中關於防止以恐怖主義行為或恐怖主義培訓為目的的旅程的決定，並實施某些關於防止恐怖主義的多邊公約及特別組織的某些建議。"
+   "explain": "陳述2 不正確：在香港或對等司法管轄區獲授權向公眾發售的集體投資計劃，是第4.8.7(a)(iv)段所舉潛在較低風險因素的例子，而非較高風險因素。陳述1、3 及 4 正確：在潛在較高風險因素的例子中，第4.9.5(a)段所列的客戶風險因素包括法人或法律安排牽涉空殼公司，而並沒有明確及合法的商業目的（第(ii)項）；有代名人股東、代名人董事、持票人股份或持票人認股權證的公司（第(iii)項）；以及就法人或法律安排的業務性質而言，其擁有權結構似乎異乎尋常或過於繁複（第(v)項）。"
   },
   "format": "combination"
  },
@@ -40372,28 +40372,28 @@
   "module": 6,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.4",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.4段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.8.18",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.8.18段"
   },
   "en": {
-   "q": "Under sections 4 and 5 of the UNATMO, by what two routes may a person or property be specified as a terrorist, terrorist associate or terrorist property?",
+   "q": "An MSO has reasonable grounds to believe that a customer's transaction relates to a provident, pension, retirement or superannuation scheme that provides retirement benefits to employees, with contributions made by deduction from income from employment and scheme rules that do not permit the assignment of a member's interest. According to the AML/CFT Guideline, what may the MSO generally do?",
    "options": [
-    "By the Chief Executive publishing a Gazette notice after a UNSC Committee designation, or by applying to the Court of First Instance for an order, which is also gazetted",
-    "By the Secretary for Security issuing a freezing notice under section 6, or by the Chief Executive granting a licence exception to the freezing prohibitions under that section",
-    "By the United Nations Security Council alone, taking automatic effect throughout Hong Kong without any Gazette notice or Court of First Instance order",
-    "By the Commerce and Economic Development Bureau issuing a public notice, or by the Court of First Instance making a confiscation order over the property"
+    "Treat the employer as the customer, and choose not to identify or verify the employees as the scheme's beneficial owners",
+    "Treat each employee as a customer, and treat the employer as a person purporting to act on behalf of each of those employees",
+    "Treat the scheme's administrator as the customer, and identify and verify the employer as the scheme's beneficial owner",
+    "Treat the scheme's manager as the customer, and apply simplified due diligence to that manager as a financial institution"
    ],
-   "explain": "¶6.4 states that where a person or property is designated by a UNSC Committee, the Chief Executive may publish a notice in the Gazette under section 4; alternatively, under section 5 the Chief Executive may apply to the Court of First Instance for an order, which if made is also published in the Gazette. The Secretary for Security's freezing and licensing powers (¶6.5(a), ¶6.6), automatic UNSC effect, and the CEDB's role in the separate UNSO sanctions regime (¶6.7-6.8) are not the section 4/5 designation routes."
+   "explain": "¶4.8.18 states that, for the purpose of such a scheme (item (a) of ¶4.8.17), an MSO may generally treat the employer as the customer and may choose not to identify or take reasonable measures to verify the beneficial owners of the scheme (i.e. the employees). Where the MSO has a separate business relationship with the employees, it should apply CDD measures to them in accordance with the relevant requirements of Chapter 4. The paragraph does not make each employee the customer with the employer acting for them; it treats the employer, not an administrator, as the customer, and the employees, not the employer, as the scheme's beneficial owners. Nor does it make the scheme's manager the customer: the simplified due diligence available for a customer that is an FI as defined in the AMLO (¶4.8.10(a)) is a different case."
   },
   "tc": {
-   "q": "根據《聯合國（反恐怖主義措施）條例》第4及5條，可透過哪兩個途徑將某人或財產指明為恐怖分子、與恐怖分子有聯繫者或恐怖分子財產？",
+   "q": "金錢服務經營者有合理理由相信，某客戶進行的交易與向僱員提供退休福利的公積金計劃、退休金計劃、退休計劃或離職金計劃有關，而計劃的供款是從受僱工作獲得的入息中扣減而作出的，且計劃的規則並不准許轉讓計劃下的成員利益。根據《打擊洗錢及恐怖分子資金籌集指引》，金錢服務經營者一般可怎樣做？",
    "options": [
-    "由行政長官在安理會轄下委員會作出指定後於憲報刊登公告，或向原訟法庭申請命令並刊登於憲報",
-    "由保安局局長根據第6條發出財產凍結通知，或由行政長官根據同一條文就有關凍結禁令批予特許",
-    "僅由聯合國安全理事會作出決定，在香港全境自動生效，無須刊登憲報公告或法庭命令",
-    "由商務及經濟發展局發出公告，或由原訟法庭就該財產作出充公令，兩者均屬可行途徑"
+    "視僱主為客戶，並選擇不去識別或核實屬計劃實益擁有人的僱員的身分",
+    "視每名僱員為客戶，並把僱主視為看似代表每名該等僱員行事的人",
+    "視該計劃的管理人為客戶，並識別及核實僱主作為該計劃實益擁有人的身分",
+    "視該計劃的基金經理為客戶，並因該基金經理屬金融機構而對其執行簡化盡職審查"
    ],
-   "explain": "第6.4段訂明，如某人或財產獲安理會轄下委員會指定，行政長官可根據第4條在憲報刊登公告；或行政長官可根據第5條向原訟法庭申請命令，如命令作出亦會在憲報刊登。保安局局長的凍結及特許權力（第6.5(a)及6.6段）、安理會決定的自動生效，以及商務及經濟發展局在另一套《聯合國制裁條例》制度下的角色（第6.7至6.8段），均非第4及5條所訂的指定途徑。"
+   "explain": "第4.8.18段訂明，就第4.8.17段(a)項所述的計劃而言，金錢服務經營者一般可視僱主為客戶，並選擇不去識別或採取合理措施核實計劃的實益擁有人（即僱員）的身分。如金錢服務經營者與僱員建立獨立的業務關係，則應根據第4章所列規定對其執行客戶盡職審查措施。該段並無把每名僱員視為客戶、由僱主代表僱員行事；該段視為客戶的是僱主而非管理人，而計劃的實益擁有人是僱員而非僱主。該段亦沒有把計劃的基金經理視為客戶：客戶屬打擊洗錢條例所界定的金融機構時可執行的簡化盡職審查（第4.8.10(a)段）屬另一情況。"
   }
  },
  {
@@ -40430,28 +40430,28 @@
   "module": 6,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.5(a)",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.5(a)段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.11.13",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.11.13段"
   },
   "en": {
-   "q": "Paragraph 6.5 of the Guideline lists the provisions of the UNATMO that are of particular relevance to MSOs. One of them, section 6, confers a power to freeze property that is suspected of being terrorist property. Which authority holds that freezing power?",
+   "q": "An MSO relies on a related foreign financial institution to perform part of its CDD measures, under the group policy of the group of companies to which the MSO belongs. According to the AML/CFT Guideline, the MSO should be satisfied that the institution is subject to which reviews of its ongoing compliance with the group policy?",
    "options": [
-    "The Secretary for Security, exercising the power under the UNATMO directly",
-    "The Chief Executive, by publishing a notice of the property in the Gazette",
-    "The Court of First Instance, on an application made by the Chief Executive",
-    "The Commissioner of Customs and Excise, as the regulator of licensed MSOs"
+    "Regular and independent reviews by group-level compliance, audit or other similar AML/CFT functions",
+    "Regular self-assessments by the related foreign FI's own management, with the results reported to the group",
+    "Regular and independent reviews by the JFIU, which then confirms the result of each to the MSO in writing",
+    "Regular reviews by the FATF, carried out as part of its mutual evaluations of member jurisdictions"
    ],
-   "explain": "Under the UNATMO the power to freeze suspected terrorist property rests with the Secretary for Security, who may also licence exceptions so that frozen property can be released for permitted payments. The Chief Executive's role is to specify a person or property as a terrorist, terrorist associate or terrorist property by notice in the Gazette, or to apply to the Court of First Instance for an order to that effect, and neither of those steps is itself a freeze. The Commissioner of Customs and Excise supervises MSOs under the AMLO and has no freezing power under the UNATMO."
+   "explain": "¶4.11.13 explains that the group policy is the policy of the group of companies to which the MSO belongs, applying to the MSO and the related foreign FI, and states that the MSO should be satisfied that the related foreign FI is subject to regular and independent reviews over its ongoing compliance with the group policy conducted by any group-level compliance, audit or other similar AML/CFT functions. Self-assessments by the related foreign FI's own management are neither independent reviews nor carried out by group-level functions. Nor does the Guideline give this role to the JFIU or the FATF: the JFIU is where suspicious transaction reports are made, and the FATF's statements and evaluations concern countries and jurisdictions."
   },
   "tc": {
-   "q": "《指引》第6.5段列出《聯合國（反恐怖主義措施）條例》中與金錢服務經營者尤其相關的條文。其中第6條授予凍結懷疑屬恐怖分子財產的財產的權力。該凍結權力由哪一當局行使？",
+   "q": "金錢服務經營者依賴相關外地金融機構，按照其所屬公司集團的集團政策執行部分盡職審查措施。根據《打擊洗錢及恐怖分子資金籌集指引》，金錢服務經營者應信納該機構在持續遵從集團政策方面受到哪種覆核？",
    "options": [
-    "保安局局長，直接根據該條例行使該權力",
-    "行政長官，藉在憲報刊登關於該財產的公告行使",
-    "原訟法庭，應行政長官提出的申請而行使",
-    "海關關長，以持牌金錢服務經營者監管者的身分行使"
+    "集團層面合規、審核或其他類似打擊洗錢／恐怖分子資金籌集職能的定期和獨立覆核",
+    "相關外地金融機構本身的管理層所作的定期自我評估，並把評估結果向集團匯報",
+    "聯合財富情報組的定期和獨立覆核，並由該組以書面把每次覆核結果告知金錢服務經營者",
+    "財務行動特別組織在其對各個成員司法管轄區進行相互評估的過程中所作出的定期覆核"
    ],
-   "explain": "根據《聯合國（反恐怖主義措施）條例》，凍結懷疑屬恐怖分子財產的財產的權力屬於保安局局長，局長亦可就禁令批予特許，准許將已凍結的財產解凍以作獲准的付款。行政長官的角色是在憲報刊登公告指明某人或財產為恐怖分子、與恐怖分子有聯繫者或恐怖分子財產，或向原訟法庭申請作出該等指明的命令，兩者本身均不是凍結。海關關長根據《打擊洗錢條例》監管金錢服務經營者，並無該條例下的凍結權力。"
+   "explain": "第4.11.13段說明，集團政策指金錢服務經營者所屬的公司集團的政策，而該政策適用於該金錢服務經營者及有關相關外地金融機構；並訂明金錢服務經營者應信納相關外地金融機構在持續遵從集團政策方面，受到任何集團層面的合規、審核或其他類似的打擊洗錢／恐怖分子資金籌集職能的定期和獨立的覆核。相關外地金融機構本身管理層所作的自我評估，既非獨立的覆核，亦非由集團層面的職能進行。《指引》亦沒有把此角色交予聯合財富情報組或財務行動特別組織：可疑交易報告是向聯合財富情報組提交的，而財務行動特別組織的聲明及評估針對的是國家或司法管轄區。"
   }
  },
  {
@@ -40563,28 +40563,28 @@
   "module": 6,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.6",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.6段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.8.16",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.8.16段"
   },
   "en": {
-   "q": "Who may licence exceptions to the UNATMO prohibitions, and to whom should an MSO write for such a licence?",
+   "q": "An MSO's customer is an investment vehicle. Neither the vehicle nor the institution it has appointed to carry out CDD on its investors falls within any of the categories of institution in section 4(3)(d) of Schedule 2, such as an FI as defined in the AMLO. According to the AML/CFT Guideline, what should the MSO do as regards the vehicle's investors?",
    "options": [
-    "The Secretary for Security, and the MSO should then write to the Security Bureau itself",
-    "The Chief Executive, and the MSO should write to the Commerce and Economic Development Bureau",
-    "The CCE, and the MSO should write to the Customs and Excise Department",
-    "The Court of First Instance, and the MSO should apply by summons"
+    "Identify any investor owning or controlling more than 25% interest, and take reasonable measures to verify them",
+    "Treat the vehicle's manager and its custodian as its beneficial owners, and take reasonable measures to verify them",
+    "Choose not to identify the investors, once satisfied that the vehicle has reliable systems and controls for their CDD",
+    "Identify any investor owning or controlling more than 25% interest, relying on a written representation in place of verification"
    ],
-   "explain": "¶6.6 states that the S for S can licence exceptions to the prohibitions to enable frozen property to be unfrozen and to allow payments to be made to or for the benefit of a designated party under the UNATMO — for example reasonable living or legal expenses and payments liable to be made under the Employment Ordinance — and that an MSO seeking such a licence should write to the Security Bureau. Contrast ¶6.8, where UNSO licences come from the Chief Executive via the Commerce and Economic Development Bureau."
+   "explain": "¶4.8.16 states that if neither the investment vehicle nor the appointed institution falls within any of the categories of institution in section 4(3)(d) of Schedule 2, an MSO should identify any investor owning or controlling more than 25% interest of the vehicle. The MSO may consider relying on a written representation from the vehicle or the appointed institution stating, to its actual knowledge, the identities of such investors, but it is still required to take reasonable measures to verify those investors in accordance with ¶4.4, so the representation cannot take the place of verification. Choosing not to identify or verify the beneficial owners once satisfied that the vehicle has reliable systems and controls for CDD on its investors is the ¶4.8.15 arrangement, available where the vehicle or the appointed institution does fall within those categories. The beneficial owners of an investment vehicle are its investors (¶4.8.14); a manager or custodian is one of the institutions ¶4.8.15 names as able to be appointed to perform the CDD."
   },
   "tc": {
-   "q": "何人可就《聯合國（反恐怖主義措施）條例》的禁令批予特許？金錢服務經營者須向何處申請？",
+   "q": "金錢服務經營者的客戶屬投資公司。該投資公司及其獲委任機構（即其委任對投資者執行盡職審查的機構）均不屬附表2第4(3)(d)條所載列的任何機構類別（例如打擊洗錢條例所界定的金融機構）。根據《打擊洗錢及恐怖分子資金籌集指引》，金錢服務經營者就該投資公司的投資者應怎樣做？",
    "options": [
-    "保安局局長；該經營者須致函保安局",
-    "行政長官；該經營者須致函商務及經濟發展局",
-    "海關關長；該經營者須致函香港海關",
-    "原訟法庭；該經營者須以傳票方式申請"
+    "識別任何擁有或控制該投資公司25%以上權益的投資者，並採取合理措施核實其身分",
+    "把該投資公司的基金經理及保管人視為該公司的實益擁有人，並採取合理措施核實其身分",
+    "信納該投資公司設有可靠的制度及管控措施對投資者執行盡職審查後，選擇不去識別投資者",
+    "識別任何擁有或控制該投資公司25%以上權益的投資者，並以書面陳述代替核實其身分"
    ],
-   "explain": "第6.6段訂明保安局局長可就禁令批予特許，准許將已凍結的財產解凍，並容許向指定各方支付款項，或為該方的利益而支付款項（例如合理生活開支／法律開支及根據《僱傭條例》需要給予的費用）；尋求有關特許的金錢服務經營者須向保安局提出書面申請。此與第6.8段有別——《聯合國制裁條例》下的特許由行政長官批予，尋求有關特許的金錢服務經營者應向商務及經濟發展局提出書面申請。"
+   "explain": "第4.8.16段訂明，如投資公司或獲委任機構均不屬附表2第4(3)(d)條所載列的任何機構類別，金錢服務經營者應識別任何擁有或控制該投資公司25%以上權益的投資者的身分。金錢服務經營者可考慮是否適宜依賴負責執行盡職審查的投資公司或獲委任機構發出的書面陳述，列明據其實際所知該等投資者的身分，但仍須根據第4.4段採取合理措施核實該等投資者的身分，因此書面陳述不能代替核實。信納投資公司已保證設有可靠的制度及管控措施後選擇不去識別或核實其實益擁有人，是第4.8.15段的安排，適用於投資公司或獲委任機構屬上述機構類別的情況。第4.8.14段以投資者為投資公司實益擁有人的例子；基金經理或保管人則是第4.8.15段所舉可獲委任執行客戶盡職審查的機構。"
   }
  },
  {
@@ -40592,16 +40592,16 @@
   "module": 6,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.7",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.7段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.5(c)(i)–(iii)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.5(c)(i)至(iii)段"
   },
   "en": {
-   "q": "According to paragraph 6.7 of the AML/CFT Guideline, which of the following statements about the United Nations Sanctions Ordinance (UNSO) are correct?",
+   "q": "Which of the following does the AML/CFT Guideline give as examples of potentially higher country risk factors?",
    "statements": [
-    "The UNSO empowers the Chief Executive to make regulations to implement sanctions decided by the UNSC, including targeted financial sanctions.",
-    "Designated persons and entities are specified by notice published in the Gazette or on the website of the Commerce and Economic Development Bureau.",
-    "Except under the authority of a licence granted by the Chief Executive, it is an offence to make funds available, directly or indirectly, for the benefit of a designated person.",
-    "Dealing with funds belonging to such a person or entity is an offence where the dealing is direct, indirect dealing being covered by the AMLO provisions instead."
+    "Countries or jurisdictions that are identified by credible sources as not having effective AML/CFT Systems",
+    "Countries or jurisdictions identified by credible sources as having a significant level of corruption or other criminal activity",
+    "Countries or jurisdictions subject to sanctions, embargoes or similar measures issued by, for example, the United Nations",
+    "Countries or jurisdictions identified by credible sources as relying heavily on cash in their economies"
    ],
    "options": [
     "1, 2 and 3",
@@ -40610,15 +40610,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 4 is false: paragraph 6.7 makes it an offence to deal with, directly or indirectly, any funds or other financial assets or economic resources belonging to, or owned or controlled by, such persons or entities, so indirect dealing is caught. Statements 1, 2 and 3 are correct: the UNSO empowers the Chief Executive to make regulations implementing sanctions decided by the UNSC, including targeted financial sanctions against persons and entities such as those designated by the UNSC or its Committees; designated persons and entities are specified by notice published in the Gazette or on the website of the Commerce and Economic Development Bureau; and, except under the authority of a licence granted by the Chief Executive, it is an offence to make funds, other financial assets or economic resources available, directly or indirectly, to or for the benefit of designated persons or entities."
+   "explain": "Statement 4 is false: none of the country risk factors listed in paragraph 4.9.5(c) concerns how heavily a country or jurisdiction relies on cash. Statements 1, 2 and 3 are correct: paragraph 4.9.5(c) lists countries or jurisdictions identified by credible sources, such as mutual evaluation or detailed assessment reports, as not having effective AML/CFT Systems; countries or jurisdictions identified by credible sources as having a significant level of corruption or other criminal activity; and countries or jurisdictions subject to sanctions, embargoes or similar measures issued by, for example, the United Nations."
   },
   "tc": {
-   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》第6.7段，關於《聯合國制裁條例》，下列哪些陳述正確？",
+   "q": "《打擊洗錢及恐怖分子資金籌集指引》所舉的潛在較高風險因素例子中，下列哪些屬國家風險因素？",
    "statements": [
-    "《聯合國制裁條例》授權行政長官訂立規例，以執行聯合國安全理事會決定的制裁，包括針對性金融制裁。",
-    "被指認的個人及實體，會透過在憲報或在商務及經濟發展局的網站所刊登的公告予以指明。",
-    "除獲行政長官批予的特許授權外，直接或間接提供資金予被指認的個人或實體或為其利益提供資金，即屬犯罪。",
-    "處理屬被指認的個人或實體所有的資金，在直接處理的情況下屬犯罪，間接處理則由《打擊洗錢條例》處理。"
+    "可靠消息來源識別為欠缺有效打擊洗錢／恐怖分子資金籌集風險制度的國家或司法管轄區",
+    "可靠消息來源識別為貪污或其他犯罪活動較多的國家或司法管轄區",
+    "受到例如由聯合國等組織所實施的制裁、禁令或類似措施約束的國家或司法管轄區",
+    "可靠消息來源識別為經濟活動高度依賴現金的國家或司法管轄區"
    ],
    "options": [
     "1、2 及 3",
@@ -40627,7 +40627,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述4 不正確：第6.7段訂明，直接或間接處理任何屬於此等個人或實體或由其擁有或控制的資金、或其他財務資產、或經濟資源，即屬犯罪，故間接處理亦受禁止。陳述1、2 及 3 正確：《聯合國制裁條例》授權行政長官訂立規例，以執行安理會所決定的制裁，包括對安理會或其委員會指認的若干人士及實體實施針對性金融制裁；被指認的個人及實體會透過在憲報或在商務及經濟發展局的網站刊登的公告指明；而除獲行政長官批予的特許授權外，直接或間接向被指認的個人或實體提供任何資金、或其他財務資產、或經濟資源，或為其利益而提供該等資金、資產或資源，即屬犯罪。"
+   "explain": "陳述4 不正確：第4.9.5(c)段所列的國家風險因素，並不涉及有關國家或司法管轄區的經濟活動是否依賴現金。陳述1、2 及 3 正確：該段列出可靠消息來源（例如相互評估報告或詳盡的評估報告）識別為欠缺有效打擊洗錢／恐怖分子資金籌集風險制度的國家或司法管轄區；可靠消息來源識別為貪污或其他犯罪活動較多的國家或司法管轄區；以及受到例如由聯合國等組織所實施的制裁、禁令或類似措施約束的國家或司法管轄區。"
   },
   "format": "combination"
  },
@@ -40636,28 +40636,28 @@
   "module": 6,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.7 footnote 57",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.7段註腳57"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.5(c)(iv)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.5(c)(iv)段"
   },
   "en": {
-   "q": "What do targeted financial sanctions comprise?",
+   "q": "Among its examples of potentially higher country risk factors, the AML/CFT Guideline lists places that credible sources identify on grounds connected with terrorism. What are those grounds?",
    "options": [
-    "Both asset freezing and prohibitions on making funds available, directly or indirectly, for the benefit of designated persons and entities",
-    "Asset freezing only, without any prohibition on indirectly making funds available for a designated person's benefit",
-    "Trade embargoes and export controls imposed under the UNSO regulations made specifically against the Democratic People's Republic of Korea and Iran",
-    "Travel bans and diplomatic measures adopted by the United Nations Security Council under Chapter VII of the UN Charter"
+    "Providing funding or support for terrorist activities, or having designated terrorist organisations operating",
+    "Being a place from which many nationals have travelled abroad to join terrorist groups or to fight for them",
+    "Sharing a land or sea border with a state or jurisdiction that has been placed under sanctions for supporting terrorism",
+    "Not having signed or ratified the United Nations convention for the suppression of the financing of terrorism"
    ],
-   "explain": "Footnote 57 states that targeted financial sanctions comprise both asset freezing and prohibitions on making funds or other assets available, directly or indirectly, for the benefit of designated persons and entities — the two limbs in ¶6.7(a)-(b). Asset freezing alone omits the second limb; trade embargoes/export controls and travel bans/diplomatic measures are not what this Guideline describes as targeted financial sanctions, though DPRK/Iran-specific and Chapter VII measures are addressed separately at ¶6.9."
+   "explain": "¶4.9.5(c)(iv) lists as a potentially higher country risk factor “countries, jurisdictions or geographical areas identified by credible sources as providing funding or support for terrorist activities, or that have designated terrorist organisations operation”. The Guideline does not list places because their nationals have gone abroad to join terrorist groups, because they border a state sanctioned for supporting terrorism, or because they have not signed or ratified a convention on terrorist financing."
   },
   "tc": {
-   "q": "針對性金融制裁包括甚麼？",
+   "q": "《打擊洗錢及恐怖分子資金籌集指引》所舉的潛在較高風險因素例子中，國家風險因素包括可靠消息來源基於與恐怖主義有關的理由而識別的國家、司法管轄區或地區。有關理由是甚麼？",
    "options": [
-    "凍結資產，以及禁止直接或間接為被指認的個人及實體的利益提供資金，兩者兼備",
-    "僅屬凍結資產，並無禁止直接或間接為被指認的個人的利益提供資金的有關規定",
-    "根據專門針對朝鮮民主主義人民共和國及伊朗訂立的相關規例實施的貿易禁運及出口管制",
-    "聯合國安全理事會根據《聯合國憲章》第七章通過決議所採取的旅遊禁令及外交措施"
+    "向恐怖分子提供資金或支持恐怖活動，以及有指定恐怖主義組織在其境內運作",
+    "曾有不少國民離開當地，前往外地加入恐怖組織，或為有關的恐怖組織參與戰鬥",
+    "與曾因支持恐怖活動而遭受制裁的國家或司法管轄區在陸路或海路上接壤",
+    "至今仍未簽署或批准聯合國《制止向恐怖主義提供資助的國際公約》"
    ],
-   "explain": "註腳57訂明針對性金融制裁一併指凍結資產及禁止向為指認的個人及實體的利益而直接或間接提供資金或其他資產——即第6.7(a)及(b)款所載的兩部分。僅凍結資產遺漏了第二部分；貿易禁運／出口管制及旅遊禁令／外交措施並非本指引所述的針對性金融制裁，儘管針對朝鮮／伊朗及《聯合國憲章》第七章的措施另見第6.9段。"
+   "explain": "第4.9.5(c)(iv)段把「可靠消息來源識別為向恐怖分子提供資金或支持恐怖活動，以及有指定恐怖主義組織在其境內運作的國家、司法管轄區或地區」列為潛在較高風險因素中的國家風險因素。本指引並無因某地有國民前往外地加入恐怖組織、與因支持恐怖活動而遭制裁的國家接壤，或未有簽署或批准有關恐怖分子資金籌集的國際公約，而把該地列為這類風險因素。"
   }
  },
  {
@@ -40665,28 +40665,28 @@
   "module": 6,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.7(a)",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.7(a)段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.5(b)(vii)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.5(b)(vii)段"
   },
   "en": {
-   "q": "Beyond designated persons and entities themselves, to whom is it an offence to make funds available under the applicable UNSO regulations?",
+   "q": "The AML/CFT Guideline's examples of potentially higher risk factors include sub-standard compliance programmes. Whose compliance programmes does it refer to?",
    "options": [
-    "Persons or entities acting on behalf of, or at the direction of, designated persons or entities, or owned or controlled by them, and entities owned by those persons",
-    "Any counterparty to a transaction with a designated person, provided that the transaction had already taken place before the person's name was first published in the Gazette",
-    "Any person who is merely resident in the same jurisdiction as a designated person, regardless of whether any relationship with that person exists",
-    "Only the immediate family members of a designated person, as determined from time to time by the Joint Financial Intelligence Unit"
+    "Those operated by the agents that the MSO uses",
+    "Those operated by the MSO's corporate customers",
+    "Those operated by the banks the MSO settles with",
+    "Those operated by the MSO's overseas branches"
    ],
-   "explain": "¶6.7(a) makes it an offence to make funds available to designated persons or entities; persons or entities acting on their behalf or at their direction, or owned or controlled by them; or entities owned by the aforementioned. Pre-designation counterparties, mere co-residents, and JFIU-determined family members are not among the categories the regulation extends to."
+   "explain": "¶4.9.5(b)(vii) lists “agents that operate sub-standard compliance programmes” among the potentially higher product, service, transaction or delivery channel risk factors, so the programmes it refers to are those of the MSO's agents. The Guideline lists no such factor for the compliance programmes of an MSO's corporate customers, of the banks it settles with or of its overseas branches."
   },
   "tc": {
-   "q": "除被指認的個人及實體本身外，根據適用的《聯合國制裁條例》規例，向何人提供資金亦屬罪行？",
+   "q": "《打擊洗錢及恐怖分子資金籌集指引》所舉的潛在較高風險因素例子，包括實施未達標準的合規計劃。該指引所指的是由哪一方實施的合規計劃？",
    "options": [
-    "代表被指認的個人或實體或按其指示行事，或由其擁有或控制的人士或實體，以及由該等人士或實體擁有的實體",
-    "與被指認的個人進行交易的任何交易對手，前提是該宗交易在該人的姓名首次於憲報刊登前已經進行",
-    "僅與被指認的個人居於同一司法管轄區的任何人，不論其與該人之間是否存在任何關係",
-    "僅限被指認的個人的直系家庭成員，並以聯合財富情報組不時所作的認定為準"
+    "金錢服務經營者所用的代理人",
+    "金錢服務經營者屬法團的有關客戶",
+    "與金錢服務經營者交收的銀行",
+    "金錢服務經營者的外地分行"
    ],
-   "explain": "第6.7(a)段訂明，向被指認的個人或實體；代表被指認的個人或實體、按其指示行事，或由其擁有或控制的一干個人或實體；或向上文所述者擁有的實體，直接或間接提供任何資金、或其他財務資產、或經濟資源，即屬犯罪。指認前的交易對手、僅屬同一司法管轄區居民，以及由聯合財富情報組認定的家庭成員，均不在該規例延伸涵蓋的類別之內。"
+   "explain": "第4.9.5(b)(vii)段把「代理人實施未達標準的合規計劃」列為產品、服務、交易或交付渠道的潛在較高風險因素，所指的是金錢服務經營者的代理人。本指引並無把金錢服務經營者屬法團的客戶、與其交收的銀行或其外地分行所實施的合規計劃列為這類風險因素。"
   }
  },
  {
@@ -40767,16 +40767,16 @@
   "module": 6,
   "answer": 2,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.9",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.9段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.5(b)(ii)–(v)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.5(b)(ii)至(v)段"
   },
   "en": {
-   "q": "According to paragraph 6.9 of the AML/CFT Guideline, which of the following statements about the UNSC's two-tiered approach to combating proliferation financing (PF) are correct?",
+   "q": "Which of the following does the AML/CFT Guideline give as examples of potentially higher product, service, transaction or delivery channel risk factors?",
    "statements": [
-    "The resolutions through which the UNSC adopts that approach are recommendations, so they impose no mandatory obligations on UN member states.",
-    "To combat proliferation financing the UNSC adopts a two-tiered approach through resolutions made under Chapter VII of the UN Charter.",
-    "The first tier is a global approach taken under UNSCR 1540 (2004) and its various successor resolutions.",
-    "The second is a country-specific approach under UNSCR 1718 (2006) against the DPRK and UNSCR 2231 (2015) against Iran."
+    "Structured transactions in an apparent attempt to break up amounts to stay below the threshold for filing an STR",
+    "Transfers to one person from different individuals, or to different persons from one individual, with no reasonable explanation",
+    "Frequent payments that are received from third parties who are unknown, or who are un-associated",
+    "Transactions that have no apparent ties to the destination or origination jurisdiction and no reasonable explanation"
    ],
    "options": [
     "1, 2 and 3",
@@ -40785,15 +40785,15 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 1 is false: paragraph 6.9 states that the resolutions are made under Chapter VII of the UN Charter and impose mandatory obligations on UN member states, so they are not mere recommendations. Statements 2, 3 and 4 are correct: to combat PF the UNSC adopts a two-tiered approach through those resolutions, consisting of a global approach under UNSCR 1540 (2004) and its successor resolutions and a country-specific approach under UNSCR 1718 (2006) against the Democratic People's Republic of Korea and UNSCR 2231 (2015) against the Islamic Republic of Iran and their successor resolutions."
+   "explain": "Statement 1 is false: paragraph 4.9.5(b)(ii) lists structured transactions in an apparent attempt to break up amounts to stay below any applicable threshold for CDD or the special requirements for remittance transactions in Chapter 11, which has an effect of avoiding CDD and/or record keeping. It names no threshold for filing an STR, and footnote 60 to paragraph 7.5 states that the reporting obligations apply irrespective of the amount involved. Statements 2, 3 and 4 are correct: paragraph 4.9.5(b) lists transfers to the same person from different individuals or to different persons from the same individual with no reasonable explanation; frequent payments received from unknown or un-associated third parties; and a customer's involvement in transactions that have no apparent ties to the destination/origination jurisdiction and with no reasonable explanations."
   },
   "tc": {
-   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》第6.9段，關於聯合國安全理事會從兩個層面遏止擴散資金籌集，下列哪些陳述正確？",
+   "q": "《打擊洗錢及恐怖分子資金籌集指引》所舉的潛在較高風險因素例子中，下列哪些屬產品、服務、交易或交付渠道的風險因素？",
    "statements": [
-    "安理會用以從兩個層面遏止擴散資金籌集的決議屬建議性質，故並無對聯合國成員國施加任何強制責任。",
-    "安理會透過根據《聯合國憲章》第七章通過的決議，從兩個層面遏止擴散資金籌集。",
-    "第一個層面是在全球層面根據安理會第1540(2004)號決議及其後續決議。",
-    "第二個層面是在國家層面根據針對朝鮮的第1718(2006)號及針對伊朗的第2231(2015)號決議。"
+    "通過結構化的交易以拆分款項，試圖令金額低於提交可疑交易報告的門檻",
+    "不同人轉帳至同一人或同一人轉帳至不同人而沒有合理解釋",
+    "經常接收由來歷不明或無聯繫的第三方所支付的款項",
+    "客戶所參與的交易與其目的地／來源地並無明顯關連而沒有合理解釋"
    ],
    "options": [
     "1、2 及 3",
@@ -40802,7 +40802,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述1 不正確：第6.9段訂明，有關決議是根據《聯合國憲章》第七章通過，並對成員國施加強制責任，並非只屬建議性質。陳述2、3 及 4 正確：安理會透過該等決議，從兩個層面遏止擴散資金籌集，即在全球層面根據安理會第1540(2004)號決議及其後續決議，以及在國家層面根據針對朝鮮民主主義人民共和國（朝鮮）的安理會第1718(2006)號決議及針對伊朗伊斯蘭共和國（伊朗）的第2231(2015)號決議及其後續決議。"
+   "explain": "陳述1 不正確：第4.9.5(b)(ii)段所列的，是通過結構化的交易以拆分款項，試圖令金額低於盡職審查的適用門檻或第11章所述匯款交易的特別規定，規避盡職審查及／或備存紀錄；該段並無提及提交可疑交易報告的門檻，而第7.5段註腳60亦訂明，舉報責任要求任何人舉報懷疑洗錢／恐怖分子資金籌集的情況，而不論所涉金額。陳述2、3 及 4 正確：第4.9.5(b)段列出不同人轉帳至同一人或同一人轉帳至不同人而沒有合理解釋；經常接收來歷不明或無聯繫的第三方支付的款項；以及客戶所參與的交易與其目的地／來源地並無明顯關連而沒有合理解釋。"
   },
   "format": "combination"
  },
@@ -40840,28 +40840,28 @@
   "module": 6,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.10",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.10段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.5(b)(vi)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.5(b)(vi)段"
   },
   "en": {
-   "q": "What test does section 4 of the WMD(CPS)O apply to the provision of services?",
+   "q": "Among its examples of potentially higher risk factors, the AML/CFT Guideline lists a transaction volume of an MSO's agents or counterparts that is inconsistent with what?",
    "options": [
-    "It prohibits providing services that the person believes or suspects, on reasonable grounds, may be connected to PF",
-    "It prohibits providing any services to a person or entity resident or incorporated in the DPRK or Iran",
-    "It prohibits providing services without first obtaining a licence granted by the Chief Executive",
-    "It prohibits providing services only where the person actually knows, rather than merely suspects, of a PF connection"
+    "The overall transaction volume or the typical past transaction volume",
+    "The transaction volume forecast in the business plan or licence application",
+    "The transaction volume that the agent's staff numbers or premises could support",
+    "The transaction volume permitted by the agent's service agreement or appointment"
    ],
-   "explain": "¶6.10 states that section 4 of the WMD(CPS)O prohibits a person from providing any services where he believes or suspects, on reasonable grounds, that those services may be connected to PF. The threshold is reasonable belief or suspicion. Residency of the counterparty in the DPRK or Iran is not the statutory test; a Chief Executive licence is a separate power under ¶6.8 for a different ordinance; and the threshold is not confined to actual knowledge."
+   "explain": "¶4.9.5(b)(vi) lists as a potentially higher product, service, transaction or delivery channel risk factor a transaction volume of agents or counterparts of the MSO that “is inconsistent with either overall or relative to typical past transaction volume”. The benchmarks are the overall volume and the typical past volume. The Guideline does not compare it with a forecast in a business plan or licence application, with what an agent's staff or premises could support, or with what a service agreement or appointment permits."
   },
   "tc": {
-   "q": "《大規模毀滅武器（提供服務的管制）條例》第4條就提供服務採用何種準則？",
+   "q": "《打擊洗錢及恐怖分子資金籌集指引》所舉的潛在較高風險因素例子，包括金錢服務經營者代理人或交易對手的交易量出現不一致的情況。該指引所指的是與甚麼不一致？",
    "options": [
-    "在有合理理由相信或懷疑服務可能與擴散資金籌集有關連時，禁止提供該服務",
-    "禁止向任何在朝鮮或伊朗居住、註冊或成立業務的人士或實體提供任何服務",
-    "禁止在未事先取得行政長官根據該條例批予的特許下提供任何服務",
-    "只在明知（而非僅屬合理理由相信或懷疑）服務與擴散資金籌集有關連時，方予禁止"
+    "整體交易量或過往的一般交易量",
+    "業務計劃或牌照申請所預計的交易量",
+    "代理人的人手或處所所能應付的交易量",
+    "服務協議或委任書容許的交易量"
    ],
-   "explain": "第6.10段訂明《大規模毀滅武器（提供服務的管制）條例》第4條禁止任何人在有合理理由相信或懷疑所提供的服務可能與擴散資金籌集有關連的情況下提供該等服務，準則為合理理由相信或懷疑。對手方是否居於朝鮮或伊朗並非法定準則；行政長官批予特許屬第6.8段所述、適用於另一條例的獨立權力；而準則亦不限於實際知悉。"
+   "explain": "第4.9.5(b)(vi)段把「金錢服務經營者代理人或交易對手的交易量，與整體或過往一般交易量不一致」列為產品、服務、交易或交付渠道的潛在較高風險因素。比較的基準是整體或過往一般交易量；本指引並無以業務計劃或牌照申請所預計的交易量、代理人的人手或處所所能應付的交易量，或服務協議或委任書容許的交易量作為基準。"
   }
  },
  {
@@ -40913,28 +40913,28 @@
   "module": 6,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.11",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.11段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.5(b)(i)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.5(b)(i)段"
   },
   "en": {
-   "q": "What is the position on unilateral sanctions imposed by authorities in other jurisdictions?",
+   "q": "Which kind of transaction does the AML/CFT Guideline list among its examples of potentially higher risk factors?",
    "options": [
-    "MSOs owe no Hong Kong-law duty to follow them, though internationally active MSOs must track their scope",
-    "They have the same binding legal force in Hong Kong as sanctions implemented through UNSCR-based legislation",
-    "Applying them would itself amount to a breach of Hong Kong law, so an MSO must always disregard them entirely",
-    "They bind an MSO only where that MSO maintains a registered branch or subsidiary office overseas"
+    "Transactions that are anonymous, which may involve cash",
+    "Transactions in round sums, which may be in foreign currency",
+    "Transactions out of hours, which may be on public holidays",
+    "Transactions by cheque, which may be drawn on overseas banks"
    ],
-   "explain": "¶6.11 states that MSOs do not normally have any Hong Kong-law obligation to have regard to unilateral sanctions imposed by other jurisdictions, but an MSO operating internationally needs to be aware of their scope and focus and should consider implications and take appropriate measures. This differs from UNSCR-based sanctions implemented through Hong Kong legislation, which do bind MSOs; unilateral sanctions are not automatically unlawful to follow, nor do they apply only where there is an overseas branch."
+   "explain": "¶4.9.5(b)(i) lists “anonymous transactions (which may involve cash)” among the potentially higher product, service, transaction or delivery channel risk factors. Transactions in round sums, transactions out of hours and transactions by cheque are not among the examples the Guideline lists, whatever currency, day or bank they involve."
   },
   "tc": {
-   "q": "就其他司法管轄區的當局所施加的單方面制裁，立場為何？",
+   "q": "《打擊洗錢及恐怖分子資金籌集指引》所舉的潛在較高風險因素例子，包括下列哪一類交易？",
    "options": [
-    "金錢服務經營者按香港法律通常無須理會，但須知悉其範圍",
-    "在香港具有與透過安理會決議實施的法例完全相同的法律約束力",
-    "採用該等制裁本身即屬違反香港法律，故經營者必須一律不予理會",
-    "只在金錢服務經營者設有已註冊的海外分行或附屬公司時，方具法律約束力"
+    "屬匿名的交易，當中或涉及現金",
+    "整數金額交易，當中或涉及外幣",
+    "營業時間外的交易，當中或在假日進行",
+    "支票付款交易，當中或涉及海外銀行"
    ],
-   "explain": "第6.11段訂明，金錢服務經營者按香港法律通常並無責任顧及其他司法管轄區當局所施加的單方面制裁，但在國際間營運的經營者須知悉有關制裁制度的範圍及重點，並應考慮其影響及採取適當措施。這有別於透過香港法例實施、對經營者具約束力的安理會決議制裁；單方面制裁並非因採用即屬違法而須一律不理，也不是只在該經營者設有海外分支機構時方具約束力。"
+   "explain": "第4.9.5(b)(i)段把「匿名交易（或涉及現金）」列為產品、服務、交易或交付渠道的潛在較高風險因素。整數金額交易、營業時間外的交易及支票付款交易，不論涉及何種貨幣、在哪一天進行或涉及哪家銀行，均不在本指引所列的例子之中。"
   }
  },
  {
