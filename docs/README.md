@@ -61,31 +61,32 @@ the per-document figures can sum above the module total.
 
 | Module | Source documents (questions citing each) | Questions |
 |---|---|---|
-| **1** General knowledge on AML/CFT and counter-proliferation financing | **02** ch. 1, 6–7 (102) · **19** (18) · **10** (12) · **11** (6) | 126 |
-| **2** Part 1–7 of the AMLO | **10** Parts 1–7 (307) · **18** (1) | 308 |
-| **3** Schedules to the AMLO | **10** Sch. 2 (173), Sch. 4 (39), Sch. 1 (32), Sch. 3 (7) · **02** ch. 4, 10–11 (17) | 251 |
-| **4** Guidelines promulgated by the C&ED | **03** (171) · **01** (56) · **07** (25) · **05** (20) · **06** (17) · **08** (14) · **10** (13) · **09** (8) · **04** (7) · **16** (5) · **19** (1) | 310 |
-| **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (91) · **10** (4) · **07** (3) · **05** (1) · **19** (1) | 96 |
-| **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11, App. A, glossary (301) · **10** (21) · **14** (14) · **13** (12) · **22** (8) · **12** (6) | 340 |
-| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** ch. 3, 7–9 (153) · **10** (3) · **22** (1) | 154 |
+| **1** General knowledge on AML/CFT and counter-proliferation financing | **02** ch. 1, 6–7, glossary (93) · **10** (28) · **19** (15) · **11** (6) · **14** (3) · **20** (3) · **15** (1) · **17** (1) · **21** (1) · **22** (1) | 123 |
+| **2** Parts 1–7 of the AMLO | **10** Parts 1–7 (302) · **03** (3) · **02** ch. 1 (1) · **18** (1) | 303 |
+| **3** Schedules to the AMLO | **10** Sch. 2 (172), Sch. 4 (39), Sch. 1 (32), Sch. 3 (7), Part 6 (1), Part 1 (1) · **02** ch. 4, 10–11 (17) | 248 |
+| **4** Guidelines promulgated by the C&ED | **03** (171) · **01** (31) · **07** (26) · **10** (21) · **05** (19) · **06** (17) · **08** (15) · **09** (8) · **04** (6) · **16** (5) · **02** ch. 5–6 (1) · **19** (1) | 283 |
+| **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (91) · **10** (4) · **07** (3) · **05** (1) · **12** (1) · **19** (1) | 96 |
+| **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11, App. A, glossary (301) · **10** (28) · **14** (14) · **13** (12) · **22** (8) · **12** (6) | 340 |
+| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** ch. 1, 3, 7–9 (153) · **10** (5) · **22** (1) | 154 |
 
-Five documents feed no question of their own: **15**, **17**, **20**, **21**
-and **23**. For **23** that is by design — it is the format template, described
-just below. **22**, the FAQ page, feeds nine questions from its Guideline
-series, eight in module 6 and one in module 7; its other Guideline questions,
-each naming the paragraph it elaborates, are the obvious place to add more.
+One document feeds no question of its own: **23**, by design — it is the format
+template, described just below. **22**, the FAQ page, feeds ten questions from its
+Guideline series, eight in module 6 and one each in modules 1 and 7; its other
+Guideline questions, each naming the paragraph it elaborates, are the obvious
+place to add more.
 
 Two of these are worth singling out. **23** is the only set of sample questions
 C&ED has ever published, and it settles what the paper looks like: seven items,
-each a stem with four numbered statements and the five fixed options
-`a) 1, 2 and 3  b) 1, 2 and 4  c) 2, 3 and 4  d) 1, 3 and 4  e) All of the above`.
-Guidance Notes ¶7.1 carries an eighth in the same family, with five statements
-and a different fixed block. **22** is not a PDF: the FAQ exists only as a page on
-the portal, so the page itself is archived as Markdown. It holds two
-series — 28 questions on the AML/CFT Guideline, each answer closing with a Key
-Reference naming the paragraph it elaborates, and 15 on licence application,
-which carry no such reference. The first series is what makes the page usable
-as question material.
+each a stem with four numbered statements and the five fixed options `a) 1, 2
+and 3 b) 1, 2 and 4 c) 2, 3 and 4 d) 1, 3 and 4 e) All of the above`. Guidance
+Notes ¶7.1 carries an eighth in the same family, with five statements and a
+different fixed block. **22** is not a PDF: the FAQ exists only as a page on the
+portal, so the page itself is archived as Markdown. It holds two series — “FAQ
+applicable to all Money Service Operators”, 28 questions on the AML/CFT
+Guideline, each answer closing with a Key Reference naming the paragraph it
+elaborates, and “FAQ in Application for an MSO Licence”, 15 on licence
+application, which carry no such reference. The first series is what makes the
+page usable as question material.
 
 Live pages to re-check for newer editions, for the next FATF statement (which
 replaces 20), and for the UN-sanctions notices (deliberately not archived here):
