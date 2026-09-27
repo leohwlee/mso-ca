@@ -142,7 +142,7 @@ S4 = sec('timing', ["¶4.7", "s.3(1)–(4) Sch. 2"], ("Timing: verify before, or
         U.tr(U.rh("If the timeframe passes", "如時限屆滿", "¶4.7.4 · 4.13.1"), U.td("End the relationship as soon as reasonably practicable; carry out no further transactions except to <b>return funds or other assets in their original form as far as possible</b>; and consider whether the failure itself gives grounds for suspicion and a report, especially if the customer, without a justifiable reason, asks for funds to go to a third party or be transformed, for example cash into a cashier order",
                                                                                           "在合理地切實可行的範圍內盡快終止業務關係；除<b>在可行情況下將資金或其他資產以原狀退回</b>外，不再進行交易；並評估未能完成核實是否構成懷疑理據，並考慮應否舉報，尤其當客戶在無充分理由下要求將資金轉移給第三者或「轉變」資金（例如把現金轉為銀行本票）")),
         U.tr(U.rh("The Guideline's own examples", "指引所舉的例子", "¶4.7.2"), U.td("Securities transactions that must execute at market speed; and life insurance, where the beneficiary may be verified after the policyholder, but at or before payout or the exercise of vested rights",
-                                                                                          "須按市況迅速執行的證券交易；以及人壽保險：受益人可在保單持有人之後核實，但須在付款或行使既得權利時或之前完成")),
+                                                                                          "須按市況迅速執行的證券交易；以及人壽保險：受益人可在保單持有人之後核實，但須在付款時或之前，或受益人擬行使根據保單歸屬於其的權益時完成")),
     ], minw=680)
     + numreq([
         (("before or during", "之前或過程中"),
