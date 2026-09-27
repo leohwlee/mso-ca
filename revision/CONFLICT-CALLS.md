@@ -1,6 +1,6 @@
 # Conflicting sources and how each is settled
 
-A fresh check of the 23 official documents in September 2026 found 95 places where they disagree, or seem to. The owner decided every one on 26 and 27 September 2026, and on 27 September one more (B42) that came up while the decisions were being applied. These decisions replace the 24 calls of 24 and 25 September 2026. The revision pack and the question bank (`web/questions.json`) follow them.
+A fresh check of the 23 official documents in September 2026 found 95 places where they disagree, or seem to. The owner decided every one on 26 and 27 September 2026, and on 27 September one more (B42) that came up while the decisions were being applied. On 28 September the owner decided E41, which the blind review of module 6 turned up. These decisions replace the 24 calls of 24 and 25 September 2026. The revision pack and the question bank (`web/questions.json`) follow them.
 
 ## Document numbers
 
@@ -31,7 +31,7 @@ The numbers are the files in `docs/`, listed in [`docs/README.md`](../docs/READM
 | When | How it is settled |
 |---|---|
 | Two documents disagree | The decision applies in both the English and the Chinese view. |
-| The English and Chinese versions of one document disagree | Each language view follows its own text, except where the decision gives one answer for both views (E1, E2, E3, E6, E9, E10, E11, E17, E21, E22, E23, E24, E27, E31, E33, E34, E40). There, the view whose own passage departs follows the passages in the same language that support the decision. No page compares the two language versions, and the question bank avoids questions whose answer depends on a difference that stays with each language. |
+| The English and Chinese versions of one document disagree | Each language view follows its own text, except where the decision gives one answer for both views (E1, E2, E3, E6, E9, E10, E11, E17, E21, E22, E23, E24, E27, E31, E33, E34, E40, E41). There, the view whose own passage departs follows the passages in the same language that support the decision. No page compares the two language versions, and the question bank avoids questions whose answer depends on a difference that stays with each language. |
 | Both rules are true ("learn both") | A question or page may teach either rule, but says which one it is teaching and never presents one as overriding the other. |
 | A new conflict is found | It comes to the owner before either side is taught. |
 
@@ -102,7 +102,7 @@ Two passages of the same document disagree.
 | W10 | Tipping off: what exactly is the offence? | • AML/CFT Guideline (02) ¶1.25, p. 7: knowing or suspecting a report was made, disclosing a matter “likely to prejudice” an investigation<br>• AML/CFT Guideline (02) ¶7.6, p. 54: revealing “any information which might prejudice an investigation” | Learn ¶1.25's test: you know or suspect a report was made, and you disclose something likely to harm the investigation. Use ¶7.6 for examples. |
 | W11 | Time to file a suspicious transaction report: from first suspicion, or after the MLRO's review? | • AML/CFT Guideline (02) ¶7.5(b), p. 54: “as soon as reasonably practical after the suspicion was first identified”<br>• AML/CFT Guideline (02) ¶7.19, p. 58: the MLRO discloses “as soon as it is reasonable to do so after” the evaluation | Learn both: report as soon as reasonably practical once suspicion first arises. The MLRO's review is part of that time, so it must be quick. |
 
-## English and Chinese versions (E1–E40)
+## English and Chinese versions (E1–E41)
 
 The English and Chinese texts of the same passage say different things.
 
@@ -148,6 +148,7 @@ The English and Chinese texts of the same passage say different things.
 | E38 | Third-party payments circular: what does “where necessary” limit? | • Circular on third-party payments (14) Expected standards, opening paragraph, p. 4: “… and report suspicious transactions where necessary” (at the end)<br>• Circular on third-party payments (14) (Chinese) Expected standards, opening paragraph, p. 3: 在有需要時 comes first and limits every step | Learn the five steps; both texts list the same ones. Do each when the rules call for it, and report whenever there is a suspicion. |
 | E39 | Digital ID recognised by the CCE: iAM Smart is named in English only | • FAQ (22) AML A9: a CCE-recognised digital ID system “(e.g. “iAM SMART”)”<br>• FAQ (22) (Chinese) AML 答9: no example given | Learn the rule: a digital ID system recognised by the CCE can be used. iAM Smart is the English example only. |
 | E40 | Domestic premises: consent for entry by “any authorized person of C&ED”, or 海關人員 “C&ED officers”? | • FAQ (22) Licensing A11: consent for “any authorized person of C&ED to enter”<br>• FAQ (22) (Chinese) Licensing 答11: 海關人員 (C&ED officers) | Learn “authorized person” (獲授權人): the consent lets an authorized person enter. *One answer in both language views.* |
+| E41 | Transactions to examine and write up: complex or unusual “and” without an apparent purpose, or two separate groups? | • Ordinance (10) Sch. 2 s.5(1)(c), p. 367: identify transactions that “(i) are complex, unusually large in amount or of an unusual pattern; and (ii) have no apparent economic or lawful purpose” (Chinese 識辨符合以下說明的交易——(i)…；及(ii)…, p. 367)<br>• AML/CFT Guideline (02) ¶5.1(b)(ii), p. 46: transactions that “(a) are complex, unusually large in amount or of an unusual pattern, and (b) have no apparent economic or lawful purpose”<br>• AML/CFT Guideline (02) (Chinese) ¶5.1(b)(ii), p. 53: 識別(A)複雜、款額大得異乎尋常或進行模式異乎尋常的交易；及(B)沒有明顯經濟或合法目的之交易 (reads as two groups)<br>• AML/CFT Guideline (02) (Chinese) ¶5.10(b), p. 55: 複雜、款額大得異乎尋常或進行模式異乎尋常；及並無明顯經濟或合法目的 (both) | Learn “both together”: the duty to examine a transaction’s background and purposes and set out the findings in writing covers a transaction that is complex, unusually large or of an unusual pattern and also has no apparent economic or lawful purpose. *One answer in both language views.* |
 
 ## Checked: not a conflict (N1–N3)
 
