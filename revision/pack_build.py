@@ -27,8 +27,8 @@ SP = os.path.dirname(os.path.abspath(__file__))
 # python revision/pack_build.py [output.html]; the default is revision/mso-revision-pack.html, which review/ reads
 OUT = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else os.path.join(SP, 'mso-revision-pack.html')
 
-CAP = "Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615, consolidated version as at 15 May 2026"
-CAP_TC = "《打擊洗錢及恐怖分子資金籌集條例》（第615章）2026年5月15日綜合版"
+CAP = "Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615, consolidated version as at 24 Sep 2026"
+CAP_TC = "《打擊洗錢及恐怖分子資金籌集條例》（第615章）2026年9月24日綜合版"
 
 DOCS = [
     dict(key='p1', group='part', tab=("1", "1"), short=("Part 1 · Preliminary", "第1部 · 導言"),

@@ -7,7 +7,7 @@ English (`EN/`) and Traditional Chinese (`TC/`). The same number denotes the
 same document in both languages. All were downloaded from the official sources
 listed below (the C&ED Money Service Operators Licensing System portal, and Hong
 Kong e-Legislation for the Ordinance), and were last checked against the portal
-on 24 September 2026.
+on 24 September 2026 (the Ordinance on 28 September 2026).
 
 Documents 01–09 are the Guidance Notes and the guidelines, 10 is the
 Ordinance, 11–21 are the circulars still in force, oldest first, 22 is the FAQ
@@ -33,7 +33,7 @@ date from 24 September 2026; earlier commits number the documents differently.
 | 07 | Guidelines for Submission of AML/CFT Policy | Ver 12-2019 | MSOS portal, guidelines |
 | 08 | Disciplinary Action Guideline on Pecuniary Penalty | Apr 2018 | MSOS portal, guidelines |
 | 09 | Disciplinary Fining Guideline | May 2018 | MSOS portal, guidelines |
-| 10 | Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615 (consolidated) | as at 15 May 2026 | e-Legislation, verified copy |
+| 10 | Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615 (consolidated) | as at 24 Sep 2026 | e-Legislation, verified copy |
 | 11 | Circular: Cross-boundary Movement of Currency Ordinance, Cap. 629 (MSSB/MIS_06/2018) | 31 Jul 2018 | MSOS portal, circulars |
 | 12 | Circular: ML/TF Risks of Delivery Channels (MSSB/MIS_05/2021) | 13 Dec 2021 | MSOS portal, circulars |
 | 13 | Circular: Supervisory Findings on Customer Due Diligence (MSSB/MIS_03/2023) | 22 Nov 2023 | MSOS portal, circulars |

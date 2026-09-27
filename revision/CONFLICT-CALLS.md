@@ -14,7 +14,7 @@ The numbers are the files in `docs/`, listed in [`docs/README.md`](../docs/READM
 | 04 | Guideline on Criteria for Determining Fitness and Propriety (Apr 2018) |
 | 05 | Supplementary Guideline on Fitness and Propriety (Jan 2020) |
 | 07 | Guidelines for Submission of AML/CFT Policy (Ver 12-2019) |
-| 10 | Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615 (consolidated) (as at 15 May 2026) |
+| 10 | Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615 (consolidated) (as at 24 Sep 2026) |
 | 11 | Circular: Cross-boundary Movement of Currency Ordinance, Cap. 629 (MSSB/MIS_06/2018) (31 Jul 2018) |
 | 12 | Circular: ML/TF Risks of Delivery Channels (MSSB/MIS_05/2021) (13 Dec 2021) |
 | 14 | Circular: ML/TF Risks of Third Party Payments (MSSB/MIS_01/2024) (17 Sep 2024) |
