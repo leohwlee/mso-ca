@@ -78,8 +78,8 @@ S2 = sec('measures', ["¶4.1.3", "¶4.3–4.6", "s.2(1) Sch. 2"], ("The four mea
 S3 = sec('bo', ["¶4.4", "s.1–2 Sch. 2"], ("Beneficial owner: follow the chain to a natural person", "實益擁有人：沿擁有權鏈追蹤至自然人"),
     P("For a corporation the test is owning or controlling, directly or indirectly, <b>more than 25%</b> of the shares or voting rights, or <b>ultimate control over management</b>, or being the person the corporation acts for. Indirect holdings count, so follow the chain of ownership through each intermediate layer to the natural persons behind it. In the chart, multiplying 50% × 60% is only a way to work out each person's indirect share; control of an intermediate layer also counts.",
       "就法團而言，準則是直接或間接擁有或控制<b>25%以上</b>的股本或投票權，或對管理行使<b>最終控制權</b>，或法團代其行事的人。間接持有亦計算在內，因此須沿擁有權鏈狀架構穿透每個中介層，追蹤至背後的自然人。圖中把50% × 60%相乘，只是計算間接持股的方法；控制中介層亦須計算。")
-    + U.fig(fig3, ("Peak Holdings is a shareholder but not a beneficial owner: a beneficial owner is a natural person, so look through it. Mr Wong and Ms Ho each hold 30% of the customer indirectly (half of Peak's 60%), so both are beneficial owners alongside Ms Chan. Mr Lee at 10% is a director, so a connected party whose name you record, and a beneficial owner only under the control limb.",
-                   "峰匯控股是股東但非實益擁有人：實益擁有人是自然人，須穿透該公司。王先生及何女士各間接持有客戶30%（峰匯所持60%的一半），故與陳女士同屬實益擁有人。李先生持有10%並任董事，屬有關連者（記錄姓名），只有在控制權一項下才屬實益擁有人。"),
+    + U.fig(fig3, ("Peak Holdings is a shareholder but not a beneficial owner: the ownership limb covers only individuals, so look through it. Mr Wong and Ms Ho each hold 30% of the customer indirectly (half of Peak's 60%), so both are beneficial owners alongside Ms Chan. Mr Lee at 10% is a director, so a connected party whose name you record, and a beneficial owner only under the control limb.",
+                   "峰匯控股是股東但非實益擁有人：擁有權一項只涵蓋個人，須穿透該公司。王先生及何女士各間接持有客戶30%（峰匯所持60%的一半），故與陳女士同屬實益擁有人。李先生持有10%並任董事，屬有關連者（記錄姓名），只有在控制權一項下才屬實益擁有人。"),
             U.legend([('ok', ("a beneficial owner", "實益擁有人")), ('faint', ("a company in the chain: look through it", "擁有權鏈中的公司：須穿透")),
                       ('', ("the customer, or a person who is not a beneficial owner by ownership", "客戶，或以擁有權計並非實益擁有人的人"))]))
     + U.table([U.th("If the customer is", "如客戶是"), U.th("Its beneficial owner is", "其實益擁有人是")], [
@@ -104,9 +104,9 @@ S3 = sec('bo', ["¶4.4", "s.1–2 Sch. 2"], ("Beneficial owner: follow the chain
                 "持有剛好25%的人，並不因擁有權而成為實益擁有人。準則是嚴格的「25%以上」，股本、投票權，以及合夥的資本或利潤皆然。信託受益人則完全不設百分比門檻。"),
                "s.1 Sch. 2"),
         U.trap(("A holding company in the chain is not the beneficial owner", "擁有權鏈中的控股公司並非實益擁有人"),
-               ("A beneficial owner is the natural person who ultimately owns or controls the customer, or on whose behalf a transaction or activity is being conducted. A holding company is not a natural person, so it is not a beneficial owner itself: follow the chain of ownership through every intermediate layer to the individuals who own or control it.",
-                "實益擁有人是指最終擁有、控制客戶或由客戶代其進行交易或活動的自然人。控股公司並非自然人，本身不是實益擁有人：須沿擁有權鏈狀架構穿透每個中介層，追蹤至擁有或控制該公司的個人。"),
-               "¶4.4.1, 4.4.13"),
+               ("The ownership and control limbs cover only individuals, so a holding company is not a beneficial owner itself: follow the chain of ownership through every intermediate layer to the individuals who own or control it. But the other person a customer acts for, and a trust's settlor, trustee, protector or enforcer, are beneficial owners even if they are not individuals.",
+                "擁有權及控制權各項只涵蓋個人，因此控股公司本身不是實益擁有人：須沿擁有權鏈狀架構穿透每個中介層，追蹤至擁有或控制該公司的個人。但客戶代其行事的另一人，以及信託的財產授予人、受託人、保護人或執行人，即使並非個人，亦屬實益擁有人。"),
+               "s.1 Sch. 2 · ¶4.4.6–4.4.10, 4.4.13"),
         U.trap(("A trust beneficiary has no 25% threshold", "信託受益人不設25%門檻"),
                ("Every beneficiary, or class of beneficiaries, entitled to a vested interest in the trust property is a beneficial owner, whether the interest is in possession or in remainder or reversion and whether it is defeasible or not. Unlike the tests for a corporation or a partnership, the definition for a trust sets no percentage.",
                 "凡有權享有信託財產的既得權益的受益人或某類別受益人，均屬實益擁有人，不論該受益人是享有該權益的管有權、剩餘權或復歸權，亦不論該權益是否可予廢除。與法團或合夥的準則不同，信託的定義不設任何百分比。"),
@@ -130,7 +130,7 @@ S3 = sec('bo', ["¶4.4", "s.1–2 Sch. 2"], ("Beneficial owner: follow the chain
          "¶4.4.17"),
     ]))
 
-S4 = sec('timing', ["¶4.7", "s.3(1)–(4) Sch. 2"], ("Timing: verify before or during, only exceptionally after", "核實的時間：之前或過程中；例外情況才可其後"),
+S4 = sec('timing', ["¶4.7", "s.3(1)–(4) Sch. 2"], ("Timing: verify before, or while establishing a relationship; only exceptionally after", "核實的時間：之前，或建立業務關係過程中；例外情況才可其後"),
     U.fig(fig5, ("Delayed verification is a managed exception for a business relationship, not a convenience, and it does not exist for an occasional transaction. The three conditions in the amber box are cumulative; the red box is what follows if the timeframe passes.",
                  "延遲核實是業務關係的受管控例外，不是便利；非經常交易則沒有此例外。琥珀色方格內三項條件須同時符合；紅色方格是時限屆滿後應採取的行動。"),
           U.legend([('ok', ("verify here: the normal case", "一般情況：在此核實")), ('may', ("the exception you may use", "你可以選用的例外")), ('must', ("what you should do once the timeframe passes", "時限屆滿後應採取的行動")), ('stop', ("not allowed", "不容許"))]))
@@ -147,9 +147,9 @@ S4 = sec('timing', ["¶4.7", "s.3(1)–(4) Sch. 2"], ("Timing: verify before or 
     + numreq([
         (("before or during", "之前或過程中"),
          ("Verify the identity of the customer and of any beneficial owner", "核實客戶及任何實益擁有人的身分"),
-         ("Establishing a business relationship, or carrying out an occasional transaction", "建立業務關係或執行非經常交易時"),
-         ("Verifying after an occasional transaction, or after starting a business relationship without meeting all three exception conditions, breaches a specified provision (the exception covers business relationships only)", "在執行非經常交易後才核實，或未符合三項例外條件而在建立業務關係後才核實，即違反指明的條文（例外只適用於業務關係）"),
-         "¶4.7.1 · s.3(1), (1A), (2) Sch. 2"),
+         ("Establishing a business relationship. For an occasional transaction: before it, not during", "建立業務關係時。非經常交易：須在交易之前，不可在過程中"),
+         ("Verifying during or after an occasional transaction, or after starting a business relationship without meeting all three exception conditions, breaches a specified provision (the exception covers business relationships only)", "在執行非經常交易過程中或之後才核實，或未符合三項例外條件而在建立業務關係後才核實，即違反指明的條文（例外只適用於業務關係）"),
+         "¶4.2.1, 4.7.1 · s.3(1), (1A), (2) Sch. 2"),
         (("a reasonable timeframe", "合理時限"),
          ("Finish the delayed verification. You set the period yourself, in your risk management policies", "完成延後的核實。期限由你在風險管理政策中自行訂定"),
          ("You allowed the relationship to start before verification, under the exception", "你按例外情況，在核實前已容許業務關係開始"),

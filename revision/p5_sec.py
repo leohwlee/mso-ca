@@ -61,12 +61,12 @@ A = sec('life', [("Part 5", "第5部"), "s.24–s.53", ("your own Part", "你自
         (("the day after expiry", "期滿翌日"),
          ("When a renewal takes effect", "續期何時生效"),
          ("The day after the licence expires; if the licence was kept in force while the application was pending, the day after the day it would otherwise have expired", "牌照有效期屆滿之日的翌日；如牌照在申請待決期間仍然有效，則為其本應屆滿之日的翌日"),
-         ("Nothing to miss: the renewed licence is then valid for 2 years, or any shorter period the Commissioner determines, beginning on the date it is renewed", "此項無須你遵守：續期牌照其後有效2年，或關長決定的較短期間，自續期生效當日起計"),
+         ("Nothing to miss: the renewed licence is then valid for 2 years, or any shorter period the Commissioner determines, beginning on the day the renewal takes effect", "此項無須你遵守：續期牌照其後有效2年，或關長決定的較短期間，自續期生效當日起計"),
          "s.31(11)–(12)"),
         (("more than 25%", "25%以上"),
          ("Makes someone an ultimate owner, who must then be a fit and proper person", "使某人成為最終擁有人，該人因而須是適當人選"),
          ("Partnership: more than 25% of the capital or profits, or of the voting rights. Corporation: more than 25% of the issued share capital (including through a trust or bearer share holding), or of the voting rights at general meetings. Either may be held directly or indirectly. Separately, anyone who exercises ultimate control over management is an ultimate owner, whatever the percentage",
-          "合夥：資本或利潤、或投票權的25%以上。法團：已發行股本（包括透過信託或持票人股份持有）、或成員大會上投票權的25%以上。直接或間接持有均計算。另外，行使對管理最終的控制權的人，不論所佔百分比，亦屬最終擁有人"),
+          "合夥：資本或利潤、或投票權的25%以上。法團：已發行股本（包括透過信託或持票人股份持有）、或成員大會上投票權的25%以上。直接或間接持有均計算。另外，行使對合夥的管理最終的控制權，或可行使對法團的管理最終的控制權的人，不論所佔百分比，亦屬最終擁有人"),
          ("Becoming one without approval is an offence by that person: level 5 and 6 months. The licensee may also face discipline, and an owner who is no longer fit and proper can cost it the licence", "未經批准而成為最終擁有人，該人即屬犯罪：第5級罰款及監禁6個月。持牌人亦可受紀律處分；最終擁有人不再是適當人選，更可令持牌人失去牌照"),
          "s.24 · s.36(7) · s.43(1)(c) · s.34(1)"),
     ]))
@@ -111,7 +111,7 @@ FP = table(
         + d("Both are tested as fit and proper <b>to be associated with</b> the business. The <b>to operate</b> wording never applies to a corporation.", "董事須是<b>與經營金錢服務有聯繫</b>的適當人選；最終擁有人須是<b>與該業務有聯繫</b>的適當人選。「<b>經營</b>金錢服務的適當人選」這個標準從不適用於法團。") + '</tr>',
         '<tr class="note"><td colspan="3">'
         + B("<b>Ultimate owner</b> of a <b>corporation</b>: more than <b>25%</b> of the issued share capital (held directly or indirectly, including through a trust or bearer share holding), or of the voting rights at general meetings, or <b>ultimate control over the management</b>. Of a <b>partnership</b>: more than 25% of the capital or profits, or of the voting rights, or ultimate control over the management. These two limbs match limb (i) of the Schedule 2 beneficial owner; Schedule 2 adds a limb (ii), 'the person on whose behalf it acts', which Part 5 gives only for an individual licensee. Of an <b>individual</b> licensee there is no percentage: it means another individual who ultimately owns or controls that individual's money service business, or the person the individual acts for.",
-            "<b>法團</b>的<b>最終擁有人</b>：直接或間接地擁有或控制（包括透過信託或持票人股份持有）已發行股本的<b>25%以上</b>，或成員大會上投票權的25%以上，或可行使對管理<b>最終的控制權</b>。<b>合夥</b>的最終擁有人：資本或利潤、或投票權的25%以上，或對管理最終的控制權。這兩部分與附表2實益擁有人的第(i)節相同；附表2另有「代表另一人行事時指該另一人」一節，第5部只就個人持牌人設此一節。<b>個人</b>持牌人的最終擁有人則不設百分比：指最終擁有或控制該名個人的金錢服務業務的另一名個人，或該名個人代其行事的人。")
+            "<b>法團</b>的<b>最終擁有人</b>：直接或間接地擁有或控制（包括透過信託或持票人股份持有）已發行股本的<b>25%以上</b>，或成員大會上投票權的25%以上，或可行使對管理<b>最終的控制權</b>。<b>合夥</b>的最終擁有人：資本或利潤、或投票權的25%以上，或對管理最終的控制權。這兩部分與附表2實益擁有人的第(i)節大致相同（就法團的控制權，附表2寫「行使」）；附表2另有「代表另一人行事時指該另一人」一節，第5部只就個人持牌人設此一節。<b>個人</b>持牌人的最終擁有人則不設百分比：指最終擁有或控制該名個人的金錢服務業務的另一名個人，或該名個人代其行事的人。")
         + ' ' + cite_html("s.24 · s.1 Sch. 2") + '</td></tr>',
     ]), minw=700)
 
@@ -239,7 +239,7 @@ G = sec('losing', ["s.30–s.34", "s.41 · s.42", ("how it ends", "如何終結"
         + U.td("If you applied in time, the licence stays in force past its expiry until the refusal takes effect, unless you withdraw the application or the licence is revoked or suspended", "如你按時申請，牌照在期滿後仍然有效，直至拒絕續期的決定生效為止；但如申請被撤回，或牌照被撤銷或暫時吊銷，則不在此限", post=U.flag())
         + d("—", "—") + d("Yes", "可以", "s.54") + '</tr>',
         '<tr>' + rh("It expires", "期滿失效", "s.30(10) · s.31(12)")
-        + d("No renewal application made under section 31. One lodged later than 45 days before expiry does not count, and the Licensing Guide treats it as invalid. It also treats a renewal as invalid if requested documents are not produced within the specified period, or no eligible person is nominated for the Assessment within 7 days of receiving the invitation letter, which comes with the renewal reminder sent 90 days before expiry", "沒有根據第31條提出續期申請。遲於期滿前45日才遞交的申請不算在內，《牌照指引》視之為無效申請。如未有在指明期限內遞交所需文件，或未有在接獲邀請信當日起計7日內提名合資格人士應考能力評核，《牌照指引》亦視該續期申請為無效；邀請信夾附於期滿前90日發出的續期提示通知", LG("6.2–6.4"))
+        + d("No renewal application made under section 31. One lodged later than 45 days before expiry does not count, and the Licensing Guide treats it as invalid. It also treats a renewal as invalid if requested documents are not produced within the specified period, or, where no senior manager holds a pass any more, no eligible person is nominated for the Assessment within 7 days of receiving the invitation letter, which comes with the renewal reminder sent 90 days before expiry", "沒有根據第31條提出續期申請。遲於期滿前45日才遞交的申請不算在內，《牌照指引》視之為無效申請。如未有在指明期限內遞交所需文件，或在高級管理層已無人持有合格成績時，未有在接獲邀請信當日起計7日內提名合資格人士應考能力評核，《牌照指引》亦視該續期申請為無效；邀請信夾附於期滿前90日發出的續期提示通知", cc(LG("6.2–6.4"), ("CA Guidance Notes ¶4.4(ii)", "《能力評核須知》第4.4(ii)段")))
         + d("When its validity period runs out; trading on is unlicensed operation. The Licensing Guide treats expiry as a cessation: notify before it and return the expired licence within 7 days (see the <a href=\"#gl-renewal\">Guidelines page</a>)", "有效期屆滿時即失效；其後繼續經營即屬無牌經營。《牌照指引》把期滿視作停業：須在期滿前具報，並在7日內交回已屆滿的牌照（見<a href=\"#gl-renewal\">指引頁</a>）", cc("s.31(2)(a)", LG("10.2")))
         + d("—", "—") + d("No: it is not a decision", "不可以：這不是決定") + '</tr>',
         '<tr>' + rh("You stop", "你停業", "s.41")

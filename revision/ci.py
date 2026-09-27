@@ -22,6 +22,12 @@ def dash_td():
     return '<td class="faint">—</td>'
 
 
+def only(lang, block):
+    """A callout shown only in one language's view (and in the combined view), for a point
+    that only that language's texts raise (as in gl.py)."""
+    return block.replace('<div class="trap">', f'<div class="trap only-{lang}">', 1)
+
+
 # Superseded by Guideline Chapter 7, but five of its filing points appear in no current document.
 
 
@@ -64,7 +70,7 @@ A = sec('dates', [("C&ED circulars", "海關通函"), ("2018 to 2026", "2018至2
              ("Every MSO with customers or transactions connected to these jurisdictions", "客戶或交易與這些司法管轄區有關連的金錢服務經營者"), CI("3 Jul 2026")),
         drow(("End of 2030", "2030年底"),
              ("All jurisdictions are expected to be ready to implement the FATF's revised Recommendation 16 on payment transparency, agreed in June 2025, by the end of 2030. The FATF consulted on guidance for it until 21 August 2026. <a href=\"#edd\">What it changes</a>",
-              "所有司法區預計需於2030年底前實施特別組織於2025年6月通過的第16項建議修訂（支付透明度）。特別組織就相關指引的諮詢於2026年8月21日截止。<a href=\"#edd\">修訂內容</a>"),
+              "所有司法區預計需於2030年底前實施特別組織於2025年6月通過的第16項建議修訂（支付透明度）。特別組織就相關指引進行諮詢，回覆須於2026年8月21日之前提交。<a href=\"#edd\">修訂內容</a>"),
              ("Every MSO; the FATF invited feedback from industry", "所有金錢服務經營者；特別組織邀請業界提出意見"), CI("16 Jul 2026")),
     ], minw=820)
     + traps(
@@ -197,11 +203,11 @@ F_ = sec('cdd', [("FAQ", "常見問題"), ("with the circular of", "另參考"),
     + h3("Identity documents", "身分證明文件")
     + table([th("The situation", "情況"), th("The answer", "答案")], [
         tr(td("The customer is not a Hong Kong resident: which documents are reliable and independent?", "客戶並非香港居民：哪些文件屬可靠及獨立？", FAQ(1)),
-           td("A non-resident's identity should be verified by reference to a valid travel document. For a non-resident who is not physically present in Hong Kong, you may identify and/or verify identity by reference to a valid international passport or other travel document; a current national identity card bearing the person's photograph; or a current valid national driving licence with photographic evidence of identity, issued by a competent national or state authority. International driving permits and licences are not acceptable for this purpose. The Guideline's main text also gives a Hong Kong identity card or other national identity card as an example for verifying any customer who is a natural person",
-              "非居民的身分應根據其有效旅遊證件核實。至於沒有現身香港的非香港居民，你應根據有效的國際護照或其他旅遊證件；附有有關個人照片的有效國民身分證；或由主管的國家或政府機構簽發、執照上有照片證明其身分的有效國家駕駛執照，識別及／或核實其身分。國際駕駛許可證及執照不能用於此目的。《打擊洗錢指引》正文亦把香港身份證或其他國家的身份證列為核實屬自然人的客戶身分的例子", cc(("Guideline App. A ¶1–2, n.72", "《打擊洗錢指引》附錄A第1至2段、註72"), "¶4.3.3(a)"), post=flag())),
+           td("Any one of three, the FAQ's examples: a valid travel document; a valid national identity card bearing the person's photograph; or a valid national driving licence with photographic evidence of identity, issued by a competent national or state authority. When a non-resident is physically present in Hong Kong, for example at your counter, the identity should be verified by reference to a valid travel document: the Guideline's Appendix A lists the identity card and driving licence only for non-residents who are not physically present. International driving permits and licences are not acceptable for this purpose. The Guideline's main text also gives a Hong Kong identity card or other national identity card as an example for verifying any customer who is a natural person",
+              "三者之一，即常見問題所舉的例子：有效旅遊證件；附有有關個人照片的有效國民身分證；或由主管的國家或政府機構簽發、執照上有照片證明其身分的有效國家駕駛執照。非居民實際身在香港（例如在你的櫃位）時，其身分應根據其有效旅遊證件核實：《打擊洗錢指引》附錄A只就沒有現身香港的非香港居民列出國民身分證及駕駛執照。國際駕駛許可證及執照不能用於此目的。《打擊洗錢指引》正文亦把香港身份證或其他國家的身份證列為核實屬自然人的客戶身分的例子", cc(("Guideline App. A ¶1–2, n.72", "《打擊洗錢指引》附錄A第1至2段、註72"), "¶4.3.3(a)"), post=flag())),
         tr(td("Which documents count as travel documents?", "哪些文件屬旅遊證件？", FAQ(2)),
-           td("The FAQ lists: a passport; the Mainland Travel Permit for Taiwan Residents; a Seaman's Identity Document issued under the International Labour Organisation Convention / Seafarers Identity Document Convention 1958; the Taiwan Travel Permit for Mainland Residents; the Permit for residents of Macau issued by the Director of Immigration; and the Exit-entry Permit for Travelling to and from Hong Kong and Macau, including the one for official purposes. The Guideline's Appendix A has the same list except that its first item is the Permanent Resident Identity Card of the Macau SAR, and it defines a travel document as a passport or other document with the holder's photograph establishing identity and nationality, domicile or place of permanent residence",
-              "常見問題列出：護照；台灣居民往來內地通行證；海員身分證明文件（根據《國際勞工組織公約》╱《1958年海員身分證件公約》簽發）；內地居民的台灣旅遊許可證；由入境事務處處長簽發的澳門居民旅遊證；以及往來港澳通行證，包括因公往來香港澳門特別行政區通行證。《打擊洗錢指引》附錄A的清單相同，唯第一項是澳門特別行政區永久居民身分證；附錄A並把旅遊證件界定為附有持有人照片，能確定持有人的身分及國籍、原居地或永久居留地的護照或其他證件", ("Guideline App. A ¶1–3, n.72", "《打擊洗錢指引》附錄A第1至3段、註72"), post=flag())),
+           td("The FAQ lists: a passport; the Mainland Travel Permit for Taiwan Residents; a Seaman's Identity Document issued under the International Labour Organisation Convention / Seafarers Identity Document Convention 1958; the Taiwan Travel Permit for Mainland Residents; the Permit for residents of Macau issued by the Director of Immigration; and the Exit-entry Permit for Travelling to and from Hong Kong and Macau, including the one for official purposes. The Guideline's Appendix A has the same list except that its first item is the Permanent Resident Identity Card of the Macau SAR, which is therefore a travel document too, and it defines a travel document as a passport or other document with the holder's photograph establishing identity and nationality, domicile or place of permanent residence",
+              "常見問題列出：護照；台灣居民往來內地通行證；海員身分證明文件（根據《國際勞工組織公約》╱《1958年海員身分證件公約》簽發）；內地居民的台灣旅遊許可證；由入境事務處處長簽發的澳門居民旅遊證；以及往來港澳通行證，包括因公往來香港澳門特別行政區通行證。《打擊洗錢指引》附錄A的清單相同，唯第一項是澳門特別行政區永久居民身分證，故該身分證亦屬旅遊證件；附錄A並把旅遊證件界定為附有持有人照片，能確定持有人的身分及國籍、原居地或永久居留地的護照或其他證件", ("Guideline App. A ¶1–3, n.72", "《打擊洗錢指引》附錄A第1至3段、註72"), post=flag())),
         tr(td("A travel document was used to verify a customer: what goes on file?", "以旅遊證件核實客戶身分：須存檔甚麼？", FAQ(3)),
            td("A copy of the biodata page, the one with the holder's photograph and personal details", "載有持證人照片及個人資料的「個人資料頁」的複本")),
         tr(td("The customer's name has changed", "客戶已更改姓名", FAQ(4)),
@@ -275,12 +281,12 @@ G_ = sec('edd', [("FAQ", "常見問題"), ("with circulars of", "另參考"), ("
          ("Higher risk, monitoring, transfers and records: what the FAQ, circulars and Guideline settle", "高風險、監察、轉帳及紀錄：常見問題、通函及指引的解答"),
     P("The same layout as the section before, for the questions that come after onboarding.", "編排與上一節相同，處理開戶以後的疑問。")
     + table([th("The situation", "情況"), th("The answer", "答案")], [
-        tr(td("Do you need the source of wealth of every customer?", "是否須確立每名客戶的財富來源？", FAQ(16)),
-           td("No, only in high-risk situations: a customer or beneficial owner who is a non-Hong Kong PEP; a high-risk relationship with a Hong Kong or international-organisation PEP; other situations high risk by their nature. For everyone else, occupation or business nature usually gives enough of a profile, and even for a high-risk customer you need not collect evidence going back decades where the risk does not justify it",
-              "不需要，只在高風險情況下才須確立：客戶或其實益擁有人屬非香港政治人物；與香港或國際組織政治人物建立的高風險業務關係；其他本質上屬高風險的情況。其他客戶的職業或業務性質通常已足以了解其狀況；即使屬高風險客戶，如風險水平不足以支持，亦毋須收集數十年前的證據", post=flag())),
-        tr(td("Which jurisdictions are the ones the FATF calls for measures on, where EDD proportionate to the risk should be applied?", "哪些司法管轄區屬特別組織呼籲採取措施、應採取與風險相稱的更嚴格的盡職審查措施？", FAQ(17, "4.15.1")),
-           td("Only those in the FATF Public Statement: apply EDD proportionate to the risk to relationships and transactions with customers from them. For the list in the statement Improving Global AML/CFT Compliance: On-going Process, EDD is not mandatory, but the link should be taken into account in the customer's overall risk profile",
-              "只限「特別組織公開聲明」所列的司法管轄區：應對涉及來自這些司法管轄區的客戶的業務關係和交易，採取與風險相稱的更嚴格的客戶盡職審查。「改善全球打擊洗錢及恐怖分子資金籌集的合規情況：持續進展」聲明所列的司法管轄區，毋須強制採取更嚴格的盡職審查措施，但在釐定客戶整體風險狀況時應顧及有關連繫", post=flag())),
+        tr(td("Do you need the source of wealth of every customer?", "是否須確立每名客戶的財富來源？", cc(FAQ(16, "4.9.10, 4.9.17"), "s.15 Sch. 2")),
+           td("No, only in high-risk situations. Where a customer or beneficial owner is a non-Hong Kong PEP, or is a Hong Kong or international-organisation PEP in a high-risk relationship, establish it and the source of funds; in other situations high risk by their nature, additional measures to mitigate the risk are an alternative. For everyone else, occupation or business nature usually gives enough of a profile, and even for a high-risk customer you need not collect evidence going back decades where the risk does not justify it",
+              "不需要，只在高風險情況下才須處理：客戶或其實益擁有人屬非香港政治人物，或屬香港或國際組織政治人物而業務關係屬高風險，須確立財富來源及資金來源；其他本質上屬高風險的情況，亦可改為採取額外措施，以減低所涉的風險。其他客戶的職業或業務性質通常已足以了解其狀況；即使屬高風險客戶，如風險水平不足以支持，亦毋須收集數十年前的證據", post=flag())),
+        tr(td("Which jurisdictions are the ones the FATF calls for measures on, where EDD proportionate to the risk should be applied?", "哪些司法管轄區屬特別組織呼籲採取措施、應採取與風險相稱的更嚴格的盡職審查措施？", cc(FAQ(17, "4.15.1"), CI("3 Jul 2026"))),
+           td("Only those in the FATF statement on High-Risk Jurisdictions subject to a Call for Action (the FAQ's FATF Public Statement): apply EDD proportionate to the risk to relationships and transactions with customers from them. For the list in the statement on Jurisdictions under Increased Monitoring (the FAQ's On-going Process statement), EDD is not mandatory, but the link should be taken into account in the customer's overall risk profile",
+              "只限特別組織「呼籲各方對高風險司法管轄區採取行動的聲明」（常見問題稱為「特別組織公開聲明」）所列的司法管轄區：應對涉及來自這些司法管轄區的客戶的業務關係和交易，採取與風險相稱的更嚴格的客戶盡職審查。特別組織「有關被加強監察的司法管轄區的聲明」（常見問題稱為「持續進展」聲明）所列的司法管轄區，毋須強制採取更嚴格的盡職審查措施，但在釐定客戶整體風險狀況時應顧及有關連繫", post=flag())),
         tr(td("A customer works for a United Nations agency", "客戶任職聯合國機構", FAQ(18)),
            td("UN agencies are international organisations, so a prominent function there makes the person an international-organisation PEP", "聯合國機構屬國際組織，因此在該等機構擔任重要公職的個人屬國際組織政治人物")),
         tr(td("A customer holds a prominent function at an international sports association", "客戶在國際體育協會擔任重要公職", FAQ(19)),
@@ -310,9 +316,9 @@ G_ = sec('edd', [("FAQ", "常見問題"), ("with circulars of", "另參考"), ("
               "篩查紀錄，包括對客戶、客戶的實益擁有人及跨境電傳轉帳相關各方的篩查，連同就可能吻合的姓名／名稱所作更嚴格查核的結果，應記錄在案或以電子方式記錄")),
     ], minw=760)
     + traps(
-        trap(("The FATF's two lists do different jobs", "特別組織的兩份名單作用不同"), None, FAQ(17, "4.15.1"),
-             vs=[(("FATF Public Statement", "特別組織公開聲明"), ("The jurisdictions \"for which this is called for by the FATF\". EDD proportionate to the risk should be applied.", "屬「特別組織對其作出呼籲的司法管轄區」。應採取與風險相稱的更嚴格的盡職審查措施。")),
-                 (("On-going Process statement", "持續進展聲明"), ("EDD is not mandatory; the connection should be taken into account in the customer's overall risk profile.", "毋須強制採取更嚴格的盡職審查措施；有關連繫應計入客戶的整體風險狀況。"))]),
+        trap(("The FATF's two lists do different jobs", "特別組織的兩份名單作用不同"), None, cc(FAQ(17, "4.15.1"), CI("3 Jul 2026")),
+             vs=[(("Call for Action statement", "呼籲採取行動聲明"), ("The jurisdictions \"for which this is called for by the FATF\". EDD proportionate to the risk should be applied.", "屬「特別組織對其作出呼籲的司法管轄區」。應採取與風險相稱的更嚴格的盡職審查措施。")),
+                 (("Increased Monitoring statement", "被加強監察聲明"), ("EDD is not mandatory; the connection should be taken into account in the customer's overall risk profile.", "毋須強制採取更嚴格的盡職審查措施；有關連繫應計入客戶的整體風險狀況。"))]),
     )
     + h3("The lists as the FATF left them in June 2026", "特別組織於2026年6月公布的名單")
     + P("The lists change whenever the FATF issues updated statements. This version comes from the Call for Action statement of 19 June 2026 and an updated statement on increased monitoring; the FATF also published the outcomes of its plenary of 17 to 19 June 2026. They reached MSOs by a circular of 3 July 2026 that followed an earlier one of 20 March 2026. The circular reminds you to check the FATF website for the latest statements. Each row is a jurisdiction or group; read across for what the FATF asks.",
@@ -334,7 +340,7 @@ G_ = sec('edd', [("FAQ", "常見問題"), ("with circulars of", "另參考"), ("
     ], note=B("For every jurisdiction identified as high-risk, the FATF calls for enhanced due diligence and, in the most serious cases, countermeasures. The circular names only the two jurisdictions added to the increased-monitoring list; the full list is on the FATF website.",
               "就所有被識別為高風險的國家而言，特別組織要求採取更嚴格的盡職審查，並在最嚴重的情況下採取針對措施。通函只列出新加入被加強監察名單的兩個司法管轄區；完整名單載於特別組織網站。") + ' ' + cite_html(CI("3 Jul 2026")), minw=820)
     + traps(
-        trap(("Two sets of names for the lists", "兩套名單名稱"), ("Match a list by what it asks for, not by its title: the FAQ and the circular of July 2026 name the FATF statements differently.", "應按名單的要求而非名稱辨認：常見問題與2026年7月的通函對特別組織聲明的稱呼不同。"),
+        trap(("Two sets of names for the lists", "兩套名單名稱"), ("Learn the titles the circular of July 2026 uses, and match the FAQ's older titles to them by what each list asks for.", "應記住2026年7月通函所用的名稱，並按各名單的要求，把常見問題的舊名稱與之對應。"),
              cc(FAQ(17), CI("3 Jul 2026")),
              vs=[(("The FAQ's titles", "常見問題的名稱"), ("\"FATF Public Statement\" and \"Improving Global AML/CFT Compliance: On-going Process\".", "「特別組織公開聲明」及「改善全球打擊洗錢及恐怖分子資金籌集的合規情況：持續進展」。")),
                  (("The 2026 circular's titles", "2026年通函的名稱"), ("\"High-Risk Jurisdictions subject to a Call for Action\" and \"Jurisdictions under Increased Monitoring\".", "「呼籲各方對高風險司法管轄區採取行動的聲明」及「被加強監察的司法管轄區的聲明」。"))]),
@@ -351,14 +357,14 @@ H_ = sec('returns', [("Circular", "通函"), ("30 May 2025", "2025年5月30日")
         (("2 a year", "每年2份"),
          ("One return for 1 January to 30 June, one for 1 July to 31 December", "一份涵蓋1月1日至6月30日，一份涵蓋7月1日至12月31日"),
          ("From 30 June 2025; the first covered January to June 2025 and was lodged from 1 July 2025", "由2025年6月30日起；首份涵蓋2025年1月至6月，於2025年7月1日起遞交"),
-         ("A late return may result in suspension and/or revocation of the licence", "逾期遞交將會導致牌照被暫時吊銷及／或撤銷"),
-         cc(CI("30 May 2025"), LG("11.2"))),
+         ("A late return may result in suspension and/or revocation of the licence", "逾期遞交或會導致牌照被暫時吊銷及／或撤銷"),
+         cc(CI("30 May 2025"), LG("7.1(f), 11.2"))),
         (("2 weeks", "兩星期"),
          ("Lodge each return", "遞交每份申報表"),
          ("Within 2 weeks beginning from the start of each half year, for the half year just ended: the January to June return from 1 July, the July to December return from 1 January; unless the Commissioner specifies otherwise by written notice",
           "每半年開始起計兩星期內遞交，涵蓋剛結束的半年：1月至6月的申報表於7月1日起遞交，7月至12月的於翌年1月1日起遞交；除非關長以書面通知另作指定"),
-         ("As in the row above: it may result in suspension and/or revocation", "與上一行相同：將會導致牌照被暫時吊銷及／或撤銷"),
-         LG("11.2")),
+         ("As in the row above: it may result in suspension and/or revocation", "與上一行相同：或會導致牌照被暫時吊銷及／或撤銷"),
+         LG("7.1(f), 11.2")),
     ])
     + table([th("Part of the return", "申報表部分"), th("What goes in", "須填報的內容")], [
         tr(rh("Money changing", "貨幣兌換"), td("Money changing data only, leaving out the amounts of remittances; the amounts of every foreign currency involved, largest first", "只填報貨幣兌換數據，不包括匯款交易金額；所涉全部外幣的金額，由多至少排列", post=flag())),
@@ -372,8 +378,12 @@ H_ = sec('returns', [("Circular", "通函"), ("30 May 2025", "2025年5月30日")
                  (("From 30 June 2025", "2025年6月30日起"), ("Half-yearly, two a year, January to June and July to December for every licensee alike, with three new kinds of data: currencies changed, jurisdictions remitted to or from, and delivery channels.", "每半年一次，每年兩次，所有持牌人劃一為1月至6月及7月至12月；並新增三類資料：兌換的外幣、匯款所涉司法管轄區，以及交付渠道。"))]),
         trap(("A late return is one of the Licensing Guide's examples, not one of the two grounds in section 34(1)", "逾期遞交是《牌照指引》所舉的例子之一，並非第34(1)條所列的兩項理由之一"),
              ("A late return may result in suspension and/or revocation of the licence, and the Licensing Guide lists failing to submit a periodic return on time among the grounds on which the Commissioner may revoke or suspend a licence. That list is a non-exhaustive set of examples; section 34(1) of the Ordinance itself names two grounds, a person who must be fit and proper no longer being so, or consent to entry of domestic premises being revoked or refused. How the two fit together is on the <a href=\"#gl-endings\">Guidelines page</a> and the <a href=\"#p5-losing\">Part 5 page</a>.",
-              "逾期遞交將會導致牌照被暫時吊銷及／或撤銷；《牌照指引》亦把未能按時遞交定期申報表，列為關長可撤銷或暫時吊銷牌照的情況之一。該清單只列舉例子，並非詳盡無遺；條例第34(1)條本身列明兩項理由：本須屬適當人選的人不再是適當人選，或住宅處所的進入同意被撤銷或拒絕給予。兩者如何配合，見<a href=\"#gl-endings\">「指引」一頁</a>及<a href=\"#p5-losing\">第5部一頁</a>。"),
+              "逾期遞交或會導致牌照被暫時吊銷及／或撤銷；《牌照指引》亦把未能按時遞交定期申報表，列為關長可撤銷或暫時吊銷牌照的情況之一。該清單只列舉例子，並非詳盡無遺；條例第34(1)條本身列明兩項理由：本須屬適當人選的人不再是適當人選，或住宅處所的進入同意被撤銷或拒絕給予。兩者如何配合，見<a href=\"#gl-endings\">「指引」一頁</a>及<a href=\"#p5-losing\">第5部一頁</a>。"),
              cc(CI("30 May 2025"), LG("7.1(f), 11.2"), "s.34(1)")),
+        # the circular and the Chinese ¶11.2 say 'will' where the Chinese ¶7.1(f) says 'may' (owner's call E3: may)
+        only('tc', trap(("", "逾期遞交定期申報表：關長「可」暫時吊銷或撤銷牌照，並非「將會」"),
+             ("", "2025年5月30日的通函及《牌照指引》第11.2段都寫「如未能按時遞交定期申報表，將會導致其牌照被暫時吊銷及／或撤銷」；但同一指引第7.1(f)段把持牌人未能按時遞交定期申報表，列於關長「可」撤銷或暫時吊銷牌照的情況之中。故逾期遞交，應理解為關長可以暫時吊銷或撤銷牌照，而非必然如此。題目如照錄「將會導致」的字眼，不應只因此而判為錯誤。"),
+             cc(CI("30 May 2025"), LG("7.1(f), 11.2")))),
     ))
 
 # ---------------------------------------------------------------- I. other laws

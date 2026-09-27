@@ -40,8 +40,8 @@ def small_down(x, y_top, en, tc, anchor='start', size=11):
 PART4 = ("Proceeding without CDD breaches a specified provision: Part 4 discipline, including a pecuniary penalty of up to $10,000,000 or 3 times the profit gained or costs avoided, whichever is greater; and an offence if done knowingly",
          "未執行盡職審查即進行，屬違反指明的條文：可受第4部紀律處分，包括罰款最高為$10,000,000或因該項違反而獲取的利潤或避免的開支的金額的3倍（以金額較大者為準）；明知而違反即屬犯罪")
 
-GL_STD_EN = "not following the Guideline can lead to disciplinary and other action under the AMLO, and the Commissioner must have regard to it when deciding whether Schedule 2 was breached"
-GL_STD_TC = "不遵從指引或會招致根據打擊洗錢條例採取的紀律行動及其他行動，而關長在考慮有否違反附表2時須顧及指引"
+GL_STD_EN = "not following the Guideline can lead to disciplinary and other action under the AMLO for not meeting the relevant requirements, and the Commissioner must have regard to it when deciding whether Schedule 2 was breached"
+GL_STD_TC = "不遵從指引，或會因沒有遵守相關規定而面對根據打擊洗錢條例採取的紀律行動及其他行動，而關長在考慮有否違反附表2時須顧及指引"
 
 
 # ---------------------------------------------------------------- thresholds
@@ -192,8 +192,8 @@ MON = sec('monitoring', ["s.5–6 Sch. 2", "Ch. 5", "¶4.12"],
         (("at least yearly", "最少每年一次"),
          ("Review the customer's CDD records to confirm they are up to date and still relevant", "覆核該客戶的盡職審查紀錄，確認資料反映現況及仍屬相關"),
          ("The customer presents high ML/TF risk; review more often if you judge it necessary. Schedule 2 itself says only 'from time to time'", "客戶構成高洗錢或恐怖分子資金籌集風險；如認為有需要應更頻密覆核。附表2本身只規定「不時」覆核"),
-         ("Falls short of the Guideline's minimum. Not following the Guideline can lead to disciplinary and other action under the AMLO, and may also reflect adversely on the fitness and properness of the sole proprietor, partners, directors and ultimate owner",
-          "未達指引的最低要求。不遵從指引或會招致根據打擊洗錢條例採取的紀律行動及其他行動，亦將對獨資經營者、合夥人、董事和最終擁有人作為適當人選帶有負面影響"),
+         ("Falls short of the Guideline's minimum. Not following the Guideline can lead to disciplinary and other action under the AMLO for not meeting the relevant requirements, and may also reflect adversely on the fitness and properness of the sole proprietor, partners, directors and ultimate owner",
+          "未達指引的最低要求。不遵從指引，或會因沒有遵守相關規定而面對根據打擊洗錢條例採取的紀律行動及其他行動，亦將對獨資經營者、合夥人、董事和最終擁有人作為適當人選帶有負面影響"),
          "¶5.3 · s.5(1)(a) Sch. 2 · ¶1.3"),
         (("1 April 2012", "2012年4月1日"),
          ("The cut-off date that makes a customer pre-existing", "界定先前客戶的分界日期"),
@@ -438,7 +438,7 @@ SYS = sec('systems', ["s.15–17 Sch. 2", "s.19, 22, 23 Sch. 2", "¶4.14–4.15"
         tr(rh("Correspondent banking and shell banks", "代理銀行服務及空殼銀行", "s.14, 17 Sch. 2"), td("Duties on authorized institutions only; they do not bind a money service operator", "只屬認可機構的責任，並不約束金錢服務經營者")),
     ], minw=720)
     + traps(
-        trap(("A PEP needs both; another high-risk relationship needs one of two", "政治人物兩者皆須；其他高風險業務關係二擇其一"), None, "s.10, 15 Sch. 2",
+        trap(("A PEP needs both; another high-risk relationship needs one of two", "政治人物兩者皆須；其他高風險業務關係二擇其一"), None, "s.10, 15 Sch. 2 · ¶4.9.10, 4.9.17",
              vs=[(("A politically exposed person", "政治人物"), ("Senior management approval <b>and</b> reasonable measures to establish source of wealth and source of funds.", "高級管理層批准，<b>以及</b>採取合理措施確立財富來源及資金來源。")),
                  (("Any other high-risk business relationship", "其他高風險業務關係"), ("Senior management approval too, then <b>either</b> source of wealth and funds <b>or</b> additional measures to mitigate. A high-risk occasional transaction needs additional measures only.", "同樣須取得高級管理層批准，然後<b>二擇其一</b>：確立財富來源及資金來源，<b>或</b>採取額外措施減低風險。高風險非經常交易只須採取額外措施。"))]),
     ))

@@ -67,8 +67,8 @@ A_ = sec('duty', [("Guideline Ch. 7", "指引第7章"), ("¶7.1–7.6", "第7.1�
          ("An offence: failing to disclose as soon as it is reasonable", "即屬犯罪：未能在合理範圍內盡快作出披露"),
          cc("¶7.1", "¶1.24", DO("25A(7)"), UN("14(5)"))),
         (("3 years and a fine", "監禁3年及罰款"),
-         ("Disclose nothing likely to prejudice an investigation, such as telling the customer a report has been made", "不得披露任何可能影響調查的事宜，例如告知客戶已作出報告"),
-         ("Once a report has been made, and also where a suspicion has been raised inside your business but not yet reported to the JFIU", "已作出報告後，或已在內部提出、但尚未向財富情報組報告懷疑時"),
+         ("Disclose nothing likely to prejudice an investigation, such as telling the customer a report has been made", "不得披露任何相當可能損害調查的事宜，例如告知客戶已作出報告"),
+         ("You know or suspect that a disclosure has been made; this covers a suspicion raised inside your business but not yet reported to the JFIU", "你知道或懷疑已曾作出披露；已在內部提出、但尚未向財富情報組報告的懷疑亦包括在內"),
          ("An offence: tipping off", "即屬犯罪：通風報訊"),
          cc("¶1.25", "¶7.6", DO("25A(5)"), UN("12(5)"))),
         (("14 years and $5,000,000", "監禁14年及罰款五百萬元"),
@@ -79,9 +79,9 @@ A_ = sec('duty', [("Guideline Ch. 7", "指引第7章"), ("¶7.1–7.6", "第7.1�
     ])
     + traps(
         trap(("Tipping off starts before the JFIU hears anything", "通風報訊在財富情報組收到報告前已可構成"),
-             ("Revealing to anyone information that might prejudice an investigation is an offence, and telling a customer that a report has been made is the plain example. The provision also covers a suspicion raised internally within the MSO that has not yet been reported to the JFIU.",
-              "向任何人士透露任何可能會對調查工作有影響的資訊，即屬犯罪；告知客戶已作出報告便是明顯例子。有關條文亦包括已於金錢服務經營者內部提出懷疑、但尚未向財富情報組報告的情況。"),
-             cc("¶7.6", DO("25A(5)"), UN("12(5)"))),
+             ("Knowing or suspecting that a disclosure has been made, disclosing to anyone a matter likely to prejudice an investigation is an offence, and telling a customer that a report has been made is the plain example. The provision also covers a suspicion raised internally within the MSO that has not yet been reported to the JFIU.",
+              "知道或懷疑已曾作出披露，而仍向任何人披露相當可能損害調查的事宜，即屬犯罪；告知客戶已作出報告便是明顯例子。有關條文亦包括已於金錢服務經營者內部提出懷疑、但尚未向財富情報組報告的情況。"),
+             cc("¶1.25", "¶7.6", DO("25A(5)"), UN("12(5)"))),
         trap(("A reasonable person's view can amount to knowledge", "合理的人的看法亦可構成知悉"),
              ("Knowledge is not only what you actually know. Knowing circumstances that would indicate the facts to a reasonable person, or that would put a reasonable person on inquiry, is likely to count as knowledge too. Suspicion is the personal, subjective state that falls short of proof.",
               "知悉不只是實際知悉。知悉一個合理的人會認為是事實的情況，或知悉某些會令合理的人提出查詢的情況，亦可能屬知悉。懷疑則是個人及主觀的，並且缺乏確鑿的證據作證明。"),

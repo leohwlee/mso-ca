@@ -143,7 +143,7 @@ EIGHT = [
                                     "能夠及時取得一切可取得的資料：內部來源如盡職審查紀錄，外部來源如關長通函"), None),
     ("(h)", ("Resources", "資源"), ("Sufficient resources, including staff, and appropriate cover for the absence of the CO and MLRO: an alternate or deputy CO and MLRO, who should have the same status",
                                   "配備充足資源，包括職員，以及合規主任及洗錢報告主任的適當替補人選：即替代或代理合規主任及洗錢報告主任，而他們應具有相同地位"),
-     ("“<b>where practicable</b>” (the same status only)", "「<b>如切實可行的話</b>」（替代或代理人選及其相同地位）")),
+     ("“<b>where practicable</b>” (the same status only)", "「<b>如切實可行的話</b>」（替代或代理人選）")),
 ]
 rows4 = []
 for letter, lab, text, qual in EIGHT:
@@ -285,8 +285,8 @@ S7 = sec('group', ["¶3.15–3.19", ("fn 10–11", "註10至11"), "s.22 Sch. 2"]
               "每一行均受兩項條件限制：所涉司法管轄區的法律及規例須准許；以及須妥善保障共用資料的保密需要及用途，包括防止通風報訊。") + ' ' + cite_html("¶3.17"), minw=760)
     + traps(
         trap(("The Guideline says Hong Kong-incorporated; the Ordinance now also names re-domiciled entities", "指引只提在香港成立為法團；條例現時亦涵蓋經遷冊實體"),
-             ("The June 2023 Guideline addresses a Hong Kong-incorporated MSO. Section 22(1) of Schedule 2, as amended in 2025, applies to a financial institution incorporated in Hong Kong or that is a re-domiciled entity. The two texts differ on this point.",
-              "2023年6月的指引針對在香港成立為法團的金錢服務經營者。附表2第22(1)條經2025年修訂後，適用於在香港成立為法團或屬經遷冊實體的金融機構。兩份文本在這一點上並不相同。"),
+             ("The June 2023 Guideline addresses a Hong Kong-incorporated MSO. Section 22(1) of Schedule 2, as amended in 2025, applies to a financial institution incorporated in Hong Kong or that is a re-domiciled entity. Go by the Ordinance, amended after the Guideline: an MSO that is a re-domiciled entity has the duty too.",
+              "2023年6月的指引針對在香港成立為法團的金錢服務經營者。附表2第22(1)條經2025年修訂後，適用於在香港成立為法團或屬經遷冊實體的金融機構。應以在指引之後修訂的條例為準：屬經遷冊實體的金錢服務經營者同樣負有此責任。"),
              cc("¶3.15", "s.22(1) Sch. 2")),
         trap(("The CO's review covers the group-wide systems too", "合規主任的覆核亦涵蓋集團層面的制度"),
              ("For a Hong Kong-incorporated MSO, developing and continuously reviewing the systems includes any group-wide AML/CFT Systems.",

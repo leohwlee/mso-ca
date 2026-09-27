@@ -93,9 +93,9 @@ def fig_route():
     S2 = BCard(40, 540, ("C&ED acknowledges receipt, and chases anything outstanding", "海關確認收件，並催交尚欠文件"), None, cite=LG("5.4"))
     R2 = BCard(655, 315, ("Not produced within\nthe specified period", "未能在指明期限內遞交"),
                ("The application is invalid\nand is not processed", "申請視作無效，不獲處理"), 'stop', LG("5.4"), answer=True)
-    S3 = BCard(40, 540, ("Everything is in: C&ED sends two things", "文件齊備：海關發出兩份文件"),
-               ("A notice of interview;\nan invitation to nominate who will sit the Assessment",
-                "會面通知；\n提名應考能力評核人選的邀請信"), cite=LG("5.4"))
+    S3 = BCard(40, 540, ("Everything is in: C&ED sends three things", "文件齊備：海關發出三份文件"),
+               ("A notice of interview and a demand note for the fees;\nan invitation to nominate who will sit the Assessment",
+                "會面通知及繳費單；\n提名應考能力評核人選的邀請信"), cite=LG("5.4"))
     V = BCard(655, 315, ("Running alongside", "同步進行"),
               ("Fit-and-proper checks against C&ED,\nother government and law-enforcement\nrecords, and an on-site inspection\nof the premises",
                "將適當人選資料與海關、\n其他政府部門及執法機構的紀錄核對，\n並實地視察業務處所"), 'faint', LG("5.6, 5.9"))
@@ -130,8 +130,8 @@ def fig_route():
     jy = D.bottom[1] + 22
     b.append(edge([D.bottom, (D.cx, jy), (G.cx, jy), G.top], ("yes", "是"), G.cx - 8, jy + 14, 'end', mid=m))
     b.append(edge([D.bottom, (D.cx, jy), (F.cx, jy), F.top], ("no", "否"), F.cx + 8, jy + 14, 'start', mid=m))
-    aria = ("The route to a licence. You submit Form 1 with the supporting papers, and the application must be accompanied by the Schedule 3 fee; C&ED acknowledges and chases anything missing, and an application still incomplete after the specified period is invalid and not processed. Once everything is in, C&ED sends a notice of interview and an invitation to nominate candidates for the Assessment. At the interview originals are checked, you sign the application and explain your plans. Your nominees sit the Assessment within 30 days, with one retake after 30 days upon the notification of result if nobody passes. Fit-and-proper checks and a premises inspection run alongside. The Commissioner then grants a licence, normally for two years, or refuses by written notice, which you can take to the Review Tribunal within 21 days of the notice.",
-            "申領牌照的流程。你遞交表格1及證明文件，申請須附隨附表3指明的費用；海關確認收件並催交尚欠文件，逾指明期限仍不齊備的申請視作無效，不獲處理。文件齊備後，海關發出會面通知及提名應考能力評核人選的邀請信。會面時查驗正本，你須簽署申請書並闡釋計劃。獲提名人士須於30日內應考，如無人合格，可於成績通知發出30日後重考一次。適當人選判定及處所視察同步進行。其後關長批給牌照（有效期一般為2年），或以書面通知拒絕，你可於通知送出後21日內向覆核審裁處提出上訴。")
+    aria = ("The route to a licence. You submit Form 1 with the supporting papers, and the application must be accompanied by the Schedule 3 fee; C&ED acknowledges and chases anything missing, and an application still incomplete after the specified period is invalid and not processed. Once everything is in, C&ED sends a notice of interview, a demand note for the fees and an invitation to nominate candidates for the Assessment. At the interview originals are checked, you sign the application and explain your plans. Your nominees sit the Assessment within 30 days, with one retake after 30 days upon the notification of result if nobody passes. Fit-and-proper checks and a premises inspection run alongside. The Commissioner then grants a licence, normally for two years, or refuses by written notice, which you can take to the Review Tribunal within 21 days of the notice.",
+            "申領牌照的流程。你遞交表格1及證明文件，申請須附隨附表3指明的費用；海關確認收件並催交尚欠文件，逾指明期限仍不齊備的申請視作無效，不獲處理。文件齊備後，海關發出會面通知、繳費單及提名應考能力評核人選的邀請信。會面時查驗正本，你須簽署申請書並闡釋計劃。獲提名人士須於30日內應考，如無人合格，可於成績通知發出30日後重考一次。適當人選判定及處所視察同步進行。其後關長批給牌照（有效期一般為2年），或以書面通知拒絕，你可於通知送出後21日內向覆核審裁處提出上訴。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
@@ -220,7 +220,7 @@ def fig_renew():
         return X0 + (day + 90) * (X1 - X0) / 90
 
     N = BCard(20, 262, ("① Nominate within 7 days", "① 7日內提名"),
-              ("Of receiving the invitation.\nLate: the renewal is invalid", "自接獲邀請信起計。\n逾期：續牌申請無效"), 'must', LG("6.2, 6.4(c)"), answer=True)
+              ("Of receiving the invitation,\nif no one who passed is left.\nLate: the renewal is invalid", "自接獲邀請信起計；\n如已無人持有合格成績。\n逾期：續牌申請無效"), 'must', LG("6.2, 6.4(c)"), answer=True)
     # wide enough for its one-line statute and Guide citation; it still spans the 45-day drop line (x = 500)
     L = BCard(376, 384, ("② Lodge Form 2 by 45 days before expiry", "② 期滿前45日遞交表格2"),
               ("With the supplementary sheet and annex, and accompanied by the Schedule 3 fee; late: invalid. The other papers go with it, and anything missing is chased",
@@ -293,8 +293,8 @@ def fig_renew():
     BAD.y = GOOD.y = oy
     b += [BAD.render(), GOOD.render()]
     H = oy + max(BAD.h, GOOD.h) + 14
-    aria = ("The renewal countdown, in days before expiry. At 90 days C&ED sends every licensee a reminder with an invitation to nominate. You nominate within 7 days of receiving it, and your nominees sit within 30 days of receiving it; missing the session means the application will be rejected. If nobody passes, one retake is allowed after 30 days upon the notification of result and before expiry. Form 2, the supplementary sheet and the annex must be lodged not later than 45 days before expiry, accompanied by the Schedule 3 fee. C&ED then chases missing documents, which must arrive within the specified period, and interviews you. Missing any of the three invalidity deadlines, the 7-day nomination, the 45-day lodging or the specified period for chased documents, makes the application invalid, so the licence lapses at expiry. A valid application in time keeps the licence in force until it is renewed or, if refused, until the refusal takes effect, unless the application is withdrawn or the licence is revoked or suspended under section 34.",
-            "續牌倒數，以期滿前日數計算。第90日海關向每名持牌人發出提示，並夾附提名邀請信。你須在接獲邀請信當日起計7日內提名，獲提名人士須在接獲邀請信當日起計30日內應考；未有出席指定時段的評核，會導致相關申請被拒絕。如無人合格，可於成績通知發出30日後、期滿前重考一次。表格2、補充資料表格及相關附件須在期滿前45日或之前遞交，並附隨附表3指明的費用。其後海關催交尚欠文件，須在指明期限內交出，然後與你會面。7日內提名、期滿前45日遞交、在指明期限內交出尚欠文件，任何一項未能做到，申請即屬無效，牌照於期滿時失效。按時遞交有效申請，牌照會持續有效，直至獲續期；如續期被拒絕，則直至拒絕的決定生效為止；除非申請被撤回，或牌照根據第34條被撤銷或暫時吊銷。")
+    aria = ("The renewal countdown, in days before expiry. At 90 days C&ED sends every licensee a reminder with an invitation to nominate. If no senior manager holds a pass any more, you nominate within 7 days of receiving it, and your nominees sit within 30 days of receiving it; missing the session means the application will be rejected. If nobody passes, one retake is allowed after 30 days upon the notification of result and before expiry. Form 2, the supplementary sheet and the annex must be lodged not later than 45 days before expiry, accompanied by the Schedule 3 fee. C&ED then chases missing documents, which must arrive within the specified period, and interviews you. Missing any of the three invalidity deadlines, the 7-day nomination, the 45-day lodging or the specified period for chased documents, makes the application invalid, so the licence lapses at expiry. A valid application in time keeps the licence in force until it is renewed or, if refused, until the refusal takes effect, unless the application is withdrawn or the licence is revoked or suspended under section 34.",
+            "續牌倒數，以期滿前日數計算。第90日海關向每名持牌人發出提示，並夾附提名邀請信。如高級管理層已無人持有合格成績，你須在接獲邀請信當日起計7日內提名，獲提名人士須在接獲邀請信當日起計30日內應考；未有出席指定時段的評核，會導致相關申請被拒絕。如無人合格，可於成績通知發出30日後、期滿前重考一次。表格2、補充資料表格及相關附件須在期滿前45日或之前遞交，並附隨附表3指明的費用。其後海關催交尚欠文件，須在指明期限內交出，然後與你會面。7日內提名、期滿前45日遞交、在指明期限內交出尚欠文件，任何一項未能做到，申請即屬無效，牌照於期滿時失效。按時遞交有效申請，牌照會持續有效，直至獲續期；如續期被拒絕，則直至拒絕的決定生效為止；除非申請被撤回，或牌照根據第34條被撤銷或暫時吊銷。")
     return svg(W, H, ''.join(b), aria, m, 860)
 
 

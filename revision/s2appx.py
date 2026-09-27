@@ -60,7 +60,7 @@ def fig_person():
     b.append(edge([three.bottom, idp.top], ("(c) does not include", "(c)項不包括"), three.cx + 10, (three.bottom[1] + idp.top[1]) / 2 + 5, 'start',
                   marker=False, mid=m).replace('class="e"', 'class="e e-dash"'))
     aria = ("Decision tree for an individual customer: a Hong Kong resident is always identified and verified by Hong Kong identity card or document of identity; a non-resident who is physically present by a valid travel document; a non-resident who is not present by a travel document, a national identity card with photograph or a national driving licence with photograph, but never an international driving permit.",
-            "個人客戶的決策樹：香港居民一律以香港身份證或簽證身分書識別及核實；實際身在香港的非居民以有效旅遊證件核實；沒有現身香港的非居民以旅遊證件、附照片的國民身分證或附照片的國家駕駛執照核實，但國際駕駛許可證不能使用。")
+            "個人客戶的決策樹：香港居民應經常以香港身份證或簽證身分書識別及／或核實；實際身在香港的非居民以有效旅遊證件核實；沒有現身香港的非居民以旅遊證件、附照片的國民身分證或附照片的國家駕駛執照核實，但國際駕駛許可證不能使用。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
@@ -144,8 +144,8 @@ TRAVEL_TABLE = T([th("", ""), th("Guideline Appendix A ¶3 (June 2023)", "《指
     tr(rh("(e)", "(e)"), td("Permit for residents of Macau issued by the Director of Immigration", "由入境事務處處長簽發的澳門居民旅遊證", AX("3(e)")), td("The same", "相同", FAQ("2"))),
     tr(rh("(f)", "(f)"), td("Exit-entry Permit for Travelling to and from Hong Kong and Macau for Official Purposes", "因公往來香港澳門特別行政區通行證", AX("3(f)")), td("The same", "相同", FAQ("2"))),
     tr(rh("(g)", "(g)"), td("Exit-entry Permit for Travelling to and from Hong Kong and Macau", "往來港澳通行證", AX("3(g)")), td("The same", "相同", FAQ("2"))),
-], note=B("Appendix A ¶3 defines a travel document as a passport or some other document with the holder's photograph that establishes the holder's identity and nationality, domicile or place of permanent residence. The FAQ gives its list for the purpose of ¶4.3.3 and cites Appendix A ¶3 as its reference. The Guideline's list names the Macau permanent resident card and not the passport; the FAQ's list names the passport and not the Macau card. Neither source says the other is wrong. ",
-          "附錄A第3段把旅遊證件界定為附有持有人照片，能確定持有人的身分及國籍、原居地或永久居留地的護照或其他證件。常見問題的清單是就第4.3.3段而列出，並以附錄A第3段為參考資料。《指引》的清單列出澳門永久居民身分證而沒有列出護照；常見問題的清單列出護照而沒有列出澳門永久居民身分證。兩者均沒有指對方有誤。")
+], note=B("Appendix A ¶3 defines a travel document as a passport or some other document with the holder's photograph that establishes the holder's identity and nationality, domicile or place of permanent residence. The FAQ gives its list for the purpose of ¶4.3.3 and cites Appendix A ¶3 as its reference. The Guideline's list names the Macau permanent resident card and not the passport; the FAQ's list names the passport and not the Macau card. The passport and the Macau card are both travel documents: the FAQ's list gives examples and does not rule the Macau card out. ",
+          "附錄A第3段把旅遊證件界定為附有持有人照片，能確定持有人的身分及國籍、原居地或永久居留地的護照或其他證件。常見問題的清單是就第4.3.3段而列出，並以附錄A第3段為參考資料。《指引》的清單列出澳門永久居民身分證而沒有列出護照；常見問題的清單列出護照而沒有列出澳門永久居民身分證。護照及澳門永久居民身分證均屬旅遊證件：常見問題的清單只列舉例子，並無排除後者。")
          + cite_html(cc(AX("3"), FAQ("2"))), minw=760, cls='cmp')
 
 ID_DOC_TABLE = T([th("For", "就以下而言"), th("“Identification document” means", "「識別文件」指")], [
@@ -229,9 +229,9 @@ APX = sec('docs', [("App. A", "附錄A"), "¶4.3.3–4.3.4", "¶4.3.7–4.3.12",
     + CERTIFIER_TABLE
     + U.traps(
         U.trap(("A non-resident at your counter: a valid travel document", "身在櫃位的非居民：有效旅遊證件"),
-               ("Watch whether the question says the person is, or is not, physically present in Hong Kong: Appendix A lists the national identity card and national driving licence only for a non-resident who is not. The Guideline's main text also gives \"Hong Kong identity card or other national identity card\" as an example for verifying any individual customer.",
-                "留意題目是否指明該人實際身在香港或沒有現身香港：附錄A只就沒有現身香港的非居民列出國民身分證及國家駕駛執照。指引正文亦把「香港身份證或其他國家的身份證」列為核實任何屬自然人的客戶身分的例子。"),
-               cc(AX("1–2"), "¶4.3.3(a)"),
+               ("Watch whether the question says the person is, or is not, physically present in Hong Kong: Appendix A lists the national identity card and national driving licence only for a non-resident who is not. If the question does not say, any one of the three counts (a valid travel document, national identity card or national driving licence): the C&amp;ED's FAQ lists all three as examples for non-residents without saying where the customer is. The Guideline's main text also gives \"Hong Kong identity card or other national identity card\" as an example for verifying any individual customer.",
+                "留意題目是否指明該人實際身在香港或沒有現身香港：附錄A只就沒有現身香港的非居民列出國民身分證及國家駕駛執照。如題目沒有指明，三者之一均可（有效旅遊證件、國民身分證或國家駕駛執照）：海關常見問題就非香港居民列出這三類文件作為例子，沒有指明客戶身在何處。指引正文亦把「香港身份證或其他國家的身份證」列為核實任何屬自然人的客戶身分的例子。"),
+               cc(AX("1–2"), FAQ("1"), "¶4.3.3(a)"),
                vs=[(("Physically present in Hong Kong", "實際身在香港"),
                     ("A non-resident's identity should be verified by reference to a valid travel document.",
                      "非居民的身分應根據其有效旅遊證件核實。")),

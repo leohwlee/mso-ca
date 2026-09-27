@@ -149,7 +149,7 @@ A = sec('route', [("Licensing Guide", "《牌照指引》"), ("¶5.1–5.11", "�
         trap(("Invalid and refused are different endings", "無效與被拒是兩種不同的結局"), None, cc(LG("5.4"), LG("5.10–5.11")),
              vs=[(("Invalid", "無效"), ("Information or documents were not produced within the specified period. The application is simply not processed.", "未能在指明期限內提供資料或文件。申請只是不獲處理。")),
                  (("Refused", "被拒"), ("The Commissioner decides against you and says so in writing. You have 21 days to take it to the Review Tribunal.", "關長作出不利於你的決定並以書面通知。你有21日時間向覆核審裁處提出上訴。"))]),
-        # the Chinese ¶5.4 says 會導致 where the Chinese ¶5.10(i) and CA Notes ¶3.1 say 可能 (owner's call C02: may)
+        # the Chinese ¶5.4 says 會導致 where the Chinese ¶5.10(i) and CA Notes ¶3.1 say 可能 (owner's call E2: may)
         only('tc', trap(("", "新申請缺席評核：是「可能」被拒，不是「會」被拒"),
              ("", "《牌照指引》第5.4段寫「如未能在指定的時段應考能力評核，會導致相關申請被拒絕」，但同一指引第5.10(i)段指申請人的高級管理層中沒有成員應考能力評核時，關長「可能拒絕」批給牌照，《能力評核須知》第3.1段亦寫「可能導致」牌照申請被拒絕。故新申請缺席評核，應理解為可能被拒。續牌則不同：第6.2段訂明缺席會導致相關申請被拒絕。"),
              cc(LG("5.4, 5.10(i), 6.2"), GN("3.1")))),
@@ -158,9 +158,9 @@ A = sec('route', [("Licensing Guide", "《牌照指引》"), ("¶5.1–5.11", "�
               "《牌照指引》明確列出法定定義沒有明言的排除情況：只屬主要業務附帶部分的貨幣兌換，例如零售商店向顧客收取外幣，不屬貨幣兌換服務。條例本身的酒店例外，見附表1一頁。"),
              LG("2.3")),
         trap(("Fees: paid with the application, charged again at each renewal, never refunded", "費用：須附隨申請，每次續期再收，概不退還"), None,
-             cc(LG("2.8, 4.14"), "s.30(1)(b) · s.31(2)", ("Sch. 3 items 4–5", "附表3第4至5項")),
+             cc(LG("2.8, 4.14, 5.4, 6.3"), "s.30(1)(b) · s.31(2)", ("Sch. 3 items 4–5", "附表3第4至5項")),
              vs=[(("Refunds", "退款"), ("The application fee and the fit-and-proper fee are not refunded, whether the application is approved or refused.", "申請費及適當人選判定費，不論申請獲批或被拒，均不獲退還。")),
-                 (("When they are paid", "何時繳付"), ("A grant or renewal application must be accompanied by the Schedule 3 fee, and a renewal must be made not later than 45 days before expiry.", "批給或續期的申請須附隨附表3指明的費用；續期申請須在牌照期滿前45日或之前提出。")),
+                 (("When they are paid", "何時繳付"), ("A grant or renewal application must be accompanied by the Schedule 3 fee, and a renewal must be made not later than 45 days before expiry. In practice, C&amp;ED asks for the fee with a demand note sent with the interview notice.", "批給或續期的申請須附隨附表3指明的費用；續期申請須在牌照期滿前45日或之前提出。實際上，海關會連同會面通知發出繳費單，收取有關費用。")),
                  (("How often", "繳付次數"), ("The fit-and-proper fee is charged for each person subject to the test, on a grant and again on each renewal. The amounts are on the <a href=\"#s3-fees\">Schedule 3 page</a>.", "適當人選判定費按每一個須判定是否適當人選的人收取，批給時收取，每次續期亦再收取。金額見<a href=\"#s3-fees\">附表3一頁</a>。"))]),
     ))
 
@@ -218,7 +218,7 @@ B_ = sec('premises', [("Licensing Guide", "《牌照指引》"), ("¶4.4–4.11"
            td("Failure may result in suspension and/or revocation, including when the office fails to serve as the point of contact with C&amp;ED, such as when none of the licensee's personnel is there. Paragraph 4.7 says it will; the list of grounds and the official sample paper say may",
               "未能維持或會導致暫時吊銷及／或撤銷牌照，包括本地管理辦事處未能作為與海關溝通的聯絡點，例如持牌人的人員並不在場",
               cc(LG("4.7, 7.1(e)"), SAMPLE4), post=FLAG_EN),
-           td("Failure will result in suspension and/or revocation, though the list of grounds says the Commissioner may", "未能維持將會導致暫時吊銷及／或撤銷牌照，但該指引列出的理由則指關長可以這樣做", cc(LG("4.11"), LG("7.1(d)")))),
+           td("Failure may result in suspension and/or revocation. Paragraph 4.11 says it will; the list of grounds says the Commissioner may", "未能維持或會導致暫時吊銷及／或撤銷牌照。第4.11段寫「將會導致」，但該指引列出的理由則指關長可以這樣做", cc(LG("4.11"), LG("7.1(d)")))),
     ], minw=760, cls='cmp')
     + traps(
         trap(("A management office is only for operators without premises", "本地管理辦事處只適用於沒有特定處所的經營者"),
@@ -260,7 +260,7 @@ C_ = sec('standing', [("Licensing Guide", "《牌照指引》"), ("¶4.15 · ¶7
               ("Circular 30 May 2025", "2025年5月30日通函")),
            dash_td(),
            td("Late filing may result in the suspension and/or revocation of the licence",
-              "未能按時遞交定期申報表，將會導致牌照被暫時吊銷及／或撤銷", cc(LG("7.1(f), 11.2"), ("Circular 30 May 2025", "2025年5月30日通函")))),
+              "未能按時遞交定期申報表，或會導致牌照被暫時吊銷及／或撤銷。第11.2段及通函均寫「將會導致」，但《牌照指引》列出的理由則指關長可以這樣做", cc(LG("7.1(f), 11.2"), ("Circular 30 May 2025", "2025年5月30日通函")))),
         tr(rh("A money service that actually runs", "確實經營的金錢服務", LG("7.1(g)")),
            td("A genuine intention and readiness to carry on the business you applied for", "確實有意並已準備經營申請時所述的業務", FPS("6(f)")),
            td("Weighed in the fit and proper person test", "在適當人選判定中考慮"),
@@ -360,8 +360,8 @@ D_ = sec('plans', [("Business Plan guidelines", "《業務計劃指引》"), ("A
 # ---------------------------------------------------------------- E. fit and proper
 E_ = sec('fitproper', [("F&P Guideline", "《適當人選指引》"), ("April 2018", "2018年4月"), ("Supplement", "補充指引"), ("January 2020", "2020年1月")],
          ("Fit and proper: what the Commissioner weighs beyond the statutory list", "適當人選：法定清單以外，關長還會考慮甚麼"),
-    P("The statutory list of matters is on the <a href=\"#p5-fitproper\">Part 5 page</a>. Section 30(4) also lets the Commissioner weigh any other matter he considers relevant, on top of the listed ones. These two guidelines say what that covers: the 2020 Supplement gives examples of such other matters, and the 2018 Guideline lists the factors he takes into account, some of which restate the statutory list. The first table says whom each guideline reaches; the second groups their examples by theme.",
-      "法定的考慮事項清單見<a href=\"#p5-fitproper\">第5部一頁</a>。第30(4)條亦容許關長在清單所列事宜以外，考慮任何其他其認為有關的事宜。這兩份指引說明其涵蓋範圍：2020年補充指引列舉這類其他事宜的例子；2018年指引則列出關長會考慮的因素，其中部分重述法定清單。第一個表說明每份指引適用於誰；第二個表按主題把各例子分組。")
+    P("The statutory list of matters is on the <a href=\"#p5-fitproper\">Part 5 page</a>. Section 30(4) and the Licensing Guide (¶4.3(f)) also require the Commissioner to weigh any other matter he considers relevant, on top of the listed ones. These two guidelines say what that covers: the 2020 Supplement gives examples of such other matters, and the 2018 Guideline lists the factors he takes into account, some of which restate the statutory list. The first table says whom each guideline reaches; the second groups their examples by theme.",
+      "法定的考慮事項清單見<a href=\"#p5-fitproper\">第5部一頁</a>。第30(4)條及《牌照指引》第4.3(f)段亦規定關長須在清單所列事宜以外，考慮任何其他其認為有關的事宜。這兩份指引說明其涵蓋範圍：2020年補充指引列舉這類其他事宜的例子；2018年指引則列出關長會考慮的因素，其中部分重述法定清單。第一個表說明每份指引適用於誰；第二個表按主題把各例子分組。")
     + table([th("", ""), th("Grant", "批給"), th("Renewal", "續期"), th("While licensed", "持牌期間")], [
         tr(rh("Guideline on Criteria for Determining Fitness and Propriety, April 2018", "《有關適當人選準則的指引》（2018年4月）", FPG("4")),
            vd(YES), td("Not mentioned", "沒有提及"),
@@ -480,7 +480,11 @@ F_ = sec('ca', [("CA Guidance Notes", "《能力評核須知》"), ("December 20
            td("Yes, once, when invited after your documents are complete", "須提名一次，於文件齊備後獲邀時提名", LG("5.4")),
            td("Within 30 days of the interview", "會面後30日內"),
            td("One retake after 30 days upon the notification of result; then the application may be refused", "於成績通知發出30日後重考一次；其後申請可被拒絕")),
-        tr(rh("Renewal, whether or not someone already holds a pass", "續牌，不論是否已有人持有合格成績", LG("6.2")),
+        tr(rh("Renewal, while a senior manager still holds a pass", "續牌，而高級管理層仍有人持有合格成績", GN("4.4(ii)")),
+           td("No. The invitation still comes to every licensee, but the pass is a company-based qualification and remains valid",
+              "毋須提名。邀請信仍會發給每名持牌人，但合格成績是以公司為單位取得的資格，仍然有效", cc(LG("6.2"), GN("8.1–8.2")), post=flag()),
+           dash_td(), dash_td()),
+        tr(rh("Renewal, when no senior manager holds a pass any more", "續牌，而高級管理層已無人持有合格成績", cc(GN("4.4(ii)"), LG("6.2"))),
            td("Yes. The invitation comes with the 90-day reminder to every licensee: nominate within 7 days of receiving it, or the renewal application is invalid",
               "須提名。邀請信隨90日提示通知發給每名持牌人：須在接獲邀請信當日起計7日內提名，否則續牌申請即屬無效", LG("6.4(c)"), post=flag()),
            td("Within 30 days of receiving the invitation letter", "接獲邀請信當日起計30日內"),
@@ -547,7 +551,7 @@ F_ = sec('ca', [("CA Guidance Notes", "《能力評核須知》"), ("December 20
     ))
 
 # ---------------------------------------------------------------- G. renewal
-G_ = sec('renewal', [("Licensing Guide", "《牌照指引》"), ("¶6.1–6.4", "第6.1至6.4段"), ("CA Notes ¶4.6", "《能力評核須知》第4.6段")],
+G_ = sec('renewal', [("Licensing Guide", "《牌照指引》"), ("¶6.1–6.4", "第6.1至6.4段"), ("CA Notes ¶4.4(ii), 4.6", "《能力評核須知》第4.4(ii)、4.6段")],
          ("Renewal: the 90-day countdown", "續牌：90日倒數"),
     P("Read the line from left to right, in days before expiry. The key tells your deadlines from C&amp;ED's own steps; the two boxes at the foot are the two ways the countdown can end.",
       "由左至右閱讀時間線，以期滿前日數計算。圖例分辨你的限期與海關的步驟；底部兩個方格是倒數的兩種結局。")
@@ -556,8 +560,8 @@ G_ = sec('renewal', [("Licensing Guide", "《牌照指引》"), ("¶6.1–6.4", 
     + numreq_c([
         (("7 days", "7日"),
          ("Nominate who will sit the Assessment", "提名應考能力評核的人選"),
-         ("From receiving the invitation. It goes to every licensee, with no exception for one whose senior management already holds a pass",
-          "自接獲邀請信當日起計。邀請信發給每名持牌人，高級管理層已有人持有合格成績的持牌人亦不例外", None, flag()),
+         ("From receiving the invitation, which goes to every licensee. You nominate only if no senior manager holds a pass any more: the pass is a company-based qualification",
+          "自接獲邀請信當日起計；邀請信發給每名持牌人。只有在高級管理層已無人持有合格成績時，才須提名：合格成績是以公司為單位取得的資格", GN("4.4(ii), 8.1–8.2"), flag()),
          ("The renewal application is invalid", "續牌申請無效"),
          LG("6.2, 6.4(c)")),
         (("30 days", "30日"),
@@ -643,10 +647,10 @@ I_ = sec('endings', [("Licensing Guide", "《牌照指引》"), ("¶5.10 · ¶7.
       "每一行把關長可拒絕申請的理由，與持牌後的相應情況並列。兩份清單均屬例子，並非詳盡無遺；橫線表示指引沒有就該階段舉例。")
     + table([th("Theme", "主題"), th("Refusing an application", "拒絕申請"), th("Suspending or revoking a licence", "暫時吊銷或撤銷牌照")], [
         tr(rh("Fitness", "適當人選"),
-           td("You, or anyone in your business who must pass it, fail the fit-and-proper test", "你或你業務中須通過判定的人未能通過適當人選判定", LG("5.10(a)")),
-           td("You, a partner, a director or an ultimate owner is no longer fit and proper", "你、任何合夥人、董事或最終擁有人不再是適當人選", LG("7.1(a)"))),
+           td("An individual applicant, a partner, a director or an ultimate owner fails the fit-and-proper test: under the Ordinance no licence can then be granted", "屬個人的申請人、任何合夥人、董事或最終擁有人未能通過適當人選判定：根據條例，此時不能批給牌照", cc(LG("5.10(a)"), "s.30(3)"), post=flag()),
+           td("An individual licensee, a partner, a director or an ultimate owner is no longer fit and proper", "屬個人的持牌人、任何合夥人、董事或最終擁有人不再是適當人選", LG("7.1(a)"))),
         tr(rh("Premises", "處所"),
-           td("The premises are unsuitable, or domestic premises lack every occupant's written consent", "處所不適合，或住宅處所未取得每名佔用人的書面同意", LG("5.10(b)–(c)")),
+           td("The premises are unsuitable, or domestic premises lack every occupant's written consent: under the Ordinance no licence can then be granted", "處所不適合，或住宅處所未取得每名佔用人的書面同意：根據條例，此時不能批給牌照", cc(LG("5.10(b)–(c)"), "s.30(3)(b)"), post=flag()),
            td("An occupant withdraws consent, or a new occupant refuses to give it", "佔用人撤回同意，或新佔用人拒絕給予同意", LG("7.1(b)–(c)"))),
         tr(rh("Local place for storage of books and records", "本地儲存帳目及紀錄地點"),
            td("No information on the local place for storage of books and records", "未有就本地儲存帳目及紀錄地點提交資料", LG("5.10(d)")),
@@ -667,11 +671,11 @@ I_ = sec('endings', [("Licensing Guide", "《牌照指引》"), ("¶5.10 · ¶7.
            dash_td(),
            td("A periodic return filed late; a licence never used for a money service", "逾期遞交定期申報表；從未用於提供金錢服務的牌照", LG("7.1(f)–(g)"), post=flag())),
         tr(rh("The law", "法律"),
-           td("You are exempt from licensing under section 25 anyway", "你根據第25條本已獲豁免領牌", LG("5.10(k)")),
+           td("You are exempt from licensing under section 25, so the Commissioner will not accept your application at all", "你根據第25條獲豁免領牌，關長根本不會接納你的申請", LG("3.1"), post=flag()),
            td("Any failure to comply with the Ordinance, Part 5 included", "未有遵從條例的任何規定，包括第5部", LG("7.1(h)"))),
-    ], note=B("How this list sits beside the Ordinance: section 34(1) itself names only two situations in which the Commissioner may revoke or suspend. One is that he is of the opinion that the licensee, a partner, a director or an ultimate owner is no longer a fit and proper person. The other is that a licensee operating at domestic premises loses consent to entry, because an occupant revokes it or a new occupant refuses to give it. The Licensing Guide's right-hand column is a non-exhaustive list of examples, and it ends by referring to the fit-and-proper guidelines; the Supplementary Guideline says that failing the fit and proper criteria may reflect adversely on fitness and would be a ground for suspension or revocation by virtue of section 34. The statutory rule is on the <a href=\"#p5-losing\">Part 5 page</a>.",
-              "這份清單與條例的關係：第34(1)條本身只列出兩種關長可撤銷或暫時吊銷牌照的情況。一是關長認為持牌人、任何合夥人、董事或最終擁有人不再是適當人選；二是在住宅處所經營金錢服務的持牌人失去准許進入的同意，即佔用人撤銷其書面同意，或新佔用人拒絕給予同意。《牌照指引》右欄所列屬例子，並非詳盡無遺，並在結尾提述適當人選的指引；《補充指引》則指持牌人如未能符合適當人選準則，或會對其適當人選資格造成負面影響，並可構成根據第34條暫時吊銷或撤銷牌照的理由。法定規則見<a href=\"#p5-losing\">第5部一頁</a>。")
-       + ' ' + cite_html(cc("s.34(1)", LG("7.1"), FPS("5"))), minw=820)
+    ], note=B("How this list sits beside the Ordinance: section 34(1) itself names only two situations in which the Commissioner may revoke or suspend. One is that he is of the opinion that an individual licensee, a partner, a director or an ultimate owner is no longer a fit and proper person; a corporate licensee itself is never the one tested, though its own record can count as any other matter he considers relevant. The other is that a licensee operating at domestic premises loses consent to entry, because an occupant revokes it or a new occupant refuses to give it. The Licensing Guide's right-hand column is a non-exhaustive list of examples, and it ends by referring to the fit-and-proper guidelines; the Supplementary Guideline says that failing the fit and proper criteria may reflect adversely on fitness and would be a ground for suspension or revocation by virtue of section 34. The statutory rule is on the <a href=\"#p5-losing\">Part 5 page</a>.",
+              "這份清單與條例的關係：第34(1)條本身只列出兩種關長可撤銷或暫時吊銷牌照的情況。一是關長認為屬個人的持牌人、任何合夥人、董事或最終擁有人不再是適當人選（屬法團的持牌人本身從不受測試，但其本身的紀錄可作為任何其他關長認為有關的事宜而予以考慮）；二是在住宅處所經營金錢服務的持牌人失去准許進入的同意，即佔用人撤銷其書面同意，或新佔用人拒絕給予同意。《牌照指引》右欄所列屬例子，並非詳盡無遺，並在結尾提述適當人選的指引；《補充指引》則指持牌人如未能符合適當人選準則，或會對其適當人選資格造成負面影響，並可構成根據第34條暫時吊銷或撤銷牌照的理由。法定規則見<a href=\"#p5-losing\">第5部一頁</a>。")
+       + ' ' + cite_html(cc("s.34(1)", "s.30(4)", LG("7.1"), FPS("5"))), minw=820)
     + traps(
         trap(("A licence you never use can be taken away", "從不使用的牌照可被撤銷"),
              ("Holding a licence without providing any money service defeats the purpose it was issued for, and the Licensing Guide lists that as a ground for suspension or revocation. The fit-and-proper supplement makes the same point from the other side: nil service for a long time after the grant questions your intention to trade.",

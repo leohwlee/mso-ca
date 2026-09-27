@@ -273,7 +273,7 @@ def fig3():
     ho = Box(290, 240, ("Ms Ho · natural person", "何女士 · 自然人"),
              PARAS_WH, 'ok', answer=True)
     peak = Box(30, 480, ("Peak Holdings Ltd · corporate shareholder", "峰匯控股有限公司 · 法團股東"),
-               [("An intermediate layer, not a beneficial owner itself: a beneficial owner is a natural person. Look through it to the individuals behind it.", "屬中介層，本身並非實益擁有人：實益擁有人是自然人。須穿透至其背後的個人。")], 'faint', "¶4.4.1, 4.4.6, 4.4.13 · s.1 Sch. 2", answer=True)
+               [("An intermediate layer, not a beneficial owner itself: the ownership limb covers only individuals. Look through it to the individuals behind it.", "屬中介層，本身並非實益擁有人：擁有權一項只涵蓋個人。須穿透至其背後的個人。")], 'faint', "¶4.4.1, 4.4.6, 4.4.13 · s.1 Sch. 2", answer=True)
     chan = Box(530, 190, ("Ms Chan", "陳女士"), [("natural person", "自然人"), ("30% direct", "直接持有30%"), ("→ beneficial owner", "→ 實益擁有人")], 'ok', answer=True)
     lee = Box(740, 290, ("Mr Lee · sole director", "李先生 · 唯一董事"),
               [("10%: not a beneficial owner by ownership.", "持有10%："), ("", "以擁有權計並非實益擁有人。"),
@@ -351,12 +351,12 @@ def fig5():
                        ("", "在可行情況下將資金或其他資產以原狀退回；"), ("", "考慮提交可疑交易報告。")],
                       'must', "¶4.7.4", answer=True)),
     ], m)
-    g2 = Box(60, 360, None, [("Verify the identity of the customer and any beneficial owner before or during the transaction.", "在執行交易之前或過程中，核實客戶及任何實益擁有人的身分。")], 'ok', "¶4.7.1 · s.3(1)(b), (1A) Sch. 2", answer=True)
+    g2 = Box(60, 360, None, [("Verify the identity of the customer and any beneficial owner before the transaction is carried out.", "在執行交易之前，核實客戶及任何實益擁有人的身分。")], 'ok', "¶4.2.1(b) · s.3(1)(b), (1A) Sch. 2", answer=True)
     s2 = Box(440, 370, ("No exception", "沒有例外"), [("Verification cannot wait until after an occasional transaction: the delayed-verification exception covers business relationships only.", "非經常交易不可在交易後才核實：延後核實的例外只適用於業務關係。")], 'stop', "s.3(1)(b), (1A), (2) Sch. 2", answer=True)
     t2, low2 = _track(low1 + 24, ("An occasional transaction", "非經常交易"), [g2, s2], [
         (60, [(["first contact"], ["首次接觸"], 'c-sans', 11)]),
         (430, [(["transaction carried out"], ["執行交易"], 'c-sans', 11)]),
     ], m)
-    aria = ("Two timelines. For a business relationship, verification normally happens before or during establishment; exceptionally afterwards on three conditions within a reasonable timeframe, after which the MSO terminates, returns funds and considers an STR. For an occasional transaction there is no exception: verify before or during the transaction.",
-            "兩條時間線。業務關係：一般在建立之前或過程中核實；例外情況下可在合理時限內於其後核實，逾期則終止關係、退回資金並考慮提交可疑交易報告。非經常交易：沒有例外，須在交易之前或過程中核實。")
+    aria = ("Two timelines. For a business relationship, verification normally happens before or during establishment; exceptionally afterwards on three conditions within a reasonable timeframe, after which the MSO terminates, returns funds and considers an STR. For an occasional transaction there is no exception: verify before the transaction.",
+            "兩條時間線。業務關係：一般在建立之前或過程中核實；例外情況下可在合理時限內於其後核實，逾期則終止關係、退回資金並考慮提交可疑交易報告。非經常交易：沒有例外，須在交易之前核實。")
     return svg(W5, low2 + 10, t1 + t2, aria, m, 860)

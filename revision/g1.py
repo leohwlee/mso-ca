@@ -16,6 +16,13 @@ def vd(ch):
     return f'<td class="verdict">{ch}</td>'
 
 
+def only(lang, block):
+    """A callout shown only in one language's view (and in the combined view), for a point
+    that only that language's texts raise. pack_css.css hides .only-en in the Chinese view
+    and .only-tc in the English view."""
+    return block.replace('<div class="trap">', f'<div class="trap only-{lang}">', 1)
+
+
 GLOS = ("Glossary", "詞彙")
 DTOS25 = ("DTROP, OSCO s.25", "《販毒（追討得益）條例》、《有組織及嚴重罪行條例》第25條")
 DISC = ("DTROP, OSCO s.25A · UNATMO s.12, 14", "《販毒（追討得益）條例》、《有組織及嚴重罪行條例》第25A條 · 《聯合國（反恐怖主義措施）條例》第12、14條")
@@ -43,7 +50,7 @@ A = sec('threats', ["¶1.9–1.12", GLOS, "¶6.1"],
            td("The <b>source</b> of the property: the handling of criminal proceeds", "財產的<b>來源</b>：處理犯罪得益", "¶6.1"),
            td("The <b>destination or use</b> of the property, which may have come from legitimate sources", "財產的<b>終點或用途</b>；財產可以是從合法來源取得的", "¶6.1", post=flag()),
            td("The source-or-destination contrast in ¶6.1 is drawn for ML and TF only. For PF, section 4 of WMD(CPS)O prohibits providing services where you believe or suspect, on reasonable grounds, that they may be connected to PF",
-              "第6.1段只就洗錢及恐怖分子資金籌集比較財產的來源與終點。就擴散資金籌集而言，《大規模毀滅武器（提供服務的管制）條例》第4條禁止任何人在基於合理理由相信或懷疑有關服務與擴散資金籌集有關時提供該等服務", cc("¶6.1", "¶1.27"))),
+              "第6.1段只就洗錢及恐怖分子資金籌集比較財產的來源與終點。就擴散資金籌集而言，《大規模毀滅武器（提供服務的管制）條例》第4條禁止任何人在基於合理理由相信或懷疑有關服務可能與擴散資金籌集有關時提供該等服務", cc("¶6.1", "¶1.27", "¶6.10"))),
         tr(rh("Is laundering involved?", "是否涉及清洗資金？"),
            td("By definition. Three common stages, frequently involving numerous transactions: the figure above", "按定義即是。有三個常見階段，經常涉及多宗交易：見上圖", "¶1.10"),
            td("Yes. Terrorists often need to hide their links to their funding, so they too must find ways to launder funds, whether the source is legitimate or illegitimate, to use them without attracting the authorities' attention",
@@ -116,8 +123,8 @@ C_ = sec('laws', ["¶1.14–1.21", "¶1.26–1.27"],
            td("United Nations Sanctions Ordinance (UNSO)", "《聯合國制裁條例》"),
            td("537", "第537章", cls='pen'),
            td("Provides for sanctions against persons and against places outside the People's Republic of China, arising from Chapter 7 of the Charter of the United Nations. Most UNSCRs are implemented in Hong Kong under it",
-              "就《聯合國憲章》第七章所引起而對中華人民共和國以外地方施加制裁而訂定條文。在香港，大部分聯合國安理會決議均根據該條例實施",
-              "¶1.26", post=flag())),
+              "就《聯合國憲章》第七章所引起而對人士及對中華人民共和國以外地方施加制裁而訂定條文。在香港，大部分聯合國安理會決議均根據該條例實施",
+              cc("¶1.26", "¶6.7"), post=flag())),
         tr(rh("Weapons of mass destruction", "大規模毀滅武器"),
            td("Weapons of Mass Destruction (Control of Provision of Services) Ordinance (WMD(CPS)O)", "《大規模毀滅武器（提供服務的管制）條例》"),
            td("526", "第526章", cls='pen'),
@@ -131,6 +138,9 @@ C_ = sec('laws', ["¶1.14–1.21", "¶1.26–1.27"],
         trap(("UNATMO is about terrorism; UNSO carries most UN sanctions", "《聯合國（反恐怖主義措施）條例》關乎恐怖主義；大部分聯合國制裁經《聯合國制裁條例》實施"), None, cc("¶1.21", "¶1.26"),
              vs=[(("UNATMO, Cap. 575", "《聯合國（反恐怖主義措施）條例》，第575章"), ("Security Council decisions against financing terrorist acts and foreign terrorist fighters, and the pressing FATF TF Recommendations.", "安理會有關防止向恐怖主義行為提供資金及外國恐怖主義戰鬥人員的決定，以及特別組織較具逼切性的相關建議。")),
                  (("UNSO, Cap. 537", "《聯合國制裁條例》，第537章"), ("Sanctions arising from Chapter 7 of the UN Charter. Most Security Council resolutions are implemented under this one.", "因《聯合國憲章》第七章而施加的制裁。大部分安理會決議均根據此條例實施。"))]),
+        only('tc', trap(("", "《聯合國制裁條例》：制裁對象包括人士，不只是地方"),
+             ("", "指引第1.26段寫該條例「就《聯合國憲章》第七章所引起而對中華人民共和國以外地方施加制裁而訂定條文」，只提地方；但同一指引第6.7段指出，該條例授權行政長官訂立規例以執行安理會所決定的制裁，包括對若干人士及實體實施針對性金融制裁。故該條例的制裁對象是人士及中華人民共和國以外地方。"),
+             cc("¶1.26", "¶6.7"))),
         trap(("526, 537, 575: three chapter numbers in a row", "526、537、575：三個相近的章號"),
              ("Weapons of mass destruction is Cap. 526, UN sanctions Cap. 537, anti-terrorism Cap. 575. The two crime-proceeds ordinances are DTROP Cap. 405 and OSCO Cap. 455, and the AMLO is Cap. 615.",
               "大規模毀滅武器為第526章，聯合國制裁為第537章，反恐怖主義措施為第575章。兩條關於犯罪得益的條例是《販毒（追討得益）條例》第405章及《有組織及嚴重罪行條例》第455章；打擊洗錢條例是第615章。"),
@@ -173,12 +183,15 @@ D_ = sec('offences', ["¶1.22–1.25", "¶1.27", "¶1.16–1.17", "¶7.6", "¶7.
          cc("¶1.25", "¶7.6", DISC)),
     ], minw=860)
     + traps(
-        trap(("Four offences, four different states of mind", "四項罪行，四種不同的心態要求"), None, cc("¶1.22", "¶1.24–1.25", "¶1.27", WMD4),
+        trap(("Four offences, four different states of mind", "四項罪行，四種不同的心態要求"), None, cc("¶1.22", "¶1.24–1.25", "¶1.27", "¶6.10", WMD4),
              vs=[(("Dealing", "處理得益"), ("Knowing, or having reasonable grounds to believe, that the property is proceeds.", "知道或有合理理由相信該財產是得益。")),
                  (("Failure to disclose", "未有披露"), ("Knowledge or suspicion that the property is proceeds or terrorist property.", "知悉或懷疑該財產是得益或恐怖分子財產。")),
                  (("Tipping off", "通風報訊"), ("Knowing or suspecting that a disclosure has been made.", "知道或懷疑已曾作出披露。")),
                  (("Providing services (PF)", "提供服務（擴散資金籌集）"), ("Believing or suspecting, on reasonable grounds, that the services may be connected to PF. Services are widely defined and include lending money or other financial assistance. Chapter 1 gives no penalty.",
-                                                                      "基於合理理由相信或懷疑該等服務與擴散資金籌集有關。提供服務的定義廣泛，包括借出款項或以其他方式提供財政資助。指引第1章沒有列明刑罰。"))]),
+                                                                      "基於合理理由相信或懷疑該等服務可能與擴散資金籌集有關。提供服務的定義廣泛，包括借出款項或以其他方式提供財政資助。指引第1章沒有列明刑罰。"))]),
+        only('tc', trap(("", "提供服務：基於合理理由相信或懷疑「可能」與擴散資金籌集有關，已足夠"),
+             ("", "指引第1.27段寫第4條禁止某人提供任何服務予他人，「如該人基於合理理由相信或懷疑該等服務與擴散資金籌集有關」；但同一指引第6.10段寫該條禁止任何人提供任何基於合理理由相信或懷疑「可能」與擴散資金籌集有關的服務。故只要基於合理理由相信或懷疑服務可能與擴散資金籌集有關，禁令即適用。"),
+             cc("¶1.27", "¶6.10"))),
         trap(("3 months or 3 years; a sum or just 'a fine'", "3個月還是3年；列明金額還是只寫「罰款」"), None, cc("¶1.22–1.25"),
              vs=[(("Stated in full", "列明金額"), ("Dealing: 14 years and $5 million. Failure to disclose: 3 months and $50,000.", "處理得益：監禁14年及罰款五百萬元。未有披露：監禁3個月及罰款50,000元。")),
                  (("Prison term and 'a fine'", "監禁及「罰款」"), ("The UNATMO terrorist financing offences: 14 years and a fine. Tipping off: 3 years and a fine.", "《聯合國（反恐怖主義措施）條例》的恐怖分子資金籌集罪行：監禁14年及罰款。通風報訊：監禁3年及罰款。"))]),

@@ -116,8 +116,8 @@ STEPS = [
      "1 · 書面確認同意擔任你的中介人，並列明執行哪些盡職審查措施", "s.18(1)(a) Sch. 2 · ¶4.11.3(a)"),
     ('in', "2 · Immediately after each measure: the data and information it obtained (copies of the documents need not come at the same time)",
      "2 · 每項措施執行後，立刻取得中介人所得的數據或資料（毋須同時取得文件複本）", "s.18(4)(a) Sch. 2 · ¶4.11.4"),
-    ('in', "3 · On request, without delay: a copy of any document, or a record of any data or information, it obtained",
-     "3 · 應要求沒有延誤地提供所取得的任何文件的複本，或數據或資料的紀錄", "s.18(1)(b) Sch. 2 · ¶4.11.3(b)"),
+    ('in', "3 · On request, a copy of any document, or a record of any data or information, it obtained. Before relying, be satisfied it will come without delay; while relying, ensure it comes as soon as reasonably practicable after each request",
+     "3 · 應要求提供所取得的任何文件的複本，或數據或資料的紀錄。依賴前，你須信納中介人會沒有延誤地提供；依賴期間，須確保中介人在接獲要求後，在合理地切實可行的範圍內盡快提供", "s.18(1)(b), (4)(b) Sch. 2 · ¶4.11.3(b), 4.11.5"),
     ('in', "4 · Its undertakings: keep all the underlying CDD information for the whole relationship and at least 5 years after it ends (or as the CCE specifies); hand over copies of all of it if it is about to cease trading or stops acting for you",
      "4 · 中介人的承諾：在業務關係持續期間及終止後至少5年內（或直至關長指明的時間）備存所有相關盡職審查資料；即將結業或不再代你行事時，提供全部資料的複本",
      "¶4.11.5 · s.18(4)(b) Sch. 2"),
@@ -172,6 +172,6 @@ def fig8():
     end = y + 4
     b.append(f'<line class="e e-dash" x1="{xi}" y1="{hy + hh:.0f}" x2="{xi}" y2="{end:.0f}"/>')
     b.append(f'<line class="e e-dash" x1="{xm}" y1="{hy + hh:.0f}" x2="{xm}" y2="{end:.0f}"/>')
-    aria = ("Sequence when relying on an intermediary: the customer usually already has its own relationship with the intermediary and will also become the MSO's customer. The intermediary gives written confirmation, then the data immediately after each measure, copies on request without delay, and undertakings to keep records at least five years after the relationship ends and to hand them over if it stops acting. The MSO sample-tests the arrangement, obtains everything immediately if it ends the arrangement, and remains ultimately responsible.",
-            "依賴中介人的次序：客戶通常已與中介人有本身的業務關係，並將成為金錢服務經營者的客戶。中介人提供書面確認、每項措施後立刻提供數據、應要求沒有延誤地提供複本，並承諾在業務關係終止後備存紀錄至少5年及在不再代行時交出全部資料。金錢服務經營者不時抽樣測試，終止安排時立即取得全部資料，並承擔最終責任。")
+    aria = ("Sequence when relying on an intermediary: the customer usually already has its own relationship with the intermediary and will also become the MSO's customer. The intermediary gives written confirmation, then the data immediately after each measure, copies on request (before relying, the MSO must be satisfied they will come without delay; while relying, it must ensure they come as soon as reasonably practicable after a request), and undertakings to keep records at least five years after the relationship ends and to hand them over if it stops acting. The MSO sample-tests the arrangement, obtains everything immediately if it ends the arrangement, and remains ultimately responsible.",
+            "依賴中介人的次序：客戶通常已與中介人有本身的業務關係，並將成為金錢服務經營者的客戶。中介人提供書面確認、每項措施後立刻提供數據、應要求提供複本（依賴前須信納會沒有延誤地提供；依賴期間須確保在接獲要求後，在合理地切實可行的範圍內盡快提供），並承諾在業務關係終止後備存紀錄至少5年及在不再代行時交出全部資料。金錢服務經營者不時抽樣測試，終止安排時立即取得全部資料，並承擔最終責任。")
     return svg(W, end + 12, ''.join(b + labels), aria, m, 860)

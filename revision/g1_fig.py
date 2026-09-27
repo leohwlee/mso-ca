@@ -129,7 +129,7 @@ def fig_offences():
               ("You knew or suspected, and did not disclose as soon as it was reasonable. Up to 3\u00a0months and $50,000",
                "你知悉或懷疑，卻未能在合理範圍內盡快作出披露。最高可判監禁3個月及罰款50,000元"),
               'stop', "¶1.24", answer=True)
-    C2 = Card(668, 300, ("Then say nothing that could prejudice an investigation", "其後不可洩露任何可能損害調查的事宜"),
+    C2 = Card(668, 300, ("Then say nothing likely to prejudice an investigation", "其後不可披露相當可能損害調查的事宜"),
               ("Knowing or suspecting that a disclosure has been made, whoever made it, disclose to no one anything likely to prejudice an investigation that might follow",
                "知道或懷疑已曾作出披露，不論披露由誰作出，都不可向任何人披露相當可能損害其後調查的事宜"),
               'must', "¶1.25")
@@ -198,8 +198,8 @@ def fig_status():
     b.append(edge([T.bottom, (T.cx, jy), (M.cx, jy), M.top], mid=m))
     b.append(edge([(T.cx, jy), (L.cx, jy), L.top], mid=m))
     b.append(edge([(F.cx, jy), F.top], mid=m))
-    aria = ("What follows when a requirement the Guideline states with must or should is not met. The Guideline is published by the CCE under section 7 of the AMLO and enforced through the AMLO. The MSO may face disciplinary and other actions under the AMLO. Non-compliance may also reflect adversely on the fitness and properness of its sole proprietor, partner, director and ultimate owner, where applicable. Failing to comply does not by itself make anyone liable to proceedings, but in AMLO court proceedings the Guideline is admissible in evidence and the court must take any relevant provision into account, and the Commissioner must have regard to it when considering a Schedule 2 contravention, as the Part 2 page explains.",
-            "未有遵守指引以「須」或「應」表述的規定時的後果。指引由海關關長根據打擊洗錢條例第7條公布，並按照該條例強制執行。金錢服務經營者或會面對根據條例採取的紀律行動及其他行動。金錢服務經營者不遵從指引，將對其獨資經營者、合夥人、董事和最終擁有人（如適用）作為適當人選帶有負面影響。沒有遵守指引本身不會令人被起訴，但在根據打擊洗錢條例於法院進行的法律程序中，指引可獲接納為證據，法院須考慮攸關的指引條文，關長在考慮有否違反附表2時亦須顧及指引，詳見第2部一頁。")
+    aria = ("What follows when a requirement the Guideline states with must or should is not met. The Guideline is published by the CCE under section 7 of the AMLO and enforced through the AMLO. The MSO may face disciplinary and other actions under the AMLO for not complying with the relevant requirements. Non-compliance may also reflect adversely on the fitness and properness of its sole proprietor, partner, director and ultimate owner, where applicable. Failing to comply does not by itself make anyone liable to proceedings, but in AMLO court proceedings the Guideline is admissible in evidence and the court must take any relevant provision into account, and the Commissioner must have regard to it when considering a Schedule 2 contravention, as the Part 2 page explains.",
+            "未有遵守指引以「須」或「應」表述的規定時的後果。指引由海關關長根據打擊洗錢條例第7條公布，並按照該條例強制執行。金錢服務經營者或會因沒有遵守相關規定而面對根據條例採取的紀律行動及其他行動。金錢服務經營者不遵從指引，將對其獨資經營者、合夥人、董事和最終擁有人（如適用）作為適當人選帶有負面影響。沒有遵守指引本身不會令人被起訴，但在根據打擊洗錢條例於法院進行的法律程序中，指引可獲接納為證據，法院須考慮攸關的指引條文，關長在考慮有否違反附表2時亦須顧及指引，詳見第2部一頁。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 

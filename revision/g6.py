@@ -25,6 +25,13 @@ def vd(ch):
     return f'<td class="verdict">{ch}</td>'
 
 
+def only(lang, block):
+    """A callout shown only in one language's view (and in the combined view), for a point
+    that only that language's texts raise. pack_css.css hides .only-en in the Chinese view
+    and .only-tc in the English view."""
+    return block.replace('<div class="trap">', f'<div class="trap only-{lang}">', 1)
+
+
 UNSO = ("UNSO", "《聯合國制裁條例》")
 WMD4 = ("WMD(CPS)O s.4", "《大規模毀滅武器（提供服務的管制）條例》第4條")
 Q24 = ("FAQ Q24", "常見問題第24問")
@@ -110,7 +117,7 @@ PRO = sec('prohibited', ["¶6.5", "¶6.7", "¶6.10", "fn 56", "fn 57"],
            td("Prohibits providing or collecting property to finance a person's travel between states for a specified purpose: perpetrating, planning, preparing or taking part in terrorist acts, or giving or receiving training connected with them",
               "禁止提供或籌集財產，以資助某人為指明目的進行往來國家之間的旅程，即作出、籌劃、籌備或參與恐怖主義行為，或提供或接受與此有關連的培訓"),
            td("With the intention, <b>or</b> knowing, that the travel is for that purpose: either state of mind is enough; and <b>even if no terrorist act occurs</b>",
-              "在<b>懷有意圖及知悉</b>的情況下；<b>即使實際上沒有恐怖主義行為發生</b>", post=flag())),
+              "在<b>懷有意圖或知悉</b>該旅程是為指明目的的情況下，兩者其一即可；<b>即使實際上沒有恐怖主義行為發生</b>", cc("¶6.5(e)", "¶1.11(a)"), post=flag())),
     ], minw=820)
     + h3("UNSO: whom the offence reaches", "《聯合國制裁條例》：罪行涵蓋的對象")
     + P("Except under the authority of a licence granted by the Chief Executive, each of the following is an offence. In the table, 'funds' stands for funds, other financial assets or economic resources, and making them available covers doing so directly or indirectly, to the person or for their benefit.",
@@ -142,6 +149,9 @@ PRO = sec('prohibited', ["¶6.5", "¶6.7", "¶6.10", "fn 56", "fn 57"],
              ("Dealing with property is caught when you know it is specified terrorist property, or property of a specified terrorist or terrorist associate. You do not have to know: being reckless as to whether it is such property is enough.",
               "如你知道財產屬指明的恐怖分子財產，或屬指明的恐怖分子或與恐怖分子有聯繫者的財產，處理該財產即受禁制。毋須確實知道：罔顧其是否屬該等財產已足夠。"),
              cc("¶6.5(d)", UA("8A"))),
+        only('tc', trap(("", "資助恐怖分子旅程：懷有意圖或知悉，其一即可"),
+             ("", "指引第6.5(e)段寫第11L條禁止任何人「在懷有意圖及知悉的情況下」提供或籌集財產，以資助某人為指明目的而進行往來國家之間的旅程；但同一指引第1.11(a)段引述《打擊洗錢條例》附表1第1部第1條界定「恐怖分子資金籌集」時，是以「或」連接「懷有…意圖」與「知道」。故資助恐怖分子旅程，懷有意圖或知悉其中一項即已足夠。"),
+             cc("¶6.5(e)", "¶1.11(a)"))),
         trap(("Two routes against proliferation financing", "打擊擴散資金籌集的兩條途徑"), None, "¶6.10",
              vs=[(("UNSO regulations for the DPRK and Iran", "《聯合國制裁條例》下針對朝鮮及伊朗的規例"), ("List-based: the question is whether the person is designated.", "以名單為本：問題在於對方是否被指認。")),
                  (("WMD(CPS)O section 4", "《大規模毀滅武器（提供服務的管制）條例》第4條"), ("Belief-based: any service you believe or suspect, on reasonable grounds, may be connected to PF. Lending money counts.", "以判斷為本：凡你基於合理理由相信或懷疑可能與擴散資金籌集有關的服務，均受禁制。借出款項亦包括在內。"))]),

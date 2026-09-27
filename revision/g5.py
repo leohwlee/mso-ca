@@ -135,8 +135,9 @@ D_ = sec('unusual', ["¶5.10–5.14", "fn 55", ("Circular 20 Jan 2026", "2026年
     + fig(fig_unusual, ("The alert box comes from the C&amp;ED circular of 20 January 2026; what else it expects before an alert is closed is on the <a href=\"#ci-tbml\">Circulars page</a>. What counts as tipping off, and the offence behind it, is on the <a href=\"#g7-duty\">Guideline Chapter 7 page</a>.",
                         "警報一格出自海關2026年1月20日的通函；消除警報前的其他要求，見<a href=\"#ci-tbml\">通函一頁</a>。何謂通風報訊及有關罪行，見<a href=\"#g7-duty\">指引第7章</a>。"), UNUSUAL_KEY)
     + traps(
-        # ¶5.10 joins its two situations with 'or' in the English text and 及 in the Chinese:
-        # the English view keeps the whole callout, the Chinese view only the point about (b)
+        # ¶5.10: either situation alone calls for the steps, in both views (owner's call E6). The
+        # Chinese text of ¶5.10 joins the two with 'and' where its ¶7.3 says 'or' for the same two,
+        # so the Chinese callout rests on ¶7.3 and flags that 'and' as easy to confuse
         only('en', trap(("Either situation is enough; the second needs both halves", ""), None,
              cc("¶5.10", "s.5(1)(b), (c) Sch. 2"),
              vs=[(("Between the two situations: or", ""),
@@ -145,9 +146,13 @@ D_ = sec('unusual', ["¶5.10–5.14", "fn 55", ("Circular 20 Jan 2026", "2026年
                  (("Inside the second situation: and", ""),
                   ("The transaction must be complex, unusually large in amount or of an unusual pattern, and also have no apparent economic or lawful purpose. A large transaction with an evident lawful purpose does not meet it on size alone, though it can still meet the first situation if it does not fit what you know of the customer.",
                    ""))])),
-        only('tc', trap(("", "第二種情況須同時符合兩部分"),
-             ("", "交易須屬複雜、款額大得異乎尋常或進行模式異乎尋常，並且沒有明顯經濟或合法目的。款額龐大但有明顯合法目的之交易，單憑金額並不符合此情況。"),
-             cc("¶5.10(b)", "s.5(1)(c) Sch. 2"))),
+        only('tc', trap(("", "任何一種情況已足夠；第二種情況須同時符合兩部分"),
+             ("", "第5.10段以「及」連接兩種情況，但第7.3段就同樣的兩種情況寫「或」：交易不符合對該客戶的認知或異乎尋常，便應採取適當步驟進一步審查。"),
+             cc("¶5.10", "¶7.3", "s.5(1)(b), (c) Sch. 2"),
+             [(("", "兩種情況之間：或"),
+               ("", "交易不符合你對該客戶的認知，或交易屬複雜或異乎尋常而並無明顯經濟或合法目的：任何一種情況本身，已應採取步驟識辨有否懷疑的理由。兩者背後的法定責任，即附表2第5(1)(b)及(c)條，是持續監察業務關係的兩項獨立措施。")),
+              (("", "第二種情況之內：及"),
+               ("", "交易須屬複雜、款額大得異乎尋常或進行模式異乎尋常，並且沒有明顯經濟或合法目的。款額龐大但有明顯合法目的之交易，單憑金額並不符合此情況；但如不符合你對該客戶的認知，仍可符合第一種情況。"))])),
     )
     + traps(
         trap(("An STR is not only for a failed explanation", "可疑交易報告不只在未能取得解釋時才提交"), None, "¶5.12",
