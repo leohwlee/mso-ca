@@ -11638,7 +11638,7 @@
     "It must perform a similar function or regulate financial services there, subject to adequate secrecy",
     "It must be a member state of the FATF and have a mutual legal assistance treaty in force with Hong Kong",
     "It must give a written undertaking never to disclose the information onwards to any third party at all",
-    "It must be located in a jurisdiction that does not appear on any FATF monitoring or grey list at all"
+    "It must be located in a jurisdiction that is not on the FATF's list of jurisdictions under increased monitoring"
    ],
    "explain": "Section 76D(1)(i) requires the relevant authority to be satisfied the authority or regulatory organization outside Hong Kong performs a similar function or regulates relevant financial or professional services in its own jurisdiction, and is subject to adequate secrecy provisions there — FATF membership, an MLA treaty, a written non-onward-disclosure undertaking, and absence from a monitoring list are none of them the statutory test."
   },
@@ -11648,7 +11648,7 @@
     "須執行類似職能或規管有關金融服務，並受充分保密條文規限",
     "須為財務行動特別組織成員，並與香港訂有生效的司法互助協定",
     "須以書面承諾永不將該等資料轉披露予任何其他一方",
-    "須位於並非列於任何財務行動特別組織監察或灰名單的司法管轄區"
+    "須位於並非被財務行動特別組織列為被加強監察的司法管轄區"
    ],
    "explain": "第76D(1)(i)條要求有關當局信納該主管當局或該機構在其本身的司法管轄區執行類似職能或規管有關金融或專業服務，並在當地受充分的保密條文規限——財務行動特別組織成員資格、司法互助協定、書面不轉披露承諾，或不在監察名單之列，均非法定測試。"
   }
@@ -16046,11 +16046,11 @@
   "en": {
    "q": "Under section 9 of Schedule 2 to the AMLO, which of the following statements about the special requirements that apply when a customer has not been physically present for identification purposes are correct?",
    "statements": [
-    "In each of the situations to which section 9 applies, the institution must carry out at least one of the measures listed in section 9(1) of Schedule 2.",
-    "One listed measure is further verifying the customer's identity on the basis of documents or data referred to in section 2(1)(a) or (ab) not previously used to verify that identity.",
-    "The payment-routing measure requires that every payment in relation to the customer's account, not merely the first, be carried out through an account opened in the customer's name.",
+    "Where section 9(1) applies because a customer has not been physically present for identification purposes, the institution must carry out at least one of the measures it lists.",
+    "One listed measure is further verifying the customer's identity on the basis of documents, data or information referred to in section 2(1)(a) or (ab) not previously used to verify that identity.",
+    "Section 9(1)(c) requires that every payment in relation to the customer's account, not merely the first, be carried out through an account opened in the customer's name.",
     "Taking supplementary measures to verify information relating to the customer that the institution has already obtained is not one of the measures listed in section 9(1).",
-    "Section 9(1) does not apply where the institution has carried out the section 2(1)(a) or (ab) measure on the basis of data provided by a recognized digital identification system."
+    "Section 9(1) does not apply where the institution has carried out the section 2(1)(a) or (ab) measure on the basis of data or information provided by a recognized digital identification system."
    ],
    "options": [
     "1, 2 and 3",
@@ -16062,13 +16062,13 @@
    "explain": "Statements 3 and 4 are false. Statement 3 is false because section 9(1)(c) requires the payment or, if there is more than one payment, the first payment made in relation to the customer's account to be carried out through an account opened in the customer's name with an authorized institution or a qualifying institution in an equivalent jurisdiction; it does not extend to every payment. Statement 4 is false because section 9(1)(b) expressly lists taking supplementary measures to verify information relating to the customer that has been obtained by the institution as one of the measures. Statements 1, 2 and 5 are correct: section 9(1) requires at least one of the listed measures; section 9(1)(a) is further verification on the basis of section 2(1)(a) or (ab) documents, data or information not previously used for verification under that section; and section 9(2) disapplies section 9(1) where the institution carried out the section 2(1)(a) or (ab) measure on the basis of data or information provided by a recognized digital identification system."
   },
   "tc": {
-   "q": "根據《打擊洗錢條例》附表2第9條，關於客戶不曾為身分識別的目的而現身時適用的特別規定，下列哪些陳述正確？",
+   "q": "根據《打擊洗錢條例》附表2第9條，關於客戶沒有為身分識別的目的而現身時適用的特別規定，下列哪些陳述正確？",
    "statements": [
-    "在第9條適用的每一種情況下，機構均須執行第9(1)條所列的其中最少一項措施。",
-    "其中一項所列措施，是以第2(1)(a)或(ab)條提述但不曾用於核實身分的文件或數據為據，進一步核實該客戶身分。",
-    "付款途徑措施規定，就該客戶戶口作出的首筆付款，須經由以該客戶配偶名義開設的戶口進行。",
+    "凡因客戶不曾為身分識別的目的而現身以致第9(1)條適用，機構均須執行該條所列的其中最少一項措施。",
+    "其中一項所列措施，是以第2(1)(a)或(ab)條提述但不曾用於核實身分的文件、數據或資料為基礎，進一步核實該客戶身分。",
+    "第9(1)(c)條規定，就該客戶的戶口作出的每一次付款（而不只是第一次的付款），均須經由以該客戶的名義開設的戶口進行。",
     "採取增補措施以核實機構此前已取得的、關乎該客戶的各項資料，並不屬第9(1)條所列的措施。",
-    "如機構已以認可數碼識別系統提供的數據為據，就該客戶執行第2(1)(a)或(ab)條的措施，則第9(1)條不適用。"
+    "如機構已以認可數碼識別系統提供的數據或資料為基礎，就該客戶執行第2(1)(a)或(ab)條的措施，則第9(1)條不適用。"
    ],
    "options": [
     "1、2 及 3",
@@ -16077,7 +16077,7 @@
     "1、2 及 5",
     "3、4 及 5"
    ],
-   "explain": "陳述3 及 4 不正確。陳述3 不正確，因為第9(1)(c)條規定的是就該客戶的戶口作出的付款（如有多於一次的付款作出，則指第一次的付款）須經由以該客戶的名義在認可機構或合資格的對等司法管轄區機構開設的戶口進行，而非以該客戶配偶名義開設的戶口。陳述4 不正確，因為第9(1)(b)條明文將採取增補措施以核實機構已取得的、關乎該客戶的資料列為其中一項措施。陳述1、2 及 5 正確：第9(1)條規定須執行所列的最少一項措施；第9(1)(a)條是以第2(1)(a)或(ab)條提述的但不曾用於根據該條核實身分的文件、數據或資料為基礎，進一步核實客戶的身分；第9(2)條則訂明，如機構已以認可數碼識別系統所提供的數據或資料為基礎執行第2(1)(a)或(ab)條提述的措施，第9(1)條不適用。"
+   "explain": "陳述3 及 4 不正確。陳述3 不正確，因為第9(1)(c)條規定的是就該客戶的戶口作出的付款（如有多於一次的付款作出，則指第一次的付款）須經由以該客戶的名義在認可機構或合資格的對等司法管轄區機構開設的戶口進行，而非每一次付款。陳述4 不正確，因為第9(1)(b)條明文將採取增補措施以核實機構已取得的、關乎該客戶的資料列為其中一項措施。陳述1、2 及 5 正確：第9(1)條規定須執行所列的最少一項措施；第9(1)(a)條是以第2(1)(a)或(ab)條提述的但不曾用於根據該條核實身分的文件、數據或資料為基礎，進一步核實客戶的身分；第9(2)條則訂明，如機構已以認可數碼識別系統所提供的數據或資料為基礎執行第2(1)(a)或(ab)條提述的措施，第9(1)條不適用。"
   },
   "format": "combination"
  },
@@ -25444,28 +25444,28 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Licensing Guide (May 2026) §3.7–3.9",
-   "tc": "《牌照指引》（2026年5月）第3.7至3.9段"
+   "en": "Licensing Guide (May 2026) §3.7",
+   "tc": "《牌照指引》（2026年5月）第3.7段"
   },
   "en": {
    "q": "How does the Licensing Guide define an SVF licensee?",
    "options": [
-    "A person who is granted a licence under section 8F of Cap. 584, the SVF Ordinance",
-    "A person granted a licence under section 2A of the Payment Systems and Stored Value Facilities Ordinance",
+    "A person granted a licence under section 8F of the Payment Systems and Stored Value Facilities Ordinance",
+    "A money service operator licensed by the CCE that also issues stored value facilities",
     "Any issuer of a stored value facility in Hong Kong, whether or not the issuer is licensed",
     "Any person licensed by the Monetary Authority for any purpose whatsoever, whether or not under Cap. 584"
    ],
-   "explain": "Paragraph 3.7 states that an SVF licensee means a person granted a licence under section 8F of the Payment Systems and Stored Value Facilities Ordinance, Cap. 584. The distractors misstate the section number (section 2A defines stored value facility, not the licensee), drop the licensing requirement entirely, and misstate the licensing body's scope."
+   "explain": "Paragraph 3.7 states that an SVF licensee means a person granted a licence under section 8F of the Payment Systems and Stored Value Facilities Ordinance, Cap. 584. A money service operator licensed by the CCE holds a different licence, under the AMLO; the other distractors drop the licensing requirement entirely or misstate the licensing body's scope."
   },
   "tc": {
-   "q": "《牌照指引》如何界定儲值支付工具持牌人？",
+   "q": "《牌照指引》如何界定工具持牌人？",
    "options": [
-    "根據第584章《儲值支付工具條例》第8F條獲批給牌照的人",
-    "根據《支付系統及儲值支付工具條例》第2A條獲批給牌照的人",
+    "根據《支付系統及儲值支付工具條例》第8F條獲批給牌照的人",
+    "獲海關關長發牌並兼發行儲值支付工具的金錢服務經營者",
     "在香港發行儲值支付工具的任何人，不論該人是否持牌",
-    "獲金融管理專員就第584章下為任何目的而發牌的任何人"
+    "任何獲金融管理專員發牌的人，不論是否根據第584章"
    ],
-   "explain": "第3.7段訂明儲值支付工具持牌人指根據《支付系統及儲值支付工具條例》（第584章）第8F條獲批給牌照的人。三個錯誤答案分別誤引條文編號（第2A條界定的是儲值支付工具，而非持牌人）、完全略去持牌規定，以及誤述發牌機構的權限範圍。"
+   "explain": "第3.7段訂明工具持牌人指根據第584章《支付系統及儲值支付工具條例》第8F條獲批給牌照的人。獲海關關長發牌的金錢服務經營者持有的是另一種牌照，根據《打擊洗錢條例》批給；其餘錯誤答案則完全略去持牌規定，或誤述發牌機構的權限範圍。"
   }
  },
  {
@@ -29506,7 +29506,7 @@
    "q": "If the eligible persons of a licence applicant fail the Assessment, when may they re-take it?",
    "options": [
     "After 30 days upon notification of the result",
-    "Immediately, at the next available session (s.4.5)",
+    "Immediately, at the next available session",
     "After 90 days upon notification of the result",
     "Only at the time of the next renewal cycle"
    ],
@@ -36622,11 +36622,11 @@
    "q": "下列何者獲舉為核實信託身分的文件例子？",
    "options": [
     "由已覆核相關信託文書的律師簽發的書面確認書",
-    "以該信託名義發出、載有帳戶結餘的銀行結單，經公證",
+    "以該信託名義發出、載有帳戶結餘的銀行結單",
     "列明該信託現時投資組合及其市值的清單",
-    "該信託任何受益人確認其應得權益的來信"
+    "該信託任何受益人確認其應得權益的來信，經公證"
    ],
-   "explain": "第4.3.12段所舉例子包括：信託契據或類似文書；成立信託的相關國家的合適登記冊記錄；由以專業身分行事的受託人簽發的書面確認書；由已覆核相關文書的律師簽發的書面確認書；或由與該經營者同屬一個金融集團的信託公司簽發的書面確認書（如有關信託由該信託公司管理）。銀行結單、投資清單及受益人的來信，均不在這些例子之列。"
+   "explain": "第4.3.12段所舉例子包括：信託契據或類似文書；成立信託的相關國家的合適登記冊記錄；由以專業身分行事的受託人簽發的書面確認書；由已覆核相關文書的律師簽發的書面確認書；或由與金錢服務經營者同屬一個金融集團的信託公司簽發的書面確認書（如有關信託由該信託公司管理）。銀行結單、投資清單及受益人的來信，均不在這些例子之列。"
   }
  },
  {
@@ -37483,9 +37483,9 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.4.12段"
   },
   "en": {
-   "q": "Where a trust beneficiary is designated by characteristics or by class, what must the MSO obtain?",
+   "q": "Where a trust beneficiary is designated by characteristics or by class, what should the MSO obtain?",
    "options": [
-    "Sufficient information to establish the beneficiary's identity at payout or when rights vest",
+    "Sufficient information to establish identity at payout or when vested rights are to be exercised",
     "The full identification details of every conceivable beneficiary, obtained immediately",
     "A court order formally naming each and every one of the beneficiaries of the class",
     "Nothing further at this stage, since the class of beneficiaries is not yet ascertained"
@@ -37493,14 +37493,14 @@
    "explain": "¶4.4.12 states that for a beneficiary of a trust designated by characteristics or by class, an MSO should obtain sufficient information concerning the beneficiary to satisfy itself that it will be able to establish the beneficiary's identity at the time of payout or when the beneficiary intends to exercise vested rights — footnote 29 gives ascertaining and naming the scope of the class as an example; full details up front, a court order, and doing nothing at all are all incorrect."
   },
   "tc": {
-   "q": "如信託受益人是以特徵或類別指定，該經營者須取得甚麼？",
+   "q": "如信託以特徵或類別方式指定受益人，金錢服務經營者應索取甚麼？",
    "options": [
-    "充分資料，以確定受益人於派款或行使權利時的身分",
+    "足夠資料，以在付款或受益人擬行使權益時確立其身分",
     "即時取得每名可能受益人的完整身分識別詳情",
     "一份正式列明該類別每名受益人的法院命令",
     "現階段無須再取得任何資料，因該類別尚未確定"
    ],
-   "explain": "第4.4.12段訂明，如信託受益人是以特徵或類別指定，該經營者應取得關於該受益人的充分資料，以令其信納能在派款時或該受益人擬行使既得權利時確定該受益人的身分；註腳29以確定並列明該類受益人的範圍為例；即時取得完整詳情、取得法院命令，或完全不再取得資料，均非正確做法。"
+   "explain": "第4.4.12段訂明，如信託以特徵或類別方式指定受益人，金錢服務經營者應就該受益人索取足夠資料，讓其信納可以在付款時，或受益人擬行使歸屬於該受益人的權益時，確立受益人的身分；註腳29舉例：確定及述明受益人的類別；即時取得完整詳情、取得法院命令，或完全不再取得資料，均非正確做法。"
   }
  },
  {
@@ -38215,7 +38215,7 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.8.12段"
   },
   "en": {
-   "q": "According to the AML/CFT Guideline, before relying on the listed-corporation exemption from beneficial ownership identification, what should an MSO assess?",
+   "q": "According to the AML/CFT Guideline, before an MSO chooses not to identify the beneficial owners of a customer that is a listed corporation, what should it assess?",
    "options": [
     "Whether the customer is subject to rules ensuring beneficial-ownership transparency",
     "Whether the customer's shares are actively and regularly traded on the exchange",
@@ -38225,14 +38225,14 @@
    "explain": "¶4.8.12 states that where a customer is a corporation listed on any stock exchange, an MSO may choose not to identify or verify its beneficial owners, and that for this purpose the MSO should assess whether the customer is subject to any disclosure requirements — either by stock exchange rules, or through law or enforceable means — which impose requirements to ensure adequate transparency of beneficial ownership of the customer."
   },
   "tc": {
-   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，在依賴上市法團的實益擁有人識別豁免前，該經營者應評估甚麼？",
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，金錢服務經營者在選擇不去識別屬上市法團的客戶的實益擁有人前，應評估甚麼？",
    "options": [
-    "客戶是否受確保實益擁有權透明的披露規定所限",
+    "客戶是否須遵守確保實益擁有權透明的披露規定",
     "該客戶的股份在交易所是否活躍及經常交投",
     "該客戶的市值是否超過訂明的監管門檻",
     "該客戶是否在香港交易所（而非海外）上市"
    ],
-   "explain": "第4.8.12段訂明，如客戶是在任何證券市場上市的法團，該經營者可選擇不識別或不採取合理措施核實其實益擁有人；為此，該經營者應評估該客戶是否受任何披露規定（透過交易所規則，或透過法律或可強制執行的方式）所規限，而該等規定確保該客戶的實益擁有權有足夠透明度。"
+   "explain": "第4.8.12段訂明，如客戶屬在任何證券市場上市的法團，金錢服務經營者可選擇不去識別或採取合理措施核實該客戶的實益擁有人的身分；就此而言，金錢服務經營者應評估該客戶是否須遵守任何披露的規定（不論透過執行上市規則抑或法律或可執行的措施），這類規定確保客戶的實益擁有權具充分透明度。"
   }
  },
  {
@@ -44147,24 +44147,24 @@
    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）附錄A第2段"
   },
   "en": {
-   "q": "Which documents does paragraph 2 of Appendix A itself list for a non-resident individual who is not physically present in Hong Kong?",
+   "q": "For a non-resident individual who is not physically present in Hong Kong, which three kinds of document does the AML/CFT Guideline name for identifying and/or verifying the individual's identity?",
    "options": [
     "A valid international passport or other travel document, a current national identity card bearing the individual's photograph, or a current valid national driving licence with photographic evidence of identity, issued by a competent national or state authority",
-    "A Permanent Resident Identity Card of the Macau Special Administrative Region, a Mainland Travel Permit for Taiwan Residents, or a Seaman's Identity Document issued under the International Labour Organisation's Seafarers' Identity Document Convention 1958, as amended",
+    "An international driving permit or licence, a Permanent Resident Identity Card of the Macau Special Administrative Region, or a Seaman's Identity Document issued under the International Labour Organisation Convention/Seafarers Identity Document Convention 1958",
     "An Exit-entry Permit for Travelling to and from Hong Kong and Macau for Official Purposes, a Hong Kong birth certificate for a minor, or a full company search report obtained from the place of incorporation",
     "A utility bill showing the individual's address, a personal bank statement, or an employer's reference letter, each certified as a true copy by a solicitor, notary public or chartered secretary"
    ],
-   "explain": "Appendix A ¶2 lists, for a non-resident individual not physically present in Hong Kong: a valid international passport or other travel document; a current national identity card bearing the individual's photograph; or a current valid national driving licence with photographic evidence of identity, issued by a competent national or state authority. The named documents in ¶3 (e.g. Macau permanent resident card, Taiwan travel permit, seaman's document) illustrate what counts as a travel document generally, not the complete ¶2 list; the exit-entry permit, birth certificate and company search report belong to ¶3, ¶4 (minors) and ¶5 (corporate customers) respectively; and certified utility bills or reference letters are not identity documents under ¶2 at all."
+   "explain": "Appendix A ¶2 lists, for a non-resident individual not physically present in Hong Kong: a valid international passport or other travel document; a current national identity card bearing the individual's photograph; or a current valid national driving licence with photographic evidence of identity, issued by a competent national or state authority. Footnote 72 says international driving permits and licences are not acceptable for this purpose, so a list that includes one is wrong, even though the Macau card and the seaman's document beside it are travel documents under ¶3; the exit-entry permit, birth certificate and company search report belong to ¶3, ¶4 (minors) and ¶5 (corporate customers) respectively; and certified utility bills or reference letters are not identity documents under ¶2 at all."
   },
   "tc": {
-   "q": "附錄A第2段本身就沒有現身香港的非香港居民，列出哪些文件？",
+   "q": "至於沒有現身香港的非香港居民，《打擊洗錢及恐怖分子資金籌集指引》指明金錢服務經營者應根據哪三類資料來識別及／或核實其身分？",
    "options": [
     "有效的國際護照或其他旅遊證件，附有有關個人照片的有效國民身分證，或由主管的國家或政府機構簽發、附有照片的有效國家駕駛執照",
-    "澳門特別行政區永久居民身分證，台灣居民往來內地通行證，或根據國際勞工組織《1958年海員身分證件公約》的規定所簽發的海員身分證明文件",
+    "國際駕駛許可證或執照，澳門特別行政區永久居民身分證，或根據《國際勞工組織公約》╱《1958年海員身分證件公約》簽發的海員身分證明文件",
     "因公往來香港澳門特別行政區通行證，適用於未成年人的香港出生證明書，或在註冊地取得的完整公司查冊報告",
     "顯示個人住址的水電費單、個人銀行結單或僱主推薦信，並經律師、公證人或特許秘書認證為真確複本"
    ],
-   "explain": "附錄A第2段就沒有現身香港的非香港居民列出：有效的國際護照或其他旅遊證件；附有有關個人照片的有效國民（即由政府或國家簽發）身分證；或由主管的國家或政府機構簽發的有效國家駕駛執照，執照上有照片證明申請人的身分。第3段所列的具名文件（例如澳門特別行政區永久居民身分證、台灣居民往來內地通行證、海員身分證明文件）僅說明一般而言何謂旅遊證件，並非第2段的完整清單；因公往來港澳通行證、出生證明書及公司查冊報告分別屬於第3、4（未成年人）及5（公司客戶）段；水電費單或推薦信經認證後仍非第2段所指的身分證明文件。"
+   "explain": "附錄A第2段就沒有現身香港的非香港居民列出：有效的國際護照或其他旅遊證件；附有有關個人照片的有效國民（即由政府或國家簽發）身分證；或由主管的國家或政府機構簽發的有效國家駕駛執照，執照上有照片證明申請人的身分。註腳72訂明國際駕駛許可證及執照不能用於此目的，因此列有國際駕駛許可證的清單並不正確，即使同列的澳門特別行政區永久居民身分證及海員身分證明文件屬第3段所指的旅遊證件；因公往來港澳通行證、出生證明書及公司查冊報告分別屬於第3、4（未成年人）及5（公司客戶）段；水電費單或推薦信經認證後仍非第2段所指的身分證明文件。"
   }
  },
  {
@@ -45226,7 +45226,7 @@
     "The document showing the source of the funds that the customer intends to remit through the MSO",
     "The account-opening form on which the customer has declared his or her own identification details"
    ],
-   "explain": "The FAQ says that, in general, the identification document used for the purpose of identity verification (an official document such as an identity card, passport, certificate of incorporation or certificate of incumbency) should be subject to certification. There is no expectation to require certification for all other CDD information or documents provided by the customer, or to require certification where the MSO is able to check the documents against public sources, and as a general principle customers should be given the opportunity, if they wish, to present their original documents to the MSO's staff. A proof of address, a document on the source of funds and the customer's own declaration on an account-opening form are among the other CDD information and documents that the FAQ does not expect to be certified; the form is not an identification document provided by a reliable and independent source."
+   "explain": "The FAQ says that, in general, the identification document used for the purpose of identity verification (an official document such as an identity card, passport, certificate of incorporation or certificate of incumbency) should be subject to certification. There is no expectation to require certification for all other CDD information or documents provided by the customer, or to require certification where the MSO is able to check the documents against public sources, and as a general principle customers should always be provided with the opportunity, if they wish, to present their original documents to the MSO's staff. A proof of address, a document on the source of funds and the customer's own declaration on an account-opening form are among the other CDD information and documents that the FAQ does not expect to be certified; the form is not an identification document provided by a reliable and independent source."
   },
   "tc": {
    "q": "某金錢服務經營者決定使用認證作為增補措施，以符合《打擊洗錢及恐怖分子資金籌集條例》附表2第9條就客戶沒有為身分識別的目的而現身時訂明的特別規定。根據香港海關《適用於所有金錢服務經營者的常見問題》，一般而言，哪份文件應被認證？",
