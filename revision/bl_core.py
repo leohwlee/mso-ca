@@ -102,20 +102,30 @@ def is_cjk(ch):
 
 NOSTART = set('，。；：、）」』！？】》')
 
+# Chinese terms that must never be split across two lines: tokens() keeps each one whole.
+PROTECT = sorted(['盡職審查', '高級管理層', '財富情報組', '之前', '之後', '若干次', '資金籌集', '業務關係', '非經常交易',
+                  '實益擁有人', '可疑交易報告', '身分資料', '恐怖分子', '電傳轉帳', '虛擬資產', '持續監察', '有關連',
+                  '金錢服務經營者', '門檻', '合併計算', '風險', '措施', '核實', '身分', '交易', '款額', '同等',
+                  '資金來源', '財富來源', '批准', '簡化', '終止', '建立', '進行', '執行',
+                  '8,000元', '120,000元', '應合併計算', '須穿透'], key=len, reverse=True)
+
 
 def tokens(text):
-    out, cur = [], ''
-    for ch in text:
-        if is_cjk(ch):
+    """Break text into wrap units: one Chinese character, a space, a run of other characters,
+    or a whole protected term."""
+    out, cur, i = [], '', 0
+    while i < len(text):
+        term = next((p for p in PROTECT if text.startswith(p, i)), None)
+        ch = text[i]
+        if term or is_cjk(ch) or ch == ' ':
             if cur:
                 out.append(cur); cur = ''
-            out.append(ch)
-        elif ch == ' ':
-            if cur:
-                out.append(cur); cur = ''
-            out.append(' ')
+            tok = term or ch
+            out.append(tok)
+            i += len(tok)
         else:
             cur += ch
+            i += 1
     if cur:
         out.append(cur)
     return out

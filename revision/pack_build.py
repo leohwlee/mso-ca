@@ -307,9 +307,22 @@ print('docs:', re.findall(r'class="doc" id="([^"]+)"', PAGE))
 print('sections:', len(re.findall(r'<section class="sec"', PAGE)))
 dead = [h for h in set(re.findall(r'href="#([^"]+)"', PAGE)) if h not in ids]
 print('dead anchors:', dead or 'none')
-bad = [t for t in re.findall(r'<span class="c-tc"[^>]*>([^<]*)</span>', PAGE) if re.search(r'[A-Za-z]{3,}', t)]
+ROMAN = re.compile(r'\((?:i|ii|iii|iv|v|vi|vii|viii|ix|x|xi|xii)\)')  # sub-paragraph numbers, not English words
+bad = [t for t in re.findall(r'<span class="c-tc"[^>]*>([^<]*)</span>', PAGE) if re.search(r'[A-Za-z]{3,}', ROMAN.sub('', t))]
 print('cites with English left in the Chinese view:', bad or 'none')
-tcbad = [t for t in re.findall(r'<span class="l-tc[^"]*" lang="zh-Hant">(.*?)</span>', PAGE) if re.search(r'[A-Za-z]{3,}', re.sub(r'<[^>]+>', '', t))]
+tcbad = [t for t in re.findall(r'<span class="l-tc[^"]*" lang="zh-Hant">(.*?)</span>', PAGE)
+         if re.search(r'[A-Za-z]{3,}', ROMAN.sub('', re.sub(r'<[^>]+>', '', t)))]
 print('Chinese text with English words:', len(tcbad))
 for t in tcbad[:12]:
     print('   ', re.sub(r'<[^>]+>', '', t)[:120])
+# a protected Chinese term split across two figure lines: consecutive lines at the same x, one line apart
+split, prev = [], None
+for m in re.finditer(r'<text([^>]*)>(.*?)</text>', PAGE, re.S):
+    fs = re.search(r'font-size="([\d.]+)"', m.group(1))
+    size = float(fs.group(1)) if fs else 14.0
+    for x, y, s in re.findall(r'<tspan x="([\d.]+)" y="([\d.]+)"[^>]*>(.*?)</tspan>', m.group(2), re.S):
+        if prev and prev[0] == x and 0 < float(y) - prev[1] <= 1.6 * size:
+            split += [prev[2][-6:] + ' | ' + s[:6] for t in bl_core.PROTECT for k in range(1, len(t))
+                      if prev[2].endswith(t[:k]) and s.startswith(t[k:])]
+        prev = (x, float(y), s)
+print('Chinese terms split across figure lines:', split or 'none')

@@ -106,6 +106,8 @@ Extract their text first (e.g. `pdftotext -layout`) and search it for distinctiv
   FS=1.25 automatically; keep the defaults (Card 11.5/12.5, Node 12) or larger — never smaller than 10.5.
   Keep connectors from crossing text or boxes; put yes/no labels right beside their branch; give every
   arrow an obvious start and end; do not reuse the same x for unrelated arrows.
+- Box text wraps by itself and never splits a Chinese term listed in `bl_core.PROTECT`. If a figure splits
+  another term, add it to that list; `pack_build.py` reports any listed term it finds split across lines.
 - `answer=True` on outcome boxes lets recall mode blur them.
 
 ## Module contract
