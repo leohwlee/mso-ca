@@ -191,7 +191,7 @@ key-is-longest check ran on English only through *three* review passes, which is
 exactly how one section reached 54% key-is-longest with a green build. Half the
 bank was unguarded and looked fine.
 
-### Two guard-writing traps
+### Three guard-writing traps
 
 - **Case-fold the keyword only, not the whole pattern.** `(?i)` across
   `(option|answer|choice)\s+[A-E]` makes "answer a question" and "the choice a
@@ -201,6 +201,12 @@ bank was unguarded and looked fine.
   duplicate whose shared answer was 11 characters long. If the check already
   keys on the cited passage, the floor buys nothing — remove it and verify at
   several floors that nothing else appears.
+- **Prove a guard can fail.** Four English patterns in this bank's
+  positional-reference guard held a backspace character where the word-boundary
+  escape was meant (a shell had swallowed the backslash), so they could never
+  match: the build stayed green for three weeks with English stems unchecked.
+  After writing or editing a guard, run it once against a planted defect, or
+  against the bank before the fix, and watch it fail.
 
 ---
 

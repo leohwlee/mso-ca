@@ -30101,7 +30101,7 @@
    "q": "What happens if a candidate marks two or more answers to the same question?",
    "options": [
     "No marks at all will be scored for that question",
-    "The first answer that is marked is the one that is taken",
+    "The answer that was marked first is the one that is taken",
     "The question is treated as unanswered for the module limit",
     "Half a mark is awarded for that question"
    ],

@@ -420,12 +420,12 @@ func TestMLTFPairing(t *testing.T) {
 func TestNoPositionalReferences(t *testing.T) {
 	bank := loadBank(t)
 	patterns := []*regexp.Regexp{
-		regexp.MustCompile(`(?i)(?:option|distractor)s?\s*\(?[1-5]\)?`),
+		regexp.MustCompile(`(?i)\b(?:option|distractor)s?\s*\(?[1-5]\)?\b`),
 		// the letter stays case-sensitive: lower-cased, "answer a question" and
 		// "the choice a licensee makes" would both match and fail a sound question
-		regexp.MustCompile(`(?i:option|answer|choice)\s+[A-E]`),
-		regexp.MustCompile(`(?i)(?:first|second|third|fourth|fifth|last)\s+(?:option|choice|answer)`),
-		regexp.MustCompile(`\(D[1-5]\)|D[1-5]`),
+		regexp.MustCompile(`\b(?i:option|answer|choice)\s+[A-E]\b`),
+		regexp.MustCompile(`(?i)\b(?:first|second|third|fourth|fifth|last)\s+(?:option|choice|answer)\b`),
+		regexp.MustCompile(`\(D[1-5]\)|\bD[1-5]\b`),
 		regexp.MustCompile(`選項\s*[一二三四五1-5A-E]`),
 		regexp.MustCompile(`第[一二三四五]個?選項`),
 	}
