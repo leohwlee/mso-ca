@@ -13806,7 +13806,7 @@
   "en": {
    "q": "Under section 32 of the AMLO, which of the following statements about the Commissioner's power to amend the conditions of a licence during its currency are correct?",
    "statements": [
-    "The Commissioner may amend or remove a condition, or impose a new condition, on the renewal of the licence or at any time when the licensee applies for the change.",
+    "Before amending or removing a condition, or imposing a new condition, under section 32, the Commissioner must first receive an application from the licensee for the change.",
     "The Commissioner may amend or remove a condition previously imposed, or impose a new condition, if satisfied that it is reasonable to do so in the circumstances.",
     "If the Commissioner amends or removes a condition or imposes a new condition, the Commissioner must inform the licensee by notice in writing stating the reasons and the right to apply to the Review Tribunal.",
     "An amendment, removal or imposition of a condition under section 32 takes effect when the licensee receives the notice or at the time specified in the notice, whichever is the later."
@@ -13818,12 +13818,12 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 1 is false because section 32(1) allows the Commissioner, in relation to a licence, to amend or remove a condition or impose a new one whenever satisfied that it is reasonable to do so in the circumstances; the power is not confined to renewal. Statements 2, 3 and 4 are correct: section 32(1) sets the reasonableness test; section 32(2) and (3) require the licensee to be informed by notice in writing that states the reasons for the decision and the right to apply to the Review Tribunal for a review; and section 32(4) makes the amendment, removal or imposition take effect on receipt of the notice or at the time specified in it, whichever is the later."
+   "explain": "Statement 1 is false because section 32(1) allows the Commissioner, in relation to a licence, to amend or remove a condition or impose a new one if satisfied that it is reasonable to do so in the circumstances; no application from the licensee is needed. Statements 2, 3 and 4 are correct: section 32(1) sets the reasonableness test; section 32(2) and (3) require the licensee to be informed by notice in writing that states the reasons for the decision and the right to apply to the Review Tribunal for a review; and section 32(4) makes the amendment, removal or imposition take effect on receipt of the notice or at the time specified in it, whichever is the later."
   },
   "tc": {
    "q": "根據《打擊洗錢條例》第32條，關於關長在牌照有效期內修改牌照條件的權力，下列哪些陳述正確？",
    "statements": [
-    "關長可在牌照續期時，或在持牌人提出更改申請時，修改或免除條件或施加新的條件。",
+    "關長須先接獲持牌人提出的更改申請，才可根據第32條修改或免除條件或施加新的條件。",
     "關長如信納在有關情況下屬合理，即可修改或免除先前施加的牌照條件，或施加新的條件。",
     "關長如修改或免除條件或施加新條件，須藉書面通知告知持牌人，並須載有該決定的理由及可向覆核審裁處申請覆核的提示。",
     "根據第32條修訂、免除或施加條件，在持牌人接獲通知時或在該通知指明的時間（兩者以較遲者為準）生效。"
@@ -13835,7 +13835,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述1 不正確，因為第32(1)條容許關長就某牌照，在信納於有關情況下屬合理時，隨時修改或免除條件或施加新的條件；該權力並不限於牌照續期時行使。陳述2、3 及 4 正確：第32(1)條訂明合理性的準則；第32(2)及(3)條規定須藉書面通知告知持牌人，通知並須載有作出決定的理由的說明及可向覆核審裁處申請覆核的提示；第32(4)條則訂明修訂、免除或施加條件在持牌人接獲通知時或在通知指明的時間（以較遲者為準）生效。"
+   "explain": "陳述1 不正確，因為第32(1)條容許關長就某牌照，在信納於有關情況下屬合理時，修改或免除條件或施加新的條件，無須持牌人提出申請。陳述2、3 及 4 正確：第32(1)條訂明合理性的準則；第32(2)及(3)條規定須藉書面通知告知持牌人，通知並須載有作出決定的理由的說明及可向覆核審裁處申請覆核的提示；第32(4)條則訂明修訂、免除或施加條件在持牌人接獲通知時或在通知指明的時間（以較遲者為準）生效。"
   },
   "format": "combination"
  },
@@ -22639,7 +22639,7 @@
   "en": {
    "q": "Which statement about bank accounts used for operating the money service business is CORRECT?",
    "options": [
-    "The account must be in the licensee's own name, not a third party's",
+    "It may be in a director's name, but never in a third party's",
     "Any account may be used, including a friend's or associate's",
     "Bank accounts are strictly prohibited for all MSOs to hold",
     "Only an overseas bank account may lawfully be used"
@@ -22649,7 +22649,7 @@
   "tc": {
    "q": "關於用於經營金錢服務業務的銀行戶口，下列哪項正確？",
    "options": [
-    "戶口須用持牌人本身名義，不得為第三方戶口",
+    "可屬董事名下，但不得使用第三方銀行戶口",
     "任何戶口均可使用，包括朋友或業務夥伴的戶口",
     "金錢服務經營者一律不得持有任何銀行戶口",
     "只可合法使用海外銀行所開立的銀行戶口"
@@ -30434,7 +30434,7 @@
     "以書面向海關關長申請查閱，或到稅務局查閱",
     "只可在每名持牌人的業務處所，向該持牌人查詢"
    ],
-   "explain": "第12.2段訂明登記冊可供公眾人士在九龍灣常悅道11號企業廣場4樓402-403室香港海關辦事處查閱，亦可透過海關的網址（https://eservices.customs.gov.hk/MSOS/）查閱——並非在負責公司註冊登記的公司註冊處（該處備存的是公司註冊紀錄，並非金錢服務經營者持牌人紀錄）、以書面向關長申請或到稅務局，也非只可在每名持牌人的處所查閱。"
+   "explain": "第12.2段訂明登記冊可供公眾人士在九龍九龍灣常悅道11號新明大廈4樓402-403室的香港海關辦事處查閱，亦可透過海關的網址（https://eservices.customs.gov.hk/MSOS/）查閱——並非在負責公司註冊登記的公司註冊處（該處備存的是公司註冊紀錄，並非金錢服務經營者持牌人紀錄）、以書面向關長申請或到稅務局，也非只可在每名持牌人的處所查閱。"
   }
  },
  {
@@ -49362,12 +49362,12 @@
    "explain": "Paragraph 7.34 provides that upon the conviction of a defendant a court may order the confiscation of his criminal proceeds, that an MSO may be served with a confiscation order where it holds funds or other property belonging to that defendant that are deemed by the court to represent his benefit from the crime, and that a court may also order the forfeiture of property where it is satisfied that the property is terrorist property, so statements 1, 3 and 4 are correct. Statement 2 is false because confiscation follows the conviction of the defendant, not the laying of a charge, and the funds or property held must be deemed by the court to represent the defendant's benefit from the crime."
   },
   "tc": {
-   "q": "根據本指引第7.34段，下列關於充公及沒收的陳述，哪些正確？",
+   "q": "根據本指引第7.34段，下列關於沒收及充公的陳述，哪些正確？",
    "statements": [
-    "某被告一經定罪，法院即可命令充公該名被告所取得的犯罪得益。",
-    "如經營者持有屬某被告所有的資金或財產，該被告一經落案控告，經營者即可獲送達充公令。",
-    "如經營者持有屬被告所有、並經法院裁定代表其犯罪得益的資金或財產，可獲送達充公令。",
-    "法院如信納有關的財產屬恐怖分子財產，亦可命令沒收該項有關財產。"
+    "某被告一經定罪，法院即可下令沒收該名被告本身的犯罪所得。",
+    "如經營者持有屬某被告所有的資金或財產，該被告一經落案控告，經營者即可能收到沒收令。",
+    "如經營者持有屬被告所有、並經法院認為代表其犯罪得益的資金或財產，可能會收到沒收令。",
+    "法院如信納有關的財產屬恐怖分子財產，亦可下令充公該項財產。"
    ],
    "options": [
     "1、2 及 3",
@@ -49376,7 +49376,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "第7.34段訂明，被告一經定罪，法院可命令充公其犯罪得益；如經營者持有屬該被告所有、並經法院裁定代表其犯罪得益的資金或其他財產，可獲送達充公令；法院如信納某財產屬恐怖分子財產，亦可命令沒收該財產，因此陳述1、3 及 4 正確。陳述2 不正確，因為充公是在被告定罪之後，而非落案控告之時，而且所持有的資金或財產須經法院裁定代表該被告的犯罪得益。"
+   "explain": "第7.34段訂明，被告一經定罪，法院可下令沒收其犯罪所得；如經營者持有屬該被告所有、並經法院認為代表其犯罪得益的資金或其他財產，可能會收到沒收令；法院如信納某些財產屬恐怖分子財產，亦可下令充公有關財產，因此陳述1、3 及 4 正確。陳述2 不正確，因為沒收是在被告定罪之後，而非落案控告之時，而且所持有的資金或財產須經法院認為代表該被告的犯罪得益。"
   },
   "format": "combination"
  },
@@ -49727,7 +49727,7 @@
   "en": {
    "q": "What business correspondence must, at a minimum, be kept?",
    "options": [
-    "Correspondence material to the CDD measures or to any account changes",
+    "Correspondence material to CDD measures or significant changes to the operation of the account",
     "The original documents used to verify the customer's and beneficial owner's identity",
     "The results of analysing transactions with no apparent economic or lawful purpose",
     "Every single email or phone note exchanged with the customer, however trivial"
@@ -49737,12 +49737,12 @@
   "tc": {
    "q": "最低限度須保存哪些業務往來通訊？",
    "options": [
-    "對客戶盡職審查措施或戶口變動屬重要的業務通訊",
+    "與盡職審查措施或戶口的運作有顯著改變有關的業務通訊",
     "為核實客戶及實益擁有人身分而取得的文件正本",
     "對並無明顯經濟或合法目的的交易所作分析的結果",
     "與客戶往來的每一封電郵或電話紀錄，不論如何瑣碎"
    ],
-   "explain": "第8.3(d)款規定須保存與客戶及任何實益擁有人的業務通訊，最低限度須包括對客戶盡職審查措施或戶口的運作有顯著改變而言屬重要者。身分文件屬第8.3(a)款範圍，分析結果屬第8.3(e)款範圍，而註腳66確認並不要求保存每一項通訊。"
+   "explain": "第8.3(d)款規定須保存與客戶及任何實益擁有人的業務通訊，最低限度應包括與盡職審查措施或戶口的運作有顯著改變有關的業務通訊。身分文件屬第8.3(a)款範圍，分析結果屬第8.3(e)款範圍，而註腳66確認並不要求保存每一項通訊。"
   }
  },
  {
@@ -49798,7 +49798,7 @@
     "為確立複雜或款額大得異乎尋常的交易的目的而作出的詢問",
     "定期對客戶基礎進行的機構層面的洗錢／恐怖分子資金籌集風險評估",
     "金錢服務經營者對其打擊洗錢／恐怖分子資金籌集制度的獨立審計結果",
-    "對客戶盡職審查措施或戶口的運作有顯著改變屬重要的業務通訊"
+    "與盡職審查措施或戶口的運作有顯著改變有關的業務通訊"
    ],
    "explain": "第8.3(e)款舉例指出，須就屬複雜、款額大得異乎尋常或進行模式異乎尋常且並無明顯經濟或合法目的的交易，保存為確立其背景及目的而作的查詢的結果。風險評估、制度審計及業務通訊均為金錢服務經營者的真實責任，惟屬其他條文範圍，並非第8.3(e)款所指。"
   }
