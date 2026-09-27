@@ -65,6 +65,6 @@ together with the revision pack built from `revision/`. The tests run before the
 build, so a tag that fails never becomes a download.
 
 ```bash
-git tag v1.6.1
-git push origin v1.6.1
+git tag v1.7.1
+git push origin v1.7.1
 ```

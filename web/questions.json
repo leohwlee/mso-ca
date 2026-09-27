@@ -248,7 +248,7 @@
     "Follow FATF Recommendations selectively",
     "Publish its own list of high-risk jurisdictions"
    ],
-   "explain": "As a FATF member, Hong Kong is obliged to implement the latest FATF Recommendations (¶1.13), in full and on an ongoing basis — not selectively. No fixed annual evaluation cycle is stated, and it is the FATF itself, not Hong Kong, that identifies and publishes high-risk jurisdictions."
+   "explain": "As a member of the FATF, Hong Kong is obliged to implement the latest FATF Recommendations (¶1.13), not to follow them selectively. ¶1.13 sets no annual evaluation cycle: the FATF monitors compliance by conducting evaluations on jurisdictions, and in its follow-up after those evaluations it is the FATF, not Hong Kong, that identifies high-risk and other monitored jurisdictions."
   },
   "tc": {
    "q": "作為財務行動特別組織的成員，香港有責任做以下哪項？",
@@ -258,7 +258,7 @@
     "有選擇性地跟從特別組織建議",
     "自行公布高風險司法管轄區名單"
    ],
-   "explain": "作為特別組織成員，香港有責任全面並持續實施最新的特別組織建議（第1.13段），而非選擇性跟從。條文並無訂明固定的每年評核周期，而識別及公布高風險司法管轄區是特別組織（而非香港）的職能。"
+   "explain": "作為特別組織的成員，香港有責任實施最新的特別組織建議（第1.13段），而非選擇性跟從。第1.13段並無訂明每年評核：特別組織透過評核來監察各司法管轄區的合規情況，並在評核後的跟進程序中識別高度風險及其他受監察的司法管轄區；識別這些司法管轄區的是特別組織，而非香港。"
   }
  },
  {
@@ -4491,28 +4491,28 @@
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "AMLO s.31(2)(a)",
-   "tc": "《打擊洗錢條例》第31(2)(a)條"
+   "en": "AMLO s.31(5)–(7); s.33(b)",
+   "tc": "《打擊洗錢條例》第31(5)至(7)條；第33(b)條"
   },
   "en": {
-   "q": "By when must an application to renew an MSO licence be made?",
+   "q": "On renewing a licence, the Commissioner amends one of its conditions and imposes a new one. When and how must the Commissioner inform the licensee?",
    "options": [
-    "Not later than 45 days before the licence is due to expire",
-    "Not later than 21 days before the licence is due to expire",
-    "Not later than 7 days before the licence is due to expire",
-    "Within one month after the licence has already expired"
+    "At the time the licence is renewed, by notice in writing to the licensee",
+    "Within 14 days after the licence is renewed, by notice in writing to the licensee",
+    "At the time the licence is renewed, by endorsement on the licence instead of a notice",
+    "Within one month after the renewal, by a notice published in the Gazette"
    ],
-   "explain": "s.31(2)(a): a renewal application must be made not later than 45 days before the licence is due to expire, in the specified form and with the Schedule 3 fee. 21 days is the period for applying to the Review Tribunal (s.59(1)); 7 days is the period for returning a licence after ceasing business (s.41(1)(b)); one month is the period for notifying a change of particulars (s.40(1)) — none is the renewal deadline."
+   "explain": "Section 31(5) lets the Commissioner, on renewing a licence, amend or remove any condition previously imposed or impose a new condition, and section 31(6) requires the Commissioner, if he or she does so, to inform the licensee by notice in writing at the time the licence is renewed. Endorsing the conditions on the licence under section 33(b) does not replace that notice, and section 31(6) sets no later period of 14 days or one month and no notice in the Gazette. Under section 31(7) the change takes effect when the licensee receives the notice, or at the time specified in the notice, whichever is the later."
   },
   "tc": {
-   "q": "金錢服務經營者牌照的續期申請最遲須於何時提出？",
+   "q": "關長在將牌照續期時，修改了牌照的一項條件，並施加一項新的條件。關長須於何時及以何種方式告知有關持牌人？",
    "options": [
-    "牌照期滿前不少於45日",
-    "牌照期滿前不少於21日",
-    "牌照期滿前不少於7日",
-    "牌照期滿後一個月內"
+    "須在將有關牌照續期時，藉書面通知告知",
+    "須在牌照續期後14日內，藉書面通知告知",
+    "須在續期時於牌照上批註條件，以代替通知",
+    "須在續期後一個月內，在憲報刊登公告告知"
    ],
-   "explain": "第31(2)(a)條：續期申請最遲須於牌照期滿前45日以指明格式提出，並繳付附表3指明的費用。21日為向覆核審裁處申請覆核的期限（第59(1)條）；7日為停業後交回牌照的期限（第41(1)(b)條）；一個月為通知資料變更的期限（第40(1)條）——均非續期的期限。"
+   "explain": "第31(5)條容許關長在將牌照續期時，修改或免除任何先前對有關持牌人施加的牌照條件，亦可對該持牌人施加新的條件；第31(6)條規定，關長如修改或免除任何條件，或施加新的條件，須在將有關牌照續期時，藉書面通知告知有關持牌人。根據第33(b)條在牌照上批註有關條件，並不能代替該通知；第31(6)條亦沒有訂明續期後14日或一個月的期限，或以憲報公告告知。根據第31(7)條，有關修訂、免除或施加在持牌人接獲通知時或在通知指明的時間（兩者以較遲者為準）生效。"
   }
  },
  {
@@ -4520,8 +4520,8 @@
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "AMLO s.34",
-   "tc": "《打擊洗錢條例》第34條"
+   "en": "AMLO s.34; Licensing Guide (May 2026) §7.1(h), §9.3",
+   "tc": "《打擊洗錢條例》第34條；《牌照指引》（2026年5月）第7.1(h)及9.3段"
   },
   "en": {
    "q": "Which of the following is an express ground for revocation or suspension stated in section 34(1) of the AMLO?",
@@ -4531,7 +4531,7 @@
     "The licensee failed to notify the Commissioner of a change of particulars within one month",
     "The licensee failed to display the original of its licence at the specified premises"
    ],
-   "explain": "Section 34(1) states two grounds only: that an individual licensee, or any partner, director or ultimate owner, is no longer a fit and proper person (a corporation itself is not tested); and that an occupant of licensed domestic premises revokes, or a new occupant refuses, written consent to entry. Contravening a licence condition is a disciplinary ground under section 43(1)(b); failing to notify a change of particulars is an offence under section 40(4); failing to display the original licence is an offence under section 39A(2). The Licensing Guide adds at §7.1(h) and §9.3 that such non-compliance may also lead to suspension or revocation through the fitness route, but none of the three is an express section 34(1) ground."
+   "explain": "Section 34(1) states two grounds only: that an individual licensee, or any partner, director or ultimate owner, is no longer a fit and proper person (a corporation itself is not tested); and that an occupant of licensed domestic premises revokes, or a new occupant refuses, written consent to entry. Contravening a licence condition is a disciplinary ground under section 43(1)(b); failing to notify a change of particulars is an offence under section 40(4); failing to display the original licence is an offence under section 39A(2). The Licensing Guide adds at §7.1(h) and §9.3 that such non-compliance may also lead to suspension or revocation of the licence, but none of the three is an express section 34(1) ground."
   },
   "tc": {
    "q": "下列何者屬《打擊洗錢條例》第34(1)條明文訂明的撤銷或暫時吊銷牌照理由？",
@@ -4541,7 +4541,7 @@
     "持牌人未有在資料變更後的一個月內將有關變更通知關長",
     "持牌人未有在牌照指明的經營處所展示牌照正本"
    ],
-   "explain": "第34(1)條只訂明兩項理由：屬個人的持牌人或任何合夥人、董事或最終擁有人不再屬適當人選（法團本身並不受測試）；以及持牌住宅處所的佔用人撤銷同意，或新佔用人拒絕給予進入處所的書面同意。違反牌照條件屬第43(1)(b)條的紀律行動理由；未有通知資料變更屬第40(4)條所訂罪行；未有展示牌照正本屬第39A(2)條所訂罪行。《牌照指引》第7.1(h)及9.3段另指出，該等不遵從情況亦可能循適當人選的途徑導致暫時吊銷或撤銷牌照，但三者均非第34(1)條明文訂明的理由。"
+   "explain": "第34(1)條只訂明兩項理由：屬個人的持牌人或任何合夥人、董事或最終擁有人不再屬適當人選（法團本身並不受測試）；以及持牌住宅處所的佔用人撤銷同意，或新佔用人拒絕給予進入處所的書面同意。違反牌照條件屬第43(1)(b)條的紀律行動理由；未有通知資料變更屬第40(4)條所訂罪行；未有展示牌照正本屬第39A(2)條所訂罪行。《牌照指引》第7.1(h)及9.3段另指出，該等不遵從情況亦可能導致牌照被暫時吊銷或撤銷，但三者均非第34(1)條明文訂明的理由。"
   }
  },
  {
@@ -4651,8 +4651,8 @@
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "AMLO s.41(1)",
-   "tc": "《打擊洗錢條例》第41(1)條"
+   "en": "AMLO s.41(1); Licensing Guide (May 2026) §10.2",
+   "tc": "《打擊洗錢條例》第41(1)條；《牌照指引》（2026年5月）第10.2段"
   },
   "en": {
    "q": "A licensee intends to cease operating its money service. What does section 41 of the AMLO require?",
@@ -4774,7 +4774,7 @@
   "en": {
    "q": "Within what period may proceedings for a non-indictable offence under Part 5 of the AMLO be instituted?",
    "options": [
-    "Within 12 months after the Commissioner discovers or is notified of the offence",
+    "Within 12 months after the offence is discovered by, or comes to the notice of, the Commissioner",
     "Within 12 months after the offence is committed, regardless of when it is discovered",
     "Within 6 months after the offence is discovered by, or comes to the notice of, the Commissioner",
     "There is no time limit, because section 53 applies only to indictable offences"
@@ -5026,61 +5026,32 @@
   }
  },
  {
-  "id": "m2-26",
-  "module": 2,
-  "answer": 0,
-  "source": {
-   "en": "AMLO s.5(2)",
-   "tc": "《打擊洗錢條例》第5(2)條"
-  },
-  "en": {
-   "q": "In relation to an authorized insurer, Schedule 2 has effect only in relation to what?",
-   "options": [
-    "Long term business carried on by the insurer",
-    "General insurance business carried on by the insurer",
-    "Reinsurance contracts entered into by the insurer",
-    "Business written through licensed insurance brokers"
-   ],
-   "explain": "Section 5(2) provides that Schedule 2 has effect with respect to an authorized insurer only in relation to long term business carried on by the insurer, as defined by section 2(1) of the Insurance Ordinance (Cap. 41)."
-  },
-  "tc": {
-   "q": "就獲授權保險人而言，附表2只就甚麼具有效力？",
-   "options": [
-    "該保險人所經營的長期業務",
-    "該保險人所經營的一般保險業務",
-    "該保險人訂立的再保險合約",
-    "透過持牌保險經紀承保的業務"
-   ],
-   "explain": "第5(2)條訂明，就獲授權保險人而言，附表2只就該保險人所經營的長期業務具有效力；「長期業務」的涵義見《保險業條例》（第41章）第2(1)條。"
-  }
- },
- {
   "id": "m2-27",
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "AMLO s.5(4)",
-   "tc": "《打擊洗錢條例》第5(4)條"
+   "en": "AMLO s.5(7) & (8)",
+   "tc": "《打擊洗錢條例》第5(7)及(8)條"
   },
   "en": {
-   "q": "Schedule 2 applies to the issue of a stored value facility by an SVF licensee or a bank only if which conditions are met?",
+   "q": "A person concerned in the management of an MSO causes the MSO to contravene a specified provision and is convicted summarily. What maximum penalties does section 5 provide if the person acted knowingly, and if the person acted with intent to defraud the MSO?",
    "options": [
-    "The maximum storable value exceeds $3,000, and it is a physical device on which the issuer stores the value",
-    "The maximum storable value exceeds $8,000, and the facility is issued only to a corporate customer",
-    "The facility is issued to a customer not ordinarily resident in Hong Kong, regardless of the value",
-    "The facility can be used to make cross-border payments, regardless of its maximum storable value"
+    "Knowingly: a fine at level 6 and 6 months' imprisonment; with intent to defraud: a fine of $500,000 and 1 year",
+    "Knowingly: a fine at level 5 and 3 months' imprisonment; with intent to defraud: a fine of $500,000 and 1 year",
+    "Knowingly: a fine of $500,000 and 1 year's imprisonment; with intent to defraud: a fine of $1,000,000 and 7 years",
+    "Knowingly: a fine at level 6 and 6 months' imprisonment; with intent to defraud: a fine of $1,000,000 and 7 years"
    ],
-   "explain": "Section 5(4) provides that Schedule 2 applies to the issue of a stored value facility only if (a) the maximum value that can be stored on it exceeds $3,000, and (b) it is a physical device provided by the issuer to the user with the value stored on the device. $8,000 is not the statutory threshold, and section 5(4) does not turn on the customer's residence or on cross-border payment capability."
+   "explain": "Section 5(7) makes it an offence for an employee of a financial institution, a person employed to work for it or a person concerned in its management knowingly to cause or knowingly to permit the institution to contravene a specified provision; on summary conviction the person is liable to a fine at level 6 and imprisonment for 6 months (on conviction on indictment, a fine of $1,000,000 and imprisonment for 2 years). Section 5(8) makes it an offence for the same persons to cause or permit the contravention with intent to defraud the institution or any relevant authority; on summary conviction the person is liable to a fine of $500,000 and imprisonment for 1 year (on conviction on indictment, a fine of $1,000,000 and imprisonment for 7 years). A licensed MSO is a financial institution, so both offences reach its managers and staff. A fine of $1,000,000 with 7 years is the penalty on indictment, and section 5 sets no penalty of a fine at level 5 with 3 months."
   },
   "tc": {
-   "q": "附表2只在符合哪些條件時，方適用於儲值支付工具持牌人或銀行發行儲值支付工具？",
+   "q": "關涉金錢服務經營者的管理的人致使該經營者違反指明的條文，並循簡易程序被定罪。根據第5條，該人如屬明知而為，或出於詐騙該經營者的意圖而為，可處的最高刑罰分別為何？",
    "options": [
-    "該工具可儲存的最高價值超過3,000元，且屬發行人在其上儲存價值的實物裝置",
-    "該工具可儲存的最高價值超過8,000元，且屬發行人只提供予公司客戶的裝置",
-    "該工具發行予的客戶並非通常居於香港，不論其可儲存的價值多寡",
-    "該工具可用作跨境付款或本地付款，不論其可儲存的最高價值多寡"
+    "明知：第6級罰款及監禁6個月；詐騙意圖：罰款$500,000及監禁1年",
+    "明知：第5級罰款及監禁3個月；詐騙意圖：罰款$500,000及監禁1年",
+    "明知：罰款$500,000及監禁1年；詐騙意圖：罰款$1,000,000及監禁7年",
+    "明知：第6級罰款及監禁6個月；詐騙意圖：罰款$1,000,000及監禁7年"
    ],
-   "explain": "第5(4)條訂明，附表2只在下列情況下適用於發行儲值支付工具：(a)可儲存的最高價值超過3,000元；及(b)屬發行人提供予用戶、並在其上儲存價值的實物裝置。8,000元並非條文所訂的門檻；條文沒有將適用範圍限於公司客戶、非香港居民客戶，或可作跨境付款的工具。"
+   "explain": "第5(7)條訂明，任何屬金融機構的僱員、受僱為金融機構工作或關涉金融機構的管理的人，如明知而致使或明知而准許該機構違反指明的條文，即屬犯罪，一經循簡易程序定罪，可處第6級罰款及監禁6個月（一經循公訴程序定罪，可處罰款$1,000,000及監禁2年）。第5(8)條訂明，同一類人士如出於詐騙該金融機構或任何有關當局的意圖，而致使或准許該機構違反指明的條文，即屬犯罪，一經循簡易程序定罪，可處罰款$500,000及監禁1年（一經循公訴程序定罪，可處罰款$1,000,000及監禁7年）。持牌金錢服務經營者屬金融機構，故兩項罪行均適用於其管理人員及職員。罰款$1,000,000及監禁7年屬循公訴程序定罪的刑罰；第5條並無第5級罰款及監禁3個月的刑罰。"
   }
  },
  {
@@ -8211,28 +8182,28 @@
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "AMLO s.53",
-   "tc": "《打擊洗錢條例》第53條"
+   "en": "AMLO s.72(1)(c) & (2)",
+   "tc": "《打擊洗錢條例》第72(1)(c)及(2)條"
   },
   "en": {
-   "q": "Section 53 modifies the ordinary limitation period for prosecutions. From what event does the 12-month period run?",
+   "q": "A licensee appeals to the Court of Appeal against the Review Tribunal's determination of its review. If the Court of Appeal varies the determination, or substitutes another determination for it, what may the new determination be?",
    "options": [
-    "From when the offence is discovered by, or comes to the notice of, the Commissioner",
-    "From the date on which the underlying offence was originally committed",
-    "From the date on which the licence was first granted or most recently renewed",
-    "From the date the Commissioner formally completes an investigation under section 11"
+    "Any determination the Tribunal had power to make, whether more or less onerous than the original",
+    "A determination no more onerous than the original, since it was the licensee who brought the appeal",
+    "Any determination within the Court of Appeal's own powers, even one the Tribunal had no power to make",
+    "A determination under the same provision as the original determination, and under no other provision"
    ],
-   "explain": "Section 53 runs the 12-month period from when the offence is discovered by, or comes to the notice of, the Commissioner — not from the date of commission, the date of the licence's grant or renewal, or the completion of a section 11 investigation, none of which section 53 uses as the trigger."
+   "explain": "Section 72(2) provides that where the Court of Appeal varies a determination of the Tribunal, or substitutes another determination for it, under section 72(1)(c), the new determination may be any determination that the Tribunal had power to make in respect of the review, whether more or less onerous than the determination varied or substituted, and whether or not under the same provision as the original. A licensee's appeal therefore does not cap the outcome at the original determination; the limit is what the Tribunal itself could have determined, not the Court of Appeal's other powers; and the Court is not tied to the provision under which the determination was made."
   },
   "tc": {
-   "q": "第53條修改了一般的檢控時限。該12個月期間自甚麼事件起計？",
+   "q": "持牌人就覆核審裁處對其覆核所作的裁定，向上訴法庭提出上訴。如上訴法庭更改該裁定，或以任何其他裁定取代該裁定，經更改的裁定或用以取代的裁定可以是甚麼？",
    "options": [
-    "自海關關長發現或知悉有關罪行之時起計算",
-    "自罪行實際發生之日期當天起計算，不論何時發現",
-    "自牌照首次批給或最近一次續期之日起計算",
-    "自關長正式完成第11條下的調查之日起計算"
+    "審裁處本有權作出的任何裁定，不論是否較原裁定嚴苛或寬鬆",
+    "不比原裁定嚴苛的裁定，因為提出上訴的一方是持牌人本身",
+    "上訴法庭本身權力範圍內的任何裁定，即使審裁處本無權作出",
+    "根據原裁定所據的同一條文作出的裁定，而不得根據其他條文"
    ],
-   "explain": "第53條的12個月期間自關長發現或知悉有關罪行時起計，並非自罪行發生之日、牌照批給或續期之日，或第11條調查完成之日起計，第53條並無以該等事件作為起算點。"
+   "explain": "第72(2)條訂明，如上訴法庭根據第72(1)(c)條更改審裁處的裁定，或以任何其他裁定取代該裁定，經更改的該裁定或用以取代的其他裁定，可以是審裁處本有權根據同一條文或根據其他條文而就有關覆核作出的任何裁定，不論是否較經更改或被取代的該裁定嚴苛或寬鬆。因此，由持牌人提出上訴，並不會令結果以原裁定為上限；上限是審裁處本身有權作出的裁定，而非上訴法庭的其他權力；上訴法庭亦不限於原裁定所據的條文。"
   }
  },
  {
@@ -8954,28 +8925,28 @@
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "AMLO s.64",
-   "tc": "《打擊洗錢條例》第64條"
+   "en": "AMLO s.71(3); cf. s.71(4), s.72(1)(d)",
+   "tc": "《打擊洗錢條例》第71(3)條；另見第71(4)條、第72(1)(d)條"
   },
   "en": {
-   "q": "What protection does section 64 give to an authorized institution acting as banker or financial adviser to a review applicant?",
+   "q": "A licensee applies to the Court of Appeal for leave to appeal against the Review Tribunal's determination of its review. The Court considers that only one issue arising out of the determination merits an appeal. What does section 71(3) allow the Court to do?",
    "options": [
-    "Part 6 and Schedule 4 do not require disclosure about any customer other than the applicant",
-    "It need not disclose information relating to the applicant's own affairs, held in its capacity as banker",
-    "It is exempt from ever being required to attend and give evidence before the Tribunal",
-    "It may refuse to produce any document to the Tribunal without giving any reason at all"
+    "Grant leave in respect of that particular issue, subject to any condition it considers necessary",
+    "Grant leave for the whole determination, since leave cannot be confined to a single issue",
+    "Refuse leave, since every issue in the determination must have a reasonable prospect of success",
+    "Remit that issue to the Tribunal to reconsider, and then decide whether to grant leave"
    ],
-   "explain": "Section 64 protects information about the authorized institution's other customers, not the applicant's own affairs — since the applicant is the one seeking review, their own banking affairs are not shielded by this section. Section 64 does not exempt the institution from attending, nor from giving reasons for withholding documents; those matters are instead governed by section 61."
+   "explain": "Section 71(3) provides that leave to appeal may be granted (a) in respect of a particular issue arising out of the determination, and (b) subject to any condition that the Court of Appeal considers necessary in order to secure the just, expeditious and economical disposal of the appeal. Leave is therefore not all-or-nothing for the whole determination. Section 71(4) sets the test as a reasonable prospect of success for the appeal, or some other reason in the interests of justice why it should be heard, not success on every issue; and remitting a matter to the Tribunal is a power the Court of Appeal has on an appeal under section 72(1)(d), not a step taken before leave is decided."
   },
   "tc": {
-   "q": "第64條為擔任覆核申請人的銀行家或財務顧問的認可機構提供甚麼保障？",
+   "q": "持牌人就覆核審裁處對其覆核作出的裁定，向上訴法庭申請上訴許可。上訴法庭認為在該裁定中出現的爭論點當中，只有一個值得上訴。第71(3)條容許上訴法庭怎樣做？",
    "options": [
-    "第6部及附表4並不規定披露該申請人以外任何客戶的資料",
-    "無須披露其以銀行家身分持有的、關於該申請人本身事務的資料",
-    "獲豁免於在任何情況下均須出席審裁處席前作證的一切責任",
-    "可拒絕向審裁處交出任何一份文件，而無須給予任何形式的理由"
+    "可就該特定爭論點，在其認為需要的條件規限下批予上訴許可",
+    "就整項裁定批予上訴許可，因為上訴許可不能只就某一爭論點批予",
+    "拒絕批予許可，因為須每一爭論點均有合理機會得直方可批予",
+    "先將該爭論點發還審裁處重新考慮，然後才決定是否批予許可"
    ],
-   "explain": "第64條保障的是認可機構其他客戶的資料，並非申請人本身的事務——由於申請人正是提出覆核的人，其本身的銀行事務並不受本條保障。第64條並無豁免該機構出席，也無豁免其須就拒絕交出文件說明理由；這些事宜屬第61條規管範圍。"
+   "explain": "第71(3)條訂明，上訴許可(a)可就在有關裁定中出現的某特定爭論點而批予；及(b)可在上訴法庭認為為確使上訴得到公正、迅速及合乎經濟原則的處置而需要的條件規限下批予。因此，上訴許可並非只能就整項裁定批予。第71(4)條所訂的準則，是有關上訴有合理機會得直，或有其他有利於秉行公正的理由，因而該上訴應予審理，而非每一爭論點均須有合理機會得直；將有關事宜發還審裁處，是上訴法庭根據第72(1)(d)條就上訴可行使的權力，並非決定是否批予許可前的步驟。"
   }
  },
  {
@@ -10474,8 +10445,8 @@
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "AMLO s.7(3); cf. s.7(6)",
-   "tc": "《打擊洗錢條例》第7(3)條；另見第7(6)條"
+   "en": "AMLO s.7(3); cf. s.7(6); AML/CFT Guideline for MSOs (Jun 2023) ¶1.1",
+   "tc": "《打擊洗錢條例》第7(3)條；另見第7(6)條；《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.1段"
   },
   "en": {
    "q": "The AML/CFT Guideline for MSOs is published under section 7 of the AMLO. Under section 7(3), what follows once the relevant authority amends it?",
@@ -12193,50 +12164,6 @@
   }
  },
  {
-  "id": "m2-254",
-  "module": 2,
-  "answer": 3,
-  "source": {
-   "en": "AMLO s.5(1)–(4)",
-   "tc": "《打擊洗錢條例》第5(1)至(4)條"
-  },
-  "en": {
-   "q": "Under the AMLO, which of the following statements about the extent to which Schedule 2 has effect with respect to financial institutions are correct?",
-   "statements": [
-    "Subject to the qualifications set out in subsections (2), (3) and (4) of section 5, Schedule 2 has effect with respect to financial institutions generally.",
-    "Schedule 2 has effect with respect to an authorized insurer in relation to all of the business carried on by the insurer, and not only its long term business.",
-    "For a licensed insurance broker company, Schedule 2 has effect only in relation to transactions involving a contract of insurance described in column 3 of Part 2 of Schedule 1 to the Insurance Ordinance.",
-    "Schedule 2 applies to the issue of a stored value facility by an SVF licensee or a bank only where both section 5(4) conditions are met: a maximum storable value above $3,000, and value stored on a physical device."
-   ],
-   "options": [
-    "1, 2 and 3",
-    "1, 2 and 4",
-    "2, 3 and 4",
-    "1, 3 and 4",
-    "All of the above"
-   ],
-   "explain": "Statement 2 is false: section 5(2) provides that Schedule 2 has effect with respect to an authorized insurer only in relation to long term business carried on by the insurer. Statement 1 reproduces section 5(1); statement 3 reproduces the limitation in section 5(3) for a licensed individual insurance agent, licensed insurance agency or licensed insurance broker company; and statement 4 reproduces the two conditions in section 5(4)(a) and (b) for stored value facilities issued by an SVF licensee or a bank."
-  },
-  "tc": {
-   "q": "根據《打擊洗錢條例》，關於附表2就金融機構具有效力的範圍，下列哪些陳述正確？",
-   "statements": [
-    "在第5條第(2)、(3)及(4)款所設各項限制的規限下，附表2就金融機構整體而具有效力。",
-    "附表2就獲授權保險人所經營的所有業務而具有效力，範圍並不僅限於該保險人所經營的長期業務。",
-    "就持牌保險經紀公司而言，附表2的效力範圍僅限於涉及《保險業條例》附表1第2部第3欄所描述的保險合約的有關交易。",
-    "附表2只有在第5(4)條兩項條件均符合（最高可儲存價值超逾$3,000，並儲存於實物裝置）時，方就發行儲值支付工具而適用。"
-   ],
-   "options": [
-    "1、2 及 3",
-    "1、2 及 4",
-    "2、3 及 4",
-    "1、3 及 4",
-    "以上皆是"
-   ],
-   "explain": "陳述2 不正確：第5(2)條訂明附表2就獲授權保險人而具有效力，但範圍僅限於該保險人所經營的長期業務。陳述1 複述第5(1)條；陳述3 複述第5(3)條就持牌個人保險代理、持牌保險代理機構或持牌保險經紀公司所設的限制；陳述4 則複述第5(4)(a)及(b)條就工具持牌人或銀行發行儲值支付工具所設的兩項條件。"
-  },
-  "format": "combination"
- },
- {
   "id": "m2-256",
   "module": 2,
   "answer": 2,
@@ -13037,35 +12964,6 @@
   }
  },
  {
-  "id": "m2-281",
-  "module": 2,
-  "answer": 0,
-  "source": {
-   "en": "AMLO s.5(1)",
-   "tc": "《打擊洗錢條例》第5(1)條"
-  },
-  "en": {
-   "q": "Section 5(1) of the AMLO provides that Schedule 2, which sets out the customer due diligence and record-keeping requirements, has effect with respect to financial institutions, subject to three qualifications in the subsections that follow it. What do those qualifications do?",
-   "options": [
-    "They narrow the Schedule's reach for insurers, insurance intermediaries and stored value facility issuers",
-    "They extend the Schedule to designated non-financial businesses and professions such as solicitors and accountants",
-    "They set the fines and imprisonment for an institution that knowingly contravenes a requirement of the Schedule",
-    "They pick out which requirements of the Schedule count as specified provisions for the offence and disciplinary rules"
-   ],
-   "explain": "The qualifications narrow the Schedule for three kinds of institution: an authorized insurer is covered for its long term business, licensed insurance agents, agencies and broker companies for transactions involving the kinds of insurance contract picked out from the Insurance Ordinance, and an SVF licensee or bank issuing a stored value facility where the facility can store more than $3,000 and is a physical device. Extending the Schedule to designated non-financial businesses and professions is done by a separate section of the Ordinance, the penalties for knowing contravention belong to the offence provisions rather than to the scope of the Schedule, and the list of specified provisions is a definition, not a qualification on the Schedule's effect."
-  },
-  "tc": {
-   "q": "《打擊洗錢條例》第5(1)條訂明，載有客戶盡職審查及備存紀錄規定的附表2就金融機構而具有效力，但受其後各款的三項規限所限。該等規限有何作用？",
-   "options": [
-    "限制附表2對保險人、保險中介人及儲值支付工具發行人的適用範圍",
-    "將附表2的整個適用範圍擴展至律師及會計師等各類指定非金融業人士",
-    "訂明金融機構明知而違反附表2所訂規定時可被判處的罰款及監禁刑罰",
-    "指出附表2當中的哪些規定就罪行條文及紀律行動而言屬於指明的條文"
-   ],
-   "explain": "該等規限就三類機構收窄附表2的適用範圍：獲授權保險人僅就其長期業務受涵蓋，持牌保險代理、代理機構及經紀公司僅就涉及《保險業條例》所指明類別的保險合約的交易受涵蓋，工具持牌人或銀行發行儲值支付工具，則只在該工具可儲存超逾$3,000的價值且屬實物裝置時才受涵蓋。將附表2擴展至指定非金融業人士由本條例另一條文處理，明知而違反的刑罰屬罪行條文而非附表2適用範圍的事宜，而指明的條文的列表是一項定義，並非對附表2效力的規限。"
-  }
- },
- {
   "id": "m2-282",
   "module": 2,
   "answer": 0,
@@ -13201,28 +13099,28 @@
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "AMLO s.35(2); s.36(2); s.37(2)",
-   "tc": "《打擊洗錢條例》第35(2)、36(2)及37(2)條"
+   "en": "AMLO s.35(2); s.36(2); s.37(2); Licensing Guide (May 2026) §8.1–8.3",
+   "tc": "《打擊洗錢條例》第35(2)、36(2)及37(2)條；《牌照指引》（2026年5月）第8.1至8.3段"
   },
   "en": {
-   "q": "What must accompany an application for the Commissioner's approval of a proposed director, ultimate owner or partner?",
+   "q": "What does the AMLO require of an application for the Commissioner's approval of a proposed director, ultimate owner or partner of a licensee?",
    "options": [
     "The Schedule 3 fee, with the application made in the form and manner the Commissioner specifies",
     "The Schedule 3 fee, lodged with the Commissioner at least 45 days before the appointment is to take effect",
-    "A sworn declaration by the proposed appointee describing their personal financial position",
+    "A copy of the licensee's latest audited accounts, lodged with the Commissioner",
     "A police certificate confirming the proposed appointee has no criminal conviction"
    ],
-   "explain": "Sections 35(2), 36(2) and 37(2) each require the application to be made in the form and manner the Commissioner specifies and to be accompanied by the Schedule 3 fee. There is no 45-day pre-lodgement deadline for these approvals - that 45-day rule instead applies to a licence renewal application under section 31 - and no sworn declaration or police certificate is required."
+   "explain": "Sections 35(2), 36(2) and 37(2) each require the application to be made in the form and manner specified by the Commissioner and to be accompanied by the fee specified in Schedule 3. There is no 45-day pre-lodgement deadline for these approvals - that 45-day rule instead applies to a licence renewal application under section 31 - and the Ordinance does not require the licensee's audited accounts or a police certificate to accompany the application. The Licensing Guide (§8.1–8.3) adds that the licensee applies in Form 4 and the proposed director, ultimate owner or partner submits the fit and proper person declaration form."
   },
   "tc": {
-   "q": "就擬任董事、最終擁有人或合夥人向海關關長申請批准時，須連同甚麼一併提交？",
+   "q": "就擬任持牌人董事、擬任持牌人最終擁有人或擬成為持牌人合夥人的人，要求關長給予批准的申請須符合甚麼規定？",
    "options": [
-    "附表3指明的費用，並須按關長指明的格式及方式提出申請",
-    "附表3指明的費用，並須於委任生效前45日提出申請",
-    "擬任者就其本人財政狀況所作的宣誓聲明書",
-    "確認擬任者並無任何刑事定罪紀錄的警方證明書"
+    "須附隨附表3指明的費用，並以關長指明的格式及方式提出",
+    "須附隨附表3指明的費用，並於委任生效前45日或之前提出",
+    "須附隨持牌人最近期經審計帳目的副本，並交予關長",
+    "須附隨確認該人並無任何刑事定罪紀錄的警方證明書"
    ],
-   "explain": "第35(2)、36(2)及37(2)條均規定申請須按關長指明的格式及方式提出，並須連同附表3指明的費用一併提交。這類批核申請並無45日的提前遞交期限——該45日規定屬第31條牌照續期申請的規定——亦無須提交宣誓聲明或警方證明書。"
+   "explain": "第35(2)、36(2)及37(2)條均規定，要求關長給予批准的申請須以關長指明的格式及方式提出，並附隨附表3指明的費用。這類批准申請並無須於委任生效前45日提出的規定——45日的規定屬第31條牌照續期申請的規定——條例亦無規定申請須附隨持牌人經審計帳目的副本或警方證明書。《牌照指引》第8.1至8.3段另訂明，持牌人需要填寫表格4以提出申請，而擬成為董事、最終擁有人或合夥人的人則須遞交適當人選聲明表格。"
   }
  },
  {
@@ -13699,28 +13597,28 @@
   "module": 2,
   "answer": 0,
   "source": {
-   "en": "AMLO s.53; s.29(2); ss.38(8), 39A(2) & 40(4)",
-   "tc": "《打擊洗錢條例》第53條；第29(2)條；第38(8)、39A(2)及40(4)條"
+   "en": "AMLO s.48(6)",
+   "tc": "《打擊洗錢條例》第48(6)條"
   },
   "en": {
-   "q": "Failing to notify the Commissioner of a change in particulars within one month is an offence under section 40(1). Under section 53, within what period after the Commissioner discovers this offence must proceedings be instituted?",
+   "q": "An authorized officer arrests a person under section 48 on suspicion of operating a money service without a licence, and searches the place of arrest. There the officer finds a notebook recording remittances. Under section 48(6), what may the officer do with the notebook?",
    "options": [
-    "12 months after the offence is discovered by or comes to the notice of the Commissioner",
-    "6 months after the offence is discovered by, or comes to the notice of, the Commissioner",
-    "12 months after the offence is committed, regardless of when it is discovered",
-    "24 months after the offence is discovered by, or comes to the notice of, the Commissioner"
+    "Take possession of it if the officer has reasonable grounds to suspect it is related to the suspected offence",
+    "Apply to a magistrate for a section 47 warrant, as the arrest gives no power to take possession of it",
+    "Record what it contains, but return it to the arrested person within a reasonable time after the search",
+    "Take possession of it once the occupier of the place of arrest has consented in writing to its removal"
    ],
-   "explain": "Section 53 provides that, despite section 26 of the Magistrates Ordinance, proceedings for a Part 5 offence other than an indictable offence — such as the section 40(1) notification offence, which section 40(4) punishes only on conviction — may be instituted within 12 months after the offence is discovered by, or comes to the notice of, the Commissioner. The clock runs from discovery, not from when the offence was committed, and the period is 12 months, not 6 or 24."
+   "explain": "Section 48(6) provides that, where an authorized officer has arrested a person under the section, the officer may (a) search the person, or the place at which the person has been arrested and its surrounding areas, for anything that may be related to the suspected offence, and (b) take possession of anything found in that search that the officer has reasonable grounds to suspect is related to the suspected offence. The arrest itself carries that power, so no warrant under section 47 and no consent of the occupier is needed, and section 48(6) does not require the officer to hand the notebook back to the arrested person after recording its contents."
   },
   "tc": {
-   "q": "沒有在一個月內以書面向關長具報詳情的改變，即屬第40(1)條所訂罪行。根據第53條，關長發現該罪行後，須在甚麼期間內提出法律程序？",
+   "q": "獲授權人員根據第48條，以涉嫌犯無牌經營金錢服務的罪行為由，在某地方拘捕一人，並在搜查該地方時發現一本記錄匯款的簿冊。根據第48(6)條，該人員可如何處理該簿冊？",
    "options": [
-    "關長發現或知悉該罪行後12個月內",
-    "關長發現或知悉該罪行後6個月內",
-    "該罪行發生後12個月內，不論何時被發現",
-    "關長發現或知悉該罪行後24個月內"
+    "如該人員有合理理由懷疑該簿冊屬關乎涉嫌罪行的物件，可予以接管",
+    "須先向裁判官申請第47條手令，因為拘捕本身不賦予接管該簿冊的權力",
+    "可記錄簿冊的內容，但須在搜查後的合理時間內把簿冊交還被捕人",
+    "須待該地方的佔用人書面同意移走該簿冊後，方可予以接管"
    ],
-   "explain": "第53條訂明，即使《裁判官條例》第26條有任何規定，就第5部所訂罪行（可公訴罪行除外）——例如第40(1)條的具報罪行，該罪行只按第40(4)條循定罪程序處罰——而提出的法律程序，可於關長發現或知悉有關罪行後12個月內提出。時限的起算點是發現之時，而非罪行發生之時，且期間為12個月，並非6個月或24個月。"
+   "explain": "第48(6)條訂明，如獲授權人員已根據該條在某地方拘捕任何人，該人員可(a)搜查該人或該地方及其周邊範圍，以搜尋可能關乎與涉嫌罪行有關的任何物件；及(b)接管因行使(a)段所指的權力而發現的、該人員有合理理由懷疑屬關乎涉嫌罪行的任何物件。該項權力隨拘捕而產生，故無須根據第47條發出的手令，亦無須佔用人同意；第48(6)條亦沒有規定該人員在記錄簿冊的內容後，須把簿冊交還被捕人。"
   }
  },
  {
@@ -17852,8 +17750,8 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 3, items 6, 7 & 8 (as amended, effective 15 May 2026)",
-   "tc": "《打擊洗錢條例》附表3第6、7及8項（2026年5月15日生效的修訂）"
+   "en": "AMLO Sch. 3, items 6, 7 & 8; cf. items 4, 5, 9 & 10 (as amended, effective 15 May 2026)",
+   "tc": "《打擊洗錢條例》附表3第6、7及8項；另見第4、5、9及10項（2026年5月15日生效的修訂）"
   },
   "en": {
    "q": "What fee is payable for an application for approval to become a licensee's director, ultimate owner or partner?",
@@ -17863,17 +17761,17 @@
     "$2,440 for each person in relation to whom it is made",
     "$410 for each person named in the application form"
    ],
-   "explain": "Items 6, 7 and 8 of Schedule 3 each set the fee at $945 for each person in relation to whom the application is made. The fee is per person, not per application."
+   "explain": "Items 6, 7 and 8 of Schedule 3 each set the fee at $945 for each person in relation to whom the application is made. The fee is per person, not per application. $2,440 is the fee for each additional business premises on an application for the grant of a licence (item 4), for each new business premises on an application to add new business premises (item 9), and for each business premises on an application to operate a money service at particular premises (item 10); $410 is the fee for each additional business premises on an application for the renewal of a licence (item 5)."
   },
   "tc": {
    "q": "就申請批准成為持牌人的董事、最終擁有人或合夥人，須繳付甚麼費用？",
    "options": [
-    "就每名有關申請所關乎的人繳付945元",
+    "就提出申請所關乎的每一人繳付945元",
     "不論人數多少，整份申請均只繳付945元",
     "就每名有關的人繳付2,440元",
-    "就申請所列的每名人繳付410元"
+    "就申請所列的每一人繳付410元"
    ],
-   "explain": "附表3第6、7及8項均訂明就每名有關申請所關乎的人繳付945元。該費用按人數計算，而非按申請份數計算。"
+   "explain": "附表3第6、7及8項均訂明就提出申請所關乎的每一人繳付945元。該費用按人數計算，而非按申請份數計算。2,440元是申請批給牌照時就每多一個營業處所另加的費用（第4項）、申請要求加入新的營業處所時每一新的營業處所的費用（第9項），以及申請要求在特定處所經營金錢服務時每一營業處所的費用（第10項）；410元是申請牌照續期時就每多一個營業處所另加的費用（第5項）。"
   }
  },
  {
@@ -18902,8 +18800,8 @@
   "module": 3,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 4, s.9(3)",
-   "tc": "《打擊洗錢條例》附表4第9(3)條"
+   "en": "AMLO Sch. 4, s.9(3); s.71(2)",
+   "tc": "《打擊洗錢條例》附表4第9(3)條；第71(2)條"
   },
   "en": {
    "q": "What is the status of the Tribunal when the chairperson determines a matter as its sole member?",
@@ -18913,17 +18811,17 @@
     "Its determination binds only the applicant, not the specified authority",
     "Its determination may be appealed without the leave of the Court of Appeal"
    ],
-   "explain": "Section 9(3) of Schedule 4 provides that where the chairperson determines a review as sole member under subsection (1) or (2), the Tribunal so constituted is to be regarded for all purposes as the Tribunal constituted also by 2 ordinary members."
+   "explain": "Section 9(3) of Schedule 4 provides that where the chairperson determines a review as the sole member of the Tribunal under subsection (1) or (2), the Tribunal constituted by the chairperson as the sole member is to be regarded for all purposes as the Tribunal constituted also by 2 ordinary members. Because it is regarded for all purposes as that Tribunal, its determination is neither provisional nor binding on the applicant alone, and an appeal against it to the Court of Appeal still needs that Court's leave under section 71(2)."
   },
   "tc": {
    "q": "當主席以審裁處唯一成員身分裁定事宜時，審裁處具有甚麼地位？",
    "options": [
-    "視為亦由2名普通成員組成的審裁處",
+    "須視為連同2名普通成員構成的審裁處",
     "其裁定屬臨時性質，直至獲2名普通成員追認",
     "其裁定只對申請人具約束力，對指明當局則否",
     "其裁定可無須上訴法庭許可即提出上訴"
    ],
-   "explain": "附表4第9(3)條訂明，如主席根據第(1)或(2)款以唯一成員身分裁定覆核，則如此組成的審裁處就一切目的而言，視為亦由2名普通成員組成的審裁處。"
+   "explain": "附表4第9(3)條訂明，如主席根據第(1)或(2)款作為審裁處唯一成員裁定某項覆核，則由主席作為審裁處唯一成員構成的審裁處，就所有目的而言，須視為連同2名普通成員構成的審裁處。由於該審裁處就所有目的而言須視為連同2名普通成員構成的審裁處，其裁定既非臨時性質，亦非只約束申請人；針對該裁定向上訴法庭提出上訴，仍須根據第71(2)條獲上訴法庭批予上訴許可。"
   }
  },
  {
@@ -21068,52 +20966,6 @@
   "format": "combination"
  },
  {
-  "id": "m3-233",
-  "module": 3,
-  "answer": 0,
-  "source": {
-   "en": "AMLO Sch. 1, Part 2 (definition of “relevant authority”)",
-   "tc": "《打擊洗錢條例》附表1第2部（「有關當局」的定義）"
-  },
-  "en": {
-   "q": "Under the definition of “relevant authority” in Part 2 of Schedule 1 to the AMLO, which of the following statements are correct?",
-   "statements": [
-    "In relation to an authorized institution, an SVF licensee or a stablecoin licensee, the relevant authority is the Monetary Authority.",
-    "In relation to a licensed money service operator, and also in relation to the Postmaster General, the relevant authority is the Commissioner.",
-    "In relation to an authorized insurer, a licensed insurance agent, agency or broker company, the relevant authority is the Insurance Authority.",
-    "In relation to a licensed corporation, the relevant authority is the Monetary Authority rather than the Securities and Futures Commission.",
-    "In relation to a TCSP licensee, the relevant authority is the Commissioner rather than the Registrar, who has no role under this definition."
-   ],
-   "options": [
-    "1, 2 and 3",
-    "2, 3 and 4",
-    "1, 3 and 4",
-    "1, 2 and 5",
-    "3, 4 and 5"
-   ],
-   "explain": "Statements 4 and 5 are false. Statement 4: paragraph (b) makes the Securities and Futures Commission, not the Monetary Authority, the relevant authority in relation to a licensed corporation. Statement 5: paragraph (e) makes the Registrar the relevant authority in relation to a TCSP licensee; the Commissioner is the relevant authority for a licensed money service operator, the Postmaster General and a PMS registrant. Statements 1, 2 and 3 are correct: paragraph (a) names the Monetary Authority for an authorized institution, SVF licensee or stablecoin licensee; paragraph (d) names the Commissioner for a licensed money service operator or the Postmaster General; and paragraph (c) names the Insurance Authority for an authorized insurer, licensed individual insurance agent, licensed insurance agency or licensed insurance broker company."
-  },
-  "tc": {
-   "q": "根據《打擊洗錢條例》附表1第2部「有關當局」的定義，下列哪些陳述正確？",
-   "statements": [
-    "就認可機構、工具持牌人或穩定幣持牌人而言，有關當局指金融管理專員。",
-    "就持牌金錢服務經營者而言，以及就郵政署署長而言，有關當局均指關長。",
-    "就獲授權保險人、持牌保險代理、保險代理機構或保險經紀公司而言，有關當局指保監局。",
-    "就持牌法團而言，有關當局指金融管理專員，而並非證券及期貨事務監察委員會。",
-    "就信託或公司服務持牌人而言，有關當局指關長而非處長，處長在該定義下並無角色。"
-   ],
-   "options": [
-    "1、2 及 3",
-    "2、3 及 4",
-    "1、3 及 4",
-    "1、2 及 5",
-    "3、4 及 5"
-   ],
-   "explain": "陳述4 及 5 不正確。陳述4：(b)段訂明就持牌法團而言，有關當局指證監會而非金融管理專員。陳述5：(e)段訂明就信託或公司服務持牌人而言，有關當局指處長；關長是持牌金錢服務經營者、郵政署署長及貴金屬及寶石註冊人的有關當局。陳述1、2 及 3 正確：(a)段訂明就認可機構、工具持牌人或穩定幣持牌人而言指金融管理專員；(d)段訂明就持牌金錢服務經營者或郵政署署長而言指關長；(c)段則訂明就獲授權保險人、持牌個人保險代理、持牌保險代理機構或持牌保險經紀公司而言指保監局。"
-  },
-  "format": "combination"
- },
- {
   "id": "m3-234",
   "module": 3,
   "answer": 0,
@@ -21330,35 +21182,6 @@
    "explain": "陳述1錯誤：第18(7)條將中介人金融機構界定為第18(3)(b)款所述的金融機構，即認可機構、持牌法團、獲授權保險人、持牌個人保險代理、持牌保險代理機構或持牌保險經紀公司，各者均為香港機構。以香港以外地方界定的，是相關外地金融機構。陳述2、3及4正確：相關外地金融機構須在香港以外地方經營與中介人金融機構所經營的業務相類似的業務，並須屬所列描述之一，其中首項是與藉中介人執行措施的金融機構屬同一公司集團；集團政策則指該金融機構所屬的公司集團的政策，而該政策同時適用於該機構及有關的相關外地金融機構。"
   },
   "format": "combination"
- },
- {
-  "id": "m3-241",
-  "module": 3,
-  "answer": 0,
-  "source": {
-   "en": "AMLO Sch. 1, Part 2 (definition of “Law Society”)",
-   "tc": "《打擊洗錢條例》附表1第2部（「律師會」的定義）"
-  },
-  "en": {
-   "q": "What does “Law Society” mean in Part 2 of Schedule 1 to the AMLO?",
-   "options": [
-    "The Law Society of Hong Kong",
-    "The Hong Kong Bar Association",
-    "Any body regulating legal practitioners",
-    "The Legal Practitioners Registration Committee"
-   ],
-   "explain": "Part 2 of Schedule 1, added in 2018, defines Law Society as The Law Society of Hong Kong. It is one of the bodies to which a relevant authority may disclose information under section 76D(1)(g)."
-  },
-  "tc": {
-   "q": "《打擊洗錢條例》附表1第2部中「律師會」指甚麼？",
-   "options": [
-    "香港律師會",
-    "香港大律師公會",
-    "規管法律執業者的團體",
-    "法律執業者登記委員會"
-   ],
-   "explain": "2018年加入的附表1第2部界定「律師會」為香港律師會。該會是有關當局可根據第76D(1)(g)條向其披露資料的團體之一。"
-  }
  },
  {
   "id": "m3-242",
@@ -22212,28 +22035,28 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Licensing Guide (May 2026) §4.15(a)",
-   "tc": "《牌照指引》（2026年5月）第4.15(a)段"
+   "en": "Licensing Guide (May 2026) §4.15(a), §5.10(g), §7.1(i)",
+   "tc": "《牌照指引》（2026年5月）第4.15(a)、5.10(g)及7.1(i)段"
   },
   "en": {
    "q": "Which statement about the appointment of the CO and MLRO as a licensing requirement is CORRECT?",
    "options": [
-    "Unless an owner, partner or director, CO/MLRO must be an employee",
-    "The CO and MLRO may be freelance consultants paid per assignment",
-    "The CO and MLRO roles may be left vacant for up to twelve months",
-    "The CO must hold a law degree and the MLRO an accounting one"
+    "Unless a sole proprietor, partner, director or ultimate owner, CO/MLRO must be an employee",
+    "The CO and MLRO may be freelance consultants engaged by the applicant and paid per assignment",
+    "The CO and MLRO roles may be left vacant for up to twelve months after the licence is granted",
+    "The CO must hold a law degree and the MLRO a professional accounting qualification"
    ],
-   "explain": "§4.15(a): an applicant must appoint a competent CO and MLRO; except where the sole proprietor, partner, director or ultimate owner is also the CO/MLRO, they must be the applicant's employee under the Employment Ordinance (Cap. 57) — not a freelance consultant. Failing to appoint or maintain a competent CO/MLRO (there is no year-long grace period) is a ground for refusing, suspending or revoking a licence (§5.10(g), §7.1(i)); the Guideline sets no professional-qualification rule such as CO-as-lawyer or MLRO-as-accountant."
+   "explain": "§4.15(a): an applicant must appoint a competent CO and MLRO; except where the sole proprietor, partner, director or ultimate owner of the applicant is also the CO and MLRO, they must be the applicant's employee under the Employment Ordinance (Cap. 57), not a freelance consultant. Failing to appoint a competent CO or MLRO is a ground on which the CCE may refuse a licence (§5.10(g)), and a licensee that fails to appoint or maintain one may have its licence revoked or suspended (§7.1(i)), so there is no year-long vacancy period. Neither the Licensing Guide nor the AML/CFT Guideline requires a law degree for the CO or an accounting qualification for the MLRO."
   },
   "tc": {
    "q": "關於委任合規主任及洗錢報告主任作為發牌規定，下列哪項正確？",
    "options": [
-    "除獨資經營者、合夥人或董事外，須為僱員",
-    "可委任按項目收費的自由身顧問擔任有關職位",
-    "有關職位可懸空長達十二個月",
-    "二者須分別為律師及會計師"
+    "除獨資經營者、合夥人、董事或最終擁有人外，須為僱員",
+    "可由申請人委聘按項目收費的自由身顧問擔任有關職位",
+    "在獲批牌照後，有關職位可以懸空長達十二個月",
+    "合規主任須持法律學位，洗錢報告主任須持專業會計資格"
    ],
-   "explain": "第4.15(a)段：申請人須委任合資格的合規主任及洗錢報告主任；除由獨資經營者、合夥人、董事或最終擁有人兼任外，兩者必須是申請人按《僱傭條例》（第57章）定義的僱員，而非自由顧問。未能委任或維持合資格的合規主任／洗錢報告主任（並無長達一年的寬限期）是拒絕批給、暫時吊銷或撤銷牌照的理由（第5.10(g)及7.1(i)段）；指引並無規定合規主任須為律師、洗錢報告主任須為會計師等專業資格。"
+   "explain": "第4.15(a)段：申請人須委任合資格的合規主任及洗錢報告主任；除非申請人的獨資經營者、合夥人、董事或最終擁有人同時擔任合規主任及洗錢報告主任，否則兩者必須是按《僱傭條例》（第57章）所界定受聘於申請人的僱員，而非自由身顧問。申請人未能委任合資格的合規主任或洗錢報告主任，關長可拒絕批給牌照（第5.10(g)段）；持牌人未能委任或維持具備合資格的合規主任或洗錢報告主任，關長可撤銷或暫時吊銷牌照（第7.1(i)段），因此並無長達一年的懸空期。《牌照指引》及《打擊洗錢及恐怖分子資金籌集指引》均無規定合規主任須持法律學位，或洗錢報告主任須持會計資格。"
   }
  },
  {
@@ -25212,28 +25035,28 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Licensing Guide (May 2026) §2.11; AMLO s.29(2)(b)",
-   "tc": "《牌照指引》（2026年5月）第2.11段；《打擊洗錢條例》第29(2)(b)條"
+   "en": "Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018) ¶9(a)(iv)",
+   "tc": "《施加罰款紀律行動指引》（2018年4月）第9(a)(iv)段"
   },
   "en": {
-   "q": "According to the Licensing Guide, what is the penalty on summary conviction for operating a money service without a licence?",
+   "q": "A licensee's contravention could have caused loss to some of its customers, but in the event none of them lost anything. How does the Disciplinary Action Guideline on Imposition of Pecuniary Penalty treat this when the CCE assesses the seriousness of the contravention?",
    "options": [
-    "A fine of $100,000 and imprisonment for 6 months",
-    "A fine of $50,000 and imprisonment for 6 months",
-    "A fine of $1,000,000 and 2 years' imprisonment",
-    "A fine of $200,000 and imprisonment for 1 year"
+    "It still counts: a listed factor is whether the contravention caused or had the potential to cause loss to any other person",
+    "It does not count: the listed factor covers loss that another person has actually suffered, not loss that might have occurred",
+    "It counts if the customers affected lodge written complaints with the CCE, and is otherwise disregarded",
+    "It is weighed under the licensee's conduct after the contravention, not under the contravention's impact"
    ],
-   "explain": "Paragraph 2.11 states the section 29(2) penalties as, on conviction on indictment, a fine of HK$1,000,000 and imprisonment for 2 years; or on summary conviction, a fine of $100,000 and imprisonment for 6 months. The $100,000 figure corresponds to a fine at level 6 in the AMLO's own wording."
+   "explain": "Paragraph 9 of the guideline lists factors that the CCE takes into account in determining the seriousness of a contravention. Among those on the nature, seriousness and impact of the contravention, paragraph 9(a)(iv) lists whether the contravention caused or had the potential to cause loss to, or imposed or had the potential to impose costs on, any other person, so a potential loss counts although no customer lost anything. The factor does not depend on a written complaint, and it sits under the nature, seriousness and impact of the contravention in paragraph 9(a), not under the licensee's conduct after the contravention in paragraph 9(b)."
   },
   "tc": {
-   "q": "根據《牌照指引》，無牌經營金錢服務循簡易程序定罪的刑罰為何？",
+   "q": "某持牌人的違規行為本有可能對其部分客戶造成損失，但結果並無任何客戶蒙受損失。關長在決定該違規行為的嚴重性時，《施加罰款紀律行動指引》如何看待這情況？",
    "options": [
-    "罰款100,000元及監禁6個月",
-    "罰款50,000元及監禁6個月",
-    "罰款1,000,000元及監禁2年",
-    "罰款200,000元及監禁1年"
+    "仍須考慮：所列因素包括該違規行為會否對其他人造成或有可能造成損失",
+    "無須考慮：所列因素涵蓋其他人實際蒙受的損失，不包括可能造成的損失",
+    "如受影響的客戶向關長提出書面投訴，便須考慮，否則不予理會",
+    "屬持牌人作出違規行為後的行為方面的考慮，而非違規行為的影響"
    ],
-   "explain": "第2.11段訂明第29(2)條的刑罰為：循公訴程序定罪，罰款1,000,000港元及監禁2年；或循簡易程序定罪，罰款100,000元及監禁6個月。該100,000元相當於《打擊洗錢條例》本身表述的第6級罰款。"
+   "explain": "指引第9段列出關長在決定違規行為的嚴重性時會考慮的因素。在有關違規行為的性質、嚴重性及影響之下，第9(a)(iv)段列出該違規行為會否對其他人造成或有可能造成損失，或使其他人或可能使其他人承擔支出；因此，即使並無客戶實際蒙受損失，可能造成的損失仍須考慮。該因素並不以書面投訴為前提，並屬第9(a)段所列有關違規行為的性質、嚴重性及影響，而非第9(b)段所列持牌人作出違規行為後的行為。"
   }
  },
  {
@@ -25594,24 +25417,24 @@
    "tc": "《牌照指引》（2026年5月）第4.7及4.11段"
   },
   "en": {
-   "q": "What must the landlord of an LMO or LPS do, and how must it be evidenced?",
+   "q": "What does the Licensing Guide require concerning the landlord of an LMO or LPS?",
    "options": [
     "Grant permission to use the premises, recorded in the tenancy agreement or a landlord's letter",
     "Confirm in writing to C&ED that the premises are not situated in a wholly residential building",
     "Give a personal undertaking to the CCE that the premises will remain available for inspection at all times",
     "Register the signed tenancy agreement with the Land Registry before the application is submitted"
    ],
-   "explain": "Both paragraphs state that the landlord of the LMO or LPS must grant permission to the licensee to use the premises for money service business, recorded in the tenancy agreement or in a letter from the landlord to the applicant. Confirming the building type is a paragraph 4.6 suitability matter for the CCE (not a landlord duty), a personal undertaking of continuous availability is not required, and Land Registry registration of the tenancy is not mentioned anywhere in the Licensing Guide."
+   "explain": "Paragraphs 4.7 and 4.11 state that the landlord of the LMO or LPS must grant permission to the licensee (the MSO, in paragraph 4.11) to use the premises for money service business, which should be included in the tenancy agreement or in a letter issued by the landlord to the applicant. Confirming the building type is a paragraph 4.6 suitability matter that C&ED considers (not a landlord duty), a personal undertaking of continuous availability is not required, and Land Registry registration of the tenancy is not mentioned anywhere in the Licensing Guide."
   },
   "tc": {
-   "q": "本地管理辦事處或本地儲存帳目及紀錄地點的業主須作出甚麼？須如何證明？",
+   "q": "就本地管理辦事處或本地儲存帳目及紀錄地點的業主，《牌照指引》有何規定？",
    "options": [
     "准許將處所用於業務，並納入租約內或業主發出的准許信中",
     "向海關書面確認該處所並非位於純住宅樓宇內，而是混合式商住樓宇",
     "向關長作出個人承諾，保證該處所在任何時候均可供視察及查閱",
     "在遞交申請前，將已簽署的租約正本於土地註冊處註冊備案"
    ],
-   "explain": "兩段均訂明本地管理辦事處或本地儲存帳目及紀錄地點的業主，必須准許持牌人使用該處所經營金錢服務業務，有關准許應納入該處所的租約，或由業主向申請人發出的准許信。確認樓宇類別屬第4.6段關長考慮處所適合性的事宜（並非業主的責任），保證處所隨時可供視察並非規定，而《牌照指引》亦無提及須將租約於土地註冊處註冊。"
+   "explain": "第4.7段訂明，持牌人必須獲本地管理辦事處的業主准許使用處所經營金錢服務業務；第4.11段訂明，金錢服務經營者必須獲本地儲存帳目及紀錄地點的業主准許使用該處所經營金錢服務業務；有關准許應納入該處所的租約，或由業主向申請人發出的准許信。確認樓宇類別屬第4.6段海關考慮處所是否適合的事宜（並非業主的責任），保證處所隨時可供視察並非規定，而《牌照指引》亦無提及須將租約於土地註冊處註冊。"
   }
  },
  {
@@ -26129,8 +25952,8 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Licensing Guide (May 2026) §2.7",
-   "tc": "《牌照指引》（2026年5月）第2.7段"
+   "en": "Licensing Guide (May 2026) §2.7, §2.11",
+   "tc": "《牌照指引》（2026年5月）第2.7及2.11段"
   },
   "en": {
    "q": "When must a person apply for an MSO licence?",
@@ -26140,7 +25963,7 @@
     "Within 45 days of starting to operate a money service",
     "At any time, provided operations cease pending the decision"
    ],
-   "explain": "Paragraph 2.7 states that a person must apply for a licence from the CCE before he or she operates a money service. Operating without a licence is an offence under section 29(1) of the AMLO."
+   "explain": "Paragraph 2.7 states that a person must apply for a licence from the CCE before he or she operates a money service. Paragraph 2.11 adds that section 29(1) of the AMLO makes it an offence to operate a money service without a licence."
   },
   "tc": {
    "q": "某人須於何時申請金錢服務經營者牌照？",
@@ -26150,7 +25973,7 @@
     "在開始經營金錢服務後45日內",
     "任何時間均可，只要在決定前暫停營運"
    ],
-   "explain": "第2.7段訂明任何人須在經營金錢服務之前，向海關關長申請牌照。無牌經營屬《打擊洗錢條例》第29(1)條所訂罪行。"
+   "explain": "第2.7段訂明，任何人在經營金錢服務前必須向關長申請牌照。第2.11段指出，《打擊洗錢條例》第29(1)條訂明任何人在沒有牌照的情況下經營金錢服務，即屬犯罪。"
   }
  },
  {
@@ -30621,7 +30444,7 @@
   "tc": {
    "q": "申請人在牌照申請中故意遺漏其中一個業務處所。可能招致哪兩項後果？",
    "options": [
-    "第52(2)條：罰款50,000元，監禁6個月，申請不完整拒絕批給牌照",
+    "屬第52(2)條罪行，最高罰款50,000元及監禁6個月，申請亦可因不完整被拒",
     "只會收到香港海關發出的書面警告信，不構成任何罪行，亦完全不影響申請結果",
     "只會延誤申請的處理程序，因該遺漏在指引下被視為輕微的文書錯誤而已",
     "其後獲批的任何牌照均會自動被撤銷，而遺漏本身不會構成任何獨立的刑事罪行"
@@ -30764,28 +30587,28 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Circular MSSB/MIS_02/2025 (30 May 2025) ¶1–¶2 — existing quarterly mechanism and effective date of the adjustment",
-   "tc": "香港海關通函 MSSB/MIS_02/2025（2025年5月30日）第1至2段——現存每季機制及調整生效日期"
+   "en": "Circular MSSB/MIS_02/2025 (30 May 2025) ¶2–¶3 — the aim of the adjusted lodgement arrangement",
+   "tc": "香港海關通函 MSSB/MIS_02/2025（2025年5月30日）第2至3段——調整遞交安排的目的"
   },
   "en": {
-   "q": "According to the C&ED circular of 30 May 2025, how was a periodic return lodged under the existing mechanism, and with effect from what date did the C&ED adjust the lodgement arrangement?",
+   "q": "What aim does the C&ED circular of 30 May 2025 give for its adjusted lodgement arrangement for periodic returns?",
    "options": [
-    "Quarterly, based on the start date of the MSO licence; adjusted with effect from 30 June 2025",
-    "Quarterly, based on the calendar quarter of the year; adjusted with effect from 1 July 2025",
-    "Every month, based on the calendar month of the year; adjusted with effect from 30 June 2025",
-    "Annually, based on the start date of the MSO licence; adjusted with effect from 1 January 2026"
+    "To allow licensees sufficient time to prepare accurate information, and to ease submission",
+    "To align each return with the licensee's financial year and its audited accounts",
+    "To let the C&ED pass each licensee's return to overseas regulators twice a year",
+    "To bring the returns into line with the renewal cycle of the two-year MSO licence"
    ],
-   "explain": "Paragraph 1 says that under the existing mechanism a periodic return is lodged quarterly based on the start date of the MSO licence, i.e. four submissions a year, and paragraph 2 says the C&ED will adjust the lodgement arrangement with effect from 30 June 2025. The return was tied to the licence's start date rather than to calendar quarters or months, it was not annual, and neither 1 July 2025 nor 1 January 2026 is the date the adjustment took effect: 1 July 2025 is only the date from which the first new return was to be lodged."
+   "explain": "Paragraph 2 says the C&ED adjusted the lodgement arrangement for periodic returns with a view to allowing sufficient time for MSO licensees to prepare accurate information and facilitating the submission process; under paragraph 3 the new arrangement is half-yearly, with returns covering 1 January to 30 June and 1 July to 31 December of each year. The returns follow those half-years, not a licensee's financial year or the two-year licence period, and the circular says nothing about passing returns to overseas regulators."
   },
   "tc": {
-   "q": "根據香港海關2025年5月30日的通函，按現存機制，定期申報表是如何遞交的？海關又由何日起調整遞交安排？",
+   "q": "香港海關2025年5月30日的通函調整定期申報表的遞交安排，所述目的為何？",
    "options": [
-    "由牌照生效日期起計每季遞交；由2025年6月30日起調整",
-    "由每年的曆季起計每季遞交；由2025年7月1日起調整",
-    "由每年的曆月起計每月遞交；由2025年6月30日起調整",
-    "由牌照生效日期起計每年遞交一次；由2026年1月1日起調整"
+    "讓持牌人有充足時間籌備準確資料，使遞交過程更順利",
+    "使每份申報表與持牌人的財政年度及經審計帳目一致",
+    "讓海關每年兩次把各份申報表轉交海外監管機構",
+    "使申報表與兩年有效期牌照的續期周期互相配合"
    ],
-   "explain": "第1段指出，按現存機制，定期申報表須在金錢服務經營者牌照生效日期起計每季遞交，即每年4次；第2段則指海關會在2025年6月30日調整定期申報表遞交安排。申報表是以牌照生效日期而非曆季或曆月計算，亦非每年遞交一次；2025年7月1日及2026年1月1日均非調整生效的日期——2025年7月1日只是須開始遞交第一份新定期申報表的日期。"
+   "explain": "第2段指出，為讓金錢服務經營者有充足時間籌備準確資料，使遞交過程更順利，海關調整了定期申報表遞交安排；按第3段，新安排為每半年遞交一次，分別涵蓋每年1月1日至6月30日及7月1日至12月31日的交易資料。申報表按這兩個半年期遞交，而非按持牌人的財政年度或兩年的牌照有效期，通函亦沒有提及把申報表轉交海外監管機構。"
   },
   "id": "m4-301"
  },
@@ -30793,8 +30616,8 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Circular MSSB/MIS_02/2025 (30 May 2025) ¶3–¶5 — the half-yearly arrangement, the additional information required and the first new periodic return",
-   "tc": "香港海關通函 MSSB/MIS_02/2025（2025年5月30日）第3至5段——每半年遞交安排、須提供的額外資料及第一份新定期申報表"
+   "en": "Circular MSSB/MIS_02/2025 (30 May 2025) ¶3 and ¶6 — the half-yearly arrangement, the additional information required and the MSOS user account",
+   "tc": "香港海關通函 MSSB/MIS_02/2025（2025年5月30日）第3及6段——每半年遞交安排、須提供的額外資料及牌照系統使用者帳戶"
   },
   "en": {
    "q": "According to Circular MSSB/MIS_02/2025 of 30 May 2025, which of the following statements about the new lodgement arrangement for periodic returns are correct?",
@@ -30802,7 +30625,7 @@
     "The new lodgement arrangement is on a half-yearly basis, with the first return of each year covering transactions from 1 January to 30 June and the second covering those from 1 July to 31 December.",
     "The additional information required in the new periodic return includes the foreign currencies that are involved in money changing transactions.",
     "The additional information required in the new periodic return also includes the jurisdictions that are involved in, and the delivery channels used in, remittance transactions.",
-    "All licensees were required to lodge their first new periodic return, covering transactions from 1 January 2025 to 30 June 2025, beginning from 1 January 2026."
+    "User accounts on the MSO Licensing System are created by the C&ED on behalf of each licensee and issued to the licensee before its periodic returns fall due."
    ],
    "options": [
     "1, 2 and 3",
@@ -30811,7 +30634,7 @@
     "1, 3 and 4",
     "All of the above"
    ],
-   "explain": "Statement 4 is false: paragraph 5 states that all licensees are required to lodge their first new periodic return, covering the transactions from 1 January 2025 to 30 June 2025, beginning from 1 July 2025, not from 1 January 2026. Statements 1, 2 and 3 are correct: paragraph 3 describes the new half-yearly arrangement, under which the first return covers 1 January to 30 June and the second covers 1 July to 31 December, and lists the additional information the CCE requires in the new return, namely the foreign currencies involved in money changing transactions, the jurisdictions involved in remittance transactions and the delivery channels used in remittance transactions."
+   "explain": "Statement 4 is false: paragraph 6 requires licensees to submit new periodic returns via the electronic service of the MSO Licensing System and reminds them to create a user account on the system in advance; the circular does not say that the C&ED creates accounts for licensees. Statements 1, 2 and 3 are correct: paragraph 3 describes the new half-yearly arrangement, under which the first return covers 1 January to 30 June and the second covers 1 July to 31 December, and lists the additional information the CCE requires in the new return, namely the foreign currencies involved in money changing transactions, the jurisdictions involved in remittance transactions and the delivery channels used in remittance transactions."
   },
   "tc": {
    "q": "根據香港海關2025年5月30日通函 MSSB/MIS_02/2025，關於定期申報表的新遞交安排，下列哪些陳述正確？",
@@ -30819,7 +30642,7 @@
     "新的遞交安排以每半年為基礎，第一份申報表涵蓋1月1日至6月30日，第二份涵蓋7月1日至12月31日的交易。",
     "新的定期申報表須提供的額外資料，包括在貨幣兌換交易中所涉及的各種不同外幣。",
     "新的定期申報表須提供的額外資料，包括匯款交易所涉及的司法管轄區及所使用的交付渠道。",
-    "所有持牌人須由2026年1月1日起遞交第一份新定期申報表，涵蓋2025年1月1日至6月30日的交易。"
+    "金錢服務經營者牌照系統的使用者帳戶由海關代每名持牌人建立，並於其定期申報表到期遞交前發給持牌人。"
    ],
    "options": [
     "1、2 及 3",
@@ -30828,7 +30651,7 @@
     "1、3 及 4",
     "以上皆是"
    ],
-   "explain": "陳述4不正確：第5段訂明，所有持牌人須由2025年7月1日起遞交第一份新定期申報表，涵蓋2025年1月1日至2025年6月30日的交易，而非由2026年1月1日起。陳述1、2及3正確：第3段說明新的每半年遞交安排，即第一份申報表涵蓋1月1日至6月30日的交易，第二份涵蓋7月1日至12月31日的交易，並列出關長要求在新申報表內提供的額外資料，即貨幣兌換交易所涉及的外幣、匯款交易所涉及的司法管轄區，以及匯款交易所使用的交付渠道。"
+   "explain": "陳述4不正確：第6段規定持牌人須經金錢服務經營者牌照系統的電子服務遞交新定期申報表，並提醒持牌人預先在牌照系統建立使用者帳戶；通函並無指海關會代持牌人建立帳戶。陳述1、2及3正確：第3段說明新的每半年遞交安排，即第一份申報表涵蓋1月1日至6月30日的交易，第二份涵蓋7月1日至12月31日的交易，並列出關長要求在新申報表內提供的額外資料，即貨幣兌換交易所涉及的外幣、匯款交易所涉及的司法管轄區，以及匯款交易所使用的交付渠道。"
   },
   "id": "m4-302",
   "format": "combination"
@@ -30837,28 +30660,28 @@
   "module": 4,
   "answer": 0,
   "source": {
-   "en": "Circular MSSB/MIS_02/2025 (30 May 2025) ¶3 and ¶5 — half-yearly periods and the first new periodic return",
-   "tc": "香港海關通函 MSSB/MIS_02/2025（2025年5月30日）第3及5段——每半年涵蓋期間及第一份新定期申報表"
+   "en": "Circular MSSB/MIS_02/2025 (30 May 2025) ¶3 — the purpose of the additional information in the new periodic return",
+   "tc": "香港海關通函 MSSB/MIS_02/2025（2025年5月30日）第3段——新定期申報表須提供額外資料的目的"
   },
   "en": {
-   "q": "Under the half-yearly arrangement in the C&ED circular of 30 May 2025, which transactions did the first new periodic return cover, and from when was it to be lodged?",
+   "q": "Why does the C&ED circular of 30 May 2025 require MSOs to provide additional information, such as the foreign currencies and remittance jurisdictions involved, in the new periodic return?",
    "options": [
-    "Transactions from 1 January 2025 to 30 June 2025, lodged beginning from 1 July 2025",
-    "Transactions from 1 April 2025 to 30 June 2025, lodged beginning from 1 October 2025",
-    "Transactions from 1 July 2025 to 31 December 2025, lodged beginning from 1 January 2026",
-    "Transactions from 1 January to 31 December 2025, lodged beginning from 1 January 2026"
+    "To stay abreast of the latest industry trend and formulate effective regulatory measures",
+    "To calculate each licensee's annual licence fee from the volume of its transactions",
+    "To check the identity of each remittance customer against the UN sanctions lists",
+    "To publish a ranking of MSOs by the currencies and jurisdictions that each of them handles"
    ],
-   "explain": "Paragraph 5 states that, with the new arrangement in place, all licensees are required to lodge their first new periodic return, covering the transactions from 1 January 2025 to 30 June 2025, beginning from 1 July 2025. Under paragraph 3 the first return of each year covers 1 January to 30 June and the second covers 1 July to 31 December, so a return covering only April to June, the second half of 2025 or the whole of 2025 does not describe the first new return."
+   "explain": "Paragraph 3 says that, for the purpose of staying abreast of the latest trend in the money service industry and formulating effective and appropriate regulatory measures for the money service business, the CCE also requires MSOs to provide additional information in the new periodic return, including the foreign currencies involved in money changing transactions, the jurisdictions involved in remittance transactions and the delivery channels used in remittance transactions. The circular does not tie this information to licence fees, to sanctions screening of customers or to any published ranking of MSOs."
   },
   "tc": {
-   "q": "根據香港海關2025年5月30日通函所載的每半年遞交安排，第一份新定期申報表涵蓋哪段期間的交易？又須由何時起遞交？",
+   "q": "香港海關2025年5月30日的通函要求金錢服務經營者在新定期申報表提供額外資料（例如貨幣兌換交易所涉外幣及匯款交易所涉司法管轄區），原因為何？",
    "options": [
-    "2025年1月1日至2025年6月30日的交易，由2025年7月1日起遞交",
-    "2025年4月1日至2025年6月30日的交易，由2025年10月1日起遞交",
-    "2025年7月1日至2025年12月31日的交易，由2026年1月1日起遞交",
-    "2025年1月1日至2025年12月31日的交易，由2026年1月1日起遞交"
+    "緊貼金錢服務業的最新趨勢，並制定有效的規管措施",
+    "按持牌人的交易量計算其每年須繳付的牌照費用",
+    "以聯合國制裁名單核對每名匯款客戶的身分",
+    "按所涉貨幣及司法管轄區公布金錢服務經營者的排名"
    ],
-   "explain": "第5段述明，新遞交安排實施後，所有金錢服務經營者須由2025年7月1日起遞交第一份新定期申報表，涵蓋2025年1月1日至2025年6月30日的交易。按第3段，每年第一次申報涵蓋1月1日至6月30日，第二次則涵蓋7月1日至12月31日，因此只涵蓋4月至6月、2025年下半年或2025年全年的申報表，都不是第一份新定期申報表。"
+   "explain": "第3段指出，為緊貼金錢服務業的最新趨勢並制定有效和適當的金錢服務業務規管措施，關長亦要求金錢服務經營者在新定期申報表提供額外資料，包括貨幣兌換交易所涉外幣、匯款交易所涉司法管轄區，以及匯款交易使用的交付渠道。通函並無把這些資料與牌照費用、以制裁名單核對客戶身分或公布經營者排名扯上關係。"
   },
   "id": "m4-303"
  },
@@ -31292,12 +31115,12 @@
   "tc": {
    "q": "金錢服務經營者為何應就客戶風險評估備存紀錄？",
    "options": [
-    "向關長證明客戶洗錢／恐怖分子資金籌集風險的評估方式及客戶盡職審查是否合適",
+    "向關長證明其評估客戶風險的方式，及基於該風險的盡職審查措施及持續監察程度屬合適",
     "以準確計算職員銷售佣金，並作為釐定年度晉升及花紅獎金的依據",
     "與業內其他金錢服務經營者交換客戶風險評級及個人資料以作參考",
-    "在金錢服務經營者的公開年報及官方網站上刊登其整體的客戶風險統計數字"
+    "在金錢服務經營者的公開年報及官方網站上，刊登其整體的客戶風險統計數字"
    ],
-   "explain": "第2.16段：備存客戶風險評估紀錄，以便向關長證明(a)如何評估客戶的洗錢／恐怖分子資金籌集風險；及(b)所執行的客戶盡職審查及持續監察是否與該風險相稱——並非用作計算佣金、與同業分享評級，或在年報刊登統計數字。"
+   "explain": "第2.16段：金錢服務經營者應就客戶風險評估備存紀錄及相關文件，以便向關長證明（其中包括）：(a)它如何評估客戶的洗錢／恐怖分子資金籌集風險；及(b)基於該客戶的洗錢／恐怖分子資金籌集風險，所執行的盡職審查措施及持續監察程度是合適的——並非用作計算佣金、與同業交換評級，或在年報刊登統計數字。"
   }
  },
  {
@@ -33457,28 +33280,28 @@
   "module": 5,
   "answer": 0,
   "source": {
-   "en": "AMLO Sch. 2, s.19(3); AML/CFT Guideline for MSOs (Jun 2023) ¶3.2 & ¶4.1.1",
-   "tc": "《打擊洗錢條例》附表2第19(3)條；《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第3.2及4.1.1段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.6",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第3.6段"
   },
   "en": {
-   "q": "Section 19(3) of Schedule 2 to the AMLO requires an MSO to establish and maintain effective procedures, not inconsistent with the Ordinance, for carrying out its Schedule 2 duties on when to conduct CDD, simplified CDD, ongoing monitoring, and the special requirements for customers not physically present, politically exposed persons and other high-risk situations. The Guideline expects those procedures to form part of AML/CFT Systems approved by senior management. For what does section 19(3) require the procedures to be established and maintained?",
+   "q": "Why should management information on ML/TF risks and the AML/CFT Systems be communicated to an MSO's senior management in a timely, complete, understandable and accurate manner?",
    "options": [
-    "Each kind of customer, business relationship, product and transaction that the MSO handles",
-    "Each branch or subsidiary the MSO operates outside Hong Kong, so far as local law allows",
-    "Each customer whose transactions reach the CDD threshold within a twelve-month period",
-    "Each risk rating (low, medium or high) given in the MSO's institutional ML/TF risk assessment"
+    "So that senior management is equipped to make informed decisions",
+    "So that senior management can sign off every customer's risk rating",
+    "So that senior management can take over the CO's day-to-day oversight",
+    "So that the information can go to the CCE with each periodic return"
    ],
-   "explain": "Section 19(3) frames the duty by reference to the MSO's business: for each kind of customer, business relationship, product and transaction, the MSO must have effective procedures for carrying out its CDD, ongoing monitoring and special high-risk duties. The Guideline likewise expects an MSO, for each kind of customer, business relationship, product and transaction, to establish and maintain effective AML/CFT Systems for complying with the CDD requirements (paragraph 4.1.1), and those Systems are to be approved by senior management (paragraph 3.2). The duty concerning overseas branches and subsidiaries is a separate provision about applying Schedule 2 standards abroad. The CDD threshold determines when CDD is needed for an occasional transaction rather than how procedures are organised, and the risk ratings from an institutional ML/TF risk assessment inform how the procedures are calibrated but are not the basis on which the statute requires them to be established."
+   "explain": "Paragraph 3.6 says that effective ML/TF risk management requires adequate governance arrangements, and that management information regarding ML/TF risks and the AML/CFT Systems should be communicated to the board of directors (or its delegated committee) and senior management in a timely, complete, understandable and accurate manner so that they are equipped to make informed decisions. The paragraph gives no other purpose: it does not ask senior management to sign off every customer's risk rating or to take over the CO's oversight, and the information is for the MSO's own management, not for the CCE with a periodic return."
   },
   "tc": {
-   "q": "《打擊洗錢條例》附表2第19(3)條規定金錢服務經營者須設立及維持不抵觸該條例的有效措施，以履行附表2下關於何時須執行客戶盡職審查、簡化客戶盡職審查、持續監察，以及客戶沒有為身分識別的目的而現身、客戶屬政治人物及其他高度風險情況的特別規定的責任。本指引則期望該等措施構成經高級管理層審批的打擊洗錢／恐怖分子資金籌集制度的一部分。第19(3)條規定須就甚麼設立及維持該等措施？",
+   "q": "為何關於洗錢／恐怖分子資金籌集風險及打擊洗錢／恐怖分子資金籌集制度的管理資料，應以合時、完整、易於理解及準確方式通知金錢服務經營者的高級管理層？",
    "options": [
-    "該經營者所處理的每一種類別的客戶、業務關係、產品以及交易",
-    "該經營者在香港以外的每間分行或附屬企業，如當地法律准許",
-    "在十二個月期間內交易總額達到盡職審查門檻的每名客戶",
-    "機構層面的洗錢／恐怖分子資金籌集風險評估所評定的每個風險級別"
+    "讓高級管理層能夠在掌握充足資料的情況下作出決定",
+    "讓高級管理層可親自簽批每名客戶的風險評級",
+    "讓高級管理層接手合規主任對有關制度的日常監督",
+    "讓有關資料可隨每份定期申報表一併提交關長"
    ],
-   "explain": "第19(3)條以經營者的業務為框架訂明該責任：金錢服務經營者須就每種類別的客戶、業務關係、產品及交易，設立及維持有效的措施，以履行客戶盡職審查、持續監察及高度風險情況的特別責任。本指引亦訂明，金錢服務經營者應就每種類別的客戶、業務關係、產品及交易，設立及維持有效的打擊洗錢／恐怖分子資金籌集制度，以遵守盡職審查規定（第4.1.1段），而該等制度須經高級管理層審批（第3.2段）。關於在香港以外的分行及附屬企業的責任是另一項關於在香港以外地方適用附表2標準的條文。盡職審查門檻決定非經常交易何時須執行盡職審查，而非措施如何組織，機構層面的洗錢／恐怖分子資金籌集風險評估所得的風險級別影響措施的鬆緊，但並非法例規定設立措施的基礎。"
+   "explain": "第3.6段訂明，要有效管理洗錢／恐怖分子資金籌集風險，必須作出適當的管治安排；關於洗錢／恐怖分子資金籌集風險及打擊洗錢／恐怖分子資金籌集制度的管理資料，應以合時、完整、易於理解及準確方式通知高級管理層，讓他們能夠在掌握充足資料的情況下作出決定。該段並無訂明其他目的：並非要高級管理層親自簽批每名客戶的風險評級，或接手合規主任的日常監督；有關資料亦是供金錢服務經營者本身的管理層使用，而非隨定期申報表提交關長。"
   }
  },
  {
@@ -45808,7 +45631,7 @@
     "No, because a suspicion about future use is not a matter the JFIU can act on",
     "Yes, provided the amount involved exceeds the $120,000 occasional transaction threshold"
    ],
-   "explain": "The Guideline states that the duty arises where a person knows or suspects that property represents any person's proceeds of, was used in connection with, or is intended to be used in connection with drug trafficking or an indictable offence, or is terrorist property. Intended future use is therefore within the duty, and the person must file an STR with the JFIU as soon as it is reasonable to do so. The duty is not limited to proceeds already in hand, the JFIU receives reports of suspicion of every kind, and no monetary threshold applies, because the reporting provisions cover any property."
+   "explain": "The Guideline states that the duty arises where a person knows or suspects that property represents any person's proceeds of, was used in connection with, or is intended to be used in connection with drug trafficking or an indictable offence, or is terrorist property. Intended future use is therefore within the duty, and the person must file an STR with the JFIU as soon as it is reasonable to do so. The duty is not limited to proceeds already in hand; because paragraph 7.1 expressly covers property intended to be used in connection with an indictable offence, a suspicion about future use must be reported to the JFIU; and no monetary threshold applies, because the reporting provisions cover any property."
   },
   "tc": {
    "q": "本指引指出，提交可疑交易報告的法定責任源於《販毒（追討得益）條例》、《有組織及嚴重罪行條例》及《聯合國（反恐怖主義措施）條例》，並由對財產的知悉或懷疑所觸發。某金錢服務經營者懷疑客戶擬匯出的款項是擬用於干犯可公訴罪行，但罪行尚未發生。提交可疑交易報告的責任是否適用？",
@@ -45818,7 +45641,7 @@
     "不適用，因為對財產未來用途的懷疑並非聯合財富情報組可處理的事項",
     "適用，但以所涉款額超過非經常交易的120,000元門檻為條件"
    ],
-   "explain": "本指引訂明，任何人如知悉或懷疑任何財產代表任何人販毒或干犯可公訴罪行的得益、曾用於與此有關的用途，或擬用於與此有關的用途，或屬恐怖分子財產，即負有該責任。因此，擬作未來用途的財產亦在責任範圍之內，該人須在合理範圍內盡快向聯合財富情報組提交可疑交易報告。該責任並不限於已到手的犯罪得益，聯合財富情報組接收各類懷疑的報告，而且由於舉報條文適用於「任何財產」，並無任何金額門檻。"
+   "explain": "本指引訂明，任何人如知悉或懷疑任何財產代表任何人販毒或干犯可公訴罪行的得益、曾用於與此有關的用途，或擬用於與此有關的用途，或屬恐怖分子財產，即負有該責任。因此，擬作未來用途的財產亦在責任範圍之內，該人須在合理範圍內盡快向聯合財富情報組提交可疑交易報告。該責任並不限於已到手的犯罪得益；由於第7.1段明文涵蓋擬在與可公訴罪行有關的情況下使用的財產，對財產未來用途的懷疑亦須向聯合財富情報組報告；而且由於舉報條文適用於「任何財產」，並無任何金額門檻。"
   }
  },
  {
@@ -45899,28 +45722,28 @@
   "module": 7,
   "answer": 0,
   "source": {
-   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.1",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第7.1段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.10(f)(ii)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第7.10(f)(ii)段"
   },
   "en": {
-   "q": "What is the maximum penalty for failure to report knowledge or suspicion under the DTROP, the OSCO and the UNATMO?",
+   "q": "Under the Guideline, which of the following behaviours by a customer is a red flag indicator of suspicious transactions and activities?",
    "options": [
-    "Imprisonment for three months and a fine of $50,000",
-    "Imprisonment for two years and a fine of $200,000",
-    "Imprisonment for seven years and a $5,000,000 fine",
-    "A fine of $1,000,000 with no imprisonment"
+    "Being in a hurry to complete the transaction, promising supporting information retrospectively",
+    "Asking for a written breakdown of the fees charged before agreeing to the transaction",
+    "Bringing the original identity document and proof of address to the MSO's counter",
+    "Asking for the transaction receipt to be sent by email instead of printed on paper"
    ],
-   "explain": "¶7.1 states that under the DTROP, the OSCO and the UNATMO, failure to report knowledge or suspicion carries a maximum penalty of imprisonment for three months and a fine of $50,000."
+   "explain": "Paragraph 7.10 lists, among the red flag indicators arising from a customer's behaviour, that the customer is in a hurry to complete the transaction, with promises to provide the supporting information retrospectively (paragraph 7.10(f)(ii)). Asking for a written breakdown of fees, bringing original identity and address documents, and asking for an emailed receipt are not indicators the Guideline lists."
   },
   "tc": {
-   "q": "根據《販毒（追討得益）條例》、《有組織及嚴重罪行條例》及《聯合國（反恐怖主義措施）條例》，未有報告知悉或懷疑的最高刑罰為何？",
+   "q": "根據本指引，客戶的下列哪種行為屬可疑交易及活動的指標？",
    "options": [
-    "監禁三個月及罰款50,000元",
-    "監禁兩年及罰款200,000元",
-    "監禁七年及罰款500萬元",
-    "僅罰款1,000,000元"
+    "急於完成交易，並承諾會補交證明資料",
+    "在同意進行交易前，要求以書面列明各項收費",
+    "攜同身分證明文件正本及住址證明到櫃位辦理",
+    "要求以電郵而非列印紙本方式發出交易收據"
    ],
-   "explain": "第7.1段訂明根據《販毒（追討得益）條例》、《有組織及嚴重罪行條例》及《聯合國（反恐怖主義措施）條例》，未有報告知悉或懷疑的最高刑罰為監禁三個月及罰款50,000元。"
+   "explain": "第7.10段列出的客戶行為方面的指標包括：客戶急於完成交易，並承諾會補交證明資料（第7.10(f)(ii)段）。要求以書面列明各項收費、攜同身分證明文件正本及住址證明，以及要求以電郵發出收據，均不是本指引所列的指標。"
   }
  },
  {

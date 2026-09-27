@@ -51,6 +51,6 @@ python revision/pack_build.py dist/mso-revision-pack.html
 發佈以標籤觸發。推送以 `v` 開頭的標籤，會執行 [`release.yml`](.github/workflows/release.yml)：先 vet 及測試題庫，再從該 commit 產生檔案，連同由 `revision/` 產生的溫習資料一併附加到 GitHub release。測試在產生檔案之前執行，所以未通過檢查的標籤不會變成可供下載的版本。
 
 ```bash
-git tag v1.6.1
-git push origin v1.6.1
+git tag v1.7.1
+git push origin v1.7.1
 ```
