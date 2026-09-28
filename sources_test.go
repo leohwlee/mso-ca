@@ -98,8 +98,8 @@ func citedDocs(citation, lang string) []string {
 // compatibility ideographs some Chinese PDFs use (行 as U+FA08) to the standard
 // characters.
 func matchKey(s string) string {
-	const drop = "“”‘’\"'「」『』＂＇" + // quote marks
-		"—–‑‐‒―-­－" // dashes and hyphens
+	const drop = "\u201c\u201d\u2018\u2019\"'\u300c\u300d\u300e\u300f\uff02\uff07" + // quote marks
+		"\u2014\u2013\u2011\u2010\u2012\u2015-\u00ad\uff0d" // dashes and hyphens
 	var b strings.Builder
 	b.Grow(len(s))
 	for _, r := range s {
@@ -224,7 +224,9 @@ func TestSourceTextsCurrent(t *testing.T) {
 // reviews, and a random sample of 120 in September 2026 found every one from
 // the right passage but 24 (20%) stopping short of the deciding words: the
 // lead-in to a list, or the passage behind a true statement of a combination
-// item. Those 24 were replaced; the rest were not re-read. Blind review still
+// item. A sweep then re-read the 1,230 quotes a mechanical filter could not
+// clear and replaced 573 of them; a fresh random sample of 60 afterwards found
+// 2 (3%) still short, and those were replaced too. Blind review still
 // checks that the key follows from the passage.
 func TestQuotesFromCitedSources(t *testing.T) {
 	bank := loadBank(t)

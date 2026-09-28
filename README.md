@@ -54,7 +54,7 @@ the source.
 |---|---|---|
 | **Revision pack**<br>`mso-revision-pack.html`<br>about 3 MB | 21 pages of tables and figures on the AMLO's Parts 1–7 and Schedules 1–4, the AML/CFT Guideline, the other C&ED guidelines, and the circulars and FAQ | Source document, with each page naming the exam modules it serves |
 | **Mock exam**<br>`mso-ca.html`<br>about 4 MB | 1,547 questions with explanations (1,206 with four options, 341 in the combination format), drawn into 35-question, 75-minute mocks under the real pass rule | The 7 exam modules, below |
-| **Skill**<br>`.claude/skills/exam-prep/SKILL.md`<br>version 2.1.0 | The method that built both, written for any exam: collecting and checking the sources, settling conflicts between them, writing the pack and the questions, checking every answer blind, and tests that stop answers being guessable. You define the exam format. | The build, phase by phase |
+| **Skill**<br>`.claude/skills/exam-prep/SKILL.md`<br>version 2.2.0 | The method that built both, written for any exam: collecting and checking the sources, settling conflicts between them, writing the pack and the questions, checking every answer blind, and tests that stop answers being guessable. You define the exam format. | The build, phase by phase |
 
 | Module | Questions | Revision-pack pages |
 |---|---|---|
