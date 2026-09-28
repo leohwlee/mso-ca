@@ -225,9 +225,12 @@ func TestSourceTextsCurrent(t *testing.T) {
 // the right passage but 24 (20%) stopping short of the deciding words: the
 // lead-in to a list, or the passage behind a true statement of a combination
 // item. A sweep then re-read the 1,230 quotes a mechanical filter could not
-// clear and replaced 573 of them; a fresh random sample of 60 afterwards found
-// 2 (3%) still short, and those were replaced too. Blind review still
-// checks that the key follows from the passage.
+// clear and replaced all but two of the 573 it found short or wrong; a fresh
+// random sample of 60 afterwards found 2 more (3%), since replaced. Of the two
+// kept, one decides its key after all; the other belongs to one of a handful of
+// keys that rest on two passages pages apart, which a quote of one passage can
+// only half carry. Blind review still checks that the key follows from the
+// passage.
 func TestQuotesFromCitedSources(t *testing.T) {
 	bank := loadBank(t)
 	quotes := loadQuotes(t)
