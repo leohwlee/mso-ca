@@ -79,8 +79,8 @@ with `v`, so they never trigger a release.
 
 | Version | Date | First released in | What changed |
 |---|---|---|---|
-| 2.1.0 | 28 Sep 2026 | not yet released | Adds the options-only guesser to the guard catalogue, and what this repository measured once it had the new checks: stored deciding quotes, convergence and echo at chance, and the guesser's results. |
-| 2.0.0 | 28 Sep 2026 | not yet released | Renamed `exam-prep`. Covers the study pack and the mock-exam app as well as the bank, and makes the exam format a spec the user defines. Adds the intake questions, the conflicts register, verification against the pack, the negation, echo and twin-statement tells, and briefs for subagents. |
+| 2.1.0 | 28 Sep 2026 | v1.7.4 | Adds the options-only guesser to the guard catalogue, and what this repository measured once it had the new checks: stored deciding quotes, convergence and echo at chance, and the guesser's results. |
+| 2.0.0 | 28 Sep 2026 | v1.7.4 | Renamed `exam-prep`. Covers the study pack and the mock-exam app as well as the bank, and makes the exam format a spec the user defines. Adds the intake questions, the conflicts register, verification against the pack, the negation, echo and twin-statement tells, and briefs for subagents. |
 | 1.2.1 | 28 Sep 2026 | v1.7.2 | A translated "the said X" may point back to an earlier statement, or to a kind of X. |
 | 1.2.0 | 27 Sep 2026 | v1.7.0 | Prove that a guard can fail. A translated "the said X" must point back to something the item has named. |
 | 1.1.0 | 21 Sep 2026 | v1.5.9 | Numbers as the unknown: ask about the rule, not the section number. |
