@@ -3,7 +3,7 @@ name: exam-prep
 description: Turn a fixed set of source documents (statutes, regulations, guidelines, manuals, course notes; in one language or two) into exam preparation — a cited study pack, a multiple-choice question bank, and a mock exam that draws papers under the real rules — for any exam format the user defines as data. Use when asked to write revision notes, a study guide or pack, practice questions, a question bank, a mock paper or a mock-exam app from documents; to define or change an exam format (sections, question formats, fixed option blocks, pass rule, timing); or to audit existing material for wrong or second-defensible keys, ungrounded or superseded content, duplicates, drift between languages, or answers a candidate can guess from surface form without knowing the material.
 license: MIT
 metadata:
-  version: "2.0.0"
+  version: "2.1.0"
   replaces: "exam-question-bank 1.2.1"
 ---
 
@@ -228,8 +228,11 @@ project, 95 surfaced after the bank already held 1,500 questions.
   - Fields per language, and a citation per language that carries a locator.
   - The deciding quote per language, verbatim from the cited unit. A guard then
     proves every key is grounded, and a quote that stops matching flags an
-    edited source. The reference bank stored no quotes, so every review had to
-    find them again.
+    edited source. The reference bank added its quotes only after 1,500
+    questions existed, recovering most from the answer files of earlier blind
+    reviews. Every recovered quote came from the right passage, but a random
+    sample found a fifth stopping short of the deciding words. Write the quote
+    with the question, and have the blind reviewer confirm it.
   - The key at a fixed index for shuffled formats, and fixed blocks stored
     verbatim.
   - Stable ids for items, and for each option an id shared by all its language
@@ -444,7 +447,13 @@ it.
 
   Then simulate whole papers with the strongest surface-feature guesser you can
   build, against the real pass rule. Anything far above chance is a tell to
-  find (catalogue below).
+  find (catalogue below). The strongest is one learnt from the bank itself: a
+  conditional logit over each option's length, standout, overlap with the other
+  options and word-level cues, cross-validated so it is scored only on items it
+  never saw. In the reference bank it picked 44% of four-option keys in English
+  and 46% in Chinese, against 25%, almost all through the absolutes and hedges
+  the owner chose to leave. It passed one simulated paper in 4,000, so it runs
+  as a test there, bounding both numbers.
 - **Don't ask a model whether an item is flawed.** Whole-item judges have poor
   precision: rules found 91% of the flaws human reviewers found, against 79%
   for GPT-4, and the best detector of errors in a large public benchmark reached
@@ -519,6 +528,7 @@ reference suite is [`questions_test.go`](https://github.com/leohwlee/mso-ca/blob
 | Punctuation all or none within an item | semicolons, and any mark that correlates | a semicolon marking the fuller answer |
 | The key is the option sharing most with the other options no more often than chance | share of items ≤ 1/N + 2 standard errors | convergence: distractors made by varying the key |
 | The key is the option sharing most words with the stem no more often than chance | the same test; stop-list the terms every item must use | the key echoing the stem |
+| A guesser learnt from the bank's own options, never shown the stem or the source, stays bounded | cross-validated; e.g. ≤ 50% of four-option keys, ≤ 0.5% of simulated papers passed | a new tell that no single guard names |
 | Statements carrying absolutes are true at a healthy rate | ≥ 60% bank-wide, ≥ 45% per section | "mark the absolutes false" |
 | No positional references in any field | case-fold the keyword only | "option 2" after a shuffle |
 | No "all/none of the above" in shuffled formats | — | a meaningless option |
@@ -593,7 +603,10 @@ direction differed between languages, so measure rather than assume.
    deciding facts; blind reviewers flagged several. When distractors are made by
    varying the key, the key is also the option sharing most with all the others,
    and test-takers are known to use that (the NBME guide names both cues).
-   Neither was measured in the reference bank, so measure both.
+   In the reference bank both sat at chance: the key was the most convergent
+   option in 22–24% of items and the most stem-echoing in 23–25%, against 25%.
+   That is what a bank whose distractors come from the source looks like.
+   Measure yours.
 7. **Twins and leaning statements.** 77 pairs of near-identical statements were
    found, 19 of them with one true and one false; such a pair tells the
    candidate which statement to doubt. A statement that refers to another (28

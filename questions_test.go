@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"regexp"
 	"sort"
+	"strconv"
 	"strings"
 	"testing"
 	"unicode"
@@ -330,7 +331,13 @@ func TestCitationHasLocator(t *testing.T) {
 // numbered Guideline paragraph 第2(b)段. No Chinese source writes either as 第20(1)(b)款
 // (款 alone, as in 第(3)款, is a subsection referred to from inside its own section).
 // The blind review of September 2026 found 29 such references in 20 questions.
-var sectionKuan = regexp.MustCompile(`第\d+[A-Z]*(?:\([0-9A-Za-z]+\))+款`)
+// Nor does any Chinese source number a part with 節: the Licensing Guide calls
+// its Roman-numbered parts 條 (請參閱第 XIV 條的收費表), where five questions had
+// written 第XVI節 until the source texts were first searched for it.
+var (
+	sectionKuan = regexp.MustCompile(`第\d+[A-Z]*(?:\([0-9A-Za-z]+\))+款`)
+	romanJie    = regexp.MustCompile(`第\s*[IVX]+\s*節`)
+)
 
 func TestSectionNumberWord(t *testing.T) {
 	for _, q := range loadBank(t) {
@@ -338,6 +345,9 @@ func TestSectionNumberWord(t *testing.T) {
 		for _, f := range fields {
 			for _, m := range sectionKuan.FindAllString(f, -1) {
 				t.Errorf("%s: %q writes a numbered section with 款; the Ordinance says 條, the Guideline 段", q.ID, m)
+			}
+			for _, m := range romanJie.FindAllString(f, -1) {
+				t.Errorf("%s: %q; the Licensing Guide calls its Roman-numbered parts 條, as in 第XIV條", q.ID, m)
 			}
 		}
 	}
@@ -382,6 +392,7 @@ func TestChineseStatutoryTerms(t *testing.T) {
 		// September 2026 term sweep: each of these appears in none of the 23 Chinese
 		// sources; most render an English term instead of using the Chinese text's own.
 		"陳述機會":         "陳詞機會 (s.22(1), s.34(3), s.44(1), s.59(3), s.60(3); Licensing Guide ¶7.2)",
+		"詞彙表":          "詞彙部分 (Guideline ¶1.2), or the heading 主要用語及縮寫詞彙",
 		"顯赫公職":         "重要公職 (Sch. 2 s.1, politically exposed person)",
 		"密切聯繫人":        "關係密切的人 (Sch. 2 s.1)",
 		"糾正命令":         "the section's words: 命令採取糾正行動 (s.43(4)), 飭令採取糾正行動的命令 (s.21(4))",
@@ -1253,6 +1264,60 @@ func TestNoNumberOnlyOptions(t *testing.T) {
 				q.ID, n, len(q.En.Options))
 		} else if q.Answer >= 0 && q.Answer < len(q.En.Options) && isBare(q.En.Options[q.Answer]) {
 			t.Errorf("%s: the keyed answer is a bare section number: %q", q.ID, q.En.Options[q.Answer])
+		}
+	}
+}
+
+// TestComboExplanationNamesFalseStatements: a combination item's explanation
+// says which statements are false, or that none is, and that must be the
+// answer the key gives. The key is a letter in a fixed block, so an explanation
+// that argues for a different set of statements is invisible until a candidate
+// who chose correctly reads that they were wrong. Reviews ran this as a
+// mechanical pre-check from September 2026; two traps it learnt are built in:
+// collect every "statement N is false", not just the first, and read "none of
+// them is false" as the all-true option.
+func TestComboExplanationNamesFalseStatements(t *testing.T) {
+	falseStatements := map[string]*regexp.Regexp{
+		"en": regexp.MustCompile(`\b(?i:statements?)\s+(\d+(?:(?:\s*,\s*|\s+and\s+|\s*&\s*)(?:(?i:statement)\s+)?\d+)*)\s+(?:is|are)\s+(?:false|incorrect|wrong|untrue|not correct)`),
+		"tc": regexp.MustCompile(`陳述\s*(\d+(?:\s*(?:、|及|和|與|,|，)\s*(?:陳述)?\s*\d+)*)\s*(?:均|皆|都|亦)?\s*(?:不正確|錯誤|並不正確|屬錯誤|有誤|不準確)`),
+	}
+	noneFalse := map[string]*regexp.Regexp{
+		"en": regexp.MustCompile(`none of them is false|(?i:no) statement is false|(?i:all) (?:four|five|the) statements (?:are|is) (?:correct|true)|(?i:every) statement is (?:correct|true)|(?i:none) of the (?:four |five )?statements (?:is|are) (?:false|incorrect)`),
+		"tc": regexp.MustCompile(`(?:四|五)項陳述(?:均|全部|皆)(?:正確|屬實)|所有陳述(?:均|皆)正確|全部陳述(?:均|皆)?正確|各項陳述(?:均|皆)正確|(?:沒有|並無)不正確的陳述|陳述1、2、3\s*及\s*4\s*均正確|陳述1、2、3、4\s*及\s*5\s*均正確`),
+	}
+	digits := regexp.MustCompile(`\d+`)
+	trueSets := map[int][]string{
+		4: {"4", "3", "1", "2", ""},
+		5: {"4,5", "1,5", "2,5", "3,4", "1,2"},
+	}
+	for _, q := range loadBank(t) {
+		if !q.combo() {
+			continue
+		}
+		want := trueSets[len(q.En.Statements)][q.Answer]
+		for lang, explain := range map[string]string{"en": q.En.Explain, "tc": q.Tc.Explain} {
+			named := map[int]bool{}
+			for _, m := range falseStatements[lang].FindAllStringSubmatch(explain, -1) {
+				for _, d := range digits.FindAllString(m[1], -1) {
+					n, _ := strconv.Atoi(d)
+					named[n] = true
+				}
+			}
+			var got []string
+			for n := 1; n <= len(q.En.Statements); n++ {
+				if named[n] {
+					got = append(got, strconv.Itoa(n))
+				}
+			}
+			switch none := noneFalse[lang].MatchString(explain); {
+			case len(got) == 0 && !none:
+				t.Errorf("%s (%s): the explanation does not say which statements are false", q.ID, lang)
+			case len(got) > 0 && none:
+				t.Errorf("%s (%s): the explanation says both that statements %s are false and that none is", q.ID, lang, strings.Join(got, ", "))
+			case strings.Join(got, ",") != want:
+				t.Errorf("%s (%s): the explanation calls statements [%s] false, but the key makes [%s] false",
+					q.ID, lang, strings.Join(got, ","), want)
+			}
 		}
 	}
 }

@@ -50,6 +50,13 @@ date from 24 September 2026; earlier commits number the documents differently.
 
 The Traditional Chinese editions in `TC/` carry the same numbers.
 
+`text/` holds the text of every document in both languages, extracted by
+[`extract_text.py`](extract_text.py). `quotes.json` holds, for every question in
+the bank and each language, the passage of a cited document that decides its
+answer, copied word for word from that text. The tests check each quote against
+the text, and the text against the documents here, so after adding or replacing
+a document run `python docs/extract_text.py` (it needs PyMuPDF).
+
 ## Which documents each module is examined from
 
 Guidance Notes ¶5.2 name the seven modules; ¶6.1 names five categories of
