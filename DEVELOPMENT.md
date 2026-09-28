@@ -25,7 +25,7 @@ review found it in real questions.
 | Option length balance, rank, spread and standout | "always pick the longest" — it once passed 64% of simulated papers |
 | Citation has a locator | citing a document with no paragraph to turn to |
 | Statutory Chinese terms | wording the official Chinese editions never use |
-| Chinese 該經營者 names its operator first | "the MSO" rendered word for word as "the said operator", pointing at nothing |
+| Chinese 該 points back to something already named | "the customer" or "the MSO" rendered word for word as 該客戶 or 該經營者, with nothing before it to refer to |
 | Guideline paragraphs are 段 in Chinese | a Guideline paragraph called 款, the Ordinance's word for a subsection |
 | ML/TF pairing | dropping the terrorist-financing half in Chinese |
 | No positional references | "option 2" in an explanation, when options are shuffled |
@@ -64,7 +64,11 @@ builds the file from that exact commit, and attaches it to a GitHub release
 together with the revision pack built from `revision/`. The tests run before the
 build, so a tag that fails never becomes a download.
 
+Use an annotated tag: its message becomes the release notes, so say what
+changed for a candidate. Keep `--cleanup=whitespace`, or git drops every line
+that starts with `#`, Markdown headings included.
+
 ```bash
-git tag v1.7.1
-git push origin v1.7.1
+git tag -a v1.7.2 --cleanup=whitespace -F notes.md
+git push origin v1.7.2
 ```

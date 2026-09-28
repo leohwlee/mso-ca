@@ -180,7 +180,7 @@ suite, generalised:
 | No positional references in stems, options or explanations | "option 2", when options shuffle |
 | No duplicate stems, and no answer shared across sections | one question asked twice |
 | Terminology matches the official edition of each language | wording the source never uses |
-| A translated "the said X" points back to something the item has already named | "the MSO" rendered word for word, referring to nothing |
+| A translated "the said X" points back to something the reader has already met: in the stem, in an earlier statement, or as a kind of X (a remittance is a transaction) | "the customer" or "the MSO" rendered word for word, referring to nothing |
 | Fixed option blocks verbatim; no answer letter above 40% | drift in the printed format |
 | A stem that cites a provision states what it provides; no number-only options or keys | recall of clause numbers standing in for knowledge of the rules |
 

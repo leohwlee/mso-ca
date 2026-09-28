@@ -40,10 +40,21 @@ jobs:
           python3 revision/pack_build.py dist/mso-revision-pack.html
           ls -lh dist/mso-revision-pack.html
 
+      # The release notes are the tag's message, so an annotated tag says what
+      # changed. Branches are merged without pull requests, so GitHub's generated
+      # notes would be a bare changelog link; they are only the fallback for a
+      # lightweight tag. actions/checkout stores the tag without its message,
+      # hence the fetch.
       - name: Publish release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          git fetch --force origin "refs/tags/$GITHUB_REF_NAME:refs/tags/$GITHUB_REF_NAME"
+          if [ "$(git cat-file -t "$GITHUB_REF_NAME")" = tag ]; then
+            notes=--notes-from-tag
+          else
+            notes=--generate-notes
+          fi
           gh release create "$GITHUB_REF_NAME" dist/mso-ca.html dist/mso-revision-pack.html \
             --title "$GITHUB_REF_NAME" \
-            --generate-notes
+            "$notes"

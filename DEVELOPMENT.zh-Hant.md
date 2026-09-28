@@ -22,7 +22,7 @@ go run .                               # 或：開發時在本機提供 web/
 | 選項長度平衡、位次、分布及突出 | 「一律揀最長」——這招曾經足以通過 64% 的模擬試卷 |
 | 出處須有定位 | 只列文件名稱，讀者無從翻查 |
 | 法定中文用語 | 使用官方中文本從未採用的字眼 |
-| 「該經營者」須承接前文已提及的經營者 | 把「the MSO」逐字譯成「該經營者」，前文卻沒有可承接的對象 |
+| 「該」須承接前文已提及的對象 | 把「the customer」或「the MSO」逐字譯成「該客戶」或「該經營者」，前文卻沒有可承接的對象 |
 | 《指引》的段落稱「段」 | 把《指引》的段落寫成條例指分條的「款」 |
 | ML/TF 對應 | 中文漏掉「恐怖分子資金籌集」那一半 |
 | 不得以位置稱呼選項 | 解釋寫「選項二」，但選項是隨機排列的 |
@@ -50,7 +50,9 @@ python revision/pack_build.py dist/mso-revision-pack.html
 
 發佈以標籤觸發。推送以 `v` 開頭的標籤，會執行 [`release.yml`](.github/workflows/release.yml)：先 vet 及測試題庫，再從該 commit 產生檔案，連同由 `revision/` 產生的溫習資料一併附加到 GitHub release。測試在產生檔案之前執行，所以未通過檢查的標籤不會變成可供下載的版本。
 
+請使用附註標籤（annotated tag）：標籤的訊息會成為發佈說明，所以應寫明考生會留意到的改動。請保留 `--cleanup=whitespace`，否則 git 會刪去所有以 `#` 開頭的行，Markdown 標題亦包括在內。
+
 ```bash
-git tag v1.7.1
-git push origin v1.7.1
+git tag -a v1.7.2 --cleanup=whitespace -F notes.md
+git push origin v1.7.2
 ```
