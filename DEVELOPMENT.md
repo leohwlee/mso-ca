@@ -33,11 +33,8 @@ review found it in real questions.
 | Combination format | the printed option block, verbatim, and a spread of answer letters |
 | Stems state the provision; no number-only options | asking what a section number says, or which number a rule lives under |
 
-The method behind that table — how to write a bilingual bank from a fixed set of
-documents, verify it blind, and measure the surface tells that let a candidate
-guess without knowing the material — is written up as a reusable skill in
-[`.claude/skills/exam-question-bank/SKILL.md`](.claude/skills/exam-question-bank/SKILL.md).
-It is not specific to this exam.
+The method behind that table, and behind the revision pack, is written up as a
+reusable skill: see [The skill](#the-skill) below.
 
 Fonts: DM Sans and DM Mono are embedded under the SIL Open Font License; Chinese
 text uses the operating system's fonts.
@@ -53,6 +50,28 @@ python revision/pack_build.py dist/mso-revision-pack.html
 
 [`revision/README.md`](revision/README.md) covers its layout, the rules each page
 follows, and the review tools.
+
+## The skill
+
+[`.claude/skills/exam-prep/SKILL.md`](.claude/skills/exam-prep/SKILL.md) is the
+method behind both files, written for any exam. It covers choosing and checking
+the sources, settling conflicts between them, and writing the study pack and the
+question bank. It also covers verifying every answer blind, guarding the bank
+with tests, and delivering the mock exam. The exam format is a spec the user
+defines, so nothing in the skill is tied to this exam; this repository is its
+reference implementation.
+
+Its version is in the file's front matter (`metadata.version`). Each version is
+tagged `skill-vX.Y.Z` on the commit that finished it. Those tags do not begin
+with `v`, so they never trigger a release.
+
+| Version | Date | First released in | What changed |
+|---|---|---|---|
+| 2.0.0 | 28 Sep 2026 | not yet released | Renamed `exam-prep`. Covers the study pack and the mock-exam app as well as the bank, and makes the exam format a spec the user defines. Adds the intake questions, the conflicts register, verification against the pack, the negation, echo and twin-statement tells, and briefs for subagents. |
+| 1.2.1 | 28 Sep 2026 | v1.7.2 | A translated "the said X" may point back to an earlier statement, or to a kind of X. |
+| 1.2.0 | 27 Sep 2026 | v1.7.0 | Prove that a guard can fail. A translated "the said X" must point back to something the item has named. |
+| 1.1.0 | 21 Sep 2026 | v1.5.9 | Numbers as the unknown: ask about the rule, not the section number. |
+| 1.0.0 | 7 Sep 2026 | v1.5.8 | First version, as `exam-question-bank`, covering the question bank only. |
 
 ## Releases
 

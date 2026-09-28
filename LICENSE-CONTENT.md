@@ -3,7 +3,7 @@
 This repository holds three kinds of material with three different owners. This
 file says which is which.
 
-## 1 · The code, the question bank and the revision pack — MIT
+## 1 · The code, the question bank, the revision pack and the skill — MIT
 
 Everything except the two items below is licensed under MIT. Full text in
 [`LICENSE`](LICENSE). That includes:
@@ -13,7 +13,9 @@ Everything except the two items below is licensed under MIT. Full text in
 - the question bank, `web/questions.json`: 1,547 questions, statements and
   explanations in English and Traditional Chinese;
 - the revision pack in `revision/`: its generator, and the text and figures of
-  its pages.
+  its pages;
+- the skill in `.claude/skills/exam-prep/`: the method used to build the bank
+  and the pack, written for any exam.
 
 Do anything you like with it, including adapting it, translating it and selling
 it. The one condition is that copies, and substantial portions such as a set of
