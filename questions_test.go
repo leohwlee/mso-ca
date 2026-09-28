@@ -399,6 +399,7 @@ func TestChineseStatutoryTerms(t *testing.T) {
 		"個人持牌人":        "a description in the cited source's words (no source names this class)",
 		"法團持牌人":        "屬法團的持牌人, or the cited source's words",
 		"無特定處所經營者":     "在沒有特定處所的情況下經營金錢服務 (Licensing Guide ¶8.4, ¶10.1)",
+		"不設特定處所":       "在沒有特定處所的情況下經營金錢服務 (Licensing Guide ¶8.4, ¶10.1)",
 		"全面盡職審查":       "客戶盡職審查措施 (Sch. 2 s.2); no source says 'full CDD'",
 		"標準盡職審查":       "客戶盡職審查措施 (Sch. 2 s.2); no source says 'standard CDD'",
 		"視察人員":         "獲授權人 (Part 3)",
