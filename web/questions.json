@@ -5407,7 +5407,7 @@
    "explain": "Section 10(2)(a) sets the penalty for the section 10(1) offence at a fine of $200,000 and imprisonment for 1 year on conviction on indictment, and a fine at level 5 and 6 months' imprisonment on summary conviction. The heavier penalties apply to the false-information and intent-to-defraud offences."
   },
   "tc": {
-   "q": "某人無合理辯解而沒有遵從第9條下施加的規定。循公訴程序定罪的最高刑罰為何？",
+   "q": "某人無合理辯解而沒有遵從根據第9條施加的要求。循公訴程序定罪的最高刑罰為何？",
    "options": [
     "罰款200,000元及監禁1年",
     "罰款1,000,000元及監禁2年",
@@ -6689,7 +6689,7 @@
    "tc": "《打擊洗錢條例》第40(4)條"
   },
   "en": {
-   "q": "What is the penalty for a licensee that, without reasonable excuse, fails to notify the Commissioner of a change in its particulars?",
+   "q": "What penalty is a licensee liable to on conviction if, without reasonable excuse, it fails to notify the Commissioner of a change in its particulars?",
    "options": [
     "A fine at level 5, with no term of imprisonment",
     "A fine at level 5 and imprisonment for 6 months",
@@ -6699,7 +6699,7 @@
    "explain": "Section 40(4) provides for a fine at level 5 on conviction, with no term of imprisonment — the same penalty as under sections 39A(2) and 41(4). A contravention of section 40(1) is also a ground for disciplinary action under section 43(1)(c)."
   },
   "tc": {
-   "q": "持牌人無合理辯解而沒有就其詳情的改變向海關關長具報，刑罰為何？",
+   "q": "持牌人無合理辯解而沒有就其詳情的改變向海關關長具報，一經定罪，可處甚麼刑罰？",
    "options": [
     "第5級罰款，並無監禁",
     "第5級罰款及監禁6個月",
@@ -10243,7 +10243,7 @@
    "tc": "《打擊洗錢條例》第35(1)及(7)條；第43(1)(c)條"
   },
   "en": {
-   "q": "A licensed corporation appoints a new director and applies for the Commissioner's approval only two weeks afterwards. What is the position?",
+   "q": "A licensee that is a corporation appoints a new director and applies for the Commissioner's approval only two weeks afterwards. What is the position?",
    "options": [
     "Section 35(1) is contravened, risking prosecution and section 43(1)(c) disciplinary action",
     "No contravention — approval may be sought within a 45-day grace period after the director is appointed",
@@ -10253,7 +10253,7 @@
    "explain": "Section 35(1) requires the Commissioner's written approval before a person becomes a director — approval sought two weeks after the appointment comes too late to prevent the contravention. There is no 45-day grace period under section 35 (that figure belongs to the separate renewal deadline in section 31(2)(a)); section 35(1)'s wording ('unless the Commissioner has ... given his or her approval') requires prior, not retrospective, approval; and a late application does not automatically void the appointment or excuse it from the consequences in section 35(7) and section 43(1)(c)."
   },
   "tc": {
-   "q": "某持牌法團委任新董事，並於其後兩星期才申請海關關長批准。情況為何？",
+   "q": "某屬法團的持牌人委任新董事，並於其後兩星期才申請海關關長批准。情況為何？",
    "options": [
     "已違反第35(1)條，可能招致檢控及第43(1)(c)條紀律行動",
     "並無違反——持牌人可於委任董事後45日的寬限期內申請批准",
@@ -12638,7 +12638,7 @@
    "tc": "《打擊洗錢條例》第36(1)條；第24條"
   },
   "en": {
-   "q": "An individual shareholder increases their holding in a licensed corporation from 20% to 30% of the issued share capital. What does the AMLO require?",
+   "q": "An individual shareholder increases their holding in a licensee that is a corporation from 20% to 30% of its issued share capital. What does the AMLO require?",
    "options": [
     "Prior written approval from the Commissioner is required, as the holding exceeds 25%",
     "Nothing is required — Commissioner approval applies only to directors, not shareholders",
@@ -12648,7 +12648,7 @@
    "explain": "Under section 24(c)(i), an individual who owns or controls more than 25% of a corporation's issued share capital is an ultimate owner. Section 36(1) prohibits a person from becoming an ultimate owner of a licensee unless the Commissioner has, on the licensee's application, given prior written approval. A one-month notification under section 40(1) covers only a change in particulars, not this approval requirement, and the threshold that matters for anyone with this level of control is 25%, not 50%."
   },
   "tc": {
-   "q": "某個人股東將其於持牌法團的持股量由已發行股本的20%增至30%。《打擊洗錢條例》有何規定？",
+   "q": "某持牌人屬法團，其一名個人股東將持股量由已發行股本的20%增至30%。《打擊洗錢條例》有何規定？",
    "options": [
     "須事先取得關長的書面批准，因持股量在25%以上",
     "無須任何行動——批准規定只適用於董事，不適用於股東",
@@ -17277,7 +17277,7 @@
    "options": [
     "Effective procedures to identify and handle wire transfers where section 12(5) has not been complied with",
     "Effective procedures for determining whether a customer or beneficial owner is a politically exposed person",
-    "Effective procedures, for each kind of customer and product, for the duties under sections 3, 4, 5, 9 and 15",
+    "Effective procedures, for each kind of customer and product, for the duties under sections 3, 4, 5, 9, 10 and 15",
     "Procedures for converting foreign currency at the institution's own prevailing market rate"
    ],
    "explain": "Section 19(2) requires a financial institution that carries out wire transfers to establish and maintain effective procedures for identifying and handling wire transfers in relation to which section 12(5), the accompanying-information requirement, has not been complied with, so that duty falls only on institutions that carry out wire transfers. The procedures for determining whether a customer or a beneficial owner of a customer is a politically exposed person (section 19(1)) and the procedures for carrying out the duties under sections 3, 4, 5, 9, 10 and 15 (section 19(3)) are required of every financial institution, whether or not it carries out wire transfers. Currency conversion is not addressed by section 19 at all."
@@ -17287,7 +17287,7 @@
    "options": [
     "有效程序，以識辨及處理與附表2第12(5)條不獲遵守有關的電傳轉賬",
     "有效程序，以斷定某客戶或該客戶的實益擁有人是否為政治人物",
-    "就每種客戶及產品的有效措施，以履行第3、4、5、9及15條下的各項責任",
+    "就每種客戶及產品的有效措施，以履行第3、4、5、9、10及15條所指的責任",
     "須按該機構本身現行採用的市場匯率兌換外幣的有關程序"
    ],
    "explain": "第19(2)條規定進行電傳轉賬的金融機構須設立及維持有效的程序，以識辨及處理與第12(5)條（即隨附資料規定）不獲遵守有關的電傳轉賬，故此項責任只適用於進行電傳轉賬的金融機構。斷定某客戶或某客戶的實益擁有人是否政治人物的程序（第19(1)條），以及為履行第3、4、5、9、10及15條所指的責任而設的有效措施（第19(3)條），則不論金融機構是否進行電傳轉賬，均須設立及維持。兌換外幣並非第19條所規管的事項。"
