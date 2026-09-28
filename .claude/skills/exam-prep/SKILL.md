@@ -3,7 +3,7 @@ name: exam-prep
 description: Turn a fixed set of source documents (statutes, regulations, guidelines, manuals, course notes; in one language or two) into exam preparation — a cited study pack, a multiple-choice question bank, and a mock exam that draws papers under the real rules — for any exam format the user defines as data. Use when asked to write revision notes, a study guide or pack, practice questions, a question bank, a mock paper or a mock-exam app from documents; to define or change an exam format (sections, question formats, fixed option blocks, pass rule, timing); or to audit existing material for wrong or second-defensible keys, ungrounded or superseded content, duplicates, drift between languages, or answers a candidate can guess from surface form without knowing the material.
 license: MIT
 metadata:
-  version: "2.1.0"
+  version: "2.2.0"
   replaces: "exam-question-bank 1.2.1"
 ---
 
@@ -428,6 +428,14 @@ it.
   the bank you now have.
 - **Sample once verification confirms rather than corrects**, and state the
   sample size.
+- **Calibrate before a bulk review, on a sample the best model has judged.**
+  First a mechanical filter: the reference bank scored each stored quote by the
+  share of the key's words it contained, set the threshold so that no defect in
+  a judged sample of 120 slipped through, and skipped 57% of 2,862 quotes.
+  Then the cheapest model that matches the best one on that same sample: Sonnet
+  caught all 24 defects the best model had found, while Haiku caught 18 and
+  flagged a fifth of the good quotes. A calibration costs two packets; a model
+  that misses a quarter of the defects wastes the whole sweep.
 - **Treat findings as claims too.** An adjudicator's verdict is not verification:
   of three "criticals", a second look downgraded two. Separate strands re-find
   the same defect, and 51 cross-strand duplicates had to be merged before the
