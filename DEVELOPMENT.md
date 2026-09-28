@@ -64,7 +64,11 @@ builds the file from that exact commit, and attaches it to a GitHub release
 together with the revision pack built from `revision/`. The tests run before the
 build, so a tag that fails never becomes a download.
 
+Use an annotated tag: its message becomes the release notes, so say what
+changed for a candidate. Keep `--cleanup=whitespace`, or git drops every line
+that starts with `#`, Markdown headings included.
+
 ```bash
-git tag v1.7.1
-git push origin v1.7.1
+git tag -a v1.7.2 --cleanup=whitespace -F notes.md
+git push origin v1.7.2
 ```

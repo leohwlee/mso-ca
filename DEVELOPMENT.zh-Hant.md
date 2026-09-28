@@ -50,7 +50,9 @@ python revision/pack_build.py dist/mso-revision-pack.html
 
 發佈以標籤觸發。推送以 `v` 開頭的標籤，會執行 [`release.yml`](.github/workflows/release.yml)：先 vet 及測試題庫，再從該 commit 產生檔案，連同由 `revision/` 產生的溫習資料一併附加到 GitHub release。測試在產生檔案之前執行，所以未通過檢查的標籤不會變成可供下載的版本。
 
+請使用附註標籤（annotated tag）：標籤的訊息會成為發佈說明，所以應寫明考生會留意到的改動。請保留 `--cleanup=whitespace`，否則 git 會刪去所有以 `#` 開頭的行，Markdown 標題亦包括在內。
+
 ```bash
-git tag v1.7.1
-git push origin v1.7.1
+git tag -a v1.7.2 --cleanup=whitespace -F notes.md
+git push origin v1.7.2
 ```
