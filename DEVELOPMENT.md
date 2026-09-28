@@ -14,8 +14,8 @@ python -m http.server 8321 -d web      # or: serve web/ while developing
 ```
 
 The bank is `web/questions.json`. `go test ./...` is more than a shape check: it
-guards the faults that quietly ruin a question bank, each one added after a
-review found it in real questions.
+guards the faults that quietly ruin a question bank. Most of the checks were
+added after a review found the fault in real questions.
 
 | Check | What it stops |
 |---|---|
@@ -32,6 +32,18 @@ review found it in real questions.
 | Even option punctuation | a stray semicolon marking the right answer |
 | Combination format | the printed option block, verbatim, and a spread of answer letters |
 | Stems state the provision; no number-only options | asking what a section number says, or which number a rule lives under |
+| Every question stores its deciding quote, found word for word in a document it cites | a key the cited passage does not support; a document replaced without its text being extracted again |
+| Circulars cited are current | a circular that a later document has overtaken coming back |
+| Combination explanations name the false statements the key implies | an explanation arguing for a different answer from the key |
+| The key is neither the option most like the others nor the one echoing the stem | "convergence" and "clang", two cues test-takers are taught to use |
+| A guesser that sees only the options, trained on the bank itself | a new surface tell: it may pick at most 50% of four-option keys (chance 25%) and pass at most 0.5% of simulated papers |
+| Each language's fields hold that language only | "the Chinese text says…", or an English abbreviation no Chinese source prints |
+
+The quote check reads `docs/text/`, the extracted text of every document in
+`docs/EN` and `docs/TC`, and `docs/quotes.json`, which holds one deciding quote
+per question and language. After adding or replacing a document, run
+`python docs/extract_text.py` (it needs PyMuPDF). The check then lists every
+quote that the new edition no longer supports.
 
 The method behind that table, and behind the revision pack, is written up as a
 reusable skill: see [The skill](#the-skill) below.
@@ -67,6 +79,7 @@ with `v`, so they never trigger a release.
 
 | Version | Date | First released in | What changed |
 |---|---|---|---|
+| 2.1.0 | 28 Sep 2026 | not yet released | Adds the options-only guesser to the guard catalogue, and what this repository measured once it had the new checks: stored deciding quotes, convergence and echo at chance, and the guesser's results. |
 | 2.0.0 | 28 Sep 2026 | not yet released | Renamed `exam-prep`. Covers the study pack and the mock-exam app as well as the bank, and makes the exam format a spec the user defines. Adds the intake questions, the conflicts register, verification against the pack, the negation, echo and twin-statement tells, and briefs for subagents. |
 | 1.2.1 | 28 Sep 2026 | v1.7.2 | A translated "the said X" may point back to an earlier statement, or to a kind of X. |
 | 1.2.0 | 27 Sep 2026 | v1.7.0 | Prove that a guard can fail. A translated "the said X" must point back to something the item has named. |
