@@ -4,15 +4,13 @@
 
 ## 模擬試
 
-本專案存放程式的組成部分（`web/`）及一個小型 Go 程式，用以把它們合併成單一檔案。只需 Go 1.27 或以上，別無其他依賴。
+本專案存放程式的組成部分（`web/`）及一個小型 Go 程式，用以把它們合併成單一檔案。產生檔案只需 Go 1.27 或以上，別無其他依賴。
 
 ```bash
 go test ./...                          # 題庫檢查 + vet
 go run . -export-html dist/mso-ca.html # 產生單一檔案
 python -m http.server 8321 -d web      # 或：開發時在本機提供 web/
 ```
-
-`build.cmd`（Windows）或 `./build.sh`（Mac/Linux）效果相同。
 
 題庫為 `web/questions.json`。`go test ./...` 並非只檢查格式，而是防範一些會悄悄毀掉題庫的問題——每一項檢查都是在審核中真的發現了該問題之後才加入的。
 
