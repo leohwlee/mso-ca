@@ -123,7 +123,7 @@ S3 = sec('bo', ["¶4.4", "s.1–2 Sch. 2"], ("Beneficial owner: follow the chain
          ("Shares, voting rights, or capital or profits, held directly or indirectly", "直接或間接持有的股本、投票權，或資本或利潤"),
          ("The CDD measures, which include identifying the beneficial owner, were not carried out: a breach of a specified provision. PEP checks and sanctions screening also cover beneficial owners, so one you missed goes unchecked", "未有執行包括識別實益擁有人在內的客戶盡職審查措施，即違反指明的條文。斷定是否政治人物的程序及制裁篩查亦涵蓋實益擁有人，遺漏的實益擁有人便無從查核"),
          "¶4.4.6–4.4.7, 4.9.9, 6.16 · s.2(1)(b), 3(1) Sch. 2 · s.5(11)"),
-        (("nobody over 25%", "無人超過25%"),
+        (("nobody over 25%", "無人擁有25%以上"),
          ("Identify the senior managing official instead, and verify by reasonable measures", "改為識別高級管理人員，並採取合理措施核實"),
          ("No natural person meets any limb of the beneficial owner definition", "沒有自然人符合實益擁有人定義的任何一項"),
          ("Stopping at the corporate shareholder leaves the customer with no identified beneficial owner at all", "若止步於法團股東，該客戶便完全沒有已識別的實益擁有人"),

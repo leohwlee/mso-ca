@@ -326,3 +326,10 @@ for m in re.finditer(r'<text([^>]*)>(.*?)</text>', PAGE, re.S):
                       if prev[2].endswith(t[:k]) and s.startswith(t[k:])]
         prev = (x, float(y), s)
 print('Chinese terms split across figure lines:', split or 'none')
+# simplified-only forms of common characters (the bank's TestTraditionalCharacters uses the same list)
+SIMPLIFIED = set('则说这为与应须时实际关条项过发会经务业资产权报单录证据审处规员责负济称纳统计认识义还进对当现并问题获确护险币汇银营类罚级构讯检视让论设读转选阶历场断备节约')
+simp = sorted({c for t in re.findall(r'lang="zh-Hant">(.*?)</', PAGE, re.S) for c in t if c in SIMPLIFIED})
+print('simplified characters in the Chinese view:', ''.join(simp) or 'none')
+# a numbered section is 第20(1)(b)條 (a Guideline paragraph 段), never 第20(1)(b)款 (the bank's TestSectionNumberWord)
+kuan = sorted(set(re.findall(r'第\d+[A-Z]*(?:\([0-9A-Za-z]+\))+款', ' '.join(re.findall(r'lang="zh-Hant">(.*?)</', PAGE, re.S)))))
+print('numbered sections written with 款:', kuan or 'none')
