@@ -2321,10 +2321,10 @@
    "options": [
     "以憲報公告或於商務及經濟發展局網站公布的公告指明",
     "於香港海關的發牌辦事處內備存的登記冊之內",
-    "於本指引的詞彙表內界定用詞，而非透過任何公告",
+    "於本指引的詞彙部分內界定用詞，而非透過任何公告",
     "於財務行動特別組織的網站，即國際標準制定機構"
    ],
-   "explain": "第6.7段訂明被指認的個人及實體會透過在憲報或在商務及經濟發展局的網站刊登的公告指明。海關的金錢服務經營者發牌辦事處備存的是牌照紀錄，而非制裁指認名單；本指引的詞彙表只界定用詞，本身並非指認公告；財務行動特別組織制定國際標準（第1.13段），但並不根據《聯合國制裁條例》指認任何個人或實體。"
+   "explain": "第6.7段訂明被指認的個人及實體會透過在憲報或在商務及經濟發展局的網站刊登的公告指明。海關的金錢服務經營者發牌辦事處備存的是牌照紀錄，而非制裁指認名單；本指引的詞彙部分只界定用詞，本身並非指認公告；財務行動特別組織制定國際標準（第1.13段），但並不根據《聯合國制裁條例》指認任何個人或實體。"
   }
  },
  {
@@ -2683,7 +2683,7 @@
   "answer": 0,
   "source": {
    "en": "AML/CFT Guideline for MSOs (Jun 2023) Glossary",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）詞彙表"
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）詞彙部分"
   },
   "en": {
    "q": "According to the Glossary of the AML/CFT Guideline, what does the term “AML/CFT Systems” mean?",
@@ -2785,7 +2785,7 @@
   "answer": 3,
   "source": {
    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.2 & Glossary",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.2段及詞彙表"
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.2段及詞彙部分"
   },
   "en": {
    "q": "According to the AML/CFT Guideline, which of the following statements about how the terms, abbreviations and other words used in it are to be interpreted are correct?",
@@ -25778,7 +25778,7 @@
   "answer": 0,
   "source": {
    "en": "Licensing Guide (May 2026) §5.7, §XIV; AMLO Sch. 3, items 4–5",
-   "tc": "《牌照指引》（2026年5月）第5.7段及第XIV節；《打擊洗錢條例》附表3第4及5項"
+   "tc": "《牌照指引》（2026年5月）第5.7段及第XIV條；《打擊洗錢條例》附表3第4及5項"
   },
   "en": {
    "q": "A partnership with two partners, and an ultimate owner who is not a partner, applies for the grant of a licence. How is the fit and proper person test fee charged on the application?",
@@ -25798,7 +25798,7 @@
     "就兩名合夥人各收取一次，因最終擁有人毋須判定是否適當人選",
     "向合夥本身收取一次，因該合夥才是牌照的申請人"
    ],
-   "explain": "第5.7段規定，如申請人屬合夥，合夥的每名合夥人及每名最終擁有人均須申請進行適當人選判定；而依照《打擊洗錢條例》附表3第4項的第XIV節收費表，就每一個須判定是否適當人選的人另加945元，因此本例須收取三次：兩名合夥人及該最終擁有人各一次。第4.13段雖提及「每名申請人須繳交一次過的費用」，但有關費用以附表3所訂為準，而附表3是就每一個須判定是否適當人選的人收費——既非每份申請收取一次，也不是向合夥本身收取以代替受判定的人；最終擁有人亦須接受判定。續期時，亦會就每名該等人士再收取945元（第5項）。"
+   "explain": "第5.7段規定，如申請人屬合夥，合夥的每名合夥人及每名最終擁有人均須申請進行適當人選判定；而依照《打擊洗錢條例》附表3第4項的第XIV條收費表，就每一個須判定是否適當人選的人另加945元，因此本例須收取三次：兩名合夥人及該最終擁有人各一次。第4.13段雖提及「每名申請人須繳交一次過的費用」，但有關費用以附表3所訂為準，而附表3是就每一個須判定是否適當人選的人收費——既非每份申請收取一次，也不是向合夥本身收取以代替受判定的人；最終擁有人亦須接受判定。續期時，亦會就每名該等人士再收取945元（第5項）。"
   }
  },
  {
@@ -29933,7 +29933,7 @@
   "answer": 0,
   "source": {
    "en": "Licensing Guide (May 2026) §XVI checklist",
-   "tc": "《牌照指引》（2026年5月）第XVI節核對清單"
+   "tc": "《牌照指引》（2026年5月）第XVI條核對清單"
   },
   "en": {
    "q": "Which supporting document is listed in relation to each premises?",
@@ -29953,7 +29953,7 @@
     "消防安全證明書",
     "業主身份證的照片"
    ],
-   "explain": "第XVI節核對清單在「每一處所詳情的證明文件」項下列出該處所的平面圖，以及已加蓋釐印租約或業權紀錄的複本、兩張顯示該處所外部及內部的4R照片，和業主發出的同意書複本。有效商業登記證的複本在該部分只列於本地管理辦事處項下。"
+   "explain": "第XVI條核對清單在「每一處所詳情的證明文件」項下列出該處所的平面圖，以及已加蓋釐印租約或業權紀錄的複本、兩張顯示該處所外部及內部的4R照片，和業主發出的同意書複本。有效商業登記證的複本在該部分只列於本地管理辦事處項下。"
   }
  },
  {
@@ -29962,7 +29962,7 @@
   "answer": 4,
   "source": {
    "en": "Licensing Guide (May 2026) §XVI, ¶16.2–16.3 checklist of supporting documents",
-   "tc": "《牌照指引》（2026年5月）第XVI節第16.2及16.3段證明文件核對清單"
+   "tc": "《牌照指引》（2026年5月）第XVI條第16.2及16.3段證明文件核對清單"
   },
   "en": {
    "q": "According to the Licensing Guide's checklist of supporting documents, which of the following statements about the documents an applicant must submit are correct?",
@@ -30008,7 +30008,7 @@
   "answer": 0,
   "source": {
    "en": "Licensing Guide (May 2026) §XVI checklist",
-   "tc": "《牌照指引》（2026年5月）第XVI節核對清單"
+   "tc": "《牌照指引》（2026年5月）第XVI條核對清單"
   },
   "en": {
    "q": "Under “Other requisite documents as specified in Licensing Guide”, whose Hong Kong Identity Card copies does the checklist ask for?",
@@ -30037,7 +30037,7 @@
   "answer": 0,
   "source": {
    "en": "Licensing Guide (May 2026) §XV Enquiries",
-   "tc": "《牌照指引》（2026年5月）第XV節查詢"
+   "tc": "《牌照指引》（2026年5月）第XV條查詢"
   },
   "en": {
    "q": "During what hours is the C&ED's licensing enquiry telephone line available?",
@@ -43501,7 +43501,7 @@
   "answer": 0,
   "source": {
    "en": "AML/CFT Guideline for MSOs (Jun 2023) Glossary",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）詞彙表"
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）詞彙部分"
   },
   "en": {
    "q": "What does the abbreviation PF stand for in the Guideline?",
@@ -43521,7 +43521,7 @@
     "為偽造貨幣及偽造文件擴散籌集資金",
     "為危險藥物跨境擴散籌集資金"
    ],
-   "explain": "主要用語及縮寫詞彙表列明「擴散資金籌集」的涵義為「為大規模毀滅武器擴散籌集資金」，並於第6章連同恐怖分子資金籌集及金融制裁一併作實質論述。槍械、偽造貨幣、偽造文件及危險藥物均非大規模毀滅武器，為其擴散籌集資金並非擴散資金籌集的涵義。"
+   "explain": "主要用語及縮寫詞彙列明「擴散資金籌集」的涵義為「為大規模毀滅武器擴散籌集資金」，並於第6章連同恐怖分子資金籌集及金融制裁一併作實質論述。槍械、偽造貨幣、偽造文件及危險藥物均非大規模毀滅武器，為其擴散籌集資金並非擴散資金籌集的涵義。"
   }
  },
  {
@@ -43530,7 +43530,7 @@
   "answer": 0,
   "source": {
    "en": "AML/CFT Guideline for MSOs (Jun 2023) Glossary",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）詞彙表"
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）詞彙部分"
   },
   "en": {
    "q": "Which definition of financial institution applies in the Guideline unless otherwise specified?",
@@ -43550,7 +43550,7 @@
     "《銀行業條例》（第155章）所載、適用於認可機構的定義",
     "金融管理局在其本身的監管指引中現時採用的任何定義"
    ],
-   "explain": "詞彙表就「FI(s)」的註釋訂明，除另有指明外（例如《打擊洗錢條例》所界定的金融機構），「金融機構」一詞與財務行動特別組織建議所載的定義相同。此項區別在第10.4段等條文中尤為重要，該段明文提述《打擊洗錢條例》所界定的金融機構。《銀行業條例》的定義及金融管理局本身的指引均非詞彙表所指的後備定義，財務行動特別組織的定義亦非一經提及《打擊洗錢條例》即告捨棄。"
+   "explain": "詞彙部分就「金融機構」的註釋訂明，除另有指明外（例如《打擊洗錢條例》所界定的金融機構），「金融機構」一詞與財務行動特別組織建議所載的定義相同。此項區別在第10.4段等條文中尤為重要，該段明文提述《打擊洗錢條例》所界定的金融機構。《銀行業條例》的定義及金融管理局本身的指引均非詞彙部分所指的後備定義，財務行動特別組織的定義亦非一經提及《打擊洗錢條例》即告捨棄。"
   }
  },
  {
@@ -43559,7 +43559,7 @@
   "answer": 0,
   "source": {
    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.10 & Glossary",
-   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.10段及詞彙表"
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.10段及詞彙部分"
   },
   "en": {
    "q": "Which abbreviation in the Glossary denotes the ordinance whose section 4 prohibits a person from providing any services where he believes or suspects, on reasonable grounds, that those services may be connected to PF?",
@@ -43572,14 +43572,14 @@
    "explain": "The Glossary defines WMD(CPS)O as the Weapons of Mass Destruction (Control of Provision of Services) Ordinance (Cap. 526), and ¶6.10 states that its section 4 prohibits a person from providing any services where he believes or suspects, on reasonable grounds, that those services may be connected to PF. UNSO (Cap. 537) implements UN sanctions regimes generally, including the DPRK and Iran regulations that also form part of the counter-PF regime; UNATMO (Cap. 575) addresses terrorist financing measures; and OSCO (Cap. 455) deals with organized and serious crime and creates a money laundering offence — none of them carries that section 4 prohibition."
   },
   "tc": {
-   "q": "在本指引詞彙表所列的條例中，哪一條例的第4條禁止任何人提供基於合理理由相信或懷疑可能與擴散資金籌集有關的服務？",
+   "q": "在本指引詞彙部分所列的條例中，哪一條例的第4條禁止任何人提供基於合理理由相信或懷疑可能與擴散資金籌集有關的服務？",
    "options": [
     "《大規模毀滅武器（提供服務的管制）條例》（第526章）",
     "《聯合國制裁條例》（第537章），用以實施聯合國制裁",
     "《聯合國（反恐怖主義措施）條例》（第575章）",
     "《有組織及嚴重罪行條例》（第455章），增訂洗錢罪行"
    ],
-   "explain": "第6.10段訂明，《大規模毀滅武器（提供服務的管制）條例》第4條禁止任何人提供任何基於合理理由相信或懷疑可能與擴散資金籌集有關的服務；詞彙表列明該條例為第526章。《聯合國制裁條例》（第537章）處理一般的聯合國制裁制度，包括同屬打擊擴散資金籌集制度一部分、針對朝鮮及伊朗的規例；《聯合國（反恐怖主義措施）條例》（第575章）處理反恐怖主義措施；《有組織及嚴重罪行條例》（第455章）則處理有組織及嚴重罪行，並增訂洗錢罪行——三者均無上述第4條的禁止規定。"
+   "explain": "第6.10段訂明，《大規模毀滅武器（提供服務的管制）條例》第4條禁止任何人提供任何基於合理理由相信或懷疑可能與擴散資金籌集有關的服務；詞彙部分列明該條例為第526章。《聯合國制裁條例》（第537章）處理一般的聯合國制裁制度，包括同屬打擊擴散資金籌集制度一部分、針對朝鮮及伊朗的規例；《聯合國（反恐怖主義措施）條例》（第575章）處理反恐怖主義措施；《有組織及嚴重罪行條例》（第455章）則處理有組織及嚴重罪行，並增訂洗錢罪行——三者均無上述第4條的禁止規定。"
   }
  },
  {

@@ -330,7 +330,13 @@ func TestCitationHasLocator(t *testing.T) {
 // numbered Guideline paragraph 第2(b)段. No Chinese source writes either as 第20(1)(b)款
 // (款 alone, as in 第(3)款, is a subsection referred to from inside its own section).
 // The blind review of September 2026 found 29 such references in 20 questions.
-var sectionKuan = regexp.MustCompile(`第\d+[A-Z]*(?:\([0-9A-Za-z]+\))+款`)
+// Nor does any Chinese source number a part with 節: the Licensing Guide calls
+// its Roman-numbered parts 條 (請參閱第 XIV 條的收費表), where five questions had
+// written 第XVI節 until the source texts were first searched for it.
+var (
+	sectionKuan = regexp.MustCompile(`第\d+[A-Z]*(?:\([0-9A-Za-z]+\))+款`)
+	romanJie    = regexp.MustCompile(`第\s*[IVX]+\s*節`)
+)
 
 func TestSectionNumberWord(t *testing.T) {
 	for _, q := range loadBank(t) {
@@ -338,6 +344,9 @@ func TestSectionNumberWord(t *testing.T) {
 		for _, f := range fields {
 			for _, m := range sectionKuan.FindAllString(f, -1) {
 				t.Errorf("%s: %q writes a numbered section with 款; the Ordinance says 條, the Guideline 段", q.ID, m)
+			}
+			for _, m := range romanJie.FindAllString(f, -1) {
+				t.Errorf("%s: %q; the Licensing Guide calls its Roman-numbered parts 條, as in 第XIV條", q.ID, m)
 			}
 		}
 	}
@@ -382,6 +391,7 @@ func TestChineseStatutoryTerms(t *testing.T) {
 		// September 2026 term sweep: each of these appears in none of the 23 Chinese
 		// sources; most render an English term instead of using the Chinese text's own.
 		"陳述機會":         "陳詞機會 (s.22(1), s.34(3), s.44(1), s.59(3), s.60(3); Licensing Guide ¶7.2)",
+		"詞彙表":          "詞彙部分 (Guideline ¶1.2), or the heading 主要用語及縮寫詞彙",
 		"顯赫公職":         "重要公職 (Sch. 2 s.1, politically exposed person)",
 		"密切聯繫人":        "關係密切的人 (Sch. 2 s.1)",
 		"糾正命令":         "the section's words: 命令採取糾正行動 (s.43(4)), 飭令採取糾正行動的命令 (s.21(4))",
@@ -1256,3 +1266,4 @@ func TestNoNumberOnlyOptions(t *testing.T) {
 		}
 	}
 }
+
