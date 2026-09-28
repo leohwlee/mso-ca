@@ -440,25 +440,54 @@ func TestChineseStatutoryTerms(t *testing.T) {
 	}
 }
 
-// TestNoDanglingOperator: 該經營者 or 該金錢服務經營者 ("the said operator") must
-// point back to an operator the stem or the same field has already named. Used
-// cold it renders "the MSO" word for word and leaves the reader asking which
-// operator; the sources say 金錢服務經營者.
-func TestNoDanglingOperator(t *testing.T) {
+// TestNoDanglingReference: 該 means "the said", so 該客戶 is a customer already
+// named. Used cold it renders "the customer" or "the MSO" word for word and
+// leaves the reader asking which one; the sources name it first. A candidate
+// reads the stem, then the statements in order, then the options and the
+// explanation, so each may lean on what came before it. A transaction may be
+// named by its kind, as Guideline ¶10.2 names a wire transfer and then says 該交易.
+var danglingRefs = []struct {
+	form        *regexp.Regexp // 該, an optional classifier, the noun
+	antecedents []string       // one of these, said earlier, gives it something to refer to
+}{
+	{regexp.MustCompile(`該[項宗筆名間位]?(?:金錢服務)?經營者`), []string{"經營者"}},
+	{regexp.MustCompile(`該[項宗筆名間位]?客戶`), []string{"客戶"}},
+	{regexp.MustCompile(`該[項宗筆名間位]?交易`), []string{"交易", "匯款", "電傳轉帳", "電傳轉賬", "兌換"}},
+	{regexp.MustCompile(`該[項宗筆名間位]?機構`), []string{"機構"}},
+	{regexp.MustCompile(`該[項宗筆名間位]?公司`), []string{"公司"}},
+	{regexp.MustCompile(`該[項宗筆名間位]?業務關係`), []string{"業務關係"}},
+	{regexp.MustCompile(`該[項宗筆名間位]?持牌人`), []string{"持牌人"}},
+	{regexp.MustCompile(`該[項宗筆名間位]?匯款人`), []string{"匯款人"}},
+	{regexp.MustCompile(`該[項宗筆名間位]?申請人`), []string{"申請人"}},
+}
+
+func TestNoDanglingReference(t *testing.T) {
 	bank := loadBank(t)
-	strip := strings.NewReplacer("該經營者", "", "該金錢服務經營者", "")
 	for _, q := range bank {
-		check := func(context, f string) {
-			for _, form := range []string{"該經營者", "該金錢服務經營者"} {
-				i := strings.Index(f, form)
-				if i >= 0 && !strings.Contains(strip.Replace(context+f[:i]), "經營者") {
-					t.Errorf("%s: %s has nothing to refer back to in %q", q.ID, form, f)
+		check := func(read, f string) {
+			for _, r := range danglingRefs {
+				loc := r.form.FindStringIndex(f)
+				if loc == nil {
+					continue
+				}
+				before := r.form.ReplaceAllString(read+f[:loc[0]], "")
+				named := false
+				for _, a := range r.antecedents {
+					named = named || strings.Contains(before, a)
+				}
+				if !named {
+					t.Errorf("%s: %s has nothing to refer back to in %q", q.ID, f[loc[0]:loc[1]], f)
 				}
 			}
 		}
+		read := q.Tc.Q
 		check("", q.Tc.Q)
-		for _, f := range append(append([]string{q.Tc.Explain}, q.Tc.Options...), q.Tc.Statements...) {
-			check(q.Tc.Q, f)
+		for _, s := range q.Tc.Statements {
+			check(read, s)
+			read += s
+		}
+		for _, f := range append([]string{q.Tc.Explain}, q.Tc.Options...) {
+			check(read, f)
 		}
 	}
 }
