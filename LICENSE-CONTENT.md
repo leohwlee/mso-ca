@@ -46,7 +46,10 @@ the file. If you redistribute `mso-ca.html`, that comment must stay.
 
 `docs/EN/` and `docs/TC/` — 23 publications of the Government of the Hong Kong
 Special Administrative Region, and the Anti-Money Laundering and Counter-
-Terrorist Financing Ordinance as published on Hong Kong e-Legislation.
+Terrorist Financing Ordinance as published on Hong Kong e-Legislation. The same
+goes for their text as extracted into `docs/text/`, and for the passages from
+them in `docs/quotes.json`. The script that extracts the text,
+`docs/extract_text.py`, is code and falls under part 1.
 
 **These are not the author's work and are not covered by any licence in this
 repository.** They are reproduced for study reference only, as
