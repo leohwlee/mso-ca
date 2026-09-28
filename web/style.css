@@ -58,7 +58,7 @@ b, strong { font-weight: 600; color: var(--ink); }
 .loading { text-align: center; padding: 4rem; color: var(--muted); }
 .wrap { max-width: 960px; margin: 0 auto; padding: 24px 24px 80px; }
 .note { font-size: 13px; color: var(--muted); }
-.footer { text-align: center; color: var(--faint); font-size: 12px; margin-top: 48px; }
+.footer { text-align: center; color: var(--faint); font-size: 12px; margin-top: 48px; max-width: 78ch; margin-inline: auto; text-wrap: balance; }
 .ic { width: 1em; height: 1em; vertical-align: -.15em; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
 
 /* small grey caption */

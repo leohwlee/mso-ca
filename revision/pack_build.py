@@ -155,8 +155,10 @@ DOCS += [
          foot=CI_FOOT),
 ]
 
-DISCLAIM = ("A revision aid, not legal advice: the source document prevails, so check the cited paragraph or section before relying on any line here.",
-            "本頁屬溫習輔助，並非法律意見：一切以原文為準，引用前請查核所引段落或條文。")
+DISCLAIM = ("A revision aid, not legal advice: the source document prevails, so check the cited paragraph or section before relying on any line here. "
+            "Not an official C&amp;ED product. Where the sources conflict or are unclear, the pack follows the reading judged most defensible.",
+            "本頁屬溫習輔助，並非法律意見：一切以原文為準，引用前請查核所引段落或條文。"
+            "本資料並非香港海關的官方產品；如原始文件互相矛盾或意思不清晰，本資料採用經判斷為最有根據的解讀。")
 
 
 def prefix_ids(html, ids, pre):

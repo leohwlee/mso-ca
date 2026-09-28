@@ -57,6 +57,19 @@ The pack's Circulars and FAQ page serves modules 1 and 4–7. The questions are
 reconstructions for practice, not real exam questions; C&ED has never released a
 past paper.
 
+## Disclaimer
+
+C&ED publishes no answers beyond a few sample questions, so neither file can be
+guaranteed correct. Every answer has been checked against the sources, but the
+documents sometimes contradict each other or are unclear. Where they do, both
+files follow the reading judged most defensible, and
+[`revision/CONFLICT-CALLS.md`](revision/CONFLICT-CALLS.md) records each
+decision. Where anything here differs from a source, the source prevails.
+
+This is not an official product of the Customs and Excise Department. It does
+not speak for C&ED or any regulator, it does not replace the official texts, and
+nothing here is legal advice.
+
 ## License
 
 | What | License |
@@ -65,5 +78,4 @@ past paper.
 | The bundled fonts, DM Sans and DM Mono | [SIL OFL 1.1](web/fonts/OFL.txt) |
 | The official documents in `docs/` | Not licensed here: they are Hong Kong SAR Government publications, included for study reference only |
 
-[LICENSE-CONTENT.md](LICENSE-CONTENT.md) has the detail. This is not an official
-product of the Customs and Excise Department, and nothing here is legal advice.
+[LICENSE-CONTENT.md](LICENSE-CONTENT.md) has the detail.
