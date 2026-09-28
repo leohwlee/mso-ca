@@ -37,8 +37,8 @@ A = sec('proof', [("Part 7", "第7部"), "s.78", ("with s.60, s.63", "另及第6
       "同一問題，四種答案，視乎由誰作決定。在左邊找出決策者。")
     + table([th("Who is deciding", "由誰決定"), th("What they must establish", "須證明甚麼"), th("The standard", "舉證準則")], [
         tr(rh("The Commissioner, for any purpose other than a criminal one", "關長（刑事以外的任何目的）", "s.78"),
-           td("That you contravened any Ordinance, a notice or requirement, a licence condition or any other condition; or were responsible for, assisted, were concerned in, attempted or conspired in such a thing; or that it might occur",
-              "你違反任何條例、通知或要求、牌照條件或其他條件；或曾對此負責、協助、牽涉其中、企圖或串謀；或此等事宜可能發生"),
+           td("That you contravened a provision of any Ordinance, a notice or requirement given or imposed under any Ordinance, a condition of a licence under this Ordinance or any other condition imposed under it; were responsible for an unlawful act or omission; assisted, counselled, procured or induced another person to do anything, were concerned in or a party to anything, or attempted or conspired to commit anything, that results in either of those; or that any of these might occur",
+              "你違反任何條例的條文、根據任何條例給予或施加的通知、規定或要求、根據本條例批給的任何牌照的任何條件，或根據本條例施加的任何其他條件；曾對任何非法作為或不作為負有責任；曾輔助、慫使、促致或誘使他人作出任何事情，曾牽涉入或參與任何事情，或曾企圖作出或與他人串謀作出任何事情，因而導致上述事宜發生；或上述任何事宜可能發生"),
            td("The <b>standard of proof applicable to civil proceedings in a court of law</b>", "<b>適用於在法院進行的民事法律程序的舉證準則</b>", post=flag())),
         tr(rh("The Review Tribunal, on the facts of a review", "覆核審裁處（覆核中的事實）", "s.60(4)"),
            td("Any matter of fact in the review", "覆核中的任何事實事宜"),
@@ -48,13 +48,13 @@ A = sec('proof', [("Part 7", "第7部"), "s.78", ("with s.60, s.63", "另及第6
            td("The <b>same standard as the Court of First Instance</b> uses for contempt", "<b>與原訟法庭</b>懲罰藐視罪時採用的準則<b>相同</b>")),
         tr(rh("A criminal court, trying an offence", "刑事法院（審理罪行）", "s.78"),
            td("That you committed an offence under the Ordinance", "你干犯本條例所訂罪行"),
-           td("Section 78 does not apply: it expressly excludes provisions relating to criminal proceedings or to an offence", "第78條不適用：該條明文豁除關乎刑事法律程序或罪行的條文")),
+           td("Section 78 does not apply: it expressly excludes provisions relating to criminal proceedings or to an offence", "第78條不適用：該條適用於本條例的條文，但關乎刑事法律程序或任何罪行的條文除外")),
     ], minw=760)
     + traps(
         trap(("Why discipline is easier to prove than a crime", "為何紀律行動比刑事罪行容易證明"),
-             ("The same conduct can lead to Part 4 discipline and to a prosecution. For the discipline, the Commissioner needs only the standard of proof applicable to civil proceedings, and no proof of knowledge; the prosecution must prove the offence, including that the institution acted knowingly.",
-              "同一行為可同時引致第4部紀律行動及刑事檢控。紀律行動只需符合適用於民事法律程序的舉證準則，亦毋須證明明知；刑事檢控則須證明罪行成立，包括機構明知而為。"),
-             "s.78 · s.21(1) · s.5(5)"),
+             ("The same conduct can lead to Part 4 discipline and to a prosecution. For the discipline, the Commissioner needs only the standard of proof applicable to civil proceedings, and no proof of knowledge or intent; the prosecution must prove the offence, including that the institution contravened knowingly, or with intent to defraud a relevant authority.",
+              "同一行為可同時引致第4部紀律行動及刑事檢控。紀律行動只需符合適用於民事法律程序的舉證準則，亦毋須證明明知或意圖；刑事檢控則須證明罪行成立，包括機構明知而違反，或出於詐騙任何有關當局的意圖而違反。"),
+             "s.78 · s.21(1) · s.5(5)–(6)"),
     ))
 
 # ---------------------------------------------------------------- B. who prosecutes
@@ -121,8 +121,8 @@ E_ = sec('regs', ["s.77", "s.82", ("with s.51, s.24", "另及第51、24條")],
       "兩條處理行政事宜的條文。第一條說明由誰訂立詳細規則；第二條解釋在本條例生效時，已根據舊制度登記的貨幣兌換商及匯款代理人如何成為持牌人。")
     + table([th("", ""), th("What it provides", "規定甚麼")], [
         tr(rh("Regulations", "規例", "s.77 · s.51"),
-           td("The Chief Executive in Council may make regulations for the whole Ordinance <b>except Parts 5, 5A, 5B and 5C</b>. Regulations for Part 5 are the Commissioner's, and that power cannot be delegated.",
-              "行政長官會同行政會議可為整條條例訂立規例，<b>但第5、5A、5B及5C部除外</b>。第5部的規例由關長訂立，而該權力不可轉授。", "s.26(2)", post=flag())),
+           td("The Chief Executive in Council may make regulations for the whole Ordinance <b>except Parts 5, 5A, 5B and 5C</b>. Regulations for Part 5 are made by the Commissioner of Customs and Excise, who cannot delegate that power.",
+              "行政長官會同行政會議可為整條條例訂立規例，<b>但第5、5A、5B及5C部除外</b>。第5部的規例由海關關長訂立，而海關關長不得轉授該職能。", "s.26(2)", post=flag())),
         tr(rh("Who was deemed licensed", "誰被當作已獲發牌", "s.82(1)–(2)"),
            td("Anyone on the register kept under the old Organized and Serious Crimes Ordinance as a money changer or remittance agent immediately before commencement, for all premises entered on that register.",
               "緊接本條例生效前，名列於舊《有組織及嚴重罪行條例》所備存紀錄冊的貨幣兌換商或匯款代理人，就該紀錄冊所列的所有處所而言。")),

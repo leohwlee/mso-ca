@@ -48,8 +48,8 @@ S1 = sec('build', ["s.23 Sch. 2", "¶3.1–3.4", "¶1.6"],
          ("Your AML/CFT Systems: approved at the top, built from four parts", "你的打擊洗錢／恐怖分子資金籌集制度：由高層審批，由四個部分組成"),
     P("Read the figure from the top. The red boxes are duties on you: first the statute's, then the Guideline's. The four grey boxes are the parts every system should contain; select (a) to (c) to jump to the section that covers each.",
       "由上而下閱讀。紅色方格是你的責任：先是條例的，再是指引的。四個灰色方格是每套制度應包括的部分；點選(a)至(c)即跳往下文相關部分。")
-    + fig(fig_build, ("The statute sets the goal in one sentence; Chapter 3 turns it into people and functions. The four parts are scaled to your business, but a small MSO still needs all four.",
-                        "條例用一句訂明目標；第3章把它化為人員及職能。四個部分按業務規模釐定，但規模細小的金錢服務經營者仍須具備全部四項。"), BUILD_KEY)
+    + fig(fig_build, ("The statute sets the goal in one sentence; Chapter 3 turns it into people and functions. The four parts are scaled to your business, but a small MSO should still have all four.",
+                        "條例用一句訂明目標；第3章把它化為人員及職能。四個部分按業務規模釐定，但規模細小的金錢服務經營者仍應具備全部四項。"), BUILD_KEY)
     + table([th("The situation", "情況"), th("What the Guideline expects", "指引的要求")], [
         tr(td("You set up the systems", "你建立制度"),
            td("Have them approved by senior management, so that they let you manage and mitigate the risks relevant to you effectively",
@@ -240,14 +240,15 @@ S6 = sec('audit', ["¶3.11–3.14", ("FAQ Q23", "常見問題第23問")],
         tr(rh("Outside eyes", "外界覆核"),
            td("<b>Where appropriate</b>, also seek a review from external parties", "<b>在適當情況下</b>，亦應尋求外界進行覆核", "¶3.13")),
         tr(rh("Validating transaction monitoring", "核實交易監察"),
-           td("See the <a href=\"#ci-edd\">Circulars page</a>", "見<a href=\"#ci-edd\">通函一頁</a>", FAQ(23))),
+           td("An external party, or your internal audit function. Subject to appropriate segregation of duties, the internal audit function should have sufficient expertise and resources to carry out an independent review of your AML/CFT Systems. The same answer is in the <a href=\"#ci-edd\">FAQ table on the Circulars page</a>",
+              "外界人士，或你的內部審核職能。內部審核職能除了適當的分工外，亦應具備足夠的專業知識和資源，以對你的打擊洗錢／恐怖分子資金籌集制度作出獨立覆核。同一答案亦見<a href=\"#ci-edd\">通函一頁的常見問題表</a>", cc(FAQ(23), "¶3.11"))),
     ], minw=720)
     + traps(
         trap(("External review is “where appropriate”, not a standing requirement", "外界覆核屬「在適當情況下」，並非固定要求"),
              ("Chapter 3 requires an independent audit function and regular reviews sized to your business. It adds an external review only where appropriate, and names no frequency.",
               "第3章要求設立獨立的審核職能，並按業務規模定期覆核；外界覆核只屬在適當情況下的補充，亦沒有訂明頻密程度。"),
              "¶3.11–3.13"),
-        trap(("The audit function reviews the compliance function", "審核職能須覆核合規職能"),
+        trap(("The audit function reviews the compliance function", "審核職能的覆核範圍包括合規職能"),
              ("Item (c) of the review is the effectiveness of the compliance function itself, and the audit function has its own direct line of communication to senior management. A list of review items that leaves out the compliance function is incomplete.",
               "覆核範圍第(c)項正是合規職能本身是否有效，而審核職能能與高級管理層直接溝通。覆核範圍的清單如遺漏合規職能，即不完整。"),
              "¶3.11–3.12(c)"),
@@ -307,6 +308,6 @@ G3_META = dict(
     title=("AML/CFT Systems and who answers for them", "打擊洗錢／恐怖分子資金籌集制度及其負責人"),
     lede=("Chapter 3 decides who in your business answers for AML/CFT, and what they need to do it. Senior management approves the systems and appoints a compliance officer and an MLRO; an independent audit function checks that the systems work; staff are screened when hired and trained throughout. If you are a Hong Kong-incorporated MSO with overseas branches, or subsidiary undertakings in the same business as a financial institution, the same standard follows them wherever it is relevant and applicable. Where the rules differ, you require them to apply the higher one as far as host law permits; if host law does not permit it, you inform the CCE and take additional measures.",
           "第3章決定你的業務中由誰為打擊洗錢／恐怖分子資金籌集負責，以及他們需要甚麼條件。高級管理層審批制度，並委任合規主任及洗錢報告主任；獨立的審核職能檢查制度是否奏效；僱員在聘用時經甄選，並持續接受培訓。如你是在香港成立為法團的金錢服務經營者，並設有外地分行或經營與金融機構相同業務的附屬企業，在本指引的規定關乎及適用於它們時，同一標準亦適用於它們。如規定有所不同，你應規定它們在當地法律准許的範圍內執行較嚴格者；如當地法律不准許，應通知關長並採取額外措施。"),
-    foot=("Drawn from Chapter 3, paragraphs 3.1 to 3.19 and footnotes 9 to 11, of the Customs and Excise Department's Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Money Service Operators), June 2023, with paragraphs 1.6, 2.2–2.3, 4.1.2, 6.16, 7.7, 7.9, 7.12–7.13 and 7.31; sections 22 and 23 of Schedule 2 to the Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615 (consolidated 15 May 2026); the Licensing Guide for Money Service Operators (May 2026), paragraphs 4.15 and 11.3; the Supplementary Guideline on Criteria for Determining Fitness and Propriety (January 2020), paragraph 6(g); and FAQ Q23.",
-          "取材自海關《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》（2023年6月）第3章第3.1至3.19段及註9至11，以及第1.6、2.2至2.3、4.1.2、6.16、7.7、7.9、7.12至7.13及7.31段；《打擊洗錢及恐怖分子資金籌集條例》（第615章）（2026年5月15日綜合版）附表2第22及23條；《金錢服務經營者牌照指引》（2026年5月）第4.15及11.3段；《有關適當人選準則的補充指引》（2020年1月）第6(g)段；以及常見問題第23問。"),
+    foot=("Drawn from Chapter 3, paragraphs 3.1 to 3.19 and footnotes 9 to 11, of the Customs and Excise Department's Guideline on Anti-Money Laundering and Counter-Financing of Terrorism (For Money Service Operators), June 2023, with paragraphs 1.6, 2.2–2.3, 4.1.2, 6.16, 7.7, 7.9, 7.12–7.13 and 7.31; sections 22 and 23 of Schedule 2 to the Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615 (consolidated 24 Sep 2026); the Licensing Guide for Money Service Operators (May 2026), paragraphs 4.15 and 11.3; the Supplementary Guideline on Criteria for Determining Fitness and Propriety (January 2020), paragraph 6(g); and FAQ Q23.",
+          "取材自海關《打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）》（2023年6月）第3章第3.1至3.19段及註9至11，以及第1.6、2.2至2.3、4.1.2、6.16、7.7、7.9、7.12至7.13及7.31段；《打擊洗錢及恐怖分子資金籌集條例》（第615章）（2026年9月24日綜合版）附表2第22及23條；《金錢服務經營者牌照指引》（2026年5月）第4.15及11.3段；《有關適當人選準則的補充指引》（2020年1月）第6(g)段；以及常見問題第23問。"),
 )

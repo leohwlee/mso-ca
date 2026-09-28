@@ -154,7 +154,7 @@ CMP = table(
         + d("The <b>Commissioner</b>, and only over a licensee.", "<b>關長</b>，且只可針對持牌人。", "s.43(1)")
         + d("Prosecution in the criminal courts.", "在刑事法院提出檢控。", "s.5(5)–(8)") + '</tr>',
         '<tr>' + rh("What triggers it", "觸發條件")
-        + d("Contravening a <b>specified provision</b>, which s.5(11) defines by listing Schedule 2 duties, including CDD, continuously monitoring business relationships, wire transfers, remittance transactions, record keeping, establishing procedures, and taking all reasonable measures to prevent a contravention and to mitigate money laundering and terrorist financing risks. Unlike s.5, the breach need not be knowing.", "違反<b>指明的條文</b>；第5(11)條以列出附表2條文的方式界定，包括客戶盡職審查、持續監察、電傳轉帳、匯款交易、備存紀錄、設立程序，以及採取所有合理措施以防止違反及減低洗錢及恐怖分子資金籌集風險等責任。與第5條不同，毋須屬明知而違反。", "s.21(1) · s.5(11) · s.13, 19, 23 Sch. 2")
+        + d("Contravening a <b>specified provision</b>, which s.5(11) defines by listing Schedule 2 duties, including CDD, continuously monitoring business relationships, wire transfers, remittance transactions, record keeping, establishing procedures, and taking all reasonable measures to prevent a contravention and to mitigate money laundering and terrorist financing risks. Unlike s.5, the breach need not be knowing.", "違反<b>指明的條文</b>；第5(11)條以列出附表2條文的方式界定，包括客戶盡職審查、持續監察、電傳轉帳、匯款交易、備存紀錄、設立程序，以及採取所有合理措施以防止違反及減低洗錢及恐怖分子資金籌集風險等責任。與第5條不同，毋須屬明知而違反。", "s.21(1) · s.5(11) · Sch. 2")
         + d("Contravening a regulation made under s.51, a <b>condition of the licence</b>, or one of the Part 5 duties in s.35(1), 36(1), 37(1), 38(1), 39(1), 39A(1), 40(1) or 41(1). Each of those eight duties is also an offence in its own section if broken without reasonable excuse; under s.35 to 37 the offender is the person who becomes a director, ultimate owner or partner without approval, who need not be the licensee.", "違反根據第51條訂立的規例、<b>牌照條件</b>，或第35(1)、36(1)、37(1)、38(1)、39(1)、39A(1)、40(1)或41(1)條所訂的第5部責任。該八項責任如無合理辯解而違反，本身亦各屬所屬條文的罪行；第35至37條的犯罪者為未獲批准而成為董事、最終擁有人或合夥人的人，該人不一定是持牌人。", "s.43(1) · s.35–41")
         + d("The same specified provision, but only when contravened <b>knowingly</b>, or with <b>intent to defraud</b> a relevant authority. Neither s.5 nor s.21 makes one route rule out the other.", "同樣是指明的條文，但須屬<b>明知而違反</b>，或<b>出於詐騙任何有關當局的意圖</b>而違反。第5條及第21條均沒有規定其中一條途徑排除另一條。", "s.5(5)–(6) · s.21(1)") + '</tr>',
         '<tr>' + rh("How many powers at once", "可同時行使多少項權力")
@@ -226,8 +226,8 @@ B_ = sec('procedure', ["s.22 · s.23", ("also s.44–45", "另及第44、45條")
         (("$10,000,000 or 3× profit gained / costs avoided", "$10,000,000或獲取的利潤／避免的開支的金額的3倍"),
          ("The ceiling on a single pecuniary penalty, taken as whichever is greater", "單一罰款的上限，以兩者中較大者為準"),
          ("You contravened a Schedule 2 specified provision and the Commissioner acts under Part 4", "你違反附表2的指明的條文，而關長根據第4部採取行動"),
-         ("On the authority's application the Court of First Instance may register the order; once registered it is treated as a Court of First Instance order for the payment of money", "原訟法庭可應有關當局的申請登記該命令；一經登記，即視為原訟法庭就繳付款項而作出的命令"),
-         "s.21(2)(c), (5)–(6)"),
+         ("— (a ceiling on the penalty, not a deadline you can miss)", "—（屬罰款上限，並非你須遵守的限期）"),
+         "s.21(2)(c)"),
         (("Up to $100,000 a day", "每日最高$100,000"),
          ("A daily pecuniary penalty the authority may further order if an order to take remedial action is not complied with", "不遵從採取糾正行動的命令時，有關當局可進一步命令繳付的按日罰款"),
          ("A Part 4 order to take remedial action was made and you did not act by the date it specified", "第4部下已作出採取糾正行動的命令，而你未能在命令指明的日期前採取行動"),
@@ -236,7 +236,7 @@ B_ = sec('procedure', ["s.22 · s.23", ("also s.44–45", "另及第44、45條")
         (("$1,000,000", "$1,000,000"),
          ("The whole ceiling when the Commissioner uses his own Part 5 power instead", "關長改為行使第5部自身權力時的整體上限"),
          ("You broke a regulation, a licence condition, or one of the Part 5 duties in sections 35 to 41", "你違反規例、牌照條件，或第35至41條所訂的第5部責任"),
-         ("Same enforcement machinery, at most a tenth of the Part 4 ceiling", "強制執行機制相同，上限則最多只有第4部的十分之一"),
+         ("— (a ceiling, not a deadline; at most a tenth of the Part 4 ceiling)", "—（屬上限，並非限期；最多只有第4部上限的十分之一）"),
          "s.43(2)(c)"),
         (("Up to $10,000 a day", "每日最高$10,000"),
          ("The Part 5 daily pecuniary penalty the Commissioner may further order for ignoring an order to take remedial action", "不理會採取糾正行動的命令時，關長可根據第5部進一步命令繳付的按日罰款"),
@@ -256,8 +256,8 @@ B_ = sec('procedure', ["s.22 · s.23", ("also s.44–45", "另及第44、45條")
                vs=[(("Part 4, a Schedule 2 breach", "第4部：違反附表2"), ("Up to $10,000,000 or 3 times the profit gained or costs avoided as a result of the contravention, whichever is greater; up to $100,000 a day for ignoring an order to take remedial action.", "最高$10,000,000或因該項違反而令你獲取的利潤或避免的開支的金額的3倍，以金額較大者為準；不遵從採取糾正行動的命令，每日最高$100,000。")),
                    (("Part 5, a licence breach", "第5部：違反牌照規定"), ("Up to $1,000,000 flat; up to $10,000 a day.", "劃一最高$1,000,000；每日最高$10,000。"))]),
         U.trap(("The Government escapes the money, not the reprimand", "政府可免罰款，但不免譴責"),
-               ("Part 4's pecuniary penalty and daily pecuniary penalty cannot be imposed on the Government, which matters because the Postmaster General is a financial institution. A public reprimand and an order to take remedial action still can be.",
-                "第4部的罰款及按日罰款不可向政府施加；由於郵政署署長屬金融機構，這一點有實際意義。公開譴責及採取糾正行動的命令則仍可施加。"),
+               ("Part 4's powers to order a pecuniary penalty and a daily pecuniary penalty are not exercisable in relation to the Government, which matters because the Postmaster General is a financial institution. A public reprimand and an order to take remedial action still can be made.",
+                "第4部命令繳付罰款及按日罰款的權力，不可就政府而行使；由於郵政署署長屬金融機構，這一點有實際意義。公開譴責及採取糾正行動的命令則仍可作出。"),
                "s.21(9) · Sch. 1 Pt 2"),
     ))
 

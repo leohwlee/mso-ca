@@ -2,6 +2,24 @@
 # FATF's standard-setting cycle, the offences a suspicion can lead to, and what
 # follows when a requirement of the Guideline is not met.
 from ui import *
+from bl_core import tw, LH, CS, lay
+
+
+def set_tc_body(c, lines, title=None):
+    """Hand-set the Chinese body lines (and, if given, title lines) of a Card, so that no term is
+    split across two lines."""
+    tseg = [s for s in c.seg['tc'] if s[2] != c.size]
+    if title is not None:
+        tsz, tcls = tseg[0][2], tseg[0][1]
+        for l in title:
+            assert tw(l, tsz) <= c.w - 24 + 0.5, (l, tw(l, tsz), c.w - 24)
+        tseg = [(l, tcls, tsz) for l in title]
+    for l in lines:
+        assert tw(l, c.size) <= c.w - 24 + 0.5, (l, tw(l, c.size), c.w - 24)
+    bcls = [s[1] for s in c.seg['tc'] if s[2] == c.size][0]
+    c.seg['tc'] = tseg + [(l, bcls, c.size) for l in lines]
+    c.seg['both'] = c.seg['en'] + c.seg['tc']
+    c.h = sum(z * LH for _, _, z in c.seg[lay()]) + 16 + (CS * LH if c.cite else 0)
 
 
 def dash(pts):
@@ -41,6 +59,8 @@ def fig_stages():
     P3 = Card(640, 330, ("3 · Integration", "3 · 整合"),
               ("Creating the impression of apparent legitimacy for criminally derived wealth. Where layering succeeds, the proceeds return to the general financial system and appear to come from, or be connected to, legitimate business",
                "為犯罪得來的財富製造表面的合法性。當分層交易成功，經清洗的得益便回流到一般金融體系，令人以為來自或涉及合法的商業活動"), 'plain', "¶1.10(c)", answer=True)
+    set_tc_body(P2, ["透過複雜多層的金融交易，將非法得益及其", "來源分開，從而隱藏款項的來源、掩飾", "審計線索和隱藏擁有人的身分"])
+    set_tc_body(P3, ["為犯罪得來的財富製造表面的合法性。", "當分層交易成功，經清洗的得益便回流到一般", "金融體系，令人以為來自或涉及合法的商業活動"])
     even(P1, P2, P3)
     for n in (P1, P2, P3):
         n.h += 10
@@ -76,6 +96,10 @@ def fig_fatf():
              ("Evaluations of each jurisdiction's compliance, then stringent follow-up",
               "透過評核監察各司法管轄區的合規情況並在評核後進行嚴格的跟進程序"),
              'plain', "¶1.13")
+    set_tc_body(A, ["於1989年成立的跨政府組織，", "宗旨是制訂標準，並推動有效執行", "法律、監管及作業措施，以打擊洗錢、",
+                    "恐怖分子資金籌集、擴散資金籌集", "及相關威脅"])
+    set_tc_body(B_, ["特別組織建議獲承認為打擊洗錢、", "恐怖分子資金籌集及擴散資金籌集的國際標準，", "為協調應對威脅提供基礎，",
+                     "並有助營造公平競爭的環境"])
     even(A, B_, C)
     HK = Card(30, 480, ("Hong Kong, as a member, is obliged to implement the latest Recommendations", "香港作為成員，有責任實施最新的特別組織建議"),
               ("It is important that Hong Kong complies with the international standards to maintain its status as an international financial centre. Its main laws on ML, TF, PF and financial sanctions follow in the next section",
@@ -85,6 +109,8 @@ def fig_fatf():
              ("These may face enhanced scrutiny by the FATF, or counter-measures by FATF members and the international community",
               "特別組織可能加強對這些地區的審查，而特別組織成員及國際社會也可能對其採取針對措施"),
              'may', "¶1.13")
+    set_tc_body(HK, ["香港必須符合國際標準，以維持其國際金融中心的地位。", "香港在這方面的主要法例見下一節"])
+    set_tc_body(D, ["特別組織可能加強對這些地區的審查，", "而特別組織成員及國際社會也可能對其採取針對措施"])
     even(HK, D)
     E = Card(30, 940, ("What the FATF's two lists call for", "特別組織兩份名單的要求"),
              ("High-risk jurisdictions: the FATF calls for enhanced due diligence and, in the most serious cases, countermeasures. Jurisdictions under increased monitoring: the FATF encourages its members to take the statement into account in their risk analysis. The circular of 3 July 2026 relays the June 2026 statements; the FAQ on both lists is on the Circulars page",
@@ -107,7 +133,7 @@ def fig_fatf():
 
 
 FATF_KEY = legend([('', ("the FATF, and what follows for Hong Kong", "特別組織及其對香港的影響")),
-                   ('may', ("action others may take", "其他各方可採取的行動")),
+                   ('may', ("what the jurisdictions it names may face", "被識別的司法管轄區可能面對的措施")),
                    ('faint', ("the C&amp;ED circular, and where to read on", "海關通函及延伸閱讀"))])
 
 
@@ -133,11 +159,14 @@ def fig_offences():
               ("Knowing or suspecting that a disclosure has been made, whoever made it, disclose to no one anything likely to prejudice an investigation that might follow",
                "知道或懷疑已曾作出披露，不論披露由誰作出，都不可向任何人披露相當可能損害其後調查的事宜"),
               'must', "¶1.25")
+    set_tc_body(A2, ["如你知道或有合理理由相信該財產", "代表販毒或可公訴罪行的得益。", "最高監禁14年及罰款五百萬元"])
+    set_tc_body(C2, ["知道或懷疑已曾作出披露，", "不論披露由誰作出，都不可向任何人", "披露相當可能損害其後調查的事宜"])
     even(A2, B2, C2)
     A3 = Card(44, 290, ("Offence: if it is for terrorists", "罪行：如財產是為恐怖分子提供"),
               ("Providing or collecting property for, or making property or financial (or related) services available to, terrorists or terrorist associates. Up to 14\u00a0years and a fine",
                "向恐怖分子或與恐怖分子有聯繫者提供或籌集財產，或向他們提供財產或金融（或有關的）服務。最高監禁14年及罰款"),
               'stop', "¶1.23", answer=True)
+    set_tc_body(A3, ["向恐怖分子或與恐怖分子有聯繫者提供或", "籌集財產，或向他們提供財產或金融", "（或有關的）服務。最高監禁14年及罰款"])
     N = Card(44, 924, ("Disclosing can also give you a defence to the ML/TF offence", "作出披露亦可為你提供洗錢／恐怖分子資金籌集罪行的免責辯護"),
              ("An STR to the JFIU gives a statutory defence to the ML/TF offence for the acts it discloses: made before them, with the JFIU's consent to the acts; or after them, on your own initiative and as soon as reasonable. Chapter 7",
               "向財富情報組提交可疑交易報告，可就報告所披露的作為提供洗錢／恐怖分子資金籌集罪行的法定免責辯護：在作出該作為之前提交，而該作為得到財富情報組同意；或在其後主動及在合理範圍內盡快提交。見第7章"),
@@ -190,6 +219,10 @@ def fig_status():
              ("Failing to comply does not by itself make anyone liable to proceedings. In AMLO court proceedings the Guideline is admissible in evidence, and the court must take any provision that appears relevant into account; the Commissioner must have regard to it in judging a Schedule 2 breach. See the Part 2 page",
               "沒有遵守指引本身不會令人被起訴；但在根據打擊洗錢條例於法院進行的法律程序中，指引可獲接納為證據，法院須考慮攸關的條文；關長判斷有否違反附表2時亦須顧及。見第2部一頁"),
              'faint', "¶1.8", href="#p2-guidelines")
+    set_tc_body(M, ["或會因沒有遵守相關規定而面對", "根據打擊洗錢條例採取的紀律行動", "及其他行動"])
+    set_tc_body(F, ["不遵從指引，將對他們作為", "適當人選帶有負面影響"], title=["其獨資經營者、合夥人、", "董事和最終擁有人（如適用）"])
+    set_tc_body(L, ["沒有遵守指引本身不會令人被起訴；", "但在根據打擊洗錢條例於法院進行的法律程序中，", "指引可獲接納為證據，法院須考慮攸關的條文；",
+                    "關長判斷有否違反附表2時亦須顧及。見第2部一頁"], title=["在根據打擊洗錢條例進行的法院程序中，", "以及關長判斷有否違反附表2時"])
     even(M, F, L)
     H = place([([T], 56), ([M, F, L], 0)], y0=14)
     m = 'g1r'

@@ -27,15 +27,15 @@ SP = os.path.dirname(os.path.abspath(__file__))
 # python revision/pack_build.py [output.html]; the default is revision/mso-revision-pack.html, which review/ reads
 OUT = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else os.path.join(SP, 'mso-revision-pack.html')
 
-CAP = "Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615, consolidated version as at 15 May 2026"
-CAP_TC = "《打擊洗錢及恐怖分子資金籌集條例》（第615章）2026年5月15日綜合版"
+CAP = "Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615, consolidated version as at 24 Sep 2026"
+CAP_TC = "《打擊洗錢及恐怖分子資金籌集條例》（第615章）2026年9月24日綜合版"
 
 DOCS = [
     dict(key='p1', group='part', tab=("1", "1"), short=("Part 1 · Preliminary", "第1部 · 導言"),
          eyebrow=("AMLO Cap. 615 · Part 1, sections 1 to 4 · Module 2", "《打擊洗錢條例》第615章 · 第1部第1至4條 · 單元二"),
          title=("AMLO Part 1 Preliminary", "《打擊洗錢條例》第1部：導言"),
-         lede=("Part 1 is four sections long, but it wires the Ordinance together: it makes Schedule 1 the home of the Ordinance's shared definitions, applies the Ordinance to the Government, and protects anyone who performs its functions in good faith from civil liability. This page opens with a map of the whole Ordinance, so each later Part and Schedule has somewhere to sit.",
-               "第1部只有四條，卻把整條條例連繫起來：它以附表1載列整條條例通用的釋義，令條例適用於政府，並使真誠執行職能者免負民事法律責任。本頁以整條條例的結構圖開始，讓其後每一部及每個附表都有所歸屬。"),
+         lede=("Part 1 is four sections long, but it wires the Ordinance together: it makes Schedule 1 the home of the Ordinance's shared definitions, applies the Ordinance to the Government, and protects from civil liability anyone who, in good faith, performs a function it gives a relevant authority. This page opens with a map of the whole Ordinance, so each later Part and Schedule has somewhere to sit.",
+               "第1部只有四條，卻把整條條例連繫起來：它以附表1載列整條條例通用的釋義，令條例適用於政府，並使真誠執行賦予或委予有關當局的職能者免負民事法律責任。本頁以整條條例的結構圖開始，讓其後每一部及每個附表都有所歸屬。"),
          nav=P1_NAV, body=P1_BODY,
          foot=(f"Drawn from Part 1, sections 1 to 4, of the {CAP}, with the amendment and rule-making powers in sections 6, 7, 23, 45, 50, 51, 58, 76 and 77, and the limits on delegation in section 26.",
                f"取材自{CAP_TC}第1部（第1至4條），以及第6、7、23、45、50、51、58、76及77條有關修訂及訂立規則的權力，和第26條有關轉授職能的限制。")),
@@ -66,34 +66,35 @@ DOCS = [
     dict(key='p5', group='part', tab=("5", "5"), short=("Part 5 · Your licence", "第5部 · 發牌制度"),
          eyebrow=("AMLO Cap. 615 · Part 5, sections 24 to 53 · Modules 2 and 4", "《打擊洗錢條例》第615章 · 第5部第24至53條 · 單元二及四"),
          title=("AMLO Part 5 Licensing", "《打擊洗錢條例》第5部：發牌制度"),
-         lede=("Part 5 is headed <b>Regulation of Operation of Money Service</b>, and it is the Part written about you. It is where your licence comes from, what it obliges you to do while you hold it, and how you can lose it. Most of its powers belong to the Commissioner of Customs and Excise. There are two main exceptions: the authorized officers he appoints hold the entry, search and arrest powers, and the courts hold others, since a court or magistrate may disqualify a convicted person from holding a licence and a magistrate issues entry warrants. It is laid out here as the life of a licence.",
-               "第5部的標題是<b>對經營金錢服務的規管</b>，是專為你而寫的一部。你的牌照從這裏來，持牌期間的責任在這裏訂明，失去牌照的途徑也在這裏。當中大部分權力屬於海關關長。主要例外有兩類：進入、搜查及拘捕的權力屬於關長委任的獲授權人員；另有部分權力屬於法院：法庭或裁判官可取消被定罪者持有牌照的資格，而進入處所的手令則由裁判官發出。本頁按牌照的一生鋪陳。"),
+         lede=("Part 5 is headed <b>Regulation of Operation of Money Service</b>, and it is the Part written about you. It is where your licence comes from, what it obliges you to do while you hold it, and how you can lose it. Most of its powers belong to the Commissioner, which the Ordinance defines as the Commissioner of Customs and Excise, any Deputy or Assistant Commissioner, or a person to whom he has delegated a function under section 26. There are two main exceptions: the authorized officers he appoints hold the entry, search and arrest powers, and the courts hold others, since a court or magistrate may disqualify a convicted person from holding a licence and a magistrate issues entry warrants. It is laid out here as the life of a licence.",
+               "第5部的標題是<b>對經營金錢服務的規管</b>，是專為你而寫的一部。你的牌照從這裏來，持牌期間的責任在這裏訂明，失去牌照的途徑也在這裏。當中大部分權力屬於關長，即海關關長、任何海關副關長、任何海關助理關長，或獲海關關長根據第26條轉授其任何職能的人。主要例外有兩類：進入、搜查及拘捕的權力屬於關長委任的獲授權人員；另有部分權力屬於法院：法庭或裁判官可取消被定罪者持有牌照的資格，而進入處所的手令則由裁判官發出。本頁按牌照的一生鋪陳。"),
          nav=P5_NAV, body=P5_BODY,
-         foot=(f"Drawn from Part 5, sections 24 to 53, of the {CAP}.", f"取材自{CAP_TC}第5部（第24至53條）。")),
+         foot=(f"Drawn from Part 5, sections 24 to 53, of the {CAP}, with sections 9, 59, 69 and 75, Schedule 1 Part 2 and Schedule 2 section 1; and the Licensing Guide for Money Service Operators (May 2026), the Guideline on Criteria for Determining Fitness and Propriety (April 2018) and the Guidance Notes on the Competence Assessment (December 2022).",
+               f"取材自{CAP_TC}第5部（第24至53條），另參考第9、59、69及75條、附表1第2部及附表2第1條；以及《牌照指引》（2026年5月）、《有關適當人選準則的指引》（2018年4月）及《能力評核須知》（2022年12月）。")),
     dict(key='p6', group='part', tab=("6", "6"), short=("Part 6 · Review Tribunal", "第6部 · 覆核審裁處"),
          eyebrow=("AMLO Cap. 615 · Part 6, sections 54 to 76 · Module 2", "《打擊洗錢條例》第615章 · 第6部第54至76條 · 單元二"),
          title=("AMLO Part 6 Review Tribunal", "《打擊洗錢條例》第6部：覆核審裁處"),
          lede=("Part 6 is your route out of a decision you think is wrong. It sets up the Anti-Money Laundering and Counter-Terrorist Financing Review Tribunal, fixes the 21 days you have to go to it, decides when the Commissioner's decision starts to bite, and allows one further appeal, with leave, to the Court of Appeal. Read here from the licensee's side.",
                "第6部是你不服決定時的出路。它設立打擊洗錢及恐怖分子資金籌集覆核審裁處，訂明你須在21日內提出申請，決定關長的決定何時生效，並容許經許可後再向上訴法庭上訴一次。本頁從持牌人的角度閱讀。"),
          nav=P6_NAV, body=P6_BODY,
-         foot=(f"Drawn from Part 6, sections 54 to 76, of the {CAP}, with sections 15, 21, 30 to 34, 43 and 80 where the timing and notices meet Part 6.",
-               f"取材自{CAP_TC}第6部（第54至76條）；時限及通知與第6部相關之處，另參考第15、21、30至34、43及80條。")),
+         foot=(f"Drawn from Part 6, sections 54 to 76, of the {CAP}, with Part 3 (including section 15), sections 21 and 22, 30 to 44, 51, 79 and 80, and Schedule 2 section 20(4), where the timing and notices meet Part 6.",
+               f"取材自{CAP_TC}第6部（第54至76條）；時限及通知與第6部相關之處，另參考第3部（包括第15條）、第21及22條、第30至44條、第51、79及80條，以及附表2第20(4)條。")),
     dict(key='p6a', group='part', tab=("6A", "6A"), short=("Part 6A · Confidentiality", "第6A部 · 保密"),
          eyebrow=("AMLO Cap. 615 · Part 6A, sections 76A to 76G · Module 2", "《打擊洗錢條例》第615章 · 第6A部第76A至76G條 · 單元二"),
          title=("AMLO Part 6A Confidentiality", "《打擊洗錢條例》第6A部：保密的規定"),
          lede=("Part 6A was added in 2022. It binds the regulator's people to keep what they learn secret, lets them share it only by the permitted disclosures the Part lists, and puts a smaller duty on you: once you have been given an inspection or investigation requirement, or a disciplinary notice, you may not spread what you learned from it.",
                "第6A部於2022年增補。它規定監管方人員須對所知悉的資料保密，只可作所列的獲准許的披露；同時對你施加一項較輕的責任：一旦你獲施加視察或調查要求，或獲發紀律通知，便不得散布從中獲得的資料。"),
          nav=P6A_NAV, body=P6A_BODY,
-         foot=(f"Drawn from Part 6A, sections 76A to 76G, of the {CAP}, with sections 9, 12, 21(8) and 43(7).",
-               f"取材自{CAP_TC}第6A部（第76A至76G條），另參考第9、12、21(8)及43(7)條。")),
+         foot=(f"Drawn from Part 6A, sections 76A to 76G, of the {CAP}, with sections 9, 12, 21(8), 22, 43(7) and 44.",
+               f"取材自{CAP_TC}第6A部（第76A至76G條），另參考第9、12、21(8)、22、43(7)及44條。")),
     dict(key='p7', group='part', tab=("7", "7"), short=("Part 7 · Miscellaneous", "第7部 · 雜項"),
          eyebrow=("AMLO Cap. 615 · Part 7, sections 77 to 82 · Module 2", "《打擊洗錢條例》第615章 · 第7部第77至82條 · 單元二"),
          title=("AMLO Part 7 Miscellaneous", "《打擊洗錢條例》第7部：雜項條文"),
          lede=("Six short sections that settle practical questions raised elsewhere: how sure the Commissioner must be, what happens when the Commissioner prosecutes in his own name, when a posted notice is regarded as duly given, what legal privilege still protects, and how the old register of money changers and remittance agents became licences. Part 8, which follows, is spent.",
                "六條簡短的條文，解決條例其他部分引起的實際問題：關長須證明到甚麼程度、關長以本身的名義檢控時會怎樣、郵寄的通知何時視為已妥為發出、法律專業保密權仍保障甚麼，以及舊的貨幣兌換商及匯款代理人紀錄冊如何轉為牌照。其後的第8部已失時效。"),
          nav=P7_NAV, body=P7_BODY,
-         foot=(f"Drawn from Part 7, sections 77 to 82, of the {CAP}, with sections 5, 9A, 12A, 21, 24, 26, 51, 53, 59, 60, 63 and 64 where Part 7 is applied.",
-               f"取材自{CAP_TC}第7部（第77至82條）；第7部適用之處，另參考第5、9A、12A、21、24、26、51、53、59、60、63及64條。")),
+         foot=(f"Drawn from Part 7, sections 77 to 82, of the {CAP}, with sections 5, 9A, 12A, 21, 24, 26, 29, 38, 40, 41, 51, 53, 59, 60, 63 and 64 where Part 7 is applied.",
+               f"取材自{CAP_TC}第7部（第77至82條）；第7部適用之處，另參考第5、9A、12A、21、24、26、29、38、40、41、51、53、59、60、63及64條。")),
     dict(key='s1', group='sched', tab=("1", "1"), short=("Schedule 1 · Interpretation", "附表1 · 釋義"),
          eyebrow=("AMLO Cap. 615 · Schedule 1 · Modules 1 and 3", "《打擊洗錢條例》第615章 · 附表1 · 單元一及三"),
          title=("AMLO Schedule 1 Interpretation", "《打擊洗錢條例》附表1：釋義"),
@@ -306,9 +307,29 @@ print('docs:', re.findall(r'class="doc" id="([^"]+)"', PAGE))
 print('sections:', len(re.findall(r'<section class="sec"', PAGE)))
 dead = [h for h in set(re.findall(r'href="#([^"]+)"', PAGE)) if h not in ids]
 print('dead anchors:', dead or 'none')
-bad = [t for t in re.findall(r'<span class="c-tc"[^>]*>([^<]*)</span>', PAGE) if re.search(r'[A-Za-z]{3,}', t)]
+ROMAN = re.compile(r'\((?:i|ii|iii|iv|v|vi|vii|viii|ix|x|xi|xii)\)')  # sub-paragraph numbers, not English words
+bad = [t for t in re.findall(r'<span class="c-tc"[^>]*>([^<]*)</span>', PAGE) if re.search(r'[A-Za-z]{3,}', ROMAN.sub('', t))]
 print('cites with English left in the Chinese view:', bad or 'none')
-tcbad = [t for t in re.findall(r'<span class="l-tc[^"]*" lang="zh-Hant">(.*?)</span>', PAGE) if re.search(r'[A-Za-z]{3,}', re.sub(r'<[^>]+>', '', t))]
+tcbad = [t for t in re.findall(r'<span class="l-tc[^"]*" lang="zh-Hant">(.*?)</span>', PAGE)
+         if re.search(r'[A-Za-z]{3,}', ROMAN.sub('', re.sub(r'<[^>]+>', '', t)))]
 print('Chinese text with English words:', len(tcbad))
 for t in tcbad[:12]:
     print('   ', re.sub(r'<[^>]+>', '', t)[:120])
+# a protected Chinese term split across two figure lines: consecutive lines at the same x, one line apart
+split, prev = [], None
+for m in re.finditer(r'<text([^>]*)>(.*?)</text>', PAGE, re.S):
+    fs = re.search(r'font-size="([\d.]+)"', m.group(1))
+    size = float(fs.group(1)) if fs else 14.0
+    for x, y, s in re.findall(r'<tspan x="([\d.]+)" y="([\d.]+)"[^>]*>(.*?)</tspan>', m.group(2), re.S):
+        if prev and prev[0] == x and 0 < float(y) - prev[1] <= 1.6 * size:
+            split += [prev[2][-6:] + ' | ' + s[:6] for t in bl_core.PROTECT for k in range(1, len(t))
+                      if prev[2].endswith(t[:k]) and s.startswith(t[k:])]
+        prev = (x, float(y), s)
+print('Chinese terms split across figure lines:', split or 'none')
+# simplified-only forms of common characters (the bank's TestTraditionalCharacters uses the same list)
+SIMPLIFIED = set('则说这为与应须时实际关条项过发会经务业资产权报单录证据审处规员责负济称纳统计认识义还进对当现并问题获确护险币汇银营类罚级构讯检视让论设读转选阶历场断备节约')
+simp = sorted({c for t in re.findall(r'lang="zh-Hant">(.*?)</', PAGE, re.S) for c in t if c in SIMPLIFIED})
+print('simplified characters in the Chinese view:', ''.join(simp) or 'none')
+# a numbered section is 第20(1)(b)條 (a Guideline paragraph 段), never 第20(1)(b)款 (the bank's TestSectionNumberWord)
+kuan = sorted(set(re.findall(r'第\d+[A-Z]*(?:\([0-9A-Za-z]+\))+款', ' '.join(re.findall(r'lang="zh-Hant">(.*?)</', PAGE, re.S)))))
+print('numbered sections written with 款:', kuan or 'none')

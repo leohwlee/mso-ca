@@ -168,9 +168,9 @@ SIMPLIFY_KEY = legend([('hex', ("a question you must answer", "你須回答的�
 # ---------------------------------------------------------------- 3. lines of oversight
 def fig_lines():
     W = 1000
-    SM = Card(40, 920, ("The board or its delegated committee (where applicable), and senior management", "董事會或獲其授權的委員會（如適用）及高級管理層"),
-              ("Understand the ML/TF risks and ensure they are adequately managed. Senior management is responsible for implementing effective AML/CFT Systems. Management information should reach them in a timely, complete, understandable and accurate manner",
-               "清楚了解洗錢／恐怖分子資金籌集風險，並確保已妥善管理。高級管理層有責任推行有效的制度。管理資料應以合時、完整、易於理解及準確的方式通知高級管理層"),
+    SM = Card(40, 920, ("Senior management", "高級管理層"),
+              ("Responsible for implementing effective AML/CFT Systems. With the board or its delegated committee (where applicable), it should understand the ML/TF risks and ensure they are adequately managed; management information should reach them in a timely, complete, understandable and accurate manner",
+               "有責任推行有效的制度。高級管理層與董事會或獲其授權的委員會（如適用）應清楚了解洗錢／恐怖分子資金籌集風險，並確保已妥善管理；管理資料應以合時、完整、易於理解及準確的方式通知高級管理層"),
               'must', "¶3.6–3.7")
     CO = Card(40, 280, ("Compliance officer (CO)", "合規主任"),
               ("At the management level. Overall responsibility for establishing and maintaining the systems", "屬管理層。全面負責建立及維持制度"),
@@ -201,8 +201,8 @@ def fig_lines():
     b.append(mlabels(AU.cx + 8, y1 + 60, ["direct line of", "communication"], ["直接溝通"], 'start'))
     b.append(edge([ML.bottom, JF.top], mid=m, mstart=True))
     b.append(mlabel(ML.cx + 10, ML.y + ML.h + 46, "main point of contact", "主要聯絡點", 'start'))
-    aria = ("Who answers to whom. At the top, the board or its delegated committee where applicable, and senior management, understand the ML/TF risks and ensure they are managed; senior management is responsible for effective systems, and management information should reach them in a timely, complete, understandable and accurate manner. Senior management appoints the compliance officer, at the management level, with overall responsibility for establishing and maintaining the systems, and the MLRO, a senior staff member who is the central reference point for suspicious transaction reporting. Both have regular contact with senior management and direct access when required. The independent audit function has a direct line of communication to senior management. The MLRO is the main point of contact with the JFIU and law enforcement agencies.",
-            "誰向誰負責。頂部是董事會或獲其授權的委員會（如適用）及高級管理層：他們應清楚了解洗錢／恐怖分子資金籌集風險並確保妥善管理；高級管理層有責任推行有效的制度，而管理資料應以合時、完整、易於理解及準確的方式通知高級管理層。高級管理層委任屬管理層的合規主任，全面負責建立及維持制度；並委任一名高級職員擔任洗錢報告主任，作為報告可疑交易的中央聯絡點。兩者均與高級管理層保持定期聯絡，並在有需要時直接聯絡。獨立的審核職能能與高級管理層直接溝通。洗錢報告主任是與財富情報組及執法機構的主要聯絡點。")
+    aria = ("Who answers to whom. At the top is senior management, responsible for implementing effective systems. With the board or its delegated committee where applicable, it should understand the ML/TF risks and ensure they are managed, and management information should reach them in a timely, complete, understandable and accurate manner. Senior management appoints the compliance officer, at the management level, with overall responsibility for establishing and maintaining the systems, and the MLRO, a senior staff member who is the central reference point for suspicious transaction reporting. Both have regular contact with senior management and direct access when required. The independent audit function has a direct line of communication to senior management. The MLRO is the main point of contact with the JFIU and law enforcement agencies.",
+            "誰向誰負責。頂部是高級管理層，有責任推行有效的制度；高級管理層與董事會或獲其授權的委員會（如適用）應清楚了解洗錢／恐怖分子資金籌集風險並確保妥善管理，而管理資料應以合時、完整、易於理解及準確的方式通知高級管理層。高級管理層委任屬管理層的合規主任，全面負責建立及維持制度；並委任一名高級職員擔任洗錢報告主任，作為報告可疑交易的中央聯絡點。兩者均與高級管理層保持定期聯絡，並在有需要時直接聯絡。獨立的審核職能能與高級管理層直接溝通。洗錢報告主任是與財富情報組及執法機構的主要聯絡點。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
@@ -219,7 +219,7 @@ def fig_mlro():
               None, 'plain', "¶3.10(a)")
     D = Node(40, 580, ("Is it necessary to make a report to the JFIU?", "是否有需要向財富情報組作出報告？"), "¶3.10(a)", shape='hex')
     Y = Card(40, 270, ("Report to the JFIU", "向財富情報組作出報告"), ("How and when: Chapter 7", "方式及時間：見第7章"), 'must', "¶3.10(a) · Ch. 7", answer=True)
-    N = Card(350, 270, ("No report", "不作報告"), ("The decision is still recorded", "有關決定仍須記錄"), 'plain', "¶3.10(a)–(b)", answer=True)
+    N = Card(350, 270, ("No report", "不作報告"), ("The decision is still recorded", "有關決定仍應記錄"), 'plain', "¶3.10(a)–(b)", answer=True)
     R = Card(40, 580, ("Keep all records of the internal review", "備存該等內部覆核的所有紀錄"), None, 'must', "¶3.10(b)")
     T = Card(680, 280, ("Guidance on how to avoid tipping off", "如何避免「通風報訊」的導引"),
              ("The third item under the MLRO's oversight. It is not a step in the sequence", "洗錢報告主任監督的第三項職能，並非流程中的一個步驟"), 'must', "¶3.10(c)")
@@ -240,7 +240,7 @@ def fig_mlro():
     b.append(edge([Y.bottom, (Y.cx, R.y)], mid=m))
     b.append(edge([N.bottom, (N.cx, R.y)], mid=m))
     aria = ("The MLRO's review of an internal report. An internal disclosure or an exception report comes in; it is reviewed under the MLRO's oversight in light of all available relevant information; the MLRO determines whether it is necessary to report to the JFIU. Yes leads to a report, done as Chapter 7 describes; no leads to no report. Either way all records of the internal review are kept. Separately, the third item the MLRO oversees is guidance on how to avoid tipping off.",
-            "洗錢報告主任覆核內部報告的流程。收到內部披露或例外情況報告後，在洗錢報告主任監督下根據一切知悉的資料作出覆核，並決定是否有需要向財富情報組作出報告。需要的話便作出報告（方式見第7章）；不需要則不作報告。不論結果，均須備存內部覆核的所有紀錄。另外，洗錢報告主任監督的第三項職能是提供有關如何避免通風報訊的導引。")
+            "洗錢報告主任覆核內部報告的流程。收到內部披露或例外情況報告後，在洗錢報告主任監督下根據一切知悉的資料作出覆核，並決定是否有需要向財富情報組作出報告。需要的話便作出報告（方式見第7章）；不需要則不作報告。不論結果，均應備存內部覆核的所有紀錄。另外，洗錢報告主任監督的第三項職能是提供有關如何避免通風報訊的導引。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
@@ -265,7 +265,7 @@ def fig_group():
     NF = Card(680, 280, ("No further step", "無須再採取步驟"), ("The group-wide systems apply", "上述集團層面的制度照常適用"), 'plain', "¶3.15")
     D = Node(40, 580, ("Does host law permit the branch or subsidiary undertaking to apply the higher requirements, particularly CDD and record keeping?",
                        "所在的司法管轄區的法律是否准許分行或附屬企業執行較嚴格的規定，尤其是盡職審查及備存紀錄規定？"), "¶3.18–3.19", shape='hex')
-    OK = Card(40, 250, ("Require it to apply the higher of the two sets", "規定其執行兩者中較嚴格的規定"), None, 'ok', "¶3.18", answer=True)
+    OK = Card(40, 250, ("Require it to apply the higher of the two sets", "規定其執行兩者中較嚴格的規定"), None, 'must', "¶3.18", answer=True)
     NO = Card(320, 300, ("Inform the CCE, and take additional measures", "通知關長，並採取額外措施"),
               ("To mitigate the ML/TF risks the branch or subsidiary undertaking faces because it cannot comply", "以有效減低分行或附屬企業因不能遵從規定而面對的洗錢／恐怖分子資金籌集風險"),
               'must', "¶3.19 · s.22(2) Sch. 2", answer=True)
@@ -295,5 +295,5 @@ def fig_group():
 
 
 GROUP_KEY = legend([('', ("the starting point, or no further step", "起點，或無須再採取步驟")), ('must', ("a duty on you", "你的責任")),
-                    ('hex', ("a question", "問題")), ('ok', ("host law allows the higher set", "當地法律准許較嚴格的規定"))])
+                    ('hex', ("a question", "問題"))])
 

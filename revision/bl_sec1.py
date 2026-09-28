@@ -13,8 +13,8 @@ def legend():
 S1 = sec('map', ["¶4.1–4.2", "¶4.8–4.9, 4.13", "s.2–3 Sch. 2", "¶1.6"], ("Do I owe CDD, and how much?", "我須否執行盡職審查？程度多深？"),
     P("Start at the top with the person in front of you. Hexagons are questions you answer. Every path that reaches the grey CDD box then meets the same risk question, which decides whether you apply simplified due diligence, all four CDD measures, or enhanced due diligence. Box colours follow the key under the chart.",
       "由頂部眼前的人開始。六角形是你須回答的問題。凡到達灰色盡職審查方格的路徑，都會接著面對同一條風險問題，由它決定執行簡化盡職審查措施、全部四項盡職審查措施，還是更嚴格的盡職審查措施。方格顏色見圖下的圖例。")
-    + U.fig(fig1, ("Occasional transactions include, for example, wire transfers, virtual asset transfers, remittance service, currency exchange and buying cashier orders or gift cheques (fn 13). Suspicion or doubt overrides every threshold (¶4.2.1(c)–(d), fn 15). Whether you apply simplified due diligence, all four CDD measures or enhanced due diligence, ongoing monitoring under s.5 of Schedule 2 is never switched off (¶4.8.6). The HK$120,000 third-party cash rule is in <a href=\"#s2-thresholds\">Thresholds</a>; the separate statutory exemption from beneficial-owner checks for the specified kinds of customer in s.4(3) of Schedule 2 is in <a href=\"#s2-sdd-edd\">SDD vs EDD</a>.",
-                   "非經常交易可包括電傳轉帳、虛擬資產轉帳、匯款服務、貨幣兌換、購買銀行本票或禮券（註13）。有懷疑或存疑時，門檻一概不適用（第4.2.1(c)至(d)段、註15）。不論執行簡化盡職審查措施、全部四項盡職審查措施，還是更嚴格的盡職審查措施，附表2第5條的持續監察從不豁免（第4.8.6段）。第三方現金交易120,000元的規定見<a href=\"#s2-thresholds\">門檻</a>；附表2第4(3)條就指明類別客戶毋須核查實益擁有人的另一項法定規則，見<a href=\"#s2-sdd-edd\">簡化與更嚴格</a>。"), legend())
+    + U.fig(fig1, ("Occasional transactions include, for example, wire transfers, virtual asset transfers, remittance service, currency exchange and buying cashier orders or gift cheques (fn 13). Suspicion or doubt overrides every threshold (¶4.2.1(c)–(d), fn 15). Whether you apply simplified due diligence, all four CDD measures or enhanced due diligence, ongoing monitoring under s.5 of Schedule 2 is never switched off (¶4.8.6). Below a CDD threshold, a remittance that is not a wire transfer still has its own duty from HK$8,000: before carrying it out, identify the originator, verify the originator's identity by reference to the originator's identification document, and record the listed details (s.13 of Schedule 2). That duty and the HK$120,000 third-party cash rule are in <a href=\"#s2-thresholds\">Thresholds</a>; the separate statutory exemption from beneficial-owner checks for the specified kinds of customer in s.4(3) of Schedule 2 is in <a href=\"#s2-sdd-edd\">SDD vs EDD</a>.",
+                   "非經常交易可包括電傳轉帳、虛擬資產轉帳、匯款服務、貨幣兌換、購買銀行本票或禮券（註13）。有懷疑或存疑時，門檻一概不適用（第4.2.1(c)至(d)段、註15）。不論執行簡化盡職審查措施、全部四項盡職審查措施，還是更嚴格的盡職審查措施，附表2第5條的持續監察從不豁免（第4.8.6段）。即使未達盡職審查門檻，並非電傳轉帳的匯款交易由8,000元起仍另有責任：在進行匯款交易之前，須識別匯款人的身分、藉參考匯款人的識別文件核實匯款人的身分，並記錄所列資料（附表2第13條）。此責任及第三方現金交易120,000元的規定見<a href=\"#s2-thresholds\">門檻</a>；附表2第4(3)條就指明類別客戶毋須核查實益擁有人的另一項法定規則，見<a href=\"#s2-sdd-edd\">簡化與更嚴格</a>。"), legend())
     + U.traps(
         U.trap(("A Guideline \"should\" is not optional", "指引的「應」並非可有可無"),
                ("Where the Guideline uses \"must\" or \"should\" for an action, consideration or measure, it says that is a mandatory requirement. Do not read a \"should\" on this page as a mere recommendation.",
@@ -38,11 +38,15 @@ def th(en, tc, cite):
 chip_verify = '<span class="chip ink">' + B("verify", "核實", True) + '</span> '
 chip_reas = '<span class="chip">' + B("reasonable measures", "合理措施", True) + '</span> '
 chip_und = '<span class="chip">' + B("understand", "了解", True) + '</span> '
-chip_auth = '<span class="chip ink">' + B("verify authority", "核實授權", True) + '</span> '
+
+
+def chip1(text, ink=False):
+    """A one-language chip that blurs in recall mode, for use inside one side of an (en, tc) pair."""
+    return f'<span class="answer"><span class="chip{" ink" if ink else ""}">{text}</span></span>'
 
 S2 = sec('measures', ["¶4.1.3", "¶4.3–4.6", "s.2(1) Sch. 2"], ("The four measures, and how hard each one verifies", "四項措施，以及各自核實的嚴格程度"),
-    P("The Ordinance uses two different verbs, and the paper likes the difference. A customer's identity is <b>verified</b>. A beneficial owner's identity gets <b>reasonable measures</b> to verify it, scaled to risk. A person acting for the customer gets reasonable measures on identity plus a hard <b>verification of authority</b>.",
-      "條例用了兩個不同的動詞，試卷很喜歡考這個分別。客戶的身分須<b>核實</b>；實益擁有人的身分則採取<b>合理措施</b>核實，程度按風險而定；看似代表客戶行事的人，身分採取合理措施核實，其<b>授權</b>則須確實核實。")
+    P("The verification requirements for a customer and a beneficial owner are different under the AMLO (¶4.4.3). A customer's identity is <b>verified</b> (s.2(1)(a) of Schedule 2). For a beneficial owner you take <b>reasonable measures</b> to verify identity, and what is reasonable depends on the ML/TF risks posed by the customer and the business relationship (¶4.4.3). For a person purporting to act on behalf of the customer you take reasonable measures to verify identity, and you <b>verify</b> the person's authority to act (¶4.5.2).",
+      "根據打擊洗錢條例，客戶與實益擁有人的身分核實規定並不相同（第4.4.3段）。客戶的身分須<b>核實</b>（附表2第2(1)(a)條）；實益擁有人的身分則採取<b>合理措施</b>核實，甚麼才算合理措施，須考慮客戶及業務關係引致的洗錢／恐怖分子資金籌集風險（第4.4.3段）；看似代表客戶行事的人，身分採取合理措施核實，其代表客戶行事的<b>授權</b>則須核實（第4.5.2段）。")
     + '<div class="tbl"><table><thead><tr><th>' + B("Measure", "措施") + '</th><th>' + B("Identify: collect at least", "識別：最低限度收集") + '</th><th>' + B("Verify", "核實") + '</th><th>' + B("Acceptable sources", "可接納的來源") + '</th></tr></thead><tbody>'
     + '<tr>' + th("(a) The customer", "(a) 客戶", "s.2(1)(a) · ¶4.3")
     + '<td>' + B("<b>Natural person:</b> full name, date of birth, nationality, unique ID number and document type. Also obtain the residential address: collect it, but you need not verify it.", "<b>自然人：</b>全名、出生日期、國籍、獨特識別號碼及文件類別。另應索取住址資料：須收集，但毋須核實。") + '' + cite_html("¶4.3.2, 4.3.5 fn 18") + ''
@@ -63,11 +67,12 @@ S2 = sec('measures', ["¶4.1.3", "¶4.3–4.6", "s.2(1) Sch. 2"], ("The four mea
     + '<td>—</td></tr>'
     + '<tr>' + th("(d) Person purporting to act (PPTA)", "(d) 看似代表客戶行事的人", "s.2(1)(d) · ¶4.5")
     + td("Decide who counts as a PPTA by their role, the activities they are authorised to conduct, and the risk. Identify them like a natural or legal person.", "按其角色、獲授權進行的活動及所涉風險，判斷誰屬看似代表客戶行事的人。按自然人或法人的規定識別。", "¶4.5.1, 4.5.3")
-    + td("to verify identity, and with documentary evidence such as a board resolution or similar written authorisation.", "核實身分；並以文件證據（例如董事會決議案或類似書面授權）核實授權。", "¶4.5.2, 4.5.4", '<span class="answer">' + chip_reas + chip_auth + '</span>')
+    + td("<b>Identity:</b> " + chip1("reasonable measures") + " to verify it, on the basis of the sources in the next column.<br><b>Authority to act for the customer:</b> " + chip1("verify", True) + " it, by appropriate documentary evidence such as a board resolution or similar written authorization.",
+         "<b>身分：</b>" + chip1("合理措施") + "核實，來源見右欄。<br><b>代表客戶行事的授權：</b>" + chip1("核實", True) + "，須根據適當的文件證據（例如董事會的決議案或類似書面授權）。", "¶4.5.2, 4.5.4")
     + td("Governmental body, CCE or RA, authority outside Hong Kong that performs similar functions, other CCE-recognised source.", "政府機構、關長或有關主管當局、香港以外職能相類似的主管當局、關長認可的其他來源。", "¶4.5.2(a)") + '</tr>'
     + '<tr class="note"><td colspan="4">' + B("<b>Connected parties</b> of a customer that is a legal person or trust are its directors (corporation), partners (partnership), trustees or equivalent (trust or similar arrangement), or in other cases a natural person holding a senior management position or having executive authority in the customer. Obtain their <b>names</b> only, unless one also counts as the customer, a beneficial owner or a PPTA: then identify and verify them under that requirement.", "屬法人、信託或其他類似法律安排的客戶的<b>有關連者</b>，即董事（法團）、合夥人（合夥）、受託人或同等身分的人（信託或其他類似法律安排），或在其他情況下為客戶擔任高級管理職位或掌握執行權力的自然人。只須收集其<b>姓名</b>；但如同時符合客戶、實益擁有人或看似代表客戶行事的人的定義，則須按相關規定識別和核實其身分。") + ' ' + cite_html("¶4.3.18–4.3.19 fn 26") + '</td></tr>'
     + '<tr class="note"><td colspan="4">' + B("<b>Documents</b> should be current when obtained; when a natural-person customer, or someone representing a legal person, trust or similar arrangement, is physically present for CDD to establish a business relationship, you should generally have your staff sight the original identification document and keep a copy. Where no original can be produced, for example an electronic document, take appropriate measures to ensure reliability; take steps to be satisfied with foreign-language documents; consider applying anti-fraud procedures commensurate with the risk profile of the person being verified. You need not prove every collected field.", "<b>文件</b>在取得時應反映現況；屬自然人的客戶或代表法人、信託或其他類似法律安排建立業務關係的人為盡職審查程序而現身時，通常可由職員查看識別文件的正本，並保存該文件的複本。如未能出示正本，例如文件為電子版本，應採取適當措施確保文件可靠；外語文件應採取適當步驟確認；應考慮採取防止詐騙的程序，其程度與正接受身分核實的人的風險狀況相稱。收集的每項資料毋須逐一證實。") + ' ' + cite_html("¶4.3.13–4.3.17") + '</td></tr>'
-    + '<tr class="note"><td colspan="4">' + B("<b>Who is the customer?</b> The party you establish a relationship with or transact for. The beneficiary of an outward wire transfer, with no other relationship, is not. A trustee that enters the relationship for a trust without legal personality is also your customer.", "<b>誰是客戶？</b>與你建立業務關係或由你為其進行交易的一方。付款電傳轉帳的收款人（與你沒有其他關係）並非客戶。代表沒有獨立法律人格的信託建立業務關係的受託人，亦是你的客戶。") + ' ' + cite_html("¶4.1.4–4.1.5, 4.3.10") + '</td></tr>'
+    + '<tr class="note"><td colspan="4">' + B("<b>Who is the customer?</b> The party you establish a relationship with or transact for. The beneficiary of an outward wire transfer, with no other relationship, is not. You should also regard a trustee as your customer if it enters into a business relationship or carries out occasional transactions on behalf of the trust, which is generally the case if the trust does not possess a separate legal personality.", "<b>誰是客戶？</b>與你建立業務關係或由你為其進行交易的一方。付款電傳轉帳的收款人（與你沒有其他關係）並非客戶。如受託人代表信託建立業務關係或執行非經常交易，應把受託人視作你的客戶；此情況一般會在信託不具備獨立法人身分時出現。") + ' ' + cite_html("¶4.1.4–4.1.5, 4.3.10") + '</td></tr>'
     + '</tbody></table></div>'
     + U.traps(
         U.trap(("Residential address: collect it, no need to verify it", "住址：須收集，毋須核實"), None, "¶4.3.3, 4.3.5 fn 18",
@@ -116,9 +121,9 @@ S3 = sec('bo', ["¶4.4", "s.1–2 Sch. 2"], ("Beneficial owner: follow the chain
         (("more than 25%", "25%以上"),
          ("Identify the person, and take reasonable measures to verify their identity", "識別該人，並採取合理措施核實其身分"),
          ("Shares, voting rights, or capital or profits, held directly or indirectly", "直接或間接持有的股本、投票權，或資本或利潤"),
-         ("Missing a beneficial owner breaches a specified provision, and leaves your PEP and sanctions screening incomplete", "遺漏實益擁有人即違反指明的條文，並令政治人物及制裁篩查不完整"),
-         "¶4.4.6–4.4.7 · s.2(1)(b) Sch. 2"),
-        (("nobody over 25%", "無人超過25%"),
+         ("The CDD measures, which include identifying the beneficial owner, were not carried out: a breach of a specified provision. PEP checks and sanctions screening also cover beneficial owners, so one you missed goes unchecked", "未有執行包括識別實益擁有人在內的客戶盡職審查措施，即違反指明的條文。斷定是否政治人物的程序及制裁篩查亦涵蓋實益擁有人，遺漏的實益擁有人便無從查核"),
+         "¶4.4.6–4.4.7, 4.9.9, 6.16 · s.2(1)(b), 3(1) Sch. 2 · s.5(11)"),
+        (("nobody over 25%", "無人擁有25%以上"),
          ("Identify the senior managing official instead, and verify by reasonable measures", "改為識別高級管理人員，並採取合理措施核實"),
          ("No natural person meets any limb of the beneficial owner definition", "沒有自然人符合實益擁有人定義的任何一項"),
          ("Stopping at the corporate shareholder leaves the customer with no identified beneficial owner at all", "若止步於法團股東，該客戶便完全沒有已識別的實益擁有人"),
@@ -131,8 +136,8 @@ S3 = sec('bo', ["¶4.4", "s.1–2 Sch. 2"], ("Beneficial owner: follow the chain
     ]))
 
 S4 = sec('timing', ["¶4.7", "s.3(1)–(4) Sch. 2"], ("Timing: verify before, or while establishing a relationship; only exceptionally after", "核實的時間：之前，或建立業務關係過程中；例外情況才可其後"),
-    U.fig(fig5, ("Delayed verification is a managed exception for a business relationship, not a convenience, and it does not exist for an occasional transaction. The three conditions in the amber box are cumulative; the red box is what follows if the timeframe passes.",
-                 "延遲核實是業務關係的受管控例外，不是便利；非經常交易則沒有此例外。琥珀色方格內三項條件須同時符合；紅色方格是時限屆滿後應採取的行動。"),
+    U.fig(fig5, ("Delayed verification is a managed exception for a business relationship, not a convenience, and it does not exist for an occasional transaction. The three conditions in the amber box are cumulative; the red box is what follows if the timeframe passes. The lower timeline is an occasional transaction that requires CDD: which ones do is in <a href=\"#s2-thresholds\">Thresholds</a>.",
+                 "延遲核實是業務關係的受管控例外，不是便利；非經常交易則沒有此例外。琥珀色方格內三項條件須同時符合；紅色方格是時限屆滿後應採取的行動。下方的時間線是須執行客戶盡職審查的非經常交易；哪些非經常交易須執行，見<a href=\"#s2-thresholds\">門檻</a>。"),
           U.legend([('ok', ("verify here: the normal case", "一般情況：在此核實")), ('may', ("the exception you may use", "你可以選用的例外")), ('must', ("what you should do once the timeframe passes", "時限屆滿後應採取的行動")), ('stop', ("not allowed", "不容許"))]))
     + U.table([U.th("While verification is pending", "核實尚未完成期間"), U.th("What applies", "適用規定")], [
         U.tr(U.rh("Your policies should include", "政策及程序應包括", "¶4.7.3"), U.td("(a) a reasonable <b>timeframe</b> to finish, and what happens when it is exceeded, such as suspending or ending the relationship; (b) <b>limits</b> on the number, types and amount of transactions; (c) <b>monitoring</b> of large and complex transactions outside the norm for that relationship; (d) <b>senior management</b> kept periodically informed of pending cases; (e) <b>no payment to third parties</b>, except as in the next row",
@@ -140,19 +145,19 @@ S4 = sec('timing', ["¶4.7", "s.3(1)–(4) Sch. 2"], ("Timing: verify before, or
         U.tr(U.rh("Paying a third party before verification", "核實前向第三者付款", "¶4.7.3(e)"), U.td("Only if <b>all four</b> hold: no suspicion of ML/TF; the risk is assessed as low; senior management approves, having regard to the customer's business; and the recipients' names do not match watch lists such as terrorist and PEP lists",
                                                                                                   "只有在<b>四項條件全部</b>符合時方可：沒有洗錢或恐怖分子資金籌集的懷疑；風險評估為低；高級管理層顧及客戶的業務性質後批准；以及收款人姓名與恐怖分子及政治人物等監察名單不符")),
         U.tr(U.rh("If the timeframe passes", "如時限屆滿", "¶4.7.4 · 4.13.1"), U.td("End the relationship as soon as reasonably practicable; carry out no further transactions except to <b>return funds or other assets in their original form as far as possible</b>; and consider whether the failure itself gives grounds for suspicion and a report, especially if the customer, without a justifiable reason, asks for funds to go to a third party or be transformed, for example cash into a cashier order",
-                                                                                          "在合理地切實可行的範圍內盡快終止業務關係；除<b>在可行情況下將資金或其他資產以原狀退回</b>外，不再進行交易；並評估未能完成核實是否構成懷疑理據，並考慮應否舉報，尤其當客戶在無充分理由下要求將資金轉移給第三者或「轉變」資金（例如把現金轉為銀行本票）")),
+                                                                                          "在合理地切實可行的情況下盡快終止業務關係，並避免進行進一步交易（<b>在可行情況下將資金或其他資產以原狀退回</b>則不在此限）；並評估未能完成核實是否構成懷疑理據，並考慮應否舉報，尤其當客戶在無充分理由下要求將資金轉移給第三者或「轉變」資金（例如把現金轉為銀行本票）")),
         U.tr(U.rh("The Guideline's own examples", "指引所舉的例子", "¶4.7.2"), U.td("They show when it may be necessary not to interrupt the normal conduct of business, and both come from other sectors: securities transactions that must execute at market speed, and life insurance business",
                                                                                           "兩個例子說明何時可能有需要對客戶的業務正常運作不造成干擾，並都來自其他行業：須按市況迅速執行的證券交易，以及人壽保險業務")),
     ], minw=680)
     + numreq([
         (("before or during", "之前或過程中"),
          ("Verify the identity of the customer and of any beneficial owner", "核實客戶及任何實益擁有人的身分"),
-         ("Establishing a business relationship. For an occasional transaction: before it, not during", "建立業務關係時。非經常交易：須在交易之前，不可在過程中"),
+         ("Establishing a business relationship. For an occasional transaction that requires CDD (see <a href=\"#s2-thresholds\">Thresholds</a>): before it, not during", "建立業務關係時。須執行客戶盡職審查的非經常交易（見<a href=\"#s2-thresholds\">門檻</a>）：須在交易之前，不可在過程中"),
          ("Verifying during or after an occasional transaction, or after starting a business relationship without meeting all three exception conditions, breaches a specified provision (the exception covers business relationships only)", "在執行非經常交易過程中或之後才核實，或未符合三項例外條件而在建立業務關係後才核實，即違反指明的條文（例外只適用於業務關係）"),
          "¶4.2.1, 4.7.1 · s.3(1), (1A), (2) Sch. 2"),
         (("a reasonable timeframe", "合理時限"),
          ("Finish the delayed verification. You set the period yourself, in your risk management policies", "完成延後的核實。期限由你在風險管理政策中自行訂定"),
          ("You allowed the relationship to start before verification, under the exception", "你按例外情況，在核實前已容許業務關係開始"),
-         ("Terminate as soon as reasonably practicable, return funds or other assets in their original form as far as possible, and consider a report to the JFIU", "在合理地切實可行範圍內盡快終止關係，在可行情況下以原狀退回資金或其他資產，並考慮向財富情報組報告"),
+         ("Terminate the relationship as soon as reasonably practicable and refrain from further transactions, except to return funds or other assets in their original form as far as possible; and consider an STR to the JFIU", "在合理地切實可行的情況下盡快終止業務關係，並避免進行進一步交易（在可行情況下將資金或其他資產以原狀退回則不在此限）；並考慮向財富情報組提交可疑交易報告"),
          "¶4.7.3(a), 4.7.4"),
     ]))

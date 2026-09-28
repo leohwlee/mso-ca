@@ -54,27 +54,38 @@ def fig_tpp():
     A = Card(40, 520, ("A payment arrives from someone other than your customer", "有款項來自客戶以外的人"),
              ("For the circular, a third party means anyone other than the customer", "就該通函而言，「第三方」指客戶以外的任何人"), cite=TPF("3"))
     Q1 = Node(40, 520, ("Can your controls handle this inherently high risk and meet the requirements?", "你的管控措施能否應付這類本身屬高風險的付款，並符合規定？"), TP("3"), shape='hex')
-    X1 = Card(630, 340, ("Accept no third-party payment at all", "完全不接受第三方支付"), None, 'stop', TP("3"), answer=True)
+    X1 = Card(610, 370, ("Accept no third-party payment at all", "完全不接受第三方支付"), None, 'stop', TP("3"), answer=True)
     Q2 = Node(40, 520, ("Exceptional and legitimate, and reasonably in line with the customer's profile and normal commercial practice?",
                         "屬特殊及合法情況，並合理地符合客戶狀況及一般商業作業手法？"), TP("4"), shape='hex')
-    X2 = Card(630, 340, ("Do not accept it", "不予接納"), ("Where the circumstances give grounds for suspicion, report to the JFIU", "如情況引起懷疑，向財富情報組報告"), 'stop', TP("4, 9"), answer=True)
+    # standard 9 closes with the general rule: report to the JFIU whenever there are grounds for suspicion
+    NOT = (("Do not accept it", "不予接納"),
+           ("Where there are grounds for suspicion, report to the JFIU", "如有懷疑的理由，應向財富情報組報告"))
+    X2 = Card(610, 370, *NOT, 'stop', TP("4, 9"), answer=True)
     DD = Card(40, 520, ("Due diligence before you accept", "接納前的盡職審查"),
-              ("Evaluate why the payment is needed; on a risk-sensitive basis, verify the third party's identity and its relationship with the customer; get approval from senior management with an AML/CFT role; record the enquiries, evidence and approval",
-               "嚴格評估使用第三方支付的原因及需要；因應風險核實第三方的身分及其與客戶的關係；取得擔任打擊洗錢相關職位的高級管理層批准；記錄查詢結果、核對證據及批准"), 'must', TP("6"))
-    Q3 = Node(40, 520, ("Is this third party higher risk? (Immediate family, the customer's beneficial owners or affiliated companies, and regulated financial institutions are generally lower risk)",
-                        "該第三方是否屬較高風險？（直系親屬、客戶的實益擁有人或聯繫公司，以及受規管金融機構一般屬較低風險）"),
-              CI("17 Sep 2024", ("standard 7, note 6", "標準第7項、註6")), shape='hex')
-    E = Card(630, 340, ("Enhanced scrutiny", "更嚴格審查"),
-             ("Establish the source of funds of the customer or beneficial owner. Take extra care if the relationship is hard to verify, the payer cannot be identified before payment, or one payer serves several unrelated customers",
-              "確立相關客戶或實益擁有人的資金來源。如雙方關係難以核實、付款前未能提供付款人身分資料，或同一付款人為多名看似無關連的客戶付款或收款，須格外留神"), 'must', TP("7–8"))
+              ("Critically evaluate the reasons for and the need for the payment; on a risk-sensitive basis, verify the third party's identity and ascertain its relationship with the customer; document the findings of your enquiries and the evidence obtained",
+               "嚴格評估使用第三方支付的原因及需要；因應風險程度採取合理措施，核實第三方的身分，並確定第三方與客戶之間的關係；記錄查詢結果及核對證據"), 'must', TP("6(a)–(b), (d)"))
+    # standard 8's three cases call for extra caution whatever the payer's risk, so they sit in the question
+    Q3 = Node(40, 520, ("Is the third party higher risk, or is the relationship hard to verify, the payer's identity unavailable for verification before payment, or one third party paying or receiving for several seemingly unrelated customers? (Immediate family, the customer's beneficial owners or affiliated companies, and regulated financial institutions are generally lower risk)",
+                        "該第三方是否屬較高風險，或客戶與第三方之間的關係難以核實、客戶在進行支付前無法就第三方付款人的身分提供詳細資料作核實之用，或一個第三方向數名看似沒有關連的客戶付款或從其收款？（直系親屬、客戶的實益擁有人或聯繫公司，以及受規管金融機構一般屬較低風險）"),
+              CI("17 Sep 2024", ("standards 7–8, note 6", "標準第7至8項、註6")), shape='hex')
+    E = Card(610, 370, ("Enhanced scrutiny, and extra caution", "更嚴格審查，並格外留神"),
+             ("A higher-risk third party: establish the source of funds of the customer or beneficial owner. Any of the three cases: for example, verify the third party's identity further with documents, data or information not used before",
+              "較高風險的第三方：應確立相關客戶或實益擁有人的資金來源。屬上述三種情況之一：例如應根據不曾用於核實身分的額外身分證明文件、數據或資料，進一步核實第三方的身分"),
+             'must', CI("17 Sep 2024", ("standards 7–8, note 8", "標準第7至8項、註8")))
+    Q4 = Node(40, 520, ("Does the payment meet your evaluation criteria for acceptance, and does senior management with an AML/CFT role approve it?",
+                        "該第三方支付是否符合接納的評估準則，並獲擔任打擊洗錢／恐怖分子資金籌集相關職位的高級管理層批准？"),
+              TP("4(c), 6(c)"), shape='hex')
+    X4 = Card(610, 370, *NOT, 'stop', TP("4, 9"), answer=True)
     OK = Card(40, 520, ("Accept it, then watch more closely", "接納，然後加強監察"),
-              ("Ongoing monitoring stepped up, with red flags for third party payments defined in your transaction monitoring system; stay alert to the payer being the true beneficial owner; report to the JFIU on grounds for suspicion",
-               "加強持續監察，並在交易監察系統中為第三方支付設定可疑交易訊號；留意付款人可能才是真正的實益擁有人；如有懷疑理由，向財富情報組報告"), 'ok', TP("9"), answer=True)
-    H = place([([A], 32), ([Q1, X1], 40), ([Q2, X2], 40), ([DD], 32), ([Q3, E], 40), ([OK], 0)], y0=14)
-    b = [n.render() for n in (A, Q1, X1, Q2, X2, DD, Q3, E, OK)]
+              ("Document the approval; step up ongoing monitoring, with red flags for third party payments defined in your transaction monitoring system; stay alert to the payer being the true beneficial owner; report to the JFIU on grounds for suspicion",
+               "記錄接納該次支付的批准；加強持續監察，並在交易監察系統中為第三方支付設定可疑交易訊號；留意付款人可能才是真正的實益擁有人；如有懷疑理由，向財富情報組報告"),
+              'ok', CI("17 Sep 2024", ("standards 6(d), 9, note 9", "標準第6(d)及9項、註9")), answer=True)
+    two = lay() == 'both'
+    H = place([([A], 32), ([Q1, X1], 40), ([Q2, X2], 40), ([DD], 32), ([Q3, E], 64 + (10 if two else 0)), ([Q4, X4], 40), ([OK], 0)], y0=14)
+    b = [n.render() for n in (A, Q1, X1, Q2, X2, DD, Q3, E, Q4, X4, OK)]
     m = 'cit'
     b.append(edge([A.bottom, Q1.top], mid=m))
-    for q, x in ((Q1, X1), (Q2, X2)):
+    for q, x in ((Q1, X1), (Q2, X2), (Q4, X4)):
         b.append(edge([q.right, x.left], mid=m))
         b.append(slabel((q.x + q.w + x.x) / 2, q.cy - 8, "no", "否"))
     b.append(edge([Q1.bottom, Q2.top], ("yes", "是"), Q1.cx + 10, (Q1.bottom[1] + Q2.top[1]) / 2 + 4, 'start', mid=m))
@@ -82,10 +93,14 @@ def fig_tpp():
     b.append(edge([DD.bottom, Q3.top], mid=m))
     b.append(edge([Q3.right, E.left], mid=m))
     b.append(slabel((Q3.x + Q3.w + E.x) / 2, Q3.cy - 8, "yes", "是"))
-    b.append(edge([Q3.bottom, OK.top], ("no", "否"), Q3.cx + 10, (Q3.bottom[1] + OK.top[1]) / 2 + 4, 'start', mid=m))
-    b.append(edge([E.bottom, (E.cx, OK.cy), OK.right], mid=m))
-    aria = ("Deciding on a third-party payment. A payment comes from someone other than the customer. If your controls cannot handle the risk, accept no third-party payment at all. If they can, accept it only in exceptional and legitimate circumstances in line with the customer's profile; otherwise refuse, and report if suspicious. Before accepting, evaluate the need, verify the payer and the relationship on a risk-sensitive basis, get senior management approval and record it all. A higher-risk payer gets enhanced scrutiny, including the source of funds; immediate family, the customer's beneficial owners or affiliated companies, and regulated financial institutions are generally lower risk. Ongoing monitoring of accepted payments is stepped up, and a suspicious transaction report goes to the JFIU if there are grounds for suspicion.",
-            "處理第三方支付。有款項來自客戶以外的人。如你的管控措施無法應付風險，則完全不接受第三方支付。如能應付，只在符合客戶狀況的特殊及合法情況下接納；否則不予接納，如有懷疑須舉報。接納前須評估需要、因應風險核實付款人身分及雙方關係、取得高級管理層批准並妥為記錄。較高風險的付款人須接受更嚴格審查，包括確立資金來源；直系親屬、客戶的實益擁有人或聯繫公司，以及受規管金融機構一般屬較低風險。接納的付款須加強持續監察，如有懷疑須向財富情報組報告。")
+    # both branches of the risk question meet before the acceptance decision
+    mj = max(Q3.y + Q3.h, E.y + E.h) + 26 + (10 if two else 0)
+    b.append(edge([Q3.bottom, Q4.top], mid=m))
+    b.append(slabel(Q3.cx - 10, Q3.y + Q3.h + 18 + (16 if two else 0), "no", "否", 'end'))
+    b.append(edge([E.bottom, (E.cx, mj), (Q3.cx, mj)], marker=False))
+    b.append(edge([Q4.bottom, OK.top], ("yes", "是"), Q4.cx + 10, (Q4.bottom[1] + OK.top[1]) / 2 + 4, 'start', mid=m))
+    aria = ("Deciding on a third-party payment. A payment comes from someone other than the customer. If your controls cannot handle the risk, accept no third-party payment at all. If they can, accept it only in exceptional and legitimate circumstances in line with the customer's profile; otherwise refuse it, and report to the JFIU if there are grounds for suspicion. Before accepting, critically evaluate the reasons for and the need for the payment, verify the third party and its relationship with the customer on a risk-sensitive basis, and document the findings. A higher-risk third party gets enhanced scrutiny, including the source of funds; immediate family, the customer's beneficial owners or affiliated companies, and regulated financial institutions are generally lower risk. Extra caution is needed whenever the relationship is hard to verify, the payer's identity cannot be verified before payment, or one third party pays or receives for several seemingly unrelated customers. The payment is accepted only if it meets your evaluation criteria and senior management with an AML/CFT role approves; otherwise it is refused. Ongoing monitoring of accepted payments is stepped up, and a suspicious transaction report goes to the JFIU if there are grounds for suspicion.",
+            "處理第三方支付。有款項來自客戶以外的人。如你的管控措施無法應付風險，則完全不接受第三方支付。如能應付，只在符合客戶狀況的特殊及合法情況下接納；否則不予接納；如有懷疑的理由，應向財富情報組報告。接納前須嚴格評估使用第三方支付的原因及需要、因應風險程度核實第三方的身分及其與客戶的關係，並記錄查詢結果。較高風險的第三方須接受更嚴格審查，包括確立資金來源；直系親屬、客戶的實益擁有人或聯繫公司，以及受規管金融機構一般屬較低風險。如雙方關係難以核實、支付前無法核實第三方付款人的身分，或一個第三方向數名看似沒有關連的客戶付款或從其收款，須格外留神。只有符合接納的評估準則，並獲擔任打擊洗錢相關職位的高級管理層批准，才可接納；否則不予接納。接納的付款須加強持續監察，如有懷疑須向財富情報組報告。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 

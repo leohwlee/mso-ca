@@ -43,12 +43,13 @@ def fig_safe():
              ("Examine it further. Any relevant red flag should lead at least to initial enquiries about the source of funds and a request for more CDD documents",
               "進一步審查。偵察到任何相關的可疑交易訊號，應及時作進一步調查，這至少可促使你對資金來源作出初步查詢，並要求提供更多盡職審查證明文件"),
              'plain', "¶7.3 · ¶7.10")
-    xs = [20, 270, 520, 770]
+    # the SAFE row starts at x=74, leaving the left margin for the way round it
+    xs = [74, 302, 530, 758]
     S = Card(xs[0], 210, ("S · Screen", "S · 篩查"), ("the account for suspicious indicators", "篩查戶口識別可疑交易指標"), 'plain', "¶7.11(a)")
     A = Card(xs[1], 210, ("A · Ask", "A · 提問"), ("the customer appropriate questions", "向客戶作出恰當提問"), 'plain', "¶7.11(b)")
     F = Card(xs[2], 210, ("F · Find out", "F · 翻查"), ("the customer's records", "翻查客戶的已知紀錄"), 'plain', "¶7.11(c)")
     E = Card(xs[3], 210, ("E · Evaluate", "E · 評估"), ("all of the above information", "根據以上資料作出評估"), 'plain', "¶7.11(d)")
-    D = Node(250, 440, ("Are there grounds for suspicion?", "是否有懷疑的理由？"), "¶5.11–5.12", shape='hex')
+    D = Node(300, 440, ("Are there grounds for suspicion?", "是否有懷疑的理由？"), "¶5.11–5.12", shape='hex')
     Y = Card(20, 450, ("Yes: report it to the MLRO", "是：向洗錢報告主任報告"),
              ("An internal report, reaching the MLRO without undue delay. The next section follows it",
               "內部報告不得無故延誤送達洗錢報告主任。下一節續述"), 'must', "¶7.12(b) · ¶5.12", href="#internal")
@@ -60,7 +61,8 @@ def fig_safe():
     H = place([([T], 50 + lab_h), ([S, A, F, E], 58), ([D], 48), ([Y, N], 0)], y0=14)
     fy = S.y - lab_h - 14
     fb = S.y + S.h + 14
-    b = [f'<rect class="n n-faint" x="8" y="{fy:.0f}" width="984" height="{fb - fy:.0f}" rx="8"/>',
+    fx = xs[0] - 12
+    b = [f'<rect class="n n-faint" x="{fx}" y="{fy:.0f}" width="{992 - fx}" height="{fb - fy:.0f}" rx="8"/>',
          label(980, S.y - 10, ("The JFIU's SAFE approach: you may adopt it where it applies", "財富情報組的ＳＡＦＥ方法：可按情況採用"), 'end')]
     b += [n.render() for n in (T, S, A, F, E, D, Y, N)]
     m = 'g7s'
@@ -69,11 +71,15 @@ def fig_safe():
     for a, c in ((S, A), (A, F), (F, E)):
         b.append(edge([(a.x + a.w, a.cy), (c.x, c.cy)], mid=m))
     b.append(edge([E.bottom, (E.cx, D.cy), D.right], mid=m))
+    # SAFE is optional (¶7.11): the other way to the question runs outside the frame
+    rx = 30
+    b.append(edge([T.left, (rx, T.cy), (rx, D.cy), D.left], mid=m))
+    b.append(mlabel((rx + D.x) / 2, D.cy - 8, "or other appropriate steps", "或其他適當步驟"))
     jy = D.bottom[1] + 24
     b.append(edge([D.bottom, (D.cx, jy), (Y.cx, jy), Y.top], ("yes", "是"), Y.cx + 10, jy - 7, 'start', mid=m))
     b.append(edge([D.bottom, (D.cx, jy), (N.cx, jy), N.top], ("no", "否"), N.cx - 10, jy - 7, 'end', mid=m))
-    aria = ("Spotting suspicion. A red flag, or a transaction that does not fit what you know of the customer, calls for further examination and at least initial enquiries about the source of funds. The JFIU's SAFE approach, which an MSO may adopt, runs in four steps: screen the account for suspicious indicators, ask the customer appropriate questions, find out the customer's records, and evaluate all of that information. If there are grounds for suspicion, the staff member makes an internal report that must reach the MLRO without undue delay. If there is a satisfactory explanation, no further action is needed, but the customer's risk profile should be considered for updating.",
-            "識辨可疑交易。出現可疑交易指標，或交易不符合你對客戶的認知，便應進一步審查；偵察到可疑交易訊號，應及時作進一步調查，這至少可促使對資金來源作出初步查詢。財富情報組推廣的ＳＡＦＥ方法（金錢服務經營者可按情況採用）分四步：篩查戶口識別可疑交易指標、向客戶作出恰當提問、翻查客戶的已知紀錄，以及根據以上資料作出評估。如有懷疑的理由，職員須作出內部報告，不得無故延誤送達洗錢報告主任。如取得可信納的解釋，無需採取進一步行動，但應考慮更新客戶的風險狀況。")
+    aria = ("Spotting suspicion. A red flag, or a transaction that does not fit what you know of the customer, calls for further examination and at least initial enquiries about the source of funds. The JFIU's SAFE approach, which an MSO may adopt where it applies, runs in four steps: screen the account for suspicious indicators, ask the customer appropriate questions, find out the customer's records, and evaluate all of that information; the other way through is by other appropriate steps. If there are grounds for suspicion, the staff member makes an internal report that must reach the MLRO without undue delay. If there is a satisfactory explanation, no further action is needed, but the customer's risk profile should be considered for updating.",
+            "識辨可疑交易。出現可疑交易指標，或交易不符合你對客戶的認知，便應進一步審查；偵察到可疑交易訊號，應及時作進一步調查，這至少可促使對資金來源作出初步查詢。財富情報組推廣的ＳＡＦＥ方法（金錢服務經營者可按情況採用）分四步：篩查戶口識別可疑交易指標、向客戶作出恰當提問、翻查客戶的已知紀錄，以及根據以上資料作出評估；另一途徑是以其他適當步驟審查。如有懷疑的理由，職員須作出內部報告，不得無故延誤送達洗錢報告主任。如取得可信納的解釋，無需採取進一步行動，但應考慮更新客戶的風險狀況。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
@@ -98,8 +104,8 @@ def fig_internal():
     ACK = Card(40, 510, ("The MLRO should acknowledge it, and remind the reporter about tipping off", "洗錢報告主任必須確認收到，並提醒報告職員不可通風報訊"),
                None, 'must', "¶7.16")
     EV = Card(40, 510, ("The MLRO evaluates the report", "洗錢報告主任評估報告"),
-              ("Reasonable steps to consider all relevant information, CDD and ongoing monitoring included. This may include connected accounts, relationship by relationship; earlier instructions and the length of the relationship; questioning the customer the JFIU's way",
-               "採取合理步驟考慮所有相關資料，包括盡職審查及持續監察資料；這可包括以關係為本覆核有關連戶口、參考先前的指示模式及業務關係年期，以及按財富情報組推薦的方法查問客戶"),
+              ("Reasonable steps to consider all relevant information, CDD and ongoing monitoring included. This may include reviewing transaction patterns and volumes through connected accounts, preferably relationship-based rather than transaction by transaction; earlier patterns of instructions and the length of the relationship; questioning the customer the JFIU's way",
+               "採取合理步驟考慮所有相關資料，包括盡職審查及持續監察資料；這可包括覆核透過有關連戶口進行的交易模式及交易量（盡可能以關係為本，並非以個別交易為本）、參考先前的客戶指示模式及業務關係年期，以及按財富情報組推薦的方法查問客戶"),
               'must', "¶7.17")
     BAL = Card(665, 315, ("Searching further takes time", "進一步搜尋需時"),
                ("Balance it against the duty to make a timely STR, and document the review and its conclusions",
@@ -141,7 +147,7 @@ INTERNAL_KEY = legend([('', ("a step, or what is allowed", "步驟，或容許�
 # ---------------------------------------------------------------- 3. after the STR
 def fig_after():
     W = 1000
-    FILE = Card(40, 500, ("You file an STR with the JFIU", "你向財富情報組提交可疑交易報告"), None, 'plain', "¶7.19")
+    FILE = Card(60, 480, ("You file an STR with the JFIU", "你向財富情報組提交可疑交易報告"), None, 'plain', "¶7.19")
     DEF = Card(610, 370, ("Statutory defence for the acts disclosed", "就所披露的作為取得法定免責辯護"),
                ("On one of two conditions", "須符合以下兩項條件之一"), 'ok', "¶7.25")
     DB = Card(610, 370, ("Before the acts, with consent", "作為之前，並得到同意"),
@@ -150,27 +156,35 @@ def fig_after():
     DA = Card(610, 370, ("After the acts, on your own initiative", "作為之後，由你主動作出"),
               ("The report is made after you have performed the disclosed acts, on your own initiative and as soon as it is reasonable",
                "報告在你作出所披露的作為之後，由你主動及在合理範圍內盡快作出"), 'ok', "¶7.25(b)")
-    ACK = Card(40, 500, ("The JFIU acknowledges receipt", "財富情報組確認收到報告"), None, 'plain', "¶7.24")
-    D = Node(40, 500, ("Is imminent action needed, such as a restraint order?", "是否需要立即採取行動，例如發出限制令？"),
+    ACK = Card(60, 480, ("The JFIU acknowledges receipt", "財富情報組確認收到報告"), None, 'plain', "¶7.24")
+    D = Node(60, 480, ("Is imminent action needed, such as a restraint order?", "是否需要立即採取行動，例如發出限制令？"),
              "¶7.24", shape='hex')
-    CON = Card(20, 460, ("No: consent is usually given", "否：一般會給予「同意」"),
+    CON = Card(60, 480, ("No: consent is usually given", "否：一般會給予「同意」"),
                ("To operate the account, under DTROP and OSCO s.25A(2)(a) and UNATMO s.12(2B)(a)",
                 "讓你根據《販毒（追討得益）條例》及《有組織及嚴重罪行條例》第25A(2)(a)條，以及《聯合國（反恐怖主義措施）條例》第12(2B)(a)條運作該戶口"),
                'may', "¶7.24")
-    ACT = Card(520, 460, ("Yes: take appropriate action", "是：採取適當行動"),
+    ACT = Card(580, 400, ("Yes: take appropriate action", "是：採取適當行動"),
                ("And seek legal advice where necessary", "並按需要徵詢法律意見"), 'must', "¶7.24")
-    REV = Card(20, 960, ("Either way: review the relationship", "不論如何：覆核業務關係"),
-               ("Whatever feedback the JFIU later gives, you should apply appropriate risk-mitigating measures. Filing and carrying on without further thought is not acceptable. If necessary, senior management decides how to handle the relationship",
-                "不論財富情報組其後有否給予反饋，均應執行適當的減低風險措施。提交報告後繼續運作而不再考慮風險，是不可接受的。如有需要，上報高級管理層決定如何處理該關係"),
+    REV = Card(60, 920, ("Upon filing, whatever the JFIU later says: review the relationship", "提交報告後立即覆核業務關係，不論財富情報組其後有否反饋"),
+               ("Apply appropriate risk-mitigating measures. Filing and carrying on without further consideration of the risks is not acceptable. If necessary, escalate to senior management to decide how to handle the relationship",
+                "並執行適當的減低風險措施。提交報告後繼續運作而不再進一步考慮風險，是不可接受的。如有需要，上報高級管理層決定如何處理該關係"),
                'must', "¶7.27")
-    MORE = Card(20, 960, ("Another suspicion about the same customer", "同一客戶再出現可疑情況"),
-                ("Of the same nature or a different one: it goes to the MLRO again, who reports to the JFIU if appropriate",
-                 "不論是否屬同一性質：均須再向洗錢報告主任報告，如恰當，他會再向財富情報組報告"), 'must', "¶7.28")
+    MORE = Card(60, 920, ("Another suspicion about the same customer", "同一客戶再出現可疑情況"),
+                ("Of the same nature or a different one: it must continue to be reported to the MLRO, who should make a further report to the JFIU if appropriate",
+                 "不論是否屬同一性質：均必須繼續向洗錢報告主任報告，如恰當，他將向財富情報組作進一步報告"), 'must', "¶7.28")
     lab = 26 if lay() == 'both' else 14
-    H = place([([FILE, DEF], 30 + lab), ([ACK, DB], 30 + lab), ([D, DA], 50), ([CON, ACT], 40), ([REV], 34 + lab), ([MORE], 0)], y0=14)
     # each left-hand step sits at the top of its row, so the main line runs straight down
-    for L, R in ((FILE, DEF), (ACK, DB), (D, DA)):
-        L.y = R.y = min(L.y, R.y)
+    y = 14
+    for L, R, g in ((FILE, DEF, 30 + lab), (ACK, DB, 30 + lab), (D, DA, 0)):
+        L.y = R.y = y
+        y = max(L.y + L.h, R.y + R.h) + g
+    # the JFIU's branch line runs well below the defence column, with each label beside its own drop
+    two = 17 if lay() == 'both' else 0     # the combined view stacks each label on two lines
+    jy = y + 32
+    CON.y = ACT.y = jy + 40 + two
+    REV.y = max(CON.y + CON.h, ACT.y + ACT.h) + 40
+    MORE.y = REV.y + REV.h + 34 + lab
+    H = MORE.y + MORE.h
     b = [n.render() for n in (FILE, DEF, DB, DA, ACK, D, CON, ACT, REV, MORE)]
     m = 'g7a'
     b.append(edge([FILE.bottom, ACK.top], mid=m))
@@ -181,16 +195,18 @@ def fig_after():
     b.append(mlabel(DEF.cx + 8, (DEF.y + DEF.h + DB.y) / 2 + 5, "either", "其一", 'start'))
     b.append(dash([DB.bottom, DA.top]))
     b.append(mlabel(DB.cx + 8, (DB.y + DB.h + DA.y) / 2 + 5, "or", "或", 'start'))
-    row = max(D.y + D.h, DA.y + DA.h)
-    jy = row + 25
-    b.append(edge([D.bottom, (D.cx, jy), (CON.cx, jy), CON.top], ("no", "否"), CON.cx - 10, jy - 7, 'end', mid=m))
-    b.append(edge([D.bottom, (D.cx, jy), (ACT.cx, jy), ACT.top], ("yes", "是"), ACT.cx - 10, jy - 7, 'end', mid=m))
-    for n in (CON, ACT):
-        b.append(edge([n.bottom, (n.cx, REV.y)], mid=m))
+    b.append(edge([D.bottom, CON.top], mid=m))
+    b.append(edge([D.bottom, (D.cx, jy), (ACT.cx, jy), ACT.top], mid=m))
+    b.append(mlabel(D.cx - 10, jy + 24 + two, "no", "否", 'end'))
+    b.append(mlabel(ACT.cx + 10, jy + 24 + two, "yes", "是", 'start'))
+    # ¶7.27: the review hangs off the filing itself, not off the JFIU's decision
+    rx = 30
+    b.append(edge([FILE.left, (rx, FILE.cy), (rx, REV.cy), REV.left], mid=m))
+    b.append(mlabel(rx + 8, FILE.y + FILE.h + 20 + two, "upon filing", "提交後立即", 'start'))
     b.append(dash([REV.bottom, MORE.top]))
     b.append(mlabel(REV.cx + 10, (REV.y + REV.h + MORE.y) / 2 + 5, "if further suspicious transactions or events arise", "如再出現可疑交易或事件", 'start'))
-    aria = ("After an STR. Filing gives a statutory defence for the acts disclosed, on one of two conditions: a report made before the acts, which are then undertaken with the JFIU's consent; or a report made after the acts, on the MSO's own initiative and as soon as reasonable. The JFIU acknowledges receipt. If no imminent action such as a restraint order is needed, it will usually consent to the MSO operating the account; otherwise the MSO takes appropriate action and seeks legal advice where necessary. Either way the MSO should review the relationship and apply appropriate risk-mitigating measures, escalating to senior management if necessary. If a further suspicion about the same customer arises, it goes to the MLRO again.",
-            "提交可疑交易報告之後。提交報告可就所披露的作為取得法定免責辯護，但須符合兩項條件之一：報告在作為之前作出，而該作為得到財富情報組的同意；或報告在作為之後，由經營者主動及在合理範圍內盡快作出。財富情報組確認收到報告；如無需立即採取行動（例如發出限制令），一般會同意經營者運作該戶口，否則經營者須採取適當行動，並按需要徵詢法律意見。不論如何，經營者均應覆核業務關係並執行適當的減低風險措施，如有需要，上報高級管理層。如同一客戶再出現可疑情況，須再向洗錢報告主任報告。")
+    aria = ("After an STR. Filing gives a statutory defence for the acts disclosed, on one of two conditions: a report made before the acts, which are then undertaken with the JFIU's consent; or a report made after the acts, on the MSO's own initiative and as soon as reasonable. Upon filing, whatever feedback the JFIU later gives, the MSO should review the relationship and apply appropriate risk-mitigating measures, escalating to senior management if necessary. The JFIU acknowledges receipt. If no imminent action such as a restraint order is needed, it will usually consent to the MSO operating the account; otherwise the MSO takes appropriate action and seeks legal advice where necessary. Further suspicious transactions or events about the same customer must continue to be reported to the MLRO.",
+            "提交可疑交易報告之後。提交報告可就所披露的作為取得法定免責辯護，但須符合兩項條件之一：報告在作為之前作出，而該作為得到財富情報組的同意；或報告在作為之後，由經營者主動及在合理範圍內盡快作出。提交報告後，不論財富情報組其後有否給予反饋，經營者均應立即覆核業務關係並執行適當的減低風險措施，如有需要，上報高級管理層。財富情報組確認收到報告；如無需立即採取行動（例如發出限制令），一般會同意經營者運作該戶口，否則經營者須採取適當行動，並按需要徵詢法律意見。同一客戶的更多可疑交易或事件，均必須繼續向洗錢報告主任報告。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 

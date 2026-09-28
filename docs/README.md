@@ -7,7 +7,7 @@ English (`EN/`) and Traditional Chinese (`TC/`). The same number denotes the
 same document in both languages. All were downloaded from the official sources
 listed below (the C&ED Money Service Operators Licensing System portal, and Hong
 Kong e-Legislation for the Ordinance), and were last checked against the portal
-on 24 September 2026.
+on 24 September 2026 (the Ordinance on 28 September 2026).
 
 Documents 01–09 are the Guidance Notes and the guidelines, 10 is the
 Ordinance, 11–21 are the circulars still in force, oldest first, 22 is the FAQ
@@ -33,7 +33,7 @@ date from 24 September 2026; earlier commits number the documents differently.
 | 07 | Guidelines for Submission of AML/CFT Policy | Ver 12-2019 | MSOS portal, guidelines |
 | 08 | Disciplinary Action Guideline on Pecuniary Penalty | Apr 2018 | MSOS portal, guidelines |
 | 09 | Disciplinary Fining Guideline | May 2018 | MSOS portal, guidelines |
-| 10 | Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615 (consolidated) | as at 15 May 2026 | e-Legislation, verified copy |
+| 10 | Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615 (consolidated) | as at 24 Sep 2026 | e-Legislation, verified copy |
 | 11 | Circular: Cross-boundary Movement of Currency Ordinance, Cap. 629 (MSSB/MIS_06/2018) | 31 Jul 2018 | MSOS portal, circulars |
 | 12 | Circular: ML/TF Risks of Delivery Channels (MSSB/MIS_05/2021) | 13 Dec 2021 | MSOS portal, circulars |
 | 13 | Circular: Supervisory Findings on Customer Due Diligence (MSSB/MIS_03/2023) | 22 Nov 2023 | MSOS portal, circulars |
@@ -61,31 +61,33 @@ the per-document figures can sum above the module total.
 
 | Module | Source documents (questions citing each) | Questions |
 |---|---|---|
-| **1** General knowledge on AML/CFT and counter-proliferation financing | **02** ch. 1, 6–7 (102) · **19** (18) · **10** (12) · **11** (6) | 126 |
-| **2** Part 1–7 of the AMLO | **10** Parts 1–7 (307) · **18** (1) | 308 |
-| **3** Schedules to the AMLO | **10** Sch. 2 (173), Sch. 4 (39), Sch. 1 (32), Sch. 3 (7) · **02** ch. 4, 10–11 (17) | 251 |
-| **4** Guidelines promulgated by the C&ED | **03** (171) · **01** (56) · **07** (25) · **05** (20) · **06** (17) · **08** (14) · **10** (13) · **09** (8) · **04** (7) · **16** (5) · **19** (1) | 310 |
-| **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (91) · **10** (4) · **07** (3) · **05** (1) · **19** (1) | 96 |
-| **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11, App. A, glossary (301) · **10** (21) · **14** (14) · **13** (12) · **22** (8) · **12** (6) | 340 |
-| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** ch. 3, 7–9 (153) · **10** (3) · **22** (1) | 154 |
+| **1** General knowledge on AML/CFT and counter-proliferation financing | **02** ch. 1, 6–7, glossary (93) · **10** (28) · **19** (15) · **11** (6) · **14** (3) · **20** (3) · **15** (1) · **17** (1) · **21** (1) · **22** (1) | 123 |
+| **2** Parts 1–7 of the AMLO | **10** Parts 1–7 (302) · **03** (3) · **02** ch. 1 (1) · **18** (1) | 303 |
+| **3** Schedules to the AMLO | **10** Sch. 2 (172), Sch. 4 (39), Sch. 1 (32), Sch. 3 (7), Part 6 (1), Part 1 (1) · **02** ch. 4, 10–11 (17) | 248 |
+| **4** Guidelines promulgated by the C&ED | **03** (171) · **01** (33) · **07** (26) · **05** (22) · **10** (22) · **06** (17) · **08** (15) · **04** (8) · **09** (8) · **16** (5) · **19** (1) · **22** (1) | 283 |
+| **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (91) · **10** (4) · **07** (3) · **03** (2) · **05** (1) · **12** (1) · **19** (1) | 96 |
+| **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11, App. A, glossary (301) · **10** (28) · **14** (14) · **13** (12) · **22** (9) · **12** (6) | 340 |
+| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** ch. 1, 3, 7–9 (153) · **10** (5) · **22** (1) | 154 |
 
-Five documents feed no question of their own: **15**, **17**, **20**, **21**
-and **23**. For **23** that is by design — it is the format template, described
-just below. **22**, the FAQ page, feeds nine questions from its Guideline
-series, eight in module 6 and one in module 7; its other Guideline questions,
-each naming the paragraph it elaborates, are the obvious place to add more.
+One document feeds no question of its own: **23**, by design — it is the format
+template, described just below. **22**, the FAQ page, feeds twelve questions: eleven
+from its Guideline series, nine in module 6 and one each in modules 1 and 7, and
+one in module 4 from its licence-application series. Its other Guideline
+questions, each naming the paragraph it elaborates, are the obvious
+place to add more.
 
 Two of these are worth singling out. **23** is the only set of sample questions
 C&ED has ever published, and it settles what the paper looks like: seven items,
-each a stem with four numbered statements and the five fixed options
-`a) 1, 2 and 3  b) 1, 2 and 4  c) 2, 3 and 4  d) 1, 3 and 4  e) All of the above`.
-Guidance Notes ¶7.1 carries an eighth in the same family, with five statements
-and a different fixed block. **22** is not a PDF: the FAQ exists only as a page on
-the portal, so the page itself is archived as Markdown. It holds two
-series — 28 questions on the AML/CFT Guideline, each answer closing with a Key
-Reference naming the paragraph it elaborates, and 15 on licence application,
-which carry no such reference. The first series is what makes the page usable
-as question material.
+each a stem with four numbered statements and the five fixed options `a) 1, 2
+and 3 b) 1, 2 and 4 c) 2, 3 and 4 d) 1, 3 and 4 e) All of the above`. Guidance
+Notes ¶7.1 carries an eighth in the same family, with five statements and a
+different fixed block. **22** is not a PDF: the FAQ exists only as a page on the
+portal, so the page itself is archived as Markdown. It holds two series — “FAQ
+applicable to all Money Service Operators”, 28 questions on the AML/CFT
+Guideline, each answer closing with a Key Reference naming the paragraph it
+elaborates, and “FAQ in Application for an MSO Licence”, 15 on licence
+application, which carry no such reference. The first series is what makes the
+page usable as question material.
 
 Live pages to re-check for newer editions, for the next FATF statement (which
 replaces 20), and for the UN-sanctions notices (deliberately not archived here):

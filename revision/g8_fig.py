@@ -111,7 +111,12 @@ def fig_roles():
     m = 'g8r'
     for n in (FL, BO, MG):
         b.append(f'<line class="e" x1="{n.cx:.0f}" y1="{n.y + n.h:.0f}" x2="{n.cx:.0f}" y2="{bus:.0f}"/>')
-    b.append(f'<line class="e" x1="{FL.cx:.0f}" y1="{bus:.0f}" x2="{MG.cx:.0f}" y2="{bus:.0f}"/>')
+    # the two bands report too (¶7.12(b), ¶9.5(a)(ii)): a rail down the left joins them to the same line
+    rx = 18
+    for n in (ALL, NEW):
+        b.append(f'<line class="e" x1="{n.x}" y1="{n.cy:.0f}" x2="{rx}" y2="{n.cy:.0f}"/>')
+    b.append(f'<line class="e" x1="{rx}" y1="{ALL.cy:.0f}" x2="{rx}" y2="{bus:.0f}"/>')
+    b.append(f'<line class="e" x1="{rx}" y1="{bus:.0f}" x2="{MG.cx:.0f}" y2="{bus:.0f}"/>')
     b.append(edge([(ML.cx, bus), (ML.cx, ML.y)], mid=m))
     b.append(mlab(ML.cx + 12, (bus + ML.y) / 2 + 5 + (8 if lay() == 'both' else 0), "internal reports", "內部報告", 'start'))
     b.append(edge([ML.bottom, JF.top], mid=m))
@@ -137,16 +142,18 @@ def fig_cycle():
     S2 = Card(40, 560, ("Initial training, as soon as possible", "盡快接受初步培訓"),
               ("New staff should be required to attend it after being hired or appointed; the topics for new joiners are in the figure above",
                "新職員獲聘用或委任後，應盡快接受；新職員的培訓範疇見上圖"), 'must', "¶9.2, 9.5(a)")
-    S3 = Card(40, 560, ("Deliver it with a mix of methods", "混合使用各種培訓技巧及工具"),
-              ("Such as online learning systems, focused classroom training, relevant videos, and paper- or intranet-based procedures manuals; you may consider adding FATF papers and typologies to the materials",
-               "例如網上學習系統、課堂上的集思培訓、相關影片，以及紙張形式或以內聯網為本的程序手冊；可考慮加入特別組織的文章及典型案件作為材料"),
-              'plain', "¶9.6")
+    # ¶9.6 (E26): encouraged in the English text, 應…考慮 (should consider) in the Chinese; each drawing
+    # colours the box by its own text, and the combined drawing keeps the neutral grey
+    S3 = Card(40, 560, ("Consider a mix of methods", "應考慮混合使用各種培訓技巧及工具"),
+              ("Encouraged, depending on your resources and staff's learning needs. The methods may include online learning systems, focused classroom training, relevant videos, and paper- or intranet-based procedures manuals; you may consider adding FATF papers and typologies to the materials",
+               "視乎可運用的資源及職員的培訓需要。技巧及工具可包括網上學習系統、課堂上的集思培訓、相關影片，以及紙張形式或以內聯網為本的程序手冊；亦可考慮使用特別組織的文章及典型案件作為培訓材料"),
+              'must' if lay() == 'tc' else 'plain', "¶9.6")
     S4 = Card(40, 560, ("Keep records, whatever the method", "不論使用哪種方法，均應備存紀錄"),
               ("You should monitor and keep records of who was trained, when they received the training, and what type of training it was; the records should be kept for at least 3 years",
                "你應監察誰人已接受培訓、何時接受培訓，以及所提供培訓的類別，並備存紀錄；紀錄應最少保存3年"), 'must', "¶9.7")
     S5 = Card(40, 560, ("Monitor whether it works", "監察培訓的效用"),
-              ("You should monitor whether training works. The Guideline says it may be done by testing staff's understanding and their ability to recognise suspicious transactions; by monitoring their compliance and the quality and quantity of internal reports; and by following up anyone who misses training without reasonable cause",
-               "你應監察培訓的效用。指引指可透過以下方法達致：測試職員的理解，以及他們辨認可疑交易的能力；監察職員的合規情況及內部報告的質和量；以及跟進沒有合理因由而缺席培訓的職員"),
+              ("You should monitor whether training works. The Guideline says it may be done by testing staff's understanding and their ability to recognise suspicious transactions; by monitoring their compliance and the quality and quantity of internal reports; and by monitoring attendance and following up staff who miss training without reasonable cause",
+               "你應監察培訓的效用。指引指可透過以下方法達致：測試職員的理解，以及他們辨認可疑交易的能力；監察職員的合規情況及內部報告的質和量；以及監察職員出席培訓的情況，並跟進沒有合理因由而缺席培訓的職員"),
               'must', "¶9.8(a)–(c)")
     R = Card(670, 280, ("Refresher training, regularly", "定期舉辦複修培訓"),
              ("Reminds staff of their responsibilities and keeps them informed of new ML/TF developments",
@@ -161,8 +168,8 @@ def fig_cycle():
     b.append(mlab((S5.x + S5.w + R.cx) / 2, S5.cy - 8, "then, regularly", "其後定期"))
     b.append(edge([R.top, (R.cx, S3.cy), S3.right], mid=m))
     b.append(mlab((S3.x + S3.w + R.cx) / 2, S3.cy - 8, "back to delivery", "回到培訓方式"))
-    aria = ("The training cycle. A clear training policy, tailored to your risks and each person's role, governs everything. When someone is hired or appointed, they attend initial training as soon as possible. Training is delivered with a mix of methods. You should record who was trained, when and in what, and keep the records for at least three years; and you should monitor whether the training works, which the Guideline says may be done by testing staff, monitoring compliance and the quality and quantity of internal reports, and following up missed attendance. Refresher training then brings staff back regularly.",
-            "培訓循環。一套切合你的風險及每名職員職務的清晰培訓政策統領一切。有人獲聘用或委任後，應盡快接受初步培訓。培訓混合使用各種方法。你應記錄誰人、何時接受了哪類培訓，紀錄應最少保存3年；並應監察培訓的效用，指引指可透過測試職員、監察合規情況及內部報告的質和量，以及跟進缺席情況達致。其後以複修培訓定期讓職員再次接受培訓。")
+    aria = ("The training cycle. A clear training policy, tailored to your risks and each person's role, governs everything. When someone is hired or appointed, they attend initial training as soon as possible. You are encouraged to consider a mix of training methods. You should record who was trained, when and in what, and keep the records for at least three years; and you should monitor whether the training works, which the Guideline says may be done by testing staff, monitoring compliance and the quality and quantity of internal reports, and monitoring attendance and following up staff who miss training without reasonable cause. Refresher training then brings staff back regularly.",
+            "培訓循環。一套切合你的風險及每名職員職務的清晰培訓政策統領一切。有人獲聘用或委任後，應盡快接受初步培訓。你應考慮混合使用各種培訓技巧及工具。你應記錄誰人、何時接受了哪類培訓，紀錄應最少保存3年；並應監察培訓的效用，指引指可透過測試職員、監察合規情況及內部報告的質和量，以及監察出席情況並跟進沒有合理因由而缺席的職員達致。其後以複修培訓定期讓職員再次接受培訓。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 

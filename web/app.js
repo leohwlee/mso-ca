@@ -5,16 +5,16 @@
 
 const MODULES = [
   { n: 1, en: 'General knowledge on AML/CFT and Counter Proliferation Financing',
-    tc: '打擊洗錢／恐怖分子資金籌集／擴散資金籌集的常識' },
+    tc: '有關打擊洗錢及恐怖分子資金籌集與打擊擴散資金籌集的常識' },
   { n: 2, en: 'Parts 1–7 of the AMLO', tc: '《打擊洗錢條例》第1至7部' },
   { n: 3, en: 'Schedules to the AMLO', tc: '《打擊洗錢條例》的附表' },
   { n: 4, en: 'Guidelines promulgated by the C&ED', tc: '海關頒布的指引' },
   { n: 5, en: "MSO's systems and controls (i): institutional governance and strategy",
-    tc: '系統及管控措施（一）機構管治及策略' },
+    tc: '金錢服務經營者的系統及管控措施(i)：機構層面的管治及策略' },
   { n: 6, en: "MSO's systems and controls (ii): AML/CFT control areas",
-    tc: '系統及管控措施（二）打擊洗錢管控範疇' },
+    tc: '金錢服務經營者的系統及管控措施(ii)：打擊洗錢及恐怖分子資金籌集的管控範疇' },
   { n: 7, en: "MSO's systems and controls (iii): demonstrating and monitoring compliance",
-    tc: '系統及管控措施（三）證明及監察合規' },
+    tc: '金錢服務經營者的系統及管控措施(iii)：證明符合規定及監察合規水平' },
 ];
 
 const CFG = {
@@ -200,6 +200,22 @@ function grade(qids, answers) {
   const floorsOK = moduleWrong.every(w => w <= CFG.maxWrongPerModule);
   const totalOK = score >= CFG.passTotal;
   return { score, moduleWrong, moduleTotal, floorsOK, totalOK, pass: floorsOK && totalOK };
+}
+
+// A saved attempt keeps the result it was given when submitted. Questions can later be removed from
+// the bank or re-keyed, so grading the answers again would change a recorded pass or fail; show the
+// recorded result instead, and count each module's questions from the ids (m6-12 is module 6).
+function recordedResult(a) {
+  if (typeof a.score !== 'number' || !Array.isArray(a.moduleWrong)) return grade(a.qids, a.answers);
+  const moduleTotal = [0, 0, 0, 0, 0, 0, 0];
+  for (const qid of a.qids) {
+    const q = byId.get(qid);
+    const m = q ? q.module : Number((/^m(\d)-/.exec(qid) || [])[1]);
+    if (m >= 1 && m <= 7) moduleTotal[m - 1]++;
+  }
+  const floorsOK = a.moduleWrong.every(w => w <= CFG.maxWrongPerModule);
+  const totalOK = a.score >= CFG.passTotal;
+  return { score: a.score, moduleWrong: a.moduleWrong, moduleTotal, floorsOK, totalOK, pass: !!a.pass };
 }
 
 /* ---------------- render root ---------------- */
@@ -779,7 +795,8 @@ function stopTimer() { if (timerId) { clearInterval(timerId); timerId = null; } 
 
 function resultsView() {
   const a = reviewAttempt;
-  const g = grade(a.qids, a.answers);
+  const g = recordedResult(a);
+  const removed = a.qids.filter(qid => !byId.has(qid)).length;
   // one row of dots per module: correct first, then wrong; the mark is the floor (at least 3 correct)
   const perMod = MODULES.map(m => {
     const total = g.moduleTotal[m.n - 1], wrong = g.moduleWrong[m.n - 1], right = total - wrong;
@@ -820,7 +837,8 @@ function resultsView() {
 
   const wrongIdx = a.qids.map((qid, i) => byId.has(qid) && a.answers[qid] !== byId.get(qid).answer ? i : -1).filter(i => i >= 0);
   const shown = i => reviewFilter === 'all' || wrongIdx.includes(i);
-  const items = a.qids.map((qid, i) => byId.has(qid) && shown(i) ? reviewItemHTML(byId.get(qid), i, a) : '').join('');
+  const items = a.qids.map((qid, i) => byId.has(qid) ? (shown(i) ? reviewItemHTML(byId.get(qid), i, a) : '')
+    : reviewFilter === 'all' ? removedItemHTML(qid, i) : '').join('');
   const nextSteps = `
     <button class="btn secondary btn-home">${ui('Back to home', '返回主頁')}</button>
     ${wrongIdx.length ? `<button class="btn btn-practice-wrong">${ui(`Practice my ${wrongIdx.length} wrong answer${wrongIdx.length === 1 ? '' : 's'}`, `練習答錯的${wrongIdx.length}題`)}</button>` : ''}`;
@@ -834,7 +852,9 @@ function resultsView() {
           · ${ui('time used', '用時')} ${fmtTime(a.usedMs)}</div>
       </div>
       <div class="score">${g.score}<small>/${a.qids.length}</small></div>
-      <div class="why">${why}</div>
+      <div class="why">${why}${removed ? '<br>' + ui(
+        `${removed} question${removed === 1 ? ' in this attempt has' : 's in this attempt have'} since been removed from the question bank. The result is the one recorded when you submitted.`,
+        `此次應考有${removed}題其後已從題庫刪除；以上成績為交卷時記錄的成績。`) : ''}</div>
     </div>
     <div class="actions" style="margin-top:12px">
       ${nextSteps}
@@ -862,6 +882,19 @@ function resultsView() {
     </div>
     ${items || `<div class="card"><div class="sub" style="margin:0">${ui('No wrong answers in this attempt.', '此次應考沒有錯題。')}</div></div>`}
     <div class="actions" style="margin-top:22px">${nextSteps}</div>
+  </div>`;
+}
+
+function removedItemHTML(qid, i) {
+  const m = Number((/^m(\d)-/.exec(qid) || [])[1]);
+  return `
+  <div class="qcard review-item" id="rev-${i}">
+    <div class="qmeta">
+      <span class="qnum">${i + 1}.</span>
+      ${m ? `<span class="qmod">M${m} · ${esc(modName(m))}</span>` : ''}
+    </div>
+    <div class="sub" style="margin:0">${ui('This question has since been removed from the question bank, so it can’t be shown.',
+      '此題其後已從題庫刪除，因此無法顯示。')}</div>
   </div>`;
 }
 

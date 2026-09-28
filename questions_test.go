@@ -51,7 +51,7 @@ var comboOptions = map[int]map[string][]string{
 // sized to the volume of official source material behind it, so that every
 // question traces to a real provision rather than rewording its neighbour.
 // See README for the measured source volumes.
-var minPerModule = map[int]int{1: 123, 2: 306, 3: 250, 4: 283, 5: 96, 6: 340, 7: 154}
+var minPerModule = map[int]int{1: 123, 2: 303, 3: 248, 4: 283, 5: 96, 6: 340, 7: 154}
 
 // Every sample question C&ED publishes is a combination item, so each module
 // must carry a working number of them rather than leaving the format to one
@@ -326,6 +326,40 @@ func TestCitationHasLocator(t *testing.T) {
 	}
 }
 
+// TestSectionNumberWord: a numbered section of the Ordinance is 第20(1)(b)條 and a
+// numbered Guideline paragraph 第2(b)段. No Chinese source writes either as 第20(1)(b)款
+// (款 alone, as in 第(3)款, is a subsection referred to from inside its own section).
+// The blind review of September 2026 found 29 such references in 20 questions.
+var sectionKuan = regexp.MustCompile(`第\d+[A-Z]*(?:\([0-9A-Za-z]+\))+款`)
+
+func TestSectionNumberWord(t *testing.T) {
+	for _, q := range loadBank(t) {
+		fields := append(append([]string{q.Tc.Q, q.Tc.Explain, q.Source.Tc}, q.Tc.Options...), q.Tc.Statements...)
+		for _, f := range fields {
+			for _, m := range sectionKuan.FindAllString(f, -1) {
+				t.Errorf("%s: %q writes a numbered section with 款; the Ordinance says 條, the Guideline 段", q.ID, m)
+			}
+		}
+	}
+}
+
+// TestTraditionalCharacters: the Chinese side is Traditional Chinese throughout. These
+// are simplified-only forms of common characters (則, 說, 這, 為, 與, 應 ...); one slipped
+// into a fixer's draft during the September 2026 review.
+const simplifiedOnly = "则说这为与应须时实际关条项过发会经务业资产权报单录证据审处规员责负济称纳统计认识义还进对当现并问题获确护险币汇银营类罚级构讯检视让论设读转选阶历场断备节约"
+
+func TestTraditionalCharacters(t *testing.T) {
+	for _, q := range loadBank(t) {
+		fields := append(append([]string{q.Tc.Q, q.Tc.Explain, q.Source.Tc}, q.Tc.Options...), q.Tc.Statements...)
+		for _, f := range fields {
+			if i := strings.IndexAny(f, simplifiedOnly); i >= 0 {
+				r := []rune(f[i:])[0]
+				t.Errorf("%s: Chinese text has the simplified character %q", q.ID, r)
+			}
+		}
+	}
+}
+
 // TestChineseStatutoryTerms: the Traditional Chinese paper must use the terms
 // the official Chinese editions use, so a candidate meets the same wording in
 // the exam room as in the Ordinance and the Guideline. The check covers the
@@ -378,6 +412,19 @@ func TestChineseStatutoryTerms(t *testing.T) {
 		"倚賴":           "依賴, or the cited provision's words (Sch. 2 s.18: 藉著中介人執行客戶盡職審查措施)",
 		"境外":           "香港以外 / 外地, as the cited provision says",
 		"註冊成立":         "成立為法團 (the Ordinance; the Guideline)",
+		// September 2026 blind review of modules 2-4: renderings no Chinese source uses
+		"意圖欺騙":    "出於詐騙意圖 / 出於詐騙…的意圖 (s.10, s.13, s.52)",
+		"小組成員":    "委員 (Sch. 4: 委員團的委員)",
+		"預備會議":    "初步會議 (Sch. 4 s.7)",
+		"編號戶口":    "保密號碼戶口 / 設有保密號碼的戶口 (Guideline ¶4.14.1, fn 49)",
+		"有權享有或控制": "有權攤分或控制 (s.24; Sch. 2 s.1)",
+		"七國集團高峰會": "七大工業國財長會議 (Guideline ch. 1)",
+		"同業附屬企業":  "經營與金融機構相同的業務的附屬企業 (Sch. 2 s.22)",
+		"所避免成本":   "避免的開支 (s.21(2)(c)(ii); Disciplinary Fining Guideline ¶6)",
+		"保險保單":    "保險單 (Sch. 2 s.4(5))",
+		"整筆保費":    "一筆整付保費 (Sch. 2 s.4(5)(c))",
+		"來源司法管轄區": "目標司法管轄區 (AML/CFT policy guideline)",
+		"藐視程序":    "the section's words, e.g. 按藐視法庭罪追究 (s.14)",
 	}
 	for _, q := range bank {
 		// statements too: a combination item's statements are where its terms are tested

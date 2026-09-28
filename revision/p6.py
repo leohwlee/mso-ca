@@ -19,38 +19,79 @@ def split_label(x, y, en, tc, below=24):
     return ''.join(out)
 
 
+class CiteCard(Card):
+    """A Card whose citation runs over several lines: cites is a list of citation strings, one per line."""
+
+    def __init__(self, x, w, title, body, cites, kind='plain'):
+        super().__init__(x, w, title, body, kind, cites[0])
+        self.cites = cites
+        self.h += (len(cites) - 1) * CS * LH
+
+    def render(self):
+        out = [f'<rect class="n n-{self.kind}" x="{self.x}" y="{self.y}" width="{self.w}" height="{self.h}" rx="6"/>']
+        for v, seg in self.seg.items():
+            y = self.cy - (sum(s * LH for _, _, s in seg) + len(self.cites) * CS * LH) / 2
+            g = [f'<g class="s-{v}">']
+            for t, cls, s in seg:
+                g.append(f'<text class="{cls}" font-size="{s}" text-anchor="middle"><tspan x="{self.cx}" y="{y + s * 0.95:.1f}">{esc(t)}</tspan></text>')
+                y += s * LH
+            for c in self.cites:
+                g.append(f'<text class="c" font-size="{CS}" text-anchor="middle"><tspan x="{self.cx}" y="{y + CS * 0.95:.1f}">{esc(cite_txt(c, v))}</tspan></text>')
+                y += CS * LH
+            g.append('</g>')
+            out.append(''.join(g))
+        return '<g>' + ''.join(out) + '</g>'
+
+
 def fig_route():
     W = 1000
-    D0 = Card(115, 480, ("The Commissioner makes a specified decision about you", "關長就你作出指明決定"),
-              ("A written notice gives the reasons and says you may apply to the Review Tribunal", "書面通知載明理由，並說明你可向覆核審裁處申請覆核"), cite="s.54 · s.30(9) · s.44(3)")
-    Q1 = Node(115, 480, ("Aggrieved? Apply in writing, stating your grounds, within 21 days after the notice was sent",
-                         "感到受屈？須在通知送出後21日內，以書面申請並述明理由"), "s.59(1), (4)", shape='hex')
-    X1 = Card(665, 325, ("Out of time?", "已逾期？"),
-              ("The Tribunal may extend the time, but only after both sides have had a chance to be heard, and for good cause", "審裁處可延展限期，但須先給予雙方陳詞機會，並信納有良好因由"), 'may', "s.59(2)–(3)", answer=True)
-    T = Card(115, 480, ("The Tribunal reviews", "審裁處進行覆核"),
-             ("A chairperson and 2 other members. Both parties are heard, and facts are found on the balance of probabilities",
+    LX, LW = 10, 215     # left column: what happens if you do not apply
+    CX, CW = 250, 390    # centre column: the path of a review (its centre line is x = 445)
+    RX, RW = 690, 300    # right column: the side-applications
+    D0 = CiteCard(CX - 45, CW + 90, ("The Commissioner makes a specified decision about you", "關長就你作出指明決定"),
+                  ("A written notice gives the reasons and says you may apply to the Review Tribunal", "書面通知載明理由，並說明你可向覆核審裁處申請覆核"),
+                  ["s.54 · s.22(3) · s.30(9) · s.31(9)", "s.32(3) · s.34(5) · s.35(6)–39(6) · s.44(3)"])
+    Q1 = Node(CX, CW, ("Aggrieved? Apply in writing, stating your grounds, within 21 days after the notice was sent",
+                       "感到受屈？須在通知送出後21日內，以書面申請並述明理由"), "s.59(1), (4)", shape='hex')
+    NO = Card(LX, LW, ("No application", "不申請覆核"),
+              ("Ordinarily, the decision takes effect when the 21 days end, or earlier if you tell the Commissioner in writing that you will not apply",
+               "一般情況下，決定在21日限期屆滿時生效；如你在限期屆滿前以書面通知關長你不會申請覆核，則在通知時生效"), 'must', "s.75(1)(a)–(b)", answer=True)
+    X1 = Card(RX, RW, ("Out of time?", "已逾期？"),
+              ("The Tribunal may extend the time, but only after both sides have had a reasonable opportunity to be heard, and if satisfied there is good cause",
+               "審裁處可延展限期，但須先給予雙方合理的陳詞機會，並信納有良好因由"), 'may', "s.59(2)–(3)", answer=True)
+    T = Card(CX, CW, ("The Tribunal reviews", "審裁處進行覆核"),
+             ("A chairperson and 2 other members. Both parties must be given a reasonable opportunity to be heard, and facts are found on the balance of probabilities",
               "由主席及另外2名成員組成。審裁處覆核時須給予雙方合理的陳詞機會；事實在相對可能性的衡量下確立"), cite="s.56 · s.60(3)–(4)")
-    S1 = Card(665, 325, ("Applying is not a stay", "申請覆核不等於暫緩執行"),
+    S1 = Card(RX, RW, ("Applying is not a stay", "申請覆核不等於暫緩執行"),
               ("If the decision is already in effect, only a stay order pauses it, and the Tribunal must hear your application as soon as reasonably practicable",
                "如決定已經生效，只有暫緩執行命令才可暫停。審裁處須盡快聆訊你的暫緩執行申請"), 'may', "s.69", answer=True)
-    DET = Card(115, 480, ("The determination", "裁定"),
+    DET = Card(CX, CW, ("The determination", "裁定"),
                ("Confirm; vary, or set aside and substitute any decision the Commissioner could have made, heavier or lighter; or send it back with directions",
                 "確認或更改原決定，或推翻原決定並以關長本可作出的任何決定取代，可較嚴苛或較寬鬆；或連同指示發還關長"), 'must', "s.60(1)–(2)", answer=True)
-    Q2 = Node(175, 360, ("Dissatisfied with the determination?", "不滿意裁定？"), "s.71(1)", shape='hex')
-    FIN = Card(10, 250, ("No appeal: the determination is final", "不上訴：裁定屬終局"),
+    Q2 = Node(CX + 55, CW - 110, ("Dissatisfied with the determination?", "不滿意裁定？"), "s.71(1)", shape='hex')
+    FIN = Card(LX, 250, ("No appeal: the determination is final", "不上訴：裁定屬終局"),
                ("Subject only to this appeal and to section 50 of the High Court Ordinance", "只受本項上訴及《高等法院條例》第50條規限"), 'must', "s.74", answer=True)
-    CA = Card(455, 300, ("Appeal to the Court of Appeal, with its leave", "經上訴法庭許可後上訴"),
+    CA = Card(470, 290, ("Appeal to the Court of Appeal, with its leave", "經上訴法庭許可後上訴"),
               ("On law, fact, or mixed law and fact. Leave needs a reasonable prospect of success, or another reason in the interests of justice",
-               "你可就法律、事實或法律兼事實問題上訴。批予許可須符合其一：有合理的機會得直；或有其他有利於秉行公正的理由"), 'ok', "s.71", answer=True)
+               "你可就法律、事實或法律兼事實問題上訴。批予許可須符合其一：有合理機會得直；或有其他有利於秉行公正的理由"), 'ok', "s.71", answer=True)
     S2 = Card(780, 210, ("Appealing is not a stay", "上訴不等於暫緩執行"),
               ("The determination keeps its effect. Ask the Tribunal or the Court of Appeal for a stay", "裁定照常有效。可向審裁處或上訴法庭申請暫緩執行"), 'may', "s.70 · s.73", answer=True)
-    CAR = Card(455, 300, ("The Court of Appeal decides", "上訴法庭作出決定"),
+    CAR = Card(470, 290, ("The Court of Appeal decides", "上訴法庭作出決定"),
                ("Allow, dismiss, vary or set aside and substitute, or remit to the Tribunal or to the Commissioner", "判上訴得直、駁回上訴、更改或推翻並取代裁定，或發還審裁處或關長處理"), 'must', "s.72", answer=True)
-    H = place([([D0], 34), ([Q1, X1], 40), ([T, S1], 34), ([DET], 40), ([Q2], 46), ([FIN, CA, S2], 34), ([CAR], 0)])
-    b = [n.render() for n in (D0, Q1, X1, T, S1, DET, Q2, FIN, CA, S2, CAR)]
+
+    def rows(g):
+        return [([D0], 34), ([Q1, X1], 40), ([T, S1], 34), ([DET], g), ([Q2], 46), ([FIN, CA, S2], 34), ([CAR], 0)]
+    H = place(rows(40))
+    # the no-application box hangs beside the review, level with it; it must end above the appeal question
+    over = T.y + NO.h + 24 - Q2.y
+    if over > 0:
+        H = place(rows(40 + over))
+    NO.y = T.y
+    b = [n.render() for n in (D0, Q1, NO, X1, T, S1, DET, Q2, FIN, CA, S2, CAR)]
     m = 'p6r'
     b.append(edge([D0.bottom, Q1.top], mid=m))
     b.append(edge([Q1.bottom, T.top], ("yes, in time", "是，並在限期內"), Q1.cx + 10, (Q1.bottom[1] + T.top[1]) / 2 + 4, 'start', mid=m))
+    b.append(edge([Q1.left, (NO.cx, Q1.cy), NO.top], ("no", "否"), NO.cx - 10, (Q1.cy + NO.y) / 2 + 5, 'end', mid=m))
     b.append(dash(Q1.right, X1.left))
     b.append(split_label((Q1.x + Q1.w + X1.x) / 2, Q1.cy - 7, "late", "逾期"))
     b.append(edge([T.bottom, DET.top], mid=m))
@@ -60,19 +101,19 @@ def fig_route():
     b.append(edge([Q2.right, (CA.cx, Q2.cy), CA.top], ("yes", "是"), CA.cx + 10, (Q2.cy + CA.y) / 2 + 5, 'start', mid=m))
     b.append(dash(CA.right, S2.left))
     b.append(edge([CA.bottom, CAR.top], mid=m))
-    aria = ("The review route. The Commissioner's specified decision comes with a written notice. An aggrieved person applies in writing with grounds within 21 days after the notice was sent; the Tribunal may extend the time after hearing both sides and finding good cause. The Tribunal of a chairperson and two members hears both parties and determines the review by confirming, varying, substituting or remitting. Applying does not stay the decision. A party dissatisfied with the determination may appeal to the Court of Appeal on law, fact or both, but only with leave; otherwise the determination is final. Appealing does not stay the determination either.",
-            "覆核途徑。關長的指明決定附有書面通知。感到受屈的人須在通知送出後21日內以書面申請並述明理由；審裁處在聽取雙方陳詞並信納有良好因由後可延展限期。由主席及兩名成員組成的審裁處聽取雙方陳詞，以確認、更改、取代或發還的方式作出裁定。申請覆核不會令決定暫緩執行。不滿意裁定的一方可經許可就法律、事實或兩者向上訴法庭上訴；否則裁定屬終局。上訴亦不會令裁定暫緩執行。")
+    aria = ("The review route. The Commissioner's specified decision comes with a written notice giving the reasons and saying you may apply to the Review Tribunal. An aggrieved person applies in writing with grounds within 21 days after the notice was sent. If no one applies, the decision ordinarily takes effect when the 21 days end, or earlier if the person tells the Commissioner in writing that it will not apply. A late application needs an extension, which the Tribunal may grant only after both sides have had a reasonable opportunity to be heard and if satisfied there is good cause. The Tribunal of a chairperson and two members must give both parties a reasonable opportunity to be heard, and determines the review by confirming, varying, substituting or remitting. Applying does not stay the decision. A party dissatisfied with the determination may appeal to the Court of Appeal on law, fact or both, but only with leave; otherwise the determination is final. Appealing does not stay the determination either.",
+            "覆核途徑。關長的指明決定附有書面通知，載明理由，並說明可向覆核審裁處申請覆核。感到受屈的人須在通知送出後21日內以書面申請並述明理由。如沒有申請，決定一般在21日限期屆滿時生效；如該人較早以書面通知關長不會申請覆核，則在通知時生效。逾期申請須獲延展，而審裁處須在給予雙方合理的陳詞機會並信納有良好因由後，方可延展限期。由主席及兩名成員組成的審裁處須給予覆核各方合理的陳詞機會，並以確認、更改、取代或發還的方式作出裁定。申請覆核不會令決定暫緩執行。不滿意裁定的一方可經許可就法律、事實或兩者向上訴法庭上訴；否則裁定屬終局。上訴亦不會令裁定暫緩執行。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
 ROUTE_KEY = legend([('hex', ("a question you answer", "你須回答的問題")), ('', ("a step", "步驟")),
                     ('may', ("a discretion the Tribunal or court holds", "審裁處或法院的酌情權")),
-                    ('must', ("a binding result: the Tribunal's determination, or the Court of Appeal's decision", "具約束力的結果：審裁處的裁定或上訴法庭的決定")), ('ok', ("a route open to you", "你可循的途徑"))])
+                    ('must', ("a binding result: the decision taking effect, the Tribunal's determination, or the Court of Appeal's decision", "具約束力的結果：決定生效、審裁處的裁定或上訴法庭的決定")), ('ok', ("a route open to you", "你可循的途徑"))])
 
 A = sec('route', [("Part 6", "第6部"), "s.54–s.76", ("the review", "覆核")],
         ("From a decision to the Court of Appeal", "由決定到上訴法庭"),
-    P("Follow the centre column from the top: it is the path of a review. The boxes to the right, joined by dashed lines, are the side-applications you can make on the way. The first hexagon holds the only deadline in the Part.",
-      "由頂部沿中間一欄往下看：這是覆核的路徑。右邊以虛線連接的方格，是途中可提出的附帶申請。第一個六邊形載有本部唯一的限期。")
+    P("Follow the centre column from the top: it is the path of a review. The boxes to the right, joined by dashed lines, are the side-applications you can make on the way; the box on the left is what happens if you do not apply. The first hexagon holds the only deadline in the Part. The <a href=\"#clock\">21-day clock</a> section below shows the decisions that take effect at another time.",
+      "由頂部沿中間一欄往下看：這是覆核的路徑。右邊以虛線連接的方格，是途中可提出的附帶申請；左邊的方格是你不申請覆核時的結果。第一個六邊形載有本部唯一的限期。下文<a href=\"#clock\">21日的限期</a>一節列出在其他時間生效的決定。")
     + fig(fig_route, ("A review is a full second look, not a one-way ratchet: the Tribunal can substitute any decision the Commissioner had power to make, even a heavier one, and it can reach for a different section to do it.",
                         "覆核是全面重新審視，並非只可減輕：審裁處可以關長本有權作出的任何決定取代原決定，即使較嚴苛亦可，而且可以根據另一條文作出。"), ROUTE_KEY)
     + traps(
@@ -180,7 +221,7 @@ C_ = sec('clock', ["s.59", "s.75", ("with s.30–34", "另及第30至34條")],
         (("21 days", "21日"),
          ("Apply to the Tribunal in writing, stating the grounds", "以書面向審裁處申請覆核，並述明理由"),
          ("Counted from when the notice of the decision was sent", "自告知決定的通知送出後起計"),
-         ("The decision takes effect when the period ends, and a late application needs an extension, granted only for good cause after both sides are heard", "限期屆滿時決定即生效；逾期申請須獲延展，而延展只在雙方均獲陳詞機會並有良好因由時才批給"),
+         ("The decision takes effect when the period ends, and a late application needs an extension, which the Tribunal may grant only after both sides have had a reasonable opportunity to be heard and if satisfied there is good cause", "限期屆滿時決定即生效；逾期申請須獲延展，而審裁處只可在雙方均已獲給予合理的陳詞機會，並信納有良好因由時，才批給延展"),
          "s.59(1)–(4) · s.75(1)(b)"),
         (("30 days", "30日"),
          ("Pay a pecuniary penalty imposed under Part 4 or Part 5", "繳付根據第4部或第5部施加的罰款"),
@@ -194,7 +235,7 @@ C_ = sec('clock', ["s.59", "s.75", ("with s.30–34", "另及第30至34條")],
          "s.59(5) · s.69(3) · s.66(1)"),
     ])
     + traps(
-        trap(("Not every decision waits for the 21 days", "並非每項決定都等待21日"), None, "s.30(7) · s.34(6) · s.75",
+        trap(("Not every decision waits for the 21 days", "並非每項決定都等待21日"), None, "s.30(7) · s.31(7) · s.32(4) · s.34(6) · s.75",
              vs=[(("Waits", "等待"), ("Penalties, reprimands, orders to take remedial action, refusals: the ordinary rules apply, so an application for review keeps them from taking effect until it is decided or withdrawn, unless the notice set another time in the public interest.", "罰款、譴責、命令採取糾正行動、拒絕：適用一般規則，故申請覆核後，決定要待覆核有結果或申請撤回時才生效，除非通知為公眾利益另定時間。")),
                  (("Does not wait", "不等待"), ("Licence conditions bite on receipt of the notice or later; revocation and suspension bite at the time the notice specifies.", "牌照條件在收到通知時或其後生效；撤銷及暫時吊銷在通知指明的時間生效。"))]),
         trap(("Applying is not the same as a stay", "申請覆核不等於暫緩執行"),
@@ -220,7 +261,7 @@ D_ = sec('powers', ["s.61–s.68", ("powers and offences", "權力與罪行")],
     + table([th("What someone did, without reasonable excuse", "某人在無合理辯解下的行為"), th("On indictment", "循公訴程序定罪"), th("Summarily", "循簡易程序定罪")], [
         tr(td("Ignored an order, notice, prohibition or requirement of the Tribunal; disrupted or misbehaved at a sitting; left without permission after being required to attend", "不遵從審裁處的命令、通知、禁令或要求；干擾聆訊或行為不檢；被要求出席後未經准許而離開", "s.61(2)(a)–(c)"),
            td("$1,000,000 + 2 years", "罰款$1,000,000及監禁2年", cls='pen'), td("level 6 + 6 months", "第6級罰款及監禁6個月", cls='pen')),
-        tr(td("Hindered or deterred a witness, or threatened, insulted or caused loss to a witness or to a member of the Tribunal because of their role", "阻礙或阻嚇證人，或因證人或審裁處成員的角色而威脅、侮辱他們或令他們蒙受損失", "s.61(2)(d)–(f)"),
+        tr(td("Hindered or deterred any person from attending before the Tribunal, giving evidence or producing any article, record or document for a review; threatened, insulted or caused loss to anyone who has attended before the Tribunal, on account of that attendance; or did the same, at any time, to the chairperson or another member on account of the performance of their functions", "阻礙任何人為某覆核的目的出席審裁處聆訊、提供證據或交出任何物品、紀錄或文件，或阻嚇任何人為該目的作出該等作為；因任何人出席審裁處聆訊而威脅或侮辱該人，或令該人蒙受損失；或因審裁處主席或任何其他成員以主席或成員身分執行職能，而在任何時間威脅或侮辱他們，或令他們蒙受損失", "s.61(2)(d)–(f)"),
            td("$1,000,000 + 2 years", "罰款$1,000,000及監禁2年", cls='pen'), td("level 6 + 6 months", "第6級罰款及監禁6個月", cls='pen')),
         tr(td("Broke a ban, made after a private sitting, on publishing or disclosing the determination, a costs order, or the reasons for either", "違反在閉門聆訊後禁止發表或披露裁定、訟費命令或其理由的命令", "s.66(2)–(4)"),
            td("$1,000,000 + 2 years", "罰款$1,000,000及監禁2年", cls='pen'), td("level 6 + 6 months", "第6級罰款及監禁6個月", cls='pen')),
@@ -238,9 +279,9 @@ D_ = sec('powers', ["s.61–s.68", ("powers and offences", "權力與罪行")],
 
 # ---------------------------------------------------------------- E. appeal
 E_ = sec('appeal', ["s.70–s.74", ("appeal", "上訴")],
-         ("Appeals, stays and finality", "上訴、暫緩執行與終局"),
-    P("Once the Tribunal has spoken there is exactly one way out, and it needs permission. Read the table by row: each row compares the Tribunal stage with the appeal stage on the same question.",
-      "審裁處作出裁定後，只有一條出路，而且須經許可。按行閱讀：每一行就同一問題比較審裁處階段與上訴階段。")
+         ("After the Tribunal decides: an appeal needs the Court of Appeal's leave", "審裁處裁定後：上訴須獲上訴法庭批予上訴許可"),
+    P("Once the Tribunal has determined the review, either party, you or the Commissioner, may appeal to the Court of Appeal, but only with its leave. Otherwise the determination is final, subject only to section 50 of the High Court Ordinance. Read the table by row: each row compares the Tribunal stage with the appeal stage on the same question.",
+      "審裁處作出裁定後，覆核的任何一方（你或關長）均可向上訴法庭上訴，但須獲上訴法庭批予上訴許可；否則裁定屬終局決定，只受《高等法院條例》第50條規限。按行閱讀：每一行就同一問題比較審裁處階段與上訴階段。")
     + table([th("", ""), th("At the Tribunal", "在審裁處"), th("At the Court of Appeal", "在上訴法庭")], [
         tr(rh("How you get there", "如何進入"), td("Apply within 21 days after the notice was sent; late only with an extension", "在通知送出後21日內申請；逾期須獲延展", "s.59"),
            td("Only with the Court of Appeal's <b>leave</b>, which may be limited to particular issues and made subject to conditions", "必須獲上訴法庭批予<b>許可</b>；許可可限於特定爭論點，並可附加條件", "s.71(2)–(3)")),
@@ -261,8 +302,8 @@ E_ = sec('appeal', ["s.70–s.74", ("appeal", "上訴")],
     ], cls='cmp', note=B("Beyond this appeal the determination is final and not subject to appeal, subject only to section 50 of the High Court Ordinance.", "除本項上訴外，審裁處的裁定屬終局決定，不可上訴，只受《高等法院條例》第50條規限。") + ' ' + cite_html("s.74"), minw=760)
     + traps(
         trap(("Appeal on the facts too", "亦可就事實上訴"),
-             ("Many appeals from tribunals are limited to points of law. This one is not: a question of fact, or of mixed law and fact, can go up, provided the Court of Appeal gives leave.",
-              "不少針對審裁處的上訴只限於法律問題，但本項上訴並非如此：只要上訴法庭批予許可，事實問題或法律兼事實問題亦可上訴。"),
+             ("Don't learn \"law only\": the appeal can be on a question of law, a question of fact, or a question of mixed law and fact, but only with the Court of Appeal's leave.",
+              "不要以為只可就法律問題上訴：可就法律問題、事實問題或法律兼事實問題上訴，但須獲上訴法庭批予上訴許可。"),
              "s.71(1)–(2)"),
     ))
 

@@ -77,8 +77,8 @@ BILL = ('<figure class="eqfig">'
                                      term("$3,780", "4 people × $945", "4人 × $945"), EQ, term("$10,030", "to apply", "申請費用", 'total')])
         + eq("Renewing", "續期", [term("$910", "base", "基本費用"), OP, term("$410", "1 additional premises", "1個額外處所"), OP,
                                   term("$3,780", "4 people × $945", "4人 × $945"), EQ, term("$5,100", "to renew", "續期費用", 'total')])
-        + '<figcaption>' + B("The corporation itself is never counted: for a company, the people tested are each director and any ultimate owner. For a partnership, each partner and any ultimate owner; for an individual, the individual and any ultimate owner.",
-                             "法團本身從不計算在內：就公司而言，受測試的是每名董事及任何最終擁有人；就合夥而言，是每名合夥人及任何最終擁有人；就個人而言，是該名個人及任何最終擁有人。") + ' ' + cite_html("s.30(3)(a)") + '</figcaption></figure>')
+        + '<figcaption>' + B("Who is counted: the people the Ordinance requires to be fit and proper, who are also the people the Licensing Guide says apply for the fit and proper person test. For a company, each director and any ultimate owner; for a partnership, each partner and any ultimate owner; for an individual, the individual and any ultimate owner.",
+                             "計算哪些人：條例規定須屬適當人選的人，亦即《牌照指引》所指須申請進行適當人選判定的人。就公司而言，是每名董事及任何最終擁有人；就合夥而言，是每名合夥人及任何最終擁有人；就個人而言，是該名個人及任何最終擁有人。") + ' ' + cite_html(cc("s.30(3)(a)", ("Licensing Guide ¶5.7", "《牌照指引》第5.7段"))) + '</figcaption></figure>')
 
 B_ = sec('bill', ["items 4–5 Sch. 3", "s.30(3)"],
          ("Working out a bill", "計算費用"),

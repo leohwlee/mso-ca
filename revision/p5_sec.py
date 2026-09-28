@@ -110,8 +110,8 @@ FP = table(
         + d("<b>Each director</b>, and the ultimate owner if there is one. Note that the corporation itself is not the one tested.", "<b>每名董事</b>；如有最終擁有人，該擁有人亦須符合。留意受測試的並非法團本身。")
         + d("Both are tested as fit and proper <b>to be associated with</b> the business. The <b>to operate</b> wording never applies to a corporation.", "董事須是<b>與經營金錢服務有聯繫</b>的適當人選；最終擁有人須是<b>與該業務有聯繫</b>的適當人選。「<b>經營</b>金錢服務的適當人選」這個標準從不適用於法團。") + '</tr>',
         '<tr class="note"><td colspan="3">'
-        + B("<b>Ultimate owner</b> of a <b>corporation</b>: more than <b>25%</b> of the issued share capital (held directly or indirectly, including through a trust or bearer share holding), or of the voting rights at general meetings, or <b>ultimate control over the management</b>. Of a <b>partnership</b>: more than 25% of the capital or profits, or of the voting rights, or ultimate control over the management. These two limbs match limb (i) of the Schedule 2 beneficial owner; Schedule 2 adds a limb (ii), 'the person on whose behalf it acts', which Part 5 gives only for an individual licensee. Of an <b>individual</b> licensee there is no percentage: it means another individual who ultimately owns or controls that individual's money service business, or the person the individual acts for.",
-            "<b>法團</b>的<b>最終擁有人</b>：直接或間接地擁有或控制（包括透過信託或持票人股份持有）已發行股本的<b>25%以上</b>，或成員大會上投票權的25%以上，或可行使對管理<b>最終的控制權</b>。<b>合夥</b>的最終擁有人：資本或利潤、或投票權的25%以上，或對管理最終的控制權。這兩部分與附表2實益擁有人的第(i)節大致相同（就法團的控制權，附表2寫「行使」）；附表2另有「代表另一人行事時指該另一人」一節，第5部只就個人持牌人設此一節。<b>個人</b>持牌人的最終擁有人則不設百分比：指最終擁有或控制該名個人的金錢服務業務的另一名個人，或該名個人代其行事的人。")
+        + B("<b>Ultimate owner</b> of a <b>corporation</b>: more than <b>25%</b> of the issued share capital (held directly or indirectly, including through a trust or bearer share holding), or of the voting rights at general meetings, or <b>ultimate control over the management</b>. Of a <b>partnership</b>: more than 25% of the capital or profits, or of the voting rights, or ultimate control over the management. These two limbs match limb (i) of the Schedule 2 beneficial owner. Schedule 2 adds a limb (ii): if the corporation or partnership is acting on behalf of another person, the other person. Part 5 has that limb only for an individual licensee. Of an <b>individual</b> licensee there is no percentage: it means another individual who ultimately owns or controls that individual's money service business, or, if the individual is acting on behalf of another person, the other person.",
+            "<b>法團</b>的<b>最終擁有人</b>：直接或間接地擁有或控制（包括透過信託或持票人股份持有）已發行股本的<b>25%以上</b>，或成員大會上投票權的25%以上，或可行使對管理<b>最終的控制權</b>。<b>合夥</b>的最終擁有人：資本或利潤、或投票權的25%以上，或對管理最終的控制權。這兩部分與附表2實益擁有人的第(i)節大致相同（就法團的控制權，附表2寫「行使」）。附表2另有第(ii)節：如該法團或合夥是代表另一人行事，指該另一人；第5部只就個人持牌人設此一節。<b>個人</b>持牌人的最終擁有人則不設百分比：指最終擁有或控制該名個人的金錢服務業務的另一名個人；如該名個人是代表另一人行事，則指該另一人。")
         + ' ' + cite_html("s.24 · s.1 Sch. 2") + '</td></tr>',
     ]), minw=700)
 
@@ -129,15 +129,15 @@ D = sec('fitproper', ["s.30(3)–(4)", "s.24", ("the gate", "入場關卡")],
                 "關長除須考慮其認為有關的任何其他事宜外，亦<b>須顧及</b>第30(4)條所列事宜。屬第30(4)條所指的申請人須經仔細審查，但關長會考慮個別申請人的事實及情況，才斷定其是否適當人選。"),
                cc("s.30(4)", FPG("3"))),
     )
-    + '<h3>' + B("The section 30(4) factors, used at grant, renewal and each approval", "第30(4)條的因素，適用於批給、續期及每項批准") + '</h3>'
-    + table(h("The Commissioner must have regard to", "關長必須顧及") + h("What that covers", "涵蓋範圍"), ''.join([
+    + '<h3>' + B("What the Commissioner must have regard to, at grant, renewal and each approval", "關長須顧及的事宜：批給、續期及每項批准均適用") + '</h3>'
+    + table(h("The matter", "事宜") + h("What that covers", "涵蓋範圍"), ''.join([
         '<tr>' + rh("Convictions in Hong Kong", "香港的定罪紀錄", "s.30(4)(a)") + d("Offences under this Ordinance: sections 5(5) to (8), 10, 13, 17(9), 20(1), 61(2) and 66(3). Section 14 of the United Nations (Anti-Terrorism Measures) Ordinance. Sections 25(1), 25A(5) and (7) of, and the scheduled offences in, the Drug Trafficking (Recovery of Proceeds) and the Organized and Serious Crimes Ordinances",
                                                                                          "本條例所訂罪行：第5(5)至(8)、10、13、17(9)、20(1)、61(2)及66(3)條。《聯合國（反恐怖主義措施）條例》第14條。《販毒（追討得益）條例》及《有組織及嚴重罪行條例》第25(1)、25A(5)及(7)條，以及其附表所指明的罪行") + '</tr>',
         '<tr>' + rh("Convictions outside Hong Kong", "香港以外的定罪紀錄", "s.30(4)(b)") + d("For conduct that would have been one of those offences had it happened in Hong Kong; for any offence relating to money laundering or terrorist financing; or for any offence that needed a finding of fraud, corruption or dishonesty",
                                                                                               "假使在香港作出即構成上述罪行的行為；任何關乎洗錢或恐怖分子資金籌集的罪行；或任何須裁斷該人曾欺詐、舞弊或不誠實行事的罪行") + '</tr>',
         '<tr>' + rh("Compliance record", "遵從紀錄", "s.30(4)(c)") + d("Whether the person has <b>persistently failed</b> to comply with a requirement under the Ordinance or a Part 5 regulation", "該人是否<b>屢次不遵從</b>本條例的規定或第5部的規例") + '</tr>',
-        '<tr>' + rh("Solvency", "償債能力", "s.30(4)(d)–(e)") + d("An individual: an undischarged bankrupt, or the subject of any bankruptcy proceedings. A corporation: in liquidation, the subject of a winding up order, or with a receiver appointed", "個人：未獲解除破產的破產人，或破產程序的標的。法團：正在清盤當中、清盤令的標的，或有接管人已就該法團而獲委任") + '</tr>',
-        '<tr>' + rh("Anything else", "其他任何事項", "s.30(4)") + d("The list comes <b>in addition to</b> any other matter the Commissioner considers relevant: a floor, not a ceiling", "上述因素是在關長認為相關的任何其他事項<b>以外</b>另加的：是下限，不是上限") + '</tr>',
+        '<tr>' + rh("Solvency", "償債能力", "s.30(4)(d)–(e)") + d("An individual: an undischarged bankrupt, or the subject of any bankruptcy proceedings under the Bankruptcy Ordinance. A corporation: in liquidation, the subject of a winding up order, or with a receiver appointed", "個人：未獲解除破產的破產人，或《破產條例》下的破產程序的標的。法團：正在清盤當中、清盤令的標的，或有接管人已就該法團而獲委任") + '</tr>',
+        '<tr>' + rh("Anything else", "其他任何事宜", "s.30(4)") + d("The list comes <b>in addition to</b> any other matter the Commissioner considers relevant: a floor, not a ceiling", "關長除須考慮其認為有關的任何其他事宜<b>外</b>，亦須顧及上述事宜：上述事宜是下限，不是上限") + '</tr>',
     ]), minw=680)
     + '<h3>' + B("Suitable premises, and the domestic-premises trap", "適合的處所，以及住宅處所的陷阱") + '</h3>'
     + table(h("If you apply to operate at particular premises", "如申請在特定處所經營") + h("The rule", "規則"), ''.join([
@@ -228,16 +228,16 @@ G = sec('losing', ["s.30–s.34", "s.41 · s.42", ("how it ends", "如何終結"
         '<tr>' + rh("Conditions changed mid-term", "有效期內更改條件", "s.32")
         + d("The Commissioner is satisfied it is <b>reasonable in the circumstances</b>; written notice with reasons", "關長信納在有關情況下屬<b>合理</b>；以書面通知並載明理由")
         + d("On receipt of the notice, or the time it specifies, whichever is later", "收到通知時或通知指明的時間，以較遲者為準")
-        + d("—", "—") + d("Yes", "可以", "s.54") + '</tr>',
+        + d("—", "—") + d("Yes", "可以", "s.54 · s.59(1)") + '</tr>',
         '<tr>' + rh("Revoked or suspended", "撤銷或暫時吊銷", "s.34")
         + d("Someone who had to be fit and proper <b>no longer is</b>, or consent to enter <b>domestic premises</b> is revoked or refused. A reasonable opportunity to be heard comes first. The Licensing Guide gives a longer, non-exhaustive list of examples, such as a periodic return not submitted on time: see the <a href=\"#gl-endings\">Guidelines page</a>", "本須屬適當人選的人<b>不再</b>是適當人選，或<b>住宅處所</b>的進入同意被撤銷或拒絕給予。須先給予合理的陳詞機會。《牌照指引》另列出並非詳盡無遺的例子，例如未能按時遞交定期申報表：見<a href=\"#gl-endings\">指引頁</a>", cc("s.34(1), (3)", LG("7.1–7.2")))
         + U.td("At the time the notice specifies; the notice also sets a suspension's terms, or the time to surrender a revoked licence", "在通知指明的時間；通知亦須載明吊銷的條款，或撤銷後交回牌照的期限", post=U.flag())
         + d("No; and failing to surrender a revoked licence is an offence at level 5", "不退還；沒有交回已撤銷的牌照即屬犯罪，可處第5級罰款")
-        + d("Yes", "可以", "s.54") + '</tr>',
+        + d("Yes", "可以", "s.54 · s.59(1)") + '</tr>',
         '<tr>' + rh("Not renewed", "不獲續期", "s.31")
-        + d("The renewal application does not meet the same requirements as a new application: that each person is a fit and proper person, and that the premises are suitable to be used for the operation of a money service", "續期申請未能符合與新申請相同的規定：各人須屬適當人選，處所須適合用作經營金錢服務")
-        + U.td("If you applied in time, the licence stays in force past its expiry until the refusal takes effect, unless you withdraw the application or the licence is revoked or suspended", "如你按時申請，牌照在期滿後仍然有效，直至拒絕續期的決定生效為止；但如申請被撤回，或牌照被撤銷或暫時吊銷，則不在此限", post=U.flag())
-        + d("—", "—") + d("Yes", "可以", "s.54") + '</tr>',
+        + d("The renewal application does not meet the same requirements as a new application: that each person is a fit and proper person, that the premises are suitable to be used for the operation of a money service and, for domestic premises, that every occupant has given written consent", "續期申請未能符合與新申請相同的規定：各人須屬適當人選，處所須適合用作經營金錢服務；如屬住宅處所，須已取得每名佔用人的書面同意")
+        + U.td("The refusal takes effect under the ordinary rule: when the 21 days to apply for a review end, or earlier if you tell the Commissioner in writing that you will not apply; if you apply, when the review is decided or withdrawn. If you applied for renewal in time, the licence stays in force past its expiry until then, unless you withdraw the renewal application or the licence is revoked or suspended", "拒絕續期的決定按一般規則生效：在申請覆核的21日限期屆滿時生效；如你較早以書面通知關長你不會申請覆核，則在通知時生效；如你申請覆核，則在覆核有結果或申請撤回時生效。如你按時申請續期，牌照在期滿後仍然有效，直至該決定生效為止；但如續期申請被撤回，或牌照被撤銷或暫時吊銷，則不在此限", "s.31(10) · s.75(1)", post=U.flag())
+        + d("—", "—") + d("Yes", "可以", "s.54 · s.59(1)") + '</tr>',
         '<tr>' + rh("It expires", "期滿失效", "s.30(10) · s.31(12)")
         + d("No renewal application made under section 31. One lodged later than 45 days before expiry does not count, and the Licensing Guide treats it as invalid. It also treats a renewal as invalid if requested documents are not produced within the specified period, or, where no senior manager holds a pass any more, no eligible person is nominated for the Assessment within 7 days of receiving the invitation letter, which comes with the renewal reminder sent 90 days before expiry", "沒有根據第31條提出續期申請。遲於期滿前45日才遞交的申請不算在內，《牌照指引》視之為無效申請。如未有在指明期限內遞交所需文件，或在高級管理層已無人持有合格成績時，未有在接獲邀請信當日起計7日內提名合資格人士應考能力評核，《牌照指引》亦視該續期申請為無效；邀請信夾附於期滿前90日發出的續期提示通知", cc(LG("6.2–6.4"), ("CA Guidance Notes ¶4.4(ii)", "《能力評核須知》第4.4(ii)段")))
         + d("When its validity period runs out; trading on is unlicensed operation. The Licensing Guide treats expiry as a cessation: notify before it and return the expired licence within 7 days (see the <a href=\"#gl-renewal\">Guidelines page</a>)", "有效期屆滿時即失效；其後繼續經營即屬無牌經營。《牌照指引》把期滿視作停業：須在期滿前具報，並在7日內交回已屆滿的牌照（見<a href=\"#gl-renewal\">指引頁</a>）", cc("s.31(2)(a)", LG("10.2")))
@@ -274,10 +274,10 @@ H_ = sec('enforce', ["s.43–s.48", "s.26 · s.50–s.53", ("the sharp end", "�
         + d("Reasonable grounds to suspect <b>unlicensed operation</b>", "有合理理由懷疑<b>無牌經營</b>")
         + d("Arrest without a warrant, or detain for further enquiries; use any force that is reasonably necessary if the person forcibly resists or attempts to evade", "可無手令拘捕或扣留以作進一步查訊；如遭強行反抗或企圖逃避，可使用合理所需的武力")
         + d("Show evidence of appointment if asked; a search of the person only by an officer of the same sex; no one held more than <b>48 hours</b> without being charged and brought before a magistrate", "如被要求須出示委任證明；搜身只可由同性人員進行；任何人不得被扣留超過<b>48小時</b>而不予落案起訴及帶到裁判法院") + '</tr>',
-        '<tr>' + rh("Regulations and fees", "規例及費用", "s.50–s.51 · s.26(2)")
+        '<tr>' + rh("Regulations and fees", "規例及費用", "s.50–s.51 · s.26 · Sch. 1 Pt 2")
         + d("The rules and prices of the Part 5 regime", "第5部制度的規則及收費")
         + d("The Commissioner of Customs and Excise may make Part 5 regulations, and the Commissioner may amend the Schedule 3 fees by notice in the Gazette", "海關關長可訂立第5部規例；關長可藉憲報公告修訂附表3的費用")
-        + U.td("Making regulations is one of only two functions that can <b>never</b> be delegated; amending the fees can be delegated", "訂立規例是<b>絕不可</b>轉授的兩項職能之一；修訂費用則可以轉授", post=U.flag()) + '</tr>',
+        + U.td("Making regulations is one of only two functions that can <b>never</b> be delegated; amending the fees can be delegated. That is why the wording differs: in the Ordinance, 'the Commissioner' means the Commissioner of Customs and Excise, any Deputy or Assistant Commissioner of Customs and Excise, or a person to whom the Commissioner of Customs and Excise has delegated a function under section 26", "訂立規例是<b>絕不可</b>轉授的兩項職能之一；修訂費用則可以轉授。所以兩者寫法不同：本條例中的「關長」指海關關長、任何海關副關長、任何海關助理關長，或獲海關關長根據第26條轉授其任何職能的人", post=U.flag()) + '</tr>',
     ]), minw=900)
     + numreq([
         (("$1,000,000", "$1,000,000"),
@@ -328,9 +328,9 @@ I_ = sec('traps', [("contrasts", "對照"), ("worth marking", "值得標記")],
                vs=[(("A certified copy of the register", "登記冊的核證複本"), ("Evidence of what it states.", "屬所述事實的證據。")),
                    (("The Commissioner's signed certificate", "關長簽署的證明書"), ("Conclusive evidence.", "屬確證。"))]),
         U.trap(("Conditions and revocation do not wait for the 21 days", "條件及撤銷不等待21日"),
-               ("A condition takes effect when you receive the notice, or later if the notice says so, and a revocation or suspension at the time the notice specifies. Applying to the Review Tribunal does not by itself pause them.",
-                "條件在你收到通知時生效（如通知另定較後時間則按該時間），撤銷或暫時吊銷則在通知指明的時間生效。向覆核審裁處申請本身並不會令它們暫停。"),
-               "s.30(7) · s.32(4) · s.34(6) · s.69(1)"),
+               ("The 21 days are the time you have to apply to the Review Tribunal, counted from when the notice of the decision was sent. Unless the Ordinance provides otherwise, a decision you can take to the Tribunal takes effect when those 21 days end, or earlier if you tell the Commissioner in writing that you will not apply; if you do apply, when the Tribunal confirms it, varies it or substitutes another, or when you withdraw, unless the notice sets another time in the public interest. That ordinary rule covers a refusal to renew and a section 43 penalty. A condition does not follow it: it takes effect when you receive the notice, or later if the notice says so. Nor does a revocation or suspension: it takes effect at the time the notice specifies. Applying to the Review Tribunal does not by itself pause either. The Part 6 page sets out <a href=\"#p6-clock\">every way a decision takes effect</a>.",
+                "21日是你向覆核審裁處申請覆核的限期，由告知決定的通知送出後起計。除本條例另有規定外，可向審裁處申請覆核的決定，在該21日限期屆滿時生效；如你較早以書面通知關長你不會申請覆核，則在你通知時生效；如你申請覆核，則在審裁處確認、更改該決定或以另一決定取代時，或在你撤回申請時生效；但如通知為公眾利益另定生效時間，則按該時間生效。拒絕續期及根據第43條判處的罰款，均按這項一般規則生效。條件則不按此規則：在你收到通知時生效，如通知另定較後時間則按該時間。撤銷或暫時吊銷亦不按此規則：在通知指明的時間生效。向覆核審裁處申請本身，並不會令兩者暫停。第6部頁列出<a href=\"#p6-clock\">決定生效的每一種方式</a>。"),
+               "s.59(1) · s.75 · s.30(7) · s.31(7) · s.32(4) · s.34(6) · s.69(1)"),
     ))
 
 P5_NAV = [('life', 'Lifecycle', '生命周期'), ('scope', 'Who needs one', '誰須領牌'),

@@ -1,10 +1,21 @@
 # Figures for the Guideline Chapter 2 page: the institutional risk assessment cycle,
 # the three look-alike lists of areas and factors, and the life of a customer rating.
 from ui import *
-from bl_core import _runs
+from bl_core import _runs, tw, LH, CS, lay
 from bl_figs import lines_down
 from gl_fig import dash
 from ci_fig import CI, cc_
+
+
+def set_tc_body(c, lines):
+    """Hand-set the Chinese body lines of a Card, so that no term is split across two lines."""
+    for l in lines:
+        assert tw(l, c.size) <= c.w - 24 + 0.5, (l, tw(l, c.size), c.w - 24)
+    title = [s for s in c.seg['tc'] if s[2] != c.size]
+    bcls = [s[1] for s in c.seg['tc'] if s[2] == c.size][0]
+    c.seg['tc'] = title + [(l, bcls, c.size) for l in lines]
+    c.seg['both'] = c.seg['en'] + c.seg['tc']
+    c.h = sum(z * LH for _, _, z in c.seg[lay()]) + 16 + (CS * LH if c.cite else 0)
 
 
 # ---------------------------------------------------------------- 1. institutional assessment cycle
@@ -23,7 +34,7 @@ def fig_ira():
               ("Quantitative and qualitative information from relevant internal and external sources, which may include risk assessments and guidance by the FATF, inter-governmental organisations, governments and authorities and Hong Kong's jurisdiction-wide risk assessment. Any higher risks the CCE notifies must always be taken into account",
                "從相關內部與外部來源取得的數量及質量分析資料，可包括特別組織、跨政府組織、各地政府及主管當局發出的相關風險評估及導引，包括香港在司法管轄區層面的風險評估。關長通報的任何較高風險，一律須顧及"),
               'plain', cc_("¶2.6", CI("13 Dec 2021")))
-    FACT = Card(R_, RW, ("What you weigh", "須考慮的因素"),
+    FACT = Card(R_, RW, ("What you weigh", "應考慮的因素"),
                 ("Customer, country, product, service or transaction, delivery channel and other risk factors, across four areas. The next section lists every one",
                  "客戶、國家、產品、服務或交易、交付渠道及其他風險因素，涵蓋四個範疇。下一節逐項列出"),
                 'plain', "¶2.2 · ¶2.4", href="#factors")
@@ -50,7 +61,13 @@ def fig_ira():
                'must', "¶2.9 · ¶2.11–2.12", href="#review")
     V = Card(L, LW, ("Review and update the assessment", "覆核及更新評估"),
              ("Document the results, and have senior management approve them. The cycle then starts again from the top",
-              "覆核結果須記錄在案，並由高級管理層審批。其後由頂部再次開始"), 'must', "¶2.3(d) · ¶2.9")
+              "覆核結果應記錄在案，並由高級管理層審批。其後由頂部再次開始"), 'must', "¶2.3(d) · ¶2.9")
+    set_tc_body(IN, ["從相關內部與外部來源取得的數量及質量分析資料，可包括", "特別組織、跨政府組織、各地政府及主管當局發出的相關",
+                     "風險評估及導引，包括香港在司法管轄區層面的風險評估。", "關長通報的任何較高風險，一律須顧及"])
+    set_tc_body(FACT, ["客戶、國家、產品、服務或交易、交付渠道", "及其他風險因素，涵蓋四個範疇。下一節逐項列出"])
+    set_tc_body(R, ["所識別及評估的風險因素；所考慮的資料來源；", "就你的打擊洗錢／恐怖分子資金籌集制度是否充分和適當而作出的評估"])
+    set_tc_body(TE, ["顯著影響你的業務及所面對風險的事件。", "指引所舉的例子見「保持評估反映現況」"])
+    set_tc_body(NEW, ["新產品、新經營方法及嶄新科技：先評估風險，", "再管理和減低風險。推出新產品亦屬觸發事件"])
     H = place([([IN, FACT], 34), ([A], 34), ([Bq], 34), ([C], 34), ([R, E], 44), ([T2, TE, NEW], 40), ([V], 0)], y0=14)
     b = [n.render() for n in (IN, FACT, A, Bq, C, R, E, T2, TE, NEW, V)]
     m = 'g2i'
@@ -74,12 +91,12 @@ def fig_ira():
     rx = 24
     b.append(edge([V.left, (rx, V.cy), (rx, A.cy), A.left], mid=m))
     aria = ("The institutional ML/TF risk assessment as a cycle. It draws on quantitative and qualitative information from relevant internal and external sources, which may include risk assessments and guidance by the FATF, inter-governmental organisations, governments and authorities, and Hong Kong's jurisdiction-wide risk assessment; higher risks the CCE notifies must always be taken into account. Document the risk assessment process of identifying and assessing the risks. Weigh every relevant factor, then decide the overall risk level and the level and type of mitigation. Senior management approves the results. Keep records of the factors, the sources and the evaluation of your AML/CFT Systems; alongside, have mechanisms to provide the assessment to the CCE when required. Every two years, and on trigger events material to your business and risk exposure, review and update the assessment, document the results and have senior management approve them; then the cycle starts again. New products, business practices and technologies are assessed before launch, and a launch of new products is also a trigger event.",
-            "機構層面的洗錢／恐怖分子資金籌集風險評估是一個循環。評估參考相關內部與外部來源的數量及質量分析資料，可包括特別組織、跨政府組織、各地政府及主管當局的風險評估及導引、香港在司法管轄區層面的風險評估；關長通報的較高風險，一律須顧及。記錄識別和評估風險的程序。考慮所有相關風險因素，然後決定整體風險水平及減低風險措施的程度和類別。由高級管理層審批結果。備存風險因素、資料來源及對制度評估的紀錄；同時設有機制應關長要求提供評估結果。每兩年一次，以及遇有顯著影響業務及所面對風險的觸發事件時，覆核及更新評估，記錄結果並由高級管理層審批，然後再次開始。新產品、新經營方法及嶄新科技須在推出前評估，推出新產品亦屬觸發事件。")
+            "機構層面的洗錢／恐怖分子資金籌集風險評估是一個循環。評估參考相關內部與外部來源的數量及質量分析資料，可包括特別組織、跨政府組織、各地政府及主管當局的風險評估及導引、香港在司法管轄區層面的風險評估；關長通報的較高風險，一律須顧及。記錄識別和評估風險的程序。考慮所有相關風險因素，然後決定整體風險水平及減低風險措施的程度和類別。由高級管理層審批結果。備存風險因素、資料來源及對制度評估的紀錄；同時設有機制應關長要求提供評估結果。每兩年一次，以及遇有顯著影響業務及所面對風險的觸發事件時，覆核及更新評估，記錄結果並由高級管理層審批，然後再次開始。新產品、新經營方法及嶄新科技應在推出前評估，推出新產品亦屬觸發事件。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 
 IRA_KEY = dashkey([('must', ("what the Guideline requires of you", "指引對你的要求")),
-                   ('', ("context: what you draw on, the factors you weigh, and what sets off a review", "背景：資料來源、須考慮的因素，以及引致覆核的事件"))],
+                   ('', ("context: what you draw on, the factors you weigh, and what sets off a review", "背景：資料來源、應考慮的因素，以及引致覆核的事件"))],
                   "applies alongside, not a next step", "並行適用，並非下一步")
 
 
@@ -113,6 +130,7 @@ def fig_lists():
          Card(X[1], CWS[1], ("Delivery or distribution channel risk factors", "交付或分銷渠道風險因素"), None, 'plain', "¶2.4(d)"),
          Card(X[1], CWS[1], ("Other risk factors", "其他風險因素"),
               ("Risk-management resources and staff, compliance and regulatory findings, audit results", "風險管理資源及員工、合規及監管的發現、審計結果"), 'plain', "¶2.4(e)")]
+    set_tc_body(f[4], ["風險管理資源及員工、", "合規及監管的發現、審計結果"])
     c3 = [Card(X[2], CWS[2], ("Customer risk factors", "客戶風險因素"), None, 'plain', "¶2.15"),
           Card(X[2], CWS[2], ("Country risk factors", "國家風險因素"), None, 'plain', "¶2.15"),
           Card(X[2], CWS[2], ("Product, service, transaction or delivery channel risk factors", "產品、服務、交易或交付渠道的風險因素"), None, 'plain', "¶2.15"),
@@ -165,14 +183,15 @@ def fig_cra():
               ("Against your framework: customer, country, and product, service, transaction or delivery channel risk factors",
                "按你的框架：客戶、國家，以及產品、服務、交易或交付渠道的風險因素"), 'must', "¶2.13 · ¶2.15")
     Q = Node(340, 320, ("Is the risk higher or lower?", "風險較高還是較低？"), "¶2.13", shape='hex')
-    HI = Card(L, 280, ("Do more", "加強"), ("More information, of more types, verified more thoroughly", "索取數量及類別更多的資料，並以更嚴謹方式核實"),
-              'must', "¶2.13", answer=True)
+    HI = Card(L, 280, ("Do more", "加強"), ("All the CDD measures and ongoing monitoring, plus more information, of more types, verified more thoroughly",
+                                            "執行所有盡職審查措施並持續監察，另索取數量及類別更多的資料，並以更嚴謹方式核實"),
+              'must', "¶2.13 · fn 5", answer=True)
     MID = Card(360, 280, ("All the CDD measures, and ongoing monitoring", "執行所有盡職審查措施並持續監察"),
                ("The measures in ¶4.1.3 always apply, except in situations Chapter 4 specifies",
                 "除第4章指明的若干情況外，第4.1.3段所列的盡職審查措施一律適用"), 'must', "fn 5", href="#s2-map", answer=True)
     LO = Card(670, 300, ("CDD may be simplified", "可簡化審查程序"),
               ("Outside the situations Chapter 4 specifies, all the CDD measures still apply. See the Schedule 2 page",
-               "除第4章指明的情況外，仍須執行所有盡職審查措施。詳見附表2一頁"),
+               "除第4章指明的情況外，仍應執行所有盡職審查措施。詳見附表2一頁"),
               'ok', "¶2.13 · fn 5", href="#s2-sdd-edd", answer=True)
     F = Card(L, LW, ("Finalise the customer risk assessment", "敲定客戶風險評估"),
              ("From a holistic view of the information obtained in CDD", "綜合審視執行盡職審查措施期間所索取的資料"), 'must', "¶2.14")
@@ -186,6 +205,9 @@ def fig_cra():
     RV = Card(L, 420, ("Review and update it from time to time", "不時覆核和更新"),
               ("Particularly during ongoing monitoring, because the customer's risk profile changes over time",
                "尤以持續監察時為然，因為客戶風險狀況會隨時間轉變"), 'must', "¶2.14")
+    set_tc_body(HI, ["執行所有盡職審查措施並持續監察，", "另索取數量及類別更多的資料，", "並以更嚴謹方式核實"])
+    set_tc_body(LO, ["除第4章指明的情況外，", "仍應執行所有盡職審查措施。", "詳見附表2一頁"])
+    set_tc_body(REC, ["以便向關長證明你如何評估客戶的風險，", "以及基於該風險，所執行的盡職審查措施", "及持續監察程度是合適的"])
     H = place([([S], 34), ([P1], 34), ([Q], 70), ([HI, MID, LO], 70), ([F, REC], 50), ([MON, DEC], 34), ([RV], 0)], y0=14)
     b = [n.render() for n in (S, P1, Q, HI, MID, LO, F, REC, MON, DEC, RV)]
     m = 'g2c'
@@ -215,8 +237,8 @@ def fig_cra():
     b.append(edge([MON.bottom, RV.top], mid=m))
     rx = 24
     b.append(edge([RV.left, (rx, RV.cy), (rx, F.cy), F.left], mid=m))
-    aria = ("The life of one customer risk rating. For a customer or proposed business relationship, assess the risk at the initial stage of CDD against the framework's customer, country and product, service, transaction or delivery channel factors. If the risk is higher, obtain more information of more types and verify it more thoroughly. If it is neither higher nor lower, apply all the CDD measures in paragraph 4.1.3 and conduct ongoing monitoring, which always apply except in situations Chapter 4 specifies. If it is lower, CDD may be simplified, but outside the situations Chapter 4 specifies all the CDD measures still apply. Then finalise the customer risk assessment from a holistic view of the CDD information; alongside, keep records that show the CCE how you assessed the risk and that CDD and monitoring fit it. The finalised assessment sets the level and type of ongoing monitoring and supports the decision to enter into, continue or terminate the relationship. Review and update it from time to time, particularly during ongoing monitoring, which loops back to the finalised assessment.",
-            "一項客戶風險評估的生命周期。對客戶或擬開展的業務關係，在盡職審查程序初期按框架的客戶、國家，以及產品、服務、交易或交付渠道因素評估風險。風險較高，便索取數量及類別更多的資料並以更嚴謹方式核實。風險既非較高亦非較低，便執行第4.1.3段所列的所有盡職審查措施並持續監察；除第4章指明的若干情況外，這些措施一律適用。風險較低，可簡化審查程序，但除第4章指明的情況外，仍須執行所有盡職審查措施。其後綜合審視盡職審查資料，敲定客戶風險評估；同時備存紀錄，以便向關長證明如何評估風險，以及基於該風險，所執行的盡職審查措施及持續監察程度是合適的。敲定的評估決定持續監察的程度和類別，並支持建立、繼續或終止業務關係的決定。其後不時覆核和更新，尤以持續監察時為然，並回到敲定評估的步驟。")
+    aria = ("The life of one customer risk rating. For a customer or proposed business relationship, assess the risk at the initial stage of CDD against the framework's customer, country and product, service, transaction or delivery channel factors. Except for certain situations specified in Chapter 4, all the CDD measures set out in paragraph 4.1.3 and ongoing monitoring always apply, whatever the answer. If the risk is higher, also obtain more information of more types and verify it more thoroughly. If it is neither higher nor lower, apply all the CDD measures and conduct ongoing monitoring. If it is lower, CDD may be simplified, but outside the situations Chapter 4 specifies all the CDD measures still apply. Then finalise the customer risk assessment from a holistic view of the CDD information; alongside, keep records that show the CCE how you assessed the risk and that CDD and monitoring fit it. The finalised assessment sets the level and type of ongoing monitoring and supports the decision to enter into, continue or terminate the relationship. Review and update it from time to time, particularly during ongoing monitoring, which loops back to the finalised assessment.",
+            "一項客戶風險評估的生命周期。對客戶或擬開展的業務關係，在盡職審查程序初期按框架的客戶、國家，以及產品、服務、交易或交付渠道因素評估風險。除第4章指明的若干情況外，不論答案為何，所有第4.1.3段載列的盡職審查措施及持續監察一律適用。風險較高，另應索取數量及類別更多的資料並以更嚴謹方式核實。風險既非較高亦非較低，便執行所有盡職審查措施並持續監察。風險較低，可簡化審查程序，但除第4章指明的情況外，仍應執行所有盡職審查措施。其後綜合審視盡職審查資料，敲定客戶風險評估；同時備存紀錄，以便向關長證明如何評估風險，以及基於該風險，所執行的盡職審查措施及持續監察程度是合適的。敲定的評估決定持續監察的程度和類別，並支持建立、繼續或終止業務關係的決定。其後不時覆核和更新，尤以持續監察時為然，並回到敲定評估的步驟。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 

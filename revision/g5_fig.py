@@ -1,7 +1,19 @@
 # Figures for the Guideline Chapter 5 page: what the monitoring system should do and
 # the two checks on it, and the route from an unusual transaction to a decision.
 from ui import *
+from bl_core import tw, LH, CS, lay
 from ci_fig import TB
+
+
+def set_tc_body(c, lines):
+    """Hand-set the Chinese body lines of a Card, so that no term is split across two lines."""
+    for l in lines:
+        assert tw(l, c.size) <= c.w - 24 + 0.5, (l, tw(l, c.size), c.w - 24)
+    title = [s for s in c.seg['tc'] if s[2] != c.size]
+    bcls = [s[1] for s in c.seg['tc'] if s[2] == c.size][0]
+    c.seg['tc'] = title + [(l, bcls, c.size) for l in lines]
+    c.seg['both'] = c.seg['en'] + c.seg['tc']
+    c.h = sum(z * LH for _, _, z in c.seg[lay()]) + 16 + (CS * LH if c.cite else 0)
 
 
 def cc(*cs):
@@ -56,6 +68,9 @@ def fig_system():
     RV = Card(590, 380, ("Review the system regularly", "定期覆核系統"),
               ("Are the systems and processes, parameters and thresholds included, still adequate and effective?",
                "交易監察系統及程序（包括採用的參數及門檻）是否仍然合適及有效？"), 'must', "¶5.8")
+    set_tc_body(D1, ["系統的設計、自動化程度及", "精密程度應適當地因應五項", "關於你本身業務的因素開發：", "見下表左欄"])
+    set_tc_body(R1, ["應盡可能以關係為本，", "而非以個別交易為本：", "客戶在業務範圍內或跨業務的", "多個戶口，以及相關客戶的戶口"])
+    set_tc_body(RV, ["交易監察系統及程序（包括採用的參數及門檻）", "是否仍然合適及有效？"])
     top_y = 12
     GAP = 70                              # between the two frames, where the arrow labels sit
     place([([D1, D2, R2, R1], 0)], y0=top_y + band)
@@ -111,8 +126,8 @@ def fig_unusual():
               ("Take the steps below instead of closing it without sufficient justification and analysis",
                "採取下列步驟，而非在沒有充分理由及分析的情況下消除警報"), 'plain', TB("3"))
     S = Card(40, 920, ("Take appropriate steps to find out whether there are grounds for suspicion", "採取適當步驟，以識辨有否懷疑的理由"),
-             ("For example: examine the background and purposes of the transactions; make appropriate enquiries of the customer; obtain additional CDD information from the customer",
-              "例如：審查交易的背景及目的；適當地詢問客戶；向客戶索取額外的盡職審查資料"), 'must', "¶5.10 · fn 55")
+             ("For example: examine the background and purposes of the transactions; make appropriate enquiries of the customer; obtain additional CDD information from the customer. For a transaction that is complex, unusually large in amount or of an unusual pattern, and also has no apparent economic or lawful purpose, examine its background and purposes and set out the findings in writing",
+              "例如：審查交易的背景及目的；適當地詢問客戶；向客戶索取額外的盡職審查資料。如交易屬複雜、款額大得異乎尋常或進行模式異乎尋常，並且沒有明顯經濟或合法目的，應審查該交易的背景及目的，並藉書面列明審查所得"), 'must', "¶5.10 · fn 55")
     Q1 = Node(40, 520, ("Do you reasonably believe that performing the CDD process will tip off the customer?",
                         "你是否合理地相信執行盡職審查程序會向客戶通風報訊？"), "¶5.13", shape='hex')
     X1 = Card(620, 340, ("Document the basis for your assessment and file an STR", "把評估的基礎記錄在案，並提交可疑交易報告"),
@@ -132,6 +147,11 @@ def fig_unusual():
     ANY = Card(40, 920, ("At any point, a suspicion identified means an STR to the JFIU", "在任何時候，識別出可懷疑之處便應向財富情報組提交可疑交易報告"),
                ("Not only after an explanation fails: in any event, wherever suspicion is identified during transaction monitoring, an STR should be made",
                 "不只在未能取得解釋之後：在任何情況下，如在交易監察的過程中識別出可懷疑之處，便應提交可疑交易報告"), 'must', "¶5.12")
+    set_tc_body(Ta, ["客戶的交易不符合你對該客戶、", "客戶的業務、風險狀況或資金來源的認知"])
+    set_tc_body(Tb, ["複雜、款額大得異乎尋常或進行模式", "異乎尋常，並且沒有明顯經濟或合法目的"])
+    set_tc_body(Tc, ["採取下列步驟，而非在沒有充分理由", "及分析的情況下消除警報"])
+    set_tc_body(OK, ["可如此斷定，並不再採取進一步行動。", "即使未有識辨出可懷疑之處，", "仍應考慮根據取得的相關資料更新客戶的風險狀況"])
+    set_tc_body(NS, ["未能取得可信納的解釋，可斷定為有懷疑的理由；", "識別出可懷疑之處，便應提交可疑交易報告"])
     H = place([([Ta, Tb, Tc], 64 if both else 48), ([S], 40), ([Q1, X1], 46), ([Q2], 84), ([OK, NS], 44), ([REC], 70 if both else 52), ([ANY], 0)], y0=14)
     for row in ((Ta, Tb, Tc), (OK, NS)):
         h = max(n.h for n in row)
@@ -171,8 +191,8 @@ def fig_unusual():
         b.append(edge([(n.cx, n.y + n.h), (n.cx, REC.y)], mid=m))
     # stopping CDD is still recorded: down the right margin, clear of the outcome boxes
     b.append(edge([X1.right, (982, X1.cy), (982, REC.cy), (REC.x + REC.w, REC.cy)], mid=m))
-    aria = ("What to do when a transaction does not add up. Three situations send you into the steps: the customer's transactions do not fit what you know of the customer, its business, risk profile or source of funds; a transaction is complex, unusually large or of an unusual pattern and has no apparent economic or lawful purpose; or your monitoring system raises an alert, which you should not close without sufficient justification and analysis. Take appropriate steps to find out whether there are grounds for suspicion, such as examining the background and purposes, making enquiries of the customer, or obtaining more CDD information. If you reasonably believe that performing the CDD process will tip off the customer, document the basis for that assessment and file an STR with the JFIU; you may stop pursuing the process. Otherwise, if the enquiries give a satisfactory explanation you may conclude there are no grounds for suspicion and take no further action, still considering an update to the customer's risk profile. If they do not, you may conclude there are grounds for suspicion, and an STR should be made. Every route ends in a written record of the findings, outcomes and the rationale for any decision, available to the CCE, other competent authorities and auditors. At any point, any suspicion identified during transaction monitoring means an STR to the JFIU.",
-            "交易不合情理時應怎樣做。指引指在以下任何一種情況應採取步驟：客戶的交易不符合你對該客戶、其業務、風險狀況或資金來源的認知；或交易複雜、款額大得異乎尋常或模式異乎尋常，並且沒有明顯經濟或合法目的。通函另指，監察交易系統發出警報時，應採取步驟，而非在沒有充分理由及分析的情況下消除警報。你應採取適當步驟以識辨有否懷疑的理由，例如審查交易的背景及目的、詢問客戶或索取額外的盡職審查資料。如你合理地相信執行盡職審查程序會向客戶通風報訊，應把評估的基礎記錄在案並向財富情報組提交可疑交易報告；你可停止繼續跟進該程序。否則，如查詢取得可信納的解釋，可斷定沒有懷疑的理由而不再採取行動，但仍應考慮更新客戶的風險狀況；如未能取得，可斷定為有懷疑的理由，並應提交可疑交易報告。每條路線均以書面記錄告終：發現、結果及任何決定的理由，以便提交予關長、其他主管當局及核數師。在任何時候，如在交易監察過程中識別出可懷疑之處，便應提交可疑交易報告。")
+    aria = ("What to do when a transaction does not add up. Three situations send you into the steps: the customer's transactions do not fit what you know of the customer, its business, risk profile or source of funds; a transaction is complex, unusually large or of an unusual pattern and has no apparent economic or lawful purpose; or your monitoring system raises an alert, which you should not close without sufficient justification and analysis. Take appropriate steps to find out whether there are grounds for suspicion, such as examining the background and purposes, making enquiries of the customer, or obtaining more CDD information; for a transaction that is complex, unusually large or of an unusual pattern and also has no apparent economic or lawful purpose, examine its background and purposes and set out the findings in writing. If you reasonably believe that performing the CDD process will tip off the customer, document the basis for that assessment and file an STR with the JFIU; you may stop pursuing the process. Otherwise, if the enquiries give a satisfactory explanation you may conclude there are no grounds for suspicion and take no further action, still considering an update to the customer's risk profile. If they do not, you may conclude there are grounds for suspicion, and an STR should be made. Every route ends in a written record of the findings, outcomes and the rationale for any decision, available to the CCE, other competent authorities and auditors. At any point, any suspicion identified during transaction monitoring means an STR to the JFIU.",
+            "交易不合情理時應怎樣做。指引指在以下任何一種情況應採取步驟：客戶的交易不符合你對該客戶、其業務、風險狀況或資金來源的認知；或交易複雜、款額大得異乎尋常或模式異乎尋常，並且沒有明顯經濟或合法目的。通函另指，監察交易系統發出警報時，應採取步驟，而非在沒有充分理由及分析的情況下消除警報。你應採取適當步驟以識辨有否懷疑的理由，例如審查交易的背景及目的、詢問客戶或索取額外的盡職審查資料；如交易屬複雜、款額大得異乎尋常或進行模式異乎尋常，並且沒有明顯經濟或合法目的，應審查該交易的背景及目的，並藉書面列明審查所得。如你合理地相信執行盡職審查程序會向客戶通風報訊，應把評估的基礎記錄在案並向財富情報組提交可疑交易報告；你可停止繼續跟進該程序。否則，如查詢取得可信納的解釋，可斷定沒有懷疑的理由而不再採取行動，但仍應考慮更新客戶的風險狀況；如未能取得，可斷定為有懷疑的理由，並應提交可疑交易報告。每條路線均以書面記錄告終：發現、結果及任何決定的理由，以便提交予關長、其他主管當局及核數師。在任何時候，如在交易監察過程中識別出可懷疑之處，便應提交可疑交易報告。")
     return svg(W, H + 14, ''.join(b), aria, m, 860)
 
 

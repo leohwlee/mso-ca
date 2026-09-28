@@ -54,8 +54,10 @@ def fig4():
            ["否。照常評估風險，並持續篩查：", "政治人物身分可能其後才出現。"], "¶4.9.10, 4.9.17(c)", answer=True)
     D2 = N(360, 280, ["Which kind of PEP?"], ["屬哪一類政治人物？"], "¶4.9.7, 4.9.13, 4.9.14", shape='hex')
     F = N(35, 300, ["Non-Hong Kong PEP,", "including family members", "and close associates"],
-          ["非香港政治人物，", "包括其家庭成員及關係密切的人"], "¶4.9.7–4.9.8 · s.1 Sch. 2")
-    Hn = N(370, 260, ["Hong Kong PEP, or", "international", "organisation PEP"], ["香港政治人物或", "國際組織政治人物"], "¶4.9.13–4.9.15")
+          ["非香港政治人物，", "包括其家人及關係密切的人"], "¶4.9.7–4.9.8 · s.1 Sch. 2")
+    # both Guideline definitions (¶4.9.13(b)–(c), 4.9.14(b)–(c)) take in family members and close associates too
+    Hn = N(355, 290, ["Hong Kong PEP, or", "international organisation", "PEP, including family", "members and close associates"],
+           ["香港政治人物或", "國際組織政治人物，", "包括其家人及關係密切的人"], "¶4.9.13–4.9.15, 4.9.22")
     R = N(665, 300, ["Former PEP of any kind"], ["任何類別的前政治人物"], "¶4.9.11, 4.9.18")
     D3 = N(390, 220, ["Is the relationship", "high risk?"], ["業務關係是否屬高風險？"], "¶4.9.17 · fn 40", shape='hex')
     EDD = N(15, 340, ["Before establishing or continuing", "the relationship, apply all", "three EDD measures:",
