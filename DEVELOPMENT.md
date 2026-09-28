@@ -10,7 +10,7 @@ them into the single file. Requires Go ≥ 1.27 and nothing else.
 ```bash
 go test ./...                          # question-bank checks + vet
 go run . -export-html dist/mso-ca.html # build the single file
-go run .                               # or: serve web/ while developing
+python -m http.server 8321 -d web      # or: serve web/ while developing
 ```
 
 `build.cmd` (Windows) or `./build.sh` (Mac/Linux) does the same.
