@@ -6,8 +6,10 @@ import importlib
 import io
 import os
 import re
+import shutil
 import subprocess
 import sys
+import tempfile
 
 SP = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, SP)
@@ -92,7 +94,8 @@ for lang in ('en', 'tc', 'both'):
     io.open(os.path.join(OUT, f'{tag}_{lang}.html'), 'w', encoding='utf-8').write(page)
 
 chrome = os.environ.get('CHROME', r"C:\Program Files\Google\Chrome\Application\chrome.exe")
-prof = os.path.join(SP, 'chrome-prof-' + tag)
+# a throwaway profile per run, so parallel checks never share one and none is left behind
+prof = tempfile.mkdtemp(prefix='chrome-prof-')
 
 
 def shot(url, png, w, h):
@@ -104,20 +107,23 @@ def shot(url, png, w, h):
 # figures: one PNG per drawing, at the width a desktop reader sees (870px)
 figs = re.findall(r'(<figure>.*?</figure>)', body, re.S)
 made = []
-for k, f in enumerate(figs):
-    for lang in ('en', 'tc', 'both'):
-        vb = re.search(rf'<svg class="fig s-{lang}" viewBox="0 0 ([\d.]+) ([\d.]+)"', f)
-        if not vb:
-            continue
-        h = int(float(vb.group(2)) * 870 / float(vb.group(1))) + 220
-        page = (f'<!doctype html><html data-lang="{lang}"><head><meta charset="utf-8">{fonts}<style>{css}</style>'
-                f'<style>body{{margin:0;padding:10px;width:892px}} .figwrap{{overflow:visible}} svg.fig{{min-width:0!important}}</style>'
-                f'</head><body>{f}</body></html>')
-        hp = os.path.join(OUT, f'{tag}_fig{k}_{lang}.html')
-        io.open(hp, 'w', encoding='utf-8').write(page)
-        png = hp[:-5] + '.png'
-        shot('file:///' + hp.replace('\\', '/'), png, 912, h)
-        made.append(png)
+try:
+    for k, f in enumerate(figs):
+        for lang in ('en', 'tc', 'both'):
+            vb = re.search(rf'<svg class="fig s-{lang}" viewBox="0 0 ([\d.]+) ([\d.]+)"', f)
+            if not vb:
+                continue
+            h = int(float(vb.group(2)) * 870 / float(vb.group(1))) + 220
+            page = (f'<!doctype html><html data-lang="{lang}"><head><meta charset="utf-8">{fonts}<style>{css}</style>'
+                    f'<style>body{{margin:0;padding:10px;width:892px}} .figwrap{{overflow:visible}} svg.fig{{min-width:0!important}}</style>'
+                    f'</head><body>{f}</body></html>')
+            hp = os.path.join(OUT, f'{tag}_fig{k}_{lang}.html')
+            io.open(hp, 'w', encoding='utf-8').write(page)
+            png = hp[:-5] + '.png'
+            shot('file:///' + hp.replace('\\', '/'), png, 912, h)
+            made.append(png)
+finally:
+    shutil.rmtree(prof, ignore_errors=True)
 
 print('PROBLEMS:' if problems else 'No problems found by the checks.')
 for p in problems:
