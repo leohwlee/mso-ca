@@ -224,7 +224,9 @@ func TestSourceTextsCurrent(t *testing.T) {
 // reviews, and a random sample of 120 in September 2026 found every one from
 // the right passage but 24 (20%) stopping short of the deciding words: the
 // lead-in to a list, or the passage behind a true statement of a combination
-// item. Those 24 were replaced; the rest were not re-read. Blind review still
+// item. A sweep then re-read the 1,230 quotes a mechanical filter could not
+// clear and replaced 573 of them; a fresh random sample of 60 afterwards found
+// 2 (3%) still short, and those were replaced too. Blind review still
 // checks that the key follows from the passage.
 func TestQuotesFromCitedSources(t *testing.T) {
 	bank := loadBank(t)
