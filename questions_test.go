@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"regexp"
 	"sort"
+	"strconv"
 	"strings"
 	"testing"
 	"unicode"
@@ -1267,3 +1268,56 @@ func TestNoNumberOnlyOptions(t *testing.T) {
 	}
 }
 
+// TestComboExplanationNamesFalseStatements: a combination item's explanation
+// says which statements are false, or that none is, and that must be the
+// answer the key gives. The key is a letter in a fixed block, so an explanation
+// that argues for a different set of statements is invisible until a candidate
+// who chose correctly reads that they were wrong. Reviews ran this as a
+// mechanical pre-check from September 2026; two traps it learnt are built in:
+// collect every "statement N is false", not just the first, and read "none of
+// them is false" as the all-true option.
+func TestComboExplanationNamesFalseStatements(t *testing.T) {
+	falseStatements := map[string]*regexp.Regexp{
+		"en": regexp.MustCompile(`\b(?i:statements?)\s+(\d+(?:(?:\s*,\s*|\s+and\s+|\s*&\s*)(?:(?i:statement)\s+)?\d+)*)\s+(?:is|are)\s+(?:false|incorrect|wrong|untrue|not correct)`),
+		"tc": regexp.MustCompile(`陳述\s*(\d+(?:\s*(?:、|及|和|與|,|，)\s*(?:陳述)?\s*\d+)*)\s*(?:均|皆|都|亦)?\s*(?:不正確|錯誤|並不正確|屬錯誤|有誤|不準確)`),
+	}
+	noneFalse := map[string]*regexp.Regexp{
+		"en": regexp.MustCompile(`none of them is false|(?i:no) statement is false|(?i:all) (?:four|five|the) statements (?:are|is) (?:correct|true)|(?i:every) statement is (?:correct|true)|(?i:none) of the (?:four |five )?statements (?:is|are) (?:false|incorrect)`),
+		"tc": regexp.MustCompile(`(?:四|五)項陳述(?:均|全部|皆)(?:正確|屬實)|所有陳述(?:均|皆)正確|全部陳述(?:均|皆)?正確|各項陳述(?:均|皆)正確|(?:沒有|並無)不正確的陳述|陳述1、2、3\s*及\s*4\s*均正確|陳述1、2、3、4\s*及\s*5\s*均正確`),
+	}
+	digits := regexp.MustCompile(`\d+`)
+	trueSets := map[int][]string{
+		4: {"4", "3", "1", "2", ""},
+		5: {"4,5", "1,5", "2,5", "3,4", "1,2"},
+	}
+	for _, q := range loadBank(t) {
+		if !q.combo() {
+			continue
+		}
+		want := trueSets[len(q.En.Statements)][q.Answer]
+		for lang, explain := range map[string]string{"en": q.En.Explain, "tc": q.Tc.Explain} {
+			named := map[int]bool{}
+			for _, m := range falseStatements[lang].FindAllStringSubmatch(explain, -1) {
+				for _, d := range digits.FindAllString(m[1], -1) {
+					n, _ := strconv.Atoi(d)
+					named[n] = true
+				}
+			}
+			var got []string
+			for n := 1; n <= len(q.En.Statements); n++ {
+				if named[n] {
+					got = append(got, strconv.Itoa(n))
+				}
+			}
+			switch none := noneFalse[lang].MatchString(explain); {
+			case len(got) == 0 && !none:
+				t.Errorf("%s (%s): the explanation does not say which statements are false", q.ID, lang)
+			case len(got) > 0 && none:
+				t.Errorf("%s (%s): the explanation says both that statements %s are false and that none is", q.ID, lang, strings.Join(got, ", "))
+			case strings.Join(got, ",") != want:
+				t.Errorf("%s (%s): the explanation calls statements [%s] false, but the key makes [%s] false",
+					q.ID, lang, strings.Join(got, ","), want)
+			}
+		}
+	}
+}
