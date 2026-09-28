@@ -98,8 +98,8 @@ func citedDocs(citation, lang string) []string {
 // compatibility ideographs some Chinese PDFs use (行 as U+FA08) to the standard
 // characters.
 func matchKey(s string) string {
-	const drop = "“”‘’\"'「」『』＂＇" + // quote marks
-		"—–‑‐‒―-­－" // dashes and hyphens
+	const drop = "\u201c\u201d\u2018\u2019\"'\u300c\u300d\u300e\u300f\uff02\uff07" + // quote marks
+		"\u2014\u2013\u2011\u2010\u2012\u2015-\u00ad\uff0d" // dashes and hyphens
 	var b strings.Builder
 	b.Grow(len(s))
 	for _, r := range s {
