@@ -9,7 +9,7 @@
 ```bash
 go test ./...                          # 題庫檢查 + vet
 go run . -export-html dist/mso-ca.html # 產生單一檔案
-go run .                               # 或：開發時在本機提供 web/
+python -m http.server 8321 -d web      # 或：開發時在本機提供 web/
 ```
 
 `build.cmd`（Windows）或 `./build.sh`（Mac/Linux）效果相同。
