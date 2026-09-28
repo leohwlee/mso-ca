@@ -64,15 +64,16 @@ the per-document figures can sum above the module total.
 | **1** General knowledge on AML/CFT and counter-proliferation financing | **02** ch. 1, 6–7, glossary (93) · **10** (28) · **19** (15) · **11** (6) · **14** (3) · **20** (3) · **15** (1) · **17** (1) · **21** (1) · **22** (1) | 123 |
 | **2** Parts 1–7 of the AMLO | **10** Parts 1–7 (302) · **03** (3) · **02** ch. 1 (1) · **18** (1) | 303 |
 | **3** Schedules to the AMLO | **10** Sch. 2 (172), Sch. 4 (39), Sch. 1 (32), Sch. 3 (7), Part 6 (1), Part 1 (1) · **02** ch. 4, 10–11 (17) | 248 |
-| **4** Guidelines promulgated by the C&ED | **03** (171) · **01** (31) · **07** (26) · **10** (21) · **05** (19) · **06** (17) · **08** (15) · **09** (8) · **04** (6) · **16** (5) · **02** ch. 5–6 (1) · **19** (1) | 283 |
-| **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (91) · **10** (4) · **07** (3) · **05** (1) · **12** (1) · **19** (1) | 96 |
-| **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11, App. A, glossary (301) · **10** (28) · **14** (14) · **13** (12) · **22** (8) · **12** (6) | 340 |
+| **4** Guidelines promulgated by the C&ED | **03** (171) · **01** (33) · **07** (26) · **05** (22) · **10** (22) · **06** (17) · **08** (15) · **04** (8) · **09** (8) · **16** (5) · **19** (1) · **22** (1) | 283 |
+| **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (91) · **10** (4) · **07** (3) · **03** (2) · **05** (1) · **12** (1) · **19** (1) | 96 |
+| **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11, App. A, glossary (301) · **10** (28) · **14** (14) · **13** (12) · **22** (9) · **12** (6) | 340 |
 | **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** ch. 1, 3, 7–9 (153) · **10** (5) · **22** (1) | 154 |
 
 One document feeds no question of its own: **23**, by design — it is the format
-template, described just below. **22**, the FAQ page, feeds ten questions from its
-Guideline series, eight in module 6 and one each in modules 1 and 7; its other
-Guideline questions, each naming the paragraph it elaborates, are the obvious
+template, described just below. **22**, the FAQ page, feeds twelve questions: eleven
+from its Guideline series, nine in module 6 and one each in modules 1 and 7, and
+one in module 4 from its licence-application series. Its other Guideline
+questions, each naming the paragraph it elaborates, are the obvious
 place to add more.
 
 Two of these are worth singling out. **23** is the only set of sample questions
