@@ -5,15 +5,13 @@
 ## The mock exam
 
 The repository holds the app's parts (`web/`) and a small Go program that folds
-them into the single file. Requires Go ≥ 1.27 and nothing else.
+them into the single file. Building it requires Go ≥ 1.27 and nothing else.
 
 ```bash
 go test ./...                          # question-bank checks + vet
 go run . -export-html dist/mso-ca.html # build the single file
 python -m http.server 8321 -d web      # or: serve web/ while developing
 ```
-
-`build.cmd` (Windows) or `./build.sh` (Mac/Linux) does the same.
 
 The bank is `web/questions.json`. `go test ./...` is more than a shape check: it
 guards the faults that quietly ruin a question bank, each one added after a

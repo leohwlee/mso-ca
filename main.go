@@ -11,6 +11,7 @@ import (
 	"fmt"
 	"io/fs"
 	"os"
+	"path/filepath"
 	"regexp"
 	"strings"
 )
@@ -96,6 +97,10 @@ func writeSingleFile(fsys fs.FS, path string) error {
 	}
 	out = strings.Replace(out, "<!DOCTYPE html>", "<!DOCTYPE html>\n"+notice, 1)
 
+	// dist/ is gitignored, so on a fresh clone the output folder does not exist yet.
+	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
+		return err
+	}
 	return os.WriteFile(path, []byte(out), 0o644)
 }
 
