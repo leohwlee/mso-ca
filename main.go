@@ -3,8 +3,10 @@
 package main
 
 import (
+	"bytes"
 	"embed"
 	"encoding/base64"
+	"encoding/json"
 	"flag"
 	"fmt"
 	"io/fs"
@@ -110,6 +112,12 @@ func writeSingleFile(fsys fs.FS, path string) error {
 	if err != nil {
 		return err
 	}
+	// The bank is kept indented so its diffs stay readable. The page needs none of
+	// that whitespace, which is about 7% of the file.
+	var compact bytes.Buffer
+	if err := json.Compact(&compact, []byte(bank)); err != nil {
+		return fmt.Errorf("questions.json: %w", err)
+	}
 
 	fontRef := regexp.MustCompile(`url\("fonts/([^"]+)"\)`)
 	css = fontRef.ReplaceAllStringFunc(css, func(m string) string {
@@ -126,7 +134,7 @@ func writeSingleFile(fsys fs.FS, path string) error {
 
 	out := strings.Replace(index, `<link rel="stylesheet" href="style.css">`, "<style>\n"+css+"\n</style>", 1)
 	out = strings.Replace(out, `<script src="app.js"></script>`,
-		"<script>window.BANK = "+safe(bank)+";</script>\n<script>\n"+safe(js)+"\n</script>", 1)
+		"<script>window.BANK = "+safe(compact.String())+";</script>\n<script>\n"+safe(js)+"\n</script>", 1)
 	if strings.Contains(out, `href="style.css"`) || strings.Contains(out, `src="app.js"`) {
 		return fmt.Errorf("index.html did not contain the expected stylesheet/script tags")
 	}
