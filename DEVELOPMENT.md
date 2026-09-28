@@ -79,7 +79,7 @@ with `v`, so they never trigger a release.
 
 | Version | Date | First released in | What changed |
 |---|---|---|---|
-| 2.2.0 | 28 Sep 2026 | not yet released | Adds calibrating a mechanical filter and a cheaper model on a judged sample before a bulk review, with the numbers from this repository's quote sweep. |
+| 2.2.0 | 28 Sep 2026 | v1.7.5 | Adds calibrating a mechanical filter and a cheaper model on a judged sample before a bulk review, with the numbers from this repository's quote sweep. |
 | 2.1.0 | 28 Sep 2026 | v1.7.4 | Adds the options-only guesser to the guard catalogue, and what this repository measured once it had the new checks: stored deciding quotes, convergence and echo at chance, and the guesser's results. |
 | 2.0.0 | 28 Sep 2026 | v1.7.4 | Renamed `exam-prep`. Covers the study pack and the mock-exam app as well as the bank, and makes the exam format a spec the user defines. Adds the intake questions, the conflicts register, verification against the pack, the negation, echo and twin-statement tells, and briefs for subagents. |
 | 1.2.1 | 28 Sep 2026 | v1.7.2 | A translated "the said X" may point back to an earlier statement, or to a kind of X. |
