@@ -349,8 +349,11 @@ function homeView() {
       </div>
     </div>
     <div class="footer">${ui(
-      'Practice questions are reconstructions from official C&ED / e-Legislation materials — not real exam questions.',
-      '練習題按官方材料重構而成，並非真題。')}</div>
+      'Practice questions are reconstructions from official C&ED / e-Legislation materials, not real exam questions. ' +
+      'C&ED publishes no answers beyond a few sample questions, and where the sources conflict or are unclear, ' +
+      'the answer follows the most defensible reading. Not an official C&ED product, and not legal advice.',
+      '練習題按官方材料重構而成，並非真題。除少量參考試題外，香港海關沒有公布答案；如原始文件互相矛盾或意思不清晰，' +
+      '答案採用最有根據的解讀。本程式並非香港海關的官方產品，亦不構成法律意見。')}</div>
   </div>`;
 }
 
