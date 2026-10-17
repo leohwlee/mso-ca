@@ -38,11 +38,8 @@ let justFinished = false;       // results view: fresh submit vs history review
 let timerId = null;
 let homeNotice = null;          // one-shot message on home
 let pmodSel = new Set([1, 2, 3, 4, 5, 6, 7]); // practice module selection
-/* Every sample question C&ED has published is a combination item, so the mock can
-   be drawn entirely from those — the closest the app gets to the printed paper.
-   Off by default: the four-option questions test one provision at a time and are
-   the better shape for learning one. */
-let examCombo = false;
+let drill = null;               // active statement drill
+const inPractice = q => pmodSel.has(q.module);
 let reviewFilter = 'all';       // results view: 'all' | 'wrong'
 let homeTick = null;            // ticks the "time left" on the home resume card
 const BASE_TITLE = document.title;
@@ -96,24 +93,82 @@ function toast(msg) {
   toast.t = setTimeout(() => el.classList.remove('show'), 3500);
 }
 
-/* The official papers use two question shapes. Most items are a stem and four
-   options, whose order the app shuffles at draw time so position never leaks the
-   key. Combination items — the shape of every sample question C&ED has published,
-   in the 2021 sample set and in Guidance Notes ¶7.1 — put numbered statements
-   under the stem and offer five fixed options naming subsets of them. There the
-   order is part of the question, so it is never shuffled and the letters A–E are
-   fixed, exactly as on the printed paper. */
-const isCombo = q => q.format === 'combination';
-const optCount = q => isCombo(q) ? 5 : 4;
-const letters = q => isCombo(q) ? 'ABCDE' : 'ABCD';
-const identity = q => isCombo(q) ? [0, 1, 2, 3, 4] : [0, 1, 2, 3];
-const drawOrder = q => isCombo(q) ? [0, 1, 2, 3, 4] : shuffle([0, 1, 2, 3]);
-/* History outlives the file it was made in, and a question that was four-option
-   when an attempt was saved may since have been rewritten as a combination item.
-   An order of the wrong length would drop the fifth option and could hide the
-   right answer, so fall back to the question's own order when it no longer fits. */
-const orderFor = (q, stored) =>
-  Array.isArray(stored) && stored.length === optCount(q) ? stored : identity(q);
+/* Every question has the shape of the real paper: a stem, four to six numbered
+   statements, and five options a)–e) naming which statements are correct. An
+   item stores its statements, which of them are true, and its options as sets of
+   statement numbers; the labels ("1, 2 and 4", 「1、2 及 4」) are written here.
+
+   The statements are reordered every time a question is drawn, and the options
+   renumbered to match, so that the letter of an answer cannot be memorised. Each
+   item's notes follow its statements. Options are shown as C&ED prints them: its own block in its own
+   order, otherwise smaller sets first and then by number, with "All of the
+   above" or "None of the above" always last. */
+const LETTERS = 'ABCDE';
+const OFFICIAL4 = [[1, 2, 3], [1, 2, 4], [2, 3, 4], [1, 3, 4]];        // MSSB/CA_01/2021, then e) All of the above
+const GN71 = [[1, 2, 3], [2, 3, 4], [1, 3, 4], [1, 2, 5], [3, 4, 5]];  // Guidance Notes ¶7.1
+const isToken = o => o === 'all' || o === 'none';
+const identityPerm = q => q.truth.map((_, i) => i);
+const drawPerm = q => shuffle(identityPerm(q));
+/* A stored order is used only while it still fits the item: the same number of
+   statements, each once. History outlives the file it was made in, and an item
+   may since have gained a statement. */
+function permFor(q, stored) {
+  if (Array.isArray(stored) && stored.length === q.truth.length &&
+      [...stored].sort((a, b) => a - b).every((v, i) => v === i)) return stored;
+  return identityPerm(q);
+}
+
+/* The question as drawn: perm[d] is the statement shown at position d; `shown`
+   holds each stored option renumbered accordingly, and `order` the stored option
+   indices in the order they are displayed. Answers are kept as stored indices, so
+   grading never depends on the draw. */
+function arrange(q, perm) {
+  const at = [];
+  perm.forEach((orig, d) => { at[orig] = d + 1; });
+  const shown = q.options.map(o => isToken(o) ? o : o.map(x => at[x - 1]).sort((a, b) => a - b));
+  return { perm, shown, order: displayOrder(shown, q.truth.length) };
+}
+
+function displayOrder(shown, n) {
+  const idx = shown.map((_, i) => i);
+  const body = idx.filter(i => !isToken(shown[i])), tail = idx.filter(i => isToken(shown[i]));
+  const key = s => s.join(',');
+  const find = block => block.map(b => body.find(i => key(shown[i]) === key(b)));
+  const is = block => body.length === block.length && find(block).every(i => i !== undefined);
+  let ordered;
+  if (n === 4 && tail.length === 1 && is(OFFICIAL4)) ordered = find(OFFICIAL4);
+  else if (n === 5 && tail.length === 0 && is(GN71)) ordered = find(GN71);
+  else ordered = body.slice().sort((a, b) => cmpSets(shown[a], shown[b]));
+  return ordered.concat(tail);
+}
+
+function cmpSets(a, b) {
+  if (a.length !== b.length) return a.length - b.length;
+  for (let i = 0; i < a.length; i++) if (a[i] !== b[i]) return a[i] - b[i];
+  return 0;
+}
+
+function optLabel(o, lang) {
+  if (o === 'all') return lang === 'en' ? 'All of the above' : '以上皆是';
+  if (o === 'none') return lang === 'en' ? 'None of the above' : '以上皆非';
+  if (lang === 'en') return o.length === 1 ? `${o[0]} only` : o.slice(0, -1).join(', ') + ' and ' + o[o.length - 1];
+  return o.length === 1 ? `只有 ${o[0]}` : o.slice(0, -1).join('、') + ' 及 ' + o[o.length - 1];
+}
+
+/* the kinds of defect a false statement carries (bank/FORMAT.md) */
+const TRAPS = {
+  offlist: ['Not on the list', '清單以外'],
+  added: ['A word added', '多了字眼'],
+  scope: ['Scope changed', '範圍改了'],
+  reversed: ['Rule reversed', '原則顛倒'],
+  qualifier: ['Qualifier dropped', '漏了限定語'],
+  number: ['Wrong number', '數字有誤'],
+  period: ['Wrong time limit', '期限有誤'],
+  actor: ['Wrong person or body', '主體有誤'],
+  modal: ['Strength changed', '語氣強弱改了'],
+  name: ['Wrong name', '名稱有誤'],
+  condition: ['Wrong case', '情況錯配'],
+};
 
 function shuffle(a) {
   for (let i = a.length - 1; i > 0; i--) {
@@ -130,35 +185,53 @@ function ui(en, tc) {
   return en + ' · ' + tc;
 }
 
-/* bilingual content block (stem / explanation) */
-function contentHTML(obj, field) {
-  const en = esc(obj.en[field]), tc = esc(obj.tc[field]);
-  if (S.lang === 'en') return `<div>${en}</div>`;
-  if (S.lang === 'tc') return `<div>${tc}</div>`;
-  return `<div>${en}</div><div class="tcline">${tc}</div>`;
+/* bilingual content block (stem / explanation / note) */
+function contentPair(en, tc) {
+  en = esc(en); tc = esc(tc);
+  if (S.lang === 'en') return en ? `<div>${en}</div>` : '';
+  if (S.lang === 'tc') return tc ? `<div>${tc}</div>` : '';
+  return en || tc ? `<div>${en}</div><div class="tcline">${tc}</div>` : '';
 }
+const contentHTML = (obj, field) => contentPair(obj.en[field], obj.tc[field]);
 
-function optionHTML(q, origIdx) {
-  const en = esc(q.en.options[origIdx]), tc = esc(q.tc.options[origIdx]);
+/* an option as shown: a set of statement numbers, or All / None of the above */
+function optionHTML(o) {
+  const en = esc(optLabel(o, 'en')), tc = esc(optLabel(o, 'tc'));
   if (S.lang === 'en') return en;
   if (S.lang === 'tc') return tc;
   return `${en}<span class="tcline">${tc}</span>`;
 }
 
-/* the numbered statements a combination item's options refer to */
-function statementsHTML(q) {
-  if (!isCombo(q)) return '';
-  const rows = q.en.statements.map((en, i) => {
-    const e = esc(en), t = esc(q.tc.statements[i]);
+/* The numbered statements, in the order drawn. Once a question is answered
+   (`reveal`) each is marked correct or not, with the kind of trap a false one
+   sets and the note saying why, in the source's words. */
+function statementsHTML(q, perm, reveal = false) {
+  const rows = perm.map(i => {
+    const e = esc(q.en.statements[i]), t = esc(q.tc.statements[i]);
     const body = S.lang === 'en' ? e : S.lang === 'tc' ? t : `${e}<span class="tcline">${t}</span>`;
-    return `<li>${body}</li>`;
+    if (!reveal) return `<li>${body}</li>`;
+    const ok = q.truth[i];
+    const trap = !ok && q.traps && TRAPS[q.traps[i]];
+    const note = q.en.notes ? contentPair(q.en.notes[i], q.tc.notes[i]) : '';
+    return `<li class="${ok ? 'st-true' : 'st-false'}">${body}
+      <div class="st-verdict">${ok ? icon('check') + ' ' + ui('Correct', '正確') : icon('x') + ' ' + ui('Incorrect', '不正確')}${
+        trap ? `<span class="trap">· ${ui('Trap', '陷阱')}: ${ui(trap[0], trap[1])}</span>` : ''}</div>
+      ${note ? `<div class="st-note">${note}</div>` : ''}</li>`;
   }).join('');
   return `<ol class="stmts">${rows}</ol>`;
 }
 
-/* the stem, plus the statement list where the question has one */
-function stemHTML(q) {
-  return `<div class="stem">${contentHTML(q, 'q')}</div>${statementsHTML(q)}`;
+function stemHTML(q, perm, reveal = false) {
+  return `<div class="stem">${contentHTML(q, 'q')}</div>${statementsHTML(q, perm, reveal)}`;
+}
+
+/* the five options of a drawn question; `cls(orig)` styles each one */
+function optsHTML(arr, cls = () => '', disabled = false) {
+  return arr.order.map((orig, di) => `
+    <button class="opt ${cls(orig)}" data-orig="${orig}" ${disabled ? 'disabled' : ''}>
+      <span class="letter">${LETTERS[di]}</span>
+      <span class="otext">${optionHTML(arr.shown[orig])}</span>
+    </button>`).join('');
 }
 
 function sourceHTML(q) {
@@ -228,10 +301,12 @@ function render() {
   if (S.view === 'exam') app.innerHTML = examView();
   else if (S.view === 'results') app.innerHTML = resultsView();
   else if (S.view === 'practice') app.innerHTML = practiceView();
+  else if (S.view === 'drill') app.innerHTML = drillView();
   else app.innerHTML = homeView();
   bindCommon();
   if (S.view === 'exam') { bindExam(); startTimer(); }
   else if (S.view === 'practice') bindPractice();
+  else if (S.view === 'drill') bindDrill();
   else if (S.view === 'results') bindResults();
   else bindHome();
 }
@@ -299,20 +374,11 @@ function homeView() {
     <div class="card">
       <h2>${ui('Mock exam', '模擬試')}</h2>
       <div class="sub">${ui(
-        `35 questions (7 modules × 5), ${minutes === CFG.minutes ? '75 minutes' : minutes + ' minutes (custom)'}, drawn at random from a bank of ${bank.length}.`,
-        `35題（7個單元 × 每單元5題），限時${minutes === CFG.minutes ? '75' : minutes}分鐘，從${bank.length}題題庫隨機抽出。`)}</div>
+        `35 questions (7 modules × 5), ${minutes === CFG.minutes ? '75 minutes' : minutes + ' minutes (custom)'}, drawn at random from a bank of ${bank.length}. Every question has the real paper's shape: numbered statements, and five options naming which of them are correct. The statements are reordered each time a question is drawn.`,
+        `35題（7個單元 × 每單元5題），限時${minutes === CFG.minutes ? '75' : minutes}分鐘，從${bank.length}題題庫隨機抽出。全部採用真實試卷的格式：題目列出編號陳述，五個選項列出哪幾項正確。每次抽題，陳述的次序都會重新排列。`)}</div>
       <div class="rulebox">${ui(
         '<b>Pass rules (both required):</b> at most 2 wrong in <b>each</b> module, and a total of <b>25/35</b> or above. 32/35 still fails if one module has 3 mistakes.',
         '<b>及格準則（兩項須同時符合）：</b>每個單元錯題不多於2題，及全卷總分達<b>25/35</b>。即使總分32/35，只要任何一個單元錯3題即全卷不及格。')}</div>
-      ${(() => {
-        const c = comboCounts();
-        if (!c.ok) return '';
-        const papers = Math.floor(c.min / CFG.perModule);
-        return `<label class="optrow"><input type="checkbox" id="cb-combo" ${examCombo ? 'checked' : ''}>
-          <span>${ui(
-            `<b>Exam-realistic paper.</b> Draw all 35 from the combination questions — the format of every sample C&amp;ED has published. ${papers} papers before any question repeats.`,
-            `<b>試場模式。</b>35題全部抽自組合題，即海關已公布的所有參考試題所用的格式。可組成${papers}份不重複的試卷。`)}</span></label>`;
-      })()}
       <div class="actions">
         <button class="btn" id="btn-start" ${bank.length ? '' : 'disabled'}>${ui('Start mock exam', '開始模擬試')}</button>
       </div>
@@ -327,7 +393,8 @@ function homeView() {
     ${examCard}
     <div class="card">
       <h2>${ui('Practice by module', '按單元練習')}</h2>
-      <div class="sub">${ui('Untimed. Instant feedback and explanation after every answer.', '不設時限，每題作答後即時顯示對錯及解釋。')}</div>
+      <div class="sub">${ui('Untimed. After each answer every statement is marked correct or not, with the trap a false one sets and its source.',
+        '不設時限。每題作答後，逐句顯示正確與否、錯誤陳述所設的陷阱及出處。')}</div>
       <div class="chips" id="pmods">${chips}
         <button class="chip" id="pm-all">${ui('All', '全選')}</button>
       </div>
@@ -335,6 +402,7 @@ function homeView() {
         <button class="btn secondary" id="btn-practice" ${bank.length ? '' : 'disabled'}>${ui('Start practice', '開始練習')}</button>
       </div>
     </div>
+    ${drillCardHTML()}
     ${attempts.length ? progressCardHTML(attempts) : ''}
     <div class="card">
       <h2>${ui('History', '過往紀錄')}</h2>
@@ -386,8 +454,6 @@ function historyHTML(attempts) {
 
 function bindHome() {
   homeNotice = null;
-  const cb = $('#cb-combo');
-  if (cb) cb.onchange = () => { examCombo = cb.checked; store.set('examcombo', examCombo); };
   const start = $('#btn-start');
   if (start) start.onclick = () => startExam();
   const resume = $('#btn-resume');
@@ -408,6 +474,10 @@ function bindHome() {
   };
   const prac = $('#btn-practice');
   if (prac) prac.onclick = () => startPractice();
+  const dr = $('#btn-drill');
+  if (dr) dr.onclick = () => startDrill(false);
+  const drw = $('#btn-drill-weak');
+  if (drw) drw.onclick = () => startDrill(true);
   document.querySelectorAll('#pmods .chip[data-pm]').forEach(c => {
     c.onclick = () => {
       const n = +c.dataset.pm;
@@ -496,28 +566,18 @@ function langView() {
 
 /* ---------------- exam ---------------- */
 
-/* how many combination questions each module holds, and whether an all-combination
-   paper is possible at all */
-function comboCounts() {
-  const per = MODULES.map(m => (byMod.get(m.n) || []).filter(isCombo).length);
-  return { per, min: Math.min(...per), ok: Math.min(...per) >= CFG.perModule };
-}
-
 function startExam() {
   const minutes = customMinutes || CFG.minutes;
-  const combo = examCombo && comboCounts().ok;
-  const qids = [], optOrder = {};
+  const qids = [], perm = {};
   for (const m of MODULES) {
-    let all = byMod.get(m.n) || [];
-    if (combo) all = all.filter(isCombo);
-    const pool = shuffle([...all]);
+    const pool = shuffle([...(byMod.get(m.n) || [])]);
     for (const q of pool.slice(0, CFG.perModule)) {
       qids.push(q.id);
-      optOrder[q.id] = drawOrder(q);
+      perm[q.id] = drawPerm(q);
     }
   }
   exam = {
-    qids, optOrder, answers: {}, flags: [],
+    qids, perm, answers: {}, flags: [],
     cur: 0, minutes,
     startedAt: Date.now(), endsAt: Date.now() + minutes * 60000,
   };
@@ -549,25 +609,24 @@ function loadExam() {
   if (!keep.length) { store.del(examKey()); return null; }
   const at = keep.indexOf(e.qids[e.cur]);
   e.cur = at >= 0 ? at : Math.min(e.cur, keep.length - 1);
-  for (const id of e.qids) if (!byId.has(id)) { delete e.answers[id]; delete e.optOrder[id]; }
+  for (const id of e.qids) if (!byId.has(id)) { delete e.answers[id]; if (e.perm) delete e.perm[id]; }
   e.flags = (e.flags || []).filter(id => byId.has(id));
   e.qids = keep;
   store.set(examKey(), e);
   return e;
 }
 
+/* the drawn arrangement of an exam question (a paper saved before arrangements
+   were stored has none, and is shown in the stored order) */
+const examArr = qid => arrange(byId.get(qid), permFor(byId.get(qid), exam.perm && exam.perm[qid]));
+
 function examView() {
   const q = byId.get(exam.qids[exam.cur]);
   const answered = Object.keys(exam.answers).length;
   const flagged = exam.flags.includes(q.id);
-  const order = orderFor(q, exam.optOrder[q.id]);
+  const arr = examArr(q.id);
   const chosen = exam.answers[q.id];
-
-  const opts = order.map((orig, di) => `
-    <button class="opt ${chosen === orig ? 'sel' : ''}" data-orig="${orig}">
-      <span class="letter">${letters(q)[di]}</span>
-      <span class="otext">${optionHTML(q, orig)}</span>
-    </button>`).join('');
+  const opts = optsHTML(arr, orig => chosen === orig ? 'sel' : '');
 
   const n = exam.qids.length;
   const buttons = `
@@ -590,7 +649,7 @@ function examView() {
             <span class="qmod">M${q.module} · ${esc(modName(q.module))}</span>
             <button class="qflag ${flagged ? 'on' : ''}" id="btn-flag">${icon('flag')} ${flagged ? ui('Flagged', '已標記') : ui('Flag', '標記')}</button>
           </div>
-          ${stemHTML(q)}
+          ${stemHTML(q, arr.perm)}
           <div class="opts" id="opts">${opts}</div>
           <div class="qnav-row">
             <button class="btn secondary" id="btn-prev" ${exam.cur === 0 ? 'disabled' : ''}>${ui('Previous', '上一題')}</button>
@@ -624,17 +683,15 @@ function examView() {
   </div>`;
 }
 
-/* the answer sheet in the rail, drawn like the machine-read sheet: one row per question, bubbles A–D */
+/* the answer sheet in the rail, drawn like the machine-read sheet: one row per question, bubbles A–E */
 function omrSheetHTML() {
   const groups = MODULES.map(m => {
     const rows = exam.qids.map((qid, i) => ({ qid, i, q: byId.get(qid) }))
       .filter(x => x.q.module === m.n)
       .map(x => {
         const chosen = exam.answers[x.qid];
-        const L = letters(x.q);
-        const bubbles = orderFor(x.q, exam.optOrder[x.qid]).map((orig, di) =>
-          `<button class="bub ${chosen === orig ? 'on' : ''}" data-mark="${x.i}:${di}" title="Q${x.i + 1} ${L[di]}">${L[di]}</button>`).join('')
-          + '<span class="bub-gap"></span>'.repeat(5 - L.length);
+        const bubbles = examArr(x.qid).order.map((orig, di) =>
+          `<button class="bub ${chosen === orig ? 'on' : ''}" data-mark="${x.i}:${di}" title="Q${x.i + 1} ${LETTERS[di]}">${LETTERS[di]}</button>`).join('');
         const fl = `<span class="fl">${exam.flags.includes(x.qid) ? icon('flag') : ''}</span>`;   // slot always present
         return `<div class="omr-row ${x.i === exam.cur ? 'current' : ''}">
           <button class="omr-num" data-goto="${x.i}">${x.i + 1}</button>${bubbles}${fl}</div>`;
@@ -679,10 +736,9 @@ function bindExam() {
     b.onclick = () => {                       // mark the sheet directly
       const [i, di] = b.dataset.mark.split(':').map(Number);
       const qid = exam.qids[i];
-      // the bubbles were drawn through orderFor, so read the answer back the
-      // same way — a stored order of the wrong length would otherwise map the
-      // click to a different option than the one the candidate marked
-      const orig = orderFor(byId.get(qid), exam.optOrder[qid])[di];
+      // the bubbles were drawn through the question's arrangement, so read the
+      // answer back the same way
+      const orig = examArr(qid).order[di];
       if (exam.answers[qid] === orig) delete exam.answers[qid];
       else exam.answers[qid] = orig;
       saveExam();
@@ -718,8 +774,7 @@ function examKeys(e) {
   else if (k.length === 1 && ('abcde'.includes(k) || '12345'.includes(k))) {
     const di = 'abcde'.includes(k) ? 'abcde'.indexOf(k) : '12345'.indexOf(k);
     const q = byId.get(exam.qids[exam.cur]);
-    if (di >= optCount(q)) return;   // E / 5 only exist on a combination question
-    const orig = orderFor(q, exam.optOrder[q.id])[di];
+    const orig = examArr(q.id).order[di];
     if (exam.answers[q.id] === orig) delete exam.answers[q.id];
     else exam.answers[q.id] = orig;
     saveExam();
@@ -748,7 +803,7 @@ function finishExam(auto) {
     ts: Date.now(),
     minutes: exam.minutes,
     usedMs: Math.min(Date.now() - exam.startedAt, exam.minutes * 60000),
-    qids: exam.qids, optOrder: exam.optOrder, answers: exam.answers,
+    qids: exam.qids, perm: exam.perm, answers: exam.answers,
     score: g.score, moduleWrong: g.moduleWrong, pass: g.pass, auto: !!auto,
   };
   const attempts = store.get(attemptsKey(), []);
@@ -901,18 +956,13 @@ function removedItemHTML(qid, i) {
   </div>`;
 }
 
+/* the class that marks an answered option: the key green, a wrong pick red */
+const markCls = (q, chosen) => orig => orig === q.answer ? 'correct' : orig === chosen ? 'wrong' : 'dim';
+
 function reviewItemHTML(q, i, a) {
   const chosen = a.answers[q.id];
-  const order = orderFor(q, a.optOrder && a.optOrder[q.id]);
-  const opts = order.map((orig, di) => {
-    let cls = 'dim';
-    if (orig === q.answer) cls = 'correct';
-    else if (orig === chosen) cls = 'wrong';
-    return `<button class="opt ${cls}" disabled>
-      <span class="letter">${letters(q)[di]}</span>
-      <span class="otext">${optionHTML(q, orig)}</span>
-    </button>`;
-  }).join('');
+  const arr = arrange(q, permFor(q, a.perm && a.perm[q.id]));
+  const opts = optsHTML(arr, markCls(q, chosen), true);
   const state = chosen === undefined
     ? `<span class="verdict bad">${icon('x')} ${ui('Not answered', '未作答')}</span>`
     : chosen === q.answer
@@ -924,7 +974,7 @@ function reviewItemHTML(q, i, a) {
       <span class="qnum">${i + 1}.</span>
       <span class="qmod">M${q.module} · ${esc(modName(q.module))}</span>
     </div>
-    ${stemHTML(q)}
+    ${stemHTML(q, arr.perm, true)}
     <div class="opts">${opts}</div>
     <div class="explain">
       <div class="verdict">${state}</div>
@@ -970,17 +1020,20 @@ function fmtDateFull(ts) {
   return `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())} ${pad2(d.getHours())}:${pad2(d.getMinutes())}`;
 }
 
-/* plain-text (no HTML) question text in the current language mode, for the file */
+/* plain-text (no HTML) question text in the current language mode, for the file;
+   the statements in their stored order, which is how the options are numbered */
 function qStem(q) {
   const stem = S.lang === 'en' ? q.en.q : S.lang === 'tc' ? q.tc.q : q.en.q + ' ｜ ' + q.tc.q;
-  if (!isCombo(q)) return stem;
   const list = q.en.statements.map((en, i) => {
     const t = q.tc.statements[i];
     return `(${i + 1}) ` + (S.lang === 'en' ? en : S.lang === 'tc' ? t : en + ' ｜ ' + t);
   }).join('  ');
   return stem + '  ' + list;
 }
-function optText(q, i) { return S.lang === 'en' ? q.en.options[i] : S.lang === 'tc' ? q.tc.options[i] : q.en.options[i] + ' ｜ ' + q.tc.options[i]; }
+function optText(q, i) {
+  const o = q.options[i];
+  return S.lang === 'en' ? optLabel(o, 'en') : S.lang === 'tc' ? optLabel(o, 'tc') : optLabel(o, 'en') + ' ｜ ' + optLabel(o, 'tc');
+}
 
 /* aggregate all attempts: accuracy per module, and questions most often missed */
 function stats(attempts) {
@@ -1077,13 +1130,9 @@ function importHistoryText(text) {
 
 /* a question with its correct answer and explanation (no attempt context) */
 function explainCardHTML(q) {
-  const opts = identity(q).map((orig, di) => `
-    <button class="opt ${orig === q.answer ? 'correct' : 'dim'}" disabled>
-      <span class="letter">${letters(q)[di]}</span>
-      <span class="otext">${optionHTML(q, orig)}</span>
-    </button>`).join('');
-  return `${stemHTML(q)}
-    <div class="opts">${opts}</div>
+  const arr = arrange(q, identityPerm(q));
+  return `${stemHTML(q, arr.perm, true)}
+    <div class="opts">${optsHTML(arr, orig => orig === q.answer ? 'correct' : 'dim', true)}</div>
     <div class="explain">${contentHTML(q, 'explain')}${sourceHTML(q)}</div>`;
 }
 
@@ -1147,10 +1196,11 @@ function progressCardHTML(attempts) {
 /* ---------------- practice ---------------- */
 
 function startPractice(customPool = null) {
-  const pool = customPool ? customPool.slice() : shuffle(bank.filter(q => pmodSel.has(q.module)).map(q => q.id));
+  const pool = customPool ? customPool.slice() : shuffle(bank.filter(inPractice).map(q => q.id));
+  if (!pool.length) { toast(ui('No questions in the chosen modules', '所選單元沒有題目')); return; }
   practice = {
     pool, idx: 0,
-    order: null, chosen: null,
+    perm: null, chosen: null,
     tally: { seen: 0, right: 0 },
   };
   nextPracticeQ(false);
@@ -1166,25 +1216,15 @@ function nextPracticeQ(advance = true) {
     toast(ui(`All ${practice.pool.length} questions seen once — starting another round`,
       `已完成全部 ${practice.pool.length} 題，重新開始一輪`));
   }
-  practice.order = drawOrder(byId.get(practice.pool[practice.idx]));
+  practice.perm = drawPerm(byId.get(practice.pool[practice.idx]));
   practice.chosen = null;
 }
 
 function practiceView() {
   const q = byId.get(practice.pool[practice.idx]);
   const done = practice.chosen !== null;
-  const opts = practice.order.map((orig, di) => {
-    let cls = '';
-    if (done) {
-      if (orig === q.answer) cls = 'correct';
-      else if (orig === practice.chosen) cls = 'wrong';
-      else cls = 'dim';
-    }
-    return `<button class="opt ${cls}" data-orig="${orig}" ${done ? 'disabled' : ''}>
-      <span class="letter">${letters(q)[di]}</span>
-      <span class="otext">${optionHTML(q, orig)}</span>
-    </button>`;
-  }).join('');
+  const arr = arrange(q, practice.perm);
+  const opts = optsHTML(arr, done ? markCls(q, practice.chosen) : () => '', done);
 
   const t = practice.tally;
   return topbarHTML() + `
@@ -1195,7 +1235,7 @@ function practiceView() {
         <span class="qmod">M${q.module} · ${esc(modName(q.module))}</span>
         <span class="tally" style="margin-left:auto">${ui('This session', '本節')}: <b>${t.right}</b>/${t.seen}</span>
       </div>
-      ${stemHTML(q)}
+      ${stemHTML(q, arr.perm, done)}
       <div class="opts" id="opts">${opts}</div>
       ${done ? `
       <div class="explain">
@@ -1238,6 +1278,152 @@ function bindPractice() {
     } else if (practice.chosen !== null && (k === 'arrowright' || (k === 'enter' && e.target.tagName !== 'BUTTON'))) {
       nextPracticeQ(); render(); window.scrollTo(0, 0);
     }
+  };
+}
+
+/* ---------------- statement drill ---------------- */
+
+/* One statement at a time: is it correct? A question is lost on a single
+   misjudged statement, so this drills the judgement the paper turns on. Each
+   statement's record is kept as [seen, wrong, right-in-a-row]; a statement once
+   misjudged stays on the weak list until it is judged right twice running. */
+const stmtKey = (qid, i) => qid + '#' + i;
+const isWeak = r => Array.isArray(r) && r[1] > 0 && r[2] < 2;
+
+function weakStatements() {
+  const recs = store.get('stmts', {});
+  const out = [];
+  for (const q of bank) {
+    if (!inPractice(q)) continue;
+    q.truth.forEach((_, i) => { if (isWeak(recs[stmtKey(q.id, i)])) out.push([q.id, i]); });
+  }
+  return out;
+}
+
+function drillCardHTML() {
+  const n = bank.reduce((s, q) => s + (inPractice(q) ? q.truth.length : 0), 0);
+  const weak = weakStatements().length;
+  return `<div class="card">
+    <h2>${ui('Statement drill', '逐句判斷')}</h2>
+    <div class="sub">${ui(
+      `One statement at a time: is it correct? A question is lost on a single misjudged statement, so this drills exactly that judgement. ${n} statements in the modules chosen above.`,
+      `每次一句：這句陳述正確嗎？組合題只要判斷錯一句就會失分，這裏專練這個判斷。以上所選單元共有${n}句陳述。`)}</div>
+    <div class="actions">
+      <button class="btn secondary" id="btn-drill" ${n ? '' : 'disabled'}>${ui('Start drill', '開始逐句判斷')}</button>
+      ${weak ? `<button class="btn secondary" id="btn-drill-weak">${ui(`Drill my ${weak} weak statement${weak === 1 ? '' : 's'}`, `重練判斷錯的${weak}句`)}</button>
+      <span class="note">${ui('A statement leaves this list once you judge it right twice running.', '連續兩次判斷正確，該句便會移出此清單。')}</span>` : ''}
+    </div>
+  </div>`;
+}
+
+function startDrill(weakOnly) {
+  const pool = weakOnly ? weakStatements()
+    : bank.filter(inPractice).flatMap(q => q.truth.map((_, i) => [q.id, i]));
+  if (!pool.length) return;
+  drill = { pool: shuffle(pool), idx: 0, chosen: null, tally: { seen: 0, right: 0 }, weakOnly };
+  S.view = 'drill'; render();
+  window.scrollTo(0, 0);
+}
+
+function judge(val) {
+  const [qid, i] = drill.pool[drill.idx];
+  const ok = val === byId.get(qid).truth[i];
+  drill.chosen = val;
+  drill.tally.seen++;
+  if (ok) drill.tally.right++;
+  const recs = store.get('stmts', {});
+  const r = Array.isArray(recs[stmtKey(qid, i)]) ? recs[stmtKey(qid, i)] : [0, 0, 0];
+  recs[stmtKey(qid, i)] = [r[0] + 1, r[1] + (ok ? 0 : 1), ok ? r[2] + 1 : 0];
+  store.set('stmts', recs);
+  render();
+}
+
+function nextDrill() {
+  drill.idx++;
+  drill.chosen = null;
+  if (drill.idx >= drill.pool.length) {
+    if (drill.weakOnly) {   // start again from whatever is still weak
+      const pool = weakStatements();
+      if (!pool.length) {
+        toast(ui('No weak statements left', '已沒有判斷錯的陳述'));
+        drill = null; S.view = 'home'; render();
+        return;
+      }
+      drill.pool = shuffle(pool);
+    } else {
+      shuffle(drill.pool);
+      toast(ui(`All ${drill.pool.length} statements seen once — starting another round`,
+        `已完成全部 ${drill.pool.length} 句，重新開始一輪`));
+    }
+    drill.idx = 0;
+  }
+  render();
+  window.scrollTo(0, 0);
+}
+
+function drillView() {
+  const [qid, i] = drill.pool[drill.idx];
+  const q = byId.get(qid);
+  const done = drill.chosen !== null;
+  const truth = q.truth[i];
+  const btn = (val, key, en, tc) => {
+    const cls = !done ? '' : val === truth ? 'correct' : val === drill.chosen ? 'wrong' : 'dim';
+    return `<button class="opt ${cls}" data-tf="${val}" ${done ? 'disabled' : ''}>
+      <span class="letter">${key}</span><span class="otext">${ui(en, tc)}</span></button>`;
+  };
+  const trap = !truth && q.traps && TRAPS[q.traps[i]];
+  const note = q.en.notes ? contentPair(q.en.notes[i], q.tc.notes[i]) : '';
+  // an item without notes explains itself in one paragraph that names statements by number
+  const why = note || (contentHTML(q, 'explain') ? `<div class="note">${ui(`This is statement ${i + 1} of its question.`, `這是原題第 ${i + 1} 句。`)}</div>${contentHTML(q, 'explain')}` : '');
+  const t = drill.tally;
+  return topbarHTML() + `
+  <div class="wrap">
+    <div class="qcard">
+      <div class="qmeta">
+        <span class="qnum">${ui('Statement drill', '逐句判斷')}</span>
+        <span class="qmod">M${q.module} · ${esc(modName(q.module))}</span>
+        <span class="tally" style="margin-left:auto">${ui('This session', '本節')}: <b>${t.right}</b>/${t.seen}</span>
+      </div>
+      <div class="drill-stem">${contentHTML(q, 'q')}</div>
+      <div class="drill-stmt">${contentPair(q.en.statements[i], q.tc.statements[i])}</div>
+      <div class="opts tf" id="tf">
+        ${btn(true, 'T', 'Correct', '正確')}
+        ${btn(false, 'F', 'Incorrect', '不正確')}
+      </div>
+      ${done ? `
+      <div class="explain">
+        <div class="verdict ${drill.chosen === truth ? 'good' : 'bad'}">
+          ${drill.chosen === truth ? icon('check') + ' ' + ui('Right', '判斷正確') : icon('x') + ' ' + ui('Wrong', '判斷錯誤')}
+          · ${truth ? ui('the statement is correct', '這句陳述正確') : ui('the statement is incorrect', '這句陳述不正確')}${
+            trap ? ` · ${ui('Trap', '陷阱')}: ${ui(trap[0], trap[1])}` : ''}</div>
+        ${why}
+        ${sourceHTML(q)}
+      </div>
+      <div class="qnav-row">
+        <div class="grow"></div>
+        <button class="btn" id="btn-dnext">${ui('Next statement', '下一句')}</button>
+      </div>` : ''}
+    </div>
+    <div class="actions">
+      <button class="btn secondary" id="btn-dend">${ui('End drill', '結束練習')}</button>
+    </div>
+    <div class="footer kbd">${ui('Keyboard: T or 1 correct · F or 2 incorrect · Enter next', '鍵盤：T 或 1 正確 · F 或 2 不正確 · Enter 下一句')}</div>
+  </div>`;
+}
+
+function bindDrill() {
+  document.querySelectorAll('#tf .opt:not([disabled])').forEach(b => {
+    b.onclick = () => judge(b.dataset.tf === 'true');
+  });
+  const nx = $('#btn-dnext');
+  if (nx) nx.onclick = nextDrill;
+  $('#btn-dend').onclick = () => { drill = null; S.view = 'home'; render(); };
+  document.onkeydown = e => {
+    if (S.view !== 'drill' || $('.modal-back') || e.ctrlKey || e.metaKey || e.altKey) return;
+    const k = e.key.toLowerCase();
+    if (drill.chosen === null && (k === 't' || k === '1')) judge(true);
+    else if (drill.chosen === null && (k === 'f' || k === '2')) judge(false);
+    else if (drill.chosen !== null && (k === 'arrowright' || (k === 'enter' && e.target.tagName !== 'BUTTON'))) nextDrill();
   };
 }
 
@@ -1286,7 +1472,8 @@ async function boot() {
   S.lang = store.get('lang', null);
   S.theme = ['auto', 'light', 'dark'].includes(store.get('theme', 'auto')) ? store.get('theme', 'auto') : 'auto';
   applyTheme();
-  examCombo = store.get('examcombo', false) === true;
+  store.del('examcombo');   // the exam-realistic switch is gone: every paper is in the real format
+  store.del('newonly');     // every item now has per-statement notes
   const savedSel = store.get('pmods', null);
   if (Array.isArray(savedSel) && savedSel.length) pmodSel = new Set(savedSel.filter(n => n >= 1 && n <= 7));
 

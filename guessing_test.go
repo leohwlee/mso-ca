@@ -2,6 +2,7 @@ package main
 
 import (
 	"math"
+	"math/bits"
 	"math/rand/v2"
 	"regexp"
 	"strconv"
@@ -13,10 +14,10 @@ import (
 
 // The checks in this file look at the bank the way a test-wise candidate does:
 // without the source, and often without the question, for any surface feature
-// that points at the key. The length, absolutes and punctuation guards in
-// questions_test.go each close one such feature; these add two more that the
-// item-writing literature names, and then let a model learn from the bank
-// itself whatever combination of features still points at the key.
+// that points at the key. The length, absolute and negation guards in
+// questions_test.go each close one such feature; these look at the structure of
+// the option sets, and then let a model learn from the bank itself whatever
+// combination of features still points at the key.
 
 var overlapStop = map[string]bool{}
 
@@ -55,119 +56,125 @@ func overlapTokens(s, lang string) map[string]bool {
 	return out
 }
 
-// uniqueMax is the index of the largest value, or -1 when it is tied.
-func uniqueMax(vals []float64) int {
-	best, at := math.Inf(-1), -1
-	for i, v := range vals {
-		switch {
-		case v > best:
-			best, at = v, i
-		case v == best:
-			at = -1
-		}
+// claimsMask is what each of an item's options says is true, as bit masks.
+func claimsMask(q question) []uint {
+	out := make([]uint, len(q.Options))
+	for i, o := range q.Options {
+		out[i] = o.claims(q.n())
 	}
-	return at
+	return out
 }
 
-// keyMaxShare runs one "the key is the option with the most X" test over the
-// four-option items: bank-wide the share may not exceed chance by more than
-// two standard errors, and within a module by more than three (the bank
-// deliberately has seven modules, so seven looser checks rather than a tight one).
-func keyMaxShare(t *testing.T, name string, score func(q question, lang string) []float64) {
+// pickShare is the chance that a strategy scoring the options this way picks
+// the key: 1 split among the options tied for the highest score.
+func pickShare(scores []float64, key int) float64 {
+	best := math.Inf(-1)
+	for _, s := range scores {
+		best = math.Max(best, s)
+	}
+	tied, hit := 0, false
+	for i, s := range scores {
+		if s == best {
+			tied++
+			hit = hit || i == key
+		}
+	}
+	if !hit {
+		return 0
+	}
+	return 1 / float64(tied)
+}
+
+// structure scores an item's options by features of the option set alone:
+// how popular an option's statements are across the options, how much it shares
+// with the others, and its size. These are the readings of an option set that
+// test-wise candidates are taught; bank/combo.py builds the sets so that none of
+// them singles out the key.
+func structure(q question) map[string][]float64 {
+	n := q.n()
+	m := claimsMask(q)
+	freq := make([]float64, n)
+	for i, o := range q.Options {
+		if o.Token == "" {
+			for b := 0; b < n; b++ {
+				if m[i]&(1<<b) != 0 {
+					freq[b]++
+				}
+			}
+		}
+	}
+	out := map[string][]float64{"popular": {}, "convergent": {}, "largest": {}, "smallest": {}, "modal size": {}, "last": {}}
+	sizes := map[int]int{}
+	for _, o := range q.Options {
+		if o.Token == "" {
+			sizes[len(o.Set)]++
+		}
+	}
+	modal, top := 0, 0
+	for s, c := range sizes {
+		if c > top || (c == top && s > modal) {
+			modal, top = s, c
+		}
+	}
+	for i, o := range q.Options {
+		pop, size := -1.0, float64(bits.OnesCount(m[i]))
+		if o.Token == "" {
+			pop = 0
+			for b := 0; b < n; b++ {
+				if m[i]&(1<<b) != 0 {
+					pop += freq[b]
+				}
+			}
+			pop /= size
+		}
+		conv := 0.0
+		for j := range q.Options {
+			if j != i {
+				if u := bits.OnesCount(m[i] | m[j]); u > 0 {
+					conv += float64(bits.OnesCount(m[i]&m[j])) / float64(u)
+				}
+			}
+		}
+		isSet := o.Token == ""
+		out["popular"] = append(out["popular"], pop)
+		out["convergent"] = append(out["convergent"], conv)
+		out["largest"] = append(out["largest"], map[bool]float64{true: size, false: -1}[isSet])
+		out["smallest"] = append(out["smallest"], map[bool]float64{true: -size, false: -99}[isSet])
+		out["modal size"] = append(out["modal size"], boolf(isSet && len(o.Set) == modal))
+		out["last"] = append(out["last"], boolf(i == len(q.Options)-1))
+	}
+	return out
+}
+
+// TestNoStructureTell: a strategy that reads only the shape of the option set
+// may not find the key more often than chance (one in five) by more than two
+// standard errors, bank-wide. "last" is always picking e), All of the above,
+// which is right exactly as often as every statement is true.
+func TestNoStructureTell(t *testing.T) {
 	bank := loadBank(t)
-	for _, lang := range []string{"en", "tc"} {
-		hits, n := 0, 0
-		perHits, perN := map[int]int{}, map[int]int{}
-		for _, q := range bank {
-			if q.combo() {
-				continue
-			}
-			n++
-			perN[q.Module]++
-			if uniqueMax(score(q, lang)) == q.Answer {
-				hits++
-				perHits[q.Module]++
-			}
+	hits := map[string]float64{}
+	for _, q := range bank {
+		if len(q.Options) != 5 {
+			continue
 		}
-		check := func(where string, h, n int, k float64) {
-			p := 0.25
-			limit := p + k*math.Sqrt(p*(1-p)/float64(n))
-			if share := float64(h) / float64(n); share > limit {
-				t.Errorf("%s%s: the key is the option with the most %s in %d of %d items (%.1f%%), above the %.1f%% limit (chance 25%%)",
-					lang, where, name, h, n, share*100, limit*100)
-			}
+		for name, scores := range structure(q) {
+			hits[name] += pickShare(scores, q.Answer)
 		}
-		check("", hits, n, 2)
-		for m := 1; m <= 7; m++ {
-			if perN[m] >= 40 {
-				check(" module "+strconv.Itoa(m), perHits[m], perN[m], 3)
-			}
-		}
-		t.Logf("%s: key has the most %s in %.1f%% of %d four-option items", lang, name, 100*float64(hits)/float64(n), n)
 	}
-}
-
-func optionTexts(q question, lang string) []string {
-	if lang == "tc" {
-		return q.Tc.Options
+	n := float64(len(bank))
+	limit := 0.2 + 2*math.Sqrt(0.2*0.8/n)
+	for name, h := range hits {
+		share := h / n
+		t.Logf("picking the %s option finds the key in %.1f%% of items", name, share*100)
+		lim := limit
+		if name == "last" {
+			lim = 0.30 // the all-true share, which TestTruthCounts bounds for new items
+		}
+		if share > lim {
+			t.Errorf("picking the %s option finds the key in %.1f%% of %d items, above %.1f%% (chance 20%%)",
+				name, share*100, len(bank), lim*100)
+		}
 	}
-	return q.En.Options
-}
-
-// TestNoConvergenceTell: when distractors are written by varying the key (a
-// different body here, a different deadline there), the key ends up as the
-// option that has most in common with all the others, and test-takers learn to
-// pick it (Smith 1982; the NBME Item-Writing Guide calls it convergence). When
-// measured in September 2026 the key was the most convergent option in 21.6%
-// of English items and 24.1% of Chinese ones, against 25% for chance.
-func TestNoConvergenceTell(t *testing.T) {
-	keyMaxShare(t, "in common with the other options", func(q question, lang string) []float64 {
-		opts := optionTexts(q, lang)
-		toks := make([]map[string]bool, len(opts))
-		for i, o := range opts {
-			toks[i] = overlapTokens(o, lang)
-		}
-		conv := make([]float64, len(opts))
-		for i := range opts {
-			for j := range opts {
-				if i != j {
-					conv[i] += jaccard(toks[i], toks[j]) / float64(len(opts)-1)
-				}
-			}
-		}
-		return conv
-	})
-}
-
-// TestNoEchoTell: an option that repeats the stem's words reads as the answer
-// ("clang" in the NBME guide), and blind reviewers in September 2026 flagged
-// keys that alone echoed the stem or its deciding facts. The measure is the
-// share of an option's words that also appear in the stem; when first
-// measured the key had the highest share in 22.6% of English items and 25.4%
-// of Chinese ones.
-func TestNoEchoTell(t *testing.T) {
-	keyMaxShare(t, "words from the stem", func(q question, lang string) []float64 {
-		stem := q.En.Q
-		if lang == "tc" {
-			stem = q.Tc.Q
-		}
-		st := overlapTokens(stem, lang)
-		opts := optionTexts(q, lang)
-		echo := make([]float64, len(opts))
-		for i, o := range opts {
-			ot := overlapTokens(o, lang)
-			shared := 0
-			for w := range ot {
-				if st[w] {
-					shared++
-				}
-			}
-			if len(ot) > 0 {
-				echo[i] = float64(shared) / float64(len(ot))
-			}
-		}
-		return echo
-	})
 }
 
 // surfaceCues are word-level features a candidate can see without knowing
@@ -214,10 +221,10 @@ func boolf(b bool) float64 {
 	return 0
 }
 
-// surfaceFeatures describes each text of one item (its options, or its
-// statements) relative to the others: length and how it stands against its
-// neighbours, how much it shares with the rest, and the word-level cues.
-func surfaceFeatures(texts []string, lang string) [][]float64 {
+// statementFeatures describes each statement of one item relative to the
+// others: length and how it stands against its neighbours, how much it shares
+// with the rest and with the stem, and the word-level cues.
+func statementFeatures(texts []string, stem, lang string) [][]float64 {
 	n := len(texts)
 	ls := make([]float64, n)
 	toks := make([]map[string]bool, n)
@@ -225,16 +232,28 @@ func surfaceFeatures(texts []string, lang string) [][]float64 {
 		ls[i] = float64(utf8.RuneCountInString(s))
 		toks[i] = overlapTokens(s, lang)
 	}
+	st := overlapTokens(stem, lang)
 	conv := make([]float64, n)
+	echo := make([]float64, n)
 	for i := range texts {
 		for j := range texts {
 			if i != j {
 				conv[i] += jaccard(toks[i], toks[j]) / float64(n-1)
 			}
 		}
+		shared := 0
+		for w := range toks[i] {
+			if st[w] {
+				shared++
+			}
+		}
+		if len(toks[i]) > 0 {
+			echo[i] = float64(shared) / float64(len(toks[i]))
+		}
 	}
 	lm, lsd := meanSD(ls)
 	cm, csd := meanSD(conv)
+	em, esd := meanSD(echo)
 	out := make([][]float64, n)
 	for i, s := range texts {
 		longest, shortest := true, true
@@ -258,6 +277,7 @@ func surfaceFeatures(texts []string, lang string) [][]float64 {
 			boolf(longest && ls[i] > below*1.15),
 			boolf(shortest && ls[i]*1.15 < above),
 			(conv[i] - cm) / csd,
+			(echo[i] - em) / esd,
 		}
 		for _, re := range surfaceCues[lang] {
 			f = append(f, boolf(re.MatchString(s)))
@@ -272,6 +292,30 @@ type guessItem struct {
 	module int
 	x      [][]float64 // one row per option
 	key    int
+}
+
+// optionRows scores each option by the statements it calls false, the ones it
+// leaves out, plus the structure of the option set.
+func optionRows(q question, lang string) [][]float64 {
+	l := q.side(lang)
+	st := statementFeatures(l.Statements, l.Q, lang)
+	sf := structure(q)
+	m := claimsMask(q)
+	var rows [][]float64
+	for i := range q.Options {
+		row := make([]float64, len(st[0]))
+		for b := 0; b < q.n(); b++ {
+			if m[i]&(1<<b) == 0 {
+				for j, v := range st[b] {
+					row[j] += v
+				}
+			}
+		}
+		row = append(row, float64(bits.OnesCount(m[i]))/float64(q.n()),
+			sf["popular"][i], sf["convergent"][i], sf["modal size"][i], sf["last"][i])
+		rows = append(rows, row)
+	}
+	return rows
 }
 
 // fitGuesser fits a conditional logit: the chance of picking an option grows
@@ -313,24 +357,14 @@ func fitGuesser(items []guessItem) []float64 {
 
 // guessRight is the chance the guesser's pick is the key: 1 or 0, split on ties.
 func guessRight(w []float64, it guessItem) float64 {
-	best, tied, keyTop := math.Inf(-1), 0, false
+	scores := make([]float64, len(it.x))
 	for k, row := range it.x {
-		s := 0.0
 		for j, v := range row {
-			s += w[j] * v
+			scores[k] += w[j] * v
 		}
-		switch {
-		case s > best+1e-12:
-			best, tied, keyTop = s, 1, k == it.key
-		case math.Abs(s-best) <= 1e-12:
-			tied++
-			keyTop = keyTop || k == it.key
-		}
+		scores[k] = math.Round(scores[k]*1e9) / 1e9
 	}
-	if keyTop {
-		return 1 / float64(tied)
-	}
-	return 0
+	return pickShare(scores, it.key)
 }
 
 // crossValidate scores every item with a guesser that never saw it.
@@ -373,125 +407,69 @@ func passRule(t *testing.T) (perModule, passTotal, maxWrong int) {
 	return get("perModule"), get("passTotal"), get("maxWrongPerModule")
 }
 
-// TestOptionsOnlyGuesser is the test-wise candidate, automated. It never sees
-// a stem or a source: only the options of a four-option item, or the
-// statements of a combination item. It learns, from the bank itself, which
-// surface features point at keys (the whole set of cues the guards above look
-// at one by one, weighted as the bank rewards them), is scored only on
-// items it was not trained on, and then sits 4,000 simulated papers under the
-// app's own pass rule.
+// TestOptionsOnlyGuesser is the test-wise candidate, automated. It never sees a
+// source: only the statements and the option set of each item. It learns, from
+// the bank itself, which surface features point at keys (the whole set of cues
+// the guards look at one by one, weighted as the bank rewards them), is scored
+// only on items it was not trained on, and then sits 4,000 simulated papers
+// under the app's own pass rule.
 //
-// When this was first run, in September 2026, it picked 43% of four-option
-// keys in English and 46% in Chinese (chance 25%), and 32% and 39% of
-// combination keys (chance 20%), almost all of it through the absolutes and
-// hedges that the owner decided on 27 September 2026 not to chase. It still
-// passed about one simulated paper in 2,500. The bounds hold that line: a new
-// tell big enough to matter, like the old key-is-longest pattern that passed
-// 64% of simulated papers, fails the build.
+// When this was first run on combination items, in September 2026, it picked
+// 32% of keys in English and 39% in Chinese (chance 20%), almost all of it
+// through the absolutes and hedges the owner decided on 27 September 2026 not
+// to chase, and passed about one simulated paper in 2,500. The bounds hold that
+// line: a new tell big enough to matter fails the build.
 func TestOptionsOnlyGuesser(t *testing.T) {
 	bank := loadBank(t)
 	perModule, passTotal, maxWrong := passRule(t)
-	trueSets := map[int][][]int{
-		4: {{0, 1, 2}, {0, 1, 3}, {1, 2, 3}, {0, 2, 3}, {0, 1, 2, 3}},
-		5: {{0, 1, 2}, {1, 2, 3}, {0, 2, 3}, {0, 1, 4}, {2, 3, 4}},
-	}
 	for _, lang := range []string{"en", "tc"} {
-		var singles, combos []guessItem
+		var items []guessItem
 		for _, q := range bank {
-			l := q.En
-			if lang == "tc" {
-				l = q.Tc
+			if len(q.Options) == 5 && len(q.side(lang).Statements) == q.n() {
+				items = append(items, guessItem{q.ID, q.Module, optionRows(q, lang), q.Answer})
 			}
-			if !q.combo() {
-				singles = append(singles, guessItem{q.ID, q.Module, surfaceFeatures(l.Options, lang), q.Answer})
-				continue
-			}
-			// A statement's features, plus which position it is in. A printed option
-			// is scored by the statements it leaves out, the ones it calls false.
-			st := surfaceFeatures(l.Statements, lang)
-			for i := range st {
-				pos := make([]float64, 5)
-				pos[i] = 1
-				st[i] = append(st[i], pos...)
-			}
-			var x [][]float64
-			for _, set := range trueSets[len(st)] {
-				row := make([]float64, len(st[0]))
-				for i := range st {
-					if !contains(set, i) {
-						for j, v := range st[i] {
-							row[j] += v
-						}
-					}
-				}
-				x = append(x, row)
-			}
-			combos = append(combos, guessItem{q.ID, q.Module, x, q.Answer})
 		}
-		right := crossValidate(singles)
-		for id, p := range crossValidate(combos) {
-			right[id] = p
+		right := crossValidate(items)
+		acc := 0.0
+		for _, it := range items {
+			acc += right[it.id]
 		}
-		accuracy := func(items []guessItem) float64 {
-			s := 0.0
-			for _, it := range items {
-				s += right[it.id]
-			}
-			return s / float64(len(items))
-		}
-		single, combo := accuracy(singles), accuracy(combos)
-		t.Logf("%s: options-only guesser picks %.1f%% of four-option keys (chance 25%%) and %.1f%% of combination keys (chance 20%%)",
-			lang, single*100, combo*100)
-		if single > 0.50 {
-			t.Errorf("%s: an options-only guesser picks %.1f%% of four-option keys, above the 50%% bound", lang, single*100)
-		}
-		if combo > 0.45 {
-			t.Errorf("%s: an options-only guesser picks %.1f%% of combination keys, above the 45%% bound", lang, combo*100)
+		acc /= float64(len(items))
+		t.Logf("%s: an options-only guesser picks %.1f%% of keys (chance 20%%)", lang, acc*100)
+		if acc > 0.45 {
+			t.Errorf("%s: an options-only guesser picks %.1f%% of keys, above the 45%% bound", lang, acc*100)
 		}
 
-		for _, mode := range []string{"mixed", "combination"} {
-			pools := map[int][]question{}
-			for _, q := range bank {
-				if mode == "mixed" || q.combo() {
-					pools[q.Module] = append(pools[q.Module], q)
-				}
-			}
-			rng := rand.New(rand.NewPCG(2026, 928))
-			const papers = 4000
-			passed, total := 0, 0
-			for p := 0; p < papers; p++ {
-				score, ok := 0, true
-				for m := 1; m <= 7; m++ {
-					pool := pools[m]
-					wrong := 0
-					for _, i := range rng.Perm(len(pool))[:perModule] {
-						if rng.Float64() < right[pool[i].ID] {
-							score++
-						} else {
-							wrong++
-						}
+		pools := map[int][]question{}
+		for _, q := range bank {
+			pools[q.Module] = append(pools[q.Module], q)
+		}
+		rng := rand.New(rand.NewPCG(2026, 928))
+		const papers = 4000
+		passed, total := 0, 0
+		for p := 0; p < papers; p++ {
+			score, ok := 0, true
+			for m := 1; m <= 7; m++ {
+				pool := pools[m]
+				wrong := 0
+				for _, i := range rng.Perm(len(pool))[:min(perModule, len(pool))] {
+					if rng.Float64() < right[pool[i].ID] {
+						score++
+					} else {
+						wrong++
 					}
-					ok = ok && wrong <= maxWrong
 				}
-				total += score
-				if ok && score >= passTotal {
-					passed++
-				}
+				ok = ok && wrong <= maxWrong
 			}
-			rate := float64(passed) / papers
-			t.Logf("%s, %s papers: mean %.1f of %d, %d of %d passed", lang, mode, float64(total)/papers, 7*perModule, passed, papers)
-			if rate > 0.005 {
-				t.Errorf("%s: an options-only guesser passes %.2f%% of %s papers, above 0.5%%", lang, rate*100, mode)
+			total += score
+			if ok && score >= passTotal {
+				passed++
 			}
 		}
-	}
-}
-
-func contains(xs []int, x int) bool {
-	for _, v := range xs {
-		if v == x {
-			return true
+		rate := float64(passed) / papers
+		t.Logf("%s papers: mean %.1f of %d, %d of %d passed", lang, float64(total)/papers, 7*perModule, passed, papers)
+		if rate > 0.005 {
+			t.Errorf("%s: an options-only guesser passes %.2f%% of papers, above 0.5%%", lang, rate*100)
 		}
 	}
-	return false
 }

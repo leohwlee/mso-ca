@@ -6,8 +6,23 @@ The 23 documents the question bank and the revision pack are written from, in
 English (`EN/`) and Traditional Chinese (`TC/`). The same number denotes the
 same document in both languages. All were downloaded from the official sources
 listed below (the C&ED Money Service Operators Licensing System portal, and Hong
-Kong e-Legislation for the Ordinance), and were last checked against the portal
+Kong e-Legislation for the Ordinance), and were checked as a full set against the portal
 on 24 September 2026 (the Ordinance on 28 September 2026).
+
+On 17 October 2026, the EN and TC PDFs for 02–09 and 19–21 were
+re-downloaded and matched the archives byte for byte; substantive FAQ passages
+also matched the official page. Other documents retain their original check
+dates. The current Ordinance page was blocked by a client-configuration check,
+so this update continues to use the archived consolidated text above.
+
+On 18 October 2026, all 42 language editions of the 21 PDF sources other
+than Ordinance 10 were re-downloaded and matched the archives byte for byte.
+The substantive FAQ text also matched. Sources 01 and 23 were checked via the
+current licensing/capacity-building pages, distinguishing the sample paper from
+its announcement. The Ordinance page remains blocked by the client check; its
+latest version was not verified. Image-only fields in source 16 were manually
+transcribed, independently checked and bound to the PDF version in
+`transcripts/16.json`; extraction adds them to their own pages.
 
 Documents 01–09 are the Guidance Notes and the guidelines, 10 is the
 Ordinance, 11–21 are the circulars still in force, oldest first, 22 is the FAQ
@@ -51,9 +66,9 @@ date from 24 September 2026; earlier commits number the documents differently.
 The Traditional Chinese editions in `TC/` carry the same numbers.
 
 `text/` holds the text of every document in both languages, extracted by
-[`extract_text.py`](extract_text.py). `quotes.json` holds, for every question in
+[`extract_text.py`](extract_text.py). `quotes.json` holds, for every statement in
 the bank and each language, the passage of a cited document that decides its
-answer, copied word for word from that text. The tests check each quote against
+truth, copied word for word from that text. The tests check each quote against
 the text, and the text against the documents here, so after adding or replacing
 a document run `python docs/extract_text.py` (it needs PyMuPDF).
 
@@ -68,20 +83,17 @@ the per-document figures can sum above the module total.
 
 | Module | Source documents (questions citing each) | Questions |
 |---|---|---|
-| **1** General knowledge on AML/CFT and counter-proliferation financing | **02** ch. 1, 6–7, glossary (93) · **10** (28) · **19** (15) · **11** (6) · **14** (3) · **20** (3) · **15** (1) · **17** (1) · **21** (1) · **22** (1) | 123 |
-| **2** Parts 1–7 of the AMLO | **10** Parts 1–7 (302) · **03** (3) · **02** ch. 1 (1) · **18** (1) | 303 |
-| **3** Schedules to the AMLO | **10** Sch. 2 (172), Sch. 4 (39), Sch. 1 (32), Sch. 3 (7), Part 6 (1), Part 1 (1) · **02** ch. 4, 10–11 (17) | 248 |
-| **4** Guidelines promulgated by the C&ED | **03** (171) · **01** (33) · **07** (26) · **05** (22) · **10** (22) · **06** (17) · **08** (15) · **04** (8) · **09** (8) · **16** (5) · **19** (1) · **22** (1) | 283 |
-| **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (91) · **10** (4) · **07** (3) · **03** (2) · **05** (1) · **12** (1) · **19** (1) | 96 |
-| **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11, App. A, glossary (301) · **10** (28) · **14** (14) · **13** (12) · **22** (9) · **12** (6) | 340 |
-| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** ch. 1, 3, 7–9 (153) · **10** (5) · **22** (1) | 154 |
+| **1** General knowledge on AML/CFT and counter-proliferation financing | **01** (1) · **02** (23) · **10** (2) · **11** (2) · **14** (2) · **15** (1) · **17** (1) · **18** (1) · **19** (2) · **20** (2) · **21** (1) · **22** (1) | 32 |
+| **2** Parts 1–7 of the AMLO | **10** (53) · **22** (1) · **23** (1) | 53 |
+| **3** Schedules to the AMLO | **02** (2) · **10** (43) · **23** (1) | 43 |
+| **4** Guidelines promulgated by the C&ED | **01** (10) · **03** (29) · **04** (1) · **05** (5) · **06** (5) · **07** (4) · **08** (4) · **09** (5) · **10** (2) · **16** (3) · **22** (1) · **23** (1) | 59 |
+| **5** Systems and controls (i): institutional governance and strategy | **02** (55) · **07** (1) · **10** (1) · **12** (1) · **23** (1) | 56 |
+| **6** Systems and controls (ii): AML/CFT control areas | **02** (62) · **10** (5) · **12** (2) · **13** (5) · **14** (7) · **22** (26) · **23** (1) | 74 |
+| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** (40) · **22** (1) · **23** (2) | 40 |
 
-One document feeds no question of its own: **23**, by design — it is the format
-template, described just below. **22**, the FAQ page, feeds twelve questions: eleven
-from its Guideline series, nine in module 6 and one each in modules 1 and 7, and
-one in module 4 from its licence-application series. Its other Guideline
-questions, each naming the paragraph it elaborates, are the obvious
-place to add more.
+The current bank includes all seven samples from **23**, plus the sample in
+**01** ¶7.1. **22**, the FAQ, is cited by 30 questions: 1 in module 1, 1 in module 2, 1 in module 4, 26 in module 6, 1 in module 7. The figures above describe the active bank, excluding
+retired questions preserved in Git history.
 
 Two of these are worth singling out. **23** is the only set of sample questions
 C&ED has ever published, and it settles what the paper looks like: seven items,
@@ -93,8 +105,8 @@ portal, so the page itself is archived as Markdown. It holds two series — “F
 applicable to all Money Service Operators”, 28 questions on the AML/CFT
 Guideline, each answer closing with a Key Reference naming the paragraph it
 elaborates, and “FAQ in Application for an MSO Licence”, 15 on licence
-application, which carry no such reference. The first series is what makes the
-page usable as question material.
+application, which carry no such reference. Both series serve as question material; the licensing FAQ also supports
+questions on exemptions, related persons and procedural roles.
 
 Live pages to re-check for newer editions, for the next FATF statement (which
 replaces 20), and for the UN-sanctions notices (deliberately not archived here):

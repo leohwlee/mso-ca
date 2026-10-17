@@ -21,10 +21,14 @@ way, in whatever exam format you define.
    [latest release](../../releases/latest).
 2. Open them in Chrome. Edge and Firefox work too.
 3. Read a topic in the revision pack, then drill its module in the mock exam's
-   *Practice* mode, where every answer shows its explanation and source.
-4. Sit full timed mocks, and use *Practice my wrong answers* on what you missed.
-   Near exam day, tick *Exam-realistic paper* for a paper in the combination
-   format C&ED prints.
+   *Practice* mode. Every question has the real paper's shape — numbered
+   statements and five options naming which of them are correct — and after
+   each answer every statement is marked correct or not, with the trap a false
+   one sets and its source.
+4. Use the *Statement drill* to judge one statement at a time, since a question
+   is lost on a single misjudged statement; it keeps the ones you get wrong for
+   another round. Sit full timed mocks, and use *Practice my wrong answers* on
+   what you missed.
 
 To pass you need **no more than 2 wrong in any module and at least 25/35
 overall**, so one weak module fails the paper even with a high total.
@@ -45,7 +49,7 @@ To build from source or cut a release, see [DEVELOPMENT.md](DEVELOPMENT.md).
 
 ## The content
 
-The revision pack and the mock exam are written from the 23 current official
+The revision pack and the mock exam are written from the 23 archived official
 documents in [`docs/`](docs/README.md), which also maps each module to its
 sources. Every point cites its section or paragraph, so you can check it against
 the source.
@@ -53,22 +57,37 @@ the source.
 | File | What's inside | Organised by |
 |---|---|---|
 | **Revision pack**<br>`mso-revision-pack.html`<br>about 3 MB | 21 pages of tables and figures on the AMLO's Parts 1–7 and Schedules 1–4, the AML/CFT Guideline, the other C&ED guidelines, and the circulars and FAQ | Source document, with each page naming the exam modules it serves |
-| **Mock exam**<br>`mso-ca.html`<br>about 4 MB | 1,547 questions with explanations (1,206 with four options, 341 in the combination format), drawn into 35-question, 75-minute mocks under the real pass rule | The 7 exam modules, below |
-| **Skill**<br>`.claude/skills/exam-prep/SKILL.md`<br>version 2.2.0 | The method that built both, written for any exam: collecting and checking the sources, settling conflicts between them, writing the pack and the questions, checking every answer blind, and tests that stop answers being guessable. You define the exam format. | The build, phase by phase |
+| **Mock exam**<br>`mso-ca.html`<br>about 1.7 MB | 357 combination questions, including 8 official samples, with bilingual explanations for every statement, drawn into 35-question, 75-minute mocks under the real pass rule | The 7 exam modules, below |
+| **Skill**<br>`.claude/skills/exam-prep/SKILL.md`<br>version 2.3.0 | The method that built both, written for any exam: collecting and checking the sources, settling conflicts between them, writing the pack and the questions, checking every answer blind, and tests that stop answers being guessable. You define the exam format. | The build, phase by phase |
 
 | Module | Questions | Revision-pack pages |
 |---|---|---|
-| 1 · General knowledge on AML/CFT and counter-proliferation financing | 123 | AML/CFT Guideline ch. 1, 6 and 7; AMLO Sch. 1 |
-| 2 · Parts 1–7 of the AMLO | 303 | AMLO Parts 1–7 |
-| 3 · Schedules to the AMLO | 248 | AMLO Sch. 1–4 |
-| 4 · Guidelines promulgated by the C&ED | 283 | C&ED guidelines; AMLO Part 5 |
-| 5 · Systems and controls (i): governance and strategy | 96 | AML/CFT Guideline ch. 2 and 3 |
-| 6 · Systems and controls (ii): AML/CFT control areas | 340 | AMLO Sch. 2, with AML/CFT Guideline ch. 4, 10 and 11; AML/CFT Guideline ch. 2 and 5–9 |
-| 7 · Systems and controls (iii): demonstrating and monitoring compliance | 154 | AML/CFT Guideline ch. 3 and 7–9 |
+| 1 · General knowledge on AML/CFT and counter-proliferation financing | 32 | AML/CFT Guideline ch. 1, 6 and 7; AMLO Sch. 1 |
+| 2 · Parts 1–7 of the AMLO | 53 | AMLO Parts 1–7 |
+| 3 · Schedules to the AMLO | 43 | AMLO Sch. 1–4 |
+| 4 · Guidelines promulgated by the C&ED | 59 | C&ED guidelines; AMLO Part 5 |
+| 5 · Systems and controls (i): governance and strategy | 56 | AML/CFT Guideline ch. 2 and 3 |
+| 6 · Systems and controls (ii): AML/CFT control areas | 74 | AMLO Sch. 2, with AML/CFT Guideline ch. 4, 10 and 11; AML/CFT Guideline ch. 2 and 5–9 |
+| 7 · Systems and controls (iii): demonstrating and monitoring compliance | 40 | AML/CFT Guideline ch. 3 and 7–9 |
 
-The pack's Circulars and FAQ page serves modules 1 and 4–7. The questions are
-reconstructions for practice, not real exam questions; C&ED has never released a
-past paper.
+The pack's Circulars and FAQ page serves modules 1 and 4–7. Apart from the 8
+official samples retained verbatim, the questions are
+reconstructions for practice; C&ED has never released a past paper.
+
+All tasks in the [coverage audit](bank/audit/README.md) are implemented,
+including roles and definitions, P1 processes, the final 20 P2/P3 tasks and
+specialist P3 details. The last wave adds a net 19 questions and
+99 statements. Expanded questions use new IDs, preserving retired
+snapshots and historical scores. The [completion record](bank/audit/REMAINING.md)
+holds the mappings and final bilingual blind reviews. Checklist completion does
+not mean coverage of every real exam question.
+
+The pack now clarifies trust identification data and periodic-return fields.
+Skill 2.3.0 adds source-first coverage mapping, condition/exception review and
+versioned evidence. On 18 October 2026, all 42 bilingual PDFs re-downloaded
+matched the archives, as did the substantive FAQ text. The current Ordinance
+page remains blocked, so the archived version is retained; see the
+[source record](docs/README.md).
 
 ## Disclaimer
 

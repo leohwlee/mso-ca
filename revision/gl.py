@@ -181,8 +181,8 @@ B_ = sec('premises', [("Licensing Guide", "《牌照指引》"), ("¶4.4–4.11"
     P("Use the first two tables to decide whether you have particular premises and whether they will pass. That answer decides whether you also need a local management office; every applicant needs the local place for storage of books and records. The third table sets the two side by side.",
       "先用首兩個表判斷你是否有特定處所，以及該處所能否通過審核。這個答案決定你是否亦須設立本地管理辦事處；所有申請人都必須有本地儲存帳目及紀錄地點。第三個表把兩者並列比較。")
     + table([th("The situation", "情況"), th("Particular premises?", "屬特定處所？"), th("What follows", "後果")], [
-        tr(td("You occupy the premises to run the money service, advertise them as the place to meet customers, a signboard included, and control them as landlord or tenant",
-              "你佔用該處所經營金錢服務、宣傳其為會見客戶的地方（包括展示招牌），並以業主或租戶身分經常控制該處所", LG("4.4")),
+        tr(td("Examples of particular premises: occupied for operating a money service; advertised for meeting customers, including a signboard on display; regularly controlled by the licensee as landlord or tenant",
+              "特定處所的例子：被佔用作經營金錢服務的處所；被宣傳為會見客戶的處所（包括展示招牌）；經常受到持牌人以業主或租戶身分控制的處所", LG("4.4")),
            vd(YES), td("Register it. Each additional premises goes into the same application, with its own fee", "須登記。其他處所一併列入同一申請，每個另繳費用", LG("2.6"))),
         tr(td("You are only a visitor or customer there: a restaurant, a bank, or an accountant's or solicitor's office where your papers are processed",
               "你只是該處所的訪客或顧客：食肆、銀行，或為處理公司文件而到的會計師行或律師行", LG("4.4")),

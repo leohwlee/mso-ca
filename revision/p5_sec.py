@@ -207,7 +207,7 @@ F = sec('duties', ["s.39A–s.41", "s.27–s.28 · s.33 · s.52", ("while you ho
          "s.41(1)(b), (3)–(4)"),
         (("no number", "不涉數字"),
          ("Do not make a statement that is false or misleading in a material particular, or omit a material particular from a statement so that it becomes false or misleading, in connection with a grant or renewal application", "在與批給或續期申請有關連的情況下，不得作出在要項上屬虛假或具誤導性的陳述，亦不得在陳述中遺漏任何要項，以致該陳述成為虛假或具誤導性"),
-         ("When you knew, or were reckless as to whether, it was false or left out", "你明知或罔顧其是否虛假或遺漏"),
+         ("For making a statement: you know, or are reckless as to whether, it is false or misleading in a material particular. For omitting a material particular: you know, or are reckless as to whether, that particular is omitted from the statement", "作出陳述時：你知道該陳述在要項上屬虛假或具誤導性，或罔顧該陳述是否在要項上屬虛假或具誤導性。遺漏要項時：你知道該陳述遺漏該要項，或罔顧該陳述是否遺漏該要項"),
          ("An offence: a fine at level 5 and 6 months. The Licensing Guide, on an omitted premises (s.52(2)), states the fine as up to HK$50,000", "即屬犯罪：第5級罰款及監禁6個月。《牌照指引》就漏填處所（第52(2)條）把罰款寫作最高港幣5萬元"),
          cc("s.52", LG("4.9"))),
     ], heading=False)

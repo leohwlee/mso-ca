@@ -5,6 +5,7 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"encoding/json"
+	"fmt"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -138,13 +139,29 @@ type quote struct {
 	Text string `json:"text"`
 }
 
-func loadQuotes(t *testing.T) map[string]map[string]quote {
+// quoteSet is one language's quotes for an item: one per statement for an item
+// written with notes, or a single deciding quote for an item from the old bank.
+type quoteSet []quote
+
+func (s *quoteSet) UnmarshalJSON(b []byte) error {
+	if len(b) > 0 && b[0] == '{' {
+		var one quote
+		if err := json.Unmarshal(b, &one); err != nil {
+			return err
+		}
+		*s = quoteSet{one}
+		return nil
+	}
+	return json.Unmarshal(b, (*[]quote)(s))
+}
+
+func loadQuotes(t *testing.T) map[string]map[string]quoteSet {
 	t.Helper()
 	b, err := os.ReadFile(filepath.Join("docs", "quotes.json"))
 	if err != nil {
 		t.Fatalf("read docs/quotes.json: %v", err)
 	}
-	var qs map[string]map[string]quote
+	var qs map[string]map[string]quoteSet
 	if err := json.Unmarshal(b, &qs); err != nil {
 		t.Fatalf("parse docs/quotes.json: %v", err)
 	}
@@ -162,8 +179,9 @@ func TestSourceTextsCurrent(t *testing.T) {
 		t.Fatalf("read docs/text/manifest.json: %v", err)
 	}
 	var manifest map[string]struct {
-		Source string `json:"source"`
-		SHA256 string `json:"sha256"`
+		Source           string `json:"source"`
+		SHA256           string `json:"sha256"`
+		TranscriptSHA256 string `json:"transcript_sha256"`
 	}
 	if err := json.Unmarshal(b, &manifest); err != nil {
 		t.Fatalf("parse docs/text/manifest.json: %v", err)
@@ -192,12 +210,34 @@ func TestSourceTextsCurrent(t *testing.T) {
 			}
 			// Line endings are folded first: git checks the FAQ page, a text file, out
 			// with CRLF on Windows and LF elsewhere.
+			rawSourceSum := sha256.Sum256(src)
 			src = bytes.ReplaceAll(src, []byte("\r\n"), []byte("\n"))
 			if sum := sha256.Sum256(src); hex.EncodeToString(sum[:]) != m.SHA256 {
 				t.Errorf("docs/%s/%s has changed since its text was extracted (run python docs/extract_text.py)", lang, name)
 			}
 			if fi, err := os.Stat(filepath.Join("docs", "text", key)); err != nil || fi.Size() == 0 {
 				t.Errorf("docs/text/%s is missing or empty", key)
+			}
+			transcriptPath := filepath.Join("docs", "transcripts", name[:2]+".json")
+			transcript, transcriptErr := os.ReadFile(transcriptPath)
+			if transcriptErr == nil {
+				transcript = bytes.ReplaceAll(transcript, []byte("\r\n"), []byte("\n"))
+				sum := sha256.Sum256(transcript)
+				if hex.EncodeToString(sum[:]) != m.TranscriptSHA256 {
+					t.Errorf("%s changed since extraction; re-check labels and run docs/extract_text.py", transcriptPath)
+				}
+				var labels map[string]json.RawMessage
+				var binding struct {
+					SourceSHA256 string `json:"source_sha256"`
+				}
+				if err := json.Unmarshal(transcript, &labels); err != nil {
+					t.Fatalf("parse %s: %v", transcriptPath, err)
+				}
+				if err := json.Unmarshal(labels[lang], &binding); err != nil || binding.SourceSHA256 != hex.EncodeToString(rawSourceSum[:]) {
+					t.Errorf("%s is not bound to the current %s PDF", transcriptPath, lang)
+				}
+			} else if !os.IsNotExist(transcriptErr) || m.TranscriptSHA256 != "" {
+				t.Errorf("read image transcript %s: %v", transcriptPath, transcriptErr)
 			}
 		}
 	}
@@ -209,13 +249,16 @@ func TestSourceTextsCurrent(t *testing.T) {
 }
 
 // TestQuotesFromCitedSources: every question stores, in each language, the
-// passage that decides its key, copied verbatim from a document its citation
-// names. Until September 2026 the bank stored no such passage, so every blind
-// review had to find the deciding words again from the citation alone; storing
-// them makes grounding a mechanical check, and a quote that stops matching
-// flags a source that has been edited or re-extracted since the question was
-// written. The English quote comes from the English text and the Chinese from
-// the Chinese, because each language follows its own edition.
+// passages that decide it, copied verbatim from a document its citation names:
+// one per statement for an item written with notes (for a true statement the
+// passage that supports it, for a false one the passage it departs from), and a
+// single deciding quote for an item from the old bank. Until September 2026 the
+// bank stored no such passage, so every blind review had to find the deciding
+// words again from the citation alone; storing them makes grounding a
+// mechanical check, and a quote that stops matching flags a source that has
+// been edited or re-extracted since the question was written. The English quote
+// comes from the English text and the Chinese from the Chinese, because each
+// language follows its own edition.
 //
 // What this cannot see: a quote that is verbatim but decides nothing. Penalty
 // wording such as "a fine at level 6 and to imprisonment for 6 months" recurs
@@ -244,38 +287,51 @@ func TestQuotesFromCitedSources(t *testing.T) {
 			continue
 		}
 		for _, lang := range []string{"en", "tc"} {
-			qt, ok := entry[lang]
-			if !ok || strings.TrimSpace(qt.Text) == "" {
-				t.Errorf("%s (%s): no deciding quote", q.ID, lang)
+			set, ok := entry[lang]
+			want := 1
+			if q.annotated() {
+				want = q.n()
+			}
+			if !ok || len(set) != want {
+				t.Errorf("%s (%s): %d quotes, want %d", q.ID, lang, len(set), want)
 				continue
 			}
 			citation := q.Source.En
 			if lang == "tc" {
 				citation = q.Source.Tc
 			}
-			if cited := citedDocs(citation, lang); !slices.Contains(cited, qt.Doc) {
-				t.Errorf("%s (%s): the quote comes from document %q, but the citation %q names %v",
-					q.ID, lang, qt.Doc, citation, cited)
-				continue
-			}
-			if !strings.Contains(sourceText(t, lang, qt.Doc), matchKey(qt.Text)) {
-				t.Errorf("%s (%s): quote not found in docs/text/%s/%s.txt: %q",
-					q.ID, lang, strings.ToUpper(lang), qt.Doc, qt.Text)
-			}
-			// The English Ordinance prints each defined term's Chinese equivalent in
-			// brackets ("director (董事) includes…"), so an English quote may carry
-			// those, and nothing else in Chinese.
-			if (lang == "tc") != han.MatchString(bracketedHan.ReplaceAllString(qt.Text, "")) {
-				t.Errorf("%s (%s): the quote is in the wrong language: %q", q.ID, lang, qt.Text)
-			}
-			// Long enough to decide something, short enough to be the deciding words
-			// rather than the paragraph around them.
-			if lang == "en" {
-				if n := len(strings.Fields(qt.Text)); n < 5 || n > 50 {
-					t.Errorf("%s (en): quote of %d words, want 5 to 50: %q", q.ID, n, qt.Text)
+			cited := citedDocs(citation, lang)
+			for i, qt := range set {
+				where := fmt.Sprintf("%s (%s)", q.ID, lang)
+				if want > 1 {
+					where = fmt.Sprintf("%s (%s, statement %d)", q.ID, lang, i+1)
 				}
-			} else if n := len([]rune(matchKey(qt.Text))); n < 10 || n > 120 {
-				t.Errorf("%s (tc): quote of %d characters, want 10 to 120: %q", q.ID, n, qt.Text)
+				if strings.TrimSpace(qt.Text) == "" {
+					t.Errorf("%s: empty quote", where)
+					continue
+				}
+				if !slices.Contains(cited, qt.Doc) {
+					t.Errorf("%s: the quote comes from document %q, but the citation %q names %v", where, qt.Doc, citation, cited)
+					continue
+				}
+				if !strings.Contains(sourceText(t, lang, qt.Doc), matchKey(qt.Text)) {
+					t.Errorf("%s: quote not found in docs/text/%s/%s.txt: %q", where, strings.ToUpper(lang), qt.Doc, qt.Text)
+				}
+				// The English Ordinance prints each defined term's Chinese equivalent in
+				// brackets ("director (董事) includes…"), so an English quote may carry
+				// those, and nothing else in Chinese.
+				if (lang == "tc") != han.MatchString(bracketedHan.ReplaceAllString(qt.Text, "")) {
+					t.Errorf("%s: the quote is in the wrong language: %q", where, qt.Text)
+				}
+				// Long enough to decide something, short enough to be the deciding words
+				// rather than the paragraph around them.
+				if lang == "en" {
+					if n := len(strings.Fields(qt.Text)); n < 3 || n > 60 {
+						t.Errorf("%s: quote of %d words, want 3 to 60: %q", where, n, qt.Text)
+					}
+				} else if n := len([]rune(matchKey(qt.Text))); n < 6 || n > 140 {
+					t.Errorf("%s: quote of %d characters, want 6 to 140: %q", where, n, qt.Text)
+				}
 			}
 		}
 	}
@@ -314,8 +370,7 @@ func TestCitedCircularsAreCurrent(t *testing.T) {
 			if lang == "tc" {
 				source = q.Source.Tc
 			}
-			fields := append(append([]string{l.Q, l.Explain, source}, l.Options...), l.Statements...)
-			for _, f := range fields {
+			for _, f := range append(l.fields(), source) {
 				for _, n := range number.FindAllString(f, -1) {
 					if !current[n] {
 						t.Errorf("%s (%s): cites circular %s, which is not among the current documents in docs/README.md", q.ID, lang, n)
@@ -356,8 +411,7 @@ func TestNoOtherLanguageText(t *testing.T) {
 	printed := map[string]bool{}
 
 	for _, q := range loadBank(t) {
-		en := append(append([]string{q.En.Q, q.En.Explain, q.Source.En}, q.En.Options...), q.En.Statements...)
-		for _, f := range en {
+		for _, f := range append(q.En.fields(), q.Source.En) {
 			if m := han.FindString(f); m != "" {
 				t.Errorf("%s (en): Chinese text in an English field: %q", q.ID, f)
 			}
@@ -365,8 +419,7 @@ func TestNoOtherLanguageText(t *testing.T) {
 				t.Errorf("%s (en): mentions another language edition (%q)", q.ID, m)
 			}
 		}
-		tc := append(append([]string{q.Tc.Q, q.Tc.Explain, q.Source.Tc}, q.Tc.Options...), q.Tc.Statements...)
-		for _, f := range tc {
+		for _, f := range append(q.Tc.fields(), q.Source.Tc) {
 			if m := tcTag.FindString(f); m != "" {
 				t.Errorf("%s (tc): mentions another language edition (%q)", q.ID, m)
 			}
@@ -378,6 +431,31 @@ func TestNoOtherLanguageText(t *testing.T) {
 				}
 				if !ok {
 					t.Errorf("%s (tc): %q is not printed in any Chinese source", q.ID, w)
+				}
+			}
+		}
+	}
+}
+
+// TestOfficialWording: an item marked as one of C&ED's own samples carries
+// C&ED's words. Every statement and the stem, in each language, must be found in
+// the sample paper (MSSB/CA_01/2021, document 23) or the Guidance Notes
+// (document 01, ¶7.1), so that "official" never labels a paraphrase.
+func TestOfficialWording(t *testing.T) {
+	// The sample paper prints its letterhead on every page, sometimes in the
+	// middle of a statement that runs over a page break.
+	header := strings.NewReplacer(matchKey("香港海關"), "", matchKey("Customs and Excise Department"), "")
+	for _, q := range loadBank(t) {
+		if q.Official == "" {
+			continue
+		}
+		for _, lang := range []string{"en", "tc"} {
+			l := q.side(lang)
+			sample := header.Replace(sourceText(t, lang, "23"))
+			for _, text := range append([]string{l.Q}, l.Statements...) {
+				k := matchKey(text)
+				if !strings.Contains(sample, k) && !strings.Contains(sourceText(t, lang, "01"), k) {
+					t.Errorf("%s (%s): %q is not in C&ED's sample questions", q.ID, lang, text)
 				}
 			}
 		}

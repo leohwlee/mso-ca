@@ -13,43 +13,106 @@ go run . -export-html dist/mso-ca.html # build the single file
 python -m http.server 8321 -d web      # or: serve web/ while developing
 ```
 
-The bank is `web/questions.json`. `go test ./...` is more than a shape check: it
-guards the faults that quietly ruin a question bank. Most of the checks were
-added after a review found the fault in real questions.
+The bank is `web/questions.json`. Every item has the shape of the real paper: a
+stem, four to six numbered statements, which of them are true, and five options
+naming sets of them. [`bank/FORMAT.md`](bank/FORMAT.md) records the owner's
+decisions about that shape and the rules items are written to; the app shuffles
+the statements at every draw and renumbers the options to match.
+
+`go test ./...` is more than a shape check: it guards the faults that quietly
+ruin a question bank. Most of the checks were added after a review found the
+fault in real questions.
 
 | Check | What it stops |
 |---|---|
-| Per-module counts, 4 or 5 options, both languages, a citation | questions going missing or half-written |
-| Option length balance, rank, spread and standout | "always pick the longest" — it once passed 64% of simulated papers |
-| Citation has a locator | citing a document with no paragraph to turn to |
+| Per-module counts; 4 to 6 statements in both languages; five options in display order; exactly one option matching the true statements, and it is the key | items going missing, half-written or mis-keyed |
+| Option sets are symmetric: any option the size of the key can be renumbered into it | reading the key off the shape of the option set |
+| A note per statement and a trap code per false statement on every item the app reorders | an explanation pointing at the wrong statement once the order changes |
+| The number of true statements varies across the bank | learning to hunt for the one false statement |
+| No kind of trap dominates | learning to check for one kind of defect only |
+| Statement length spread and standout | a false statement given away by being the longest or shortest |
+| Statements carrying an absolute or a negation are true at a healthy rate | "mark the absolutes false" |
+| Citation has a locator; stems name the topic, never a section number | citing a document with no paragraph to turn to; asking what a number says |
 | Statutory Chinese terms | wording the official Chinese editions never use |
 | Chinese 該 points back to something already named | "the customer" or "the MSO" rendered word for word as 該客戶 or 該經營者, with nothing before it to refer to |
 | Guideline paragraphs are 段 in Chinese | a Guideline paragraph called 款, the Ordinance's word for a subsection |
 | ML/TF pairing | dropping the terrorist-financing half in Chinese |
-| No positional references | "option 2" in an explanation, when options are shuffled |
-| No duplicate stems, no shared answer across modules | one question asked twice |
-| Absolutes in combination statements | "always" and "never" marking the false statement |
-| Even option punctuation | a stray semicolon marking the right answer |
-| Combination format | the printed option block, verbatim, and a spread of answer letters |
-| Stems state the provision; no number-only options | asking what a section number says, or which number a rule lives under |
-| Every question stores its deciding quote, found word for word in a document it cites | a key the cited passage does not support; a document replaced without its text being extracted again |
+| No false statement turns on "Joint Financial Investigation Unit" | keying false the name C&ED's own sample keys true (register B21) |
+| No positional references | "statement 2" or "option B" in a note, when statements and options are reordered |
+| No duplicate items, no statement made twice | one point asked twice, or a twin that tells a candidate which to doubt |
+| Every statement stores its deciding quote, found word for word in a document the item cites | a statement the cited passage does not decide; a document replaced without its text being extracted again |
+| C&ED's own samples carry C&ED's words | "official" on a paraphrase |
 | Circulars cited are current | a circular that a later document has overtaken coming back |
-| Combination explanations name the false statements the key implies | an explanation arguing for a different answer from the key |
-| The key is neither the option most like the others nor the one echoing the stem | "convergence" and "clang", two cues test-takers are taught to use |
-| A guesser that sees only the options, trained on the bank itself | a new surface tell: it may pick at most 50% of four-option keys (chance 25%) and pass at most 0.5% of simulated papers |
+| Strategies that read only the option set find the key no more often than chance | the most convergent, most popular, largest or last option pointing at the key |
+| A guesser that sees only the statements and options, trained on the bank itself | a new surface tell: it may pick at most 45% of keys (chance 20%) and pass at most 0.5% of simulated papers |
 | Each language's fields hold that language only | "the Chinese text says…", or an English abbreviation no Chinese source prints |
 
 The quote check reads `docs/text/`, the extracted text of every document in
-`docs/EN` and `docs/TC`, and `docs/quotes.json`, which holds one deciding quote
+`docs/EN` and `docs/TC`, and `docs/quotes.json`, which holds the deciding quotes
 per question and language. After adding or replacing a document, run
 `python docs/extract_text.py` (it needs PyMuPDF). The check then lists every
 quote that the new edition no longer supports.
+
+### Writing items
+
+Items are written as patches and checked before they reach the bank, with the
+tools in [`bank/`](bank/) (Python 3, standard library only):
+
+```bash
+python bank/find.py EN 02 "target market"        # a passage in a source, with page and context
+python bank/apply.py next 3 15                   # the next unused ids in module 3
+python bank/apply.py check patch.json            # validate a patch
+python bank/apply.py apply patch.json            # generate the options, merge into the bank and quotes
+python bank/show.py m3-261                       # an item with its key, traps and notes
+python bank/blind.py packet patch.json out.md    # the items without their answers, for a blind reviewer
+python bank/blind.py compare patch.json ans.json # the reviewer's verdicts against the truth
+```
+
+`bank/combo.py` builds every option set from a catalogue of symmetric templates;
+nobody writes options by hand.
 
 The method behind that table, and behind the revision pack, is written up as a
 reusable skill: see [The skill](#the-skill) below.
 
 Fonts: DM Sans and DM Mono are embedded under the SIL Open Font License; Chinese
 text uses the operating system's fonts.
+
+### Historical files
+
+All active items now have per-statement notes and quotes. The temporary
+new-format filter, one-off converter and duplicate legacy JSON snapshots
+have been removed. That migration and the first repairs reserved 1,511 IDs in
+`bank/retired-ids.json`;
+`apply.py next` skips them and `apply.py check` rejects their reuse. The final
+completion wave reserves 12 further replaced IDs, for 1,523 in total.
+The original questions and quotes remain at commit
+`7787e991cc7a5c6eb0e22f1c9216ae133f2daf27` (`v1.7.5`):
+
+```bash
+git show v1.7.5:web/questions.json
+git show v1.7.5:docs/quotes.json
+```
+
+The two later replacements, `m3-261` → `m3-322` and `m1-142` → `m1-177`,
+preserve their old questions and quotes in [the implementation record](bank/audit/implementation.json).
+The audit reports retain their historical baselines and validate the follow-up
+against current statements; run `bank/audit/report.py --check`,
+`bank/audit/terms_report.py --check`, `bank/audit/p1_report.py --check` and
+`bank/audit/remaining_report.py --check` with Python; CI runs all four.
+The later P1 additions and their final blind reviews are recorded in
+[`bank/audit/p1-implementation.json`](bank/audit/p1-implementation.json),
+which verifies the earlier bank without rewriting its audit history.
+
+The [final completion record](bank/audit/remaining-implementation.json) adds the
+remaining P2/P3 coverage and preserves each expanded question's retired snapshot.
+The validator reconstructs all preceding bank versions, including replacements,
+and binds final blind verdicts to their reviewed text. Source 16's image-only form
+labels are in `docs/transcripts/16.json`, bound to raw PDF hashes and independently
+checked; `docs/extract_text.py` inserts them on their original pages. Recheck the
+transcript whenever the PDF changes; the source tests reject stale bindings.
+
+Keep the numbered sources, extracted text, authoring guide and conflicts
+register: they are inputs to authoring and verification, not build leftovers.
 
 ## The revision pack
 
@@ -79,6 +142,7 @@ with `v`, so they never trigger a release.
 
 | Version | Date | First released in | What changed |
 |---|---|---|---|
+| 2.3.0 | 18 Oct 2026 | v1.8.0 | Adds source-first coverage audits, explicit semantic support checks, image-page and version evidence, scoring-history handling, and scope-aware review costs. Respects settled project decisions and authorization; moves conditional guard/tool detail into references. |
 | 2.2.0 | 28 Sep 2026 | v1.7.5 | Adds calibrating a mechanical filter and a cheaper model on a judged sample before a bulk review, with the numbers from this repository's quote sweep. |
 | 2.1.0 | 28 Sep 2026 | v1.7.4 | Adds the options-only guesser to the guard catalogue, and what this repository measured once it had the new checks: stored deciding quotes, convergence and echo at chance, and the guesser's results. |
 | 2.0.0 | 28 Sep 2026 | v1.7.4 | Renamed `exam-prep`. Covers the study pack and the mock-exam app as well as the bank, and makes the exam format a spec the user defines. Adds the intake questions, the conflicts register, verification against the pack, the negation, echo and twin-statement tells, and briefs for subagents. |
