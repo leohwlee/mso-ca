@@ -14710,5 +14710,745 @@
     "text": "落實第16項建議並同時符合資料保護及隱私的要求。"
    }
   ]
+ },
+ "m6-412": {
+  "en": [
+   {
+    "doc": "22",
+    "text": "Natural person PPTA: (a) full name; (b) date of birth;"
+   },
+   {
+    "doc": "22",
+    "text": "(c) nationality; and (d) unique identification number and document type."
+   },
+   {
+    "doc": "22",
+    "text": "Legal person PPTA: (a) full name; (b) date of incorporation, establishment or registration;"
+   },
+   {
+    "doc": "22",
+    "text": "(c) place of incorporation, establishment or registration (including address of registered office);"
+   },
+   {
+    "doc": "22",
+    "text": "(d) unique identification number and document type; and (e) principal place of business (if different from the address of registered office)."
+   },
+   {
+    "doc": "22",
+    "text": "For the avoidance of doubt, as indicated in paragraph 4.5.3 of the AML/CFT Guideline, the MSO is required to identify the PPTA by obtaining at least the following identification information:"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "22",
+    "text": "看似代表客戶行事的人屬自然人： (a) 全名； (b) 出生日期；"
+   },
+   {
+    "doc": "22",
+    "text": "(c) 國籍；及 (d) 獨特識別號碼及文件的類別。"
+   },
+   {
+    "doc": "22",
+    "text": "看似代表客戶行事的人屬法人： (a) 全名； (b) 註冊、成立或登記的日期；"
+   },
+   {
+    "doc": "22",
+    "text": "(c) 註冊、成立或登記的地點（包括註冊辦事處地址）；"
+   },
+   {
+    "doc": "22",
+    "text": "(d) 獨特識別號碼及文件的類別；及 (e) 主要營業地點（如與註冊辦事處地址不同）。"
+   },
+   {
+    "doc": "22",
+    "text": "金錢服務經營者最低限度應收集以下識別資料以識別看似代表客戶行事的人"
+   }
+  ]
+ },
+ "m6-413": {
+  "en": [
+   {
+    "doc": "02",
+    "text": "the customer is the beneficial owner, unless the characteristics of the transactions or other circumstances indicate otherwise. Therefore, there is no requirement on an MSO to make proactive searches for beneficial owners of the customer in such a case"
+   },
+   {
+    "doc": "02",
+    "text": "the MSO should make appropriate enquiries where there are indications that the customer is not acting on his own behalf."
+   },
+   {
+    "doc": "02",
+    "text": "exercises ultimate control over the management of the partnership; or"
+   },
+   {
+    "doc": "02",
+    "text": "an MSO should obtain satisfactory evidence of the identities of the nominees, and the persons on whose behalf they are acting"
+   },
+   {
+    "doc": "02",
+    "text": "as well as the details of arrangements in place, in order to determine who the beneficial owner is."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "02",
+    "text": "就客戶屬自然人而言，該客戶就是實益擁有人，除非交易特徵或其他情況顯示並非如此。因此，金錢服務經營者無需積極主動地去追尋該客戶的實益擁有人"
+   },
+   {
+    "doc": "02",
+    "text": "但如有跡象顯示該客戶並非代表其本身行事，則須進行適當查詢。"
+   },
+   {
+    "doc": "02",
+    "text": "行使對該合夥的管理最終的控制權；或"
+   },
+   {
+    "doc": "02",
+    "text": "金錢服務經營者應取得其信納可證明代名人及代名人所代表行事的人士的身分的證據"
+   },
+   {
+    "doc": "02",
+    "text": "以及有關安排的其他詳情，以便判斷誰是實益擁有人。"
+   }
+  ]
+ },
+ "m6-414": {
+  "en": [
+   {
+    "doc": "02",
+    "text": "Exceptions may be made to allow payments to third parties subject to the following conditions: (i) there is no suspicion of ML/TF;"
+   },
+   {
+    "doc": "02",
+    "text": "the transaction is approved by senior management, who should take account of the nature of the business of the customer before approving the transaction"
+   },
+   {
+    "doc": "02",
+    "text": "the names of recipients do not match with watch lists such as those for terrorist suspects and politically exposed persons (PEPs)."
+   },
+   {
+    "doc": "02",
+    "text": "refrain from carrying out further transactions (except to return funds or other assets in their original forms as far as possible)."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "02",
+    "text": "在下述條件規限下，或可作出例外安排而付款予第三者： (i) 沒有洗錢／恐怖分子資金籌集活動的懷疑；"
+   },
+   {
+    "doc": "02",
+    "text": "交易經高級管理層批准，而高級管理層在批准進行交易前已對業務性質作出考慮"
+   },
+   {
+    "doc": "02",
+    "text": "收款人的姓名／名稱與監察名單不吻合，例如恐怖分子嫌疑人物及政治人物。"
+   },
+   {
+    "doc": "02",
+    "text": "並避免進行進一步交易（在可行情況下將資金或其他資產以原狀退回則不在此限）。"
+   }
+  ]
+ },
+ "m6-415": {
+  "en": [
+   {
+    "doc": "02",
+    "text": "when continuing an existing business relationship with a customer who is or whose beneficial owner is a Hong Kong PEP or an international organisation PEP where the relationship subsequently becomes high risk"
+   },
+   {
+    "doc": "02",
+    "text": "when continuing an existing high risk business relationship where the MSO subsequently knows that the customer or the beneficial owner of the customer is a Hong Kong PEP or an international organisation PEP."
+   },
+   {
+    "doc": "22",
+    "text": "Such decision can only be made with the approval of the MSO’s senior management and on the basis that the PEP no longer presents a high risk of ML/TF."
+   },
+   {
+    "doc": "02",
+    "text": "records of the relevant risk assessment should be retained by the MSO as proof of compliance"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "02",
+    "text": "與本身或其實益擁有人屬香港政治人物及國際組織政治人物的客戶維持現有業務關係，而該業務關係其後變為高風險"
+   },
+   {
+    "doc": "02",
+    "text": "維持現有高風險的業務關係，而金錢服務經營者其後知悉該客戶或其實益擁有人屬香港政治人物及國際組織政治人物。"
+   },
+   {
+    "doc": "22",
+    "text": "有關決定須獲金錢服務經營者的高級管理層批准，而該政治人物須不再構成高度洗錢/恐怖分子資金籌集風險。"
+   },
+   {
+    "doc": "02",
+    "text": "金錢服務經營者應備存相關風險評估的紀錄"
+   }
+  ]
+ },
+ "m6-416": {
+  "en": [
+   {
+    "doc": "02",
+    "text": "the level of (informal) influence that the individual could still exercise"
+   },
+   {
+    "doc": "02",
+    "text": "the seniority of the position that the individual held as the PEP"
+   },
+   {
+    "doc": "02",
+    "text": "whether the individual’s previous and current function are linked in any way (e.g. formally by appointment of the PEP’s successor, or informally by the fact that the PEP continues to deal with the same substantive matters)."
+   },
+   {
+    "doc": "22",
+    "text": "The number and title of such persons will vary according to the size, type and institutional risk assessment of the MSO."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "02",
+    "text": "該名個人仍可運用的（非正式）影響力"
+   },
+   {
+    "doc": "02",
+    "text": "該名個人作為政治人物時所擔任職位的等級"
+   },
+   {
+    "doc": "02",
+    "text": "該名個人以往及現有職能是否有任何連繫（例如透過委任繼任的政治人物的正式連繫或政治人物實質上處理相同重要事務的非正式連繫）。"
+   },
+   {
+    "doc": "22",
+    "text": "至於有關人選的數目及職銜，則會因應金錢服務經營者的規模、類別及機構層面的風險評估而有所不同。"
+   }
+  ]
+ },
+ "m6-417": {
+  "en": [
+   {
+    "doc": "22",
+    "text": "If a natural person customer changes their name, an MSO should verify the new name by reference to documents, data or information provided by a reliable and independent source"
+   },
+   {
+    "doc": "22",
+    "text": "the MSO should corroborate other identification information (e.g. date of birth, Hong Kong Identity Card number) on the new identification documents against its existing records."
+   },
+   {
+    "doc": "22",
+    "text": "In case of doubt, the MSO may request a copy of applicable documentation regarding the name change (e.g. marriage certificate or deed poll)."
+   },
+   {
+    "doc": "22",
+    "text": "if a customer’s name has changed before the establishment of a business relationship, only the current name is required to be identified and verified."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "22",
+    "text": "根據可靠及獨立來源提供的文件、數據或資料，核實該新姓名。"
+   },
+   {
+    "doc": "22",
+    "text": "為減低假冒風險，金錢服務經營者應利用現有紀錄核對新身分證明文件上的其他資料（如出生日期、香港身份證號碼）。"
+   },
+   {
+    "doc": "22",
+    "text": "如有疑問，金錢服務經營者可索取與更改姓名有關的適用文件複本（如結婚證書、改名契）。"
+   },
+   {
+    "doc": "22",
+    "text": "如客戶的姓名於建立業務關係前已作更改，則只須識別和核實現時的姓名。"
+   }
+  ]
+ },
+ "m6-426": {
+  "en": [
+   {
+    "doc": "02",
+    "text": "Whenever an MSO has doubts as to the reliability of the intermediary, it should take reasonable steps to review the intermediary’s ability to perform its CDD duties."
+   },
+   {
+    "doc": "02",
+    "text": "If the MSO intends to terminate its relationship with the intermediary, it should immediately obtain all CDD information from the intermediary."
+   },
+   {
+    "doc": "02",
+    "text": "the MSO is satisfied that the domestic intermediary has adequate procedures in place to prevent ML/TF and is required to comply with the relevant requirements set out in Schedule 2 with respect to the customer"
+   },
+   {
+    "doc": "02",
+    "text": "The group policy should also be able to mitigate adequately any higher country risk in relation to the jurisdiction where the related foreign FI is located."
+   },
+   {
+    "doc": "10",
+    "text": "if the financial institution is incorporated in Hong Kong or is a re-domiciled entity, it is a branch of the financial institution;"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "02",
+    "text": "金錢服務經營者如對中介人的可靠性產生懷疑，當即採取合理步驟覆核該中介人履行其盡職審查職責的能力。"
+   },
+   {
+    "doc": "02",
+    "text": "金錢服務經營者如欲終止與中介人的關係，則應立即向中介人取得所有的盡職審查資料。"
+   },
+   {
+    "doc": "02",
+    "text": "金錢服務經營者須信納該本地中介人有充分程序以防止洗錢／恐怖分子資金籌集，並須就有關客戶遵從附表2所載的相關規定"
+   },
+   {
+    "doc": "02",
+    "text": "應能充分減低任何因相關外地金融機構所處司法管轄區而涉及的較高國家風險。"
+   },
+   {
+    "doc": "10",
+    "text": "(如該金融機構是在香港成立為法團的，或是經遷冊實體) 該另一機構是該金融機構的分行；"
+   }
+  ]
+ },
+ "m6-427": {
+  "en": [
+   {
+    "doc": "02",
+    "text": "the MSO should assess whether the customer is subject to any disclosure requirements (either by stock exchange rules, or through law or enforceable means), which impose requirements to ensure adequate transparency of beneficial ownership of the customer."
+   },
+   {
+    "doc": "02",
+    "text": "Where the MSO have a separate business relationship with the employees, it should apply CDD measures in accordance with relevant requirements set out in this Chapter."
+   },
+   {
+    "doc": "02",
+    "text": "a single premium of no more than $20,000 or an equivalent amount in any other currency is payable."
+   },
+   {
+    "doc": "02",
+    "text": "in the case where the nominee company holds fund units on behalf of the FI or the FI’s underlying customers, on its underlying customers;"
+   },
+   {
+    "doc": "02",
+    "text": "in the case where the FI acts in the capacity of a service provider (such as manager or custodian) to the investment vehicle, on the investment vehicle pursuant to the provisions of the AMLO;"
+   },
+   {
+    "doc": "02",
+    "text": "is authorised to operate the account as evidenced by contractual document or agreement."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "02",
+    "text": "金錢服務經營者應評估該客戶是否須遵守任何披露的規定（不論透過執行上巿規則抑或法律或可執行的措施），這類規定確保客戶的實益擁有權具充分透明度。"
+   },
+   {
+    "doc": "02",
+    "text": "如金錢服務經營者與僱員建立獨立的業務關係，則應根據本章所列規定執行盡識審查措施。"
+   },
+   {
+    "doc": "02",
+    "text": "須繳付的一筆整付保費不多於20,000元（或折算為任何其他貨幣的相同款額）。"
+   },
+   {
+    "doc": "02",
+    "text": "在代名人公司代表金融機構或金融機構的相關客戶持有基金單位的情況下，已對它的相關客戶進行盡職審查；"
+   },
+   {
+    "doc": "02",
+    "text": "在金融機構以投資公司的服務供應商（例如基金經理或保管人）的身分行事的情況下，已根據打擊洗錢條例的規定，對投資公司進行盡職審查；"
+   },
+   {
+    "doc": "02",
+    "text": "根據合約文件或協議獲授權操作有關帳戶。"
+   }
+  ]
+ },
+ "m6-428": {
+  "en": [
+   {
+    "doc": "02",
+    "text": "provided that it is satisfied that the investment vehicle has ensured that there are reliable systems and controls in place to conduct the CDD (including identification and verification of the identity) on the underlying investors in accordance with the requirements similar to those set out in the Schedule 2."
+   },
+   {
+    "doc": "02",
+    "text": "moneys or securities of the customer’s clients in the client account are mingled"
+   },
+   {
+    "doc": "02",
+    "text": "the client account is managed by the customer as those clients’ agent."
+   },
+   {
+    "doc": "02",
+    "text": "If a client account is opened on behalf of a single client or there are sub-accounts for each individual client where funds are not co-mingled at the MSO, the MSO should establish the identity of the underlying client(s) in addition to that of the solicitor opening the account."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "02",
+    "text": "只要其信納該投資公司已保證設有可靠的制度及管控措施，並以按照與附表2所載列相類似的規定對相關投資者執行盡職審查（包括識別及核實身分）。"
+   },
+   {
+    "doc": "02",
+    "text": "該戶口內客戶的當事人的金錢或證券已混合在一起"
+   },
+   {
+    "doc": "02",
+    "text": "該戶口是由客戶以其當事人的代理人身分管理。"
+   },
+   {
+    "doc": "02",
+    "text": "如當事人戶口是代表單一客戶開設，或每名個別客戶都開有一個附屬戶口，以及資金並沒有匯集在金錢服務經營者內，則金錢服務經營者除了核實開設戶口的律師的身分外，亦應識別相關當事人的身分。"
+   }
+  ]
+ },
+ "m6-429": {
+  "en": [
+   {
+    "doc": "02",
+    "text": "where there are doubts about the veracity or accuracy of documents or information previously obtained for the purposes of identification or verification."
+   },
+   {
+    "doc": "02",
+    "text": "Where the applicable EDD measures cannot fully mitigate the ML/TF risks identified, the MSO should take other measures to mitigate the residual risks"
+   },
+   {
+    "doc": "02",
+    "text": "the MSO should take other measures to mitigate the residual risks (e.g. placing transaction limits or restricting account functionalities)."
+   },
+   {
+    "doc": "02",
+    "text": "the MSO should take other measures to mitigate the residual risks (e.g. placing transaction limits or restricting account functionalities)."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "02",
+    "text": "對過往為識別或核實身分而取得的資料是否真實或充分存疑。"
+   },
+   {
+    "doc": "02",
+    "text": "如適用的更嚴格盡職審查措施未能完全減低所識別的洗錢／恐怖分子資金籌集風險，金錢服務經營者應採取其他措施減低剩餘風險"
+   },
+   {
+    "doc": "02",
+    "text": "金錢服務經營者應採取其他措施減低剩餘風險（例如設立交易限額或限制帳戶功能）。"
+   },
+   {
+    "doc": "02",
+    "text": "金錢服務經營者應採取其他措施減低剩餘風險（例如設立交易限額或限制帳戶功能）。"
+   }
+  ]
+ },
+ "m6-430": {
+  "en": [
+   {
+    "doc": "02",
+    "text": "The identity of a non-resident should be verified by reference to their valid travel document."
+   },
+   {
+    "doc": "02",
+    "text": "a current national (i.e. Government or State-issued) identity card bearing the photograph of the individual; or (c) current valid national (i.e. Government or State-issued) driving license 72 incorporating photographic evidence of the identity of the applicant, issued by a competent national or state authority."
+   },
+   {
+    "doc": "02",
+    "text": "For minors born in Hong Kong who are not in possession of a valid travel document or Hong Kong identity card73, their identity should be verified by reference to the minor’s Hong Kong birth certificate."
+   },
+   {
+    "doc": "02",
+    "text": "Permanent Resident Identity Card of Macau Special Administrative Region"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "02",
+    "text": "非居民的身分則應根據他們的有效旅遊證件作出核實。"
+   },
+   {
+    "doc": "02",
+    "text": "由主管的國家或政府機構簽發的有效國家（即由政府或國家簽發）駕駛執照72，執照上有照片證明申請人的身分。"
+   },
+   {
+    "doc": "02",
+    "text": "至於在香港出生而並無持有有效旅遊證件或香港身份證73的未成年人，則可根據他們的香港出生證明書來核實他們的身分。"
+   },
+   {
+    "doc": "02",
+    "text": "澳門特別行政區永久居民身分證"
+   }
+  ]
+ },
+ "m6-442": {
+  "en": [
+   {
+    "doc": "02",
+    "text": "When a cash transaction involving an amount equal to or exceeding $120,000 is undertaken by a person whose name does not appear on the mandate of an account, an MSO should ask for the person’s identity document and retain a copy to facilitate its ongoing monitoring."
+   },
+   {
+    "doc": "02",
+    "text": "When a cash transaction involving an amount equal to or exceeding $120,000 is undertaken by a person whose name does not appear on the mandate of an account, an MSO should ask for the person’s identity document and retain a copy to facilitate its ongoing monitoring."
+   },
+   {
+    "doc": "02",
+    "text": "When a cash transaction involving an amount equal to or exceeding $120,000 is undertaken by a person whose name does not appear on the mandate of an account, an MSO should ask for the person’s identity document and retain a copy to facilitate its ongoing monitoring."
+   },
+   {
+    "doc": "02",
+    "text": "When a cash transaction involving an amount equal to or exceeding $120,000 is undertaken by a person whose name does not appear on the mandate of an account, an MSO should ask for the person’s identity document and retain a copy to facilitate its ongoing monitoring."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "02",
+    "text": "如某人進行的現金交易總值涉及相等於120,000元或以上，而該人的姓名不在帳戶委託書上，金錢服務經營者應要求該人提供身分證明文件，並將該等文件的副本存檔，以便持續監察。"
+   },
+   {
+    "doc": "02",
+    "text": "如某人進行的現金交易總值涉及相等於120,000元或以上，而該人的姓名不在帳戶委託書上，金錢服務經營者應要求該人提供身分證明文件，並將該等文件的副本存檔，以便持續監察。"
+   },
+   {
+    "doc": "02",
+    "text": "如某人進行的現金交易總值涉及相等於120,000元或以上，而該人的姓名不在帳戶委託書上，金錢服務經營者應要求該人提供身分證明文件，並將該等文件的副本存檔，以便持續監察。"
+   },
+   {
+    "doc": "02",
+    "text": "如某人進行的現金交易總值涉及相等於120,000元或以上，而該人的姓名不在帳戶委託書上，金錢服務經營者應要求該人提供身分證明文件，並將該等文件的副本存檔，以便持續監察。"
+   }
+  ]
+ },
+ "m6-443": {
+  "en": [
+   {
+    "doc": "02",
+    "text": "it arises from a transaction that is carried out using a credit card, debit card or prepaid card (such as withdrawing money from a bank account through an automated teller machine with a debit card; obtaining a cash advance on a credit card; or paying for goods or services with a credit card, debit card or prepaid card);"
+   },
+   {
+    "doc": "02",
+    "text": "it arises from a transaction that is carried out using a credit card, debit card or prepaid card (such as withdrawing money from a bank account through an automated teller machine with a debit card; obtaining a cash advance on a credit card; or paying for goods or services with a credit card, debit card or prepaid card);"
+   },
+   {
+    "doc": "02",
+    "text": "it arises from a transaction that is carried out using a credit card, debit card or prepaid card (such as withdrawing money from a bank account through an automated teller machine with a debit card; obtaining a cash advance on a credit card; or paying for goods or services with a credit card, debit card or prepaid card);"
+   },
+   {
+    "doc": "02",
+    "text": "the card is not used as a payment system to effect a person-to-person transfer;"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "02",
+    "text": "因使用信用咭、扣帳咭或預付咭（例如以扣帳咭經由自動櫃員機從銀行戶口提取金錢；以信用咭取得現金墊支；或以信用咭、扣帳咭或預付咭就貨品及服務付款）進行的交易而引致；"
+   },
+   {
+    "doc": "02",
+    "text": "因使用信用咭、扣帳咭或預付咭（例如以扣帳咭經由自動櫃員機從銀行戶口提取金錢；以信用咭取得現金墊支；或以信用咭、扣帳咭或預付咭就貨品及服務付款）進行的交易而引致；"
+   },
+   {
+    "doc": "02",
+    "text": "因使用信用咭、扣帳咭或預付咭（例如以扣帳咭經由自動櫃員機從銀行戶口提取金錢；以信用咭取得現金墊支；或以信用咭、扣帳咭或預付咭就貨品及服務付款）進行的交易而引致；"
+   },
+   {
+    "doc": "02",
+    "text": "該信用咭、扣帳咭或預付咭並非用作一項支付系統以執行人對人之間轉帳；"
+   }
+  ]
+ },
+ "m2-357": {
+  "en": [
+   {
+    "doc": "10",
+    "text": "a licensed insurance broker company that operates a money service that is ancillary to the company’s principal business;"
+   },
+   {
+    "doc": "10",
+    "text": "a licensed individual insurance agent or a licensed insurance agency that operates a money service that is ancillary to the agent’s or agency’s principal business;"
+   },
+   {
+    "doc": "10",
+    "text": "a licensed individual insurance agent or a licensed insurance agency that operates a money service that is ancillary to the agent’s or agency’s principal business;"
+   },
+   {
+    "doc": "10",
+    "text": "a system operator or settlement institution of a designated retail payment system that operates a money service that is ancillary to its business as a system operator or settlement institution;"
+   },
+   {
+    "doc": "10",
+    "text": "a stablecoin licensee that operates a money service that is a business activity of the licensee under its stablecoin licence"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "10",
+    "text": "經營金錢服務的持牌保險經紀公司( 前提是該服務附屬於該公司的主要業務)；"
+   },
+   {
+    "doc": "10",
+    "text": "經營金錢服務的持牌個人保險代理或持牌保險代理機構( 前提是該服務附屬於該代理或該機構的主要業務)；"
+   },
+   {
+    "doc": "10",
+    "text": "經營金錢服務的持牌個人保險代理或持牌保險代理機構( 前提是該服務附屬於該代理或該機構的主要業務)；"
+   },
+   {
+    "doc": "10",
+    "text": "經營金錢服務的指定零售支付系統的系統營運者或交收機構( 前提是該服務附屬於其作為系統營運者或交收機構的業務)；"
+   },
+   {
+    "doc": "10",
+    "text": "經營符合以下說明的金錢服務的穩定幣持牌人：該金錢服務是該持牌人在其穩定幣牌照下的業務活動"
+   }
+  ]
+ },
+ "m2-358": {
+  "en": [
+   {
+    "doc": "10",
+    "text": "omits a material particular from a statement with the result that the statement is rendered false or misleading;"
+   },
+   {
+    "doc": "10",
+    "text": "knows that, or is reckless as to whether, the material particular is omitted from the statement."
+   },
+   {
+    "doc": "10",
+    "text": "knows that, or is reckless as to whether, the material particular is omitted from the statement."
+   },
+   {
+    "doc": "10",
+    "text": "knows that, or is reckless as to whether, the material particular is omitted from the statement."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "10",
+    "text": "在某項陳述中遺漏任何要項，以致該項陳述成為虛假或具誤導性的陳述；"
+   },
+   {
+    "doc": "10",
+    "text": "知道該項陳述遺漏該要項，或罔顧該項陳述是否遺漏該要項，"
+   },
+   {
+    "doc": "10",
+    "text": "知道該項陳述遺漏該要項，或罔顧該項陳述是否遺漏該要項，"
+   },
+   {
+    "doc": "10",
+    "text": "知道該項陳述遺漏該要項，或罔顧該項陳述是否遺漏該要項，"
+   }
+  ]
+ },
+ "m4-366": {
+  "en": [
+   {
+    "doc": "09",
+    "text": "the CCE will not automatically link the fine imposed in any particular case with the profit gained, or costs avoided."
+   },
+   {
+    "doc": "09",
+    "text": "whether the MSO attempted to conceal its contravention;"
+   },
+   {
+    "doc": "09",
+    "text": "any remedial steps taken since the contravention or the possible contravention was identified, and any action taken by the MSO against those involved and any steps taken to ensure that similar contraventions will not occur in future;"
+   },
+   {
+    "doc": "09",
+    "text": "any punishment imposed or regulatory action taken or likely to be taken by other relevant authorities on the same incident."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "09",
+    "text": "但關長不會將任何特定個案的罰款額，與違規者所獲得的利潤或避免的開支金額自動掛鈎。"
+   },
+   {
+    "doc": "09",
+    "text": "該金錢服務經營者有否嘗試隱瞞該違規行為；"
+   },
+   {
+    "doc": "09",
+    "text": "自該違規或可能違規行為被發現後，有關金錢服務經營者有否採取任何補救措施，以及有否向所涉人士採取任何行動及措施，以確保類似的違規行為日後不會發生；"
+   },
+   {
+    "doc": "09",
+    "text": "其他有關當局就相同事件施加的任何懲罰或所採取或相當可能會採取的監管行動。"
+   }
+  ]
+ },
+ "m1-178": {
+  "en": [
+   {
+    "doc": "02",
+    "text": "an MSO operating internationally will need to be aware of the scope and focus of relevant sanctions regimes in those jurisdictions."
+   },
+   {
+    "doc": "02",
+    "text": "Where these sanctions regimes may affect its operations, the MSO should consider what implications exist and take appropriate measures."
+   },
+   {
+    "doc": "02",
+    "text": "persons or entities acting on the behalf of or at the direction of the designated persons or entities, or owned or controlled by them,"
+   },
+   {
+    "doc": "02",
+    "text": "persons or entities acting on the behalf of or at the direction of the designated persons or entities, or owned or controlled by them, or (iii) entities owned by the aforementioned;"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "02",
+    "text": "但經營國際業務的金錢服務經營者仍須注意該等司法管轄區的相關制裁制度的範疇及重點。"
+   },
+   {
+    "doc": "02",
+    "text": "如這些制裁制度可能對金錢服務經營者的業務構成影響，則金錢服務經營者應考慮這會引致甚麼影響，並採取適當措施。"
+   },
+   {
+    "doc": "02",
+    "text": "向代表被指認的個人或實體、按其指示行事，或由其擁有或控制的一干個人或實體、"
+   },
+   {
+    "doc": "02",
+    "text": "向代表被指認的個人或實體、按其指示行事，或由其擁有或控制的一干個人或實體、或 (iii) 向上文所述者擁有的實體"
+   }
+  ]
+ },
+ "m4-373": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "the bank account must be in the name of the licensee’s company, the sole proprietor, partner, director or ultimate owner of the licensee."
+   },
+   {
+    "doc": "03",
+    "text": "the bank account must be in the name of the licensee’s company, the sole proprietor, partner, director or ultimate owner of the licensee."
+   },
+   {
+    "doc": "03",
+    "text": "the bank account must be in the name of the licensee’s company, the sole proprietor, partner, director or ultimate owner of the licensee."
+   },
+   {
+    "doc": "03",
+    "text": "the bank account must be in the name of the licensee’s company, the sole proprietor, partner, director or ultimate owner of the licensee."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "該銀行帳戶必須屬持牌人公司、持牌人的獨資經營者、合夥人、董事或最終擁有人名下。"
+   },
+   {
+    "doc": "03",
+    "text": "該銀行帳戶必須屬持牌人公司、持牌人的獨資經營者、合夥人、董事或最終擁有人名下。"
+   },
+   {
+    "doc": "03",
+    "text": "該銀行帳戶必須屬持牌人公司、持牌人的獨資經營者、合夥人、董事或最終擁有人名下。"
+   },
+   {
+    "doc": "03",
+    "text": "該銀行帳戶必須屬持牌人公司、持牌人的獨資經營者、合夥人、董事或最終擁有人名下。"
+   }
+  ]
  }
 }

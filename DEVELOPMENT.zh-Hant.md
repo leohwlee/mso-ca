@@ -71,7 +71,7 @@ git show v1.7.5:web/questions.json
 git show v1.7.5:docs/quotes.json
 ```
 
-其後替換的`m3-261` → `m3-322`及`m1-142` → `m1-177`，原題及引文另保存於[實施記錄](bank/audit/implementation.json)。覆蓋報告保留原審核基線，並以現行題句核驗補題結果；請用Python執行`bank/audit/report.py --check`及`bank/audit/terms_report.py --check`。
+其後替換的`m3-261` → `m3-322`及`m1-142` → `m1-177`，原題及引文另保存於[實施記錄](bank/audit/implementation.json)。覆蓋報告保留原審核基線，並以現行題句核驗補題結果；請用Python執行`bank/audit/report.py --check`、`bank/audit/terms_report.py --check`及`bank/audit/p1_report.py --check`。後續P1補題及最終盲答另見[P1實施記錄](bank/audit/p1-implementation.json)，不會改寫前輪審核歷史。
 
 編號來源文件、擷取文字、撰寫指南及來源矛盾決定冊仍用於出題及核對，應繼續保留。
 

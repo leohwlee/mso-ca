@@ -94,8 +94,11 @@ git show v1.7.5:docs/quotes.json
 The two later replacements, `m3-261` → `m3-322` and `m1-142` → `m1-177`,
 preserve their old questions and quotes in [the implementation record](bank/audit/implementation.json).
 The audit reports retain their historical baselines and validate the follow-up
-against current statements; run both `bank/audit/report.py --check` and
-`bank/audit/terms_report.py --check` with Python.
+against current statements; run `bank/audit/report.py --check`,
+`bank/audit/terms_report.py --check` and `bank/audit/p1_report.py --check` with Python.
+The later P1 additions and their final blind reviews are recorded in
+[`bank/audit/p1-implementation.json`](bank/audit/p1-implementation.json),
+which verifies the earlier bank without rewriting its audit history.
 
 Keep the numbered sources, extracted text, authoring guide and conflicts
 register: they are inputs to authoring and verification, not build leftovers.

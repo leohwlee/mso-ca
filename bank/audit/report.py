@@ -89,7 +89,9 @@ def validate(d):
                 module_counts=dict(collections.Counter(str(q['module']) for q in bank)))
 
 def render(d,v):
-    implementation=load_state()['implementation']
+    state=load_state()
+    implementation=state['implementation']
+    p1=state.get('p1_implementation')
     ts=d['topics']; stats=collections.Counter(t['status'] for t in ts)
     pending=[b for b in d['backlog'] if b['status']!='completed']
     new=[b for b in pending if b['action']=='add']
@@ -168,6 +170,16 @@ def render(d,v):
             elif line.startswith('用户进一步明确'):readme[i]='专项报告保留299题审核基线，并另列本轮21题／92个新增题句、两道修订替代题及逐项落实状态。该专项与总体补题任务有重叠，不可将两张清单的数量相加。'
             elif line.startswith('- 本次针对23份归档材料'):readme[i]='- 23份归档仍为既定范围。17日重新下载的02–09、19–21双语文件与归档完全一致，FAQ实质段落与官网一致；其他资料保留原核验日期。条例官网被客户端检查页阻挡，未确认其最新版本；此次仍按已归档条例出题。'
         readme+=['','新增题、最终盲答、改动裁决、退役快照及覆盖依据见[实施记录](implementation.json)。本轮77条P1/P2来源缺口映射均有直接题句支持；不是77个独立考点或77道题。','']
+    if p1:
+        readme[2]='剩余P1流程、条件及例外任务已逐项落实。职责、身份与定义专项及已知旧题修正继续保留原记录；下一批为P2细节及P3可选内容。'
+        readme.insert(readme.index('- [名词、机构职能及角色分工专项检查](TERMS-AND-ROLES.md)')+1,
+                      '- [P1流程、条件及例外逐项补题](P1-PROCESSES.md)')
+        readme+=['','## P1流程、条件及例外补题','',
+                 f'本轮核对{len(p1["task_results"])}项剩余P1任务，新增{p1["statistics"]["new_questions"]}题、{p1["statistics"]["new_statements"]}个题句。已覆盖的细节沿用现题句证据，未重复出题。',
+                 '', '[逐项落实、剩余边界及审核结果](P1-PROCESSES.md) · [最终盲答与快照](p1-implementation.json)', '']
+        for i,line in enumerate(readme):
+            if line.startswith('经营账户任务B16尚有'):readme[i]='B16已按《牌照指引》第11.1(j)段直接测试准许户名清单。新题不解释或扩张《业务计划指引》第8项未定义的“第三方”一词；此跨文件边界仍如实保留。'
+        details[4]+=' 本轮P1任务的后续落实另见[P1流程补题记录](P1-PROCESSES.md)；下表不改写历史基线。'
     return {'README.md':'\n'.join(readme),'COVERAGE.md':'\n'.join(details)}
 
 def main():

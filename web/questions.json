@@ -2401,6 +2401,80 @@
   }
  },
  {
+  "id": "m1-178",
+  "module": 1,
+  "truth": [
+   true,
+   true,
+   false,
+   true
+  ],
+  "options": [
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    1,
+    2,
+    4
+   ],
+   [
+    2,
+    3,
+    4
+   ],
+   [
+    1,
+    3,
+    4
+   ],
+   "all"
+  ],
+  "answer": 1,
+  "traps": [
+   null,
+   null,
+   "scope",
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline ¶6.7(a)(ii)–(iii) and ¶6.11",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》第6.7(a)(ii)至(iii)及6.11段"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which statements about the reach of financial sanctions and an MSO’s international operations are correct?",
+   "statements": [
+    "An MSO operating internationally needs to understand the scope and focus of relevant sanctions regimes in those jurisdictions, despite the usual position under Hong Kong law.",
+    "Where relevant foreign sanctions regimes may affect its operations, an MSO should consider their implications and take appropriate measures, before an actual effect is established.",
+    "Without a Chief Executive’s licence, the UNSO prohibition on providing funds covers entities owned by designated persons, but excludes entities merely controlled by them.",
+    "Without a Chief Executive’s licence, the prohibition also reaches funds supplied to an entity owned by a person who acts on behalf of a designated person or entity."
+   ],
+   "notes": [
+    "Correct: ¶6.11 says an internationally operating MSO “will need to be aware of the scope and focus” of relevant sanctions regimes there.",
+    "Correct: ¶6.11 uses “may affect its operations”, followed by considering the implications and taking appropriate measures; it does not wait for an actual impact.",
+    "False: ¶6.7(a)(ii) includes persons or entities “owned or controlled” by designated persons or entities; ownership is not required where control exists.",
+    "Correct: ¶6.7(a)(ii) names persons acting on behalf of designated parties, and (iii) extends the prohibition to “entities owned by the aforementioned”."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關金融制裁的涵蓋範圍及金錢服務經營者國際業務的陳述，哪些正確？",
+   "statements": [
+    "經營國際業務的金錢服務經營者仍須注意該等司法管轄區相關制裁制度的範疇及重點，不能因香港法律的一般立場而略過。",
+    "如其他司法管轄區的相關制裁制度可能對業務構成影響，金錢服務經營者應考慮其影響並採取適當措施，無須等到確定已有實際影響才處理。",
+    "未獲行政長官特許時，《聯合國制裁條例》禁止提供資金的範圍包括被指認個人擁有的實體，但不包括僅由其控制的實體。",
+    "未獲行政長官特許時，如某人代表被指認的個人或實體行事，向該人所擁有的實體提供資金，亦在禁止範圍之內。"
+   ],
+   "notes": [
+    "正確：第6.11段規定經營國際業務的金錢服務經營者「仍須注意」該等司法管轄區相關制裁制度的範疇及重點。",
+    "正確：第6.11段以「可能」對業務構成影響為條件，要求考慮影響並採取適當措施，並非等待實際影響已經發生。",
+    "錯誤：第6.7(a)(ii)段包括由被指認個人或實體「擁有或控制」的個人或實體；不能把僅受控制的實體排除。",
+    "正確：第6.7(a)(ii)段包括代表被指認個人或實體行事的人，(iii)再涵蓋「上文所述者擁有的實體」。"
+   ]
+  }
+ },
+ {
   "id": "m2-ca2",
   "module": 2,
   "truth": [
@@ -6370,6 +6444,156 @@
     "不正確：《適用於所有金錢服務經營者的常見問題》發牌常見問題答4列明「海關關長(「關長」)是「打擊洗錢條例」下的有關當局」。金錢服務經營者及郵政署署長的有關當局均為海關關長。",
     "正確：《打擊洗錢條例》第12(1)(c)條列明「調查員有合理因由相信，該人以其他方式管有攸關根據第11條進行的調查的資料」。",
     "正確：《打擊洗錢條例》第5(7)條列明「任何屬金融機構的僱員、或受僱為金融機構工作、或關涉金融機構的管理的人，如明知而致使或明知而准許該機構違反指明的條文，即屬犯罪」。"
+   ]
+  }
+ },
+ {
+  "id": "m2-357",
+  "module": 2,
+  "truth": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "options": [
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    1,
+    2,
+    4
+   ],
+   [
+    1,
+    3,
+    5
+   ],
+   [
+    1,
+    4,
+    5
+   ],
+   "all"
+  ],
+  "answer": 2,
+  "traps": [
+   null,
+   "condition",
+   null,
+   "scope",
+   null
+  ],
+  "source": {
+   "en": "AMLO s.25(d), (e), (g) and (h)",
+   "tc": "《打擊洗錢條例》第25(d)、(e)、(g)及(h)條"
+  },
+  "en": {
+   "q": "For which of these institutions and money services does Part 5 of the AMLO, regulating money service operations, not apply?",
+   "statements": [
+    "A licensed insurance broker company operating a money service that is ancillary to the company’s own principal business as an insurance broker.",
+    "A licensed individual insurance agent whose money service is ancillary to the insurer’s principal business, but not to the agent’s principal business.",
+    "A licensed insurance agency operating a money service that is ancillary to its own principal business, rather than a principal money service business.",
+    "A designated retail payment system’s settlement institution whose money service is ancillary to its retail business, unrelated to its settlement business.",
+    "A stablecoin licensee operating a money service that is a business activity of the licensee under its stablecoin licence, as specified in the AMLO."
+   ],
+   "notes": [
+    "Correct: s.25(d) excludes a licensed insurance broker company where the money service is “ancillary to the company’s principal business”.",
+    "False: s.25(e) requires the money service to be ancillary to the agent’s or agency’s own principal business, not merely to the insurer’s business.",
+    "Correct: s.25(e) also names licensed insurance agencies, subject to the same requirement that the service be ancillary to their principal business.",
+    "False: s.25(g) requires the service to be ancillary to the institution’s business “as a system operator or settlement institution”, not an unrelated retail business.",
+    "Correct: s.25(h) uses the business-activity-under-the-stablecoin-licence condition. Merely holding a stablecoin licence does not satisfy it for unrelated money services."
+   ]
+  },
+  "tc": {
+   "q": "就以下機構及其經營的金錢服務，哪些不適用《打擊洗錢條例》第5部規管金錢服務營運的條文？",
+   "statements": [
+    "持牌保險經紀公司經營一項金錢服務，而該服務附屬於該公司本身作為保險經紀的主要業務。",
+    "持牌個人保險代理經營金錢服務，而該服務附屬於保險人的主要業務，並非附屬於該代理本身的主要業務。",
+    "持牌保險代理機構經營金錢服務，而該服務附屬於該機構本身的主要業務，並非以金錢服務為主要業務。",
+    "指定零售支付系統的交收機構經營金錢服務，而該服務附屬於其零售業務，與其作為交收機構的業務無關。",
+    "穩定幣持牌人經營金錢服務，而該服務是《打擊洗錢條例》所指的該持牌人在其穩定幣牌照下的業務活動。"
+   ],
+   "notes": [
+    "正確：第25(d)條規定，持牌保險經紀公司經營的金錢服務須附屬於該公司本身的主要業務，方不適用第5部。",
+    "錯誤：第25(e)條的附屬業務條件針對該代理或代理機構本身的主要業務，不能以附屬於保險人的主要業務代替。",
+    "正確：第25(e)條亦列明持牌保險代理機構，而金錢服務須附屬於該機構的主要業務。",
+    "錯誤：第25(g)條要求金錢服務附屬於其「作為系統營運者或交收機構的業務」，與此無關的零售業務並不符合。",
+    "正確：第25(h)條的條件是金錢服務屬於持牌人在其穩定幣牌照下的業務活動；單憑持有穩定幣牌照，不能把無關的金錢服務納入豁免。"
+   ]
+  }
+ },
+ {
+  "id": "m2-358",
+  "module": 2,
+  "truth": [
+   false,
+   true,
+   false,
+   true
+  ],
+  "options": [
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    4
+   ],
+   "all"
+  ],
+  "answer": 2,
+  "traps": [
+   "condition",
+   null,
+   "qualifier",
+   null
+  ],
+  "source": {
+   "en": "AMLO s.52(2)(a)–(b)",
+   "tc": "《打擊洗錢條例》第52(2)(a)至(b)條"
+  },
+  "en": {
+   "q": "A person omits a material particular from a statement connected with a licence grant or renewal application. Which statements about the omission offence are correct?",
+   "statements": [
+    "An omission that leaves the statement neither false nor misleading still satisfies the result element, if the person knows that the material particular was omitted.",
+    "An omission making the statement misleading can constitute the offence where the person is reckless as to whether the material particular is omitted from it.",
+    "Proof that the omission makes the statement false establishes the offence even if the person neither knows of the omission nor is reckless as to whether it occurred.",
+    "Where a known omission makes the statement false or misleading, the mental element concerns knowledge of the omission, not separate knowledge that the result is misleading."
+   ],
+   "notes": [
+    "False: s.52(2)(a) requires the omission to render the statement false or misleading; knowledge of the omission cannot replace that result.",
+    "Correct: s.52(2)(b) permits recklessness as to omission as an alternative to knowledge, while s.52(2)(a) still requires the false or misleading result.",
+    "False: s.52(2)(b) also requires knowledge of, or recklessness as to, the omission. The false result alone does not establish both elements.",
+    "Correct: s.52(2)(b) says the person knows that “the material particular is omitted”; the resulting false or misleading statement is the separate requirement in s.52(2)(a)."
+   ]
+  },
+  "tc": {
+   "q": "某人在與批給牌照或續牌申請有關連的陳述中遺漏要項。以下有關遺漏要項罪行的陳述，哪些正確？",
+   "statements": [
+    "即使遺漏要項並沒有使陳述成為虛假或具誤導性，只要該人知道要項已被遺漏，便已符合罪行所要求的結果要件。",
+    "遺漏要項導致陳述具誤導性，而該人罔顧陳述是否遺漏該要項，便可構成罪行；無須證明該人實際知道有關遺漏。",
+    "只要證明遺漏要項使陳述成為虛假，即可成立罪行，即使該人既不知道有關遺漏，也沒有罔顧要項是否被遺漏。",
+    "如明知要項被遺漏，而遺漏使陳述成為虛假或具誤導性，主觀要件針對知道遺漏，並非另須知道所造成的結果具誤導性。"
+   ],
+   "notes": [
+    "錯誤：第52(2)(a)條要求遺漏要項「以致」陳述成為虛假或具誤導性；知道要項被遺漏，不能取代這個結果要件。",
+    "正確：第52(2)(b)條把罔顧是否遺漏要項列為知道遺漏以外的另一種主觀狀態；同時仍須符合(a)的虛假或具誤導性結果。",
+    "錯誤：第52(2)(b)條亦要求知道要項被遺漏，或罔顧是否遺漏；單憑陳述成為虛假的結果，並未符合全部要件。",
+    "正確：第52(2)(b)條所指的是「知道該項陳述遺漏該要項」；陳述因遺漏而成為虛假或具誤導性，是(a)另列的結果要件。"
    ]
   }
  },
@@ -13896,6 +14120,150 @@
     "正確：第4.4(b)段訂明「該處所被宣傳（包括展示招牌）為用作會見客戶的處所」。",
     "正確：第25條訂明第5部不適用於政府。此豁免限於規管金錢服務營運的第5部，並非整部條例的全面豁免。",
     "正確：第25(f)條就附帶於儲值支付工具持牌人主要業務的金錢服務，豁免該持牌人受第5部規限，並非豁免整部條例。"
+   ]
+  }
+ },
+ {
+  "id": "m4-366",
+  "module": 4,
+  "truth": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "options": [
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    4
+   ],
+   "all"
+  ],
+  "answer": 4,
+  "traps": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "source": {
+   "en": "Disciplinary Fining Guideline (May 2018) ¶6, ¶9(b)(i)–(ii) and ¶9(c)(iii)",
+   "tc": "《紀律處分罰款指引》（2018年5月）第6、9(b)(i)至(ii)及9(c)(iii)段"
+  },
+  "en": {
+   "q": "Under the Disciplinary Fining Guideline, which statements about setting a pecuniary penalty and assessing a contravention are correct?",
+   "statements": [
+    "Although three times the profit gained or costs avoided is one alternative maximum, the CCE does not automatically link the actual fine to that profit or saving.",
+    "In assessing conduct after a contravention, the CCE considers whether the MSO attempted to conceal it; the factor is not confined to successful concealment.",
+    "After a contravention or possible contravention is identified, the CCE considers remedial steps, action against those involved, and steps to prevent similar breaches.",
+    "For the same incident, the CCE takes account of other relevant authorities’ punishment and regulatory action, including action likely to be taken but not yet taken."
+   ],
+   "notes": [
+    "Correct: ¶6 distinguishes the alternative statutory maximum from the actual fine, which the CCE “will not automatically link” to profit gained or costs avoided.",
+    "Correct: ¶9(b)(i) asks whether the MSO “attempted to conceal” the contravention. A failed attempt is still an attempt.",
+    "Correct: ¶9(b)(ii) lists remediation, action against those involved and steps to ensure similar contraventions do not recur.",
+    "Correct: ¶9(c)(iii) includes punishment imposed and regulatory action “taken or likely to be taken” by other relevant authorities on the same incident."
+   ]
+  },
+  "tc": {
+   "q": "根據《紀律處分罰款指引》，以下有關釐定罰款及評估違規行為的陳述，哪些正確？",
+   "statements": [
+    "雖然所獲利潤或所避免開支的三倍是其中一項罰款最高額，關長不會自動把特定個案的實際罰款與該利潤或節省的開支掛鈎。",
+    "評估金錢服務經營者作出違規行為後的表現時，關長會考慮其有否嘗試隱瞞違規行為；這項因素並不限於成功隱瞞的情況。",
+    "發現違規或可能違規行為後，關長會考慮有關補救措施、對涉事人士採取的行動，以及為確保類似違規行為不再發生而採取的措施。",
+    "就相同事件，關長會考慮其他有關當局施加的懲罰及監管行動，包括尚未採取但相當可能會採取的監管行動。"
+   ],
+   "notes": [
+    "正確：第6段區分罰款的法定最高額與特定個案的罰款額，訂明關長不會把實際罰款與所獲利潤或所避免開支「自動掛鈎」。",
+    "正確：第9(b)(i)段所列因素是有否「嘗試隱瞞」違規行為，並沒有要求隱瞞成功。",
+    "正確：第9(b)(ii)段列明發現違規或可能違規後的補救、向所涉人士採取的行動，以及防止類似違規再發的措施。",
+    "正確：第9(c)(iii)段包括其他有關當局就相同事件施加的懲罰，及「所採取或相當可能會採取」的監管行動。"
+   ]
+  }
+ },
+ {
+  "id": "m4-373",
+  "module": 4,
+  "truth": [
+   true,
+   true,
+   true,
+   false
+  ],
+  "options": [
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    1,
+    2,
+    4
+   ],
+   [
+    2,
+    3,
+    4
+   ],
+   [
+    1,
+    3,
+    4
+   ],
+   "all"
+  ],
+  "answer": 0,
+  "traps": [
+   null,
+   null,
+   null,
+   "offlist"
+  ],
+  "source": {
+   "en": "Licensing Guide (May 2026) ¶11.1(j)",
+   "tc": "《牌照指引》（2026年5月）第11.1(j)段"
+  },
+  "en": {
+   "q": "Under the Licensing Guide, which statements about the names in which accounts for a licensee’s money service business may be held are correct?",
+   "statements": [
+    "Where bank accounts are used for its money service business, a licensee may hold an account in the name of its own company.",
+    "An operating bank account may be held in the name of the licensee’s sole proprietor, partner or director under the Licensing Guide.",
+    "The licensee’s ultimate owner is a permitted named holder of a bank account used for operating the money service business.",
+    "Appointment as MLRO, without a listed account-holder capacity, qualifies that person’s bank account for the licensee’s business use."
+   ],
+   "notes": [
+    "Correct: ¶11.1(j) includes the licensee’s company among the permitted account names where bank accounts are used for the money service business.",
+    "Correct: ¶11.1(j) also permits the bank account to be in the name of the sole proprietor, partner or director of the licensee.",
+    "Correct: ¶11.1(j) expressly includes the ultimate owner of the licensee among the permitted account names.",
+    "False: ¶11.1(j) lists the licensee’s company, sole proprietor, partner, director or ultimate owner. Appointment as MLRO alone is not a listed account-holder capacity."
+   ]
+  },
+  "tc": {
+   "q": "根據《牌照指引》，下列哪些關於用以經營持牌人金錢服務業務的銀行帳戶的戶名的陳述正確？",
+   "statements": [
+    "如持牌人使用銀行帳戶經營金錢服務業務，銀行帳戶可以屬持牌人公司名下，符合《牌照指引》的戶名規定。",
+    "根據《牌照指引》，用以經營金錢服務業務的銀行帳戶，可以屬持牌人的獨資經營者、合夥人或董事名下。",
+    "根據《牌照指引》，持牌人的最終擁有人是獲准名列用以經營金錢服務業務的銀行帳戶的持有人之一。",
+    "單憑獲委任為持牌人的洗錢報告主任，即使不具《牌照指引》所列任何帳戶持有人身分，已可使用其名下帳戶經營金錢服務。"
+   ],
+   "notes": [
+    "正確：第11.1(j)段規定，如有使用銀行帳戶經營金錢服務業務，持牌人公司是獲准的戶名之一。",
+    "正確：第11.1(j)段亦准許該銀行帳戶屬持牌人的獨資經營者、合夥人或董事名下。",
+    "正確：第11.1(j)段明確將持牌人的最終擁有人列為獲准的銀行帳戶戶名之一。",
+    "不正確：第11.1(j)段列出持牌人公司、獨資經營者、合夥人、董事或最終擁有人。單憑獲委任為洗錢報告主任，並不具列明的帳戶持有人身分。"
    ]
   }
  },
@@ -22842,6 +23210,1004 @@
     "錯誤：第4.12.1段以打擊洗錢條例生效的「2012年4月1日」為界線，並非2018年4月1日。",
     "錯誤：第10.5段附註70說客戶識別號碼與獨特交易參考編號「並不相同」；兩者並非同一號碼。",
     "正確：附錄A第3段要求持有人照片，以及所列的身分及國籍或居留地資料；旅遊證件並不限於護照。"
+   ]
+  }
+ },
+ {
+  "id": "m6-412",
+  "module": 6,
+  "truth": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "options": [
+   [
+    1,
+    2,
+    3,
+    6
+   ],
+   [
+    1,
+    4,
+    5,
+    6
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "all"
+  ],
+  "answer": 2,
+  "traps": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   "scope"
+  ],
+  "source": {
+   "en": "AML/CFT Guideline ¶4.5.3; FAQ applicable to all MSOs, AML/CFT A12; Circular MSSB/MIS_03/2023, Appendix (3)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.5.3段；《適用於所有金錢服務經營者的常見問題》打擊洗錢及恐怖分子資金籌集部分答12；通函MSSB/MIS_03/2023附錄第(3)項"
+  },
+  "en": {
+   "q": "Which of the following are correct about identifying a person purporting to act on behalf of a customer (PPTA)?",
+   "statements": [
+    "Under the identification and verification rules for a natural person customer, the MSO should collect a natural person PPTA's full name and date of birth as part of the minimum information.",
+    "When identifying a PPTA who is a natural person, the MSO should collect the person's nationality, unique identification number and document type as part of the minimum identification information.",
+    "Under the identification and verification rules for a legal person customer, a legal person PPTA's minimum information includes its full name and date of incorporation, establishment or registration.",
+    "When identifying a PPTA who is a legal person, the minimum information includes the place of incorporation, establishment or registration, including the address of the entity's registered office.",
+    "For a legal person PPTA, the minimum information includes its unique identification number and document type, and its principal place of business if different from its registered office address.",
+    "In a low-risk relationship, using a PPTA list confirmed by the customer's independent department to verify identities also dispenses with collecting the minimum identification information for those PPTAs."
+   ],
+   "notes": [
+    "True: FAQ A12 lists 'full name' and 'date of birth' for a natural person PPTA; Guideline ¶4.5.3 applies the corresponding natural-person customer requirements.",
+    "True: FAQ A12 lists 'nationality' and 'unique identification number and document type' for a natural person PPTA.",
+    "True: FAQ A12 lists 'full name' and 'date of incorporation, establishment or registration' for a legal person PPTA; ¶4.5.3 applies the corresponding legal-person customer identification and verification requirements.",
+    "True: FAQ A12 requires the 'place of incorporation, establishment or registration', expressly including the 'address of registered office'.",
+    "True: FAQ A12 lists the identification number and document type, then 'principal place of business (if different from the address of registered office)'.",
+    "False: FAQ A12 permits the confirmed list for verification in low-risk relationships but expressly still requires the MSO 'to identify the PPTA by obtaining at least' the listed information. The verification alternative does not waive identification."
+   ]
+  },
+  "tc": {
+   "q": "關於識別看似代表客戶行事的人，下列哪些陳述正確？",
+   "statements": [
+    "按自然人客戶的識別及核實規定處理屬自然人的看似代表客戶行事的人時，金錢服務經營者最低限度應收集的資料包括全名及出生日期。",
+    "識別屬自然人的看似代表客戶行事的人時，金錢服務經營者最低限度應收集的識別資料，包括國籍、獨特識別號碼及文件的類別。",
+    "按法人客戶的識別及核實規定處理屬法人的看似代表客戶行事的人時，最低限度應收集的資料包括全名及註冊、成立或登記的日期。",
+    "識別屬法人的看似代表客戶行事的人時，最低限度應收集的識別資料，包括註冊、成立或登記的地點，其中包括註冊辦事處地址。",
+    "就屬法人的看似代表客戶行事的人，最低識別資料包括獨特識別號碼及文件的類別，以及主要營業地點（如與註冊辦事處地址不同）。",
+    "在低風險業務關係中，使用客戶內部獨立部門核實的名單核實看似代表客戶行事的人的身分，亦可免除收集此等人士的最低識別資料。"
+   ],
+   "notes": [
+    "正確：常見問題答12就屬自然人的看似代表客戶行事的人列明「全名」及「出生日期」；指引第4.5.3段適用相應的自然人客戶規定。",
+    "正確：常見問題答12就屬自然人的看似代表客戶行事的人列明「國籍」及「獨特識別號碼及文件的類別」。",
+    "正確：常見問題答12就屬法人的看似代表客戶行事的人列明「全名」及「註冊、成立或登記的日期」；第4.5.3段適用相應的法人客戶識別及核實規定。",
+    "正確：常見問題答12要求「註冊、成立或登記的地點」，並明確包括「註冊辦事處地址」。",
+    "正確：常見問題答12列明獨特識別號碼及文件類別，以及「主要營業地點（如與註冊辦事處地址不同）」。",
+    "錯誤：常見問題答12容許低風險關係使用經核實名單核實身分，但仍明言「最低限度應收集以下識別資料」。替代核實方式沒有免除識別資料的收集。"
+   ]
+  }
+ },
+ {
+  "id": "m6-413",
+  "module": 6,
+  "truth": [
+   true,
+   true,
+   true,
+   false,
+   true
+  ],
+  "options": [
+   [
+    1,
+    2,
+    3,
+    4
+   ],
+   [
+    1,
+    2,
+    3,
+    5
+   ],
+   [
+    1,
+    2,
+    4,
+    5
+   ],
+   [
+    2,
+    3,
+    4,
+    5
+   ],
+   "all"
+  ],
+  "answer": 1,
+  "traps": [
+   null,
+   null,
+   null,
+   "actor",
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline ¶4.4.5, 4.4.7, 4.4.18",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.4.5、4.4.7及4.4.18段"
+  },
+  "en": {
+   "q": "Which of the following are correct about identifying beneficial owners of customers?",
+   "statements": [
+    "For a natural person customer, unless transaction characteristics or other circumstances indicate otherwise, the customer is the beneficial owner and proactive searches for beneficial owners are not required.",
+    "Where there are indications that a natural person customer is acting for someone else, the MSO should make appropriate enquiries instead of relying on the usual position that the customer is the beneficial owner.",
+    "An individual exercising ultimate control over the management of a partnership customer is a beneficial owner on that basis, even without an entitlement to more than 25% of its capital or profits.",
+    "For a customer with nominee shareholders in its ownership structure, the MSO should obtain satisfactory identity evidence for both the nominees and the customer's directors as the parties to the nominee arrangement.",
+    "For a customer identified as having nominee shareholders in its ownership structure, the MSO should obtain details of the arrangements in place in order to determine who the beneficial owner is."
+   ],
+   "notes": [
+    "True: ¶4.4.5 makes the natural person customer the beneficial owner 'unless the characteristics of the transactions or other circumstances indicate otherwise', and requires no proactive searches in that case.",
+    "True: ¶4.4.5 requires 'appropriate enquiries' where indications show that the customer 'is not acting on his own behalf'.",
+    "True: ¶4.4.7(a)(iii) separately includes an individual who 'exercises ultimate control over the management of the partnership'. The capital, profits and voting limbs are alternatives, not additional conditions.",
+    "False: ¶4.4.18 calls for evidence of the nominees' identities and of 'the persons on whose behalf they are acting'. Replacing those principals with the customer's directors changes the required parties.",
+    "True: ¶4.4.18 requires 'the details of arrangements in place' so the MSO can 'determine who the beneficial owner is'."
+   ]
+  },
+  "tc": {
+   "q": "關於識別客戶的實益擁有人，下列哪些陳述正確？",
+   "statements": [
+    "就自然人客戶而言，除非交易特徵或其他情況顯示並非如此，客戶本人就是實益擁有人；金錢服務經營者無須積極主動追尋其實益擁有人。",
+    "如有跡象顯示自然人客戶代表他人行事，金錢服務經營者應進行適當查詢，而非依賴自然人客戶通常就是實益擁有人的一般情況作判斷。",
+    "行使對合夥客戶的管理最終的控制權的個人，即使沒有權利攤分該合夥資本或利潤25%以上的份額，亦會基於最終管理控制權成為實益擁有人。",
+    "如客戶的擁有權結構中有代名人股東，金錢服務經營者應取得其信納可證明代名人及客戶董事的身分的證據，視兩者為代名安排的有關各方。",
+    "如客戶被識別出在擁有權結構中有代名人股東，金錢服務經營者應取得有關代名安排的詳情，以便在識別過程中判斷誰是客戶的實益擁有人。"
+   ],
+   "notes": [
+    "正確：第4.4.5段以自然人客戶為實益擁有人，「除非交易特徵或其他情況顯示並非如此」；在該情況下無需積極主動追尋。",
+    "正確：第4.4.5段規定，如有跡象顯示自然人客戶「並非代表其本身行事」，則須「進行適當查詢」。",
+    "正確：第4.4.7(a)(iii)段另行涵蓋「行使對該合夥的管理最終的控制權」的個人；資本、利潤及投票權的規定是其他選擇，並非累積條件。",
+    "錯誤：第4.4.18段要求證明代名人及「代名人所代表行事的人士」的身分。把後者換成客戶董事，改變了須識別的有關人士。",
+    "正確：第4.4.18段要求取得「有關安排的其他詳情」，目的在於「判斷誰是實益擁有人」。"
+   ]
+  }
+ },
+ {
+  "id": "m6-414",
+  "module": 6,
+  "truth": [
+   true,
+   false,
+   true,
+   true
+  ],
+  "options": [
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    1,
+    2,
+    4
+   ],
+   [
+    2,
+    3,
+    4
+   ],
+   [
+    1,
+    3,
+    4
+   ],
+   "all"
+  ],
+  "answer": 3,
+  "traps": [
+   null,
+   "offlist",
+   null,
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline ¶4.7.3(e), 4.7.4",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.7.3(e)及4.7.4段"
+  },
+  "en": {
+   "q": "Which of the following are correct about payments during a business relationship where identity verification has been deferred?",
+   "statements": [
+    "While verification remains incomplete, any exception allowing a payment to a third party must satisfy the condition that there is no suspicion of money laundering or terrorist financing.",
+    "When senior management approves an exceptional payment to a third party before verification is complete, the specified business consideration is the profitability of the customer's business.",
+    "For an exceptional third-party payment before verification is complete, the recipient's name must not match watch lists such as those for terrorist suspects and politically exposed persons.",
+    "If verification fails within the reasonable timeframe and the relationship is terminated, the MSO should refrain from further transactions except returning funds or assets in their original forms as far as possible."
+   ],
+   "notes": [
+    "True: ¶4.7.3(e)(i) makes 'no suspicion of ML/TF' one of the conditions for an exception to the restriction on third-party payments. It is not sufficient by itself; the other conditions also apply.",
+    "False: ¶4.7.3(e)(iii) specifies 'the nature of the business of the customer'. Profitability replaces the business characteristic named in this condition; it is not the stated consideration.",
+    "True: ¶4.7.3(e)(iv) requires recipients' names not to match watch lists, with 'terrorist suspects and politically exposed persons' as examples.",
+    "True: ¶4.7.4 requires termination as soon as reasonably practicable if verification misses the reasonable timeframe, and no further transactions except returning funds or assets 'in their original forms as far as possible'."
+   ]
+  },
+  "tc": {
+   "q": "在延後身分核實的業務關係中，關於付款處理，下列哪些陳述正確？",
+   "statements": [
+    "身分核實尚未完成期間，如要作出容許付款予第三者的例外安排，須符合沒有洗錢或恐怖分子資金籌集活動的懷疑這項條件。",
+    "在身分核實尚未完成時，高級管理層批准向第三者作出例外付款前，條件中所指定須考慮的業務特點，是客戶業務的獲利能力。",
+    "在身分核實尚未完成時向第三者作出例外付款，收款人的姓名或名稱不得與監察名單吻合，例如恐怖分子嫌疑人物及政治人物名單。",
+    "如未能在合理時限內完成核實而終止業務關係，金錢服務經營者應避免進行進一步交易，但在可行情況下將資金或其他資產以原狀退回則除外。"
+   ],
+   "notes": [
+    "正確：第4.7.3(e)(i)段把「沒有洗錢／恐怖分子資金籌集活動的懷疑」列為例外付款的一項條件；單憑這項條件並不足夠，其他條件亦須符合。",
+    "錯誤：第4.7.3(e)(iii)段要求高級管理層在批准前「對業務性質作出考慮」。獲利能力並非該條件所指定的業務特點，不能取代業務性質。",
+    "正確：第4.7.3(e)(iv)段規定「收款人的姓名／名稱與監察名單不吻合」，例子包括「恐怖分子嫌疑人物及政治人物」。",
+    "正確：第4.7.4段要求在合理地切實可行的情況下盡快終止未能按時完成核實的關係，避免進一步交易；例外是「在可行情況下將資金或其他資產以原狀退回」。"
+   ]
+  }
+ },
+ {
+  "id": "m6-415",
+  "module": 6,
+  "truth": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "options": [
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    1,
+    2,
+    4
+   ],
+   [
+    2,
+    3,
+    4
+   ],
+   [
+    1,
+    3,
+    4
+   ],
+   "all"
+  ],
+  "answer": 4,
+  "traps": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline ¶4.9.12 fn38, 4.9.17(b)–(c), 4.9.18 fn42; FAQ applicable to all MSOs, AML/CFT A20",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.9.12段註38、第4.9.17(b)至(c)段及第4.9.18段註42；《適用於所有金錢服務經營者的常見問題》打擊洗錢及恐怖分子資金籌集部分答20"
+  },
+  "en": {
+   "q": "Which of the following are correct about changes in the risk or status of politically exposed persons (PEPs)?",
+   "statements": [
+    "When an existing relationship with a Hong Kong PEP customer subsequently becomes high risk, the MSO should apply the three PEP enhanced due diligence measures when continuing the relationship.",
+    "When continuing an existing high-risk relationship, the MSO should apply the three PEP enhanced measures if it subsequently knows that the customer's beneficial owner is an international organisation PEP.",
+    "For any category of former PEP, the MSO may discontinue the enhanced measures only with senior management approval and an appropriate assessment establishing that the person no longer presents high ML/TF risk.",
+    "When deciding not to apply the enhanced measures to a former PEP, the MSO should retain the relevant risk assessment records as proof of compliance, for all three categories of former PEP."
+   ],
+   "notes": [
+    "True: ¶4.9.17(b) applies the ¶4.9.10 measures when continuing an existing relationship with a Hong Kong PEP customer if it 'subsequently becomes high risk'.",
+    "True: ¶4.9.17(c) applies the ¶4.9.10 measures where the MSO subsequently knows that the customer or beneficial owner in an existing high-risk relationship is a Hong Kong or international organisation PEP.",
+    "True: FAQ A20 covers all three former PEP categories, requires 'the approval of the MSO’s senior management' and that the PEP 'no longer presents a high risk', established through 'an appropriate assessment' of PEP-related risk.",
+    "True: ¶4.9.12 fn38 and ¶4.9.18 fn42 require retention of the relevant assessment 'as proof of compliance', respectively for former non-Hong Kong PEPs and former Hong Kong or international organisation PEPs."
+   ]
+  },
+  "tc": {
+   "q": "關於政治人物的風險或身分變化，下列哪些陳述正確？",
+   "statements": [
+    "如與本身屬香港政治人物的客戶之間的現有業務關係其後變為高風險，金錢服務經營者在維持該業務關係時應執行三項政治人物更嚴格盡職審查措施。",
+    "在維持現有高風險業務關係時，如金錢服務經營者其後知悉客戶的實益擁有人屬國際組織政治人物，便應執行三項政治人物更嚴格盡職審查措施。",
+    "對任何一類前政治人物，金錢服務經營者須獲高級管理層批准，並透過適當風險評估確定前政治人物不再構成高度洗錢或恐怖分子資金籌集風險，才可停止更嚴格措施。",
+    "金錢服務經營者決定不對前政治人物執行更嚴格盡職審查措施時，應備存相關風險評估的紀錄作為符合規定的證明；此要求適用於三類前政治人物。"
+   ],
+   "notes": [
+    "正確：第4.9.17(b)段規定，維持與香港政治人物客戶的現有業務關係，而關係「其後變為高風險」時，應執行第4.9.10段措施。",
+    "正確：第4.9.17(c)段規定，維持現有高風險業務關係，而其後知悉客戶或實益擁有人屬香港或國際組織政治人物時，應執行第4.9.10段措施。兩類政治人物各自觸發規定。",
+    "正確：常見問題答20涵蓋三類前政治人物，規定「須獲金錢服務經營者的高級管理層批准」，且前政治人物須不再構成高度風險，並須「進行與其地位相稱的風險評估」作判斷。",
+    "正確：第4.9.12段註38及第4.9.18段註42均要求「備存相關風險評估的紀錄」，分別證明前非香港政治人物及前香港或國際組織政治人物的處理符合規定。"
+   ]
+  }
+ },
+ {
+  "id": "m6-416",
+  "module": 6,
+  "truth": [
+   true,
+   false,
+   true,
+   false
+  ],
+  "options": [
+   [
+    1
+   ],
+   [
+    2
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    4
+   ],
+   "all"
+  ],
+  "answer": 2,
+  "traps": [
+   null,
+   "actor",
+   null,
+   "scope"
+  ],
+  "source": {
+   "en": "AML/CFT Guideline ¶4.9.12, 4.9.18; FAQ applicable to all MSOs, AML/CFT A20–A21",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.9.12及4.9.18段；《適用於所有金錢服務經營者的常見問題》打擊洗錢及恐怖分子資金籌集部分答20至21"
+  },
+  "en": {
+   "q": "Which of the following are correct about former PEP risk assessments and the persons authorised to approve PEP relationships?",
+   "statements": [
+    "In assessing the risk associated with a former PEP's status, the MSO should consider the level of informal influence that the individual could still exercise after leaving office.",
+    "In assessing the risk associated with a former PEP's status, the listed seniority factor concerns the position held by the individual's successor when taking over the public function.",
+    "A relevant former PEP risk factor is a link between previous and current functions, including appointment of a successor or continuing to deal with the same substantive matters.",
+    "The FAQ attributes variation in the number and titles of PEP approvers to the MSO's size and type, together with its assessment of the individual customer's risk."
+   ],
+   "notes": [
+    "True: ¶4.9.12(a) and ¶4.9.18(a) list 'the level of (informal) influence that the individual could still exercise' as a factor in assessing former PEP risk.",
+    "False: ¶4.9.12(b) and ¶4.9.18(b) concern 'the position that the individual held as the PEP'. The factor concerns the former PEP's own position, not the successor's position.",
+    "True: ¶4.9.12(c) and ¶4.9.18(c) ask whether previous and current functions are linked, giving appointment of the successor and continued handling of 'the same substantive matters' as examples.",
+    "False: FAQ A21 says the number and titles vary with the MSO's 'size, type and institutional risk assessment'. Substituting an individual customer's risk assessment changes the specified level of assessment."
+   ]
+  },
+  "tc": {
+   "q": "關於前政治人物風險評估及獲授權批准政治人物業務關係的人選，下列哪些陳述正確？",
+   "statements": [
+    "評估前政治人物地位所帶來的風險時，金錢服務經營者應考慮該名個人在離任後仍可運用的非正式影響力，作為相關風險因素。",
+    "評估前政治人物地位所帶來的風險時，所列職位等級因素是指該名個人的繼任者在接掌有關公職時所擔任職位的等級。",
+    "前政治人物以往及現有職能是否有連繫，是相關風險因素，包括委任繼任的政治人物，或繼續實質處理相同重要事務。",
+    "常見問題把政治人物業務關係批准人選的數目及職銜差異，歸因於金錢服務經營者的規模、類別及個別客戶層面的風險評估。"
+   ],
+   "notes": [
+    "正確：第4.9.12(a)及4.9.18(a)段列出「該名個人仍可運用的（非正式）影響力」作為前政治人物風險因素。",
+    "錯誤：第4.9.12(b)及4.9.18(b)段列出「該名個人作為政治人物時所擔任職位的等級」。考慮的是前政治人物本人的職位，並非繼任者的職位。",
+    "正確：第4.9.12(c)及4.9.18(c)段考慮以往及現有職能是否有連繫，並舉出「委任繼任的政治人物」及「處理相同重要事務」。",
+    "錯誤：常見問題答21所指的是經營者的「規模、類別及機構層面的風險評估」。把機構層面改為個別客戶層面，改變了所指定的評估範圍。"
+   ]
+  }
+ },
+ {
+  "id": "m6-417",
+  "module": 6,
+  "truth": [
+   true,
+   false,
+   true,
+   false
+  ],
+  "options": [
+   [
+    3
+   ],
+   [
+    4
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    4
+   ],
+   "all"
+  ],
+  "answer": 2,
+  "traps": [
+   null,
+   "scope",
+   null,
+   "added"
+  ],
+  "source": {
+   "en": "FAQ applicable to all MSOs, AML/CFT A4; AML/CFT Guideline ¶4.3.2–4.3.3",
+   "tc": "《適用於所有金錢服務經營者的常見問題》打擊洗錢及恐怖分子資金籌集部分答4；《打擊洗錢及恐怖分子資金籌集指引》第4.3.2至4.3.3段"
+  },
+  "en": {
+   "q": "Which of the following are correct about a natural person customer changing their name?",
+   "statements": [
+    "If an existing natural person customer changes their name, the MSO should verify the new name using documents, data or information provided by a reliable and independent source.",
+    "To mitigate impersonation after a name change, the MSO should corroborate other details on the new identification document, such as date of birth or identity number, against the customer's new declaration.",
+    "If there is doubt about a natural person customer's name change, the MSO may request a copy of applicable documentation relating to the change, such as a marriage certificate or deed poll.",
+    "Where a natural person customer changed their name before the business relationship was established, the MSO is required to identify and verify both the current name and the former name."
+   ],
+   "notes": [
+    "True: FAQ A4 says to verify the new name by reference to documents, data or information 'provided by a reliable and independent source', following Guideline ¶4.3.3.",
+    "False: FAQ A4 requires the other details on the new document to be checked 'against its existing records'. Substituting a fresh customer declaration removes that check against the information already held.",
+    "True: FAQ A4 permits requesting 'a copy of applicable documentation' in case of doubt, and gives a marriage certificate or deed poll as examples.",
+    "False: FAQ A4 expressly says that if the change preceded the relationship, 'only the current name is required to be identified and verified'. Adding the former name extends the requirement."
+   ]
+  },
+  "tc": {
+   "q": "關於自然人客戶更改姓名，下列哪些陳述正確？",
+   "statements": [
+    "如現有自然人客戶更改姓名，金錢服務經營者應以可靠及獨立來源所提供的文件、數據或資料，核實該名客戶的新姓名。",
+    "為減低改名後的假冒風險，金錢服務經營者應以客戶的新聲明，核對新身分證明文件上的其他資料，例如出生日期或身分證號碼。",
+    "如對自然人客戶的改名有疑問，金錢服務經營者可索取與更改姓名有關的適用文件複本，例如結婚證書或改名契，以作查核。",
+    "如自然人客戶於建立業務關係前已更改姓名，金錢服務經營者在建立業務關係時，須識別及核實現時姓名以及更改前的姓名。"
+   ],
+   "notes": [
+    "正確：常見問題答4要求按指引第4.3.3段，根據「可靠及獨立來源提供的文件、數據或資料」，核實新姓名。",
+    "錯誤：常見問題答4要求「利用現有紀錄核對」新身分證明文件上的其他資料。改用客戶的新聲明，沒有與經營者原有紀錄作核對。",
+    "正確：常見問題答4容許在有疑問時索取「與更改姓名有關的適用文件複本」，例子包括結婚證書及改名契。",
+    "錯誤：常見問題答4明確規定，建立業務關係前已改名時，「只須識別和核實現時的姓名」。額外要求核實舊姓名擴大了規定。"
+   ]
+  }
+ },
+ {
+  "id": "m6-426",
+  "module": 6,
+  "truth": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "options": [
+   [
+    1,
+    2,
+    4
+   ],
+   [
+    1,
+    2,
+    5
+   ],
+   [
+    1,
+    3,
+    4
+   ],
+   [
+    1,
+    3,
+    5
+   ],
+   "all"
+  ],
+  "answer": 3,
+  "traps": [
+   null,
+   "period",
+   null,
+   "modal",
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline ¶4.11.7–4.11.8, 4.11.13; AMLO Sch. 2 s.18(7), related foreign financial institution (a), (b)(ii)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.11.7至4.11.8、4.11.13段；《打擊洗錢條例》附表2第18(7)條相關外地金融機構定義(a)、(b)(ii)段"
+  },
+  "en": {
+   "q": "Which statements about an MSO's reliance on intermediaries for customer due diligence are correct under the AMLO and the AML/CFT Guideline?",
+   "statements": [
+    "If the MSO doubts an intermediary's reliability, it should take reasonable steps to review the intermediary's ability to perform its customer due diligence duties.",
+    "If the MSO intends to terminate its relationship with an intermediary, it should obtain all CDD information from the intermediary at the next periodic customer review.",
+    "For a domestic legal professional to act as intermediary, the MSO must be satisfied that it has adequate ML/TF prevention procedures and is subject to Schedule 2 for the customer.",
+    "For a related foreign FI acting as intermediary, the applicable group policy should be able to eliminate any higher country risk associated with the FI's jurisdiction.",
+    "An MSO that is a re-domiciled entity can have its own branch as a related foreign FI if the branch carries on business outside Hong Kong similar to an intermediary FI's."
+   ],
+   "notes": [
+    "True: ¶4.11.7 requires “reasonable steps to review the intermediary’s ability to perform its CDD duties” whenever reliability is in doubt.",
+    "False: ¶4.11.7 says that an intention to terminate triggers obtaining all CDD information “immediately”, not at the next customer review.",
+    "True: ¶4.11.8 requires both “adequate procedures in place to prevent ML/TF” and being “required to comply” with Schedule 2 for the customer. The customer-specific requirement is part of the Guideline's test.",
+    "False: ¶4.11.13 says the group policy should “mitigate adequately any higher country risk”; it does not require elimination of the risk.",
+    "True: AMLO Sch. 2 s.18(7), definition (a) and (b)(ii), includes an MSO that “is a re-domiciled entity” on the own-branch route, subject to the outside-Hong-Kong similar-business condition."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢條例》及《打擊洗錢及恐怖分子資金籌集指引》，以下有關金錢服務經營者依賴中介人執行客戶盡職審查的陳述，哪些正確？",
+   "statements": [
+    "經營者如對中介人的可靠性產生懷疑，應採取合理步驟覆核該中介人履行其客戶盡職審查職責的能力。",
+    "經營者如欲終止與中介人的關係，應在下次定期覆核客戶資料時，向中介人取得所有的客戶盡職審查資料。",
+    "本地法律專業人士擔任中介人時，經營者須信納其有充分程序防止洗錢／恐怖分子資金籌集，並須就有關客戶遵從附表2。",
+    "相關外地金融機構擔任中介人時，適用的集團政策應能完全消除因該金融機構所處司法管轄區而涉及的較高國家風險。",
+    "屬經遷冊實體的經營者，其分行如在香港以外經營與中介人金融機構相類似的業務，可屬經營者的相關外地金融機構。"
+   ],
+   "notes": [
+    "正確：第4.11.7段要求在可靠性存疑時「採取合理步驟覆核該中介人履行其盡職審查職責的能力」。",
+    "不正確：第4.11.7段說如欲終止關係，應「立即向中介人取得所有的盡職審查資料」，並非等到下次客戶覆核。",
+    "正確：第4.11.8段要求有「充分程序以防止洗錢／恐怖分子資金籌集」，並須就有關客戶遵從附表2的相關規定；後者是指引對中介人的客戶適用條件。",
+    "不正確：第4.11.13段要求集團政策「充分減低」較高國家風險，並非把風險完全消除。",
+    "正確：附表2第18(7)條相關外地金融機構定義(a)、(b)(ii)段把「經遷冊實體」納入本身分行的途徑，並須符合在香港以外經營相類似業務的條件。"
+   ]
+  }
+ },
+ {
+  "id": "m6-427",
+  "module": 6,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false,
+   true
+  ],
+  "options": [
+   [
+    1,
+    2,
+    5,
+    6
+   ],
+   [
+    1,
+    3,
+    4,
+    5
+   ],
+   [
+    1,
+    3,
+    4,
+    6
+   ],
+   [
+    2,
+    3,
+    5,
+    6
+   ],
+   "all"
+  ],
+  "answer": 2,
+  "traps": [
+   null,
+   "reversed",
+   null,
+   null,
+   "actor",
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline ¶4.8.12–4.8.13, 4.8.17(c)(ii), 4.8.18",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.8.12至4.8.13、4.8.17(c)(ii)、4.8.18段"
+  },
+  "en": {
+   "q": "Under the AML/CFT Guideline, which statements about simplified due diligence for particular customers, accounts and products are correct?",
+   "statements": [
+    "Before omitting a listed customer's beneficial-owner checks, the MSO should assess whether applicable disclosure requirements ensure adequate transparency of the customer's beneficial ownership.",
+    "Where an employee in a qualifying retirement scheme establishes a separate business relationship with the MSO, the scheme's simplified treatment exempts that relationship from customer due diligence.",
+    "If the MSO reasonably believes a transaction relates to a life policy with a single premium no greater than HK$20,000 or its equivalent, it may omit the relevant beneficial-owner identification and verification.",
+    "For a nominee company holding fund units for an FI's underlying customers, the account concession requires that customer FI to have conducted CDD on those underlying customers.",
+    "For the investment-vehicle account concession, the customer FI acting as the vehicle's service provider must have conducted CDD under the AMLO on the vehicle's investment manager instead of the vehicle.",
+    "For either the nominee-company or investment-vehicle account concession, the customer FI must be authorised to operate the account, with the authority evidenced by contractual document or agreement."
+   ],
+   "notes": [
+    "True: ¶4.8.12 says the MSO should assess disclosure requirements ensuring “adequate transparency of beneficial ownership”. This is the Guideline's assessment, beyond merely identifying listed status.",
+    "False: ¶4.8.18 says that a separate business relationship with an employee requires the MSO to “apply CDD measures” under the Chapter's relevant requirements.",
+    "True: ¶4.8.17(c)(ii) lists “a single premium of no more than $20,000 or an equivalent amount in any other currency”. The paragraph requires reasonable grounds to believe the transaction relates to that product.",
+    "True: ¶4.8.13, proviso (a)(i), requires the FI to have conducted CDD “on its underlying customers” when the nominee company holds fund units for the FI or its underlying customers.",
+    "False: ¶4.8.13, proviso (a)(ii), requires CDD “on the investment vehicle pursuant to the provisions of the AMLO”, not on its investment manager as a substitute.",
+    "True: ¶4.8.13, proviso (b), requires the FI to be “authorised to operate the account as evidenced by contractual document or agreement”. This condition accompanies both account routes."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關特定客戶、帳戶及產品的簡化盡職審查陳述，哪些正確？",
+   "statements": [
+    "選擇不識別或核實上市客戶的實益擁有人前，經營者應評估適用的披露規定是否確保該客戶的實益擁有權具充分透明度。",
+    "合資格退休計劃的僱員另與經營者建立獨立業務關係時，計劃所獲的簡化處理使這段獨立業務關係免於執行客戶盡職審查。",
+    "經營者有合理理由相信交易涉及一筆整付保費不多於港幣20,000元或等值外幣的人壽保險單時，可不識別或核實有關實益擁有人。",
+    "代名人公司代表客戶金融機構的相關客戶持有基金單位時，採用有關帳戶簡化安排，須該金融機構已對相關客戶進行盡職審查。",
+    "適用投資公司帳戶的簡化安排時，作為服務供應商的客戶金融機構，須根據條例對基金經理進行盡職審查，以代替審查投資公司。",
+    "適用代名人公司或投資公司帳戶的簡化安排時，客戶金融機構須獲授權操作有關帳戶，並有合約文件或協議作為該項授權的證據。"
+   ],
+   "notes": [
+    "正確：第4.8.12段要求評估披露規定是否確保「客戶的實益擁有權具充分透明度」；這是指引要求的評估，並非只確認上市身分。",
+    "不正確：第4.8.18段說與僱員建立「獨立的業務關係」時，應按本章的相關規定執行盡職審查，不能沿用計劃的簡化處理。",
+    "正確：第4.8.17(c)(ii)段列出「一筆整付保費不多於20,000元」或等值外幣，並以有合理理由相信交易涉及有關產品為條件。",
+    "正確：第4.8.13段但書(a)(i)要求，代名人公司代金融機構或其相關客戶持有基金單位時，金融機構「已對它的相關客戶進行盡職審查」。",
+    "不正確：第4.8.13段但書(a)(ii)要求根據條例「對投資公司進行盡職審查」，並非以審查基金經理代替審查投資公司。",
+    "正確：第4.8.13段但書(b)要求「根據合約文件或協議獲授權操作有關帳戶」，此條件適用於兩項帳戶途徑。"
+   ]
+  }
+ },
+ {
+  "id": "m6-428",
+  "module": 6,
+  "truth": [
+   true,
+   true,
+   false,
+   true
+  ],
+  "options": [
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    1,
+    2,
+    4
+   ],
+   [
+    2,
+    3,
+    4
+   ],
+   [
+    1,
+    3,
+    4
+   ],
+   "all"
+  ],
+  "answer": 1,
+  "traps": [
+   null,
+   null,
+   "actor",
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline ¶4.8.14–4.8.15, 4.8.19–4.8.20; AMLO Sch. 2 s.4(6)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.8.14至4.8.15、4.8.19至4.8.20段；《打擊洗錢條例》附表2第4(6)條"
+  },
+  "en": {
+   "q": "Which statements about beneficial-owner concessions for investment vehicles and solicitors' client accounts are correct under the AML/CFT Guideline?",
+   "statements": [
+    "Even with a qualifying institution responsible for investor CDD, the MSO must be satisfied that the investment vehicle ensures reliable systems and controls for CDD on all its underlying investors under requirements similar to Schedule 2.",
+    "For the solicitor's client-account concession, the clients' money or securities must be mingled in the account; keeping the account in the solicitor's name does not by itself satisfy the conditions for that concession.",
+    "For the solicitor's client-account concession, the account must be managed by the MSO as agent of the solicitor's clients, alongside the conditions on whose name the account bears and the mingling of clients' assets.",
+    "Where each solicitor's client has a separate sub-account and the funds are not co-mingled at the MSO, the MSO should establish the underlying clients' identities in addition to the identity of the solicitor opening the account."
+   ],
+   "notes": [
+    "True: ¶4.8.15 permits the concession only “provided that it is satisfied” with reliable systems and controls for investor CDD under requirements similar to Schedule 2. Qualifying institutional status does not replace that condition.",
+    "True: ¶4.8.19(b) requires that clients' “moneys or securities” are mingled. This is cumulative with the account-name and agency-management conditions, not satisfied by the name alone.",
+    "False: ¶4.8.19(c) says the account is managed “by the customer as those clients’ agent”. The customer here is the solicitor or firm of solicitors, not the MSO.",
+    "True: ¶4.8.20 expressly covers “sub-accounts for each individual client where funds are not co-mingled at the MSO” and requires identification of the underlying clients as well as the solicitor."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關投資公司及律師當事人戶口的實益擁有人簡化安排的陳述，哪些正確？",
+   "statements": [
+    "即使負責投資者盡職審查的機構屬合資格類別，經營者仍須信納投資公司保證設有可靠制度及管控措施，按與附表2相類似的規定對所有相關投資者進行盡職審查。",
+    "採用律師當事人戶口的簡化安排，須把當事人的金錢或證券混合在戶口內；單憑當事人戶口以律師名義開設，並不足以符合該項簡化安排的全部適用條件。",
+    "採用律師當事人戶口的簡化安排，戶口須由金錢服務經營者以律師當事人的代理人身分管理，並同時符合有關戶口名稱及把當事人資產混合存放的條件。",
+    "律師每名個別當事人各有附屬戶口，資金並未匯集在經營者內時，經營者除了核實開戶律師的身分外，亦應識別那些附屬戶口的相關當事人的身分。"
+   ],
+   "notes": [
+    "正確：第4.8.15段要求「信納該投資公司已保證設有可靠的制度及管控措施」，按與附表2相類似的規定對投資者進行盡職審查；負責機構合資格不能替代此條件。",
+    "正確：第4.8.19(b)段說當事人的「金錢或證券已混合在一起」，並須同時符合戶口名稱及代理管理的條件。",
+    "不正確：第4.8.19(c)段說「由客戶以其當事人的代理人身分管理」；這裏的客戶是律師或律師行，並非金錢服務經營者。",
+    "正確：第4.8.20段明指每名客戶各有附屬戶口而資金未匯集的情況，經營者除核實開戶律師外，「亦應識別相關當事人的身分」。"
+   ]
+  }
+ },
+ {
+  "id": "m6-429",
+  "module": 6,
+  "truth": [
+   false,
+   true,
+   true,
+   true
+  ],
+  "options": [
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    1,
+    2,
+    4
+   ],
+   [
+    2,
+    3,
+    4
+   ],
+   [
+    1,
+    3,
+    4
+   ],
+   "all"
+  ],
+  "answer": 2,
+  "traps": [
+   "scope",
+   null,
+   null,
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline ¶4.8.3(c), 4.9.2; AMLO Sch. 2 s.3(1)(e)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.8.3(c)、4.9.2段；《打擊洗錢條例》附表2第3(1)(e)條"
+  },
+  "en": {
+   "q": "Which statements about responding to identification doubts and residual ML/TF risk in customer due diligence are correct?",
+   "statements": [
+    "An MSO doubting the veracity or adequacy of earlier identification information may begin or continue simplified due diligence while the customer remains classified as low risk.",
+    "If the applicable enhanced due diligence measures cannot fully mitigate the identified ML/TF risks, the MSO should take other measures to mitigate the residual risks.",
+    "The Guideline gives placing transaction limits as an example of another measure an MSO can use for residual ML/TF risk that applicable enhanced due diligence has not fully mitigated.",
+    "The Guideline gives restricting account functionalities as an example of another measure for residual ML/TF risk that applicable enhanced due diligence has not fully mitigated."
+   ],
+   "notes": [
+    "False: ¶4.8.3(c) requires SDD to stop when previous identification or verification information is in doubt. AMLO Sch. 2 s.3(1)(e) uses the test “veracity or adequacy”; a low risk rating does not preserve SDD in that situation.",
+    "True: ¶4.9.2 says that where EDD cannot fully mitigate identified risks, the MSO “should take other measures to mitigate the residual risks”.",
+    "True: ¶4.9.2 gives “placing transaction limits” as an example. It is a possible additional measure, not a requirement to impose both examples in every case.",
+    "True: ¶4.9.2 gives “restricting account functionalities” as an example alongside transaction limits. The examples do not impose a single compulsory package of controls."
+   ]
+  },
+  "tc": {
+   "q": "以下有關客戶盡職審查中應對身分資料疑點及剩餘洗錢／恐怖分子資金籌集風險的陳述，哪些正確？",
+   "statements": [
+    "經營者對過往識別身分資料的真實性或充分性存疑時，只要客戶仍被評為低風險，便可開始或繼續執行簡化客戶盡職審查措施。",
+    "適用的更嚴格盡職審查措施未能完全減低已識別的洗錢／恐怖分子資金籌集風險時，經營者應採取其他措施減低剩餘風險。",
+    "指引把設立交易限額列為其他措施的例子，用以處理適用的更嚴格盡職審查措施未能完全減低的剩餘洗錢／恐怖分子資金籌集風險。",
+    "指引把限制帳戶功能列為其他措施的例子，用以處理適用的更嚴格盡職審查措施未能完全減低的剩餘洗錢／恐怖分子資金籌集風險。"
+   ],
+   "notes": [
+    "不正確：第4.8.3(c)段把過往身分識別或核實資料「是否真實或充分存疑」列為不應執行或繼續簡化盡職審查的情況，不能因低風險評級而繼續。",
+    "正確：第4.9.2段說如更嚴格盡職審查未能完全減低風險，經營者「應採取其他措施減低剩餘風險」。",
+    "正確：第4.9.2段明列「設立交易限額」為例子，屬可採用的額外措施，並非每次都要同時採取兩項例子。",
+    "正確：第4.9.2段明列「限制帳戶功能」為例子，與交易限額同為例子，並非規定必須一併採用的固定組合。"
+   ]
+  }
+ },
+ {
+  "id": "m6-430",
+  "module": 6,
+  "truth": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "options": [
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    1,
+    2,
+    4
+   ],
+   [
+    2,
+    3,
+    4
+   ],
+   [
+    1,
+    3,
+    4
+   ],
+   "all"
+  ],
+  "answer": 4,
+  "traps": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline Appendix A ¶1–4",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》附錄A第1至4段"
+  },
+  "en": {
+   "q": "Under Appendix A of the AML/CFT Guideline, which statements about documents used to verify an individual's identity are correct?",
+   "statements": [
+    "When a non-resident individual is physically present in Hong Kong for customer due diligence, the MSO should verify that person's identity by reference to a valid travel document.",
+    "For a non-resident outside Hong Kong, listed documents include a current national identity card with a photograph or a valid national driving licence with a photograph issued by a competent national or state authority.",
+    "For a minor born in Hong Kong who holds neither a valid travel document nor a Hong Kong identity card, the minor's Hong Kong birth certificate is the identity-verification document specified.",
+    "The Permanent Resident Identity Card of the Macau Special Administrative Region is among the documents Appendix A recognises as travel documents for verifying an individual customer's identity."
+   ],
+   "notes": [
+    "True: Appendix A ¶1 places the rule in the context of physical presence in Hong Kong and says a non-resident should be verified by a “valid travel document”.",
+    "True: Appendix A ¶2(b)–(c) lists photographic national identity cards and current valid national driving licences for non-residents “not physically present in Hong Kong”. This statement concerns CDD documents.",
+    "True: Appendix A ¶4 specifies the “minor’s Hong Kong birth certificate” where the Hong Kong-born minor has no valid travel document or Hong Kong identity card.",
+    "True: Appendix A ¶3(a) expressly names the “Permanent Resident Identity Card of Macau Special Administrative Region” as a travel document."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》附錄A，以下有關核實個人身分所用文件的陳述，哪些正確？",
+   "statements": [
+    "非香港居民為客戶盡職審查而實際身在香港時，金錢服務經營者應根據該名非香港居民持有的有效旅遊證件，核實其個人身分。",
+    "對於沒有現身香港的非香港居民，所列文件包括附有照片的有效國民身分證，或由主管國家或政府機構簽發並附有照片的有效國家駕駛執照。",
+    "在香港出生的未成年人，如並無持有有效旅遊證件或香港身份證，附錄所指明用以核實該名未成年人身分的文件，是其香港出生證明書。",
+    "就金錢服務經營者核實個人客戶身分而言，澳門特別行政區永久居民身分證，屬附錄A明列可作身分核實用途的旅遊證件之一。"
+   ],
+   "notes": [
+    "正確：附錄A第1段以實際身在香港為背景，說非居民的身分應根據「有效旅遊證件」核實。",
+    "正確：附錄A第2(b)至(c)段就「沒有現身香港的非香港居民」列出附照片的國民身分證及有效國家駕駛執照；這裏談的是客戶盡職審查文件。",
+    "正確：附錄A第4段明列在香港出生且沒有有效旅遊證件或香港身份證的未成年人，可根據「香港出生證明書」核實身分。",
+    "正確：附錄A第3(a)段明列「澳門特別行政區永久居民身分證」，屬可作身分核實用途的旅遊證件。"
+   ]
+  }
+ },
+ {
+  "id": "m6-442",
+  "module": 6,
+  "truth": [
+   true,
+   false,
+   false,
+   true
+  ],
+  "options": [
+   [
+    1,
+    4
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    1,
+    3,
+    4
+   ],
+   "all"
+  ],
+  "answer": 0,
+  "traps": [
+   null,
+   "actor",
+   "scope",
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline ¶4.2.6",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.2.6段"
+  },
+  "en": {
+   "q": "Which statements about the identity-document requirement for third-party cash transactions under the AML/CFT Guideline are correct?",
+   "statements": [
+    "A cash transaction of exactly $120,000 triggers the document-and-copy requirement when the person conducting it is not named on the account mandate.",
+    "For a qualifying cash transaction by someone absent from the account mandate, the requested identity document should be the account customer’s.",
+    "For a qualifying cash transaction by someone absent from the mandate, the MSO can meet the retention requirement by recording the document number.",
+    "Keeping the document copy for a qualifying third-party cash transaction is intended to facilitate ongoing monitoring by the MSO after the transaction."
+   ],
+   "notes": [
+    "Correct: ¶4.2.6 says “equal to or exceeding $120,000” and requires the person’s name to be absent from the account mandate.",
+    "False: ¶4.2.6 requires the identity document of the person undertaking the cash transaction, not a substitution of the account customer’s document.",
+    "False: ¶4.2.6 says to “retain a copy”; retaining the document number alone does not meet that requirement.",
+    "Correct: ¶4.2.6 expressly gives the purpose as facilitating “ongoing monitoring”; the copy is not merely for inspecting the document during the transaction."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關第三方現金交易的身分證明文件規定，哪些陳述正確？",
+   "statements": [
+    "現金交易款額剛好為120,000元，而進行交易的人的姓名不在帳戶委託書上，便觸發要求提供身分證明文件及將副本存檔的規定。",
+    "對於由姓名不在帳戶委託書上的人進行、並達到款額門檻的現金交易，應要求提供的身分證明文件，是帳戶客戶本人的文件。",
+    "對於由姓名不在帳戶委託書上的人進行、並達到款額門檻的現金交易，金錢服務經營者記下證件號碼，便已符合文件留存規定。",
+    "就符合條件的第三方現金交易而言，保存進行交易的人的身分證明文件副本，是為了讓金錢服務經營者在交易後持續進行監察。"
+   ],
+   "notes": [
+    "正確：第4.2.6段訂明「相等於120,000元或以上」，並以進行交易的人的姓名不在帳戶委託書上為條件；剛好達到門檻也包括在內。",
+    "錯誤：第4.2.6段要求進行現金交易而姓名不在帳戶委託書上的人提供本人的身分證明文件，並非以帳戶客戶的文件代替。",
+    "錯誤：第4.2.6段要求將身分證明文件的「副本存檔」；只記下證件號碼，並未符合留存副本的規定。",
+    "正確：第4.2.6段明文說明將文件副本存檔是「以便持續監察」，用途並不止於辦理當次交易時查閱文件。"
+   ]
+  }
+ },
+ {
+  "id": "m6-443",
+  "module": 6,
+  "truth": [
+   true,
+   true,
+   true,
+   false
+  ],
+  "options": [
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    1,
+    2,
+    4
+   ],
+   [
+    2,
+    3,
+    4
+   ],
+   [
+    1,
+    3,
+    4
+   ],
+   "all"
+  ],
+  "answer": 0,
+  "traps": [
+   null,
+   null,
+   null,
+   "condition"
+  ],
+  "source": {
+   "en": "AML/CFT Guideline ¶10.4(c)(i)–(iii)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》第10.4(c)(i)至(iii)段"
+  },
+  "en": {
+   "q": "For the card-related exclusion from the wire transfer requirements, assume the card number accompanies each transfer. Which statements are correct?",
+   "statements": [
+    "A wire transfer arising from a debit-card withdrawal from a bank account through an automated teller machine falls within the card-related exclusion.",
+    "A wire transfer arising from obtaining a cash advance on a credit card can fall within the exclusion, even though the transaction provides cash.",
+    "A wire transfer arising from paying for goods or services with a prepaid card can qualify, as the exclusion extends beyond credit-card purchases.",
+    "If the card serves as a payment system for a person-to-person transfer, including its number in the message preserves the card-related exclusion."
+   ],
+   "notes": [
+    "Correct: ¶10.4(c)(i) expressly gives an ATM debit-card withdrawal as an example. The described bank withdrawal is not a person-to-person transfer, and the stem supplies the card-number condition in (iii).",
+    "Correct: ¶10.4(c)(i) expressly includes “obtaining a cash advance on a credit card”. Providing cash does not remove that example from the exclusion.",
+    "Correct: ¶10.4(c)(i) lists paying for goods or services with a “credit card, debit card or prepaid card”.",
+    "False: ¶10.4(c)(ii) separately requires that the card not be used as a payment system to effect a person-to-person transfer; including the number does not cure that defect."
+   ]
+  },
+  "tc": {
+   "q": "就不適用電傳轉帳規定的咭交易而言，假設每項轉帳均附隨咭號。以下哪些陳述正確？",
+   "statements": [
+    "以扣帳咭經由自動櫃員機從銀行戶口提取金錢而引致的電傳轉帳，屬於不適用電傳轉帳規定的咭交易範圍。",
+    "以信用咭取得現金墊支而引致的電傳轉帳，可屬於不適用電傳轉帳規定的咭交易範圍，即使交易所提供的是現金。",
+    "以預付咭就貨品及服務付款而引致的電傳轉帳，可屬於不適用電傳轉帳規定的咭交易範圍，並不限於信用咭消費。",
+    "若咭用作執行人對人轉帳的支付系統，只要附隨轉帳的信息載有咭號，便仍可適用不受電傳轉帳規定約束的安排。"
+   ],
+   "notes": [
+    "正確：第10.4(c)(i)段明列以扣帳咭經由自動櫃員機提款的例子；所述銀行提款並非人對人轉帳，而題幹已符合(iii)的咭號附隨條件。",
+    "正確：第10.4(c)(i)段明列「以信用咭取得現金墊支」；交易提供現金，不會因此把這個例子排除於所述範圍之外。",
+    "正確：第10.4(c)(i)段列明以「信用咭、扣帳咭或預付咭」就貨品及服務付款，預付咭亦包括在內。",
+    "錯誤：第10.4(c)(ii)段另行規定咭不得用作執行人對人轉帳的支付系統；附上咭號並不能取代這項條件。"
    ]
   }
  },

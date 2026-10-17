@@ -28994,7 +28994,8 @@
       "suggested_questions": 1,
       "reason": "直接影响客户尽调的资料收集；自然人与法人须分别掌握。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B03",
@@ -29010,8 +29011,8 @@
       "suggested_questions": 3,
       "reason": "比例门槛不是唯一判断；覆盖无持股控制、自然人代理迹象及代名股东。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B04",
@@ -29023,7 +29024,8 @@
       "suggested_questions": 1,
       "reason": "涉及尚未完成核实能否付款，以及必须同时满足的限制条件。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B05",
@@ -29038,8 +29040,8 @@
       "suggested_questions": 2,
       "reason": "风险升高和停止加强措施都须满足明确条件；前身份不会自动免除审查。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B06",
@@ -29054,8 +29056,8 @@
       "suggested_questions": 3,
       "reason": "不能把持续监察外包责任等同于委托收集资料；同时处理境外及迁册实体资格。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B07",
@@ -29071,7 +29073,8 @@
       "suggested_questions": 3,
       "reason": "从事低风险业务或具有某种账户名称，并不自动满足全部简化条件。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B08",
@@ -29083,7 +29086,8 @@
       "suggested_questions": 1,
       "reason": "应采取其他措施减低剩余风险；限额或功能限制是例子，不能把完成加强尽调当作处理终点。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B09",
@@ -29095,8 +29099,8 @@
       "suggested_questions": 1,
       "reason": "实际核实文件随客户身处地点及身份而变，容易在细微条件上误判。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B10",
@@ -29109,8 +29113,8 @@
       "suggested_questions": 1,
       "reason": "先判断谁是客户，再处理第三方身份文件和留存要求。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B11",
@@ -29136,7 +29140,8 @@
       "suggested_questions": 1,
       "reason": "不能只看卡号就适用豁免；指引与条例的缺失资料要求须依已定规则处理。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B13",
@@ -29148,8 +29153,8 @@
       "suggested_questions": 1,
       "reason": "包含已决定应学的稳定币持牌人边界，不能从持有其他牌照直接推定豁免。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B14",
@@ -29161,7 +29166,8 @@
       "suggested_questions": 1,
       "reason": "须遗漏要项使陈述虚假或误导并满足法定心态；不是任何漏报都构罪。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。已核第52(2)(b)条：明知／罔顾针对要项被遗漏，另须满足陈述因而虚假或误导的结果要件。"
     },
     {
       "id": "B15",
@@ -29187,7 +29193,8 @@
       "suggested_questions": 1,
       "reason": "先限定牌照指引03原文；与06“第三方账户”表述的跨来源解释尚须厘清。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。仅测试《牌照指引》第11.1(j)段准许户名清单，不推断其他文件“第三方”的未明定义。"
     },
     {
       "id": "B17",
@@ -29199,7 +29206,8 @@
       "suggested_questions": 1,
       "reason": "三倍利润或避免开支是上限比较规则，不能直接当成自动罚款公式。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B18",
@@ -29211,7 +29219,8 @@
       "suggested_questions": 1,
       "reason": "区分既有客户变更姓名与开户前已改名，避免身份冒认和过度索取历史资料。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B19",
@@ -29223,7 +29232,8 @@
       "suggested_questions": 1,
       "reason": "经营地区制裁影响业务时的评估和处理；不扩展到未归档的具体制裁名单。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。"
     },
     {
       "id": "B20",
@@ -29434,7 +29444,8 @@
       "suggested_questions": 1,
       "reason": "补隐瞒/补救及其他机构对同一事件的惩罚等考虑因素。",
       "action": "add",
-      "status": "pending"
+      "status": "partial",
+      "followup_note": "本轮m4-366#2至4已补隐瞒、补救和其他机关就同一事件的惩罚／监管行动；以往同类违规细节仍保留待复核。"
     },
     {
       "id": "B36",
@@ -29699,6 +29710,69 @@
       "limitations": "同会话模型审核；并未将全部旧题重新盲答；剩余总体流程任务与P3细节保留",
       "questions_sha256": "3575ffa5806301917ade9038fa1ba2ea1142120b1940f0c4b130b036c7948c93",
       "implementation": "implementation.json"
+    },
+    {
+      "question_ids": [
+        "m6-412",
+        "m6-413",
+        "m6-414",
+        "m6-415",
+        "m6-416",
+        "m6-417",
+        "m6-426",
+        "m6-427",
+        "m6-428",
+        "m6-429",
+        "m6-430",
+        "m6-442",
+        "m6-443",
+        "m2-357",
+        "m2-358",
+        "m4-366",
+        "m1-178",
+        "m4-373"
+      ],
+      "topic_ids": [
+        "C008",
+        "G019",
+        "G021",
+        "G027",
+        "G028",
+        "G030",
+        "G031",
+        "G033",
+        "G034",
+        "G035",
+        "G036",
+        "G037",
+        "G038",
+        "G040",
+        "G041",
+        "G043",
+        "G044",
+        "G051",
+        "G067",
+        "G070",
+        "G072",
+        "L018",
+        "L036",
+        "L041",
+        "L047",
+        "L049",
+        "L057",
+        "L058",
+        "L059",
+        "S032",
+        "S039",
+        "S049",
+        "S060",
+        "S061"
+      ],
+      "summary": "18道新题、79个题句，完成剩余16项P1流程、条件及例外任务",
+      "validation": "最终英／繁原文独立盲答一致；实质去重、温习资料对照、引文、整库及覆盖记录检查通过",
+      "limitations": "同会话模型审核；未对全部旧题重新盲答；P2及P3细节继续保留",
+      "questions_sha256": "518318e2d569c223d2fc0c4ceee27a8b226b56ebd339ecc0919304e1a384cf07",
+      "implementation": "p1-implementation.json"
     }
   ],
   "validation": {
@@ -29706,15 +29780,15 @@
     "mapped_questions": 297,
     "source_quotes": 246,
     "evidence_references": 1922,
-    "current_questions": 320,
-    "current_statements": 1599,
+    "current_questions": 338,
+    "current_statements": 1678,
     "module_counts": {
-      "1": 30,
-      "2": 48,
+      "1": 31,
+      "2": 50,
       "3": 42,
-      "4": 48,
+      "4": 50,
       "5": 56,
-      "6": 56,
+      "6": 69,
       "7": 40
     }
   },
