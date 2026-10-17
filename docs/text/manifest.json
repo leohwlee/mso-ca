@@ -61,7 +61,8 @@
  },
  "EN/16.txt": {
   "source": "16_Circular - E-submission of the Periodic Return (30 May 2025).pdf",
-  "sha256": "30f0450676dd95a18dc3a33f51798ca125b6068cfcaa8d257bf335d13b47f76e"
+  "sha256": "30f0450676dd95a18dc3a33f51798ca125b6068cfcaa8d257bf335d13b47f76e",
+  "transcript_sha256": "ac9a557a5e918d7aad9043e33ca74427e74a95393d726a6a4c2864632893d0f5"
  },
  "EN/17.txt": {
   "source": "17_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf",
@@ -153,7 +154,8 @@
  },
  "TC/16.txt": {
   "source": "16_通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）.pdf",
-  "sha256": "85dc2b09cf56883ba38f3402fecacd93417c6b0d2936850f0bf44ebd67dadae2"
+  "sha256": "85dc2b09cf56883ba38f3402fecacd93417c6b0d2936850f0bf44ebd67dadae2",
+  "transcript_sha256": "ac9a557a5e918d7aad9043e33ca74427e74a95393d726a6a4c2864632893d0f5"
  },
  "TC/17.txt": {
   "source": "17_通函_提交旅客資料電子表格（現金類物品）（2025年6月23日）.pdf",

@@ -25,6 +25,13 @@ jobs:
           go vet ./...
           go test ./...
 
+      - name: Verify coverage and review evidence
+        run: |
+          python3 bank/audit/report.py --check
+          python3 bank/audit/terms_report.py --check
+          python3 bank/audit/p1_report.py --check
+          python3 bank/audit/remaining_report.py --check
+
       # Building here catches an export that fails even when the bank is sound.
       - name: Build single-file app
         run: |

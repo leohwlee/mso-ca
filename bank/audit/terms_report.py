@@ -68,6 +68,7 @@ def validate(d):
     return dict(rows=len(rows), quotes=quote_count, evidence=evidence_count,
                 statuses=dict(collections.Counter(r['status'] for r in d['rows'])),
                 implementation=state['implementation'], p1_implementation=state.get('p1_implementation'),
+                remaining_implementation=state.get('remaining_implementation'),
                 current_questions=len(bank), current_statements=sum(len(q['truth']) for q in bank))
 
 def render(d, v):
@@ -76,6 +77,10 @@ def render(d, v):
     if implementation:
         for link in implementation['coverage']:
             fulfilled[link['row_id'], link['gap_index']].append(link)
+    completion=v.get('remaining_implementation')
+    if completion:
+        for link in completion['specialist_coverage']:
+            fulfilled[link['row_id'],link['gap_index']].append(link)
     lines = ['# 名词、机构职能及角色分工专项覆盖检查', '',
         '**结论：这类题已有实质覆盖，但覆盖不均；主要短板是完整职能、主体区别和定义条件。不能由 FATF 一例推断整类缺题，也不能由机构名称出现过就判定职能已考全。**', '',
         f'检查对象：现有 {d["snapshot"]["questions"]} 道题、{d["snapshot"]["statements"]:,} 个题句，对照既定 23 份官方归档资料。已包含先前新增的 `m1-152`、`m6-385`。本专项是覆盖盘点及补题排序；下述缺口尚未据此新增题目。', '',
@@ -143,6 +148,12 @@ def render(d, v):
         lines[4]=f'专项审核基线为299题、1,507个题句；职责／定义补题后为320题。后续P1流程补题完成后，现为{v["current_questions"]}题、{v["current_statements"]:,}个题句。本表保留原188行专项映射及逐项落实，后续流程补题见[P1流程记录](P1-PROCESSES.md)。'
         lines[2]='**结论：专项P1/P2来源缺口及后续P1流程任务已补成题。P2流程细节与P3可选内容仍按总体清单保留。**'
         lines=[line.replace('总体审核另有一般流程和条件例外缺口','总体审核另有P2流程细节及P3可选内容') for line in lines]
+    if completion:
+        lines[2]='**结论：专项P1／P2及原清单的P3缺口均有直接题句覆盖；相关流程任务也已完成。以下保留基线判断，并另列落实证据，不声称覆盖所有真实考题。**'
+        lines[4]=f'专项审核基线为299题、1,507个题句；当前为{v["current_questions"]}题、{v["current_statements"]:,}个题句。原188行映射及基线状态保留，最终落实见[完成记录](REMAINING.md)。'
+        lines=[line.replace('P1/P2已补；P3按下列明细保留','已落实，见下列逐项证据').replace('P3可选，保留','已落实，见下列逐项证据') for line in lines]
+        lines=[('全部专项缺口已按下列证据落实。总体清单与专项内容重叠，不能相加计算独立考点数。' if line.startswith('P1/P2专项缺口已落实；') else line) for line in lines]
+        lines=[('保留限制：18日重新下载条例以外的42个双语PDF版本及核对FAQ正文，均与归档一致；条例官网仍受客户端检查限制，未确认最新版本。未对全部未变旧题重新盲答。部分已补题后来扩写替换，题号关系和旧题快照见[最终记录](REMAINING.md)。' if line.startswith('保留限制：') else line) for line in lines]
     return '\n'.join(lines)
 
 if __name__ == '__main__':
@@ -154,4 +165,4 @@ if __name__ == '__main__':
         assert target.read_text(encoding='utf8') == expected, 'Generated report differs'
     else:
         target.write_text(expected, encoding='utf8')
-    print(json.dumps({k:v for k,v in result.items() if k not in ['implementation','p1_implementation']}, ensure_ascii=False))
+    print(json.dumps({k:v for k,v in result.items() if k not in ['implementation','p1_implementation','remaining_implementation']}, ensure_ascii=False))

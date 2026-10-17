@@ -81,8 +81,10 @@ text uses the operating system's fonts.
 
 All active items now have per-statement notes and quotes. The temporary
 new-format filter, one-off converter and duplicate legacy JSON snapshots
-have been removed. `bank/retired-ids.json` reserves the 1,511 retired ids;
-`apply.py next` skips them and `apply.py check` rejects their reuse.
+have been removed. That migration and the first repairs reserved 1,511 IDs in
+`bank/retired-ids.json`;
+`apply.py next` skips them and `apply.py check` rejects their reuse. The final
+completion wave reserves 12 further replaced IDs, for 1,523 in total.
 The original questions and quotes remain at commit
 `7787e991cc7a5c6eb0e22f1c9216ae133f2daf27` (`v1.7.5`):
 
@@ -95,10 +97,19 @@ The two later replacements, `m3-261` → `m3-322` and `m1-142` → `m1-177`,
 preserve their old questions and quotes in [the implementation record](bank/audit/implementation.json).
 The audit reports retain their historical baselines and validate the follow-up
 against current statements; run `bank/audit/report.py --check`,
-`bank/audit/terms_report.py --check` and `bank/audit/p1_report.py --check` with Python.
+`bank/audit/terms_report.py --check`, `bank/audit/p1_report.py --check` and
+`bank/audit/remaining_report.py --check` with Python; CI runs all four.
 The later P1 additions and their final blind reviews are recorded in
 [`bank/audit/p1-implementation.json`](bank/audit/p1-implementation.json),
 which verifies the earlier bank without rewriting its audit history.
+
+The [final completion record](bank/audit/remaining-implementation.json) adds the
+remaining P2/P3 coverage and preserves each expanded question's retired snapshot.
+The validator reconstructs all preceding bank versions, including replacements,
+and binds final blind verdicts to their reviewed text. Source 16's image-only form
+labels are in `docs/transcripts/16.json`, bound to raw PDF hashes and independently
+checked; `docs/extract_text.py` inserts them on their original pages. Recheck the
+transcript whenever the PDF changes; the source tests reject stale bindings.
 
 Keep the numbered sources, extracted text, authoring guide and conflicts
 register: they are inputs to authoring and verification, not build leftovers.
@@ -131,6 +142,7 @@ with `v`, so they never trigger a release.
 
 | Version | Date | First released in | What changed |
 |---|---|---|---|
+| 2.3.0 | 18 Oct 2026 | v1.8.0 | Adds source-first coverage audits, explicit semantic support checks, image-page and version evidence, scoring-history handling, and scope-aware review costs. Respects settled project decisions and authorization; moves conditional guard/tool detail into references. |
 | 2.2.0 | 28 Sep 2026 | v1.7.5 | Adds calibrating a mechanical filter and a cheaper model on a judged sample before a bulk review, with the numbers from this repository's quote sweep. |
 | 2.1.0 | 28 Sep 2026 | v1.7.4 | Adds the options-only guesser to the guard catalogue, and what this repository measured once it had the new checks: stored deciding quotes, convergence and echo at chance, and the guesser's results. |
 | 2.0.0 | 28 Sep 2026 | v1.7.4 | Renamed `exam-prep`. Covers the study pack and the mock-exam app as well as the bank, and makes the exam format a spec the user defines. Adds the intake questions, the conflicts register, verification against the pack, the negation, echo and twin-statement tells, and briefs for subagents. |

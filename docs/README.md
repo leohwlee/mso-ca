@@ -15,6 +15,15 @@ also matched the official page. Other documents retain their original check
 dates. The current Ordinance page was blocked by a client-configuration check,
 so this update continues to use the archived consolidated text above.
 
+On 18 October 2026, all 42 language editions of the 21 PDF sources other
+than Ordinance 10 were re-downloaded and matched the archives byte for byte.
+The substantive FAQ text also matched. Sources 01 and 23 were checked via the
+current licensing/capacity-building pages, distinguishing the sample paper from
+its announcement. The Ordinance page remains blocked by the client check; its
+latest version was not verified. Image-only fields in source 16 were manually
+transcribed, independently checked and bound to the PDF version in
+`transcripts/16.json`; extraction adds them to their own pages.
+
 Documents 01–09 are the Guidance Notes and the guidelines, 10 is the
 Ordinance, 11–21 are the circulars still in force, oldest first, 22 is the FAQ
 page and 23 is the official sample paper. The Guidance Notes ¶6.1 name five
@@ -74,16 +83,16 @@ the per-document figures can sum above the module total.
 
 | Module | Source documents (questions citing each) | Questions |
 |---|---|---|
-| **1** General knowledge on AML/CFT and counter-proliferation financing | **01** (1) · **02** (23) · **10** (2) · **11** (2) · **14** (1) · **15** (1) · **17** (1) · **18** (1) · **19** (2) · **20** (2) · **21** (1) · **22** (1) | 31 |
-| **2** Parts 1–7 of the AMLO | **10** (50) · **22** (1) · **23** (1) | 50 |
-| **3** Schedules to the AMLO | **02** (2) · **10** (42) · **23** (1) | 42 |
-| **4** Guidelines promulgated by the C&ED | **01** (9) · **03** (25) · **04** (1) · **05** (4) · **06** (4) · **07** (4) · **08** (4) · **09** (5) · **10** (2) · **16** (1) · **22** (1) · **23** (1) | 50 |
+| **1** General knowledge on AML/CFT and counter-proliferation financing | **01** (1) · **02** (23) · **10** (2) · **11** (2) · **14** (2) · **15** (1) · **17** (1) · **18** (1) · **19** (2) · **20** (2) · **21** (1) · **22** (1) | 32 |
+| **2** Parts 1–7 of the AMLO | **10** (53) · **22** (1) · **23** (1) | 53 |
+| **3** Schedules to the AMLO | **02** (2) · **10** (43) · **23** (1) | 43 |
+| **4** Guidelines promulgated by the C&ED | **01** (10) · **03** (29) · **04** (1) · **05** (5) · **06** (5) · **07** (4) · **08** (4) · **09** (5) · **10** (2) · **16** (3) · **22** (1) · **23** (1) | 59 |
 | **5** Systems and controls (i): institutional governance and strategy | **02** (55) · **07** (1) · **10** (1) · **12** (1) · **23** (1) | 56 |
-| **6** Systems and controls (ii): AML/CFT control areas | **02** (58) · **10** (5) · **12** (1) · **13** (5) · **14** (6) · **22** (24) · **23** (1) | 69 |
+| **6** Systems and controls (ii): AML/CFT control areas | **02** (62) · **10** (5) · **12** (2) · **13** (5) · **14** (7) · **22** (26) · **23** (1) | 74 |
 | **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** (40) · **22** (1) · **23** (2) | 40 |
 
 The current bank includes all seven samples from **23**, plus the sample in
-**01** ¶7.1. **22**, the FAQ, is cited by 28 questions: 1 in module 1, 1 in module 2, 1 in module 4, 24 in module 6, 1 in module 7. The figures above describe the active bank, excluding
+**01** ¶7.1. **22**, the FAQ, is cited by 30 questions: 1 in module 1, 1 in module 2, 1 in module 4, 26 in module 6, 1 in module 7. The figures above describe the active bank, excluding
 retired questions preserved in Git history.
 
 Two of these are worth singling out. **23** is the only set of sample questions

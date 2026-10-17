@@ -34,7 +34,84 @@ def validate_reviews(record, current):
         assert a['verdicts'] == a['tc_verdicts'] == expected, q['id']
     assert reviewed == set(record['added_question_ids']), 'Every addition needs a final bilingual blind review'
 
-def latest_followup(bank, quotes):
+def completion_followup(bank, quotes):
+    """Validate final additions/replacements and recover the untouched 338-item state."""
+    path = HERE / 'remaining-implementation.json'
+    if not path.exists():
+        return None, bank, quotes, set()
+    d = json.loads(path.read_text(encoding='utf8'))
+    assert d['status'] == 'verified'
+    current = {q['id']: q for q in bank}
+    assert len(current) == len(bank) == d['current']['questions']
+    assert sum(len(q['truth']) for q in bank) == d['current']['statements']
+    assert set(quotes) == set(current), 'Quotes must match the active bank'
+    for p, expected in d['current']['sha256'].items():
+        check_hash(p, expected)
+    for review in [d['pack_review']['ci'], d['pack_review']['trust']]:
+        check_hash(review['file'], review['sha256'])
+        for p, expected in review['source_sha256'].items():
+            check_hash(p.replace('\\','/'), expected)
+    check_hash(d['transcript_review']['transcript_file'], d['transcript_review']['transcript_sha256'])
+    assert d['skill_review']['status'] == 'pass'
+    check_hash('.claude/skills/exam-prep/SKILL.md', d['skill_review']['final_skill_sha256'])
+    refresh = d['source_verification']
+    assert len(refresh['pdfs']) == 42 and all(p['binary_equal'] for p in refresh['pdfs'])
+    for p in refresh['pdfs']:
+        check_hash(p['archive'].replace('\\','/'), p['sha256'])
+    added = set(d['added_question_ids'])
+    assert len(added) == len(d['added_question_ids'])
+    retired = {r['old_id']: r for r in d['replacements']}
+    assert len(retired) == len(d['replacements'])
+    baseline = d['baseline']
+    assert added.isdisjoint(baseline['question_order'])
+    assert set(current) == (set(baseline['question_order']) - set(retired)) | added
+    reserved = json.loads((ROOT / 'bank/retired-ids.json').read_text(encoding='utf8'))['ids']
+    assert set(retired) <= set(reserved) and set(retired).isdisjoint(current)
+    assert all(set(r['new_ids']) <= added for r in retired.values())
+    assert set(d['new_question_ids']) == added - {qid for r in retired.values() for qid in r['new_ids']}
+    restored = dict(current)
+    restored.update({qid:r['question'] for qid,r in retired.items()})
+    restored_quotes = dict(quotes)
+    restored_quotes.update({qid:r['quotes'] for qid,r in retired.items()})
+    old_bank = [restored[qid] for qid in baseline['question_order']]
+    old_quotes = {qid:restored_quotes[qid] for qid in baseline['quote_order']}
+    proven = set()
+    for p, value in {'web/questions.json':old_bank, 'docs/quotes.json':old_quotes}.items():
+        digest = hashlib.sha256(encoded(value, baseline['newline'][p])).hexdigest()
+        assert digest == baseline['sha256'][p], f'Unrecorded change in final wave: {p}'
+        proven.add((p,digest))
+    assert len(old_bank) == baseline['questions']
+    assert sum(len(q['truth']) for q in old_bank) == baseline['statements']
+    for p, update in d.get('documentation_updates', {}).items():
+        assert hashlib.sha256(update['before_text'].encode('utf8')).hexdigest() == update['before_sha256']
+        check_hash(p, update['after_sha256'])
+        proven.add((p, update['before_sha256']))
+    audit = json.loads((HERE / 'coverage.json').read_text(encoding='utf8'))
+    backlog = {b['id']:b for b in audit['backlog']}
+    tasks = {t['backlog_id'] for t in d['task_results'] if t['status']=='completed'}
+    assert tasks == set(baseline['remaining_task_ids'])
+    assert all(b['status']=='completed' for b in backlog.values()), 'Remaining backlog tasks'
+    assert {row['task_id'] for row in d['coverage']} == tasks
+    for row in d['coverage']:
+        assert row['topic_id'] in backlog[row['task_id']]['topic_ids']
+    def check_rows(rows):
+        for row in rows:
+            q = current[row['question_id']]
+            assert row['statements'] and len(row['snapshot'])==len(row['statements'])
+            for i,snapshot in zip(row['statements'],row['snapshot']):
+                assert snapshot == dict(statement=i,truth=q['truth'][i-1],en=q['en']['statements'][i-1],tc=q['tc']['statements'][i-1])
+    check_rows(d['coverage']); check_rows(d['specialist_coverage'])
+    terms=json.loads((HERE/'terms-and-roles.json').read_text(encoding='utf8'))
+    required={(r['id'],i) for r in terms['rows'] for i,g in enumerate(r['untested']) if g['priority']=='P3'}
+    assert required == {(r['row_id'],r['gap_index']) for r in d['specialist_coverage']}
+    assert len(bank)-len(old_bank)==d['statistics']['net_questions']
+    assert sum(len(q['truth']) for q in bank)-baseline['statements']==d['statistics']['net_statements']
+    assert len(added)==d['statistics']['written_questions']
+    assert len(d['new_question_ids'])==d['statistics']['new_questions']
+    validate_reviews(d,current)
+    return d,old_bank,old_quotes,proven
+
+def latest_followup(bank, quotes, proven=None):
     """Validate the additive P1 wave and reconstruct the preceding 320-item state."""
     path = HERE / 'p1-implementation.json'
     if not path.exists():
@@ -44,8 +121,10 @@ def latest_followup(bank, quotes):
     current = {q['id']:q for q in bank}
     assert len(current) == len(bank) == d['current']['questions']
     assert sum(len(q['truth']) for q in bank) == d['current']['statements']
+    proven = set(proven or ())
     for p, expected in d['current']['sha256'].items():
-        check_hash(p, expected)
+        if (p,expected) not in proven:
+            check_hash(p, expected)
     baseline = d['baseline']; added = set(d['added_question_ids'])
     assert len(added) == len(d['added_question_ids'])
     assert added.isdisjoint(baseline['question_order'])
@@ -53,7 +132,6 @@ def latest_followup(bank, quotes):
     assert added == set(d['new_question_ids'])
     old_bank = [current[qid] for qid in baseline['question_order']]
     old_quotes = {qid:quotes[qid] for qid in baseline['quote_order']}
-    proven = set()
     for p, value in {'web/questions.json':old_bank, 'docs/quotes.json':old_quotes}.items():
         digest = hashlib.sha256(encoded(value, baseline['newline'][p])).hexdigest()
         assert digest == baseline['sha256'][p], f'Pre-existing item changed in P1 wave: {p}'
@@ -62,7 +140,8 @@ def latest_followup(bank, quotes):
     assert sum(len(q['truth']) for q in old_bank) == baseline['statements']
     for p, update in d.get('documentation_updates', {}).items():
         assert hashlib.sha256(update['before_text'].encode('utf8')).hexdigest() == update['before_sha256']
-        check_hash(p, update['after_sha256'])
+        if (p,update['after_sha256']) not in proven:
+            check_hash(p, update['after_sha256'])
         proven.add((p, update['before_sha256']))
     tasks = {t['backlog_id'] for t in d['task_results'] if t['status'] == 'completed'}
     assert tasks == set(baseline['p1_task_ids'])
@@ -87,7 +166,9 @@ def load_state():
     quotes = json.loads((ROOT / 'docs/quotes.json').read_text(encoding='utf8'))
     active_bank = bank
     active_current = {q['id']:q for q in bank}
-    latest, bank, quotes, proven = latest_followup(bank, quotes)
+    completion, bank, quotes, proven = completion_followup(bank, quotes)
+    intermediate = {q['id']:q for q in bank}
+    latest, bank, quotes, proven = latest_followup(bank, quotes, proven)
     current = {q['id']: q for q in bank}
     path = HERE / 'implementation.json'
     if not path.exists():
@@ -147,9 +228,11 @@ def load_state():
     assert required <= fulfilled, 'Unfilled P1/P2 gap'
     assert len(required) == d['statistics']['priority_gap_mappings']
     validate_reviews(d, current)
+    evidence.update(intermediate)
     evidence.update(active_current)
     return dict(bank=active_bank, current=active_current, evidence=evidence, implementation=d,
-                p1_implementation=latest, historical_hashes=historical_hashes, historical_versions=proven)
+                p1_implementation=latest, remaining_implementation=completion,
+                historical_hashes=historical_hashes, historical_versions=proven)
 
 def verify_hash(path, expected, state):
     historical = state['historical_hashes']

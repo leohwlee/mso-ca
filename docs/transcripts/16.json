@@ -1,0 +1,19 @@
+{
+  "description": "Manually transcribed form labels embedded as images; checked against both language PDF pages 3–5 on 18 October 2026. Sample entered figures are excluded.",
+  "EN": {
+    "source_sha256": "bb0408f2cea27a76c154f750479ee777ccc9859a20800ad44e690117660ce381",
+    "pages": {
+      "3": ["(B) Money Changing Transactions Requiring Customer Due Diligence (\"CDD\") or Enhanced Due Diligence (\"EDD\") Measures", "No. of CDD Conducted", "No. of EDD Conducted", "No. of Rejected Transaction"],
+      "4": ["(D) Number of Remittance Transactions Requiring CDD or EDD Measures", "No. of CDD Conducted", "No. of EDD Conducted", "No. of Rejected Cases"],
+      "5": ["Part 3 - Transaction Monitoring and Law Enforcement Requests", "(A) Reporting to the Joint Financial Intelligence Unit (\"JFIU\")", "Number of suspicious transactions reported to the JFIU", "(B) Requests from Law Enforcement Agencies", "Number of letters of no consent, restraint orders or confiscation orders issued pursuant to the relevant legislations and received by your company", "Part 4 - Other Information", "Please provide the estimated total amount of assets of your company's money service business in Hong Kong as of the submission date of this return (in HKD)"]
+    }
+  },
+  "TC": {
+    "source_sha256": "6f43d3db88a6dc86d65ffc71ccc39fa2908a70feb13e11e03e2b3379e717703a",
+    "pages": {
+      "3": ["(B) 須執行客戶盡職審查（盡職審查）或更嚴格的盡職審查措施的貨幣兌換交易", "執行盡職審查數目", "執行更嚴格的盡職審查數目", "拒絕交易個案數目"],
+      "4": ["(D) 須執行盡職審查或更嚴格的盡職審查措施的匯款交易", "執行盡職審查數目", "執行更嚴格的盡職審查數目", "拒絕個案數目"],
+      "5": ["第3部－交易監察及執法機構要求", "(A) 向聯合財富情報組報告", "向聯合財富情報組報告的可疑交易數目：", "(B) 執法機構要求", "你公司接獲根據相關法例發出不同的同意通知書、限制令或沒收令數目：", "第4部－其他資料", "請填寫你公司在香港經營金錢服務業務的估算資產總額（截止此申報表提交日期，以港元計算）"]
+    }
+  }
+}

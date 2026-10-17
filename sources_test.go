@@ -179,8 +179,9 @@ func TestSourceTextsCurrent(t *testing.T) {
 		t.Fatalf("read docs/text/manifest.json: %v", err)
 	}
 	var manifest map[string]struct {
-		Source string `json:"source"`
-		SHA256 string `json:"sha256"`
+		Source           string `json:"source"`
+		SHA256           string `json:"sha256"`
+		TranscriptSHA256 string `json:"transcript_sha256"`
 	}
 	if err := json.Unmarshal(b, &manifest); err != nil {
 		t.Fatalf("parse docs/text/manifest.json: %v", err)
@@ -209,12 +210,34 @@ func TestSourceTextsCurrent(t *testing.T) {
 			}
 			// Line endings are folded first: git checks the FAQ page, a text file, out
 			// with CRLF on Windows and LF elsewhere.
+			rawSourceSum := sha256.Sum256(src)
 			src = bytes.ReplaceAll(src, []byte("\r\n"), []byte("\n"))
 			if sum := sha256.Sum256(src); hex.EncodeToString(sum[:]) != m.SHA256 {
 				t.Errorf("docs/%s/%s has changed since its text was extracted (run python docs/extract_text.py)", lang, name)
 			}
 			if fi, err := os.Stat(filepath.Join("docs", "text", key)); err != nil || fi.Size() == 0 {
 				t.Errorf("docs/text/%s is missing or empty", key)
+			}
+			transcriptPath := filepath.Join("docs", "transcripts", name[:2]+".json")
+			transcript, transcriptErr := os.ReadFile(transcriptPath)
+			if transcriptErr == nil {
+				transcript = bytes.ReplaceAll(transcript, []byte("\r\n"), []byte("\n"))
+				sum := sha256.Sum256(transcript)
+				if hex.EncodeToString(sum[:]) != m.TranscriptSHA256 {
+					t.Errorf("%s changed since extraction; re-check labels and run docs/extract_text.py", transcriptPath)
+				}
+				var labels map[string]json.RawMessage
+				var binding struct {
+					SourceSHA256 string `json:"source_sha256"`
+				}
+				if err := json.Unmarshal(transcript, &labels); err != nil {
+					t.Fatalf("parse %s: %v", transcriptPath, err)
+				}
+				if err := json.Unmarshal(labels[lang], &binding); err != nil || binding.SourceSHA256 != hex.EncodeToString(rawSourceSum[:]) {
+					t.Errorf("%s is not bound to the current %s PDF", transcriptPath, lang)
+				}
+			} else if !os.IsNotExist(transcriptErr) || m.TranscriptSHA256 != "" {
+				t.Errorf("read image transcript %s: %v", transcriptPath, transcriptErr)
 			}
 		}
 	}

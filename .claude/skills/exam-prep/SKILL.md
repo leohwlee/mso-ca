@@ -3,8 +3,8 @@ name: exam-prep
 description: Turn a fixed set of source documents (statutes, regulations, guidelines, manuals, course notes; in one language or two) into exam preparation — a cited study pack, a multiple-choice question bank, and a mock exam that draws papers under the real rules — for any exam format the user defines as data. Use when asked to write revision notes, a study guide or pack, practice questions, a question bank, a mock paper or a mock-exam app from documents; to define or change an exam format (sections, question formats, fixed option blocks, pass rule, timing); or to audit existing material for wrong or second-defensible keys, ungrounded or superseded content, duplicates, drift between languages, or answers a candidate can guess from surface form without knowing the material.
 license: MIT
 metadata:
-  version: "2.2.0"
-  replaces: "exam-question-bank 1.2.1"
+  version: "2.3.0"
+  replaces: "exam-prep 2.2.0"
 ---
 
 # Exam prep from source documents
@@ -38,7 +38,7 @@ for a rule, not constants, so re-measure on your own material.
    know the cited passage. It must not be answerable from the shape of the
    options, a hedge word, a length, a semicolon, or what a clause number says.
 3. **Measured.** The damaging faults are invisible one item at a time and obvious
-   in aggregate. Measure the bank, and ship every measurement as a test.
+   in aggregate. Measure the bank. Enforce stable, decisive rules as tests; calibrate style diagnostics to the format and reviewed examples.
 4. **Decided first.** Every rule the owner settled late cost a sweep of the
    whole bank. Length rules cost 1,194, then 442, then 637 rewrites. Chinese
    terminology cost 169, then 662, then 533. Source conflicts cost 29, then
@@ -46,13 +46,24 @@ for a rule, not constants, so re-measure on your own material.
    rule 47 and out-of-scope questions 27. Phase 0 asks all of those questions
    before anything is written.
 
+## Existing decisions and authorization
+
+Read the project's exam spec, source scope, authoring guide and decisions register
+before applying defaults. The owner's settled choices override generic examples,
+including format, strict reading, terminology and exclusions. Reuse decisions and
+authorization already supplied in the session; do not repeat intake or download
+permission questions for routine work inside that scope. Ask only when a material
+decision is missing or a genuine conflict changes scope or what will be taught.
+Permission to author or review does not itself authorize external publication.
+
 ## Choose the mode
 
 | Mode | Do |
 |---|---|
 | Build | Phases 0–7 in order. |
 | Extend: new questions, pages, sources or formats | Re-read the spec and the register. Run Phase 1 for any new source, then write. Run every guard and the twin check against the whole bank, then Phase 6 on what changed. |
-| Audit | Phase 6 and a tell sweep. Measure everything before changing anything. Report findings only unless asked to fix, and let the owner decide each item. |
+| Coverage audit | Source-first coverage mapping below, then a prioritized, deduplicated gap list. Report findings without changing the bank unless repairs or additions are authorized. |
+| Answer audit | Phase 6 and a tell sweep. Measure everything before changing anything. Report findings only unless asked to fix, and let the owner decide each item. |
 | Change the format | Edit the spec, add the format's guards and change the draw logic. Only then convert or write items: a draw filter costs one edit, while converting questions costs an agent each. |
 
 ---
@@ -63,8 +74,8 @@ Two files govern everything. The **exam spec** says what a paper looks like. The
 **decisions register** records every judgment the owner has made. The app, the
 guards and every brief read them, and nothing hard-codes them.
 
-**Ask before writing anything.** Put each point to the owner with a
-recommendation, and record the answer in the register:
+**Resolve genuinely missing decisions before writing.** Read existing answers first.
+For unresolved material choices, give a recommendation and record the decision:
 
 - **Sources.** Ask for the exact list, including every language edition, and
   whether only current editions count. Default: yes. A document that a later
@@ -156,7 +167,7 @@ exam, cut to two sections:
 - **Archive every language edition locally**, under stable numbered filenames,
   with a manifest: number, title, edition date, official URL, date checked and
   hash. Work from the archive, because a citation that moves is worse than none.
-  Downloading needs the user's yes each time, naming the file, source and size.
+  Routine downloads within the user-authorized source scope may proceed; seek a decision for a new source or material scope change.
 - **Never guess an identifier.** Read the real listing. Translated editions sat
   at an unpredictable offset from the original in 2 cases of 14.
 - **Current documents only.** Before adding a document, check whether it
@@ -227,8 +238,9 @@ project, 95 surfaced after the bank already held 1,500 questions.
 - **Schema.**
   - Fields per language, and a citation per language that carries a locator.
   - The deciding quote per language, verbatim from the cited unit. A guard then
-    proves every key is grounded, and a quote that stops matching flags an
-    edited source. The reference bank added its quotes only after 1,500
+    verifies source identity and text occurrence, not semantic support. A quote
+    that stops matching flags a changed source; reading the surrounding rule
+    still decides whether the key follows from it. The reference bank added its quotes only after 1,500
     questions existed, recovering most from the answer files of earlier blind
     reviews. Every recovered quote came from the right passage, but a random
     sample found a fifth stopping short of the deciding words. Write the quote
@@ -238,8 +250,9 @@ project, 95 surfaced after the bank already held 1,500 questions.
   - Stable ids for items, and for each option an id shared by all its language
     versions. Store attempts by option id rather than position, so neither a
     reordered option nor a new one can corrupt a candidate's history.
-  - Optionally, the locator units an item rests on. That turns coverage and
-    twin checks into queries.
+  - Source units and decision points the item directly tests, with statement
+    references where applicable. Background mentions and explanation-only
+    material must be distinguished from tested content.
 - **Formats that earn their place.** Single-best items suit learning, because a
   wrong answer names the rule not yet learnt. The examiner's own format gives
   realism, behind a switch in the app.
@@ -280,7 +293,8 @@ for a closed-book exam, so ask about yours.
   duties, or two officials holding different powers. Use a labelled callout or a
   marker in the table cell, ideally side by side.
 - **Leave these out:**
-  - section-by-section listings and who-is-who tables;
+  - section-by-section listings and unsupported institution directories;
+    retain cited comparisons of examinable functions, powers and boundaries;
   - standalone sections of numbers;
   - drills, because practice belongs in the bank;
   - an opening paragraph that repeats the page overview. The paragraph above a
@@ -329,8 +343,10 @@ for a closed-book exam, so ask about yours.
   application items, and measure yours: the reference bank's share of
   scenarios was 5–15% by section.
 - **Distractors are wrong on substance**: the wrong actor, threshold, deadline,
-  body or condition. They are never wrong by overstatement ("only", "always"),
-  never by a tail citing a provision as if it said the false thing ("per
+  body or condition. Avoid surface giveaways from overstatement ("only", "always");
+  if the project explicitly tests strict qualifiers, preserve that choice and
+  check the distribution of such wording across true and false statements. They
+  must not use a tail citing a provision as if it said the false thing ("per
   section 4.4.2"), and never merely implausible.
 - **Write keys and distractors the same way.** When keys paraphrase the source
   and distractors are invented, a reader, or a model, learns to tell them apart.
@@ -346,10 +362,12 @@ for a closed-book exam, so ask about yours.
   words ("usually", "often") appear only where the source itself uses them.
 - **No twins.** Before keying a point, check that it is not already keyed, or
   stated as a true statement, anywhere in the bank. Include its twin provisions,
-  the same rule restated for another actor or procedure, because a candidate
-  transfers the answer. When a section runs out of unkeyed points, say so.
+  genuine restatements in another actor or procedure. Distinguish separate
+  legal subjects whose obligations must each be learned; similar wording alone
+  is not duplication. Deliberate spaced practice requires the project's approval
+  when its deduplication rule would otherwise exclude it. When a section runs out of unkeyed points, say so.
   Reaching into out-of-scope provisions to fill it is how scope faults start.
-- **Keep options in one length band while writing** (the standout rule, below).
+- **Keep options in one length band while writing** (the standout rule in the guard catalogue).
   Trim the key rather than pad distractors, and pad only in the source's own
   register.
 - **Explanations name the source's deciding words** for each false option or
@@ -383,12 +401,65 @@ for a closed-book exam, so ask about yours.
   jointly break a bank-wide share.
 - **Audit each wave** for bolt-on phrases that appear only in distractors. They
   become a tell of their own.
-- **Say which model the subagents run on.** The session's model choice does not
-  reach them.
+- **Record the model the subagents actually use.** Check the environment's
+  inheritance and override behavior; do not assume that a different reviewer
+  means a different model or model family.
 
 ---
 
+## Coverage audit — before filling gaps
+
+Build the checklist from each source, including definitions, purposes, functions,
+powers, conditions, exceptions, footnotes, appendices and forms. For institutions
+and roles, list nature/purpose, specific duties, decision authority and easily
+confused identities; a name appearing in a stem proves none of these is tested.
+Never invent missing functions from general knowledge or expand to other sectors
+without the owner's scope decision.
+
+Map each decision point to a direct question/statement in the whole bank. Record
+covered, partial, missing or reference/out of scope; include the exact missing
+aspect, source locator, primary module and cross-module evidence. Distinguish
+an overall bank gap from insufficient practice in a particular module. Do not
+count known wrong-key or unsupported statements as valid evidence. A correctly
+keyed false statement can directly test the rule it departs from. Record exclusions from the
+register alongside the positive scope, and check for out-of-scope content too.
+
+Keep an image-page reading account. Render and inspect pages containing diagrams,
+screenshots or scans; missing extracted text does not mean the point is absent.
+Any manually transcribed labels must retain page, language and source version,
+and be checked against the original image by a different reviewer.
+
+Merge the same gap across statutes, guidance, FAQs and circulars into one task,
+while preserving each source's mapping. Prioritize by importance of the duty,
+decision-changing conditions and error consequences, not guessed exam frequency.
+Reuse existing direct evidence, then author only the residual decision points.
+Do not pad a question with duplicates to meet a batch size or format minimum.
+
+Preserve the audit baseline and subsequent implementation records: source, bank,
+quotes and register versions/hashes; question ID, statement index, exact text and
+truth; task status and final review evidence. Bind a blind verdict to the actual
+final text. After changes, reconstruct or retain historical snapshots rather
+than silently updating old hashes. Validate new mappings against active content.
+Coverage is a proportion of a declared checklist, never a claim of exam coverage
+or a probability of passing.
+
 ## Phase 6 — Verification
+
+Required for each changed question: relevant source context in each language,
+independent blind answers, unique key, final explanation and deciding evidence,
+pack comparison, whole-bank semantic deduplication and applicable mechanical
+guards. Re-review changed final text; unchanged content keeps its prior evidence.
+
+Review semantic support separately from quote occurrence: actor, scope, condition,
+exception, modal strength, AND/OR lists and cross-references. For a true statement,
+actively look for a compliant counterexample that would make it false. For an
+invented false statement, check that it is not true under another permitted route.
+
+Use additional panels, different-family adversaries, embeddings and simulations
+when material changes, detected risks, project requirements and available tools
+justify them. Existing project hard checks remain required; do not silently
+downgrade them to diagnostics. State which checks ran, their scope and limitations.
+Do not claim unavailable or unrun checks passed.
 
 Reviewing an item with the key in view verifies nothing. The reviewer must answer
 it.
@@ -440,7 +511,7 @@ it.
   of three "criticals", a second look downgraded two. Separate strands re-find
   the same defect, and 51 cross-strand duplicates had to be merged before the
   counts were honest.
-- **Run a test-wise adversary**: a model from a different family from the
+- **For a deeper tell audit, run a test-wise adversary**: a model from a different family from the
   writers', in three runs.
   - *Options only*: no stem and no source, with the options in five shuffled
     orders. Flag an item whose key is picked four times or more; by chance that
@@ -467,7 +538,7 @@ it.
   for GPT-4, and the best detector of errors in a large public benchmark reached
   an F2 of about 40. Turn the flaws a string check can catch into guards, and
   keep models answering, not grading.
-- **Check that each language pair still says one thing.** Embed every item's
+- **For a deeper language-drift audit,** embed every item's
   language versions with a cross-lingual model: each version should be the
   other's nearest neighbour. A pair that is not has drifted apart or been
   swapped.
@@ -491,11 +562,18 @@ it.
   - The realistic-format switch, shown only when every section can fill a
     paper, saying how many papers it can draw.
 - **Shuffle once per draw**, and use the same order in every language. A
-  bilingual view pairs `options[i]` across languages.
+  bilingual view pairs `options[i]` across languages. The spec must declare
+  whether options, statements or both reorder, how numeric subsets are remapped,
+  what all/none means and what must stay fixed. A format with remapped statements
+  may keep all/none at the last position; immutable official samples follow the
+  project's explicit preservation rule.
 - **History stays on the device**, with export and import to a file.
-- **Survive bank changes.** Drop ids the bank no longer holds. Discard any
-  stored option order whose length no longer matches, because a four-entry order
-  applied to a five-option item hides the key.
+- **Survive bank changes.** Version scoring-relevant content: a changed meaning,
+  truth or option set can invalidate attempts even when the option count stays
+  the same. Use a new stable ID or content version; preserve the original scored
+  attempt as historical, or explicitly invalidate it under the owner's rule.
+  Drop retired IDs from new draws and discard incompatible stored orders. Never
+  silently re-score an old attempt against a different question.
 - **Ship one offline HTML file.** Embed the fonts with their licence notice, and
   compact the embedded bank.
 - **Export on request.**
@@ -520,144 +598,9 @@ tables), the disclaimer and the licence. Development notes go elsewhere.
 
 ## Guard catalogue
 
-These are defaults, run per language and per section; N is the option count. The
-reference suite is [`questions_test.go`](https://github.com/leohwlee/mso-ca/blob/main/questions_test.go).
-
-| Guard | Default | Stops |
-|---|---|---|
-| Section counts reach `bank_min`; every item has every language, its format's fields and a valid key | — | items going missing or half-written |
-| Every citation has a locator and resolves in the locator index | — | a document with no paragraph to turn to; drift (one chapter's citations sat two paragraphs high) |
-| The deciding quote is found in the cited unit, in each language, and shares the key's deciding words more than any distractor does | normalise (NFKC, spaces, quote marks); exact substring, else a fuzzy partial match ≥ 95 | a key the cited passage does not support |
-| No citation of a removed document | the manifest | superseded sources creeping back |
-| Key is the longest option | ≤ 45% | "pick the longest" |
-| No length rank above chance plus 15 points | ≤ 40% when N = 4 | the same tell moved to second-longest |
-| Longest minus shortest within an item | ≤ 40% of the mean; floor 20 Latin / 8 CJK characters | one option carrying visibly more |
-| No option more than 15% clear of its nearest neighbour, at either end | floor 8 Latin / 3 CJK characters | the comparison a reader actually makes |
-| Punctuation all or none within an item | semicolons, and any mark that correlates | a semicolon marking the fuller answer |
-| The key is the option sharing most with the other options no more often than chance | share of items ≤ 1/N + 2 standard errors | convergence: distractors made by varying the key |
-| The key is the option sharing most words with the stem no more often than chance | the same test; stop-list the terms every item must use | the key echoing the stem |
-| A guesser learnt from the bank's own options, never shown the stem or the source, stays bounded | cross-validated; e.g. ≤ 50% of four-option keys, ≤ 0.5% of simulated papers passed | a new tell that no single guard names |
-| Statements carrying absolutes are true at a healthy rate | ≥ 60% bank-wide, ≥ 45% per section | "mark the absolutes false" |
-| No positional references in any field | case-fold the keyword only | "option 2" after a shuffle |
-| No "all/none of the above" in shuffled formats | — | a meaningless option |
-| A negative stem marks its negation | NOT, EXCEPT; 不, 並非, 除…外 in bold | a negation read past |
-| Numeric options in order, and ranges never overlapping | — | two defensible answers; an order that points to the key |
-| Fixed blocks verbatim; answer letters and false-statement positions spread | ≤ 40% for any letter | a drifting printed format; "the second is usually false" |
-| Fixed-block explanations re-derive the key | — | an explanation arguing for another answer |
-| Statements independent | no "statement N", "the above", 上述 | statements leaning on each other |
-| A stem citing a fine-grained provision keeps ≥ 4 substantive words; no number-as-object questions; no number-only key; no pair of number-only options | — | clause-number recall |
-| No duplicate stems | exact across the bank; within a section, word 4-shingles or CJK character 4-grams, ≥ 0.75 | one question asked twice |
-| No key shared across sections (within a section it is often legitimate: several offences carry one penalty) | no length floor | one question in two sections |
-| Each language uses its own edition's terms, in every field including citations | banned rendering → the source's term | wording the source never uses |
-| Paired terms keep both limbs | e.g. ML/TF | half the concept dropped in translation |
-| Script purity; no other-language words the source does not print; no language tags | e.g. simplified characters in Traditional text | a slip from a fixer's draft |
-| Locator words match the document | e.g. Chinese 條 for a statute section, 段 for a guideline paragraph | a paragraph cited with the statute's word |
-| A translated "the said X" points back to something already met in the item | stem, then statements in order | a determiner referring to nothing |
-| Each language version of an item is the other's nearest neighbour | cross-lingual embeddings, calibrated on a hand-labelled sample | two languages drifting into two questions |
-
-**Writing guards.**
-
-- Case-fold the keyword only: `(?i:option|answer)\s+[A-E]`. A whole-pattern
-  `(?i)` makes "answer a question" fail the build.
-- Put no length floor in a duplicate check that already keys on the cited
-  passage. An 11-character shared answer hid behind a 12-character floor.
-- Guard correlations statistically, not per item.
-- Tune each pattern on the bank until the only hits are items you mean to fix.
-
----
-
-## The catalogue of tells
-
-The tells are ordered by how much they leaked. Every one was measured, and the
-direction differed between languages, so measure rather than assume.
-
-1. **Length, in four rules. Only the last matters to a reader.**
-   - *Key-is-longest.* 1,241 of 1,510 keys were the longest option, by a
-     median 55 characters, and "pick the longest" passed 64% of simulated
-     papers.
-   - *Rank.* Trimming keys moved them to second-longest in half the bank, so
-     cap every rank.
-   - *Spread.* Rank ignores size: 40/41/42/130 ranks like 40/41/42/43.
-   - *Standout.* Readers compare an option with its nearest neighbour. With the
-     first three rules met, an English option more than 25% longer than its
-     nearest rival was the key 1 time in 55 (a reverse tell). One more than 25%
-     shorter was the key 47% of the time. In Chinese, standing out long meant
-     the key 37% of the time.
-   - *The rank-shift trap.* Padding one distractor past the key moves the key to
-     rank 2. Pad two, each clearing the key by 2 characters or more, because
-     ties sort to the better rank. Better still, trim the bloated option. Rank
-     skew left on options differing by a character or two (dates, names) is
-     unreadable, so say so instead of chasing it.
-2. **Hedges mark true statements.** Drafting hedges what is true: "reasonable"
-   or "appropriate" marked the key 71% of the time in English and 62% in
-   Chinese. In the mirror image, an option alone saying "only" or "solely" was
-   the key 6.5% of the time, and one alone carrying a currency figure 6%. Hedge
-   distractors in the same register.
-3. **Absolutes mark false statements.** A statement carrying "only", "always",
-   "never" or "need not" was true 32% of the time, against a 76% base rate.
-   Marking absolutes false scored 66–71% where the rule discriminated, against
-   20% for chance, because overstating a true rule is the easiest way to
-   falsify it. Make the statement wrong on substance instead, delete incidental
-   absolutes, and put accurate absolutes on true statements. Don't dodge the
-   regex: "where X, so Y falls short" keeps the exclusivity for a reader.
-4. **Negation marks false statements.** After the absolutes repair, statements
-   containing a negation were true 59% of the time against a 76% base rate, and
-   23–40% in two sections. Negate true statements too.
-5. **Punctuation.** A semicolon made an option the key 45% of the time (chance
-   25%), and a parenthesis 38–43%. Don't balance the correlation, remove the
-   discrimination: every option has the mark, or none does. Most recasts become
-   ", and" or ", while", and about 10% need rewriting by hand.
-6. **Echo and convergence.** The key alone repeats the stem's words or its
-   deciding facts; blind reviewers flagged several. When distractors are made by
-   varying the key, the key is also the option sharing most with all the others,
-   and test-takers are known to use that (the NBME guide names both cues).
-   In the reference bank both sat at chance: the key was the most convergent
-   option in 22–24% of items and the most stem-echoing in 23–25%, against 25%.
-   That is what a bank whose distractors come from the source looks like.
-   Measure yours.
-7. **Twins and leaning statements.** 77 pairs of near-identical statements were
-   found, 19 of them with one true and one false; such a pair tells the
-   candidate which statement to doubt. A statement that refers to another (28
-   found) exposes their relationship.
-8. **Position and grammar.** Positional references break under shuffling, and
-   "all of the above" means something only in a fixed block. Answer letters and
-   false-statement positions must spread. Agreement with the stem (singular,
-   plural, article) marks the option written first. In a fixed block, one
-   statement known to be false eliminates every option containing it. Reproduce
-   the examiner's block anyway, and put the difficulty in the statements.
-
-**State the ceiling with every percentage.** The strongest lexical guesser
-averaged 11.7 of 35 over 4,000 simulated papers, against a pass mark of 25 with
-section floors: a 0.00% pass rate. It still got a free elimination on about one
-question in eight. Say both.
-
----
-
-## Languages
-
-- **Options and statements align index for index** across languages, because
-  the renderer pairs `options[i]`. Tell every packet, since length tuning tempts
-  reordering.
-- **When a check in one language drives an edit, re-check the other.** Rewriting
-  only the flagged side split 29 questions into two exams: one told English
-  candidates a document is acceptable, and Chinese candidates that it never is.
-  Align to the side that was not rewritten, keeping its claim and dropping only
-  the offending word.
-- **A question whose key, or a statement's truth, depends on wording that
-  differs between the editions is invalid in a bilingual bank.** Rework it onto
-  what both texts share.
-- **Terms come from each language's own edition of the cited document**, never
-  from translating the other language's term.
-- **CJK specifics.**
-  - Count characters, not bytes.
-  - Compare with character 4-grams, because word shingles collapse a Chinese
-    stem into one token.
-  - Normalise compatibility ideographs.
-  - Model estimates of CJK length run 1–3 characters short, so overshoot by 3–4
-    and `check` first.
-- **Thresholds and floats.** `207 > 180*1.15` is true in Python.
-
----
+Read [guard catalogue](references/guards.md) when adding, changing or interpreting
+checks. It separates deterministic requirements from calibrated style diagnostics;
+the project's approved hard checks still govern.
 
 ## Repairing without breaking
 
@@ -671,8 +614,9 @@ question in eight. Say both.
   provision looks free when it is not.
 - **Retiring questions needs the app first**, because saved papers and history
   refer to their ids.
-- **Changing an option count breaks stored attempts.** Discard stored orders of
-  the wrong length.
+- **Scoring-relevant edits need history handling**, even with an unchanged
+  option count. Version or replace the question and preserve old scores; discard
+  incompatible stored orders before resuming a paper.
 - **Before a bank-wide rule, build the tool**: `list`, `check`, `apply`.
 - **A bank-wide share sitting at its limit tips on one edit.** When trimming,
   keep a distractor longer than the key.
@@ -684,12 +628,14 @@ question in eight. Say both.
 - **Put decisions on a page the owner can act on**: one item per decision, the
   question in plain words, a recommendation and a control. Read the picks back
   before acting, and ask about blanks and "discuss".
-- **Fix what you notice.**
+- **Fix within the authorized mode.** In a report-only audit, record findings
+  and recommendations without editing the audited material. In authorized
+  extension or repair work:
   - A small, clear defect: fix it in the same session, and say so.
   - A pattern: sweep every occurrence, then guard it. Fixing only the items a
     findings list named left the same invented terms in about 160 others.
-  - A large class that needs judgment on each item: give the count and a
-    sample, and offer the sweep.
+  - A large class that needs judgment on each item: measure and report scope;
+    complete it if already authorized, otherwise recommend the additional work.
 - **Measure before you speculate.** Broaden a detector before quoting its count:
   one job was 637 questions, not the 415 first quoted. Triage detector output by
   hand before quoting a number: of 20 flags checked, 2 were real.
@@ -729,39 +675,8 @@ Three briefs recur:
 
 ---
 
-## Environment traps
+## Tooling and reference implementations
 
-- Force UTF-8 on tool output (`PYTHONIOENCODING=utf-8`), or non-Latin text comes
-  back garbled and cannot be edited.
-- Write patch files with the file-writing tool, not heredocs; long JSON heredocs
-  break.
-- `\\` in a shell command can reach the program as `\`. Build backslashes from
-  codes (`chr(92)`) or use the file-editing tool, then verify the bytes.
-- Keep the bank's line endings (a CRLF checkout is written back CRLF), or no
-  apply round-trips byte for byte.
-- Delete temporary browser profiles after rendering checks. One project left 200
-  of them behind, 2.5 GB.
-
----
-
-## Prior art
-
-Checked in September 2026. None of these handles fixed option blocks, locators a
-reader can turn to, languages kept aligned, or bank-level tells as tests; those
-parts of this skill have no ready-made equivalent. Borrow ideas freely, but check
-a repository's licence before copying code, because several carry none.
-
-| Project | What to borrow |
-|---|---|
-| [huggingface/yourbench](https://github.com/huggingface/yourbench) | Citations as data: each question stores verbatim quotes and their source, and export fails when a source does not resolve. Its citation score is fuzzy word overlap, not a check of correctness. |
-| [ZeKaiNie/universal-examprep-skill](https://github.com/ZeKaiNie/universal-examprep-skill) | The nearest existing skill. Quizzes are drawn from a bank by a script, not by the model. Every graded item says where its question and answer came from. A missing source reads "source unknown", never an invented page. Failing transcripts are kept as tests of the skill. It is a tutor for one learner, with no rules on distractors or guessability. |
-| [1EdTech QTI](https://www.1edtech.org/standards/qti/index) (2.1 and 3.0), used by TAO and OpenOLAT | The test vocabulary (selection, ordering, time limits, item session control), and `fixed` on single options, the one standard way to pin a fixed block. |
-| Moodle XML, GIFT, [gpoore/text2qti](https://github.com/gpoore/text2qti), [R/exams](https://www.r-exams.org/) | Export targets. R/exams can draw N options from a larger pool, which stops candidates memorising option shapes; every subset it can draw must still pass the length guards. |
-| [kerrickstaley/genanki](https://github.com/kerrickstaley/genanki) | Anki decks from code, with stable note ids. |
-| [nbalepur/mcqa-artifacts](https://github.com/nbalepur/mcqa-artifacts) | The options-only audit (Balepur, Ravichander and Rudinger, ACL 2024). |
-| [MadryLab/platinum-benchmarks](https://github.com/MadryLab/platinum-benchmarks), [aryopg/mmlu-redux](https://github.com/aryopg/mmlu-redux) | Triage by a panel of models, and a fixed set of error codes for items. |
-| [NBME Item-Writing Guide, 6th ed.](https://www.nbme.org/sites/default/files/2021-02/NBME_Item%20Writing%20Guide_R_6.pdf); Haladyna, Downing and Rodriguez (2002) | The standard lists of item-writing flaws, including convergence, clang, grammatical cues and the wording of true-false statements. Moore et al. (EC-TEL 2023) turned 19 of them into rules. |
-| [ekzhu/datasketch](https://github.com/ekzhu/datasketch); LaBSE or [BGE-M3](https://github.com/FlagOpen/FlagEmbedding) | MinHash for duplicate sweeps at scale; cross-lingual embeddings for paraphrased duplicates and language alignment. |
-| [ShinyItemAnalysis](https://github.com/patriciamar/ShinyItemAnalysis), mirt, [py-irt](https://github.com/nd-ball/py-irt) | Item analysis once there are responses; Tarrant, Ware and Mohammed (2009) for distractor thresholds. |
-| [stanford-oval/storm](https://github.com/stanford-oval/storm), [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook), [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon) | For study material: an outline first, then sections written with their citations; kinds of material defined as data; a citation that opens the highlighted source passage. |
-| [open-spaced-repetition/ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) | A spaced-repetition scheduler for the wrong-answer queue, small enough for a static app. |
+Read [tooling and prior art](references/tooling.md) only for environment problems,
+tool selection or background research. Historical measurements are examples,
+not universal thresholds or evidence about the current bank.

@@ -82,7 +82,8 @@ def validate(d):
             added.append(qid)
     assert len(added)==len(set(added))
     retired = {r['old_id'] for r in (state['implementation'] or {}).get('replacements', [])}
-    assert set(state['current'])==(mapped-retired)|set(added), 'unrecorded bank addition/removal'
+    retired.update(r['old_id'] for r in (state.get('remaining_implementation') or {}).get('replacements', []))
+    assert set(state['current'])==(mapped|set(added))-retired, 'unrecorded bank addition/removal'
     return dict(topic_count=len(ts),mapped_questions=len(mapped),source_quotes=count_quotes,
                 evidence_references=count_evidence,current_questions=len(bank),
                 current_statements=sum(len(q['truth']) for q in bank),
@@ -92,6 +93,7 @@ def render(d,v):
     state=load_state()
     implementation=state['implementation']
     p1=state.get('p1_implementation')
+    completion=state.get('remaining_implementation')
     ts=d['topics']; stats=collections.Counter(t['status'] for t in ts)
     pending=[b for b in d['backlog'] if b['status']!='completed']
     new=[b for b in pending if b['action']=='add']
@@ -180,6 +182,18 @@ def render(d,v):
         for i,line in enumerate(readme):
             if line.startswith('经营账户任务B16尚有'):readme[i]='B16已按《牌照指引》第11.1(j)段直接测试准许户名清单。新题不解释或扩张《业务计划指引》第8项未定义的“第三方”一词；此跨文件边界仍如实保留。'
         details[4]+=' 本轮P1任务的后续落实另见[P1流程补题记录](P1-PROCESSES.md)；下表不改写历史基线。'
+    if completion:
+        readme[2]='既定清单的补题及修题任务已全部落实，包括后续P1流程、剩余20项P2／P3任务及专项P3细节。原审核基线保留，不能将“清单完成”等同真实考试全部覆盖。'
+        readme.insert(readme.index('- [exam-prep 审核规范优化建议](EXAM-PREP-REVIEW.md)'),
+                      '- [最终补题、替换及逐项审核结果](REMAINING.md)')
+        readme=[line.replace('本轮已补','已落实') for line in readme]
+        readme=[('历史轮次的审核边界（后续落实另见最终记录）：'+line[len('审核边界：'):] if line.startswith('审核边界：') else line) for line in readme]
+        readme=[('跨来源合并的原补题清单已全部落实，待补任务为0。优先级依据义务、条件和错误影响，不代表官方出题频率。' if line.startswith('跨来源合并后，尚有') else line) for line in readme]
+        readme+=['','## 最终清单落实','',
+                 f'本次净增{completion["statistics"]["net_questions"]}题、{completion["statistics"]["net_statements"]}个题句；扩写题以新题号替代，旧题快照及原成绩保留。详见[完成记录](REMAINING.md)及[最终证据](remaining-implementation.json)。','']
+        readme=[('- 通函16附件双语PDF第3–5页均已看原页；图内字段有绑定PDF版本的人工转录及独立复核。示例填写数字不出题。' if line.startswith('- 通函16附件的英文PDF') else line) for line in readme]
+        readme=[('- 18日重新下载条例以外的42个双语PDF版本，均与归档一致；FAQ正文与官网相符。条例官网仍被客户端检查阻挡，未确认最新版本，沿用既定归档条例。' if line.startswith('- 23份归档仍为既定范围') else line) for line in readme]
+        details[4]+=' 剩余任务及专项P3细节的最终落实见[完成记录](REMAINING.md)。'
     return {'README.md':'\n'.join(readme),'COVERAGE.md':'\n'.join(details)}
 
 def main():

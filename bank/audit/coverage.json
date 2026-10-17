@@ -29259,7 +29259,8 @@
       "suggested_questions": 1,
       "reason": "补技术使用及渠道被滥用的程度，以及按最新当地规定定期复核渠道。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B22",
@@ -29286,8 +29287,8 @@
       "suggested_questions": 2,
       "reason": "已测部分字段，补完整识别、信托核实依据及不同身份重叠时的义务。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B24",
@@ -29301,8 +29302,8 @@
       "suggested_questions": 2,
       "reason": "补资料取得时有效、合资格核证人、公开核对及真实性疑点的处理。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B25",
@@ -29314,7 +29315,8 @@
       "suggested_questions": 1,
       "reason": "既有题较偏初次识别，补定期取得证据和即时通知拥有权变动。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B26",
@@ -29326,7 +29328,8 @@
       "suggested_questions": 1,
       "reason": "高风险不代表所有客户一律采用完全相同程序或追索数十年前证明。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B27",
@@ -29339,8 +29342,8 @@
       "suggested_questions": 1,
       "reason": "记录等同评估理由；监察名单本身不自动要求加强尽调；保持授权人员可读资料。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B28",
@@ -29353,8 +29356,8 @@
       "suggested_questions": 1,
       "reason": "补无关客户共用模式、身份证明提供困难及联系公司/受规管机构的例子。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B29",
@@ -29366,8 +29369,8 @@
       "suggested_questions": 1,
       "reason": "补地理起讫、正常营业额及监察人员及时取得充分资料。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B30",
@@ -29379,8 +29382,8 @@
       "suggested_questions": 1,
       "reason": "区分行政长官申请、原讼法庭命令与刊宪的职责。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B31",
@@ -29406,7 +29409,8 @@
       "suggested_questions": 2,
       "reason": "补地点/业主同意、实体类型文件、计划认可及CO/MLRO雇佣合同。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B33",
@@ -29418,7 +29422,8 @@
       "suggested_questions": 1,
       "reason": "补资源匹配和偿付能力，以及债务安排等适当人选因素。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B34",
@@ -29431,8 +29436,8 @@
       "suggested_questions": 2,
       "reason": "补产品推出时间、逐个海外代理资金流、人手结构和同时担任不同角色。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B35",
@@ -29444,8 +29449,8 @@
       "suggested_questions": 1,
       "reason": "补隐瞒/补救及其他机构对同一事件的惩罚等考虑因素。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "本轮m4-366#2至4已补隐瞒、补救和其他机关就同一事件的惩罚／监管行动；以往同类违规细节仍保留待复核。"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B36",
@@ -29457,8 +29462,8 @@
       "suggested_questions": 1,
       "reason": "注册办事处不一定是主要营业地点；不符业务情况须了解原因。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B37",
@@ -29470,7 +29475,8 @@
       "suggested_questions": 2,
       "reason": "附件图表有实际填报规则；示例金额及人数不当作考试记忆事实。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B38",
@@ -29482,8 +29488,8 @@
       "suggested_questions": 1,
       "reason": "提出上诉不自动暂停裁定，许可及暂缓是不同程序。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B39",
@@ -29495,7 +29501,8 @@
       "suggested_questions": 1,
       "reason": "已有初次发牌费用，补续牌每人费用及无处所转指定处所费用。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B40",
@@ -29509,8 +29516,8 @@
       "suggested_questions": 2,
       "reason": "补书面必要性、调查限制和按定罪方式区分的刑罚；不靠其他罪名同刑期替代。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B41",
@@ -29522,7 +29529,8 @@
       "suggested_questions": 1,
       "reason": "较低优先的制度背景，可放在法例职能综合题中。",
       "action": "add",
-      "status": "pending"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     },
     {
       "id": "B42",
@@ -29534,8 +29542,8 @@
       "suggested_questions": 1,
       "reason": "咨询中的隐私和防误付议题，仅属背景；不得写成已经生效的本地义务。",
       "action": "add",
-      "status": "partial",
-      "followup_note": "角色／定义相关部分已有新增题，原任务所含其他条件或流程仍保留，不能据此标记整项完成。"
+      "status": "completed",
+      "followup_note": "最终清单逐原子点复核完成；沿用已有直接题句，剩余点补成题或以新ID扩写替代。最终映射、盲答及历史快照见remaining-implementation.json。"
     }
   ],
   "correctness_findings": [
@@ -29773,6 +29781,79 @@
       "limitations": "同会话模型审核；未对全部旧题重新盲答；P2及P3细节继续保留",
       "questions_sha256": "518318e2d569c223d2fc0c4ceee27a8b226b56ebd339ecc0919304e1a384cf07",
       "implementation": "p1-implementation.json"
+    },
+    {
+      "question_ids": [
+        "m5-114",
+        "m6-444",
+        "m6-445",
+        "m6-446",
+        "m6-447",
+        "m6-448",
+        "m6-449",
+        "m6-460",
+        "m2-359",
+        "m2-360",
+        "m1-179",
+        "m1-180",
+        "m1-181",
+        "m3-323",
+        "m3-324",
+        "m2-363",
+        "m2-364",
+        "m2-365",
+        "m4-374",
+        "m4-375",
+        "m4-376",
+        "m4-377",
+        "m4-378",
+        "m4-379",
+        "m4-380",
+        "m1-189",
+        "m4-381",
+        "m6-470",
+        "m4-382",
+        "m4-390",
+        "m4-391"
+      ],
+      "topic_ids": [
+        "C002",
+        "C010",
+        "C012",
+        "C017",
+        "C025",
+        "G004",
+        "G005",
+        "G009",
+        "G023",
+        "G024",
+        "G025",
+        "G026",
+        "G029",
+        "G046",
+        "G048",
+        "G050",
+        "G073",
+        "L011",
+        "L020",
+        "L024",
+        "L026",
+        "L028",
+        "L037",
+        "L042",
+        "L053",
+        "L054",
+        "L064",
+        "S026",
+        "S053",
+        "S058",
+        "S059"
+      ],
+      "summary": "净增19题、99个题句，完成最后20项P2／P3任务及全部专项P3缺口；扩写旧题另以新ID替代",
+      "validation": "最终双语独立盲答、语义去重、原文／图页及温习资料对照、整库和覆盖记录检查通过",
+      "limitations": "同会话模型；未重审全部不变旧题；条例最新版本因官网限制未核实",
+      "questions_sha256": "23b28f35f98fe583a614b67fd2da8bc15e77273cd7573d53e10fd4e281e77154",
+      "implementation": "remaining-implementation.json"
     }
   ],
   "validation": {
@@ -29780,15 +29861,15 @@
     "mapped_questions": 297,
     "source_quotes": 246,
     "evidence_references": 1922,
-    "current_questions": 338,
-    "current_statements": 1678,
+    "current_questions": 357,
+    "current_statements": 1777,
     "module_counts": {
-      "1": 31,
-      "2": 50,
-      "3": 42,
-      "4": 50,
+      "1": 32,
+      "2": 53,
+      "3": 43,
+      "4": 59,
       "5": 56,
-      "6": 69,
+      "6": 74,
       "7": 40
     }
   },

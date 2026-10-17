@@ -362,7 +362,9 @@ H_ = sec('returns', [("Circular", "通函"), ("30 May 2025", "2025年5月30日")
     + table([th("Part of the return", "申報表部分"), th("What goes in", "須填報的內容")], [
         tr(rh("Money changing", "貨幣兌換"), td("Money changing data only, leaving out the amounts of remittances; the amounts of every foreign currency involved, largest first", "只填報貨幣兌換數據，不包括匯款交易金額；所涉全部外幣的金額，由多至少排列", post=flag())),
         tr(rh("Remittance", "匯款"), td("Amounts by jurisdiction, largest first; the share of each delivery channel used and of each type of customer served, each set totalling 100%", "按司法管轄區列出的金額，由多至少排列；所用各交付渠道及所服務各類客戶的比例，各自總和須為100%")),
-        tr(rh("Assets", "資產"), td("An estimate of your total assets", "估計資產總值")),
+        tr(rh("CDD, EDD and refusals", "盡職審查及拒絕個案"), td("Both the money changing and remittance parts ask for counts of CDD conducted, EDD conducted and rejected transactions or cases", "貨幣兌換及匯款部分均須填報執行盡職審查、執行更嚴格的盡職審查及拒絕個案的數目")),
+        tr(rh("Reports and law enforcement requests", "報告及執法機構要求"), td("Number of suspicious transactions reported to the JFIU; number of letters of no consent, restraint orders or confiscation orders issued under the relevant legislation and received by the company", "向聯合財富情報組報告的可疑交易數目；公司接獲根據相關法例發出的不同意通知書、限制令或沒收令數目")),
+        tr(rh("Assets", "資產"), td("Estimated total assets of the company's money service business in Hong Kong as of the return's submission date, in HKD", "公司在香港經營金錢服務業務截至申報表提交日期的估算資產總額，以港元計算", post=flag())),
         tr(rh("How", "遞交方式"), td("Only through the Money Service Operators Licensing System; no paper", "只可經金錢服務經營者牌照系統遞交；不接受紙本")),
     ], note=cite_html(CI("30 May 2025", ("Annex", "附件"))), minw=640)
     + traps(

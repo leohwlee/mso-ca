@@ -64,14 +64,16 @@ python bank/blind.py compare patch.json ans.json # 把覆核者的判斷與答�
 
 ### 歷史檔案
 
-現行題目均已有逐句講解及引文。過渡期間的「只練新格式題目」篩選、一次性轉換程式及重複的舊題庫 JSON 快照已移除。`bank/retired-ids.json` 保留 1,511 個退役題號；`apply.py next` 會跳過這些題號，`apply.py check` 會拒絕重用。原題及引文仍保存於 commit `7787e991cc7a5c6eb0e22f1c9216ae133f2daf27`（`v1.7.5`）：
+現行題目均已有逐句講解及引文。過渡期間的「只練新格式題目」篩選、一次性轉換程式及重複的舊題庫 JSON 快照已移除。當時的格式遷移及首輪修訂在`bank/retired-ids.json` 保留 1,511 個退役題號；`apply.py next` 會跳過這些題號，`apply.py check` 會拒絕重用。原題及引文仍保存於 commit `7787e991cc7a5c6eb0e22f1c9216ae133f2daf27`（`v1.7.5`）：
 
 ```bash
 git show v1.7.5:web/questions.json
 git show v1.7.5:docs/quotes.json
 ```
 
-其後替換的`m3-261` → `m3-322`及`m1-142` → `m1-177`，原題及引文另保存於[實施記錄](bank/audit/implementation.json)。覆蓋報告保留原審核基線，並以現行題句核驗補題結果；請用Python執行`bank/audit/report.py --check`、`bank/audit/terms_report.py --check`及`bank/audit/p1_report.py --check`。後續P1補題及最終盲答另見[P1實施記錄](bank/audit/p1-implementation.json)，不會改寫前輪審核歷史。
+其後替換的`m3-261` → `m3-322`及`m1-142` → `m1-177`，原題及引文另保存於[實施記錄](bank/audit/implementation.json)。覆蓋報告保留原審核基線，並以現行題句核驗補題結果；請用Python執行`bank/audit/report.py --check`、`bank/audit/terms_report.py --check`、`bank/audit/p1_report.py --check`及`bank/audit/remaining_report.py --check`，CI亦執行這四項。後續P1補題及最終盲答另見[P1實施記錄](bank/audit/p1-implementation.json)，不會改寫前輪審核歷史。
+
+最後一輪P2／P3補題及12道原題的擴寫替換見[最終記錄](bank/audit/remaining-implementation.json)。新增保留12個退役題號後，合共1,523個。核驗程式逐輪還原舊題庫，並將盲答綁定最終題句。通函16圖內欄位的人工轉錄在`docs/transcripts/16.json`，已獨立核對並綁定PDF摘要；抽取程式把文字加入原頁。PDF變更後須重查轉錄，來源測試會拒絕過期綁定。
 
 編號來源文件、擷取文字、撰寫指南及來源矛盾決定冊仍用於出題及核對，應繼續保留。
 
@@ -93,6 +95,7 @@ python revision/pack_build.py dist/mso-revision-pack.html
 
 | 版本 | 日期 | 首次發佈於 | 改動 |
 |---|---|---|---|
+| 2.3.0 | 2026年10月18日 | v1.8.0 | 新增來源考點覆蓋模式、條件／例外語義核對、圖頁及版本證據、歷史評分處理；尊重既定授權及項目規則，按風險選擇深入檢查，條件性的guard及工具說明移至references。 |
 | 2.2.0 | 2026年9月28日 | v1.7.5 | 新增：大規模覆核前，先以已判定的樣本校準機械篩選及較便宜的模型，並附本倉庫引文覆核的數字。 |
 | 2.1.0 | 2026年9月28日 | v1.7.4 | 在檢查清單加入只看選項的猜題程式，並加入本倉庫實行新檢查後的量度結果：已儲存決定答案的原文、趨同及呼應線索均在隨機水平，以及猜題程式的結果。 |
 | 2.0.0 | 2026年9月28日 | v1.7.4 | 改名為 `exam-prep`。除題庫外，亦涵蓋溫習資料及模擬試程式，並把考試格式改為由使用者自訂的規格。新增開工前須先問清楚的事項、來源矛盾的決定紀錄、與溫習資料對照核實、否定詞、呼應題幹及近似陳述等線索，以及交給子代理的指示範本。 |

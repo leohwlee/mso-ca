@@ -13,7 +13,9 @@ and private-use characters, which some PDFs use to draw list bullets, are
 dropped. The Ordinance's running footer ("Last updated date … Verified Copy",
 最後更新日期 … 經核證文本) is removed from every page, so a passage that runs
 across a page break reads as one and a quote can span the break. Nothing else is
-changed.
+changed. Image-only form labels are supplemented from reviewed, page-specific
+transcripts in docs/transcripts/NN.json, tied to the PDF's SHA-256. They are
+appended to their own page and labelled as transcriptions, not automatic OCR.
 
 It also writes docs/text/manifest.json, which records the SHA-256 of the file
 each text came from, so the tests can tell when a document has been replaced
@@ -66,6 +68,13 @@ def main():
             if src.suffix == '.pdf':
                 with pymupdf.open(src) as pdf:
                     pages = [strip_footers(page.get_text()) for page in pdf]
+                transcript = DOCS / 'transcripts' / f'{num}.json'
+                if transcript.exists():
+                    supplement = json.loads(transcript.read_text(encoding='utf8'))[lang]
+                    assert hashlib.sha256(src.read_bytes()).hexdigest() == supplement['source_sha256'], \
+                        f'Re-check image transcript against changed PDF: {src.name}'
+                    for number, lines in supplement['pages'].items():
+                        pages[int(number)-1] += '\n[Verified image transcription]\n' + '\n'.join(lines) + '\n'
                 text = '\f'.join(pages)
             elif src.suffix == '.md':
                 text = src.read_text(encoding='utf-8')
@@ -77,6 +86,10 @@ def main():
             # (the FAQ page) out either way; the tests hash it the same way.
             digest = hashlib.sha256(src.read_bytes().replace(b'\r\n', b'\n')).hexdigest()
             manifest[f'{lang}/{num}.txt'] = {'source': src.name, 'sha256': digest}
+            transcript = DOCS / 'transcripts' / f'{num}.json'
+            if src.suffix == '.pdf' and transcript.exists():
+                manifest[f'{lang}/{num}.txt']['transcript_sha256'] = hashlib.sha256(
+                    transcript.read_bytes().replace(b'\r\n', b'\n')).hexdigest()
             print(f'{lang}/{num}.txt  {len(text):>9,} characters  from {src.name}', file=sys.stderr)
     (DOCS / 'text' / 'manifest.json').write_text(
         json.dumps(manifest, ensure_ascii=False, indent=1) + '\n', encoding='utf-8', newline='\n')
