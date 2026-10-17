@@ -136,13 +136,14 @@ with tests, and delivering the mock exam. The exam format is a spec the user
 defines, so nothing in the skill is tied to this exam; this repository is its
 reference implementation.
 
-Its version is in the file's front matter (`metadata.version`). Each version is
-tagged `skill-vX.Y.Z` on the commit that finished it. Those tags do not begin
-with `v`, so they never trigger a release.
+Its version is in the file's front matter (`metadata.version`). Released skill
+versions are tagged `skill-vX.Y.Z` on their source commit. Those tags do not
+begin with `v`, so they never trigger a release. Source on `main` may be newer
+than the latest publicly released files; public releases require authorization.
 
 | Version | Date | First released in | What changed |
 |---|---|---|---|
-| 2.3.0 | 18 Oct 2026 | v1.8.0 | Adds source-first coverage audits, explicit semantic support checks, image-page and version evidence, scoring-history handling, and scope-aware review costs. Respects settled project decisions and authorization; moves conditional guard/tool detail into references. |
+| 2.3.0 | 18 Oct 2026 | Source on `main`; see release tags | Adds source-first coverage audits, explicit semantic support checks, image-page and version evidence, scoring-history handling, and scope-aware review costs. Respects settled project decisions and authorization; moves conditional guard/tool detail into references. |
 | 2.2.0 | 28 Sep 2026 | v1.7.5 | Adds calibrating a mechanical filter and a cheaper model on a judged sample before a bulk review, with the numbers from this repository's quote sweep. |
 | 2.1.0 | 28 Sep 2026 | v1.7.4 | Adds the options-only guesser to the guard catalogue, and what this repository measured once it had the new checks: stored deciding quotes, convergence and echo at chance, and the guesser's results. |
 | 2.0.0 | 28 Sep 2026 | v1.7.4 | Renamed `exam-prep`. Covers the study pack and the mock-exam app as well as the bank, and makes the exam format a spec the user defines. Adds the intake questions, the conflicts register, verification against the pack, the negation, echo and twin-statement tells, and briefs for subagents. |

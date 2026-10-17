@@ -17,6 +17,10 @@ way, in whatever exam format you define.
 
 ## How to use it
 
+The counts below describe current `main`. Check the release notes for the
+contents of a downloaded version, or [build from source](DEVELOPMENT.md) to use
+current `main`.
+
 1. Download `mso-revision-pack.html` and `mso-ca.html` from the
    [latest release](../../releases/latest).
 2. Open them in Chrome. Edge and Firefox work too.
