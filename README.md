@@ -49,7 +49,7 @@ To build from source or cut a release, see [DEVELOPMENT.md](DEVELOPMENT.md).
 
 ## The content
 
-The revision pack and the mock exam are written from the 23 current official
+The revision pack and the mock exam are written from the 23 archived official
 documents in [`docs/`](docs/README.md), which also maps each module to its
 sources. Every point cites its section or paragraph, so you can check it against
 the source.
@@ -57,22 +57,33 @@ the source.
 | File | What's inside | Organised by |
 |---|---|---|
 | **Revision pack**<br>`mso-revision-pack.html`<br>about 3 MB | 21 pages of tables and figures on the AMLO's Parts 1–7 and Schedules 1–4, the AML/CFT Guideline, the other C&ED guidelines, and the circulars and FAQ | Source document, with each page naming the exam modules it serves |
-| **Mock exam**<br>`mso-ca.html`<br>about 1.4 MB | 297 combination questions, including 8 official samples, with bilingual explanations for every statement, drawn into 35-question, 75-minute mocks under the real pass rule | The 7 exam modules, below |
+| **Mock exam**<br>`mso-ca.html`<br>about 1.5 MB | 320 combination questions, including 8 official samples, with bilingual explanations for every statement, drawn into 35-question, 75-minute mocks under the real pass rule | The 7 exam modules, below |
 | **Skill**<br>`.claude/skills/exam-prep/SKILL.md`<br>version 2.2.0 | The method that built both, written for any exam: collecting and checking the sources, settling conflicts between them, writing the pack and the questions, checking every answer blind, and tests that stop answers being guessable. You define the exam format. | The build, phase by phase |
 
 | Module | Questions | Revision-pack pages |
 |---|---|---|
-| 1 · General knowledge on AML/CFT and counter-proliferation financing | 26 | AML/CFT Guideline ch. 1, 6 and 7; AMLO Sch. 1 |
-| 2 · Parts 1–7 of the AMLO | 45 | AMLO Parts 1–7 |
-| 3 · Schedules to the AMLO | 41 | AMLO Sch. 1–4 |
-| 4 · Guidelines promulgated by the C&ED | 45 | C&ED guidelines; AMLO Part 5 |
-| 5 · Systems and controls (i): governance and strategy | 55 | AML/CFT Guideline ch. 2 and 3 |
-| 6 · Systems and controls (ii): AML/CFT control areas | 45 | AMLO Sch. 2, with AML/CFT Guideline ch. 4, 10 and 11; AML/CFT Guideline ch. 2 and 5–9 |
+| 1 · General knowledge on AML/CFT and counter-proliferation financing | 30 | AML/CFT Guideline ch. 1, 6 and 7; AMLO Sch. 1 |
+| 2 · Parts 1–7 of the AMLO | 48 | AMLO Parts 1–7 |
+| 3 · Schedules to the AMLO | 42 | AMLO Sch. 1–4 |
+| 4 · Guidelines promulgated by the C&ED | 48 | C&ED guidelines; AMLO Part 5 |
+| 5 · Systems and controls (i): governance and strategy | 56 | AML/CFT Guideline ch. 2 and 3 |
+| 6 · Systems and controls (ii): AML/CFT control areas | 56 | AMLO Sch. 2, with AML/CFT Guideline ch. 4, 10 and 11; AML/CFT Guideline ch. 2 and 5–9 |
 | 7 · Systems and controls (iii): demonstrating and monitoring compliance | 40 | AML/CFT Guideline ch. 3 and 7–9 |
 
 The pack's Circulars and FAQ page serves modules 1 and 4–7. Apart from the 8
 official samples retained verbatim, the questions are
 reconstructions for practice; C&ED has never released a past paper.
+
+The [coverage audit](bank/audit/README.md) maps the archived sources to actual
+question statements and tracks remaining work. Following the FATF supplement,
+this update adds 21 questions and 92 statements on responsibility boundaries,
+related-person distinctions and key definitions, and replaces two defective
+questions. The pack also separates chasing missing transfer information from
+mitigating the risk of incomplete or meaningless information. All P1/P2 gaps in
+the [specialist review](bank/audit/TERMS-AND-ROLES.md)
+now have tested statements; other procedural gaps and optional P3 details remain.
+The [implementation record](bank/audit/implementation.json) preserves the final
+bilingual blind reviews, replacement history and coverage evidence.
 
 ## Disclaimer
 

@@ -64,12 +64,14 @@ python bank/blind.py compare patch.json ans.json # 把覆核者的判斷與答�
 
 ### 歷史檔案
 
-現行題目均已有逐句講解及引文。過渡期間的「只練新格式題目」篩選、一次性轉換程式及重複的舊題庫 JSON 快照已移除。`bank/retired-ids.json` 保留 1,509 個退役題號；`apply.py next` 會跳過這些題號，`apply.py check` 會拒絕重用。原題及引文仍保存於 commit `7787e991cc7a5c6eb0e22f1c9216ae133f2daf27`（`v1.7.5`）：
+現行題目均已有逐句講解及引文。過渡期間的「只練新格式題目」篩選、一次性轉換程式及重複的舊題庫 JSON 快照已移除。`bank/retired-ids.json` 保留 1,511 個退役題號；`apply.py next` 會跳過這些題號，`apply.py check` 會拒絕重用。原題及引文仍保存於 commit `7787e991cc7a5c6eb0e22f1c9216ae133f2daf27`（`v1.7.5`）：
 
 ```bash
 git show v1.7.5:web/questions.json
 git show v1.7.5:docs/quotes.json
 ```
+
+其後替換的`m3-261` → `m3-322`及`m1-142` → `m1-177`，原題及引文另保存於[實施記錄](bank/audit/implementation.json)。覆蓋報告保留原審核基線，並以現行題句核驗補題結果；請用Python執行`bank/audit/report.py --check`及`bank/audit/terms_report.py --check`。
 
 編號來源文件、擷取文字、撰寫指南及來源矛盾決定冊仍用於出題及核對，應繼續保留。
 

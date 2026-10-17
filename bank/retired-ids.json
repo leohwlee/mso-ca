@@ -1509,6 +1509,24 @@
   "m7-151",
   "m7-152",
   "m7-153",
-  "m7-154"
+  "m7-154",
+  "m3-261",
+  "m1-142"
+ ],
+ "replacements": [
+  {
+   "old_id": "m3-261",
+   "new_id": "m3-322",
+   "reason": "Correct the address requirement: statutory alternative information and domestic/batch exceptions.",
+   "source_revision": "b5ad1dc5c57f6342e561858670dbe284e41f4db1",
+   "snapshot": "bank/audit/implementation.json"
+  },
+  {
+   "old_id": "m1-142",
+   "new_id": "m1-177",
+   "reason": "Remove the consultation response deadline and mailbox excluded by decision E25; test substantive consultation scope.",
+   "source_revision": "b5ad1dc5c57f6342e561858670dbe284e41f4db1",
+   "snapshot": "bank/audit/implementation.json"
+  }
  ]
 }

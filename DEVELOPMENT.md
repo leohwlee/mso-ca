@@ -81,7 +81,7 @@ text uses the operating system's fonts.
 
 All active items now have per-statement notes and quotes. The temporary
 new-format filter, one-off converter and duplicate legacy JSON snapshots
-have been removed. `bank/retired-ids.json` reserves the 1,509 retired ids;
+have been removed. `bank/retired-ids.json` reserves the 1,511 retired ids;
 `apply.py next` skips them and `apply.py check` rejects their reuse.
 The original questions and quotes remain at commit
 `7787e991cc7a5c6eb0e22f1c9216ae133f2daf27` (`v1.7.5`):
@@ -90,6 +90,12 @@ The original questions and quotes remain at commit
 git show v1.7.5:web/questions.json
 git show v1.7.5:docs/quotes.json
 ```
+
+The two later replacements, `m3-261` → `m3-322` and `m1-142` → `m1-177`,
+preserve their old questions and quotes in [the implementation record](bank/audit/implementation.json).
+The audit reports retain their historical baselines and validate the follow-up
+against current statements; run both `bank/audit/report.py --check` and
+`bank/audit/terms_report.py --check` with Python.
 
 Keep the numbered sources, extracted text, authoring guide and conflicts
 register: they are inputs to authoring and verification, not build leftovers.
