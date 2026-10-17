@@ -144,6 +144,18 @@ table.hist td.num { font-family: var(--mono); font-size: 13.5px; color: var(--in
   font-family: var(--mono); font-size: 12.5px; color: var(--muted);
 }
 .stmts .tcline { font-size: .93em; }
+/* once answered, each statement is marked correct or not, with its trap and note */
+.st-verdict { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 3px; font-size: 13px; font-weight: 600; }
+.st-true .st-verdict { color: var(--green); }
+.st-false .st-verdict { color: var(--red); }
+.st-verdict .trap { font-weight: 500; color: var(--amber); }
+.st-note { margin-top: 2px; font-size: 13.5px; line-height: 1.5; color: var(--muted); }
+.st-note .tcline { font-size: 1em; }
+/* the statement drill: the stem as context, then one statement to judge */
+.drill-stem { font-size: 14.5px; line-height: 1.55; color: var(--muted); max-width: 68ch; }
+.drill-stmt { margin-top: 14px; padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--r); font-size: 17.5px; line-height: 1.55; color: var(--ink); max-width: 68ch; }
+.opts.tf { flex-direction: row; flex-wrap: wrap; }
+.opts.tf .opt { flex: 1 1 160px; }
 .opts { display: flex; flex-direction: column; gap: 8px; margin-top: 18px; }
 .opt {
   display: flex; gap: 14px; align-items: flex-start; text-align: left; width: 100%;
@@ -196,7 +208,8 @@ table.hist td.num { font-family: var(--mono); font-size: 13.5px; color: var(--in
 .tprog i { display: block; height: 100%; width: 0; background: var(--ink); transition: width .5s linear; }
 .rail .meta { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); margin-top: 10px; }
 .rail .meta b { font-family: var(--mono); font-weight: 500; }
-/* a setting offered above the action buttons, e.g. the exam-realistic draw */
+
+/* a setting offered above the action buttons */
 .optrow { display: flex; gap: 10px; align-items: flex-start; margin-top: 14px; font-size: 14px; line-height: 1.5; color: var(--muted); cursor: pointer; max-width: 68ch; }
 .optrow input { margin: 2px 0 0; flex: 0 0 auto; accent-color: var(--accent); width: 15px; height: 15px; }
 .optrow b { color: var(--ink); font-weight: 600; }
@@ -227,15 +240,12 @@ table.hist td.num { font-family: var(--mono); font-size: 13.5px; color: var(--in
 .kbd { font-size: 12.5px; color: var(--faint); }
 
 /* the answer sheet, drawn like the machine-read sheet.
-   Every row is a fixed grid — number, four bubbles, a permanent flag slot —
-   so a flagged row is exactly as wide as any other (158px). Every row reserves
-   five bubble columns, filled or not, so four-option and five-option questions
-   line up down the sheet the way a machine-read form does. */
+   Every row is a fixed grid — number, five bubbles, a permanent flag slot —
+   so a flagged row is exactly as wide as any other (158px). */
 .omr { display: grid; grid-template-columns: repeat(2, 158px); justify-content: space-between; gap: 6px 12px; margin-top: 8px; }
 .omr-group { break-inside: avoid; }
 .omr-mod { margin: 8px 0 4px 2px; }
 .omr-row { display: grid; grid-template-columns: 22px repeat(5, 20px) 12px; gap: 4px; align-items: center; padding: 1px 0; border-radius: 4px; }
-.bub-gap { width: 20px; }
 .omr-row.current { background: var(--panel); }
 .omr-num { text-align: right; font-family: var(--mono); font-size: 11.5px; color: var(--faint); background: transparent; border: 0; padding: 0; cursor: pointer; }
 .omr-row.current .omr-num { color: var(--ink); }

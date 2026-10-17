@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"os"
 	"regexp"
 	"sort"
 	"strconv"
@@ -11,19 +12,69 @@ import (
 	"unicode"
 )
 
+// Every item is a combination item in the shape of the real paper: a stem, four
+// to six numbered statements, which of them are true, and five options naming
+// sets of them. bank/FORMAT.md is the register of what the owner decided about
+// that shape; these tests hold the bank to it.
+
 type qLang struct {
 	Q          string   `json:"q"`
-	Statements []string `json:"statements,omitempty"`
-	Options    []string `json:"options"`
-	Explain    string   `json:"explain"`
+	Statements []string `json:"statements"`
+	Notes      []string `json:"notes,omitempty"`
+	Explain    string   `json:"explain,omitempty"`
+}
+
+// fields are every piece of text a candidate can read in one language.
+func (l qLang) fields() []string {
+	return append(append([]string{l.Q, l.Explain}, l.Statements...), l.Notes...)
+}
+
+// option is one of an item's five options: a set of statement numbers, or
+// "all" / "none" (All / None of the above).
+type option struct {
+	Token string
+	Set   []int
+}
+
+func (o *option) UnmarshalJSON(b []byte) error {
+	if len(b) > 0 && b[0] == '"' {
+		return json.Unmarshal(b, &o.Token)
+	}
+	return json.Unmarshal(b, &o.Set)
+}
+
+func (o option) String() string {
+	if o.Token != "" {
+		return o.Token
+	}
+	return fmt.Sprint(o.Set)
+}
+
+// claims is the set of statements the option says are true, as a bit mask.
+func (o option) claims(n int) uint {
+	switch o.Token {
+	case "all":
+		return 1<<n - 1
+	case "none":
+		return 0
+	}
+	var m uint
+	for _, x := range o.Set {
+		m |= 1 << (x - 1)
+	}
+	return m
 }
 
 type question struct {
-	ID     string `json:"id"`
-	Module int    `json:"module"`
-	Format string `json:"format,omitempty"`
-	Answer int    `json:"answer"`
-	Source struct {
+	ID       string    `json:"id"`
+	Module   int       `json:"module"`
+	Truth    []bool    `json:"truth"`
+	Options  []option  `json:"options"`
+	Answer   int       `json:"answer"`
+	Traps    []*string `json:"traps,omitempty"`
+	Fixed    bool      `json:"fixed,omitempty"`
+	Official string    `json:"official,omitempty"`
+	Source   struct {
 		En string `json:"en"`
 		Tc string `json:"tc"`
 	} `json:"source"`
@@ -31,33 +82,43 @@ type question struct {
 	Tc qLang `json:"tc"`
 }
 
-func (q question) combo() bool { return q.Format == "combination" }
+func (q question) n() int { return len(q.Truth) }
 
-// The two option blocks C&ED prints. A combination item never varies them: the
-// options are the same five strings in the same order on every paper, and the
-// answer is whichever subset is true. Sample set MSSB/CA_01/2021 uses the
-// four-statement block; Guidance Notes ¶7.1 uses the five-statement one.
-var comboOptions = map[int]map[string][]string{
-	4: {
-		"en": {"1, 2 and 3", "1, 2 and 4", "2, 3 and 4", "1, 3 and 4", "All of the above"},
-		"tc": {"1、2 及 3", "1、2 及 4", "2、3 及 4", "1、3 及 4", "以上皆是"},
-	},
-	5: {
-		"en": {"1, 2 and 3", "2, 3 and 4", "1, 3 and 4", "1, 2 and 5", "3, 4 and 5"},
-		"tc": {"1、2 及 3", "2、3 及 4", "1、3 及 4", "1、2 及 5", "3、4 及 5"},
-	},
+func (q question) trueMask() uint {
+	var m uint
+	for i, t := range q.Truth {
+		if t {
+			m |= 1 << i
+		}
+	}
+	return m
 }
 
-// Target bank size per module. The modules are deliberately unequal: each is
-// sized to the volume of official source material behind it, so that every
-// question traces to a real provision rather than rewording its neighbour.
-// See README for the measured source volumes.
-var minPerModule = map[int]int{1: 123, 2: 303, 3: 248, 4: 283, 5: 96, 6: 340, 7: 154}
+// Every active item carries a note per statement and a trap code per false one.
+func (q question) annotated() bool { return len(q.En.Notes) > 0 || len(q.Tc.Notes) > 0 }
 
-// Every sample question C&ED publishes is a combination item, so each module
-// must carry a working number of them rather than leaving the format to one
-// token example. See TestCombinationFormat.
-const minCombinationPerModule = 15
+func (q question) side(lang string) qLang {
+	if lang == "tc" {
+		return q.Tc
+	}
+	return q.En
+}
+
+// The kinds of defect a false statement may carry (bank/FORMAT.md).
+var trapCodes = map[string]bool{
+	"offlist": true, "added": true, "scope": true, "reversed": true, "qualifier": true,
+	"number": true, "period": true, "actor": true, "modal": true, "name": true, "condition": true,
+}
+
+// C&ED's printed blocks, in C&ED's order: MSSB/CA_01/2021 (then e) All of the
+// above) and Guidance Notes ¶7.1 (five options, no e).
+var (
+	official4 = [][]int{{1, 2, 3}, {1, 2, 4}, {2, 3, 4}, {1, 3, 4}}
+	gn71      = [][]int{{1, 2, 3}, {2, 3, 4}, {1, 3, 4}, {1, 2, 5}, {3, 4, 5}}
+)
+
+// Minimum bank size after the October 2026 combination-format migration.
+var minPerModule = map[int]int{1: 26, 2: 45, 3: 41, 4: 45, 5: 55, 6: 45, 7: 40}
 
 func wantTotal() int {
 	n := 0
@@ -80,9 +141,76 @@ func loadBank(t *testing.T) []question {
 	return bank
 }
 
+func sameSet(a, b []int) bool {
+	if len(a) != len(b) {
+		return false
+	}
+	for i := range a {
+		if a[i] != b[i] {
+			return false
+		}
+	}
+	return true
+}
+
+// canonicalOrder is the order the app displays options in, and the order they
+// are stored in: C&ED's order for C&ED's blocks, otherwise smaller sets first and
+// then by number, with All / None of the above last. bank/combo.py writes them
+// so; a hand edit that breaks it would make the stored and the shown order differ.
+func canonicalOrder(opts []option, n int) []option {
+	var body, tail []option
+	for _, o := range opts {
+		if o.Token != "" {
+			tail = append(tail, o)
+		} else {
+			body = append(body, o)
+		}
+	}
+	is := func(block [][]int) bool {
+		if len(body) != len(block) {
+			return false
+		}
+		for _, b := range block {
+			found := false
+			for _, o := range body {
+				found = found || sameSet(o.Set, b)
+			}
+			if !found {
+				return false
+			}
+		}
+		return true
+	}
+	var ordered []option
+	switch {
+	case n == 4 && len(tail) == 1 && is(official4):
+		for _, b := range official4 {
+			ordered = append(ordered, option{Set: b})
+		}
+	case n == 5 && len(tail) == 0 && is(gn71):
+		for _, b := range gn71 {
+			ordered = append(ordered, option{Set: b})
+		}
+	default:
+		ordered = append(ordered, body...)
+		sort.SliceStable(ordered, func(i, j int) bool {
+			a, b := ordered[i].Set, ordered[j].Set
+			if len(a) != len(b) {
+				return len(a) < len(b)
+			}
+			for k := range a {
+				if a[k] != b[k] {
+					return a[k] < b[k]
+				}
+			}
+			return false
+		})
+	}
+	return append(ordered, tail...)
+}
+
 func TestBankIntegrity(t *testing.T) {
 	bank := loadBank(t)
-
 	if want := wantTotal(); len(bank) < want {
 		t.Errorf("bank has %d questions, want at least %d", len(bank), want)
 	}
@@ -94,64 +222,114 @@ func TestBankIntegrity(t *testing.T) {
 			t.Errorf("%s: duplicate id", q.ID)
 		}
 		seen[q.ID] = true
-
 		if q.Module < 1 || q.Module > 7 {
 			t.Errorf("%s: module %d out of range", q.ID, q.Module)
 		}
 		perMod[q.Module]++
-
-		// A standard question is authored with the correct option first; the app
-		// shuffles option order at draw time, so a non-zero index means an
-		// authoring slip. A combination question's options are fixed and never
-		// shuffled, so its key can sit at any of the five positions.
-		if q.combo() {
-			if q.Answer < 0 || q.Answer >= 5 {
-				t.Errorf("%s: answer index %d out of range for a combination question", q.ID, q.Answer)
-			}
-		} else if q.Format != "" {
-			t.Errorf("%s: unknown format %q", q.ID, q.Format)
-		} else if q.Answer != 0 {
-			t.Errorf("%s: answer index %d, want 0 (correct option written first)", q.ID, q.Answer)
-		}
 		if want := fmt.Sprintf("m%d-", q.Module); !strings.HasPrefix(q.ID, want) {
 			t.Errorf("%s: id does not match module %d (want prefix %q)", q.ID, q.Module, want)
 		}
 		if q.Source.En == "" || q.Source.Tc == "" {
 			t.Errorf("%s: missing source citation", q.ID)
 		}
-		for name, l := range map[string]qLang{"en": q.En, "tc": q.Tc} {
-			if strings.TrimSpace(l.Q) == "" || strings.TrimSpace(l.Explain) == "" {
-				t.Errorf("%s (%s): empty stem or explanation", q.ID, name)
+
+		n := q.n()
+		if n < 4 || n > 6 {
+			t.Errorf("%s: %d statements; an item has 4 to 6", q.ID, n)
+			continue
+		}
+		for _, lang := range []string{"en", "tc"} {
+			l := q.side(lang)
+			if strings.TrimSpace(l.Q) == "" {
+				t.Errorf("%s (%s): empty stem", q.ID, lang)
 			}
-			want := 4
-			if q.combo() {
-				want = 5
+			if len(l.Statements) != n {
+				t.Errorf("%s (%s): %d statements, but truth has %d", q.ID, lang, len(l.Statements), n)
 			}
-			if len(l.Options) != want {
-				t.Errorf("%s (%s): %d options, want %d", q.ID, name, len(l.Options), want)
-				continue
-			}
-			for i, o := range l.Options {
-				if strings.TrimSpace(o) == "" {
-					t.Errorf("%s (%s): option %d empty", q.ID, name, i)
-				}
-				// A standard question's options are shuffled at draw time, so text
-				// that points at another option is meaningless. A combination
-				// question's options do nothing else — but they are the fixed
-				// block, checked verbatim in TestCombinationFormat.
-				if q.combo() {
-					continue
-				}
-				lo := strings.ToLower(o)
-				if strings.Contains(lo, "all of the above") || strings.Contains(lo, "none of the above") ||
-					strings.Contains(o, "以上皆") || strings.Contains(o, "以上各項") {
-					t.Errorf("%s (%s): option %d references other options: %q", q.ID, name, i, o)
+			for i, s := range l.Statements {
+				if strings.TrimSpace(s) == "" {
+					t.Errorf("%s (%s): statement %d empty", q.ID, lang, i+1)
 				}
 			}
-			if !q.combo() && len(l.Statements) != 0 {
-				t.Errorf("%s (%s): %d statements on a question that is not a combination item",
-					q.ID, name, len(l.Statements))
+			if q.annotated() {
+				if len(l.Notes) != n {
+					t.Errorf("%s (%s): %d notes for %d statements", q.ID, lang, len(l.Notes), n)
+				}
+				for i, s := range l.Notes {
+					if strings.TrimSpace(s) == "" {
+						t.Errorf("%s (%s): note %d empty", q.ID, lang, i+1)
+					}
+				}
+			} else if strings.TrimSpace(l.Explain) == "" {
+				t.Errorf("%s (%s): neither notes nor an explanation", q.ID, lang)
 			}
+		}
+
+		// Migration is complete: no unannotated or fixed-order items may return.
+		if q.Fixed || !q.annotated() {
+			t.Errorf("%s: every item must allow reordering and carry a note per statement", q.ID)
+		}
+
+		if q.annotated() {
+			if len(q.Traps) != n {
+				t.Errorf("%s: %d trap codes for %d statements", q.ID, len(q.Traps), n)
+			} else {
+				for i, tr := range q.Traps {
+					switch {
+					case q.Truth[i] && tr != nil:
+						t.Errorf("%s: statement %d is true but carries the trap %q", q.ID, i+1, *tr)
+					case !q.Truth[i] && tr == nil:
+						t.Errorf("%s: statement %d is false but names no trap", q.ID, i+1)
+					case tr != nil && !trapCodes[*tr]:
+						t.Errorf("%s: statement %d has the unknown trap %q", q.ID, i+1, *tr)
+					}
+				}
+			}
+		} else if len(q.Traps) > 0 {
+			t.Errorf("%s: trap codes without notes", q.ID)
+		}
+
+		if len(q.Options) != 5 {
+			t.Errorf("%s: %d options, want 5", q.ID, len(q.Options))
+			continue
+		}
+		masks := map[uint]bool{}
+		for i, o := range q.Options {
+			switch {
+			case o.Token == "all" || o.Token == "none":
+				if i != 4 {
+					t.Errorf("%s: %q is option %c; All / None of the above is always the last", q.ID, o.Token, 'a'+rune(i))
+				}
+			case o.Token != "":
+				t.Errorf("%s: option %c is %q", q.ID, 'a'+rune(i), o.Token)
+			default:
+				ok := len(o.Set) > 0 && len(o.Set) < n
+				for k, x := range o.Set {
+					ok = ok && x >= 1 && x <= n && (k == 0 || x > o.Set[k-1])
+				}
+				if !ok {
+					t.Errorf("%s: option %c %v is not an ascending list of some of the statements 1-%d", q.ID, 'a'+rune(i), o.Set, n)
+				}
+			}
+			m := o.claims(n)
+			if masks[m] {
+				t.Errorf("%s: option %c says the same as another option", q.ID, 'a'+rune(i))
+			}
+			masks[m] = true
+		}
+		if canon := canonicalOrder(q.Options, n); fmt.Sprint(canon) != fmt.Sprint(q.Options) {
+			t.Errorf("%s: options %v are not in display order %v", q.ID, q.Options, canon)
+		}
+		var hits []int
+		for i, o := range q.Options {
+			if o.claims(n) == q.trueMask() {
+				hits = append(hits, i)
+			}
+		}
+		if len(hits) != 1 {
+			t.Errorf("%s: %d options match the true statements, want exactly 1", q.ID, len(hits))
+		} else if hits[0] != q.Answer {
+			t.Errorf("%s: answer is %d but the option matching the true statements is %d", q.ID, q.Answer, hits[0])
 		}
 	}
 	for m := 1; m <= 7; m++ {
@@ -161,11 +339,198 @@ func TestBankIntegrity(t *testing.T) {
 	}
 }
 
+// Retired ids remain reserved even after their full snapshots leave the tree.
+// Reusing one would attach an old saved answer to an unrelated question.
+func TestRetiredIDs(t *testing.T) {
+	data, err := os.ReadFile("bank/retired-ids.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+	var retired struct {
+		SourceRevision string   `json:"source_revision"`
+		IDs            []string `json:"ids"`
+	}
+	if err := json.Unmarshal(data, &retired); err != nil {
+		t.Fatal(err)
+	}
+	if len(retired.SourceRevision) != 40 || len(retired.IDs) < 1509 {
+		t.Fatalf("retirement register lost its source revision or ids: %q, %d ids", retired.SourceRevision, len(retired.IDs))
+	}
+	seen := map[string]bool{}
+	for _, id := range retired.IDs {
+		if seen[id] {
+			t.Errorf("duplicate retired id %s", id)
+		}
+		seen[id] = true
+	}
+	for _, q := range loadBank(t) {
+		if seen[q.ID] {
+			t.Errorf("%s reuses a retired question id", q.ID)
+		}
+	}
+}
+
+// automorphisms are the renumberings of statements 1..n that map an option set
+// onto itself.
+func automorphisms(sets [][]int, n int) [][]int {
+	key := func(s []int, p []int) string {
+		var m uint
+		for _, x := range s {
+			m |= 1 << (p[x-1] - 1)
+		}
+		return strconv.FormatUint(uint64(m), 2)
+	}
+	id := make([]int, n)
+	for i := range id {
+		id[i] = i + 1
+	}
+	have := map[string]bool{}
+	for _, s := range sets {
+		have[key(s, id)] = true
+	}
+	var out [][]int
+	var permute func(k int, p []int, used []bool)
+	permute = func(k int, p []int, used []bool) {
+		if k == n {
+			for _, s := range sets {
+				if !have[key(s, p)] {
+					return
+				}
+			}
+			out = append(out, append([]int(nil), p...))
+			return
+		}
+		for v := 1; v <= n; v++ {
+			if !used[v] {
+				used[v] = true
+				permute(k+1, append(p, v), used)
+				used[v] = false
+			}
+		}
+	}
+	permute(0, nil, make([]bool, n+1))
+	return out
+}
+
+// TestOptionSymmetry: a candidate who knows nothing can still read an option
+// set — the option that shares most with the others, the statement printed in
+// most options, the only subset of its size. The options are built so that none
+// of that singles out the key: any option the same size as the key can be turned
+// into it by renumbering statements in a way that maps the whole set onto itself
+// (bank/combo.py). C&ED's own sample items keep C&ED's blocks.
+func TestOptionSymmetry(t *testing.T) {
+	for _, q := range loadBank(t) {
+		if q.Official != "" || len(q.Options) != 5 || q.Answer < 0 || q.Answer > 4 || q.Options[q.Answer].Token != "" {
+			continue
+		}
+		var sets [][]int
+		for _, o := range q.Options {
+			if o.Token == "" {
+				sets = append(sets, o.Set)
+			}
+		}
+		key := q.Options[q.Answer].Set
+		orbit := map[string]bool{}
+		for _, p := range automorphisms(sets, q.n()) {
+			var img []int
+			for _, x := range key {
+				img = append(img, p[x-1])
+			}
+			sort.Ints(img)
+			orbit[fmt.Sprint(img)] = true
+		}
+		for _, s := range sets {
+			if len(s) == len(key) && !orbit[fmt.Sprint(s)] {
+				t.Errorf("%s: option %v is the size of the key %v but no renumbering of the option set turns one into the other",
+					q.ID, s, key)
+			}
+		}
+	}
+}
+
+// TestTruthCounts: the papers sat in October 2026 had anywhere from one true
+// statement to all of them, while every item in the old bank had all true or
+// exactly one false (four statements) or exactly two false (five). A candidate
+// trained on that learns to hunt for the one false statement. Items written to
+// the new rules vary the count; once there are enough of them to measure, the
+// bank must not make any count a safe assumption.
+func TestTruthCounts(t *testing.T) {
+	var n, allTrue, oneFalse, more int
+	for _, q := range loadBank(t) {
+		if !q.annotated() {
+			continue
+		}
+		n++
+		f := 0
+		for _, v := range q.Truth {
+			if !v {
+				f++
+			}
+		}
+		switch f {
+		case 0:
+			allTrue++
+		case 1:
+			oneFalse++
+		default:
+			more++
+		}
+	}
+	if n < 40 {
+		t.Logf("%d annotated items; the distribution is checked from 40", n)
+		return
+	}
+	share := func(k int) float64 { return float64(k) / float64(n) }
+	t.Logf("%d annotated items: all true %.0f%%, one false %.0f%%, two or more false %.0f%%",
+		n, share(allTrue)*100, share(oneFalse)*100, share(more)*100)
+	if s := share(allTrue); s < 0.10 || s > 0.30 {
+		t.Errorf("all statements true in %.0f%% of items, want 10%% to 30%%", s*100)
+	}
+	if s := share(oneFalse); s > 0.60 {
+		t.Errorf("exactly one statement false in %.0f%% of items, want at most 60%%", s*100)
+	}
+	if s := share(more); s < 0.20 {
+		t.Errorf("two or more statements false in only %.0f%% of items, want at least 20%%", s*100)
+	}
+}
+
+// TestTrapMix: the papers sat set their traps in many ways — a figure, a time
+// limit, an item off the list, a qualifier dropped — and a bank that leans on one
+// kind teaches candidates to check for that kind only.
+func TestTrapMix(t *testing.T) {
+	counts := map[string]int{}
+	total := 0
+	for _, q := range loadBank(t) {
+		for _, tr := range q.Traps {
+			if tr != nil {
+				counts[*tr]++
+				total++
+			}
+		}
+	}
+	if total < 60 {
+		t.Logf("%d false statements carry a trap code; the mix is checked from 60", total)
+		return
+	}
+	var kinds []string
+	for k, c := range counts {
+		kinds = append(kinds, fmt.Sprintf("%s %d", k, c))
+		if share := float64(c) / float64(total); share > 0.35 {
+			t.Errorf("%.0f%% of false statements are %q traps, want at most 35%%", share*100, k)
+		}
+	}
+	sort.Strings(kinds)
+	t.Logf("traps: %s", strings.Join(kinds, ", "))
+	if len(counts) < 6 {
+		t.Errorf("false statements use %d kinds of trap, want at least 6", len(counts))
+	}
+}
+
 // TestNoDuplicateStems guards the bank against the main risk of a large
 // question bank: the same proposition asked twice in slightly different words.
-// Stems are compared as 4-word shingles within a module, in both languages —
-// see shingles, which until September 2026 cut Chinese into a single token and
-// so compared Chinese stems for exact equality and nothing else.
+// Items are compared as 4-word shingles of stem and statements within a module,
+// in both languages — see shingles, which until September 2026 cut Chinese into
+// a single token and so compared Chinese stems for exact equality and nothing else.
 func TestNoDuplicateStems(t *testing.T) {
 	bank := loadBank(t)
 
@@ -178,18 +543,8 @@ func TestNoDuplicateStems(t *testing.T) {
 			qs := byMod[m]
 			sets := make([]map[string]bool, len(qs))
 			for i, q := range qs {
-				side := q.En
-				if lang == "tc" {
-					side = q.Tc
-				}
-				// Options[0] is the authored key for a standard question, but for a
-				// combination item it is the constant "1, 2 and 3" — every one of
-				// them would look alike. Compare what those items actually assert.
-				body := side.Options[0]
-				if q.combo() {
-					body = strings.Join(side.Statements, " ")
-				}
-				sets[i] = shingles(side.Q + " " + body)
+				side := q.side(lang)
+				sets[i] = shingles(side.Q + " " + strings.Join(side.Statements, " "))
 			}
 			for i := range qs {
 				for j := i + 1; j < len(qs); j++ {
@@ -202,114 +557,44 @@ func TestNoDuplicateStems(t *testing.T) {
 		}
 	}
 
-	// The pass above compares within a module, so it cannot see a question that a
-	// second module asks in the same words — the very thing the user objected to.
 	// A September 2026 review found m1-93 and m6-190 carrying byte-identical
-	// Chinese stems on the same paragraph with the same answer, invisible to both
-	// the per-module sweep and to any English-only check, because their English
-	// wording had drifted apart while the Chinese had not. An exact match on the
-	// normalised stem is cheap and catches that in either language.
+	// Chinese stems on the same paragraph with the same answer, invisible to the
+	// per-module sweep, because their English wording had drifted apart while the
+	// Chinese had not. An exact match on the stem and statements catches that.
 	for _, lang := range []string{"en", "tc"} {
-		byStem := map[string][]string{}
+		byText := map[string][]string{}
 		for _, q := range bank {
-			stem := q.En.Q
-			if lang == "tc" {
-				stem = q.Tc.Q
-			}
-			stem = strings.TrimSpace(nonWord.ReplaceAllString(strings.ToLower(stem), " "))
-			byStem[stem] = append(byStem[stem], q.ID)
+			side := q.side(lang)
+			text := strings.TrimSpace(nonWord.ReplaceAllString(strings.ToLower(side.Q+" "+strings.Join(side.Statements, " ")), " "))
+			byText[text] = append(byText[text], q.ID)
 		}
-		for stem, ids := range byStem {
+		for text, ids := range byText {
 			if len(ids) > 1 {
-				t.Errorf("%s: %s ask the same question word for word: %q",
-					lang, strings.Join(ids, ", "), stem)
+				t.Errorf("%s: %s ask the same question word for word: %q", lang, strings.Join(ids, ", "), text)
 			}
 		}
 	}
 }
 
-// TestOptionLengthBalance guards the bank's biggest weakness as an exam: a
-// September 2026 audit found the keyed answer was the longest of the four
-// options in 83% of questions, by a median of 55 characters, so a candidate who
-// knew nothing could pass 64% of simulated papers by always picking the longest
-// one. Option order is shuffled at draw time, but length is not, so length must
-// not signal the key. The same cap applies to the Chinese options: a
-// September 2026 check found the Chinese key was the longest option in 54% of
-// module 3, so testing English alone left half a bank unguarded.
-func TestOptionLengthBalance(t *testing.T) {
-	bank := loadBank(t)
-
+// TestNoTwinStatements: a statement that another item already makes is asked
+// twice, and a near copy with the opposite truth tells a candidate which of the
+// two to doubt; an audit in September 2026 found 77 near-identical pairs, 19 of
+// them true in one item and false in the other. Exact repeats are caught here;
+// a near copy needs a reader. This checks every active item after migration.
+func TestNoTwinStatements(t *testing.T) {
 	for _, lang := range []string{"en", "tc"} {
-		perMod, longestMod := map[int]int{}, map[int]int{}
-		for _, q := range bank {
-			if q.combo() {
-				continue // its options are the fixed block, identical on every such question
-			}
-			opts := q.En.Options
-			if lang == "tc" {
-				opts = q.Tc.Options
-			}
-			perMod[q.Module]++
-			best, at := 0, 0
-			for i, o := range opts {
-				if n := len([]rune(o)); n > best {
-					best, at = n, i
-				}
-			}
-			if at == q.Answer {
-				longestMod[q.Module]++
-			}
-		}
-		for m := 1; m <= 7; m++ {
-			if perMod[m] == 0 {
+		seen := map[string]string{}
+		for _, q := range loadBank(t) {
+			if !q.annotated() {
 				continue
 			}
-			if share := float64(longestMod[m]) / float64(perMod[m]); share > 0.45 {
-				t.Errorf("%s module %d: keyed answer is the longest option in %.0f%% of questions, want at most 45%%",
-					lang, m, share*100)
-			}
-		}
-	}
-}
-
-// TestOptionLengthRank is the lesson from repairing the fault above: removing a
-// giveaway can plant another one. Trimming the keys so that the longest option
-// would be wrong pushed the answer into second place in about half the bank, and
-// "pick the second longest" is exactly as learnable as "pick the longest". So it
-// is not enough to cap one rank — the answer has to sit at each of the four
-// length ranks about as often as chance would put it, in both languages.
-func TestOptionLengthRank(t *testing.T) {
-	bank := loadBank(t)
-
-	for _, lang := range []string{"en", "tc"} {
-		var atRank [4]int
-		n := 0
-		for _, q := range bank {
-			if q.combo() {
-				continue // fixed option block; length cannot signal anything
-			}
-			l := q.En
-			if lang == "tc" {
-				l = q.Tc
-			}
-			if len(l.Options) != 4 || q.Answer < 0 || q.Answer >= 4 {
-				continue // TestBankIntegrity reports the shape problem
-			}
-			n++
-			key := len([]rune(l.Options[q.Answer]))
-			place := 0
-			for i, o := range l.Options {
-				if i != q.Answer && len([]rune(o)) > key {
-					place++
+			for i, s := range q.side(lang).Statements {
+				k := strings.TrimSpace(nonWord.ReplaceAllString(strings.ToLower(s), " "))
+				where := fmt.Sprintf("%s statement %d", q.ID, i+1)
+				if prev, ok := seen[k]; ok && !strings.HasPrefix(prev, q.ID+" ") {
+					t.Errorf("%s: %s and %s make the same statement: %q", lang, prev, where, s)
 				}
-			}
-			atRank[place]++
-		}
-		names := [4]string{"longest", "2nd longest", "3rd longest", "shortest"}
-		for r, c := range atRank {
-			if share := float64(c) / float64(n); share > 0.40 {
-				t.Errorf("%s: the answer is the %s option in %.0f%% of questions, want at most 40%% (chance is 25%%)",
-					lang, names[r], share*100)
+				seen[k] = where
 			}
 		}
 	}
@@ -318,9 +603,8 @@ func TestOptionLengthRank(t *testing.T) {
 // TestCitationHasLocator: a citation must name a place a reader can turn to —
 // a paragraph, section, item or schedule number — not just a document.
 func TestCitationHasLocator(t *testing.T) {
-	bank := loadBank(t)
 	digit := regexp.MustCompile(`\d`)
-	for _, q := range bank {
+	for _, q := range loadBank(t) {
 		if !digit.MatchString(q.Source.En) {
 			t.Errorf("%s: citation %q names no paragraph or section", q.ID, q.Source.En)
 		}
@@ -341,8 +625,7 @@ var (
 
 func TestSectionNumberWord(t *testing.T) {
 	for _, q := range loadBank(t) {
-		fields := append(append([]string{q.Tc.Q, q.Tc.Explain, q.Source.Tc}, q.Tc.Options...), q.Tc.Statements...)
-		for _, f := range fields {
+		for _, f := range append(q.Tc.fields(), q.Source.Tc) {
 			for _, m := range sectionKuan.FindAllString(f, -1) {
 				t.Errorf("%s: %q writes a numbered section with 款; the Ordinance says 條, the Guideline 段", q.ID, m)
 			}
@@ -360,8 +643,7 @@ const simplifiedOnly = "则说这为与应须时实际关条项过发会经务�
 
 func TestTraditionalCharacters(t *testing.T) {
 	for _, q := range loadBank(t) {
-		fields := append(append([]string{q.Tc.Q, q.Tc.Explain, q.Source.Tc}, q.Tc.Options...), q.Tc.Statements...)
-		for _, f := range fields {
+		for _, f := range append(q.Tc.fields(), q.Source.Tc) {
 			if i := strings.IndexAny(f, simplifiedOnly); i >= 0 {
 				r := []rune(f[i:])[0]
 				t.Errorf("%s: Chinese text has the simplified character %q", q.ID, r)
@@ -376,7 +658,6 @@ func TestTraditionalCharacters(t *testing.T) {
 // citation field as well: a review in September 2026 found five citations
 // carrying non-statutory terms precisely because this test used to skip it.
 func TestChineseStatutoryTerms(t *testing.T) {
-	bank := loadBank(t)
 	banned := map[string]string{
 		"電匯":      "電傳轉帳 or 電傳轉賬 (wire transfer)",
 		"過渡期客戶":   "先前客戶 (pre-existing customer)",
@@ -438,10 +719,11 @@ func TestChineseStatutoryTerms(t *testing.T) {
 		"來源司法管轄區": "目標司法管轄區 (AML/CFT policy guideline)",
 		"藐視程序":    "the section's words, e.g. 按藐視法庭罪追究 (s.14)",
 	}
-	for _, q := range bank {
-		// statements too: a combination item's statements are where its terms are tested
-		fields := append(append([]string{q.Tc.Q, q.Tc.Explain, q.Source.Tc}, q.Tc.Options...), q.Tc.Statements...)
-		for _, f := range fields {
+	for _, q := range loadBank(t) {
+		if q.Official != "" {
+			continue // C&ED's own words
+		}
+		for _, f := range append(q.Tc.fields(), q.Source.Tc) {
 			for bad, want := range banned {
 				if strings.Contains(f, bad) {
 					t.Errorf("%s: Chinese text uses %q, want %s", q.ID, bad, want)
@@ -454,9 +736,9 @@ func TestChineseStatutoryTerms(t *testing.T) {
 // TestNoDanglingReference: 該 means "the said", so 該客戶 is a customer already
 // named. Used cold it renders "the customer" or "the MSO" word for word and
 // leaves the reader asking which one; the sources name it first. A candidate
-// reads the stem, then the statements in order, then the options and the
-// explanation, so each may lean on what came before it. A transaction may be
-// named by its kind, as Guideline ¶10.2 names a wire transfer and then says 該交易.
+// reads the stem first. The statements of an item the app reorders may come in
+// any order, so each may lean only on the stem; those of a fixed item are read in
+// order. A note may lean on its own statement, an explanation on everything.
 var danglingRefs = []struct {
 	form        *regexp.Regexp // 該, an optional classifier, the noun
 	antecedents []string       // one of these, said earlier, gives it something to refer to
@@ -473,8 +755,10 @@ var danglingRefs = []struct {
 }
 
 func TestNoDanglingReference(t *testing.T) {
-	bank := loadBank(t)
-	for _, q := range bank {
+	for _, q := range loadBank(t) {
+		if q.Official != "" {
+			continue
+		}
 		check := func(read, f string) {
 			for _, r := range danglingRefs {
 				loc := r.form.FindStringIndex(f)
@@ -491,15 +775,20 @@ func TestNoDanglingReference(t *testing.T) {
 				}
 			}
 		}
-		read := q.Tc.Q
 		check("", q.Tc.Q)
-		for _, s := range q.Tc.Statements {
-			check(read, s)
-			read += s
+		read := q.Tc.Q
+		for i, s := range q.Tc.Statements {
+			if q.Fixed {
+				check(read, s)
+				read += s
+			} else {
+				check(q.Tc.Q, s)
+				if i < len(q.Tc.Notes) {
+					check(q.Tc.Q+s, q.Tc.Notes[i])
+				}
+			}
 		}
-		for _, f := range append([]string{q.Tc.Explain}, q.Tc.Options...) {
-			check(read, f)
-		}
+		check(q.Tc.Q+strings.Join(q.Tc.Statements, ""), q.Tc.Explain)
 	}
 }
 
@@ -511,12 +800,25 @@ func TestNoDanglingReference(t *testing.T) {
 var guidelineKuan = regexp.MustCompile(`第\d+\.\d+(?:\.\d+)*(?:\([a-z0-9]+\))*(?:及\([a-z0-9]+\))*款|附錄A第\d+(?:\([a-z0-9]+\))*款`)
 
 func TestGuidelineParagraphWord(t *testing.T) {
-	bank := loadBank(t)
-	for _, q := range bank {
-		fields := append(append([]string{q.Tc.Q, q.Tc.Explain, q.Source.Tc}, q.Tc.Options...), q.Tc.Statements...)
-		for _, f := range fields {
+	for _, q := range loadBank(t) {
+		for _, f := range append(q.Tc.fields(), q.Source.Tc) {
 			if m := guidelineKuan.FindString(f); m != "" {
 				t.Errorf("%s: %q calls a Guideline paragraph 款; the Guideline says 段", q.ID, m)
+			}
+		}
+	}
+}
+
+// TestJFIUInvestigation: C&ED's own sample (Example 5) calls the JFIU the "Joint
+// Financial Investigation Unit" in a statement it keys true, so the register (B21)
+// judges such a statement on the rest of what it says. The wording may appear, but
+// a false statement never turns on it; the first module 5 batch had one that did.
+func TestJFIUInvestigation(t *testing.T) {
+	for _, q := range loadBank(t) {
+		for i, s := range q.En.Statements {
+			if i < len(q.Traps) && q.Traps[i] != nil && *q.Traps[i] == "name" &&
+				strings.Contains(strings.ToLower(s), "financial investigation unit") {
+				t.Errorf("%s: a false statement turns on the JFIU's name alone, which register B21 rules out: %q", q.ID, s)
 			}
 		}
 	}
@@ -525,10 +827,11 @@ func TestGuidelineParagraphWord(t *testing.T) {
 // TestMLTFPairing: where the English says ML/TF the Chinese must carry both
 // limbs. Dropping the terrorist-financing half changes what is being asked.
 func TestMLTFPairing(t *testing.T) {
-	bank := loadBank(t)
-	for _, q := range bank {
-		en := append([]string{q.En.Q, q.En.Explain}, q.En.Options...)
-		tc := append([]string{q.Tc.Q, q.Tc.Explain}, q.Tc.Options...)
+	for _, q := range loadBank(t) {
+		en, tc := q.En.fields(), q.Tc.fields()
+		if len(en) != len(tc) {
+			continue // TestBankIntegrity reports the mismatch
+		}
 		for i := range en {
 			if strings.Contains(en[i], "ML/TF") &&
 				strings.Contains(tc[i], "洗錢") && !strings.Contains(tc[i], "恐怖分子") {
@@ -538,120 +841,54 @@ func TestMLTFPairing(t *testing.T) {
 	}
 }
 
-// TestNoPositionalReferences: the app shuffles option order at draw time, so an
-// explanation that says "option 2" or 選項三 names whatever landed second in that
-// draw, not the thing the author meant. The September 2026 review found 37 of
-// these, concentrated in the Schedule 4 items, where they had been written
-// against the authored order. Refer to an option by its content instead.
-//
-// Combination questions are checked too: their fixed options are lists of
-// statement numbers, which never match these patterns, and their explanations
-// must talk about "statement 2" / 陳述2 rather than the option carrying it.
+// TestNoPositionalReferences: the app reorders an item's statements at every
+// draw and renumbers its options, so "statement 2", "option B" or 選項三 names
+// whatever landed there in that draw, not what the author meant. Notes refer to
+// what a statement says. Only a fixed item's explanation may number statements,
+// because its statements never move. The September 2026 review found 37
+// positional references written against the authored order.
 func TestNoPositionalReferences(t *testing.T) {
-	bank := loadBank(t)
-	patterns := []*regexp.Regexp{
+	options := []*regexp.Regexp{
 		regexp.MustCompile(`(?i)\b(?:option|distractor)s?\s*\(?[1-5]\)?\b`),
 		// the letter stays case-sensitive: lower-cased, "answer a question" and
 		// "the choice a licensee makes" would both match and fail a sound question
 		regexp.MustCompile(`\b(?i:option|answer|choice)\s+[A-E]\b`),
 		regexp.MustCompile(`(?i)\b(?:first|second|third|fourth|fifth|last)\s+(?:option|choice|answer)\b`),
-		regexp.MustCompile(`\(D[1-5]\)|\bD[1-5]\b`),
-		regexp.MustCompile(`選項\s*[一二三四五1-5A-E]`),
+		regexp.MustCompile(`選項\s*[一二三四五1-5A-Ea-e]`),
 		regexp.MustCompile(`第[一二三四五]個?選項`),
 	}
-	for _, q := range bank {
-		fields := map[string]string{
-			"en.q": q.En.Q, "en.explain": q.En.Explain,
-			"tc.q": q.Tc.Q, "tc.explain": q.Tc.Explain,
-		}
-		for i, o := range q.En.Options {
-			fields[fmt.Sprintf("en.options[%d]", i)] = o
-		}
-		for i, o := range q.Tc.Options {
-			fields[fmt.Sprintf("tc.options[%d]", i)] = o
-		}
-		for name, text := range fields {
-			for _, re := range patterns {
-				if m := re.FindString(text); m != "" {
-					t.Errorf("%s (%s): refers to an option by position (%q); name it by its content",
-						q.ID, name, m)
-					break
-				}
-			}
-		}
+	// a statement named by its place, or leaning on the ones printed before it
+	statements := []*regexp.Regexp{
+		regexp.MustCompile(`(?i)\bstatements?\s*\(?\d`),
+		regexp.MustCompile(`(?i)\b(?:first|second|third|fourth|fifth|sixth|last|other)\s+statements?\b`),
+		regexp.MustCompile(`陳述\s*[（(]?\d`),
+		regexp.MustCompile(`第\s*[\d一二三四五六]\s*[項句]陳述`),
+		regexp.MustCompile(`(?i)\b(?:the|this) above\b|上述(?:各項|陳述)`),
 	}
-}
-
-// TestCombinationFormat holds the bank to the shape C&ED actually prints. Every
-// sample question the department has published — the seven in sample set
-// MSSB/CA_01/2021 and the one in Guidance Notes ¶7.1 — is a combination item:
-// numbered statements under the stem, then five fixed options naming subsets of
-// them, lettered a) to e). The candidate's real task is to find the one
-// statement that is false, so the option block must be reproduced exactly, and
-// which statement is the false one has to move around.
-func TestCombinationFormat(t *testing.T) {
-	bank := loadBank(t)
-
-	perMod := map[int]int{}
-	byAnswer := map[int]map[int]int{4: {}, 5: {}}
-	total := map[int]int{4: 0, 5: 0}
-
-	for _, q := range bank {
-		if !q.combo() {
-			continue
-		}
-		perMod[q.Module]++
-
-		n := len(q.En.Statements)
-		if n != len(q.Tc.Statements) {
-			t.Errorf("%s: %d English statements but %d Chinese", q.ID, n, len(q.Tc.Statements))
-			continue
-		}
-		if _, ok := comboOptions[n]; !ok {
-			t.Errorf("%s: %d statements; the published formats use 4 or 5", q.ID, n)
-			continue
-		}
-		for _, l := range []struct {
-			name string
-			v    qLang
-		}{{"en", q.En}, {"tc", q.Tc}} {
-			for i, st := range l.v.Statements {
-				if strings.TrimSpace(st) == "" {
-					t.Errorf("%s (%s): statement %d empty", q.ID, l.name, i+1)
-				}
+	for _, q := range loadBank(t) {
+		for _, lang := range []string{"en", "tc"} {
+			l := q.side(lang)
+			fields := map[string]string{"q": l.Q, "explain": l.Explain}
+			for i, s := range l.Statements {
+				fields[fmt.Sprintf("statement %d", i+1)] = s
 			}
-			want := comboOptions[n][l.name]
-			for i := range want {
-				if i < len(l.v.Options) && l.v.Options[i] != want[i] {
-					t.Errorf("%s (%s): option %d is %q, want the printed block's %q",
-						q.ID, l.name, i, l.v.Options[i], want[i])
-				}
+			for i, s := range l.Notes {
+				fields[fmt.Sprintf("note %d", i+1)] = s
 			}
-		}
-		if q.Answer >= 0 && q.Answer < 5 {
-			byAnswer[n][q.Answer]++
-			total[n]++
-		}
-	}
-
-	for m := 1; m <= 7; m++ {
-		if perMod[m] < minCombinationPerModule {
-			t.Errorf("module %d has %d combination questions, want at least %d — every published "+
-				"C&ED sample is this format", m, perMod[m], minCombinationPerModule)
-		}
-	}
-
-	// Which option is right is decided by which statement is false, so a lopsided
-	// answer distribution is the same giveaway as a lopsided key length: it teaches
-	// "the false one is usually the second". Chance would be 20% at each letter.
-	for n, counts := range byAnswer {
-		if total[n] < 20 {
-			continue // too few to say anything about the distribution
-		}
-		for letter := 0; letter < 5; letter++ {
-			if share := float64(counts[letter]) / float64(total[n]); share > 0.40 {
-				t.Errorf("%d-statement combination items: answer %c in %.0f%% of them, want at most 40%% (chance is 20%%)",
-					n, 'a'+rune(letter), share*100)
+			for name, text := range fields {
+				// a fixed item's statements never move, so its explanation may
+				// number them; the items converted from the old bank are fixed
+				pats := options
+				if !q.Fixed {
+					pats = append(append([]*regexp.Regexp{}, options...), statements...)
+				}
+				for _, re := range pats {
+					if m := re.FindString(text); m != "" {
+						t.Errorf("%s (%s %s): refers to a statement or option by position (%q); name it by what it says",
+							q.ID, lang, name, m)
+						break
+					}
+				}
 			}
 		}
 	}
@@ -661,82 +898,24 @@ func TestCombinationFormat(t *testing.T) {
 // That test compares wording, within one module. But the same fact asked in
 // different words, in a different module, looks nothing alike and is invisible
 // to it — three such pairs were found in September 2026 (m3-17/m6-268,
-// m1-70/m6-198, m1-117/m6-184), each asking one thing twice.
-//
-// The sharp signal is the pair (cited passage, answer): two questions that cite
-// the same provision and key on the same answer are asking one question. Sharing
-// an answer across *different* provisions is not a duplicate and is common on
-// purpose — several offences carry a fine at level 5, and a rule stated in both
-// the Ordinance and the Guideline is worth asking from each side.
+// m1-70/m6-198, m1-117/m6-184), each asking one thing twice. The sharp signal is
+// the pair (cited passage, statements): two items that cite the same provision
+// and make the same statements ask one question.
 func TestNoDuplicateAnswers(t *testing.T) {
-	bank := loadBank(t)
-
-	// Checked in both languages: a pair can drift apart in English while the
-	// Chinese still says the same thing, and half the bank is Chinese.
 	for _, lang := range []string{"en", "tc"} {
 		seen := map[string][]string{}
-		for _, q := range bank {
-			side, src := q.En, q.Source.En
+		for _, q := range loadBank(t) {
+			src := q.Source.En
 			if lang == "tc" {
-				side, src = q.Tc, q.Source.Tc
+				src = q.Source.Tc
 			}
-			// what the question settles: the keyed option, or for a combination item
-			// the statements, since its options are the same fixed block every time
-			answer := ""
-			if q.combo() {
-				answer = strings.Join(side.Statements, " ")
-			} else if q.Answer >= 0 && q.Answer < len(side.Options) {
-				answer = side.Options[q.Answer]
-			}
-			answer = strings.TrimSpace(nonWord.ReplaceAllString(strings.ToLower(answer), " "))
-			if answer == "" {
-				continue
-			}
-			// No minimum length. The check keys on the cited passage as well as the
-			// answer, and a short answer is where a duplicate hides best: m1-73 and
-			// m6-219 both asked which Chapter of the UN Charter carries the mandatory
-			// PF obligations, both cited ¶6.9, and both answered "Chapter VII" — 11
-			// characters, one under the floor this test used to apply.
+			body := strings.TrimSpace(nonWord.ReplaceAllString(strings.ToLower(strings.Join(q.side(lang).Statements, " ")), " "))
 			src = strings.TrimSpace(nonWord.ReplaceAllString(strings.ToLower(src), " "))
-			key := src + " || " + answer
-			seen[key] = append(seen[key], q.ID)
+			seen[src+" || "+body] = append(seen[src+" || "+body], q.ID)
 		}
 		for key, ids := range seen {
 			if len(ids) > 1 {
-				t.Errorf("%s: %s all cite the same passage and give the same answer, so they ask one "+
-					"question: %q", lang, strings.Join(ids, ", "), key)
-			}
-		}
-	}
-
-	// A shared answer across two modules is a duplicate even when the citations
-	// differ. Six such pairs existed in September 2026, each stating a rule from
-	// the Ordinance in one module and from the Guideline in another — the same
-	// question twice, and a candidate could meet both in one paper. Within a
-	// module a shared answer is fine and often deliberate: several distinct
-	// offences carry a fine at level 5.
-	byAnswer := map[string][]question{}
-	for _, q := range bank {
-		answer := ""
-		if q.combo() {
-			answer = strings.Join(q.En.Statements, " ")
-		} else if q.Answer >= 0 && q.Answer < len(q.En.Options) {
-			answer = q.En.Options[q.Answer]
-		}
-		answer = strings.TrimSpace(nonWord.ReplaceAllString(strings.ToLower(answer), " "))
-		if len(answer) < 12 {
-			continue
-		}
-		byAnswer[answer] = append(byAnswer[answer], q)
-	}
-	for answer, qs := range byAnswer {
-		for i := range qs {
-			for j := i + 1; j < len(qs); j++ {
-				if qs[i].Module != qs[j].Module {
-					t.Errorf("%s (module %d) and %s (module %d) give the same answer, so one mock "+
-						"paper can ask the same thing twice: %q",
-						qs[i].ID, qs[i].Module, qs[j].ID, qs[j].Module, answer)
-				}
+				t.Errorf("%s: %s cite the same passage and make the same statements: %q", lang, strings.Join(ids, ", "), key)
 			}
 		}
 	}
@@ -744,9 +923,9 @@ func TestNoDuplicateAnswers(t *testing.T) {
 
 var nonWord = regexp.MustCompile(`[^\p{L}\p{N}]+`)
 
-// shingles cuts a stem into overlapping 4-word runs for comparison. Written
+// shingles cuts a text into overlapping 4-word runs for comparison. Written
 // words are separated by spaces, so Fields finds them; Chinese is not, so a
-// Chinese stem collapses into a single "word" and every comparison degenerates
+// Chinese text collapses into a single "word" and every comparison degenerates
 // into an exact match. That silently disabled near-duplicate detection on half
 // the bank until a September 2026 sweep found two cross-module pairs by hand.
 // shinglesCJK is the Chinese equivalent, cutting 4-character runs instead.
@@ -808,8 +987,8 @@ func jaccard(a, b map[string]bool) float64 {
 	return float64(inter) / float64(len(a)+len(b)-inter)
 }
 
-// spread reports how unevenly a set of option or statement texts is sized: the
-// gap between the longest and the shortest, as a share of the mean.
+// spread reports how unevenly a set of statement texts is sized: the gap
+// between the longest and the shortest, as a share of the mean.
 func spread(ss []string) (gap int, share float64) {
 	if len(ss) == 0 {
 		return 0, 0
@@ -828,259 +1007,31 @@ func spread(ss []string) (gap int, share float64) {
 	return hi - lo, float64(hi-lo) / (float64(sum) / float64(len(ss)))
 }
 
-// TestOptionLengthSpread is the third lesson about length, and the one the two
-// tests above cannot teach. They rank the options and ask how often the answer
-// comes first, so they see order but never size: four options of 40, 41, 42 and
-// 130 characters rank exactly like four of 40, 41, 42 and 43. A September 2026
-// measurement found the bank passing both while leaking badly at the extremes —
-// in English an option more than 25% longer than its nearest rival was the
-// answer in 1 of 55 questions and one more than 40% longer in 0 of 31, while an
-// option more than 25% shorter than its nearest rival was the answer 47% of the
-// time. Trimming keys to defeat "pick the longest" had taught "avoid the long
-// one, take the stubby one" instead.
-//
-// The fix is not to balance a tell but to remove the signal: inside one
-// question every option should occupy about the same space, so length carries
-// no information in either direction. The same applies to the statements of a
-// combination item, where the false statement was the longest or the shortest
-// of the four in 14% of high-spread questions against 50% by chance — the
-// outliers were reliably true, which hands over an elimination for free.
-//
-// The floor exempts genuinely short answer sets: "$8,000" against "$120,000"
-// varies by half and signals nothing a candidate can use.
-func TestOptionLengthSpread(t *testing.T) {
-	bank := loadBank(t)
-
+// TestStatementLengthSpread carries over the lesson of the old four-option
+// bank, where the key was the longest option in 83% of questions and "always
+// pick the longest" passed 64% of simulated papers. In a combination item the
+// statements are what can leak: when first measured, the false statement was the
+// longest or the shortest of the four in 14% of high-spread items against 50% by
+// chance — the outliers were reliably true, which hands over an elimination.
+// Inside one item every statement should occupy about the same space. The floor
+// exempts genuinely short sets: "$8,000" against "$120,000" signals nothing.
+func TestStatementLengthSpread(t *testing.T) {
 	const tol = 0.40
 	floor := map[string]int{"en": 20, "tc": 8}
-
-	type offence struct {
-		id, lang, what string
-		gap            int
-		share          float64
-	}
-	var bad []offence
-	for _, q := range bank {
-		for _, lang := range []string{"en", "tc"} {
-			l := q.En
-			if lang == "tc" {
-				l = q.Tc
-			}
-			sets := map[string][]string{}
-			if q.combo() {
-				// The options are the fixed printed block; only the
-				// statements can leak.
-				sets["statements"] = l.Statements
-			} else {
-				sets["options"] = l.Options
-			}
-			for what, ss := range sets {
-				gap, share := spread(ss)
-				if gap > floor[lang] && share > tol {
-					bad = append(bad, offence{q.ID, lang, what, gap, share})
-				}
-			}
-		}
-	}
-	if len(bad) > 0 {
-		t.Errorf("%d question/language pairs vary too much in length; want the longest and shortest within %.0f%% of the mean (or %d/%d runes apart)",
-			len(bad), tol*100, floor["en"], floor["tc"])
-		for i, o := range bad {
-			if i == 15 {
-				t.Logf("... and %d more", len(bad)-15)
-				break
-			}
-			t.Logf("  %s [%s] %s: %d runes apart, %.0f%% of mean", o.id, o.lang, o.what, o.gap, o.share*100)
-		}
-	}
-}
-
-// TestNoLengthStandout is the fourth and sharpest lesson about length. The
-// spread guard above bounds the whole set — longest against shortest — but a
-// question can satisfy it and still contain one option that visibly stands
-// apart from its nearest rival, and that is the only comparison a candidate
-// actually makes. Measured in September 2026, the Chinese options carried a
-// usable signal exactly there: an option standing 15-30% clear of its nearest
-// rival was the answer 42-55% of the time, while one standing 15-30% below its
-// nearest rival was the answer 10-16% of the time. In English the sign was
-// reversed — a conspicuously long option was the answer in 12% of cases — which
-// is the pattern that prompted this work.
-//
-// So no option may stand apart from the option next to it in length by more
-// than 15%. The floor lets small absolute differences through: on four options
-// of nine, ten and eleven runes the ratios are large and the difference is
-// invisible.
-func TestNoLengthStandout(t *testing.T) {
-	bank := loadBank(t)
-
-	const ratio = 0.15
-	floor := map[string]int{"en": 8, "tc": 3}
-
-	type offence struct{ id, lang, what, dir string }
-	var bad []offence
-	for _, q := range bank {
-		for _, lang := range []string{"en", "tc"} {
-			l := q.En
-			if lang == "tc" {
-				l = q.Tc
-			}
-			sets := map[string][]string{}
-			if q.combo() {
-				sets["statements"] = l.Statements
-			} else {
-				sets["options"] = l.Options
-			}
-			for what, ss := range sets {
-				if len(ss) < 2 {
-					continue
-				}
-				n := make([]int, len(ss))
-				for i, s := range ss {
-					n[i] = len([]rune(s))
-				}
-				sort.Ints(n)
-				last := len(n) - 1
-				if n[1]-n[0] > floor[lang] && float64(n[0]) < float64(n[1])*(1-ratio) {
-					bad = append(bad, offence{q.ID, lang, what, "shortest stands apart"})
-				}
-				if n[last]-n[last-1] > floor[lang] && float64(n[last]) > float64(n[last-1])*(1+ratio) {
-					bad = append(bad, offence{q.ID, lang, what, "longest stands apart"})
-				}
-			}
-		}
-	}
-	if len(bad) > 0 {
-		t.Errorf("%d cases where one option stands more than %.0f%% clear of its nearest rival",
-			len(bad), ratio*100)
-		for i, o := range bad {
-			if i == 15 {
-				t.Logf("... and %d more", len(bad)-15)
-				break
-			}
-			t.Logf("  %s [%s] %s: %s", o.id, o.lang, o.what, o.dir)
-		}
-	}
-}
-
-// TestNoAbsoluteTell guards a giveaway that survived every length rule. In a
-// combination item a candidate has to decide which statements are true, and a
-// September 2026 audit found the wording did that work for them: a statement
-// carrying an absolute qualifier — "only", "never", "in every case", 只限, 一律,
-// 無須 — was true just 33% of the time in English and 27% in Chinese, against a
-// 76% base rate for statements generally. Marking the absolutes false and reading
-// off the remaining combination scored 68% on the two fifths of items where the
-// rule discriminated, against 20% for chance. Distractors drift that way because
-// it is easy to make a statement wrong by overstating it; the repair was to make
-// them wrong on substance instead — a wrong section, body, threshold or date.
-//
-// The check is statistical rather than per-question: one absolute on one false
-// statement is noise, and a bank-wide correlation is what a candidate can learn.
-func TestNoAbsoluteTell(t *testing.T) {
-	bank := loadBank(t)
-
-	absolute := map[string]*regexp.Regexp{
-		"en": regexp.MustCompile(`(?i)\b(only|solely|exclusively|alone|always|never|at all|whatsoever|need not|not required|no requirement|nothing more|no more than)\b|in (every|all) cases?`),
-		"tc": regexp.MustCompile(`只|僅|一律|完全|絕不|永不|毫無|無須|毋須|不得`),
-	}
-	// Which statements a combination answer asserts to be true, by statement count.
-	trueSets := map[int][][]int{
-		4: {{0, 1, 2}, {0, 1, 3}, {1, 2, 3}, {0, 2, 3}, {0, 1, 2, 3}},
-		5: {{0, 1, 2}, {1, 2, 3}, {0, 2, 3}, {0, 1, 4}, {2, 3, 4}},
-	}
-
-	for _, lang := range []string{"en", "tc"} {
-		var total, trueOnes int
-		perModTotal, perModTrue := map[int]int{}, map[int]int{}
-		for _, q := range bank {
-			if !q.combo() {
-				continue
-			}
-			sts := q.En.Statements
-			if lang == "tc" {
-				sts = q.Tc.Statements
-			}
-			sets, ok := trueSets[len(sts)]
-			if !ok || q.Answer < 0 || q.Answer >= len(sets) {
-				t.Fatalf("%s: %d statements with answer %d", q.ID, len(sts), q.Answer)
-			}
-			isTrue := map[int]bool{}
-			for _, i := range sets[q.Answer] {
-				isTrue[i] = true
-			}
-			for i, s := range sts {
-				if !absolute[lang].MatchString(s) {
-					continue
-				}
-				total++
-				perModTotal[q.Module]++
-				if isTrue[i] {
-					trueOnes++
-					perModTrue[q.Module]++
-				}
-			}
-		}
-		if total == 0 {
-			continue
-		}
-		if share := float64(trueOnes) / float64(total); share < 0.60 {
-			t.Errorf("%s: a statement carrying an absolute qualifier is true in only %.0f%% of cases (%d of %d), want at least 60%% against a base rate near 76%%",
-				lang, share*100, trueOnes, total)
-		}
-		for m := 1; m <= 7; m++ {
-			if perModTotal[m] < 8 {
-				continue // too few to read anything into
-			}
-			if share := float64(perModTrue[m]) / float64(perModTotal[m]); share < 0.45 {
-				t.Errorf("%s module %d: a statement carrying an absolute qualifier is true in only %.0f%% of cases (%d of %d), want at least 45%%",
-					lang, m, share*100, perModTrue[m], perModTotal[m])
-			}
-		}
-	}
-}
-
-// TestNoSemicolonTell is the fifth lesson about surface form, and the first
-// that is not about length. The length guards above equalise how much space an
-// option takes; they say nothing about how it is punctuated. A September 2026
-// audit found the gap: a semicolon inside a four-option option made that option
-// the key 45% of the time in English and 46% in Chinese, against 25% by chance,
-// and where exactly one option in a question carried one, picking it scored 83%
-// and 81%. The cause is the same one that drove the length work — the key is
-// usually the fuller answer, and a semicolon is what joins its two clauses.
-//
-// The repair is not to balance the correlation but to remove the discrimination:
-// within one question either every option carries a semicolon or none does. A
-// feature that is uniform across the option set cannot tell a candidate which
-// option to pick, whatever the bank-wide base rate. Combination items are exempt
-// because their five options are the fixed printed block.
-func TestNoSemicolonTell(t *testing.T) {
-	bank := loadBank(t)
-
-	semi := func(s string) bool { return strings.ContainsAny(s, ";；") }
-
 	var bad []string
-	for _, q := range bank {
-		if q.combo() {
+	for _, q := range loadBank(t) {
+		if q.Official != "" {
 			continue
 		}
 		for _, lang := range []string{"en", "tc"} {
-			opts := q.En.Options
-			if lang == "tc" {
-				opts = q.Tc.Options
-			}
-			n := 0
-			for _, o := range opts {
-				if semi(o) {
-					n++
-				}
-			}
-			if n != 0 && n != len(opts) {
-				bad = append(bad, fmt.Sprintf("%s [%s]: %d of %d options carry a semicolon",
-					q.ID, lang, n, len(opts)))
+			if gap, share := spread(q.side(lang).Statements); gap > floor[lang] && share > tol {
+				bad = append(bad, fmt.Sprintf("%s [%s]: %d runes apart, %.0f%% of mean", q.ID, lang, gap, share*100))
 			}
 		}
 	}
 	if len(bad) > 0 {
-		t.Errorf("%d question/language sets punctuate their options unevenly; want a semicolon in all of a question's options or none of them", len(bad))
+		t.Errorf("%d item/language pairs vary too much in statement length; want the longest and shortest within %.0f%% of the mean (or %d/%d runes apart)",
+			len(bad), tol*100, floor["en"], floor["tc"])
 		for i, s := range bad {
 			if i == 15 {
 				t.Logf("... and %d more", len(bad)-15)
@@ -1091,191 +1042,192 @@ func TestNoSemicolonTell(t *testing.T) {
 	}
 }
 
-// The three guards below hold a rule the bank's owner set in September 2026,
-// after meeting m3-243 in a mock paper: "What is the relationship between
-// section 3(1)(a) and section 3(2) of Schedule 2?" A stem may cite a provision
-// by number, and should say what it provides, but the thing the candidate has
-// to supply is always substance — a rule, a condition, a consequence. Nobody
-// should need to recall what a subsection number says, which number a rule
-// lives under, or a provision's exact wording. That is also how C&ED's own
-// sample questions read: every stem names its topic in words, and the section
-// appears only in the answer key. The September 2026 audit found 31 stems
-// asking what a number said, 6 whose keyed answer was a bare section number,
-// 5 whose options differed only by their numbers and 2 asking for exact wording.
-//
-// Two things are deliberately allowed. A structure item that cites only a Part
-// or a Schedule ("Which Part of the AMLO contains the licensing regime?") is at
-// the level the official answer keys use, and the owner chose to keep those. And
-// a stem that quotes a defined term ("How is ‘money’ defined in Schedule 1?") is
-// about that term, which is its content.
+// TestNoLengthStandout: the spread guard bounds the whole set, but an item can
+// satisfy it and still have one statement that visibly stands apart from its
+// nearest rival, and that is the comparison a candidate actually makes. No
+// statement may stand more than 15% clear of the one next to it in length; the
+// floor lets small absolute differences through.
+func TestNoLengthStandout(t *testing.T) {
+	const ratio = 0.15
+	floor := map[string]int{"en": 8, "tc": 3}
+	var bad []string
+	for _, q := range loadBank(t) {
+		if q.Official != "" {
+			continue
+		}
+		for _, lang := range []string{"en", "tc"} {
+			ss := q.side(lang).Statements
+			if len(ss) < 2 {
+				continue
+			}
+			n := make([]int, len(ss))
+			for i, s := range ss {
+				n[i] = len([]rune(s))
+			}
+			sort.Ints(n)
+			last := len(n) - 1
+			if n[1]-n[0] > floor[lang] && float64(n[0]) < float64(n[1])*(1-ratio) {
+				bad = append(bad, fmt.Sprintf("%s [%s]: the shortest statement stands apart", q.ID, lang))
+			}
+			if n[last]-n[last-1] > floor[lang] && float64(n[last]) > float64(n[last-1])*(1+ratio) {
+				bad = append(bad, fmt.Sprintf("%s [%s]: the longest statement stands apart", q.ID, lang))
+			}
+		}
+	}
+	if len(bad) > 0 {
+		t.Errorf("%d cases where one statement stands more than %.0f%% clear of its nearest rival", len(bad), ratio*100)
+		for i, s := range bad {
+			if i == 15 {
+				t.Logf("... and %d more", len(bad)-15)
+				break
+			}
+			t.Logf("  %s", s)
+		}
+	}
+}
+
+// TestNoAbsoluteTell: a September 2026 audit found the wording deciding the
+// statements for the candidate: one carrying an absolute — "only", "never", "in
+// every case", 只限, 一律, 無須 — was true just 33% of the time in English and
+// 27% in Chinese, against a 76% base rate. Marking the absolutes false scored
+// 68% where the rule discriminated, against 20% for chance. Distractors drift
+// that way because overstating a true rule is the easiest way to falsify it; the
+// repair is to make them wrong on substance and to put accurate absolutes on true
+// statements. The check is statistical: one absolute on one false statement is
+// noise, a bank-wide correlation is what a candidate can learn.
+func TestNoAbsoluteTell(t *testing.T) {
+	absolute := map[string]*regexp.Regexp{
+		"en": regexp.MustCompile(`(?i)\b(only|solely|exclusively|alone|always|never|at all|whatsoever|need not|not required|no requirement|nothing more|no more than)\b|in (every|all) cases?`),
+		"tc": regexp.MustCompile(`只|僅|一律|完全|絕不|永不|毫無|無須|毋須|不得`),
+	}
+	statTell(t, "an absolute qualifier", absolute, 0.60, 0.45, false)
+}
+
+// TestNoNegationTell: after the absolutes were repaired, statements containing
+// a negation were true 59% of the time against a 76% base rate, and 23-40% in two
+// modules: negating a true rule is the next easiest way to falsify it. Negate
+// true statements too. In the old module 5 a negated statement was true only
+// 3 times in 13 in English; migration must remove that tell as well as add notes.
+func TestNoNegationTell(t *testing.T) {
+	negation := map[string]*regexp.Regexp{
+		"en": regexp.MustCompile(`(?i)\b(not|no|never|neither|nor|without|cannot)\b|n't\b`),
+		"tc": regexp.MustCompile(`不|無|沒有|未|非|毋|毋須|不得`),
+	}
+	statTell(t, "a negation", negation, 0.50, 0.35, true)
+}
+
+// statTell checks that statements matching a pattern are true at a healthy rate
+// bank-wide and in each module with enough of them.
+func statTell(t *testing.T, what string, re map[string]*regexp.Regexp, floor, modFloor float64, annotatedOnly bool) {
+	t.Helper()
+	bank := loadBank(t)
+	for _, lang := range []string{"en", "tc"} {
+		var total, trueOnes int
+		perTotal, perTrue := map[int]int{}, map[int]int{}
+		for _, q := range bank {
+			if annotatedOnly && !q.annotated() {
+				continue
+			}
+			for i, s := range q.side(lang).Statements {
+				if i >= q.n() || !re[lang].MatchString(s) {
+					continue
+				}
+				total++
+				perTotal[q.Module]++
+				if q.Truth[i] {
+					trueOnes++
+					perTrue[q.Module]++
+				}
+			}
+		}
+		if total == 0 {
+			continue
+		}
+		if share := float64(trueOnes) / float64(total); share < floor {
+			t.Errorf("%s: a statement carrying %s is true in only %.0f%% of cases (%d of %d), want at least %.0f%%",
+				lang, what, share*100, trueOnes, total, floor*100)
+		}
+		for m := 1; m <= 7; m++ {
+			if perTotal[m] < 8 {
+				continue // too few to read anything into
+			}
+			if share := float64(perTrue[m]) / float64(perTotal[m]); share < modFloor {
+				t.Errorf("%s module %d: a statement carrying %s is true in only %.0f%% of cases (%d of %d), want at least %.0f%%",
+					lang, m, what, share*100, perTrue[m], perTotal[m], modFloor*100)
+			}
+		}
+	}
+}
+
+// The guards below hold a rule the bank's owner set in September 2026, after
+// meeting m3-243 in a mock paper: "What is the relationship between section
+// 3(1)(a) and section 3(2) of Schedule 2?" The thing the candidate has to supply
+// is always substance — a rule, a condition, a consequence — never what a number
+// says. That is also how C&ED's own sample questions read: every stem names its
+// topic in words, and the section appears only in the answer key.
 
 var (
 	// a fine-grained citation: section, subsection, paragraph, division, item
 	fineRef = regexp.MustCompile(`(?i)(\bsections?\s+\d+[A-Z]?(\(\d+[A-Z]?\))*(\([a-z]+\))*(\([ivx]+\))*|\bs\.\s*\d+[A-Z]?(\(\d+[A-Z]?\))*(\([a-z]+\))*|\bsubsections?\s+\(\d+[A-Z]?\)|\bparagraphs?\s+\(?\d+(\.\d+)*[a-z]?\)?(\([a-z]+\))*|¶\s*\d+(\.\d+)*(\([a-z]+\))*|\bitems?\s+\d+|\bDivision\s+\d|\bclauses?\s+\d+|\bfootnote\s+\d+)`)
-	// a coarse one: Part, Schedule, Chapter, Appendix, Cap.
-	coarseRef = regexp.MustCompile(`(?i)(\bSchedule\s+\d|\bParts?\s+\d[A-Z]?|\bChapters?\s+(\d+|[IVX]+)\b|\bSection\s+[IVX]+\b|\bAppendix\s+[A-Z]\b|\bCap\.?\s*\d+)`)
-	docName   = regexp.MustCompile(`(?i)\b(AMLO|Ordinance|Guideline|Guidelines|Guidance Notes|Licensing Guide|UNATMO|DTROP|OSCO|WMD\(CPS\)O|circular|C&ED|CCE|MSO|MSOs|AML/CFT|Companies Ordinance|Banking Ordinance)\b`)
-	numPunct  = regexp.MustCompile(`[\d$,.%()]+`)
-	latinWord = regexp.MustCompile(`[A-Za-z][A-Za-z'\-/&]+`)
-	quoted    = regexp.MustCompile(`[“"‘「『][^”"’」』]{2,}[”"’」』]`)
-	// the Chinese fine-grained citation, and everything to strip before counting
-	// what a Chinese stem says
+	// the Chinese fine-grained citation
 	tcFineRef = regexp.MustCompile(`第[\dA-Za-z().]+(條|款|段|分部)`)
-	tcStrip   = regexp.MustCompile(`《[^》]*》|附表\s*\d+[A-Z]?|第\s*[\dA-Za-z().]+\s*(條|款|段|部|章|項|節|分部)|\([a-z]\)|\(\d+\)|[\dA-Za-z().]+`)
 )
 
-// stemStopWords are the words a stem can be made of without saying anything:
-// grammar, the names of the documents, and the vocabulary of citation itself.
-var stemStopWords = map[string]bool{}
-
-func init() {
-	for _, w := range strings.Fields(`the of to a an and or in on under which what is are does do how between with
-		for by its it that this these those be has have from as at not no one two both main body following
-		correct true false statements statement regarding about found set out where section sections paragraph
-		paragraphs part parts schedule chapter subject matter division structured character differ basic effect
-		apply applies applied purpose scope mean means say says state states provide provides govern governs
-		according should must may when if whether than more less only also any all such into out so their they
-		them itself who whom whose then there here some own same can cannot will would could per via versus vs
-		described describe describes refer refers referred contains contained cover covers covered deal deals
-		dealt addressed address addresses relationship relate relates each other another differ differs did done`) {
-		stemStopWords[w] = true
-	}
-}
-
-// substantiveWords is what remains of an English stem once its citations, the
-// document names and the words of asking are removed: the words that say what
-// the question is about.
-func substantiveWords(s string) []string {
-	s = fineRef.ReplaceAllString(s, " ")
-	s = coarseRef.ReplaceAllString(s, " ")
-	s = docName.ReplaceAllString(s, " ")
-	s = numPunct.ReplaceAllString(s, " ")
-	var out []string
-	for _, w := range latinWord.FindAllString(s, -1) {
-		if !stemStopWords[strings.ToLower(w)] {
-			out = append(out, w)
+// TestStemNamesTopic: C&ED's stems name a topic in words ("Regarding the
+// requirements of local management office…") and never cite a section or
+// paragraph; the citation belongs in the source line. An audit in September 2026
+// found 89% of stems citing one.
+func TestStemNamesTopic(t *testing.T) {
+	for _, q := range loadBank(t) {
+		if m := fineRef.FindString(q.En.Q); m != "" {
+			t.Errorf("%s (en): the stem cites %q; name the topic in words", q.ID, m)
 		}
-	}
-	return out
-}
-
-// hanLeft counts the Chinese characters of a stem once its citations are removed.
-func hanLeft(s string) int {
-	n := 0
-	for _, r := range tcStrip.ReplaceAllString(s, " ") {
-		if unicode.Is(unicode.Han, r) {
-			n++
-		}
-	}
-	return n
-}
-
-// TestStemStatesContent: a stem that cites a section, subsection or paragraph
-// must also say, in words, what that provision is about. "What does section 16
-// of Schedule 2 prohibit?" leaves nothing once the citation is removed; the
-// candidate can only answer it by knowing what number 16 carries. The floor is
-// three substantive English words, or eight Chinese characters. Structure items
-// citing only a Part or Schedule, and stems quoting a defined term, are exempt
-// for the reasons given above.
-func TestStemStatesContent(t *testing.T) {
-	bank := loadBank(t)
-	for _, q := range bank {
-		if q.combo() {
-			continue // the statements carry the content; the stem only names the passage
-		}
-		if fineRef.MatchString(q.En.Q) && !quoted.MatchString(q.En.Q) {
-			if words := substantiveWords(q.En.Q); len(words) < 3 {
-				t.Errorf("%s (en): the stem cites a provision but says nothing about it beyond %q; state what the provision provides: %q",
-					q.ID, words, q.En.Q)
-			}
-		}
-		if tcFineRef.MatchString(q.Tc.Q) && !quoted.MatchString(q.Tc.Q) {
-			if n := hanLeft(q.Tc.Q); n < 8 {
-				t.Errorf("%s (tc): the stem cites a provision but says only %d characters about it; state what the provision provides: %q",
-					q.ID, n, q.Tc.Q)
-			}
+		if m := tcFineRef.FindString(q.Tc.Q); m != "" {
+			t.Errorf("%s (tc): the stem cites %q; name the topic in words", q.ID, m)
 		}
 	}
 }
 
 // TestNoNumberInterrogatives bans the sentence shapes that make a number the
-// unknown: "What is the effect of section 5(1)?", "What does section 16
-// prohibit?", "How do sections 4 and 15 relate?", "To which transactions does
-// section 13 apply?". A stem that first states the rule and then asks a question
-// about it ("Section 3(1)(a) requires CDD before a business relationship. In
-// which situation may verification follow?") is the intended form and matches
-// none of these. The "what does section N" pattern is anchored to the start of
-// the stem for exactly that reason: a scenario followed by "what does section 10
-// require?" has already said what the question is about.
+// unknown: "What is the effect of section 5(1)?", "How do sections 4 and 15
+// relate?". They are checked in statements as well as stems: a statement that
+// says what a section number contains asks the same recall.
 func TestNoNumberInterrogatives(t *testing.T) {
-	bank := loadBank(t)
 	const ref = `(?:section|s\.|subsection|paragraph|¶|division)s?\s*[\d(]`
 	const tref = `第[\dA-Za-z().]+(?:條|款|段|分部)`
 	patterns := map[string][]*regexp.Regexp{
 		"en": {
 			regexp.MustCompile(`(?i)\bwhat\s+(?:is|are|was)\s+(?:the\s+)?(?:basic\s+|general\s+|main\s+|overall\s+)?(?:effect|purpose|subject\s+matter|scope|gist|thrust|significance|relationship|division|structure)\s+(?:of|between)\s+(?:the\s+)?` + ref),
-			regexp.MustCompile(`(?i)^\s*what\s+(?:[\w-]+\s+){0,2}(?:does|do)\s+(?:the\s+)?` + ref + `[^?]{0,40}\?$`),
 			regexp.MustCompile(`(?i)\bhow\s+(?:do|does|is|are)\s+(?:the\s+)?` + ref + `[^?]*\b(?:relate|differ|distinguish|interact|align|compare|structured|divided)`),
 			regexp.MustCompile(`(?i)\brelationship\s+between\s+(?:the\s+)?` + ref),
-			regexp.MustCompile(`(?i)^\s*to\s+(?:which|what|whom)\s+[^?]{0,30}\b(?:does|do)\s+` + ref + `[^?]{0,25}\bapply\s*\?$`),
 		},
 		"tc": {
 			regexp.MustCompile(tref + `(?:與|及|和)` + tref + `(?:在[^？]{0,8})?(?:有何關係|的關係|如何分工|有何分別|如何互動|如何配合|如何相互)`),
-			regexp.MustCompile(`^(?:《[^》]*》)?(?:附表\s*\d+)?` + tref + `(?:規定|禁止|訂明|要求|載有|涵蓋|授予|賦予|訂立)(?:甚麼|什麼|何事|哪些|哪一項)[^？]{0,6}？$`),
 			regexp.MustCompile(tref + `(?:的|之)(?:結構|主題|內容|基本效力|效力|目的|範圍)(?:為何|是甚麼|是什麼)`),
 		},
 	}
-	for _, q := range bank {
-		for lang, stem := range map[string]string{"en": q.En.Q, "tc": q.Tc.Q} {
-			for _, re := range patterns[lang] {
-				if m := re.FindString(stem); m != "" {
-					t.Errorf("%s (%s): the stem asks what a numbered provision says (%q); state the rule and ask about it instead",
-						q.ID, lang, m)
-					break
+	for _, q := range loadBank(t) {
+		for _, lang := range []string{"en", "tc"} {
+			l := q.side(lang)
+			for _, text := range append([]string{l.Q}, l.Statements...) {
+				for _, re := range patterns[lang] {
+					if m := re.FindString(text); m != "" {
+						t.Errorf("%s (%s): asks what a numbered provision says (%q); state the rule and ask about it instead",
+							q.ID, lang, m)
+						break
+					}
 				}
 			}
 		}
 	}
 }
 
-// TestNoNumberOnlyOptions: an option may carry a citation, but not be one. Four
-// options reading "Section 7 / Section 5 / Section 23 / Section 30" ask the
-// candidate which number a rule lives under, which is the recall the owner ruled
-// out; so is a keyed answer that is a bare list of sections. An option that pairs
-// a number with what it is ("section 13 of Schedule 2, a remittance other than
-// a wire transfer") is fine, and so are Part- and Schedule-level options, which
-// belong to the structure items kept on purpose.
-func TestNoNumberOnlyOptions(t *testing.T) {
-	bank := loadBank(t)
-	bare := regexp.MustCompile(`(?i)^\s*(?:in|under|at|by|see)?\s*(?:section|s\.|subsection|paragraph|¶|item|division)s?\s*[\d(]`)
-	isBare := func(o string) bool { return bare.MatchString(o) && len(substantiveWords(o)) <= 2 }
-	for _, q := range bank {
-		if q.combo() {
-			continue // the fixed option block is lists of statement numbers by design
-		}
-		n := 0
-		for _, o := range q.En.Options {
-			if isBare(o) {
-				n++
-			}
-		}
-		if n >= 2 {
-			t.Errorf("%s: %d of %d options are bare section numbers; say what each provision is, or ask about the rule",
-				q.ID, n, len(q.En.Options))
-		} else if q.Answer >= 0 && q.Answer < len(q.En.Options) && isBare(q.En.Options[q.Answer]) {
-			t.Errorf("%s: the keyed answer is a bare section number: %q", q.ID, q.En.Options[q.Answer])
-		}
-	}
-}
-
-// TestComboExplanationNamesFalseStatements: a combination item's explanation
-// says which statements are false, or that none is, and that must be the
-// answer the key gives. The key is a letter in a fixed block, so an explanation
-// that argues for a different set of statements is invisible until a candidate
-// who chose correctly reads that they were wrong. Reviews ran this as a
-// mechanical pre-check from September 2026; two traps it learnt are built in:
-// collect every "statement N is false", not just the first, and read "none of
-// them is false" as the all-true option.
+// TestComboExplanationNamesFalseStatements: a fixed item's explanation says
+// which statements are false, or that none is, and that must be the answer the
+// truth gives. An explanation that argues for a different set of statements is
+// invisible until a candidate who chose correctly reads that they were wrong.
+// Collect every "statement N is false", not just the first, and read "none of
+// them is false" as all true.
 func TestComboExplanationNamesFalseStatements(t *testing.T) {
 	falseStatements := map[string]*regexp.Regexp{
 		"en": regexp.MustCompile(`\b(?i:statements?)\s+(\d+(?:(?:\s*,\s*|\s+and\s+|\s*&\s*)(?:(?i:statement)\s+)?\d+)*)\s+(?:is|are)\s+(?:false|incorrect|wrong|untrue|not correct)`),
@@ -1286,16 +1238,18 @@ func TestComboExplanationNamesFalseStatements(t *testing.T) {
 		"tc": regexp.MustCompile(`(?:四|五)項陳述(?:均|全部|皆)(?:正確|屬實)|所有陳述(?:均|皆)正確|全部陳述(?:均|皆)?正確|各項陳述(?:均|皆)正確|(?:沒有|並無)不正確的陳述|陳述1、2、3\s*及\s*4\s*均正確|陳述1、2、3、4\s*及\s*5\s*均正確`),
 	}
 	digits := regexp.MustCompile(`\d+`)
-	trueSets := map[int][]string{
-		4: {"4", "3", "1", "2", ""},
-		5: {"4,5", "1,5", "2,5", "3,4", "1,2"},
-	}
 	for _, q := range loadBank(t) {
-		if !q.combo() {
+		if !q.Fixed || q.annotated() {
 			continue
 		}
-		want := trueSets[len(q.En.Statements)][q.Answer]
-		for lang, explain := range map[string]string{"en": q.En.Explain, "tc": q.Tc.Explain} {
+		var want []string
+		for i, v := range q.Truth {
+			if !v {
+				want = append(want, strconv.Itoa(i+1))
+			}
+		}
+		for _, lang := range []string{"en", "tc"} {
+			explain := q.side(lang).Explain
 			named := map[int]bool{}
 			for _, m := range falseStatements[lang].FindAllStringSubmatch(explain, -1) {
 				for _, d := range digits.FindAllString(m[1], -1) {
@@ -1304,7 +1258,7 @@ func TestComboExplanationNamesFalseStatements(t *testing.T) {
 				}
 			}
 			var got []string
-			for n := 1; n <= len(q.En.Statements); n++ {
+			for n := 1; n <= q.n(); n++ {
 				if named[n] {
 					got = append(got, strconv.Itoa(n))
 				}
@@ -1314,9 +1268,9 @@ func TestComboExplanationNamesFalseStatements(t *testing.T) {
 				t.Errorf("%s (%s): the explanation does not say which statements are false", q.ID, lang)
 			case len(got) > 0 && none:
 				t.Errorf("%s (%s): the explanation says both that statements %s are false and that none is", q.ID, lang, strings.Join(got, ", "))
-			case strings.Join(got, ",") != want:
-				t.Errorf("%s (%s): the explanation calls statements [%s] false, but the key makes [%s] false",
-					q.ID, lang, strings.Join(got, ","), want)
+			case strings.Join(got, ",") != strings.Join(want, ","):
+				t.Errorf("%s (%s): the explanation calls statements [%s] false, but the truth makes [%s] false",
+					q.ID, lang, strings.Join(got, ","), strings.Join(want, ","))
 			}
 		}
 	}

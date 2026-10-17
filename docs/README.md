@@ -51,9 +51,9 @@ date from 24 September 2026; earlier commits number the documents differently.
 The Traditional Chinese editions in `TC/` carry the same numbers.
 
 `text/` holds the text of every document in both languages, extracted by
-[`extract_text.py`](extract_text.py). `quotes.json` holds, for every question in
+[`extract_text.py`](extract_text.py). `quotes.json` holds, for every statement in
 the bank and each language, the passage of a cited document that decides its
-answer, copied word for word from that text. The tests check each quote against
+truth, copied word for word from that text. The tests check each quote against
 the text, and the text against the documents here, so after adding or replacing
 a document run `python docs/extract_text.py` (it needs PyMuPDF).
 
@@ -68,20 +68,18 @@ the per-document figures can sum above the module total.
 
 | Module | Source documents (questions citing each) | Questions |
 |---|---|---|
-| **1** General knowledge on AML/CFT and counter-proliferation financing | **02** ch. 1, 6–7, glossary (93) · **10** (28) · **19** (15) · **11** (6) · **14** (3) · **20** (3) · **15** (1) · **17** (1) · **21** (1) · **22** (1) | 123 |
-| **2** Parts 1–7 of the AMLO | **10** Parts 1–7 (302) · **03** (3) · **02** ch. 1 (1) · **18** (1) | 303 |
-| **3** Schedules to the AMLO | **10** Sch. 2 (172), Sch. 4 (39), Sch. 1 (32), Sch. 3 (7), Part 6 (1), Part 1 (1) · **02** ch. 4, 10–11 (17) | 248 |
-| **4** Guidelines promulgated by the C&ED | **03** (171) · **01** (33) · **07** (26) · **05** (22) · **10** (22) · **06** (17) · **08** (15) · **04** (8) · **09** (8) · **16** (5) · **19** (1) · **22** (1) | 283 |
-| **5** Systems and controls (i): institutional governance and strategy | **02** ch. 2–3 (91) · **10** (4) · **07** (3) · **03** (2) · **05** (1) · **12** (1) · **19** (1) | 96 |
-| **6** Systems and controls (ii): AML/CFT control areas | **02** ch. 4–6, 10–11, App. A, glossary (301) · **10** (28) · **14** (14) · **13** (12) · **22** (9) · **12** (6) | 340 |
-| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** ch. 1, 3, 7–9 (153) · **10** (5) · **22** (1) | 154 |
+| **1** General knowledge on AML/CFT and counter-proliferation financing | **01** (1) · **02** (18) · **10** (2) · **11** (2) · **14** (1) · **15** (1) · **17** (1) · **18** (1) · **19** (2) · **20** (1) · **21** (1) | 26 |
+| **2** Parts 1–7 of the AMLO | **10** (45) · **23** (1) | 45 |
+| **3** Schedules to the AMLO | **02** (2) · **10** (41) · **23** (1) | 41 |
+| **4** Guidelines promulgated by the C&ED | **01** (9) · **03** (22) · **04** (1) · **05** (4) · **06** (3) · **07** (4) · **08** (4) · **09** (4) · **16** (1) · **23** (1) | 45 |
+| **5** Systems and controls (i): institutional governance and strategy | **02** (54) · **07** (1) · **10** (1) · **12** (1) · **23** (1) | 55 |
+| **6** Systems and controls (ii): AML/CFT control areas | **02** (38) · **12** (1) · **13** (4) · **14** (5) · **22** (15) · **23** (1) | 45 |
+| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** (40) · **22** (1) · **23** (2) | 40 |
 
-One document feeds no question of its own: **23**, by design — it is the format
-template, described just below. **22**, the FAQ page, feeds twelve questions: eleven
-from its Guideline series, nine in module 6 and one each in modules 1 and 7, and
-one in module 4 from its licence-application series. Its other Guideline
-questions, each naming the paragraph it elaborates, are the obvious
-place to add more.
+The current bank includes all seven samples from **23**, plus the sample in
+**01** ¶7.1. **22**, the FAQ, is cited by 16 questions: fifteen in module 6
+and one in module 7. The figures above describe the active bank, excluding
+retired questions preserved in Git history.
 
 Two of these are worth singling out. **23** is the only set of sample questions
 C&ED has ever published, and it settles what the paper looks like: seven items,
