@@ -4619,90 +4619,6 @@
    }
   ]
  },
- "m1-140": {
-  "en": [
-   {
-    "doc": "22",
-    "text": "The Ordinance implements Recommendation 32 of the Financial Action Task Force to strengthen the prevention of money laundering and terrorist financing"
-   },
-   {
-    "doc": "22",
-    "text": "Declaration forms are available at the Red Channel of the Customs Arrival Hall and on the website of the C&ED"
-   },
-   {
-    "doc": "43",
-    "text": "Travellers may use the E-form to pre-fill information of the currency and bearer negotiable instruments (“CBNIs”) with a total value of more than HKD120,000 (or its equivalent in foreign currencies) prior to their arrival in/departure from Hong Kong to obtain a QR code for making a declaration"
-   },
-   {
-    "doc": "43",
-    "text": "C&ED kindly invite the MSOs to use the E-form, which may reduce the clearance time on the spot"
-   },
-   {
-    "doc": "43",
-    "text": "Present the QR code to a Customs officer on the spot to make the declaration"
-   }
-  ],
-  "tc": [
-   {
-    "doc": "22",
-    "text": "《條例》落實「財務行動特別組織」第32項建議，以加強防止透過跨境運送貨幣及不記名可轉讓票據（現金類物品）進行洗錢及恐怖分子資金籌集活動"
-   },
-   {
-    "doc": "22",
-    "text": "有關申報表可於海關入境大堂的紅通道索取，並可於海關網站下載"
-   },
-   {
-    "doc": "43",
-    "text": "旅客可在抵達 / 離開香港前，使用電子表格預先填寫總價值高於12 萬港元（或等值外幣）的貨幣及不記名可轉讓票據（「現金類物品」）的資料，以獲取二維碼作申報"
-   },
-   {
-    "doc": "43",
-    "text": "現誠邀各金錢服務經營者使用電子表格，以節省現場清關時間"
-   },
-   {
-    "doc": "43",
-    "text": "現場向海關人員出示二維碼以完成申報"
-   }
-  ]
- },
- "m1-141": {
-  "en": [
-   {
-    "doc": "42",
-    "text": "the upward trend of fraudulent websites and bogus advertisement on social media platforms impersonating MSOs’ identities to carry out illegal money service operations or fraudulent activities"
-   },
-   {
-    "doc": "42",
-    "text": "MSOs are reminded to take appropriate security measures to protect personal data and stay vigilant of any websites or social media platforms getting hold of their business information without their permission"
-   },
-   {
-    "doc": "42",
-    "text": "In case of encountering suspected fraudulent websites related to the MSOs’ own business identity, they are recommended to notify the public"
-   },
-   {
-    "doc": "42",
-    "text": "report the case to the C&ED and the Hong Kong Police force"
-   }
-  ],
-  "tc": [
-   {
-    "doc": "42",
-    "text": "越來越多欺詐網站和偽造社交媒體平台廣告仿冒金錢服務經營者，以經營非法金錢服務業務或進行欺詐"
-   },
-   {
-    "doc": "42",
-    "text": "金錢服務經營者應採取適當的保安措施以保護個人資料，並對未經其批准取得其業務資料的任何網站及社交媒體平台保持警覺"
-   },
-   {
-    "doc": "42",
-    "text": "如遇到與其業務身分有關的疑似欺詐網站，建議金錢服務經營者向公眾發出通知"
-   },
-   {
-    "doc": "42",
-    "text": "並向海關及香港警務處報案"
-   }
-  ]
- },
  "m3-262": {
   "en": [
    {
@@ -15491,60 +15407,6 @@
    }
   ]
  },
- "m1-181": {
-  "en": [
-   {
-    "doc": "45",
-    "text": "The revisions to FATF’s Recommendation 16, agreed in June 2025, will keep pace with changes in the payment landscape"
-   },
-   {
-    "doc": "45",
-    "text": "by increasing transparency of information that accompanies cross-border payments and requiring the introduction of tools to protect against fraud and error"
-   },
-   {
-    "doc": "45",
-    "text": "All jurisdictions around the world are expected to be ready to implement the changes by the end of 2030"
-   },
-   {
-    "doc": "45",
-    "text": "How Recommendation 16 applies to newer payment methods, such as digital wallets and mobile money"
-   },
-   {
-    "doc": "45",
-    "text": "Implementing Recommendation 16 and meeting data protection and privacy requirements together."
-   },
-   {
-    "doc": "45",
-    "text": "Detecting and preventing misdirected payments, including by leveraging the three options for alignment checks foreseen in the revised Standard"
-   }
-  ],
-  "tc": [
-   {
-    "doc": "45",
-    "text": "FATF於2025年6月通過的第16項建議的修訂中，提及將與支付格局的變化同步"
-   },
-   {
-    "doc": "45",
-    "text": "並透過提升跨境支付資訊的透明度，及要求引入防止詐騙及錯誤的工具"
-   },
-   {
-    "doc": "45",
-    "text": "所有的司法區預計需於2030年底前實施相關的變更"
-   },
-   {
-    "doc": "45",
-    "text": "第16項建議如何適用於新興支付方式，如電子錢包與移動支付"
-   },
-   {
-    "doc": "45",
-    "text": "落實第16項建議並同時符合資料保護及隱私的要求。"
-   },
-   {
-    "doc": "45",
-    "text": "偵測及防止錯誤支付，包含善用修訂標準中預期的三種校正檢查選項"
-   }
-  ]
- },
  "m3-323": {
   "en": [
    {
@@ -16354,6 +16216,6568 @@
    {
     "doc": "15",
     "text": "請填寫你公司在香港經營金錢服務業務的估算資產總額（截止此申報表提交日期，以港元計算）"
+   }
+  ]
+ },
+ "m2-366": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "If the Commissioner refuses to grant a licence under this section, the Commissioner must inform the applicant by notice in writing."
+   },
+   {
+    "doc": "04",
+    "text": "If the Commissioner refuses to renew a licence under this section, the Commissioner must inform the licensee by notice in writing."
+   },
+   {
+    "doc": "04",
+    "text": "a statement of the reasons for the decision; and (b) a statement that the licensee or applicant, as the case requires, may apply to the Review Tribunal for a review of the decision."
+   },
+   {
+    "doc": "04",
+    "text": "A notice under subsection (2) must include— (a) a statement of the reasons for the decision;"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "關長如拒絕根據本條批給牌照，須藉書面通知告知有關申請人。"
+   },
+   {
+    "doc": "04",
+    "text": "關長如拒絕根據本條將牌照續期，須藉書面通知告知有關持牌人。"
+   },
+   {
+    "doc": "04",
+    "text": "作出該決定的理由的說明；及 (b) 有關持牌人或申請人(視乎情況所需而定)可向覆核審裁處申請覆核該決定的提示。"
+   },
+   {
+    "doc": "04",
+    "text": "第(2)款所指的通知須載有—— (a) 作出該決定的理由的說明；"
+   }
+  ]
+ },
+ "m2-367": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "the address of every premises at which the licensee may operate a money service"
+   },
+   {
+    "doc": "04",
+    "text": "in any other case, the correspondence address of the licensee"
+   },
+   {
+    "doc": "04",
+    "text": "be endorsed with the conditions imposed or amended under section 30, 31 or 32"
+   },
+   {
+    "doc": "04",
+    "text": "specify the period for which the licence is valid."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "有關持牌人可經營金錢服務所在的每一個處所的地址"
+   },
+   {
+    "doc": "04",
+    "text": "如屬任何其他情況)有關持牌人的通訊地址"
+   },
+   {
+    "doc": "04",
+    "text": "批註有根據第30、31或32條施加或修改的條件"
+   },
+   {
+    "doc": "04",
+    "text": "指明牌照的有效期。"
+   }
+  ]
+ },
+ "m2-368": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "If the Commissioner refuses to give an approval under this section, the Commissioner must inform the licensee by notice in writing."
+   },
+   {
+    "doc": "04",
+    "text": "a statement of the reasons for the decision"
+   },
+   {
+    "doc": "04",
+    "text": "a statement that the licensee may apply to the Review Tribunal for a review of the decision."
+   },
+   {
+    "doc": "04",
+    "text": "a statement that the licensee may apply to the Review Tribunal for a review of the decision."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "關長如拒絕根據本條給予批准，須藉書面通知告知有關持牌人。"
+   },
+   {
+    "doc": "04",
+    "text": "作出該決定的理由的說明"
+   },
+   {
+    "doc": "04",
+    "text": "提示該持牌人可向覆核審裁處申請覆核該決定。"
+   },
+   {
+    "doc": "04",
+    "text": "提示該持牌人可向覆核審裁處申請覆核該決定。"
+   }
+  ]
+ },
+ "m2-369": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "the Commissioner must inform the licensee of the decision by notice in writing"
+   },
+   {
+    "doc": "04",
+    "text": "in so far as applicable, the terms in which the licensee is reprimanded under the decision"
+   },
+   {
+    "doc": "04",
+    "text": "in so far as applicable, the action that the licensee is required to take under the decision"
+   },
+   {
+    "doc": "04",
+    "text": "the amount of any pecuniary penalty imposed under the decision and, if the penalty is to be paid at a time other than that specified in section 43(3)(a), the time within which it is required to be paid"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "須藉書面通知將有關決定告知該持牌人"
+   },
+   {
+    "doc": "04",
+    "text": "在適用範圍內)根據該決定對有關持牌人的譴責的內容"
+   },
+   {
+    "doc": "04",
+    "text": "在適用範圍內)該持牌人須根據該決定採取的行動"
+   },
+   {
+    "doc": "04",
+    "text": "根據該決定判處的罰款金額及(如須繳付有關罰款的時間並非第43(3)(a)條所指定者)繳付罰款的時限"
+   }
+  ]
+ },
+ "m2-370": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "register an order to pay a pecuniary penalty made under subsection (1) or (4) in the Court of First Instance"
+   },
+   {
+    "doc": "04",
+    "text": "a notice in writing requesting that the order be registered, together with the original and a copy of the order"
+   },
+   {
+    "doc": "04",
+    "text": "an order of the Court of First Instance made within the civil jurisdiction of the Court of First Instance for the payment of money"
+   },
+   {
+    "doc": "04",
+    "text": "the Commissioner may disclose to the public details of the decision, the reasons for which the decision was made, and any material facts relating to the case"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "在原訟法庭登記根據第(1)或(4)款作出的繳付罰款命令"
+   },
+   {
+    "doc": "04",
+    "text": "要求登記有關命令的書面通知，以及該命令的正本及一份複本"
+   },
+   {
+    "doc": "04",
+    "text": "視為原訟法庭在其民事司法管轄權範圍內作出的繳付款項命令"
+   },
+   {
+    "doc": "04",
+    "text": "可向公眾披露其決定的細節、作出該決定的理由以及關於該個案的任何重要事實"
+   }
+  ]
+ },
+ "m2-371": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "after the applicant and the specified authority have been given a reasonable opportunity to be heard"
+   },
+   {
+    "doc": "04",
+    "text": "if it is satisfied that there is a good cause for granting the extension"
+   },
+   {
+    "doc": "04",
+    "text": "A person who makes an application for review or an application under section 59(2) may, at any time before the review or the application is determined by the Tribunal, apply to the Tribunal for a stay of execution"
+   },
+   {
+    "doc": "04",
+    "text": "The Tribunal may by order grant the stay subject to any condition as to costs, payment of money into the Tribunal or other matters that the Tribunal considers appropriate."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "申請人及指明當局均已獲給予合理的陳詞機會"
+   },
+   {
+    "doc": "04",
+    "text": "審裁處信納有良好因由批給延展"
+   },
+   {
+    "doc": "04",
+    "text": "提出覆核申請或根據第59(2)條提出申請的人，可在審裁處就該覆核或申請作出裁定前，隨時向審裁處申請暫緩執行"
+   },
+   {
+    "doc": "04",
+    "text": "審裁處可藉命令暫緩執行有關決定，並可在訟費、繳存款項於審裁處或其他事宜方面，定出它認為適當的條件"
+   }
+  ]
+ },
+ "m2-372": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "An order made by the Tribunal must be recorded in writing and be signed by the chairperson of the Tribunal."
+   },
+   {
+    "doc": "04",
+    "text": "in the absence of evidence to the contrary, presumed to be an order of the Tribunal duly made and signed"
+   },
+   {
+    "doc": "04",
+    "text": "without proof of its making, or proof of signature, or proof that the person signing the order was in fact the chairperson of the Tribunal"
+   },
+   {
+    "doc": "04",
+    "text": "without proof of its making, or proof of signature, or proof that the person signing the order was in fact the chairperson of the Tribunal"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "審裁處命令須藉書面記錄，並由審裁處主席簽署。"
+   },
+   {
+    "doc": "04",
+    "text": "在沒有相反證據的情況下，任何文件如看來是由審裁處主席簽署的審裁處命令，須被推定為妥為作出並簽署的審裁處命令"
+   },
+   {
+    "doc": "04",
+    "text": "而無需提出關於作出或簽署該命令的證明，亦無需證明簽署該命令的人確是審裁處主席"
+   },
+   {
+    "doc": "04",
+    "text": "而無需提出關於作出或簽署該命令的證明，亦無需證明簽署該命令的人確是審裁處主席"
+   }
+  ]
+ },
+ "m2-373": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "by notice in writing signed by the chairperson of the Tribunal, require a person to attend before it at any sitting and to give evidence"
+   },
+   {
+    "doc": "04",
+    "text": "examine or cause to be examined on oath or otherwise a person attending before it and require the person to answer truthfully any question"
+   },
+   {
+    "doc": "04",
+    "text": "order a witness to provide evidence for the purpose of the review by affidavit"
+   },
+   {
+    "doc": "04",
+    "text": "stay any of the proceedings in the review on any grounds and on any terms and conditions that it considers appropriate having regard to the interests of justice"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "藉審裁處主席簽署的書面通知，要求某人出席聆訊、提供證據及交出由該人管有或控制並與該覆核的標的有關的任何物品、紀錄或文件"
+   },
+   {
+    "doc": "04",
+    "text": "訊問或安排訊問任何出席聆訊的已宣誓或未經宣誓的人"
+   },
+   {
+    "doc": "04",
+    "text": "命令證人為該覆核的目的以誓章提供證據"
+   },
+   {
+    "doc": "04",
+    "text": "在顧及公正原則後，基於審裁處認為適當的理由及按審裁處認為適當的條款及條件，擱置該覆核的任何程序"
+   }
+  ]
+ },
+ "m2-374": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "having been required by the Tribunal under subsection (1) to attend before the Tribunal, leaves the place where the person’s attendance is so required without the permission of the Tribunal"
+   },
+   {
+    "doc": "04",
+    "text": "hinders or deters any person from attending before the Tribunal, giving evidence or producing any article, record or document, for the purpose of a review"
+   },
+   {
+    "doc": "04",
+    "text": "threatens, insults or causes any loss to be suffered by any person who has attended before the Tribunal, on account of that attendance"
+   },
+   {
+    "doc": "04",
+    "text": "A person is not excused from complying with an order, notice, prohibition or requirement of the Tribunal made, given or imposed under subsection (1) only on the ground that to do so might tend to incriminate the person."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "按審裁處根據第(1)款作出的要求於某地方出席審裁處聆訊後，未經審裁處准許而離開該地方"
+   },
+   {
+    "doc": "04",
+    "text": "阻礙任何人為某覆核的目的出席審裁處聆訊、提供證據或交出任何物品、紀錄或文件，或阻嚇任何人為該目的作出該等作為"
+   },
+   {
+    "doc": "04",
+    "text": "因任何人出席審裁處聆訊而威脅或侮辱該人，或令該人蒙受損失"
+   },
+   {
+    "doc": "04",
+    "text": "任何人不得僅以遵從審裁處根據第(1)款作出或施加的命令、通知、禁令或要求可能會導致該人入罪為理由，而獲豁免遵從該命令、通知、禁令或要求。"
+   }
+  ]
+ },
+ "m2-375": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "any person whose attendance, whether or not as a witness, has been necessary or required for the purposes of the review"
+   },
+   {
+    "doc": "04",
+    "text": "any sum that it considers appropriate in respect of the costs reasonably incurred by the person, or the party, in relation to the review and the application for review in question"
+   },
+   {
+    "doc": "04",
+    "text": "any party to the review that the Tribunal considers appropriate"
+   },
+   {
+    "doc": "04",
+    "text": "Costs awarded under subsection (1) must be paid by, and are recoverable as a civil debt from"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "為覆核的目的而需要或被要求(無論是否以證人身分)出席的人"
+   },
+   {
+    "doc": "04",
+    "text": "就該覆核及該覆核的申請而合理地招致的訟費，藉命令向該等人士判給一筆審裁處認為數額適當的款項"
+   },
+   {
+    "doc": "04",
+    "text": "該訟費須由審裁處認為適當的有關覆核的某一方支付"
+   },
+   {
+    "doc": "04",
+    "text": "並可作為民事債項予以追討"
+   }
+  ]
+ },
+ "m2-376": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "If a sitting, or any part of a sitting, of the Tribunal relating to a review is held in private, the Tribunal may by order prohibit the publication or disclosure of"
+   },
+   {
+    "doc": "04",
+    "text": "its determination, or the reasons for the determination, referred to in subsection (1)(a), or any part of the determination or reasons"
+   },
+   {
+    "doc": "04",
+    "text": "an order, or the reasons for an order, referred to in subsection (1)(b), or any part of such an order or any part of the reasons for such an order"
+   },
+   {
+    "doc": "04",
+    "text": "any order made under section 65 in relation to the review and the reasons for the order"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "審裁處如就覆核閉門進行聆訊或其任何部分，可藉命令禁止發表或披露"
+   },
+   {
+    "doc": "04",
+    "text": "其裁定或作出該裁定的理由，或該裁定或理由的任何部分"
+   },
+   {
+    "doc": "04",
+    "text": "第(1)(b)款提述的其命令或作出該命令的理由"
+   },
+   {
+    "doc": "04",
+    "text": "它根據第65條就該覆核作出的任何命令，以及作出該命令的理由"
+   }
+  ]
+ },
+ "m2-377": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "criminal proceedings have previously been instituted against the person under section 61(2) in respect of the same conduct; and (ii) those criminal proceedings remain pending"
+   },
+   {
+    "doc": "04",
+    "text": "because of the previous institution of those criminal proceedings, no criminal proceedings may again be lawfully instituted against the person under that section in respect of the same conduct"
+   },
+   {
+    "doc": "04",
+    "text": "no criminal proceedings may be instituted against a person under section 61(2) in respect of any conduct if"
+   },
+   {
+    "doc": "04",
+    "text": "in respect of the same conduct"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "刑事法律程序仍待決"
+   },
+   {
+    "doc": "04",
+    "text": "由於過往提起該刑事法律程序，因此不得合法地根據該條就同一行為而再次針對該人提起刑事法律程序"
+   },
+   {
+    "doc": "04",
+    "text": "在以下情況下，不得根據第61(2)條就某行為而針對某人提起刑事法律程序"
+   },
+   {
+    "doc": "04",
+    "text": "就同一行為以該人犯藐視罪而懲罰該人"
+   }
+  ]
+ },
+ "m2-378": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "particulars that are provided in connection with a licensee’s application under section 30 or 31 include particulars notified under that subsection"
+   },
+   {
+    "doc": "04",
+    "text": "amend any relevant particulars in the register if necessary"
+   },
+   {
+    "doc": "04",
+    "text": "If a licence is returned for cancellation under this section, no licence fee paid in respect of the grant or renewal of the licence is to be refunded."
+   },
+   {
+    "doc": "04",
+    "text": "A licensee who, without reasonable excuse, contravenes subsection (1) commits an offence and is liable on conviction to a fine at level 5."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "在與持牌人根據第30或31條提出的申請有關連的情況下提供的詳情，包括根據該款具報的詳情"
+   },
+   {
+    "doc": "04",
+    "text": "盡快在有需要的情況下修改登記冊中的有關詳情"
+   },
+   {
+    "doc": "04",
+    "text": "如有牌照根據本條交回以作取消，已就該牌照的批給或續期繳付的牌照費不予退回。"
+   },
+   {
+    "doc": "04",
+    "text": "任何持牌人無合理辯解而違反第(1)款，即屬犯罪，一經定罪，可處第5級罰款。"
+   }
+  ]
+ },
+ "m2-379": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "The Commissioner must, before he or she first exercises the power to impose a pecuniary penalty referred to in section 43(2)(c), publish in the Gazette"
+   },
+   {
+    "doc": "04",
+    "text": "publish in the Gazette and in any other manner that the Commissioner considers appropriate, guidelines"
+   },
+   {
+    "doc": "04",
+    "text": "the Commissioner must have regard to the guidelines published under subsection (1)"
+   },
+   {
+    "doc": "04",
+    "text": "A relevant authority must, before it first exercises its power to impose a pecuniary penalty referred to in section 21(2)(c)"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "關長在首次行使第43(2)(c)條提述的權力施加罰款前，須在憲報刊登"
+   },
+   {
+    "doc": "04",
+    "text": "須在憲報刊登並以其認為適當的其他方式公布指引"
+   },
+   {
+    "doc": "04",
+    "text": "須顧及根據第(1)款刊登及公布的指引"
+   },
+   {
+    "doc": "04",
+    "text": "有關當局在首次行使第21(2)(c)條提述的權力施加罰款前"
+   }
+  ]
+ },
+ "m3-325": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "the former politically exposed person does not present a high risk of money laundering or terrorist financing based on an appropriate risk assessment"
+   },
+   {
+    "doc": "04",
+    "text": "the former politically exposed person does not present a high risk of money laundering or terrorist financing based on an appropriate risk assessment"
+   },
+   {
+    "doc": "04",
+    "text": "the customer or the beneficial owner of the customer is a former politically exposed person"
+   },
+   {
+    "doc": "04",
+    "text": "the customer or the beneficial owner of the customer is a former politically exposed person"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "基於適當風險評估，該前政治人物不會造成洗錢或恐怖分子資金籌集方面的高度風險"
+   },
+   {
+    "doc": "04",
+    "text": "基於適當風險評估，該前政治人物不會造成洗錢或恐怖分子資金籌集方面的高度風險"
+   },
+   {
+    "doc": "04",
+    "text": "該機構或該人士的某客户或某客户的實益擁有人，屬某前政治人物"
+   },
+   {
+    "doc": "04",
+    "text": "該機構或該人士的某客户或某客户的實益擁有人，屬某前政治人物"
+   }
+  ]
+ },
+ "m3-326": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "Records required to be kept under subsection (1)(b) for an occasional transaction that is carried out in any of the circumstances set out in section 3(1)(b), (1A) and (1B) of this Schedule must be kept for a period of at least 5 years beginning on the date on which the occasional transaction is completed."
+   },
+   {
+    "doc": "04",
+    "text": "Records required to be kept under subsection (1)(b) for an occasional transaction that is carried out in any of the circumstances set out in section 3(1)(b), (1A) and (1B) of this Schedule must be kept for a period of at least 5 years beginning on the date on which the occasional transaction is completed."
+   },
+   {
+    "doc": "04",
+    "text": "Records required to be kept under subsection (1)(a) must be kept for a period of at least 5 years beginning on the date on which the transaction is completed, regardless of whether the business relationship ends during that period."
+   },
+   {
+    "doc": "04",
+    "text": "Records required to be kept under subsection (1)(b) must be kept throughout the continuance of the business relationship with the customer and for a period of at least 5 years beginning on the date on which the business relationship ends."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "第(1)(b)款規定須為非經常交易(在本附表第3(1)(b)、(1A)及(1B)條所列的任何情況下進行)備存的紀錄，須在自有關非經常交易完成之日起計的至少5年期間內備存。"
+   },
+   {
+    "doc": "04",
+    "text": "第(1)(b)款規定須為非經常交易(在本附表第3(1)(b)、(1A)及(1B)條所列的任何情況下進行)備存的紀錄，須在自有關非經常交易完成之日起計的至少5年期間內備存。"
+   },
+   {
+    "doc": "04",
+    "text": "第(1)(a)款規定須備存的紀錄，須在自有關交易完成的日期起計的至少5年期間內備存，不論有關的業務關係是否在該段期間內終止亦然。"
+   },
+   {
+    "doc": "04",
+    "text": "第(1)(b)款規定須備存的紀錄，須在與有關客戶的業務關係繼續期間備存，及在自有關的業務關係終止的日期起計的至少5年期間內備存。"
+   }
+  ]
+ },
+ "m3-327": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "Nothing in this section prevents a financial institution or a DNFBP from carrying out a customer due diligence measure by an agent but such a financial institution or a DNFBP remains liable under this Ordinance for a failure to carry out that customer due diligence measure."
+   },
+   {
+    "doc": "04",
+    "text": "Nothing in this section prevents a financial institution or a DNFBP from carrying out a customer due diligence measure by an agent but such a financial institution or a DNFBP remains liable under this Ordinance for a failure to carry out that customer due diligence measure."
+   },
+   {
+    "doc": "04",
+    "text": "the intermediary consents in writing to be the financial institution’s or the DNFBP’s intermediary"
+   },
+   {
+    "doc": "04",
+    "text": "remains liable under this Ordinance for a failure to carry out that customer due diligence measure"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "本條並不阻止金融機構或指定非金融業人士藉着某代理人執行客户盡職審查措施，但該機構或該人士仍然根據本條例，就未有執行該客戶盡職審查措施負有法律責任。"
+   },
+   {
+    "doc": "04",
+    "text": "本條並不阻止金融機構或指定非金融業人士藉着某代理人執行客户盡職審查措施，但該機構或該人士仍然根據本條例，就未有執行該客戶盡職審查措施負有法律責任。"
+   },
+   {
+    "doc": "04",
+    "text": "該中介人藉書面同意擔任該機構或該人士的中介人"
+   },
+   {
+    "doc": "04",
+    "text": "藉著中介人執行客戶盡職審查措施的金融機構或指定非金融業人士，仍然根據本條例就未有執行客戶盡職審查措施負有法律責任。"
+   }
+  ]
+ },
+ "m3-328": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "take additional measures to effectively mitigate the risk of money laundering and terrorist financing faced by the branch or subsidiary undertaking as a result of its inability to comply with the requirement"
+   },
+   {
+    "doc": "04",
+    "text": "take additional measures to effectively mitigate the risk of money laundering and terrorist financing faced by the branch or subsidiary undertaking as a result of its inability to comply with the requirement"
+   },
+   {
+    "doc": "04",
+    "text": "take additional measures to effectively mitigate the risk of money laundering and terrorist financing faced by the branch or subsidiary undertaking as a result of its inability to comply with the requirement"
+   },
+   {
+    "doc": "04",
+    "text": "to the extent permitted by the law of that place, requirements similar to those imposed under Parts 2 and 3 of this Schedule"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "採取增補措施，以有效地減低該分行或附屬企業因不能遵從該等規定而面對的洗錢及恐怖分子資金籌集風險"
+   },
+   {
+    "doc": "04",
+    "text": "採取增補措施，以有效地減低該分行或附屬企業因不能遵從該等規定而面對的洗錢及恐怖分子資金籌集風險"
+   },
+   {
+    "doc": "04",
+    "text": "採取增補措施，以有效地減低該分行或附屬企業因不能遵從該等規定而面對的洗錢及恐怖分子資金籌集風險"
+   },
+   {
+    "doc": "04",
+    "text": "確保與根據本附表第2及3部施加的適用於該機構的規定相類似的規定在該地方法律准許的範圍內獲遵守"
+   }
+  ]
+ },
+ "m3-329": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "a beneficiary or a class of beneficiaries of the trust entitled to a vested interest in the trust property, whether the interest is in possession or in remainder or reversion and whether it is defeasible or not"
+   },
+   {
+    "doc": "04",
+    "text": "a beneficiary or a class of beneficiaries of the trust entitled to a vested interest in the trust property, whether the interest is in possession or in remainder or reversion and whether it is defeasible or not"
+   },
+   {
+    "doc": "04",
+    "text": "a beneficiary or a class of beneficiaries of the trust entitled to a vested interest in the trust property, whether the interest is in possession or in remainder or reversion and whether it is defeasible or not"
+   },
+   {
+    "doc": "04",
+    "text": "a beneficiary or a class of beneficiaries of the trust entitled to a vested interest in the trust property, whether the interest is in possession or in remainder or reversion and whether it is defeasible or not"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "有權享有信託財產的既得權益的受益人或某類別受益人，而不論該受益人是享有該權益的管有權、剩餘權或復歸權，亦不論該權益是否可予廢除"
+   },
+   {
+    "doc": "04",
+    "text": "有權享有信託財產的既得權益的受益人或某類別受益人，而不論該受益人是享有該權益的管有權、剩餘權或復歸權，亦不論該權益是否可予廢除"
+   },
+   {
+    "doc": "04",
+    "text": "有權享有信託財產的既得權益的受益人或某類別受益人，而不論該受益人是享有該權益的管有權、剩餘權或復歸權，亦不論該權益是否可予廢除"
+   },
+   {
+    "doc": "04",
+    "text": "有權享有信託財產的既得權益的受益人或某類別受益人，而不論該受益人是享有該權益的管有權、剩餘權或復歸權，亦不論該權益是否可予廢除"
+   }
+  ]
+ },
+ "m3-330": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "the card is not used as a payment system to effect a person-to-person transfer"
+   },
+   {
+    "doc": "04",
+    "text": "withdrawing money from a bank account through an automated teller machine with a debit card"
+   },
+   {
+    "doc": "04",
+    "text": "the number (or equivalent unique identifier) of the credit card, debit card or prepaid card is included in the message or payment form accompanying the transfer"
+   },
+   {
+    "doc": "04",
+    "text": "obtaining a cash advance on a credit card"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "該信用咭、扣賬咭或預付咭，並非用作一項支付系統以執行人對人之間轉賬"
+   },
+   {
+    "doc": "04",
+    "text": "以扣賬咭經自動櫃員機從銀行户口提取金錢"
+   },
+   {
+    "doc": "04",
+    "text": "該信用咭、扣賬咭或預付咭的號碼(或等同的獨特標識)，已包括在附隨該項轉賬的信息或付款表格內"
+   },
+   {
+    "doc": "04",
+    "text": "以信用咭取得現金墊支"
+   }
+  ]
+ },
+ "m3-331": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "a material change occurs in the way in which the customer’s account is operated"
+   },
+   {
+    "doc": "04",
+    "text": "a material change occurs in the way in which the customer’s account is operated"
+   },
+   {
+    "doc": "04",
+    "text": "in addition to the situations specified in section 3(1)(d) and (e) of this Schedule"
+   },
+   {
+    "doc": "04",
+    "text": "must terminate the business relationship with the customer as soon as reasonably practicable"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "該客戶的戶口的操作模式出現相當程度的轉變"
+   },
+   {
+    "doc": "04",
+    "text": "該客戶的戶口的操作模式出現相當程度的轉變"
+   },
+   {
+    "doc": "04",
+    "text": "除在本附表第3(1)(d)及(e)條指明的情況外"
+   },
+   {
+    "doc": "04",
+    "text": "須在合理地切實可行的範圍內，盡快結束該機構或該人士與有關客戶的業務關係"
+   }
+  ]
+ },
+ "m3-332": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "where an occasional transaction is to be carried out, take additional measures to mitigate the risk of money laundering or terrorist financing involved"
+   },
+   {
+    "doc": "04",
+    "text": "either— (A) take reasonable measures to establish the relevant customer’s or beneficial owner’s source of wealth and the source of the funds that will be involved in the business relationship; or (B) take additional measures to mitigate the risk of money laundering or terrorist financing involved"
+   },
+   {
+    "doc": "04",
+    "text": "if there is a beneficial owner in relation to the relevant customer, take reasonable measures to verify the beneficial owner’s identity"
+   },
+   {
+    "doc": "04",
+    "text": "obtain approval from the senior management to continue the business relationship"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "如將執行非經常交易)採取額外措施，以減低所涉的洗錢或恐怖分子資金籌集的風險"
+   },
+   {
+    "doc": "04",
+    "text": "合理措施，以確立有關客戶或實益擁有人的財富來源，及該業務關係將會涉及的資金來源"
+   },
+   {
+    "doc": "04",
+    "text": "如就有關客戶而言有某實益擁有人)採取合理措施，以核實該實益擁有人的身分"
+   },
+   {
+    "doc": "04",
+    "text": "取得有關高級管理層的批准，以繼續該業務關係"
+   }
+  ]
+ },
+ "m3-333": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "a wire transfer in which the ordering institution and the beneficiary institution and, if one or more intermediary institutions are involved in the transfer, the intermediary institution or all the intermediary institutions are financial institutions located in Hong Kong"
+   },
+   {
+    "doc": "04",
+    "text": "a wire transfer in which the ordering institution and the beneficiary institution and, if one or more intermediary institutions are involved in the transfer, the intermediary institution or all the intermediary institutions are financial institutions located in Hong Kong"
+   },
+   {
+    "doc": "04",
+    "text": "obtain the missing information from the institution from which it receives the transfer instruction"
+   },
+   {
+    "doc": "04",
+    "text": "Where a financial institution is a beneficiary institution or an intermediary institution in a wire transfer that is not a domestic wire transfer"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "參予該項轉賬的匯款機構及收款機構，與及(如有一間或多於一間的中介機構涉及在該項轉賬)中介機構或所有中介機構均為位於香港的金融機構"
+   },
+   {
+    "doc": "04",
+    "text": "參予該項轉賬的匯款機構及收款機構，與及(如有一間或多於一間的中介機構涉及在該項轉賬)中介機構或所有中介機構均為位於香港的金融機構"
+   },
+   {
+    "doc": "04",
+    "text": "向發出轉賬指示予它的機構，取得有關的遺漏資料"
+   },
+   {
+    "doc": "04",
+    "text": "如金融機構在並非本地電傳轉賬的電傳轉賬中屬收款機構或中介機構"
+   }
+  ]
+ },
+ "m3-334": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "on the basis of data or information provided by a recognized digital identification system"
+   },
+   {
+    "doc": "04",
+    "text": "on the basis of data or information provided by a recognized digital identification system"
+   },
+   {
+    "doc": "04",
+    "text": "obtain approval from the senior management"
+   },
+   {
+    "doc": "04",
+    "text": "a customer, or a beneficial owner of a customer, of a financial institution or a DNFBP is involved in a situation referred to in section 15 of this Schedule"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "以認可數碼識別系統所提供的數據或資料為基礎"
+   },
+   {
+    "doc": "04",
+    "text": "以認可數碼識別系統所提供的數據或資料為基礎"
+   },
+   {
+    "doc": "04",
+    "text": "取得有關高級管理層的批准"
+   },
+   {
+    "doc": "04",
+    "text": "金融機構或指定非金融業人士的客戶或該客戶的實益擁有人涉及本附表第15條提述的情況"
+   }
+  ]
+ },
+ "m2-380": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "which expires before the determination of the application by the Commissioner remains in force"
+   },
+   {
+    "doc": "04",
+    "text": "unless the application is withdrawn or the licence is revoked or suspended under section 34"
+   },
+   {
+    "doc": "04",
+    "text": "unless the application is withdrawn or the licence is revoked or suspended under section 34"
+   },
+   {
+    "doc": "04",
+    "text": "if subsection (10) applies, on the day following the day on which the licence would have expired but for that subsection"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "在關長就該申請作出決定前，該牌照的有效期已告屆滿"
+   },
+   {
+    "doc": "04",
+    "text": "除非該申請被撤回，或該牌照根據第34條被撤銷或暫時吊銷"
+   },
+   {
+    "doc": "04",
+    "text": "除非該申請被撤回，或該牌照根據第34條被撤銷或暫時吊銷"
+   },
+   {
+    "doc": "04",
+    "text": "如屬第(10)款適用的情況)在有關牌照的有效期若無第(10)款規定即本應屆滿之日的翌日有效"
+   }
+  ]
+ },
+ "m2-381": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "takes effect at the time the notice under subsection (6) is received by the licensee, or at the time specified in the notice under subsection (6), whichever is the later"
+   },
+   {
+    "doc": "04",
+    "text": "takes effect at the time the notice under subsection (6) is received by the licensee, or at the time specified in the notice under subsection (6), whichever is the later"
+   },
+   {
+    "doc": "04",
+    "text": "takes effect at the time the notice under subsection (6) is received by the licensee, or at the time specified in the notice under subsection (6), whichever is the later"
+   },
+   {
+    "doc": "04",
+    "text": "takes effect at the time the notice under subsection (6) is received by the licensee, or at the time specified in the notice under subsection (6), whichever is the later"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "在有關持牌人接獲第(6)款所指的通知時或在該通知指明的時間(兩者以較遲者為準)生效"
+   },
+   {
+    "doc": "04",
+    "text": "在有關持牌人接獲第(6)款所指的通知時或在該通知指明的時間(兩者以較遲者為準)生效"
+   },
+   {
+    "doc": "04",
+    "text": "在有關持牌人接獲第(6)款所指的通知時或在該通知指明的時間(兩者以較遲者為準)生效"
+   },
+   {
+    "doc": "04",
+    "text": "在有關持牌人接獲第(6)款所指的通知時或在該通知指明的時間(兩者以較遲者為準)生效"
+   }
+  ]
+ },
+ "m2-382": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "any new occupant of the premises refuses to give such a written consent"
+   },
+   {
+    "doc": "04",
+    "text": "any new occupant of the premises refuses to give such a written consent"
+   },
+   {
+    "doc": "04",
+    "text": "any occupant of the premises revokes his or her written consent previously given"
+   },
+   {
+    "doc": "04",
+    "text": "The Commissioner may only exercise a power under subsection (1) after giving the licensee a reasonable opportunity to be heard."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "該處所的任何新佔用人拒絕給予該項書面同意"
+   },
+   {
+    "doc": "04",
+    "text": "該處所的任何新佔用人拒絕給予該項書面同意"
+   },
+   {
+    "doc": "04",
+    "text": "該處所的任何佔用人撤銷其先前給予的"
+   },
+   {
+    "doc": "04",
+    "text": "關長須先給予有關持牌人合理的陳詞機會，方可根據第(1)款行使權力。"
+   }
+  ]
+ },
+ "m2-383": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "owns or controls, directly or indirectly, including through a trust or bearer share holding, more than 25% of the issued share capital of the corporation"
+   },
+   {
+    "doc": "04",
+    "text": "owns or controls, directly or indirectly, including through a trust or bearer share holding, more than 25% of the issued share capital of the corporation"
+   },
+   {
+    "doc": "04",
+    "text": "is, directly or indirectly, entitled to exercise or control the exercise of more than 25% of the voting rights at general meetings of the corporation"
+   },
+   {
+    "doc": "04",
+    "text": "exercises ultimate control over the management of the corporation"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "直接或間接地擁有或控制(包括透過信託或持票人股份持有)該法團已發行股本的25%以上"
+   },
+   {
+    "doc": "04",
+    "text": "直接或間接地擁有或控制(包括透過信託或持票人股份持有)該法團已發行股本的25%以上"
+   },
+   {
+    "doc": "04",
+    "text": "直接或間接地有權行使在該法團的成員大會上的投票權的25%以上，或支配該比重的投票權的行使"
+   },
+   {
+    "doc": "04",
+    "text": "可行使對該法團的管理最終的控制權"
+   }
+  ]
+ },
+ "m2-384": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "to cease to operate a money service at any of the premises specified in the licence"
+   },
+   {
+    "doc": "04",
+    "text": "return the licence to the Commissioner for cancellation or amendment within 7 days beginning on the date of cessation"
+   },
+   {
+    "doc": "04",
+    "text": "before the date of cessation, notify the Commissioner in writing of that intention and the date of cessation"
+   },
+   {
+    "doc": "04",
+    "text": "remove the relevant particulars from the register"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "停止在有關牌照指明的任何處所經營金錢服務"
+   },
+   {
+    "doc": "04",
+    "text": "在自停業日期起計的7日內，將該牌照交回關長，以作取消或修訂"
+   },
+   {
+    "doc": "04",
+    "text": "在停業日期前，藉書面向關長具報該意向及停業日期"
+   },
+   {
+    "doc": "04",
+    "text": "在登記冊中刪除有關詳情"
+   }
+  ]
+ },
+ "m2-385": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "for an offence for which it was necessary to find that the person had acted fraudulently, corruptly or dishonestly"
+   },
+   {
+    "doc": "04",
+    "text": "is an undischarged bankrupt or is the subject of any bankruptcy proceedings under the Bankruptcy Ordinance"
+   },
+   {
+    "doc": "04",
+    "text": "is in liquidation or is the subject of a winding up order, or there is a receiver appointed in relation to it"
+   },
+   {
+    "doc": "04",
+    "text": "in addition to any other matter that the Commissioner considers relevant"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "犯任何罪行，而該人曾有欺詐性、舞弊或不誠實的作為的裁斷對該項定罪屬必不可少"
+   },
+   {
+    "doc": "04",
+    "text": "該人是否未獲解除破產的破產人或《破產條例》(第6章)下的破產程序的標的"
+   },
+   {
+    "doc": "04",
+    "text": "該人是否正在清盤當中，或是否任何清盤令的標的，或是否有接管人已就該人而獲委任"
+   },
+   {
+    "doc": "04",
+    "text": "除須考慮任何其他其認為有關的事宜外"
+   }
+  ]
+ },
+ "m2-386": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "for each day on which the failure continues after the date specified in the order as being the date by which the remedial action must be taken"
+   },
+   {
+    "doc": "04",
+    "text": "after the date specified in the order as being the date by which the remedial action must be taken"
+   },
+   {
+    "doc": "04",
+    "text": "may exercise any one or more of the powers specified in subsection (2)"
+   },
+   {
+    "doc": "04",
+    "text": "after the order has taken effect as a specified decision under section 75"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "就沒有遵從首述命令的狀況在首述命令指明的採取糾正行動的期限後持續的每一日"
+   },
+   {
+    "doc": "04",
+    "text": "在首述命令指明的採取糾正行動的期限後"
+   },
+   {
+    "doc": "04",
+    "text": "行使第(2)款指明的一項或多於一項權力"
+   },
+   {
+    "doc": "04",
+    "text": "在該命令根據第75條作為指明決定而生效後"
+   }
+  ]
+ },
+ "m2-387": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "the disclosure is for the purpose of seeking advice from, or giving advice by, counsel or a solicitor or other professional adviser"
+   },
+   {
+    "doc": "04",
+    "text": "who is acting or proposing to act in a professional capacity in connection with any matter arising under this Ordinance"
+   },
+   {
+    "doc": "04",
+    "text": "The relevant authority may impose any conditions that it considers appropriate on a consent given by it"
+   },
+   {
+    "doc": "04",
+    "text": "each specified recipient must not disclose the information to another person unless"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "披露有關資料的目的，是為向以(或擬以)專業身分行事的大律師、律師或其他專業顧問"
+   },
+   {
+    "doc": "04",
+    "text": "在與根據本條例引起的任何事宜相關的情況下徵詢意見"
+   },
+   {
+    "doc": "04",
+    "text": "有關當局如為施行第(2)(a)或(3)(a)款而給予同意，可就該同意施加其認為適當的條件"
+   },
+   {
+    "doc": "04",
+    "text": "否則每名指明收取人，均不得向另一人披露該資料"
+   }
+  ]
+ },
+ "m3-335": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "before carrying out for the customer an occasional transaction involving an amount equal to or above $120,000 or an equivalent amount in any other currency, whether the transaction is carried out in a single operation or in several operations that appear to the financial institution or the DNFBP to be linked"
+   },
+   {
+    "doc": "04",
+    "text": "a wire transfer involving an amount equal to or above $8,000 or an equivalent amount in any other currency"
+   },
+   {
+    "doc": "04",
+    "text": "before carrying out for the customer an occasional transaction involving an amount equal to or above $120,000 or an equivalent amount in any other currency, whether the transaction is carried out in a single operation or in several operations that appear to the financial institution or the DNFBP to be linked"
+   },
+   {
+    "doc": "04",
+    "text": "whether the transaction is carried out in a single operation or in several operations that appear to the financial institution to be linked"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "在為該客戶執行涉及相等於$120,000或以上的款額(或折算為任何其他貨幣的相同款額)的非經常交易之前，不論該交易是以單一次操作執行，或是以該機構或該人士覺得是有關連的若干次操作執行"
+   },
+   {
+    "doc": "04",
+    "text": "屬電傳轉賬，並涉及相等於$8,000或以上的款額(或折算為任何其他貨幣的相同款額)"
+   },
+   {
+    "doc": "04",
+    "text": "在為該客戶執行涉及相等於$120,000或以上的款額(或折算為任何其他貨幣的相同款額)的非經常交易之前，不論該交易是以單一次操作執行，或是以該機構或該人士覺得是有關連的若干次操作執行"
+   },
+   {
+    "doc": "04",
+    "text": "不論該交易是以單一次操作執行，或是以該機構覺得是有關連的若干次操作執行"
+   }
+  ]
+ },
+ "m3-336": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "when the financial institution or the DNFBP suspects that the customer or the customer’s account is involved in money laundering or terrorist financing"
+   },
+   {
+    "doc": "04",
+    "text": "when the financial institution or the DNFBP doubts the veracity or adequacy of any information previously obtained for the purpose of identifying the customer or for the purpose of verifying the customer’s identity"
+   },
+   {
+    "doc": "04",
+    "text": "when the financial institution or the DNFBP suspects that the customer or the customer’s account is involved in money laundering or terrorist financing"
+   },
+   {
+    "doc": "04",
+    "text": "when the financial institution or the DNFBP doubts the veracity or adequacy of any information previously obtained for the purpose of identifying the customer or for the purpose of verifying the customer’s identity"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "當該機構或該人士懷疑客戶或客戶的戶口涉及洗錢或恐怖分子資金籌集時"
+   },
+   {
+    "doc": "04",
+    "text": "當該機構或該人士懷疑過往為識別客戶的身分或核實客戶的身分而取得的資料是否真實或充分時"
+   },
+   {
+    "doc": "04",
+    "text": "當該機構或該人士懷疑客戶或客戶的戶口涉及洗錢或恐怖分子資金籌集時"
+   },
+   {
+    "doc": "04",
+    "text": "當該機構或該人士懷疑過往為識別客戶的身分或核實客戶的身分而取得的資料是否真實或充分時"
+   }
+  ]
+ },
+ "m3-337": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "this is necessary not to interrupt the normal conduct of business with regard to the customer; and (b) any risk of money laundering or terrorist financing that may be caused by carrying out the verification after establishing the business relationship is effectively managed"
+   },
+   {
+    "doc": "04",
+    "text": "this is necessary not to interrupt the normal conduct of business with regard to the customer; and (b) any risk of money laundering or terrorist financing that may be caused by carrying out the verification after establishing the business relationship is effectively managed"
+   },
+   {
+    "doc": "04",
+    "text": "this is necessary not to interrupt the normal conduct of business with regard to the customer; and (b) any risk of money laundering or terrorist financing that may be caused by carrying out the verification after establishing the business relationship is effectively managed"
+   },
+   {
+    "doc": "04",
+    "text": "must complete the verification as soon as reasonably practicable after establishing the business relationship"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "與為就客戶的業務正常運作不造成干擾，如此行事是必需的；及 (b) 在業務關係建立之後才進行核實而可能引致的洗錢或恐怖分子資金籌集風險，已獲有效管理"
+   },
+   {
+    "doc": "04",
+    "text": "與為就客戶的業務正常運作不造成干擾，如此行事是必需的；及 (b) 在業務關係建立之後才進行核實而可能引致的洗錢或恐怖分子資金籌集風險，已獲有效管理"
+   },
+   {
+    "doc": "04",
+    "text": "與為就客戶的業務正常運作不造成干擾，如此行事是必需的；及 (b) 在業務關係建立之後才進行核實而可能引致的洗錢或恐怖分子資金籌集風險，已獲有效管理"
+   },
+   {
+    "doc": "04",
+    "text": "須在該關係建立之後，在合理地切實可行的範圍內，盡快完成有關核實"
+   }
+  ]
+ },
+ "m3-338": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "must not establish a business relationship or carry out any occasional transaction with that customer"
+   },
+   {
+    "doc": "04",
+    "text": "must not establish a business relationship or carry out any occasional transaction with that customer"
+   },
+   {
+    "doc": "04",
+    "text": "if the financial institution or the DNFBP has already established a business relationship with that customer, must terminate the business relationship as soon as reasonably practicable"
+   },
+   {
+    "doc": "04",
+    "text": "if the financial institution or the DNFBP has already established a business relationship with that customer, must terminate the business relationship as soon as reasonably practicable"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "不可與該客戶建立業務關係，亦不可與該客戶執行任何非經常交易"
+   },
+   {
+    "doc": "04",
+    "text": "不可與該客戶建立業務關係，亦不可與該客戶執行任何非經常交易"
+   },
+   {
+    "doc": "04",
+    "text": "如該機構或該人士已與該客戶建立業務關係)須在合理地切實可行的範圍內，盡快結束該關係"
+   },
+   {
+    "doc": "04",
+    "text": "如該機構或該人士已與該客戶建立業務關係)須在合理地切實可行的範圍內，盡快結束該關係"
+   }
+  ]
+ },
+ "m3-339": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "a corporation listed on any stock exchange"
+   },
+   {
+    "doc": "04",
+    "text": "carry out only the measures set out in section 2(1)(a), (ab), (c) and (d) of this Schedule"
+   },
+   {
+    "doc": "04",
+    "text": "verifying the person’s authority to act on behalf of the customer"
+   },
+   {
+    "doc": "04",
+    "text": "a corporation listed on any stock exchange"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "在任何證券市場上市的法團"
+   },
+   {
+    "doc": "04",
+    "text": "可只就該客戶執行本附表第2(1)(a)、(ab)、(c)及(d)條所列的客戶盡職審查措施"
+   },
+   {
+    "doc": "04",
+    "text": "核實該人代表客戶行事的授權"
+   },
+   {
+    "doc": "04",
+    "text": "在任何證券市場上市的法團"
+   }
+  ]
+ },
+ "m3-340": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "to identify, or verify the identities of, the beneficial owners of that entity or of any person in that chain beyond that entity"
+   },
+   {
+    "doc": "04",
+    "text": "to identify, or verify the identities of, the beneficial owners of that entity or of any person in that chain beyond that entity"
+   },
+   {
+    "doc": "04",
+    "text": "If a customer of a financial institution or a DNFBP not falling within subsection (3) has in the customer’s beneficial ownership chain an entity that falls within that subsection"
+   },
+   {
+    "doc": "04",
+    "text": "a corporation listed on any stock exchange"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "無需識別或核實以下人士的身分︰該實體的實益擁有人，或在該架構中位於該實體以上的任何人的實益擁有人"
+   },
+   {
+    "doc": "04",
+    "text": "無需識別或核實以下人士的身分︰該實體的實益擁有人，或在該架構中位於該實體以上的任何人的實益擁有人"
+   },
+   {
+    "doc": "04",
+    "text": "客戶(不屬第(3)款所指者)的實益擁有權鏈狀架構中，有屬該款所指的實體"
+   },
+   {
+    "doc": "04",
+    "text": "在任何證券市場上市的法團"
+   }
+  ]
+ },
+ "m3-341": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "if a business relationship is to be established, obtaining information on the purpose and intended nature of the business relationship with the financial institution or the DNFBP, unless the purpose and intended nature are obvious"
+   },
+   {
+    "doc": "04",
+    "text": "verifying the person’s authority to act on behalf of the customer"
+   },
+   {
+    "doc": "04",
+    "text": "verifying the person’s authority to act on behalf of the customer"
+   },
+   {
+    "doc": "04",
+    "text": "measures to enable the financial institution or the DNFBP to understand the ownership and control structure of the legal person or trust"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "如將要建立業務關係)取得關於與該機構或該人士建立業務關係的目的及擬具有的性質的資料，但如有關目的及擬具有的性質屬顯而易見則除外"
+   },
+   {
+    "doc": "04",
+    "text": "核實該人代表客戶行事的授權"
+   },
+   {
+    "doc": "04",
+    "text": "核實該人代表客戶行事的授權"
+   },
+   {
+    "doc": "04",
+    "text": "可使該機構或該人士能了解該法人或信託的擁有權及控制權結構的措施"
+   }
+  ]
+ },
+ "m3-342": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "the person from whose account with the ordering institution the money for the wire transfer is paid"
+   },
+   {
+    "doc": "04",
+    "text": "in the absence of such an account, the person who instructs the ordering institution to carry out the wire transfer"
+   },
+   {
+    "doc": "04",
+    "text": "a unique reference number assigned to the wire transfer by the financial institution"
+   },
+   {
+    "doc": "04",
+    "text": "a unique reference number assigned to the wire transfer by the beneficiary institution"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "該人在匯款機構開立戶口，而該項轉賬所涉金錢，是自該戶口轉賬的"
+   },
+   {
+    "doc": "04",
+    "text": "如沒有此戶口)指示匯款機構進行該項轉賬的人"
+   },
+   {
+    "doc": "04",
+    "text": "由該機構編配予該電傳轉賬的獨特參考編號"
+   },
+   {
+    "doc": "04",
+    "text": "由該收款機構編配予該電傳轉帳的獨特參考編號"
+   }
+  ]
+ },
+ "m3-343": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "verify the identity of the originator by reference to the originator’s identification document"
+   },
+   {
+    "doc": "04",
+    "text": "the originator’s identification document number and, if the originator’s identification document is a travel document, the place of issue of the travel document"
+   },
+   {
+    "doc": "04",
+    "text": "the date and time of receipt of the instructions, the recipient’s name and address and the method of delivery"
+   },
+   {
+    "doc": "04",
+    "text": "the recipient’s name and address and the method of delivery"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "藉參考匯款人的識別文件，核實匯款人的身分"
+   },
+   {
+    "doc": "04",
+    "text": "匯款人的識別文件的號碼，以及(如匯款人的識別文件是旅行證件)發出旅行證件的地方"
+   },
+   {
+    "doc": "04",
+    "text": "接獲指示的日期及時間、收款人的姓名及地址，以及送遞的方式"
+   },
+   {
+    "doc": "04",
+    "text": "收款人的姓名及地址，以及送遞的方式"
+   }
+  ]
+ },
+ "m3-344": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "Subsection (3)(c) does not apply to a wire transfer involving an amount below $8,000 or an equivalent amount in another currency."
+   },
+   {
+    "doc": "04",
+    "text": "Subsection (3)(c) does not apply to a wire transfer involving an amount below $8,000 or an equivalent amount in another currency."
+   },
+   {
+    "doc": "04",
+    "text": "for a wire transfer involving an amount below $8,000 or an equivalent amount in another currency—the information recorded under subsection (3)(a), (b), (d) and (e) in relation to the transfer"
+   },
+   {
+    "doc": "04",
+    "text": "Subsection (3)(c) does not apply to a wire transfer involving an amount below $8,000 or an equivalent amount in another currency."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "第(3)(c)款不適用於涉及$8,000以下的款額(或折算為另一貨幣的相同款額)的電傳轉帳。"
+   },
+   {
+    "doc": "04",
+    "text": "第(3)(c)款不適用於涉及$8,000以下的款額(或折算為另一貨幣的相同款額)的電傳轉帳。"
+   },
+   {
+    "doc": "04",
+    "text": "就涉及$8,000以下的款額(或折算為另一貨幣的相同款額)的電傳轉帳——包括根據第(3)(a)、(b)、(d)及(e)款就該項轉帳記錄的資料"
+   },
+   {
+    "doc": "04",
+    "text": "第(3)(c)款不適用於涉及$8,000以下的款額(或折算為另一貨幣的相同款額)的電傳轉帳。"
+   }
+  ]
+ },
+ "m3-345": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "a financial institution that is an authorized institution, a licensed corporation, an authorized insurer, a licensed individual insurance agent, licensed insurance agency or licensed insurance broker company"
+   },
+   {
+    "doc": "04",
+    "text": "who is able to satisfy the financial institution or the DNFBP that they have adequate procedures in place to prevent money laundering and terrorist financing"
+   },
+   {
+    "doc": "04",
+    "text": "an estate agent; (Replaced 4 of 2018 s. 26)"
+   },
+   {
+    "doc": "04",
+    "text": "a financial institution that is an authorized institution, a licensed corporation, an authorized insurer, a licensed individual insurance agent, licensed insurance agency or licensed insurance broker company"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "屬認可機構、持牌法團、獲授權保險人、持牌個人保險代理、持牌保險代理機構或持牌保險經紀公司的金融機構"
+   },
+   {
+    "doc": "04",
+    "text": "能夠令有關金融機構或指定非金融業人士信納其本身有充分程序以防止洗錢及恐怖分子資金籌集"
+   },
+   {
+    "doc": "04",
+    "text": "地產代理；(由2018年第4號第26條代替)"
+   },
+   {
+    "doc": "04",
+    "text": "屬認可機構、持牌法團、獲授權保險人、持牌個人保險代理、持牌保險代理機構或持牌保險經紀公司的金融機構"
+   }
+  ]
+ },
+ "m3-346": {
+  "en": [
+   {
+    "doc": "04",
+    "text": "it is the head office of the financial institution"
+   },
+   {
+    "doc": "04",
+    "text": "it is a branch of the head office of the financial institution"
+   },
+   {
+    "doc": "04",
+    "text": "a policy of the group of companies to which the financial institution belongs that applies to— (a) the financial institution; and (b) the relevant related foreign financial institution"
+   },
+   {
+    "doc": "04",
+    "text": "is a related foreign financial institution in relation to the financial institution; and (ii) satisfies the conditions in subsection (3A)"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "04",
+    "text": "該另一機構是該金融機構的總行"
+   },
+   {
+    "doc": "04",
+    "text": "該另一機構是該金融機構總行的分行"
+   },
+   {
+    "doc": "04",
+    "text": "有關金融機構所屬的公司集團的政策，而該政策適用於—— (a) 該金融機構；及 (b) 有關相關外地金融機構"
+   },
+   {
+    "doc": "04",
+    "text": "該機構就有關金融機構而言，屬相關外地金融機構；及"
+   }
+  ]
+ },
+ "m1-190": {
+  "en": [
+   {
+    "doc": "17",
+    "text": "includes a video display screen"
+   },
+   {
+    "doc": "17",
+    "text": "includes a cheque and a traveller’s cheque"
+   },
+   {
+    "doc": "17",
+    "text": "includes to affix a chop or mark"
+   },
+   {
+    "doc": "17",
+    "text": "after deducting all charges and commissions"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "17",
+    "text": "並且包括電視螢光屏幕"
+   },
+   {
+    "doc": "17",
+    "text": "貨幣 (currency) 包括支票及旅行支票"
+   },
+   {
+    "doc": "17",
+    "text": "簽署 (sign) 包括加蓋圖章或標記"
+   },
+   {
+    "doc": "17",
+    "text": "在扣減所有收費及佣金後"
+   }
+  ]
+ },
+ "m1-191": {
+  "en": [
+   {
+    "doc": "17",
+    "text": "where the amount of the currency tendered for exchange exceeds the sum of $100,000"
+   },
+   {
+    "doc": "17",
+    "text": "exceeds the sum of $100,000 in Hong Kong currency"
+   },
+   {
+    "doc": "17",
+    "text": "or the equivalent of such sum"
+   },
+   {
+    "doc": "17",
+    "text": "may be amended by the Chief Executive by notice in the Gazette"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "17",
+    "text": "所提供兌換的貨幣款額超過港幣$100,000"
+   },
+   {
+    "doc": "17",
+    "text": "超過港幣$100,000 或其等值"
+   },
+   {
+    "doc": "17",
+    "text": "或其等值的任何兌換交易"
+   },
+   {
+    "doc": "17",
+    "text": "行政長官可藉憲報公告，修訂第(1)(c) 款所指明的金額"
+   }
+  ]
+ },
+ "m1-192": {
+  "en": [
+   {
+    "doc": "17",
+    "text": "legibly make out in duplicate a transaction note"
+   },
+   {
+    "doc": "17",
+    "text": "by correctly completing the details of the exchange transaction by using Arabic numerals"
+   },
+   {
+    "doc": "17",
+    "text": "explain, in so far as is practicable, the transaction note to the customer"
+   },
+   {
+    "doc": "17",
+    "text": "sign the transaction note"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "17",
+    "text": "以可閱字迹填具一式兩份的交易單據"
+   },
+   {
+    "doc": "17",
+    "text": "並須以阿拉伯數字正確列明兌換交易的細節"
+   },
+   {
+    "doc": "17",
+    "text": "在切實可行範圍內，向顧客解釋該份交易單據的內容"
+   },
+   {
+    "doc": "17",
+    "text": "在交易單據上簽署"
+   }
+  ]
+ },
+ "m1-193": {
+  "en": [
+   {
+    "doc": "17",
+    "text": "the date of the transaction; (b) the type of currency tendered by the customer; (c) the amount of currency tendered by the customer"
+   },
+   {
+    "doc": "17",
+    "text": "may include in the form"
+   },
+   {
+    "doc": "17",
+    "text": "the money changer’s name, address and telephone number"
+   },
+   {
+    "doc": "17",
+    "text": "shall not include in a transaction note any statement other than a statement authorized by this Ordinance"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "17",
+    "text": "交易日期； (b) 顧客所提供的貨幣種類； (c) 顧客所提供的貨幣款額"
+   },
+   {
+    "doc": "17",
+    "text": "表格內並可載有"
+   },
+   {
+    "doc": "17",
+    "text": "貨幣兌換商的中英文姓名或名稱、中英文地址及電話號碼"
+   },
+   {
+    "doc": "17",
+    "text": "不得在交易單據內載有任何並非本條例所授權作出的陳述"
+   }
+  ]
+ },
+ "m1-194": {
+  "en": [
+   {
+    "doc": "17",
+    "text": "issue a separate transaction note for each currency sold"
+   },
+   {
+    "doc": "17",
+    "text": "without any deduction"
+   },
+   {
+    "doc": "17",
+    "text": "issue the original of a transaction note to the customer"
+   },
+   {
+    "doc": "17",
+    "text": "retain the duplicate copy of a completed transaction note for not less than 12 months"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "17",
+    "text": "就每一種賣出的貨幣，發出一份獨立交易單據"
+   },
+   {
+    "doc": "17",
+    "text": "而不得作任何扣減"
+   },
+   {
+    "doc": "17",
+    "text": "須將交易單據的正本一併發給顧客"
+   },
+   {
+    "doc": "17",
+    "text": "須將填妥的交易單據複本保留至少12 個月"
+   }
+  ]
+ },
+ "m1-195": {
+  "en": [
+   {
+    "doc": "17",
+    "text": "at any time before the money changer completes the transaction"
+   },
+   {
+    "doc": "17",
+    "text": "shall immediately hand back to the customer the currency tendered"
+   },
+   {
+    "doc": "17",
+    "text": "rescind the transaction within 3 days after the date thereof"
+   },
+   {
+    "doc": "17",
+    "text": "without prejudice to any other right or remedy"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "17",
+    "text": "在貨幣兌換商藉遵照本條規定並將顧客兌換所得的貨幣悉數交給顧客以完成交易之前"
+   },
+   {
+    "doc": "17",
+    "text": "須立即將顧客所提供作兌換交易的貨幣交回顧客"
+   },
+   {
+    "doc": "17",
+    "text": "在交易日期後3 天內，撤銷該宗交易"
+   },
+   {
+    "doc": "17",
+    "text": "在不損害任何其他權利或補救辦法的情況下"
+   }
+  ]
+ },
+ "m1-196": {
+  "en": [
+   {
+    "doc": "17",
+    "text": "display, on all of the boards, identical information relating to the net rates of exchange displayed"
+   },
+   {
+    "doc": "17",
+    "text": "place the board in a well lit place where the customer has an unobstructed view of the board"
+   },
+   {
+    "doc": "17",
+    "text": "display on the board the net rate of exchange which is least favourable to the customer"
+   },
+   {
+    "doc": "17",
+    "text": "in multiple units of 10 or 100 units of foreign currency with a corresponding adjustment to the Hong Kong dollar figure"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "17",
+    "text": "在所有告示牌上展示相同的淨匯率資料"
+   },
+   {
+    "doc": "17",
+    "text": "將告示牌放置在一個光線充足而顧客視線無阻的地方"
+   },
+   {
+    "doc": "17",
+    "text": "須是對顧客優惠最少的淨匯率"
+   },
+   {
+    "doc": "17",
+    "text": "可展示以外幣10 單位或100 單位的倍數計算的淨匯率，以及經相應調整的港元數字"
+   }
+  ]
+ },
+ "m1-197": {
+  "en": [
+   {
+    "doc": "17",
+    "text": "before he accepts any currency from the potential customer"
+   },
+   {
+    "doc": "17",
+    "text": "shall issue a transaction note in addition to the subsection (1) note"
+   },
+   {
+    "doc": "17",
+    "text": "give equal prominence to buying rates and selling rates for each currency"
+   },
+   {
+    "doc": "17",
+    "text": "that he charges no commission on an exchange transaction"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "17",
+    "text": "在接受準顧客的貨幣前"
+   },
+   {
+    "doc": "17",
+    "text": "除須發出第(1) 款所提述的單據外，並須發出一張交易單據"
+   },
+   {
+    "doc": "17",
+    "text": "使每種貨幣的買入匯率及賣出匯率同樣顯眼"
+   },
+   {
+    "doc": "17",
+    "text": "他對兌換交易不收取佣金"
+   }
+  ]
+ },
+ "m1-198": {
+  "en": [
+   {
+    "doc": "23",
+    "text": "made out to a fictitious payee"
+   },
+   {
+    "doc": "23",
+    "text": "signed but does not state a payee’s name"
+   },
+   {
+    "doc": "23",
+    "text": "in a form under which the title of it passes on delivery"
+   },
+   {
+    "doc": "23",
+    "text": "endorsed without any restriction"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "23",
+    "text": "開立予虛構受款人的可轉讓票據"
+   },
+   {
+    "doc": "23",
+    "text": "經已簽署，但並無述明受款人姓名或名稱的可轉讓票據"
+   },
+   {
+    "doc": "23",
+    "text": "按其所屬的形式，其所有權是隨交付而轉讓的可轉讓票據"
+   },
+   {
+    "doc": "23",
+    "text": "獲無限制背書的可轉讓票據"
+   }
+  ]
+ },
+ "m1-199": {
+  "en": [
+   {
+    "doc": "23",
+    "text": "it is in the baggage accompanying the person"
+   },
+   {
+    "doc": "23",
+    "text": "whether or not carried, or to be carried, on the same conveyance"
+   },
+   {
+    "doc": "23",
+    "text": "it is part of the personal belongings of the person carried on the conveyance"
+   },
+   {
+    "doc": "23",
+    "text": "a reference to the nominal value of the CBNI"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "23",
+    "text": "該東西在該人的隨身行李內"
+   },
+   {
+    "doc": "23",
+    "text": "不論是否由或將會由同一運輸工具運載"
+   },
+   {
+    "doc": "23",
+    "text": "該東西屬該人的個人物品的一部分，並由該運輸工具運載"
+   },
+   {
+    "doc": "23",
+    "text": "即提述該物品的面值"
+   }
+  ]
+ },
+ "m1-200": {
+  "en": [
+   {
+    "doc": "23",
+    "text": "young person (幼年人) means a person under the age of 16 years"
+   },
+   {
+    "doc": "23",
+    "text": "solely for the purpose of leaving Hong Kong"
+   },
+   {
+    "doc": "23",
+    "text": "does not pass through immigration control at any specified control point"
+   },
+   {
+    "doc": "23",
+    "text": "an adult who knows the traveller is a young person in possession of a large quantity of CBNIs"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "23",
+    "text": "幼年人 (young person) 指未滿16 歲的人"
+   },
+   {
+    "doc": "23",
+    "text": "純綷為了離開香港"
+   },
+   {
+    "doc": "23",
+    "text": "沒有在任何指明管制站，經過出入境檢查"
+   },
+   {
+    "doc": "23",
+    "text": "該成人知道，該旅客屬幼年人並管有大量現金類物品"
+   }
+  ]
+ },
+ "m1-201": {
+  "en": [
+   {
+    "doc": "23",
+    "text": "each accompanying adult who knows the traveller is a young person in possession of a large quantity of CBNIs commits an offence"
+   },
+   {
+    "doc": "23",
+    "text": "contains any information that is false in a material particular"
+   },
+   {
+    "doc": "23",
+    "text": "liable on conviction to a fine of $500,000 and to imprisonment for 2 years"
+   },
+   {
+    "doc": "23",
+    "text": "did not know, had no reason to suspect, and could not with reasonable diligence have ascertained"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "23",
+    "text": "每名陪同該旅客和知道該旅客屬幼年人並管有大量現金類物品的成人，即屬犯罪"
+   },
+   {
+    "doc": "23",
+    "text": "載有任何在要項上屬虛假的資料"
+   },
+   {
+    "doc": "23",
+    "text": "一經定罪，可處罰款$500,000 及監禁2 年"
+   },
+   {
+    "doc": "23",
+    "text": "自己並不知道，亦無理由懷疑，且即使作出合理努力亦不能確定"
+   }
+  ]
+ },
+ "m1-202": {
+  "en": [
+   {
+    "doc": "23",
+    "text": "published on the day of the relevant event"
+   },
+   {
+    "doc": "23",
+    "text": "published on the immediately preceding rate publication day"
+   },
+   {
+    "doc": "23",
+    "text": "means the person arrives at the specified control point concerned"
+   },
+   {
+    "doc": "23",
+    "text": "if no such exchange rate for the currency is available"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "23",
+    "text": "在有關事件的日期就有關貨幣公布的參考匯價"
+   },
+   {
+    "doc": "23",
+    "text": "在緊接的上一個報價日就有關貨幣公布的參考匯價"
+   },
+   {
+    "doc": "23",
+    "text": "指有關的人抵達有關指明管制站"
+   },
+   {
+    "doc": "23",
+    "text": "如並無上述匯價就該貨幣而提供"
+   }
+  ]
+ },
+ "m1-203": {
+  "en": [
+   {
+    "doc": "23",
+    "text": "CBNIs in the possession of a person arriving in or about to leave Hong Kong on the conveyance"
+   },
+   {
+    "doc": "23",
+    "text": "CBNIs that are air transhipment cargo"
+   },
+   {
+    "doc": "23",
+    "text": "CBNIs contained in a postal packet"
+   },
+   {
+    "doc": "23",
+    "text": "remain at all times on the aircraft or vessel"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "23",
+    "text": "乘搭該運輸工具抵達香港( 或即將乘搭該運輸工具離開香港) 的人管有的現金類物品"
+   },
+   {
+    "doc": "23",
+    "text": "屬《進出口條例》( 第60 章) 第2 條所指的航空轉運貨物的現金類物品"
+   },
+   {
+    "doc": "23",
+    "text": "《郵政署條例》( 第98 章) 第2 條所指的郵包所載的現金類物品"
+   },
+   {
+    "doc": "23",
+    "text": "在香港境內時，一直留在該飛機或該船隻上"
+   }
+  ]
+ },
+ "m1-204": {
+  "en": [
+   {
+    "doc": "23",
+    "text": "imports or exports, or causes to be imported or exported"
+   },
+   {
+    "doc": "23",
+    "text": "or causes to be imported or exported"
+   },
+   {
+    "doc": "23",
+    "text": "if the person is not otherwise responsible for importing or exporting the CBNIs"
+   },
+   {
+    "doc": "23",
+    "text": "makes, or causes to be made, a declaration"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "23",
+    "text": "輸入或輸出( 或安排輸入或輸出)"
+   },
+   {
+    "doc": "23",
+    "text": "或安排輸入或輸出"
+   },
+   {
+    "doc": "23",
+    "text": "並不就該等物品的輸入或輸出負有其他責任"
+   },
+   {
+    "doc": "23",
+    "text": "作出申報，或安排如此就輸入或輸出現金類物品作出申報"
+   }
+  ]
+ },
+ "m1-205": {
+  "en": [
+   {
+    "doc": "23",
+    "text": "all CBNIs imported, or exported, on a cross-boundary conveyance by a particular person (other than a carrier)"
+   },
+   {
+    "doc": "23",
+    "text": "are taken to be imported, or exported, in one batch"
+   },
+   {
+    "doc": "23",
+    "text": "by the same carrier for the same customer"
+   },
+   {
+    "doc": "23",
+    "text": "by the same carrier for the same customer"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "23",
+    "text": "所有由個別的人( 承運人除外) 在某一跨境運輸工具上輸入或輸出的現金類物品"
+   },
+   {
+    "doc": "23",
+    "text": "視作屬同一批次而輸入或輸出"
+   },
+   {
+    "doc": "23",
+    "text": "由同一承運人為同一客户"
+   },
+   {
+    "doc": "23",
+    "text": "由同一承運人為同一客户"
+   }
+  ]
+ },
+ "m1-206": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "the generation, inflows, and outflows of the proceeds of crime"
+   },
+   {
+    "doc": "25",
+    "text": "Vulnerabilities refer to weaknesses or gaps"
+   },
+   {
+    "doc": "25",
+    "text": "threats point to the direction of TF funds, and the sources and channels used"
+   },
+   {
+    "doc": "25",
+    "text": "an assessment of the internal and external threats"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "犯罪得益或與恐怖主義活動有關的資金產生、流入和流出的規模和性質"
+   },
+   {
+    "doc": "25",
+    "text": "“脆弱程度”則指司法管轄區防範洗錢及恐怖分子資金籌集制度的"
+   },
+   {
+    "doc": "25",
+    "text": "所指威脅為恐怖分子所籌集資金的流向、來源和所用渠道"
+   },
+   {
+    "doc": "25",
+    "text": "這涉及評估內在和外在威脅"
+   }
+  ]
+ },
+ "m1-207": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "causal relations among risk factors and variables relating to the regulatory, institutional, and economic environment"
+   },
+   {
+    "doc": "25",
+    "text": "based on available qualitative and quantitative information"
+   },
+   {
+    "doc": "25",
+    "text": "Ratings (low, medium-low, medium, medium-high and high)"
+   },
+   {
+    "doc": "25",
+    "text": "represented graphically on a risk-level heat map"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "與規管安排、機構制度和經濟環境有關的風險因素和變數之間的因果關係"
+   },
+   {
+    "doc": "25",
+    "text": "根據已有的質量和數量資料"
+   },
+   {
+    "doc": "25",
+    "text": "評級(分低、中低、中、中高和高)"
+   },
+   {
+    "doc": "25",
+    "text": "所得結果以風險水平熱圖的圖表方式顯示"
+   }
+  ]
+ },
+ "m1-208": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "chaired by the Financial Services and the Treasury Bureau"
+   },
+   {
+    "doc": "25",
+    "text": "assists in reviewing the ML threats arising from tax crimes"
+   },
+   {
+    "doc": "25",
+    "text": "multi-disciplinary teams with experienced practitioners"
+   },
+   {
+    "doc": "25",
+    "text": "engagement with regulators, LEAs and stakeholders in the private sector"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "督導委員會由財經事務及庫務局主導"
+   },
+   {
+    "doc": "25",
+    "text": "負責協助檢討稅務罪行引致的洗錢威脅"
+   },
+   {
+    "doc": "25",
+    "text": "委員會成員組成跨專業的小組，由經驗豐富的業內人士為所屬界別進行評估"
+   },
+   {
+    "doc": "25",
+    "text": "接觸監管機構、執法機構和私營機構持份者"
+   }
+  ]
+ },
+ "m1-209": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "reported to the Steering Committee, along with risk mitigation measures proposed"
+   },
+   {
+    "doc": "25",
+    "text": "updated having regard to the enhanced mitigation measures implemented"
+   },
+   {
+    "doc": "25",
+    "text": "foreign corruption, foreign tax evasion, cross-border cash movements"
+   },
+   {
+    "doc": "25",
+    "text": "including relevant foreign companies and foreign legal arrangements"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "所建議用以處理相關洗錢及恐怖分子資金籌集風險的風險緩解措施亦一併向督導委員會提出"
+   },
+   {
+    "doc": "25",
+    "text": "因應所推行已改善的緩解措施的評估作出更新"
+   },
+   {
+    "doc": "25",
+    "text": "境外貪污、境外逃稅、跨境現金移動"
+   },
+   {
+    "doc": "25",
+    "text": "包括相關外國公司和外國法律安排"
+   }
+  ]
+ },
+ "m1-210": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "mainly attributable to the tightened entry control"
+   },
+   {
+    "doc": "25",
+    "text": "only serving corporate customers which are not open to the public"
+   },
+   {
+    "doc": "25",
+    "text": "The majority of the licensed MSOs carried on both money changing and remittance businesses"
+   },
+   {
+    "doc": "25",
+    "text": "web-based platforms or mobile applications providing remittance service"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "海關近年加強對進入巿場的管制"
+   },
+   {
+    "doc": "25",
+    "text": "只為企業客戶提供服務的非公開金錢服務經營者"
+   },
+   {
+    "doc": "25",
+    "text": "大部分的持牌金錢服務經營者均經營貨幣兌換和匯款業務"
+   },
+   {
+    "doc": "25",
+    "text": "提供匯款服務的網上平台或流動應用程式"
+   }
+  ]
+ },
+ "m1-211": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "cross-border fraud remains the largest ML threat to the MSO sector"
+   },
+   {
+    "doc": "25",
+    "text": "medium-high ML threats arising from domestic and foreign criminal activities"
+   },
+   {
+    "doc": "25",
+    "text": "used in the placement and layering stages of ML"
+   },
+   {
+    "doc": "25",
+    "text": "fraud, including telephone deception, email scam and lottery fraud, posed the most prevalent threat"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "跨境詐騙仍然是金錢服務業的最大洗錢威脅"
+   },
+   {
+    "doc": "25",
+    "text": "本地和境外犯罪活動洗錢威脅仍屬中高程度"
+   },
+   {
+    "doc": "25",
+    "text": "是在洗錢的存放得益和分層交易階段被利用"
+   },
+   {
+    "doc": "25",
+    "text": "詐騙(包括電話騙案、電郵騙案和彩票騙案)是金錢服務業最常面對的威脅"
+   }
+  ]
+ },
+ "m1-212": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "recruited to receive crime proceeds and facilitate remittance for remuneration"
+   },
+   {
+    "doc": "25",
+    "text": "D was convicted of “Dealing with property known or believed to represent proceeds of indictable offence”"
+   },
+   {
+    "doc": "25",
+    "text": "joint publicity operations codenamed \"APPLESHINER\" with the HKPF"
+   },
+   {
+    "doc": "25",
+    "text": "MSOs may act as the last stop to send money from victims of local deception cases out of Hong Kong"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "罪犯會聘用錢騾接收和匯出犯罪得益，並付以報酬"
+   },
+   {
+    "doc": "25",
+    "text": "D 被裁定“處理已知道或相信為代表從可公訴罪行的得益的財產”罪名成立"
+   },
+   {
+    "doc": "25",
+    "text": "與警務處舉辦了十次代號為“亮蘋”的聯合宣傳行動"
+   },
+   {
+    "doc": "25",
+    "text": "金錢服務經營者可能是最後一站"
+   }
+  ]
+ },
+ "m1-213": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "an upward trend of the number of MSO licensees operating online money service platforms without particular premises"
+   },
+   {
+    "doc": "25",
+    "text": "cybercrime may become an emerging ML threat to the sector"
+   },
+   {
+    "doc": "25",
+    "text": "effective policies, procedures and internal controls to address the ML/TF risks involved"
+   },
+   {
+    "doc": "25",
+    "text": "identifying and verifying non-face-to-face customers"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "並非在特定處所經營網上平台的持牌金錢服務經營者有上升趨勢"
+   },
+   {
+    "doc": "25",
+    "text": "網上罪行可能成為業界的新洗錢威脅"
+   },
+   {
+    "doc": "25",
+    "text": "有效的政策、程序和內部管控措施，以應對所涉的洗錢及恐怖分子資金籌集風險"
+   },
+   {
+    "doc": "25",
+    "text": "辨識和核實非親身出現的客戶"
+   }
+  ]
+ },
+ "m1-214": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "an alternative remittance system outside of the traditional banking system"
+   },
+   {
+    "doc": "25",
+    "text": "a network of hawala brokers who operate based mainly on trust and communication"
+   },
+   {
+    "doc": "25",
+    "text": "settled in cash, property or services"
+   },
+   {
+    "doc": "25",
+    "text": "No information or intelligence indicates that the MSO sector is adopting hawala"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "傳統銀行體系以外的另類匯款系統"
+   },
+   {
+    "doc": "25",
+    "text": "主要由建基於信任和溝通的經紀網絡安排"
+   },
+   {
+    "doc": "25",
+    "text": "交易可由現金、物業或服務結算"
+   },
+   {
+    "doc": "25",
+    "text": "沒有資料或情報顯示金錢服務業採用哈瓦拉匯款方式"
+   }
+  ]
+ },
+ "m1-215": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "remittance behaviour of FDHs and the delivery channels of MSOs"
+   },
+   {
+    "doc": "25",
+    "text": "FDHs predominantly made their remittances through licensed MSOs"
+   },
+   {
+    "doc": "25",
+    "text": "generally completed by way of bank transfer instead of relying on the trust-based network of hawala"
+   },
+   {
+    "doc": "25",
+    "text": "whether involving hawala or not"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "外傭的匯款行為和主要為外傭服務的金錢服務經營者的交付渠道"
+   },
+   {
+    "doc": "25",
+    "text": "外傭主要經持牌金錢服務經營者進行匯款"
+   },
+   {
+    "doc": "25",
+    "text": "一般通過銀行轉帳完成，而非使用建基於信任的哈瓦拉網絡"
+   },
+   {
+    "doc": "25",
+    "text": "不論是否涉及哈瓦拉的無牌金錢服務活動採取執法行動"
+   }
+  ]
+ },
+ "m1-216": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "not uniform because of variations in their size and business models"
+   },
+   {
+    "doc": "25",
+    "text": "cash-intensive nature with global exposure"
+   },
+   {
+    "doc": "25",
+    "text": "transactions below customer identification and verification thresholds also pose relatively higher ML vulnerability"
+   },
+   {
+    "doc": "25",
+    "text": "smaller sized ones with fewer resources"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "規模和經營模式各有不同，所受的洗錢威脅和脆弱程度也有分別"
+   },
+   {
+    "doc": "25",
+    "text": "是現金密集的行業，又與全球聯繫"
+   },
+   {
+    "doc": "25",
+    "text": "在低於客戶身分識別和核實門檻的情況下進行交易，也會令業界較易被用作洗錢"
+   },
+   {
+    "doc": "25",
+    "text": "特別是資源較少的小型金錢服務經營者"
+   }
+  ]
+ },
+ "m1-217": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "form the basis for the formulation of more targeted responses"
+   },
+   {
+    "doc": "25",
+    "text": "changes since the 1st HRA"
+   },
+   {
+    "doc": "25",
+    "text": "extensive consultation, quantitative and qualitative data analysis"
+   },
+   {
+    "doc": "25",
+    "text": "shortcomings identified in the mutual evaluation"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "從而制訂更具針對性的應對方案"
+   },
+   {
+    "doc": "25",
+    "text": "還涵蓋自首次風險評估以來的變化"
+   },
+   {
+    "doc": "25",
+    "text": "廣泛諮詢及定量和定性數據分析"
+   },
+   {
+    "doc": "25",
+    "text": "相互評估報告所識別的不足之處"
+   }
+  ]
+ },
+ "m1-218": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "fraud and drugs-related crimes pose high and medium-high ML threats"
+   },
+   {
+    "doc": "25",
+    "text": "a medium level of vulnerability"
+   },
+   {
+    "doc": "25",
+    "text": "Hong Kong is exposed to a medium-high level of ML risk"
+   },
+   {
+    "doc": "25",
+    "text": "a medium-low level of TF risk, with threat and vulnerability both rated as medium-low"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "詐騙及與毒品相關的罪行為香港帶來屬高和中高水平的洗錢威脅"
+   },
+   {
+    "doc": "25",
+    "text": "而脆弱程度7則為中等水平"
+   },
+   {
+    "doc": "25",
+    "text": "香港面對的洗錢風險5為中至高水平"
+   },
+   {
+    "doc": "25",
+    "text": "香港面對的恐怖分子資金籌集風險屬中低水平，相關威脅和脆弱程度亦評為中低水平"
+   }
+  ]
+ },
+ "m1-219": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "its first assessment of PF risk as an integral part of the 2nd HRA"
+   },
+   {
+    "doc": "25",
+    "text": "also informs the private sector of the overall PF risk of Hong Kong"
+   },
+   {
+    "doc": "25",
+    "text": "Hong Kong may be exposed to external PF threat"
+   },
+   {
+    "doc": "25",
+    "text": "geographical proximity to proliferation-sanctioned states"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "第二次香港洗錢及恐怖分子資金籌集風險評估的工作之一"
+   },
+   {
+    "doc": "25",
+    "text": "亦可讓私營界別了解大規模毀滅武器擴散資金籌集風險"
+   },
+   {
+    "doc": "25",
+    "text": "香港可能面對外來的大規模毀滅武器擴散資金籌集威脅"
+   },
+   {
+    "doc": "25",
+    "text": "在地理上又鄰近因大規模毀滅武器擴散而受制裁的國家"
+   }
+  ]
+ },
+ "m1-220": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "openness and business friendliness could be a vulnerability"
+   },
+   {
+    "doc": "25",
+    "text": "target of those seeking to carry out UNSC-prohibited"
+   },
+   {
+    "doc": "25",
+    "text": "outside the traditional financial system"
+   },
+   {
+    "doc": "25",
+    "text": "well-implemented defence system by the private sector"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "其開放和便利營商的環境可成為一個脆弱之處"
+   },
+   {
+    "doc": "25",
+    "text": "可能使其成為那些尋求展開安理會禁止的貨運活動的目標"
+   },
+   {
+    "doc": "25",
+    "text": "在傳統金融體系之外，將虛擬資產用作籌款和資金流動的工具"
+   },
+   {
+    "doc": "25",
+    "text": "私人機構亦已實施完善的防禦系統"
+   }
+  ]
+ },
+ "m4-392": {
+  "en": [
+   {
+    "doc": "09",
+    "text": "addition of requirement in conducting proliferation financing (“PF”) risk assessment"
+   },
+   {
+    "doc": "09",
+    "text": "inclusive of a thorough review on all existing businesses and customers"
+   },
+   {
+    "doc": "09",
+    "text": "take appropriate measures to mitigate any PF risk identified"
+   },
+   {
+    "doc": "09",
+    "text": "member jurisdictions and private sectors to identify, assess, understand and mitigate PF risks"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "09",
+    "text": "新增了大殺傷力武器擴散融資(「擴散融資」)風險評估的規定"
+   },
+   {
+    "doc": "09",
+    "text": "包括全面檢視現有業務及客戶的狀況"
+   },
+   {
+    "doc": "09",
+    "text": "採取適當措施緩解已識別的擴散融資風險"
+   },
+   {
+    "doc": "09",
+    "text": "成員司法管轄區和私營機構須識別、評估、理解及緩解擴散融資風險"
+   }
+  ]
+ },
+ "m4-393": {
+  "en": [
+   {
+    "doc": "09",
+    "text": "having an effective and updated screening mechanism in place"
+   },
+   {
+    "doc": "09",
+    "text": "file suspicious transaction reports with the Joint Financial Intelligence Unit (“JFIU”) as soon as practicable for any genuine hits of designated persons or entities on the United Nations Sanction Lists during transaction monitoring"
+   },
+   {
+    "doc": "09",
+    "text": "or other suspicious activities in relation to PF encountered in the course of business"
+   },
+   {
+    "doc": "09",
+    "text": "must not establish business relationship or provide financial services to any designated individuals or entity subject to TFS in all circumstances"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "09",
+    "text": "應設立有效及適時更新的篩查機制"
+   },
+   {
+    "doc": "09",
+    "text": "如執行交易監察時發現與聯合國制裁名單的指明人士或實體真正吻合者"
+   },
+   {
+    "doc": "09",
+    "text": "或在業務過程中遇到涉及擴散融資的其他可疑活動"
+   },
+   {
+    "doc": "09",
+    "text": "在任何情況下，均不得與受針對性財政制裁的任何指明人士或實體建立業務關係，或向其提供金融服務"
+   }
+  ]
+ },
+ "m4-394": {
+  "en": [
+   {
+    "doc": "26",
+    "text": "may also target activities, such as trade in certain commodities"
+   },
+   {
+    "doc": "26",
+    "text": "lists of individuals, entities, vessels"
+   },
+   {
+    "doc": "26",
+    "text": "including terrorism, proliferation of weapons of mass destruction (“WMD”) and corruption"
+   },
+   {
+    "doc": "26",
+    "text": "as soon as practicable whenever there are such updates"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "26",
+    "text": "制裁決議可針對特定活動，例如若干商品的貿易"
+   },
+   {
+    "doc": "26",
+    "text": "就個人、實體、船隻等發出受制裁名單"
+   },
+   {
+    "doc": "26",
+    "text": "包括恐怖主義、大規模毀滅武器擴散及貪污"
+   },
+   {
+    "doc": "26",
+    "text": "須在實際可行情況下，盡快按所有新指定的名單篩查本身的客戶名單"
+   }
+  ]
+ },
+ "m4-395": {
+  "en": [
+   {
+    "doc": "26",
+    "text": "a time gap between issuance of new or revised sanctions resolutions"
+   },
+   {
+    "doc": "26",
+    "text": "there are offences under existing anti-money laundering and counter-terrorist financing laws that are relevant"
+   },
+   {
+    "doc": "26",
+    "text": "conduct outside Hong Kong which would constitute an indictable offence if it had occurred in Hong Kong"
+   },
+   {
+    "doc": "26",
+    "text": "irrespective of the legal position in the jurisdiction where such conduct took place"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "26",
+    "text": "時間上難免有落差"
+   },
+   {
+    "doc": "26",
+    "text": "現行針對洗錢及恐怖分子資金籌集的法例已有相關適用的罪行"
+   },
+   {
+    "doc": "26",
+    "text": "在香港以外地方發生，但若在香港發生即會構成可公訴罪行的行為"
+   },
+   {
+    "doc": "26",
+    "text": "不論發生該行為的司法管轄區的法律觀點為何"
+   }
+  ]
+ },
+ "m4-396": {
+  "en": [
+   {
+    "doc": "05",
+    "text": "retail business accepting foreign currencies in transactions"
+   },
+   {
+    "doc": "05",
+    "text": "consists solely of transactions for the purchase by that person of non-Hong Kong currencies in exchange for Hong Kong currency"
+   },
+   {
+    "doc": "05",
+    "text": "arranging for the receipt of money in a place outside Hong Kong"
+   },
+   {
+    "doc": "05",
+    "text": "will not accept any application for grant or renewal of licence if an applicant has been exempted"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "05",
+    "text": "例如在交易中接受外幣的零售業務"
+   },
+   {
+    "doc": "05",
+    "text": "只包括該人以港元貨幣作兌換的購入非港元貨幣的交易"
+   },
+   {
+    "doc": "05",
+    "text": "安排在香港以外地方收取金錢"
+   },
+   {
+    "doc": "05",
+    "text": "關長將不會接納任何由其提出要求批給牌照或將牌照續期的申請"
+   }
+  ]
+ },
+ "m4-397": {
+  "en": [
+   {
+    "doc": "05",
+    "text": "the premises are advertised (including a signboard on display) for meeting customers there"
+   },
+   {
+    "doc": "05",
+    "text": "merely for processing accounting or legal documents for your company"
+   },
+   {
+    "doc": "05",
+    "text": "Sharing the premises with other MSO to operate money service business will not be accepted"
+   },
+   {
+    "doc": "05",
+    "text": "must be clearly partitioned and distinguished from the other business"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "05",
+    "text": "該處所被宣傳（包括展示招牌）為用作會見客戶的處所"
+   },
+   {
+    "doc": "05",
+    "text": "為處理你公司的會計或法律文件而到會計師行或律師行"
+   },
+   {
+    "doc": "05",
+    "text": "不會接納與其他金錢服務經營者共用處所經營金錢服務業務"
+   },
+   {
+    "doc": "05",
+    "text": "必須設有明顯分隔，與其他業務清楚區分"
+   }
+  ]
+ },
+ "m4-398": {
+  "en": [
+   {
+    "doc": "05",
+    "text": "must maintain a physical presence in Hong Kong"
+   },
+   {
+    "doc": "05",
+    "text": "residential address/premises of an MSO"
+   },
+   {
+    "doc": "05",
+    "text": "written consent of every occupant of the premises"
+   },
+   {
+    "doc": "05",
+    "text": "which should be included in the tenancy agreement of the LMO or in a letter issued by the landlord"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "05",
+    "text": "必須在香港維持實體辦事地點"
+   },
+   {
+    "doc": "05",
+    "text": "金錢服務經營者的住址／住宅處所"
+   },
+   {
+    "doc": "05",
+    "text": "每名佔用人的書面同意"
+   },
+   {
+    "doc": "05",
+    "text": "有關准許應納入本地管理辦事處的租約，或由業主向申請人發出的准許信"
+   }
+  ]
+ },
+ "m4-399": {
+  "en": [
+   {
+    "doc": "05",
+    "text": "each director and each ultimate owner of the corporation"
+   },
+   {
+    "doc": "05",
+    "text": "directly or indirectly, entitled to exercise or control the exercise of more than 25% of the voting rights"
+   },
+   {
+    "doc": "05",
+    "text": "each director and each ultimate owner"
+   },
+   {
+    "doc": "05",
+    "text": "a fit and proper person to be associated with the business of operating a money service"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "05",
+    "text": "法團的每名董事"
+   },
+   {
+    "doc": "05",
+    "text": "直接或間接地有權行使在該法團的成員大會上的投票權的25%以上"
+   },
+   {
+    "doc": "05",
+    "text": "每名董事及每名最終擁有人"
+   },
+   {
+    "doc": "05",
+    "text": "均屬與經營金錢服務業務有聯繫的適當人選"
+   }
+  ]
+ },
+ "m4-400": {
+  "en": [
+   {
+    "doc": "05",
+    "text": "staff member(s) of the applicant authorized in writing by the board of directors"
+   },
+   {
+    "doc": "05",
+    "text": "clarify and elaborate any information of the submitted documents"
+   },
+   {
+    "doc": "05",
+    "text": "against the original identity document(s) of the declarant"
+   },
+   {
+    "doc": "05",
+    "text": "signed by the declarant in his or her presence"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "05",
+    "text": "董事局以書面授權的申請人的董事或員工"
+   },
+   {
+    "doc": "05",
+    "text": "就牌照申請所遞交文件的資料作出澄清及闡述"
+   },
+   {
+    "doc": "05",
+    "text": "與聲明人的身份證明文件的正本互相核對"
+   },
+   {
+    "doc": "05",
+    "text": "聲明人在其在場情況下簽署"
+   }
+  ]
+ },
+ "m4-401": {
+  "en": [
+   {
+    "doc": "05",
+    "text": "fails to nominate any eligible person(s) for the Assessment within seven day"
+   },
+   {
+    "doc": "05",
+    "text": "fails to produce all the supporting documents within specified period"
+   },
+   {
+    "doc": "05",
+    "text": "existing licence will lapse automatically upon the expiry of the validity period"
+   },
+   {
+    "doc": "05",
+    "text": "The licensee must cease money service operation"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "05",
+    "text": "持牌人未有在接獲邀請信當日起計7日內提名任何合資格人士"
+   },
+   {
+    "doc": "05",
+    "text": "持牌人未能在指明期限內遞交所有證明文件"
+   },
+   {
+    "doc": "05",
+    "text": "現有牌照將於有效期屆滿後自動失效"
+   },
+   {
+    "doc": "05",
+    "text": "持牌人必須停止經營金錢服務"
+   }
+  ]
+ },
+ "m4-402": {
+  "en": [
+   {
+    "doc": "05",
+    "text": "any new occupant of the premises refuses to give such a written consent"
+   },
+   {
+    "doc": "05",
+    "text": "fails to submit a periodic return on time"
+   },
+   {
+    "doc": "05",
+    "text": "an opportunity to be heard before revoking or suspending the licence"
+   },
+   {
+    "doc": "05",
+    "text": "within the period ending 21 days after the notice informing the licensee of the decision has been sent"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "05",
+    "text": "任何新佔用人拒絕給予該項書面同意"
+   },
+   {
+    "doc": "05",
+    "text": "持牌人未能按時遞交定期申報表"
+   },
+   {
+    "doc": "05",
+    "text": "在撤銷或暫時吊銷牌照之前，給予持牌人陳詞機會"
+   },
+   {
+    "doc": "05",
+    "text": "通知送出後的 21 日期間"
+   }
+  ]
+ },
+ "m4-403": {
+  "en": [
+   {
+    "doc": "05",
+    "text": "make an application in Form 5 to add the premises"
+   },
+   {
+    "doc": "05",
+    "text": "submit a Business Plan and updated AML Policy"
+   },
+   {
+    "doc": "05",
+    "text": "the proposing director needs to submit the fit and proper person declaration form"
+   },
+   {
+    "doc": "05",
+    "text": "must not operate a money service at any particular premises unless the CCE"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "05",
+    "text": "填寫表格5以提出申請加入該處所"
+   },
+   {
+    "doc": "05",
+    "text": "遞交業務計劃及經修訂的打擊洗錢政策"
+   },
+   {
+    "doc": "05",
+    "text": "擬成為董事的人則須遞交適當人選聲明表格"
+   },
+   {
+    "doc": "05",
+    "text": "除非關長已應有關持牌人的申請，將任何特定處所加入該牌照上，否則該持牌人不得"
+   }
+  ]
+ },
+ "m4-404": {
+  "en": [
+   {
+    "doc": "05",
+    "text": "the licensee needs to submit a fresh licence application"
+   },
+   {
+    "doc": "05",
+    "text": "a written submission with the CCE, including the updated Business Plan"
+   },
+   {
+    "doc": "05",
+    "text": "submit a new application to apply for a licence to operate a money service without particular premises"
+   },
+   {
+    "doc": "05",
+    "text": "must notify the CCE before the date of cessation"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "05",
+    "text": "持牌人須遞交新的牌照申請"
+   },
+   {
+    "doc": "05",
+    "text": "包括經修訂的業務計劃及打擊洗錢政策"
+   },
+   {
+    "doc": "05",
+    "text": "並提出新的牌照申請，以在沒有特定處所的情況下經營金錢服務"
+   },
+   {
+    "doc": "05",
+    "text": "持牌人必須在停業日期"
+   }
+  ]
+ },
+ "m4-405": {
+  "en": [
+   {
+    "doc": "01",
+    "text": "the individual directors, who must be natural persons, of a corporation"
+   },
+   {
+    "doc": "01",
+    "text": "not more than THREE directors can be nominated"
+   },
+   {
+    "doc": "01",
+    "text": "has a direct involvement in making decision on company policy and governance arrangement"
+   },
+   {
+    "doc": "01",
+    "text": "must attend the same session of the Assessment in all circumstances"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "01",
+    "text": "法團內必須屬自然人的個別董事"
+   },
+   {
+    "doc": "01",
+    "text": "不得提名超過三名董事應考能力評核"
+   },
+   {
+    "doc": "01",
+    "text": "要直接參與有關公司政策及管治安排的決策"
+   },
+   {
+    "doc": "01",
+    "text": "在任何情況下均必須應考同一時段的能力評核"
+   }
+  ]
+ },
+ "m4-406": {
+  "en": [
+   {
+    "doc": "01",
+    "text": "must not make more than two mistakes in each module"
+   },
+   {
+    "doc": "01",
+    "text": "attain a total score of 25 or above"
+   },
+   {
+    "doc": "01",
+    "text": "NO marks for marking two or more answers to the same question"
+   },
+   {
+    "doc": "01",
+    "text": "requests for amending the answers made beyond the Assessment time will NOT be considered"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "01",
+    "text": "在每個單元不可答錯超過兩題"
+   },
+   {
+    "doc": "01",
+    "text": "整份試卷取得的總數必須達 25 分或以上"
+   },
+   {
+    "doc": "01",
+    "text": "不得在一題中填寫多於一個答案，否則該題將不獲給予分數"
+   },
+   {
+    "doc": "01",
+    "text": "任何在答題時間以外提出更改答案的要求，將不被接納"
+   }
+  ]
+ },
+ "m4-407": {
+  "en": [
+   {
+    "doc": "01",
+    "text": "on your body or in your pockets during the Assessment"
+   },
+   {
+    "doc": "01",
+    "text": "Mobile phones must NOT be covered by anything and should be clearly seen by the invigilators"
+   },
+   {
+    "doc": "01",
+    "text": "whether used or unused"
+   },
+   {
+    "doc": "01",
+    "text": "must NOT copy anything from the question book onto the invitation letter"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "01",
+    "text": "放在桌上、桌內、身上或衣袋內"
+   },
+   {
+    "doc": "01",
+    "text": "手提電話必須不被任何物件遮蓋，讓監考員清楚看到"
+   },
+   {
+    "doc": "01",
+    "text": "不論是否曾經使用，均嚴禁攜離試場"
+   },
+   {
+    "doc": "01",
+    "text": "不可將問卷的任何內容抄寫在邀請信"
+   }
+  ]
+ },
+ "m4-408": {
+  "en": [
+   {
+    "doc": "01",
+    "text": "within seven days after the date of issuance of the result notification"
+   },
+   {
+    "doc": "01",
+    "text": "technical errors such as incorrect mark entries and data inconsistencies"
+   },
+   {
+    "doc": "01",
+    "text": "will not disclose the exact scores, the Assessment questions and the corresponding correct answers in any case"
+   },
+   {
+    "doc": "01",
+    "text": "A pass in the Assessment does not necessarily mean that you are eligible for a licence"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "01",
+    "text": "在發出成績通知當日起計 7 日內"
+   },
+   {
+    "doc": "01",
+    "text": "技術錯誤，例如輸入分數出錯及數據前後不一"
+   },
+   {
+    "doc": "01",
+    "text": "在任何情況下均不會披露實際分數、能力評核的試題及相關正確答案"
+   },
+   {
+    "doc": "01",
+    "text": "即使在能力評核成績取得合格成績，亦不代表合資格取得牌照"
+   }
+  ]
+ },
+ "m4-409": {
+  "en": [
+   {
+    "doc": "11",
+    "text": "unresolved criminal charges in Hong Kong or elsewhere"
+   },
+   {
+    "doc": "11",
+    "text": "any complaint made reasonably and in good faith"
+   },
+   {
+    "doc": "11",
+    "text": "nil money service for a prolonged period after the grant of licence"
+   },
+   {
+    "doc": "11",
+    "text": "Failure to comply with individual elements may not result"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "11",
+    "text": "在香港或其他地方於尚未結案的刑事檢控中屬於被告"
+   },
+   {
+    "doc": "11",
+    "text": "而投訴屬合理及真誠地提出"
+   },
+   {
+    "doc": "11",
+    "text": "獲批給牌照後長時間沒有提供金錢服務"
+   },
+   {
+    "doc": "11",
+    "text": "任何人即使不能符合個別項目，亦未必會導致關長不信訥"
+   }
+  ]
+ },
+ "m4-410": {
+  "en": [
+   {
+    "doc": "12",
+    "text": "individually may not justify a pecuniary penalty, but which do so when taken collectively"
+   },
+   {
+    "doc": "12",
+    "text": "caused or had the potential to cause loss"
+   },
+   {
+    "doc": "12",
+    "text": "promptly, effectively and completely brought the contravention"
+   },
+   {
+    "doc": "12",
+    "text": "the CCE will take into account the size and financial resources of the licensee"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "12",
+    "text": "若干犯個別事項，未必足以施加罰款，但若干犯所有該等事項，則可施加罰款"
+   },
+   {
+    "doc": "12",
+    "text": "造成或有可能造成損失"
+   },
+   {
+    "doc": "12",
+    "text": "迅速、有效及完全地知會關長"
+   },
+   {
+    "doc": "12",
+    "text": "關長將顧及有關持牌人的規模及財政資源"
+   }
+  ]
+ },
+ "m4-411": {
+  "en": [
+   {
+    "doc": "20",
+    "text": "elaborate the function/purpose of this office and its whereabouts"
+   },
+   {
+    "doc": "20",
+    "text": "information on all agents and overseas MSOs together with the service agreement"
+   },
+   {
+    "doc": "20",
+    "text": "provide details on how will the company provide money service without bank account"
+   },
+   {
+    "doc": "20",
+    "text": "provide the name of the company/person in relation to such activities"
+   },
+   {
+    "doc": "20",
+    "text": "provide the name of the other regulator/competent authority"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "20",
+    "text": "闡述後勤辦事處的職能／目的及位置"
+   },
+   {
+    "doc": "20",
+    "text": "資料，並提供服務協議"
+   },
+   {
+    "doc": "20",
+    "text": "須詳述如何在沒有銀行戶口的情況下提供金錢服務"
+   },
+   {
+    "doc": "20",
+    "text": "提供這類活動所涉公司／人等的名稱／姓名"
+   },
+   {
+    "doc": "20",
+    "text": "提供其他監管機構／主管當局的名稱"
+   }
+  ]
+ },
+ "m4-412": {
+  "en": [
+   {
+    "doc": "21",
+    "text": "must be based on the applicant’s risk assessment and meet its particular business risk profile"
+   },
+   {
+    "doc": "21",
+    "text": "Percentage of face-to-face and non-face-to-face transactions"
+   },
+   {
+    "doc": "21",
+    "text": "procedures for monitoring the company’s overseas branch and agent’s compliance"
+   },
+   {
+    "doc": "21",
+    "text": "CDD, transaction, screening and CRA records"
+   },
+   {
+    "doc": "21",
+    "text": "testing their staff’s understanding on the above issues and their ability to recognize suspicious transactions"
+   },
+   {
+    "doc": "21",
+    "text": "who have been trained, when the staff received the training and type of training provided"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "21",
+    "text": "政策必須根據申請人的風險評估制訂，並與其業務的風險狀況相稱"
+   },
+   {
+    "doc": "21",
+    "text": "面對面及非面對面交易所佔百分率"
+   },
+   {
+    "doc": "21",
+    "text": "按甚麼程序監察公司外地分行及代理人有否遵從"
+   },
+   {
+    "doc": "21",
+    "text": "客戶盡職審查、交易、篩查及客戶風險評估紀錄"
+   },
+   {
+    "doc": "21",
+    "text": "測試職員對上述事宜的理解，以及他們辨認可疑交易的能力"
+   },
+   {
+    "doc": "21",
+    "text": "誰人已接受培訓、職員何時接受培訓，以及所提供培訓的類別"
+   }
+  ]
+ },
+ "m5-115": {
+  "en": [
+   {
+    "doc": "24",
+    "text": "Whether one or more of the indicators suggests TBML is also dependent on the business lines, products or services that an institution offers"
+   },
+   {
+    "doc": "24",
+    "text": "how it interacts with its customers"
+   },
+   {
+    "doc": "24",
+    "text": "and on the institution’s human and technological resources"
+   },
+   {
+    "doc": "24",
+    "text": "take into consideration the totality of the customer profile, including information obtained from the customer during the due diligence process, trade financing methods involved in the transactions, and other relevant contextual risk factors"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "24",
+    "text": "Whether one or more of the indicators suggests TBML is also dependent on the business lines, products or services that an institution offers",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "how it interacts with its customers",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "and on the institution’s human and technological resources",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "take into consideration the totality of the customer profile, including information obtained from the customer during the due diligence process, trade financing methods involved in the transactions, and other relevant contextual risk factors",
+    "language": "en"
+   }
+  ]
+ },
+ "m6-471": {
+  "en": [
+   {
+    "doc": "24",
+    "text": "A trade entity is registered at an address that is likely to be a mass registration address"
+   },
+   {
+    "doc": "24",
+    "text": "a trade entity appears to use residential properties, without having a commercial or industrial space, with no reasonable explanation"
+   },
+   {
+    "doc": "24",
+    "text": "the website of a trade entity contains mainly boilerplate material taken from other websites"
+   },
+   {
+    "doc": "24",
+    "text": "the website indicates a lack of knowledge regarding the particular product or industry in which the entity is trading"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "24",
+    "text": "A trade entity is registered at an address that is likely to be a mass registration address",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "a trade entity appears to use residential properties, without having a commercial or industrial space, with no reasonable explanation",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "the website of a trade entity contains mainly boilerplate material taken from other websites",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "the website indicates a lack of knowledge regarding the particular product or industry in which the entity is trading",
+    "language": "en"
+   }
+  ]
+ },
+ "m6-472": {
+  "en": [
+   {
+    "doc": "24",
+    "text": "The corporate structure of a trade entity appears unusually complex and illogical, such as the involvement of shell companies"
+   },
+   {
+    "doc": "24",
+    "text": "A trade entity is registered or has offices in a jurisdiction with weak AML/CFT compliance"
+   },
+   {
+    "doc": "24",
+    "text": "A trade entity maintains a minimal number of working staff, inconsistent with its volume of traded commodities"
+   },
+   {
+    "doc": "24",
+    "text": "Owners or senior managers of a trade entity appear to be nominees acting to conceal the actual beneficial owners, e.g. they lack experience in business management or lack knowledge of transaction details"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "24",
+    "text": "The corporate structure of a trade entity appears unusually complex and illogical, such as the involvement of shell companies",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "A trade entity is registered or has offices in a jurisdiction with weak AML/CFT compliance",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "A trade entity maintains a minimal number of working staff, inconsistent with its volume of traded commodities",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "Owners or senior managers of a trade entity appear to be nominees acting to conceal the actual beneficial owners, e.g. they lack experience in business management or lack knowledge of transaction details",
+    "language": "en"
+   }
+  ]
+ },
+ "m6-473": {
+  "en": [
+   {
+    "doc": "24",
+    "text": "it lacks regular payroll transactions in line with the number of stated employees, transactions relating to operating costs, tax remittances"
+   },
+   {
+    "doc": "24",
+    "text": "The name of a trade entity appears to be a copy of the name of a well-known corporation or is very similar to it"
+   },
+   {
+    "doc": "24",
+    "text": "A trade entity has unexplained periods of dormancy"
+   },
+   {
+    "doc": "24",
+    "text": "An entity is not compliant with regular business obligations, such as filing VAT returns"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "24",
+    "text": "it lacks regular payroll transactions in line with the number of stated employees, transactions relating to operating costs, tax remittances",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "The name of a trade entity appears to be a copy of the name of a well-known corporation or is very similar to it",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "A trade entity has unexplained periods of dormancy",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "An entity is not compliant with regular business obligations, such as filing VAT returns",
+    "language": "en"
+   }
+  ]
+ },
+ "m6-474": {
+  "en": [
+   {
+    "doc": "24",
+    "text": "a car dealer is exporting clothing or a precious metals dealer is importing seafood"
+   },
+   {
+    "doc": "24",
+    "text": "A trade entity engages in complex trade deals involving numerous third-party intermediaries in incongruent lines of business"
+   },
+   {
+    "doc": "24",
+    "text": "A trade entity consistently displays unreasonably low profit margins"
+   },
+   {
+    "doc": "24",
+    "text": "determining the profit margin may require estimating the “fair price” of the traded commodity, which may be difficult for certain types of commodities"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "24",
+    "text": "a car dealer is exporting clothing or a precious metals dealer is importing seafood",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "A trade entity engages in complex trade deals involving numerous third-party intermediaries in incongruent lines of business",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "A trade entity consistently displays unreasonably low profit margins",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "determining the profit margin may require estimating the “fair price” of the traded commodity, which may be difficult for certain types of commodities",
+    "language": "en"
+   }
+  ]
+ },
+ "m6-475": {
+  "en": [
+   {
+    "doc": "24",
+    "text": "A trade entity purchases commodities, allegedly on its own account, but the purchases clearly exceed the economic capabilities of the entity"
+   },
+   {
+    "doc": "24",
+    "text": "the transactions are financed through sudden influxes of cash deposits or third-party transfers to the entity’s accounts"
+   },
+   {
+    "doc": "24",
+    "text": "A newly formed or recently re-activated trade entity engages in high-volume and high-value trade activity"
+   },
+   {
+    "doc": "24",
+    "text": "intermingling of different types of trade finance products for different segments of trade transactions"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "24",
+    "text": "A trade entity purchases commodities, allegedly on its own account, but the purchases clearly exceed the economic capabilities of the entity",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "the transactions are financed through sudden influxes of cash deposits or third-party transfers to the entity’s accounts",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "A newly formed or recently re-activated trade entity engages in high-volume and high-value trade activity",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "intermingling of different types of trade finance products for different segments of trade transactions",
+    "language": "en"
+   }
+  ]
+ },
+ "m7-193": {
+  "en": [
+   {
+    "doc": "24",
+    "text": "contradictions between the name of the exporting entity and the name of the recipient of the payment"
+   },
+   {
+    "doc": "24",
+    "text": "differing prices on invoices and underlying contracts"
+   },
+   {
+    "doc": "24",
+    "text": "the subject of the contract is only described generically or non-specifically"
+   },
+   {
+    "doc": "24",
+    "text": "Contracts supporting complex or regular trade transactions appear to be unusually simple"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "24",
+    "text": "contradictions between the name of the exporting entity and the name of the recipient of the payment",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "differing prices on invoices and underlying contracts",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "the subject of the contract is only described generically or non-specifically",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "Contracts supporting complex or regular trade transactions appear to be unusually simple",
+    "language": "en"
+   }
+  ]
+ },
+ "m7-194": {
+  "en": [
+   {
+    "doc": "24",
+    "text": "are a resubmission of previously rejected documents"
+   },
+   {
+    "doc": "24",
+    "text": "The value of registered imports of an entity displays significant mismatches to the entity’s volume of foreign bank transfers for imports"
+   },
+   {
+    "doc": "24",
+    "text": "the value of registered exports shows a significant mismatch with incoming foreign bank transfers"
+   },
+   {
+    "doc": "24",
+    "text": "Commodities imported into a country within the framework of temporary importation and inward processing regime are subsequently exported with falsified documents"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "24",
+    "text": "are a resubmission of previously rejected documents",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "The value of registered imports of an entity displays significant mismatches to the entity’s volume of foreign bank transfers for imports",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "the value of registered exports shows a significant mismatch with incoming foreign bank transfers",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "Commodities imported into a country within the framework of temporary importation and inward processing regime are subsequently exported with falsified documents",
+    "language": "en"
+   }
+  ]
+ },
+ "m5-116": {
+  "en": [
+   {
+    "doc": "24",
+    "text": "Some of the risk indicators require the cross-comparison of various data elements (e.g. financial transactions, customs data, and open market prices) often held in external sources"
+   },
+   {
+    "doc": "24",
+    "text": "Due to this reliance on external data, the private sector will not observe all of the indicators identified below"
+   },
+   {
+    "doc": "24",
+    "text": "For some of the risk indicators, the private sector will need additional contextual information from competent authorities"
+   },
+   {
+    "doc": "24",
+    "text": "personnel responsible for compliance, transaction monitoring, investigative analysis, client onboarding and relationship management"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "24",
+    "text": "Some of the risk indicators require the cross-comparison of various data elements (e.g. financial transactions, customs data, and open market prices) often held in external sources",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "Due to this reliance on external data, the private sector will not observe all of the indicators identified below",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "For some of the risk indicators, the private sector will need additional contextual information from competent authorities",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "personnel responsible for compliance, transaction monitoring, investigative analysis, client onboarding and relationship management",
+    "language": "en"
+   }
+  ]
+ },
+ "m7-195": {
+  "en": [
+   {
+    "doc": "24",
+    "text": "the entity redirects payment to a previously unknown entity at the very last moment"
+   },
+   {
+    "doc": "24",
+    "text": "a “pay-through” or “transit” account with a rapid movement of high-volume transactions and a small end-of-day balance without clear business reasons"
+   },
+   {
+    "doc": "24",
+    "text": "Payments are sent or received in large round amounts for trade in sectors where this is deemed as unusual"
+   },
+   {
+    "doc": "24",
+    "text": "Transaction activity associated with a trade entity increases in volume quickly and significantly, and then goes dormant after a short period of time"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "24",
+    "text": "the entity redirects payment to a previously unknown entity at the very last moment",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "a “pay-through” or “transit” account with a rapid movement of high-volume transactions and a small end-of-day balance without clear business reasons",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "Payments are sent or received in large round amounts for trade in sectors where this is deemed as unusual",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "text": "Transaction activity associated with a trade entity increases in volume quickly and significantly, and then goes dormant after a short period of time",
+    "language": "en"
+   }
+  ]
+ },
+ "m5-117": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "each MSO will be given an overall risk rating and an impact rating"
+   },
+   {
+    "doc": "25",
+    "text": "an impact rating reflecting its annual turnover"
+   },
+   {
+    "doc": "25",
+    "text": "combined into a matrix to determine the appropriate supervisory extent and priority"
+   },
+   {
+    "doc": "25",
+    "text": "a high, medium-high, medium or low supervision priority category"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "每名金錢服務經營者會被給予一個整體風險評級及一個反映其每年營業額對行業影響的評級"
+   },
+   {
+    "doc": "25",
+    "text": "一個反映其每年營業額對行業影響的評級"
+   },
+   {
+    "doc": "25",
+    "text": "這些評級將被組合成一個總滙模型，以確定適當的監管範圍和優先次序"
+   },
+   {
+    "doc": "25",
+    "text": "高級、中高級、中級或低級的監督優次評級"
+   }
+  ]
+ },
+ "m7-196": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "periodic risk profiling"
+   },
+   {
+    "doc": "25",
+    "text": "examination of the business plan and AML/CFT policy submitted by the applicants/licensees"
+   },
+   {
+    "doc": "25",
+    "text": "analysis of regular business returns, feedbacks collected from on-site interviews"
+   },
+   {
+    "doc": "25",
+    "text": "The outreach exercises' outcomes have contributed significantly to formulating the supervision priority categories and refining our risk-based supervisory strategies"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "定期評估風險狀況"
+   },
+   {
+    "doc": "25",
+    "text": "審視申請人或持牌人提交的業務計劃和打擊洗錢及恐怖分子資金籌集政策"
+   },
+   {
+    "doc": "25",
+    "text": "分析定期業務報表、從實地面談收集意見"
+   },
+   {
+    "doc": "25",
+    "text": "外展工作的結果大大提升海關在制訂監督優次類別和改善風險為本監管策略方面的工作"
+   }
+  ]
+ },
+ "m7-197": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "off-site monitoring is strategically deployed to complement on-site inspections targeting MSOs of varying risk profiles"
+   },
+   {
+    "doc": "25",
+    "text": "reviewing and evaluating non-high-risk MSOs for routine check-ups"
+   },
+   {
+    "doc": "25",
+    "text": "a prelude to a later on-site inspection for collecting advance information and making preliminary assessment"
+   },
+   {
+    "doc": "25",
+    "text": "required to attend interviews in the C&ED’s office and provide the requisite documents for scrutiny by the C&ED within a specified period"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "進行非實地監察，以配合對不同風險狀況的金錢服務經營者的實地監察"
+   },
+   {
+    "doc": "25",
+    "text": "檢視和評估非高風險的金錢服務經營者以作出常規查核"
+   },
+   {
+    "doc": "25",
+    "text": "作為實地視察前先收集資料和初步評估的程序"
+   },
+   {
+    "doc": "25",
+    "text": "須到海關辦事處出席面談，並須在指定時間內提供所需文件供海關審閱"
+   }
+  ]
+ },
+ "m5-118": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "enhanced the regulatory regime to implement more proper and proportionate licensing requirements"
+   },
+   {
+    "doc": "25",
+    "text": "For existing MSO licensees, the C&ED launched a sector-wide outreach programme"
+   },
+   {
+    "doc": "25",
+    "text": "the C&ED would take necessary follow-up supervisory actions such as providing the MSOs with relevant AML/CFT guidance"
+   },
+   {
+    "doc": "25",
+    "text": "tailor-made training to make up the deficiencies concerned"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "海關加強其監管制度，實施了更適當合宜的發牌條件"
+   },
+   {
+    "doc": "25",
+    "text": "至於現有持牌人，海關為整個金錢服務業推出了一項外展計劃"
+   },
+   {
+    "doc": "25",
+    "text": "海關會採取必要的跟進和監管行動，例如向他們提供相關的打擊洗錢及恐怖分子資金籌集指引"
+   },
+   {
+    "doc": "25",
+    "text": "提供專門培訓，以彌補箇中不足之處"
+   }
+  ]
+ },
+ "m7-198": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "strengthen the sector’s understanding of emerging trends and to address their shortcomings"
+   },
+   {
+    "doc": "25",
+    "text": "has enhanced the quantity and quality of STRs"
+   },
+   {
+    "doc": "25",
+    "text": "the C&ED established a closer cooperative relationship with the InvestHK to jointly organise the webinars for local and overseas-based MSOs"
+   },
+   {
+    "doc": "25",
+    "text": "collaborates with the Hong Kong Money Service Operators Association to exchange views on industry best practices and disseminate the latest regulatory requirements"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "協助業界更認識新趨勢和改善現有不足之處"
+   },
+   {
+    "doc": "25",
+    "text": "可疑交易報告的數量上升、質量也有改善"
+   },
+   {
+    "doc": "25",
+    "text": "海關與投資推廣署建立了更緊密的合作關係，一同為本地和海外金錢服務經營者舉辦網絡研討會"
+   },
+   {
+    "doc": "25",
+    "text": "與香港金錢服務業協會合作，就業界的最佳作業方式交換意見，並向業界講解最新的監管規定"
+   }
+  ]
+ },
+ "m5-119": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "facilitate the C&ED’s assessment and determination of the risk profiles of individual MSOs"
+   },
+   {
+    "doc": "25",
+    "text": "assist the MSOs in formulating their own AML/CFT policies"
+   },
+   {
+    "doc": "25",
+    "text": "address concerns and difficulties in adapting to the regulatory regime"
+   },
+   {
+    "doc": "25",
+    "text": "addressing their shortcomings to dovetail the implementation of risk-based monitoring"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "有助海關評估和確定個別金錢服務經營者的風險狀況"
+   },
+   {
+    "doc": "25",
+    "text": "協助金錢服務經營者制訂本身的打擊洗錢及恐怖分子資金籌集政策"
+   },
+   {
+    "doc": "25",
+    "text": "回應業界在適應監管制度上的關注問題和困難之處"
+   },
+   {
+    "doc": "25",
+    "text": "協助他們處理現時在推行上文第5.4.18 及5.4.20 段所述的風險為本監察工作時的不足之處"
+   }
+  ]
+ },
+ "m5-120": {
+  "en": [
+   {
+    "doc": "25",
+    "text": "encourage the adoption of innovation and new technology to enhance MSOs’ efficiency in AML/CFT compliance"
+   },
+   {
+    "doc": "25",
+    "text": "proactively conduct special theme-based review exercises targeting high-risk areas"
+   },
+   {
+    "doc": "25",
+    "text": "further study the emerging ML/TF/PF threats arising from cybercrime to formulate supervisory measures and provide guidance"
+   },
+   {
+    "doc": "25",
+    "text": "enhance MSOs’ capability in particular in ML/TF/PF risk understanding, STR reporting obligations, and TF/PF TFS screening"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "25",
+    "text": "鼓勵金錢服務經營者創新及應用新科技，以更有效遵守打擊洗錢及恐怖分子資金籌集的規定"
+   },
+   {
+    "doc": "25",
+    "text": "針對高風險範疇積極進行特別的專題檢討"
+   },
+   {
+    "doc": "25",
+    "text": "進一步研究由網絡犯罪引起新興的洗錢／恐怖分子資金籌集／大規模毀滅武器擴散資金籌集威脅，以制訂監管措施並為金錢服務業提供指引"
+   },
+   {
+    "doc": "25",
+    "text": "提升金錢服務經營者的能力，尤其是了解洗錢／恐怖分子資金籌集／大規模毀滅武器擴散資金籌集的風險、舉報可疑交易的責任"
+   }
+  ]
+ },
+ "m5-121": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "the development of new products and new business practices, including new delivery mechanisms"
+   },
+   {
+    "doc": "03",
+    "text": "The scale and scope of the institutional ML/TF risk assessment should be commensurate with the nature, size and complexity of the MSO’s business"
+   },
+   {
+    "doc": "03",
+    "text": "An MSO should undertake the risk assessment prior to the launch of the new products, new business practices, or the use of new or developing technologies"
+   },
+   {
+    "doc": "03",
+    "text": "the acquisition of new customer segments or delivery channels, the launch of new products and services by the MSO, or any significant changes of the MSO’s operational processes, target customers and business counterparts."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "開發新產品及新經營方法，包括新的交付機制"
+   },
+   {
+    "doc": "03",
+    "text": "機構層面的洗錢／恐怖分子資金籌集風險評估的規模和範圍應與金錢服務經營者的業務性質、規模及複雜程度相稱"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者推出新產品、新經營方法或使用嶄新或開發中的科技前，應事先進行風險評估"
+   },
+   {
+    "doc": "03",
+    "text": "收購新的客戶類別或交付渠道、金錢服務經營者推出新的產品及服務，或金錢服務經營者的營運程序、目標客戶及交易對手有重大改變。"
+   }
+  ]
+ },
+ "m5-122": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "provided that the assessments adequately reflect ML/TF risks posed to the MSO in the local context"
+   },
+   {
+    "doc": "03",
+    "text": "it may make reference to or rely on those assessments provided that the assessments adequately reflect ML/TF risks posed to the MSO in the local context"
+   },
+   {
+    "doc": "03",
+    "text": "obtaining the approval of senior management on the risk assessment results"
+   },
+   {
+    "doc": "03",
+    "text": "the evaluation made on the adequacy and appropriateness of the MSO’s AML/CFT Systems"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "惟有關評估須充分反映金錢服務經營者在本地層面所面對的洗錢／恐怖分子資金籌集風險"
+   },
+   {
+    "doc": "03",
+    "text": "則該金錢服務經營者可參考或依賴有關評估，惟有關評估須充分反映金錢服務經營者在本地層面所面對的洗錢／恐怖分子資金籌集風險"
+   },
+   {
+    "doc": "03",
+    "text": "由高級管理層審批風險評估結果"
+   },
+   {
+    "doc": "03",
+    "text": "就金錢服務經營者的打擊洗錢／恐怖分子資金籌集制度是否充分和適當而作出的評估"
+   }
+  ]
+ },
+ "m5-123": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "AML/CFT Systems are not permitted to be simplified whenever there is a suspicion of ML/TF"
+   },
+   {
+    "doc": "03",
+    "text": "an MSO complies with the statutory requirements set out in the Schedule 2 to the AMLO and the requirements set out in paragraphs [2.2], [2.3] and [3.2]"
+   },
+   {
+    "doc": "03",
+    "text": "monitor the implementation of those AML/CFT Systems referred to in (a), and to enhance them if necessary"
+   },
+   {
+    "doc": "03",
+    "text": "take enhanced measures to manage and mitigate the risks where higher risks are identified"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "如懷疑有洗錢／恐怖分子資金籌集的情況，則不准簡化打擊洗錢／恐怖分子資金籌集制度"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者符合打擊洗錢條例附表2載列的法定規定及第[2.2]、[2.3]及[3.2]段載列的規定"
+   },
+   {
+    "doc": "03",
+    "text": "監察(a)項提及的打擊洗錢／恐怖分子資金籌集制度的推行情況，並視乎需要優化有關制度"
+   },
+   {
+    "doc": "03",
+    "text": "在識別出較高風險時採取更嚴格的措施，以管理和減低風險"
+   }
+  ]
+ },
+ "m5-124": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "Depending on the size of an MSO, the functions of CO and MLRO may be performed by the same person"
+   },
+   {
+    "doc": "03",
+    "text": "The senior management of an MSO is responsible for implementing effective AML/CFT Systems"
+   },
+   {
+    "doc": "03",
+    "text": "appropriately qualified with sufficient AML/CFT knowledge"
+   },
+   {
+    "doc": "03",
+    "text": "equipped with sufficient resources, including staff and appropriate cover for the absence of the CO and MLRO"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "合規主任及洗錢報告主任的職能可由同一人執行，視乎金錢服務經營者的規模而定"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者的高級管理層有責任推行有效的打擊洗錢／恐怖分子資金籌集風險制度"
+   },
+   {
+    "doc": "03",
+    "text": "擁有合適資格及具備充足的打擊洗錢／恐怖分子資金籌集知識"
+   },
+   {
+    "doc": "03",
+    "text": "配備充足資源，包括職員及合規主任及洗錢報告主任的適當替補人選"
+   }
+  ]
+ },
+ "m5-125": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "Management information regarding ML/TF risks and the AML/CFT Systems should be communicated to them in a timely, complete, understandable and accurate manner"
+   },
+   {
+    "doc": "03",
+    "text": "communicating key AML/CFT issues with senior management, including, where appropriate, significant compliance deficiencies"
+   },
+   {
+    "doc": "03",
+    "text": "Management information regarding ML/TF risks and the AML/CFT Systems should be communicated to them in a timely, complete, understandable and accurate manner"
+   },
+   {
+    "doc": "03",
+    "text": "The board of directors or its delegated committee (where applicable), and senior management of an MSO should have a clear understanding of its ML/TF risks"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "關於洗錢／恐怖分子資金籌集風險及打擊洗錢／恐怖分子資金籌集制度的管理資料，應以合時、完整、易於理解及準確方式通知高級管理層"
+   },
+   {
+    "doc": "03",
+    "text": "與高級管理層就打擊洗錢／恐怖分子資金籌集的主要問題進行溝通，包括（如適用）重大的合規不足情況"
+   },
+   {
+    "doc": "03",
+    "text": "關於洗錢／恐怖分子資金籌集風險及打擊洗錢／恐怖分子資金籌集制度的管理資料，應以合時、完整、易於理解及準確方式通知高級管理層"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者的董事會或獲其授權的委員會（如適用）及高級管理層應清楚了解金錢服務經營者的洗錢／恐怖分子資金籌集風險"
+   }
+  ]
+ },
+ "m5-126": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "The frequency and extent of the review should be commensurate with the nature, size and complexity of its business and the ML/TF risks arising from those businesses"
+   },
+   {
+    "doc": "03",
+    "text": "effectiveness of the compliance function"
+   },
+   {
+    "doc": "03",
+    "text": "Where appropriate, the MSO should also seek a review from external parties"
+   },
+   {
+    "doc": "03",
+    "text": "An MSO should establish an independent audit function which should have a direct line of communication to the senior management of the MSO. The function should have sufficient expertise and resources to enable it to carry out its responsibilities, including independent reviews of the MSO’s AML/CFT Systems."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "覆核的頻密程度及範圍應與金錢服務經營者的業務性質、規模及複雜程度，以及該等業務所產生的洗錢／恐怖分子資金籌集風險相稱"
+   },
+   {
+    "doc": "03",
+    "text": "合規職能是否有效"
+   },
+   {
+    "doc": "03",
+    "text": "在適當情況下，金錢服務經營者亦應尋求外界進行覆核"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應設立獨立的審核職能。這職能應能與金錢服務經營者的高級管理層直接溝通。此職能應具備充足的專門知識及資源，讓其履行職責，包括對金錢服務經營者的打擊洗錢／恐怖分子資金籌集制度作出獨立覆核。"
+   }
+  ]
+ },
+ "m5-127": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "(a) inform the CCE of such failure; and (b) take additional measures to effectively mitigate ML/TF risks faced by the branch or subsidiary undertaking as a result of its inability to comply with the requirements."
+   },
+   {
+    "doc": "03",
+    "text": "apply the higher of the two sets of requirements, to the extent that host jurisdiction’s laws and regulations permit"
+   },
+   {
+    "doc": "03",
+    "text": "subject to adequate safeguards on the protection of confidentiality and use of information being shared, including safeguards to prevent tipping off"
+   },
+   {
+    "doc": "03",
+    "text": "a Hong Kong-incorporated MSO with overseas branches or subsidiary undertakings that carry on the same business as a financial institution (FI) as defined in the AMLO should implement group-wide AML/CFT Systems"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "(a)將有關不能遵從規定的情況通知關長；及(b)採取額外措施，以便有效地減低該分行或附屬企業因不能遵從該等規定而面對的洗錢／恐怖分子資金籌集風險。"
+   },
+   {
+    "doc": "03",
+    "text": "於所在的司法管轄區法律及規例准許的範圍內執行兩者中較嚴格的規定"
+   },
+   {
+    "doc": "03",
+    "text": "並在妥善保障共用資料的保密需要及用途（包括防止通風報訊）的情況下"
+   },
+   {
+    "doc": "03",
+    "text": "在香港成立為法團的金錢服務經營者如有外地分行或符合打擊洗錢條例所界定的經營與金融機構相同的業務的附屬企業"
+   }
+  ]
+ },
+ "m5-128": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "the general level and quality of the jurisdiction’s law enforcement efforts related to AML/CFT"
+   },
+   {
+    "doc": "03",
+    "text": "results of internal or external audits"
+   },
+   {
+    "doc": "03",
+    "text": "quantitative and qualitative information obtained from relevant internal and external sources to identify, manage and mitigate the risks"
+   },
+   {
+    "doc": "03",
+    "text": "including appropriately qualified staff with access to ongoing AML/CFT training and development"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "有關司法管轄區就打擊洗錢／恐怖分子資金籌集而採取的執法工作的一般水平及質素"
+   },
+   {
+    "doc": "03",
+    "text": "內部或外部審計的結果"
+   },
+   {
+    "doc": "03",
+    "text": "從相關的內部與外部來源取得的數量及質量分析資料，以識別、管理及減低風險"
+   },
+   {
+    "doc": "03",
+    "text": "包括可在打擊洗錢／恐怖分子資金籌集方面持續接受培訓及進修並具備合適資格的員工"
+   }
+  ]
+ },
+ "m5-129": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "Based on a holistic view of the information obtained in the context of the application of CDD measures, an MSO should be able to finalise the customer risk assessment"
+   },
+   {
+    "doc": "03",
+    "text": "the amount and type of information obtained, and the extent to which this information is verified, should be increased where the ML/TF risks associated with the business relationship are higher"
+   },
+   {
+    "doc": "03",
+    "text": "which determines the level and type of ongoing monitoring (including ongoing CDD and transaction monitoring), and support the MSO’s decision whether to enter into, continue or terminate, the business relationship."
+   },
+   {
+    "doc": "03",
+    "text": "(a) how it assesses the customer’s ML/TF risks; and (b) the extent of CDD measures and ongoing monitoring is appropriate based on that customer’s ML/TF risks."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "金錢服務經營者綜合審視在執行盡職審查措施期間所索取的資料後，應能據此敲定客戶風險評估"
+   },
+   {
+    "doc": "03",
+    "text": "如果與業務關係有關的洗錢／恐怖分子資金籌集風險較高，便需索取數量及類別更多的資料，並以更嚴謹方式核實資料"
+   },
+   {
+    "doc": "03",
+    "text": "評估結果將決定持續監察（包括持續的盡職審查及持續的交易監察）的程度和類別，並支持金錢服務經營者就建立、繼續或終止業務關係所作的決定。"
+   },
+   {
+    "doc": "03",
+    "text": "(a)它如何評估客戶的洗錢／恐怖分子資金籌集風險；及(b)基於該客戶的洗錢／恐怖分子資金籌集風險，所執行的盡職審查措施及持續監察程度是合適的。"
+   }
+  ]
+ },
+ "m5-130": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "an MSO should adopt an RBA in the design and implementation of its customer risk assessment framework"
+   },
+   {
+    "doc": "03",
+    "text": "the customer risk assessment framework will include customer risk factors; country risk factors; and product, service, transaction or delivery channel risk factors"
+   },
+   {
+    "doc": "03",
+    "text": "should be designed based on the results of MSO’s institutional ML/TF risk assessment"
+   },
+   {
+    "doc": "03",
+    "text": "the complexity of the framework should be commensurate with the nature and size of the MSO’s business"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "金錢服務經營者制訂及執行本身的客戶風險評估框架時，應採用風險為本的方法"
+   },
+   {
+    "doc": "03",
+    "text": "客戶風險評估框架會包含客戶風險因素；國家風險因素；以及產品、服務、交易或交付渠道的風險因素"
+   },
+   {
+    "doc": "03",
+    "text": "並應根據金錢服務經營者在機構層面進行洗錢／恐怖分子資金籌集風險評估的結果制訂"
+   },
+   {
+    "doc": "03",
+    "text": "框架的複雜程度亦應與金錢服務經營者業務的性質和規模相稱"
+   }
+  ]
+ },
+ "m5-131": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "ensuring AML/CFT staff training is adequate, appropriate and effective"
+   },
+   {
+    "doc": "03",
+    "text": "review of internal disclosures and exception reports and, in light of all available relevant information, determining whether or not it is necessary to make a report to the JFIU"
+   },
+   {
+    "doc": "03",
+    "text": "An MSO should appoint an MLRO as a central reference point for reporting suspicious transactions and also as the main point of contact with the Joint Financial Intelligence Unit (JFIU) and law enforcement agencies"
+   },
+   {
+    "doc": "03",
+    "text": "provision of guidance on how to avoid “tipping off”"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "確保打擊洗錢／恐怖分子資金籌集方面的職員培訓充足、適當及有效"
+   },
+   {
+    "doc": "03",
+    "text": "覆核內部披露及例外情況報告，並根據一切知悉的資料，決定是否有需要向財富情報組作出報告"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應委任一名洗錢報告主任作為報告可疑交易的中央聯絡點，並作為與聯合財富情報組（財富情報組）及執法機構的主要聯絡點"
+   },
+   {
+    "doc": "03",
+    "text": "提供有關如何避免「通風報訊」的導引"
+   }
+  ]
+ },
+ "m5-132": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "Similarly, branches and subsidiary undertakings should receive such information from these group-level functions when relevant and appropriate to risk management"
+   },
+   {
+    "doc": "03",
+    "text": "This should include information and analysis of transactions or activities which appear unusual (if such analysis was done)"
+   },
+   {
+    "doc": "03",
+    "text": "could include a suspicious transaction report, its underlying information, or the fact that a suspicious transaction report has been submitted"
+   },
+   {
+    "doc": "03",
+    "text": "could include a suspicious transaction report, its underlying information, or the fact that a suspicious transaction report has been submitted"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "同樣地，在與風險管理有關及適用的情況下，分行及附屬企業應能夠從此等集團層面的職能取得這類資料"
+   },
+   {
+    "doc": "03",
+    "text": "此應包括似乎異常的交易或活動的資料及分析（如已作這類分析）"
+   },
+   {
+    "doc": "03",
+    "text": "亦可以包括可疑交易報告、相關資料或已提交可疑交易報告一事"
+   },
+   {
+    "doc": "03",
+    "text": "亦可以包括可疑交易報告、相關資料或已提交可疑交易報告一事"
+   }
+  ]
+ },
+ "m5-133": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "an MSO should conduct its assessment every two years and upon trigger events which are material to the MSO’s business and risk exposure"
+   },
+   {
+    "doc": "03",
+    "text": "Results of the review should be documented and approved by the MSO’s senior management"
+   },
+   {
+    "doc": "03",
+    "text": "considering all the relevant risk factors before determining what the level of overall risk is, and the appropriate level and type of mitigation to be applied"
+   },
+   {
+    "doc": "03",
+    "text": "the information sources taken into account"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應每兩年進行一次評估，而當會顯著影響該金錢服務經營者的業務及所面對風險的觸發事件發生後亦應覆核其評估"
+   },
+   {
+    "doc": "03",
+    "text": "覆核的結果應記錄在案，並由金錢服務經營者的高級管理層審批"
+   },
+   {
+    "doc": "03",
+    "text": "在釐定整體風險水平及擬採用何種程度和類別合適的減低風險措施前，事先考慮所有相關風險因素"
+   },
+   {
+    "doc": "03",
+    "text": "所考慮的資料來源"
+   }
+  ]
+ },
+ "m5-134": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "the number and proportion of customers identified as high risk"
+   },
+   {
+    "doc": "03",
+    "text": "whether the products or services that may inherently favour anonymity"
+   },
+   {
+    "doc": "03",
+    "text": "the extent to which agent or counterpart networks are used"
+   },
+   {
+    "doc": "03",
+    "text": "the nature, scale and quality of available ML/TF risk management resources"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "識別為高風險的客戶數目及比例"
+   },
+   {
+    "doc": "03",
+    "text": "產品或服務是否本身可能有利於以匿名行事"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者代理人或交易對手網絡的使用程度"
+   },
+   {
+    "doc": "03",
+    "text": "可供運用的洗錢／恐怖分子資金籌集風險管理資源的性質、規模及質素"
+   }
+  ]
+ },
+ "m5-135": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "capable of accessing, on a timely basis, all available information (both from internal sources such as CDD records and external sources such as circulars from the CCE)"
+   },
+   {
+    "doc": "03",
+    "text": "equipped with sufficient resources, including staff and appropriate cover for the absence of the CO and MLRO"
+   },
+   {
+    "doc": "03",
+    "text": "senior management should, as far as practicable, ensure that the CO and MLRO are"
+   },
+   {
+    "doc": "03",
+    "text": "review of internal disclosures and exception reports and, in light of all available relevant information, determining whether or not it is necessary to make a report to the JFIU"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "能夠及時取得一切可取得的資料（來自內部來源如盡職審查紀錄及外部來源如關長通函）"
+   },
+   {
+    "doc": "03",
+    "text": "配備充足資源，包括職員及合規主任及洗錢報告主任的適當替補人選"
+   },
+   {
+    "doc": "03",
+    "text": "高級管理層應在切實可行的範圍內，確保合規主任及洗錢報告主任"
+   },
+   {
+    "doc": "03",
+    "text": "覆核內部披露及例外情況報告，並根據一切知悉的資料，決定是否有需要向財富情報組作出報告"
+   }
+  ]
+ },
+ "m5-136": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "An MSO should have adequate and appropriate screening procedures in order to ensure high standards when hiring employees"
+   },
+   {
+    "doc": "03",
+    "text": "an ongoing employee training programme"
+   },
+   {
+    "doc": "03",
+    "text": "level of awareness of staff having AML/CFT responsibilities"
+   },
+   {
+    "doc": "03",
+    "text": "which should have a direct line of communication to the senior management of the MSO"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應設立妥善而適當的甄選程序，確保聘用僱員時採用崇高標準"
+   },
+   {
+    "doc": "03",
+    "text": "持續的僱員培訓計劃"
+   },
+   {
+    "doc": "03",
+    "text": "職員對負責打擊洗錢／恐怖分子資金籌集的意識水平"
+   },
+   {
+    "doc": "03",
+    "text": "這職能應能與金錢服務經營者的高級管理層直接溝通"
+   }
+  ]
+ },
+ "m5-138": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "A locally-incorporated MSO with branches or subsidiaries, including those located outside Hong Kong, should perform a group-wide ML/TF risk assessment"
+   },
+   {
+    "doc": "03",
+    "text": "if an MSO is a part of a financial group and a group-wide or regional ML/TF risk assessment has been conducted"
+   },
+   {
+    "doc": "03",
+    "text": "have procedures in place to ensure compliance with the CDD and record-keeping requirements similar to those imposed under Parts 2 and 3 of Schedule 2, to the extent permitted by the laws and regulations of that place"
+   },
+   {
+    "doc": "03",
+    "text": "to all of its overseas branches and subsidiary undertakings in its financial group, wherever the requirements in this Guideline are relevant and applicable to the overseas branches and subsidiary undertakings concerned"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "在本地成立為法團並設有分行或附屬企業（位於香港以外者亦計算在內）的金錢服務經營者應進行集團層面的洗錢／恐怖分子資金籌集風險評估"
+   },
+   {
+    "doc": "03",
+    "text": "如金錢服務經營者屬某金融集團的成員，而在集團或地區層面已進行洗錢／恐怖分子資金籌集風險評估"
+   },
+   {
+    "doc": "03",
+    "text": "設有程序，確保與根據附表2第2及3部施加的盡職審查及備存紀錄規定相類似的規定在該地方法律及規例准許的範圍內獲遵守"
+   },
+   {
+    "doc": "03",
+    "text": "當本指引的規定關乎及適用於有關外地分行及附屬企業時，便應推行集團層面的打擊洗錢／恐怖分子資金籌集制度，以便對所有屬其金融集團的外地分行及附屬企業執行本指引載列的所有相關規定"
+   }
+  ]
+ },
+ "m5-137": {
+  "en": [
+   {
+    "doc": "18",
+    "text": "Particular attention should also be given to flagging and escalating cases to MSOs’ senior management where multiple risk indicators are present on the customers"
+   },
+   {
+    "doc": "18",
+    "text": "adequately understand and assess the reasonableness of customer characteristics and/or material changes in customer profiles"
+   },
+   {
+    "doc": "18",
+    "text": "adequate training and guidance to staff to facilitate sufficient ML/TF risk awareness in both the first and second lines of defence"
+   },
+   {
+    "doc": "18",
+    "text": "apply effective additional controls proportionate to their ML/TF risks"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "18",
+    "text": "如客戶出現多項風險指標，便應將相關情況作出標記及上報至高級管理層"
+   },
+   {
+    "doc": "18",
+    "text": "充分了解並評估客戶特徵及／或客戶狀況有相當程度的轉變的合理性"
+   },
+   {
+    "doc": "18",
+    "text": "輔以足夠的員工培訓及指導，以促使金錢服務經營者在第一及第二道防線上，均能夠具備充足的洗錢／恐怖主義資金籌集風險意識"
+   },
+   {
+    "doc": "18",
+    "text": "執行有效及與其洗錢／恐怖主義融資風險相稱的額外管控措施"
+   }
+  ]
+ },
+ "m6-476": {
+  "en": [
+   {
+    "doc": "18",
+    "text": "much higher ML and TF risks posed for customers who are newly established legal entities without significant assets, employees and/or active business operations"
+   },
+   {
+    "doc": "18",
+    "text": "proactively consider to apply anti-fraud procedures for scrutinizing information obtained from customers in order to verify the genuineness of the transaction"
+   },
+   {
+    "doc": "18",
+    "text": "assess the likelihood of shell companies involved as an originator or a recipient in the concerned transaction"
+   },
+   {
+    "doc": "18",
+    "text": "consider obtaining information on the Source of Funds (“SoF”) and Source of Wealth (“SoW”) of the customers"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "18",
+    "text": "新成立且缺乏顯著資產、員工，及／或活躍業務運作的法律實體所帶來的較高洗錢／恐怖分子資金籌集風險"
+   },
+   {
+    "doc": "18",
+    "text": "主動考慮採取反欺詐程序以審查由客戶所獲得的資料，從而核實相關交易的真實性"
+   },
+   {
+    "doc": "18",
+    "text": "評估有關的匯款人或收款人為空殼公司的可能性"
+   },
+   {
+    "doc": "18",
+    "text": "考慮索取客戶的資金來源及財富來源的資料，以更有效了解其狀況"
+   }
+  ]
+ },
+ "m6-477": {
+  "en": [
+   {
+    "doc": "18",
+    "text": "instead of closing generated TM alerts without sufficient justification and analysis"
+   },
+   {
+    "doc": "18",
+    "text": "making appropriate enquiries to or obtaining additional CDD information from a customer"
+   },
+   {
+    "doc": "18",
+    "text": "assess the reasonableness of transactions taking into account the customer risk profiles, SoF / SoW and historical transactions"
+   },
+   {
+    "doc": "18",
+    "text": "effectively identify and generate alerts for unusual or suspicious transactions"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "18",
+    "text": "而非在沒有充分理由及分析的情況下，消除相關警報"
+   },
+   {
+    "doc": "18",
+    "text": "適當地詢問客戶或向其索取額外的盡職審查資料"
+   },
+   {
+    "doc": "18",
+    "text": "考慮客戶的風險狀況、資金／財富來源，及交易歷史記錄，以充分評估其交易的合理性"
+   },
+   {
+    "doc": "18",
+    "text": "有效地就不尋常或可疑的交易作出識別及警報"
+   }
+  ]
+ },
+ "m6-478": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "An MSO should be vigilant to the possibility that a series of linked occasional transactions could meet or exceed the CDD thresholds of $8,000"
+   },
+   {
+    "doc": "03",
+    "text": "payments are made to the same recipient from one or more sources over a short period, where a customer regularly transfers funds to one or more destinations. In determining whether the transactions are in fact linked, an MSO should consider these factors against the timeframe within which the transactions are conducted."
+   },
+   {
+    "doc": "03",
+    "text": "In determining whether the transactions are in fact linked, an MSO should consider these factors against the timeframe within which the transactions are conducted."
+   },
+   {
+    "doc": "03",
+    "text": "This criterion applies irrespective of the $120,000 or $8,000 threshold applicable to occasional transactions set out in paragraph [4.2.1(b)]."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應提高警覺，留意一連串有關連的非經常交易達至或超越（電傳轉帳或涉及虛擬資產的虛擬資產轉帳的）8,000元的盡職審查門檻"
+   },
+   {
+    "doc": "03",
+    "text": "如在一段短時間內，支付數筆付款給予同一收款人，而該數筆款項的資金是來自同一個或多個來源，或客戶定期將款項轉帳至一個或多個目的地。在決定交易事實上是否有關連，金錢服務經營者應將此等因素與進行交易的時間一併加以考慮。"
+   },
+   {
+    "doc": "03",
+    "text": "在決定交易事實上是否有關連，金錢服務經營者應將此等因素與進行交易的時間一併加以考慮。"
+   },
+   {
+    "doc": "03",
+    "text": "即使低於第[4.2.1(b)]段載列適用於非經常交易訂於120,000元或8,000元的門檻，此準則仍然適用。"
+   }
+  ]
+ },
+ "m6-479": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "valid travel document (e.g. unexpired passport)"
+   },
+   {
+    "doc": "03",
+    "text": "an MSO should identify the customer by obtaining at least the following identification information: (a) full name; (b) date of birth; (c) nationality"
+   },
+   {
+    "doc": "03",
+    "text": "An MSO should obtain the residential address information of a customer"
+   },
+   {
+    "doc": "03",
+    "text": "The identification document obtained by an MSO should contain a photograph of the customer"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "有效的旅遊證件（例如未過期的護照）"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者最低限度應收集以下識 別資料以識別該客戶： (a) 全名； (b) 出生日期； (c) 國籍"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應向屬自然人的客戶索取住址資料"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者取得的身分證明文件應載有客戶的照片"
+   }
+  ]
+ },
+ "m6-480": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "owns or controls, directly or indirectly, including through a trust or bearer share holding, more than 25% of the issued share capital of the corporation"
+   },
+   {
+    "doc": "03",
+    "text": "exercises ultimate control over the management of the corporation"
+   },
+   {
+    "doc": "03",
+    "text": "For a customer that is a legal person, an MSO should identify any natural person who ultimately has a controlling ownership interest (i.e. more than 25%) in the legal person and any natural person exercising control of the legal person or its management"
+   },
+   {
+    "doc": "03",
+    "text": "If there is no such natural person (i.e. no natural person falls within the definition of beneficial owners set out in paragraphs [4.4.6] to [4.4.8]), the MSO should identify the relevant natural persons who hold the position of senior managing official, and take reasonable measures to verify their identities."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "直接或間接地擁有或控制（包括透過信託或持票人股份持有）該法團已發行股本的25%以上"
+   },
+   {
+    "doc": "03",
+    "text": "行使對該法團的管理最終的控制權"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應識別任何在該法人內最終掌握控制擁有權益（即25%以上）的自然人及任何控制該法人或其管理層的自然人"
+   },
+   {
+    "doc": "03",
+    "text": "如沒有這類自然人擁有或控制該法人（即沒有自然人符合第[4.4.6]至[4.4.8]段所載有關實益擁有人的定義），金錢服務經營者應識別擔任高級管理人員的相關自然人，並採取合理措施核實他們的身分。"
+   }
+  ]
+ },
+ "m6-481": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "confirmation from the registered agent that an authorised/registered custodian holds the bearer shares, together with the identities of the authorised/registered custodian and the person who has the right to those entitlements carried by the share"
+   },
+   {
+    "doc": "03",
+    "text": "an MSO should obtain declarations prior to account opening and annually thereafter from each beneficial owner of such shares."
+   },
+   {
+    "doc": "03",
+    "text": "an MSO should obtain satisfactory evidence of the identities of the nominees, and the persons on whose behalf they are acting"
+   },
+   {
+    "doc": "03",
+    "text": "The MSO should also require the customer to notify it immediately of any changes in the ownership of the shares."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "註冊代理發出的認可╱註冊保管人持有持票人股份的確認書，連同認可╱註冊保管人身分，以及有權享有股份所附帶權利的人士的身分"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應在開立戶口前及其後每年向每名這類股份的實益擁有人索取聲明。"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應取得其信納可證明代名人及代名人所代表行事的人士的身分的證據"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者亦應要求客戶即時知會有關股份擁有權的任何變動情況。"
+   }
+  ]
+ },
+ "m6-482": {
+  "en": [
+   {
+    "doc": "06",
+    "text": "The AML/CFT Guideline does not mandate whether the natural person should be a director or beneficial owner of a customer so long as the natural person has been properly authorised to act on behalf of the customer"
+   },
+   {
+    "doc": "06",
+    "text": "at least one natural person who is authorised to establish the business relationship should be physically present at the time of account opening."
+   },
+   {
+    "doc": "03",
+    "text": "An MSO should verify the authority of each PPTA by appropriate documentary evidence (e.g. board resolution or similar written authorization)."
+   },
+   {
+    "doc": "03",
+    "text": "where an MSO is provided with copies of documents for identifying and verifying a legal person customer’s identity, an MSO should also mitigate any increased risk"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "06",
+    "text": "《打擊洗錢指引》並沒有強制規定有關自然人為客戶的董事或實益擁有人，只要該自然人已妥善地獲授權代表客戶行事"
+   },
+   {
+    "doc": "06",
+    "text": "至少一名獲授權建立業務關係的自然人應於開戶時現身。"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應根據適當的文件證據（例如董事會的決議案或類似書面授權），核實每名看似代表客戶行事的人的授權。"
+   },
+   {
+    "doc": "03",
+    "text": "如金錢服務經營者僅獲文件的複本用作識別及核實法人客戶的身分，便應減低任何增加的風險"
+   }
+  ]
+ },
+ "m6-483": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "placing appropriate limits on the number, types and/or amount of transactions that can be performed"
+   },
+   {
+    "doc": "03",
+    "text": "the risk of ML/TF is assessed to be low; (iii) the transaction is approved by senior management"
+   },
+   {
+    "doc": "03",
+    "text": "particularly if the customer requests that funds or other assets be transferred to a third party or be “transformed” (e.g. from cash into a cashier order) without a justifiable reason."
+   },
+   {
+    "doc": "03",
+    "text": "establishing a reasonable timeframe for the completion of the identity verification measures and the follow-up actions if exceeding the timeframe (e.g. to suspend or terminate the business relationship concerned)"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "適當地限制可進行的交易次數、類別及／或金額"
+   },
+   {
+    "doc": "03",
+    "text": "洗錢／恐怖分子資金籌集的風險評定屬於低度；(iii) 交易經高級管理層批准"
+   },
+   {
+    "doc": "03",
+    "text": "尤其是客戶在無充分理由下要求將有關資金或其他資產轉移給第三者"
+   },
+   {
+    "doc": "03",
+    "text": "制定完成身分核實措施的合理時限及逾期而未能完成時的跟"
+   }
+  ]
+ },
+ "m6-484": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "The MSO should also obtain an undertaking from the intermediary to supply copies of all underlying CDD information in circumstances where the intermediary is about to cease trading or does not act as an intermediary for the MSO anymore."
+   },
+   {
+    "doc": "03",
+    "text": "An MSO should conduct sample tests from time to time to ensure CDD information and documentation is produced by the intermediary upon demand and without undue delay."
+   },
+   {
+    "doc": "03",
+    "text": "the third party will usually have an existing business relationship with the customer, which is independent from the relationship to be formed by the customer with the relying MSO, and would apply its own procedures to perform the CDD measures."
+   },
+   {
+    "doc": "03",
+    "text": "If the MSO has any doubts regarding the CDD measures carried out by the intermediary previously, the MSO should perform the required CDD as soon as reasonably practicable."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "金錢服務經營者亦須向中介人取得承諾，在中介人即將結業或不再以中介人身分代金錢服務經營者行事的情況下，提供所有相關的盡職審查資料的複本。"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應不時進行抽樣測試，以確保中介人會應要求盡快提供盡職審查的資料及文件。"
+   },
+   {
+    "doc": "03",
+    "text": "該第三方通常與客戶已建立既有的業務關係，並會按本身的程序執行盡職審查措施。而此關係獨立於客戶與依賴第三方的金錢服務經營者將要建立的關係。"
+   },
+   {
+    "doc": "03",
+    "text": "如金錢服務經營者對中介人先前執行的盡職審查措施有任何懷疑，則須在合理地切實可行的範圍內，盡快執行所需的盡職審查措施。"
+   }
+  ]
+ },
+ "m6-485": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "If an MSO has verified the identity of the customer on the basis of data or information provided by a digital identification system that is a reliable and independent source recognised by the CCE, the MSO is not required to carry out any additional measures"
+   },
+   {
+    "doc": "03",
+    "text": "If an MSO has verified the identity of the customer on the basis of data or information provided by a digital identification system that is a reliable and independent source recognised by the CCE, the MSO is not required to carry out any additional measures"
+   },
+   {
+    "doc": "03",
+    "text": "The extent of additional measures set out in paragraph [4.10.1] will depend on the nature and characteristics of the product or service requested and the assessed ML/TF risks presented by the customer."
+   },
+   {
+    "doc": "03",
+    "text": "The MSO should ensure and be able to demonstrate to the CCE that the supplementary measure(s) taken can adequately guard against impersonation risk."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "如金錢服務經營者根據關長認可、屬可靠及獨立來源的數碼識別系統所提供的數據或資料為基礎，以核實客戶的身分，則金錢服務經營者無須執行第[4.10.1]段載列的額外措施。"
+   },
+   {
+    "doc": "03",
+    "text": "如金錢服務經營者根據關長認可、屬可靠及獨立來源的數碼識別系統所提供的數據或資料為基礎，以核實客戶的身分，則金錢服務經營者無須執行第[4.10.1]段載列的額外措施。"
+   },
+   {
+    "doc": "03",
+    "text": "或服務的性質和特徵，以及經評估該客戶引致的洗錢／恐怖分子資金籌集風險。"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應確保並能夠向關長證明，所採取的增補措施足以應對假冒風險。"
+   }
+  ]
+ },
+ "m6-486": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "support the ongoing monitoring of a business relationship in a holistic approach, which may include monitoring activities of a customer's multiple accounts within or across lines of businesses"
+   },
+   {
+    "doc": "03",
+    "text": "an MSO should undertake reviews of existing CDD records of customers on a regular basis and/or upon trigger events53. Clear policies and procedures should be developed, especially on the frequency of periodic review"
+   },
+   {
+    "doc": "03",
+    "text": "An MSO should regularly review the adequacy and effectiveness of its transaction monitoring systems and processes, including parameters and thresholds adopted. The parameters and thresholds should be properly documented and independently validated"
+   },
+   {
+    "doc": "06",
+    "text": "an MSO may use an intermediary to collect further documents, data and information, and provide or coordinate relevant updates, to assist the MSO in ensuring that the CDD records maintained by the MSO remain up-to-date and relevant."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "能夠支援以全面的方式持續監察商業關係，可包括監察客戶在業務範圍內或跨業務的多個戶口"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應定期及／或遇有觸發事件53時覆核關於客戶的現存盡職審查紀錄。金錢服務經營應制訂清晰的政策和程序，尤應訂明定期覆核的頻密程度"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應定期覆核交易監察系統及程序（包括採用的參數及門檻）是否合適及有效。有關參數及門檻應妥為記錄在案，並經獨立驗證"
+   },
+   {
+    "doc": "06",
+    "text": "金錢服務經營者可藉中介人來收集進一步的文件、數據和資料，及提供或協調該等文件、數據和資料的相關更新，以協助金錢服務經營者確保其保存的客戶盡職審查紀錄能反映現況及仍屬相關。"
+   }
+  ]
+ },
+ "m6-487": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "Where an MSO conducts enquiries and obtains what it considers to be a satisfactory explanation of the transaction or activity, it may conclude that there are no grounds for suspicion, and therefore take no further action."
+   },
+   {
+    "doc": "03",
+    "text": "Even if no suspicion is identified, the MSO should consider updating the customer risk profile based on any relevant information obtained."
+   },
+   {
+    "doc": "03",
+    "text": "The findings and outcomes of steps taken by the MSO in paragraph [5.10], as well as the rationale of any decision made after taking these steps, should be properly documented in writing and be available to the CCE, other competent authorities and auditors."
+   },
+   {
+    "doc": "03",
+    "text": "However, where the MSO cannot obtain a satisfactory explanation of the transaction or activity, it may conclude that there are grounds for suspicion."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "如金錢服務經營者就某項交易或活動進行查詢並取得它認為屬可信納的解釋，則可斷定沒有懷疑的理由，故不再採取進一步行動。"
+   },
+   {
+    "doc": "03",
+    "text": "即使未有識辨出可懷疑之處，金錢服務經營者仍應考慮根據任何取得的相關資料，更新客戶的風險狀況。"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者所採取第[5.10]段所述步驟的發現及結果、採取步驟後作出任何決定的理由應以書面方式妥為記錄在案，以便提交予關長、其他主管當局及核數師。"
+   },
+   {
+    "doc": "03",
+    "text": "不過，如金錢服務經營者未能就某項交易或活動取得可信納的解釋，則可斷定為有懷疑的理由。"
+   }
+  ]
+ },
+ "m6-488": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "Whether or not a UNSCR or sanctions list has been implemented through Hong Kong legislation, there are offences under existing legislation relating to ML, TF and PF that are relevant. Inclusion of a country, individual, entity or activity in the UNSCR or sanctions list may constitute grounds for knowledge or suspicion"
+   },
+   {
+    "doc": "03",
+    "text": "(b) the lists that the CCE draws to the attention of MSOs from time to time. The database should also be subject to timely update whenever there are changes, and should be made easily accessible by relevant staff."
+   },
+   {
+    "doc": "03",
+    "text": "To this end, an MSO should ensure that it maintains a database of names and particulars of terrorists and designated parties, which consolidates the various lists that have been made known to the MSO."
+   },
+   {
+    "doc": "03",
+    "text": "The legal and regulatory obligations of MSOs and those of their staff should be well understood and adequate guidance and training should be provided to the latter."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "不論安理會決議或制裁名單有否透過香港法例實施，現行法例下已設有關於洗錢、恐怖分子資金籌集及擴散資金籌集的相關罪行。如某國家、個人、實體或活動被列入安理會決議或制裁名單，為施行打擊洗錢、恐怖分子資金籌集及擴散資金籌集的相關法例，可能會構成知悉或懷疑的理由"
+   },
+   {
+    "doc": "03",
+    "text": "(b)關長不時告知金錢服務經營者的名單。每當資料有變化時，該數據庫亦應及時更新，讓相關職員易於查閱。"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者須確保備存記錄恐怖分子及被指認各方的名稱及詳細資料的數據庫，以綜合金錢服務經營者所知的各種名單的資料。"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者及其職員應充分了解本身的法律及監管責任，而職員應獲提供充足導引及培訓。"
+   }
+  ]
+ },
+ "m6-489": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "The unique reference number assigned by the ordering institution or beneficiary institution referred to in paragraphs [10.5] and [10.6] should permit traceability of the wire transfer."
+   },
+   {
+    "doc": "06",
+    "text": "The required originator information is deemed to be accurate if the identity of the originator has been verified in compliance with the AMLO and the AML/CFT Guideline."
+   },
+   {
+    "doc": "06",
+    "text": "No further verification of the originator information is normally required, although ordering institutions may exercise their discretion to do so in individual cases."
+   },
+   {
+    "doc": "03",
+    "text": "The customer identification number must refer to a record held by the originating institution which contains at least one of the following: the customer address, the identification document number, or the date and place of birth."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "第[10.5]及[10.6]段所指由匯款機構或收款機構編配的獨特參考編號應可用作追蹤有關電傳轉帳。"
+   },
+   {
+    "doc": "06",
+    "text": "如匯款人的身分已經根據《打擊洗錢條例》及《打擊洗錢指引》的規定核實，則所需的匯款人資料便視為準確。"
+   },
+   {
+    "doc": "06",
+    "text": "一般而言，無需再進一步核實匯款人資料，但匯款機構仍可運用酌情權就個別個案進行核實。"
+   },
+   {
+    "doc": "03",
+    "text": "客戶識別號碼必須參照由發起機構持有的紀錄，該紀錄最少包含下列其中一項資料：客戶的地址、識別文件號碼或出生日期及地點。"
+   }
+  ]
+ },
+ "m6-490": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "the batch file should contain required and accurate originator information, and required recipient information, that is fully traceable within the recipient country."
+   },
+   {
+    "doc": "03",
+    "text": "In addition, such information should be made available to law enforcement agencies immediately upon request."
+   },
+   {
+    "doc": "03",
+    "text": "taking reasonable measures (e.g. regular review or testing by internal control or audit function to assess system capabilities) to identify whether domestic or cross-border wire transfers lack required originator information or required recipient information"
+   },
+   {
+    "doc": "03",
+    "text": "having risk-based policies and procedures for handling wire transfers lacking required originator information or required recipient information, and timely rectifying any control deficiencies identified."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "群組檔案應載有所需及準確的匯款人資料及所需收款人資料，而該資料在收款人的國家可用作全面追查。"
+   },
+   {
+    "doc": "03",
+    "text": "此外，該等資料亦需按執法機構要求立即提供。"
+   },
+   {
+    "doc": "03",
+    "text": "採取合理措施（例如定期覆核或藉內部管控或審計職能進行測試，以評估系統功能），識辨本地或跨境電傳轉帳是否欠缺所需匯款人資料或所需收款人資料"
+   },
+   {
+    "doc": "03",
+    "text": "設有風險為本的政策及程序，以處理欠缺所需匯款人資料或所需收款人資料的電傳轉帳，並適時糾正所識別的管控不足之處。"
+   }
+  ]
+ },
+ "m6-491": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "the intermediary institution should keep a record, for at least five years, of all the information received from the ordering institution or another intermediary institution."
+   },
+   {
+    "doc": "03",
+    "text": "taking reasonable measures, which are consistent with straight-through processing, to identify cross-border wire transfers that lack required originator information or required recipient information"
+   },
+   {
+    "doc": "03",
+    "text": "having risk-based policies and procedures for determining: (i) when to execute, reject, or suspend a wire transfer lacking required originator information or required recipient information; and (ii) the appropriate follow-up action."
+   },
+   {
+    "doc": "03",
+    "text": "taking reasonable measures (e.g. post-event monitoring) to identify domestic or cross-border wire transfers that lack required originator information or required recipient information"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "中介機構應將從匯款機構或另一間中介機構接收的所有資料存檔，為期至少5年。"
+   },
+   {
+    "doc": "03",
+    "text": "採取與直通式處理程序一致的合理措施，以識辨欠缺所需匯款人資料或所需收款人資料的跨境電傳轉帳"
+   },
+   {
+    "doc": "03",
+    "text": "設有風險為本的政策及程序，以斷定：(i)何時執行、拒絕或暫停欠缺所需匯款人資料或所需收款人資料的電傳轉帳；及(ii)適當的跟進行動。"
+   },
+   {
+    "doc": "03",
+    "text": "採取合理措施（例如事後監察），以識辨欠缺所需匯款人資料或所需收款人資料的本地或跨境電傳轉帳"
+   }
+  ]
+ },
+ "m6-492": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "For a wire transfer of amount equal to or above $8,000 (or an equivalent amount in any other currency), a beneficiary institution should verify the identity of the recipient, if the identity has not been previously verified."
+   },
+   {
+    "doc": "03",
+    "text": "If the beneficiary institution is aware that the accompanying information that purports to be the required originator information or required recipient information is incomplete or meaningless"
+   },
+   {
+    "doc": "03",
+    "text": "having risk-based policies and procedures for determining: (i) when to execute, reject, or suspend a wire transfer lacking required originator information or required recipient information; and (ii) the appropriate follow-up action."
+   },
+   {
+    "doc": "03",
+    "text": "taking reasonable measures (e.g. post-event monitoring) to identify domestic or cross-border wire transfers that lack required originator information or required recipient information"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "就款額相等於8,000元或以上（或折算為任何其他貨幣的相同款額）的電傳轉帳，如收款機構未曾核實收款人的身分，便應加以核實。"
+   },
+   {
+    "doc": "03",
+    "text": "如收款機構察覺到附隨於電傳轉帳看來是所需匯款人資料或所需收款人資料並不完整，或不具意義，它須在合理地切實可行的範圍內，盡快採取合理措施，減低所涉的洗錢／恐怖分子資金籌集的風險。"
+   },
+   {
+    "doc": "03",
+    "text": "設有風險為本的政策及程序，以斷定：(i)何時執行、拒絕或暫停欠缺所需匯款人資料或所需收款人資料的電傳轉帳；及(ii)適當的跟進行動。"
+   },
+   {
+    "doc": "03",
+    "text": "採取合理措施（例如事後監察），以識辨欠缺所需匯款人資料或所需收款人資料的本地或跨境電傳轉帳"
+   }
+  ]
+ },
+ "m6-493": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "regard the trustee22 as its customer if the trustee enters into a business relationship or carries out occasional transactions on behalf of the trust, which is generally the case if the trust does not possess a separate legal personality. In such a case, the MSO should identify and verify the identity of the trustee"
+   },
+   {
+    "doc": "03",
+    "text": "to satisfy the MSO that it will be able to establish the identity of the beneficiary at the time of payout or when the beneficiary intends to exercise vested rights"
+   },
+   {
+    "doc": "03",
+    "text": "an MSO should identify the settlor, the trustee, the protector (if any), the enforcer (if any), the beneficiaries or class of beneficiaries, and any other natural person exercising ultimate control over the trust"
+   },
+   {
+    "doc": "03",
+    "text": "Under exceptional circumstance, the MSO may choose to retain a redacted copy."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "如受託人代表信託建立業務關係或執行非經常交易，金錢服務經營者應把受託人22視作客戶，此情況一般會在信託不具備獨立法人身分時出現。在此情況下，金錢服務經營者應按照識別和核實屬自然人或法人（如適用）的客戶的規定，識別和核實受託人的身分。"
+   },
+   {
+    "doc": "03",
+    "text": "讓該金錢服務經營者信納可以在付款時，或受益人擬行使歸屬於該受益人的權益時，確立受益人的身分"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應識別該信託的財產授予人、受託人、保護人（如有）、執行人（如有）、受益人或某類別受益人、及任何對該信託行使最終控制權的自然人"
+   },
+   {
+    "doc": "03",
+    "text": "在特殊情況下，金錢服務經營者可選擇保存文書的刪節本。"
+   }
+  ]
+ },
+ "m6-494": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "Source of funds information should not simply be limited to knowing from which the funds may have been transferred, but also the activity that generates the funds."
+   },
+   {
+    "doc": "03",
+    "text": "The handling of a former non-Hong Kong PEP should be based on an assessment of risk and not merely on prescribed time limits."
+   },
+   {
+    "doc": "03",
+    "text": "Source of wealth refers to the origin of an individual’s entire body of wealth (i.e. total assets)."
+   },
+   {
+    "doc": "06",
+    "text": "Senior management may include personnel in another jurisdiction if this reflects the MSO’s organisational structure and risk management practices."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "追查資金來源不應僅限於了解資金從何轉帳，亦要知悉衍生資金的活動。"
+   },
+   {
+    "doc": "03",
+    "text": "前非香港政治人物的處理方法，應依據風險評估而定，不應僅訂明時限。"
+   },
+   {
+    "doc": "03",
+    "text": "財富來源指個人全部財富（即總資產）的源頭。"
+   },
+   {
+    "doc": "06",
+    "text": "倘人選能夠反映金錢服務經營者的組織結構及風險管理方法，高級管理層可包括其他司法管轄區的人員。"
+   }
+  ]
+ },
+ "m6-495": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "the MSO should make appropriate enquiries where there are indications that the customer is not acting on his own behalf."
+   },
+   {
+    "doc": "08",
+    "text": "MSOs should be alert to the possibility that the third-party payer is the true beneficial owner, and the risks to which that may give rise"
+   },
+   {
+    "doc": "08",
+    "text": "MSOs should exercise extra caution when the relationship between the customer and the third party is hard to verify, the customer is unable to provide details of the identity of the third-party payer for verification before the payment is made, or a single third party is making or receiving payments for or from several seemingly unrelated customers."
+   },
+   {
+    "doc": "08",
+    "text": "The findings of enquiries made and corroborative evidence obtained during the evaluation and approval of a third party payment should be properly documented."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "但如有跡象顯示該客戶並非代表其本身行事，則須進行適當查詢。"
+   },
+   {
+    "doc": "08",
+    "text": "金錢服務經營者應就第三方付款人即真正實益擁有人的可能以及從而產生的風險保持警覺"
+   },
+   {
+    "doc": "08",
+    "text": "若客戶與第三方之間的關係難以核實、客戶在進行支付前無法就第三方付款人的身分提供詳細資料作核實之用，或一個第三方向數名看似沒有關連的客戶付款或從數名看似沒有關連的客戶收款時，金錢服務經營者便應格外留神。"
+   },
+   {
+    "doc": "08",
+    "text": "應妥為記錄評估第三方支付期間取得的查詢結果、核對證據，以及接納該次支付的批准。"
+   }
+  ]
+ },
+ "m6-496": {
+  "en": [
+   {
+    "doc": "08",
+    "text": "MSOs should exercise extra caution when the relationship between the customer and the third party is hard to verify, the customer is unable to provide details of the identity of the third-party payer for verification before the payment is made, or a single third party is making or receiving payments for or from several seemingly unrelated customers."
+   },
+   {
+    "doc": "08",
+    "text": "(a) critically evaluating the reasons of and the need for third party payments; (b) taking reasonable measures on a risk-sensitive basis to (i) verify the identities of the third parties; and (ii) ascertain the relationship between the third parties and the customers;"
+   },
+   {
+    "doc": "08",
+    "text": "MSOs which accept third party payments should put in place clear and detailed policies and procedures for scrutinising them and ensuring that the acceptance of third party payments is subject to stringent management approval."
+   },
+   {
+    "doc": "08",
+    "text": "Suspicious transaction reports should be made to the JFIU when there are grounds for suspicion of ML or TF."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "08",
+    "text": "若客戶與第三方之間的關係難以核實、客戶在進行支付前無法就第三方付款人的身分提供詳細資料作核實之用，或一個第三方向數名看似沒有關連的客戶付款或從數名看似沒有關連的客戶收款時，金錢服務經營者便應格外留神。"
+   },
+   {
+    "doc": "08",
+    "text": "(a) 嚴格評估使用第三方支付的原因及需要； (b) 因應風險程度採取合理措施，以(i)核實第三方的身分；以及(ii)確定第三方與客戶之間的關係；"
+   },
+   {
+    "doc": "08",
+    "text": "接受第三方支付的金錢服務經營者應設立清晰詳細的政策及程序予以審查，並確保須經過管理層嚴格審批方可接受第三方支付。"
+   },
+   {
+    "doc": "08",
+    "text": "如有懷疑洗錢或恐怖分子資金籌集的理由，應向財富情報組提交可疑交易報告。"
+   }
+  ]
+ },
+ "m7-199": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "an MSO should file an STR even where no transaction has been conducted by or through the MSO"
+   },
+   {
+    "doc": "03",
+    "text": "The reporting obligations require a person to report suspicions of ML/TF, irrespective of the amount involved."
+   },
+   {
+    "doc": "03",
+    "text": "The STR should be made together with any matter on which the knowledge or suspicion is based."
+   },
+   {
+    "doc": "03",
+    "text": "an STR may be made either before a suspicious transaction or activity occurs (whether the intended transaction ultimately takes place or not), or after a transaction or activity has been completed"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "即使金錢服務經營者沒有進行交易，亦沒有交易透過金錢服務經營者進行，也應該提交可疑交易報告"
+   },
+   {
+    "doc": "03",
+    "text": "舉報責任要求任何人舉報懷疑洗錢／恐怖分子資金籌集的情況，而不論所涉金額"
+   },
+   {
+    "doc": "03",
+    "text": "該項知悉或懷疑所根據的任何事宜應連同可疑交易報告一併提交"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者可在可疑交易或活動發生前提交可疑交易報告（而不論該擬作交易最終有否成事）"
+   }
+  ]
+ },
+ "m7-200": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "under no circumstances should reports raised by staff be filtered out by supervisors or managers who have no responsibility for the money laundering reporting/compliance function"
+   },
+   {
+    "doc": "03",
+    "text": "all internal reports must reach the MLRO without undue delay"
+   },
+   {
+    "doc": "03",
+    "text": "the statutory obligation of the staff has been fully satisfied"
+   },
+   {
+    "doc": "03",
+    "text": "The internal report should include sufficient details of the customer concerned and the information giving rise to the suspicion."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "在任何情況下，非負責洗錢報告╱合規職能的主管或經理均不得過濾職員所提交的報告"
+   },
+   {
+    "doc": "03",
+    "text": "所有內部報告必須送達洗錢報告主任，不得出現無故延誤"
+   },
+   {
+    "doc": "03",
+    "text": "該職員已完全履行了有關法定規定"
+   },
+   {
+    "doc": "03",
+    "text": "內部報告應包括有關客戶的充分詳情，以及導致產生懷疑的全部資料"
+   }
+  ]
+ },
+ "m7-201": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "the MLRO must take reasonable steps to consider all relevant information, including CDD and ongoing monitoring information available within or to the MSO"
+   },
+   {
+    "doc": "03",
+    "text": "preferably adopting a relationship-based approach rather than on a transaction-by-transaction basis"
+   },
+   {
+    "doc": "03",
+    "text": "should strike an appropriate balance between the statutory requirement to make a timely STR to the JFIU and any delays that might arise"
+   },
+   {
+    "doc": "03",
+    "text": "The review process should be documented, together with any conclusions drawn."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "洗錢報告主任必須採取合理步驟以考慮所有相關資料，包括金錢服務經營者內部使用或提供予金錢服務經營者的有關報告所牽涉實體的盡職審查及持續監察資料"
+   },
+   {
+    "doc": "03",
+    "text": "採用的方法應盡可能以關係為本，並非以個別交易為本"
+   },
+   {
+    "doc": "03",
+    "text": "但亦應在及時向財富情報組提交可疑交易報告的法定規定，以及因須搜尋更多關連戶口或關係的相關資料而引致延誤之間取得適當平衡"
+   },
+   {
+    "doc": "03",
+    "text": "有關覆核過程，連同所得出的結論均應記錄在案"
+   }
+  ]
+ },
+ "m7-202": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "it is unlikely that there will be any criminal liability for failing to report if the MLRO concludes that there is no suspicion after taking into account all available information"
+   },
+   {
+    "doc": "03",
+    "text": "It is however vital for the MLRO to keep proper records of the deliberations and actions taken to demonstrate he has acted in reasonable manner."
+   },
+   {
+    "doc": "03",
+    "text": "whether the internal report resulted in an STR to the JFIU"
+   },
+   {
+    "doc": "03",
+    "text": "the staff members subsequently handling the report"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "而洗錢報告主任是在考慮過所有可獲取的資料後作出沒有可疑情況的結論，則不大可能會因沒有報告而負上刑事法律責任"
+   },
+   {
+    "doc": "03",
+    "text": "最重要的是洗錢報告主任必須將他們的慎重考慮和採取的行動妥為備存紀錄，證明他們是以合理的方式行事"
+   },
+   {
+    "doc": "03",
+    "text": "內部報告有否導致須向財富情報組提交可疑交易報告"
+   },
+   {
+    "doc": "03",
+    "text": "其後處理報告的人員"
+   }
+  ]
+ },
+ "m7-203": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "where a customer has instructed the MSO to move funds or other property, close the account, make cash available for collection, or carry out significant changes to the business relationship etc.), particularly when the account is part of an ongoing investigation by law enforcement agency, an MSO should indicate this in the STR."
+   },
+   {
+    "doc": "03",
+    "text": "Where exceptional circumstances exist in relation to an urgent reporting, an initial notification by telephone to the JFIU should be considered."
+   },
+   {
+    "doc": "03",
+    "text": "An MSO is recommended to indicate any intention to terminate a business relationship in its initial STR to the JFIU."
+   },
+   {
+    "doc": "03",
+    "text": "An MSO should ensure STRs filed to the JFIU are of high quality taking into account feedback and guidance provided by the JFIU in its quarterly report65and the CCE from time to time."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "如出現須作出緊急報告的情況（例如客戶已指示金錢服務經營者移動資金或其他財產、結束戶口、安排現金備取或對業務關係作出重大變動等），特別是當有關戶口是執法機構正在進行調查的一部分，則金錢服務經營者應在可疑交易報告中述明"
+   },
+   {
+    "doc": "03",
+    "text": "如情況特殊而須作出緊急報告，應考慮初步以電話通知財富情報組"
+   },
+   {
+    "doc": "03",
+    "text": "建議金錢服務經營者在初次向財富情報組提交可疑交易報告之時，即表明任何終止業務關係的意向"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應留意由財富情報組在季度報告65及關長不時提供的反饋意見及導引，以確保向財富情報組提交的可疑交易報告屬高水平"
+   }
+  ]
+ },
+ "m7-204": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "the report is made before the MSO undertakes the disclosed acts and the acts (transaction(s)) are undertaken with the consent of the JFIU"
+   },
+   {
+    "doc": "03",
+    "text": "should not be construed as a “clean bill of health” for the continued operation of the account"
+   },
+   {
+    "doc": "03",
+    "text": "does not absolve an MSO from the legal, reputational or regulatory risks associated with the account's continued operation"
+   },
+   {
+    "doc": "03",
+    "text": "Otherwise, the MSO should take appropriate action and seek legal advice where necessary."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "該報告是在金錢服務經營者作出所披露作為之前作出，而該作為（交易）是得到財富情報組的同意的"
+   },
+   {
+    "doc": "03",
+    "text": "財富情報組就交易前的報告作出「同意」的回應，不應被解釋為該戶口持續運作的「健康證明」"
+   },
+   {
+    "doc": "03",
+    "text": "法定免責辯護不會免除金錢服務經營者因該帳戶的持續運作而涉及的法律、聲譽或監管風險"
+   },
+   {
+    "doc": "03",
+    "text": "否則金錢服務經營者便應採取適當行動，並按需要徵詢法律意見"
+   }
+  ]
+ },
+ "m7-205": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "the report is made on the MSO's own initiative and as soon as it is reasonable for the MSO to do so"
+   },
+   {
+    "doc": "03",
+    "text": "continuing to operate the relationship without any further consideration of the risks and the imposition of appropriate controls to mitigate the risks identified is not acceptable"
+   },
+   {
+    "doc": "03",
+    "text": "An MSO should conduct an appropriate review of a business relationship upon the filing of an STR to the JFIU, irrespective of any subsequent feedback provided by the JFIU"
+   },
+   {
+    "doc": "03",
+    "text": "the issue should be escalated to the MSO's senior management to determine how to handle the relationship concerned"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "由金錢服務經營者主動及在合理範圍內盡快作出的"
+   },
+   {
+    "doc": "03",
+    "text": "繼續運作該業務關係，而不再進一步考慮有關風險及施加適當的管控措施以減低所識辨的風險，是不可接受的做法"
+   },
+   {
+    "doc": "03",
+    "text": "不論財富情報組其後有否給予任何反饋意見，金錢服務經營者均應立即對業務關係進行適當覆核"
+   },
+   {
+    "doc": "03",
+    "text": "有關問題應上報至金錢服務經營者的高級管理層"
+   }
+  ]
+ },
+ "m7-206": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "Further suspicious transactions or events, whether of the same nature or different to the previous suspicion, must continue to be reported to the MLRO"
+   },
+   {
+    "doc": "03",
+    "text": "Further suspicious transactions or events, whether of the same nature or different to the previous suspicion, must continue to be reported to the MLRO who should make further reports to the JFIU if appropriate."
+   },
+   {
+    "doc": "03",
+    "text": "reporting lines should be as short as possible with the minimum number of people between the staff with the suspicion and the MLRO"
+   },
+   {
+    "doc": "03",
+    "text": "The MLRO should acknowledge receipt of an internal report and provide a reminder of the obligation regarding tipping off to the reporting staff upon internal reporting."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "更多可疑交易或事件，不論是否屬同一性質或有別於先前的可疑情況，均必須繼續向洗錢報告主任報告"
+   },
+   {
+    "doc": "03",
+    "text": "更多可疑交易或事件，不論是否屬同一性質或有別於先前的可疑情況，均必須繼續向洗錢報告主任報告，如恰當，他將向財富情報組作進一步報告。"
+   },
+   {
+    "doc": "03",
+    "text": "令發現可疑交易的職員與洗錢報告主任之間涉及的人數越少越好"
+   },
+   {
+    "doc": "03",
+    "text": "洗錢報告主任必須確認收到內部報告，並提醒報告的職員於內部報告後在責任上不可作出通風報訊的事宜"
+   }
+  ]
+ },
+ "m7-207": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "This register may be combined with the register of internal reports, if considered appropriate."
+   },
+   {
+    "doc": "03",
+    "text": "The record should include details of the date of the STR, the person who made the STR"
+   },
+   {
+    "doc": "03",
+    "text": "The record should include details of the date the report was made, the staff members subsequently handling the report, the results of the assessment, whether the internal report resulted in an STR to the JFIU, and information to allow the papers relevant to the report to be located."
+   },
+   {
+    "doc": "03",
+    "text": "whether the internal report resulted in an STR to the JFIU"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "如果認為恰當，這紀錄冊可與內部報告紀錄冊合併處理"
+   },
+   {
+    "doc": "03",
+    "text": "該紀錄應收錄提交可疑交易報告日期、提交可疑交易報告的人"
+   },
+   {
+    "doc": "03",
+    "text": "該紀錄應收錄作出報告日期、其後處理報告的人員、評估結果、內部報告有否導致須向財富情報組提交可疑交易報告，以及報告的相關文件存放何處等詳情"
+   },
+   {
+    "doc": "03",
+    "text": "內部報告有否導致須向財富情報組提交可疑交易報告"
+   }
+  ]
+ },
+ "m7-208": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "Where an MSO encounters difficulty in complying with the timeframes stipulated, the MSO should at the earliest opportunity contact the officer-in-charge of the investigation for further guidance."
+   },
+   {
+    "doc": "03",
+    "text": "An MSO must respond to any search warrant and production order within the required time limit by providing all the information or material that fall within the scope of the court document."
+   },
+   {
+    "doc": "03",
+    "text": "should also be aware that the customer to whom the court document relates can be a victim of crime"
+   },
+   {
+    "doc": "03",
+    "text": "the MSO should timely assess the risks involved and the need to conduct an appropriate review on the customer or the business relationship to determine whether there is any suspicion"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "金錢服務經營者在遵守規定時限方面如遇到困難，金錢服務經營者應第一時間聯絡調查的主管人員，尋求進一步導引"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者須確保在規定期限內就任何搜查令及提交令作出回應，做法是提供一切屬該等法庭文件範圍內的資料或材料"
+   },
+   {
+    "doc": "03",
+    "text": "並應留意法庭文件所涉的客戶，或是罪案的受害人"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者便應適時評估所涉風險，並應評估是否需要對該客戶或業務關係進行適當覆核，以斷定是否有可懷疑之處"
+   }
+  ]
+ },
+ "m7-209": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "The MSO must ensure that it is able to withhold the relevant property that is the subject of the order."
+   },
+   {
+    "doc": "03",
+    "text": "the restraint order may not apply to all funds or property involved within a particular business relationship and the MSO should consider what, if any, funds or property may be utilised subject to the law of Hong Kong"
+   },
+   {
+    "doc": "03",
+    "text": "Upon the conviction of a defendant, a court may order the confiscation of his criminal proceeds"
+   },
+   {
+    "doc": "03",
+    "text": "the restraint order may not apply to all funds or property involved within a particular business relationship and the MSO should consider what, if any, funds or property may be utilised subject to the law of Hong Kong"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "金錢服務經營者必須確保它能夠扣留該限制令涉及的相關財產"
+   },
+   {
+    "doc": "03",
+    "text": "應注意該限制令不一定適用於某業務關係中涉及的全部資金或財產，而金錢服務經營者應考慮根據香港法例，可動用哪些資金或財產（如有）"
+   },
+   {
+    "doc": "03",
+    "text": "被告一經定罪，法院可下令沒收其犯罪所得"
+   },
+   {
+    "doc": "03",
+    "text": "應注意該限制令不一定適用於某業務關係中涉及的全部資金或財產，而金錢服務經營者應考慮根據香港法例，可動用哪些資金或財產（如有）"
+   }
+  ]
+ },
+ "m7-210": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "should be kept throughout the continuance of the business relationship with the customer and for a period of at least five years after the end of the business relationship"
+   },
+   {
+    "doc": "03",
+    "text": "should be kept for a period of at least five years after the completion of a transaction, regardless of whether the business relationship ends during the period"
+   },
+   {
+    "doc": "03",
+    "text": "should be kept for a period of at least five years after the completion of a transaction, regardless of whether the business relationship ends during the period"
+   },
+   {
+    "doc": "03",
+    "text": "require it to keep the records relating to a specified transaction or customer for a period specified by the CCE that is longer"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "應在與有關客戶的業務關係繼續期間備 存，及在自有關的業務關係終止後的至少5年期間內備存"
+   },
+   {
+    "doc": "03",
+    "text": "應在自有關交易完成的日期起計的至 少5年期間內備存，不論有關業務關係是否在該段期間內終止"
+   },
+   {
+    "doc": "03",
+    "text": "應在自有關交易完成的日期起計的至 少5年期間內備存，不論有關業務關係是否在該段期間內終止"
+   },
+   {
+    "doc": "03",
+    "text": "要求有關金錢服務經營者在關長指明的較第[8.4]及[8.6]段提述的期間 為長的期間，備存與指定交易或客戶有關的紀錄"
+   }
+  ]
+ },
+ "m7-211": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "an MSO should keep all documents and records mentioned in paragraph [8.3] for a period of at least five years after the date of the occasional transaction"
+   },
+   {
+    "doc": "03",
+    "text": "(i.e. $8,000 for wire transfers and virtual asset transfers involving virtual assets, and $120,000 for other types of transactions)"
+   },
+   {
+    "doc": "03",
+    "text": "An MSO should maintain the original or a copy of the documents, and a record of the data and information, obtained or generated in connection with each transaction the MSO carries out, both domestic and international"
+   },
+   {
+    "doc": "03",
+    "text": "sufficient to permit reconstruction of individual transactions so as to provide, if necessary, evidence for prosecution of criminal activity"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "由進行非經常交易後當日 起計為期至少5年"
+   },
+   {
+    "doc": "03",
+    "text": "（即電傳轉帳和涉及虛擬資產的虛擬資產轉帳為8,000元及其他類別的交易為120,000元）"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應就每項由該金錢服務經營者進行的（本地及國際）交易，備存與該項交易有關連的情況下取得或產生的文件的正本或複本，及如此取得或產生的數據及資料的紀錄"
+   },
+   {
+    "doc": "03",
+    "text": "這些資料應足以重組個別交易，以便在有需要時為檢控犯罪活動提供證據"
+   }
+  ]
+ },
+ "m7-212": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "If the record consists of a document, either the original of the document should be retained or a copy of the document should be kept on microfilm or in the database of a computer."
+   },
+   {
+    "doc": "03",
+    "text": "Irrespective of where CDD and transaction records are held, an MSO is required to comply with all legal and regulatory requirements in Hong Kong"
+   },
+   {
+    "doc": "03",
+    "text": "all CDD information and transaction records are available swiftly to the CCE, other authorities and auditors upon appropriate authority"
+   },
+   {
+    "doc": "03",
+    "text": "require it to keep the records relating to a specified transaction or customer for a period specified by the CCE that is longer"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "如該紀錄包含文件，應備存該文件的正本，或以微縮影片或電腦數據庫備存該文件的複本"
+   },
+   {
+    "doc": "03",
+    "text": "不論在何處保存盡職審查及交易紀錄，金錢服務經營者必須符合香港的所有法律及監管規定"
+   },
+   {
+    "doc": "03",
+    "text": "迅速地為有適當授權的關長、其他機構及核數師提供所有盡職審查資料及交易紀錄"
+   },
+   {
+    "doc": "03",
+    "text": "要求有關金錢服務經營者在關長指明的較第[8.4]及[8.6]段提述的期間 為長的期間，備存與指定交易或客戶有關的紀錄"
+   }
+  ]
+ },
+ "m7-213": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "should immediately obtain data or the information that the intermediary has obtained in the course of carrying out that measure"
+   },
+   {
+    "doc": "03",
+    "text": "documents and records will be provided by the intermediary as soon as reasonably practicable after the intermediary receive the request from the MSO"
+   },
+   {
+    "doc": "03",
+    "text": "an intermediary will pass the documents and records to the MSO, upon termination of the services provided by the intermediary"
+   },
+   {
+    "doc": "03",
+    "text": "the MSO concerned remains responsible for compliance with all record-keeping requirements"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "藉著中介人執行客戶盡職審查措施的金錢服務經營者應立刻取得該中介人在執行該措施時取得的數據或資料"
+   },
+   {
+    "doc": "03",
+    "text": "中介人會在收到金錢服務經營者的要求後，盡快在合理地切實可行的範圍內提供有關文件及紀錄"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應確保中介人在終止提供服務後會將文件及紀錄交回金錢服務經營者"
+   },
+   {
+    "doc": "03",
+    "text": "並由中介人持有客戶的識別及核實文件，有關金錢服務經營者仍有責任遵守所有備存紀錄的"
+   }
+  ]
+ },
+ "m7-214": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "which at a minimum should include business correspondence material to CDD measures or significant changes to the operation of the account"
+   },
+   {
+    "doc": "03",
+    "text": "An MSO is are not expected to keep each and every correspondence, such as a series of emails with the customer; the expectation is that sufficient correspondence is kept to demonstrate compliance with the AMLO."
+   },
+   {
+    "doc": "03",
+    "text": "the results of any analysis undertaken"
+   },
+   {
+    "doc": "03",
+    "text": "other documents and records obtained throughout the CDD and ongoing monitoring process, including SDD and EDD"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "最低限度應包括與盡職審查措施或戶口的運作有顯著改變有關的業務通訊"
+   },
+   {
+    "doc": "03",
+    "text": "不要求金錢服務經營者要保存每一封通訊，例如與客戶的連串電郵，但金錢服務經營者應保存足夠通訊，顯示已遵守打擊洗錢條例的規定"
+   },
+   {
+    "doc": "03",
+    "text": "任何已作分析的結果"
+   },
+   {
+    "doc": "03",
+    "text": "在執行盡職審查或持續監察程序（包括簡化的盡職審查及更嚴格的盡職審查）期間取得的其他文件及紀錄"
+   }
+  ]
+ },
+ "m7-215": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "New staff should be required to attend initial training as soon as possible after being hired or appointed."
+   },
+   {
+    "doc": "03",
+    "text": "The scope and frequency of training should be tailored to the specific risks faced by the MSO and pitched according to the job functions, responsibilities and experience of the staff."
+   },
+   {
+    "doc": "03",
+    "text": "The effective implementation of even a well-designed internal control system can be compromised if staff using the system is not adequately trained."
+   },
+   {
+    "doc": "03",
+    "text": "An MSO should implement a clear and well articulated policy for ensuring that relevant staff receive adequate AML/CFT training."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "新職員獲聘用或委任後，應盡快接受初步培訓"
+   },
+   {
+    "doc": "03",
+    "text": "培訓的範疇及頻密程度應切合金錢服務經營者面對的特定風險，並顧及職員的職能、職責及經驗"
+   },
+   {
+    "doc": "03",
+    "text": "如沒有為使用系統的職員提供充分培訓，則即使是一個設計精湛的內部監控系統，其成效也會受到影響"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應實施清晰及明確的政策，確保在打擊洗錢／恐怖分子資金籌集方面，為有關職員提供充分培訓"
+   }
+  ]
+ },
+ "m7-216": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "(ii) the MSO’s policies and procedures in relation to CDD and record-keeping 64 requirements that are relevant to their job responsibilities; and (iii) training in circumstances that may give rise to suspicion, and relevant policies and procedures, including, for example, lines of reporting and when extra vigilance might be required;"
+   },
+   {
+    "doc": "03",
+    "text": "how to recognise unusual activities including abnormal settlements, payments or delivery instructions"
+   },
+   {
+    "doc": "03",
+    "text": "specific training in relation to their responsibilities for supervising or managing staff, auditing the system and performing random checks"
+   },
+   {
+    "doc": "03",
+    "text": "training to keep abreast of AML/CFT requirements/developments generally"
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "(ii)金錢服務經營者在客戶盡職審查及備存紀錄方面的政策及程序上的規定，而這些規定是與這類職員的職責相關的；及(iii)就可能出現可疑交易的情況及相關政策及程序等方面提供培訓，例如報告的流程及應何時提高額外警覺；"
+   },
+   {
+    "doc": "03",
+    "text": "如何識別不尋常活動，包括不正常的結算、付款及交付指示"
+   },
+   {
+    "doc": "03",
+    "text": "涵蓋監督或管理職員、系統審查、進行隨機抽查，以及向財富情報組舉報可疑交易的職責的特定培訓"
+   },
+   {
+    "doc": "03",
+    "text": "與打擊洗錢／恐怖分子資金籌集所有一般規定/發展同步的培訓"
+   }
+  ]
+ },
+ "m7-217": {
+  "en": [
+   {
+    "doc": "03",
+    "text": "The MSO should be able to demonstrate to the CCE that all materials are up-to-date and in line with current requirements and standards."
+   },
+   {
+    "doc": "03",
+    "text": "an MSO should monitor and maintain records of who have been trained, when the staff received the training and the type of the training provided. Records should be maintained for a minimum of 3 years."
+   },
+   {
+    "doc": "03",
+    "text": "an MSO should monitor and maintain records of who have been trained, when the staff received the training and the type of the training provided. Records should be maintained for a minimum of 3 years."
+   },
+   {
+    "doc": "03",
+    "text": "the quality and quantity of internal reports so that further training needs may be identified and appropriate action can be taken; and (c) monitoring attendance and following up with staff who miss such training without reasonable cause."
+   }
+  ],
+  "tc": [
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應能夠向關長證明所有培訓材料應是最新的，並且應符合現行規定及標準"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應監察誰人已接受培訓、職員何時接受培訓，以及所提供培訓的類別，並備存紀錄。紀錄應最少保存3年"
+   },
+   {
+    "doc": "03",
+    "text": "金錢服務經營者應監察誰人已接受培訓、職員何時接受培訓，以及所提供培訓的類別，並備存紀錄。紀錄應最少保存3年"
+   },
+   {
+    "doc": "03",
+    "text": "監察內部報告的質和量，藉此找出進一步的培訓需要，並且採取適當行動；及(c)監察職員出席培訓的情況，並對沒有合理因由而缺席培訓的職員作出跟進。"
    }
   ]
  }

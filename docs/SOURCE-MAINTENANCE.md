@@ -33,11 +33,15 @@ previous companion extraction rules, preserving unchanged source text.
 `extract_related.py` remains a compatibility entry point for the same process.
 Image labels in `transcripts/15.json` stay bound to their exact source PDFs.
 
-The original 23 bank sources are marked `original_bank_source`. Other publications,
-including the two full laws, are reading aids: numbering does not approve them
-for questions. Verify edition, language, scope and citation patterns in
-`sources_test.go` before extending bank coverage. Archived bank sources remain
-available for quote and evidence checks.
+The owner-selected active bank uses **01–26 only**, as recorded in
+`catalog.json.question_bank_scope`. The original 23-source flag is historical;
+it is not the current allowlist. Verify edition, language, source context and
+citation patterns before authoring. Source 24 has no official Chinese text:
+label Chinese questions as study translations and store the actual English
+quote with `language: "en"`. The sole language override is TC/document 24.
+Documents 27–47 remain available for historical evidence checks but cannot
+support active questions. Linked websites or publications absent from 01–26
+are not additional sources; questions must be decided by the local document.
 
 ## Changing sources or order
 
@@ -56,10 +60,16 @@ successor. Historical mappings are evidence only, not authoring lookups.
 
 ## Checks
 
+Run `python docs/extract_text.py` (requires PyMuPDF) only when source originals change, and review the extracted differences. Ordinary documentation edits do not need re-extraction. See [Development](../DEVELOPMENT.md) for the complete build and release process and the [index](INDEX.md) for documentation navigation.
+
 ```bash
-python docs/extract_text.py
 python docs/build_catalog.py --check
+go vet ./...
 go test ./...
+node --test tests/*.test.cjs
+python -m unittest discover -s tests -p '*_test.py'
+python bank/audit/active_scope.py --check
+python bank/audit/render_active_scope.py --check
 python bank/audit/report.py --check
 python bank/audit/terms_report.py --check
 python bank/audit/p1_report.py --check

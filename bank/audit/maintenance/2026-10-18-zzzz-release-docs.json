@@ -1,0 +1,78 @@
+{
+  "status": "verified",
+  "date": "2026-10-18",
+  "reason": "Owner-authorized bilingual documentation refresh and v1.9.0 publication; question content unchanged.",
+  "archive": "bank/audit/history/2026-10-18-before-release-docs.zip",
+  "archive_sha256": "7c62daa2a2574d00c33d61966d6ef575025280f4bb3691352fdb5dd4b47982f6",
+  "archive_updates": {
+    "AGENTS.md": {
+      "before_sha256": "9c36cfa95c8d265486b6296d23a635fcb9dd83b815747b051014402c86f13bbc",
+      "after_sha256": "4e70b648a7862fa0fcac65156c9ce2ea43e3d635f29877533ee81c08e9686711"
+    },
+    "DEVELOPMENT.md": {
+      "before_sha256": "e16ee06cec9f0a0080a79c28d01d2905a47408bcffc0bb795f59a2296f6ac3ed",
+      "after_sha256": "e700ecf74bc5b46cf6cf10e2439b48482dfef96806840b4047e81cf903e7c1f9"
+    },
+    "DEVELOPMENT.zh-Hant.md": {
+      "before_sha256": "118f6f11490354c910e82697ac562003dbbf4d9c27c6e87eded487b5f53c5290",
+      "after_sha256": "2c73e6451c13e38a5d974f5ebe7cc424aba54c670301ac78976075bccfc87ac1"
+    },
+    "LICENSE-CONTENT.md": {
+      "before_sha256": "08a3ff8fbfacb395db9aa8481f1203a7773011fd6fbad40df9832d13942d36eb",
+      "after_sha256": "5d3bde0abd2d565faf9fd849e6b6ba551432302dad67d9011d2322d14e826922"
+    },
+    "README.md": {
+      "before_sha256": "b9a9d8a54ceae77282d9c6d9efc0e4c4d1f334b05dedae74aeb58f30b1e08e54",
+      "after_sha256": "ffd15565fcd96aeaf444a519d18ef300a85422f1a1630cf3039d3bbbbf7f1028"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "8d246455616ed77f66f1fef66adb5cc0e4448e66d049c07c99f25f0c69cb799d",
+      "after_sha256": "178e1ceb97db7828e77d6227ebaf486be0aa1d7d3ae899f325748ca40a023a57"
+    },
+    "bank/FORMAT.md": {
+      "before_sha256": "f6aad1f5556ec4ec9a1cf46dfbd62a8db8be498f1c3ef72e994e50df4bc16ea2",
+      "after_sha256": "b1ac03f112a397dd9a2c83c9fb41a3a317e2c6ee19c8c7f3b8d567a9fd6e9a68"
+    },
+    "docs/README.md": {
+      "before_sha256": "e7bf59d8b8f91ebf1a48e9ddd4f1c65dd54eda821ed9b78b412fca98167c56da",
+      "after_sha256": "ceace0ddd50dad7884e4bfb3d472be41a47fbe86a9fa06ba2a7d53e2c91a4282"
+    },
+    "docs/README.zh-Hant.md": {
+      "before_sha256": "ef856b3f0db4ea6aec82ebd0407d438bf0e1698f4262d0ac58ac74361935ecc4",
+      "after_sha256": "4cef549179d66103ee5f63ce5c1b30e6530194f1247f3d17650918c169ef18b6"
+    },
+    "docs/SOURCE-MAINTENANCE.md": {
+      "before_sha256": "dc3748bcd548959ce81279cf5287b27bcadcc83246f1ca9398534ceb56579ff0",
+      "after_sha256": "1489f7f94f1e1ee62d75de5bf8cd7a1a13e1200b54847890bb10a67ee2c60812"
+    },
+    "docs/SOURCE-MAINTENANCE.zh-Hant.md": {
+      "before_sha256": "0abb44f2c72f9cba9c43d706ae09517bf8c6e06349bc28824cb45048e24329c4",
+      "after_sha256": "65d7842f4543d96aaac74cdbfc92c566dee31bc7f7b406a9ddeebcc5726c10a6"
+    },
+    "revision/AUTHOR_GUIDE.md": {
+      "before_sha256": "e20100f22ea637638007d94d55f6c4e0a11f3428237dd3d76c065e5f2ae9456e",
+      "after_sha256": "661c87bcfc9356687a69c53e91450bee1fde93cf459904c589ed54c4289fdb37"
+    },
+    "revision/README.md": {
+      "before_sha256": "2340cf2defd0db6860197adc8a97d87dec0ced58aa129cf19f12dd39bffe0fa4",
+      "after_sha256": "acca0a14cb23998989542f2fb2bbb4b6302c090806f0688dc822768eeec363e6"
+    },
+    "docs/archive/README.md": {
+      "before_sha256": "5c2d48bda328e492758efb2ba04cf4e1019872075d48c8388f01c5b45a554c8f",
+      "after_sha256": "5f554dacbba500508e12b31877c72f356b598f8b2e68d1d4b045dd784f5f93a5"
+    },
+    "docs/archive/README.zh-Hant.md": {
+      "before_sha256": "42f0a704084842bdf61cebd262d4909512ec8a20df0b380d84c577082fc2a40a",
+      "after_sha256": "c857ad31b319a9e6bd8af1ac478a3e40c91959d3a07fc2f4d5482d1b0cd79f48"
+    },
+    "docs/authoring/exam-prep/GUIDE.md": {
+      "before_sha256": "2a76558d2b22ee30cf85c70c7e924a1fb1e755cece6f51214e03683d629e78d0",
+      "after_sha256": "8713d7a9a492ef2c43e118e729b4313218e436ffcde92a92055073248ff32bc1"
+    },
+    "docs/build_catalog.py": {
+      "before_sha256": "40da2cd2ea1bcd444b9992f1f3fcb03fcb4f2de199b4438347c8e52752e521ab",
+      "after_sha256": "5bc8e3dc546558feabbf9b4a93a8a2de7d450ce627321994cd3cb79d2f207bd0"
+    }
+  },
+  "documentation_updates": {}
+}

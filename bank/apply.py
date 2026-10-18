@@ -87,7 +87,9 @@ def load(path):
 
 
 def save(path, data):
-    with open(ROOT / path, "w", encoding="utf-8") as f:
+    target = ROOT / path
+    newline = "\r\n" if target.exists() and b"\r\n" in target.read_bytes() else "\n"
+    with open(target, "w", encoding="utf-8", newline=newline) as f:
         f.write(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
 
 
@@ -207,16 +209,24 @@ def problems(item):
             continue
         for i, q in enumerate(qs):
             doc, text = q.get("doc", ""), q.get("text", "")
-            st = source_text(lang, doc)
+            if doc not in {f"{n:02d}" for n in range(1, 27)}:
+                out.append(f"quotes.{lang}[{i}]: document {doc!r} is outside the approved 01–26 scope")
+            quote_lang = q.get("language", lang)
+            translated = lang == "tc" and doc == "24" and quote_lang == "en"
+            if quote_lang != lang and not translated:
+                out.append(f"quotes.{lang}[{i}]: unsupported source-language override")
+            if translated and "學習譯文" not in src.get("tc", ""):
+                out.append("source.tc must label document 24 as a study translation (學習譯文)")
+            st = source_text(quote_lang, doc)
             if st is None:
                 out.append(f"quotes.{lang}[{i}]: no document {doc!r}")
             elif not text.strip() or match_key(text) not in st:
                 out.append(f"quotes.{lang}[{i}]: not found in docs/text/{lang.upper()}/{doc}.txt: {text[:60]!r}")
-            elif (lang == "tc") != bool(HAN.search(BRACKETED_HAN.sub("", text))):
+            elif (quote_lang == "tc") != bool(HAN.search(BRACKETED_HAN.sub("", text))):
                 out.append(f"quotes.{lang}[{i}]: the quote is in the wrong language: {text[:60]!r}")
-            elif lang == "en" and not 3 <= len(text.split()) <= 60:
+            elif quote_lang == "en" and not 3 <= len(text.split()) <= 60:
                 out.append(f"quotes.en[{i}]: {len(text.split())} words; keep a quote to 3 to 60: {text[:60]!r}")
-            elif lang == "tc" and not 6 <= len(match_key(text)) <= 140:
+            elif quote_lang == "tc" and not 6 <= len(match_key(text)) <= 140:
                 out.append(f"quotes.tc[{i}]: {len(match_key(text))} characters; keep a quote to 6 to 140: {text[:30]!r}")
     if out:
         return out

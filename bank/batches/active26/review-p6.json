@@ -1,0 +1,1484 @@
+[
+ {
+  "id": "m6-471",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "24",
+    "locator": "p.3",
+    "en": "especially when there is no reference to a specific unit",
+    "tc": "especially when there is no reference to a specific unit",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.3",
+    "en": "with no reasonable explanation",
+    "tc": "with no reasonable explanation",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.3",
+    "en": "boilerplate material taken from other websites",
+    "tc": "boilerplate material taken from other websites",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.3",
+    "en": "lack of knowledge regarding the particular product or industry",
+    "tc": "lack of knowledge regarding the particular product or industry",
+    "language": "en"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-472",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "24",
+    "locator": "p.3",
+    "en": "unusually complex and illogical",
+    "tc": "unusually complex and illogical",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.3",
+    "en": "jurisdiction with weak AML/CFT compliance",
+    "tc": "jurisdiction with weak AML/CFT compliance",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.3",
+    "en": "inconsistent with its volume of traded commodities",
+    "tc": "inconsistent with its volume of traded commodities",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.3",
+    "en": "lack knowledge of transaction details",
+    "tc": "lack knowledge of transaction details",
+    "language": "en"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-473",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "24",
+    "locator": "p.3",
+    "en": "regular payroll transactions",
+    "tc": "regular payroll transactions",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.3",
+    "en": "effort to appear as part of the corporation",
+    "tc": "effort to appear as part of the corporation",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.3",
+    "en": "unexplained periods of dormancy",
+    "tc": "unexplained periods of dormancy",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.3",
+    "en": "not compliant with regular business obligations",
+    "tc": "not compliant with regular business obligations",
+    "language": "en"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-474",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "24",
+    "locator": "p.4",
+    "en": "a car dealer is exporting clothing",
+    "tc": "a car dealer is exporting clothing",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.4",
+    "en": "numerous third-party intermediaries in incongruent lines of business",
+    "tc": "numerous third-party intermediaries in incongruent lines of business",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.4",
+    "en": "unreasonably low profit margins",
+    "tc": "unreasonably low profit margins",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.4",
+    "en": "commodities not traded on the open market",
+    "tc": "commodities not traded on the open market",
+    "language": "en"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-475",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "24",
+    "locator": "p.4",
+    "en": "clearly exceed the economic capabilities",
+    "tc": "clearly exceed the economic capabilities",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.4",
+    "en": "sudden influxes of cash deposits",
+    "tc": "sudden influxes of cash deposits",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.4",
+    "en": "newly formed or recently re-activated",
+    "tc": "newly formed or recently re-activated",
+    "language": "en"
+   },
+   {
+    "doc": "24",
+    "locator": "p.4",
+    "en": "intermingling of different types of trade finance products",
+    "tc": "intermingling of different types of trade finance products",
+    "language": "en"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-476",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "18",
+    "locator": "s.2",
+    "en": "much higher ML and TF risks",
+    "tc": "較高洗錢／恐怖分子資金籌集風險",
+    "language": "bilingual"
+   },
+   {
+    "doc": "18",
+    "locator": "s.2",
+    "en": "proactively consider to apply anti-fraud procedures",
+    "tc": "主動考慮採取反欺詐程序",
+    "language": "bilingual"
+   },
+   {
+    "doc": "18",
+    "locator": "s.2",
+    "en": "as an originator or a recipient",
+    "tc": "匯款人或收款人",
+    "language": "bilingual"
+   },
+   {
+    "doc": "18",
+    "locator": "s.2",
+    "en": "Source of Funds",
+    "tc": "資金來源及財富來源",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-477",
+  "verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "18",
+    "locator": "s.3",
+    "en": "instead of closing generated TM alerts without sufficient justification and analysis",
+    "tc": "而非在沒有充分理由及分析的情況下",
+    "language": "bilingual"
+   },
+   {
+    "doc": "18",
+    "locator": "s.3",
+    "en": "making appropriate enquiries",
+    "tc": "適當地詢問客戶",
+    "language": "bilingual"
+   },
+   {
+    "doc": "18",
+    "locator": "s.3",
+    "en": "customer risk profiles, SoF / SoW and historical transactions",
+    "tc": "客戶的風險狀況、資金／財富來源",
+    "language": "bilingual"
+   },
+   {
+    "doc": "18",
+    "locator": "s.3",
+    "en": "generate alerts for unusual or suspicious transactions",
+    "tc": "就不尋常或可疑的交易作出識別及警報",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-478",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.2.1–4.2.5",
+    "en": "several operations that appear to the MSO to be linked",
+    "tc": "覺得是有關連的若干次操作執行",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.2.1–4.2.5",
+    "en": "same recipient",
+    "tc": "同一收款人",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.2.1–4.2.5",
+    "en": "inherent in the characteristics of the transactions",
+    "tc": "取決於交易本身的特徵",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.2.1–4.2.5",
+    "en": "irrespective of the $120,000 or $8,000 threshold",
+    "tc": "即使低於第[4.2.1(b)]段載列",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-479",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.3.2–4.3.5",
+    "en": "valid travel document (e.g. unexpired passport)",
+    "tc": "有效的旅遊證件（例如未過期的護照）",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.3.2–4.3.5",
+    "en": "nationality",
+    "tc": "國籍",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.3.2–4.3.5",
+    "en": "should obtain the residential address information",
+    "tc": "應向屬自然人的客戶索取住址資料",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.3.2–4.3.5",
+    "en": "should contain a photograph",
+    "tc": "應載有客戶的照片",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-480",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.4.6–4.4.9",
+    "en": "more than 25%",
+    "tc": "25%以上",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.4.6–4.4.9",
+    "en": "ultimate control over the management",
+    "tc": "管理最終的控制權",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.4.6–4.4.9",
+    "en": "any natural person who ultimately has a controlling ownership interest",
+    "tc": "任何在該法人內最終掌握控制擁有權益",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.4.6–4.4.9",
+    "en": "If there is no such natural person",
+    "tc": "如沒有這類自然人",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-481",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.4.13–4.4.18",
+    "en": "identities of the authorised/registered custodian and the person",
+    "tc": "保管人身分，以及有權享有股份所附帶權利的人士的身分",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.4.13–4.4.18",
+    "en": "annually thereafter",
+    "tc": "其後每年",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.4.13–4.4.18",
+    "en": "identities of the nominees, and the persons on whose behalf they are acting",
+    "tc": "代名人及代名人所代表行事的人士的身分",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.4.13–4.4.18",
+    "en": "notify it immediately",
+    "tc": "即時知會",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-482",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "06",
+    "locator": "¶4.5.4,4.10.5;doc06Q9",
+    "en": "does not mandate whether the natural person should be a director or beneficial owner",
+    "tc": "並沒有強制規定有關自然人為客戶的董事或實益擁有人",
+    "language": "bilingual"
+   },
+   {
+    "doc": "06",
+    "locator": "¶4.5.4,4.10.5;doc06Q9",
+    "en": "at least one natural person",
+    "tc": "至少一名獲授權建立業務關係的自然人",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.5.4,4.10.5;doc06Q9",
+    "en": "appropriate documentary evidence",
+    "tc": "適當的文件證據",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.5.4,4.10.5;doc06Q9",
+    "en": "provided with copies of documents",
+    "tc": "僅獲文件的複本",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-483",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.7.3–4.7.4",
+    "en": "appropriate limits on the number, types and/or amount",
+    "tc": "適當地限制可進行的交易次數、類別及／或金額",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.7.3–4.7.4",
+    "en": "transaction is approved by senior management",
+    "tc": "交易經高級管理層批准",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.7.3–4.7.4",
+    "en": "without a justifiable reason",
+    "tc": "無充分理由",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.7.3–4.7.4",
+    "en": "suspend or terminate the business relationship",
+    "tc": "暫停或終止有關業務關係",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-484",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.11.1–4.11.2,4.11.5–4.11.7",
+    "en": "intermediary is about to cease trading",
+    "tc": "在中介人即將結業",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.11.1–4.11.2,4.11.5–4.11.7",
+    "en": "sample tests from time to time",
+    "tc": "應不時進行抽樣測試",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.11.1–4.11.2,4.11.5–4.11.7",
+    "en": "apply its own procedures",
+    "tc": "按本身的程序執行盡職審查措施",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.11.1–4.11.2,4.11.5–4.11.7",
+    "en": "perform the required CDD as soon as reasonably practicable",
+    "tc": "盡快執行所需的盡職審查措施",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-485",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.10.1–4.10.4",
+    "en": "not required to carry out any additional measures",
+    "tc": "無須執行第[4.10.1]段載列的額外措施",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.10.1–4.10.4",
+    "en": "recognised by the CCE",
+    "tc": "關長認可",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.10.1–4.10.4",
+    "en": "nature and characteristics of the product or service requested",
+    "tc": "額外措施的程度將視乎客戶要求",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.10.1–4.10.4",
+    "en": "adequately guard against impersonation risk",
+    "tc": "足以應對假冒風險",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-486",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶5.2,5.6,5.8;doc06Q22",
+    "en": "within or across lines of businesses",
+    "tc": "業務範圍內或跨業務",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶5.2,5.6,5.8;doc06Q22",
+    "en": "and/or upon trigger events",
+    "tc": "遇有觸發事件",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶5.2,5.6,5.8;doc06Q22",
+    "en": "properly documented and independently validated",
+    "tc": "妥為記錄在案，並經獨立驗證",
+    "language": "bilingual"
+   },
+   {
+    "doc": "06",
+    "locator": "¶5.2,5.6,5.8;doc06Q22",
+    "en": "may use an intermediary to collect further documents",
+    "tc": "可藉中介人來收集進一步的文件",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-487",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶5.10–5.12,5.14",
+    "en": "may conclude that there are no grounds for suspicion",
+    "tc": "可斷定沒有懷疑的理由",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶5.10–5.12,5.14",
+    "en": "should consider updating the customer risk profile",
+    "tc": "仍應考慮根據任何取得的相關資料，更新客戶的風險狀況",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶5.10–5.12,5.14",
+    "en": "properly documented in writing",
+    "tc": "以書面方式妥為記錄在案",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶5.10–5.12,5.14",
+    "en": "may conclude that there are grounds for suspicion",
+    "tc": "可斷定為有懷疑的理由",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-488",
+  "verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶6.12–6.15",
+    "en": "regardless of whether the relevant sanctions have been implemented",
+    "tc": "不論有關制裁是否已透過立法在香港實施",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶6.12–6.15",
+    "en": "timely update",
+    "tc": "應及時更新",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶6.12–6.15",
+    "en": "possible designated parties, and detect prohibited transactions",
+    "tc": "可能被指認的各方，以及偵察被禁止的交易",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶6.12–6.15",
+    "en": "adequate guidance and training",
+    "tc": "充足導引及培訓",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-489",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶10.7–10.9,fn70;doc06Q25",
+    "en": "permit traceability of the wire transfer",
+    "tc": "可用作追蹤有關電傳轉帳",
+    "language": "bilingual"
+   },
+   {
+    "doc": "06",
+    "locator": "¶10.7–10.9,fn70;doc06Q25",
+    "en": "deemed to be accurate",
+    "tc": "所需的匯款人資料便視為準確",
+    "language": "bilingual"
+   },
+   {
+    "doc": "06",
+    "locator": "¶10.7–10.9,fn70;doc06Q25",
+    "en": "may exercise their discretion",
+    "tc": "仍可運用酌情權",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶10.7–10.9,fn70;doc06Q25",
+    "en": "record held by the originating institution",
+    "tc": "由發起機構持有的紀錄",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-490",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶10.10,10.12–10.13",
+    "en": "required and accurate originator information, and required recipient information",
+    "tc": "所需及準確的匯款人資料及所需收款人資料",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶10.10,10.12–10.13",
+    "en": "law enforcement agencies immediately upon request",
+    "tc": "按執法機構要求立即提供",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶10.10,10.12–10.13",
+    "en": "regular review or testing by internal control or audit function",
+    "tc": "定期覆核或藉內部管控或審計職能進行測試",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶10.10,10.12–10.13",
+    "en": "timely rectifying any control deficiencies",
+    "tc": "適時糾正所識別的管控不足之處",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-491",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶10.15–10.16,10.19",
+    "en": "for at least five years",
+    "tc": "為期至少5年",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶10.15–10.16,10.19",
+    "en": "consistent with straight-through processing",
+    "tc": "與直通式處理程序一致",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶10.15–10.16,10.19",
+    "en": "when to execute, reject, or suspend",
+    "tc": "何時執行、拒絕或暫停",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶10.15–10.16,10.19",
+    "en": "post-event monitoring",
+    "tc": "事後監察",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-492",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶10.19–10.22",
+    "en": "if the identity has not been previously verified",
+    "tc": "如收款機構未曾核實收款人的身分，便應加以核實",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶10.19–10.22",
+    "en": "incomplete or meaningless",
+    "tc": "並不完整，或不具意義",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶10.19–10.22",
+    "en": "when to execute, reject, or suspend",
+    "tc": "何時執行、拒絕或暫停",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶10.19–10.22",
+    "en": "domestic or cross-border",
+    "tc": "本地或跨境",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-493",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.3.10,4.3.12fn23,4.4.11–4.4.12",
+    "en": "also regard the trustee",
+    "tc": "應把受託人",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.3.10,4.3.12fn23,4.4.11–4.4.12",
+    "en": "obtain sufficient information",
+    "tc": "索取足夠資料",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.3.10,4.3.12fn23,4.4.11–4.4.12",
+    "en": "protector (if any)",
+    "tc": "保護人（如有）",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.3.10,4.3.12fn23,4.4.11–4.4.12",
+    "en": "Under exceptional circumstance",
+    "tc": "在特殊情況下",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-494",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.9.12fn37,4.9.24–4.9.25;doc06Q21",
+    "en": "but also the activity that generates the funds",
+    "tc": "亦要知悉衍生資金的活動",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.12fn37,4.9.24–4.9.25;doc06Q21",
+    "en": "not merely on prescribed time limits",
+    "tc": "不應僅訂明時限",
+    "language": "bilingual"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.12fn37,4.9.24–4.9.25;doc06Q21",
+    "en": "entire body of wealth",
+    "tc": "全部財富",
+    "language": "bilingual"
+   },
+   {
+    "doc": "06",
+    "locator": "¶4.9.12fn37,4.9.24–4.9.25;doc06Q21",
+    "en": "personnel in another jurisdiction",
+    "tc": "其他司法管轄區的人員",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-495",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "controls6,8–9,11;doc03¶4.4.5",
+    "en": "appropriate enquiries where there are indications",
+    "tc": "有跡象顯示該客戶並非代表其本身行事，則須進行適當查詢",
+    "language": "bilingual"
+   },
+   {
+    "doc": "08",
+    "locator": "controls6,8–9,11;doc03¶4.4.5",
+    "en": "third-party payer is the true beneficial owner",
+    "tc": "第三方付款人即真正實益擁有人",
+    "language": "bilingual"
+   },
+   {
+    "doc": "08",
+    "locator": "controls6,8–9,11;doc03¶4.4.5",
+    "en": "exercise extra caution",
+    "tc": "便應格外留神",
+    "language": "bilingual"
+   },
+   {
+    "doc": "08",
+    "locator": "controls6,8–9,11;doc03¶4.4.5",
+    "en": "findings of enquiries made and corroborative evidence",
+    "tc": "查詢結果、核對證據",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-496",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "08",
+    "locator": "controls2,6,8–9",
+    "en": "single third party is making or receiving payments",
+    "tc": "一個第三方向數名看似沒有關連的客戶付款",
+    "language": "bilingual"
+   },
+   {
+    "doc": "08",
+    "locator": "controls2,6,8–9",
+    "en": "critically evaluating the reasons of and the need",
+    "tc": "嚴格評估使用第三方支付的原因及需要",
+    "language": "bilingual"
+   },
+   {
+    "doc": "08",
+    "locator": "controls2,6,8–9",
+    "en": "subject to stringent management approval",
+    "tc": "須經過管理層嚴格審批",
+    "language": "bilingual"
+   },
+   {
+    "doc": "08",
+    "locator": "controls2,6,8–9",
+    "en": "grounds for suspicion of ML or TF",
+    "tc": "如有懷疑洗錢或恐怖分子資金籌集的理由",
+    "language": "bilingual"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ }
+]

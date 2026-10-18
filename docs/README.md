@@ -10,7 +10,7 @@ Filename order is 01–09 High → 10–19 Medium Essential → 20–26 Medium S
 
 Basis: [official Guidance Notes, paragraphs 5.2-6.1](https://eservices.customs.gov.hk/MSOS/download/licensing/Guidance_Notes_on_the_Competence_Assessment_for_Money_Service_Operators_en.pdf). The seven-module syllabus includes law, core and other guidelines, and circulars. These are study recommendations, not official exam weights.
 
-21 of the 47 publications have been removed from daily reading: covered extracts, old notices, repeat training, historical resolutions and lower-priority extensions. See [the decisions and reasons](archive/README.md). Originals and question evidence remain. Archiving does not establish withdrawal or exam exclusion; existing questions may still cite archived circulars.
+21 of the 47 publications have been removed from daily reading: covered extracts, old notices, repeat training, historical resolutions and lower-priority extensions. See [the decisions and reasons](archive/README.md). Originals and question evidence remain. Archiving does not establish withdrawal or exam exclusion; the current question bank uses only 01–26; archived material is historical reference.
 
 ## 01–09 · High priority
 
@@ -53,9 +53,9 @@ Basis: [official Guidance Notes, paragraphs 5.2-6.1](https://eservices.customs.g
 | <a id="doc-25"></a><a id="related-25"></a>25 | [Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022)](<EN/25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf>) | Hong Kong territory-wide and sectoral risk assessment. | Focus on section 5.4 and MSO cases; selectively read TF and PF chapters. |
 | <a id="doc-26"></a><a id="related-26"></a>26 | [Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018) · MSSB/SAN_01/2018](<EN/26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf>) | Principles of UN sanctions screening and early alerts. | Read alongside guideline chapter 6, including sanctions not yet implemented locally. |
 
-## Online reading still required
+## External reading beyond the app scope
 
-The two FATF statements dated 19 June 2026 and June plenary outcomes linked by item 19 still have no complete local copies. Check for newer lists before the exam.
+The two FATF statements dated 19 June 2026 and June plenary outcomes linked by item 19 have no complete local copies and are outside the app question scope. For separate further reading, check for newer versions.
 
 - 19 · [High-Risk Jurisdictions subject to a Call for Action](https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/call-for-action-june-2026.html)
 - 19 · [Jurisdictions under Increased Monitoring](https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-june-2026.html)
@@ -65,9 +65,11 @@ The two FATF statements dated 19 June 2026 and June plenary outcomes linked by i
 
 ## Use and maintenance
 
+[User guide](USAGE.md) · [Documentation index](INDEX.md)
+
 Item 24 gives the English original in TC, explicitly marked as such. Item 30 is a reference extract; use the full Cap. 34 in item 17.
 
-Although independently numbered, the two full laws are not automatically bank sources. Question IDs, wording and answers are unchanged; document references have been renumbered together. All 23 original bank sources remain tracked, including archived circulars.
+The owner has approved only 01–26 for active questions. The original 23-source flag records history; archived-source questions are retired and additions have separate review evidence. Chinese questions using item 24 are labelled study translations and retain English deciding quotes.
 
 [Source maintenance](SOURCE-MAINTENANCE.md) · [Question source mapping](QUESTION-SOURCES.md) · [Complete register](catalog.json)
 

@@ -151,9 +151,6 @@ table.hist td.num { font-family: var(--mono); font-size: 13.5px; color: var(--in
 .st-verdict .trap { font-weight: 500; color: var(--amber); }
 .st-note { margin-top: 2px; font-size: 13.5px; line-height: 1.5; color: var(--muted); }
 .st-note .tcline { font-size: 1em; }
-/* the statement drill: the stem as context, then one statement to judge */
-.drill-stem { font-size: 14.5px; line-height: 1.55; color: var(--muted); max-width: 68ch; }
-.drill-stmt { margin-top: 14px; padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--r); font-size: 17.5px; line-height: 1.55; color: var(--ink); max-width: 68ch; }
 .opts.tf { flex-direction: row; flex-wrap: wrap; }
 .opts.tf .opt { flex: 1 1 160px; }
 .opts { display: flex; flex-direction: column; gap: 8px; margin-top: 18px; }
@@ -338,3 +335,7 @@ table.hist td.num { font-family: var(--mono); font-size: 13.5px; color: var(--in
   .prow, .dotrow { grid-template-columns: 1fr; gap: 4px; }
   .stem { font-size: 16.5px; }
 }
+
+.scope-note { color: var(--muted); font-size: 14px; }
+.exam-history { margin-top: 24px; }
+.exam-history > summary { cursor: pointer; font-weight: 600; padding: 12px 0; }

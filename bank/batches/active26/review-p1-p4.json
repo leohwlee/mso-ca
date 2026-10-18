@@ -1,0 +1,2788 @@
+[
+ {
+  "id": "m1-190",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "17",
+    "locator": "s.2",
+    "en": "includes a video display screen",
+    "tc": "包括電視螢光屏幕"
+   },
+   {
+    "doc": "17",
+    "locator": "s.2",
+    "en": "includes a cheque and a traveller’s cheque",
+    "tc": "包括支票及旅行支票"
+   },
+   {
+    "doc": "17",
+    "locator": "s.2",
+    "en": "includes to affix a chop or mark",
+    "tc": "包括加蓋圖章或標記"
+   },
+   {
+    "doc": "17",
+    "locator": "s.2",
+    "en": "after deducting all charges and commissions",
+    "tc": "在扣減所有收費及佣金後"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-191",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "17",
+    "locator": "s.3",
+    "en": "currency tendered for exchange exceeds",
+    "tc": "所提供兌換的貨幣款額超過"
+   },
+   {
+    "doc": "17",
+    "locator": "s.3",
+    "en": "exceeds the sum of $100,000",
+    "tc": "超過港幣$100,000"
+   },
+   {
+    "doc": "17",
+    "locator": "s.3",
+    "en": "or the equivalent of such sum",
+    "tc": "或其等值"
+   },
+   {
+    "doc": "17",
+    "locator": "s.3",
+    "en": "may be amended by the Chief Executive",
+    "tc": "行政長官可藉憲報公告"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-192",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "17",
+    "locator": "s.4(1)",
+    "en": "legibly make out in duplicate a transaction note",
+    "tc": "以可閱字迹填具一式兩份的交易單據"
+   },
+   {
+    "doc": "17",
+    "locator": "s.4(1)",
+    "en": "using Arabic numerals",
+    "tc": "以阿拉伯數字"
+   },
+   {
+    "doc": "17",
+    "locator": "s.4(1)",
+    "en": "in so far as is practicable",
+    "tc": "在切實可行範圍內"
+   },
+   {
+    "doc": "17",
+    "locator": "s.4(1)",
+    "en": "sign the transaction note",
+    "tc": "在交易單據上簽署"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-193",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "17",
+    "locator": "s.4(2)–(4)",
+    "en": "the date of the transaction",
+    "tc": "交易日期"
+   },
+   {
+    "doc": "17",
+    "locator": "s.4(2)–(4)",
+    "en": "may include in the form",
+    "tc": "表格內並可載有"
+   },
+   {
+    "doc": "17",
+    "locator": "s.4(2)–(4)",
+    "en": "name, address and telephone number both in English and Chinese",
+    "tc": "中英文姓名或名稱、中英文地址及電話號碼"
+   },
+   {
+    "doc": "17",
+    "locator": "s.4(2)–(4)",
+    "en": "other than a statement authorized by this Ordinance",
+    "tc": "任何並非本條例所授權作出的陳述"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-194",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "17",
+    "locator": "s.4(5)–(8)",
+    "en": "a separate transaction note for each currency sold",
+    "tc": "就每一種賣出的貨幣，發出一份獨立交易單據"
+   },
+   {
+    "doc": "17",
+    "locator": "s.4(5)–(8)",
+    "en": "without any deduction",
+    "tc": "不得作任何扣減"
+   },
+   {
+    "doc": "17",
+    "locator": "s.4(5)–(8)",
+    "en": "the original of a transaction note",
+    "tc": "交易單據的正本"
+   },
+   {
+    "doc": "17",
+    "locator": "s.4(5)–(8)",
+    "en": "not less than 12 months",
+    "tc": "至少12 個月"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-195",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "17",
+    "locator": "s.4(9)–(10), s.5",
+    "en": "refuse to proceed with an exchange transaction",
+    "tc": "拒絕繼續進行兌換交易"
+   },
+   {
+    "doc": "17",
+    "locator": "s.4(9)–(10), s.5",
+    "en": "immediately",
+    "tc": "立即"
+   },
+   {
+    "doc": "17",
+    "locator": "s.4(9)–(10), s.5",
+    "en": "within 3 days after the date thereof",
+    "tc": "在交易日期後3天內"
+   },
+   {
+    "doc": "17",
+    "locator": "s.4(9)–(10), s.5",
+    "en": "without prejudice to any other right or remedy",
+    "tc": "在不損害任何其他權利或補救辦法的情況下"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-196",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "17",
+    "locator": "s.6(2)–(6)",
+    "en": "identical information",
+    "tc": "相同的淨匯率資料"
+   },
+   {
+    "doc": "17",
+    "locator": "s.6(2)–(6)",
+    "en": "well lit place",
+    "tc": "光線充足"
+   },
+   {
+    "doc": "17",
+    "locator": "s.6(2)–(6)",
+    "en": "least favourable to the customer",
+    "tc": "對顧客優惠最少"
+   },
+   {
+    "doc": "17",
+    "locator": "s.6(2)–(6)",
+    "en": "multiple units of 10 or 100 units",
+    "tc": "10單位或100單位的倍數"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-197",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "17",
+    "locator": "ss.7–8",
+    "en": "before he accepts any currency",
+    "tc": "在接受準顧客的貨幣前"
+   },
+   {
+    "doc": "17",
+    "locator": "ss.7–8",
+    "en": "in addition to the subsection (1) note",
+    "tc": "除須發出第(1)款所提述的單據外"
+   },
+   {
+    "doc": "17",
+    "locator": "ss.7–8",
+    "en": "give equal prominence",
+    "tc": "同樣顯眼"
+   },
+   {
+    "doc": "17",
+    "locator": "ss.7–8",
+    "en": "shall not advertise",
+    "tc": "不得宣傳"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-198",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "23",
+    "locator": "s.2(1)",
+    "en": "made out to a fictitious payee",
+    "tc": "開立予虛構受款人"
+   },
+   {
+    "doc": "23",
+    "locator": "s.2(1)",
+    "en": "signed but does not state a payee’s name",
+    "tc": "經已簽署，但並無述明受款人姓名或名稱"
+   },
+   {
+    "doc": "23",
+    "locator": "s.2(1)",
+    "en": "the title of it passes on delivery",
+    "tc": "其所有權是隨交付而轉讓"
+   },
+   {
+    "doc": "23",
+    "locator": "s.2(1)",
+    "en": "endorsed without any restriction",
+    "tc": "獲無限制背書"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-199",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "23",
+    "locator": "s.2(2)–(4)",
+    "en": "in the baggage accompanying the person",
+    "tc": "在該人的隨身行李內"
+   },
+   {
+    "doc": "23",
+    "locator": "s.2(2)–(4)",
+    "en": "whether or not carried, or to be carried, on the same conveyance",
+    "tc": "不論是否由或將會由同一運輸工具運載"
+   },
+   {
+    "doc": "23",
+    "locator": "s.2(2)–(4)",
+    "en": "part of the personal belongings",
+    "tc": "屬該人的個人物品的一部分"
+   },
+   {
+    "doc": "23",
+    "locator": "s.2(2)–(4)",
+    "en": "nominal value of the CBNI",
+    "tc": "該物品的面值"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-200",
+  "verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "23",
+    "locator": "s.2(1), s.3, s.4(3)",
+    "en": "under the age of 16 years",
+    "tc": "未滿16歲"
+   },
+   {
+    "doc": "23",
+    "locator": "s.2(1), s.3, s.4(3)",
+    "en": "solely for the purpose of leaving Hong Kong",
+    "tc": "純綷為了離開香港"
+   },
+   {
+    "doc": "23",
+    "locator": "s.2(1), s.3, s.4(3)",
+    "en": "does not pass through immigration control",
+    "tc": "沒有在任何指明管制站，經過出入境檢查"
+   },
+   {
+    "doc": "23",
+    "locator": "s.2(1), s.3, s.4(3)",
+    "en": "who knows the traveller is a young person in possession of a large quantity",
+    "tc": "該成人知道，該旅客屬幼年人並管有大量"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-201",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "23",
+    "locator": "s.4(6)–(9)",
+    "en": "each accompanying adult who knows",
+    "tc": "每名陪同該旅客和知道"
+   },
+   {
+    "doc": "23",
+    "locator": "s.4(6)–(9)",
+    "en": "false in a material particular",
+    "tc": "在要項上屬虛假"
+   },
+   {
+    "doc": "23",
+    "locator": "s.4(6)–(9)",
+    "en": "imprisonment for 2 years",
+    "tc": "監禁2年"
+   },
+   {
+    "doc": "23",
+    "locator": "s.4(6)–(9)",
+    "en": "did not know, had no reason to suspect, and could not with reasonable diligence have ascertained",
+    "tc": "並不知道，亦無理由懷疑，且即使作出合理努力亦不能確定"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-202",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "23",
+    "locator": "s.7(2)–(6)",
+    "en": "published on the day of the relevant event",
+    "tc": "有關事件的日期就有關貨幣公布的參考匯價"
+   },
+   {
+    "doc": "23",
+    "locator": "s.7(2)–(6)",
+    "en": "immediately preceding rate publication day",
+    "tc": "緊接的上一個報價日"
+   },
+   {
+    "doc": "23",
+    "locator": "s.7(2)–(6)",
+    "en": "means the person arrives at the specified control point concerned",
+    "tc": "指有關的人抵達有關指明管制站"
+   },
+   {
+    "doc": "23",
+    "locator": "s.7(2)–(6)",
+    "en": "if no such exchange rate for the currency is available",
+    "tc": "如並無上述匯價就該貨幣而提供"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-203",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "23",
+    "locator": "s.8",
+    "en": "CBNIs in the possession of a person arriving in",
+    "tc": "乘搭該運輸工具抵達香港"
+   },
+   {
+    "doc": "23",
+    "locator": "s.8",
+    "en": "air transhipment cargo",
+    "tc": "航空轉運貨物"
+   },
+   {
+    "doc": "23",
+    "locator": "s.8",
+    "en": "contained in a postal packet",
+    "tc": "郵包所載"
+   },
+   {
+    "doc": "23",
+    "locator": "s.8",
+    "en": "remain at all times on the aircraft or vessel",
+    "tc": "一直留在該飛機或該船隻上"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-204",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "23",
+    "locator": "s.9(1)–(3)",
+    "en": "or causes to be imported or exported",
+    "tc": "或安排輸入或輸出"
+   },
+   {
+    "doc": "23",
+    "locator": "s.9(1)–(3)",
+    "en": "or causes to be imported or exported",
+    "tc": "或安排輸入或輸出"
+   },
+   {
+    "doc": "23",
+    "locator": "s.9(1)–(3)",
+    "en": "not otherwise responsible for importing or exporting",
+    "tc": "並不就該等物品的輸入或輸出負有其他責任"
+   },
+   {
+    "doc": "23",
+    "locator": "s.9(1)–(3)",
+    "en": "makes, or causes to be made, a declaration",
+    "tc": "作出申報，或安排如此"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-205",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "23",
+    "locator": "s.10(1)–(2)",
+    "en": "on a cross-boundary conveyance by a particular person",
+    "tc": "由個別的人(承運人除外)在某一跨境運輸工具上"
+   },
+   {
+    "doc": "23",
+    "locator": "s.10(1)–(2)",
+    "en": "all CBNIs",
+    "tc": "所有由個別的人"
+   },
+   {
+    "doc": "23",
+    "locator": "s.10(1)–(2)",
+    "en": "by the same carrier for the same customer",
+    "tc": "由同一承運人為同一客户"
+   },
+   {
+    "doc": "23",
+    "locator": "s.10(1)–(2)",
+    "en": "for the same customer",
+    "tc": "為同一客户"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-206",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "¶2.4",
+    "en": "generation, inflows, and outflows of the proceeds of crime",
+    "tc": "資金產生、流入和流出的規模"
+   },
+   {
+    "doc": "25",
+    "locator": "¶2.4",
+    "en": "Vulnerabilities refer to weaknesses or gaps",
+    "tc": "“脆弱程度”則指"
+   },
+   {
+    "doc": "25",
+    "locator": "¶2.4",
+    "en": "direction of TF funds, and the sources and channels used",
+    "tc": "金的流向、來源和所用渠道"
+   },
+   {
+    "doc": "25",
+    "locator": "¶2.4",
+    "en": "internal and external threats",
+    "tc": "內在和外在威脅"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-207",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "¶2.4–2.5",
+    "en": "causal relations",
+    "tc": "因果關係"
+   },
+   {
+    "doc": "25",
+    "locator": "¶2.4–2.5",
+    "en": "qualitative and quantitative information",
+    "tc": "質量和數量資料"
+   },
+   {
+    "doc": "25",
+    "locator": "¶2.4–2.5",
+    "en": "low, medium-low, medium, medium-high and high",
+    "tc": "分低、中低、中、中高和高"
+   },
+   {
+    "doc": "25",
+    "locator": "¶2.4–2.5",
+    "en": "risk-level heat map",
+    "tc": "風險水平熱圖"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-208",
+  "verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "¶2.6–2.7",
+    "en": "chaired by the Financial Services and the Treasury",
+    "tc": "督導委員會由財經事務及庫務局主導"
+   },
+   {
+    "doc": "25",
+    "locator": "¶2.6–2.7",
+    "en": "assists in reviewing the ML threats arising from tax",
+    "tc": "負責協助檢討稅務"
+   },
+   {
+    "doc": "25",
+    "locator": "¶2.6–2.7",
+    "en": "multi-disciplinary teams with experienced practitioners",
+    "tc": "委員會成員組成跨專業的小組"
+   },
+   {
+    "doc": "25",
+    "locator": "¶2.6–2.7",
+    "en": "stakeholders in the private sector",
+    "tc": "私營機構持份者"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-209",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "¶2.8–2.9",
+    "en": "along with risk mitigation measures proposed",
+    "tc": "緩解措施亦一併向督導委員會提出"
+   },
+   {
+    "doc": "25",
+    "locator": "¶2.8–2.9",
+    "en": "having regard to the enhanced mitigation measures implemented",
+    "tc": "因應所推行已改善的緩解措施的評估作出更新"
+   },
+   {
+    "doc": "25",
+    "locator": "¶2.8–2.9",
+    "en": "foreign tax evasion, cross-border cash movements",
+    "tc": "境外貪污、境外逃稅、跨境現金移動"
+   },
+   {
+    "doc": "25",
+    "locator": "¶2.8–2.9",
+    "en": "including relevant foreign companies and foreign legal arrangements",
+    "tc": "包括相關外國公司和外國法律安排"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-210",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "¶5.4.1–5.4.2",
+    "en": "tightened entry control",
+    "tc": "加強對進入巿場的管制"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.1–5.4.2",
+    "en": "only serving corporate customers which are not open to the public",
+    "tc": "只為企業客戶提供服務的非公開金錢服務經營者"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.1–5.4.2",
+    "en": "both money changing and remittance businesses",
+    "tc": "均經營貨幣兌換和匯款業務"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.1–5.4.2",
+    "en": "web-based platforms or mobile applications providing remittance service",
+    "tc": "提供匯款服務的網上平台或流動應用程式"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-211",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "¶5.4.3–5.4.5",
+    "en": "cross-border fraud remains the largest ML threat",
+    "tc": "跨境詐騙仍然是金錢服務業的最大洗錢威脅"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.3–5.4.5",
+    "en": "domestic and foreign criminal activities",
+    "tc": "本地和境外犯罪活動洗錢威脅"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.3–5.4.5",
+    "en": "placement and layering stages",
+    "tc": "存放得益和分層交易"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.3–5.4.5",
+    "en": "fraud, including telephone deception, email scam and lottery fraud",
+    "tc": "詐騙(包括電話騙案、電郵騙案和彩票騙案)"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-212",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "¶5.4.5–5.4.6; Box5.11",
+    "en": "receive crime proceeds and facilitate remittance for remuneration",
+    "tc": "罪犯會聘用錢騾接收和匯出犯罪得益，並付以報酬"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.5–5.4.6; Box5.11",
+    "en": "was sentenced to 25 months’ imprisonment",
+    "tc": "罪名成立，被判監禁25 個月"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.5–5.4.6; Box5.11",
+    "en": "ten joint publicity operations",
+    "tc": "聯合宣傳行動"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.5–5.4.6; Box5.11",
+    "en": "last stop to send money from victims of local deception cases out of Hong Kong",
+    "tc": "金錢服務經營者可能是最後一站"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-213",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "¶5.4.7",
+    "en": "a larger amount of online transactions",
+    "tc": "帶動網上交易上升"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.7",
+    "en": "cybercrime may become an emerging ML threat",
+    "tc": "網上罪行可能成為業界的新洗錢威脅"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.7",
+    "en": "effective policies, procedures and internal controls",
+    "tc": "有效的政策、程序和內部管控措施"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.7",
+    "en": "identifying and verifying non-face-to-face customers",
+    "tc": "辨識和核實非親身出現的客戶"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-214",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "¶5.4.8–5.4.10",
+    "en": "outside of the traditional banking system",
+    "tc": "傳統銀行體系以外的另類匯款系統"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.8–5.4.10",
+    "en": "based mainly on trust and communication",
+    "tc": "建基於信任和溝通的經紀網絡"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.8–5.4.10",
+    "en": "cash, property or services",
+    "tc": "現金、物業或服務"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.8–5.4.10",
+    "en": "No information or intelligence indicates",
+    "tc": "目前亦沒有資料或情報顯示"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-215",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "¶5.4.9",
+    "en": "remittance behaviour of FDHs and the delivery channels",
+    "tc": "匯款行為和主要為外傭服務的金錢服務經營者的交付渠道"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.9",
+    "en": "predominantly made their remittances through licensed MSOs",
+    "tc": "主要經持牌金錢服務經營者進行匯款"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.9",
+    "en": "generally completed by way of bank transfer",
+    "tc": "通過銀行轉帳完成"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.9",
+    "en": "whether involving hawala or not",
+    "tc": "不論是否涉及哈瓦拉"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-216",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "¶5.4.11–5.4.12",
+    "en": "not uniform because of variations in their size and business models",
+    "tc": "規模和經營模式各有不同"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.11–5.4.12",
+    "en": "cash-intensive nature with global exposure",
+    "tc": "現金密集的行業，又與全球聯繫"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.11–5.4.12",
+    "en": "transactions below customer identification and verification thresholds also pose relatively higher ML vulnerability",
+    "tc": "在低於客戶身分識別和核實門檻的情況下進行交易，也會令業界較易被用作洗錢"
+   },
+   {
+    "doc": "25",
+    "locator": "¶5.4.11–5.4.12",
+    "en": "smaller sized ones with fewer resources",
+    "tc": "資源較少的小型金錢服務"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-217",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶3–5",
+    "en": "formulation of more targeted responses",
+    "tc": "制訂更具針對性的應對方案"
+   },
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶3–5",
+    "en": "changes since the 1st HRA",
+    "tc": "還涵蓋自首次風險評估以來的變化"
+   },
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶3–5",
+    "en": "extensive consultation, quantitative and qualitative data analysis",
+    "tc": "廣泛諮詢及定量和定性數據分析"
+   },
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶3–5",
+    "en": "shortcomings identified in the mutual evaluation",
+    "tc": "互評估報告所識別的不足之處"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-218",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶9,18,23",
+    "en": "fraud and drugs-related crimes pose high and medium-high",
+    "tc": "詐騙及與毒品相關的罪行為香港帶來屬高和中高水平"
+   },
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶9,18,23",
+    "en": "a medium level of vulnerability",
+    "tc": "則為中等水平"
+   },
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶9,18,23",
+    "en": "medium-high level of ML risk",
+    "tc": "為中至高水平"
+   },
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶9,18,23",
+    "en": "medium-low level of TF risk",
+    "tc": "資金籌集風險屬中低水平"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-219",
+  "verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶24–26",
+    "en": "as an integral part of the 2nd HRA",
+    "tc": "第二次香港洗錢及恐怖分子資金籌集風險評估的工作之一"
+   },
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶24–26",
+    "en": "also informs the private sector",
+    "tc": "亦可讓私營界別"
+   },
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶24–26",
+    "en": "may be exposed to external PF threat",
+    "tc": "香港可能面對外來的大規模毀滅武器擴散資金籌集威脅"
+   },
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶24–26",
+    "en": "geographical proximity to proliferation-sanctioned states",
+    "tc": "在地理上又鄰近因大規模毀滅武器擴散而受制裁的國家"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-220",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶27–29",
+    "en": "openness and business friendliness",
+    "tc": "開放和便利營商的環境"
+   },
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶27–29",
+    "en": "UNSC-prohibited cargo activities",
+    "tc": "安理會禁止的貨運活動"
+   },
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶27–29",
+    "en": "outside the traditional financial system",
+    "tc": "在傳統金融體系之外"
+   },
+   {
+    "doc": "25",
+    "locator": "Executive Summary¶27–29",
+    "en": "well-implemented defence system by the private sector",
+    "tc": "私人機構亦已實施完善的防禦系統"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-392",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "09",
+    "locator": "p.1¶1–2",
+    "en": "addition of requirement in conducting proliferation financing",
+    "tc": "新增了大殺傷力武器擴散融資"
+   },
+   {
+    "doc": "09",
+    "locator": "p.1¶1–2",
+    "en": "thorough review on all existing businesses and customers",
+    "tc": "全面檢視現有業務及客戶的狀況"
+   },
+   {
+    "doc": "09",
+    "locator": "p.1¶1–2",
+    "en": "appropriate measures to mitigate any PF risk identified",
+    "tc": "採取適當措施緩解已識別的擴散融資"
+   },
+   {
+    "doc": "09",
+    "locator": "p.1¶1–2",
+    "en": "member jurisdictions and private sectors",
+    "tc": "成員司法管轄區和私營機構"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-393",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "09",
+    "locator": "pp.1–2",
+    "en": "effective and updated screening mechanism",
+    "tc": "有效及適時更新的篩查機制"
+   },
+   {
+    "doc": "09",
+    "locator": "pp.1–2",
+    "en": "as soon as practicable for any genuine hits",
+    "tc": "有法定責任盡快向聯合財富情報組提交可疑交易報告"
+   },
+   {
+    "doc": "09",
+    "locator": "pp.1–2",
+    "en": "or other suspicious activities in relation to PF",
+    "tc": "或在業務過程中遇到涉及擴散融資的其他可疑活動"
+   },
+   {
+    "doc": "09",
+    "locator": "pp.1–2",
+    "en": "in all circumstances",
+    "tc": "在任何情況下，均不得"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-394",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "26",
+    "locator": "s.1p.1",
+    "en": "trade in certain commodities",
+    "tc": "若干商品的貿易"
+   },
+   {
+    "doc": "26",
+    "locator": "s.1p.1",
+    "en": "individuals, entities, vessels",
+    "tc": "個人、實體、船隻"
+   },
+   {
+    "doc": "26",
+    "locator": "s.1p.1",
+    "en": "and corruption",
+    "tc": "及貪污"
+   },
+   {
+    "doc": "26",
+    "locator": "s.1p.1",
+    "en": "as soon as practicable whenever there are such updates",
+    "tc": "盡快按所有新指定的名單篩查"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-395",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "26",
+    "locator": "s.1p.1;Note1",
+    "en": "likely to be a time gap",
+    "tc": "時間上難免有落差"
+   },
+   {
+    "doc": "26",
+    "locator": "s.1p.1;Note1",
+    "en": "there are offences under existing",
+    "tc": "已有相關適用的罪行"
+   },
+   {
+    "doc": "26",
+    "locator": "s.1p.1;Note1",
+    "en": "conduct outside Hong Kong which would constitute an indictable offence if it had occurred in Hong Kong",
+    "tc": "但若在香港發生即會構成可公訴罪行的行為"
+   },
+   {
+    "doc": "26",
+    "locator": "s.1p.1;Note1",
+    "en": "irrespective of the legal position in the jurisdiction",
+    "tc": "不論發生該行為的司法管轄區的法律觀點為何"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-396",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "05",
+    "locator": "¶2.3–2.4,3.1",
+    "en": "retail business accepting foreign currencies",
+    "tc": "在交易中接受外幣的零售業務"
+   },
+   {
+    "doc": "05",
+    "locator": "¶2.3–2.4,3.1",
+    "en": "purchase by that person of non‐Hong Kong currencies",
+    "tc": "購入非港元貨幣"
+   },
+   {
+    "doc": "05",
+    "locator": "¶2.3–2.4,3.1",
+    "en": "arranging for the receipt of money in a place outside Hong Kong",
+    "tc": "安排在香港以外地方收取金錢"
+   },
+   {
+    "doc": "05",
+    "locator": "¶2.3–2.4,3.1",
+    "en": "will not accept any application",
+    "tc": "關長將不會接納任何"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-397",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "05",
+    "locator": "¶4.4–4.8",
+    "en": "advertised (including a signboard on display) for meeting customers",
+    "tc": "被宣傳（包括展示招牌）為用作會見客戶"
+   },
+   {
+    "doc": "05",
+    "locator": "¶4.4–4.8",
+    "en": "merely for processing accounting or legal documents",
+    "tc": "為處理你公司的會計或法律文件"
+   },
+   {
+    "doc": "05",
+    "locator": "¶4.4–4.8",
+    "en": "Sharing the premises with other MSO",
+    "tc": "不會接納與其他金錢服務經營者共用處所"
+   },
+   {
+    "doc": "05",
+    "locator": "¶4.4–4.8",
+    "en": "clearly partitioned and distinguished",
+    "tc": "明顯分隔，與其他業務清楚區分"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-398",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "05",
+    "locator": "¶4.6–4.7,4.10–4.11",
+    "en": "must maintain a physical presence",
+    "tc": "必須在香港維持實體辦事地點"
+   },
+   {
+    "doc": "05",
+    "locator": "¶4.6–4.7,4.10–4.11",
+    "en": "residential address/premises of an MSO",
+    "tc": "金錢服務經營者的住址／住宅處所"
+   },
+   {
+    "doc": "05",
+    "locator": "¶4.6–4.7,4.10–4.11",
+    "en": "written consent of every occupant",
+    "tc": "每名佔用人的書面同意"
+   },
+   {
+    "doc": "05",
+    "locator": "¶4.6–4.7,4.10–4.11",
+    "en": "tenancy agreement of the LMO or in a letter issued by the landlord",
+    "tc": "辦事處的租約，或由業主向申請人發出的准許信"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-399",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "05",
+    "locator": "¶4.1–4.2,5.7",
+    "en": "each director and each ultimate owner",
+    "tc": "每名董事及每名最終擁有人"
+   },
+   {
+    "doc": "05",
+    "locator": "¶4.1–4.2,5.7",
+    "en": "more than 25% of the voting rights at general meetings",
+    "tc": "成員大會上的投票權的25%以上"
+   },
+   {
+    "doc": "05",
+    "locator": "¶4.1–4.2,5.7",
+    "en": "each director and each ultimate owner",
+    "tc": "每名董事及每名最終擁有人"
+   },
+   {
+    "doc": "05",
+    "locator": "¶4.1–4.2,5.7",
+    "en": "associated with the business of operating a money service",
+    "tc": "與經營金錢服務業務有聯繫"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-400",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "05",
+    "locator": "¶5.4–5.5,5.8",
+    "en": "authorized in writing by the board of directors",
+    "tc": "董事局以書面授權"
+   },
+   {
+    "doc": "05",
+    "locator": "¶5.4–5.5,5.8",
+    "en": "clarify and elaborate any information",
+    "tc": "資料作出澄清及闡述"
+   },
+   {
+    "doc": "05",
+    "locator": "¶5.4–5.5,5.8",
+    "en": "original identity document(s)",
+    "tc": "身份證明文件的正本"
+   },
+   {
+    "doc": "05",
+    "locator": "¶5.4–5.5,5.8",
+    "en": "signed by the declarant in his or her presence",
+    "tc": "聲明人在其在場情況下簽署"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-401",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "05",
+    "locator": "¶6.2–6.4",
+    "en": "fails to nominate any eligible person(s)",
+    "tc": "未有在接獲邀請信當日起計7日內提名任何合資格人士"
+   },
+   {
+    "doc": "05",
+    "locator": "¶6.2–6.4",
+    "en": "fails to produce all the supporting documents within specified period",
+    "tc": "未能在指明期限內遞交所有證明文件"
+   },
+   {
+    "doc": "05",
+    "locator": "¶6.2–6.4",
+    "en": "existing licence will lapse automatically",
+    "tc": "現有牌照將於有效期屆滿後自動失效"
+   },
+   {
+    "doc": "05",
+    "locator": "¶6.2–6.4",
+    "en": "must cease money service operation",
+    "tc": "持牌人必須停止經營金錢服務"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-402",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "05",
+    "locator": "¶7.1–7.3",
+    "en": "any new occupant of the premises refuses",
+    "tc": "任何新佔用人拒絕給予該項書面同意"
+   },
+   {
+    "doc": "05",
+    "locator": "¶7.1–7.3",
+    "en": "fails to submit a periodic return on time",
+    "tc": "未能按時遞交定期申報表"
+   },
+   {
+    "doc": "05",
+    "locator": "¶7.1–7.3",
+    "en": "opportunity to be heard before revoking",
+    "tc": "給予持牌人陳詞機會"
+   },
+   {
+    "doc": "05",
+    "locator": "¶7.1–7.3",
+    "en": "21 days after the notice",
+    "tc": "通知送出後的 21 日期間"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-403",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "05",
+    "locator": "¶8.1–8.4,8.9",
+    "en": "make an application in Form 5",
+    "tc": "填寫表格5以提出申請"
+   },
+   {
+    "doc": "05",
+    "locator": "¶8.1–8.4,8.9",
+    "en": "submit a Business Plan and updated AML Policy",
+    "tc": "還需要遞交業務計劃及經修訂的打擊洗錢政策"
+   },
+   {
+    "doc": "05",
+    "locator": "¶8.1–8.4,8.9",
+    "en": "proposing director needs to submit the fit and proper person declaration form",
+    "tc": "擬成為董事的人則須遞交適當人選聲明表格"
+   },
+   {
+    "doc": "05",
+    "locator": "¶8.1–8.4,8.9",
+    "en": "must not operate a money service at any particular premises unless",
+    "tc": "否則該持牌人不得在該特定處所經營金錢服務"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-404",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "05",
+    "locator": "¶9.2–9.4,10.1–10.2",
+    "en": "submit a fresh licence application",
+    "tc": "遞交新的牌照申請"
+   },
+   {
+    "doc": "05",
+    "locator": "¶9.2–9.4,10.1–10.2",
+    "en": "file a written submission",
+    "tc": "遞交書面陳詞"
+   },
+   {
+    "doc": "05",
+    "locator": "¶9.2–9.4,10.1–10.2",
+    "en": "submit a new application to apply for a licence",
+    "tc": "並提出新的牌照申請"
+   },
+   {
+    "doc": "05",
+    "locator": "¶9.2–9.4,10.1–10.2",
+    "en": "before the date of cessation",
+    "tc": "在停業日期"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-405",
+  "verdicts": [
+   "F",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "01",
+    "locator": "¶4.1–4.4",
+    "en": "where the MSO licence applicant/licensee is a legal person, i.e. corporation",
+    "tc": "如金錢服務經營者牌照申請人／持牌人是法人（即法團）"
+   },
+   {
+    "doc": "01",
+    "locator": "¶4.1–4.4",
+    "en": "not more than THREE directors",
+    "tc": "不得提名超過三名董事"
+   },
+   {
+    "doc": "01",
+    "locator": "¶4.1–4.4",
+    "en": "direct involvement in making decision on company policy and governance",
+    "tc": "直接參與有關公司政策及管治安排的決策"
+   },
+   {
+    "doc": "01",
+    "locator": "¶4.1–4.4",
+    "en": "must attend the same session",
+    "tc": "必須應考同一時段"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-406",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "01",
+    "locator": "¶5.3,11.4–11.6",
+    "en": "must not make more than two mistakes in each module",
+    "tc": "在每個單元不可答錯超過兩題"
+   },
+   {
+    "doc": "01",
+    "locator": "¶5.3,11.4–11.6",
+    "en": "total score of 25 or above",
+    "tc": "總數必須達 25 分或以上"
+   },
+   {
+    "doc": "01",
+    "locator": "¶5.3,11.4–11.6",
+    "en": "NO marks for marking two or more answers",
+    "tc": "不得在一題中填寫多於一個答案"
+   },
+   {
+    "doc": "01",
+    "locator": "¶5.3,11.4–11.6",
+    "en": "made beyond the Assessment time will NOT be considered",
+    "tc": "任何在答題時間以外提出更改答案的要求，將不被接納"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-407",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "01",
+    "locator": "¶10.6–10.9",
+    "en": "on your body or in your pockets",
+    "tc": "身上或衣袋內"
+   },
+   {
+    "doc": "01",
+    "locator": "¶10.6–10.9",
+    "en": "must NOT be covered by anything",
+    "tc": "必須不被任何物件遮蓋"
+   },
+   {
+    "doc": "01",
+    "locator": "¶10.6–10.9",
+    "en": "whether used or unused",
+    "tc": "不論是否曾經使用"
+   },
+   {
+    "doc": "01",
+    "locator": "¶10.6–10.9",
+    "en": "NOT copy anything from the question book",
+    "tc": "不可將問卷的任何內容抄寫在邀請信"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-408",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "01",
+    "locator": "¶12.1–12.5",
+    "en": "after the date of issuance of the result notification",
+    "tc": "發出成績通知當日起計 7 日內"
+   },
+   {
+    "doc": "01",
+    "locator": "¶12.1–12.5",
+    "en": "incorrect mark entries and data inconsistencies",
+    "tc": "輸入分數出錯及數據前後不一"
+   },
+   {
+    "doc": "01",
+    "locator": "¶12.1–12.5",
+    "en": "will not disclose the exact scores",
+    "tc": "均不會披露實際分數"
+   },
+   {
+    "doc": "01",
+    "locator": "¶12.1–12.5",
+    "en": "also required to meet the licensing requirements",
+    "tc": "必須符合《打擊洗錢條例》及海關頒布的《牌照指引》"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-409",
+  "verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "11",
+    "locator": "¶6(d)–(f),6(m),7",
+    "en": "unresolved criminal charges in Hong Kong or elsewhere",
+    "tc": "香港或其他地方於尚未結案的刑事檢控"
+   },
+   {
+    "doc": "11",
+    "locator": "¶6(d)–(f),6(m),7",
+    "en": "complaint made reasonably and in good faith",
+    "tc": "投訴屬合理及真誠地提出"
+   },
+   {
+    "doc": "11",
+    "locator": "¶6(d)–(f),6(m),7",
+    "en": "nil money service for a prolonged period",
+    "tc": "長時間沒有提供金錢服務"
+   },
+   {
+    "doc": "11",
+    "locator": "¶6(d)–(f),6(m),7",
+    "en": "Failure to comply with individual elements may not result",
+    "tc": "即使不能符合個別項目，亦未必會導致"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-410",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "12",
+    "locator": "¶7,9(a),9(b),9(d)",
+    "en": "which do so when taken collectively",
+    "tc": "但若干犯所有該等事項，則可施加罰款"
+   },
+   {
+    "doc": "12",
+    "locator": "¶7,9(a),9(b),9(d)",
+    "en": "had the potential to cause loss",
+    "tc": "有可能造成損失"
+   },
+   {
+    "doc": "12",
+    "locator": "¶7,9(a),9(b),9(d)",
+    "en": "promptly, effectively and completely",
+    "tc": "迅速、有效及完全地"
+   },
+   {
+    "doc": "12",
+    "locator": "¶7,9(a),9(b),9(d)",
+    "en": "size and financial resources",
+    "tc": "規模及財政資源"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-411",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "20",
+    "locator": "items4,7,8,16–17",
+    "en": "elaborate the function/purpose of this office and its whereabouts",
+    "tc": "闡述後勤辦事處的職能／目的及位置"
+   },
+   {
+    "doc": "20",
+    "locator": "items4,7,8,16–17",
+    "en": "together with the service agreement",
+    "tc": "並提供服務協議"
+   },
+   {
+    "doc": "20",
+    "locator": "items4,7,8,16–17",
+    "en": "without bank account",
+    "tc": "在沒有銀行戶口的情況下提供金錢服務"
+   },
+   {
+    "doc": "20",
+    "locator": "items4,7,8,16–17",
+    "en": "name of the company/person in relation to such activities",
+    "tc": "所涉公司／人等的名稱／姓名"
+   },
+   {
+    "doc": "20",
+    "locator": "items4,7,8,16–17",
+    "en": "provide the name of the other regulator/competent authority",
+    "tc": "提供其他監管機構／主管當局的名稱"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-412",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "21",
+    "locator": "Introduction;items3,5,10,16",
+    "en": "policy must be based on the applicant’s risk assessment",
+    "tc": "政策必須根據申請人的風險評估制訂"
+   },
+   {
+    "doc": "21",
+    "locator": "Introduction;items3,5,10,16",
+    "en": "Percentage of face-to-face and non-face-to-face transactions",
+    "tc": "面對面及非面對面交易所佔百分率"
+   },
+   {
+    "doc": "21",
+    "locator": "Introduction;items3,5,10,16",
+    "en": "procedures for monitoring the company’s overseas branch and agent’s compliance",
+    "tc": "按甚麼程序監察公司外地分行及代理人有否遵從"
+   },
+   {
+    "doc": "21",
+    "locator": "Introduction;items3,5,10,16",
+    "en": "CDD, transaction, screening and CRA records",
+    "tc": "客戶盡職審查、交易、篩查及客戶風險評估紀錄"
+   },
+   {
+    "doc": "21",
+    "locator": "Introduction;items3,5,10,16",
+    "en": "ability to recognize suspicious transactions",
+    "tc": "辨認可疑交易的能力"
+   },
+   {
+    "doc": "21",
+    "locator": "Introduction;items3,5,10,16",
+    "en": "when the staff received the training and type of training provided",
+    "tc": "職員何時接受培訓，以及所提供培訓的類別"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ }
+]

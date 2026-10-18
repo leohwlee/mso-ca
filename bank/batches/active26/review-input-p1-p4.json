@@ -1,0 +1,1417 @@
+{
+ "instructions": "Independently judge every statement against the cited local source in each language. Do not read keys, notes, patches or the bank. Return id, verdicts, tc_verdicts (T/F arrays), quotes (one deciding source excerpt per statement), doubts and tc_mismatch (empty strings when none). A language=en quote for doc24 is an English original supporting a clearly labelled Chinese study translation.",
+ "items": [
+  {
+   "id": "m1-190",
+   "module": 1,
+   "source": {
+    "en": "Money Changers Ordinance s.2",
+    "tc": "《貨幣兌換商條例》 第2條"
+   },
+   "en": {
+    "q": "Under the Money Changers Ordinance, which interpretations are correct?",
+    "statements": [
+     "A rate board may be a video display screen used to display the required net rates.",
+     "Currency in this Ordinance covers notes and coins but excludes travellers’ cheques.",
+     "Signing a transaction note includes affixing a chop or mark in place of a signature.",
+     "The net rate is the price per foreign currency unit before charges and commissions."
+    ]
+   },
+   "tc": {
+    "q": "根據《貨幣兌換商條例》，以下哪些釋義正確？",
+    "statements": [
+     "告示牌可為用作展示法定淨匯率的電視螢光屏幕。",
+     "本條例的貨幣涵蓋紙幣和硬幣，但不包括旅行支票。",
+     "在交易單據上簽署，包括以加蓋圖章或標記的方式簽署。",
+     "淨匯率是扣減所有收費及佣金之前每個外幣單位的價格。"
+    ]
+   }
+  },
+  {
+   "id": "m1-191",
+   "module": 1,
+   "source": {
+    "en": "Money Changers Ordinance s.3",
+    "tc": "《貨幣兌換商條例》 第3條"
+   },
+   "en": {
+    "q": "Which statements correctly describe the monetary exclusion in the Money Changers Ordinance?",
+    "statements": [
+     "The exclusion concerns the amount of currency tendered for exchange by the customer.",
+     "A transaction of exactly HK$100,000 is excluded by the monetary exclusion in the Ordinance.",
+     "The monetary exclusion also applies where the foreign currency exceeds the equivalent amount.",
+     "The Commissioner of Customs and Excise may change the specified sum by a Gazette notice."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些陳述正確描述《貨幣兌換商條例》的金額豁除？",
+    "statements": [
+     "金額豁除針對的是顧客所提供作兌換的貨幣款額。",
+     "一宗剛好十萬港元的交易獲本條例的金額豁除涵蓋。",
+     "外幣超過所訂港元款額的等值時，同樣適用金額豁除。",
+     "海關關長可藉憲報公告修訂本條例所指明的金額。"
+    ]
+   }
+  },
+  {
+   "id": "m1-192",
+   "module": 1,
+   "source": {
+    "en": "Money Changers Ordinance s.4(1)",
+    "tc": "《貨幣兌換商條例》 第4(1)條"
+   },
+   "en": {
+    "q": "Before completing a covered exchange transaction, which steps concerning its transaction note are correct?",
+    "statements": [
+     "The money changer must make out the transaction note legibly in duplicate before completion.",
+     "The money changer must use Arabic numerals to complete the details of the exchange transaction.",
+     "The money changer must explain the transaction note to the customer even where this is impracticable.",
+     "The money changer must sign the transaction note as part of the steps required before completion."
+    ]
+   },
+   "tc": {
+    "q": "完成受規管的兌換交易前，以下哪些有關交易單據的步驟正確？",
+    "statements": [
+     "貨幣兌換商須在完成交易前以可閱字迹填具一式兩份交易單據。",
+     "貨幣兌換商須以阿拉伯數字正確列明兌換交易的細節。",
+     "貨幣兌換商即使在不切實可行的情況下也必須向顧客解釋交易單據。",
+     "貨幣兌換商須在交易單據上簽署，作為完成交易前的規定步驟。"
+    ]
+   }
+  },
+  {
+   "id": "m1-193",
+   "module": 1,
+   "source": {
+    "en": "Money Changers Ordinance s.4(2)–(4)",
+    "tc": "《貨幣兌換商條例》 第4(2)至(4)條"
+   },
+   "en": {
+    "q": "Which statements about required and permitted transaction-note content are correct?",
+    "statements": [
+     "The transaction date and the currency amount tendered by the customer are required details.",
+     "The transaction-note form has a statutory requirement to include a serial number and a transaction number.",
+     "The money changer must put its name, address and telephone number in the transaction-note form.",
+     "A transaction note may contain extra statements authorised by the customer but not the Ordinance."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些有關交易單據必須及准許內容的陳述正確？",
+    "statements": [
+     "交易日期及顧客所提供的貨幣款額均屬必須填寫的細節。",
+     "交易單據表格在所有情況下均必須載有單據編號及交易號碼。",
+     "貨幣兌換商須在交易單據表格載有其姓名或名稱、地址及電話號碼。",
+     "交易單據可載有顧客批准而本條例並無授權的額外陳述。"
+    ]
+   }
+  },
+  {
+   "id": "m1-194",
+   "module": 1,
+   "source": {
+    "en": "Money Changers Ordinance s.4(5)–(8)",
+    "tc": "《貨幣兌換商條例》 第4(5)至(8)條"
+   },
+   "en": {
+    "q": "Which statements about delivering exchanged currency and keeping transaction notes are correct?",
+    "statements": [
+     "Selling several currencies to one customer requires a separate transaction note for each currency sold.",
+     "The full equivalent amount shown on the note must be handed over to the customer without any deduction.",
+     "When the exchanged currency is delivered, the customer receives the duplicate rather than the original note.",
+     "For this Ordinance, the statutory minimum retention period for a completed duplicate is six months after the transaction."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些有關交付兌換貨幣及保留交易單據的陳述正確？",
+    "statements": [
+     "向一名顧客賣出多種貨幣，須就每種賣出的貨幣發出獨立交易單據。",
+     "須將交易單據所示給予顧客的等值總款額交付顧客，不得作任何扣減。",
+     "將兌換所得的貨幣交付顧客時，顧客收取單據複本而非正本。",
+     "就本條例而言，填妥的交易單據複本的法定最低保存期為交易後六個月。"
+    ]
+   }
+  },
+  {
+   "id": "m1-195",
+   "module": 1,
+   "source": {
+    "en": "Money Changers Ordinance s.4(9)–(10), s.5",
+    "tc": "《貨幣兌換商條例》 第4(9)至(10)條、 第5條"
+   },
+   "en": {
+    "q": "Which statements correctly distinguish refusing an unfinished exchange from rescinding a completed exchange?",
+    "statements": [
+     "Before lawful completion and full delivery of exchanged currency, the customer may refuse to proceed.",
+     "After a customer validly refuses to proceed, the money changer has three days to return the currency.",
+     "Where the money changer contravenes the transaction-note requirements, rescission is available within three days.",
+     "Using the statutory right to rescind replaces all the customer’s other rights and remedies for that transaction."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些陳述正確區分拒絕未完成兌換與撤銷已完成兌換？",
+    "statements": [
+     "在依法完成交易並悉數交付兌換貨幣之前，顧客可拒絕繼續交易。",
+     "顧客有效地拒絕繼續交易後，貨幣兌換商可在三天內交回貨幣。",
+     "貨幣兌換商違反交易單據規定時，另一方可在交易日期後三天內撤銷交易。",
+     "使用法定撤銷權會取代顧客對該宗交易享有的所有其他權利及補救辦法。"
+    ]
+   }
+  },
+  {
+   "id": "m1-196",
+   "module": 1,
+   "source": {
+    "en": "Money Changers Ordinance s.6(2)–(6)",
+    "tc": "《貨幣兌換商條例》 第6(2)至(6)條"
+   },
+   "en": {
+    "q": "Which practices meet the Money Changers Ordinance rules for displaying net exchange rates?",
+    "statements": [
+     "Where several rate boards are used, each board displays identical net-rate information to customers.",
+     "The board is sufficiently large, legible and located in a well-lit place with an unobstructed view.",
+     "The board displays the most favourable rate, while an unlisted less favourable rate may be offered.",
+     "Rates may be quoted for ten or one hundred foreign currency units with a matching Hong Kong dollar figure."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些做法符合《貨幣兌換商條例》展示淨匯率的規定？",
+    "statements": [
+     "如使用多塊匯率告示牌，所有告示牌均向顧客展示相同的淨匯率資料。",
+     "告示牌面積夠大、字迹清晰，並設於光線充足而顧客視線無阻的位置。",
+     "告示牌展示對顧客最優惠的匯率，而未列出的較不優惠匯率可另行要約。",
+     "淨匯率可按十或一百外幣單位的倍數展示，並相應調整港元數字。"
+    ]
+   }
+  },
+  {
+   "id": "m1-197",
+   "module": 1,
+   "source": {
+    "en": "Money Changers Ordinance s.7–8",
+    "tc": "《貨幣兌換商條例》 第7至8條"
+   },
+   "en": {
+    "q": "Which statements about quotes for other currencies and advertising exchange rates are correct?",
+    "statements": [
+     "For a currency outside the prescribed list, written buying and selling rates must precede accepting currency.",
+     "The written rate quotation for a currency outside the prescribed list replaces the transaction note.",
+     "Advertising must give the buying and selling rates for each currency equal prominence to the customer.",
+     "A money changer may advertise that no commission is charged when that statement is factually accurate."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些有關其他貨幣報價及匯率宣傳的陳述正確？",
+    "statements": [
+     "對訂明名單以外的貨幣，須在接受貨幣前書面列出買入及賣出淨匯率。",
+     "對訂明名單以外貨幣發出的書面匯率單據，可取代正式交易單據。",
+     "匯率宣傳須使每種貨幣的買入匯率及賣出匯率對顧客同樣顯眼。",
+     "如果陳述符合事實，貨幣兌換商便可宣傳兌換交易不收取佣金。"
+    ]
+   }
+  },
+  {
+   "id": "m1-198",
+   "module": 1,
+   "source": {
+    "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance s.2",
+    "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》 第2條"
+   },
+   "en": {
+    "q": "Which instruments fall within the statutory definition of CBNIs?",
+    "statements": [
+     "A negotiable instrument made out to a fictitious payee falls within the definition.",
+     "A negotiable instrument signed with no payee’s name falls within the definition.",
+     "A negotiable instrument whose title passes on delivery falls within the definition.",
+     "Every negotiable instrument with any restrictive endorsement falls within the definition."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些票據屬法定現金類物品定義所涵蓋的項目？",
+    "statements": [
+     "開立予虛構受款人的可轉讓票據，屬定義所涵蓋的項目。",
+     "經已簽署但沒有受款人姓名的可轉讓票據，屬定義所涵蓋的項目。",
+     "按其形式所有權隨交付轉讓的可轉讓票據，屬定義所涵蓋的項目。",
+     "所有附有任何限制背書的可轉讓票據，均屬定義所涵蓋的項目。"
+    ]
+   }
+  },
+  {
+   "id": "m1-199",
+   "module": 1,
+   "source": {
+    "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance s.2(2)–(4)",
+    "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》 第2(2)至(4)條"
+   },
+   "en": {
+    "q": "Which statements correctly describe possession and valuation of CBNIs?",
+    "statements": [
+     "A traveller possesses CBNIs in accompanying baggage, as well as those carried on the body.",
+     "Checked baggage on a different conveyance is omitted when calculating the arriving traveller’s possession.",
+     "Personal belongings carried on the arriving traveller’s conveyance can count as possession.",
+     "The statutory value of an instrument is its current resale price rather than its nominal value."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些陳述正確描述現金類物品的管有及估值？",
+    "statements": [
+     "旅客除管有身上的現金類物品外，亦管有隨身行李內的現金類物品。",
+     "計算抵港旅客管有的範圍時，會排除乘搭另一運輸工具的托運行李。",
+     "由抵港旅客所乘運輸工具運載的個人物品，可計入該人的管有範圍。",
+     "票據的法定價值為其當前轉售價格，而不是其票面所示的面值。"
+    ]
+   }
+  },
+  {
+   "id": "m1-200",
+   "module": 1,
+   "source": {
+    "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance s.2, s.3, s.4(3)",
+    "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》 第2條、 第3條、 第4(3)條"
+   },
+   "en": {
+    "q": "Which statements about young travellers and airport transit are correct under the CBNI Ordinance?",
+    "statements": [
+     "For this Ordinance, a young person means a traveller under the age of eighteen years.",
+     "The airport-transit exclusion requires arrival solely for the purpose of leaving Hong Kong.",
+     "The airport-transit exclusion requires no passage through immigration at a specified control point.",
+     "Any adult accompanying a child must declare the child’s CBNIs even without knowing of the large quantity."
+    ]
+   },
+   "tc": {
+    "q": "根據現金類物品條例，以下哪些有關幼年旅客及機場過境的陳述正確？",
+    "statements": [
+     "就本條例的現金類物品申報而言，幼年人是指年齡未滿十八歲的旅客。",
+     "機場過境豁除要求旅客從香港以外純粹為了離開香港而抵達香港國際機場。",
+     "機場過境豁除要求旅客在香港境內沒有在指明管制站經過出入境檢查。",
+     "任何陪同兒童的成人，即使不知道兒童管有大量現金類物品也須代為申報。"
+    ]
+   }
+  },
+  {
+   "id": "m1-201",
+   "module": 1,
+   "source": {
+    "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance s.4(6)–(9)",
+    "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》 第4(6)至(9)條"
+   },
+   "en": {
+    "q": "Which statements about a failure to declare CBNIs on arrival at a specified control point are correct?",
+    "statements": [
+     "Where several accompanying adults have the required knowledge, each can offend if no declaration is made.",
+     "A declaration containing information false in a material particular can constitute an offence by its maker.",
+     "The maximum imprisonment for an arrival declaration offence in this section is seven years on conviction.",
+     "For failing to declare, simply proving lack of actual knowledge is enough to establish the statutory defence."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些有關抵達指明管制站時沒有申報現金類物品的陳述正確？",
+    "statements": [
+     "如多名陪同成人均具有所需的知情條件，沒有作出申報時每名成人均可犯罪。",
+     "申報如載有在要項上屬虛假的資料，作出申報的人可因此構成罪行。",
+     "本條所訂抵港申報罪行一經定罪，可判處的最高監禁刑期為七年。",
+     "就沒有申報而言，證明欠缺實際知情，已足以構成條例所訂的免責辯護。"
+    ]
+   }
+  },
+  {
+   "id": "m1-202",
+   "module": 1,
+   "source": {
+    "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance s.7(2)–(6)",
+    "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》 第7(2)至(6)條"
+   },
+   "en": {
+    "q": "Which statements correctly apply the exchange-rate rules for CBNIs carried by a traveller?",
+    "statements": [
+     "Normally, the Hong Kong dollar equivalent uses the reference rate published on the relevant event’s date.",
+     "An arrival before that day’s rate publication uses the reference rate to be published later that same day.",
+     "For a declaration on arrival at a specified control point, the relevant event is arrival at that control point.",
+     "A traveller’s usual exchange rate is the preferred method whenever the traveller prefers it to the reference rate."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些陳述正確運用旅客所攜現金類物品的匯價規則？",
+    "statements": [
+     "一般而言，港元等值須按照有關事件日期公布的參考匯價計算。",
+     "如在當天報價時間前抵達，須採用當天稍後才公布的參考匯價。",
+     "就抵達指明管制站所作的申報而言，有關事件是抵達該管制站。",
+     "旅客較喜歡自己慣用的匯價時，該匯價便優先於法定參考匯價。"
+    ]
+   }
+  },
+  {
+   "id": "m1-203",
+   "module": 1,
+   "source": {
+    "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance s.8",
+    "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》 第8條"
+   },
+   "en": {
+    "q": "Which exclusions from the other-import-or-export division of the CBNI Ordinance are correctly stated?",
+    "statements": [
+     "CBNIs in the possession of a person arriving on the conveyance are excluded from this division.",
+     "CBNIs constituting air transhipment cargo under the Import and Export Ordinance are excluded.",
+     "CBNIs contained in a postal packet within the statutory postal definition are excluded.",
+     "CBNIs imported solely for re-export on the same vessel are excluded even when unloaded in Hong Kong."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些現金類物品不受條例的其他輸入或輸出分部規管？",
+    "statements": [
+     "由乘搭有關運輸工具抵港的人管有的現金類物品，不受此分部規管。",
+     "屬《進出口條例》所指航空轉運貨物的現金類物品，不受此分部規管。",
+     "載於法定郵政定義所指郵包之內的現金類物品，不受此分部規管。",
+     "純粹為由同一船隻再輸出而輸入的現金類物品，即使在香港卸下也獲豁除。"
+    ]
+   }
+  },
+  {
+   "id": "m1-204",
+   "module": 1,
+   "source": {
+    "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance s.9(1)–(3)",
+    "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》 第9(1)至(3)條"
+   },
+   "en": {
+    "q": "Which statements about responsibility for a cargo CBNI declaration are correct?",
+    "statements": [
+     "A person who causes a large batch to be imported can offend if the required declaration is missing.",
+     "A person arranging the cargo import without physically carrying it is exempt from cargo declaration responsibility.",
+     "A conveyance operator is excluded from the omission offence if otherwise uninvolved in the import or export.",
+     "Causing a declaration to be made can attract liability if it contains materially false information."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些有關貨物現金類物品申報責任的陳述正確？",
+    "statements": [
+     "安排輸入同一批次大量現金類物品的人，如欠缺所需申報，可構成罪行。",
+     "安排輸入貨物但沒有親自攜帶貨物的人，可獲豁免所需貨物申報的責任。",
+     "掌管運輸工具但不就輸入或輸出另負責任的人，不受沒有申報罪規管。",
+     "安排作出申報的人，如申報載有在要項上屬虛假的資料，可負法律責任。"
+    ]
+   }
+  },
+  {
+   "id": "m1-205",
+   "module": 1,
+   "source": {
+    "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance s.10(1)–(2)",
+    "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》 第10(1)至(2)條"
+   },
+   "en": {
+    "q": "Which cargo groupings correctly apply the ordinary one-batch rules for CBNIs?",
+    "statements": [
+     "For a non-carrier, all CBNIs that person imports on one conveyance are treated as one batch.",
+     "For a non-carrier, separate wrapping makes packages on the same conveyance separate batches.",
+     "Under the carrier rule, items carried on one conveyance by the same carrier for the same customer combine.",
+     "Under the carrier rule, every customer’s items on one conveyance are automatically one common batch."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些貨物分組正確運用現金類物品的一般同一批次規則？",
+    "statements": [
+     "對非承運人而言，由該人在同一運輸工具輸入的全部現金類物品視作同一批次。",
+     "對非承運人而言，同一運輸工具上分開包裝的物品即視作不同批次。",
+     "按承運人規則，同一承運人為同一客戶在同一運輸工具運載的物品合併計算。",
+     "按承運人規則，同一運輸工具上每名客戶的物品自動合併為一個共同批次。"
+    ]
+   }
+  },
+  {
+   "id": "m1-206",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶2.4",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第2.4段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which statements distinguish threats from vulnerabilities?",
+    "statements": [
+     "Threats include the scale and patterns of generation, inflows and outflows of crime proceeds.",
+     "Weaknesses in a jurisdiction’s defences are classified as threats rather than vulnerabilities.",
+     "Assessing terrorist-financing threats considers fund directions, sources and channels used.",
+     "Money-laundering threat assessment considers domestic predicates but excludes foreign ones."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些陳述正確區分威脅與脆弱程度？",
+    "statements": [
+     "威脅包括犯罪得益產生、流入和流出的規模與模式。",
+     "司法管轄區防範制度的薄弱之處，被分類為威脅而非脆弱程度。",
+     "評估恐怖分子資金籌集威脅，會考慮資金流向、來源及所用渠道。",
+     "洗錢威脅評估會考慮本地上游罪行，但不包括外來上游罪行。"
+    ]
+   }
+  },
+  {
+   "id": "m1-207",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶2.4–2.5",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第2.4至2.5段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which descriptions of the World Bank risk method are correct?",
+    "statements": [
+     "The method examines causal relationships among regulatory, institutional and economic risk factors.",
+     "Risk ratings exclude qualitative information and are determined using quantitative figures in its place.",
+     "The report uses five rating levels, from low through medium categories to high, for risk assessment.",
+     "The resulting ratings can be presented visually in a risk-level heat map to display the findings."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些世界銀行風險評估方法的描述正確？",
+    "statements": [
+     "這方法分析規管安排、機構制度及經濟環境風險因素的因果關係。",
+     "風險評級會排除質量方面的資料，改為根據數量資料作出釐定。",
+     "報告使用五個評級水平，由低經不同中間級別至高以評估風險。",
+     "所得風險評級可用風險水平熱圖，以圖表方式展示評估結果。"
+    ]
+   }
+  },
+  {
+   "id": "m1-208",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶2.6–2.7",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第2.6至2.7段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which descriptions of assessment participation are correct?",
+    "statements": [
+     "The assessment Steering Committee is chaired by the Commissioner of Customs and Excise.",
+     "The Inland Revenue Department assists with reviewing laundering threats arising from tax crimes.",
+     "Members form multidisciplinary teams with experienced practitioners to assess their sectors.",
+     "Assessment engagement is limited to public authorities and excludes private-sector stakeholders."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些有關評估參與者的描述正確？",
+    "statements": [
+     "風險評估督導委員會由海關關長主導有關評估工作。",
+     "稅務局協助檢討由稅務罪行引致的洗錢威脅。",
+     "成員組成跨專業小組，由經驗豐富的業內人士評估所屬界別。",
+     "評估的參與範圍涵蓋公共機構，但排除了私營機構的持份者。"
+    ]
+   }
+  },
+  {
+   "id": "m1-209",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶2.8–2.9",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第2.8至2.9段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which descriptions of the assessment process and scope are correct?",
+    "statements": [
+     "Interim findings went to the Steering Committee together with proposed risk-mitigation measures.",
+     "The second stage updated the assessment without considering the enhanced mitigation measures implemented.",
+     "Expanded analysis includes foreign corruption, foreign tax evasion and cross-border cash movements.",
+     "Coverage of legal arrangements is limited to local arrangements and excludes relevant foreign ones."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些有關評估過程及範圍的描述正確？",
+    "statements": [
+     "中期結果連同建議的風險緩解措施一併向督導委員會匯報。",
+     "第二階段更新評估時，不考慮已推行的改良風險緩解措施。",
+     "擴大的分析涵蓋香港以外貪污、香港以外逃稅及跨境現金移動。",
+     "法律安排的涵蓋範圍包括本地安排，但排除了相關的外國安排。"
+    ]
+   }
+  },
+  {
+   "id": "m1-210",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.1–5.4.2",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.1至5.4.2段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which descriptions of the MSO sector’s profile are correct?",
+    "statements": [
+     "The reported reduction in licensees was attributed partly to tighter entry control for the sector.",
+     "Some premises-based MSOs served corporate customers only and were not open to the public.",
+     "Most licensed MSOs carried on money changing alone rather than combining it with remittance.",
+     "MSOs without particular premises included providers using web platforms or mobile remittance applications."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些有關金錢服務業概況的描述正確？",
+    "statements": [
+     "報告所述持牌人減少，部分歸因於收緊金錢服務業的發牌管制。",
+     "部分在特定處所經營的金錢服務經營者只服務企業，並不向公眾開放。",
+     "大部分持牌金錢服務經營者只經營貨幣兌換，而沒有同時經營匯款。",
+     "非在特定處所經營者，包括透過網上平台或流動應用程式提供匯款服務者。"
+    ]
+   }
+  },
+  {
+   "id": "m1-211",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.3–5.4.5",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.3至5.4.5段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which descriptions of the MSO sector’s laundering threats are correct?",
+    "statements": [
+     "Cross-border fraud remained the largest laundering threat to the MSO sector in this assessment.",
+     "The medium-high threat finding concerned domestic crime, with foreign crime excluded from the finding.",
+     "The observed misuse of MSOs included both placement and layering of criminal proceeds.",
+     "In the typologies studied, theft displaced fraud as the most prevalent threat to the MSO sector."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些有關金錢服務業洗錢威脅的描述正確？",
+    "statements": [
+     "在這次評估中，跨境詐騙仍是金錢服務業最大的洗錢威脅。",
+     "中高程度威脅的評估只涉及本地罪行，並未涵蓋香港以外犯罪活動。",
+     "觀察所得金錢服務經營者被濫用的情況，涵蓋存放得益及分層交易。",
+     "在所研究的案例中，盜竊取代詐騙，成為金錢服務業最常面對的威脅。"
+    ]
+   }
+  },
+  {
+   "id": "m1-212",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.5–5.4.6; Box 5.11",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.5至5.4.6段； 專題 5.11"
+   },
+   "en": {
+    "q": "According to the 2022 report, which descriptions of fraud-related laundering and prevention are correct?",
+    "statements": [
+     "Money mules were recruited to receive criminal proceeds and facilitate remittances for remuneration.",
+     "In the telephone-deception case, use of a licensed MSO prevented conviction for laundering the proceeds.",
+     "C&ED and the Police conducted joint publicity to increase vigilance about suspicious remittances.",
+     "An MSO may be the last stop before a local deception victim’s money is sent outside Hong Kong."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些有關詐騙洗錢及防範的描述正確？",
+    "statements": [
+     "罪犯聘用錢騾接收和匯出犯罪得益，並向錢騾支付報酬。",
+     "在電話騙案案例中，由於使用持牌金錢服務經營者，洗錢者並未被定罪。",
+     "海關與警方聯合宣傳，以提高金錢服務業對可疑匯款的警覺性。",
+     "本地騙案受害人的金錢匯出香港前，金錢服務經營者可能是最後一站。"
+    ]
+   }
+  },
+  {
+   "id": "m1-213",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.7",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.7段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which descriptions of online-service risks and responses are correct?",
+    "statements": [
+     "More licensees operated online platforms without particular premises, increasing online transaction volume.",
+     "The increasing share of online transactions was assessed as removing the sector’s cybercrime threat.",
+     "Licensees were required to establish effective policies, procedures and internal controls for the risks involved.",
+     "Business-plan review focused on safeguards for face-to-face customers instead of non-face-to-face customers."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些有關網上服務風險及應對的描述正確？",
+    "statements": [
+     "更多持牌人並非在特定處所經營網上平台，帶動網上交易量上升。",
+     "網上交易比重增加，被評估為消除了金錢服務業的網上罪行威脅。",
+     "持牌人須就所涉風險設立有效政策、程序及內部管控措施。",
+     "業務計劃審查針對親身出現客戶的保障，而非非親身出現客戶的保障。"
+    ]
+   }
+  },
+  {
+   "id": "m1-214",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.8–5.4.10",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.8至5.4.10段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which statements about hawala are correct?",
+    "statements": [
+     "Hawala is an alternative remittance system operating outside the traditional banking system.",
+     "Transfers in hawala use a broker network that operates mainly on trust and communication.",
+     "Settlement between hawala dealers can take the form of cash, property or the provision of services.",
+     "The assessment found no information indicating that the MSO sector was adopting hawala for remittances."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些有關哈瓦拉系統的陳述正確？",
+    "statements": [
+     "哈瓦拉是傳統銀行體系以外運作的另類匯款系統。",
+     "哈瓦拉匯款經由主要建基於信任和溝通的經紀網絡安排。",
+     "哈瓦拉交易的結算方式可採用現金、物業或提供服務。",
+     "評估並無資料顯示金錢服務業正在採用哈瓦拉方式匯款。"
+    ]
+   }
+  },
+  {
+   "id": "m1-215",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.9",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.9段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which findings about foreign domestic helpers’ remittances are correct?",
+    "statements": [
+     "The thematic study considered helpers’ remittance behaviour and the channels used by providers serving them.",
+     "The study found that helpers predominantly relied on unlicensed operators when remitting their earnings.",
+     "Transfers to recipients in the Philippines and Indonesia generally used bank transfers rather than hawala.",
+     "C&ED’s enforcement against unlicensed money services was confined to those operating through hawala."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些有關外傭匯款的研究結果正確？",
+    "statements": [
+     "專題研究考慮外傭的匯款行為，以及服務外傭的經營者所用交付渠道。",
+     "研究發現外傭匯出收入時，主要依靠無牌金錢服務經營者提供服務。",
+     "匯往菲律賓及印尼收款人的款項，一般經銀行轉帳而非哈瓦拉網絡完成。",
+     "海關針對無牌金錢服務的執法，只限經哈瓦拉系統經營的服務。"
+    ]
+   }
+  },
+  {
+   "id": "m1-216",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.11–5.4.12",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.11至5.4.12段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which factors explain the MSO sector’s vulnerability?",
+    "statements": [
+     "Differences in business size and operating models mean that threats and vulnerabilities are not uniform.",
+     "The combination of cash-intensive operations and global exposure creates inherent laundering vulnerability.",
+     "Transactions below customer identification and verification thresholds remove the reported laundering vulnerability.",
+     "Limited resources to understand risk and operate compliance systems can make smaller MSOs vulnerable to criminals."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些因素說明金錢服務業的脆弱程度？",
+    "statements": [
+     "經營規模及模式的差異，令所受威脅及脆弱程度並不一致。",
+     "現金密集的經營性質與全球聯繫，共同構成固有洗錢脆弱之處。",
+     "低於客戶身分識別和核實門檻的交易，消除了報告所述洗錢脆弱程度。",
+     "小型經營者如缺乏資源了解風險及運作合規系統，便容易被罪犯利用。"
+    ]
+   }
+  },
+  {
+   "id": "m1-217",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 Executive Summary ¶3–5",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 報告摘要 第3至5段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which statements about the second assessment’s purpose and evidence are correct?",
+    "statements": [
+     "Identifying and updating Hong Kong’s laundering and financing risks supports more targeted responses.",
+     "The earlier assessment provided a useful basis, while the second also examined subsequent changes.",
+     "The second assessment drew on extensive consultation and both quantitative and qualitative data analysis.",
+     "Mutual-evaluation shortcomings and new FATF requirements helped set the focus of the second assessment."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些有關第二次評估目的及證據的陳述正確？",
+    "statements": [
+     "識別並更新香港的洗錢及資金籌集風險，有助制訂更具針對性的應對方案。",
+     "較早的評估提供實用基礎，第二次評估亦檢視首次評估以來的變化。",
+     "第二次評估進行廣泛諮詢，並採用定量及定性數據分析作為依據。",
+     "相互評估發現的不足及特別組織新規定，有助確立第二次評估的重點。"
+    ]
+   }
+  },
+  {
+   "id": "m1-218",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 Executive Summary ¶9, ¶18, ¶23",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 報告摘要 第9段、 第18段、 第23段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which comparisons of the reported risk findings are correct?",
+    "statements": [
+     "Domestic fraud posed a high laundering threat, while domestic drug-related crime posed a medium-high threat.",
+     "Hong Kong’s overall laundering vulnerability was rated high, although its overall threat was medium-high.",
+     "The report rated Hong Kong’s overall laundering risk as medium-high rather than as the lowest level.",
+     "The report rated the overall terrorist-financing risk as high, with its threat and vulnerability both high."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些有關報告風險結果的比較正確？",
+    "statements": [
+     "本地詐騙的洗錢威脅為高水平，本地毒品相關罪行則為中高水平。",
+     "香港整體洗錢脆弱程度被評為高水平，而整體洗錢威脅則為中高水平。",
+     "報告把香港整體洗錢風險評為中高水平，而不是最低水平。",
+     "報告把整體恐怖分子資金籌集風險評為高水平，威脅及脆弱程度亦均為高。"
+    ]
+   }
+  },
+  {
+   "id": "m1-219",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 Executive Summary ¶24–26",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 報告摘要 第24至26段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which conclusions about the first PF assessment are supported?",
+    "statements": [
+     "The first PF assessment formed an integral part of the second Hong Kong risk assessment.",
+     "The assessment informed government strategy only, without a purpose of informing the private sector.",
+     "The absence of substantial PF evidence in completed investigations led to a finding of no external PF threat.",
+     "Proximity to proliferation-sanctioned states contributed to the assessment of potential external PF threat."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些有關首次擴散資金籌集評估的結論有依據？",
+    "statements": [
+     "首次擴散資金籌集評估，是第二次香港風險評估工作的一部分。",
+     "這項評估只供政府制訂策略，並無讓私營界別了解風險的目的。",
+     "已完成調查未發現實質擴散資金籌集證據，因而評估為沒有外來威脅。",
+     "在地理上鄰近因擴散而受制裁的國家，是評估可能外來威脅的因素。"
+    ]
+   }
+  },
+  {
+   "id": "m1-220",
+   "module": 1,
+   "source": {
+    "en": "Hong Kong ML/TF Risk Assessment Report 2022 Executive Summary ¶27–29",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 報告摘要 第27至29段"
+   },
+   "en": {
+    "q": "According to the 2022 report, which descriptions of PF vulnerabilities and defences are correct?",
+    "statements": [
+     "Hong Kong’s open and business-friendly environment could be exploited by proliferation actors.",
+     "A busy transportation hub may attract actors seeking to conduct cargo activities prohibited by the UNSC.",
+     "Virtual assets can be used by sanctions evaders to raise and move funds outside traditional finance.",
+     "The report’s counter-proliferation defences included institutional cooperation and a private-sector defence system."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年報告，以下哪些有關擴散資金籌集脆弱之處及防禦的描述正確？",
+    "statements": [
+     "香港開放及便利營商的環境，可能被大規模毀滅武器擴散行事者利用。",
+     "活躍交通樞紐可能吸引尋求進行安理會禁止貨運活動的人。",
+     "逃避制裁者可利用虛擬資產，在傳統金融體系之外籌款及轉移資金。",
+     "報告所述打擊擴散防禦包括機構間協作，以及私營機構的防禦系統。"
+    ]
+   }
+  },
+  {
+   "id": "m4-392",
+   "module": 4,
+   "source": {
+    "en": "Circular on Counter-Proliferation Financing (22 December 2021) p.1 ¶1–2",
+    "tc": "《打擊大殺傷力武器擴散融資通函》（2021年12月22日） 第1頁 第1至2段"
+   },
+   "en": {
+    "q": "An MSO reviews how the PF circular changes its risk assessment. Which conclusions are correct?",
+    "statements": [
+     "The new assessment requirement extends to proliferation financing rather than merely repeating ML/TF assessment.",
+     "The institutional PF assessment can omit existing customers because it is a requirement for new business only.",
+     "Identifying PF risks is followed by taking appropriate measures to mitigate the risks the assessment identifies.",
+     "The FATF guidance requires risk identification by member jurisdictions alone, leaving private firms outside it."
+    ]
+   },
+   "tc": {
+    "q": "金錢服務經營者檢討擴散融資通函對風險評估的影響。以下哪些結論正確？",
+    "statements": [
+     "新增評估規定涵蓋擴散融資，而不只是重複洗錢及恐怖分子資金籌集評估。",
+     "機構層面擴散融資評估可略去現有客戶，因為這項規定只適用於新業務。",
+     "識別擴散融資風險之後，須採取適當措施緩解評估所識別的風險。",
+     "特別組織指引只要求成員司法管轄區識別風險，私營機構不在要求之內。"
+    ]
+   }
+  },
+  {
+   "id": "m4-393",
+   "module": 4,
+   "source": {
+    "en": "Circular on Counter-Proliferation Financing (22 December 2021) p.1–2",
+    "tc": "《打擊大殺傷力武器擴散融資通函》（2021年12月22日） 第1至2頁"
+   },
+   "en": {
+    "q": "An MSO updates its PF procedures after the circular. Which proposed actions meet the circular?",
+    "statements": [
+     "Use an effective, updated screening mechanism to follow the latest UNSC-designated persons and entities.",
+     "Report genuine designated-party hits found in transaction monitoring to the JFIU as soon as practicable.",
+     "Limit PF suspicious-activity reporting to name matches, leaving other suspicious PF activity outside the procedure.",
+     "Provide financial services to a designated entity if enhanced checking makes its assessed PF risk low."
+    ]
+   },
+   "tc": {
+    "q": "金錢服務經營者按通函更新擴散融資程序。以下哪些建議符合通函？",
+    "statements": [
+     "採用有效及適時更新的篩查機制，密切留意安理會最新指明人士及實體。",
+     "交易監察發現真正吻合指明各方的個案，須盡快向聯合財富情報組報告。",
+     "把擴散融資可疑活動報告限於姓名吻合，其他可疑擴散融資活動不納入程序。",
+     "如加強核查後把擴散融資風險評為低，便向受制裁指明實體提供金融服務。"
+    ]
+   }
+  },
+  {
+   "id": "m4-394",
+   "module": 4,
+   "source": {
+    "en": "Circular on United Nations Sanctions (7 February 2018) s.1 p.1",
+    "tc": "《聯合國制裁通函》（2018年2月7日） 第1條 第1頁"
+   },
+   "en": {
+    "q": "An MSO designs the scope of sanctions monitoring from the circular. Which conclusions are correct?",
+    "statements": [
+     "Sanctions resolutions can target particular activities, including trade in certain commodities.",
+     "The published sanctions lists concern people and companies but exclude designated vessels.",
+     "Sanctions can respond to corruption as well as terrorism or weapons proliferation activities.",
+     "After receiving a list update, the MSO can wait for its next annual review before screening new designations."
+    ]
+   },
+   "tc": {
+    "q": "金錢服務經營者按通函設計制裁監察範圍。以下哪些結論正確？",
+    "statements": [
+     "制裁決議可針對特定活動，包括若干商品的貿易。",
+     "公布的制裁名單涉及個人及公司，但不涵蓋被指定的船隻。",
+     "除恐怖主義或武器擴散活動外，制裁亦可針對貪污活動。",
+     "收到名單更新後，經營者可等到下次年度檢討才篩查新指定各方。"
+    ]
+   }
+  },
+  {
+   "id": "m4-395",
+   "module": 4,
+   "source": {
+    "en": "Circular on United Nations Sanctions (7 February 2018) s.1 p.1 and Note 1",
+    "tc": "《聯合國制裁通函》（2018年2月7日） 第1條 第1頁 及 註 1"
+   },
+   "en": {
+    "q": "A new UN sanctions resolution is not yet implemented locally. Which conclusions follow from the circular?",
+    "statements": [
+     "A time gap can arise between issuing a new resolution and putting it into effect through Hong Kong law.",
+     "During that gap, existing AML/CFT offences cease to be relevant to the activities in the resolution.",
+     "Overseas conduct can count as an indictable offence for proceeds dealing if it would be indictable in Hong Kong.",
+     "The overseas-conduct rule also requires that the conduct be illegal under the law of the place where it occurred."
+    ]
+   },
+   "tc": {
+    "q": "新的聯合國制裁決議尚未在本地實施。按通函，以下哪些結論正確？",
+    "statements": [
+     "新決議發出與透過香港法例實施之間，可能出現時間上的落差。",
+     "在這段落差期間，現行洗錢及恐怖分子資金籌集罪行不再適用於相關活動。",
+     "海外行為假若在香港發生會構成可公訴罪行，可納入處理得益的罪行範圍。",
+     "海外行為規則另要求有關行為在發生地的當地法律之下也屬違法。"
+    ]
+   }
+  },
+  {
+   "id": "m4-396",
+   "module": 4,
+   "source": {
+    "en": "Licensing Guide ¶2.3–2.4, ¶3.1",
+    "tc": "《牌照指引》 第2.3至2.4段、 第3.1段"
+   },
+   "en": {
+    "q": "Which conclusions correctly apply the licensing boundaries to these proposed businesses?",
+    "statements": [
+     "A retailer accepting foreign currency as an ancillary part of its retail sales is outside the money-changing definition.",
+     "A hotel that sells foreign notes to guests qualifies for the hotel exclusion just because all customers are guests.",
+     "A Hong Kong business arranging receipt of money overseas can be remittance even without sending the money itself.",
+     "An applicant already exempt from the MSO licensing requirements cannot elect to obtain an MSO licence nonetheless."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些結論正確把發牌範圍應用於這些擬議業務？",
+    "statements": [
+     "零售商在零售交易中附帶接受外幣，不屬貨幣兌換服務定義的範圍。",
+     "酒店只向住客賣出外幣鈔票，便因所有客戶均為住客而符合酒店排除條件。",
+     "在香港經營並安排於香港以外收取金錢，即使不自行送款也可構成匯款服務。",
+     "已獲豁免金錢服務經營者發牌規定的申請人，不能仍選擇取得該牌照。"
+    ]
+   }
+  },
+  {
+   "id": "m4-397",
+   "module": 4,
+   "source": {
+    "en": "Licensing Guide ¶4.4–4.8",
+    "tc": "《牌照指引》 第4.4至4.8段"
+   },
+   "en": {
+    "q": "An applicant combines home visits with a customer meeting room and another business. Which conclusions are correct?",
+    "statements": [
+     "Calling the business a door-to-door service means a room advertised for meeting customers need not be registered.",
+     "A visit to an accountant solely to process the applicant’s accounts does not turn that office into business premises.",
+     "A clear partition permits the applicant to share its money-service premises with another MSO operating there.",
+     "Sharing with a non-MSO business requires the money-service business to be clearly partitioned and distinguished."
+    ]
+   },
+   "tc": {
+    "q": "申請人同時提供上門服務、設有會客室並經營另一業務。以下哪些結論正確？",
+    "statements": [
+     "把業務稱為上門服務，即表示宣傳用作會客的房間無須登記為特定處所。",
+     "純粹到會計師行處理申請人的帳目，不會令該辦事處成為經營金錢服務處所。",
+     "只要設有明顯分隔，申請人便可與另一金錢服務經營者共用處所經營。",
+     "與非金錢服務業務共用處所時，金錢服務業務須設明顯分隔並清楚區分。"
+    ]
+   }
+  },
+  {
+   "id": "m4-398",
+   "module": 4,
+   "source": {
+    "en": "Licensing Guide ¶4.6–4.7, ¶4.10–4.11",
+    "tc": "《牌照指引》 第4.6至4.7段、 第4.10至4.11段"
+   },
+   "en": {
+    "q": "An online-only MSO proposes a virtual address, residential record storage and a mixed-building backup office. Which conclusions are correct?",
+    "statements": [
+     "A mail-forwarding address alone cannot meet the requirement for a physical local management office.",
+     "Keeping all records in the owner’s residential flat does not satisfy the accepted local storage-place requirement.",
+     "A mixed commercial-residential customer premises needs every occupant’s written consent for authorised inspection.",
+     "Landlord permission for money-service use should be recorded in the LMO tenancy agreement or a landlord’s letter."
+    ]
+   },
+   "tc": {
+    "q": "純網上經營者建議使用虛擬地址、住宅儲存紀錄及商住樓宇後備辦事處。哪些結論正確？",
+    "statements": [
+     "單憑轉寄郵件地址，不能符合設有實體本地管理辦事處的要求。",
+     "把全部紀錄存於東主的住宅單位，並不符合可接受的本地紀錄儲存地點要求。",
+     "商住混合樓宇的客戶交易處所，須獲每名佔用人書面同意讓獲授權人視察。",
+     "業主准許作金錢服務用途，應載於管理辦事處租約或業主發出的准許信。"
+    ]
+   }
+  },
+  {
+   "id": "m4-399",
+   "module": 4,
+   "source": {
+    "en": "Licensing Guide ¶4.1–4.2, ¶5.7",
+    "tc": "《牌照指引》 第4.1至4.2段、 第5.7段"
+   },
+   "en": {
+    "q": "A corporate applicant has a non-shareholding director and a person controlling 30% of votes indirectly. Which conclusions are correct?",
+    "statements": [
+     "The director must undergo the fit-and-proper test even though the director owns no shares.",
+     "The indirect controller of 30% of general-meeting votes is an ultimate owner for licensing purposes.",
+     "Testing the voting controller allows the company to omit a different individual who meets another ultimate-owner limb.",
+     "Being fit and proper is required for association with the company’s money-service business, not only for frontline work."
+    ]
+   },
+   "tc": {
+    "q": "法團申請人有一名沒有股份的董事及一名間接控制三成投票權的人。哪些結論正確？",
+    "statements": [
+     "該名董事即使並無持有股份，仍須接受適當人選判定。",
+     "間接控制成員大會三成投票權的人，就發牌而言屬最終擁有人。",
+     "公司完成投票權控制人的判定後，可略去另一名符合其他最終擁有人條件的人。",
+     "適當人選要求關乎與法團金錢服務業務的聯繫，並非只針對前線工作。"
+    ]
+   }
+  },
+  {
+   "id": "m4-400",
+   "module": 4,
+   "source": {
+    "en": "Licensing Guide ¶5.4–5.5, ¶5.8",
+    "tc": "《牌照指引》 第5.4至5.5段、 第5.8段"
+   },
+   "en": {
+    "q": "A company sends an authorised employee to its licensing interview and submits witnessed declarations. Which conclusions are correct?",
+    "statements": [
+     "Written board authorisation can permit a corporate applicant’s employee to attend the licensing interview.",
+     "The interview can require clarification of the business plan rather than being limited to checking identities.",
+     "A declaration witness can certify Appendix I after seeing only an emailed copy of the identity document.",
+     "The declarant may sign before meeting the witness if the witness later confirms the personal particulars."
+    ]
+   },
+   "tc": {
+    "q": "公司派獲授權員工出席發牌會面並遞交經見證的聲明。哪些結論正確？",
+    "statements": [
+     "董事局書面授權可讓法團申請人的員工出席發牌會面。",
+     "會面可要求澄清業務計劃，而不只限於核對身分。",
+     "聲明見證人只看過電郵寄來的身分證明文件複本，即可核證附錄。",
+     "聲明人可在會見見證人前簽署，只要見證人其後確認個人資料即可。"
+    ]
+   }
+  },
+  {
+   "id": "m4-401",
+   "module": 4,
+   "source": {
+    "en": "Licensing Guide ¶6.2–6.4",
+    "tc": "《牌照指引》 第6.2至6.4段"
+   },
+   "en": {
+    "q": "A licensee lodged renewal papers on time but missed the Assessment nomination deadline and supporting-document deadline. Which conclusions are correct?",
+    "statements": [
+     "Timely filing of the main form alone does not cure failure to nominate an eligible person within seven days.",
+     "Missing the specified period for outstanding documents after a reminder can render the renewal invalid.",
+     "The invalid application automatically extends the existing licence until C&ED has time to process it.",
+     "The licensee must cease money-service operation when the existing licence lapses under these circumstances."
+    ]
+   },
+   "tc": {
+    "q": "持牌人準時遞交續牌表格，卻錯過評核提名及證明文件期限。哪些結論正確？",
+    "statements": [
+     "單是準時遞交主要表格，不能補救未於七日內提名合資格人士的問題。",
+     "收到催交通知後未於指明期限遞交尚欠文件，可使續牌申請無效。",
+     "無效申請會自動延長現有牌照，直至海關有時間處理為止。",
+     "在這種情況下現有牌照失效時，持牌人必須停止經營金錢服務。"
+    ]
+   }
+  },
+  {
+   "id": "m4-402",
+   "module": 4,
+   "source": {
+    "en": "Licensing Guide ¶7.1–7.3",
+    "tc": "《牌照指引》 第7.1至7.3段"
+   },
+   "en": {
+    "q": "A licensee passed its original checks, but a new occupant refuses inspection consent and its periodic return is late. Which conclusions are correct?",
+    "statements": [
+     "The new occupant’s refusal can support suspension or revocation despite the original consent having been obtained.",
+     "The late periodic return is also listed among possible grounds for suspension or revocation of the licence.",
+     "The licensee must be given an opportunity to be heard before the CCE revokes or suspends the licence.",
+     "An appeal can be made to the Review Tribunal within the stated period after the decision notice is sent."
+    ]
+   },
+   "tc": {
+    "q": "持牌人原先通過檢查，但新佔用人拒絕視察同意且申報表遲交。哪些結論正確？",
+    "statements": [
+     "即使原先已取得同意，新佔用人拒絕同意仍可成為暫時吊銷或撤銷理由。",
+     "定期申報表遲交，亦屬可能暫時吊銷或撤銷牌照的列明理由。",
+     "關長作出撤銷或暫時吊銷牌照的決定之前，須給予持牌人陳詞機會。",
+     "關長告知決定的通知送出後，可在所訂期限內向覆核審裁處提出上訴。"
+    ]
+   }
+  },
+  {
+   "id": "m4-403",
+   "module": 4,
+   "source": {
+    "en": "Licensing Guide ¶8.1–8.4, ¶8.9",
+    "tc": "《牌照指引》 第8.1至8.4段、 第8.9段"
+   },
+   "en": {
+    "q": "A mobile-service licensee plans to open its first shop and appoint a new director. Which conclusions are correct?",
+    "statements": [
+     "The move to a shop requires the premises-addition application even though the licensee already holds a licence.",
+     "Submitting the premises form removes the need to submit a business plan and an updated AML policy.",
+     "The proposed director must submit a fit-and-proper declaration with the prior-approval application.",
+     "The licensee may start shop transactions while the premises application is awaiting the CCE’s decision."
+    ]
+   },
+   "tc": {
+    "q": "流動服務持牌人計劃開設首間店舖及委任新董事。哪些結論正確？",
+    "statements": [
+     "即使已持有牌照，轉到店舖經營仍須提出加入處所申請。",
+     "遞交加入處所表格後，便無須另外遞交業務計劃及更新打擊洗錢政策。",
+     "擬任董事須配合事先批准申請，遞交適當人選聲明表格。",
+     "處所申請仍等待關長決定期間，持牌人可先開始在店舖進行交易。"
+    ]
+   }
+  },
+  {
+   "id": "m4-404",
+   "module": 4,
+   "source": {
+    "en": "Licensing Guide ¶9.2–9.4, ¶10.1–10.2",
+    "tc": "《牌照指引》 第9.2至9.4段、 第10.1至10.2段"
+   },
+   "en": {
+    "q": "A licensee considers incorporation, a different service type, or closing its shop to become mobile-only. Which routes are correct?",
+    "statements": [
+     "Changing the legal entity from a sole proprietor to a corporation requires a fresh licence application.",
+     "Changing from money changing to remittance requires a written submission with an updated plan and AML policy.",
+     "Closing the shop to operate without particular premises requires only a routine change-of-address notification.",
+     "The shop closure can first be reported within one month afterwards under the ordinary particulars-change deadline."
+    ]
+   },
+   "tc": {
+    "q": "持牌人考慮改為法團、改變服務種類或關店改為純流動經營。哪些程序正確？",
+    "statements": [
+     "把法律實體由獨資經營者改為法團，須重新遞交牌照申請。",
+     "從貨幣兌換改為匯款，須遞交書面陳詞及更新的業務計劃與打擊洗錢政策。",
+     "關店改為沒有特定處所經營，只需作一般地址變更通知。",
+     "店舖停止經營可依一般詳情變更期限，在停業後一個月內才首次具報。"
+    ]
+   }
+  },
+  {
+   "id": "m4-405",
+   "module": 4,
+   "source": {
+    "en": "Guidance Notes ¶4.1–4.4",
+    "tc": "《能力評核須知》 第4.1至4.4段"
+   },
+   "en": {
+    "q": "A company wants to nominate its compliance manager and four directors for different Assessment sessions. Which conclusions are correct?",
+    "statements": [
+     "The compliance manager’s responsibility for compliance alone makes the manager eligible without being a director.",
+     "The company may nominate four individual directors provided they all take an active part in governance.",
+     "A nominated director must oversee operations, directly participate in policy decisions and be accountable for compliance.",
+     "Directors nominated under the same company application may split sessions to maintain business staffing."
+    ]
+   },
+   "tc": {
+    "q": "公司擬提名合規經理及四名董事分開時段應考。以下哪些結論正確？",
+    "statements": [
+     "合規經理單憑負責合規的職務，即使並非董事也具備法團應考資格。",
+     "只要均積極參與管治，公司便可提名四名自然人董事應考。",
+     "獲提名董事須監督業務、直接參與政策決策並對合規負責。",
+     "同一公司申請下獲提名的董事可分開時段應考，以維持業務人手。"
+    ]
+   }
+  },
+  {
+   "id": "m4-406",
+   "module": 4,
+   "source": {
+    "en": "Guidance Notes ¶5.3, ¶11.4–11.6",
+    "tc": "《能力評核須知》 第5.3段、 第11.4至11.6段"
+   },
+   "en": {
+    "q": "Which conclusions correctly apply the Assessment marking and pass rules to these cases?",
+    "statements": [
+     "A candidate scoring 30 overall but only two correct in one module fails despite the high total score.",
+     "A candidate scoring three in every module fails because the total does not reach the required 25 marks.",
+     "Marking two answers to one question earns no marks even when one marked answer is the correct answer.",
+     "A request to correct a misplaced answer after the Assessment time ends will not be considered."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些結論正確把評分及合格規則應用於這些情況？",
+    "statements": [
+     "總分三十分但其中一個單元只答對兩題，即使總分高仍不合格。",
+     "每個單元答對三題的考生，因總分未達二十五分而不合格。",
+     "一題填寫兩個答案，即使其中一個正確，該題亦不獲分數。",
+     "答題時間完結後才要求更正填錯位置的答案，將不獲考慮。"
+    ]
+   }
+  },
+  {
+   "id": "m4-407",
+   "module": 4,
+   "source": {
+    "en": "Guidance Notes ¶10.6–10.9",
+    "tc": "《能力評核須知》 第10.6至10.9段"
+   },
+   "en": {
+    "q": "A candidate plans how to store a phone and retain notes during the Assessment. Which proposals comply?",
+    "statements": [
+     "A switched-off phone can stay in a trouser pocket because it cannot make any sound during the Assessment.",
+     "A phone placed under the chair must remain uncovered and clearly visible to invigilators as well as switched off.",
+     "An unused answer sheet can be kept as a souvenir because the ban on removal concerns completed scripts.",
+     "Copying a question onto the invitation letter breaches the rules even if the candidate does not take the question book."
+    ]
+   },
+   "tc": {
+    "q": "考生計劃在評核時存放電話及保留筆記。以下哪些做法符合規定？",
+    "statements": [
+     "已關機電話可留在褲袋內，因為評核期間不會發出聲響。",
+     "放在座位下的電話須保持不受遮蓋、讓監考員看清楚，並關掉電源。",
+     "未使用的答題紙可留下作紀念，因為禁止帶走只針對已填寫的答卷。",
+     "即使沒有帶走問卷，把試題抄在邀請信上仍違反規則。"
+    ]
+   }
+  },
+  {
+   "id": "m4-408",
+   "module": 4,
+   "source": {
+    "en": "Guidance Notes ¶12.1–12.5",
+    "tc": "《能力評核須知》 第12.1至12.5段"
+   },
+   "en": {
+    "q": "A candidate disputes a FAIL result and asks for a re-check and disclosure of the question paper. Which conclusions are correct?",
+    "statements": [
+     "The seven-day period for requesting a re-check runs from issuance of the result notification.",
+     "Re-checking includes technical problems such as incorrectly entered marks and inconsistent data.",
+     "An accepted re-check request entitles the candidate to see the exact score and the correct answers.",
+     "Even a final PASS after re-checking leaves the applicant subject to the other licensing requirements."
+    ]
+   },
+   "tc": {
+    "q": "考生不滿不合格成績，要求覆檢及披露試題。以下哪些結論正確？",
+    "statements": [
+     "要求覆檢的七日期限，從成績通知發出當日起計算。",
+     "覆檢包括輸入分數出錯及數據前後不一等技術問題。",
+     "覆檢要求獲接納後，考生有權查看實際分數及正確答案。",
+     "即使覆檢後最終合格，申請人仍須符合其他發牌規定。"
+    ]
+   }
+  },
+  {
+   "id": "m4-409",
+   "module": 4,
+   "source": {
+    "en": "Supplementary F&P Guideline ¶6(d)–(f), ¶6(m), ¶7",
+    "tc": "《適當人選補充指引》 第6(d)至(f)段、 第6(m)段、 第7段"
+   },
+   "en": {
+    "q": "A director faces an unresolved overseas charge and a good-faith customer complaint, while the licensed firm has been dormant. Which conclusions are correct?",
+    "statements": [
+     "The unresolved foreign charge is irrelevant until it results in a conviction in a Hong Kong court.",
+     "A complaint about business conduct made reasonably and in good faith can be relevant without proving dishonesty.",
+     "A prolonged period of providing no money service can raise questions about genuine intention and readiness.",
+     "Failure on any one illustrative factor automatically requires the CCE to find that the director is not fit and proper."
+    ]
+   },
+   "tc": {
+    "q": "董事面對未結海外刑事檢控及真誠客戶投訴，持牌公司亦久未營業。哪些結論正確？",
+    "statements": [
+     "海外刑事檢控在香港法院定罪之前，與適當人選評估無關。",
+     "合理及真誠提出的經營行為投訴，即使未證明不誠實也可屬相關事宜。",
+     "長時間沒有提供金錢服務，可令人質疑真正經營意向及是否準備就緒。",
+     "任何一項示例因素不符合，關長便必須自動斷定董事並非適當人選。"
+    ]
+   }
+  },
+  {
+   "id": "m4-410",
+   "module": 4,
+   "source": {
+    "en": "Disciplinary Action Guideline ¶7, ¶9(a), ¶9(b), ¶9(d)",
+    "tc": "《施加罰款紀律行動指引》 第7段、 第9(a)段、 第9(b)段、 第9(d)段"
+   },
+   "en": {
+    "q": "An MSO’s small repeated breaches caused no completed customer loss, and it promptly reported and remedied them. Which factors may the CCE consider?",
+    "statements": [
+     "Several individually small issues may collectively justify a penalty even where one alone would not.",
+     "Potential customer loss can affect seriousness even where the threatened loss did not actually occur.",
+     "Prompt, effective and complete reporting to the CCE may be considered among the mitigating factors.",
+     "Remedial and prevention steps are relevant, and the firm’s financial resources also inform the penalty decision."
+    ]
+   },
+   "tc": {
+    "q": "經營者多次輕微違規但未造成實際客戶損失，並迅速報告及補救。關長可考慮哪些因素？",
+    "statements": [
+     "個別未足以罰款的多項輕微問題，合併考慮仍可能足以施加罰款。",
+     "即使未實際發生所涉損失，可能造成的客戶損失仍可影響嚴重性。",
+     "迅速、有效及完全地向關長報告，可納入求情因素考慮。",
+     "補救及防止重犯步驟屬相關因素，而財政資源亦會影響罰款決定。"
+    ]
+   }
+  },
+  {
+   "id": "m4-411",
+   "module": 4,
+   "source": {
+    "en": "Business Plan Guidelines items 4, 7, 8, 16–17",
+    "tc": "《遞交業務計劃的指引》 項目 4、 7、 8、 16至17"
+   },
+   "en": {
+    "q": "An applicant uses an overseas back office and agent, no bank account, and a cash courier. Which disclosures belong in its business plan?",
+    "statements": [
+     "The overseas back office’s purpose, function and location must be explained rather than omitted as offshore.",
+     "Information about the overseas agent used to transfer funds must be provided together with the service agreement.",
+     "The plan must explain how money services will be provided without a bank account rather than leaving this blank.",
+     "The identity of the cash-movement company or person must be included for local or cross-boundary cash movements.",
+     "If the applicant’s international group is supervised by another regulator, the plan must name that authority."
+    ]
+   },
+   "tc": {
+    "q": "申請人使用海外後勤辦事處及代理人、沒有銀行戶口並聘現金運送者。業務計劃應包括哪些披露？",
+    "statements": [
+     "海外後勤辦事處的目的、職能及位置須予闡述，不能因位於香港以外而略去。",
+     "須提供用作轉帳的海外代理人資料，並一併提供有關服務協議。",
+     "計劃須解釋如何在沒有銀行戶口下提供金錢服務，不能把這部分留空。",
+     "本地或跨境現金流動所涉及的公司或人員，其名稱或姓名須列入計劃。",
+     "如申請人的國際集團另受其他監管機構監管，計劃須列明該當局名稱。"
+    ]
+   }
+  },
+  {
+   "id": "m4-412",
+   "module": 4,
+   "source": {
+    "en": "AML Policy Guidelines Introduction; items 3, 5, 10, 16",
+    "tc": "《遞交打擊洗錢及恐怖分子資金籌集政策的指引》 引言； 項目 3、 5、 10、 16"
+   },
+   "en": {
+    "q": "An applicant adapts a generic AML policy to an online remittance business using overseas agents. Which revisions meet the submission guidelines?",
+    "statements": [
+     "Base the policy on the applicant’s own risk assessment and make it fit the particular business risk profile.",
+     "Describe the proportions of face-to-face and non-face-to-face transactions along with the distribution channels.",
+     "Explain the procedure for monitoring whether the overseas agents comply with the company’s AML/CFT policy.",
+     "Limit the record-keeping description to transaction receipts because screening and customer-risk records are optional.",
+     "Explain training effectiveness checks that test staff understanding and their ability to recognise suspicious transactions.",
+     "Keep a training record of who attended, when training occurred and what type of training each member received."
+    ]
+   },
+   "tc": {
+    "q": "申請人把通用政策改為適合使用海外代理人的網上匯款業務。哪些修訂符合遞交指引？",
+    "statements": [
+     "以申請人本身的風險評估為政策基礎，並使政策與特定業務風險狀況相稱。",
+     "除描述分銷渠道外，亦闡述面對面及非面對面交易各自所佔的百分率。",
+     "闡述按甚麼程序監察海外代理人有否遵從公司的打擊洗錢及恐怖分子資金籌集政策。",
+     "把備存紀錄描述只限於交易收據，因為篩查及客戶風險紀錄均屬自願提供。",
+     "闡述培訓成效的檢查方法，測試職員的理解及辨認可疑交易的能力。",
+     "備存誰人已接受培訓、何時接受培訓及各人所獲培訓類別的紀錄。"
+    ]
+   }
+  }
+ ],
+ "text_sha256": {
+  "m1-190": "b0000598d64dcee4fe284b8e9f4f57485c46f12ce90254ff2c1065a639219e31",
+  "m1-191": "0f8286a961aca143bc0de430a3ecff0030384095a25d0187c0926e9cb2efa12c",
+  "m1-192": "56fc4620a6490febb0fb532040f7cb301bd995fc4f5e0c53babe146efa897351",
+  "m1-193": "75ec3ab8312a7c76e8899238995ba2b4a968fd6e2fbce6ee639b05df32d97358",
+  "m1-194": "60b4eebaf8dc1881587366d3a98fcefb50b3fe36c96751b3fc69eeba6d9e3e57",
+  "m1-195": "e59b04f96f83ec4d1dd7cb925374368fd7f55c449defade1a7f4de6b31a7ffb6",
+  "m1-196": "81113244214548b1eefdeabbaad1af0088dd0f63c8572d38640c253e130b554a",
+  "m1-197": "c994000be759baf167bc80deb91eaf8fe4e41930b9c49d8308ed5bfacc1e82a8",
+  "m1-198": "05572f9add39927e59b79c4745e5782e135b928c892e7037d53f16b30d7c5207",
+  "m1-199": "81703ee48354559d3c66f2a4f00854e9178ed2bd5fe98bf2734f2a86a6684afd",
+  "m1-200": "5874fefc01d6915c34772d89886a5612c086fd5d6494efc97143d0a563fe5cf1",
+  "m1-201": "ccf5d34ba466cefbc5c79c3b412ea728b58aa65ad6369583aa37422b1f411390",
+  "m1-202": "bc54287ac28b44106bc1eca5cb7f584691c841ca65f64b5b330c9505545b940a",
+  "m1-203": "1bba8b905040b4dd7b977d4d62453962e4ab6f178e06eb5ab2b35e810eb5fe70",
+  "m1-204": "87154c2524217396eb2d35fbcd566ab0d73599672c2e47dd3a333065fde95d55",
+  "m1-205": "8eedb5cb403fd6ac1bf6d60c8495174bd498cc860cf09817043bf359b308f123",
+  "m1-206": "300b669b380bc50eef374927df13d4443d8769bc7b929dfaed165fd10b28d84f",
+  "m1-207": "d154dd235ca3d0a9b35a459bff1b065e9f710952074a2cb32066b93a1dae5461",
+  "m1-208": "8bfff0b3870d8955caa84ea8169fc4e0bbdbaa1a49e7ce23a73507b74e6f708b",
+  "m1-209": "7e3369ae91f3f8370175b1b3f582a06f5a8b74ceeee6dd6bf4b77b15a91923b0",
+  "m1-210": "4cea3cdd037736bcff17966e5c63273c922a68ceefb5eb4c49726fc4e6073914",
+  "m1-211": "40d1cf1252e3bbc9ab1975f1695cf710e74cbe405bd0362d69c76e0d2cfdb3a8",
+  "m1-212": "c221d2747ccdee8bf4aef12ee362901a39120e257502618fb0523418b14ee547",
+  "m1-213": "07bb1925440ab5b90afbf803ca988cdeef741768c742d528873b6e230f1acbda",
+  "m1-214": "db7b82ca907edc48102d2f7e09384b6cda15cea7a3bd9f91d7a18e00b46961b9",
+  "m1-215": "f320dc4e5dd98775ec9e9d74d0a32ccede9963455481c40f1a888936aa7743e5",
+  "m1-216": "dddec14688c2150237084d710b8254edeb2f513f22e54788f30618297a900370",
+  "m1-217": "27e3000954d41582d9c76ca533d18c072ee2a691ea41b61aed66c460264c6acb",
+  "m1-218": "f435dfc5583eb8467af0976c56c0b015656098e17e156ccce3e98f7bde3bb0da",
+  "m1-219": "978afd2a02687772ed956e4e93fc18236e81692567f7dec5b9d3d68e380419c5",
+  "m1-220": "2b2cf4f3257279d588abd5e06d47d3d02924ab6d7b79598a283dad2a6f00e53b",
+  "m4-392": "14fd461ad932db3e57dde281cdf7f68bbfe043e5c67c939c41f0d09cb9c527ef",
+  "m4-393": "e6d27d244121f331c8fcbbc15b1677009c4093cec059fd505eecef3c3d338673",
+  "m4-394": "3d00ac579874fc9650c0122d791d41b55a39d208649594af837548c88c32c48b",
+  "m4-395": "8cc806609ca06fc5f747ab7f5381b19a5da65d754a08241fa6667166bb672e15",
+  "m4-396": "80c71f4d91dc208e81a2af0a88b5b4dc8f0f2a6090095b6bcd10cba8404b7d38",
+  "m4-397": "f021de6b92e8ec1b4e754cfb0583c16e016e85c1a557e5178edded121b618344",
+  "m4-398": "d5754309c72f7f4962e8a93db811b9140031312a389f0263ce6ca4c9d3ba33a3",
+  "m4-399": "db5e8e6d4a171f16f00a172108260deea896819603baeac8883ef0ff098cd4f0",
+  "m4-400": "63fecc0241d71e0fbfe3f5c7427423429c2871f53f774f0ccdd00413e8b9565e",
+  "m4-401": "003e29276b3f59f8d74b5bf3c3ba0d7a8d9ffa489dde8840f4e5c7e1548f70e0",
+  "m4-402": "e711d5eaf72e0ade8770de09c9510ff8974c9f66c7df36afb3f91d3ae6e05b85",
+  "m4-403": "03087bc623365c63a40b1e0ebe8888234c3f27ff65935fa39ede759955750355",
+  "m4-404": "3cd77f3670ebb24f9364caf9e52ca6b721f0e377f1d2df6147ed58be95ff6ac0",
+  "m4-405": "0690e56d6f253df829ab747275320f771aff94aa19f98abfcdde87cb12a3675e",
+  "m4-406": "be8c28d0d4e7556d2911aebc19b36bfb783eb050675a0d21bb55d0cd23980aaa",
+  "m4-407": "cde487e3b413108e5a9138a9c92682c0d76f7a11c72fafc60d716be607026be7",
+  "m4-408": "7c842c04dec8c409f5d854493d165aa6e1a1280f4b893d645d675cbbf5b9268b",
+  "m4-409": "e6638f713e1397867ce811bc1b8e64b36b0b8bdc22eb57ab82b032ef0ca8a965",
+  "m4-410": "dec709d8d3baf21b0aa48afe52973889777dcdcf2ed012a735f9b0dd4cccc3e8",
+  "m4-411": "7f4442a35051f88699fe407579e5b2ff40de03a0814f2e582465a2be5808245e",
+  "m4-412": "1ab3a2fd9290fc04fdd7a3830f7cc9748d1bb496e9f50a341dbe5d6f20c28eec"
+ }
+}

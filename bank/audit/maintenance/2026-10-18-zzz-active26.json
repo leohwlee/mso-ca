@@ -1,0 +1,132 @@
+{
+  "status": "verified",
+  "date": "2026-10-18",
+  "reason": "Owner-approved 01–26-only question bank, two-mode app, agent-neutral authoring workflow. Historical agent names/paths survive only as verifiable evidence.",
+  "archive": "bank/audit/history/2026-10-18-before-active26.zip",
+  "archive_sha256": "46a97b35fd1dc1c559ab5e36a4cf625ad9b48a3a1e8fad574af08744e0ee7658",
+  "archive_updates": {
+    ".github/workflows/ci.yml": {
+      "before_sha256": "311f37d863f17d27a88686dfb4f4ed86c02bd229715fd4adc60fd0676c255a28",
+      "after_sha256": "2df9d7e7be018e366ee5edb7c97c9668df507027f35a15bc1f087b46b9e6484d"
+    },
+    ".github/workflows/release.yml": {
+      "before_sha256": "32aedfa64cd0d9063e7882802dd537c522c4ecfe0e568c57f57a4efd4c1656a0",
+      "after_sha256": "d6cebaa55dc4ef95d1f1d5f51be4e6e52e0a4ae4fdd191ca22bf3b935528e685"
+    },
+    "AGENTS.md": {
+      "before_sha256": "4be0a0b3f6394032a688fe8d24ff46a55e5531d80d90c0ecb394557fb8f2263b",
+      "after_sha256": "9c36cfa95c8d265486b6296d23a635fcb9dd83b815747b051014402c86f13bbc"
+    },
+    "DEVELOPMENT.md": {
+      "before_sha256": "a4be00307a66c3f0f55e83676fc80fc0f8b2f2b5f588d20d07b6aeb529019091",
+      "after_sha256": "e16ee06cec9f0a0080a79c28d01d2905a47408bcffc0bb795f59a2296f6ac3ed"
+    },
+    "DEVELOPMENT.zh-Hant.md": {
+      "before_sha256": "fb610d4ec78a9d3da39d195517e0c74b31b47297eaa454234f47c895dc401a66",
+      "after_sha256": "118f6f11490354c910e82697ac562003dbbf4d9c27c6e87eded487b5f53c5290"
+    },
+    "LICENSE-CONTENT.md": {
+      "before_sha256": "c3945a87f9c4a020d52f00fb808a8273e054049d4dd6ae7fbf24c73904c43af6",
+      "after_sha256": "08a3ff8fbfacb395db9aa8481f1203a7773011fd6fbad40df9832d13942d36eb"
+    },
+    "README.md": {
+      "before_sha256": "b16a93ffa1d3e6f444fc403494e63ec452697840a25e728a7c5a2b91d15ded1c",
+      "after_sha256": "b9a9d8a54ceae77282d9c6d9efc0e4c4d1f334b05dedae74aeb58f30b1e08e54"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "705fa83f80cf762890bce3404062d85077f45292479de546c9e32cbf47d7eaa8",
+      "after_sha256": "8d246455616ed77f66f1fef66adb5cc0e4448e66d049c07c99f25f0c69cb799d"
+    },
+    "bank/FORMAT.md": {
+      "before_sha256": "58a2c8b2e445ff62a1925e9c880972e6dddd128bb1b1270ada1aca0d4a329366",
+      "after_sha256": "f6aad1f5556ec4ec9a1cf46dfbd62a8db8be498f1c3ef72e994e50df4bc16ea2"
+    },
+    "bank/apply.py": {
+      "before_sha256": "061743ea2344452430b4615e794e1376a345079c8e731598020ab3f8c69f93f1",
+      "after_sha256": "f5f129ee9842fdeca1face18f2489023a5595a655f6a42e9aeec288daae3ec86"
+    },
+    "bank/audit/README.md": {
+      "before_sha256": "ff00d5b623f6066aaf88f1ab36977d3e25b2d429d0ff4c9df1fe42662428c9b9",
+      "after_sha256": "4be5c90c59d2159cd7e2d1e940392a502875cfb71807b9d3d877fdd7fa9b08b2"
+    },
+    "bank/audit/report.py": {
+      "before_sha256": "cca4d2d83b17501658900a5f8311d09eca2d38f269dc3c9c3b457f02aa35bbe8",
+      "after_sha256": "57f31c42d843cba4787aae2b3ab808ea6016ac55e684167f44ffee93ca22a7c6"
+    },
+    "bank/audit/state.py": {
+      "before_sha256": "9cf959082af68400168e3127e82b453120fef6ecf5dd15584de7626259affbaf",
+      "after_sha256": "a505c80d6de6bbba27a1abe416c27399ca678586cf9be225c18c4f52d65f67e0"
+    },
+    "bank/retired-ids.json": {
+      "before_sha256": "0a034062e038a3b3f79926ece9f8623c32dffbdf3aba16d862652728934b13e6",
+      "after_sha256": "0d10a4054bfb5d4413bbfda3b125f8c8329f233ce417b6c09bb9ff29384fcb30"
+    },
+    "docs/QUESTION-SOURCES.md": {
+      "before_sha256": "37566afb9e1aaf952a8086cbc530505a424e6aa8d6ace6c6bce34859db9e123e",
+      "after_sha256": "3dbaca7d0336c6b63047d492328d3ba14d04e624ac01afcbebb582527008616b"
+    },
+    "docs/QUESTION-SOURCES.zh-Hant.md": {
+      "before_sha256": "f06b3cdaaa629b8cd48b808c7a47b8a046f1643748e2f3f00846fd466c07aa15",
+      "after_sha256": "1975b6b2a30fe92a7e1e45f6d746ced0cfd760729b339fadfd23d354ead69cea"
+    },
+    "docs/README.md": {
+      "before_sha256": "2323c63ee1dad44579694d498d7c87478a407b1b2e190c265f3182dd423aa532",
+      "after_sha256": "e7bf59d8b8f91ebf1a48e9ddd4f1c65dd54eda821ed9b78b412fca98167c56da"
+    },
+    "docs/README.zh-Hant.md": {
+      "before_sha256": "10729f5d2780aa3efba78dd1c8ab233d4045d476b3ae17eabcdf77318362979c",
+      "after_sha256": "ef856b3f0db4ea6aec82ebd0407d438bf0e1698f4262d0ac58ac74361935ecc4"
+    },
+    "docs/SOURCE-MAINTENANCE.md": {
+      "before_sha256": "9d790ed4e7e34445a302acada0514e434ee4b54fe79ee96a90439fb131d2fd29",
+      "after_sha256": "dc3748bcd548959ce81279cf5287b27bcadcc83246f1ca9398534ceb56579ff0"
+    },
+    "docs/SOURCE-MAINTENANCE.zh-Hant.md": {
+      "before_sha256": "0e8b454698993e1373d9e63e2b88191069fbef267a7ee7a0949638efcd1e4db8",
+      "after_sha256": "0abb44f2c72f9cba9c43d706ae09517bf8c6e06349bc28824cb45048e24329c4"
+    },
+    "docs/build_catalog.py": {
+      "before_sha256": "ea03f1d633837e50a0f4e84800809d59ab83e141e5961a23dc8b07ef43b0c926",
+      "after_sha256": "40da2cd2ea1bcd444b9992f1f3fcb03fcb4f2de199b4438347c8e52752e521ab"
+    },
+    "docs/catalog.json": {
+      "before_sha256": "5d7c5134d5122ea9d654fe101dac61c982f0ee9735efd5754aabf2b60f02e34a",
+      "after_sha256": "7de5e1fc4e031b3c1fbb7ad96f723895e9ddfc02950bdd95f0ba275a3bd720fe"
+    },
+    "questions_test.go": {
+      "before_sha256": "3134ab02b4d95f2c5d84c7f5d90ee48b2542890b07d2d94eec8bacf3d70cd989",
+      "after_sha256": "e6890f51c351ab395278e458cb81c7ea018de3f9a442b0ab039b03523ea10a63"
+    },
+    "revision/README.md": {
+      "before_sha256": "97cf8f28860438dc1983e061431fd85eb5eaee2135e043196e00c4c8b166b6ad",
+      "after_sha256": "2340cf2defd0db6860197adc8a97d87dec0ced58aa129cf19f12dd39bffe0fa4"
+    },
+    "sources_test.go": {
+      "before_sha256": "68dc7f27165400648e2d5c26865e2406836dc887963e20ef9518a91720e1cbab",
+      "after_sha256": "9fbc0515ad1a49f42d667c7413558ccecae6277e586e03a8273155166e2a267e"
+    },
+    "web/app.js": {
+      "before_sha256": "6ad10a66eefda8e798068f79986b77f5b78ebef527f9d00d4a3b2c9846c149df",
+      "after_sha256": "4045eb53c1b3074b1ea6297594fecef9eb99d3b5d40b261a4723265f5b17faaa"
+    },
+    "web/style.css": {
+      "before_sha256": "0be091b6691c6ae3a7841045b8a909afa4688c30170b4c9a07eaa68f84882a39",
+      "after_sha256": "4eccb5bf6f15c0502d7356a9c32862359519376297fd3d0d3a39c7d1043b49ab"
+    }
+  },
+  "archive_preserved": {
+    ".claude/launch.json": {
+      "sha256": "ba994e37fd1ddfac9a7bbd71b9c8fb0d5c9f1d850cb85a7d80370e6aefb00234"
+    },
+    ".claude/skills/exam-prep/SKILL.md": {
+      "sha256": "ab538829605903759fa60c0bafa866b85c98b7ccf0c7c9dd2b7d94378e0f4912"
+    },
+    ".claude/skills/exam-prep/references/guards.md": {
+      "sha256": "afa090d1bc6a06e9d909fef9489088d1adc6599f1125f9463ef68a62e8f7f7b2"
+    },
+    ".claude/skills/exam-prep/references/tooling.md": {
+      "sha256": "2abfd945b5eb1c1496fe232640a91745cef83c9befe63b2663cde574286957a3"
+    }
+  },
+  "documentation_updates": {}
+}

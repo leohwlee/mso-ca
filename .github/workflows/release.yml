@@ -22,12 +22,20 @@ jobs:
           go-version-file: go.mod
           cache: false
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
       # A tag that fails the bank checks must not become a download.
       - name: Verify
         run: |
           go vet ./...
           go test ./...
+          node --test tests/*.test.cjs
+          python3 -m unittest discover -s tests -p '*_test.py'
           python3 docs/build_catalog.py --check
+          python3 bank/audit/active_scope.py --check
+          python3 bank/audit/render_active_scope.py --check
           python3 bank/audit/report.py --check
           python3 bank/audit/terms_report.py --check
           python3 bank/audit/p1_report.py --check

@@ -1,0 +1,1439 @@
+[
+ {
+  "id": "m7-193",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "document": "24",
+    "locator_en": "p.5",
+    "locator_tc": "p.5 (English original; study translation)",
+    "en": "contradictions between the name of the exporting entity and the name of the recipient of the payment",
+    "tc_source_language": "en",
+    "tc": "contradictions between the name of the exporting entity and the name of the recipient of the payment"
+   },
+   {
+    "document": "24",
+    "locator_en": "p.5",
+    "locator_tc": "p.5 (English original; study translation)",
+    "en": "differing prices on invoices and underlying contracts",
+    "tc_source_language": "en",
+    "tc": "differing prices on invoices and underlying contracts"
+   },
+   {
+    "document": "24",
+    "locator_en": "p.5",
+    "locator_tc": "p.5 (English original; study translation)",
+    "en": "Contracts, invoices, or other trade documents have vague descriptions of the traded commodities",
+    "tc_source_language": "en",
+    "tc": "Contracts, invoices, or other trade documents have vague descriptions of the traded commodities"
+   },
+   {
+    "document": "24",
+    "locator_en": "p.5",
+    "locator_tc": "p.5 (English original; study translation)",
+    "en": "Contracts supporting complex or regular trade transactions appear to be unusually simple",
+    "tc_source_language": "en",
+    "tc": "Contracts supporting complex or regular trade transactions appear to be unusually simple"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-194",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "24",
+    "locator_en": "p.5",
+    "locator_tc": "p.5 (English original; study translation)",
+    "en": "are a resubmission of previously rejected documents",
+    "tc_source_language": "en",
+    "tc": "are a resubmission of previously rejected documents"
+   },
+   {
+    "document": "24",
+    "locator_en": "p.5",
+    "locator_tc": "p.5 (English original; study translation)",
+    "en": "The value of registered imports of an entity displays significant mismatches to the entity’s volume of foreign bank transfers for imports.",
+    "tc_source_language": "en",
+    "tc": "The value of registered imports of an entity displays significant mismatches to the entity’s volume of foreign bank transfers for imports."
+   },
+   {
+    "document": "24",
+    "locator_en": "p.5",
+    "locator_tc": "p.5 (English original; study translation)",
+    "en": "the value of registered exports shows a significant mismatch with incoming foreign bank transfers.",
+    "tc_source_language": "en",
+    "tc": "the value of registered exports shows a significant mismatch with incoming foreign bank transfers."
+   },
+   {
+    "document": "24",
+    "locator_en": "p.5",
+    "locator_tc": "p.5 (English original; study translation)",
+    "en": "Commodities imported into a country within the framework of temporary importation and inward processing regime are subsequently exported with falsified documents.",
+    "tc_source_language": "en",
+    "tc": "Commodities imported into a country within the framework of temporary importation and inward processing regime are subsequently exported with falsified documents."
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-195",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "24",
+    "locator_en": "p.6",
+    "locator_tc": "p.6 (English original; study translation)",
+    "en": "the entity redirects payment to a previously unknown entity at the very last moment",
+    "tc_source_language": "en",
+    "tc": "the entity redirects payment to a previously unknown entity at the very last moment"
+   },
+   {
+    "document": "24",
+    "locator_en": "p.6",
+    "locator_tc": "p.6 (English original; study translation)",
+    "en": "a rapid movement of high-volume transactions and a small end-of-day balance without clear business reasons",
+    "tc_source_language": "en",
+    "tc": "a rapid movement of high-volume transactions and a small end-of-day balance without clear business reasons"
+   },
+   {
+    "document": "24",
+    "locator_en": "p.6",
+    "locator_tc": "p.6 (English original; study translation)",
+    "en": "Payments are sent or received in large round amounts for trade in sectors where this is deemed as unusual.",
+    "tc_source_language": "en",
+    "tc": "Payments are sent or received in large round amounts for trade in sectors where this is deemed as unusual."
+   },
+   {
+    "document": "24",
+    "locator_en": "p.6",
+    "locator_tc": "p.6 (English original; study translation)",
+    "en": "Transaction activity associated with a trade entity increases in volume quickly and significantly, and then goes dormant after a short period of time.",
+    "tc_source_language": "en",
+    "tc": "Transaction activity associated with a trade entity increases in volume quickly and significantly, and then goes dormant after a short period of time."
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-196",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "25",
+    "locator_en": "5.4.16",
+    "locator_tc": "5.4.16",
+    "en": "The C&ED has been actively adopting the enhanced risk model to determine the ML/TF risk level of individual MSOs in the targeted outreach exercises. Ongoing risk assessment has been conducted by making use of a wide range of avenues, for example, periodic risk profiling, examination of the business plan and AML/CFT policy submitted by the applicants/licensees, analysis of regular business returns, feedbacks collected from on- site interviews, etc. to ensure that the risk ratings of individual MSOs are up-to-date. The outreach exercises' outcomes have contributed significantly to formulating the supervision priority categories and refining our risk-based supervisory strategies. Entry control",
+    "tc": "在針對性的外展工作中，海關一直積極採用經改良的風險模式，釐訂個別金錢服務 經營者的洗錢及恐怖分子資金籌集風險級別。海關持續進行風險評估，過程中會運用多種方法， 例如定期評估風險狀況、審視申請人或持牌人提交的業務計劃和打擊洗錢及恐怖分子資金籌集政 策、分析定期業務報表、從實地面談收集意見等，以確保每個金錢服務經營者所獲風險評級均基 於最新資料。外展工作的結果大大提升海關在制訂監督優次類別和改善風險為本監管策略方面的 工作。 進入市場的規管"
+   },
+   {
+    "document": "25",
+    "locator_en": "5.4.16",
+    "locator_tc": "5.4.16",
+    "en": "The C&ED has been actively adopting the enhanced risk model to determine the ML/TF risk level of individual MSOs in the targeted outreach exercises. Ongoing risk assessment has been conducted by making use of a wide range of avenues, for example, periodic risk profiling, examination of the business plan and AML/CFT policy submitted by the applicants/licensees, analysis of regular business returns, feedbacks collected from on- site interviews, etc. to ensure that the risk ratings of individual MSOs are up-to-date. The outreach exercises' outcomes have contributed significantly to formulating the supervision priority categories and refining our risk-based supervisory strategies. Entry control",
+    "tc": "在針對性的外展工作中，海關一直積極採用經改良的風險模式，釐訂個別金錢服務 經營者的洗錢及恐怖分子資金籌集風險級別。海關持續進行風險評估，過程中會運用多種方法， 例如定期評估風險狀況、審視申請人或持牌人提交的業務計劃和打擊洗錢及恐怖分子資金籌集政 策、分析定期業務報表、從實地面談收集意見等，以確保每個金錢服務經營者所獲風險評級均基 於最新資料。外展工作的結果大大提升海關在制訂監督優次類別和改善風險為本監管策略方面的 工作。 進入市場的規管"
+   },
+   {
+    "document": "25",
+    "locator_en": "5.4.16",
+    "locator_tc": "5.4.16",
+    "en": "The C&ED has been actively adopting the enhanced risk model to determine the ML/TF risk level of individual MSOs in the targeted outreach exercises. Ongoing risk assessment has been conducted by making use of a wide range of avenues, for example, periodic risk profiling, examination of the business plan and AML/CFT policy submitted by the applicants/licensees, analysis of regular business returns, feedbacks collected from on- site interviews, etc. to ensure that the risk ratings of individual MSOs are up-to-date. The outreach exercises' outcomes have contributed significantly to formulating the supervision priority categories and refining our risk-based supervisory strategies. Entry control",
+    "tc": "在針對性的外展工作中，海關一直積極採用經改良的風險模式，釐訂個別金錢服務 經營者的洗錢及恐怖分子資金籌集風險級別。海關持續進行風險評估，過程中會運用多種方法， 例如定期評估風險狀況、審視申請人或持牌人提交的業務計劃和打擊洗錢及恐怖分子資金籌集政 策、分析定期業務報表、從實地面談收集意見等，以確保每個金錢服務經營者所獲風險評級均基 於最新資料。外展工作的結果大大提升海關在制訂監督優次類別和改善風險為本監管策略方面的 工作。 進入市場的規管"
+   },
+   {
+    "document": "25",
+    "locator_en": "5.4.16",
+    "locator_tc": "5.4.16",
+    "en": "The C&ED has been actively adopting the enhanced risk model to determine the ML/TF risk level of individual MSOs in the targeted outreach exercises. Ongoing risk assessment has been conducted by making use of a wide range of avenues, for example, periodic risk profiling, examination of the business plan and AML/CFT policy submitted by the applicants/licensees, analysis of regular business returns, feedbacks collected from on- site interviews, etc. to ensure that the risk ratings of individual MSOs are up-to-date. The outreach exercises' outcomes have contributed significantly to formulating the supervision priority categories and refining our risk-based supervisory strategies. Entry control",
+    "tc": "在針對性的外展工作中，海關一直積極採用經改良的風險模式，釐訂個別金錢服務 經營者的洗錢及恐怖分子資金籌集風險級別。海關持續進行風險評估，過程中會運用多種方法， 例如定期評估風險狀況、審視申請人或持牌人提交的業務計劃和打擊洗錢及恐怖分子資金籌集政 策、分析定期業務報表、從實地面談收集意見等，以確保每個金錢服務經營者所獲風險評級均基 於最新資料。外展工作的結果大大提升海關在制訂監督優次類別和改善風險為本監管策略方面的 工作。 進入市場的規管"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-197",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "document": "25",
+    "locator_en": "5.4.20",
+    "locator_tc": "5.4.20",
+    "en": "Meanwhile, to enhance the MSO supervisory regime, off-site monitoring is strategically deployed to complement on-site inspections targeting MSOs of varying risk profiles under the overall risk-based operation mode. It can be used as a reliable control measure for reviewing and evaluating non-high-risk MSOs for routine check-ups or a prelude to a later on-site inspection for collecting advance information and making preliminary assessment. Those MSOs selected for off-site monitoring are required to attend interviews in the C&ED’s office and provide the requisite documents for scrutiny by the C&ED within a specified period. Such a risk-focused monitoring approach serves as an effective reinforcement measure to enhance the comprehensiveness of the compliance programme and increase the overall operational flexibility in deploying supervisory actions.",
+    "tc": "與此同時，為加強金錢服務經營者監管的制度，海關按照整體風險為本的運作模式 進行非實地監察，以配合對不同風險狀況的金錢服務經營者的實地監察。這項監管措施的作用， 是檢視和評估非高風險的金錢服務經營者以作出常規查核，或作為實地視察前先收集資料和初步 評估的程序。選定為非實地監察對象的金錢服務經營者須到海關辦事處出席面談，並須在指定時 間內提供所需文件供海關審閱。這項以風險為本的監察措施有助加強合規制度的全面性，並令海 關的整體監管行動更富彈性。 制裁篩查和交易監察制度"
+   },
+   {
+    "document": "25",
+    "locator_en": "5.4.20",
+    "locator_tc": "5.4.20",
+    "en": "Meanwhile, to enhance the MSO supervisory regime, off-site monitoring is strategically deployed to complement on-site inspections targeting MSOs of varying risk profiles under the overall risk-based operation mode. It can be used as a reliable control measure for reviewing and evaluating non-high-risk MSOs for routine check-ups or a prelude to a later on-site inspection for collecting advance information and making preliminary assessment. Those MSOs selected for off-site monitoring are required to attend interviews in the C&ED’s office and provide the requisite documents for scrutiny by the C&ED within a specified period. Such a risk-focused monitoring approach serves as an effective reinforcement measure to enhance the comprehensiveness of the compliance programme and increase the overall operational flexibility in deploying supervisory actions.",
+    "tc": "與此同時，為加強金錢服務經營者監管的制度，海關按照整體風險為本的運作模式 進行非實地監察，以配合對不同風險狀況的金錢服務經營者的實地監察。這項監管措施的作用， 是檢視和評估非高風險的金錢服務經營者以作出常規查核，或作為實地視察前先收集資料和初步 評估的程序。選定為非實地監察對象的金錢服務經營者須到海關辦事處出席面談，並須在指定時 間內提供所需文件供海關審閱。這項以風險為本的監察措施有助加強合規制度的全面性，並令海 關的整體監管行動更富彈性。 制裁篩查和交易監察制度"
+   },
+   {
+    "document": "25",
+    "locator_en": "5.4.20",
+    "locator_tc": "5.4.20",
+    "en": "Meanwhile, to enhance the MSO supervisory regime, off-site monitoring is strategically deployed to complement on-site inspections targeting MSOs of varying risk profiles under the overall risk-based operation mode. It can be used as a reliable control measure for reviewing and evaluating non-high-risk MSOs for routine check-ups or a prelude to a later on-site inspection for collecting advance information and making preliminary assessment. Those MSOs selected for off-site monitoring are required to attend interviews in the C&ED’s office and provide the requisite documents for scrutiny by the C&ED within a specified period. Such a risk-focused monitoring approach serves as an effective reinforcement measure to enhance the comprehensiveness of the compliance programme and increase the overall operational flexibility in deploying supervisory actions.",
+    "tc": "與此同時，為加強金錢服務經營者監管的制度，海關按照整體風險為本的運作模式 進行非實地監察，以配合對不同風險狀況的金錢服務經營者的實地監察。這項監管措施的作用， 是檢視和評估非高風險的金錢服務經營者以作出常規查核，或作為實地視察前先收集資料和初步 評估的程序。選定為非實地監察對象的金錢服務經營者須到海關辦事處出席面談，並須在指定時 間內提供所需文件供海關審閱。這項以風險為本的監察措施有助加強合規制度的全面性，並令海 關的整體監管行動更富彈性。 制裁篩查和交易監察制度"
+   },
+   {
+    "document": "25",
+    "locator_en": "5.4.20",
+    "locator_tc": "5.4.20",
+    "en": "Meanwhile, to enhance the MSO supervisory regime, off-site monitoring is strategically deployed to complement on-site inspections targeting MSOs of varying risk profiles under the overall risk-based operation mode. It can be used as a reliable control measure for reviewing and evaluating non-high-risk MSOs for routine check-ups or a prelude to a later on-site inspection for collecting advance information and making preliminary assessment. Those MSOs selected for off-site monitoring are required to attend interviews in the C&ED’s office and provide the requisite documents for scrutiny by the C&ED within a specified period. Such a risk-focused monitoring approach serves as an effective reinforcement measure to enhance the comprehensiveness of the compliance programme and increase the overall operational flexibility in deploying supervisory actions.",
+    "tc": "與此同時，為加強金錢服務經營者監管的制度，海關按照整體風險為本的運作模式 進行非實地監察，以配合對不同風險狀況的金錢服務經營者的實地監察。這項監管措施的作用， 是檢視和評估非高風險的金錢服務經營者以作出常規查核，或作為實地視察前先收集資料和初步 評估的程序。選定為非實地監察對象的金錢服務經營者須到海關辦事處出席面談，並須在指定時 間內提供所需文件供海關審閱。這項以風險為本的監察措施有助加強合規制度的全面性，並令海 關的整體監管行動更富彈性。 制裁篩查和交易監察制度"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-198",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "25",
+    "locator_en": "5.4.26",
+    "locator_tc": "5.4.25",
+    "en": "The C&ED regularly conducts capacity building and outreach activities to strengthen the sector’s understanding of emerging trends and to address their shortcomings. From 2016 to 2021, a total of 25 seminars and 27 small group workshops were organised. Through these capacity building and outreach programmes, the MSO sector has improved its understanding of AML/CFT risks and obligations, particularly on PF/TF risks and TFS implementation, and has enhanced the quantity and quality of STRs. Besides, the C&ED established a closer cooperative relationship with the InvestHK to jointly organise the webinars for local and overseas-based MSOs. The C&ED also collaborates with the Hong Kong Money Service Operators Association to exchange views on industry best practices and disseminate the latest regulatory requirements to the sector.",
+    "tc": "海關一直定期推行能力提升和外展活動，以協助業界更認識新趨勢和改善現有不足 之處。在2016 至2021 年間，海關舉辦了25 場講座和27 次小組工作坊。透過這些能力提升和 外展活動，金錢服務業更深入認識打擊洗錢及恐怖分子資金籌集風險和責任(尤其是有關恐怖分 子資金籌集／大規模毀滅武器擴散資金籌集風險及實施針對性財政制裁方面)，可疑交易報告的 數量上升、質量也有改善。此外，海關與投資推廣署建立了更緊密的合作關係，一同為本地和海 外金錢服務經營者舉辦網絡研討會。海關還與香港金錢服務業協會合作，就業界的最佳作業方式 交換意見，並向業界講解最新的監管規定。"
+   },
+   {
+    "document": "25",
+    "locator_en": "5.4.26",
+    "locator_tc": "5.4.25",
+    "en": "The C&ED regularly conducts capacity building and outreach activities to strengthen the sector’s understanding of emerging trends and to address their shortcomings. From 2016 to 2021, a total of 25 seminars and 27 small group workshops were organised. Through these capacity building and outreach programmes, the MSO sector has improved its understanding of AML/CFT risks and obligations, particularly on PF/TF risks and TFS implementation, and has enhanced the quantity and quality of STRs. Besides, the C&ED established a closer cooperative relationship with the InvestHK to jointly organise the webinars for local and overseas-based MSOs. The C&ED also collaborates with the Hong Kong Money Service Operators Association to exchange views on industry best practices and disseminate the latest regulatory requirements to the sector.",
+    "tc": "海關一直定期推行能力提升和外展活動，以協助業界更認識新趨勢和改善現有不足 之處。在2016 至2021 年間，海關舉辦了25 場講座和27 次小組工作坊。透過這些能力提升和 外展活動，金錢服務業更深入認識打擊洗錢及恐怖分子資金籌集風險和責任(尤其是有關恐怖分 子資金籌集／大規模毀滅武器擴散資金籌集風險及實施針對性財政制裁方面)，可疑交易報告的 數量上升、質量也有改善。此外，海關與投資推廣署建立了更緊密的合作關係，一同為本地和海 外金錢服務經營者舉辦網絡研討會。海關還與香港金錢服務業協會合作，就業界的最佳作業方式 交換意見，並向業界講解最新的監管規定。"
+   },
+   {
+    "document": "25",
+    "locator_en": "5.4.26",
+    "locator_tc": "5.4.25",
+    "en": "The C&ED regularly conducts capacity building and outreach activities to strengthen the sector’s understanding of emerging trends and to address their shortcomings. From 2016 to 2021, a total of 25 seminars and 27 small group workshops were organised. Through these capacity building and outreach programmes, the MSO sector has improved its understanding of AML/CFT risks and obligations, particularly on PF/TF risks and TFS implementation, and has enhanced the quantity and quality of STRs. Besides, the C&ED established a closer cooperative relationship with the InvestHK to jointly organise the webinars for local and overseas-based MSOs. The C&ED also collaborates with the Hong Kong Money Service Operators Association to exchange views on industry best practices and disseminate the latest regulatory requirements to the sector.",
+    "tc": "海關一直定期推行能力提升和外展活動，以協助業界更認識新趨勢和改善現有不足 之處。在2016 至2021 年間，海關舉辦了25 場講座和27 次小組工作坊。透過這些能力提升和 外展活動，金錢服務業更深入認識打擊洗錢及恐怖分子資金籌集風險和責任(尤其是有關恐怖分 子資金籌集／大規模毀滅武器擴散資金籌集風險及實施針對性財政制裁方面)，可疑交易報告的 數量上升、質量也有改善。此外，海關與投資推廣署建立了更緊密的合作關係，一同為本地和海 外金錢服務經營者舉辦網絡研討會。海關還與香港金錢服務業協會合作，就業界的最佳作業方式 交換意見，並向業界講解最新的監管規定。"
+   },
+   {
+    "document": "25",
+    "locator_en": "5.4.26",
+    "locator_tc": "5.4.25",
+    "en": "The C&ED regularly conducts capacity building and outreach activities to strengthen the sector’s understanding of emerging trends and to address their shortcomings. From 2016 to 2021, a total of 25 seminars and 27 small group workshops were organised. Through these capacity building and outreach programmes, the MSO sector has improved its understanding of AML/CFT risks and obligations, particularly on PF/TF risks and TFS implementation, and has enhanced the quantity and quality of STRs. Besides, the C&ED established a closer cooperative relationship with the InvestHK to jointly organise the webinars for local and overseas-based MSOs. The C&ED also collaborates with the Hong Kong Money Service Operators Association to exchange views on industry best practices and disseminate the latest regulatory requirements to the sector.",
+    "tc": "海關一直定期推行能力提升和外展活動，以協助業界更認識新趨勢和改善現有不足 之處。在2016 至2021 年間，海關舉辦了25 場講座和27 次小組工作坊。透過這些能力提升和 外展活動，金錢服務業更深入認識打擊洗錢及恐怖分子資金籌集風險和責任(尤其是有關恐怖分 子資金籌集／大規模毀滅武器擴散資金籌集風險及實施針對性財政制裁方面)，可疑交易報告的 數量上升、質量也有改善。此外，海關與投資推廣署建立了更緊密的合作關係，一同為本地和海 外金錢服務經營者舉辦網絡研討會。海關還與香港金錢服務業協會合作，就業界的最佳作業方式 交換意見，並向業界講解最新的監管規定。"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-199",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "7.5",
+    "locator_tc": "7.5",
+    "en": "Once knowledge or suspicion has been formed, (a) an MSO should file an STR even where no transaction has been conducted by or through the MSO60; and 59 An MSO is required to report an STR where it suspects that a transaction is associated with proceeds of crime or terrorist property, together with any matter on which the knowledge or suspicion is based. Specifically, when an MSO holds information concerning both the originator and the recipient of funds, the MSO should take into account all of this information in determining whether an STR has to be filed. 60 The reporting obligations require a person to report suspicions of ML/TF, irrespective of the amount involved. The reporting obligations of section 25A(1) DTROP and OSCO, and section 12(1) UNATMO apply to “any property”. Property includes both movable and immovable property within the meaning of section 3 of the Interpretation and General Clauses Ordinance, Cap. 1, and as defined in section 3 of Cap. 1, “property” includes (a) money, goods, choses in action and land; and (b) obligations, easements and every description of estate, interest and profit, present or future, vested or contingent, arising out of or incident to property as defined in paragraph (a) of this definition”. These provisions establish a reporting obligation whenever a suspicion arises, without reference to 52 (b) the STR must be made as soon as reasonably practical after the suspicion was first identified. Tipping off s.25A(5), DTROP & OSCO, s.12(5), UNATMO",
+    "tc": "知悉或懷疑一旦確立： (a) 即使金錢服務經營者沒有進行交易，亦沒有交易透過金錢服務經營 者進行，也應該提交可疑交易報告60；及 (b) 經最初識辨有關懷疑後，必須在切實可行範圍內盡快提交可疑交易 報告。 通風報訊 《販毒（追 討得益）條 例》及《有 組織及嚴重 罪行條例》 第25A(5)條 及《聯合國 （反恐怖主 義措施）條 例》第12(5) 條"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.5",
+    "locator_tc": "7.5",
+    "en": "Once knowledge or suspicion has been formed, (a) an MSO should file an STR even where no transaction has been conducted by or through the MSO60; and 59 An MSO is required to report an STR where it suspects that a transaction is associated with proceeds of crime or terrorist property, together with any matter on which the knowledge or suspicion is based. Specifically, when an MSO holds information concerning both the originator and the recipient of funds, the MSO should take into account all of this information in determining whether an STR has to be filed. 60 The reporting obligations require a person to report suspicions of ML/TF, irrespective of the amount involved. The reporting obligations of section 25A(1) DTROP and OSCO, and section 12(1) UNATMO apply to “any property”. Property includes both movable and immovable property within the meaning of section 3 of the Interpretation and General Clauses Ordinance, Cap. 1, and as defined in section 3 of Cap. 1, “property” includes (a) money, goods, choses in action and land; and (b) obligations, easements and every description of estate, interest and profit, present or future, vested or contingent, arising out of or incident to property as defined in paragraph (a) of this definition”. These provisions establish a reporting obligation whenever a suspicion arises, without reference to 52 (b) the STR must be made as soon as reasonably practical after the suspicion was first identified. Tipping off s.25A(5), DTROP & OSCO, s.12(5), UNATMO",
+    "tc": "知悉或懷疑一旦確立： (a) 即使金錢服務經營者沒有進行交易，亦沒有交易透過金錢服務經營 者進行，也應該提交可疑交易報告60；及 (b) 經最初識辨有關懷疑後，必須在切實可行範圍內盡快提交可疑交易 報告。 通風報訊 《販毒（追 討得益）條 例》及《有 組織及嚴重 罪行條例》 第25A(5)條 及《聯合國 （反恐怖主 義措施）條 例》第12(5) 條"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.1",
+    "locator_tc": "7.1",
+    "en": "It is a statutory obligation under sections 25A(1) of the DTROP and the OSCO, as well as section 12(1) of the UNATMO, that where a person knows or suspects that any property: (a) in whole or in part directly or indirectly represents any person’s proceeds of, (b) was used in connection with, or (c) is intended to be used in connection with drug trafficking or an indictable offence; or that any property is terrorist property, the person shall as soon as it is reasonable for him to do so, file an STR with the JFIU. The STR should be made together with any matter on which the knowledge or suspicion is based. Under the DTROP, the OSCO and the UNATMO, failure to report knowledge or suspicion carries a maximum penalty of imprisonment for three months and a fine of $50,000. Knowledge vs. suspicion",
+    "tc": "根據《販毒（追討得益）條例》及《有組織及嚴重罪行條例》第25A(1) 條及《聯合國（反恐怖主義措施）條例》第12(1)條的法定責任，凡任何 人知道或懷疑任何財產是(a)全部或部分、直接或間接代表任何人的販毒 或從可公訴罪行的得益；(b)曾在與販毒或從可公訴罪行有關的情況下使 用；或(c)擬在與販毒或從可公訴罪行有關的情況下使用，或是恐怖分子 財產，該人須在合理範圍內盡快向財富情報組提交可疑交易報告。該項 知悉或懷疑所根據的任何事宜應連同可疑交易報告一併提交。根據《販 毒（追討得益）條例》、《有組織及嚴重罪行條例》及《聯合國（反恐 怖主義措施）條例》，任何人如沒有就所知悉或懷疑事項作出報告，最 高可被判監禁3個月及罰款50,000元。 知悉與懷疑的比較"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.19",
+    "locator_tc": "7.19",
+    "en": "If after completing the review of the internal report, an MLRO decides that there are grounds for knowledge or suspicion, he should disclose the information to the JFIU as soon as it is reasonable to do so after his evaluation is complete together with the information on which that knowledge or suspicion is based. Dependent on when knowledge or suspicion arises, an STR may be made either before a suspicious transaction or activity occurs (whether the intended transaction ultimately takes place or not), or after a transaction or activity has been completed. 64 For details, please see JFIU’s website (www.jfiu.gov.hk). 57 In the case of an MSO that controls both the ordering and the beneficiary sides of a wire transfer, the MSO should also file an STR in any jurisdiction affected by the suspicious wire transfer, and make relevant transaction information available to the Financial Intelligence Unit.",
+    "tc": "完成覆核內部報告後，洗錢報告主任若判定有知悉或懷疑的理由，則應 於評估完成後，在合理範圍內盡快將有關資料連同有關該項知悉或懷疑 所根據的任何事宜的資料向財富情報組披露。視乎何時得悉或出現可疑 情況，金錢服務經營者可在可疑交易或活動發生前提交可疑交易報告（而 不論該擬作交易最終有否成事），或如某項交易或活動僅在事後才看似 可疑，則可在該交易或活動完成後始作披露。 64 有關詳情，請瀏覽財富情報組網站（www.jfiu.gov.hk）。 65 如金錢服務經營者控制電傳轉帳的匯款方和收款方，便應在受可疑電傳 轉帳影響的司法管轄區提交可疑交易報告，並向財富情報組提供相關交 易資料。"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-200",
+  "verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "7.13",
+    "locator_tc": "7.13",
+    "en": "While an MSO may wish to set up internal systems that allow staff to consult with supervisors or managers before sending a report to the MLRO, under no circumstances should reports raised by staff be filtered out by supervisors or managers who have no responsibility for the money laundering reporting/compliance function. The legal obligation is to report as soon as it is reasonable to do so, so reporting lines should be as short as possible with the minimum number of people between the staff with the suspicion and the MLRO. This ensures speed, confidentiality and accessibility to the MLRO. s.25A(4), DTROP & OSCO, s.12(4), UNATMO",
+    "tc": "即使金錢服務經營者可能有意建立內部制度，讓職員向洗錢報告主任發送 報告前先諮詢其主管或經理的意見，但在任何情況下，非負責洗錢報告╱ 合規職能的主管或經理均不得過濾職員所提交的報告。金錢服務經營者的 法律責任是在合理範圍內盡快作出報告，故報告流程應盡可能縮短，令發 現可疑交易的職員與洗錢報告主任之間涉及的人數越少越好，從而確保報 告能迅速、保密及無障礙地送交洗錢報告主任。 《販毒（追 討得益）條 例》及《有組 織及嚴重罪"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.12",
+    "locator_tc": "7.12",
+    "en": "An MSO should establish and maintain clear policies and procedures to ensure that: (a) all staff are made aware of the identity of the MLRO and of the procedures to follow when making an internal report; and (b) all internal reports must reach the MLRO without undue delay. 56",
+    "tc": "金錢服務經營者應設立及維持清晰的政策和程序以確保： (a) 全體職員均知悉洗錢報告主任的身分及作出內部報告時應依循的程 序；及 (b) 所有內部報告必須送達洗錢報告主任，不得出現無故延誤。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.14",
+    "locator_tc": "7.14",
+    "en": "Once a staff of an MSO has reported suspicion to the MLRO in accordance with the policies and procedures established by the MSO for the making of such reports, the statutory obligation of the staff has been fully satisfied.",
+    "tc": "在作出該等報告方面，金錢服務經營者的職員若已根據金錢服務經營者訂 立的政策和程序向洗錢報告主任報告所懷疑事項，該職員已完全履行了有 關法定規定。 64 行條例》第 25A(4) 條及 《聯合國 （反恐怖主 義措施）條 例》第12(4) 條"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.15",
+    "locator_tc": "7.15",
+    "en": "The internal report should include sufficient details of the customer concerned and the information giving rise to the suspicion.",
+    "tc": "內部報告應包括有關客戶的充分詳情，以及導致產生懷疑的全部資料。"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-201",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "7.17",
+    "locator_tc": "7.17",
+    "en": "When evaluating an internal report, the MLRO must take reasonable steps to consider all relevant information, including CDD and ongoing monitoring information available within or to the MSO concerning the entities to which the report relates. This may include: (a) making a review of other transaction patterns and volumes through connected accounts, preferably adopting a relationship-based approach rather than on a transaction-by-transaction basis; (b) making reference to any previous patterns of instructions, the length of the business relationship, and CDD and ongoing monitoring information and documentation; and (c) appropriate questioning of the customer per the systematic approach to identifying suspicious transactions recommended by the JFIU64.",
+    "tc": "當評估某項內部報告時，洗錢報告主任必須採取合理步驟以考慮所有相 關資料，包括金錢服務經營者內部使用或提供予金錢服務經營者的有關 報告所牽涉實體的盡職審查及持續監察資料。這可包括： (a) 覆核透過有關連戶口進行之其他交易模式及交易量，採用的方法應盡 可能以關係為本，並非以個別交易為本； (b) 參考任何先前的客戶指示模式、業務關係年期及盡職審查及持續監察 資料和文件；及 (c) 按照財富情報組推薦的有系統方法來適當地查問客戶64，藉以識別可 疑交易。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.17",
+    "locator_tc": "7.17",
+    "en": "When evaluating an internal report, the MLRO must take reasonable steps to consider all relevant information, including CDD and ongoing monitoring information available within or to the MSO concerning the entities to which the report relates. This may include: (a) making a review of other transaction patterns and volumes through connected accounts, preferably adopting a relationship-based approach rather than on a transaction-by-transaction basis; (b) making reference to any previous patterns of instructions, the length of the business relationship, and CDD and ongoing monitoring information and documentation; and (c) appropriate questioning of the customer per the systematic approach to identifying suspicious transactions recommended by the JFIU64.",
+    "tc": "當評估某項內部報告時，洗錢報告主任必須採取合理步驟以考慮所有相 關資料，包括金錢服務經營者內部使用或提供予金錢服務經營者的有關 報告所牽涉實體的盡職審查及持續監察資料。這可包括： (a) 覆核透過有關連戶口進行之其他交易模式及交易量，採用的方法應盡 可能以關係為本，並非以個別交易為本； (b) 參考任何先前的客戶指示模式、業務關係年期及盡職審查及持續監察 資料和文件；及 (c) 按照財富情報組推薦的有系統方法來適當地查問客戶64，藉以識別可 疑交易。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.18",
+    "locator_tc": "7.18",
+    "en": "The need to search for information concerning connected accounts or relationships should strike an appropriate balance between the statutory requirement to make a timely STR to the JFIU and any delays that might arise in searching for more relevant information concerning connected accounts or relationships. The review process should be documented, together with any conclusions drawn. Reporting to the JFIU",
+    "tc": "即使需要搜尋關連戶口或關係的資料，但亦應在及時向財富情報組提交 可疑交易報告的法定規定，以及因須搜尋更多關連戶口或關係的相關資 料而引致延誤之間取得適當平衡。有關覆核過程，連同所得出的結論均應 記錄在案。 向財富情報組報告"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.18",
+    "locator_tc": "7.18",
+    "en": "The need to search for information concerning connected accounts or relationships should strike an appropriate balance between the statutory requirement to make a timely STR to the JFIU and any delays that might arise in searching for more relevant information concerning connected accounts or relationships. The review process should be documented, together with any conclusions drawn. Reporting to the JFIU",
+    "tc": "即使需要搜尋關連戶口或關係的資料，但亦應在及時向財富情報組提交 可疑交易報告的法定規定，以及因須搜尋更多關連戶口或關係的相關資 料而引致延誤之間取得適當平衡。有關覆核過程，連同所得出的結論均應 記錄在案。 向財富情報組報告"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-202",
+  "verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "7.20",
+    "locator_tc": "7.20",
+    "en": "Providing an MLRO acts in good faith in deciding not to file an STR with the JFIU, it is unlikely that there will be any criminal liability for failing to report if the MLRO concludes that there is no suspicion after taking into account all available information. It is however vital for the MLRO to keep proper records of the deliberations and actions taken to demonstrate he has acted in reasonable manner.",
+    "tc": "假使洗錢報告主任真誠地作出不向財富情報組提交可疑交易報告的決 定，而洗錢報告主任是在考慮過所有可獲取的資料後作出沒有可疑情況 的結論，則不大可能會因沒有報告而負上刑事法律責任。但是，最重要的 是洗錢報告主任必須將他們的慎重考慮和採取的行動妥為備存紀錄，證 明他們是以合理的方式行事。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.20",
+    "locator_tc": "7.20",
+    "en": "Providing an MLRO acts in good faith in deciding not to file an STR with the JFIU, it is unlikely that there will be any criminal liability for failing to report if the MLRO concludes that there is no suspicion after taking into account all available information. It is however vital for the MLRO to keep proper records of the deliberations and actions taken to demonstrate he has acted in reasonable manner.",
+    "tc": "假使洗錢報告主任真誠地作出不向財富情報組提交可疑交易報告的決 定，而洗錢報告主任是在考慮過所有可獲取的資料後作出沒有可疑情況 的結論，則不大可能會因沒有報告而負上刑事法律責任。但是，最重要的 是洗錢報告主任必須將他們的慎重考慮和採取的行動妥為備存紀錄，證 明他們是以合理的方式行事。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.29",
+    "locator_tc": "7.29",
+    "en": "An MSO must establish and maintain a record of all ML/TF reports made to the MLRO. The record should include details of the date the report was made, the staff members subsequently handling the report, the results of the assessment, whether the internal report resulted in an STR to the JFIU, and information to allow the papers relevant to the report to be located.",
+    "tc": "金錢服務經營者必須建立及保存向洗錢報告主任作出的所有洗錢／恐 怖分子資金籌集報告的完整紀錄。該紀錄應收錄作出報告日期、其後處 理報告的人員、評估結果、內部報告有否導致須向財富情報組提交可疑 交易報告，以及報告的相關文件存放何處等詳情。 67"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.29",
+    "locator_tc": "7.29",
+    "en": "An MSO must establish and maintain a record of all ML/TF reports made to the MLRO. The record should include details of the date the report was made, the staff members subsequently handling the report, the results of the assessment, whether the internal report resulted in an STR to the JFIU, and information to allow the papers relevant to the report to be located.",
+    "tc": "金錢服務經營者必須建立及保存向洗錢報告主任作出的所有洗錢／恐 怖分子資金籌集報告的完整紀錄。該紀錄應收錄作出報告日期、其後處 理報告的人員、評估結果、內部報告有否導致須向財富情報組提交可疑 交易報告，以及報告的相關文件存放何處等詳情。 67"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-203",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "7.21",
+    "locator_tc": "7.21",
+    "en": "In the event that an urgent reporting is required (e.g. where a customer has instructed the MSO to move funds or other property, close the account, make cash available for collection, or carry out significant changes to the business relationship etc.), particularly when the account is part of an ongoing investigation by law enforcement agency, an MSO should indicate this in the STR. Where exceptional circumstances exist in relation to an urgent reporting, an initial notification by telephone to the JFIU should be considered.",
+    "tc": "如出現須作出緊急報告的情況（例如客戶已指示金錢服務經營者移動資 金或其他財產、結束戶口、安排現金備取或對業務關係作出重大變動等）， 特別是當有關戶口是執法機構正在進行調查的一部分，則金錢服務經營 者應在可疑交易報告中述明。如情況特殊而須作出緊急報告，應考慮初步 以電話通知財富情報組。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.21",
+    "locator_tc": "7.21",
+    "en": "In the event that an urgent reporting is required (e.g. where a customer has instructed the MSO to move funds or other property, close the account, make cash available for collection, or carry out significant changes to the business relationship etc.), particularly when the account is part of an ongoing investigation by law enforcement agency, an MSO should indicate this in the STR. Where exceptional circumstances exist in relation to an urgent reporting, an initial notification by telephone to the JFIU should be considered.",
+    "tc": "如出現須作出緊急報告的情況（例如客戶已指示金錢服務經營者移動資 金或其他財產、結束戶口、安排現金備取或對業務關係作出重大變動等）， 特別是當有關戶口是執法機構正在進行調查的一部分，則金錢服務經營 者應在可疑交易報告中述明。如情況特殊而須作出緊急報告，應考慮初步 以電話通知財富情報組。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.22",
+    "locator_tc": "7.22",
+    "en": "An MSO is recommended to indicate any intention to terminate a business relationship in its initial STR to the JFIU.",
+    "tc": "建議金錢服務經營者在初次向財富情報組提交可疑交易報告之時，即表 明任何終止業務關係的意向。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.23",
+    "locator_tc": "7.23",
+    "en": "An MSO should ensure STRs filed to the JFIU are of high quality taking into account feedback and guidance provided by the JFIU in its quarterly report65and the CCE from time to time. Post STR reporting s.25A(2)(a), DTROP & OSCO, s.12(2B)(a), UNATMO",
+    "tc": "金錢服務經營者應留意由財富情報組在季度報告65及關長不時提供的反 饋意見及導引，以確保向財富情報組提交的可疑交易報告屬高水平。 提交可疑交易報告後續事宜 《販毒（追 討得益）條 例》及《有 組織及嚴重 罪行條例》 第25A(2)(a) 條、《聯合 國（反恐怖 主義措施） 條例》第"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-204",
+  "verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "7.25",
+    "locator_tc": "7.25",
+    "en": "Filing an STR to the JFIU provides an MSO with a statutory defence to the offence of ML/TF in respect of the acts disclosed in the report, provided: (a) the report is made before the MSO undertakes the disclosed acts and the acts (transaction(s)) are undertaken with the consent of the JFIU; or (b) the report is made after the MSO has performed the disclosed acts (transaction(s)) and the report is made on the MSO’s own initiative and as soon as it is reasonable for the MSO to do so. 65 The purpose of the quarterly report, which is relevant to all financial sectors, is to raise AML/CFT awareness. It consists of two parts, (i) analysis of STRs and (ii) matters of interest and feedback. The report is available at a secure area of the JFIU’s website at www.jfiu.gov.hk. MSOs can apply for a login name and password by completing the registration form available on the JFIU’s website or by contacting the JFIU directly. 58",
+    "tc": "向財富情報組提交可疑交易報告，可就報告中所披露的洗錢／恐怖分子 資金籌集罪行的作為，為金錢服務經營者提供法定免責辯護，只要： (a) 該報告是在金錢服務經營者作出所披露作為之前作出，而該作為（交 易）是得到財富情報組的同意的；或 (b) 該報告是在金錢服務經營者作出所披露作為（交易）之後，由金錢 服務經營者主動及在合理範圍內盡快作出的。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.26",
+    "locator_tc": "7.26",
+    "en": "However, the statutory defence stated in paragraph [7.25] does not absolve an MSO from the legal, reputational or regulatory risks associated with the account’s continued operation. An MSO should also be aware that a “consent” response from the JFIU to a pre-transaction report should not be construed as a “clean bill of health” for the continued operation of the account or an indication that the account does not pose a risk to the MSO.",
+    "tc": "不過，第[7.25]段所述的法定免責辯護不會免除金錢服務經營者因該帳 戶的持續運作而涉及的法律、聲譽或監管風險。金錢服務經營者亦應留 意，財富情報組就交易前的報告作出「同意」的回應，不應被解釋為該 戶口持續運作的「健康證明」或顯示該帳戶不會令金錢服務經營者涉及 風險。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.26",
+    "locator_tc": "7.26",
+    "en": "However, the statutory defence stated in paragraph [7.25] does not absolve an MSO from the legal, reputational or regulatory risks associated with the account’s continued operation. An MSO should also be aware that a “consent” response from the JFIU to a pre-transaction report should not be construed as a “clean bill of health” for the continued operation of the account or an indication that the account does not pose a risk to the MSO.",
+    "tc": "不過，第[7.25]段所述的法定免責辯護不會免除金錢服務經營者因該帳 戶的持續運作而涉及的法律、聲譽或監管風險。金錢服務經營者亦應留 意，財富情報組就交易前的報告作出「同意」的回應，不應被解釋為該 戶口持續運作的「健康證明」或顯示該帳戶不會令金錢服務經營者涉及 風險。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.24",
+    "locator_tc": "7.24",
+    "en": "The JFIU will acknowledge receipt of an STR made by an MSO under section 25A of both the DTROP and the OSCO, and section 12 of the UNATMO. If there is no need for imminent action, e.g. the issue of a restraint order on an account, consent will usually be given for the MSO to operate the account under the provisions of section 25A(2)(a) of both the DTROP and the OSCO, and section 12(2B)(a) of the UNATMO. Otherwise, the MSO should take appropriate action and seek legal advice where necessary. s.25A(2), DTROP & OSCO, s.12(2), UNATMO",
+    "tc": "財富情報組會確認收到金錢服務經營者根據《販毒（追討得益）條例》 及《有組織及嚴重罪行條例》第25A條，以及《聯合國（反恐怖主義措 施）條例》第12條提交的可疑交易報告。如無需立即採取行動，例如就 有關帳戶發出限制令，財富情報組一般會「同意」有關金錢服務經營者 根據《販毒（追討得益）條例》及《有組織及嚴重罪行條例》第25A(2)(a) 條，以及《聯合國（反恐怖主義措施）條例》第12(2B)(a)條運作該戶口， 否則金錢服務經營者便應採取適當行動，並按需要徵詢法律意見。 65 季度報告與金融業各界有關，旨在提高打擊洗錢／恐怖分子資金籌集的意識，季度報告分 為兩個部分：(i)可疑交易報告的分析；及(ii)注意事項及反饋意見。季度報告可於財富情報 組網站的限制區查閱，網址為：www.jfiu.gov.hk。金錢服務經營者如要申請登入帳戶及密 碼，可填妥於財富情報組網站的登記表格或直接聯絡財富情報組。 66 12(2B)(a)條 《販毒（追 討得益）條 例》及《有 組織及嚴重 罪行條例》 第25A(2)條 及《聯合國 （反恐怖主 義措施）條 例》第12(2) 條"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-205",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "7.25",
+    "locator_tc": "7.25",
+    "en": "Filing an STR to the JFIU provides an MSO with a statutory defence to the offence of ML/TF in respect of the acts disclosed in the report, provided: (a) the report is made before the MSO undertakes the disclosed acts and the acts (transaction(s)) are undertaken with the consent of the JFIU; or (b) the report is made after the MSO has performed the disclosed acts (transaction(s)) and the report is made on the MSO’s own initiative and as soon as it is reasonable for the MSO to do so. 65 The purpose of the quarterly report, which is relevant to all financial sectors, is to raise AML/CFT awareness. It consists of two parts, (i) analysis of STRs and (ii) matters of interest and feedback. The report is available at a secure area of the JFIU’s website at www.jfiu.gov.hk. MSOs can apply for a login name and password by completing the registration form available on the JFIU’s website or by contacting the JFIU directly. 58",
+    "tc": "向財富情報組提交可疑交易報告，可就報告中所披露的洗錢／恐怖分子 資金籌集罪行的作為，為金錢服務經營者提供法定免責辯護，只要： (a) 該報告是在金錢服務經營者作出所披露作為之前作出，而該作為（交 易）是得到財富情報組的同意的；或 (b) 該報告是在金錢服務經營者作出所披露作為（交易）之後，由金錢 服務經營者主動及在合理範圍內盡快作出的。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.27",
+    "locator_tc": "7.27",
+    "en": "An MSO should conduct an appropriate review of a business relationship upon the filing of an STR to the JFIU, irrespective of any subsequent feedback provided by the JFIU, and apply appropriate risk mitigating measures. Filing a report with the JFIU and continuing to operate the relationship without any further consideration of the risks and the imposition of appropriate controls to mitigate the risks identified is not acceptable. If necessary, the issue should be escalated to the MSO’s senior management to determine how to handle the relationship concerned to mitigate any potential legal or reputational risks posed by the relationship in line with the MSO’s business objectives, and its capacity to mitigate the risks identified.",
+    "tc": "向財富情報組提交可疑交易報告後，不論財富情報組其後有否給予任何 反饋意見，金錢服務經營者均應立即對業務關係進行適當覆核，並執行 適當的減低風險措施。向財富情報組提交報告後繼續運作該業務關係， 而不再進一步考慮有關風險及施加適當的管控措施以減低所識辨的風 險，是不可接受的做法。如有需要，有關問題應上報至金錢服務經營者 的高級管理層，並配合金錢服務經營者的業務目標及減低所發現風險的 能力，以斷定如何處理該段關係，從而減低該段關係所帶來的任何潛在 的法律或聲譽風險。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.27",
+    "locator_tc": "7.27",
+    "en": "An MSO should conduct an appropriate review of a business relationship upon the filing of an STR to the JFIU, irrespective of any subsequent feedback provided by the JFIU, and apply appropriate risk mitigating measures. Filing a report with the JFIU and continuing to operate the relationship without any further consideration of the risks and the imposition of appropriate controls to mitigate the risks identified is not acceptable. If necessary, the issue should be escalated to the MSO’s senior management to determine how to handle the relationship concerned to mitigate any potential legal or reputational risks posed by the relationship in line with the MSO’s business objectives, and its capacity to mitigate the risks identified.",
+    "tc": "向財富情報組提交可疑交易報告後，不論財富情報組其後有否給予任何 反饋意見，金錢服務經營者均應立即對業務關係進行適當覆核，並執行 適當的減低風險措施。向財富情報組提交報告後繼續運作該業務關係， 而不再進一步考慮有關風險及施加適當的管控措施以減低所識辨的風 險，是不可接受的做法。如有需要，有關問題應上報至金錢服務經營者 的高級管理層，並配合金錢服務經營者的業務目標及減低所發現風險的 能力，以斷定如何處理該段關係，從而減低該段關係所帶來的任何潛在 的法律或聲譽風險。"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.27",
+    "locator_tc": "7.27",
+    "en": "An MSO should conduct an appropriate review of a business relationship upon the filing of an STR to the JFIU, irrespective of any subsequent feedback provided by the JFIU, and apply appropriate risk mitigating measures. Filing a report with the JFIU and continuing to operate the relationship without any further consideration of the risks and the imposition of appropriate controls to mitigate the risks identified is not acceptable. If necessary, the issue should be escalated to the MSO’s senior management to determine how to handle the relationship concerned to mitigate any potential legal or reputational risks posed by the relationship in line with the MSO’s business objectives, and its capacity to mitigate the risks identified.",
+    "tc": "向財富情報組提交可疑交易報告後，不論財富情報組其後有否給予任何 反饋意見，金錢服務經營者均應立即對業務關係進行適當覆核，並執行 適當的減低風險措施。向財富情報組提交報告後繼續運作該業務關係， 而不再進一步考慮有關風險及施加適當的管控措施以減低所識辨的風 險，是不可接受的做法。如有需要，有關問題應上報至金錢服務經營者 的高級管理層，並配合金錢服務經營者的業務目標及減低所發現風險的 能力，以斷定如何處理該段關係，從而減低該段關係所帶來的任何潛在 的法律或聲譽風險。"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-206",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "7.28",
+    "locator_tc": "7.28",
+    "en": "An MSO should be aware that the reporting of a suspicion in respect of a transaction or event does not remove the need to report further suspicious transactions or events in respect of the same customer. Further suspicious transactions or events, whether of the same nature or different to the previous suspicion, must continue to be reported to the MLRO who should make further reports to the JFIU if appropriate. Record keeping",
+    "tc": "金錢服務經營者應留意，就某交易或事件的可疑情況作出報告，並不代 表再無需要就同一客戶的更多可疑交易或事件作出報告。更多可疑交易 或事件，不論是否屬同一性質或有別於先前的可疑情況，均必須繼續向 洗錢報告主任報告，如恰當，他將向財富情報組作進一步報告。 備存紀錄"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.28",
+    "locator_tc": "7.28",
+    "en": "An MSO should be aware that the reporting of a suspicion in respect of a transaction or event does not remove the need to report further suspicious transactions or events in respect of the same customer. Further suspicious transactions or events, whether of the same nature or different to the previous suspicion, must continue to be reported to the MLRO who should make further reports to the JFIU if appropriate. Record keeping",
+    "tc": "金錢服務經營者應留意，就某交易或事件的可疑情況作出報告，並不代 表再無需要就同一客戶的更多可疑交易或事件作出報告。更多可疑交易 或事件，不論是否屬同一性質或有別於先前的可疑情況，均必須繼續向 洗錢報告主任報告，如恰當，他將向財富情報組作進一步報告。 備存紀錄"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.13",
+    "locator_tc": "7.13",
+    "en": "While an MSO may wish to set up internal systems that allow staff to consult with supervisors or managers before sending a report to the MLRO, under no circumstances should reports raised by staff be filtered out by supervisors or managers who have no responsibility for the money laundering reporting/compliance function. The legal obligation is to report as soon as it is reasonable to do so, so reporting lines should be as short as possible with the minimum number of people between the staff with the suspicion and the MLRO. This ensures speed, confidentiality and accessibility to the MLRO. s.25A(4), DTROP & OSCO, s.12(4), UNATMO",
+    "tc": "即使金錢服務經營者可能有意建立內部制度，讓職員向洗錢報告主任發送 報告前先諮詢其主管或經理的意見，但在任何情況下，非負責洗錢報告╱ 合規職能的主管或經理均不得過濾職員所提交的報告。金錢服務經營者的 法律責任是在合理範圍內盡快作出報告，故報告流程應盡可能縮短，令發 現可疑交易的職員與洗錢報告主任之間涉及的人數越少越好，從而確保報 告能迅速、保密及無障礙地送交洗錢報告主任。 《販毒（追 討得益）條 例》及《有組 織及嚴重罪"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.16",
+    "locator_tc": "7.16",
+    "en": "The MLRO should acknowledge receipt of an internal report and provide a reminder of the obligation regarding tipping off to the reporting staff upon internal reporting.",
+    "tc": "洗錢報告主任必須確認收到內部報告，並提醒報告的職員於內部報告後 在責任上不可作出通風報訊的事宜。"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-207",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "7.30",
+    "locator_tc": "7.30",
+    "en": "An MSO must establish and maintain a record of all STRs made to the JFIU. The record should include details of the date of the STR, the person who made the STR, and information to allow the papers relevant to the STR to be located. This register may be combined with the register of internal reports, if considered appropriate. Execution of court documents by law enforcement agencies and requests for crime-related intelligence",
+    "tc": "金錢服務經營者必須建立及保存向財富情報組提交的所有可疑交易報 告的紀錄。該紀錄應收錄提交可疑交易報告日期、提交可疑交易報告的 人，以及可疑交易報告的相關文件存放何處等詳情。如果認為恰當，這 紀錄冊可與內部報告紀錄冊合併處理。 執行執法機構的法庭文件及與罪行相關的情報要求"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.30",
+    "locator_tc": "7.30",
+    "en": "An MSO must establish and maintain a record of all STRs made to the JFIU. The record should include details of the date of the STR, the person who made the STR, and information to allow the papers relevant to the STR to be located. This register may be combined with the register of internal reports, if considered appropriate. Execution of court documents by law enforcement agencies and requests for crime-related intelligence",
+    "tc": "金錢服務經營者必須建立及保存向財富情報組提交的所有可疑交易報 告的紀錄。該紀錄應收錄提交可疑交易報告日期、提交可疑交易報告的 人，以及可疑交易報告的相關文件存放何處等詳情。如果認為恰當，這 紀錄冊可與內部報告紀錄冊合併處理。 執行執法機構的法庭文件及與罪行相關的情報要求"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.29",
+    "locator_tc": "7.29",
+    "en": "An MSO must establish and maintain a record of all ML/TF reports made to the MLRO. The record should include details of the date the report was made, the staff members subsequently handling the report, the results of the assessment, whether the internal report resulted in an STR to the JFIU, and information to allow the papers relevant to the report to be located.",
+    "tc": "金錢服務經營者必須建立及保存向洗錢報告主任作出的所有洗錢／恐 怖分子資金籌集報告的完整紀錄。該紀錄應收錄作出報告日期、其後處 理報告的人員、評估結果、內部報告有否導致須向財富情報組提交可疑 交易報告，以及報告的相關文件存放何處等詳情。 67"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.29",
+    "locator_tc": "7.29",
+    "en": "An MSO must establish and maintain a record of all ML/TF reports made to the MLRO. The record should include details of the date the report was made, the staff members subsequently handling the report, the results of the assessment, whether the internal report resulted in an STR to the JFIU, and information to allow the papers relevant to the report to be located.",
+    "tc": "金錢服務經營者必須建立及保存向洗錢報告主任作出的所有洗錢／恐 怖分子資金籌集報告的完整紀錄。該紀錄應收錄作出報告日期、其後處 理報告的人員、評估結果、內部報告有否導致須向財富情報組提交可疑 交易報告，以及報告的相關文件存放何處等詳情。 67"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-208",
+  "verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "7.32",
+    "locator_tc": "7.32",
+    "en": "An MSO must respond to any search warrant and production order within the required time limit by providing all the information or material that fall within the scope of the court document. Where an MSO encounters difficulty in complying with the timeframes stipulated, the MSO should at the earliest opportunity contact the officer-in-charge of the investigation for further guidance. 59 s.10 & 11, DTROP, s.15 & 16, OSCO, s.6, UNATMO",
+    "tc": "金錢服務經營者須確保在規定期限內就任何搜查令及提交令作出回應， 做法是提供一切屬該等法庭文件範圍內的資料或材料。金錢服務經營者 在遵守規定時限方面如遇到困難，金錢服務經營者應第一時間聯絡調查 的主管人員，尋求進一步導引。 《販毒（追 討得益）條 例》第10及 11條、《有 組織及嚴重 罪行條例》 第15及16 條、《聯合 國（反恐怖 主義措施） 條例》第6 條"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.32",
+    "locator_tc": "7.32",
+    "en": "An MSO must respond to any search warrant and production order within the required time limit by providing all the information or material that fall within the scope of the court document. Where an MSO encounters difficulty in complying with the timeframes stipulated, the MSO should at the earliest opportunity contact the officer-in-charge of the investigation for further guidance. 59 s.10 & 11, DTROP, s.15 & 16, OSCO, s.6, UNATMO",
+    "tc": "金錢服務經營者須確保在規定期限內就任何搜查令及提交令作出回應， 做法是提供一切屬該等法庭文件範圍內的資料或材料。金錢服務經營者 在遵守規定時限方面如遇到困難，金錢服務經營者應第一時間聯絡調查 的主管人員，尋求進一步導引。 《販毒（追 討得益）條 例》第10及 11條、《有 組織及嚴重 罪行條例》 第15及16 條、《聯合 國（反恐怖 主義措施） 條例》第6 條"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.35",
+    "locator_tc": "7.35",
+    "en": "When an MSO is served with a court document (e.g. search warrant or production order) or crime-related intelligence requests from a law enforcement agency (e.g. notification letter) in relation to a particular customer or business relationship, the MSO should timely assess the risks involved and the need to conduct an appropriate review on the customer or the business relationship to determine whether there is any suspicion and should also be aware that the customer to whom the court document relates can be a victim of crime. 60 Chapter 8 – RECORD-KEEPING General",
+    "tc": "如金錢服務經營者接獲執法機構就特定客戶或業務關係送達的法庭文 件（例如搜查令或提交令）或與罪行相關的情報要求（例如通知書）， 金錢服務經營者便應適時評估所涉風險，並應評估是否需要對該客戶或 業務關係進行適當覆核，以斷定是否有可懷疑之處，並應留意法庭文件 所涉的客戶，或是罪案的受害人。 69 第8章 — 備存紀錄 一般條文"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.35",
+    "locator_tc": "7.35",
+    "en": "When an MSO is served with a court document (e.g. search warrant or production order) or crime-related intelligence requests from a law enforcement agency (e.g. notification letter) in relation to a particular customer or business relationship, the MSO should timely assess the risks involved and the need to conduct an appropriate review on the customer or the business relationship to determine whether there is any suspicion and should also be aware that the customer to whom the court document relates can be a victim of crime. 60 Chapter 8 – RECORD-KEEPING General",
+    "tc": "如金錢服務經營者接獲執法機構就特定客戶或業務關係送達的法庭文 件（例如搜查令或提交令）或與罪行相關的情報要求（例如通知書）， 金錢服務經營者便應適時評估所涉風險，並應評估是否需要對該客戶或 業務關係進行適當覆核，以斷定是否有可懷疑之處，並應留意法庭文件 所涉的客戶，或是罪案的受害人。 69 第8章 — 備存紀錄 一般條文"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-209",
+  "verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "7.33",
+    "locator_tc": "7.33",
+    "en": "During a law-enforcement investigation, an MSO may be served with a restraint order, which prohibits the dealing with particular funds or property pending the outcome of an investigation. The MSO must ensure that it is able to withhold the relevant property that is the subject of the order. It should be noted that the restraint order may not apply to all funds or property involved within a particular business relationship and the MSO should consider what, if any, funds or property may be utilised subject to the law of Hong Kong. s.3, DTROP, s.8, OSCO, s.13, UNATMO",
+    "tc": "在執法調查期間，金錢服務經營者可能會收到限制令，禁止在調查結果 出來之前處理某些資金或財產。金錢服務經營者必須確保它能夠扣留該 限制令涉及的相關財產。應注意該限制令不一定適用於某業務關係中涉 及的全部資金或財產，而金錢服務經營者應考慮根據香港法例，可動用 哪些資金或財產（如有）。 《販毒（追 討得益）條 例》第3 條、《有組 織及嚴重罪 行條例》第 8條、《聯 合國（反恐"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.33",
+    "locator_tc": "7.33",
+    "en": "During a law-enforcement investigation, an MSO may be served with a restraint order, which prohibits the dealing with particular funds or property pending the outcome of an investigation. The MSO must ensure that it is able to withhold the relevant property that is the subject of the order. It should be noted that the restraint order may not apply to all funds or property involved within a particular business relationship and the MSO should consider what, if any, funds or property may be utilised subject to the law of Hong Kong. s.3, DTROP, s.8, OSCO, s.13, UNATMO",
+    "tc": "在執法調查期間，金錢服務經營者可能會收到限制令，禁止在調查結果 出來之前處理某些資金或財產。金錢服務經營者必須確保它能夠扣留該 限制令涉及的相關財產。應注意該限制令不一定適用於某業務關係中涉 及的全部資金或財產，而金錢服務經營者應考慮根據香港法例，可動用 哪些資金或財產（如有）。 《販毒（追 討得益）條 例》第3 條、《有組 織及嚴重罪 行條例》第 8條、《聯 合國（反恐"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.34",
+    "locator_tc": "7.34",
+    "en": "Upon the conviction of a defendant, a court may order the confiscation of his criminal proceeds and an MSO may be served with a confiscation order in the event that it holds funds or other property belonging to that defendant that are deemed by the court to represent his benefit from the crime. A court may also order the forfeiture of property where it is satisfied that the property is terrorist property.",
+    "tc": "被告一經定罪，法院可下令沒收其犯罪所得，而金錢服務經營者如持有 屬於該被告的資金或其他財產（法院認為代表其犯罪得益），則可能會 收到沒收令。如法院信納某些財產屬恐怖分子財產，亦可下令充公有關 財產。 68 怖主義措 施）條例》 第13條"
+   },
+   {
+    "document": "03",
+    "locator_en": "7.33",
+    "locator_tc": "7.33",
+    "en": "During a law-enforcement investigation, an MSO may be served with a restraint order, which prohibits the dealing with particular funds or property pending the outcome of an investigation. The MSO must ensure that it is able to withhold the relevant property that is the subject of the order. It should be noted that the restraint order may not apply to all funds or property involved within a particular business relationship and the MSO should consider what, if any, funds or property may be utilised subject to the law of Hong Kong. s.3, DTROP, s.8, OSCO, s.13, UNATMO",
+    "tc": "在執法調查期間，金錢服務經營者可能會收到限制令，禁止在調查結果 出來之前處理某些資金或財產。金錢服務經營者必須確保它能夠扣留該 限制令涉及的相關財產。應注意該限制令不一定適用於某業務關係中涉 及的全部資金或財產，而金錢服務經營者應考慮根據香港法例，可動用 哪些資金或財產（如有）。 《販毒（追 討得益）條 例》第3 條、《有組 織及嚴重罪 行條例》第 8條、《聯 合國（反恐"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-210",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "8.4",
+    "locator_tc": "8.4",
+    "en": "All documents and records mentioned in paragraph [8.3] should be kept throughout the continuance of the business relationship with the customer and for a period of at least five years after the end of the business relationship. Similarly, for occasional transaction equal to or exceeding the CDD threshold (i.e. $8,000 for wire transfers and virtual asset transfers involving virtual assets, and $120,000 for other types of transactions), an MSO should keep all documents and records mentioned in paragraph [8.3] for a period of at least five years after the date of the occasional transaction. s.20(1)(a), Sch. 2, AMLO",
+    "tc": "第[8.3]段提述的所有文件及紀錄應在與有關客戶的業務關係繼續期間備 存，及在自有關的業務關係終止後的至少5年期間內備存。同樣地，對於 總值相等於或超過盡職審查門檻的非經常交易（即電傳轉帳和涉及虛擬資 產的虛擬資產轉帳為8,000元及其他類別的交易為120,000元），金錢服務 經營者應備存第[8.3]段提述的所有文件及紀錄，由進行非經常交易後當日 起計為期至少5年。 打擊洗錢條 例附表2 第20(1)(a)條"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.6",
+    "locator_tc": "8.6",
+    "en": "All documents and records mentioned in paragraph [8.5] should be kept for a period of at least five years after the completion of a transaction, regardless of whether the business relationship ends during the period. s.21, Sch. 2, AMLO",
+    "tc": "所有在第[8.5]段提述的文件及紀錄應在自有關交易完成的日期起計的至 少5年期間內備存，不論有關業務關係是否在該段期間內終止。 打擊洗錢條 例附表2 第21條"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.4 and 8.6",
+    "locator_tc": "8.4及8.6",
+    "en": "All documents and records mentioned in paragraph [8.3] should be kept throughout the continuance of the business relationship with the customer and for a period of at least five years after the end of the business relationship. Similarly, for occasional transaction equal to or exceeding the CDD threshold (i.e. $8,000 for wire transfers and virtual asset transfers involving virtual assets, and $120,000 for other types of transactions), an MSO should keep all documents and records mentioned in paragraph [8.3] for a period of at least five years after the date of the occasional transaction. s.20(1)(a), Sch. 2, AMLO All documents and records mentioned in paragraph [8.5] should be kept for a period of at least five years after the completion of a transaction, regardless of whether the business relationship ends during the period. s.21, Sch. 2, AMLO",
+    "tc": "第[8.3]段提述的所有文件及紀錄應在與有關客戶的業務關係繼續期間備 存，及在自有關的業務關係終止後的至少5年期間內備存。同樣地，對於 總值相等於或超過盡職審查門檻的非經常交易（即電傳轉帳和涉及虛擬資 產的虛擬資產轉帳為8,000元及其他類別的交易為120,000元），金錢服務 經營者應備存第[8.3]段提述的所有文件及紀錄，由進行非經常交易後當日 起計為期至少5年。 打擊洗錢條 例附表2 第20(1)(a)條 所有在第[8.5]段提述的文件及紀錄應在自有關交易完成的日期起計的至 少5年期間內備存，不論有關業務關係是否在該段期間內終止。 打擊洗錢條 例附表2 第21條"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.8",
+    "locator_tc": "8.8",
+    "en": "The CCE may, by notice in writing to an MSO, require it to keep the records relating to a specified transaction or customer for a period specified by the CCE that is longer than those referred to in paragraphs [8.4] and [8.6], where the records are relevant to an ongoing criminal or other investigation carried out by the CCE, or to any other purposes as specified in the notice. Part 3, Sch. 2, AMLO",
+    "tc": "如該紀錄與關長正在進行的刑事或其他調查，或與在書面通知中指明的任 何其他目的有關，在此等情況下，關長可藉給予金錢服務經營者的書面通 知，要求有關金錢服務經營者在關長指明的較第[8.4]及[8.6]段提述的期間 為長的期間，備存與指定交易或客戶有關的紀錄。 打擊洗錢條 例附表2 第3部"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-211",
+  "verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "8.4",
+    "locator_tc": "8.4",
+    "en": "All documents and records mentioned in paragraph [8.3] should be kept throughout the continuance of the business relationship with the customer and for a period of at least five years after the end of the business relationship. Similarly, for occasional transaction equal to or exceeding the CDD threshold (i.e. $8,000 for wire transfers and virtual asset transfers involving virtual assets, and $120,000 for other types of transactions), an MSO should keep all documents and records mentioned in paragraph [8.3] for a period of at least five years after the date of the occasional transaction. s.20(1)(a), Sch. 2, AMLO",
+    "tc": "第[8.3]段提述的所有文件及紀錄應在與有關客戶的業務關係繼續期間備 存，及在自有關的業務關係終止後的至少5年期間內備存。同樣地，對於 總值相等於或超過盡職審查門檻的非經常交易（即電傳轉帳和涉及虛擬資 產的虛擬資產轉帳為8,000元及其他類別的交易為120,000元），金錢服務 經營者應備存第[8.3]段提述的所有文件及紀錄，由進行非經常交易後當日 起計為期至少5年。 打擊洗錢條 例附表2 第20(1)(a)條"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.4",
+    "locator_tc": "8.4",
+    "en": "All documents and records mentioned in paragraph [8.3] should be kept throughout the continuance of the business relationship with the customer and for a period of at least five years after the end of the business relationship. Similarly, for occasional transaction equal to or exceeding the CDD threshold (i.e. $8,000 for wire transfers and virtual asset transfers involving virtual assets, and $120,000 for other types of transactions), an MSO should keep all documents and records mentioned in paragraph [8.3] for a period of at least five years after the date of the occasional transaction. s.20(1)(a), Sch. 2, AMLO",
+    "tc": "第[8.3]段提述的所有文件及紀錄應在與有關客戶的業務關係繼續期間備 存，及在自有關的業務關係終止後的至少5年期間內備存。同樣地，對於 總值相等於或超過盡職審查門檻的非經常交易（即電傳轉帳和涉及虛擬資 產的虛擬資產轉帳為8,000元及其他類別的交易為120,000元），金錢服務 經營者應備存第[8.3]段提述的所有文件及紀錄，由進行非經常交易後當日 起計為期至少5年。 打擊洗錢條 例附表2 第20(1)(a)條"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.5",
+    "locator_tc": "8.5",
+    "en": "An MSO should maintain the original or a copy of the documents, and a record of the data and information, obtained or generated in connection with each transaction the MSO carries out, both domestic and international, which should be sufficient to permit reconstruction of individual transactions so as to provide, if necessary, evidence for prosecution of criminal activity. s.20(2), Sch. 2, AMLO",
+    "tc": "金錢服務經營者應就每項由該金錢服務經營者進行的（本地及國際）交易， 備存與該項交易有關連的情況下取得或產生的文件的正本或複本，及如此 取得或產生的數據及資料的紀錄。這些資料應足以重組個別交易，以便在 有需要時為檢控犯罪活動提供證據。 打擊洗錢條 例附表2 第20(2)條"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.5",
+    "locator_tc": "8.5",
+    "en": "An MSO should maintain the original or a copy of the documents, and a record of the data and information, obtained or generated in connection with each transaction the MSO carries out, both domestic and international, which should be sufficient to permit reconstruction of individual transactions so as to provide, if necessary, evidence for prosecution of criminal activity. s.20(2), Sch. 2, AMLO",
+    "tc": "金錢服務經營者應就每項由該金錢服務經營者進行的（本地及國際）交易， 備存與該項交易有關連的情況下取得或產生的文件的正本或複本，及如此 取得或產生的數據及資料的紀錄。這些資料應足以重組個別交易，以便在 有需要時為檢控犯罪活動提供證據。 打擊洗錢條 例附表2 第20(2)條"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-212",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "8.7",
+    "locator_tc": "8.7",
+    "en": "If the record consists of a document, either the original of the document should be retained or a copy of the document should be kept on microfilm or in the database of a computer. If the record consists of data or information, such record should be kept either on microfilm or in the database of a computer. s.20(4), Sch. 2, AMLO",
+    "tc": "如該紀錄包含文件，應備存該文件的正本，或以微縮影片或電腦數據庫備 存該文件的複本。如該紀錄包含數據或資料，該紀錄應以微縮影片或電腦 數據庫備存。 打擊洗錢條 例附表2 第20(4)條"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.9",
+    "locator_tc": "8.9",
+    "en": "Irrespective of where CDD and transaction records are held, an MSO is required to comply with all legal and regulatory requirements in Hong Kong, especially Part 3 of Schedule 2. Records kept by intermediaries s.18(4)(a)& (b), Sch. 2, AMLO",
+    "tc": "不論在何處保存盡職審查及交易紀錄，金錢服務經營者必須符合香港的 所有法律及監管規定，特別是附表2第3部的規定。 中介人保存的紀錄 打擊洗錢條 例附表2"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.2",
+    "locator_tc": "8.2",
+    "en": "An MSO should maintain CDD information, transaction records and other records that are necessary and sufficient to meet the statutory and regulatory requirements that are appropriate to the nature, size and complexity of its businesses. The MSO should ensure that: (a) the audit trail for funds moving through the MSO that relate to any customer and, where appropriate, the beneficial owner of the customer, account or transaction is clear and complete; (b) all CDD information and transaction records are available swiftly to the CCE, other authorities and auditors upon appropriate authority; and (c) it can demonstrate compliance with any relevant requirements specified in other sections of this Guideline and other guidelines issued by the CCE. Retention of records relating to CDD and transactions s.20(1)(b) (i), Sch. 2, AMLO s.2(1)(c), Sch. 2, AMLO s.20(1)(b) (ii), Sch. 2, AMLO",
+    "tc": "金錢服務經營者應按照本身的業務性質、規模及複雜程度，保存所需及充 分的盡職審查資料、交易紀錄及其他紀錄，以符合法定及監管規定。金錢 服務經營者應確保： (a) 為經由金錢服務經營者提存的任何與客戶及客戶的實益擁有人（如適 用）有關的資金，戶口或交易，備存清晰及完備的審計線索； (b) 迅速地為有適當授權的關長、其他機構及核數師提供所有盡職審查資 料及交易紀錄；及 (c) 本身能證明符合本指引其他章節指明的任何相關規定，以及關長發出 的其他指引。 備存關於盡職審查及交易的紀錄 打擊洗錢條 例附表2 第20(1)(b)(i) 條 打擊洗錢條 例附表2 第2(1)(c)條 打擊洗錢條 例附表2 第20(1)(b)(ii)"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.8",
+    "locator_tc": "8.8",
+    "en": "The CCE may, by notice in writing to an MSO, require it to keep the records relating to a specified transaction or customer for a period specified by the CCE that is longer than those referred to in paragraphs [8.4] and [8.6], where the records are relevant to an ongoing criminal or other investigation carried out by the CCE, or to any other purposes as specified in the notice. Part 3, Sch. 2, AMLO",
+    "tc": "如該紀錄與關長正在進行的刑事或其他調查，或與在書面通知中指明的任 何其他目的有關，在此等情況下，關長可藉給予金錢服務經營者的書面通 知，要求有關金錢服務經營者在關長指明的較第[8.4]及[8.6]段提述的期間 為長的期間，備存與指定交易或客戶有關的紀錄。 打擊洗錢條 例附表2 第3部"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-213",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "8.11",
+    "locator_tc": "8.11",
+    "en": "For the avoidance of doubt, an MSO that relies on an intermediary for carrying out a CDD measure should immediately obtain data or the information that the intermediary has obtained in the course of carrying out that measure. 62",
+    "tc": "為免生疑慮起見，藉著中介人執行客戶盡職審查措施的金錢服務經營者應 立刻取得該中介人在執行該措施時取得的數據或資料。"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.10",
+    "locator_tc": "8.10",
+    "en": "Where customer identification and verification documents are held by an intermediary on which an MSO is relying to carry out CDD measures, the MSO concerned remains responsible for compliance with all record-keeping requirements. The MSO should ensure that the intermediary being relied on has systems in place to comply with all the record-keeping requirements under the AMLO and this guideline (including the requirements of paragraphs [8.3] to [8.9]), and that documents and records will be provided by the intermediary as soon as reasonably practicable after the intermediary receive the request from the MSO. s.18(4)(a), Sch. 2, AMLO",
+    "tc": "如金錢服務經營者藉著中介人執行客戶盡職審查措施，並由中介人持有客 戶的識別及核實文件，有關金錢服務經營者仍有責任遵守所有備存紀錄的 71 第18(4)(a)及 (b)條 規定。金錢服務經營者應確保執行該等措施的中介人已設立系統，以遵從 打擊洗錢條例及本指引下所有備存紀錄的規定（包括第[8.3]至[8.9]段提述 的規定），以及中介人會在收到金錢服務經營者的要求後，盡快在合理地 切實可行的範圍內提供有關文件及紀錄。 打擊洗錢條 例附表2 第18(4)(a)條"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.12",
+    "locator_tc": "8.12",
+    "en": "An MSO should ensure that an intermediary will pass the documents and records to the MSO, upon termination of the services provided by the intermediary. 63 Chapter 9 – STAFF TRAINING",
+    "tc": "金錢服務經營者應確保中介人在終止提供服務後會將文件及紀錄交回金 錢服務經營者。 72 第9章 — 職員培訓"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.10",
+    "locator_tc": "8.10",
+    "en": "Where customer identification and verification documents are held by an intermediary on which an MSO is relying to carry out CDD measures, the MSO concerned remains responsible for compliance with all record-keeping requirements. The MSO should ensure that the intermediary being relied on has systems in place to comply with all the record-keeping requirements under the AMLO and this guideline (including the requirements of paragraphs [8.3] to [8.9]), and that documents and records will be provided by the intermediary as soon as reasonably practicable after the intermediary receive the request from the MSO. s.18(4)(a), Sch. 2, AMLO",
+    "tc": "如金錢服務經營者藉著中介人執行客戶盡職審查措施，並由中介人持有客 戶的識別及核實文件，有關金錢服務經營者仍有責任遵守所有備存紀錄的 71 第18(4)(a)及 (b)條 規定。金錢服務經營者應確保執行該等措施的中介人已設立系統，以遵從 打擊洗錢條例及本指引下所有備存紀錄的規定（包括第[8.3]至[8.9]段提述 的規定），以及中介人會在收到金錢服務經營者的要求後，盡快在合理地 切實可行的範圍內提供有關文件及紀錄。 打擊洗錢條 例附表2 第18(4)(a)條"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-214",
+  "verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "8.3",
+    "locator_tc": "8.3",
+    "en": "An MSO should keep: (a) the original or a copy of the documents, and a record of the data and information, obtained in the course of identifying and, where applicable, verifying the identity of the customer and/or beneficial owner of the customer and/or beneficiary and/or persons who purport to act on behalf of the customer and/or other connected parties to the customer; (b) other documents and records obtained throughout the CDD and ongoing monitoring process, including SDD and EDD; (c) where applicable, the original or a copy of the documents, and a record of the data and information, on the purpose and intended nature of the business relationship; (d) the original or a copy of the records and documents relating to the customer’s account (e.g. account opening form or risk assessment form) and business correspondence66 with the customer and any beneficial owner of the customer (which at a minimum should include business correspondence material to CDD measures or significant changes to the operation of the account) ; and (e) the results of any analysis undertaken (e.g. inquiries to establish the background and purposes of transactions that are complex, unusually large in amount or of unusual pattern, and have no apparent economic or lawful purpose). 66 An MSO is are not expected to keep each and every correspondence, such as a series of emails with the customer; the expectation is that sufficient correspondence is kept to demonstrate compliance with the AMLO. 61 s.20(2), (3) & (3A), Sch. 2, AMLO",
+    "tc": "金錢服務經營者應備存： (a) 在識別及（如適用）核實任何客戶及／或客戶的實益擁有人及／或受 益人及／或看似是代表客戶行事的人及／或客戶的其他有關連者的 身分時取得的文件的正本或複本，及如此取得的數據及資料的紀錄； (b) 在執行盡職審查或持續監察程序（包括簡化的盡職審查及更嚴格的盡 職審查）期間取得的其他文件及紀錄； (c) （如適用）業務關係的目的及擬具有的性質的文件的正本或複本，以 及有關數據及資料的紀錄； (d) 關乎客戶的戶口（例如開戶表格或風險評估表格），以及與客戶和客 戶的實益擁有人的業務通訊66（最低限度應包括與盡職審查措施或戶 口的運作有顯著改變有關的業務通訊）的紀錄及文件的正本或複本； 66 不要求金錢服務經營者要保存每一封通訊，例如與客戶的連串電郵，但金錢服務經營者應保 存足夠通訊，顯示已遵守打擊洗錢條例的規定。 70 條 及 (e) 任何已作分析的結果（例如當交易複雜、款額大得異乎尋常或進行模 式異乎尋常，並無明顯經濟或合法目的時，為確立其背景及目的而作 出詢問）。 打擊洗錢條 例附表2 第20(2)、(3) 及(3A)條"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.3",
+    "locator_tc": "8.3",
+    "en": "An MSO should keep: (a) the original or a copy of the documents, and a record of the data and information, obtained in the course of identifying and, where applicable, verifying the identity of the customer and/or beneficial owner of the customer and/or beneficiary and/or persons who purport to act on behalf of the customer and/or other connected parties to the customer; (b) other documents and records obtained throughout the CDD and ongoing monitoring process, including SDD and EDD; (c) where applicable, the original or a copy of the documents, and a record of the data and information, on the purpose and intended nature of the business relationship; (d) the original or a copy of the records and documents relating to the customer’s account (e.g. account opening form or risk assessment form) and business correspondence66 with the customer and any beneficial owner of the customer (which at a minimum should include business correspondence material to CDD measures or significant changes to the operation of the account) ; and (e) the results of any analysis undertaken (e.g. inquiries to establish the background and purposes of transactions that are complex, unusually large in amount or of unusual pattern, and have no apparent economic or lawful purpose). 66 An MSO is are not expected to keep each and every correspondence, such as a series of emails with the customer; the expectation is that sufficient correspondence is kept to demonstrate compliance with the AMLO. 61 s.20(2), (3) & (3A), Sch. 2, AMLO",
+    "tc": "金錢服務經營者應備存： (a) 在識別及（如適用）核實任何客戶及／或客戶的實益擁有人及／或受 益人及／或看似是代表客戶行事的人及／或客戶的其他有關連者的 身分時取得的文件的正本或複本，及如此取得的數據及資料的紀錄； (b) 在執行盡職審查或持續監察程序（包括簡化的盡職審查及更嚴格的盡 職審查）期間取得的其他文件及紀錄； (c) （如適用）業務關係的目的及擬具有的性質的文件的正本或複本，以 及有關數據及資料的紀錄； (d) 關乎客戶的戶口（例如開戶表格或風險評估表格），以及與客戶和客 戶的實益擁有人的業務通訊66（最低限度應包括與盡職審查措施或戶 口的運作有顯著改變有關的業務通訊）的紀錄及文件的正本或複本； 66 不要求金錢服務經營者要保存每一封通訊，例如與客戶的連串電郵，但金錢服務經營者應保 存足夠通訊，顯示已遵守打擊洗錢條例的規定。 70 條 及 (e) 任何已作分析的結果（例如當交易複雜、款額大得異乎尋常或進行模 式異乎尋常，並無明顯經濟或合法目的時，為確立其背景及目的而作 出詢問）。 打擊洗錢條 例附表2 第20(2)、(3) 及(3A)條"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.3",
+    "locator_tc": "8.3",
+    "en": "An MSO should keep: (a) the original or a copy of the documents, and a record of the data and information, obtained in the course of identifying and, where applicable, verifying the identity of the customer and/or beneficial owner of the customer and/or beneficiary and/or persons who purport to act on behalf of the customer and/or other connected parties to the customer; (b) other documents and records obtained throughout the CDD and ongoing monitoring process, including SDD and EDD; (c) where applicable, the original or a copy of the documents, and a record of the data and information, on the purpose and intended nature of the business relationship; (d) the original or a copy of the records and documents relating to the customer’s account (e.g. account opening form or risk assessment form) and business correspondence66 with the customer and any beneficial owner of the customer (which at a minimum should include business correspondence material to CDD measures or significant changes to the operation of the account) ; and (e) the results of any analysis undertaken (e.g. inquiries to establish the background and purposes of transactions that are complex, unusually large in amount or of unusual pattern, and have no apparent economic or lawful purpose). 66 An MSO is are not expected to keep each and every correspondence, such as a series of emails with the customer; the expectation is that sufficient correspondence is kept to demonstrate compliance with the AMLO. 61 s.20(2), (3) & (3A), Sch. 2, AMLO",
+    "tc": "金錢服務經營者應備存： (a) 在識別及（如適用）核實任何客戶及／或客戶的實益擁有人及／或受 益人及／或看似是代表客戶行事的人及／或客戶的其他有關連者的 身分時取得的文件的正本或複本，及如此取得的數據及資料的紀錄； (b) 在執行盡職審查或持續監察程序（包括簡化的盡職審查及更嚴格的盡 職審查）期間取得的其他文件及紀錄； (c) （如適用）業務關係的目的及擬具有的性質的文件的正本或複本，以 及有關數據及資料的紀錄； (d) 關乎客戶的戶口（例如開戶表格或風險評估表格），以及與客戶和客 戶的實益擁有人的業務通訊66（最低限度應包括與盡職審查措施或戶 口的運作有顯著改變有關的業務通訊）的紀錄及文件的正本或複本； 66 不要求金錢服務經營者要保存每一封通訊，例如與客戶的連串電郵，但金錢服務經營者應保 存足夠通訊，顯示已遵守打擊洗錢條例的規定。 70 條 及 (e) 任何已作分析的結果（例如當交易複雜、款額大得異乎尋常或進行模 式異乎尋常，並無明顯經濟或合法目的時，為確立其背景及目的而作 出詢問）。 打擊洗錢條 例附表2 第20(2)、(3) 及(3A)條"
+   },
+   {
+    "document": "03",
+    "locator_en": "8.3",
+    "locator_tc": "8.3",
+    "en": "An MSO should keep: (a) the original or a copy of the documents, and a record of the data and information, obtained in the course of identifying and, where applicable, verifying the identity of the customer and/or beneficial owner of the customer and/or beneficiary and/or persons who purport to act on behalf of the customer and/or other connected parties to the customer; (b) other documents and records obtained throughout the CDD and ongoing monitoring process, including SDD and EDD; (c) where applicable, the original or a copy of the documents, and a record of the data and information, on the purpose and intended nature of the business relationship; (d) the original or a copy of the records and documents relating to the customer’s account (e.g. account opening form or risk assessment form) and business correspondence66 with the customer and any beneficial owner of the customer (which at a minimum should include business correspondence material to CDD measures or significant changes to the operation of the account) ; and (e) the results of any analysis undertaken (e.g. inquiries to establish the background and purposes of transactions that are complex, unusually large in amount or of unusual pattern, and have no apparent economic or lawful purpose). 66 An MSO is are not expected to keep each and every correspondence, such as a series of emails with the customer; the expectation is that sufficient correspondence is kept to demonstrate compliance with the AMLO. 61 s.20(2), (3) & (3A), Sch. 2, AMLO",
+    "tc": "金錢服務經營者應備存： (a) 在識別及（如適用）核實任何客戶及／或客戶的實益擁有人及／或受 益人及／或看似是代表客戶行事的人及／或客戶的其他有關連者的 身分時取得的文件的正本或複本，及如此取得的數據及資料的紀錄； (b) 在執行盡職審查或持續監察程序（包括簡化的盡職審查及更嚴格的盡 職審查）期間取得的其他文件及紀錄； (c) （如適用）業務關係的目的及擬具有的性質的文件的正本或複本，以 及有關數據及資料的紀錄； (d) 關乎客戶的戶口（例如開戶表格或風險評估表格），以及與客戶和客 戶的實益擁有人的業務通訊66（最低限度應包括與盡職審查措施或戶 口的運作有顯著改變有關的業務通訊）的紀錄及文件的正本或複本； 66 不要求金錢服務經營者要保存每一封通訊，例如與客戶的連串電郵，但金錢服務經營者應保 存足夠通訊，顯示已遵守打擊洗錢條例的規定。 70 條 及 (e) 任何已作分析的結果（例如當交易複雜、款額大得異乎尋常或進行模 式異乎尋常，並無明顯經濟或合法目的時，為確立其背景及目的而作 出詢問）。 打擊洗錢條 例附表2 第20(2)、(3) 及(3A)條"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-215",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "9.2",
+    "locator_tc": "9.2",
+    "en": "It is an MSO’s responsibility to provide adequate training for its staff so that they are adequately trained to implement its AML/CFT Systems. The scope and frequency of training should be tailored to the specific risks faced by the MSO and pitched according to the job functions, responsibilities and experience of the staff. New staff should be required to attend initial training as soon as possible after being hired or appointed. Apart from the initial training, an MSO should also provide refresher training regularly to ensure that its staff are reminded of their responsibilities and are kept informed of new developments related to ML/TF.",
+    "tc": "金錢服務經營者有責任為職員提供充分培訓，確保他們受訓後足以執行 打擊洗錢／恐怖分子資金籌集制度。培訓的範疇及頻密程度應切合金錢 服務經營者面對的特定風險，並顧及職員的職能、職責及經驗。新職員 獲聘用或委任後，應盡快接受初步培訓。金錢服務經營者除要安排初步 培訓外，亦應定期舉辦複修培訓，確保其職員明白本身的責任，並掌握 有關洗錢／恐怖分子資金籌集的最新發展。"
+   },
+   {
+    "document": "03",
+    "locator_en": "9.2",
+    "locator_tc": "9.2",
+    "en": "It is an MSO’s responsibility to provide adequate training for its staff so that they are adequately trained to implement its AML/CFT Systems. The scope and frequency of training should be tailored to the specific risks faced by the MSO and pitched according to the job functions, responsibilities and experience of the staff. New staff should be required to attend initial training as soon as possible after being hired or appointed. Apart from the initial training, an MSO should also provide refresher training regularly to ensure that its staff are reminded of their responsibilities and are kept informed of new developments related to ML/TF.",
+    "tc": "金錢服務經營者有責任為職員提供充分培訓，確保他們受訓後足以執行 打擊洗錢／恐怖分子資金籌集制度。培訓的範疇及頻密程度應切合金錢 服務經營者面對的特定風險，並顧及職員的職能、職責及經驗。新職員 獲聘用或委任後，應盡快接受初步培訓。金錢服務經營者除要安排初步 培訓外，亦應定期舉辦複修培訓，確保其職員明白本身的責任，並掌握 有關洗錢／恐怖分子資金籌集的最新發展。"
+   },
+   {
+    "document": "03",
+    "locator_en": "9.1",
+    "locator_tc": "9.1",
+    "en": "Ongoing staff training is an important element of an effective system to prevent and detect ML/TF activities. The effective implementation of even a well-designed internal control system can be compromised if staff using the system is not adequately trained.",
+    "tc": "持續的職員培訓是有效防止及偵察洗錢／恐怖分子資金籌集活動系統 內重要的一環。如沒有為使用系統的職員提供充分培訓，則即使是一個 設計精湛的內部監控系統，其成效也會受到影響。"
+   },
+   {
+    "document": "03",
+    "locator_en": "9.3",
+    "locator_tc": "9.3",
+    "en": "An MSO should implement a clear and well articulated policy for ensuring that relevant staff receive adequate AML/CFT training.",
+    "tc": "金錢服務經營者應實施清晰及明確的政策，確保在打擊洗錢／恐怖分子 資金籌集方面，為有關職員提供充分培訓。"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-216",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "9.5",
+    "locator_tc": "9.5",
+    "en": "In addition, the following areas of training may be appropriate for certain groups of staff: (a) all new staff, irrespective of seniority: (i) an introduction to the background to ML/TF and the importance placed on ML/TF by the MSO; and (ii) the need for identifying and reporting of any suspicious transactions to the MLRO, and the offence of “tipping-off”; (b) members of staff who are dealing directly with the public (e.g. front-line personnel): (i) the importance of their roles in the MSO’s ML/TF strategy, as the first point of contact with potential money launderers; (ii) the MSO’s policies and procedures in relation to CDD and record-keeping 64 requirements that are relevant to their job responsibilities; and (iii) training in circumstances that may give rise to suspicion, and relevant policies and procedures, including, for example, lines of reporting and when extra vigilance might be required; (c) back-office staff, depending on their roles: (i) appropriate training on customer verification and relevant processing procedures; and (ii) how to recognise unusual activities including abnormal settlements, payments or delivery instructions; (d) managerial staff including internal audit officers and COs: (i) higher level training covering all aspects of the MSO’s AML/CFT regime; and (ii) specific training in relation to their responsibilities for supervising or managing staff, auditing the system and performing random checks as well as reporting of suspicious transactions to the JFIU; and (e) MLROs: (i) specific training in relation to their responsibilities for assessing suspicious transaction reports submitted to them and reporting of suspicious transactions to the JFIU; and (ii) training to keep abreast of AML/CFT requirements/developments generally.",
+    "tc": "此外，以下培訓的範疇或適用於特定類別的職員： (a) 所有新職員（不論資歷） (i) 洗錢／恐怖分子資金籌集的背景及金錢服務經營者對洗錢／ 73 恐怖分子資金籌集問題的重視的簡介；及 (ii) 識別可疑交易及向洗錢報告主任舉報任何可疑交易的必要， 以及認識「通風報訊」的罪行； (b) 與公眾有直接接觸的職員（例如前線工作人員）： (i) 在金錢服務經營者的洗錢／恐怖分子資金籌集策略方面，這 類職員作為與潛在洗錢人的第一個接觸點的重要性； (ii) 金錢服務經營者在客戶盡職審查及備存紀錄方面的政策及程 序上的規定，而這些規定是與這類職員的職責相關的；及 (iii) 就可能出現可疑交易的情況及相關政策及程序等方面提供培 訓，例如報告的流程及應何時提高額外警覺； (c) 後勤職員（視乎他們的職責）： (i) 客戶核實及相關處理程序的適當培訓，及 (ii) 如何識別不尋常活動，包括不正常的結算、付款及交付指示； (d) 經理級人員包括內部審計人員及合規主任： (i) 更高層次的培訓，培訓範圍應涵蓋金錢服務經營者打擊洗錢／ 恐怖分子資金籌集制度的各方面；及 (ii) 涵蓋監督或管理職員、系統審查、進行隨機抽查，以及向財富 情報組舉報可疑交易的職責的特定培訓；及 (e) 洗錢報告主任： (i) 涵蓋評估所收到的可疑交易報告及向財富情報組報告可疑交 易的職責的特定培訓；及 (ii) 與打擊洗錢／恐怖分子資金籌集所有一般規定/發展同步的培 訓。"
+   },
+   {
+    "document": "03",
+    "locator_en": "9.5",
+    "locator_tc": "9.5",
+    "en": "In addition, the following areas of training may be appropriate for certain groups of staff: (a) all new staff, irrespective of seniority: (i) an introduction to the background to ML/TF and the importance placed on ML/TF by the MSO; and (ii) the need for identifying and reporting of any suspicious transactions to the MLRO, and the offence of “tipping-off”; (b) members of staff who are dealing directly with the public (e.g. front-line personnel): (i) the importance of their roles in the MSO’s ML/TF strategy, as the first point of contact with potential money launderers; (ii) the MSO’s policies and procedures in relation to CDD and record-keeping 64 requirements that are relevant to their job responsibilities; and (iii) training in circumstances that may give rise to suspicion, and relevant policies and procedures, including, for example, lines of reporting and when extra vigilance might be required; (c) back-office staff, depending on their roles: (i) appropriate training on customer verification and relevant processing procedures; and (ii) how to recognise unusual activities including abnormal settlements, payments or delivery instructions; (d) managerial staff including internal audit officers and COs: (i) higher level training covering all aspects of the MSO’s AML/CFT regime; and (ii) specific training in relation to their responsibilities for supervising or managing staff, auditing the system and performing random checks as well as reporting of suspicious transactions to the JFIU; and (e) MLROs: (i) specific training in relation to their responsibilities for assessing suspicious transaction reports submitted to them and reporting of suspicious transactions to the JFIU; and (ii) training to keep abreast of AML/CFT requirements/developments generally.",
+    "tc": "此外，以下培訓的範疇或適用於特定類別的職員： (a) 所有新職員（不論資歷） (i) 洗錢／恐怖分子資金籌集的背景及金錢服務經營者對洗錢／ 73 恐怖分子資金籌集問題的重視的簡介；及 (ii) 識別可疑交易及向洗錢報告主任舉報任何可疑交易的必要， 以及認識「通風報訊」的罪行； (b) 與公眾有直接接觸的職員（例如前線工作人員）： (i) 在金錢服務經營者的洗錢／恐怖分子資金籌集策略方面，這 類職員作為與潛在洗錢人的第一個接觸點的重要性； (ii) 金錢服務經營者在客戶盡職審查及備存紀錄方面的政策及程 序上的規定，而這些規定是與這類職員的職責相關的；及 (iii) 就可能出現可疑交易的情況及相關政策及程序等方面提供培 訓，例如報告的流程及應何時提高額外警覺； (c) 後勤職員（視乎他們的職責）： (i) 客戶核實及相關處理程序的適當培訓，及 (ii) 如何識別不尋常活動，包括不正常的結算、付款及交付指示； (d) 經理級人員包括內部審計人員及合規主任： (i) 更高層次的培訓，培訓範圍應涵蓋金錢服務經營者打擊洗錢／ 恐怖分子資金籌集制度的各方面；及 (ii) 涵蓋監督或管理職員、系統審查、進行隨機抽查，以及向財富 情報組舉報可疑交易的職責的特定培訓；及 (e) 洗錢報告主任： (i) 涵蓋評估所收到的可疑交易報告及向財富情報組報告可疑交 易的職責的特定培訓；及 (ii) 與打擊洗錢／恐怖分子資金籌集所有一般規定/發展同步的培 訓。"
+   },
+   {
+    "document": "03",
+    "locator_en": "9.5",
+    "locator_tc": "9.5",
+    "en": "In addition, the following areas of training may be appropriate for certain groups of staff: (a) all new staff, irrespective of seniority: (i) an introduction to the background to ML/TF and the importance placed on ML/TF by the MSO; and (ii) the need for identifying and reporting of any suspicious transactions to the MLRO, and the offence of “tipping-off”; (b) members of staff who are dealing directly with the public (e.g. front-line personnel): (i) the importance of their roles in the MSO’s ML/TF strategy, as the first point of contact with potential money launderers; (ii) the MSO’s policies and procedures in relation to CDD and record-keeping 64 requirements that are relevant to their job responsibilities; and (iii) training in circumstances that may give rise to suspicion, and relevant policies and procedures, including, for example, lines of reporting and when extra vigilance might be required; (c) back-office staff, depending on their roles: (i) appropriate training on customer verification and relevant processing procedures; and (ii) how to recognise unusual activities including abnormal settlements, payments or delivery instructions; (d) managerial staff including internal audit officers and COs: (i) higher level training covering all aspects of the MSO’s AML/CFT regime; and (ii) specific training in relation to their responsibilities for supervising or managing staff, auditing the system and performing random checks as well as reporting of suspicious transactions to the JFIU; and (e) MLROs: (i) specific training in relation to their responsibilities for assessing suspicious transaction reports submitted to them and reporting of suspicious transactions to the JFIU; and (ii) training to keep abreast of AML/CFT requirements/developments generally.",
+    "tc": "此外，以下培訓的範疇或適用於特定類別的職員： (a) 所有新職員（不論資歷） (i) 洗錢／恐怖分子資金籌集的背景及金錢服務經營者對洗錢／ 73 恐怖分子資金籌集問題的重視的簡介；及 (ii) 識別可疑交易及向洗錢報告主任舉報任何可疑交易的必要， 以及認識「通風報訊」的罪行； (b) 與公眾有直接接觸的職員（例如前線工作人員）： (i) 在金錢服務經營者的洗錢／恐怖分子資金籌集策略方面，這 類職員作為與潛在洗錢人的第一個接觸點的重要性； (ii) 金錢服務經營者在客戶盡職審查及備存紀錄方面的政策及程 序上的規定，而這些規定是與這類職員的職責相關的；及 (iii) 就可能出現可疑交易的情況及相關政策及程序等方面提供培 訓，例如報告的流程及應何時提高額外警覺； (c) 後勤職員（視乎他們的職責）： (i) 客戶核實及相關處理程序的適當培訓，及 (ii) 如何識別不尋常活動，包括不正常的結算、付款及交付指示； (d) 經理級人員包括內部審計人員及合規主任： (i) 更高層次的培訓，培訓範圍應涵蓋金錢服務經營者打擊洗錢／ 恐怖分子資金籌集制度的各方面；及 (ii) 涵蓋監督或管理職員、系統審查、進行隨機抽查，以及向財富 情報組舉報可疑交易的職責的特定培訓；及 (e) 洗錢報告主任： (i) 涵蓋評估所收到的可疑交易報告及向財富情報組報告可疑交 易的職責的特定培訓；及 (ii) 與打擊洗錢／恐怖分子資金籌集所有一般規定/發展同步的培 訓。"
+   },
+   {
+    "document": "03",
+    "locator_en": "9.5",
+    "locator_tc": "9.5",
+    "en": "In addition, the following areas of training may be appropriate for certain groups of staff: (a) all new staff, irrespective of seniority: (i) an introduction to the background to ML/TF and the importance placed on ML/TF by the MSO; and (ii) the need for identifying and reporting of any suspicious transactions to the MLRO, and the offence of “tipping-off”; (b) members of staff who are dealing directly with the public (e.g. front-line personnel): (i) the importance of their roles in the MSO’s ML/TF strategy, as the first point of contact with potential money launderers; (ii) the MSO’s policies and procedures in relation to CDD and record-keeping 64 requirements that are relevant to their job responsibilities; and (iii) training in circumstances that may give rise to suspicion, and relevant policies and procedures, including, for example, lines of reporting and when extra vigilance might be required; (c) back-office staff, depending on their roles: (i) appropriate training on customer verification and relevant processing procedures; and (ii) how to recognise unusual activities including abnormal settlements, payments or delivery instructions; (d) managerial staff including internal audit officers and COs: (i) higher level training covering all aspects of the MSO’s AML/CFT regime; and (ii) specific training in relation to their responsibilities for supervising or managing staff, auditing the system and performing random checks as well as reporting of suspicious transactions to the JFIU; and (e) MLROs: (i) specific training in relation to their responsibilities for assessing suspicious transaction reports submitted to them and reporting of suspicious transactions to the JFIU; and (ii) training to keep abreast of AML/CFT requirements/developments generally.",
+    "tc": "此外，以下培訓的範疇或適用於特定類別的職員： (a) 所有新職員（不論資歷） (i) 洗錢／恐怖分子資金籌集的背景及金錢服務經營者對洗錢／ 73 恐怖分子資金籌集問題的重視的簡介；及 (ii) 識別可疑交易及向洗錢報告主任舉報任何可疑交易的必要， 以及認識「通風報訊」的罪行； (b) 與公眾有直接接觸的職員（例如前線工作人員）： (i) 在金錢服務經營者的洗錢／恐怖分子資金籌集策略方面，這 類職員作為與潛在洗錢人的第一個接觸點的重要性； (ii) 金錢服務經營者在客戶盡職審查及備存紀錄方面的政策及程 序上的規定，而這些規定是與這類職員的職責相關的；及 (iii) 就可能出現可疑交易的情況及相關政策及程序等方面提供培 訓，例如報告的流程及應何時提高額外警覺； (c) 後勤職員（視乎他們的職責）： (i) 客戶核實及相關處理程序的適當培訓，及 (ii) 如何識別不尋常活動，包括不正常的結算、付款及交付指示； (d) 經理級人員包括內部審計人員及合規主任： (i) 更高層次的培訓，培訓範圍應涵蓋金錢服務經營者打擊洗錢／ 恐怖分子資金籌集制度的各方面；及 (ii) 涵蓋監督或管理職員、系統審查、進行隨機抽查，以及向財富 情報組舉報可疑交易的職責的特定培訓；及 (e) 洗錢報告主任： (i) 涵蓋評估所收到的可疑交易報告及向財富情報組報告可疑交 易的職責的特定培訓；及 (ii) 與打擊洗錢／恐怖分子資金籌集所有一般規定/發展同步的培 訓。"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m7-217",
+  "verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "document": "03",
+    "locator_en": "9.6",
+    "locator_tc": "9.6",
+    "en": "An MSO is encouraged to consider using a mix of training techniques and tools in delivering training, depending on the available resources and learning needs of their staff. These techniques and tools may include on-line learning systems, focused classroom training, relevant videos as well as paper- or intranet-based procedures manuals. An MSO may consider including available FATF papers and typologies as part of the training materials. The MSO should be able to demonstrate to the CCE that all materials are up-to-date and in line with current requirements and standards.",
+    "tc": "金錢服務經營者應視乎可運用的資源及職員的培訓需要，考慮在提供培 訓時混合使用各種培訓技巧及工具。這些技巧及工具可包括網上學習系 統、課堂上的集思培訓、相關影片及紙張形式或以內聯網為本的程序手 冊。金錢服務經營者可考慮使用特別組織的文章及典型案件作為培訓材 料。金錢服務經營者應能夠向關長證明所有培訓材料應是最新的，並且 應符合現行規定及標準。"
+   },
+   {
+    "document": "03",
+    "locator_en": "9.7",
+    "locator_tc": "9.7",
+    "en": "No matter which training approach is adopted, an MSO should monitor and maintain records of who have been trained, when the staff received the training and the type of the training provided. Records should be maintained for a minimum of 3 years.",
+    "tc": "無論使用哪種培訓方法，金錢服務經營者應監察誰人已接受培訓、職員 何時接受培訓，以及所提供培訓的類別，並備存紀錄。紀錄應最少保存 3年。"
+   },
+   {
+    "document": "03",
+    "locator_en": "9.7",
+    "locator_tc": "9.7",
+    "en": "No matter which training approach is adopted, an MSO should monitor and maintain records of who have been trained, when the staff received the training and the type of the training provided. Records should be maintained for a minimum of 3 years.",
+    "tc": "無論使用哪種培訓方法，金錢服務經營者應監察誰人已接受培訓、職員 何時接受培訓，以及所提供培訓的類別，並備存紀錄。紀錄應最少保存 3年。"
+   },
+   {
+    "document": "03",
+    "locator_en": "9.8",
+    "locator_tc": "9.8",
+    "en": "An MSO should monitor the effectiveness of the training. This may be achieved by: (a) testing staff’s understanding of the MSO’s policies and procedures to combat ML/TF, the understanding of their statutory and regulatory obligations, and also their ability to recognise suspicious transactions; (b) monitoring the compliance of staff with the MSO’s AML/CFT Systems as well as the quality and quantity of internal reports so that further training needs may be identified and appropriate action can be taken; and (c) monitoring attendance and following up with staff who miss such training without reasonable cause. 65 Chapter 10 – WIRE TRANSFERS General s.1(4) & s.12(11), Sch. 2, AMLO",
+    "tc": "金錢服務經營者應監察培訓的效用。這可透過以下方法達致： (a) 測試職員對金錢服務經營者在打擊洗錢／恐怖分子資金籌集方面 74 的政策及程序及對他們的法定及監管責任的理解，以及他們辨認可 疑交易的能力； (b) 監察職員在金錢服務經營者的打擊洗錢／恐怖分子資金籌集制度 方面的合規情況，以及監察內部報告的質和量，藉此找出進一步的 培訓需要，並且採取適當行動；及 (c) 監察職員出席培訓的情況，並對沒有合理因由而缺席培訓的職員作 出跟進。 75 第10章 — 電傳轉帳 一般條文 打擊洗錢 條例附表2 第1(4)條及 第12(11)條"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ }
+]

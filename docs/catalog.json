@@ -2327,5 +2327,43 @@
       "text_mode": "companion",
       "id": "47"
     }
-  ]
+  ],
+  "question_bank_scope": {
+    "documents": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26"
+    ],
+    "decided_on": "2026-10-18",
+    "basis": "Owner-selected practice scope; not a claim about the official examination scope.",
+    "translation_exception": {
+      "document": "24",
+      "source_language": "EN",
+      "question_language": "TC",
+      "label": "學習譯文"
+    }
+  }
 }

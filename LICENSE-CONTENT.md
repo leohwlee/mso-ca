@@ -3,18 +3,18 @@
 This repository holds three kinds of material with three different owners. This
 file says which is which.
 
-## 1 · The code, the question bank, the revision pack and the skill — MIT
+## 1 · The code, the question bank, the revision pack and the authoring guide — MIT
 
 Everything except the two items below is licensed under MIT. Full text in
 [`LICENSE`](LICENSE). That includes:
 
 - the app: `main.go`, `questions_test.go`, `web/app.js`, `web/style.css` and
   `web/index.html`, with the build scripts and the workflows;
-- the question bank, `web/questions.json`: 1,547 questions, statements and
-  explanations in English and Traditional Chinese;
+- the question bank, `web/questions.json`: authored questions, statements and
+  explanations in English and Traditional Chinese, excluding reproduced official wording;
 - the revision pack in `revision/`: its generator, and the text and figures of
   its pages;
-- the skill in `.claude/skills/exam-prep/`: the method used to build the bank
+- the agent-neutral authoring guide in `docs/authoring/exam-prep/`: the method used to build the bank
   and the pack, written for any exam.
 
 Do anything you like with it, including adapting it, translating it and selling
@@ -26,9 +26,10 @@ and copies taken from them keep those terms.
 
 The questions and the pack are written from the official documents listed in
 [`docs/README.md`](docs/README.md), and cite the paragraph each point comes
-from. The wording, the selection, the distractors, the explanations and the
-pack's text and figures are the author's own work. The provisions they describe
-are not — see part 3.
+from. Authored wording, distractors, explanations and pack figures fall under MIT.
+The eight marked official sample questions retain official wording; that wording,
+quoted passages and reproduced source material remain outside this licence.
+The provisions described are also not the author's work — see part 3.
 
 ## 2 · The bundled fonts — SIL Open Font License 1.1
 

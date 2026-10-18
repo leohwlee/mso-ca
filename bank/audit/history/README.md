@@ -27,3 +27,12 @@ The subsequent continuous-numbering cleanup is preserved in
 reconstructed quote hashes and unchanged-content checks. The pre-renumbering
 download review remains verbatim in
 `2026-10-18-download-review-before-continuous-numbering.json`.
+
+`2026-10-18-before-active26.zip` preserves 111 tracked files before the
+owner-selected 01–26 scope and two-mode app refactor, including the 357-question
+bank, all original quotes and the former agent-specific authoring bundle.
+Its bytes remain immutable. Retired IDs cannot be reused; current review evidence
+is in `../active26-implementation.json`. `active_scope.py` reconstructs the old
+bank before the four historical audits run, while validating every current
+addition and retirement separately. Historical agent names and paths are evidence,
+not runtime or authoring dependencies.

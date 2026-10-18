@@ -1,124 +1,100 @@
-# MSO Competence Assessment — Revision Pack and Mock Exam
+# MSO Competence Assessment — Mock Exam
 
-[繁體中文版 →](README.zh-Hant.md)
+[繁體中文](README.zh-Hant.md) · [Download the app](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html) · [Release notes](CHANGELOG.md)
 
-## What it is
+**525 English / Traditional Chinese combination questions**, grounded only in
+documents **01–26** of the [reading library](docs/README.md). Practise offline
+for the Hong Kong Money Service Operator Competence Assessment, with two modes:
+mock exam and custom practice.
 
-Free study material for the Hong Kong Customs and Excise Department's
-**Competence Assessment for Money Service Operators**, the exam a licensee's
-sole proprietor, partner or director must pass. It comes as two HTML files, a
-revision pack and a mock exam, both written only from the official documents.
-Each is a single file that works offline, in English, 繁體中文 or both side by
-side. There is nothing to install and no account to make.
+## Start in three steps
 
-The method behind both is published too, as a skill for Claude Code. Give it
-another exam's documents and it builds a revision pack and a mock exam the same
-way, in whatever exam format you define.
+1. Download **[mso-ca.html](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html)** from the latest release.
+2. Open the downloaded file in a browser. No installation, account or server is needed.
+3. Choose **EN**, **中文** or **EN+中**, then start a mock exam or select parts for practice.
 
-## How to use it
+The HTML file contains the app, question bank and fonts. You do not need to
+download the repository or install Go to use it. The official source documents
+are available separately in the reading library.
 
-The counts below describe current `main`. Check the release notes for the
-contents of a downloaded version, or [build from source](DEVELOPMENT.md) to use
-current `main`.
+![The two-mode app with the 525-question bank](docs/images/app-preview.png)
 
-1. Download `mso-revision-pack.html` and `mso-ca.html` from the
-   [latest release](../../releases/latest).
-2. Open them in Chrome. Edge and Firefox work too.
-3. Read a topic in the revision pack, then drill its module in the mock exam's
-   *Practice* mode. Every question has the real paper's shape — numbered
-   statements and five options naming which of them are correct — and after
-   each answer every statement is marked correct or not, with the trap a false
-   one sets and its source.
-4. Use the *Statement drill* to judge one statement at a time, since a question
-   is lost on a single misjudged statement; it keeps the ones you get wrong for
-   another round. Sit full timed mocks, and use *Practice my wrong answers* on
-   what you missed.
+## Choose how to practise
 
-To pass you need **no more than 2 wrong in any module and at least 25/35
-overall**, so one weak module fails the paper even with a high total.
-
-Your results never leave your browser. Open the same copy of `mso-ca.html` each
-time, and use *Save history to file* to back them up or move them to another
-computer. For a shorter drill, add `?minutes=20` after `mso-ca.html` in the
-address bar.
-
-To build the same for another exam, copy
-[`.claude/skills/exam-prep/`](.claude/skills/exam-prep/SKILL.md) into your
-project's `.claude/skills/` folder, or into `~/.claude/skills/` to use it in
-every project. Then ask Claude Code for a revision pack and a mock exam from
-your documents, or type `/exam-prep`. It starts by asking about your sources and
-your exam's format.
-
-To build from source or cut a release, see [DEVELOPMENT.md](DEVELOPMENT.md).
-
-## The content
-
-The revision pack and mock exam use the original 23 official sources. The
-[`reading directory`](docs/README.md) selects 26 publications for daily reading,
-directly in the language folders, with companion laws beside their circulars.
-Medium priority distinguishes essential and selected reading; 21 publications
-remain in the reference archive with selection reasons. Additions are not yet in the
-question-bank coverage review. Every taught point cites its section or paragraph.
-
-Daily publications and companions use continuous numbers 01–26: High 01–09,
-Medium Essential 10–19, Medium Selected 20–26. Reference publications continue
-as 27–47. These numbers also identify quotes and extracted text; no second
-source ID is maintained.
-
-| File | What's inside | Organised by |
-|---|---|---|
-| **Revision pack**<br>`mso-revision-pack.html`<br>about 3 MB | 21 pages of tables and figures on the AMLO's Parts 1–7 and Schedules 1–4, the AML/CFT Guideline, the other C&ED guidelines, and the circulars and FAQ | Source document, with each page naming the exam modules it serves |
-| **Mock exam**<br>`mso-ca.html`<br>about 1.7 MB | 357 combination questions, including 8 official samples, with bilingual explanations for every statement, drawn into 35-question, 75-minute mocks under the real pass rule | The 7 exam modules, below |
-| **Skill**<br>`.claude/skills/exam-prep/SKILL.md`<br>version 2.3.0 | The method that built both, written for any exam: collecting and checking the sources, settling conflicts between them, writing the pack and the questions, checking every answer blind, and tests that stop answers being guessable. You define the exam format. | The build, phase by phase |
-
-| Module | Questions | Revision-pack pages |
-|---|---|---|
-| 1 · General knowledge on AML/CFT and counter-proliferation financing | 32 | AML/CFT Guideline ch. 1, 6 and 7; AMLO Sch. 1 |
-| 2 · Parts 1–7 of the AMLO | 53 | AMLO Parts 1–7 |
-| 3 · Schedules to the AMLO | 43 | AMLO Sch. 1–4 |
-| 4 · Guidelines promulgated by the C&ED | 59 | C&ED guidelines; AMLO Part 5 |
-| 5 · Systems and controls (i): governance and strategy | 56 | AML/CFT Guideline ch. 2 and 3 |
-| 6 · Systems and controls (ii): AML/CFT control areas | 74 | AMLO Sch. 2, with AML/CFT Guideline ch. 4, 10 and 11; AML/CFT Guideline ch. 2 and 5–9 |
-| 7 · Systems and controls (iii): demonstrating and monitoring compliance | 40 | AML/CFT Guideline ch. 3 and 7–9 |
-
-The pack's Circulars and FAQ page serves modules 1 and 4–7. Apart from the 8
-official samples retained verbatim, the questions are
-reconstructions for practice; C&ED has never released a past paper.
-
-All tasks in the [coverage audit](bank/audit/README.md) are implemented,
-including roles and definitions, P1 processes, the final 20 P2/P3 tasks and
-specialist P3 details. The last wave adds a net 19 questions and
-99 statements. Expanded questions use new IDs, preserving retired
-snapshots and historical scores. The [completion record](bank/audit/REMAINING.md)
-holds the mappings and final bilingual blind reviews. Checklist completion does
-not mean coverage of every real exam question.
-
-The pack now clarifies trust identification data and periodic-return fields.
-Skill 2.3.0 adds source-first coverage mapping, condition/exception review and
-versioned evidence. On 18 October 2026, all 42 bilingual PDFs re-downloaded
-matched the archives, as did the substantive FAQ text. The current Ordinance
-page remains blocked, so the archived version is retained; see the
-[source record](docs/README.md).
-
-## Disclaimer
-
-C&ED publishes no answers beyond a few sample questions, so neither file can be
-guaranteed correct. Every answer has been checked against the sources, but the
-documents sometimes contradict each other or are unclear. Where they do, both
-files follow the reading judged most defensible, and
-[`revision/CONFLICT-CALLS.md`](revision/CONFLICT-CALLS.md) records each
-decision. Where anything here differs from a source, the source prevails.
-
-This is not an official product of the Customs and Excise Department. It does
-not speak for C&ED or any regulator, it does not replace the official texts, and
-nothing here is legal advice.
-
-## License
-
-| What | License |
+| Mode | What happens |
 |---|---|
-| The code, the question bank (`web/questions.json`), the revision pack (`revision/`) and the skill (`.claude/skills/exam-prep/`) | [MIT](LICENSE) |
-| The bundled fonts, DM Sans and DM Mono | [SIL OFL 1.1](web/fonts/OFL.txt) |
-| The official documents in `docs/` | Not licensed here: they are Hong Kong SAR Government publications, included for study reference only |
+| **Mock exam** | 35 random questions, five from each of seven parts, with a 75-minute timer. Submit to see your score, explanations and sources. |
+| **Custom practice** | Select one or more Parts 1–7. Work without a timer and see explanations after each answer. |
 
-[LICENSE-CONTENT.md](LICENSE-CONTENT.md) has the detail.
+A mock exam passes only with **at least 25/35 overall and no more than two
+wrong in any part**. A score of 32/35 can still fail if all three mistakes are
+in one part. The larger sections of the practice bank do not receive more
+questions in a mock exam.
+
+Each question has four to six statements and five combination options.
+Statements and their option references are reordered together at each draw.
+Distractors test conditions, actors, deadlines, thresholds and exceptions;
+each statement has its own explanation.
+
+## Your results
+
+Expand **Mock exam results and history** to review completed attempts or save
+them to a readable `.md` backup. History is stored in the browser; it does not
+sync between devices. **Export it before replacing the app, moving its file,
+switching browsers or clearing browser data.** You can load that backup in the
+new copy. An unfinished exam containing a retired question must be restarted;
+completed recorded scores are preserved.
+
+[Full user guide and troubleshooting](docs/USAGE.md)
+
+## What the bank covers
+
+| Part | Topic | Questions |
+|---|---|---:|
+| 1 | General AML/CFT and counter-proliferation financing | 60 |
+| 2 | AMLO Parts 1–7 | 75 |
+| 3 | AMLO Schedules | 65 |
+| 4 | C&ED guidelines | 80 |
+| 5 | Governance and strategy | 80 |
+| 6 | AML/CFT control areas | 100 |
+| 7 | Demonstrating and monitoring compliance | 65 |
+| **Total** | | **525** |
+
+The bank includes eight official sample questions. The remaining questions are
+authored practice material, not released past papers. The v1.9.0 expansion adds
+171 reviewed questions, retains 354 and retires three that depended on sources
+outside the selected library.
+
+- **01–26:** the only approved sources for active questions. External documents linked by a circular are not automatically included.
+- **27–47:** preserved historical reference, excluded from the active bank.
+- **Document 24:** English original only; related Chinese questions are labelled **study translations** and retain English deciding quotations.
+- **Document 25:** findings are explicitly attributed to the **2022** risk report, not presented as a live risk assessment.
+
+[Source-by-source accounting](docs/QUESTION-SOURCES.md) · [Current review evidence](bank/audit/ACTIVE-SCOPE.md)
+
+## Documentation and maintenance
+
+- **Study:** [User guide](docs/USAGE.md) and [26-document reading order](docs/README.md).
+- **Build and check:** [Development guide](DEVELOPMENT.md).
+- **Write or review questions:** [Question format](bank/FORMAT.md), [source maintenance](docs/SOURCE-MAINTENANCE.md) and [agent-neutral authoring workflow](docs/authoring/exam-prep/GUIDE.md).
+- **Find other documentation:** [Documentation index](docs/INDEX.md).
+
+Any human or coding agent can begin with [AGENTS.md](AGENTS.md). No particular
+agent, plugin or proprietary command is required. Historical reviews remain
+verifiable without being presented as reviews of later changes.
+
+The separately downloadable `mso-revision-pack.html` is a **legacy reference
+pack with its own older scope**. It is not a third app mode or a complete guide
+to the current bank; see its [scope and build notes](revision/README.md).
+
+## Limits and licensing
+
+This is a personal study scope, not the official exam syllabus or a guarantee
+of complete coverage. Source checks and independent review reduce errors but
+do not guarantee every answer. Refer to original publications and the
+[recorded source-conflict decisions](revision/CONFLICT-CALLS.md).
+This is not an official C&ED product or legal advice.
+
+Original code and authored material use the [MIT licence](LICENSE). Fonts use
+[SIL OFL](web/fonts/OFL.txt). Official publications, sample wording and quotations
+retain their publishers' rights; see [content licensing](LICENSE-CONTENT.md).

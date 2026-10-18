@@ -2,7 +2,7 @@
 
 [Back to focused reading](../README.md)
 
-21 publications retained for reference and bank-source verification, outside first-pass reading. This is a study selection, not a withdrawal finding. Some contain distinct examples or history; they are not additional daily required reading.
+21 publications retained for reference and historical bank-source verification. They cannot support active questions and are outside first-pass reading. This is a study selection, not a withdrawal finding. Some contain distinct examples or history; they are not additional daily required reading.
 
 | Current number | Publication and original | Reason / replacement reading |
 |---|---|---|

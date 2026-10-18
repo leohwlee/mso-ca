@@ -1,17 +1,39 @@
 # Development
 
+[Documentation index](docs/INDEX.md) · [User guide](docs/USAGE.md) · [Question format](bank/FORMAT.md)
+
 [繁體中文版 →](DEVELOPMENT.zh-Hant.md)
 
-## The mock exam
+## Build and verify
 
-The repository holds the app's parts (`web/`) and a small Go program that folds
-them into the single file. Building it requires Go ≥ 1.27 and nothing else.
+To use the app, [download the HTML](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html); no development tools are needed.
+For maintenance, install Go 1.27 or later, Node.js 22 or later, and Python 3.10 or later.
+Run the following from the repository root. They match the CI and release checks.
+Python tools use the standard library except source re-extraction, which additionally needs PyMuPDF.
+On Windows, use `py -3` if `python` opens the Microsoft Store; add `-X utf8` if the terminal cannot print Chinese.
 
 ```bash
-go test ./...                          # question-bank checks + vet
-go run . -export-html dist/mso-ca.html # build the single file
-python -m http.server 8321 -d web      # or: serve web/ while developing
+go vet ./...
+go test ./...
+node --test tests/*.test.cjs
+python -m unittest discover -s tests -p '*_test.py'
+python docs/build_catalog.py --check
+python bank/audit/active_scope.py --check
+python bank/audit/render_active_scope.py --check
+python bank/audit/report.py --check
+python bank/audit/terms_report.py --check
+python bank/audit/p1_report.py --check
+python bank/audit/remaining_report.py --check
+go run . -export-html dist/mso-ca.html
+python revision/pack_build.py dist/mso-revision-pack.html
 ```
+
+Open `dist/mso-ca.html` for the release build. For development, run
+`python -m http.server 8321 --bind 127.0.0.1 -d web` and visit
+`http://127.0.0.1:8321`. The app needs no backend or API keys.
+The separately built revision pack retains older source coverage; it is not a third app mode.
+
+## App and question checks
 
 The bank is `web/questions.json`. Every item has the shape of the real paper: a
 stem, four to six numbered statements, which of them are true, and five options
@@ -61,8 +83,9 @@ and quote `"doc": "03"` all mean the AML/CFT Guideline. Filenames and official
 sources and current locations are recorded in `docs/catalog.json` (`editions.path`).
 The daily folders hold 26 publications; archived sources remain under `docs/archive`
 with numbers 27–47; the daily set is continuously numbered 01–26, including
-companions. All 47 publications share one sequence. Only the original 23 bank
-sources have completed the bank's coverage review. Run `python docs/build_catalog.py --check`
+companions. All 47 publications share one sequence. The active question bank is restricted to 01–26. The original 23-source
+coverage reports are preserved as historical evidence; current review and
+coverage live in `bank/audit/active26-implementation.json`. Run `python docs/build_catalog.py --check`
 after source metadata or filename changes.
 
 Items are written as patches and checked before they reach the bank, with the
@@ -73,16 +96,17 @@ python bank/find.py EN 03 "target market"        # a passage in a source, with p
 python bank/apply.py next 3 15                   # the next unused ids in module 3
 python bank/apply.py check patch.json            # validate a patch
 python bank/apply.py apply patch.json            # generate the options, merge into the bank and quotes
-python bank/show.py m3-261                       # an item with its key, traps and notes
+python bank/show.py m3-322                       # an item with its key, traps and notes
 python bank/blind.py packet patch.json out.md    # the items without their answers, for a blind reviewer
 python bank/blind.py compare patch.json ans.json # the reviewer's verdicts against the truth
+python bank/review_packet.py patch.json review.json # keyless bilingual text and binding hashes
 ```
 
 `bank/combo.py` builds every option set from a catalogue of symmetric templates;
 nobody writes options by hand.
 
 The method behind that table, and behind the revision pack, is written up as a
-reusable skill: see [The skill](#the-skill) below.
+reusable, agent-neutral guide: see [Authoring workflow](#authoring-workflow) below.
 
 Fonts: DM Sans and DM Mono are embedded under the SIL Open Font License; Chinese
 text uses the operating system's fonts.
@@ -94,7 +118,7 @@ new-format filter, one-off converter and duplicate legacy JSON snapshots
 have been removed. That migration and the first repairs reserved 1,511 IDs in
 `bank/retired-ids.json`;
 `apply.py next` skips them and `apply.py check` rejects their reuse. The final
-completion wave reserves 12 further replaced IDs, for 1,523 in total.
+completion wave reserves 12 further replaced IDs, for 1,523 at that stage. The 01–26 scope change retires three more, for 1,526 in total.
 The original questions and quotes remain at commit
 `7787e991cc7a5c6eb0e22f1c9216ae133f2daf27` (`v1.7.5`):
 
@@ -136,24 +160,28 @@ python revision/pack_build.py dist/mso-revision-pack.html
 [`revision/README.md`](revision/README.md) covers its layout, the rules each page
 follows, and the review tools.
 
-## The skill
+## Authoring workflow
 
-[`.claude/skills/exam-prep/SKILL.md`](.claude/skills/exam-prep/SKILL.md) is the
+[`docs/authoring/exam-prep/GUIDE.md`](docs/authoring/exam-prep/GUIDE.md) is the
 method behind both files, written for any exam. It covers choosing and checking
 the sources, settling conflicts between them, and writing the study pack and the
 question bank. It also covers verifying every answer blind, guarding the bank
 with tests, and delivering the mock exam. The exam format is a spec the user
-defines, so nothing in the skill is tied to this exam; this repository is its
+defines, so nothing in the guide is tied to this exam; this repository is its
 reference implementation.
 
-Its version is in the file's front matter (`metadata.version`). Released skill
+Read the Markdown directly with any agent or editor; no plugin or slash command
+is required. The former preview-server configuration is replaced by the standard
+`python -m http.server 8321 --bind 127.0.0.1 -d web` command.
+
+The method's version is recorded in the guide introduction. Historical method
 versions are tagged `skill-vX.Y.Z` on their source commit. Those tags do not
 begin with `v`, so they never trigger a release. Source on `main` may be newer
 than the latest publicly released files; public releases require authorization.
 
 | Version | Date | First released in | What changed |
 |---|---|---|---|
-| 2.3.0 | 18 Oct 2026 | Source on `main`; see release tags | Adds source-first coverage audits, explicit semantic support checks, image-page and version evidence, scoring-history handling, and scope-aware review costs. Respects settled project decisions and authorization; moves conditional guard/tool detail into references. |
+| 2.3.0 | 18 Oct 2026 | v1.9.0 | Adds source-first coverage audits, explicit semantic support checks, image-page and version evidence, scoring-history handling, and scope-aware review costs. Respects settled project decisions and authorization; moves conditional guard/tool detail into references. |
 | 2.2.0 | 28 Sep 2026 | v1.7.5 | Adds calibrating a mechanical filter and a cheaper model on a judged sample before a bulk review, with the numbers from this repository's quote sweep. |
 | 2.1.0 | 28 Sep 2026 | v1.7.4 | Adds the options-only guesser to the guard catalogue, and what this repository measured once it had the new checks: stored deciding quotes, convergence and echo at chance, and the guesser's results. |
 | 2.0.0 | 28 Sep 2026 | v1.7.4 | Renamed `exam-prep`. Covers the study pack and the mock-exam app as well as the bank, and makes the exam format a spec the user defines. Adds the intake questions, the conflicts register, verification against the pack, the negation, echo and twin-statement tells, and briefs for subagents. |
@@ -175,6 +203,15 @@ changed for a candidate. Keep `--cleanup=whitespace`, or git drops every line
 that starts with `#`, Markdown headings included.
 
 ```bash
-git tag -a v1.7.2 --cleanup=whitespace -F notes.md
-git push origin v1.7.2
+git tag -a vX.Y.Z --cleanup=whitespace -F notes.md
+git push origin vX.Y.Z
 ```
+
+Before release, update the bilingual `CHANGELOG.md`, counts and candidate-facing changes.
+Run the complete checks above and open both HTML outputs. Review `git diff`, commit
+and push `main`, then replace `vX.Y.Z` with an unused version number.
+Save that version's release notes as `notes.md` and run the annotated-tag commands above.
+Confirm both CI and Release succeed in GitHub Actions, then verify the two release
+attachments and their download links. A successful tag push alone is not a published release.
+Never overwrite a published tag. Distribution is an offline HTML download through
+GitHub Releases; no separate server deployment is required.

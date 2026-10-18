@@ -195,6 +195,13 @@ def render(d,v):
         readme=[('- 通函15附件双语PDF第3–5页均已看原页；图内字段有绑定PDF版本的人工转录及独立复核。示例填写数字不出题。' if line.startswith('- 通函15附件的英文PDF') else line) for line in readme]
         readme=[('- 18日重新下载条例以外的42个双语PDF版本，均与归档一致；FAQ正文与官网相符。条例官网仍被客户端检查阻挡，未确认最新版本，沿用既定归档条例。' if line.startswith('- 23份归档仍为既定范围') else line) for line in readme]
         details[4]+=' 剩余任务及专项P3细节的最终落实见[完成记录](REMAINING.md)。'
+    if (HERE/'active26-implementation.json').exists():
+        readme = [
+            '> The original 23-source audit reports below describe the preserved historical',
+            '> baseline. Current 01–26 scope and additions are verified separately in',
+            '> [ACTIVE-SCOPE.md](ACTIVE-SCOPE.md). Historical completion is not current coverage.',
+            '',
+        ] + readme
     return {'README.md':'\n'.join(readme),'COVERAGE.md':'\n'.join(details)}
 
 def main():

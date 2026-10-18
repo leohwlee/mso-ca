@@ -1,0 +1,2032 @@
+{
+ "instructions": "Independently judge every statement against the cited local source in each language. Do not read keys, notes, patches or the bank. Return id, verdicts, tc_verdicts (T/F arrays), quotes (one deciding source excerpt per statement), doubts and tc_mismatch (empty strings when none). A language=en quote for doc24 is an English original supporting a clearly labelled Chinese study translation.",
+ "items": [
+  {
+   "id": "m5-115",
+   "module": 5,
+   "source": {
+    "en": "Trade-Based Money Laundering Risk Indicators p.2",
+    "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第2頁"
+   },
+   "en": {
+    "q": "Which statements about using trade-based money laundering indicators are correct?",
+    "statements": [
+     "Whether indicators suggest TBML depends partly on the institution’s business lines, products and services.",
+     "How the institution interacts with customers is excluded from interpreting the significance of indicators.",
+     "An institution’s human and technological resources are relevant when interpreting indications of TBML.",
+     "The customer’s full profile, trade financing methods and contextual risk factors should inform use of indicators."
+    ]
+   },
+   "tc": {
+    "q": "關於使用貿易洗錢風險指標，下列哪些陳述正確？",
+    "statements": [
+     "指標是否顯示貿易洗錢，部分取決於機構的業務類別、產品及服務。",
+     "機構與客戶的互動方式，不屬於解讀風險指標意義的考慮因素。",
+     "解讀貿易洗錢跡象時，機構的人力及科技資源屬相關考慮因素。",
+     "使用指標時，應考慮客戶的完整狀況、貿易融資方式及相關背景風險因素。"
+    ]
+   }
+  },
+  {
+   "id": "m6-471",
+   "module": 6,
+   "source": {
+    "en": "Trade-Based Money Laundering Risk Indicators p.3",
+    "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第3頁"
+   },
+   "en": {
+    "q": "Which statements about trade entities’ addresses and online presence are correct?",
+    "statements": [
+     "A likely mass-registration address without a specific unit is a structural risk indicator.",
+     "A business address unsuitable for the stated activity remains an indicator despite a reasonable explanation.",
+     "A website filled with copied boilerplate material can indicate a problematic online business presence.",
+     "A website showing poor knowledge of the traded product or industry is a structural risk indicator."
+    ]
+   },
+   "tc": {
+    "q": "關於貿易實體的地址及網上資料，下列哪些陳述正確？",
+    "statements": [
+     "疑似大量公司共用的註冊地址而沒有具體單位，屬結構性風險指標。",
+     "營業地址不適合申報業務，即使有合理解釋，仍符合此項風險指標。",
+     "網站主要充斥從其他網站抄錄的範本文字，可反映有問題的網上業務資料。",
+     "網站顯示對所交易產品或行業缺乏認識，屬結構性風險指標。"
+    ]
+   }
+  },
+  {
+   "id": "m6-472",
+   "module": 6,
+   "source": {
+    "en": "Trade-Based Money Laundering Risk Indicators p.3",
+    "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第3頁"
+   },
+   "en": {
+    "q": "Which statements about trade entities’ corporate structures and staffing are correct?",
+    "statements": [
+     "An unusually complex and illogical corporate structure involving shell companies is a risk indicator.",
+     "Registration or offices in a jurisdiction with weak AML/CFT compliance is a structural risk indicator.",
+     "A minimal workforce is a staffing indicator even when it matches the volume of traded commodities.",
+     "Nominee owners hiding beneficial ownership may reveal themselves through ignorance of transaction details."
+    ]
+   },
+   "tc": {
+    "q": "關於貿易實體的公司結構及人手，下列哪些陳述正確？",
+    "statements": [
+     "公司結構異常複雜且不合邏輯，並涉及空殼公司，屬風險指標。",
+     "在打擊洗錢及恐怖分子資金籌集合規薄弱地區設辦事處，屬風險指標。",
+     "僱員很少即屬人手風險指標，即使人手與商品交易量相符亦然。",
+     "代名擁有人掩飾實益擁有權，可能因不熟悉交易詳情而露出跡象。"
+    ]
+   }
+  },
+  {
+   "id": "m6-473",
+   "module": 6,
+   "source": {
+    "en": "Trade-Based Money Laundering Risk Indicators p.3",
+    "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第3頁"
+   },
+   "en": {
+    "q": "Which statements about trade entities’ business footprints are correct?",
+    "statements": [
+     "Missing routine payroll, operating-cost payments or tax remittances may indicate a lack of typical business activity.",
+     "An unrelated entity copying a famous corporation’s name may be trying to appear affiliated with that corporation.",
+     "Dormant periods are listed as structural risk indicators where they are adequately explained by the entity.",
+     "Failure to meet ordinary business obligations, such as filing VAT returns, is a structural risk indicator."
+    ]
+   },
+   "tc": {
+    "q": "關於貿易實體的業務活動跡象，下列哪些陳述正確？",
+    "statements": [
+     "缺乏正常薪金、營運開支付款或繳稅交易，可顯示缺少典型業務活動。",
+     "無關連實體模仿知名公司的名稱，可能試圖令人誤以為是該公司的一部分。",
+     "貿易實體對休眠期有充分解釋的情況，列作結構性風險指標。",
+     "未履行一般業務責任，例如提交增值稅申報表，屬結構性風險指標。"
+    ]
+   }
+  },
+  {
+   "id": "m6-474",
+   "module": 6,
+   "source": {
+    "en": "Trade-Based Money Laundering Risk Indicators p.4",
+    "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第4頁"
+   },
+   "en": {
+    "q": "Which statements about trade activity inconsistent with a customer’s business are correct?",
+    "statements": [
+     "A car dealer exporting clothing is an example of trade inconsistent with its stated line of business.",
+     "Numerous intermediaries in incongruent industries within a complex trade deal are a trade activity indicator.",
+     "Consistently low margins qualify under the listed indicator even when they are commercially reasonable.",
+     "Estimating a fair price for commodities outside an open market may make profit-margin assessment difficult."
+    ]
+   },
+   "tc": {
+    "q": "關於與客戶業務不一致的貿易活動，下列哪些陳述正確？",
+    "statements": [
+     "汽車經銷商出口服裝，是貿易活動與申報業務不一致的例子。",
+     "複雜貿易涉及多個業務不相稱行業的中介人，屬貿易活動風險指標。",
+     "持續低利潤率即符合所列指標，即使在商業上屬合理亦然。",
+     "估算非公開市場交易商品的公平價格，可能令利潤率評估困難。"
+    ]
+   }
+  },
+  {
+   "id": "m6-475",
+   "module": 6,
+   "source": {
+    "en": "Trade-Based Money Laundering Risk Indicators p.4",
+    "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第4頁"
+   },
+   "en": {
+    "q": "Which statements about trade financing and rapid business expansion are correct?",
+    "statements": [
+     "Purchases supposedly for an entity’s own account that clearly exceed its economic capacity are an indicator.",
+     "Sudden cash deposits financing excessive purchases are an example of the economic-capacity indicator.",
+     "The high-volume, high-value activity indicator applies to newly formed entities but excludes recently reactivated entities.",
+     "Mixing different trade finance products across segments of a transaction may show overly complex product use."
+    ]
+   },
+   "tc": {
+    "q": "關於貿易融資及業務快速擴張，下列哪些陳述正確？",
+    "statements": [
+     "聲稱為實體自身購買但明顯超出其經濟能力的商品採購，屬風險指標。",
+     "突然存入現金以融資超出能力的採購，是經濟能力不符指標的例子。",
+     "大量高額貿易活動的指標適用於新成立實體，但不包括近期重新活躍的實體。",
+     "在一項貿易的不同環節混用各種貿易融資產品，可能顯示產品運用過度複雜。"
+    ]
+   }
+  },
+  {
+   "id": "m7-193",
+   "module": 7,
+   "source": {
+    "en": "Trade-Based Money Laundering Risk Indicators p.5",
+    "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第5頁"
+   },
+   "en": {
+    "q": "Which statements about reviewing trade documents are correct?",
+    "statements": [
+     "A mismatch between an exporter’s name and the payment recipient’s name is a documentary risk indicator.",
+     "A price difference between an invoice and its underlying contract is a documentary risk indicator.",
+     "Generic descriptions of commodities on contracts can be a risk indicator when they are insufficiently specific.",
+     "An unusually simple internet-template contract is a listed concern for simple trades rather than ongoing complex trades."
+    ]
+   },
+   "tc": {
+    "q": "關於覆核貿易文件，下列哪些陳述正確？",
+    "statements": [
+     "出口商名稱與收款人名稱不一致，屬貿易文件風險指標。",
+     "貿易實體的發票價格與相關合同所列價格不符，屬貿易文件風險指標。",
+     "合同只籠統描述商品而不夠具體，可構成風險指標。",
+     "異常簡單的網上範本合同，所列風險針對一次性簡單貿易而非持續複雜貿易。"
+    ]
+   }
+  },
+  {
+   "id": "m7-194",
+   "module": 7,
+   "source": {
+    "en": "Trade-Based Money Laundering Risk Indicators p.5",
+    "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第5頁"
+   },
+   "en": {
+    "q": "Which statements about trade records and cross-border values are correct?",
+    "statements": [
+     "Repeated submission of previously rejected trade documents is among the listed documentary warning signs.",
+     "Significant mismatch between registered imports and foreign transfers for imports is an indicator.",
+     "Registered export values should be compared with outgoing foreign transfers under the listed export indicator.",
+     "Goods under temporary importation and inward processing later exported using false documents are an indicator."
+    ]
+   },
+   "tc": {
+    "q": "關於貿易紀錄及跨境款額，下列哪些陳述正確？",
+    "statements": [
+     "重新提交先前曾被拒絕的貿易或海關文件，屬所列的貿易文件警示跡象。",
+     "登記進口貨值與支付進口的海外轉帳金額嚴重不符，屬風險指標。",
+     "根據所列出口指標，應把登記出口貨值與匯往海外的款項比較。",
+     "按暫時進口及進料加工制度進口的商品，其後以偽造文件出口，屬風險指標。"
+    ]
+   }
+  },
+  {
+   "id": "m5-116",
+   "module": 5,
+   "source": {
+    "en": "Trade-Based Money Laundering Risk Indicators p.2",
+    "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第2頁"
+   },
+   "en": {
+    "q": "Which statements about organising information to identify trade-based money laundering are correct?",
+    "statements": [
+     "Some indicators require comparing financial transactions with customs data and open-market prices.",
+     "Their own customer records give private entities access to every listed indicator without input from public authorities.",
+     "Some indicators require further context from authorities, including law enforcement or financial intelligence units.",
+     "Within private businesses, relationship-management personnel fall outside the intended users of these indicators."
+    ]
+   },
+   "tc": {
+    "q": "關於整理資料以識別貿易洗錢，下列哪些陳述正確？",
+    "statements": [
+     "部分風險指標須把金融交易與海關資料及公開市場價格作交叉比較。",
+     "私營機構憑自身客戶紀錄，便可觀察全部所列指標，不需公營機構資料。",
+     "部分指標須從主管當局取得額外背景，例如執法部門或金融情報單位。",
+     "在私營企業內，客戶關係管理人員不在這些風險指標的預定使用者範圍內。"
+    ]
+   }
+  },
+  {
+   "id": "m7-195",
+   "module": 7,
+   "source": {
+    "en": "Trade-Based Money Laundering Risk Indicators p.6",
+    "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第6頁"
+   },
+   "en": {
+    "q": "Which statements about trade account payment patterns are correct?",
+    "statements": [
+     "Very late redirection of a payment to an unknown entity is a listed transaction activity indicator.",
+     "Rapid large flows and a small closing balance suggest a transit account when clear business reasons are absent.",
+     "Large round trade payments are an indicator regardless of whether they are usual in the sector.",
+     "A rapid significant increase in trade transactions followed shortly by dormancy is a listed indicator."
+    ]
+   },
+   "tc": {
+    "q": "關於貿易帳戶的付款模式，下列哪些陳述正確？",
+    "statements": [
+     "在最後一刻把付款改往不認識的實體，屬所列交易活動風險指標。",
+     "沒有清晰業務理由而大量款項快速流轉且日終餘額很小，屬過渡帳戶指標。",
+     "大額整數貿易付款屬風險指標，不論這種付款在所屬行業是否常見。",
+     "貿易交易量迅速大幅增加，短期後轉為休眠，屬所列風險指標。"
+    ]
+   }
+  },
+  {
+   "id": "m5-117",
+   "module": 5,
+   "source": {
+    "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.15",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.15段"
+   },
+   "en": {
+    "q": "According to the 2022 risk assessment report, which statements about C&ED’s supervisory risk model are correct?",
+    "statements": [
+     "Each MSO receives both an overall risk rating and an impact rating under the enhanced model.",
+     "The impact rating reflects the MSO’s number of premises rather than its annual turnover.",
+     "The two ratings form a matrix to determine the appropriate supervisory extent and priority.",
+     "The supervisory priority categories are high, medium-high, medium, medium-low and low."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年風險評估報告，關於海關的監管風險模型，下列哪些陳述正確？",
+    "statements": [
+     "每名金錢服務經營者在經改良模型下，同時獲整體風險評級及影響評級。",
+     "影響評級反映金錢服務經營者的處所數目，而不是其每年營業額。",
+     "兩類評級組合成總滙模型，以確定適當的監管範圍及優先次序。",
+     "監督優次類別分為高級、中高級、中級、中低級及低級五個級別。"
+    ]
+   }
+  },
+  {
+   "id": "m7-196",
+   "module": 7,
+   "source": {
+    "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.16",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.16段"
+   },
+   "en": {
+    "q": "According to the 2022 risk assessment report, which statements about information used to keep supervisory risk ratings current are correct?",
+    "statements": [
+     "Periodic risk profiling is among the avenues used to keep individual MSO ratings up-to-date.",
+     "Business plans and AML/CFT policies submitted by applicants or licensees inform ongoing risk assessment.",
+     "Feedback from on-site interviews is used alongside analysis of regular business returns.",
+     "Outreach results help formulate supervisory priority categories and refine risk-based supervisory strategies."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年風險評估報告，關於保持監管風險評級更新所用資料，下列哪些陳述正確？",
+    "statements": [
+     "定期評估風險狀況，是保持個別金錢服務經營者評級更新的方法之一。",
+     "業務計劃及打擊洗錢及恐怖分子資金籌集政策，是持續評估的資料。",
+     "實地面談收集的意見，與定期業務報表的分析一併用於評估。",
+     "外展工作的結果，有助制訂監督優次類別及改善風險為本監管策略。"
+    ]
+   }
+  },
+  {
+   "id": "m7-197",
+   "module": 7,
+   "source": {
+    "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.20",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.20段"
+   },
+   "en": {
+    "q": "According to the 2022 risk assessment report, which statements about off-site monitoring of MSOs are correct?",
+    "statements": [
+     "Off-site monitoring complements on-site inspections for MSOs with different risk profiles.",
+     "Routine off-site check-ups are reserved for MSOs already assessed as high risk.",
+     "Off-site work can collect advance information and provide a preliminary assessment before an on-site visit.",
+     "Selected MSOs must attend interviews at their own premises and provide documents within the specified period."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年風險評估報告，關於金錢服務經營者的非實地監察，下列哪些陳述正確？",
+    "statements": [
+     "非實地監察配合針對不同風險狀況金錢服務經營者的實地視察。",
+     "常規非實地查核的對象，排除了未被評為高風險的金錢服務經營者。",
+     "非實地工作可在實地視察前收集資料，並作初步評估。",
+     "獲選經營者須在自己的業務處所出席面談，並在指定期間提供文件。"
+    ]
+   }
+  },
+  {
+   "id": "m5-118",
+   "module": 5,
+   "source": {
+    "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.13",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.13段"
+   },
+   "en": {
+    "q": "According to the 2022 risk assessment report, which statements about the supervisory response to sector vulnerabilities are correct?",
+    "statements": [
+     "The report describes enhanced licensing requirements intended to be proper and proportionate.",
+     "The sector-wide outreach programme targeted existing licensees’ understanding of institutional risk.",
+     "Marginal MSOs identified during outreach could receive relevant guidance as supervisory follow-up.",
+     "Tailor-made training could be used to remedy deficiencies identified in marginal MSOs."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年風險評估報告，關於針對行業脆弱性的監管措施，下列哪些陳述正確？",
+    "statements": [
+     "報告指出加強發牌制度，目的是實施更適當合宜的發牌條件。",
+     "全行業外展計劃重點提升現有持牌人對機構風險的理解及意識。",
+     "在外展中發現稍低於標準的經營者，可獲相關指引作為監管跟進。",
+     "海關可提供專門培訓，以彌補稍低於標準的經營者所發現的不足。"
+    ]
+   }
+  },
+  {
+   "id": "m7-198",
+   "module": 7,
+   "source": {
+    "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.26",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.25段"
+   },
+   "en": {
+    "q": "According to the 2022 risk assessment report, which statements about capacity-building partnerships for MSOs are correct?",
+    "statements": [
+     "The reported outreach aimed to improve understanding of emerging trends and address sector shortcomings.",
+     "The reported improvements in suspicious transaction reporting concerned quantity, without any improvement in quality.",
+     "C&ED and InvestHK jointly organised capacity-building webinars for both local and overseas-based MSOs.",
+     "C&ED’s association collaboration exchanged industry practices and communicated new regulatory requirements."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年風險評估報告，關於提升金錢服務經營者能力的合作，下列哪些陳述正確？",
+    "statements": [
+     "報告指出外展工作旨在加強對新興趨勢的認識，並處理行業不足。",
+     "所述可疑交易報告的改善涉及數量，但不包括報告質量。",
+     "海關與投資推廣署合作，為本地及海外金錢服務經營者舉辦網絡研討會。",
+     "海關與業界協會合作，交換行業作業方式並傳達最新監管規定。"
+    ]
+   }
+  },
+  {
+   "id": "m5-119",
+   "module": 5,
+   "source": {
+    "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.27",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.26段"
+   },
+   "en": {
+    "q": "According to the 2022 risk assessment report, which statements about the territory-wide outreach programme launched in May 2020 are correct?",
+    "statements": [
+     "The programme sought to assist C&ED in assessing and determining individual MSOs’ risk profiles.",
+     "The programme aimed to replace each MSO’s own AML/CFT policy with one prescribed by C&ED.",
+     "The programme sought to address concerns and difficulties in adapting to the regulatory regime.",
+     "The programme addressed shortcomings alongside the implementation of risk-based monitoring."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年風險評估報告，關於2020年5月展開的全港外展計劃，下列哪些陳述正確？",
+    "statements": [
+     "計劃協助海關評估及確定個別金錢服務經營者的風險狀況。",
+     "計劃以海關政策取代業者自身的打擊洗錢及恐怖分子資金籌集政策。",
+     "計劃亦處理業界適應監管制度時所遇到的關注事項及困難。",
+     "計劃配合實行風險為本的監察工作，協助處理業界的不足之處。"
+    ]
+   }
+  },
+  {
+   "id": "m5-120",
+   "module": 5,
+   "source": {
+    "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.30",
+    "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.29段"
+   },
+   "en": {
+    "q": "According to the 2022 risk assessment report, which statements about the report’s next steps for the MSO sector are correct?",
+    "statements": [
+     "Innovation and new technology were to be encouraged to make AML/CFT compliance more efficient.",
+     "Special theme-based reviews were to focus proactively on low-risk areas of the sector.",
+     "Further study of cybercrime-related ML/TF/PF threats would inform supervisory measures and guidance.",
+     "Capability-building priorities covered risk understanding, reporting duties and TF/PF sanctions screening."
+    ]
+   },
+   "tc": {
+    "q": "根據2022年風險評估報告，關於報告就金錢服務業提出的下一步工作，下列哪些陳述正確？",
+    "statements": [
+     "鼓勵創新及新科技，旨在提升遵從打擊洗錢及恐怖分子資金籌集規定的效率。",
+     "計劃會積極進行特別的專題檢討，並將監管注意力集中在行業內的低風險範疇。",
+     "進一步研究網絡犯罪所帶來的洗錢、恐怖分子及擴散資金籌集威脅，以制訂措施及指引。",
+     "能力提升重點涵蓋風險理解、可疑交易舉報責任及恐怖分子與擴散資金籌集的制裁篩查。"
+    ]
+   }
+  },
+  {
+   "id": "m5-121",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶2.5, ¶2.9, ¶2.11–2.12",
+    "tc": "《打擊洗錢指引》第2.5, 第2.9, 第2.11–2.12段"
+   },
+   "en": {
+    "q": "An MSO adds remote onboarding and complex remittance routes while keeping the same staff and existing products. Which statements are correct?",
+    "statements": [
+     "Keeping the product names unchanged does not exempt the new delivery mechanism from risk assessment.",
+     "Because the workforce is unchanged, the old simple assessment necessarily remains sufficient for the business.",
+     "The MSO should assess risks before using the remote mechanism, rather than after its first customer.",
+     "The material change in delivery channels triggers review even if the last institutional assessment was recent."
+    ]
+   },
+   "tc": {
+    "q": "金錢服務經營者維持現有人手及產品，但加入遙距開戶及複雜匯款路線。下列哪些陳述正確？",
+    "statements": [
+     "產品名稱維持不變，並不使新的交付機制豁免風險評估。",
+     "由於人手不變，原有簡單風險評估必然仍足以應付業務。",
+     "經營者應在使用遙距機制前評估風險，而非接待首名客戶後才做。",
+     "交付渠道的重大改變會觸發覆核，即使最近才完成機構層面的風險評估。"
+    ]
+   }
+  },
+  {
+   "id": "m5-122",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶2.3, ¶2.8–2.10",
+    "tc": "《打擊洗錢指引》第2.3, 第2.8–2.10段"
+   },
+   "en": {
+    "q": "A financial group offers its Hong Kong MSO an overseas assessment that omits Hong Kong customers and delivery channels. Which statements are correct?",
+    "statements": [
+     "Overseas board approval permits reliance on the assessment despite its omission of the Hong Kong risks.",
+     "An amended group assessment can be relied on if it adequately captures the MSO’s local risks.",
+     "A locally completed assessment can bypass senior management approval because the group approved its own report.",
+     "The MSO should retain records showing its added local factors and evaluation of control adequacy."
+    ]
+   },
+   "tc": {
+    "q": "金融集團向香港經營者提供一份忽略香港客戶及交付渠道的海外評估。下列哪些陳述正確？",
+    "statements": [
+     "海外董事會批准後，經營者便可依賴這份遺漏香港風險的評估。",
+     "集團評估修訂後如充分反映經營者本地風險，便可予以依賴。",
+     "集團曾批准自己的報告，因此本地完成的評估可以免經高級管理層審批。",
+     "經營者應保存紀錄，顯示補充的本地因素及對管控充分程度的評估。"
+    ]
+   }
+  },
+  {
+   "id": "m5-123",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.2–3.3",
+    "tc": "《打擊洗錢指引》第3.2–3.3段"
+   },
+   "en": {
+    "q": "A small MSO has evidence of lower institutional risks but now suspects laundering in part of its business. Which statements are correct?",
+    "statements": [
+     "Its small size permits simplified systems to continue despite the newly identified suspicion.",
+     "Even before the suspicion arose, simplified systems did not authorise abandoning statutory CDD obligations.",
+     "The earlier low-risk assessment automatically excuses any further monitoring of system implementation.",
+     "The new suspicion can be ignored until the next two-year institutional assessment falls due."
+    ]
+   },
+   "tc": {
+    "q": "小型經營者原有較低機構風險的證據，但現在懷疑部分業務涉及洗錢。下列哪些陳述正確？",
+    "statements": [
+     "經營者規模細小，因此即使新出現懷疑，仍可繼續採用簡化制度。",
+     "即使在懷疑出現之前，簡化制度亦不代表可以放棄法定盡職審查責任。",
+     "先前的低風險評估，自動免除今後監察制度推行情況的工作。",
+     "新出現的懷疑可以暫不理會，待兩年一度機構評估到期再處理。"
+    ]
+   }
+  },
+  {
+   "id": "m5-124",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.5–3.8",
+    "tc": "《打擊洗錢指引》第3.5–3.8段"
+   },
+   "en": {
+    "q": "A two-person MSO proposes one senior manager as both CO and MLRO and reviews whether the arrangement is workable. Which statements are correct?",
+    "statements": [
+     "Holding both roles can be permissible depending on the MSO’s size rather than automatically prohibited.",
+     "Combining the roles transfers the senior management’s responsibility for effective systems to the JFIU.",
+     "The small size is relevant to operational independence but does not erase the need for sufficient knowledge.",
+     "Practicable arrangements for absence cover remain relevant even when both roles are held by one person."
+    ]
+   },
+   "tc": {
+    "q": "兩人經營的金錢服務商擬由一名高級管理人員兼任合規及洗錢報告主任，並評估安排是否可行。下列哪些陳述正確？",
+    "statements": [
+     "視乎經營者的規模，同一人兼任兩項職能可以獲准，並非自動被禁止。",
+     "合併兩項職務會把高級管理層推行有效制度的責任轉交財富情報組。",
+     "規模細小與營運獨立性有關，但不會取消具備充足專業知識的需要。",
+     "即使兩項職能由一人兼任，切實可行的缺勤替補安排仍然相關。"
+    ]
+   }
+  },
+  {
+   "id": "m5-125",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.6–3.9",
+    "tc": "《打擊洗錢指引》第3.6–3.9段"
+   },
+   "en": {
+    "q": "A board receives accurate AML figures, but unexplained codes make the dashboard unintelligible and serious defects are omitted. Which statements are correct?",
+    "statements": [
+     "Accurate figures make this dashboard acceptable despite the missing material deficiencies and unexplained codes.",
+     "The CO should raise significant compliance deficiencies with senior management where appropriate.",
+     "Using unexplained codes is acceptable merely because the dashboard arrived before the board meeting.",
+     "The board’s obligation to understand risks remains even though it appointed an experienced CO."
+    ]
+   },
+   "tc": {
+    "q": "董事會收到準確的打擊洗錢及恐怖分子資金籌集數字，但報表充滿未解釋代碼，並遺漏嚴重缺失。下列哪些陳述正確？",
+    "statements": [
+     "數字準確已令這份報表合格，即使遺漏重大缺失並使用未解釋代碼。",
+     "合規主任應在適當情況下向高級管理層提出重大的合規不足。",
+     "報表在董事會開會前送達，便足以使未解釋代碼的做法符合要求。",
+     "即使委任有經驗的合規主任，董事會仍有清楚了解風險的責任。"
+    ]
+   }
+  },
+  {
+   "id": "m5-126",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.11–3.13",
+    "tc": "《打擊洗錢指引》第3.11–3.13段"
+   },
+   "en": {
+    "q": "An MSO designs an audit after rapid business growth and discovers its compliance team has never been reviewed. Which statements are correct?",
+    "statements": [
+     "The audit plan should consider whether its frequency and extent still match the expanded business.",
+     "Reviewing the effectiveness of the compliance function belongs within the independent audit scope.",
+     "An appropriate external review can supplement the MSO’s own independent review arrangements.",
+     "Audit staff need sufficient expertise and resources as well as direct communication with senior management."
+    ]
+   },
+   "tc": {
+    "q": "經營者在業務迅速增長後設計審核，發現合規團隊從未接受覆核。下列哪些陳述正確？",
+    "statements": [
+     "審核計劃應考慮覆核頻密程度及範圍是否仍與擴大的業務相稱。",
+     "覆核合規職能是否有效，屬獨立審核應包含的範圍。",
+     "在適當情況下，外界覆核可補充經營者本身的獨立覆核安排。",
+     "審核人員須有充足專門知識及資源，並可直接與高級管理層溝通。"
+    ]
+   }
+  },
+  {
+   "id": "m5-127",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.15, ¶3.17–3.19",
+    "tc": "《打擊洗錢指引》第3.15、3.17–3.19段"
+   },
+   "en": {
+    "q": "A Hong Kong-incorporated MSO’s foreign financial subsidiary faces a law prohibiting the higher record-keeping standard. Which statements are correct?",
+    "statements": [
+     "The parent should notify the CCE of the inability to comply and take additional risk-mitigation measures.",
+     "The subsidiary must break the host law to give effect to the higher Hong Kong record-keeping standard.",
+     "Group information sharing remains subject to applicable laws and safeguards against tipping off.",
+     "A grocery subsidiary with no financial business falls under the financial-subsidiary rule through common ownership."
+    ]
+   },
+   "tc": {
+    "q": "香港成立的經營者之外地金融附屬企業，受法律禁止執行較嚴格的備存紀錄標準。下列哪些陳述正確？",
+    "statements": [
+     "母公司應通知關長未能遵從規定的情況，並採取額外減低風險措施。",
+     "附屬企業須違反當地法律，以執行較嚴格的香港備存紀錄標準。",
+     "集團共用資料仍受適用法律及防止通風報訊的保障措施限制。",
+     "不經營金融業務的雜貨附屬企業，因同屬集團而適用金融附屬企業規定。"
+    ]
+   }
+  },
+  {
+   "id": "m5-128",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶2.4–2.6",
+    "tc": "《打擊洗錢指引》第2.4–2.6段"
+   },
+   "en": {
+    "q": "An MSO assesses a new corridor with transparent ownership records but weak enforcement and an external audit reporting control failures. Which statements are correct?",
+    "statements": [
+     "Transparent ownership permits the assessment to disregard the findings about weak law enforcement.",
+     "The external audit findings belong among other institutional risk factors despite the corridor’s advantages.",
+     "The assessment may discard all qualitative evidence if transaction-volume statistics are available.",
+     "Control resources should be evaluated, including qualified staff’s access to continuing AML/CFT training."
+    ]
+   },
+   "tc": {
+    "q": "經營者評估一條新匯款路線：當地擁有權資料透明，但執法薄弱，外部審計亦發現管控缺失。下列哪些陳述正確？",
+    "statements": [
+     "擁有權透明容許評估不理會執法水平薄弱的發現。",
+     "即使匯款路線有優點，外部審計發現仍屬其他機構風險因素。",
+     "已有交易量統計，便容許評估丟棄全部定質證據。",
+     "應評估人員持續接受打擊洗錢及恐怖分子資金籌集培訓的資源。"
+    ]
+   }
+  },
+  {
+   "id": "m5-129",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶2.13–2.16",
+    "tc": "《打擊洗錢指引》第2.13–2.16段"
+   },
+   "en": {
+    "q": "A customer initially appears low risk, but CDD reveals a complex business and high-risk foreign links before onboarding is completed. Which statements are correct?",
+    "statements": [
+     "The initial low-risk score must stay unchanged until at least one transaction has been completed.",
+     "The newly established higher risks warrant more information and more extensive verification of it.",
+     "The final profile should inform both whether to onboard and the type of subsequent monitoring.",
+     "The final colour code, recorded without reasons, demonstrates the chosen CDD intensity is appropriate."
+    ]
+   },
+   "tc": {
+    "q": "客戶初步看似低風險，但在開戶完成前的盡職審查揭示複雜業務及高風險香港以外聯繫。下列哪些陳述正確？",
+    "statements": [
+     "初步低風險分數須保留不變，直至客戶完成最少一項交易。",
+     "新確定的較高風險，需要索取更多資料及作更深入核實。",
+     "最後風險狀況應影響是否開戶，以及其後持續監察的類別。",
+     "記下最終顏色代碼而不記理由，已足以證明盡職審查程度合適。"
+    ]
+   }
+  },
+  {
+   "id": "m5-130",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶2.4, ¶2.15",
+    "tc": "《打擊洗錢指引》第2.4, 第2.15段"
+   },
+   "en": {
+    "q": "An MSO introduces an algorithm that rates customers using nationality alone, ignoring products, transaction size and delivery channels. Which statements are correct?",
+    "statements": [
+     "The algorithm’s speed by itself establishes that the customer risk framework is sufficiently risk-based.",
+     "Delivery channels belong in the institutional assessment but fall outside customer-risk scoring.",
+     "The institution’s risk assessment results should inform the design of this customer-rating framework.",
+     "A framework for a large, varied business can ignore its complexity if every customer has a nationality code."
+    ]
+   },
+   "tc": {
+    "q": "經營者引入只按國籍評分的系統，忽略產品、交易規模及交付渠道。下列哪些陳述正確？",
+    "statements": [
+     "系統運作快速，本身足以證明客戶風險評估框架符合風險為本。",
+     "交付渠道屬機構層面評估因素，卻不在客戶風險評分的範圍內。",
+     "經營者應按機構層面的風險評估結果設計這個客戶風險評分框架。",
+     "每位客戶有國籍代碼，便容許大型多元業務框架忽略業務複雜性。"
+    ]
+   }
+  },
+  {
+   "id": "m5-131",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.9–3.10",
+    "tc": "《打擊洗錢指引》第3.9–3.10段"
+   },
+   "en": {
+    "q": "A compliance review finds poor staff training and an internal suspicion report awaiting evaluation; the CO and MLRO are different people. Which statements are correct?",
+    "statements": [
+     "Ensuring that the deficient training becomes adequate and effective belongs to the CO’s responsibilities.",
+     "The MLRO should oversee evaluation of the internal disclosure and the decision whether to report to JFIU.",
+     "The sales supervisor replaces the MLRO as the principal external contact because the customer is commercially important.",
+     "Guidance to prevent staff from tipping off this customer falls within the MLRO’s oversight functions."
+    ]
+   },
+   "tc": {
+    "q": "合規覆核發現職員培訓不足，另有內部懷疑報告待評估；合規與洗錢報告主任由不同人士擔任。下列哪些陳述正確？",
+    "statements": [
+     "合規主任應確保打擊洗錢及恐怖分子資金籌集培訓充足、適當及有效。",
+     "洗錢報告主任應監督內部披露評估，以及是否向財富情報組報告的決定。",
+     "客戶對業務重要，所以營業主管取代洗錢報告主任作為主要對外聯絡人。",
+     "向職員提供避免向此客戶通風報訊的指引，屬洗錢報告主任監督職能。"
+    ]
+   }
+  },
+  {
+   "id": "m5-132",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.17 and footnote 11",
+    "tc": "《打擊洗錢指引》第3.17段及註11"
+   },
+   "en": {
+    "q": "Subject to lawful sharing and confidentiality safeguards, an overseas financial branch asks its Hong Kong parent for relevant unusual-activity analysis. Which statements are correct?",
+    "statements": [
+     "The group framework can permit relevant information to flow from group-level functions back to the branch.",
+     "Existing analysis of apparently unusual activities should be included when the information-sharing conditions apply.",
+     "The fact that an STR was filed may be shared within the conditions stated for group information sharing.",
+     "The underlying information behind an STR can be included without making every internal report public."
+    ]
+   },
+   "tc": {
+    "q": "在合法共用及保密保障下，外地金融分行向香港母公司索取與風險管理相關的異常活動分析。下列哪些陳述正確？",
+    "statements": [
+     "集團框架可讓相關資料由集團層面職能回傳外地分行。",
+     "符合共用條件時，應包括已完成的看似異常活動分析。",
+     "按集團共用資料所訂條件，可以包括已提交可疑交易報告這項事實。",
+     "共用可包括可疑交易報告背後資料，並不代表須公開所有內部報告。"
+    ]
+   }
+  },
+  {
+   "id": "m5-133",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶2.3, ¶2.9–2.10",
+    "tc": "《打擊洗錢指引》第2.3, 第2.9–2.10段"
+   },
+   "en": {
+    "q": "An MSO completed its institutional assessment in January and acquires a materially different customer business in June. Which statements are correct?",
+    "statements": [
+     "The June acquisition requires consideration as a material trigger rather than waiting until the two-year date.",
+     "Management can give the June assessment directly to CCE instead of arranging senior management approval.",
+     "The assessment process should identify all relevant factors before deciding the appropriate mitigation level.",
+     "Retaining the June approval email permits destruction of the evidence used to assess the acquired business."
+    ]
+   },
+   "tc": {
+    "q": "經營者在一月完成機構層面的洗錢／恐怖分子資金籌集風險評估，六月收購客戶類別有重大不同的業務。下列哪些陳述正確？",
+    "statements": [
+     "六月收購須按重大觸發事件處理，而非等候兩年期限才考慮。",
+     "管理人員可直接把六月評估送交關長，取代安排高級管理層審批。",
+     "應在決定適當減低風險程度之前，考慮所有相關風險因素。",
+     "保留六月批准電郵，便可銷毁評估被收購業務時所用的證據。"
+    ]
+   }
+  },
+  {
+   "id": "m5-134",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶2.4(a), ¶2.4(c)–(e)",
+    "tc": "《打擊洗錢指引》第2.4(a), 第2.4(c)–(e)段"
+   },
+   "en": {
+    "q": "An MSO classifies findings from a business review: more high-risk customers, anonymous products, new agents and understaffed compliance. Which statements are correct?",
+    "statements": [
+     "The proportion of high-risk customers belongs to customer risk, even if the customer headcount is unchanged.",
+     "A product favouring anonymity is classified as a staffing-resource factor in this assessment.",
+     "Greater use of the agent network belongs to delivery-channel risk rather than customer nationality.",
+     "Reduced compliance staffing can be relevant even if customer and transaction totals remain stable."
+    ]
+   },
+   "tc": {
+    "q": "經營者把業務覆核發現分類：高風險客戶增加、匿名產品、新代理人及合規人手不足。下列哪些陳述正確？",
+    "statements": [
+     "即使客戶總數不變，高風險客戶的比例仍屬客戶風險因素。",
+     "有利匿名的產品，在評估中應分類為人手資源因素。",
+     "更多使用代理人網絡，屬交付渠道風險而不是客戶國籍因素。",
+     "即使客戶及交易總數穩定，合規人手減少仍可影響風險評估。"
+    ]
+   }
+  },
+  {
+   "id": "m5-135",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.8–3.10",
+    "tc": "《打擊洗錢指引》第3.8–3.10段"
+   },
+   "en": {
+    "q": "The MLRO goes on leave during an alert backlog; a junior temporary assistant has no record access and cannot contact management. Which statements are correct?",
+    "statements": [
+     "Merely naming an assistant establishes adequate cover even without authority or access to information.",
+     "Management should, as far as practicable, ensure the replacement arrangement has sufficient resources.",
+     "Any temporary cover must be appointed by the CCE before the MSO may allow access to its CDD files.",
+     "The backlog can be closed without reviewing disclosures because the designated MLRO is away."
+    ]
+   },
+   "tc": {
+    "q": "警報積壓期間洗錢報告主任休假；臨時初級助理無法取閱紀錄，亦不能聯絡管理層。下列哪些陳述正確？",
+    "statements": [
+     "指定一名沒有權力或資料權限的助理，仍可構成充分替補安排。",
+     "管理層應在切實可行範圍內，確保替補安排具備充足資源。",
+     "任何臨時替補均須先由關長委任，經營者才可讓其取閱盡職審查檔案。",
+     "指定洗錢報告主任不在，因此可不覆核披露便把積壓個案結束。"
+    ]
+   }
+  },
+  {
+   "id": "m5-136",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.4, ¶3.11–3.14",
+    "tc": "《打擊洗錢指引》第3.4, 第3.11–3.14段"
+   },
+   "en": {
+    "q": "An MSO recruits staff for a new branch and commissions an external audit of its new controls. Which statements are correct?",
+    "statements": [
+     "Recruitment through personal referrals can replace the MSO’s adequate employee-screening procedures.",
+     "An external audit appointment does not by itself remove the need for an ongoing employee training programme.",
+     "An audit confined to filing cabinets can omit staff awareness although staff perform AML/CFT duties.",
+     "The independent audit needs a direct communication line to senior management despite being externally supplied."
+    ]
+   },
+   "tc": {
+    "q": "經營者為新分行招聘職員，並委託外界審核新管控措施。下列哪些陳述正確？",
+    "statements": [
+     "透過熟人轉介招聘，可取代經營者適當僱員甄選程序。",
+     "委任外界審核本身，並不取消設立持續僱員培訓計劃的需要。",
+     "審核可省略負責打擊洗錢及恐怖分子資金籌集職員的意識水平。",
+     "即使由外界提供，獨立審核仍須能直接與經營者高級管理層溝通。"
+    ]
+   }
+  },
+  {
+   "id": "m5-138",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶2.7–2.8, ¶3.15–3.16",
+    "tc": "《打擊洗錢指引》第2.7–2.8, 第3.15–3.16段"
+   },
+   "en": {
+    "q": "A Hong Kong-incorporated MSO opens a domestic branch and a foreign remittance subsidiary, and considers a regional group assessment. Which statements are correct?",
+    "statements": [
+     "The local incorporation and branch structure bring a group-wide risk assessment into consideration.",
+     "A regional assessment is unusable merely because it is regional rather than worldwide.",
+     "The foreign remittance subsidiary needs similar CDD procedures to the extent that host law permits.",
+     "The foreign subsidiary can be omitted from group systems because no Hong Kong customers use it."
+    ]
+   },
+   "tc": {
+    "q": "香港成立的經營者開設本地分行及外地匯款附屬企業，並考慮採用地區集團評估。下列哪些陳述正確？",
+    "statements": [
+     "本地成立為法團並設分行的結構，涉及集團層面風險評估的要求。",
+     "評估在地區層面而非全球層面進行，便失去可供依賴的資格。",
+     "外地匯款附屬企業須在當地法律准許範圍內，設有相類盡職審查程序。",
+     "由於沒有香港客戶使用外地附屬企業，可把它排除於集團制度外。"
+    ]
+   }
+  },
+  {
+   "id": "m5-137",
+   "module": 5,
+   "source": {
+    "en": "Circular MSSB/MIS_01/2026, section 1",
+    "tc": "《打擊以貿易進行洗錢活動指引》通函，第1項"
+   },
+   "en": {
+    "q": "A trade customer develops several risk indicators and major profile changes. Which responses accord with the 2026 circular?",
+    "statements": [
+     "Escalation to senior management should wait until the MSO has proved the customer committed money laundering.",
+     "The reasonableness of the customer’s changed profile should be understood and assessed before additional controls are selected.",
+     "Training supporting the response should build risk awareness in both the first and second lines of defence.",
+     "Additional controls should be proportionate to the customer’s risks rather than copied without assessing the profile."
+    ]
+   },
+   "tc": {
+    "q": "貿易客戶出現多項風險指標，且狀況有相當程度改變。哪些應對符合2026年通函？",
+    "statements": [
+     "應等到經營者證實客戶犯洗錢罪後，才把情況上報高級管理層。",
+     "選擇額外管控前，應充分了解並評估客戶狀況轉變的合理性。",
+     "支持應對措施的培訓，應同時提升第一及第二道防線的風險意識。",
+     "額外管控應與客戶風險相稱，不能不評估狀況便照抄其他客戶安排。"
+    ]
+   }
+  },
+  {
+   "id": "m6-476",
+   "module": 6,
+   "source": {
+    "en": "Circular MSSB/MIS_01/2026, section 2",
+    "tc": "《打擊以貿易進行洗錢活動指引》通函，第2項"
+   },
+   "en": {
+    "q": "A newly incorporated trade company has almost no assets, employees or active business. Which statements reflect the 2026 circular?",
+    "statements": [
+     "The lack of an operating history makes this type of customer automatically suitable for simplified due diligence.",
+     "The MSO should proactively consider anti-fraud procedures to scrutinise customer information and transaction genuineness.",
+     "The originator belongs within the shell-company assessment, while the recipient falls outside its scope.",
+     "The MSO should consider funds-source and wealth-source information to understand the customer’s profile better."
+    ]
+   },
+   "tc": {
+    "q": "新成立貿易公司幾乎沒有資產、僱員或活躍業務。哪些陳述符合2026年通函？",
+    "statements": [
+     "這類客戶缺乏營運歷史，便自動適合採用簡化盡職審查。",
+     "經營者應主動考慮反欺詐程序，審查客戶資料及核實交易真實性。",
+     "空殼公司評估範圍涵蓋匯款人，卻把收款人排除在外。",
+     "經營者應考慮索取資金來源及財富來源資料，以更有效了解客戶狀況。"
+    ]
+   }
+  },
+  {
+   "id": "m6-477",
+   "module": 6,
+   "source": {
+    "en": "Circular MSSB/MIS_01/2026, section 3",
+    "tc": "《打擊以貿易進行洗錢活動指引》通函，第3項"
+   },
+   "en": {
+    "q": "A monitoring alert concerns trade payments inconsistent with a customer’s history. Which responses follow the 2026 circular?",
+    "statements": [
+     "Closing the alert without sufficient analysis is acceptable if the trade documents have a professional appearance.",
+     "Appropriate enquiries or additional CDD information can help establish whether grounds for suspicion exist.",
+     "The reasonableness assessment can consider the customer’s risk profile, funds and wealth sources and historical transactions.",
+     "The monitoring system may wait for proof of criminal conduct before generating an alert on unusual transactions."
+    ]
+   },
+   "tc": {
+    "q": "監察警報涉及與客戶過往紀錄不符的貿易付款。哪些處理符合2026年通函？",
+    "statements": [
+     "貿易文件外觀專業，便可在沒有充分分析下結束警報。",
+     "適當查詢或額外盡職審查資料，可協助識別是否有懷疑理據。",
+     "合理性評估可考慮客戶風險狀況、資金及財富來源，以及交易歷史。",
+     "監察系統可等待證實犯罪後，才對不尋常交易發出警報。"
+    ]
+   }
+  },
+  {
+   "id": "m6-478",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.2.1–4.2.5",
+    "tc": "《打擊洗錢指引》第4.2.1–4.2.5段"
+   },
+   "en": {
+    "q": "A walk-in customer requests three linked occasional wire transfers of HK$3,000 to the same recipient within an hour. Which statements are correct?",
+    "statements": [
+     "The total of HK$9,000 reaches the occasional wire-transfer CDD threshold despite each transfer being smaller.",
+     "The same recipient and short timeframe are relevant when judging whether the payments are linked.",
+     "Calling each payment a separate order conclusively prevents aggregation for the CDD threshold.",
+     "If laundering is suspected, the CDD duty would apply even had the linked total stayed below HK$8,000."
+    ]
+   },
+   "tc": {
+    "q": "街客在一小時內要求向同一收款人作三筆有關連的非經常電傳轉帳，每筆3,000港元。下列哪些陳述正確？",
+    "statements": [
+     "合共9,000港元達到非經常電傳轉帳的盡職審查門檻，即使每筆較小。",
+     "同一收款人及短暫時間間隔，是判斷付款是否有關連的因素。",
+     "把每筆付款稱作獨立訂單，便可分開計算每筆的盡職審查門檻。",
+     "如懷疑洗錢，即使有關連總額仍低於8,000港元，亦須盡職審查。"
+    ]
+   }
+  },
+  {
+   "id": "m6-479",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.2–4.3.5",
+    "tc": "《打擊洗錢指引》第4.3.2–4.3.5段"
+   },
+   "en": {
+    "q": "An individual presents an unexpired foreign passport and supplies a residential address, but staff insist only Hong Kong identity cards are acceptable. Which statements are correct?",
+    "statements": [
+     "An unexpired passport is an example of a source that can support identity verification.",
+     "The customer’s nationality forms part of the minimum identification information to obtain.",
+     "Because a passport was shown, staff may omit obtaining any residential address information.",
+     "The document’s photograph helps meet the identification-document requirement for this individual."
+    ]
+   },
+   "tc": {
+    "q": "個人客戶出示未過期外國護照及提供住址，但職員堅持只接受香港身份證。下列哪些陳述正確？",
+    "statements": [
+     "未過期護照是可用來支持身分核實的文件例子。",
+     "客戶的國籍屬最低限度應收集的身分識別資料。",
+     "客戶出示護照，即可讓職員省略索取其住址資料。",
+     "證件上的照片有助符合對此個人的身分證明文件要求。"
+    ]
+   }
+  },
+  {
+   "id": "m6-480",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.4.6–4.4.9",
+    "tc": "《打擊洗錢指引》第4.4.6–4.4.9段"
+   },
+   "en": {
+    "q": "A company is owned 25% by May and 75% by a holding company; Ken ultimately controls management without owning shares. Which statements are correct?",
+    "statements": [
+     "May qualifies as a beneficial owner through her holding of exactly 25% of the issued share capital.",
+     "Ken’s ultimate management control can make him a beneficial owner despite having no shares.",
+     "The MSO can stop at the holding company without identifying the relevant ultimate natural persons.",
+     "Identifying Ken as the controlling person removes the need to use the senior-managing-official fallback."
+    ]
+   },
+   "tc": {
+    "q": "美持有公司25%股本，控股公司持有75%；健沒有股份但最終控制管理。下列哪些陳述正確？",
+    "statements": [
+     "美正好持有已發行股本25%，已憑此達到實益擁有人的股權標準。",
+     "健即使沒有股份，仍可因最終管理控制權而是實益擁有人。",
+     "經營者可停留於控股公司層面，不識別相關最終自然人。",
+     "已識別健為控制的自然人，便毋須改用高級管理人員後備安排。"
+    ]
+   }
+  },
+  {
+   "id": "m6-481",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.4.13–4.4.18",
+    "tc": "《打擊洗錢指引》第4.4.13–4.4.18段"
+   },
+   "en": {
+    "q": "A corporate customer has nominees and bearer shares, some held by a registered custodian and some not deposited with one. Which statements are correct?",
+    "statements": [
+     "For the custodied shares, independent evidence should identify the custodian and persons entitled to attached rights.",
+     "For uncustodied shares, one declaration on opening removes the need for annual declarations thereafter.",
+     "The nominee arrangement requires evidence of both the nominee and the person for whom the nominee acts.",
+     "Ownership changes in uncustodied bearer shares may wait for the next annual declaration before notification."
+    ]
+   },
+   "tc": {
+    "q": "公司客戶有代名人及持票人股份，部分股份由註冊保管人持有，部分未存放於保管人。下列哪些陳述正確？",
+    "statements": [
+     "已保管股份須有獨立證據，識別保管人及享有股份所附權利的人。",
+     "未保管股份在開戶時聲明一次，即可免除其後每年索取聲明的需要。",
+     "代名人安排須取得代名人及其所代表行事人士的身分證據。",
+     "未保管持票人股份的擁有權轉變，可等下次年度聲明才通知。"
+    ]
+   }
+  },
+  {
+   "id": "m6-482",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.5.4, ¶4.10.5; FAQ applicable to all MSOs, Q9",
+    "tc": "《打擊洗錢指引》第4.5.4, 第4.10.5段；適用於所有金錢服務經營者的常見問題第9題"
+   },
+   "en": {
+    "q": "A company sends one properly authorised employee, who is neither a director nor an owner, to establish a relationship face to face. Which statements are correct?",
+    "statements": [
+     "The employee may act without being a director or beneficial owner, provided the authority is properly established.",
+     "One authorised natural person physically attending can meet the stated face-to-face attendance requirement.",
+     "The employee’s identity card serves as evidence of the company’s authorisation to establish the relationship.",
+     "Copies of the company’s verification documents may require additional measures to mitigate the increased risk."
+    ]
+   },
+   "tc": {
+    "q": "公司派一名獲適當授權、但並非董事或擁有人的僱員，親身建立業務關係。下列哪些陳述正確？",
+    "statements": [
+     "僱員如已獲適當授權，可代表公司行事，毋須必然是董事或實益擁有人。",
+     "一名獲授權自然人親身到場，可符合所述會面開戶的人數要求。",
+     "僱員的身份證可作為公司授權其建立業務關係的證據。",
+     "如使用公司核實文件的複本，可能須以額外措施減低增加的風險。"
+    ]
+   }
+  },
+  {
+   "id": "m6-483",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.7.3–4.7.4",
+    "tc": "《打擊洗錢指引》第4.7.3–4.7.4段"
+   },
+   "en": {
+    "q": "Verification remains incomplete after an MSO exceptionally starts a relationship; the customer now requests an unexplained payment to a stranger. Which statements are correct?",
+    "statements": [
+     "Pending verification, appropriate limits should restrict the number, types or amounts of transactions.",
+     "The request qualifies for the third-party-payment exception simply because the customer urgently wants it.",
+     "If verification misses the set timeframe, the unexplained request is particularly relevant to considering an STR.",
+     "Having accepted the relationship prevents the MSO from including suspension among its follow-up actions."
+    ]
+   },
+   "tc": {
+    "q": "經營者例外地先建立關係，但身分核實仍未完成；客戶現要求向陌生人付款而無合理解釋。下列哪些陳述正確？",
+    "statements": [
+     "身分核實仍未完成期間，經營者應適當限制可進行交易的次數、類別或款額。",
+     "客戶急於付款，便足以符合向第三方付款的例外安排。",
+     "如核實超出所訂時限，無合理解釋的付款要求尤其值得考慮可疑交易報告。",
+     "既已接受業務關係，經營者便不能把暫停關係列為跟進行動。"
+    ]
+   }
+  },
+  {
+   "id": "m6-484",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.11.1–4.11.2, ¶4.11.5–4.11.7",
+    "tc": "《打擊洗錢指引》第4.11.1–4.11.2, 第4.11.5–4.11.7段"
+   },
+   "en": {
+    "q": "An MSO relies on an eligible intermediary’s own CDD; the intermediary plans to cease trading and has been slow to supply records. Which statements are correct?",
+    "statements": [
+     "A promise to supply underlying records on cessation is relevant and should have been secured from the intermediary.",
+     "Sample retrieval tests from time to time can check whether documents are produced without undue delay.",
+     "The MSO must classify the arrangement as outsourcing because the intermediary applied its own CDD procedures.",
+     "If doubts arise about earlier CDD, reliance can continue unchanged because eligibility cures any earlier defects."
+    ]
+   },
+   "tc": {
+    "q": "經營者依賴合資格中介人的自身盡職審查；中介人計劃停業，且供應紀錄一向緩慢。下列哪些陳述正確？",
+    "statements": [
+     "應取得中介人在停業時提供相關紀錄的承諾，這項承諾在此仍然重要。",
+     "不時抽樣測試取閱紀錄，可檢查文件是否能不受不當延誤地提供。",
+     "中介人採用自己的盡職審查程序，因此經營者必須把安排列為外判。",
+     "即使對早前盡職審查產生疑慮，中介人合資格仍可使經營者維持原有依賴。"
+    ]
+   }
+  },
+  {
+   "id": "m6-485",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.10.1–4.10.4",
+    "tc": "《打擊洗錢指引》第4.10.1–4.10.4段"
+   },
+   "en": {
+    "q": "A remote individual customer is verified through a digital identification system recognised by CCE as reliable and independent. Which statements are correct?",
+    "statements": [
+     "The specified digital-system exception can remove the additional-measure requirement for non-face-to-face identification.",
+     "Every commercial identity app qualifies for the non-face-to-face exception if the customer finds the app convenient.",
+     "Outside an exception, the extent of extra measures should reflect the product characteristics and assessed risks.",
+     "Where supplementary measures are used, the MSO should be able to show they adequately guard against impersonation."
+    ]
+   },
+   "tc": {
+    "q": "遙距個人客戶透過關長認可為可靠及獨立來源的數碼識別系統核實身分。下列哪些陳述正確？",
+    "statements": [
+     "所述數碼系統例外，可免除非會面身分識別的額外措施要求。",
+     "客戶覺得方便，便可讓商業身分應用程式符合這項例外。",
+     "不屬例外時，額外措施程度應反映產品特點及所評估的風險。",
+     "使用補充措施時，經營者應能證明措施可充分防範冒認身分風險。"
+    ]
+   }
+  },
+  {
+   "id": "m6-486",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶5.2, ¶5.6, ¶5.8; FAQ applicable to all MSOs, Q22",
+    "tc": "《打擊洗錢指引》第5.2, 第5.6, 第5.8段；適用於所有金錢服務經營者的常見問題第22題"
+   },
+   "en": {
+    "q": "A customer uses several accounts in different business lines; each looks ordinary separately, but combined activity has changed substantially. Which statements are correct?",
+    "statements": [
+     "A holistic monitoring approach can require considering the accounts together across business lines.",
+     "The CDD file can remain untouched until the next routine review regardless of material trigger events.",
+     "The monitoring system’s thresholds should be documented and independently validated rather than assumed effective.",
+     "An intermediary can assist with collecting updated CDD information without replacing the MSO’s ongoing duty."
+    ]
+   },
+   "tc": {
+    "q": "客戶使用不同業務線的多個帳戶；逐個看似正常，但合併活動已大幅改變。下列哪些陳述正確？",
+    "statements": [
+     "整體監察方法可要求跨業務線一併考慮這些帳戶。",
+     "無論有何重大觸發事件，盡職審查檔案均可留待下次例行覆核。",
+     "應記錄及獨立驗證監察系統門檻，而非假設門檻有效。",
+     "中介人可協助收集更新的盡職審查資料，但不會取代經營者的持續責任。"
+    ]
+   }
+  },
+  {
+   "id": "m6-487",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶5.10–5.12, ¶5.14",
+    "tc": "《打擊洗錢指引》第5.10–5.12, 第5.14段"
+   },
+   "en": {
+    "q": "An unusual payment is explained satisfactorily after enquiries, but the enquiry also reveals a lasting change in the customer’s business. Which statements are correct?",
+    "statements": [
+     "The MSO may conclude there are no grounds for suspicion from the transaction after a satisfactory explanation.",
+     "The absence of suspicion prevents the MSO from updating the customer’s risk profile using the new information.",
+     "The findings and reasons for closing the enquiry should be recorded in writing and remain available for authorised review.",
+     "If the explanation had been unsatisfactory, the Guideline would require an automatic conclusion of suspicion."
+    ]
+   },
+   "tc": {
+    "q": "查詢後，不尋常付款獲滿意解釋，但亦揭示客戶業務有持續性的改變。下列哪些陳述正確？",
+    "statements": [
+     "經滿意解釋後，經營者可斷定此交易沒有懷疑理據。",
+     "沒有懷疑便妨礙經營者利用新資料更新客戶風險狀況。",
+     "應以書面記錄查詢發現及結束理由，並備供獲授權覆核。",
+     "如解釋未能令人滿意，指引便要求自動斷定已有懷疑。"
+    ]
+   }
+  },
+  {
+   "id": "m6-488",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.12–6.15",
+    "tc": "《打擊洗錢指引》第6.12–6.15段"
+   },
+   "en": {
+    "q": "A low-risk customer appears on a newly announced UN list not yet implemented through Hong Kong legislation. Which statements are correct?",
+    "statements": [
+     "The MSO may ignore the new entry entirely until local legislation catches up with the UN announcement.",
+     "The internal database should be updated in a timely manner and be accessible to relevant staff.",
+     "A consolidated database helps detect possible designated parties as well as prohibited transactions.",
+     "Training can be omitted for sanctions staff because a commercial database supplies the list automatically."
+    ]
+   },
+   "tc": {
+    "q": "低風險客戶出現在新公布、尚未經香港立法實施的聯合國名單。下列哪些陳述正確？",
+    "statements": [
+     "在本地立法追上聯合國公告前，經營者可不處理新名單項目。",
+     "內部數據庫應及時更新，並讓相關職員容易取閱。",
+     "綜合數據庫有助識別可能被指認各方，以及偵測被禁止交易。",
+     "商業數據庫自動供應名單，因此可省略制裁職員培訓。"
+    ]
+   }
+  },
+  {
+   "id": "m6-489",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.7–10.9; FAQ applicable to all MSOs, Q25 and Guideline footnote 70",
+    "tc": "《打擊洗錢指引》第10.7–10.9段；適用於所有金錢服務經營者的常見問題第25題及指引註腳70"
+   },
+   "en": {
+    "q": "An ordering MSO processes a wire transfer without an account number after previously verifying the originator under the applicable requirements. Which statements are correct?",
+    "statements": [
+     "A substitute unique reference number must still permit the transfer to be traced.",
+     "Previously compliant identity verification can make the required originator information deemed accurate.",
+     "The ordering MSO has no discretion to verify again even if this particular case warrants it.",
+     "Any customer identification number used must refer to a record held by the beneficiary institution."
+    ]
+   },
+   "tc": {
+    "q": "匯款機構處理沒有帳戶號碼的電傳轉帳，並已按適用規定核實匯款人。下列哪些陳述正確？",
+    "statements": [
+     "替代的獨特參考編號仍須使該筆電傳轉帳可被追蹤。",
+     "先前符合規定的身分核實，可使所需匯款人資料視作準確。",
+     "即使此個案有需要，匯款機構亦沒有酌情再核實資料的權力。",
+     "所用客戶識別號碼須指向收款機構所保存的紀錄。"
+    ]
+   }
+  },
+  {
+   "id": "m6-490",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.10, ¶10.12–10.13",
+    "tc": "《打擊洗錢指引》第10.10, 第10.12–10.13段"
+   },
+   "en": {
+    "q": "An ordering MSO batches one originator’s overseas transfers and separately sends domestic transfers without full originator details. Which statements are correct?",
+    "statements": [
+     "The overseas batch file should include the required recipient information as well as required accurate originator information.",
+     "For the incomplete domestic transfer, complete originator information must be available immediately on a law-enforcement request.",
+     "Regular audit or internal-control testing can help identify outgoing transfers missing required information.",
+     "Finding an information-control defect calls for timely rectification, alongside risk-based handling policies."
+    ]
+   },
+   "tc": {
+    "q": "匯款機構把同一匯款人的海外轉帳批量處理，另有本地轉帳未附完整匯款人資料。下列哪些陳述正確？",
+    "statements": [
+     "海外批量檔案除所需準確匯款人資料外，亦應包含所需收款人資料。",
+     "本地轉帳未附完整資料時，執法機構要求後應即時可取得完整匯款人資料。",
+     "定期審核或內部管控測試，可協助識別欠缺所需資料的匯出轉帳。",
+     "發現資料管控缺失時，應及時糾正，並備有風險為本處理政策。"
+    ]
+   }
+  },
+  {
+   "id": "m6-491",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.15–10.16, ¶10.19",
+    "tc": "《打擊洗錢指引》第10.15–10.16, 第10.19段"
+   },
+   "en": {
+    "q": "A cross-border transfer loses accompanying information when an intermediary converts it to a domestic message because of technical limits. Which statements are correct?",
+    "statements": [
+     "The intermediary may discard the received information once the domestic transfer has been completed.",
+     "The intermediary should use reasonable measures consistent with straight-through processing to detect missing information.",
+     "Every transfer with missing information must automatically be executed because the problem is technical.",
+     "The beneficiary institution may include post-event monitoring among measures to detect missing required information."
+    ]
+   },
+   "tc": {
+    "q": "跨境轉帳因技術限制，在中介機構轉為本地訊息時未能保留隨附資料。下列哪些陳述正確？",
+    "statements": [
+     "本地轉帳完成後，中介機構便可丟棄收到的資料。",
+     "中介機構應採取與直接處理方式相符的合理措施，識別缺漏資料。",
+     "欠缺資料被歸類為技術問題，因此每筆此類轉帳均須自動執行。",
+     "收款機構可把事後監察列為識別缺少所需資料的措施。"
+    ]
+   }
+  },
+  {
+   "id": "m6-492",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.19–10.22",
+    "tc": "《打擊洗錢指引》第10.19–10.22段"
+   },
+   "en": {
+    "q": "A beneficiary institution receives a HK$9,000 wire transfer with meaningless originator information; the recipient’s identity was previously verified. Which statements are correct?",
+    "statements": [
+     "Prior verification means the amount alone does not require the recipient’s identity to be verified afresh.",
+     "The prior recipient verification makes meaningless originator information acceptable without risk-mitigation steps.",
+     "Risk-based handling procedures should determine execution, rejection or suspension and suitable follow-up.",
+     "Domestic transfers fall outside the duty to detect missing required information that applies to international transfers."
+    ]
+   },
+   "tc": {
+    "q": "收款機構收到9,000港元轉帳，匯款人資料無意義；收款人身分先前已核實。下列哪些陳述正確？",
+    "statements": [
+     "既已核實身分，毋須僅因轉帳款額而再次核實收款人身分。",
+     "收款人已核實，便使無意義的匯款人資料可在不減低風險下接受。",
+     "應按風險為本程序決定執行、拒絕或暫停，並作適當跟進。",
+     "本地轉帳不在適用於跨境轉帳的識別欠缺所需資料責任範圍內。"
+    ]
+   }
+  },
+  {
+   "id": "m6-493",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.10, ¶4.3.12, ¶4.4.11–4.4.12",
+    "tc": "《打擊洗錢指引》第4.3.10, 第4.3.12, 第4.4.11–4.4.12段"
+   },
+   "en": {
+    "q": "A trustee establishes a relationship for a family trust whose beneficiaries are defined as the settlor’s children. Which statements are correct?",
+    "statements": [
+     "The trustee acting for the trust should also be regarded as a customer and have its identity verified.",
+     "Defining beneficiaries by class removes the need to obtain information about that class before payout.",
+     "Any protector and any other natural person with ultimate control belong within the relevant identification exercise.",
+     "A redacted trust deed suffices even where exceptional circumstances do not justify its use."
+    ]
+   },
+   "tc": {
+    "q": "受託人為家族信託建立關係，受益人按財產授予人的子女類別界定。下列哪些陳述正確？",
+    "statements": [
+     "代表信託行事的受託人亦應視為客戶，並核實其身分。",
+     "按類別界定受益人，可免除在付款前取得該類別相關資料的需要。",
+     "任何保護人及其他有最終控制權的自然人，屬相關識別工作的範圍。",
+     "經編輯的信託契據仍然足夠，即使缺乏支持採用的特殊情況。"
+    ]
+   }
+  },
+  {
+   "id": "m6-494",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.12 and footnote 37, ¶4.9.24–4.9.25; FAQ applicable to all MSOs, Q21",
+    "tc": "《打擊洗錢指引》第4.9.12段及註37, 第4.9.24–4.9.25段；適用於所有金錢服務經營者的常見問題第21題"
+   },
+   "en": {
+    "q": "A former non-Hong Kong PEP supplies the name of a sending bank and says retirement automatically ended all enhanced checks. Which statements are correct?",
+    "statements": [
+     "Knowing the sending bank’s name establishes the activity that generated the particular funds.",
+     "A fixed period out of office does not by itself automatically end the former PEP’s enhanced measures.",
+     "Source of wealth is the origin of the particular remittance, rather than the person’s overall wealth.",
+     "Suitable overseas senior management may approve where the MSO’s organisational arrangements support this."
+    ]
+   },
+   "tc": {
+    "q": "一名已卸任非香港政治人物提供匯出銀行名稱，並稱退休自動終止一切更嚴格審查。下列哪些陳述正確？",
+    "statements": [
+     "知道匯出銀行名稱，已能確立產生該筆特定資金的活動。",
+     "卸任達某固定年期，本身不會自動終止前政治人物的更嚴格措施。",
+     "財富來源是這筆特定匯款的來源，而不是當事人的整體財富來源。",
+     "如符合組織及風險管理安排，合適的海外高級管理人員可作審批。"
+    ]
+   }
+  },
+  {
+   "id": "m6-495",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline ¶4.4.5; Circular MSSB/MIS_01/2024, controls 6, 8–9 and 11",
+    "tc": "《打擊洗錢指引》第4.4.5段；第三方付款通函，管控措施第6、8至9及11項"
+   },
+   "en": {
+    "q": "An individual receives frequent funding from an unrelated payer, but claims there is no need to identify anyone beyond the named customer. Which statements are correct?",
+    "statements": [
+     "Indications that the customer acts for someone else should prompt enquiries about beneficial ownership.",
+     "The payer may itself be the true beneficial owner, a possibility the MSO should consider.",
+     "Difficulty verifying the relationship with the unrelated payer is a reason to exercise less scrutiny.",
+     "Documented enquiry findings and corroboration help demonstrate the third-party payment’s acceptance assessment."
+    ]
+   },
+   "tc": {
+    "q": "個人客戶經常由無關連付款人提供資金，卻稱毋須識別客戶以外任何人。下列哪些陳述正確？",
+    "statements": [
+     "有跡象顯示客戶代表他人行事時，應就實益擁有權作適當查詢。",
+     "付款人本身可能才是真正實益擁有人，經營者應留意這種可能。",
+     "難以核實與無關連付款人的關係，是應減少審查的理由。",
+     "記錄查詢發現及佐證，有助顯示如何評估是否接納第三方付款。"
+    ]
+   }
+  },
+  {
+   "id": "m6-496",
+   "module": 6,
+   "source": {
+    "en": "Circular MSSB/MIS_01/2024, controls 2, 6, 8–9",
+    "tc": "第三方付款通函，管控措施第2、6及8至9項"
+   },
+   "en": {
+    "q": "An MSO is asked to accept payments by one unregulated person for several unrelated customers, without a credible commercial explanation. Which statements are correct?",
+    "statements": [
+     "Repeated payments by the same person establish low risk simply because the payer is familiar to staff.",
+     "The reasons and need for the payments, payer identity and customer relationship should be critically assessed.",
+     "The MSO can replace management approval with the customer’s written assurance that the payment is legitimate.",
+     "Potentially suspicious activity calls for enquiries and investigation; a report does not require proof of laundering."
+    ]
+   },
+   "tc": {
+    "q": "經營者被要求接受同一未受規管人士為多個無關連客戶付款，卻沒有可信的商業解釋。下列哪些陳述正確？",
+    "statements": [
+     "職員熟悉反覆付款的同一人，即可把相關重複付款評為低風險。",
+     "應審慎評估付款理由及需要、付款人身分，以及其與客戶的關係。",
+     "經營者可用客戶聲稱付款合法的書面保證，取代管理層批准。",
+     "可能可疑的活動須查詢及調查，提交報告並不要求先證實洗錢。"
+    ]
+   }
+  },
+  {
+   "id": "m7-199",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.1, ¶7.5, ¶7.19",
+    "tc": "《打擊洗錢指引》第7.1, 第7.5, 第7.19段"
+   },
+   "en": {
+    "q": "A customer abandons a HK$2,000 remittance when asked for details, but the MSO has already formed a laundering suspicion. Which statements are correct?",
+    "statements": [
+     "Abandoning the payment does not remove the reporting obligation arising from the formed suspicion.",
+     "The HK$2,000 amount exempts the case from reporting because it is below the wire-transfer CDD threshold.",
+     "The report should include the information on which the suspicion is based, despite the incomplete transaction.",
+     "The MSO must wait for the customer to return before it is permitted to submit an STR."
+    ]
+   },
+   "tc": {
+    "q": "客戶被要求提供詳情後放棄2,000港元匯款，但經營者已形成洗錢懷疑。下列哪些陳述正確？",
+    "statements": [
+     "放棄付款不會取消因已形成懷疑而產生的舉報責任。",
+     "2,000港元低於電傳轉帳盡職審查門檻，因此可豁免舉報。",
+     "即使交易未完成，報告亦應載有構成懷疑基礎的資料。",
+     "經營者必須等客戶再次到來，才獲准提交可疑交易報告。"
+    ]
+   }
+  },
+  {
+   "id": "m7-200",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.12–7.16",
+    "tc": "《打擊洗錢指引》第7.12–7.16段"
+   },
+   "en": {
+    "q": "A cashier suspects a valued customer, but a sales manager without compliance duties proposes suppressing the internal report to protect revenue. Which statements are correct?",
+    "statements": [
+     "The sales manager may filter the report because preserving a major relationship is a business necessity.",
+     "Consultation with a supervisor can be permitted, but the report must reach the MLRO without undue delay.",
+     "Reporting to the MLRO under the established procedure satisfies the cashier’s statutory reporting obligation.",
+     "The internal report may omit why the cashier is suspicious if the customer’s name is supplied."
+    ]
+   },
+   "tc": {
+    "q": "收銀員懷疑重要客戶，但沒有合規職責的營業經理建議壓下內部報告以保障收入。下列哪些陳述正確？",
+    "statements": [
+     "保留重要客戶是業務需要，因此營業經理可篩除這份報告。",
+     "可容許先與主管商討，但報告須不受不當延誤地送達洗錢報告主任。",
+     "收銀員按既定程序向洗錢報告主任舉報後，已履行個人的法定舉報責任。",
+     "內部報告已提供客戶姓名，便可省略收銀員懷疑的原因。"
+    ]
+   }
+  },
+  {
+   "id": "m7-201",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.17–7.19",
+    "tc": "《打擊洗錢指引》第7.17–7.19段"
+   },
+   "en": {
+    "q": "The MLRO sees one suspicious transfer and discovers connected accounts, while further information gathering could take several weeks. Which statements are correct?",
+    "statements": [
+     "The MLRO should consider relevant CDD and monitoring information rather than judging only the isolated transfer.",
+     "Connected-account patterns are preferably reviewed on a relationship basis rather than transaction by transaction.",
+     "The MLRO should delay reporting formed suspicion until the search for every potentially connected account is complete.",
+     "The review process and its conclusions should both be documented, including the reasons for the eventual decision."
+    ]
+   },
+   "tc": {
+    "q": "洗錢報告主任發現一筆可疑轉帳及相關帳戶，但收集更多資料可能需數星期。下列哪些陳述正確？",
+    "statements": [
+     "洗錢報告主任應考慮相關盡職審查及監察資料，而非只看孤立轉帳。",
+     "相關帳戶交易模式宜按業務關係層面覆核，而非逐筆孤立處理。",
+     "洗錢報告主任應延遲舉報已形成的懷疑，直至完成搜尋每個可能相關帳戶。",
+     "洗錢報告主任的覆核過程及所得結論均應記錄，包括作出最終決定的理據。"
+    ]
+   }
+  },
+  {
+   "id": "m7-202",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.17, ¶7.20, ¶7.29",
+    "tc": "《打擊洗錢指引》第7.17, 第7.20, 第7.29段"
+   },
+   "en": {
+    "q": "After reviewing all available information in good faith, an MLRO concludes that an internal report does not justify suspicion. Which statements are correct?",
+    "statements": [
+     "The mere existence of an internal report compels an external STR regardless of the MLRO’s assessment.",
+     "The MLRO should keep records of deliberations and actions to demonstrate that the decision was reasonable.",
+     "The internal-report register should indicate that the matter did not result in a report to JFIU.",
+     "The absence of an external STR permits deletion of the identities of staff who handled the internal report."
+    ]
+   },
+   "tc": {
+    "q": "洗錢報告主任真誠考慮所有可取得資料後，認為內部報告不構成懷疑。下列哪些陳述正確？",
+    "statements": [
+     "內部報告必須對外舉報，即使洗錢報告主任已評估並確定沒有懷疑。",
+     "洗錢報告主任應保存考慮及行動紀錄，證明決定是合理作出。",
+     "內部報告登記冊應記明此事未導致向財富情報組提交報告。",
+     "既沒有對外報告，便可刪除處理內部報告職員的身分紀錄。"
+    ]
+   }
+  },
+  {
+   "id": "m7-203",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.21–7.23",
+    "tc": "《打擊洗錢指引》第7.21–7.23段"
+   },
+   "en": {
+    "q": "A customer under investigation requests immediate cash collection and account closure, while the MSO prepares its initial STR. Which statements are correct?",
+    "statements": [
+     "The urgency should be indicated in the STR because the customer is seeking imminent movement of funds.",
+     "Where exceptional urgency exists, an initial telephone notification to JFIU should be considered.",
+     "The initial report is recommended to state any intention to terminate the business relationship.",
+     "Relevant JFIU and CCE feedback should inform report quality even when the report is urgent."
+    ]
+   },
+   "tc": {
+    "q": "正受調查的客戶要求即時取現及結束帳戶，經營者正在準備首次可疑交易報告。下列哪些陳述正確？",
+    "statements": [
+     "客戶要求即時移動款項，因此應在報告中註明急切情況。",
+     "如有例外的緊急情況，應考慮先以電話通知財富情報組。",
+     "首次向財富情報組提交報告時，獲建議列明終止業務關係的意向。",
+     "即使報告緊急，仍應考慮財富情報組及關長的反饋以確保質量。"
+    ]
+   }
+  },
+  {
+   "id": "m7-204",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.24–7.26",
+    "tc": "《打擊洗錢指引》第7.24–7.26段"
+   },
+   "en": {
+    "q": "An MSO reports a proposed transaction before acting and receives JFIU consent, then asks what protection the response provides. Which statements are correct?",
+    "statements": [
+     "The pre-transaction defence relates to disclosed acts performed with the JFIU’s consent.",
+     "The consent certifies that all future activity in the account is free from money laundering risk.",
+     "The statutory defence removes all reputational risks connected with continuing the relationship.",
+     "If imminent action becomes necessary, the MSO should act appropriately and seek legal advice where necessary."
+    ]
+   },
+   "tc": {
+    "q": "經營者在執行擬議交易前舉報，並獲財富情報組同意，現評估同意帶來的保障。下列哪些陳述正確？",
+    "statements": [
+     "交易前舉報的免責辯護，關乎經財富情報組同意而執行的已披露作為。",
+     "財富情報組的同意證明帳戶未來的一切活動，均不存在任何洗錢風險。",
+     "法定免責辯護取消經營者繼續業務關係所涉及的一切聲譽風險。",
+     "如須採取即時行動，經營者應適當應對，並在有需要時尋求法律意見。"
+    ]
+   }
+  },
+  {
+   "id": "m7-205",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.25, ¶7.27",
+    "tc": "《打擊洗錢指引》第7.25, 第7.27段"
+   },
+   "en": {
+    "q": "An MSO reports on its own initiative after a transaction and then proposes continuing the customer relationship without further assessment. Which statements are correct?",
+    "statements": [
+     "A post-transaction report can qualify for the defence if its timing and initiative meet the applicable conditions.",
+     "Filing the STR by itself makes any further review of risks in the continuing customer relationship unnecessary.",
+     "A relationship review should take place upon filing, regardless of any later feedback from JFIU.",
+     "Where escalation is necessary, JFIU replaces the MSO’s senior management in deciding how to handle the relationship."
+    ]
+   },
+   "tc": {
+    "q": "經營者在交易後主動舉報，其後提議不作進一步評估便繼續客戶關係。下列哪些陳述正確？",
+    "statements": [
+     "交易後舉報須符合適用的時限及主動舉報條件，才可取得免責辯護。",
+     "提交可疑交易報告本身，就使進一步覆核關係風險變得不必要。",
+     "提交報告時應覆核業務關係，不論財富情報組其後有何反饋。",
+     "有需要上報時，由財富情報組取代經營者高級管理層決定如何處理關係。"
+    ]
+   }
+  },
+  {
+   "id": "m7-206",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.12–7.16, ¶7.28",
+    "tc": "《打擊洗錢指引》第7.12–7.16, 第7.28段"
+   },
+   "en": {
+    "q": "A staff member reported suspicious cash transactions last month; the same customer now requests a different suspicious remittance. Which statements are correct?",
+    "statements": [
+     "The earlier report does not discharge the need to report the newly suspicious remittance to the MLRO.",
+     "The MLRO should consider whether a further report to JFIU is appropriate on the new information.",
+     "The reporting procedure may insert several commercial approvals between staff and the MLRO for valuable customers.",
+     "The MLRO’s acknowledgement of the new internal report should remind the staff member about tipping off."
+    ]
+   },
+   "tc": {
+    "q": "職員上月曾舉報可疑現金交易；同一客戶現要求另一類可疑匯款。下列哪些陳述正確？",
+    "statements": [
+     "較早報告不會免除把新可疑匯款報告予洗錢報告主任的需要。",
+     "洗錢報告主任應按新資料考慮是否適宜再向財富情報組報告。",
+     "重要客戶的舉報程序可在職員及洗錢報告主任之間加入多重商業批准。",
+     "洗錢報告主任確認收到新內部報告時，應提醒職員注意通風報訊。"
+    ]
+   }
+  },
+  {
+   "id": "m7-207",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.29–7.30",
+    "tc": "《打擊洗錢指引》第7.29–7.30段"
+   },
+   "en": {
+    "q": "An MSO builds one electronic register for internal disclosures and reports submitted to JFIU. Which statements are correct?",
+    "statements": [
+     "Combining the registers is permissible if the MSO considers the combined arrangement appropriate.",
+     "The combined design should retain details identifying the person who made each external STR.",
+     "The internal records should include assessment results and information allowing the supporting papers to be located.",
+     "Combining the registers still requires a record of internal reports that never produced an external STR."
+    ]
+   },
+   "tc": {
+    "q": "經營者建立一個電子登記冊，同時記錄內部披露及已交財富情報組的報告。下列哪些陳述正確？",
+    "statements": [
+     "經營者如認為合適，可以合併內部及對外報告登記冊。",
+     "合併設計仍應保留能識別每份對外可疑交易報告提交者的詳情。",
+     "內部紀錄應包括評估結果，以及可找出相關文件的資料。",
+     "即使合併登記冊，仍須記錄未導致提交對外報告的內部舉報。"
+    ]
+   }
+  },
+  {
+   "id": "m7-208",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.31–7.32, ¶7.35",
+    "tc": "《打擊洗錢指引》第7.31–7.32, 第7.35段"
+   },
+   "en": {
+    "q": "An MSO receives a production order about a customer and expects difficulty meeting the deadline. Which statements are correct?",
+    "statements": [
+     "The MSO should contact the investigation’s officer-in-charge at the earliest opportunity about the timing difficulty.",
+     "Accurate documents favourable to the customer fulfil the order even if other documents within its scope are withheld.",
+     "The order proves the customer is an offender, so no consideration of victim status is needed.",
+     "The MSO should assess the relationship risks and need for a customer review in a timely manner."
+    ]
+   },
+   "tc": {
+    "q": "經營者收到關於客戶的提交物料令，預期難以在限期內遵從。下列哪些陳述正確？",
+    "statements": [
+     "經營者應盡早就時間上的困難聯絡調查主管人員。",
+     "準確而有利客戶的文件已履行命令，即使扣起其範圍內其他文件。",
+     "命令證明客戶是犯罪者，因而可排除客戶可能是受害人的情況。",
+     "經營者應及時評估關係風險及有否需要覆核客戶。"
+    ]
+   }
+  },
+  {
+   "id": "m7-209",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.33–7.34",
+    "tc": "《打擊洗錢指引》第7.33–7.34段"
+   },
+   "en": {
+    "q": "A restraint order identifies particular funds in a customer relationship during an investigation, before any conviction. Which statements are correct?",
+    "statements": [
+     "The MSO must ensure it can withhold the particular property identified as the subject of the restraint order.",
+     "The order restrains every asset in the relationship despite expressly specifying particular funds.",
+     "Starting the investigation means the court has already confiscated the defendant’s criminal proceeds before conviction.",
+     "The MSO should consider whether any property outside the order may be used consistently with Hong Kong law."
+    ]
+   },
+   "tc": {
+    "q": "調查期間且尚未定罪，限制令指定客戶關係內某些款項。下列哪些陳述正確？",
+    "statements": [
+     "經營者必須確保本身能夠扣起限制令指定涵蓋的特定款項或財產。",
+     "即使命令明確指定若干款項，關係內每項資產亦必然受限制。",
+     "開始調查，已表示法院在定罪前充公了被告的犯罪得益。",
+     "經營者應考慮命令以外財產是否有任何可按香港法律使用。"
+    ]
+   }
+  },
+  {
+   "id": "m7-210",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶8.4, ¶8.6, ¶8.8",
+    "tc": "《打擊洗錢指引》第8.4, 第8.6, 第8.8段"
+   },
+   "en": {
+    "q": "A relationship ends on 30 June 2025; a transaction under it was completed on 1 March 2024. No longer-retention notice is initially in place. Which statements are correct?",
+    "statements": [
+     "The relationship CDD records should be retained for at least five years after 30 June 2025.",
+     "The March 2024 transaction records can be destroyed when the relationship ends in June 2025.",
+     "The minimum clocks for the CDD file and the transaction record start from different events in this case.",
+     "A later written CCE notice can require retention beyond the ordinary five-year periods."
+    ]
+   },
+   "tc": {
+    "q": "業務關係於2025年6月30日終止，其中一項交易於2024年3月1日完成；最初沒有延長保存通知。下列哪些陳述正確？",
+    "statements": [
+     "關係的盡職審查紀錄應在2025年6月30日後至少保存五年。",
+     "2024年3月交易紀錄，可在2025年6月關係終止時銷毁。",
+     "此例中，盡職審查檔案及交易紀錄的最低保存期由不同事件起計。",
+     "關長其後的書面通知，可要求超過一般五年期限繼續保存。"
+    ]
+   }
+  },
+  {
+   "id": "m7-211",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶8.4–8.6",
+    "tc": "《打擊洗錢指引》第8.4–8.6段"
+   },
+   "en": {
+    "q": "An MSO completes a HK$8,000 occasional wire transfer and a separate HK$120,000 occasional currency exchange. Which statements are correct?",
+    "statements": [
+     "The wire transfer reaches the threshold at which its CDD records should be retained for at least five years after its date.",
+     "The currency exchange falls outside the CDD retention threshold because HK$120,000 does not exceed that threshold.",
+     "Records of a domestic currency exchange can be excluded from the transaction record-keeping requirement.",
+     "The retained transaction documents should permit reconstruction of each transaction where evidence is needed."
+    ]
+   },
+   "tc": {
+    "q": "經營者完成一筆8,000港元非經常電傳轉帳，以及另一筆120,000港元非經常貨幣兌換。下列哪些陳述正確？",
+    "statements": [
+     "電傳轉帳達到門檻，應在交易日後最少保存五年盡職審查紀錄。",
+     "貨幣兌換120,000港元未超過門檻，因而未達盡職審查紀錄保存要求。",
+     "即使經營者曾執行本地貨幣兌換，仍可把相關紀錄排除於交易備存紀錄要求之外。",
+     "保留的交易文件應足以在需要證據時重新組合每項交易。"
+    ]
+   }
+  },
+  {
+   "id": "m7-212",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶8.2, ¶8.7–8.9",
+    "tc": "《打擊洗錢指引》第8.2, 第8.7–8.9段"
+   },
+   "en": {
+    "q": "An MSO scans original identity documents to a computer database and stores customer records outside Hong Kong. Which statements are correct?",
+    "statements": [
+     "Keeping a document copy in a computer database is one permitted method for retaining documentary records.",
+     "Overseas storage exempts the records from the Hong Kong legal and regulatory requirements applicable to the MSO.",
+     "Authorised authorities and auditors should still be able to obtain CDD and transaction records swiftly.",
+     "A cloud-storage contract overrides any CCE written requirement to keep specified records for longer."
+    ]
+   },
+   "tc": {
+    "q": "經營者把身分文件正本掃描存入電腦數據庫，並把客戶紀錄存放香港以外。下列哪些陳述正確？",
+    "statements": [
+     "把文件複本存入電腦數據庫，是保留文件紀錄的容許方式之一。",
+     "香港以外存放可使紀錄豁免經營者所受的香港法律及監管要求。",
+     "有適當授權的當局及審核人員，仍應能迅速取得盡職審查及交易紀錄。",
+     "雲端儲存合約可凌駕關長要求延長保存指定紀錄的書面通知。"
+    ]
+   }
+  },
+  {
+   "id": "m7-213",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶8.10–8.12",
+    "tc": "《打擊洗錢指引》第8.10–8.12段"
+   },
+   "en": {
+    "q": "An eligible intermediary carries out CDD and holds the underlying identity documents; its services will terminate next month. Which statements are correct?",
+    "statements": [
+     "The MSO should already have obtained the data or information gathered in carrying out the CDD measure.",
+     "Underlying documents requested from the intermediary should be supplied as soon as reasonably practicable.",
+     "When the service ends, the MSO should ensure the documents and records are passed to it.",
+     "The intermediary’s custody does not transfer the MSO’s record-keeping responsibility away from the MSO."
+    ]
+   },
+   "tc": {
+    "q": "合資格中介人已完成盡職審查並持有相關身分文件，下月將終止服務。下列哪些陳述正確？",
+    "statements": [
+     "經營者應已取得中介人進行盡職審查措施時所得的數據或資料。",
+     "向中介人要求的相關文件，應在合理地切實可行範圍內盡快提供。",
+     "服務終止時，經營者應確保中介人把文件及紀錄交給自己。",
+     "文件由中介人保管，不會把經營者的備存紀錄責任轉走。"
+    ]
+   }
+  },
+  {
+   "id": "m7-214",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶8.3 and footnote 66",
+    "tc": "《打擊洗錢指引》第8.3段及註66"
+   },
+   "en": {
+    "q": "A customer email chain contains casual greetings, a major change of account operations and explanations obtained during CDD. Which statements are correct?",
+    "statements": [
+     "Correspondence material to CDD or significant account changes belongs in the minimum retained business correspondence.",
+     "The Guideline necessarily requires keeping every casual greeting in the chain, regardless of relevance.",
+     "Analysis of the unusual transaction can be discarded if the customer later supplies a plausible explanation.",
+     "The rule about sufficient correspondence does not remove the duty to keep records obtained during EDD."
+    ]
+   },
+   "tc": {
+    "q": "客戶電郵往來包含日常問候、帳戶操作重大改變，以及盡職審查中取得的解釋。下列哪些陳述正確？",
+    "statements": [
+     "關乎盡職審查或帳戶重大改變的通信，屬最低限度應保存的業務通信。",
+     "指引必然要求保留每則日常問候，不論與合規是否有關。",
+     "客戶其後提供合理解釋，便可丟棄對不尋常交易所作分析。",
+     "通信只須足夠的規則，不會取消保存更嚴格盡職審查所得紀錄的責任。"
+    ]
+   }
+  },
+  {
+   "id": "m7-215",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶9.1–9.5",
+    "tc": "《打擊洗錢指引》第9.1–9.5段"
+   },
+   "en": {
+    "q": "A newly hired senior manager says previous industry experience makes induction unnecessary, while new digital products change staff responsibilities. Which statements are correct?",
+    "statements": [
+     "Seniority alone does not remove the need for initial training as soon as possible after appointment.",
+     "Training should be tailored to the changed risks and to the staff’s actual responsibilities and experience.",
+     "A well-designed digital control system can be undermined if the people operating it are inadequately trained.",
+     "A clear training policy should ensure relevant staff receive adequate AML/CFT training as their duties evolve."
+    ]
+   },
+   "tc": {
+    "q": "新聘高級經理稱過往行業經驗足以免除入職培訓，同時新數碼產品改變了職員職責。下列哪些陳述正確？",
+    "statements": [
+     "資歷高本身不會取消委任後盡快接受初步培訓的需要。",
+     "培訓應按改變的風險，以及職員實際職責與經驗調整。",
+     "即使數碼管控制度設計完善，操作人員培訓不足亦可能損害成效。",
+     "政策應確保職員獲充分打擊洗錢及恐怖分子資金籌集培訓。"
+    ]
+   }
+  },
+  {
+   "id": "m7-216",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶9.5–9.6",
+    "tc": "《打擊洗錢指引》第9.5–9.6段"
+   },
+   "en": {
+    "q": "An MSO prepares different courses for tellers, settlement staff, internal auditors and the MLRO. Which statements are correct?",
+    "statements": [
+     "Tellers’ training may cover relevant CDD records and circumstances requiring extra vigilance with customers.",
+     "Settlement staff’s lack of face-to-face customer contact permits them to omit unusual-payment training.",
+     "Internal audit officers may appropriately receive higher-level AML/CFT training and training on system checks.",
+     "The MLRO’s specialist reporting course can replace every need to keep abreast of broader AML/CFT developments."
+    ]
+   },
+   "tc": {
+    "q": "經營者為櫃員、交收職員、內部審核人員及洗錢報告主任準備不同課程。下列哪些陳述正確？",
+    "statements": [
+     "櫃員培訓可包括相關盡職審查紀錄，以及面對客戶須特別警惕的情況。",
+     "交收職員沒有與客戶面對面接觸，因而獲准省略異常付款培訓。",
+     "審核人員可接受高層次打擊洗錢及恐怖分子資金籌集及制度檢查培訓。",
+     "洗錢報告主任的舉報課程可取代掌握打擊洗錢及恐怖分子資金籌集發展。"
+    ]
+   }
+  },
+  {
+   "id": "m7-217",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶9.6–9.8",
+    "tc": "《打擊洗錢指引》第9.6–9.8段"
+   },
+   "en": {
+    "q": "After moving training online, an MSO records only total logins, uses outdated slides and has employees who repeatedly miss sessions. Which statements are correct?",
+    "statements": [
+     "Using online learning does not remove the need to show that training materials reflect current requirements.",
+     "Aggregate login totals establish which staff received each type of training and when they received it.",
+     "The online format allows training records to be discarded one year after completion of the course.",
+     "Following up unexplained absences and reviewing internal-report quality can help assess training effectiveness."
+    ]
+   },
+   "tc": {
+    "q": "培訓改為網上後，經營者只記總登入次數、沿用過時教材，且有職員反覆缺席。下列哪些陳述正確？",
+    "statements": [
+     "使用網上學習不會免除證明教材符合現行規定的需要。",
+     "總登入次數已能確立誰人在何時接受何種培訓。",
+     "網上形式容許在課程完成一年後丟棄培訓紀錄。",
+     "跟進無理缺席及檢視內部報告質量，可協助評估培訓成效。"
+    ]
+   }
+  }
+ ],
+ "text_sha256": {
+  "m5-115": "c20859326e704bf0771460db8234ac7c9e9ac1cf5b7c211e151c1eff7f610654",
+  "m6-471": "98478dfd193243b8f4cf308525eb4f0e91e914dc4e5ca0f9ef1c959a1e6ab9e8",
+  "m6-472": "b9ba59025e981aa57e1535d52956809ba4d1b68333373e5e8d97a19eb38a057c",
+  "m6-473": "2442203cf882f5d45893d332b5379541d0936e02ea7eab7668864fbfb8cc8325",
+  "m6-474": "a9996bc61f094406f2ced8745c11b1e8fbeac5de18071eb9bb76c3a3e3393ffc",
+  "m6-475": "b8a9cb6182839afa64c678faf779a0534ec44d3eb36e1bb04f5e676569cd116e",
+  "m7-193": "c2a408758f33e35a7134466d53c8c1910c6f1137700804d710ac485796814738",
+  "m7-194": "8db2b8d96fde79989d821f5f4dfacde2257603952e8b4a88396ab79eb0147004",
+  "m5-116": "5c8eeaa9d88501ce45219aa653af35d498f2df39a05761b697f9e494845ba405",
+  "m7-195": "e95ebb971c339b7cec42612e8369c2814c4c3adec823950f4f1ce1f66c182d5a",
+  "m5-117": "8d4d6a79f5070336732c22539f4fefd43bb4c56e1c0643ab778cfb4e9d18f784",
+  "m7-196": "ce954cc5c90a0b1678935965dbd65cb2cfe153746105d8ad7143e4a57c5d0131",
+  "m7-197": "451aed93a2ba22126020004a9e88ba6db33ba1740fab94a6e1e6ad903bddfdb7",
+  "m5-118": "f0788ae18897381488d561861c65acae7209bd72020e91c8d5b6a2a07f78cdb8",
+  "m7-198": "0dab488f84148d4a4dc7554134af9de51663ddb6ca34ed145766919eddd61f9a",
+  "m5-119": "fdf8d15ea6b8fdbda9ea1d1d6ae110cc28b9962dc27931f3a19186dbc79c9b13",
+  "m5-120": "e1de8b967895bbfb0ec09738ee197d706f572634d6eb42f93a7548b984a76e67",
+  "m5-121": "d6039fcda97f346f26e14744241ca549b0f0d7186cf3b3d09c6dbbff59d8181a",
+  "m5-122": "ae4bdb3a03cc170f0143efb068c7ed5379af01a3839ea718f11b71360086fbb8",
+  "m5-123": "0a5a55e63ee5c8c6e811832fffff2f3e5a8e4fd0649ab33c0f8c4931f50e3de2",
+  "m5-124": "2dbf0993c216d152ec218f75ea933f1aa279b66f80511dd1013f781d4f494ead",
+  "m5-125": "0ad854c22cba0faaf0b7976ea9a692f9a12208e350761bc56519bfee5ef3315f",
+  "m5-126": "b15a3af9088f0b970a143b70e4fc6a497acfd5e7c9d85401ff5631817a5f88b4",
+  "m5-127": "63e6c22dc31cc66ee639d409b536eb7b5ad270cfedae6c88245188474ecb3c29",
+  "m5-128": "ae7057feafa654b1d14298091a7eb544e155be988739aa6901afe18263f3b87f",
+  "m5-129": "8a54e0857a14779ff6a927bd78f2deb518d27217fd8b4215662bcd111751ff8f",
+  "m5-130": "789ab149cb9b2d121490c6af92d56ac360998a5928b015e0846308acaad772f4",
+  "m5-131": "c35a8388320619022275c2404a3557fa07c713f329e66e6d385a505d64799752",
+  "m5-132": "94e3223171458ca3949acb85d0bd301006b6cad593925f98bf093f0257faa3d7",
+  "m5-133": "af75b9922df90745532263cf9ff730977dd06720b9eb082e5ad95857554e6853",
+  "m5-134": "14f8c9cd6c8b0f31e8a67525be61cb4ca8ba5c2ec505373969314998ffd6ce0f",
+  "m5-135": "c5e0b3f4d1c184fcbfdc5071026ea260d739b5acad14279619d4a68675dcae74",
+  "m5-136": "408bde49810624e4a1f8260cf77e1a598e3e6322068a505accc6078ec0d77d87",
+  "m5-138": "1bf3ee4ecd12625e7c832678d1b76b46f05ceca15fcba0a7b730f15d698aa6df",
+  "m5-137": "69b72ff6ad093699385496ce5755dfe3a53a611edf44b2facc542699b79b254e",
+  "m6-476": "53f250271bb27ba713a45b4c9b2e403e9e29893116ebf9d2e2ce57fdc7744177",
+  "m6-477": "fa88ad86bbecace01889c6936eb013be288d1815ba55be02efd23409ff97815c",
+  "m6-478": "cc4959a230acca8f6e6b870659e5ba7d6ccfa3dd55112a69530864dbf773935f",
+  "m6-479": "f3a2b740bd3b835e7018ce4082f8d0f7415828e69ef6c14f209b8d2ae792a67d",
+  "m6-480": "ce28ec3d2099e339cdc2ad25adf5f80f72f3ca8d812d310a1e2aa41640e8e394",
+  "m6-481": "43711e9b45b04c26e2cad3e811ac87fc9fd73648424b5620933e800e7aa85839",
+  "m6-482": "2abf5d95a94eea4b0ef4ebbdf3043b3c3c076d9a2798d91268562160480b306a",
+  "m6-483": "0916be35b92444229150f9d49df3fbab4c66f97bceff4d6ff8b9f92c62db68ff",
+  "m6-484": "3fd17c9e93335e61e7722188ca553d47422d810f2f439b5bdaf427ae9f80d83d",
+  "m6-485": "b59a04efd618206c73b882f1b27b793744622d1e87b1db52f2781cfcbfed803a",
+  "m6-486": "4e7c9326b9c88add629b58694a7422423cb9860f8f39365a889969798d7fb579",
+  "m6-487": "8ec6181f2f7157b56a74b55ca102b7b390edbdbf4aa68432f4ee577e62952839",
+  "m6-488": "0f063551d2600871201813eca9659479e81f83b56896e24cfcf6f59efdd1cb75",
+  "m6-489": "5ed5923a9524e431f0b41319a01f5c95b6f279f65c707e549d2182d8fb5b36d7",
+  "m6-490": "d2a1f242eeb4902ee00cb99c573abd8d8ffdd552bf476c67b17e6393102c438f",
+  "m6-491": "877312eb46f3d105b01b531a371309a885b2c973adfe8ba28340a95a70453da2",
+  "m6-492": "98c000e25e0d0a03da676d3ef9ea985adc922a90cd7af4dfc528df3e73a2cda8",
+  "m6-493": "4e7af367a99da753be985b938938c47018d98d6b205129aad9bd9b22e341cf87",
+  "m6-494": "6f48b6199c209bb099d91134ec492a64b8d227bae0e3e1503ede255e6bb2e543",
+  "m6-495": "a435c23764138989543dd71ae49d09c1a48abd7e1fe73438f18c040523b1c217",
+  "m6-496": "5a3f1e201e140fa1f5b0fdfc0f0ddc5d250c73f45e809312934ae7b961ca13bd",
+  "m7-199": "99de2c21e69deedd3591922e74395885a4f2d70c5c79b206a305c3d9504757d1",
+  "m7-200": "9f272124b898cfe73861dd7e41ac17adce16701e0084672cdc4f1247352b5ae7",
+  "m7-201": "45e0865a90156ff0c910e6abe79e1fb40a9a4416122c05b8636652a91b7151d3",
+  "m7-202": "79019a51779b2811a15915e427e989f680fa3e5888d007da9bf064df5c17b664",
+  "m7-203": "73679acad74e33e9fb41334cd0da54ec8923a94e747394499daec42a07b6fe9d",
+  "m7-204": "af1079c80e77527077399dbf7fa26802a3a718d82021b5d1e59fdbc410c09fab",
+  "m7-205": "98a15ddaf498ca554436a1d44f2f6abed78e0a36e45ccf49061bfafdafe35029",
+  "m7-206": "1bd8e3a2db1eb9885b4dc996648b578e169aff984079fd53be2aef7996a74d46",
+  "m7-207": "41bb16397a67c2a690c868f4e265a222e2c48f0c83964f96a2a638d4be77a32a",
+  "m7-208": "3d74c6ef2d616900256a5f286198ef3dee19807c5411e4e5d638e0a334a5e430",
+  "m7-209": "acb3108ffb52824e2f995eda3ff88de68c17ab9c90d81008afb65b1dd83e709f",
+  "m7-210": "0aadbd8ffe6bbd9c4ba52661927f8543fc3937a2d76db414b3b9084c952fbd82",
+  "m7-211": "8d0cb8dab8efc2c54fb04594a922a8db50380162d670c683e6d395f4c4e7694e",
+  "m7-212": "56c0b3a6845b54bd59dd78b25079e47eb2c621a282d3c5c44876d4f940ffc918",
+  "m7-213": "e4b32d6b0f72dae9b7ee400c9f93e37c83da1452d4a090fca0c8124528714756",
+  "m7-214": "feb79ec305ef80461426e5448e2fe1e2404498b4e7c08c6c3c4b1d56dd63cb45",
+  "m7-215": "e9421427238efc50946a489abaee6342a6e555b16097550e8cb9f322efa25a49",
+  "m7-216": "b6f2795cf1895d3a12bf9ca23e0d33a0fcda85e5ada2ff1b56e8cfa237236895",
+  "m7-217": "94f30b64920752b01b1ad3959fd05e30657afebe492174112b8d78cc4a235f4d"
+ }
+}

@@ -1,0 +1,3874 @@
+[
+  {
+    "id": "m2-366",
+    "module": 2,
+    "truth": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      null,
+      "condition"
+    ],
+    "source": {
+      "en": "AMLO ss.30(8)–(9), 31(8)–(9) and 32(2)–(3)",
+      "tc": "《打擊洗錢條例》第30(8)至(9)、31(8)至(9)及32(2)至(3)條"
+    },
+    "en": {
+      "q": "Regarding notices refusing a money service licence or changing its conditions, which statements are correct under the AMLO?",
+      "statements": [
+        "A refusal to grant a money service licence must be communicated to the applicant by a notice in writing.",
+        "A refusal to renew a money service licence must be communicated to the licensee by a notice in writing.",
+        "A notice refusing a grant must state both the reasons and the applicant’s right to apply for Tribunal review.",
+        "A notice changing licence conditions need state reasons only when the licensee asks the Commissioner for them."
+      ],
+      "notes": [
+        "Correct: ss.30(8)–(9), 31(8)–(9) and 32(2)–(3) — Section 30(8) requires notice in writing to the applicant.",
+        "Correct: ss.30(8)–(9), 31(8)–(9) and 32(2)–(3) — Section 31(8) requires written notice to the licensee.",
+        "Correct: ss.30(8)–(9), 31(8)–(9) and 32(2)–(3) — Section 30(9) requires both reasons and notice of the right to seek review.",
+        "False: ss.30(8)–(9), 31(8)–(9) and 32(2)–(3) — Section 32(3) requires reasons in the notice, without a request condition."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於拒絕批給金錢服務牌照或更改牌照條件的通知，下列哪些陳述正確？",
+      "statements": [
+        "關長拒絕批給金錢服務牌照時，須以書面通知將決定告知有關申請人。",
+        "關長拒絕將金錢服務牌照續期時，須以書面通知將決定告知有關持牌人。",
+        "拒絕批給牌照的通知，須載有決定理由，以及申請人可向覆核審裁處申請的提示。",
+        "更改牌照條件的通知，只須在持牌人向關長要求提供理由時，才載列有關理由。"
+      ],
+      "notes": [
+        "正確：第30(8)至(9)、31(8)至(9)及32(2)至(3)條——第30(8)條規定須藉書面通知告知申請人。",
+        "正確：第30(8)至(9)、31(8)至(9)及32(2)至(3)條——第31(8)條規定須藉書面通知告知持牌人。",
+        "正確：第30(8)至(9)、31(8)至(9)及32(2)至(3)條——第30(9)條要求理由的說明及可申請覆核的提示。",
+        "錯誤：第30(8)至(9)、31(8)至(9)及32(2)至(3)條——第32(3)條規定通知須載有理由，並無須先提出要求的條件。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "If the Commissioner refuses to grant a licence under this section, the Commissioner must inform the applicant by notice in writing."
+        },
+        {
+          "doc": "04",
+          "text": "If the Commissioner refuses to renew a licence under this section, the Commissioner must inform the licensee by notice in writing."
+        },
+        {
+          "doc": "04",
+          "text": "a statement of the reasons for the decision; and (b) a statement that the licensee or applicant, as the case requires, may apply to the Review Tribunal for a review of the decision."
+        },
+        {
+          "doc": "04",
+          "text": "A notice under subsection (2) must include— (a) a statement of the reasons for the decision;"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "關長如拒絕根據本條批給牌照，須藉書面通知告知有關申請人。"
+        },
+        {
+          "doc": "04",
+          "text": "關長如拒絕根據本條將牌照續期，須藉書面通知告知有關持牌人。"
+        },
+        {
+          "doc": "04",
+          "text": "作出該決定的理由的說明；及 (b) 有關持牌人或申請人(視乎情況所需而定)可向覆核審裁處申請覆核該決定的提示。"
+        },
+        {
+          "doc": "04",
+          "text": "第(2)款所指的通知須載有—— (a) 作出該決定的理由的說明；"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-367",
+    "module": 2,
+    "truth": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      "offlist",
+      null,
+      null
+    ],
+    "source": {
+      "en": "AMLO s.33",
+      "tc": "《打擊洗錢條例》第33條"
+    },
+    "en": {
+      "q": "Regarding the particulars and conditions appearing on a money service licence, which statements are correct under the AMLO?",
+      "statements": [
+        "A licence for operation at specified premises must name the address of every premises where the licensee may operate.",
+        "A licence for operation without particular premises must specify the residential address of each of its directors.",
+        "The licence must be endorsed with conditions imposed or amended on grant, renewal or a later change of conditions.",
+        "The licence must use a form specified by the Commissioner and state the period for which the licence remains valid."
+      ],
+      "notes": [
+        "Correct: s.33 — Section 33(a)(i) requires every permitted premises address.",
+        "False: s.33 — Section 33(a)(ii) specifies the licensee’s correspondence address.",
+        "Correct: s.33 — Section 33(b) expressly covers conditions under sections 30, 31 and 32.",
+        "Correct: s.33 — Section 33 requires the specified form and, in paragraph (c), the validity period."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於金錢服務牌照載列的資料和條件，下列哪些陳述正確？",
+      "statements": [
+        "准予在指明處所經營的牌照，須指明持牌人可經營金錢服務的每一個處所的地址。",
+        "准予不在特定處所經營的牌照，須指明持牌人每一名董事現時居住的住宅地址。",
+        "牌照須批註根據批給、續期或其後修改牌照條件的條文而施加或修改的條件。",
+        "牌照須採用關長指明的格式，並且必須在牌照上指明牌照的有效期間。"
+      ],
+      "notes": [
+        "正確：第33條——第33(a)(i)條要求指明每一個准予經營處所的地址。",
+        "錯誤：第33條——第33(a)(ii)條指明的是持牌人的通訊地址。",
+        "正確：第33條——第33(b)條包括根據第30、31或32條施加或修改的條件。",
+        "正確：第33條——第33條要求指明格式，而(c)段要求指明有效期。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "the address of every premises at which the licensee may operate a money service"
+        },
+        {
+          "doc": "04",
+          "text": "in any other case, the correspondence address of the licensee"
+        },
+        {
+          "doc": "04",
+          "text": "be endorsed with the conditions imposed or amended under section 30, 31 or 32"
+        },
+        {
+          "doc": "04",
+          "text": "specify the period for which the licence is valid."
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "有關持牌人可經營金錢服務所在的每一個處所的地址"
+        },
+        {
+          "doc": "04",
+          "text": "如屬任何其他情況)有關持牌人的通訊地址"
+        },
+        {
+          "doc": "04",
+          "text": "批註有根據第30、31或32條施加或修改的條件"
+        },
+        {
+          "doc": "04",
+          "text": "指明牌照的有效期。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-368",
+    "module": 2,
+    "truth": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      null,
+      "actor"
+    ],
+    "source": {
+      "en": "AMLO ss.35(5)–(6), 36(5)–(6) and 37(5)–(6)",
+      "tc": "《打擊洗錢條例》第35(5)至(6)、36(5)至(6)及37(5)至(6)條"
+    },
+    "en": {
+      "q": "Regarding refusing approval of a proposed director, ultimate owner or partner of a licensee, which statements are correct under the AMLO?",
+      "statements": [
+        "When approval of a proposed director is refused, the written refusal notice must be given to the licensee.",
+        "When approval of a proposed ultimate owner is refused, the notice must explain the reasons for that decision.",
+        "When approval of a proposed partner is refused, the notice must state that the licensee may seek Tribunal review.",
+        "When approval of a proposed director is refused, the notice must state that the proposed director may seek review."
+      ],
+      "notes": [
+        "Correct: ss.35(5)–(6), 36(5)–(6) and 37(5)–(6) — Section 35(5) names the licensee as recipient.",
+        "Correct: ss.35(5)–(6), 36(5)–(6) and 37(5)–(6) — Section 36(6)(a) requires a statement of reasons.",
+        "Correct: ss.35(5)–(6), 36(5)–(6) and 37(5)–(6) — Section 37(6)(b) requires notice of the licensee’s review right.",
+        "False: ss.35(5)–(6), 36(5)–(6) and 37(5)–(6) — Section 35(6)(b) names the licensee, not the proposed director."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於拒絕批准持牌人的擬任董事、最終擁有人或合夥人，下列哪些陳述正確？",
+      "statements": [
+        "關長拒絕批准擬任董事的申請時，必須以書面通知將決定告知有關持牌人。",
+        "關長拒絕批准擬任最終擁有人的申請時，通知必須載有作出該決定的理由。",
+        "關長拒絕批准擬任合夥人的申請時，通知須提示持牌人可向覆核審裁處申請覆核。",
+        "關長拒絕批准擬任董事的申請時，通知須提示擬任董事可向覆核審裁處申請覆核。"
+      ],
+      "notes": [
+        "正確：第35(5)至(6)、36(5)至(6)及37(5)至(6)條——第35(5)條列明通知的對象為持牌人。",
+        "正確：第35(5)至(6)、36(5)至(6)及37(5)至(6)條——第36(6)(a)條要求載有理由的說明。",
+        "正確：第35(5)至(6)、36(5)至(6)及37(5)至(6)條——第37(6)(b)條要求提示持牌人可申請覆核。",
+        "錯誤：第35(5)至(6)、36(5)至(6)及37(5)至(6)條——第35(6)(b)條所指的是持牌人，並非擬任董事。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "If the Commissioner refuses to give an approval under this section, the Commissioner must inform the licensee by notice in writing."
+        },
+        {
+          "doc": "04",
+          "text": "a statement of the reasons for the decision"
+        },
+        {
+          "doc": "04",
+          "text": "a statement that the licensee may apply to the Review Tribunal for a review of the decision."
+        },
+        {
+          "doc": "04",
+          "text": "a statement that the licensee may apply to the Review Tribunal for a review of the decision."
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "關長如拒絕根據本條給予批准，須藉書面通知告知有關持牌人。"
+        },
+        {
+          "doc": "04",
+          "text": "作出該決定的理由的說明"
+        },
+        {
+          "doc": "04",
+          "text": "提示該持牌人可向覆核審裁處申請覆核該決定。"
+        },
+        {
+          "doc": "04",
+          "text": "提示該持牌人可向覆核審裁處申請覆核該決定。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-369",
+    "module": 2,
+    "truth": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      null,
+      "qualifier"
+    ],
+    "source": {
+      "en": "AMLO s.44(2)–(3)",
+      "tc": "《打擊洗錢條例》第44(2)至(3)條"
+    },
+    "en": {
+      "q": "Regarding what a disciplinary decision notice must tell a licensee, which statements are correct under the AMLO?",
+      "statements": [
+        "The Commissioner must give the licensee a written notice informing it of the disciplinary decision that was made.",
+        "Where a reprimand is imposed, the notice must include the terms in which the licensee is reprimanded in the decision.",
+        "Where remedial action is ordered, the notice must include the action the licensee is required to take under the decision.",
+        "Where a longer payment period is allowed, the notice may omit the deadline so long as it specifies the penalty amount."
+      ],
+      "notes": [
+        "Correct: s.44(2)–(3) — Section 44(2) requires notice in writing.",
+        "Correct: s.44(2)–(3) — Section 44(3)(b) requires the terms of the reprimand insofar as applicable.",
+        "Correct: s.44(2)–(3) — Section 44(3)(c) requires the action ordered to be specified.",
+        "False: s.44(2)–(3) — Section 44(3)(d) also requires the alternative payment time."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於紀律處分決定通知須告知持牌人的事項，下列哪些陳述正確？",
+      "statements": [
+        "關長作出紀律處分決定後，必須藉書面通知將有關決定告知有關持牌人。",
+        "如決定包括譴責，通知必須在適用範圍內，載有根據決定對持牌人的譴責內容。",
+        "如決定命令採取糾正行動，通知必須在適用範圍內，載列持牌人須採取的行動。",
+        "如准許較長繳款期，只要通知已列明罰款金額，便可不列明繳付罰款的時限。"
+      ],
+      "notes": [
+        "正確：第44(2)至(3)條——第44(2)條要求書面通知。",
+        "正確：第44(2)至(3)條——第44(3)(b)條要求在適用範圍內載列譴責內容。",
+        "正確：第44(2)至(3)條——第44(3)(c)條要求載列須採取的行動。",
+        "錯誤：第44(2)至(3)條——第44(3)(d)條也要求載列不同於通常期限的繳款時限。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "the Commissioner must inform the licensee of the decision by notice in writing"
+        },
+        {
+          "doc": "04",
+          "text": "in so far as applicable, the terms in which the licensee is reprimanded under the decision"
+        },
+        {
+          "doc": "04",
+          "text": "in so far as applicable, the action that the licensee is required to take under the decision"
+        },
+        {
+          "doc": "04",
+          "text": "the amount of any pecuniary penalty imposed under the decision and, if the penalty is to be paid at a time other than that specified in section 43(3)(a), the time within which it is required to be paid"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "須藉書面通知將有關決定告知該持牌人"
+        },
+        {
+          "doc": "04",
+          "text": "在適用範圍內)根據該決定對有關持牌人的譴責的內容"
+        },
+        {
+          "doc": "04",
+          "text": "在適用範圍內)該持牌人須根據該決定採取的行動"
+        },
+        {
+          "doc": "04",
+          "text": "根據該決定判處的罰款金額及(如須繳付有關罰款的時間並非第43(3)(a)條所指定者)繳付罰款的時限"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-370",
+    "module": 2,
+    "truth": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "traps": [
+      null,
+      null,
+      "scope",
+      null
+    ],
+    "source": {
+      "en": "AMLO s.43(5)–(7)",
+      "tc": "《打擊洗錢條例》第43(5)至(7)條"
+    },
+    "en": {
+      "q": "Regarding enforcing and publishing money service disciplinary penalties, which statements are correct under the AMLO?",
+      "statements": [
+        "On the Commissioner’s application, the Court of First Instance may register an order to pay a daily pecuniary penalty.",
+        "To seek registration, the Commissioner must give the High Court Registrar a written request and the original and a copy.",
+        "On registration, the penalty order is treated as a money-payment order made within the court’s criminal jurisdiction.",
+        "After taking disciplinary action, the Commissioner may publicly disclose the decision, reasons and material case facts."
+      ],
+      "notes": [
+        "Correct: s.43(5)–(7) — Section 43(5) includes orders under subsection (4), the daily penalty power.",
+        "Correct: s.43(5)–(7) — Section 43(6) requires the notice, original and copy.",
+        "False: s.43(5)–(7) — Section 43(5) says civil jurisdiction, not criminal jurisdiction.",
+        "Correct: s.43(5)–(7) — Section 43(7) permits disclosure of these three categories."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於執行及公布金錢服務紀律罰款，下列哪些陳述正確？",
+      "statements": [
+        "原訟法庭可應關長的申請，登記就持續沒有採取糾正行動而作出的按日罰款命令。",
+        "關長要求登記命令時，須向高等法院司法常務官送交書面要求、命令正本及一份複本。",
+        "罰款命令一經登記，即視為原訟法庭在其刑事司法管轄權範圍內作出的繳付款項命令。",
+        "關長採取紀律行動後，可向公眾披露決定的細節、決定理由及個案的任何重要事實。"
+      ],
+      "notes": [
+        "正確：第43(5)至(7)條——第43(5)條包括第(4)款的按日罰款命令。",
+        "正確：第43(5)至(7)條——第43(6)條要求書面通知、正本和一份複本。",
+        "錯誤：第43(5)至(7)條——第43(5)條指民事司法管轄權，而非刑事司法管轄權。",
+        "正確：第43(5)至(7)條——第43(7)條准許披露這三類資料。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "register an order to pay a pecuniary penalty made under subsection (1) or (4) in the Court of First Instance"
+        },
+        {
+          "doc": "04",
+          "text": "a notice in writing requesting that the order be registered, together with the original and a copy of the order"
+        },
+        {
+          "doc": "04",
+          "text": "an order of the Court of First Instance made within the civil jurisdiction of the Court of First Instance for the payment of money"
+        },
+        {
+          "doc": "04",
+          "text": "the Commissioner may disclose to the public details of the decision, the reasons for which the decision was made, and any material facts relating to the case"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "在原訟法庭登記根據第(1)或(4)款作出的繳付罰款命令"
+        },
+        {
+          "doc": "04",
+          "text": "要求登記有關命令的書面通知，以及該命令的正本及一份複本"
+        },
+        {
+          "doc": "04",
+          "text": "視為原訟法庭在其民事司法管轄權範圍內作出的繳付款項命令"
+        },
+        {
+          "doc": "04",
+          "text": "可向公眾披露其決定的細節、作出該決定的理由以及關於該個案的任何重要事實"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-371",
+    "module": 2,
+    "truth": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "traps": [
+      null,
+      null,
+      "condition",
+      null
+    ],
+    "source": {
+      "en": "AMLO ss.59(3) and 69(2)–(4)",
+      "tc": "《打擊洗錢條例》第59(3)及69(2)至(4)條"
+    },
+    "en": {
+      "q": "Regarding an application to extend the time for seeking a review, which statements are correct under the AMLO?",
+      "statements": [
+        "Before granting an extension, the Tribunal must give both the applicant and the specified authority a chance to be heard.",
+        "To grant an extension, the Tribunal must be satisfied there is good cause for extending the time for the review application.",
+        "A person seeking an extension must await its determination before applying for a stay of the underlying specified decision.",
+        "In granting a stay, the Tribunal may attach conditions concerning costs or the payment of money into the Tribunal."
+      ],
+      "notes": [
+        "Correct: ss.59(3) and 69(2)–(4) — Section 59(3)(a) requires a reasonable opportunity for both parties.",
+        "Correct: ss.59(3) and 69(2)–(4) — Section 59(3)(b) requires good cause.",
+        "False: ss.59(3) and 69(2)–(4) — Section 69(2) allows a stay application before the extension application is determined.",
+        "Correct: ss.59(3) and 69(2)–(4) — Section 69(4) permits conditions on costs and payment into the Tribunal."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於申請延長提出覆核的期限，下列哪些陳述正確？",
+      "statements": [
+        "審裁處批准延長期限前，必須給予申請人及有關指明當局雙方合理的陳詞機會。",
+        "審裁處批准延長提出覆核的期限前，必須信納有良好因由批准延長有關期限。",
+        "申請延長期限的人，必須等候延長期限申請獲裁定後，才可申請暫緩執行指明決定。",
+        "審裁處批准暫緩執行時，可在訟費或繳存款項於審裁處方面，定出適當的條件。"
+      ],
+      "notes": [
+        "正確：第59(3)及69(2)至(4)條——第59(3)(a)條要求給予雙方合理的陳詞機會。",
+        "正確：第59(3)及69(2)至(4)條——第59(3)(b)條要求信納有良好因由。",
+        "錯誤：第59(3)及69(2)至(4)條——第69(2)條容許在延長期限申請裁定前申請暫緩執行。",
+        "正確：第59(3)及69(2)至(4)條——第69(4)條准許就訟費及繳存款項定條件。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "after the applicant and the specified authority have been given a reasonable opportunity to be heard"
+        },
+        {
+          "doc": "04",
+          "text": "if it is satisfied that there is a good cause for granting the extension"
+        },
+        {
+          "doc": "04",
+          "text": "A person who makes an application for review or an application under section 59(2) may, at any time before the review or the application is determined by the Tribunal, apply to the Tribunal for a stay of execution"
+        },
+        {
+          "doc": "04",
+          "text": "The Tribunal may by order grant the stay subject to any condition as to costs, payment of money into the Tribunal or other matters that the Tribunal considers appropriate."
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "申請人及指明當局均已獲給予合理的陳詞機會"
+        },
+        {
+          "doc": "04",
+          "text": "審裁處信納有良好因由批給延展"
+        },
+        {
+          "doc": "04",
+          "text": "提出覆核申請或根據第59(2)條提出申請的人，可在審裁處就該覆核或申請作出裁定前，隨時向審裁處申請暫緩執行"
+        },
+        {
+          "doc": "04",
+          "text": "審裁處可藉命令暫緩執行有關決定，並可在訟費、繳存款項於審裁處或其他事宜方面，定出它認為適當的條件"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-372",
+    "module": 2,
+    "truth": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      "qualifier",
+      null,
+      "added"
+    ],
+    "source": {
+      "en": "AMLO s.67",
+      "tc": "《打擊洗錢條例》第67條"
+    },
+    "en": {
+      "q": "Regarding the form and proof of Review Tribunal orders, which statements are correct under the AMLO?",
+      "statements": [
+        "An order made by the Tribunal must be recorded in writing and signed by the chairperson of the Tribunal.",
+        "A document appearing to be a Tribunal order signed by its chairperson is presumed valid even if contrary evidence exists.",
+        "Absent contrary evidence, such a signed document benefits from the presumption without separate proof of its making.",
+        "Even absent contrary evidence, the presumption needs separate proof that the signer actually held the chairperson’s office."
+      ],
+      "notes": [
+        "Correct: s.67 — Section 67(1) requires writing and the chairperson’s signature.",
+        "False: s.67 — Section 67(2) makes the presumption subject to absence of evidence to the contrary.",
+        "Correct: s.67 — Section 67(2) expressly dispenses with proof of making.",
+        "False: s.67 — Section 67(2) dispenses also with proof of the signer’s office."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於覆核審裁處命令的格式及證明，下列哪些陳述正確？",
+      "statements": [
+        "審裁處在覆核中作出的命令必須以書面形式記錄，並且由覆核審裁處主席簽署。",
+        "文件看來是由主席簽署的審裁處命令，即使有相反證據，也須推定為妥為作出及簽署。",
+        "在沒有相反證據時，該類看來由主席簽署的文件，無需另行提出作出命令的證明。",
+        "即使沒有相反證據，該項推定仍須另外證明簽署命令的人確實是覆核審裁處主席。"
+      ],
+      "notes": [
+        "正確：第67條——第67(1)條要求書面記錄及主席簽署。",
+        "錯誤：第67條——第67(2)條以沒有相反證據為推定的條件。",
+        "正確：第67條——第67(2)條明言無需提出作出命令的證明。",
+        "錯誤：第67條——第67(2)條也免除證明簽署人確是主席的需要。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "An order made by the Tribunal must be recorded in writing and be signed by the chairperson of the Tribunal."
+        },
+        {
+          "doc": "04",
+          "text": "in the absence of evidence to the contrary, presumed to be an order of the Tribunal duly made and signed"
+        },
+        {
+          "doc": "04",
+          "text": "without proof of its making, or proof of signature, or proof that the person signing the order was in fact the chairperson of the Tribunal"
+        },
+        {
+          "doc": "04",
+          "text": "without proof of its making, or proof of signature, or proof that the person signing the order was in fact the chairperson of the Tribunal"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "審裁處命令須藉書面記錄，並由審裁處主席簽署。"
+        },
+        {
+          "doc": "04",
+          "text": "在沒有相反證據的情況下，任何文件如看來是由審裁處主席簽署的審裁處命令，須被推定為妥為作出並簽署的審裁處命令"
+        },
+        {
+          "doc": "04",
+          "text": "而無需提出關於作出或簽署該命令的證明，亦無需證明簽署該命令的人確是審裁處主席"
+        },
+        {
+          "doc": "04",
+          "text": "而無需提出關於作出或簽署該命令的證明，亦無需證明簽署該命令的人確是審裁處主席"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-373",
+    "module": 2,
+    "truth": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      "qualifier",
+      null,
+      null
+    ],
+    "source": {
+      "en": "AMLO s.61(1)(c)–(f), (i)–(j)",
+      "tc": "《打擊洗錢條例》第61(1)(c)至(f)、(i)至(j)條"
+    },
+    "en": {
+      "q": "Regarding the Review Tribunal’s control over evidence and procedure, which statements are correct under the AMLO?",
+      "statements": [
+        "The Tribunal can require attendance and production of relevant documents by written notice signed by the chairperson.",
+        "The Tribunal may examine a person attending before it, but questions can be required only if that person is under oath.",
+        "The Tribunal may order a witness to provide evidence for the purposes of the review by means of an affidavit.",
+        "The Tribunal may stay proceedings on grounds and terms it considers appropriate, having regard to the interests of justice."
+      ],
+      "notes": [
+        "Correct: s.61(1)(c)–(f), (i)–(j) — Section 61(1)(c) provides for a written notice signed by the chairperson.",
+        "False: s.61(1)(c)–(f), (i)–(j) — Section 61(1)(e) says on oath or otherwise.",
+        "Correct: s.61(1)(c)–(f), (i)–(j) — Section 61(1)(f) allows the Tribunal to order evidence by affidavit.",
+        "Correct: s.61(1)(c)–(f), (i)–(j) — Section 61(1)(i) allows a stay having regard to the interests of justice."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於覆核審裁處對證據及程序的控制，下列哪些陳述正確？",
+      "statements": [
+        "審裁處可藉主席簽署的書面通知，要求某人出席聆訊及交出攸關覆核的文件。",
+        "審裁處可訊問到席的人，但只有在該人經宣誓的情況下，才可規定該人回答問題。",
+        "審裁處可為進行有關覆核的目的，命令證人以誓章的方式提供所需的證據。",
+        "審裁處可在顧及公正原則下，按其認為適當的理由及條款擱置覆核程序。"
+      ],
+      "notes": [
+        "正確：第61(1)(c)至(f)、(i)至(j)條——第61(1)(c)條規定藉主席簽署的書面通知提出要求。",
+        "錯誤：第61(1)(c)至(f)、(i)至(j)條——第61(1)(e)條明言不論該人是否經宣誓。",
+        "正確：第61(1)(c)至(f)、(i)至(j)條——第61(1)(f)條准許命令證人以誓章提供證據。",
+        "正確：第61(1)(c)至(f)、(i)至(j)條——第61(1)(i)條准許在顧及公正原則下暫停程序。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "by notice in writing signed by the chairperson of the Tribunal, require a person to attend before it at any sitting and to give evidence"
+        },
+        {
+          "doc": "04",
+          "text": "examine or cause to be examined on oath or otherwise a person attending before it and require the person to answer truthfully any question"
+        },
+        {
+          "doc": "04",
+          "text": "order a witness to provide evidence for the purpose of the review by affidavit"
+        },
+        {
+          "doc": "04",
+          "text": "stay any of the proceedings in the review on any grounds and on any terms and conditions that it considers appropriate having regard to the interests of justice"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "藉審裁處主席簽署的書面通知，要求某人出席聆訊、提供證據及交出由該人管有或控制並與該覆核的標的有關的任何物品、紀錄或文件"
+        },
+        {
+          "doc": "04",
+          "text": "訊問或安排訊問任何出席聆訊的已宣誓或未經宣誓的人"
+        },
+        {
+          "doc": "04",
+          "text": "命令證人為該覆核的目的以誓章提供證據"
+        },
+        {
+          "doc": "04",
+          "text": "在顧及公正原則後，基於審裁處認為適當的理由及按審裁處認為適當的條款及條件，擱置該覆核的任何程序"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-374",
+    "module": 2,
+    "truth": [
+      false,
+      true,
+      false,
+      false
+    ],
+    "traps": [
+      "condition",
+      null,
+      "added",
+      "reversed"
+    ],
+    "source": {
+      "en": "AMLO s.61(2)(c)–(e) and (4)",
+      "tc": "《打擊洗錢條例》第61(2)(c)至(e)及(4)條"
+    },
+    "en": {
+      "q": "Regarding conduct by witnesses and others during a Tribunal review, which statements are correct under the AMLO?",
+      "statements": [
+        "A person required to attend may leave without permission once the person’s own evidence has been given.",
+        "Without reasonable excuse, deterring someone from producing documents for a review constitutes an offence.",
+        "Insulting a witness because of attending is an offence only if financial loss is also caused to the witness.",
+        "A person may refuse compliance solely because following the Tribunal’s requirement could incriminate that person."
+      ],
+      "notes": [
+        "False: s.61(2)(c)–(e) and (4) — Leaving without permission is covered by section 61(2)(c), subject to reasonable excuse.",
+        "Correct: s.61(2)(c)–(e) and (4) — Section 61(2)(d) includes deterring production of documents.",
+        "False: s.61(2)(c)–(e) and (4) — Section 61(2)(e) separately lists threats, insults or causing loss, subject to reasonable excuse.",
+        "False: s.61(2)(c)–(e) and (4) — Section 61(4) excludes self-incrimination alone as an excuse for non-compliance."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於證人及其他人在審裁處覆核中的行為，下列哪些陳述正確？",
+      "statements": [
+        "被要求出席聆訊的人，在完成自己的證供後，即可不經審裁處准許而離開。",
+        "無合理辯解而阻嚇他人為覆核目的交出文件，屬於條例所訂的一項罪行。",
+        "因證人出席聆訊而侮辱證人，只有在同時令證人蒙受金錢損失時才屬犯罪。",
+        "任何人可僅因遵從審裁處的要求可能導致自己入罪，而拒絕遵從該項要求。"
+      ],
+      "notes": [
+        "錯誤：第61(2)(c)至(e)及(4)條——第61(2)(c)條涵蓋未經准許而離開，除非有合理辯解。",
+        "正確：第61(2)(c)至(e)及(4)條——第61(2)(d)條涵蓋阻嚇他人交出文件。",
+        "錯誤：第61(2)(c)至(e)及(4)條——第61(2)(e)條以「或」連接威脅、侮辱及造成損失，並受合理辯解限制。",
+        "錯誤：第61(2)(c)至(e)及(4)條——第61(4)條不准僅以可能導致入罪為理由獲豁免。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "having been required by the Tribunal under subsection (1) to attend before the Tribunal, leaves the place where the person’s attendance is so required without the permission of the Tribunal"
+        },
+        {
+          "doc": "04",
+          "text": "hinders or deters any person from attending before the Tribunal, giving evidence or producing any article, record or document, for the purpose of a review"
+        },
+        {
+          "doc": "04",
+          "text": "threatens, insults or causes any loss to be suffered by any person who has attended before the Tribunal, on account of that attendance"
+        },
+        {
+          "doc": "04",
+          "text": "A person is not excused from complying with an order, notice, prohibition or requirement of the Tribunal made, given or imposed under subsection (1) only on the ground that to do so might tend to incriminate the person."
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "按審裁處根據第(1)款作出的要求於某地方出席審裁處聆訊後，未經審裁處准許而離開該地方"
+        },
+        {
+          "doc": "04",
+          "text": "阻礙任何人為某覆核的目的出席審裁處聆訊、提供證據或交出任何物品、紀錄或文件，或阻嚇任何人為該目的作出該等作為"
+        },
+        {
+          "doc": "04",
+          "text": "因任何人出席審裁處聆訊而威脅或侮辱該人，或令該人蒙受損失"
+        },
+        {
+          "doc": "04",
+          "text": "任何人不得僅以遵從審裁處根據第(1)款作出或施加的命令、通知、禁令或要求可能會導致該人入罪為理由，而獲豁免遵從該命令、通知、禁令或要求。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-375",
+    "module": 2,
+    "truth": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      "actor",
+      "scope"
+    ],
+    "source": {
+      "en": "AMLO s.65(1)–(2)",
+      "tc": "《打擊洗錢條例》第65(1)至(2)條"
+    },
+    "en": {
+      "q": "Regarding costs awarded to someone attending a Tribunal review, which statements are correct under the AMLO?",
+      "statements": [
+        "Someone whose attendance was necessary for the review may receive costs even without attending as a witness.",
+        "The Tribunal may award an appropriate sum for costs reasonably incurred in the review and its application.",
+        "Costs awarded to a necessary attendee must always be paid by the applicant who initiated the review.",
+        "Costs awarded to a necessary attendee are recoverable from the designated party as a criminal fine."
+      ],
+      "notes": [
+        "Correct: s.65(1)–(2) — Section 65(1)(a) expressly says whether or not as a witness.",
+        "Correct: s.65(1)–(2) — Section 65(1) covers the review and application and requires reasonably incurred costs.",
+        "False: s.65(1)–(2) — Section 65(2)(a) allows any party the Tribunal considers appropriate.",
+        "False: s.65(1)–(2) — Section 65(2) makes the award recoverable as a civil debt."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於判給出席審裁處覆核的人的訟費，下列哪些陳述正確？",
+      "statements": [
+        "為覆核而需要出席的人，即使並非以證人身分出席，也可獲審裁處判給訟費。",
+        "審裁處可就覆核及覆核申請而合理招致的訟費，判給其認為數額適當的款項。",
+        "判給有需要出席的人的訟費，必須一律由最初提出覆核申請的申請人支付。",
+        "判給有需要出席的人的訟費，可向被指定支付的覆核一方作為刑事罰款追討。"
+      ],
+      "notes": [
+        "正確：第65(1)至(2)條——第65(1)(a)條明言無論是否以證人身分。",
+        "正確：第65(1)至(2)條——第65(1)條涵蓋覆核及申請，並限定為合理招致的訟費。",
+        "錯誤：第65(1)至(2)條——第65(2)(a)條由審裁處決定適當的覆核一方支付。",
+        "錯誤：第65(1)至(2)條——第65(2)條列明可作為民事債項追討。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "any person whose attendance, whether or not as a witness, has been necessary or required for the purposes of the review"
+        },
+        {
+          "doc": "04",
+          "text": "any sum that it considers appropriate in respect of the costs reasonably incurred by the person, or the party, in relation to the review and the application for review in question"
+        },
+        {
+          "doc": "04",
+          "text": "any party to the review that the Tribunal considers appropriate"
+        },
+        {
+          "doc": "04",
+          "text": "Costs awarded under subsection (1) must be paid by, and are recoverable as a civil debt from"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "為覆核的目的而需要或被要求(無論是否以證人身分)出席的人"
+        },
+        {
+          "doc": "04",
+          "text": "就該覆核及該覆核的申請而合理地招致的訟費，藉命令向該等人士判給一筆審裁處認為數額適當的款項"
+        },
+        {
+          "doc": "04",
+          "text": "該訟費須由審裁處認為適當的有關覆核的某一方支付"
+        },
+        {
+          "doc": "04",
+          "text": "並可作為民事債項予以追討"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-376",
+    "module": 2,
+    "truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "source": {
+      "en": "AMLO s.66(1)(b), (2)",
+      "tc": "《打擊洗錢條例》第66(1)(b)及(2)條"
+    },
+    "en": {
+      "q": "Regarding restrictions on publishing the outcome of a private Tribunal hearing, which statements are correct under the AMLO?",
+      "statements": [
+        "If any part of a review hearing was private, the Tribunal may prohibit publication of part of its determination.",
+        "The power to restrict publication also covers reasons for the determination, including only part of those reasons.",
+        "The Tribunal may also prohibit publication of a costs order or any part of the reasons for making that order.",
+        "After completing the review, the Tribunal must deliver any costs order and explain the reasons for that order."
+      ],
+      "notes": [
+        "Correct: s.66(1)(b), (2) — Section 66(2) applies where a sitting or any part was private.",
+        "Correct: s.66(1)(b), (2) — Section 66(2)(a) expressly includes all or part of the reasons.",
+        "Correct: s.66(1)(b), (2) — Section 66(2)(b) covers the order under section 65 and its reasons.",
+        "Correct: s.66(1)(b), (2) — Section 66(1)(b) requires delivery of costs orders and reasons as soon as reasonably practicable."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於公布審裁處閉門聆訊結果的限制，下列哪些陳述正確？",
+      "statements": [
+        "只要覆核聆訊的任何部分閉門進行，審裁處便可禁止發表其裁定的任何部分。",
+        "限制發表的權力也涵蓋作出裁定的理由，包括只限制發表該等理由的某一部分。",
+        "審裁處也可禁止發表有關訟費命令，或禁止發表作出該訟費命令的部分理由。",
+        "完成覆核後，審裁處須盡快宣告就覆核作出的任何訟費命令，以及作出命令的理由。"
+      ],
+      "notes": [
+        "正確：第66(1)(b)及(2)條——第66(2)條適用於聆訊或任何部分閉門進行的情況。",
+        "正確：第66(1)(b)及(2)條——第66(2)(a)條包括理由的全部或任何部分。",
+        "正確：第66(1)(b)及(2)條——第66(2)(b)條涵蓋第65條命令及其理由。",
+        "正確：第66(1)(b)及(2)條——第66(1)(b)條要求在合理地切實可行範圍內盡快宣告命令及理由。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "If a sitting, or any part of a sitting, of the Tribunal relating to a review is held in private, the Tribunal may by order prohibit the publication or disclosure of"
+        },
+        {
+          "doc": "04",
+          "text": "its determination, or the reasons for the determination, referred to in subsection (1)(a), or any part of the determination or reasons"
+        },
+        {
+          "doc": "04",
+          "text": "an order, or the reasons for an order, referred to in subsection (1)(b), or any part of such an order or any part of the reasons for such an order"
+        },
+        {
+          "doc": "04",
+          "text": "any order made under section 65 in relation to the review and the reasons for the order"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "審裁處如就覆核閉門進行聆訊或其任何部分，可藉命令禁止發表或披露"
+        },
+        {
+          "doc": "04",
+          "text": "其裁定或作出該裁定的理由，或該裁定或理由的任何部分"
+        },
+        {
+          "doc": "04",
+          "text": "第(1)(b)款提述的其命令或作出該命令的理由"
+        },
+        {
+          "doc": "04",
+          "text": "它根據第65條就該覆核作出的任何命令，以及作出該命令的理由"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-377",
+    "module": 2,
+    "truth": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      "reversed",
+      "scope"
+    ],
+    "source": {
+      "en": "AMLO s.63(4)",
+      "tc": "《打擊洗錢條例》第63(4)條"
+    },
+    "en": {
+      "q": "Regarding parallel contempt and criminal proceedings for the same Tribunal misconduct, which statements are correct under the AMLO?",
+      "statements": [
+        "While an earlier prosecution for the same conduct under the Tribunal offence provision is pending, contempt action is barred.",
+        "A prior prosecution can bar contempt action even after it ends, if that prosecution prevents lawful prosecution again for that conduct.",
+        "Once contempt proceedings have begun, a prosecution for the same conduct may proceed alongside them until contempt is finally determined.",
+        "The prohibition on taking both routes also prevents prosecution for a completely different act of misconduct during the review."
+      ],
+      "notes": [
+        "Correct: s.63(4) — Section 63(4)(a) bars the contempt route while the earlier section 61(2) prosecution remains pending.",
+        "Correct: s.63(4) — Section 63(4)(a)(ii) also covers the bar to instituting proceedings again.",
+        "False: s.63(4) — Section 63(4)(b) bars a section 61(2) prosecution while the earlier contempt proceedings remain pending.",
+        "False: s.63(4) — Section 63(4) ties the restriction to the same conduct."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於就同一審裁處不當行為並行進行藐視及刑事程序，下列哪些陳述正確？",
+      "statements": [
+        "就同一行為按審裁處罪行條文提出的較早刑事程序仍待決時，不得行使藐視懲罰權力。",
+        "較早刑事程序結束後，如因此不得就同一行為再次合法檢控，仍不得行使藐視懲罰權力。",
+        "按藐視法庭罪追究的程序待決時，可同時就同一行為檢控，直至該程序獲最終裁定。",
+        "不得並用兩種程序的規定，也禁止就覆核過程中另一項完全不同的不當行為提出刑事檢控。"
+      ],
+      "notes": [
+        "正確：第63(4)條——第63(4)(a)條禁止在較早第61(2)條刑事程序待決時行使藐視懲罰權。",
+        "正確：第63(4)條——第63(4)(a)(ii)條也涵蓋因較早程序而不得再次合法檢控的情況。",
+        "錯誤：第63(4)條——第63(4)(b)條禁止在較早按藐視法庭罪追究的程序待決時就同一行為根據第61(2)條檢控。",
+        "錯誤：第63(4)條——第63(4)條將限制繫於同一行為，不是所有不同事件。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "criminal proceedings have previously been instituted against the person under section 61(2) in respect of the same conduct; and (ii) those criminal proceedings remain pending"
+        },
+        {
+          "doc": "04",
+          "text": "because of the previous institution of those criminal proceedings, no criminal proceedings may again be lawfully instituted against the person under that section in respect of the same conduct"
+        },
+        {
+          "doc": "04",
+          "text": "no criminal proceedings may be instituted against a person under section 61(2) in respect of any conduct if"
+        },
+        {
+          "doc": "04",
+          "text": "in respect of the same conduct"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "刑事法律程序仍待決"
+        },
+        {
+          "doc": "04",
+          "text": "由於過往提起該刑事法律程序，因此不得合法地根據該條就同一行為而再次針對該人提起刑事法律程序"
+        },
+        {
+          "doc": "04",
+          "text": "在以下情況下，不得根據第61(2)條就某行為而針對某人提起刑事法律程序"
+        },
+        {
+          "doc": "04",
+          "text": "就同一行為以該人犯藐視罪而懲罰該人"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-378",
+    "module": 2,
+    "truth": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "traps": [
+      null,
+      null,
+      "reversed",
+      null
+    ],
+    "source": {
+      "en": "AMLO ss.39A(2), 40(2)–(3) and 41(3)",
+      "tc": "《打擊洗錢條例》第39A(2)、40(2)至(3)及41(3)條"
+    },
+    "en": {
+      "q": "Regarding changes in particulars, licence display and closure, which statements are correct under the AMLO?",
+      "statements": [
+        "The duty to report changed particulars also covers particulars already supplied through an earlier change notification.",
+        "After receiving a change notification, the Commissioner must update relevant register particulars where this is necessary.",
+        "A licensee returning its licence for cancellation after closure is entitled to a refund of the unused licence period.",
+        "Failing without reasonable excuse to display the original licence is punishable on conviction by a level 5 fine."
+      ],
+      "notes": [
+        "Correct: ss.39A(2), 40(2)–(3) and 41(3) — Section 40(2) includes particulars notified under subsection (1).",
+        "Correct: ss.39A(2), 40(2)–(3) and 41(3) — Section 40(3) says if necessary and as soon as reasonably practicable.",
+        "False: ss.39A(2), 40(2)–(3) and 41(3) — Section 41(3) provides no refund of grant or renewal fees on cancellation.",
+        "Correct: ss.39A(2), 40(2)–(3) and 41(3) — Section 39A(2) specifies a level 5 fine."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於詳情改變、展示牌照及停業，下列哪些陳述正確？",
+      "statements": [
+        "具報詳情改變的責任，也涵蓋持牌人先前在具報改變時已經提供予關長的詳情。",
+        "關長接獲具報改變後，須在有需要時，盡快修改登記冊內有關的詳情。",
+        "持牌人停業後將牌照交回以作取消，有權獲退還牌照尚未使用期間的牌照費。",
+        "無合理辯解而沒有展示牌照正本的持牌人，一經定罪，可處第5級罰款。"
+      ],
+      "notes": [
+        "正確：第39A(2)、40(2)至(3)及41(3)條——第40(2)條包括根據第(1)款具報的詳情。",
+        "正確：第39A(2)、40(2)至(3)及41(3)條——第40(3)條要求在有需要時，在合理地切實可行範圍內盡快修改。",
+        "錯誤：第39A(2)、40(2)至(3)及41(3)條——第41(3)條規定已付批給或續期牌照費不予退回。",
+        "正確：第39A(2)、40(2)至(3)及41(3)條——第39A(2)條訂明第5級罰款。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "particulars that are provided in connection with a licensee’s application under section 30 or 31 include particulars notified under that subsection"
+        },
+        {
+          "doc": "04",
+          "text": "amend any relevant particulars in the register if necessary"
+        },
+        {
+          "doc": "04",
+          "text": "If a licence is returned for cancellation under this section, no licence fee paid in respect of the grant or renewal of the licence is to be refunded."
+        },
+        {
+          "doc": "04",
+          "text": "A licensee who, without reasonable excuse, contravenes subsection (1) commits an offence and is liable on conviction to a fine at level 5."
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "在與持牌人根據第30或31條提出的申請有關連的情況下提供的詳情，包括根據該款具報的詳情"
+        },
+        {
+          "doc": "04",
+          "text": "盡快在有需要的情況下修改登記冊中的有關詳情"
+        },
+        {
+          "doc": "04",
+          "text": "如有牌照根據本條交回以作取消，已就該牌照的批給或續期繳付的牌照費不予退回。"
+        },
+        {
+          "doc": "04",
+          "text": "任何持牌人無合理辯解而違反第(1)款，即屬犯罪，一經定罪，可處第5級罰款。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-379",
+    "module": 2,
+    "truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "source": {
+      "en": "AMLO ss.23(1)–(2) and 45(1)–(2)",
+      "tc": "《打擊洗錢條例》第23(1)至(2)及45(1)至(2)條"
+    },
+    "en": {
+      "q": "Regarding the mandatory preparation for exercising pecuniary penalty powers, which statements are correct under the AMLO?",
+      "statements": [
+        "Before first using the money service penalty power, the Commissioner must publish guidelines on how it will be used.",
+        "Those money service guidelines must be published in the Gazette as well as any other manner considered appropriate.",
+        "The Commissioner must have regard to the published guidelines when using the money service pecuniary penalty power.",
+        "For the separate financial-institution penalty power, the relevant authority likewise must publish guidelines before first use."
+      ],
+      "notes": [
+        "Correct: ss.23(1)–(2) and 45(1)–(2) — Section 45(1) requires publication before the first use.",
+        "Correct: ss.23(1)–(2) and 45(1)–(2) — Section 45(1) requires Gazette publication and any other appropriate manner.",
+        "Correct: ss.23(1)–(2) and 45(1)–(2) — Section 45(2) requires regard to the published guidelines.",
+        "Correct: ss.23(1)–(2) and 45(1)–(2) — Section 23(1) imposes the analogous publication requirement for section 21(2)(c)."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於行使施加罰款權力前的法定準備，下列哪些陳述正確？",
+      "statements": [
+        "關長首次使用金錢服務罰款權力前，必須公布指引，示明擬採用何種方式行使該權力。",
+        "上述金錢服務罰款指引必須在憲報刊登，並以關長認為適當的其他方式公布。",
+        "關長使用金錢服務罰款權力時，必須顧及按法定要求刊登及公布的罰款指引。",
+        "就另一項金融機構罰款權力而言，有關當局也必須在首次行使該權力前公布指引。"
+      ],
+      "notes": [
+        "正確：第23(1)至(2)及45(1)至(2)條——第45(1)條要求首次行使權力前公布指引。",
+        "正確：第23(1)至(2)及45(1)至(2)條——第45(1)條同時要求憲報刊登及其他認為適當的公布方式。",
+        "正確：第23(1)至(2)及45(1)至(2)條——第45(2)條要求顧及已公布指引。",
+        "正確：第23(1)至(2)及45(1)至(2)條——第23(1)條就第21(2)(c)條權力施加相同的預先公布要求。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "The Commissioner must, before he or she first exercises the power to impose a pecuniary penalty referred to in section 43(2)(c), publish in the Gazette"
+        },
+        {
+          "doc": "04",
+          "text": "publish in the Gazette and in any other manner that the Commissioner considers appropriate, guidelines"
+        },
+        {
+          "doc": "04",
+          "text": "the Commissioner must have regard to the guidelines published under subsection (1)"
+        },
+        {
+          "doc": "04",
+          "text": "A relevant authority must, before it first exercises its power to impose a pecuniary penalty referred to in section 21(2)(c)"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "關長在首次行使第43(2)(c)條提述的權力施加罰款前，須在憲報刊登"
+        },
+        {
+          "doc": "04",
+          "text": "須在憲報刊登並以其認為適當的其他方式公布指引"
+        },
+        {
+          "doc": "04",
+          "text": "須顧及根據第(1)款刊登及公布的指引"
+        },
+        {
+          "doc": "04",
+          "text": "有關當局在首次行使第21(2)(c)條提述的權力施加罰款前"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-325",
+    "module": 3,
+    "truth": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      "qualifier",
+      null,
+      "condition"
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.5(3)(b), (5)",
+      "tc": "《打擊洗錢條例》附表2第5(3)(b)及(5)條"
+    },
+    "en": {
+      "q": "Regarding former politically exposed persons and ongoing monitoring, which statements are correct under the AMLO?",
+      "statements": [
+        "An MSO may cease the special PEP monitoring measures once it assesses a former PEP as not presenting a high ML/TF risk.",
+        "A customer’s retirement from public office alone permits the MSO to end the special PEP monitoring without a risk assessment.",
+        "The monitoring exception can apply where a corporate customer’s beneficial owner, rather than the customer, is the former PEP.",
+        "A current PEP assessed as low risk qualifies for the former-PEP monitoring exception without first leaving public office."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.5(3)(b), (5) — The section 5(5) exception requires former status and an appropriate risk assessment.",
+        "False: Sch. 2 s.5(3)(b), (5) — Retirement alone does not satisfy the risk-assessment limb of section 5(5).",
+        "Correct: Sch. 2 s.5(3)(b), (5) — Section 5(5) expressly covers a customer or its beneficial owner.",
+        "False: Sch. 2 s.5(3)(b), (5) — Section 5(5)(a) requires the person to be a former PEP."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於前政治人物及持續監察，下列哪些陳述正確？",
+      "statements": [
+        "經適當評估信納前政治人物不造成高度洗錢或恐怖分子資金籌集風險後，可停止政治人物特別監察。",
+        "客戶單憑已從重要公職退休，便可讓經營者在沒有風險評估下停止政治人物的特別監察措施。",
+        "監察例外也可用於法團客戶的實益擁有人屬前政治人物的情況，而不只限於客戶本人。",
+        "仍在任的重要公職人員只要獲評估為低風險，無須離任也符合前政治人物的監察例外。"
+      ],
+      "notes": [
+        "正確：附表2第5(3)(b)及(5)條——第5(5)條例外要求前政治人物身分及適當的風險評估。",
+        "錯誤：附表2第5(3)(b)及(5)條——退休本身不足以符合第5(5)條的風險評估條件。",
+        "正確：附表2第5(3)(b)及(5)條——第5(5)條明確涵蓋客戶或其實益擁有人。",
+        "錯誤：附表2第5(3)(b)及(5)條——第5(5)(a)條要求屬前政治人物。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "the former politically exposed person does not present a high risk of money laundering or terrorist financing based on an appropriate risk assessment"
+        },
+        {
+          "doc": "04",
+          "text": "the former politically exposed person does not present a high risk of money laundering or terrorist financing based on an appropriate risk assessment"
+        },
+        {
+          "doc": "04",
+          "text": "the customer or the beneficial owner of the customer is a former politically exposed person"
+        },
+        {
+          "doc": "04",
+          "text": "the customer or the beneficial owner of the customer is a former politically exposed person"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "基於適當風險評估，該前政治人物不會造成洗錢或恐怖分子資金籌集方面的高度風險"
+        },
+        {
+          "doc": "04",
+          "text": "基於適當風險評估，該前政治人物不會造成洗錢或恐怖分子資金籌集方面的高度風險"
+        },
+        {
+          "doc": "04",
+          "text": "該機構或該人士的某客户或某客户的實益擁有人，屬某前政治人物"
+        },
+        {
+          "doc": "04",
+          "text": "該機構或該人士的某客户或某客户的實益擁有人，屬某前政治人物"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-326",
+    "module": 3,
+    "truth": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      "condition",
+      null,
+      "condition"
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.20(2)–(3A)",
+      "tc": "《打擊洗錢條例》附表2第20(2)至(3A)條"
+    },
+    "en": {
+      "q": "Regarding which event starts the five-year record-retention period, which statements are correct under the AMLO?",
+      "statements": [
+        "For a completed occasional exchange requiring CDD, the customer-identification record clock starts when that exchange is completed.",
+        "For a completed occasional wire transfer requiring CDD, the customer record clock waits until the customer returns for another transfer.",
+        "If a transaction completes one year before the relationship ends, its transaction records still run from that transaction’s completion.",
+        "Customer-identification files in a continuing relationship may be discarded five years after the last transaction, despite the relationship continuing."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.20(2)–(3A) — Section 20(3A) covers customer records for qualifying occasional transactions.",
+        "False: Sch. 2 s.20(2)–(3A) — Section 20(3A) starts the period on completion of the occasional transaction.",
+        "Correct: Sch. 2 s.20(2)–(3A) — Section 20(2) ties transaction records to completion irrespective of subsequent closure.",
+        "False: Sch. 2 s.20(2)–(3A) — Section 20(3) requires retention throughout the relationship as well as five years afterwards."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於五年紀錄保存期由甚麼事件起計，下列哪些陳述正確？",
+      "statements": [
+        "須作盡職審查的非經常兌換交易完成後，客戶身分紀錄的保存期從該項交易完成當日起計。",
+        "須作盡職審查的非經常電傳轉賬完成後，客戶紀錄的保存期須等客戶再次匯款才開始起計。",
+        "如交易在業務關係終止前一年完成，交易紀錄的保存期仍從該項交易完成之日開始起計。",
+        "持續業務關係中的客戶身分檔案，可在最後交易完成五年後刪除，即使業務關係仍在繼續。"
+      ],
+      "notes": [
+        "正確：附表2第20(2)至(3A)條——第20(3A)條涵蓋合資格非經常交易的客戶紀錄。",
+        "錯誤：附表2第20(2)至(3A)條——第20(3A)條從非經常交易完成之日起計。",
+        "正確：附表2第20(2)至(3A)條——第20(2)條按交易完成起計，不因其後結束關係而改變。",
+        "錯誤：附表2第20(2)至(3A)條——第20(3)條要求在關係繼續期間及終止後至少五年備存。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "Records required to be kept under subsection (1)(b) for an occasional transaction that is carried out in any of the circumstances set out in section 3(1)(b), (1A) and (1B) of this Schedule must be kept for a period of at least 5 years beginning on the date on which the occasional transaction is completed."
+        },
+        {
+          "doc": "04",
+          "text": "Records required to be kept under subsection (1)(b) for an occasional transaction that is carried out in any of the circumstances set out in section 3(1)(b), (1A) and (1B) of this Schedule must be kept for a period of at least 5 years beginning on the date on which the occasional transaction is completed."
+        },
+        {
+          "doc": "04",
+          "text": "Records required to be kept under subsection (1)(a) must be kept for a period of at least 5 years beginning on the date on which the transaction is completed, regardless of whether the business relationship ends during that period."
+        },
+        {
+          "doc": "04",
+          "text": "Records required to be kept under subsection (1)(b) must be kept throughout the continuance of the business relationship with the customer and for a period of at least 5 years beginning on the date on which the business relationship ends."
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "第(1)(b)款規定須為非經常交易(在本附表第3(1)(b)、(1A)及(1B)條所列的任何情況下進行)備存的紀錄，須在自有關非經常交易完成之日起計的至少5年期間內備存。"
+        },
+        {
+          "doc": "04",
+          "text": "第(1)(b)款規定須為非經常交易(在本附表第3(1)(b)、(1A)及(1B)條所列的任何情況下進行)備存的紀錄，須在自有關非經常交易完成之日起計的至少5年期間內備存。"
+        },
+        {
+          "doc": "04",
+          "text": "第(1)(a)款規定須備存的紀錄，須在自有關交易完成的日期起計的至少5年期間內備存，不論有關的業務關係是否在該段期間內終止亦然。"
+        },
+        {
+          "doc": "04",
+          "text": "第(1)(b)款規定須備存的紀錄，須在與有關客戶的業務關係繼續期間備存，及在自有關的業務關係終止的日期起計的至少5年期間內備存。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-327",
+    "module": 3,
+    "truth": [
+      true,
+      false,
+      false,
+      false
+    ],
+    "traps": [
+      null,
+      "reversed",
+      "qualifier",
+      "reversed"
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.18(1), (2), (6)",
+      "tc": "《打擊洗錢條例》附表2第18(1)、(2)及(6)條"
+    },
+    "en": {
+      "q": "Regarding using an agent or an intermediary to perform CDD, which statements are correct under the AMLO?",
+      "statements": [
+        "An MSO may appoint an agent to perform a CDD measure, but remains liable under the AMLO if that measure is not carried out.",
+        "Calling the service provider an agent instead of an intermediary transfers the statutory liability for failed CDD away from the MSO.",
+        "A specified intermediary’s verbal consent is enough if the MSO is satisfied that documents will be available promptly when requested.",
+        "A written intermediary appointment removes the MSO’s statutory liability if the intermediary later fails to perform the agreed CDD measure."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.18(1), (2), (6) — Section 18(6) preserves the agent route and the MSO’s liability.",
+        "False: Sch. 2 s.18(1), (2), (6) — The express retention of liability in section 18(6) defeats this change of label.",
+        "False: Sch. 2 s.18(1), (2), (6) — Section 18(1)(a) independently requires consent in writing.",
+        "False: Sch. 2 s.18(1), (2), (6) — Section 18(2) retains the MSO’s liability even when it relies on an intermediary."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於藉代理人或中介人執行客戶盡職審查，下列哪些陳述正確？",
+      "statements": [
+        "經營者可藉代理人執行盡職審查措施，但沒有執行該措施時，仍須根據條例負有法律責任。",
+        "把服務提供者稱為代理人而非中介人，可把盡職審查失責的法定責任從經營者轉移出去。",
+        "如經營者信納文件可在要求時迅速提供，即使指明中介人只是口頭同意，也足以符合要求。",
+        "中介人書面接受委任後，如其未有執行約定的盡職審查措施，經營者便不再負法定責任。"
+      ],
+      "notes": [
+        "正確：附表2第18(1)、(2)及(6)條——第18(6)條保留使用代理人的安排及經營者的法律責任。",
+        "錯誤：附表2第18(1)、(2)及(6)條——第18(6)條明文保留責任，稱謂改變並不能轉移責任。",
+        "錯誤：附表2第18(1)、(2)及(6)條——第18(1)(a)條另行要求書面同意。",
+        "錯誤：附表2第18(1)、(2)及(6)條——第18(2)條即使在使用中介人時，也保留經營者的責任。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "Nothing in this section prevents a financial institution or a DNFBP from carrying out a customer due diligence measure by an agent but such a financial institution or a DNFBP remains liable under this Ordinance for a failure to carry out that customer due diligence measure."
+        },
+        {
+          "doc": "04",
+          "text": "Nothing in this section prevents a financial institution or a DNFBP from carrying out a customer due diligence measure by an agent but such a financial institution or a DNFBP remains liable under this Ordinance for a failure to carry out that customer due diligence measure."
+        },
+        {
+          "doc": "04",
+          "text": "the intermediary consents in writing to be the financial institution’s or the DNFBP’s intermediary"
+        },
+        {
+          "doc": "04",
+          "text": "remains liable under this Ordinance for a failure to carry out that customer due diligence measure"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "本條並不阻止金融機構或指定非金融業人士藉着某代理人執行客户盡職審查措施，但該機構或該人士仍然根據本條例，就未有執行該客戶盡職審查措施負有法律責任。"
+        },
+        {
+          "doc": "04",
+          "text": "本條並不阻止金融機構或指定非金融業人士藉着某代理人執行客户盡職審查措施，但該機構或該人士仍然根據本條例，就未有執行該客戶盡職審查措施負有法律責任。"
+        },
+        {
+          "doc": "04",
+          "text": "該中介人藉書面同意擔任該機構或該人士的中介人"
+        },
+        {
+          "doc": "04",
+          "text": "藉著中介人執行客戶盡職審查措施的金融機構或指定非金融業人士，仍然根據本條例就未有執行客戶盡職審查措施負有法律責任。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-328",
+    "module": 3,
+    "truth": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      "qualifier",
+      null,
+      null
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.22(1)–(2)",
+      "tc": "《打擊洗錢條例》附表2第22(1)至(2)條"
+    },
+    "en": {
+      "q": "Regarding an overseas branch blocked by local law from applying AML procedures, which statements are correct under the AMLO?",
+      "statements": [
+        "A Hong Kong-incorporated MSO must add effective risk-mitigation measures when local law blocks required procedures at an overseas branch.",
+        "Informing the relevant authority of the legal obstacle alone discharges the duty even if no additional risk mitigation is put in place.",
+        "The same additional-mitigation duty can apply to a covered overseas subsidiary undertaking, rather than only to an overseas branch.",
+        "The MSO must ensure comparable procedures to the extent local law permits, rather than treating one legal obstacle as a complete exemption."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.22(1)–(2) — Section 22(2)(b) requires additional mitigation of the resulting risk.",
+        "False: Sch. 2 s.22(1)–(2) — Section 22(2) joins notification and additional mitigation with and.",
+        "Correct: Sch. 2 s.22(1)–(2) — Section 22(2)(b) expressly covers branches and subsidiary undertakings.",
+        "Correct: Sch. 2 s.22(1)–(2) — Section 22(1) applies to the extent permitted by the law of that place."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於海外分行因當地法律而不能實行打擊洗錢程序，下列哪些陳述正確？",
+      "statements": [
+        "香港成立的經營者遇到海外法律阻止分行實行所需程序時，必須採取增補措施有效減低風險。",
+        "只要已把法律障礙通知有關當局，即使沒有增補風險減低措施，也已完全履行有關責任。",
+        "同一增補風險減低責任，也可適用於受規定涵蓋的海外附屬企業，並非只限於海外分行。",
+        "經營者須確保在當地法律准許的範圍內有相類程序，不可把一項法律障礙當作全面豁免。"
+      ],
+      "notes": [
+        "正確：附表2第22(1)至(2)條——第22(2)(b)條要求增補措施減低因此產生的風險。",
+        "錯誤：附表2第22(1)至(2)條——第22(2)條以「及」連接通知與增補措施，兩者均須履行。",
+        "正確：附表2第22(1)至(2)條——第22(2)(b)條明確涵蓋分行及附屬企業。",
+        "正確：附表2第22(1)至(2)條——第22(1)條規定在當地法律准許的範圍內確保遵守。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "take additional measures to effectively mitigate the risk of money laundering and terrorist financing faced by the branch or subsidiary undertaking as a result of its inability to comply with the requirement"
+        },
+        {
+          "doc": "04",
+          "text": "take additional measures to effectively mitigate the risk of money laundering and terrorist financing faced by the branch or subsidiary undertaking as a result of its inability to comply with the requirement"
+        },
+        {
+          "doc": "04",
+          "text": "take additional measures to effectively mitigate the risk of money laundering and terrorist financing faced by the branch or subsidiary undertaking as a result of its inability to comply with the requirement"
+        },
+        {
+          "doc": "04",
+          "text": "to the extent permitted by the law of that place, requirements similar to those imposed under Parts 2 and 3 of this Schedule"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "採取增補措施，以有效地減低該分行或附屬企業因不能遵從該等規定而面對的洗錢及恐怖分子資金籌集風險"
+        },
+        {
+          "doc": "04",
+          "text": "採取增補措施，以有效地減低該分行或附屬企業因不能遵從該等規定而面對的洗錢及恐怖分子資金籌集風險"
+        },
+        {
+          "doc": "04",
+          "text": "採取增補措施，以有效地減低該分行或附屬企業因不能遵從該等規定而面對的洗錢及恐怖分子資金籌集風險"
+        },
+        {
+          "doc": "04",
+          "text": "確保與根據本附表第2及3部施加的適用於該機構的規定相類似的規定在該地方法律准許的範圍內獲遵守"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-329",
+    "module": 3,
+    "truth": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "traps": [
+      null,
+      null,
+      "qualifier",
+      null
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.1(1), beneficial owner (c)",
+      "tc": "《打擊洗錢條例》附表2第1(1)條實益擁有人定義(c)段"
+    },
+    "en": {
+      "q": "Regarding identifying beneficial owners of a trust with vested future interests, which statements are correct under the AMLO?",
+      "statements": [
+        "A beneficiary entitled to a vested remainder interest may count even though the beneficiary does not presently possess the trust property.",
+        "A class of beneficiaries entitled to vested interests may count even though the definition refers to a class rather than a single beneficiary.",
+        "A beneficiary’s vested interest is excluded from the definition if the terms of the trust make that vested interest defeasible.",
+        "A vested reversion interest falls within the definition, so current possession is not the only form of interest that the MSO must consider."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.1(1), beneficial owner (c) — The definition expressly includes vested interests in remainder.",
+        "Correct: Sch. 2 s.1(1), beneficial owner (c) — The definition expressly includes a class of beneficiaries.",
+        "False: Sch. 2 s.1(1), beneficial owner (c) — The definition says whether it is defeasible or not.",
+        "Correct: Sch. 2 s.1(1), beneficial owner (c) — The definition expressly includes reversion as well as possession and remainder."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於識別具有既得未來權益的信託實益擁有人，下列哪些陳述正確？",
+      "statements": [
+        "有權享有既得剩餘權益的受益人，即使現時未管有信託財產，也可屬實益擁有人。",
+        "有權享有既得權益的某類別受益人，即使是一個類別而非單一人士，也可屬實益擁有人。",
+        "受益人的既得權益，如按信託條款屬可予廢除的權益，便被排除於實益擁有人定義之外。",
+        "既得復歸權益也屬定義範圍，因此經營者不能只考慮目前具有管有權的信託權益。"
+      ],
+      "notes": [
+        "正確：附表2第1(1)條實益擁有人定義(c)段——定義明確包括剩餘權的既得權益。",
+        "正確：附表2第1(1)條實益擁有人定義(c)段——定義明確包括某類別受益人。",
+        "錯誤：附表2第1(1)條實益擁有人定義(c)段——定義明言不論該權益是否可予廢除。",
+        "正確：附表2第1(1)條實益擁有人定義(c)段——定義明確包括復歸權、管有權及剩餘權。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "a beneficiary or a class of beneficiaries of the trust entitled to a vested interest in the trust property, whether the interest is in possession or in remainder or reversion and whether it is defeasible or not"
+        },
+        {
+          "doc": "04",
+          "text": "a beneficiary or a class of beneficiaries of the trust entitled to a vested interest in the trust property, whether the interest is in possession or in remainder or reversion and whether it is defeasible or not"
+        },
+        {
+          "doc": "04",
+          "text": "a beneficiary or a class of beneficiaries of the trust entitled to a vested interest in the trust property, whether the interest is in possession or in remainder or reversion and whether it is defeasible or not"
+        },
+        {
+          "doc": "04",
+          "text": "a beneficiary or a class of beneficiaries of the trust entitled to a vested interest in the trust property, whether the interest is in possession or in remainder or reversion and whether it is defeasible or not"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "有權享有信託財產的既得權益的受益人或某類別受益人，而不論該受益人是享有該權益的管有權、剩餘權或復歸權，亦不論該權益是否可予廢除"
+        },
+        {
+          "doc": "04",
+          "text": "有權享有信託財產的既得權益的受益人或某類別受益人，而不論該受益人是享有該權益的管有權、剩餘權或復歸權，亦不論該權益是否可予廢除"
+        },
+        {
+          "doc": "04",
+          "text": "有權享有信託財產的既得權益的受益人或某類別受益人，而不論該受益人是享有該權益的管有權、剩餘權或復歸權，亦不論該權益是否可予廢除"
+        },
+        {
+          "doc": "04",
+          "text": "有權享有信託財產的既得權益的受益人或某類別受益人，而不論該受益人是享有該權益的管有權、剩餘權或復歸權，亦不論該權益是否可予廢除"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-330",
+    "module": 3,
+    "truth": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      "qualifier",
+      "scope"
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.12(2)(c)",
+      "tc": "《打擊洗錢條例》附表2第12(2)(c)條"
+    },
+    "en": {
+      "q": "Regarding the card-transaction exclusion from special wire-transfer requirements, which statements are correct under the AMLO?",
+      "statements": [
+        "A card-funded transfer to another individual fails the card exclusion where the card is used as a person-to-person payment system.",
+        "An ATM withdrawal using a debit card is one of the examples of card transactions identified for the exclusion.",
+        "A card purchase automatically qualifies for the exclusion even where the card number or equivalent identifier is absent from its message.",
+        "A cash advance on a credit card is outside the examples, because the exclusion lists purchases of goods and services only."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.12(2)(c) — The person-to-person condition is separate from the use of a card.",
+        "Correct: Sch. 2 s.12(2)(c) — Section 12(2)(c)(i)(A) expressly lists this example.",
+        "False: Sch. 2 s.12(2)(c) — Section 12(2)(c)(iii) still requires the card number or equivalent identifier.",
+        "False: Sch. 2 s.12(2)(c) — Section 12(2)(c)(i)(B) expressly includes obtaining a cash advance."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於卡交易不適用電傳轉賬特別規定的界線，下列哪些陳述正確？",
+      "statements": [
+        "如以卡作個人與個人之間的支付系統，向另一人轉款便不符合卡交易不適用規定的條件。",
+        "使用扣帳卡透過自動櫃員機從銀行戶口提款，是不適用規定列出的其中一項卡交易例子。",
+        "購物使用信用卡後，即使附隨信息沒有卡號或等同獨特識別編碼，也自動符合不適用規定。",
+        "信用卡現金貸款不在例子之列，因為不適用規定只列出購買貨物及服務的卡交易。"
+      ],
+      "notes": [
+        "正確：附表2第12(2)(c)條——個人與個人之間支付的限制，是使用卡以外的獨立條件。",
+        "正確：附表2第12(2)(c)條——第12(2)(c)(i)(A)條明確列出這項例子。",
+        "錯誤：附表2第12(2)(c)條——第12(2)(c)(iii)條仍要求卡號或等同獨特識別編碼。",
+        "錯誤：附表2第12(2)(c)條——第12(2)(c)(i)(B)條明確包括取得現金貸款。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "the card is not used as a payment system to effect a person-to-person transfer"
+        },
+        {
+          "doc": "04",
+          "text": "withdrawing money from a bank account through an automated teller machine with a debit card"
+        },
+        {
+          "doc": "04",
+          "text": "the number (or equivalent unique identifier) of the credit card, debit card or prepaid card is included in the message or payment form accompanying the transfer"
+        },
+        {
+          "doc": "04",
+          "text": "obtaining a cash advance on a credit card"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "該信用咭、扣賬咭或預付咭，並非用作一項支付系統以執行人對人之間轉賬"
+        },
+        {
+          "doc": "04",
+          "text": "以扣賬咭經自動櫃員機從銀行户口提取金錢"
+        },
+        {
+          "doc": "04",
+          "text": "該信用咭、扣賬咭或預付咭的號碼(或等同的獨特標識)，已包括在附隨該項轉賬的信息或付款表格內"
+        },
+        {
+          "doc": "04",
+          "text": "以信用咭取得現金墊支"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-331",
+    "module": 3,
+    "truth": [
+      true,
+      false,
+      false,
+      false
+    ],
+    "traps": [
+      null,
+      "added",
+      "reversed",
+      "period"
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.6(1)–(2)",
+      "tc": "《打擊洗錢條例》附表2第6(1)至(2)條"
+    },
+    "en": {
+      "q": "Regarding CDD triggered by changes to a pre-existing customer’s account, which statements are correct under the AMLO?",
+      "statements": [
+        "A material change in account operation triggers CDD even without an unusual transaction occurring at that same time.",
+        "A material change in account operation triggers CDD only after the MSO has also formed a money-laundering suspicion.",
+        "The special rules for pre-existing customers replace the separate CDD trigger for doubts about identification information.",
+        "If CDD triggered by the material change cannot be completed, keeping the relationship until the next annual review is allowed."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.6(1)–(2) — Section 6(1)(b) is an alternative trigger to the transactions in paragraph (a).",
+        "False: Sch. 2 s.6(1)–(2) — The material-change limb contains no additional suspicion requirement.",
+        "False: Sch. 2 s.6(1)–(2) — Section 6(1) applies in addition to section 3(1)(d) and (e).",
+        "False: Sch. 2 s.6(1)–(2) — Section 6(2) requires termination as soon as reasonably practicable."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於先前客戶戶口轉變所觸發的盡職審查，下列哪些陳述正確？",
+      "statements": [
+        "戶口操作方式有重大轉變，即使當時沒有異乎尋常交易發生，也會觸發盡職審查。",
+        "戶口操作方式有重大轉變，只有在經營者也已形成洗錢懷疑後，才會觸發盡職審查。",
+        "先前客戶的特別規定，取代了對身分識別資料有疑問時另須執行盡職審查的責任。",
+        "如未能完成重大轉變所觸發的盡職審查，經營者可保留業務關係直至下次年度覆核。"
+      ],
+      "notes": [
+        "正確：附表2第6(1)至(2)條——第6(1)(b)條是(a)段交易以外的獨立觸發情況。",
+        "錯誤：附表2第6(1)至(2)條——重大轉變的條件並沒有另加洗錢懷疑的要求。",
+        "錯誤：附表2第6(1)至(2)條——第6(1)條在第3(1)(d)及(e)條情況以外增加責任。",
+        "錯誤：附表2第6(1)至(2)條——第6(2)條要求在合理地切實可行範圍內盡快終止。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "a material change occurs in the way in which the customer’s account is operated"
+        },
+        {
+          "doc": "04",
+          "text": "a material change occurs in the way in which the customer’s account is operated"
+        },
+        {
+          "doc": "04",
+          "text": "in addition to the situations specified in section 3(1)(d) and (e) of this Schedule"
+        },
+        {
+          "doc": "04",
+          "text": "must terminate the business relationship with the customer as soon as reasonably practicable"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "該客戶的戶口的操作模式出現相當程度的轉變"
+        },
+        {
+          "doc": "04",
+          "text": "該客戶的戶口的操作模式出現相當程度的轉變"
+        },
+        {
+          "doc": "04",
+          "text": "除在本附表第3(1)(d)及(e)條指明的情況外"
+        },
+        {
+          "doc": "04",
+          "text": "須在合理地切實可行的範圍內，盡快結束該機構或該人士與有關客戶的業務關係"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-332",
+    "module": 3,
+    "truth": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      "scope",
+      "qualifier"
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.15(a)–(c)",
+      "tc": "《打擊洗錢條例》附表2第15(a)至(c)條"
+    },
+    "en": {
+      "q": "Regarding different high-risk situations faced by an MSO, which statements are correct under the AMLO?",
+      "statements": [
+        "For a high-risk occasional transaction, the special rule requires additional measures to mitigate the ML/TF risk involved.",
+        "For a new high-risk relationship, extra mitigation can replace source-of-wealth and source-of-funds measures, but not senior approval.",
+        "For an existing high-risk relationship with a beneficial owner, identity verification of that owner may be replaced by additional mitigation.",
+        "For an existing high-risk relationship, mitigation measures remove the need for senior approval to continue the relationship."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.15(a)–(c) — Section 15(c) expressly addresses occasional transactions.",
+        "Correct: Sch. 2 s.15(a)–(c) — Section 15(a) requires approval and then gives two alternative measures.",
+        "False: Sch. 2 s.15(a)–(c) — Section 15(b)(ii) is a separate requirement, outside the alternatives in paragraph (iii).",
+        "False: Sch. 2 s.15(a)–(c) — Section 15(b)(i) separately requires senior-management approval."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於經營者面對的不同高風險情況，下列哪些陳述正確？",
+      "statements": [
+        "對高風險非經常交易，特別規定要求採取額外措施，減低所涉洗錢或恐怖分子資金籌集風險。",
+        "對新高風險業務關係，額外措施可替代確立財富及資金來源的措施，但不能替代高級管理層批准。",
+        "對有實益擁有人的現有高風險業務關係，核實該擁有人身分的責任可由額外減低風險措施取代。",
+        "對現有高風險業務關係，只要採取減低風險措施，便無須高級管理層批准而可繼續該關係。"
+      ],
+      "notes": [
+        "正確：附表2第15(a)至(c)條——第15(c)條明確處理非經常交易。",
+        "正確：附表2第15(a)至(c)條——第15(a)條要求批准，再於兩類措施中擇一。",
+        "錯誤：附表2第15(a)至(c)條——第15(b)(ii)條是獨立要求，不屬(iii)段的二擇一措施。",
+        "錯誤：附表2第15(a)至(c)條——第15(b)(i)條獨立要求高級管理層批准。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "where an occasional transaction is to be carried out, take additional measures to mitigate the risk of money laundering or terrorist financing involved"
+        },
+        {
+          "doc": "04",
+          "text": "either— (A) take reasonable measures to establish the relevant customer’s or beneficial owner’s source of wealth and the source of the funds that will be involved in the business relationship; or (B) take additional measures to mitigate the risk of money laundering or terrorist financing involved"
+        },
+        {
+          "doc": "04",
+          "text": "if there is a beneficial owner in relation to the relevant customer, take reasonable measures to verify the beneficial owner’s identity"
+        },
+        {
+          "doc": "04",
+          "text": "obtain approval from the senior management to continue the business relationship"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "如將執行非經常交易)採取額外措施，以減低所涉的洗錢或恐怖分子資金籌集的風險"
+        },
+        {
+          "doc": "04",
+          "text": "合理措施，以確立有關客戶或實益擁有人的財富來源，及該業務關係將會涉及的資金來源"
+        },
+        {
+          "doc": "04",
+          "text": "如就有關客戶而言有某實益擁有人)採取合理措施，以核實該實益擁有人的身分"
+        },
+        {
+          "doc": "04",
+          "text": "取得有關高級管理層的批准，以繼續該業務關係"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-333",
+    "module": 3,
+    "truth": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      "qualifier",
+      null,
+      null
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.12(6), (10)–(11)",
+      "tc": "《打擊洗錢條例》附表2第12(6)、(10)至(11)條"
+    },
+    "en": {
+      "q": "Regarding classifying a wire transfer whose route includes an overseas intermediary, which statements are correct under the AMLO?",
+      "statements": [
+        "A transfer between two Hong Kong institutions routed through an overseas intermediary fails the definition of a domestic wire transfer.",
+        "Such a transfer qualifies for the domestic reduced-message rule merely because its ordering and beneficiary institutions are both local.",
+        "If it receives this transfer as beneficiary without required information, an MSO must seek the missing information from the instructing institution.",
+        "An MSO acting as an intermediary on this non-domestic route must also address missing required information, rather than merely pass it on."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.12(6), (10)–(11) — All intermediary institutions must also be financial institutions located in Hong Kong.",
+        "False: Sch. 2 s.12(6), (10)–(11) — Section 12(6) is restricted to domestic wire transfers; the overseas routing defeats that status.",
+        "Correct: Sch. 2 s.12(6), (10)–(11) — Section 12(10)(a)(i) applies to a non-domestic beneficiary institution.",
+        "Correct: Sch. 2 s.12(6), (10)–(11) — Section 12(10) covers beneficiary and intermediary institutions."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於將涉及海外中介機構的電傳轉賬分類，下列哪些陳述正確？",
+      "statements": [
+        "兩間香港機構之間的轉賬，如經海外中介機構處理，便不符合本地電傳轉賬的定義。",
+        "這類轉賬只因匯款及收款機構同在本地，便可使用本地轉賬的簡化附隨信息規則。",
+        "經營者以收款機構身分接收這類轉賬而欠缺所需資料時，須向發出指示的機構取得遺漏資料。",
+        "經營者在這類非本地路徑以中介機構身分行事，也須處理遺漏資料，不可只把轉賬傳遞下去。"
+      ],
+      "notes": [
+        "正確：附表2第12(6)、(10)至(11)條——所有中介機構也必須是位於香港的金融機構。",
+        "錯誤：附表2第12(6)、(10)至(11)條——第12(6)條限本地轉賬；海外中介機構令其不符合定義。",
+        "正確：附表2第12(6)、(10)至(11)條——第12(10)(a)(i)條適用於非本地轉賬的收款機構。",
+        "正確：附表2第12(6)、(10)至(11)條——第12(10)條涵蓋收款及中介機構。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "a wire transfer in which the ordering institution and the beneficiary institution and, if one or more intermediary institutions are involved in the transfer, the intermediary institution or all the intermediary institutions are financial institutions located in Hong Kong"
+        },
+        {
+          "doc": "04",
+          "text": "a wire transfer in which the ordering institution and the beneficiary institution and, if one or more intermediary institutions are involved in the transfer, the intermediary institution or all the intermediary institutions are financial institutions located in Hong Kong"
+        },
+        {
+          "doc": "04",
+          "text": "obtain the missing information from the institution from which it receives the transfer instruction"
+        },
+        {
+          "doc": "04",
+          "text": "Where a financial institution is a beneficiary institution or an intermediary institution in a wire transfer that is not a domestic wire transfer"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "參予該項轉賬的匯款機構及收款機構，與及(如有一間或多於一間的中介機構涉及在該項轉賬)中介機構或所有中介機構均為位於香港的金融機構"
+        },
+        {
+          "doc": "04",
+          "text": "參予該項轉賬的匯款機構及收款機構，與及(如有一間或多於一間的中介機構涉及在該項轉賬)中介機構或所有中介機構均為位於香港的金融機構"
+        },
+        {
+          "doc": "04",
+          "text": "向發出轉賬指示予它的機構，取得有關的遺漏資料"
+        },
+        {
+          "doc": "04",
+          "text": "如金融機構在並非本地電傳轉賬的電傳轉賬中屬收款機構或中介機構"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-334",
+    "module": 3,
+    "truth": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      "scope",
+      "scope"
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 ss.5(3)–(4), 9(2) and 10(1)",
+      "tc": "《打擊洗錢條例》附表2第5(3)至(4)、9(2)及10(1)條"
+    },
+    "en": {
+      "q": "Regarding the limits of using recognized digital identification for an absent customer, which statements are correct under the AMLO?",
+      "statements": [
+        "Using recognized digital identification to identify and verify an absent customer can disapply the special absence-related identification measures.",
+        "That digital identification can also remove the extra monitoring obligation arising solely from the customer’s absence for identification.",
+        "If the digitally verified customer is a current PEP, the MSO can also omit senior approval because digital verification replaces PEP measures.",
+        "Digital identification removes monitoring measures caused by a separate high-risk situation as well as measures caused by physical absence."
+      ],
+      "notes": [
+        "Correct: Sch. 2 ss.5(3)–(4), 9(2) and 10(1) — Section 9(2) disapplies subsection (1) where the stipulated digital identification measure was carried out.",
+        "Correct: Sch. 2 ss.5(3)–(4), 9(2) and 10(1) — Section 5(4) disapplies the absence limb of section 5(3)(a).",
+        "False: Sch. 2 ss.5(3)–(4), 9(2) and 10(1) — Section 10(1)(a) separately requires senior-management approval before establishing a relationship with a PEP.",
+        "False: Sch. 2 ss.5(3)–(4), 9(2) and 10(1) — Section 5(4) disapplies paragraph (3)(a), not the separate high-risk limb (3)(c)."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於對沒有現身客戶使用認可數碼識別的限制，下列哪些陳述正確？",
+      "statements": [
+        "用認可數碼識別系統識別及核實沒有現身的客戶，可令沒有現身所需的特別識別措施不適用。",
+        "該數碼識別也可令純粹因客戶沒有為識別而現身所產生的額外監察責任不適用。",
+        "如經數碼核實的客戶是在任政治人物，數碼核實也可取代政治人物措施，令高級管理層批准不必進行。",
+        "數碼識別既可取消因客戶沒有現身引起的監察措施，也可取消另一高風險情況所引起的監察措施。"
+      ],
+      "notes": [
+        "正確：附表2第5(3)至(4)、9(2)及10(1)條——第9(2)條在已執行指定數碼識別措施時令第(1)款不適用。",
+        "正確：附表2第5(3)至(4)、9(2)及10(1)條——第5(4)條令第5(3)(a)條沒有現身的條件不適用。",
+        "錯誤：附表2第5(3)至(4)、9(2)及10(1)條——第10(1)(a)條另要求在與政治人物建立關係前取得高級管理層批准。",
+        "錯誤：附表2第5(3)至(4)、9(2)及10(1)條——第5(4)條只令第(3)(a)款不適用，並無取消第(3)(c)款的高風險責任。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "on the basis of data or information provided by a recognized digital identification system"
+        },
+        {
+          "doc": "04",
+          "text": "on the basis of data or information provided by a recognized digital identification system"
+        },
+        {
+          "doc": "04",
+          "text": "obtain approval from the senior management"
+        },
+        {
+          "doc": "04",
+          "text": "a customer, or a beneficial owner of a customer, of a financial institution or a DNFBP is involved in a situation referred to in section 15 of this Schedule"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "以認可數碼識別系統所提供的數據或資料為基礎"
+        },
+        {
+          "doc": "04",
+          "text": "以認可數碼識別系統所提供的數據或資料為基礎"
+        },
+        {
+          "doc": "04",
+          "text": "取得有關高級管理層的批准"
+        },
+        {
+          "doc": "04",
+          "text": "金融機構或指定非金融業人士的客戶或該客戶的實益擁有人涉及本附表第15條提述的情況"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-380",
+    "module": 2,
+    "truth": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      "qualifier",
+      null,
+      null
+    ],
+    "source": {
+      "en": "AMLO s.31(10)–(11)",
+      "tc": "《打擊洗錢條例》第31(10)至(11)條"
+    },
+    "en": {
+      "q": "Regarding a licence that expires while a valid renewal application awaits decision, which statements are correct under the AMLO?",
+      "statements": [
+        "If the application is still pending and the licence has not been revoked or suspended, the licence can continue beyond its old expiry date.",
+        "If the licensee withdraws the renewal application after the old expiry date, the pending-renewal protection continues until a refusal is issued.",
+        "If the licence is suspended while the renewal application remains pending, the application itself does not preserve the right to keep operating.",
+        "If renewal is granted after the old expiry date, its effective date is the day after the licence would otherwise have expired."
+      ],
+      "notes": [
+        "Correct: s.31(10)–(11) — Section 31(10) keeps the licence in force pending determination, subject to its exceptions.",
+        "False: s.31(10)–(11) — Withdrawal is an express exception to continued validity.",
+        "Correct: s.31(10)–(11) — Suspension under section 34 is an express exception.",
+        "Correct: s.31(10)–(11) — Section 31(11)(b) prevents a gap in the renewal period."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於有效續期申請待決期間到期的牌照，下列哪些陳述正確？",
+      "statements": [
+        "如申請仍待決，而且牌照未被撤銷或暫時吊銷，牌照可在原本屆滿日期之後繼續有效。",
+        "如持牌人在原屆滿日後撤回續期申請，待決續期的保障仍持續，直至關長發出拒絕決定。",
+        "如牌照在續期申請待決時被暫時吊銷，申請本身不能保留持牌人繼續經營的權利。",
+        "如原屆滿日之後才批給續期，續期生效日為沒有待決延續規定時牌照本應屆滿之日的翌日。"
+      ],
+      "notes": [
+        "正確：第31(10)至(11)條——第31(10)條在例外限制下維持牌照效力。",
+        "錯誤：第31(10)至(11)條——撤回申請是持續有效的明文例外。",
+        "正確：第31(10)至(11)條——第34條的暫時吊銷是明文例外。",
+        "正確：第31(10)至(11)條——第31(11)(b)條把續期起點定為本應屆滿之日的翌日。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "which expires before the determination of the application by the Commissioner remains in force"
+        },
+        {
+          "doc": "04",
+          "text": "unless the application is withdrawn or the licence is revoked or suspended under section 34"
+        },
+        {
+          "doc": "04",
+          "text": "unless the application is withdrawn or the licence is revoked or suspended under section 34"
+        },
+        {
+          "doc": "04",
+          "text": "if subsection (10) applies, on the day following the day on which the licence would have expired but for that subsection"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "在關長就該申請作出決定前，該牌照的有效期已告屆滿"
+        },
+        {
+          "doc": "04",
+          "text": "除非該申請被撤回，或該牌照根據第34條被撤銷或暫時吊銷"
+        },
+        {
+          "doc": "04",
+          "text": "除非該申請被撤回，或該牌照根據第34條被撤銷或暫時吊銷"
+        },
+        {
+          "doc": "04",
+          "text": "如屬第(10)款適用的情況)在有關牌照的有效期若無第(10)款規定即本應屆滿之日的翌日有效"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-381",
+    "module": 2,
+    "truth": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      "period",
+      null,
+      "condition"
+    ],
+    "source": {
+      "en": "AMLO s.30(7)",
+      "tc": "《打擊洗錢條例》第30(7)條"
+    },
+    "en": {
+      "q": "Regarding the start date of a condition imposed when a licence is granted, which statements are correct under the AMLO?",
+      "statements": [
+        "A grant-condition notice received on 4 June and specifying 8 June takes effect on 8 June rather than immediately on receipt.",
+        "A grant-condition notice received on 10 June but specifying 8 June makes the condition effective retrospectively from 8 June.",
+        "A grant-condition notice received and specifying effect on the same day starts on that day, without an added 21-day waiting period.",
+        "Posting a grant-condition notice on 1 June makes the condition effective that day even if receipt and the specified time are later."
+      ],
+      "notes": [
+        "Correct: s.30(7) — The later of receipt and specified time controls.",
+        "False: s.30(7) — Receipt on 10 June is later, so the condition starts then.",
+        "Correct: s.30(7) — Section 30(7) supplies a specific commencement rule.",
+        "False: s.30(7) — Dispatch is not the trigger in section 30(7)."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於批給牌照時施加條件的生效日期，下列哪些陳述正確？",
+      "statements": [
+        "批給牌照的條件通知在6月4日收到、指明6月8日生效，條件在6月8日才生效。",
+        "批給牌照的條件通知在6月10日收到、指明6月8日生效，條件會追溯至6月8日生效。",
+        "批給牌照的條件通知在收到當天指明生效，條件當天生效，無須另等21日。",
+        "批給牌照的條件通知在6月1日寄出，即使接獲及指明時間較後，也在寄出當日生效。"
+      ],
+      "notes": [
+        "正確：第30(7)條——接獲時間與指明時間以較遲者為準。",
+        "錯誤：第30(7)條——6月10日收到通知較遲，應在該日生效。",
+        "正確：第30(7)條——第30(7)條另有明確的生效規則。",
+        "錯誤：第30(7)條——第30(7)條不是以寄出日期觸發生效。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "takes effect at the time the notice under subsection (6) is received by the licensee, or at the time specified in the notice under subsection (6), whichever is the later"
+        },
+        {
+          "doc": "04",
+          "text": "takes effect at the time the notice under subsection (6) is received by the licensee, or at the time specified in the notice under subsection (6), whichever is the later"
+        },
+        {
+          "doc": "04",
+          "text": "takes effect at the time the notice under subsection (6) is received by the licensee, or at the time specified in the notice under subsection (6), whichever is the later"
+        },
+        {
+          "doc": "04",
+          "text": "takes effect at the time the notice under subsection (6) is received by the licensee, or at the time specified in the notice under subsection (6), whichever is the later"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "在有關持牌人接獲第(6)款所指的通知時或在該通知指明的時間(兩者以較遲者為準)生效"
+        },
+        {
+          "doc": "04",
+          "text": "在有關持牌人接獲第(6)款所指的通知時或在該通知指明的時間(兩者以較遲者為準)生效"
+        },
+        {
+          "doc": "04",
+          "text": "在有關持牌人接獲第(6)款所指的通知時或在該通知指明的時間(兩者以較遲者為準)生效"
+        },
+        {
+          "doc": "04",
+          "text": "在有關持牌人接獲第(6)款所指的通知時或在該通知指明的時間(兩者以較遲者為準)生效"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-382",
+    "module": 2,
+    "truth": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      "qualifier",
+      null,
+      "modal"
+    ],
+    "source": {
+      "en": "AMLO s.34(1)(b), (2)–(3)",
+      "tc": "《打擊洗錢條例》第34(1)(b)、(2)至(3)條"
+    },
+    "en": {
+      "q": "Regarding new and existing occupants of domestic MSO premises, which statements are correct under the AMLO?",
+      "statements": [
+        "If a new occupant refuses written entry consent, the Commissioner may exercise the statutory revocation or suspension powers.",
+        "Consent from every original occupant protects the licence even if a newly arrived occupant refuses to give written consent.",
+        "One existing occupant withdrawing consent can trigger the power even if every other occupant maintains written consent.",
+        "A new occupant’s refusal automatically cancels the licence without a decision or an opportunity for the licensee to be heard."
+      ],
+      "notes": [
+        "Correct: s.34(1)(b), (2)–(3) — Section 34(1)(b)(ii) expressly addresses new occupants.",
+        "False: s.34(1)(b), (2)–(3) — New occupants’ refusal is independently specified.",
+        "Correct: s.34(1)(b), (2)–(3) — Section 34(1)(b)(i) says any occupant.",
+        "False: s.34(1)(b), (2)–(3) — Section 34 gives discretionary powers exercisable after a reasonable opportunity to be heard."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於金錢服務住宅處所的新舊佔用人，下列哪些陳述正確？",
+      "statements": [
+        "如住宅處所的新佔用人拒絕書面進入同意，關長可行使法定撤銷或暫時吊銷牌照權力。",
+        "只要原有佔用人全部曾經同意，即使新入住佔用人拒絕書面同意，牌照也不受該理由影響。",
+        "即使其他佔用人全都保留書面同意，一名原有佔用人撤回同意也足以觸發有關權力。",
+        "新佔用人拒絕同意便會自動取消牌照，無須關長決定，也無須給持牌人陳詞機會。"
+      ],
+      "notes": [
+        "正確：第34(1)(b)、(2)至(3)條——第34(1)(b)(ii)條明確處理新佔用人。",
+        "錯誤：第34(1)(b)、(2)至(3)條——新佔用人拒絕同意是獨立列出的理由。",
+        "正確：第34(1)(b)、(2)至(3)條——第34(1)(b)(i)條列明任何佔用人。",
+        "錯誤：第34(1)(b)、(2)至(3)條——第34條給予酌情權，並要求先給予合理陳詞機會。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "any new occupant of the premises refuses to give such a written consent"
+        },
+        {
+          "doc": "04",
+          "text": "any new occupant of the premises refuses to give such a written consent"
+        },
+        {
+          "doc": "04",
+          "text": "any occupant of the premises revokes his or her written consent previously given"
+        },
+        {
+          "doc": "04",
+          "text": "The Commissioner may only exercise a power under subsection (1) after giving the licensee a reasonable opportunity to be heard."
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "該處所的任何新佔用人拒絕給予該項書面同意"
+        },
+        {
+          "doc": "04",
+          "text": "該處所的任何新佔用人拒絕給予該項書面同意"
+        },
+        {
+          "doc": "04",
+          "text": "該處所的任何佔用人撤銷其先前給予的"
+        },
+        {
+          "doc": "04",
+          "text": "關長須先給予有關持牌人合理的陳詞機會，方可根據第(1)款行使權力。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-383",
+    "module": 2,
+    "truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "source": {
+      "en": "AMLO s.24, ultimate owner (c)",
+      "tc": "《打擊洗錢條例》第24條最終擁有人定義(c)段"
+    },
+    "en": {
+      "q": "Regarding whether an individual is an ultimate owner of a corporate licensee, which statements are correct under the AMLO?",
+      "statements": [
+        "An individual with exactly 25% of issued capital, no voting control and no ultimate management control fails the share-capital limb.",
+        "An individual controlling 30% of issued capital indirectly through a trust can qualify without holding those shares personally.",
+        "An individual controlling 30% of general-meeting voting rights can qualify despite holding no issued shares in the corporation.",
+        "An individual with ultimate management control can qualify even with no shares and no more than 25% of voting rights."
+      ],
+      "notes": [
+        "Correct: s.24, ultimate owner (c) — The share-capital test is more than 25%, not 25% or more.",
+        "Correct: s.24, ultimate owner (c) — Indirect ownership or control through a trust is expressly included.",
+        "Correct: s.24, ultimate owner (c) — Voting control is an alternative limb rather than an additional shareholding condition.",
+        "Correct: s.24, ultimate owner (c) — Ultimate management control is a separate alternative limb."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於個人是否屬法團的持牌人的最終擁有人，下列哪些陳述正確？",
+      "statements": [
+        "個人恰好持有25%已發行股本，沒有投票控制或最終管理控制，不符合股本比例的條件。",
+        "個人透過信託間接控制30%已發行股本，即使沒有以個人名義持股，也可符合定義。",
+        "個人控制成員大會30%投票權，即使沒有持有法團的已發行股份，也可符合定義。",
+        "個人具有最終管理控制，即使沒有股份且投票權不超過25%，也可符合最終擁有人定義。"
+      ],
+      "notes": [
+        "正確：第24條最終擁有人定義(c)段——股本條件是25%以上，而非等於或超過25%。",
+        "正確：第24條最終擁有人定義(c)段——定義明確包括透過信託的間接擁有或控制。",
+        "正確：第24條最終擁有人定義(c)段——投票控制屬另一獨立條件，並非附加持股要求。",
+        "正確：第24條最終擁有人定義(c)段——最終管理控制是另一獨立條件。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "owns or controls, directly or indirectly, including through a trust or bearer share holding, more than 25% of the issued share capital of the corporation"
+        },
+        {
+          "doc": "04",
+          "text": "owns or controls, directly or indirectly, including through a trust or bearer share holding, more than 25% of the issued share capital of the corporation"
+        },
+        {
+          "doc": "04",
+          "text": "is, directly or indirectly, entitled to exercise or control the exercise of more than 25% of the voting rights at general meetings of the corporation"
+        },
+        {
+          "doc": "04",
+          "text": "exercises ultimate control over the management of the corporation"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "直接或間接地擁有或控制(包括透過信託或持票人股份持有)該法團已發行股本的25%以上"
+        },
+        {
+          "doc": "04",
+          "text": "直接或間接地擁有或控制(包括透過信託或持票人股份持有)該法團已發行股本的25%以上"
+        },
+        {
+          "doc": "04",
+          "text": "直接或間接地有權行使在該法團的成員大會上的投票權的25%以上，或支配該比重的投票權的行使"
+        },
+        {
+          "doc": "04",
+          "text": "可行使對該法團的管理最終的控制權"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-384",
+    "module": 2,
+    "truth": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      "scope",
+      null,
+      null
+    ],
+    "source": {
+      "en": "AMLO s.41(1)–(3)",
+      "tc": "《打擊洗錢條例》第41(1)至(3)條"
+    },
+    "en": {
+      "q": "Regarding closing one of several licensed premises, which statements are correct under the AMLO?",
+      "statements": [
+        "Closing only one licensed branch still requires the licensee to notify the Commissioner of the intention before its closure date.",
+        "Keeping the other licensed branch open allows the licensee to retain the unchanged licence instead of returning it for amendment.",
+        "The closure notice must state the intended closure date as well as the intention to stop operating at that particular premises.",
+        "After receiving the returned licence, the Commissioner removes relevant register particulars as soon as reasonably practicable."
+      ],
+      "notes": [
+        "Correct: s.41(1)–(3) — Section 41(1) includes ceasing at any specified premises.",
+        "False: s.41(1)–(3) — The partial-closure case is still subject to section 41(1)(b).",
+        "Correct: s.41(1)–(3) — Section 41(1)(a) requires both intention and date.",
+        "Correct: s.41(1)–(3) — Section 41(2)(b) requires removal of relevant particulars."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於停止在多個持牌處所中的一個處所營業，下列哪些陳述正確？",
+      "statements": [
+        "只關閉其中一個持牌分店，仍須在停業日期前向關長具報停止在該處所營業的意向。",
+        "只要另一持牌分店仍繼續營業，持牌人便可保留未經修訂的牌照，無須交回作修訂。",
+        "停業通知除了表明停止在該特定處所經營的意向，也必須載明擬定的停業日期。",
+        "關長收到交回的牌照後，須在合理地切實可行的範圍內，盡快刪除登記冊的有關詳情。"
+      ],
+      "notes": [
+        "正確：第41(1)至(3)條——第41(1)條包括停止在任何指明處所經營。",
+        "錯誤：第41(1)至(3)條——部分處所停業仍須遵從第41(1)(b)條。",
+        "正確：第41(1)至(3)條——第41(1)(a)條同時要求意向及日期。",
+        "正確：第41(1)至(3)條——第41(2)(b)條要求刪除有關詳情。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "to cease to operate a money service at any of the premises specified in the licence"
+        },
+        {
+          "doc": "04",
+          "text": "return the licence to the Commissioner for cancellation or amendment within 7 days beginning on the date of cessation"
+        },
+        {
+          "doc": "04",
+          "text": "before the date of cessation, notify the Commissioner in writing of that intention and the date of cessation"
+        },
+        {
+          "doc": "04",
+          "text": "remove the relevant particulars from the register"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "停止在有關牌照指明的任何處所經營金錢服務"
+        },
+        {
+          "doc": "04",
+          "text": "在自停業日期起計的7日內，將該牌照交回關長，以作取消或修訂"
+        },
+        {
+          "doc": "04",
+          "text": "在停業日期前，藉書面向關長具報該意向及停業日期"
+        },
+        {
+          "doc": "04",
+          "text": "在登記冊中刪除有關詳情"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-385",
+    "module": 2,
+    "truth": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      "added",
+      "scope"
+    ],
+    "source": {
+      "en": "AMLO s.30(4)(b)–(e)",
+      "tc": "《打擊洗錢條例》第30(4)(b)至(e)條"
+    },
+    "en": {
+      "q": "Regarding facts relevant to fitness and propriety of an MSO applicant, which statements are correct under the AMLO?",
+      "statements": [
+        "A foreign conviction requiring a finding of dishonesty is a listed consideration even if it is not itself a money-laundering offence.",
+        "An individual subject to current bankruptcy proceedings is a listed consideration even before adjudication as an undischarged bankrupt.",
+        "A corporate applicant with an appointed receiver is a listed consideration only if the corporation has also entered liquidation.",
+        "The listed considerations prevent the Commissioner taking another relevant matter into account when judging fitness and propriety."
+      ],
+      "notes": [
+        "Correct: s.30(4)(b)–(e) — Section 30(4)(b)(iii) separately includes fraud, corruption or dishonesty.",
+        "Correct: s.30(4)(b)–(e) — Section 30(4)(d) includes being the subject of bankruptcy proceedings.",
+        "False: s.30(4)(b)–(e) — Section 30(4)(e) uses or, not a combined requirement.",
+        "False: s.30(4)(b)–(e) — Section 30(4) expressly adds any other matter considered relevant."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於判斷金錢服務申請人適當人選資格的事實，下列哪些陳述正確？",
+      "statements": [
+        "外地定罪必須涉及不誠實裁斷時，即使不是洗錢罪，也屬明列須顧及的事宜。",
+        "個人現為破產程序的標的，即使尚未被判為未獲解除破產的破產人，也屬明列考慮事宜。",
+        "法團申請人有接管人獲委任，只有在法團同時已進入清盤時，才屬明列的考慮事宜。",
+        "列明的考慮事宜，會阻止關長在判斷適當人選資格時，考慮其他有關的事項。"
+      ],
+      "notes": [
+        "正確：第30(4)(b)至(e)條——第30(4)(b)(iii)條獨立涵蓋欺詐、舞弊或不誠實。",
+        "正確：第30(4)(b)至(e)條——第30(4)(d)條包括作為破產程序的標的。",
+        "錯誤：第30(4)(b)至(e)條——第30(4)(e)條以「或」連接，並非須同時符合。",
+        "錯誤：第30(4)(b)至(e)條——第30(4)條明確要求也考慮其他認為有關的事宜。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "for an offence for which it was necessary to find that the person had acted fraudulently, corruptly or dishonestly"
+        },
+        {
+          "doc": "04",
+          "text": "is an undischarged bankrupt or is the subject of any bankruptcy proceedings under the Bankruptcy Ordinance"
+        },
+        {
+          "doc": "04",
+          "text": "is in liquidation or is the subject of a winding up order, or there is a receiver appointed in relation to it"
+        },
+        {
+          "doc": "04",
+          "text": "in addition to any other matter that the Commissioner considers relevant"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "犯任何罪行，而該人曾有欺詐性、舞弊或不誠實的作為的裁斷對該項定罪屬必不可少"
+        },
+        {
+          "doc": "04",
+          "text": "該人是否未獲解除破產的破產人或《破產條例》(第6章)下的破產程序的標的"
+        },
+        {
+          "doc": "04",
+          "text": "該人是否正在清盤當中，或是否任何清盤令的標的，或是否有接管人已就該人而獲委任"
+        },
+        {
+          "doc": "04",
+          "text": "除須考慮任何其他其認為有關的事宜外"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-386",
+    "module": 2,
+    "truth": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      "scope",
+      null,
+      null
+    ],
+    "source": {
+      "en": "AMLO s.43(1)–(4)",
+      "tc": "《打擊洗錢條例》第43(1)至(4)條"
+    },
+    "en": {
+      "q": "Regarding a disciplinary fine and a further daily penalty, which statements are correct under the AMLO?",
+      "statements": [
+        "If a remedial order gives a deadline, the further daily penalty can cover continuing failure after that deadline has passed.",
+        "A licensee given extra time to pay its monetary penalty may use that payment extension to postpone the separate remedial deadline.",
+        "An order imposing a monetary penalty can be accompanied by a public reprimand because the Commissioner may use more than one power.",
+        "The ordinary thirty-day payment period begins when the penalty order takes effect as a specified decision, not when an inspection starts."
+      ],
+      "notes": [
+        "Correct: s.43(1)–(4) — Section 43(4) counts failure continuing after the specified remedial deadline.",
+        "False: s.43(1)–(4) — Section 43(3) concerns payment, while section 43(4) uses the date fixed for remedial action.",
+        "Correct: s.43(1)–(4) — Section 43(1) permits any one or more powers.",
+        "Correct: s.43(1)–(4) — Section 43(3) expressly starts time after the order takes effect under section 75."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於紀律罰款及進一步按日罰款，下列哪些陳述正確？",
+      "statements": [
+        "命令採取糾正行動如指明期限，進一步按日罰款可涵蓋在該期限之後持續沒有遵從命令的情況。",
+        "持牌人獲延長繳付罰款期限後，可用該繳款延期，順延另一項糾正行動的期限。",
+        "施加罰款的命令可同時附有公開譴責，因為關長可行使多於一項的紀律處分權力。",
+        "通常三十日繳款期由罰款命令作為指明決定生效時起計，而不是由視察開始時起計。"
+      ],
+      "notes": [
+        "正確：第43(1)至(4)條——第43(4)條針對採取糾正行動期限後持續沒有遵從的情況。",
+        "錯誤：第43(1)至(4)條——第43(3)條處理繳款期限，第43(4)條則按糾正行動的指定期限。",
+        "正確：第43(1)至(4)條——第43(1)條准許行使一項或多於一項權力。",
+        "正確：第43(1)至(4)條——第43(3)條明確從命令根據第75條生效後起計。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "for each day on which the failure continues after the date specified in the order as being the date by which the remedial action must be taken"
+        },
+        {
+          "doc": "04",
+          "text": "after the date specified in the order as being the date by which the remedial action must be taken"
+        },
+        {
+          "doc": "04",
+          "text": "may exercise any one or more of the powers specified in subsection (2)"
+        },
+        {
+          "doc": "04",
+          "text": "after the order has taken effect as a specified decision under section 75"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "就沒有遵從首述命令的狀況在首述命令指明的採取糾正行動的期限後持續的每一日"
+        },
+        {
+          "doc": "04",
+          "text": "在首述命令指明的採取糾正行動的期限後"
+        },
+        {
+          "doc": "04",
+          "text": "行使第(2)款指明的一項或多於一項權力"
+        },
+        {
+          "doc": "04",
+          "text": "在該命令根據第75條作為指明決定而生效後"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m2-387",
+    "module": 2,
+    "truth": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      "scope",
+      null,
+      "scope"
+    ],
+    "source": {
+      "en": "AMLO s.76E(2), (4)(b), (5) and s.76F(1)",
+      "tc": "《打擊洗錢條例》第76E(2)、(4)(b)、(5)及76F(1)條"
+    },
+    "en": {
+      "q": "Regarding sharing confidential inspection information for professional advice, which statements are correct under the AMLO?",
+      "statements": [
+        "An MSO subject to an inspection requirement may disclose relevant information to a solicitor acting professionally to advise on the AMLO matter.",
+        "That professional-advice exception also permits posting the inspection information publicly to obtain informal advice from anyone online.",
+        "When the authority consents to a disclosure, it may impose appropriate conditions instead of granting unrestricted permission.",
+        "A recipient given the information under the advice exception is automatically free to pass it on because the first disclosure was lawful."
+      ],
+      "notes": [
+        "Correct: s.76E(2), (4)(b), (5) and s.76F(1) — Section 76E(4)(b) expressly permits seeking professional advice.",
+        "False: s.76E(2), (4)(b), (5) and s.76F(1) — The exception requires a professional adviser acting or proposing to act professionally on the AMLO matter.",
+        "Correct: s.76E(2), (4)(b), (5) and s.76F(1) — Section 76E(5) permits conditions on consent.",
+        "False: s.76E(2), (4)(b), (5) and s.76F(1) — Section 76F(1) imposes a separate onward-disclosure restriction, subject to its own exceptions."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於為專業意見而披露保密視察資料，下列哪些陳述正確？",
+      "statements": [
+        "受視察要求規限的經營者，可向以專業身分就條例事宜提供意見的律師披露有關資料。",
+        "專業意見例外也准許在網上公開張貼視察資料，以向任何網民徵求非正式意見。",
+        "有關當局同意披露資料時，可施加其認為適當的條件，並非必須給予不受限制的准許。",
+        "資料收取人根據徵詢意見例外獲得資料後，只因首次披露合法，便自動可再向任何人披露。"
+      ],
+      "notes": [
+        "正確：第76E(2)、(4)(b)、(5)及76F(1)條——第76E(4)(b)條明確准許徵詢專業意見。",
+        "錯誤：第76E(2)、(4)(b)、(5)及76F(1)條——例外要求專業顧問以或擬以專業身分就條例事宜行事。",
+        "正確：第76E(2)、(4)(b)、(5)及76F(1)條——第76E(5)條准許就同意施加條件。",
+        "錯誤：第76E(2)、(4)(b)、(5)及76F(1)條——第76F(1)條另行限制轉披露，須符合該條本身的例外。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "the disclosure is for the purpose of seeking advice from, or giving advice by, counsel or a solicitor or other professional adviser"
+        },
+        {
+          "doc": "04",
+          "text": "who is acting or proposing to act in a professional capacity in connection with any matter arising under this Ordinance"
+        },
+        {
+          "doc": "04",
+          "text": "The relevant authority may impose any conditions that it considers appropriate on a consent given by it"
+        },
+        {
+          "doc": "04",
+          "text": "each specified recipient must not disclose the information to another person unless"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "披露有關資料的目的，是為向以(或擬以)專業身分行事的大律師、律師或其他專業顧問"
+        },
+        {
+          "doc": "04",
+          "text": "在與根據本條例引起的任何事宜相關的情況下徵詢意見"
+        },
+        {
+          "doc": "04",
+          "text": "有關當局如為施行第(2)(a)或(3)(a)款而給予同意，可就該同意施加其認為適當的條件"
+        },
+        {
+          "doc": "04",
+          "text": "否則每名指明收取人，均不得向另一人披露該資料"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-335",
+    "module": 3,
+    "truth": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "traps": [
+      null,
+      null,
+      "scope",
+      null
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.3(1)(b), (1A)",
+      "tc": "《打擊洗錢條例》附表2第3(1)(b)及(1A)條"
+    },
+    "en": {
+      "q": "Regarding occasional transactions by ordinary individual customers, with no simplified CDD available, which statements are correct under the AMLO?",
+      "statements": [
+        "An occasional cash exchange of exactly $120,000 meets the general transaction-value threshold for CDD before it is carried out.",
+        "An occasional wire transfer of exactly $8,000 meets the wire-transfer CDD threshold even though it is below $120,000.",
+        "Three cash-exchange operations of $40,000 appearing linked may be treated separately so that no operation meets the CDD threshold.",
+        "Two apparently linked wire-transfer operations of $4,000 each can meet the occasional wire-transfer threshold when taken together."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.3(1)(b), (1A) — The general threshold is equal to or above $120,000.",
+        "Correct: Sch. 2 s.3(1)(b), (1A) — Section 3(1A) overrides the general threshold for an occasional wire transfer.",
+        "False: Sch. 2 s.3(1)(b), (1A) — Section 3(1)(b) aggregates apparently linked operations.",
+        "Correct: Sch. 2 s.3(1)(b), (1A) — Section 3(1A) also includes operations appearing linked."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於普通個人客戶的非經常交易，並無簡化盡職審查可用，下列哪些陳述正確？",
+      "statements": [
+        "恰好120,000元的非經常現金兌換，符合一般交易金額門檻，須在進行前作盡職審查。",
+        "恰好8,000元的非經常電傳轉賬，即使少於120,000元，仍符合電傳轉賬盡職審查門檻。",
+        "三次看似有關連的40,000元現金兌換，可分開處理，令每次操作都不達盡職審查門檻。",
+        "兩次看似有關連的4,000元電傳轉賬操作，合併計算時可符合非經常電傳轉賬門檻。"
+      ],
+      "notes": [
+        "正確：附表2第3(1)(b)及(1A)條——一般門檻是相等於120,000元或以上。",
+        "正確：附表2第3(1)(b)及(1A)條——第3(1A)條就非經常電傳轉賬另定較低門檻。",
+        "錯誤：附表2第3(1)(b)及(1A)條——第3(1)(b)條涵蓋看似有關連的若干次操作。",
+        "正確：附表2第3(1)(b)及(1A)條——第3(1A)條也涵蓋看似有關連的若干次操作。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "before carrying out for the customer an occasional transaction involving an amount equal to or above $120,000 or an equivalent amount in any other currency, whether the transaction is carried out in a single operation or in several operations that appear to the financial institution or the DNFBP to be linked"
+        },
+        {
+          "doc": "04",
+          "text": "a wire transfer involving an amount equal to or above $8,000 or an equivalent amount in any other currency"
+        },
+        {
+          "doc": "04",
+          "text": "before carrying out for the customer an occasional transaction involving an amount equal to or above $120,000 or an equivalent amount in any other currency, whether the transaction is carried out in a single operation or in several operations that appear to the financial institution or the DNFBP to be linked"
+        },
+        {
+          "doc": "04",
+          "text": "whether the transaction is carried out in a single operation or in several operations that appear to the financial institution to be linked"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "在為該客戶執行涉及相等於$120,000或以上的款額(或折算為任何其他貨幣的相同款額)的非經常交易之前，不論該交易是以單一次操作執行，或是以該機構或該人士覺得是有關連的若干次操作執行"
+        },
+        {
+          "doc": "04",
+          "text": "屬電傳轉賬，並涉及相等於$8,000或以上的款額(或折算為任何其他貨幣的相同款額)"
+        },
+        {
+          "doc": "04",
+          "text": "在為該客戶執行涉及相等於$120,000或以上的款額(或折算為任何其他貨幣的相同款額)的非經常交易之前，不論該交易是以單一次操作執行，或是以該機構或該人士覺得是有關連的若干次操作執行"
+        },
+        {
+          "doc": "04",
+          "text": "不論該交易是以單一次操作執行，或是以該機構覺得是有關連的若干次操作執行"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-336",
+    "module": 3,
+    "truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.3(1)(d)–(e)",
+      "tc": "《打擊洗錢條例》附表2第3(1)(d)至(e)條"
+    },
+    "en": {
+      "q": "Regarding small transactions accompanied by suspicion or identity doubts, which statements are correct under the AMLO?",
+      "statements": [
+        "A suspected laundering transaction of $1,000 can trigger CDD despite being below both the general and wire-transfer monetary thresholds.",
+        "If identification data previously obtained appears inadequate, CDD can be triggered even without evidence that the data is deliberately false.",
+        "Suspicion concerning the customer’s account can trigger CDD even where the MSO has not formed a separate suspicion about the customer personally.",
+        "Previously verified identity data that now appears untrue can trigger fresh CDD even though the MSO completed verification when the account opened."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.3(1)(d)–(e) — Suspicion is an independent trigger without an amount threshold.",
+        "Correct: Sch. 2 s.3(1)(d)–(e) — Doubts about adequacy are sufficient; falsity is not the only ground.",
+        "Correct: Sch. 2 s.3(1)(d)–(e) — The source says the customer or the customer’s account.",
+        "Correct: Sch. 2 s.3(1)(d)–(e) — The trigger expressly concerns information previously obtained."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於附有懷疑或身分疑問的小額交易，下列哪些陳述正確？",
+      "statements": [
+        "涉及洗錢懷疑的1,000元交易，即使低於一般及電傳轉賬金額門檻，也可觸發盡職審查。",
+        "過往取得的身分資料看似不充分時，即使沒有故意虛假資料的證據，也可觸發盡職審查。",
+        "對客戶戶口的懷疑，即使經營者沒有另行懷疑客戶本人，也可觸發盡職審查責任。",
+        "先前已核實的身分資料現時看似不真實，即使開戶時曾完成核實，也可再次觸發盡職審查。"
+      ],
+      "notes": [
+        "正確：附表2第3(1)(d)至(e)條——懷疑是沒有金額門檻的獨立觸發情況。",
+        "正確：附表2第3(1)(d)至(e)條——對充分性的疑問已足夠，並非只有虛假才觸發。",
+        "正確：附表2第3(1)(d)至(e)條——原文列明客戶或客戶的戶口。",
+        "正確：附表2第3(1)(d)至(e)條——觸發條件明確針對過往取得的資料。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "when the financial institution or the DNFBP suspects that the customer or the customer’s account is involved in money laundering or terrorist financing"
+        },
+        {
+          "doc": "04",
+          "text": "when the financial institution or the DNFBP doubts the veracity or adequacy of any information previously obtained for the purpose of identifying the customer or for the purpose of verifying the customer’s identity"
+        },
+        {
+          "doc": "04",
+          "text": "when the financial institution or the DNFBP suspects that the customer or the customer’s account is involved in money laundering or terrorist financing"
+        },
+        {
+          "doc": "04",
+          "text": "when the financial institution or the DNFBP doubts the veracity or adequacy of any information previously obtained for the purpose of identifying the customer or for the purpose of verifying the customer’s identity"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "當該機構或該人士懷疑客戶或客戶的戶口涉及洗錢或恐怖分子資金籌集時"
+        },
+        {
+          "doc": "04",
+          "text": "當該機構或該人士懷疑過往為識別客戶的身分或核實客戶的身分而取得的資料是否真實或充分時"
+        },
+        {
+          "doc": "04",
+          "text": "當該機構或該人士懷疑客戶或客戶的戶口涉及洗錢或恐怖分子資金籌集時"
+        },
+        {
+          "doc": "04",
+          "text": "當該機構或該人士懷疑過往為識別客戶的身分或核實客戶的身分而取得的資料是否真實或充分時"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-337",
+    "module": 3,
+    "truth": [
+      true,
+      false,
+      false,
+      false
+    ],
+    "traps": [
+      null,
+      "qualifier",
+      "qualifier",
+      "period"
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.3(2)–(3)",
+      "tc": "《打擊洗錢條例》附表2第3(2)至(3)條"
+    },
+    "en": {
+      "q": "Regarding a proposal to verify identity after opening a business relationship, which statements are correct under the AMLO?",
+      "statements": [
+        "Preventing interruption of normal business is insufficient by itself if the risk created by delayed verification is not effectively managed.",
+        "An MSO may delay verification merely for customer convenience even if delaying it is not necessary to avoid interrupting normal business.",
+        "Effective risk management alone allows delayed verification even when there is no need to avoid interrupting the customer’s normal business.",
+        "Once delayed verification is permitted, the MSO may leave it unfinished until the next periodic review even if earlier completion is practicable."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.3(2)–(3) — Section 3(2) requires both necessity and effective management of the resulting risk.",
+        "False: Sch. 2 s.3(2)–(3) — The necessity condition remains required.",
+        "False: Sch. 2 s.3(2)–(3) — Effective risk management is cumulative with, not an alternative to, necessity.",
+        "False: Sch. 2 s.3(2)–(3) — Section 3(3) requires completion as soon as reasonably practicable."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於在建立業務關係後才核實身分的建議，下列哪些陳述正確？",
+      "statements": [
+        "如延遲核實引起的風險未獲有效管理，單憑避免干擾正常業務的需要，並不足以延遲核實。",
+        "即使延遲核實並非為避免干擾正常業務所必需，經營者也可只為方便客戶而延遲核實。",
+        "即使無須避免干擾客戶的正常業務，只要風險獲有效管理，也一律准許延遲核實身分。",
+        "獲准延遲核實後，即使可更早完成，經營者也可留待下次定期覆核時才完成身分核實。"
+      ],
+      "notes": [
+        "正確：附表2第3(2)至(3)條——第3(2)條同時要求必需性及風險有效管理。",
+        "錯誤：附表2第3(2)至(3)條——仍須符合避免干擾正常業務的必需條件。",
+        "錯誤：附表2第3(2)至(3)條——風險管理和必需性須同時符合，並非二選一。",
+        "錯誤：附表2第3(2)至(3)條——第3(3)條要求在合理地切實可行範圍內盡快完成。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "this is necessary not to interrupt the normal conduct of business with regard to the customer; and (b) any risk of money laundering or terrorist financing that may be caused by carrying out the verification after establishing the business relationship is effectively managed"
+        },
+        {
+          "doc": "04",
+          "text": "this is necessary not to interrupt the normal conduct of business with regard to the customer; and (b) any risk of money laundering or terrorist financing that may be caused by carrying out the verification after establishing the business relationship is effectively managed"
+        },
+        {
+          "doc": "04",
+          "text": "this is necessary not to interrupt the normal conduct of business with regard to the customer; and (b) any risk of money laundering or terrorist financing that may be caused by carrying out the verification after establishing the business relationship is effectively managed"
+        },
+        {
+          "doc": "04",
+          "text": "must complete the verification as soon as reasonably practicable after establishing the business relationship"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "與為就客戶的業務正常運作不造成干擾，如此行事是必需的；及 (b) 在業務關係建立之後才進行核實而可能引致的洗錢或恐怖分子資金籌集風險，已獲有效管理"
+        },
+        {
+          "doc": "04",
+          "text": "與為就客戶的業務正常運作不造成干擾，如此行事是必需的；及 (b) 在業務關係建立之後才進行核實而可能引致的洗錢或恐怖分子資金籌集風險，已獲有效管理"
+        },
+        {
+          "doc": "04",
+          "text": "與為就客戶的業務正常運作不造成干擾，如此行事是必需的；及 (b) 在業務關係建立之後才進行核實而可能引致的洗錢或恐怖分子資金籌集風險，已獲有效管理"
+        },
+        {
+          "doc": "04",
+          "text": "須在該關係建立之後，在合理地切實可行的範圍內，盡快完成有關核實"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-338",
+    "module": 3,
+    "truth": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      "condition",
+      null,
+      "modal"
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.3(4)",
+      "tc": "《打擊洗錢條例》附表2第3(4)條"
+    },
+    "en": {
+      "q": "Regarding decisions when mandatory CDD cannot be completed, which statements are correct under the AMLO?",
+      "statements": [
+        "If required CDD cannot be completed before a new relationship, the MSO must decline to establish that relationship.",
+        "If required CDD for an occasional transfer fails, the MSO may execute the transfer first and restrict later transactions instead.",
+        "If permitted delayed verification cannot be completed, the MSO must end the existing relationship as soon as reasonably practicable.",
+        "If required CDD fails after a relationship already exists, closing the relationship is optional whenever the next transaction is small."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.3(4) — Section 3(4)(a) prohibits establishing the relationship.",
+        "False: Sch. 2 s.3(4) — Section 3(4)(a) prohibits carrying out the occasional transaction.",
+        "Correct: Sch. 2 s.3(4) — Section 3(4)(b) applies where a relationship has already been established.",
+        "False: Sch. 2 s.3(4) — Section 3(4)(b) requires termination without a small-transaction exception."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於未能完成強制盡職審查時的決定，下列哪些陳述正確？",
+      "statements": [
+        "如未能在新業務關係建立前完成所需盡職審查，經營者不得建立該業務關係。",
+        "如非經常轉賬所需盡職審查失敗，經營者可先執行該轉賬，改為限制其後交易。",
+        "如獲准延遲的核實無法完成，經營者須在合理地切實可行範圍內，盡快結束現有關係。",
+        "如已建立關係後所需盡職審查失敗，只要下次交易金額細小，結束關係便屬自願選擇。"
+      ],
+      "notes": [
+        "正確：附表2第3(4)條——第3(4)(a)條禁止建立關係。",
+        "錯誤：附表2第3(4)條——第3(4)(a)條禁止執行非經常交易。",
+        "正確：附表2第3(4)條——第3(4)(b)條適用於已建立的關係。",
+        "錯誤：附表2第3(4)條——第3(4)(b)條要求結束關係，沒有小額交易例外。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "must not establish a business relationship or carry out any occasional transaction with that customer"
+        },
+        {
+          "doc": "04",
+          "text": "must not establish a business relationship or carry out any occasional transaction with that customer"
+        },
+        {
+          "doc": "04",
+          "text": "if the financial institution or the DNFBP has already established a business relationship with that customer, must terminate the business relationship as soon as reasonably practicable"
+        },
+        {
+          "doc": "04",
+          "text": "if the financial institution or the DNFBP has already established a business relationship with that customer, must terminate the business relationship as soon as reasonably practicable"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "不可與該客戶建立業務關係，亦不可與該客戶執行任何非經常交易"
+        },
+        {
+          "doc": "04",
+          "text": "不可與該客戶建立業務關係，亦不可與該客戶執行任何非經常交易"
+        },
+        {
+          "doc": "04",
+          "text": "如該機構或該人士已與該客戶建立業務關係)須在合理地切實可行的範圍內，盡快結束該關係"
+        },
+        {
+          "doc": "04",
+          "text": "如該機構或該人士已與該客戶建立業務關係)須在合理地切實可行的範圍內，盡快結束該關係"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-339",
+    "module": 3,
+    "truth": [
+      true,
+      false,
+      false,
+      false
+    ],
+    "traps": [
+      null,
+      "scope",
+      "scope",
+      "scope"
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.4(1), (3)(c) and s.2(1)(d)",
+      "tc": "《打擊洗錢條例》附表2第4(1)、(3)(c)及2(1)(d)條"
+    },
+    "en": {
+      "q": "Regarding an MSO starting an ordinary relationship with a qualifying listed company, with no suspicion or identity doubt, which statements are correct under the AMLO?",
+      "statements": [
+        "Reasonable grounds for believing that the company is listed can permit the MSO to use the statutory simplified CDD route.",
+        "Choosing simplified CDD permits the MSO to omit identification and verification of the listed corporate customer itself.",
+        "If a representative acts for the company, simplified CDD permits the MSO to accept that representative without checking authority.",
+        "The statutory listed-company category requires a Hong Kong listing, so listing solely on a foreign stock exchange cannot qualify."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.4(1), (3)(c) and s.2(1)(d) — Section 4(1) permits simplified measures on reasonable grounds, and section 4(3)(c) lists this customer.",
+        "False: Sch. 2 s.4(1), (3)(c) and s.2(1)(d) — Section 4(1) retains section 2(1)(a), the customer identity measure.",
+        "False: Sch. 2 s.4(1), (3)(c) and s.2(1)(d) — Section 4(1) retains section 2(1)(d), including verification of authority.",
+        "False: Sch. 2 s.4(1), (3)(c) and s.2(1)(d) — Section 4(3)(c) says any stock exchange."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於經營者與合資格上市公司建立普通關係，沒有懷疑或身分疑問，下列哪些陳述正確？",
+      "statements": [
+        "如有合理理由相信該公司已上市，經營者可採用法定簡化客戶盡職審查安排。",
+        "選用簡化盡職審查後，經營者可省略上市法團客戶本身的身分識別及核實。",
+        "如有人代表公司行事，簡化盡職審查准許經營者接受該代表，無須核實其授權。",
+        "法定上市公司類別要求在香港上市，因此只在外地證券市場上市並不足以符合資格。"
+      ],
+      "notes": [
+        "正確：附表2第4(1)、(3)(c)及2(1)(d)條——第4(1)條容許有合理理由時簡化，第4(3)(c)條列出上市法團。",
+        "錯誤：附表2第4(1)、(3)(c)及2(1)(d)條——第4(1)條保留第2(1)(a)條客戶身分措施。",
+        "錯誤：附表2第4(1)、(3)(c)及2(1)(d)條——第4(1)條保留第2(1)(d)條，包括核實授權。",
+        "錯誤：附表2第4(1)、(3)(c)及2(1)(d)條——第4(3)(c)條列明任何證券市場。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "a corporation listed on any stock exchange"
+        },
+        {
+          "doc": "04",
+          "text": "carry out only the measures set out in section 2(1)(a), (ab), (c) and (d) of this Schedule"
+        },
+        {
+          "doc": "04",
+          "text": "verifying the person’s authority to act on behalf of the customer"
+        },
+        {
+          "doc": "04",
+          "text": "a corporation listed on any stock exchange"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "在任何證券市場上市的法團"
+        },
+        {
+          "doc": "04",
+          "text": "可只就該客戶執行本附表第2(1)(a)、(ab)、(c)及(d)條所列的客戶盡職審查措施"
+        },
+        {
+          "doc": "04",
+          "text": "核實該人代表客戶行事的授權"
+        },
+        {
+          "doc": "04",
+          "text": "在任何證券市場上市的法團"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-340",
+    "module": 3,
+    "truth": [
+      true,
+      false,
+      false,
+      true
+    ],
+    "traps": [
+      null,
+      "scope",
+      "added",
+      null
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.4(2)–(3)(c)",
+      "tc": "《打擊洗錢條例》附表2第4(2)至(3)(c)條"
+    },
+    "en": {
+      "q": "Regarding an unlisted customer whose ownership chain includes a qualifying listed entity, without suspicion or identity doubts, which statements are correct under the AMLO?",
+      "statements": [
+        "The MSO may stop identifying or verifying beneficial owners of the qualifying listed entity and of persons further up that ownership chain.",
+        "The presence of the listed entity exempts every individual beneficial owner in the chain, including those below the listed entity.",
+        "The unlisted customer itself must become listed before the ownership-chain exception can apply to the qualifying listed entity above it.",
+        "A foreign-listed qualifying entity can provide the same stopping point because the listed-entity category is not confined to Hong Kong exchanges."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.4(2)–(3)(c) — Section 4(2) defines the permitted stopping point.",
+        "False: Sch. 2 s.4(2)–(3)(c) — The exemption concerns the qualifying entity and persons beyond it, not below it.",
+        "False: Sch. 2 s.4(2)–(3)(c) — Section 4(2) expressly covers a customer not falling within subsection (3).",
+        "Correct: Sch. 2 s.4(2)–(3)(c) — Section 4(3)(c) extends to any stock exchange."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於非上市客戶的擁有權鏈含合資格上市實體，並無懷疑或身分疑問，下列哪些陳述正確？",
+      "statements": [
+        "經營者可不再識別或核實合資格上市實體及其上層人士的實益擁有人身分。",
+        "只要鏈中有上市實體，所有個人實益擁有人都獲豁免，包括位於上市實體以下的人士。",
+        "非上市客戶本身必須先行上市，才可對其上層的合資格上市實體使用擁有權鏈例外。",
+        "外地上市的合資格實體也可作為相同的停止追查層次，因上市類別不限於香港市場。"
+      ],
+      "notes": [
+        "正確：附表2第4(2)至(3)(c)條——第4(2)條界定可停止追查的層次。",
+        "錯誤：附表2第4(2)至(3)(c)條——豁免針對該實體及以上人士，並非以下層次。",
+        "錯誤：附表2第4(2)至(3)(c)條——第4(2)條明確適用於客戶本身不屬第(3)款類別的情況。",
+        "正確：附表2第4(2)至(3)(c)條——第4(3)(c)條涵蓋任何證券市場。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "to identify, or verify the identities of, the beneficial owners of that entity or of any person in that chain beyond that entity"
+        },
+        {
+          "doc": "04",
+          "text": "to identify, or verify the identities of, the beneficial owners of that entity or of any person in that chain beyond that entity"
+        },
+        {
+          "doc": "04",
+          "text": "If a customer of a financial institution or a DNFBP not falling within subsection (3) has in the customer’s beneficial ownership chain an entity that falls within that subsection"
+        },
+        {
+          "doc": "04",
+          "text": "a corporation listed on any stock exchange"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "無需識別或核實以下人士的身分︰該實體的實益擁有人，或在該架構中位於該實體以上的任何人的實益擁有人"
+        },
+        {
+          "doc": "04",
+          "text": "無需識別或核實以下人士的身分︰該實體的實益擁有人，或在該架構中位於該實體以上的任何人的實益擁有人"
+        },
+        {
+          "doc": "04",
+          "text": "客戶(不屬第(3)款所指者)的實益擁有權鏈狀架構中，有屬該款所指的實體"
+        },
+        {
+          "doc": "04",
+          "text": "在任何證券市場上市的法團"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-341",
+    "module": 3,
+    "truth": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      "scope",
+      null,
+      null
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.2(1)(b)–(d)",
+      "tc": "《打擊洗錢條例》附表2第2(1)(b)至(d)條"
+    },
+    "en": {
+      "q": "Regarding a representative opening an MSO relationship for a company with an obvious commercial purpose, which statements are correct under the AMLO?",
+      "statements": [
+        "When both purpose and intended nature are obvious, the specific duty to obtain information about them is subject to an exception.",
+        "The obvious-purpose exception also permits the MSO to dispense with checking the representative’s authority to act for the company.",
+        "A genuine identity document for the representative does not itself establish that the representative is authorized to act for the company.",
+        "Where the company has a beneficial owner, a clear business purpose does not remove the requirement to understand ownership and control."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.2(1)(b)–(d) — Section 2(1)(c) expressly qualifies this information requirement.",
+        "False: Sch. 2 s.2(1)(b)–(d) — Section 2(1)(d)(ii) is a separate obligation; the purpose exception does not remove it.",
+        "Correct: Sch. 2 s.2(1)(b)–(d) — Section 2(1)(d) separately requires identity measures and verification of authority.",
+        "Correct: Sch. 2 s.2(1)(b)–(d) — Section 2(1)(b) independently requires measures to understand legal-person ownership and control."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於代表公司建立具有明顯商業目的的金錢服務業務關係，下列哪些陳述正確？",
+      "statements": [
+        "當目的及擬具有的性質均屬顯而易見時，取得有關目的及性質資料的特定責任設有例外。",
+        "目的顯而易見的例外，也准許經營者省略核實代表該公司行事的人的授權。",
+        "代表的身分證明文件即使真實，也不等於已核實該人獲授權代表公司行事。",
+        "公司有實益擁有人時，即使業務目的清楚，也不會取消了解公司擁有權及控制權結構的責任。"
+      ],
+      "notes": [
+        "正確：附表2第2(1)(b)至(d)條——第2(1)(c)條明確限定這項資料要求。",
+        "錯誤：附表2第2(1)(b)至(d)條——第2(1)(d)(ii)條是獨立責任，不受目的例外取消。",
+        "正確：附表2第2(1)(b)至(d)條——第2(1)(d)條分別要求身分措施及核實授權。",
+        "正確：附表2第2(1)(b)至(d)條——第2(1)(b)條另要求了解法人的擁有權及控制權結構。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "if a business relationship is to be established, obtaining information on the purpose and intended nature of the business relationship with the financial institution or the DNFBP, unless the purpose and intended nature are obvious"
+        },
+        {
+          "doc": "04",
+          "text": "verifying the person’s authority to act on behalf of the customer"
+        },
+        {
+          "doc": "04",
+          "text": "verifying the person’s authority to act on behalf of the customer"
+        },
+        {
+          "doc": "04",
+          "text": "measures to enable the financial institution or the DNFBP to understand the ownership and control structure of the legal person or trust"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "如將要建立業務關係)取得關於與該機構或該人士建立業務關係的目的及擬具有的性質的資料，但如有關目的及擬具有的性質屬顯而易見則除外"
+        },
+        {
+          "doc": "04",
+          "text": "核實該人代表客戶行事的授權"
+        },
+        {
+          "doc": "04",
+          "text": "核實該人代表客戶行事的授權"
+        },
+        {
+          "doc": "04",
+          "text": "可使該機構或該人士能了解該法人或信託的擁有權及控制權結構的措施"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-342",
+    "module": 3,
+    "truth": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "traps": [
+      null,
+      null,
+      "actor",
+      null
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.12(3)(b), (e), (11)",
+      "tc": "《打擊洗錢條例》附表2第12(3)(b)、(e)及(11)條"
+    },
+    "en": {
+      "q": "Regarding identifying the originator where someone else gives a wire-transfer instruction, which statements are correct under the AMLO?",
+      "statements": [
+        "If money is paid from a company’s account with the ordering MSO, its employee giving the instruction does not replace the company as originator.",
+        "If there is no such account, the person instructing the ordering institution to make the transfer is the originator under the definition.",
+        "If the originator has no account, the ordering MSO records a unique reference number that the beneficiary institution assigned to the transfer.",
+        "If the recipient lacks an account, the recipient-side replacement reference is assigned by the beneficiary institution, not the ordering MSO."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.12(3)(b), (e), (11) — The account-holder limb applies where the money comes from such an account.",
+        "Correct: Sch. 2 s.12(3)(b), (e), (11) — The second limb applies in the absence of the account.",
+        "False: Sch. 2 s.12(3)(b), (e), (11) — Section 12(3)(b) uses a number assigned by the ordering financial institution itself.",
+        "Correct: Sch. 2 s.12(3)(b), (e), (11) — Section 12(3)(e) specifically names the beneficiary institution."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於由他人發出電傳轉賬指示時識別匯款人，下列哪些陳述正確？",
+      "statements": [
+        "如款項從公司在匯款經營者的戶口支付，發指示的僱員不會因此取代公司成為匯款人。",
+        "如沒有上述付款戶口，指示匯款機構進行該項轉賬的人便是定義所指的匯款人。",
+        "如匯款人沒有戶口，匯款經營者須記錄由收款機構為該轉賬編配的獨特參考編號。",
+        "如收款人沒有戶口，收款人一方的替代參考編號由收款機構編配，而非由匯款經營者編配。"
+      ],
+      "notes": [
+        "正確：附表2第12(3)(b)、(e)及(11)條——款項從該戶口支付時，適用戶口持有人的條件。",
+        "正確：附表2第12(3)(b)、(e)及(11)條——第二個條件適用於沒有上述戶口的情況。",
+        "錯誤：附表2第12(3)(b)、(e)及(11)條——第12(3)(b)條使用由匯款金融機構本身編配的編號。",
+        "正確：附表2第12(3)(b)、(e)及(11)條——第12(3)(e)條明確指收款機構。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "the person from whose account with the ordering institution the money for the wire transfer is paid"
+        },
+        {
+          "doc": "04",
+          "text": "in the absence of such an account, the person who instructs the ordering institution to carry out the wire transfer"
+        },
+        {
+          "doc": "04",
+          "text": "a unique reference number assigned to the wire transfer by the financial institution"
+        },
+        {
+          "doc": "04",
+          "text": "a unique reference number assigned to the wire transfer by the beneficiary institution"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "該人在匯款機構開立戶口，而該項轉賬所涉金錢，是自該戶口轉賬的"
+        },
+        {
+          "doc": "04",
+          "text": "如沒有此戶口)指示匯款機構進行該項轉賬的人"
+        },
+        {
+          "doc": "04",
+          "text": "由該機構編配予該電傳轉賬的獨特參考編號"
+        },
+        {
+          "doc": "04",
+          "text": "由該收款機構編配予該電傳轉帳的獨特參考編號"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-343",
+    "module": 3,
+    "truth": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.13(1)–(2)",
+      "tc": "《打擊洗錢條例》附表2第13(1)至(2)條"
+    },
+    "en": {
+      "q": "Regarding an outward non-wire remittance of $8,000 whose originator presents a travel document, which statements are correct under the AMLO?",
+      "statements": [
+        "The originator’s identity must be verified by reference to the identification document before the MSO carries out the remittance.",
+        "The MSO must record both the travel document number and the place of issue, rather than recording the number alone.",
+        "The record must include when the instructions were received, including the date and time, rather than only when the money is delivered.",
+        "The MSO must also record the recipient’s name and address and the delivery method, although the transaction is not a wire transfer."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.13(1)–(2) — Section 13(2)(b) requires verification before carrying out the transaction.",
+        "Correct: Sch. 2 s.13(1)–(2) — Section 13(2)(c)(ii) adds place of issue where the identification document is a travel document.",
+        "Correct: Sch. 2 s.13(1)–(2) — Section 13(2)(c)(v) specifies receipt of instructions.",
+        "Correct: Sch. 2 s.13(1)–(2) — These details are listed specifically for qualifying non-wire remittances."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於匯款人出示旅行證件的8,000元非電傳香港以外匯款，下列哪些陳述正確？",
+      "statements": [
+        "經營者進行這項匯款之前，須藉參考匯款人的識別文件，核實匯款人的身分。",
+        "經營者須同時記錄旅行證件的號碼及發出地方，不能只記錄旅行證件號碼。",
+        "紀錄須載有接獲指示的日期及時間，而不只是金錢送遞時的日期及時間。",
+        "經營者也須記錄收款人的姓名及地址和送遞方式，即使這並不是電傳轉賬。"
+      ],
+      "notes": [
+        "正確：附表2第13(1)至(2)條——第13(2)(b)條要求在進行交易前核實。",
+        "正確：附表2第13(1)至(2)條——第13(2)(c)(ii)條在旅行證件情況增加發出地方。",
+        "正確：附表2第13(1)至(2)條——第13(2)(c)(v)條指明接獲指示的時間。",
+        "正確：附表2第13(1)至(2)條——這些資料專為合資格非電傳匯款列明。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "verify the identity of the originator by reference to the originator’s identification document"
+        },
+        {
+          "doc": "04",
+          "text": "the originator’s identification document number and, if the originator’s identification document is a travel document, the place of issue of the travel document"
+        },
+        {
+          "doc": "04",
+          "text": "the date and time of receipt of the instructions, the recipient’s name and address and the method of delivery"
+        },
+        {
+          "doc": "04",
+          "text": "the recipient’s name and address and the method of delivery"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "藉參考匯款人的識別文件，核實匯款人的身分"
+        },
+        {
+          "doc": "04",
+          "text": "匯款人的識別文件的號碼，以及(如匯款人的識別文件是旅行證件)發出旅行證件的地方"
+        },
+        {
+          "doc": "04",
+          "text": "接獲指示的日期及時間、收款人的姓名及地址，以及送遞的方式"
+        },
+        {
+          "doc": "04",
+          "text": "收款人的姓名及地址，以及送遞的方式"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-344",
+    "module": 3,
+    "truth": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      "scope",
+      null,
+      "number"
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.12(3), (3A), (5)(b)",
+      "tc": "《打擊洗錢條例》附表2第12(3)、(3A)及(5)(b)條"
+    },
+    "en": {
+      "q": "Regarding an MSO ordering an individual non-domestic wire transfer below $8,000, not bundled in a batch file, which statements are correct under the AMLO?",
+      "statements": [
+        "A $7,500 transfer does not require the extra originator address-or-alternative detail merely because its destination is outside Hong Kong.",
+        "The reduced information requirement removes the need to record the recipient’s name when the transfer is only $7,500.",
+        "The message for a $7,500 non-domestic transfer still carries the names and account or reference details of both sides.",
+        "Increasing that transfer to exactly $8,000 still leaves the extra originator detail optional because the exemption includes the threshold amount."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.12(3), (3A), (5)(b) — Section 12(3A) exempts the paragraph (3)(c) detail below $8,000.",
+        "False: Sch. 2 s.12(3), (3A), (5)(b) — The exemption covers paragraph (c), not the recipient-name requirement in paragraph (d).",
+        "Correct: Sch. 2 s.12(3), (3A), (5)(b) — Section 12(5)(b) keeps paragraphs (3)(a), (b), (d) and (e).",
+        "False: Sch. 2 s.12(3), (3A), (5)(b) — The exemption is for less than $8,000, not $8,000 or less."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於經營者發出少於8,000元、並非集合在群組檔案內的單項非本地電傳轉賬，下列哪些陳述正確？",
+      "statements": [
+        "7,500元轉賬不會只因目的地在香港以外，而必須記錄匯款人的額外地址或替代資料。",
+        "轉賬只有7,500元時，簡減資料要求也令經營者無須記錄收款人的姓名或名稱。",
+        "7,500元非本地轉賬的信息，仍須附有雙方的姓名或名稱及戶口或參考編號資料。",
+        "把該轉賬增加至恰好8,000元後，額外匯款人資料仍屬可選，因為豁免包括門檻金額本身。"
+      ],
+      "notes": [
+        "正確：附表2第12(3)、(3A)及(5)(b)條——第12(3A)條對少於8,000元免除第(3)(c)款資料。",
+        "錯誤：附表2第12(3)、(3A)及(5)(b)條——豁免只涵蓋(c)段，並非(d)段的收款人姓名。",
+        "正確：附表2第12(3)、(3A)及(5)(b)條——第12(5)(b)條保留第(3)(a)、(b)、(d)及(e)款資料。",
+        "錯誤：附表2第12(3)、(3A)及(5)(b)條——豁免是8,000元以下，不包括恰好8,000元。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "Subsection (3)(c) does not apply to a wire transfer involving an amount below $8,000 or an equivalent amount in another currency."
+        },
+        {
+          "doc": "04",
+          "text": "Subsection (3)(c) does not apply to a wire transfer involving an amount below $8,000 or an equivalent amount in another currency."
+        },
+        {
+          "doc": "04",
+          "text": "for a wire transfer involving an amount below $8,000 or an equivalent amount in another currency—the information recorded under subsection (3)(a), (b), (d) and (e) in relation to the transfer"
+        },
+        {
+          "doc": "04",
+          "text": "Subsection (3)(c) does not apply to a wire transfer involving an amount below $8,000 or an equivalent amount in another currency."
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "第(3)(c)款不適用於涉及$8,000以下的款額(或折算為另一貨幣的相同款額)的電傳轉帳。"
+        },
+        {
+          "doc": "04",
+          "text": "第(3)(c)款不適用於涉及$8,000以下的款額(或折算為另一貨幣的相同款額)的電傳轉帳。"
+        },
+        {
+          "doc": "04",
+          "text": "就涉及$8,000以下的款額(或折算為另一貨幣的相同款額)的電傳轉帳——包括根據第(3)(a)、(b)、(d)及(e)款就該項轉帳記錄的資料"
+        },
+        {
+          "doc": "04",
+          "text": "第(3)(c)款不適用於涉及$8,000以下的款額(或折算為另一貨幣的相同款額)的電傳轉帳。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-345",
+    "module": 3,
+    "truth": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "traps": [
+      null,
+      null,
+      "offlist",
+      null
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.18(3)(a)–(b)",
+      "tc": "《打擊洗錢條例》附表2第18(3)(a)至(b)條"
+    },
+    "en": {
+      "q": "Regarding choosing a local intermediary for an MSO’s CDD, which statements are correct under the AMLO?",
+      "statements": [
+        "A second licensed MSO does not qualify under the listed local financial-institution intermediary category merely by holding its MSO licence.",
+        "An accounting professional can qualify under the professional route only if it satisfies the MSO that adequate AML/CFT procedures are in place.",
+        "A local estate agent is excluded from the professional intermediary route even where adequate AML/CFT procedures satisfy the MSO.",
+        "A licensed insurance broker company can be a listed financial-institution intermediary even though it is not an authorized bank."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.18(3)(a)–(b) — Section 18(3)(b) lists six financial-institution categories and excludes the MSO category.",
+        "Correct: Sch. 2 s.18(3)(a)–(b) — Section 18(3)(a) makes adequate procedures a condition for the listed professionals.",
+        "False: Sch. 2 s.18(3)(a)–(b) — An estate agent is expressly listed in section 18(3)(a)(ii).",
+        "Correct: Sch. 2 s.18(3)(a)–(b) — Section 18(3)(b) expressly includes licensed insurance broker companies."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於為金錢服務經營者選擇本地盡職審查中介人，下列哪些陳述正確？",
+      "statements": [
+        "另一持牌金錢服務經營者，不能單憑金錢服務牌照便符合明列的本地金融機構中介人類別。",
+        "會計專業人士必須令經營者信納已有充分防止洗錢及恐怖分子資金籌集程序，才可走專業人士途徑。",
+        "即使其充分打擊洗錢及恐怖分子資金籌集程序令經營者信納，本地地產代理仍不能走專業中介人途徑。",
+        "持牌保險經紀公司即使不屬銀行業的認可機構，也可符合明列的金融機構中介人類別。"
+      ],
+      "notes": [
+        "正確：附表2第18(3)(a)至(b)條——第18(3)(b)條列出六類金融機構，沒有金錢服務經營者類別。",
+        "正確：附表2第18(3)(a)至(b)條——第18(3)(a)條把充分程序列為明列專業人士的條件。",
+        "錯誤：附表2第18(3)(a)至(b)條——第18(3)(a)(ii)條明確列出地產代理。",
+        "正確：附表2第18(3)(a)至(b)條——第18(3)(b)條明確包括持牌保險經紀公司。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "a financial institution that is an authorized institution, a licensed corporation, an authorized insurer, a licensed individual insurance agent, licensed insurance agency or licensed insurance broker company"
+        },
+        {
+          "doc": "04",
+          "text": "who is able to satisfy the financial institution or the DNFBP that they have adequate procedures in place to prevent money laundering and terrorist financing"
+        },
+        {
+          "doc": "04",
+          "text": "an estate agent; (Replaced 4 of 2018 s. 26)"
+        },
+        {
+          "doc": "04",
+          "text": "a financial institution that is an authorized institution, a licensed corporation, an authorized insurer, a licensed individual insurance agent, licensed insurance agency or licensed insurance broker company"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "屬認可機構、持牌法團、獲授權保險人、持牌個人保險代理、持牌保險代理機構或持牌保險經紀公司的金融機構"
+        },
+        {
+          "doc": "04",
+          "text": "能夠令有關金融機構或指定非金融業人士信納其本身有充分程序以防止洗錢及恐怖分子資金籌集"
+        },
+        {
+          "doc": "04",
+          "text": "地產代理；(由2018年第4號第26條代替)"
+        },
+        {
+          "doc": "04",
+          "text": "屬認可機構、持牌法團、獲授權保險人、持牌個人保險代理、持牌保險代理機構或持牌保險經紀公司的金融機構"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m3-346",
+    "module": 3,
+    "truth": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      null,
+      "qualifier"
+    ],
+    "source": {
+      "en": "AMLO Sch. 2 s.18(3)(d)(ii), (3A), (7)",
+      "tc": "《打擊洗錢條例》附表2第18(3)(d)(ii)、(3A)及(7)條"
+    },
+    "en": {
+      "q": "Regarding related foreign intermediaries used by a non-Hong Kong-incorporated MSO that has not re-domiciled, which statements are correct under the AMLO?",
+      "statements": [
+        "Its head office abroad can meet the relationship limb if it carries on business similar to a listed intermediary financial institution’s business.",
+        "A branch of its foreign head office can also meet the relationship limb if the required business condition is met.",
+        "The group policy relied on must apply to both the MSO and the relevant related foreign financial institution.",
+        "A qualifying relationship with the head office removes the need to satisfy the separate group-policy and group-supervision conditions."
+      ],
+      "notes": [
+        "Correct: Sch. 2 s.18(3)(d)(ii), (3A), (7) — The foreign-incorporated, non-re-domiciled case expressly includes its head office.",
+        "Correct: Sch. 2 s.18(3)(d)(ii), (3A), (7) — Section 18(7) also names a branch of the head office.",
+        "Correct: Sch. 2 s.18(3)(d)(ii), (3A), (7) — The group-policy definition requires application to both institutions.",
+        "False: Sch. 2 s.18(3)(d)(ii), (3A), (7) — Section 18(3)(d) requires both related status and the conditions in subsection (3A)."
+      ]
+    },
+    "tc": {
+      "q": "根據《打擊洗錢條例》，關於沒有遷冊至香港的外地成立經營者使用相關外地中介人，下列哪些陳述正確？",
+      "statements": [
+        "香港以外總行如經營與明列中介人金融機構相類業務，可符合相關外地機構定義的關係條件。",
+        "其香港以外總行的分行如符合所需業務條件，也可符合相關外地機構定義的關係條件。",
+        "所依賴的集團政策必須同時適用於經營者及有關的相關外地金融機構。",
+        "與總行有合資格關係，便可免除另須符合的集團政策及集團層面監管條件。"
+      ],
+      "notes": [
+        "正確：附表2第18(3)(d)(ii)、(3A)及(7)條——外地成立且未遷冊的情況明確包括總行。",
+        "正確：附表2第18(3)(d)(ii)、(3A)及(7)條——第18(7)條也列明總行的分行。",
+        "正確：附表2第18(3)(d)(ii)、(3A)及(7)條——集團政策定義要求適用於兩個機構。",
+        "錯誤：附表2第18(3)(d)(ii)、(3A)及(7)條——第18(3)(d)條同時要求相關身分及第(3A)款條件。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "04",
+          "text": "it is the head office of the financial institution"
+        },
+        {
+          "doc": "04",
+          "text": "it is a branch of the head office of the financial institution"
+        },
+        {
+          "doc": "04",
+          "text": "a policy of the group of companies to which the financial institution belongs that applies to— (a) the financial institution; and (b) the relevant related foreign financial institution"
+        },
+        {
+          "doc": "04",
+          "text": "is a related foreign financial institution in relation to the financial institution; and (ii) satisfies the conditions in subsection (3A)"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "04",
+          "text": "該另一機構是該金融機構的總行"
+        },
+        {
+          "doc": "04",
+          "text": "該另一機構是該金融機構總行的分行"
+        },
+        {
+          "doc": "04",
+          "text": "有關金融機構所屬的公司集團的政策，而該政策適用於—— (a) 該金融機構；及 (b) 有關相關外地金融機構"
+        },
+        {
+          "doc": "04",
+          "text": "該機構就有關金融機構而言，屬相關外地金融機構；及"
+        }
+      ]
+    }
+  }
+]

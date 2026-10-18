@@ -1,16 +1,39 @@
 # 開發說明
 
+[文件總目錄](docs/INDEX.md) · [使用指南](docs/USAGE.zh-Hant.md) · [出題規格](bank/FORMAT.md)
+
 [English version →](DEVELOPMENT.md)
 
-## 模擬試
+## 建置及完整檢查
 
-本專案存放程式的組成部分（`web/`）及一個小型 Go 程式，用以把它們合併成單一檔案。產生檔案只需 Go 1.27 或以上，別無其他依賴。
+使用者只需[下載 HTML](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html)，不必安裝開發工具。
+維護者需要 Go 1.27 或以上、Node.js 22 或以上及 Python 3.10 或以上。
+以下指令從倉庫根目錄執行，與自動檢查及發佈流程一致。
+Python 工具一般只用標準函式庫；重新擷取來源文字時才另外需要 PyMuPDF。
+Windows 若 `python` 開啟 Microsoft Store，可改用 `py -3`；中文輸出有問題時加上 `-X utf8`。
 
 ```bash
-go test ./...                          # 題庫檢查 + vet
-go run . -export-html dist/mso-ca.html # 產生單一檔案
-python -m http.server 8321 -d web      # 或：開發時在本機提供 web/
+go vet ./...
+go test ./...
+node --test tests/*.test.cjs
+python -m unittest discover -s tests -p '*_test.py'
+python docs/build_catalog.py --check
+python bank/audit/active_scope.py --check
+python bank/audit/render_active_scope.py --check
+python bank/audit/report.py --check
+python bank/audit/terms_report.py --check
+python bank/audit/p1_report.py --check
+python bank/audit/remaining_report.py --check
+go run . -export-html dist/mso-ca.html
+python revision/pack_build.py dist/mso-revision-pack.html
 ```
+
+開啟 `dist/mso-ca.html` 檢查發佈成品。開發預覽可執行
+`python -m http.server 8321 --bind 127.0.0.1 -d web`，再開啟
+`http://127.0.0.1:8321`。App 不需要後端或 API 金鑰。
+另外產生的舊版溫習資料有獨立的歷史來源範圍，並非 App 的第三個模組。
+
+## App 與題庫檢查
 
 題庫為 `web/questions.json`。每道題都採用真實試卷的格式：題幹、4 至 6 句編號陳述、哪幾句正確，以及五個列出陳述組合的選項。[`bank/FORMAT.md`](bank/FORMAT.md) 記錄了題庫擁有人就這個格式所作的決定及出題規則；程式每次抽題都會重新排列陳述，並相應重新編號選項。
 
@@ -44,7 +67,7 @@ python -m http.server 8321 -d web      # 或：開發時在本機提供 web/
 
 ### 撰寫題目
 
-改題或維護來源前，先讀[來源維護說明](docs/SOURCE-MAINTENANCE.zh-Hant.md)。全庫只用文件閱讀順序作編號：下例的`EN 03`、檔名前綴03及引文`"doc": "03"`均指反洗錢指引。檔名、官方來源及現行位置記在`docs/catalog.json`的`editions.path`。日常資料夾精選26項，移出來源保留於`docs/archive`，接續編為27–47；日常26項連配套文件統一連續編為01–26。原有23份題庫來源的引用核驗保留；其餘新增原件尚未納入既有題庫覆蓋審核。改來源或檔名後，執行`python docs/build_catalog.py --check`。
+改題或維護來源前，先讀[來源維護說明](docs/SOURCE-MAINTENANCE.zh-Hant.md)。全庫只用文件閱讀順序作編號：下例的`EN 03`、檔名前綴03及引文`"doc": "03"`均指反洗錢指引。檔名、官方來源及現行位置記在`docs/catalog.json`的`editions.path`。日常資料夾精選26項，移出來源保留於`docs/archive`，接續編為27–47；日常26項連配套文件統一連續編為01–26。現行題庫只限01–26，新增題目的覆核記錄見`bank/audit/active26-implementation.json`；原有23份來源審核保留作歷史核驗。改來源或檔名後，執行`python docs/build_catalog.py --check`。
 
 題目先寫成補丁（patch），檢查無誤後才併入題庫，所用工具在 [`bank/`](bank/)（Python 3，只需標準程式庫）：
 
@@ -53,14 +76,14 @@ python bank/find.py EN 03 "target market"        # 在來源文件中找一段�
 python bank/apply.py next 3 15                   # 單元三接下來未用的題號
 python bank/apply.py check patch.json            # 檢查補丁
 python bank/apply.py apply patch.json            # 產生選項，併入題庫及引文
-python bank/show.py m3-261                       # 顯示一道題，連答案、陷阱及講解
+python bank/show.py m3-322                       # 顯示一道題，連答案、陷阱及講解
 python bank/blind.py packet patch.json out.md    # 不附答案的題目，供蒙著答案覆核
 python bank/blind.py compare patch.json ans.json # 把覆核者的判斷與答案比對
 ```
 
 所有選項組合均由 `bank/combo.py` 從一組對稱模板產生，不會人手編寫。
 
-上表背後的做法，以及溫習資料背後的做法，已整理成一份可重用的技能（skill），見下文〈[技能](#技能)〉。
+上表及溫習資料背後的做法，已整理成不綁定特定代理的可重用指南，見下文〈[編寫流程](#編寫流程)〉。
 
 字型：DM Sans 及 DM Mono 以 SIL Open Font License 內嵌；中文使用作業系統字型。
 
@@ -75,7 +98,7 @@ git show v1.7.5:docs/quotes.json
 
 其後替換的`m3-261` → `m3-322`及`m1-142` → `m1-177`，原題及引文另保存於[實施記錄](bank/audit/implementation.json)。覆蓋報告保留原審核基線，並以現行題句核驗補題結果；請用Python執行`bank/audit/report.py --check`、`bank/audit/terms_report.py --check`、`bank/audit/p1_report.py --check`及`bank/audit/remaining_report.py --check`，CI亦執行這四項。後續P1補題及最終盲答另見[P1實施記錄](bank/audit/p1-implementation.json)，不會改寫前輪審核歷史。
 
-最後一輪P2／P3補題及12道原題的擴寫替換見[最終記錄](bank/audit/remaining-implementation.json)。新增保留12個退役題號後，合共1,523個。核驗程式逐輪還原舊題庫，並將盲答綁定最終題句。通函15圖內欄位的人工轉錄在`docs/transcripts/15.json`，已獨立核對並綁定PDF摘要；抽取程式把文字加入原頁。PDF變更後須重查轉錄，來源測試會拒絕過期綁定。
+最後一輪P2／P3補題及12道原題的擴寫替換見[最終記錄](bank/audit/remaining-implementation.json)。該輪新增保留12個退役題號後，當時合共1,523個；01–26範圍調整再停用三題，目前共1,526個。核驗程式逐輪還原舊題庫，並將盲答綁定最終題句。通函15圖內欄位的人工轉錄在`docs/transcripts/15.json`，已獨立核對並綁定PDF摘要；抽取程式把文字加入原頁。PDF變更後須重查轉錄，來源測試會拒絕過期綁定。
 
 編號來源文件、擷取文字、撰寫指南及來源矛盾決定冊仍用於出題及核對，應繼續保留。
 
@@ -89,15 +112,15 @@ python revision/pack_build.py dist/mso-revision-pack.html
 
 各頁的結構、須遵守的規則及檢查工具，見 [`revision/README.md`](revision/README.md)。
 
-## 技能
+## 編寫流程
 
-[`.claude/skills/exam-prep/SKILL.md`](.claude/skills/exam-prep/SKILL.md) 是製作上述兩個檔案的方法，適用於任何考試：選取及核對來源文件、處理文件之間的矛盾、撰寫溫習資料及題庫、蒙著答案逐題覆核、以自動測試把關題庫，以及交付模擬試。考試格式是由使用者自訂的規格，所以技能內容不限於本考試；本倉庫是它的參考實作。技能以英文撰寫。
+[`docs/authoring/exam-prep/GUIDE.md`](docs/authoring/exam-prep/GUIDE.md) 是製作上述兩個檔案的方法，適用於任何考試：選取及核對來源文件、處理文件之間的矛盾、撰寫溫習資料及題庫、蒙著答案逐題覆核、以自動測試把關題庫，以及交付模擬試。考試格式是由使用者自訂的規格，所以技能內容不限於本考試；本倉庫是它的參考實作。技能以英文撰寫。
 
-版本號記於檔案開首的 front matter（`metadata.version`）。已發佈的技能版本在其原始碼commit上加上`skill-vX.Y.Z`標籤；這些標籤不以`v`開頭，所以不會觸發發佈。`main`的原始碼可能較公開下載版新；公開發佈須獲授權。
+任何代理或編輯器均可直接閱讀這份Markdown指南，不需要安裝外掛或使用特定指令。預覽伺服器使用標準指令`python -m http.server 8321 --bind 127.0.0.1 -d web`。方法版本記於指南說明；歷史`skill-vX.Y.Z`標籤保留作追溯，不觸發發佈。公開發佈仍須獲授權。
 
 | 版本 | 日期 | 首次發佈於 | 改動 |
 |---|---|---|---|
-| 2.3.0 | 2026年10月18日 | `main`原始碼；發佈版本另見標籤 | 新增來源考點覆蓋模式、條件／例外語義核對、圖頁及版本證據、歷史評分處理；尊重既定授權及項目規則，按風險選擇深入檢查，條件性的guard及工具說明移至references。 |
+| 2.3.0 | 2026年10月18日 | v1.9.0 | 新增來源考點覆蓋模式、條件／例外語義核對、圖頁及版本證據、歷史評分處理；尊重既定授權及項目規則，按風險選擇深入檢查，條件性的guard及工具說明移至references。 |
 | 2.2.0 | 2026年9月28日 | v1.7.5 | 新增：大規模覆核前，先以已判定的樣本校準機械篩選及較便宜的模型，並附本倉庫引文覆核的數字。 |
 | 2.1.0 | 2026年9月28日 | v1.7.4 | 在檢查清單加入只看選項的猜題程式，並加入本倉庫實行新檢查後的量度結果：已儲存決定答案的原文、趨同及呼應線索均在隨機水平，以及猜題程式的結果。 |
 | 2.0.0 | 2026年9月28日 | v1.7.4 | 改名為 `exam-prep`。除題庫外，亦涵蓋溫習資料及模擬試程式，並把考試格式改為由使用者自訂的規格。新增開工前須先問清楚的事項、來源矛盾的決定紀錄、與溫習資料對照核實、否定詞、呼應題幹及近似陳述等線索，以及交給子代理的指示範本。 |
@@ -113,6 +136,15 @@ python revision/pack_build.py dist/mso-revision-pack.html
 請使用附註標籤（annotated tag）：標籤的訊息會成為發佈說明，所以應寫明考生會留意到的改動。請保留 `--cleanup=whitespace`，否則 git 會刪去所有以 `#` 開頭的行，Markdown 標題亦包括在內。
 
 ```bash
-git tag -a v1.7.2 --cleanup=whitespace -F notes.md
-git push origin v1.7.2
+git tag -a vX.Y.Z --cleanup=whitespace -F notes.md
+git push origin vX.Y.Z
 ```
+
+目前保留 1,526 個已停用題號，包括這次移除的三題；不得重用。
+
+發佈前，更新 `CHANGELOG.md` 的雙語說明、題數及使用者可見改動；確認上述檢查全部通過，兩份 HTML 均可開啟。
+檢查 `git diff`，先提交並推送 `main`，再將 `vX.Y.Z` 換成未使用的新版本號。
+把該版本的說明另存為 `notes.md`，用上面的指令建立附註標籤並推送。
+在 GitHub Actions 確認 CI 及 Release 成功，再核對 Release 的兩個附件及下載連結。
+Git 標籤或推送成功本身不代表發佈成功。不可覆蓋已發佈標籤。
+本專案以 GitHub Release 提供離線 HTML；不需要另外部署伺服器。

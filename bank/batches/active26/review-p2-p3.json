@@ -1,0 +1,1454 @@
+[
+ {
+  "id": "m2-366",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "s30(8): must inform the applicant by notice in writing",
+   "s31(8): must inform the licensee by notice in writing",
+   "s30(9): a statement of the reasons ... may apply to the Review Tribunal",
+   "s32(3): A notice under subsection (2) must include ... a statement of the reasons"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-367",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "s33(a)(i): the address of every premises",
+   "s33(a)(ii): the correspondence address of the licensee",
+   "s33(b): conditions imposed or amended under section 30, 31 or 32",
+   "s33: a form specified by the Commissioner; (c) period for which the licence is valid"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-368",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "s35(5): inform the licensee by notice in writing",
+   "s36(6)(a): a statement of the reasons for the decision",
+   "s37(6)(b): the licensee may apply to the Review Tribunal",
+   "s35(6)(b): the licensee may apply to the Review Tribunal"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-369",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "s44(2): must inform the licensee of the decision by notice in writing",
+   "s44(3)(b): in so far as applicable, the terms in which the licensee is reprimanded",
+   "s44(3)(c): the action that the licensee is required to take",
+   "s44(3)(d): the time within which it is required to be paid"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-370",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   "s43(5): register an order ... under subsection (1) or (4)",
+   "s43(6): notice in writing ... together with the original and a copy",
+   "s43(5): within the civil jurisdiction",
+   "s43(7): may disclose to the public details of the decision, the reasons ... any material facts"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-371",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   "s59(3)(a): applicant and the specified authority ... reasonable opportunity to be heard",
+   "s59(3)(b): a good cause for granting the extension",
+   "s69(2): at any time before the review or the application is determined",
+   "s69(4): condition as to costs, payment of money into the Tribunal"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-372",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "s67(1): recorded in writing and be signed by the chairperson",
+   "s67(2): in the absence of evidence to the contrary",
+   "s67(2): without proof of its making",
+   "s67(2): without ... proof that the person signing the order was in fact the chairperson"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-373",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "s61(1)(c): notice in writing signed by the chairperson ... require a person to attend ... produce",
+   "s61(1)(e): on oath or otherwise",
+   "s61(1)(f): order a witness ... by affidavit",
+   "s61(1)(i): stay ... grounds and ... terms ... interests of justice"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-374",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "s61(2)(c): leaves ... without the permission of the Tribunal",
+   "s61(2)(d): hinders or deters ... producing any article, record or document",
+   "s61(2)(e): threatens or insults, or causes any loss to",
+   "s61(4): not excused ... on the ground ... might tend to incriminate"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-375",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "s65(1)(a): whether or not as a witness",
+   "s65(1): costs reasonably incurred ... review and the application",
+   "s65(2)(a): any party ... Tribunal considers appropriate",
+   "s65(2): recoverable as a civil debt"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-376",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "s66(2): any part of a sitting ... held in private ... any part of the determination",
+   "s66(2)(a): reasons ... any part",
+   "s66(2)(b): an order, or the reasons for an order ... any part",
+   "s66(1)(b): any order made under section 65 ... and the reasons"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-377",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "s63(4)(a)(ii): those criminal proceedings remain pending",
+   "s63(4)(a)(ii): no criminal proceedings may again be lawfully instituted",
+   "s63(4)(b): no criminal proceedings ... proceedings arising ... remain pending",
+   "s63(4): in respect of the same conduct"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-378",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   "s40(2): include particulars notified under that subsection",
+   "s40(3): amend any relevant particulars ... if necessary",
+   "s41(3): no licence fee ... is to be refunded",
+   "s39A(2): liable on conviction to a fine at level 5"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-379",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "s45(1): before he or she first exercises ... publish ... guidelines",
+   "s45(1): in the Gazette and in any other manner ... appropriate",
+   "s45(2): must have regard to the guidelines",
+   "s23(1): before it first exercises ... publish ... guidelines"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-325",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "Sch2 s5(5): former politically exposed person ... does not present a high risk ... appropriate risk assessment",
+   "Sch2 s5(5)(b): based on an appropriate risk assessment",
+   "Sch2 s5(5): customer, or a beneficial owner of a customer",
+   "Sch2 s5(5)(a): is a former politically exposed person"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-326",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "Sch2 s20(3A): beginning on the date on which the occasional transaction is completed",
+   "Sch2 s20(3A): occasional transaction is completed",
+   "Sch2 s20(2): transaction is completed, regardless of whether the business relationship ends",
+   "Sch2 s20(3): throughout the continuance of the business relationship"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-327",
+  "verdicts": [
+   "T",
+   "F",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "Sch2 s18(6): by an agent ... remains liable",
+   "Sch2 s18(6): remains liable under this Ordinance",
+   "Sch2 s18(1)(a): consents in writing",
+   "Sch2 s18(2): remains liable ... for a failure"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-328",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Sch2 s22(2)(b): take additional measures to effectively mitigate",
+   "Sch2 s22(2): inform ... and ... take additional measures",
+   "Sch2 s22(2): branch or subsidiary undertaking",
+   "Sch2 s22(1): to the extent permitted by the law of that place"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-329",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   "Sch2 s1 beneficial owner(c)(i): in possession or in remainder or reversion",
+   "Sch2 s1(c)(i): a beneficiary or a class of beneficiaries",
+   "Sch2 s1(c)(i): whether it is defeasible or not",
+   "Sch2 s1(c)(i): in possession or in remainder or reversion"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-330",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "Sch2 s12(2)(c)(ii): not used as a payment system to effect a person-to-person transfer",
+   "Sch2 s12(2)(c)(i)(A): automated teller machine with a debit card",
+   "Sch2 s12(2)(c)(iii): number ... is included in the message",
+   "Sch2 s12(2)(c)(i)(B): obtaining a cash advance on a credit card"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-331",
+  "verdicts": [
+   "T",
+   "F",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "Sch2 s6(1)(b): a material change occurs in the way ... account is operated",
+   "Sch2 s6(1): when ... (a) ... or (b) a material change",
+   "Sch2 s6(1): in addition to ... section 3(1)(d) and (e)",
+   "Sch2 s6(2): must terminate ... as soon as reasonably practicable"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-332",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "Sch2 s15(c): occasional transaction ... additional measures",
+   "Sch2 s15(a): (i) approval ... and (ii) either ... source of wealth ... or ... additional measures",
+   "Sch2 s15(b)(ii): take reasonable measures to verify the beneficial owner’s identity",
+   "Sch2 s15(b)(i): obtain approval from the senior management"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-333",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Sch2 s12(11): intermediary institution or all the intermediary institutions ... located in Hong Kong",
+   "Sch2 s12(6): in relation to a domestic wire transfer",
+   "Sch2 s12(10)(a)(i): obtain the missing information from the institution",
+   "Sch2 s12(10): beneficiary institution or an intermediary institution ... obtain the missing information"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-334",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "Sch2 s9(2): Subsection (1) does not apply ... recognized digital identification system",
+   "Sch2 s5(4): Subsection (3)(a) does not apply",
+   "Sch2 s10(1)(a): obtain approval from the senior management",
+   "Sch2 s5(4): Subsection (3)(a) does not apply; s5(3)(c) still applies"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-380",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "s31(10): the licence remains in force",
+   "s31(10): unless the application is withdrawn",
+   "s31(10): or the licence is revoked or suspended",
+   "s31(11)(b): day following the day on which the licence would have expired"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-381",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "s30(7): whichever is the later",
+   "s30(7): received ... or ... specified ... whichever is the later",
+   "s30(7): takes effect at the time the notice ... is received ... whichever is the later",
+   "s30(7): received by the licensee ... whichever is the later"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-382",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "s34(1)(b)(ii): any new occupant ... refuses",
+   "s34(1)(b)(ii): any new occupant ... refuses",
+   "s34(1)(b)(i): any occupant ... revokes",
+   "s34(3): after giving the licensee a reasonable opportunity to be heard"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-383",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "s24 ultimate owner(c)(i): more than 25%",
+   "s24(c)(i): directly or indirectly, including through a trust",
+   "s24(c)(ii): more than 25% of the voting rights",
+   "s24(c)(iii): exercises ultimate control over the management"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-384",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "s41(1): cease ... at any of the premises ... before the date of cessation",
+   "s41(1)(b): return the licence ... for cancellation or amendment",
+   "s41(1)(a): intention and the date of cessation",
+   "s41(2)(b): remove the relevant particulars from the register"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-385",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "s30(4)(b)(iii): acted fraudulently, corruptly or dishonestly",
+   "s30(4)(d): or is the subject of any bankruptcy proceedings",
+   "s30(4)(e): or there is a receiver appointed",
+   "s30(4): in addition to any other matter ... considers relevant"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-386",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "s43(4): each day ... failure continues after the date specified",
+   "s43(3) payment period; s43(4): date specified in the order ... remedial action",
+   "s43(1): any one or more of the powers specified in subsection (2)",
+   "s43(3): after the order has taken effect as a specified decision"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m2-387",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "s76E(4)(b): advice ... solicitor ... professional capacity",
+   "s76E(4)(b): professional adviser ... professional capacity",
+   "s76E(5): may impose any conditions ... appropriate",
+   "s76F(1): each specified recipient must not disclose ... unless"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-335",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   "Sch2 s3(1)(b): equal to or above $120,000",
+   "Sch2 s3(1A)(a): equal to or above $8,000",
+   "Sch2 s3(1)(b): several operations ... appear ... linked",
+   "Sch2 s3(1A): several operations ... appear ... linked"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-336",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Sch2 s3(1)(d): suspects ... involved in money laundering",
+   "Sch2 s3(1)(e): doubts the veracity or adequacy",
+   "Sch2 s3(1)(d): customer or the customer’s account",
+   "Sch2 s3(1)(e): information previously obtained ... verifying"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-337",
+  "verdicts": [
+   "T",
+   "F",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "Sch2 s3(2)(b): risk ... effectively managed",
+   "Sch2 s3(2)(a): necessary not to interrupt the normal conduct of business",
+   "Sch2 s3(2): (a) ... and (b)",
+   "Sch2 s3(3): as soon as reasonably practicable"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-338",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "Sch2 s3(4)(a): must not establish a business relationship",
+   "Sch2 s3(4)(a): or carry out any occasional transaction",
+   "Sch2 s3(4)(b): terminate ... as soon as reasonably practicable",
+   "Sch2 s3(4)(b): must terminate the business relationship"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-339",
+  "verdicts": [
+   "T",
+   "F",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "Sch2 s4(1): reasonable grounds to believe ... falls within subsection (3)",
+   "Sch2 s4(1): carry out ... section 2(1)(a), (ab), (c) and (d)",
+   "Sch2 s2(1)(d)(ii): verifying the person’s authority",
+   "Sch2 s4(3)(c): listed on any stock exchange"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-340",
+  "verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   "Sch2 s4(2): beneficial owners of that entity or ... any person ... beyond that entity",
+   "Sch2 s4(2): of that entity or ... beyond that entity",
+   "Sch2 s4(2): a customer ... not falling within subsection (3)",
+   "Sch2 s4(3)(c): any stock exchange"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-341",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Sch2 s2(1)(c): unless the purpose and intended nature are obvious",
+   "Sch2 s2(1)(d)(ii): verifying the person’s authority",
+   "Sch2 s2(1)(d): identity ... and (ii) ... authority",
+   "Sch2 s2(1)(b): understand the ownership and control structure"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-342",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   "Sch2 s12(11): person from whose account ... money ... is paid",
+   "Sch2 s12(11): in the absence of such an account ... person who instructs",
+   "Sch2 s12(3)(b): assigned ... by the financial institution",
+   "Sch2 s12(3)(e): assigned ... by the beneficiary institution"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-343",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Sch2 s13(2)(b): verify ... by reference to ... identification document",
+   "Sch2 s13(2)(c)(ii): document number and ... place of issue",
+   "Sch2 s13(2)(c)(v): date and time of receipt of the instructions",
+   "Sch2 s13(2)(c)(v): recipient’s name and address and the method of delivery"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-344",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "Sch2 s12(3A): Subsection (3)(c) does not apply ... below $8,000",
+   "Sch2 s12(3)(d): recipient’s name; s3A only removes (c)",
+   "Sch2 s12(5)(b): information ... (3)(a), (b), (d) and (e)",
+   "Sch2 s12(3A): below $8,000"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-345",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   "Sch2 s18(3)(b): authorized institution, a licensed corporation, an authorized insurer ... insurance ... broker company",
+   "Sch2 s18(3)(a): adequate procedures ... prevent money laundering and terrorist financing",
+   "Sch2 s18(3)(a)(ii): an estate agent",
+   "Sch2 s18(3)(b): licensed insurance broker company"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-346",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "Sch2 s18(7) related foreign financial institution(b)(iii)(A): head office",
+   "Sch2 s18(7)(b)(iii)(B): branch of the head office",
+   "Sch2 s18(7) group policy: applies to ... financial institution; and ... relevant related foreign financial institution",
+   "Sch2 s18(3)(d)(ii): satisfies the conditions in subsection (3A)"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ }
+]

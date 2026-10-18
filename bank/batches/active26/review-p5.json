@@ -1,0 +1,794 @@
+[
+ {
+  "id": "m5-115",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Doc24 p2: dependent on the business lines, products or services",
+   "Doc24 p2: how it interacts with its customers",
+   "Doc24 p2: institution’s human and technological resources",
+   "Doc24 p2: totality of the customer profile ... trade financing methods ... contextual risk factors"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-116",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "Doc24 p2: cross-comparison ... financial transactions, customs data, and open market prices",
+   "Doc24 p2: private sector will not observe all of the indicators",
+   "Doc24 p2: additional contextual information from competent authorities",
+   "Doc24 p2: intended to be used by personnel responsible for ... client onboarding and relationship management"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-117",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "Doc25 5.4.15: overall risk rating and an impact rating",
+   "Doc25 5.4.15: reflecting its annual turnover",
+   "Doc25 5.4.15: combined into a matrix to determine ... extent and priority",
+   "Doc25 5.4.15: high, medium-high, medium or low"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-118",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Doc25 5.4.13: proper and proportionate licensing requirements",
+   "Doc25 5.4.13: awareness and understanding of institutional risks",
+   "Doc25 5.4.13: providing ... relevant AML/CFT guidance",
+   "Doc25 5.4.13: tailor-made training to make up the deficiencies"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-119",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Doc25 EN5.4.27/TC5.4.26: assessment and determination of the risk profiles",
+   "Doc25 EN5.4.27/TC5.4.26: formulating their own AML/CFT policies",
+   "Doc25 EN5.4.27/TC5.4.26: concerns and difficulties in adapting",
+   "Doc25 EN5.4.27/TC5.4.26: addressing their shortcomings ... risk-based monitoring"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-120",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Doc25 EN5.4.30/TC5.4.29(c): innovation and new technology ... efficiency",
+   "Doc25 EN5.4.30/TC5.4.29(e): targeting high-risk areas",
+   "Doc25 EN5.4.30/TC5.4.29(d): threats arising from cybercrime ... measures ... guidance",
+   "Doc25 EN5.4.30/TC5.4.29(b): risk understanding, STR reporting obligations, and TF/PF TFS screening"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-121",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Doc03 2.11: new business practices, including new delivery mechanisms",
+   "Doc03 2.5: nature, size and complexity ... more sophisticated",
+   "Doc03 2.12: prior to the launch",
+   "Doc03 2.9: upon trigger events ... delivery channels"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-122",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   "Doc03 2.8: adequately reflect ... local context",
+   "Doc03 2.8: rely ... provided ... adequately reflect ... local context",
+   "Doc03 2.3(c): obtaining the approval of senior management",
+   "Doc03 2.10: risk factors ... evaluation ... adequacy and appropriateness"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-123",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "Doc03 3.3: not permitted to be simplified whenever ... suspicion",
+   "Doc03 3.3(a): complies with the statutory requirements",
+   "Doc03 3.2(b): monitor the implementation",
+   "Doc03 3.3: whenever there is a suspicion"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-124",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Doc03 3.5 fn9: functions ... may be performed by the same person",
+   "Doc03 3.7: senior management ... responsible",
+   "Doc03 3.8(a)(b): sufficient ... knowledge; subject to constraint of size ... independent",
+   "Doc03 3.8(h): appropriate cover for the absence"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-125",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   "Doc03 3.6: timely, complete, understandable and accurate",
+   "Doc03 3.9(c): significant compliance deficiencies",
+   "Doc03 3.6: understandable and accurate manner",
+   "Doc03 3.6: board ... clear understanding"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-126",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Doc03 3.13: frequency and extent ... nature, size and complexity",
+   "Doc03 3.12(c): effectiveness of the compliance function",
+   "Doc03 3.13: Where appropriate ... review from external parties",
+   "Doc03 3.11: sufficient expertise and resources; direct line of communication"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-127",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "Doc03 3.19: inform the CCE ... take additional measures",
+   "Doc03 3.18: to the extent ... laws and regulations permit",
+   "Doc03 3.17: permitted by ... laws ... safeguards to prevent tipping off",
+   "Doc03 3.15: carry on the same business as a financial institution"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-128",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   "Doc03 2.4: holistically consider ... law enforcement ... transparency",
+   "Doc03 2.4(e)(iii): results of internal or external audits",
+   "Doc03 2.6: quantitative and qualitative information",
+   "Doc03 2.4(e)(i): appropriately qualified staff with access to ongoing ... training"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-129",
+  "verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "Doc03 2.14: holistic view ... finalise ... review and update",
+   "Doc03 2.13: amount and type ... extent ... increased where ... higher",
+   "Doc03 2.14: level and type ... monitoring ... whether to enter into",
+   "Doc03 2.16: demonstrate ... how it assesses ... extent ... appropriate"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-130",
+  "verdicts": [
+   "F",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "Doc03 2.15: complexity ... commensurate ... framework ... risk factors",
+   "Doc03 2.15: delivery channel risk factors",
+   "Doc03 2.15: based on the results ... institutional ... assessment",
+   "Doc03 2.15: complexity ... commensurate with the nature and size"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-131",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   "Doc03 3.9(d): ensuring ... staff training ... adequate, appropriate and effective",
+   "Doc03 3.10(a): review of internal disclosures ... determining whether ... report",
+   "Doc03 3.10: MLRO ... main point of contact",
+   "Doc03 3.10(c): guidance on how to avoid tipping off"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-132",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Doc03 3.17 fn11: branches and subsidiary undertakings should receive such information",
+   "Doc03 3.17 fn11: should include information and analysis ... if such analysis was done",
+   "Doc03 3.17 fn11: fact that a suspicious transaction report has been submitted",
+   "Doc03 3.17 fn11: its underlying information"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-133",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "Doc03 2.9: upon trigger events ... acquisition of new customer segments",
+   "Doc03 2.3(c)/2.9: approved by ... senior management",
+   "Doc03 2.3(b): considering all the relevant risk factors before determining",
+   "Doc03 2.10: maintain records and relevant documents ... information sources"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-134",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Doc03 2.4(a)(ii): number and proportion ... high risk",
+   "Doc03 2.4(c)(v): products or services ... favour anonymity",
+   "Doc03 2.4(d)(ii): extent to which agent ... networks are used",
+   "Doc03 2.4(e)(i): nature, scale and quality ... resources"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-135",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "Doc03 3.8(d)(g)(h): seniority and authority; accessing ... information; ... cover",
+   "Doc03 3.8(h): sufficient resources ... appropriate cover",
+   "Doc03 3.7: senior management should appoint",
+   "Doc03 3.10(a): review of internal disclosures and exception reports"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-136",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   "Doc03 3.14: adequate and appropriate screening procedures",
+   "Doc03 3.4(d): ongoing employee training programme",
+   "Doc03 3.12(d): level of awareness of staff",
+   "Doc03 3.11: direct line of communication to ... senior management"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-138",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "Doc03 2.7: locally-incorporated ... branches or subsidiaries ... group-wide",
+   "Doc03 2.8: group-wide or regional ... may ... rely",
+   "Doc03 3.16: CDD ... similar ... to extent permitted",
+   "Doc03 3.15: all ... overseas ... relevant and applicable"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m5-137",
+  "verdicts": [
+   "F",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "Doc18 s1: flagging and escalating ... multiple risk indicators",
+   "Doc18 s1: understand and assess the reasonableness ... then apply",
+   "Doc18 s1: both the first and second lines of defence",
+   "Doc18 s1: additional controls proportionate to ... risks"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ }
+]

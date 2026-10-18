@@ -1,5 +1,9 @@
 # Authoring guide for the MSO revision pack
 
+> This guide maintains the retained revision pack and its historical coverage.
+> For the current 01–26-only, 525-question app, follow [the question format](../bank/FORMAT.md)
+> and [source maintenance](../docs/SOURCE-MAINTENANCE.md). Do not import pack-only sources into active questions.
+
 Paths below are relative to `revision/`. See `README.md` for building and checking.
 
 ## What the pack is

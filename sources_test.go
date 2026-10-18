@@ -36,8 +36,8 @@ var docPatterns = map[string][]struct {
 		{"10", regexp.MustCompile(`(?:^|[^y] )F&P Guideline|Criteria for Determining Fitness`)},
 		{"11", regexp.MustCompile(`Supplementary (?:F&P|Guideline on Fitness)`)},
 		{"20", regexp.MustCompile(`Business Plan`)},
-		{"21", regexp.MustCompile(`AML/CFT Policy`)},
-		{"12", regexp.MustCompile(`Pecuniary Penalty`)},
+		{"21", regexp.MustCompile(`AML/CFT Policy|AML Policy Guidelines`)},
+		{"12", regexp.MustCompile(`Pecuniary Penalty|Disciplinary Action Guideline`)},
 		{"13", regexp.MustCompile(`Disciplinary Fining`)},
 		{"04", regexp.MustCompile(`AMLO|Cap\. ?615|(?:^|[\s;(,])ss?\.\s?\d|Sch(?:\.|edule) ?\d|\bPart \d`)},
 		{"22", regexp.MustCompile(`MIS_06/2018`)},
@@ -53,10 +53,16 @@ var docPatterns = map[string][]struct {
 		{"45", regexp.MustCompile(`FATF_03/2026`)},
 		{"06", regexp.MustCompile(`\bFAQ\b`)},
 		{"02", regexp.MustCompile(`CA_01/2021|Sample Questions`)},
+		{"09", regexp.MustCompile(`MIS_06/2021|Identification and Mitigation of Proliferation Financing Risks|Circular on Counter-Proliferation Financing \(22 December 2021\)`)},
+		{"17", regexp.MustCompile(`Money Changers Ordinance|Cap\. ?34\b`)},
+		{"23", regexp.MustCompile(`Cross-boundary Movement|Cap\. ?629\b`)},
+		{"24", regexp.MustCompile(`Trade-Based Money Laundering Risk Indicators`)},
+		{"25", regexp.MustCompile(`Hong Kong Money Laundering and Terrorist Financing Risk Assessment|Hong Kong ML/TF Risk Assessment Report|2022.*Risk Assessment Report`)},
+		{"26", regexp.MustCompile(`SAN_01/2018|United Nations Sanctions.*Principles|Circular on United Nations Sanctions \(7 February 2018\)`)},
 	},
 	"tc": {
 		{"01", regexp.MustCompile(`能力評核須知`)},
-		{"03", regexp.MustCompile(`《打擊洗錢及恐怖分子資金籌集指引》`)},
+		{"03", regexp.MustCompile(`《打擊洗錢及恐怖分子資金籌集指引》|《打擊洗錢指引》`)},
 		{"05", regexp.MustCompile(`《牌照指引》`)},
 		{"10", regexp.MustCompile(`《有關適當人選準則的指引》`)},
 		{"11", regexp.MustCompile(`補充指引》`)},
@@ -68,16 +74,22 @@ var docPatterns = map[string][]struct {
 		{"22", regexp.MustCompile(`MIS_06/2018`)},
 		{"14", regexp.MustCompile(`MIS_05/2021`)},
 		{"07", regexp.MustCompile(`MIS_03/2023`)},
-		{"08", regexp.MustCompile(`MIS_01/2024`)},
+		{"08", regexp.MustCompile(`MIS_01/2024|第三方付款通函|第三方支付涉及的洗錢及恐怖分子資金籌集風險`)},
 		{"42", regexp.MustCompile(`MIS_01/2025`)},
 		{"15", regexp.MustCompile(`MIS_02/2025`)},
 		{"43", regexp.MustCompile(`MIS_03/2025`)},
 		{"16", regexp.MustCompile(`MIS_04/2025`)},
-		{"18", regexp.MustCompile(`MIS_01/2026`)},
+		{"18", regexp.MustCompile(`MIS_01/2026|《打擊以貿易進行洗錢活動指引》通函`)},
 		{"19", regexp.MustCompile(`FATF_02/2026`)},
 		{"45", regexp.MustCompile(`FATF_03/2026`)},
 		{"06", regexp.MustCompile(`常見問題`)},
 		{"02", regexp.MustCompile(`CA_01/2021|參考試題`)},
+		{"09", regexp.MustCompile(`MIS_06/2021|識別和緩解大殺傷力武器擴散融資風險|《打擊大殺傷力武器擴散融資通函》（2021年12月22日）`)},
+		{"17", regexp.MustCompile(`《貨幣兌換商條例》|第34章`)},
+		{"23", regexp.MustCompile(`《實體貨幣及不記名可轉讓票據跨境流動條例》|第629章`)},
+		{"24", regexp.MustCompile(`以貿易為本的洗錢風險指標`)},
+		{"25", regexp.MustCompile(`香港洗錢及恐怖分子資金籌集風險評估報告`)},
+		{"26", regexp.MustCompile(`SAN_01/2018|聯合國制裁.*原則|《聯合國制裁通函》（2018年2月7日）`)},
 	},
 }
 
@@ -135,8 +147,9 @@ func sourceText(t *testing.T, lang, num string) string {
 var bracketedHan = regexp.MustCompile(`\([\p{Han}、，]+\)`)
 
 type quote struct {
-	Doc  string `json:"doc"`
-	Text string `json:"text"`
+	Doc      string `json:"doc"`
+	Text     string `json:"text"`
+	Language string `json:"language,omitempty"`
 }
 
 // quoteSet is one language's quotes for an item: one per statement for an item
@@ -392,6 +405,11 @@ func TestQuotesFromCitedSources(t *testing.T) {
 				citation = q.Source.Tc
 			}
 			cited := citedDocs(citation, lang)
+			for _, doc := range cited {
+				if doc < "01" || doc > "26" {
+					t.Errorf("%s (%s): citation names excluded document %s", q.ID, lang, doc)
+				}
+			}
 			for i, qt := range set {
 				where := fmt.Sprintf("%s (%s)", q.ID, lang)
 				if want > 1 {
@@ -401,22 +419,32 @@ func TestQuotesFromCitedSources(t *testing.T) {
 					t.Errorf("%s: empty quote", where)
 					continue
 				}
+				if qt.Doc < "01" || qt.Doc > "26" || len(qt.Doc) != 2 {
+					t.Errorf("%s: document %s is outside the approved 01–26 scope", where, qt.Doc)
+				}
+				quoteLang := lang
+				if qt.Language != "" && qt.Language != lang {
+					if lang != "tc" || qt.Doc != "24" || qt.Language != "en" || !strings.Contains(q.Source.Tc, "學習譯文") {
+						t.Errorf("%s: unsupported or unlabelled source-language override", where)
+					}
+					quoteLang = qt.Language
+				}
 				if !slices.Contains(cited, qt.Doc) {
 					t.Errorf("%s: the quote comes from document %q, but the citation %q names %v", where, qt.Doc, citation, cited)
 					continue
 				}
-				if !strings.Contains(sourceText(t, lang, qt.Doc), matchKey(qt.Text)) {
+				if !strings.Contains(sourceText(t, quoteLang, qt.Doc), matchKey(qt.Text)) {
 					t.Errorf("%s: quote not found in docs/text/%s/%s.txt: %q", where, strings.ToUpper(lang), qt.Doc, qt.Text)
 				}
 				// The English Ordinance prints each defined term's Chinese equivalent in
 				// brackets ("director (董事) includes…"), so an English quote may carry
 				// those, and nothing else in Chinese.
-				if (lang == "tc") != han.MatchString(bracketedHan.ReplaceAllString(qt.Text, "")) {
+				if (quoteLang == "tc") != han.MatchString(bracketedHan.ReplaceAllString(qt.Text, "")) {
 					t.Errorf("%s: the quote is in the wrong language: %q", where, qt.Text)
 				}
 				// Long enough to decide something, short enough to be the deciding words
 				// rather than the paragraph around them.
-				if lang == "en" {
+				if quoteLang == "en" {
 					if n := len(strings.Fields(qt.Text)); n < 3 || n > 60 {
 						t.Errorf("%s: quote of %d words, want 3 to 60: %q", where, n, qt.Text)
 					}
@@ -448,15 +476,15 @@ func TestCitedCircularsAreCurrent(t *testing.T) {
 	current := map[string]bool{}
 	var catalog struct {
 		Documents []struct {
-			Circular           string
-			OriginalBankSource bool `json:"original_bank_source"`
+			Circular      string
+			ReadingStatus string `json:"reading_status"`
 		}
 	}
 	if err := json.Unmarshal(raw, &catalog); err != nil {
 		t.Fatal(err)
 	}
 	for _, doc := range catalog.Documents {
-		if doc.OriginalBankSource && number.MatchString(doc.Circular) {
+		if doc.ReadingStatus == "active" && number.MatchString(doc.Circular) {
 			current[doc.Circular] = true
 		}
 	}
@@ -501,8 +529,8 @@ func TestNoOtherLanguageText(t *testing.T) {
 	}
 	var catalog struct {
 		Documents []struct {
-			ID                 string
-			OriginalBankSource bool `json:"original_bank_source"`
+			ID            string
+			ReadingStatus string `json:"reading_status"`
 		}
 	}
 	if err := json.Unmarshal(raw, &catalog); err != nil {
@@ -510,7 +538,7 @@ func TestNoOtherLanguageText(t *testing.T) {
 	}
 	var texts []string
 	for _, doc := range catalog.Documents {
-		if doc.OriginalBankSource {
+		if doc.ReadingStatus == "active" {
 			texts = append(texts, filepath.Join("docs", "text", "TC", doc.ID+".txt"))
 		}
 	}
@@ -537,7 +565,10 @@ func TestNoOtherLanguageText(t *testing.T) {
 			}
 		}
 		for _, f := range append(q.Tc.fields(), q.Source.Tc) {
-			if m := tcTag.FindString(f); m != "" {
+			// Document 24 has no official Chinese edition. Its citation must
+			// explicitly identify the study translation, not invent an edition.
+			labelledTranslation := f == q.Source.Tc && strings.Contains(f, "學習譯文") && slices.Contains(citedDocs(f, "tc"), "24")
+			if m := tcTag.FindString(f); m != "" && !labelledTranslation {
 				t.Errorf("%s (tc): mentions another language edition (%q)", q.ID, m)
 			}
 			for _, w := range latin.FindAllString(f, -1) {

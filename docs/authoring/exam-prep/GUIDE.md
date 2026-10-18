@@ -1,15 +1,6 @@
----
-name: exam-prep
-description: Turn a fixed set of source documents (statutes, regulations, guidelines, manuals, course notes; in one language or two) into exam preparation — a cited study pack, a multiple-choice question bank, and a mock exam that draws papers under the real rules — for any exam format the user defines as data. Use when asked to write revision notes, a study guide or pack, practice questions, a question bank, a mock paper or a mock-exam app from documents; to define or change an exam format (sections, question formats, fixed option blocks, pass rule, timing); or to audit existing material for wrong or second-defensible keys, ungrounded or superseded content, duplicates, drift between languages, or answers a candidate can guess from surface form without knowing the material.
-license: MIT
-metadata:
-  version: "2.3.0"
-  replaces: "exam-prep 2.2.0"
----
-
 # Exam prep from source documents
 
-This skill turns a fixed set of documents into three products:
+This agent-neutral guide turns a fixed set of documents into three products:
 
 - a **study pack** the candidate reads, every line cited to its source;
 - a **question bank** they practise on, every key cited and checked blind;
@@ -45,6 +36,16 @@ for a rule, not constants, so re-measure on your own material.
    93. Superseded sources cost 49, clause-number questions 52, the language
    rule 47 and out-of-scope questions 27. Phase 0 asks all of those questions
    before anything is written.
+
+## Using this guide
+
+Read this Markdown file directly with any editor, assistant or agent. No plugin,
+slash command or agent-specific installation is required. Method version 2.3.0
+was preserved when it moved here; the repository's AGENTS.md and bank/FORMAT.md
+take precedence over the generic examples below. The examples are not this
+project's current scope or counts. An independent reviewer can be another agent
+or a human; record the actual tool/model and do not claim a different model
+family when all agents inherit the same model.
 
 ## Existing decisions and authorization
 
@@ -680,3 +681,11 @@ Three briefs recur:
 Read [tooling and prior art](references/tooling.md) only for environment problems,
 tool selection or background research. Historical measurements are examples,
 not universal thresholds or evidence about the current bank.
+
+## This repository
+
+For current requirements, start with [AGENTS.md](../../../AGENTS.md),
+[question format](../../../bank/FORMAT.md), [source maintenance](../../SOURCE-MAINTENANCE.md)
+and [Development](../../../DEVELOPMENT.md). The current app has 525 bilingual questions
+from documents 01–26 and two modes. Historical examples in this reusable method
+do not change that scope. See the [documentation index](../../INDEX.md) for other guides.

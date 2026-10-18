@@ -38,7 +38,6 @@ let justFinished = false;       // results view: fresh submit vs history review
 let timerId = null;
 let homeNotice = null;          // one-shot message on home
 let pmodSel = new Set([1, 2, 3, 4, 5, 6, 7]); // practice module selection
-let drill = null;               // active statement drill
 const inPractice = q => pmodSel.has(q.module);
 let reviewFilter = 'all';       // results view: 'all' | 'wrong'
 let homeTick = null;            // ticks the "time left" on the home resume card
@@ -301,12 +300,10 @@ function render() {
   if (S.view === 'exam') app.innerHTML = examView();
   else if (S.view === 'results') app.innerHTML = resultsView();
   else if (S.view === 'practice') app.innerHTML = practiceView();
-  else if (S.view === 'drill') app.innerHTML = drillView();
   else app.innerHTML = homeView();
   bindCommon();
   if (S.view === 'exam') { bindExam(); startTimer(); }
   else if (S.view === 'practice') bindPractice();
-  else if (S.view === 'drill') bindDrill();
   else if (S.view === 'results') bindResults();
   else bindHome();
 }
@@ -385,16 +382,17 @@ function homeView() {
     </div>`;
 
   const chips = MODULES.map(m =>
-    `<button class="chip ${pmodSel.has(m.n) ? 'on' : ''}" data-pm="${m.n}">M${m.n} ${esc(S.lang === 'en' ? '' : '')}${esc(shortMod(m))}</button>`).join('');
+    `<button class="chip ${pmodSel.has(m.n) ? 'on' : ''}" data-pm="${m.n}" aria-pressed="${pmodSel.has(m.n)}">Part ${m.n} ${esc(S.lang === 'en' ? '' : '')}${esc(shortMod(m))}</button>`).join('');
 
   return topbarHTML() + `
   <div class="wrap">
     ${homeNotice ? `<div class="card"><div class="sub" style="margin:0">${homeNotice}</div></div>` : ''}
+    <p class="scope-note">${ui('Question sources: documents 01–26 in your reading library.', '出題範圍：閱讀文檔庫第01–26份文件。')}</p>
     ${examCard}
     <div class="card">
-      <h2>${ui('Practice by module', '按單元練習')}</h2>
-      <div class="sub">${ui('Untimed. After each answer every statement is marked correct or not, with the trap a false one sets and its source.',
-        '不設時限。每題作答後，逐句顯示正確與否、錯誤陳述所設的陷阱及出處。')}</div>
+      <h2>${ui('Custom practice', '自選練習')}</h2>
+      <div class="sub">${ui('Choose one or more parts. Untimed, with an explanation and source for every statement after each answer.',
+        '可選擇一個或多個部分，不設時限。每題作答後，逐句顯示正確與否、陷阱解釋及原文出處。')}</div>
       <div class="chips" id="pmods">${chips}
         <button class="chip" id="pm-all">${ui('All', '全選')}</button>
       </div>
@@ -402,8 +400,9 @@ function homeView() {
         <button class="btn secondary" id="btn-practice" ${bank.length ? '' : 'disabled'}>${ui('Start practice', '開始練習')}</button>
       </div>
     </div>
-    ${drillCardHTML()}
-    ${attempts.length ? progressCardHTML(attempts) : ''}
+    <details class="exam-history">
+      <summary>${ui('Mock exam results and history', '模擬試成績及紀錄')} · ${attempts.length}</summary>
+      ${attempts.length ? progressCardHTML(attempts) : ''}
     <div class="card">
       <h2>${ui('History', '過往紀錄')}</h2>
       ${attempts.length ? historyHTML(attempts) : `<div class="sub" style="margin:0">${ui('No attempts yet.', '未有應考紀錄。')}</div>`}
@@ -416,6 +415,7 @@ function homeView() {
           '紀錄儲存於此瀏覽器；檔案是可閱讀的備份，可在任何電腦載入。')}</span>
       </div>
     </div>
+    </details>
     <div class="footer">${ui(
       'Practice questions are reconstructions from official C&ED / e-Legislation materials, not real exam questions. ' +
       'C&ED publishes no answers beyond a few sample questions, and where the sources conflict or are unclear, ' +
@@ -474,10 +474,6 @@ function bindHome() {
   };
   const prac = $('#btn-practice');
   if (prac) prac.onclick = () => startPractice();
-  const dr = $('#btn-drill');
-  if (dr) dr.onclick = () => startDrill(false);
-  const drw = $('#btn-drill-weak');
-  if (drw) drw.onclick = () => startDrill(true);
   document.querySelectorAll('#pmods .chip[data-pm]').forEach(c => {
     c.onclick = () => {
       const n = +c.dataset.pm;
@@ -599,21 +595,19 @@ function resumeExam() {
 
 function saveExam() { if (exam) store.set(examKey(), exam); }
 
-/* the saved exam, less any question a newer edition of the bank has removed, so a
-   paper started on an older file still resumes (a paper left empty is discarded) */
+/* A source-scope update may retire questions. Completed results keep their
+   original scores; an incomplete paper must be restarted with 35 valid items. */
 function loadExam() {
   const e = store.get(examKey(), null);
   if (!e || !Array.isArray(e.qids)) return null;
-  const keep = e.qids.filter(id => byId.has(id));
-  if (keep.length === e.qids.length) return e;
-  if (!keep.length) { store.del(examKey()); return null; }
-  const at = keep.indexOf(e.qids[e.cur]);
-  e.cur = at >= 0 ? at : Math.min(e.cur, keep.length - 1);
-  for (const id of e.qids) if (!byId.has(id)) { delete e.answers[id]; if (e.perm) delete e.perm[id]; }
-  e.flags = (e.flags || []).filter(id => byId.has(id));
-  e.qids = keep;
-  store.set(examKey(), e);
-  return e;
+  const valid = e.qids.length === CFG.total && new Set(e.qids).size === CFG.total &&
+    e.qids.every(id => byId.has(id)) && MODULES.every(m =>
+      e.qids.filter(id => byId.get(id).module === m.n).length === CFG.perModule);
+  if (valid) return e;
+  store.del(examKey());
+  homeNotice = ui('The question bank has changed. Please start a new mock exam; completed results are kept.',
+    '題庫已更新，請重新開始模擬試；已完成的考試成績仍會保留。');
+  return null;
 }
 
 /* the drawn arrangement of an exam question (a paper saved before arrangements
@@ -1281,152 +1275,6 @@ function bindPractice() {
   };
 }
 
-/* ---------------- statement drill ---------------- */
-
-/* One statement at a time: is it correct? A question is lost on a single
-   misjudged statement, so this drills the judgement the paper turns on. Each
-   statement's record is kept as [seen, wrong, right-in-a-row]; a statement once
-   misjudged stays on the weak list until it is judged right twice running. */
-const stmtKey = (qid, i) => qid + '#' + i;
-const isWeak = r => Array.isArray(r) && r[1] > 0 && r[2] < 2;
-
-function weakStatements() {
-  const recs = store.get('stmts', {});
-  const out = [];
-  for (const q of bank) {
-    if (!inPractice(q)) continue;
-    q.truth.forEach((_, i) => { if (isWeak(recs[stmtKey(q.id, i)])) out.push([q.id, i]); });
-  }
-  return out;
-}
-
-function drillCardHTML() {
-  const n = bank.reduce((s, q) => s + (inPractice(q) ? q.truth.length : 0), 0);
-  const weak = weakStatements().length;
-  return `<div class="card">
-    <h2>${ui('Statement drill', '逐句判斷')}</h2>
-    <div class="sub">${ui(
-      `One statement at a time: is it correct? A question is lost on a single misjudged statement, so this drills exactly that judgement. ${n} statements in the modules chosen above.`,
-      `每次一句：這句陳述正確嗎？組合題只要判斷錯一句就會失分，這裏專練這個判斷。以上所選單元共有${n}句陳述。`)}</div>
-    <div class="actions">
-      <button class="btn secondary" id="btn-drill" ${n ? '' : 'disabled'}>${ui('Start drill', '開始逐句判斷')}</button>
-      ${weak ? `<button class="btn secondary" id="btn-drill-weak">${ui(`Drill my ${weak} weak statement${weak === 1 ? '' : 's'}`, `重練判斷錯的${weak}句`)}</button>
-      <span class="note">${ui('A statement leaves this list once you judge it right twice running.', '連續兩次判斷正確，該句便會移出此清單。')}</span>` : ''}
-    </div>
-  </div>`;
-}
-
-function startDrill(weakOnly) {
-  const pool = weakOnly ? weakStatements()
-    : bank.filter(inPractice).flatMap(q => q.truth.map((_, i) => [q.id, i]));
-  if (!pool.length) return;
-  drill = { pool: shuffle(pool), idx: 0, chosen: null, tally: { seen: 0, right: 0 }, weakOnly };
-  S.view = 'drill'; render();
-  window.scrollTo(0, 0);
-}
-
-function judge(val) {
-  const [qid, i] = drill.pool[drill.idx];
-  const ok = val === byId.get(qid).truth[i];
-  drill.chosen = val;
-  drill.tally.seen++;
-  if (ok) drill.tally.right++;
-  const recs = store.get('stmts', {});
-  const r = Array.isArray(recs[stmtKey(qid, i)]) ? recs[stmtKey(qid, i)] : [0, 0, 0];
-  recs[stmtKey(qid, i)] = [r[0] + 1, r[1] + (ok ? 0 : 1), ok ? r[2] + 1 : 0];
-  store.set('stmts', recs);
-  render();
-}
-
-function nextDrill() {
-  drill.idx++;
-  drill.chosen = null;
-  if (drill.idx >= drill.pool.length) {
-    if (drill.weakOnly) {   // start again from whatever is still weak
-      const pool = weakStatements();
-      if (!pool.length) {
-        toast(ui('No weak statements left', '已沒有判斷錯的陳述'));
-        drill = null; S.view = 'home'; render();
-        return;
-      }
-      drill.pool = shuffle(pool);
-    } else {
-      shuffle(drill.pool);
-      toast(ui(`All ${drill.pool.length} statements seen once — starting another round`,
-        `已完成全部 ${drill.pool.length} 句，重新開始一輪`));
-    }
-    drill.idx = 0;
-  }
-  render();
-  window.scrollTo(0, 0);
-}
-
-function drillView() {
-  const [qid, i] = drill.pool[drill.idx];
-  const q = byId.get(qid);
-  const done = drill.chosen !== null;
-  const truth = q.truth[i];
-  const btn = (val, key, en, tc) => {
-    const cls = !done ? '' : val === truth ? 'correct' : val === drill.chosen ? 'wrong' : 'dim';
-    return `<button class="opt ${cls}" data-tf="${val}" ${done ? 'disabled' : ''}>
-      <span class="letter">${key}</span><span class="otext">${ui(en, tc)}</span></button>`;
-  };
-  const trap = !truth && q.traps && TRAPS[q.traps[i]];
-  const note = q.en.notes ? contentPair(q.en.notes[i], q.tc.notes[i]) : '';
-  // an item without notes explains itself in one paragraph that names statements by number
-  const why = note || (contentHTML(q, 'explain') ? `<div class="note">${ui(`This is statement ${i + 1} of its question.`, `這是原題第 ${i + 1} 句。`)}</div>${contentHTML(q, 'explain')}` : '');
-  const t = drill.tally;
-  return topbarHTML() + `
-  <div class="wrap">
-    <div class="qcard">
-      <div class="qmeta">
-        <span class="qnum">${ui('Statement drill', '逐句判斷')}</span>
-        <span class="qmod">M${q.module} · ${esc(modName(q.module))}</span>
-        <span class="tally" style="margin-left:auto">${ui('This session', '本節')}: <b>${t.right}</b>/${t.seen}</span>
-      </div>
-      <div class="drill-stem">${contentHTML(q, 'q')}</div>
-      <div class="drill-stmt">${contentPair(q.en.statements[i], q.tc.statements[i])}</div>
-      <div class="opts tf" id="tf">
-        ${btn(true, 'T', 'Correct', '正確')}
-        ${btn(false, 'F', 'Incorrect', '不正確')}
-      </div>
-      ${done ? `
-      <div class="explain">
-        <div class="verdict ${drill.chosen === truth ? 'good' : 'bad'}">
-          ${drill.chosen === truth ? icon('check') + ' ' + ui('Right', '判斷正確') : icon('x') + ' ' + ui('Wrong', '判斷錯誤')}
-          · ${truth ? ui('the statement is correct', '這句陳述正確') : ui('the statement is incorrect', '這句陳述不正確')}${
-            trap ? ` · ${ui('Trap', '陷阱')}: ${ui(trap[0], trap[1])}` : ''}</div>
-        ${why}
-        ${sourceHTML(q)}
-      </div>
-      <div class="qnav-row">
-        <div class="grow"></div>
-        <button class="btn" id="btn-dnext">${ui('Next statement', '下一句')}</button>
-      </div>` : ''}
-    </div>
-    <div class="actions">
-      <button class="btn secondary" id="btn-dend">${ui('End drill', '結束練習')}</button>
-    </div>
-    <div class="footer kbd">${ui('Keyboard: T or 1 correct · F or 2 incorrect · Enter next', '鍵盤：T 或 1 正確 · F 或 2 不正確 · Enter 下一句')}</div>
-  </div>`;
-}
-
-function bindDrill() {
-  document.querySelectorAll('#tf .opt:not([disabled])').forEach(b => {
-    b.onclick = () => judge(b.dataset.tf === 'true');
-  });
-  const nx = $('#btn-dnext');
-  if (nx) nx.onclick = nextDrill;
-  $('#btn-dend').onclick = () => { drill = null; S.view = 'home'; render(); };
-  document.onkeydown = e => {
-    if (S.view !== 'drill' || $('.modal-back') || e.ctrlKey || e.metaKey || e.altKey) return;
-    const k = e.key.toLowerCase();
-    if (drill.chosen === null && (k === 't' || k === '1')) judge(true);
-    else if (drill.chosen === null && (k === 'f' || k === '2')) judge(false);
-    else if (drill.chosen !== null && (k === 'arrowright' || (k === 'enter' && e.target.tagName !== 'BUTTON'))) nextDrill();
-  };
-}
-
 /* ---------------- modal ---------------- */
 
 function confirmModal(title, bodyHTML, okLabel, onOK, danger = false, extra = null) {
@@ -1475,7 +1323,8 @@ async function boot() {
   store.del('examcombo');   // the exam-realistic switch is gone: every paper is in the real format
   store.del('newonly');     // every item now has per-statement notes
   const savedSel = store.get('pmods', null);
-  if (Array.isArray(savedSel) && savedSel.length) pmodSel = new Set(savedSel.filter(n => n >= 1 && n <= 7));
+  const validSel = Array.isArray(savedSel) ? savedSel.filter(n => Number.isInteger(n) && n >= 1 && n <= 7) : [];
+  if (validSel.length) pmodSel = new Set(validSel);
 
   // an exam that expired while the app was closed → submit it now
   const saved = loadExam();

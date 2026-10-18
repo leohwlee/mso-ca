@@ -1,3 +1,9 @@
+> This is the retained reference-pack generator, not a mode of the exam app.
+> Its legacy source coverage is separate from the current 01–26 question bank.
+> Use the [current reading library](../docs/README.md) and question explanations for exam practice.
+> 舊版溫習資料未按新版 01–26 範圍全面重寫，不應視為 525 題的完整溫習大綱。
+> [Documentation index / 文件總目錄](../docs/INDEX.md) · [App user guide](../docs/USAGE.md)
+
 # Revision pack
 
 A bilingual (English / Traditional Chinese) revision pack for the MSO Competence

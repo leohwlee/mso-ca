@@ -5,6 +5,8 @@ Competence Assessment paper. This file is the register of what the owner decided
 about that shape, the schema an item follows, and the rules a writer works to.
 `go test ./...` enforces what can be checked mechanically.
 
+[Authoring workflow](../docs/authoring/exam-prep/GUIDE.md) · [Source maintenance](../docs/SOURCE-MAINTENANCE.md) · [Build and checks](../DEVELOPMENT.md)
+
 ## What the paper looks like
 
 - 35 multiple-choice questions, seven modules of five, 75 minutes, one correct
@@ -21,17 +23,19 @@ about that shape, the schema an item follows, and the rules a writer works to.
   from item to item, and distractors that differ from the source by a single
   word. An "all of the above" or "none of the above" option is always the last.
 
-## The owner's decisions (16–17 October 2026)
+## The owner's decisions (16–18 October 2026)
 
 | Decision | Rule |
 |---|---|
 | Format | Every item is a combination item. No single-answer items. A trap that a single-answer item would test (near-identical agency names, for one) is written as a statement. |
 | Strict reading | A statement is true only if it matches its source in scope, conditions, qualifiers, actors, numbers, time limits and modal strength. Changing any one of those makes it false, and so does adding an item that the source's list does not contain, even when the item is true elsewhere. The explanation names the defect. |
-| Languages | English and Traditional Chinese, both complete for every item, each following its own official text. |
+| Languages | English and Traditional Chinese, both complete for every item, following each official text where available. Document 24 has English only: the Chinese citation explicitly says 學習譯文; its quotes retain English with `language: "en"`. No invented official translation. |
 | Option layout | "All of the above" (以上皆是) or "None of the above" (以上皆非), when present, is always option e). The other options list statement numbers. |
 | Statement order | The app shuffles the statements of every item at every draw and renumbers the options to match, so a letter cannot be memorised. Every statement has its own explanation without positional references. |
 | Retired | The 1,206 four-option items and 303 superseded combination items are out of the app. Their ids remain reserved in `bank/retired-ids.json`; their text and quotes are preserved in Git at `v1.7.5`. The remaining 38 old combination items have been migrated in place with their ids retained. |
-| Sources | The current bank uses the original 23 sources (the five categories of Guidance Notes ¶6.1; document numbers follow the reading directory). On 18 October 2026 the owner authorised a broader, ordered reading archive in `docs/`, including supplementary materials and seminar slides. The additions are reading materials; they have not been incorporated into the bank or its coverage audit. |
+| Sources | On 18 October 2026 the owner limited the active bank to documents 01–26 and requested approximately 525 questions. Documents 27–47 remain historical reference, excluded from new and retained active questions. This is a personal study scope, not a statement that archived topics cannot appear on the official exam. |
+| App | Mock exam and custom practice only; custom practice selects one or more of Parts 1–7. Scores and review are supporting features within these modes. |
+| Applications | Expansion includes genuinely different decision-changing scenarios using approved rules. A source rule may recur when the case tests a different condition, exception or combination; names or amounts pasted onto otherwise identical claims are not new coverage. |
 
 ## Schema
 
@@ -117,8 +121,10 @@ should be kept?". It never asks what a section number says.
   Never make "exactly one is false" a safe assumption.
 - Keep the statements of an item close in length, and put absolutes and
   negations on true statements as often as on false ones.
-- No twins: a statement that another item already asserts, or a near copy
-  of one with the opposite truth, teaches a candidate which to doubt.
+- No twins: avoid repeated assertions and near copies with the opposite truth.
+  A materially different application can reuse a rule when the decision turns
+  on different facts or interacting conditions. Record it as an application in
+  the coverage map; do not count it as a previously untested rule.
 
 **Notes** say, for each statement, whether it is true or false and why, in
 the source's own words, with its locator: "False: ¶4.3.2 lists full name, date

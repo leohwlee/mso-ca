@@ -28,9 +28,12 @@ PDF、DOCX及HTML摘要按原始位元組計算；Markdown先統一為LF換行�
 避免改號改變文字。`extract_related.py`是同一流程的相容入口。
 `transcripts/15.json`的圖片標籤仍與原PDF摘要綁定。
 
-`original_bank_source`標示既有題庫所用的23份來源。其他材料，包括兩部完整法例，
-雖然已獨立編號，仍不能假定已納入出題依據。使用前須核對版本、語言、適用範圍，
-並擴充`sources_test.go`的引用識別。歷史參考中的題庫來源仍保留原件及文字供核驗。
+現行題庫只可使用**01–26**，由`catalog.json.question_bank_scope`記錄。
+`original_bank_source`只標示舊23份來源，不是現行出題清單。
+使用前仍須核對版本、語言、適用範圍及引用識別。第24項沒有官方中文版本：
+中文題目須標明「學習譯文」，中文引文欄保留英文原文並加`language: "en"`；
+這項例外只適用於第24項。27–47只供歷史核驗，不可作有效題目依據。
+文件所連結但未收錄的外部材料不自動納入範圍；題目須由本地原文直接支持。
 
 ## 修改原件或閱讀順序
 
@@ -46,10 +49,16 @@ PDF、DOCX及HTML摘要按原始位元組計算；Markdown先統一為LF換行�
 
 ## 檢查
 
+只有更換來源原件後才執行 `python docs/extract_text.py`（需 PyMuPDF），並核對文字差異。一般文件修改不用重新擷取。完整開發及發佈步驟見 [開發說明](../DEVELOPMENT.zh-Hant.md)，文件入口見 [總目錄](INDEX.md)。
+
 ```bash
-python docs/extract_text.py
 python docs/build_catalog.py --check
+go vet ./...
 go test ./...
+node --test tests/*.test.cjs
+python -m unittest discover -s tests -p '*_test.py'
+python bank/audit/active_scope.py --check
+python bank/audit/render_active_scope.py --check
 python bank/audit/report.py --check
 python bank/audit/terms_report.py --check
 python bank/audit/p1_report.py --check

@@ -1,3 +1,7 @@
+> The original 23-source audit reports below describe the preserved historical
+> baseline. Current 01–26 scope and additions are verified separately in
+> [ACTIVE-SCOPE.md](ACTIVE-SCOPE.md). Historical completion is not current coverage.
+
 # 七个单元考点覆盖审核
 
 既定清单的补题及修题任务已全部落实，包括后续P1流程、剩余20项P2／P3任务及专项P3细节。原审核基线保留，不能将“清单完成”等同真实考试全部覆盖。

@@ -3,6 +3,7 @@ import hashlib
 import json
 import pathlib
 import zipfile
+from active_scope import recover
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
@@ -23,6 +24,14 @@ def check_hash(path, expected):
 def encoded(value, newline):
     return (json.dumps(value, ensure_ascii=False, indent=1) + '\n').replace('\n', newline).encode('utf8')
 
+def prove_archived_text(proven, path, data):
+    """The archive bytes are already verified; permit Git's newline conversion."""
+    proven.add((path, hashlib.sha256(data).hexdigest()))
+    if pathlib.Path(path).suffix.lower() in {'.json', '.md', '.py', '.txt', '.go'}:
+        lf = data.replace(b'\r\n', b'\n')
+        for version in (lf, lf.replace(b'\n', b'\r\n')):
+            proven.add((path, hashlib.sha256(version).hexdigest()))
+
 def validate_reviews(record, current):
     reviewed = set()
     for review in record['blind_review']['items']:
@@ -35,9 +44,9 @@ def validate_reviews(record, current):
         assert a['verdicts'] == a['tc_verdicts'] == expected, q['id']
     assert reviewed == set(record['added_question_ids']), 'Every addition needs a final bilingual blind review'
 
-def maintenance_followups():
+def maintenance_followups(extra_proven=None):
     """Verify later documentation changes without replacing earlier audit evidence."""
-    proven = set()
+    proven = set(extra_proven or ())
     for path in sorted((HERE / 'maintenance').glob('*.json'), reverse=True):
         record = json.loads(path.read_text(encoding='utf8'))
         assert record['status'] == 'verified', path
@@ -48,7 +57,7 @@ def maintenance_followups():
                 for p, entry in record['archive_preserved'].items():
                     raw = archive.read(entry.get('member', p)).replace(b'\r\n', b'\n')
                     assert hashlib.sha256(raw).hexdigest() == entry['sha256'], p
-                    proven.add((p, entry['sha256']))
+                    prove_archived_text(proven, p, raw)
         if record.get('archived_text_versions'):
             with zipfile.ZipFile(ROOT / record['archive']) as archive:
                 for entry in record['archived_text_versions']:
@@ -64,7 +73,7 @@ def maintenance_followups():
                     assert hashlib.sha256(before).hexdigest() == update['before_sha256'], p
                     if (p, update['after_sha256']) not in proven:
                         check_hash(p, update['after_sha256'])
-                    proven.add((p, update['before_sha256']))
+                    prove_archived_text(proven, p, before)
         for move in record.get('relocations', []):
             if (move['after'], move['sha256']) not in proven:
                 check_hash(move['after'], move['sha256'])
@@ -77,9 +86,9 @@ def maintenance_followups():
             proven.add((p, update['before_sha256']))
     return proven
 
-def completion_followup(bank, quotes):
+def completion_followup(bank, quotes, extra_proven=None):
     """Validate final additions/replacements and recover the untouched 338-item state."""
-    proven = maintenance_followups()
+    proven = maintenance_followups(extra_proven)
     path = HERE / 'remaining-implementation.json'
     if not path.exists():
         return None, bank, quotes, proven
@@ -98,7 +107,9 @@ def completion_followup(bank, quotes):
             check_hash(p.replace('\\','/'), expected)
     check_hash(d['transcript_review']['transcript_file'], d['transcript_review']['transcript_sha256'])
     assert d['skill_review']['status'] == 'pass'
-    check_hash('.claude/skills/exam-prep/SKILL.md', d['skill_review']['final_skill_sha256'])
+    historical_guide = ('.claude/skills/exam-prep/SKILL.md', d['skill_review']['final_skill_sha256'])
+    if historical_guide not in proven:
+        check_hash(*historical_guide)
     refresh = d['source_verification']
     assert len(refresh['pdfs']) == 42 and all(p['binary_equal'] for p in refresh['pdfs'])
     for p in refresh['pdfs']:
@@ -209,11 +220,13 @@ def latest_followup(bank, quotes, proven=None):
     return d, old_bank, old_quotes, proven
 
 def load_state():
+    """Validate current follow-up, then load the original checklist's historical bank."""
     bank = json.loads((ROOT / 'web/questions.json').read_text(encoding='utf8'))
     quotes = json.loads((ROOT / 'docs/quotes.json').read_text(encoding='utf8'))
+    bank, quotes, scope_proven = recover(bank, quotes)
     active_bank = bank
     active_current = {q['id']:q for q in bank}
-    completion, bank, quotes, proven = completion_followup(bank, quotes)
+    completion, bank, quotes, proven = completion_followup(bank, quotes, scope_proven)
     intermediate = {q['id']:q for q in bank}
     latest, bank, quotes, proven = latest_followup(bank, quotes, proven)
     current = {q['id']: q for q in bank}
