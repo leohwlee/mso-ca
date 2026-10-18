@@ -34,7 +34,7 @@
   For question or evidence changes also run the four audit checks in
   `DEVELOPMENT.md`, `python bank/audit/active_scope.py --check`,
   `python bank/audit/render_active_scope.py --check`, and `node --test tests/*.test.cjs`.
-  Build both HTML outputs when generation may be affected.
+  Build the exam HTML when generation may be affected. The old revision pack is archived.
 
 - Use [the documentation index](docs/INDEX.md) for user and maintainer entry points.
   Keep English and Traditional Chinese instructions consistent.

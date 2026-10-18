@@ -28,8 +28,9 @@
 The [original audit reports](../bank/audit/README.md), [immutable evidence](../bank/audit/history/README.md),
 [archived publications](archive/README.md), [legacy revision pack](../revision/README.md)
 and [source-conflict decisions](../revision/CONFLICT-CALLS.md) remain available.
-Their original scope and findings must not be read as a current coverage claim.
+The legacy pack is archived and no longer built or released. Original findings
+must not be read as a current coverage claim.
 
 [原審核報告](../bank/audit/README.md)、[不可改寫的歷史證據](../bank/audit/history/README.md)、
 [歸檔原件](archive/README.zh-Hant.md)、[舊溫習資料](../revision/README.md)及
-[矛盾裁決](../revision/CONFLICT-CALLS.md)仍可查閱，但其原有範圍及結論不代表現行題庫的覆蓋情況。
+[矛盾裁決](../revision/CONFLICT-CALLS.md)仍可查閱；舊溫習資料已歸檔並停止建置及後續發佈。歷史結論不代表現行題庫的覆蓋情況。

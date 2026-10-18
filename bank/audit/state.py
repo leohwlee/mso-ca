@@ -102,9 +102,15 @@ def completion_followup(bank, quotes, extra_proven=None):
         if (p, expected) not in proven:
             check_hash(p, expected)
     for review in [d['pack_review']['ci'], d['pack_review']['trust']]:
-        check_hash(review['file'], review['sha256'])
+        # Discontinued pack files may live in a verified immutable archive.
+        # Only a matching path/hash proven by maintenance_followups can replace
+        # the live-file check; an absent or altered archive still fails above.
+        if (review['file'], review['sha256']) not in proven:
+            check_hash(review['file'], review['sha256'])
         for p, expected in review['source_sha256'].items():
-            check_hash(p.replace('\\','/'), expected)
+            source = p.replace('\\','/')
+            if (source, expected) not in proven:
+                check_hash(source, expected)
     check_hash(d['transcript_review']['transcript_file'], d['transcript_review']['transcript_sha256'])
     assert d['skill_review']['status'] == 'pass'
     historical_guide = ('.claude/skills/exam-prep/SKILL.md', d['skill_review']['final_skill_sha256'])

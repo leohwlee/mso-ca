@@ -24,6 +24,10 @@ It also writes docs/text/manifest.json, which records the SHA-256 of the file
 each text came from, so the tests can tell when a document has been replaced
 without its text being extracted again.
 """
+from html.parser import HTMLParser
+import xml.etree.ElementTree as ET
+import zipfile
+
 import hashlib
 import json
 import pathlib
@@ -59,6 +63,44 @@ def unify(text):
     return ''.join(out)
 
 
+class HTMLText(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.ignored = 0
+        self.parts = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag in {'script', 'style'}:
+            self.ignored += 1
+        if tag in {'p', 'div', 'br', 'h1', 'h2', 'li'}:
+            self.parts.append('\n')
+
+    def handle_endtag(self, tag):
+        if tag in {'script', 'style'}:
+            self.ignored -= 1
+
+    def handle_data(self, data):
+        if not self.ignored:
+            self.parts.append(data)
+
+
+def extract(path):
+    if path.suffix == '.pdf':
+        import pymupdf
+        with pymupdf.open(path) as pdf:
+            return '\f'.join(page.get_text() for page in pdf)
+    if path.suffix == '.docx':
+        with zipfile.ZipFile(path) as archive:
+            document = ET.fromstring(archive.read('word/document.xml'))
+        ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+        return '\n'.join(''.join(p.itertext()) for p in document.findall('.//w:p', ns))
+    if path.suffix == '.html':
+        parser = HTMLText()
+        parser.feed(path.read_text(encoding='utf8'))
+        return re.sub(r'\n\s*\n+', '\n\n', ''.join(parser.parts)).strip() + '\n'
+    raise ValueError(f'Unsupported companion: {path}')
+
+
 def main():
     manifest = {}
     catalog = json.loads((DOCS / 'catalog.json').read_text(encoding='utf8'))
@@ -77,7 +119,6 @@ def main():
             assert src.name.startswith(num + '_'), src
             companion_mode = document.get('text_mode') == 'companion'
             if companion_mode or src.suffix in {'.docx', '.html'}:
-                from extract_related import extract
                 text = extract(src)
             elif src.suffix == '.pdf':
                 with pymupdf.open(src) as pdf:

@@ -12,8 +12,8 @@ Everything except the two items below is licensed under MIT. Full text in
   `web/index.html`, with the build scripts and the workflows;
 - the question bank, `web/questions.json`: authored questions, statements and
   explanations in English and Traditional Chinese, excluding reproduced official wording;
-- the revision pack in `revision/`: its generator, and the text and figures of
-  its pages;
+- the archived revision pack: its generator and authored text and figures,
+  retained in the cleanup archive under `bank/audit/history/`;
 - the agent-neutral authoring guide in `docs/authoring/exam-prep/`: the method used to build the bank
   and the pack, written for any exam.
 

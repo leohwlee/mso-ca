@@ -25,7 +25,7 @@ BI表示中英雙語；ZH表示官方簡體中文。第**24**項在兩個資料�
 
 PDF、DOCX及HTML摘要按原始位元組計算；Markdown先統一為LF換行。
 `extract_text.py`處理全部47項；`text_mode: companion`保留配套原先的擷取方式，
-避免改號改變文字。`extract_related.py`是同一流程的相容入口。
+避免改號改變文字。所有格式統一由`extract_text.py`處理。
 `transcripts/15.json`的圖片標籤仍與原PDF摘要綁定。
 
 現行題庫只可使用**01–26**，由`catalog.json.question_bank_scope`記錄。
@@ -51,20 +51,6 @@ PDF、DOCX及HTML摘要按原始位元組計算；Markdown先統一為LF換行�
 
 只有更換來源原件後才執行 `python docs/extract_text.py`（需 PyMuPDF），並核對文字差異。一般文件修改不用重新擷取。完整開發及發佈步驟見 [開發說明](../DEVELOPMENT.zh-Hant.md)，文件入口見 [總目錄](INDEX.md)。
 
-```bash
-python docs/build_catalog.py --check
-go vet ./...
-go test ./...
-node --test tests/*.test.cjs
-python -m unittest discover -s tests -p '*_test.py'
-python bank/audit/active_scope.py --check
-python bank/audit/render_active_scope.py --check
-python bank/audit/report.py --check
-python bank/audit/terms_report.py --check
-python bank/audit/p1_report.py --check
-python bank/audit/remaining_report.py --check
-go run . -export-html dist/mso-ca.html
-python revision/pack_build.py dist/mso-revision-pack.html
-```
+完整檢查及建置指令只維護於[開發說明](../DEVELOPMENT.zh-Hant.md)，此處不重複。
 
 模擬試按題號保存進度，改文件編號不改題號或舊答案。過往證據見[歷史存檔](../bank/audit/history/README.md)。

@@ -83,9 +83,9 @@ Any human or coding agent can begin with [AGENTS.md](AGENTS.md). No particular
 agent, plugin or proprietary command is required. Historical reviews remain
 verifiable without being presented as reviews of later changes.
 
-The separately downloadable `mso-revision-pack.html` is a **legacy reference
+The previously released `mso-revision-pack.html` is a **legacy reference
 pack with its own older scope**. It is not a third app mode or a complete guide
-to the current bank; see its [scope and build notes](revision/README.md).
+to the current bank; it is no longer built or included in new releases; see the [archive](revision/README.md).
 
 ## Limits and licensing
 

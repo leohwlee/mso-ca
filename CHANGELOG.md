@@ -1,5 +1,16 @@
 # Release notes / 版本更新
 
+## v1.9.1 — 18 October 2026
+
+[Download / 下載 mso-ca.html](https://github.com/leohwlee/mso-ca/releases/download/v1.9.1/mso-ca.html)
+
+- Removes the discontinued revision-pack generator and review tools from the active tree and future release builds; exact originals remain in a verified archive.
+- Consolidates source extraction into one command and shortens the authoring/development guides; keeps the Go builder and four quality-check files.
+- App behaviour, 525 questions, source documents and review verdicts are unchanged.
+- 舊溫習資料程式及覆核工具退出日常維護與後續發佈，完整原檔保存在可核驗存檔。
+- 合併來源擷取入口、精簡出題及開發指南，保留仍有用途的 Go 打包工具及四份檢查。
+- App 操作、525題、來源原件及覆核結論不變。
+
 ## v1.9.0 — 18 October 2026
 
 Download **[mso-ca.html](https://github.com/leohwlee/mso-ca/releases/download/v1.9.0/mso-ca.html)** and open it in a browser.

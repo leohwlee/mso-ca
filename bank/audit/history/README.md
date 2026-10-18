@@ -36,3 +36,11 @@ is in `../active26-implementation.json`. `active_scope.py` reconstructs the old
 bank before the four historical audits run, while validating every current
 addition and retirement separately. Historical agent names and paths are evidence,
 not runtime or authoring dependencies.
+
+
+`2026-10-18-before-repository-cleanup.zip` preserves the discontinued revision-pack
+sources and review tools, the earlier general-purpose authoring guide, and the
+documentation/code immediately before repository simplification. Removed files
+remain checked against their original evidence hashes through the corresponding
+maintenance record. It is an archive, not part of the app or release build.
+The prior documentation-only snapshot is `2026-10-18-before-release-docs.zip`.

@@ -130,7 +130,7 @@ should be kept?". It never asks what a section number says.
 the source's own words, with its locator: "False: ¶4.3.2 lists full name, date
 of birth, nationality and identity number; sex is not among them."
 
-**Citations and terms** follow `revision/AUTHOR_GUIDE.md`: a locator in every
+**Citations and terms** follow the [authoring workflow](../docs/authoring/exam-prep/GUIDE.md): a locator in every
 citation, each language's own official terms, no word from the other language.
 
 ## Tools
@@ -140,7 +140,7 @@ python bank/find.py EN 03 "target market"       # find a passage in a source, wi
 python bank/apply.py next 3 15                  # the next 15 unused ids in module 3
 python bank/apply.py check patch.json           # validate a patch of new or changed items
 python bank/apply.py apply patch.json           # generate options, merge into the bank and quotes
-python bank/show.py m3-261                      # print an item with its key, traps and notes
+python bank/show.py m3-322                      # print an item with its key, traps and notes
 python bank/combo.py check web/questions.json   # validate every item's options
 python bank/blind.py packet patch.json out.md   # the items without their answers, for a blind reviewer
 python bank/blind.py compare patch.json ans.json  # the reviewer's verdicts against the truth

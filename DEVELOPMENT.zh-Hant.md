@@ -1,16 +1,27 @@
 # 開發說明
 
-[文件總目錄](docs/INDEX.md) · [使用指南](docs/USAGE.zh-Hant.md) · [出題規格](bank/FORMAT.md)
+[English](DEVELOPMENT.md) · [文件總目錄](docs/INDEX.md)
 
-[English version →](DEVELOPMENT.md)
+## 保留甚麼，以及原因
+
+使用者只需下載 `mso-ca.html` 並用瀏覽器開啟；不需要伺服器、資料庫、帳戶或 API 金鑰。
+
+| 檔案 | 用途 |
+|---|---|
+| `web/` | App 畫面、操作、樣式、字型及525道雙語題。 |
+| `main.go`、`go.mod` | 把 App 打包成一個離線 HTML；沒有第三方 Go 依賴。 |
+| 四個 `*_test.go` | 檢查打包結果、答案、來源引文、語言及猜題線索。 |
+| `tests/` | JavaScript 功能測試及 Python 來源、覆核約束。 |
+| `bank/` | 出題工具、停用題號及覆核證據。 |
+| `docs/` | 原始文件、擷取文字、引文及必要說明。 |
+| `revision/` | 只保留舊資料歸檔入口及仍適用的文件矛盾裁決。 |
+
+Go 是打包及品質檢查工具，並非 App 後端。把現有測試改寫成另一種語言只會重做已正常運作的檢查。
+JavaScript 負責 App 操作；Python 負責來源擷取、出題及覆核記錄。
 
 ## 建置及完整檢查
 
-使用者只需[下載 HTML](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html)，不必安裝開發工具。
-維護者需要 Go 1.27 或以上、Node.js 22 或以上及 Python 3.10 或以上。
-以下指令從倉庫根目錄執行，與自動檢查及發佈流程一致。
-Python 工具一般只用標準函式庫；重新擷取來源文字時才另外需要 PyMuPDF。
-Windows 若 `python` 開啟 Microsoft Store，可改用 `py -3`；中文輸出有問題時加上 `-X utf8`。
+安裝 Go 1.27 或以上、Node.js 22 或以上及 Python 3.10 或以上，從倉庫根目錄執行：
 
 ```bash
 go vet ./...
@@ -25,126 +36,33 @@ python bank/audit/terms_report.py --check
 python bank/audit/p1_report.py --check
 python bank/audit/remaining_report.py --check
 go run . -export-html dist/mso-ca.html
-python revision/pack_build.py dist/mso-revision-pack.html
 ```
 
-開啟 `dist/mso-ca.html` 檢查發佈成品。開發預覽可執行
-`python -m http.server 8321 --bind 127.0.0.1 -d web`，再開啟
-`http://127.0.0.1:8321`。App 不需要後端或 API 金鑰。
-另外產生的舊版溫習資料有獨立的歷史來源範圍，並非 App 的第三個模組。
+Python 工具一般只用標準函式庫；重新擷取來源文字才需要 PyMuPDF。
+Windows 若 `python` 開啟 Store，可改用 `py -3`；中文輸出有問題時加 `-X utf8`。
+建置後開啟 `dist/mso-ca.html`。開發預覽可執行
+`python -m http.server 8321 --bind 127.0.0.1 -d web`，再開啟 `http://127.0.0.1:8321`。
 
-## App 與題庫檢查
+## 題庫、來源與證據
 
-題庫為 `web/questions.json`。每道題都採用真實試卷的格式：題幹、4 至 6 句編號陳述、哪幾句正確，以及五個列出陳述組合的選項。[`bank/FORMAT.md`](bank/FORMAT.md) 記錄了題庫擁有人就這個格式所作的決定及出題規則；程式每次抽題都會重新排列陳述，並相應重新編號選項。
+修改前閱讀[題目規格](bank/FORMAT.md)、[出題流程](docs/authoring/exam-prep/GUIDE.md)及
+[來源維護](docs/SOURCE-MAINTENANCE.zh-Hant.md)。現行報告核驗01–26來源的525題；
+四份舊報告重建各自的歷史題庫，不代表現行覆蓋率。1,526個停用題號仍不可重用。
 
-`go test ./...` 並非只檢查格式，而是防範一些會悄悄毀掉題庫的問題；大部分檢查都是在審核中真的發現了該問題之後才加入的。
-
-| 檢查項目 | 防範甚麼 |
-|---|---|
-| 各單元題數；中英文均有 4 至 6 句陳述；五個選項按顯示次序排列；只有一個選項與正確陳述相符，且即為答案 | 題目遺失、只寫了一半或答案標錯 |
-| 選項組合須對稱：與答案大小相同的選項，都可經重新編號變成答案 | 從選項組合的結構看出答案 |
-| 程式會重新排列陳述的題目，每句陳述均須有講解，每句錯誤陳述均須註明陷阱類別 | 陳述換了次序後，講解指向錯誤的陳述 |
-| 正確陳述的數目在題庫內須有變化 | 養成「只找一句錯」的習慣 |
-| 陷阱類別不可一面倒 | 只懂得檢查某一種錯處 |
-| 陳述長度的分布及突出 | 錯誤陳述因最長或最短而露餡 |
-| 含絕對用語或否定詞的陳述須有足夠比例屬正確 | 「見到絕對用語就揀錯」 |
-| 出處須有定位；題幹須以文字說明題目，不得引用條文編號 | 只列文件名稱，讀者無從翻查；考背條號 |
-| 法定中文用語 | 使用官方中文本從未採用的字眼 |
-| 「該」須承接前文已提及的對象 | 把「the customer」或「the MSO」逐字譯成「該客戶」或「該經營者」，前文卻沒有可承接的對象 |
-| 《指引》的段落稱「段」 | 把《指引》的段落寫成條例指分條的「款」 |
-| ML/TF 對應 | 中文漏掉「恐怖分子資金籌集」那一半 |
-| 錯誤陳述不得只錯在 “Joint Financial Investigation Unit” 這個名稱 | 把海關參考試題本身判為正確的寫法判為錯誤（登記冊 B21） |
-| 不得以位置稱呼陳述或選項 | 講解寫「陳述2」或「選項B」，但陳述及選項會重新排列 |
-| 不得有重複題目，同一陳述不得出現兩次 | 同一點被問兩次，或一對孿生陳述提示考生該懷疑哪一句 |
-| 每句陳述均存有決定其對錯的原文，並須在該題所引文件中逐字找到 | 所引段落並不能判定陳述；文件更換後未有重新擷取文字 |
-| 海關的參考試題須保留海關原文 | 把改寫的題目標為「官方」 |
-| 所引通函均屬現行文件 | 已被較新文件取代的通函再次出現 |
-| 只看選項組合的猜題方法，命中率不得高於隨機 | 最趨同、最常見、最大或最後的選項指向答案 |
-| 只看陳述及選項、以題庫本身訓練的猜題程式 | 新的表面線索：最多只可猜中 45% 的答案（純粹猜測為 20%），模擬試卷最多只可通過 0.5% |
-| 各語言欄位只用該語言 | 「中文本指……」一類說法，或中文來源從未使用的英文縮寫 |
-
-引文檢查會讀取 `docs/text/`（`docs/EN` 及 `docs/TC` 內每份文件擷取的文字）及 `docs/quotes.json`（每題每種語言決定答案的原文）。新增或更換文件後，請執行 `python docs/extract_text.py`（需要 PyMuPDF）；檢查隨即會列出新版文件不再支持的每段引文。
-
-### 撰寫題目
-
-改題或維護來源前，先讀[來源維護說明](docs/SOURCE-MAINTENANCE.zh-Hant.md)。全庫只用文件閱讀順序作編號：下例的`EN 03`、檔名前綴03及引文`"doc": "03"`均指反洗錢指引。檔名、官方來源及現行位置記在`docs/catalog.json`的`editions.path`。日常資料夾精選26項，移出來源保留於`docs/archive`，接續編為27–47；日常26項連配套文件統一連續編為01–26。現行題庫只限01–26，新增題目的覆核記錄見`bank/audit/active26-implementation.json`；原有23份來源審核保留作歷史核驗。改來源或檔名後，執行`python docs/build_catalog.py --check`。
-
-題目先寫成補丁（patch），檢查無誤後才併入題庫，所用工具在 [`bank/`](bank/)（Python 3，只需標準程式庫）：
-
-```bash
-python bank/find.py EN 03 "target market"        # 在來源文件中找一段文字，連頁碼及上下文
-python bank/apply.py next 3 15                   # 單元三接下來未用的題號
-python bank/apply.py check patch.json            # 檢查補丁
-python bank/apply.py apply patch.json            # 產生選項，併入題庫及引文
-python bank/show.py m3-322                       # 顯示一道題，連答案、陷阱及講解
-python bank/blind.py packet patch.json out.md    # 不附答案的題目，供蒙著答案覆核
-python bank/blind.py compare patch.json ans.json # 把覆核者的判斷與答案比對
-```
-
-所有選項組合均由 `bank/combo.py` 從一組對稱模板產生，不會人手編寫。
-
-上表及溫習資料背後的做法，已整理成不綁定特定代理的可重用指南，見下文〈[編寫流程](#編寫流程)〉。
-
-字型：DM Sans 及 DM Mono 以 SIL Open Font License 內嵌；中文使用作業系統字型。
-
-### 歷史檔案
-
-現行題目均已有逐句講解及引文。過渡期間的「只練新格式題目」篩選、一次性轉換程式及重複的舊題庫 JSON 快照已移除。當時的格式遷移及首輪修訂在`bank/retired-ids.json` 保留 1,511 個退役題號；`apply.py next` 會跳過這些題號，`apply.py check` 會拒絕重用。原題及引文仍保存於 commit `7787e991cc7a5c6eb0e22f1c9216ae133f2daf27`（`v1.7.5`）：
-
-```bash
-git show v1.7.5:web/questions.json
-git show v1.7.5:docs/quotes.json
-```
-
-其後替換的`m3-261` → `m3-322`及`m1-142` → `m1-177`，原題及引文另保存於[實施記錄](bank/audit/implementation.json)。覆蓋報告保留原審核基線，並以現行題句核驗補題結果；請用Python執行`bank/audit/report.py --check`、`bank/audit/terms_report.py --check`、`bank/audit/p1_report.py --check`及`bank/audit/remaining_report.py --check`，CI亦執行這四項。後續P1補題及最終盲答另見[P1實施記錄](bank/audit/p1-implementation.json)，不會改寫前輪審核歷史。
-
-最後一輪P2／P3補題及12道原題的擴寫替換見[最終記錄](bank/audit/remaining-implementation.json)。該輪新增保留12個退役題號後，當時合共1,523個；01–26範圍調整再停用三題，目前共1,526個。核驗程式逐輪還原舊題庫，並將盲答綁定最終題句。通函15圖內欄位的人工轉錄在`docs/transcripts/15.json`，已獨立核對並綁定PDF摘要；抽取程式把文字加入原頁。PDF變更後須重查轉錄，來源測試會拒絕過期綁定。
-
-編號來源文件、擷取文字、撰寫指南及來源矛盾決定冊仍用於出題及核對，應繼續保留。
-
-## 溫習資料
-
-溫習資料由 [`revision/`](revision/README.md) 產生，只需 Python 3 標準程式庫：
-
-```bash
-python revision/pack_build.py dist/mso-revision-pack.html
-```
-
-各頁的結構、須遵守的規則及檢查工具，見 [`revision/README.md`](revision/README.md)。
-
-## 編寫流程
-
-[`docs/authoring/exam-prep/GUIDE.md`](docs/authoring/exam-prep/GUIDE.md) 是製作上述兩個檔案的方法，適用於任何考試：選取及核對來源文件、處理文件之間的矛盾、撰寫溫習資料及題庫、蒙著答案逐題覆核、以自動測試把關題庫，以及交付模擬試。考試格式是由使用者自訂的規格，所以技能內容不限於本考試；本倉庫是它的參考實作。技能以英文撰寫。
-
-任何代理或編輯器均可直接閱讀這份Markdown指南，不需要安裝外掛或使用特定指令。預覽伺服器使用標準指令`python -m http.server 8321 --bind 127.0.0.1 -d web`。方法版本記於指南說明；歷史`skill-vX.Y.Z`標籤保留作追溯，不觸發發佈。公開發佈仍須獲授權。
-
-| 版本 | 日期 | 首次發佈於 | 改動 |
-|---|---|---|---|
-| 2.3.0 | 2026年10月18日 | v1.9.0 | 新增來源考點覆蓋模式、條件／例外語義核對、圖頁及版本證據、歷史評分處理；尊重既定授權及項目規則，按風險選擇深入檢查，條件性的guard及工具說明移至references。 |
-| 2.2.0 | 2026年9月28日 | v1.7.5 | 新增：大規模覆核前，先以已判定的樣本校準機械篩選及較便宜的模型，並附本倉庫引文覆核的數字。 |
-| 2.1.0 | 2026年9月28日 | v1.7.4 | 在檢查清單加入只看選項的猜題程式，並加入本倉庫實行新檢查後的量度結果：已儲存決定答案的原文、趨同及呼應線索均在隨機水平，以及猜題程式的結果。 |
-| 2.0.0 | 2026年9月28日 | v1.7.4 | 改名為 `exam-prep`。除題庫外，亦涵蓋溫習資料及模擬試程式，並把考試格式改為由使用者自訂的規格。新增開工前須先問清楚的事項、來源矛盾的決定紀錄、與溫習資料對照核實、否定詞、呼應題幹及近似陳述等線索，以及交給子代理的指示範本。 |
-| 1.2.1 | 2026年9月28日 | v1.7.2 | 譯文中的「該X」可承接較前的陳述，或承接屬於X一類的事物。 |
-| 1.2.0 | 2026年9月27日 | v1.7.0 | 須證明每項檢查確實能夠失敗；譯文中的「該X」須承接題目已提及的對象。 |
-| 1.1.0 | 2026年9月21日 | v1.5.9 | 不以條文編號作考問對象：要問規定本身，不問條號。 |
-| 1.0.0 | 2026年9月7日 | v1.5.8 | 第一版，名為 `exam-question-bank`，只涵蓋題庫。 |
+更改被舊覆核綁定的文件時，先把原始位元組保存在不可改寫的存檔，再新增記錄連接新舊摘要。
+不得修改舊摘要來消除錯誤。舊溫習資料的原始碼仍與原覆核摘要核對，但不再日常重建。
 
 ## 發佈
 
-發佈以標籤觸發。推送以 `v` 開頭的標籤，會執行 [`release.yml`](.github/workflows/release.yml)：先 vet 及測試題庫，再從該 commit 產生檔案，連同由 `revision/` 產生的溫習資料一併附加到 GitHub release。測試在產生檔案之前執行，所以未通過檢查的標籤不會變成可供下載的版本。
-
-請使用附註標籤（annotated tag）：標籤的訊息會成為發佈說明，所以應寫明考生會留意到的改動。請保留 `--cleanup=whitespace`，否則 git 會刪去所有以 `#` 開頭的行，Markdown 標題亦包括在內。
+更新雙語 `CHANGELOG.md`、完成檢查並開啟 HTML，檢視及提交改動後推送分支。
+獲授權發佈時，把該版更新說明存成檔案，再建立未使用的新版本標籤：
 
 ```bash
 git tag -a vX.Y.Z --cleanup=whitespace -F notes.md
 git push origin vX.Y.Z
 ```
 
-目前保留 1,526 個已停用題號，包括這次移除的三題；不得重用。
-
-發佈前，更新 `CHANGELOG.md` 的雙語說明、題數及使用者可見改動；確認上述檢查全部通過，兩份 HTML 均可開啟。
-檢查 `git diff`，先提交並推送 `main`，再將 `vX.Y.Z` 換成未使用的新版本號。
-把該版本的說明另存為 `notes.md`，用上面的指令建立附註標籤並推送。
-在 GitHub Actions 確認 CI 及 Release 成功，再核對 Release 的兩個附件及下載連結。
-Git 標籤或推送成功本身不代表發佈成功。不可覆蓋已發佈標籤。
-本專案以 GitHub Release 提供離線 HTML；不需要另外部署伺服器。
+把 `vX.Y.Z` 換成實際版本。自動流程會檢查並從該次提交建立 `mso-ca.html`。
+確認 CI 及 Release 成功，再下載附件核對；不可覆蓋已發佈標籤。
+舊溫習資料仍可從既有版本及[存檔](revision/README.md)取回，後續版本只發佈考試 App。
+`dist/` 及 Python 快取是本機產物。

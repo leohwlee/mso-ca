@@ -30,7 +30,6 @@ have identical raw PDF bytes in both folders.
 PDF, DOCX and HTML hashes preserve raw bytes; Markdown hashes fold CRLF to LF.
 `extract_text.py` handles all 47 publications. `text_mode: companion` retains the
 previous companion extraction rules, preserving unchanged source text.
-`extract_related.py` remains a compatibility entry point for the same process.
 Image labels in `transcripts/15.json` stay bound to their exact source PDFs.
 
 The owner-selected active bank uses **01–26 only**, as recorded in
@@ -62,21 +61,7 @@ successor. Historical mappings are evidence only, not authoring lookups.
 
 Run `python docs/extract_text.py` (requires PyMuPDF) only when source originals change, and review the extracted differences. Ordinary documentation edits do not need re-extraction. See [Development](../DEVELOPMENT.md) for the complete build and release process and the [index](INDEX.md) for documentation navigation.
 
-```bash
-python docs/build_catalog.py --check
-go vet ./...
-go test ./...
-node --test tests/*.test.cjs
-python -m unittest discover -s tests -p '*_test.py'
-python bank/audit/active_scope.py --check
-python bank/audit/render_active_scope.py --check
-python bank/audit/report.py --check
-python bank/audit/terms_report.py --check
-python bank/audit/p1_report.py --check
-python bank/audit/remaining_report.py --check
-go run . -export-html dist/mso-ca.html
-python revision/pack_build.py dist/mso-revision-pack.html
-```
+The complete check and build commands are maintained in [Development](../DEVELOPMENT.md).
 
 The mock exam stores progress by question ID. Document renumbering does not change
 question IDs or saved answers. See [historical evidence](../bank/audit/history/README.md).
