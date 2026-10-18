@@ -2,8 +2,8 @@
 
     python bank/find.py <EN|TC> <doc|all> <phrase> [--context N]
 
-    python bank/find.py EN 02 "target market"
-    python bank/find.py TC 10 "顯眼地方" --context 300
+    python bank/find.py EN 03 "target market"
+    python bank/find.py TC 04 "顯眼地方" --context 300
 
 Matching ignores whitespace, case and line breaks (CJK text in the extracts
 breaks lines mid-word), so copy a distinctive 5-9 word phrase rather than a

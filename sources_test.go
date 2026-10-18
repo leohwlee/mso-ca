@@ -31,53 +31,53 @@ var docPatterns = map[string][]struct {
 }{
 	"en": {
 		{"01", regexp.MustCompile(`Guidance Notes`)},
-		{"02", regexp.MustCompile(`AML/CFT Guideline|Guideline for MSOs|\bGlossary\b`)},
-		{"03", regexp.MustCompile(`Licensing Guide`)},
-		{"04", regexp.MustCompile(`(?:^|[^y] )F&P Guideline|Criteria for Determining Fitness`)},
-		{"05", regexp.MustCompile(`Supplementary (?:F&P|Guideline on Fitness)`)},
-		{"06", regexp.MustCompile(`Business Plan`)},
-		{"07", regexp.MustCompile(`AML/CFT Policy`)},
-		{"08", regexp.MustCompile(`Pecuniary Penalty`)},
-		{"09", regexp.MustCompile(`Disciplinary Fining`)},
-		{"10", regexp.MustCompile(`AMLO|Cap\. ?615|(?:^|[\s;(,])ss?\.\s?\d|Sch(?:\.|edule) ?\d|\bPart \d`)},
-		{"11", regexp.MustCompile(`MIS_06/2018`)},
-		{"12", regexp.MustCompile(`MIS_05/2021`)},
-		{"13", regexp.MustCompile(`MIS_03/2023`)},
-		{"14", regexp.MustCompile(`MIS_01/2024`)},
-		{"15", regexp.MustCompile(`MIS_01/2025`)},
-		{"16", regexp.MustCompile(`MIS_02/2025`)},
-		{"17", regexp.MustCompile(`MIS_03/2025`)},
-		{"18", regexp.MustCompile(`MIS_04/2025`)},
-		{"19", regexp.MustCompile(`MIS_01/2026`)},
-		{"20", regexp.MustCompile(`FATF_02/2026`)},
-		{"21", regexp.MustCompile(`FATF_03/2026`)},
-		{"22", regexp.MustCompile(`\bFAQ\b`)},
-		{"23", regexp.MustCompile(`CA_01/2021|Sample Questions`)},
+		{"03", regexp.MustCompile(`AML/CFT Guideline|Guideline for MSOs|\bGlossary\b`)},
+		{"05", regexp.MustCompile(`Licensing Guide`)},
+		{"10", regexp.MustCompile(`(?:^|[^y] )F&P Guideline|Criteria for Determining Fitness`)},
+		{"11", regexp.MustCompile(`Supplementary (?:F&P|Guideline on Fitness)`)},
+		{"20", regexp.MustCompile(`Business Plan`)},
+		{"21", regexp.MustCompile(`AML/CFT Policy`)},
+		{"12", regexp.MustCompile(`Pecuniary Penalty`)},
+		{"13", regexp.MustCompile(`Disciplinary Fining`)},
+		{"04", regexp.MustCompile(`AMLO|Cap\. ?615|(?:^|[\s;(,])ss?\.\s?\d|Sch(?:\.|edule) ?\d|\bPart \d`)},
+		{"22", regexp.MustCompile(`MIS_06/2018`)},
+		{"14", regexp.MustCompile(`MIS_05/2021`)},
+		{"07", regexp.MustCompile(`MIS_03/2023`)},
+		{"08", regexp.MustCompile(`MIS_01/2024`)},
+		{"42", regexp.MustCompile(`MIS_01/2025`)},
+		{"15", regexp.MustCompile(`MIS_02/2025`)},
+		{"43", regexp.MustCompile(`MIS_03/2025`)},
+		{"16", regexp.MustCompile(`MIS_04/2025`)},
+		{"18", regexp.MustCompile(`MIS_01/2026`)},
+		{"19", regexp.MustCompile(`FATF_02/2026`)},
+		{"45", regexp.MustCompile(`FATF_03/2026`)},
+		{"06", regexp.MustCompile(`\bFAQ\b`)},
+		{"02", regexp.MustCompile(`CA_01/2021|Sample Questions`)},
 	},
 	"tc": {
 		{"01", regexp.MustCompile(`能力評核須知`)},
-		{"02", regexp.MustCompile(`《打擊洗錢及恐怖分子資金籌集指引》`)},
-		{"03", regexp.MustCompile(`《牌照指引》`)},
-		{"04", regexp.MustCompile(`《有關適當人選準則的指引》`)},
-		{"05", regexp.MustCompile(`補充指引》`)},
-		{"06", regexp.MustCompile(`《遞交業務計劃的指引》`)},
-		{"07", regexp.MustCompile(`《遞交打擊洗錢及恐怖分子資金籌集政策的指引》`)},
-		{"08", regexp.MustCompile(`《施加罰款紀律行動指引》`)},
-		{"09", regexp.MustCompile(`《紀律處分罰款指引》`)},
-		{"10", regexp.MustCompile(`《打擊洗錢條例》|第615章|附表\d|第\d+[A-Z]*(?:\([0-9A-Za-z]+\))*條`)},
-		{"11", regexp.MustCompile(`MIS_06/2018`)},
-		{"12", regexp.MustCompile(`MIS_05/2021`)},
-		{"13", regexp.MustCompile(`MIS_03/2023`)},
-		{"14", regexp.MustCompile(`MIS_01/2024`)},
-		{"15", regexp.MustCompile(`MIS_01/2025`)},
-		{"16", regexp.MustCompile(`MIS_02/2025`)},
-		{"17", regexp.MustCompile(`MIS_03/2025`)},
-		{"18", regexp.MustCompile(`MIS_04/2025`)},
-		{"19", regexp.MustCompile(`MIS_01/2026`)},
-		{"20", regexp.MustCompile(`FATF_02/2026`)},
-		{"21", regexp.MustCompile(`FATF_03/2026`)},
-		{"22", regexp.MustCompile(`常見問題`)},
-		{"23", regexp.MustCompile(`CA_01/2021|參考試題`)},
+		{"03", regexp.MustCompile(`《打擊洗錢及恐怖分子資金籌集指引》`)},
+		{"05", regexp.MustCompile(`《牌照指引》`)},
+		{"10", regexp.MustCompile(`《有關適當人選準則的指引》`)},
+		{"11", regexp.MustCompile(`補充指引》`)},
+		{"20", regexp.MustCompile(`《遞交業務計劃的指引》`)},
+		{"21", regexp.MustCompile(`《遞交打擊洗錢及恐怖分子資金籌集政策的指引》`)},
+		{"12", regexp.MustCompile(`《施加罰款紀律行動指引》`)},
+		{"13", regexp.MustCompile(`《紀律處分罰款指引》`)},
+		{"04", regexp.MustCompile(`《打擊洗錢條例》|第615章|附表\d|第\d+[A-Z]*(?:\([0-9A-Za-z]+\))*條`)},
+		{"22", regexp.MustCompile(`MIS_06/2018`)},
+		{"14", regexp.MustCompile(`MIS_05/2021`)},
+		{"07", regexp.MustCompile(`MIS_03/2023`)},
+		{"08", regexp.MustCompile(`MIS_01/2024`)},
+		{"42", regexp.MustCompile(`MIS_01/2025`)},
+		{"15", regexp.MustCompile(`MIS_02/2025`)},
+		{"43", regexp.MustCompile(`MIS_03/2025`)},
+		{"16", regexp.MustCompile(`MIS_04/2025`)},
+		{"18", regexp.MustCompile(`MIS_01/2026`)},
+		{"19", regexp.MustCompile(`FATF_02/2026`)},
+		{"45", regexp.MustCompile(`FATF_03/2026`)},
+		{"06", regexp.MustCompile(`常見問題`)},
+		{"02", regexp.MustCompile(`CA_01/2021|參考試題`)},
 	},
 }
 
@@ -168,12 +168,69 @@ func loadQuotes(t *testing.T) map[string]map[string]quoteSet {
 	return qs
 }
 
-// TestSourceTextsCurrent: every document in docs/EN and docs/TC has its
+// TestSourceTextsCurrent: every primary document, including archived ones, has its
 // extracted text in docs/text, taken from the file that is there now. A
 // document replaced without running docs/extract_text.py again would leave the
 // quote check comparing the bank with the old edition, which is the mistake
 // that let superseded circulars stay in the bank until September 2026.
 func TestSourceTextsCurrent(t *testing.T) {
+	// One document number is shared by filenames, quotes, text and transcripts.
+	catalogBytes, err := os.ReadFile(filepath.Join("docs", "catalog.json"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	type catalogEdition struct {
+		File   string
+		Path   string
+		SHA256 string `json:"sha256"`
+	}
+	var catalog struct {
+		Documents []struct {
+			ID       string
+			Priority string
+			Editions map[string]catalogEdition
+		}
+	}
+	if err := json.Unmarshal(catalogBytes, &catalog); err != nil {
+		t.Fatal(err)
+	}
+	sourceIDs := map[string]map[string]string{"EN": {}, "TC": {}}
+	sourcePaths := map[string]map[string]string{"EN": {}, "TC": {}}
+	originalHashes := map[string]string{}
+	ids := map[string]bool{}
+	ranks := map[string]int{"high": 1, "medium": 2, "low": 3}
+	lastRank := 0
+	for i, doc := range catalog.Documents {
+		if ids[doc.ID] || doc.ID != fmt.Sprintf("%02d", i+1) {
+			t.Fatalf("invalid document number in catalog: %+v", doc)
+		}
+		ids[doc.ID] = true
+		rank, ok := ranks[doc.Priority]
+		if !ok || rank < lastRank {
+			t.Fatalf("catalog is not in descending priority: %s", doc.ID)
+		}
+		lastRank = rank
+		for lang, edition := range doc.Editions {
+			if sourceIDs[lang] == nil {
+				sourceIDs[lang] = map[string]string{}
+				sourcePaths[lang] = map[string]string{}
+			}
+			name := edition.File
+			if filepath.Base(name) != name || !strings.HasPrefix(name, doc.ID+"_") || sourceIDs[lang][name] != "" {
+				t.Fatalf("invalid or duplicate catalog filename: %s/%s", lang, name)
+			}
+			sourceIDs[lang][name] = doc.ID
+			path := doc.Editions[lang].Path
+			if path == "" {
+				path = lang + "/" + name
+			}
+			if filepath.IsAbs(path) || strings.Contains(path, "..") {
+				t.Fatalf("invalid source path: %s", path)
+			}
+			sourcePaths[lang][name] = filepath.FromSlash(path)
+			originalHashes[filepath.FromSlash(path)] = edition.SHA256
+		}
+	}
 	b, err := os.ReadFile(filepath.Join("docs", "text", "manifest.json"))
 	if err != nil {
 		t.Fatalf("read docs/text/manifest.json: %v", err)
@@ -182,29 +239,22 @@ func TestSourceTextsCurrent(t *testing.T) {
 		Source           string `json:"source"`
 		SHA256           string `json:"sha256"`
 		TranscriptSHA256 string `json:"transcript_sha256"`
+		TextSHA256       string `json:"text_sha256"`
 	}
 	if err := json.Unmarshal(b, &manifest); err != nil {
 		t.Fatalf("parse docs/text/manifest.json: %v", err)
 	}
 	seen := map[string]bool{}
-	for _, lang := range []string{"EN", "TC"} {
-		entries, err := os.ReadDir(filepath.Join("docs", lang))
-		if err != nil {
-			t.Fatal(err)
-		}
-		for _, e := range entries {
-			name := e.Name()
-			if len(name) < 3 || name[2] != '_' || name[0] < '0' || name[0] > '9' {
-				continue
-			}
-			key := lang + "/" + name[:2] + ".txt"
+	for lang, sources := range sourceIDs {
+		for name, num := range sources {
+			key := lang + "/" + num + ".txt"
 			seen[key] = true
 			m, ok := manifest[key]
 			if !ok || m.Source != name {
 				t.Errorf("docs/%s/%s has no extracted text (run python docs/extract_text.py)", lang, name)
 				continue
 			}
-			src, err := os.ReadFile(filepath.Join("docs", lang, name))
+			src, err := os.ReadFile(filepath.Join("docs", sourcePaths[lang][name]))
 			if err != nil {
 				t.Fatal(err)
 			}
@@ -218,7 +268,15 @@ func TestSourceTextsCurrent(t *testing.T) {
 			if fi, err := os.Stat(filepath.Join("docs", "text", key)); err != nil || fi.Size() == 0 {
 				t.Errorf("docs/text/%s is missing or empty", key)
 			}
-			transcriptPath := filepath.Join("docs", "transcripts", name[:2]+".json")
+			text, err := os.ReadFile(filepath.Join("docs", "text", key))
+			if err != nil {
+				t.Fatal(err)
+			}
+			text = bytes.ReplaceAll(text, []byte("\r\n"), []byte("\n"))
+			if sum := sha256.Sum256(text); hex.EncodeToString(sum[:]) != m.TextSHA256 {
+				t.Errorf("docs/text/%s changed since extraction", key)
+			}
+			transcriptPath := filepath.Join("docs", "transcripts", num+".json")
 			transcript, transcriptErr := os.ReadFile(transcriptPath)
 			if transcriptErr == nil {
 				transcript = bytes.ReplaceAll(transcript, []byte("\r\n"), []byte("\n"))
@@ -240,10 +298,43 @@ func TestSourceTextsCurrent(t *testing.T) {
 				t.Errorf("read image transcript %s: %v", transcriptPath, transcriptErr)
 			}
 		}
+		entries, err := os.ReadDir(filepath.Join("docs", lang))
+		if os.IsNotExist(err) {
+			continue // BI/ZH reference editions live only under archive/.
+		}
+		if err != nil {
+			t.Fatal(err)
+		}
+		for _, entry := range entries {
+			path := filepath.Join(lang, entry.Name())
+			if entry.IsDir() || sourcePaths[lang][entry.Name()] != path {
+				t.Errorf("unregistered reading file: docs/%s", path)
+			}
+		}
+	}
+	for path, expected := range originalHashes {
+		raw, err := os.ReadFile(filepath.Join("docs", path))
+		if err != nil {
+			t.Fatal(err)
+		}
+		sum := sha256.Sum256(raw)
+		if strings.HasSuffix(path, ".md") {
+			sum = sha256.Sum256(bytes.ReplaceAll(raw, []byte("\r\n"), []byte("\n")))
+		}
+		if hex.EncodeToString(sum[:]) != expected {
+			t.Errorf("official original changed: docs/%s", path)
+		}
 	}
 	for key := range manifest {
 		if !seen[key] {
 			t.Errorf("docs/text/%s comes from a document no longer in docs/", key)
+		}
+	}
+	for _, doc := range catalog.Documents {
+		for lang := range doc.Editions {
+			if !seen[lang+"/"+doc.ID+".txt"] {
+				t.Errorf("catalog source %s/%s has no archived document and extracted text", lang, doc.ID)
+			}
 		}
 	}
 }
@@ -343,26 +434,34 @@ func TestQuotesFromCitedSources(t *testing.T) {
 }
 
 // TestCitedCircularsAreCurrent: every circular a question names is one of the
-// current documents listed in docs/README.md. In September 2026 ten circulars
+// reviewed bank sources in catalog.json. A study-priority archive is not a
+// withdrawal finding. In September 2026 ten circulars
 // that later documents had overtaken were removed from docs/, and 49 questions
 // that cited them had to be re-cited or re-aimed; this keeps a removed
 // circular's number from coming back through a new or edited question.
 func TestCitedCircularsAreCurrent(t *testing.T) {
-	readme, err := os.ReadFile(filepath.Join("docs", "README.md"))
+	raw, err := os.ReadFile(filepath.Join("docs", "catalog.json"))
 	if err != nil {
 		t.Fatal(err)
 	}
 	number := regexp.MustCompile(`MSSB/[A-Z]+_\d+/\d{4}`)
 	current := map[string]bool{}
-	for _, line := range strings.Split(string(readme), "\n") {
-		if strings.HasPrefix(line, "| ") { // the table of documents
-			for _, n := range number.FindAllString(line, -1) {
-				current[n] = true
-			}
+	var catalog struct {
+		Documents []struct {
+			Circular           string
+			OriginalBankSource bool `json:"original_bank_source"`
+		}
+	}
+	if err := json.Unmarshal(raw, &catalog); err != nil {
+		t.Fatal(err)
+	}
+	for _, doc := range catalog.Documents {
+		if doc.OriginalBankSource && number.MatchString(doc.Circular) {
+			current[doc.Circular] = true
 		}
 	}
 	if len(current) == 0 {
-		t.Fatal("found no circular numbers in the table in docs/README.md")
+		t.Fatal("found no reviewed bank circulars in docs/catalog.json")
 	}
 	for _, q := range loadBank(t) {
 		for lang, l := range map[string]qLang{"en": q.En, "tc": q.Tc} {
@@ -373,7 +472,7 @@ func TestCitedCircularsAreCurrent(t *testing.T) {
 			for _, f := range append(l.fields(), source) {
 				for _, n := range number.FindAllString(f, -1) {
 					if !current[n] {
-						t.Errorf("%s (%s): cites circular %s, which is not among the current documents in docs/README.md", q.ID, lang, n)
+						t.Errorf("%s (%s): cites circular %s, which is not a reviewed bank source in docs/catalog.json", q.ID, lang, n)
 					}
 				}
 			}
@@ -396,9 +495,27 @@ func TestNoOtherLanguageText(t *testing.T) {
 	latin := regexp.MustCompile(`[A-Za-z]{2,}`)
 
 	var tcSources strings.Builder
-	texts, err := filepath.Glob(filepath.Join("docs", "text", "TC", "*.txt"))
-	if err != nil || len(texts) == 0 {
-		t.Fatalf("no Chinese source texts in docs/text/TC (run python docs/extract_text.py): %v", err)
+	raw, err := os.ReadFile(filepath.Join("docs", "catalog.json"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	var catalog struct {
+		Documents []struct {
+			ID                 string
+			OriginalBankSource bool `json:"original_bank_source"`
+		}
+	}
+	if err := json.Unmarshal(raw, &catalog); err != nil {
+		t.Fatal(err)
+	}
+	var texts []string
+	for _, doc := range catalog.Documents {
+		if doc.OriginalBankSource {
+			texts = append(texts, filepath.Join("docs", "text", "TC", doc.ID+".txt"))
+		}
+	}
+	if len(texts) == 0 {
+		t.Fatal("no Chinese question-bank source texts")
 	}
 	for _, path := range texts {
 		b, err := os.ReadFile(path)
@@ -451,7 +568,7 @@ func TestOfficialWording(t *testing.T) {
 		}
 		for _, lang := range []string{"en", "tc"} {
 			l := q.side(lang)
-			sample := header.Replace(sourceText(t, lang, "23"))
+			sample := header.Replace(sourceText(t, lang, "02"))
 			for _, text := range append([]string{l.Q}, l.Statements...) {
 				k := matchKey(text)
 				if !strings.Contains(sample, k) && !strings.Contains(sourceText(t, lang, "01"), k) {

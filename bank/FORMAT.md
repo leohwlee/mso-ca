@@ -31,7 +31,7 @@ about that shape, the schema an item follows, and the rules a writer works to.
 | Option layout | "All of the above" (以上皆是) or "None of the above" (以上皆非), when present, is always option e). The other options list statement numbers. |
 | Statement order | The app shuffles the statements of every item at every draw and renumbers the options to match, so a letter cannot be memorised. Every statement has its own explanation without positional references. |
 | Retired | The 1,206 four-option items and 303 superseded combination items are out of the app. Their ids remain reserved in `bank/retired-ids.json`; their text and quotes are preserved in Git at `v1.7.5`. The remaining 38 old combination items have been migrated in place with their ids retained. |
-| Sources | The 23 documents in `docs/` (the five categories of Guidance Notes ¶6.1). C&ED's seminar slides were considered on 17 October 2026 and left out. |
+| Sources | The current bank uses the original 23 sources (the five categories of Guidance Notes ¶6.1; document numbers follow the reading directory). On 18 October 2026 the owner authorised a broader, ordered reading archive in `docs/`, including supplementary materials and seminar slides. The additions are reading materials; they have not been incorporated into the bank or its coverage audit. |
 
 ## Schema
 
@@ -67,11 +67,21 @@ about that shape, the schema an item follows, and the rules a writer works to.
 - `fixed` is no longer used: all items have independent notes and may be reordered.
 - `official` marks C&ED's own sample items, kept verbatim.
 - Quotes live in `docs/quotes.json`: one per statement and language,
-  `{"doc": "02", "text": "…"}`, copied verbatim from `docs/text/`. For a true
+  `{"doc": "03", "text": "…"}`, copied verbatim from `docs/text/`. For a true
   statement it is the passage that supports it; for a false one, the passage
   it departs from.
 
 ## Writing an item
+
+Quote `doc` values are the document numbers in the reading directory and filename
+prefixes: `03` is the AML/CFT Guideline and `04` is Cap. 615. Read
+[source maintenance](../docs/SOURCE-MAINTENANCE.md) and use `docs/catalog.json`
+before working with a source or added reading material. There is no second ID.
+
+Daily publications and companions use continuous numbers 01–26: High 01–09,
+Medium Essential 10–19, Medium Selected 20–26. Reference publications continue
+as 27–47. These numbers also identify quotes and extracted text; no second
+source ID is maintained.
 
 **The stem** names a topic in words, as C&ED's stems do: "Which of the
 following are correct about…", "…should include:", "Which of the following
@@ -120,7 +130,7 @@ citation, each language's own official terms, no word from the other language.
 ## Tools
 
 ```bash
-python bank/find.py EN 02 "target market"       # find a passage in a source, with page and context
+python bank/find.py EN 03 "target market"       # find a passage in a source, with page and context
 python bank/apply.py next 3 15                  # the next 15 unused ids in module 3
 python bank/apply.py check patch.json           # validate a patch of new or changed items
 python bank/apply.py apply patch.json           # generate options, merge into the bank and quotes

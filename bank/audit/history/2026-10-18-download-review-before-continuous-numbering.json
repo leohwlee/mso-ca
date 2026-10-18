@@ -1,0 +1,744 @@
+{
+  "date": "2026-10-18",
+  "method": "Read both language text extracts and PDF URI annotations, then follow direct publication links. Embedded appendices checked by page count. Existing main documents are linked without duplicates.",
+  "checked_documents": [
+    "02",
+    "07",
+    "08",
+    "09",
+    "16",
+    "17",
+    "18",
+    "19",
+    "21",
+    "23",
+    "24",
+    "26",
+    "29",
+    "30",
+    "31",
+    "32"
+  ],
+  "pdf_edition_records": [
+    {
+      "document": "02",
+      "language": "EN",
+      "file": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf",
+      "pages": 4,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_en.pdf"
+        },
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_en.pdf"
+        },
+        {
+          "page": 2,
+          "url": "https://www.elegislation.gov.hk/hk/cap615"
+        },
+        {
+          "page": 2,
+          "url": "https://www.elegislation.gov.hk/hk/cap615"
+        },
+        {
+          "page": 3,
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Licensing_Guide_en.pdf"
+        },
+        {
+          "page": 3,
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_en.pdf"
+        },
+        {
+          "page": 4,
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_en.pdf"
+        },
+        {
+          "page": 4,
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_en.pdf"
+        }
+      ]
+    },
+    {
+      "document": "02",
+      "language": "TC",
+      "file": "02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+      "pages": 4,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_zh_TW.pdf"
+        },
+        {
+          "page": 2,
+          "url": "https://www.elegislation.gov.hk/hk/cap615!en-zh-Hant-HK?xpid=ID_1438403529276_001&SEARCH_WITHIN_CAP_TXT=Part%205"
+        },
+        {
+          "page": 2,
+          "url": "https://www.elegislation.gov.hk/hk/cap615!en-zh-Hant-HK?INDEX_CS=N&xpid=ID_1438403530197_001"
+        },
+        {
+          "page": 3,
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Licensing_Guide_zh_TW.pdf"
+        },
+        {
+          "page": 3,
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_zh_TW.pdf"
+        },
+        {
+          "page": 4,
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_zh_TW.pdf"
+        },
+        {
+          "page": 4,
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_zh_TW.pdf"
+        }
+      ]
+    },
+    {
+      "document": "07",
+      "language": "EN",
+      "file": "07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf",
+      "pages": 5,
+      "links": []
+    },
+    {
+      "document": "07",
+      "language": "TC",
+      "file": "07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf",
+      "pages": 5,
+      "links": []
+    },
+    {
+      "document": "08",
+      "language": "EN",
+      "file": "08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf",
+      "pages": 7,
+      "links": [
+        {
+          "page": 1,
+          "url": "http://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/bumen/202407/content_6961469.htm"
+        },
+        {
+          "page": 4,
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=400637"
+        },
+        {
+          "page": 4,
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=323201"
+        }
+      ]
+    },
+    {
+      "document": "08",
+      "language": "TC",
+      "file": "08_高_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf",
+      "pages": 6,
+      "links": [
+        {
+          "page": 1,
+          "url": "http://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/bumen/202407/content_6961469.htm"
+        },
+        {
+          "page": 3,
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=400636"
+        },
+        {
+          "page": 3,
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=323202"
+        },
+        {
+          "page": 3,
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=323202"
+        }
+      ]
+    },
+    {
+      "document": "09",
+      "language": "EN",
+      "file": "09_High_Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021).pdf",
+      "pages": 2,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=166599"
+        },
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=313566"
+        }
+      ]
+    },
+    {
+      "document": "09",
+      "language": "TC",
+      "file": "09_高_通函_識別和緩解大殺傷力武器擴散融資風險（2021年12月22日）.pdf",
+      "pages": 2,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=166600"
+        },
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=313567"
+        }
+      ]
+    },
+    {
+      "document": "16",
+      "language": "EN",
+      "file": "16_Medium_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf",
+      "pages": 2,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=166599"
+        }
+      ]
+    },
+    {
+      "document": "16",
+      "language": "TC",
+      "file": "16_中_通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）.pdf",
+      "pages": 2,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=166600"
+        }
+      ]
+    },
+    {
+      "document": "17",
+      "language": "EN",
+      "file": "17_Medium_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf",
+      "pages": 1,
+      "links": []
+    },
+    {
+      "document": "17",
+      "language": "TC",
+      "file": "17_中_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf",
+      "pages": 1,
+      "links": []
+    },
+    {
+      "document": "18",
+      "language": "EN",
+      "file": "18_Medium_Circular - E-submission of the Periodic Return (30 May 2025).pdf",
+      "pages": 5,
+      "links": [
+        {
+          "page": 2,
+          "url": "https://eservices.customs.gov.hk/MSOS/wnr/001s0"
+        },
+        {
+          "page": 2,
+          "url": "mailto:mso_feedback@customs.gov.hk"
+        }
+      ]
+    },
+    {
+      "document": "18",
+      "language": "TC",
+      "file": "18_中_通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）.pdf",
+      "pages": 5,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/wnr/001s0"
+        },
+        {
+          "page": 2,
+          "url": "mailto:mso_feedback@customs.gov.hk"
+        }
+      ]
+    },
+    {
+      "document": "19",
+      "language": "EN",
+      "file": "19_Medium_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf",
+      "pages": 1,
+      "links": []
+    },
+    {
+      "document": "19",
+      "language": "TC",
+      "file": "19_中_通函_貨幣兌換商條例第34章之修訂（2025年11月17日）.pdf",
+      "pages": 1,
+      "links": []
+    },
+    {
+      "document": "21",
+      "language": "EN",
+      "file": "21_Medium_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
+      "pages": 3,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/reports/Trade-Based-Money-Laundering-Risk-Indicators.pdf"
+        },
+        {
+          "page": 1,
+          "url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/reports/Trade-Based-Money-Laundering-Risk-Indicators.pdf"
+        }
+      ]
+    },
+    {
+      "document": "21",
+      "language": "TC",
+      "file": "21_中_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf",
+      "pages": 2,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/reports/Trade-Based-Money-Laundering-Risk-Indicators.pdf"
+        },
+        {
+          "page": 1,
+          "url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/reports/Trade-Based-Money-Laundering-Risk-Indicators.pdf"
+        }
+      ]
+    },
+    {
+      "document": "23",
+      "language": "EN",
+      "file": "23_Medium_Circular - Statements issued by the FATF (3 Jul 2026).pdf",
+      "pages": 3,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/call-for-action-june-2026.html"
+        },
+        {
+          "page": 1,
+          "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/call-for-action-june-2026.html"
+        },
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=484407"
+        },
+        {
+          "page": 2,
+          "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-june-2026.html"
+        },
+        {
+          "page": 2,
+          "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-june-2026.html"
+        },
+        {
+          "page": 2,
+          "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Fatfgeneral/outcomes-fatf-plenary-june-2026.html"
+        },
+        {
+          "page": 2,
+          "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Fatfgeneral/outcomes-fatf-plenary-june-2026.html"
+        },
+        {
+          "page": 2,
+          "url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/recommendations/fatf-recommendations-2012.pdf#page=92"
+        }
+      ]
+    },
+    {
+      "document": "23",
+      "language": "TC",
+      "file": "23_中_通函_財務行動特別組織的聲明（2026年7月3日）.pdf",
+      "pages": 3,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/call-for-action-june-2026.html"
+        },
+        {
+          "page": 1,
+          "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/call-for-action-june-2026.html"
+        },
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=484408"
+        },
+        {
+          "page": 2,
+          "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-june-2026.html"
+        },
+        {
+          "page": 2,
+          "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-june-2026.html"
+        },
+        {
+          "page": 2,
+          "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Fatfgeneral/outcomes-fatf-plenary-june-2026.html"
+        },
+        {
+          "page": 2,
+          "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Fatfgeneral/outcomes-fatf-plenary-june-2026.html"
+        },
+        {
+          "page": 2,
+          "url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/recommendations/fatf-recommendations-2012.pdf#page=92"
+        },
+        {
+          "page": 2,
+          "url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/recommendations/fatf-recommendations-2012.pdf#page=92"
+        }
+      ]
+    },
+    {
+      "document": "24",
+      "language": "EN",
+      "file": "24_Medium_Circular - Publication of Hong Kong Risk Assessment Report (11 Jul 2022).pdf",
+      "pages": 1,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.fstb.gov.hk/fsb/aml/en/risk-assessment.htm"
+        },
+        {
+          "page": 1,
+          "url": "https://www.fstb.gov.hk/fsb/aml/en/risk-assessment.htm"
+        },
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/common/notices"
+        }
+      ]
+    },
+    {
+      "document": "24",
+      "language": "TC",
+      "file": "24_中_通函_公布香港洗錢及恐怖分子資金籌集風險評估報告（2022年7月11日）.pdf",
+      "pages": 1,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.fstb.gov.hk/fsb/aml/tc/risk-assessment.htm"
+        },
+        {
+          "page": 1,
+          "url": "https://eservices.customs.gov.hk/MSOS/common/notices?request_locale=zh_TW"
+        }
+      ]
+    },
+    {
+      "document": "26",
+      "language": "EN",
+      "file": "26_Medium_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf",
+      "pages": 3,
+      "links": [
+        {
+          "page": 2,
+          "url": "https://www.un.org/sc/suborg/en/sanctions/information"
+        },
+        {
+          "page": 3,
+          "url": "http://www.un.org/en/ga/search/view_doc.asp?symbol=S/RES/2270%282016%29"
+        },
+        {
+          "page": 3,
+          "url": "http://www.un.org/en/ga/search/view_doc.asp?symbol=S/RES/2321%282016%29"
+        },
+        {
+          "page": 3,
+          "url": "http://www.un.org/ga/search/view_doc.asp?symbol=S/RES/2371%282017%29"
+        },
+        {
+          "page": 3,
+          "url": "https://www.un.org/ga/search/view_doc.asp?symbol=S/RES/2375%282017%29"
+        },
+        {
+          "page": 3,
+          "url": "https://www.un.org/ga/search/view_doc.asp?symbol=S/RES/2397%282017%29"
+        }
+      ]
+    },
+    {
+      "document": "26",
+      "language": "TC",
+      "file": "26_中_通函_聯合國制裁_原則及預警機制（2018年2月7日）.pdf",
+      "pages": 3,
+      "links": [
+        {
+          "page": 2,
+          "url": "https://www.un.org/sc/suborg/zh/sanctions/information"
+        },
+        {
+          "page": 3,
+          "url": "http://www.un.org/en/ga/search/view_doc.asp?symbol=S/RES/2270(2016)&referer=/english/&Lang=C"
+        },
+        {
+          "page": 3,
+          "url": "http://www.un.org/en/ga/search/view_doc.asp?symbol=S/RES/2270(2016)&referer=/english/&Lang=C"
+        },
+        {
+          "page": 3,
+          "url": "http://www.un.org/en/ga/search/view_doc.asp?symbol=S/RES/2321(2016)&referer=/english/&Lang=C"
+        },
+        {
+          "page": 3,
+          "url": "http://www.un.org/en/ga/search/view_doc.asp?symbol=S/RES/2321(2016)&referer=/english/&Lang=C"
+        },
+        {
+          "page": 3,
+          "url": "http://www.un.org/ga/search/view_doc.asp?symbol=S/RES/2371(2017)&referer=/english/&Lang=C"
+        },
+        {
+          "page": 3,
+          "url": "https://www.un.org/ga/search/view_doc.asp?symbol=S/RES/2375(2017)&referer=/english/&Lang=C"
+        },
+        {
+          "page": 3,
+          "url": "https://www.un.org/ga/search/view_doc.asp?symbol=S/RES/2397(2017)&referer=/english/&Lang=C"
+        }
+      ]
+    },
+    {
+      "document": "29",
+      "language": "EN",
+      "file": "29_Low_Circular - ML-TF Institutional Risk Assessment (13 Aug 2018).pdf",
+      "pages": 1,
+      "links": []
+    },
+    {
+      "document": "29",
+      "language": "TC",
+      "file": "29_低_通函_機構層面的洗錢及恐怖分子資金籌集風險評估（2018年8月13日）.pdf",
+      "pages": 1,
+      "links": []
+    },
+    {
+      "document": "30",
+      "language": "EN",
+      "file": "30_Low_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf",
+      "pages": 1,
+      "links": []
+    },
+    {
+      "document": "30",
+      "language": "TC",
+      "file": "30_低_通函_與金錢服務經營者有關的欺詐網站及社交媒體平台（2025年4月24日）.pdf",
+      "pages": 1,
+      "links": []
+    },
+    {
+      "document": "31",
+      "language": "EN",
+      "file": "31_Low_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf",
+      "pages": 1,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.cedp.customs.gov.hk/index_en.html"
+        },
+        {
+          "page": 1,
+          "url": "https://www.customs.gov.hk/hcms/filemanager/common/pdf/cbni/user_manual_edm_en.pdf"
+        },
+        {
+          "page": 1,
+          "url": "https://www.customs.gov.hk/hcms/filemanager/common/pdf/cbni/user_manual_edm_en.pdf"
+        },
+        {
+          "page": 1,
+          "url": "mailto:customs_ficd_cfib@customs.gov.hk"
+        }
+      ]
+    },
+    {
+      "document": "31",
+      "language": "TC",
+      "file": "31_低_通函_提交旅客資料電子表格（現金類物品）（2025年6月23日）.pdf",
+      "pages": 1,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.cedp.customs.gov.hk/index_tc.html"
+        },
+        {
+          "page": 1,
+          "url": "https://www.customs.gov.hk/hcms/filemanager/common/pdf/cbni/user_manual_edm_tc.pdf"
+        },
+        {
+          "page": 1,
+          "url": "https://www.customs.gov.hk/hcms/filemanager/common/pdf/cbni/user_manual_edm_tc.pdf"
+        },
+        {
+          "page": 1,
+          "url": "mailto:customs_ficd_cfib@customs.gov.hk"
+        }
+      ]
+    },
+    {
+      "document": "32",
+      "language": "EN",
+      "file": "32_Low_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf",
+      "pages": 1,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/R16-Public-Consultation-June-2026.html"
+        },
+        {
+          "page": 1,
+          "url": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/R16-Public-Consultation-June-2026.html"
+        }
+      ]
+    },
+    {
+      "document": "32",
+      "language": "TC",
+      "file": "32_低_通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）.pdf",
+      "pages": 1,
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/R16-Public-Consultation-June-2026.html"
+        },
+        {
+          "page": 1,
+          "url": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/R16-Public-Consultation-June-2026.html"
+        }
+      ]
+    }
+  ],
+  "archived_publications": 15,
+  "archived_files": 22,
+  "exceptions": [
+    {
+      "document": "19",
+      "material": "Full Cap. 34 verified PDF",
+      "status": "resolved_user_download",
+      "note": "Complete bilingual verified PDF supplied by the user; cover, edition, page count, text, schedules and verified-copy markings checked. Original bytes preserved.",
+      "previous_status": "unavailable",
+      "previous_note": "Browser confirmed version 24 August 2025; website client checks returned HTML, and clicking the verified PDF link did not yield a saved file. Item 20 remains a Schedules 2/3 extract.",
+      "resolved_on": "2026-10-18"
+    },
+    {
+      "document": "17",
+      "material": "Full Cap. 629 PDF",
+      "status": "resolved_user_download",
+      "note": "Complete bilingual verified PDF supplied by the user; cover, edition, page count, text, schedules and verified-copy markings checked. Original bytes preserved.",
+      "previous_status": "unavailable",
+      "previous_note": "Direct official request returned a client-check HTML page, not a PDF.",
+      "resolved_on": "2026-10-18"
+    },
+    {
+      "document": "23",
+      "material": "Two statements dated 19 June 2026 and June plenary outcomes",
+      "status": "online_only",
+      "note": "Official webpages verified through web tools; terminal requests returned 403 and browser download did not produce files. Only online links are recorded, not local publications."
+    }
+  ],
+  "language_notes": [
+    "PF webinar EN/TC endpoints return identical bilingual PDF bytes; stored once.",
+    "UN Chinese originals use Simplified Chinese, not Traditional Chinese.",
+    "FATF originals and R.16 draft are English; no verified Traditional Chinese editions added."
+  ],
+  "download_retries": [
+    {
+      "date": "2026-10-18",
+      "purpose": "Retry the five publications that were not archived in the first pass.",
+      "result": "No additional complete original files saved; 13 companion publications and 20 original files remain archived.",
+      "materials": [
+        {
+          "document": "19",
+          "material": "Full Cap. 34 verified PDF",
+          "url": "https://www.elegislation.gov.hk/hk/cap34",
+          "status": "not_downloaded",
+          "browser_version": "2025-08-24",
+          "attempts": [
+            "Direct request returned a client-configuration HTML page rather than a PDF.",
+            "Compatibility-form requests returned HTTP 502.",
+            "Official verified bilingual PDF control was clicked in the browser; no saved download was produced."
+          ]
+        },
+        {
+          "document": "17",
+          "material": "Full Cap. 629 PDF",
+          "url": "https://www.elegislation.gov.hk/hk/cap629",
+          "status": "not_downloaded",
+          "browser_version": "2026-07-31",
+          "attempts": [
+            "Compatibility-form requests returned HTTP 502.",
+            "Browser loaded the ordinance body and official download controls.",
+            "Official verified bilingual PDF control was clicked in the browser; no saved download was produced."
+          ]
+        },
+        {
+          "document": "23",
+          "material": "High-Risk Jurisdictions subject to a Call for Action - 19 June 2026",
+          "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/call-for-action-june-2026.html",
+          "status": "not_downloaded",
+          "http_status": 403
+        },
+        {
+          "document": "23",
+          "material": "Jurisdictions under Increased Monitoring - 19 June 2026",
+          "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-june-2026.html",
+          "status": "not_downloaded",
+          "http_status": 403
+        },
+        {
+          "document": "23",
+          "material": "Outcomes FATF Plenary, 17-19 June 2026",
+          "url": "https://www.fatf-gafi.org/en/publications/Fatfgeneral/outcomes-fatf-plenary-june-2026.html",
+          "status": "not_downloaded",
+          "http_status": 403
+        }
+      ],
+      "additional_checks": [
+        "All three FATF pages were readable through the web retrieval tool. The high-risk page also loaded in the browser after an automatic verification screen; this did not yield an original webpage download.",
+        "The alternate FATF high-risk URL cited in SFC circular 26EC39 was checked; its direct download also returned HTTP 403.",
+        "Error pages, client-configuration pages and incomplete downloads were not added to the publication archive. No reconstructed article was presented as an original download."
+      ],
+      "direct_request_results": [
+        {
+          "file": "fatf-high-risk.html",
+          "returncode": 0,
+          "response": "403 https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/call-for-action-june-2026.html",
+          "bytes": 6008
+        },
+        {
+          "file": "fatf-increased-monitoring.html",
+          "returncode": 0,
+          "response": "403 https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-june-2026.html",
+          "bytes": 6044
+        },
+        {
+          "file": "fatf-plenary.html",
+          "returncode": 0,
+          "response": "403 https://www.fatf-gafi.org/en/publications/Fatfgeneral/outcomes-fatf-plenary-june-2026.html",
+          "bytes": 5887
+        },
+        {
+          "file": "cap34-response.html",
+          "returncode": 0,
+          "response": "200 https://www.elegislation.gov.hk/checkconfig/checkClientConfig.jsp?applicationId=RA001",
+          "bytes": 7562
+        }
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "date": "2026-10-18",
+      "documents": [
+        "17",
+        "19"
+      ],
+      "acquisition": "User-provided official downloads; earlier automatic-download failures retained as history.",
+      "source_files": {
+        "docs/related/19/Cap_34_Full_Ordinance_2025-08-24_雙語.pdf": "2df063baeef154c0c8e5a0a29bb38daefb9613537aa18d75d64f4d9bedc45335",
+        "docs/related/17/Cap_629_Full_Ordinance_2026-07-31_雙語.pdf": "711f86925ad0c6dba6ae5771089d55236aaba614fbabab3065e5d8e341f25d17"
+      },
+      "remaining_not_archived": [
+        "FATF high-risk statement, 19 June 2026",
+        "FATF increased-monitoring statement, 19 June 2026",
+        "FATF plenary outcomes, 17-19 June 2026"
+      ]
+    }
+  ],
+  "unarchived_publications": 3
+}

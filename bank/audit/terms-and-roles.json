@@ -6,105 +6,105 @@
     "questions": 299,
     "statements": 1507,
     "sha256": {
-      "docs/EN/01_Guidance Notes on the Competence Assessment (Dec 2022).pdf": "10558bec35a5923cb07c38ed0990ce34022c3eb25806948778fe6b4a7ab87abc",
-      "docs/EN/02_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf": "7a7b81ec6880a0e22c1d3e116f1016109dc6b54c33726e6a57fb1cff5d06eabc",
-      "docs/EN/03_Licensing Guide (May 2026).pdf": "4aeb27ada3f04608da427833ebd564000c3fe3b788fd1d183a63ca04168005e8",
-      "docs/EN/04_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf": "3d829e7a475c0d6b27cecb9606963d6aae7d3cdf0857902a219502ef42116f38",
-      "docs/EN/05_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf": "cb03247dcc6e9149f5371ad1f3a21fa763e827e1fa8cc6c4697c7a6754c3da38",
-      "docs/EN/06_Guidelines for Submission of Business Plan (Ver 12-2019).pdf": "519dadf3e1ec660e3aa50c4669d91ed997712f69551f8f12b02f84d2bd228e9f",
-      "docs/EN/07_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf": "ba9101df763fe866fd27bf377819d45c02c4431576a89fe4bb8aa24e0addcf27",
-      "docs/EN/08_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf": "6aeee39af0848ac03d989ed2500f6fd8f4947b342fa26b23371d0f51e816a1ca",
-      "docs/EN/09_Disciplinary Fining Guideline (May 2018).pdf": "c098efdd38e152fd2357942e62958be9c32c3061874a1b0c076daedd5f0bba96",
-      "docs/EN/10_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf": "2b5b00d7dc706169b1b2e292136649612f9fbb73b39332eb80dc1a4cf926474a",
-      "docs/EN/11_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf": "f07cc3caa50fe51e5524c7d10ed2670cfcd7f0ac70c9a016a1508049f15b4ff0",
-      "docs/EN/12_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf": "cb231fca14b55843357f7e6e4352ca30536abd58f56a399a33a6b9b97f32ab00",
-      "docs/EN/13_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf": "9921ff297a49cef0543c3df126d07c3bb2befc8f1e7a6e33d62674e81bb0c979",
-      "docs/EN/14_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf": "ba02a8d811184ff6a960e4c9b2ab1e2c63dbaf3e50f1ce9b12e4fd438320056c",
-      "docs/EN/15_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf": "fbeb22630cab6aa2e859321d295df7bb874516e0f646749caa75417feacc914b",
-      "docs/EN/16_Circular - E-submission of the Periodic Return (30 May 2025).pdf": "bb0408f2cea27a76c154f750479ee777ccc9859a20800ad44e690117660ce381",
-      "docs/EN/17_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf": "f58314d3d5139c6a68e4308e4953cc1a5676cdf0d7a332b7c1ce5e513c550d7c",
-      "docs/EN/18_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf": "77516f642ee66d9b4027f2dbaa95e3771556d200df97fd0b924526e7fcc38cd3",
-      "docs/EN/19_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf": "86181d4d0a0990aa7e8a17a489f23ed59e2f9722ba5cb821a381976e45a52c84",
-      "docs/EN/20_Circular - Statements issued by the FATF (3 Jul 2026).pdf": "fbc823bdf739af3f02e9336c93c48169c0acd9eb7815274394b7b44bb0d2d6d8",
-      "docs/EN/21_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf": "068cbb0780c2e51752b136eee5aa3784153a1d551e7fd67a29a605b88897c47c",
-      "docs/EN/22_FAQ applicable to all MSOs (C&ED portal).md": "6dfc89dcf0a37665144cc501ffd64ba8df004121e35a3f5c14a4aa19e3c78264",
-      "docs/EN/23_Competence Assessment - Sample Questions (12 May 2021).pdf": "7b53caa350ae2b9423457bfe29e3e03f9bbdc99560f062f853ff1c99b58efef6",
-      "docs/TC/01_能力評核須知（2022年12月）.pdf": "3eb4a64e563e94dbda91906e368137447e2a42bc50dc7051bb66f61b8d3ea58a",
-      "docs/TC/02_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf": "8639a9dc8fc4c7dad3ab467db43d69ffe73a4ce156030248dc68c2d8d3cf60bd",
-      "docs/TC/03_牌照指引（2026年5月）.pdf": "4816c53f7e70e4828d5ff5e78baac6032399d06cdcf5a85c342bce577d643089",
-      "docs/TC/04_有關適當人選準則的指引（2018年4月）.pdf": "9c72af5408a3067e402b8886e313a1f801b204898b7bee82341e717f9da6cf85",
-      "docs/TC/05_有關適當人選準則的補充指引（2020年1月）.pdf": "6f2286c0a774fcd78a8fd9f8721b862cde9c09bb499eca6d65a50f3bfd2963dd",
-      "docs/TC/06_遞交業務計劃的指引（12-2019版）.pdf": "29ceb2225c2a806ae2140c17420077671684dabed6ba2ba255d3bd95d32a52a4",
-      "docs/TC/07_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf": "4ab95ce206c0e71740f025c90e1195c965e5e54a7b981c9e02d8c945936fed47",
-      "docs/TC/08_施加罰款紀律行動指引（2018年4月）.pdf": "ef8a7be34c1dd1f3b3a1a61a9edf1c14a100a89bdb13d51607c750b02295bdf3",
-      "docs/TC/09_紀律處分罰款指引（2018年5月）.pdf": "008b7b72867307ff05ec62eb24377d894c7af956d716c9a4665e4b37287cfc55",
-      "docs/TC/10_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf": "6853748c7e7513f11cf5f5d54dbff7cffcb2309fca7669a43bde40c042f2fb65",
-      "docs/TC/11_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf": "3fdb442bf09cd11fd89235e6c35271c17072f22fb5aba66a3a187cc203728431",
-      "docs/TC/12_通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）.pdf": "8a71d806b4b81a13148f226b93e3425728e0e8920fe741be51ab807baaf36d5b",
-      "docs/TC/13_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf": "26fdbf82ecab50930f1ca8cd3c2bf2d7ee2df9426d7a7221e5933f9e453b5af3",
-      "docs/TC/14_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf": "42e40eb5606949acea68ce90421b9e38dee01f483fe1e7ab3bba52accca7d3a1",
-      "docs/TC/15_通函_與金錢服務經營者有關的欺詐網站及社交媒體平台（2025年4月24日）.pdf": "bcbac65758aaf29395543c7f6f13c46095849bbee90db831714d01046b31eef3",
-      "docs/TC/16_通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）.pdf": "6f43d3db88a6dc86d65ffc71ccc39fa2908a70feb13e11e03e2b3379e717703a",
-      "docs/TC/17_通函_提交旅客資料電子表格（現金類物品）（2025年6月23日）.pdf": "b365b20e00118e300a7b32b53a07021a2b51fe06cdeb9629dd57925be6ae32ad",
-      "docs/TC/18_通函_貨幣兌換商條例第34章之修訂（2025年11月17日）.pdf": "87afeea96224222473a07b2426689c308f196294fb074948935ed8ef7af1f2d6",
-      "docs/TC/19_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf": "7133b84028c505ae02340f1120a99600dc577a9c289c6546ecd8bb0edd5c4e29",
-      "docs/TC/20_通函_財務行動特別組織的聲明（2026年7月3日）.pdf": "e326d07e4d23a9a47e41df753ac5c58a19b158309c5d25113018e1a6d6ecf948",
-      "docs/TC/21_通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）.pdf": "bd5261a6a3843643bef21bcca572c35e0de5f2c374d79a250bdc5cd46b44794c",
-      "docs/TC/22_適用於所有金錢服務經營者的常見問題（海關網站）.md": "26974ae4446f65b0489c6f0cbb42d303cb2c2621e1752a5be675dba9185244e7",
-      "docs/TC/23_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf": "8c617f67d75a7a7abf24108d4543c6fb57fc80b4d9214683381131452bef0c3d",
+      "docs/EN/01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf": "10558bec35a5923cb07c38ed0990ce34022c3eb25806948778fe6b4a7ab87abc",
+      "docs/EN/03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf": "7a7b81ec6880a0e22c1d3e116f1016109dc6b54c33726e6a57fb1cff5d06eabc",
+      "docs/EN/05_High_Licensing Guide (May 2026).pdf": "4aeb27ada3f04608da427833ebd564000c3fe3b788fd1d183a63ca04168005e8",
+      "docs/EN/10_Medium-Essential_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf": "3d829e7a475c0d6b27cecb9606963d6aae7d3cdf0857902a219502ef42116f38",
+      "docs/EN/11_Medium-Essential_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf": "cb03247dcc6e9149f5371ad1f3a21fa763e827e1fa8cc6c4697c7a6754c3da38",
+      "docs/EN/20_Medium-Selected_Guidelines for Submission of Business Plan (Ver 12-2019).pdf": "519dadf3e1ec660e3aa50c4669d91ed997712f69551f8f12b02f84d2bd228e9f",
+      "docs/EN/21_Medium-Selected_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf": "ba9101df763fe866fd27bf377819d45c02c4431576a89fe4bb8aa24e0addcf27",
+      "docs/EN/12_Medium-Essential_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf": "6aeee39af0848ac03d989ed2500f6fd8f4947b342fa26b23371d0f51e816a1ca",
+      "docs/EN/13_Medium-Essential_Disciplinary Fining Guideline (May 2018).pdf": "c098efdd38e152fd2357942e62958be9c32c3061874a1b0c076daedd5f0bba96",
+      "docs/EN/04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf": "2b5b00d7dc706169b1b2e292136649612f9fbb73b39332eb80dc1a4cf926474a",
+      "docs/EN/22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf": "f07cc3caa50fe51e5524c7d10ed2670cfcd7f0ac70c9a016a1508049f15b4ff0",
+      "docs/EN/14_Medium-Essential_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf": "cb231fca14b55843357f7e6e4352ca30536abd58f56a399a33a6b9b97f32ab00",
+      "docs/EN/07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf": "9921ff297a49cef0543c3df126d07c3bb2befc8f1e7a6e33d62674e81bb0c979",
+      "docs/EN/08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf": "ba02a8d811184ff6a960e4c9b2ab1e2c63dbaf3e50f1ce9b12e4fd438320056c",
+      "docs/archive/EN/42_Reference_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf": "fbeb22630cab6aa2e859321d295df7bb874516e0f646749caa75417feacc914b",
+      "docs/EN/15_Medium-Essential_Circular - E-submission of the Periodic Return (30 May 2025).pdf": "bb0408f2cea27a76c154f750479ee777ccc9859a20800ad44e690117660ce381",
+      "docs/archive/EN/43_Reference_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf": "f58314d3d5139c6a68e4308e4953cc1a5676cdf0d7a332b7c1ce5e513c550d7c",
+      "docs/EN/16_Medium-Essential_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf": "77516f642ee66d9b4027f2dbaa95e3771556d200df97fd0b924526e7fcc38cd3",
+      "docs/EN/18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf": "86181d4d0a0990aa7e8a17a489f23ed59e2f9722ba5cb821a381976e45a52c84",
+      "docs/EN/19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf": "fbc823bdf739af3f02e9336c93c48169c0acd9eb7815274394b7b44bb0d2d6d8",
+      "docs/archive/EN/45_Reference_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf": "068cbb0780c2e51752b136eee5aa3784153a1d551e7fd67a29a605b88897c47c",
+      "docs/EN/06_High_FAQ applicable to all MSOs (C&ED portal).md": "6dfc89dcf0a37665144cc501ffd64ba8df004121e35a3f5c14a4aa19e3c78264",
+      "docs/EN/02_High_Competence Assessment - Sample Questions (12 May 2021).pdf": "7b53caa350ae2b9423457bfe29e3e03f9bbdc99560f062f853ff1c99b58efef6",
+      "docs/TC/01_高_能力評核須知（2022年12月）.pdf": "3eb4a64e563e94dbda91906e368137447e2a42bc50dc7051bb66f61b8d3ea58a",
+      "docs/TC/03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf": "8639a9dc8fc4c7dad3ab467db43d69ffe73a4ce156030248dc68c2d8d3cf60bd",
+      "docs/TC/05_高_牌照指引（2026年5月）.pdf": "4816c53f7e70e4828d5ff5e78baac6032399d06cdcf5a85c342bce577d643089",
+      "docs/TC/10_中重點_有關適當人選準則的指引（2018年4月）.pdf": "9c72af5408a3067e402b8886e313a1f801b204898b7bee82341e717f9da6cf85",
+      "docs/TC/11_中重點_有關適當人選準則的補充指引（2020年1月）.pdf": "6f2286c0a774fcd78a8fd9f8721b862cde9c09bb499eca6d65a50f3bfd2963dd",
+      "docs/TC/20_中選讀_遞交業務計劃的指引（12-2019版）.pdf": "29ceb2225c2a806ae2140c17420077671684dabed6ba2ba255d3bd95d32a52a4",
+      "docs/TC/21_中選讀_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf": "4ab95ce206c0e71740f025c90e1195c965e5e54a7b981c9e02d8c945936fed47",
+      "docs/TC/12_中重點_施加罰款紀律行動指引（2018年4月）.pdf": "ef8a7be34c1dd1f3b3a1a61a9edf1c14a100a89bdb13d51607c750b02295bdf3",
+      "docs/TC/13_中重點_紀律處分罰款指引（2018年5月）.pdf": "008b7b72867307ff05ec62eb24377d894c7af956d716c9a4665e4b37287cfc55",
+      "docs/TC/04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf": "6853748c7e7513f11cf5f5d54dbff7cffcb2309fca7669a43bde40c042f2fb65",
+      "docs/TC/22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf": "3fdb442bf09cd11fd89235e6c35271c17072f22fb5aba66a3a187cc203728431",
+      "docs/TC/14_中重點_通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）.pdf": "8a71d806b4b81a13148f226b93e3425728e0e8920fe741be51ab807baaf36d5b",
+      "docs/TC/07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf": "26fdbf82ecab50930f1ca8cd3c2bf2d7ee2df9426d7a7221e5933f9e453b5af3",
+      "docs/TC/08_高_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf": "42e40eb5606949acea68ce90421b9e38dee01f483fe1e7ab3bba52accca7d3a1",
+      "docs/archive/TC/42_歷史參考_通函_與金錢服務經營者有關的欺詐網站及社交媒體平台（2025年4月24日）.pdf": "bcbac65758aaf29395543c7f6f13c46095849bbee90db831714d01046b31eef3",
+      "docs/TC/15_中重點_通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）.pdf": "6f43d3db88a6dc86d65ffc71ccc39fa2908a70feb13e11e03e2b3379e717703a",
+      "docs/archive/TC/43_歷史參考_通函_提交旅客資料電子表格（現金類物品）（2025年6月23日）.pdf": "b365b20e00118e300a7b32b53a07021a2b51fe06cdeb9629dd57925be6ae32ad",
+      "docs/TC/16_中重點_通函_貨幣兌換商條例第34章之修訂（2025年11月17日）.pdf": "87afeea96224222473a07b2426689c308f196294fb074948935ed8ef7af1f2d6",
+      "docs/TC/18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf": "7133b84028c505ae02340f1120a99600dc577a9c289c6546ecd8bb0edd5c4e29",
+      "docs/TC/19_中重點_通函_財務行動特別組織的聲明（2026年7月3日）.pdf": "e326d07e4d23a9a47e41df753ac5c58a19b158309c5d25113018e1a6d6ecf948",
+      "docs/archive/TC/45_歷史參考_通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）.pdf": "bd5261a6a3843643bef21bcca572c35e0de5f2c374d79a250bdc5cd46b44794c",
+      "docs/TC/06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md": "26974ae4446f65b0489c6f0cbb42d303cb2c2621e1752a5be675dba9185244e7",
+      "docs/TC/02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf": "8c617f67d75a7a7abf24108d4543c6fb57fc80b4d9214683381131452bef0c3d",
       "docs/text/EN/01.txt": "770b724fa6bfba87f6368c2e82b38cdfbaf103e32f80e452be5224aced06a68b",
-      "docs/text/EN/02.txt": "9b4395941ac9ee9e025672401235082fef5408dc7b0fe809c60e0ce287db29ef",
-      "docs/text/EN/03.txt": "10ed90e17dcac3952c34440c345f74ceaf5f2a504252b51a9a4684c15613b679",
-      "docs/text/EN/04.txt": "fc978c6c6605acb3b7e865a78df7971cd47e0f99b74fba64c8ee8b3f1b193d6f",
-      "docs/text/EN/05.txt": "ffbd03f53861b929492a805ba5e402bc581be86738011e0773a823cac86db319",
-      "docs/text/EN/06.txt": "332b4a594f6fc0e37f92de7d160165cd57e354c112f9822aefb06fdffa2def38",
-      "docs/text/EN/07.txt": "fbfc4e84b3e2f61fc7d17282e7f187b8bad5096d834676beba543d5c21276aec",
-      "docs/text/EN/08.txt": "bb94dfcd6805705ffe4705c0aeb113b3148dba7275855a4fa0e185190e841063",
-      "docs/text/EN/09.txt": "093075da250f23816a73a5969e1061995978b009d2d2e8f982ab258ff205759a",
-      "docs/text/EN/10.txt": "96677cbe1d65bf93ea7da2e22b0098a1ccce95e3b73c4cd52076f96b9c5d2b5d",
-      "docs/text/EN/11.txt": "c5862b56dacdd43e9b808a294746afb15d4d94111f17b3313fe17ec3eb10eebf",
-      "docs/text/EN/12.txt": "6997ba3cb5a8739c1218976243eed2e32ed8f972ae1365e8a4db26f347bc5854",
-      "docs/text/EN/13.txt": "c0303520d5f5fe989c4caf5e678b51f8a9410e6c2477f6c95e81ca2942a91016",
-      "docs/text/EN/14.txt": "962762533c3ff53743ecc98010694eedbde018d780a2b102c7db383084d0b9b5",
-      "docs/text/EN/15.txt": "a3a28eacd8b2d6b1d1f4db19770f1282afb33c44227a7bf7d127b61d78ebdf34",
-      "docs/text/EN/16.txt": "4cb13f9caf703b8eaa5d67c0576768576ae1eb0b87cf02a556242e1d0f9d26f9",
-      "docs/text/EN/17.txt": "e6b1fba923af234da56ac0f95d0b38d4cfdf5bb3560d02603bfa88ad32666501",
-      "docs/text/EN/18.txt": "24b6e1e90ae070f13cbc660e1b05dca6670e52989c079ef9131ece2941cab9c6",
-      "docs/text/EN/19.txt": "e5a0d8dc9b1cab784a8f1de9ed9f2ef342aff4bbed70ff7b687757d174752fb2",
-      "docs/text/EN/20.txt": "a7251060fdeabf4005dfe7f08eb40489f089cb14db439f504152daaf0a9427f4",
-      "docs/text/EN/21.txt": "261c236cbefc1eb6673e8aee8afaf44617a1839fc40e55546dab5f31bf0d4918",
-      "docs/text/EN/22.txt": "6dfc89dcf0a37665144cc501ffd64ba8df004121e35a3f5c14a4aa19e3c78264",
-      "docs/text/EN/23.txt": "66ae1eb36cb5f4110194b692e1a7a12ecd6d9aba3311272587178b2de0c1717c",
+      "docs/text/EN/03.txt": "9b4395941ac9ee9e025672401235082fef5408dc7b0fe809c60e0ce287db29ef",
+      "docs/text/EN/05.txt": "10ed90e17dcac3952c34440c345f74ceaf5f2a504252b51a9a4684c15613b679",
+      "docs/text/EN/10.txt": "fc978c6c6605acb3b7e865a78df7971cd47e0f99b74fba64c8ee8b3f1b193d6f",
+      "docs/text/EN/11.txt": "ffbd03f53861b929492a805ba5e402bc581be86738011e0773a823cac86db319",
+      "docs/text/EN/20.txt": "332b4a594f6fc0e37f92de7d160165cd57e354c112f9822aefb06fdffa2def38",
+      "docs/text/EN/21.txt": "fbfc4e84b3e2f61fc7d17282e7f187b8bad5096d834676beba543d5c21276aec",
+      "docs/text/EN/12.txt": "bb94dfcd6805705ffe4705c0aeb113b3148dba7275855a4fa0e185190e841063",
+      "docs/text/EN/13.txt": "093075da250f23816a73a5969e1061995978b009d2d2e8f982ab258ff205759a",
+      "docs/text/EN/04.txt": "96677cbe1d65bf93ea7da2e22b0098a1ccce95e3b73c4cd52076f96b9c5d2b5d",
+      "docs/text/EN/22.txt": "c5862b56dacdd43e9b808a294746afb15d4d94111f17b3313fe17ec3eb10eebf",
+      "docs/text/EN/14.txt": "6997ba3cb5a8739c1218976243eed2e32ed8f972ae1365e8a4db26f347bc5854",
+      "docs/text/EN/07.txt": "c0303520d5f5fe989c4caf5e678b51f8a9410e6c2477f6c95e81ca2942a91016",
+      "docs/text/EN/08.txt": "962762533c3ff53743ecc98010694eedbde018d780a2b102c7db383084d0b9b5",
+      "docs/text/EN/42.txt": "a3a28eacd8b2d6b1d1f4db19770f1282afb33c44227a7bf7d127b61d78ebdf34",
+      "docs/text/EN/15.txt": "4cb13f9caf703b8eaa5d67c0576768576ae1eb0b87cf02a556242e1d0f9d26f9",
+      "docs/text/EN/43.txt": "e6b1fba923af234da56ac0f95d0b38d4cfdf5bb3560d02603bfa88ad32666501",
+      "docs/text/EN/16.txt": "24b6e1e90ae070f13cbc660e1b05dca6670e52989c079ef9131ece2941cab9c6",
+      "docs/text/EN/18.txt": "e5a0d8dc9b1cab784a8f1de9ed9f2ef342aff4bbed70ff7b687757d174752fb2",
+      "docs/text/EN/19.txt": "a7251060fdeabf4005dfe7f08eb40489f089cb14db439f504152daaf0a9427f4",
+      "docs/text/EN/45.txt": "261c236cbefc1eb6673e8aee8afaf44617a1839fc40e55546dab5f31bf0d4918",
+      "docs/text/EN/06.txt": "6dfc89dcf0a37665144cc501ffd64ba8df004121e35a3f5c14a4aa19e3c78264",
+      "docs/text/EN/02.txt": "66ae1eb36cb5f4110194b692e1a7a12ecd6d9aba3311272587178b2de0c1717c",
       "docs/text/TC/01.txt": "842c297949dffb751013b099c308b31538832958003e938b4db9c5fe40cac2b0",
-      "docs/text/TC/02.txt": "6767b0cbf8261b2b9e2a8b5e958a16615d6fd8c01c241255b42a78b0d565e758",
-      "docs/text/TC/03.txt": "3758e76ea32321d7fbfdf75c381e733727bc43803017c54dedbbf333edda0dae",
-      "docs/text/TC/04.txt": "d99388634e789d51250d4bbf79cc3b0c3d7d11861e73420a3e8a8628742f55ff",
-      "docs/text/TC/05.txt": "1a6da27c10e68c963afbc321f23dabbcf696c5daa8de1092d1ff9d1a6ea4ab49",
-      "docs/text/TC/06.txt": "fbc5c7a4f2c55fdaf7af2daf109e29ad67741a631c8e198b7c1abfe787029928",
-      "docs/text/TC/07.txt": "2aff0e725a6caf8bc5a963fbbdea408a4f429b3a57fe3191d8ae537fe4df977f",
-      "docs/text/TC/08.txt": "45607597f8c484dd45e923567f79e8443b7091b69cea11d7299a0d372f522615",
-      "docs/text/TC/09.txt": "21a3852bbfaa06fd28eb5c6bc07737776cf24b6a0081d9f941229e6428e6fdc6",
-      "docs/text/TC/10.txt": "e973aa5a20539ae09bb8f1cffae5a5b9e96fbfc31fab53f382aeece475a86392",
-      "docs/text/TC/11.txt": "1e86b7b4a037c59763304c56e358c531fe468436329c2aeaf1855db06fe311d1",
-      "docs/text/TC/12.txt": "d962e70764f12446ef12fffc450126a9b4eb7a3e8cf24dff4458675522d36756",
-      "docs/text/TC/13.txt": "f11a03b254ad2927c9893fef9c345ec374d018294237b06f2a59087b639d5661",
-      "docs/text/TC/14.txt": "bbc5d8ae0fde81095f386ac018b7213f4a63ae4d4bc98b4d2634349b01556ffb",
-      "docs/text/TC/15.txt": "de1d21e820c9f732ea2d4c07f6cb380e803f0167218125beffe58761f24c36bb",
-      "docs/text/TC/16.txt": "f5246faaacbf9ffed5a8fde9d80f5e7e83fe7aa29adbe06948fa7a5d0b0a6e7c",
-      "docs/text/TC/17.txt": "ec8da8fdff97f4c8c9e174f032bdee92842bed445a5c22a87df41ab40f5a857a",
-      "docs/text/TC/18.txt": "1d62d3e23ba8f21e6eea6734a4a246de0e8940882e4195f8c424edccfae89b8f",
-      "docs/text/TC/19.txt": "6eedcefddad383c7e8fcddd3c0fb5b5041b6e479a4dfc8106bbc00c104dd01e7",
-      "docs/text/TC/20.txt": "0a4521130c3d5484860a0ab1eef58b79a89185ae65a658cb86d79be3d7ef816f",
-      "docs/text/TC/21.txt": "1febe7e84e09677991d90585603b53bba0c85c59fdc8e0deb2a72ba493aa4f94",
-      "docs/text/TC/22.txt": "26974ae4446f65b0489c6f0cbb42d303cb2c2621e1752a5be675dba9185244e7",
-      "docs/text/TC/23.txt": "7c89ad2ba0cf282c515ff91f814283852c01872cb8489845e09ea600131341ac",
+      "docs/text/TC/03.txt": "6767b0cbf8261b2b9e2a8b5e958a16615d6fd8c01c241255b42a78b0d565e758",
+      "docs/text/TC/05.txt": "3758e76ea32321d7fbfdf75c381e733727bc43803017c54dedbbf333edda0dae",
+      "docs/text/TC/10.txt": "d99388634e789d51250d4bbf79cc3b0c3d7d11861e73420a3e8a8628742f55ff",
+      "docs/text/TC/11.txt": "1a6da27c10e68c963afbc321f23dabbcf696c5daa8de1092d1ff9d1a6ea4ab49",
+      "docs/text/TC/20.txt": "fbc5c7a4f2c55fdaf7af2daf109e29ad67741a631c8e198b7c1abfe787029928",
+      "docs/text/TC/21.txt": "2aff0e725a6caf8bc5a963fbbdea408a4f429b3a57fe3191d8ae537fe4df977f",
+      "docs/text/TC/12.txt": "45607597f8c484dd45e923567f79e8443b7091b69cea11d7299a0d372f522615",
+      "docs/text/TC/13.txt": "21a3852bbfaa06fd28eb5c6bc07737776cf24b6a0081d9f941229e6428e6fdc6",
+      "docs/text/TC/04.txt": "e973aa5a20539ae09bb8f1cffae5a5b9e96fbfc31fab53f382aeece475a86392",
+      "docs/text/TC/22.txt": "1e86b7b4a037c59763304c56e358c531fe468436329c2aeaf1855db06fe311d1",
+      "docs/text/TC/14.txt": "d962e70764f12446ef12fffc450126a9b4eb7a3e8cf24dff4458675522d36756",
+      "docs/text/TC/07.txt": "f11a03b254ad2927c9893fef9c345ec374d018294237b06f2a59087b639d5661",
+      "docs/text/TC/08.txt": "bbc5d8ae0fde81095f386ac018b7213f4a63ae4d4bc98b4d2634349b01556ffb",
+      "docs/text/TC/42.txt": "de1d21e820c9f732ea2d4c07f6cb380e803f0167218125beffe58761f24c36bb",
+      "docs/text/TC/15.txt": "f5246faaacbf9ffed5a8fde9d80f5e7e83fe7aa29adbe06948fa7a5d0b0a6e7c",
+      "docs/text/TC/43.txt": "ec8da8fdff97f4c8c9e174f032bdee92842bed445a5c22a87df41ab40f5a857a",
+      "docs/text/TC/16.txt": "1d62d3e23ba8f21e6eea6734a4a246de0e8940882e4195f8c424edccfae89b8f",
+      "docs/text/TC/18.txt": "6eedcefddad383c7e8fcddd3c0fb5b5041b6e479a4dfc8106bbc00c104dd01e7",
+      "docs/text/TC/19.txt": "0a4521130c3d5484860a0ab1eef58b79a89185ae65a658cb86d79be3d7ef816f",
+      "docs/text/TC/45.txt": "1febe7e84e09677991d90585603b53bba0c85c59fdc8e0deb2a72ba493aa4f94",
+      "docs/text/TC/06.txt": "26974ae4446f65b0489c6f0cbb42d303cb2c2621e1752a5be675dba9185244e7",
+      "docs/text/TC/02.txt": "7c89ad2ba0cf282c515ff91f814283852c01872cb8489845e09ea600131341ac",
       "docs/text/manifest.json": "02a6ec17c73e5e0c9aa8ded62ccc304fd8372ec4c81c8a02e4b217f9d87f1bfc",
       "docs/README.md": "b6f4b17078676c435320cb28ecafdcf0d36e9b5849666d838a287af91119eb80",
-      "bank/FORMAT.md": "1dd5ccf00ccc3dbae0c25b5f853bb19d189c5ce20e7e725a77fbcc870830dd4b",
+      "bank/FORMAT.md": "6aa8ab2d13fec996b114cc5f65dbe6d496c08799cf3f8e564b04c6d0adf41d19",
       "revision/CONFLICT-CALLS.md": "9b7f51b7e1a65a82f83e00dd41e925a1bfe0a43388639dc2a3ed3406f78a0241",
       ".claude/skills/exam-prep/SKILL.md": "cbafb87c6fd6da5db44bc0eea7768eda0e198bd4d4c938e0255c397772ab7748",
       "web/questions.json": "895ac3fe7512db147b8ad2a0a72970734f922ddcfa84d0408c9ceca744461439",
-      "docs/quotes.json": "e0f230fbc1113a32441f8c11c540ac18767654dace11912e5f16a491ec1e3980"
+      "docs/quotes.json": "aa58e119ed44f8d082cdec229a40632e37a87b12e5ead0ef699d79924983c87a"
     }
   },
   "method": "来源驱动，跨七单元逐题句核对。缺口并非新增题数；覆盖审核可读取答案，非盲答。独立分工使用同一会话模型，根审核合并及复核关键判断。",
@@ -112,7 +112,7 @@
     {
       "group": "roles-guideline",
       "scope": {
-        "scope": "资料02全部章节、脚注、术语表及附录的机构/岗位及职责边界专项；当前299题",
+        "scope": "资料05全部章节、脚注、术语表及附录的机构/岗位及职责边界专项；当前299题",
         "bank_sha256": "895ac3fe7512db147b8ad2a0a72970734f922ddcfa84d0408c9ceca744461439",
         "method": [
           "重新阅读各主体在02分散章节的职责并查询299题实际中英文题句；不沿用上一轮覆盖状态。",
@@ -124,7 +124,7 @@
         ],
         "source_accounting": [
           {
-            "doc": "02",
+            "doc": "03",
             "reviewed_units": "EN 第1–11章、全部脚注、附录A和术语表的主体/职责；TC 对照所有缺口、主要角色分工及已登记语言差异；299题全库关键词与适用题逐句复核",
             "scope_boundary": "不扩写已命名但没有档案职能清单的机构；CDD主体/PEP/各种号码/恐怖财产等概念交根roles-concepts.json；一般合规动作细节保留完整coverage-audit，不把角色专项等同全库二次盲审。",
             "unreviewed_units": "英文所分配范围无未覆盖章节；繁中未逐字复核所有无缺口句。没有重审299题全部解释与全部原文逐字一致性。"
@@ -137,7 +137,7 @@
       "scope": {
         "group": "roles-statute",
         "documents": [
-          "10"
+          "04"
         ],
         "bank_snapshot": {
           "questions": 299,
@@ -167,7 +167,7 @@
           }
         ],
         "scope_reviewed": [
-          "源10 Parts1–7及6A中 MSO 适用定义/主体与基本职责；Sch1Pt1/2词义；Sch2一般定义及2/12/13/18等角色条文；Sch4委员团、主席、成员、代表及委任主体。",
+          "源04 Parts1–7及6A中 MSO 适用定义/主体与基本职责；Sch1Pt1/2词义；Sch2一般定义及2/12/13/18等角色条文；Sch4委员团、主席、成员、代表及委任主体。",
           "本轮对以上清单已逐项与299题题干/题句匹配；缺口英繁引文均从本地官方资料文本抽取核验，跨单元覆盖可计。"
         ],
         "scope_boundaries": [
@@ -212,36 +212,36 @@
         "bank_statements": 1507,
         "documents": [
           "01",
-          "03",
-          "04",
           "05",
-          "06",
-          "07",
-          "08",
-          "09",
+          "10",
           "11",
-          "12",
-          "13",
-          "14",
-          "15",
-          "16",
-          "17",
-          "18",
-          "19",
           "20",
           "21",
+          "12",
+          "13",
           "22",
-          "23"
+          "14",
+          "07",
+          "08",
+          "42",
+          "15",
+          "43",
+          "16",
+          "18",
+          "19",
+          "45",
+          "06",
+          "02"
         ],
         "unreviewed_source_units": [],
-        "coverage_boundary": "21份所分配归档文件正文／附件及22两组全部FAQ、23七例题、01一例题已阅读；来源02、10由其他代理负责。仅列本专项主体、定义及文件目的，详细操作条件仍见总体覆盖表。仅提名称的外部文书或机构作为reference。",
+        "coverage_boundary": "21份所分配归档文件正文／附件及06两组全部FAQ、02七例题、01一例题已阅读；反洗钱指引及第615章由其他代理负责。仅列本专项主体、定义及文件目的，详细操作条件仍见总体覆盖表。仅提名称的外部文书或机构作为reference。",
         "method": "按来源列名词、机构／职位职能、文件目的；逐项核对全库实际陈述，解释和长引文不充当测试覆盖。一般操作期限和细节不作为本专项缺口。原文只提名称而未赋职能者标reference。"
       }
     },
     {
       "group": "roles-concepts",
       "scope": {
-        "scope": "源02的概念及定義；機構／內部角色、法例及其他資料定義由其他清單交叉合併。",
+        "scope": "源03的概念及定義；機構／內部角色、法例及其他資料定義由其他清單交叉合併。",
         "cross_review": {
           "reviewed": "roles-concepts.json 20行；当前299题；重点复核covered语义及02遗漏定义，未读取其他人的清单；PPTA/PEP不重做",
           "overall": "现有covered大体有直接题句支持；RC020应补完整主观要件并调整来源，其他多数是补映射或边界参考。",
@@ -281,7 +281,7 @@
                 }
               ],
               "source": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶1.25",
                 "quote_en": "A person commits an offence if, knowing or suspecting that a disclosure has been made, he discloses to any other person any matter which is likely to prejudice any investigation which might be conducted following that first-mentioned disclosure.",
                 "quote_tc": "任何人如知道或懷疑已曾作出披露，而仍向其他人披露任何相當可能損害為跟進首述披露而進行的調查的事宜，即屬犯罪。"
@@ -335,7 +335,7 @@
                 }
               ],
               "source": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶6.7脚注57",
                 "quote_en": "Targeted financial sanctions refer to both asset freezing and prohibitions to prevent funds or other assets from being made available, directly or indirectly, for the benefit of designated persons and entities.",
                 "quote_tc": "針對性金融制裁一併指凍結資產及禁止向為指認的個人及實體的利益而直接或間接提供資金或其他資產。"
@@ -372,7 +372,7 @@
                 }
               ],
               "source": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "词汇表；¶1.27、¶6.9–6.10",
                 "quote_en": "Financing of proliferation of weapons of mass destruction",
                 "quote_tc": "為大規模毀滅武器擴散籌集資金"
@@ -395,7 +395,7 @@
                 }
               ],
               "source": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "附录A ¶3",
                 "quote_en": "Travel document means a passport or some other document furnished with a photograph of the holder establishing the identity and nationality, domicile or place of permanent residence of the holder.",
                 "quote_tc": "旅遊證件是指附有持有人照片，能確定持有人的身分及國籍、原居地或永久居留地的護照或其他證件。"
@@ -410,7 +410,7 @@
               "priority": "P3",
               "evidence": [],
               "source": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "附录A 脚注76",
                 "quote_en": "A chartered secretary refers to a person who is a current full member of the Institute of Chartered Secretaries and Administrators or its designated divisions.",
                 "quote_tc": "特許秘書指屬英國特許秘書及行政人員公會或其指定分部現任正式會員的人。"
@@ -491,117 +491,117 @@
   "source_accounting": [
     {
       "doc": "01",
-      "title": "01_Guidance Notes on the Competence Assessment (Dec 2022).pdf",
+      "title": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf",
       "note": "检查机构／角色、名词及文件用途；对应记录：RO001、RO002、RO003、RO004、RO005、RO006、RO007、RO008、RO009、RO075。考务角色按低优先级处理。"
     },
     {
-      "doc": "02",
-      "title": "02_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "doc": "03",
+      "title": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
       "note": "检查机构／角色、名词及文件用途；对应记录：RG001、RG002、RG003、RG004、RG005、RG006、RG007、RG008、RG009、RG010、RG011、RG012、RG013、RG014、RG015、RG016、RG017、RG018、RG019、RG020、RG021、RG022、RG023、RG024、RG025、RG026、RG027、RG028、RG029、RG030、RG031、RG032、RG033、RG034、RG035、RG036、RG037、RC001、RC002、RC003、RC004、RC005、RC006、RC007、RC008、RC009、RC010、RC011、RC012、RC013、RC014、RC015、RC016、RC017、RC018、RC019、RC020、RC021、RC022、RC023、RC024、RC025、RC026、RC027、RC028。英文全部章节、脚注、词汇表及附录的相关内容；繁中核对缺口及主要职责区别。"
     },
     {
-      "doc": "03",
-      "title": "03_Licensing Guide (May 2026).pdf",
+      "doc": "05",
+      "title": "05_High_Licensing Guide (May 2026).pdf",
       "note": "检查机构／角色、名词及文件用途；对应记录：RO009、RO010、RO011、RO012、RO013、RO014、RO015、RO016、RO017、RO018、RO019、RO020、RO021、RO022、RO023、RO024、RO025、RO026、RO027、RO028、RO029、RO030、RO032、RO034、RO035、RO062。"
     },
     {
-      "doc": "04",
-      "title": "04_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf",
+      "doc": "10",
+      "title": "10_Medium_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf",
       "note": "检查机构／角色、名词及文件用途；对应记录：RO018、RO031。"
     },
     {
-      "doc": "05",
-      "title": "05_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf",
+      "doc": "11",
+      "title": "11_Medium_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf",
       "note": "检查机构／角色、名词及文件用途；对应记录：RO018、RO024、RO031。"
     },
     {
-      "doc": "06",
-      "title": "06_Guidelines for Submission of Business Plan (Ver 12-2019).pdf",
+      "doc": "20",
+      "title": "12_Medium_Guidelines for Submission of Business Plan (Ver 12-2019).pdf",
       "note": "检查机构／角色、名词及文件用途；对应记录：RO010、RO029、RO033。"
     },
     {
-      "doc": "07",
-      "title": "07_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf",
+      "doc": "21",
+      "title": "13_Medium_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf",
       "note": "检查机构／角色、名词及文件用途；对应记录：RO024、RO030。"
     },
     {
-      "doc": "08",
-      "title": "08_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RO032。"
-    },
-    {
-      "doc": "09",
-      "title": "09_Disciplinary Fining Guideline (May 2018).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RO032。"
-    },
-    {
-      "doc": "10",
-      "title": "10_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RS001、RS002、RS003、RS004、RS005、RS006、RS007、RS008、RS009、RS010、RS011、RS012、RS013、RS014、RS015、RS016、RS017、RS018、RS019、RS020、RS021、RS022、RS023、RS024、RS025、RS026、RS027、RS028、RS029、RS030、RS031、RS032、RS033、RS034、RS035、RS036、RS037、RS038、RS039、RS040、RS041、RS042、RS043、RS044、RS045、RS046、RS047、RS048。MSO适用正文、附表1/2及附表4；其他行业的主体列为范围边界，不扩充其完整监管制度。"
-    },
-    {
-      "doc": "11",
-      "title": "11_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RO036、RO037、RO038。"
-    },
-    {
       "doc": "12",
-      "title": "12_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RO040、RO041、RO042、RO050。"
+      "title": "14_Medium_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RO032。"
     },
     {
       "doc": "13",
-      "title": "13_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RO043、RO044、RO045、RO050。"
+      "title": "15_Medium_Disciplinary Fining Guideline (May 2018).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RO032。"
     },
     {
-      "doc": "14",
-      "title": "14_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RO030、RO046、RO047、RO048、RO049、RO050、RO060。"
-    },
-    {
-      "doc": "15",
-      "title": "15_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RO051。"
-    },
-    {
-      "doc": "16",
-      "title": "16_Circular - E-submission of the Periodic Return (30 May 2025).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RO009、RO052。"
-    },
-    {
-      "doc": "17",
-      "title": "17_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RO037、RO038、RO039。"
-    },
-    {
-      "doc": "18",
-      "title": "18_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RO053。"
-    },
-    {
-      "doc": "19",
-      "title": "19_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RO054、RO055、RO056。"
-    },
-    {
-      "doc": "20",
-      "title": "20_Circular - Statements issued by the FATF (3 Jul 2026).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RO057、RO059。FATF名单及咨询材料依归档版本，未检查官网更新。"
-    },
-    {
-      "doc": "21",
-      "title": "21_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf",
-      "note": "检查机构／角色、名词及文件用途；对应记录：RO058。"
+      "doc": "04",
+      "title": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RS001、RS002、RS003、RS004、RS005、RS006、RS007、RS008、RS009、RS010、RS011、RS012、RS013、RS014、RS015、RS016、RS017、RS018、RS019、RS020、RS021、RS022、RS023、RS024、RS025、RS026、RS027、RS028、RS029、RS030、RS031、RS032、RS033、RS034、RS035、RS036、RS037、RS038、RS039、RS040、RS041、RS042、RS043、RS044、RS045、RS046、RS047、RS048。MSO适用正文、附表1/2及附表4；其他行业的主体列为范围边界，不扩充其完整监管制度。"
     },
     {
       "doc": "22",
-      "title": "22_FAQ applicable to all MSOs (C&ED portal).md",
+      "title": "17_Medium_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RO036、RO037、RO038。"
+    },
+    {
+      "doc": "14",
+      "title": "16_Medium_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RO040、RO041、RO042、RO050。"
+    },
+    {
+      "doc": "07",
+      "title": "07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RO043、RO044、RO045、RO050。"
+    },
+    {
+      "doc": "08",
+      "title": "08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RO030、RO046、RO047、RO048、RO049、RO050、RO060。"
+    },
+    {
+      "doc": "42",
+      "title": "30_Low_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RO051。"
+    },
+    {
+      "doc": "15",
+      "title": "18_Medium_Circular - E-submission of the Periodic Return (30 May 2025).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RO009、RO052。"
+    },
+    {
+      "doc": "43",
+      "title": "31_Low_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RO037、RO038、RO039。"
+    },
+    {
+      "doc": "16",
+      "title": "19_Medium_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RO053。"
+    },
+    {
+      "doc": "18",
+      "title": "21_Medium_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RO054、RO055、RO056。"
+    },
+    {
+      "doc": "19",
+      "title": "23_Medium_Circular - Statements issued by the FATF (3 Jul 2026).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RO057、RO059。FATF名单及咨询材料依归档版本，未检查官网更新。"
+    },
+    {
+      "doc": "45",
+      "title": "32_Low_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf",
+      "note": "检查机构／角色、名词及文件用途；对应记录：RO058。"
+    },
+    {
+      "doc": "06",
+      "title": "06_High_FAQ applicable to all MSOs (C&ED portal).md",
       "note": "检查机构／角色、名词及文件用途；对应记录：RO013、RO045、RO057、RO060、RO061、RO062、RO063、RO064、RO065、RO066、RO067、RO068、RO069、RO070、RO071、RO072、RO073、RO074。"
     },
     {
-      "doc": "23",
-      "title": "23_Competence Assessment - Sample Questions (12 May 2021).pdf",
+      "doc": "02",
+      "title": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf",
       "note": "检查机构／角色、名词及文件用途；对应记录：RO023、RO050、RO075。"
     }
   ],
@@ -776,7 +776,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.13",
           "points": [
             "政府间组织；制定国际标准并推动法律/监管/操作措施有效实施",
@@ -785,7 +785,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶2.4脚注2、¶4.15–4.16、¶7.10脚注61、¶9.6",
           "points": [
             "提供风险指引/类型学资料；呼吁EDD及反制措施；识别战略缺陷"
@@ -971,7 +971,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶2.4脚注3、¶4.16.2(a)",
           "points": [
             "可信风险资讯来源；发布区域相互评估报告，供判断司法管辖区等同性"
@@ -1005,7 +1005,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶7.10脚注61",
           "points": [
             "发布Yearly ML/TF Typologies Report，供红旗识别参考"
@@ -1031,7 +1031,7 @@
       ],
       "untested": [],
       "status": "covered",
-      "notes": "只有资料02明确载述的出版职责；无其他APG章程职能原文。"
+      "notes": "只有资料03明确载述的出版职责；无其他APG章程职能原文。"
     },
     {
       "id": "RG004",
@@ -1039,7 +1039,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶2.4脚注3",
           "points": [
             "列作有声誉且广泛提供公开资料的可信国际风险资讯来源例子"
@@ -1073,7 +1073,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶2.4脚注3",
           "points": [
             "列作有声誉且广泛提供公开资料的可信国际风险资讯来源例子"
@@ -1107,7 +1107,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶2.4脚注3",
           "points": [
             "列作有声誉且广泛提供公开资料的可信国际风险资讯来源例子"
@@ -1141,7 +1141,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.2–6.3、¶6.7、¶6.9",
           "points": [
             "通过防止/遏制TF的决议及相关名单；成员国须冻结及报告疑似匹配",
@@ -1248,7 +1248,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.4、¶6.7",
           "points": [
             "根据相关决议指定恐怖分子、关联者或恐怖分子财产；指定受金融制裁人士及实体"
@@ -1259,7 +1259,7 @@
       "untested": [
         {
           "point": "委员会负责国际层面的指定，须与CE在港刊宪及法院指定区别；尚无以委员会指定职能为决定点的题句",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.4",
           "quote_en": "Where a person or property is designated by a Committee of the UNSC established pursuant to the relevant UNSCRs",
           "quote_tc": "凡某人或財產如第[6.2]段所述被根據相關的聯合國安理會決議成立的聯合國安理會委員會分別指定為恐怖分子／與恐怖分子有聯繫者或恐怖分子財產",
@@ -1300,14 +1300,14 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.4",
           "points": [
             "UNSC委员会指定后可刊宪；亦可向原讼法庭申请指定令，命令刊宪"
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.7–6.8",
           "points": [
             "订立规例实施UNSC制裁；在规例指定情况下发给处理/提供资产的特许"
@@ -1356,7 +1356,7 @@
       "untested": [
         {
           "point": "另可向原讼法庭申请指定恐怖分子/关联者或财产的命令；此法庭途径未测",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.4",
           "quote_en": "the Chief Executive may make an application to the Court of First Instance for an order to specify a person or property",
           "quote_tc": "行政長官可向原訟法庭提出申請，要求作出命令分別指明某人或財產為恐怖分子／與恐怖分子有聯繫者或恐怖分子財產",
@@ -1372,7 +1372,7 @@
         },
         {
           "point": "UNSO授予CE订立实施UNSC制裁规例的权力；现题测试发特许而非订规例",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.7",
           "quote_en": "The UNSO empowers the Chief Executive to make regulations to implement sanctions decided by the UNSC",
           "quote_tc": "《聯合國制裁條例》授權行政長官訂立規例，以執行聯合國安全理事會所決定的制裁",
@@ -1396,7 +1396,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.5(a)、¶6.6",
           "points": [
             "冻结怀疑恐怖分子财产",
@@ -1431,7 +1431,7 @@
       "untested": [
         {
           "point": "特许不仅允许指定方收款，亦可使被冻结财产解冻；解冻这一明确职能尚无实测",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.6",
           "quote_en": "The S for S can licence exceptions to the prohibitions to enable frozen property to be unfrozen",
           "quote_tc": "保安局局長可就禁令批予特許，准許將已凍結的財產解凍",
@@ -1455,7 +1455,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.6",
           "points": [
             "接收MSO向S for S寻求UNATMO特许的书面申请"
@@ -1489,7 +1489,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.7–6.8、¶6.15",
           "points": [
             "网站公布指定人士/实体名单；接收向CE寻求UNSO特许的书面申请"
@@ -1530,28 +1530,28 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.3、¶1.8、¶1.15、¶1.18",
           "points": [
             "发布指引；判断附表2违法时须顾及相关指引；监督CDD/记录及其他AMLO规定；纪律处分"
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶2.3(e)、¶2.6、¶2.16、¶3.19",
           "points": [
             "接收风险评估及不能适用较高海外标准的通知；通知较高风险"
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.3.1、¶4.9.1、¶4.10.2、¶4.15.2、¶4.16.2",
           "points": [
             "可提供/认可身份核实来源及数字身份系统；书面指定高风险/要求EDD或反制措施；通函提示差劣控制地区"
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.14–6.15、¶7.23、¶8.2、¶8.8、¶9.6、¶10.12、¶11.6",
           "points": [
             "提醒制裁名单更新；STR反馈；查阅资料及要求延长保留；接收电汇完整资料及汇款记录"
@@ -1859,7 +1859,7 @@
       "untested": [
         {
           "point": "CCE考虑某人是否违反附表2时须顾及相关指引条文，现有题只测试指引由谁发布及一般监督",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.8",
           "quote_en": "the CCE must have regard to the relevant provision in this Guideline",
           "quote_tc": "關長在考慮某人有否違反附表2的條文時，須顧及本指引內相關的條文",
@@ -1883,14 +1883,14 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.20(a)",
           "points": [
             "警方及海关人员调查有组织罪行与三合会活动"
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶7.31–7.35、¶8.1、¶10.12",
           "points": [
             "执行搜查令/提交令/限制令/没收令，查犯罪情报；调查主管提供期限困难指引；获记录协助追踪及可即时索取完整电汇资料"
@@ -2019,14 +2019,14 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.8、¶1.20(b),(d)",
           "points": [
             "指引可作AMLO诉讼证据并须考虑相关条文；OSCO没收、限制及押记令；接收资料决定适当加重判刑"
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.4、¶7.33–7.34、¶8.1",
           "points": [
             "应CE申请作指定令；定罪后没收犯罪得益及恐怖财产充公；以记录审查过去交易"
@@ -2097,7 +2097,7 @@
       "untested": [
         {
           "point": "AMLO诉讼可接纳指引为证据；相关规定须被法院考虑",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.8",
           "quote_en": "this Guideline is admissible in evidence",
           "quote_tc": "本指引可獲接納為證據",
@@ -2113,7 +2113,7 @@
         },
         {
           "point": "OSCO法院可接收违法者及罪行资料，判断是否适宜加重判刑",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.20(d)",
           "quote_en": "to receive information about an offender and an offence in order to determine whether the imposition of a greater sentence is appropriate",
           "quote_tc": "收取有關違法者及有關罪行的資料，以決定當有關罪行構成有組織／與三合會有關的罪行或其他嚴重罪行時，是否適宜作出更重的判刑",
@@ -2129,7 +2129,7 @@
         },
         {
           "point": "原讼法庭可应CE申请作恐怖分子/关联者/财产指定令",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.4",
           "quote_en": "the Chief Executive may make an application to the Court of First Instance for an order",
           "quote_tc": "行政長官可向原訟法庭提出申請，要求作出命令",
@@ -2153,14 +2153,14 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶3.10、¶6.18、¶7.1、¶7.19–7.26",
           "points": [
             "STR接收方及MLRO对外联络点；确认收报；一般无迫切行动时给予同意；同意不是风险保证"
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶7.11、¶7.17(c)、¶7.23脚注65",
           "points": [
             "推广SAFE/系统查询法；季度报告分析STR、反馈事项，面向全金融行业；经注册访问"
@@ -2348,14 +2348,14 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.10.1(c)(iv)、术语表",
           "points": [
             "非面对面首笔付款的境外机构，应受执行类似HKMA职能的当局监管；HKMA简称含义"
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶10.3脚注68",
           "points": [
             "HKMA发布2010年cover payment参考指引；仅资料出处"
@@ -2389,7 +2389,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.3.1、¶4.11.10、¶4.11.12–4.11.14、术语表",
           "points": [
             "作为身份核实可靠来源；监督适格境外中介；对相关外地FI集体监督延伸至该机构"
@@ -2489,7 +2489,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶3.6",
           "points": [
             "理解MSO风险并确保风险得到管理；在适用情况下由授权委员会参与治理"
@@ -2545,14 +2545,14 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶2.3、¶2.9、¶3.2–3.8",
           "points": [
             "批准风险评估/更新和系统/简化系统；治理、落实系统、委任CO/MLRO；确保任职资格、独立性、资讯、资源等"
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.7.3、¶4.9.3、¶4.9.10、¶4.9.12、¶4.9.17、¶7.27",
           "points": [
             "待核实个案获定期报告、例外第三方付款批准；高风险/PEP关系批准；前PEP解除EDD决定批准；STR后必要升级决定"
@@ -2835,7 +2835,7 @@
       "untested": [
         {
           "point": "须在可行范围确保CO/MLRO完全熟悉适用法规及该MSO业务风险；一般AML知识不等同这一明确要求",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶3.8(f)",
           "quote_en": "fully conversant with the MSO’s statutory and regulatory requirements and the ML/TF risks arising from the MSO’s business",
           "quote_tc": "完全熟悉適用於金錢服務經營者的法定及監管規定，以及金錢服務經營者的業務所產生的洗錢／恐怖分子資金籌集風險",
@@ -2851,7 +2851,7 @@
         },
         {
           "point": "须配备足够资源（包括职员）；替补任命已测但人员/资源保障未测",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶3.8(h)",
           "quote_en": "equipped with sufficient resources, including staff and appropriate cover for the absence of the CO and MLRO",
           "quote_tc": "配備充足資源，包括職員及合規主任及洗錢報告主任的適當替補人選",
@@ -2867,7 +2867,7 @@
         },
         {
           "point": "决定不再对前非香港PEP执行EDD必须由高层批准并已评估不再高风险；现题只否定固定年限",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.9.12",
           "quote_en": "approval of the MSO’s senior management and on the basis that the PEP no longer presents a high risk of ML/TF",
           "quote_tc": "有關決定須獲金錢服務經營者的高級管理層批准，而該政治人物須不再構成高度洗錢／恐怖分子資金籌集風險",
@@ -2893,7 +2893,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶3.7、¶3.9、¶9.5(d)",
           "points": [
             "管理层级；总体建立/维持系统；预防侦测活动中枢",
@@ -3023,7 +3023,7 @@
       "untested": [
         {
           "point": "向高层提供支持和导引，确保风险妥善识别、理解和管理；并非仅上报关键合规问题",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶3.9",
           "quote_en": "providing support and guidance to the senior management to ensure that ML/TF risks are adequately identified, understood and managed",
           "quote_tc": "向高級管理層提供支援及導引，確保妥為識別、了解和管理洗錢／恐怖分子資金籌集風險",
@@ -3047,7 +3047,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶3.7、¶3.10、¶7.9、¶7.16–7.20、¶7.28、¶9.5(e)",
           "points": [
             "高阶职员；内部报告中枢、JFIU/执法联络点；积极识别和报告",
@@ -3300,14 +3300,14 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶3.11–3.13",
           "points": [
             "独立审计直达高层、有专业资源；定期检查系统/风险框架/RBA、STR系统、合规、员工意识；频率适合业务风险及适当外审"
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.11.13、¶5.8、¶10.13",
           "points": [
             "集团职能定期独立复核相关外地FI持续遵守集团政策；可验证监察系统及测试汇出资料控制"
@@ -3500,7 +3500,7 @@
       "untested": [
         {
           "point": "集团合规/审计等职能应定期且独立复核相关外地FI持续遵守集团政策，不能仅以一般审计/监管已测替代",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.11.13",
           "quote_en": "regular and independent reviews over its ongoing compliance with the group policy conducted by any group-level compliance, audit or other similar AML/CFT functions",
           "quote_tc": "受到任何集團層面的合規、審核或其他類似的打擊洗錢／恐怖分子資金籌集職能的定期和獨立的覆核",
@@ -3524,7 +3524,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.17、¶6.12、¶7.10–7.16、¶9.1–9.5(a)",
           "points": [
             "员工/管理参与人有个人法律责任；认识MSO及个人CDD/记录/STR/其他责任和后果",
@@ -3779,7 +3779,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶9.5(b)",
           "points": [
             "潜在洗钱者第一接触点；须获与岗位相关CDD/记录程序训练及识别疑点、报告线和加强警觉训练"
@@ -3850,7 +3850,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶9.5(c)",
           "points": [
             "按职责接受客户核实及处理程序培训；识别异常结算、付款或交付指示"
@@ -3899,7 +3899,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶7.13、¶9.5(d)",
           "points": [
             "可在报告前供员工咨询，但无报告/合规职责者不得过滤报告；尽量缩短报告链",
@@ -4008,7 +4008,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶2.7–2.8、¶3.15–3.19",
           "points": [
             "本地注册MSO有分支须集团评估；评估反映本地风险",
@@ -4016,7 +4016,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.19",
           "points": [
             "海外办事处可维持名单或筛查，但MSO最终责任不转移"
@@ -4367,7 +4367,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶2.4(d)、¶4.11.2、¶7.10(e)、¶10.1",
           "points": [
             "代理外判按MSO程序及管控执行CDD，区别独立第三方中介自用程序",
@@ -4476,7 +4476,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.11.1–4.11.14、¶8.10–8.12",
           "points": [
             "可受委托执行部分CDD，自用程序且客户关系独立；MSO仍负最终责任；须书面同意并及时供资料/文件",
@@ -4720,7 +4720,7 @@
       "untested": [
         {
           "point": "不得依赖中介持续监察客户关系；可代收更新资料不等于承接持续监察责任",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.11.1脚注44",
           "quote_en": "an MSO cannot rely on an intermediary to continuously monitor its business relationship with a customer",
           "quote_tc": "金錢服務經營者不可為遵從附表2第5條的規定而依賴中介人持續監察該金錢服務經營者與客戶的業務關係",
@@ -4744,7 +4744,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "附录A ¶7–10及脚注74–76",
           "points": [
             "独立合适且看过原件；签署/日期/大楷姓名/身分职衔，并声明真确副本",
@@ -4816,7 +4816,7 @@
       "untested": [
         {
           "point": "必须声明是真确副本，不能只有签名、日期和身分",
-          "doc": "02",
+          "doc": "03",
           "locator": "附录A ¶9",
           "quote_en": "The certifier should state that it is a true copy of the original",
           "quote_tc": "證明人必須說明該複本文件為正本文件的真確複本",
@@ -4832,7 +4832,7 @@
         },
         {
           "point": "客户内部专业人士认证例外的两个条件：受专业操守约束且以专业身分认证",
-          "doc": "02",
+          "doc": "03",
           "locator": "附录A 脚注74",
           "quote_en": "if that professional person is subject to the professional conduct requirements of a relevant professional body, and has certified the copy documents in his or her professional capacity",
           "quote_tc": "惟該專業人士本身須遵守相關專業團體的專業操守規定，並已經以其專業身分認證該等文件複本",
@@ -4848,7 +4848,7 @@
         },
         {
           "point": "对等司法管辖区司法人員、太平绅士及其他专业认证人类别未直接辨识；只测使领馆人员不足覆盖完整候选类别",
-          "doc": "02",
+          "doc": "03",
           "locator": "附录A ¶8(b),(d),(e)",
           "quote_en": "a member of the judiciary in an equivalent jurisdiction",
           "quote_tc": "在對等司法管轄區的司法人員",
@@ -4872,7 +4872,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶5.5",
           "points": [
             "须及时获得充分资料，以识别、分析和有效监察客户交易"
@@ -4883,7 +4883,7 @@
       "untested": [
         {
           "point": "系统须向执行监察与调查的相关人员提供及时、充分资料；CO/MLRO一般资料权不覆盖本岗位",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶5.5",
           "quote_en": "provide all relevant staff who are tasked with conducting transaction monitoring and investigation with timely and sufficient information",
           "quote_tc": "向所有負責執行交易監察及調查的相關職員提供適時而充分的資料",
@@ -4907,7 +4907,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶10.1–10.13",
           "points": [
             "按所担任角色及所在地规定履责；MSO本人是汇款/收款人时非这类机构",
@@ -5122,7 +5122,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶10.14–10.18",
           "points": [
             "随转账保留并转送全部资料；技术限制时保留至少五年",
@@ -5201,7 +5201,7 @@
       "untested": [
         {
           "point": "收到看似所需但不完整或无意义的资料时，中介机构本身也负有迅速减低风险义务；现有同项只测试收款机构",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶10.18",
           "quote_en": "If the intermediary institution is aware that the accompanying information that purports to be the required originator information or required recipient information is incomplete or meaningless, it must as soon as reasonably practicable take reasonable measures to mitigate the risk of ML/TF involved.",
           "quote_tc": "如中介機構察覺到附隨於電傳轉帳看來是所需匯款人資料或所需收款人資料並不完整，或不具意義，它須在合理地切實可行的範圍內，盡快採取合理措施，減低所涉的洗錢／恐怖分子資金籌集的風險。",
@@ -5225,7 +5225,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶10.19–10.22",
           "points": [
             "识别本地/跨境入账缺资料，可事后监察；风险为本执行/拒绝/暂停及跟进",
@@ -5233,7 +5233,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶7.19第二段",
           "points": [
             "若MSO控制汇款及收款两端，须在可疑电汇影响的司法管辖区报告并提供交易资料"
@@ -5310,7 +5310,7 @@
       "untested": [
         {
           "point": "指引要求国内电汇也取得全部缺失所需汇款人/收款人资料；现m3-294#2只测法例的汇款人账号/编号",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶10.20",
           "quote_en": "if a domestic or cross-border wire transfer is not accompanied by the required originator information or required recipient information, the beneficiary institution must as soon as reasonably practicable, obtain the missing information",
           "quote_tc": "如本地或跨境電傳轉帳並無附隨所需匯款人資料或所需收款人資料，收款機構須在合理地切實可行的範圍內，盡快向發出轉帳指示予它的機構",
@@ -5326,7 +5326,7 @@
         },
         {
           "point": "同时控制两端的MSO须向每个受影响司法管辖区报告可疑电汇；仅考虑双方资料不等于此责任",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶7.19第二段",
           "quote_en": "file an STR in any jurisdiction affected by the suspicious wire transfer",
           "quote_tc": "便應在受可疑電傳轉帳影響的司法管轄區提交可疑交易報告",
@@ -5350,7 +5350,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶10.3脚注68",
           "points": [
             "列为2009年跨境电汇cover payment尽职审查及透明度参考文件的发布者"
@@ -5368,7 +5368,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "附录A ¶2–5及脚注76",
           "points": [
             "政府/国家主管机关是身份证件或驾驶证颁发来源；入境事务处处长颁发澳门居民许可证",
@@ -5419,7 +5419,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1；ss26–47",
           "points": [
             "法定关长包括副关长、助理关长和获转授职能者",
@@ -5537,7 +5537,7 @@
       "untested": [
         {
           "point": "不得转授第26条转授职能本身；现题只具体考了第51条订规例",
-          "doc": "10",
+          "doc": "04",
           "locator": "s26(2)",
           "quote_en": "The Commissioner of Customs and Excise must not delegate \nany of the functions under this section or section 51.",
           "quote_tc": "海關關長不得轉授本條或第51 條所指的職能。",
@@ -5554,7 +5554,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 relevant authority(a), Monetary Authority",
           "points": [
             "是认可机构、SVF 持牌人及稳定币持牌人的有关当局",
@@ -5569,7 +5569,7 @@
       "reference_points": [
         {
           "point": "金融管理专员与认可信贷机构、SVF、稳定币三个类别的对应关系",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 relevant authority(a)",
           "quote_en": "in relation to an authorized institution, SVF licensee \nor stablecoin licensee, means the Monetary Authority;",
           "quote_tc": "就認可機構、工具持牌人或穩定幣持牌人而言，指\n金融管理專員；",
@@ -5584,7 +5584,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 relevant authority(b),(f)",
           "points": [
             "持牌法团的有关当局",
@@ -5599,7 +5599,7 @@
       "reference_points": [
         {
           "point": "SFC 对应持牌法团",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 relevant authority(b)",
           "quote_en": "in relation to a licensed corporation, means the \nSecurities and Futures Commission;",
           "quote_tc": "就持牌法團而言，指證監會；",
@@ -5608,7 +5608,7 @@
         },
         {
           "point": "SFC 对应持牌 VAS 及有联系实体",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 relevant authority(f)",
           "quote_en": "in relation to a licensed VAS provider or an associated \nentity of a licensed VAS provider, means the Securities \nand Futures Commission;",
           "quote_tc": "就持牌虛擬資產服務提供者或持牌虛擬資產服務提\n供者的有聯繫實體而言，指證監會；",
@@ -5623,7 +5623,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 relevant authority(c)",
           "points": [
             "获授权保险人、个人保险代理、保险代理机构及经纪公司的有关当局"
@@ -5637,7 +5637,7 @@
       "reference_points": [
         {
           "point": "保监局对应保险人及三类保险中介",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 relevant authority(c)",
           "quote_en": "in relation to an authorized insurer, licensed individual \ninsurance agent, licensed insurance agency or licensed \ninsurance broker company, means the Insurance \nAuthority;",
           "quote_tc": "就獲授權保險人、持牌個人保險代理、持牌保險代\n理機構或持牌保險經紀公司而言，指保監局；",
@@ -5652,7 +5652,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 Registrar, relevant authority(e)",
           "points": [
             "Registrar 包括公司注册处处长及获法定转授者",
@@ -5684,7 +5684,7 @@
       "reference_points": [
         {
           "point": "TCSP 的有关当局是 Registrar，不是 regulatory body 三类专业监管机构",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 relevant authority(e)",
           "quote_en": "in relation to a TCSP licensee, means the Registrar;",
           "quote_tc": "就信託或公司服務持牌人而言，指處長；",
@@ -5693,7 +5693,7 @@
         },
         {
           "point": "Registrar 定义包括处长的获转授职能者",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 Registrar",
           "quote_en": "the Registrar of Companies; or",
           "quote_tc": "公司註冊處處長；或",
@@ -5708,7 +5708,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 regulatory body(a)；ss4,7",
           "points": [
             "会计专业人士的监管机构通常是 AFRC",
@@ -5724,7 +5724,7 @@
       "reference_points": [
         {
           "point": "会计专业人士通常由 AFRC 作为 regulatory body",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 regulatory body(a)(i)",
           "quote_en": "(subject to subparagraphs (ii) and (iii)) the AFRC;",
           "quote_tc": "( 除第(ii) 及(iii) 節另有規定外) 指會財局；",
@@ -5733,7 +5733,7 @@
         },
         {
           "point": "HKICPA 的指引职能与 AFRC 监督须区分",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 regulatory body(a)(iii)",
           "quote_en": "the \nHKICPA as overseen by the AFRC under section \n9(b) of the Accounting and Financial Reporting \nCouncil Ordinance",
           "quote_tc": "指會財局根據《會\n計及財務匯報局條例》( 第588 章) 第9(b) 條所\n監督的香港會計師公會；",
@@ -5742,7 +5742,7 @@
         },
         {
           "point": "民事豁免规则中的主体可为 AFRC 或 HKICPA",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 regulatory body(a)(ii)",
           "quote_en": "(for the purposes of section 4) the AFRC or the \nHKICPA;",
           "quote_tc": "( 就第4 條而言) 指會財局或香港會計師公會；",
@@ -5757,7 +5757,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 regulatory body(c)；s7(5A)",
           "points": [
             "法律专业人士的 regulatory body 是律师会",
@@ -5772,7 +5772,7 @@
       "reference_points": [
         {
           "point": "法律专业人士与律师会的监管对应",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 regulatory body(c)",
           "quote_en": "a legal professional—means the Law Society;",
           "quote_tc": "就法律專業人士而言—— 指律師會；",
@@ -5787,7 +5787,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 regulatory body(b), estate agent",
           "points": [
             "地产代理及持牌营业员属 estate agent 类别",
@@ -5802,7 +5802,7 @@
       "reference_points": [
         {
           "point": "地产代理监管归属",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 regulatory body(b)",
           "quote_en": "an estate agent—means the Estate Agents Authority;",
           "quote_tc": "就地產代理而言—— 指地產代理監管局；",
@@ -5817,7 +5817,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "ss2(2),6,54–58；Sch4ss2–4",
           "points": [
             "Part6 的 Secretary 指财库局局长，区别财政司司长",
@@ -5883,7 +5883,7 @@
       "untested": [
         {
           "point": "财库局局长亦可修订 Sch1Pt2 的定义条文",
-          "doc": "10",
+          "doc": "04",
           "locator": "s2(2)",
           "quote_en": "The Secretary for Financial Services and the Treasury may, by \nnotice published in the Gazette, amend Part 2 of Schedule 1.",
           "quote_tc": "財經事務及庫務局局長可藉憲報公告修訂附表1 第2 部。",
@@ -5900,7 +5900,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "s11(2)；Sch4s6(11)(a)",
           "points": [
             "同意关长委任非海关公职人员担任调查员",
@@ -5935,7 +5935,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "s77",
           "points": [
             "可为法例施行订规例，但排除 Part5/5A/5B/5C",
@@ -5985,7 +5985,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "ss12(10),79(3),76D",
           "points": [
             "须同意有关当局公布调查员报告",
@@ -6044,7 +6044,7 @@
       "untested": [
         {
           "point": "有关当局自行检控不减损律政司司长刑事检控权",
-          "doc": "10",
+          "doc": "04",
           "locator": "s79(3)",
           "quote_en": "This section does not derogate from the powers of the \nSecretary for Justice in respect of the prosecution of criminal \noffences.",
           "quote_tc": "本條並不減損律政司司長在檢控刑事罪行方面的權力。",
@@ -6061,7 +6061,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "ss14,21(5)/(6),43(5)/(6),68",
           "points": [
             "处理不遵从视察/调查要求，命令遵从及藐视处罚",
@@ -6141,7 +6141,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "ss17,29(3),47,79",
           "points": [
             "根据经宣誓告发发出视察/调查搜查手令",
@@ -6214,7 +6214,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "ss71–74",
           "points": [
             "对审裁处裁定的上诉须上诉法庭许可",
@@ -6264,7 +6264,7 @@
       "untested": [
         {
           "point": "已提出上诉时，上诉法庭也能应申请暂缓审裁处裁定",
-          "doc": "10",
+          "doc": "04",
           "locator": "s73(2)",
           "quote_en": "If an appeal is lodged under section 71, the Court of Appeal \nmay, on an application made to it by any party to the review, \norder a stay of execution of the determination of the Tribunal \nappealed against.",
           "quote_tc": "如有上訴根據第71 條針對某裁定提出，上訴法庭可應有\n關覆核的任何一方向它提出的申請，命令暫緩執行該裁\n定。",
@@ -6281,7 +6281,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "ss54–70",
           "points": [
             "正式名称为 Review Tribunal，不是 Appeal Tribunal",
@@ -6465,7 +6465,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "s56(2),76；Sch4ss3,6–9",
           "points": [
             "主席须合资格任高院法官且原则非公职人员",
@@ -6617,7 +6617,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "s56；Sch4ss1,2,4–6",
           "points": [
             "委员团由局长委任且非公职人员",
@@ -6703,7 +6703,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "s54 parties；Sch4s6(9),(11)",
           "points": [
             "双方是申请人及作决定的指明当局",
@@ -6777,7 +6777,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "ss3,4,21(9)",
           "points": [
             "法例原则适用于政府",
@@ -6843,7 +6843,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "ss8,9,17",
           "points": [
             "第9条获授权人可为获有关当局书面授权的任何人/类别，不限海关人员",
@@ -6959,7 +6959,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "ss8,11,12,15",
           "points": [
             "由有关当局指示或委任调查；关长委任非海关公职人员须财政司司长同意",
@@ -7083,7 +7083,7 @@
       "untested": [
         {
           "point": "受涵盖的人还包括合理相信握有相关记录或信息的人，而不限调查对象",
-          "doc": "10",
+          "doc": "04",
           "locator": "s12(1)(b),(c)",
           "quote_en": "a person whom an investigator has reasonable cause to \nbelieve to be otherwise in possession of information \nrelevant to an investigation under section 11.",
           "quote_tc": "調查員有合理因由相信，該人以其他方式管有攸關\n根據第11 條進行的調查的資料。",
@@ -7100,7 +7100,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "ss24,46–48",
           "points": [
             "关长书面委任海关公职人员，区别第9条可授权任何人的 authorized person",
@@ -7230,7 +7230,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "s5(7)–(9)",
           "points": [
             "违法主体不仅金融机构，还可能是员工、受雇为机构工作者和管理人员",
@@ -7266,7 +7266,7 @@
       "untested": [
         {
           "point": "个人违法主体还包括受雇为金融机构工作者，不能只认在册员工或管理人员",
-          "doc": "10",
+          "doc": "04",
           "locator": "s5(7),(8)",
           "quote_en": "a person who is an employee of a financial institution or is \nemployed to work for a financial institution or is concerned \nin the management of a financial institution",
           "quote_tc": "任何屬金融機構的僱員、或受僱為金融機構工作、或關\n涉金融機構的管理的人",
@@ -7283,7 +7283,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "ss24,30,35–42；Sch1Pt2s1 licensed money service operator",
           "points": [
             "持牌 MSO 是持有第24条意义牌照者，牌照包括续期及历史当作批给者",
@@ -7406,7 +7406,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "s24 ultimate owner",
           "points": [
             "个体经营者的最终拥有/控制者或所代表的人",
@@ -7486,7 +7486,7 @@
       "untested": [
         {
           "point": "法团最终拥有人的股本/投票权/最终管理控制三路资格，不能仅依客户 BO 题推定已考",
-          "doc": "10",
+          "doc": "04",
           "locator": "s24 ultimate owner(c)",
           "quote_en": "in relation to a corporation, means an individual who—\n\t\n(i)\t\nowns or controls, directly or indirectly, including \nthrough a trust or bearer share holding, more than \n25% of the issued share capital of the corporation;\n\t\n(ii)\t\nis, directly or indirectly, entitled to exercise or \ncontrol the exercise of more than 25% of the voting \nrights at general meetings of the corporation; or\n\t\n(iii)\t\nexercises ultimate control over the management of \nthe corporation.",
           "quote_tc": "就法團而言，指符合以下說明的個人 ——\n\t\n(i)\t\n直接或間接地擁有或控制( 包括透過信託或持\n票人股份持有)該法團已發行股本的25% 以上；\n\t\n(ii)\t\n直接或間接地有權行使在該法團的成員大會上\n的投票權的25% 以上，或支配該比重的投票權\n的行使；或\n\t\n(iii)\t\n可行使對該法團的管理最終的控制權；",
@@ -7495,7 +7495,7 @@
         },
         {
           "point": "合伙最终拥有人还包括超过25%投票权控制者，现题只明确资本/利润和管理控制",
-          "doc": "10",
+          "doc": "04",
           "locator": "s24 ultimate owner(b)(ii)",
           "quote_en": "is, directly or indirectly, entitled to exercise or \ncontrol the exercise of more than 25% of the \nvoting rights in the partnership;",
           "quote_tc": "直接或間接地有權行使在該合夥的投票權的\n25% 以上，或支配該比重的投票權的行使；",
@@ -7518,7 +7518,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1；s24 director",
           "points": [
             "法团包含香港或海外成立的法人团体",
@@ -7576,7 +7576,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt1s1 money service, money changing service, currency",
           "points": [
             "金钱服务为兑换或汇款，做其中一种即包括",
@@ -7627,7 +7627,7 @@
       "untested": [
         {
           "point": "货币兑换服务的在香港作为业务经营这一基础适用边界",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt1s1 money changing service",
           "quote_en": "means a service for the \nexchanging of currencies that is operated in Hong Kong as a \nbusiness",
           "quote_tc": "指在香港作為業務經營\n的貨幣兌換服務",
@@ -7644,7 +7644,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt1ss1,3；Sch2s13(3)",
           "points": [
             "汇款服务为在港经营的送往境外/从境外收取/安排境外收取之一",
@@ -7725,7 +7725,7 @@
       "untested": [
         {
           "point": "从境外收款／安排收款也是汇款服务，不能把服务范围误缩为向境外汇出交易",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt1s1 remittance service(b)",
           "quote_en": "receiving, or arranging for the receipt of, money from a \nplace outside Hong Kong;",
           "quote_tc": "從香港以外地方或安排從香港以外地方收取金錢；",
@@ -7742,7 +7742,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 financial institution, Postmaster General；s20A",
           "points": [
             "MSO 是 AMLO 的金融机构；不是只指银行",
@@ -7822,7 +7822,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt1 trust or company service；Sch1Pt2s1 DNFBP, accounting professional, estate agent, legal professional, TCSP licensee；s5A",
           "points": [
             "DNFBP 指五类：会计专业、地产代理、法律专业、TCSP、贵金属及宝石B类注册人",
@@ -7859,7 +7859,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt2s1 customer；Sch2s1 business relationship, occasional transaction, pre-existing customer",
           "points": [
             "业务/专业/商业关系包含延续要素或机构首次接触时预期延续",
@@ -7968,7 +7968,7 @@
       "untested": [
         {
           "point": "先前客户是法例生效前已建立关系的客户，不是泛指任何旧客户；MSO日期为2012-04-01",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s1 pre-existing customer(a)",
           "quote_en": "means a customer with whom \nthe financial institution has established a business \nrelationship before 1 April 2012;",
           "quote_tc": "指在2012 年4 月1 日前已與該金融機構建\n立業務關係的客户；",
@@ -7985,7 +7985,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s1 beneficial owner(a),(b)",
           "points": [
             "客户 BO 与持牌人 ultimate owner 对象不同",
@@ -8087,7 +8087,7 @@
       "untested": [
         {
           "point": "合伙 BO 的超过25%投票权控制是独立资格，不能只识别资本/利润",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s1 beneficial owner(b)(i)(B)",
           "quote_en": "is, directly or indirectly, entitled to exercise or \ncontrol the exercise of more than 25% of the \nvoting rights in the partnership;",
           "quote_tc": "直接或間接地有權行使在該合夥的投票權的\n25% 以上，或支配該比重的投票權的行使；",
@@ -8096,7 +8096,7 @@
         },
         {
           "point": "法团／合伙代表另一人行事时，BO 包括被代表者",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s1 beneficial owner(a)(ii),(b)(ii)",
           "quote_en": "if the corporation is acting on behalf of another \nperson, means the other person;",
           "quote_tc": "( 如該法團是代表另一人行事) 指該另一人；",
@@ -8117,7 +8117,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s1 beneficial owner(c),(d)",
           "points": [
             "信托受益人/类别、财产授予人、受托人、保护人/执行人及最终控制人",
@@ -8168,7 +8168,7 @@
       "untested": [
         {
           "point": "不是法团、合伙或信托的其他人仍有 BO 兜底定义，不能当成无需识别 BO",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s1 beneficial owner(d)(i)",
           "quote_en": "means an individual who ultimately owns or \ncontrols the person;",
           "quote_tc": "最終擁有或控制該人的任何個人；",
@@ -8177,7 +8177,7 @@
         },
         {
           "point": "其他类别的人代表另一人行事时，BO 包括该另一人",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s1 beneficial owner(d)(ii)",
           "quote_en": "if the person is acting on behalf of another person, \nmeans the other person;",
           "quote_tc": "( 如該人是代表另一人行事) 該另一人；",
@@ -8194,7 +8194,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s1 politically exposed person, former politically exposed person；s1(2),(3)",
           "points": [
             "法定 PEP 为香港以外重要公职及列明亲属/密切关系者，排除中级低级官员",
@@ -8308,7 +8308,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s1 Financial Action Task Force, equivalent jurisdiction",
           "points": [
             "FATF 是法例使用的国际组织名称",
@@ -8366,7 +8366,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s1 public body, legal person",
           "points": [
             "公共机构覆盖法定/公职公共职能机构及有关董事会委员会",
@@ -8438,7 +8438,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s1(4),s12(6),(8)–(11),s13(3)",
           "points": [
             "电汇是机构代表人以电子方式转款；收款人可为汇款人本人",
@@ -8599,7 +8599,7 @@
       "untested": [
         {
           "point": "没有扣款账户时，电汇汇款人是发出转账指示的人",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s12(11) originator(b)",
           "quote_en": "in the absence of such an account, the person who \ninstructs the ordering institution to carry out the wire \ntransfer.",
           "quote_tc": "( 如沒有此戶口) 指示匯款機構進行該項轉賬的人。",
@@ -8608,7 +8608,7 @@
         },
         {
           "point": "非电汇汇款的 originator 也先看扣款户口持有人，不能只凭谁传递指令判断",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s13(3) originator(a)",
           "quote_en": "the person from whose account with the licensed money \nservice operator the money for the remittance is paid;",
           "quote_tc": "符合以下說明的人：該人在持牌金錢服務經營者開\n立戶口，而該項交易所涉金錢，是自該戶口匯出的；",
@@ -8625,7 +8625,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s12(2),(11)",
           "points": [
             "本地电汇要求所有参与机构均为位于香港的金融机构",
@@ -8675,7 +8675,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s18(2)–(7)",
           "points": [
             "专业中介、指定金融机构、对等司法管辖区中介及同集团外地金融机构四路资格",
@@ -8849,7 +8849,7 @@
       "untested": [
         {
           "point": "非香港成立且不是迁册实体者，其总行／总行分行也可符合相关外地金融机构定义",
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s18(7) related foreign financial institution(b)(iii)",
           "quote_en": "it is the head office of the financial institution;",
           "quote_tc": "該另一機構是該金融機構的總行；",
@@ -8866,7 +8866,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s1 customer due diligence measures；s2(1)",
           "points": [
             "CDD 包含客户、BO、关系目的/性质、PPTA 四项；持续监察另为独立义务",
@@ -9010,7 +9010,7 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch2s1 identification document, recognized digital identification system, re-domiciled entity",
           "points": [
             "个人、香港公司、注册非香港公司、海外法团、香港/海外合伙的法定文件有区别",
@@ -9119,7 +9119,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Sch1Pt1s1 money laundering, terrorist financing；Sch1Pt2s1 property",
           "points": [
             "洗钱的意图、可公诉罪行收益、间接/部分及境外行为",
@@ -9257,7 +9257,7 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "ss1,5–7；Sch1–4",
           "points": [
             "法例简称不再带 Financial Institutions 括注",
@@ -9345,7 +9345,7 @@
       "untested": [
         {
           "point": "非附属法例不等于无法律作用：不遵指引本身不自动成罪，但可作证据且法院须考虑相关内容",
-          "doc": "10",
+          "doc": "04",
           "locator": "s7(4)",
           "quote_en": "A failure by any person to comply with a provision in any \nguideline published under this section does not by itself \nrender the person liable to any judicial or other proceedings \nbut, in any proceedings under this Ordinance before any court, \nthe guideline is admissible in evidence; and if any provision \nset out in the guideline appears to the court to be relevant to \nany question arising in the proceedings, the provision must be \ntaken into account in determining that question.",
           "quote_tc": "如任何人沒有遵守根據本條公布的指引的條文，此事本\n身不會令致該人可在任何司法或其他法律程序中被起訴，\n但在根據本條例提起而於任何法院進行的法律程序中，\n該指引可獲接納為證據；及如該法院覺得該指引內所列\n條文，攸關該法律程序中產生的任何問題，該法院在裁\n斷該問題時，須考慮該條文。",
@@ -9354,7 +9354,7 @@
         },
         {
           "point": "有关当局判断有否违反附表2时，也须顾及相关指引",
-          "doc": "10",
+          "doc": "04",
           "locator": "s7(5)",
           "quote_en": "a relevant authority or a regulatory body must \nhave regard to any provision in the guideline published under \nthis section that is relevant to the requirement.",
           "quote_tc": "有關當局或監管機構在考慮某人有否違反附表2 的條文\n時，須顧及根據本條公布的指引內攸關有關規定的任何\n條文。",
@@ -9371,7 +9371,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "s8 prescribed person, prescribed requirement, business premises",
           "points": [
             "MSO 为金融机构，因此属于可受第9条例行视察的订明人士",
@@ -9443,7 +9443,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "s54 specified decision, specified authority；s61",
           "points": [
             "MSO 指明当局是关长，审裁处对象是法定列明行政决定",
@@ -9544,7 +9544,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "Part6A ss76A–76G",
           "points": [
             "指明人士包含现任/前任相关职员、代理、顾问和协助者",
@@ -9688,7 +9688,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "10",
+          "doc": "04",
           "locator": "s8 business premises；s30(3)/(4)；s32",
           "points": [
             "MSO 的经营处所依许可证所列处所判断",
@@ -10218,14 +10218,14 @@
           ]
         },
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶5.3、12.2",
           "points": [
             "电子申请及公开登记册"
           ]
         },
         {
-          "doc": "16",
+          "doc": "15",
           "locator": "¶6",
           "points": [
             "提交定期申报表"
@@ -10289,14 +10289,14 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶5.1、15.1",
           "points": [
             "收取牌照申请及提供表格／查询"
           ]
         },
         {
-          "doc": "06",
+          "doc": "20",
           "locator": "引言",
           "points": [
             "从反洗钱角度研究申请人整项业务运作，理解拟营业务及模式"
@@ -10330,7 +10330,7 @@
       "untested": [
         {
           "point": "监理科有责任从反洗钱及反恐融资角度研究整项业务运作",
-          "doc": "06",
+          "doc": "20",
           "locator": "引言",
           "quote_en": "The MSSB is obliged to look into the applicant’s entire business operation from the anti-money laundering and counter-terrorist financing (“AML/CFT”) perspective.",
           "quote_tc": "金錢服務監理科有責任從打擊洗錢及恐怖分子資金籌集的角度研究申請人整項業務運作。",
@@ -10346,7 +10346,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶1.1、4.1、5.4–5.10、7、8、11、13",
           "points": [
             "规管金钱服务经营者；发牌和适当人选审查",
@@ -10599,7 +10599,7 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶1.2–1.3",
           "points": [
             "对拟经营／已经营的个人和法团说明发牌、申请、持续责任及不当行为后果"
@@ -10691,14 +10691,14 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶2.1–2.2",
           "points": [
             "货币兑换或汇款服务；经营者须申请"
           ]
         },
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "发牌FAQ3、5",
           "points": [
             "经营兑换或汇款的个人或机构为MSO"
@@ -10747,7 +10747,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶2.3",
           "points": [
             "香港作为业务经营的货币兑换",
@@ -10783,7 +10783,7 @@
       "untested": [
         {
           "point": "附带于主要业务的兑换服务例外，例如零售交易接受外币",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶2.3",
           "quote_en": "but does not include such a service that is incidental to the main business e.g. retail business accepting foreign currencies in transactions",
           "quote_tc": "但不包括附帶於主要業務的該等服務，例如在交易中接受外幣的零售業務",
@@ -10799,7 +10799,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶2.4(a)–(c)",
           "points": [
             "送往／安排送往境外",
@@ -10843,7 +10843,7 @@
       "untested": [
         {
           "point": "从香港以外接收或安排接收款项也是汇款服务",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶2.4(b)",
           "quote_en": "receiving, or arranging for the receipt of, money from a place outside Hong Kong;",
           "quote_tc": "從香港以外地方或安排從香港以外地方收取金錢；",
@@ -10859,7 +10859,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶3.1",
           "points": [
             "政府、认可机构及附带经营金钱服务的指定金融机构类别"
@@ -10936,7 +10936,7 @@
       "untested": [
         {
           "point": "政府也不适用牌照要求；现有题没有直接命中该主体",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶3.1",
           "quote_en": "the MSO licensing requirement does not apply to the Government",
           "quote_tc": "金錢服務經營者的發牌規定不適用於政府",
@@ -10944,7 +10944,7 @@
         },
         {
           "point": "工具持牌人附属业务豁免，不能以只测工具持牌人名词替代",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶3.1(f)",
           "quote_en": "an SVF licensee that operates a money service that is ancillary to the licensee’s principal business;",
           "quote_tc": "經營金錢服務的工具持牌人（前提是該服務附屬於該持牌人的主要業務）；",
@@ -10960,7 +10960,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶3.2–3.9",
           "points": [
             "把各术语转介银行业、证券及期货、保险和支付系统法例；工具持牌人是获支付系统条例牌照者"
@@ -10994,21 +10994,21 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.1、4.3、5.7",
           "points": [
             "逐一审核所列控制人；适当人选声明及考虑因素"
           ]
         },
         {
-          "doc": "04",
+          "doc": "10",
           "locator": "¶1–6",
           "points": [
             "关长发牌时按法定及其他相关因素判断"
           ]
         },
         {
-          "doc": "05",
+          "doc": "11",
           "locator": "¶1–5",
           "points": [
             "独资／每名合伙人／每名董事及最终拥有人；按个案及相关因素持续满足适当人选"
@@ -11158,7 +11158,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.2.1–4.2.3",
           "points": [
             "个人：最终拥有／控制者或被代表人",
@@ -11230,7 +11230,7 @@
       "untested": [
         {
           "point": "合伙的投票权超过25%路径未直接测试",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.2.2(b)",
           "quote_en": "is, directly or indirectly, entitled to exercise or control the exercise of more than 25% of the voting rights in the partnership;",
           "quote_tc": "直接或間接地有權行使在該合夥的投票權的25%以上，或支配該比重的投票權的行使；",
@@ -11238,7 +11238,7 @@
         },
         {
           "point": "法团最终拥有人：直接或间接拥有／控制股本超过25%（包括信托／持票人股份），不能以客户实益拥有人题替代",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.2.3(a)",
           "quote_en": "owns or controls, directly or indirectly, including through a trust or bearer share holding, more than 25% of the issued share capital of the corporation;",
           "quote_tc": "直接或間接地擁有或控制(包括透過信託或持票人股份持有)該法團已發行股本的25%以上；",
@@ -11246,7 +11246,7 @@
         },
         {
           "point": "法团最终拥有人的另外两条路径：投票权超过25%或最终管理控制；董事身份本身不足",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.2.3(b)–(c)",
           "quote_en": "is, directly or indirectly, entitled to exercise or control the exercise of more than 25% of the voting rights at general meetings of the corporation; or (c) exercises ultimate control over the management of the corporation.",
           "quote_tc": "直接或間接地有權行使在該法團的成員大會上的投票權的25%以上，或支配該比重的投票權的行使；或 (c) 可行使對該法團的管理最終的控制權。",
@@ -11262,7 +11262,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.4–4.5",
           "points": [
             "经营货币兑换／汇款的处所；占用／宣传会客／经常控制的例子",
@@ -11304,7 +11304,7 @@
       "untested": [
         {
           "point": "宣传为会见客户地点的处所例子",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.4(b)",
           "quote_en": "the premises are advertised (including a signboard on display) for meeting customers there;",
           "quote_tc": "該處所被宣傳（包括展示招牌）為用作會見客戶的處所；",
@@ -11312,7 +11312,7 @@
         },
         {
           "point": "没有固定处所的上门服务例子未被题句直接覆盖",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.5(a)",
           "quote_en": "operating a money service without any fixed premises, e.g. door‐to‐door service;",
           "quote_tc": "在沒有固定處所的情況下經營金錢服務，例如提供上門服務；",
@@ -11320,7 +11320,7 @@
         },
         {
           "point": "特定处所的经常控制例子：持牌人为业主或租户",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.4(c)",
           "quote_en": "the premises are regularly controlled by the licensee, i.e. being a landlord or a tenant.",
           "quote_tc": "該處所經常受到持牌人的控制，即以業主或租戶的身分。",
@@ -11328,7 +11328,7 @@
         },
         {
           "point": "没有特定处所的移动电子设备交易例子；双语only差异受E13约束",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.5(c)",
           "quote_en": "conducting transactions with the use of mobile electronic devices.",
           "quote_tc": "只使用流動電子設備進行交易。",
@@ -11344,7 +11344,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.5、4.7",
           "points": [
             "无特定处所者的香港实体管理／通讯地点",
@@ -11409,7 +11409,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.10–4.11",
           "points": [
             "所有申请人均须有；本港实体地点保存全套交易记录",
@@ -11458,14 +11458,14 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.12",
           "points": [
             "关长根据第9(12)条授权任何人"
           ]
         },
         {
-          "doc": "23",
+          "doc": "02",
           "locator": "例2第2句",
           "points": [
             "住宅处所须获每名占用人同意供获授权人执行法定权力"
@@ -11564,7 +11564,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.15(a)、11.3",
           "points": [
             "合规主任为制度与合规监督中心；洗钱报告主任为报告中央联络点",
@@ -11572,14 +11572,14 @@
           ]
         },
         {
-          "doc": "05",
+          "doc": "11",
           "locator": "¶6(g)",
           "points": [
             "有足够资历权力的合规主任监督制度建立及维持"
           ]
         },
         {
-          "doc": "07",
+          "doc": "21",
           "locator": "项目1、13–14",
           "points": [
             "合规职能与报告职能、汇报线"
@@ -11672,7 +11672,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶4.15(c)",
           "points": [
             "税务局局长发商业登记证；在港经营业务须登记"
@@ -11713,7 +11713,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶5.8",
           "points": [
             "海关获授权人员、执业专业人士、公证人、太平绅士",
@@ -11748,7 +11748,7 @@
       "untested": [
         {
           "point": "见证人还须证明声明人在其面前签署，不止检查正本",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶5.8",
           "quote_en": "The witness shall also certify that this Appendix I is signed by the declarant in his or her presence.",
           "quote_tc": "見證人亦須證明聲明人在其在場情況下簽署該附錄I。",
@@ -11764,7 +11764,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶5.5",
           "points": [
             "独资本人；合伙由全体合伙人书面授权合伙人或职员；法团由董事局书面授权董事或职员"
@@ -11806,7 +11806,7 @@
       "untested": [
         {
           "point": "法团参加面见者为董事局书面授权的董事或职员；区别参加能力评核必须自然人董事",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶5.5(c)",
           "quote_en": "the directors or staff member(s) of the applicant authorized in writing by the board of directors, where the applicant belongs to corporation.",
           "quote_tc": "董事局以書面授權的申請人的董事或員工（如申請人屬法團）。",
@@ -11822,7 +11822,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶5.11、7.3",
           "points": [
             "覆核关长拒批牌照或停撤牌决定"
@@ -11913,14 +11913,14 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶5.2",
           "points": [
             "综合概述运作模式、架构、支付、客户、人员及财政"
           ]
         },
         {
-          "doc": "06",
+          "doc": "20",
           "locator": "引言、项目1–17",
           "points": [
             "供监理科了解整项拟营业务；涵盖运作及合规目标"
@@ -12054,14 +12054,14 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶5.2",
           "points": [
             "自有政策、程序及管控以减低风险并履行要求"
           ]
         },
         {
-          "doc": "07",
+          "doc": "21",
           "locator": "引言、项目1、13–16、19",
           "points": [
             "policy为政策程序管控的合称；基于自身风险",
@@ -12069,7 +12069,7 @@
           ]
         },
         {
-          "doc": "14",
+          "doc": "08",
           "locator": "Obligations of MSOs",
           "points": [
             "AML/CFT Systems为政策、程序、管控合称"
@@ -12241,14 +12241,14 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "04",
+          "doc": "10",
           "locator": "引言、¶4、6–8",
           "points": [
             "说明关长考虑因素；适用申请及持牌者，指导性质非穷尽"
           ]
         },
         {
-          "doc": "05",
+          "doc": "11",
           "locator": "引言、¶5、7–9",
           "points": [
             "提供其他相关事项例子，须与主指引并读；适用申请／续牌及持牌者"
@@ -12403,21 +12403,21 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "08",
+          "doc": "12",
           "locator": "¶1–3、6",
           "points": [
             "第43条针对牌照条件、规例及指定发牌规定；公布罚款行使方式并须考虑指引；个别及一般阻吓"
           ]
         },
         {
-          "doc": "09",
+          "doc": "13",
           "locator": "¶1–2、5",
           "points": [
             "第21条针对第5(11)条指明条文；可单独或连同其他纪律制裁；指引约束考虑方式"
           ]
         },
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶13.1",
           "points": [
             "谴责、纠正命令、罚款；停撤牌是另项权力"
@@ -12509,7 +12509,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "06",
+          "doc": "20",
           "locator": "项目4、7、10、12–17",
           "points": [
             "要求说明自身或各服务商、代理／主事关系、平台的实际职能；并未给这些类别一套通用法定职责"
@@ -12586,7 +12586,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶16.3项目6",
           "points": [
             "有关银行签发账户拥有人证明，并确认账户用于金钱服务业务"
@@ -12613,7 +12613,7 @@
       "untested": [
         {
           "point": "有关银行签发业务账户拥有人证明",
-          "doc": "03",
+          "doc": "05",
           "locator": "¶16.3项目6",
           "quote_en": "Proof of bank account ownership issued by bank concerned",
           "quote_tc": "由銀行發出證明持有銀行帳戶的文件",
@@ -12629,7 +12629,7 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶12.1–12.2",
           "points": [
             "列持牌人名称及业务／通信地址；供公众现场和网上查阅"
@@ -12691,7 +12691,7 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "11",
+          "doc": "22",
           "locator": "首段",
           "points": [
             "落实建议32，防范跨境运送现金类物品洗钱及恐怖融资"
@@ -12725,14 +12725,14 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "11",
+          "doc": "22",
           "locator": "第2段",
           "points": [
             "接收入境申报；按要求披露时关员提出要求"
           ]
         },
         {
-          "doc": "17",
+          "doc": "43",
           "locator": "申报程序第3步",
           "points": [
             "现场接收旅客二维码作申报"
@@ -12795,14 +12795,14 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "11",
+          "doc": "22",
           "locator": "第3段",
           "points": [
             "货物托运现金类物品预先申报系统"
           ]
         },
         {
-          "doc": "17",
+          "doc": "43",
           "locator": "第1–3段、申报步骤",
           "points": [
             "旅客预填资料获二维码；减少现场时间但仍现场申报"
@@ -12865,7 +12865,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "17",
+          "doc": "43",
           "locator": "查询段",
           "points": [
             "Customs Financial Investigation Bureau为通函查询联络单位"
@@ -12883,7 +12883,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "12",
+          "doc": "14",
           "locator": "第1–3段",
           "points": [
             "识别、评估及了解整个业务风险；客户、司法区、产品服务、交付渠道四维度；管控与风险相称"
@@ -12974,7 +12974,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "12",
+          "doc": "14",
           "locator": "第3段",
           "points": [
             "渠道包括执行汇款所用客户、业务伙伴、交易对手，不只客户本身"
@@ -13015,7 +13015,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "12",
+          "doc": "14",
           "locator": "注4",
           "points": [
             "境外发生但若在港即构成可公诉罪行的行为也包括在内"
@@ -13049,7 +13049,7 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "13",
+          "doc": "07",
           "locator": "正文第1–3段、注3、续页",
           "points": [
             "海关合规检查发现缺陷；提供监管标准及非穷尽作业例子；持续监测、执法及监管导引"
@@ -13112,7 +13112,7 @@
           "statements": [
             5
           ],
-          "point": "海关调查明知及未发现警讯的情况（14的重叠执法职能）",
+          "point": "海关调查明知及未发现警讯的情况（08的重叠执法职能）",
           "snapshot": [
             {
               "statement": 5,
@@ -13133,7 +13133,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "13",
+          "doc": "07",
           "locator": "附件(2)",
           "points": [
             "客户与实益拥有人须分别识别核实；全体拥有或控制者；筛查不能只筛客户；沿所有权链至实益拥有人"
@@ -13226,14 +13226,14 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "13",
+          "doc": "07",
           "locator": "附件(3)",
           "points": [
             "不能把代表误当公司客户；按角色、获授权活动及风险决定；各部门逻辑一致；每法人通常至少一代表"
           ]
         },
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ11–12",
           "points": [
             "FATF建议10与AMLO要求识别但不定义范围；非每一授权签署人都是PPTA；低风险可用独立部门确认名单"
@@ -13332,7 +13332,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "14",
+          "doc": "08",
           "locator": "首段及注3",
           "points": [
             "第三方是客户之外的任何人；支付可掩饰实益拥有人和资金来源"
@@ -13380,7 +13380,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "14",
+          "doc": "08",
           "locator": "主要管控措施第9项",
           "points": [
             "第三方付款人有可能是真正实益拥有人；须警觉相关风险"
@@ -13407,7 +13407,7 @@
       "untested": [
         {
           "point": "第三方付款人本身可能是真正实益拥有人，尚无题句直接区分这一关系",
-          "doc": "14",
+          "doc": "08",
           "locator": "主要管控措施第9项",
           "quote_en": "MSOs should be alert to the possibility that the third-party payer is the true beneficial owner, and the risks to which that may give rise.",
           "quote_tc": "金錢服務經營者應就第三方付款人即真正實益擁有人的可能以及從而產生的風險保持警覺。",
@@ -13423,7 +13423,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "14",
+          "doc": "08",
           "locator": "注2",
           "points": [
             "非法大额兑换及向澳门赌客放高利贷的团体，试图绕过内地外汇管制及境外提款限制"
@@ -13434,7 +13434,7 @@
       "untested": [
         {
           "point": "通函明定「换钱党」的活动与目的；不能等同所有兑换商",
-          "doc": "14",
+          "doc": "08",
           "locator": "注2",
           "quote_en": "“money exchange gangs” refers to illicit groups that unlawfully provide large-amount currency exchange services for individuals and entities, as well as offer high-interest loan services to gamblers in Macao.",
           "quote_tc": "「換錢黨」指非法向個人及實體提供大額貨幣兌換服務，以及向澳門賭客提供高利貸服務的非法團體。",
@@ -13450,7 +13450,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "14",
+          "doc": "08",
           "locator": "主要管控措施2、4(e)、6(c)、10",
           "points": [
             "高层批准政策；有相关AML职能的高层批准付款接纳；指定经理／职员落实及接受指引"
@@ -13536,28 +13536,28 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "12",
+          "doc": "14",
           "locator": "第5段",
           "points": [
             "知道／怀疑即尽快向JFIU报告"
           ]
         },
         {
-          "doc": "13",
+          "doc": "07",
           "locator": "附件(1)",
           "points": [
             "交易监察出现怀疑即提交"
           ]
         },
         {
-          "doc": "14",
+          "doc": "08",
           "locator": "主要管控措施4(d)、9",
           "points": [
             "报告第三方支付怀疑"
           ]
         },
         {
-          "doc": "23",
+          "doc": "02",
           "locator": "例5第3句",
           "points": [
             "报告JFIU属适当制度"
@@ -13657,7 +13657,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "15",
+          "doc": "42",
           "locator": "第2段",
           "points": [
             "建议通知公众，并向海关和香港警方报告"
@@ -13698,7 +13698,7 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "16",
+          "doc": "15",
           "locator": "第3段",
           "points": [
             "掌握行业最新趋势并制定有效适当监管措施，收取币种、司法区及渠道资料"
@@ -13732,7 +13732,7 @@
       "untested": [
         {
           "point": "收取新增资料的监管目的：紧贴趋势、制定措施",
-          "doc": "16",
+          "doc": "15",
           "locator": "第3段",
           "quote_en": "For the purpose of staying abreast of the latest trend in the money service industry and formulating effective and appropriate regulatory measures for the money service business",
           "quote_tc": "為緊貼金錢服務業的最新趨勢並制定有效和適當的金錢服務業務規管措施",
@@ -13748,7 +13748,7 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "18",
+          "doc": "16",
           "locator": "正文",
           "points": [
             "兑换服务须注意第34章附表2及3有关交易单据和展示汇率的责任"
@@ -13789,7 +13789,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "19",
+          "doc": "18",
           "locator": "第1–2段、强化范畴2",
           "points": [
             "借贸易活动掩饰犯罪得益及转移价值；虚假合同发票造假交易；壳公司掩饰控制者／来源；无实质资产人员业务的新设实体风险"
@@ -13844,7 +13844,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "19",
+          "doc": "18",
           "locator": "第3段",
           "points": [
             "FATF设计风险指标，提升识别贸易洗钱可疑活动能力"
@@ -13878,7 +13878,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "19",
+          "doc": "18",
           "locator": "强化范畴1",
           "points": [
             "多个风险指标时升报高层；培训／导引支持两道防线风险意识"
@@ -13919,14 +13919,14 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "20",
+          "doc": "19",
           "locator": "(1)–(2)",
           "points": [
             "高风险EDD、最严重时针对措施；加强监察名单为承诺限期改善者，成员风险分析考虑资料"
           ]
         },
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ17",
           "points": [
             "公开声明要求相称EDD；持续进展名单并非自动强制EDD，但影响客户风险"
@@ -14003,7 +14003,7 @@
       "untested": [
         {
           "point": "加强监察／持续进展名单不自动强制EDD，仍须纳入整体风险判断",
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ17",
           "quote_en": "conducting EDD is not mandatory for customers connected to jurisdictions listed in the FATF statement: “Improving Global Anti-Money Laundering and Counter-Financing of Terrorism (“AML/CFT”) Compliance: On-going Process”.",
           "quote_tc": "對與題為“改善全球打擊洗錢及恐怖分子資金籌集的合規情況：持續進展”的特別組織聲明所列司法管轄區有關連的客戶採取更嚴格盡職審查措施並非強制性規定。",
@@ -14019,7 +14019,7 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "21",
+          "doc": "45",
           "locator": "第1–3段",
           "points": [
             "未来实施加强跨境支付透明度及防诈防错工具",
@@ -14068,7 +14068,7 @@
       "untested": [
         {
           "point": "咨询亦涵盖落实建议16与数据保护／隐私要求的协调",
-          "doc": "21",
+          "doc": "45",
           "locator": "第3段末项目",
           "quote_en": "Implementing Recommendation 16 and meeting data protection and privacy requirements together.",
           "quote_tc": "落實第16項建議並同時符合資料保護及隱私的要求。",
@@ -14084,7 +14084,7 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "20",
+          "doc": "19",
           "locator": "(1)朝鲜／伊朗段及注3、(3)",
           "points": [
             "制裁与伊朗合规讨论的背景；链接全会成果"
@@ -14102,14 +14102,14 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "14",
+          "doc": "08",
           "locator": "注7",
           "points": [
             "资金来源是特定款项／资产的起源，不止转出地点，包含产生资金的活动"
           ]
         },
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ16",
           "points": [
             "财富来源要求按高风险适用；非每客均须完整调查"
@@ -14172,7 +14172,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ1–2",
           "points": [
             "政府／国家签发的身份证、国家主管机关签发的驾照；入境事务处处长签发澳门居民证；海员证按ILO公约签发"
@@ -14228,14 +14228,14 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ13",
           "points": [
             "香港公司注册处可电子签发公司注册证；直接从可靠官网下载文件不再核证"
           ]
         },
         {
-          "doc": "03",
+          "doc": "05",
           "locator": "¶16.3项目1",
           "points": [
             "公司须向公司注册处呈交周年申报表等文件"
@@ -14284,7 +14284,7 @@
       "untested": [
         {
           "point": "公司注册处是电子公司注册证的签发机关；区别税务局局长的商业登记证",
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ13",
           "quote_en": "an original certificate of incorporation issued by the Hong Kong Companies Registry is available in electronic form.",
           "quote_tc": "由香港公司註冊處發出的公司註冊證書正本可以電子形式出示。",
@@ -14300,7 +14300,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ5–6",
           "points": [
             "主要营业地点为主要经营／活动所在地，可与注册办事处相同或不同；可靠文件可证明注册地址"
@@ -14342,7 +14342,7 @@
       "untested": [
         {
           "point": "主要营业地点的实质定义及与注册地址可以相同或不同",
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ5",
           "quote_en": "The “principal place of business” means the location where a legal person primarily operates or the place of its main activities. It can be the same as, or differ from, the address of registered office.",
           "quote_tc": "“主要營業地點”指法人營運主要所在地或其主要活動的地點。主要營業地點可與註冊辦事處地址相同或不同。",
@@ -14358,7 +14358,7 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ8",
           "points": [
             "架构图便于理解拥有权／控制但非一律必取；识别中间层而非例行逐一核实"
@@ -14406,7 +14406,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ10",
           "points": [
             "藉与25%以上拥有人的私人关系控制",
@@ -14434,7 +14434,7 @@
       "untested": [
         {
           "point": "融资／家庭／历史或合约联系、支付违约可产生无拥有权控制；无需已实际行使",
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ10",
           "quote_en": "A natural person who exerts control without ownership by participating in the financing of the enterprise, or because of close and intimate family relationships, historical or contractual associations, or if a company defaults on certain payments. Furthermore, control may be presumed even if control is never actually exercised, such as using, enjoying or benefiting from the assets owned by the legal person.",
           "quote_tc": "某自然人透過參與法團融資，或由於密切及親密家庭關係、歷史或合約聯繋，或因某公司違反特定支付約定，而在沒有擁有權下對法團施加控制。此外，有關控制即使從未被實際行使，例如使用、享受或得益於法人擁有的資產，亦可被推定存在。",
@@ -14442,7 +14442,7 @@
         },
         {
           "point": "透过与持有25%以上股份或投票权者的私人关系施加控制",
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ10",
           "quote_en": "A natural person who exerts control of a legal person through means such as personal connections to persons who would be beneficial owners due to owning more than 25% of the shares or voting rights.",
           "quote_tc": "某自然人透過與若干人等的私人關連對法人施加控制，而有關人等因擁有25%以上股份或投票權而成爲實益擁有人。",
@@ -14458,7 +14458,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ9",
           "points": [
             "开户代表获董事局决议或类似书面授权；不必是董事或实益拥有人；不必全体董事到场"
@@ -14513,7 +14513,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ14",
           "points": [
             "不强制专业第三方如律师翻译；MSO取得可靠来源翻译以了解内容"
@@ -14547,7 +14547,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ18–19",
           "points": [
             "联合国机构属于国际组织",
@@ -14619,7 +14619,7 @@
       "untested": [
         {
           "point": "国际组织定义的成立依据：成员国的正式政治协议且具有国际条约地位",
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ19",
           "quote_en": "entities established by formal political agreements between their member States that have the status of international treaties",
           "quote_tc": "由成員國根據具有國際條約地位的正式政治協議成立的實體",
@@ -14635,7 +14635,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ20–21",
           "points": [
             "前任PEP不再高风险且须高层批准才可停止特定EDD；须适当风险评估",
@@ -14670,7 +14670,7 @@
       "untested": [
         {
           "point": "决定不再对前任PEP实施特定EDD，须高层批准且不再构成高风险",
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ20",
           "quote_en": "Such decision can only be made with the approval of the MSO’s senior management and on the basis that the PEP no longer presents a high risk of ML/TF.",
           "quote_tc": "有關決定須獲金錢服務經營者的高級管理層批准，而該政治人物須不再構成高度洗錢/恐怖分子資金籌集風險。",
@@ -14678,7 +14678,7 @@
         },
         {
           "point": "MSO以清晰书面政策指明PEP关系审批人，并须具足够资历",
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ21",
           "quote_en": "MSOs should maintain clear and documented policies setting out the persons within the institution who are able to approve PEP customer onboarding and a continued business relationship. In any event, it should only include those with sufficient seniority.",
           "quote_tc": "金錢服務經營者應維持有明文依據的清晰政策，列出機構內能夠批准與政治人物客戶建立及維持業務關係的人選。在任何情況下，人選必須具有一定的資歷。",
@@ -14694,7 +14694,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ22",
           "points": [
             "法定依赖中介人机制只适用于第2条CDD，不涵盖第5条持续CDD和交易监察；可代收和更新资料协助MSO"
@@ -14736,7 +14736,7 @@
       "untested": [
         {
           "point": "不得依赖中介人持续监察关系，包括持续CDD和交易监察；代收更新资料不转移监控责任",
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ22",
           "quote_en": "an MSO cannot rely on an intermediary to continuously monitor its business relationships with a customer (i.e., ongoing CDD and transaction monitoring).",
           "quote_tc": "金錢服務經營者不能依賴中介人持續監察其與客戶的業務關係（即持續的客戶盡職審查及交易監察）。",
@@ -14752,7 +14752,7 @@
       "category": "internal",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ23",
           "points": [
             "外部人士或内部审计可独立核实；后者须分工、足够专业知识和资源"
@@ -14822,7 +14822,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ24",
           "points": [
             "最低限度为汇款人、收款人、汇款机构、中介机构、收款机构、付款讯息具名者"
@@ -14864,7 +14864,7 @@
       "untested": [
         {
           "point": "最低名单还明确包括汇款人、收款人、汇款机构与收款机构；现有题仅枚举其余两类",
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ24",
           "quote_en": "An MSO should, at a minimum, screen the following relevant parties in cross border / cross boundary wire transfer and remittance transaction: (a) originator; (b) recipient; (c) ordering institution; (d) intermediary institution; (e) beneficiary institution; and (f) named parties (e.g., individuals, companies, banks etc) in the payment message.",
           "quote_tc": "在跨境電傳轉帳或匯款交易中，金錢服務經營者最低限度應篩查以下相關各方：(a) 匯款人；(b) 收款人；(c) 匯款機構；(d) 中介機構；(e) 收款機構；及(f) 撥付訊息中被具名的人士（例如個人、公司、銀行等）。",
@@ -14880,7 +14880,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "AML FAQ25–26",
           "points": [
             "已按法例／指引核实身份即视资料准确，通常不再核实但可酌情；地址助辨位置、筛查和AML监察"
@@ -14936,7 +14936,7 @@
       "category": "external",
       "source_units": [
         {
-          "doc": "22",
+          "doc": "06",
           "locator": "发牌FAQ2、4",
           "points": [
             "邮政署长与MSO同受AMLO法定义务约束；关长是两者的有关当局"
@@ -14947,7 +14947,7 @@
       "untested": [
         {
           "point": "邮政署长亦受AMLO法定义务约束；名称虽不是MSO但来源明确列明",
-          "doc": "22",
+          "doc": "06",
           "locator": "发牌FAQ2",
           "quote_en": "Money Service Operators (“MSOs”) and the Postmaster General as well as other specified financial institutions.",
           "quote_tc": "金錢服務經營者及郵政署署長，以及其他指定的金融機構需受「打擊洗錢條例」的法律約束。",
@@ -14955,7 +14955,7 @@
         },
         {
           "point": "关长是邮政署长以及MSO在AMLO下的有关当局",
-          "doc": "22",
+          "doc": "06",
           "locator": "发牌FAQ4",
           "quote_en": "Who is the relevant authority for the “MSOs” and the Postmaster General under the “AMLO”? A4 The Commissioner of Customs & Excise (“CCE”) is the relevant authority under the “AMLO”.",
           "quote_tc": "在「打擊洗錢條例」下，誰是金錢服務經營者及郵政署署長的有關當局? 答.4 海關關長(「關長」)是「打擊洗錢條例」下的有關當局。",
@@ -14978,7 +14978,7 @@
           ]
         },
         {
-          "doc": "23",
+          "doc": "02",
           "locator": "例1–7",
           "points": [
             "IRA风险因素；持牌责任与获授权人；CDD和持续监察；LMO联系人员；JFIU报告；记录类别；法人识别资料（不含公司秘书）"
@@ -15292,7 +15292,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.9",
           "points": [
             "掩飾可公訴罪行收益的行為",
@@ -15349,7 +15349,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.11–1.12",
           "points": [
             "提供／籌集財產或金融服務的範圍及主觀狀態",
@@ -15434,7 +15434,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.10",
           "points": [
             "存放",
@@ -15491,7 +15491,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.2；詞彙表",
           "points": [
             "AML/CFT Systems 是政策、程序及管控措施",
@@ -15555,7 +15555,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶2.1–2.2、2.11–2.15",
           "points": [
             "按風險決定措施程度",
@@ -15678,7 +15678,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.1.3、4.8、4.9、5.1",
           "points": [
             "盡調措施與持續監察分開",
@@ -15817,7 +15817,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶2.4 註3",
           "points": [
             "有良好聲譽且廣為認可的組織所提供及廣泛公開的資訊",
@@ -15845,7 +15845,7 @@
       "untested": [
         {
           "point": "來源的可靠性及公開傳播特徵；不能只記機構名單",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶2.4 註3",
           "priority": "P2",
           "quote_en": "“Credible sources” refers to information that is produced by reputable and universally recognised international organisations and other bodies that make such information publicly and widely available.",
@@ -15861,7 +15861,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.1.4–4.1.5",
           "points": [
             "客戶是建立業務關係或進行交易的人",
@@ -15905,7 +15905,7 @@
       "untested": [
         {
           "point": "匯出電匯收款人沒有其他關係時，不是匯款 MSO 的客戶",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.1.5",
           "priority": "P1",
           "quote_en": "in an outward wire transfer transaction does not regard the beneficiary (who has no other relationship with the MSO) as its customer.",
@@ -15921,7 +15921,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.3.6 註19；¶4.3.12 註21",
           "points": [
             "法人不以是否註冊成立為唯一判斷",
@@ -15972,7 +15972,7 @@
       "untested": [
         {
           "point": "法人完整定義的自然人排除及客戶關係／財產條件；只否定必須註冊成立未測這些條件",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.3.6 註19",
           "priority": "P2",
           "quote_en": "Legal person refers to any entities other than natural person that can establish a permanent customer relationship with an MSO or otherwise own property.",
@@ -15988,7 +15988,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.1.3 註12",
           "points": [
             "明示信託或附具法律約束力文書的類似安排"
@@ -15999,7 +15999,7 @@
       "untested": [
         {
           "point": "指引所指信託的定義；既有信託盡調題不等於已考這一定義",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.1.3 註12",
           "priority": "P2",
           "quote_en": "For the purpose of this guideline, a trust means an express trust or any similar arrangement for which a legal-binding document (i.e. a trust deed or in any other forms) is in place.",
@@ -16015,7 +16015,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.3.12(c) 註25",
           "points": [
             "在包含信託管理服務的行業／業務中管理信託",
@@ -16027,7 +16027,7 @@
       "untested": [
         {
           "point": "專業身分是按業務服務性質判定，不只是稱為受託人",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.3.12 註25",
           "priority": "P2",
           "quote_en": "“Trustees acting in their professional capacity” in this context means that they act in the course of a profession or business which consists of or includes the provision of services in connection with the administration or management of trusts (or a particular aspect of the administration or management of trusts).",
@@ -16043,7 +16043,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.3.18–4.3.19 註26",
           "points": [
             "公司董事",
@@ -16088,7 +16088,7 @@
       "untested": [
         {
           "point": "合夥及信託的有關連者分別是合夥人及受託人",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.3.19(b)–(c)",
           "priority": "P1",
           "quote_en": "(b) in relation to a partnership, means a partner of the customer; (c) in relation to a trust or other similar legal arrangement, means a trustee (or equivalent) of the customer;",
@@ -16096,7 +16096,7 @@
         },
         {
           "point": "兼屬客戶、BO 或 PPTA 時，須按相應規定識別及核實",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.3.18 註26",
           "priority": "P1",
           "quote_en": "For the avoidance of doubt, if a connected party also satisfies the definition of a customer, a beneficial owner of the customer or a person purporting to act on behalf of the customer, the MSO has to identify and verify the identity of that person with reference to relevant requirements set out in this Guideline.",
@@ -16112,7 +16112,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.9.15",
           "points": [
             "成員國以具國際條約地位的正式政治協議設立",
@@ -16162,7 +16162,7 @@
       "untested": [
         {
           "point": "成員國正式政治協議與國際條約地位的成立條件",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.9.15",
           "priority": "P2",
           "quote_en": "International organisations referred to in paragraph [4.9.14] are entities established by formal political agreements between their member States that have the status of international treaties;",
@@ -16178,7 +16178,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.9.24–4.9.25",
           "points": [
             "財富來源指整體財富；資金來源指關係所涉特定資金",
@@ -16227,7 +16227,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶7.2–7.4",
           "points": [
             "實際知悉及合理人會推斷／查詢的情況",
@@ -16292,7 +16292,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.5 註56",
           "points": [
             "恐怖分子或有聯繫者的財產",
@@ -16304,7 +16304,7 @@
       "untested": [
         {
           "point": "須理解所有權及用途兩條定義路徑；既有處理禁令題只使用名詞",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.5 註56",
           "priority": "P1",
           "quote_en": "According to section 2 of the UNATMO, terrorist property means the property of a terrorist or terrorist associate, or any other property that is intended to be used or was used to finance or assist the commission of terrorist acts.",
@@ -16320,7 +16320,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶7.5 註60",
           "points": [
             "動產與不動產",
@@ -16370,7 +16370,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶10.5 註70；¶10.7",
           "points": [
             "識別匯款人與追蹤交易是不同用途",
@@ -16405,7 +16405,7 @@
       "untested": [
         {
           "point": "客戶識別號碼與獨特交易參考編號不同，不可互換其意義",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶10.5 註70",
           "priority": "P2",
           "quote_en": "Customer identification number refers to a number which uniquely identifies the originator to the originating institution and is a different number from the unique transaction reference number referred to in paragraph [10.7].",
@@ -16421,7 +16421,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶11.2–11.4",
           "points": [
             "從其戶口付款者；無戶口時才是發出指示者",
@@ -16449,7 +16449,7 @@
       "untested": [
         {
           "point": "非電匯匯款人的戶口持有人優先／無戶口才看指示者",
-          "doc": "02",
+          "doc": "03",
           "locator": "¶11.4",
           "priority": "P2",
           "quote_en": "Pursuant to the AMLO, an originator of a remittance transaction is the person from whose account with the MSO the money for the remittance is paid; or in the absence of such an account, the person who instructs the MSO to carry out the remittance transaction.",
@@ -16465,7 +16465,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.25、5.13、7.6",
           "points": [
             "可能妨礙調查的披露",
@@ -16508,7 +16508,7 @@
       ],
       "untested": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.25",
           "quote_en": "A person commits an offence if, knowing or suspecting that a disclosure has been made, he discloses to any other person any matter which is likely to prejudice any investigation which might be conducted following that first-mentioned disclosure.",
           "quote_tc": "任何人如知道或懷疑已曾作出披露，而仍向其他人披露任何相當可能損害為跟進首述披露而進行的調查的事宜，即屬犯罪。",
@@ -16525,7 +16525,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶6.7 註57",
           "points": [
             "資產凍結及禁止直接／間接向被指認者提供資金或資產"
@@ -16559,7 +16559,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "詞彙表；¶1.27、6.9–6.10",
           "points": [
             "PF 指大規模毀滅武器擴散的資金籌集",
@@ -16639,7 +16639,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "附錄A ¶3",
           "points": [
             "附照片並能確定身分及國籍、原居地或永久居留地",
@@ -16666,7 +16666,7 @@
       ],
       "untested": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "附录A ¶3",
           "quote_en": "Travel document means a passport or some other document furnished with a photograph of the holder establishing the identity and nationality, domicile or place of permanent residence of the holder.",
           "quote_tc": "旅遊證件是指附有持有人照片，能確定持有人的身分及國籍、原居地或永久居留地的護照或其他證件。",
@@ -16683,7 +16683,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "附錄A 註76",
           "points": [
             "ICSA或其指定分部的現任正式會員"
@@ -16696,7 +16696,7 @@
       "notes": "認證人資格的低優先說明；可在綜合題選用，不要求單獨背機構縮寫或擴充機構職權。依歸檔稱呼，不聲稱機構名稱為官網最新版本。",
       "reference_points": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "附录A 脚注76",
           "quote_en": "A chartered secretary refers to a person who is a current full member of the Institute of Chartered Secretaries and Administrators or its designated divisions.",
           "quote_tc": "特許秘書指屬英國特許秘書及行政人員公會或其指定分部現任正式會員的人。",
@@ -16711,7 +16711,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶4.14.1 註49",
           "points": [
             "用編號／代號取代日後文件的客戶姓名",
@@ -16753,7 +16753,7 @@
       "category": "concept",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.6",
           "points": [
             "兩者在本指引所述制度中均表示強制性規定"
@@ -16787,7 +16787,7 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.19–1.20",
           "points": [
             "DTROP調查懷疑販毒所得資產",
@@ -16843,7 +16843,7 @@
       "category": "instrument",
       "source_units": [
         {
-          "doc": "02",
+          "doc": "03",
           "locator": "¶1.21、1.26–1.27；¶6.2–6.10",
           "points": [
             "UNATMO防止恐怖主義及境外恐怖作戰資金籌集",

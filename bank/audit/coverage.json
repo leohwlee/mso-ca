@@ -16,105 +16,105 @@
     },
     "sha256": {
       "web/questions.json": "e962a7e17c23cbff4198c5977769127908955f0fa5c099fbd98153f7ae5f7f7c",
-      "docs/quotes.json": "964f3516951bea17c93f71f53a217d28d8a93a37823e1c7d11bf89c3a815a1b4"
+      "docs/quotes.json": "6e9391799b47db7d86d61f3bd01d31c2773c90f0bbc9f7845a5ae5dbda297449"
     }
   },
   "source_hashes": {
-    "docs/EN/01_Guidance Notes on the Competence Assessment (Dec 2022).pdf": "10558bec35a5923cb07c38ed0990ce34022c3eb25806948778fe6b4a7ab87abc",
-    "docs/EN/02_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf": "7a7b81ec6880a0e22c1d3e116f1016109dc6b54c33726e6a57fb1cff5d06eabc",
-    "docs/EN/03_Licensing Guide (May 2026).pdf": "4aeb27ada3f04608da427833ebd564000c3fe3b788fd1d183a63ca04168005e8",
-    "docs/EN/04_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf": "3d829e7a475c0d6b27cecb9606963d6aae7d3cdf0857902a219502ef42116f38",
-    "docs/EN/05_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf": "cb03247dcc6e9149f5371ad1f3a21fa763e827e1fa8cc6c4697c7a6754c3da38",
-    "docs/EN/06_Guidelines for Submission of Business Plan (Ver 12-2019).pdf": "519dadf3e1ec660e3aa50c4669d91ed997712f69551f8f12b02f84d2bd228e9f",
-    "docs/EN/07_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf": "ba9101df763fe866fd27bf377819d45c02c4431576a89fe4bb8aa24e0addcf27",
-    "docs/EN/08_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf": "6aeee39af0848ac03d989ed2500f6fd8f4947b342fa26b23371d0f51e816a1ca",
-    "docs/EN/09_Disciplinary Fining Guideline (May 2018).pdf": "c098efdd38e152fd2357942e62958be9c32c3061874a1b0c076daedd5f0bba96",
-    "docs/EN/10_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf": "2b5b00d7dc706169b1b2e292136649612f9fbb73b39332eb80dc1a4cf926474a",
-    "docs/EN/11_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf": "f07cc3caa50fe51e5524c7d10ed2670cfcd7f0ac70c9a016a1508049f15b4ff0",
-    "docs/EN/12_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf": "cb231fca14b55843357f7e6e4352ca30536abd58f56a399a33a6b9b97f32ab00",
-    "docs/EN/13_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf": "9921ff297a49cef0543c3df126d07c3bb2befc8f1e7a6e33d62674e81bb0c979",
-    "docs/EN/14_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf": "ba02a8d811184ff6a960e4c9b2ab1e2c63dbaf3e50f1ce9b12e4fd438320056c",
-    "docs/EN/15_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf": "fbeb22630cab6aa2e859321d295df7bb874516e0f646749caa75417feacc914b",
-    "docs/EN/16_Circular - E-submission of the Periodic Return (30 May 2025).pdf": "bb0408f2cea27a76c154f750479ee777ccc9859a20800ad44e690117660ce381",
-    "docs/EN/17_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf": "f58314d3d5139c6a68e4308e4953cc1a5676cdf0d7a332b7c1ce5e513c550d7c",
-    "docs/EN/18_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf": "77516f642ee66d9b4027f2dbaa95e3771556d200df97fd0b924526e7fcc38cd3",
-    "docs/EN/19_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf": "86181d4d0a0990aa7e8a17a489f23ed59e2f9722ba5cb821a381976e45a52c84",
-    "docs/EN/20_Circular - Statements issued by the FATF (3 Jul 2026).pdf": "fbc823bdf739af3f02e9336c93c48169c0acd9eb7815274394b7b44bb0d2d6d8",
-    "docs/EN/21_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf": "068cbb0780c2e51752b136eee5aa3784153a1d551e7fd67a29a605b88897c47c",
-    "docs/EN/22_FAQ applicable to all MSOs (C&ED portal).md": "6dfc89dcf0a37665144cc501ffd64ba8df004121e35a3f5c14a4aa19e3c78264",
-    "docs/EN/23_Competence Assessment - Sample Questions (12 May 2021).pdf": "7b53caa350ae2b9423457bfe29e3e03f9bbdc99560f062f853ff1c99b58efef6",
-    "docs/TC/01_能力評核須知（2022年12月）.pdf": "3eb4a64e563e94dbda91906e368137447e2a42bc50dc7051bb66f61b8d3ea58a",
-    "docs/TC/02_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf": "8639a9dc8fc4c7dad3ab467db43d69ffe73a4ce156030248dc68c2d8d3cf60bd",
-    "docs/TC/03_牌照指引（2026年5月）.pdf": "4816c53f7e70e4828d5ff5e78baac6032399d06cdcf5a85c342bce577d643089",
-    "docs/TC/04_有關適當人選準則的指引（2018年4月）.pdf": "9c72af5408a3067e402b8886e313a1f801b204898b7bee82341e717f9da6cf85",
-    "docs/TC/05_有關適當人選準則的補充指引（2020年1月）.pdf": "6f2286c0a774fcd78a8fd9f8721b862cde9c09bb499eca6d65a50f3bfd2963dd",
-    "docs/TC/06_遞交業務計劃的指引（12-2019版）.pdf": "29ceb2225c2a806ae2140c17420077671684dabed6ba2ba255d3bd95d32a52a4",
-    "docs/TC/07_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf": "4ab95ce206c0e71740f025c90e1195c965e5e54a7b981c9e02d8c945936fed47",
-    "docs/TC/08_施加罰款紀律行動指引（2018年4月）.pdf": "ef8a7be34c1dd1f3b3a1a61a9edf1c14a100a89bdb13d51607c750b02295bdf3",
-    "docs/TC/09_紀律處分罰款指引（2018年5月）.pdf": "008b7b72867307ff05ec62eb24377d894c7af956d716c9a4665e4b37287cfc55",
-    "docs/TC/10_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf": "6853748c7e7513f11cf5f5d54dbff7cffcb2309fca7669a43bde40c042f2fb65",
-    "docs/TC/11_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf": "3fdb442bf09cd11fd89235e6c35271c17072f22fb5aba66a3a187cc203728431",
-    "docs/TC/12_通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）.pdf": "8a71d806b4b81a13148f226b93e3425728e0e8920fe741be51ab807baaf36d5b",
-    "docs/TC/13_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf": "26fdbf82ecab50930f1ca8cd3c2bf2d7ee2df9426d7a7221e5933f9e453b5af3",
-    "docs/TC/14_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf": "42e40eb5606949acea68ce90421b9e38dee01f483fe1e7ab3bba52accca7d3a1",
-    "docs/TC/15_通函_與金錢服務經營者有關的欺詐網站及社交媒體平台（2025年4月24日）.pdf": "bcbac65758aaf29395543c7f6f13c46095849bbee90db831714d01046b31eef3",
-    "docs/TC/16_通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）.pdf": "6f43d3db88a6dc86d65ffc71ccc39fa2908a70feb13e11e03e2b3379e717703a",
-    "docs/TC/17_通函_提交旅客資料電子表格（現金類物品）（2025年6月23日）.pdf": "b365b20e00118e300a7b32b53a07021a2b51fe06cdeb9629dd57925be6ae32ad",
-    "docs/TC/18_通函_貨幣兌換商條例第34章之修訂（2025年11月17日）.pdf": "87afeea96224222473a07b2426689c308f196294fb074948935ed8ef7af1f2d6",
-    "docs/TC/19_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf": "7133b84028c505ae02340f1120a99600dc577a9c289c6546ecd8bb0edd5c4e29",
-    "docs/TC/20_通函_財務行動特別組織的聲明（2026年7月3日）.pdf": "e326d07e4d23a9a47e41df753ac5c58a19b158309c5d25113018e1a6d6ecf948",
-    "docs/TC/21_通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）.pdf": "bd5261a6a3843643bef21bcca572c35e0de5f2c374d79a250bdc5cd46b44794c",
-    "docs/TC/22_適用於所有金錢服務經營者的常見問題（海關網站）.md": "26974ae4446f65b0489c6f0cbb42d303cb2c2621e1752a5be675dba9185244e7",
-    "docs/TC/23_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf": "8c617f67d75a7a7abf24108d4543c6fb57fc80b4d9214683381131452bef0c3d",
+    "docs/EN/01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf": "10558bec35a5923cb07c38ed0990ce34022c3eb25806948778fe6b4a7ab87abc",
+    "docs/EN/03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf": "7a7b81ec6880a0e22c1d3e116f1016109dc6b54c33726e6a57fb1cff5d06eabc",
+    "docs/EN/05_High_Licensing Guide (May 2026).pdf": "4aeb27ada3f04608da427833ebd564000c3fe3b788fd1d183a63ca04168005e8",
+    "docs/EN/10_Medium-Essential_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf": "3d829e7a475c0d6b27cecb9606963d6aae7d3cdf0857902a219502ef42116f38",
+    "docs/EN/11_Medium-Essential_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf": "cb03247dcc6e9149f5371ad1f3a21fa763e827e1fa8cc6c4697c7a6754c3da38",
+    "docs/EN/20_Medium-Selected_Guidelines for Submission of Business Plan (Ver 12-2019).pdf": "519dadf3e1ec660e3aa50c4669d91ed997712f69551f8f12b02f84d2bd228e9f",
+    "docs/EN/21_Medium-Selected_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf": "ba9101df763fe866fd27bf377819d45c02c4431576a89fe4bb8aa24e0addcf27",
+    "docs/EN/12_Medium-Essential_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf": "6aeee39af0848ac03d989ed2500f6fd8f4947b342fa26b23371d0f51e816a1ca",
+    "docs/EN/13_Medium-Essential_Disciplinary Fining Guideline (May 2018).pdf": "c098efdd38e152fd2357942e62958be9c32c3061874a1b0c076daedd5f0bba96",
+    "docs/EN/04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf": "2b5b00d7dc706169b1b2e292136649612f9fbb73b39332eb80dc1a4cf926474a",
+    "docs/EN/22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf": "f07cc3caa50fe51e5524c7d10ed2670cfcd7f0ac70c9a016a1508049f15b4ff0",
+    "docs/EN/14_Medium-Essential_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf": "cb231fca14b55843357f7e6e4352ca30536abd58f56a399a33a6b9b97f32ab00",
+    "docs/EN/07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf": "9921ff297a49cef0543c3df126d07c3bb2befc8f1e7a6e33d62674e81bb0c979",
+    "docs/EN/08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf": "ba02a8d811184ff6a960e4c9b2ab1e2c63dbaf3e50f1ce9b12e4fd438320056c",
+    "docs/archive/EN/42_Reference_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf": "fbeb22630cab6aa2e859321d295df7bb874516e0f646749caa75417feacc914b",
+    "docs/EN/15_Medium-Essential_Circular - E-submission of the Periodic Return (30 May 2025).pdf": "bb0408f2cea27a76c154f750479ee777ccc9859a20800ad44e690117660ce381",
+    "docs/archive/EN/43_Reference_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf": "f58314d3d5139c6a68e4308e4953cc1a5676cdf0d7a332b7c1ce5e513c550d7c",
+    "docs/EN/16_Medium-Essential_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf": "77516f642ee66d9b4027f2dbaa95e3771556d200df97fd0b924526e7fcc38cd3",
+    "docs/EN/18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf": "86181d4d0a0990aa7e8a17a489f23ed59e2f9722ba5cb821a381976e45a52c84",
+    "docs/EN/19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf": "fbc823bdf739af3f02e9336c93c48169c0acd9eb7815274394b7b44bb0d2d6d8",
+    "docs/archive/EN/45_Reference_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf": "068cbb0780c2e51752b136eee5aa3784153a1d551e7fd67a29a605b88897c47c",
+    "docs/EN/06_High_FAQ applicable to all MSOs (C&ED portal).md": "6dfc89dcf0a37665144cc501ffd64ba8df004121e35a3f5c14a4aa19e3c78264",
+    "docs/EN/02_High_Competence Assessment - Sample Questions (12 May 2021).pdf": "7b53caa350ae2b9423457bfe29e3e03f9bbdc99560f062f853ff1c99b58efef6",
+    "docs/TC/01_高_能力評核須知（2022年12月）.pdf": "3eb4a64e563e94dbda91906e368137447e2a42bc50dc7051bb66f61b8d3ea58a",
+    "docs/TC/03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf": "8639a9dc8fc4c7dad3ab467db43d69ffe73a4ce156030248dc68c2d8d3cf60bd",
+    "docs/TC/05_高_牌照指引（2026年5月）.pdf": "4816c53f7e70e4828d5ff5e78baac6032399d06cdcf5a85c342bce577d643089",
+    "docs/TC/10_中重點_有關適當人選準則的指引（2018年4月）.pdf": "9c72af5408a3067e402b8886e313a1f801b204898b7bee82341e717f9da6cf85",
+    "docs/TC/11_中重點_有關適當人選準則的補充指引（2020年1月）.pdf": "6f2286c0a774fcd78a8fd9f8721b862cde9c09bb499eca6d65a50f3bfd2963dd",
+    "docs/TC/20_中選讀_遞交業務計劃的指引（12-2019版）.pdf": "29ceb2225c2a806ae2140c17420077671684dabed6ba2ba255d3bd95d32a52a4",
+    "docs/TC/21_中選讀_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf": "4ab95ce206c0e71740f025c90e1195c965e5e54a7b981c9e02d8c945936fed47",
+    "docs/TC/12_中重點_施加罰款紀律行動指引（2018年4月）.pdf": "ef8a7be34c1dd1f3b3a1a61a9edf1c14a100a89bdb13d51607c750b02295bdf3",
+    "docs/TC/13_中重點_紀律處分罰款指引（2018年5月）.pdf": "008b7b72867307ff05ec62eb24377d894c7af956d716c9a4665e4b37287cfc55",
+    "docs/TC/04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf": "6853748c7e7513f11cf5f5d54dbff7cffcb2309fca7669a43bde40c042f2fb65",
+    "docs/TC/22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf": "3fdb442bf09cd11fd89235e6c35271c17072f22fb5aba66a3a187cc203728431",
+    "docs/TC/14_中重點_通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）.pdf": "8a71d806b4b81a13148f226b93e3425728e0e8920fe741be51ab807baaf36d5b",
+    "docs/TC/07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf": "26fdbf82ecab50930f1ca8cd3c2bf2d7ee2df9426d7a7221e5933f9e453b5af3",
+    "docs/TC/08_高_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf": "42e40eb5606949acea68ce90421b9e38dee01f483fe1e7ab3bba52accca7d3a1",
+    "docs/archive/TC/42_歷史參考_通函_與金錢服務經營者有關的欺詐網站及社交媒體平台（2025年4月24日）.pdf": "bcbac65758aaf29395543c7f6f13c46095849bbee90db831714d01046b31eef3",
+    "docs/TC/15_中重點_通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）.pdf": "6f43d3db88a6dc86d65ffc71ccc39fa2908a70feb13e11e03e2b3379e717703a",
+    "docs/archive/TC/43_歷史參考_通函_提交旅客資料電子表格（現金類物品）（2025年6月23日）.pdf": "b365b20e00118e300a7b32b53a07021a2b51fe06cdeb9629dd57925be6ae32ad",
+    "docs/TC/16_中重點_通函_貨幣兌換商條例第34章之修訂（2025年11月17日）.pdf": "87afeea96224222473a07b2426689c308f196294fb074948935ed8ef7af1f2d6",
+    "docs/TC/18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf": "7133b84028c505ae02340f1120a99600dc577a9c289c6546ecd8bb0edd5c4e29",
+    "docs/TC/19_中重點_通函_財務行動特別組織的聲明（2026年7月3日）.pdf": "e326d07e4d23a9a47e41df753ac5c58a19b158309c5d25113018e1a6d6ecf948",
+    "docs/archive/TC/45_歷史參考_通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）.pdf": "bd5261a6a3843643bef21bcca572c35e0de5f2c374d79a250bdc5cd46b44794c",
+    "docs/TC/06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md": "26974ae4446f65b0489c6f0cbb42d303cb2c2621e1752a5be675dba9185244e7",
+    "docs/TC/02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf": "8c617f67d75a7a7abf24108d4543c6fb57fc80b4d9214683381131452bef0c3d",
     "docs/text/EN/01.txt": "770b724fa6bfba87f6368c2e82b38cdfbaf103e32f80e452be5224aced06a68b",
-    "docs/text/EN/02.txt": "9b4395941ac9ee9e025672401235082fef5408dc7b0fe809c60e0ce287db29ef",
-    "docs/text/EN/03.txt": "10ed90e17dcac3952c34440c345f74ceaf5f2a504252b51a9a4684c15613b679",
-    "docs/text/EN/04.txt": "fc978c6c6605acb3b7e865a78df7971cd47e0f99b74fba64c8ee8b3f1b193d6f",
-    "docs/text/EN/05.txt": "ffbd03f53861b929492a805ba5e402bc581be86738011e0773a823cac86db319",
-    "docs/text/EN/06.txt": "332b4a594f6fc0e37f92de7d160165cd57e354c112f9822aefb06fdffa2def38",
-    "docs/text/EN/07.txt": "fbfc4e84b3e2f61fc7d17282e7f187b8bad5096d834676beba543d5c21276aec",
-    "docs/text/EN/08.txt": "bb94dfcd6805705ffe4705c0aeb113b3148dba7275855a4fa0e185190e841063",
-    "docs/text/EN/09.txt": "093075da250f23816a73a5969e1061995978b009d2d2e8f982ab258ff205759a",
-    "docs/text/EN/10.txt": "96677cbe1d65bf93ea7da2e22b0098a1ccce95e3b73c4cd52076f96b9c5d2b5d",
-    "docs/text/EN/11.txt": "c5862b56dacdd43e9b808a294746afb15d4d94111f17b3313fe17ec3eb10eebf",
-    "docs/text/EN/12.txt": "6997ba3cb5a8739c1218976243eed2e32ed8f972ae1365e8a4db26f347bc5854",
-    "docs/text/EN/13.txt": "c0303520d5f5fe989c4caf5e678b51f8a9410e6c2477f6c95e81ca2942a91016",
-    "docs/text/EN/14.txt": "962762533c3ff53743ecc98010694eedbde018d780a2b102c7db383084d0b9b5",
-    "docs/text/EN/15.txt": "a3a28eacd8b2d6b1d1f4db19770f1282afb33c44227a7bf7d127b61d78ebdf34",
-    "docs/text/EN/16.txt": "4cb13f9caf703b8eaa5d67c0576768576ae1eb0b87cf02a556242e1d0f9d26f9",
-    "docs/text/EN/17.txt": "e6b1fba923af234da56ac0f95d0b38d4cfdf5bb3560d02603bfa88ad32666501",
-    "docs/text/EN/18.txt": "24b6e1e90ae070f13cbc660e1b05dca6670e52989c079ef9131ece2941cab9c6",
-    "docs/text/EN/19.txt": "e5a0d8dc9b1cab784a8f1de9ed9f2ef342aff4bbed70ff7b687757d174752fb2",
-    "docs/text/EN/20.txt": "a7251060fdeabf4005dfe7f08eb40489f089cb14db439f504152daaf0a9427f4",
-    "docs/text/EN/21.txt": "261c236cbefc1eb6673e8aee8afaf44617a1839fc40e55546dab5f31bf0d4918",
-    "docs/text/EN/22.txt": "6dfc89dcf0a37665144cc501ffd64ba8df004121e35a3f5c14a4aa19e3c78264",
-    "docs/text/EN/23.txt": "66ae1eb36cb5f4110194b692e1a7a12ecd6d9aba3311272587178b2de0c1717c",
+    "docs/text/EN/03.txt": "9b4395941ac9ee9e025672401235082fef5408dc7b0fe809c60e0ce287db29ef",
+    "docs/text/EN/05.txt": "10ed90e17dcac3952c34440c345f74ceaf5f2a504252b51a9a4684c15613b679",
+    "docs/text/EN/10.txt": "fc978c6c6605acb3b7e865a78df7971cd47e0f99b74fba64c8ee8b3f1b193d6f",
+    "docs/text/EN/11.txt": "ffbd03f53861b929492a805ba5e402bc581be86738011e0773a823cac86db319",
+    "docs/text/EN/20.txt": "332b4a594f6fc0e37f92de7d160165cd57e354c112f9822aefb06fdffa2def38",
+    "docs/text/EN/21.txt": "fbfc4e84b3e2f61fc7d17282e7f187b8bad5096d834676beba543d5c21276aec",
+    "docs/text/EN/12.txt": "bb94dfcd6805705ffe4705c0aeb113b3148dba7275855a4fa0e185190e841063",
+    "docs/text/EN/13.txt": "093075da250f23816a73a5969e1061995978b009d2d2e8f982ab258ff205759a",
+    "docs/text/EN/04.txt": "96677cbe1d65bf93ea7da2e22b0098a1ccce95e3b73c4cd52076f96b9c5d2b5d",
+    "docs/text/EN/22.txt": "c5862b56dacdd43e9b808a294746afb15d4d94111f17b3313fe17ec3eb10eebf",
+    "docs/text/EN/14.txt": "6997ba3cb5a8739c1218976243eed2e32ed8f972ae1365e8a4db26f347bc5854",
+    "docs/text/EN/07.txt": "c0303520d5f5fe989c4caf5e678b51f8a9410e6c2477f6c95e81ca2942a91016",
+    "docs/text/EN/08.txt": "962762533c3ff53743ecc98010694eedbde018d780a2b102c7db383084d0b9b5",
+    "docs/text/EN/42.txt": "a3a28eacd8b2d6b1d1f4db19770f1282afb33c44227a7bf7d127b61d78ebdf34",
+    "docs/text/EN/15.txt": "4cb13f9caf703b8eaa5d67c0576768576ae1eb0b87cf02a556242e1d0f9d26f9",
+    "docs/text/EN/43.txt": "e6b1fba923af234da56ac0f95d0b38d4cfdf5bb3560d02603bfa88ad32666501",
+    "docs/text/EN/16.txt": "24b6e1e90ae070f13cbc660e1b05dca6670e52989c079ef9131ece2941cab9c6",
+    "docs/text/EN/18.txt": "e5a0d8dc9b1cab784a8f1de9ed9f2ef342aff4bbed70ff7b687757d174752fb2",
+    "docs/text/EN/19.txt": "a7251060fdeabf4005dfe7f08eb40489f089cb14db439f504152daaf0a9427f4",
+    "docs/text/EN/45.txt": "261c236cbefc1eb6673e8aee8afaf44617a1839fc40e55546dab5f31bf0d4918",
+    "docs/text/EN/06.txt": "6dfc89dcf0a37665144cc501ffd64ba8df004121e35a3f5c14a4aa19e3c78264",
+    "docs/text/EN/02.txt": "66ae1eb36cb5f4110194b692e1a7a12ecd6d9aba3311272587178b2de0c1717c",
     "docs/text/TC/01.txt": "842c297949dffb751013b099c308b31538832958003e938b4db9c5fe40cac2b0",
-    "docs/text/TC/02.txt": "6767b0cbf8261b2b9e2a8b5e958a16615d6fd8c01c241255b42a78b0d565e758",
-    "docs/text/TC/03.txt": "3758e76ea32321d7fbfdf75c381e733727bc43803017c54dedbbf333edda0dae",
-    "docs/text/TC/04.txt": "d99388634e789d51250d4bbf79cc3b0c3d7d11861e73420a3e8a8628742f55ff",
-    "docs/text/TC/05.txt": "1a6da27c10e68c963afbc321f23dabbcf696c5daa8de1092d1ff9d1a6ea4ab49",
-    "docs/text/TC/06.txt": "fbc5c7a4f2c55fdaf7af2daf109e29ad67741a631c8e198b7c1abfe787029928",
-    "docs/text/TC/07.txt": "2aff0e725a6caf8bc5a963fbbdea408a4f429b3a57fe3191d8ae537fe4df977f",
-    "docs/text/TC/08.txt": "45607597f8c484dd45e923567f79e8443b7091b69cea11d7299a0d372f522615",
-    "docs/text/TC/09.txt": "21a3852bbfaa06fd28eb5c6bc07737776cf24b6a0081d9f941229e6428e6fdc6",
-    "docs/text/TC/10.txt": "e973aa5a20539ae09bb8f1cffae5a5b9e96fbfc31fab53f382aeece475a86392",
-    "docs/text/TC/11.txt": "1e86b7b4a037c59763304c56e358c531fe468436329c2aeaf1855db06fe311d1",
-    "docs/text/TC/12.txt": "d962e70764f12446ef12fffc450126a9b4eb7a3e8cf24dff4458675522d36756",
-    "docs/text/TC/13.txt": "f11a03b254ad2927c9893fef9c345ec374d018294237b06f2a59087b639d5661",
-    "docs/text/TC/14.txt": "bbc5d8ae0fde81095f386ac018b7213f4a63ae4d4bc98b4d2634349b01556ffb",
-    "docs/text/TC/15.txt": "de1d21e820c9f732ea2d4c07f6cb380e803f0167218125beffe58761f24c36bb",
-    "docs/text/TC/16.txt": "f5246faaacbf9ffed5a8fde9d80f5e7e83fe7aa29adbe06948fa7a5d0b0a6e7c",
-    "docs/text/TC/17.txt": "ec8da8fdff97f4c8c9e174f032bdee92842bed445a5c22a87df41ab40f5a857a",
-    "docs/text/TC/18.txt": "1d62d3e23ba8f21e6eea6734a4a246de0e8940882e4195f8c424edccfae89b8f",
-    "docs/text/TC/19.txt": "6eedcefddad383c7e8fcddd3c0fb5b5041b6e479a4dfc8106bbc00c104dd01e7",
-    "docs/text/TC/20.txt": "0a4521130c3d5484860a0ab1eef58b79a89185ae65a658cb86d79be3d7ef816f",
-    "docs/text/TC/21.txt": "1febe7e84e09677991d90585603b53bba0c85c59fdc8e0deb2a72ba493aa4f94",
-    "docs/text/TC/22.txt": "26974ae4446f65b0489c6f0cbb42d303cb2c2621e1752a5be675dba9185244e7",
-    "docs/text/TC/23.txt": "7c89ad2ba0cf282c515ff91f814283852c01872cb8489845e09ea600131341ac",
+    "docs/text/TC/03.txt": "6767b0cbf8261b2b9e2a8b5e958a16615d6fd8c01c241255b42a78b0d565e758",
+    "docs/text/TC/05.txt": "3758e76ea32321d7fbfdf75c381e733727bc43803017c54dedbbf333edda0dae",
+    "docs/text/TC/10.txt": "d99388634e789d51250d4bbf79cc3b0c3d7d11861e73420a3e8a8628742f55ff",
+    "docs/text/TC/11.txt": "1a6da27c10e68c963afbc321f23dabbcf696c5daa8de1092d1ff9d1a6ea4ab49",
+    "docs/text/TC/20.txt": "fbc5c7a4f2c55fdaf7af2daf109e29ad67741a631c8e198b7c1abfe787029928",
+    "docs/text/TC/21.txt": "2aff0e725a6caf8bc5a963fbbdea408a4f429b3a57fe3191d8ae537fe4df977f",
+    "docs/text/TC/12.txt": "45607597f8c484dd45e923567f79e8443b7091b69cea11d7299a0d372f522615",
+    "docs/text/TC/13.txt": "21a3852bbfaa06fd28eb5c6bc07737776cf24b6a0081d9f941229e6428e6fdc6",
+    "docs/text/TC/04.txt": "e973aa5a20539ae09bb8f1cffae5a5b9e96fbfc31fab53f382aeece475a86392",
+    "docs/text/TC/22.txt": "1e86b7b4a037c59763304c56e358c531fe468436329c2aeaf1855db06fe311d1",
+    "docs/text/TC/14.txt": "d962e70764f12446ef12fffc450126a9b4eb7a3e8cf24dff4458675522d36756",
+    "docs/text/TC/07.txt": "f11a03b254ad2927c9893fef9c345ec374d018294237b06f2a59087b639d5661",
+    "docs/text/TC/08.txt": "bbc5d8ae0fde81095f386ac018b7213f4a63ae4d4bc98b4d2634349b01556ffb",
+    "docs/text/TC/42.txt": "de1d21e820c9f732ea2d4c07f6cb380e803f0167218125beffe58761f24c36bb",
+    "docs/text/TC/15.txt": "f5246faaacbf9ffed5a8fde9d80f5e7e83fe7aa29adbe06948fa7a5d0b0a6e7c",
+    "docs/text/TC/43.txt": "ec8da8fdff97f4c8c9e174f032bdee92842bed445a5c22a87df41ab40f5a857a",
+    "docs/text/TC/16.txt": "1d62d3e23ba8f21e6eea6734a4a246de0e8940882e4195f8c424edccfae89b8f",
+    "docs/text/TC/18.txt": "6eedcefddad383c7e8fcddd3c0fb5b5041b6e479a4dfc8106bbc00c104dd01e7",
+    "docs/text/TC/19.txt": "0a4521130c3d5484860a0ab1eef58b79a89185ae65a658cb86d79be3d7ef816f",
+    "docs/text/TC/45.txt": "1febe7e84e09677991d90585603b53bba0c85c59fdc8e0deb2a72ba493aa4f94",
+    "docs/text/TC/06.txt": "26974ae4446f65b0489c6f0cbb42d303cb2c2621e1752a5be675dba9185244e7",
+    "docs/text/TC/02.txt": "7c89ad2ba0cf282c515ff91f814283852c01872cb8489845e09ea600131341ac",
     "docs/text/manifest.json": "02a6ec17c73e5e0c9aa8ded62ccc304fd8372ec4c81c8a02e4b217f9d87f1bfc",
     "docs/README.md": "b6f4b17078676c435320cb28ecafdcf0d36e9b5849666d838a287af91119eb80",
-    "bank/FORMAT.md": "1dd5ccf00ccc3dbae0c25b5f853bb19d189c5ce20e7e725a77fbcc870830dd4b",
+    "bank/FORMAT.md": "6aa8ab2d13fec996b114cc5f65dbe6d496c08799cf3f8e564b04c6d0adf41d19",
     "revision/CONFLICT-CALLS.md": "9b7f51b7e1a65a82f83e00dd41e925a1bfe0a43388639dc2a3ed3406f78a0241",
     ".claude/skills/exam-prep/SKILL.md": "cbafb87c6fd6da5db44bc0eea7768eda0e198bd4d4c938e0255c397772ab7748"
   },
@@ -124,161 +124,161 @@
       "reviewed_units": "引言、¶1.1–15.1全部章節及¶7.1樣題（英文全讀）",
       "excluded_units": "封面目錄；¶9–15考務細節及¶5–6試卷資料以參考列處理",
       "note": "沒有遺漏未處理章節；考務已有題不代表值得繼續擴張。",
-      "title": "01_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
-    },
-    {
-      "doc": "02",
-      "reviewed_units": "第 1–11 章全部正文及其脚注；附录 A 第 1–10 段及脚注；术语表",
-      "excluded_units": "封面、目录、纯导航网址不设补题任务；¶4.7.2 的证券及寿险业务例子仅作延后核实条件的背景；不扩张为 MSO 经营该等专门业务的义务。",
-      "note": "现行库与指引有重叠于 AMLO/FAQ 的规则；按规则实质核对，不能以不同文件编号当成缺口。",
-      "title": "02_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+      "title": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
     },
     {
       "doc": "03",
-      "reviewed_units": "Sections I–XVI，¶1.1–16.3及完整收費／支持文件表（英文全讀）；優先缺口中文相應段",
-      "excluded_units": "封面目錄；§XV聯絡資訊為參考",
-      "note": "現行AMLO與既有衝突決策優先，表格資料已與來源逐項對照；未重新檢查官方網上更新。",
-      "title": "03_Licensing Guide (May 2026).pdf"
-    },
-    {
-      "doc": "04",
-      "reviewed_units": "¶1–8全部（英文）",
-      "excluded_units": "封面／出版資訊",
-      "note": "法定F&P因素跨單元2，補充因素在單元4。",
-      "title": "04_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf"
+      "reviewed_units": "第 1–11 章全部正文及其脚注；附录 A 第 1–10 段及脚注；术语表",
+      "excluded_units": "封面、目录、纯导航网址不设补题任务；¶4.7.2 的证券及寿险业务例子仅作延后核实条件的背景；不扩张为 MSO 经营该等专门业务的义务。",
+      "note": "现行库与指引有重叠于 AMLO/FAQ 的规则；按规则实质核对，不能以不同文件编号当成缺口。",
+      "title": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
     },
     {
       "doc": "05",
-      "reviewed_units": "引言、¶1–9及¶6(a)–(r)（英文全讀；中文重點¶6）",
-      "excluded_units": "封面／出版資訊",
-      "note": "財務穩健內容另列缺口；沒有只因沒有引用04而當作空白。",
-      "title": "05_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf"
-    },
-    {
-      "doc": "06",
-      "reviewed_units": "引言、items1–17（英文全讀；中文差額段核實）",
-      "excluded_units": "頁腳版本資訊",
-      "note": "item7、12、15、16內部分內容待補。",
-      "title": "06_Guidelines for Submission of Business Plan (Ver 12-2019).pdf"
-    },
-    {
-      "doc": "07",
-      "reviewed_units": "引言、items1–19（英文全讀）",
-      "excluded_units": "頁腳版本資訊",
-      "note": "控制實質可由單元5–7題句覆蓋，不重複要求「政策應寫入」形式的題。",
-      "title": "07_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf"
-    },
-    {
-      "doc": "08",
-      "reviewed_units": "¶1–9全部及¶9(a)–(d)各子項（英文）",
-      "excluded_units": "封面／出版資訊",
-      "note": "與09共同因素合併，09相應中文缺口覆核。",
-      "title": "08_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf"
-    },
-    {
-      "doc": "09",
-      "reviewed_units": "¶1–9全部及¶9(a)–(d)各子項（英文、中文重點缺口）",
-      "excluded_units": "封面／出版資訊",
-      "note": "¶6不自動掛鈎罰款額獨立列出，不能由三倍上限題當作已覆蓋。",
-      "title": "09_Disciplinary Fining Guideline (May 2018).pdf"
+      "reviewed_units": "Sections I–XVI，¶1.1–16.3及完整收費／支持文件表（英文全讀）；優先缺口中文相應段",
+      "excluded_units": "封面目錄；§XV聯絡資訊為參考",
+      "note": "現行AMLO與既有衝突決策優先，表格資料已與來源逐項對照；未重新檢查官方網上更新。",
+      "title": "05_High_Licensing Guide (May 2026).pdf"
     },
     {
       "doc": "10",
-      "reviewed_units": "EN：第1–7部中MSO适用条文（含第6A部），第1–4附表。正文第1–53、54–82条及附表1定义、附表2第1–23条逐段按适用对象筛选；附表3全部10项、附表4全部10条。EN PDF pp25–105、297–336、339–400、448–456；虚拟资产监管合作等只作范围筛选。TC：全部P1/P2缺口及错误题的相应条文，重点pp33–34、47、54–55、80、105、313–314、353–354、365、376、391、399–400。",
-      "excluded_units": "第5A/5B/5C部行业制度；第13A–13E条虚拟资产境外监管协助；第5A条DNFBP专属适用；附表2银行代理行、保险受益人、虚拟资产转账及DNFBP专属细节；附表3A–3K；已废除/失时第8部及行政历史细节。",
-      "note": "排除是按现有MSO范围作出的审计边界，并非声称考试官方逐条排除了这些条文。没有重查网络最新法例；当前结论只针对存档版。EN核心全部审核；TC非缺口行未逐条重做独立语义审核。",
-      "title": "10_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+      "reviewed_units": "¶1–8全部（英文）",
+      "excluded_units": "封面／出版資訊",
+      "note": "法定F&P因素跨單元2，補充因素在單元4。",
+      "title": "10_Medium_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf"
     },
     {
       "doc": "11",
-      "reviewed_units": "全文第1–6段",
-      "excluded_units": "热线、网址和历史实施日期不单独造题",
-      "note": "核对归档版本；并非确认官网截至审核日未更新。",
-      "title": "11_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf"
-    },
-    {
-      "doc": "12",
-      "reviewed_units": "全文第1–6段与注1–4",
-      "excluded_units": "被本通函引述的2018旧通函不重复纳入范围",
-      "note": "核对归档版本；并非确认官网截至审核日未更新。",
-      "title": "12_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf"
-    },
-    {
-      "doc": "13",
-      "reviewed_units": "全文与附录(1)–(3)",
-      "excluded_units": "联系方式、一般执法宣示不独立补题",
-      "note": "核对归档版本；并非确认官网截至审核日未更新。",
-      "title": "13_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf"
-    },
-    {
-      "doc": "14",
-      "reviewed_units": "正文、8项警讯、12项控制与脚注",
-      "excluded_units": "新闻外链及犯罪团伙新闻细节不扩大为新增来源",
-      "note": "核对归档版本；并非确认官网截至审核日未更新。",
-      "title": "14_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf"
-    },
-    {
-      "doc": "15",
-      "reviewed_units": "全文两段实质内容",
-      "excluded_units": "无独立实质排除",
-      "note": "核对归档版本；并非确认官网截至审核日未更新。",
-      "title": "15_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf"
-    },
-    {
-      "doc": "16",
-      "reviewed_units": "全文及附件第3–5页截图",
-      "excluded_units": "示例表内金额与人数、联系方式、2025年过渡日期不作为记忆缺口",
-      "note": "核对归档版本；并非确认官网截至审核日未更新。",
-      "title": "16_Circular - E-submission of the Periodic Return (30 May 2025).pdf"
-    },
-    {
-      "doc": "17",
-      "reviewed_units": "全文及三步申报流程",
-      "excluded_units": "外链使用手册、热线和网址不列独立考点",
-      "note": "核对归档版本；并非确认官网截至审核日未更新。",
-      "title": "17_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf"
-    },
-    {
-      "doc": "18",
-      "reviewed_units": "全文修订提示",
-      "excluded_units": "未归档的Cap.34正文不据空白推定为已审核",
-      "note": "核对归档版本；并非确认官网截至审核日未更新。",
-      "title": "18_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf"
-    },
-    {
-      "doc": "19",
-      "reviewed_units": "全文与四项强化范畴",
-      "excluded_units": "外链FATF报告正文不在23份归档范围",
-      "note": "核对归档版本；并非确认官网截至审核日未更新。",
-      "title": "19_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf"
+      "reviewed_units": "引言、¶1–9及¶6(a)–(r)（英文全讀；中文重點¶6）",
+      "excluded_units": "封面／出版資訊",
+      "note": "財務穩健內容另列缺口；沒有只因沒有引用10而當作空白。",
+      "title": "11_Medium_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf"
     },
     {
       "doc": "20",
-      "reviewed_units": "正文第(1)–(3)项和注1–6",
-      "excluded_units": "外链全会成果、外交进展和旧通函不单独扩展题库",
-      "note": "核对归档版本；并非确认官网截至审核日未更新。",
-      "title": "20_Circular - Statements issued by the FATF (3 Jul 2026).pdf"
+      "reviewed_units": "引言、items1–17（英文全讀；中文差額段核實）",
+      "excluded_units": "頁腳版本資訊",
+      "note": "item7、12、15、16內部分內容待補。",
+      "title": "12_Medium_Guidelines for Submission of Business Plan (Ver 12-2019).pdf"
     },
     {
       "doc": "21",
-      "reviewed_units": "全文、三项咨询议题",
-      "excluded_units": "咨询回应日期及邮箱依E25排除；外链草案正文不扩展范围",
-      "note": "核对归档版本；并非确认官网截至审核日未更新。",
-      "title": "21_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf"
+      "reviewed_units": "引言、items1–19（英文全讀）",
+      "excluded_units": "頁腳版本資訊",
+      "note": "控制實質可由單元5–7題句覆蓋，不重複要求「政策應寫入」形式的題。",
+      "title": "13_Medium_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf"
+    },
+    {
+      "doc": "12",
+      "reviewed_units": "¶1–9全部及¶9(a)–(d)各子項（英文）",
+      "excluded_units": "封面／出版資訊",
+      "note": "與13共同因素合併，13相應中文缺口覆核。",
+      "title": "14_Medium_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf"
+    },
+    {
+      "doc": "13",
+      "reviewed_units": "¶1–9全部及¶9(a)–(d)各子項（英文、中文重點缺口）",
+      "excluded_units": "封面／出版資訊",
+      "note": "¶6不自動掛鈎罰款額獨立列出，不能由三倍上限題當作已覆蓋。",
+      "title": "15_Medium_Disciplinary Fining Guideline (May 2018).pdf"
+    },
+    {
+      "doc": "04",
+      "reviewed_units": "EN：第1–7部中MSO适用条文（含第6A部），第1–4附表。正文第1–53、54–82条及附表1定义、附表2第1–23条逐段按适用对象筛选；附表3全部10项、附表4全部10条。EN PDF pp25–105、297–336、339–400、448–456；虚拟资产监管合作等只作范围筛选。TC：全部P1/P2缺口及错误题的相应条文，重点pp33–34、47、54–55、80、105、313–314、353–354、365、376、391、399–400。",
+      "excluded_units": "第5A/5B/5C部行业制度；第13A–13E条虚拟资产境外监管协助；第5A条DNFBP专属适用；附表2银行代理行、保险受益人、虚拟资产转账及DNFBP专属细节；附表3A–3K；已废除/失时第8部及行政历史细节。",
+      "note": "排除是按现有MSO范围作出的审计边界，并非声称考试官方逐条排除了这些条文。没有重查网络最新法例；当前结论只针对存档版。EN核心全部审核；TC非缺口行未逐条重做独立语义审核。",
+      "title": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
     },
     {
       "doc": "22",
+      "reviewed_units": "全文第1–6段",
+      "excluded_units": "热线、网址和历史实施日期不单独造题",
+      "note": "核对归档版本；并非确认官网截至审核日未更新。",
+      "title": "17_Medium_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf"
+    },
+    {
+      "doc": "14",
+      "reviewed_units": "全文第1–6段与注1–4",
+      "excluded_units": "被本通函引述的2018旧通函不重复纳入范围",
+      "note": "核对归档版本；并非确认官网截至审核日未更新。",
+      "title": "16_Medium_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf"
+    },
+    {
+      "doc": "07",
+      "reviewed_units": "全文与附录(1)–(3)",
+      "excluded_units": "联系方式、一般执法宣示不独立补题",
+      "note": "核对归档版本；并非确认官网截至审核日未更新。",
+      "title": "07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf"
+    },
+    {
+      "doc": "08",
+      "reviewed_units": "正文、8项警讯、12项控制与脚注",
+      "excluded_units": "新闻外链及犯罪团伙新闻细节不扩大为新增来源",
+      "note": "核对归档版本；并非确认官网截至审核日未更新。",
+      "title": "08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf"
+    },
+    {
+      "doc": "42",
+      "reviewed_units": "全文两段实质内容",
+      "excluded_units": "无独立实质排除",
+      "note": "核对归档版本；并非确认官网截至审核日未更新。",
+      "title": "30_Low_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf"
+    },
+    {
+      "doc": "15",
+      "reviewed_units": "全文及附件第3–5页截图",
+      "excluded_units": "示例表内金额与人数、联系方式、2025年过渡日期不作为记忆缺口",
+      "note": "核对归档版本；并非确认官网截至审核日未更新。",
+      "title": "18_Medium_Circular - E-submission of the Periodic Return (30 May 2025).pdf"
+    },
+    {
+      "doc": "43",
+      "reviewed_units": "全文及三步申报流程",
+      "excluded_units": "外链使用手册、热线和网址不列独立考点",
+      "note": "核对归档版本；并非确认官网截至审核日未更新。",
+      "title": "31_Low_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf"
+    },
+    {
+      "doc": "16",
+      "reviewed_units": "全文修订提示",
+      "excluded_units": "未归档的Cap.34正文不据空白推定为已审核",
+      "note": "核对归档版本；并非确认官网截至审核日未更新。",
+      "title": "19_Medium_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf"
+    },
+    {
+      "doc": "18",
+      "reviewed_units": "全文与四项强化范畴",
+      "excluded_units": "外链FATF报告正文不在23份归档范围",
+      "note": "核对归档版本；并非确认官网截至审核日未更新。",
+      "title": "21_Medium_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf"
+    },
+    {
+      "doc": "19",
+      "reviewed_units": "正文第(1)–(3)项和注1–6",
+      "excluded_units": "外链全会成果、外交进展和旧通函不单独扩展题库",
+      "note": "核对归档版本；并非确认官网截至审核日未更新。",
+      "title": "23_Medium_Circular - Statements issued by the FATF (3 Jul 2026).pdf"
+    },
+    {
+      "doc": "45",
+      "reviewed_units": "全文、三项咨询议题",
+      "excluded_units": "咨询回应日期及邮箱依E25排除；外链草案正文不扩展范围",
+      "note": "核对归档版本；并非确认官网截至审核日未更新。",
+      "title": "32_Low_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf"
+    },
+    {
+      "doc": "06",
       "reviewed_units": "AML FAQ Q1–Q28逐問；牌照FAQ Q1–Q15；技術FAQ Q1–Q4（英文全讀，所有擬補題中文核實）",
       "excluded_units": "牌照FAQ歷史日期／地址聯絡、技術FAQ列參考；頁尾導航",
       "note": "牌照Q2郵政署長屬制度背景；Q10、13須依既有B3/E11而非照舊FAQ絕對化。網頁沒有PDF頁碼。",
-      "title": "22_FAQ applicable to all MSOs (C&ED portal).md"
+      "title": "06_High_FAQ applicable to all MSOs (C&ED portal).md"
     },
     {
-      "doc": "23",
+      "doc": "02",
       "reviewed_units": "Example(1)–(7)全部題幹／題句（英文）",
       "excluded_units": "公函頁首日期，無其他實質單元",
       "note": "七題全部在active bank；另01有一題，合共八題。",
-      "title": "23_Competence Assessment - Sample Questions (12 May 2021).pdf"
+      "title": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf"
     }
   ],
   "method_notes": [
@@ -288,16 +288,16 @@
     "题句证据为1起算；阅读了第2、3单元所有题句，并跨第1、4、5、6、7单元核对候选缺口。引用长段或讲解中的规则不计作受测。",
     "共有66组：51已覆盖、7部分覆盖、4缺失、4边界/参考；这不是按法条数量计算的覆盖率，组的粒度不代表考试分值。",
     "补题工作量粗估10题，可优先重写/扩充现有题而非净增加；另1项P1为修正现有错误题，不计新增。与其他文件相同规则必须去重后再形成全库清单。",
-    "以 b5ad1dc 的 297 题、1499 句为基线；从 02 的全部章节、附录逐项回查七个单元，按实际题句而非引用段落计覆盖。",
+    "以 b5ad1dc 的 297 题、1499 句为基线；从 03 的全部章节、附录逐项回查七个单元，按实际题句而非引用段落计覆盖。",
     "source_pages 均为从 PDF 首张开始的 1 基页码，不是页脚印刷页码。中英文分页不同。",
     "covered 仅表示本行所列核心命题已被直接测问；未穷举非核心例子的每一种措辞。partial/missing 的缺口逐项明确；不以单题数少推断不足。",
-    "本次完整阅读英文 02，优先缺口及已登记语言差异回查繁中；重点缺口的关联题句复查 notes/quotes，确认仅解释出现不算已测试。不是 297 题新一轮盲答，也没有逐句重审每题全部双语说明或联网确认比归档更新的版本。",
+    "本次完整阅读英文 03，优先缺口及已登记语言差异回查繁中；重点缺口的关联题句复查 notes/quotes，确认仅解释出现不算已测试。不是 297 题新一轮盲答，也没有逐句重审每题全部双语说明或联网确认比归档更新的版本。",
     "跨单元命题算全库覆盖，但指出原预期单元缺少练习。归属是教学判断，官方资料没有逐条分配考点。",
     "以 b5ad1dc 的297題實際題句為證據；先通讀英文各章／FAQ，再查所有七單元，不能以引用文件即視為涵蓋。",
-    "頁碼為PDF實體頁（由1起）；22為網頁文字，無PDF頁碼，以FAQ系列及問答號定位。",
+    "頁碼為PDF實體頁（由1起）；06為網頁文字，無PDF頁碼，以FAQ系列及問答號定位。",
     "所有優先缺口均覆核中文對應段落；已涵蓋項目以英文原文為主，中文術語／衝突採既有決策簿，未作每一覆蓋題的完整雙語重新盲審。",
     "題量僅為最少起草估計，不代表考試頻率；同一題可合併相近缺口，跨模組已有題句不重複計為缺口。",
-    "逐份阅读11–21中英文归档文本，以实际题句而非引用或讲解判断覆盖。16的英文附件第3–5页另渲染原PDF检查截图。",
+    "逐份阅读22、14、07、08、42、15、43、16、18、19、45中英文归档文本，以实际题句而非引用或讲解判断覆盖。15的英文附件第3–5页另渲染原PDF检查截图。",
     "行政联系方式、过渡日期和外链文件正文不作为未覆盖的实质考点；外链不自动扩大既定23份资料范围。",
     "另一审核者交叉复核指引的21个原P1：11保留、8收窄、1降P2、1改为修现题；主审核逐项裁定后纳入。不是对全部P2和旧题答案的第二次盲审。"
   ],
@@ -307,13 +307,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "条例名称、解释附表及政府适用",
       "locators": "第1–4条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             25,
@@ -380,13 +380,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "附表2适用与指引法律性质",
       "locators": "第5(1)、6、7条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             28,
@@ -468,13 +468,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "违反尽职审查规定的机构与个人刑责",
       "locators": "第5(5)–(10)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             28,
@@ -549,13 +549,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "例行检查的对象、授权及资料持有人",
       "locators": "第8、9(1)、(12)–(16)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             36,
@@ -643,13 +643,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "例行检查进入、查阅和作答要求",
       "locators": "第9(1A)、(3)–(11)、(14)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             38,
@@ -727,13 +727,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "不遵从例行检查要求的罪责",
       "locators": "第10条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             47,
@@ -810,13 +810,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "调查员委任、查问及报告",
       "locators": "第11、12条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             50,
@@ -944,13 +944,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "自证其罪、法庭命令、重复程序及留置权",
       "locators": "第13(11)–(12)、14–16条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             57,
@@ -1070,13 +1070,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "搜索令、电子记录及保全证据",
       "locators": "第17–20条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             68,
@@ -1206,13 +1206,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "违反附表2的纪律处分与程序",
       "locators": "第21–23条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             74,
@@ -1327,13 +1327,13 @@
         4
       ],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "第5部定义、最终拥有人及获授权人员",
       "locators": "第24、46条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             78,
@@ -1452,13 +1452,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "授权转授、规例与附表修订",
       "locators": "第26、50、51、58条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             80,
@@ -1533,13 +1533,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "公众登记册及证明的证据力",
       "locators": "第27、28条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             80,
@@ -1613,13 +1613,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "无牌经营罪、刑罚与取消资格",
       "locators": "第29条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             82
@@ -1691,13 +1691,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "发牌资格及适当人选判断",
       "locators": "第30(1)–(4)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             82,
@@ -1838,13 +1838,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "发牌、续牌条件及牌照期限",
       "locators": "第30(5)–(10)、31–33条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             85,
@@ -1971,13 +1971,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "撤销、暂吊及不自动停止执行",
       "locators": "第34、54、69条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             89,
@@ -2106,13 +2106,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "变更负责人和营业处所须事先批准",
       "locators": "第35–39条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             91,
@@ -2233,13 +2233,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "展示牌照、资料变更、停业和牌照失效",
       "locators": "第39A–42条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             96,
@@ -2344,13 +2344,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "发牌监管纪律处分",
       "locators": "第43–45条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             98,
@@ -2449,13 +2449,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "无牌经营调查的搜索及拘捕",
       "locators": "第46–48条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             101,
@@ -2583,13 +2583,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "虚假牌照申请与检控期限",
       "locators": "第52、53条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             104,
@@ -2664,13 +2664,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "覆核審裁處组成与可覆核决定",
       "locators": "第54–56、58条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             297,
@@ -2799,13 +2799,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "覆核申请、权限与证明标准",
       "locators": "第59–61条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             304,
@@ -2932,13 +2932,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "覆核程序罪责、费用、保密及执行",
       "locators": "第61–68条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             306,
@@ -3061,13 +3061,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "上诉、暂缓执行与指定决定生效",
       "locators": "第69–75条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             311,
@@ -3078,7 +3078,7 @@
           ]
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "pages": [
             314
@@ -3209,13 +3209,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "text": "the lodging of an appeal under section 71 does not by itself operate as a stay of execution of the determination of the Tribunal appealed against.",
           "locator": "第69–75条"
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "text": "根據第71 條針對審裁處的\n裁定提出上訴，本身並不具有暫緩執行該裁定的效力。",
           "locator": "第73(1)條"
@@ -3233,13 +3233,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "第6A部保密、允许披露与接收人再披露",
       "locators": "第76A–76G条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             317,
@@ -3425,13 +3425,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "杂项：举证、检控、通知和法律专业保密",
       "locators": "第77–81条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             330,
@@ -3518,13 +3518,13 @@
         1
       ],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "洗钱与恐怖分子资金筹集的法定定义",
       "locators": "附表1第1部第1–2条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             340,
@@ -3641,13 +3641,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "金钱服务、酒店豁免与纯信息系统",
       "locators": "附表1第1部第1、3条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             339,
@@ -3731,13 +3731,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "一般法定词语及监管者",
       "locators": "附表1第1部第1条；第2部第1条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             340,
@@ -3833,13 +3833,13 @@
         6
       ],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "实益拥有人：门槛、信托及代他人行事",
       "locators": "附表2第1(1)条「實益擁有人」",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             351,
@@ -3847,7 +3847,7 @@
           ]
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "pages": [
             353
@@ -3926,13 +3926,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "text": "if the corporation is acting on behalf of another person, means the other person;",
           "locator": "附表2第1(1)条「實益擁有人」"
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "text": "( 如該法團是代表另一人行事) 指該另一人；",
           "locator": "附表2第1(1)條「實益擁有人」(a)(ii)"
@@ -3950,13 +3950,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "业务关系、非经常交易、法人和对等司法管辖区",
       "locators": "附表2第1(1)、(4)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             353,
@@ -4077,13 +4077,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "法定识别文件与公共机构",
       "locators": "附表2第1(1)条「識別文件」「公共機構」",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             354,
@@ -4201,13 +4201,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "政治人物、亲属和关系密切者定义",
       "locators": "附表2第1(1)–(3)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             353,
@@ -4337,13 +4337,13 @@
         6
       ],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "CDD的身份、目的及代表授权",
       "locators": "附表2第2(1)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             358,
@@ -4507,13 +4507,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "CDD触发门槛、延后核实及不能完成的后果",
       "locators": "附表2第3条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             361,
@@ -4631,13 +4631,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "简化尽调：客户、产品和所有权链",
       "locators": "附表2第4(1)–(5)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             363,
@@ -4809,20 +4809,20 @@
         6
       ],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "律师混合客户账户的简化尽调条件",
       "locators": "附表2第4(6)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             366
           ]
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "pages": [
             365
@@ -4863,13 +4863,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "text": "that is managed by the customer as those clients’ agent.",
           "locator": "附表2第4(6)条"
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "text": "該戶口是由客戶以其當事人的代理人身分管理。",
           "locator": "附表2第4(6)(c)條"
@@ -4889,13 +4889,13 @@
         6
       ],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "持续监察与先前客户触发规则",
       "locators": "附表2第5、6条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             366,
@@ -5039,13 +5039,13 @@
         6
       ],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "非面对面身份核实的附加措施与例外",
       "locators": "附表2第8、9条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             370,
@@ -5157,13 +5157,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "政治人物及其他高风险的加强措施",
       "locators": "附表2第5(3)(b)、(5)、10、15条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             367,
@@ -5309,13 +5309,13 @@
         6
       ],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "电传转账适用、门槛及资料替代",
       "locators": "附表2第12(2)、(3)、(3A)、(5)、(11)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             375,
@@ -5325,7 +5325,7 @@
           ]
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "pages": [
             376
@@ -5470,13 +5470,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "text": "the originator’s address, the originator’s customer identification number or identification document number or, if the originator is an individual, the originator’s date and place of birth;",
           "locator": "附表2第12(2)、(3)、(3A)、(5)、(11)条"
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "text": "匯款人的地址、匯款人的客戶識別號碼或識別文件\n號碼或( 如匯款人屬一名個人) 匯款人的出生日期及\n地方；",
           "locator": "附表2第12(3)(c)條"
@@ -5494,13 +5494,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "电传：账户替代号码、本地及批量安排",
       "locators": "附表2第12(3)(b)、(e)、(6)、(7)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             376,
@@ -5574,13 +5574,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "电传：中介和收款机构处理缺资料",
       "locators": "附表2第12(8)–(10)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             377,
@@ -5656,13 +5656,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "非电传汇款8000元规定",
       "locators": "附表2第13条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             379,
@@ -5769,13 +5769,13 @@
         5
       ],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "匿名账户禁止及有效程序和保障",
       "locators": "附表2第16、19、23条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             386,
@@ -5879,13 +5879,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "中介人依赖：资格、取资料和保留责任",
       "locators": "附表2第18(1)–(4)、(6)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             388,
@@ -6042,13 +6042,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "相关外地金融机构作为中介人及迁册实体",
       "locators": "附表2第18(3)(d)、(3A)、(4)(c)、(7)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             390,
@@ -6058,7 +6058,7 @@
           ]
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "pages": [
             391
@@ -6121,13 +6121,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "text": "if the financial institution is incorporated in Hong Kong or is a re-domiciled entity, it is a branch of the financial institution;",
           "locator": "附表2第18(3)(d)、(3A)、(4)(c)、(7)条"
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "text": "( 如該金融機構是在香港成立為法團的，或是\n經遷冊實體) 該另一機構是該金融機構的分行；",
           "locator": "附表2第18(7)條「相關外地金融機構」(b)(ii)"
@@ -6145,13 +6145,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "记录内容、保存形式和延长通知",
       "locators": "附表2第20(1)、(4)–(5)、21条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             394,
@@ -6250,13 +6250,13 @@
         7
       ],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "记录保存的三个五年起点",
       "locators": "附表2第20(2)、(3)、(3A)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             394,
@@ -6324,13 +6324,13 @@
         5
       ],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "海外分支和附属企业的法定义务",
       "locators": "附表2第22条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             396,
@@ -6431,13 +6431,13 @@
         4
       ],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "牌照与登记册费用",
       "locators": "附表3第1–10项",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             399,
@@ -6445,7 +6445,7 @@
           ]
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "pages": [
             399
@@ -6533,13 +6533,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "text": "for each person who is subject to the fit and proper person test",
           "locator": "附表3第1–10项"
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "text": "申請牌照續期",
           "locator": "附表3第5項"
@@ -6557,13 +6557,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "審裁處主席任期、辞职和免职",
       "locators": "附表4第3、5(1)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             449,
@@ -6637,13 +6637,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "審裁處委员及普通成员",
       "locators": "附表4第1、2、4、5(2)–(3)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             448,
@@ -6726,13 +6726,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "審裁處开庭、表决、代表及公开",
       "locators": "附表4第6、10条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             451,
@@ -6859,13 +6859,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "初步会议、同意令和主席独任",
       "locators": "附表4第7–9条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             452,
@@ -6986,13 +6986,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "其他监管当局向MSO索取客户资料的限制",
       "locators": "第9A、12A条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             47,
@@ -7001,7 +7001,7 @@
           ]
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "pages": [
             54
@@ -7017,13 +7017,13 @@
       "evidence": [],
       "source_quotes": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "text": "the other regulatory authority is of the opinion, and certifies in writing that it is of the opinion, that the disclosure or production is necessary for the purposes of the investigation.",
           "locator": "第9A、12A条"
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "text": "該調查員有合理因由相信，該客户是可能有能力提\n供與有關調查相關的資料的人；",
           "locator": "第12A(2)(a)條"
@@ -7041,13 +7041,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "不遵从调查要求的罪责与检查罪的衔接",
       "locators": "第13(1)–(10)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             55,
@@ -7056,7 +7056,7 @@
           ]
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "pages": [
             55
@@ -7071,13 +7071,13 @@
       "evidence": [],
       "source_quotes": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "text": "gives any answer, response, explanation or further particulars, that is or are false or misleading in a material particular;",
           "locator": "第13(1)–(10)条"
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "text": "任何人無合理辯解而沒有遵從根據第12(2)、(3)、(4) 或(5)\n條對該人施加的要求，即屬犯罪。",
           "locator": "第13(1)條"
@@ -7095,13 +7095,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "金钱服务发牌豁免及稳定币边界",
       "locators": "第25条；附表1第2部「financial institution」「relevant authority」",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             79,
@@ -7113,7 +7113,7 @@
           ]
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "pages": [
             80
@@ -7178,13 +7178,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "text": "a stablecoin licensee that operates a money service that is a business activity of the licensee under its stablecoin licence",
           "locator": "第25条；附表1第2部「financial institution」「relevant authority」"
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "text": "經營符合以下說明的金錢服務的穩定幣持牌人：該\n金錢服務是該持牌人在其穩定幣牌照下的業務活動",
           "locator": "第25(h)條"
@@ -7202,20 +7202,20 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "申请中遗漏要项何时构成罪行",
       "locators": "第52(2)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             105
           ]
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "pages": [
             105
@@ -7230,13 +7230,13 @@
       "evidence": [],
       "source_quotes": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "text": "omits a material particular from a statement with the result that the statement is rendered false or misleading;",
           "locator": "第52(2)条"
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "text": "在某項陳述中遺漏任何要項，以致該項陳述成為虛\n假或具誤導性的陳述；",
           "locator": "第52(2)(a)條"
@@ -7254,13 +7254,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "不遵守指引本身的法律效果",
       "locators": "第7(4)–(5)条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             33,
@@ -7268,7 +7268,7 @@
           ]
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "pages": [
             33
@@ -7284,13 +7284,13 @@
       "evidence": [],
       "source_quotes": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "text": "A failure by any person to comply with a provision in any guideline published under this section does not by itself render the person liable to any judicial or other proceedings",
           "locator": "第7(4)–(5)条"
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "text": "此事本\n身不會令致該人可在任何司法或其他法律程序中被起訴",
           "locator": "第7(4)條"
@@ -7308,13 +7308,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "正文中的非MSO专属制度边界",
       "locators": "第5A部、第5B部、第5C部；第3部第3分部第13A–13E条；第5A条",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             30,
@@ -7352,13 +7352,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "附表2中的银行、保险及虚拟资产专属规则",
       "locators": "附表2第3(1A)(b)、(1B)、7、11、13A、14、17、19(2A)；DNFBP分支条款",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             361,
@@ -7399,13 +7399,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "行政、历史和已废除条文",
       "locators": "第1(2)–(4)、49、57、67、76、82条；第8部",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             25,
@@ -7440,13 +7440,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "10"
+        "04"
       ],
       "topic": "其他行业费用及附表",
       "locators": "附表3A–3K",
       "source_pages": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "pages": [
             401,
@@ -7516,13 +7516,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "指引地位、适用对象与强制用语",
       "locators": "¶1.1–1.8",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             3,
@@ -7530,7 +7530,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             3
@@ -7649,13 +7649,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "A failure by any person to comply with any provision of this Guideline does not by itself render the person liable to any judicial or other proceedings",
           "locator": "¶1.1–1.8"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "本指引可獲接納為證據",
           "locator": "¶1.8"
@@ -7673,13 +7673,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "洗钱、恐怖分子资金筹集的定义与三阶段",
       "locators": "¶1.9–1.12；¶6.1",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             4,
@@ -7826,7 +7826,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the focus of TF is on the destination or use of property",
           "locator": "¶1.9–1.12；¶6.1"
@@ -7844,13 +7844,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "FATF 的角色及香港义务",
       "locators": "¶1.13",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             5
@@ -7909,7 +7909,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "Hong Kong is obliged to implement the latest FATF Recommendations",
           "locator": "¶1.13"
@@ -7927,13 +7927,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "主要法例及调查、冻结、没收权",
       "locators": "¶1.14、1.19–1.21",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             5,
@@ -8054,7 +8054,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "to determine whether the imposition of a greater sentence is appropriate",
           "locator": "¶1.14、1.19–1.21"
@@ -8075,13 +8075,13 @@
         5
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "AMLO 的 CDD、保障及刑事和纪律责任",
       "locators": "¶1.15–1.18",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             5,
@@ -8089,7 +8089,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             5,
@@ -8225,13 +8225,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "a maximum term of imprisonment of 7 years and a fine of $1 million",
           "locator": "¶1.15–1.18"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "最高可被判監禁7年及罰款一百萬元。",
           "locator": "¶1.16"
@@ -8251,13 +8251,13 @@
         7
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "处理犯罪得益、未披露与通风报信的罪责",
       "locators": "¶1.22–1.25；¶7.1、7.6",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             7,
@@ -8369,7 +8369,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "The maximum penalty for the offence upon conviction is imprisonment for 3 years and a fine.",
           "locator": "¶1.22–1.25；¶7.1、7.6"
@@ -8387,13 +8387,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "联合国制裁及大规模毁灭武器服务管制",
       "locators": "¶1.26–1.27；¶6.7–6.10",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             7,
@@ -8497,7 +8497,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "The provision of services is widely defined and includes the lending of money or other provision of financial assistance.",
           "locator": "¶1.26–1.27；¶6.7–6.10"
@@ -8515,13 +8515,13 @@
       "module": 5,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "风险为本方法与机构风险评估步骤",
       "locators": "¶2.1–2.3",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             8
@@ -8710,7 +8710,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "The institutional ML/TF risk assessment forms the basis of the RBA",
           "locator": "¶2.1–2.3"
@@ -8728,13 +8728,13 @@
       "module": 5,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "机构风险因素：客户、国家、产品、渠道及其他因素",
       "locators": "¶2.4 及脚注 2–4",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             8,
@@ -8969,7 +8969,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the extent to which the MSO uses technology, and the extent to which these channels are vulnerable to ML/TF abuse",
           "locator": "¶2.4 及脚注 2–4"
@@ -8987,13 +8987,13 @@
       "module": 5,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "机构评估规模、资料来源及集团评估依赖",
       "locators": "¶2.5–2.8",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             9,
@@ -9140,7 +9140,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "adequately reflect ML/TF risks posed to the MSO in the local context",
           "locator": "¶2.5–2.8"
@@ -9158,13 +9158,13 @@
       "module": 5,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "机构评估更新时点与留档",
       "locators": "¶2.9–2.10",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             10
@@ -9317,7 +9317,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "every two years and upon trigger events which are material to the MSO’s business and risk exposure",
           "locator": "¶2.9–2.10"
@@ -9335,13 +9335,13 @@
       "module": 5,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "新产品、业务模式和技术上线前评估",
       "locators": "¶2.11–2.12",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             10
@@ -9429,7 +9429,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "prior to the launch of the new products, new business practices, or the use of new or developing technologies",
           "locator": "¶2.11–2.12"
@@ -9447,13 +9447,13 @@
       "module": 5,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "客户风险评估、持续更新与框架记录",
       "locators": "¶2.13–2.16 及脚注 5–8",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             10,
@@ -9679,7 +9679,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the extent of CDD measures and ongoing monitoring is appropriate based on that customer’s ML/TF risks",
           "locator": "¶2.13–2.16 及脚注 5–8"
@@ -9697,13 +9697,13 @@
       "module": 5,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "AML/CFT 系统组成、批准及简化条件",
       "locators": "¶3.1–3.5 及脚注 9、¶3.14",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             12,
@@ -9930,7 +9930,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "AML/CFT Systems are not permitted to be simplified whenever there is a suspicion of ML/TF.",
           "locator": "¶3.1–3.5、¶3.14"
@@ -9948,13 +9948,13 @@
       "module": 5,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "高层监督及 CO、MLRO 职责",
       "locators": "¶3.6–3.7、¶3.9–3.10",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             13,
@@ -10201,7 +10201,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "act as the central reference point for suspicious transaction reporting",
           "locator": "¶3.6–3.7、¶3.9–3.10"
@@ -10219,13 +10219,13 @@
       "module": 5,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "CO/MLRO 的地位、独立性、资料和资源保障",
       "locators": "¶3.8 及脚注 9",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             13
@@ -10322,7 +10322,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "equipped with sufficient resources, including staff and appropriate cover for the absence of the CO and MLRO",
           "locator": "¶3.8 及脚注 9"
@@ -10340,13 +10340,13 @@
       "module": 5,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "独立审计的路径、范围及频率",
       "locators": "¶3.11–3.13",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             14
@@ -10513,7 +10513,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "Where appropriate, the MSO should also seek a review from external parties.",
           "locator": "¶3.11–3.13"
@@ -10533,13 +10533,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "海外集团系统及信息共享",
       "locators": "¶3.15–3.19 及脚注 10–11",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             15
@@ -10829,7 +10829,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "take additional measures to effectively mitigate ML/TF risks faced by the branch or subsidiary undertaking",
           "locator": "¶3.15–3.19 及脚注 10–11"
@@ -10849,13 +10849,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "CDD 基本措施、客户与第三方的界定",
       "locators": "¶4.1.1–4.1.5",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             16,
@@ -10863,7 +10863,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             19
@@ -10976,13 +10976,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "This generally excludes the third parties of a transaction.",
           "locator": "¶4.1.1–4.1.5"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "這通常並不包括某一交易的第三方。",
           "locator": "¶4.1.5"
@@ -11003,13 +11003,13 @@
         7
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "CDD 触发时点、业务关系和关联偶发交易",
       "locators": "¶4.2.1–4.2.5",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             17
@@ -11141,7 +11141,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "when the MSO suspects that the customer or the customer’s account is involved in ML/TF",
           "locator": "¶4.2.1(c)"
@@ -11159,20 +11159,20 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "非账户授权人进行大额第三方现金交易",
       "locators": "¶4.2.6",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             18
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             20
@@ -11187,13 +11187,13 @@
       "evidence": [],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "When a cash transaction involving an amount equal to or exceeding $120,000 is undertaken by a person whose name does not appear on the mandate of an account",
           "locator": "¶4.2.6"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "而該人的姓名不在帳戶委託書上",
           "locator": "¶4.2.6"
@@ -11213,13 +11213,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "自然人客户的识别及核实资料",
       "locators": "¶4.3.1–4.3.5 及脚注 18",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             18,
@@ -11315,7 +11315,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "full name;",
           "locator": "¶4.3.1–4.3.5 及脚注 18"
@@ -11333,13 +11333,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "法人识别字段与存在/约束权力核实",
       "locators": "¶4.3.6–4.3.9 及脚注 19–20",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             19,
@@ -11466,7 +11466,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "unique identification number (e.g. incorporation number or business registration number) and document type;",
           "locator": "¶4.3.6–4.3.9 及脚注 19–20"
@@ -11484,13 +11484,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "信托作为客户、最低资料及核实文件",
       "locators": "¶4.3.10–4.3.12 及脚注 21–25",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             20,
@@ -11538,7 +11538,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the jurisdiction whose laws govern the trust or legal arrangement;",
           "locator": "¶4.3.10–4.3.12 及脚注 21–25"
@@ -11556,13 +11556,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "文件可靠性、原件、有效性及外文",
       "locators": "¶4.3.13–4.3.17",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             21
@@ -11623,7 +11623,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "is current at the time they are provided to or obtained by the MSO.",
           "locator": "¶4.3.13–4.3.17"
@@ -11641,13 +11641,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "关连人士：识别姓名与另有身份时的义务",
       "locators": "¶4.3.18–4.3.19 及脚注 26",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             21
@@ -11694,7 +11694,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "if a connected party also satisfies the definition of a customer, a beneficial owner of the customer or a person purporting to act on behalf of the customer",
           "locator": "¶4.3.18–4.3.19 及脚注 26"
@@ -11714,13 +11714,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "实益拥有人识别核实、法人与信托阈值",
       "locators": "¶4.4.1–4.4.4、¶4.4.6–4.4.14",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             22,
@@ -11729,7 +11729,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             26
@@ -11907,13 +11907,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "if the partnership is acting on behalf of another person, means the other person.",
           "locator": "¶4.4.1–4.4.4、¶4.4.6–4.4.14"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "如該合夥是代表另一人行事，指該另一人。",
           "locator": "¶4.4.7(b)"
@@ -11931,20 +11931,20 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "自然人客户通常就是实益拥有人",
       "locators": "¶4.4.5",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             22
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             25
@@ -11959,13 +11959,13 @@
       "evidence": [],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the MSO should make appropriate enquiries where there are indications that the customer is not acting on his own behalf.",
           "locator": "¶4.4.5"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "但如有跡象顯示該客戶並非代表其本身行事，則須進行適當查詢。",
           "locator": "¶4.4.5"
@@ -11983,13 +11983,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "持票人股份和权证的保管与持续核实",
       "locators": "¶4.4.15–4.4.17 及脚注 30",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             24
@@ -12036,7 +12036,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "The MSO should also require the customer to notify it immediately of any changes in the ownership of the shares.",
           "locator": "¶4.4.15–4.4.17 及脚注 30"
@@ -12054,20 +12054,20 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "代名股东须穿透识别",
       "locators": "¶4.4.18",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             24
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             28
@@ -12082,13 +12082,13 @@
       "evidence": [],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the identities of the nominees, and the persons on whose behalf they are acting",
           "locator": "¶4.4.18"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "代名人及代名人所代表行事的人士的身分的證據",
           "locator": "¶4.4.18"
@@ -12106,20 +12106,20 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "PPTA 的界定、资料及授权核实",
       "locators": "¶4.5.1–4.5.4",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             25
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             28
@@ -12202,13 +12202,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "in line with the identification and verification requirements for a customer that is a natural person or a legal person",
           "locator": "¶4.5.1–4.5.4"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "應遵守識別及核實屬自然人或法人客戶的規定（如適用）。",
           "locator": "¶4.5.3"
@@ -12226,13 +12226,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "业务关系目的及预期性质",
       "locators": "¶4.6.1",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             25
@@ -12291,7 +12291,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "understand the nature of the customer’s business.",
           "locator": "¶4.6.1"
@@ -12311,13 +12311,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "延后身份核实的条件、限制和失败处理",
       "locators": "¶4.7.1–4.7.4",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             25,
@@ -12325,7 +12325,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             30
@@ -12430,13 +12430,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "ensuring that funds are not paid out to any third party.",
           "locator": "¶4.7.1–4.7.4"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "確保不支付資金予任何第三者。",
           "locator": "¶4.7.3(e)"
@@ -12456,13 +12456,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "SDD 的风险基础、可用措施及停止条件",
       "locators": "¶4.8.1–4.8.8",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             27,
@@ -12470,7 +12470,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             31
@@ -12590,13 +12590,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "where there are doubts about the veracity or accuracy of documents or information previously obtained",
           "locator": "¶4.8.1–4.8.8"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "對過往為識別或核實身分而取得的資料是否真實或充分存疑。",
           "locator": "¶4.8.3(c)"
@@ -12616,13 +12616,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "豁免实益拥有人核实的客户、产品及所有权链",
       "locators": "¶4.8.9–4.8.12、¶4.8.17–4.8.18",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             28,
@@ -12631,7 +12631,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             34
@@ -12765,13 +12765,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the MSO should assess whether the customer is subject to any disclosure requirements",
           "locator": "¶4.8.9–4.8.12、¶4.8.17–4.8.18"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "這類規定確保客戶的實益擁有權具充分透明度。",
           "locator": "¶4.8.12"
@@ -12791,13 +12791,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "投资工具、代名账户及所委机构的 SDD 条件",
       "locators": "¶4.8.13–4.8.16",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             29,
@@ -12862,7 +12862,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "is authorised to operate the account as evidenced by contractual document or agreement.",
           "locator": "¶4.8.13–4.8.16"
@@ -12880,13 +12880,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "律师客户账户的混合资金条件与单一客户例外",
       "locators": "¶4.8.19–4.8.20",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             31,
@@ -12927,7 +12927,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "there are sub-accounts for each individual client where funds are not co-mingled at the MSO",
           "locator": "¶4.8.19–4.8.20"
@@ -12948,13 +12948,13 @@
         7
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "一般高风险情形、EDD 比例及残余风险",
       "locators": "¶4.9.1–4.9.6 及脚注 35–36",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             32,
@@ -12963,7 +12963,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             37
@@ -13089,13 +13089,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "Where the applicable EDD measures cannot fully mitigate the ML/TF risks identified, the MSO should take other measures to mitigate the residual risks",
           "locator": "¶4.9.1–4.9.6 及脚注 35–36"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "採取其他措施減低剩餘風險",
           "locator": "¶4.9.2"
@@ -13115,13 +13115,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "非香港、香港与国际组织 PEP 的身份范围",
       "locators": "¶4.9.7–4.9.9、¶4.9.11、¶4.9.13–4.9.16",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             34,
@@ -13290,7 +13290,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "but does not include a middle-ranking or more junior official",
           "locator": "¶4.9.7–4.9.9、¶4.9.11、¶4.9.13–4.9.16"
@@ -13310,13 +13310,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "PEP 的 EDD 触发与资金/财富来源",
       "locators": "¶4.9.10、¶4.9.17、¶4.9.19–4.9.26",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             34,
@@ -13326,7 +13326,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             41
@@ -13488,13 +13488,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "when continuing an existing high risk business relationship",
           "locator": "¶4.9.10、¶4.9.17、¶4.9.19–4.9.26"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "而該業務關係其後變為高風險",
           "locator": "¶4.9.17(b)"
@@ -13514,13 +13514,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "前 PEP 停止 EDD 的批准和风险评估",
       "locators": "¶4.9.12、¶4.9.18 及脚注 37–38、41–42",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             35,
@@ -13528,7 +13528,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             40,
@@ -13577,13 +13577,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "Such decision can only be made with the approval of the MSO’s senior management and on the basis that the PEP no longer presents a high risk of ML/TF.",
           "locator": "¶4.9.12、¶4.9.18 及脚注 37–38、41–42"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "有關決定須獲金錢服務經營者的高級管理層批准",
           "locator": "¶4.9.12"
@@ -13603,13 +13603,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "非面对面身份核实的额外措施及数码例外",
       "locators": "¶4.10.1–4.10.5",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             39,
@@ -13756,7 +13756,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the MSO must carry out at least one of the following additional measures",
           "locator": "¶4.10.1–4.10.5"
@@ -13776,13 +13776,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "依赖中介人：责任、数据取得、监督和终止",
       "locators": "¶4.11.1–4.11.7 及脚注 44",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             40,
@@ -13790,7 +13790,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             45
@@ -13917,13 +13917,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "an MSO cannot rely on an intermediary to continuously monitor its business relationship with a customer",
           "locator": "¶4.11.1–4.11.7 及脚注 44"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "金錢服務經營者不可為遵從附表2第5條的規定而依賴中介人持續監察",
           "locator": "¶4.11.1 腳註44"
@@ -13943,13 +13943,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "本地、海外及相关外地金融机构中介资格",
       "locators": "¶4.11.8–4.11.14 及脚注 45–48",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             41,
@@ -13958,7 +13958,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             47
@@ -14099,13 +14099,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "is required to comply with the relevant requirements set out in Schedule 2 with respect to the customer",
           "locator": "¶4.11.8–4.11.14 及脚注 45–48"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "並須就有關客戶遵從附表2所載的相關規定",
           "locator": "¶4.11.8"
@@ -14125,13 +14125,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "先前客户及未能完成 CDD 的处理",
       "locators": "¶4.12.1–4.13.1",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             43,
@@ -14250,7 +14250,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "must not establish a business relationship or carry out any occasional transaction with that customer",
           "locator": "¶4.12.1–4.13.1"
@@ -14270,13 +14270,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "匿名/编号账户、FATF 措施和司法管辖区等同",
       "locators": "¶4.14.1–4.16.3",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             44,
@@ -14397,7 +14397,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "The MSO should document its assessment of the jurisdiction",
           "locator": "¶4.14.1–4.16.3"
@@ -14417,13 +14417,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "持续 CDD、监察强度与高风险年度复核",
       "locators": "¶5.1–5.3、¶5.9 及脚注 52–55",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             46,
@@ -14556,7 +14556,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "All customers that present high ML/TF risks should be subject to a minimum of an annual review",
           "locator": "¶5.1–5.3、¶5.9 及脚注 52–55"
@@ -14574,13 +14574,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "交易监察系统、参数与整体关系视角",
       "locators": "¶5.4–5.8",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             46,
@@ -14679,7 +14679,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "timely and sufficient information required to identify, analyse and effectively monitor customers’ transactions.",
           "locator": "¶5.4–5.8"
@@ -14699,13 +14699,13 @@
         7
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "异常交易查询、判断怀疑及通风报信边界",
       "locators": "¶5.10–5.14",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             47,
@@ -14794,7 +14794,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the MSO should consider updating the customer risk profile based on any relevant information obtained.",
           "locator": "¶5.10–5.14"
@@ -14812,13 +14812,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "UNATMO 指定、冻结、旅行融资及许可",
       "locators": "¶6.2–6.6",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             49,
@@ -14923,7 +14923,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the Chief Executive may make an application to the Court of First Instance",
           "locator": "¶6.2–6.6"
@@ -14941,13 +14941,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "UNSO 制裁禁制与境外单边制裁",
       "locators": "¶6.7–6.11",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             50,
@@ -14955,7 +14955,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             58
@@ -15066,13 +15066,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "Where these sanctions regimes may affect its operations, the MSO should consider what implications exist and take appropriate measures.",
           "locator": "¶6.7–6.11"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "則金錢服務經營者應考慮這會引致甚麼影響，並採取適當措施。",
           "locator": "¶6.11"
@@ -15090,13 +15090,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "制裁名单数据库、更新和第三方服务",
       "locators": "¶6.12–6.15",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             51
@@ -15184,7 +15184,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "ensure the completeness and accuracy of the database.",
           "locator": "¶6.12–6.15"
@@ -15202,13 +15202,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "筛查对象、时点、匹配核查与海外责任",
       "locators": "¶6.16–6.19 及脚注 58",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             52
@@ -15303,7 +15303,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "before executing the transfer.",
           "locator": "¶6.16–6.19 及脚注 58"
@@ -15321,13 +15321,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "知悉、怀疑及报告范围和时点",
       "locators": "¶7.1–7.5 及脚注 59–60",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             53,
@@ -15473,7 +15473,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "Suspicion is personal and falls short of proof based on firm evidence.",
           "locator": "¶7.1–7.5 及脚注 59–60"
@@ -15491,13 +15491,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "通风报信与报告系统有效性",
       "locators": "¶7.6–7.9",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             54
@@ -15615,7 +15615,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "keeping proper records of internal reports and STRs.",
           "locator": "¶7.6–7.9"
@@ -15633,13 +15633,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "可疑红旗及 SAFE 查询框架",
       "locators": "¶7.10–7.11 及脚注 61–63",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             54,
@@ -16087,7 +16087,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "a combination of several situations may be indicative of a suspicious transaction.",
           "locator": "¶7.10–7.11 及脚注 61–63"
@@ -16105,13 +16105,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "内部报告、员工免责、MLRO 评估与记录",
       "locators": "¶7.12–7.20 第一段",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             57,
@@ -16316,7 +16316,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "all internal reports must reach the MLRO without undue delay.",
           "locator": "¶7.12–7.20 第一段"
@@ -16334,20 +16334,20 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "同时控制电汇两端时的跨地区 STR",
       "locators": "¶7.19 第二段",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             59
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             67
@@ -16362,13 +16362,13 @@
       "evidence": [],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "file an STR in any jurisdiction affected by the suspicious wire transfer",
           "locator": "¶7.19 第二段"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "便應在受可疑電傳轉帳影響的司法管轄區提交可疑交易報告",
           "locator": "¶7.19"
@@ -16386,13 +16386,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "紧急 STR、关系终止意向和报告质量",
       "locators": "¶7.21–7.23 及脚注 65",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             59
@@ -16481,7 +16481,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "an initial notification by telephone to the JFIU should be considered.",
           "locator": "¶7.21–7.23 及脚注 65"
@@ -16499,13 +16499,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "报告后同意、法定免责及持续控险",
       "locators": "¶7.24–7.28",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             59,
@@ -16616,7 +16616,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "should not be construed as a “clean bill of health”",
           "locator": "¶7.24–7.28"
@@ -16634,13 +16634,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "内部报告/STR 登记及执法文件处理",
       "locators": "¶7.29–7.35",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             60,
@@ -16815,7 +16815,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the customer to whom the court document relates can be a victim of crime.",
           "locator": "¶7.29–7.35"
@@ -16833,13 +16833,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "纪录目的、CDD 内容和业务通信范围",
       "locators": "¶8.1–8.3 及脚注 66",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             62
@@ -16985,7 +16985,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "sufficient correspondence is kept to demonstrate compliance with the AMLO.",
           "locator": "¶8.1–8.3 及脚注 66"
@@ -17005,13 +17005,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "保留期限、重建交易、媒介与海外储存",
       "locators": "¶8.4–8.9",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             63
@@ -17128,7 +17128,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "regardless of whether the business relationship ends during the period.",
           "locator": "¶8.4–8.9"
@@ -17146,13 +17146,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "中介人保存的记录、即时资料及终止移交",
       "locators": "¶8.10–8.12",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             63,
@@ -17212,7 +17212,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "upon termination of the services provided by the intermediary.",
           "locator": "¶8.10–8.12"
@@ -17230,13 +17230,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "培训责任、频率与不同岗位内容",
       "locators": "¶9.1–9.5",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             65,
@@ -17418,7 +17418,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "pitched according to the job functions, responsibilities and experience of the staff.",
           "locator": "¶9.1–9.5"
@@ -17436,13 +17436,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "培训方式、三年纪录及效果评估",
       "locators": "¶9.6–9.8",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             66
@@ -17531,7 +17531,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "Records should be maintained for a minimum of 3 years.",
           "locator": "¶9.6–9.8"
@@ -17551,20 +17551,20 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "电汇定义、机构角色与适用例外",
       "locators": "¶10.1–10.4 及脚注 67–69",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             67
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             77
@@ -17683,13 +17683,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the card is not used as a payment system to effect a person-to-person transfer;",
           "locator": "¶10.1–10.4 及脚注 67–69"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "並非用作一項支付系統以執行人對人之間轉帳",
           "locator": "¶10.4(c)(ii)"
@@ -17709,13 +17709,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "电汇随附资料、8 千门槛与身份核实",
       "locators": "¶10.5–10.9 及脚注 70",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             68,
@@ -17723,7 +17723,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             78
@@ -17842,13 +17842,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the originator’s address or, the originator’s customer identification number",
           "locator": "¶10.5–10.9 及脚注 70"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "匯款人的地址或、匯款人的客戶識別號碼",
           "locator": "¶10.5(c)"
@@ -17868,13 +17868,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "批量/境内电汇简化、补资料时限及汇款机构控制",
       "locators": "¶10.10–10.13 及脚注 71",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             69
@@ -17955,7 +17955,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "within 3 business days after the request is received.",
           "locator": "¶10.10–10.13 及脚注 71"
@@ -17975,13 +17975,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "中间与收款机构的资料传递、缺漏及核实",
       "locators": "¶10.14–10.22",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             69,
@@ -17990,7 +17990,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             80
@@ -18101,13 +18101,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "if a domestic or cross-border wire transfer is not accompanied by the required originator information or required recipient information",
           "locator": "¶10.14–10.22"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "如本地或跨境電傳轉帳並無附隨所需匯款人資料或所需收款人資料",
           "locator": "¶10.20"
@@ -18127,13 +18127,13 @@
         3
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "非电汇汇款定义、身份及交易记录",
       "locators": "¶11.1–11.6",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             72,
@@ -18247,7 +18247,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "in the absence of such an account, the person who instructs the MSO to carry out the remittance transaction.",
           "locator": "¶11.1–11.6"
@@ -18265,13 +18265,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "附录 A：身份证件、地区和未成年人",
       "locators": "附录 A ¶1–6 及脚注 72–73",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             74,
@@ -18279,7 +18279,7 @@
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             84
@@ -18357,13 +18357,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "For non-resident individuals who are not physically present in Hong Kong",
           "locator": "附录 A ¶1–6 及脚注 72–73"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "非居民的身分則應根據他們的有效旅遊證件作出核實。",
           "locator": "附錄A¶1"
@@ -18381,20 +18381,20 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "附录 A：核证人资格、程序及疑点处理",
       "locators": "附录 A ¶7–10 及脚注 74–76",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             75
           ]
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "pages": [
             85
@@ -18455,13 +18455,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "certified the copy documents in his or her professional capacity.",
           "locator": "附录 A ¶7–10 及脚注 74–76"
         },
         {
-          "doc": "02",
+          "doc": "03",
           "language": "TC",
           "text": "並已經以其專業身分認證該等文件複本。",
           "locator": "附錄A腳註74"
@@ -18479,13 +18479,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "术语表及不另命题的导航资料",
       "locators": "¶1.2；术语表；封面及目录",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             3,
@@ -18546,7 +18546,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "AML/CFT policies, procedures and controls",
           "locator": "¶1.2；术语表；封面及目录"
@@ -18564,13 +18564,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "机构职能专项：FATF 全球合作网络与推动实施",
       "locators": "¶1.13",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             5
@@ -18631,7 +18631,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "a global network for international cooperation that facilitates exchanges between member jurisdictions.",
           "locator": "¶1.13"
@@ -18652,13 +18652,13 @@
         5
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "机构职能专项：海关关长与海关部门",
       "locators": "¶1.3、¶1.15–1.18、¶2.3(e)、¶3.19",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             3,
@@ -18781,7 +18781,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "provides the CCE with powers to supervise compliance with these requirements",
           "locator": "¶1.3、¶1.15–1.18、¶2.3(e)、¶3.19"
@@ -18802,13 +18802,13 @@
         7
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "机构职能专项：JFIU 与 MLRO 的分工",
       "locators": "¶3.10、¶7.1、¶7.11、¶7.19、¶7.23–7.26",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             14,
@@ -18967,7 +18967,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "the main point of contact with the Joint Financial Intelligence Unit (JFIU) and law enforcement agencies.",
           "locator": "¶3.10、¶7.1、¶7.11、¶7.19、¶7.23–7.26"
@@ -18987,13 +18987,13 @@
         7
       ],
       "docs": [
-        "02"
+        "03"
       ],
       "topic": "机构职能专项：FATF 研究洗钱/恐怖融资技术的来源界限",
       "locators": "¶1.13；¶7.10 脚注 61；¶9.6",
       "source_pages": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "pages": [
             5,
@@ -19055,7 +19055,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "02",
+          "doc": "03",
           "language": "EN",
           "text": "An MSO may consider including available FATF papers and typologies as part of the training materials.",
           "locator": "¶1.13；¶7.10 脚注 61；¶9.6"
@@ -19769,14 +19769,14 @@
         3
       ],
       "docs": [
-        "03",
-        "22"
+        "05",
+        "06"
       ],
       "topic": "金錢服務定義及牌照申請原則",
-      "locators": "03 ¶1.1–2.8；22牌照FAQ Q2–Q9、Q14",
+      "locators": "05 ¶1.1–2.8；06牌照FAQ Q2–Q9、Q14",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             5
@@ -19888,7 +19888,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "A person must apply for a licence from the CCE before he or she operates a money service.",
           "locator": "03 ¶1.1–2.8；22牌照FAQ Q2–Q9、Q14"
@@ -19908,14 +19908,14 @@
         2
       ],
       "docs": [
-        "03",
-        "22"
+        "05",
+        "06"
       ],
       "topic": "牌照格式、年期及停止有效",
-      "locators": "03 ¶2.9–2.10；22牌照FAQ Q13",
+      "locators": "05 ¶2.9–2.10；06牌照FAQ Q13",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             5
@@ -19992,7 +19992,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "Normally, the validity period of a licence granted will be 2 years.",
           "locator": "03 ¶2.9–2.10；22牌照FAQ Q13"
@@ -20012,13 +20012,13 @@
         2
       ],
       "docs": [
-        "03"
+        "05"
       ],
       "topic": "無牌經營及牌照豁免",
       "locators": "¶2.11、3.1–3.9",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             6
@@ -20123,7 +20123,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "CCE will not accept any application for grant or renewal of licence if an applicant has been exempted from the MSO licensing requirements.",
           "locator": "¶2.11、3.1–3.9"
@@ -20143,16 +20143,16 @@
         2
       ],
       "docs": [
-        "03",
-        "04",
         "05",
-        "22"
+        "10",
+        "11",
+        "06"
       ],
       "topic": "適當人選、最終擁有人及發牌審核",
-      "locators": "03 ¶4.1–4.3；04 ¶1–6；05 ¶1–5；22牌照FAQ Q10",
+      "locators": "05 ¶4.1–4.3；10 ¶1–6；11 ¶1–5；06牌照FAQ Q10",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             9
@@ -20364,7 +20364,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "any other matter that the CCE considers relevant.",
           "locator": "03 ¶4.1–4.3；04 ¶1–6；05 ¶1–5；22牌照FAQ Q10"
@@ -20384,14 +20384,14 @@
         2
       ],
       "docs": [
-        "03",
-        "22"
+        "05",
+        "06"
       ],
       "topic": "特定處所、共用處所及住宅限制",
-      "locators": "03 ¶4.4–4.6、4.8–4.10；22牌照FAQ Q11",
+      "locators": "05 ¶4.4–4.6、4.8–4.10；06牌照FAQ Q11",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             11
@@ -20510,7 +20510,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "Sharing the premises with other MSO to operate money service business will not be accepted by the CCE.",
           "locator": "03 ¶4.4–4.6、4.8–4.10；22牌照FAQ Q11"
@@ -20528,13 +20528,13 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "03"
+        "05"
       ],
       "topic": "本地管理辦事處的要求",
       "locators": "¶4.5、4.7",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             10,
@@ -20542,7 +20542,7 @@
           ]
         },
         {
-          "doc": "03",
+          "doc": "05",
           "language": "TC",
           "pages": [
             9,
@@ -20614,13 +20614,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "residential address/premises of an MSO or the address/premises of its service provider",
           "locator": "¶4.5、4.7"
         },
         {
-          "doc": "03",
+          "doc": "05",
           "language": "TC",
           "text": "金錢服務經營者的住址／住宅處所或其服務供應商（如有的話）的地址／處所",
           "locator": "¶4.7"
@@ -20638,13 +20638,13 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "03"
+        "05"
       ],
       "topic": "本地儲存地方的要求",
       "locators": "¶4.10–4.12",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             11
@@ -20727,7 +20727,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "all applicants are required to have a local place for storage of books and records",
           "locator": "¶4.10–4.12"
@@ -20745,13 +20745,13 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "03"
+        "05"
       ],
       "topic": "合規主任、洗錢報告主任及商業登記",
       "locators": "¶4.15、11.3–11.4",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             12
@@ -20828,7 +20828,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "the CO and MLRO must be the applicant’s employee",
           "locator": "¶4.15、11.3–11.4"
@@ -20846,13 +20846,13 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "03"
+        "05"
       ],
       "topic": "申請、續期文件及面見程序",
       "locators": "¶5.1–5.9、6.1–6.4",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             17
@@ -21056,7 +21056,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "the licensee’s legal responsibility to apply for renewal 45 days before expiry of the licence.",
           "locator": "¶5.1–5.9、6.1–6.4"
@@ -21076,13 +21076,13 @@
         2
       ],
       "docs": [
-        "03"
+        "05"
       ],
       "topic": "拒批、暫停撤銷及覆核權",
       "locators": "¶5.10–5.11、7.1–7.3",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             19
@@ -21272,7 +21272,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "give the licensee an opportunity to be heard before revoking or suspending the licence.",
           "locator": "¶5.10–5.11、7.1–7.3"
@@ -21292,13 +21292,13 @@
         2
       ],
       "docs": [
-        "03"
+        "05"
       ],
       "topic": "變更需預先批准、事後通知及停止業務",
       "locators": "¶8.1–10.4",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             22
@@ -21547,7 +21547,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "within one month beginning on the date on which such change takes place.",
           "locator": "¶8.1–10.4"
@@ -21567,13 +21567,13 @@
         2
       ],
       "docs": [
-        "03"
+        "05"
       ],
       "topic": "持牌人的持續義務及定期申報",
       "locators": "¶11.1(a)–(i)、11.2–11.4",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             24
@@ -21692,7 +21692,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "A licensee must submit periodic return to the CCE",
           "locator": "¶11.1(a)–(i)、11.2–11.4"
@@ -21710,20 +21710,20 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "03"
+        "05"
       ],
       "topic": "經營用銀行帳戶允許的戶名",
       "locators": "¶11.1(j)",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             24
           ]
         },
         {
-          "doc": "03",
+          "doc": "05",
           "language": "TC",
           "pages": [
             20
@@ -21771,13 +21771,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "the bank account must be in the name of the licensee’s company, the sole proprietor, partner, director or ultimate owner of the licensee.",
           "locator": "¶11.1(j)"
         },
         {
-          "doc": "03",
+          "doc": "05",
           "language": "TC",
           "text": "該銀行帳戶必須屬持牌人公司、持牌人的獨資經營者、合夥人、董事或最終擁有人名下。",
           "locator": "¶11.1(j)"
@@ -21798,13 +21798,13 @@
         3
       ],
       "docs": [
-        "03"
+        "05"
       ],
       "topic": "公眾登記冊、紀律處分及費用表",
-      "locators": "¶12.1–13.1、§XIV；22牌照FAQ Q12–Q14",
+      "locators": "¶12.1–13.1、§XIV；06牌照FAQ Q12–Q14",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             26
@@ -21967,7 +21967,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "publicly reprimand the licensee;",
           "locator": "¶12.1–13.1、§XIV；22牌照FAQ Q12–Q14"
@@ -21985,20 +21985,20 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "03"
+        "05"
       ],
       "topic": "牌照支持文件清單",
       "locators": "¶16.1–16.3（items1–6）",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             28
           ]
         },
         {
-          "doc": "03",
+          "doc": "05",
           "language": "TC",
           "pages": [
             24
@@ -22120,13 +22120,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "A copy of valid employment contracts for CO and MLRO",
           "locator": "¶16.1–16.3（items1–6）"
         },
         {
-          "doc": "03",
+          "doc": "05",
           "language": "TC",
           "text": "合規主任及洗錢報告主任的有效僱傭合約複本",
           "locator": "¶16.3 item6"
@@ -22144,14 +22144,14 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "03",
-        "22"
+        "05",
+        "06"
       ],
       "topic": "牌照申請聯絡資訊及歷史資料",
-      "locators": "03 ¶15.1；22牌照FAQ Q1、Q6、Q15；技術FAQ Q1–Q4",
+      "locators": "05 ¶15.1；06牌照FAQ Q1、Q6、Q15；技術FAQ Q1–Q4",
       "source_pages": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "pages": [
             26
@@ -22164,7 +22164,7 @@
       "evidence": [],
       "source_quotes": [
         {
-          "doc": "03",
+          "doc": "05",
           "language": "EN",
           "text": "You can also make enquiry on licensing related matters",
           "locator": "03 ¶15.1；22牌照FAQ Q1、Q6、Q15；技術FAQ Q1–Q4"
@@ -22182,14 +22182,14 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "04",
-        "05"
+        "10",
+        "11"
       ],
       "topic": "適當人選指引的地位及逐案衡量",
-      "locators": "04 ¶3–4、6–8；05引言、¶7–9",
+      "locators": "10 ¶3–4、6–8；11引言、¶7–9",
       "source_pages": [
         {
-          "doc": "04",
+          "doc": "10",
           "language": "EN",
           "pages": [
             3
@@ -22250,7 +22250,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "04",
+          "doc": "10",
           "language": "EN",
           "text": "each case will be considered on its own merits",
           "locator": "04 ¶3–4、6–8；05引言、¶7–9"
@@ -22268,14 +22268,14 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "04",
-        "05"
+        "10",
+        "11"
       ],
       "topic": "誠信、經營能力與監管紀錄",
-      "locators": "04 ¶5(a)–(e)；05 ¶6(a)–(p)、(r)",
+      "locators": "10 ¶5(a)–(e)；11 ¶6(a)–(p)、(r)",
       "source_pages": [
         {
-          "doc": "04",
+          "doc": "10",
           "language": "EN",
           "pages": [
             3
@@ -22445,7 +22445,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "04",
+          "doc": "10",
           "language": "EN",
           "text": "honesty, integrity and reliability.",
           "locator": "04 ¶5(a)–(e)；05 ¶6(a)–(p)、(r)"
@@ -22463,20 +22463,20 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "05"
+        "11"
       ],
       "topic": "財務穩健及未清償判決債項",
       "locators": "¶6(q)",
       "source_pages": [
         {
-          "doc": "05",
+          "doc": "11",
           "language": "EN",
           "pages": [
             6
           ]
         },
         {
-          "doc": "05",
+          "doc": "11",
           "language": "TC",
           "pages": [
             4
@@ -22510,13 +22510,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "05",
+          "doc": "11",
           "language": "EN",
           "text": "failed to satisfy any judgment debt under a court order or made any compromise or arrangement with his creditors.",
           "locator": "¶6(q)"
         },
         {
-          "doc": "05",
+          "doc": "11",
           "language": "TC",
           "text": "例如持牌人未能償還法庭命令的判決債項或與債權人達成任何的債務重整協議或債務償還安排。",
           "locator": "¶6(q)"
@@ -22534,13 +22534,13 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "06"
+        "20"
       ],
       "topic": "業務計劃：公司、管理、市場及財務",
       "locators": "引言；items1–6、8–9",
       "source_pages": [
         {
-          "doc": "06",
+          "doc": "20",
           "language": "EN",
           "pages": [
             2
@@ -22653,7 +22653,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "06",
+          "doc": "20",
           "language": "EN",
           "text": "the expected profit margin and turnover on each type of product and service for the next two years",
           "locator": "引言；items1–6、8–9"
@@ -22671,20 +22671,20 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "06"
+        "20"
       ],
       "topic": "業務計劃：交付渠道及客戶資金保障",
       "locators": "item7",
       "source_pages": [
         {
-          "doc": "06",
+          "doc": "20",
           "language": "EN",
           "pages": [
             2
           ]
         },
         {
-          "doc": "06",
+          "doc": "20",
           "language": "TC",
           "pages": [
             1
@@ -22734,13 +22734,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "06",
+          "doc": "20",
           "language": "EN",
           "text": "the timeline of launching these product and service.",
           "locator": "item7"
         },
         {
-          "doc": "06",
+          "doc": "20",
           "language": "TC",
           "text": "就所提供產品及服務的類別及推出此等產品及服務的時間表提供資料。",
           "locator": "item7"
@@ -22758,13 +22758,13 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "06"
+        "20"
       ],
       "topic": "業務計劃：集團、共用處所、外判及系統",
       "locators": "items10–11、13–14、17",
       "source_pages": [
         {
-          "doc": "06",
+          "doc": "20",
           "language": "EN",
           "pages": [
             3
@@ -22824,7 +22824,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "06",
+          "doc": "20",
           "language": "EN",
           "text": "Attach an organizational chart of the group of companies",
           "locator": "items10–11、13–14、17"
@@ -22842,20 +22842,20 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "06"
+        "20"
       ],
       "topic": "業務計劃：人力與代理／平台關係",
       "locators": "items12、15–16",
       "source_pages": [
         {
-          "doc": "06",
+          "doc": "20",
           "language": "EN",
           "pages": [
             4
           ]
         },
         {
-          "doc": "06",
+          "doc": "20",
           "language": "TC",
           "pages": [
             3
@@ -22890,13 +22890,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "06",
+          "doc": "20",
           "language": "EN",
           "text": "Elaborate the functions of acting as principal by the applicant.",
           "locator": "items12、15–16"
         },
         {
-          "doc": "06",
+          "doc": "20",
           "language": "TC",
           "text": "需解釋支付平台／網絡在申請人業務中所擔當的角色。",
           "locator": "item16"
@@ -22917,13 +22917,13 @@
         7
       ],
       "docs": [
-        "07"
+        "21"
       ],
       "topic": "AML政策的自我風險評估及配合業務",
       "locators": "引言、item1",
       "source_pages": [
         {
-          "doc": "07",
+          "doc": "21",
           "language": "EN",
           "pages": [
             1
@@ -23066,7 +23066,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "07",
+          "doc": "21",
           "language": "EN",
           "text": "The policy must be based on the applicant’s risk assessment and meet its particular business risk profile.",
           "locator": "引言、item1"
@@ -23086,13 +23086,13 @@
         6
       ],
       "docs": [
-        "07"
+        "21"
       ],
       "topic": "AML政策：法律框架及CDD工作流程",
       "locators": "items2–3",
       "source_pages": [
         {
-          "doc": "07",
+          "doc": "21",
           "language": "EN",
           "pages": [
             3
@@ -23254,7 +23254,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "07",
+          "doc": "21",
           "language": "EN",
           "text": "Whether the system can retrieve those records within a reasonable timeframe say one day.",
           "locator": "items2–3"
@@ -23274,13 +23274,13 @@
         5
       ],
       "docs": [
-        "07"
+        "21"
       ],
       "topic": "AML政策：商業模型、匯款及篩查",
       "locators": "items4–12",
       "source_pages": [
         {
-          "doc": "07",
+          "doc": "21",
           "language": "EN",
           "pages": [
             4
@@ -23429,7 +23429,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "07",
+          "doc": "21",
           "language": "EN",
           "text": "Elaborate the procedures in conducting sanctions screening.",
           "locator": "items4–12"
@@ -23450,13 +23450,13 @@
         7
       ],
       "docs": [
-        "07"
+        "21"
       ],
       "topic": "AML政策：監督、STR、審核及培訓",
       "locators": "items13–16",
       "source_pages": [
         {
-          "doc": "07",
+          "doc": "21",
           "language": "EN",
           "pages": [
             5
@@ -23721,7 +23721,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "07",
+          "doc": "21",
           "language": "EN",
           "text": "MSO will monitor the effectiveness of training by testing their staff’s understanding",
           "locator": "items13–16"
@@ -23739,13 +23739,13 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "07"
+        "21"
       ],
       "topic": "AML政策：其他控制、支持附件及協作",
       "locators": "items17–19",
       "source_pages": [
         {
-          "doc": "07",
+          "doc": "21",
           "language": "EN",
           "pages": [
             5
@@ -23798,7 +23798,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "07",
+          "doc": "21",
           "language": "EN",
           "text": "wherever required under the laws of Hong Kong.",
           "locator": "items17–19"
@@ -23816,14 +23816,14 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "08",
-        "09"
+        "12",
+        "13"
       ],
       "topic": "兩套紀律罰款權及指引地位",
-      "locators": "08 ¶1–5；09 ¶1–4",
+      "locators": "12 ¶1–5；13 ¶1–4",
       "source_pages": [
         {
-          "doc": "08",
+          "doc": "12",
           "language": "EN",
           "pages": [
             2
@@ -23906,7 +23906,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "08",
+          "doc": "12",
           "language": "EN",
           "text": "The CCE will have regard to this Guideline when exercising the power",
           "locator": "08 ¶1–5；09 ¶1–4"
@@ -23924,14 +23924,14 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "08",
-        "09"
+        "12",
+        "13"
       ],
       "topic": "罰款目的、嚴重程度及財力",
-      "locators": "08 ¶6–9(a)；09 ¶5、7–9(a)",
+      "locators": "12 ¶6–9(a)；13 ¶5、7–9(a)",
       "source_pages": [
         {
-          "doc": "08",
+          "doc": "12",
           "language": "EN",
           "pages": [
             3
@@ -24035,7 +24035,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "08",
+          "doc": "12",
           "language": "EN",
           "text": "A pecuniary penalty should not have the likely effect of putting the licensee concerned in financial jeopardy.",
           "locator": "08 ¶6–9(a)；09 ¶5、7–9(a)"
@@ -24053,20 +24053,20 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "09"
+        "13"
       ],
       "topic": "罰款額不會自動與利潤掛鈎",
       "locators": "¶6",
       "source_pages": [
         {
-          "doc": "09",
+          "doc": "13",
           "language": "EN",
           "pages": [
             3
           ]
         },
         {
-          "doc": "09",
+          "doc": "13",
           "language": "TC",
           "pages": [
             2
@@ -24081,13 +24081,13 @@
       "evidence": [],
       "source_quotes": [
         {
-          "doc": "09",
+          "doc": "13",
           "language": "EN",
           "text": "the CCE will not automatically link the fine imposed in any particular case with the profit gained, or costs avoided.",
           "locator": "¶6"
         },
         {
-          "doc": "09",
+          "doc": "13",
           "language": "TC",
           "text": "但關長不會將任何特定個案的罰款額，與違規者所獲得的利潤或避免的開支金額自動掛鈎。",
           "locator": "¶6"
@@ -24105,21 +24105,21 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "08",
-        "09"
+        "12",
+        "13"
       ],
       "topic": "罰款：事後行為及過往紀錄",
       "locators": "兩份¶9(b)–(d)",
       "source_pages": [
         {
-          "doc": "08",
+          "doc": "12",
           "language": "EN",
           "pages": [
             4
           ]
         },
         {
-          "doc": "09",
+          "doc": "13",
           "language": "TC",
           "pages": [
             3
@@ -24205,13 +24205,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "08",
+          "doc": "12",
           "language": "EN",
           "text": "whether the licensee attempted to conceal its contravention(s);",
           "locator": "兩份¶9(b)–(d)"
         },
         {
-          "doc": "09",
+          "doc": "13",
           "language": "TC",
           "text": "該金錢服務經營者有否嘗試隱瞞該違規行為",
           "locator": "¶9(b)(i)"
@@ -24231,13 +24231,13 @@
         3
       ],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "非香港居民的可靠證明",
       "locators": "AML FAQ Q1",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -24288,7 +24288,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "a valid national driving licence incorporating all the required identification information",
           "locator": "AML FAQ Q1"
@@ -24306,13 +24306,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "可接納旅遊證件例子",
       "locators": "AML FAQ Q2",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -24341,7 +24341,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "Mainland Travel Permit for Taiwan Residents;",
           "locator": "AML FAQ Q2"
@@ -24359,13 +24359,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "旅遊證件個人資料頁的保存",
       "locators": "AML FAQ Q3",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -24394,7 +24394,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "An MSO should retain a copy of the “biodata” page",
           "locator": "AML FAQ Q3"
@@ -24412,18 +24412,18 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "自然人改名的核實及建立關係前例外",
       "locators": "AML FAQ Q4",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "pages": []
         }
@@ -24439,13 +24439,13 @@
       "evidence": [],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "only the current name is required to be identified and verified.",
           "locator": "AML FAQ Q4"
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "text": "如客戶的姓名於建立業務關係前已作更改，則只須識別和核實現時的姓名。",
           "locator": "AML FAQ 問4"
@@ -24463,18 +24463,18 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "主要營業地點的含義及異常地址",
       "locators": "AML FAQ Q5",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "pages": []
         }
@@ -24506,13 +24506,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "the MSO should seek to understand the rationale for why that address is provided to the MSO.",
           "locator": "AML FAQ Q5"
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "text": "金錢服務經營者應致力找出獲提供該地址的理據。",
           "locator": "AML FAQ 問5"
@@ -24530,13 +24530,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "註冊辦事處地址的文件證明",
       "locators": "AML FAQ Q6",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -24565,7 +24565,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "unless the MSO was made aware that such address was out of date.",
           "locator": "AML FAQ Q6"
@@ -24583,13 +24583,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "合夥身份文件及低風險簡化",
       "locators": "AML FAQ Q7",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -24640,7 +24640,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "an extract or redacted version for customers / circumstances that are not deemed to present a high ML/TF risk",
           "locator": "AML FAQ Q7"
@@ -24658,13 +24658,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "擁有權架構表與中間層",
       "locators": "AML FAQ Q8",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -24709,7 +24709,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "there is no strict requirement to do so.",
           "locator": "AML FAQ Q8"
@@ -24727,13 +24727,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "法人開戶代表及非面對面措施",
       "locators": "AML FAQ Q9",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -24792,7 +24792,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "at least one natural person who is authorised to establish the business relationship should be physically present",
           "locator": "AML FAQ Q9"
@@ -24810,18 +24810,18 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "無持股但實際控制的實益擁有人",
       "locators": "AML FAQ Q10",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "pages": []
         }
@@ -24853,13 +24853,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "A natural person who exerts control without ownership by participating in the financing of the enterprise",
           "locator": "AML FAQ Q10"
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "text": "而在沒有擁有權下對法團施加控制。",
           "locator": "AML FAQ 問10"
@@ -24877,13 +24877,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "識別代表客戶行事者的判斷框架",
       "locators": "AML FAQ Q11",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -24942,7 +24942,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "The approach and rationale should be consistent across departments and customer segments, to the extent possible.",
           "locator": "AML FAQ Q11"
@@ -24960,18 +24960,18 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "授權簽署人、PPTA名單及最低資料",
       "locators": "AML FAQ Q12",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "pages": []
         }
@@ -25025,13 +25025,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "the MSO is required to identify the PPTA by obtaining at least the following identification information:",
           "locator": "AML FAQ Q12"
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "text": "金錢服務經營者最低限度應收集以下識別資料以識別看似代表客戶行事的人",
           "locator": "AML FAQ 問12"
@@ -25049,13 +25049,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "電子文件的可靠性及自行下載例外",
       "locators": "AML FAQ Q13",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -25092,7 +25092,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "corroboration would not be required for instances where the MSO itself has downloaded a particular document",
           "locator": "AML FAQ Q13"
@@ -25110,13 +25110,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "外語文件翻譯來源",
       "locators": "AML FAQ Q14",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -25145,7 +25145,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "There is no requirement that the translation has to be performed by a professional third party",
           "locator": "AML FAQ Q14"
@@ -25163,13 +25163,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "文件到期與CDD資料更新",
       "locators": "AML FAQ Q15",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -25214,7 +25214,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "just because of the expiry of a previously obtained identity document.",
           "locator": "AML FAQ Q15"
@@ -25232,18 +25232,18 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "財富來源調查的比例與歷史證據",
       "locators": "AML FAQ Q16",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "pages": []
         }
@@ -25276,13 +25276,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "there is no expectation to apply the same source of wealth procedures to all these customers in the same manner",
           "locator": "AML FAQ Q16"
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "text": "金錢服務經營者無須就所有客戶的財富來源以相同方式應用相同的程序",
           "locator": "AML FAQ 問16"
@@ -25302,18 +25302,18 @@
         1
       ],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "FATF呼籲與持續監察名單的不同處理",
       "locators": "AML FAQ Q17",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "pages": []
         }
@@ -25374,13 +25374,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "conducting EDD is not mandatory for customers connected to jurisdictions",
           "locator": "AML FAQ Q17"
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "text": "更嚴格盡職審查措施並非強制性規定。",
           "locator": "AML FAQ 問17"
@@ -25389,7 +25389,7 @@
       "priority": "P2",
       "priority_reason": "已有主要規則，補充執行細節或區分可提高完整度。",
       "suggested_questions": 1,
-      "question_brief": "一題對照兩類名單，避免把灰名單等同強制EDD；可併入通函20題。",
+      "question_brief": "一題對照兩類名單，避免把灰名單等同強制EDD；可併入通函23題。",
       "notes": "舊FAQ名單名稱按現行20通函對照，不擅自引入網外新版；合併時僅計一次。",
       "backlog_id": "B27"
     },
@@ -25398,13 +25398,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "聯合國機構的國際組織地位",
       "locators": "AML FAQ Q18",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -25433,7 +25433,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "agencies of the United Nations are international organisations",
           "locator": "AML FAQ Q18"
@@ -25451,13 +25451,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "國際組織定義與類似組織風險",
       "locators": "AML FAQ Q19",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -25515,7 +25515,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "the MSO should consider whether this impacts the risk profile of the customer.",
           "locator": "AML FAQ Q19"
@@ -25533,18 +25533,18 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "前政治人物停止加強措施的批准條件",
       "locators": "AML FAQ Q20",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "pages": []
         }
@@ -25576,13 +25576,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "Such decision can only be made with the approval of the MSO’s senior management",
           "locator": "AML FAQ Q20"
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "text": "有關決定須獲金錢服務經營者的高級管理層批准，而該政治人物須不再構成高度洗錢/恐怖分子資金籌集風險。",
           "locator": "AML FAQ 問20"
@@ -25600,18 +25600,18 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "PEP批准人的明文政策及資歷",
       "locators": "AML FAQ Q21",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "pages": []
         }
@@ -25643,13 +25643,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "MSOs should maintain clear and documented policies setting out the persons within the institution",
           "locator": "AML FAQ Q21"
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "text": "金錢服務經營者應維持有明文依據的清晰政策",
           "locator": "AML FAQ 問21"
@@ -25669,18 +25669,18 @@
         3
       ],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "依賴中介人不包括持續監察",
       "locators": "AML FAQ Q22",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "pages": []
         }
@@ -25727,13 +25727,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "an MSO cannot rely on an intermediary to continuously monitor its business relationships with a customer",
           "locator": "AML FAQ Q22"
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "text": "金錢服務經營者不能依賴中介人持續監察其與客戶的業務關係",
           "locator": "AML FAQ 問22"
@@ -25753,13 +25753,13 @@
         5
       ],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "交易監察系統的獨立驗證",
       "locators": "AML FAQ Q23",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -25818,7 +25818,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "Such validation can be performed by an external party or an internal audit function",
           "locator": "AML FAQ Q23"
@@ -25836,13 +25836,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "跨境支付最低篩查相關各方",
       "locators": "AML FAQ Q24",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -25871,7 +25871,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "named parties (e.g., individuals, companies, banks etc) in the payment message.",
           "locator": "AML FAQ Q24"
@@ -25889,13 +25889,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "匯款人資料已核實後的準確性",
       "locators": "AML FAQ Q25",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -25931,7 +25931,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "No further verification of the originator information is normally required",
           "locator": "AML FAQ Q25"
@@ -25949,13 +25949,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "匯款地址與郵政信箱例外",
       "locators": "AML FAQ Q26",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -25985,7 +25985,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "having a PO Box as an address should be avoided except where no alternative exists.",
           "locator": "AML FAQ Q26"
@@ -26003,18 +26003,18 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "認證文件的範圍及不用認證的情況",
       "locators": "AML FAQ Q27",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "pages": []
         }
@@ -26090,13 +26090,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "There is no expectation to require certification for all other CDD information or documents",
           "locator": "AML FAQ Q27"
         },
         {
-          "doc": "22",
+          "doc": "06",
           "language": "TC",
           "text": "金錢服務經營者在能將有關文件與公開來源進行核對的情況下，亦無須認證該等文件。",
           "locator": "AML FAQ 問27"
@@ -26114,13 +26114,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "22"
+        "06"
       ],
       "topic": "未成功申請客戶的記錄",
       "locators": "AML FAQ Q28",
       "source_pages": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "pages": []
         }
@@ -26149,7 +26149,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "22",
+          "doc": "06",
           "language": "EN",
           "text": "there is no requirement for an MSO to maintain records and documents involving unsuccessful applicants.",
           "locator": "AML FAQ Q28"
@@ -26167,13 +26167,13 @@
       "module": 5,
       "other_modules": [],
       "docs": [
-        "23"
+        "02"
       ],
       "topic": "官方樣題：機構風險評估因素",
       "locators": "Example (1)",
       "source_pages": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "pages": [
             1
@@ -26225,7 +26225,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "text": "The MSO’s target market and customer segments",
           "locator": "Example (1)"
@@ -26243,13 +26243,13 @@
       "module": 2,
       "other_modules": [],
       "docs": [
-        "23"
+        "02"
       ],
       "topic": "官方樣題：牌照正本、住宅同意、變更及停業通知",
       "locators": "Example (2)",
       "source_pages": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "pages": [
             1
@@ -26301,7 +26301,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "text": "The licensee must display the original or the copy of the licence",
           "locator": "Example (2)"
@@ -26319,13 +26319,13 @@
       "module": 3,
       "other_modules": [],
       "docs": [
-        "23"
+        "02"
       ],
       "topic": "官方樣題：法定CDD、匿名帳戶、監察及匯款",
       "locators": "Example (3)",
       "source_pages": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "pages": [
             2
@@ -26377,7 +26377,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "text": "MSO must not open, or maintain, any anonymous account",
           "locator": "Example (3)"
@@ -26395,13 +26395,13 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "23"
+        "02"
       ],
       "topic": "官方樣題：LMO要求",
       "locators": "Example (4)",
       "source_pages": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "pages": [
             3
@@ -26453,7 +26453,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "text": "LMO can be reached in person and through telephone by the C&ED officers",
           "locator": "Example (4)"
@@ -26471,13 +26471,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "23"
+        "02"
       ],
       "topic": "官方樣題：STR系統",
       "locators": "Example (5)",
       "source_pages": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "pages": [
             3
@@ -26529,7 +26529,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "text": "keeping proper records of internal reports and Suspicious Transaction Reports",
           "locator": "Example (5)"
@@ -26547,13 +26547,13 @@
       "module": 7,
       "other_modules": [],
       "docs": [
-        "23"
+        "02"
       ],
       "topic": "官方樣題：CDD及交易紀錄",
       "locators": "Example (6)",
       "source_pages": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "pages": [
             4
@@ -26605,7 +26605,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "text": "The residential address information of the customer",
           "locator": "Example (6)"
@@ -26623,13 +26623,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "23"
+        "02"
       ],
       "topic": "官方樣題：法人客戶識別資料",
       "locators": "Example (7)",
       "source_pages": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "pages": [
             4
@@ -26681,7 +26681,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "23",
+          "doc": "02",
           "language": "EN",
           "text": "Date of incorporation, establishment or registration",
           "locator": "Example (7)"
@@ -26699,20 +26699,20 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "11"
+        "22"
       ],
       "topic": "跨境现金类物品申报与罚则",
       "locators": "第2–6段；金额门槛另见17第1段",
       "source_pages": [
         {
-          "doc": "11",
+          "doc": "22",
           "language": "EN",
           "pages": [
             1
           ]
         },
         {
-          "doc": "11",
+          "doc": "22",
           "language": "TC",
           "pages": [
             1
@@ -26793,13 +26793,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "11",
+          "doc": "22",
           "language": "EN",
           "text": "the total value of which is more than HK$120,000",
           "locator": "第2–6段；金额门槛另见17第1段"
         },
         {
-          "doc": "11",
+          "doc": "22",
           "language": "TC",
           "text": "總價值高於港幣120,000元",
           "locator": "第2–6段；金额门槛另见17第1段"
@@ -26819,20 +26819,20 @@
         6
       ],
       "docs": [
-        "12"
+        "14"
       ],
       "topic": "交付渠道的风险评估与定期复核",
       "locators": "第2–4、6段及注1",
       "source_pages": [
         {
-          "doc": "12",
+          "doc": "14",
           "language": "EN",
           "pages": [
             1
           ]
         },
         {
-          "doc": "12",
+          "doc": "14",
           "language": "TC",
           "pages": [
             1
@@ -26901,13 +26901,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "12",
+          "doc": "14",
           "language": "EN",
           "text": "these channels should be reviewed by MSOs on a regular basis",
           "locator": "第2–4、6段及注1"
         },
         {
-          "doc": "12",
+          "doc": "14",
           "language": "TC",
           "text": "金錢服務經營者亦須定期覆核此等渠道",
           "locator": "第2–4、6段及注1"
@@ -26929,13 +26929,13 @@
         7
       ],
       "docs": [
-        "12"
+        "14"
       ],
       "topic": "高风险渠道的强化措施与可疑交易报告",
       "locators": "第4–5段",
       "source_pages": [
         {
-          "doc": "12",
+          "doc": "14",
           "language": "EN",
           "pages": [
             2
@@ -27010,7 +27010,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "12",
+          "doc": "14",
           "language": "EN",
           "text": "diligence (EDD) when encountering high risk customers or transactions.",
           "locator": "第4–5段"
@@ -27030,13 +27030,13 @@
         6
       ],
       "docs": [
-        "12"
+        "14"
       ],
       "topic": "境外行为是否构成可公诉罪行得益",
       "locators": "注4",
       "source_pages": [
         {
-          "doc": "12",
+          "doc": "14",
           "language": "EN",
           "pages": [
             2
@@ -27067,7 +27067,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "12",
+          "doc": "14",
           "language": "EN",
           "text": "irrespective of the legal position in the jurisdiction where such conduct took place.",
           "locator": "注4"
@@ -27087,13 +27087,13 @@
         5
       ],
       "docs": [
-        "13"
+        "07"
       ],
       "topic": "客户风险评估的一致性与跟进",
       "locators": "正文要点1及附录(1)",
       "source_pages": [
         {
-          "doc": "13",
+          "doc": "07",
           "language": "EN",
           "pages": [
             3
@@ -27161,7 +27161,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "13",
+          "doc": "07",
           "language": "EN",
           "text": "require their staff to keep proper records of CRAs together with relevant documents",
           "locator": "正文要点1及附录(1)"
@@ -27179,13 +27179,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "13"
+        "07"
       ],
       "topic": "实益拥有人识别、核实及筛查范围",
       "locators": "正文要点2及附录(2)",
       "source_pages": [
         {
-          "doc": "13",
+          "doc": "07",
           "language": "EN",
           "pages": [
             4
@@ -27268,7 +27268,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "13",
+          "doc": "07",
           "language": "EN",
           "text": "The name screening procedures for the identification of PEPs must cover not only the customer, but also any beneficial owners of the customer.",
           "locator": "正文要点2及附录(2)"
@@ -27286,13 +27286,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "13"
+        "07"
       ],
       "topic": "代表客户行事者的角色与授权",
       "locators": "正文要点3及附录(3)",
       "source_pages": [
         {
-          "doc": "13",
+          "doc": "07",
           "language": "EN",
           "pages": [
             5
@@ -27367,7 +27367,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "13",
+          "doc": "07",
           "language": "EN",
           "text": "each legal person customer should have at least one PPTA",
           "locator": "正文要点3及附录(3)"
@@ -27385,20 +27385,20 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "13"
+        "07"
       ],
       "topic": "代表客户行事者须收集的最低识别资料",
       "locators": "附录(3)，对应02第4.5.3段",
       "source_pages": [
         {
-          "doc": "13",
+          "doc": "07",
           "language": "EN",
           "pages": [
             5
           ]
         },
         {
-          "doc": "13",
+          "doc": "07",
           "language": "TC",
           "pages": [
             5
@@ -27413,13 +27413,13 @@
       "evidence": [],
       "source_quotes": [
         {
-          "doc": "13",
+          "doc": "07",
           "language": "EN",
           "text": "In the case of a natural person PPTA, (a) full name; (b) date of birth; (c) nationality; and (d) unique identification number and document type.",
           "locator": "附录(3)，对应02第4.5.3段"
         },
         {
-          "doc": "13",
+          "doc": "07",
           "language": "TC",
           "text": "如看似代表客戶行事的人屬自然人，(a)全名；(b)出生日期；(c)國籍；及(d)獨特識別號碼及文件的類別。",
           "locator": "附录(3)，对应02第4.5.3段"
@@ -27437,13 +27437,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "14"
+        "08"
       ],
       "topic": "第三方支付的定义与洗钱风险",
       "locators": "第1页正文及注3；第6页结尾",
       "source_pages": [
         {
-          "doc": "14",
+          "doc": "08",
           "language": "EN",
           "pages": [
             1
@@ -27502,7 +27502,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "14",
+          "doc": "08",
           "language": "EN",
           "text": "“third party” means any person other than the customer.",
           "locator": "第1页正文及注3；第6页结尾"
@@ -27523,20 +27523,20 @@
         7
       ],
       "docs": [
-        "14"
+        "08"
       ],
       "topic": "第三方支付警讯清单",
       "locators": "Red flags，第3页",
       "source_pages": [
         {
-          "doc": "14",
+          "doc": "08",
           "language": "EN",
           "pages": [
             3
           ]
         },
         {
-          "doc": "14",
+          "doc": "08",
           "language": "TC",
           "pages": [
             3
@@ -27620,13 +27620,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "14",
+          "doc": "08",
           "language": "EN",
           "text": "a concentration of seemingly unrelated customers that share the same transaction pattern",
           "locator": "Red flags，第3页"
         },
         {
-          "doc": "14",
+          "doc": "08",
           "language": "TC",
           "text": "客戶不能應要求立即提供額外的身分證明文件。",
           "locator": "Red flags，第3页"
@@ -27644,13 +27644,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "14"
+        "08"
       ],
       "topic": "第三方支付的接纳条件与政策",
       "locators": "主要管控措施第1–5项及注5",
       "source_pages": [
         {
-          "doc": "14",
+          "doc": "08",
           "language": "EN",
           "pages": [
             4
@@ -27760,7 +27760,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "14",
+          "doc": "08",
           "language": "EN",
           "text": "Third party payments should be accepted only under exceptional and legitimate circumstances",
           "locator": "主要管控措施第1–5项及注5"
@@ -27778,20 +27778,20 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "14"
+        "08"
       ],
       "topic": "第三方风险等级与额外审查情形",
       "locators": "主要管控措施第7–8项及注6–8",
       "source_pages": [
         {
-          "doc": "14",
+          "doc": "08",
           "language": "EN",
           "pages": [
             5
           ]
         },
         {
-          "doc": "14",
+          "doc": "08",
           "language": "TC",
           "pages": [
             5
@@ -27861,13 +27861,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "14",
+          "doc": "08",
           "language": "EN",
           "text": "beneficial owners or affiliated companies of the customers, or regulated financial institution.",
           "locator": "主要管控措施第7–8项及注6–8"
         },
         {
-          "doc": "14",
+          "doc": "08",
           "language": "TC",
           "text": "客戶在進行支付前無法就第三方付款人的身分提供詳細資料作核實之用",
           "locator": "主要管控措施第7–8项及注6–8"
@@ -27885,13 +27885,13 @@
       "module": 6,
       "other_modules": [],
       "docs": [
-        "14"
+        "08"
       ],
       "topic": "第三方支付尽调与资金来源",
       "locators": "主要管控措施第6–7项及注7",
       "source_pages": [
         {
-          "doc": "14",
+          "doc": "08",
           "language": "EN",
           "pages": [
             5
@@ -27974,7 +27974,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "14",
+          "doc": "08",
           "language": "EN",
           "text": "critically evaluating the reasons of and the need for third party payments;",
           "locator": "主要管控措施第6–7项及注7"
@@ -27994,13 +27994,13 @@
         6
       ],
       "docs": [
-        "14"
+        "08"
       ],
       "topic": "第三方支付的持续监控、培训及客户沟通",
       "locators": "主要管控措施第9–12项及结尾",
       "source_pages": [
         {
-          "doc": "14",
+          "doc": "08",
           "language": "EN",
           "pages": [
             6
@@ -28074,7 +28074,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "14",
+          "doc": "08",
           "language": "EN",
           "text": "MSOs should clearly inform customers of their policies for handling third party payments.",
           "locator": "主要管控措施第9–12项及结尾"
@@ -28092,13 +28092,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "15"
+        "42"
       ],
       "topic": "冒认网站及社交媒体欺诈的应对",
       "locators": "正文第1–2段",
       "source_pages": [
         {
-          "doc": "15",
+          "doc": "42",
           "language": "EN",
           "pages": [
             1
@@ -28150,7 +28150,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "15",
+          "doc": "42",
           "language": "EN",
           "text": "they are recommended to notify the public, and report the case to the C&ED and the Hong Kong Police force.",
           "locator": "正文第1–2段"
@@ -28168,13 +28168,13 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "16"
+        "15"
       ],
       "topic": "定期申报周期、期限及电子提交",
-      "locators": "正文第1–6段；03第11.2段",
+      "locators": "正文第1–6段；05第11.2段",
       "source_pages": [
         {
-          "doc": "16",
+          "doc": "15",
           "language": "EN",
           "pages": [
             1
@@ -28226,7 +28226,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "16",
+          "doc": "15",
           "language": "EN",
           "text": "The new lodgement arrangement is on a half-yearly basis, i.e. 2 submissions per year",
           "locator": "正文第1–6段；03第11.2段"
@@ -28244,20 +28244,20 @@
       "module": 4,
       "other_modules": [],
       "docs": [
-        "16"
+        "15"
       ],
       "topic": "定期申报附件的数据填报规则",
       "locators": "附件第3–5页，Part1–4",
       "source_pages": [
         {
-          "doc": "16",
+          "doc": "15",
           "language": "EN",
           "pages": [
             3
           ]
         },
         {
-          "doc": "16",
+          "doc": "15",
           "language": "TC",
           "pages": [
             3
@@ -28272,13 +28272,13 @@
       "evidence": [],
       "source_quotes": [
         {
-          "doc": "16",
+          "doc": "15",
           "language": "EN",
           "text": "Input the data related to MONEY CHANGING ONLY, excluding the amount involved in remittance transactions in Part 1",
           "locator": "附件第3–5页，Part1–4"
         },
         {
-          "doc": "16",
+          "doc": "15",
           "language": "TC",
           "text": "在第1 部，僅輸入貨幣兌換相關數據，不包括匯款交易金額",
           "locator": "附件第3–5页，Part1–4"
@@ -28296,13 +28296,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "17"
+        "43"
       ],
       "topic": "旅客现金类物品电子预填及现场申报",
       "locators": "正文第1–3段及申报流程",
       "source_pages": [
         {
-          "doc": "17",
+          "doc": "43",
           "language": "EN",
           "pages": [
             1
@@ -28347,7 +28347,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "17",
+          "doc": "43",
           "language": "EN",
           "text": "Present the QR code to a Customs officer on the spot to make the declaration",
           "locator": "正文第1–3段及申报流程"
@@ -28365,13 +28365,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "18"
+        "16"
       ],
       "topic": "货币兑换商条例修订所提示的义务",
       "locators": "正文第1段",
       "source_pages": [
         {
-          "doc": "18",
+          "doc": "16",
           "language": "EN",
           "pages": [
             1
@@ -28409,7 +28409,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "18",
+          "doc": "16",
           "language": "EN",
           "text": "statutory obligations relating to transaction notes and rates display",
           "locator": "正文第1段"
@@ -28427,13 +28427,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "19"
+        "18"
       ],
       "topic": "贸易洗钱手法及空壳公司风险",
       "locators": "正文第1–3段及第2项",
       "source_pages": [
         {
-          "doc": "19",
+          "doc": "18",
           "language": "EN",
           "pages": [
             1
@@ -28492,7 +28492,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "19",
+          "doc": "18",
           "language": "EN",
           "text": "falsified trade documents, such as fake contracts and invoices",
           "locator": "正文第1–3段及第2项"
@@ -28512,13 +28512,13 @@
         1
       ],
       "docs": [
-        "19"
+        "18"
       ],
       "topic": "贸易洗钱的风险升级与尽调措施",
       "locators": "强化范畴第1–2项",
       "source_pages": [
         {
-          "doc": "19",
+          "doc": "18",
           "language": "EN",
           "pages": [
             1
@@ -28592,7 +28592,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "19",
+          "doc": "18",
           "language": "EN",
           "text": "flagging and escalating cases to MSOs’ senior management where multiple risk indicators are present on the customers.",
           "locator": "强化范畴第1–2项"
@@ -28612,13 +28612,13 @@
         1
       ],
       "docs": [
-        "19"
+        "18"
       ],
       "topic": "贸易洗钱警报处理及可疑交易报告",
       "locators": "强化范畴第3–4项及结尾",
       "source_pages": [
         {
-          "doc": "19",
+          "doc": "18",
           "language": "EN",
           "pages": [
             2
@@ -28678,7 +28678,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "19",
+          "doc": "18",
           "language": "EN",
           "text": "The obligations also apply whether or not a transaction was actually conducted and cover attempted transactions.",
           "locator": "强化范畴第3–4项及结尾"
@@ -28696,13 +28696,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "20"
+        "19"
       ],
       "topic": "FATF高风险、针对措施及加强监察的区别",
       "locators": "第(1)–(2)项及注2、5",
       "source_pages": [
         {
-          "doc": "20",
+          "doc": "19",
           "language": "EN",
           "pages": [
             1
@@ -28761,7 +28761,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "20",
+          "doc": "19",
           "language": "EN",
           "text": "apply enhanced due diligence, and, in the most serious cases, apply countermeasures",
           "locator": "第(1)–(2)项及注2、5"
@@ -28779,13 +28779,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "21"
+        "45"
       ],
       "topic": "支付透明度修订的方向与时间",
       "locators": "正文第1–2段",
       "source_pages": [
         {
-          "doc": "21",
+          "doc": "45",
           "language": "EN",
           "pages": [
             1
@@ -28830,7 +28830,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "21",
+          "doc": "45",
           "language": "EN",
           "text": "All jurisdictions around the world are expected to be ready to implement the changes by the end of 2030.",
           "locator": "正文第1–2段"
@@ -28848,20 +28848,20 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "21"
+        "45"
       ],
       "topic": "支付透明度咨询的议题范围",
       "locators": "第3段三个项目符号",
       "source_pages": [
         {
-          "doc": "21",
+          "doc": "45",
           "language": "EN",
           "pages": [
             1
           ]
         },
         {
-          "doc": "21",
+          "doc": "45",
           "language": "TC",
           "pages": [
             1
@@ -28894,13 +28894,13 @@
       ],
       "source_quotes": [
         {
-          "doc": "21",
+          "doc": "45",
           "language": "EN",
           "text": "Implementing Recommendation 16 and meeting data protection and privacy requirements together.",
           "locator": "第3段三个项目符号"
         },
         {
-          "doc": "21",
+          "doc": "45",
           "language": "TC",
           "text": "落實第16項建議並同時符合資料保護及隱私的要求。",
           "locator": "第3段三个项目符号"
@@ -28918,13 +28918,13 @@
       "module": 1,
       "other_modules": [],
       "docs": [
-        "21"
+        "45"
       ],
       "topic": "咨询回复日期与联系方式",
       "locators": "回复邀请段；冲突登记E25",
       "source_pages": [
         {
-          "doc": "21",
+          "doc": "45",
           "language": "EN",
           "pages": [
             1
@@ -28953,7 +28953,7 @@
       ],
       "source_quotes": [
         {
-          "doc": "21",
+          "doc": "45",
           "language": "EN",
           "text": "send your response by 21 August 2026, with a copy to mso_feedback@customs.gov.hk.",
           "locator": "回复邀请段；冲突登记E25"
@@ -29191,7 +29191,7 @@
         "L018"
       ],
       "suggested_questions": 1,
-      "reason": "先限定牌照指引03原文；与06“第三方账户”表述的跨来源解释尚须厘清。",
+      "reason": "先限定牌照指引05原文；与20“第三方账户”表述的跨来源解释尚须厘清。",
       "action": "add",
       "status": "completed",
       "followup_note": "P1流程补题已逐原子点核对并落实；已有细节沿用320题基线的直接题句，新增内容详见P1实施记录。仅测试《牌照指引》第11.1(j)段准许户名清单，不推断其他文件“第三方”的未明定义。"
@@ -29557,13 +29557,13 @@
       "finding": "第3句在双语中均称8000元或以上电传转账的附随资料必须包括地址，并标为真；题干没有限定记录资料选了地址或排除本地/批量例外。原文第12(3)(c)明示替代资料，第12(5)还受(6)/(7)例外限制。因此当前无条件陈述及讲解不成立。",
       "source_quotes": [
         {
-          "doc": "10",
+          "doc": "04",
           "language": "EN",
           "text": "the originator’s address, the originator’s customer identification number or identification document number or, if the originator is an individual, the originator’s date and place of birth;",
           "locator": "附表2第12(2)、(3)、(3A)、(5)、(11)条"
         },
         {
-          "doc": "10",
+          "doc": "04",
           "language": "TC",
           "text": "匯款人的地址、匯款人的客戶識別號碼或識別文件\n號碼或( 如匯款人屬一名個人) 匯款人的出生日期及\n地方；",
           "locator": "附表2第12(3)(c)條"
@@ -30101,53 +30101,53 @@
       {
         "docs": [
           "01",
-          "03",
-          "04",
           "05",
-          "06",
-          "07",
-          "08",
-          "09"
+          "10",
+          "11",
+          "20",
+          "21",
+          "12",
+          "13"
         ],
         "result": "关长／海关的考试、发牌、适当人选、监管及纪律职责已有题句；本专项不把行政联系资料转为机构职责题。"
       },
       {
         "docs": [
-          "02"
+          "03"
         ],
         "result": "主要机构职能来源；第1.13段尚有四个未直接实测的具体层面，第4.16.2(a)至(d)段尚未逐项测试资料来源。"
       },
       {
         "docs": [
-          "10"
+          "04"
         ],
         "result": "法定监管、调查、检控、覆核等机构权限已大量覆盖；其他受规管行业的有关当局对应不纳入本次金钱服务经营者专项。"
       },
       {
         "docs": [
-          "11",
-          "12",
-          "13",
+          "22",
           "14",
+          "07",
+          "08",
+          "42",
           "15",
+          "43",
           "16",
-          "17",
           "18",
           "19",
-          "20",
-          "21"
+          "45"
         ],
         "result": "涵盖海关、警方、联合财富情报组、特別组织及联合国的专项通函；未把事件背景、联系方式或既有实测内容改写凑题。"
       },
       {
         "docs": [
-          "22"
+          "06"
         ],
         "result": "特別组织建议10、国际组织政治人物及关长为金钱服务经营者有关当局等已有覆盖；邮政署署长的边界对应不作为本次新增。"
       },
       {
         "docs": [
-          "23"
+          "02"
         ],
         "result": "官方样题机构名称争议受决议B21约束，不能单凭Joint Financial Investigation Unit判错；全部官方样题已在库。"
       }

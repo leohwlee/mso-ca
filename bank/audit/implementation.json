@@ -610,7 +610,7 @@
     ],
     "sha256": {
       "web/questions.json": "895ac3fe7512db147b8ad2a0a72970734f922ddcfa84d0408c9ceca744461439",
-      "docs/quotes.json": "e0f230fbc1113a32441f8c11c540ac18767654dace11912e5f16a491ec1e3980"
+      "docs/quotes.json": "aa58e119ed44f8d082cdec229a40632e37a87b12e5ead0ef699d79924983c87a"
     },
     "newline": {
       "web/questions.json": "\r\n",
@@ -622,7 +622,7 @@
     "statements": 1599,
     "sha256": {
       "web/questions.json": "3575ffa5806301917ade9038fa1ba2ea1142120b1940f0c4b130b036c7948c93",
-      "docs/quotes.json": "cf4f1da5cf9633f9f2c89e456df813cf3f947f499159c886030b5a9e2f6c59e3",
+      "docs/quotes.json": "d46f6a1da4e0f97c801bdb834d55a7b1900b9f53fad860acc7e1a3e691509df1",
       "bank/retired-ids.json": "f0309410a50d2ea412113710ea7fd85da31de7a224d9a535c6beb09c5e99f410"
     }
   },
@@ -750,37 +750,37 @@
       "quotes": {
         "en": [
           {
-            "doc": "10",
+            "doc": "04",
             "text": "Subsection (3)(c) does not apply to a wire transfer involving an amount below $8,000"
           },
           {
-            "doc": "10",
+            "doc": "04",
             "text": "(d) the recipient’s name"
           },
           {
-            "doc": "10",
+            "doc": "04",
             "text": "for a wire transfer involving an amount equal to or above $8,000 or an equivalent amount in another currency—the information recorded under subsection (3)(a), (b), (c), (d) and (e)"
           },
           {
-            "doc": "10",
+            "doc": "04",
             "text": "for a wire transfer involving an amount below $8,000 or an equivalent amount in another currency—the information recorded under subsection (3)(a), (b), (d) and (e)"
           }
         ],
         "tc": [
           {
-            "doc": "10",
+            "doc": "04",
             "text": "第(3)(c) 款不適用於涉及$8,000 以下的款額( 或折算為另 一貨幣的相同款額) 的電傳轉帳"
           },
           {
-            "doc": "10",
+            "doc": "04",
             "text": "(d) 收款人的姓名或名稱"
           },
           {
-            "doc": "10",
+            "doc": "04",
             "text": "就涉及相等於$8,000 或以上的款額( 或折算為另 一貨幣的相同款額) 的電傳轉帳—— 包括根據第 (3)(a)、(b)、(c)、(d) 及(e) 款就該項轉帳記錄的資 料"
           },
           {
-            "doc": "10",
+            "doc": "04",
             "text": "就涉及$8,000 以下的款額( 或折算為另一貨幣的相 同款額) 的電傳轉帳—— 包括根據第(3)(a)、(b)、 (d) 及(e) 款就該項轉帳記錄的資料"
           }
         ]
@@ -877,45 +877,45 @@
       "quotes": {
         "en": [
           {
-            "doc": "21",
+            "doc": "45",
             "text": "The revisions to FATF’s Recommendation 16, agreed in June 2025, will keep pace with changes in the payment landscape"
           },
           {
-            "doc": "21",
+            "doc": "45",
             "text": "by increasing transparency of information that accompanies cross-border payments and requiring the introduction of tools to protect against fraud and error"
           },
           {
-            "doc": "21",
+            "doc": "45",
             "text": "All jurisdictions around the world are expected to be ready to implement the changes by the end of 2030"
           },
           {
-            "doc": "21",
+            "doc": "45",
             "text": "How Recommendation 16 applies to newer payment methods, such as digital wallets and mobile money"
           },
           {
-            "doc": "21",
+            "doc": "45",
             "text": "send your response by 21 August 2026, with a copy to mso_feedback@customs.gov.hk"
           }
         ],
         "tc": [
           {
-            "doc": "21",
+            "doc": "45",
             "text": "FATF於2025年6月通過的第16項建議的修訂中，提及將與支付格局的變化同步"
           },
           {
-            "doc": "21",
+            "doc": "45",
             "text": "並透過提升跨境支付資訊的透明度，及要求引入防止詐騙及錯誤的工具"
           },
           {
-            "doc": "21",
+            "doc": "45",
             "text": "所有的司法區預計需於2030年底前實施相關的變更"
           },
           {
-            "doc": "21",
+            "doc": "45",
             "text": "第16項建議如何適用於新興支付方式，如電子錢包與移動支付"
           },
           {
-            "doc": "21",
+            "doc": "45",
             "text": "於2026年8月21日之前提交回覆，並抄送副本至mso_feedback@customs.gov.hk"
           }
         ]
@@ -2596,7 +2596,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "10",
+              "doc": "04",
               "locator": "s.7(4)",
               "quote_en": "A failure by any person to comply with a provision in any guideline published under this section does not by itself render the person liable to any judicial or other proceedings",
               "quote_tc": "如任何人沒有遵守根據本條公布的指引的條文，此事本身不會令致該人可在任何司法或其他法律程序中被起訴，",
@@ -2604,7 +2604,7 @@
             },
             {
               "statement": 2,
-              "doc": "10",
+              "doc": "04",
               "locator": "s.7(4)",
               "quote_en": "in any proceedings under this Ordinance before any court, the guideline is admissible in evidence",
               "quote_tc": "在根據本條例提起而於任何法院進行的法律程序中，該指引可獲接納為證據",
@@ -2612,7 +2612,7 @@
             },
             {
               "statement": 3,
-              "doc": "10",
+              "doc": "04",
               "locator": "s.7(4)",
               "quote_en": "if any provision set out in the guideline appears to the court to be relevant to any question arising in the proceedings, the provision must be taken into account in determining that question.",
               "quote_tc": "如該法院覺得該指引內所列條文，攸關該法律程序中產生的任何問題，該法院在裁斷該問題時，須考慮該條文。",
@@ -2620,7 +2620,7 @@
             },
             {
               "statement": 4,
-              "doc": "10",
+              "doc": "04",
               "locator": "s.7(5)",
               "quote_en": "In considering whether a person has contravened a provision of Schedule 2, a relevant authority or a regulatory body must have regard to any provision in the guideline published under this section that is relevant to the requirement.",
               "quote_tc": "有關當局或監管機構在考慮某人有否違反附表2的條文時，須顧及根據本條公布的指引內攸關有關規定的任何條文。",
@@ -2652,7 +2652,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "10",
+              "doc": "04",
               "locator": "s.26(2)",
               "quote_en": "The Commissioner of Customs and Excise must not delegate any of the functions under this section or section 51.",
               "quote_tc": "海關關長不得轉授本條或第51條所指的職能。",
@@ -2660,7 +2660,7 @@
             },
             {
               "statement": 2,
-              "doc": "10",
+              "doc": "04",
               "locator": "s.2(2)",
               "quote_en": "The Secretary for Financial Services and the Treasury may, by notice published in the Gazette, amend Part 2 of Schedule 1.",
               "quote_tc": "財經事務及庫務局局長可藉憲報公告修訂附表1第2部。",
@@ -2668,7 +2668,7 @@
             },
             {
               "statement": 3,
-              "doc": "10",
+              "doc": "04",
               "locator": "s.79(3)",
               "quote_en": "This section does not derogate from the powers of the Secretary for Justice in respect of the prosecution of criminal offences.",
               "quote_tc": "本條並不減損律政司司長在檢控刑事罪行方面的權力。",
@@ -2676,7 +2676,7 @@
             },
             {
               "statement": 4,
-              "doc": "10",
+              "doc": "04",
               "locator": "s.73(2)",
               "quote_en": "the Court of Appeal may, on an application made to it by any party to the review, order a stay of execution of the determination of the Tribunal appealed against.",
               "quote_tc": "上訴法庭可應有關覆核的任何一方向它提出的申請，命令暫緩執行該裁定。",
@@ -2710,7 +2710,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "22",
+              "doc": "06",
               "locator": "Licensing FAQ Q2/A2; 發牌常見問題問2/答2",
               "quote_en": "Money Service Operators (“MSOs”) and the Postmaster General as well as other specified financial institutions.",
               "quote_tc": "金錢服務經營者及郵政署署長，以及其他指定的金融機構需受「打擊洗錢條例」的法律約束。",
@@ -2718,7 +2718,7 @@
             },
             {
               "statement": 2,
-              "doc": "22",
+              "doc": "06",
               "locator": "Licensing FAQ Q4/A4; 發牌常見問題問4/答4",
               "quote_en": "The Commissioner of Customs & Excise (“CCE”) is the relevant authority under the “AMLO”.",
               "quote_tc": "海關關長(「關長」)是「打擊洗錢條例」下的有關當局。",
@@ -2726,7 +2726,7 @@
             },
             {
               "statement": 3,
-              "doc": "10",
+              "doc": "04",
               "locator": "AMLO s.12(1), especially s.12(1)(c); 《打擊洗錢條例》第12(1)條，尤其第12(1)(c)條",
               "quote_en": "a person whom an investigator has reasonable cause to believe to be otherwise in possession of information relevant to an investigation under section 11.",
               "quote_tc": "調查員有合理因由相信，該人以其他方式管有攸關根據第11 條進行的調查的資料。",
@@ -2734,7 +2734,7 @@
             },
             {
               "statement": 4,
-              "doc": "10",
+              "doc": "04",
               "locator": "AMLO s.5(7), with specified provision defined in s.5(11); 《打擊洗錢條例》第5(7)及5(11)條",
               "quote_en": "knowingly causes or knowingly permits the financial institution to contravene a specified provision, the person commits an offence",
               "quote_tc": "任何屬金融機構的僱員、或受僱為金融機構工作、或關涉金融機構的管理的人，如明知而致使或明知而准許該機構違反指明的條文，即屬犯罪",
@@ -2767,7 +2767,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "06",
+              "doc": "20",
               "locator": "Introduction ¶2",
               "quote_en": "The MSSB is obliged to look into the applicant’s entire business operation from the anti-money laundering and counter-terrorist financing (“AML/CFT”) perspective.",
               "quote_tc": "金錢服務監理科有責任從打擊洗錢及恐怖分子資金籌集的角度研究申請人整項業務運作。",
@@ -2775,7 +2775,7 @@
             },
             {
               "statement": 2,
-              "doc": "03",
+              "doc": "05",
               "locator": "¶5.8",
               "quote_en": "The witness shall also certify that this Appendix I is signed by the declarant in his or her presence.",
               "quote_tc": "見證人亦須證明聲明人在其在場情況下簽署該附錄I。",
@@ -2783,7 +2783,7 @@
             },
             {
               "statement": 3,
-              "doc": "03",
+              "doc": "05",
               "locator": "¶5.5(c)",
               "quote_en": "the directors or staff member(s) of the applicant authorized in writing by the board of directors, where the applicant belongs to corporation.",
               "quote_tc": "董事局以書面授權的申請人的董事或員工（如申請人屬法團）。",
@@ -2791,7 +2791,7 @@
             },
             {
               "statement": 4,
-              "doc": "22",
+              "doc": "06",
               "locator": "AML/CFT FAQ A13",
               "quote_en": "an original certificate of incorporation issued by the Hong Kong Companies Registry is available in electronic form.",
               "quote_tc": "由香港公司註冊處發出的公司註冊證書正本可以電子形式出示。",
@@ -2825,7 +2825,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "02",
+              "doc": "03",
               "locator": "AML/CFT Guideline ¶3.8 opening and ¶3.8(f); 《打擊洗錢及恐怖分子資金籌集指引》第3.8段引言及3.8(f)段",
               "quote_en": "fully conversant with the MSO’s statutory and regulatory requirements and the ML/TF risks arising from the MSO’s business;",
               "quote_tc": "完全熟悉適用於金錢服務經營者的法定及監管規定，以及金錢服務經營者的業務所產生的洗錢／恐怖分子資金籌集風險；",
@@ -2833,7 +2833,7 @@
             },
             {
               "statement": 2,
-              "doc": "02",
+              "doc": "03",
               "locator": "AML/CFT Guideline ¶3.8 opening and ¶3.8(h); 《打擊洗錢及恐怖分子資金籌集指引》第3.8段引言及3.8(h)段",
               "quote_en": "equipped with sufficient resources, including staff and appropriate cover for the absence of the CO and MLRO",
               "quote_tc": "配備充足資源，包括職員及合規主任及洗錢報告主任的適當替補人選",
@@ -2841,7 +2841,7 @@
             },
             {
               "statement": 3,
-              "doc": "02",
+              "doc": "03",
               "locator": "AML/CFT Guideline ¶3.9 opening; 《打擊洗錢及恐怖分子資金籌集指引》第3.9段引言",
               "quote_en": "providing support and guidance to the senior management to ensure that ML/TF risks are adequately identified, understood and managed.",
               "quote_tc": "以及向高級管理層提供支援及導引，確保妥為識別、了解和管理洗錢／恐怖分子資金籌集風險。",
@@ -2849,7 +2849,7 @@
             },
             {
               "statement": 4,
-              "doc": "02",
+              "doc": "03",
               "locator": "AML/CFT Guideline ¶5.5; 《打擊洗錢及恐怖分子資金籌集指引》第5.5段",
               "quote_en": "provide all relevant staff who are tasked with conducting transaction monitoring and investigation with timely and sufficient information required to identify, analyse and effectively monitor customers’ transactions.",
               "quote_tc": "金錢服務經營者應確保交易監察系統及程序能夠向所有負責執行交易監察及調查的相關職員提供適時而充分的資料，足以識別、分析及有效監察客戶的交易。",
@@ -2882,7 +2882,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "22",
+              "doc": "06",
               "locator": "AML/CFT FAQ A22",
               "quote_en": "an MSO cannot rely on an intermediary to continuously monitor its business relationships with a customer (i.e., ongoing CDD and transaction monitoring).",
               "quote_tc": "金錢服務經營者不能依賴中介人持續監察其與客戶的業務關係（即持續的客戶盡職審查及交易監察）。",
@@ -2890,7 +2890,7 @@
             },
             {
               "statement": 2,
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.18(7), related foreign financial institution (a),(b)(iii)(A)",
               "quote_en": "it is the head office of the financial institution",
               "quote_tc": "該另一機構是該金融機構的總行",
@@ -2898,7 +2898,7 @@
             },
             {
               "statement": 3,
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.18(7), related foreign financial institution (a),(b)(iii)(B)",
               "quote_en": "it is a branch of the head office of the financial institution.",
               "quote_tc": "該另一機構是該金融機構總行的分行；",
@@ -2906,7 +2906,7 @@
             },
             {
               "statement": 4,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.11.13",
               "quote_en": "The MSO should be satisfied that the related foreign FI is subject to regular and independent reviews over its ongoing compliance with the group policy",
               "quote_tc": "金錢服務經營者應信納相關外地金融機構在持續遵從集團政策方面，受到任何集團層面的合規、審核或其他類似的打擊洗錢／恐怖分子資金籌集職能的定期和獨立的覆核。",
@@ -2940,7 +2940,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "02",
+              "doc": "03",
               "locator": "Appendix A ¶9",
               "quote_en": "The certifier should state that it is a true copy of the original (or words to similar effect).",
               "quote_tc": "證明人必須說明該複本文件為正本文件的真確複本(或具類似效力的字詞)。",
@@ -2948,7 +2948,7 @@
             },
             {
               "statement": 2,
-              "doc": "02",
+              "doc": "03",
               "locator": "Appendix A footnote 74",
               "quote_en": "if that professional person is subject to the professional conduct requirements of a relevant professional body, and has certified the copy documents in his or her professional capacity.",
               "quote_tc": "惟該專業人士本身須遵守相關專業團體的專業操守規定，並已經以其專業身分認證該等文件複本。",
@@ -2956,7 +2956,7 @@
             },
             {
               "statement": 3,
-              "doc": "02",
+              "doc": "03",
               "locator": "Appendix A ¶8(b)",
               "quote_en": "a member of the judiciary in an equivalent jurisdiction",
               "quote_tc": "在對等司法管轄區的司法人員",
@@ -2964,7 +2964,7 @@
             },
             {
               "statement": 4,
-              "doc": "02",
+              "doc": "03",
               "locator": "Appendix A ¶8(d)",
               "quote_en": "a Justice of the Peace",
               "quote_tc": "太平紳士",
@@ -2972,7 +2972,7 @@
             },
             {
               "statement": 5,
-              "doc": "02",
+              "doc": "03",
               "locator": "Appendix A ¶8(e)",
               "quote_en": "other professional person75 such as certified public accountant, lawyer, notary public and chartered secretary76.",
               "quote_tc": "其他專業人士75，例如會計師、律師、公證人及特許秘書76。",
@@ -3004,7 +3004,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "22",
+              "doc": "06",
               "locator": "AML/CFT FAQ A20",
               "quote_en": "Such decision can only be made with the approval of the MSO’s senior management",
               "quote_tc": "有關決定須獲金錢服務經營者的高級管理層批准",
@@ -3012,7 +3012,7 @@
             },
             {
               "statement": 2,
-              "doc": "22",
+              "doc": "06",
               "locator": "AML/CFT FAQ A20",
               "quote_en": "on the basis that the PEP no longer presents a high risk of ML/TF.",
               "quote_tc": "而該政治人物須不再構成高度洗錢/恐怖分子資金籌集風險。",
@@ -3020,7 +3020,7 @@
             },
             {
               "statement": 3,
-              "doc": "22",
+              "doc": "06",
               "locator": "AML/CFT FAQ A21",
               "quote_en": "MSOs should maintain clear and documented policies setting out the persons within the institution who are able to approve PEP customer onboarding and a continued business relationship.",
               "quote_tc": "金錢服務經營者應維持有明文依據的清晰政策，列出機構內能夠批准與政治人物客戶建立及維持業務關係的人選。",
@@ -3028,7 +3028,7 @@
             },
             {
               "statement": 4,
-              "doc": "22",
+              "doc": "06",
               "locator": "AML/CFT FAQ A21",
               "quote_en": "In any event, it should only include those with sufficient seniority.",
               "quote_tc": "在任何情況下，人選必須具有一定的資歷。",
@@ -3060,7 +3060,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶6.4",
               "quote_en": "Where a person or property is designated by a Committee of the UNSC established pursuant to the relevant UNSCRs as stated in paragraph [6.2] as a terrorist/terrorist associate or terrorist property56 respectively",
               "quote_tc": "凡某人或財產如第[6.2]段所述被根據相關的聯合國安理會決議成立的聯合國安理會委員會分別指定為恐怖分子／與恐怖分子有聯繫者或恐怖分子財產56",
@@ -3068,7 +3068,7 @@
             },
             {
               "statement": 2,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶6.4",
               "quote_en": "the Chief Executive may make an application to the Court of First Instance for an order",
               "quote_tc": "行政長官可向原訟法庭提出申請，要求作出命令",
@@ -3076,7 +3076,7 @@
             },
             {
               "statement": 3,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶6.7",
               "quote_en": "The UNSO empowers the Chief Executive to make regulations to implement sanctions decided by the UNSC, including targeted financial sanctions57",
               "quote_tc": "《聯合國制裁條例》授權行政長官訂立規例，以執行聯合國安全理事會所決定的制裁",
@@ -3084,7 +3084,7 @@
             },
             {
               "statement": 4,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶6.6",
               "quote_en": "The S for S can licence exceptions to the prohibitions to enable frozen property to be unfrozen",
               "quote_tc": "保安局局長可就禁令批予特許，准許將已凍結的財產解凍",
@@ -3117,31 +3117,31 @@
           ],
           "quotes": [
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "s.24 ultimate owner (c)(i)",
               "en": "owns or controls, directly or indirectly, including through a trust or bearer share holding, more than 25% of the issued share capital of the corporation",
               "tc": "直接或間接地擁有或控制(包括透過信託或持票人股份持有)該法團已發行股本的25%以上"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "s.24 ultimate owner (c)(ii)",
               "en": "is, directly or indirectly, entitled to exercise or control the exercise of more than 25% of the voting rights at general meetings of the corporation",
               "tc": "直接或間接地有權行使在該法團的成員大會上的投票權的25%以上，或支配該比重的投票權的行使"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "s.24 ultimate owner (c)(iii); registered source-language difference E14",
               "en": "exercises ultimate control over the management of the corporation",
               "tc": "可行使對該法團的管理最終的控制權"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "s.24 ultimate owner (b)(ii)",
               "en": "is, directly or indirectly, entitled to exercise or control the exercise of more than 25% of the voting rights in the partnership",
               "tc": "直接或間接地有權行使在該合夥的投票權的25%以上，或支配該比重的投票權的行使"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "s.24 ultimate owner (c)(iii); control must concern the licensee, not merely its customer",
               "en": "exercises ultimate control over the management of the corporation",
               "tc": "可行使對該法團的管理最終的控制權"
@@ -3185,31 +3185,31 @@
           ],
           "quotes": [
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.1(1) beneficial owner (b)(i)(B)",
               "en": "is, directly or indirectly, entitled to exercise or control the exercise of more than 25% of the voting rights in the partnership",
               "tc": "直接或間接地有權行使在該合夥的投票權的25%以上，或支配該比重的投票權的行使"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.1(1) beneficial owner (a)(ii); registered conflict B14",
               "en": "if the corporation is acting on behalf of another person, means the other person",
               "tc": "(如該法團是代表另一人行事)指該另一人"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.1(1) beneficial owner (b)(ii)",
               "en": "if the partnership is acting on behalf of another person, means the other person",
               "tc": "(如該合夥是代表另一人行事)指該另一人"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.1(1) beneficial owner (d)(i)",
               "en": "means an individual who ultimately owns or controls the person",
               "tc": "最終擁有或控制該人的任何個人"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.1(1) beneficial owner (d)(ii)",
               "en": "if the person is acting on behalf of another person, means the other person",
               "tc": "(如該人是代表另一人行事)該另一人"
@@ -3251,25 +3251,25 @@
           ],
           "quotes": [
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "4.3.18 and 4.3.19(b)",
               "en": "in relation to a partnership, means a partner of the customer",
               "tc": "就合夥而言，指該客戶的合夥人"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "4.3.19(c)",
               "en": "in relation to a trust or other similar legal arrangement, means a trustee (or equivalent) of the customer",
               "tc": "就信託或其他類似法律安排而言，指該客戶的受託人（或同等身分的人）"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "4.3.18 footnote 26",
               "en": "the MSO has to identify and verify the identity of that person with reference to relevant requirements set out in this Guideline",
               "tc": "金錢服務經營者必須參照本指引列載的相關規定，以識別和核實該人的身分"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "4.1.5",
               "en": "in an outward wire transfer transaction does not regard the beneficiary (who has no other relationship with the MSO) as its customer",
               "tc": "在付款電傳轉帳交易中，一間匯款金錢服務經營者並不會視其收款人（而收款人與金錢服務經營者並沒有其他關係）為其客戶"
@@ -3313,37 +3313,37 @@
           ],
           "quotes": [
             {
-              "doc": "22",
+              "doc": "06",
               "locator": "AML FAQ10(a)",
               "en": "A natural person who exerts control of a legal person through means such as personal connections to persons who would be beneficial owners due to owning more than 25% of the shares or voting rights.",
               "tc": "某自然人透過與若干人等的私人關連對法人施加控制，而有關人等因擁有25%以上股份或投票權而成爲實益擁有人。"
             },
             {
-              "doc": "22",
+              "doc": "06",
               "locator": "AML FAQ10(b)",
               "en": "A natural person who exerts control without ownership by participating in the financing of the enterprise",
               "tc": "某自然人透過參與法團融資"
             },
             {
-              "doc": "22",
+              "doc": "06",
               "locator": "AML FAQ10(b)",
               "en": "A natural person who exerts control without ownership by participating in the financing of the enterprise, or because of close and intimate family relationships",
               "tc": "由於密切及親密家庭關係、歷史或合約聯繋，或因某公司違反特定支付約定，而在沒有擁有權下對法團施加控制"
             },
             {
-              "doc": "22",
+              "doc": "06",
               "locator": "AML FAQ10(b)",
               "en": "A natural person who exerts control without ownership by participating in the financing of the enterprise, or because of close and intimate family relationships, historical or contractual associations",
               "tc": "歷史或合約聯繋，或因某公司違反特定支付約定，而在沒有擁有權下對法團施加控制"
             },
             {
-              "doc": "22",
+              "doc": "06",
               "locator": "AML FAQ10(b)",
               "en": "A natural person who exerts control without ownership by participating in the financing of the enterprise, or because of close and intimate family relationships, historical or contractual associations, or if a company defaults on certain payments.",
               "tc": "或因某公司違反特定支付約定，而在沒有擁有權下對法團施加控制"
             },
             {
-              "doc": "22",
+              "doc": "06",
               "locator": "AML FAQ10(b)",
               "en": "control may be presumed even if control is never actually exercised",
               "tc": "有關控制即使從未被實際行使，例如使用、享受或得益於法人擁有的資產，亦可被推定存在"
@@ -3387,25 +3387,25 @@
           ],
           "quotes": [
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.12(11) originator (b)",
               "en": "in the absence of such an account, the person who instructs the ordering institution to carry out the wire transfer",
               "tc": "(如沒有此戶口)指示匯款機構進行該項轉賬的人"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.13(3) originator (a)",
               "en": "the person from whose account with the licensed money service operator the money for the remittance is paid",
               "tc": "符合以下說明的人：該人在持牌金錢服務經營者開立戶口，而該項交易所涉金錢，是自該戶口匯出的"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.13(3) originator (b)",
               "en": "in the absence of such an account, the person who instructs the licensed money service operator to carry out the remittance transaction",
               "tc": "(如沒有此戶口)指示持牌金錢服務經營者進行該項交易的人"
             },
             {
-              "doc": "14",
+              "doc": "08",
               "locator": "MSSB/MIS_01/2024, Expected standards on key control measures, item 9; circular identity and date verified from both headers",
               "en": "MSOs should be alert to the possibility that the third-party payer is the true beneficial owner, and the risks to which that may give rise.",
               "tc": "金錢服務經營者應就第三方付款人即真正實益擁有人的可能以及從而產生的風險保持警覺"
@@ -3445,25 +3445,25 @@
           ],
           "quotes": [
             {
-              "doc": "22",
+              "doc": "06",
               "locator": "AML FAQ24(a)",
               "en": "(a) originator; (b) recipient;",
               "tc": "(a) 匯款人；(b) 收款人；"
             },
             {
-              "doc": "22",
+              "doc": "06",
               "locator": "AML FAQ24(b)",
               "en": "(a) originator; (b) recipient;",
               "tc": "(a) 匯款人；(b) 收款人；"
             },
             {
-              "doc": "22",
+              "doc": "06",
               "locator": "AML FAQ24(c)",
               "en": "(c) ordering institution; (d) intermediary institution;",
               "tc": "(c) 匯款機構；(d) 中介機構；"
             },
             {
-              "doc": "22",
+              "doc": "06",
               "locator": "AML FAQ24(e)",
               "en": "(e) beneficiary institution; and",
               "tc": "(e) 收款機構；及"
@@ -3503,25 +3503,25 @@
           ],
           "quotes": [
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "10.18",
               "en": "the required originator information or required recipient information is incomplete or meaningless, it must as soon as reasonably practicable take reasonable measures to mitigate the risk of ML/TF involved",
               "tc": "所需匯款人資料或所需收款人資料並不完整，或不具意義，它須在合理地切實可行的範圍內，盡快採取合理措施，減低所涉的洗錢／恐怖分子資金籌集的風險"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "10.20; Guideline rule, as distinguished in B20",
               "en": "the required originator information or required recipient information, the beneficiary institution must as soon as reasonably practicable, obtain the missing information from the institution from which it receives the transfer instruction",
               "tc": "如本地或跨境電傳轉帳並無附隨所需匯款人資料或所需收款人資料"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "7.19 second paragraph",
               "en": "the MSO should also file an STR in any jurisdiction affected by the suspicious wire transfer",
               "tc": "便應在受可疑電傳轉帳影響的司法管轄區提交可疑交易報告"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "7.19 second paragraph; specifically named recipient, independent of other record-access duties",
               "en": "make relevant transaction information available to the Financial Intelligence Unit",
               "tc": "並向財富情報組提供相關交易資料"
@@ -3565,37 +3565,37 @@
           ],
           "quotes": [
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.1 Pt.1 s.1 money changing service",
               "en": "means a service for the exchanging of currencies that is operated in Hong Kong as a business",
               "tc": "指在香港作為業務經營的貨幣兌換服務"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.1 Pt.1 s.1 remittance service (b)",
               "en": "receiving, or arranging for the receipt of, money from a place outside Hong Kong",
               "tc": "從香港以外地方或安排從香港以外地方收取金錢"
             },
             {
-              "doc": "03",
+              "doc": "05",
               "locator": "2.3",
               "en": "does not include such a service that is incidental to the main business e.g. retail business accepting foreign currencies in transactions",
               "tc": "但不包括附帶於主要業務的該等服務，例如在交易中接受外幣的零售業務"
             },
             {
-              "doc": "03",
+              "doc": "05",
               "locator": "4.4(b)",
               "en": "the premises are advertised (including a signboard on display) for meeting customers there",
               "tc": "該處所被宣傳（包括展示招牌）為用作會見客戶的處所"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Part 5 s.25 opening words; Part 5 body heading verified at EN line 3742 / TC line 3234",
               "en": "This Part does not apply to the Government",
               "tc": "本部不適用於政府"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Part 5 s.25(f), read with opening words; Part 5 body heading and s.24 title independently verified",
               "en": "an SVF licensee that operates a money service that is ancillary to the licensee’s principal business",
               "tc": "經營金錢服務的工具持牌人(前提是該服務附屬於該持牌人的主要業務)"
@@ -3639,25 +3639,25 @@
           ],
           "quotes": [
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶6.5 footnote 56 / 第6.5段註腳56",
               "en": "terrorist property means the property of a terrorist or terrorist associate",
               "tc": "恐怖分子財產指恐怖分子或與恐怖分子有聯繫者的財產"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶6.5 footnote 56 / 第6.5段註腳56",
               "en": "any other property that is intended to be used or was used to finance or assist the commission of terrorist acts",
               "tc": "任何擬用於或曾用於資助或協助作出恐怖主義行為的財產"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶1.25 / 第1.25段",
               "en": "knowing or suspecting that a disclosure has been made",
               "tc": "任何人如知道或懷疑已曾作出披露"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶1.25 / 第1.25段",
               "en": "he discloses to any other person any matter which is likely to prejudice any investigation",
               "tc": "而仍向其他人披露任何相當可能損害為跟進首述披露而進行的調查的事宜"
@@ -3697,25 +3697,25 @@
           ],
           "quotes": [
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.3.6 footnote 19 / 第4.3.6段註腳19",
               "en": "Legal person refers to any entities other than natural person that can establish a permanent customer relationship with an MSO or otherwise own property",
               "tc": "法人指任何自然人以外能夠與金錢服務經營者建立永久客戶關係或以其他形式擁有財產的實體"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.1.3 footnote 12 / 第4.1.3段註腳12",
               "en": "a trust means an express trust or any similar arrangement for which a legal-binding document (i.e. a trust deed or in any other forms) is in place",
               "tc": "信託是指明示信託或附有具法律約束力文件(即信託契據或任何其他形式)的任何類似安排"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.3.12 footnote 25 / 第4.3.12段註腳25",
               "en": "they act in the course of a profession or business which consists of or includes the provision of services in connection with the administration or management of trusts",
               "tc": "他們在包含或包括提供信託管理服務(或某方面的信託管理服務)的行業或業務的過程中管理信託"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.3.12(c) / 第4.3.12(c)段",
               "en": "written confirmation from a trustee acting in a professional capacity",
               "tc": "由以專業身分行事的受託人25簽發的書面確認書"
@@ -3757,31 +3757,31 @@
           ],
           "quotes": [
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "2.4 footnote 3",
               "en": "information that is produced by reputable and universally recognised international organisations and other bodies that make such information publicly and widely available",
               "tc": "由一些有良好聲譽和廣為人知的國際組織及其他組織所提供及廣泛流傳的資訊"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "2.4 footnote 3",
               "en": "as well as relevant national government bodies and non-government organisations",
               "tc": "以及有關的政府組織和非政府機構"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "4.9.15",
               "en": "entities established by formal political agreements between their member States that have the status of international treaties",
               "tc": "由成員國根據具有國際條約地位的正式政治協議成立的實體"
             },
             {
-              "doc": "20",
+              "doc": "19",
               "locator": "item (2), paragraph beginning The statement",
               "en": "jurisdictions that have committed to resolve swiftly strategic deficiencies in their regime to counter money laundering, terrorist financing, and proliferation financing within agreed timeframes and are subject to increased monitoring",
               "tc": "承諾於協定時間內迅速解決其在打擊洗錢、恐怖分子資金籌集及大規模毀滅武器擴散資金籌集制度方面的策略性缺失，且受加強監察的司法管轄區"
             },
             {
-              "doc": "22",
+              "doc": "06",
               "locator": "AML FAQ17",
               "en": "conducting EDD is not mandatory for customers connected to jurisdictions listed in the FATF statement",
               "tc": "對與題為“改善全球打擊洗錢及恐怖分子資金籌集的合規情況：持續進展”的特別組織聲明所列司法管轄區有關連的客戶採取更嚴格盡職審查措施並非強制性規定"
@@ -3823,25 +3823,25 @@
           ],
           "quotes": [
             {
-              "doc": "22",
+              "doc": "06",
               "locator": "AML/CFT FAQ A5 / 打擊洗錢及恐怖分子資金籌集常見問題答5",
               "en": "the location where a legal person primarily operates or the place of its main activities. It can be the same as, or differ from, the address of registered office",
               "tc": "“主要營業地點”指法人營運主要所在地或其主要活動的地點。主要營業地點可與註冊辦事處地址相同或不同"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.12.1 / 第4.12.1段",
               "en": "pre-existing customers (with whom the business relationship was established before the AMLO came into effect on 1 April 2012)",
               "tc": "先前客戶（於2012年4月1日打擊洗錢條例生效前與之建立業務關係的客戶）"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶10.5 footnote 70 / 第10.5段註腳70",
               "en": "Customer identification number refers to a number which uniquely identifies the originator to the originating institution and is a different number from the unique transaction reference number referred to in paragraph [10.7]",
               "tc": "客戶識別號碼指用作識別就發起機構而言屬匯款人的獨特號碼，與第[10.7]段所述的獨特交易參考編號並不相同"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "Appendix A ¶3 / 附錄A第3段",
               "en": "Travel document means a passport or some other document furnished with a photograph of the holder establishing the identity and nationality, domicile or place of permanent residence of the holder",
               "tc": "旅遊證件是指附有持有人照片，能確定持有人的身分及國籍、原居地或永久居留地的護照或其他證件"
@@ -3882,7 +3882,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.12(3A)",
               "quote_en": "Subsection (3)(c) does not apply to a wire transfer involving an amount below $8,000 or an equivalent amount in another currency.",
               "quote_tc": "第(3)(c)款不適用於涉及$8,000以下的款額(或折算為另一貨幣的相同款額)的電傳轉帳。",
@@ -3890,7 +3890,7 @@
             },
             {
               "statement": 2,
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.12(3)(d),(3A)",
               "quote_en": "the recipient’s name; and",
               "quote_tc": "收款人的姓名或名稱；及",
@@ -3898,7 +3898,7 @@
             },
             {
               "statement": 3,
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.12(3)(c),(5)–(7)",
               "quote_en": "the originator’s address, the originator’s customer identification number or identification document number or, if the originator is an individual, the originator’s date and place of birth",
               "quote_tc": "匯款人的地址、匯款人的客戶識別號碼或識別文件號碼或(如匯款人屬一名個人)匯款人的出生日期及地方",
@@ -3906,7 +3906,7 @@
             },
             {
               "statement": 4,
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s.12(5)(b)",
               "quote_en": "the information recorded under subsection (3)(a), (b), (d) and (e) in relation to the transfer.",
               "quote_tc": "包括根據第(3)(a)、(b)、(d)及(e)款就該項轉帳記錄的資料。",
@@ -3940,7 +3940,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "21",
+              "doc": "45",
               "locator": "¶2",
               "quote_en": "The revisions to FATF’s Recommendation 16, agreed in June 2025, will keep pace with changes in the payment landscape",
               "quote_tc": "FATF於2025年6月通過的第16項建議的修訂中，提及將與支付格局的變化同步",
@@ -3948,7 +3948,7 @@
             },
             {
               "statement": 2,
-              "doc": "21",
+              "doc": "45",
               "locator": "¶2",
               "quote_en": "increasing transparency of information that accompanies cross-border payments and requiring the introduction of tools to protect against fraud and error.",
               "quote_tc": "並透過提升跨境支付資訊的透明度，及要求引入防止詐騙及錯誤的工具",
@@ -3956,7 +3956,7 @@
             },
             {
               "statement": 3,
-              "doc": "21",
+              "doc": "45",
               "locator": "¶2",
               "quote_en": "All jurisdictions around the world are expected to be ready to implement the changes by the end of 2030.",
               "quote_tc": "所有的司法區預計需於2030年底前實施相關的變更。",
@@ -3964,7 +3964,7 @@
             },
             {
               "statement": 4,
-              "doc": "21",
+              "doc": "45",
               "locator": "¶3 second bullet",
               "quote_en": "How Recommendation 16 applies to newer payment methods, such as digital wallets and mobile money",
               "quote_tc": "第16項建議如何適用於新興支付方式，如電子錢包與移動支付",
@@ -3972,7 +3972,7 @@
             },
             {
               "statement": 5,
-              "doc": "21",
+              "doc": "45",
               "locator": "¶3 third bullet",
               "quote_en": "Implementing Recommendation 16 and meeting data protection and privacy requirements together.",
               "quote_tc": "落實第16項建議並同時符合資料保護及隱私的要求。",
@@ -3999,199 +3999,199 @@
     "downloads": [
       {
         "language": "EN",
-        "doc": "03",
+        "doc": "05",
         "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Licensing_Guide_en.pdf",
         "sha256": "4aeb27ada3f04608da427833ebd564000c3fe3b788fd1d183a63ca04168005e8",
-        "archive": "docs\\EN\\03_Licensing Guide (May 2026).pdf",
+        "archive": "docs/EN/05_High_Licensing Guide (May 2026).pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "EN",
-        "doc": "02",
+        "doc": "03",
         "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_en.pdf",
         "sha256": "7a7b81ec6880a0e22c1d3e116f1016109dc6b54c33726e6a57fb1cff5d06eabc",
-        "archive": "docs\\EN\\02_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+        "archive": "docs/EN/03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "EN",
-        "doc": "08",
+        "doc": "12",
         "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/disciplinary_action_guidelines_under_s.45_of_amlo_en.pdf",
         "sha256": "6aeee39af0848ac03d989ed2500f6fd8f4947b342fa26b23371d0f51e816a1ca",
-        "archive": "docs\\EN\\08_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf",
+        "archive": "docs/EN/12_Medium-Essential_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "EN",
-        "doc": "09",
+        "doc": "13",
         "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Fining_Guideline_en.pdf",
         "sha256": "c098efdd38e152fd2357942e62958be9c32c3061874a1b0c076daedd5f0bba96",
-        "archive": "docs\\EN\\09_Disciplinary Fining Guideline (May 2018).pdf",
+        "archive": "docs/EN/13_Medium-Essential_Disciplinary Fining Guideline (May 2018).pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "EN",
-        "doc": "04",
+        "doc": "10",
         "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_on_Criteria_for_Determining_FP_en.pdf",
         "sha256": "3d829e7a475c0d6b27cecb9606963d6aae7d3cdf0857902a219502ef42116f38",
-        "archive": "docs\\EN\\04_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf",
+        "archive": "docs/EN/10_Medium-Essential_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "EN",
-        "doc": "05",
+        "doc": "11",
         "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Supplementary_FnP_Guideline_en.pdf",
         "sha256": "cb03247dcc6e9149f5371ad1f3a21fa763e827e1fa8cc6c4697c7a6754c3da38",
-        "archive": "docs\\EN\\05_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf",
-        "binary_equal": true,
-        "text_equal": true
-      },
-      {
-        "language": "EN",
-        "doc": "06",
-        "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_for_Submission_of_Business_Plan_en.pdf",
-        "sha256": "519dadf3e1ec660e3aa50c4669d91ed997712f69551f8f12b02f84d2bd228e9f",
-        "archive": "docs\\EN\\06_Guidelines for Submission of Business Plan (Ver 12-2019).pdf",
-        "binary_equal": true,
-        "text_equal": true
-      },
-      {
-        "language": "EN",
-        "doc": "07",
-        "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_for_Submission_of_AML_Policy_en.pdf",
-        "sha256": "ba9101df763fe866fd27bf377819d45c02c4431576a89fe4bb8aa24e0addcf27",
-        "archive": "docs\\EN\\07_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf",
-        "binary_equal": true,
-        "text_equal": true
-      },
-      {
-        "language": "EN",
-        "doc": "21",
-        "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=496813",
-        "sha256": "068cbb0780c2e51752b136eee5aa3784153a1d551e7fd67a29a605b88897c47c",
-        "archive": "docs\\EN\\21_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf",
+        "archive": "docs/EN/11_Medium-Essential_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "EN",
         "doc": "20",
-        "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=494902",
-        "sha256": "fbc823bdf739af3f02e9336c93c48169c0acd9eb7815274394b7b44bb0d2d6d8",
-        "archive": "docs\\EN\\20_Circular - Statements issued by the FATF (3 Jul 2026).pdf",
+        "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_for_Submission_of_Business_Plan_en.pdf",
+        "sha256": "519dadf3e1ec660e3aa50c4669d91ed997712f69551f8f12b02f84d2bd228e9f",
+        "archive": "docs/EN/20_Medium-Selected_Guidelines for Submission of Business Plan (Ver 12-2019).pdf",
+        "binary_equal": true,
+        "text_equal": true
+      },
+      {
+        "language": "EN",
+        "doc": "21",
+        "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_for_Submission_of_AML_Policy_en.pdf",
+        "sha256": "ba9101df763fe866fd27bf377819d45c02c4431576a89fe4bb8aa24e0addcf27",
+        "archive": "docs/EN/21_Medium-Selected_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf",
+        "binary_equal": true,
+        "text_equal": true
+      },
+      {
+        "language": "EN",
+        "doc": "45",
+        "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=496813",
+        "sha256": "068cbb0780c2e51752b136eee5aa3784153a1d551e7fd67a29a605b88897c47c",
+        "archive": "docs/archive/EN/45_Reference_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "EN",
         "doc": "19",
+        "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=494902",
+        "sha256": "fbc823bdf739af3f02e9336c93c48169c0acd9eb7815274394b7b44bb0d2d6d8",
+        "archive": "docs/EN/19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf",
+        "binary_equal": true,
+        "text_equal": true
+      },
+      {
+        "language": "EN",
+        "doc": "18",
         "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=478776",
         "sha256": "86181d4d0a0990aa7e8a17a489f23ed59e2f9722ba5cb821a381976e45a52c84",
-        "archive": "docs\\EN\\19_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
+        "archive": "docs/EN/18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
+        "binary_equal": true,
+        "text_equal": true
+      },
+      {
+        "language": "TC",
+        "doc": "05",
+        "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Licensing_Guide_zh_TW.pdf",
+        "sha256": "4816c53f7e70e4828d5ff5e78baac6032399d06cdcf5a85c342bce577d643089",
+        "archive": "docs/TC/05_高_牌照指引（2026年5月）.pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "TC",
         "doc": "03",
-        "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Licensing_Guide_zh_TW.pdf",
-        "sha256": "4816c53f7e70e4828d5ff5e78baac6032399d06cdcf5a85c342bce577d643089",
-        "archive": "docs\\TC\\03_牌照指引（2026年5月）.pdf",
-        "binary_equal": true,
-        "text_equal": true
-      },
-      {
-        "language": "TC",
-        "doc": "02",
         "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_zh_TW.pdf",
         "sha256": "8639a9dc8fc4c7dad3ab467db43d69ffe73a4ce156030248dc68c2d8d3cf60bd",
-        "archive": "docs\\TC\\02_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+        "archive": "docs/TC/03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "TC",
-        "doc": "08",
+        "doc": "12",
         "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/disciplinary_action_guidelines_under_s.45_of_amlo_zh_TW.pdf",
         "sha256": "ef8a7be34c1dd1f3b3a1a61a9edf1c14a100a89bdb13d51607c750b02295bdf3",
-        "archive": "docs\\TC\\08_施加罰款紀律行動指引（2018年4月）.pdf",
+        "archive": "docs/TC/12_中重點_施加罰款紀律行動指引（2018年4月）.pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "TC",
-        "doc": "09",
+        "doc": "13",
         "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Fining_Guideline_zh_TW.pdf",
         "sha256": "008b7b72867307ff05ec62eb24377d894c7af956d716c9a4665e4b37287cfc55",
-        "archive": "docs\\TC\\09_紀律處分罰款指引（2018年5月）.pdf",
+        "archive": "docs/TC/13_中重點_紀律處分罰款指引（2018年5月）.pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "TC",
-        "doc": "04",
+        "doc": "10",
         "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_on_Criteria_for_Determining_FP_zh_TW.pdf",
         "sha256": "9c72af5408a3067e402b8886e313a1f801b204898b7bee82341e717f9da6cf85",
-        "archive": "docs\\TC\\04_有關適當人選準則的指引（2018年4月）.pdf",
+        "archive": "docs/TC/10_中重點_有關適當人選準則的指引（2018年4月）.pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "TC",
-        "doc": "05",
+        "doc": "11",
         "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Supplementary_FnP_Guideline_zh_TW.pdf",
         "sha256": "6f2286c0a774fcd78a8fd9f8721b862cde9c09bb499eca6d65a50f3bfd2963dd",
-        "archive": "docs\\TC\\05_有關適當人選準則的補充指引（2020年1月）.pdf",
-        "binary_equal": true,
-        "text_equal": true
-      },
-      {
-        "language": "TC",
-        "doc": "06",
-        "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_for_Submission_of_Business_Plan_zh_TW.pdf",
-        "sha256": "29ceb2225c2a806ae2140c17420077671684dabed6ba2ba255d3bd95d32a52a4",
-        "archive": "docs\\TC\\06_遞交業務計劃的指引（12-2019版）.pdf",
-        "binary_equal": true,
-        "text_equal": true
-      },
-      {
-        "language": "TC",
-        "doc": "07",
-        "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_for_Submission_of_AML_Policy_zh_TW.pdf",
-        "sha256": "4ab95ce206c0e71740f025c90e1195c965e5e54a7b981c9e02d8c945936fed47",
-        "archive": "docs\\TC\\07_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf",
-        "binary_equal": true,
-        "text_equal": true
-      },
-      {
-        "language": "TC",
-        "doc": "21",
-        "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=496814",
-        "sha256": "bd5261a6a3843643bef21bcca572c35e0de5f2c374d79a250bdc5cd46b44794c",
-        "archive": "docs\\TC\\21_通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）.pdf",
+        "archive": "docs/TC/11_中重點_有關適當人選準則的補充指引（2020年1月）.pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "TC",
         "doc": "20",
-        "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=494903",
-        "sha256": "e326d07e4d23a9a47e41df753ac5c58a19b158309c5d25113018e1a6d6ecf948",
-        "archive": "docs\\TC\\20_通函_財務行動特別組織的聲明（2026年7月3日）.pdf",
+        "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_for_Submission_of_Business_Plan_zh_TW.pdf",
+        "sha256": "29ceb2225c2a806ae2140c17420077671684dabed6ba2ba255d3bd95d32a52a4",
+        "archive": "docs/TC/20_中選讀_遞交業務計劃的指引（12-2019版）.pdf",
+        "binary_equal": true,
+        "text_equal": true
+      },
+      {
+        "language": "TC",
+        "doc": "21",
+        "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_for_Submission_of_AML_Policy_zh_TW.pdf",
+        "sha256": "4ab95ce206c0e71740f025c90e1195c965e5e54a7b981c9e02d8c945936fed47",
+        "archive": "docs/TC/21_中選讀_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf",
+        "binary_equal": true,
+        "text_equal": true
+      },
+      {
+        "language": "TC",
+        "doc": "45",
+        "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=496814",
+        "sha256": "bd5261a6a3843643bef21bcca572c35e0de5f2c374d79a250bdc5cd46b44794c",
+        "archive": "docs/archive/TC/45_歷史參考_通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）.pdf",
         "binary_equal": true,
         "text_equal": true
       },
       {
         "language": "TC",
         "doc": "19",
+        "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=494903",
+        "sha256": "e326d07e4d23a9a47e41df753ac5c58a19b158309c5d25113018e1a6d6ecf948",
+        "archive": "docs/TC/19_中重點_通函_財務行動特別組織的聲明（2026年7月3日）.pdf",
+        "binary_equal": true,
+        "text_equal": true
+      },
+      {
+        "language": "TC",
+        "doc": "18",
         "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=478777",
         "sha256": "7133b84028c505ae02340f1120a99600dc577a9c289c6546ecd8bb0edd5c4e29",
-        "archive": "docs\\TC\\19_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf",
+        "archive": "docs/TC/18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf",
         "binary_equal": true,
         "text_equal": true
       }
@@ -4292,7 +4292,7 @@
         "evidence": "Appendix A paragraph 8(e) expressly lists certified public accountant, lawyer, notary public and chartered secretary; TC lists 會計師、律師、公證人及特許秘書. The new statement replaces chartered secretary with company director. Recognising the added director as unsupported does not directly test whether chartered secretary is one of the specified examples. No baseline statement tests chartered secretary. Its appearance only in the deciding quote or correction note does not close this subpoint.",
         "necessary_fix": "Prefer replacing company directors with chartered secretaries in both languages and marking this statement true. This tests the previously untested complete professional examples and also removes A02. Otherwise mark the chartered-secretary subpoint as not directly covered instead of claiming the entire category list is covered.",
         "source": {
-          "doc": "02",
+          "doc": "03",
           "locator": "Appendix A paragraph 8(e), footnotes 75-76",
           "en_lines": [
             5176,
@@ -4318,7 +4318,7 @@
         "evidence": "The intended rule is Guideline paragraph 7.19: an MSO controlling both sides files in affected jurisdictions and makes relevant transaction information available to the Financial Intelligence Unit (E30: TC names 財富情報組). But paragraph 8.2(b) separately requires all CDD information and transaction records to be available swiftly to the CCE, other authorities and auditors upon appropriate authority. The current stem names the whole Guideline and the statement merely says that the MSO should make the transaction information available to the CCE in addition to filing an STR. It does not expressly identify the CCE as the recipient specified by the additional paragraph 7.19 reporting duty. This leaves a defensible reading as the parallel record-availability duty.",
         "necessary_fix": "Keep false but explicitly identify the claimed recipient as the recipient specified by the additional reporting requirement for a suspicious wire transfer controlled at both ends, or say that the CCE replaces the relevant intelligence unit under that requirement. Preserve E30's language-specific intelligence-unit terminology.",
         "source": {
-          "doc": "02",
+          "doc": "03",
           "locators": [
             "paragraph 7.19, second paragraph",
             "paragraph 8.2(b)"
@@ -4341,7 +4341,7 @@
         "evidence": "Appendix A paragraph 8 calls its examples non-exhaustive, and footnote 75 expressly allows other appropriate professional persons as certifiers. The existing wording says the examples of appropriate professional certifiers include company directors, without limiting the claim to examples expressly named in the Guideline. A director with independent, appropriate professional status is not excluded merely by holding a directorship. TC additionally says such persons can certify documents. New statement 4 itself reminds the candidate that the list is non-exhaustive.",
         "necessary_fix": "Preferred: use the true chartered-secretary enumeration described in C01. If retaining false, expressly say the Guideline names company directors in its printed list; do not imply all directors are ineligible.",
         "source": {
-          "doc": "02",
+          "doc": "03",
           "locator": "Appendix A paragraph 8 and footnote 75",
           "en_lines": [
             5168,
@@ -5062,7 +5062,7 @@
             "doc-s2#s2-transfers as-soon-as-reasonably-practicable table"
           ],
           "original_problem": "The intermediary cell began Only in a transfer that is not domestic / 只限非本地電傳轉帳 and joined the incomplete/meaningless-information mitigation limb to the missing-information limb. The time-limit row also merged the two triggers while citing only Schedule 2 s.12(9)-(10). A reader could wrongly carry the geographic limit over to the separate Guideline paragraph 10.18 wording.",
-          "deciding_source": "docs/text/EN/02.txt paragraphs 10.17-10.18 (lines 4903-4923); docs/text/TC/02.txt paragraphs 10.17-10.18 (lines 4643-4661). Paragraph 10.17 says cross-border when requiring missing information to be obtained. Paragraph 10.18 says if accompanying required information is incomplete or meaningless, mitigate as soon as reasonably practicable, without a domestic/cross-border qualifier. Paragraph 10.21 has the corresponding beneficiary mitigation wording.",
+          "deciding_source": "docs/text/EN/03.txt paragraphs 10.17-10.18 (lines 4903-4923); docs/text/TC/03.txt paragraphs 10.17-10.18 (lines 4643-4661). Paragraph 10.17 says cross-border when requiring missing information to be obtained. Paragraph 10.18 says if accompanying required information is incomplete or meaningless, mitigate as soon as reasonably practicable, without a domestic/cross-border qualifier. Paragraph 10.21 has the corresponding beneficiary mitigation wording.",
           "resolution": "Parent split missing-information retrieval from incomplete/meaningless-information mitigation in both languages. The time-limit table now has a statutory missing-information row and a separately cited Guideline paragraph 10.18/10.21 mitigation row. The text explicitly identifies the absence of geographic qualification as the Guideline paragraphs' wording. It does not claim that the statute's intermediary geographic restriction changed.",
           "verified_in": [
             "revision/s2x.py",
@@ -5078,7 +5078,7 @@
             "doc-gl#gl-premises first row"
           ],
           "original_problem": "The first row compressed three Licensing Guide examples into occupy, advertise and regularly control / 佔用、宣傳，並控制. That can be read as three cumulative conditions, whereas the question asks whether advertised premises is one expressly given example.",
-          "deciding_source": "Licensing Guide paragraph 4.4: docs/text/EN/03.txt lines 354-364 introduces Here are some examples before (a)-(c); TC paragraph 4.4 similarly introduces 以下是一些用以經營金錢服務業務的特定處所的例子, including the advertised-premises limb (b).",
+          "deciding_source": "Licensing Guide paragraph 4.4: docs/text/EN/05.txt lines 354-364 introduces Here are some examples before (a)-(c); TC paragraph 4.4 similarly introduces 以下是一些用以經營金錢服務業務的特定處所的例子, including the advertised-premises limb (b).",
           "resolution": "Parent changed both languages to an expressly labelled Examples of particular premises / 特定處所的例子 list with semicolon-separated items. This preserves the source's examples without inventing a new cumulative or necessary-and-sufficient test.",
           "verified_in": [
             "revision/gl.py",
@@ -5192,49 +5192,49 @@
       "evidence": [
         {
           "id": "E01",
-          "doc": "02",
+          "doc": "03",
           "locator": "AML/CFT Guideline ¶10.17; 《打擊洗錢及恐怖分子資金籌集指引》第10.17段",
           "quote_en": "if a cross-border wire transfer is not accompanied by the required originator information or required recipient information, the intermediary institution must as soon as reasonably practicable, obtain the missing information",
           "quote_tc": "如跨境電傳轉帳並無附隨所需匯款人資料或所需收款人資料，中介機構須在合理地切實可行的範圍內，盡快向發出轉帳指示予它的機構，取得有關的遺漏資料。"
         },
         {
           "id": "E02",
-          "doc": "02",
+          "doc": "03",
           "locator": "AML/CFT Guideline ¶10.18; 《打擊洗錢及恐怖分子資金籌集指引》第10.18段",
           "quote_en": "is incomplete or meaningless, it must as soon as reasonably practicable take reasonable measures to mitigate the risk of ML/TF involved.",
           "quote_tc": "如中介機構察覺到附隨於電傳轉帳看來是所需匯款人資料或所需收款人資料並不完整，或不具意義，它須在合理地切實可行的範圍內，盡快採取合理措施，減低所涉的洗錢／恐怖分子資金籌集的風險。"
         },
         {
           "id": "E03",
-          "doc": "02",
+          "doc": "03",
           "locator": "AML/CFT Guideline ¶10.19(a); 《打擊洗錢及恐怖分子資金籌集指引》第10.19(a)段",
           "quote_en": "taking reasonable measures (e.g. post-event monitoring) to identify domestic or cross-border wire transfers that lack required originator information or required recipient information;",
           "quote_tc": "採取合理措施（例如事後監察），以識辨欠缺所需匯款人資料或所需收款人資料的本地或跨境電傳轉帳；"
         },
         {
           "id": "E04",
-          "doc": "02",
+          "doc": "03",
           "locator": "AML/CFT Guideline ¶10.20; 《打擊洗錢及恐怖分子資金籌集指引》第10.20段",
           "quote_en": "if a domestic or cross-border wire transfer is not accompanied by the required originator information or required recipient information, the beneficiary institution must as soon as reasonably practicable, obtain the missing information",
           "quote_tc": "如本地或跨境電傳轉帳並無附隨所需匯款人資料或所需收款人資料，"
         },
         {
           "id": "E05",
-          "doc": "02",
+          "doc": "03",
           "locator": "AML/CFT Guideline ¶10.21; 《打擊洗錢及恐怖分子資金籌集指引》第10.21段",
           "quote_en": "If the beneficiary institution is aware that the accompanying information that purports to be the required originator information or required recipient information is incomplete or meaningless,",
           "quote_tc": "如收款機構察覺到附隨於電傳轉帳看來是所需匯款人資料或所需收款人資料並不完整，或不具意義，它須在合理地切實可行的範圍內，盡快採取合理措施，減低所涉的洗錢／恐怖分子資金籌集的風險。"
         },
         {
           "id": "E06",
-          "doc": "10",
+          "doc": "04",
           "locator": "AMLO Schedule 2 s.12(10) opening; 《打擊洗錢條例》附表2第12(10)條款首",
           "quote_en": "Where a financial institution is a beneficiary institution or an intermediary institution in a wire transfer that is not a domestic wire transfer—",
           "quote_tc": "如金融機構在並非本地電傳轉賬的電傳轉賬中屬收款機構或中介機構，則"
         },
         {
           "id": "E07",
-          "doc": "10",
+          "doc": "04",
           "locator": "AMLO Schedule 2 s.12(9) opening and s.12(9)(a); 《打擊洗錢條例》附表2第12(9)條款首及12(9)(a)條",
           "quote_en": "Where a financial institution is a beneficiary institution in a domestic wire transfer—",
           "quote_tc": "如金融機構在本地電傳轉賬中屬收款機構，則",
@@ -5243,7 +5243,7 @@
         },
         {
           "id": "E08",
-          "doc": "10",
+          "doc": "04",
           "locator": "AMLO Schedule 2 s.12(3)(b); 《打擊洗錢條例》附表2第12(3)(b)條",
           "quote_en": "the number of the originator’s account maintained with the financial institution and from which the money for the wire transfer is paid",
           "quote_tc": "該匯款人在該機構開立的戶口( 該戶口為電傳轉賬所付金錢的來源) 的號碼，",
@@ -5260,7 +5260,7 @@
           "reviewed_file_sha256": "f9eee1c395f0d8e1af7f7a6b88b5c20259b65966a9e78756ab0a6f8df34cf043",
           "review_date": "2026-10-18",
           "reviewer": "coverage_licensing",
-          "scope": "第184–185行首格的EN/TC特定处所例子列表；一并阅读第178–193行的经营处所语境及访客／顾客例外。依据为归档doc03 EN/TC《牌照指引》第4.4段，未作整份gl.py全面审核。",
+          "scope": "第184–185行首格的EN/TC特定处所例子列表；一并阅读第178–193行的经营处所语境及访客／顾客例外。依据为归档doc05 EN/TC《牌照指引》第4.4段，未作整份gl.py全面审核。",
           "status": "pass",
           "conclusion": "修改准确。英、繁中均明确标为特定处所的例子，再以分号分隔第4.4(a)、(b)、(c)段的三项原有例子；没有把它们写成须同时满足的三个条件，也没有新增“任何一项即足够”等充分条件判断。三项内容及招牌、业主／租户限定均有对应原文；紧邻下一行保留仅属访客或顾客的例外。",
           "english_chinese_consistent": true,
@@ -5268,28 +5268,28 @@
           "evidence": [
             {
               "id": "GL01",
-              "doc": "03",
+              "doc": "05",
               "locator": "Licensing Guide ¶4.4 introductory words; 《牌照指引》第4.4段引言",
               "quote_en": "Here are some examples of particular premises to operate a money service business:",
               "quote_tc": "以下是一些用以經營金錢服務業務的特定處所的例子："
             },
             {
               "id": "GL02",
-              "doc": "03",
+              "doc": "05",
               "locator": "Licensing Guide ¶4.4(a); 《牌照指引》第4.4(a)段",
               "quote_en": "the premises are occupied for operating a money service there;",
               "quote_tc": "該處所被佔用作經營金錢服務的處所；"
             },
             {
               "id": "GL03",
-              "doc": "03",
+              "doc": "05",
               "locator": "Licensing Guide ¶4.4(b); 《牌照指引》第4.4(b)段",
               "quote_en": "the premises are advertised (including a signboard on display) for meeting customers there;",
               "quote_tc": "該處所被宣傳（包括展示招牌）為用作會見客戶的處所；"
             },
             {
               "id": "GL04",
-              "doc": "03",
+              "doc": "05",
               "locator": "Licensing Guide ¶4.4(c); 《牌照指引》第4.4(c)段",
               "quote_en": "the premises are regularly controlled by the licensee, i.e. being a landlord or a tenant.",
               "quote_tc": "該處所經常受到持牌人的控制，即以業主或租戶的身分。"

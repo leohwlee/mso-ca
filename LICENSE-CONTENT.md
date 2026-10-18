@@ -44,12 +44,23 @@ the file. If you redistribute `mso-ca.html`, that comment must stay.
 
 ## 3 · The official documents — not licensed here
 
-`docs/EN/` and `docs/TC/` — 23 publications of the Government of the Hong Kong
-Special Administrative Region, and the Anti-Money Laundering and Counter-
-Terrorist Financing Ordinance as published on Hong Kong e-Legislation. The same
+`docs/EN/` and `docs/TC/` hold the official reading materials listed in the
+focused reading directory, including HKSAR Government publications, legislation and
+official webpage extracts, and the joint FATF/Egmont trade-based money
+laundering risk indicators. Copyright in the latter remains with FATF/OECD
+and Egmont Group; its original notice is retained in the PDF. The same
 goes for their text as extracted into `docs/text/`, and for the passages from
 them in `docs/quotes.json`. The script that extracts the text,
 `docs/extract_text.py`, is code and falls under part 1.
+
+The two retained companion laws also sit in `docs/EN/` and `docs/TC/`.
+`docs/archive/` preserves materials removed from daily reading, including
+the other independently numbered companion publications under
+`docs/archive/EN/`, `TC/`, `BI/` and `ZH/`:
+FATF guidance and consultation drafts, UN resolutions, Customs manuals and an
+official PRC Government webpage. Their original notices remain in the files;
+rights remain with the respective publishers. The same applies to the companion
+text extracts. These materials are not covered by this repository's MIT licence.
 
 **These are not the author's work and are not covered by any licence in this
 repository.** They are reproduced for study reference only, as

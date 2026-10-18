@@ -1,128 +1,74 @@
-# Official source documents
+# MSO focused reading directory
 
-[繁體中文版 →](README.zh-Hant.md)
+[繁體中文 →](README.zh-Hant.md)
 
-The 23 documents the question bank and the revision pack are written from, in
-English (`EN/`) and Traditional Chinese (`TC/`). The same number denotes the
-same document in both languages. All were downloaded from the official sources
-listed below (the C&ED Money Service Operators Licensing System portal, and Hong
-Kong e-Legislation for the Ordinance), and were checked as a full set against the portal
-on 24 September 2026 (the Ordinance on 28 September 2026).
+**26 daily publications, continuously numbered 01–26.** Companions each have their own number. Originals are directly in [TC](TC/) and [EN](EN/), 26 files per folder. Both bilingual laws are copied into both folders.
 
-On 17 October 2026, the EN and TC PDFs for 02–09 and 19–21 were
-re-downloaded and matched the archives byte for byte; substantive FAQ passages
-also matched the official page. Other documents retain their original check
-dates. The current Ordinance page was blocked by a client-configuration check,
-so this update continues to use the archived consolidated text above.
+Filename order is 01–09 High → 10–19 Medium Essential → 20–26 Medium Selected, without gaps or separate source IDs. Circular 16 is followed by the full Cap. 34 as 17; circular 22 is followed by the full Cap. 629 as 23. Reference publications continue as 27–47 under archive.
 
-On 18 October 2026, all 42 language editions of the 21 PDF sources other
-than Ordinance 10 were re-downloaded and matched the archives byte for byte.
-The substantive FAQ text also matched. Sources 01 and 23 were checked via the
-current licensing/capacity-building pages, distinguishing the sample paper from
-its announcement. The Ordinance page remains blocked by the client check; its
-latest version was not verified. Image-only fields in source 16 were manually
-transcribed, independently checked and bound to the PDF version in
-`transcripts/16.json`; extraction adds them to their own pages.
+**Master 03, 04 and 05 first:** the AML/CFT Guideline, Cap. 615 and Licensing Guide. Skim 01-02 for exam setup and examples; use 06-09 for application and specific expectations. After High, finish Medium Essential before selecting weaker topics from Medium Selected.
 
-Documents 01–09 are the Guidance Notes and the guidelines, 10 is the
-Ordinance, 11–21 are the circulars still in force, oldest first, 22 is the FAQ
-page and 23 is the official sample paper. The Guidance Notes ¶6.1 name five
-reference sources for the assessment and item (5) is "Circulars issued by C&ED
-to MSOs", so the circulars are examinable.
+Basis: [official Guidance Notes, paragraphs 5.2-6.1](https://eservices.customs.gov.hk/MSOS/download/licensing/Guidance_Notes_on_the_Competence_Assessment_for_Money_Service_Operators_en.pdf). The seven-module syllabus includes law, core and other guidelines, and circulars. These are study recommendations, not official exam weights.
 
-Only current documents belong here: a circular whose content a later official
-document now covers is superseded, and is removed. The FATF-statement circulars
-replace one another after each FATF plenary, so only the latest, 20, is kept.
-The UN-sanctions notices are left out: each announces one change to a sanctions
-list, and the examinable rules on screening are in 02 ch. 6. The numbers 01–23
-date from 24 September 2026; earlier commits number the documents differently.
+21 of the 47 publications have been removed from daily reading: covered extracts, old notices, repeat training, historical resolutions and lower-priority extensions. See [the decisions and reasons](archive/README.md). Originals and question evidence remain. Archiving does not establish withdrawal or exam exclusion; existing questions may still cite archived circulars.
 
-| # | Document (`EN/`) | Version | Source |
+## 01–09 · High priority
+
+| Number | Publication and original | What it is | Reading focus |
 |---|---|---|---|
-| 01 | Guidance Notes on the Competence Assessment | Dec 2022 | MSOS portal, licensing downloads |
-| 02 | Guideline on AML/CFT for Money Service Operators | Jun 2023 | MSOS portal, guidelines |
-| 03 | Licensing Guide | May 2026 | MSOS portal, guidelines |
-| 04 | Guideline on Criteria for Determining Fitness and Propriety | Apr 2018 | MSOS portal, guidelines |
-| 05 | Supplementary Guideline on Fitness and Propriety | Jan 2020 | MSOS portal, guidelines |
-| 06 | Guidelines for Submission of Business Plan | Ver 12-2019 | MSOS portal, guidelines |
-| 07 | Guidelines for Submission of AML/CFT Policy | Ver 12-2019 | MSOS portal, guidelines |
-| 08 | Disciplinary Action Guideline on Pecuniary Penalty | Apr 2018 | MSOS portal, guidelines |
-| 09 | Disciplinary Fining Guideline | May 2018 | MSOS portal, guidelines |
-| 10 | Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615 (consolidated) | as at 24 Sep 2026 | e-Legislation, verified copy |
-| 11 | Circular: Cross-boundary Movement of Currency Ordinance, Cap. 629 (MSSB/MIS_06/2018) | 31 Jul 2018 | MSOS portal, circulars |
-| 12 | Circular: ML/TF Risks of Delivery Channels (MSSB/MIS_05/2021) | 13 Dec 2021 | MSOS portal, circulars |
-| 13 | Circular: Supervisory Findings on Customer Due Diligence (MSSB/MIS_03/2023) | 22 Nov 2023 | MSOS portal, circulars |
-| 14 | Circular: ML/TF Risks of Third Party Payments (MSSB/MIS_01/2024) | 17 Sep 2024 | MSOS portal, circulars |
-| 15 | Circular: Fraudulent Websites and Social Media Platforms related to MSOs (MSSB/MIS_01/2025) | 24 Apr 2025 | MSOS portal, circulars |
-| 16 | Circular: E-submission of the Periodic Return (MSSB/MIS_02/2025) | 30 May 2025 | MSOS portal, circulars |
-| 17 | Circular: E-form Submission for Passenger Information (Currency and Bearer Negotiable Instruments) (MSSB/MIS_03/2025) | 23 Jun 2025 | MSOS portal, circulars |
-| 18 | Circular: Amendments to the Money Changers Ordinance, Cap. 34 (MSSB/MIS_04/2025) | 17 Nov 2025 | MSOS portal, circulars |
-| 19 | Circular: Trade-based Money Laundering Guidance (MSSB/MIS_01/2026) | 20 Jan 2026 | MSOS portal, circulars |
-| 20 | Circular: Statements issued by the FATF (MSSB/FATF_02/2026) — the latest FATF statement | 3 Jul 2026 | MSOS portal, circulars |
-| 21 | Circular: FATF public consultation on guidance to increase payment transparency (MSSB/FATF_03/2026) | 16 Jul 2026 | MSOS portal, circulars |
-| 22 | FAQ applicable to all MSOs — the portal page itself (`.md`, not a PDF) | as at 8 Dec 2022 | MSOS portal, FAQs page |
-| 23 | Competence Assessment — Sample Questions (MSSB/CA_01/2021) | 12 May 2021 | MSOS portal, circulars |
+| <a id="doc-01"></a><a id="related-01"></a>01 | [Guidance Notes on the Competence Assessment (Dec 2022)](<EN/01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf>) | Assessment rules and syllabus. | Read sections 5-7, passing rules and attendance arrangements first. |
+| <a id="doc-02"></a><a id="related-02"></a>02 | [Competence Assessment - Sample Questions (12 May 2021) · MSSB/CA_01/2021](<EN/02_High_Competence Assessment - Sample Questions (12 May 2021).pdf>) | Seven official sample questions. | Attempt first, understand every statement, then repeat after the core reading. |
+| <a id="doc-03"></a><a id="related-03"></a>03 | [Guideline on AML-CFT for Money Service Operators (Jun 2023)](<EN/03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf>) | The principal AML/CFT operating guideline for MSOs. | Study chapters 1-11 and Appendix A, including all control areas and remittance rules. |
+| <a id="doc-04"></a><a id="related-04"></a>04 | [AMLO Cap 615 - Consolidated (24 Sep 2026)](<EN/04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf>) | The statutory text of AMLO, Cap. 615. | Read Parts 1-7 and the Schedules; focus on MSO licensing, supervision, sanctions, review and Schedule 2. |
+| <a id="doc-05"></a><a id="related-05"></a>05 | [Licensing Guide (May 2026)](<EN/05_High_Licensing Guide (May 2026).pdf>) | Licensing, renewal and continuing operating requirements. | Read exemptions, procedures, premises, local management office, personnel and returns. |
+| <a id="doc-06"></a><a id="related-06"></a>06 | [FAQ applicable to all MSOs (C&ED portal)](<EN/06_High_FAQ applicable to all MSOs (C&ED portal).md>) | Official FAQs on AML/CFT and licence applications. | Read practical identity, ownership, representative and non-face-to-face cases alongside the current rules. |
+| <a id="doc-07"></a><a id="related-07"></a>07 | [Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023) · MSSB/MIS_03/2023](<EN/07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf>) | Supervisory findings on customer due diligence. | Read the deficiencies, expected standards and good practices for risk, ownership, screening and authority. |
+| <a id="doc-08"></a><a id="related-08"></a>08 | [Circular - ML-TF Risks of Third Party Payments (17 Sep 2024) · MSSB/MIS_01/2024](<EN/08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf>) | Risks and controls for third-party payments. | Study acceptance, approval, identity, relationships, funds, monitoring, records and reporting. |
+| <a id="doc-09"></a><a id="related-09"></a>09 | [Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021) · MSSB/MIS_06/2021](<EN/09_High_Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021).pdf>) | Institutional proliferation-financing risk assessment and mitigation. | Read in full with guideline chapters 2 and 6, including review of existing business and customers. |
 
-The Traditional Chinese editions in `TC/` carry the same numbers.
+## 10–19 · Medium essential
 
-`text/` holds the text of every document in both languages, extracted by
-[`extract_text.py`](extract_text.py). `quotes.json` holds, for every statement in
-the bank and each language, the passage of a cited document that decides its
-truth, copied word for word from that text. The tests check each quote against
-the text, and the text against the documents here, so after adding or replacing
-a document run `python docs/extract_text.py` (it needs PyMuPDF).
+| Number | Publication and original | What it is | Reading focus |
+|---|---|---|---|
+| <a id="doc-10"></a><a id="related-10"></a>10 | [Guideline on Criteria for Determining Fitness and Propriety (Apr 2018)](<EN/10_Medium-Essential_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf>) | Criteria for fitness and propriety. | Read with the supplement; distinguish adverse factors from automatic exclusions. |
+| <a id="doc-11"></a><a id="related-11"></a>11 | [Supplementary Guideline on Fitness and Propriety (Jan 2020)](<EN/11_Medium-Essential_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf>) | Supplementary fitness and propriety criteria. | Read competence, integrity, business intent, consumer interests and continuing compliance. |
+| <a id="doc-12"></a><a id="related-12"></a>12 | [Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018)](<EN/12_Medium-Essential_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf>) | Pecuniary penalties for licensing and operating breaches. | Read with AMLO sections 43 and 45; distinguish from disciplinary fining. |
+| <a id="doc-13"></a><a id="related-13"></a>13 | [Disciplinary Fining Guideline (May 2018)](<EN/13_Medium-Essential_Disciplinary Fining Guideline (May 2018).pdf>) | Disciplinary fining for specified AML/CFT breaches. | Read with sections 21 and 23: seriousness, deterrence, remediation, cooperation and history. |
+| <a id="doc-14"></a><a id="related-14"></a>14 | [Circular - ML-TF Risks of Delivery Channels (13 Dec 2021) · MSSB/MIS_05/2021](<EN/14_Medium-Essential_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf>) | Risks arising from delivery channels and counterparties. | Read pre-engagement assessment, periodic review and suspicious transaction follow-up. |
+| <a id="doc-15"></a><a id="related-15"></a>15 | [Circular - E-submission of the Periodic Return (30 May 2025) · MSSB/MIS_02/2025](<EN/15_Medium-Essential_Circular - E-submission of the Periodic Return (30 May 2025).pdf>) | Electronic periodic returns, reporting periods and data fields. | Study half-yearly submission, periods, electronic format and required fields. |
+| <a id="doc-16"></a><a id="related-16"></a>16 | [Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025) · MSSB/MIS_04/2025](<EN/16_Medium-Essential_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf>) | Notice of amendments to the Money Changers Ordinance. | Read the short circular, then sections 3-8 and Schedules 1-3 in the full Ordinance, item 17. |
+| <a id="doc-17"></a><a id="related-17"></a>17 | [Full Money Changers Ordinance, Cap. 34](<EN/17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf>) · Companion to 16 | Complete Cap. 34, including sections 1-11 and Schedules 1-3; companion to circular 16. | Bilingual verified full text dated 24 August 2025. Focus on sections 3-8 and Schedules 1-3, which include the archived extract in item 30. Use printed legislative page labels rather than PDF page counts. |
+| <a id="doc-18"></a><a id="related-18"></a>18 | [Circular - Trade-based Money Laundering Guidance (20 Jan 2026) · MSSB/MIS_01/2026](<EN/18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf>) | Trade-based money laundering risks and controls. | Read customer and funding checks, warning signs, analysis and reporting; then select relevant indicators from item 24. |
+| <a id="doc-19"></a><a id="related-19"></a>19 | [Circular - Statements issued by the FATF (3 Jul 2026) · MSSB/FATF_02/2026](<EN/19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf>) | FATF statements on high-risk and monitored jurisdictions. | Learn the different responses and check for a newer statement before the exam. |
 
-## Which documents each module is examined from
+## 20–26 · Medium selected
 
-Guidance Notes ¶5.2 name the seven modules; ¶6.1 names five categories of
-reference material, but neither says which category feeds which module. The
-mapping below is derived from the bank itself — every citation in
-[`web/questions.json`](../web/questions.json) resolved to the document it names,
-by the numbers used in the table above. A question may cite two documents, so
-the per-document figures can sum above the module total.
+| Number | Publication and original | What it is | Reading focus |
+|---|---|---|---|
+| <a id="doc-20"></a><a id="related-20"></a>20 | [Guidelines for Submission of Business Plan (Ver 12-2019)](<EN/20_Medium-Selected_Guidelines for Submission of Business Plan (Ver 12-2019).pdf>) | Required contents of a business plan. | Understand the business model, customers, jurisdictions, funds, staff, agents and outsourcing. |
+| <a id="doc-21"></a><a id="related-21"></a>21 | [Guidelines for Submission of AML-CFT Policy (Ver 12-2019)](<EN/21_Medium-Selected_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf>) | Required contents of an AML/CFT policy. | Use as a checklist for risk assessment, compliance, reporting, training, monitoring and audit. |
+| <a id="doc-22"></a><a id="related-22"></a>22 | [Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018) · MSSB/MIS_06/2018](<EN/22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf>) | Summary of cross-boundary currency and bearer instrument requirements. | Distinguish thresholds, arrival/departure, passengers and cargo. |
+| <a id="doc-23"></a><a id="related-23"></a>23 | [Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629](<EN/23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf>) · Companion to 22 | Complete Cap. 629, including Parts 1-4 and Schedules 1-6; companion to circular 22. | Bilingual verified copy dated 31 July 2026, including Parts 1-4 and Schedules 1-6. Read definitions, passenger/cargo declaration and disclosure duties and the Schedule 4 threshold alongside the circular. Check control points against Schedule 1 of this edition. Use section numbers and printed legislative page labels when citing. |
+| <a id="doc-24"></a><a id="related-24"></a>24 | [Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021)](<EN/24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf>) | Joint FATF/Egmont trade-based money laundering risk indicators. | Read the handling notes and four indicator groups; understand rather than memorise the lists. |
+| <a id="doc-25"></a><a id="related-25"></a>25 | [Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022)](<EN/25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf>) | Hong Kong territory-wide and sectoral risk assessment. | Focus on section 5.4 and MSO cases; selectively read TF and PF chapters. |
+| <a id="doc-26"></a><a id="related-26"></a>26 | [Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018) · MSSB/SAN_01/2018](<EN/26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf>) | Principles of UN sanctions screening and early alerts. | Read alongside guideline chapter 6, including sanctions not yet implemented locally. |
 
-| Module | Source documents (questions citing each) | Questions |
-|---|---|---|
-| **1** General knowledge on AML/CFT and counter-proliferation financing | **01** (1) · **02** (23) · **10** (2) · **11** (2) · **14** (2) · **15** (1) · **17** (1) · **18** (1) · **19** (2) · **20** (2) · **21** (1) · **22** (1) | 32 |
-| **2** Parts 1–7 of the AMLO | **10** (53) · **22** (1) · **23** (1) | 53 |
-| **3** Schedules to the AMLO | **02** (2) · **10** (43) · **23** (1) | 43 |
-| **4** Guidelines promulgated by the C&ED | **01** (10) · **03** (29) · **04** (1) · **05** (5) · **06** (5) · **07** (4) · **08** (4) · **09** (5) · **10** (2) · **16** (3) · **22** (1) · **23** (1) | 59 |
-| **5** Systems and controls (i): institutional governance and strategy | **02** (55) · **07** (1) · **10** (1) · **12** (1) · **23** (1) | 56 |
-| **6** Systems and controls (ii): AML/CFT control areas | **02** (62) · **10** (5) · **12** (2) · **13** (5) · **14** (7) · **22** (26) · **23** (1) | 74 |
-| **7** Systems and controls (iii): demonstrating and monitoring compliance | **02** (40) · **22** (1) · **23** (2) | 40 |
+## Online reading still required
 
-The current bank includes all seven samples from **23**, plus the sample in
-**01** ¶7.1. **22**, the FAQ, is cited by 30 questions: 1 in module 1, 1 in module 2, 1 in module 4, 26 in module 6, 1 in module 7. The figures above describe the active bank, excluding
-retired questions preserved in Git history.
+The two FATF statements dated 19 June 2026 and June plenary outcomes linked by item 19 still have no complete local copies. Check for newer lists before the exam.
 
-Two of these are worth singling out. **23** is the only set of sample questions
-C&ED has ever published, and it settles what the paper looks like: seven items,
-each a stem with four numbered statements and the five fixed options `a) 1, 2
-and 3 b) 1, 2 and 4 c) 2, 3 and 4 d) 1, 3 and 4 e) All of the above`. Guidance
-Notes ¶7.1 carries an eighth in the same family, with five statements and a
-different fixed block. **22** is not a PDF: the FAQ exists only as a page on the
-portal, so the page itself is archived as Markdown. It holds two series — “FAQ
-applicable to all Money Service Operators”, 28 questions on the AML/CFT
-Guideline, each answer closing with a Key Reference naming the paragraph it
-elaborates, and “FAQ in Application for an MSO Licence”, 15 on licence
-application, which carry no such reference. Both series serve as question material; the licensing FAQ also supports
-questions on exemptions, related persons and procedural roles.
+- 19 · [High-Risk Jurisdictions subject to a Call for Action](https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/call-for-action-june-2026.html)
+- 19 · [Jurisdictions under Increased Monitoring](https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-june-2026.html)
+- 19 · [Outcomes FATF Plenary, 17-19 June 2026](https://www.fatf-gafi.org/en/publications/Fatfgeneral/outcomes-fatf-plenary-june-2026.html)
+- 22 · [Official CBNI information page](https://www.customs.gov.hk/en/service-enforcement-information/anti-money-laundering/cds/index.html)
+- 26 · [Current UN sanctions committee information](https://main.un.org/securitycouncil/en/sanctions/information)
 
-Live pages to re-check for newer editions, for the next FATF statement (which
-replaces 20), and for the UN-sanctions notices (deliberately not archived here):
+## Use and maintenance
 
-- FAQs: <https://eservices.customs.gov.hk/MSOS/common/faqs>
-- Guidelines: <https://eservices.customs.gov.hk/MSOS/common/guidelines>
-- Circulars: <https://eservices.customs.gov.hk/MSOS/common/circulars>
-- The Ordinance: <https://www.elegislation.gov.hk/hk/cap615>
+Item 24 gives the English original in TC, explicitly marked as such. Item 30 is a reference extract; use the full Cap. 34 in item 17.
 
-These documents are publications of the Government of the Hong Kong Special
-Administrative Region and are reproduced here for study reference only.
+Although independently numbered, the two full laws are not automatically bank sources. Question IDs, wording and answers are unchanged; document references have been renumbered together. All 23 original bank sources remain tracked, including archived circulars.
 
-They are **not covered by the licences that apply to the rest of this
-repository** — see [LICENSE-CONTENT.md](../LICENSE-CONTENT.md). The MIT licence
-on the rest of the repository grants no rights in them, because they are not the
-author's to grant. If you redistribute this repository
-or reuse the bank commercially, satisfy yourself about the terms on which these
-documents may be copied; every one is available from the official sources listed
-above.
+[Source maintenance](SOURCE-MAINTENANCE.md) · [Question source mapping](QUESTION-SOURCES.md) · [Complete register](catalog.json)
+
+Rights remain with the publishers; the repository MIT licence does not license their texts. See [content licensing](../LICENSE-CONTENT.md).

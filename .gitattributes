@@ -1,0 +1,2 @@
+# Preserve downloaded official HTML bytes so recorded source hashes stay valid.
+docs/**/*.html -text

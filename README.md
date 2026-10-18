@@ -53,10 +53,17 @@ To build from source or cut a release, see [DEVELOPMENT.md](DEVELOPMENT.md).
 
 ## The content
 
-The revision pack and the mock exam are written from the 23 archived official
-documents in [`docs/`](docs/README.md), which also maps each module to its
-sources. Every point cites its section or paragraph, so you can check it against
-the source.
+The revision pack and mock exam use the original 23 official sources. The
+[`reading directory`](docs/README.md) selects 26 publications for daily reading,
+directly in the language folders, with companion laws beside their circulars.
+Medium priority distinguishes essential and selected reading; 21 publications
+remain in the reference archive with selection reasons. Additions are not yet in the
+question-bank coverage review. Every taught point cites its section or paragraph.
+
+Daily publications and companions use continuous numbers 01–26: High 01–09,
+Medium Essential 10–19, Medium Selected 20–26. Reference publications continue
+as 27–47. These numbers also identify quotes and extracted text; no second
+source ID is maintained.
 
 | File | What's inside | Organised by |
 |---|---|---|

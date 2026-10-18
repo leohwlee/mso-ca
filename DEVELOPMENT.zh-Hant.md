@@ -44,10 +44,12 @@ python -m http.server 8321 -d web      # 或：開發時在本機提供 web/
 
 ### 撰寫題目
 
+改題或維護來源前，先讀[來源維護說明](docs/SOURCE-MAINTENANCE.zh-Hant.md)。全庫只用文件閱讀順序作編號：下例的`EN 03`、檔名前綴03及引文`"doc": "03"`均指反洗錢指引。檔名、官方來源及現行位置記在`docs/catalog.json`的`editions.path`。日常資料夾精選26項，移出來源保留於`docs/archive`，接續編為27–47；日常26項連配套文件統一連續編為01–26。原有23份題庫來源的引用核驗保留；其餘新增原件尚未納入既有題庫覆蓋審核。改來源或檔名後，執行`python docs/build_catalog.py --check`。
+
 題目先寫成補丁（patch），檢查無誤後才併入題庫，所用工具在 [`bank/`](bank/)（Python 3，只需標準程式庫）：
 
 ```bash
-python bank/find.py EN 02 "target market"        # 在來源文件中找一段文字，連頁碼及上下文
+python bank/find.py EN 03 "target market"        # 在來源文件中找一段文字，連頁碼及上下文
 python bank/apply.py next 3 15                   # 單元三接下來未用的題號
 python bank/apply.py check patch.json            # 檢查補丁
 python bank/apply.py apply patch.json            # 產生選項，併入題庫及引文
@@ -73,7 +75,7 @@ git show v1.7.5:docs/quotes.json
 
 其後替換的`m3-261` → `m3-322`及`m1-142` → `m1-177`，原題及引文另保存於[實施記錄](bank/audit/implementation.json)。覆蓋報告保留原審核基線，並以現行題句核驗補題結果；請用Python執行`bank/audit/report.py --check`、`bank/audit/terms_report.py --check`、`bank/audit/p1_report.py --check`及`bank/audit/remaining_report.py --check`，CI亦執行這四項。後續P1補題及最終盲答另見[P1實施記錄](bank/audit/p1-implementation.json)，不會改寫前輪審核歷史。
 
-最後一輪P2／P3補題及12道原題的擴寫替換見[最終記錄](bank/audit/remaining-implementation.json)。新增保留12個退役題號後，合共1,523個。核驗程式逐輪還原舊題庫，並將盲答綁定最終題句。通函16圖內欄位的人工轉錄在`docs/transcripts/16.json`，已獨立核對並綁定PDF摘要；抽取程式把文字加入原頁。PDF變更後須重查轉錄，來源測試會拒絕過期綁定。
+最後一輪P2／P3補題及12道原題的擴寫替換見[最終記錄](bank/audit/remaining-implementation.json)。新增保留12個退役題號後，合共1,523個。核驗程式逐輪還原舊題庫，並將盲答綁定最終題句。通函15圖內欄位的人工轉錄在`docs/transcripts/15.json`，已獨立核對並綁定PDF摘要；抽取程式把文字加入原頁。PDF變更後須重查轉錄，來源測試會拒絕過期綁定。
 
 編號來源文件、擷取文字、撰寫指南及來源矛盾決定冊仍用於出題及核對，應繼續保留。
 

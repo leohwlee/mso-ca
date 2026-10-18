@@ -27,6 +27,7 @@ jobs:
         run: |
           go vet ./...
           go test ./...
+          python3 docs/build_catalog.py --check
           python3 bank/audit/report.py --check
           python3 bank/audit/terms_report.py --check
           python3 bank/audit/p1_report.py --check

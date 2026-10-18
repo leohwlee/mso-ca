@@ -28,6 +28,7 @@ def table(headers, rows):
         '| ' + ' | '.join(cell(c) for c in row) + ' |' for row in rows]
 
 def validate(d):
+    source_ids = {d['id'] for d in json.loads((ROOT/'docs/catalog.json').read_text(encoding='utf8'))['documents'] if d['original_bank_source']}
     state = load_state()
     for path, sha in d['snapshot']['sha256'].items():
         verify_hash(path, sha, state)
@@ -35,17 +36,17 @@ def validate(d):
     baseline = (state['implementation'] or {}).get('baseline')
     assert (baseline['questions'] if baseline else len(bank)) == d['snapshot']['questions']
     assert (baseline['statements'] if baseline else sum(len(q['truth']) for q in bank)) == d['snapshot']['statements']
-    assert {s['doc'] for s in d['source_accounting']} == {f'{i:02}' for i in range(1, 24)}
+    assert {s['doc'] for s in d['source_accounting']} == source_ids
     rows = {r['id']: r for r in d['rows']}
     assert len(rows) == len(d['rows'])
-    texts = {(l, f'{i:02}'): norm((ROOT / f'docs/text/{l}/{i:02}.txt').read_text(encoding='utf8'))
-             for l in ['EN', 'TC'] for i in range(1, 24)}
+    texts = {(l, num): norm((ROOT / f'docs/text/{l}/{num}.txt').read_text(encoding='utf8'))
+             for l in ['EN', 'TC'] for num in source_ids}
     quote_count = evidence_count = 0
     for r in d['rows']:
         assert r['status'] in STATUS and r['category'] in CATEGORIES, r['id']
         assert r['source_units'], r['id']
         for s in r['source_units']:
-            assert s['doc'] in {f'{i:02}' for i in range(1, 24)} and s['locator'] and s['points'], r['id']
+            assert s['doc'] in source_ids and s['locator'] and s['points'], r['id']
         if r['status'] in ['partial', 'missing']:
             assert r['untested'], r['id']
         if r['status'] == 'covered':
@@ -143,7 +144,7 @@ def render(d, v):
         for i,line in enumerate(lines):
             if line.startswith('其他记录中的 P2／P3'):lines[i]='P1/P2专项缺口已落实；剩余P3细节保留在下面。总体审核另有一般流程和条件例外缺口，**不得把两张清单的数量相加**。'
             elif line.startswith('共 ') and '行来源映射' in line:lines[i]=line.replace('共 ', '原审核基线共 ',1).replace('是当前文件中的句序','是对应快照中的句序')
-            elif line.startswith('保留限制：'):lines[i]='保留限制：仍以既定23份归档为范围。2026年10月17日重新下载02–09、19–21的双语文件，均与归档完全一致；FAQ实质段落与官网匹配。其他资料保留原核验日期，条例官网被客户端检查页阻挡，未确认最新版本。未对全部旧题重做双语盲答。`m3-261`已由`m3-322`替换，`m1-142`已由`m1-177`替换；原题及引文保留于实施记录，旧成绩保留。'
+            elif line.startswith('保留限制：'):lines[i]='保留限制：仍以既定23份归档为范围。2026年10月17日重新下载03、05、10–15、21、23、32的双语文件，均与归档完全一致；FAQ实质段落与官网匹配。其他资料保留原核验日期，条例官网被客户端检查页阻挡，未确认最新版本。未对全部旧题重做双语盲答。`m3-261`已由`m3-322`替换，`m1-142`已由`m1-177`替换；原题及引文保留于实施记录，旧成绩保留。'
     if v.get('p1_implementation'):
         lines[4]=f'专项审核基线为299题、1,507个题句；职责／定义补题后为320题。后续P1流程补题完成后，现为{v["current_questions"]}题、{v["current_statements"]:,}个题句。本表保留原188行专项映射及逐项落实，后续流程补题见[P1流程记录](P1-PROCESSES.md)。'
         lines[2]='**结论：专项P1/P2来源缺口及后续P1流程任务已补成题。P2流程细节与P3可选内容仍按总体清单保留。**'

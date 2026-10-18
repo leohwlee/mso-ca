@@ -55,11 +55,21 @@ quote that the new edition no longer supports.
 
 ### Writing items
 
+Before editing sources or questions, read [source maintenance](docs/SOURCE-MAINTENANCE.md).
+The reading-order number is the only document ID: `EN 03`, filename prefix 03
+and quote `"doc": "03"` all mean the AML/CFT Guideline. Filenames and official
+sources and current locations are recorded in `docs/catalog.json` (`editions.path`).
+The daily folders hold 26 publications; archived sources remain under `docs/archive`
+with numbers 27–47; the daily set is continuously numbered 01–26, including
+companions. All 47 publications share one sequence. Only the original 23 bank
+sources have completed the bank's coverage review. Run `python docs/build_catalog.py --check`
+after source metadata or filename changes.
+
 Items are written as patches and checked before they reach the bank, with the
 tools in [`bank/`](bank/) (Python 3, standard library only):
 
 ```bash
-python bank/find.py EN 02 "target market"        # a passage in a source, with page and context
+python bank/find.py EN 03 "target market"        # a passage in a source, with page and context
 python bank/apply.py next 3 15                   # the next unused ids in module 3
 python bank/apply.py check patch.json            # validate a patch
 python bank/apply.py apply patch.json            # generate the options, merge into the bank and quotes
@@ -106,8 +116,8 @@ which verifies the earlier bank without rewriting its audit history.
 The [final completion record](bank/audit/remaining-implementation.json) adds the
 remaining P2/P3 coverage and preserves each expanded question's retired snapshot.
 The validator reconstructs all preceding bank versions, including replacements,
-and binds final blind verdicts to their reviewed text. Source 16's image-only form
-labels are in `docs/transcripts/16.json`, bound to raw PDF hashes and independently
+and binds final blind verdicts to their reviewed text. Document 15's image-only form
+labels are in `docs/transcripts/15.json`, bound to raw PDF hashes and independently
 checked; `docs/extract_text.py` inserts them on their original pages. Recheck the
 transcript whenever the PDF changes; the source tests reject stale bindings.
 

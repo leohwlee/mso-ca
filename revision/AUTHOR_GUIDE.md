@@ -49,12 +49,17 @@ link to it instead (`<a href="#s2-monitoring">Schedule 2 page</a>`).
 
 ## Accuracy — the non-negotiable part
 Every sentence must be grounded in a source passage, and every table cell, card and callout carries a
-citation to the paragraph/section that supports it. Sources: the 23 current documents in `../docs/EN` and
-`../docs/TC` (listed in `../docs/README.md`; 02 = AML/CFT Guideline for MSOs, June 2023; 10 = AMLO Cap. 615).
-Extract their text first (e.g. `pdftotext -layout`) and search it for distinctive phrases.
+citation to the paragraph/section that supports it. The pack uses the original
+23 sources; the daily reading set has 26 publications, with the remaining
+reference material retained under `docs/archive`. Resolve main file locations
+through `editions.path` in the catalog. Use the reading-order number
+as the only document ID in filenames, extracted text and quotes. For example,
+03 is the AML/CFT Guideline and 04 is Cap. 615. Resolve filenames through
+`../docs/catalog.json` and read [source maintenance](../docs/SOURCE-MAINTENANCE.md)
+before using additions or replacing sources.
 - Paraphrase faithfully; keep conditions, qualifiers and modal strength (must / should / may).
 - Never invent examples, numbers or lists and present them as the source's. If you illustrate, say so.
-- Chinese must use the **official Chinese terms of the Chinese source** it cites (docs/TC/02, docs/TC/10):
+- Chinese must use the **official Chinese terms of the Chinese source** it cites (`../docs/text/TC/03.txt`, `../docs/text/TC/04.txt`):
   e.g. 可疑交易報告, 聯合財富情報組 (short form 財富情報組), 洗錢報告主任, 合規主任, 通風報訊,
   客戶盡職審查, 更嚴格的客戶盡職審查措施, 政治人物, 實益擁有人, 風險為本的方法,
   機構層面的洗錢／恐怖分子資金籌集風險評估 (the Guideline's only form; 機構層面的風險評估 is the FAQ's),
@@ -70,13 +75,18 @@ Extract their text first (e.g. `pdftotext -layout`) and search it for distinctiv
 - If two documents conflict, teach the side the owner chose (`CONFLICT-CALLS.md`); for a conflict not listed
   there, say so neutrally and ask the owner rather than picking one silently.
 
+Daily publications and companions use continuous numbers 01–26: High 01–09,
+Medium Essential 10–19, Medium Selected 20–26. Reference publications continue
+as 27–47. These numbers also identify quotes and extracted text; no second
+source ID is maintained.
+
 ## Citations
 - AML/CFT Guideline paragraph: `"¶7.13"` (auto-converted to 第7.13段 in Chinese). Several: `"¶7.13–7.14"`,
   `"¶2.4(d)"`. Chapter: `"Ch. 7"`.
 - AMLO section: `"s.25A"`; Schedule 2 section: `"s.13 Sch. 2"`. Other ordinances need an explicit pair:
   `("DTROP s.25A(1)", "《販毒（追討得益）條例》第25A(1)條")`, `("OSCO s.25", "《有組織及嚴重罪行條例》第25條")`,
   `("UNATMO s.12", "《聯合國（反恐怖主義措施）條例》第12條")`, `("UNSO", "《聯合國制裁條例》")`,
-  `("WMD(CPS)O s.4", "《大規模毀滅武器（提供服務的管制）條例》第4條")` — take the exact names from docs/TC/02.
+  `("WMD(CPS)O s.4", "《大規模毀滅武器（提供服務的管制）條例》第4條")` — take the exact names from document 03 (`../docs/text/TC/03.txt`).
 - Join several with `cc(a, b)` (define it as in gl.py) or write `"¶7.13 · s.25A"`.
 - Tuple citations `(en, tc)` must contain no Latin words in the Chinese half.
 

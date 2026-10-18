@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-18",
+  "scope": "Mechanical migration to the reading-directory document numbers; no question or source-content changes.",
+  "archive": "2026-10-18-before-document-number-cleanup.zip",
+  "archive_sha256": "40f9d59e312aa6d8a534eb766a291505970663b09a2b4f4c9516d02bc56b3cc8",
+  "preserved_files": 103,
+  "question_bank_sha256": "23b28f35f98fe583a614b67fd2da8bc15e77273cd7573d53e10fd4e281e77154",
+  "verified": {
+    "question_bank_bytes_unchanged": true,
+    "quote_content_unchanged": true,
+    "extracted_text_files_unchanged": 64,
+    "transcript_bytes_unchanged": true,
+    "official_source_files_unchanged": 64,
+    "historical_question_snapshots_and_review_verdicts_unchanged": true,
+    "historical_quote_text_and_documentation_snapshots_unchanged": true
+  },
+  "derived_hash_updates": [
+    {
+      "kind": "quote_snapshot",
+      "version": "active",
+      "before_sha256": "7ec67279f2b441e58683a69c73c227759bb64f5589ad68aea16044656d02991b",
+      "after_sha256": "f75f1ff02755cb4cd140452fb99a96bd61506ab4b71df746a746528fddae744b",
+      "questions": 357
+    },
+    {
+      "kind": "quote_snapshot",
+      "version": "remaining-implementation.json baseline",
+      "before_sha256": "dfcabe2c391afae5ca8a7c68455a3bbc5e7238430622834ad976feb8a9211da7",
+      "after_sha256": "ecb5ad994e951544f507008a5421abea30e409457b115a85b8a55b0b50e0e84d",
+      "questions": 338
+    },
+    {
+      "kind": "quote_snapshot",
+      "version": "p1-implementation.json baseline",
+      "before_sha256": "cf4f1da5cf9633f9f2c89e456df813cf3f947f499159c886030b5a9e2f6c59e3",
+      "after_sha256": "f7f8ae24bbab9a02838b94d22249383920fdaf8b97341ade9ed813e94913d906",
+      "questions": 320
+    },
+    {
+      "kind": "quote_snapshot",
+      "version": "implementation.json baseline",
+      "before_sha256": "e0f230fbc1113a32441f8c11c540ac18767654dace11912e5f16a491ec1e3980",
+      "after_sha256": "3dca16338edf960be4c600c141c0527c5316ac309049f5351b6ae9bba8d27216",
+      "questions": 299
+    },
+    {
+      "kind": "quote_snapshot",
+      "version": "initial coverage baseline",
+      "before_sha256": "964f3516951bea17c93f71f53a217d28d8a93a37823e1c7d11bf89c3a815a1b4",
+      "after_sha256": "ea6c51c33922f622327185887a58b8d3b97da5ee5f1706c5cf42a669bdc3cfef",
+      "questions": 297
+    },
+    {
+      "kind": "maintained_file",
+      "file": "docs/README.md",
+      "before_sha256": "f206b9ee5a3828c0b6db2929bf45981fcde90d00e275da00654b02b162a6e6a7",
+      "after_sha256": "7983e4b670f1504c85b11e470ba966c56117817b7f1c531ef5542b3a0c53d9eb"
+    },
+    {
+      "kind": "maintained_file",
+      "file": "docs/README.zh-Hant.md",
+      "before_sha256": "c6dddcc85c1df368cbf27271be81657d8a477c891cdd132a017505eae216a314",
+      "after_sha256": "daad67455963d2bb2ef8ef367a99678f27bd78fb55a601911fe17a84e56b0d17"
+    },
+    {
+      "kind": "maintained_file",
+      "file": "docs/text/manifest.json",
+      "before_sha256": "b2c90bd297671fd0b5e051e02747dc2bf566f2a3edbb911c9e5491210942b856",
+      "after_sha256": "f862bcdc2fd16e221e3669381df93cf04a3b68e19a1793eddf60efd0c27a8b23"
+    },
+    {
+      "kind": "maintained_file",
+      "file": "revision/CONFLICT-CALLS.md",
+      "before_sha256": "aea76f2f35bf0553459b1011b8decbc645c27441b13f2cf288bc60f897ff06d1",
+      "after_sha256": "95e7ddcab08dcc810061548aa597052f2b8a64fde288c43582668ef848072f01"
+    },
+    {
+      "kind": "maintained_file",
+      "file": "docs/extract_text.py",
+      "before_sha256": "c4fb30b53eccc7fc076ad999725fe2a629e24d7a0c941c00a938726dff083194",
+      "after_sha256": "7a26149b013cf4ba1206667e0cc6ef0ac9faf842df60531a1fb43d22e141ba25"
+    },
+    {
+      "kind": "maintained_file",
+      "file": "sources_test.go",
+      "before_sha256": "af9388deb0700102d4b0eafadf607ebcc56deaf8110ba1473ed1c0857670db4c",
+      "after_sha256": "237097d9174c0e6527842441eddc2804f5ab3afb55a35a244c12cc67ff69d7f6"
+    },
+    {
+      "kind": "maintained_file",
+      "file": "bank/FORMAT.md",
+      "before_sha256": "1dd5ccf00ccc3dbae0c25b5f853bb19d189c5ce20e7e725a77fbcc870830dd4b",
+      "after_sha256": "6aa8ab2d13fec996b114cc5f65dbe6d496c08799cf3f8e564b04c6d0adf41d19"
+    }
+  ],
+  "validation": [
+    "go test ./...",
+    "python docs/build_catalog.py --check",
+    "python bank/audit/report.py --check",
+    "python bank/audit/terms_report.py --check",
+    "python bank/audit/p1_report.py --check",
+    "python bank/audit/remaining_report.py --check",
+    "go run . -export-html dist/mso-ca.html",
+    "python revision/pack_build.py dist/mso-revision-pack.html"
+  ]
+}

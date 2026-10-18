@@ -34,22 +34,23 @@ def read():
     return json.loads((HERE/'coverage.json').read_text(encoding='utf8'))
 
 def validate(d):
+    source_ids = {d['id'] for d in json.loads((ROOT/'docs/catalog.json').read_text(encoding='utf8'))['documents'] if d['original_bank_source']}
     state = load_state()
     bank = state['bank']; qb = state['evidence']
-    assert {s['doc'] for s in d['source_accounting']} == {f'{i:02}' for i in range(1,24)}
+    assert {s['doc'] for s in d['source_accounting']} == source_ids
     assert len(d['source_accounting']) == 23
     ts = d['topics']; tb = {t['id']:t for t in ts}
     assert len(ts) == len(tb)
     assert {t['module'] for t in ts} == set(range(1,8))
-    texts = {(lang,f'{i:02}'): (ROOT/f'docs/text/{lang}/{i:02}.txt').read_text(encoding='utf8')
-             for lang in ['EN','TC'] for i in range(1,24)}
+    texts = {(lang,num): (ROOT/f'docs/text/{lang}/{num}.txt').read_text(encoding='utf8')
+             for lang in ['EN','TC'] for num in source_ids}
     normalized = {key:norm(s) for key,s in texts.items()}
     count_quotes=0; mapped=set(); count_evidence=0
     for path, sha in d['source_hashes'].items():
         verify_hash(path, sha, state)
     for t in ts:
         assert t['status'] in STATUS
-        assert set(t['docs']) <= {f'{i:02}' for i in range(1,24)}
+        assert set(t['docs']) <= source_ids
         assert t['missing_aspects'] or t['status'] not in ['partial','missing'], t['id']
         for e in t['evidence']:
             q=qb[e['question_id']]; mapped.add(q['id'])
@@ -137,12 +138,12 @@ def render(d,v):
             reason+=' '+b['followup_note']
         rows.append([b['id']+' '+b['priority'],b['title'],b['suggested_questions'],state,reason,ids])
     readme+=table(['顺序／优先级','补题内容','估计题数','状态','为何补／边界','来源映射行'],rows)
-    readme+=['','经营账户任务B16尚有03与06用语关系需厘清；此项不是已经定案的双语题目，不应在冲突未解决前写成统一答案。','',
+    readme+=['','经营账户任务B16尚有05与20用语关系需厘清；此项不是已经定案的双语题目，不应在冲突未解决前写成统一答案。','',
       '## 方法和限制','',
       '- 从资料的正文、附表、FAQ、样题及通函附件建立考点，再搜索七个单元的实际题句。引用文档、长引文或解释提到某点，本身不算已测试。',
       '- “已覆盖”只指该行明确列出的核心内容，不能理解为所在章节每句话均有题。假句也可提供覆盖，但必须确实测试该规则。',
       '- 英文核心材料按各文件记录的范围阅读；中文重点核对缺口、术语和冲突，没有对全部旧题重新做双语独立盲答。完整边界见覆盖表。',
-      '- 通函16附件的英文PDF第3–5页已查看原页截图；中文核对提取文本的关键标签。示例填写数字不作为考点。',
+      '- 通函15附件的英文PDF第3–5页已查看原页截图；中文核对提取文本的关键标签。示例填写数字不作为考点。',
       '- 本次针对23份归档材料，没有重新确认官网最新版本。尤其FATF地区名单及咨询材料发布前需重查；咨询建议不等于本地现行强制要求。',
       '- 官方资料01只列七个单元名称及五类来源，未分配每个细项。这里的单元归属、优先级和建议题数均为教学判断。',
       '- 题库格式、引用核验、覆盖审核、答案盲答分别证明不同事情；自动检查通过不能推导出全部答案正确或保证通过考试。','',
@@ -170,7 +171,7 @@ def render(d,v):
             elif line.startswith('1. **`m3-261`'):readme[i]='1. **已以`m3-322`替换`m3-261`。** 正确区分地址与替代资料，并说明本地／群组转账例外；通过双语盲答。旧题退出抽题，交卷时的历史成绩保留。'
             elif line.startswith('2. **`m1-142`'):readme[i]='2. **已以`m1-177`替换`m1-142`。** 删除E25排除的咨询截止日期及邮箱，改考咨询的实质议题；通过双语盲答。原题及引文保存于实施记录。'
             elif line.startswith('用户进一步明确'):readme[i]='专项报告保留299题审核基线，并另列本轮21题／92个新增题句、两道修订替代题及逐项落实状态。该专项与总体补题任务有重叠，不可将两张清单的数量相加。'
-            elif line.startswith('- 本次针对23份归档材料'):readme[i]='- 23份归档仍为既定范围。17日重新下载的02–09、19–21双语文件与归档完全一致，FAQ实质段落与官网一致；其他资料保留原核验日期。条例官网被客户端检查页阻挡，未确认其最新版本；此次仍按已归档条例出题。'
+            elif line.startswith('- 本次针对23份归档材料'):readme[i]='- 23份归档仍为既定范围。17日重新下载的03、05、10–15、21、23、32双语文件与归档完全一致，FAQ实质段落与官网一致；其他资料保留原核验日期。条例官网被客户端检查页阻挡，未确认其最新版本；此次仍按已归档条例出题。'
         readme+=['','新增题、最终盲答、改动裁决、退役快照及覆盖依据见[实施记录](implementation.json)。本轮77条P1/P2来源缺口映射均有直接题句支持；不是77个独立考点或77道题。','']
     if p1:
         readme[2]='剩余P1流程、条件及例外任务已逐项落实。职责、身份与定义专项及已知旧题修正继续保留原记录；下一批为P2细节及P3可选内容。'
@@ -191,7 +192,7 @@ def render(d,v):
         readme=[('跨来源合并的原补题清单已全部落实，待补任务为0。优先级依据义务、条件和错误影响，不代表官方出题频率。' if line.startswith('跨来源合并后，尚有') else line) for line in readme]
         readme+=['','## 最终清单落实','',
                  f'本次净增{completion["statistics"]["net_questions"]}题、{completion["statistics"]["net_statements"]}个题句；扩写题以新题号替代，旧题快照及原成绩保留。详见[完成记录](REMAINING.md)及[最终证据](remaining-implementation.json)。','']
-        readme=[('- 通函16附件双语PDF第3–5页均已看原页；图内字段有绑定PDF版本的人工转录及独立复核。示例填写数字不出题。' if line.startswith('- 通函16附件的英文PDF') else line) for line in readme]
+        readme=[('- 通函15附件双语PDF第3–5页均已看原页；图内字段有绑定PDF版本的人工转录及独立复核。示例填写数字不出题。' if line.startswith('- 通函15附件的英文PDF') else line) for line in readme]
         readme=[('- 18日重新下载条例以外的42个双语PDF版本，均与归档一致；FAQ正文与官网相符。条例官网仍被客户端检查阻挡，未确认最新版本，沿用既定归档条例。' if line.startswith('- 23份归档仍为既定范围') else line) for line in readme]
         details[4]+=' 剩余任务及专项P3细节的最终落实见[完成记录](REMAINING.md)。'
     return {'README.md':'\n'.join(readme),'COVERAGE.md':'\n'.join(details)}

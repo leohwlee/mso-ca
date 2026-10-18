@@ -1,188 +1,444 @@
 {
+ "BI/29.txt": {
+  "source": "29_Reference_Webinar on Proliferation Financing Risk Assessment and Mitigation (2021-08, Bilingual).pdf",
+  "sha256": "31006105915835361b6fd14e550524677b577a340926e509999f175ec6217f2d",
+  "text_sha256": "214e0088bf7d2e8b6c3aefcd35f9fc7b4b03184f14501d348b67a9e1cd1bf3e1"
+ },
  "EN/01.txt": {
-  "source": "01_Guidance Notes on the Competence Assessment (Dec 2022).pdf",
-  "sha256": "02b910e32d38cb45e579aa2baeb3017a39855092ff47b0b2ae16a02386194733"
+  "source": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf",
+  "sha256": "02b910e32d38cb45e579aa2baeb3017a39855092ff47b0b2ae16a02386194733",
+  "text_sha256": "908295f836745a31712fbc0ded041d47434212f2ea63400862414bbd5923b0d2"
  },
  "EN/02.txt": {
-  "source": "02_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
-  "sha256": "815c49578b38fed0af78fc2502c195a47aa3783741113f0ed17db8e8451a4088"
+  "source": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf",
+  "sha256": "d6a8aa2d321199c53b365854016773a6da508013822a18d0eb63bcd59970abd9",
+  "text_sha256": "41ff76f531905650e4fb070d14575df4e51ae172fcacc3be4838f874bcdb977f"
  },
  "EN/03.txt": {
-  "source": "03_Licensing Guide (May 2026).pdf",
-  "sha256": "9723514fd511588c5d6fe55eac37215ec9172e912cf71fa58035d6dfabf40dfb"
+  "source": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+  "sha256": "815c49578b38fed0af78fc2502c195a47aa3783741113f0ed17db8e8451a4088",
+  "text_sha256": "6c602e7e4d82a4cf5bbd2a57b9e3fb5b8c20f9e4785c04a130baff34ab53d9ab"
  },
  "EN/04.txt": {
-  "source": "04_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf",
-  "sha256": "da2de51cf2e6591e9532db598d1330639f213b0d4403b106b23d039a1d17e1b7"
+  "source": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf",
+  "sha256": "c82401967347298e8b74a59bc81cfd563c151e4cd20e97f6a2be2f93361f5623",
+  "text_sha256": "916a55f448f988bf51d814da36249414c659eb07f1b148da7bfbfc4269811aa1"
  },
  "EN/05.txt": {
-  "source": "05_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf",
-  "sha256": "8545c4eb2308dd8d30e8ebdf657aeb6ddac82ce61b63616df620b457f272ed48"
+  "source": "05_High_Licensing Guide (May 2026).pdf",
+  "sha256": "9723514fd511588c5d6fe55eac37215ec9172e912cf71fa58035d6dfabf40dfb",
+  "text_sha256": "2491f72007b9c5efcd3d6c00b4f8ec6c669514c395e468e7b654ad745c0623c8"
  },
  "EN/06.txt": {
-  "source": "06_Guidelines for Submission of Business Plan (Ver 12-2019).pdf",
-  "sha256": "7133a8dc999f08a0d79b8d3bf10989994631cb16fe6ccb84a9ec6b48db1ea1c9"
+  "source": "06_High_FAQ applicable to all MSOs (C&ED portal).md",
+  "sha256": "09e767bd18cce69b416eea0a20aa577d647efb57be831f8a2feed997a1406676",
+  "text_sha256": "09e767bd18cce69b416eea0a20aa577d647efb57be831f8a2feed997a1406676"
  },
  "EN/07.txt": {
-  "source": "07_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf",
-  "sha256": "d07ec45500ac6ffc517b1ec06727646a16826e4bb0f8d202dd9d0ed3f7abbc20"
+  "source": "07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf",
+  "sha256": "cf19ae352faded0e70cfb1035e7d81c5ade8545f2eae0940ca6d4102e43db855",
+  "text_sha256": "85677c9e208968782ecb9e62c45893796f7dd81bc74efee052579f79aa39ce93"
  },
  "EN/08.txt": {
-  "source": "08_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf",
-  "sha256": "a532e86e02f9fe1f5f5acc52f249334bdfe37e97fc7137de1ee2b454f14bf76f"
+  "source": "08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf",
+  "sha256": "d57fab6c59d75f4aaa5a37b5c4c86f6f305b456bf6c28a4c4a3f01c47e0c026b",
+  "text_sha256": "c011aae0d478aee648c832582e2fb5e75e91e1e6833d5109afda5ab66e00c244"
  },
  "EN/09.txt": {
-  "source": "09_Disciplinary Fining Guideline (May 2018).pdf",
-  "sha256": "4b6f5f709329bdac70f1003c9176f993de35eeeafb7fcabc5f884de85b50a403"
+  "source": "09_High_Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021).pdf",
+  "sha256": "c15624513447cf88ad7c85b7be1c795dd799bf123a52085ffa70b2281b257db5",
+  "text_sha256": "3784682199c3a509f305e0401442c52b9461e4023bdd42f6f4a9a7202d6139b9"
  },
  "EN/10.txt": {
-  "source": "10_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf",
-  "sha256": "c82401967347298e8b74a59bc81cfd563c151e4cd20e97f6a2be2f93361f5623"
+  "source": "10_Medium-Essential_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf",
+  "sha256": "da2de51cf2e6591e9532db598d1330639f213b0d4403b106b23d039a1d17e1b7",
+  "text_sha256": "3a378faecce11ce26890b7d7fc54bf52a56665df1adfdfa3ef847bee74145fad"
  },
  "EN/11.txt": {
-  "source": "11_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf",
-  "sha256": "313e1c32ca35caa636e5c2370126ac367373243dad263858c0716c0f21e483c5"
+  "source": "11_Medium-Essential_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf",
+  "sha256": "8545c4eb2308dd8d30e8ebdf657aeb6ddac82ce61b63616df620b457f272ed48",
+  "text_sha256": "d742283d13c4685a7650c62d54cb7979f364b87745eb5dca503a6d04a5b841a1"
  },
  "EN/12.txt": {
-  "source": "12_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf",
-  "sha256": "95777716969d4149b27a5f28f5305e563f13ff85e666ccf2acf55421c4750254"
+  "source": "12_Medium-Essential_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf",
+  "sha256": "a532e86e02f9fe1f5f5acc52f249334bdfe37e97fc7137de1ee2b454f14bf76f",
+  "text_sha256": "7de82dc23297bc83fdf167b2f23724ab369e3f1d5f279d76cb0b139fff3e3b81"
  },
  "EN/13.txt": {
-  "source": "13_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf",
-  "sha256": "cf19ae352faded0e70cfb1035e7d81c5ade8545f2eae0940ca6d4102e43db855"
+  "source": "13_Medium-Essential_Disciplinary Fining Guideline (May 2018).pdf",
+  "sha256": "4b6f5f709329bdac70f1003c9176f993de35eeeafb7fcabc5f884de85b50a403",
+  "text_sha256": "74aa274da9fc9fdacc764a885797211e501a6dce2dd8b9cffa8272a83fa18ba4"
  },
  "EN/14.txt": {
-  "source": "14_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf",
-  "sha256": "d57fab6c59d75f4aaa5a37b5c4c86f6f305b456bf6c28a4c4a3f01c47e0c026b"
+  "source": "14_Medium-Essential_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf",
+  "sha256": "95777716969d4149b27a5f28f5305e563f13ff85e666ccf2acf55421c4750254",
+  "text_sha256": "957a691aae6c32234ae7e3c4157b2b5676e7648d272bbdfb1a3062b05fbdb40b"
  },
  "EN/15.txt": {
-  "source": "15_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf",
-  "sha256": "1f7a3685c7d9d0faf0f77aa8c4cfac1c5de5ea83e998a535c309b6e1a84b7832"
+  "source": "15_Medium-Essential_Circular - E-submission of the Periodic Return (30 May 2025).pdf",
+  "sha256": "30f0450676dd95a18dc3a33f51798ca125b6068cfcaa8d257bf335d13b47f76e",
+  "text_sha256": "fcd5a2eddc3e7415c7aeee2b2f8566e9d0fee234cb24b57728795a57708144f2",
+  "transcript_sha256": "ac9a557a5e918d7aad9043e33ca74427e74a95393d726a6a4c2864632893d0f5"
  },
  "EN/16.txt": {
-  "source": "16_Circular - E-submission of the Periodic Return (30 May 2025).pdf",
-  "sha256": "30f0450676dd95a18dc3a33f51798ca125b6068cfcaa8d257bf335d13b47f76e",
-  "transcript_sha256": "ac9a557a5e918d7aad9043e33ca74427e74a95393d726a6a4c2864632893d0f5"
+  "source": "16_Medium-Essential_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf",
+  "sha256": "992b3f96b4d116386d3b7a816acfea3e9500b677964ea944ad6feaf1fecc9a8f",
+  "text_sha256": "bffd462334ac20e9ef2d96b0db3508ce2acf0935021304d2e5bcfc9dc54ff8ae"
  },
  "EN/17.txt": {
-  "source": "17_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf",
-  "sha256": "77ef7b38e78ea248598e2ac52e9486fd525a59db2c5cfdff4610fa84c13451fa"
+  "source": "17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf",
+  "sha256": "60950f5868989ed699e88fc971e3e86d1180faad0cdf99e4f6878252e545a246",
+  "text_sha256": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02"
  },
  "EN/18.txt": {
-  "source": "18_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf",
-  "sha256": "992b3f96b4d116386d3b7a816acfea3e9500b677964ea944ad6feaf1fecc9a8f"
+  "source": "18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
+  "sha256": "c7fbe8bccec9fe319d7f078b3b28f531f59e3e6403f83515c990ad59709c1ebf",
+  "text_sha256": "184f4e17f55491dafe6c4fefcaed000411d69cc2b47aadbfd344620b4cf5727f"
  },
  "EN/19.txt": {
-  "source": "19_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
-  "sha256": "c7fbe8bccec9fe319d7f078b3b28f531f59e3e6403f83515c990ad59709c1ebf"
+  "source": "19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf",
+  "sha256": "f52404084966adc429e930cd7ea6620e9cb301bf9b12946872da66c1869879a6",
+  "text_sha256": "d97ff8fe89bc21e7300c89f4de605c0c2256035e626021ef94d29ed70b30f3a2"
  },
  "EN/20.txt": {
-  "source": "20_Circular - Statements issued by the FATF (3 Jul 2026).pdf",
-  "sha256": "f52404084966adc429e930cd7ea6620e9cb301bf9b12946872da66c1869879a6"
+  "source": "20_Medium-Selected_Guidelines for Submission of Business Plan (Ver 12-2019).pdf",
+  "sha256": "7133a8dc999f08a0d79b8d3bf10989994631cb16fe6ccb84a9ec6b48db1ea1c9",
+  "text_sha256": "5b8115db9c36f805e661a570119aa490d3915b5cfa2bb0a4259ccfbfe322797a"
  },
  "EN/21.txt": {
-  "source": "21_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf",
-  "sha256": "b08d737ffd1528f4b4c773e22efaeb113d8afd9569c5166022840928e7502384"
+  "source": "21_Medium-Selected_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf",
+  "sha256": "d07ec45500ac6ffc517b1ec06727646a16826e4bb0f8d202dd9d0ed3f7abbc20",
+  "text_sha256": "eff8ef73f4c2349e17e6d5de1f50c7ab0b0474ed71706d295cb668d4a3d31d7c"
  },
  "EN/22.txt": {
-  "source": "22_FAQ applicable to all MSOs (C&ED portal).md",
-  "sha256": "09e767bd18cce69b416eea0a20aa577d647efb57be831f8a2feed997a1406676"
+  "source": "22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf",
+  "sha256": "313e1c32ca35caa636e5c2370126ac367373243dad263858c0716c0f21e483c5",
+  "text_sha256": "9a6a1a3e174d2131f2165c062e522a07a2a67a51cd160603edcdbf7746d23f8c"
  },
  "EN/23.txt": {
-  "source": "23_Competence Assessment - Sample Questions (12 May 2021).pdf",
-  "sha256": "d6a8aa2d321199c53b365854016773a6da508013822a18d0eb63bcd59970abd9"
+  "source": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf",
+  "sha256": "f664ac2e1954fcef360b9d76d7e4227c3e5cd1f26172c0ad4ad615d980e59c02",
+  "text_sha256": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960"
+ },
+ "EN/24.txt": {
+  "source": "24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf",
+  "sha256": "5b275417033f2057ababfab3d270e353a942852c0537047b73f12eb948a6135a",
+  "text_sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b"
+ },
+ "EN/25.txt": {
+  "source": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf",
+  "sha256": "54b57d3bd364b140e6ab9d92ce94881dc14397bee5f851f5d7b934c720df8859",
+  "text_sha256": "6b410a4644b662a0c595cc843b04730f0af50a7af4f0e129a2d5dafc6c37e254"
+ },
+ "EN/26.txt": {
+  "source": "26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf",
+  "sha256": "db95621dd7a9fddd75525e63c5b29ea374dd6dc50a8d666de09c36be55fce998",
+  "text_sha256": "2a44e23b7873502ddce5ee9afc5b919bee28287d08011080227b4c21e6e2ae5c"
+ },
+ "EN/28.txt": {
+  "source": "28_Reference_FATF Guidance on Proliferation Financing Risk Assessment and Mitigation (2021-06, EN).pdf",
+  "sha256": "3166b8f22db97d939bcd5aa1dc0bbbe7cc008ced4694a7cc4f52e72a9d691ace",
+  "text_sha256": "b8717faa1858df9e7328aad9841c6e42a8c1d6fb1a48c22905f50ce1aa442aa3"
+ },
+ "EN/30.txt": {
+  "source": "30_Reference_Money Changers Ordinance Cap 34 - Schedules 2 and 3 - Official Webpage Extract (24 Aug 2025).md",
+  "sha256": "b8d28a519f9122dc1a24b61367d02ce8a20886e8a3eb115368e32287bf7e3a2d",
+  "text_sha256": "b8d28a519f9122dc1a24b61367d02ce8a20886e8a3eb115368e32287bf7e3a2d"
+ },
+ "EN/31.txt": {
+  "source": "31_Reference_The FATF Recommendations and Interpretive Notes (2026-06, EN).pdf",
+  "sha256": "3fa196a0380850f8d4c8d3c4c4c5b420e41eeb59d5682c0ed5a0e83de005303b",
+  "text_sha256": "d4d5a033d2dc08217680a8686c6b1c46d0e4eae28bd0c2cab402309b3694a8b3"
+ },
+ "EN/32.txt": {
+  "source": "32_Reference_Previous Customs circular on FATF statements (2026-03-20, EN).pdf",
+  "sha256": "948ba0022aa154c610ce785852894fb66f38b71c15c9cc94a809d51180cf3c2a",
+  "text_sha256": "f45f41f916627b51f794a2904115455aadcadea6531f3c519b11eecf6f335653"
+ },
+ "EN/33.txt": {
+  "source": "33_Reference_Circular - Publication of Hong Kong Risk Assessment Report (11 Jul 2022).pdf",
+  "sha256": "ee49f7440ef6f0083eaa5a769a4195cf9a46ce093bea1fc44e9d947dd02a183e",
+  "text_sha256": "e85f159cfd9e6f5e4a23f912fb4f744072964df91be5abd2cc8aaefe104ff9d8"
+ },
+ "EN/34.txt": {
+  "source": "34_Reference_UN Security Council Resolution 2270 (2016) (2016, EN).pdf",
+  "sha256": "5b6b5ce54e9a17ccebb4c6dc754bd5b3db4359137ee39130dc49145738488dac",
+  "text_sha256": "a42c736e8375b4288dad6d968d1ccc5b662617cff369fe0bd00f97f51146ec79"
+ },
+ "EN/35.txt": {
+  "source": "35_Reference_UN Security Council Resolution 2321 (2016) (2016, EN).pdf",
+  "sha256": "ba9a90633ba53565f385f3d4c5a05b83b78827602e4b6e09ec975ed77bd00660",
+  "text_sha256": "f6195ebc8348cf7dcdf6557c0515754fbf7bc6e75372904d22964e23b263137c"
+ },
+ "EN/36.txt": {
+  "source": "36_Reference_UN Security Council Resolution 2371 (2017) (2017, EN).pdf",
+  "sha256": "a11680acba55432794c794d0c860c8fa2466f549698d24f4f05edd6ddd8eba9c",
+  "text_sha256": "e50f9e45e7b2d841cdb022f01c85f3c46d004d1f94b3f4d1bc392aef4ef6451e"
+ },
+ "EN/37.txt": {
+  "source": "37_Reference_UN Security Council Resolution 2375 (2017) (2017, EN).pdf",
+  "sha256": "ffd6b2ce35a2021f0da8292413f88918eb54abf616bdd73cfb9c367cf5d4db9d",
+  "text_sha256": "7ff14cb7c6ff5681385b4ff88c8a5eaf429a9a74081207df7157e5e31a04735a"
+ },
+ "EN/38.txt": {
+  "source": "38_Reference_UN Security Council Resolution 2397 (2017) (2017, EN).pdf",
+  "sha256": "1bf817a1360a0f006b87938fca6854d86775fa2955694cc1b27ba044a60d8aaf",
+  "text_sha256": "122d2ea7a0cecf5f8cc0fcec9fd4399c02fbf96e1ee7e0b551780820eea77779"
+ },
+ "EN/39.txt": {
+  "source": "39_Reference_Training Slides - Suspicious Transaction Reporting (Uploaded 7 Jan 2026).pdf",
+  "sha256": "8b9b56fcf26edf36989b8cc8df07aba07a936c2b3bda52b866c99a4e00426173",
+  "text_sha256": "7c51ae66a08f95ddf31113c38217e24a0169aae9d1484b8de59c9f9b500e7659"
+ },
+ "EN/40.txt": {
+  "source": "40_Reference_Training Slides - ML-TF-PF Risk Assessment and Mitigation (12 Mar 2024).pdf",
+  "sha256": "7134e2d39c78dff9e2080b72788504bc1c2d0d4383355a33352eacb3b734eb32",
+  "text_sha256": "6e639e85054f4c757905a9db55bebb82198f77b8409aacd1f07b8021f981cf9c"
+ },
+ "EN/41.txt": {
+  "source": "41_Reference_Circular - ML-TF Institutional Risk Assessment (13 Aug 2018).pdf",
+  "sha256": "50bdd1b4539a50018e9aee35b9d4f16b502372bb5a26d0c74d8d717a6afe0748",
+  "text_sha256": "6333e7daa7ccf0de76cbb92863dac38cf12ba2d3c63aa7e2d391104cd417c8a4"
+ },
+ "EN/42.txt": {
+  "source": "42_Reference_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf",
+  "sha256": "1f7a3685c7d9d0faf0f77aa8c4cfac1c5de5ea83e998a535c309b6e1a84b7832",
+  "text_sha256": "48df79e5d58a23d45479076d703c417a1dcce24a80fc352776522ffcd2d5e5ff"
+ },
+ "EN/43.txt": {
+  "source": "43_Reference_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf",
+  "sha256": "77ef7b38e78ea248598e2ac52e9486fd525a59db2c5cfdff4610fa84c13451fa",
+  "text_sha256": "ec01469aa0fb8da0f63640f15bc97fb39a4547c4d9d2044808d61915a22af5ac"
+ },
+ "EN/44.txt": {
+  "source": "44_Reference_E-form Submission for Passenger Information (CBNIs) User Manual (Downloaded 2026-10-18; no publication date asserted, EN).pdf",
+  "sha256": "78f83ba3cf954904b20537ea793f71225a3e674dc34c97f1a422eb873146bf1e",
+  "text_sha256": "946cdf388a5212b441a2e2ec11c326ab5ad94a02604c654eceb124c9645d558b"
+ },
+ "EN/45.txt": {
+  "source": "45_Reference_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf",
+  "sha256": "b08d737ffd1528f4b4c773e22efaeb113d8afd9569c5166022840928e7502384",
+  "text_sha256": "e8189d6083c6dfa8749ed99311fa836109ab4d607b07584a4b47ca3b598edd05"
+ },
+ "EN/46.txt": {
+  "source": "46_Reference_R.16 Guidance public consultation explanatory memorandum (2026-06 consultation, EN).pdf",
+  "sha256": "e38d4f2b0f75d47782f141cf1fe0097d702bf7361e0b7515d2bcd9be3bb8d47b",
+  "text_sha256": "9b7dfee5520378f8c15c4fbf0f0e9ffdb23e0bb3e507026fdd7797d331ed79e6"
+ },
+ "EN/47.txt": {
+  "source": "47_Reference_Draft Recommendation 16 Guidance for consultation (2026-06 consultation draft, EN).docx",
+  "sha256": "15eea5ba333dbf12d32e8a76e945415735623f4db8fb82e3bea2a018e645c263",
+  "text_sha256": "18f8e6a7e8e7e45ada1064b1901b6f496e567032ac96990f21c9f54f589da9d6"
  },
  "TC/01.txt": {
-  "source": "01_能力評核須知（2022年12月）.pdf",
-  "sha256": "8cea01b43b9027e79b20496a1139e0ddf9a074fe5236581f4333c68094238325"
+  "source": "01_高_能力評核須知（2022年12月）.pdf",
+  "sha256": "8cea01b43b9027e79b20496a1139e0ddf9a074fe5236581f4333c68094238325",
+  "text_sha256": "d5fa00d8625ab44b0201637cf5fe79d7f2c4cd7e269819fdf29b5b36521be4de"
  },
  "TC/02.txt": {
-  "source": "02_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
-  "sha256": "b67cec7793fbb39da71a48bd910798a77c78c775382305a0913f0558298a101b"
+  "source": "02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+  "sha256": "4c881b7441c643dbb54fe1ca5f4a7f627e2fa9250ba8a94e3d8f3001de2e8f77",
+  "text_sha256": "c45c615e0108d20e2696de9601b3e836a4802c2357f0bd8607b82907df32c337"
  },
  "TC/03.txt": {
-  "source": "03_牌照指引（2026年5月）.pdf",
-  "sha256": "8873b43911ea782d20b112fedd9b2634d86bc17ae2f2b049ee9655c317b2417d"
+  "source": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+  "sha256": "b67cec7793fbb39da71a48bd910798a77c78c775382305a0913f0558298a101b",
+  "text_sha256": "a22ad6aac57c9a85513ba3b1d3f44d8edd206b5278728a79454a353738d6f1ad"
  },
  "TC/04.txt": {
-  "source": "04_有關適當人選準則的指引（2018年4月）.pdf",
-  "sha256": "983efc70bab48d459583f5e5c946796fa052b289e512b7e7df1c74b99b00653e"
+  "source": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+  "sha256": "6e99b6956cc0c46fd70b048dfdf567ca62c6946bf0892e3b16d6382e15d20c05",
+  "text_sha256": "4cc88b13d23b8e89fa3a6ce52b4041027d555289c0569421958ef0ae676af628"
  },
  "TC/05.txt": {
-  "source": "05_有關適當人選準則的補充指引（2020年1月）.pdf",
-  "sha256": "7edf13cc9215a062574c42aa5da8c642e9f5dc9ec923440a3f81672de3f1c4e4"
+  "source": "05_高_牌照指引（2026年5月）.pdf",
+  "sha256": "8873b43911ea782d20b112fedd9b2634d86bc17ae2f2b049ee9655c317b2417d",
+  "text_sha256": "7b2521e94367502db8a2a4223be0ca07e849630f662abc40b20a40c6b1ae900e"
  },
  "TC/06.txt": {
-  "source": "06_遞交業務計劃的指引（12-2019版）.pdf",
-  "sha256": "ae14f15bf5f8db063a657f2d3a6a157dead830a5265ff660bf2e9b81bee7e635"
+  "source": "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+  "sha256": "1a306caf7ce345067ede0348c58b0fc9153971999c6d16b7a11e14124cb8d3a7",
+  "text_sha256": "1a306caf7ce345067ede0348c58b0fc9153971999c6d16b7a11e14124cb8d3a7"
  },
  "TC/07.txt": {
-  "source": "07_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf",
-  "sha256": "b2c354010897e52f9ad8c58b7c19a67664b48c7030af3dfbcf3ea65f5691f299"
+  "source": "07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf",
+  "sha256": "d97ce7141da11816c5b5a105bcb0872e726efd99daf1d52714e3a9dfe04dd317",
+  "text_sha256": "6b2ea8f37af02b12c7bb205c2861dc573910fbc04745369d775e11ddae8f7654"
  },
  "TC/08.txt": {
-  "source": "08_施加罰款紀律行動指引（2018年4月）.pdf",
-  "sha256": "2ed2611280cade840de9ab074f53a9588cacbd7ebde6ee2eed542a8ca82dad4a"
+  "source": "08_高_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf",
+  "sha256": "909485e92ee10960416743521da1b608a42d454f38e32f347a2460c5e9c87b63",
+  "text_sha256": "2fee66b98482d6198eb903304b85a492e252e6d153c97027471163101a51faa3"
  },
  "TC/09.txt": {
-  "source": "09_紀律處分罰款指引（2018年5月）.pdf",
-  "sha256": "e260d58a5656d9e8aafb1b21fb15ae7328b6a7f0e64ef67ed13e68b772391ddc"
+  "source": "09_高_通函_識別和緩解大殺傷力武器擴散融資風險（2021年12月22日）.pdf",
+  "sha256": "1c60eb6d1748c4daf215cb322cd541737fcb60d4ea6256b79daf9e870f28d10c",
+  "text_sha256": "498bd4a41e7be4e60fb331c14061b2b535a006000be4e23aa53b630f3f2dd2b8"
  },
  "TC/10.txt": {
-  "source": "10_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
-  "sha256": "6e99b6956cc0c46fd70b048dfdf567ca62c6946bf0892e3b16d6382e15d20c05"
+  "source": "10_中重點_有關適當人選準則的指引（2018年4月）.pdf",
+  "sha256": "983efc70bab48d459583f5e5c946796fa052b289e512b7e7df1c74b99b00653e",
+  "text_sha256": "3986315b49817d2500302fb14d6b766a19e9216946a52e9bdd4a842d0477e249"
  },
  "TC/11.txt": {
-  "source": "11_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf",
-  "sha256": "4afdf71a25ba0ff043e3d89b54c8c5981c29f6b38bf9c13b10f882f545720ccc"
+  "source": "11_中重點_有關適當人選準則的補充指引（2020年1月）.pdf",
+  "sha256": "7edf13cc9215a062574c42aa5da8c642e9f5dc9ec923440a3f81672de3f1c4e4",
+  "text_sha256": "603d9a0272d9fc1dd509ce0c1db4f9b2be4d1ae4cceb541bae50b1158b9baa78"
  },
  "TC/12.txt": {
-  "source": "12_通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）.pdf",
-  "sha256": "62c037d89de1b1ff7aed9fc998c99272ef791c274c60d16e9cb18c1e3367e305"
+  "source": "12_中重點_施加罰款紀律行動指引（2018年4月）.pdf",
+  "sha256": "2ed2611280cade840de9ab074f53a9588cacbd7ebde6ee2eed542a8ca82dad4a",
+  "text_sha256": "20b6ca2e167687184b0853155edaf4207a5461d4af72c38cbb6ea651f3ffb21b"
  },
  "TC/13.txt": {
-  "source": "13_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf",
-  "sha256": "d97ce7141da11816c5b5a105bcb0872e726efd99daf1d52714e3a9dfe04dd317"
+  "source": "13_中重點_紀律處分罰款指引（2018年5月）.pdf",
+  "sha256": "e260d58a5656d9e8aafb1b21fb15ae7328b6a7f0e64ef67ed13e68b772391ddc",
+  "text_sha256": "02005281155be6a7c528acb7a94cbf9b5be4c1f9959437454b6031d8c0320873"
  },
  "TC/14.txt": {
-  "source": "14_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf",
-  "sha256": "909485e92ee10960416743521da1b608a42d454f38e32f347a2460c5e9c87b63"
+  "source": "14_中重點_通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）.pdf",
+  "sha256": "62c037d89de1b1ff7aed9fc998c99272ef791c274c60d16e9cb18c1e3367e305",
+  "text_sha256": "88ae03601bfd2163aaa7171fcc6dc88159e1c24c87825c206c2cc38ecd8d774d"
  },
  "TC/15.txt": {
-  "source": "15_通函_與金錢服務經營者有關的欺詐網站及社交媒體平台（2025年4月24日）.pdf",
-  "sha256": "a2138b14c03ff47ecaf9a58e6d569c4d012ce825cf2f9b5e4c6f816b2255ab92"
- },
- "TC/16.txt": {
-  "source": "16_通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）.pdf",
+  "source": "15_中重點_通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）.pdf",
   "sha256": "85dc2b09cf56883ba38f3402fecacd93417c6b0d2936850f0bf44ebd67dadae2",
+  "text_sha256": "511f3dd05c92af3f0314975de84480c7e0efff15f69913efd47e70d90e458040",
   "transcript_sha256": "ac9a557a5e918d7aad9043e33ca74427e74a95393d726a6a4c2864632893d0f5"
  },
+ "TC/16.txt": {
+  "source": "16_中重點_通函_貨幣兌換商條例第34章之修訂（2025年11月17日）.pdf",
+  "sha256": "9ba57310ddc5fd49f1987b16d21b4b2500dcdab65fcf37dc660e0d5f27dce745",
+  "text_sha256": "f83fef9e5d4a80c35fbb3c2a3a32e7477664aef772f72c1dd8cee8126fbc6854"
+ },
  "TC/17.txt": {
-  "source": "17_通函_提交旅客資料電子表格（現金類物品）（2025年6月23日）.pdf",
-  "sha256": "ed15a3750ebb8baa2c9f93f6d580e11b45ed9db55f40255b25700710ba6acce6"
+  "source": "17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf",
+  "sha256": "60950f5868989ed699e88fc971e3e86d1180faad0cdf99e4f6878252e545a246",
+  "text_sha256": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02"
  },
  "TC/18.txt": {
-  "source": "18_通函_貨幣兌換商條例第34章之修訂（2025年11月17日）.pdf",
-  "sha256": "9ba57310ddc5fd49f1987b16d21b4b2500dcdab65fcf37dc660e0d5f27dce745"
+  "source": "18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf",
+  "sha256": "8a5dfffc3361687691f55d6192f02d4cd2316b95aec4d8da0306af8aaff96e94",
+  "text_sha256": "f57b9b72fad554b31f4fba3466a5ddece46f692cf3827c1f4055133a0d89bdfb"
  },
  "TC/19.txt": {
-  "source": "19_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf",
-  "sha256": "8a5dfffc3361687691f55d6192f02d4cd2316b95aec4d8da0306af8aaff96e94"
+  "source": "19_中重點_通函_財務行動特別組織的聲明（2026年7月3日）.pdf",
+  "sha256": "95b3d4a7e69616aa7ad5ecee0c71ee6f568fec88aa4cc0a2449719591ec258d6",
+  "text_sha256": "6a4699cacc07bdadcf2908d22f845c3958f6067b1b2b631592483d34e306d179"
  },
  "TC/20.txt": {
-  "source": "20_通函_財務行動特別組織的聲明（2026年7月3日）.pdf",
-  "sha256": "95b3d4a7e69616aa7ad5ecee0c71ee6f568fec88aa4cc0a2449719591ec258d6"
+  "source": "20_中選讀_遞交業務計劃的指引（12-2019版）.pdf",
+  "sha256": "ae14f15bf5f8db063a657f2d3a6a157dead830a5265ff660bf2e9b81bee7e635",
+  "text_sha256": "be489ef64700c69f69657c5e12a0449f30274b83932850fd126411177878521c"
  },
  "TC/21.txt": {
-  "source": "21_通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）.pdf",
-  "sha256": "62a72c332dcafbc4cb41ed0f8e2a82073da2cc73a15cd85cb13d7b54d8c65af1"
+  "source": "21_中選讀_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf",
+  "sha256": "b2c354010897e52f9ad8c58b7c19a67664b48c7030af3dfbcf3ea65f5691f299",
+  "text_sha256": "26451a865f94cd84739e638f426b5f1054abc2ef3bbb01128b3218de9d92f4ee"
  },
  "TC/22.txt": {
-  "source": "22_適用於所有金錢服務經營者的常見問題（海關網站）.md",
-  "sha256": "1a306caf7ce345067ede0348c58b0fc9153971999c6d16b7a11e14124cb8d3a7"
+  "source": "22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf",
+  "sha256": "4afdf71a25ba0ff043e3d89b54c8c5981c29f6b38bf9c13b10f882f545720ccc",
+  "text_sha256": "0c2a19f8ff7bdf2b5156b0db82123fc4dfe239b62dcdb870587b88c09ab08f3e"
  },
  "TC/23.txt": {
-  "source": "23_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
-  "sha256": "4c881b7441c643dbb54fe1ca5f4a7f627e2fa9250ba8a94e3d8f3001de2e8f77"
+  "source": "23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+  "sha256": "f664ac2e1954fcef360b9d76d7e4227c3e5cd1f26172c0ad4ad615d980e59c02",
+  "text_sha256": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960"
+ },
+ "TC/24.txt": {
+  "source": "24_中選讀_貿易洗錢風險指標（2021年3月_英文原文）.pdf",
+  "sha256": "5b275417033f2057ababfab3d270e353a942852c0537047b73f12eb948a6135a",
+  "text_sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b"
+ },
+ "TC/25.txt": {
+  "source": "25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+  "sha256": "ba34489c07e47ed80fdbea43ac5f082cc4e5843e0a5701a914c7d5f843bac351",
+  "text_sha256": "39d140261bfe1e7886bf3bbe068f2cf5de8a626bca154a2764190f73a7adb252"
+ },
+ "TC/26.txt": {
+  "source": "26_中選讀_通函_聯合國制裁_原則及預警機制（2018年2月7日）.pdf",
+  "sha256": "f68ee6184dad391f7eb55c1c1f15d7a38d8e88a584daf613ca5351881d8e606b",
+  "text_sha256": "6829cc9518b597794287b65db41b6a8d1228a0437a8a10237b2440074ede51ee"
+ },
+ "TC/30.txt": {
+  "source": "30_歷史參考_貨幣兌換商條例第34章_附表2及3_官方網頁摘錄（2025年8月24日版）.md",
+  "sha256": "e70ea4bdac698f7f717460ff548b555920aa5ef1715ea042a73343eb1212d1c1",
+  "text_sha256": "e70ea4bdac698f7f717460ff548b555920aa5ef1715ea042a73343eb1212d1c1"
+ },
+ "TC/32.txt": {
+  "source": "32_歷史參考_前一期FATF聲明海關通函 (2026-03-20, TC).pdf",
+  "sha256": "c37e6ae7b3ba6f6051ad428535488731f9695fd911b85c49619a2ebe3ebdedfc",
+  "text_sha256": "34014d868b12b4e977d9a3b3fa74f9a3e1a72aee188acb9caa648f2416ec4c47"
+ },
+ "TC/33.txt": {
+  "source": "33_歷史參考_通函_公布香港洗錢及恐怖分子資金籌集風險評估報告（2022年7月11日）.pdf",
+  "sha256": "618935d08d54850b9393f1fdfef78dcd62557aded8d12c145e031b5d14779e33",
+  "text_sha256": "def281a9213cb450a0f91903e3cfbb0df9b471927da1a329a808f09a6cf6e314"
+ },
+ "TC/39.txt": {
+  "source": "39_歷史參考_培訓講義_舉報可疑交易（2026年1月7日上載）.pdf",
+  "sha256": "dc73b8c8e5a816fa94d019ae0a8a50e4f55dcfa30368ef1b337b7a7ec1bbd17d",
+  "text_sha256": "23f39407dcb391be77f39cf8219ca602a402eef4937ea07bc9d08b2b2de1bd52"
+ },
+ "TC/40.txt": {
+  "source": "40_歷史參考_培訓講義_洗錢及恐怖分子資金籌集和擴散融資的風險評估及緩解（2024年3月12日）.pdf",
+  "sha256": "0859bbe6674e340407928773da15b698fad9090e56ee52434a9ed31d79b47b5f",
+  "text_sha256": "3fddebd0737f1a6343f3e966b6f86f4056aa4f978ab1290c66c6336227429499"
+ },
+ "TC/41.txt": {
+  "source": "41_歷史參考_通函_機構層面的洗錢及恐怖分子資金籌集風險評估（2018年8月13日）.pdf",
+  "sha256": "5af7757471953a204850b0b3a8fcb3110ce12555d481ce09ebea6a564e1f908f",
+  "text_sha256": "c1c7d00f3e9fe1307b49c7c6b005c297586868b4d314673676f14216f308cde3"
+ },
+ "TC/42.txt": {
+  "source": "42_歷史參考_通函_與金錢服務經營者有關的欺詐網站及社交媒體平台（2025年4月24日）.pdf",
+  "sha256": "a2138b14c03ff47ecaf9a58e6d569c4d012ce825cf2f9b5e4c6f816b2255ab92",
+  "text_sha256": "545e00a83188e3db9a8132224bbff2aa38a63a26b29ac4b98ab132856034e50b"
+ },
+ "TC/43.txt": {
+  "source": "43_歷史參考_通函_提交旅客資料電子表格（現金類物品）（2025年6月23日）.pdf",
+  "sha256": "ed15a3750ebb8baa2c9f93f6d580e11b45ed9db55f40255b25700710ba6acce6",
+  "text_sha256": "dc0697f42185c2a2a48be017275285651c9726c1f71188d47495289ffa34996b"
+ },
+ "TC/44.txt": {
+  "source": "44_歷史參考_提交旅客資料電子表格（現金類物品）用戶手冊 (Downloaded 2026-10-18; no publication date asserted, TC).pdf",
+  "sha256": "58b0f172d688e2af4da88311318ab8e1b3a75333b6eeadcdd49c5b72becd82bf",
+  "text_sha256": "82cc94e59c50d7d2ed1883ed69b7e4c71328291b62711aaa02f17803f3c679db"
+ },
+ "TC/45.txt": {
+  "source": "45_歷史參考_通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）.pdf",
+  "sha256": "62a72c332dcafbc4cb41ed0f8e2a82073da2cc73a15cd85cb13d7b54d8c65af1",
+  "text_sha256": "4ba4d37075a2d41e5ea74843abbc5158212f0310e22c2532ad02a3b2a86e55e9"
+ },
+ "ZH/27.txt": {
+  "source": "27_Reference_Official report on operations against illegal activities associated with money changers (2024-07, ZH).html",
+  "sha256": "d62dfc1a891a63ef18231243d5544ebade1ecce5dd95624671aa44e426776292",
+  "text_sha256": "3440d103bed14c390392e4953c656c3889fa1107dd5611e96cb68ae8de3fd02b"
+ },
+ "ZH/34.txt": {
+  "source": "34_Reference_UN Security Council Resolution 2270 (2016) (2016, ZH).pdf",
+  "sha256": "b3c0615c995f1a4a9efa56e19aa0fbd1b390444e9a0db545174659a39e89b2d2",
+  "text_sha256": "51393986356af4dcd79392c689a45a1faa97d1143137f60c47350ed3e7f7d430"
+ },
+ "ZH/35.txt": {
+  "source": "35_Reference_UN Security Council Resolution 2321 (2016) (2016, ZH).pdf",
+  "sha256": "a3193cb1a96c23b5ab51f0776733406db48c3b3a65be69ba305faf004df0693e",
+  "text_sha256": "1352e55d31269ef7e4fb423a89e75274b1407125c3cbb52b2769c3c1802d8977"
+ },
+ "ZH/36.txt": {
+  "source": "36_Reference_UN Security Council Resolution 2371 (2017) (2017, ZH).pdf",
+  "sha256": "3aa0f62b20885f2752422a859abaaa854c81311eae5ee1b88e08f773d0641562",
+  "text_sha256": "4fe11e6dc7f4593e1c99fa7e270f0ed6e47ede6dc3ec3d7add30d918720f6ebc"
+ },
+ "ZH/37.txt": {
+  "source": "37_Reference_UN Security Council Resolution 2375 (2017) (2017, ZH).pdf",
+  "sha256": "78a08fc008a4611d5f807d06bc518ecc478e56cca3322a61af8164f475c69e55",
+  "text_sha256": "4b045f9070eb1a5a2b8a4e778c20269f27ffe54de1a8c849bcc5996a58224b09"
+ },
+ "ZH/38.txt": {
+  "source": "38_Reference_UN Security Council Resolution 2397 (2017) (2017, ZH).pdf",
+  "sha256": "cb83810995a42d75da6f41a0238095b5f97f966d90b07c84bcd598d44fa8c47d",
+  "text_sha256": "f807f993f86f12a00869d31d8df60d253dbad184f6d1a7161e9777f50ffbcf03"
  }
 }

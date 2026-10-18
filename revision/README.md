@@ -41,7 +41,9 @@ The build is deterministic: the same sources give the same bytes on any platform
   view. No page compares the two language versions.
 - Where two official documents disagree, the owner's call decides, in both views.
   See `CONFLICT-CALLS.md`.
-- Only current documents are sources: the 23 in [`docs/`](../docs/README.md).
+- The pack uses the original 23 sources (using the reading directory’s document numbers). The expanded
+  [`reading directory`](../docs/README.md) also holds supplementary materials;
+  archiving them does not incorporate their contents into the pack.
 
 ## Check
 

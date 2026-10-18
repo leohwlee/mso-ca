@@ -2,6 +2,7 @@
 import hashlib
 import json
 import pathlib
+import zipfile
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
@@ -34,11 +35,54 @@ def validate_reviews(record, current):
         assert a['verdicts'] == a['tc_verdicts'] == expected, q['id']
     assert reviewed == set(record['added_question_ids']), 'Every addition needs a final bilingual blind review'
 
+def maintenance_followups():
+    """Verify later documentation changes without replacing earlier audit evidence."""
+    proven = set()
+    for path in sorted((HERE / 'maintenance').glob('*.json'), reverse=True):
+        record = json.loads(path.read_text(encoding='utf8'))
+        assert record['status'] == 'verified', path
+        if record.get('archive'):
+            check_hash(record['archive'], record['archive_sha256'])
+        if record.get('archive_preserved'):
+            with zipfile.ZipFile(ROOT / record['archive']) as archive:
+                for p, entry in record['archive_preserved'].items():
+                    raw = archive.read(entry.get('member', p)).replace(b'\r\n', b'\n')
+                    assert hashlib.sha256(raw).hexdigest() == entry['sha256'], p
+                    proven.add((p, entry['sha256']))
+        if record.get('archived_text_versions'):
+            with zipfile.ZipFile(ROOT / record['archive']) as archive:
+                for entry in record['archived_text_versions']:
+                    value = json.loads(archive.read(entry['member']))
+                    for key in entry['json_pointer']:
+                        value = value[key]
+                    assert hashlib.sha256(value.encode('utf8')).hexdigest() == entry['sha256']
+                    proven.add((entry['after'], entry['sha256']))
+        if record.get('archive_updates'):
+            with zipfile.ZipFile(ROOT / record['archive']) as archive:
+                for p, update in record['archive_updates'].items():
+                    before = archive.read(update.get('member', p)).replace(b'\r\n', b'\n')
+                    assert hashlib.sha256(before).hexdigest() == update['before_sha256'], p
+                    if (p, update['after_sha256']) not in proven:
+                        check_hash(p, update['after_sha256'])
+                    proven.add((p, update['before_sha256']))
+        for move in record.get('relocations', []):
+            if (move['after'], move['sha256']) not in proven:
+                check_hash(move['after'], move['sha256'])
+            proven.add((move['before'], move['sha256']))
+        for p, update in record['documentation_updates'].items():
+            before = update['before_text'].encode('utf8')
+            assert hashlib.sha256(before).hexdigest() == update['before_sha256'], p
+            if (p, update['after_sha256']) not in proven:
+                check_hash(p, update['after_sha256'])
+            proven.add((p, update['before_sha256']))
+    return proven
+
 def completion_followup(bank, quotes):
     """Validate final additions/replacements and recover the untouched 338-item state."""
+    proven = maintenance_followups()
     path = HERE / 'remaining-implementation.json'
     if not path.exists():
-        return None, bank, quotes, set()
+        return None, bank, quotes, proven
     d = json.loads(path.read_text(encoding='utf8'))
     assert d['status'] == 'verified'
     current = {q['id']: q for q in bank}
@@ -46,7 +90,8 @@ def completion_followup(bank, quotes):
     assert sum(len(q['truth']) for q in bank) == d['current']['statements']
     assert set(quotes) == set(current), 'Quotes must match the active bank'
     for p, expected in d['current']['sha256'].items():
-        check_hash(p, expected)
+        if (p, expected) not in proven:
+            check_hash(p, expected)
     for review in [d['pack_review']['ci'], d['pack_review']['trust']]:
         check_hash(review['file'], review['sha256'])
         for p, expected in review['source_sha256'].items():
@@ -57,7 +102,9 @@ def completion_followup(bank, quotes):
     refresh = d['source_verification']
     assert len(refresh['pdfs']) == 42 and all(p['binary_equal'] for p in refresh['pdfs'])
     for p in refresh['pdfs']:
-        check_hash(p['archive'].replace('\\','/'), p['sha256'])
+        source = p['archive'].replace('\\','/')
+        if (source, p['sha256']) not in proven:
+            check_hash(source, p['sha256'])
     added = set(d['added_question_ids'])
     assert len(added) == len(d['added_question_ids'])
     retired = {r['old_id']: r for r in d['replacements']}
@@ -75,7 +122,6 @@ def completion_followup(bank, quotes):
     restored_quotes.update({qid:r['quotes'] for qid,r in retired.items()})
     old_bank = [restored[qid] for qid in baseline['question_order']]
     old_quotes = {qid:restored_quotes[qid] for qid in baseline['quote_order']}
-    proven = set()
     for p, value in {'web/questions.json':old_bank, 'docs/quotes.json':old_quotes}.items():
         digest = hashlib.sha256(encoded(value, baseline['newline'][p])).hexdigest()
         assert digest == baseline['sha256'][p], f'Unrecorded change in final wave: {p}'
@@ -84,7 +130,8 @@ def completion_followup(bank, quotes):
     assert sum(len(q['truth']) for q in old_bank) == baseline['statements']
     for p, update in d.get('documentation_updates', {}).items():
         assert hashlib.sha256(update['before_text'].encode('utf8')).hexdigest() == update['before_sha256']
-        check_hash(p, update['after_sha256'])
+        if (p, update['after_sha256']) not in proven:
+            check_hash(p, update['after_sha256'])
         proven.add((p, update['before_sha256']))
     audit = json.loads((HERE / 'coverage.json').read_text(encoding='utf8'))
     backlog = {b['id']:b for b in audit['backlog']}

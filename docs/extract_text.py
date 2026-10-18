@@ -1,4 +1,4 @@
-"""Write the text of every document in docs/EN and docs/TC to docs/text/EN|TC/NN.txt.
+"""Extract all catalogued daily and reference publications to text/LANG/NN.txt.
 
 The question bank's tests check each question's deciding quote against these
 files, so run this again whenever a document in docs/ is added or replaced:
@@ -16,6 +16,9 @@ across a page break reads as one and a quote can span the break. Nothing else is
 changed. Image-only form labels are supplemented from reviewed, page-specific
 transcripts in docs/transcripts/NN.json, tied to the PDF's SHA-256. They are
 appended to their own page and labelled as transcriptions, not automatic OCR.
+
+The catalog document number is also the filename prefix, quote document number,
+extracted-text filename and image-transcript filename.
 
 It also writes docs/text/manifest.json, which records the SHA-256 of the file
 each text came from, so the tests can tell when a document has been replaced
@@ -58,14 +61,25 @@ def unify(text):
 
 def main():
     manifest = {}
-    for lang in ('EN', 'TC'):
+    catalog = json.loads((DOCS / 'catalog.json').read_text(encoding='utf8'))
+    documents = catalog['documents']
+    ids = [document['id'] for document in documents]
+    assert ids == [f'{i:02d}' for i in range(1,len(documents)+1)], 'Invalid document order'
+    for lang in sorted({lang for d in documents for lang in d['editions']}):
         out = DOCS / 'text' / lang
         out.mkdir(parents=True, exist_ok=True)
-        for src in sorted((DOCS / lang).iterdir()):
-            num = src.name[:2]
-            if not num.isdigit():
+        for document in documents:
+            if lang not in document['editions']:
                 continue
-            if src.suffix == '.pdf':
+            num = document['id']
+            edition = document['editions'][lang]
+            src = DOCS / edition.get('path', f'{lang}/{edition["file"]}')
+            assert src.name.startswith(num + '_'), src
+            companion_mode = document.get('text_mode') == 'companion'
+            if companion_mode or src.suffix in {'.docx', '.html'}:
+                from extract_related import extract
+                text = extract(src)
+            elif src.suffix == '.pdf':
                 with pymupdf.open(src) as pdf:
                     pages = [strip_footers(page.get_text()) for page in pdf]
                 transcript = DOCS / 'transcripts' / f'{num}.json'
@@ -80,19 +94,30 @@ def main():
                 text = src.read_text(encoding='utf-8')
             else:
                 continue
-            text = unify(text).replace('\r\n', '\n')
-            (out / f'{num}.txt').write_text(text, encoding='utf-8', newline='\n')
+            text = (text if companion_mode else unify(text)).replace('\r\n', '\n')
+            target = out / f'{num}.txt'
+            if not target.exists() or target.read_text(encoding='utf8') != text:
+                target.write_text(text, encoding='utf-8', newline='\n')
             # Hash with Windows line endings folded, as git may check a text source
             # (the FAQ page) out either way; the tests hash it the same way.
             digest = hashlib.sha256(src.read_bytes().replace(b'\r\n', b'\n')).hexdigest()
-            manifest[f'{lang}/{num}.txt'] = {'source': src.name, 'sha256': digest}
+            text_digest = hashlib.sha256(text.encode('utf8')).hexdigest()
+            edition['text_file'] = f'text/{lang}/{num}.txt'
+            edition['text_sha256'] = text_digest
+            manifest[f'{lang}/{num}.txt'] = {'source': src.name, 'sha256': digest, 'text_sha256': text_digest}
             transcript = DOCS / 'transcripts' / f'{num}.json'
             if src.suffix == '.pdf' and transcript.exists():
                 manifest[f'{lang}/{num}.txt']['transcript_sha256'] = hashlib.sha256(
                     transcript.read_bytes().replace(b'\r\n', b'\n')).hexdigest()
             print(f'{lang}/{num}.txt  {len(text):>9,} characters  from {src.name}', file=sys.stderr)
-    (DOCS / 'text' / 'manifest.json').write_text(
-        json.dumps(manifest, ensure_ascii=False, indent=1) + '\n', encoding='utf-8', newline='\n')
+    target = DOCS / 'text' / 'manifest.json'
+    content = json.dumps(manifest, ensure_ascii=False, indent=1) + '\n'
+    if not target.exists() or target.read_text(encoding='utf8') != content:
+        target.write_text(content, encoding='utf-8', newline='\n')
+    catalog_target = DOCS / 'catalog.json'
+    content = json.dumps(catalog, ensure_ascii=False, indent=2) + '\n'
+    if catalog_target.read_text(encoding='utf8') != content:
+        catalog_target.write_text(content, encoding='utf8', newline='\n')
 
 
 if __name__ == '__main__':

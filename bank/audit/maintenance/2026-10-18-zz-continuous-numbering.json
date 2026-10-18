@@ -1,0 +1,1942 @@
+{
+  "status": "verified",
+  "date": "2026-10-18",
+  "purpose": "One continuous publication number for main and companion documents; update every active citation together. Historical mappings below are migration evidence, not authoring aliases.",
+  "archive": "bank/audit/history/2026-10-18-before-continuous-numbering.zip",
+  "archive_sha256": "2520c163d3484a7600d9d32c5eff13ecb07e42e1068ab7dbc6b39701ae27c1e2",
+  "documentation_updates": {},
+  "archive_updates": {
+    "AGENTS.md": {
+      "before_sha256": "d314594faefe06c703a4c250e428bce08ba9ac8f528c0286684faa3e479f728d",
+      "after_sha256": "4be0a0b3f6394032a688fe8d24ff46a55e5531d80d90c0ecb394557fb8f2263b"
+    },
+    "DEVELOPMENT.md": {
+      "before_sha256": "3218103e38bfbd00bff3ec4681a0b245edf24c598fb2b20722757eb72a25ecb7",
+      "after_sha256": "a4be00307a66c3f0f55e83676fc80fc0f8b2f2b5f588d20d07b6aeb529019091"
+    },
+    "DEVELOPMENT.zh-Hant.md": {
+      "before_sha256": "b2ff45960c07bbcd6e5a27dc4574056246b701221e96946151daed5cae62e682",
+      "after_sha256": "fb610d4ec78a9d3da39d195517e0c74b31b47297eaa454234f47c895dc401a66"
+    },
+    "LICENSE-CONTENT.md": {
+      "before_sha256": "9d81819fd4e257829f0ef5c87dc37ad0be0826944c37d21422d74a4ccc8e3a3d",
+      "after_sha256": "c3945a87f9c4a020d52f00fb808a8273e054049d4dd6ae7fbf24c73904c43af6"
+    },
+    "README.md": {
+      "before_sha256": "768da6647e517adb525bbfb8a9fc74d6ab0798e26837552c74a7d0c655a7ca03",
+      "after_sha256": "b16a93ffa1d3e6f444fc403494e63ec452697840a25e728a7c5a2b91d15ded1c"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "14360badb9da9716ab92ea793cff527c2aa457f1aa271c21d0ebd2196bd73ec9",
+      "after_sha256": "705fa83f80cf762890bce3404062d85077f45292479de546c9e32cbf47d7eaa8"
+    },
+    "sources_test.go": {
+      "before_sha256": "515af893949c4654d9dace36b2200548fc6c49b4abb396c220c486f2b8612827",
+      "after_sha256": "68dc7f27165400648e2d5c26865e2406836dc887963e20ef9518a91720e1cbab"
+    },
+    "bank/FORMAT.md": {
+      "before_sha256": "6aa8ab2d13fec996b114cc5f65dbe6d496c08799cf3f8e564b04c6d0adf41d19",
+      "after_sha256": "58a2c8b2e445ff62a1925e9c880972e6dddd128bb1b1270ada1aca0d4a329366"
+    },
+    "docs/build_catalog.py": {
+      "before_sha256": "16b6f514392698fdb4bf34278f7f2745b3ba6dc2f3fd3b305a68872e5d498824",
+      "after_sha256": "ea03f1d633837e50a0f4e84800809d59ab83e141e5961a23dc8b07ef43b0c926"
+    },
+    "docs/catalog.json": {
+      "before_sha256": "cb148447a771435bd29fd10e899559717c05d8e69ac832c6242127eac9d4824e",
+      "after_sha256": "5d7c5134d5122ea9d654fe101dac61c982f0ee9735efd5754aabf2b60f02e34a"
+    },
+    "docs/extract_related.py": {
+      "before_sha256": "3d62bd9cc4d2db84d15482eac917582e80da73c6799db883f1ecfe055951a2e3",
+      "after_sha256": "42eecf5fe4aff1dc85a8bfa2ec6c554a86cfd2b9d99a3d95ce106c7a202d6a79"
+    },
+    "docs/extract_text.py": {
+      "before_sha256": "04117017053defddbfee8e098925c65060f458be08176c457b59ec0e79e833c4",
+      "after_sha256": "97ece8327fdde869db0f1aa2710fe93f4c46259bec9b8b7651f48ad7fd25e2ff"
+    },
+    "docs/QUESTION-SOURCES.md": {
+      "before_sha256": "2e053834b85014443d542e618462b048c1f0aee7613907c5f52110ca4c681421",
+      "after_sha256": "37566afb9e1aaf952a8086cbc530505a424e6aa8d6ace6c6bce34859db9e123e"
+    },
+    "docs/QUESTION-SOURCES.zh-Hant.md": {
+      "before_sha256": "1225c31e34e4bd684231d8327326a3bd067b08f90452f8f9f09b6b78ab437d69",
+      "after_sha256": "f06b3cdaaa629b8cd48b808c7a47b8a046f1643748e2f3f00846fd466c07aa15"
+    },
+    "docs/quotes.json": {
+      "before_sha256": "0a069062980fb72e92673e27ba28e92714a6da1ea7d370f57110d8f3d59ac0a0",
+      "after_sha256": "bd264915c5f7a804abfa04620f3d01a089929800eed1b7d4f696378765c395dc"
+    },
+    "docs/README.md": {
+      "before_sha256": "24b280535771c95aa955b01c76cda51632d29febd641e9570347a87080d70082",
+      "after_sha256": "2323c63ee1dad44579694d498d7c87478a407b1b2e190c265f3182dd423aa532"
+    },
+    "docs/README.zh-Hant.md": {
+      "before_sha256": "cf3f4bb8372285562c237c9bcbbf66d885643bd70946764ca1ed3a9ebf120d54",
+      "after_sha256": "10729f5d2780aa3efba78dd1c8ab233d4045d476b3ae17eabcdf77318362979c"
+    },
+    "docs/SOURCE-MAINTENANCE.md": {
+      "before_sha256": "2c5cd4a3760e72ee0f8f670791c8e3fc91155411c92a5b3245eb8844206a91a3",
+      "after_sha256": "9d790ed4e7e34445a302acada0514e434ee4b54fe79ee96a90439fb131d2fd29"
+    },
+    "docs/SOURCE-MAINTENANCE.zh-Hant.md": {
+      "before_sha256": "c07cff41d7bcf43c92f48375439691aa86a98ca969e91d890869ed133786a488",
+      "after_sha256": "0e8b454698993e1373d9e63e2b88191069fbef267a7ee7a0949638efcd1e4db8"
+    },
+    "revision/AUTHOR_GUIDE.md": {
+      "before_sha256": "977db8264dc3520e0d4e797b4d86b86e975fc121e386f67c17f3d4b3c9778fa2",
+      "after_sha256": "e20100f22ea637638007d94d55f6c4e0a11f3428237dd3d76c065e5f2ae9456e"
+    },
+    "revision/CONFLICT-CALLS.md": {
+      "before_sha256": "95e7ddcab08dcc810061548aa597052f2b8a64fde288c43582668ef848072f01",
+      "after_sha256": "f57cd8caf072182dcd99454eac37434125a3508f84608e25e26967010e1f7eed"
+    },
+    "bank/audit/coverage.json": {
+      "before_sha256": "f12d184892d7376f6bf76f83a4929bfd30de4c99711dd28ee3574d4e879e614e",
+      "after_sha256": "afaddd41b8e1fc00327652ff5e390337d8f399da58946d752412bf0489d4c346"
+    },
+    "bank/audit/COVERAGE.md": {
+      "before_sha256": "fc466df9545a73f2ac2b74ada5779292e84c8d663c18c5fae96e6c1513d1dfbd",
+      "after_sha256": "b67c6f222df86cadc3b13970073dc545b2abb7472f0848bcd29bb6dee8bd5b2b"
+    },
+    "bank/audit/EXAM-PREP-REVIEW.md": {
+      "before_sha256": "ede4a41c6009418fdfb09be045d4f9ece35fdc32cc6a3a2560bfd34a5a4d991c",
+      "after_sha256": "d340b0dd1c25e820a3b1cfac5d06faa27fbd503da3674994fbbbfdfb0d930b81"
+    },
+    "bank/audit/implementation.json": {
+      "before_sha256": "a9a58675ef25d29675f8eddfec3545bc6d71ed55c75e64ff4dcd6618a03e04e6",
+      "after_sha256": "298707161692fd289e09f09834b37484782b6692014a83a6c168157caf9f1ce2"
+    },
+    "bank/audit/p1-implementation.json": {
+      "before_sha256": "a8f4b23e5579acf3cf96213acef4864ab298c5ae536ad7071b4c11a8d100b681",
+      "after_sha256": "ece7900fe021b203cedcc408482e15f2687d2a3a9a34b4491a53e34e51eee79f"
+    },
+    "bank/audit/README.md": {
+      "before_sha256": "bf70ddb5c66c8958f491a4d3b6ffec229edb8854df77103880d96e947e83ea51",
+      "after_sha256": "ff00d5b623f6066aaf88f1ab36977d3e25b2d429d0ff4c9df1fe42662428c9b9"
+    },
+    "bank/audit/remaining-implementation.json": {
+      "before_sha256": "2fb2b72dbe75960e2ffedc08abb074a9410b1804fdd73355c94e2f6e052e6671",
+      "after_sha256": "6af0661e935fde7daa70f569b96a6ded8af279d87b63c654261d7046c1bb9a79"
+    },
+    "bank/audit/REMAINING.md": {
+      "before_sha256": "a3dfa8cab9fc5490165185da2701867c9aa4101299af721bdad85a774ab631e5",
+      "after_sha256": "c66066e49d9a476ab91ecc0ea440d08a7cbbf2fe7be37c82ad994f12d0a7a489"
+    },
+    "bank/audit/remaining_report.py": {
+      "before_sha256": "1dcf06f1fb2e5bfd61a200e978a2bbe147c97c7f524119151eab03459e6733be",
+      "after_sha256": "ba89396b7319fcb5b94f86c85213ee0bc56c15c42ba003fd33d3393a3625d66d"
+    },
+    "bank/audit/report.py": {
+      "before_sha256": "4e997832f719df4de1196da369b0f9d131795ef7ed08ff21369c8a7618e605be",
+      "after_sha256": "cca4d2d83b17501658900a5f8311d09eca2d38f269dc3c9c3b457f02aa35bbe8"
+    },
+    "bank/audit/state.py": {
+      "before_sha256": "1e831d4acbe4146643e3ddbda587f3cdd39c7ef28f15e0510f681634174b934f",
+      "after_sha256": "9cf959082af68400168e3127e82b453120fef6ecf5dd15584de7626259affbaf"
+    },
+    "bank/audit/terms-and-roles.json": {
+      "before_sha256": "9bd66cc95a3956be15a371ee96a44e347e1e2f4a447fbbb73c14b38b37dc8177",
+      "after_sha256": "26cf513cf640abf37ff1cd552f73be2e2cdc7f83510f7f23d1b50d09826f6e87"
+    },
+    "bank/audit/TERMS-AND-ROLES.md": {
+      "before_sha256": "1da04678f10b4389dffd16aa61be3a954661e2ce2923dfa773254d0848681b89",
+      "after_sha256": "d0108cacee1076964eb4de9884e933a8dc6ee2ce4e60ba43328a52b3e578fe20"
+    },
+    "docs/archive/README.md": {
+      "before_sha256": "3eea133c308d218698757ef66f2109ae604afe634b5322c4b601ec8e0b6e70b6",
+      "after_sha256": "5c2d48bda328e492758efb2ba04cf4e1019872075d48c8388f01c5b45a554c8f"
+    },
+    "docs/archive/README.zh-Hant.md": {
+      "before_sha256": "15111e12e2c25863edd4610556958cd9210a86c154cb1a3ed1b0fce202d0ea92",
+      "after_sha256": "42f0a704084842bdf61cebd262d4909512ec8a20df0b380d84c577082fc2a40a"
+    },
+    "docs/text/manifest.json": {
+      "before_sha256": "97818dbcf342950f0f56505c3108ab46be9ddb394ddfd974b86a49dfa605ad2e",
+      "after_sha256": "97c5745b92bbaa60d635df8a3c78d77964d9eaa70f4497376141084097679aee"
+    },
+    "docs/text/EN/12.txt": {
+      "before_sha256": "5b8115db9c36f805e661a570119aa490d3915b5cfa2bb0a4259ccfbfe322797a",
+      "after_sha256": "7de82dc23297bc83fdf167b2f23724ab369e3f1d5f279d76cb0b139fff3e3b81"
+    },
+    "docs/text/EN/13.txt": {
+      "before_sha256": "eff8ef73f4c2349e17e6d5de1f50c7ab0b0474ed71706d295cb668d4a3d31d7c",
+      "after_sha256": "74aa274da9fc9fdacc764a885797211e501a6dce2dd8b9cffa8272a83fa18ba4"
+    },
+    "docs/text/EN/14.txt": {
+      "before_sha256": "7de82dc23297bc83fdf167b2f23724ab369e3f1d5f279d76cb0b139fff3e3b81",
+      "after_sha256": "957a691aae6c32234ae7e3c4157b2b5676e7648d272bbdfb1a3062b05fbdb40b"
+    },
+    "docs/text/EN/15.txt": {
+      "before_sha256": "74aa274da9fc9fdacc764a885797211e501a6dce2dd8b9cffa8272a83fa18ba4",
+      "after_sha256": "fcd5a2eddc3e7415c7aeee2b2f8566e9d0fee234cb24b57728795a57708144f2"
+    },
+    "docs/text/EN/16.txt": {
+      "before_sha256": "957a691aae6c32234ae7e3c4157b2b5676e7648d272bbdfb1a3062b05fbdb40b",
+      "after_sha256": "bffd462334ac20e9ef2d96b0db3508ce2acf0935021304d2e5bcfc9dc54ff8ae"
+    },
+    "docs/text/EN/17.txt": {
+      "before_sha256": "9a6a1a3e174d2131f2165c062e522a07a2a67a51cd160603edcdbf7746d23f8c",
+      "after_sha256": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02"
+    },
+    "docs/text/EN/18.txt": {
+      "before_sha256": "fcd5a2eddc3e7415c7aeee2b2f8566e9d0fee234cb24b57728795a57708144f2",
+      "after_sha256": "184f4e17f55491dafe6c4fefcaed000411d69cc2b47aadbfd344620b4cf5727f"
+    },
+    "docs/text/EN/19.txt": {
+      "before_sha256": "bffd462334ac20e9ef2d96b0db3508ce2acf0935021304d2e5bcfc9dc54ff8ae",
+      "after_sha256": "d97ff8fe89bc21e7300c89f4de605c0c2256035e626021ef94d29ed70b30f3a2"
+    },
+    "docs/text/EN/20.txt": {
+      "before_sha256": "b8d28a519f9122dc1a24b61367d02ce8a20886e8a3eb115368e32287bf7e3a2d",
+      "after_sha256": "5b8115db9c36f805e661a570119aa490d3915b5cfa2bb0a4259ccfbfe322797a"
+    },
+    "docs/text/EN/21.txt": {
+      "before_sha256": "184f4e17f55491dafe6c4fefcaed000411d69cc2b47aadbfd344620b4cf5727f",
+      "after_sha256": "eff8ef73f4c2349e17e6d5de1f50c7ab0b0474ed71706d295cb668d4a3d31d7c"
+    },
+    "docs/text/EN/22.txt": {
+      "before_sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b",
+      "after_sha256": "9a6a1a3e174d2131f2165c062e522a07a2a67a51cd160603edcdbf7746d23f8c"
+    },
+    "docs/text/EN/23.txt": {
+      "before_sha256": "d97ff8fe89bc21e7300c89f4de605c0c2256035e626021ef94d29ed70b30f3a2",
+      "after_sha256": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960"
+    },
+    "docs/text/EN/24.txt": {
+      "before_sha256": "e85f159cfd9e6f5e4a23f912fb4f744072964df91be5abd2cc8aaefe104ff9d8",
+      "after_sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b"
+    },
+    "docs/text/EN/28.txt": {
+      "before_sha256": "6e639e85054f4c757905a9db55bebb82198f77b8409aacd1f07b8021f981cf9c",
+      "after_sha256": "b8717faa1858df9e7328aad9841c6e42a8c1d6fb1a48c22905f50ce1aa442aa3"
+    },
+    "docs/text/EN/30.txt": {
+      "before_sha256": "48df79e5d58a23d45479076d703c417a1dcce24a80fc352776522ffcd2d5e5ff",
+      "after_sha256": "b8d28a519f9122dc1a24b61367d02ce8a20886e8a3eb115368e32287bf7e3a2d"
+    },
+    "docs/text/EN/31.txt": {
+      "before_sha256": "ec01469aa0fb8da0f63640f15bc97fb39a4547c4d9d2044808d61915a22af5ac",
+      "after_sha256": "d4d5a033d2dc08217680a8686c6b1c46d0e4eae28bd0c2cab402309b3694a8b3"
+    },
+    "docs/text/EN/32.txt": {
+      "before_sha256": "e8189d6083c6dfa8749ed99311fa836109ab4d607b07584a4b47ca3b598edd05",
+      "after_sha256": "f45f41f916627b51f794a2904115455aadcadea6531f3c519b11eecf6f335653"
+    },
+    "docs/text/TC/12.txt": {
+      "before_sha256": "be489ef64700c69f69657c5e12a0449f30274b83932850fd126411177878521c",
+      "after_sha256": "20b6ca2e167687184b0853155edaf4207a5461d4af72c38cbb6ea651f3ffb21b"
+    },
+    "docs/text/TC/13.txt": {
+      "before_sha256": "26451a865f94cd84739e638f426b5f1054abc2ef3bbb01128b3218de9d92f4ee",
+      "after_sha256": "02005281155be6a7c528acb7a94cbf9b5be4c1f9959437454b6031d8c0320873"
+    },
+    "docs/text/TC/14.txt": {
+      "before_sha256": "20b6ca2e167687184b0853155edaf4207a5461d4af72c38cbb6ea651f3ffb21b",
+      "after_sha256": "88ae03601bfd2163aaa7171fcc6dc88159e1c24c87825c206c2cc38ecd8d774d"
+    },
+    "docs/text/TC/15.txt": {
+      "before_sha256": "02005281155be6a7c528acb7a94cbf9b5be4c1f9959437454b6031d8c0320873",
+      "after_sha256": "511f3dd05c92af3f0314975de84480c7e0efff15f69913efd47e70d90e458040"
+    },
+    "docs/text/TC/16.txt": {
+      "before_sha256": "88ae03601bfd2163aaa7171fcc6dc88159e1c24c87825c206c2cc38ecd8d774d",
+      "after_sha256": "f83fef9e5d4a80c35fbb3c2a3a32e7477664aef772f72c1dd8cee8126fbc6854"
+    },
+    "docs/text/TC/17.txt": {
+      "before_sha256": "0c2a19f8ff7bdf2b5156b0db82123fc4dfe239b62dcdb870587b88c09ab08f3e",
+      "after_sha256": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02"
+    },
+    "docs/text/TC/18.txt": {
+      "before_sha256": "511f3dd05c92af3f0314975de84480c7e0efff15f69913efd47e70d90e458040",
+      "after_sha256": "f57b9b72fad554b31f4fba3466a5ddece46f692cf3827c1f4055133a0d89bdfb"
+    },
+    "docs/text/TC/19.txt": {
+      "before_sha256": "f83fef9e5d4a80c35fbb3c2a3a32e7477664aef772f72c1dd8cee8126fbc6854",
+      "after_sha256": "6a4699cacc07bdadcf2908d22f845c3958f6067b1b2b631592483d34e306d179"
+    },
+    "docs/text/TC/20.txt": {
+      "before_sha256": "e70ea4bdac698f7f717460ff548b555920aa5ef1715ea042a73343eb1212d1c1",
+      "after_sha256": "be489ef64700c69f69657c5e12a0449f30274b83932850fd126411177878521c"
+    },
+    "docs/text/TC/21.txt": {
+      "before_sha256": "f57b9b72fad554b31f4fba3466a5ddece46f692cf3827c1f4055133a0d89bdfb",
+      "after_sha256": "26451a865f94cd84739e638f426b5f1054abc2ef3bbb01128b3218de9d92f4ee"
+    },
+    "docs/text/TC/22.txt": {
+      "before_sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b",
+      "after_sha256": "0c2a19f8ff7bdf2b5156b0db82123fc4dfe239b62dcdb870587b88c09ab08f3e"
+    },
+    "docs/text/TC/23.txt": {
+      "before_sha256": "6a4699cacc07bdadcf2908d22f845c3958f6067b1b2b631592483d34e306d179",
+      "after_sha256": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960"
+    },
+    "docs/text/TC/24.txt": {
+      "before_sha256": "def281a9213cb450a0f91903e3cfbb0df9b471927da1a329a808f09a6cf6e314",
+      "after_sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b"
+    },
+    "docs/text/TC/30.txt": {
+      "before_sha256": "545e00a83188e3db9a8132224bbff2aa38a63a26b29ac4b98ab132856034e50b",
+      "after_sha256": "e70ea4bdac698f7f717460ff548b555920aa5ef1715ea042a73343eb1212d1c1"
+    },
+    "docs/text/TC/32.txt": {
+      "before_sha256": "4ba4d37075a2d41e5ea74843abbc5158212f0310e22c2532ad02a3b2a86e55e9",
+      "after_sha256": "34014d868b12b4e977d9a3b3fa74f9a3e1a72aee188acb9caa648f2416ec4c47"
+    }
+  },
+  "relocations": [
+    {
+      "before": "docs/EN/01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf",
+      "after": "docs/EN/01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf",
+      "sha256": "10558bec35a5923cb07c38ed0990ce34022c3eb25806948778fe6b4a7ab87abc"
+    },
+    {
+      "before": "docs/text/EN/01.txt",
+      "after": "docs/text/EN/01.txt",
+      "sha256": "908295f836745a31712fbc0ded041d47434212f2ea63400862414bbd5923b0d2"
+    },
+    {
+      "before": "docs/TC/01_高_能力評核須知（2022年12月）.pdf",
+      "after": "docs/TC/01_高_能力評核須知（2022年12月）.pdf",
+      "sha256": "3eb4a64e563e94dbda91906e368137447e2a42bc50dc7051bb66f61b8d3ea58a"
+    },
+    {
+      "before": "docs/text/TC/01.txt",
+      "after": "docs/text/TC/01.txt",
+      "sha256": "d5fa00d8625ab44b0201637cf5fe79d7f2c4cd7e269819fdf29b5b36521be4de"
+    },
+    {
+      "before": "docs/EN/02_High_Competence Assessment - Sample Questions (12 May 2021).pdf",
+      "after": "docs/EN/02_High_Competence Assessment - Sample Questions (12 May 2021).pdf",
+      "sha256": "7b53caa350ae2b9423457bfe29e3e03f9bbdc99560f062f853ff1c99b58efef6"
+    },
+    {
+      "before": "docs/text/EN/02.txt",
+      "after": "docs/text/EN/02.txt",
+      "sha256": "41ff76f531905650e4fb070d14575df4e51ae172fcacc3be4838f874bcdb977f"
+    },
+    {
+      "before": "docs/TC/02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+      "after": "docs/TC/02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+      "sha256": "8c617f67d75a7a7abf24108d4543c6fb57fc80b4d9214683381131452bef0c3d"
+    },
+    {
+      "before": "docs/text/TC/02.txt",
+      "after": "docs/text/TC/02.txt",
+      "sha256": "c45c615e0108d20e2696de9601b3e836a4802c2357f0bd8607b82907df32c337"
+    },
+    {
+      "before": "docs/EN/03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "after": "docs/EN/03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "sha256": "7a7b81ec6880a0e22c1d3e116f1016109dc6b54c33726e6a57fb1cff5d06eabc"
+    },
+    {
+      "before": "docs/text/EN/03.txt",
+      "after": "docs/text/EN/03.txt",
+      "sha256": "6c602e7e4d82a4cf5bbd2a57b9e3fb5b8c20f9e4785c04a130baff34ab53d9ab"
+    },
+    {
+      "before": "docs/TC/03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+      "after": "docs/TC/03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+      "sha256": "8639a9dc8fc4c7dad3ab467db43d69ffe73a4ce156030248dc68c2d8d3cf60bd"
+    },
+    {
+      "before": "docs/text/TC/03.txt",
+      "after": "docs/text/TC/03.txt",
+      "sha256": "a22ad6aac57c9a85513ba3b1d3f44d8edd206b5278728a79454a353738d6f1ad"
+    },
+    {
+      "before": "docs/EN/04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf",
+      "after": "docs/EN/04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf",
+      "sha256": "2b5b00d7dc706169b1b2e292136649612f9fbb73b39332eb80dc1a4cf926474a"
+    },
+    {
+      "before": "docs/text/EN/04.txt",
+      "after": "docs/text/EN/04.txt",
+      "sha256": "916a55f448f988bf51d814da36249414c659eb07f1b148da7bfbfc4269811aa1"
+    },
+    {
+      "before": "docs/TC/04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+      "after": "docs/TC/04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+      "sha256": "6853748c7e7513f11cf5f5d54dbff7cffcb2309fca7669a43bde40c042f2fb65"
+    },
+    {
+      "before": "docs/text/TC/04.txt",
+      "after": "docs/text/TC/04.txt",
+      "sha256": "4cc88b13d23b8e89fa3a6ce52b4041027d555289c0569421958ef0ae676af628"
+    },
+    {
+      "before": "docs/EN/05_High_Licensing Guide (May 2026).pdf",
+      "after": "docs/EN/05_High_Licensing Guide (May 2026).pdf",
+      "sha256": "4aeb27ada3f04608da427833ebd564000c3fe3b788fd1d183a63ca04168005e8"
+    },
+    {
+      "before": "docs/text/EN/05.txt",
+      "after": "docs/text/EN/05.txt",
+      "sha256": "2491f72007b9c5efcd3d6c00b4f8ec6c669514c395e468e7b654ad745c0623c8"
+    },
+    {
+      "before": "docs/TC/05_高_牌照指引（2026年5月）.pdf",
+      "after": "docs/TC/05_高_牌照指引（2026年5月）.pdf",
+      "sha256": "4816c53f7e70e4828d5ff5e78baac6032399d06cdcf5a85c342bce577d643089"
+    },
+    {
+      "before": "docs/text/TC/05.txt",
+      "after": "docs/text/TC/05.txt",
+      "sha256": "7b2521e94367502db8a2a4223be0ca07e849630f662abc40b20a40c6b1ae900e"
+    },
+    {
+      "before": "docs/EN/06_High_FAQ applicable to all MSOs (C&ED portal).md",
+      "after": "docs/EN/06_High_FAQ applicable to all MSOs (C&ED portal).md",
+      "sha256": "6dfc89dcf0a37665144cc501ffd64ba8df004121e35a3f5c14a4aa19e3c78264"
+    },
+    {
+      "before": "docs/text/EN/06.txt",
+      "after": "docs/text/EN/06.txt",
+      "sha256": "09e767bd18cce69b416eea0a20aa577d647efb57be831f8a2feed997a1406676"
+    },
+    {
+      "before": "docs/TC/06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+      "after": "docs/TC/06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+      "sha256": "26974ae4446f65b0489c6f0cbb42d303cb2c2621e1752a5be675dba9185244e7"
+    },
+    {
+      "before": "docs/text/TC/06.txt",
+      "after": "docs/text/TC/06.txt",
+      "sha256": "1a306caf7ce345067ede0348c58b0fc9153971999c6d16b7a11e14124cb8d3a7"
+    },
+    {
+      "before": "docs/EN/07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf",
+      "after": "docs/EN/07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf",
+      "sha256": "9921ff297a49cef0543c3df126d07c3bb2befc8f1e7a6e33d62674e81bb0c979"
+    },
+    {
+      "before": "docs/text/EN/07.txt",
+      "after": "docs/text/EN/07.txt",
+      "sha256": "85677c9e208968782ecb9e62c45893796f7dd81bc74efee052579f79aa39ce93"
+    },
+    {
+      "before": "docs/TC/07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf",
+      "after": "docs/TC/07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf",
+      "sha256": "26fdbf82ecab50930f1ca8cd3c2bf2d7ee2df9426d7a7221e5933f9e453b5af3"
+    },
+    {
+      "before": "docs/text/TC/07.txt",
+      "after": "docs/text/TC/07.txt",
+      "sha256": "6b2ea8f37af02b12c7bb205c2861dc573910fbc04745369d775e11ddae8f7654"
+    },
+    {
+      "before": "docs/EN/08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf",
+      "after": "docs/EN/08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf",
+      "sha256": "ba02a8d811184ff6a960e4c9b2ab1e2c63dbaf3e50f1ce9b12e4fd438320056c"
+    },
+    {
+      "before": "docs/text/EN/08.txt",
+      "after": "docs/text/EN/08.txt",
+      "sha256": "c011aae0d478aee648c832582e2fb5e75e91e1e6833d5109afda5ab66e00c244"
+    },
+    {
+      "before": "docs/TC/08_高_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf",
+      "after": "docs/TC/08_高_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf",
+      "sha256": "42e40eb5606949acea68ce90421b9e38dee01f483fe1e7ab3bba52accca7d3a1"
+    },
+    {
+      "before": "docs/text/TC/08.txt",
+      "after": "docs/text/TC/08.txt",
+      "sha256": "2fee66b98482d6198eb903304b85a492e252e6d153c97027471163101a51faa3"
+    },
+    {
+      "before": "docs/EN/09_High_Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021).pdf",
+      "after": "docs/EN/09_High_Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021).pdf",
+      "sha256": "5365977ee13e28ef7379e5c326410c9590a087c79c06beeaeb0df3d11d4117b3"
+    },
+    {
+      "before": "docs/text/EN/09.txt",
+      "after": "docs/text/EN/09.txt",
+      "sha256": "3784682199c3a509f305e0401442c52b9461e4023bdd42f6f4a9a7202d6139b9"
+    },
+    {
+      "before": "docs/TC/09_高_通函_識別和緩解大殺傷力武器擴散融資風險（2021年12月22日）.pdf",
+      "after": "docs/TC/09_高_通函_識別和緩解大殺傷力武器擴散融資風險（2021年12月22日）.pdf",
+      "sha256": "57a2440885e1d4e1ed2fe8232d252e4614b11e0035ffdc5746c6c3ef65ea046f"
+    },
+    {
+      "before": "docs/text/TC/09.txt",
+      "after": "docs/text/TC/09.txt",
+      "sha256": "498bd4a41e7be4e60fb331c14061b2b535a006000be4e23aa53b630f3f2dd2b8"
+    },
+    {
+      "before": "docs/EN/10_Medium-Essential_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf",
+      "after": "docs/EN/10_Medium-Essential_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf",
+      "sha256": "3d829e7a475c0d6b27cecb9606963d6aae7d3cdf0857902a219502ef42116f38"
+    },
+    {
+      "before": "docs/text/EN/10.txt",
+      "after": "docs/text/EN/10.txt",
+      "sha256": "3a378faecce11ce26890b7d7fc54bf52a56665df1adfdfa3ef847bee74145fad"
+    },
+    {
+      "before": "docs/TC/10_中重點_有關適當人選準則的指引（2018年4月）.pdf",
+      "after": "docs/TC/10_中重點_有關適當人選準則的指引（2018年4月）.pdf",
+      "sha256": "9c72af5408a3067e402b8886e313a1f801b204898b7bee82341e717f9da6cf85"
+    },
+    {
+      "before": "docs/text/TC/10.txt",
+      "after": "docs/text/TC/10.txt",
+      "sha256": "3986315b49817d2500302fb14d6b766a19e9216946a52e9bdd4a842d0477e249"
+    },
+    {
+      "before": "docs/EN/11_Medium-Essential_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf",
+      "after": "docs/EN/11_Medium-Essential_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf",
+      "sha256": "cb03247dcc6e9149f5371ad1f3a21fa763e827e1fa8cc6c4697c7a6754c3da38"
+    },
+    {
+      "before": "docs/text/EN/11.txt",
+      "after": "docs/text/EN/11.txt",
+      "sha256": "d742283d13c4685a7650c62d54cb7979f364b87745eb5dca503a6d04a5b841a1"
+    },
+    {
+      "before": "docs/TC/11_中重點_有關適當人選準則的補充指引（2020年1月）.pdf",
+      "after": "docs/TC/11_中重點_有關適當人選準則的補充指引（2020年1月）.pdf",
+      "sha256": "6f2286c0a774fcd78a8fd9f8721b862cde9c09bb499eca6d65a50f3bfd2963dd"
+    },
+    {
+      "before": "docs/text/TC/11.txt",
+      "after": "docs/text/TC/11.txt",
+      "sha256": "603d9a0272d9fc1dd509ce0c1db4f9b2be4d1ae4cceb541bae50b1158b9baa78"
+    },
+    {
+      "before": "docs/EN/14_Medium-Essential_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf",
+      "after": "docs/EN/12_Medium-Essential_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf",
+      "sha256": "6aeee39af0848ac03d989ed2500f6fd8f4947b342fa26b23371d0f51e816a1ca"
+    },
+    {
+      "before": "docs/text/EN/14.txt",
+      "after": "docs/text/EN/12.txt",
+      "sha256": "7de82dc23297bc83fdf167b2f23724ab369e3f1d5f279d76cb0b139fff3e3b81"
+    },
+    {
+      "before": "docs/TC/14_中重點_施加罰款紀律行動指引（2018年4月）.pdf",
+      "after": "docs/TC/12_中重點_施加罰款紀律行動指引（2018年4月）.pdf",
+      "sha256": "ef8a7be34c1dd1f3b3a1a61a9edf1c14a100a89bdb13d51607c750b02295bdf3"
+    },
+    {
+      "before": "docs/text/TC/14.txt",
+      "after": "docs/text/TC/12.txt",
+      "sha256": "20b6ca2e167687184b0853155edaf4207a5461d4af72c38cbb6ea651f3ffb21b"
+    },
+    {
+      "before": "docs/EN/15_Medium-Essential_Disciplinary Fining Guideline (May 2018).pdf",
+      "after": "docs/EN/13_Medium-Essential_Disciplinary Fining Guideline (May 2018).pdf",
+      "sha256": "c098efdd38e152fd2357942e62958be9c32c3061874a1b0c076daedd5f0bba96"
+    },
+    {
+      "before": "docs/text/EN/15.txt",
+      "after": "docs/text/EN/13.txt",
+      "sha256": "74aa274da9fc9fdacc764a885797211e501a6dce2dd8b9cffa8272a83fa18ba4"
+    },
+    {
+      "before": "docs/TC/15_中重點_紀律處分罰款指引（2018年5月）.pdf",
+      "after": "docs/TC/13_中重點_紀律處分罰款指引（2018年5月）.pdf",
+      "sha256": "008b7b72867307ff05ec62eb24377d894c7af956d716c9a4665e4b37287cfc55"
+    },
+    {
+      "before": "docs/text/TC/15.txt",
+      "after": "docs/text/TC/13.txt",
+      "sha256": "02005281155be6a7c528acb7a94cbf9b5be4c1f9959437454b6031d8c0320873"
+    },
+    {
+      "before": "docs/EN/16_Medium-Essential_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf",
+      "after": "docs/EN/14_Medium-Essential_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf",
+      "sha256": "cb231fca14b55843357f7e6e4352ca30536abd58f56a399a33a6b9b97f32ab00"
+    },
+    {
+      "before": "docs/text/EN/16.txt",
+      "after": "docs/text/EN/14.txt",
+      "sha256": "957a691aae6c32234ae7e3c4157b2b5676e7648d272bbdfb1a3062b05fbdb40b"
+    },
+    {
+      "before": "docs/TC/16_中重點_通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）.pdf",
+      "after": "docs/TC/14_中重點_通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）.pdf",
+      "sha256": "8a71d806b4b81a13148f226b93e3425728e0e8920fe741be51ab807baaf36d5b"
+    },
+    {
+      "before": "docs/text/TC/16.txt",
+      "after": "docs/text/TC/14.txt",
+      "sha256": "88ae03601bfd2163aaa7171fcc6dc88159e1c24c87825c206c2cc38ecd8d774d"
+    },
+    {
+      "before": "docs/EN/18_Medium-Essential_Circular - E-submission of the Periodic Return (30 May 2025).pdf",
+      "after": "docs/EN/15_Medium-Essential_Circular - E-submission of the Periodic Return (30 May 2025).pdf",
+      "sha256": "bb0408f2cea27a76c154f750479ee777ccc9859a20800ad44e690117660ce381"
+    },
+    {
+      "before": "docs/text/EN/18.txt",
+      "after": "docs/text/EN/15.txt",
+      "sha256": "973824288c1ac155677468cb4a2da21045b81b711cb8e8f639d3b83b7af5c4ea"
+    },
+    {
+      "before": "docs/TC/18_中重點_通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）.pdf",
+      "after": "docs/TC/15_中重點_通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）.pdf",
+      "sha256": "6f43d3db88a6dc86d65ffc71ccc39fa2908a70feb13e11e03e2b3379e717703a"
+    },
+    {
+      "before": "docs/text/TC/18.txt",
+      "after": "docs/text/TC/15.txt",
+      "sha256": "6503a6c2dcbde669cb809bfad922df53e6c4010888b95556583df975a91f4402"
+    },
+    {
+      "before": "docs/EN/19_Medium-Essential_1_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf",
+      "after": "docs/EN/16_Medium-Essential_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf",
+      "sha256": "77516f642ee66d9b4027f2dbaa95e3771556d200df97fd0b924526e7fcc38cd3"
+    },
+    {
+      "before": "docs/text/EN/19.txt",
+      "after": "docs/text/EN/16.txt",
+      "sha256": "bffd462334ac20e9ef2d96b0db3508ce2acf0935021304d2e5bcfc9dc54ff8ae"
+    },
+    {
+      "before": "docs/TC/19_中重點_1_通函_貨幣兌換商條例第34章之修訂（2025年11月17日）.pdf",
+      "after": "docs/TC/16_中重點_通函_貨幣兌換商條例第34章之修訂（2025年11月17日）.pdf",
+      "sha256": "87afeea96224222473a07b2426689c308f196294fb074948935ed8ef7af1f2d6"
+    },
+    {
+      "before": "docs/text/TC/19.txt",
+      "after": "docs/text/TC/16.txt",
+      "sha256": "f83fef9e5d4a80c35fbb3c2a3a32e7477664aef772f72c1dd8cee8126fbc6854"
+    },
+    {
+      "before": "docs/EN/19_Medium-Essential_2_Supplement - Full Cap 34 (2025-08-24, Bilingual).pdf",
+      "after": "docs/EN/17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf",
+      "sha256": "2df063baeef154c0c8e5a0a29bb38daefb9613537aa18d75d64f4d9bedc45335"
+    },
+    {
+      "before": "docs/text/companions/19_Cap_34.txt",
+      "after": "docs/text/EN/17.txt",
+      "sha256": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02"
+    },
+    {
+      "before": "docs/TC/19_中重點_2_配套_第34章完整條例（2025-08-24_中英雙語）.pdf",
+      "after": "docs/TC/17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf",
+      "sha256": "2df063baeef154c0c8e5a0a29bb38daefb9613537aa18d75d64f4d9bedc45335"
+    },
+    {
+      "before": "docs/text/companions/19_Cap_34.txt",
+      "after": "docs/text/TC/17.txt",
+      "sha256": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02"
+    },
+    {
+      "before": "docs/EN/21_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
+      "after": "docs/EN/18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
+      "sha256": "86181d4d0a0990aa7e8a17a489f23ed59e2f9722ba5cb821a381976e45a52c84"
+    },
+    {
+      "before": "docs/text/EN/21.txt",
+      "after": "docs/text/EN/18.txt",
+      "sha256": "184f4e17f55491dafe6c4fefcaed000411d69cc2b47aadbfd344620b4cf5727f"
+    },
+    {
+      "before": "docs/TC/21_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf",
+      "after": "docs/TC/18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf",
+      "sha256": "7133b84028c505ae02340f1120a99600dc577a9c289c6546ecd8bb0edd5c4e29"
+    },
+    {
+      "before": "docs/text/TC/21.txt",
+      "after": "docs/text/TC/18.txt",
+      "sha256": "f57b9b72fad554b31f4fba3466a5ddece46f692cf3827c1f4055133a0d89bdfb"
+    },
+    {
+      "before": "docs/EN/23_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf",
+      "after": "docs/EN/19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf",
+      "sha256": "fbc823bdf739af3f02e9336c93c48169c0acd9eb7815274394b7b44bb0d2d6d8"
+    },
+    {
+      "before": "docs/text/EN/23.txt",
+      "after": "docs/text/EN/19.txt",
+      "sha256": "d97ff8fe89bc21e7300c89f4de605c0c2256035e626021ef94d29ed70b30f3a2"
+    },
+    {
+      "before": "docs/TC/23_中重點_通函_財務行動特別組織的聲明（2026年7月3日）.pdf",
+      "after": "docs/TC/19_中重點_通函_財務行動特別組織的聲明（2026年7月3日）.pdf",
+      "sha256": "e326d07e4d23a9a47e41df753ac5c58a19b158309c5d25113018e1a6d6ecf948"
+    },
+    {
+      "before": "docs/text/TC/23.txt",
+      "after": "docs/text/TC/19.txt",
+      "sha256": "6a4699cacc07bdadcf2908d22f845c3958f6067b1b2b631592483d34e306d179"
+    },
+    {
+      "before": "docs/EN/12_Medium-Selected_Guidelines for Submission of Business Plan (Ver 12-2019).pdf",
+      "after": "docs/EN/20_Medium-Selected_Guidelines for Submission of Business Plan (Ver 12-2019).pdf",
+      "sha256": "519dadf3e1ec660e3aa50c4669d91ed997712f69551f8f12b02f84d2bd228e9f"
+    },
+    {
+      "before": "docs/text/EN/12.txt",
+      "after": "docs/text/EN/20.txt",
+      "sha256": "5b8115db9c36f805e661a570119aa490d3915b5cfa2bb0a4259ccfbfe322797a"
+    },
+    {
+      "before": "docs/TC/12_中選讀_遞交業務計劃的指引（12-2019版）.pdf",
+      "after": "docs/TC/20_中選讀_遞交業務計劃的指引（12-2019版）.pdf",
+      "sha256": "29ceb2225c2a806ae2140c17420077671684dabed6ba2ba255d3bd95d32a52a4"
+    },
+    {
+      "before": "docs/text/TC/12.txt",
+      "after": "docs/text/TC/20.txt",
+      "sha256": "be489ef64700c69f69657c5e12a0449f30274b83932850fd126411177878521c"
+    },
+    {
+      "before": "docs/EN/13_Medium-Selected_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf",
+      "after": "docs/EN/21_Medium-Selected_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf",
+      "sha256": "ba9101df763fe866fd27bf377819d45c02c4431576a89fe4bb8aa24e0addcf27"
+    },
+    {
+      "before": "docs/text/EN/13.txt",
+      "after": "docs/text/EN/21.txt",
+      "sha256": "eff8ef73f4c2349e17e6d5de1f50c7ab0b0474ed71706d295cb668d4a3d31d7c"
+    },
+    {
+      "before": "docs/TC/13_中選讀_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf",
+      "after": "docs/TC/21_中選讀_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf",
+      "sha256": "4ab95ce206c0e71740f025c90e1195c965e5e54a7b981c9e02d8c945936fed47"
+    },
+    {
+      "before": "docs/text/TC/13.txt",
+      "after": "docs/text/TC/21.txt",
+      "sha256": "26451a865f94cd84739e638f426b5f1054abc2ef3bbb01128b3218de9d92f4ee"
+    },
+    {
+      "before": "docs/EN/17_Medium-Selected_1_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf",
+      "after": "docs/EN/22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf",
+      "sha256": "f07cc3caa50fe51e5524c7d10ed2670cfcd7f0ac70c9a016a1508049f15b4ff0"
+    },
+    {
+      "before": "docs/text/EN/17.txt",
+      "after": "docs/text/EN/22.txt",
+      "sha256": "9a6a1a3e174d2131f2165c062e522a07a2a67a51cd160603edcdbf7746d23f8c"
+    },
+    {
+      "before": "docs/TC/17_中選讀_1_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf",
+      "after": "docs/TC/22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf",
+      "sha256": "3fdb442bf09cd11fd89235e6c35271c17072f22fb5aba66a3a187cc203728431"
+    },
+    {
+      "before": "docs/text/TC/17.txt",
+      "after": "docs/text/TC/22.txt",
+      "sha256": "0c2a19f8ff7bdf2b5156b0db82123fc4dfe239b62dcdb870587b88c09ab08f3e"
+    },
+    {
+      "before": "docs/EN/17_Medium-Selected_2_Supplement - Full Cap 629 (2026-07-31, Bilingual).pdf",
+      "after": "docs/EN/23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf",
+      "sha256": "711f86925ad0c6dba6ae5771089d55236aaba614fbabab3065e5d8e341f25d17"
+    },
+    {
+      "before": "docs/text/companions/17_Cap_629.txt",
+      "after": "docs/text/EN/23.txt",
+      "sha256": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960"
+    },
+    {
+      "before": "docs/TC/17_中選讀_2_配套_第629章完整條例（2026-07-31_中英雙語）.pdf",
+      "after": "docs/TC/23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+      "sha256": "711f86925ad0c6dba6ae5771089d55236aaba614fbabab3065e5d8e341f25d17"
+    },
+    {
+      "before": "docs/text/companions/17_Cap_629.txt",
+      "after": "docs/text/TC/23.txt",
+      "sha256": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960"
+    },
+    {
+      "before": "docs/EN/22_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf",
+      "after": "docs/EN/24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf",
+      "sha256": "670b80270b33354b17263d44393cd65386a96bdb1a171365f217048e7cca6afb"
+    },
+    {
+      "before": "docs/text/EN/22.txt",
+      "after": "docs/text/EN/24.txt",
+      "sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b"
+    },
+    {
+      "before": "docs/TC/22_中選讀_貿易洗錢風險指標（2021年3月_英文原文）.pdf",
+      "after": "docs/TC/24_中選讀_貿易洗錢風險指標（2021年3月_英文原文）.pdf",
+      "sha256": "670b80270b33354b17263d44393cd65386a96bdb1a171365f217048e7cca6afb"
+    },
+    {
+      "before": "docs/text/TC/22.txt",
+      "after": "docs/text/TC/24.txt",
+      "sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b"
+    },
+    {
+      "before": "docs/EN/25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf",
+      "after": "docs/EN/25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf",
+      "sha256": "78f125e6f0997b69938403cf233865de6ae2bc27c715309131b645f9c16d721a"
+    },
+    {
+      "before": "docs/text/EN/25.txt",
+      "after": "docs/text/EN/25.txt",
+      "sha256": "6b410a4644b662a0c595cc843b04730f0af50a7af4f0e129a2d5dafc6c37e254"
+    },
+    {
+      "before": "docs/TC/25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+      "after": "docs/TC/25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+      "sha256": "04a21aa224d068fbd4432ca5ef14d393cb9b03a84b99798f2b44629b88071f4f"
+    },
+    {
+      "before": "docs/text/TC/25.txt",
+      "after": "docs/text/TC/25.txt",
+      "sha256": "39d140261bfe1e7886bf3bbe068f2cf5de8a626bca154a2764190f73a7adb252"
+    },
+    {
+      "before": "docs/EN/26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf",
+      "after": "docs/EN/26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf",
+      "sha256": "8ac13d01d4fb73d6b84f410567eb99e073c58e5a0a694e1f2a6ed989d476bf69"
+    },
+    {
+      "before": "docs/text/EN/26.txt",
+      "after": "docs/text/EN/26.txt",
+      "sha256": "2a44e23b7873502ddce5ee9afc5b919bee28287d08011080227b4c21e6e2ae5c"
+    },
+    {
+      "before": "docs/TC/26_中選讀_通函_聯合國制裁_原則及預警機制（2018年2月7日）.pdf",
+      "after": "docs/TC/26_中選讀_通函_聯合國制裁_原則及預警機制（2018年2月7日）.pdf",
+      "sha256": "aff649abc5ae6a7f91f036764537df538211bf608448258b2faf71522482192c"
+    },
+    {
+      "before": "docs/text/TC/26.txt",
+      "after": "docs/text/TC/26.txt",
+      "sha256": "6829cc9518b597794287b65db41b6a8d1228a0437a8a10237b2440074ede51ee"
+    },
+    {
+      "before": "docs/archive/related/08/換錢黨執法報道_簡體中文_2024-07.html",
+      "after": "docs/archive/ZH/27_Reference_Official report on operations against illegal activities associated with money changers (2024-07, ZH).html",
+      "sha256": "d62dfc1a891a63ef18231243d5544ebade1ecce5dd95624671aa44e426776292"
+    },
+    {
+      "before": "docs/archive/related/08/換錢黨執法報道_簡體中文_2024-07.txt",
+      "after": "docs/text/ZH/27.txt",
+      "sha256": "3440d103bed14c390392e4953c656c3889fa1107dd5611e96cb68ae8de3fd02b"
+    },
+    {
+      "before": "docs/archive/related/09/FATF_PF_Risk_Assessment_and_Mitigation_2021-06_EN.pdf",
+      "after": "docs/archive/EN/28_Reference_FATF Guidance on Proliferation Financing Risk Assessment and Mitigation (2021-06, EN).pdf",
+      "sha256": "5379257c52cfe120a4fe4df832d692b63ab07b38f44298f3af30b6c803558e20"
+    },
+    {
+      "before": "docs/archive/related/09/FATF_PF_Risk_Assessment_and_Mitigation_2021-06_EN.txt",
+      "after": "docs/text/EN/28.txt",
+      "sha256": "b8717faa1858df9e7328aad9841c6e42a8c1d6fb1a48c22905f50ce1aa442aa3"
+    },
+    {
+      "before": "docs/archive/related/09/PF_Risk_Assessment_Webinar_2021-08_雙語.pdf",
+      "after": "docs/archive/BI/29_Reference_Webinar on Proliferation Financing Risk Assessment and Mitigation (2021-08, Bilingual).pdf",
+      "sha256": "c5f0e349e97f19ea17f5f5499bad1ea8b6274b7cc3e10a7de003edc8a0c1ef27"
+    },
+    {
+      "before": "docs/archive/related/09/PF_Risk_Assessment_Webinar_2021-08_雙語.txt",
+      "after": "docs/text/BI/29.txt",
+      "sha256": "214e0088bf7d2e8b6c3aefcd35f9fc7b4b03184f14501d348b67a9e1cd1bf3e1"
+    },
+    {
+      "before": "docs/archive/EN/20_Medium_Money Changers Ordinance Cap 34 - Schedules 2 and 3 - Official Webpage Extract (24 Aug 2025).md",
+      "after": "docs/archive/EN/30_Reference_Money Changers Ordinance Cap 34 - Schedules 2 and 3 - Official Webpage Extract (24 Aug 2025).md",
+      "sha256": "b8d28a519f9122dc1a24b61367d02ce8a20886e8a3eb115368e32287bf7e3a2d"
+    },
+    {
+      "before": "docs/text/EN/20.txt",
+      "after": "docs/text/EN/30.txt",
+      "sha256": "b8d28a519f9122dc1a24b61367d02ce8a20886e8a3eb115368e32287bf7e3a2d"
+    },
+    {
+      "before": "docs/archive/TC/20_中_貨幣兌換商條例第34章_附表2及3_官方網頁摘錄（2025年8月24日版）.md",
+      "after": "docs/archive/TC/30_歷史參考_貨幣兌換商條例第34章_附表2及3_官方網頁摘錄（2025年8月24日版）.md",
+      "sha256": "e70ea4bdac698f7f717460ff548b555920aa5ef1715ea042a73343eb1212d1c1"
+    },
+    {
+      "before": "docs/text/TC/20.txt",
+      "after": "docs/text/TC/30.txt",
+      "sha256": "e70ea4bdac698f7f717460ff548b555920aa5ef1715ea042a73343eb1212d1c1"
+    },
+    {
+      "before": "docs/archive/related/23/FATF_Recommendations_2026-06_EN.pdf",
+      "after": "docs/archive/EN/31_Reference_The FATF Recommendations and Interpretive Notes (2026-06, EN).pdf",
+      "sha256": "3c2553430fdff2c181c1e4c590373c1ad36c5adba36eda50c82a2bbb219f5919"
+    },
+    {
+      "before": "docs/archive/related/23/FATF_Recommendations_2026-06_EN.txt",
+      "after": "docs/text/EN/31.txt",
+      "sha256": "d4d5a033d2dc08217680a8686c6b1c46d0e4eae28bd0c2cab402309b3694a8b3"
+    },
+    {
+      "before": "docs/archive/related/23/Previous_FATF_Circular_2026-03-20_EN.pdf",
+      "after": "docs/archive/EN/32_Reference_Previous Customs circular on FATF statements (2026-03-20, EN).pdf",
+      "sha256": "167b132d880f5b779c04d3de51850b2ad30753d39578b05d01fa42d500558657"
+    },
+    {
+      "before": "docs/archive/related/23/Previous_FATF_Circular_2026-03-20_EN.txt",
+      "after": "docs/text/EN/32.txt",
+      "sha256": "f45f41f916627b51f794a2904115455aadcadea6531f3c519b11eecf6f335653"
+    },
+    {
+      "before": "docs/archive/related/23/前期FATF聲明通函_2026-03-20_TC.pdf",
+      "after": "docs/archive/TC/32_歷史參考_前一期FATF聲明海關通函 (2026-03-20, TC).pdf",
+      "sha256": "22742cae6d7cbeb6656032d4b4de5b7fd6b612d50b891f7f41c1d831fda8c0a2"
+    },
+    {
+      "before": "docs/archive/related/23/前期FATF聲明通函_2026-03-20_TC.txt",
+      "after": "docs/text/TC/32.txt",
+      "sha256": "34014d868b12b4e977d9a3b3fa74f9a3e1a72aee188acb9caa648f2416ec4c47"
+    },
+    {
+      "before": "docs/archive/EN/24_Medium_Circular - Publication of Hong Kong Risk Assessment Report (11 Jul 2022).pdf",
+      "after": "docs/archive/EN/33_Reference_Circular - Publication of Hong Kong Risk Assessment Report (11 Jul 2022).pdf",
+      "sha256": "85f8281957c45b4b8285a3bf0ee569fb7fcef53ba7079ee3312d3d08fbaccb3b"
+    },
+    {
+      "before": "docs/text/EN/24.txt",
+      "after": "docs/text/EN/33.txt",
+      "sha256": "e85f159cfd9e6f5e4a23f912fb4f744072964df91be5abd2cc8aaefe104ff9d8"
+    },
+    {
+      "before": "docs/archive/TC/24_中_通函_公布香港洗錢及恐怖分子資金籌集風險評估報告（2022年7月11日）.pdf",
+      "after": "docs/archive/TC/33_歷史參考_通函_公布香港洗錢及恐怖分子資金籌集風險評估報告（2022年7月11日）.pdf",
+      "sha256": "c6d4db4cd66ad226a5ee0f87210a3650f8b3d3b7759717f5d499c8cb3cefb36d"
+    },
+    {
+      "before": "docs/text/TC/24.txt",
+      "after": "docs/text/TC/33.txt",
+      "sha256": "def281a9213cb450a0f91903e3cfbb0df9b471927da1a329a808f09a6cf6e314"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2270_2016_EN.pdf",
+      "after": "docs/archive/EN/34_Reference_UN Security Council Resolution 2270 (2016) (2016, EN).pdf",
+      "sha256": "f1794056b667cabaa98561500b73c54d81aae676ccd8e7fb62e77000a2aef9dc"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2270_2016_EN.txt",
+      "after": "docs/text/EN/34.txt",
+      "sha256": "a42c736e8375b4288dad6d968d1ccc5b662617cff369fe0bd00f97f51146ec79"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2270_2016_簡體中文.pdf",
+      "after": "docs/archive/ZH/34_Reference_UN Security Council Resolution 2270 (2016) (2016, ZH).pdf",
+      "sha256": "adb58ebe3a752d04b2154e0fb13b28a0f5603e7824028a55ad1aa15425c930c0"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2270_2016_簡體中文.txt",
+      "after": "docs/text/ZH/34.txt",
+      "sha256": "51393986356af4dcd79392c689a45a1faa97d1143137f60c47350ed3e7f7d430"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2321_2016_EN.pdf",
+      "after": "docs/archive/EN/35_Reference_UN Security Council Resolution 2321 (2016) (2016, EN).pdf",
+      "sha256": "bcff15118bb87ba68206fc647aaad76dd85afc2e7e2f10b17271636d8abb08a5"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2321_2016_EN.txt",
+      "after": "docs/text/EN/35.txt",
+      "sha256": "f6195ebc8348cf7dcdf6557c0515754fbf7bc6e75372904d22964e23b263137c"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2321_2016_簡體中文.pdf",
+      "after": "docs/archive/ZH/35_Reference_UN Security Council Resolution 2321 (2016) (2016, ZH).pdf",
+      "sha256": "1cd175ff2e3c49e6e53037a00fb4582b1c126325c7a66c63ed2ad57ab76c2510"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2321_2016_簡體中文.txt",
+      "after": "docs/text/ZH/35.txt",
+      "sha256": "1352e55d31269ef7e4fb423a89e75274b1407125c3cbb52b2769c3c1802d8977"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2371_2017_EN.pdf",
+      "after": "docs/archive/EN/36_Reference_UN Security Council Resolution 2371 (2017) (2017, EN).pdf",
+      "sha256": "398c4d8885d380b9d678c7cacf5b2a7b75ca9df4585d7de038a9d10f428ac895"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2371_2017_EN.txt",
+      "after": "docs/text/EN/36.txt",
+      "sha256": "e50f9e45e7b2d841cdb022f01c85f3c46d004d1f94b3f4d1bc392aef4ef6451e"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2371_2017_簡體中文.pdf",
+      "after": "docs/archive/ZH/36_Reference_UN Security Council Resolution 2371 (2017) (2017, ZH).pdf",
+      "sha256": "84083b404dd6ac9cab7e18088495ba5c798f3cdc79538e23c0634ea00d62b4c6"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2371_2017_簡體中文.txt",
+      "after": "docs/text/ZH/36.txt",
+      "sha256": "4fe11e6dc7f4593e1c99fa7e270f0ed6e47ede6dc3ec3d7add30d918720f6ebc"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2375_2017_EN.pdf",
+      "after": "docs/archive/EN/37_Reference_UN Security Council Resolution 2375 (2017) (2017, EN).pdf",
+      "sha256": "b40ab89b77e9cf523c52d28239398204cf580eff66ec425acddbbe87d5aa661d"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2375_2017_EN.txt",
+      "after": "docs/text/EN/37.txt",
+      "sha256": "7ff14cb7c6ff5681385b4ff88c8a5eaf429a9a74081207df7157e5e31a04735a"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2375_2017_簡體中文.pdf",
+      "after": "docs/archive/ZH/37_Reference_UN Security Council Resolution 2375 (2017) (2017, ZH).pdf",
+      "sha256": "05e0ff2d991fa501f259141376fbd00839a25282e7d94c1e87842df5fff77be0"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2375_2017_簡體中文.txt",
+      "after": "docs/text/ZH/37.txt",
+      "sha256": "4b045f9070eb1a5a2b8a4e778c20269f27ffe54de1a8c849bcc5996a58224b09"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2397_2017_EN.pdf",
+      "after": "docs/archive/EN/38_Reference_UN Security Council Resolution 2397 (2017) (2017, EN).pdf",
+      "sha256": "2f952ebe2177077b90d1dc75a7f9f63b379cc467ed5e32ee7af95479c80cf7de"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2397_2017_EN.txt",
+      "after": "docs/text/EN/38.txt",
+      "sha256": "122d2ea7a0cecf5f8cc0fcec9fd4399c02fbf96e1ee7e0b551780820eea77779"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2397_2017_簡體中文.pdf",
+      "after": "docs/archive/ZH/38_Reference_UN Security Council Resolution 2397 (2017) (2017, ZH).pdf",
+      "sha256": "2389de5a99f54e6d04d2c5552bb2a572bc940ad1ed0d8dae539afc3ed3f1a41e"
+    },
+    {
+      "before": "docs/archive/related/26/UNSCR_2397_2017_簡體中文.txt",
+      "after": "docs/text/ZH/38.txt",
+      "sha256": "f807f993f86f12a00869d31d8df60d253dbad184f6d1a7161e9777f50ffbcf03"
+    },
+    {
+      "before": "docs/archive/EN/27_Medium_Training Slides - Suspicious Transaction Reporting (Uploaded 7 Jan 2026).pdf",
+      "after": "docs/archive/EN/39_Reference_Training Slides - Suspicious Transaction Reporting (Uploaded 7 Jan 2026).pdf",
+      "sha256": "7cc0dbc31a9f985cb954e73e2221655c46fb93895362ca802f8df1835955800d"
+    },
+    {
+      "before": "docs/text/EN/27.txt",
+      "after": "docs/text/EN/39.txt",
+      "sha256": "7c51ae66a08f95ddf31113c38217e24a0169aae9d1484b8de59c9f9b500e7659"
+    },
+    {
+      "before": "docs/archive/TC/27_中_培訓講義_舉報可疑交易（2026年1月7日上載）.pdf",
+      "after": "docs/archive/TC/39_歷史參考_培訓講義_舉報可疑交易（2026年1月7日上載）.pdf",
+      "sha256": "43623837fdc4d37411e5011f81ffbc0147c0bd645aa968343ed86d005407e4de"
+    },
+    {
+      "before": "docs/text/TC/27.txt",
+      "after": "docs/text/TC/39.txt",
+      "sha256": "23f39407dcb391be77f39cf8219ca602a402eef4937ea07bc9d08b2b2de1bd52"
+    },
+    {
+      "before": "docs/archive/EN/28_Medium_Training Slides - ML-TF-PF Risk Assessment and Mitigation (12 Mar 2024).pdf",
+      "after": "docs/archive/EN/40_Reference_Training Slides - ML-TF-PF Risk Assessment and Mitigation (12 Mar 2024).pdf",
+      "sha256": "827063a49c175535e5ca04b4d597088fe31541fb4a82b7532f84539342fa6551"
+    },
+    {
+      "before": "docs/text/EN/28.txt",
+      "after": "docs/text/EN/40.txt",
+      "sha256": "6e639e85054f4c757905a9db55bebb82198f77b8409aacd1f07b8021f981cf9c"
+    },
+    {
+      "before": "docs/archive/TC/28_中_培訓講義_洗錢及恐怖分子資金籌集和擴散融資的風險評估及緩解（2024年3月12日）.pdf",
+      "after": "docs/archive/TC/40_歷史參考_培訓講義_洗錢及恐怖分子資金籌集和擴散融資的風險評估及緩解（2024年3月12日）.pdf",
+      "sha256": "059bc974135aa847ac6323fb4ac0c994c61e9fdae7a5340cd541ce77de053e87"
+    },
+    {
+      "before": "docs/text/TC/28.txt",
+      "after": "docs/text/TC/40.txt",
+      "sha256": "3fddebd0737f1a6343f3e966b6f86f4056aa4f978ab1290c66c6336227429499"
+    },
+    {
+      "before": "docs/archive/EN/29_Low_Circular - ML-TF Institutional Risk Assessment (13 Aug 2018).pdf",
+      "after": "docs/archive/EN/41_Reference_Circular - ML-TF Institutional Risk Assessment (13 Aug 2018).pdf",
+      "sha256": "aa02e2ebda12b448a7abbd4c5f0b31fe7fccb5affe04dc2b440578923a21216d"
+    },
+    {
+      "before": "docs/text/EN/29.txt",
+      "after": "docs/text/EN/41.txt",
+      "sha256": "6333e7daa7ccf0de76cbb92863dac38cf12ba2d3c63aa7e2d391104cd417c8a4"
+    },
+    {
+      "before": "docs/archive/TC/29_低_通函_機構層面的洗錢及恐怖分子資金籌集風險評估（2018年8月13日）.pdf",
+      "after": "docs/archive/TC/41_歷史參考_通函_機構層面的洗錢及恐怖分子資金籌集風險評估（2018年8月13日）.pdf",
+      "sha256": "deb89dbf6fdd4e44dfe29f0a2161322c3cb3755409b1fb7a3fc4b75ef15e68d4"
+    },
+    {
+      "before": "docs/text/TC/29.txt",
+      "after": "docs/text/TC/41.txt",
+      "sha256": "c1c7d00f3e9fe1307b49c7c6b005c297586868b4d314673676f14216f308cde3"
+    },
+    {
+      "before": "docs/archive/EN/30_Low_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf",
+      "after": "docs/archive/EN/42_Reference_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf",
+      "sha256": "fbeb22630cab6aa2e859321d295df7bb874516e0f646749caa75417feacc914b"
+    },
+    {
+      "before": "docs/text/EN/30.txt",
+      "after": "docs/text/EN/42.txt",
+      "sha256": "48df79e5d58a23d45479076d703c417a1dcce24a80fc352776522ffcd2d5e5ff"
+    },
+    {
+      "before": "docs/archive/TC/30_低_通函_與金錢服務經營者有關的欺詐網站及社交媒體平台（2025年4月24日）.pdf",
+      "after": "docs/archive/TC/42_歷史參考_通函_與金錢服務經營者有關的欺詐網站及社交媒體平台（2025年4月24日）.pdf",
+      "sha256": "bcbac65758aaf29395543c7f6f13c46095849bbee90db831714d01046b31eef3"
+    },
+    {
+      "before": "docs/text/TC/30.txt",
+      "after": "docs/text/TC/42.txt",
+      "sha256": "545e00a83188e3db9a8132224bbff2aa38a63a26b29ac4b98ab132856034e50b"
+    },
+    {
+      "before": "docs/archive/EN/31_Low_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf",
+      "after": "docs/archive/EN/43_Reference_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf",
+      "sha256": "f58314d3d5139c6a68e4308e4953cc1a5676cdf0d7a332b7c1ce5e513c550d7c"
+    },
+    {
+      "before": "docs/text/EN/31.txt",
+      "after": "docs/text/EN/43.txt",
+      "sha256": "ec01469aa0fb8da0f63640f15bc97fb39a4547c4d9d2044808d61915a22af5ac"
+    },
+    {
+      "before": "docs/archive/TC/31_低_通函_提交旅客資料電子表格（現金類物品）（2025年6月23日）.pdf",
+      "after": "docs/archive/TC/43_歷史參考_通函_提交旅客資料電子表格（現金類物品）（2025年6月23日）.pdf",
+      "sha256": "b365b20e00118e300a7b32b53a07021a2b51fe06cdeb9629dd57925be6ae32ad"
+    },
+    {
+      "before": "docs/text/TC/31.txt",
+      "after": "docs/text/TC/43.txt",
+      "sha256": "dc0697f42185c2a2a48be017275285651c9726c1f71188d47495289ffa34996b"
+    },
+    {
+      "before": "docs/archive/related/31/E-form_User_Manual_EN.pdf",
+      "after": "docs/archive/EN/44_Reference_E-form Submission for Passenger Information (CBNIs) User Manual (Downloaded 2026-10-18; no publication date asserted, EN).pdf",
+      "sha256": "24dea74336db4439198523dfd5e8fab696199f595f2f694d559e727f7d891438"
+    },
+    {
+      "before": "docs/archive/related/31/E-form_User_Manual_EN.txt",
+      "after": "docs/text/EN/44.txt",
+      "sha256": "946cdf388a5212b441a2e2ec11c326ab5ad94a02604c654eceb124c9645d558b"
+    },
+    {
+      "before": "docs/archive/related/31/旅客電子表格用戶手冊_TC.pdf",
+      "after": "docs/archive/TC/44_歷史參考_提交旅客資料電子表格（現金類物品）用戶手冊 (Downloaded 2026-10-18; no publication date asserted, TC).pdf",
+      "sha256": "a03df5a33c25e5d1347678167a919f072864d88a3a85b4011711f6a849daeed6"
+    },
+    {
+      "before": "docs/archive/related/31/旅客電子表格用戶手冊_TC.txt",
+      "after": "docs/text/TC/44.txt",
+      "sha256": "82cc94e59c50d7d2ed1883ed69b7e4c71328291b62711aaa02f17803f3c679db"
+    },
+    {
+      "before": "docs/archive/EN/32_Low_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf",
+      "after": "docs/archive/EN/45_Reference_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf",
+      "sha256": "068cbb0780c2e51752b136eee5aa3784153a1d551e7fd67a29a605b88897c47c"
+    },
+    {
+      "before": "docs/text/EN/32.txt",
+      "after": "docs/text/EN/45.txt",
+      "sha256": "e8189d6083c6dfa8749ed99311fa836109ab4d607b07584a4b47ca3b598edd05"
+    },
+    {
+      "before": "docs/archive/TC/32_低_通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）.pdf",
+      "after": "docs/archive/TC/45_歷史參考_通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）.pdf",
+      "sha256": "bd5261a6a3843643bef21bcca572c35e0de5f2c374d79a250bdc5cd46b44794c"
+    },
+    {
+      "before": "docs/text/TC/32.txt",
+      "after": "docs/text/TC/45.txt",
+      "sha256": "4ba4d37075a2d41e5ea74843abbc5158212f0310e22c2532ad02a3b2a86e55e9"
+    },
+    {
+      "before": "docs/archive/related/32/R16_Consultation_Explanatory_Memorandum_2026-06_EN.pdf",
+      "after": "docs/archive/EN/46_Reference_R.16 Guidance public consultation explanatory memorandum (2026-06 consultation, EN).pdf",
+      "sha256": "bbf43b9268b64e3849021fb9022710d7b32c3a7affe655653d7e3099c4b56d0a"
+    },
+    {
+      "before": "docs/archive/related/32/R16_Consultation_Explanatory_Memorandum_2026-06_EN.txt",
+      "after": "docs/text/EN/46.txt",
+      "sha256": "9b7dfee5520378f8c15c4fbf0f0e9ffdb23e0bb3e507026fdd7797d331ed79e6"
+    },
+    {
+      "before": "docs/archive/related/32/R16_Guidance_Consultation_Draft_2026-06_EN.docx",
+      "after": "docs/archive/EN/47_Reference_Draft Recommendation 16 Guidance for consultation (2026-06 consultation draft, EN).docx",
+      "sha256": "a48eea7af6892b533ad1ce80f8ba9337eef5a1f56569724190d3c67e053ddc34"
+    },
+    {
+      "before": "docs/archive/related/32/R16_Guidance_Consultation_Draft_2026-06_EN.txt",
+      "after": "docs/text/EN/47.txt",
+      "sha256": "18f8e6a7e8e7e45ada1064b1901b6f496e567032ac96990f21c9f54f589da9d6"
+    },
+    {
+      "before": "docs/transcripts/18.json",
+      "after": "docs/transcripts/15.json",
+      "sha256": "fe7382ebcc0d17caca5a0389aaafad4dc66473361c77f899206c8896c4771134"
+    },
+    {
+      "before": "docs/archive/link-review.json",
+      "after": "bank/audit/history/2026-10-18-download-review-before-continuous-numbering.json",
+      "sha256": "d56c2b0cb861855815b1a6de82af115636e94adf7d1ef8d0ce4189cc69160237"
+    }
+  ],
+  "historical_main_number_migration": {
+    "01": "01",
+    "02": "02",
+    "03": "03",
+    "04": "04",
+    "05": "05",
+    "06": "06",
+    "07": "07",
+    "08": "08",
+    "09": "09",
+    "10": "10",
+    "11": "11",
+    "14": "12",
+    "15": "13",
+    "16": "14",
+    "18": "15",
+    "19": "16",
+    "21": "18",
+    "23": "19",
+    "12": "20",
+    "13": "21",
+    "17": "22",
+    "22": "24",
+    "25": "25",
+    "26": "26",
+    "20": "30",
+    "24": "33",
+    "27": "39",
+    "28": "40",
+    "29": "41",
+    "30": "42",
+    "31": "43",
+    "32": "45"
+  },
+  "publication_assignments": [
+    {
+      "kind": "main",
+      "old_parent": "01",
+      "companion_index": null,
+      "new": "01",
+      "focus": "core"
+    },
+    {
+      "kind": "main",
+      "old_parent": "02",
+      "companion_index": null,
+      "new": "02",
+      "focus": "core"
+    },
+    {
+      "kind": "main",
+      "old_parent": "03",
+      "companion_index": null,
+      "new": "03",
+      "focus": "core"
+    },
+    {
+      "kind": "main",
+      "old_parent": "04",
+      "companion_index": null,
+      "new": "04",
+      "focus": "core"
+    },
+    {
+      "kind": "main",
+      "old_parent": "05",
+      "companion_index": null,
+      "new": "05",
+      "focus": "core"
+    },
+    {
+      "kind": "main",
+      "old_parent": "06",
+      "companion_index": null,
+      "new": "06",
+      "focus": "core"
+    },
+    {
+      "kind": "main",
+      "old_parent": "07",
+      "companion_index": null,
+      "new": "07",
+      "focus": "core"
+    },
+    {
+      "kind": "main",
+      "old_parent": "08",
+      "companion_index": null,
+      "new": "08",
+      "focus": "core"
+    },
+    {
+      "kind": "main",
+      "old_parent": "09",
+      "companion_index": null,
+      "new": "09",
+      "focus": "core"
+    },
+    {
+      "kind": "main",
+      "old_parent": "10",
+      "companion_index": null,
+      "new": "10",
+      "focus": "focus"
+    },
+    {
+      "kind": "main",
+      "old_parent": "11",
+      "companion_index": null,
+      "new": "11",
+      "focus": "focus"
+    },
+    {
+      "kind": "main",
+      "old_parent": "14",
+      "companion_index": null,
+      "new": "12",
+      "focus": "focus"
+    },
+    {
+      "kind": "main",
+      "old_parent": "15",
+      "companion_index": null,
+      "new": "13",
+      "focus": "focus"
+    },
+    {
+      "kind": "main",
+      "old_parent": "16",
+      "companion_index": null,
+      "new": "14",
+      "focus": "focus"
+    },
+    {
+      "kind": "main",
+      "old_parent": "18",
+      "companion_index": null,
+      "new": "15",
+      "focus": "focus"
+    },
+    {
+      "kind": "main",
+      "old_parent": "19",
+      "companion_index": null,
+      "new": "16",
+      "focus": "focus"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "19",
+      "companion_index": 0,
+      "new": "17",
+      "focus": "focus"
+    },
+    {
+      "kind": "main",
+      "old_parent": "21",
+      "companion_index": null,
+      "new": "18",
+      "focus": "focus"
+    },
+    {
+      "kind": "main",
+      "old_parent": "23",
+      "companion_index": null,
+      "new": "19",
+      "focus": "focus"
+    },
+    {
+      "kind": "main",
+      "old_parent": "12",
+      "companion_index": null,
+      "new": "20",
+      "focus": "select"
+    },
+    {
+      "kind": "main",
+      "old_parent": "13",
+      "companion_index": null,
+      "new": "21",
+      "focus": "select"
+    },
+    {
+      "kind": "main",
+      "old_parent": "17",
+      "companion_index": null,
+      "new": "22",
+      "focus": "select"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "17",
+      "companion_index": 0,
+      "new": "23",
+      "focus": "select"
+    },
+    {
+      "kind": "main",
+      "old_parent": "22",
+      "companion_index": null,
+      "new": "24",
+      "focus": "select"
+    },
+    {
+      "kind": "main",
+      "old_parent": "25",
+      "companion_index": null,
+      "new": "25",
+      "focus": "select"
+    },
+    {
+      "kind": "main",
+      "old_parent": "26",
+      "companion_index": null,
+      "new": "26",
+      "focus": "select"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "08",
+      "companion_index": 0,
+      "new": "27",
+      "focus": "archive"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "09",
+      "companion_index": 0,
+      "new": "28",
+      "focus": "archive"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "09",
+      "companion_index": 1,
+      "new": "29",
+      "focus": "archive"
+    },
+    {
+      "kind": "main",
+      "old_parent": "20",
+      "companion_index": null,
+      "new": "30",
+      "focus": "archive"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "23",
+      "companion_index": 0,
+      "new": "31",
+      "focus": "archive"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "23",
+      "companion_index": 1,
+      "new": "32",
+      "focus": "archive"
+    },
+    {
+      "kind": "main",
+      "old_parent": "24",
+      "companion_index": null,
+      "new": "33",
+      "focus": "archive"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "26",
+      "companion_index": 0,
+      "new": "34",
+      "focus": "archive"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "26",
+      "companion_index": 1,
+      "new": "35",
+      "focus": "archive"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "26",
+      "companion_index": 2,
+      "new": "36",
+      "focus": "archive"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "26",
+      "companion_index": 3,
+      "new": "37",
+      "focus": "archive"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "26",
+      "companion_index": 4,
+      "new": "38",
+      "focus": "archive"
+    },
+    {
+      "kind": "main",
+      "old_parent": "27",
+      "companion_index": null,
+      "new": "39",
+      "focus": "archive"
+    },
+    {
+      "kind": "main",
+      "old_parent": "28",
+      "companion_index": null,
+      "new": "40",
+      "focus": "archive"
+    },
+    {
+      "kind": "main",
+      "old_parent": "29",
+      "companion_index": null,
+      "new": "41",
+      "focus": "archive"
+    },
+    {
+      "kind": "main",
+      "old_parent": "30",
+      "companion_index": null,
+      "new": "42",
+      "focus": "archive"
+    },
+    {
+      "kind": "main",
+      "old_parent": "31",
+      "companion_index": null,
+      "new": "43",
+      "focus": "archive"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "31",
+      "companion_index": 0,
+      "new": "44",
+      "focus": "archive"
+    },
+    {
+      "kind": "main",
+      "old_parent": "32",
+      "companion_index": null,
+      "new": "45",
+      "focus": "archive"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "32",
+      "companion_index": 0,
+      "new": "46",
+      "focus": "archive"
+    },
+    {
+      "kind": "companion",
+      "old_parent": "32",
+      "companion_index": 1,
+      "new": "47",
+      "focus": "archive"
+    }
+  ],
+  "quote_snapshot_derivations": [
+    {
+      "name": "active",
+      "questions": 357,
+      "before_sha256": "0a069062980fb72e92673e27ba28e92714a6da1ea7d370f57110d8f3d59ac0a0",
+      "after_sha256": "bd264915c5f7a804abfa04620f3d01a089929800eed1b7d4f696378765c395dc"
+    },
+    {
+      "name": "remaining-implementation.json baseline",
+      "questions": 338,
+      "before_sha256": "ecb5ad994e951544f507008a5421abea30e409457b115a85b8a55b0b50e0e84d",
+      "after_sha256": "73585cb799e087e1d4a97209c374aa07068b35f80eed59772572e2ebd9a785ef"
+    },
+    {
+      "name": "p1-implementation.json baseline",
+      "questions": 320,
+      "before_sha256": "f7f8ae24bbab9a02838b94d22249383920fdaf8b97341ade9ed813e94913d906",
+      "after_sha256": "d46f6a1da4e0f97c801bdb834d55a7b1900b9f53fad860acc7e1a3e691509df1"
+    },
+    {
+      "name": "implementation.json baseline",
+      "questions": 299,
+      "before_sha256": "3dca16338edf960be4c600c141c0527c5316ac309049f5351b6ae9bba8d27216",
+      "after_sha256": "aa58e119ed44f8d082cdec229a40632e37a87b12e5ead0ef699d79924983c87a"
+    },
+    {
+      "name": "initial coverage baseline",
+      "questions": 297,
+      "before_sha256": "ea6c51c33922f622327185887a58b8d3b97da5ee5f1706c5cf42a669bdc3cfef",
+      "after_sha256": "6e9391799b47db7d86d61f3bd01d31c2773c90f0bbc9f7845a5ae5dbda297449"
+    }
+  ],
+  "explicit_document_label_updates": [
+    {
+      "path": "bank/audit/coverage.json/source_accounting/4/note",
+      "before": "財務穩健內容另列缺口；沒有只因沒有引用04而當作空白。",
+      "after": "財務穩健內容另列缺口；沒有只因沒有引用10而當作空白。"
+    },
+    {
+      "path": "bank/audit/coverage.json/source_accounting/7/note",
+      "before": "與09共同因素合併，09相應中文缺口覆核。",
+      "after": "與13共同因素合併，13相應中文缺口覆核。"
+    },
+    {
+      "path": "bank/audit/coverage.json/method_notes/6",
+      "before": "以 b5ad1dc 的 297 题、1499 句为基线；从 02 的全部章节、附录逐项回查七个单元，按实际题句而非引用段落计覆盖。",
+      "after": "以 b5ad1dc 的 297 题、1499 句为基线；从 03 的全部章节、附录逐项回查七个单元，按实际题句而非引用段落计覆盖。"
+    },
+    {
+      "path": "bank/audit/coverage.json/method_notes/9",
+      "before": "本次完整阅读英文 02，优先缺口及已登记语言差异回查繁中；重点缺口的关联题句复查 notes/quotes，确认仅解释出现不算已测试。不是 297 题新一轮盲答，也没有逐句重审每题全部双语说明或联网确认比归档更新的版本。",
+      "after": "本次完整阅读英文 03，优先缺口及已登记语言差异回查繁中；重点缺口的关联题句复查 notes/quotes，确认仅解释出现不算已测试。不是 297 题新一轮盲答，也没有逐句重审每题全部双语说明或联网确认比归档更新的版本。"
+    },
+    {
+      "path": "bank/audit/coverage.json/method_notes/12",
+      "before": "頁碼為PDF實體頁（由1起）；22為網頁文字，無PDF頁碼，以FAQ系列及問答號定位。",
+      "after": "頁碼為PDF實體頁（由1起）；06為網頁文字，無PDF頁碼，以FAQ系列及問答號定位。"
+    },
+    {
+      "path": "bank/audit/coverage.json/method_notes/15",
+      "before": "逐份阅读11–21中英文归档文本，以实际题句而非引用或讲解判断覆盖。16的英文附件第3–5页另渲染原PDF检查截图。",
+      "after": "逐份阅读22、14、07、08、42、15、43、16、18、19、45中英文归档文本，以实际题句而非引用或讲解判断覆盖。15的英文附件第3–5页另渲染原PDF检查截图。"
+    },
+    {
+      "path": "bank/audit/coverage.json/topics/149/locators",
+      "before": "03 ¶1.1–2.8；22牌照FAQ Q2–Q9、Q14",
+      "after": "05 ¶1.1–2.8；06牌照FAQ Q2–Q9、Q14"
+    },
+    {
+      "path": "bank/audit/coverage.json/topics/150/locators",
+      "before": "03 ¶2.9–2.10；22牌照FAQ Q13",
+      "after": "05 ¶2.9–2.10；06牌照FAQ Q13"
+    },
+    {
+      "path": "bank/audit/coverage.json/topics/152/locators",
+      "before": "03 ¶4.1–4.3；04 ¶1–6；05 ¶1–5；22牌照FAQ Q10",
+      "after": "05 ¶4.1–4.3；10 ¶1–6；11 ¶1–5；06牌照FAQ Q10"
+    },
+    {
+      "path": "bank/audit/coverage.json/topics/153/locators",
+      "before": "03 ¶4.4–4.6、4.8–4.10；22牌照FAQ Q11",
+      "after": "05 ¶4.4–4.6、4.8–4.10；06牌照FAQ Q11"
+    },
+    {
+      "path": "bank/audit/coverage.json/topics/162/locators",
+      "before": "¶12.1–13.1、§XIV；22牌照FAQ Q12–Q14",
+      "after": "¶12.1–13.1、§XIV；06牌照FAQ Q12–Q14"
+    },
+    {
+      "path": "bank/audit/coverage.json/topics/164/locators",
+      "before": "03 ¶15.1；22牌照FAQ Q1、Q6、Q15；技術FAQ Q1–Q4",
+      "after": "05 ¶15.1；06牌照FAQ Q1、Q6、Q15；技術FAQ Q1–Q4"
+    },
+    {
+      "path": "bank/audit/coverage.json/topics/165/locators",
+      "before": "04 ¶3–4、6–8；05引言、¶7–9",
+      "after": "10 ¶3–4、6–8；11引言、¶7–9"
+    },
+    {
+      "path": "bank/audit/coverage.json/topics/166/locators",
+      "before": "04 ¶5(a)–(e)；05 ¶6(a)–(p)、(r)",
+      "after": "10 ¶5(a)–(e)；11 ¶6(a)–(p)、(r)"
+    },
+    {
+      "path": "bank/audit/coverage.json/topics/177/locators",
+      "before": "08 ¶1–5；09 ¶1–4",
+      "after": "12 ¶1–5；13 ¶1–4"
+    },
+    {
+      "path": "bank/audit/coverage.json/topics/178/locators",
+      "before": "08 ¶6–9(a)；09 ¶5、7–9(a)",
+      "after": "12 ¶6–9(a)；13 ¶5、7–9(a)"
+    },
+    {
+      "path": "bank/audit/coverage.json/topics/231/locators",
+      "before": "正文第1–6段；03第11.2段",
+      "after": "正文第1–6段；05第11.2段"
+    },
+    {
+      "path": "bank/audit/coverage.json/backlog/15/reason",
+      "before": "先限定牌照指引03原文；与06“第三方账户”表述的跨来源解释尚须厘清。",
+      "after": "先限定牌照指引05原文；与20“第三方账户”表述的跨来源解释尚须厘清。"
+    },
+    {
+      "path": "bank/audit/implementation.json/pack_review/clarification/additional_reviews/0/scope",
+      "before": "第184–185行首格的EN/TC特定处所例子列表；一并阅读第178–193行的经营处所语境及访客／顾客例外。依据为归档doc03 EN/TC《牌照指引》第4.4段，未作整份gl.py全面审核。",
+      "after": "第184–185行首格的EN/TC特定处所例子列表；一并阅读第178–193行的经营处所语境及访客／顾客例外。依据为归档doc05 EN/TC《牌照指引》第4.4段，未作整份gl.py全面审核。"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/0/answer/tc_quotes/0",
+      "before": "02 第2.4(c)(i)段：其業務的性質、規模、多元程度及複雜程度",
+      "after": "03 第2.4(c)(i)段：其業務的性質、規模、多元程度及複雜程度"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/0/answer/tc_quotes/1",
+      "before": "02 第2.4(c)(ii)段：所提供產品及服務的特點，以及它們所面對的洗錢／恐怖分子資金籌集風險程度",
+      "after": "03 第2.4(c)(ii)段：所提供產品及服務的特點，以及它們所面對的洗錢／恐怖分子資金籌集風險程度"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/0/answer/tc_quotes/2",
+      "before": "02 第2.4(c)(iii)段：其交易量及交易規模是否與金錢服務經營者的慣常活動及其客戶概況一致",
+      "after": "03 第2.4(c)(iii)段：其交易量及交易規模是否與金錢服務經營者的慣常活動及其客戶概況一致"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/0/answer/tc_quotes/3",
+      "before": "02 第2.4(c)(v)段：產品或服務是否本身可能有利於以匿名行事",
+      "after": "03 第2.4(c)(v)段：產品或服務是否本身可能有利於以匿名行事"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/0/answer/tc_quotes/4",
+      "before": "02 第2.4(c)(iv)段：金錢服務經營者運用科技的程度，以及此等渠道所面對的洗錢／恐怖分子資金籌集風險程度",
+      "after": "03 第2.4(c)(iv)段：金錢服務經營者運用科技的程度，以及此等渠道所面對的洗錢／恐怖分子資金籌集風險程度"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/1/answer/tc_quotes/0",
+      "before": "02 第4.3.6(a)段：全名",
+      "after": "03 第4.3.6(a)段：全名"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/1/answer/tc_quotes/1",
+      "before": "02 第4.3.6(c)至(d)段：註冊、成立或登記的地點（包括註冊辦事處地址）；(d)獨特識別號碼（例如註冊號碼或商業登記號碼）及文件的類別",
+      "after": "03 第4.3.6(c)至(d)段：註冊、成立或登記的地點（包括註冊辦事處地址）；(d)獨特識別號碼（例如註冊號碼或商業登記號碼）及文件的類別"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/1/answer/tc_quotes/2",
+      "before": "02 第4.3.11(a)至(c)段：信託或法律安排的名稱；(b)成立或結算日期；(c)以法律監管有關信託或法律安排的司法管轄區",
+      "after": "03 第4.3.11(a)至(c)段：信託或法律安排的名稱；(b)成立或結算日期；(c)以法律監管有關信託或法律安排的司法管轄區"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/1/answer/tc_quotes/3",
+      "before": "02 第4.3.11(d)段：任何官方機構授予的獨特識別號碼（如有）及文件的類別",
+      "after": "03 第4.3.11(d)段：任何官方機構授予的獨特識別號碼（如有）及文件的類別"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/1/answer/tc_quotes/4",
+      "before": "02 第4.3.11(e)段：註冊辦事處地址（如適用）",
+      "after": "03 第4.3.11(e)段：註冊辦事處地址（如適用）"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/1/answer/tc_quotes/5",
+      "before": "02 第4.3.7段：一般應參考由可靠及獨立來源所提供的相關文件、數據或資料，以核實該法人的名稱、法定形式、現時（核實時）仍然存在及規管和約束該法人的權力",
+      "after": "03 第4.3.7段：一般應參考由可靠及獨立來源所提供的相關文件、數據或資料，以核實該法人的名稱、法定形式、現時（核實時）仍然存在及規管和約束該法人的權力"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/2/answer/tc_quotes/0",
+      "before": "02 第4.3.12(b)段及註24：成立信託的相關國家的合適登記冊記錄；應顧及須有足夠透明度；擁有權及控制權資料如有改變，該等資料必須加以更新",
+      "after": "03 第4.3.12(b)段及註24：成立信託的相關國家的合適登記冊記錄；應顧及須有足夠透明度；擁有權及控制權資料如有改變，該等資料必須加以更新"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/2/answer/tc_quotes/1",
+      "before": "02 第4.3.12(d)段：由已覆核相關文書的律師簽發的書面確認書",
+      "after": "03 第4.3.12(d)段：由已覆核相關文書的律師簽發的書面確認書"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/2/answer/tc_quotes/2",
+      "before": "02 第4.4.16段：金錢服務經營者應取得證據以確定持票人股份的認可╱註冊保管人，作為其持續定期覆核的一部分",
+      "after": "03 第4.4.16段：金錢服務經營者應取得證據以確定持票人股份的認可╱註冊保管人，作為其持續定期覆核的一部分"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/2/answer/tc_quotes/3",
+      "before": "02 第4.4.17段：金錢服務經營者亦應要求客戶即時知會有關股份擁有權的任何變動情況",
+      "after": "03 第4.4.17段：金錢服務經營者亦應要求客戶即時知會有關股份擁有權的任何變動情況"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/3/answer/tc_quotes/0",
+      "before": "02 第4.3.14段：反映提交時或該金錢服務經營者取得時的現況",
+      "after": "03 第4.3.14段：反映提交時或該金錢服務經營者取得時的現況"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/3/answer/tc_quotes/1",
+      "before": "02 第4.3.16段：如屬自然人的客戶或任何代表法人、信託或其他類似法律安排與金錢服務經營者建立業務關係的人有為盡職審查程序而現身，金錢服務經營者通常可由其職員查看識別文件的正本，並保存該文件的複本",
+      "after": "03 第4.3.16段：如屬自然人的客戶或任何代表法人、信託或其他類似法律安排與金錢服務經營者建立業務關係的人有為盡職審查程序而現身，金錢服務經營者通常可由其職員查看識別文件的正本，並保存該文件的複本"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/3/answer/tc_quotes/2",
+      "before": "22 打擊洗錢及恐怖分子資金籌集答27：金錢服務經營者無須對客戶提供的所有其他客戶盡職審查資料或文件進行認證",
+      "after": "06 打擊洗錢及恐怖分子資金籌集答27：金錢服務經營者無須對客戶提供的所有其他客戶盡職審查資料或文件進行認證"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/3/answer/tc_quotes/3",
+      "before": "22 打擊洗錢及恐怖分子資金籌集答27：金錢服務經營者在能將有關文件與公開來源進行核對的情況下，亦無須認證該等文件",
+      "after": "06 打擊洗錢及恐怖分子資金籌集答27：金錢服務經營者在能將有關文件與公開來源進行核對的情況下，亦無須認證該等文件"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/3/answer/tc_quotes/4",
+      "before": "22 打擊洗錢及恐怖分子資金籌集答27：一般而言，金錢服務經營者應盡量容許客戶（如客戶有意）向金錢服務經營者的職員出示文件正本",
+      "after": "06 打擊洗錢及恐怖分子資金籌集答27：一般而言，金錢服務經營者應盡量容許客戶（如客戶有意）向金錢服務經營者的職員出示文件正本"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/3/answer/tc_quotes/5",
+      "before": "02 第4.14.1段：金錢服務經營者必須向關長、其他主管當局、合規主任、核數師及其他獲適當授權的人員提供客戶盡職審查紀錄",
+      "after": "03 第4.14.1段：金錢服務經營者必須向關長、其他主管當局、合規主任、核數師及其他獲適當授權的人員提供客戶盡職審查紀錄"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/4/answer/tc_quotes/0",
+      "before": "02 附錄A第9段：證明人必須說明該複本文件為正本文件的真確複本(或具類似效力的字詞)",
+      "after": "03 附錄A第9段：證明人必須說明該複本文件為正本文件的真確複本(或具類似效力的字詞)"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/4/answer/tc_quotes/1",
+      "before": "02 附錄A註74：惟該專業人士本身須遵守相關專業團體的專業操守規定，並已經以其專業身分認證該等文件複本",
+      "after": "03 附錄A註74：惟該專業人士本身須遵守相關專業團體的專業操守規定，並已經以其專業身分認證該等文件複本"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/4/answer/tc_quotes/2",
+      "before": "02 附錄A第8(b)段：在對等司法管轄區的司法人員",
+      "after": "03 附錄A第8(b)段：在對等司法管轄區的司法人員"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/4/answer/tc_quotes/3",
+      "before": "02 附錄A第8(d)段：太平紳士",
+      "after": "03 附錄A第8(d)段：太平紳士"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/4/answer/tc_quotes/4",
+      "before": "02 附錄A第8(e)段：其他專業人士，例如會計師、律師、公證人及特許秘書",
+      "after": "03 附錄A第8(e)段：其他專業人士，例如會計師、律師、公證人及特許秘書"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/4/answer/tc_quotes/5",
+      "before": "02 附錄A第10段：當金錢服務經營者未能確定認證文件的真確性，或懷疑有關文件與客戶無關，金錢服務經營者應採取額外措施，以減低洗錢／恐怖分子資金籌集的風險",
+      "after": "03 附錄A第10段：當金錢服務經營者未能確定認證文件的真確性，或懷疑有關文件與客戶無關，金錢服務經營者應採取額外措施，以減低洗錢／恐怖分子資金籌集的風險"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/5/answer/tc_quotes/0",
+      "before": "22 打擊洗錢及恐怖分子資金籌集答16：就高風險客戶而言，金錢服務經營者無須就所有客戶的財富來源以相同方式應用相同的程序",
+      "after": "06 打擊洗錢及恐怖分子資金籌集答16：就高風險客戶而言，金錢服務經營者無須就所有客戶的財富來源以相同方式應用相同的程序"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/5/answer/tc_quotes/1",
+      "before": "22 打擊洗錢及恐怖分子資金籌集答16：亦無須在風險水平不足以支持收集數十年前的證據的情況下收集有關證據，因為此舉通常並不切實可行",
+      "after": "06 打擊洗錢及恐怖分子資金籌集答16：亦無須在風險水平不足以支持收集數十年前的證據的情況下收集有關證據，因為此舉通常並不切實可行"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/5/answer/tc_quotes/2",
+      "before": "22 打擊洗錢及恐怖分子資金籌集答16：例如個人客戶的職業資料、公司客戶的業務性質等），一般應足以讓金錢服務經營者對客戶狀況有基本的了解",
+      "after": "06 打擊洗錢及恐怖分子資金籌集答16：例如個人客戶的職業資料、公司客戶的業務性質等），一般應足以讓金錢服務經營者對客戶狀況有基本的了解"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/5/answer/tc_quotes/3",
+      "before": "22 打擊洗錢及恐怖分子資金籌集答16：並能據此監察戶口結餘及交易金額和交易量是否與客戶的預期財富及狀況一致",
+      "after": "06 打擊洗錢及恐怖分子資金籌集答16：並能據此監察戶口結餘及交易金額和交易量是否與客戶的預期財富及狀況一致"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/6/answer/tc_quotes/0",
+      "before": "02 第4.16.2(a)段：有關司法管轄區是否與特別組織相類似職能的地區組織的成員，以及該與特別組織相類似職能的地區組織發表的相互評估報告",
+      "after": "03 第4.16.2(a)段：有關司法管轄區是否與特別組織相類似職能的地區組織的成員，以及該與特別組織相類似職能的地區組織發表的相互評估報告"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/6/answer/tc_quotes/1",
+      "before": "02 第4.16.2(b)段：有關司法管轄區是否被特別組織識別為缺乏執行打擊洗錢／恐怖分子資金籌集策略，以及近期改善打擊洗錢／恐怖分子資金籌集制度的進度",
+      "after": "03 第4.16.2(b)段：有關司法管轄區是否被特別組織識別為缺乏執行打擊洗錢／恐怖分子資金籌集策略，以及近期改善打擊洗錢／恐怖分子資金籌集制度的進度"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/6/answer/tc_quotes/2",
+      "before": "02 第4.16.2(c)段：任何由關長不時發出的忠告通函，提醒金錢服務經營者哪些司法管轄區在管控打擊洗錢／恐怖分子資金籌集方面表現欠佳",
+      "after": "03 第4.16.2(c)段：任何由關長不時發出的忠告通函，提醒金錢服務經營者哪些司法管轄區在管控打擊洗錢／恐怖分子資金籌集方面表現欠佳"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/6/answer/tc_quotes/3",
+      "before": "02 第4.16.2(d)段：任何由專門化的國家、國際、非政府及商業機構發布關於打擊洗錢／恐怖分子資金籌集的其他刊物",
+      "after": "03 第4.16.2(d)段：任何由專門化的國家、國際、非政府及商業機構發布關於打擊洗錢／恐怖分子資金籌集的其他刊物"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/6/answer/tc_quotes/4",
+      "before": "02 第4.16.2段：金錢服務經營者應將其對該司法管轄區的評估記錄在案",
+      "after": "03 第4.16.2段：金錢服務經營者應將其對該司法管轄區的評估記錄在案"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/blind_review/items/6/answer/tc_quotes/5",
+      "before": "12 第3段：金錢服務經營者亦須定期覆核此等渠道，以符合相關司法管轄區的最新監管規定，並減低洗錢及恐怖分子資金籌集的潛在風險",
+      "after": "14 第3段：金錢服務經營者亦須定期覆核此等渠道，以符合相關司法管轄區的最新監管規定，並減低洗錢及恐怖分子資金籌集的潛在風險"
+    },
+    {
+      "path": "bank/audit/remaining-implementation.json/supporting_document_checklist/scope",
+      "before": "03 EN printed pp26–27 / TC pp22–23, ¶16.1–16.3 all six checklist sections; all categories and listed documents reviewed",
+      "after": "05 EN printed pp26–27 / TC pp22–23, ¶16.1–16.3 all six checklist sections; all categories and listed documents reviewed"
+    },
+    {
+      "path": "bank/audit/terms-and-roles.json/reader_scopes/0/scope/scope",
+      "before": "资料03全部章节、脚注、术语表及附录的机构/岗位及职责边界专项；当前299题",
+      "after": "资料05全部章节、脚注、术语表及附录的机构/岗位及职责边界专项；当前299题"
+    },
+    {
+      "path": "bank/audit/terms-and-roles.json/reader_scopes/1/scope/scope_reviewed/0",
+      "before": "源10 Parts1–7及6A中 MSO 适用定义/主体与基本职责；Sch1Pt1/2词义；Sch2一般定义及2/12/13/18等角色条文；Sch4委员团、主席、成员、代表及委任主体。",
+      "after": "源04 Parts1–7及6A中 MSO 适用定义/主体与基本职责；Sch1Pt1/2词义；Sch2一般定义及2/12/13/18等角色条文；Sch4委员团、主席、成员、代表及委任主体。"
+    },
+    {
+      "path": "bank/audit/terms-and-roles.json/reader_scopes/3/scope/scope",
+      "before": "源02的概念及定義；機構／內部角色、法例及其他資料定義由其他清單交叉合併。",
+      "after": "源03的概念及定義；機構／內部角色、法例及其他資料定義由其他清單交叉合併。"
+    },
+    {
+      "path": "bank/audit/terms-and-roles.json/rows/127/tested/1/point",
+      "before": "海关调查明知及未发现警讯的情况（14的重叠执法职能）",
+      "after": "海关调查明知及未发现警讯的情况（08的重叠执法职能）"
+    }
+  ],
+  "verified": {
+    "official_editions_unchanged": 88,
+    "extracted_text_copies_unchanged": 88,
+    "question_bank_bytes_unchanged": true,
+    "question_bank_sha256": "23b28f35f98fe583a614b67fd2da8bc15e77273cd7573d53e10fd4e281e77154",
+    "quote_versions_reconstructed": [
+      357,
+      338,
+      320,
+      299,
+      297
+    ],
+    "only_document_labels_paths_and_derived_quote_hashes_changed_in_audit_records": true,
+    "previous_maintenance_records_unchanged": true,
+    "daily_folders_contiguous": "01-26",
+    "reference_archive_contiguous": "27-47"
+  },
+  "archive_preserved": {
+    "docs/archive/superseded/22_中選讀_貿易洗錢風險指標_FATF與Egmont（2021年3月_英文原文指引）.md": {
+      "sha256": "4030391dcb31c14bbb50a06e35ab18d19298833d9db5a6fc4325eb6afe54e4ef"
+    }
+  },
+  "archived_text_versions": [
+    {
+      "member": "bank/audit/remaining-implementation.json",
+      "json_pointer": [
+        "documentation_updates",
+        "docs/text/EN/18.txt",
+        "before_text"
+      ],
+      "after": "docs/text/EN/15.txt",
+      "sha256": "4cb13f9caf703b8eaa5d67c0576768576ae1eb0b87cf02a556242e1d0f9d26f9"
+    },
+    {
+      "member": "bank/audit/remaining-implementation.json",
+      "json_pointer": [
+        "documentation_updates",
+        "docs/text/TC/18.txt",
+        "before_text"
+      ],
+      "after": "docs/text/TC/15.txt",
+      "sha256": "f5246faaacbf9ffed5a8fde9d80f5e7e83fe7aa29adbe06948fa7a5d0b0a6e7c"
+    }
+  ],
+  "validation": {
+    "directory_local_links_checked": 148,
+    "source_mapping_table_counts_preserved": true,
+    "tampering_cases_rejected": 4,
+    "passed": [
+      "Re-extracted all 88 catalogued editions with original extraction rules; exact content comparison passed",
+      "go test ./...",
+      "python docs/build_catalog.py --check",
+      "python bank/audit/report.py --check",
+      "python bank/audit/terms_report.py --check",
+      "python bank/audit/p1_report.py --check",
+      "python bank/audit/remaining_report.py --check",
+      "go run . -export-html dist/mso-ca.html",
+      "python revision/pack_build.py dist/mso-revision-pack.html"
+    ]
+  }
+}

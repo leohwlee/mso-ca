@@ -653,7 +653,7 @@
     ],
     "sha256": {
       "web/questions.json": "3575ffa5806301917ade9038fa1ba2ea1142120b1940f0c4b130b036c7948c93",
-      "docs/quotes.json": "cf4f1da5cf9633f9f2c89e456df813cf3f947f499159c886030b5a9e2f6c59e3"
+      "docs/quotes.json": "d46f6a1da4e0f97c801bdb834d55a7b1900b9f53fad860acc7e1a3e691509df1"
     },
     "newline": {
       "web/questions.json": "\r\n",
@@ -683,7 +683,7 @@
     "statements": 1678,
     "sha256": {
       "web/questions.json": "518318e2d569c223d2fc0c4ceee27a8b226b56ebd339ecc0919304e1a384cf07",
-      "docs/quotes.json": "dfcabe2c391afae5ca8a7c68455a3bbc5e7238430622834ad976feb8a9211da7",
+      "docs/quotes.json": "73585cb799e087e1d4a97209c374aa07068b35f80eed59772572e2ebd9a785ef",
       "bank/retired-ids.json": "f0309410a50d2ea412113710ea7fd85da31de7a224d9a535c6beb09c5e99f410"
     }
   },
@@ -3413,12 +3413,12 @@
             {
               "statement": 1,
               "en": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "FAQ A12, natural person PPTA (a)–(b); Guideline ¶4.5.3",
                 "text": "Natural person PPTA: (a) full name; (b) date of birth;"
               },
               "tc": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "常見問題答12，自然人(a)至(b)；《打擊洗錢及恐怖分子資金籌集指引》第4.5.3段",
                 "text": "看似代表客戶行事的人屬自然人：(a)全名；(b)出生日期；"
               }
@@ -3426,12 +3426,12 @@
             {
               "statement": 2,
               "en": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "FAQ A12, natural person PPTA (c)–(d)",
                 "text": "(c) nationality; and (d) unique identification number and document type."
               },
               "tc": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "常見問題答12，自然人(c)至(d)",
                 "text": "(c)國籍；及(d)獨特識別號碼及文件的類別。"
               }
@@ -3439,12 +3439,12 @@
             {
               "statement": 3,
               "en": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "FAQ A12, legal person PPTA (a)–(b); Guideline ¶4.5.3",
                 "text": "Legal person PPTA: (a) full name; (b) date of incorporation, establishment or registration;"
               },
               "tc": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "常見問題答12，法人(a)至(b)；《打擊洗錢及恐怖分子資金籌集指引》第4.5.3段",
                 "text": "看似代表客戶行事的人屬法人：(a)全名；(b)註冊、成立或登記的日期；"
               }
@@ -3452,12 +3452,12 @@
             {
               "statement": 4,
               "en": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "FAQ A12, legal person PPTA (c)",
                 "text": "place of incorporation, establishment or registration (including address of registered office)"
               },
               "tc": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "常見問題答12，法人(c)",
                 "text": "註冊、成立或登記的地點（包括註冊辦事處地址）"
               }
@@ -3465,12 +3465,12 @@
             {
               "statement": 5,
               "en": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "FAQ A12, legal person PPTA (d)–(e)",
                 "text": "(d) unique identification number and document type; and (e) principal place of business (if different from the address of registered office)."
               },
               "tc": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "常見問題答12，法人(d)至(e)",
                 "text": "(d)獨特識別號碼及文件的類別；及(e)主要營業地點（如與註冊辦事處地址不同）。"
               }
@@ -3478,12 +3478,12 @@
             {
               "statement": 6,
               "en": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "FAQ A12, paragraph immediately after the low-risk list concession",
                 "text": "For the avoidance of doubt, as indicated in paragraph 4.5.3 of the AML/CFT Guideline, the MSO is required to identify the PPTA by obtaining at least the following identification information:"
               },
               "tc": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "常見問題答12，低風險清單核實方式後一段",
                 "text": "為免生疑問，如《打擊洗錢指引》第4.5.3段所指，金錢服務經營者最低限度應收集以下識別資料以識別看似代表客戶行事的人："
               }
@@ -3491,7 +3491,7 @@
           ],
           "doubts": [],
           "tc_mismatch": [],
-          "review_notes": "Independently checked EN and TC ¶4.5.1–4.5.4, FAQ A12 in full and Circular 13 Appendix (3), including its footnote. The final #1/#3 linkage to customer identification and verification rules is supported by ¶4.5.3. List-based verification does not dispense with identification information. The permission is limited to verification; the following FAQ paragraph expressly preserves minimum collection. B29 is implemented without turning the source distinction into a trap. No second defensible interpretation found.",
+          "review_notes": "Independently checked EN and TC ¶4.5.1–4.5.4, FAQ A12 in full and Circular 07 Appendix (3), including its footnote. The final #1/#3 linkage to customer identification and verification rules is supported by ¶4.5.3. List-based verification does not dispense with identification information. The permission is limited to verification; the following FAQ paragraph expressly preserves minimum collection. B29 is implemented without turning the source distinction into a trap. No second defensible interpretation found.",
           "source_citation_recheck": {
             "original_packet_sha256": "55df11b35311c62e8eab61b0c3d867477aa2c7b0ec2f6498773cefb70f8aaa02",
             "final_packet_sha256": "4e2abb7f94bc22ecdc1cbf58fa7ce85f21ee8255831352a2266f7ff544ae401f",
@@ -3527,7 +3527,7 @@
             {
               "statement": 1,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.4.5",
                 "fragments": [
                   "the customer is the beneficial owner, unless the characteristics of the transactions or other circumstances indicate otherwise.",
@@ -3535,7 +3535,7 @@
                 ]
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.4.5段",
                 "text": "就客戶屬自然人而言，該客戶就是實益擁有人，除非交易特徵或其他情況顯示並非如此。因此，金錢服務經營者無需積極主動地去追尋該客戶的實益擁有人"
               }
@@ -3543,12 +3543,12 @@
             {
               "statement": 2,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.4.5",
                 "text": "the MSO should make appropriate enquiries where there are indications that the customer is not acting on his own behalf."
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.4.5段",
                 "text": "但如有跡象顯示該客戶並非代表其本身行事，則須進行適當查詢。"
               }
@@ -3556,12 +3556,12 @@
             {
               "statement": 3,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.4.7(a)(iii), an alternative to (a)(i)",
                 "text": "exercises ultimate control over the management of the partnership"
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.4.7(a)(iii)段，與(a)(i)並列的另一準則",
                 "text": "行使對該合夥的管理最終的控制權"
               }
@@ -3569,12 +3569,12 @@
             {
               "statement": 4,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.4.18",
                 "text": "an MSO should obtain satisfactory evidence of the identities of the nominees, and the persons on whose behalf they are acting"
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.4.18段",
                 "text": "應取得其信納可證明代名人及代名人所代表行事的人士的身分的證據"
               }
@@ -3582,12 +3582,12 @@
             {
               "statement": 5,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.4.18",
                 "text": "as well as the details of arrangements in place, in order to determine who the beneficial owner is."
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.4.18段",
                 "text": "以及有關安排的其他詳情，以便判斷誰是實益擁有人。"
               }
@@ -3627,12 +3627,12 @@
             {
               "statement": 1,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.7.3(e)(i)",
                 "text": "Exceptions may be made to allow payments to third parties subject to the following conditions: (i) there is no suspicion of ML/TF;"
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.7.3(e)(i)段",
                 "text": "在下述條件規限下，或可作出例外安排而付款予第三者：(i)沒有洗錢／恐怖分子資金籌集活動的懷疑；"
               }
@@ -3640,12 +3640,12 @@
             {
               "statement": 2,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.7.3(e)(iii)",
                 "text": "the transaction is approved by senior management, who should take account of the nature of the business of the customer before approving the transaction"
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.7.3(e)(iii)段",
                 "text": "交易經高級管理層批准，而高級管理層在批准進行交易前已對業務性質作出考慮"
               }
@@ -3653,12 +3653,12 @@
             {
               "statement": 3,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.7.3(e)(iv)",
                 "text": "the names of recipients do not match with watch lists such as those for terrorist suspects and politically exposed persons (PEPs)."
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.7.3(e)(iv)段",
                 "text": "收款人的姓名／名稱與監察名單不吻合，例如恐怖分子嫌疑人物及政治人物。"
               }
@@ -3666,12 +3666,12 @@
             {
               "statement": 4,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.7.4",
                 "text": "refrain from carrying out further transactions (except to return funds or other assets in their original forms as far as possible)."
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.7.4段",
                 "text": "並避免進行進一步交易（在可行情況下將資金或其他資產以原狀退回則不在此限）。"
               }
@@ -3711,12 +3711,12 @@
             {
               "statement": 1,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.9.17(b), read with ¶4.9.10",
                 "text": "when continuing an existing business relationship with a customer who is or whose beneficial owner is a Hong Kong PEP or an international organisation PEP where the relationship subsequently becomes high risk"
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.9.17(b)段，連同第4.9.10段；E21已定解讀",
                 "text": "與本身或其實益擁有人屬香港政治人物及國際組織政治人物的客戶維持現有業務關係，而該業務關係其後變為高風險"
               }
@@ -3724,12 +3724,12 @@
             {
               "statement": 2,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.9.17(c), read with ¶4.9.10",
                 "text": "when continuing an existing high risk business relationship where the MSO subsequently knows that the customer or the beneficial owner of the customer is a Hong Kong PEP or an international organisation PEP."
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.9.17(c)段，連同第4.9.10段；E21已定解讀",
                 "text": "維持現有高風險的業務關係，而金錢服務經營者其後知悉該客戶或其實益擁有人屬香港政治人物及國際組織政治人物。"
               }
@@ -3737,7 +3737,7 @@
             {
               "statement": 3,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.9.12 and ¶4.9.18; also FAQ A20",
                 "fragments": [
                   "Such decision can only be made with the approval of the MSO’s senior management",
@@ -3745,7 +3745,7 @@
                 ]
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.9.18段；第4.9.12段及常見問題答20同樣支持",
                 "fragments": [
                   "有關決定須獲金錢服務經營者的高級管理層批准，而該政治人物須不再構成高度洗錢／恐怖分子資金籌集風險。",
@@ -3756,12 +3756,12 @@
             {
               "statement": 4,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.9.12 fn38 and ¶4.9.18 fn42",
                 "text": "records of the relevant risk assessment should be retained by the MSO as proof of compliance"
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.9.12段註38及第4.9.18段註42",
                 "text": "應備存相關風險評估的紀錄，證明已符合"
               }
@@ -3803,12 +3803,12 @@
             {
               "statement": 1,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.9.12(a) and ¶4.9.18(a)",
                 "text": "the level of (informal) influence that the individual could still exercise"
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.9.12(a)及4.9.18(a)段",
                 "text": "該名個人仍可運用的（非正式）影響力"
               }
@@ -3816,12 +3816,12 @@
             {
               "statement": 2,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.9.12(b) and ¶4.9.18(b)",
                 "text": "the seniority of the position that the individual held as the PEP"
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.9.12(b)及4.9.18(b)段",
                 "text": "該名個人作為政治人物時所擔任職位的等級"
               }
@@ -3829,7 +3829,7 @@
             {
               "statement": 3,
               "en": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "¶4.9.12(c) and ¶4.9.18(c)",
                 "fragments": [
                   "whether the individual’s previous and current function are linked in any way",
@@ -3837,7 +3837,7 @@
                 ]
               },
               "tc": {
-                "doc": "02",
+                "doc": "03",
                 "locator": "第4.9.12(c)及4.9.18(c)段",
                 "text": "該名個人以往及現有職能是否有任何連繫（例如透過委任繼任的政治人物的正式連繫或政治人物實質上處理相同重要事務的非正式連繫）。"
               }
@@ -3845,12 +3845,12 @@
             {
               "statement": 4,
               "en": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "FAQ A21",
                 "text": "The number and title of such persons will vary according to the size, type and institutional risk assessment of the MSO."
               },
               "tc": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "常見問題答21",
                 "text": "至於有關人選的數目及職銜，則會因應金錢服務經營者的規模、類別及機構層面的風險評估而有所不同。"
               }
@@ -3893,12 +3893,12 @@
             {
               "statement": 1,
               "en": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "FAQ A4, read with Guideline ¶4.3.3",
                 "text": "an MSO should verify the new name by reference to documents, data or information provided by a reliable and independent source"
               },
               "tc": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "常見問題答4，連同《打擊洗錢及恐怖分子資金籌集指引》第4.3.3段",
                 "text": "根據可靠及獨立來源提供的文件、數據或資料，核實該新姓名。"
               }
@@ -3906,12 +3906,12 @@
             {
               "statement": 2,
               "en": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "FAQ A4",
                 "text": "the MSO should corroborate other identification information (e.g. date of birth, Hong Kong Identity Card number) on the new identification documents against its existing records."
               },
               "tc": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "常見問題答4",
                 "text": "金錢服務經營者應利用現有紀錄核對新身分證明文件上的其他資料（如出生日期、香港身份證號碼）。"
               }
@@ -3919,12 +3919,12 @@
             {
               "statement": 3,
               "en": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "FAQ A4",
                 "text": "In case of doubt, the MSO may request a copy of applicable documentation regarding the name change (e.g. marriage certificate or deed poll)."
               },
               "tc": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "常見問題答4",
                 "text": "如有疑問，金錢服務經營者可索取與更改姓名有關的適用文件複本（如結婚證書、改名契）。"
               }
@@ -3932,12 +3932,12 @@
             {
               "statement": 4,
               "en": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "FAQ A4, final paragraph",
                 "text": "if a customer’s name has changed before the establishment of a business relationship, only the current name is required to be identified and verified."
               },
               "tc": {
-                "doc": "22",
+                "doc": "06",
                 "locator": "常見問題答4末段",
                 "text": "如客戶的姓名於建立業務關係前已作更改，則只須識別和核實現時的姓名。"
               }
@@ -3979,7 +3979,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.11.7",
               "quote_en": "Whenever an MSO has doubts as to the reliability of the intermediary, it should take reasonable steps to review the intermediary’s ability to perform its CDD duties.",
               "quote_tc": "金錢服務經營者如對中介人的可靠性產生懷疑，當即採取合理步驟覆核該中介人履行其盡職審查職責的能力。",
@@ -3987,7 +3987,7 @@
             },
             {
               "statement": 2,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.11.7",
               "quote_en": "If the MSO intends to terminate its relationship with the intermediary, it should immediately obtain all CDD information from the intermediary.",
               "quote_tc": "金錢服務經營者如欲終止與中介人的關係，則應立即向中介人取得所有的盡職審查資料。",
@@ -3995,7 +3995,7 @@
             },
             {
               "statement": 3,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.11.8 proviso; footnote 45",
               "quote_en": "the MSO is satisfied that the domestic intermediary has adequate procedures in place to prevent ML/TF and is required to comply with the relevant requirements set out in Schedule 2 with respect to the customer",
               "quote_tc": "金錢服務經營者須信納該本地中介人有充分程序以防止洗錢／恐怖分子資金籌集，並須就有關客戶遵從附表2所載的相關規定",
@@ -4003,7 +4003,7 @@
             },
             {
               "statement": 4,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.11.13",
               "quote_en": "The group policy should also be able to mitigate adequately any higher country risk in relation to the jurisdiction where the related foreign FI is located.",
               "quote_tc": "應能充分減低任何因相關外地金融機構所處司法管轄區而涉及的較高國家風險。",
@@ -4011,7 +4011,7 @@
             },
             {
               "statement": 5,
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s18(7), related foreign financial institution (a), (b)(ii)",
               "quote_en": "if the financial institution is incorporated in Hong Kong or is a re-domiciled entity, it is a branch of the financial institution;",
               "quote_tc": "( 如該金融機構是在香港成立為法團的，或是經遷冊實體) 該另一機構是該金融機構的分行；",
@@ -4050,7 +4050,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.8.12",
               "quote_en": "the MSO should assess whether the customer is subject to any disclosure requirements (either by stock exchange rules, or through law or enforceable means), which impose requirements to ensure adequate transparency of beneficial ownership of the customer.",
               "quote_tc": "金錢服務經營者應評估該客戶是否須遵守任何披露的規定（不論透過執行上巿規則抑或法律或可執行的措施），這類規定確保客戶的實益擁有權具充分透明度。",
@@ -4058,7 +4058,7 @@
             },
             {
               "statement": 2,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.8.18",
               "quote_en": "Where the MSO have a separate business relationship with the employees, it should apply CDD measures in accordance with relevant requirements set out in this Chapter.",
               "quote_tc": "如金錢服務經營者與僱員建立獨立的業務關係，則應根據本章所列規定執行盡識審查措施。",
@@ -4066,7 +4066,7 @@
             },
             {
               "statement": 3,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.8.17 introductory condition and (c)(ii)",
               "quote_en": "a single premium of no more than $20,000 or an equivalent amount in any other currency is payable.",
               "quote_tc": "須繳付的一筆整付保費不多於20,000 元（或折算為任何其他貨幣的相同款額）。",
@@ -4074,7 +4074,7 @@
             },
             {
               "statement": 4,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.8.13 proviso (a)(i)",
               "quote_en": "in the case where the nominee company holds fund units on behalf of the FI or the FI’s underlying customers, on its underlying customers;",
               "quote_tc": "在代名人公司代表金融機構或金融機構的相關客戶持有基金單位的情況下，已對它的相關客戶進行盡職審查；",
@@ -4082,7 +4082,7 @@
             },
             {
               "statement": 5,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.8.13 proviso (a)(ii)",
               "quote_en": "in the case where the FI acts in the capacity of a service provider (such as manager or custodian) to the investment vehicle, on the investment vehicle pursuant to the provisions of the AMLO;",
               "quote_tc": "在金融機構以投資公司的服務供應商（例如基金經理或保管人）的身分行事的情況下，已根據打擊洗錢條例的規定，對投資公司進行盡職審查；",
@@ -4090,7 +4090,7 @@
             },
             {
               "statement": 6,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.8.13 proviso (b)",
               "quote_en": "is authorised to operate the account as evidenced by contractual document or agreement.",
               "quote_tc": "根據合約文件或協議獲授權操作有關帳戶。",
@@ -4123,7 +4123,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.8.14–15; footnotes 33–34",
               "quote_en": "it is satisfied that the investment vehicle has ensured that there are reliable systems and controls in place to conduct the CDD (including identification and verification of the identity) on the underlying investors",
               "quote_tc": "信納該投資公司已保證設有可靠的制度及管控措施，並以按照與附表2所載列相類似的規定對相關投資者執行盡職審查（包括識別及核實身分）。",
@@ -4131,7 +4131,7 @@
             },
             {
               "statement": 2,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.8.19(a)–(c); corroborated AMLO Sch.2 s4(6)",
               "quote_en": "moneys or securities of the customer’s clients in the client account are mingled;",
               "quote_tc": "該戶口內客戶的當事人的金錢或證券已混合在一起﹔",
@@ -4139,7 +4139,7 @@
             },
             {
               "statement": 3,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.8.19(c); AMLO Sch.2 s4(6)(c)",
               "quote_en": "the client account is managed by the customer as those clients’ agent.",
               "quote_tc": "該戶口是由客戶以其當事人的代理人身分管理。",
@@ -4147,7 +4147,7 @@
             },
             {
               "statement": 4,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.8.20",
               "quote_en": "there are sub-accounts for each individual client where funds are not co-mingled at the MSO, the MSO should establish the identity of the underlying client(s) in addition to that of the solicitor opening the account.",
               "quote_tc": "或每名個別客戶都開有一個附屬戶口，以及資金並沒有匯集在金錢服務經營者內，則金錢服務經營者除了核實開設戶口的律師的身分外，亦應識別相關當事人的身分。",
@@ -4182,18 +4182,18 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "10",
+              "doc": "04",
               "locator": "Sch.2 s3(1)(e), read with s4(1)/(4)/(6); Guideline ¶4.8.3(c)",
               "quote_en": "when the financial institution or the DNFBP doubts the veracity or adequacy of any information previously obtained for the purpose of identifying the customer or for the purpose of verifying the customer’s identity.",
               "quote_tc": "當該機構或該人士懷疑過往為識別客戶的身分或核實客戶的身分而取得的資料是否真實或充分時。",
               "reason": "此為法定CDD觸發情況。附表2第4條特定簡化列的是3(1)(a)/(b)、(1A)/(1B)，沒有(e)；指引4.8.3(c)另明定有資料疑點不應使用或繼續SDD。低風險標籤不能抵銷此禁止。",
               "additional_quote_en": "SDD measures should not be applied or continue to be applied, where:",
               "additional_quote_tc": "如出現下述情況，便不應執行或繼續執行簡化盡職審查措施：",
-              "additional_quote_doc": "02"
+              "additional_quote_doc": "03"
             },
             {
               "statement": 2,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.9.2",
               "quote_en": "Where the applicable EDD measures cannot fully mitigate the ML/TF risks identified, the MSO should take other measures to mitigate the residual risks",
               "quote_tc": "如適用的更嚴格盡職審查措施未能完全減低所識別的洗錢／恐怖分子資金籌集風險，金錢服務經營者應採取其他措施減低剩餘風險",
@@ -4201,7 +4201,7 @@
             },
             {
               "statement": 3,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.9.2",
               "quote_en": "mitigate the residual risks (e.g. placing transaction limits or restricting account functionalities).",
               "quote_tc": "減低剩餘風險（例如設立交易限額或限制帳戶功能）。",
@@ -4209,7 +4209,7 @@
             },
             {
               "statement": 4,
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.9.2",
               "quote_en": "mitigate the residual risks (e.g. placing transaction limits or restricting account functionalities).",
               "quote_tc": "減低剩餘風險（例如設立交易限額或限制帳戶功能）。",
@@ -4244,7 +4244,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "02",
+              "doc": "03",
               "locator": "Appendix A ¶1",
               "quote_en": "The identity of a non-resident should be verified by reference to their valid travel document.",
               "quote_tc": "非居民的身分則應根據他們的有效旅遊證件作出核實。",
@@ -4252,18 +4252,18 @@
             },
             {
               "statement": 2,
-              "doc": "02",
+              "doc": "03",
               "locator": "Appendix A ¶2(b)–(c), footnote 72",
               "quote_en": "a current national (i.e. Government or State-issued) identity card bearing the photograph of the individual;",
               "quote_tc": "附有有關個人照片的有效國民（即由政府或國家簽發）身分證；",
               "reason": "國民身分證和主管國家／政府發出的有效國家駕照均須照片。題句沒有把國際駕駛許可證混入；已核腳註72排除該類證件。",
               "additional_quote_en": "current valid national (i.e. Government or State-issued) driving license 72 incorporating photographic evidence of the identity of the applicant, issued by a competent national or state authority.",
               "additional_quote_tc": "由主管的國家或政府機構簽發的有效國家（即由政府或國家簽發）駕駛執照72，執照上有照片證明申請人的身分。",
-              "additional_quote_doc": "02"
+              "additional_quote_doc": "03"
             },
             {
               "statement": 3,
-              "doc": "02",
+              "doc": "03",
               "locator": "Appendix A ¶4, footnote 73",
               "quote_en": "For minors born in Hong Kong who are not in possession of a valid travel document or Hong Kong identity card73, their identity should be verified by reference to the minor’s Hong Kong birth certificate.",
               "quote_tc": "至於在香港出生而並無持有有效旅遊證件或香港身份證73的未成年人，則可根據他們的香港出生證明書來核實他們的身分。",
@@ -4271,7 +4271,7 @@
             },
             {
               "statement": 4,
-              "doc": "02",
+              "doc": "03",
               "locator": "Appendix A ¶3(a)",
               "quote_en": "Permanent Resident Identity Card of Macau Special Administrative Region;",
               "quote_tc": "澳門特別行政區永久居民身分證；",
@@ -4306,25 +4306,25 @@
           ],
           "quotes": [
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.2.6",
               "en": "When a cash transaction involving an amount equal to or exceeding $120,000 is undertaken by a person whose name does not appear on the mandate of an account",
               "tc": "如某人進行的現金交易總值涉及相等於120,000元或以上，而該人的姓名不在帳戶委託書上"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.2.6",
               "en": "by a person whose name does not appear on the mandate of an account, an MSO should ask for the person’s identity document and retain a copy",
               "tc": "而該人的姓名不在帳戶委託書上，金錢服務經營者應要求該人提供身分證明文件"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.2.6",
               "en": "an MSO should ask for the person’s identity document and retain a copy",
               "tc": "金錢服務經營者應要求該人提供身分證明文件，並將該等文件的副本存檔"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶4.2.6",
               "en": "retain a copy to facilitate its ongoing monitoring",
               "tc": "並將該等文件的副本存檔，以便持續監察"
@@ -4369,25 +4369,25 @@
           ],
           "quotes": [
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶10.4(c)(i), read with (ii)–(iii)",
               "en": "withdrawing money from a bank account through an automated teller machine with a debit card",
               "tc": "以扣帳咭經由自動櫃員機從銀行戶口提取金錢"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶10.4(c)(i), read with (ii)–(iii)",
               "en": "obtaining a cash advance on a credit card",
               "tc": "以信用咭取得現金墊支"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶10.4(c)(i), read with (ii)–(iii)",
               "en": "paying for goods or services with a credit card, debit card or prepaid card",
               "tc": "以信用咭、扣帳咭或預付咭就貨品及服務付款"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶10.4(c)(ii)",
               "en": "the card is not used as a payment system to effect a person-to-person transfer",
               "tc": "該信用咭、扣帳咭或預付咭並非用作一項支付系統以執行人對人之間轉帳"
@@ -4434,31 +4434,31 @@
           ],
           "quotes": [
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Part 5 s.25(d)",
               "en": "a licensed insurance broker company that operates a money service that is ancillary to the company’s principal business",
               "tc": "經營金錢服務的持牌保險經紀公司( 前提是該服務附屬於該公司的主要業務)"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Part 5 s.25(e)",
               "en": "a licensed individual insurance agent or a licensed insurance agency that operates a money service that is ancillary to the agent’s or agency’s principal business",
               "tc": "經營金錢服務的持牌個人保險代理或持牌保險代理機構( 前提是該服務附屬於該代理或該機構的主要業務)"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Part 5 s.25(e)",
               "en": "a licensed individual insurance agent or a licensed insurance agency that operates a money service that is ancillary to the agent’s or agency’s principal business",
               "tc": "經營金錢服務的持牌個人保險代理或持牌保險代理機構( 前提是該服務附屬於該代理或該機構的主要業務)"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Part 5 s.25(g)",
               "en": "a system operator or settlement institution of a designated retail payment system that operates a money service that is ancillary to its business as a system operator or settlement institution",
               "tc": "經營金錢服務的指定零售支付系統的系統營運者或交收機構( 前提是該服務附屬於其作為系統營運者或交收機構的業務)"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "Part 5 s.25(h)",
               "en": "a stablecoin licensee that operates a money service that is a business activity of the licensee under its stablecoin licence",
               "tc": "經營符合以下說明的金錢服務的穩定幣持牌人：該金錢服務是該持牌人在其穩定幣牌照下的業務活動"
@@ -4506,25 +4506,25 @@
           ],
           "quotes": [
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "s.52(2)(a)",
               "en": "omits a material particular from a statement with the result that the statement is rendered false or misleading",
               "tc": "在某項陳述中遺漏任何要項，以致該項陳述成為虛假或具誤導性的陳述"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "s.52(2)(a)–(b)",
               "en": "with the result that the statement is rendered false or misleading; and (b) knows that, or is reckless as to whether, the material particular is omitted from the statement",
               "tc": "以致該項陳述成為虛假或具誤導性的陳述；及 (b) 知道該項陳述遺漏該要項，或罔顧該項陳述是否遺漏該要項"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "s.52(2)(b)",
               "en": "knows that, or is reckless as to whether, the material particular is omitted from the statement",
               "tc": "知道該項陳述遺漏該要項，或罔顧該項陳述是否遺漏該要項"
             },
             {
-              "doc": "10",
+              "doc": "04",
               "locator": "s.52(2)(b); contrast s.52(1)(b), register B24",
               "en": "knows that, or is reckless as to whether, the material particular is omitted from the statement",
               "tc": "知道該項陳述遺漏該要項，或罔顧該項陳述是否遺漏該要項"
@@ -4569,25 +4569,25 @@
           ],
           "quotes": [
             {
-              "doc": "09",
+              "doc": "13",
               "locator": "¶6",
               "en": "the CCE will not automatically link the fine imposed in any particular case with the profit gained, or costs avoided",
               "tc": "但關長不會將任何特定個案的罰款額，與違規者所獲得的利潤或避免的開支金額自動掛鈎"
             },
             {
-              "doc": "09",
+              "doc": "13",
               "locator": "¶9(b)(i)",
               "en": "whether the MSO attempted to conceal its contravention",
               "tc": "該金錢服務經營者有否嘗試隱瞞該違規行為"
             },
             {
-              "doc": "09",
+              "doc": "13",
               "locator": "¶9(b)(ii)",
               "en": "any remedial steps taken since the contravention or the possible contravention was identified, and any action taken by the MSO against those involved and any steps taken to ensure that similar contraventions will not occur in future",
               "tc": "自該違規或可能違規行為被發現後，有關金錢服務經營者有否採取任何補救措施，以及有否向所涉人士採取任何行動及措施，以確保類似的違規行為日後不會發生"
             },
             {
-              "doc": "09",
+              "doc": "13",
               "locator": "¶9(c)(iii)",
               "en": "any punishment imposed or regulatory action taken or likely to be taken by other relevant authorities on the same incident",
               "tc": "其他有關當局就相同事件施加的任何懲罰或所採取或相當可能會採取的監管行動"
@@ -4632,25 +4632,25 @@
           ],
           "quotes": [
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶6.11",
               "en": "an MSO operating internationally will need to be aware of the scope and focus of relevant sanctions regimes in those jurisdictions",
               "tc": "但經營國際業務的金錢服務經營者仍須注意該等司法管轄區的相關制裁制度的範疇及重點"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶6.11",
               "en": "Where these sanctions regimes may affect its operations, the MSO should consider what implications exist and take appropriate measures",
               "tc": "如這些制裁制度可能對金錢服務經營者的業務構成影響，則金錢服務經營者應考慮這會引致甚麼影響，並採取適當措施"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶6.7(a)(ii)",
               "en": "persons or entities acting on the behalf of or at the direction of the designated persons or entities, or owned or controlled by them",
               "tc": "向代表被指認的個人或實體、按其指示行事，或由其擁有或控制的一干個人或實體"
             },
             {
-              "doc": "02",
+              "doc": "03",
               "locator": "¶6.7(a)(ii)–(iii)",
               "en": "persons or entities acting on the behalf of or at the direction of the designated persons or entities, or owned or controlled by them, or (iii) entities owned by the aforementioned",
               "tc": "向代表被指認的個人或實體、按其指示行事，或由其擁有或控制的一干個人或實體、或 (iii) 向上文所述者擁有的實體"
@@ -4695,7 +4695,7 @@
           "quotes": [
             {
               "statement": 1,
-              "doc": "03",
+              "doc": "05",
               "locator": "Licensing Guide ¶11.1(j); EN printed p.23, TC printed p.19",
               "quote_en": "the bank account must be in the name of the licensee’s company, the sole proprietor, partner, director or ultimate owner of the licensee.",
               "quote_tc": "該銀行帳戶必須屬持牌人公司、持牌人的獨資經營者、合夥人、董事或最終擁有人名下。",
@@ -4703,7 +4703,7 @@
             },
             {
               "statement": 2,
-              "doc": "03",
+              "doc": "05",
               "locator": "Licensing Guide ¶11.1(j); EN printed p.23, TC printed p.19",
               "quote_en": "the bank account must be in the name of the licensee’s company, the sole proprietor, partner, director or ultimate owner of the licensee.",
               "quote_tc": "該銀行帳戶必須屬持牌人公司、持牌人的獨資經營者、合夥人、董事或最終擁有人名下。",
@@ -4711,7 +4711,7 @@
             },
             {
               "statement": 3,
-              "doc": "03",
+              "doc": "05",
               "locator": "Licensing Guide ¶11.1(j); EN printed p.23, TC printed p.19",
               "quote_en": "the bank account must be in the name of the licensee’s company, the sole proprietor, partner, director or ultimate owner of the licensee.",
               "quote_tc": "該銀行帳戶必須屬持牌人公司、持牌人的獨資經營者、合夥人、董事或最終擁有人名下。",
@@ -4719,7 +4719,7 @@
             },
             {
               "statement": 4,
-              "doc": "03",
+              "doc": "05",
               "locator": "Licensing Guide ¶11.1(j); EN printed p.23, TC printed p.19",
               "quote_en": "the bank account must be in the name of the licensee’s company, the sole proprietor, partner, director or ultimate owner of the licensee.",
               "quote_tc": "該銀行帳戶必須屬持牌人公司、持牌人的獨資經營者、合夥人、董事或最終擁有人名下。",
@@ -5426,7 +5426,7 @@
   "adjudication": [
     "Excluded prior-wave role/identity points from the new questions and retained their direct statement evidence.",
     "Expanded the final PEP assessment and PPTA statements to include the complete assigned scope; reviewed the changed final statements.",
-    "Corrected four FAQ citation attributions from nonexistent Licensing Guide Appendix 3 to independent source 22; reviewer reconfirmed actual source and unchanged statements.",
+    "Corrected four FAQ citation attributions from nonexistent Licensing Guide Appendix 3 to independent source 06; reviewer reconfirmed actual source and unchanged statements.",
     "Aligned two Chinese statements with their own Guideline terms and list connector; final Chinese wording re-reviewed.",
     "Clarified conflict note B24 and the study-pack offence table to separate the result element from knowledge/recklessness of the omission; independent source review completed."
   ],
@@ -5439,7 +5439,7 @@
     "revision/CONFLICT-CALLS.md": {
       "before_text": "# Conflicting sources and how each is settled\r\n\r\nA fresh check of the 23 official documents in September 2026 found 95 places where they disagree, or seem to. The owner decided every one on 26 and 27 September 2026, and on 27 September one more (B42) that came up while the decisions were being applied. On 28 September the owner decided E41, which the blind review of module 6 turned up. These decisions replace the 24 calls of 24 and 25 September 2026. The revision pack and the question bank (`web/questions.json`) follow them.\r\n\r\n## Document numbers\r\n\r\nThe numbers are the files in `docs/`, listed in [`docs/README.md`](../docs/README.md). Pages are PDF pages.\r\n\r\n| No. | Document |\r\n|---|---|\r\n| 01 | Guidance Notes on the Competence Assessment (Dec 2022) |\r\n| 02 | Guideline on AML/CFT for Money Service Operators (Jun 2023) |\r\n| 03 | Licensing Guide (May 2026) |\r\n| 04 | Guideline on Criteria for Determining Fitness and Propriety (Apr 2018) |\r\n| 05 | Supplementary Guideline on Fitness and Propriety (Jan 2020) |\r\n| 07 | Guidelines for Submission of AML/CFT Policy (Ver 12-2019) |\r\n| 10 | Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615 (consolidated) (as at 24 Sep 2026) |\r\n| 11 | Circular: Cross-boundary Movement of Currency Ordinance, Cap. 629 (MSSB/MIS_06/2018) (31 Jul 2018) |\r\n| 12 | Circular: ML/TF Risks of Delivery Channels (MSSB/MIS_05/2021) (13 Dec 2021) |\r\n| 14 | Circular: ML/TF Risks of Third Party Payments (MSSB/MIS_01/2024) (17 Sep 2024) |\r\n| 16 | Circular: E-submission of the Periodic Return (MSSB/MIS_02/2025) (30 May 2025) |\r\n| 18 | Circular: Amendments to the Money Changers Ordinance, Cap. 34 (MSSB/MIS_04/2025) (17 Nov 2025) |\r\n| 19 | Circular: Trade-based Money Laundering Guidance (MSSB/MIS_01/2026) (20 Jan 2026) |\r\n| 20 | Circular: Statements issued by the FATF (MSSB/FATF_02/2026) (3 Jul 2026) |\r\n| 21 | Circular: FATF public consultation on guidance to increase payment transparency (MSSB/FATF_03/2026) (16 Jul 2026) |\r\n| 22 | FAQ applicable to all MSOs (as at 8 Dec 2022) |\r\n| 23 | Competence Assessment — Sample Questions (MSSB/CA_01/2021) (12 May 2021) |\r\n\r\n## General rules\r\n\r\n| When | How it is settled |\r\n|---|---|\r\n| Two documents disagree | The decision applies in both the English and the Chinese view. |\r\n| The English and Chinese versions of one document disagree | Each language view follows its own text, except where the decision gives one answer for both views (E1, E2, E3, E6, E9, E10, E11, E17, E21, E22, E23, E24, E27, E31, E33, E34, E40, E41). There, the view whose own passage departs follows the passages in the same language that support the decision. No page compares the two language versions, and the question bank avoids questions whose answer depends on a difference that stays with each language. |\r\n| Both rules are true (\"learn both\") | A question or page may teach either rule, but says which one it is teaching and never presents one as overriding the other. |\r\n| A new conflict is found | It comes to the owner before either side is taught. |\r\n\r\n## Between two documents (B1–B42)\r\n\r\nWhere the Ordinance (10) is one side, the Ordinance decides unless both can be true.\r\n\r\n| # | Question | Sources | Decision |\r\n|---|---|---|---|\r\n| B1 | Renewal: if the nominee misses the Assessment, will the renewal be rejected, or may it be? | • Guidance Notes (01) ¶3.1, p. 4: failing to attend or pass “may result in refusal of the licence application”<br>• Licensing Guide (03) ¶6.2 (renewal), p. 17: missing the session “will result in rejection of the corresponding application” | For a renewal, learn “will”: missing the session gets the renewal rejected. For a new licence, learn “may” (E2). *Replaces C03.* |\r\n| B2 | Who is exempt from MSO licensing: the Guide's list, or s.25 as it stands now? | • Licensing Guide (03) ¶3.1, p. 6: seven groups, with old insurance names: “authorized insurance broker”, “appointed insurance agent”<br>• Ordinance (10) s.25(d)–(e), p. 79: new names: “licensed insurance broker company”, “licensed individual insurance agent”<br>• Ordinance (10) s.25(h), p. 80: adds “a stablecoin licensee” (added by Ord. 17 of 2025) | Learn s.25 as it stands: the Government plus (a) to (h), with the new insurance names and the stablecoin licensee. *Replaces C10.* |\r\n| B3 | Convictions and bankruptcy listed in s.30(4): an automatic bar, or matters the CCE must weigh? | • FAQ (22) “FAQ in Application for an MSO Licence” A10: the applicant “must not have been convicted of an offence specified at section 30(4), or is an undischarged bankrupt”<br>• Ordinance (10) s.30(4), p. 84: the CCE “must … have regard to” these matters when deciding who is fit and proper<br>• Fit and Proper Guideline (04) ¶3, p. 2: a person within s.30(4) is “subject to scrutiny”; the CCE also weighs the facts of each case (05 ¶3 repeats this) | Learn that these are matters the CCE must weigh. They do not bar a person automatically. *Replaces C07.* |\r\n| B4 | Non-resident at the counter in Hong Kong: travel document only, or a national ID card or driving licence too? | • AML/CFT Guideline (02) App. A ¶1, p. 74: a non-resident “should be verified by reference to their valid travel document”<br>• AML/CFT Guideline (02) App. A ¶2, p. 74: national ID card or driving licence: for non-residents “not physically present in Hong Kong”<br>• FAQ (22) A1: for non-residents: travel document, national ID card or driving licence; it does not say where the customer is | At the counter in Hong Kong, use a valid travel document. A national ID card or driving licence is for a non-resident not in Hong Kong. If a question doesn't say where, all three count. *Replaces C17.* |\r\n| B5 | Renewal: must every licensee nominate someone to sit the Assessment, or only one with no passer left? | • Guidance Notes (01) ¶4.4(ii), p. 4: nominate at renewal only if “the licensee has no eligible person who has passed the assessment”<br>• Guidance Notes (01) ¶8.1–8.2, p. 6: a pass is “a company-based qualification”; it lapses only when no passer is left<br>• Licensing Guide (03) ¶6.2, p. 17: the invitation to nominate goes “to each licensee 90 days before the expiry of the licence”<br>• Licensing Guide (03) ¶6.4(c), p. 18: the renewal is invalid if the licensee “fails to nominate any eligible person(s)” within 7 days | Learn 01: at renewal, a licensee nominates only if no one who passed is left. When it must nominate, 03's 7-day deadline applies. *Replaces C01, which said the opposite.* |\r\n| B6 | Fit-and-proper test fee: a one-off fee per applicant, or HK$945 per person at every grant and renewal? | • Licensing Guide (03) ¶4.13, p. 12: “a one-off fee for each applicant”<br>• Ordinance (10) Sch. 3 items 4–5, p. 399: $945 “for each person who is subject to the fit and proper person test”, at grant and at renewal<br>• Licensing Guide (03) §XIV fee table, p. 26: the same $945 per person, at grant and at renewal | Learn Schedule 3: HK$945 for each person tested, paid with the grant and again with each renewal. *Replaces C11.* |\r\n| B7 | Licence fee: paid with the application, or later on a demand note? | • Ordinance (10) s.30(1)(b), p. 82: an application “must be accompanied by the fee specified in Schedule 3”<br>• Ordinance (10) s.31(2)(c), p. 86: the same for a renewal application<br>• Licensing Guide (03) ¶5.4, p. 14: the fee comes later: “a demand note for the payment of fees”, sent with the interview notice<br>• Licensing Guide (03) ¶6.3, p. 18: renewal: “a demand note … for payment of respective fees” once the documents are in order | Learn the law: a licence or renewal application must come with the Schedule 3 fee. In practice, C&ED asks for it with a demand note. *Replaces C12.* |\r\n| B8 | Grounds to revoke or suspend a licence: the Guide's list of nine, or the law's two? | • Licensing Guide (03) ¶7.1(a)–(i), p. 18–19: “a non-exhaustive list of examples”, e.g. late periodic return, no storage place, never trading, any AMLO breach<br>• Ordinance (10) s.34(1)(a)–(b), p. 89–90: two grounds only: someone is no longer fit and proper, or an occupant of domestic premises withdraws or refuses consent<br>• Supplementary Fit and Proper Guideline (05) ¶5, p. 3: failing the fit-and-proper criteria “would be a ground for suspension or revocation” | Learn both. The law has two grounds: someone is no longer fit and proper, or an occupant withdraws or refuses consent. The Guide's nine are examples of what can lead there. |\r\n| B9 | Ultimate owner of an individual or partnership applicant: fit and proper “to operate a money service”, or “to be associated with the business”? | • Licensing Guide (03) ¶4.1(a)–(b), p. 7: each ultimate owner is fit and proper “to operate a money service”<br>• Ordinance (10) s.30(3)(a)(i)(B), (ii)(B), p. 83: the ultimate owner is fit and proper “to be associated with the business of operating a money service” | Learn the law: ultimate owners are tested “to be associated with the business”. Only the individual and the partners are tested “to operate a money service”. *Replaces C08.* |\r\n| B10 | Sole proprietor and partners: fit and proper “to be associated with the business”, or “to operate a money service”? | • Guidance Notes (01) ¶2.1, p. 3: sole proprietor, each partner, each director and the ultimate owner: fit and proper “to be associated with” the business<br>• Ordinance (10) s.30(3)(a)(i)(A), (ii)(A), p. 83: the individual and each partner: fit and proper “to operate a money service” | Learn the law: the sole proprietor and partners are tested “to operate a money service”; directors and ultimate owners “to be associated with the business”. *Replaces C09.* |\r\n| B11 | Company applicant or licensee: is the company itself tested as fit and proper? | • Ordinance (10) s.30(3)(a)(iii), p. 83: for a company, only “each director” and the ultimate owner are tested<br>• Ordinance (10) s.34(1)(a)(iii), p. 89: the same at revocation: “any director” or ultimate owner<br>• Supplementary Fit and Proper Guideline (05) ¶5, p. 3: licensees “must satisfy and continue to satisfy … that they are fit and proper”<br>• Licensing Guide (03) ¶7.1(a), p. 18: “the licensee, the individual, any partner, any director and any ultimate owner … is no longer a fit and proper person” | Learn the law: for a company, each director and each ultimate owner must be fit and proper. The company's own record can still count as an “other matter”. |\r\n| B12 | Failing to comply as a fitness matter: only “persistently”, or any failure? | • Ordinance (10) s.30(4)(c), p. 85: “whether the person has persistently failed to comply”<br>• Fit and Proper Guideline (04) ¶5(a), p. 3: “whether the person has failed to comply” (no “persistently”) | Learn both. The law's list says “persistently failed to comply”. The 2018 Guideline adds that any failure can count too. |\r\n| B13 | “Any other matter the CCE considers relevant”: must the CCE consider it, or may it? | • Fit and Proper Guideline (04) ¶2, p. 2: the CCE “may take into account any other matter he considers relevant” (05 ¶2 repeats this)<br>• Licensing Guide (03) ¶4.3(f), p. 8–9: in the list the CCE “must have regard to”: “any other matter that the CCE considers relevant”<br>• Ordinance (10) (Chinese) s.30(4), p. 83: 除須考慮任何其他其認為有關的事宜外 (besides having to consider any other relevant matter) | Learn “must”. If a statement copies 04's “may take into account”, don't mark it wrong for that word alone. |\r\n| B14 | Is a beneficial owner always a natural person? | • AML/CFT Guideline (02) ¶4.4.1, p. 22: beneficial owner “refers to the natural person(s) who ultimately owns or controls” the customer<br>• Ordinance (10) Sch. 2 s.1(1) “beneficial owner” (a)(ii), p. 351: includes “the other person” a company acts for, even if it is not an individual<br>• Ordinance (10) Sch. 2 s.1(1) “beneficial owner” (c), p. 352: for a trust: the settlor, trustee, protector or enforcer | Learn the law's definition. Usually the beneficial owner is an individual. But a person the customer acts for, or a trust's settlor, trustee or protector, counts even if it is a company. *Replaces C18, which said the opposite.* |\r\n| B15 | Is the Macau Permanent Resident Identity Card a travel document? | • AML/CFT Guideline (02) App. A ¶3(a), p. 74: travel documents include the “Permanent Resident Identity Card of Macau”<br>• FAQ (22) A2: the example list starts with “(a) Passport”; the Macau card is missing | Learn the Guideline's list: the Macau Permanent Resident Identity Card is a travel document. A passport is one too. |\r\n| B16 | Occasional transaction: verify identity before it, or “before or during” it? | • AML/CFT Guideline (02) ¶4.7.1, p. 25: verify “before or during the course of establishing a business relationship or conducting transactions”<br>• Ordinance (10) Sch. 2 s.3(1)(b), p. 361: CDD “before carrying out for the customer an occasional transaction” | For an occasional transaction at or over the threshold, finish CDD, including verification, before carrying it out. Late verification is only for a business relationship. |\r\n| B17 | High-risk situations: must the MSO establish source of wealth and funds, or may it take other measures instead? | • Ordinance (10) Sch. 2 s.15(a)(ii), p. 385: “either” establish source of wealth and funds “or” take other additional measures<br>• AML/CFT Guideline (02) ¶4.9.17 (with ¶4.9.10), p. 36: high-risk Hong Kong or international-organisation PEPs: apply all the ¶4.9.10 measures, including source of wealth and funds<br>• FAQ (22) A16: MSOs “are required to establish the customer's source of wealth in high risk situations” | Learn both. PEP cases: senior approval, source of wealth and funds, enhanced monitoring. Other high-risk cases: senior approval, plus source of wealth and funds or other extra measures. |\r\n| B18 | Names of the two FATF lists: the old titles (FAQ) or today's titles (circular)? | • FAQ (22) A17: old titles: “The FATF Public Statement” and “… On-going Process”<br>• Circular on FATF statements (20) items (1)–(2), p. 1–2: today's titles: “High-Risk Jurisdictions subject to a Call for Action” and “Jurisdictions under Increased Monitoring” | Learn today's names and how they match. Call for Action (old “Public Statement”): EDD needed. Increased Monitoring (old “On-going Process”): EDD not mandatory; weigh the risk. |\r\n| B19 | $8,000 for wire transfers and remittances: “over”, or “equal to or above”? | • FAQ (22) Q26: “wire transfer and remittance transaction over $8,000”<br>• Ordinance (10) Sch. 2 s.12(5)(a), p. 376: wire transfer “equal to or above $8,000”<br>• Ordinance (10) Sch. 2 s.13(1), p. 379: remittance “equal to or above $8,000”<br>• AML/CFT Guideline (02) ¶10.5, p. 68: “equal to or above $8,000” | Learn “$8,000 or more”: a transfer of exactly $8,000 is caught. *Replaces C14.* |\r\n| B20 | Domestic wire transfer arrives with details missing: what must the receiving institution chase? | • Ordinance (10) Sch. 2 s.12(9)(a), p. 377: domestic transfer: obtain only the missing originator account or reference number (s.12(3)(b))<br>• AML/CFT Guideline (02) ¶10.20, p. 70: domestic or cross-border: obtain any missing “required originator information or required recipient information” | Learn both. The law: for a domestic transfer, get the missing account or reference number. The Guideline: get all missing originator and recipient details. |\r\n| B21 | What does JFIU stand for: Intelligence or Investigation? | • Official sample questions (23) Example (5) item 3, p. 3: “Joint Financial Investigation Unit”<br>• AML/CFT Guideline (02) ¶3.10, p. 14: “Joint Financial Intelligence Unit” (so do its glossary and circulars 13 and 14)<br>• Circular on delivery channels (12) ¶5, p. 2: “Joint Financial Intelligence Unit (JFIU)” | Learn “Joint Financial Intelligence Unit”. If an option says “Investigation”, judge the rest of the statement, not the name. *Replaces C15.* |\r\n| B22 | Who is the “relevant authority” for MSOs: the C&ED (the department) or the CCE (the Commissioner)? | • Licensing Guide (03) Summary, item 2, p. 2: the C&ED is “the relevant authority under the AMLO”<br>• Ordinance (10) Sch. 1 Pt. 2 s.1 “relevant authority” (d), p. 349: for a licensed MSO, it “means the Commissioner”<br>• FAQ (22) “FAQ in Application for an MSO Licence” A4: the CCE “is the relevant authority under the AMLO” | Learn “the Commissioner of Customs and Excise (CCE)”. The C&ED is the department the Commissioner heads. |\r\n| B23 | Renewal: do the 30 days to sit the Assessment run from the letter's issue, or from its receipt? | • Guidance Notes (01) ¶4.6, p. 5: “within 30 days upon the issue of reminder letter”<br>• Licensing Guide (03) ¶6.2, p. 17: “within 30 days upon receipt of the invitation letter” | Learn 30 days from receipt of the invitation letter. *Replaces C05.* |\r\n| B24 | Leaving a fact out of a licence application: what makes it an offence? | • Licensing Guide (03) ¶4.9, p. 11: an offence if the person “omits a material particular and knows … or is reckless”<br>• Ordinance (10) s.52(2), p. 105: the omission must also leave the statement “false or misleading” | Learn the law: the omission must make the statement false or misleading, and the person must know this or be reckless about it. |\r\n| B25 | Occupant's consent for domestic premises: entry by an “authorized officer” or an “authorized person”? | • Licensing Guide (03) ¶7.1(b), p. 18–19: consent for “any authorized officer to enter the premises” (TC p. 16: 獲授權人員)<br>• Ordinance (10) s.34(1)(b)(i), p. 90: consent for “any authorized person as defined by section 8”<br>• Licensing Guide (03) ¶4.12, p. 12: the Guide defines “authorized person”: someone the CCE authorizes under s.9(12) | Learn “authorized person” (獲授權人): the occupant consents to entry by an authorized person for routine inspection. |\r\n| B26 | Money changing service: is only the hotel service left out, or also one incidental to another business? | • Licensing Guide (03) ¶2.3, p. 4: also leaves out a service “incidental to the main business e.g. retail business accepting foreign currencies”<br>• Ordinance (10) Sch. 1 Pt. 1 s.1 “money changing service”, p. 339: leaves out only a hotel changing money for its guests | Learn both. The law names one exception: a hotel changing money for its guests. The Guide adds a shop that takes foreign cash in a sale. |\r\n| B27 | Renewal not decided by the expiry date: does the licence stay in force, or lapse? | • Ordinance (10) s.31(10), p. 87: a licence with a renewal application pending “remains in force” until it is decided<br>• Licensing Guide (03) ¶6.4, p. 18: after an invalid renewal application, “the existing licence will lapse automatically” | Learn both. A proper renewal application keeps the licence alive until it is decided. An application the Guide treats as invalid does not. |\r\n| B28 | A tested person fails the fit-and-proper test: “may” the CCE refuse, or can it grant “only if” everyone passes? | • Licensing Guide (03) ¶5.10(a), p. 16: the CCE “may refuse” if a tested person fails the fit-and-proper test<br>• Ordinance (10) s.30(3), p. 82: the CCE may grant “only if” satisfied that every tested person is fit and proper | Learn: a failed fit-and-proper test means no licence. The CCE can grant or renew only if every tested person is fit and proper. |\r\n| B29 | Person acting for the customer: verified like a customer, or from a list? | • AML/CFT Guideline (02) ¶4.5.3, p. 25: verify the person “in line with the identification and verification requirements for a customer”<br>• FAQ (22) A12: in a low-risk relationship, an MSO “could verify the PPTAs' identities by reference to a list of PPTAs” | Learn both. Normally verify a person acting for the customer like a customer. In a low-risk relationship, a list confirmed by an independent department of the customer can be enough. |\r\n| B30 | Relying on a Hong Kong lawyer, accountant, estate agent or TCSP: are adequate procedures enough? | • Ordinance (10) Sch. 2 s.18(3)(a), p. 389: the intermediary must show it has adequate procedures to prevent ML/TF<br>• AML/CFT Guideline (02) ¶4.11.8, p. 42: it must also be “required to comply with the relevant requirements” of Schedule 2 for that customer | Learn both. The law's test: adequate anti-ML/TF procedures. The Guideline adds: the professional must itself be under Schedule 2 for that customer. |\r\n| B31 | Listed company customer: skip beneficial owners for any listed company, or only one under disclosure rules? | • Ordinance (10) Sch. 2 s.4(3)(c), p. 364: “a corporation listed on any stock exchange”<br>• AML/CFT Guideline (02) ¶4.8.12, p. 29: the MSO may skip beneficial owners, but should first check that disclosure rules make the owners transparent | Learn both. Under the law any listed company may qualify. The Guideline adds: first check that its owners are made public. |\r\n| B32 | Former PEP: is a risk assessment enough to stop EDD, or is senior management approval also needed? | • Ordinance (10) Sch. 2 s.10(3), p. 373: EDD can stop once a proper risk assessment shows the former PEP is no longer high risk<br>• AML/CFT Guideline (02) ¶4.9.12, p. 35: the decision “can only be made with the approval of the MSO's senior management” (FAQ A20 says the same) | Learn both. To stop EDD for a former PEP: a proper risk assessment showing no high risk, and senior management approval. |\r\n| B33 | Related foreign financial institution as intermediary: what about an MSO that re-domiciled to Hong Kong? | • AML/CFT Guideline (02) ¶4.11.12(a)(ii)–(iii), p. 43: only “incorporated in Hong Kong” or “incorporated outside Hong Kong”<br>• Ordinance (10) Sch. 2 s.18(7), p. 392: “incorporated in Hong Kong or is a re-domiciled entity” (added 2025) | Follow the law: an MSO that re-domiciled to Hong Kong is treated like one incorporated in Hong Kong. |\r\n| B34 | No relying on an intermediary for ongoing monitoring: FAQ A22 cites footnote 33, but the rule is footnote 44 | • FAQ (22) A22, key references: “AML/CFT Guideline footnote 33”<br>• AML/CFT Guideline (02) footnote 44, p. 40: the rule: an MSO “cannot rely on an intermediary to continuously monitor” the relationship<br>• AML/CFT Guideline (02) footnote 33, p. 30: is about investment vehicles | Learn the rule, not the footnote number: an MSO cannot rely on an intermediary for ongoing monitoring (02 footnote 44). |\r\n| B35 | Remittance of $8,000 or more (not a wire transfer): is a non-resident's driving licence enough? | • Ordinance (10) Sch. 2 s.13(2)(b), p. 380: verify “by reference to the originator's identification document”<br>• Ordinance (10) Sch. 2 s.1(1) “identification document”, p. 354: means an “identity card, certificate of identity, document of identity or travel document”<br>• FAQ (22) A1(c): for non-residents, “a valid national driving licence” is acceptable (02 App. A ¶2(c) too) | Not a conflict: these are two different checks. For customer due diligence, a national driving licence with a photo is an accepted example for a non-resident who isn't in Hong Kong. For the $8,000 remittance check, only the law's four documents count: identity card, certificate of identity, document of identity or travel document. *Changed from a conflict to \"not a conflict\" on 27 Sep 2026.* |\r\n| B36 | The $8,000 identity check: every remittance, or only those that are not wire transfers? | • Official sample questions (23) Example (3) item 4, p. 2: “Before carrying out a remittance transaction … equal to or above $8,000, MSO must verify the identity of the originator” (answer key: correct)<br>• Ordinance (10) Sch. 2 s.13(1), p. 379: applies to a remittance “other than a wire transfer”<br>• AML/CFT Guideline (02) ¶11.3, p. 72: the same: “other than a wire transfer” | Learn both. Mark the sample statement correct. Also know that the s.13 identity check is for remittances other than wire transfers. |\r\n| B37 | Where are the extra training topics: ¶9.7 or ¶9.5 of the Guideline? | • AML/CFT Policy guideline (07) item 16, p. 5: “other issues set out in para. 9.7 of the AML Guideline”<br>• AML/CFT Guideline (02) ¶9.5, p. 65: the extra training topics for groups of staff<br>• AML/CFT Guideline (02) ¶9.7, p. 66: training records, not topics | Learn the training topics from ¶9.4 and ¶9.5 of the Guideline. Read 07's “para. 9.7” as ¶9.5. |\r\n| B38 | Higher risks notified by C&ED, in the MSO's own risk assessment: required, or “may include”? | • Circular on delivery channels (12) Note 1, p. 1: ¶2.6 “requires MSOs to take into account higher risks identified”, including those notified by C&ED<br>• AML/CFT Guideline (02) ¶2.6, p. 10: the assessment “may include” them | Always take C&ED-notified risks into account in the risk assessment. |\r\n| B39 | EDD for “countries identified by the FATF”: every FATF list, or only the call-for-action list? | • AML/CFT Policy guideline (07) item 3 (EDD), p. 3: EDD example: “High risk countries (e.g. countries identified by the Financial Action Task Force)”<br>• FAQ (22) A17: EDD “is not mandatory” for the FATF increased-monitoring list | Learn: EDD is a must for the FATF call-for-action list. The increased-monitoring list is a risk factor, not automatic EDD. |\r\n| B40 | Overseas branches and subsidiaries: only Hong Kong-incorporated MSOs, or re-domiciled companies too? | • AML/CFT Guideline (02) ¶3.16, p. 15: the duty is on “a Hong Kong-incorporated MSO”<br>• Ordinance (10) Sch. 2 s.22(1), p. 396: “incorporated in Hong Kong or is a re-domiciled entity” (added 2025) | Learn the law: the duty covers MSOs incorporated in Hong Kong and companies re-domiciled to Hong Kong. |\r\n| B41 | Duty to keep effective AML procedures: section 19(3) of the AMLO, or of Schedule 2? | • AML/CFT Policy guideline (07) item 1, p. 1: “required by section 19(3) of the AMLO”<br>• Ordinance (10) Sch. 2 s.19(3), p. 393: the duty itself is in Schedule 2 (s.19 of the main Ordinance is about seized records) | Learn: the duty is in section 19(3) of Schedule 2 to the AMLO. |\r\n| B42 | Unsuitable premises, or domestic premises without every occupant's consent: may the CCE refuse, or can it grant only if both are met? | • Licensing Guide (03) ¶5.10(b)–(c), p. 16: the CCE “may refuse” where “the premises to be used are not suitable for the operation of a money service”, or an occupant's written consent is missing<br>• Ordinance (10) s.30(3)(b), p. 83: the CCE may grant a licence “only if” satisfied that “the premises are suitable to be used for the operation of a money service” and, for domestic premises, every occupant has consented | Follow the law: unsuitable premises, or domestic premises without every occupant's written consent, mean no licence. The CCE can grant only if both are met. *Decided on 27 Sep 2026.* |\r\n\r\n## Inside one document (W1–W11)\r\n\r\nTwo passages of the same document disagree.\r\n\r\n| # | Question | Sources | Decision |\r\n|---|---|---|---|\r\n| W1 | Must at least one senior manager pass the Assessment, or only attend it? | • Licensing Guide (03) ¶4.15(b), p. 12: a senior manager “must pass a Competence Assessment”<br>• Licensing Guide (03) ¶5.10(j), p. 16: refusal if none of them “passes the Assessment”<br>• Licensing Guide (03) ¶11.1(h), p. 24: a licensee must ensure one senior manager is “having attended the Assessment”<br>• Guidance Notes (01) ¶3.1, p. 4: at least one senior manager “must pass the Assessment” | Learn “pass”: at least one senior manager must pass. If a statement copies ¶11.1(h) (“having attended”), don't mark it wrong for that word alone. *Replaces C04.* |\r\n| W2 | Local place for storing records not kept: will or may it lead to suspension or revocation? | • Licensing Guide (03) ¶4.11, p. 12: “it will result in the suspension and/or revocation of the licence”<br>• Licensing Guide (03) ¶7.1(d), p. 19: listed where “the CCE may revoke or suspend a licence”<br>• Licensing Guide (03) (Chinese) ¶4.11, p. 10: 將會導致 (will lead to); the Chinese ¶7.1 (p. 16) says 可 (may) | Learn “may”. *Same as the 25 Sep 2026 review decision.* |\r\n| W3 | Application without storage-place or management-office details: invalid, or “may” be refused? | • Licensing Guide (03) ¶4.7, p. 10: no management-office details: “invalid application … and/or will result in refusal to grant licence”<br>• Licensing Guide (03) ¶4.11, p. 12: the same for the storage place<br>• Licensing Guide (03) ¶5.10(d)–(e), p. 16: “the CCE may refuse to grant a licence” for these | Learn two things. Without these details the application is invalid and not processed. As a reason to refuse a licence, it is “may”. |\r\n| W4 | Hong Kong resident at the counter: always the HKID card, or a passport too? | • AML/CFT Guideline (02) App. A ¶1, 1st sentence, p. 74: anyone present in Hong Kong: by Hong Kong identity card “or travel document”<br>• AML/CFT Guideline (02) App. A ¶1, 2nd sentence, p. 74: “MSOs should always” use a Hong Kong resident's “identity card or document of identity”<br>• AML/CFT Guideline (02) ¶4.3.3(a)–(b), p. 18: general list: “Hong Kong identity card or other national identity card”, “valid travel document” | Learn: verify a Hong Kong resident with the HKID card (or a document of identity). A travel document is for a non-resident. |\r\n| W5 | Exempt person applies for a licence: will C&ED not accept it, or may it refuse? | • Licensing Guide (03) ¶3.1, p. 6: “CCE will not accept any application” from an exempted person<br>• Licensing Guide (03) ¶5.10(k), p. 16: “the CCE may refuse” if the applicant is exempted under s.25 | Learn ¶3.1: C&ED will not accept an application from an exempt person. |\r\n| W6 | Are suspension and revocation “disciplinary actions”? | • Licensing Guide (03) ¶8.10 (also ¶9.3), p. 21: “disciplinary and/or administrative sanctions such as suspension and revocation of licence”<br>• Licensing Guide (03) ¶13.1, p. 26: disciplinary actions: a public reprimand, an order to fix the breach, a fine<br>• Ordinance (10) s.43(2), p. 99: the same three, and only these | Learn the three disciplinary actions in s.43: public reprimand, an order to fix the breach, a fine. Revoking or suspending is a separate power (s.34). |\r\n| W7 | Can breaking the AML Guideline itself lead to action? | • AML/CFT Guideline (02) ¶1.3, p. 3: MSOs that fail to comply “may be subject to disciplinary and other actions”<br>• AML/CFT Guideline (02) ¶1.8, p. 4: a failure “does not by itself render the person liable to any judicial or other proceedings” | Learn both. Breaking the Guideline is not by itself a ground for proceedings. Action comes for breaking the AMLO rules the Guideline explains. |\r\n| W8 | Intermediary hands over CDD copies on request: “without delay” or “as soon as reasonably practicable”? | • Ordinance (10) Sch. 2 s.18(1)(b), p. 388: before relying: copies will come “without delay”<br>• Ordinance (10) Sch. 2 s.18(4)(b), p. 391: during record-keeping: copies “as soon as reasonably practicable” after a request | Learn both. Before relying: be satisfied copies will come “without delay”. After that: make sure they come “as soon as reasonably practicable” when asked. |\r\n| W9 | Main contact with law enforcement: the MLRO, or a staff member named for court orders? | • AML/CFT Guideline (02) ¶7.9 (also ¶3.10), p. 54: the MLRO is “the main point of contact with the JFIU and law enforcement agencies”<br>• AML/CFT Guideline (02) ¶7.31, p. 60: for court orders, appoint a staff member as the main contact with law enforcement | Learn: the MLRO is the main contact with the JFIU and law enforcement. For court orders, a named staff member (who can be the MLRO) is the contact. |\r\n| W10 | Tipping off: what exactly is the offence? | • AML/CFT Guideline (02) ¶1.25, p. 7: knowing or suspecting a report was made, disclosing a matter “likely to prejudice” an investigation<br>• AML/CFT Guideline (02) ¶7.6, p. 54: revealing “any information which might prejudice an investigation” | Learn ¶1.25's test: you know or suspect a report was made, and you disclose something likely to harm the investigation. Use ¶7.6 for examples. |\r\n| W11 | Time to file a suspicious transaction report: from first suspicion, or after the MLRO's review? | • AML/CFT Guideline (02) ¶7.5(b), p. 54: “as soon as reasonably practical after the suspicion was first identified”<br>• AML/CFT Guideline (02) ¶7.19, p. 58: the MLRO discloses “as soon as it is reasonable to do so after” the evaluation | Learn both: report as soon as reasonably practical once suspicion first arises. The MLRO's review is part of that time, so it must be quick. |\r\n\r\n## English and Chinese versions (E1–E41)\r\n\r\nThe English and Chinese texts of the same passage say different things.\r\n\r\n| # | Question | Sources | Decision |\r\n|---|---|---|---|\r\n| E1 | Local management office not kept: will or may it lead to suspension or revocation? | • Licensing Guide (03) ¶4.7, p. 11: “it will result in the suspension and/or revocation”<br>• Licensing Guide (03) (Chinese) ¶4.7, p. 9: 或會導致 (may lead to)<br>• Licensing Guide (03) ¶7.1(e), p. 19: listed where “the CCE may revoke or suspend”<br>• Official sample questions (23) Example (4) item 4, p. 3: “it may result in the suspension and revocation” (answer key: correct) | Learn “may” in both languages. *One answer in both language views.* *Replaces C22.* |\r\n| E2 | New licence: if the nominee misses the Assessment, will the application be refused, or may it be? | • Licensing Guide (03) ¶5.4, p. 15: “may result in refusal of the licence application”<br>• Licensing Guide (03) (Chinese) ¶5.4, p. 12: 會導致 (will lead to)<br>• Licensing Guide (03) (Chinese) ¶5.10(i), p. 14: 可能拒絕 (may refuse)<br>• Guidance Notes (01) (Chinese) ¶3.1, p. 3: 可能導致 (may lead to) | Learn “may” (可能) in both languages. In Chinese, don't mark a statement wrong just for copying ¶5.4's 會導致. *One answer in both language views.* *Replaces C02.* |\r\n| E3 | Late periodic return: will or may it lead to suspension or revocation? | • Licensing Guide (03) ¶11.2, p. 24: “may result in the suspension and/or revocation”<br>• Licensing Guide (03) (Chinese) ¶11.2, p. 20: 將會導致 (will lead to)<br>• Circular on the periodic return (16) ¶1, p. 1: “may result in the suspension and/or revocation”<br>• Circular on the periodic return (16) (Chinese) ¶1, p. 1: 將會導致 (will lead to)<br>• Licensing Guide (03) (Chinese) ¶7.1(f), p. 16: listed under 關長可 (the CCE may) | Learn “may” as the rule. In Chinese, don't mark a statement wrong just for copying the 將會導致 wording. *One answer in both language views.* *Replaces C23, which said the opposite.* |\r\n| E4 | Customer present in person: “should generally” see the original ID and keep a copy, or 通常可 “may usually”? | • AML/CFT Guideline (02) ¶4.3.16, p. 21: “should generally have sight of original identification document … and retain a copy”<br>• AML/CFT Guideline (02) (Chinese) ¶4.3.16, p. 24: 通常可 (may usually) | Learn the word in your exam language. In practice, do what the English says: see the original and keep a copy. *Replaces C21.* |\r\n| E5 | Breaking the Guideline and the owners' fitness: “may” reflect adversely, or 將 “will”? | • AML/CFT Guideline (02) ¶1.3, p. 3: “may also reflect adversely on the fitness and properness” of the owners<br>• AML/CFT Guideline (02) (Chinese) ¶1.3, p. 3: 將…帶有負面影響 (will reflect adversely)<br>• Supplementary Fit and Proper Guideline (05) ¶5, p. 3: a similar point says “may reflect adversely” (Chinese 或會, p. 2) | Learn your exam language's word: “may” in English, 將 (will) in Chinese. In practice, expect any breach to count against the owners. *Replaces C13.* |\r\n| E6 | When must an MSO look into a transaction: either warning sign, or both? | • AML/CFT Guideline (02) ¶5.10(a)–(b), p. 47: “… source of funds; or (b) …”: either sign<br>• AML/CFT Guideline (02) (Chinese) ¶5.10(a)–(b), p. 55: 及 (and): both signs<br>• AML/CFT Guideline (02) (Chinese) ¶7.3, p. 60: 或 (or) for the same two signs | Learn “either one is enough”: look into transactions that don't fit the customer, or that are unusual with no clear purpose. *One answer in both language views.* *Replaces C20, which said the opposite.* |\r\n| E7 | Letting customers show their original documents: “always”, or 盡量 “as far as possible”? | • FAQ (22) A27: “customers should always be provided with the opportunity … to present their original documents”<br>• FAQ (22) (Chinese) 答27: 應盡量容許 (should allow as far as possible) | Learn your exam language's word. In practice, offer the chance every time; that meets both. |\r\n| E8 | Typhoon No. 8 or black rainstorm at 8 a.m.: is the Assessment suspended, or 改期 rescheduled? | • Guidance Notes (01) ¶13.1, p. 10: “the Assessment will be suspended”<br>• Guidance Notes (01) (Chinese) ¶13.1, p. 9: 改期 (rescheduled) | Learn the word in your exam language. Either way, the Assessment does not go ahead that day. *Replaces C06.* |\r\n| E9 | When does a renewed licence's 2 years start? | • Ordinance (10) s.31(12), p. 87: “beginning on the date on which it is renewed”<br>• Ordinance (10) (Chinese) s.31(12), p. 87: 自該牌照續期生效當日起計 (from the day the renewal takes effect)<br>• Ordinance (10) s.31(11)(a), p. 87: a renewal takes effect “on the day following the expiration of the licence” | Learn: 2 years (or a shorter set period) from the day the renewal takes effect, which is the day after the old licence expires. *One answer in both language views.* |\r\n| E10 | Every occupant's written consent (mixed building): “should”, or 須 “must”? | • Licensing Guide (03) ¶4.10, p. 11: the applicant “should secure the written consent of every occupant”<br>• Licensing Guide (03) (Chinese) ¶4.10, p. 10: 須確保 (must ensure) | Learn “must”. *One answer in both language views.* |\r\n| E11 | Renewal at least 45 days before expiry: “should”, or 須 “must”? | • FAQ (22) “FAQ in Application for an MSO Licence” A13: a licensee “should apply for renewal not later than 45 days” before expiry<br>• FAQ (22) (Chinese) 〈適用於申請金錢服務經營者牌照的常見問題〉答13: 須 (must) | Learn “must”: apply for renewal no later than 45 days before the licence expires. *One answer in both language views.* |\r\n| E12 | Candidate with a cough: “should” or 必須 “must” wear a mask; “will” or 或會 “may” be asked to remove it? | • Guidance Notes (01) ¶10.3, p. 7: “should put on surgical mask … will be required … to remove your mask”<br>• Guidance Notes (01) (Chinese) ¶10.3, p. 7: 必須 (must) wear it; 或會 (may) be asked to remove it | Learn the text in your exam language. In practice: wear a mask if you have a cough, and take it off when asked. |\r\n| E13 | Not operating at particular premises: transactions “with the use of” mobile devices, or 只使用 “only using” them? | • Licensing Guide (03) ¶4.5(c), p. 9: “conducting transactions with the use of mobile electronic devices”<br>• Licensing Guide (03) (Chinese) ¶4.5(c), p. 8: 只使用 (only using) | Learn the item in your exam language. The Chinese “only” is the safer reading: a shop that also uses phones still operates at premises. |\r\n| E14 | Ultimate owner of a company: someone who “exercises” ultimate control, or 可行使 “can exercise” it? | • Ordinance (10) s.24 “ultimate owner” (c)(iii), p. 79: “exercises ultimate control over the management of the corporation”<br>• Ordinance (10) (Chinese) s.24 最終擁有人 (c)(iii), p. 78: 可行使 (can exercise)<br>• Licensing Guide (03) ¶4.2.3(c), p. 8: the same split (Chinese p. 7: 可行使) | Learn your exam language's wording. In practice the Chinese is safer: treat anyone who can exercise ultimate control as an ultimate owner. |\r\n| E15 | A licensee failing the fit-and-proper criteria: “would be” a ground, or 可構成 “may be” one? | • Supplementary Fit and Proper Guideline (05) ¶5, p. 3: “would be a ground for suspension or revocation”<br>• Supplementary Fit and Proper Guideline (05) (Chinese) ¶5, p. 2: 可構成 (may constitute) | Learn your exam language's wording. Either way, suspending or revoking stays a choice: the law says the CCE “may” act (s.34). |\r\n| E16 | Non-resident not in Hong Kong: MSOs “may”, or 應 “should”, use the listed documents? | • AML/CFT Guideline (02) App. A ¶2, p. 74: “MSOs may identify and/or verify” with the listed documents<br>• AML/CFT Guideline (02) (Chinese) App. A ¶2, p. 84: 應 (should) | Learn the word in your exam language. Either way, the three listed documents are acceptable. *Replaces C19.* |\r\n| E17 | Customer not present: the first “payment”, or 存款 “deposit”, must go through an account in the customer's name? | • AML/CFT Guideline (02) ¶4.10.1(c), p. 39: “the first payment made in relation to the customer's account”<br>• AML/CFT Guideline (02) (Chinese) ¶4.10.1(c), p. 44: 存款 (deposit) paid into the account<br>• Ordinance (10) (Chinese) Sch. 2 s.9(1)(c), p. 371: the law's Chinese says 付款 (payment) | Learn “payment” (付款): the first payment for the account must go through an account in the customer's own name with a bank or similar institution. *One answer in both language views.* |\r\n| E18 | Hong Kong resident's ID: “always”, or 經常 “usually”, by HKID card? | • AML/CFT Guideline (02) App. A ¶1, p. 74: “MSOs should always” use the HKID card or document of identity<br>• AML/CFT Guideline (02) (Chinese) App. A ¶1, p. 84: 應經常 (should usually) | Learn the word in your exam language. In practice, take “always”: use the HKID card or document of identity for a Hong Kong resident. |\r\n| E19 | Hong Kong-born minor with no HKID or travel document: birth certificate “should”, or 可 “may”? | • AML/CFT Guideline (02) App. A ¶4, p. 74: identity “should be verified by reference to the minor's Hong Kong birth certificate”<br>• AML/CFT Guideline (02) (Chinese) App. A ¶4, p. 84: 可 (may) | Learn the word in your exam language. Either way, the document is the Hong Kong birth certificate. |\r\n| E20 | Trust beneficiaries named by class: the MSO “may”, or 應 “should”, name the class? | • AML/CFT Guideline (02) ¶4.4.12 fn 29, p. 24: “an MSO may ascertain and name the scope of the class of beneficiaries”<br>• AML/CFT Guideline (02) (Chinese) ¶4.4.12 fn 29, p. 27: 應 (should) | Learn the duty in ¶4.4.12: get enough information to identify the beneficiary at payout. Naming the class is one way. |\r\n| E21 | High-risk relationship: a Hong Kong PEP “or”, or 及 “and”, an international organisation PEP? | • AML/CFT Guideline (02) ¶4.9.17(a)–(c), p. 36: “a Hong Kong PEP or an international organisation PEP”<br>• AML/CFT Guideline (02) (Chinese) ¶4.9.17(a)–(c), p. 41: 及 (and) | Learn “or”: EDD applies if the customer or its beneficial owner is either kind of PEP. *One answer in both language views.* |\r\n| E22 | Solicitor's client account: clients' money “or” securities, or 及 “and”? | • Ordinance (10) Sch. 2 s.4(6)(b), p. 366: “moneys or securities of the customer's clients are mingled”<br>• Ordinance (10) (Chinese) Sch. 2 s.4(6)(b), p. 365: 金錢及證券 (money and securities)<br>• AML/CFT Guideline (02) (Chinese) ¶4.8.19(b), p. 36: the Guideline's Chinese says 或 (or) | Learn “or”: the account qualifies if clients' money or securities are pooled in it. *One answer in both language views.* |\r\n| E23 | Simplified CDD ends on doubts about “veracity or accuracy”, or 真實或充分 “veracity or adequacy”? | • AML/CFT Guideline (02) ¶4.8.3(c), p. 27: “doubts about the veracity or accuracy”<br>• AML/CFT Guideline (02) (Chinese) ¶4.8.3(c), p. 31: 真實或充分 (veracity or adequacy)<br>• Ordinance (10) Sch. 2 s.3(1)(e), p. 361: the law says “veracity or adequacy” | Learn “veracity or adequacy” (真實或充分). *One answer in both language views.* |\r\n| E24 | Verifying a trust: the powers that bind “the trust”, or 該法人 “the legal person”? | • AML/CFT Guideline (02) ¶4.3.12, p. 20: “powers that regulate and bind the trust or other similar legal arrangement”<br>• AML/CFT Guideline (02) (Chinese) ¶4.3.12, p. 23: 該法人 (the legal person) | Learn: for a trust, verify the powers that regulate and bind the trust itself. *One answer in both language views.* |\r\n| E25 | FATF consultation: reply “by” 21 August 2026, or 之前 “before” it? | • Circular on the FATF consultation (21) feedback paragraph, p. 1: “send your response by 21 August 2026”<br>• Circular on the FATF consultation (21) (Chinese) feedback paragraph, p. 1: 於2026年8月21日之前 (before 21 August) | Not exam material, and the date has passed. Had it mattered, replying by 20 August would meet both. |\r\n| E26 | Mix of training methods: “encouraged”, or 應 “should”? | • AML/CFT Guideline (02) ¶9.6, p. 66: “is encouraged to consider using a mix of training techniques”<br>• AML/CFT Guideline (02) (Chinese) ¶9.6, p. 75: 應…考慮 (should consider) | English: a mix is encouraged. Chinese: you should consider a mix. Neither text makes you use one. *Replaces C16.* |\r\n| E27 | UNATMO s.11L (financing terrorist travel): intention “or” knowledge, or 及 “and”? | • AML/CFT Guideline (02) ¶6.5(e), p. 50: “with the intention or knowing”<br>• AML/CFT Guideline (02) (Chinese) ¶6.5(e), p. 57: 懷有意圖及知悉 (intention and knowing) | Learn “intention or knowledge”: either one is enough. *One answer in both language views.* *Replaces C24, which said the opposite.* |\r\n| E28 | Deputy CO and MLRO: what does “where practicable” qualify? | • AML/CFT Guideline (02) ¶3.8(h), p. 13: a deputy CO and MLRO “who should, where practicable, have the same status”<br>• AML/CFT Guideline (02) (Chinese) ¶3.8(h), p. 14: 如切實可行的話 goes with having a deputy; the deputy 應具有相同地位 (should have the same status) | Learn your exam language's version. In practice, appoint a deputy CO and MLRO with the same status; that meets both. |\r\n| E29 | Who receives management information on ML/TF risks? | • AML/CFT Guideline (02) ¶3.6, p. 13: the board (or its committee) and senior management<br>• AML/CFT Guideline (02) (Chinese) ¶3.6, p. 14: 通知高級管理層 (senior management only) | English: the board (or its committee) and senior management. Chinese: senior management. In practice, send it to both. |\r\n| E30 | Suspicious wire transfer controlled at both ends: which intelligence unit gets the information? | • AML/CFT Guideline (02) ¶7.19, 2nd paragraph, p. 59: file in “any jurisdiction affected” and inform “the Financial Intelligence Unit”<br>• AML/CFT Guideline (02) (Chinese) ¶7.19, 2nd paragraph, p. 67: 財富情報組 (Hong Kong's JFIU) | English: file in every affected place and inform that place's unit. Chinese: the JFIU. In practice, tell both. |\r\n| E31 | UN sanctions (UNSO): against persons and places, or places only? | • AML/CFT Guideline (02) ¶1.26, p. 7: sanctions “against persons and against places outside the People's Republic of China”<br>• AML/CFT Guideline (02) (Chinese) ¶1.26, p. 7: 對中華人民共和國以外地方 (places only) | Learn “persons and places outside the PRC”. *One answer in both language views.* |\r\n| E32 | Trade-based money laundering: disguising proceeds “and” moving value, or 或 “or”? | • Circular on trade-based money laundering (19) ¶2, p. 1: “disguising the proceeds of crime and moving value”<br>• Circular on trade-based money laundering (19) (Chinese) ¶2, p. 1: 掩飾犯罪得益或轉移價值 (or) | Learn your exam language's wording. Both describe using trade to hide and move criminal money. |\r\n| E33 | Transactions must fit what the MSO knows: customer, business, risk profile “and” source of funds, or 或 “or”? | • AML/CFT Guideline (02) ¶5.1(b)(i), p. 46: “the customer, the customer's business, risk profile and source of funds”<br>• AML/CFT Guideline (02) (Chinese) ¶5.1(b)(i), p. 53: 或 (or)<br>• Ordinance (10) Sch. 2 s.5(1)(b), p. 367: the law says “and” (Chinese 及, p. 366) | Learn “and”: transactions must fit all of them: the customer, the business, the risk profile and the source of funds. *One answer in both language views.* |\r\n| E34 | WMD(CPS)O s.4: services that “may be” connected to PF, or 有關 “are” connected? | • AML/CFT Guideline (02) ¶1.27, p. 7: services that “may be connected” to PF<br>• AML/CFT Guideline (02) (Chinese) ¶1.27, p. 7: 與擴散資金籌集有關 (are connected)<br>• AML/CFT Guideline (02) (Chinese) ¶6.10, p. 58: 可能與擴散資金籌集有關 (may be connected) | Learn “may be connected”: a reasonable belief or suspicion that the services may be linked to PF is enough. *One answer in both language views.* |\r\n| E35 | FATF trade-based risk indicators: “provided” to help, or 應參閱 “should refer to”? | • Circular on trade-based money laundering (19) ¶3, p. 1: the indicators “are provided to enhance the ability of MSOs”<br>• Circular on trade-based money laundering (19) (Chinese) ¶3, p. 1: 應參閱 (should refer to) | Learn your exam language's wording. In practice, read the FATF indicators; that meets both. |\r\n| E36 | Audit review: awareness of staff who have AML/CFT duties, or staff's awareness of the duty? | • AML/CFT Guideline (02) ¶3.12(d), p. 14: “level of awareness of staff having AML/CFT responsibilities”<br>• AML/CFT Guideline (02) (Chinese) ¶3.12(d), p. 16: 職員對負責打擊洗錢…的意識水平 (staff's awareness of being responsible for AML/CFT) | Learn your exam language's wording. In practice, the audit checks how well staff with AML/CFT duties understand them. |\r\n| E37 | Costs of an outside investigator: “may be paid”, or 支付 “are paid”, from money voted by LegCo? | • Ordinance (10) s.11(3), p. 51: costs “may be paid out of moneys provided by the Legislative Council”<br>• Ordinance (10) (Chinese) s.11(3), p. 51: 由立法會所撥款項支付 (are paid) | Not worth memorising. If asked: public money voted by the Legislative Council pays these costs. |\r\n| E38 | Third-party payments circular: what does “where necessary” limit? | • Circular on third-party payments (14) Expected standards, opening paragraph, p. 4: “… and report suspicious transactions where necessary” (at the end)<br>• Circular on third-party payments (14) (Chinese) Expected standards, opening paragraph, p. 3: 在有需要時 comes first and limits every step | Learn the five steps; both texts list the same ones. Do each when the rules call for it, and report whenever there is a suspicion. |\r\n| E39 | Digital ID recognised by the CCE: iAM Smart is named in English only | • FAQ (22) A9: a CCE-recognised digital ID system “(e.g. “iAM SMART”)”<br>• FAQ (22) (Chinese) 答9: no example given | Learn the rule: a digital ID system recognised by the CCE can be used. iAM Smart is the English example only. |\r\n| E40 | Domestic premises: consent for entry by “any authorized person of C&ED”, or 海關人員 “C&ED officers”? | • FAQ (22) “FAQ in Application for an MSO Licence” A11: consent for “any authorized person of C&ED to enter”<br>• FAQ (22) (Chinese) 〈適用於申請金錢服務經營者牌照的常見問題〉答11: 海關人員 (C&ED officers) | Learn “authorized person” (獲授權人): the consent lets an authorized person enter. *One answer in both language views.* |\r\n| E41 | Transactions to examine and write up: complex or unusual “and” without an apparent purpose, or two separate groups? | • Ordinance (10) Sch. 2 s.5(1)(c), p. 367: identify transactions that “(i) are complex, unusually large in amount or of an unusual pattern; and (ii) have no apparent economic or lawful purpose” (Chinese 識辨符合以下說明的交易——(i)…；及(ii)…, p. 367)<br>• AML/CFT Guideline (02) ¶5.1(b)(ii), p. 46: transactions that “(a) are complex, unusually large in amount or of an unusual pattern, and (b) have no apparent economic or lawful purpose”<br>• AML/CFT Guideline (02) (Chinese) ¶5.1(b)(ii), p. 53: 識別(A)複雜、款額大得異乎尋常或進行模式異乎尋常的交易；及(B)沒有明顯經濟或合法目的之交易 (reads as two groups)<br>• AML/CFT Guideline (02) (Chinese) ¶5.10(b), p. 55: 複雜、款額大得異乎尋常或進行模式異乎尋常；及並無明顯經濟或合法目的 (both) | Learn “both together”: the duty to examine a transaction’s background and purposes and set out the findings in writing covers a transaction that is complex, unusually large or of an unusual pattern and also has no apparent economic or lawful purpose. *One answer in both language views.* |\r\n\r\n## Checked: not a conflict (N1–N3)\r\n\r\nThese looked like conflicts, but both sides can be true as written.\r\n\r\n| # | Question | Sources | Decision |\r\n|---|---|---|---|\r\n| N1 | 02 lists the “main” AML laws without Cap. 629 or Cap. 34, which circulars 11 and 18 treat as AML/CFT laws | • AML/CFT Guideline (02) ¶1.14, p. 5: “The main pieces of legislation …”: AMLO, DTROP, OSCO, UNATMO, UNSO, WMD(CPS)O<br>• Circular on Cap. 629 (11) ¶1, p. 1: Cap. 629 helps prevent money laundering and terrorist financing<br>• Circular on Cap. 34 (18) heading, p. 1: Cap. 34 amendments, under an AML/CFT heading | Not a conflict: 02 names only the “main” laws, and nothing in it contradicts the circulars. Learn 02's six laws, plus Cap. 629 and Cap. 34 from the circulars. |\r\n| N2 | Assessment decisions are “final”, yet a licence refused for failing the Assessment can go to the Review Tribunal | • Guidance Notes (01) ¶14.5, p. 11: “the decision made by the C&ED shall be final and conclusive”<br>• Licensing Guide (03) ¶5.11, p. 16: the applicant “may appeal” to the Review Tribunal within 21 days | Not a conflict: they cover different decisions. The Assessment result is final; a licence refusal can still go to the Review Tribunal (s.59). |\r\n| N3 | Circular 12: English “should”, Chinese 須 (must), in three places | • Circular on delivery channels (12) ¶2–¶3, p. 1: “should … review”; channels “should be reviewed by MSOs on a regular basis”<br>• Circular on delivery channels (12) (Chinese) ¶3, p. 1: 須 (must)<br>• Circular on delivery channels (12) ¶5, p. 2: MSOs “should … file a suspicious transaction report” (Chinese 須) | Not a conflict: C&ED's Guideline (02 ¶1.6) treats “should” and “must” alike as duties. Treat all three as duties. |\r\n",
       "before_sha256": "9b7f51b7e1a65a82f83e00dd41e925a1bfe0a43388639dc2a3ed3406f78a0241",
-      "after_sha256": "aea76f2f35bf0553459b1011b8decbc645c27441b13f2cf288bc60f897ff06d1"
+      "after_sha256": "95e7ddcab08dcc810061548aa597052f2b8a64fde288c43582668ef848072f01"
     },
     "revision/p5_sec.py": {
       "before_text": "# AMLO Part 5: regulation of the operation of money service. The MSO's own Part.\r\nfrom bl_core import *\r\nfrom bl_core import _runs\r\nfrom p5_fig import fig_life, fig_gate, LIFE_KEY, GATE_KEY\r\nimport ui as U\r\n\r\n\r\ndef h(en, tc):\r\n    return f'<th>{B(en, tc)}</th>'\r\n\r\n\r\ndef rh(en, tc, cite=None):\r\n    return f'<th class=\"rowh\">{B(en, tc)}{cite_html(cite)}</th>'\r\n\r\n\r\ndef d(en, tc, cite=None, cls='', pre=''):\r\n    k = f' class=\"{cls}\"' if cls else ''\r\n    body = f'<span class=\"answer\" tabindex=\"0\">{B(en, tc)}</span>' if cls == 'pen' else B(en, tc)\r\n    return f'<td{k}>{pre}{body}{cite_html(cite)}</td>'\r\n\r\n\r\ndef table(head, rows, note=None, minw=720):\r\n    t = '<thead><tr>' + head + '</tr></thead>' if head else ''\r\n    n = f'<tr class=\"note\"><td colspan=\"9\">{note}</td></tr>' if note else ''\r\n    return f'<div class=\"tbl\"><table style=\"min-width:{minw}px\">{t}<tbody>{rows}{n}</tbody></table></div>'\r\n\r\n\r\ndef LG(p):\r\n    return (f\"Licensing Guide ¶{p}\", f\"《牌照指引》第{_runs(p)}段\")\r\n\r\n\r\ndef FPG(p):\r\n    return (f\"F&P Guideline ¶{p}\", f\"《適當人選指引》第{_runs(p)}段\")\r\n\r\n\r\ndef cc(*cs):\r\n    \"\"\"Join several citations into one.\"\"\"\r\n    pairs = [cite_pair(c) for c in cs]\r\n    return (' · '.join(p[0] for p in pairs), ' · '.join(p[1] for p in pairs))\r\n\r\n\r\n# ---------------------------------------------------------------- A. lifecycle\r\nA = sec('life', [(\"Part 5\", \"第5部\"), \"s.24–s.53\", (\"your own Part\", \"你自己的一部\")],\r\n        (\"The life of your licence\", \"牌照的一生\"),\r\n    P(\"Read the diagram top to bottom once, then follow the loop on the left. After you apply, the hexagon is the test you have to pass; the red box under the grant lists the duties you have to keep; the bottom row is what can happen next. Only <b>renewal</b>, on the left, keeps the licence, and it sends you back through the same test. The other four take it from you: it expires unrenewed, the Commissioner revokes or suspends it, you stop, or it simply ends. A suspension lasts for a period, or until an event, that the Commissioner specifies, so it takes the licence away for a time rather than ending it.\",\r\n      \"看圖時先由上而下讀一遍，然後跟着左邊的迴路走。申請後，六角形是你必須通過的測試；批給下方的紅色方格是你必須履行的責任；底部一行是其後可能出現的情況。只有左邊的<b>續期</b>會保留牌照，而續期要你再次通過同一測試。其餘四個方格都會令你失去牌照：沒有續期而期滿失效、關長撤銷或暫時吊銷牌照、你自行停業，或牌照不再有效。暫時吊銷只維持關長指明的一段期間，或直至關長指明的事件發生為止，所以是暫時拿走牌照，而非令牌照終結。\")\r\n    + U.fig(fig_life, (\"Renewal is not a formality. Section 31(4) applies the whole of section 30(3) and (4) again, so every person who had to be fit and proper at the grant has to be fit and proper again, and the Commissioner may amend, remove or add conditions at that moment.\",\r\n                       \"續期並非例行公事。第31(4)條再次適用第30(3)及(4)條全部內容，故批給時須屬適當人選的每一個人，續期時仍須是適當人選；關長亦可於此時修改、免除或新增條件。\"), LIFE_KEY)\r\n    + numreq([\r\n        ((\"2 years\", \"2年\"),\r\n         (\"How long a licence stays valid once granted\", \"牌照批給後的有效期\"),\r\n         (\"From the date of grant, unless the Commissioner sets a different period for your case\", \"自批給當日起計，除非關長就你的個案另訂期間\"),\r\n         (\"It simply expires. Carrying on after that is unlicensed operation: $1,000,000 and 2 years on indictment, and the court may disqualify you\", \"牌照直接期滿。其後繼續經營即屬無牌經營：循公訴程序定罪可處罰款$1,000,000及監禁2年，法庭並可取消你的持牌資格\"),\r\n         \"s.30(10) · s.29\"),\r\n        ((\"45 days\", \"45日\"),\r\n         (\"The latest you may lodge a renewal application, in the specified form and manner and with the Schedule 3 fee\", \"遞交續期申請的最後限期，須以指明的格式及方式提出，並附隨附表3費用\"),\r\n         (\"Counted backwards from the day the licence is due to expire\", \"由牌照期滿之日往前推算\"),\r\n         (\"Apply in time and, if the licence expires before the Commissioner decides, it stays in force until it is renewed or, if renewal is refused, until the refusal takes effect, unless you withdraw the application or the licence is revoked or suspended under s.34. That protection covers an application made under the section, which means not later than 45 days before expiry\",\r\n          \"按時申請，而牌照在關長作出決定前期滿，牌照仍然有效，直至獲續期；如續期遭拒絕，則直至拒絕續期的決定生效為止；但如申請被撤回，或牌照根據第34條被撤銷或暫時吊銷，則不在此限。此保障適用於按該條提出的申請，即最遲在期滿前45日提出\"),\r\n         \"s.31(2)(a)–(c), (10)\"),\r\n        ((\"the day after expiry\", \"期滿翌日\"),\r\n         (\"When a renewal takes effect\", \"續期何時生效\"),\r\n         (\"The day after the licence expires; if the licence was kept in force while the application was pending, the day after the day it would otherwise have expired\", \"牌照有效期屆滿之日的翌日；如牌照在申請待決期間仍然有效，則為其本應屆滿之日的翌日\"),\r\n         (\"Nothing to miss: the renewed licence is then valid for 2 years, or any shorter period the Commissioner determines, beginning on the day the renewal takes effect\", \"此項無須你遵守：續期牌照其後有效2年，或關長決定的較短期間，自續期生效當日起計\"),\r\n         \"s.31(11)–(12)\"),\r\n        ((\"more than 25%\", \"25%以上\"),\r\n         (\"Makes someone an ultimate owner, who must then be a fit and proper person\", \"使某人成為最終擁有人，該人因而須是適當人選\"),\r\n         (\"Partnership: more than 25% of the capital or profits, or of the voting rights. Corporation: more than 25% of the issued share capital (including through a trust or bearer share holding), or of the voting rights at general meetings. Either may be held directly or indirectly. Separately, anyone who exercises ultimate control over management is an ultimate owner, whatever the percentage\",\r\n          \"合夥：資本或利潤、或投票權的25%以上。法團：已發行股本（包括透過信託或持票人股份持有）、或成員大會上投票權的25%以上。直接或間接持有均計算。另外，行使對合夥的管理最終的控制權，或可行使對法團的管理最終的控制權的人，不論所佔百分比，亦屬最終擁有人\"),\r\n         (\"Becoming one without approval is an offence by that person: level 5 and 6 months. The licensee may also face discipline, and an owner who is no longer fit and proper can cost it the licence\", \"未經批准而成為最終擁有人，該人即屬犯罪：第5級罰款及監禁6個月。持牌人亦可受紀律處分；最終擁有人不再是適當人選，更可令持牌人失去牌照\"),\r\n         \"s.24 · s.36(7) · s.43(1)(c) · s.34(1)\"),\r\n    ]))\r\n\r\n# ---------------------------------------------------------------- C. who needs one\r\nC = sec('scope', [\"s.25 · s.29\", \"s.46–s.48\", (\"who is in, who is out\", \"誰適用，誰不適用\")],\r\n        (\"Who needs a licence, and who is outside Part 5\", \"誰須領牌，誰不受第5部規管\"),\r\n    P(\"Two tables: what happens to someone who operates without a licence, and who Part 5 leaves out altogether. In the second, read the right-hand column: for most of the list the exemption lasts only while the money service stays ancillary.\",\r\n      \"兩個表：無牌經營的後果，以及第5部完全不適用的人。第二個表請看右欄：名單上大部分人只有在金錢服務附屬於其主要業務時才獲豁免。\")\r\n    + table(h(\"Operating without a licence\", \"無牌經營\") + h(\"What follows\", \"後果\"), ''.join([\r\n        '<tr>' + rh(\"The offence\", \"罪行\", cc(\"s.29(1)–(2)\", LG(\"2.11\"))) + d(\"On indictment, a fine of <b>$1,000,000 and 2 years</b>; summarily, a fine at <b>level 6 and 6 months</b>. The Licensing Guide states the summary fine as <b>HK$100,000</b>.\", \"循公訴程序定罪：<b>罰款$1,000,000及監禁2年</b>；簡易程序：<b>第6級罰款及監禁6個月</b>。《牌照指引》把該簡易程序罰款寫作<b>港幣10萬元</b>。\") + '</tr>',\r\n        '<tr>' + rh(\"Disqualification\", \"取消資格\", \"s.29(3)\") + U.td(\"The court or magistrate <b>may order</b> that you are disqualified from holding a licence, for a period beginning on the date of the order. It is a separate order, not an automatic result.\", \"法庭或裁判官<b>可命令</b>取消你持有牌照的資格，期間自命令日期起計。這是獨立命令，並非自動後果。\", post=U.flag()) + '</tr>',\r\n        '<tr>' + rh(\"How it is policed\", \"如何執法\", \"s.46–s.48\") + d(\"It is the offence that opens an authorized officer's warrant to enter and search, and the power to arrest without a warrant.\", \"此罪行可啟動獲授權人員進入搜查的手令，以及無手令拘捕的權力。\") + '</tr>',\r\n    ]), minw=640)\r\n    + table(h(\"Part 5 does not apply to\", \"第5部不適用於\") + h(\"On what condition\", \"條件\"), ''.join([\r\n        '<tr>' + d(\"The <b>Government</b>\", \"<b>政府</b>\", \"s.25\") + d(\"None: it is outside Part 5 outright\", \"無條件：全面不適用\") + '</tr>',\r\n        '<tr>' + d(\"An <b>authorized institution</b> (as defined in the Banking Ordinance)\", \"<b>認可機構</b>（具有《銀行業條例》給予該詞的涵義）\", \"s.25(a) · Sch. 1 Pt 2\") + d(\"None: outright\", \"無條件：全面不適用\") + '</tr>',\r\n        '<tr>' + d(\"A licensed corporation, an authorized insurer, a licensed insurance broker company, or a licensed individual insurance agent or licensed insurance agency\", \"持牌法團、獲授權保險人、持牌保險經紀公司，或持牌個人保險代理或持牌保險代理機構\", \"s.25(b)–(e)\") + U.td(\"Only while the money service is <b>ancillary to its principal business</b>\", \"只限其金錢服務<b>附屬於其主要業務</b>\", post=U.flag()) + '</tr>',\r\n        '<tr>' + d(\"An SVF licensee\", \"工具持牌人（即根據《支付系統及儲值支付工具條例》第8F條獲批給牌照的人）\", \"s.25(f)\") + d(\"The same ancillary test\", \"同樣須附屬於其主要業務\") + '</tr>',\r\n        '<tr>' + d(\"The system operator or settlement institution of a designated retail payment system\", \"指定零售支付系統的系統營運者或交收機構\", \"s.25(g)\") + d(\"Ancillary to its business as system operator or settlement institution\", \"該服務附屬於其作為系統營運者或交收機構的業務\") + '</tr>',\r\n        '<tr>' + d(\"A stablecoin licensee\", \"穩定幣持牌人\", \"s.25(h)\") + U.td(\"Where the money service is a business activity under its stablecoin licence. There is no ancillary test\", \"其金錢服務屬該持牌人在其穩定幣牌照下的業務活動。此項不設附屬測試\", post=U.flag()) + '</tr>',\r\n    ]), minw=640)\r\n    + U.traps(\r\n        U.trap((\"An authorized institution is out; a licensed insurance broker company may not be\", \"認可機構不適用；持牌保險經紀公司則未必\"),\r\n               (\"The Government and authorized institutions are outside Part 5 whatever they do. Licensed corporations, authorized insurers, licensed insurance broker companies, licensed insurance agents or agencies and SVF licensees are outside only while the money service is ancillary to their principal business. So a company whose principal business is money service needs a licence even if it holds one of those licences. A designated retail payment system operator or settlement institution is outside only while the service is ancillary to that business. A stablecoin licensee is outside where the service is a business activity under its stablecoin licence.\",\r\n                \"政府及認可機構無論做甚麼都不受第5部規管。持牌法團、獲授權保險人、持牌保險經紀公司、持牌個人保險代理或持牌保險代理機構及工具持牌人，只有在金錢服務附屬於其主要業務時才獲豁免；因此主要業務是金錢服務的公司，即使持有上述牌照，仍須領牌。指定零售支付系統的系統營運者或交收機構，須該服務附屬於其作為系統營運者或交收機構的業務；穩定幣持牌人則須該金錢服務是其在穩定幣牌照下的業務活動。\"),\r\n               \"s.25(a)–(h)\"),\r\n    ))\r\n\r\n# ---------------------------------------------------------------- D. fit and proper\r\nFP = table(\r\n    h(\"If the applicant is\", \"如申請人是\") + h(\"Who must be fit and proper\", \"誰須是適當人選\") + h(\"And the test on them is\", \"對他們的測試標準\"),\r\n    ''.join([\r\n        '<tr>' + rh(\"An individual\", \"個人\", \"s.30(3)(a)(i)\")\r\n        + d(\"The individual, and the <b>ultimate owner</b> if there is one.\", \"該名個人；如有<b>最終擁有人</b>，該擁有人亦須符合。\")\r\n        + d(\"The individual must be fit and proper <b>to operate a money service</b>; the ultimate owner, fit and proper <b>to be associated with</b> the business.\", \"該名個人須是<b>經營金錢服務</b>的適當人選；最終擁有人則須是<b>與該業務有聯繫</b>的適當人選。\") + '</tr>',\r\n        '<tr>' + rh(\"A partnership\", \"合夥\", \"s.30(3)(a)(ii)\")\r\n        + d(\"<b>Each partner</b>, and the ultimate owner if there is one.\", \"<b>每名合夥人</b>；如有最終擁有人，該擁有人亦須符合。\")\r\n        + d(\"Each partner must be fit and proper <b>to operate</b>; the ultimate owner, <b>to be associated with</b> the business.\", \"每名合夥人須是<b>經營</b>的適當人選；最終擁有人則須是<b>與該業務有聯繫</b>的適當人選。\") + '</tr>',\r\n        '<tr>' + rh(\"A corporation\", \"法團\", \"s.30(3)(a)(iii)\")\r\n        + d(\"<b>Each director</b>, and the ultimate owner if there is one. Note that the corporation itself is not the one tested.\", \"<b>每名董事</b>；如有最終擁有人，該擁有人亦須符合。留意受測試的並非法團本身。\")\r\n        + d(\"Both are tested as fit and proper <b>to be associated with</b> the business. The <b>to operate</b> wording never applies to a corporation.\", \"董事須是<b>與經營金錢服務有聯繫</b>的適當人選；最終擁有人須是<b>與該業務有聯繫</b>的適當人選。「<b>經營</b>金錢服務的適當人選」這個標準從不適用於法團。\") + '</tr>',\r\n        '<tr class=\"note\"><td colspan=\"3\">'\r\n        + B(\"<b>Ultimate owner</b> of a <b>corporation</b>: more than <b>25%</b> of the issued share capital (held directly or indirectly, including through a trust or bearer share holding), or of the voting rights at general meetings, or <b>ultimate control over the management</b>. Of a <b>partnership</b>: more than 25% of the capital or profits, or of the voting rights, or ultimate control over the management. These two limbs match limb (i) of the Schedule 2 beneficial owner. Schedule 2 adds a limb (ii): if the corporation or partnership is acting on behalf of another person, the other person. Part 5 has that limb only for an individual licensee. Of an <b>individual</b> licensee there is no percentage: it means another individual who ultimately owns or controls that individual's money service business, or, if the individual is acting on behalf of another person, the other person.\",\r\n            \"<b>法團</b>的<b>最終擁有人</b>：直接或間接地擁有或控制（包括透過信託或持票人股份持有）已發行股本的<b>25%以上</b>，或成員大會上投票權的25%以上，或可行使對管理<b>最終的控制權</b>。<b>合夥</b>的最終擁有人：資本或利潤、或投票權的25%以上，或對管理最終的控制權。這兩部分與附表2實益擁有人的第(i)節大致相同（就法團的控制權，附表2寫「行使」）。附表2另有第(ii)節：如該法團或合夥是代表另一人行事，指該另一人；第5部只就個人持牌人設此一節。<b>個人</b>持牌人的最終擁有人則不設百分比：指最終擁有或控制該名個人的金錢服務業務的另一名個人；如該名個人是代表另一人行事，則指該另一人。\")\r\n        + ' ' + cite_html(\"s.24 · s.1 Sch. 2\") + '</td></tr>',\r\n    ]), minw=700)\r\n\r\nD = sec('fitproper', [\"s.30(3)–(4)\", \"s.24\", (\"the gate\", \"入場關卡\")],\r\n        (\"Fit and proper: who is tested, and on what\", \"適當人選：誰受測試，測試甚麼\"),\r\n    P(\"Whether each person is a fit and proper person is the spine of Part 5. It decides whether a licence is granted or renewed, whether a new director, partner or owner may join, and whether a licence is revoked or suspended. The section 30(4) list is written into the grant, the renewal and each of the three people approvals; the revocation section asks only whether a person is <b>no longer</b> fit and proper, without repeating the list.\",\r\n      \"各人是否屬適當人選，是第5部的骨幹。批給或續期牌照、新董事、合夥人或擁有人可否加入、牌照是否撤銷或暫時吊銷，全部取決於它。第30(4)條的因素明文適用於批給、續期及三項人事批准；撤銷條文只問某人是否<b>不再</b>是適當人選，沒有重複列出這些因素。\")\r\n    + FP\r\n    + U.traps(\r\n        U.trap((\"'To operate' or 'to be associated with' depends on who is tested, not on the kind of applicant\", \"「經營」還是「有聯繫」，取決於受測試的是誰，而非申請人屬哪一類\"), None, \"s.30(3)(a)\",\r\n               vs=[((\"Fit and proper to operate a money service\", \"經營金錢服務的適當人選\"), (\"The individual, where the applicant is an individual; <b>each partner</b>, where it is a partnership.\", \"申請人屬個人時，該名個人；申請人屬合夥時，<b>每名合夥人</b>。\")),\r\n                   ((\"Fit and proper to be associated with the business\", \"與經營金錢服務業務有聯繫的適當人選\"), (\"<b>Each director</b>, where the applicant is a corporation; and <b>any ultimate owner</b>, whether the applicant is an individual, a partnership or a corporation.\", \"申請人屬法團時，<b>每名董事</b>（須是與經營金錢服務有聯繫的適當人選）；以及<b>任何最終擁有人</b>，不論申請人屬個人、合夥還是法團。\"))]),\r\n        U.trap((\"A listed conviction or bankruptcy is weighed, not an automatic bar\", \"指明罪行的定罪或破產須予衡量，並非自動禁制\"),\r\n               (\"The Commissioner <b>must have regard to</b> the section 30(4) matters, in addition to any other matter he considers relevant. An applicant who falls within section 30(4) is scrutinised, but the Commissioner has regard to the facts and circumstances of each applicant before deciding whether he or she is fit and proper.\",\r\n                \"關長除須考慮其認為有關的任何其他事宜外，亦<b>須顧及</b>第30(4)條所列事宜。屬第30(4)條所指的申請人須經仔細審查，但關長會考慮個別申請人的事實及情況，才斷定其是否適當人選。\"),\r\n               cc(\"s.30(4)\", FPG(\"3\"))),\r\n    )\r\n    + '<h3>' + B(\"What the Commissioner must have regard to, at grant, renewal and each approval\", \"關長須顧及的事宜：批給、續期及每項批准均適用\") + '</h3>'\r\n    + table(h(\"The matter\", \"事宜\") + h(\"What that covers\", \"涵蓋範圍\"), ''.join([\r\n        '<tr>' + rh(\"Convictions in Hong Kong\", \"香港的定罪紀錄\", \"s.30(4)(a)\") + d(\"Offences under this Ordinance: sections 5(5) to (8), 10, 13, 17(9), 20(1), 61(2) and 66(3). Section 14 of the United Nations (Anti-Terrorism Measures) Ordinance. Sections 25(1), 25A(5) and (7) of, and the scheduled offences in, the Drug Trafficking (Recovery of Proceeds) and the Organized and Serious Crimes Ordinances\",\r\n                                                                                         \"本條例所訂罪行：第5(5)至(8)、10、13、17(9)、20(1)、61(2)及66(3)條。《聯合國（反恐怖主義措施）條例》第14條。《販毒（追討得益）條例》及《有組織及嚴重罪行條例》第25(1)、25A(5)及(7)條，以及其附表所指明的罪行\") + '</tr>',\r\n        '<tr>' + rh(\"Convictions outside Hong Kong\", \"香港以外的定罪紀錄\", \"s.30(4)(b)\") + d(\"For conduct that would have been one of those offences had it happened in Hong Kong; for any offence relating to money laundering or terrorist financing; or for any offence that needed a finding of fraud, corruption or dishonesty\",\r\n                                                                                              \"假使在香港作出即構成上述罪行的行為；任何關乎洗錢或恐怖分子資金籌集的罪行；或任何須裁斷該人曾欺詐、舞弊或不誠實行事的罪行\") + '</tr>',\r\n        '<tr>' + rh(\"Compliance record\", \"遵從紀錄\", \"s.30(4)(c)\") + d(\"Whether the person has <b>persistently failed</b> to comply with a requirement under the Ordinance or a Part 5 regulation\", \"該人是否<b>屢次不遵從</b>本條例的規定或第5部的規例\") + '</tr>',\r\n        '<tr>' + rh(\"Solvency\", \"償債能力\", \"s.30(4)(d)–(e)\") + d(\"An individual: an undischarged bankrupt, or the subject of any bankruptcy proceedings under the Bankruptcy Ordinance. A corporation: in liquidation, the subject of a winding up order, or with a receiver appointed\", \"個人：未獲解除破產的破產人，或《破產條例》下的破產程序的標的。法團：正在清盤當中、清盤令的標的，或有接管人已就該法團而獲委任\") + '</tr>',\r\n        '<tr>' + rh(\"Anything else\", \"其他任何事宜\", \"s.30(4)\") + d(\"The list comes <b>in addition to</b> any other matter the Commissioner considers relevant: a floor, not a ceiling\", \"關長除須考慮其認為有關的任何其他事宜<b>外</b>，亦須顧及上述事宜：上述事宜是下限，不是上限\") + '</tr>',\r\n    ]), minw=680)\r\n    + '<h3>' + B(\"Suitable premises, and the domestic-premises trap\", \"適合的處所，以及住宅處所的陷阱\") + '</h3>'\r\n    + table(h(\"If you apply to operate at particular premises\", \"如申請在特定處所經營\") + h(\"The rule\", \"規則\"), ''.join([\r\n        '<tr>' + rh(\"Any premises\", \"任何處所\", \"s.30(3)(b)(i)\") + d(\"The Commissioner must be satisfied they are <b>suitable</b> for operating a money service\", \"關長須信納該處所<b>適合</b>用作經營金錢服務\") + '</tr>',\r\n        '<tr>' + rh(\"Domestic premises\", \"住宅處所\", \"s.30(3)(b)(ii)\") + d(\"You must also have the <b>written consent of every occupant</b> for an authorized person to enter and use the section 9 inspection powers\", \"你亦須已取得<b>每名佔用人的書面同意</b>，讓獲授權人進入並行使第9條的視察權力\") + '</tr>',\r\n        '<tr>' + rh(\"Later on\", \"其後\", \"s.34(1)(b)\") + U.td(\"If an occupant <b>revokes</b> that consent, or a <b>new occupant refuses</b> to give it, the Commissioner may revoke or suspend the licence. A new flatmate can cost you the licence\", \"如佔用人<b>撤銷</b>同意，或<b>新佔用人拒絕</b>給予同意，關長可撤銷或暫時吊銷牌照。一名新室友足以令你失去牌照\", post=U.flag()) + '</tr>',\r\n    ]), minw=640))\r\n\r\n# ---------------------------------------------------------------- E. approvals\r\nE = sec('approvals', [\"s.35–s.39\", (\"ask first\", \"先申請\")],\r\n        (\"Five changes that need approval first\", \"五項須先獲批准的改變\"),\r\n    P(\"Sections 35 to 39 share one shape: the licensee applies, the Commissioner decides, and doing the thing before the answer arrives is an offence carrying a fine at <b>level 5 and 6 months</b>. Only the subject changes.\",\r\n      \"第35至39條結構相同：由持牌人申請、關長決定；未有答覆前先行其事即屬犯罪，可處<b>第5級罰款及監禁6個月</b>。分別只在對象不同。\")\r\n    + U.fig(fig_gate, (\"The people gates, sections 35 to 37. The premises gates in sections 38 and 39 follow the same shape, but the test is whether the premises are suitable and, for domestic premises, whether every occupant has consented in writing.\",\r\n                       \"第35至37條的人事關卡。第38及39條的處所關卡結構相同，但測試的是處所是否適合；如屬住宅處所，則須每名佔用人均已書面同意。\"), GATE_KEY)\r\n    + table(h(\"Section\", \"條文\") + h(\"Not allowed\", \"不得\") + h(\"Until\", \"除非\") + h(\"Penalty\", \"刑罰\"),\r\n        ''.join([\r\n            '<tr>' + rh(\"35\", \"35\", \"s.35\")\r\n            + d(\"A person must not <b>become a director</b> of a licensee that is a corporation\", \"如持牌人屬法團，任何人不得<b>成為</b>該法團的<b>董事</b>\")\r\n            + d(\"The Commissioner has given <b>written approval</b> on the licensee's application, satisfied the person is fit and proper to be associated with the business\", \"關長應持牌人的申請，信納該人是與該業務有聯繫的適當人選，並已給予<b>書面批准</b>\")\r\n            + d(\"Level 5 (HK$50,000) and 6 months, without reasonable excuse\", \"第5級罰款（港幣5萬元）及監禁6個月（無合理辯解）\", None, 'pen') + '</tr>',\r\n            '<tr>' + rh(\"36\", \"36\", \"s.36\")\r\n            + d(\"A person must not <b>become an ultimate owner</b> of the licensee\", \"任何人不得<b>成為</b>持牌人的<b>最終擁有人</b>\")\r\n            + d(\"The same written approval on the same test\", \"同樣須按同一測試取得書面批准\")\r\n            + d(\"Level 5 (HK$50,000) and 6 months\", \"第5級罰款（港幣5萬元）及監禁6個月\", None, 'pen') + '</tr>',\r\n            '<tr>' + rh(\"37\", \"37\", \"s.37\")\r\n            + d(\"A person must not <b>become a partner</b> in a licensee that is a partnership\", \"如持牌人屬合夥，任何人不得<b>成為</b>該合夥的<b>合夥人</b>\")\r\n            + d(\"The same approval, but the test is fit and proper <b>to operate</b> a money service\", \"同樣須取得批准，但測試標準是<b>經營</b>金錢服務的適當人選\")\r\n            + d(\"Level 5 (HK$50,000) and 6 months\", \"第5級罰款（港幣5萬元）及監禁6個月\", None, 'pen') + '</tr>',\r\n            '<tr>' + rh(\"38\", \"38\", \"s.38\")\r\n            + d(\"The licensee must not operate at <b>any premises other than</b> those specified in its licence\", \"持牌人不得在牌照<b>指明處所以外</b>的任何處所經營\")\r\n            + d(\"The Commissioner has <b>added the new premises</b> to the licence, on payment of the Schedule 3 fee, satisfied they are suitable and, if domestic, consented to\", \"關長在收取附表3費用後，信納處所適合（如屬住宅處所並已取得同意），並已將新處所<b>加入牌照</b>\")\r\n            + d(\"Level 5 (HK$50,000) and 6 months\", \"第5級罰款（港幣5萬元）及監禁6個月\", None, 'pen') + '</tr>',\r\n            '<tr>' + rh(\"39\", \"39\", \"s.39\")\r\n            + d(\"The licensee must not operate at <b>particular premises</b> when its licence does not tie it to any\", \"持牌人不得在牌照並未指明處所的情況下，於<b>特定處所</b>經營\")\r\n            + d(\"The Commissioner has added those premises to the licence on the same conditions\", \"關長已按同樣條件將該處所加入牌照\")\r\n            + d(\"Level 5 (HK$50,000) and 6 months\", \"第5級罰款（港幣5萬元）及監禁6個月\", None, 'pen') + '</tr>',\r\n        ]),\r\n        note=B(\"For sections 35 to 37 the offender is the person who takes office without approval; the licensee may also face discipline under section 43(1)(c). For sections 38 and 39 the offence is the licensee's own. The dollar figures are the Licensing Guide's; the Ordinance states each penalty as level 5. After granting an application under section 38 or 39 the Commissioner must, as soon as reasonably practicable, add or amend the premises particulars in the register. For the inspection power in section 9 (Part 3), an MSO's business premises are the premises shown in that register.\",\r\n               \"第35至37條的犯罪者是未獲批准而就任的人；持牌人亦可根據第43(1)(c)條受紀律處分。第38及39條的罪行則由持牌人本身觸犯。上列金額取自《牌照指引》；條例把每項刑罰寫作第5級罰款。關長批准第38或39條的申請後，須在合理地切實可行範圍內，盡快在登記冊加入或修訂有關詳情。就第3部第9條的視察權力而言，持牌金錢服務經營者的業務處所，即登記冊所示可經營金錢服務的處所。\") + ' ' + cite_html(cc(\"s.35(7) · s.38(8) · s.43(1)(c)\", LG(\"8.5–8.9\"), \"s.38(7) · s.39(7) · s.9(15)\")), minw=780))\r\n\r\n# ---------------------------------------------------------------- F. duties\r\nF = sec('duties', [\"s.39A–s.41\", \"s.27–s.28 · s.33 · s.52\", (\"while you hold it\", \"持牌期間\")],\r\n        (\"What you owe while you hold the licence\", \"持牌期間你的責任\"),\r\n    P(\"The first table is every running duty with its clock and its penalty. The second is what the licence itself must show, and the public register, which the Commissioner keeps but which decides what others can prove about you.\",\r\n      \"第一個表列出每項持續責任及其時限和罰則。第二個表是牌照本身須載明的內容，以及公開登記冊：登記冊由關長備存，但它決定了別人可以證明你甚麼。\")\r\n    + numreq([\r\n        ((\"at all times\", \"任何時候\"),\r\n         (\"Display the <b>original</b> of the licence in a conspicuous place, not a copy\", \"在顯眼地方展示牌照<b>正本</b>，而非複本\"),\r\n         (\"Whenever you are licensed to operate at premises specified in the licence\", \"凡你獲准在牌照指明的處所經營期間\"),\r\n         (\"An offence without reasonable excuse: a fine at level 5, with no imprisonment\", \"如無合理辯解即屬犯罪：第5級罰款，不設監禁\"),\r\n         \"s.39A\"),\r\n        ((\"1 month\", \"1個月\"),\r\n         (\"Notify the Commissioner in writing of any change in the particulars you gave with your application, or notified since\", \"以書面向關長具報申請時所提供或其後具報的詳情的任何改變\"),\r\n         (\"From the date the change takes place, not from when you notice it\", \"自改變發生之日起計，而非自你察覺時起計\"),\r\n         (\"An offence without reasonable excuse: a fine at level 5, which the Licensing Guide states as HK$50,000\", \"如無合理辯解即屬犯罪：第5級罰款，《牌照指引》寫作港幣5萬元\"),\r\n         cc(\"s.40(1)–(2), (4)\", LG(\"9.3\"))),\r\n        ((\"before the date\", \"停業日期之前\"),\r\n         (\"Notify in writing your intention to cease, and the date\", \"以書面具報停業意向及日期\"),\r\n         (\"Before you stop operating, entirely or at some of your premises\", \"在你全面停業或停止在部分處所經營之前\"),\r\n         (\"An offence without reasonable excuse: a fine at level 5 (HK$50,000 in the Licensing Guide)\", \"如無合理辯解即屬犯罪：第5級罰款（《牌照指引》寫作港幣5萬元）\"),\r\n         cc(\"s.41(1)(a), (4)\", LG(\"10.4\"))),\r\n        ((\"7 days\", \"7日\"),\r\n         (\"Return the licence for cancellation or amendment\", \"交回牌照以作取消或修訂\"),\r\n         (\"Within 7 days beginning on the date of cessation itself\", \"在自停業日期起計的7日內\"),\r\n         (\"An offence without reasonable excuse: a fine at level 5. If the licence is returned for cancellation, no licence fee paid for its grant or renewal is refunded\", \"如無合理辯解即屬犯罪：第5級罰款。如牌照交回以作取消，已就該牌照的批給或續期繳付的牌照費不予退回\"),\r\n         \"s.41(1)(b), (3)–(4)\"),\r\n        ((\"no number\", \"不涉數字\"),\r\n         (\"Do not make a statement that is false or misleading in a material particular, or omit a material particular from a statement so that it becomes false or misleading, in connection with a grant or renewal application\", \"在與批給或續期申請有關連的情況下，不得作出在要項上屬虛假或具誤導性的陳述，亦不得在陳述中遺漏任何要項，以致該陳述成為虛假或具誤導性\"),\r\n         (\"When you knew, or were reckless as to whether, it was false or left out\", \"你明知或罔顧其是否虛假或遺漏\"),\r\n         (\"An offence: a fine at level 5 and 6 months. The Licensing Guide, on an omitted premises (s.52(2)), states the fine as up to HK$50,000\", \"即屬犯罪：第5級罰款及監禁6個月。《牌照指引》就漏填處所（第52(2)條）把罰款寫作最高港幣5萬元\"),\r\n         cc(\"s.52\", LG(\"4.9\"))),\r\n    ], heading=False)\r\n    + table(h(\"The licence and the register\", \"牌照及登記冊\") + h(\"The rule\", \"規則\"), ''.join([\r\n        '<tr>' + rh(\"What the licence shows\", \"牌照須載明甚麼\", \"s.33\") + d(\"It is in a form the Commissioner specifies, and must give the address of every premises where you may operate (or, if you are not tied to premises, your correspondence address), be endorsed with the conditions imposed or amended under sections 30, 31 or 32, and state the period for which it is valid\", \"牌照須採用關長指明的格式，並須指明你可經營金錢服務所在的每一個處所的地址（如屬任何其他情況，則為你的通訊地址）、批註根據第30、31或32條施加或修改的條件，並指明牌照的有效期\") + '</tr>',\r\n        '<tr>' + rh(\"What the register holds\", \"登記冊載有甚麼\", \"s.27(1)–(2)\") + d(\"Every licensee's name, and either every premises address or, for a licensee not tied to premises, a correspondence address. Kept at the Commissioner's office, in any form he thinks fit\", \"每名持牌人的姓名或名稱，以及其可經營金錢服務的每一個處所的地址；如屬任何其他情況，則為該持牌人的通訊地址。由關長以其認為合適的形式在其辦事處備存\") + '</tr>',\r\n        '<tr>' + rh(\"Who may look\", \"誰可查閱\", \"s.27(3)–(4)\") + d(\"The public, <b>free of charge</b> during normal office hours, so anyone can check they are dealing with a licensee\", \"公眾人士有權在通常辦公時間內<b>免費</b>查閱，以確定其是否正與持牌人有往來\") + '</tr>',\r\n        '<tr>' + rh(\"A certified copy\", \"核證複本\", \"s.28(2)–(3)\") + d(\"Admissible without further proof and <b>evidence</b> of what it states; a name missing from it is evidence the person was not licensed on the date the copy was certified\", \"毋須進一步證明即獲接納，並屬所述事實的<b>證據</b>；複本上沒有某人的姓名或名稱，即可作為證據，證明該人在該複本經核證當日並沒有獲批給牌照\") + '</tr>',\r\n        '<tr>' + rh(\"The Commissioner's certificate\", \"關長的證明書\", \"s.28(4)\") + U.td(\"That a name was entered, removed or never entered: <b>conclusive evidence</b>\", \"述明姓名或名稱已名列於登記冊、已從登記冊刪除或未有名列於登記冊：屬<b>確證</b>\", post=U.flag()) + '</tr>',\r\n    ]), minw=640))\r\n\r\n# ---------------------------------------------------------------- G. losing it\r\nG = sec('losing', [\"s.30–s.34\", \"s.41 · s.42\", (\"how it ends\", \"如何終結\")],\r\n        (\"Changing the terms, and the ways it ends\", \"條件的更改，以及牌照終結的方式\"),\r\n    P(\"Each row is one way a licence changes or ends. Compare the columns: what triggers it, when it takes effect, and whether the Review Tribunal is open to you.\",\r\n      \"每一行是牌照改變或終結的一種方式。比較各欄：觸發條件、生效時間，以及可否向覆核審裁處申請覆核。\")\r\n    + table(h(\"What happens\", \"發生甚麼\") + h(\"Trigger\", \"觸發條件\") + h(\"Takes effect\", \"生效時間\") + h(\"Fee refunded?\", \"費用退還？\") + h(\"Review?\", \"可否覆核？\"), ''.join([\r\n        '<tr>' + rh(\"Conditions changed mid-term\", \"有效期內更改條件\", \"s.32\")\r\n        + d(\"The Commissioner is satisfied it is <b>reasonable in the circumstances</b>; written notice with reasons\", \"關長信納在有關情況下屬<b>合理</b>；以書面通知並載明理由\")\r\n        + d(\"On receipt of the notice, or the time it specifies, whichever is later\", \"收到通知時或通知指明的時間，以較遲者為準\")\r\n        + d(\"—\", \"—\") + d(\"Yes\", \"可以\", \"s.54 · s.59(1)\") + '</tr>',\r\n        '<tr>' + rh(\"Revoked or suspended\", \"撤銷或暫時吊銷\", \"s.34\")\r\n        + d(\"Someone who had to be fit and proper <b>no longer is</b>, or consent to enter <b>domestic premises</b> is revoked or refused. A reasonable opportunity to be heard comes first. The Licensing Guide gives a longer, non-exhaustive list of examples, such as a periodic return not submitted on time: see the <a href=\\\"#gl-endings\\\">Guidelines page</a>\", \"本須屬適當人選的人<b>不再</b>是適當人選，或<b>住宅處所</b>的進入同意被撤銷或拒絕給予。須先給予合理的陳詞機會。《牌照指引》另列出並非詳盡無遺的例子，例如未能按時遞交定期申報表：見<a href=\\\"#gl-endings\\\">指引頁</a>\", cc(\"s.34(1), (3)\", LG(\"7.1–7.2\")))\r\n        + U.td(\"At the time the notice specifies; the notice also sets a suspension's terms, or the time to surrender a revoked licence\", \"在通知指明的時間；通知亦須載明吊銷的條款，或撤銷後交回牌照的期限\", post=U.flag())\r\n        + d(\"No; and failing to surrender a revoked licence is an offence at level 5\", \"不退還；沒有交回已撤銷的牌照即屬犯罪，可處第5級罰款\")\r\n        + d(\"Yes\", \"可以\", \"s.54 · s.59(1)\") + '</tr>',\r\n        '<tr>' + rh(\"Not renewed\", \"不獲續期\", \"s.31\")\r\n        + d(\"The renewal application does not meet the same requirements as a new application: that each person is a fit and proper person, that the premises are suitable to be used for the operation of a money service and, for domestic premises, that every occupant has given written consent\", \"續期申請未能符合與新申請相同的規定：各人須屬適當人選，處所須適合用作經營金錢服務；如屬住宅處所，須已取得每名佔用人的書面同意\")\r\n        + U.td(\"The refusal takes effect under the ordinary rule: when the 21 days to apply for a review end, or earlier if you tell the Commissioner in writing that you will not apply; if you apply, when the review is decided or withdrawn. If you applied for renewal in time, the licence stays in force past its expiry until then, unless you withdraw the renewal application or the licence is revoked or suspended\", \"拒絕續期的決定按一般規則生效：在申請覆核的21日限期屆滿時生效；如你較早以書面通知關長你不會申請覆核，則在通知時生效；如你申請覆核，則在覆核有結果或申請撤回時生效。如你按時申請續期，牌照在期滿後仍然有效，直至該決定生效為止；但如續期申請被撤回，或牌照被撤銷或暫時吊銷，則不在此限\", \"s.31(10) · s.75(1)\", post=U.flag())\r\n        + d(\"—\", \"—\") + d(\"Yes\", \"可以\", \"s.54 · s.59(1)\") + '</tr>',\r\n        '<tr>' + rh(\"It expires\", \"期滿失效\", \"s.30(10) · s.31(12)\")\r\n        + d(\"No renewal application made under section 31. One lodged later than 45 days before expiry does not count, and the Licensing Guide treats it as invalid. It also treats a renewal as invalid if requested documents are not produced within the specified period, or, where no senior manager holds a pass any more, no eligible person is nominated for the Assessment within 7 days of receiving the invitation letter, which comes with the renewal reminder sent 90 days before expiry\", \"沒有根據第31條提出續期申請。遲於期滿前45日才遞交的申請不算在內，《牌照指引》視之為無效申請。如未有在指明期限內遞交所需文件，或在高級管理層已無人持有合格成績時，未有在接獲邀請信當日起計7日內提名合資格人士應考能力評核，《牌照指引》亦視該續期申請為無效；邀請信夾附於期滿前90日發出的續期提示通知\", cc(LG(\"6.2–6.4\"), (\"CA Guidance Notes ¶4.4(ii)\", \"《能力評核須知》第4.4(ii)段\")))\r\n        + d(\"When its validity period runs out; trading on is unlicensed operation. The Licensing Guide treats expiry as a cessation: notify before it and return the expired licence within 7 days (see the <a href=\\\"#gl-renewal\\\">Guidelines page</a>)\", \"有效期屆滿時即失效；其後繼續經營即屬無牌經營。《牌照指引》把期滿視作停業：須在期滿前具報，並在7日內交回已屆滿的牌照（見<a href=\\\"#gl-renewal\\\">指引頁</a>）\", cc(\"s.31(2)(a)\", LG(\"10.2\")))\r\n        + d(\"—\", \"—\") + d(\"No: it is not a decision\", \"不可以：這不是決定\") + '</tr>',\r\n        '<tr>' + rh(\"You stop\", \"你停業\", \"s.41\")\r\n        + d(\"Your own decision, notified in writing before the date of cessation\", \"你自己的決定，須在停業日期前書面具報\")\r\n        + d(\"From the date of cessation; return the licence within 7 days beginning on that date\", \"自停業日期起；須在自停業日期起計的7日內交回牌照\")\r\n        + d(\"No, if it is returned for cancellation\", \"如交回以作取消，則不退還\", \"s.41(3)\") + d(\"Nothing to review\", \"無可覆核\") + '</tr>',\r\n        '<tr>' + rh(\"It simply ends\", \"牌照不再有效\", \"s.42\")\r\n        + d(\"An individual dies; a partnership dissolves; a corporation's winding up commences\", \"個人去世；合夥解散；法團開始清盤\")\r\n        + d(\"At that moment, with no decision, notice or hearing\", \"即時失效，毋須任何決定、通知或聆訊\")\r\n        + d(\"—\", \"—\") + d(\"No: it is not a decision\", \"不可以：這不是決定\") + '</tr>',\r\n    ]), minw=860))\r\n\r\n# ---------------------------------------------------------------- H. enforcement\r\nH_ = sec('enforce', [\"s.43–s.48\", \"s.26 · s.50–s.53\", (\"the sharp end\", \"執法一端\")],\r\n         (\"Discipline for licensees; warrants and arrest for the unlicensed\", \"持牌人受紀律處分；無牌者面對手令及拘捕\"),\r\n    P(\"Read the second column first. Section 43 is aimed at licensees that breach a regulation, a licence condition or a Part 5 duty; sections 47 and 48 at people operating without a licence.\",\r\n      \"先看第二欄。第43條針對違反規例、牌照條件或第5部責任的持牌人；第47及48條則針對在沒有牌照的情況下經營金錢服務的人。\")\r\n    + table(h(\"Power\", \"權力\") + h(\"Aimed at\", \"針對\") + h(\"What it allows\", \"可以做甚麼\") + h(\"The limits\", \"限制\"), ''.join([\r\n        '<tr>' + rh(\"Discipline\", \"紀律行動\", \"s.43–s.45\")\r\n        + d(\"A <b>licensee</b> that breaches a Part 5 regulation, a licence condition, or sections 35(1) to 41(1)\", \"違反第5部規例、牌照條件或第35(1)至41(1)條的<b>持牌人</b>\")\r\n        + d(\"Public reprimand, an order to take remedial action, a pecuniary penalty of up to <b>$1,000,000</b>, and up to <b>$10,000 a day</b> while that order is not complied with\", \"公開譴責、命令採取糾正行動、最高<b>$1,000,000</b>的罰款；不遵從該命令期間，另可命令繳付每日最高<b>$10,000</b>的罰款\")\r\n        + d(\"A reasonable opportunity to be heard first; a written notice with reasons and the Tribunal statement; penalty guidelines published before first use\", \"須先給予合理的陳詞機會；書面通知須載明理由及覆核審裁處的提示；首次施加罰款前須公布指引\") + '</tr>',\r\n        '<tr>' + rh(\"Authorized officers\", \"獲授權人員\", \"s.46\")\r\n        + d(\"Staffing the two powers below\", \"執行下列兩項權力的人員\")\r\n        + d(\"The Commissioner appoints them in writing from public officers employed in the Customs and Excise Department\", \"由關長從受僱於香港海關的公職人員中以書面委任\")\r\n        + U.td(\"Not the same as Part 3's <b>authorized person</b>, who is authorised under section 9(12) and may come from outside Customs\", \"與第3部的<b>獲授權人</b>不同：後者根據第9(12)條獲授權，可以是海關以外的人\", post=U.flag()) + '</tr>',\r\n        '<tr>' + rh(\"Warrant\", \"手令\", \"s.47\")\r\n        + d(\"Suspected <b>unlicensed operation</b> on the premises\", \"懷疑該處所有<b>無牌經營</b>\")\r\n        + d(\"A magistrate, on information on oath, authorises entry and search, by force if needed; seizure of records, documents, <b>cash</b> and other evidence; and detaining anyone on the premises who may have relevant information until the search is done\", \"裁判官根據經宣誓而作的告發，授權進入及搜查（如有需要可強行進入）；檢取紀錄、文件、<b>現金</b>及其他證據；並可扣留在場可能掌握相關資料的人，直至搜查完畢\")\r\n        + d(\"Obstructing the officer is an offence: level 6 and 6 months\", \"妨礙該人員即屬犯罪：第6級罰款及監禁6個月\") + '</tr>',\r\n        '<tr>' + rh(\"Arrest\", \"拘捕\", \"s.48\")\r\n        + d(\"Reasonable grounds to suspect <b>unlicensed operation</b>\", \"有合理理由懷疑<b>無牌經營</b>\")\r\n        + d(\"Arrest without a warrant, or detain for further enquiries; use any force that is reasonably necessary if the person forcibly resists or attempts to evade\", \"可無手令拘捕或扣留以作進一步查訊；如遭強行反抗或企圖逃避，可使用合理所需的武力\")\r\n        + d(\"Show evidence of appointment if asked; a search of the person only by an officer of the same sex; no one held more than <b>48 hours</b> without being charged and brought before a magistrate\", \"如被要求須出示委任證明；搜身只可由同性人員進行；任何人不得被扣留超過<b>48小時</b>而不予落案起訴及帶到裁判法院\") + '</tr>',\r\n        '<tr>' + rh(\"Regulations and fees\", \"規例及費用\", \"s.50–s.51 · s.26 · Sch. 1 Pt 2\")\r\n        + d(\"The rules and prices of the Part 5 regime\", \"第5部制度的規則及收費\")\r\n        + d(\"The Commissioner of Customs and Excise may make Part 5 regulations, and the Commissioner may amend the Schedule 3 fees by notice in the Gazette\", \"海關關長可訂立第5部規例；關長可藉憲報公告修訂附表3的費用\")\r\n        + U.td(\"Making regulations is one of only two functions that can <b>never</b> be delegated; amending the fees can be delegated. That is why the wording differs: in the Ordinance, 'the Commissioner' means the Commissioner of Customs and Excise, any Deputy or Assistant Commissioner of Customs and Excise, or a person to whom the Commissioner of Customs and Excise has delegated a function under section 26\", \"訂立規例是<b>絕不可</b>轉授的兩項職能之一；修訂費用則可以轉授。所以兩者寫法不同：本條例中的「關長」指海關關長、任何海關副關長、任何海關助理關長，或獲海關關長根據第26條轉授其任何職能的人\", post=U.flag()) + '</tr>',\r\n    ]), minw=900)\r\n    + numreq([\r\n        ((\"$1,000,000\", \"$1,000,000\"),\r\n         (\"The ceiling on a Part 5 disciplinary penalty\", \"第5部紀律處分罰款的上限\"),\r\n         (\"You broke a regulation, a licence condition, or one of the duties in sections 35 to 41\", \"你違反規例、牌照條件，或第35至41條所訂的責任\"),\r\n         (\"Payable within 30 days (or any longer period the Commissioner specifies) after it takes effect; on the Commissioner's application the Court of First Instance may register it, and it then counts as a civil order of that Court for payment of money\", \"須在生效後30日（或關長指明的較長期間）內繳付；原訟法庭可應關長申請登記該命令，登記後視為原訟法庭在民事司法管轄權範圍內作出的繳付款項命令\"),\r\n         \"s.43(2)(c), (3), (5)\"),\r\n        ((\"up to $10,000 a day\", \"每日最高$10,000\"),\r\n         (\"A further daily pecuniary penalty the Commissioner may order if an order to take remedial action is not complied with\", \"持牌人沒有遵從命令採取糾正行動時，關長可進一步命令繳付的按日罰款\"),\r\n         (\"For each day the failure continues after the date by which the remedial action was due\", \"命令指明的採取糾正行動期限後，未遵從狀況持續的每一日\"),\r\n         (\"If ordered, payable for each day of continued non-compliance, separate from any penalty under s.43(2)(c)\", \"如關長作出命令，須就持續未遵從的每一日繳付不超逾$10,000的按日罰款，與根據第43(2)(c)條判處的罰款分開計算\"),\r\n         \"s.43(4)\"),\r\n        ((\"48 hours\", \"48小時\"),\r\n         (\"The longest anyone arrested or detained under s.48 may be held without being charged\", \"根據第48條被拘捕或扣留的人，在未被落案起訴前可被扣留的上限\"),\r\n         (\"After an authorized officer arrests or detains you on suspicion of unlicensed operation\", \"獲授權人員因懷疑你無牌經營而將你拘捕或扣留之後\"),\r\n         (\"You may not be held beyond it unless charged and brought before a magistrate\", \"除非已被落案起訴及帶到裁判法院應訊，否則不得被扣留超過此時限\"),\r\n         \"s.48(4)\"),\r\n        ((\"12 months\", \"12個月\"),\r\n         (\"The window for prosecuting a Part 5 offence that is not indictable\", \"檢控第5部所訂罪行（可公訴罪行除外）的期限\"),\r\n         (\"From when the Commissioner discovers the offence or it comes to his notice, not from when you committed it\", \"自關長發現或知悉該罪行時起計，而非自你作出該行為時起計\"),\r\n         (\"Once it passes, proceedings for that offence can no longer be instituted\", \"期限屆滿後，即不能再就該罪行提起法律程序\"),\r\n         \"s.53\"),\r\n    ]))\r\n\r\n# ---------------------------------------------------------------- I. traps\r\nI_ = sec('traps', [(\"contrasts\", \"對照\"), (\"worth marking\", \"值得標記\")],\r\n         (\"Where Part 5 catches people out\", \"第5部容易失分之處\"),\r\n    U.traps(\r\n        U.trap((\"Two years on grant; two years or less on renewal\", \"批給兩年；續期兩年或更短\"), None, \"s.30(10) · s.31(12)\",\r\n               vs=[((\"A new licence\", \"新牌照\"), (\"Valid for 2 years, or any <b>other</b> period the Commissioner considers appropriate, longer or shorter.\", \"有效期2年，或關長認為適當的任何<b>其他</b>期間，可長可短。\")),\r\n                   ((\"A renewed licence\", \"續期牌照\"), (\"Valid for 2 years, or any <b>shorter</b> period the Commissioner determines. Never longer.\", \"有效期2年，或關長決定的任何<b>較短</b>期間。絕不會較長。\"))]),\r\n        U.trap((\"45 days before, and the licence survives the wait\", \"期滿前45日，牌照在等待期間仍然有效\"),\r\n               (\"Apply not later than 45 days before expiry. If the licence expires while the Commissioner is still deciding, it stays in force until the renewal is granted or, if refused, until the refusal takes effect, unless the application is withdrawn or the licence is revoked or suspended under s.34.\",\r\n                \"須於期滿前45日或之前申請。如牌照在關長作出決定前期滿，除非續期申請被撤回，或牌照根據第34條被撤銷或暫時吊銷，否則它會持續有效，直至續期獲批給；如被拒絕，則直至拒絕續期的決定生效為止。\"),\r\n               \"s.31(2)(a), (10)\"),\r\n        U.trap((\"One month for changes, seven days for the licence\", \"改變一個月，交回牌照七日\"), None, \"s.40 · s.41\",\r\n               vs=[((\"A change of particulars\", \"詳情改變\"), (\"Notify in writing within one month beginning on the date the change takes place.\", \"在自改變發生之日起計的一個月內，藉書面具報。\")),\r\n                   ((\"Ceasing business\", \"停業\"), (\"Notify the Commissioner in writing before the date of cessation, then return the licence within 7 days beginning on the date of cessation.\", \"在停業日期前藉書面向關長具報，並在自停業日期起計的7日內將牌照交回關長。\"))]),\r\n        U.trap((\"Levels in the Ordinance, dollars in the Licensing Guide\", \"條例寫級別，《牌照指引》寫金額\"),\r\n               (\"The Ordinance states the Part 5 fines (other than the $1,000,000 on indictment) as levels; the Licensing Guide states the same offences in dollars. Level 5 appears there as <b>HK$50,000</b>: unapproved directors, owners, partners and premises, a late change notice, a missed cessation duty, and an omitted particular. Level 6 appears as <b>HK$100,000</b>: operating without a licence, tried summarily.\",\r\n                \"條例把第5部的罰款（循公訴程序定罪的$1,000,000除外）寫作級別；《牌照指引》則把同一罪行寫作金額。第5級在指引中寫作<b>港幣5萬元</b>：未經批准的董事、擁有人、合夥人及處所、逾期具報詳情改變、違反停業責任，以及遺漏要項。第6級寫作<b>港幣10萬元</b>：循簡易程序定罪的無牌經營。\"),\r\n               cc(LG(\"2.11\"), LG(\"4.9\"), LG(\"8.5–8.9\"), LG(\"9.3\"), LG(\"10.4\"))),\r\n        U.trap((\"A corporation is never the one tested\", \"法團本身從不受測試\"),\r\n               (\"Where the applicant is a corporation, what is tested is each director and any ultimate owner, both as fit to be associated with the business. The words fit and proper to operate a money service apply only to an individual applicant and to partners.\",\r\n                \"如申請人是法團，受測試的是每名董事及任何最終擁有人，標準都是是否適合與該業務有聯繫。「經營金錢服務的適當人選」這個標準只適用於屬個人的申請人及合夥人。\"),\r\n               \"s.30(3)(a)\"),\r\n        U.trap((\"Evidence, or conclusive evidence\", \"證據，還是確證\"), None, \"s.28(2), (4)\",\r\n               vs=[((\"A certified copy of the register\", \"登記冊的核證複本\"), (\"Evidence of what it states.\", \"屬所述事實的證據。\")),\r\n                   ((\"The Commissioner's signed certificate\", \"關長簽署的證明書\"), (\"Conclusive evidence.\", \"屬確證。\"))]),\r\n        U.trap((\"Conditions and revocation do not wait for the 21 days\", \"條件及撤銷不等待21日\"),\r\n               (\"The 21 days are the time you have to apply to the Review Tribunal, counted from when the notice of the decision was sent. Unless the Ordinance provides otherwise, a decision you can take to the Tribunal takes effect when those 21 days end, or earlier if you tell the Commissioner in writing that you will not apply; if you do apply, when the Tribunal confirms it, varies it or substitutes another, or when you withdraw, unless the notice sets another time in the public interest. That ordinary rule covers a refusal to renew and a section 43 penalty. A condition does not follow it: it takes effect when you receive the notice, or later if the notice says so. Nor does a revocation or suspension: it takes effect at the time the notice specifies. Applying to the Review Tribunal does not by itself pause either. The Part 6 page sets out <a href=\\\"#p6-clock\\\">every way a decision takes effect</a>.\",\r\n                \"21日是你向覆核審裁處申請覆核的限期，由告知決定的通知送出後起計。除本條例另有規定外，可向審裁處申請覆核的決定，在該21日限期屆滿時生效；如你較早以書面通知關長你不會申請覆核，則在你通知時生效；如你申請覆核，則在審裁處確認、更改該決定或以另一決定取代時，或在你撤回申請時生效；但如通知為公眾利益另定生效時間，則按該時間生效。拒絕續期及根據第43條判處的罰款，均按這項一般規則生效。條件則不按此規則：在你收到通知時生效，如通知另定較後時間則按該時間。撤銷或暫時吊銷亦不按此規則：在通知指明的時間生效。向覆核審裁處申請本身，並不會令兩者暫停。第6部頁列出<a href=\\\"#p6-clock\\\">決定生效的每一種方式</a>。\"),\r\n               \"s.59(1) · s.75 · s.30(7) · s.31(7) · s.32(4) · s.34(6) · s.69(1)\"),\r\n    ))\r\n\r\nP5_NAV = [('life', 'Lifecycle', '生命周期'), ('scope', 'Who needs one', '誰須領牌'),\r\n          ('fitproper', 'Fit and proper', '適當人選'), ('approvals', 'Approvals', '批准'), ('duties', 'Your duties', '你的責任'),\r\n          ('losing', 'Changes and endings', '更改與終結'), ('enforce', 'Enforcement', '執法'), ('traps', 'Traps', '陷阱')]\r\nP5_BODY = A + C + D + E + F + G + H_ + I_\r\n",
@@ -5452,26 +5452,26 @@
     "reviewer": "m5_writer_b",
     "scope": "Independent bilingual verification of the clarified final column of CONFLICT-CALLS.md B24 against AMLO s.52(1)-(2); no source-file edits and no new source-priority decision.",
     "file": "revision/CONFLICT-CALLS.md",
-    "sha256": "aea76f2f35bf0553459b1011b8decbc645c27441b13f2cf288bc60f897ff06d1",
+    "sha256": "95e7ddcab08dcc810061548aa597052f2b8a64fde288c43582668ef848072f01",
     "status": "passed",
     "findings": [
       {
         "point": "Section 52(2)(a) requires an omitted material particular to result in the statement being false or misleading.",
         "en": "omits a material particular from a statement with the result that the statement is rendered false or misleading",
         "tc": "在某項陳述中遺漏任何要項，以致該項陳述成為虛假或具誤導性的陳述",
-        "source": "docs/text/EN/10.txt and docs/text/TC/10.txt, s.52(2)(a)"
+        "source": "docs/text/EN/04.txt and docs/text/TC/04.txt, s.52(2)(a)"
       },
       {
         "point": "The knowledge/recklessness object in s.52(2)(b) is omission of the material particular. B24 now names that object expressly and does not move it to the resulting falsity.",
         "en": "knows that, or is reckless as to whether, the material particular is omitted from the statement",
         "tc": "知道該項陳述遺漏該要項，或罔顧該項陳述是否遺漏該要項",
-        "source": "docs/text/EN/10.txt and docs/text/TC/10.txt, s.52(2)(b)"
+        "source": "docs/text/EN/04.txt and docs/text/TC/04.txt, s.52(2)(b)"
       },
       {
         "point": "The separate false-statement offence in s.52(1) has its own knowledge/recklessness object: the statement's being false or misleading in a material particular. The register correctly keeps this separate.",
         "en": "knows that, or is reckless as to whether, the statement is false or misleading in a material particular",
         "tc": "知道該項陳述在要項上屬虛假或具誤導性，或罔顧該項陳述是否在要項上屬虛假或具誤導性的",
-        "source": "docs/text/EN/10.txt and docs/text/TC/10.txt, s.52(1)(b)"
+        "source": "docs/text/EN/04.txt and docs/text/TC/04.txt, s.52(1)(b)"
       }
     ],
     "conclusion": "B24's clarification is accurate in both official languages. It removes the former pronoun ambiguity while preserving the omission-result requirement and the distinct mental elements of s.52(1) and s.52(2).",
@@ -5484,8 +5484,8 @@
     "initial_file_sha256": "98479342ece5750f002aa8ea509d12ce94108c947907b76725b12b35ba284ea6",
     "location": "numreq table, s.52 row, conditions cell near line 210; read with the adjacent conduct/result cell",
     "sources_read": [
-      "docs/text/EN/10.txt, complete s.52(1)–(3)",
-      "docs/text/TC/10.txt, complete 第52(1)至(3)條"
+      "docs/text/EN/04.txt, complete s.52(1)–(3)",
+      "docs/text/TC/04.txt, complete 第52(1)至(3)條"
     ],
     "source_quotes": [
       {

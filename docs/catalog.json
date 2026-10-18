@@ -1,0 +1,2331 @@
+{
+  "schema_version": 5,
+  "updated": "2026-10-18",
+  "ordering": "One publication number: 01-09 high, 10-19 medium essential, 20-26 medium selected, 27-47 reference archive. Every companion has its own number.",
+  "selection_basis": {
+    "reviewed_on": "2026-10-18",
+    "official_syllabus": "https://eservices.customs.gov.hk/MSOS/download/licensing/Guidance_Notes_on_the_Competence_Assessment_for_Money_Service_Operators_zh_TW.pdf",
+    "sections": [
+      "5.2",
+      "5.3",
+      "6.1"
+    ],
+    "note": "Study prioritisation, not official examination weights or a finding that archived material cannot be examined."
+  },
+  "documents": [
+    {
+      "id": "01",
+      "priority": "high",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "能力評核的考試規則及範圍。",
+        "EN": "Assessment rules and syllabus."
+      },
+      "reading": {
+        "TC": "先讀第5至7節、及格要求及應考安排；毋須反覆背行政細節。",
+        "EN": "Read sections 5-7, passing rules and attendance arrangements first."
+      },
+      "editions": {
+        "EN": {
+          "file": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/licensing/Guidance_Notes_on_the_Competence_Assessment_for_Money_Service_Operators_en.pdf",
+          "sha256": "10558bec35a5923cb07c38ed0990ce34022c3eb25806948778fe6b4a7ab87abc",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf",
+          "text_file": "text/EN/01.txt",
+          "text_sha256": "908295f836745a31712fbc0ded041d47434212f2ea63400862414bbd5923b0d2"
+        },
+        "TC": {
+          "file": "01_高_能力評核須知（2022年12月）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/licensing/Guidance_Notes_on_the_Competence_Assessment_for_Money_Service_Operators_zh_TW.pdf",
+          "sha256": "3eb4a64e563e94dbda91906e368137447e2a42bc50dc7051bb66f61b8d3ea58a",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/01_高_能力評核須知（2022年12月）.pdf",
+          "text_file": "text/TC/01.txt",
+          "text_sha256": "d5fa00d8625ab44b0201637cf5fe79d7f2c4cd7e269819fdf29b5b36521be4de"
+        }
+      },
+      "category": "source",
+      "reading_status": "active",
+      "study_focus": "core",
+      "title": {
+        "EN": "Guidance Notes on the Competence Assessment (Dec 2022)",
+        "TC": "能力評核須知（2022年12月）"
+      }
+    },
+    {
+      "id": "02",
+      "priority": "high",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "海關公布的七道參考試題。",
+        "EN": "Seven official sample questions."
+      },
+      "reading": {
+        "TC": "先試做，再逐項理解；完成核心教材後重做，不能據此推算出題比例。",
+        "EN": "Attempt first, understand every statement, then repeat after the core reading."
+      },
+      "editions": {
+        "EN": {
+          "file": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=297632",
+          "sha256": "7b53caa350ae2b9423457bfe29e3e03f9bbdc99560f062f853ff1c99b58efef6",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/02_High_Competence Assessment - Sample Questions (12 May 2021).pdf",
+          "text_file": "text/EN/02.txt",
+          "text_sha256": "41ff76f531905650e4fb070d14575df4e51ae172fcacc3be4838f874bcdb977f"
+        },
+        "TC": {
+          "file": "02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=297633",
+          "sha256": "8c617f67d75a7a7abf24108d4543c6fb57fc80b4d9214683381131452bef0c3d",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+          "text_file": "text/TC/02.txt",
+          "text_sha256": "c45c615e0108d20e2696de9601b3e836a4802c2357f0bd8607b82907df32c337"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/CA_01/2021",
+      "related_documents": [
+        "03",
+        "04",
+        "05"
+      ],
+      "reading_status": "active",
+      "study_focus": "core",
+      "title": {
+        "EN": "Competence Assessment - Sample Questions (12 May 2021)",
+        "TC": "金錢服務經營者適用的能力評核_參考試題（2021年5月12日）"
+      }
+    },
+    {
+      "id": "03",
+      "priority": "high",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "MSO反洗錢工作的主要操作標準。",
+        "EN": "The principal AML/CFT operating guideline for MSOs."
+      },
+      "reading": {
+        "TC": "精讀第1至11章及附錄A：風險、管治、客戶核查、監察、制裁、舉報、紀錄、培訓及匯款。",
+        "EN": "Study chapters 1-11 and Appendix A, including all control areas and remittance rules."
+      },
+      "editions": {
+        "EN": {
+          "file": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_en.pdf",
+          "sha256": "7a7b81ec6880a0e22c1d3e116f1016109dc6b54c33726e6a57fb1cff5d06eabc",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+          "text_file": "text/EN/03.txt",
+          "text_sha256": "6c602e7e4d82a4cf5bbd2a57b9e3fb5b8c20f9e4785c04a130baff34ab53d9ab"
+        },
+        "TC": {
+          "file": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_zh_TW.pdf",
+          "sha256": "8639a9dc8fc4c7dad3ab467db43d69ffe73a4ce156030248dc68c2d8d3cf60bd",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "text_file": "text/TC/03.txt",
+          "text_sha256": "a22ad6aac57c9a85513ba3b1d3f44d8edd206b5278728a79454a353738d6f1ad"
+        }
+      },
+      "category": "source",
+      "reading_status": "active",
+      "study_focus": "core",
+      "title": {
+        "EN": "Guideline on AML-CFT for Money Service Operators (Jun 2023)",
+        "TC": "打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）"
+      }
+    },
+    {
+      "id": "04",
+      "priority": "high",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "第615章的法律原文。",
+        "EN": "The statutory text of AMLO, Cap. 615."
+      },
+      "reading": {
+        "TC": "按考綱讀第1至7部及附表；重點掌握MSO發牌、監管、紀律處分、覆核及附表2。",
+        "EN": "Read Parts 1-7 and the Schedules; focus on MSO licensing, supervision, sanctions, review and Schedule 2."
+      },
+      "editions": {
+        "EN": {
+          "file": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf",
+          "url": "https://www.elegislation.gov.hk/hk/cap615",
+          "sha256": "2b5b00d7dc706169b1b2e292136649612f9fbb73b39332eb80dc1a4cf926474a",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_consolidated_text_latest_version_not_reverified",
+          "path": "EN/04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf",
+          "text_file": "text/EN/04.txt",
+          "text_sha256": "916a55f448f988bf51d814da36249414c659eb07f1b148da7bfbfc4269811aa1"
+        },
+        "TC": {
+          "file": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "url": "https://www.elegislation.gov.hk/hk/cap615",
+          "sha256": "6853748c7e7513f11cf5f5d54dbff7cffcb2309fca7669a43bde40c042f2fb65",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_consolidated_text_latest_version_not_reverified",
+          "path": "TC/04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "text_file": "text/TC/04.txt",
+          "text_sha256": "4cc88b13d23b8e89fa3a6ce52b4041027d555289c0569421958ef0ae676af628"
+        }
+      },
+      "category": "source",
+      "reading_status": "active",
+      "study_focus": "core",
+      "title": {
+        "EN": "AMLO Cap 615 - Consolidated (24 Sep 2026)",
+        "TC": "打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）"
+      }
+    },
+    {
+      "id": "05",
+      "priority": "high",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "申請、續牌及持牌期間的經營要求。",
+        "EN": "Licensing, renewal and continuing operating requirements."
+      },
+      "reading": {
+        "TC": "讀發牌豁免、程序、處所、本地管理辦事處、相關人士、變更及定期申報。",
+        "EN": "Read exemptions, procedures, premises, local management office, personnel and returns."
+      },
+      "editions": {
+        "EN": {
+          "file": "05_High_Licensing Guide (May 2026).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Licensing_Guide_en.pdf",
+          "sha256": "4aeb27ada3f04608da427833ebd564000c3fe3b788fd1d183a63ca04168005e8",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/05_High_Licensing Guide (May 2026).pdf",
+          "text_file": "text/EN/05.txt",
+          "text_sha256": "2491f72007b9c5efcd3d6c00b4f8ec6c669514c395e468e7b654ad745c0623c8"
+        },
+        "TC": {
+          "file": "05_高_牌照指引（2026年5月）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Licensing_Guide_zh_TW.pdf",
+          "sha256": "4816c53f7e70e4828d5ff5e78baac6032399d06cdcf5a85c342bce577d643089",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/05_高_牌照指引（2026年5月）.pdf",
+          "text_file": "text/TC/05.txt",
+          "text_sha256": "7b2521e94367502db8a2a4223be0ca07e849630f662abc40b20a40c6b1ae900e"
+        }
+      },
+      "category": "source",
+      "reading_status": "active",
+      "study_focus": "core",
+      "title": {
+        "EN": "Licensing Guide (May 2026)",
+        "TC": "牌照指引（2026年5月）"
+      }
+    },
+    {
+      "id": "06",
+      "priority": "high",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "海關對客戶核查及牌照申請的常見問題解釋。",
+        "EN": "Official FAQs on AML/CFT and licence applications."
+      },
+      "reading": {
+        "TC": "配合核心指引讀身份文件、法人、實益擁有人、客戶代表及非面對面業務；疑義回查最新法例及指引。",
+        "EN": "Read practical identity, ownership, representative and non-face-to-face cases alongside the current rules."
+      },
+      "editions": {
+        "EN": {
+          "file": "06_High_FAQ applicable to all MSOs (C&ED portal).md",
+          "url": "https://eservices.customs.gov.hk/MSOS/common/faqs",
+          "sha256": "09e767bd18cce69b416eea0a20aa577d647efb57be831f8a2feed997a1406676",
+          "format": "md",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/06_High_FAQ applicable to all MSOs (C&ED portal).md",
+          "text_file": "text/EN/06.txt",
+          "text_sha256": "09e767bd18cce69b416eea0a20aa577d647efb57be831f8a2feed997a1406676"
+        },
+        "TC": {
+          "file": "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+          "url": "https://eservices.customs.gov.hk/MSOS/common/faqs",
+          "sha256": "1a306caf7ce345067ede0348c58b0fc9153971999c6d16b7a11e14124cb8d3a7",
+          "format": "md",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+          "text_file": "text/TC/06.txt",
+          "text_sha256": "1a306caf7ce345067ede0348c58b0fc9153971999c6d16b7a11e14124cb8d3a7"
+        }
+      },
+      "category": "source",
+      "reading_status": "active",
+      "study_focus": "core",
+      "title": {
+        "EN": "FAQ applicable to all MSOs (C&ED portal)",
+        "TC": "適用於所有金錢服務經營者的常見問題（海關網站）"
+      }
+    },
+    {
+      "id": "07",
+      "priority": "high",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "海關巡查發現的客戶盡職審查缺失及預期標準。",
+        "EN": "Supervisory findings on customer due diligence."
+      },
+      "reading": {
+        "TC": "逐項讀風險評級、實益擁有人、政治人物及制裁篩查、客戶代表授權的缺失和改善方式。",
+        "EN": "Read the deficiencies, expected standards and good practices for risk, ownership, screening and authority."
+      },
+      "editions": {
+        "EN": {
+          "file": "07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=400637",
+          "sha256": "9921ff297a49cef0543c3df126d07c3bb2befc8f1e7a6e33d62674e81bb0c979",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf",
+          "text_file": "text/EN/07.txt",
+          "text_sha256": "85677c9e208968782ecb9e62c45893796f7dd81bc74efee052579f79aa39ce93"
+        },
+        "TC": {
+          "file": "07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=400636",
+          "sha256": "26fdbf82ecab50930f1ca8cd3c2bf2d7ee2df9426d7a7221e5933f9e453b5af3",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf",
+          "text_file": "text/TC/07.txt",
+          "text_sha256": "6b2ea8f37af02b12c7bb205c2861dc573910fbc04745369d775e11ddae8f7654"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/MIS_03/2023",
+      "reading_status": "active",
+      "study_focus": "core",
+      "title": {
+        "EN": "Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023)",
+        "TC": "通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）"
+      }
+    },
+    {
+      "id": "08",
+      "priority": "high",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "第三方付款的風險、接納條件及管控措施。",
+        "EN": "Risks and controls for third-party payments."
+      },
+      "reading": {
+        "TC": "讀是否接納、管理層批准、第三方身份與關係、資金來源、持續監察、紀錄及舉報。",
+        "EN": "Study acceptance, approval, identity, relationships, funds, monitoring, records and reporting."
+      },
+      "editions": {
+        "EN": {
+          "file": "08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=431730",
+          "sha256": "ba02a8d811184ff6a960e4c9b2ab1e2c63dbaf3e50f1ce9b12e4fd438320056c",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf",
+          "text_file": "text/EN/08.txt",
+          "text_sha256": "c011aae0d478aee648c832582e2fb5e75e91e1e6833d5109afda5ab66e00c244"
+        },
+        "TC": {
+          "file": "08_高_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=431731",
+          "sha256": "42e40eb5606949acea68ce90421b9e38dee01f483fe1e7ab3bba52accca7d3a1",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/08_高_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf",
+          "text_file": "text/TC/08.txt",
+          "text_sha256": "2fee66b98482d6198eb903304b85a492e252e6d153c97027471163101a51faa3"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/MIS_01/2024",
+      "related_documents": [
+        "07",
+        "14"
+      ],
+      "reading_status": "active",
+      "study_focus": "core",
+      "title": {
+        "EN": "Circular - ML-TF Risks of Third Party Payments (17 Sep 2024)",
+        "TC": "通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）"
+      }
+    },
+    {
+      "id": "09",
+      "priority": "high",
+      "original_bank_source": false,
+      "summary": {
+        "TC": "機構層面識別、評估及減低擴散資金籌集風險的要求。",
+        "EN": "Institutional proliferation-financing risk assessment and mitigation."
+      },
+      "reading": {
+        "TC": "全文讀，配合核心指引第2及6章，留意現有業務及客戶的全面檢視。",
+        "EN": "Read in full with guideline chapters 2 and 6, including review of existing business and customers."
+      },
+      "editions": {
+        "EN": {
+          "file": "09_High_Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=324151",
+          "sha256": "5365977ee13e28ef7379e5c326410c9590a087c79c06beeaeb0df3d11d4117b3",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "EN/09_High_Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021).pdf",
+          "text_file": "text/EN/09.txt",
+          "text_sha256": "3784682199c3a509f305e0401442c52b9461e4023bdd42f6f4a9a7202d6139b9"
+        },
+        "TC": {
+          "file": "09_高_通函_識別和緩解大殺傷力武器擴散融資風險（2021年12月22日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=324152",
+          "sha256": "57a2440885e1d4e1ed2fe8232d252e4614b11e0035ffdc5746c6c3ef65ea046f",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "TC/09_高_通函_識別和緩解大殺傷力武器擴散融資風險（2021年12月22日）.pdf",
+          "text_file": "text/TC/09.txt",
+          "text_sha256": "498bd4a41e7be4e60fb331c14061b2b535a006000be4e23aa53b630f3f2dd2b8"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/MIS_06/2021",
+      "related_documents": [
+        "03",
+        "41"
+      ],
+      "reading_status": "active",
+      "study_focus": "core",
+      "title": {
+        "EN": "Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021)",
+        "TC": "通函_識別和緩解大殺傷力武器擴散融資風險（2021年12月22日）"
+      }
+    },
+    {
+      "id": "10",
+      "priority": "medium",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "評定申請人及相關人士是否適合經營MSO的因素。",
+        "EN": "Criteria for fitness and propriety."
+      },
+      "reading": {
+        "TC": "與補充指引一併讀；分清需考慮的不利因素及自動禁止。",
+        "EN": "Read with the supplement; distinguish adverse factors from automatic exclusions."
+      },
+      "editions": {
+        "EN": {
+          "file": "10_Medium-Essential_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_on_Criteria_for_Determining_FP_en.pdf",
+          "sha256": "3d829e7a475c0d6b27cecb9606963d6aae7d3cdf0857902a219502ef42116f38",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/10_Medium-Essential_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf",
+          "text_file": "text/EN/10.txt",
+          "text_sha256": "3a378faecce11ce26890b7d7fc54bf52a56665df1adfdfa3ef847bee74145fad"
+        },
+        "TC": {
+          "file": "10_中重點_有關適當人選準則的指引（2018年4月）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_on_Criteria_for_Determining_FP_zh_TW.pdf",
+          "sha256": "9c72af5408a3067e402b8886e313a1f801b204898b7bee82341e717f9da6cf85",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/10_中重點_有關適當人選準則的指引（2018年4月）.pdf",
+          "text_file": "text/TC/10.txt",
+          "text_sha256": "3986315b49817d2500302fb14d6b766a19e9216946a52e9bdd4a842d0477e249"
+        }
+      },
+      "category": "source",
+      "reading_status": "active",
+      "study_focus": "focus",
+      "title": {
+        "EN": "Guideline on Criteria for Determining Fitness and Propriety (Apr 2018)",
+        "TC": "有關適當人選準則的指引（2018年4月）"
+      }
+    },
+    {
+      "id": "11",
+      "priority": "medium",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "適當人選準則的補充情形及例子。",
+        "EN": "Supplementary fitness and propriety criteria."
+      },
+      "reading": {
+        "TC": "讀能力、誠信、真實經營意圖、消費者利益及持續合規。",
+        "EN": "Read competence, integrity, business intent, consumer interests and continuing compliance."
+      },
+      "editions": {
+        "EN": {
+          "file": "11_Medium-Essential_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Supplementary_FnP_Guideline_en.pdf",
+          "sha256": "cb03247dcc6e9149f5371ad1f3a21fa763e827e1fa8cc6c4697c7a6754c3da38",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/11_Medium-Essential_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf",
+          "text_file": "text/EN/11.txt",
+          "text_sha256": "d742283d13c4685a7650c62d54cb7979f364b87745eb5dca503a6d04a5b841a1"
+        },
+        "TC": {
+          "file": "11_中重點_有關適當人選準則的補充指引（2020年1月）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Supplementary_FnP_Guideline_zh_TW.pdf",
+          "sha256": "6f2286c0a774fcd78a8fd9f8721b862cde9c09bb499eca6d65a50f3bfd2963dd",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/11_中重點_有關適當人選準則的補充指引（2020年1月）.pdf",
+          "text_file": "text/TC/11.txt",
+          "text_sha256": "603d9a0272d9fc1dd509ce0c1db4f9b2be4d1ae4cceb541bae50b1158b9baa78"
+        }
+      },
+      "category": "source",
+      "reading_status": "active",
+      "study_focus": "focus",
+      "title": {
+        "EN": "Supplementary Guideline on Fitness and Propriety (Jan 2020)",
+        "TC": "有關適當人選準則的補充指引（2020年1月）"
+      }
+    },
+    {
+      "id": "12",
+      "priority": "medium",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "涉及牌照及經營規定的罰款權力及考慮因素。",
+        "EN": "Pecuniary penalties for licensing and operating breaches."
+      },
+      "reading": {
+        "TC": "配合第615章第43、45條讀，與另一份罰款指引區分。",
+        "EN": "Read with AMLO sections 43 and 45; distinguish from disciplinary fining."
+      },
+      "editions": {
+        "EN": {
+          "file": "12_Medium-Essential_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/disciplinary_action_guidelines_under_s.45_of_amlo_en.pdf",
+          "sha256": "6aeee39af0848ac03d989ed2500f6fd8f4947b342fa26b23371d0f51e816a1ca",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/12_Medium-Essential_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf",
+          "text_file": "text/EN/12.txt",
+          "text_sha256": "7de82dc23297bc83fdf167b2f23724ab369e3f1d5f279d76cb0b139fff3e3b81"
+        },
+        "TC": {
+          "file": "12_中重點_施加罰款紀律行動指引（2018年4月）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/disciplinary_action_guidelines_under_s.45_of_amlo_zh_TW.pdf",
+          "sha256": "ef8a7be34c1dd1f3b3a1a61a9edf1c14a100a89bdb13d51607c750b02295bdf3",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/12_中重點_施加罰款紀律行動指引（2018年4月）.pdf",
+          "text_file": "text/TC/12.txt",
+          "text_sha256": "20b6ca2e167687184b0853155edaf4207a5461d4af72c38cbb6ea651f3ffb21b"
+        }
+      },
+      "category": "source",
+      "reading_status": "active",
+      "study_focus": "focus",
+      "title": {
+        "EN": "Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018)",
+        "TC": "施加罰款紀律行動指引（2018年4月）"
+      }
+    },
+    {
+      "id": "13",
+      "priority": "medium",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "違反反洗錢指明條文時的罰款考慮。",
+        "EN": "Disciplinary fining for specified AML/CFT breaches."
+      },
+      "reading": {
+        "TC": "配合第615章第21、23條讀嚴重性、阻嚇、補救、合作及過往紀錄。",
+        "EN": "Read with sections 21 and 23: seriousness, deterrence, remediation, cooperation and history."
+      },
+      "editions": {
+        "EN": {
+          "file": "13_Medium-Essential_Disciplinary Fining Guideline (May 2018).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Fining_Guideline_en.pdf",
+          "sha256": "c098efdd38e152fd2357942e62958be9c32c3061874a1b0c076daedd5f0bba96",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/13_Medium-Essential_Disciplinary Fining Guideline (May 2018).pdf",
+          "text_file": "text/EN/13.txt",
+          "text_sha256": "74aa274da9fc9fdacc764a885797211e501a6dce2dd8b9cffa8272a83fa18ba4"
+        },
+        "TC": {
+          "file": "13_中重點_紀律處分罰款指引（2018年5月）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Fining_Guideline_zh_TW.pdf",
+          "sha256": "008b7b72867307ff05ec62eb24377d894c7af956d716c9a4665e4b37287cfc55",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/13_中重點_紀律處分罰款指引（2018年5月）.pdf",
+          "text_file": "text/TC/13.txt",
+          "text_sha256": "02005281155be6a7c528acb7a94cbf9b5be4c1f9959437454b6031d8c0320873"
+        }
+      },
+      "category": "source",
+      "reading_status": "active",
+      "study_focus": "focus",
+      "title": {
+        "EN": "Disciplinary Fining Guideline (May 2018)",
+        "TC": "紀律處分罰款指引（2018年5月）"
+      }
+    },
+    {
+      "id": "14",
+      "priority": "medium",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "匯款交付渠道、合作方及境外渠道的風險。",
+        "EN": "Risks arising from delivery channels and counterparties."
+      },
+      "reading": {
+        "TC": "讀合作前的全面風險評估、定期覆核及可疑交易跟進。",
+        "EN": "Read pre-engagement assessment, periodic review and suspicious transaction follow-up."
+      },
+      "editions": {
+        "EN": {
+          "file": "14_Medium-Essential_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=323201",
+          "sha256": "cb231fca14b55843357f7e6e4352ca30536abd58f56a399a33a6b9b97f32ab00",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/14_Medium-Essential_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf",
+          "text_file": "text/EN/14.txt",
+          "text_sha256": "957a691aae6c32234ae7e3c4157b2b5676e7648d272bbdfb1a3062b05fbdb40b"
+        },
+        "TC": {
+          "file": "14_中重點_通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=323202",
+          "sha256": "8a71d806b4b81a13148f226b93e3425728e0e8920fe741be51ab807baaf36d5b",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/14_中重點_通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）.pdf",
+          "text_file": "text/TC/14.txt",
+          "text_sha256": "88ae03601bfd2163aaa7171fcc6dc88159e1c24c87825c206c2cc38ecd8d774d"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/MIS_05/2021",
+      "related_documents": [
+        "03",
+        "41"
+      ],
+      "reading_status": "active",
+      "study_focus": "focus",
+      "title": {
+        "EN": "Circular - ML-TF Risks of Delivery Channels (13 Dec 2021)",
+        "TC": "通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）"
+      }
+    },
+    {
+      "id": "15",
+      "priority": "medium",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "交易定期申報的周期、電子提交及新增數據。",
+        "EN": "Electronic periodic returns, reporting periods and data fields."
+      },
+      "reading": {
+        "TC": "掌握每半年提交、涵蓋期間、提交方式及附表資料；注意現行安排。",
+        "EN": "Study half-yearly submission, periods, electronic format and required fields."
+      },
+      "editions": {
+        "EN": {
+          "file": "15_Medium-Essential_Circular - E-submission of the Periodic Return (30 May 2025).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=457100",
+          "sha256": "bb0408f2cea27a76c154f750479ee777ccc9859a20800ad44e690117660ce381",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/15_Medium-Essential_Circular - E-submission of the Periodic Return (30 May 2025).pdf",
+          "text_file": "text/EN/15.txt",
+          "text_sha256": "fcd5a2eddc3e7415c7aeee2b2f8566e9d0fee234cb24b57728795a57708144f2"
+        },
+        "TC": {
+          "file": "15_中重點_通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=457101",
+          "sha256": "6f43d3db88a6dc86d65ffc71ccc39fa2908a70feb13e11e03e2b3379e717703a",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/15_中重點_通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）.pdf",
+          "text_file": "text/TC/15.txt",
+          "text_sha256": "511f3dd05c92af3f0314975de84480c7e0efff15f69913efd47e70d90e458040"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/MIS_02/2025",
+      "reading_status": "active",
+      "study_focus": "focus",
+      "title": {
+        "EN": "Circular - E-submission of the Periodic Return (30 May 2025)",
+        "TC": "通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）"
+      }
+    },
+    {
+      "id": "16",
+      "priority": "medium",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "提醒MSO注意第34章交易單據及匯率展示的修訂。",
+        "EN": "Notice of amendments to the Money Changers Ordinance."
+      },
+      "reading": {
+        "TC": "先讀短通函，再讀第17項完整條例第3至8條及附表1至3。",
+        "EN": "Read the short circular, then sections 3-8 and Schedules 1-3 in the full Ordinance, item 17."
+      },
+      "editions": {
+        "EN": {
+          "file": "16_Medium-Essential_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=472036",
+          "sha256": "77516f642ee66d9b4027f2dbaa95e3771556d200df97fd0b924526e7fcc38cd3",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/16_Medium-Essential_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf",
+          "text_file": "text/EN/16.txt",
+          "text_sha256": "bffd462334ac20e9ef2d96b0db3508ce2acf0935021304d2e5bcfc9dc54ff8ae"
+        },
+        "TC": {
+          "file": "16_中重點_通函_貨幣兌換商條例第34章之修訂（2025年11月17日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=472037",
+          "sha256": "87afeea96224222473a07b2426689c308f196294fb074948935ed8ef7af1f2d6",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/16_中重點_通函_貨幣兌換商條例第34章之修訂（2025年11月17日）.pdf",
+          "text_file": "text/TC/16.txt",
+          "text_sha256": "f83fef9e5d4a80c35fbb3c2a3a32e7477664aef772f72c1dd8cee8126fbc6854"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/MIS_04/2025",
+      "related_documents": [
+        "17"
+      ],
+      "reading_status": "active",
+      "study_focus": "focus",
+      "title": {
+        "EN": "Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025)",
+        "TC": "通函_貨幣兌換商條例第34章之修訂（2025年11月17日）"
+      }
+    },
+    {
+      "title": {
+        "TC": "貨幣兌換商條例全文（第34章）",
+        "EN": "Full Money Changers Ordinance, Cap. 34"
+      },
+      "reading": {
+        "TC": "2025年8月24日中英雙語經核證全文。重點第3至8條及附表1至3；已包含第30項歷史摘錄。17個PDF頁面不等於頁底法例頁碼。",
+        "EN": "Bilingual verified full text dated 24 August 2025. Focus on sections 3-8 and Schedules 1-3, which include the archived extract in item 30. Use printed legislative page labels rather than PDF page counts."
+      },
+      "priority": "medium",
+      "editions": {
+        "EN": {
+          "file": "17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf",
+          "url": "https://www.elegislation.gov.hk/hk/cap34",
+          "sha256": "2df063baeef154c0c8e5a0a29bb38daefb9613537aa18d75d64f4d9bedc45335",
+          "archived_on": "2026-10-18",
+          "edition": "2025-08-24",
+          "format": "pdf",
+          "status": "archived_original",
+          "acquired_via": "user_provided_official_download",
+          "original_filename": "Cap 34 Consolidated version for the Whole Chapter (24-08-2025) (English and Traditional Chinese).pdf",
+          "pages": 17,
+          "text_file": "text/EN/17.txt",
+          "text_sha256": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02",
+          "path": "EN/17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf",
+          "language": "BI"
+        },
+        "TC": {
+          "file": "17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf",
+          "url": "https://www.elegislation.gov.hk/hk/cap34",
+          "sha256": "2df063baeef154c0c8e5a0a29bb38daefb9613537aa18d75d64f4d9bedc45335",
+          "archived_on": "2026-10-18",
+          "edition": "2025-08-24",
+          "format": "pdf",
+          "status": "archived_original",
+          "acquired_via": "user_provided_official_download",
+          "original_filename": "Cap 34 Consolidated version for the Whole Chapter (24-08-2025) (English and Traditional Chinese).pdf",
+          "pages": 17,
+          "text_file": "text/TC/17.txt",
+          "text_sha256": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02",
+          "path": "TC/17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf",
+          "language": "BI"
+        }
+      },
+      "reading_status": "active",
+      "study_focus": "focus",
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "16",
+      "summary": {
+        "TC": "第34章完整條例，含第1至11條及附表1至3；是第16項通函的配套原件。",
+        "EN": "Complete Cap. 34, including sections 1-11 and Schedules 1-3; companion to circular 16."
+      },
+      "text_mode": "companion",
+      "id": "17",
+      "related_documents": [
+        "16"
+      ]
+    },
+    {
+      "id": "18",
+      "priority": "medium",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "偽造貿易、空殼公司等貿易洗錢風險及管控。",
+        "EN": "Trade-based money laundering risks and controls."
+      },
+      "reading": {
+        "TC": "讀客戶與資金來源、交易警報、分析及舉報；再選讀第24項風險指標。",
+        "EN": "Read customer and funding checks, warning signs, analysis and reporting; then select relevant indicators from item 24."
+      },
+      "editions": {
+        "EN": {
+          "file": "18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=478776",
+          "sha256": "86181d4d0a0990aa7e8a17a489f23ed59e2f9722ba5cb821a381976e45a52c84",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
+          "text_file": "text/EN/18.txt",
+          "text_sha256": "184f4e17f55491dafe6c4fefcaed000411d69cc2b47aadbfd344620b4cf5727f"
+        },
+        "TC": {
+          "file": "18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=478777",
+          "sha256": "7133b84028c505ae02340f1120a99600dc577a9c289c6546ecd8bb0edd5c4e29",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf",
+          "text_file": "text/TC/18.txt",
+          "text_sha256": "f57b9b72fad554b31f4fba3466a5ddece46f692cf3827c1f4055133a0d89bdfb"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/MIS_01/2026",
+      "related_documents": [
+        "24"
+      ],
+      "reading_status": "active",
+      "study_focus": "focus",
+      "title": {
+        "EN": "Circular - Trade-based Money Laundering Guidance (20 Jan 2026)",
+        "TC": "通函_打擊以貿易進行洗錢活動指引（2026年1月20日）"
+      }
+    },
+    {
+      "id": "19",
+      "priority": "medium",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "FATF對高風險及受加強監察司法管轄區的聲明。",
+        "EN": "FATF statements on high-risk and monitored jurisdictions."
+      },
+      "reading": {
+        "TC": "掌握不同類別的處理原則；考前查有否更新，勿只背舊名單。",
+        "EN": "Learn the different responses and check for a newer statement before the exam."
+      },
+      "editions": {
+        "EN": {
+          "file": "19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=494902",
+          "sha256": "fbc823bdf739af3f02e9336c93c48169c0acd9eb7815274394b7b44bb0d2d6d8",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf",
+          "text_file": "text/EN/19.txt",
+          "text_sha256": "d97ff8fe89bc21e7300c89f4de605c0c2256035e626021ef94d29ed70b30f3a2"
+        },
+        "TC": {
+          "file": "19_中重點_通函_財務行動特別組織的聲明（2026年7月3日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=494903",
+          "sha256": "e326d07e4d23a9a47e41df753ac5c58a19b158309c5d25113018e1a6d6ecf948",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/19_中重點_通函_財務行動特別組織的聲明（2026年7月3日）.pdf",
+          "text_file": "text/TC/19.txt",
+          "text_sha256": "6a4699cacc07bdadcf2908d22f845c3958f6067b1b2b631592483d34e306d179"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/FATF_02/2026",
+      "online_references": [
+        {
+          "title": {
+            "TC": "高風險司法管轄區聲明",
+            "EN": "High-Risk Jurisdictions subject to a Call for Action"
+          },
+          "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/call-for-action-june-2026.html",
+          "note": {
+            "TC": "2026年6月19日官方網頁；只有在線入口，未另存完整網頁。",
+            "EN": "Official webpage dated 19 June 2026; online link, not a locally archived webpage."
+          },
+          "status": "online_reference"
+        },
+        {
+          "title": {
+            "TC": "加強監察司法管轄區聲明",
+            "EN": "Jurisdictions under Increased Monitoring"
+          },
+          "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-june-2026.html",
+          "note": {
+            "TC": "2026年6月19日官方網頁；只有在線入口，未另存完整網頁。",
+            "EN": "Official webpage dated 19 June 2026; online link, not a locally archived webpage."
+          },
+          "status": "online_reference"
+        },
+        {
+          "title": {
+            "TC": "2026年6月FATF全體會議成果",
+            "EN": "Outcomes FATF Plenary, 17-19 June 2026"
+          },
+          "url": "https://www.fatf-gafi.org/en/publications/Fatfgeneral/outcomes-fatf-plenary-june-2026.html",
+          "note": {
+            "TC": "官方網頁；未另存完整網頁。",
+            "EN": "Official webpage; not locally archived."
+          },
+          "status": "online_reference"
+        }
+      ],
+      "reading_status": "active",
+      "study_focus": "focus",
+      "title": {
+        "EN": "Circular - Statements issued by the FATF (3 Jul 2026)",
+        "TC": "通函_財務行動特別組織的聲明（2026年7月3日）"
+      }
+    },
+    {
+      "id": "20",
+      "priority": "medium",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "業務計劃應交代的主要項目。",
+        "EN": "Required contents of a business plan."
+      },
+      "reading": {
+        "TC": "掌握業務模式、客戶、地區、資金流向、人員、代理及外判；毋須逐字背表。",
+        "EN": "Understand the business model, customers, jurisdictions, funds, staff, agents and outsourcing."
+      },
+      "editions": {
+        "EN": {
+          "file": "20_Medium-Selected_Guidelines for Submission of Business Plan (Ver 12-2019).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_for_Submission_of_Business_Plan_en.pdf",
+          "sha256": "519dadf3e1ec660e3aa50c4669d91ed997712f69551f8f12b02f84d2bd228e9f",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/20_Medium-Selected_Guidelines for Submission of Business Plan (Ver 12-2019).pdf",
+          "text_file": "text/EN/20.txt",
+          "text_sha256": "5b8115db9c36f805e661a570119aa490d3915b5cfa2bb0a4259ccfbfe322797a"
+        },
+        "TC": {
+          "file": "20_中選讀_遞交業務計劃的指引（12-2019版）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_for_Submission_of_Business_Plan_zh_TW.pdf",
+          "sha256": "29ceb2225c2a806ae2140c17420077671684dabed6ba2ba255d3bd95d32a52a4",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/20_中選讀_遞交業務計劃的指引（12-2019版）.pdf",
+          "text_file": "text/TC/20.txt",
+          "text_sha256": "be489ef64700c69f69657c5e12a0449f30274b83932850fd126411177878521c"
+        }
+      },
+      "category": "source",
+      "reading_status": "active",
+      "study_focus": "select",
+      "title": {
+        "EN": "Guidelines for Submission of Business Plan (Ver 12-2019)",
+        "TC": "遞交業務計劃的指引（12-2019版）"
+      }
+    },
+    {
+      "id": "21",
+      "priority": "medium",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "如何制訂配合本身業務風險的反洗錢政策。",
+        "EN": "Required contents of an AML/CFT policy."
+      },
+      "reading": {
+        "TC": "用作制度清單，覆核風險評估、合規、舉報、培訓、監察及審核安排。",
+        "EN": "Use as a checklist for risk assessment, compliance, reporting, training, monitoring and audit."
+      },
+      "editions": {
+        "EN": {
+          "file": "21_Medium-Selected_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_for_Submission_of_AML_Policy_en.pdf",
+          "sha256": "ba9101df763fe866fd27bf377819d45c02c4431576a89fe4bb8aa24e0addcf27",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/21_Medium-Selected_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf",
+          "text_file": "text/EN/21.txt",
+          "text_sha256": "eff8ef73f4c2349e17e6d5de1f50c7ab0b0474ed71706d295cb668d4a3d31d7c"
+        },
+        "TC": {
+          "file": "21_中選讀_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Guidelines_for_Submission_of_AML_Policy_zh_TW.pdf",
+          "sha256": "4ab95ce206c0e71740f025c90e1195c965e5e54a7b981c9e02d8c945936fed47",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/21_中選讀_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf",
+          "text_file": "text/TC/21.txt",
+          "text_sha256": "26451a865f94cd84739e638f426b5f1054abc2ef3bbb01128b3218de9d92f4ee"
+        }
+      },
+      "category": "source",
+      "reading_status": "active",
+      "study_focus": "select",
+      "title": {
+        "EN": "Guidelines for Submission of AML-CFT Policy (Ver 12-2019)",
+        "TC": "遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）"
+      }
+    },
+    {
+      "id": "22",
+      "priority": "medium",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "第629章跨境現金類物品申報及披露制度摘要。",
+        "EN": "Summary of cross-boundary currency and bearer instrument requirements."
+      },
+      "reading": {
+        "TC": "分清門檻、入境與離境、旅客與貨物的不同要求。",
+        "EN": "Distinguish thresholds, arrival/departure, passengers and cargo."
+      },
+      "editions": {
+        "EN": {
+          "file": "22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=165022",
+          "sha256": "f07cc3caa50fe51e5524c7d10ed2670cfcd7f0ac70c9a016a1508049f15b4ff0",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "EN/22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf",
+          "text_file": "text/EN/22.txt",
+          "text_sha256": "9a6a1a3e174d2131f2165c062e522a07a2a67a51cd160603edcdbf7746d23f8c"
+        },
+        "TC": {
+          "file": "22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=165023",
+          "sha256": "3fdb442bf09cd11fd89235e6c35271c17072f22fb5aba66a3a187cc203728431",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "TC/22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf",
+          "text_file": "text/TC/22.txt",
+          "text_sha256": "0c2a19f8ff7bdf2b5156b0db82123fc4dfe239b62dcdb870587b88c09ab08f3e"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/MIS_06/2018",
+      "online_references": [
+        {
+          "title": {
+            "TC": "跨境現金類物品官方專頁",
+            "EN": "Official CBNI information page"
+          },
+          "url": "https://www.customs.gov.hk/en/service-enforcement-information/anti-money-laundering/cds/index.html",
+          "note": {
+            "TC": "官方說明及申報系統入口；第629章完整雙語核證PDF已收錄於上方配套資料。",
+            "EN": "Official information and declaration-system links; the complete bilingual verified Cap. 629 PDF is archived above."
+          },
+          "status": "online_reference"
+        }
+      ],
+      "reading_status": "active",
+      "study_focus": "select",
+      "title": {
+        "EN": "Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018)",
+        "TC": "通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）"
+      },
+      "related_documents": [
+        "23"
+      ]
+    },
+    {
+      "title": {
+        "TC": "實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章）",
+        "EN": "Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629"
+      },
+      "reading": {
+        "TC": "2026年7月31日中英雙語經核證文本；含第1至4部及附表1至6。配合通函讀定義、旅客與貨物的申報及披露要求、附表4門檻；附表1管制站以此版本核對。PDF每頁並列中英文，引用時看條次及頁底法例頁碼。",
+        "EN": "Bilingual verified copy dated 31 July 2026, including Parts 1-4 and Schedules 1-6. Read definitions, passenger/cargo declaration and disclosure duties and the Schedule 4 threshold alongside the circular. Check control points against Schedule 1 of this edition. Use section numbers and printed legislative page labels when citing."
+      },
+      "priority": "medium",
+      "editions": {
+        "EN": {
+          "file": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf",
+          "url": "https://www.elegislation.gov.hk/hk/cap629",
+          "sha256": "711f86925ad0c6dba6ae5771089d55236aaba614fbabab3065e5d8e341f25d17",
+          "archived_on": "2026-10-18",
+          "edition": "2026-07-31",
+          "format": "pdf",
+          "status": "archived_original",
+          "acquired_via": "user_provided_official_download",
+          "original_filename": "Cap 629 Consolidated version for the Whole Chapter (31-07-2026) (English and Traditional Chinese).pdf",
+          "pages": 47,
+          "text_file": "text/EN/23.txt",
+          "text_sha256": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960",
+          "path": "EN/23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf",
+          "language": "BI"
+        },
+        "TC": {
+          "file": "23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+          "url": "https://www.elegislation.gov.hk/hk/cap629",
+          "sha256": "711f86925ad0c6dba6ae5771089d55236aaba614fbabab3065e5d8e341f25d17",
+          "archived_on": "2026-10-18",
+          "edition": "2026-07-31",
+          "format": "pdf",
+          "status": "archived_original",
+          "acquired_via": "user_provided_official_download",
+          "original_filename": "Cap 629 Consolidated version for the Whole Chapter (31-07-2026) (English and Traditional Chinese).pdf",
+          "pages": 47,
+          "text_file": "text/TC/23.txt",
+          "text_sha256": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960",
+          "path": "TC/23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+          "language": "BI"
+        }
+      },
+      "reading_status": "active",
+      "study_focus": "select",
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "22",
+      "summary": {
+        "TC": "第629章完整條例，含第1至4部及附表1至6；是第22項通函的配套原件。",
+        "EN": "Complete Cap. 629, including Parts 1-4 and Schedules 1-6; companion to circular 22."
+      },
+      "text_mode": "companion",
+      "id": "23",
+      "related_documents": [
+        "22"
+      ]
+    },
+    {
+      "id": "24",
+      "priority": "medium",
+      "original_bank_source": false,
+      "summary": {
+        "TC": "FATF與Egmont共同發布的貿易洗錢風險指標。",
+        "EN": "Joint FATF/Egmont trade-based money laundering risk indicators."
+      },
+      "reading": {
+        "TC": "讀使用說明及四組指標；理解企業、貿易、單據貨物及賬戶交易的異常，不逐字背全表。",
+        "EN": "Read the handling notes and four indicator groups; understand rather than memorise the lists."
+      },
+      "editions": {
+        "EN": {
+          "file": "24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf",
+          "url": "https://egmontgroup.org/wp-content/uploads/2021/10/Trade-Based-Money-Laundering-Risk-Indicators.pdf",
+          "sha256": "670b80270b33354b17263d44393cd65386a96bdb1a171365f217048e7cca6afb",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "EN/24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf",
+          "text_file": "text/EN/24.txt",
+          "text_sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b"
+        },
+        "TC": {
+          "file": "24_中選讀_貿易洗錢風險指標（2021年3月_英文原文）.pdf",
+          "url": "https://egmontgroup.org/wp-content/uploads/2021/10/Trade-Based-Money-Laundering-Risk-Indicators.pdf",
+          "sha256": "670b80270b33354b17263d44393cd65386a96bdb1a171365f217048e7cca6afb",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "TC/24_中選讀_貿易洗錢風險指標（2021年3月_英文原文）.pdf",
+          "language": "EN",
+          "note": "English original, not a Chinese translation.",
+          "text_file": "text/TC/24.txt",
+          "text_sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b"
+        }
+      },
+      "category": "source",
+      "reading_status": "active",
+      "study_focus": "select",
+      "title": {
+        "EN": "Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021)",
+        "TC": "貿易洗錢風險指標（2021年3月_英文原文）"
+      }
+    },
+    {
+      "id": "25",
+      "priority": "medium",
+      "original_bank_source": false,
+      "summary": {
+        "TC": "香港整體及各行業的洗錢、恐怖分子及擴散資金籌集風險評估。",
+        "EN": "Hong Kong territory-wide and sectoral risk assessment."
+      },
+      "reading": {
+        "TC": "重點第5.4節MSO及相關案例，再選讀恐怖分子及擴散資金籌集部分，毋須整本精讀。",
+        "EN": "Focus on section 5.4 and MSO cases; selectively read TF and PF chapters."
+      },
+      "editions": {
+        "EN": {
+          "file": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=343269",
+          "sha256": "78f125e6f0997b69938403cf233865de6ae2bc27c715309131b645f9c16d721a",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "EN/25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf",
+          "text_file": "text/EN/25.txt",
+          "text_sha256": "6b410a4644b662a0c595cc843b04730f0af50a7af4f0e129a2d5dafc6c37e254"
+        },
+        "TC": {
+          "file": "25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=343270",
+          "sha256": "04a21aa224d068fbd4432ca5ef14d393cb9b03a84b99798f2b44629b88071f4f",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "TC/25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+          "text_file": "text/TC/25.txt",
+          "text_sha256": "39d140261bfe1e7886bf3bbe068f2cf5de8a626bca154a2764190f73a7adb252"
+        }
+      },
+      "category": "source",
+      "reading_status": "active",
+      "study_focus": "select",
+      "title": {
+        "EN": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022)",
+        "TC": "香港洗錢及恐怖分子資金籌集風險評估報告（2022年）"
+      }
+    },
+    {
+      "id": "26",
+      "priority": "medium",
+      "original_bank_source": false,
+      "summary": {
+        "TC": "聯合國制裁的原則性監管要求及預警機制。",
+        "EN": "Principles of UN sanctions screening and early alerts."
+      },
+      "reading": {
+        "TC": "與核心指引第6章對讀；留意未在香港落實的聯合國制裁、篩查更新及舉報。",
+        "EN": "Read alongside guideline chapter 6, including sanctions not yet implemented locally."
+      },
+      "editions": {
+        "EN": {
+          "file": "26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=147928",
+          "sha256": "8ac13d01d4fb73d6b84f410567eb99e073c58e5a0a694e1f2a6ed989d476bf69",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "EN/26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf",
+          "text_file": "text/EN/26.txt",
+          "text_sha256": "2a44e23b7873502ddce5ee9afc5b919bee28287d08011080227b4c21e6e2ae5c"
+        },
+        "TC": {
+          "file": "26_中選讀_通函_聯合國制裁_原則及預警機制（2018年2月7日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=147929",
+          "sha256": "aff649abc5ae6a7f91f036764537df538211bf608448258b2faf71522482192c",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "TC/26_中選讀_通函_聯合國制裁_原則及預警機制（2018年2月7日）.pdf",
+          "text_file": "text/TC/26.txt",
+          "text_sha256": "6829cc9518b597794287b65db41b6a8d1228a0437a8a10237b2440074ede51ee"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/SAN_01/2018",
+      "online_references": [
+        {
+          "title": {
+            "TC": "聯合國現行制裁委員會資料",
+            "EN": "Current UN sanctions committee information"
+          },
+          "url": "https://main.un.org/securitycouncil/en/sanctions/information",
+          "note": {
+            "TC": "動態資料入口；歷史決議附件不能代替最新名單。",
+            "EN": "Live resource; historical resolution attachments do not replace current designation lists."
+          },
+          "status": "online_reference"
+        }
+      ],
+      "reading_status": "active",
+      "study_focus": "select",
+      "title": {
+        "EN": "Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018)",
+        "TC": "通函_聯合國制裁_原則及預警機制（2018年2月7日）"
+      }
+    },
+    {
+      "title": {
+        "TC": "公安機關打擊「換錢黨」衍生違法犯罪的官方報道",
+        "EN": "Official report on operations against illegal activities associated with money changers"
+      },
+      "reading": {
+        "TC": "通函的內地執法背景資料；簡體中文官方網頁快照，並非新增香港規則。",
+        "EN": "Mainland enforcement context cited by the circular; official Simplified Chinese webpage snapshot, not a new Hong Kong rule."
+      },
+      "priority": "low",
+      "editions": {
+        "ZH": {
+          "file": "27_Reference_Official report on operations against illegal activities associated with money changers (2024-07, ZH).html",
+          "url": "https://www.gov.cn/lianbo/bumen/202407/content_6961469.htm",
+          "sha256": "d62dfc1a891a63ef18231243d5544ebade1ecce5dd95624671aa44e426776292",
+          "archived_on": "2026-10-18",
+          "edition": "2024-07",
+          "text_file": "text/ZH/27.txt",
+          "text_sha256": "3440d103bed14c390392e4953c656c3889fa1107dd5611e96cb68ae8de3fd02b",
+          "path": "archive/ZH/27_Reference_Official report on operations against illegal activities associated with money changers (2024-07, ZH).html"
+        }
+      },
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "新聞背景，沒有新增MSO合規要求。",
+        "EN": "News background, without additional MSO compliance duties."
+      },
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "08",
+      "summary": {
+        "TC": "官方通函所指向的配套原件。",
+        "EN": "Official original linked by the circular."
+      },
+      "text_mode": "companion",
+      "id": "27"
+    },
+    {
+      "title": {
+        "TC": "FATF擴散融資風險評估及緩解指引",
+        "EN": "FATF Guidance on Proliferation Financing Risk Assessment and Mitigation"
+      },
+      "reading": {
+        "TC": "先讀背景及範圍、風險指標、私人機構緩解措施；英文原件，未核實官方繁中譯本。",
+        "EN": "Read context/scope, risk indicators and private-sector mitigation measures. Official English original; no verified Traditional Chinese translation."
+      },
+      "priority": "low",
+      "editions": {
+        "EN": {
+          "file": "28_Reference_FATF Guidance on Proliferation Financing Risk Assessment and Mitigation (2021-06, EN).pdf",
+          "url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/guidance/Guidance-Proliferation-Financing-Risk-Assessment-Mitigation.pdf.coredownload.inline.pdf",
+          "sha256": "5379257c52cfe120a4fe4df832d692b63ab07b38f44298f3af30b6c803558e20",
+          "archived_on": "2026-10-18",
+          "edition": "2021-06",
+          "text_file": "text/EN/28.txt",
+          "text_sha256": "b8717faa1858df9e7328aad9841c6e42a8c1d6fb1a48c22905f50ce1aa442aa3",
+          "pages": 60,
+          "path": "archive/EN/28_Reference_FATF Guidance on Proliferation Financing Risk Assessment and Mitigation (2021-06, EN).pdf"
+        }
+      },
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "國際方法及培訓延伸；本輪先掌握第03及09項的本地要求，需要深入例子時再查。",
+        "EN": "International methodology and training extension. First learn the local requirements in items 03 and 09; consult this for deeper examples."
+      },
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "09",
+      "summary": {
+        "TC": "官方通函所指向的配套原件。",
+        "EN": "Official original linked by the circular."
+      },
+      "text_mode": "companion",
+      "id": "28"
+    },
+    {
+      "title": {
+        "TC": "大殺傷力武器擴散融資風險評估及緩解講義",
+        "EN": "Webinar on Proliferation Financing Risk Assessment and Mitigation"
+      },
+      "reading": {
+        "TC": "商務及經濟發展局雙語講義；兩個海關下載入口逐字節相同，只存一份。講義日期2021年8月，通函指2021年9月17日公布；制裁名單只反映當時情況。",
+        "EN": "CEDB bilingual slides. Both Customs download endpoints return identical bytes, stored once. Slides dated August 2021, published 17 September 2021 per the circular. Sanctions lists are historical."
+      },
+      "priority": "low",
+      "editions": {
+        "BI": {
+          "file": "29_Reference_Webinar on Proliferation Financing Risk Assessment and Mitigation (2021-08, Bilingual).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=313566",
+          "sha256": "c5f0e349e97f19ea17f5f5499bad1ea8b6274b7cc3e10a7de003edc8a0c1ef27",
+          "archived_on": "2026-10-18",
+          "edition": "2021-08",
+          "text_file": "text/BI/29.txt",
+          "text_sha256": "214e0088bf7d2e8b6c3aefcd35f9fc7b4b03184f14501d348b67a9e1cd1bf3e1",
+          "pages": 38,
+          "path": "archive/BI/29_Reference_Webinar on Proliferation Financing Risk Assessment and Mitigation (2021-08, Bilingual).pdf",
+          "language": "BI"
+        }
+      },
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "國際方法及培訓延伸；本輪先掌握第03及09項的本地要求，需要深入例子時再查。",
+        "EN": "International methodology and training extension. First learn the local requirements in items 03 and 09; consult this for deeper examples."
+      },
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "09",
+      "summary": {
+        "TC": "官方通函所指向的配套原件。",
+        "EN": "Official original linked by the circular."
+      },
+      "text_mode": "companion",
+      "id": "29"
+    },
+    {
+      "id": "30",
+      "priority": "low",
+      "original_bank_source": false,
+      "summary": {
+        "TC": "第34章附表2及3的官方網頁原文摘錄。",
+        "EN": "Official webpage extract of Cap. 34 Schedules 2 and 3."
+      },
+      "reading": {
+        "TC": "讀准許陳述及訂明貨幣；適用範圍、單據及展示責任另讀第16項配套的完整條例第3至8條及附表1。",
+        "EN": "Read permitted statements and prescribed currencies; use the complete Ordinance under item 16 for sections 3-8 and Schedule 1 on scope, transaction notes and display duties."
+      },
+      "editions": {
+        "EN": {
+          "file": "30_Reference_Money Changers Ordinance Cap 34 - Schedules 2 and 3 - Official Webpage Extract (24 Aug 2025).md",
+          "url": "https://www.elegislation.gov.hk/hk/cap34?_lang=en",
+          "sha256": "b8d28a519f9122dc1a24b61367d02ce8a20886e8a3eb115368e32287bf7e3a2d",
+          "format": "md",
+          "archived_on": "2026-10-18",
+          "status": "official_webpage_extract_schedules_2_and_3_only",
+          "path": "archive/EN/30_Reference_Money Changers Ordinance Cap 34 - Schedules 2 and 3 - Official Webpage Extract (24 Aug 2025).md",
+          "text_file": "text/EN/30.txt",
+          "text_sha256": "b8d28a519f9122dc1a24b61367d02ce8a20886e8a3eb115368e32287bf7e3a2d"
+        },
+        "TC": {
+          "file": "30_歷史參考_貨幣兌換商條例第34章_附表2及3_官方網頁摘錄（2025年8月24日版）.md",
+          "url": "https://www.elegislation.gov.hk/hk/cap34?_lang=zh-Hant-HK",
+          "sha256": "e70ea4bdac698f7f717460ff548b555920aa5ef1715ea042a73343eb1212d1c1",
+          "format": "md",
+          "archived_on": "2026-10-18",
+          "status": "official_webpage_extract_schedules_2_and_3_only",
+          "path": "archive/TC/30_歷史參考_貨幣兌換商條例第34章_附表2及3_官方網頁摘錄（2025年8月24日版）.md",
+          "text_file": "text/TC/30.txt",
+          "text_sha256": "e70ea4bdac698f7f717460ff548b555920aa5ef1715ea042a73343eb1212d1c1"
+        }
+      },
+      "category": "source",
+      "webpage_extract_verification": {
+        "date": "2026-10-18",
+        "method": "Rendered official webpage Schedules 2 and 3 compared after whitespace and Markdown heading removal",
+        "TC": {
+          "normalized_length": 336,
+          "fnv1a32": "a458f91d"
+        },
+        "EN": {
+          "normalized_length": 715,
+          "fnv1a32": "4c222e25"
+        }
+      },
+      "related_documents": [
+        "16"
+      ],
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "第17項完整第34章已包含附表2及3；不再另讀重複網頁摘錄。",
+        "EN": "The full Cap. 34 in item 17 already includes Schedules 2 and 3; no separate pass through the duplicate extract is needed."
+      },
+      "read_instead": [
+        "17"
+      ],
+      "title": {
+        "EN": "Money Changers Ordinance Cap 34 - Schedules 2 and 3 - Official Webpage Extract (24 Aug 2025)",
+        "TC": "貨幣兌換商條例第34章_附表2及3_官方網頁摘錄（2025年8月24日版）"
+      }
+    },
+    {
+      "title": {
+        "TC": "FATF建議及解釋性說明全文",
+        "EN": "The FATF Recommendations and Interpretive Notes"
+      },
+      "reading": {
+        "TC": "2026年6月版；重點看第19項建議的解釋性說明。通函的PDF頁碼只屬定位提示，應按章節名稱查找；國際標準不能直接等同香港現行法律。",
+        "EN": "June 2026 edition. Focus on the Interpretive Note to Recommendation 19; locate by heading, not a potentially stale PDF page pointer. International standards are not automatically Hong Kong law."
+      },
+      "priority": "low",
+      "editions": {
+        "EN": {
+          "file": "31_Reference_The FATF Recommendations and Interpretive Notes (2026-06, EN).pdf",
+          "url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/recommendations/fatf-recommendations-2012.pdf.coredownload.inline.pdf",
+          "sha256": "3c2553430fdff2c181c1e4c590373c1ad36c5adba36eda50c82a2bbb219f5919",
+          "archived_on": "2026-10-18",
+          "edition": "2026-06",
+          "text_file": "text/EN/31.txt",
+          "text_sha256": "d4d5a033d2dc08217680a8686c6b1c46d0e4eae28bd0c2cab402309b3694a8b3",
+          "pages": 151,
+          "path": "archive/EN/31_Reference_The FATF Recommendations and Interpretive Notes (2026-06, EN).pdf"
+        }
+      },
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "國際標準全文或前期通函；本輪讀現行海關通函及所連結的聲明，避免重讀整本國際標準或舊通知。",
+        "EN": "Full international standards or a preceding circular. Prioritise the current Customs circular and its linked statements rather than rereading an entire international standard or old notice."
+      },
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "19",
+      "summary": {
+        "TC": "官方通函所指向的配套原件。",
+        "EN": "Official original linked by the circular."
+      },
+      "text_mode": "companion",
+      "id": "31"
+    },
+    {
+      "title": {
+        "TC": "前一期FATF聲明海關通函",
+        "EN": "Previous Customs circular on FATF statements"
+      },
+      "reading": {
+        "TC": "2026年3月20日的前期通函，只供追溯7月通函腳註；不代替7月版本，亦不代表最新名單。",
+        "EN": "20 March 2026 circular referenced in a footnote, retained for history. It does not replace the July edition or establish current lists."
+      },
+      "priority": "low",
+      "editions": {
+        "EN": {
+          "file": "32_Reference_Previous Customs circular on FATF statements (2026-03-20, EN).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=484407",
+          "sha256": "167b132d880f5b779c04d3de51850b2ad30753d39578b05d01fa42d500558657",
+          "archived_on": "2026-10-18",
+          "edition": "2026-03-20",
+          "text_file": "text/EN/32.txt",
+          "text_sha256": "f45f41f916627b51f794a2904115455aadcadea6531f3c519b11eecf6f335653",
+          "pages": 2,
+          "path": "archive/EN/32_Reference_Previous Customs circular on FATF statements (2026-03-20, EN).pdf"
+        },
+        "TC": {
+          "file": "32_歷史參考_前一期FATF聲明海關通函 (2026-03-20, TC).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=484408",
+          "sha256": "22742cae6d7cbeb6656032d4b4de5b7fd6b612d50b891f7f41c1d831fda8c0a2",
+          "archived_on": "2026-10-18",
+          "edition": "2026-03-20",
+          "text_file": "text/TC/32.txt",
+          "text_sha256": "34014d868b12b4e977d9a3b3fa74f9a3e1a72aee188acb9caa648f2416ec4c47",
+          "pages": 3,
+          "path": "archive/TC/32_歷史參考_前一期FATF聲明海關通函 (2026-03-20, TC).pdf"
+        }
+      },
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "國際標準全文或前期通函；本輪讀現行海關通函及所連結的聲明，避免重讀整本國際標準或舊通知。",
+        "EN": "Full international standards or a preceding circular. Prioritise the current Customs circular and its linked statements rather than rereading an entire international standard or old notice."
+      },
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "19",
+      "summary": {
+        "TC": "官方通函所指向的配套原件。",
+        "EN": "Official original linked by the circular."
+      },
+      "text_mode": "companion",
+      "id": "32"
+    },
+    {
+      "id": "33",
+      "priority": "low",
+      "original_bank_source": false,
+      "summary": {
+        "TC": "海關要求業界考慮香港風險評估報告的通函。",
+        "EN": "C&ED circular on the Hong Kong risk assessment report."
+      },
+      "reading": {
+        "TC": "先讀一頁通函，掌握為何及如何把行業風險納入本身評估。",
+        "EN": "Read this short notice before the report to understand its application to MSOs."
+      },
+      "editions": {
+        "EN": {
+          "file": "33_Reference_Circular - Publication of Hong Kong Risk Assessment Report (11 Jul 2022).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=343450",
+          "sha256": "85f8281957c45b4b8285a3bf0ee569fb7fcef53ba7079ee3312d3d08fbaccb3b",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "archive/EN/33_Reference_Circular - Publication of Hong Kong Risk Assessment Report (11 Jul 2022).pdf",
+          "text_file": "text/EN/33.txt",
+          "text_sha256": "e85f159cfd9e6f5e4a23f912fb4f744072964df91be5abd2cc8aaefe104ff9d8"
+        },
+        "TC": {
+          "file": "33_歷史參考_通函_公布香港洗錢及恐怖分子資金籌集風險評估報告（2022年7月11日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=343447",
+          "sha256": "c6d4db4cd66ad226a5ee0f87210a3650f8b3d3b7759717f5d499c8cb3cefb36d",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "archive/TC/33_歷史參考_通函_公布香港洗錢及恐怖分子資金籌集風險評估報告（2022年7月11日）.pdf",
+          "text_file": "text/TC/33.txt",
+          "text_sha256": "def281a9213cb450a0f91903e3cfbb0df9b471927da1a329a808f09a6cf6e314"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/MIS_06/2022",
+      "related_documents": [
+        "25"
+      ],
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "主要為2022年報告發布及閱讀提示；風險評估責任由第03項第2章涵蓋，行業資訊直接讀第25項第5.4節。",
+        "EN": "Primarily announces the 2022 report. Use chapter 2 of item 03 for risk-assessment duties and section 5.4 of item 25 for sector findings."
+      },
+      "read_instead": [
+        "03",
+        "25"
+      ],
+      "title": {
+        "EN": "Circular - Publication of Hong Kong Risk Assessment Report (11 Jul 2022)",
+        "TC": "通函_公布香港洗錢及恐怖分子資金籌集風險評估報告（2022年7月11日）"
+      }
+    },
+    {
+      "title": {
+        "TC": "聯合國安理會第2270（2016）號決議",
+        "EN": "UN Security Council Resolution 2270 (2016)"
+      },
+      "reading": {
+        "TC": "通函直接連結的歷史決議；中文原件為簡體，不改成繁體。用於理解制裁背景，不要求背當年個別名單。",
+        "EN": "Historical resolution directly linked by the circular. Official Chinese is Simplified Chinese, retained unchanged. Background reference; do not memorise historical designation lists."
+      },
+      "priority": "low",
+      "editions": {
+        "EN": {
+          "file": "34_Reference_UN Security Council Resolution 2270 (2016) (2016, EN).pdf",
+          "url": "https://documents.un.org/api/symbol/access?l=en&s=S%2FRES%2F2270%282016%29&t=pdf",
+          "sha256": "f1794056b667cabaa98561500b73c54d81aae676ccd8e7fb62e77000a2aef9dc",
+          "archived_on": "2026-10-18",
+          "edition": "2016",
+          "text_file": "text/EN/34.txt",
+          "text_sha256": "a42c736e8375b4288dad6d968d1ccc5b662617cff369fe0bd00f97f51146ec79",
+          "pages": 19,
+          "path": "archive/EN/34_Reference_UN Security Council Resolution 2270 (2016) (2016, EN).pdf"
+        },
+        "ZH": {
+          "file": "34_Reference_UN Security Council Resolution 2270 (2016) (2016, ZH).pdf",
+          "url": "https://documents.un.org/api/symbol/access?l=zh&s=S%2FRES%2F2270%282016%29&t=pdf",
+          "sha256": "adb58ebe3a752d04b2154e0fb13b28a0f5603e7824028a55ad1aa15425c930c0",
+          "archived_on": "2026-10-18",
+          "edition": "2016",
+          "text_file": "text/ZH/34.txt",
+          "text_sha256": "51393986356af4dcd79392c689a45a1faa97d1143137f60c47350ed3e7f7d430",
+          "pages": 18,
+          "path": "archive/ZH/34_Reference_UN Security Council Resolution 2270 (2016) (2016, ZH).pdf"
+        }
+      },
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "歷史決議原文供追溯；本輪讀第03項第6章及第26項的本地執行要求，制裁對象須查最新名單。",
+        "EN": "Historical resolutions for traceability. Use chapter 6 of item 03 and item 26 for local implementation duties; check current sanctions lists for designated parties."
+      },
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "26",
+      "summary": {
+        "TC": "官方通函所指向的配套原件。",
+        "EN": "Official original linked by the circular."
+      },
+      "text_mode": "companion",
+      "id": "34"
+    },
+    {
+      "title": {
+        "TC": "聯合國安理會第2321（2016）號決議",
+        "EN": "UN Security Council Resolution 2321 (2016)"
+      },
+      "reading": {
+        "TC": "通函直接連結的歷史決議；中文原件為簡體，不改成繁體。用於理解制裁背景，不要求背當年個別名單。",
+        "EN": "Historical resolution directly linked by the circular. Official Chinese is Simplified Chinese, retained unchanged. Background reference; do not memorise historical designation lists."
+      },
+      "priority": "low",
+      "editions": {
+        "EN": {
+          "file": "35_Reference_UN Security Council Resolution 2321 (2016) (2016, EN).pdf",
+          "url": "https://documents.un.org/api/symbol/access?l=en&s=S%2FRES%2F2321%282016%29&t=pdf",
+          "sha256": "bcff15118bb87ba68206fc647aaad76dd85afc2e7e2f10b17271636d8abb08a5",
+          "archived_on": "2026-10-18",
+          "edition": "2016",
+          "text_file": "text/EN/35.txt",
+          "text_sha256": "f6195ebc8348cf7dcdf6557c0515754fbf7bc6e75372904d22964e23b263137c",
+          "pages": 17,
+          "path": "archive/EN/35_Reference_UN Security Council Resolution 2321 (2016) (2016, EN).pdf"
+        },
+        "ZH": {
+          "file": "35_Reference_UN Security Council Resolution 2321 (2016) (2016, ZH).pdf",
+          "url": "https://documents.un.org/api/symbol/access?l=zh&s=S%2FRES%2F2321%282016%29&t=pdf",
+          "sha256": "1cd175ff2e3c49e6e53037a00fb4582b1c126325c7a66c63ed2ad57ab76c2510",
+          "archived_on": "2026-10-18",
+          "edition": "2016",
+          "text_file": "text/ZH/35.txt",
+          "text_sha256": "1352e55d31269ef7e4fb423a89e75274b1407125c3cbb52b2769c3c1802d8977",
+          "pages": 15,
+          "path": "archive/ZH/35_Reference_UN Security Council Resolution 2321 (2016) (2016, ZH).pdf"
+        }
+      },
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "歷史決議原文供追溯；本輪讀第03項第6章及第26項的本地執行要求，制裁對象須查最新名單。",
+        "EN": "Historical resolutions for traceability. Use chapter 6 of item 03 and item 26 for local implementation duties; check current sanctions lists for designated parties."
+      },
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "26",
+      "summary": {
+        "TC": "官方通函所指向的配套原件。",
+        "EN": "Official original linked by the circular."
+      },
+      "text_mode": "companion",
+      "id": "35"
+    },
+    {
+      "title": {
+        "TC": "聯合國安理會第2371（2017）號決議",
+        "EN": "UN Security Council Resolution 2371 (2017)"
+      },
+      "reading": {
+        "TC": "通函直接連結的歷史決議；中文原件為簡體，不改成繁體。用於理解制裁背景，不要求背當年個別名單。",
+        "EN": "Historical resolution directly linked by the circular. Official Chinese is Simplified Chinese, retained unchanged. Background reference; do not memorise historical designation lists."
+      },
+      "priority": "low",
+      "editions": {
+        "EN": {
+          "file": "36_Reference_UN Security Council Resolution 2371 (2017) (2017, EN).pdf",
+          "url": "https://documents.un.org/api/symbol/access?l=en&s=S%2FRES%2F2371%282017%29&t=pdf",
+          "sha256": "398c4d8885d380b9d678c7cacf5b2a7b75ca9df4585d7de038a9d10f428ac895",
+          "archived_on": "2026-10-18",
+          "edition": "2017",
+          "text_file": "text/EN/36.txt",
+          "text_sha256": "e50f9e45e7b2d841cdb022f01c85f3c46d004d1f94b3f4d1bc392aef4ef6451e",
+          "pages": 9,
+          "path": "archive/EN/36_Reference_UN Security Council Resolution 2371 (2017) (2017, EN).pdf"
+        },
+        "ZH": {
+          "file": "36_Reference_UN Security Council Resolution 2371 (2017) (2017, ZH).pdf",
+          "url": "https://documents.un.org/api/symbol/access?l=zh&s=S%2FRES%2F2371%282017%29&t=pdf",
+          "sha256": "84083b404dd6ac9cab7e18088495ba5c798f3cdc79538e23c0634ea00d62b4c6",
+          "archived_on": "2026-10-18",
+          "edition": "2017",
+          "text_file": "text/ZH/36.txt",
+          "text_sha256": "4fe11e6dc7f4593e1c99fa7e270f0ed6e47ede6dc3ec3d7add30d918720f6ebc",
+          "pages": 8,
+          "path": "archive/ZH/36_Reference_UN Security Council Resolution 2371 (2017) (2017, ZH).pdf"
+        }
+      },
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "歷史決議原文供追溯；本輪讀第03項第6章及第26項的本地執行要求，制裁對象須查最新名單。",
+        "EN": "Historical resolutions for traceability. Use chapter 6 of item 03 and item 26 for local implementation duties; check current sanctions lists for designated parties."
+      },
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "26",
+      "summary": {
+        "TC": "官方通函所指向的配套原件。",
+        "EN": "Official original linked by the circular."
+      },
+      "text_mode": "companion",
+      "id": "36"
+    },
+    {
+      "title": {
+        "TC": "聯合國安理會第2375（2017）號決議",
+        "EN": "UN Security Council Resolution 2375 (2017)"
+      },
+      "reading": {
+        "TC": "通函直接連結的歷史決議；中文原件為簡體，不改成繁體。用於理解制裁背景，不要求背當年個別名單。",
+        "EN": "Historical resolution directly linked by the circular. Official Chinese is Simplified Chinese, retained unchanged. Background reference; do not memorise historical designation lists."
+      },
+      "priority": "low",
+      "editions": {
+        "EN": {
+          "file": "37_Reference_UN Security Council Resolution 2375 (2017) (2017, EN).pdf",
+          "url": "https://documents.un.org/api/symbol/access?l=en&s=S%2FRES%2F2375%282017%29&t=pdf",
+          "sha256": "b40ab89b77e9cf523c52d28239398204cf580eff66ec425acddbbe87d5aa661d",
+          "archived_on": "2026-10-18",
+          "edition": "2017",
+          "text_file": "text/EN/37.txt",
+          "text_sha256": "7ff14cb7c6ff5681385b4ff88c8a5eaf429a9a74081207df7157e5e31a04735a",
+          "pages": 9,
+          "path": "archive/EN/37_Reference_UN Security Council Resolution 2375 (2017) (2017, EN).pdf"
+        },
+        "ZH": {
+          "file": "37_Reference_UN Security Council Resolution 2375 (2017) (2017, ZH).pdf",
+          "url": "https://documents.un.org/api/symbol/access?l=zh&s=S%2FRES%2F2375%282017%29&t=pdf",
+          "sha256": "05e0ff2d991fa501f259141376fbd00839a25282e7d94c1e87842df5fff77be0",
+          "archived_on": "2026-10-18",
+          "edition": "2017",
+          "text_file": "text/ZH/37.txt",
+          "text_sha256": "4b045f9070eb1a5a2b8a4e778c20269f27ffe54de1a8c849bcc5996a58224b09",
+          "pages": 9,
+          "path": "archive/ZH/37_Reference_UN Security Council Resolution 2375 (2017) (2017, ZH).pdf"
+        }
+      },
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "歷史決議原文供追溯；本輪讀第03項第6章及第26項的本地執行要求，制裁對象須查最新名單。",
+        "EN": "Historical resolutions for traceability. Use chapter 6 of item 03 and item 26 for local implementation duties; check current sanctions lists for designated parties."
+      },
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "26",
+      "summary": {
+        "TC": "官方通函所指向的配套原件。",
+        "EN": "Official original linked by the circular."
+      },
+      "text_mode": "companion",
+      "id": "37"
+    },
+    {
+      "title": {
+        "TC": "聯合國安理會第2397（2017）號決議",
+        "EN": "UN Security Council Resolution 2397 (2017)"
+      },
+      "reading": {
+        "TC": "通函直接連結的歷史決議；中文原件為簡體，不改成繁體。用於理解制裁背景，不要求背當年個別名單。",
+        "EN": "Historical resolution directly linked by the circular. Official Chinese is Simplified Chinese, retained unchanged. Background reference; do not memorise historical designation lists."
+      },
+      "priority": "low",
+      "editions": {
+        "EN": {
+          "file": "38_Reference_UN Security Council Resolution 2397 (2017) (2017, EN).pdf",
+          "url": "https://documents.un.org/api/symbol/access?l=en&s=S%2FRES%2F2397%282017%29&t=pdf",
+          "sha256": "2f952ebe2177077b90d1dc75a7f9f63b379cc467ed5e32ee7af95479c80cf7de",
+          "archived_on": "2026-10-18",
+          "edition": "2017",
+          "text_file": "text/EN/38.txt",
+          "text_sha256": "122d2ea7a0cecf5f8cc0fcec9fd4399c02fbf96e1ee7e0b551780820eea77779",
+          "pages": 11,
+          "path": "archive/EN/38_Reference_UN Security Council Resolution 2397 (2017) (2017, EN).pdf"
+        },
+        "ZH": {
+          "file": "38_Reference_UN Security Council Resolution 2397 (2017) (2017, ZH).pdf",
+          "url": "https://documents.un.org/api/symbol/access?l=zh&s=S%2FRES%2F2397%282017%29&t=pdf",
+          "sha256": "2389de5a99f54e6d04d2c5552bb2a572bc940ad1ed0d8dae539afc3ed3f1a41e",
+          "archived_on": "2026-10-18",
+          "edition": "2017",
+          "text_file": "text/ZH/38.txt",
+          "text_sha256": "f807f993f86f12a00869d31d8df60d253dbad184f6d1a7161e9777f50ffbcf03",
+          "pages": 11,
+          "path": "archive/ZH/38_Reference_UN Security Council Resolution 2397 (2017) (2017, ZH).pdf"
+        }
+      },
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "歷史決議原文供追溯；本輪讀第03項第6章及第26項的本地執行要求，制裁對象須查最新名單。",
+        "EN": "Historical resolutions for traceability. Use chapter 6 of item 03 and item 26 for local implementation duties; check current sanctions lists for designated parties."
+      },
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "26",
+      "summary": {
+        "TC": "官方通函所指向的配套原件。",
+        "EN": "Official original linked by the circular."
+      },
+      "text_mode": "companion",
+      "id": "38"
+    },
+    {
+      "id": "39",
+      "priority": "low",
+      "original_bank_source": false,
+      "summary": {
+        "TC": "海關網站發布的聯合財富情報組培訓講義：舉報可疑交易。",
+        "EN": "Officially hosted training slides on suspicious transaction reporting."
+      },
+      "reading": {
+        "TC": "輔助理解可疑交易、舉報及案例；屬培訓資料，不能據此推定全部內容獨立出題。",
+        "EN": "Use the cases and reporting explanation as an aid, not an independent exam specification."
+      },
+      "editions": {
+        "EN": {
+          "file": "39_Reference_Training Slides - Suspicious Transaction Reporting (Uploaded 7 Jan 2026).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=477112",
+          "sha256": "7cc0dbc31a9f985cb954e73e2221655c46fb93895362ca802f8df1835955800d",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "seminar_date": "2025-12-09",
+          "uploaded_on": "2026-01-07",
+          "path": "archive/EN/39_Reference_Training Slides - Suspicious Transaction Reporting (Uploaded 7 Jan 2026).pdf",
+          "text_file": "text/EN/39.txt",
+          "text_sha256": "7c51ae66a08f95ddf31113c38217e24a0169aae9d1484b8de59c9f9b500e7659"
+        },
+        "TC": {
+          "file": "39_歷史參考_培訓講義_舉報可疑交易（2026年1月7日上載）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=477113",
+          "sha256": "43623837fdc4d37411e5011f81ffbc0147c0bd645aa968343ed86d005407e4de",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "seminar_date": "2025-11-14",
+          "uploaded_on": "2026-01-07",
+          "path": "archive/TC/39_歷史參考_培訓講義_舉報可疑交易（2026年1月7日上載）.pdf",
+          "text_file": "text/TC/39.txt",
+          "text_sha256": "23f39407dcb391be77f39cf8219ca602a402eef4937ea07bc9d08b2b2de1bd52"
+        }
+      },
+      "category": "training",
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "舉報規則與第03項第7章重疊；培訓例子仍可查閱，暫不列為另一份必讀教材。",
+        "EN": "STR rules overlap with chapter 7 of item 03. Training examples remain available for reference, rather than forming another required reading."
+      },
+      "read_instead": [
+        "03"
+      ],
+      "title": {
+        "EN": "Training Slides - Suspicious Transaction Reporting (Uploaded 7 Jan 2026)",
+        "TC": "培訓講義_舉報可疑交易（2026年1月7日上載）"
+      }
+    },
+    {
+      "id": "40",
+      "priority": "low",
+      "original_bank_source": false,
+      "summary": {
+        "TC": "海關培訓講義：洗錢、恐怖分子及擴散資金籌集風險評估。",
+        "EN": "C&ED training slides on ML/TF/PF risk assessment and mitigation."
+      },
+      "reading": {
+        "TC": "在核心規則後用圖表和例子整理風險評估方法；具體規定回查現行指引。",
+        "EN": "Use diagrams and examples to consolidate the methodology; check current rules for detail."
+      },
+      "editions": {
+        "EN": {
+          "file": "40_Reference_Training Slides - ML-TF-PF Risk Assessment and Mitigation (12 Mar 2024).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=416501",
+          "sha256": "827063a49c175535e5ca04b4d597088fe31541fb4a82b7532f84539342fa6551",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "archive/EN/40_Reference_Training Slides - ML-TF-PF Risk Assessment and Mitigation (12 Mar 2024).pdf",
+          "text_file": "text/EN/40.txt",
+          "text_sha256": "6e639e85054f4c757905a9db55bebb82198f77b8409aacd1f07b8021f981cf9c"
+        },
+        "TC": {
+          "file": "40_歷史參考_培訓講義_洗錢及恐怖分子資金籌集和擴散融資的風險評估及緩解（2024年3月12日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=416502",
+          "sha256": "059bc974135aa847ac6323fb4ac0c994c61e9fdae7a5340cd541ce77de053e87",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "archive/TC/40_歷史參考_培訓講義_洗錢及恐怖分子資金籌集和擴散融資的風險評估及緩解（2024年3月12日）.pdf",
+          "text_file": "text/TC/40.txt",
+          "text_sha256": "3fddebd0737f1a6343f3e966b6f86f4056aa4f978ab1290c66c6336227429499"
+        }
+      },
+      "category": "training",
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "風險評估的輔助講義；先讀第03項第2章、第09項及第25項，毋須再完整重讀講義。",
+        "EN": "Supporting risk-assessment slides. Prioritise chapter 2 of item 03, item 09 and item 25; a second full pass through the slides is unnecessary."
+      },
+      "read_instead": [
+        "03",
+        "09",
+        "25"
+      ],
+      "title": {
+        "EN": "Training Slides - ML-TF-PF Risk Assessment and Mitigation (12 Mar 2024)",
+        "TC": "培訓講義_洗錢及恐怖分子資金籌集和擴散融資的風險評估及緩解（2024年3月12日）"
+      }
+    },
+    {
+      "id": "41",
+      "priority": "low",
+      "original_bank_source": false,
+      "summary": {
+        "TC": "機構層面風險評估的較早原則性通函。",
+        "EN": "Earlier circular on institutional ML/TF risk assessment."
+      },
+      "reading": {
+        "TC": "一頁讀完，與核心指引第2章及交付渠道通函對照；大量內容重疊。",
+        "EN": "Read once alongside guideline chapter 2 and the delivery-channel circular; much overlaps."
+      },
+      "editions": {
+        "EN": {
+          "file": "41_Reference_Circular - ML-TF Institutional Risk Assessment (13 Aug 2018).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=166599",
+          "sha256": "aa02e2ebda12b448a7abbd4c5f0b31fe7fccb5affe04dc2b440578923a21216d",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "archive/EN/41_Reference_Circular - ML-TF Institutional Risk Assessment (13 Aug 2018).pdf",
+          "text_file": "text/EN/41.txt",
+          "text_sha256": "6333e7daa7ccf0de76cbb92863dac38cf12ba2d3c63aa7e2d391104cd417c8a4"
+        },
+        "TC": {
+          "file": "41_歷史參考_通函_機構層面的洗錢及恐怖分子資金籌集風險評估（2018年8月13日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=166600",
+          "sha256": "deb89dbf6fdd4e44dfe29f0a2161322c3cb3755409b1fb7a3fc4b75ef15e68d4",
+          "format": "pdf",
+          "archived_on": "2026-10-18",
+          "status": "archived_original",
+          "path": "archive/TC/41_歷史參考_通函_機構層面的洗錢及恐怖分子資金籌集風險評估（2018年8月13日）.pdf",
+          "text_file": "text/TC/41.txt",
+          "text_sha256": "c1c7d00f3e9fe1307b49c7c6b005c297586868b4d314673676f14216f308cde3"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/MIS_07/2018",
+      "related_documents": [
+        "25"
+      ],
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "較早機構風險評估通函，核心步驟已見第03項第2.2至2.6段；保留第09項擴散融資的額外要求。",
+        "EN": "Earlier institutional-risk circular; core steps are covered by paragraphs 2.2-2.6 of item 03. Item 09 retains the additional PF expectations."
+      },
+      "read_instead": [
+        "03",
+        "09"
+      ],
+      "title": {
+        "EN": "Circular - ML-TF Institutional Risk Assessment (13 Aug 2018)",
+        "TC": "通函_機構層面的洗錢及恐怖分子資金籌集風險評估（2018年8月13日）"
+      }
+    },
+    {
+      "id": "42",
+      "priority": "low",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "MSO被冒名、欺詐網站及社交媒體平台的防範提醒。",
+        "EN": "Warning about fraudulent websites and social media impersonation."
+      },
+      "reading": {
+        "TC": "記住保護資料、留意冒名、通知公眾及報案。",
+        "EN": "Remember data protection, vigilance, public notification and reporting."
+      },
+      "editions": {
+        "EN": {
+          "file": "42_Reference_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=452989",
+          "sha256": "fbeb22630cab6aa2e859321d295df7bb874516e0f646749caa75417feacc914b",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "archive/EN/42_Reference_Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025).pdf",
+          "text_file": "text/EN/42.txt",
+          "text_sha256": "48df79e5d58a23d45479076d703c417a1dcce24a80fc352776522ffcd2d5e5ff"
+        },
+        "TC": {
+          "file": "42_歷史參考_通函_與金錢服務經營者有關的欺詐網站及社交媒體平台（2025年4月24日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=452990",
+          "sha256": "bcbac65758aaf29395543c7f6f13c46095849bbee90db831714d01046b31eef3",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "archive/TC/42_歷史參考_通函_與金錢服務經營者有關的欺詐網站及社交媒體平台（2025年4月24日）.pdf",
+          "text_file": "text/TC/42.txt",
+          "text_sha256": "545e00a83188e3db9a8132224bbff2aa38a63a26b29ac4b98ab132856034e50b"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/MIS_01/2025",
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "獨立防詐提醒，但相對七個考試單元的核心要求優先級較低；移出不代表正式失效或不會考。",
+        "EN": "A distinct fraud-prevention reminder, with lower study priority than the core syllabus. Archiving does not mean withdrawal or exclusion from the exam."
+      },
+      "read_instead": [],
+      "title": {
+        "EN": "Circular - Fraudulent Websites and Social Media Platforms related to MSOs (24 Apr 2025)",
+        "TC": "通函_與金錢服務經營者有關的欺詐網站及社交媒體平台（2025年4月24日）"
+      }
+    },
+    {
+      "id": "43",
+      "priority": "low",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "旅客跨境現金類物品的電子預填表及二維碼流程。",
+        "EN": "Passenger e-form and QR-code workflow for currency declarations."
+      },
+      "reading": {
+        "TC": "分清預先填寫與現場完成申報，配合跨境現金通函閱讀。",
+        "EN": "Distinguish pre-filling from completing the declaration in person."
+      },
+      "editions": {
+        "EN": {
+          "file": "43_Reference_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=459115",
+          "sha256": "f58314d3d5139c6a68e4308e4953cc1a5676cdf0d7a332b7c1ce5e513c550d7c",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "archive/EN/43_Reference_Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025).pdf",
+          "text_file": "text/EN/43.txt",
+          "text_sha256": "ec01469aa0fb8da0f63640f15bc97fb39a4547c4d9d2044808d61915a22af5ac"
+        },
+        "TC": {
+          "file": "43_歷史參考_通函_提交旅客資料電子表格（現金類物品）（2025年6月23日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=459116",
+          "sha256": "b365b20e00118e300a7b32b53a07021a2b51fe06cdeb9629dd57925be6ae32ad",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "archive/TC/43_歷史參考_通函_提交旅客資料電子表格（現金類物品）（2025年6月23日）.pdf",
+          "text_file": "text/TC/43.txt",
+          "text_sha256": "dc0697f42185c2a2a48be017275285651c9726c1f71188d47495289ffa34996b"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/MIS_03/2025",
+      "online_references": [
+        {
+          "title": {
+            "TC": "旅客電子表格入口",
+            "EN": "Passenger e-form portal"
+          },
+          "url": "https://www.cedp.customs.gov.hk/index_en.html",
+          "note": {
+            "TC": "在線服務，並非可下載教材；本次沒有填寫或提交表格。",
+            "EN": "Online service, not a downloadable publication; no form was filled or submitted."
+          },
+          "status": "online_reference"
+        }
+      ],
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "旅客電子預填流程，與MSO日常合規考點關聯較弱；基本跨境申報及披露要求保留於第22項及配套法例。",
+        "EN": "Passenger e-form workflow has lower relevance to MSO controls. Basic declaration/disclosure requirements remain in item 22 and the full companion law."
+      },
+      "read_instead": [
+        "22"
+      ],
+      "title": {
+        "EN": "Circular - E-form Submission for Passenger Information on Currency and BNIs (23 Jun 2025)",
+        "TC": "通函_提交旅客資料電子表格（現金類物品）（2025年6月23日）"
+      }
+    },
+    {
+      "title": {
+        "TC": "提交旅客資料電子表格（現金類物品）用戶手冊",
+        "EN": "E-form Submission for Passenger Information (CBNIs) User Manual"
+      },
+      "reading": {
+        "TC": "海關原版中英文各41頁；需要時查看預填、二維碼及現場申報步驟，毋須背每個畫面。",
+        "EN": "Official Customs manual, 41 pages in each language. Consult pre-filling, QR-code and on-site declaration steps; screen-by-screen memorisation is unnecessary."
+      },
+      "priority": "low",
+      "editions": {
+        "EN": {
+          "file": "44_Reference_E-form Submission for Passenger Information (CBNIs) User Manual (Downloaded 2026-10-18; no publication date asserted, EN).pdf",
+          "url": "https://www.customs.gov.hk/hcms/filemanager/common/pdf/cbni/user_manual_edm_en.pdf",
+          "sha256": "24dea74336db4439198523dfd5e8fab696199f595f2f694d559e727f7d891438",
+          "archived_on": "2026-10-18",
+          "edition": "Downloaded 2026-10-18; no publication date asserted",
+          "text_file": "text/EN/44.txt",
+          "text_sha256": "946cdf388a5212b441a2e2ec11c326ab5ad94a02604c654eceb124c9645d558b",
+          "pages": 41,
+          "path": "archive/EN/44_Reference_E-form Submission for Passenger Information (CBNIs) User Manual (Downloaded 2026-10-18; no publication date asserted, EN).pdf"
+        },
+        "TC": {
+          "file": "44_歷史參考_提交旅客資料電子表格（現金類物品）用戶手冊 (Downloaded 2026-10-18; no publication date asserted, TC).pdf",
+          "url": "https://www.customs.gov.hk/hcms/filemanager/common/pdf/cbni/user_manual_edm_tc.pdf",
+          "sha256": "a03df5a33c25e5d1347678167a919f072864d88a3a85b4011711f6a849daeed6",
+          "archived_on": "2026-10-18",
+          "edition": "Downloaded 2026-10-18; no publication date asserted",
+          "text_file": "text/TC/44.txt",
+          "text_sha256": "82cc94e59c50d7d2ed1883ed69b7e4c71328291b62711aaa02f17803f3c679db",
+          "pages": 41,
+          "path": "archive/TC/44_歷史參考_提交旅客資料電子表格（現金類物品）用戶手冊 (Downloaded 2026-10-18; no publication date asserted, TC).pdf"
+        }
+      },
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "旅客電子預填流程，與MSO日常合規考點關聯較弱；基本跨境申報及披露要求保留於第22項及配套法例。",
+        "EN": "Passenger e-form workflow has lower relevance to MSO controls. Basic declaration/disclosure requirements remain in item 22 and the full companion law."
+      },
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "43",
+      "summary": {
+        "TC": "官方通函所指向的配套原件。",
+        "EN": "Official original linked by the circular."
+      },
+      "text_mode": "companion",
+      "id": "44"
+    },
+    {
+      "id": "45",
+      "priority": "low",
+      "original_bank_source": true,
+      "summary": {
+        "TC": "FATF就支付透明度指引草案徵詢意見的通知。",
+        "EN": "FATF consultation on payment transparency guidance."
+      },
+      "reading": {
+        "TC": "了解主題及未來方向；勿把諮詢草案直接當成香港已生效要求。",
+        "EN": "Understand the topic and future direction; do not treat a draft as current Hong Kong law."
+      },
+      "editions": {
+        "EN": {
+          "file": "45_Reference_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=496813",
+          "sha256": "068cbb0780c2e51752b136eee5aa3784153a1d551e7fd67a29a605b88897c47c",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "archive/EN/45_Reference_Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026).pdf",
+          "text_file": "text/EN/45.txt",
+          "text_sha256": "e8189d6083c6dfa8749ed99311fa836109ab4d607b07584a4b47ca3b598edd05"
+        },
+        "TC": {
+          "file": "45_歷史參考_通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）.pdf",
+          "url": "https://eservices.customs.gov.hk/MSOS/downloadFile?id=496814",
+          "sha256": "bd5261a6a3843643bef21bcca572c35e0de5f2c374d79a250bdc5cd46b44794c",
+          "format": "pdf",
+          "archived_on": null,
+          "status": "archived_original",
+          "path": "archive/TC/45_歷史參考_通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）.pdf",
+          "text_file": "text/TC/45.txt",
+          "text_sha256": "4ba4d37075a2d41e5ea74843abbc5158212f0310e22c2532ad02a3b2a86e55e9"
+        }
+      },
+      "category": "source",
+      "circular": "MSSB/FATF_03/2026",
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "支付透明度指引的歷史諮詢通知，非香港已生效要求；本輪不列作主要復習材料。",
+        "EN": "Historical consultation notice on payment transparency, rather than effective Hong Kong requirements; not a main study item in this pass."
+      },
+      "read_instead": [],
+      "title": {
+        "EN": "Circular - FATF Consultation on Payment Transparency Guidance (16 Jul 2026)",
+        "TC": "通函_財務行動特別組織就加強支付透明度的指引展開公眾諮詢（2026年7月16日）"
+      }
+    },
+    {
+      "title": {
+        "TC": "第16項建議實施指引諮詢說明文件",
+        "EN": "R.16 Guidance public consultation explanatory memorandum"
+      },
+      "reading": {
+        "TC": "2026年6月諮詢說明；配合草案閱讀，並非香港已生效的額外要求。諮詢於2026年8月21日截止，官方現標示已結束。",
+        "EN": "June 2026 consultation memorandum, not an additional Hong Kong requirement. Consultation closed 21 August 2026; official page now marks it closed."
+      },
+      "priority": "low",
+      "editions": {
+        "EN": {
+          "file": "46_Reference_R.16 Guidance public consultation explanatory memorandum (2026-06 consultation, EN).pdf",
+          "url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/public-consultation/Public%20consultation%20explanatory%20memorandum.pdf.coredownload.inline.pdf",
+          "sha256": "bbf43b9268b64e3849021fb9022710d7b32c3a7affe655653d7e3099c4b56d0a",
+          "archived_on": "2026-10-18",
+          "edition": "2026-06 consultation",
+          "text_file": "text/EN/46.txt",
+          "text_sha256": "9b7dfee5520378f8c15c4fbf0f0e9ffdb23e0bb3e507026fdd7797d331ed79e6",
+          "pages": 5,
+          "path": "archive/EN/46_Reference_R.16 Guidance public consultation explanatory memorandum (2026-06 consultation, EN).pdf"
+        }
+      },
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "支付透明度指引的歷史諮詢通知，非香港已生效要求；本輪不列作主要復習材料。",
+        "EN": "Historical consultation notice on payment transparency, rather than effective Hong Kong requirements; not a main study item in this pass."
+      },
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "45",
+      "summary": {
+        "TC": "官方通函所指向的配套原件。",
+        "EN": "Official original linked by the circular."
+      },
+      "text_mode": "companion",
+      "id": "46"
+    },
+    {
+      "title": {
+        "TC": "第16項建議實施指引諮詢草案",
+        "EN": "Draft Recommendation 16 Guidance for consultation"
+      },
+      "reading": {
+        "TC": "FATF提供的原始Word草案，保留DOCX格式；了解主題及適用範圍即可。它是諮詢材料，不是已定稿指引或香港現行法。",
+        "EN": "Original FATF Word draft retained as DOCX. Read themes and scope; it is consultation material, not final guidance or current Hong Kong law."
+      },
+      "priority": "low",
+      "editions": {
+        "EN": {
+          "file": "47_Reference_Draft Recommendation 16 Guidance for consultation (2026-06 consultation draft, EN).docx",
+          "url": "https://www.fatf-gafi.org/content/dam/fatf-gafi/public-consultation/R.16%20Guidance%20for%20consultation.docx.coredownload.inline.docx",
+          "sha256": "a48eea7af6892b533ad1ce80f8ba9337eef5a1f56569724190d3c67e053ddc34",
+          "archived_on": "2026-10-18",
+          "edition": "2026-06 consultation draft",
+          "text_file": "text/EN/47.txt",
+          "text_sha256": "18f8e6a7e8e7e45ada1064b1901b6f496e567032ac96990f21c9f54f589da9d6",
+          "path": "archive/EN/47_Reference_Draft Recommendation 16 Guidance for consultation (2026-06 consultation draft, EN).docx"
+        }
+      },
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "支付透明度指引的歷史諮詢通知，非香港已生效要求；本輪不列作主要復習材料。",
+        "EN": "Historical consultation notice on payment transparency, rather than effective Hong Kong requirements; not a main study item in this pass."
+      },
+      "original_bank_source": false,
+      "kind": "companion",
+      "parent_document": "45",
+      "summary": {
+        "TC": "官方通函所指向的配套原件。",
+        "EN": "Official original linked by the circular."
+      },
+      "text_mode": "companion",
+      "id": "47"
+    }
+  ]
+}
