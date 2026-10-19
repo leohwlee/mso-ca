@@ -1,0 +1,1535 @@
+[
+  {
+    "part": 1,
+    "lang": "tc",
+    "device": "desktop",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 7,
+    "citations": 78,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=1&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 1,
+    "lang": "en",
+    "device": "desktop",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 7,
+    "citations": 78,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=1&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 1,
+    "lang": "both",
+    "device": "desktop",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 7,
+    "citations": 78,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=1&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 2,
+    "lang": "tc",
+    "device": "desktop",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 10,
+    "citations": 50,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=2&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 2,
+    "lang": "en",
+    "device": "desktop",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 10,
+    "citations": 50,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=2&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 2,
+    "lang": "both",
+    "device": "desktop",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 10,
+    "citations": 50,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=2&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 3,
+    "lang": "tc",
+    "device": "desktop",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 8,
+    "citations": 44,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=3&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 3,
+    "lang": "en",
+    "device": "desktop",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 8,
+    "citations": 44,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=3&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 3,
+    "lang": "both",
+    "device": "desktop",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 8,
+    "citations": 44,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=3&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 4,
+    "lang": "tc",
+    "device": "desktop",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 8,
+    "citations": 70,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=4&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 4,
+    "lang": "en",
+    "device": "desktop",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 8,
+    "citations": 70,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=4&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 4,
+    "lang": "both",
+    "device": "desktop",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 8,
+    "citations": 70,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=4&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 5,
+    "lang": "tc",
+    "device": "desktop",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 9,
+    "citations": 36,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=5&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 5,
+    "lang": "en",
+    "device": "desktop",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 9,
+    "citations": 36,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=5&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 5,
+    "lang": "both",
+    "device": "desktop",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 9,
+    "citations": 36,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=5&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 6,
+    "lang": "tc",
+    "device": "desktop",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 21,
+    "citations": 156,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=6&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 6,
+    "lang": "en",
+    "device": "desktop",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 21,
+    "citations": 156,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=6&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 6,
+    "lang": "both",
+    "device": "desktop",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 21,
+    "citations": 156,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=6&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 7,
+    "lang": "tc",
+    "device": "desktop",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 11,
+    "citations": 38,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=7&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 7,
+    "lang": "en",
+    "device": "desktop",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 11,
+    "citations": 38,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=7&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 7,
+    "lang": "both",
+    "device": "desktop",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [],
+    "sections": 11,
+    "citations": 38,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=7&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 1,
+    "lang": "tc",
+    "device": "mobile",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02恐怖分子資金籌集：合法資金也可被濫用Terrorist financing: legi"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "恐怖分子資金籌集：合法資金也可被濫用Terrorist financing: legiti"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "恐怖分子資金籌集：合法資金也可被濫用"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03香港法律：各條例處理的問題Hong Kong’s laws: the role of "
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "香港法律：各條例處理的問題Hong Kong’s laws: the role of ea"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "香港法律：各條例處理的問題"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04FATF與司法管轄區風險FATF and jurisdiction risk"
+      }
+    ],
+    "sections": 7,
+    "citations": 78,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=1&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 1,
+    "lang": "en",
+    "device": "mobile",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02恐怖分子資金籌集：合法資金也可被濫用Terrorist financing: legi"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "恐怖分子資金籌集：合法資金也可被濫用Terrorist financing: legiti"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Terrorist financing: legitimate funds can als"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03香港法律：各條例處理的問題Hong Kong’s laws: the role of "
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "香港法律：各條例處理的問題Hong Kong’s laws: the role of ea"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Hong Kong’s laws: the role of each ordinance"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04FATF與司法管轄區風險FATF and jurisdiction risk"
+      }
+    ],
+    "sections": 7,
+    "citations": 78,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=1&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 1,
+    "lang": "both",
+    "device": "mobile",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02恐怖分子資金籌集：合法資金也可被濫用Terrorist financing: legi"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "恐怖分子資金籌集：合法資金也可被濫用Terrorist financing: legiti"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "恐怖分子資金籌集：合法資金也可被濫用"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Terrorist financing: legitimate funds can als"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03香港法律：各條例處理的問題Hong Kong’s laws: the role of "
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "香港法律：各條例處理的問題Hong Kong’s laws: the role of ea"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "香港法律：各條例處理的問題"
+      }
+    ],
+    "sections": 7,
+    "citations": 78,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=1&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 2,
+    "lang": "tc",
+    "device": "mobile",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02違反盡職審查要求：知情與欺詐意圖CDD offences: knowledge and"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "違反盡職審查要求：知情與欺詐意圖CDD offences: knowledge and i"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "違反盡職審查要求：知情與欺詐意圖"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03日常查察、正式調查與文件保障Routine inspection, investiga"
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "日常查察、正式調查與文件保障Routine inspection, investigati"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "日常查察、正式調查與文件保障"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04金錢服務的定義、豁除與無牌罪Money-service definition, exc"
+      }
+    ],
+    "sections": 10,
+    "citations": 50,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=2&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 2,
+    "lang": "en",
+    "device": "mobile",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02違反盡職審查要求：知情與欺詐意圖CDD offences: knowledge and"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "違反盡職審查要求：知情與欺詐意圖CDD offences: knowledge and i"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "CDD offences: knowledge and intent to defraud"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03日常查察、正式調查與文件保障Routine inspection, investiga"
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "日常查察、正式調查與文件保障Routine inspection, investigati"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Routine inspection, investigation and documen"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04金錢服務的定義、豁除與無牌罪Money-service definition, exc"
+      }
+    ],
+    "sections": 10,
+    "citations": 50,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=2&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 2,
+    "lang": "both",
+    "device": "mobile",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02違反盡職審查要求：知情與欺詐意圖CDD offences: knowledge and"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "違反盡職審查要求：知情與欺詐意圖CDD offences: knowledge and i"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "違反盡職審查要求：知情與欺詐意圖"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "CDD offences: knowledge and intent to defraud"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03日常查察、正式調查與文件保障Routine inspection, investiga"
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "日常查察、正式調查與文件保障Routine inspection, investigati"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "日常查察、正式調查與文件保障"
+      }
+    ],
+    "sections": 10,
+    "citations": 50,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=2&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 3,
+    "lang": "tc",
+    "device": "mobile",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02四項盡職審查與觸發條件Four CDD measures and their trig"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "四項盡職審查與觸發條件Four CDD measures and their trigge"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "四項盡職審查與觸發條件"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03簡化審查：只豁免指定措施Simplified CDD: only specified "
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "簡化審查：只豁免指定措施Simplified CDD: only specified me"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "簡化審查：只豁免指定措施"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04額外措施：遙距、政治人物及其他高風險Additional measures: remo"
+      }
+    ],
+    "sections": 8,
+    "citations": 44,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=3&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 3,
+    "lang": "en",
+    "device": "mobile",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02四項盡職審查與觸發條件Four CDD measures and their trig"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "四項盡職審查與觸發條件Four CDD measures and their trigge"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Four CDD measures and their triggers"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03簡化審查：只豁免指定措施Simplified CDD: only specified "
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "簡化審查：只豁免指定措施Simplified CDD: only specified me"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Simplified CDD: only specified measures are o"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04額外措施：遙距、政治人物及其他高風險Additional measures: remo"
+      }
+    ],
+    "sections": 8,
+    "citations": 44,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=3&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 3,
+    "lang": "both",
+    "device": "mobile",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02四項盡職審查與觸發條件Four CDD measures and their trig"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "四項盡職審查與觸發條件Four CDD measures and their trigge"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "四項盡職審查與觸發條件"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Four CDD measures and their triggers"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03簡化審查：只豁免指定措施Simplified CDD: only specified "
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "簡化審查：只豁免指定措施Simplified CDD: only specified me"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "簡化審查：只豁免指定措施"
+      }
+    ],
+    "sections": 8,
+    "citations": 44,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=3&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 4,
+    "lang": "tc",
+    "device": "mobile",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02新牌申請：文件、面見及正式聲明New applications: documents,"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "新牌申請：文件、面見及正式聲明New applications: documents, i"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "新牌申請：文件、面見及正式聲明"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03適當人選：持續而非一次性的要求Fitness and propriety: an on"
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "適當人選：持續而非一次性的要求Fitness and propriety: an ongo"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "適當人選：持續而非一次性的要求"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04能力評核：誰參加、何時參加及合格標準Competence assessment: pa"
+      }
+    ],
+    "sections": 8,
+    "citations": 70,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=4&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 4,
+    "lang": "en",
+    "device": "mobile",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02新牌申請：文件、面見及正式聲明New applications: documents,"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "新牌申請：文件、面見及正式聲明New applications: documents, i"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "New applications: documents, interview and de"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03適當人選：持續而非一次性的要求Fitness and propriety: an on"
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "適當人選：持續而非一次性的要求Fitness and propriety: an ongo"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Fitness and propriety: an ongoing requirement"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04能力評核：誰參加、何時參加及合格標準Competence assessment: pa"
+      }
+    ],
+    "sections": 8,
+    "citations": 70,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=4&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 4,
+    "lang": "both",
+    "device": "mobile",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02新牌申請：文件、面見及正式聲明New applications: documents,"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "新牌申請：文件、面見及正式聲明New applications: documents, i"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "新牌申請：文件、面見及正式聲明"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "New applications: documents, interview and de"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03適當人選：持續而非一次性的要求Fitness and propriety: an on"
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "適當人選：持續而非一次性的要求Fitness and propriety: an ongo"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "適當人選：持續而非一次性的要求"
+      }
+    ],
+    "sections": 8,
+    "citations": 70,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=4&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 5,
+    "lang": "tc",
+    "device": "mobile",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02機構風險評估：因素、程序及更新Institutional assessment: fa"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "機構風險評估：因素、程序及更新Institutional assessment: fact"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "機構風險評估：因素、程序及更新"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03客戶風險評估：初評、定案及持續更新Customer risk assessment: "
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "客戶風險評估：初評、定案及持續更新Customer risk assessment: in"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "客戶風險評估：初評、定案及持續更新"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04新產品、渠道與科技：推出前評估New products, channels and t"
+      }
+    ],
+    "sections": 9,
+    "citations": 36,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=5&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 5,
+    "lang": "en",
+    "device": "mobile",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02機構風險評估：因素、程序及更新Institutional assessment: fa"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "機構風險評估：因素、程序及更新Institutional assessment: fact"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Institutional assessment: factors, process an"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03客戶風險評估：初評、定案及持續更新Customer risk assessment: "
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "客戶風險評估：初評、定案及持續更新Customer risk assessment: in"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Customer risk assessment: initial rating, fin"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04新產品、渠道與科技：推出前評估New products, channels and t"
+      }
+    ],
+    "sections": 9,
+    "citations": 36,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=5&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 5,
+    "lang": "both",
+    "device": "mobile",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02機構風險評估：因素、程序及更新Institutional assessment: fa"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "機構風險評估：因素、程序及更新Institutional assessment: fact"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "機構風險評估：因素、程序及更新"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Institutional assessment: factors, process an"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03客戶風險評估：初評、定案及持續更新Customer risk assessment: "
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "客戶風險評估：初評、定案及持續更新Customer risk assessment: in"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "客戶風險評估：初評、定案及持續更新"
+      }
+    ],
+    "sections": 9,
+    "citations": 36,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=5&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 6,
+    "lang": "tc",
+    "device": "mobile",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02CDD觸發條件、金額及相連交易CDD triggers, thresholds and"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "CDD觸發條件、金額及相連交易CDD triggers, thresholds and l"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "CDD觸發條件、金額及相連交易"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03身分資料：自然人、法人與信託Identity information: individ"
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "身分資料：自然人、法人與信託Identity information: individua"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "身分資料：自然人、法人與信託"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04身分文件與核證副本Identity documents and certified c"
+      }
+    ],
+    "sections": 21,
+    "citations": 156,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=6&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 6,
+    "lang": "en",
+    "device": "mobile",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02CDD觸發條件、金額及相連交易CDD triggers, thresholds and"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "CDD觸發條件、金額及相連交易CDD triggers, thresholds and l"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "CDD triggers, thresholds and linked transacti"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03身分資料：自然人、法人與信託Identity information: individ"
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "身分資料：自然人、法人與信託Identity information: individua"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Identity information: individuals, legal pers"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04身分文件與核證副本Identity documents and certified c"
+      }
+    ],
+    "sections": 21,
+    "citations": 156,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=6&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 6,
+    "lang": "both",
+    "device": "mobile",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02CDD觸發條件、金額及相連交易CDD triggers, thresholds and"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "CDD觸發條件、金額及相連交易CDD triggers, thresholds and l"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "CDD觸發條件、金額及相連交易"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "CDD triggers, thresholds and linked transacti"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03身分資料：自然人、法人與信託Identity information: individ"
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "身分資料：自然人、法人與信託Identity information: individua"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "身分資料：自然人、法人與信託"
+      }
+    ],
+    "sections": 21,
+    "citations": 156,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=6&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 7,
+    "lang": "tc",
+    "device": "mobile",
+    "language": "tc",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02內部報告與MLRO評估Internal reporting and MLRO asse"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "內部報告與MLRO評估Internal reporting and MLRO assess"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03通風報訊與向客戶查詢的界線Tipping off and enquiries to c"
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "通風報訊與向客戶查詢的界線Tipping off and enquiries to cus"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "通風報訊與向客戶查詢的界線"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04報告之後：同意、抗辯與持續風險After reporting: consent, de"
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "04"
+      }
+    ],
+    "sections": 11,
+    "citations": 38,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=7&lang=tc",
+    "partLinks": true,
+    "switched": "en",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 7,
+    "lang": "en",
+    "device": "mobile",
+    "language": "en",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02內部報告與MLRO評估Internal reporting and MLRO asse"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "內部報告與MLRO評估Internal reporting and MLRO assess"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Internal reporting and MLRO assessment"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03通風報訊與向客戶查詢的界線Tipping off and enquiries to c"
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "通風報訊與向客戶查詢的界線Tipping off and enquiries to cus"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Tipping off and enquiries to customers"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "04報告之後：同意、抗辯與持續風險After reporting: consent, de"
+      }
+    ],
+    "sections": 11,
+    "citations": 38,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=7&lang=en",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  },
+  {
+    "part": 7,
+    "lang": "both",
+    "device": "mobile",
+    "language": "both",
+    "wrongLanguageVisible": 0,
+    "overflow": false,
+    "spills": [
+      {
+        "tag": "A",
+        "class": "",
+        "text": "02內部報告與MLRO評估Internal reporting and MLRO asse"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "內部報告與MLRO評估Internal reporting and MLRO assess"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Internal reporting and MLRO assessment"
+      },
+      {
+        "tag": "A",
+        "class": "",
+        "text": "03通風報訊與向客戶查詢的界線Tipping off and enquiries to c"
+      },
+      {
+        "tag": "SPAN",
+        "class": "nav-number",
+        "text": "03"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "通風報訊與向客戶查詢的界線Tipping off and enquiries to cus"
+      },
+      {
+        "tag": "SPAN",
+        "class": "tc",
+        "text": "通風報訊與向客戶查詢的界線"
+      },
+      {
+        "tag": "SPAN",
+        "class": "en",
+        "text": "Tipping off and enquiries to customers"
+      }
+    ],
+    "sections": 11,
+    "citations": 38,
+    "practice": "file:///D:/Repositories/mso-ca/dist/mso-ca.html?part=7&lang=both",
+    "partLinks": true,
+    "switched": "tc",
+    "errors": [],
+    "remoteRequests": []
+  }
+]

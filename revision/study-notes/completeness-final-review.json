@@ -1,0 +1,1098 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-10-19T04:48:35.258267+00:00",
+  "reviewer": {
+    "role": "Independent bounded semantic source reviewer",
+    "agent": "/root/source_notes_finish_review",
+    "model": "Inherited parent model; exact runtime model identifier not exposed. No cross-model verification claimed."
+  },
+  "verdict": "No unresolved material finding within the 33 bilingual point pairs and the renewal-nomination recall row reviewed here.",
+  "review_type": "Manual bilingual primary-passage comparison, six material corrections and terminology correction, followed by final wording read-back.",
+  "question_bank_used": false,
+  "manuscripts_edited_by_reviewer": false,
+  "tests_run_by_reviewer": false,
+  "scope": {
+    "reviewed_block_count": 18,
+    "reviewed_point_pairs": 33,
+    "original_root_blocks": 17,
+    "original_root_point_pairs": 31,
+    "additional_property_point_pairs": 2,
+    "reviewed_memory_rows": 1,
+    "primary_documents_compared": [
+      "01",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07"
+    ],
+    "primary_locator_summary": [
+      "01 paragraphs 4.1-4.3",
+      "03 paragraphs 1.9, 1.14, 1.19-1.27, 4.3.2-4.3.5, 4.3.13 and relevant footnotes; chapter 7 and glossary",
+      "04 sections 5(5)-(11), 24, 25, 27-28, 30(4), 59(1), 69, 73, 75; Schedule 1 Part 1 section 1; Schedule 2 sections 1 and 17(1)-(3)",
+      "05 paragraphs 1.1, 2.3-2.4, 2.8, 3.1, 4.2-4.3, 4.7-4.8, 4.11, 4.13-4.15, 5.1, 5.5, 6.2-6.4(c)",
+      "06 AML/CFT FAQs A4, A18-A19, A21, A24-A26",
+      "07 Appendix (2), sanctions screening"
+    ],
+    "conflict_decisions_applied": [
+      "B21 JFIU Intelligence",
+      "B22 Commissioner as statutory MSO authority",
+      "B23 renewal attendance from receipt",
+      "B26 incidental retail exchange versus statutory hotel exception",
+      "B27 valid pending renewal versus invalid application"
+    ]
+  },
+  "coverage_boundary": "Only the 18 explicitly listed essentials blocks and one explicitly listed memory row were reviewed in this record. Later source-03 blocks and sources 10-26 additions belong to separate reviewers. Whole-file and all-source hashes seal the shared final snapshot; they do not imply this reviewer independently reviewed every paragraph in those files or re-read all 26 originals. This is not certification of complete official-syllabus coverage or legal advice.",
+  "covered_blocks": [
+    {
+      "part": 1,
+      "topic": "money-laundering",
+      "title": {
+        "tc": "財產及境外犯罪得益的涵義",
+        "en": "Property and proceeds from overseas conduct"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "90d33d16519775a4d5c17debbcf197597e34658bf8d28773f5daffc8864586d7",
+      "deciding_refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "附表1第1部第1條",
+            "en": "Schedule 1 Part 1 s.1"
+          },
+          "anchor": "choses in action"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第1.9段",
+            "en": "¶1.9"
+          },
+          "anchor": "not to appear to be or so represent such proceeds"
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "topic": "legal-framework",
+      "title": {
+        "tc": "六項法例的英文全名及常用縮寫",
+        "en": "Full names behind the six legal abbreviations"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "73016964d3fca28d936802f662012c0bd7c072954690993ef488d5f2d6a2f179",
+      "deciding_refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第1.14、1.19–1.27段",
+            "en": "¶1.14, 1.19–1.27"
+          },
+          "anchor": "Drug Trafficking (Recovery of Proceeds)"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "topic": "statutory-map",
+      "title": {
+        "tc": "監管、發牌與情報機關的名稱",
+        "en": "Names of the regulator, licensing bureau and intelligence unit"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "b225eef53d22a0dae4c527cdd410e06b56f48c8d5d9d217ed857d8ab2078ea65",
+      "deciding_refs": [
+        {
+          "doc": "05",
+          "locator": {
+            "tc": "第1.1、5.1段",
+            "en": "¶1.1, 5.1"
+          },
+          "anchor": "Money Service Supervision Bureau"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第7.1、7.19段",
+            "en": "¶7.1, 7.19"
+          },
+          "anchor": "Joint Financial Intelligence Unit"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "topic": "licence-scope",
+      "title": {
+        "tc": "匯款的三種安排與牌照適用界線",
+        "en": "Three remittance arrangements and the licensing boundary"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "c018c42bd4a942b064920701a8d14ee724dd7d0ac0ee356622cb2cf32666b6ce",
+      "deciding_refs": [
+        {
+          "doc": "05",
+          "locator": {
+            "tc": "第2.3–2.4、3.1段",
+            "en": "¶2.3–2.4, 3.1"
+          },
+          "anchor": "arranging for the receipt of money in a place outside Hong Kong"
+        },
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "附表1第1部第1條",
+            "en": "Schedule 1 Part 1 s.1"
+          },
+          "anchor": "remittance service"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "topic": "grant-renewal",
+      "title": {
+        "tc": "最終擁有人與客戶實益擁有人不可互換",
+        "en": "Ultimate owner of the MSO versus beneficial owner of a customer"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "cdb58204fa33affe01445da9ff6575f0075214dfcc130c119483a215d813390b",
+      "deciding_refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "第24條；附表2第1條",
+            "en": "s.24; Schedule 2 s.1"
+          },
+          "anchor": "ultimate owner (最終擁有人)"
+        },
+        {
+          "doc": "05",
+          "locator": {
+            "tc": "第4.2.1–4.2.3段",
+            "en": "¶4.2.1–4.2.3"
+          },
+          "anchor": "share of the capital or profits"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "topic": "criminal-liability",
+      "title": {
+        "tc": "刑事責任的兩種程序及抗辯範圍",
+        "en": "Two conviction routes and the limited employee defence"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "6b642bb24a28c436b531f559afb841809e8fb012336e9f717517beb716a00727",
+      "deciding_refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "第5(5)–(11)條",
+            "en": "s.5(5)–(11)"
+          },
+          "anchor": "A fine imposed on a partnership"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "topic": "review",
+      "title": {
+        "tc": "指定決定何時生效：完整的時間分支",
+        "en": "When a specified decision takes effect"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "18b803267ba702d1144cc11257a91942723f3ad45cf55880dfa869278dd8c241",
+      "deciding_refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "第59(1)、69、73、75條",
+            "en": "ss.59(1), 69, 73, 75"
+          },
+          "anchor": "Time when specified decisions take effect"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "topic": "statutory-map",
+      "title": {
+        "tc": "持牌人登記冊：用途、內容與證據效力",
+        "en": "Licensee register: purpose, contents and evidential effect"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "ac099adc7c13fc8d2373526cc25b7ed1946e3b819bbe242a049f4bacb665afc3",
+      "deciding_refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "第27–28條",
+            "en": "ss.27–28"
+          },
+          "anchor": "Commissioner to maintain register of licensees"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "topic": "definitions",
+      "title": {
+        "tc": "金融機構以外的指定行業及數碼識別",
+        "en": "Designated non-financial professions and digital identification"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "6b0c78fd352ccda5a43eeede3d94561f40b22a4c08f0258fecd05fbd08303e53",
+      "deciding_refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "附表1第1部第1條；附表2第1條",
+            "en": "Schedule 1 Part 1 s.1; Schedule 2 s.1"
+          },
+          "anchor": "DNFBP (指定非金融業人士)"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "topic": "special-cases",
+      "title": {
+        "tc": "空殼銀行：四項條件與實體經營",
+        "en": "Shell banks: cumulative conditions and physical presence"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "9f8d938be38ac69ebf9f27d1365c0c5466d8fc4aef8a766698338dc4ad76c534",
+      "deciding_refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "附表2第17(1)–(3)條",
+            "en": "Schedule 2 s.17(1)–(3)"
+          },
+          "anchor": "Correspondent banking relationships with shell banks"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "topic": "fees",
+      "title": {
+        "tc": "申請費、適當人選測試費與退費",
+        "en": "Application fees, fitness-test fees and refunds"
+      },
+      "point_pairs": 1,
+      "canonical_block_sha256": "303090ae725f89e15fc624e75bcd081c2a0f836cf7b132a240866efce522b4e7",
+      "deciding_refs": [
+        {
+          "doc": "05",
+          "locator": {
+            "tc": "第2.8、4.13–4.14、6.3段",
+            "en": "¶2.8, 4.13–4.14, 6.3"
+          },
+          "anchor": "fee paid for the fit and proper person test is non"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "topic": "premises",
+      "title": {
+        "tc": "與其他業務同址及商業登記",
+        "en": "Sharing with another business and business registration"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "a216f3b34acd02dd018dc78fd5c44418d361650d1578218e49a8bc8e8e2fb8f3",
+      "deciding_refs": [
+        {
+          "doc": "05",
+          "locator": {
+            "tc": "第4.7–4.8、4.11、4.15(c)段",
+            "en": "¶4.7–4.8, 4.11, 4.15(c)"
+          },
+          "anchor": "must be clearly partitioned"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "topic": "fitness",
+      "title": {
+        "tc": "適當人選：法定必考慮的事項",
+        "en": "Fitness and propriety: the statutory mandatory factors"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "17b4f291f04fac617372c52d5d127138f71ab87b3de47d203f3c53c3d8948ae7",
+      "deciding_refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "第30(4)條",
+            "en": "s.30(4)"
+          },
+          "anchor": "acted fraudulently, corruptly or dishonestly"
+        },
+        {
+          "doc": "05",
+          "locator": {
+            "tc": "第4.3段",
+            "en": "¶4.3"
+          },
+          "anchor": "undischarged bankrupt"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "topic": "assessment",
+      "title": {
+        "tc": "續牌提名七日與應考三十日",
+        "en": "Renewal nomination in seven days versus attendance in thirty"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "fbff75df5f90e9127d5af9022cd386481b43ee42bcf0261bb876f698708e7588",
+      "deciding_refs": [
+        {
+          "doc": "05",
+          "locator": {
+            "tc": "第5.5、6.2、6.4(c)段",
+            "en": "¶5.5, 6.2, 6.4(c)"
+          },
+          "anchor": "within seven days upon receipt of the invitation letter"
+        },
+        {
+          "doc": "01",
+          "locator": {
+            "tc": "第4.1–4.3段",
+            "en": "¶4.1–4.3"
+          },
+          "anchor": "has a direct involvement"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "topic": "identity",
+      "title": {
+        "tc": "國籍核實、地址及更名的條件",
+        "en": "Nationality verification, addresses and name-change conditions"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "2e4616de51ae14f6527d3e1fb50bd0d28891f6002ce16b924a0c91bb2e79871d",
+      "deciding_refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第4.3.2–4.3.5、4.3.13段及註17–18",
+            "en": "¶4.3.2–4.3.5, 4.3.13; footnotes 17–18"
+          },
+          "anchor": "nationality"
+        },
+        {
+          "doc": "06",
+          "locator": {
+            "tc": "打擊洗錢問答A4",
+            "en": "AML/CFT FAQ A4"
+          },
+          "anchor": "only the current name"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "topic": "peps",
+      "title": {
+        "tc": "國際組織及批准人員的定義界線",
+        "en": "International organisations and who can approve PEP relationships"
+      },
+      "point_pairs": 2,
+      "canonical_block_sha256": "2fb662b75f8795ba2d1924a4d979a5557e8aea46b034828f052664ef81504e13",
+      "deciding_refs": [
+        {
+          "doc": "06",
+          "locator": {
+            "tc": "打擊洗錢問答A18–A19、A21",
+            "en": "AML/CFT FAQ A18–A19, A21"
+          },
+          "anchor": "formal political agreements"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "topic": "screening",
+      "title": {
+        "tc": "匯款篩查的六組最低相關方",
+        "en": "Six minimum groups of relevant payment parties for screening"
+      },
+      "point_pairs": 1,
+      "canonical_block_sha256": "2c8a511ab91f5f6af24e8f78c51c87c272f2104c250909de1c2237849d586004",
+      "deciding_refs": [
+        {
+          "doc": "06",
+          "locator": {
+            "tc": "打擊洗錢問答A24",
+            "en": "AML/CFT FAQ A24"
+          },
+          "anchor": "named parties"
+        },
+        {
+          "doc": "07",
+          "locator": {
+            "tc": "附錄(2)第4頁",
+            "en": "Appendix (2), p.4"
+          },
+          "anchor": "irrespective of the risk profile"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "topic": "wire-transfers",
+      "title": {
+        "tc": "匯款人資料的準確性與地址",
+        "en": "Accuracy of originator information and usable addresses"
+      },
+      "point_pairs": 1,
+      "canonical_block_sha256": "b2da0abafd774c8b37e2bc0c36126cda405cfb36efd9f2f9dde88da6bec1f6e0",
+      "deciding_refs": [
+        {
+          "doc": "06",
+          "locator": {
+            "tc": "打擊洗錢問答A25–A26",
+            "en": "AML/CFT FAQ A25–A26"
+          },
+          "anchor": "except where no alternative exists"
+        }
+      ]
+    }
+  ],
+  "reviewed_memory_row": {
+    "panel": "assessment timing comparison",
+    "row": [
+      {
+        "tc": "續牌提名",
+        "en": "Renewal nomination"
+      },
+      {
+        "tc": "收到提名邀請後7日內。",
+        "en": "Within seven days after receiving the nomination invitation."
+      },
+      {
+        "tc": "須安排評核的續牌情況；未有合資格提名令申請無效，舊牌照到期失效。七日提名與三十日應考不同。",
+        "en": "For renewals requiring assessment; no eligible nomination invalidates the application and the old licence lapses at expiry. Nomination differs from thirty-day attendance."
+      }
+    ],
+    "canonical_row_sha256": "752bc0037187d69f5a059df138e15c77599e96c1183f4ea437c3c6c06f9d3489",
+    "sources": [
+      "05 paragraphs 6.2 and 6.4(c)",
+      "01 paragraph 4.4(ii); conflict decision B23"
+    ]
+  },
+  "findings": [
+    {
+      "id": "R1",
+      "status": "resolved",
+      "issue": "Section 75 actor was incorrectly narrowed to relevant authority.",
+      "final_readback": "TC now uses 指明當局 and EN specified authority; section 75 branches and public-interest commencement retained.",
+      "source": "04 section 75(1)-(2)"
+    },
+    {
+      "id": "R2",
+      "status": "resolved",
+      "issue": "Assessment nominee list omitted sole proprietor.",
+      "final_readback": "Both languages now include sole proprietor, partner or natural-person director with the seniority/accountability criteria.",
+      "source": "01 paragraphs 4.1-4.2"
+    },
+    {
+      "id": "R3",
+      "status": "resolved",
+      "issue": "DNFBP definition was located only to Schedule 2.",
+      "final_readback": "Citation now includes Schedule 1 Part 1 section 1, retaining Schedule 2 section 1 for recognized digital identification.",
+      "source": "04 Schedule 1 Part 1 section 1 and Schedule 2 section 1"
+    },
+    {
+      "id": "R4",
+      "status": "resolved",
+      "issue": "Nationality declaration fallback lacked the cited source support.",
+      "final_readback": "Fallback removed; obtain nationality versus general verification-set distinction remains, without waiving collection.",
+      "source": "03 paragraphs 4.3.2-4.3.5 and 4.3.13"
+    },
+    {
+      "id": "R5",
+      "status": "resolved",
+      "issue": "Common shell-bank affiliate controller was not explicitly an individual.",
+      "final_readback": "Both languages now require an individual simultaneously controlling both corporations.",
+      "source": "04 Schedule 2 section 17(3)(b)"
+    },
+    {
+      "id": "R6",
+      "status": "resolved",
+      "issue": "No eligible nomination within seven days was framed as merely discretionary invalidation.",
+      "final_readback": "Both prose and recall row now state invalidity and licence lapse at expiry for the applicable renewal condition.",
+      "source": "05 paragraphs 6.2 and 6.4(c); conflict decision B27"
+    },
+    {
+      "id": "T1",
+      "status": "resolved",
+      "issue": "TC FAQ payment roles differed from the official cited edition.",
+      "final_readback": "Screening body uses 匯款人、收款人、匯款機構、中介機構、收款機構; originator-address heading/body use 匯款人.",
+      "source": "06 AML/CFT FAQs A24-A26"
+    },
+    {
+      "id": "T2",
+      "status": "resolved",
+      "issue": "Property term contained an extra character.",
+      "final_readback": "TC now uses 據法權產; property and overseas-proceeds claims match the stored statutory definition.",
+      "source": "04 Schedule 1 Part 1 section 1"
+    }
+  ],
+  "final_readback": {
+    "completed": true,
+    "property_term_verified": "據法權產",
+    "originator_heading_verified": "匯款人資料的準確性與地址",
+    "other_root_claims_checked": "Licence/remittance boundaries, ultimate-owner versus customer-BO distinction, criminal actor/mental elements and restricted employee defence, register evidence versus conclusive certificate, digital-ID authority, shell-bank cumulative tests, fees/refunds, premises/BR, statutory fitness factors, nomination timing, FAQ international-organisation/approval/screening/address qualifiers."
+  },
+  "file_sha256": {
+    "revision/study-notes/essentials.py": "ff7f22aa41ff48896845d7379e81228f6fc078b2de1eae4fe605770ccf8ce9cd",
+    "revision/study-notes/memory_panels.py": "5b47609d746e1ef57b3d28c90293d79793ff857a668040e23c495648c3e82367",
+    "revision/study-notes/part1.py": "9da3f6a1c6c38a0234ab255c0a3f356e26612bb4b2a005a71ca192edacb310e8",
+    "revision/study-notes/part2.py": "7e7c2a63d1c855408eb8a3d6c78a56bf2b0501ea9cfc8fdb91662604a460976b",
+    "revision/study-notes/part3.py": "7c2f932a4cde10fa87e4ab261db4c620c9a37358077c729b8982994935f93332",
+    "revision/study-notes/part4.py": "48e115717c291d49cde87e84759df973888ecc6775ceae1f8183191f5afe6d24",
+    "revision/study-notes/part5.py": "1da26f2a2a99e55d189ac8939f20d9010759ef3d02ac8d8ba6a52f7f9d323899",
+    "revision/study-notes/part6.py": "a9ab8f4180676b47c660f2b7ff4b25cbc985507566f0fdfa777c99b658b38c84",
+    "revision/study-notes/part7.py": "9cb8367957cb53d135eb01d8f8866e15670c184da686507a69e19787ee2de7cc",
+    "revision/study-notes/model.py": "32c6f6096e47fc7f65b1debfdbe8ccf5025d009e9fd59eee1f8379b6c8f479aa",
+    "revision/study-notes/build.py": "1f32d27c8adf50ca8cd5fafee33768d415862cd9fbd6e8d4d02bfddf1d4ff131",
+    "docs/catalog.json": "7de5e1fc4e031b3c1fbb7ad96f723895e9ddfc02950bdd95f0ba275a3bd720fe",
+    "revision/CONFLICT-CALLS.md": "f57cd8caf072182dcd99454eac37434125a3508f84608e25e26967010e1f7eed"
+  },
+  "original_edition_sha256": {
+    "01": {
+      "EN": {
+        "path": "docs/EN/01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf",
+        "sha256": "10558bec35a5923cb07c38ed0990ce34022c3eb25806948778fe6b4a7ab87abc"
+      },
+      "TC": {
+        "path": "docs/TC/01_高_能力評核須知（2022年12月）.pdf",
+        "sha256": "3eb4a64e563e94dbda91906e368137447e2a42bc50dc7051bb66f61b8d3ea58a"
+      }
+    },
+    "02": {
+      "EN": {
+        "path": "docs/EN/02_High_Competence Assessment - Sample Questions (12 May 2021).pdf",
+        "sha256": "7b53caa350ae2b9423457bfe29e3e03f9bbdc99560f062f853ff1c99b58efef6"
+      },
+      "TC": {
+        "path": "docs/TC/02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+        "sha256": "8c617f67d75a7a7abf24108d4543c6fb57fc80b4d9214683381131452bef0c3d"
+      }
+    },
+    "03": {
+      "EN": {
+        "path": "docs/EN/03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+        "sha256": "7a7b81ec6880a0e22c1d3e116f1016109dc6b54c33726e6a57fb1cff5d06eabc"
+      },
+      "TC": {
+        "path": "docs/TC/03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+        "sha256": "8639a9dc8fc4c7dad3ab467db43d69ffe73a4ce156030248dc68c2d8d3cf60bd"
+      }
+    },
+    "04": {
+      "EN": {
+        "path": "docs/EN/04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf",
+        "sha256": "2b5b00d7dc706169b1b2e292136649612f9fbb73b39332eb80dc1a4cf926474a"
+      },
+      "TC": {
+        "path": "docs/TC/04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+        "sha256": "6853748c7e7513f11cf5f5d54dbff7cffcb2309fca7669a43bde40c042f2fb65"
+      }
+    },
+    "05": {
+      "EN": {
+        "path": "docs/EN/05_High_Licensing Guide (May 2026).pdf",
+        "sha256": "4aeb27ada3f04608da427833ebd564000c3fe3b788fd1d183a63ca04168005e8"
+      },
+      "TC": {
+        "path": "docs/TC/05_高_牌照指引（2026年5月）.pdf",
+        "sha256": "4816c53f7e70e4828d5ff5e78baac6032399d06cdcf5a85c342bce577d643089"
+      }
+    },
+    "06": {
+      "EN": {
+        "path": "docs/EN/06_High_FAQ applicable to all MSOs (C&ED portal).md",
+        "sha256": "6dfc89dcf0a37665144cc501ffd64ba8df004121e35a3f5c14a4aa19e3c78264"
+      },
+      "TC": {
+        "path": "docs/TC/06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+        "sha256": "26974ae4446f65b0489c6f0cbb42d303cb2c2621e1752a5be675dba9185244e7"
+      }
+    },
+    "07": {
+      "EN": {
+        "path": "docs/EN/07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf",
+        "sha256": "9921ff297a49cef0543c3df126d07c3bb2befc8f1e7a6e33d62674e81bb0c979"
+      },
+      "TC": {
+        "path": "docs/TC/07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf",
+        "sha256": "26fdbf82ecab50930f1ca8cd3c2bf2d7ee2df9426d7a7221e5933f9e453b5af3"
+      }
+    },
+    "08": {
+      "EN": {
+        "path": "docs/EN/08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf",
+        "sha256": "ba02a8d811184ff6a960e4c9b2ab1e2c63dbaf3e50f1ce9b12e4fd438320056c"
+      },
+      "TC": {
+        "path": "docs/TC/08_高_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf",
+        "sha256": "42e40eb5606949acea68ce90421b9e38dee01f483fe1e7ab3bba52accca7d3a1"
+      }
+    },
+    "09": {
+      "EN": {
+        "path": "docs/EN/09_High_Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021).pdf",
+        "sha256": "5365977ee13e28ef7379e5c326410c9590a087c79c06beeaeb0df3d11d4117b3"
+      },
+      "TC": {
+        "path": "docs/TC/09_高_通函_識別和緩解大殺傷力武器擴散融資風險（2021年12月22日）.pdf",
+        "sha256": "57a2440885e1d4e1ed2fe8232d252e4614b11e0035ffdc5746c6c3ef65ea046f"
+      }
+    },
+    "10": {
+      "EN": {
+        "path": "docs/EN/10_Medium-Essential_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf",
+        "sha256": "3d829e7a475c0d6b27cecb9606963d6aae7d3cdf0857902a219502ef42116f38"
+      },
+      "TC": {
+        "path": "docs/TC/10_中重點_有關適當人選準則的指引（2018年4月）.pdf",
+        "sha256": "9c72af5408a3067e402b8886e313a1f801b204898b7bee82341e717f9da6cf85"
+      }
+    },
+    "11": {
+      "EN": {
+        "path": "docs/EN/11_Medium-Essential_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf",
+        "sha256": "cb03247dcc6e9149f5371ad1f3a21fa763e827e1fa8cc6c4697c7a6754c3da38"
+      },
+      "TC": {
+        "path": "docs/TC/11_中重點_有關適當人選準則的補充指引（2020年1月）.pdf",
+        "sha256": "6f2286c0a774fcd78a8fd9f8721b862cde9c09bb499eca6d65a50f3bfd2963dd"
+      }
+    },
+    "12": {
+      "EN": {
+        "path": "docs/EN/12_Medium-Essential_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf",
+        "sha256": "6aeee39af0848ac03d989ed2500f6fd8f4947b342fa26b23371d0f51e816a1ca"
+      },
+      "TC": {
+        "path": "docs/TC/12_中重點_施加罰款紀律行動指引（2018年4月）.pdf",
+        "sha256": "ef8a7be34c1dd1f3b3a1a61a9edf1c14a100a89bdb13d51607c750b02295bdf3"
+      }
+    },
+    "13": {
+      "EN": {
+        "path": "docs/EN/13_Medium-Essential_Disciplinary Fining Guideline (May 2018).pdf",
+        "sha256": "c098efdd38e152fd2357942e62958be9c32c3061874a1b0c076daedd5f0bba96"
+      },
+      "TC": {
+        "path": "docs/TC/13_中重點_紀律處分罰款指引（2018年5月）.pdf",
+        "sha256": "008b7b72867307ff05ec62eb24377d894c7af956d716c9a4665e4b37287cfc55"
+      }
+    },
+    "14": {
+      "EN": {
+        "path": "docs/EN/14_Medium-Essential_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf",
+        "sha256": "cb231fca14b55843357f7e6e4352ca30536abd58f56a399a33a6b9b97f32ab00"
+      },
+      "TC": {
+        "path": "docs/TC/14_中重點_通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）.pdf",
+        "sha256": "8a71d806b4b81a13148f226b93e3425728e0e8920fe741be51ab807baaf36d5b"
+      }
+    },
+    "15": {
+      "EN": {
+        "path": "docs/EN/15_Medium-Essential_Circular - E-submission of the Periodic Return (30 May 2025).pdf",
+        "sha256": "bb0408f2cea27a76c154f750479ee777ccc9859a20800ad44e690117660ce381"
+      },
+      "TC": {
+        "path": "docs/TC/15_中重點_通函_經金錢服務經營者牌照系統提交電子版交易報告定期申報表（2025年5月30日）.pdf",
+        "sha256": "6f43d3db88a6dc86d65ffc71ccc39fa2908a70feb13e11e03e2b3379e717703a"
+      }
+    },
+    "16": {
+      "EN": {
+        "path": "docs/EN/16_Medium-Essential_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf",
+        "sha256": "77516f642ee66d9b4027f2dbaa95e3771556d200df97fd0b924526e7fcc38cd3"
+      },
+      "TC": {
+        "path": "docs/TC/16_中重點_通函_貨幣兌換商條例第34章之修訂（2025年11月17日）.pdf",
+        "sha256": "87afeea96224222473a07b2426689c308f196294fb074948935ed8ef7af1f2d6"
+      }
+    },
+    "17": {
+      "EN": {
+        "path": "docs/EN/17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf",
+        "sha256": "2df063baeef154c0c8e5a0a29bb38daefb9613537aa18d75d64f4d9bedc45335"
+      },
+      "TC": {
+        "path": "docs/TC/17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf",
+        "sha256": "2df063baeef154c0c8e5a0a29bb38daefb9613537aa18d75d64f4d9bedc45335"
+      }
+    },
+    "18": {
+      "EN": {
+        "path": "docs/EN/18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
+        "sha256": "86181d4d0a0990aa7e8a17a489f23ed59e2f9722ba5cb821a381976e45a52c84"
+      },
+      "TC": {
+        "path": "docs/TC/18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf",
+        "sha256": "7133b84028c505ae02340f1120a99600dc577a9c289c6546ecd8bb0edd5c4e29"
+      }
+    },
+    "19": {
+      "EN": {
+        "path": "docs/EN/19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf",
+        "sha256": "fbc823bdf739af3f02e9336c93c48169c0acd9eb7815274394b7b44bb0d2d6d8"
+      },
+      "TC": {
+        "path": "docs/TC/19_中重點_通函_財務行動特別組織的聲明（2026年7月3日）.pdf",
+        "sha256": "e326d07e4d23a9a47e41df753ac5c58a19b158309c5d25113018e1a6d6ecf948"
+      }
+    },
+    "20": {
+      "EN": {
+        "path": "docs/EN/20_Medium-Selected_Guidelines for Submission of Business Plan (Ver 12-2019).pdf",
+        "sha256": "519dadf3e1ec660e3aa50c4669d91ed997712f69551f8f12b02f84d2bd228e9f"
+      },
+      "TC": {
+        "path": "docs/TC/20_中選讀_遞交業務計劃的指引（12-2019版）.pdf",
+        "sha256": "29ceb2225c2a806ae2140c17420077671684dabed6ba2ba255d3bd95d32a52a4"
+      }
+    },
+    "21": {
+      "EN": {
+        "path": "docs/EN/21_Medium-Selected_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf",
+        "sha256": "ba9101df763fe866fd27bf377819d45c02c4431576a89fe4bb8aa24e0addcf27"
+      },
+      "TC": {
+        "path": "docs/TC/21_中選讀_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf",
+        "sha256": "4ab95ce206c0e71740f025c90e1195c965e5e54a7b981c9e02d8c945936fed47"
+      }
+    },
+    "22": {
+      "EN": {
+        "path": "docs/EN/22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf",
+        "sha256": "f07cc3caa50fe51e5524c7d10ed2670cfcd7f0ac70c9a016a1508049f15b4ff0"
+      },
+      "TC": {
+        "path": "docs/TC/22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf",
+        "sha256": "3fdb442bf09cd11fd89235e6c35271c17072f22fb5aba66a3a187cc203728431"
+      }
+    },
+    "23": {
+      "EN": {
+        "path": "docs/EN/23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf",
+        "sha256": "711f86925ad0c6dba6ae5771089d55236aaba614fbabab3065e5d8e341f25d17"
+      },
+      "TC": {
+        "path": "docs/TC/23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+        "sha256": "711f86925ad0c6dba6ae5771089d55236aaba614fbabab3065e5d8e341f25d17"
+      }
+    },
+    "24": {
+      "EN": {
+        "path": "docs/EN/24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf",
+        "sha256": "670b80270b33354b17263d44393cd65386a96bdb1a171365f217048e7cca6afb"
+      },
+      "TC": {
+        "path": "docs/TC/24_中選讀_貿易洗錢風險指標（2021年3月_英文原文）.pdf",
+        "sha256": "670b80270b33354b17263d44393cd65386a96bdb1a171365f217048e7cca6afb"
+      }
+    },
+    "25": {
+      "EN": {
+        "path": "docs/EN/25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf",
+        "sha256": "78f125e6f0997b69938403cf233865de6ae2bc27c715309131b645f9c16d721a"
+      },
+      "TC": {
+        "path": "docs/TC/25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+        "sha256": "04a21aa224d068fbd4432ca5ef14d393cb9b03a84b99798f2b44629b88071f4f"
+      }
+    },
+    "26": {
+      "EN": {
+        "path": "docs/EN/26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf",
+        "sha256": "8ac13d01d4fb73d6b84f410567eb99e073c58e5a0a694e1f2a6ed989d476bf69"
+      },
+      "TC": {
+        "path": "docs/TC/26_中選讀_通函_聯合國制裁_原則及預警機制（2018年2月7日）.pdf",
+        "sha256": "aff649abc5ae6a7f91f036764537df538211bf608448258b2faf71522482192c"
+      }
+    }
+  },
+  "extracted_text_sha256": {
+    "01": {
+      "EN": {
+        "path": "docs/text/EN/01.txt",
+        "sha256": "908295f836745a31712fbc0ded041d47434212f2ea63400862414bbd5923b0d2"
+      },
+      "TC": {
+        "path": "docs/text/TC/01.txt",
+        "sha256": "d5fa00d8625ab44b0201637cf5fe79d7f2c4cd7e269819fdf29b5b36521be4de"
+      }
+    },
+    "02": {
+      "EN": {
+        "path": "docs/text/EN/02.txt",
+        "sha256": "41ff76f531905650e4fb070d14575df4e51ae172fcacc3be4838f874bcdb977f"
+      },
+      "TC": {
+        "path": "docs/text/TC/02.txt",
+        "sha256": "c45c615e0108d20e2696de9601b3e836a4802c2357f0bd8607b82907df32c337"
+      }
+    },
+    "03": {
+      "EN": {
+        "path": "docs/text/EN/03.txt",
+        "sha256": "6c602e7e4d82a4cf5bbd2a57b9e3fb5b8c20f9e4785c04a130baff34ab53d9ab"
+      },
+      "TC": {
+        "path": "docs/text/TC/03.txt",
+        "sha256": "a22ad6aac57c9a85513ba3b1d3f44d8edd206b5278728a79454a353738d6f1ad"
+      }
+    },
+    "04": {
+      "EN": {
+        "path": "docs/text/EN/04.txt",
+        "sha256": "916a55f448f988bf51d814da36249414c659eb07f1b148da7bfbfc4269811aa1"
+      },
+      "TC": {
+        "path": "docs/text/TC/04.txt",
+        "sha256": "4cc88b13d23b8e89fa3a6ce52b4041027d555289c0569421958ef0ae676af628"
+      }
+    },
+    "05": {
+      "EN": {
+        "path": "docs/text/EN/05.txt",
+        "sha256": "2491f72007b9c5efcd3d6c00b4f8ec6c669514c395e468e7b654ad745c0623c8"
+      },
+      "TC": {
+        "path": "docs/text/TC/05.txt",
+        "sha256": "7b2521e94367502db8a2a4223be0ca07e849630f662abc40b20a40c6b1ae900e"
+      }
+    },
+    "06": {
+      "EN": {
+        "path": "docs/text/EN/06.txt",
+        "sha256": "09e767bd18cce69b416eea0a20aa577d647efb57be831f8a2feed997a1406676"
+      },
+      "TC": {
+        "path": "docs/text/TC/06.txt",
+        "sha256": "1a306caf7ce345067ede0348c58b0fc9153971999c6d16b7a11e14124cb8d3a7"
+      }
+    },
+    "07": {
+      "EN": {
+        "path": "docs/text/EN/07.txt",
+        "sha256": "85677c9e208968782ecb9e62c45893796f7dd81bc74efee052579f79aa39ce93"
+      },
+      "TC": {
+        "path": "docs/text/TC/07.txt",
+        "sha256": "6b2ea8f37af02b12c7bb205c2861dc573910fbc04745369d775e11ddae8f7654"
+      }
+    },
+    "08": {
+      "EN": {
+        "path": "docs/text/EN/08.txt",
+        "sha256": "c011aae0d478aee648c832582e2fb5e75e91e1e6833d5109afda5ab66e00c244"
+      },
+      "TC": {
+        "path": "docs/text/TC/08.txt",
+        "sha256": "2fee66b98482d6198eb903304b85a492e252e6d153c97027471163101a51faa3"
+      }
+    },
+    "09": {
+      "EN": {
+        "path": "docs/text/EN/09.txt",
+        "sha256": "3784682199c3a509f305e0401442c52b9461e4023bdd42f6f4a9a7202d6139b9"
+      },
+      "TC": {
+        "path": "docs/text/TC/09.txt",
+        "sha256": "498bd4a41e7be4e60fb331c14061b2b535a006000be4e23aa53b630f3f2dd2b8"
+      }
+    },
+    "10": {
+      "EN": {
+        "path": "docs/text/EN/10.txt",
+        "sha256": "3a378faecce11ce26890b7d7fc54bf52a56665df1adfdfa3ef847bee74145fad"
+      },
+      "TC": {
+        "path": "docs/text/TC/10.txt",
+        "sha256": "3986315b49817d2500302fb14d6b766a19e9216946a52e9bdd4a842d0477e249"
+      }
+    },
+    "11": {
+      "EN": {
+        "path": "docs/text/EN/11.txt",
+        "sha256": "d742283d13c4685a7650c62d54cb7979f364b87745eb5dca503a6d04a5b841a1"
+      },
+      "TC": {
+        "path": "docs/text/TC/11.txt",
+        "sha256": "603d9a0272d9fc1dd509ce0c1db4f9b2be4d1ae4cceb541bae50b1158b9baa78"
+      }
+    },
+    "12": {
+      "EN": {
+        "path": "docs/text/EN/12.txt",
+        "sha256": "7de82dc23297bc83fdf167b2f23724ab369e3f1d5f279d76cb0b139fff3e3b81"
+      },
+      "TC": {
+        "path": "docs/text/TC/12.txt",
+        "sha256": "20b6ca2e167687184b0853155edaf4207a5461d4af72c38cbb6ea651f3ffb21b"
+      }
+    },
+    "13": {
+      "EN": {
+        "path": "docs/text/EN/13.txt",
+        "sha256": "74aa274da9fc9fdacc764a885797211e501a6dce2dd8b9cffa8272a83fa18ba4"
+      },
+      "TC": {
+        "path": "docs/text/TC/13.txt",
+        "sha256": "02005281155be6a7c528acb7a94cbf9b5be4c1f9959437454b6031d8c0320873"
+      }
+    },
+    "14": {
+      "EN": {
+        "path": "docs/text/EN/14.txt",
+        "sha256": "957a691aae6c32234ae7e3c4157b2b5676e7648d272bbdfb1a3062b05fbdb40b"
+      },
+      "TC": {
+        "path": "docs/text/TC/14.txt",
+        "sha256": "88ae03601bfd2163aaa7171fcc6dc88159e1c24c87825c206c2cc38ecd8d774d"
+      }
+    },
+    "15": {
+      "EN": {
+        "path": "docs/text/EN/15.txt",
+        "sha256": "973824288c1ac155677468cb4a2da21045b81b711cb8e8f639d3b83b7af5c4ea"
+      },
+      "TC": {
+        "path": "docs/text/TC/15.txt",
+        "sha256": "6503a6c2dcbde669cb809bfad922df53e6c4010888b95556583df975a91f4402"
+      }
+    },
+    "16": {
+      "EN": {
+        "path": "docs/text/EN/16.txt",
+        "sha256": "bffd462334ac20e9ef2d96b0db3508ce2acf0935021304d2e5bcfc9dc54ff8ae"
+      },
+      "TC": {
+        "path": "docs/text/TC/16.txt",
+        "sha256": "f83fef9e5d4a80c35fbb3c2a3a32e7477664aef772f72c1dd8cee8126fbc6854"
+      }
+    },
+    "17": {
+      "EN": {
+        "path": "docs/text/EN/17.txt",
+        "sha256": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02"
+      },
+      "TC": {
+        "path": "docs/text/TC/17.txt",
+        "sha256": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02"
+      }
+    },
+    "18": {
+      "EN": {
+        "path": "docs/text/EN/18.txt",
+        "sha256": "184f4e17f55491dafe6c4fefcaed000411d69cc2b47aadbfd344620b4cf5727f"
+      },
+      "TC": {
+        "path": "docs/text/TC/18.txt",
+        "sha256": "f57b9b72fad554b31f4fba3466a5ddece46f692cf3827c1f4055133a0d89bdfb"
+      }
+    },
+    "19": {
+      "EN": {
+        "path": "docs/text/EN/19.txt",
+        "sha256": "d97ff8fe89bc21e7300c89f4de605c0c2256035e626021ef94d29ed70b30f3a2"
+      },
+      "TC": {
+        "path": "docs/text/TC/19.txt",
+        "sha256": "6a4699cacc07bdadcf2908d22f845c3958f6067b1b2b631592483d34e306d179"
+      }
+    },
+    "20": {
+      "EN": {
+        "path": "docs/text/EN/20.txt",
+        "sha256": "5b8115db9c36f805e661a570119aa490d3915b5cfa2bb0a4259ccfbfe322797a"
+      },
+      "TC": {
+        "path": "docs/text/TC/20.txt",
+        "sha256": "be489ef64700c69f69657c5e12a0449f30274b83932850fd126411177878521c"
+      }
+    },
+    "21": {
+      "EN": {
+        "path": "docs/text/EN/21.txt",
+        "sha256": "eff8ef73f4c2349e17e6d5de1f50c7ab0b0474ed71706d295cb668d4a3d31d7c"
+      },
+      "TC": {
+        "path": "docs/text/TC/21.txt",
+        "sha256": "26451a865f94cd84739e638f426b5f1054abc2ef3bbb01128b3218de9d92f4ee"
+      }
+    },
+    "22": {
+      "EN": {
+        "path": "docs/text/EN/22.txt",
+        "sha256": "9a6a1a3e174d2131f2165c062e522a07a2a67a51cd160603edcdbf7746d23f8c"
+      },
+      "TC": {
+        "path": "docs/text/TC/22.txt",
+        "sha256": "0c2a19f8ff7bdf2b5156b0db82123fc4dfe239b62dcdb870587b88c09ab08f3e"
+      }
+    },
+    "23": {
+      "EN": {
+        "path": "docs/text/EN/23.txt",
+        "sha256": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960"
+      },
+      "TC": {
+        "path": "docs/text/TC/23.txt",
+        "sha256": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960"
+      }
+    },
+    "24": {
+      "EN": {
+        "path": "docs/text/EN/24.txt",
+        "sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b"
+      },
+      "TC": {
+        "path": "docs/text/TC/24.txt",
+        "sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b"
+      }
+    },
+    "25": {
+      "EN": {
+        "path": "docs/text/EN/25.txt",
+        "sha256": "6b410a4644b662a0c595cc843b04730f0af50a7af4f0e129a2d5dafc6c37e254"
+      },
+      "TC": {
+        "path": "docs/text/TC/25.txt",
+        "sha256": "39d140261bfe1e7886bf3bbe068f2cf5de8a626bca154a2764190f73a7adb252"
+      }
+    },
+    "26": {
+      "EN": {
+        "path": "docs/text/EN/26.txt",
+        "sha256": "2a44e23b7873502ddce5ee9afc5b919bee28287d08011080227b4c21e6e2ae5c"
+      },
+      "TC": {
+        "path": "docs/text/TC/26.txt",
+        "sha256": "6829cc9518b597794287b65db41b6a8d1228a0437a8a10237b2440074ede51ee"
+      }
+    }
+  },
+  "snapshot_note": "Final-bind signal received from parent after root fixes and terminology read-back. Any later change to a reviewed block requires another read-back; snapshot-only resealing must not be described as new semantic review."
+}

@@ -1,5 +1,15 @@
 # Archived revision pack / 已歸檔的舊溫習資料
 
+The new [seven-part study material](study-notes/index.html) uses the B annotated
+reference design, with source-authored bilingual concepts, definitions,
+requirements, conditions and exceptions, plus actual repository filenames.
+The bank is used only to check omissions. See its [scope and maintenance notes](study-notes/README.md).
+The earlier [Part 6 sample URL](part6-sample/index.html) is retained as a historical sample.
+
+新版[七部分溫習資料](study-notes/index.html)採用B批注式設計，從原文提煉概念、定義、
+要求、條件及例外，保留雙語及實際檔名引用，題庫只作查漏；見[範圍及維護說明](study-notes/README.md)。
+原第6部分樣章另作歷史樣本保留。以下是舊版歸檔說明。
+
 The exam app now has two modes and uses documents 01–26. The separate older
 revision pack is no longer built or attached to new releases.
 Its generator, page sources and review tools are preserved byte-for-byte in

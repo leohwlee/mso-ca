@@ -1,0 +1,134 @@
+{
+  "verified_at_utc": "2026-10-19T04:56:11.642077+00:00",
+  "parts": 7,
+  "topics": 74,
+  "bilingual_points": 450,
+  "essentials": {
+    "sha256": "ff7f22aa41ff48896845d7379e81228f6fc078b2de1eae4fe605770ccf8ce9cd",
+    "blocks": 47,
+    "points": 87
+  },
+  "recall": {
+    "sha256": "5b47609d746e1ef57b3d28c90293d79793ff857a668040e23c495648c3e82367",
+    "tables": 25,
+    "diagrams": 2
+  },
+  "source_documents": 26,
+  "bank_gap_identifiers": 525,
+  "automated_checks": [
+    {
+      "command": "revision/study-notes/build.py --check",
+      "exit_code": 0
+    },
+    {
+      "command": "revision/study-notes/gap_check.py --check",
+      "exit_code": 0
+    },
+    {
+      "command": "revision/part6-sample/build.py --check",
+      "exit_code": 0
+    },
+    {
+      "command": "docs/build_catalog.py --check",
+      "exit_code": 0
+    },
+    {
+      "command": "bank/audit/active_scope.py --check",
+      "exit_code": 0
+    },
+    {
+      "command": "bank/audit/render_active_scope.py --check",
+      "exit_code": 0
+    },
+    {
+      "command": "bank/audit/report.py --check",
+      "exit_code": 0
+    },
+    {
+      "command": "bank/audit/terms_report.py --check",
+      "exit_code": 0
+    },
+    {
+      "command": "bank/audit/p1_report.py --check",
+      "exit_code": 0
+    },
+    {
+      "command": "bank/audit/remaining_report.py --check",
+      "exit_code": 0
+    }
+  ],
+  "additional_checks": [
+    {
+      "command": "go test ./...",
+      "result": "passed"
+    },
+    {
+      "command": "go vet ./...",
+      "result": "passed"
+    },
+    {
+      "command": "go run . -export-html dist/mso-ca.html",
+      "result": "passed"
+    },
+    {
+      "command": "node --test tests/*.test.cjs",
+      "result": "8 passed"
+    },
+    {
+      "command": "python unittest discovery *_test.py",
+      "result": "16 passed; archive temp directory verified under workspace dist/test-tmp"
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed; line-ending warnings only"
+    },
+    {
+      "command": "final review/source/history/maintenance bindings",
+      "result": "passed"
+    }
+  ],
+  "rendered_checks": {
+    "observations": 63,
+    "widths": [
+      390,
+      768,
+      1440
+    ],
+    "languages": [
+      "tc",
+      "en",
+      "both"
+    ],
+    "parts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "page_overflow": 0,
+    "table_overflow": 0,
+    "question_stem_headings": 0,
+    "empty_visible_citation_labels": 0,
+    "record": ".impeccable/review/completeness-layout-observations.json",
+    "additional": "New named red-flag definitions visually read back; checked-baggage corrected clause present in Both on mobile; practice link preserves Part1/Both; console warning/error capture empty."
+  },
+  "independent_reviews": {
+    "completeness-final-review.json": "02641df8a3646936dd9fc026b9251e5714bf55354950599fe386d3299720dc11",
+    "completeness-guideline-final-review.json": "e72f2db68ecd3e10bfa558cc0213022f505269c67cd5df3e993216b2a14ab1cf",
+    "completeness-circulars-final-review.json": "99514887bc2a93b4f34fa836a6d5c817ba6e0089c39b6a4b311bb73d64732248"
+  },
+  "source_audit_sha256": "bf76a3d84262077208c42f848de616760c26f315da6444044d8efd7b0e223904",
+  "historical_notes_archive_sha256": "e2cdee694446bbd1a476535d957dba6d0a9698feef6eaad2ee214b8c33e3417d",
+  "source_review_preserved_sha256": "284597b54755dc11b1c0fc0ffaf5a9632a15ca7dcb67ea0c72e1e645eac48169",
+  "memory_review_preserved_sha256": "630b045158ca1d75209d813422d44044518bd885edb30317d06e7d75ab79221b",
+  "bank_and_source_originals_changed": false,
+  "limitations": [
+    "Originals01–26 stored editions; dated lists/report findings retained",
+    "Independent source review scopes divided among records, not every reviewer rereading every source paragraph or certification of every official exam question",
+    "Document25 executive summary/methodology/MSO focus; doc02format only; doc24TCstudytranslation",
+    "Localhost rendered checks; offline embedded assets and relative links checked statically, not a live file-protocol test"
+  ]
+}

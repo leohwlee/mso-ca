@@ -1,0 +1,218 @@
+[
+  {
+    "part": 1,
+    "section": "money-laundering",
+    "id": "three-stages",
+    "action": "replace",
+    "reason": "改用無箭頭的並列概念圖；保留名稱、作用及可重疊說明，避免誤導必須逐步發生。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 1,
+    "section": "terrorist-financing",
+    "id": "ml-tf-pf",
+    "action": "retain",
+    "reason": "以資金來源／目的與核心區別對照ML、TF、PF；尤其防止把TF等同非法來源。保留短表，不暗示三者互斥。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 1,
+    "section": "international",
+    "id": "risk-lists",
+    "action": "retain",
+    "reason": "按發布者與法律／風險作用區分FATF兩類名單及UN制裁；不是國家永久分類，也不以灰名單自動觸發同一措施。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 1,
+    "section": "cross-boundary-cash",
+    "id": "cash-routes",
+    "action": "remove",
+    "reason": "路徑表省略影響適用的條件，與完整正文重複；保留正文及跨制度金額表。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 2,
+    "section": "changes",
+    "id": "licence-clocks",
+    "action": "replace",
+    "reason": "分開事前批准和以事件起算的通知期限；明示責任人，不畫共用時間軸。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 2,
+    "section": "discipline",
+    "id": "penalty-ceilings",
+    "action": "retain",
+    "reason": "同欄比較第21與43條的適用原因及罰額上限，避免把100萬元、1000萬元及三倍互換；不是固定罰款價目表。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 2,
+    "section": "review",
+    "id": "review-clocks",
+    "action": "remove",
+    "reason": "把期限、決定生效和暫緩混成兩行；正文分開說明更清楚。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 3,
+    "section": "core-duties",
+    "id": "money-boundaries",
+    "action": "replace",
+    "reason": "把對象／交易、比較符號及金額、法律效果、合併及例外分欄；直接比較恰好等於門檻的不同結果。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 3,
+    "section": "definitions",
+    "id": "ownership-boundary",
+    "action": "retain",
+    "reason": "把超過25%與恰好25%並列，同時緊貼其他控制／代表行事分支；不能用持股比例單獨排除BO。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 3,
+    "section": "fees",
+    "id": "fee-components",
+    "action": "retain",
+    "reason": "以收費事項及計費單位比較，每人／每處所／每次清楚；費率保留2026年5月版本。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 4,
+    "section": "premises",
+    "id": "three-places",
+    "action": "retain",
+    "reason": "以功能及何時需要比較特定營業處所、LMO、LPS；避免誤認三者必須同時存在。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 4,
+    "section": "assessment",
+    "id": "assessment-pass",
+    "action": "retain",
+    "reason": "只用AND示意總分及逐Part兩條件；真實同時成立關係，不加入猜題流程。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 4,
+    "section": "assessment",
+    "id": "assessment-clocks",
+    "action": "replace",
+    "reason": "每行獨立列起算事件及期限；把收到、發出、面見和30日後分清。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 4,
+    "section": "exchange-note",
+    "id": "exchange-rights",
+    "action": "retain",
+    "reason": "以交易前／後、啟動條件及法律效果對照拒絕交易與撤銷；緊貼違規前提，避免誤認無條件冷靜期。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 5,
+    "section": "risk-based",
+    "id": "risk-levels",
+    "action": "retain",
+    "reason": "以評估對象與用途比較機構、客戶及交易層面；不是高／中／低的互斥分類流程。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 5,
+    "section": "institutional-assessment",
+    "id": "review-frequency",
+    "action": "retain",
+    "reason": "並列機構兩年／事件觸發、較高風險客戶至少每年及風險相稱審核；明示沒有共同起點。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 5,
+    "section": "roles",
+    "id": "governance-roles",
+    "action": "remove",
+    "reason": "三個職責清單與緊接正文重複，並非同一維度比較。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 6,
+    "section": "cdd",
+    "id": "four-cdd-measures",
+    "action": "remove",
+    "reason": "四項措施本身已是清楚清單，沒有必要再逐項重寫一張表。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 6,
+    "section": "identity",
+    "id": "party-roles",
+    "action": "replace",
+    "reason": "修正BO一概為individual的錯誤；以角色／識別對象／責任比較。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 6,
+    "section": "enhanced",
+    "id": "sow-sof",
+    "action": "retain",
+    "reason": "同維度比較整體財富的形成與特定資金來源；例子幫助辨別索取資料的目的，不列為唯一證據。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 6,
+    "section": "simplified",
+    "id": "due-diligence-levels",
+    "action": "remove",
+    "reason": "把風險程度、法定豁免和AND／OR條件混在同表，容易誤認互斥分類。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 6,
+    "section": "peps",
+    "id": "pep-categories",
+    "action": "retain",
+    "reason": "按重要公職所屬地方／組織、風險條件與措施對照三類；前任PEP退出條件保留正文。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 6,
+    "section": "wire-transfers",
+    "id": "transfer-information",
+    "action": "replace",
+    "reason": "原表混合交易種類、例外和缺漏處理；改為相同維度比較門檻上下，OR／AND直接寫在資料旁。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 6,
+    "section": "intermediaries",
+    "id": "reliance-outsourcing",
+    "action": "retain",
+    "reason": "比較中介依賴與外包的關係及責任；持續監察不可按第18條轉移，兩者都不免除MSO責任。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 7,
+    "section": "retention",
+    "id": "retention-clocks",
+    "action": "replace",
+    "reason": "分開紀錄、起算事件與最短期間；培訓指引未明訂起算公式，不虛構法律時間點。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 7,
+    "section": "after-report",
+    "id": "report-consent-defence",
+    "action": "remove",
+    "reason": "STR、同意、抗辯並非平行選項，正文對時間和條件的說明較完整。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  },
+  {
+    "part": 7,
+    "section": "periodic-return",
+    "id": "return-period-deadline",
+    "action": "remove",
+    "reason": "資料期間及截止日只需兩句相連說明，表格沒有增加理解。",
+    "mobile_bilingual": "保留／重做項已在390px及1440px、TC/EN/雙語檢查；手機表格逐列顯示欄名。刪除項不再渲染。"
+  }
+]

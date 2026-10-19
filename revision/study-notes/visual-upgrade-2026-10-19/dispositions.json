@@ -1,0 +1,1498 @@
+[
+  {
+    "id": "three-stages",
+    "part": 1,
+    "section": "money-laundering",
+    "kind": "stages",
+    "status": "adapted-or-retained",
+    "decision": "保留三階段概念；改為同一犯罪得益的三個獨立機制例子，沒有強制順序。",
+    "location": "part-1.html#memory-three-stages",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第1.9–1.10段",
+          "en": "¶1.9–1.10"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ml-tf-pf",
+    "part": 1,
+    "section": "terrorist-financing",
+    "kind": "table",
+    "status": "adapted-or-retained",
+    "decision": "重整為資金來源、核心問題、法律條件的共同維度。",
+    "location": "part-1.html#memory-ml-tf-pf",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第1.9–1.10段",
+          "en": "¶1.9–1.10"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第1.11–1.12、1.23–1.25段",
+          "en": "¶1.11–1.12, 1.23–1.25"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第1.14–1.28、6.1–6.4段",
+          "en": "¶1.14–1.28, 6.1–6.4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "risk-lists",
+    "part": 1,
+    "section": "international",
+    "kind": "table",
+    "status": "adapted-or-retained",
+    "decision": "保留對照表；具體名單仍保留日期，沒有畫成永久分類。",
+    "location": "part-1.html#memory-risk-lists",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第1.13段",
+          "en": "¶1.13"
+        }
+      },
+      {
+        "doc": "06",
+        "filename": {
+          "TC": "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+          "EN": "06_High_FAQ applicable to all MSOs (C&ED portal).md"
+        },
+        "locator": {
+          "tc": "打擊洗錢問答A17",
+          "en": "AML/CFT FAQ A17"
+        }
+      },
+      {
+        "doc": "19",
+        "filename": {
+          "TC": "19_中重點_通函_財務行動特別組織的聲明（2026年7月3日）.pdf",
+          "EN": "19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf"
+        },
+        "locator": {
+          "tc": "正文第1–3頁",
+          "en": "Main text pp.1–3"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第6.1–6.8段",
+          "en": "¶6.1–6.8"
+        }
+      },
+      {
+        "doc": "09",
+        "filename": {
+          "TC": "09_高_通函_識別和緩解大殺傷力武器擴散融資風險（2021年12月22日）.pdf",
+          "EN": "09_High_Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021).pdf"
+        },
+        "locator": {
+          "tc": "正文第1–2頁",
+          "en": "Main text pp.1–2"
+        }
+      },
+      {
+        "doc": "26",
+        "filename": {
+          "TC": "26_中選讀_通函_聯合國制裁_原則及預警機制（2018年2月7日）.pdf",
+          "EN": "26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf"
+        },
+        "locator": {
+          "tc": "正文第1–3頁",
+          "en": "Main text pp.1–3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cash-scope",
+    "part": 1,
+    "section": "cross-boundary-cash",
+    "kind": "paths",
+    "status": "added",
+    "decision": "新增：同一門檻，不同申報途徑",
+    "location": "part-1.html#memory-cash-scope",
+    "sources": [
+      {
+        "doc": "22",
+        "filename": {
+          "TC": "22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf",
+          "EN": "22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf"
+        },
+        "locator": {
+          "tc": "正文第1頁",
+          "en": "Main text p.1"
+        }
+      },
+      {
+        "doc": "23",
+        "filename": {
+          "TC": "23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+          "EN": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+        },
+        "locator": {
+          "tc": "第2–7條及附表4",
+          "en": "ss.2–7; Schedule 4"
+        }
+      },
+      {
+        "doc": "23",
+        "filename": {
+          "TC": "23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+          "EN": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+        },
+        "locator": {
+          "tc": "第8–14條、附表5",
+          "en": "ss.8–14; Schedule 5"
+        }
+      },
+      {
+        "doc": "23",
+        "filename": {
+          "TC": "23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+          "EN": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+        },
+        "locator": {
+          "tc": "第2(1)、7(6)條",
+          "en": "ss.2(1), 7(6)"
+        }
+      },
+      {
+        "doc": "23",
+        "filename": {
+          "TC": "23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+          "EN": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+        },
+        "locator": {
+          "tc": "第7條",
+          "en": "s.7"
+        }
+      },
+      {
+        "doc": "23",
+        "filename": {
+          "TC": "23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+          "EN": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+        },
+        "locator": {
+          "tc": "第17–19條",
+          "en": "ss.17–19"
+        }
+      },
+      {
+        "doc": "23",
+        "filename": {
+          "TC": "23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+          "EN": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+        },
+        "locator": {
+          "tc": "附表2–3",
+          "en": "Schedules 2–3"
+        }
+      },
+      {
+        "doc": "23",
+        "filename": {
+          "TC": "23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+          "EN": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+        },
+        "locator": {
+          "tc": "第8–11條",
+          "en": "ss.8–11"
+        }
+      },
+      {
+        "doc": "23",
+        "filename": {
+          "TC": "23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+          "EN": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+        },
+        "locator": {
+          "tc": "附表2、3",
+          "en": "Schedules 2–3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cross-sector-mechanisms",
+    "part": 1,
+    "section": "risk-assessment",
+    "kind": "paths",
+    "status": "added",
+    "decision": "新增：2022年報告：跨行業的價值轉移例子",
+    "location": "part-1.html#memory-cross-sector-mechanisms",
+    "sources": [
+      {
+        "doc": "25",
+        "filename": {
+          "TC": "25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+          "EN": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf"
+        },
+        "locator": {
+          "tc": "第5.2.13–5.2.17、5.2.21、5.3.25–5.3.38、5.6.2、5.6.7–5.6.15、5.6.21、5.7.5、5.7.22、6.4.3、6.6.6–6.6.13段",
+          "en": "¶5.2.13–5.2.17, 5.2.21, 5.3.25–5.3.38, 5.6.2, 5.6.7–5.6.15, 5.6.21, 5.7.5, 5.7.22, 6.4.3, 6.6.6–6.6.13"
+        }
+      },
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "第5B、5C部",
+          "en": "Parts 5B, 5C"
+        }
+      },
+      {
+        "doc": "25",
+        "filename": {
+          "TC": "25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+          "EN": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf"
+        },
+        "locator": {
+          "tc": "2022年版，第4.45–4.51段",
+          "en": "2022 edition, ¶4.45–4.51"
+        }
+      },
+      {
+        "doc": "25",
+        "filename": {
+          "TC": "25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+          "EN": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf"
+        },
+        "locator": {
+          "tc": "2022年版，第5.3.9、5.3.12–5.3.14、5.3.25–5.3.29段及專題5.9–5.10",
+          "en": "2022 edition, ¶5.3.9, 5.3.12–5.3.14, 5.3.25–5.3.29 and Boxes 5.9–5.10"
+        }
+      }
+    ]
+  },
+  {
+    "id": "licence-clocks",
+    "part": 2,
+    "section": "changes",
+    "kind": "clocks",
+    "status": "adapted-or-retained",
+    "decision": "改為獨立事件／時間要求軌；取消會誤導提前期限的統一時間箭頭。",
+    "location": "part-2.html#memory-licence-clocks",
+    "sources": [
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "第35–41條",
+          "en": "ss.35–41"
+        }
+      },
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "第24、30–32、42條",
+          "en": "ss.24, 30–32, 42"
+        }
+      },
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "第21–23、34、43–45條",
+          "en": "ss.21–23, 34, 43–45"
+        }
+      }
+    ]
+  },
+  {
+    "id": "penalty-ceilings",
+    "part": 2,
+    "section": "discipline",
+    "kind": "formula",
+    "status": "adapted-or-retained",
+    "decision": "改為兩項上限公式；每日罰款另列，最高額不等於必罰額。",
+    "location": "part-2.html#memory-penalty-ceilings",
+    "sources": [
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "第21–23、34、43–45條",
+          "en": "ss.21–23, 34, 43–45"
+        }
+      }
+    ]
+  },
+  {
+    "id": "review-commencement",
+    "part": 2,
+    "section": "review",
+    "kind": "decision",
+    "status": "added",
+    "decision": "新增：指明決定：何時生效",
+    "location": "part-2.html#memory-review-commencement",
+    "sources": [
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "第59(1)、69、73、75條",
+          "en": "ss.59(1), 69, 73, 75"
+        }
+      }
+    ]
+  },
+  {
+    "id": "inspection-versus-investigation",
+    "part": 2,
+    "section": "inspection-investigation",
+    "kind": "table",
+    "status": "added",
+    "decision": "新增：日常查察與正式調查",
+    "location": "part-2.html#memory-inspection-versus-investigation",
+    "sources": [
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "第9–20、81條",
+          "en": "ss.9–20, 81"
+        }
+      }
+    ]
+  },
+  {
+    "id": "money-boundaries",
+    "part": 3,
+    "section": "core-duties",
+    "kind": "table",
+    "status": "adapted-or-retained",
+    "decision": "按CDD／匯款、跨境現金、找換保障分組；各保留對象、符號、觸發及例外。",
+    "location": "part-3.html#memory-money-boundaries",
+    "sources": [
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "附表2第2–3、13條",
+          "en": "Schedule 2 ss.2–3, 13"
+        }
+      },
+      {
+        "doc": "22",
+        "filename": {
+          "TC": "22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf",
+          "EN": "22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf"
+        },
+        "locator": {
+          "tc": "正文第1頁",
+          "en": "Main text p.1"
+        }
+      },
+      {
+        "doc": "23",
+        "filename": {
+          "TC": "23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+          "EN": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+        },
+        "locator": {
+          "tc": "第2–7條及附表4",
+          "en": "ss.2–7; Schedule 4"
+        }
+      },
+      {
+        "doc": "17",
+        "filename": {
+          "TC": "17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf",
+          "EN": "17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf"
+        },
+        "locator": {
+          "tc": "第2–5條及附表1",
+          "en": "ss.2–5; Schedule 1"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ownership-boundary",
+    "part": 3,
+    "section": "definitions",
+    "kind": "table",
+    "status": "adapted-or-retained",
+    "decision": "保留公司／合夥／信託定義表，連結Part6角色與25.1%例子。",
+    "location": "part-3.html#memory-ownership-boundary",
+    "sources": [
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "附表2第1條",
+          "en": "Schedule 2 s.1"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.4.1–4.4.12段",
+          "en": "¶4.4.1–4.4.12"
+        }
+      }
+    ]
+  },
+  {
+    "id": "fee-components",
+    "part": 3,
+    "section": "fees",
+    "kind": "table",
+    "status": "adapted-or-retained",
+    "decision": "保留收費組件表；明寫基本費＋額外處所＋適用逐人測試費，版本不變。",
+    "location": "part-3.html#memory-fee-components",
+    "sources": [
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "第27–28條；附表3",
+          "en": "ss.27–28; Schedule 3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "shell-bank-and",
+    "part": 3,
+    "section": "special-cases",
+    "kind": "logic",
+    "status": "added",
+    "decision": "新增：附表2第17條：空殼銀行的四項條件",
+    "location": "part-3.html#memory-shell-bank-and",
+    "sources": [
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "附表2第17(1)–(3)條",
+          "en": "Schedule 2 s.17(1)–(3)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "three-places",
+    "part": 4,
+    "section": "premises",
+    "kind": "table",
+    "status": "adapted-or-retained",
+    "decision": "保留營業處所／LMO／LPS表；共同維度比流程圖更合適。",
+    "location": "part-4.html#memory-three-places",
+    "sources": [
+      {
+        "doc": "05",
+        "filename": {
+          "TC": "05_高_牌照指引（2026年5月）.pdf",
+          "EN": "05_High_Licensing Guide (May 2026).pdf"
+        },
+        "locator": {
+          "tc": "第4.4–4.11段",
+          "en": "¶4.4–4.11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "assessment-pass",
+    "part": 4,
+    "section": "assessment",
+    "kind": "pass-rule",
+    "status": "adapted-or-retained",
+    "decision": "保留既有AND及整體達標但單Part不及格例子，未假稱新增。",
+    "location": "part-4.html#memory-assessment-pass",
+    "sources": [
+      {
+        "doc": "01",
+        "filename": {
+          "TC": "01_高_能力評核須知（2022年12月）.pdf",
+          "EN": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
+        },
+        "locator": {
+          "tc": "第3–8段",
+          "en": "¶3–8"
+        }
+      },
+      {
+        "doc": "02",
+        "filename": {
+          "TC": "02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+          "EN": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf"
+        },
+        "locator": {
+          "tc": "例1–7（只用於理解題型）",
+          "en": "Examples 1–7 (format only)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "assessment-clocks",
+    "part": 4,
+    "section": "assessment",
+    "kind": "table",
+    "status": "adapted-or-retained",
+    "decision": "分申請／人事、結果／重考、覆核成績三組，起算詞保持原意。",
+    "location": "part-4.html#memory-assessment-clocks",
+    "sources": [
+      {
+        "doc": "01",
+        "filename": {
+          "TC": "01_高_能力評核須知（2022年12月）.pdf",
+          "EN": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
+        },
+        "locator": {
+          "tc": "第3–8段",
+          "en": "¶3–8"
+        }
+      },
+      {
+        "doc": "02",
+        "filename": {
+          "TC": "02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+          "EN": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf"
+        },
+        "locator": {
+          "tc": "例1–7（只用於理解題型）",
+          "en": "Examples 1–7 (format only)"
+        }
+      },
+      {
+        "doc": "01",
+        "filename": {
+          "TC": "01_高_能力評核須知（2022年12月）.pdf",
+          "EN": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
+        },
+        "locator": {
+          "tc": "第8–13段",
+          "en": "¶8–13"
+        }
+      },
+      {
+        "doc": "01",
+        "filename": {
+          "TC": "01_高_能力評核須知（2022年12月）.pdf",
+          "EN": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
+        },
+        "locator": {
+          "tc": "第4.4、8.3段",
+          "en": "¶4.4, 8.3"
+        }
+      },
+      {
+        "doc": "05",
+        "filename": {
+          "TC": "05_高_牌照指引（2026年5月）.pdf",
+          "EN": "05_High_Licensing Guide (May 2026).pdf"
+        },
+        "locator": {
+          "tc": "第6.2段",
+          "en": "¶6.2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exchange-rights",
+    "part": 4,
+    "section": "exchange-note",
+    "kind": "paths",
+    "status": "adapted-or-retained",
+    "decision": "改為交易完成前／後兩條分支；保留第4條違反及3日撤銷條件。",
+    "location": "part-4.html#memory-exchange-rights",
+    "sources": [
+      {
+        "doc": "17",
+        "filename": {
+          "TC": "17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf",
+          "EN": "17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf"
+        },
+        "locator": {
+          "tc": "第2–5條及附表1",
+          "en": "ss.2–5; Schedule 1"
+        }
+      }
+    ]
+  },
+  {
+    "id": "risk-levels",
+    "part": 5,
+    "section": "risk-based",
+    "kind": "relationships",
+    "status": "adapted-or-retained",
+    "decision": "改為機構評估→制度資源、客戶評估→CDD監察的兩層關係。",
+    "location": "part-5.html#memory-risk-levels",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第2.1、2.13–2.16、3.3段",
+          "en": "¶2.1, 2.13–2.16, 3.3"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第2.13–2.16段",
+          "en": "¶2.13–2.16"
+        }
+      }
+    ]
+  },
+  {
+    "id": "review-frequency",
+    "part": 5,
+    "section": "institutional-assessment",
+    "kind": "table",
+    "status": "adapted-or-retained",
+    "decision": "保留週期與事件觸發對照，不造共同時間軸。",
+    "location": "part-5.html#memory-review-frequency",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第2.3、2.5–2.10段",
+          "en": "¶2.3, 2.5–2.10"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第2.9、2.11–2.12段",
+          "en": "¶2.9, 2.11–2.12"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第5.1–5.14段及註52–53",
+          "en": "¶5.1–5.14; footnotes 52–53"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第3.11–3.13、5.8段",
+          "en": "¶3.11–3.13, 5.8"
+        }
+      }
+    ]
+  },
+  {
+    "id": "control-responsibilities",
+    "part": 5,
+    "section": "roles",
+    "kind": "relationships",
+    "status": "added",
+    "decision": "新增：誰設計、誰判斷、誰獨立檢查",
+    "location": "part-5.html#memory-control-responsibilities",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第3.5–3.10段及註9",
+          "en": "¶3.5–3.10; footnotes 9"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第3.6、3.8段",
+          "en": "¶3.6, 3.8"
+        }
+      },
+      {
+        "doc": "05",
+        "filename": {
+          "TC": "05_高_牌照指引（2026年5月）.pdf",
+          "EN": "05_High_Licensing Guide (May 2026).pdf"
+        },
+        "locator": {
+          "tc": "第4.15(a)段",
+          "en": "¶4.15(a)"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第3.6、3.8(h)段",
+          "en": "¶3.6, 3.8(h)"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第3.11–3.13、5.8段",
+          "en": "¶3.11–3.13, 5.8"
+        }
+      },
+      {
+        "doc": "06",
+        "filename": {
+          "TC": "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+          "EN": "06_High_FAQ applicable to all MSOs (C&ED portal).md"
+        },
+        "locator": {
+          "tc": "打擊洗錢問答A23",
+          "en": "AML/CFT FAQ A23"
+        }
+      }
+    ]
+  },
+  {
+    "id": "party-roles",
+    "part": 6,
+    "section": "identity",
+    "kind": "relationships",
+    "status": "adapted-or-retained",
+    "decision": "公司、BO、PPTA及董事的有向關係；可兼任、25%邊界及信託例外緊貼。",
+    "location": "part-6.html#memory-party-roles",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.1.4–4.1.5段",
+          "en": "¶4.1.4–4.1.5"
+        }
+      },
+      {
+        "doc": "07",
+        "filename": {
+          "TC": "07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf",
+          "EN": "07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf"
+        },
+        "locator": {
+          "tc": "附錄第(3)部分，第5頁",
+          "en": "Appendix (3), p.5"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.3.4、4.3.14–4.3.19段及註26",
+          "en": "¶4.3.4, 4.3.14–4.3.19; footnotes 26"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.4.1–4.4.12段",
+          "en": "¶4.4.1–4.4.12"
+        }
+      },
+      {
+        "doc": "06",
+        "filename": {
+          "TC": "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+          "EN": "06_High_FAQ applicable to all MSOs (C&ED portal).md"
+        },
+        "locator": {
+          "tc": "打擊洗錢問答A9、A11–A12",
+          "en": "AML/CFT FAQ A9, A11–A12"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sow-sof",
+    "part": 6,
+    "section": "enhanced",
+    "kind": "paths",
+    "status": "adapted-or-retained",
+    "decision": "同一人物的整體財富與本次資金兩條來源路徑，銀行只作渠道。",
+    "location": "part-6.html#memory-sow-sof",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.9.24–4.9.26段",
+          "en": "¶4.9.24–4.9.26"
+        }
+      },
+      {
+        "doc": "06",
+        "filename": {
+          "TC": "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+          "EN": "06_High_FAQ applicable to all MSOs (C&ED portal).md"
+        },
+        "locator": {
+          "tc": "打擊洗錢問答A3–A8、A13–A15",
+          "en": "AML/CFT FAQ A3–A8, A13–A15"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cdd-extent-tree",
+    "part": 6,
+    "section": "simplified",
+    "kind": "decision",
+    "status": "added",
+    "decision": "新增：CDD要做到甚麼程度",
+    "location": "part-6.html#memory-cdd-extent-tree",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.1.1–4.1.5、4.6.1段",
+          "en": "¶4.1.1–4.1.5, 4.6.1"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.8.1–4.8.9段",
+          "en": "¶4.8.1–4.8.9"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.8.10–4.8.16段",
+          "en": "¶4.8.10–4.8.16"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.8.17–4.8.20段",
+          "en": "¶4.8.17–4.8.20"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.8.10(d)、4.8.14–4.8.18段",
+          "en": "¶4.8.10(d), 4.8.14–4.8.18"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.9.1–4.9.6段及註36",
+          "en": "¶4.9.1–4.9.6; footnotes 36"
+        }
+      },
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "附表2第15條",
+          "en": "Schedule 2 s.15"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.10.1–4.10.5段",
+          "en": "¶4.10.1–4.10.5"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pep-categories",
+    "part": 6,
+    "section": "peps",
+    "kind": "table",
+    "status": "adapted-or-retained",
+    "decision": "保留身分類別／高風險矩陣，離任狀態跨類別，共同AND措施抽為相鄰圖。",
+    "location": "part-6.html#memory-pep-categories",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.9.7–4.9.8、4.9.13–4.9.15段",
+          "en": "¶4.9.7–4.9.8, 4.9.13–4.9.15"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.9.9–4.9.12、4.9.16–4.9.23段及註37–42",
+          "en": "¶4.9.9–4.9.12, 4.9.16–4.9.23; footnotes 37–42"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pep-common-and",
+    "part": 6,
+    "section": "peps",
+    "kind": "logic",
+    "status": "added",
+    "decision": "新增：適用時，三組措施同時需要",
+    "location": "part-6.html#memory-pep-common-and",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.9.7–4.9.8、4.9.13–4.9.15段",
+          "en": "¶4.9.7–4.9.8, 4.9.13–4.9.15"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.9.9–4.9.12、4.9.16–4.9.23段及註37–42",
+          "en": "¶4.9.9–4.9.12, 4.9.16–4.9.23; footnotes 37–42"
+        }
+      }
+    ]
+  },
+  {
+    "id": "transfer-information",
+    "part": 6,
+    "section": "wire-transfers",
+    "kind": "packet",
+    "status": "adapted-or-retained",
+    "decision": "共同必需資料＋達門檻加項；至少一項OR，出生日期AND地點同組。",
+    "location": "part-6.html#memory-transfer-information",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第10.5–10.13段及註70–71",
+          "en": "¶10.5–10.13; footnotes 70–71"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第10.14–10.22段",
+          "en": "¶10.14–10.22"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第11.1–11.6段",
+          "en": "¶11.1–11.6"
+        }
+      },
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "附表2第1、13條",
+          "en": "Schedule 2 ss.1, 13"
+        }
+      }
+    ]
+  },
+  {
+    "id": "reliance-outsourcing",
+    "part": 6,
+    "section": "intermediaries",
+    "kind": "table",
+    "status": "adapted-or-retained",
+    "decision": "保留同維度對照，MSO責任不轉移；不強加箭頭。",
+    "location": "part-6.html#memory-reliance-outsourcing",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.11.1–4.11.7段及註44",
+          "en": "¶4.11.1–4.11.7; footnotes 44"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.11.8–4.11.14段",
+          "en": "¶4.11.8–4.11.14"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cdd-trigger-tree",
+    "part": 6,
+    "section": "triggers",
+    "kind": "decision",
+    "status": "added",
+    "decision": "新增：何時須做CDD",
+    "location": "part-6.html#memory-cdd-trigger-tree",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第4.2.1–4.2.5、11.3段",
+          "en": "¶4.2.1–4.2.5, 11.3"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第5.1–5.14段及註52–53",
+          "en": "¶5.1–5.14; footnotes 52–53"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第1.25、5.13、7.6段",
+          "en": "¶1.25, 5.13, 7.6"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wire-responsibilities",
+    "part": 6,
+    "section": "wire-receiving",
+    "kind": "paths",
+    "status": "added",
+    "decision": "新增：電傳鏈條：每一站的責任",
+    "location": "part-6.html#memory-wire-responsibilities",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第10.1–10.4段",
+          "en": "¶10.1–10.4"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第10.5–10.13段及註70–71",
+          "en": "¶10.5–10.13; footnotes 70–71"
+        }
+      },
+      {
+        "doc": "06",
+        "filename": {
+          "TC": "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+          "EN": "06_High_FAQ applicable to all MSOs (C&ED portal).md"
+        },
+        "locator": {
+          "tc": "打擊洗錢問答A25–A26",
+          "en": "AML/CFT FAQ A25–A26"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第10.3、10.5–10.7、10.13段及註70",
+          "en": "¶10.3, 10.5–10.7, 10.13; footnotes 70"
+        }
+      },
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "附表2第12(6)、(9)、(11)條",
+          "en": "Schedule 2 s.12(6), (9), (11)"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第10.11–10.12、10.20段及註71",
+          "en": "¶10.11–10.12, 10.20; footnote 71"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第10.14–10.22段",
+          "en": "¶10.14–10.22"
+        }
+      }
+    ]
+  },
+  {
+    "id": "trade-value-paths",
+    "part": 6,
+    "section": "trade-based-laundering",
+    "kind": "paths",
+    "status": "added",
+    "decision": "新增：貿易洗錢：分開看貨物、單據與付款",
+    "location": "part-6.html#memory-trade-value-paths",
+    "sources": [
+      {
+        "doc": "18",
+        "filename": {
+          "TC": "18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf",
+          "EN": "18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf"
+        },
+        "locator": {
+          "tc": "第1–3頁",
+          "en": "pp.1–3"
+        }
+      },
+      {
+        "doc": "24",
+        "filename": {
+          "TC": "24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf",
+          "EN": "24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf"
+        },
+        "locator": {
+          "tc": "第1–2頁（中文為學習譯文）",
+          "en": "pp.1–2"
+        }
+      },
+      {
+        "doc": "24",
+        "filename": {
+          "TC": "24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf",
+          "EN": "24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf"
+        },
+        "locator": {
+          "tc": "印刷第5–6頁",
+          "en": "Printed pp.5–6"
+        }
+      },
+      {
+        "doc": "25",
+        "filename": {
+          "TC": "25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+          "EN": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf"
+        },
+        "locator": {
+          "tc": "2022年版，第4.44、4.57–4.59段及專題4.5",
+          "en": "2022 edition, ¶4.44, 4.57–4.59 and Box 4.5"
+        }
+      }
+    ]
+  },
+  {
+    "id": "retention-clocks",
+    "part": 7,
+    "section": "retention",
+    "kind": "clocks",
+    "status": "adapted-or-retained",
+    "decision": "獨立事件／時間要求軌，關係全期＋結束後5年、交易完成後5年與培訓3年分開。",
+    "location": "part-7.html#memory-retention-clocks",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第8.4、8.6、8.8–8.12、9.7段",
+          "en": "¶8.4, 8.6, 8.8–8.12, 9.7"
+        }
+      },
+      {
+        "doc": "04",
+        "filename": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        },
+        "locator": {
+          "tc": "附表2第20(3A)條",
+          "en": "Schedule 2 s.20(3A)"
+        }
+      },
+      {
+        "doc": "06",
+        "filename": {
+          "TC": "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+          "EN": "06_High_FAQ applicable to all MSOs (C&ED portal).md"
+        },
+        "locator": {
+          "tc": "打擊洗錢問答A28",
+          "en": "AML/CFT FAQ A28"
+        }
+      }
+    ]
+  },
+  {
+    "id": "after-report-parallel",
+    "part": 7,
+    "section": "after-report",
+    "kind": "logic",
+    "status": "added",
+    "decision": "新增：提交STR後：並行處理的事項",
+    "location": "part-7.html#memory-after-report-parallel",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第7.22、7.24–7.28段",
+          "en": "¶7.22, 7.24–7.28"
+        }
+      },
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第1.25、5.13、7.6段",
+          "en": "¶1.25, 5.13, 7.6"
+        }
+      }
+    ]
+  },
+  {
+    "id": "reporting-route",
+    "part": 7,
+    "section": "internal-report",
+    "kind": "paths",
+    "status": "added",
+    "decision": "新增：內部報告：不經無關管理層篩選",
+    "location": "part-7.html#memory-reporting-route",
+    "sources": [
+      {
+        "doc": "03",
+        "filename": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        },
+        "locator": {
+          "tc": "第7.12–7.23段",
+          "en": "¶7.12–7.23"
+        }
+      }
+    ]
+  }
+]

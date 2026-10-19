@@ -1,0 +1,128 @@
+[
+  {
+    "part": 1,
+    "lang": "tc",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 1,
+    "lang": "en",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 1,
+    "lang": "both",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 2,
+    "lang": "tc",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 2,
+    "lang": "en",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 2,
+    "lang": "both",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "lang": "tc",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "lang": "en",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "lang": "both",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 1,
+    "lang": "tc",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 1,
+    "lang": "en",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 1,
+    "lang": "both",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 2,
+    "lang": "tc",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 2,
+    "lang": "en",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 2,
+    "lang": "both",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "lang": "tc",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "lang": "en",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "lang": "both",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  }
+]

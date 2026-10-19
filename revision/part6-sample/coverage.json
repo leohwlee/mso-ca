@@ -1,0 +1,1396 @@
+{
+  "scope": "Part 6 sample; selected repo editions of documents 01–26",
+  "mapping_meaning": "Topic association, not full statement-level coverage or a new review of existing questions.",
+  "review": "Author source-context and bilingual self-review plus structural/browser checks; no independent semantic review claimed.",
+  "author_model": "GPT-6.1 Sol (user-reported selection)",
+  "content_sha256": "fee17c141089cf7e0e5004002ff69cb9c44458a078a116bb6f1d1ba81dd354f1",
+  "question_bank_sha256": "4cc89c045c9f1fb1f8cb1e163154cabed6d3eb4e4349baf168b9ae56bfe1bce3",
+  "source_conflict_decisions": [
+    "B4",
+    "B14",
+    "B16",
+    "B17",
+    "B19",
+    "B20",
+    "B29",
+    "B30",
+    "B31",
+    "B32",
+    "E17",
+    "E21",
+    "E41"
+  ],
+  "source_files": {
+    "01": {
+      "tc": {
+        "path": "docs/TC/01_高_能力評核須知（2022年12月）.pdf",
+        "sha256": "3eb4a64e563e94dbda91906e368137447e2a42bc50dc7051bb66f61b8d3ea58a",
+        "text_path": "docs/text/TC/01.txt",
+        "text_sha256": "d5fa00d8625ab44b0201637cf5fe79d7f2c4cd7e269819fdf29b5b36521be4de",
+        "study_translation": false
+      },
+      "en": {
+        "path": "docs/EN/01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf",
+        "sha256": "10558bec35a5923cb07c38ed0990ce34022c3eb25806948778fe6b4a7ab87abc",
+        "text_path": "docs/text/EN/01.txt",
+        "text_sha256": "908295f836745a31712fbc0ded041d47434212f2ea63400862414bbd5923b0d2",
+        "study_translation": false
+      }
+    },
+    "03": {
+      "tc": {
+        "path": "docs/TC/03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+        "sha256": "8639a9dc8fc4c7dad3ab467db43d69ffe73a4ce156030248dc68c2d8d3cf60bd",
+        "text_path": "docs/text/TC/03.txt",
+        "text_sha256": "a22ad6aac57c9a85513ba3b1d3f44d8edd206b5278728a79454a353738d6f1ad",
+        "study_translation": false
+      },
+      "en": {
+        "path": "docs/EN/03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+        "sha256": "7a7b81ec6880a0e22c1d3e116f1016109dc6b54c33726e6a57fb1cff5d06eabc",
+        "text_path": "docs/text/EN/03.txt",
+        "text_sha256": "6c602e7e4d82a4cf5bbd2a57b9e3fb5b8c20f9e4785c04a130baff34ab53d9ab",
+        "study_translation": false
+      }
+    },
+    "04": {
+      "tc": {
+        "path": "docs/TC/04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+        "sha256": "6853748c7e7513f11cf5f5d54dbff7cffcb2309fca7669a43bde40c042f2fb65",
+        "text_path": "docs/text/TC/04.txt",
+        "text_sha256": "4cc88b13d23b8e89fa3a6ce52b4041027d555289c0569421958ef0ae676af628",
+        "study_translation": false
+      },
+      "en": {
+        "path": "docs/EN/04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf",
+        "sha256": "2b5b00d7dc706169b1b2e292136649612f9fbb73b39332eb80dc1a4cf926474a",
+        "text_path": "docs/text/EN/04.txt",
+        "text_sha256": "916a55f448f988bf51d814da36249414c659eb07f1b148da7bfbfc4269811aa1",
+        "study_translation": false
+      }
+    },
+    "06": {
+      "tc": {
+        "path": "docs/TC/06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+        "sha256": "26974ae4446f65b0489c6f0cbb42d303cb2c2621e1752a5be675dba9185244e7",
+        "text_path": "docs/text/TC/06.txt",
+        "text_sha256": "1a306caf7ce345067ede0348c58b0fc9153971999c6d16b7a11e14124cb8d3a7",
+        "study_translation": false
+      },
+      "en": {
+        "path": "docs/EN/06_High_FAQ applicable to all MSOs (C&ED portal).md",
+        "sha256": "6dfc89dcf0a37665144cc501ffd64ba8df004121e35a3f5c14a4aa19e3c78264",
+        "text_path": "docs/text/EN/06.txt",
+        "text_sha256": "09e767bd18cce69b416eea0a20aa577d647efb57be831f8a2feed997a1406676",
+        "study_translation": false
+      }
+    },
+    "07": {
+      "tc": {
+        "path": "docs/TC/07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf",
+        "sha256": "26fdbf82ecab50930f1ca8cd3c2bf2d7ee2df9426d7a7221e5933f9e453b5af3",
+        "text_path": "docs/text/TC/07.txt",
+        "text_sha256": "6b2ea8f37af02b12c7bb205c2861dc573910fbc04745369d775e11ddae8f7654",
+        "study_translation": false
+      },
+      "en": {
+        "path": "docs/EN/07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf",
+        "sha256": "9921ff297a49cef0543c3df126d07c3bb2befc8f1e7a6e33d62674e81bb0c979",
+        "text_path": "docs/text/EN/07.txt",
+        "text_sha256": "85677c9e208968782ecb9e62c45893796f7dd81bc74efee052579f79aa39ce93",
+        "study_translation": false
+      }
+    },
+    "08": {
+      "tc": {
+        "path": "docs/TC/08_高_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf",
+        "sha256": "42e40eb5606949acea68ce90421b9e38dee01f483fe1e7ab3bba52accca7d3a1",
+        "text_path": "docs/text/TC/08.txt",
+        "text_sha256": "2fee66b98482d6198eb903304b85a492e252e6d153c97027471163101a51faa3",
+        "study_translation": false
+      },
+      "en": {
+        "path": "docs/EN/08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf",
+        "sha256": "ba02a8d811184ff6a960e4c9b2ab1e2c63dbaf3e50f1ce9b12e4fd438320056c",
+        "text_path": "docs/text/EN/08.txt",
+        "text_sha256": "c011aae0d478aee648c832582e2fb5e75e91e1e6833d5109afda5ab66e00c244",
+        "study_translation": false
+      }
+    },
+    "14": {
+      "tc": {
+        "path": "docs/TC/14_中重點_通函_與交付渠道有關的洗錢及恐怖分子資金籌集風險（2021年12月13日）.pdf",
+        "sha256": "8a71d806b4b81a13148f226b93e3425728e0e8920fe741be51ab807baaf36d5b",
+        "text_path": "docs/text/TC/14.txt",
+        "text_sha256": "88ae03601bfd2163aaa7171fcc6dc88159e1c24c87825c206c2cc38ecd8d774d",
+        "study_translation": false
+      },
+      "en": {
+        "path": "docs/EN/14_Medium-Essential_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf",
+        "sha256": "cb231fca14b55843357f7e6e4352ca30536abd58f56a399a33a6b9b97f32ab00",
+        "text_path": "docs/text/EN/14.txt",
+        "text_sha256": "957a691aae6c32234ae7e3c4157b2b5676e7648d272bbdfb1a3062b05fbdb40b",
+        "study_translation": false
+      }
+    },
+    "18": {
+      "tc": {
+        "path": "docs/TC/18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf",
+        "sha256": "7133b84028c505ae02340f1120a99600dc577a9c289c6546ecd8bb0edd5c4e29",
+        "text_path": "docs/text/TC/18.txt",
+        "text_sha256": "f57b9b72fad554b31f4fba3466a5ddece46f692cf3827c1f4055133a0d89bdfb",
+        "study_translation": false
+      },
+      "en": {
+        "path": "docs/EN/18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
+        "sha256": "86181d4d0a0990aa7e8a17a489f23ed59e2f9722ba5cb821a381976e45a52c84",
+        "text_path": "docs/text/EN/18.txt",
+        "text_sha256": "184f4e17f55491dafe6c4fefcaed000411d69cc2b47aadbfd344620b4cf5727f",
+        "study_translation": false
+      }
+    },
+    "24": {
+      "tc": {
+        "path": "docs/EN/24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf",
+        "sha256": "670b80270b33354b17263d44393cd65386a96bdb1a171365f217048e7cca6afb",
+        "text_path": "docs/text/EN/24.txt",
+        "text_sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b",
+        "study_translation": true
+      },
+      "en": {
+        "path": "docs/EN/24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf",
+        "sha256": "670b80270b33354b17263d44393cd65386a96bdb1a171365f217048e7cca6afb",
+        "text_path": "docs/text/EN/24.txt",
+        "text_sha256": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b",
+        "study_translation": false
+      }
+    }
+  },
+  "sections": [
+    {
+      "id": "start",
+      "title": {
+        "tc": "先判斷何時須做客戶盡職審查",
+        "en": "Decide when customer due diligence is required"
+      },
+      "questions": [
+        {
+          "id": "m6-346",
+          "stem": {
+            "tc": "關於業務關係的目的及擬具有的性質，下列哪些陳述正確？",
+            "en": "Regarding the purpose and intended nature of a business relationship, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.6.1 and ¶4.8.8(e); Circular MSSB/MIS_03/2023 (22 Nov 2023), Appendix section (1)",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.6.1及4.8.8(e)段；通函MSSB/MIS_03/2023（2023年11月22日）附錄第(1)節"
+          }
+        },
+        {
+          "id": "m6-357",
+          "stem": {
+            "tc": "關於非經常交易及先前客戶，下列哪些陳述正確？",
+            "en": "Regarding occasional transactions and pre-existing customers, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.2.1 footnote 13, ¶4.2.5 and ¶4.12.1–4.12.3",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.2.1段註腳13、第4.2.5段及第4.12.1至4.12.3段"
+          }
+        },
+        {
+          "id": "m6-442",
+          "stem": {
+            "tc": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關第三方現金交易的身分證明文件規定，哪些陳述正確？",
+            "en": "Which statements about the identity-document requirement for third-party cash transactions under the AML/CFT Guideline are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline ¶4.2.6",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.2.6段"
+          }
+        },
+        {
+          "id": "m6-470",
+          "stem": {
+            "tc": "關於識別客戶及其業務關係所用的詞語，下列哪些陳述正確？",
+            "en": "Which of the following correctly describe terms used to identify customers and their business relationships?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.12.1, ¶10.5 footnote 70 and Appendix A ¶3; FAQ applicable to all MSOs, Q5",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.12.1段、第10.5段附註70及附錄A第3段；適用於所有金錢服務經營者的常見問題第5問"
+          }
+        },
+        {
+          "id": "m6-478",
+          "stem": {
+            "tc": "街客在一小時內要求向同一收款人作三筆有關連的非經常電傳轉帳，每筆3,000港元。下列哪些陳述正確？",
+            "en": "A walk-in customer requests three linked occasional wire transfers of HK$3,000 to the same recipient within an hour. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.2.1–4.2.5",
+            "tc": "《打擊洗錢指引》第4.2.1–4.2.5段"
+          }
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "title": {
+        "tc": "分清客戶、代表及有關連者",
+        "en": "Separate the customer, representative and connected parties"
+      },
+      "questions": [
+        {
+          "id": "m6-ca7",
+          "stem": {
+            "tc": "就客戶執行盡職審查時，就屬法人的客戶而言，一般須收集下列哪項識別資料？",
+            "en": "In carrying out CDD, for a customer that is a legal person, which of the following identification information should normally be obtained?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.6; Sample Questions MSSB/CA_01/2021, Example (7)",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.3.6段；參考試題 MSSB/CA_01/2021 例子(7)"
+          }
+        },
+        {
+          "id": "m6-341",
+          "stem": {
+            "tc": "就屬自然人的客戶而言，下列哪些關於識別和核實客戶身分的陳述正確？",
+            "en": "For a customer that is a natural person, which of the following are correct about identifying and verifying the customer's identity?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.2–4.3.5 and footnote 18",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.3.2至4.3.5段及註腳18"
+          }
+        },
+        {
+          "id": "m6-343",
+          "stem": {
+            "tc": "關於看似代表客戶行事的人，下列哪些陳述正確？",
+            "en": "Regarding a person purporting to act on behalf of a customer (PPTA), which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.5.1; FAQ applicable to all MSOs (C&ED portal), Q11 and Q12; Circular MSSB/MIS_03/2023 (22 Nov 2023), Appendix section (3)",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.5.1段；《適用於所有金錢服務經營者的常見問題》（海關網站）第11及12問；通函MSSB/MIS_03/2023（2023年11月22日）附錄第(3)節"
+          }
+        },
+        {
+          "id": "m6-345",
+          "stem": {
+            "tc": "關於核實屬合夥或非法團團體的客戶的身分，下列哪些陳述正確？",
+            "en": "Regarding verifying the identity of a customer that is a partnership or an unincorporated body, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.8–4.3.9; FAQ applicable to all MSOs (C&ED portal), Q7",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.3.8至4.3.9段；《適用於所有金錢服務經營者的常見問題》（海關網站）第7問"
+          }
+        },
+        {
+          "id": "m6-354",
+          "stem": {
+            "tc": "關於金錢服務經營者據以識別及核實個人客戶身分的文件，下列哪些陳述正確？",
+            "en": "Regarding the documents by reference to which an MSO identifies and verifies an individual customer, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) Appendix A ¶1–4 and ¶6, footnote 72",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）附錄A第1至4段及第6段、註腳72"
+          }
+        },
+        {
+          "id": "m6-358",
+          "stem": {
+            "tc": "關於用以核實客戶身分的文件、數據或資料的來源及可靠程度，下列哪些陳述正確？",
+            "en": "Regarding the sources and reliability of the documents, data or information used to verify a customer's identity, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.1(c), ¶4.3.13, ¶4.3.15–4.3.16; FAQ applicable to all MSOs (C&ED portal), Q13 and Q14",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.3.1(c)段、第4.3.13段、第4.3.15至4.3.16段；《適用於所有金錢服務經營者的常見問題》（海關網站）第13及14問"
+          }
+        },
+        {
+          "id": "m6-359",
+          "stem": {
+            "tc": "關於識別屬法人的客戶及其有關連者，下列哪些陳述正確？",
+            "en": "Regarding the identification of a customer that is a legal person and of its connected parties, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.7 footnote 20, ¶4.3.18–4.3.19 and footnote 26, Appendix A ¶5; FAQ applicable to all MSOs (C&ED portal), Q6",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.3.7段註腳20、第4.3.18至4.3.19段及註腳26、附錄A第5段；《適用於所有金錢服務經營者的常見問題》（海關網站）第6問"
+          }
+        },
+        {
+          "id": "m6-362",
+          "stem": {
+            "tc": "就透過代表其行事的自然人與金錢服務經營者建立業務關係的法人客戶而言，下列哪些陳述正確？",
+            "en": "Regarding a legal person customer that establishes a business relationship with an MSO through a natural person acting on its behalf, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.5.4 and ¶4.10.5; FAQ applicable to all MSOs (C&ED portal), Q9",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.5.4及4.10.5段；《適用於所有金錢服務經營者的常見問題》（海關網站）第9問"
+          }
+        },
+        {
+          "id": "m6-369",
+          "stem": {
+            "tc": "根據香港海關有關客戶盡職審查相關監管工作中的發現的通函，下列哪些陳述正確？",
+            "en": "According to C&ED's circular on its supervisory findings of customer due diligence related issues, which of the following are correct?"
+          },
+          "source": {
+            "en": "Circular MSSB/MIS_03/2023 (22 Nov 2023), footnote 3 and Appendix sections (1)–(3)",
+            "tc": "通函MSSB/MIS_03/2023（2023年11月22日）註3及附錄第(1)至(3)節"
+          }
+        },
+        {
+          "id": "m6-396",
+          "stem": {
+            "tc": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下哪些陳述正確區分客戶、有關連者及兼具其他身分的人？",
+            "en": "Which statements correctly distinguish a customer, a connected party and a person with an overlapping role under the AML/CFT Guideline?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.1.5, ¶4.3.18 footnote 26 and ¶4.3.19(b)–(c)",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.1.5段、第4.3.18段註腳26及第4.3.19(b)至(c)段"
+          }
+        },
+        {
+          "id": "m6-410",
+          "stem": {
+            "tc": "關於客戶盡職審查中的法人、信託及以專業身分行事的受託人，下列哪些陳述正確？",
+            "en": "Which of the following are correct about legal persons, trusts and professional trustees in customer due diligence?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.1.3 footnote 12, ¶4.3.6 footnote 19 and ¶4.3.12(c) with footnote 25",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.1.3段附註12、第4.3.6段附註19及第4.3.12(c)段與附註25"
+          }
+        },
+        {
+          "id": "m6-412",
+          "stem": {
+            "tc": "關於識別看似代表客戶行事的人，下列哪些陳述正確？",
+            "en": "Which of the following are correct about identifying a person purporting to act on behalf of a customer (PPTA)?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline ¶4.5.3; FAQ applicable to all MSOs, AML/CFT A12; Circular MSSB/MIS_03/2023, Appendix (3)",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.5.3段；《適用於所有金錢服務經營者的常見問題》打擊洗錢及恐怖分子資金籌集部分答12；通函MSSB/MIS_03/2023附錄第(3)項"
+          }
+        },
+        {
+          "id": "m6-417",
+          "stem": {
+            "tc": "關於自然人客戶更改姓名，下列哪些陳述正確？",
+            "en": "Which of the following are correct about a natural person customer changing their name?"
+          },
+          "source": {
+            "en": "FAQ applicable to all MSOs, AML/CFT A4; AML/CFT Guideline ¶4.3.2–4.3.3",
+            "tc": "《適用於所有金錢服務經營者的常見問題》打擊洗錢及恐怖分子資金籌集部分答4；《打擊洗錢及恐怖分子資金籌集指引》第4.3.2至4.3.3段"
+          }
+        },
+        {
+          "id": "m6-430",
+          "stem": {
+            "tc": "根據《打擊洗錢及恐怖分子資金籌集指引》附錄A，以下有關核實個人身分所用文件的陳述，哪些正確？",
+            "en": "Under Appendix A of the AML/CFT Guideline, which statements about documents used to verify an individual's identity are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline Appendix A ¶1–4",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》附錄A第1至4段"
+          }
+        },
+        {
+          "id": "m6-444",
+          "stem": {
+            "tc": "關於識別及核實法人及信託客戶，以下哪些陳述正確？",
+            "en": "Which of the following are correct about identifying and verifying legal person and trust customers?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.6–4.3.7, 4.3.11",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.3.6至4.3.7、4.3.11段"
+          }
+        },
+        {
+          "id": "m6-446",
+          "stem": {
+            "tc": "關於識別文件、認證及查閱客戶盡職審查紀錄，以下哪些陳述正確？",
+            "en": "Which of the following are correct about identification documents, certification and access to CDD records?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.14, 4.3.16, 4.14.1; FAQ applicable to all MSOs, AML/CFT A27",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.3.14、4.3.16、4.14.1段；所有金錢服務經營者適用的常見問題，打擊洗錢及恐怖分子資金籌集答27"
+          }
+        },
+        {
+          "id": "m6-479",
+          "stem": {
+            "tc": "個人客戶出示未過期外國護照及提供住址，但職員堅持只接受香港身份證。下列哪些陳述正確？",
+            "en": "An individual presents an unexpired foreign passport and supplies a residential address, but staff insist only Hong Kong identity cards are acceptable. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.2–4.3.5",
+            "tc": "《打擊洗錢指引》第4.3.2–4.3.5段"
+          }
+        },
+        {
+          "id": "m6-482",
+          "stem": {
+            "tc": "公司派一名獲適當授權、但並非董事或擁有人的僱員，親身建立業務關係。下列哪些陳述正確？",
+            "en": "A company sends one properly authorised employee, who is neither a director nor an owner, to establish a relationship face to face. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.5.4, ¶4.10.5; FAQ applicable to all MSOs, Q9",
+            "tc": "《打擊洗錢指引》第4.5.4, 第4.10.5段；適用於所有金錢服務經營者的常見問題第9題"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ownership",
+      "title": {
+        "tc": "沿擁有權追查實益擁有人",
+        "en": "Trace ownership and control to beneficial owners"
+      },
+      "questions": [
+        {
+          "id": "m6-342",
+          "stem": {
+            "tc": "就屬法團或合夥的客戶的實益擁有人而言，下列哪些陳述正確？",
+            "en": "Regarding the beneficial owners of a customer that is a corporation or a partnership, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.4.6, ¶4.4.7 and ¶4.4.9; FAQ applicable to all MSOs (C&ED portal), Q10",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.4.6、4.4.7及4.4.9段；《適用於所有金錢服務經營者的常見問題》（海關網站）第10問"
+          }
+        },
+        {
+          "id": "m6-344",
+          "stem": {
+            "tc": "就屬信託的客戶而言，下列哪些陳述正確？",
+            "en": "For a customer that is a trust, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.10, ¶4.3.12 and footnote 23, ¶4.4.11–4.4.12",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.3.10段、第4.3.12段及註腳23、第4.4.11至4.4.12段"
+          }
+        },
+        {
+          "id": "m6-360",
+          "stem": {
+            "tc": "關於識別客戶的實益擁有人及採取合理措施核實其身分，下列哪些陳述正確？",
+            "en": "Regarding the identification of a customer's beneficial owners and the reasonable measures taken to verify their identities, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.4.2–4.4.4 and ¶4.4.3 footnote 27",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.4.2至4.4.4段及第4.4.3段註腳27"
+          }
+        },
+        {
+          "id": "m6-361",
+          "stem": {
+            "tc": "關於客戶的擁有權及控制權結構，包括持票人股份，下列哪些陳述正確？",
+            "en": "Regarding a customer's ownership and control structure, including bearer shares, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.4.14–4.4.17 and ¶4.4.15 footnote 30; FAQ applicable to all MSOs (C&ED portal), Q8",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.4.14至4.4.17段及第4.4.15段註腳30；《適用於所有金錢服務經營者的常見問題》（海關網站）第8問"
+          }
+        },
+        {
+          "id": "m6-397",
+          "stem": {
+            "tc": "根據金錢服務經營者常見問題，以下有關在沒有擁有權下控制法團客戶的陳述，哪些是正確的？",
+            "en": "According to the MSO FAQ, which statements about control of a corporate customer without ownership are correct?"
+          },
+          "source": {
+            "en": "FAQ applicable to all MSOs (C&ED portal), AML FAQ10(a)–(b)",
+            "tc": "適用於所有金錢服務經營者的常見問題，打擊洗錢部分第10題(a)至(b)項"
+          }
+        },
+        {
+          "id": "m6-413",
+          "stem": {
+            "tc": "關於識別客戶的實益擁有人，下列哪些陳述正確？",
+            "en": "Which of the following are correct about identifying beneficial owners of customers?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline ¶4.4.5, 4.4.7, 4.4.18",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.4.5、4.4.7及4.4.18段"
+          }
+        },
+        {
+          "id": "m6-445",
+          "stem": {
+            "tc": "關於信託及持票人股份擁有權的證據，以下哪些陳述正確？",
+            "en": "Which of the following are correct about evidence for trusts and bearer-share ownership?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.12(b), (d) and fn24; ¶4.4.16–4.4.17",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.3.12(b)、(d)段及註24；第4.4.16至4.4.17段"
+          }
+        },
+        {
+          "id": "m6-480",
+          "stem": {
+            "tc": "美持有公司25%股本，控股公司持有75%；健沒有股份但最終控制管理。下列哪些陳述正確？",
+            "en": "A company is owned 25% by May and 75% by a holding company; Ken ultimately controls management without owning shares. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.4.6–4.4.9",
+            "tc": "《打擊洗錢指引》第4.4.6–4.4.9段"
+          }
+        },
+        {
+          "id": "m6-481",
+          "stem": {
+            "tc": "公司客戶有代名人及持票人股份，部分股份由註冊保管人持有，部分未存放於保管人。下列哪些陳述正確？",
+            "en": "A corporate customer has nominees and bearer shares, some held by a registered custodian and some not deposited with one. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.4.13–4.4.18",
+            "tc": "《打擊洗錢指引》第4.4.13–4.4.18段"
+          }
+        },
+        {
+          "id": "m6-493",
+          "stem": {
+            "tc": "受託人為家族信託建立關係，受益人按財產授予人的子女類別界定。下列哪些陳述正確？",
+            "en": "A trustee establishes a relationship for a family trust whose beneficiaries are defined as the settlor’s children. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.10, ¶4.3.12, ¶4.4.11–4.4.12",
+            "tc": "《打擊洗錢指引》第4.3.10, 第4.3.12, 第4.4.11–4.4.12段"
+          }
+        },
+        {
+          "id": "m6-495",
+          "stem": {
+            "tc": "個人客戶經常由無關連付款人提供資金，卻稱毋須識別客戶以外任何人。下列哪些陳述正確？",
+            "en": "An individual receives frequent funding from an unrelated payer, but claims there is no need to identify anyone beyond the named customer. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline ¶4.4.5; Circular MSSB/MIS_01/2024, controls 6, 8–9 and 11",
+            "tc": "《打擊洗錢指引》第4.4.5段；第三方付款通函，管控措施第6、8至9及11項"
+          }
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": {
+        "tc": "選對身分證據及認證方法",
+        "en": "Choose the right identity evidence and certification"
+      },
+      "questions": [
+        {
+          "id": "m6-353",
+          "stem": {
+            "tc": "關於由適合的證明人認證身分核實文件的複本，下列哪些陳述正確？",
+            "en": "Regarding the certification of copies of identification documents by a suitable certifier, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) Appendix A ¶7–10 and footnote 74",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）附錄A第7至10段及註腳74"
+          }
+        },
+        {
+          "id": "m6-447",
+          "stem": {
+            "tc": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關合適的證明人及身分文件認證的陳述，哪些正確？",
+            "en": "Which statements about appropriate certifiers and certification of identity documents under the AML/CFT Guideline are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) Appendix A ¶8–10 and fn74",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）附錄A第8至10段及註74"
+          }
+        }
+      ]
+    },
+    {
+      "id": "timing",
+      "title": {
+        "tc": "處理延後核實及非面對面業務",
+        "en": "Handle delayed verification and non-face-to-face business"
+      },
+      "questions": [
+        {
+          "id": "m6-352",
+          "stem": {
+            "tc": "如客戶不曾為身分識別的目的而現身，下列哪些陳述正確？",
+            "en": "Where a customer has not been physically present for identification purposes, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.10.1–4.10.4",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.10.1至4.10.4段"
+          }
+        },
+        {
+          "id": "m6-363",
+          "stem": {
+            "tc": "如金錢服務經營者在建立業務關係後才核實客戶的身分，下列哪些陳述正確？",
+            "en": "Regarding an MSO that verifies a customer's identity after establishing the business relationship, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.7.3–4.7.4",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.7.3至4.7.4段"
+          }
+        },
+        {
+          "id": "m6-414",
+          "stem": {
+            "tc": "在延後身分核實的業務關係中，關於付款處理，下列哪些陳述正確？",
+            "en": "Which of the following are correct about payments during a business relationship where identity verification has been deferred?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline ¶4.7.3(e), 4.7.4",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.7.3(e)及4.7.4段"
+          }
+        },
+        {
+          "id": "m6-483",
+          "stem": {
+            "tc": "經營者例外地先建立關係，但身分核實仍未完成；客戶現要求向陌生人付款而無合理解釋。下列哪些陳述正確？",
+            "en": "Verification remains incomplete after an MSO exceptionally starts a relationship; the customer now requests an unexplained payment to a stranger. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.7.3–4.7.4",
+            "tc": "《打擊洗錢指引》第4.7.3–4.7.4段"
+          }
+        },
+        {
+          "id": "m6-485",
+          "stem": {
+            "tc": "遙距個人客戶透過關長認可為可靠及獨立來源的數碼識別系統核實身分。下列哪些陳述正確？",
+            "en": "A remote individual customer is verified through a digital identification system recognised by CCE as reliable and independent. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.10.1–4.10.4",
+            "tc": "《打擊洗錢指引》第4.10.1–4.10.4段"
+          }
+        }
+      ]
+    },
+    {
+      "id": "risk",
+      "title": {
+        "tc": "分清簡化、一般及更嚴格審查",
+        "en": "Distinguish simplified, normal and enhanced due diligence"
+      },
+      "questions": [
+        {
+          "id": "m6-351",
+          "stem": {
+            "tc": "關於簡化盡職審查，下列哪些陳述正確？",
+            "en": "Regarding simplified due diligence (SDD), which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.8.6, ¶4.8.8(c)–(d), ¶4.8.10(f), ¶4.8.16 and ¶4.8.17(c)",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.8.6段、第4.8.8(c)至(d)段、第4.8.10(f)段、第4.8.16段及第4.8.17(c)段"
+          }
+        },
+        {
+          "id": "m6-364",
+          "stem": {
+            "tc": "關於執行簡化盡職審查的條件及潛在較低風險因素，下列哪些陳述正確？",
+            "en": "Regarding the conditions for applying simplified due diligence and the potentially lower risk factors, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.1.2, ¶4.8.3(a), ¶4.8.4, ¶4.8.7(a)(iii) and (c)(ii), and ¶4.8.8(a)",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.1.2段、第4.8.3(a)段、第4.8.4段、第4.8.7(a)(iii)及(c)(ii)段及第4.8.8(a)段"
+          }
+        },
+        {
+          "id": "m6-365",
+          "stem": {
+            "tc": "關於就特定客戶及產品執行有關實益擁有人的簡化客戶盡職審查，下列哪些陳述正確？",
+            "en": "Regarding simplified customer due diligence in relation to beneficial owners for particular customers and products, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.8.11, ¶4.8.16, ¶4.8.18 and ¶4.8.19–4.8.20",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.8.11段、第4.8.16段、第4.8.18段及第4.8.19至4.8.20段"
+          }
+        },
+        {
+          "id": "m6-366",
+          "stem": {
+            "tc": "就可引致高度洗錢／恐怖分子資金籌集風險的業務關係執行更嚴格的盡職審查，下列哪些陳述正確？",
+            "en": "Regarding enhanced due diligence on a business relationship that presents a high ML/TF risk, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.2, ¶4.9.4, ¶4.9.6(a), (b) and (d) and footnote 36",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.2段、第4.9.4段、第4.9.6(a)、(b)及(d)段及註腳36"
+          }
+        },
+        {
+          "id": "m6-371",
+          "stem": {
+            "tc": "關於保密號碼戶口、特別組織對其作出呼籲的司法管轄區及司法管轄區的對等，下列哪些陳述正確？",
+            "en": "Regarding numbered accounts, jurisdictions subject to a call by the FATF and jurisdictional equivalence, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.14.1 and footnotes 49–50, ¶4.15.1–4.15.2 and ¶4.16.2–4.16.3",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.14.1段及註腳49至50、第4.15.1至4.15.2段及第4.16.2至4.16.3段"
+          }
+        },
+        {
+          "id": "m6-427",
+          "stem": {
+            "tc": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關特定客戶、帳戶及產品的簡化盡職審查陳述，哪些正確？",
+            "en": "Under the AML/CFT Guideline, which statements about simplified due diligence for particular customers, accounts and products are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline ¶4.8.12–4.8.13, 4.8.17(c)(ii), 4.8.18",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.8.12至4.8.13、4.8.17(c)(ii)、4.8.18段"
+          }
+        },
+        {
+          "id": "m6-428",
+          "stem": {
+            "tc": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關投資公司及律師當事人戶口的實益擁有人簡化安排的陳述，哪些正確？",
+            "en": "Which statements about beneficial-owner concessions for investment vehicles and solicitors' client accounts are correct under the AML/CFT Guideline?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline ¶4.8.14–4.8.15, 4.8.19–4.8.20; AMLO Sch. 2 s.4(6)",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.8.14至4.8.15、4.8.19至4.8.20段；《打擊洗錢條例》附表2第4(6)條"
+          }
+        },
+        {
+          "id": "m6-429",
+          "stem": {
+            "tc": "以下有關客戶盡職審查中應對身分資料疑點及剩餘洗錢／恐怖分子資金籌集風險的陳述，哪些正確？",
+            "en": "Which statements about responding to identification doubts and residual ML/TF risk in customer due diligence are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline ¶4.8.3(c), 4.9.2; AMLO Sch. 2 s.3(1)(e)",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.8.3(c)、4.9.2段；《打擊洗錢條例》附表2第3(1)(e)條"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pep",
+      "title": {
+        "tc": "政治人物：先分類，再決定措施",
+        "en": "PEPs: classify first, then select measures"
+      },
+      "questions": [
+        {
+          "id": "m6-349",
+          "stem": {
+            "tc": "關於識別政治人物，下列哪些陳述正確？",
+            "en": "Regarding the identification of politically exposed persons (PEPs), which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.7(b) and ¶4.9.21; Circular MSSB/MIS_03/2023 (22 Nov 2023), Appendix section (2); FAQ applicable to all MSOs (C&ED portal), Q18",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.7(b)及4.9.21段；通函MSSB/MIS_03/2023（2023年11月22日）附錄第(2)節；《適用於所有金錢服務經營者的常見問題》（海關網站）第18問"
+          }
+        },
+        {
+          "id": "m6-350",
+          "stem": {
+            "tc": "關於對政治人物執行更嚴格的盡職審查，下列哪些陳述正確？",
+            "en": "Regarding enhanced due diligence on politically exposed persons (PEPs), which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.12 and footnote 37, ¶4.9.17, ¶4.9.24–4.9.25; FAQ applicable to all MSOs (C&ED portal), Q16 and Q21",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.12段及註腳37、第4.9.17段、第4.9.24至4.9.25段；《適用於所有金錢服務經營者的常見問題》（海關網站）第16及21問"
+          }
+        },
+        {
+          "id": "m6-367",
+          "stem": {
+            "tc": "關於國際組織政治人物及有關的國際組織，下列哪些陳述正確？",
+            "en": "Regarding international organisation PEPs and the international organisations concerned, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.14–4.9.15; FAQ applicable to all MSOs (C&ED portal), Q19",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.14至4.9.15段；《適用於所有金錢服務經營者的常見問題》（海關網站）第19問"
+          }
+        },
+        {
+          "id": "m6-368",
+          "stem": {
+            "tc": "關於金錢服務經營者識別政治人物的制度，以及對其執行更嚴格的盡職審查的方式，下列哪些陳述正確？",
+            "en": "Regarding an MSO's systems for identifying PEPs and the way it applies enhanced due diligence to them, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.16, ¶4.9.19–4.9.20, ¶4.9.22 and ¶4.9.26",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.16段、第4.9.19至4.9.20段、第4.9.22段及第4.9.26段"
+          }
+        },
+        {
+          "id": "m6-388",
+          "stem": {
+            "tc": "金錢服務經營者考慮停止對前非香港政治人物採取指明的更嚴格盡職審查措施，並覆核政治人物業務關係的審批人選。以下哪些陳述正確？",
+            "en": "An MSO considers discontinuing the specified EDD measures for a former non-Hong Kong PEP, and reviews who may approve PEP relationships. Which statements are correct?"
+          },
+          "source": {
+            "en": "FAQ AML/CFT A20; FAQ AML/CFT A21",
+            "tc": "《適用於所有金錢服務經營者的常見問題》打擊洗錢及恐怖分子資金籌集常見問題答20; 《適用於所有金錢服務經營者的常見問題》打擊洗錢及恐怖分子資金籌集常見問題答21"
+          }
+        },
+        {
+          "id": "m6-415",
+          "stem": {
+            "tc": "關於政治人物的風險或身分變化，下列哪些陳述正確？",
+            "en": "Which of the following are correct about changes in the risk or status of politically exposed persons (PEPs)?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline ¶4.9.12 fn38, 4.9.17(b)–(c), 4.9.18 fn42; FAQ applicable to all MSOs, AML/CFT A20",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.9.12段註38、第4.9.17(b)至(c)段及第4.9.18段註42；《適用於所有金錢服務經營者的常見問題》打擊洗錢及恐怖分子資金籌集部分答20"
+          }
+        },
+        {
+          "id": "m6-416",
+          "stem": {
+            "tc": "關於前政治人物風險評估及獲授權批准政治人物業務關係的人選，下列哪些陳述正確？",
+            "en": "Which of the following are correct about former PEP risk assessments and the persons authorised to approve PEP relationships?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline ¶4.9.12, 4.9.18; FAQ applicable to all MSOs, AML/CFT A20–A21",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.9.12及4.9.18段；《適用於所有金錢服務經營者的常見問題》打擊洗錢及恐怖分子資金籌集部分答20至21"
+          }
+        },
+        {
+          "id": "m6-448",
+          "stem": {
+            "tc": "關於以風險為本的方法處理財富來源及客戶狀況，以下哪些陳述正確？",
+            "en": "Which of the following are correct about applying a risk-based approach to source of wealth and customer profiles?"
+          },
+          "source": {
+            "en": "FAQ applicable to all MSOs, AML/CFT A16",
+            "tc": "所有金錢服務經營者適用的常見問題，打擊洗錢及恐怖分子資金籌集答16"
+          }
+        },
+        {
+          "id": "m6-494",
+          "stem": {
+            "tc": "一名已卸任非香港政治人物提供匯出銀行名稱，並稱退休自動終止一切更嚴格審查。下列哪些陳述正確？",
+            "en": "A former non-Hong Kong PEP supplies the name of a sending bank and says retirement automatically ended all enhanced checks. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.12 and footnote 37, ¶4.9.24–4.9.25; FAQ applicable to all MSOs, Q21",
+            "tc": "《打擊洗錢指引》第4.9.12段及註37, 第4.9.24–4.9.25段；適用於所有金錢服務經營者的常見問題第21題"
+          }
+        }
+      ]
+    },
+    {
+      "id": "intermediary",
+      "title": {
+        "tc": "依賴中介人：工作可借助，責任仍在",
+        "en": "Relying on intermediaries: keep control and responsibility"
+      },
+      "questions": [
+        {
+          "id": "m6-370",
+          "stem": {
+            "tc": "關於金錢服務經營者依賴中介人執行客戶盡職審查措施，下列哪些陳述正確？",
+            "en": "Regarding an MSO's reliance on an intermediary to perform customer due diligence measures, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.11.1–4.11.2 and ¶4.11.5–4.11.7",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.11.1至4.11.2段及第4.11.5至4.11.7段"
+          }
+        },
+        {
+          "id": "m6-386",
+          "stem": {
+            "tc": "一家在香港以外成立為法團的金錢服務經營者並非經遷冊實體。以下有關中介人及相關外地金融機構的陳述，哪些正確？",
+            "en": "An MSO incorporated outside Hong Kong is not a re-domiciled entity. Which statements about intermediaries and related foreign financial institutions are correct?"
+          },
+          "source": {
+            "en": "FAQ AML/CFT A22; AMLO Sch.2 s.18(7), related foreign financial institution (a), (b)(iii)(A); AMLO Sch.2 s.18(7), related foreign financial institution (a), (b)(iii)(B); AML/CFT Guideline ¶4.11.13",
+            "tc": "《適用於所有金錢服務經營者的常見問題》打擊洗錢及恐怖分子資金籌集常見問題答22; 《打擊洗錢條例》附表2第18(7)條「相關外地金融機構」定義(a)、(b)(iii)(A)段; 《打擊洗錢條例》附表2第18(7)條「相關外地金融機構」定義(a)、(b)(iii)(B)段; 《打擊洗錢及恐怖分子資金籌集指引》第4.11.13段"
+          }
+        },
+        {
+          "id": "m6-426",
+          "stem": {
+            "tc": "根據《打擊洗錢條例》及《打擊洗錢及恐怖分子資金籌集指引》，以下有關金錢服務經營者依賴中介人執行客戶盡職審查的陳述，哪些正確？",
+            "en": "Which statements about an MSO's reliance on intermediaries for customer due diligence are correct under the AMLO and the AML/CFT Guideline?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline ¶4.11.7–4.11.8, 4.11.13; AMLO Sch. 2 s.18(7), related foreign financial institution (a), (b)(ii)",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.11.7至4.11.8、4.11.13段；《打擊洗錢條例》附表2第18(7)條相關外地金融機構定義(a)、(b)(ii)段"
+          }
+        },
+        {
+          "id": "m6-484",
+          "stem": {
+            "tc": "經營者依賴合資格中介人的自身盡職審查；中介人計劃停業，且供應紀錄一向緩慢。下列哪些陳述正確？",
+            "en": "An MSO relies on an eligible intermediary’s own CDD; the intermediary plans to cease trading and has been slow to supply records. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.11.1–4.11.2, ¶4.11.5–4.11.7",
+            "tc": "《打擊洗錢指引》第4.11.1–4.11.2, 第4.11.5–4.11.7段"
+          }
+        }
+      ]
+    },
+    {
+      "id": "monitoring",
+      "title": {
+        "tc": "持續監察：先查原因，再作決定",
+        "en": "Ongoing monitoring: investigate before deciding"
+      },
+      "questions": [
+        {
+          "id": "m6-347",
+          "stem": {
+            "tc": "金錢服務經營者在設計交易監察系統及程序（包括設定參數及門檻）時，應顧及下列哪些事項？",
+            "en": "In designing its transaction monitoring systems and processes, including setting parameters and thresholds, which of the following should an MSO have regard to?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶5.4 and ¶5.7",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第5.4及5.7段"
+          }
+        },
+        {
+          "id": "m6-348",
+          "stem": {
+            "tc": "關於金錢服務經營者持續監察其業務關係，下列哪些陳述正確？",
+            "en": "Regarding an MSO's ongoing monitoring of its business relationships, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶5.2 footnote 53, ¶5.3 and ¶5.9; FAQ applicable to all MSOs (C&ED portal), Q15 and Q23",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第5.2段註腳53、第5.3及5.9段；《適用於所有金錢服務經營者的常見問題》（海關網站）第15及23問"
+          }
+        },
+        {
+          "id": "m6-372",
+          "stem": {
+            "tc": "關於覆核客戶的盡職審查紀錄，以及金錢服務經營者的交易監察系統及程序，下列哪些陳述正確？",
+            "en": "Regarding the review of customers' CDD records and an MSO's transaction monitoring systems and processes, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶5.1, ¶5.2, ¶5.6 and ¶5.8; FAQ applicable to all MSOs (C&ED portal), Q22",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第5.1、5.2、5.6及5.8段；《適用於所有金錢服務經營者的常見問題》（海關網站）第22問"
+          }
+        },
+        {
+          "id": "m6-373",
+          "stem": {
+            "tc": "關於金錢服務經營者為識辨客戶的交易有否懷疑的理由而採取的步驟，以及其後的處理，下列哪些陳述正確？",
+            "en": "Regarding the steps an MSO takes to identify whether a customer's transactions give grounds for suspicion, and what follows from them, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶5.10–5.12 and ¶5.14",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第5.10至5.12段及第5.14段"
+          }
+        },
+        {
+          "id": "m6-486",
+          "stem": {
+            "tc": "客戶使用不同業務線的多個帳戶；逐個看似正常，但合併活動已大幅改變。下列哪些陳述正確？",
+            "en": "A customer uses several accounts in different business lines; each looks ordinary separately, but combined activity has changed substantially. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶5.2, ¶5.6, ¶5.8; FAQ applicable to all MSOs, Q22",
+            "tc": "《打擊洗錢指引》第5.2, 第5.6, 第5.8段；適用於所有金錢服務經營者的常見問題第22題"
+          }
+        },
+        {
+          "id": "m6-487",
+          "stem": {
+            "tc": "查詢後，不尋常付款獲滿意解釋，但亦揭示客戶業務有持續性的改變。下列哪些陳述正確？",
+            "en": "An unusual payment is explained satisfactorily after enquiries, but the enquiry also reveals a lasting change in the customer’s business. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶5.10–5.12, ¶5.14",
+            "tc": "《打擊洗錢指引》第5.10–5.12, 第5.14段"
+          }
+        }
+      ]
+    },
+    {
+      "id": "screening",
+      "title": {
+        "tc": "制裁篩查：何時篩、篩誰、如何處理吻合",
+        "en": "Sanctions screening: when, whom and how to resolve matches"
+      },
+      "questions": [
+        {
+          "id": "m6-355",
+          "stem": {
+            "tc": "關於金錢服務經營者記錄恐怖分子及被指認各方的數據庫及篩查，下列哪些陳述正確？",
+            "en": "Regarding an MSO's database of terrorists and designated parties and its screening, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.13–6.14, ¶6.16 footnote 58, ¶6.17 and ¶6.19; FAQ applicable to all MSOs (C&ED portal), Q24",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.13至6.14段、第6.16段註腳58、第6.17及6.19段；《適用於所有金錢服務經營者的常見問題》（海關網站）第24問"
+          }
+        },
+        {
+          "id": "m6-374",
+          "stem": {
+            "tc": "關於金錢服務經營者為遵守有關恐怖分子資金籌集、金融制裁及擴散資金籌集的法規而設的管控措施，以及其記錄恐怖分子及被指認各方的數據庫，下列哪些陳述正確？",
+            "en": "Regarding the controls an MSO maintains to comply with the laws on terrorist financing, financial sanctions and proliferation financing, and its database of terrorists and designated parties, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.12–6.15",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.12至6.15段"
+          }
+        },
+        {
+          "id": "m6-375",
+          "stem": {
+            "tc": "關於金錢服務經營者篩查機制的目的、跨境電傳轉帳的篩查，以及可能吻合的姓名／名稱的處理，下列哪些陳述正確？",
+            "en": "Regarding the purpose of an MSO's screening mechanism, the screening of cross-border wire transfers and the handling of possible name matches, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.16 and ¶6.18",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.16及6.18段"
+          }
+        },
+        {
+          "id": "m6-399",
+          "stem": {
+            "tc": "根據金錢服務經營者常見問題，在跨境電傳轉帳或匯款交易中，最低限度的制裁篩查包括以下哪些相關方？",
+            "en": "According to the MSO FAQ, which parties are included in the minimum sanctions screening for a cross-border wire transfer or remittance transaction?"
+          },
+          "source": {
+            "en": "FAQ applicable to all MSOs (C&ED portal), AML FAQ24(a)–(c), (e)",
+            "tc": "適用於所有金錢服務經營者的常見問題，打擊洗錢部分第24題(a)至(c)、(e)項"
+          }
+        },
+        {
+          "id": "m6-488",
+          "stem": {
+            "tc": "低風險客戶出現在新公布、尚未經香港立法實施的聯合國名單。下列哪些陳述正確？",
+            "en": "A low-risk customer appears on a newly announced UN list not yet implemented through Hong Kong legislation. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.12–6.15",
+            "tc": "《打擊洗錢指引》第6.12–6.15段"
+          }
+        }
+      ]
+    },
+    {
+      "id": "third-party",
+      "title": {
+        "tc": "第三方支付：接納前逐項過關",
+        "en": "Third-party payments: work through acceptance conditions"
+      },
+      "questions": [
+        {
+          "id": "m6-356",
+          "stem": {
+            "tc": "根據香港海關有關第三方支付涉及的洗錢及恐怖分子資金籌集風險的通函，下列哪些陳述正確？",
+            "en": "According to C&ED's circular on the ML/TF risks associated with third party payments, which of the following are correct?"
+          },
+          "source": {
+            "en": "Circular MSSB/MIS_01/2024 (17 Sep 2024), Expected standards on key control measures, items 3–6 and footnote 6",
+            "tc": "通函MSSB/MIS_01/2024（2024年9月17日）「主要管控措施的預期標準」第3至6項及註6"
+          }
+        },
+        {
+          "id": "m6-381",
+          "stem": {
+            "tc": "香港海關有關第三方支付的通函，把下列哪些情況列為可疑交易訊號／潛在較高風險因素？",
+            "en": "Which of the following does C&ED's circular on third party payments list among its red flags or potentially higher risk factors?"
+          },
+          "source": {
+            "en": "C&ED Circular MSSB/MIS_01/2024 (17 Sep 2024), Red flags/potentially higher risk factors, page 3",
+            "tc": "香港海關通函 MSSB/MIS_01/2024（2024年9月17日）「可疑交易訊號／潛在較高風險因素」，第2至3頁"
+          }
+        },
+        {
+          "id": "m6-382",
+          "stem": {
+            "tc": "根據香港海關有關第三方支付的通函，就金錢服務經營者處理這類支付的一般事宜及政策和程序的預期標準而言，下列哪些陳述正確？",
+            "en": "According to C&ED's circular on third party payments, which of the following are correct about the expected standards for an MSO's general approach to such payments and its policies and procedures on them?"
+          },
+          "source": {
+            "en": "C&ED Circular MSSB/MIS_01/2024 (17 Sep 2024), Expected standards on key control measures, items 1, 2 and 4 and footnote 5",
+            "tc": "香港海關通函 MSSB/MIS_01/2024（2024年9月17日）「主要管控措施的預期標準」第1、2及4項及註5"
+          }
+        },
+        {
+          "id": "m6-383",
+          "stem": {
+            "tc": "根據香港海關有關第三方支付的通函，就評估及監察第三方支付而言，下列哪些陳述正確？",
+            "en": "According to C&ED's circular on third party payments, which of the following are correct about assessing and monitoring such payments?"
+          },
+          "source": {
+            "en": "C&ED Circular MSSB/MIS_01/2024 (17 Sep 2024), Expected standards on key control measures, items 6–10 and footnote 9",
+            "tc": "香港海關通函 MSSB/MIS_01/2024（2024年9月17日）「主要管控措施的預期標準」第6至10項及註9"
+          }
+        },
+        {
+          "id": "m6-384",
+          "stem": {
+            "tc": "根據香港海關有關第三方支付的通函，就金錢服務經營者處理第三方支付時應採取的步驟而言，下列哪些陳述正確？",
+            "en": "According to C&ED's circular on third party payments, which of the following are correct about the further steps it expects of MSOs in handling such payments?"
+          },
+          "source": {
+            "en": "C&ED Circular MSSB/MIS_01/2024 (17 Sep 2024), Red flags/potentially higher risk factors, page 3; Expected standards on key control measures, items 4(e), 11 and 12 and footnote 8; closing paragraphs, page 6",
+            "tc": "香港海關通函 MSSB/MIS_01/2024（2024年9月17日）「可疑交易訊號／潛在較高風險因素」，第2頁；「主要管控措施的預期標準」第4(e)、11及12項及註8；第5頁末段"
+          }
+        },
+        {
+          "id": "m6-398",
+          "stem": {
+            "tc": "以下哪些陳述正確識別轉賬或匯款的匯款人，以及第三方付款人可能具有的身分？",
+            "en": "Which statements correctly identify the originator of a transfer or remittance, and the possible role of a third-party payer?"
+          },
+          "source": {
+            "en": "AMLO Sch. 2 ss.12(11) and 13(3); C&ED Circular MSSB/MIS_01/2024, Expected standards on key control measures, item 9",
+            "tc": "《打擊洗錢條例》附表2第12(11)及13(3)條；海關通函MSSB/MIS_01/2024（2024年9月17日），主要管控措施的預期標準第9項"
+          }
+        },
+        {
+          "id": "m6-460",
+          "stem": {
+            "tc": "關於第三方支付風險及交易監察參數，下列哪些陳述正確？",
+            "en": "Which statements about third-party payment risks and transaction-monitoring parameters are correct?"
+          },
+          "source": {
+            "en": "Circular MSSB/MIS_01/2024, red flags and key controls 7–8, fn6; AML/CFT Guideline ¶5.7(d)–(e)",
+            "tc": "通函MSSB/MIS_01/2024可疑交易訊號及主要管控措施第7至8項、註6；《打擊洗錢及恐怖分子資金籌集指引》第5.7(d)至(e)段"
+          }
+        },
+        {
+          "id": "m6-496",
+          "stem": {
+            "tc": "經營者被要求接受同一未受規管人士為多個無關連客戶付款，卻沒有可信的商業解釋。下列哪些陳述正確？",
+            "en": "An MSO is asked to accept payments by one unregulated person for several unrelated customers, without a credible commercial explanation. Which statements are correct?"
+          },
+          "source": {
+            "en": "Circular MSSB/MIS_01/2024, controls 2, 6, 8–9",
+            "tc": "第三方付款通函，管控措施第2、6及8至9項"
+          }
+        }
+      ]
+    },
+    {
+      "id": "transfers",
+      "title": {
+        "tc": "電傳轉帳與匯款：按角色及金額判斷",
+        "en": "Wire transfers and remittances: assess role and amount"
+      },
+      "questions": [
+        {
+          "id": "m6-376",
+          "stem": {
+            "tc": "關於電傳轉帳規定所涵蓋的交易及角色，以及這些規定與匯款交易的關係，下列哪些陳述正確？",
+            "en": "Regarding which transactions and roles the wire transfer requirements cover, and how they relate to remittance transactions, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.1 and footnote 67, ¶10.2, ¶10.3 and ¶11.2",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第10.1段及註腳67、第10.2、10.3及11.2段"
+          }
+        },
+        {
+          "id": "m6-377",
+          "stem": {
+            "tc": "金錢服務經營者在電傳轉帳中擔任匯款機構時，就附隨轉帳的資料是否準確及可供追蹤，以及核實匯款人的身分而言，下列哪些陳述正確？",
+            "en": "For an MSO acting as the ordering institution of a wire transfer, which of the following are correct about the accuracy and traceability of the information accompanying the transfer and verifying the originator?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.7–10.9 and footnote 70; FAQ applicable to all MSOs (C&ED portal), Q25",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第10.7至10.9段及註腳70；《適用於所有金錢服務經營者的常見問題》（海關網站）第25問"
+          }
+        },
+        {
+          "id": "m6-378",
+          "stem": {
+            "tc": "關於金錢服務經營者就電傳轉帳及匯款傳遞或備存的資料及紀錄，以及其就匯出電傳轉帳設立的保障措施，下列哪些陳述正確？",
+            "en": "Regarding the information and records an MSO passes on or keeps for wire transfers and remittances, and its safeguards for outgoing wire transfers, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.10, ¶10.12–10.13 and ¶11.6; FAQ applicable to all MSOs (C&ED portal), Q26",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第10.10段、第10.12至10.13段及第11.6段；《適用於所有金錢服務經營者的常見問題》（海關網站）第26問"
+          }
+        },
+        {
+          "id": "m6-379",
+          "stem": {
+            "tc": "關於金錢服務經營者在電傳轉帳中擔任中介機構或收款機構時的程序及責任，下列哪些陳述正確？",
+            "en": "Regarding the procedures and duties of an MSO acting as an intermediary or beneficiary institution in a wire transfer, which of the following are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.15–10.16, ¶10.19 and ¶10.22",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第10.15至10.16段、第10.19及10.22段"
+          }
+        },
+        {
+          "id": "m6-400",
+          "stem": {
+            "tc": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關參與電傳轉帳的機構責任的陳述，哪些是正確的？",
+            "en": "Under the AML/CFT Guideline, which statements about the duties of institutions involved in wire transfers are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.18, ¶10.20 and ¶7.19 second paragraph",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第10.18、10.20段及第7.19段第二段"
+          }
+        },
+        {
+          "id": "m6-443",
+          "stem": {
+            "tc": "就不適用電傳轉帳規定的咭交易而言，假設每項轉帳均附隨咭號。以下哪些陳述正確？",
+            "en": "For the card-related exclusion from the wire transfer requirements, assume the card number accompanies each transfer. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline ¶10.4(c)(i)–(iii)",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》第10.4(c)(i)至(iii)段"
+          }
+        },
+        {
+          "id": "m6-489",
+          "stem": {
+            "tc": "匯款機構處理沒有帳戶號碼的電傳轉帳，並已按適用規定核實匯款人。下列哪些陳述正確？",
+            "en": "An ordering MSO processes a wire transfer without an account number after previously verifying the originator under the applicable requirements. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.7–10.9; FAQ applicable to all MSOs, Q25 and Guideline footnote 70",
+            "tc": "《打擊洗錢指引》第10.7–10.9段；適用於所有金錢服務經營者的常見問題第25題及指引註腳70"
+          }
+        },
+        {
+          "id": "m6-490",
+          "stem": {
+            "tc": "匯款機構把同一匯款人的海外轉帳批量處理，另有本地轉帳未附完整匯款人資料。下列哪些陳述正確？",
+            "en": "An ordering MSO batches one originator’s overseas transfers and separately sends domestic transfers without full originator details. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.10, ¶10.12–10.13",
+            "tc": "《打擊洗錢指引》第10.10, 第10.12–10.13段"
+          }
+        },
+        {
+          "id": "m6-491",
+          "stem": {
+            "tc": "跨境轉帳因技術限制，在中介機構轉為本地訊息時未能保留隨附資料。下列哪些陳述正確？",
+            "en": "A cross-border transfer loses accompanying information when an intermediary converts it to a domestic message because of technical limits. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.15–10.16, ¶10.19",
+            "tc": "《打擊洗錢指引》第10.15–10.16, 第10.19段"
+          }
+        },
+        {
+          "id": "m6-492",
+          "stem": {
+            "tc": "收款機構收到9,000港元轉帳，匯款人資料無意義；收款人身分先前已核實。下列哪些陳述正確？",
+            "en": "A beneficiary institution receives a HK$9,000 wire transfer with meaningless originator information; the recipient’s identity was previously verified. Which statements are correct?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.19–10.22",
+            "tc": "《打擊洗錢指引》第10.19–10.22段"
+          }
+        }
+      ]
+    },
+    {
+      "id": "trade",
+      "title": {
+        "tc": "交付渠道及貿易洗錢風險",
+        "en": "Delivery channels and trade-based laundering risks"
+      },
+      "questions": [
+        {
+          "id": "m6-380",
+          "stem": {
+            "tc": "根據香港海關〈與交付渠道有關的洗錢及恐怖分子資金籌集風險〉通函，下列哪些陳述正確？",
+            "en": "According to C&ED's circular on the money laundering and terrorist financing risks associated with delivery channels, which of the following are correct?"
+          },
+          "source": {
+            "en": "C&ED Circular MSSB/MIS_05/2021 (13 Dec 2021) ¶1–4, ¶6 and Note 4",
+            "tc": "香港海關通函 MSSB/MIS_05/2021（2021年12月13日）第1至4段、第6段及註4"
+          }
+        },
+        {
+          "id": "m6-449",
+          "stem": {
+            "tc": "關於司法管轄區風險評估及跨境交付渠道的管控措施，以下哪些陳述正確？",
+            "en": "Which of the following are correct about jurisdictional risk assessment and controls for cross-border delivery channels?"
+          },
+          "source": {
+            "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.16.2; Circular MSSB/MIS_05/2021 ¶3",
+            "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.16.2段；通函MSSB/MIS_05/2021第3段"
+          }
+        },
+        {
+          "id": "m6-471",
+          "stem": {
+            "tc": "關於貿易實體的地址及網上資料，下列哪些陳述正確？",
+            "en": "Which statements about trade entities’ addresses and online presence are correct?"
+          },
+          "source": {
+            "en": "Trade-Based Money Laundering Risk Indicators p.3",
+            "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第3頁"
+          }
+        },
+        {
+          "id": "m6-472",
+          "stem": {
+            "tc": "關於貿易實體的公司結構及人手，下列哪些陳述正確？",
+            "en": "Which statements about trade entities’ corporate structures and staffing are correct?"
+          },
+          "source": {
+            "en": "Trade-Based Money Laundering Risk Indicators p.3",
+            "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第3頁"
+          }
+        },
+        {
+          "id": "m6-473",
+          "stem": {
+            "tc": "關於貿易實體的業務活動跡象，下列哪些陳述正確？",
+            "en": "Which statements about trade entities’ business footprints are correct?"
+          },
+          "source": {
+            "en": "Trade-Based Money Laundering Risk Indicators p.3",
+            "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第3頁"
+          }
+        },
+        {
+          "id": "m6-474",
+          "stem": {
+            "tc": "關於與客戶業務不一致的貿易活動，下列哪些陳述正確？",
+            "en": "Which statements about trade activity inconsistent with a customer’s business are correct?"
+          },
+          "source": {
+            "en": "Trade-Based Money Laundering Risk Indicators p.4",
+            "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第4頁"
+          }
+        },
+        {
+          "id": "m6-475",
+          "stem": {
+            "tc": "關於貿易融資及業務快速擴張，下列哪些陳述正確？",
+            "en": "Which statements about trade financing and rapid business expansion are correct?"
+          },
+          "source": {
+            "en": "Trade-Based Money Laundering Risk Indicators p.4",
+            "tc": "《以貿易為本的洗錢風險指標》（英文原文；中文為學習譯文）第4頁"
+          }
+        },
+        {
+          "id": "m6-476",
+          "stem": {
+            "tc": "新成立貿易公司幾乎沒有資產、僱員或活躍業務。哪些陳述符合2026年通函？",
+            "en": "A newly incorporated trade company has almost no assets, employees or active business. Which statements reflect the 2026 circular?"
+          },
+          "source": {
+            "en": "Circular MSSB/MIS_01/2026, section 2",
+            "tc": "《打擊以貿易進行洗錢活動指引》通函，第2項"
+          }
+        },
+        {
+          "id": "m6-477",
+          "stem": {
+            "tc": "監察警報涉及與客戶過往紀錄不符的貿易付款。哪些處理符合2026年通函？",
+            "en": "A monitoring alert concerns trade payments inconsistent with a customer’s history. Which responses follow the 2026 circular?"
+          },
+          "source": {
+            "en": "Circular MSSB/MIS_01/2026, section 3",
+            "tc": "《打擊以貿易進行洗錢活動指引》通函，第3項"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reporting",
+      "title": {
+        "tc": "有懷疑後：內部報告、舉報及避免通風報訊",
+        "en": "After suspicion: internal reports, disclosure and tipping-off"
+      },
+      "questions": []
+    }
+  ]
+}

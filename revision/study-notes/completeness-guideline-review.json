@@ -1,0 +1,478 @@
+{
+  "review_type": "Independent source-first omission audit; source 03 bounded guideline review",
+  "created_utc": "2026-10-19T04:36:11.840763+00:00",
+  "reviewer": "study_source_review independent agent",
+  "scope": {
+    "deciding_originals": [
+      "docs/text/EN/03.txt: chapters 2–11, Appendix A, glossary",
+      "docs/text/TC/03.txt: corresponding selected passages and settled bilingual conditions"
+    ],
+    "comparison": [
+      "part5.py",
+      "part6.py",
+      "part7.py",
+      "memory_panels.py",
+      "essentials.py (new source-03-related additions only)",
+      "Part 1 existing sanctions/PF/TF material and Part 3 definitions checked as cross-references"
+    ],
+    "method": "Read substantive original requirements, lists, conditions and footnotes, then compare concepts against source-authored manuscript prose and recall panels. The question bank was not used to supply copy or determine completeness. Anchor strings identify deciding passages; textual matching is not semantic validation.",
+    "limitations": [
+      "This is a focused semantic gap audit of source 03, not a legal opinion or certification that every statement in all 01–26 publications is covered.",
+      "No comprehensive re-review of unchanged Part 1–4 statutory/licensing prose; parent and another reviewer handle those sources.",
+      "Draft essentials.py is being integrated concurrently. Findings describe the snapshot bound below; later integration/resolution requires read-back.",
+      "Non-exhaustive illustrative source lists need not be reproduced verbatim; findings prioritize distinct concepts, qualifications, actors and operative requirements.",
+      "Publication edition and settled language differences are retained; no live legal update or outside research performed."
+    ]
+  },
+  "input_sha256": {
+    "revision/study-notes/part1.py": "9da3f6a1c6c38a0234ab255c0a3f356e26612bb4b2a005a71ca192edacb310e8",
+    "revision/study-notes/part2.py": "7e7c2a63d1c855408eb8a3d6c78a56bf2b0501ea9cfc8fdb91662604a460976b",
+    "revision/study-notes/part3.py": "7c2f932a4cde10fa87e4ab261db4c620c9a37358077c729b8982994935f93332",
+    "revision/study-notes/part4.py": "48e115717c291d49cde87e84759df973888ecc6775ceae1f8183191f5afe6d24",
+    "revision/study-notes/part5.py": "1da26f2a2a99e55d189ac8939f20d9010759ef3d02ac8d8ba6a52f7f9d323899",
+    "revision/study-notes/part6.py": "ab00b7f823ed977ee961b655193886f41015b5a5675e528aa5b6a17c66eba4de",
+    "revision/study-notes/part7.py": "9cb8367957cb53d135eb01d8f8866e15670c184da686507a69e19787ee2de7cc",
+    "revision/study-notes/memory_panels.py": "51377f4fe7a8c7a788af5e70b42fb6533f60fe68d77b3a676c897e822d75434e",
+    "revision/study-notes/essentials.py": "f6530c64d4dafb439f84dd694d13e6ea145f82c53d9284c0306d71f98a35aefe",
+    "docs/text/EN/03.txt": "6c602e7e4d82a4cf5bbd2a57b9e3fb5b8c20f9e4785c04a130baff34ab53d9ab",
+    "docs/text/TC/03.txt": "a22ad6aac57c9a85513ba3b1d3f44d8edd206b5278728a79454a353738d6f1ad",
+    "revision/CONFLICT-CALLS.md": "f57cd8caf072182dcd99454eac37434125a3508f84608e25e26967010e1f7eed"
+  },
+  "findings": [
+    {
+      "id": "G03-01",
+      "priority": "material",
+      "classification": "modal_correction",
+      "manuscript_target": "part6.py / monitoring / 持續CDD及交易監察",
+      "source": {
+        "doc": "03",
+        "locator": "5.2 footnote 53",
+        "deciding_anchor": "an MSO should conduct a review upon reactivation of the relationship"
+      },
+      "observed_coverage": "Current English says dormant relationships MAY be reviewed on reactivation; TC 可待 likewise does not state the required reactivation review. Regular dormant review need not be done; defining dormancy in policy is absent.",
+      "recommended_substance": {
+        "tc": "休眠客戶不必定期覆核現有CDD紀錄，但關係重新啟用時須覆核；政策及程序須清楚界定何謂休眠客戶。",
+        "en": "Regular review of dormant CDD records is unnecessary, but review is required upon relationship reactivation. Policies/procedures should clearly define a dormant customer."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-02",
+      "priority": "material",
+      "classification": "partially_covered",
+      "manuscript_target": "part6.py / identity / 收集與核實須分開",
+      "source": {
+        "doc": "03",
+        "locator": "4.3.12 and footnotes 23–25",
+        "deciding_anchor": "written confirmation from a trust company which is within the same financial group as the MSO"
+      },
+      "observed_coverage": "Trust fields and verification dimensions are already covered. Generic deed/register/specified professional confirmation omits the five alternatives and the conditions attaching to them.",
+      "recommended_substance": {
+        "tc": "信託的名稱、法律形式、當時是否存在及規管／約束權力，可參照信託契據／類似文書（特殊情況可存遮蓋本）、適當登記冊、專業受託人書面確認、已審閱文書的律師書面確認，或同一金融集團的信託公司書面確認（須由該公司管理該信託）。適當登記冊須有足夠透明度並更新擁有／控制資料；專業受託人是業務包括管理／行政信託服務者。",
+        "en": "For trust name, legal form, current existence and binding/regulating powers, examples are deed/similar instrument (exceptionally a redacted copy), appropriate register, professional trustee written confirmation, written confirmation from a lawyer who reviewed the instrument, or same-financial-group trust-company confirmation only where that company manages the trust. An appropriate register needs adequate transparency and current ownership/control data; professional trustee means trust administration/management as a profession or business."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-03",
+      "priority": "material",
+      "classification": "absent",
+      "manuscript_target": "part6.py / identity",
+      "source": {
+        "doc": "03",
+        "locator": "4.3.9",
+        "deciding_anchor": "satisfy itself as to the legitimate purpose of the organisation"
+      },
+      "observed_coverage": "Generic legal-person identity verification does not state this distinct purpose check.",
+      "recommended_substance": {
+        "tc": "對協會、會所、社團、慈善團體、宗教組織、學會、互助／友愛社團、合作／公積社團等，須信納組織的合法目的，例如查閱章程。",
+        "en": "For associations, clubs, societies, charities, religious bodies, institutes, mutual/friendly societies and cooperative/provident societies, satisfy itself as to the organisation’s legitimate purpose, for example by sighting its constitution."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-04",
+      "priority": "material",
+      "classification": "partially_covered",
+      "manuscript_target": "part6.py / beneficial-owners / 核實及特殊結構",
+      "source": {
+        "doc": "03",
+        "locator": "4.4.2–4.4.3",
+        "deciding_anchor": "should endeavour to obtain the same identification information as at paragraph [4.3.2] as far as possible"
+      },
+      "observed_coverage": "BO definitions and reasonable risk-sensitive verification are covered. Endeavouring to obtain individual identification data as far as possible and the exceptionally-low-risk verification permission are absent.",
+      "recommended_substance": {
+        "tc": "識別實益擁有人時，應盡量設法取得姓名、出生日期、國籍、唯一識別號碼及證件類型。核實程度須合理及按風險；在極低風險情況（如慈善信託），可合理地以客戶提供資料（包括已核實受託人）及確認其認識該實益擁有人來確認身分；不是所有慈善團體一律豁免。",
+        "en": "When identifying a BO, endeavour as far as possible to obtain name, date of birth, nationality, unique identifier and document type. Verification remains reasonable and risk-sensitive. Exceptionally low risk, such as a charitable trust, may justify confirmation using customer-provided information, including verified trustees, and confirmation the BO is known to the customer. This is not an automatic charity exemption."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-05",
+      "priority": "material",
+      "classification": "absent",
+      "manuscript_target": "part6.py / simplified or intermediaries; part3.py / definitions",
+      "source": {
+        "doc": "03",
+        "locator": "4.16.2–4.16.3",
+        "deciding_anchor": "The MSO should document its assessment of the jurisdiction"
+      },
+      "observed_coverage": "Equivalent-jurisdiction definition is already covered in Part 3. How an MSO determines a non-FATF jurisdiction’s equivalence and keeps that assessment current is absent.",
+      "recommended_substance": {
+        "tc": "對非FATF成員司法管轄區，MSO可能須自行評估其規定是否相類，並記錄評估；可考慮區域組織成員資格及相互評估、FATF策略缺失及改善進度、關長通函及專門機構刊物。須定期及／或在觸發事件後覆核。",
+        "en": "For a non-FATF-member jurisdiction, the MSO may need to determine for itself whether comparable requirements apply and document the assessment. Factors may include FATF-style regional membership/mutual evaluations, FATF strategic deficiencies/progress, CCE advisories and specialist publications. Review regularly and/or on trigger events."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-06",
+      "priority": "material",
+      "classification": "partially_covered",
+      "manuscript_target": "part6.py / intermediaries / 可依賴的類別",
+      "source": {
+        "doc": "03",
+        "locator": "4.11.12–4.11.14",
+        "deciding_anchor": "it is a branch of the head office of the MSO"
+      },
+      "observed_coverage": "Generic prescribed related group/branch plus group safeguards omits the exact affiliation routes.",
+      "recommended_substance": {
+        "tc": "相關境外金融機構須在境外經營相類金融機構業務，且為同一集團公司；或香港註冊MSO的境外分行；或境外註冊MSO的總辦事處／該總辦事處分行。集團政策須適用於雙方，要求相類CDD、備存紀錄及打擊洗錢計劃，並有合資格集團層面監管、較高國家風險緩解及定期獨立覆核。",
+        "en": "A related foreign FI must conduct a similar FI business abroad and be a same-group company; an overseas branch of a Hong Kong-incorporated MSO; or the head office/branch of the head office of a foreign-incorporated MSO. Group policy applies to both and requires similar CDD, record keeping and AML programmes, qualifying group supervision, mitigation of higher country risk and regular independent review."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-07",
+      "priority": "material",
+      "classification": "partially_covered",
+      "manuscript_target": "part6.py / wire-transfers / 港幣8,000元的界線; memory_panels.py / wire fields",
+      "source": {
+        "doc": "03",
+        "locator": "10.5–10.7 and footnote 70",
+        "deciding_anchor": "is a different number from the unique transaction reference number"
+      },
+      "observed_coverage": "Domestic branch was previously corrected. General account/reference shorthand and missing customer-ID definition leave different identifiers confusable.",
+      "recommended_substance": {
+        "tc": "有相關戶口時用戶口號碼；只有沒有該戶口才用由相應發出／受益機構編配的獨特參考號碼，且須能追查交易。「客戶識別號碼」不是交易參考號碼；它須唯一識別發款人，並指向機構所存含地址、身分證明文件號碼、或出生日期及地點至少一項的紀錄。",
+        "en": "Use the relevant account number where an account exists; only absent such an account use the unique reference assigned by the appropriate ordering/beneficiary institution, permitting traceability. A customer identification number is different from a transaction reference: it uniquely identifies the originator to the institution and points to a record containing at least one of address, identification-document number, or date and place of birth."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-08",
+      "priority": "material",
+      "classification": "absent",
+      "manuscript_target": "part6.py / wire-transfers",
+      "source": {
+        "doc": "03",
+        "locator": "10.13",
+        "deciding_anchor": "prevent carrying out outgoing wire transfers that do not comply"
+      },
+      "observed_coverage": "Receiving/intermediary missing-information controls are covered. Ordering institution’s outgoing-prevention procedure and control-gap remediation are absent.",
+      "recommended_substance": {
+        "tc": "發出機構須有有效程序，防止執行不符合所需發款人／受款人資料規定的匯出電傳：合理檢查本地／跨境轉帳缺漏（如定期內控／審核測試）、按風險處理缺漏轉帳，並及時糾正管控缺失。",
+        "en": "Ordering institutions need effective procedures preventing non-compliant outgoing wires: reasonable checks for missing originator/recipient information on domestic/cross-border transfers, such as regular control/audit testing; risk-based handling of deficient transfers; and timely correction of control deficiencies."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-09",
+      "priority": "material",
+      "classification": "partially_covered",
+      "manuscript_target": "part1.py / legal-framework and part6.py / screening",
+      "source": {
+        "doc": "03",
+        "locator": "6.5(d)–(e)",
+        "deciding_anchor": "section 11L prohibits any person from providing or collecting any property to"
+      },
+      "observed_coverage": "General TF intent/knowledge/recklessness and actual-use distinction are covered. Distinct specified-terrorist-property dealing and inter-state terrorist-travel offences are not stated in sufficient concrete terms.",
+      "recommended_substance": {
+        "tc": "第8A條禁止明知或罔顧財產是否指明恐怖分子財產／指明恐怖分子或其有聯繫者財產而處理。第11L條禁止提供／籌集財產資助跨國旅行，意圖或明知旅行為實施、計劃、準備、參與恐怖行為或相關訓練；即使沒有實際恐怖行為亦適用。",
+        "en": "Section 8A prohibits dealing knowing or reckless as to whether property is specified terrorist property or property of a specified terrorist/associate. Section 11L prohibits providing/collecting property for inter-state travel intending or knowing the specified terrorist-act or related-training purpose; an actual terrorist act need not occur."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-10",
+      "priority": "material",
+      "classification": "partially_covered",
+      "manuscript_target": "part1.py / legal-framework and part6.py / screening",
+      "source": {
+        "doc": "03",
+        "locator": "6.7–6.8",
+        "deciding_anchor": "persons or entities acting on the behalf of or at the direction of"
+      },
+      "observed_coverage": "Named-designation sources and licence actors are covered. Prohibition scope extending to fronts and ownership/control is not concrete.",
+      "recommended_substance": {
+        "tc": "除獲行政長官按適用UNSO規例發牌許可外，禁令涵蓋直接／間接向指明者、代其／按其指示行事或其擁有／控制者，以及由上述人士／實體擁有的實體提供資金、金融資產或經濟資源，或為其利益提供；亦涵蓋直接／間接處理屬於或由該等人士／實體擁有或控制的資產。",
+        "en": "Subject to a Chief Executive licence under the applicable UNSO regulation, prohibitions extend beyond named designees to those acting for/at their direction or owned/controlled by them, and entities owned by the foregoing. They cover direct/indirect availability for their benefit and dealing with assets belonging to or owned/controlled by them."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-11",
+      "priority": "material",
+      "classification": "partially_covered",
+      "manuscript_target": "part6.py / suspicion-indicators",
+      "source": {
+        "doc": "03",
+        "locator": "7.10(a)–(f)",
+        "deciding_anchor": "“Structuring” or “Smurfing”"
+      },
+      "observed_coverage": "Strong TBML categories already exist. Other red flags are reduced to two broad points, omitting the named U-turn concept and distinctive agent/behaviour categories. Do not duplicate the full TBML list.",
+      "recommended_substance": {
+        "tc": "分拆／化整為零（Structuring／Smurfing）是本可用一／幾宗大額交易而改用多宗小額；U-turn是境外來源款項又匯往同一境外地另一人／公司，或原發款人在另一地的戶口。另記小鈔換大鈔、代理拒交識別資料／同一客戶資料拼寫或局部逐漸變動、同日多代理分流、低調陪同者／催促先交易後補文件／不理費率，以及衝突區慈善捐款。指標非窮盡，也不是單項定罪或一律須報STR；任何相關指標應促進一步調查、初步資金來源查詢及支持文件。",
+        "en": "Structuring/smurfing uses many lower-value transactions where one/few large ones could be used. A U-turn sends foreign-origin funds back to another person/company in the same foreign jurisdiction or the sender’s account elsewhere. Also recall denomination changes; agent ID refusal/evolving spellings or partial identity details/same-day routing to multiple agents; discreet companions/rushing with later documentation/no concern for rates; and conflict-zone charity donations. Indicators are non-exhaustive and not automatic proof or mandatory STR in every case; a relevant flag prompts further investigation, initial source-of-funds enquiries and supporting evidence."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-12",
+      "priority": "material",
+      "classification": "partially_covered",
+      "manuscript_target": "part7.py / after-report / 報告不會自動清除風險",
+      "source": {
+        "doc": "03",
+        "locator": "7.27",
+        "deciding_anchor": "irrespective of any subsequent feedback provided by the JFIU"
+      },
+      "observed_coverage": "General after-filing review/mitigation/escalation is covered; the upon-filing trigger and independence from later JFIU feedback are not explicit.",
+      "recommended_substance": {
+        "tc": "提交STR時即應適當覆核關係及採取風險緩解，不論JFIU之後有否／如何回覆；不可一面繼續關係，一面等待回覆而不考慮風險及管控。必要時升級至高級管理層。",
+        "en": "Review the relationship upon filing the STR and apply appropriate mitigation irrespective of subsequent JFIU feedback. Continuing while waiting for feedback without risk consideration/controls is unacceptable; escalate to senior management where necessary."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-13",
+      "priority": "detail",
+      "classification": "absent",
+      "manuscript_target": "part6.py / timing / anonymous or numbered accounts",
+      "source": {
+        "doc": "03",
+        "locator": "4.14 footnote 50",
+        "deciding_anchor": "must reflect the real name of the account holder"
+      },
+      "observed_coverage": "Anonymous-account ban, numbered-account CDD and access are covered. Real-name payment-message requirement is not.",
+      "recommended_substance": {
+        "tc": "號碼戶口仍須完整CDD、供合規／審核及其他獲授權員工取得資料，並有足夠員工知道身分；由號碼戶口發出的電傳／匯款訊息須反映戶口持有人的真實姓名。",
+        "en": "Numbered accounts still require full CDD, access for compliance/audit and other authorized staff, and sufficient staff aware of the identity. Wire/remittance messages from numbered accounts must reflect the holder’s real name."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-14",
+      "priority": "detail",
+      "classification": "absent",
+      "manuscript_target": "part6.py / beneficial-owners / 核實及特殊結構",
+      "source": {
+        "doc": "03",
+        "locator": "4.4.15–4.4.17 footnote 30",
+        "deciding_anchor": "The same controls should be applied to bearer share warrants"
+      },
+      "observed_coverage": "Bearer-share custody/declarations and nominee arrangements are covered. Bearer-share warrants and equivalent untraceable instruments are not named/defined.",
+      "recommended_substance": {
+        "tc": "不記名認股權證是實體證書持有人可藉以取得法人擁有權的可轉讓文書；不記名股票的相同管控亦適用於這類權證及其他沒有可追查性的類似文書。",
+        "en": "A bearer-share warrant is a negotiable physical certificate conferring entitlement to ownership in a legal person. Apply the same bearer-share controls to these warrants and similar untraceable instruments."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-15",
+      "priority": "detail",
+      "classification": "partially_covered",
+      "manuscript_target": "part5.py / group-wide",
+      "source": {
+        "doc": "03",
+        "locator": "3.17 footnote 11",
+        "deciding_anchor": "This should include information and analysis of transactions or activities which appear unusual"
+      },
+      "observed_coverage": "Core group-wide sharing, confidentiality/tipping-off safeguards and higher standards already covered. Unusual analysis and reciprocal flow are not explicit.",
+      "recommended_substance": {
+        "tc": "在當地法律容許及保密／防通風報訊保障下，集團分享應包括已完成的異常交易／活動分析；可包括STR、其底層資料或已呈報事實，並非一律強制分享STR。集團職能亦應在風險管理相關及適當時向分行／附屬公司回傳資料。",
+        "en": "Within legal permission and confidentiality/tipping-off safeguards, group sharing should include unusual-transaction/activity analysis if done; it could include an STR, underlying information or the fact of reporting, rather than requiring every STR to be shared. Group functions should also return relevant/appropriate risk-management information to branches/subsidiaries."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-16",
+      "priority": "detail",
+      "classification": "partially_covered",
+      "manuscript_target": "part5.py / roles / 職位履職條件",
+      "source": {
+        "doc": "03",
+        "locator": "3.6 and 3.8(h); CONFLICT-CALLS E28–E29",
+        "deciding_anchor": "an alternate or deputy CO and MLRO"
+      },
+      "observed_coverage": "Core roles, absence cover and information quality are covered; deputy status and EN governance-recipient scope are not explicit. Maintain settled language-specific differences.",
+      "recommended_substance": {
+        "tc": "管理資料須及時、完整、易明及準確地向高級管理層傳達；在切實可行範圍內提供足夠資源與適當替補人選，如切實可行安排替代／代理CO及MLRO，而其應有相同地位。",
+        "en": "Timely, complete, understandable and accurate management information goes to the board/delegated committee where applicable AND senior management. As far as practicable provide adequate resources and absence cover, with an alternate/deputy who should, where practicable, have the same status."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-17",
+      "priority": "detail",
+      "classification": "partially_covered",
+      "manuscript_target": "part6.py / simplified / 可用實益擁有人簡化的客戶",
+      "source": {
+        "doc": "03",
+        "locator": "4.8.10(d), 4.8.14–4.8.16",
+        "deciding_anchor": "stating, to its actual knowledge"
+      },
+      "observed_coverage": "Basic qualifying investment-vehicle exception, reliable underlying CDD and fallback >25% investor identification/verification are covered. Exact eligible-institution conditions and conditional written representation omitted.",
+      "recommended_substance": {
+        "tc": "負責全體投資者相類CDD者須屬金融機構，或香港／對等司法管轄區成立、具防洗錢措施並受監管的相類機構；法律容許可委任經理、受託人、行政人、過戶代理、登記處或保管人，仍須可靠制度。均不合資格時，可按風險考慮負責者按實際所知作書面陳述，列明超過25%投資者身分或沒有此人；接受須記錄、保存及定期覆核，不免除合理核實及其他BO要求。",
+        "en": "The person responsible for comparable CDD on all investors must be an FI or qualifying institution incorporated/established in Hong Kong/an equivalent jurisdiction, with AML measures and supervised compliance. Where law permits, an appointed manager/trustee/administrator/transfer agent/registrar/custodian may perform CDD, with reliable controls. If neither qualifies, a risk-based written representation of actual knowledge of >25% investor identities or absence may be accepted, documented, retained and periodically reviewed; reasonable verification and other BO duties remain."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-18",
+      "priority": "detail",
+      "classification": "absent",
+      "manuscript_target": "part6.py / simplified / 產品及律師客戶戶口例外",
+      "source": {
+        "doc": "03",
+        "locator": "4.8.18",
+        "deciding_anchor": "an MSO may generally treat the employer as the customer"
+      },
+      "observed_coverage": "Product conditions/monetary limits are covered; employer/customer distinction and separate employee-relationship condition omitted.",
+      "recommended_substance": {
+        "tc": "合資格退休計劃可一般把僱主視為客戶，並選擇不識別／合理核實作為計劃BO的僱員；與僱員另有獨立業務關係時，仍須按章節要求完成該關係CDD。",
+        "en": "For the qualifying retirement scheme, generally the employer may be treated as customer and employee BO identification/verification waived. A separate business relationship with an employee still requires the applicable CDD."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-19",
+      "priority": "detail",
+      "classification": "partially_covered",
+      "manuscript_target": "part6.py / intermediaries / 可依賴的類別",
+      "source": {
+        "doc": "03",
+        "locator": "4.11.8",
+        "deciding_anchor": "a licensed individual insurance agent"
+      },
+      "observed_coverage": "Domestic intermediary categories are broadly present but specified insurance/professional classes are generic.",
+      "recommended_substance": {
+        "tc": "本地合資格類別須保留相關條件，並具體列持牌個人保險代理、持牌保險代理機構、持牌保險經紀公司；會計專業人士的CPA／執業法團／會計師事務所，地產代理或營業員，香港律師或註冊外地律師，以及TCSP持牌人（包括法定當作持牌人）。身份本身不能取代附表2及充分防洗錢程序條件。",
+        "en": "Keep existing conditions and specify licensed individual insurance agents, licensed insurance agencies and licensed insurance broker companies; CPA/practising-corporate/firm accounting professionals; licensed estate agents or salespersons; Hong Kong solicitors or registered foreign lawyers; and TCSP licensees (including statutory deemed licensees). Category membership does not remove Schedule 2/customer-specific and adequate-procedure conditions."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-20",
+      "priority": "detail",
+      "classification": "partially_covered",
+      "manuscript_target": "part6.py / monitoring / 持續CDD及交易監察",
+      "source": {
+        "doc": "03",
+        "locator": "5.4–5.5",
+        "deciding_anchor": "timely and sufficient information required to identify, analyse and effectively monitor"
+      },
+      "observed_coverage": "Holistic monitoring, parameter setting and validation already covered. System-design factors and information availability to relevant staff omitted.",
+      "recommended_substance": {
+        "tc": "交易監察設計、自動化及精密程度須按業務規模／複雜度、風險、現有系統及管控、其他業務所需監察程序、產品及交付方式而定；不是一律必須自動化。須及時向負責監察及調查的相關員工提供足夠資料。",
+        "en": "Design, automation and sophistication depend on business size/complexity, risk, existing systems/controls, other business monitoring and products/delivery. Automation is not universally mandated. Relevant monitoring/investigation staff need timely and sufficient information."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-21",
+      "priority": "detail",
+      "classification": "absent",
+      "manuscript_target": "part7.py / internal-report",
+      "source": {
+        "doc": "03",
+        "locator": "7.23 and footnote 65",
+        "deciding_anchor": "taking into account feedback and guidance provided by the JFIU in its quarterly report"
+      },
+      "observed_coverage": "Substantive internal assessment and report timing are covered, not continuing report-quality feedback.",
+      "recommended_substance": {
+        "tc": "STR須具高質素，並考慮JFIU季度報告及海關不時提供的回饋／指引；季度報告包括STR分析及關注事項／回饋，可用作提升呈報質素。",
+        "en": "Ensure high-quality STRs by considering JFIU quarterly feedback/guidance and CCE guidance. The quarterly report covers STR analysis and matters of interest/feedback and supports quality improvement."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-22",
+      "priority": "detail",
+      "classification": "absent",
+      "manuscript_target": "part6.py / wire-transfers / 範圍與豁除",
+      "source": {
+        "doc": "03",
+        "locator": "10.3",
+        "deciding_anchor": "cover payment mechanism"
+      },
+      "observed_coverage": "Wire definitions and three exclusions are covered; payment-message structure does not exempt cover payments.",
+      "recommended_substance": {
+        "tc": "以掩蓋付款機制（例如MT202 COV）進行的電傳轉帳，仍須遵守本章適用規定。",
+        "en": "Wire transfers using a cover-payment mechanism, such as MT202 COV, remain subject to the applicable Chapter 10 requirements."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-23",
+      "priority": "detail",
+      "classification": "partially_covered",
+      "manuscript_target": "part6.py / identity-evidence / 核證程序及責任; identity / current-existence evidence",
+      "source": {
+        "doc": "03",
+        "locator": "Appendix A paragraphs 4–5, 9 and footnotes 73, 76",
+        "deciding_anchor": "obtaining a full company search"
+      },
+      "observed_coverage": "Travel-document alternatives, minor/parent exception, certifier categories, original sighting and signed/dated true-copy statement already covered. Remaining granular details are full company search and capitals for certifier name; HKID marker/registration age is lower-priority document recognition.",
+      "recommended_substance": {
+        "tc": "公司註冊證書本身不是現時存在證明；公司登記查冊應取得完整公司查冊報告。核證人須簽署、日期、職位／身分、原件真確副本聲明，並在簽署下以大寫清晰列印姓名。附錄註明年滿11歲香港居民須登記領取HKID，永久居民HKID出生日期下有A字；這些是本版附錄的文件辨認細節。",
+        "en": "An incorporation certificate alone does not prove current existence; registry verification obtains a full company search report. The certifier signs/dates, states capacity and true-copy status, and prints the name clearly in capitals beneath. The appendix also notes HK resident registration at age 11 and the A marker beneath date of birth on a permanent HKID; these are document-recognition details in this edition."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    },
+    {
+      "id": "G03-24",
+      "priority": "detail",
+      "classification": "partially_covered",
+      "manuscript_target": "part6.py / identity; essentials.py / 國籍核實、地址及更名的條件",
+      "source": {
+        "doc": "03",
+        "locator": "4.3.5 footnote 18",
+        "deciding_anchor": "communicate clearly to the customer the reasons"
+      },
+      "observed_coverage": "Residential-address collection and no universal independent proof are now explicit in essentials. Why an MSO might separately verify and customer communication are not.",
+      "recommended_substance": {
+        "tc": "指引不一律要求核實居住地址，但集團或其他本地／境外法律監管要求可能需要；如要求核實，須向客戶清楚解釋原因。",
+        "en": "The Guideline does not universally require address verification, but group policy or other local/overseas legal/regulatory requirements may. Clearly communicate the reasons to the customer when verifying it."
+      },
+      "integration_status": "Observed gap/detail at the bound review snapshot; parent integration is separate"
+    }
+  ],
+  "already_covered": [
+    "Institutional RBA, risk-factor groups, two-year/material-trigger review, senior approval, group/local fit, new-product prelaunch assessment and minimum control framework.",
+    "CO/MLRO core roles, management approval/resources, group higher-standard/CCE-notification and confidentiality safeguards.",
+    "Customer definition, four CDD measures, business/occasional/linked/suspicion triggers, identity field lists for individuals/legal persons/trusts, connected parties and PPTA.",
+    "All forms of BO definition/control thresholds, fallback senior officials, bearer-share custody/annual declaration and nominee-principal checks.",
+    "Deferral conditions/controls, CDD failure, SDD eligibility and limits, solicitor-client account conditions, PEP classes and EDD, non-face-to-face measures/digital exception.",
+    "Reliance versus outsourcing, immediate data/document access, ultimate MSO liability, overseas intermediary categories and group safeguards.",
+    "High-risk annual review, holistic monitoring, query/examine findings obligations, pre-existing customers, sanctions screening parties/timing and genuine-match handling.",
+    "Third-party payments, delivery channels, TBML definition/four indicator families and response duties.",
+    "Wire threshold information, domestic originator abbreviation/recipient fields/request clocks, receiving/intermediary duties and non-wire remittance fields.",
+    "STR triggers, knowledge/suspicion, staff reporting, MLRO evaluation, tipping off, urgency, conditional defence, consent not clean bill, further reports and SAFE.",
+    "Record content/form/reconstructability, retention starting points, independent audit, staff screening/training/effectiveness and training-record period.",
+    "Global/country-specific PF approach and other-jurisdiction sanctions already present in Part 1; not new gaps.",
+    "Partnership/non-incorporated body professional/trade membership verification exception with reputable/long-history/substantial-public-information conditions is already in Part 6 common-documentary-situations; not a new gap."
+  ],
+  "draft_accuracy_notes": [
+    {
+      "id": "D03-01",
+      "subject": "Unsupported nationality declaration procedure",
+      "status": "Resolved at current observed draft",
+      "detail": "Earlier draft invented a separate nationality declaration mechanism. Current essentials.py removes it and correctly distinguishes obtaining nationality under 4.3.2 from the normal verification set under 4.3.3, citing 4.3.13 and footnotes 17–18. No further material error found in the reviewed source-03-related draft clauses. FAQ additions were observed, not comprehensively re-audited here."
+    }
+  ],
+  "historical_reviews_preserved": [
+    "revision/study-notes/source-review.json",
+    "revision/study-notes/memory-review.json"
+  ]
+}

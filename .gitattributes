@@ -1,2 +1,12 @@
 # Preserve downloaded official HTML bytes so recorded source hashes stay valid.
 docs/**/*.html -text
+# Preserve source/review hashes across Windows and Linux checkouts.
+revision/study-notes/** -text
+revision/part6-sample/** -text
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.github/workflows/*.yml text eol=lf
+web/*.html text eol=lf
+web/*.js text eol=lf
+web/*.css text eol=lf
+web/fonts/*.txt text eol=lf

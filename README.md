@@ -9,6 +9,12 @@ mock exam and custom practice.
 
 ## Start in three steps
 
+For notes **and** practice, download **[mso-study-bundle.zip](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip)**,
+extract the whole archive and open `index.html`. It includes the seven-part notes,
+practice app and the cited 01–26 originals. Keep the folders together so study,
+practice and source links work offline. The standalone file below provides practice;
+its study-note links require the complete bundle.
+
 1. Download **[mso-ca.html](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html)** from the latest release.
 2. Open the downloaded file in a browser. No installation, account or server is needed.
 3. Choose **EN**, **中文** or **EN+中**, then start a mock exam or select parts for practice.
@@ -74,6 +80,7 @@ outside the selected library.
 
 ## Documentation and maintenance
 
+- **Seven-part study notes:** Included in the study bundle from v1.10.0. [Source and reading pages](revision/study-notes/index.html) contain concepts, definitions, conditions and exceptions from originals 01–26, with actual filename citations. The bank is used only to check omissions. See [scope and maintenance](revision/study-notes/README.md).
 - **Study:** [User guide](docs/USAGE.md) and [26-document reading order](docs/README.md).
 - **Build and check:** [Development guide](DEVELOPMENT.md).
 - **Write or review questions:** [Question format](bank/FORMAT.md), [source maintenance](docs/SOURCE-MAINTENANCE.md) and [agent-neutral authoring workflow](docs/authoring/exam-prep/GUIDE.md).

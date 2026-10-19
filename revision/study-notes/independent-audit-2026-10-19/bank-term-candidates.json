@@ -1,0 +1,66 @@
+{
+  "method": "All English stems/statements scanned for capitalised abbreviations absent verbatim from manuscript. Candidate/distractor scan, not semantic coverage or a claim the terms are correct.",
+  "questions": 525,
+  "statements": 2449,
+  "candidates": {
+    "AML/CFT-": [
+      "m6-449"
+    ],
+    "CRA": [
+      "m4-353"
+    ],
+    "F&P": [
+      "m4-346",
+      "m4-347",
+      "m4-348"
+    ],
+    "FAIL": [
+      "m4-313",
+      "m4-408"
+    ],
+    "II": [
+      "m4-334",
+      "m4-339"
+    ],
+    "ISIL": [
+      "m1-133"
+    ],
+    "MCO": [
+      "m1-151"
+    ],
+    "MT202COV": [
+      "m6-376"
+    ],
+    "NAR1": [
+      "m4-377"
+    ],
+    "NN1": [
+      "m4-375"
+    ],
+    "NN3": [
+      "m4-375"
+    ],
+    "NNC1": [
+      "m4-375"
+    ],
+    "NNC1G": [
+      "m4-375"
+    ],
+    "NOT": [
+      "m4-311"
+    ],
+    "PASS": [
+      "m4-313",
+      "m4-408"
+    ],
+    "UNSC-": [
+      "m4-393"
+    ],
+    "VAT": [
+      "m6-473"
+    ],
+    "VII": [
+      "m1-131"
+    ]
+  }
+}

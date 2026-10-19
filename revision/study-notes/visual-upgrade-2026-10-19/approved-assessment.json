@@ -1,0 +1,1199 @@
+{
+  "scope": "Learning visualization assessment, not an independent legal or syllabus completeness audit",
+  "parts": [
+    {
+      "part": 1,
+      "title": "有關打擊洗錢及恐怖分子資金籌集與打擊擴散資金籌集的常識",
+      "sections": [
+        {
+          "id": "money-laundering",
+          "title": "洗錢：犯罪得益及三個階段"
+        },
+        {
+          "id": "terrorist-financing",
+          "title": "恐怖分子資金籌集：合法資金也可被濫用"
+        },
+        {
+          "id": "legal-framework",
+          "title": "香港法律：各條例處理的問題"
+        },
+        {
+          "id": "international",
+          "title": "FATF與司法管轄區風險"
+        },
+        {
+          "id": "risk-assessment",
+          "title": "香港風險評估：威脅、脆弱性與行業風險"
+        },
+        {
+          "id": "sanctions",
+          "title": "恐怖主義及擴散融資的定向金融制裁"
+        },
+        {
+          "id": "cross-boundary-cash",
+          "title": "跨境現金類物品：超過12萬元的申報制度"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "《打擊洗錢條例》第1至7部",
+      "sections": [
+        {
+          "id": "statutory-map",
+          "title": "條例架構、監管機構與指引效力"
+        },
+        {
+          "id": "criminal-liability",
+          "title": "違反盡職審查要求：知情與欺詐意圖"
+        },
+        {
+          "id": "inspection-investigation",
+          "title": "日常查察、正式調查與文件保障"
+        },
+        {
+          "id": "licence-scope",
+          "title": "金錢服務的定義、豁除與無牌罪"
+        },
+        {
+          "id": "grant-renewal",
+          "title": "發牌、有效期及續牌"
+        },
+        {
+          "id": "changes",
+          "title": "事先批准、一個月通知及結業"
+        },
+        {
+          "id": "discipline",
+          "title": "紀律處分、撤銷與暫時吊銷"
+        },
+        {
+          "id": "enforcement",
+          "title": "無牌經營執法及虛假申請資料"
+        },
+        {
+          "id": "review",
+          "title": "覆核審裁處、決定生效與上訴"
+        },
+        {
+          "id": "statutory-administration",
+          "title": "法定行政、保密與審裁程序"
+        },
+        {
+          "id": "other-sector-regimes",
+          "title": "參考：其他行業制度與MSO的界線"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "《打擊洗錢及恐怖分子資金籌集條例》：附表",
+      "sections": [
+        {
+          "id": "definitions",
+          "title": "附表1及附表2：重要定義"
+        },
+        {
+          "id": "core-duties",
+          "title": "四項盡職審查與觸發條件"
+        },
+        {
+          "id": "simplification",
+          "title": "簡化審查：只豁免指定措施"
+        },
+        {
+          "id": "special-cases",
+          "title": "額外措施：遙距、政治人物及其他高風險"
+        },
+        {
+          "id": "sector-specific",
+          "title": "其他金融機構的特定要求"
+        },
+        {
+          "id": "ongoing-and-records",
+          "title": "持續監察、中介人及紀錄責任"
+        },
+        {
+          "id": "fees",
+          "title": "附表3：金錢服務牌照費用"
+        },
+        {
+          "id": "tribunal-schedule",
+          "title": "附表4：審裁處成員及聆訊安排"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "海關頒布的指引",
+      "sections": [
+        {
+          "id": "premises",
+          "title": "營業處所、本地管理辦事處與紀錄儲存地方"
+        },
+        {
+          "id": "application",
+          "title": "新牌申請：文件、面見及正式聲明"
+        },
+        {
+          "id": "fitness",
+          "title": "適當人選：持續而非一次性的要求"
+        },
+        {
+          "id": "assessment",
+          "title": "能力評核：誰參加、何時參加及合格標準"
+        },
+        {
+          "id": "licensing-actions",
+          "title": "表格、變更、續牌及結業實務"
+        },
+        {
+          "id": "penalty-factors",
+          "title": "罰款指引：上限不等於固定罰款"
+        },
+        {
+          "id": "exchange-note",
+          "title": "第34章：兌換交易單及顧客撤銷權"
+        },
+        {
+          "id": "exchange-display",
+          "title": "匯率展示、廣告及責任"
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "title": "金錢服務經營者的系統及管控措施（一）：機構管治及策略",
+      "sections": [
+        {
+          "id": "risk-based",
+          "title": "風險為本方法：資源與風險相稱"
+        },
+        {
+          "id": "institutional-assessment",
+          "title": "機構風險評估：因素、程序及更新"
+        },
+        {
+          "id": "customer-assessment",
+          "title": "客戶風險評估：初評、定案及持續更新"
+        },
+        {
+          "id": "new-business",
+          "title": "新產品、渠道與科技：推出前評估"
+        },
+        {
+          "id": "control-framework",
+          "title": "內控制度的組成與簡化條件"
+        },
+        {
+          "id": "roles",
+          "title": "高級管理層、合規主任與洗錢報告主任"
+        },
+        {
+          "id": "group-controls",
+          "title": "海外分行及附屬公司：集團制度"
+        },
+        {
+          "id": "business-plan",
+          "title": "業務計劃：把營運模式交代完整"
+        },
+        {
+          "id": "policy",
+          "title": "打擊洗錢政策：與本身業務及風險連接"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "title": "金錢服務經營者的系統及管控措施（二）：打擊洗錢及恐怖分子資金籌集的管控範疇",
+      "sections": [
+        {
+          "id": "cdd",
+          "title": "客戶盡職審查：定義及四項措施"
+        },
+        {
+          "id": "triggers",
+          "title": "CDD觸發條件、金額及相連交易"
+        },
+        {
+          "id": "identity",
+          "title": "身分資料：自然人、法人與信託"
+        },
+        {
+          "id": "identity-evidence",
+          "title": "身分文件與核證副本"
+        },
+        {
+          "id": "beneficial-owners",
+          "title": "實益擁有人：擁有權、控制與代他人行事"
+        },
+        {
+          "id": "representatives",
+          "title": "代表客戶行事者與授權"
+        },
+        {
+          "id": "timing",
+          "title": "核實時間、延後條件及審查失敗"
+        },
+        {
+          "id": "simplified",
+          "title": "簡化盡職審查：可減甚麼、不能免甚麼"
+        },
+        {
+          "id": "enhanced",
+          "title": "加強盡職審查與資金／財富來源"
+        },
+        {
+          "id": "peps",
+          "title": "政治人物：類別、親屬及加強措施"
+        },
+        {
+          "id": "remote",
+          "title": "非親身識別：額外措施與數碼例外"
+        },
+        {
+          "id": "intermediaries",
+          "title": "依賴中介人：條件與不可轉移責任"
+        },
+        {
+          "id": "monitoring",
+          "title": "持續監察與原有客戶"
+        },
+        {
+          "id": "screening",
+          "title": "制裁及恐怖分子篩查"
+        },
+        {
+          "id": "third-party-payments",
+          "title": "第三方付款：例外接受與嚴格管控"
+        },
+        {
+          "id": "delivery",
+          "title": "交付渠道、代理及境外對手風險"
+        },
+        {
+          "id": "wire-transfers",
+          "title": "電傳轉帳：定義及發出機構資料要求"
+        },
+        {
+          "id": "wire-receiving",
+          "title": "電傳轉帳：中介及受益機構責任"
+        },
+        {
+          "id": "remittances",
+          "title": "非電傳匯款：發款人與必備紀錄"
+        },
+        {
+          "id": "trade-based-laundering",
+          "title": "貿易洗錢：定義與四類風險指標"
+        },
+        {
+          "id": "suspicion-indicators",
+          "title": "其他可疑交易指標"
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "title": "金錢服務經營者的系統及管控措施（三）：證明符合規定及監察合規水平",
+      "sections": [
+        {
+          "id": "reporting-duty",
+          "title": "可疑交易舉報：觸發條件及時間"
+        },
+        {
+          "id": "internal-report",
+          "title": "內部報告與MLRO評估"
+        },
+        {
+          "id": "tipping-off",
+          "title": "通風報訊與向客戶查詢的界線"
+        },
+        {
+          "id": "after-report",
+          "title": "報告之後：同意、抗辯與持續風險"
+        },
+        {
+          "id": "evidence-records",
+          "title": "紀錄內容：建立可重組的審計線索"
+        },
+        {
+          "id": "retention",
+          "title": "保存期限：起算點不同"
+        },
+        {
+          "id": "independent-audit",
+          "title": "獨立審核：範圍及匯報"
+        },
+        {
+          "id": "training",
+          "title": "僱員甄選、培訓及成效證據"
+        },
+        {
+          "id": "law-enforcement",
+          "title": "執法要求：命令與風險覆核"
+        },
+        {
+          "id": "periodic-return",
+          "title": "定期申報：半年一次及電子提交"
+        },
+        {
+          "id": "safe",
+          "title": "懷疑的評估與呈報流程"
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "1": [
+      [
+        "money-laundering",
+        "洗錢三階段",
+        "重做：同一例子的三幅小圖",
+        "看見現金入系統、多層轉移、貌似合法資產的差別。三圖下常駐「可重疊、非必經次序」。",
+        "高"
+      ],
+      [
+        "terrorist-financing",
+        "ML／TF／PF",
+        "重整：同維度對照",
+        "用資金來源、濫用目的、法律關注點比較。完整精神要件留在各欄旁，不能用「合法／非法」二分取代規則。",
+        "中"
+      ],
+      [
+        "cross-boundary-cash",
+        "旅客與貨物申報",
+        "分開的範圍表＋門檻端點",
+        "把進入／離開、主動申報／要求披露與責任人配對；12萬元的 > 不能混同CDD的 ≥。",
+        "高"
+      ],
+      [
+        "risk-assessment",
+        "跨行業濫用模式",
+        "選例：資金流與貨物流分線",
+        "只挑有不同機制的保險、貿易、公司戶口例子；圖上保留2022年與「風險指標非定罪」標示。",
+        "中"
+      ]
+    ],
+    "2": [
+      [
+        "changes",
+        "批准、通知、續牌、結業",
+        "保留事件表；明示起算事件",
+        "這些事項沒有共用起點，不宜排成一條生命週期時間軸；事先批准與事後通知可同時需要。",
+        "高"
+      ],
+      [
+        "inspection-investigation",
+        "查察與調查",
+        "同維度權力對照",
+        "對照啟動條件、能要求甚麼、受查人責任和保障。比一張大型法律流程圖易查閱。",
+        "中"
+      ],
+      [
+        "discipline",
+        "兩套紀律罰款",
+        "公式＋條件對照",
+        "把第21條的「兩者較大」畫成max括號，第43條列固定上限；每日持續罰款另列，不用柱長暗示實際罰額。",
+        "中"
+      ],
+      [
+        "review",
+        "覆核與決定生效",
+        "限定範圍的分支圖",
+        "只畫指定決定的法定時間分支，區分提出覆核、待決、生效；不混成所有執法的通用流程。",
+        "中"
+      ]
+    ],
+    "3": [
+      [
+        "core-duties",
+        "各制度的金額界線",
+        "重做：分組門檻表＋端點小圖",
+        "每列固定「對象／交易、符號、金額、後果、相連交易及例外」。先分CDD、非電傳匯款、實體現金、兌換條例。",
+        "高"
+      ],
+      [
+        "definitions",
+        "實益擁有人定義",
+        "定義表＋指向Part 6的關係圖",
+        "公司、合夥、信託不能共用一個25%判斷；此處保留完整定義，圖例集中Part 6避免兩套重複說明。",
+        "高"
+      ],
+      [
+        "special-cases",
+        "AND／OR條件",
+        "局部括號組",
+        "如空殼銀行四項條件，將「全部成立」貼在同一括號；不把無順序的條件畫成四步。",
+        "中"
+      ],
+      [
+        "fees",
+        "牌照費",
+        "保留費用表，輔以加總式",
+        "基本費＋額外處所×單價＋須評核人數×單價；保留法例版本。沒有必要做餅圖或互動計算器。",
+        "低"
+      ]
+    ],
+    "4": [
+      [
+        "premises",
+        "營業處所／LMO／LPS",
+        "保留同維度比較",
+        "用用途、適用對象、地址與駐守要求四項比較；不畫成三個必須不同地址的建築。",
+        "中"
+      ],
+      [
+        "assessment",
+        "應考及覆檢期限",
+        "拆成三組事件表",
+        "申請／提名、應考／結果、覆檢／重考分組。明確區分發出與收到、30日內與30日後。",
+        "高"
+      ],
+      [
+        "assessment",
+        "兩項及格條件",
+        "保留AND圖，補一組成績例子",
+        "讀者能直接看出總分達標仍可能因單一模塊失敗；不需要長流程或隱藏答案。",
+        "中"
+      ],
+      [
+        "exchange-note",
+        "兌換交易單與顧客權利",
+        "真實順序＋完成前後兩狀態",
+        "只畫確有先後的交付、簽署、完成；把拒絕未完成與有條件撤銷分開。三日不是無條件冷靜期。",
+        "中"
+      ]
+    ],
+    "5": [
+      [
+        "roles",
+        "管理層、CO、MLRO、獨立審核",
+        "責任關係圖",
+        "箭頭寫「批准／匯報／提供資料」，把獨立審核放在受審工作之外。不是所有職銜必須由不同人擔任的組織架構圖。",
+        "高"
+      ],
+      [
+        "risk-based",
+        "機構與客戶風險",
+        "雙層關係圖",
+        "機構評估影響制度與資源；客戶資料影響個別措施，監察結果促使更新。箭頭只表關係，不創造新法定程序。",
+        "中"
+      ],
+      [
+        "institutional-assessment",
+        "定期與事件觸發覆核",
+        "保留頻率表，另列觸發條件",
+        "兩年、至少每年、推出前及按風險定期並非同一時鐘；重大事件不能等到下一週期。",
+        "中"
+      ]
+    ],
+    "6": [
+      [
+        "beneficial-owners",
+        "客戶／BO／PPTA／關連人士",
+        "角色關係圖＋25%端點例",
+        "公司是客戶，持有人、董事及代表各有關係；同一人可兼任。權益比例與最終控制分開顯示，SCR另作資料來源。",
+        "高"
+      ],
+      [
+        "wire-transfers",
+        "匯款鏈與資料要求",
+        "分開兩張：責任泳道、資料組合",
+        "發出／中介／受益機構的資料傳遞與各自檢查放在泳道；8,000元上下的必備資料另圖，OR內的出生日期AND地點用括號。",
+        "高"
+      ],
+      [
+        "enhanced",
+        "SOW與SOF",
+        "同一人物的兩幅具體例圖",
+        "整體財富怎樣累積；本次匯款如何產生。銀行只作傳送渠道。用此圖取代重複定義表，完整規則仍在旁。",
+        "高"
+      ],
+      [
+        "peps",
+        "PEP類別與EDD",
+        "條件矩陣＋共同措施組",
+        "非香港、香港／國際組織、前PEP分清；措施並列AND，高風險條件貼在相應類別旁。不要紅綠燈把本地PEP判成安全。",
+        "高"
+      ],
+      [
+        "trade-based-laundering",
+        "貿易洗錢與折返／拆分模式",
+        "少量同尺度交易小圖",
+        "貨物、文件、資金分線；一次圖只講一種機制。明標例子，避免把每次分拆或第三方交易當犯罪。",
+        "中"
+      ]
+    ],
+    "7": [
+      [
+        "internal-report",
+        "內部報告至JFIU",
+        "簡短責任泳道",
+        "員工發現與內部報告、MLRO評估及理由紀錄、達舉報條件時對外報告；非懷疑分支也有記錄，並連回持續監察。",
+        "高"
+      ],
+      [
+        "retention",
+        "紀錄保存的起算點",
+        "重做：各自起點的小時間軸",
+        "關係CDD從關係終止算；交易從完成算；圖上常駐至少及書面延長條件。不要用同一日曆起點。",
+        "高"
+      ],
+      [
+        "after-report",
+        "舉報、同意與後續風險",
+        "狀態與責任對照",
+        "明示舉報不是自動批准交易，也不消除持續監察；複雜抗辯條件保持文字對照，不畫「報告→安全」箭頭。",
+        "中"
+      ],
+      [
+        "safe",
+        "SAFE",
+        "保留四步記憶帶",
+        "用名稱＋動作，與內部舉報泳道交叉指引，避免再畫第二張相似長流程。",
+        "低"
+      ]
+    ]
+  },
+  "existing_panels": [
+    {
+      "part": 1,
+      "section": "money-laundering",
+      "id": "three-stages",
+      "title": "三個常見階段：可重疊，不是固定步驟",
+      "action": "重做",
+      "reason": "概念名稱有了，尚未畫出資金如何變形。用同一例子的三幅小圖，取消固定步驟的視覺暗示。",
+      "refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第1.9–1.10段",
+            "en": "¶1.9–1.10"
+          },
+          "anchor": "Placement - the disposal"
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "section": "terrorist-financing",
+      "id": "ml-tf-pf",
+      "title": "ML、TF及PF：不要只看資金來源",
+      "action": "重整",
+      "reason": "現在各列的「必記區別」維度不同；改為來源／用途／法律要素的同維度對照。",
+      "refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第1.9–1.10段",
+            "en": "¶1.9–1.10"
+          },
+          "anchor": "Placement - the disposal"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第1.11–1.12、1.23–1.25段",
+            "en": "¶1.11–1.12, 1.23–1.25"
+          },
+          "anchor": "terrorist financing"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第1.14–1.28、6.1–6.4段",
+            "en": "¶1.14–1.28, 6.1–6.4"
+          },
+          "anchor": "imprisonment for 14 years"
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "section": "international",
+      "id": "risk-lists",
+      "title": "風險名單與制裁名單",
+      "action": "保留",
+      "reason": "已能區分風險評估與法律禁止；加清楚文件日期，無需地圖或紅綠國家名單。",
+      "refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第1.13段",
+            "en": "¶1.13"
+          },
+          "anchor": "As a member of the FATF"
+        },
+        {
+          "doc": "06",
+          "locator": {
+            "tc": "打擊洗錢問答A17",
+            "en": "AML/CFT FAQ A17"
+          },
+          "anchor": "conducting EDD is not mandatory"
+        },
+        {
+          "doc": "19",
+          "locator": {
+            "tc": "正文第1–3頁",
+            "en": "Main text pp.1–3"
+          },
+          "anchor": "Myanmar"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第6.1–6.8段",
+            "en": "¶6.1–6.8"
+          },
+          "anchor": "Secretary for Security"
+        },
+        {
+          "doc": "09",
+          "locator": {
+            "tc": "正文第1–2頁",
+            "en": "Main text pp.1–2"
+          },
+          "anchor": "proliferation financing"
+        },
+        {
+          "doc": "26",
+          "locator": {
+            "tc": "正文第1–3頁",
+            "en": "Main text pp.1–3"
+          },
+          "anchor": "time gap"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "section": "changes",
+      "id": "licence-clocks",
+      "title": "牌照事項：事先、當月及結業前後",
+      "action": "保留",
+      "reason": "事件、起點、期限及例外完整配對；按事先／事後分組即可。",
+      "refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "第35–41條",
+            "en": "ss.35–41"
+          },
+          "anchor": "within 1 month beginning on the date on which the change takes place"
+        },
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "第24、30–32、42條",
+            "en": "ss.24, 30–32, 42"
+          },
+          "anchor": "not later than 45 days before the licence is due to expire"
+        },
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "第21–23、34、43–45條",
+            "en": "ss.21–23, 34, 43–45"
+          },
+          "anchor": "3 times the amount of the profit gained"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "section": "discipline",
+      "id": "penalty-ceilings",
+      "title": "第21條與第43條：兩套罰款上限",
+      "action": "重整",
+      "reason": "用max括號呈現第21條的比較運算，將每日持續違規罰款獨立一行。",
+      "refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "第21–23、34、43–45條",
+            "en": "ss.21–23, 34, 43–45"
+          },
+          "anchor": "3 times the amount of the profit gained"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "section": "core-duties",
+      "id": "money-boundaries",
+      "title": "金額相近，法律用途不同",
+      "action": "重整",
+      "reason": "先按法律用途分組，再加 > 與 ≥ 的邊界端點；不能只按數字大小排序。",
+      "refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "附表2第2–3、13條",
+            "en": "Schedule 2 ss.2–3, 13"
+          },
+          "anchor": "before establishing a business relationship with the customer"
+        },
+        {
+          "doc": "22",
+          "locator": {
+            "tc": "正文第1頁",
+            "en": "Main text p.1"
+          },
+          "anchor": "HK$120,000"
+        },
+        {
+          "doc": "23",
+          "locator": {
+            "tc": "第2–7條及附表4",
+            "en": "ss.2–7; Schedule 4"
+          },
+          "anchor": "nominal value"
+        },
+        {
+          "doc": "17",
+          "locator": {
+            "tc": "第2–5條及附表1",
+            "en": "ss.2–5; Schedule 1"
+          },
+          "anchor": "within 3 days after the date"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "section": "definitions",
+      "id": "ownership-boundary",
+      "title": "實益擁有人：超過25%與控制權",
+      "action": "重整",
+      "reason": "保留定義表，25%端點和人物關係集中Part 6；信託用角色列表，不套持股圖。",
+      "refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "附表2第1條",
+            "en": "Schedule 2 s.1"
+          },
+          "anchor": "more than 25%"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第4.4.1–4.4.12段",
+            "en": "¶4.4.1–4.4.12"
+          },
+          "anchor": "more than 25% of the issued share capital"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "section": "fees",
+      "id": "fee-components",
+      "title": "牌照費：基本費加附加項目",
+      "action": "保留",
+      "reason": "加總構造已適合表格；可加一行公式，不需要比例圖。",
+      "refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "第27–28條；附表3",
+            "en": "ss.27–28; Schedule 3"
+          },
+          "anchor": "3,810"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "section": "premises",
+      "id": "three-places",
+      "title": "營業處所、LMO及LPS",
+      "action": "保留",
+      "reason": "用途和條件有比較價值；欄名改成具體維度即可，避免建築插畫。",
+      "refs": [
+        {
+          "doc": "05",
+          "locator": {
+            "tc": "第4.4–4.11段",
+            "en": "¶4.4–4.11"
+          },
+          "anchor": "local place for storage of books and records"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "section": "assessment",
+      "id": "assessment-pass",
+      "title": "合格要同時過兩關",
+      "action": "保留",
+      "reason": "AND是實際邏輯，且已有32／35但一個Part只對2／5的反例；維持即可。",
+      "refs": [
+        {
+          "doc": "01",
+          "locator": {
+            "tc": "第3–8段",
+            "en": "¶3–8"
+          },
+          "anchor": "1 hour and 15 minutes"
+        },
+        {
+          "doc": "02",
+          "locator": {
+            "tc": "例1–7（只用於理解題型）",
+            "en": "Examples 1–7 (format only)"
+          },
+          "anchor": "Answer: d"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "section": "assessment",
+      "id": "assessment-clocks",
+      "title": "相同數字，不同起算點",
+      "action": "重整",
+      "reason": "八項事件的閱讀負擔較大；拆為申請／應考結果／覆檢重考三組，保留各自起點。",
+      "refs": [
+        {
+          "doc": "01",
+          "locator": {
+            "tc": "第3–8段",
+            "en": "¶3–8"
+          },
+          "anchor": "1 hour and 15 minutes"
+        },
+        {
+          "doc": "02",
+          "locator": {
+            "tc": "例1–7（只用於理解題型）",
+            "en": "Examples 1–7 (format only)"
+          },
+          "anchor": "Answer: d"
+        },
+        {
+          "doc": "01",
+          "locator": {
+            "tc": "第8–13段",
+            "en": "¶8–13"
+          },
+          "anchor": "14 days"
+        },
+        {
+          "doc": "01",
+          "locator": {
+            "tc": "第4.4、8.3段",
+            "en": "¶4.4, 8.3"
+          },
+          "anchor": "only for once"
+        },
+        {
+          "doc": "05",
+          "locator": {
+            "tc": "第6.2段",
+            "en": "¶6.2"
+          },
+          "anchor": "receipt"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "section": "exchange-note",
+      "id": "exchange-rights",
+      "title": "拒絕未完成交易與撤銷已完成交易",
+      "action": "保留",
+      "reason": "兩種權利的區分清楚；可加交易完成的分界線，不必新造多分支流程。",
+      "refs": [
+        {
+          "doc": "17",
+          "locator": {
+            "tc": "第2–5條及附表1",
+            "en": "ss.2–5; Schedule 1"
+          },
+          "anchor": "within 3 days after the date"
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "section": "risk-based",
+      "id": "risk-levels",
+      "title": "機構風險與客戶風險",
+      "action": "重做",
+      "reason": "表格能分別定義，卻未顯示兩層如何影響制度與個別措施；用雙層關係圖。",
+      "refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第2.1、2.13–2.16、3.3段",
+            "en": "¶2.1, 2.13–2.16, 3.3"
+          },
+          "anchor": "allocate its resources more effectively"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第2.13–2.16段",
+            "en": "¶2.13–2.16"
+          },
+          "anchor": "finalise the customer risk assessment"
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "section": "institutional-assessment",
+      "id": "review-frequency",
+      "title": "兩年、每年、事前：覆核節奏不可互換",
+      "action": "保留",
+      "reason": "異起點頻率適合表格；定期與重大事件觸發並排，不共享時間軸。",
+      "refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第2.3、2.5–2.10段",
+            "en": "¶2.3, 2.5–2.10"
+          },
+          "anchor": "conduct its assessment every two years"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第2.9、2.11–2.12段",
+            "en": "¶2.9, 2.11–2.12"
+          },
+          "anchor": "prior to the launch of the new"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第5.1–5.14段及註52–53",
+            "en": "¶5.1–5.14; footnotes 52–53"
+          },
+          "anchor": "preferably the MSO adopts a relationship-based approach"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第3.11–3.13、5.8段",
+            "en": "¶3.11–3.13, 5.8"
+          },
+          "anchor": "direct line of communication to the senior management"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "section": "identity",
+      "id": "party-roles",
+      "title": "客戶、實益擁有人、代表及關連人士",
+      "action": "重做",
+      "reason": "四個文字定義缺少誰與誰的關係；用一間公司、一名代表、擁有人及董事角色圖，允許兼任。",
+      "refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第4.1.4–4.1.5段",
+            "en": "¶4.1.4–4.1.5"
+          },
+          "anchor": "generally excludes the third parties"
+        },
+        {
+          "doc": "07",
+          "locator": {
+            "tc": "附錄第(3)部分，第5頁",
+            "en": "Appendix (3), p.5"
+          },
+          "anchor": "treated a PPTA as the customer"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第4.3.4、4.3.14–4.3.19段及註26",
+            "en": "¶4.3.4, 4.3.14–4.3.19; footnotes 26"
+          },
+          "anchor": "identify all the connected parties"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第4.4.1–4.4.12段",
+            "en": "¶4.4.1–4.4.12"
+          },
+          "anchor": "more than 25% of the issued share capital"
+        },
+        {
+          "doc": "06",
+          "locator": {
+            "tc": "打擊洗錢問答A9、A11–A12",
+            "en": "AML/CFT FAQ A9, A11–A12"
+          },
+          "anchor": "appropriate measures which are commensurate with the ML/TF risks"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "section": "enhanced",
+      "id": "sow-sof",
+      "title": "SOW與SOF：財富與本次資金",
+      "action": "替換",
+      "reason": "以同一人物的財富累積和本次交易來源圖替換定義表；保留風險相稱及非任選一項的文字。",
+      "refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第4.9.24–4.9.26段",
+            "en": "¶4.9.24–4.9.26"
+          },
+          "anchor": "the origin of an individual"
+        },
+        {
+          "doc": "06",
+          "locator": {
+            "tc": "打擊洗錢問答A3–A8、A13–A15",
+            "en": "AML/CFT FAQ A3–A8, A13–A15"
+          },
+          "anchor": "biodata"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "section": "peps",
+      "id": "pep-categories",
+      "title": "PEP類別與加強措施",
+      "action": "重整",
+      "reason": "共同措施反覆出現；抽出AND措施組，類別旁保留高風險及前PEP的個別條件。",
+      "refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第4.9.7–4.9.8、4.9.13–4.9.15段",
+            "en": "¶4.9.7–4.9.8, 4.9.13–4.9.15"
+          },
+          "anchor": "a spouse or a partner of a child"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第4.9.9–4.9.12、4.9.16–4.9.23段及註37–42",
+            "en": "¶4.9.9–4.9.12, 4.9.16–4.9.23; footnotes 37–42"
+          },
+          "anchor": "not merely on prescribed time limits"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "section": "wire-transfers",
+      "id": "transfer-information",
+      "title": "跨境電傳：8,000元上下的資料及核實",
+      "action": "重整",
+      "reason": "兩列重複基本資料；拆成共同資料＋達門檻加項，再用另一張圖說機構責任。",
+      "refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第10.5–10.13段及註70–71",
+            "en": "¶10.5–10.13; footnotes 70–71"
+          },
+          "anchor": "within 3 business days after the request is received"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第10.14–10.22段",
+            "en": "¶10.14–10.22"
+          },
+          "anchor": "incomplete or meaningless"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第11.1–11.6段",
+            "en": "¶11.1–11.6"
+          },
+          "anchor": "date and time of receipt of the instruction"
+        },
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "附表2第1、13條",
+            "en": "Schedule 2 ss.1, 13"
+          },
+          "anchor": "certificate of identity"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "section": "intermediaries",
+      "id": "reliance-outsourcing",
+      "title": "依賴中介人與外判",
+      "action": "保留",
+      "reason": "同維度對照最直接；責任不轉移要常駐，暫無必要增加箭頭圖。",
+      "refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第4.11.1–4.11.7段及註44",
+            "en": "¶4.11.1–4.11.7; footnotes 44"
+          },
+          "anchor": "does not apply to outsourcing or agency relationships"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第4.11.8–4.11.14段",
+            "en": "¶4.11.8–4.11.14"
+          },
+          "anchor": "an institution that carries on a business similar"
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "section": "retention",
+      "id": "retention-clocks",
+      "title": "保存期：記「多久」也要記「何時開始」",
+      "action": "重整",
+      "reason": "保留參考表，主閱讀位用獨立起點軸；培訓及非經常交易另列，不能刪除例外。",
+      "refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第8.4、8.6、8.8–8.12、9.7段",
+            "en": "¶8.4, 8.6, 8.8–8.12, 9.7"
+          },
+          "anchor": "Records should be maintained for a minimum of 3 years"
+        },
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "附表2第20(3A)條",
+            "en": "Schedule 2 s.20(3A)"
+          },
+          "anchor": "occasional transaction is completed"
+        },
+        {
+          "doc": "06",
+          "locator": {
+            "tc": "打擊洗錢問答A28",
+            "en": "AML/CFT FAQ A28"
+          },
+          "anchor": "unsuccessful"
+        }
+      ]
+    }
+  ],
+  "independent_assessments": {
+    "A": "design-only, completed before B findings entered synthesis",
+    "B": "separate screenshot/hash/detector evidence; see assessment-b.md",
+    "priority_issues": 2,
+    "learning_outcome_tested": false
+  }
+}

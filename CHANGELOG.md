@@ -1,5 +1,20 @@
 # Release notes / 版本更新
 
+## v1.10.0 — 19 October 2026
+
+- Adds a complete offline study bundle: seven-part notes, the practice app and cited originals 01–26. Extract `mso-study-bundle.zip` and open `index.html`; `mso-ca.html` remains available for standalone practice.
+- Adds source-authored Traditional Chinese, English and bilingual notes, with 75 topics and 533 point pairs. These counts are not claims of full official-syllabus coverage.
+- Applies the blue-gray reading design, 33 comparisons/diagrams and three selected decision trees. Conditions, exceptions, dates and actual source filenames remain visible.
+- Preserves 525 question IDs, answers, grading and completed-history compatibility. Source audits and review history are retained, including the separately downloadable large baseline archive.
+- 新增完整離線學習包：七部分筆記、練習App及引用的01–26原件。下載並完整解壓 `mso-study-bundle.zip`，開啟 `index.html`；單獨練習仍可下載 `mso-ca.html`。
+- 筆記從原文整理，提供繁體中文、英文及雙語，共75個主題、533組雙語要點；數量不代表官方考綱完整覆蓋。
+- 採用藍灰閱讀設計、33個對照／圖解及3棵經選擇的決策樹，保留條件、例外、日期及實際原件檔名。
+- 保持525題的ID、答案、評分及已完成歷史紀錄兼容；保留來源審核證據，大型基線存檔另附下載。
+
+**Upgrade / 升級：** Export history before replacing or moving the app, then import it in the new copy. 更換或移動App前先匯出紀錄，再匯入新版本。
+
+[Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.0)
+
 ## v1.9.1 — 18 October 2026
 
 [Download / 下載 mso-ca.html](https://github.com/leohwlee/mso-ca/releases/download/v1.9.1/mso-ca.html)

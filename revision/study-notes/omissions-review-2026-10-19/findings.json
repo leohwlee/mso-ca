@@ -1,0 +1,306 @@
+[
+  {
+    "id": "O01",
+    "part": 1,
+    "section": "money-laundering",
+    "title": "理解：處理財產與上游罪行的證明",
+    "impact": "避免誤以為未查明上游罪行便不可能構成洗錢。",
+    "priority": "P1",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第3.3段及註37–39",
+          "en": "2022 edition, ¶3.3 and notes 37–39"
+        },
+        "anchor": "It is not necessary for the prosecution to prove"
+      }
+    ],
+    "status": "closed"
+  },
+  {
+    "id": "O02",
+    "part": 1,
+    "section": "legal-framework",
+    "title": "參考：限制、沒收與恐怖分子財產凍結",
+    "impact": "補法律工具的用途與限制；追討細節置於參考層。",
+    "priority": "P2",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第3.15–3.19、4.50段及註95",
+          "en": "2022 edition, ¶3.15–3.19, 4.50 and note 95"
+        },
+        "anchor": "Restraint and confiscation/forfeiture"
+      }
+    ],
+    "status": "closed"
+  },
+  {
+    "id": "O03",
+    "part": 7,
+    "section": "reporting-duty",
+    "title": "理解：情報分析、調查與檢控各有角色",
+    "impact": "避免把舉報門檻誤當刑事定罪門檻。",
+    "priority": "P1",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第3.38–3.39、3.46–3.47段",
+          "en": "2022 edition, ¶3.38–3.39, 3.46–3.47"
+        },
+        "anchor": "reasonable prospect of conviction"
+      },
+      {
+        "doc": "03",
+        "locator": {
+          "tc": "第7.1、7.12段",
+          "en": "¶7.1, 7.12"
+        },
+        "anchor": "as soon as it is reasonable"
+      }
+    ],
+    "status": "closed"
+  },
+  {
+    "id": "O04",
+    "part": 7,
+    "section": "law-enforcement",
+    "title": "參考：跨境情報與正式法律協助",
+    "impact": "說清情報合作與司法程序的分別；不背機構人數及協議數。",
+    "priority": "P2",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第3.49–3.57段",
+          "en": "2022 edition, ¶3.49–3.57"
+        },
+        "anchor": "Financial intelligence exchange"
+      }
+    ],
+    "status": "closed"
+  },
+  {
+    "id": "O05",
+    "part": 6,
+    "section": "remittances",
+    "title": "理解：跨境申報不等於證明資金合法",
+    "impact": "避免把已申報視為資金來源或合法性的證明。",
+    "priority": "P1",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第4.55–4.56段",
+          "en": "2022 edition, ¶4.55–4.56"
+        },
+        "anchor": "individual cash couriers repeatedly carry cash"
+      }
+    ],
+    "status": "closed"
+  },
+  {
+    "id": "O06",
+    "part": 6,
+    "section": "monitoring",
+    "title": "辨認：2022年報告列出的帳戶及轉移模式",
+    "impact": "補齊原文七類觀察，避免僅記零散例子。",
+    "priority": "P1",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第4.62–4.64段",
+          "en": "2022 edition, ¶4.62–4.64"
+        },
+        "anchor": "Common Device identity"
+      }
+    ],
+    "status": "closed"
+  },
+  {
+    "id": "O07",
+    "part": 1,
+    "section": "risk-assessment",
+    "title": "例子：保險、物業及專業服務如何被濫用",
+    "impact": "補可理解的跨行業機制，不擴成其他行業操作手冊。",
+    "priority": "P1",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第4.45–4.51段",
+          "en": "2022 edition, ¶4.45–4.51"
+        },
+        "anchor": "Purchase of insurance products"
+      }
+    ],
+    "status": "closed"
+  },
+  {
+    "id": "O08",
+    "part": 6,
+    "section": "beneficial-owners",
+    "title": "認識：重要控制人登記冊及CDD的關係",
+    "impact": "補公司控制資料的用途、完整擇一條件與MSO責任界線。",
+    "priority": "P1",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第7.20、7.24–7.27段及註201",
+          "en": "2022 edition, ¶7.20, 7.24–7.27 and note 201"
+        },
+        "anchor": "Significant controllers include"
+      },
+      {
+        "doc": "03",
+        "locator": {
+          "tc": "第4.4.3–4.4.4段及註27",
+          "en": "¶4.4.3–4.4.4 and note 27"
+        },
+        "anchor": "An MSO may refer to such registers"
+      }
+    ],
+    "status": "closed"
+  },
+  {
+    "id": "O09",
+    "part": 2,
+    "section": "other-sector-regimes",
+    "title": "參考：虛擬資產客戶資產的保障界線",
+    "impact": "以具體保障、權利保留及不獲豁免的義務取代籠統表述。",
+    "priority": "P2",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第53ZRT條",
+          "en": "s.53ZRT"
+        },
+        "anchor": "Client assets of a licensed provider are not liable"
+      }
+    ],
+    "status": "closed"
+  },
+  {
+    "id": "O10",
+    "part": 2,
+    "section": "other-sector-regimes",
+    "title": "參考：虛擬資產欺詐的兩項罪行",
+    "impact": "補無牌經營以外的重要行為禁令，保留精神要件。",
+    "priority": "P2",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第53ZRF–53ZRG條",
+          "en": "ss.53ZRF–53ZRG"
+        },
+        "anchor": "Offence to fraudulently or recklessly induce others"
+      }
+    ],
+    "status": "closed"
+  },
+  {
+    "id": "O11",
+    "part": 2,
+    "section": "other-sector-regimes",
+    "title": "參考：證監會的跨境VA合作條件",
+    "impact": "整個跨境合作分部原先未說明；補用途、AND／OR及資料保障，仍列其他行業參考。",
+    "priority": "P2",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第13A–13E條",
+          "en": "ss.13A–13E"
+        },
+        "anchor": "International supervisory cooperation"
+      }
+    ],
+    "status": "closed"
+  },
+  {
+    "id": "O12",
+    "part": 2,
+    "section": "other-sector-regimes",
+    "title": "參考：非香港DPMS現金報告須提供甚麼",
+    "impact": "已教報告期限但未解釋報甚麼；補具體內容並限於該非香港交易商制度。",
+    "priority": "P2",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第53ZVK條；附表3J第1–2條",
+          "en": "s.53ZVK; Schedule 3J ss.1–2"
+        },
+        "anchor": "Information to be Provided in Cash Transaction Report"
+      }
+    ],
+    "status": "closed"
+  },
+  {
+    "id": "O13",
+    "part": 5,
+    "section": "risk-based",
+    "title": "理解：風險管理與迴避風險",
+    "impact": "補RBA與一概排除的分別，不把銀行倡議當成MSO必須開戶。",
+    "priority": "P2",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第5.2節專題5.6（中文第61頁）",
+          "en": "2022 edition, section 5.2 Box 5.6 (English p.72)"
+        },
+        "anchor": "Box 5.6 - De-risking"
+      },
+      {
+        "doc": "03",
+        "locator": {
+          "tc": "第2.1、4.13.1段",
+          "en": "¶2.1, 4.13.1"
+        },
+        "anchor": "allocate its resources more effectively"
+      }
+    ],
+    "status": "closed"
+  },
+  {
+    "id": "O14",
+    "part": 1,
+    "section": "risk-assessment",
+    "title": "例子：證券詐騙與掩藏實益擁有權",
+    "impact": "補上游罪行產生得益與利用金融產品清洗得益的方向差別。",
+    "priority": "P2",
+    "action": "added",
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第5.3.9、5.3.12–5.3.14、5.3.25–5.3.29段及專題5.9–5.10",
+          "en": "2022 edition, ¶5.3.9, 5.3.12–5.3.14, 5.3.25–5.3.29 and Boxes 5.9–5.10"
+        },
+        "anchor": "Examples of red flags that may indicate"
+      }
+    ],
+    "status": "closed"
+  }
+]

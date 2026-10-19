@@ -8,6 +8,7 @@
 |---|---|---|
 | Download, practise and back up results / 下載、練習及備份 | [User guide](USAGE.md) | [使用指南](USAGE.zh-Hant.md) |
 | Read the 26 approved publications / 閱讀26份指定文件 | [Reading order](README.md) | [閱讀順序](README.zh-Hant.md) |
+| Read all seven study parts / 閱讀七部分溫習資料 | [Bilingual study notes](../revision/study-notes/index.html) | [雙語溫習資料](../revision/study-notes/index.html) |
 | Check which sources support questions / 核對題目來源 | [Source mapping](QUESTION-SOURCES.md) | [來源對照](QUESTION-SOURCES.zh-Hant.md) |
 | Read what changed / 版本改動 | [Release notes / 更新記錄](../CHANGELOG.md) | [GitHub Releases](https://github.com/leohwlee/mso-ca/releases) |
 

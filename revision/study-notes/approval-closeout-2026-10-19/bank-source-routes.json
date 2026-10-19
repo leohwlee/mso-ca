@@ -1,0 +1,3986 @@
+{
+  "method": "Post-authoring identifier/source-route check only. This tool does not assess bank-statement semantics or prove completeness. Manual concept review is recorded separately.",
+  "bank_sha256": "4cc89c045c9f1fb1f8cb1e163154cabed6d3eb4e4349baf168b9ae56bfe1bce3",
+  "quotes_sha256": "2045fdac5e258f395c86961a6df6dec8aa4b4eb32b405f1e26eae43e6daa1448",
+  "manuscripts": {
+    "part1.py": "d4150d6d14f6b14ad850407bcc76758f13dbc42d26904bc037f0e6af9d97834a",
+    "part2.py": "6870677a517d882fa5f08364cd55a805351e532077ee19ef65d7089d970dfbd9",
+    "part3.py": "8882ec4f8929ea1d925103080a37a4af942cdf57d5f67110390a96ccf4e4e9fb",
+    "part4.py": "2afb3cfa22202d5efa80cb4fadedd1278b9395270d0322a15a24c577f9cb0a98",
+    "part5.py": "d22d5e573e9ae04377a005b3d7c1fa4039624b2c27336bff92888a47169628e6",
+    "part6.py": "66aa4e382ba5381553f0402a7ce71b0bd28a2673586dc00e98ef5b0d8e3434c7",
+    "part7.py": "3f2f04b479e2fe54273e5641abca1c1aeaec71023a0087908a23424991a438c8"
+  },
+  "essentials": {
+    "sha256": "45983361f496bd9ba35d6d0076cb2a138a4e310ed3f2bdfb81069e65f04d8011",
+    "blocks": 0,
+    "points": 0
+  },
+  "recall": {
+    "sha256": "6d6bfd4e6270b3802fbdcf4bb5a05106e9feef3aa0fa2bc8bf20d47e42a600d7",
+    "tables": 18,
+    "diagrams": 2
+  },
+  "questions_checked": 525,
+  "historical_supplements": [
+    {
+      "topic": "Customer assessment framework and finalisation",
+      "source": "03 ¶2.13–2.16",
+      "notes": "part-5.html#customer-assessment"
+    },
+    {
+      "topic": "Tribunal evidence, costs, privacy and written orders",
+      "source": "04 ss.61–68",
+      "notes": "part-2.html#statutory-administration"
+    },
+    {
+      "topic": "Tribunal panel, sittings, consent and chair-alone powers",
+      "source": "04 Schedule 4 ss.2–9",
+      "notes": "part-3.html#tribunal-schedule"
+    },
+    {
+      "topic": "Supporting evidence by legal form and premises use",
+      "source": "05 ¶16.1–16.3",
+      "notes": "part-4.html#application"
+    },
+    {
+      "topic": "CO/MLRO employment exception and permitted account names",
+      "source": "05 ¶4.15(a), ¶11.1(j)",
+      "notes": "part-5.html#roles; part-4.html#licensing-actions"
+    },
+    {
+      "topic": "FAQ practical verification and full cross-border screening parties",
+      "source": "06 A3–A15, A24",
+      "notes": "part-6.html#identity; part-6.html#screening"
+    },
+    {
+      "topic": "Half-year return filing deadline",
+      "source": "05 ¶11.2; 15 main text and annex",
+      "notes": "part-7.html#periodic-return"
+    },
+    {
+      "topic": "Occasional CDD completion-date retention and unsuccessful applications",
+      "source": "04 Schedule 2 s.20(3A); 06 A28",
+      "notes": "part-7.html#retention"
+    }
+  ],
+  "source_routes": {
+    "01": [
+      "part-4.html#assessment"
+    ],
+    "02": [
+      "part-4.html#assessment"
+    ],
+    "03": [
+      "part-1.html#money-laundering",
+      "part-1.html#terrorist-financing",
+      "part-1.html#legal-framework",
+      "part-1.html#international",
+      "part-1.html#sanctions",
+      "part-2.html#statutory-map",
+      "part-3.html#definitions",
+      "part-5.html#risk-based",
+      "part-5.html#institutional-assessment",
+      "part-5.html#customer-assessment",
+      "part-5.html#new-business",
+      "part-5.html#control-framework",
+      "part-5.html#roles",
+      "part-5.html#group-controls",
+      "part-6.html#cdd",
+      "part-6.html#triggers",
+      "part-6.html#identity",
+      "part-6.html#identity-evidence",
+      "part-6.html#beneficial-owners",
+      "part-6.html#representatives",
+      "part-6.html#timing",
+      "part-6.html#simplified",
+      "part-6.html#enhanced",
+      "part-6.html#peps",
+      "part-6.html#remote",
+      "part-6.html#intermediaries",
+      "part-6.html#monitoring",
+      "part-6.html#screening",
+      "part-6.html#wire-transfers",
+      "part-6.html#wire-receiving",
+      "part-6.html#remittances",
+      "part-6.html#suspicion-indicators",
+      "part-7.html#reporting-duty",
+      "part-7.html#internal-report",
+      "part-7.html#tipping-off",
+      "part-7.html#after-report",
+      "part-7.html#evidence-records",
+      "part-7.html#retention",
+      "part-7.html#independent-audit",
+      "part-7.html#training",
+      "part-7.html#law-enforcement",
+      "part-7.html#safe"
+    ],
+    "04": [
+      "part-1.html#money-laundering",
+      "part-1.html#risk-assessment",
+      "part-2.html#statutory-map",
+      "part-2.html#criminal-liability",
+      "part-2.html#inspection-investigation",
+      "part-2.html#licence-scope",
+      "part-2.html#grant-renewal",
+      "part-2.html#changes",
+      "part-2.html#discipline",
+      "part-2.html#enforcement",
+      "part-2.html#review",
+      "part-2.html#statutory-administration",
+      "part-2.html#other-sector-regimes",
+      "part-3.html#definitions",
+      "part-3.html#core-duties",
+      "part-3.html#simplification",
+      "part-3.html#special-cases",
+      "part-3.html#sector-specific",
+      "part-3.html#ongoing-and-records",
+      "part-3.html#fees",
+      "part-3.html#tribunal-schedule",
+      "part-4.html#fitness",
+      "part-5.html#group-controls",
+      "part-6.html#beneficial-owners",
+      "part-6.html#timing",
+      "part-6.html#enhanced",
+      "part-6.html#intermediaries",
+      "part-6.html#wire-transfers",
+      "part-6.html#wire-receiving",
+      "part-6.html#remittances",
+      "part-7.html#retention"
+    ],
+    "05": [
+      "part-2.html#statutory-map",
+      "part-2.html#licence-scope",
+      "part-2.html#grant-renewal",
+      "part-3.html#fees",
+      "part-4.html#premises",
+      "part-4.html#application",
+      "part-4.html#fitness",
+      "part-4.html#assessment",
+      "part-4.html#licensing-actions",
+      "part-5.html#roles",
+      "part-7.html#periodic-return"
+    ],
+    "06": [
+      "part-1.html#international",
+      "part-6.html#identity",
+      "part-6.html#representatives",
+      "part-6.html#enhanced",
+      "part-6.html#peps",
+      "part-6.html#screening",
+      "part-6.html#wire-transfers",
+      "part-7.html#retention",
+      "part-7.html#independent-audit"
+    ],
+    "07": [
+      "part-6.html#cdd",
+      "part-6.html#identity",
+      "part-6.html#representatives",
+      "part-6.html#screening"
+    ],
+    "08": [
+      "part-6.html#third-party-payments"
+    ],
+    "09": [
+      "part-1.html#international",
+      "part-1.html#sanctions",
+      "part-5.html#institutional-assessment"
+    ],
+    "10": [
+      "part-4.html#fitness"
+    ],
+    "11": [
+      "part-4.html#fitness"
+    ],
+    "12": [
+      "part-4.html#penalty-factors"
+    ],
+    "13": [
+      "part-4.html#penalty-factors"
+    ],
+    "14": [
+      "part-6.html#delivery"
+    ],
+    "15": [
+      "part-7.html#periodic-return"
+    ],
+    "16": [
+      "part-4.html#exchange-display"
+    ],
+    "17": [
+      "part-3.html#core-duties",
+      "part-4.html#exchange-note",
+      "part-4.html#exchange-display"
+    ],
+    "18": [
+      "part-6.html#trade-based-laundering"
+    ],
+    "19": [
+      "part-1.html#international"
+    ],
+    "20": [
+      "part-5.html#business-plan"
+    ],
+    "21": [
+      "part-5.html#policy"
+    ],
+    "22": [
+      "part-1.html#cross-boundary-cash",
+      "part-3.html#core-duties"
+    ],
+    "23": [
+      "part-1.html#cross-boundary-cash",
+      "part-3.html#core-duties"
+    ],
+    "24": [
+      "part-6.html#trade-based-laundering"
+    ],
+    "25": [
+      "part-1.html#money-laundering",
+      "part-1.html#terrorist-financing",
+      "part-1.html#legal-framework",
+      "part-1.html#risk-assessment",
+      "part-1.html#sanctions",
+      "part-5.html#risk-based",
+      "part-6.html#beneficial-owners",
+      "part-6.html#monitoring",
+      "part-6.html#remittances",
+      "part-6.html#trade-based-laundering",
+      "part-7.html#reporting-duty",
+      "part-7.html#law-enforcement"
+    ],
+    "26": [
+      "part-1.html#international",
+      "part-1.html#sanctions"
+    ]
+  },
+  "source_overlap": [
+    {
+      "id": "m1-gn71",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-127",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-128",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-129",
+      "part": 1,
+      "source_documents": [
+        "03",
+        "04"
+      ]
+    },
+    {
+      "id": "m1-130",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-131",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-132",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-133",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-134",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-135",
+      "part": 1,
+      "source_documents": [
+        "19"
+      ]
+    },
+    {
+      "id": "m1-136",
+      "part": 1,
+      "source_documents": [
+        "18"
+      ]
+    },
+    {
+      "id": "m1-137",
+      "part": 1,
+      "source_documents": [
+        "18"
+      ]
+    },
+    {
+      "id": "m1-138",
+      "part": 1,
+      "source_documents": [
+        "08"
+      ]
+    },
+    {
+      "id": "m1-139",
+      "part": 1,
+      "source_documents": [
+        "22"
+      ]
+    },
+    {
+      "id": "m1-143",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-144",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-145",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-146",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-147",
+      "part": 1,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m1-148",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-150",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-151",
+      "part": 1,
+      "source_documents": [
+        "03",
+        "16"
+      ]
+    },
+    {
+      "id": "m1-152",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-160",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-161",
+      "part": 1,
+      "source_documents": [
+        "03",
+        "06",
+        "19"
+      ]
+    },
+    {
+      "id": "m1-178",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-179",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-180",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-189",
+      "part": 1,
+      "source_documents": [
+        "08"
+      ]
+    },
+    {
+      "id": "m1-190",
+      "part": 1,
+      "source_documents": [
+        "17"
+      ]
+    },
+    {
+      "id": "m1-191",
+      "part": 1,
+      "source_documents": [
+        "17"
+      ]
+    },
+    {
+      "id": "m1-192",
+      "part": 1,
+      "source_documents": [
+        "17"
+      ]
+    },
+    {
+      "id": "m1-193",
+      "part": 1,
+      "source_documents": [
+        "17"
+      ]
+    },
+    {
+      "id": "m1-194",
+      "part": 1,
+      "source_documents": [
+        "17"
+      ]
+    },
+    {
+      "id": "m1-195",
+      "part": 1,
+      "source_documents": [
+        "17"
+      ]
+    },
+    {
+      "id": "m1-196",
+      "part": 1,
+      "source_documents": [
+        "17"
+      ]
+    },
+    {
+      "id": "m1-197",
+      "part": 1,
+      "source_documents": [
+        "17"
+      ]
+    },
+    {
+      "id": "m1-198",
+      "part": 1,
+      "source_documents": [
+        "23"
+      ]
+    },
+    {
+      "id": "m1-199",
+      "part": 1,
+      "source_documents": [
+        "23"
+      ]
+    },
+    {
+      "id": "m1-200",
+      "part": 1,
+      "source_documents": [
+        "23"
+      ]
+    },
+    {
+      "id": "m1-201",
+      "part": 1,
+      "source_documents": [
+        "23"
+      ]
+    },
+    {
+      "id": "m1-202",
+      "part": 1,
+      "source_documents": [
+        "23"
+      ]
+    },
+    {
+      "id": "m1-203",
+      "part": 1,
+      "source_documents": [
+        "23"
+      ]
+    },
+    {
+      "id": "m1-204",
+      "part": 1,
+      "source_documents": [
+        "23"
+      ]
+    },
+    {
+      "id": "m1-205",
+      "part": 1,
+      "source_documents": [
+        "23"
+      ]
+    },
+    {
+      "id": "m1-206",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-207",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-208",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-209",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-210",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-211",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-212",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-213",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-214",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-215",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-216",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-217",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-218",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-219",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m1-220",
+      "part": 1,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m2-ca2",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-309",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-310",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-311",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-312",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-313",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-314",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-315",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-316",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-317",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-318",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-321",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-322",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-323",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-324",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-340",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-341",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-342",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-343",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-344",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-345",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-346",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-347",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-348",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-349",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-350",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-351",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-352",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-353",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-325",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-326",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-327",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-328",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-329",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-330",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-331",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-332",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-333",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-334",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-335",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-336",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-337",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-338",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-354",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-355",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-356",
+      "part": 2,
+      "source_documents": [
+        "04",
+        "06"
+      ]
+    },
+    {
+      "id": "m2-357",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-358",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-359",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-360",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-363",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-364",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-365",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-366",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-367",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-368",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-369",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-370",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-371",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-372",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-373",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-374",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-375",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-376",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-377",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-378",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-379",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-380",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-381",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-382",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-383",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-384",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-385",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-386",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-387",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-ca3",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-262",
+      "part": 3,
+      "source_documents": [
+        "03",
+        "04"
+      ]
+    },
+    {
+      "id": "m3-263",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-264",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-265",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-266",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-267",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-268",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-269",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-270",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-271",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-272",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-273",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-274",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-275",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-276",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-277",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-278",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-279",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-280",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-281",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-282",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-283",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-284",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-285",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-286",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-292",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-293",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-294",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-295",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-296",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-297",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-298",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-300",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-301",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-302",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-303",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-304",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-305",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-306",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-322",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-323",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-324",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-325",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-326",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-327",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-328",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-329",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-330",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-331",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-332",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-333",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-334",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-335",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-336",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-337",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-338",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-339",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-340",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-341",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-342",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-343",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-344",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-345",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-346",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m4-ca4",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-311",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-312",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-313",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-314",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-315",
+      "part": 4,
+      "source_documents": [
+        "01",
+        "05"
+      ]
+    },
+    {
+      "id": "m4-316",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-317",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-318",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-319",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-320",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-321",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-322",
+      "part": 4,
+      "source_documents": [
+        "05",
+        "15"
+      ]
+    },
+    {
+      "id": "m4-323",
+      "part": 4,
+      "source_documents": [
+        "20"
+      ]
+    },
+    {
+      "id": "m4-324",
+      "part": 4,
+      "source_documents": [
+        "21"
+      ]
+    },
+    {
+      "id": "m4-325",
+      "part": 4,
+      "source_documents": [
+        "11"
+      ]
+    },
+    {
+      "id": "m4-326",
+      "part": 4,
+      "source_documents": [
+        "12",
+        "13"
+      ]
+    },
+    {
+      "id": "m4-327",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-328",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-330",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-331",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-332",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-333",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-334",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-335",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-336",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-337",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-338",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-339",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-342",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-343",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-344",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-345",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-346",
+      "part": 4,
+      "source_documents": [
+        "10",
+        "11"
+      ]
+    },
+    {
+      "id": "m4-347",
+      "part": 4,
+      "source_documents": [
+        "11"
+      ]
+    },
+    {
+      "id": "m4-348",
+      "part": 4,
+      "source_documents": [
+        "11"
+      ]
+    },
+    {
+      "id": "m4-349",
+      "part": 4,
+      "source_documents": [
+        "20"
+      ]
+    },
+    {
+      "id": "m4-350",
+      "part": 4,
+      "source_documents": [
+        "20"
+      ]
+    },
+    {
+      "id": "m4-351",
+      "part": 4,
+      "source_documents": [
+        "21"
+      ]
+    },
+    {
+      "id": "m4-352",
+      "part": 4,
+      "source_documents": [
+        "21"
+      ]
+    },
+    {
+      "id": "m4-353",
+      "part": 4,
+      "source_documents": [
+        "21"
+      ]
+    },
+    {
+      "id": "m4-354",
+      "part": 4,
+      "source_documents": [
+        "12",
+        "13"
+      ]
+    },
+    {
+      "id": "m4-355",
+      "part": 4,
+      "source_documents": [
+        "12",
+        "13"
+      ]
+    },
+    {
+      "id": "m4-356",
+      "part": 4,
+      "source_documents": [
+        "12",
+        "13"
+      ]
+    },
+    {
+      "id": "m4-357",
+      "part": 4,
+      "source_documents": [
+        "05",
+        "06",
+        "20"
+      ]
+    },
+    {
+      "id": "m4-364",
+      "part": 4,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m4-365",
+      "part": 4,
+      "source_documents": [
+        "04",
+        "05"
+      ]
+    },
+    {
+      "id": "m4-373",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-374",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-375",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-376",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-377",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-378",
+      "part": 4,
+      "source_documents": [
+        "11"
+      ]
+    },
+    {
+      "id": "m4-379",
+      "part": 4,
+      "source_documents": [
+        "20"
+      ]
+    },
+    {
+      "id": "m4-380",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-381",
+      "part": 4,
+      "source_documents": [
+        "13"
+      ]
+    },
+    {
+      "id": "m4-382",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-390",
+      "part": 4,
+      "source_documents": [
+        "15"
+      ]
+    },
+    {
+      "id": "m4-391",
+      "part": 4,
+      "source_documents": [
+        "15"
+      ]
+    },
+    {
+      "id": "m4-392",
+      "part": 4,
+      "source_documents": [
+        "09"
+      ]
+    },
+    {
+      "id": "m4-393",
+      "part": 4,
+      "source_documents": [
+        "09"
+      ]
+    },
+    {
+      "id": "m4-394",
+      "part": 4,
+      "source_documents": [
+        "26"
+      ]
+    },
+    {
+      "id": "m4-395",
+      "part": 4,
+      "source_documents": [
+        "26"
+      ]
+    },
+    {
+      "id": "m4-396",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-397",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-398",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-399",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-400",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-401",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-402",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-403",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-404",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-405",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-406",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-407",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-408",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-409",
+      "part": 4,
+      "source_documents": [
+        "11"
+      ]
+    },
+    {
+      "id": "m4-410",
+      "part": 4,
+      "source_documents": [
+        "12"
+      ]
+    },
+    {
+      "id": "m4-411",
+      "part": 4,
+      "source_documents": [
+        "20"
+      ]
+    },
+    {
+      "id": "m4-412",
+      "part": 4,
+      "source_documents": [
+        "21"
+      ]
+    },
+    {
+      "id": "m5-07",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-08",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-12",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-16",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-18",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-19",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-21",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-22",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-26",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-29",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-30",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-31",
+      "part": 5,
+      "source_documents": [
+        "03",
+        "14"
+      ]
+    },
+    {
+      "id": "m5-33",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-34",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-37",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-39",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-44",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-46",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-47",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-53",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-56",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-57",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-58",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-61",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-63",
+      "part": 5,
+      "source_documents": [
+        "03",
+        "04"
+      ]
+    },
+    {
+      "id": "m5-64",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-65",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-67",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-68",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-69",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-74",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-75",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-77",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-80",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-88",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-89",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-92",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-ca1",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-97",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-98",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-99",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-100",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-101",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-102",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-103",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-104",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-105",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-106",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-107",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-108",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-109",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-110",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-111",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-112",
+      "part": 5,
+      "source_documents": [
+        "21"
+      ]
+    },
+    {
+      "id": "m5-113",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-114",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-115",
+      "part": 5,
+      "source_documents": [
+        "24"
+      ]
+    },
+    {
+      "id": "m5-116",
+      "part": 5,
+      "source_documents": [
+        "24"
+      ]
+    },
+    {
+      "id": "m5-117",
+      "part": 5,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m5-118",
+      "part": 5,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m5-119",
+      "part": 5,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m5-120",
+      "part": 5,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m5-121",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-122",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-123",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-124",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-125",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-126",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-127",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-128",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-129",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-130",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-131",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-132",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-133",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-134",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-135",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-136",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-138",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-137",
+      "part": 5,
+      "source_documents": [
+        "18"
+      ]
+    },
+    {
+      "id": "m6-ca7",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-341",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-342",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-343",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06",
+        "07"
+      ]
+    },
+    {
+      "id": "m6-344",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-345",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-346",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "07"
+      ]
+    },
+    {
+      "id": "m6-347",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-348",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-349",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06",
+        "07"
+      ]
+    },
+    {
+      "id": "m6-350",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-351",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-352",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-353",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-354",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-355",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-356",
+      "part": 6,
+      "source_documents": [
+        "08"
+      ]
+    },
+    {
+      "id": "m6-357",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-358",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-359",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-360",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-361",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-362",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-363",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-364",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-365",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-366",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-367",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-368",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-369",
+      "part": 6,
+      "source_documents": [
+        "07"
+      ]
+    },
+    {
+      "id": "m6-370",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-371",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-372",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-373",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-374",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-375",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-376",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-377",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-378",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-379",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-380",
+      "part": 6,
+      "source_documents": [
+        "14"
+      ]
+    },
+    {
+      "id": "m6-381",
+      "part": 6,
+      "source_documents": [
+        "08"
+      ]
+    },
+    {
+      "id": "m6-382",
+      "part": 6,
+      "source_documents": [
+        "08"
+      ]
+    },
+    {
+      "id": "m6-383",
+      "part": 6,
+      "source_documents": [
+        "08"
+      ]
+    },
+    {
+      "id": "m6-384",
+      "part": 6,
+      "source_documents": [
+        "08"
+      ]
+    },
+    {
+      "id": "m6-386",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "04",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-388",
+      "part": 6,
+      "source_documents": [
+        "06"
+      ]
+    },
+    {
+      "id": "m6-396",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-397",
+      "part": 6,
+      "source_documents": [
+        "06"
+      ]
+    },
+    {
+      "id": "m6-398",
+      "part": 6,
+      "source_documents": [
+        "04",
+        "08"
+      ]
+    },
+    {
+      "id": "m6-399",
+      "part": 6,
+      "source_documents": [
+        "06"
+      ]
+    },
+    {
+      "id": "m6-400",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-410",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-412",
+      "part": 6,
+      "source_documents": [
+        "06"
+      ]
+    },
+    {
+      "id": "m6-413",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-414",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-415",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-416",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-417",
+      "part": 6,
+      "source_documents": [
+        "06"
+      ]
+    },
+    {
+      "id": "m6-426",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "04"
+      ]
+    },
+    {
+      "id": "m6-427",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-428",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-429",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-430",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-442",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-443",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-444",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-445",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-446",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-447",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-448",
+      "part": 6,
+      "source_documents": [
+        "06"
+      ]
+    },
+    {
+      "id": "m6-449",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "14"
+      ]
+    },
+    {
+      "id": "m6-460",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "08"
+      ]
+    },
+    {
+      "id": "m6-470",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-471",
+      "part": 6,
+      "source_documents": [
+        "24"
+      ]
+    },
+    {
+      "id": "m6-472",
+      "part": 6,
+      "source_documents": [
+        "24"
+      ]
+    },
+    {
+      "id": "m6-473",
+      "part": 6,
+      "source_documents": [
+        "24"
+      ]
+    },
+    {
+      "id": "m6-474",
+      "part": 6,
+      "source_documents": [
+        "24"
+      ]
+    },
+    {
+      "id": "m6-475",
+      "part": 6,
+      "source_documents": [
+        "24"
+      ]
+    },
+    {
+      "id": "m6-476",
+      "part": 6,
+      "source_documents": [
+        "18"
+      ]
+    },
+    {
+      "id": "m6-477",
+      "part": 6,
+      "source_documents": [
+        "18"
+      ]
+    },
+    {
+      "id": "m6-478",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-479",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-480",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-481",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-482",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-483",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-484",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-485",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-486",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-487",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-488",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-489",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-490",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-491",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-492",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-493",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-494",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-495",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "08"
+      ]
+    },
+    {
+      "id": "m6-496",
+      "part": 6,
+      "source_documents": [
+        "08"
+      ]
+    },
+    {
+      "id": "m7-ca5",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-ca6",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-155",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-156",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-157",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-158",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-159",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-160",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-161",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-162",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-163",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-164",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-165",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-166",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-167",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-168",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-169",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-170",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-171",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-172",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-173",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-174",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-175",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-176",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-177",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-178",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-179",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-180",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-181",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-182",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-183",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-184",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-185",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-186",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-187",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-188",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-189",
+      "part": 7,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m7-190",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-191",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-192",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-193",
+      "part": 7,
+      "source_documents": [
+        "24"
+      ]
+    },
+    {
+      "id": "m7-194",
+      "part": 7,
+      "source_documents": [
+        "24"
+      ]
+    },
+    {
+      "id": "m7-195",
+      "part": 7,
+      "source_documents": [
+        "24"
+      ]
+    },
+    {
+      "id": "m7-196",
+      "part": 7,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m7-197",
+      "part": 7,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m7-198",
+      "part": 7,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m7-199",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-200",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-201",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-202",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-203",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-204",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-205",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-206",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-207",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-208",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-209",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-210",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-211",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-212",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-213",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-214",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-215",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-216",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-217",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    }
+  ]
+}

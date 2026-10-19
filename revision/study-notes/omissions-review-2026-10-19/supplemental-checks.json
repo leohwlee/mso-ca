@@ -1,0 +1,13 @@
+{
+  "go_test": {"command": "go test ./...", "exit_code": 0, "result": "ok mso-ca"},
+  "node_tests": {"command": "node --test tests/*.test.cjs", "exit_code": 0, "tests": 8, "passed": 8, "failed": 0},
+  "visual_review": {
+    "seven_part_contact_sheets_viewed": [1, 2, 3, 4, 5, 6, 7],
+    "modes_in_each": ["tc", "en", "both"],
+    "sizes_in_each": ["1440 desktop", "390 mobile"],
+    "observations": "B style retained; readable wrapping and responsive reference tables; no detected horizontal page overflow or mixed hidden-language display. Contact sheets show representative sections, not every page pixel.",
+    "preview_target_repair": "Visual inspection identified that the first assets/cooperation captures selected adjacent concept blocks. Selectors were corrected and exact heading checks added before final focused capture. This was a screenshot-target issue, not a manuscript change."
+  },
+  "meaning_review": "New source-derived content was checked against deciding bilingual passages. Automated citation anchors and display tests do not establish semantic completeness.",
+  "bank_use": "Final check only: 525 identifiers/source routes; Chinese topic stems for 170 questions citing 04/25. No answer or explanation was used to author additions."
+}

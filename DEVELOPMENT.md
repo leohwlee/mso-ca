@@ -15,7 +15,7 @@ database, account system, package manager or API key.
 | `tests/` | JavaScript app behaviour and Python source/review constraints. |
 | `bank/` | Authoring tools, retired IDs and review evidence. |
 | `docs/` | Approved sources, extracted text, quotations and focused instructions. |
-| `revision/` | Only the archive pointer and still-applicable source-conflict decisions. |
+| `revision/` | Seven-part study notes, the supported Part 6 sample URL, archive pointer and source-conflict decisions. |
 
 Go is a build and verification tool, not an app backend. Rewriting the four test
 files in another language would duplicate working checks. JavaScript runs the app;
@@ -26,6 +26,7 @@ Python handles source extraction, authoring and review records.
 Install Go 1.27+, Node.js 22+ and Python 3.10+. Run from the repository root:
 
 ```bash
+go run . -export-html dist/mso-ca.html
 go vet ./...
 go test ./...
 node --test tests/*.test.cjs
@@ -39,6 +40,16 @@ python bank/audit/p1_report.py --check
 python bank/audit/remaining_report.py --check
 go run . -export-html dist/mso-ca.html
 ```
+
+For the source-authored seven-part reading material, run
+`python revision/study-notes/build.py`, then the separate bank gap pass with
+`python revision/study-notes/gap_check.py`. The renderer does not read the bank.
+Use both with `--check` to verify deterministic output. The historical Part 6
+sample has its separate `python revision/part6-sample/build.py` command.
+CI and release checks also verify these generated notes and build the complete
+offline bundle with `python scripts/build_study_bundle.py` (`--check` verifies
+every member and all reading-page links). Build the practice target before the
+Python link tests on a fresh checkout.
 
 Python tools use the standard library; only source re-extraction needs PyMuPDF.
 On Windows, use `py -3` if `python` opens the Store, or `-X utf8` for Chinese output.
@@ -73,4 +84,6 @@ Replace `vX.Y.Z` with an unused version. The release workflow checks and builds
 `mso-ca.html` from that exact commit. Confirm CI and Release succeeded, then download
 and verify the asset. Never overwrite a published tag. The old revision pack is
 available from earlier releases and the [archive](revision/README.md); new releases
-contain only the exam app. `dist/` and Python caches are local build outputs.
+contain `mso-ca.html` and, from v1.10.0, `mso-study-bundle.zip` with the new notes,
+practice target and catalog-resolved originals 01–26. The historical pack is not
+rebuilt. `dist/` and Python caches are local build outputs.

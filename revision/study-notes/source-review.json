@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-10-19T02:54:29.740439+00:00",
+  "reviewer": {
+    "role": "independent source-faithfulness sub-agent",
+    "agent": "/root/study_source_review",
+    "model": "Inherited parent model; exact runtime model identifier not exposed to this reviewer. No cross-model verification claimed."
+  },
+  "verdict": "All reported material findings resolved within the stated bounded review scope; no unresolved material finding identified in the final bounded additions.",
+  "review_type": "Manual semantic source comparison, followed by bounded read-back of corrections and specified additions",
+  "question_bank_used": false,
+  "manuscripts_edited_by_reviewer": false,
+  "tests_run_by_reviewer": false,
+  "manuscript_sha256": {
+    "revision/study-notes/part1.py": "5efd10c9a93b9759e2d97e62787b026ee82531cd94dee5e2e8161eadcd22f9f1",
+    "revision/study-notes/part2.py": "4f2a3f83a0487c34f9ff9ba6d1de958d0df3111179e69737d18d6ab90cc38de4",
+    "revision/study-notes/part3.py": "7c2f932a4cde10fa87e4ab261db4c620c9a37358077c729b8982994935f93332",
+    "revision/study-notes/part4.py": "15f91d1cf878741ad7bc49e025847916e3c7ae99a443ad16654bfa3e49d52a3a",
+    "revision/study-notes/part5.py": "1da26f2a2a99e55d189ac8939f20d9010759ef3d02ac8d8ba6a52f7f9d323899",
+    "revision/study-notes/part6.py": "bfceea9ecf73573d0dfa2af957482d47cf332e6670fbeaa7f234458c44362e2b",
+    "revision/study-notes/part7.py": "9cb8367957cb53d135eb01d8f8866e15670c184da686507a69e19787ee2de7cc"
+  },
+  "scope": {
+    "initial_pass": "Read all seven manuscripts. Independently compared material threshold, actor, deadline, exception, modal-strength and citation claims with relevant stored primary passages. The entire 01-26 corpus was not independently re-read page by page.",
+    "primary_comparisons": [
+      "01 assessment paragraphs 3-13",
+      "03 selected substantive passages across chapters 1-11 and Appendix A",
+      "04 selected applicable provisions, notably sections 5, 25-26, 30, 56, 61-69, 76C-76F and Schedules 2-4",
+      "05 relevant premises, appointments, declarations and supporting-document checklist",
+      "06 relevant AML/CFT FAQs, including A3, A6-A9, A11-A15",
+      "07, 08, 10-15, 17, 18, 24, 26 full or main substantive bodies",
+      "09 proliferation-risk circular",
+      "20 bank-account clause; 21 record-retrieval clause",
+      "23 relevant traveller/cargo, valuation and payment-notice passages",
+      "25 executive-risk findings, methodology and MSO-sector passages"
+    ],
+    "final_bounded_additions": [
+      {
+        "target": "part1.py / risk-assessment / Research context and sector profile",
+        "sources": "25 executive summary, paragraphs 2.4-2.9 and 5.4.1-5.4.12; dated 2021 sector statistics and first-assessment comparator",
+        "result": "No material error identified in the bounded comparison; statistics remain explicitly historical."
+      },
+      {
+        "target": "part3.py / definitions / Public bodies and identification documents",
+        "sources": "04 Schedule 2 section 1",
+        "result": "No material error identified."
+      },
+      {
+        "target": "part6.py / representatives / low-risk representative lists",
+        "sources": "06 AML/CFT FAQ A12",
+        "result": "No material error identified; customer-internal independence and minimum identification details retained."
+      },
+      {
+        "target": "part5.py / customer-assessment",
+        "sources": "03 paragraphs 2.13-2.16",
+        "result": "No material error identified; no invented fixed finalisation deadline retained."
+      },
+      {
+        "target": "part2.py / statutory-administration",
+        "sources": "04 sections 26, 56, 61-69, 76C-76F and applicable administration passages",
+        "result": "Reported section 26 and section 64 scope findings resolved."
+      },
+      {
+        "target": "part3.py / tribunal-schedule",
+        "sources": "04 section 56 and Schedule 4 sections 2-9",
+        "result": "Reported High Court chair-qualification finding resolved; CFI fallback remains distinct."
+      },
+      {
+        "target": "part4.py / application / Evidence by legal form and purpose",
+        "sources": "05 paragraphs 16.1-16.3, checklist items 1-6",
+        "result": "No material error identified in the bounded summary comparison."
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "R01",
+      "file": "revision/study-notes/part4.py",
+      "block": "assessment / Attendance and results",
+      "finding": "Weather locator omitted paragraph 13.1.",
+      "deciding_passage": "01 paragraph 13.1; current locator paragraphs 8-13",
+      "status": "resolved"
+    },
+    {
+      "id": "R02",
+      "file": "revision/study-notes/part7.py",
+      "block": "reporting-duty / Knowledge, suspicion and the statutory duty",
+      "finding": "English rule omitted the knowing-or-suspecting trigger.",
+      "deciding_passage": "03 paragraph 7.1",
+      "status": "resolved"
+    },
+    {
+      "id": "R03",
+      "file": "revision/study-notes/part3.py",
+      "block": "special-cases / Additional to ordinary CDD",
+      "finding": "Removed unsupported respondent-account shell-bank requirement; retained direct prohibition.",
+      "deciding_passage": "04 Schedule 2 section 17; no reliance on reference document 31",
+      "status": "resolved"
+    },
+    {
+      "id": "R04",
+      "file": "revision/study-notes/part4.py",
+      "block": "exchange-display / Buying/selling from the changer perspective",
+      "finding": "Corrected two mandatory identical boards to one board, with identical rates if multiple.",
+      "deciding_passage": "17 section 6(1)-(3)",
+      "status": "resolved"
+    },
+    {
+      "id": "R05",
+      "file": "revision/study-notes/part4.py",
+      "block": "exchange-note / Scope and transaction steps",
+      "finding": "Distinguished optional serial/transaction numbers from required transaction-note content.",
+      "deciding_passage": "17 section 4(2)-(3)",
+      "status": "resolved"
+    },
+    {
+      "id": "R06",
+      "file": "revision/study-notes/part4.py",
+      "block": "exchange-note / Scope and transaction steps",
+      "finding": "Replaced invariably HKD equivalent with equivalent currency issued to the customer.",
+      "deciding_passage": "17 section 4(2)(e)",
+      "status": "resolved"
+    },
+    {
+      "id": "R07",
+      "file": "revision/study-notes/part1.py",
+      "block": "sanctions / Prohibitions, freezing and licences",
+      "finding": "Distinguished Chief Executive licence-granting power from applications to CEDB.",
+      "deciding_passage": "03 paragraphs 6.7-6.8",
+      "status": "resolved"
+    },
+    {
+      "id": "R08",
+      "file": "revision/study-notes/part1.py",
+      "block": "terrorist-financing / Distinction from money laundering",
+      "finding": "Restored intention/knowledge, recklessness and whether-actually-used condition.",
+      "deciding_passage": "03 paragraph 1.11",
+      "status": "resolved"
+    },
+    {
+      "id": "R09",
+      "file": "revision/study-notes/part7.py",
+      "block": "internal-report / From staff to the JFIU",
+      "finding": "Restored JFIU as Chinese-view transaction-information recipient.",
+      "deciding_passage": "03 TC paragraph 7.19; settled decision E30",
+      "status": "resolved"
+    },
+    {
+      "id": "R10",
+      "file": "revision/study-notes/part7.py",
+      "block": "training / Tailor training to responsibilities",
+      "finding": "Restored Chinese should-consider versus English encouraged-to-consider training mix.",
+      "deciding_passage": "03 paragraph 9.6 in each language; settled decision E26",
+      "status": "resolved"
+    },
+    {
+      "id": "R11",
+      "file": "revision/study-notes/part4.py",
+      "block": "assessment / Nomination and reassessment",
+      "finding": "Removed normally weakening the applicable new-application 30-day duty.",
+      "deciding_passage": "01 paragraph 4.5",
+      "status": "resolved"
+    },
+    {
+      "id": "R12",
+      "file": "revision/study-notes/part4.py",
+      "block": "assessment / Attendance and results",
+      "finding": "Restored at-or-after 8 a.m. and own-language suspended/rescheduled wording.",
+      "deciding_passage": "01 paragraph 13.1; settled decision E8",
+      "status": "resolved"
+    },
+    {
+      "id": "R13",
+      "file": "revision/study-notes/part6.py",
+      "block": "identity / Common documentary situations",
+      "finding": "Restricted biodata-page summary to travel documents.",
+      "deciding_passage": "06 AML/CFT FAQ A3",
+      "status": "resolved"
+    },
+    {
+      "id": "R14",
+      "file": "revision/study-notes/part6.py",
+      "block": "trade-based-laundering / Concept and use of indicators",
+      "finding": "Restored Chinese or and English and in TBML definition.",
+      "deciding_passage": "18 paragraph 2 in both languages; settled decision E32",
+      "status": "resolved"
+    },
+    {
+      "id": "R15",
+      "file": "revision/study-notes/part2.py",
+      "block": "grant-renewal / Eligibility and licence lifecycle",
+      "finding": "Added sole proprietor ultimate owner and the applicable association fitness test.",
+      "deciding_passage": "04 section 30(3)(a)(i)",
+      "status": "resolved"
+    },
+    {
+      "id": "R16",
+      "file": "revision/study-notes/part2.py",
+      "block": "statutory-administration / Allocation of statutory powers",
+      "finding": "Corrected section 26 delegation from Part 5 only to functions under the Ordinance, preserving exceptions.",
+      "deciding_passage": "04 section 26",
+      "status": "resolved"
+    },
+    {
+      "id": "R17",
+      "file": "revision/study-notes/part2.py",
+      "block": "licence-scope / Identify the regulated business",
+      "finding": "Expanded section 25 categories, ancillary-business conditions and distinct stablecoin condition.",
+      "deciding_passage": "04 section 25",
+      "status": "resolved"
+    },
+    {
+      "id": "R18",
+      "file": "revision/study-notes/part4.py",
+      "block": "penalty-factors / Assessment under documents 12 and 13",
+      "finding": "Extended locators to encompass financial impact and seriousness factors.",
+      "deciding_passage": "12 paragraphs 4-9; 13 paragraphs 3-9",
+      "status": "resolved"
+    },
+    {
+      "id": "R19",
+      "file": "revision/study-notes/part4.py",
+      "block": "penalty-factors / Assessment under documents 12 and 13",
+      "finding": "Restored likely-effect financial-jeopardy rule instead of merely a punishment-intent statement.",
+      "deciding_passage": "12 paragraph 7; 13 paragraph 7",
+      "status": "resolved"
+    },
+    {
+      "id": "R20",
+      "file": "revision/study-notes/part4.py",
+      "block": "assessment / Nomination and reassessment",
+      "finding": "Extended first-block locator to paragraph 8 for loss of passers and reassessment.",
+      "deciding_passage": "01 paragraphs 8.1-8.3; current locator paragraphs 3-8",
+      "status": "resolved"
+    },
+    {
+      "id": "R21",
+      "file": "revision/study-notes/part1.py",
+      "block": "legal-framework / Six core legal frameworks",
+      "finding": "Restored reasonable belief or suspicion for proliferation-connected services.",
+      "deciding_passage": "03 paragraphs 1.27 and 6.10; 26 page 1(a)",
+      "status": "resolved"
+    },
+    {
+      "id": "R22",
+      "file": "revision/study-notes/part3.py",
+      "block": "tribunal-schedule / Membership, voting and attendance",
+      "finding": "Corrected chair eligibility to judge of the High Court, preserving distinct CFI fallback.",
+      "deciding_passage": "04 section 56(2)(a); Schedule 4 section 9(5)",
+      "status": "resolved"
+    },
+    {
+      "id": "R23",
+      "file": "revision/study-notes/part2.py",
+      "block": "statutory-administration / Tribunal evidence, costs and orders",
+      "finding": "Restricted section 64 other-client protection to an authorized institution acting as banker or financial adviser.",
+      "deciding_passage": "04 section 64",
+      "status": "resolved"
+    }
+  ],
+  "related_author_corrections_read_back": [
+    {
+      "target": "part2.py / criminal-liability",
+      "verified": "04 section 5(9) defence and employee/working-for scope, distinct from management-only status"
+    },
+    {
+      "target": "part2.py / licence-scope",
+      "verified": "Hotel operator buys non-HKD and pays HKD, primarily for guests; no reversed exchange direction"
+    },
+    {
+      "target": "part3.py / special-cases",
+      "verified": "04 Schedule 2 section 15: approval plus either SOF/SOW or additional mitigation; additional existing-BO and occasional-transaction requirements"
+    }
+  ],
+  "limitations": [
+    "This is an independent agent review within the same model workflow, not a human legal review or cross-model certification.",
+    "No blanket certification of legal correctness, full syllabus completeness or absence of every omission is made.",
+    "Not all pages of all 26 source publications were independently reviewed by this reviewer. Source 25 comparisons focus on relevant executive, methodology and MSO passages.",
+    "Review uses stored repository editions and settled conflict decisions, not a live verification of current law or current external risk lists.",
+    "Quote-anchor matching is not treated as evidence of semantic support; findings were decided from passage context.",
+    "Final rendered HTML, translations outside the reviewed claims, UI behaviour and gap-audit coverage require the root agent separate checks.",
+    "Bindings apply only to the exact raw manuscript bytes hashed here; later substantive edits require renewed review of affected text."
+  ]
+}

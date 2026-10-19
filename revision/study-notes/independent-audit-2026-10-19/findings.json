@@ -1,0 +1,1976 @@
+[
+  {
+    "id": "F01",
+    "part": 2,
+    "section": "licence-scope",
+    "priority": "P1",
+    "issue": "原稿聲稱「純粹通訊設施支援」有法定豁除，所引定義無此內容。",
+    "impact": "刪除無原文支持的豁除，避免錯誤縮窄發牌範圍。",
+    "before": {
+      "tc": "金錢服務包括在香港經營貨幣兌換或匯款。匯款服務涵蓋把金錢送往香港以外、從香港以外接收金錢，及安排在香港以外收取金錢；純粹通訊設施支援等須按法定豁除判斷。",
+      "en": "Money service includes operating money changing or remittance in Hong Kong. Remittance covers sending money outside Hong Kong, receiving money from outside Hong Kong, and arranging receipt outside Hong Kong, subject to statutory exclusions such as mere communications support."
+    },
+    "after": {
+      "tc": "金錢服務包括在香港作為業務經營貨幣兌換或匯款。匯款的三種法定安排及豁除條件見下文；不能只因資金沒有經過自己的銀行戶口便認為毋須牌照。",
+      "en": "Money service means operating a money-changing or remittance service as a business in Hong Kong. The three remittance arrangements and exclusions are set out below; absence of a flow through the operator’s own bank account does not itself remove licensing requirements."
+    },
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第24–25、29條；附表1",
+          "en": "ss.24–25, 29; Schedule 1"
+        },
+        "anchor": "money changing service",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-2.html#licence-scope",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F02",
+    "part": 2,
+    "section": "grant-renewal",
+    "priority": "P1",
+    "issue": "最終擁有人被一概限為自然人。",
+    "impact": "恢復第24條個人經營者代他人行事的分支。",
+    "before": {
+      "tc": "獨資經營者本人及合夥人須是經營金錢服務的適當人選；獨資／合夥的最終擁有人，以及公司的每名董事及最終擁有人，須是與經營金錢服務相關聯的適當人選。最終擁有人是自然人：包括直接／間接擁有或控制超過25%相關權益／投票權、最終控制管理，或由他人代其行事的人。",
+      "en": "The proprietor and partners must be fit/proper to operate money service. Ultimate owners of a proprietor/partnership, and every director/ultimate owner of a corporation, must be fit/proper to be associated with it. An ultimate owner is an individual, including persons with over 25% relevant ownership/voting control, ultimate management control, or on whose behalf a person acts."
+    },
+    "after": {
+      "tc": "獨資經營者本人及合夥人須是經營金錢服務的適當人選；獨資／合夥的最終擁有人，以及公司的每名董事及最終擁有人，須是與經營金錢服務相關聯的適當人選。最終擁有人按經營者的法律形式判定，不能一概限於自然人：個人經營者代另一人行事的分支使用「人」；詳見下方定義。",
+      "en": "The proprietor and partners must be fit and proper to operate money service. Ultimate owners of an individual/partnership, and every director and ultimate owner of a corporation, must be fit and proper to be associated with it. Determine ultimate ownership by legal form: it is not invariably limited to individuals, because the individual-operator acting-on-behalf limb uses “person”. See the definitions below."
+    },
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第24、30–32、42條",
+          "en": "ss.24, 30–32, 42"
+        },
+        "anchor": "not later than 45 days before the licence is due to expire",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-2.html#grant-renewal",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F03",
+    "part": 2,
+    "section": "grant-renewal",
+    "priority": "P1",
+    "issue": "合適處所要求未附「申請涉及特定處所」條件。",
+    "impact": "避免把無特定處所的合法營運模式排除。",
+    "before": {
+      "tc": "須有合適處所；住宅處所須每名佔用人書面同意獲授權人士進入行使法定權力。獲批牌照一般兩年或關長指定其他期間；關長可附加、修改或撤銷條件，須按法例通知及給予理由／覆核資料。",
+      "en": "Premises must be suitable. For domestic premises, every occupant must consent in writing to authorized entry. A grant normally lasts two years or another period specified by the CCE. Conditions may be imposed, amended or removed with statutory notification, reasons and review information."
+    },
+    "after": {
+      "tc": "申請涉及特定營業處所時，處所須合適；如屬住宅處所，每名佔用人須書面同意獲授權人士進入行使法定權力。這不表示每名MSO都必須有特定營業處所；沒有特定處所者的LMO／LPS要求見Part 4。獲批牌照一般兩年或關長指定其他期間；附加、修改或撤銷條件須依通知、理由及覆核程序。",
+      "en": "Where an application concerns particular business premises, they must be suitable; for domestic premises every occupant must consent in writing to authorized entry. This does not require every MSO to have particular business premises; Part 4 explains the LMO/LPS requirements for operators without them. A grant normally lasts two years or another CCE-specified period; imposing, amending or removing conditions follows statutory notice, reasons and review procedures."
+    },
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第24、30–32、42條",
+          "en": "ss.24, 30–32, 42"
+        },
+        "anchor": "not later than 45 days before the licence is due to expire",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-2.html#grant-renewal",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F04",
+    "part": 3,
+    "section": "definitions",
+    "priority": "P1",
+    "issue": "附表2的on-behalf分支被誤寫為individual。",
+    "impact": "與原文person及既有衝突裁定B14一致。",
+    "before": {
+      "tc": "公司：自然人直接／間接擁有或控制超過25%已發行股本、行使／控制超過25%股東大會投票權，或最終控制管理。合夥：超過25%資本／利潤或投票權，或最終控制管理。也包括由他人代表進行交易的個人；正好25%本身未達「超過」門檻，但仍須檢查控制。",
+      "en": "Corporations: individuals owning/controlling more than 25% of issued share capital or general-meeting votes, or ultimate management control. Partnerships: more than 25% capital/profit or voting rights, or ultimate management control. Also include the individual on whose behalf a transaction is conducted. Exactly 25% does not meet the ownership threshold but control must still be examined."
+    },
+    "after": {
+      "tc": "公司：自然人直接／間接擁有或控制超過25%已發行股本、行使／控制超過25%股東大會投票權，或最終控制管理。合夥：自然人直接／間接超過25%資本／利潤或投票權，或最終控制管理。兩類也包括交易為其進行的另一「人」，不能把這個分支一概限於自然人。正好25%未達百分比門檻，仍須檢查控制。",
+      "en": "For corporations: individuals directly/indirectly owning or controlling more than 25% of issued capital or general-meeting votes, or exercising ultimate management control. For partnerships: individuals with directly/indirectly more than 25% of capital, profits or votes, or ultimate management control. Both also include another “person” on whose behalf the transaction is conducted; that limb is not universally limited to individuals. Exactly 25% misses the percentage test, but control must still be examined."
+    },
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "附表2第1條",
+          "en": "Schedule 2 s.1"
+        },
+        "anchor": "more than 25%",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-3.html#definitions",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F05",
+    "part": 6,
+    "section": "beneficial-owners",
+    "priority": "P1",
+    "issue": "標題「追至最終自然人」掩蓋法定例外。",
+    "impact": "避免以標題代替各類定義。",
+    "before": {
+      "tc": "實益擁有人：追至最終自然人",
+      "en": "Beneficial owners: trace ultimate natural persons"
+    },
+    "after": {
+      "tc": "實益擁有人：擁有權、控制與代他人行事",
+      "en": "Beneficial owners: ownership, control and acting for another"
+    },
+    "refs": [
+      {
+        "doc": "03",
+        "locator": {
+          "tc": "第4.4.1–4.4.12段",
+          "en": "¶4.4.1–4.4.12"
+        },
+        "anchor": "more than 25% of the issued share capital",
+        "filenames": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-6.html#beneficial-owners",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F06",
+    "part": 6,
+    "section": "beneficial-owners",
+    "priority": "P1",
+    "issue": "標題、正文與法定person／individual界線不一致。",
+    "impact": "清楚說明法人可能出現的角色及高管替代措施。",
+    "before": null,
+    "after": {
+      "title": {
+        "tc": "自然人與「人」的界線",
+        "en": "Individuals versus “persons”"
+      },
+      "kind": "list",
+      "points": [
+        {
+          "tc": "公司／合夥的擁有權及控制分支追查自然人；但交易為其進行的人，以及信託的財產授予人、受託人、保障人／執行人等，須按各自定義識別，不能一律排除法人。替代識別高級管理人員，也不是把該人自動重新定義為BO。",
+          "en": "Ownership/control limbs for corporations and partnerships trace individuals. But the person for whom a transaction is conducted and trust roles such as settlor, trustee and protector/enforcer must be identified under their respective definitions; legal persons are not universally excluded. Identifying senior managing officials as a fallback does not automatically redefine them as BOs."
+        }
+      ],
+      "refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "附表2第1條",
+            "en": "Schedule 2 s.1"
+          },
+          "anchor": "beneficial owner"
+        },
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第4.4.6–4.4.12段",
+            "en": "¶4.4.6–4.4.12"
+          },
+          "anchor": "senior managing official"
+        }
+      ]
+    },
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "附表2第1條",
+          "en": "Schedule 2 s.1"
+        },
+        "anchor": "beneficial owner",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      },
+      {
+        "doc": "03",
+        "locator": {
+          "tc": "第4.4.6–4.4.12段",
+          "en": "¶4.4.6–4.4.12"
+        },
+        "anchor": "senior managing official",
+        "filenames": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-6.html#beneficial-owners",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F07",
+    "part": 2,
+    "section": "inspection-investigation",
+    "priority": "P1",
+    "issue": "搜查令及扣取紀錄的期限缺起算事件。",
+    "impact": "分清發出日期與取走日期。",
+    "before": {
+      "tc": "第17條搜查令一般在7日內執行；檢取文件通常最多扣留6個月，若相關程序等法定情況適用可延長。須按法例發收據，享有查閱權者可在合理條件下查閱及複製。",
+      "en": "Section 17 warrants are generally executed within seven days. Seized documents are normally retained up to six months, with statutory extensions including relevant proceedings. Receipts and reasonable access/copies for entitled persons are provided as required."
+    },
+    "after": {
+      "tc": "第17條搜查令自發出日期起7日內可執行。取走的紀錄／文件通常可自取走日起保留不超過6個月；相關刑事程序開始後可按法定條件延長。須盡快發收據，並依第19條提供免費查閱及複製安排。",
+      "en": "A section 17 warrant is executable within seven days from its date. Removed records/documents may normally be retained for up to six months from removal, with statutory extensions where relevant criminal proceedings begin. Give a receipt as soon as practicable and permit access/copying without charge under section 19."
+    },
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第9–20、81條",
+          "en": "ss.9–20, 81"
+        },
+        "anchor": "If a person claims a lien",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-2.html#inspection-investigation",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F08",
+    "part": 2,
+    "section": "enforcement",
+    "priority": "P2",
+    "issue": "拘留句子的英文欠清楚。",
+    "impact": "保留48小時及控罪／帶到裁判官席前的條件。",
+    "before": {
+      "tc": "第48條容許在法定合理懷疑下無手令拘捕，按要求出示委任；盡快帶往警署或按條例先帶往海關辦公室再交警方。未起訴而帶到裁判官前的扣留不得超過48小時；搜身須由同性別人員進行。",
+      "en": "Section 48 permits warrantless arrest on statutory reasonable suspicion, with appointment produced on request. Take the person promptly to a police station, or via Customs as permitted. Detention without charge before a magistrate cannot exceed 48 hours; searches are by a person of the same sex."
+    },
+    "after": {
+      "tc": "第48條容許在法定合理懷疑下無手令拘捕，按要求出示委任；盡快帶往警署或按條例先帶往海關辦公室再交警方。未起訴而帶到裁判官前的扣留不得超過48小時；搜身須由同性別人員進行。",
+      "en": "Section 48 permits warrantless arrest on statutory reasonable suspicion, with appointment produced on request. Take the person promptly to a police station, or via Customs as permitted. Detention without being charged and brought before a magistrate cannot exceed 48 hours; searches are by a person of the same sex."
+    },
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第46–53條",
+          "en": "ss.46–53"
+        },
+        "anchor": "48 hours",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-2.html#enforcement",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F09",
+    "part": 4,
+    "section": "exchange-display",
+    "priority": "P1",
+    "issue": "匯率展示缺「準備買入／賣出」限制。",
+    "impact": "避免誤以為必須提供全部17種貨幣。",
+    "before": {
+      "tc": "淨匯率是已包含全部收費及佣金的每單位外幣港幣價格。附表3貨幣須用清楚、光線足夠及無遮擋的告示牌展示買入／賣出淨率；如有多於一塊，各牌的淨匯率須相同；可按10或100單位列示。展示的是可給的最不利率，可實際給顧客更佳率。",
+      "en": "The net rate is the HKD price per foreign-currency unit inclusive of all charges/commission. Display Schedule 3 buy/sell net rates on a clear, well-lit, unobstructed board; if multiple boards are used, rates on all must be identical; units of 10 or 100 may be used. Displayed rates are the least favourable; better rates may be offered."
+    },
+    "after": {
+      "tc": "淨匯率是已包括全部收費及佣金的每單位外幣港幣價格。對附表3內自己準備買入／賣出的貨幣，須在清楚、光線足夠及無遮擋的告示牌展示相應淨率；不是強制買賣全部17種貨幣。多塊牌的匯率須相同，可按10或100單位列示。展示的是最不利率，可以給顧客更佳率。",
+      "en": "The net rate is the HKD price per foreign-currency unit inclusive of all charges and commission. Display the applicable net rates for Schedule 3 currencies the changer is prepared to buy or sell, clearly, visibly and with adequate lighting; there is no requirement to trade all 17 currencies. Multiple boards must show identical rates; units of 10 or 100 may be used. Display the least favourable rate; better rates may be offered."
+    },
+    "refs": [
+      {
+        "doc": "16",
+        "locator": {
+          "tc": "正文第1頁",
+          "en": "Main text p.1"
+        },
+        "anchor": "24 August 2025",
+        "filenames": {
+          "TC": "16_中重點_通函_貨幣兌換商條例第34章之修訂（2025年11月17日）.pdf",
+          "EN": "16_Medium-Essential_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf"
+        }
+      },
+      {
+        "doc": "17",
+        "locator": {
+          "tc": "第6–11條及附表2–3",
+          "en": "ss.6–11; Schedules 2–3"
+        },
+        "anchor": "least favourable",
+        "filenames": {
+          "TC": "17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf",
+          "EN": "17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-4.html#exchange-display",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F10",
+    "part": 5,
+    "section": "roles",
+    "priority": "P2",
+    "issue": "MLRO英文首次出現未寫全名。",
+    "impact": "讓本Part可獨立閱讀。",
+    "before": {
+      "tc": "高級管理層：了解機構風險、確保有效管理，實施制度；任命管理層級合規主任（CO）負責建立及維持制度，並任命高級職員為洗錢報告主任（MLRO）作可疑交易報告聯絡點。",
+      "en": "Senior management understands and manages risk and implements systems. It appoints a management-level Compliance Officer (CO) to establish/maintain controls and a senior MLRO as the suspicious-reporting focal point."
+    },
+    "after": {
+      "tc": "高級管理層須了解及有效管理機構風險，實施制度；任命管理層級的合規主任（Compliance Officer，CO）建立及維持制度，並任命高級職員為洗錢報告主任（Money Laundering Reporting Officer，MLRO），作可疑交易報告聯絡點。",
+      "en": "Senior management understands and manages risk and implements systems. It appoints a management-level Compliance Officer (CO) to establish and maintain controls, and a senior Money Laundering Reporting Officer (MLRO) as the suspicious-reporting focal point."
+    },
+    "refs": [
+      {
+        "doc": "03",
+        "locator": {
+          "tc": "第3.5–3.10段及註9",
+          "en": "¶3.5–3.10; footnotes 9"
+        },
+        "anchor": "functions of CO and MLRO may be performed by the same",
+        "filenames": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-5.html#roles",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F11",
+    "part": 6,
+    "section": "cdd",
+    "priority": "P2",
+    "issue": "「非法人自然人以外」難以理解。",
+    "impact": "改為直接說明適用對象。",
+    "before": {
+      "tc": "取得業務關係目的及擬具有的性質的資料；若已顯而易見，毋須另行取得。非法人自然人以外的客戶，亦要了解其業務性質。",
+      "en": "Obtain information on the purpose and intended nature of the relationship unless obvious. For a customer other than a natural person, also understand the nature of its business."
+    },
+    "after": {
+      "tc": "取得業務關係目的及擬具有的性質資料；若已顯而易見，毋須另行取得。客戶不是自然人時，亦須了解其業務性質。",
+      "en": "Obtain information on the purpose and intended nature of the relationship unless obvious. Where the customer is not a natural person, also understand the nature of its business."
+    },
+    "refs": [
+      {
+        "doc": "03",
+        "locator": {
+          "tc": "第4.1.1–4.1.5、4.6.1段",
+          "en": "¶4.1.1–4.1.5, 4.6.1"
+        },
+        "anchor": "The following are CDD measures applicable to an MSO",
+        "filenames": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-6.html#cdd",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F12",
+    "part": 6,
+    "section": "remote",
+    "priority": "P2",
+    "issue": "「非法人自然人以外」用詞含混。",
+    "impact": "避免誤解公司客戶的適用範圍。",
+    "before": {
+      "tc": "補充措施可包括合資格人士核證、可靠資料庫／登記冊或適當科技，須逐案確保足以防冒認。非法人自然人以外客戶由遠端代表開戶、或只提供公司文件副本，也須緩解增加的風險。",
+      "en": "Supplementary measures may use suitable certification, reliable databases/registers or technology, assessed case by case against impersonation risk. Also mitigate increased risk for non-individual customers onboarded through remote representatives or document copies."
+    },
+    "after": {
+      "tc": "補充措施可包括合資格人士核證、可靠資料庫／登記冊或適當科技，須逐案確保足以防冒認。非自然人客戶由遠端代表建立關係，或只提供公司文件副本，也須緩減增加的風險。",
+      "en": "Supplementary measures may use suitable certification, reliable databases/registers or technology, assessed case by case against impersonation risk. Also mitigate increased risk for non-individual customers onboarded through remote representatives or document copies."
+    },
+    "refs": [
+      {
+        "doc": "03",
+        "locator": {
+          "tc": "第4.10.1–4.10.5段",
+          "en": "¶4.10.1–4.10.5"
+        },
+        "anchor": "not required to carry out any additional measures",
+        "filenames": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-6.html#remote",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F13",
+    "part": 6,
+    "section": "peps",
+    "priority": "P2",
+    "issue": "國際組織定義與下一段完整重複。",
+    "impact": "保留同節較完整解釋，減少重讀。",
+    "before": {
+      "title": {
+        "tc": "國際組織的定義",
+        "en": "Meaning of international organisation"
+      },
+      "kind": "list",
+      "points": [
+        {
+          "tc": "國際組織須由成員國正式政治協議成立、具有國際條約地位，其存在獲成員國法律承認，且不視為所在地的居民機構單位。聯合國機構可符合；國際體育協會不因名稱「國際」便自動符合，但其重要職位仍可能影響客戶風險。",
+          "en": "An international organisation is established by formal political agreements between member states with treaty status, legally recognised by members, and not treated as a resident institutional unit of its host. UN agencies may qualify; an international sports association is not automatically one, though prominent functions may affect customer risk."
+        }
+      ],
+      "refs": [
+        {
+          "doc": "06",
+          "locator": {
+            "tc": "打擊洗錢問答A18–A19",
+            "en": "AML/CFT FAQ A18–A19"
+          },
+          "anchor": "formal political agreements"
+        }
+      ]
+    },
+    "after": null,
+    "refs": [
+      {
+        "doc": "06",
+        "locator": {
+          "tc": "打擊洗錢問答A18–A19",
+          "en": "AML/CFT FAQ A18–A19"
+        },
+        "anchor": "formal political agreements",
+        "filenames": {
+          "TC": "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+          "EN": "06_High_FAQ applicable to all MSOs (C&ED portal).md"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-6.html#peps",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F14",
+    "part": 6,
+    "section": "screening",
+    "priority": "P2",
+    "issue": "跨境篩查六類人士與下一段完整重複。",
+    "impact": "保留同節較完整解釋，減少重讀。",
+    "before": {
+      "title": {
+        "tc": "跨境付款須涵蓋的交易參與者",
+        "en": "Parties covered in cross-border payment screening"
+      },
+      "kind": "list",
+      "points": [
+        {
+          "tc": "包括匯款人、受款人、發出機構、中介機構、受益機構，以及付款訊息內列明的其他相關人士。低金額或已有客戶資料均不能自動省略適用篩查。",
+          "en": "Include the originator, recipient, ordering institution, intermediary institution, beneficiary institution and other relevant parties named in the payment message. Low value or an existing customer file does not automatically remove applicable screening."
+        }
+      ],
+      "refs": [
+        {
+          "doc": "06",
+          "locator": {
+            "tc": "打擊洗錢問答A24",
+            "en": "AML/CFT FAQ A24"
+          },
+          "anchor": "ordering institution"
+        }
+      ]
+    },
+    "after": null,
+    "refs": [
+      {
+        "doc": "06",
+        "locator": {
+          "tc": "打擊洗錢問答A24",
+          "en": "AML/CFT FAQ A24"
+        },
+        "anchor": "ordering institution",
+        "filenames": {
+          "TC": "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md",
+          "EN": "06_High_FAQ applicable to all MSOs (C&ED portal).md"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-6.html#screening",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F15",
+    "part": 7,
+    "section": "after-report",
+    "priority": "P2",
+    "issue": "提交STR時覆核的補充與主段重複；整合入主段。",
+    "impact": "保留同節較完整解釋，減少重讀。",
+    "before": {
+      "title": {
+        "tc": "提交STR時即覆核，不等待回覆",
+        "en": "Review upon filing an STR, without waiting for feedback"
+      },
+      "kind": "list",
+      "points": [
+        {
+          "tc": "提交STR時即應適當覆核業務關係及採取風險緩解，不論JFIU之後有否或如何回覆。不能一面繼續關係，一面等回覆而不考慮風險／管控；必要時升級至高級管理層。",
+          "en": "Review the relationship upon filing an STR and apply appropriate mitigation irrespective of subsequent JFIU feedback. Continuing while waiting without risk consideration/controls is unacceptable; escalate to senior management where necessary."
+        }
+      ],
+      "refs": [
+        {
+          "doc": "03",
+          "locator": {
+            "tc": "第7.27段",
+            "en": "¶7.27"
+          },
+          "anchor": "irrespective of any subsequent feedback provided by the JFIU"
+        }
+      ]
+    },
+    "after": null,
+    "refs": [
+      {
+        "doc": "03",
+        "locator": {
+          "tc": "第7.27段",
+          "en": "¶7.27"
+        },
+        "anchor": "irrespective of any subsequent feedback provided by the JFIU",
+        "filenames": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-7.html#after-report",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F16",
+    "part": 7,
+    "section": "after-report",
+    "priority": "P2",
+    "issue": "相關風險覆核分散於重複段落。",
+    "impact": "合併而保留upon filing的時間條件。",
+    "before": {
+      "tc": "JFIU的同意回覆不是戶口無風險的證明，也不免除法律、監管及聲譽風險。提交STR後仍須覆核關係並採取合適緩解措施，必要時交高級管理層決定。",
+      "en": "JFIU consent is not a clean bill of health and does not remove legal, regulatory or reputational risks. Review the relationship and apply mitigation after filing, escalating to senior management where necessary."
+    },
+    "after": {
+      "tc": "提交STR時即須適當覆核關係及採取風險緩減，必要時交高級管理層決定，不能等JFIU回覆才處理。JFIU同意不是戶口無風險證明，亦不免除其他法律、監管及聲譽風險。",
+      "en": "Review the relationship and apply appropriate mitigation upon filing an STR, escalating to senior management where necessary rather than waiting for JFIU feedback. Consent is not a clean bill of health and does not remove other legal, regulatory or reputational risks."
+    },
+    "refs": [
+      {
+        "doc": "03",
+        "locator": {
+          "tc": "第7.22、7.24–7.28段",
+          "en": "¶7.22, 7.24–7.28"
+        },
+        "anchor": "should not be construed as a",
+        "filenames": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-7.html#after-report",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F17",
+    "part": 2,
+    "section": "criminal-liability",
+    "priority": "P1",
+    "issue": "反覆提指明條文，沒有可直接查閱的完整清單。",
+    "impact": "補可見參考清單，主要學習仍是責任類型與犯罪要素。",
+    "before": null,
+    "after": {
+      "title": {
+        "tc": "參考：第5(11)條所指的條文",
+        "en": "Reference: provisions specified by section 5(11)"
+      },
+      "kind": "reference",
+      "points": [
+        {
+          "tc": "這是刑事及紀律責任的指定清單，不等於附表2每一行文字本身都構成同一罪行。內容涵蓋CDD及時機、持續監察、特別情況、轉帳、依賴中介人、程序、紀錄及集團措施；仍須分清責任人及知情／意圖詐騙等犯罪要素。",
+          "en": "This is the specified list for criminal and disciplinary liability, not a rule making every sentence in Schedule 2 the same offence. It covers CDD and timing, monitoring, special cases, transfers, reliance, procedures, records and group measures. Apply the relevant actor and knowledge/intent-to-defraud elements."
+        },
+        {
+          "tc": "所存版本的完整定位：附表2第3(1)、(1A)、(1B)、(3)、(4)；5(1)、(3)；6(1)、(2)；7(2)；9；10(1)、(2)；11(1)、(2)；12(3)、(5)、(6)、(8)、(9)、(10)；13(2)；13A(2)、(4)、(5)、(6)、(7)；14(1)、(2)；15；16；17(1)；18(4)；19(1)、(2)、(2A)、(3)；20(1)、(2)、(3)、(3A)、(5)；21；22(1)、(2)；23條。",
+          "en": "Full stored-edition reference list: Schedule 2 ss.3(1), (1A), (1B), (3), (4); 5(1), (3); 6(1), (2); 7(2); 9; 10(1), (2); 11(1), (2); 12(3), (5), (6), (8), (9), (10); 13(2); 13A(2), (4), (5), (6), (7); 14(1), (2); 15; 16; 17(1); 18(4); 19(1), (2), (2A), (3); 20(1), (2), (3), (3A), (5); 21; 22(1), (2); and 23."
+        }
+      ],
+      "refs": [
+        {
+          "doc": "04",
+          "locator": {
+            "tc": "第5(11)條",
+            "en": "s.5(11)"
+          },
+          "anchor": "specified provision"
+        }
+      ]
+    },
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第5(11)條",
+          "en": "s.5(11)"
+        },
+        "anchor": "specified provision",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-2.html#criminal-liability",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F18",
+    "part": 1,
+    "section": "cross-boundary-cash",
+    "priority": "P1",
+    "issue": "貨物合併僅指向第10條，欠可直接理解的條件。",
+    "impact": "補足責任人、合併規則和電子例外。",
+    "before": null,
+    "after": {
+      "title": {
+        "tc": "貨物的合併與申報責任",
+        "en": "Cargo aggregation and declaration responsibility"
+      },
+      "kind": "list",
+      "points": [
+        {
+          "tc": "非承運人：合併同一人以同一跨境運輸工具輸入／輸出的現金類物品。承運人：合併同一承運人為同一客戶在同一運輸工具運送的物品；客戶須直接聘用承運人，或直接聘用把物品交給承運人的代運人。同一客戶聘用多名代運人時，只有同一代運人交予同一承運人的物品才按這項規則合併。客戶指非承運人，不能把物流代運人自行當成客戶。",
+          "en": "For a non-carrier, aggregate CBNIs imported/exported on the same carrier for the same customer. For a carrier, aggregate consignments for the same customer on that conveyance; where multiple consignors use the same freight forwarder, section 10 treats the forwarder as customer. Splitting consignments does not defeat aggregation."
+        },
+        {
+          "tc": "輸入、輸出或安排輸入／輸出的人須確保事前已有合規申報；僅掌管運輸工具而無其他輸入／輸出責任者有第9(2)條例外。通常以電子方式申報；獲系統接納及編配參考編號才算完成。關長認為電子傳送並非切實可行時，可依關長指示採另一方式；不是自行改用任意紙本程序。旅客、郵包及法定過境／航空轉運貨物豁除另按第8條判斷。",
+          "en": "A person importing/exporting or causing import/export must ensure a compliant declaration has been made beforehand; section 9(2) excepts a conveyance operator with no other responsibility for the import/export. Normally declare electronically; acceptance and allocation of a reference number complete submission. Where the CCE considers electronic transmission impracticable, use an alternative manner directed by the CCE, not an arbitrary paper route. Apply section 8 exclusions for travellers, postal packets and the specified transit/air-transhipment cargo separately."
+        }
+      ],
+      "refs": [
+        {
+          "doc": "23",
+          "locator": {
+            "tc": "第8–11條",
+            "en": "ss.8–11"
+          },
+          "anchor": "same carrier for the same customer"
+        }
+      ]
+    },
+    "refs": [
+      {
+        "doc": "23",
+        "locator": {
+          "tc": "第8–11條",
+          "en": "ss.8–11"
+        },
+        "anchor": "same carrier for the same customer",
+        "filenames": {
+          "TC": "23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+          "EN": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-1.html#cross-boundary-cash",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F19",
+    "part": 1,
+    "section": "cross-boundary-cash",
+    "priority": "P1",
+    "issue": "指定申報資料只作概括，須反覆查原文。",
+    "impact": "完整分類置於參考層，不與主要申報門檻混排。",
+    "before": null,
+    "after": {
+      "title": {
+        "tc": "參考：申報資料的完整分類",
+        "en": "Reference: declaration-information checklist"
+      },
+      "kind": "reference",
+      "points": [
+        {
+          "tc": "旅客申報：管有人全名、身分證號碼或旅行證件號碼及簽發地、國籍、出生日期及地點、永久地址（境外者另填在港地址）；運輸工具識別、現金類物品種類及價值、出入境方向、日期及來源／目的地。如不是物品擁有人，填擁有人姓名／名稱及地址；代報者另填相同個人資料。",
+          "en": "Traveller declaration: possessor’s full name, ID number or travel-document number and issuing place, nationality, birth date/place, permanent address (plus Hong Kong address if the permanent address is overseas); conveyance identifier, CBNI type/value, direction, date and origin/destination. If not the owner, give owner name/address; a separate declarant supplies the same personal particulars."
+        },
+        {
+          "tc": "貨物申報：非承運輸入／輸出人或承運人客戶的基本資料；自然人為上述個人資料但不另列在港地址，非自然人為名稱、適用商業登記號碼及業務地址。另填運輸工具、物品種類／價值、方向、日期、來源／目的地，以及適用收受人姓名／名稱及地址、貨單等批次識別。",
+          "en": "Cargo declaration: basic information of the non-carrier importer/exporter or carrier’s customer. Individuals provide the above personal particulars without a separate Hong Kong-address item; entities provide name, applicable BR number and business address. Add conveyance, type/value, direction, date, origin/destination and, where applicable, recipient name/address and consignment identifier such as waybill number."
+        }
+      ],
+      "refs": [
+        {
+          "doc": "23",
+          "locator": {
+            "tc": "附表2、3",
+            "en": "Schedules 2–3"
+          },
+          "anchor": "Information to be Provided in Declaration"
+        }
+      ]
+    },
+    "refs": [
+      {
+        "doc": "23",
+        "locator": {
+          "tc": "附表2、3",
+          "en": "Schedules 2–3"
+        },
+        "anchor": "Information to be Provided in Declaration",
+        "filenames": {
+          "TC": "23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf",
+          "EN": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-1.html#cross-boundary-cash",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F20",
+    "part": 1,
+    "section": "risk-assessment",
+    "priority": "P1",
+    "issue": "第25份只集中摘要、方法及MSO，缺直接支援CDD／監察的機制。",
+    "impact": "補概念及有界線的例子，不增添歷史統計背誦。",
+    "before": null,
+    "after": {
+      "title": {
+        "tc": "理解：2022年報告中的公司及戶口濫用",
+        "en": "Understand: company and account misuse in the 2022 report"
+      },
+      "kind": "list",
+      "points": [
+        {
+          "tc": "空殼公司（shell company）可沒有實質營運而被用作隱藏擁有人或轉款；掛名公司（front company）則以貌似或實際合法業務及收支掩飾犯罪得益。2022年報告提到單一股東／董事、與香港無關連、業務含糊及資金頻繁大額進出而結餘低的組合警號；單一特徵不等於犯罪。",
+          "en": "A shell company may lack substantive operations and be used to hide ownership or move funds. A front company uses apparently or actually legitimate business and receipts/payments to disguise criminal proceeds. The 2022 report describes combinations of sole ownership/directorship, no Hong Kong nexus, vague business and frequent large flows with low balances; no single feature proves crime."
+        },
+        {
+          "tc": "錢騾／傀儡戶口（money mule／stooge account）：由他人名義持有或控制、被用來接收及轉移犯罪得益的戶口；應留意持有人是否真正控制及了解交易。報告所述高速收轉款、小額試轉及更換戶口／裝置等，是需要與客戶背景一起評估的手法。",
+          "en": "Money-mule or stooge accounts are accounts in other persons’ names or control used to receive and move criminal proceeds. Examine whether the holder genuinely controls and understands the activity. Rapid receipt and dissipation, small test transfers and changing accounts/devices described in the report need assessment alongside the customer profile."
+        },
+        {
+          "tc": "挪用現金補空（cash kiting，循環轉款）：在同一方控制的多個個人／公司之間循環轉款，虛增營業額或薪酬以取得未獲授權的額外貸款／信貸。最初循環的款項未必是犯罪得益，但藉此取得的欺詐貸款可以是；不是每個循環轉帳都自動構成這種手法。",
+          "en": "Cash kiting circulates funds among individuals/entities under common control to inflate turnover or payroll and obtain unauthorized additional loans/credit. The initial circulating money need not be criminal proceeds; the fraudulently generated loan can be. Not every circular transfer automatically constitutes this method."
+        }
+      ],
+      "refs": [
+        {
+          "doc": "25",
+          "locator": {
+            "tc": "2022年版，第4.39–4.41、4.52–4.59、4.63、7.11–7.12段及註94",
+            "en": "2022 edition, ¶4.39–4.41, 4.52–4.59, 4.63, 7.11–7.12 and footnote 94"
+          },
+          "anchor": "Cash kiting"
+        }
+      ]
+    },
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第4.39–4.41、4.52–4.59、4.63、7.11–7.12段及註94",
+          "en": "2022 edition, ¶4.39–4.41, 4.52–4.59, 4.63, 7.11–7.12 and footnote 94"
+        },
+        "anchor": "Cash kiting",
+        "filenames": {
+          "TC": "25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+          "EN": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-1.html#risk-assessment",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F21",
+    "part": 6,
+    "section": "trade-based-laundering",
+    "priority": "P1",
+    "issue": "缺少把抽象TBML指標連到資金移動的來源例子。",
+    "impact": "補兩個簡短解釋，不把例子當唯一手法。",
+    "before": null,
+    "after": {
+      "title": {
+        "tc": "例子：貿易如何轉移價值",
+        "en": "Examples: how trade moves value"
+      },
+      "kind": "list",
+      "points": [
+        {
+          "tc": "2022年風險報告列出的手法包括高報／低報發票價值、同一貨物重複開票、超額／不足付運及虛構付運。重點是貨物、價格、數量及付款的真實關係，不能只因有發票就視為合理。這些是手法例子，不是完整定罪清單。",
+          "en": "The 2022 risk report describes over/under-invoicing, multiple invoicing, over/under-shipment and phantom shipment. Examine the real relationship among goods, prices, quantities and payments; an invoice alone does not establish legitimacy. These are typology examples, not an exhaustive criminal test."
+        },
+        {
+          "tc": "報告專題4.5：走私汽車的內地買款先進入主腦帳戶，再轉往香港MSO在內地的帳戶，主腦最後在香港取回主要為現金的款項。學習重點是兩地安排可轉移犯罪得益的價值，不必見到同一筆銀行匯款直接跨境；毋須背案例金額或人名。",
+          "en": "Box 4.5 describes Mainland proceeds from smuggled cars moving through the mastermind’s account into a Hong Kong MSO’s Mainland account, followed by mainly cash collection in Hong Kong. The learning point is that coordinated arrangements can transfer value without a directly observed cross-border bank transfer of the same funds; names and case amounts are reference details."
+        }
+      ],
+      "refs": [
+        {
+          "doc": "25",
+          "locator": {
+            "tc": "2022年版，第4.44、4.57–4.59段及專題4.5",
+            "en": "2022 edition, ¶4.44, 4.57–4.59 and Box 4.5"
+          },
+          "anchor": "Box 4.5"
+        }
+      ]
+    },
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第4.44、4.57–4.59段及專題4.5",
+          "en": "2022 edition, ¶4.44, 4.57–4.59 and Box 4.5"
+        },
+        "anchor": "Box 4.5",
+        "filenames": {
+          "TC": "25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+          "EN": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-6.html#trade-based-laundering",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F22",
+    "part": 1,
+    "section": "terrorist-financing",
+    "priority": "P1",
+    "issue": "TF基礎欠報告對資金來源、渠道及NPO差異的說明。",
+    "impact": "補理解而不把歷史評級寫成現行規則。",
+    "before": null,
+    "after": {
+      "title": {
+        "tc": "理解：合法資金也可被用於恐怖融資",
+        "en": "Understand: lawful funds can finance terrorism"
+      },
+      "kind": "list",
+      "points": [
+        {
+          "tc": "2022年報告第8章說明，資金可來自捐款、會員費、商業收益或犯罪；轉移可經銀行、MSO、現金攜帶者或其他渠道。資金來源合法不代表用途或受益對象合法，評估仍須連同人物、目的、地區及交易背景。",
+          "en": "Chapter 8 of the 2022 report discusses donations, membership fees, commercial income and crime as possible sources, with banks, MSOs, cash couriers and other channels for movement. Lawful origin does not establish lawful purpose or beneficiary; assess persons, purpose, geography and transaction context together."
+        },
+        {
+          "tc": "報告區分恐怖襲擊威脅與恐怖融資風險，兩者不能互換。它把香港非牟利組織的固有TF脆弱程度評為低，但指出在恐怖威脅／衝突地區從事人道援助者較易被濫用。這是2022年評估，不是所有慈善團體自動高風險，也不是現時已核實的地區評級。",
+          "en": "The report distinguishes terrorist-attack threat from TF risk. It rates Hong Kong NPO inherent TF vulnerability low while identifying greater exposure for humanitarian activity in terrorism/conflict areas. These are 2022 findings, not automatic high-risk treatment of every charity or verified current geographical ratings."
+        }
+      ],
+      "refs": [
+        {
+          "doc": "25",
+          "locator": {
+            "tc": "2022年版，第8.5、8.11、8.27–8.32段",
+            "en": "2022 edition, ¶8.5, 8.11, 8.27–8.32"
+          },
+          "anchor": "CHAPTER 8"
+        }
+      ]
+    },
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第8.5、8.11、8.27–8.32段",
+          "en": "2022 edition, ¶8.5, 8.11, 8.27–8.32"
+        },
+        "anchor": "CHAPTER 8",
+        "filenames": {
+          "TC": "25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+          "EN": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-1.html#terrorist-financing",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F23",
+    "part": 1,
+    "section": "sanctions",
+    "priority": "P1",
+    "issue": "PF只列法例及評級，缺評估範圍與PACE。",
+    "impact": "補完整名稱和關係，防止把四類策略畫成流程。",
+    "before": null,
+    "after": {
+      "title": {
+        "tc": "2022年PF評估範圍與PACE",
+        "en": "The 2022 PF assessment and PACE"
+      },
+      "kind": "list",
+      "points": [
+        {
+          "tc": "就報告引用的FATF第1項建議而言，PF風險嚴格限於可能違反、沒有實施或逃避第7項建議的針對性財政制裁（TFS）責任。這個評估範圍與更廣的擴散活動概念須分開；不能只找「資金直接購買武器」，而漏看代名人、受控公司或制裁規避。",
+          "en": "For FATF Recommendation 1 as discussed in the report, PF risk refers strictly to potential breach, non-implementation or evasion of the targeted financial sanctions (TFS) obligations in Recommendation 7. Distinguish this assessment scope from the broader proliferation concept; focusing only on direct weapon purchases can miss nominees, controlled entities or sanctions evasion."
+        },
+        {
+          "tc": "PACE是報告列明的四項策略，沒有先後流程：Prevention預防——法律制度、培訓及認識責任；Alert警報——及時傳遞制裁更新；Coordination協調——跨部門及監管合作、情報分享；Enforcement執法——調查及監督遵從。須記名稱並理解各自作用；不把2022年當時的制裁名單數字當作現況。",
+          "en": "PACE names four strategy elements, not sequential steps: Prevention—legal controls, training and awareness; Alert—timely sanctions updates; Coordination—inter-agency/regulatory cooperation and intelligence sharing; Enforcement—investigation and compliance supervision. Recognize the names and purposes; the report’s 2022 sanctions-list counts are not current facts."
+        }
+      ],
+      "refs": [
+        {
+          "doc": "25",
+          "locator": {
+            "tc": "2022年版，第9.1、9.17、9.26、9.45–9.46段",
+            "en": "2022 edition, ¶9.1, 9.17, 9.26, 9.45–9.46"
+          },
+          "anchor": "Prevention"
+        }
+      ]
+    },
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "2022年版，第9.1、9.17、9.26、9.45–9.46段",
+          "en": "2022 edition, ¶9.1, 9.17, 9.26, 9.45–9.46"
+        },
+        "anchor": "Prevention",
+        "filenames": {
+          "TC": "25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+          "EN": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-1.html#sanctions",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F24",
+    "part": 6,
+    "section": "wire-receiving",
+    "priority": "P1",
+    "issue": "欠缺本地電傳的完整定義，法定最低資料與指引處理缺漏的責任亦未分清。",
+    "impact": "補明整條機構鏈均須是位於香港的AMLO金融機構；分開附表2第12(6)/(9)條與指引第10.11–10.12、10.20段。",
+    "before": null,
+    "after": [
+      {
+        "title": {
+          "tc": "本地轉帳的範圍及兩層資料要求",
+          "en": "Domestic scope and two levels of information requirements"
+        },
+        "kind": "list",
+        "points": [
+          {
+            "tc": "「本地」不只看發款人和受款人在哪裏：匯款機構、收款機構，以及每一間中介機構，都必須是位於香港、符合AMLO定義的金融機構。只要鏈中有境外中介機構，就不符合這項本地電傳定義。",
+            "en": "“Domestic” is not determined merely by the originator’s and recipient’s locations. The ordering institution, beneficiary institution and every intermediary must be financial institutions as defined by AMLO located in Hong Kong. An overseas intermediary takes the chain outside this domestic-wire definition."
+          },
+          {
+            "tc": "條例附表2第12(6)及(9)條：本地轉帳可隨附發款人戶口／獨特參考號碼；收款機構須追索缺漏的該號碼。第03份指引第10.11–10.12段只簡化發款人資料，並未免除所需受款人資料；第10.20段要求收款機構追索本地或跨境轉帳缺漏的所需雙方資料。兩層要求須分開認識，不能把較窄的法例文字當作可忽略指引的理由。",
+            "en": "Schedule 2 sections 12(6) and (9) permit the originator account/unique reference number to accompany a domestic wire and require the beneficiary institution to obtain that number if missing. Document 03 paragraphs 10.11–10.12 simplify originator information, without exempting required recipient information; paragraph 10.20 requires the beneficiary institution to obtain missing required information on either side for domestic or cross-border wires. Recognise both levels: the narrower statutory wording does not justify ignoring the Guideline."
+          }
+        ],
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "附表2第12(6)、(9)、(11)條",
+              "en": "Schedule 2 s.12(6), (9), (11)"
+            },
+            "anchor": "domestic wire transfer",
+            "filenames": {
+              "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+              "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+            }
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第10.11–10.12、10.20段及註71",
+              "en": "¶10.11–10.12, 10.20; footnote 71"
+            },
+            "anchor": "Domestic wire transfer means",
+            "filenames": {
+              "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+              "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+            }
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "附表2第12(6)、(9)、(11)條",
+          "en": "Schedule 2 s.12(6), (9), (11)"
+        },
+        "anchor": "domestic wire transfer",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      },
+      {
+        "doc": "03",
+        "locator": {
+          "tc": "第10.11–10.12、10.20段及註71",
+          "en": "¶10.11–10.12, 10.20; footnote 71"
+        },
+        "anchor": "Domestic wire transfer means",
+        "filenames": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-6.html#wire-receiving",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F25",
+    "part": 2,
+    "section": "inspection-investigation",
+    "priority": "P1",
+    "issue": "查察／調查不遵從、虛假資料及詐騙意圖三層刑責未完整列明。",
+    "impact": "補責任人、構成條件及兩種定罪程序的刑罰；避免誤套第5條的簡易程序刑罰。",
+    "before": null,
+    "after": [
+      {
+        "title": {
+          "tc": "不遵從查察／調查要求的三層刑責",
+          "en": "Three offence levels for inspection/investigation requirements"
+        },
+        "kind": "list",
+        "points": [
+          {
+            "tc": "第10及13條針對被施加相應法定要求的人：無合理辯解不遵從，循公訴最高20萬元及1年；循簡易程序最高第5級罰款及6個月。",
+            "en": "Sections 10 and 13 concern persons subject to the corresponding statutory requirements. Failure to comply without reasonable excuse: on indictment, up to HK$200,000 and one year; summarily, a level 5 fine and six months."
+          },
+          {
+            "tc": "充作遵從要求而提供在要項上虛假或誤導的紀錄／回答等，並且明知或罔顧實情：循公訴最高100萬元及2年；循簡易程序最高第6級罰款及6個月。",
+            "en": "Purported compliance by supplying materially false/misleading records, answers or other specified information, knowingly or recklessly: on indictment, up to HK$1 million and two years; summarily, a level 6 fine and six months."
+          },
+          {
+            "tc": "出於詐騙意圖而不遵從或提供虛假／誤導資料，或相關人士出於詐騙意圖致使／容許義務人如此行事：循公訴最高100萬元及7年；循簡易程序最高第6級罰款及6個月。相關人士包括僱員、受僱為其工作者及參與管理者。這裏的簡易程序刑罰不同於第5條詐騙罪的50萬元及1年。第10(10)及13(10)條另限制就同一行為重複提起刑事與第14條程序。",
+            "en": "Intent-to-defraud non-compliance or provision of false/misleading information, including a related person fraudulently causing/permitting the obligated person’s conduct: on indictment, up to HK$1 million and seven years; summarily, a level 6 fine and six months. Related persons include employees, persons employed to work for the obligated person and management. This summary penalty differs from the HK$500,000/one-year section 5 fraud penalty. Sections 10(10) and 13(10) also restrict duplicate criminal and section 14 proceedings for the same conduct."
+          }
+        ],
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "第10、13條（與第5條比較）",
+              "en": "ss.10, 13 (compare s.5)"
+            },
+            "anchor": "Offences for non-compliance with requirements",
+            "filenames": {
+              "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+              "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+            }
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第10、13條（與第5條比較）",
+          "en": "ss.10, 13 (compare s.5)"
+        },
+        "anchor": "Offences for non-compliance with requirements",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-2.html#inspection-investigation",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F26",
+    "part": 4,
+    "section": "assessment",
+    "priority": "P1",
+    "issue": "通過人士離任及重考安排省略重要期限、例外及起算事件。",
+    "impact": "補離任通知日起30日、180日續牌分支、獨資例外、重考30日後和續牌到期前限制。",
+    "before": null,
+    "after": [
+      {
+        "title": {
+          "tc": "提名及重新評核",
+          "en": "Nomination and reassessment"
+        },
+        "kind": "list",
+        "points": [
+          {
+            "tc": "最少一名負責監督AML政策／程序、並對合規承擔管理責任的高級管理人員須通過評核。獨資經營者本人參加；合夥／公司最多提名3名屬自然人的合夥人／董事，並於同一場次參加。",
+            "en": "At least one senior manager overseeing AML policies/procedures and accountable for compliance must pass. The sole proprietor attends personally. Partnerships/corporations nominate up to three natural-person partners/directors, all in the same session."
+          },
+          {
+            "tc": "新牌申請須在與海關面見當日起計30日內參加；需要評核的續牌申請人在收到邀請後30日內參加。續牌前90日內的提名安排須按通知辦理；不要把法定屆滿前45日申請期限與評核時間混合。",
+            "en": "New applicants must attend within 30 days upon attending the Customs interview; renewal applicants requiring assessment attend within 30 days after receipt of invitation. Follow notice-based nomination arrangements within the 90-day pre-expiry window. These differ from the statutory 45-day renewal application deadline."
+          },
+          {
+            "tc": "合夥／公司的通過人士全部離任，通過狀態失效；須在向海關具報合夥人／董事變更當日起計30日內安排評核。若須於180日內續牌，按第4.6段的續牌評核安排辦理。第8.2段不適用於獨資經營的持牌人。",
+            "en": "When all passing nominees of a partnership/corporation leave, passing status lapses; arrange assessment within 30 days upon notifying Customs of the partnership/directorship change. If renewal falls within 180 days, follow paragraph 4.6’s renewal-assessment arrangements. Paragraph 8.2 excludes sole-proprietor licensees."
+          },
+          {
+            "tc": "首次未通過後，獲給予另一次機會在成績通知發出當日起計30日後再考；英文原文是after 30 days upon notification of result。續牌重考另須在牌照屆滿前完成。不能把30日後誤記為30日內，也不表示可無限次重考或自動延牌。",
+            "en": "Following failure, a further opportunity is given to retake after 30 days upon notification of result; the Chinese original specifies the issue of the result notification as the starting event. Renewal retakes must also be before licence expiry. “After 30 days” is not “within 30 days”, unlimited retakes or automatic licence extension."
+          },
+          {
+            "tc": "35題、7個Part各5題、75分鐘，每題一個答案。整體最少答對25題，且每個Part不可錯多於2題；總分夠而某Part只對2題仍不合格。通過評核本身不保證發牌／續牌。",
+            "en": "There are 35 questions, five per each of seven Parts, 1 hour and 15 minutes and one answer per question. Pass requires at least 25 overall and no more than two wrong in any Part. A sufficient total with only two correct in one Part still fails. Passing does not guarantee a licence/renewal."
+          },
+          {
+            "tc": "第02份官方樣題使用多個陳述的組合選項；每題仍只選一個答案。複習時須理解每項陳述的條件／例外，而不是背選項字母。",
+            "en": "Document 02 illustrates combination options containing several statements; each question still has one answer. Learn each rule’s conditions/exceptions rather than option letters."
+          },
+          {
+            "tc": "第01份第6.1段列明主要出題依據為《打擊洗錢條例》、《打擊洗錢指引》、《金錢服務經營者牌照申請指引》及海關其他相關指引／通函。這不是一份只含01–26的封閉書目；01–26是本套筆記選定的原文範圍。樣題只展示題型，不能據此縮小知識範圍或推算考點頻率。",
+            "en": "Paragraph 6.1 of document 01 identifies the AMLO, AML Guideline, Licensing Guide and other relevant Customs guidelines/circulars as the main sources. It does not define a closed list of documents 01–26: those are this set of notes’ selected originals. Samples illustrate format; they do not narrow the knowledge scope or establish topic frequency."
+          }
+        ],
+        "refs": [
+          {
+            "doc": "01",
+            "locator": {
+              "tc": "第3–8段",
+              "en": "¶3–8"
+            },
+            "anchor": "1 hour and 15 minutes",
+            "filenames": {
+              "TC": "01_高_能力評核須知（2022年12月）.pdf",
+              "EN": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
+            }
+          },
+          {
+            "doc": "02",
+            "locator": {
+              "tc": "例1–7（只用於理解題型）",
+              "en": "Examples 1–7 (format only)"
+            },
+            "anchor": "Answer: d",
+            "filenames": {
+              "TC": "02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+              "EN": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf"
+            }
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "doc": "01",
+        "locator": {
+          "tc": "第3–8段",
+          "en": "¶3–8"
+        },
+        "anchor": "1 hour and 15 minutes",
+        "filenames": {
+          "TC": "01_高_能力評核須知（2022年12月）.pdf",
+          "EN": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
+        }
+      },
+      {
+        "doc": "02",
+        "locator": {
+          "tc": "例1–7（只用於理解題型）",
+          "en": "Examples 1–7 (format only)"
+        },
+        "anchor": "Answer: d",
+        "filenames": {
+          "TC": "02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+          "EN": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-4.html#assessment",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F27",
+    "part": 4,
+    "section": "assessment",
+    "priority": "P2",
+    "issue": "新牌應考期限寫成籠統「面見後」。",
+    "impact": "依中文第4.5段改為面見當日起計；重考分別保留中文成績通知發出及英文notification的措辭。",
+    "before": null,
+    "after": [
+      {
+        "title": {
+          "tc": "提名及重新評核",
+          "en": "Nomination and reassessment"
+        },
+        "kind": "list",
+        "points": [
+          {
+            "tc": "最少一名負責監督AML政策／程序、並對合規承擔管理責任的高級管理人員須通過評核。獨資經營者本人參加；合夥／公司最多提名3名屬自然人的合夥人／董事，並於同一場次參加。",
+            "en": "At least one senior manager overseeing AML policies/procedures and accountable for compliance must pass. The sole proprietor attends personally. Partnerships/corporations nominate up to three natural-person partners/directors, all in the same session."
+          },
+          {
+            "tc": "新牌申請須在與海關面見當日起計30日內參加；需要評核的續牌申請人在收到邀請後30日內參加。續牌前90日內的提名安排須按通知辦理；不要把法定屆滿前45日申請期限與評核時間混合。",
+            "en": "New applicants must attend within 30 days upon attending the Customs interview; renewal applicants requiring assessment attend within 30 days after receipt of invitation. Follow notice-based nomination arrangements within the 90-day pre-expiry window. These differ from the statutory 45-day renewal application deadline."
+          },
+          {
+            "tc": "合夥／公司的通過人士全部離任，通過狀態失效；須在向海關具報合夥人／董事變更當日起計30日內安排評核。若須於180日內續牌，按第4.6段的續牌評核安排辦理。第8.2段不適用於獨資經營的持牌人。",
+            "en": "When all passing nominees of a partnership/corporation leave, passing status lapses; arrange assessment within 30 days upon notifying Customs of the partnership/directorship change. If renewal falls within 180 days, follow paragraph 4.6’s renewal-assessment arrangements. Paragraph 8.2 excludes sole-proprietor licensees."
+          },
+          {
+            "tc": "首次未通過後，獲給予另一次機會在成績通知發出當日起計30日後再考；英文原文是after 30 days upon notification of result。續牌重考另須在牌照屆滿前完成。不能把30日後誤記為30日內，也不表示可無限次重考或自動延牌。",
+            "en": "Following failure, a further opportunity is given to retake after 30 days upon notification of result; the Chinese original specifies the issue of the result notification as the starting event. Renewal retakes must also be before licence expiry. “After 30 days” is not “within 30 days”, unlimited retakes or automatic licence extension."
+          },
+          {
+            "tc": "35題、7個Part各5題、75分鐘，每題一個答案。整體最少答對25題，且每個Part不可錯多於2題；總分夠而某Part只對2題仍不合格。通過評核本身不保證發牌／續牌。",
+            "en": "There are 35 questions, five per each of seven Parts, 1 hour and 15 minutes and one answer per question. Pass requires at least 25 overall and no more than two wrong in any Part. A sufficient total with only two correct in one Part still fails. Passing does not guarantee a licence/renewal."
+          },
+          {
+            "tc": "第02份官方樣題使用多個陳述的組合選項；每題仍只選一個答案。複習時須理解每項陳述的條件／例外，而不是背選項字母。",
+            "en": "Document 02 illustrates combination options containing several statements; each question still has one answer. Learn each rule’s conditions/exceptions rather than option letters."
+          },
+          {
+            "tc": "第01份第6.1段列明主要出題依據為《打擊洗錢條例》、《打擊洗錢指引》、《金錢服務經營者牌照申請指引》及海關其他相關指引／通函。這不是一份只含01–26的封閉書目；01–26是本套筆記選定的原文範圍。樣題只展示題型，不能據此縮小知識範圍或推算考點頻率。",
+            "en": "Paragraph 6.1 of document 01 identifies the AMLO, AML Guideline, Licensing Guide and other relevant Customs guidelines/circulars as the main sources. It does not define a closed list of documents 01–26: those are this set of notes’ selected originals. Samples illustrate format; they do not narrow the knowledge scope or establish topic frequency."
+          }
+        ],
+        "refs": [
+          {
+            "doc": "01",
+            "locator": {
+              "tc": "第3–8段",
+              "en": "¶3–8"
+            },
+            "anchor": "1 hour and 15 minutes",
+            "filenames": {
+              "TC": "01_高_能力評核須知（2022年12月）.pdf",
+              "EN": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
+            }
+          },
+          {
+            "doc": "02",
+            "locator": {
+              "tc": "例1–7（只用於理解題型）",
+              "en": "Examples 1–7 (format only)"
+            },
+            "anchor": "Answer: d",
+            "filenames": {
+              "TC": "02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+              "EN": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf"
+            }
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "doc": "01",
+        "locator": {
+          "tc": "第3–8段",
+          "en": "¶3–8"
+        },
+        "anchor": "1 hour and 15 minutes",
+        "filenames": {
+          "TC": "01_高_能力評核須知（2022年12月）.pdf",
+          "EN": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
+        }
+      },
+      {
+        "doc": "02",
+        "locator": {
+          "tc": "例1–7（只用於理解題型）",
+          "en": "Examples 1–7 (format only)"
+        },
+        "anchor": "Answer: d",
+        "filenames": {
+          "TC": "02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+          "EN": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-4.html#assessment",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F28",
+    "part": 4,
+    "section": "assessment",
+    "priority": "P1",
+    "issue": "筆記沒有直接解釋官方來源清單與01–26選定範圍的差別。",
+    "impact": "補第6.1段的主要依據及樣題不能限定範圍的說明。",
+    "before": null,
+    "after": [
+      {
+        "title": {
+          "tc": "提名及重新評核",
+          "en": "Nomination and reassessment"
+        },
+        "kind": "list",
+        "points": [
+          {
+            "tc": "最少一名負責監督AML政策／程序、並對合規承擔管理責任的高級管理人員須通過評核。獨資經營者本人參加；合夥／公司最多提名3名屬自然人的合夥人／董事，並於同一場次參加。",
+            "en": "At least one senior manager overseeing AML policies/procedures and accountable for compliance must pass. The sole proprietor attends personally. Partnerships/corporations nominate up to three natural-person partners/directors, all in the same session."
+          },
+          {
+            "tc": "新牌申請須在與海關面見當日起計30日內參加；需要評核的續牌申請人在收到邀請後30日內參加。續牌前90日內的提名安排須按通知辦理；不要把法定屆滿前45日申請期限與評核時間混合。",
+            "en": "New applicants must attend within 30 days upon attending the Customs interview; renewal applicants requiring assessment attend within 30 days after receipt of invitation. Follow notice-based nomination arrangements within the 90-day pre-expiry window. These differ from the statutory 45-day renewal application deadline."
+          },
+          {
+            "tc": "合夥／公司的通過人士全部離任，通過狀態失效；須在向海關具報合夥人／董事變更當日起計30日內安排評核。若須於180日內續牌，按第4.6段的續牌評核安排辦理。第8.2段不適用於獨資經營的持牌人。",
+            "en": "When all passing nominees of a partnership/corporation leave, passing status lapses; arrange assessment within 30 days upon notifying Customs of the partnership/directorship change. If renewal falls within 180 days, follow paragraph 4.6’s renewal-assessment arrangements. Paragraph 8.2 excludes sole-proprietor licensees."
+          },
+          {
+            "tc": "首次未通過後，獲給予另一次機會在成績通知發出當日起計30日後再考；英文原文是after 30 days upon notification of result。續牌重考另須在牌照屆滿前完成。不能把30日後誤記為30日內，也不表示可無限次重考或自動延牌。",
+            "en": "Following failure, a further opportunity is given to retake after 30 days upon notification of result; the Chinese original specifies the issue of the result notification as the starting event. Renewal retakes must also be before licence expiry. “After 30 days” is not “within 30 days”, unlimited retakes or automatic licence extension."
+          },
+          {
+            "tc": "35題、7個Part各5題、75分鐘，每題一個答案。整體最少答對25題，且每個Part不可錯多於2題；總分夠而某Part只對2題仍不合格。通過評核本身不保證發牌／續牌。",
+            "en": "There are 35 questions, five per each of seven Parts, 1 hour and 15 minutes and one answer per question. Pass requires at least 25 overall and no more than two wrong in any Part. A sufficient total with only two correct in one Part still fails. Passing does not guarantee a licence/renewal."
+          },
+          {
+            "tc": "第02份官方樣題使用多個陳述的組合選項；每題仍只選一個答案。複習時須理解每項陳述的條件／例外，而不是背選項字母。",
+            "en": "Document 02 illustrates combination options containing several statements; each question still has one answer. Learn each rule’s conditions/exceptions rather than option letters."
+          },
+          {
+            "tc": "第01份第6.1段列明主要出題依據為《打擊洗錢條例》、《打擊洗錢指引》、《金錢服務經營者牌照申請指引》及海關其他相關指引／通函。這不是一份只含01–26的封閉書目；01–26是本套筆記選定的原文範圍。樣題只展示題型，不能據此縮小知識範圍或推算考點頻率。",
+            "en": "Paragraph 6.1 of document 01 identifies the AMLO, AML Guideline, Licensing Guide and other relevant Customs guidelines/circulars as the main sources. It does not define a closed list of documents 01–26: those are this set of notes’ selected originals. Samples illustrate format; they do not narrow the knowledge scope or establish topic frequency."
+          }
+        ],
+        "refs": [
+          {
+            "doc": "01",
+            "locator": {
+              "tc": "第3–8段",
+              "en": "¶3–8"
+            },
+            "anchor": "1 hour and 15 minutes",
+            "filenames": {
+              "TC": "01_高_能力評核須知（2022年12月）.pdf",
+              "EN": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
+            }
+          },
+          {
+            "doc": "02",
+            "locator": {
+              "tc": "例1–7（只用於理解題型）",
+              "en": "Examples 1–7 (format only)"
+            },
+            "anchor": "Answer: d",
+            "filenames": {
+              "TC": "02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+              "EN": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf"
+            }
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "doc": "01",
+        "locator": {
+          "tc": "第3–8段",
+          "en": "¶3–8"
+        },
+        "anchor": "1 hour and 15 minutes",
+        "filenames": {
+          "TC": "01_高_能力評核須知（2022年12月）.pdf",
+          "EN": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
+        }
+      },
+      {
+        "doc": "02",
+        "locator": {
+          "tc": "例1–7（只用於理解題型）",
+          "en": "Examples 1–7 (format only)"
+        },
+        "anchor": "Answer: d",
+        "filenames": {
+          "TC": "02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf",
+          "EN": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-4.html#assessment",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F29",
+    "part": 4,
+    "section": "assessment",
+    "priority": "P1",
+    "issue": "成績及覆檢14日期限被弱化為「通常」，覆檢回覆起點亦未在正文說明。",
+    "impact": "依第12.1–12.4段刪除通常，明示考試結束、成績通知發出日期及接獲覆檢要求三個不同起點；同步表格。",
+    "before": null,
+    "after": [
+      {
+        "title": {
+          "tc": "應考及結果",
+          "en": "Attendance and results"
+        },
+        "kind": "list",
+        "points": [
+          {
+            "tc": "攜有照片的身分證明、列印邀請及適用授權信；遲到不准入場。文具由場地提供，遵守禁止電子設備及通訊規則。答案填在指定答題紙；一題填多於一答案不給分。",
+            "en": "Bring photo ID, printed invitation and applicable authority letter. Late entry is refused. Stationery is supplied; electronic-device/communication restrictions apply. Use the designated answer sheet; multiple answers to a question receive no credit."
+          },
+          {
+            "tc": "結果在考試結束後14日內僅以電郵通知通過／不通過。欲覆檢須在成績通知發出當日起計7日內書面要求；海關在接獲覆檢要求日期起計14日內書面回覆，覆檢結果為最終；不提供實際分數／試題及正確答案。",
+            "en": "Results are notified as pass/fail by email only within 14 days after the Assessment. Request rechecking in writing within seven days after the date of issue of the result notification. Customs replies in writing within 14 days after receipt of the rechecking request; that result is final. Exact scores, questions and correct answers are not disclosed."
+          },
+          {
+            "tc": "按指引的惡劣天氣安排，早上8時或以後八號或以上風球／黑雨會改期；三號風球或黃／紅雨通常照常。實際場次須依邀請及海關通知。",
+            "en": "Under the guide’s weather arrangements, a No.8-or-higher signal/black rain at or after 8 a.m. suspends the session; No.3/amber/red normally proceeds. Follow the actual invitation and Customs notices."
+          }
+        ],
+        "refs": [
+          {
+            "doc": "01",
+            "locator": {
+              "tc": "第8–13段",
+              "en": "¶8–13"
+            },
+            "anchor": "14 days",
+            "filenames": {
+              "TC": "01_高_能力評核須知（2022年12月）.pdf",
+              "EN": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
+            }
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "doc": "01",
+        "locator": {
+          "tc": "第8–13段",
+          "en": "¶8–13"
+        },
+        "anchor": "14 days",
+        "filenames": {
+          "TC": "01_高_能力評核須知（2022年12月）.pdf",
+          "EN": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-4.html#assessment",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F30",
+    "part": 2,
+    "section": "other-sector-regimes",
+    "priority": "P2",
+    "issue": "其他行業制度只有名稱，無法辨別TCSP與MSO的監管及牌照差異。",
+    "impact": "完成第5A部原文閱讀後補監管對象、豁除、期限及責任層級；低關聯行政細節保留原文索引。",
+    "before": null,
+    "after": [
+      {
+        "title": {
+          "tc": "參考：第5A部信託或公司服務提供者（TCSP）",
+          "en": "Reference: Part 5A trust or company service providers (TCSPs)"
+        },
+        "kind": "reference",
+        "points": [
+          {
+            "tc": "信託或公司服務指在香港以業務形式向他人提供一項或以上：成立法團／其他法人；擔任或安排他人擔任董事、秘書、合夥人或其他法人類似職位；向法人／法律安排提供註冊辦事處、營業、通訊或行政地址；擔任或安排他人擔任明示信託／類似法律安排的受託人，或代名股東（不包括證券於認可證券市場上市的法團的代名股東）。第5A部由公司註冊處處長執行。第53B條豁除政府、認可機構、以該業務附屬於主要業務的持牌法團、會計及法律專業人士和訂明類別；豁除本部不等於豁除其他適用AML責任。",
+            "en": "Trust or company service means providing, in Hong Kong by way of business to others, one or more of: formation of corporations/other legal persons; acting or arranging directors, secretaries, partners or similar positions for legal persons; registered, business, correspondence or administrative addresses for legal persons/arrangements; acting or arranging trustees of express trusts/similar arrangements or nominee shareholders, excluding nominees for corporations listed on a recognized stock market. Part 5A is administered by the Registrar of Companies. Section 53B excludes government, authorized institutions, licensed corporations whose TCSP business is ancillary to their principal business, accounting/legal professionals and prescribed classes; exclusion from this Part is not exclusion from other applicable AML duties."
+          },
+          {
+            "tc": "一般牌照及續期為3年，處長可在個案訂較短期間；續期須在到期前至少60日提出。及時申請後仍待決時，除申請撤回或牌照撤銷／暫時吊銷外，牌照延續至續期或拒絕決定生效。不能套用MSO的2年。",
+            "en": "Grant and renewal normally last three years, with a shorter period possible in a particular case. Apply at least 60 days before expiry. While a timely renewal is pending, the licence continues until renewal or the refusal takes effect, unless the application is withdrawn or licence revoked/suspended. Do not substitute the MSO two-year term."
+          },
+          {
+            "tc": "適當人選審查及最終擁有人／合夥人／董事事前書面批准有獨立條文。無牌經營最高第6級罰款及6個月；第53Z條紀律措施包括公開譴責、補救及最高50萬元罰款，未按時補救另可每日最高1萬元。這些不是MSO第21／43條的罰額。",
+            "en": "Separate provisions govern fitness and propriety and prior written approval of ultimate owners/partners/directors. Unlicensed business carries up to a level 6 fine and six months. Section 53Z discipline includes public reprimand, remediation and a penalty up to HK$500,000, with a further daily penalty up to HK$10,000 for overdue remediation. These are not the MSO section 21/43 ceilings."
+          }
+        ],
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "附表1信託或公司服務定義；第53B、53F–53K、53O、53S–53U、53Z條",
+              "en": "Schedule 1 trust or company service definition; ss.53B, 53F–53K, 53O, 53S–53U, 53Z"
+            },
+            "anchor": "Regulation of Trust or Company Service Providers"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "附表1信託或公司服務定義；第53B、53F–53K、53O、53S–53U、53Z條",
+          "en": "Schedule 1 trust or company service definition; ss.53B, 53F–53K, 53O, 53S–53U, 53Z"
+        },
+        "anchor": "Regulation of Trust or Company Service Providers",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-2.html#other-sector-regimes",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F31",
+    "part": 2,
+    "section": "other-sector-regimes",
+    "priority": "P2",
+    "issue": "第5B部僅作制度名稱提示，缺少活動定義及與MSO制度的界線。",
+    "impact": "補定義、AND條件、監管者、負責人員及責任概覽；不引用範圍外新法或把2022年提案當現行制度。",
+    "before": null,
+    "after": [
+      {
+        "title": {
+          "tc": "參考：第5B部虛擬資產服務",
+          "en": "Reference: Part 5B virtual asset services"
+        },
+        "kind": "reference",
+        "points": [
+          {
+            "tc": "VA（virtual asset，虛擬資產）的基本定義是加密保護的數碼價值，表述為計算單位或經濟價值儲存形式；具備公眾接受的交易媒介用途，或相關管理／運作／管治的投票權，並可電子轉移、儲存或買賣；另受訂明特徵及指定／排除權規限。央行／政府發行貨幣、有限用途代幣、證券／期貨及儲值支付工具儲值金額／按金等有法定排除，不能把所有數碼資產當同一類。",
+            "en": "VA means virtual asset. The basic definition concerns cryptographically secured digital value expressed as a unit of account or store of economic value, with a public medium-of-exchange use OR relevant management/operation/governance voting rights, and capable of electronic transfer, storage or trading; prescribed characteristics and designation/exclusion powers also apply. Statutory exclusions include central-bank/government-issued currency, limited-purpose tokens, securities/futures and SVF float/deposits. Not all digital assets are the same legal category."
+          },
+          {
+            "tc": "所存附表3B列「經營虛擬資產交易所」：電子設施經常接受／提出買賣要約或介紹交易各方，以形成具約束力交易，並且服務提供者直接或間接管有客戶金錢或虛擬資產。上述交易設施條件與管有條件須同時成立。不得僅因涉及虛擬資產便推定所有服務均是此項；也須考慮第53ZRB條向香港公眾積極推廣的規則。",
+            "en": "Stored Schedule 3B specifies operating a VA exchange: electronic facilities regularly make/accept offers or introduce trading parties in a manner producing binding transactions, AND the provider directly or indirectly possesses client money or VAs. Both the trading-facility and possession conditions matter. VA involvement alone does not make every service this scheduled activity; section 53ZRB active marketing to the Hong Kong public also matters."
+          },
+          {
+            "tc": "證監會發牌；提供者須為《公司條例》所指公司或註冊非香港公司，並符合適當人選及紀錄處所批准等條件。每項服務至少2名獲批負責人員，其中至少1名執行董事、至少1名通常居港；每名屬個人的執行董事均須獲批為負責人員，且任何時間至少1名負責人員可供監督。這些條件須並行符合。",
+            "en": "The SFC licenses providers. A provider must be a Companies Ordinance company or registered non-Hong Kong company and meet fitness, record-premises approval and other conditions. Each service needs at least two approved responsible officers, including at least one executive director and at least one ordinarily resident in Hong Kong; every individual executive director must be approved, and at least one responsible officer must be available at all times to supervise. These are concurrent requirements."
+          },
+          {
+            "tc": "客戶資產有獨立保障；牌照／批准、審計、介入及紀律制度均另有規定。無合理辯解無牌提供服務，循公訴最高500萬元及7年（持續罪行另計）；第53ZSP條紀律罰款上限為1,000萬元或所得利潤／避免損失的3倍，以較高者為準。不要把服務提供者、代表的罪行或MSO規則混用。",
+            "en": "Client assets have separate protection, alongside distinct approval, audit, intervention and disciplinary regimes. Unlicensed provision without reasonable excuse carries, on indictment, up to HK$5 million and seven years, plus a continuing-offence penalty. Section 53ZSP disciplinary penalties can reach the greater of HK$10 million and three times profit gained/loss avoided. Do not mix provider offences with representative offences or MSO rules."
+          }
+        ],
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "第53ZRA–53ZRD、53ZRK、53ZRO、53ZRT、53ZSP條；附表3B",
+              "en": "ss.53ZRA–53ZRD, 53ZRK, 53ZRO, 53ZRT, 53ZSP; Schedule 3B"
+            },
+            "anchor": "Operating a VA exchange"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第53ZRA–53ZRD、53ZRK、53ZRO、53ZRT、53ZSP條；附表3B",
+          "en": "ss.53ZRA–53ZRD, 53ZRK, 53ZRO, 53ZRT, 53ZSP; Schedule 3B"
+        },
+        "anchor": "Operating a VA exchange",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-2.html#other-sector-regimes",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F32",
+    "part": 2,
+    "section": "other-sector-regimes",
+    "priority": "P2",
+    "issue": "DPMS只列名稱，12萬元可能與CBNI或MSO門檻混淆。",
+    "impact": "補A/B分類、相連操作、≥門檻、年期與非香港交易商AND條件；詳細申請行政事項維持參考優先級。",
+    "before": null,
+    "after": [
+      {
+        "title": {
+          "tc": "參考：第5C部貴金屬及寶石交易商（DPMS）",
+          "en": "Reference: Part 5C dealers in precious metals and stones (DPMS)"
+        },
+        "kind": "reference",
+        "points": [
+          {
+            "tc": "DPMS業務包括買賣、進出口、生產／提煉／增值加工貴金屬、寶石、貴重產品，發行／贖回／買賣貴重資產支持工具，以及相關中介活動。物流業者僅在通常業務中代客進出口貨物，不因此單獨成為DPMS。第53ZUA條另豁除政府、認可機構、持牌當押商及符合附屬業務條件的指定金融機構等。",
+            "en": "DPMS business includes trading, import/export, manufacture/refining/value-adding work on precious metals, stones or precious products, issuing/redeeming/trading precious-asset-backed instruments, and related intermediary activity. Ordinary logistics import/export for others alone does not make the operator a DPMS. Section 53ZUA separately excludes government, authorized institutions, licensed pawnbrokers and specified financial institutions satisfying ancillary-business conditions, among others."
+          },
+          {
+            "tc": "海關關長管理A／B類註冊。指明現金交易是在香港支付或收取的現金總額≥120,000港元（或等值外幣）；指明交易是非現金付款總額達同一門檻，而且不屬指明現金交易。均須合併有關連或看來有關連的操作。A類可作指明交易但不可作指明現金交易；B類可作兩者。這是DPMS交易分類，不是跨境CBNI的「>120,000」界線。",
+            "en": "The CCE administers A/B registration. A specified cash transaction involves cash payments made/received in Hong Kong totalling ≥HK$120,000 or foreign-currency equivalent. A specified transaction reaches that threshold in non-cash payments AND is not a specified cash transaction. Aggregate linked or apparently linked operations. Category A covers specified transactions but excludes specified cash transactions; Category B covers both. This DPMS classification differs from the cross-boundary CBNI >HK$120,000 boundary."
+          },
+          {
+            "tc": "B類須作適當人選審查；一般有效3年，關長可按個案決定其他期間，續期至少在到期前60日申請。A類設週年費，不能把B類3年期限套給A類。無註冊進行受限制交易或作不實註冊聲稱，最高第6級罰款及6個月。",
+            "en": "Category B requires fitness and propriety assessment; registration normally lasts three years, or another period determined for the particular case, with renewal applied for at least 60 days before expiry. Category A has an annual fee; do not apply the B three-year term to A. Restricted transactions without registration or false holding-out carry up to a level 6 fine and six months."
+          },
+          {
+            "tc": "非香港交易商的特別制度須同時符合：非通常居港個人，或境外設立且非註冊非香港公司／經遷冊公司的法人；在港無營業地點；每公曆年在港經營≤60日。其指明現金交易須盡快向關長報告，無論如何在交易翌日屆滿與相關個人最早離港兩者較早之前；相關個人包括交易時在港的個人交易商及代其交易的個人。此例外不是任何海外客戶均免註冊。",
+            "en": "The special non-Hong Kong dealer regime requires all of these: a non-ordinarily-resident individual, or an overseas-established legal person that is neither a registered non-Hong Kong company nor a re-domiciled company; no Hong Kong place of business; and Hong Kong business on ≤60 days per calendar year. Report specified cash transactions to the CCE as soon as practicable and before the earlier of expiry of the day after the transaction and the earliest departure of a specified individual: the individual dealer present at the transaction or an individual acting for it. This is not a blanket exception for overseas customers."
+          }
+        ],
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "第53ZTZ–53ZUA、53ZUE、53ZUH、53ZUO–53ZUQ、53ZVK條；附表3H–3J",
+              "en": "ss.53ZTZ–53ZUA, 53ZUE, 53ZUH, 53ZUO–53ZUQ, 53ZVK; Schedules 3H–3J"
+            },
+            "anchor": "specified cash transaction"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第53ZTZ–53ZUA、53ZUE、53ZUH、53ZUO–53ZUQ、53ZVK條；附表3H–3J",
+          "en": "ss.53ZTZ–53ZUA, 53ZUE, 53ZUH, 53ZUO–53ZUQ, 53ZVK; Schedules 3H–3J"
+        },
+        "anchor": "specified cash transaction",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-2.html#other-sector-regimes",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F33",
+    "part": 3,
+    "section": "sector-specific",
+    "priority": "P2",
+    "issue": "附表3A–3K未交代用途，官方「附表」模組與現有筆記之間有空白。",
+    "impact": "完成附表閱讀並補功能導航與資料類別；明示未逐項搬錄其他行業費表及歷史過渡程序的取捨。",
+    "before": null,
+    "after": [
+      {
+        "title": {
+          "tc": "參考：其他行業的附表如何配對",
+          "en": "Reference: pairing the other sector schedules"
+        },
+        "kind": "reference",
+        "points": [
+          {
+            "tc": "附表3A是TCSP費用；3B界定虛擬資產服務；3C是其費用，3D是相聯實體的通知資料，3E是周年申報資料，3F是財務報表及核數師報告，3G是2023年開始的虛擬資產過渡安排。它們各有適用對象，不可把「周年申報」誤認為MSO第15份的半年申報。",
+            "en": "Schedule 3A contains TCSP fees; 3B defines VA services; 3C contains VA fees, 3D associated-entity notifications, 3E annual-return information, 3F financial statements/auditor reports, and 3G VA transitional arrangements beginning in 2023. Each has its own subject; these annual returns are not the MSO half-yearly returns in document 15."
+          },
+          {
+            "tc": "附表3H／3I分別訂DPMS指明現金／非現金交易120,000元門檻；3J列非香港交易商現金報告所需資料：交易商及客戶基本資料、相關個人出入境資料、交易日期／貨品／現金金額／地點。3K為DPMS費用。上述制度條件見Part 2末節「其他行業制度與MSO的界線」；費用細目及已過啟動期的過渡程序保留原文查考，不當作MSO日常必背清單。",
+            "en": "Schedules 3H/3I set the HK$120,000 DPMS cash/non-cash thresholds. Schedule 3J requires basic dealer/customer information, specified individuals’ travel details, and the transaction date, goods, cash amount and location. Schedule 3K contains DPMS fees. See the final Part 2 section, Other sector regimes, for applicability; itemised fees and transition procedures whose commencement periods have passed remain source references, not a daily MSO memorisation list."
+          }
+        ],
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "附表3A–3K；Part 2筆記末節",
+              "en": "Schedules 3A–3K; Part 2 notes, final section"
+            },
+            "anchor": "Information to be Provided in Cash Transaction Report"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "附表3A–3K；Part 2筆記末節",
+          "en": "Schedules 3A–3K; Part 2 notes, final section"
+        },
+        "anchor": "Information to be Provided in Cash Transaction Report",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-3.html#sector-specific",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F34",
+    "part": 1,
+    "section": "risk-assessment",
+    "priority": "P2",
+    "issue": "第25份其他行業未完成重評，遙距身分與傀儡帳戶、支付功能及2022年提案易被誤讀。",
+    "impact": "讀完英文全報告後補共同風險機制、例子與跨版本提示；其餘行業統計及行政沿革保留參考。",
+    "before": null,
+    "after": [
+      {
+        "title": {
+          "tc": "2022年報告：跨行業風險如何連到MSO",
+          "en": "2022 report: how cross-sector risks connect to MSOs"
+        },
+        "kind": "list",
+        "points": [
+          {
+            "tc": "身分真實不等於實際使用者或用途真實。第5.2.13–5.2.17段區分遙距假冒身分風險與招募真人開傀儡戶口；可靠身分技術可減低前者，後者仍須靠客戶背景、控制者及交易行為辨識。傀儡戶口也存在於親身開戶，並非虛擬銀行特有。",
+            "en": "A genuine identity does not prove the real user or purpose. Paragraphs 5.2.13–5.2.17 distinguish remote impersonation from recruiting real people to open stooge accounts. Reliable identity technology can reduce the former; the latter still requires attention to customer background, control and transaction behaviour. Stooge accounts also occur with face-to-face onboarding, not only virtual banks."
+          },
+          {
+            "tc": "多重支付中介可遮蔽最初匯款人及最終受益人；證券第三者付款、代名投資及TCSP成立多層公司，也可能掩蓋實益擁有權／資金來源。理解共同機制，不把「經銀行轉來」「由專業人士介紹」視為資金合法的證明。報告中的他業監管措施並不因此自動變成MSO的同一套法定程序。",
+            "en": "Multiple payment intermediaries can obscure the original payer and ultimate recipient. Securities third-party payments, nominee investments and layered companies formed through TCSPs can also conceal beneficial ownership or source of funds. Understand the shared mechanism: a bank transfer or professional introduction is not proof of lawful funds. Other sectors’ controls in this report do not automatically become identical statutory MSO procedures."
+          },
+          {
+            "tc": "按產品功能看風險：本地小額交通／零售支付與可海外提款、跨境匯款、人對人轉撥的電子錢包，脆弱性不同。報告第5.6節的整體中等評級不能把每種產品或每名客戶都定為同一級，也不能用低額交易自動排除非法博彩或分拆操作。",
+            "en": "Assess product functionality: small domestic transport/retail payments differ from wallets supporting overseas cash withdrawal, cross-border remittance and peer-to-peer transfers. The sector’s medium rating in section 5.6 does not assign every product/customer the same risk, nor do small transactions automatically exclude illegal bookmaking or structuring."
+          },
+          {
+            "tc": "理解例子：虛假投資可以先叫受害人在真實平台買入虛擬資產，再轉到騙徒錢包；也可能只收法幣到傀儡銀行戶口，根本沒有虛擬資產交易。不能只看「加密貨幣投資」名稱或網頁顯示的收益，須理解實際資金流。這是第5.7.5段的2022年案例機制，不是所有虛擬資產活動都屬詐騙。",
+            "en": "Illustration: a fake investment may first send a victim to a genuine platform to buy VAs and then transfer them to a fraudster’s wallet; alternatively, it may collect fiat money into stooge bank accounts without any VA transaction. Understand the actual funds flow rather than relying on the crypto-investment label or displayed returns. This is the 2022 paragraph 5.7.5 typology, not a claim that all VA activity is fraud."
+          },
+          {
+            "tc": "版本分開：第25份在2022年把虛擬資產發牌及DPMS註冊寫為擬議制度；第04份所存2026年綜合條例已載第5B／5C部，Part 2的制度參考以第04份為據。第25份行業數量、風險評級、監管改革與下一步措施均保留2022年時點，不用來判定今天的名單或法律狀態。",
+            "en": "Separate editions: document 25 in 2022 describes VA licensing and DPMS registration as proposed regimes; the stored 2026 consolidated document 04 contains Parts 5B/5C, which support the Part 2 reference notes. Sector counts, risk ratings, regulatory reforms and next steps in document 25 retain their 2022 date and do not establish today’s lists or legal position."
+          }
+        ],
+        "refs": [
+          {
+            "doc": "25",
+            "locator": {
+              "tc": "第5.2.13–5.2.17、5.2.21、5.3.25–5.3.38、5.6.2、5.6.7–5.6.15、5.7.5、5.7.22、6.4.3、6.6.6–6.6.13段",
+              "en": "¶5.2.13–5.2.17, 5.2.21, 5.3.25–5.3.38, 5.6.2, 5.6.7–5.6.15, 5.7.5, 5.7.22, 6.4.3, 6.6.6–6.6.13"
+            },
+            "anchor": "Mule account networks"
+          },
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "第5B、5C部",
+              "en": "Parts 5B, 5C"
+            },
+            "anchor": "Regulation of Dealings in Precious Metals and Stones"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "doc": "25",
+        "locator": {
+          "tc": "第5.2.13–5.2.17、5.2.21、5.3.25–5.3.38、5.6.2、5.6.7–5.6.15、5.7.5、5.7.22、6.4.3、6.6.6–6.6.13段",
+          "en": "¶5.2.13–5.2.17, 5.2.21, 5.3.25–5.3.38, 5.6.2, 5.6.7–5.6.15, 5.7.5, 5.7.22, 6.4.3, 6.6.6–6.6.13"
+        },
+        "anchor": "Mule account networks",
+        "filenames": {
+          "TC": "25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+          "EN": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf"
+        }
+      },
+      {
+        "doc": "04",
+        "locator": {
+          "tc": "第5B、5C部",
+          "en": "Parts 5B, 5C"
+        },
+        "anchor": "Regulation of Dealings in Precious Metals and Stones",
+        "filenames": {
+          "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+          "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-1.html#risk-assessment",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F35",
+    "part": 6,
+    "section": "wire-transfers",
+    "priority": "P1",
+    "issue": "cover payment被譯作「掩蓋付款」，容易把付款機制誤認為隱瞞／洗錢。",
+    "impact": "回03第10.3段中英核實，改為官方中文「直接撥付機制」，保留MT202COV例子及適用規則。",
+    "before": null,
+    "after": [
+      {
+        "title": {
+          "tc": "戶口號碼、客戶識別號碼、交易參考號碼",
+          "en": "Account number, customer identifier and transaction reference"
+        },
+        "kind": "list",
+        "points": [
+          {
+            "tc": "有相關戶口時用戶口號碼；沒有該戶口，才用由相應匯款機構／收款機構編配、可追查交易的獨特參考號碼。這項先後條件適用於匯款人及收款人的所需資料，不是可任選一個方便的號碼。",
+            "en": "Use the relevant account number when one exists; only without that account use the traceable unique reference assigned by the appropriate ordering/beneficiary institution. This applies to the required information on both originator and recipient, not a free choice of a convenient number."
+          },
+          {
+            "tc": "客戶識別號碼是機構用來唯一識別匯款人的號碼，須指向所存含至少一項以下資料的紀錄：地址、身分證明文件號碼，或出生日期及地點。獨特交易參考號碼用來追查該筆交易；兩者不是同一種號碼。",
+            "en": "A customer identification number uniquely identifies the originator to the institution and points to a record containing at least one of address, identification-document number, or birth date and place. A unique transaction reference traces the transaction; the identifiers serve different purposes."
+          },
+          {
+            "tc": "直接撥付機制（cover payment，例如MT202COV付款）仍須遵守本章適用的電傳要求；這是付款機制名稱，不是「掩蓋付款」或洗錢的同義詞。匯款機構亦須有有效程序防止匯出不合規電傳：合理檢查本地／跨境轉帳的所需雙方資料缺漏、按風險處理缺漏轉帳，並及時修補管控缺失；可包括定期內控／審核測試。",
+            "en": "Cover-payment mechanisms, such as MT202COV payments, remain subject to applicable Chapter 10 wire-transfer requirements. This names a payment mechanism, not concealment or money laundering. Ordering institutions need effective procedures to prevent non-compliant outgoing wires: reasonable checks for missing required information on both sides of domestic/cross-border transfers, risk-based handling and timely control repairs, including appropriate regular control/audit testing."
+          }
+        ],
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第10.3、10.5–10.7、10.13段及註70",
+              "en": "¶10.3, 10.5–10.7, 10.13; footnotes 70"
+            },
+            "anchor": "is a different number from the unique transaction reference number",
+            "filenames": {
+              "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+              "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+            }
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "doc": "03",
+        "locator": {
+          "tc": "第10.3、10.5–10.7、10.13段及註70",
+          "en": "¶10.3, 10.5–10.7, 10.13; footnotes 70"
+        },
+        "anchor": "is a different number from the unique transaction reference number",
+        "filenames": {
+          "TC": "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+          "EN": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-6.html#wire-transfers",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  },
+  {
+    "id": "F36",
+    "part": 4,
+    "section": "application",
+    "priority": "P2",
+    "issue": "公司文件只寫相應成立／周年申報表，不能辨認表格編號及適用公司類型。",
+    "impact": "回05第16.1–16.3段核對，參考層補NAR1、NNC1、NNC1G、NN3、NN1的對應及與MSO半年申報的區別。",
+    "before": null,
+    "after": [
+      {
+        "title": {
+          "tc": "證明文件按身分及用途準備",
+          "en": "Evidence by legal form and purpose"
+        },
+        "kind": "reference",
+        "points": [
+          {
+            "tc": "獨資／合夥提供有效商業登記及商業登記冊資料摘錄。本地公司另備成立證明、最新周年申報表NAR1及其後所有登記文件；新公司用NNC1（股份有限公司）或NNC1G（股份有限公司以外的公司）。非香港公司備非香港公司註冊證明、最新周年申報表NN3及其後存檔文件；新成立公司用NN1（在香港註冊的非香港公司詳情）。另按清單備章程及集團架構／持股比例。這些是公司文件，不是MSO半年交易申報表。",
+            "en": "Proprietors/partnerships provide valid BR and business-register extracts. Local companies add incorporation and the latest annual return NAR1 plus subsequent filings; new companies use NNC1 (limited by shares) or NNC1G (not limited by shares). Non-Hong Kong companies provide their non-Hong Kong-company registration certificate and latest annual return NN3 plus subsequent filings; newly established companies use NN1 (particulars of a non-Hong Kong company registered in Hong Kong). Add constitution and group/ownership structure as listed. These corporate documents are not MSO half-yearly transaction returns."
+          },
+          {
+            "tc": "每個適用處所、LMO及LPS提供已加蓋印花租約／業權、平面圖、內外兩張4R照片及業主准許指定用途信；LMO另備有效商業登記，商住處所另備全體佔用人同意。",
+            "en": "For each applicable premises, LMO and LPS provide stamped tenancy/ownership, floor plan, two interior/exterior 4R photos and owner permission for the relevant use. LMOs add valid BR; mixed premises add every occupant’s consent."
+          },
+          {
+            "tc": "個人伙伴／董事／最終擁有人按居留身分備3A及附錄、香港身分證或旅行證件個人資料頁；法人伙伴／董事按類型備3B及公司文件，境外未在港註冊者的成立證明須按指定規例核證。",
+            "en": "Individual partners/directors/ultimate owners provide Form 3A/appendices and HKID or travel biodata according to residence. Corporate partners/directors provide Form 3B and applicable corporate evidence; overseas corporations unregistered in Hong Kong require certification under the specified regulations."
+          },
+          {
+            "tc": "業務計劃及AML政策須由適用獨資／每名個人伙伴、董事及最終擁有人確認。另按清單備本地／境外第三方合約、CO／MLRO身分證、僱傭合約及申請前3個月內地址證明、銀行戶權證明及銀行確認作金錢服務用途。清單非盡錄，海關可再索資料。",
+            "en": "Plans/policies require applicable proprietor/every individual partner, director and ultimate-owner endorsement. The checklist also covers local/foreign third-party contracts, CO/MLRO HKID/employment and address proof within three months before application, bank ownership and bank acknowledgement of money-service use. Customs may request more; the checklist is not exhaustive."
+          }
+        ],
+        "refs": [
+          {
+            "doc": "05",
+            "locator": {
+              "tc": "第16.1–16.3段，項目1–6",
+              "en": "¶16.1–16.3, items 1–6"
+            },
+            "anchor": "Checklist for submission of supporting documents",
+            "filenames": {
+              "TC": "05_高_牌照指引（2026年5月）.pdf",
+              "EN": "05_High_Licensing Guide (May 2026).pdf"
+            }
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "doc": "05",
+        "locator": {
+          "tc": "第16.1–16.3段，項目1–6",
+          "en": "¶16.1–16.3, items 1–6"
+        },
+        "anchor": "Checklist for submission of supporting documents",
+        "filenames": {
+          "TC": "05_高_牌照指引（2026年5月）.pdf",
+          "EN": "05_High_Licensing Guide (May 2026).pdf"
+        }
+      }
+    ],
+    "status": "fixed",
+    "note_location": "part-4.html#application",
+    "evidence_level": "原文含義對照；不以文字anchor或測試代替"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-19",
+  "node_tests": {"command": "node --test tests/*.test.cjs", "passed": 8, "failed": 0},
+  "go_tests": {"command": "go test ./...", "exit_code": 0, "output": "ok mso-ca 4.118s"},
+  "browser": {"page_cases": 42, "practice_cases": 21, "index_cases": 6, "failures": 0},
+  "focused_additions": {"cases": 48, "failures": 0},
+  "visual_review": [
+    {"file": "previews/source-scr-tc-desktop.png", "result": "Final wording, six complete points and source filenames visible; no clipping."},
+    {"file": "previews/source-scr-both-mobile.png", "result": "Chinese/English pairs stack in order; final responsibility paragraph and source filenames wrap within the reading column."}
+  ],
+  "limits": "Rendering and automated checks do not prove semantic completeness. Adopted source meanings and inclusion decisions are recorded separately."
+}

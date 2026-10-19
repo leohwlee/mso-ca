@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "kind": "bounded-independent-source-completeness-review",
+  "reviewer": {
+    "agent": "/root/memory_hierarchy_audit",
+    "model": "same parent model; no cross-model verification claimed"
+  },
+  "scope": {
+    "documents": "10–26 repository originals only",
+    "manuscripts": "All seven source-authored manuscripts and current memory_panels.py",
+    "source25": "2022 executive summary, methodology ¶2.1–2.10 and MSO ¶5.4.1–5.4.30; not all 197 pages",
+    "source23": "Definitions/declaration/exchange-rate/settlement provisions; detention/search/arrest provisions; selected schedules; not certification of every procedural subsection",
+    "language": "English originals compared for omission; Cap.34/629 bilingual statute text inspected. Proposed TC text is substance for integration, not a new independent blind review of every final bilingual sentence.",
+    "constraints": [
+      "No question-bank material read or used",
+      "No manuscript/content edits",
+      "Existing conflict decisions applied; no new unresolved conflict identified",
+      "Document 24 Chinese additions remain study translations; source remains English",
+      "Dated circular/report findings are not verified-current operational advice"
+    ]
+  },
+  "findings": [
+    {
+      "id": "C01",
+      "priority": "high",
+      "status": "incorrect_qualification",
+      "target": "part-1.html#cross-boundary-cash",
+      "doc": "23",
+      "locator": "s.2(2)(c)(i)–(ii)",
+      "anchor": "whether or not carried, or to be carried, on the same conveyance",
+      "gap": "The manuscript restricts checked baggage to the same conveyance; the Ordinance expressly does not.",
+      "tc": "個人物品須由該運輸工具運載；托運行李則不論是否由或將會由同一運輸工具運載，均可屬法定管有。",
+      "en": "Personal belongings are carried on the conveyance; checked baggage counts whether or not carried, or to be carried, on that same conveyance.",
+      "action": "Correct the existing bilingual possession sentence and preserve this distinction in recall summaries.",
+      "source_file": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+    },
+    {
+      "id": "C02",
+      "priority": "high",
+      "status": "absent",
+      "target": "part-1.html#cross-boundary-cash",
+      "doc": "23",
+      "locator": "ss.16–19; s.17(4)",
+      "anchor": "not more than 10 working days after the day of seizure",
+      "gap": "Detection/seizure and detention of suspected crime proceeds or terrorist property are not explained; only declaration offences are covered.",
+      "tc": "獲授權人員可依法截停、搜查及要求身分／回答；合理懷疑現金類物品屬犯罪得益或恐怖分子財產時可檢取，不只針對超過12萬元。第17條扣留通常不超過檢取日後10個工作日；工作日不含星期六、公眾假期、黑色暴雨或烈風警告日。懷疑犯罪得益可依第18條申請法院繼續扣留：每次命令不超過3個月，通常總期不超過首次法院命令日起2年；第19條所列程序提起後可扣至程序完結，並須保留不再有扣留理由時的發還機制。",
+      "en": "Statutory stop/search, identity and question powers accompany declaration duties. Reasonably suspected crime proceeds or terrorist property may be seized without importing the large-quantity declaration threshold. Section 17 ordinarily permits up to 10 working days after seizure; working days exclude Saturdays, general holidays and black-rainstorm/gale-warning days. Suspected crime proceeds can receive court-ordered continued detention: each order up to three months and ordinarily up to two years from the first court order, subject to the section 19 proceedings exception and release when detention is no longer justified.",
+      "action": "Add a bounded powers-and-time-limits block/table. Keep property detention distinct from detention of an arrested person and from AMLO business days.",
+      "source_file": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+    },
+    {
+      "id": "C03",
+      "priority": "high",
+      "status": "incomplete_definition",
+      "target": "part-1.html#cross-boundary-cash",
+      "doc": "23",
+      "locator": "s.7(6); s.2 definition of reference exchange rate",
+      "anchor": "means the person arrives at the specified control point concerned",
+      "gap": "The traveller exchange-rate rule refers to a relevant-event date without defining the event or identifying the statutory reference-rate publisher.",
+      "tc": "第4條按抵達指明管制站時為有關事件；第5／6條按獲授權人員要求披露時。參考匯價是香港銀行公會公布的外匯賣出開市參考牌價；保留非報價日、公布前及法定後備方法。",
+      "en": "For section 4 the relevant event is arrival at the specified control point; for sections 5/6 it is the officer’s disclosure request. The statutory reference rate is the Hong Kong Association of Banks opening indicative counter exchange selling rate, retaining the existing publication-time/day and fallback rules.",
+      "action": "Complete the existing traveller-rate definition; do not equate it with the cargo previous-month rule.",
+      "source_file": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+    },
+    {
+      "id": "C04",
+      "priority": "medium",
+      "status": "incomplete_formal_definition",
+      "target": "part-1.html#cross-boundary-cash",
+      "doc": "23",
+      "locator": "s.2(1), CBNI definition",
+      "anchor": "signed but does not state a payee’s name",
+      "gap": "The current shorthand covers bearer/delivery instruments but omits the explicit five statutory negotiable-instrument forms.",
+      "tc": "票據包括持有人形式、無限制背書、虛構受款人、所有權隨交付轉移，以及已簽署但未述受款人的可轉讓票據。法定貨幣紙幣及硬幣另屬一類；不能只認識現金及不記名支票。",
+      "en": "Negotiable instruments include bearer form, unrestricted endorsement, fictitious payee, title passing on delivery, and signed instruments without a named payee. Legal-tender notes/coins form the separate currency limb.",
+      "action": "Add a compact enumerated definition with representative examples rather than a second monetary-threshold panel.",
+      "source_file": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+    },
+    {
+      "id": "C05",
+      "priority": "medium",
+      "status": "incomplete_procedure",
+      "target": "part-4.html#exchange-note",
+      "doc": "17",
+      "locator": "s.4(1)(d), (2)(d), (3)–(4)",
+      "anchor": "unless a copy of the signature is recorded on the duplicate",
+      "gap": "The transaction-note summary omits which copies the customer is asked to sign, and that the net rate is stated without reference to separate charge/commission.",
+      "tc": "要求顧客在正本簽署；副本沒有記錄簽署複本時亦要求在副本簽署。交易單上的淨匯率不可另述收費或佣金；只可加入條例准許的內容，不能任意加免責條款。",
+      "en": "Request the customer’s signature on the original and on the duplicate unless the signature copy is already recorded there. State the net rate without reference to charges/commission; include only authorized note content.",
+      "action": "Expand the existing transaction-note step, retaining the money changer’s signature and explanation-as-practicable qualification.",
+      "source_file": "17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf"
+    },
+    {
+      "id": "C06",
+      "priority": "medium",
+      "status": "absent_condition",
+      "target": "part-4.html#exchange-display",
+      "doc": "17",
+      "locator": "s.8(1)(b)",
+      "anchor": "without the need to refer to more than one board",
+      "gap": "Equal prominence is covered; the same-board comparability condition is not.",
+      "tc": "買入及賣出率不但須同等顯眼，顧客亦須毋須參看多於一塊告示牌便能比較同一貨幣的兩個匯率。",
+      "en": "Beyond equal prominence, customers must be able to compare a currency’s buying and selling rates without referring to more than one board.",
+      "action": "Add the condition to the existing advertising bullet.",
+      "source_file": "17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf"
+    },
+    {
+      "id": "C07",
+      "priority": "medium",
+      "status": "incomplete_formal_groups",
+      "target": "part-4.html#penalty-factors",
+      "doc": "12",
+      "locator": "¶4, ¶9(a)–(d); also document 13 ¶3, ¶9",
+      "anchor": "generally the CCE will not take disciplinary action",
+      "gap": "The summary lists many factors but does not preserve the four formal groups or the current-at-conduct guidance consideration/publication policy.",
+      "tc": "四組是違規性質／嚴重性／影響、違規後行為、既往紀律及合規紀錄、其他相關因素。一般會公開罰款決定；一般不就符合行為當時有效指引的行為處分。疏忽／純技術違規一般較輕，隱瞞、累積小缺失及再次違規風險亦影響評估；清單非盡列，須按個案。",
+      "en": "Preserve four groups: nature/seriousness/impact; post-contravention conduct; disciplinary/compliance history; other relevant factors. Decisions imposing pecuniary penalties are usually publicized. Generally no discipline is taken for conduct in line with guidance current at the time. Negligent/technical breaches are generally less serious; concealment, cumulative smaller issues and recurrence risk matter, in the non-exhaustive case-specific assessment.",
+      "action": "Use four labelled rows without treating every subfactor as a mandatory fixed formula; bind both documents 12 and 13.",
+      "source_file": "12_Medium-Essential_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf"
+    },
+    {
+      "id": "C08",
+      "priority": "medium",
+      "status": "incomplete_examples",
+      "target": "part-4.html#fitness",
+      "doc": "11",
+      "locator": "¶6(d), (e), (q)",
+      "anchor": "has been notified of any potential proceedings",
+      "gap": "Pending charges are covered but notified potential disciplinary/criminal proceedings/investigations, reasonable good-faith complaints and creditor arrangements are not explicit.",
+      "tc": "適當人選評估亦可考慮合理且真誠的客戶投訴；任何司法管轄區的刑事／紀律程序、已通知的可能程序或可能導致程序的調查；以及與債權人的妥協／安排等財政誠信事項。仍按整體個案評估，不是投訴或調查自動證明不適當。",
+      "en": "Relevant examples include reasonable good-faith customer complaints, criminal/disciplinary proceedings in any jurisdiction or notified potential proceedings/investigations that may lead to them, and compromises/arrangements with creditors. These remain case-specific fitness factors, not automatic findings of unfitness or guilt.",
+      "action": "Complete the examples in the fitness block rather than inventing a pass/fail checklist.",
+      "source_file": "11_Medium-Essential_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf"
+    },
+    {
+      "id": "C09",
+      "priority": "medium",
+      "status": "absent_legal_mapping",
+      "target": "part-1.html#sanctions",
+      "doc": "26",
+      "locator": "Expected regulatory standards, p.1",
+      "anchor": "except for UNSC Resolution 1373",
+      "gap": "The general UNSO/UNATMO roles are covered but their resolution-1373 distinction is not explicit.",
+      "tc": "聯合國制裁一般藉第537章下規例落實；涉及恐怖主義的安理會第1373號決議由第575章處理。相關委員會指定透過行政長官指明及憲報更新落實；保留現有本地實施時間差及及早篩查要求。",
+      "en": "UN sanctions are generally implemented through regulations under Cap.537, except UNSCR1373 relating to terrorism, which is covered by Cap.575. Relevant committee designations are given effect by the Chief Executive’s specification and Gazette updates; the existing timing-gap/screening qualification remains.",
+      "action": "Add this legal mapping beside the two statutory frameworks; do not imply all UNSC sanctions use UNSO.",
+      "source_file": "26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf"
+    },
+    {
+      "id": "C10",
+      "priority": "medium",
+      "status": "incomplete_definition_and_distinction",
+      "target": "part-1.html#risk-assessment",
+      "doc": "25",
+      "locator": "¶2.4–2.5; executive summary ¶18–23",
+      "anchor": "Threats refer to the scale and characteristics",
+      "gap": "Threat/vulnerability wording is generic and omits the report’s five-level scale; terrorism threat versus TF threat is not distinguished.",
+      "tc": "威脅是犯罪得益或恐怖主義相關資金產生、流入及流出的規模及特徵；脆弱性是整體或行業防線的弱點／缺口。五級為低、中低、中、中高、高。2022年恐怖主義威脅屬『moderate』，不等於恐怖分子資金籌集威脅／風險的中低；全部須標明報告年份，不能當成現時安全判斷。",
+      "en": "Threat measures the scale/patterns of generation, inflows and outflows of proceeds or terrorism-linked funds; vulnerability concerns weaknesses/gaps in territory/sector defences. Ratings are low, medium-low, medium, medium-high and high. The 2022 ‘moderate’ terrorism-threat assessment is distinct from medium-low TF threat/risk; retain the report date.",
+      "action": "Tighten definitions and add the bounded dated distinction; do not manufacture numerical weights or a risk formula.",
+      "source_file": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf"
+    },
+    {
+      "id": "C11",
+      "priority": "lower",
+      "status": "absent_examples",
+      "target": "part-1.html#international",
+      "doc": "19",
+      "locator": "p.1 note 2; p.2 note 5",
+      "anchor": "terminating correspondent relationships with DPRK banks",
+      "gap": "The snapshot identifies countermeasures but not their source-given examples.",
+      "tc": "2026年7月3日通函列反制例子：終止與朝鮮銀行的往來關係、關閉其境內分行／附屬機構、限制與朝鮮人士的業務及交易。加強盡職審查亦包括提高監察的程度及性質。這是通函當年的要求及例子，不能把緬甸未來或有反制措施寫成當時已生效。",
+      "en": "The 3 July 2026 circular gives countermeasure examples: terminate DPRK-bank correspondent relationships, close their local subsidiaries/branches and limit DPRK-person business/transactions. EDD includes increasing the degree/nature of monitoring. Keep this dated and do not convert Myanmar’s possible future countermeasures into an operative snapshot rule.",
+      "action": "Optional short examples if improving the abstract ‘countermeasures’ term.",
+      "source_file": "19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf"
+    },
+    {
+      "id": "C12",
+      "priority": "lower",
+      "status": "incomplete_liability_detail",
+      "target": "part-4.html#exchange-display",
+      "doc": "17",
+      "locator": "s.11(1)–(6)",
+      "anchor": "is presumed, in the absence of evidence to the contrary",
+      "gap": "The general employer/officer/partner rule is covered; statutory presumptions and the professional-advice-only exclusion are not.",
+      "tc": "公司董事、經理、秘書及相類高級人員可在法定範圍內負責；沒有相反證據時，僱主／指明公司人員／合夥人被推定未採取合理防止措施。僅因董事聽從某人以專業身份提供的意見，不會因此把該專業人士當成影子董事。",
+      "en": "Within the statutory scope, company officers and partners may be liable, with the specified absence-of-contrary-evidence presumptions about reasonable preventive steps. Professional advice alone does not turn its giver into the person directing the company’s directors.",
+      "action": "Optional compact qualification under liability; do not expand this into an unrelated company-law lesson.",
+      "source_file": "17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf"
+    },
+    {
+      "id": "C13",
+      "priority": "lower",
+      "status": "incomplete_required_information",
+      "target": "part-1.html#cross-boundary-cash",
+      "doc": "23",
+      "locator": "Schedules 2 and 3",
+      "anchor": "If applicable, the name and address of the recipient of the CBNIs",
+      "gap": "Declarations are taught without any summary of the required information.",
+      "tc": "旅客申報包括身分／聯絡資料、交通工具、種類面值、入境或離境日期及來源／目的地、非本人擁有時的擁有人等。非旅客方式申報包括負責人／客戶基本資料、運輸工具、種類價值、日期及來源／目的地、適用收受人及貨單識別資料。",
+      "en": "Traveller declarations cover identity/contact, conveyance, CBNI type/value, arrival/departure/date/source/destination and non-holder ownership particulars. Non-traveller declarations cover responsible-person/customer basics, conveyance, type/value, date/source/destination and applicable recipient/consignment identifiers.",
+      "action": "Optional self-contained checklist; no need to reproduce every form field as a major visual.",
+      "source_file": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf"
+    },
+    {
+      "id": "C14",
+      "priority": "lower",
+      "status": "incomplete_specific_indicator",
+      "target": "part-6.html#trade-based-laundering",
+      "doc": "24",
+      "locator": "printed p.3, Structural risk indicators",
+      "anchor": "it lacks regular payroll transactions",
+      "gap": "The four indicator groups and handling qualifications are adequately summarized; one concrete structural clue remains absent.",
+      "tc": "與聲稱規模不符而缺少正常薪酬、營運開支或稅款交易，可屬結構風險線索；須按完整背景及合理解釋評估，單一指標不等於洗錢證明。",
+      "en": "Missing ordinary payroll, operating-cost or tax transactions inconsistent with the claimed business can be a structural warning sign, assessed in context with reasonable explanations; one indicator is not proof.",
+      "action": "Optional example in the structural indicators bullet, labelled Chinese study translation with English original.",
+      "source_file": "24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf"
+    }
+  ],
+  "adequate_or_not_core": [
+    {
+      "docs": [
+        "10",
+        "11"
+      ],
+      "note": "Core statutory/supplementary fitness principles, ongoing duty, non-exhaustive holistic assessment and no automatic adverse-factor bar are present. C08 records finite additional examples; wholesale duplication of all 18 subparagraphs is unnecessary."
+    },
+    {
+      "docs": [
+        "14"
+      ],
+      "note": "Pre-engagement delivery-channel assessment, overseas fund-freezing/non-performance risk, ongoing review, EDD and overseas-conduct predicate treatment are adequately present."
+    },
+    {
+      "docs": [
+        "15"
+      ],
+      "note": "Half-year periods, electronic-only MSOS, changed fields, ratios, submission-date assets and the separate Licensing Guide deadline are present. Do not import old quarterly report wording from source25."
+    },
+    {
+      "docs": [
+        "16",
+        "17"
+      ],
+      "note": "2025 effective date, scope threshold, 17 prescribed currencies, dual-rate display, best/worst displayed rate, additional quote for unlisted currencies, transaction-note retention and rescission are present. Do not claim missing all currencies or a missing threshold table."
+    },
+    {
+      "docs": [
+        "18",
+        "24"
+      ],
+      "note": "TBML definition, four indicator groups, multiple-indicator concern, proportionate controls, CDD/EDD, transaction scrutiny, STR regardless of amount/completion, non-exhaustive/context/external-data qualifications are adequately present. Named four enhancement areas can improve recall, but are not wholly missing substance."
+    },
+    {
+      "docs": [
+        "19"
+      ],
+      "note": "Call-for-action versus increased-monitoring distinctions and the dated DPRK/Iran/Myanmar/new-jurisdiction snapshot are present; C11 adds examples only."
+    },
+    {
+      "docs": [
+        "20",
+        "21"
+      ],
+      "note": "Required business-plan and policy domains are substantively grouped in Part5, including two-year forecasts, bank ownership, outsourcing/agents/channels, governance, CDD, SOF/SOW, monitoring, records, reporting, audit and role-specific training. Source21’s one-day retrieval is correctly qualified as an example, not universal law."
+    },
+    {
+      "docs": [
+        "22",
+        "23"
+      ],
+      "note": "Three declaration routes, >120000 equality distinction, under16/adult duty, airport transit/cargo exclusions, nominal-value concept, different traveller/cargo rates and conditional HK$2000 settlement are present; C01–04 identify consequential gaps."
+    },
+    {
+      "docs": [
+        "25"
+      ],
+      "note": "Dated overall and MSO risk levels, sector vulnerabilities, Hawala historical qualification and risk-based supervision are present. Historical conviction counts, every seminar statistic, other sectors’ full chapters and proposal-as-future detail should not become high-priority memorization material."
+    },
+    {
+      "docs": [
+        "26"
+      ],
+      "note": "Timing gap, early screening, countries/entities/activities and existing offences before local implementation are adequately explained; C09 records the specific resolution-to-Ordinance mapping gap."
+    }
+  ],
+  "limitations": "This omission audit supplies actionable source-supported candidates. It is not a completeness certificate, current-law verification, or final-text semantic approval. Existing review files are preserved.",
+  "inspected_manuscript_sha256": {
+    "part1.py": "5efd10c9a93b9759e2d97e62787b026ee82531cd94dee5e2e8161eadcd22f9f1",
+    "part2.py": "7e7c2a63d1c855408eb8a3d6c78a56bf2b0501ea9cfc8fdb91662604a460976b",
+    "part3.py": "7c2f932a4cde10fa87e4ab261db4c620c9a37358077c729b8982994935f93332",
+    "part4.py": "48e115717c291d49cde87e84759df973888ecc6775ceae1f8183191f5afe6d24",
+    "part5.py": "1da26f2a2a99e55d189ac8939f20d9010759ef3d02ac8d8ba6a52f7f9d323899",
+    "part6.py": "ab00b7f823ed977ee961b655193886f41015b5a5675e528aa5b6a17c66eba4de",
+    "part7.py": "9cb8367957cb53d135eb01d8f8866e15670c184da686507a69e19787ee2de7cc",
+    "memory_panels.py": "51377f4fe7a8c7a788af5e70b42fb6533f60fe68d77b3a676c897e822d75434e"
+  }
+}

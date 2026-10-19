@@ -1,7 +1,5 @@
-/* MSO Competence Assessment mock exam — minimal
-   White ground, near-black ink, grey for everything secondary, hairline borders,
-   no shadows or tints. Black is the only accent. Colour is used strictly for
-   meaning: muted green = correct, muted red = wrong, amber = warning. */
+/* B: annotated study reference. Blue-gray frame, white sheets, ink-blue
+   hierarchy, amber annotations. Correct/incorrect colours retain their meaning. */
 
 /* fonts (bundled, SIL Open Font License; see fonts/OFL.txt) */
 @font-face { font-family: "DM Sans"; font-style: normal; font-weight: 100 1000; font-display: swap; src: url("fonts/dmsans.woff2") format("woff2"); }
@@ -11,14 +9,15 @@
 :root {
   color-scheme: light;
   --bg: #ffffff;
-  --panel: #f6f6f6;
-  --ink: #111111;
-  --text: #222222;
-  --muted: #6f6f6f;
-  --faint: #9a9a9a;
-  --line: #e6e6e6;
-  --line-strong: #cfcfcf;
-  --accent: #111111;
+  --frame: #edf2f6;
+  --panel: #f1f5f8;
+  --ink: #173f63;
+  --text: #263e52;
+  --muted: #526a7e;
+  --faint: #60758a;
+  --line: #d5e0e8;
+  --line-strong: #aebfcf;
+  --accent: #173f63;
   --accent-ink: #ffffff;
   --green: #2e7d4f;
   --green-bg: #eef6f1;
@@ -28,18 +27,19 @@
   --red-bg: #faeeed;
   --sans: "DM Sans", "Segoe UI", "Helvetica Neue", Arial, "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
   --mono: "DM Mono", "SFMono-Regular", Consolas, Menlo, monospace;
-  --r: 6px;
+  --r: 4px;
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --bg: #0f0f0f;
-  --panel: #191919;
-  --ink: #f2f2f2;
-  --text: #dcdcdc;
-  --muted: #9a9a9a;
-  --faint: #6b6b6b;
-  --line: #262626;
-  --line-strong: #3a3a3a;
+  --bg: #14212e;
+  --frame: #0e1924;
+  --panel: #1c2e3e;
+  --ink: #dceaf5;
+  --text: #d0dce5;
+  --muted: #a6bdcf;
+  --faint: #91a9be;
+  --line: #354a5c;
+  --line-strong: #5c768b;
   --accent: #f2f2f2;
   --accent-ink: #0f0f0f;
   --green: #6fbf8f;
@@ -339,3 +339,11 @@ table.hist td.num { font-family: var(--mono); font-size: 13.5px; color: var(--in
 .scope-note { color: var(--muted); font-size: 14px; }
 .exam-history { margin-top: 24px; }
 .exam-history > summary { cursor: pointer; font-weight: 600; padding: 12px 0; }
+
+/* Shared publication vocabulary, preserving the application's existing states. */
+body{background:var(--frame);font-size:16px;line-height:1.7}::selection{background:#d3e3ef;color:#173f63}a{color:var(--ink);text-underline-offset:4px}button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible{outline:2px solid var(--ink);outline-offset:4px}.wrap{max-width:1200px;padding:30px 32px 72px}.topbar .wrap{padding-top:18px;padding-bottom:18px}.brand .t1{font-family:Georgia,"Times New Roman","Microsoft JhengHei",serif;font-size:19px;font-weight:400}.brand .t2{font-size:12px;letter-spacing:0;text-transform:none;color:var(--muted);margin-top:5px}.study-entry{font-size:13px;padding:4px 12px;text-decoration:none;border-right:1px solid var(--line)}.topctl{gap:12px}.seg{border-color:transparent;border-radius:3px}.seg button{font-size:12px;padding:5px 9px}.card,.qcard{border:0;border-radius:0;background:var(--bg);padding:32px 36px;box-shadow:0 10px 28px #173f6308}.card h2{font-size:23px;margin-bottom:12px}.card .sub{font-size:15px;line-height:1.8;max-width:75ch}.card .rulebox{background:var(--amber-bg);border-radius:0;padding:18px 20px;line-height:1.8}.subhead,.eyebrow,.tlabel,.omr-mod{letter-spacing:0;text-transform:none;font-size:12px;color:var(--muted)}.stem{font-size:20px;line-height:1.75;margin:18px 0 14px;max-width:68ch}.stmts{margin-top:20px}.stmts li{font-size:17px;line-height:1.8;padding-left:32px;margin-top:12px}.stmts li::before{font-family:var(--sans);font-size:14px;line-height:2.1}.opts{gap:0;margin-top:30px}.opt{border:0;border-top:1px solid var(--line);border-radius:0;font-size:16px;line-height:1.7;padding:16px 12px;background:var(--bg)}.opt:last-child{border-bottom:1px solid var(--line)}.opt:hover{background:var(--panel)}.opt .letter{font-family:var(--sans);border:0;border-radius:3px;font-size:14px;font-weight:600}.opt.sel{background:var(--panel)}.opt.correct{background:var(--green-bg)}.opt.wrong{background:var(--red-bg)}.opt.dim{opacity:1;color:var(--muted)}.explain{background:var(--panel);border-radius:0;padding:22px 24px;font-size:16px;line-height:1.8}.explain .cite{font-family:var(--sans);font-size:13px;line-height:1.8;border-top:1px solid var(--line);padding-top:16px;margin-top:20px}.source-files{margin-top:10px}.source-file{margin-top:7px;overflow-wrap:anywhere}.source-file a{color:var(--muted);text-decoration-color:var(--line-strong)}.st-note{font-size:15px;line-height:1.8;padding-top:6px}.st-verdict{font-size:14px;margin-top:8px}.question-map{color:var(--muted)}.chip{border-radius:3px;padding:9px 14px;font-size:14px;background:var(--bg)}button.btn{font-size:14px;padding:10px 18px;border-radius:3px}.qmeta{border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:24px}.qmod{font-size:13px;line-height:1.6}.qnum{font-size:20px}.footer{font-size:13px;color:var(--muted)}.banner{background:var(--bg);border:0;border-radius:0}.profile-card{background:var(--bg)}.examgrid{gap:28px}.rail .card{box-shadow:none}.exam-history>summary{color:var(--ink)}.modal{box-shadow:0 20px 60px #10243e24}.scope-note{font-size:14px}.optrow{line-height:1.8}.qflag{border-radius:3px}.tcline{line-height:1.8}.welcome{padding:44px}.welcome h2{font-size:28px}.modal p{font-size:15px;line-height:1.8}
+@media(min-width:960px){.examgrid{grid-template-columns:minmax(0,1fr) 388px}.rail{top:100px;max-height:calc(100vh - 116px)}}
+@media(max-width:640px){.wrap{padding:20px 14px 52px}.topbar .wrap{padding:14px 16px;gap:12px}.brand{min-width:0;flex-basis:100%}.brand .t1{font-size:17px}.brand .t2{font-size:11px}.topctl{gap:4px}.study-entry{font-size:12px;padding-left:0;padding-right:10px}.seg button{font-size:12px;padding:4px 7px}.card,.qcard{padding:24px 20px}.card h2{font-size:22px}.stem{font-size:18px;line-height:1.8}.stmts li{font-size:16px}.opt{font-size:16px;padding:14px 6px}.explain{padding:18px 16px}.qmeta{gap:10px}.qmod{font-size:12px;overflow-wrap:anywhere}.qnum{font-size:18px}.tally{font-size:12px}.chip{font-size:13px;padding:8px 10px}.rulebox{padding:16px!important}.dotrow,.prow{gap:8px}.tablewrap{max-width:100%}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+:root[data-theme="dark"] .opt.correct .letter,:root[data-theme="dark"] .opt.wrong .letter{color:#10202a}

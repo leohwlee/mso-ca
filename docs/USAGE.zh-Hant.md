@@ -4,6 +4,10 @@
 
 ## 下載及開啟
 
+如需七部分筆記及練習，在[最新發佈版](https://github.com/leohwlee/mso-ca/releases/latest)
+選 **mso-study-bundle.zip**，完整解壓後開啟 `index.html`。保留資料夾結構：
+內含練習App和引用的01–26原件，App中的溫習連結亦須配合此學習包。
+
 在[最新發佈版](https://github.com/leohwlee/mso-ca/releases/latest)下載 **mso-ca.html**。
 請選擇這個附件，而非GitHub的原始碼ZIP，再用瀏覽器開啟下載的檔案。
 程式所需內容已全部內嵌；閱讀官方來源原件則是另一項活動。

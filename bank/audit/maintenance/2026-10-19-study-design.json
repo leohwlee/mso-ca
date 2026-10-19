@@ -1,0 +1,50 @@
+{
+  "status": "verified",
+  "date": "2026-10-19",
+  "reason": "Owner-authorized seven-part bilingual study reference and selected B interface redesign. Preserve the preceding tracked documentation and UI bytes; question bank, quotations, scoring and historic semantic review verdicts are unchanged. This records file preservation, not an independent semantic review.",
+  "archive": "bank/audit/history/2026-10-19-before-study-design.zip",
+  "archive_sha256": "0ec6a0e66569ffdf7da77e5950c96c5d135789fe76d90d82c418f089ce0671da",
+  "archive_updates": {
+    "README.md": {
+      "before_sha256": "fca649d757647013f53729b12b2776db7a611256c2021b168f0210af8ee95c63",
+      "after_sha256": "36f0a6f1ef46c4548e51974b80e149496eaf9c455e7cca1337391b070bdec47b"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "a503df00637d06a05dd61d62a6340e5f134af3123132147e1738d530a07dfbbf",
+      "after_sha256": "0cbcbaf07912ebe048c9e02250fc5937cf0dda75cc928e16bb2ffbd25e5919f3"
+    },
+    "DEVELOPMENT.md": {
+      "before_sha256": "d28ba3e9a159c4b0d60aeb74d4c83fc51f5ef28b9a31cc5402e6da376f4da660",
+      "after_sha256": "f3e871a2cd222cc8671b15c760658e3de4663a1ac1e47b1fb1287735b17e4e1b"
+    },
+    "DEVELOPMENT.zh-Hant.md": {
+      "before_sha256": "b49d1e1fdef2f81a0ed9bd6e2b8db4cf97ce612c3548ea060cdb7005e22cb6d7",
+      "after_sha256": "8add393d8a61d42f886ac09bf802360a795502fb550d94508b59aa38b8e37988"
+    },
+    "docs/INDEX.md": {
+      "before_sha256": "32d2705fd70114efcaf9d4a966da389bf6290ace4858531e9d352f050aabd22e",
+      "after_sha256": "83d4382a178d2994c0270e1191bd79cf4d7dc20477fcdcfb10406588a326dd79"
+    },
+    "revision/README.md": {
+      "before_sha256": "df732a8b70a04eb547ada44e466e6bd9960397fbca3939b8cff78152ae587b76",
+      "after_sha256": "a8607d73801bedb712ea8467185663b274d6bbc61579ad5f92ea4d6898e4ada0"
+    },
+    "web/app.js": {
+      "before_sha256": "4045eb53c1b3074b1ea6297594fecef9eb99d3b5d40b261a4723265f5b17faaa",
+      "after_sha256": "06b3a323b83fbedd41d6b4d8e521bd3259c73e5e9aeeddd07b8368395385bfda"
+    },
+    "web/style.css": {
+      "before_sha256": "4eccb5bf6f15c0502d7356a9c32862359519376297fd3d0d3a39c7d1043b49ab",
+      "after_sha256": "732af6fe35a316f6d13b5bb9800937c0bd7ae997d4cbcb6a31a74995225776eb"
+    },
+    "tests/app.test.cjs": {
+      "before_sha256": "8c4c6b89a98989352eda35a4b31bb8b61282f4722a4895d9b6b213d663769747",
+      "after_sha256": "d61eda28222685723938d186e8125bf20a173c034169ae97d4342d12649dffd9"
+    }
+  },
+  "documentation_updates": {},
+  "unchanged_content": {
+    "web/questions.json": "4cc89c045c9f1fb1f8cb1e163154cabed6d3eb4e4349baf168b9ae56bfe1bce3",
+    "docs/quotes.json": "2045fdac5e258f395c86961a6df6dec8aa4b4eb32b405f1e26eae43e6daa1448"
+  }
+}

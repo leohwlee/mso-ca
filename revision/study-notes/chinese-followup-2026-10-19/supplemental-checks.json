@@ -1,0 +1,4 @@
+[
+  {"command":"go test ./...","exit_code":0,"output":"ok mso-ca 2.866s"},
+  {"command":"node --test tests/app.test.cjs","exit_code":0,"tests":8,"passed":8,"failed":0}
+]

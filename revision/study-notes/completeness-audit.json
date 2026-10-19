@@ -1,0 +1,444 @@
+{
+  "date_utc": "2026-10-19T04:54:31.533386+00:00",
+  "method": "Primary-source omission comparison, source-authored additions, independent final bilingual read-back; bank only separate topic/source-route gap audit.",
+  "topics": 74,
+  "base_points": 363,
+  "added_blocks": 47,
+  "added_bilingual_points": 87,
+  "final_bilingual_points": 450,
+  "base_corrections": [
+    "Part1 checked baggage does not require same conveyance",
+    "Part6 dormant CDD review upon reactivation; policy defines dormancy"
+  ],
+  "recall_addition": "Part4 seven-day renewal nomination after receiving invitation; distinct from thirty-day attendance",
+  "content_sha256": {
+    "part1.py": "9da3f6a1c6c38a0234ab255c0a3f356e26612bb4b2a005a71ca192edacb310e8",
+    "part2.py": "7e7c2a63d1c855408eb8a3d6c78a56bf2b0501ea9cfc8fdb91662604a460976b",
+    "part3.py": "7c2f932a4cde10fa87e4ab261db4c620c9a37358077c729b8982994935f93332",
+    "part4.py": "48e115717c291d49cde87e84759df973888ecc6775ceae1f8183191f5afe6d24",
+    "part5.py": "1da26f2a2a99e55d189ac8939f20d9010759ef3d02ac8d8ba6a52f7f9d323899",
+    "part6.py": "a9ab8f4180676b47c660f2b7ff4b25cbc985507566f0fdfa777c99b658b38c84",
+    "part7.py": "9cb8367957cb53d135eb01d8f8866e15670c184da686507a69e19787ee2de7cc",
+    "essentials.py": "ff7f22aa41ff48896845d7379e81228f6fc078b2de1eae4fe605770ccf8ce9cd",
+    "memory_panels.py": "5b47609d746e1ef57b3d28c90293d79793ff857a668040e23c495648c3e82367"
+  },
+  "reviews": {
+    "completeness-final-review.json": "02641df8a3646936dd9fc026b9251e5714bf55354950599fe386d3299720dc11",
+    "completeness-guideline-final-review.json": "e72f2db68ecd3e10bfa558cc0213022f505269c67cd5df3e993216b2a14ab1cf",
+    "completeness-circulars-final-review.json": "99514887bc2a93b4f34fa836a6d5c817ba6e0089c39b6a4b311bb73d64732248"
+  },
+  "originals": [
+    {
+      "doc": "01",
+      "filename": "01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf",
+      "scope": "Assessment eligibility, seven-Part structure, passing gates, deadlines and examination arrangements.",
+      "routes": [
+        "part-4.html#assessment"
+      ],
+      "text_sha256": {
+        "TC": "d5fa00d8625ab44b0201637cf5fe79d7f2c4cd7e269819fdf29b5b36521be4de",
+        "EN": "908295f836745a31712fbc0ded041d47434212f2ea63400862414bbd5923b0d2"
+      }
+    },
+    {
+      "doc": "02",
+      "filename": "02_High_Competence Assessment - Sample Questions (12 May 2021).pdf",
+      "scope": "Official sample format only; no sample stems used as note headings/content.",
+      "routes": [
+        "part-4.html#assessment"
+      ],
+      "text_sha256": {
+        "TC": "c45c615e0108d20e2696de9601b3e836a4802c2357f0bd8607b82907df32c337",
+        "EN": "41ff76f531905650e4fb070d14575df4e51ae172fcacc3be4838f874bcdb977f"
+      }
+    },
+    {
+      "doc": "03",
+      "filename": "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "scope": "Substantive chapters1–11, AppendixA/glossary; detailed source-led gap/read-back records.",
+      "routes": [
+        "part-1.html#money-laundering",
+        "part-1.html#terrorist-financing",
+        "part-1.html#legal-framework",
+        "part-1.html#international",
+        "part-1.html#sanctions",
+        "part-2.html#statutory-map",
+        "part-3.html#definitions",
+        "part-5.html#risk-based",
+        "part-5.html#institutional-assessment",
+        "part-5.html#customer-assessment",
+        "part-5.html#new-business",
+        "part-5.html#control-framework",
+        "part-5.html#roles",
+        "part-5.html#group-controls",
+        "part-6.html#cdd",
+        "part-6.html#triggers",
+        "part-6.html#identity",
+        "part-6.html#identity-evidence",
+        "part-6.html#beneficial-owners",
+        "part-6.html#representatives",
+        "part-6.html#timing",
+        "part-6.html#simplified",
+        "part-6.html#enhanced",
+        "part-6.html#peps",
+        "part-6.html#remote",
+        "part-6.html#intermediaries",
+        "part-6.html#monitoring",
+        "part-6.html#screening",
+        "part-6.html#wire-transfers",
+        "part-6.html#wire-receiving",
+        "part-6.html#remittances",
+        "part-6.html#suspicion-indicators",
+        "part-7.html#reporting-duty",
+        "part-7.html#internal-report",
+        "part-7.html#tipping-off",
+        "part-7.html#after-report",
+        "part-7.html#evidence-records",
+        "part-7.html#retention",
+        "part-7.html#independent-audit",
+        "part-7.html#training",
+        "part-7.html#law-enforcement",
+        "part-7.html#safe"
+      ],
+      "text_sha256": {
+        "TC": "a22ad6aac57c9a85513ba3b1d3f44d8edd206b5278728a79454a353738d6f1ad",
+        "EN": "6c602e7e4d82a4cf5bbd2a57b9e3fb5b8c20f9e4785c04a130baff34ab53d9ab"
+      }
+    },
+    {
+      "doc": "04",
+      "filename": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf",
+      "scope": "AMLO core main Parts and Schedules1–4, MSO and shared duties; other-sector regimes distinguished, not fully reproduced.",
+      "routes": [
+        "part-1.html#money-laundering",
+        "part-2.html#statutory-map",
+        "part-2.html#criminal-liability",
+        "part-2.html#inspection-investigation",
+        "part-2.html#licence-scope",
+        "part-2.html#grant-renewal",
+        "part-2.html#changes",
+        "part-2.html#discipline",
+        "part-2.html#enforcement",
+        "part-2.html#review",
+        "part-2.html#statutory-administration",
+        "part-3.html#definitions",
+        "part-3.html#core-duties",
+        "part-3.html#simplification",
+        "part-3.html#special-cases",
+        "part-3.html#sector-specific",
+        "part-3.html#ongoing-and-records",
+        "part-3.html#fees",
+        "part-3.html#tribunal-schedule",
+        "part-4.html#fitness",
+        "part-5.html#group-controls",
+        "part-6.html#timing",
+        "part-6.html#simplified",
+        "part-6.html#enhanced",
+        "part-6.html#intermediaries",
+        "part-6.html#wire-transfers",
+        "part-6.html#remittances",
+        "part-7.html#retention"
+      ],
+      "text_sha256": {
+        "TC": "4cc88b13d23b8e89fa3a6ce52b4041027d555289c0569421958ef0ae676af628",
+        "EN": "916a55f448f988bf51d814da36249414c659eb07f1b148da7bfbfc4269811aa1"
+      }
+    },
+    {
+      "doc": "05",
+      "filename": "05_High_Licensing Guide (May 2026).pdf",
+      "scope": "Licensing definitions, premises/LMO/LPS, application/renewal, fitness, assessment, duties, fees/checklist.",
+      "routes": [
+        "part-2.html#statutory-map",
+        "part-2.html#licence-scope",
+        "part-2.html#grant-renewal",
+        "part-3.html#fees",
+        "part-4.html#premises",
+        "part-4.html#application",
+        "part-4.html#fitness",
+        "part-4.html#assessment",
+        "part-4.html#licensing-actions",
+        "part-5.html#roles",
+        "part-7.html#periodic-return"
+      ],
+      "text_sha256": {
+        "TC": "7b2521e94367502db8a2a4223be0ca07e849630f662abc40b20a40c6b1ae900e",
+        "EN": "2491f72007b9c5efcd3d6c00b4f8ec6c669514c395e468e7b654ad745c0623c8"
+      }
+    },
+    {
+      "doc": "06",
+      "filename": "06_High_FAQ applicable to all MSOs (C&ED portal).md",
+      "scope": "AML/CFT FAQs and licensing FAQs; conditions and settled source conflicts followed.",
+      "routes": [
+        "part-1.html#international",
+        "part-6.html#identity",
+        "part-6.html#representatives",
+        "part-6.html#enhanced",
+        "part-6.html#peps",
+        "part-6.html#screening",
+        "part-6.html#wire-transfers",
+        "part-7.html#retention",
+        "part-7.html#independent-audit"
+      ],
+      "text_sha256": {
+        "TC": "1a306caf7ce345067ede0348c58b0fc9153971999c6d16b7a11e14124cb8d3a7",
+        "EN": "09e767bd18cce69b416eea0a20aa577d647efb57be831f8a2feed997a1406676"
+      }
+    },
+    {
+      "doc": "07",
+      "filename": "07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf",
+      "scope": "CRA, BO and PPTA supervisory deficiencies and expected controls.",
+      "routes": [
+        "part-6.html#cdd",
+        "part-6.html#identity",
+        "part-6.html#representatives",
+        "part-6.html#screening"
+      ],
+      "text_sha256": {
+        "TC": "6b2ea8f37af02b12c7bb205c2861dc573910fbc04745369d775e11ddae8f7654",
+        "EN": "85677c9e208968782ecb9e62c45893796f7dd81bc74efee052579f79aa39ce93"
+      }
+    },
+    {
+      "doc": "08",
+      "filename": "08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf",
+      "scope": "Third-party payment definition, non-exhaustive flags, exceptional acceptance and control requirements.",
+      "routes": [
+        "part-6.html#third-party-payments"
+      ],
+      "text_sha256": {
+        "TC": "2fee66b98482d6198eb903304b85a492e252e6d153c97027471163101a51faa3",
+        "EN": "c011aae0d478aee648c832582e2fb5e75e91e1e6833d5109afda5ab66e00c244"
+      }
+    },
+    {
+      "doc": "09",
+      "filename": "09_High_Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021).pdf",
+      "scope": "PF institutional assessment, existing customers/businesses, sanctions and JFIU obligations.",
+      "routes": [
+        "part-1.html#international",
+        "part-1.html#sanctions",
+        "part-5.html#institutional-assessment"
+      ],
+      "text_sha256": {
+        "TC": "498bd4a41e7be4e60fb331c14061b2b535a006000be4e23aa53b630f3f2dd2b8",
+        "EN": "3784682199c3a509f305e0401442c52b9461e4023bdd42f6f4a9a7202d6139b9"
+      }
+    },
+    {
+      "doc": "10",
+      "filename": "10_Medium-Essential_Guideline on Criteria for Determining Fitness and Propriety (Apr 2018).pdf",
+      "scope": "Fitness criteria and non-exhaustive individual assessment.",
+      "routes": [
+        "part-4.html#fitness"
+      ],
+      "text_sha256": {
+        "TC": "3986315b49817d2500302fb14d6b766a19e9216946a52e9bdd4a842d0477e249",
+        "EN": "3a378faecce11ce26890b7d7fc54bf52a56665df1adfdfa3ef847bee74145fad"
+      }
+    },
+    {
+      "doc": "11",
+      "filename": "11_Medium-Essential_Supplementary Guideline on Fitness and Propriety (Jan 2020).pdf",
+      "scope": "Supplementary fitness factors, complaints/potential proceedings and financial integrity.",
+      "routes": [
+        "part-4.html#fitness"
+      ],
+      "text_sha256": {
+        "TC": "603d9a0272d9fc1dd509ce0c1db4f9b2be4d1ae4cceb541bae50b1158b9baa78",
+        "EN": "d742283d13c4685a7650c62d54cb7979f364b87745eb5dca503a6d04a5b841a1"
+      }
+    },
+    {
+      "doc": "12",
+      "filename": "12_Medium-Essential_Disciplinary Action Guideline on Pecuniary Penalty (Apr 2018).pdf",
+      "scope": "Section43 penalty scope, four factor groups, publication/current-at-conduct guidance.",
+      "routes": [
+        "part-4.html#penalty-factors"
+      ],
+      "text_sha256": {
+        "TC": "20b6ca2e167687184b0853155edaf4207a5461d4af72c38cbb6ea651f3ffb21b",
+        "EN": "7de82dc23297bc83fdf167b2f23724ab369e3f1d5f279d76cb0b139fff3e3b81"
+      }
+    },
+    {
+      "doc": "13",
+      "filename": "13_Medium-Essential_Disciplinary Fining Guideline (May 2018).pdf",
+      "scope": "Section21 penalties, four factor groups and case-specific mitigating/aggravating factors.",
+      "routes": [
+        "part-4.html#penalty-factors"
+      ],
+      "text_sha256": {
+        "TC": "02005281155be6a7c528acb7a94cbf9b5be4c1f9959437454b6031d8c0320873",
+        "EN": "74aa274da9fc9fdacc764a885797211e501a6dce2dd8b9cffa8272a83fa18ba4"
+      }
+    },
+    {
+      "doc": "14",
+      "filename": "14_Medium-Essential_Circular - ML-TF Risks of Delivery Channels (13 Dec 2021).pdf",
+      "scope": "Delivery channels, overseas agents, fund-freezing/non-performance and foreign-conduct risk.",
+      "routes": [
+        "part-6.html#delivery"
+      ],
+      "text_sha256": {
+        "TC": "88ae03601bfd2163aaa7171fcc6dc88159e1c24c87825c206c2cc38ecd8d774d",
+        "EN": "957a691aae6c32234ae7e3c4157b2b5676e7648d272bbdfb1a3062b05fbdb40b"
+      }
+    },
+    {
+      "doc": "15",
+      "filename": "15_Medium-Essential_Circular - E-submission of the Periodic Return (30 May 2025).pdf",
+      "scope": "Half-year electronic return periods, changed fields and ratios; separate deadline from05.",
+      "routes": [
+        "part-7.html#periodic-return"
+      ],
+      "text_sha256": {
+        "TC": "6503a6c2dcbde669cb809bfad922df53e6c4010888b95556583df975a91f4402",
+        "EN": "973824288c1ac155677468cb4a2da21045b81b711cb8e8f639d3b83b7af5c4ea"
+      }
+    },
+    {
+      "doc": "16",
+      "filename": "16_Medium-Essential_Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025).pdf",
+      "scope": "2025 Cap34 amendment effective date and prescribed-currency change.",
+      "routes": [
+        "part-4.html#exchange-display"
+      ],
+      "text_sha256": {
+        "TC": "f83fef9e5d4a80c35fbb3c2a3a32e7477664aef772f72c1dd8cee8126fbc6854",
+        "EN": "bffd462334ac20e9ef2d96b0db3508ce2acf0935021304d2e5bcfc9dc54ff8ae"
+      }
+    },
+    {
+      "doc": "17",
+      "filename": "17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf",
+      "scope": "Cap34 scope, transaction notes, signature copies, net rates, rescission, displays/advertising and liability.",
+      "routes": [
+        "part-3.html#core-duties",
+        "part-4.html#exchange-note",
+        "part-4.html#exchange-display"
+      ],
+      "text_sha256": {
+        "TC": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02",
+        "EN": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02"
+      }
+    },
+    {
+      "doc": "18",
+      "filename": "18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf",
+      "scope": "TBML four enhancement areas; risk-based checks and timely reporting including attempts.",
+      "routes": [
+        "part-6.html#trade-based-laundering"
+      ],
+      "text_sha256": {
+        "TC": "f57b9b72fad554b31f4fba3466a5ddece46f692cf3827c1f4055133a0d89bdfb",
+        "EN": "184f4e17f55491dafe6c4fefcaed000411d69cc2b47aadbfd344620b4cf5727f"
+      }
+    },
+    {
+      "doc": "19",
+      "filename": "19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf",
+      "scope": "Dated3July2026 FATF lists, EDD/countermeasures and increased-monitoring distinction.",
+      "routes": [
+        "part-1.html#international"
+      ],
+      "text_sha256": {
+        "TC": "6a4699cacc07bdadcf2908d22f845c3958f6067b1b2b631592483d34e306d179",
+        "EN": "d97ff8fe89bc21e7300c89f4de605c0c2256035e626021ef94d29ed70b30f3a2"
+      }
+    },
+    {
+      "doc": "20",
+      "filename": "20_Medium-Selected_Guidelines for Submission of Business Plan (Ver 12-2019).pdf",
+      "scope": "Business-plan operational, customer, financial, staffing and third-party domains.",
+      "routes": [
+        "part-5.html#business-plan"
+      ],
+      "text_sha256": {
+        "TC": "be489ef64700c69f69657c5e12a0449f30274b83932850fd126411177878521c",
+        "EN": "5b8115db9c36f805e661a570119aa490d3915b5cfa2bb0a4259ccfbfe322797a"
+      }
+    },
+    {
+      "doc": "21",
+      "filename": "21_Medium-Selected_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf",
+      "scope": "Policy content, controls/forms and role-based requirements; one-day retrieval is an example.",
+      "routes": [
+        "part-5.html#policy"
+      ],
+      "text_sha256": {
+        "TC": "26451a865f94cd84739e638f426b5f1054abc2ef3bbb01128b3218de9d92f4ee",
+        "EN": "eff8ef73f4c2349e17e6d5de1f50c7ab0b0474ed71706d295cb668d4a3d31d7c"
+      }
+    },
+    {
+      "doc": "22",
+      "filename": "22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf",
+      "scope": "Cross-boundary cash declaration overview and threshold.",
+      "routes": [
+        "part-1.html#cross-boundary-cash",
+        "part-3.html#core-duties"
+      ],
+      "text_sha256": {
+        "TC": "0c2a19f8ff7bdf2b5156b0db82123fc4dfe239b62dcdb870587b88c09ab08f3e",
+        "EN": "9a6a1a3e174d2131f2165c062e522a07a2a67a51cd160603edcdbf7746d23f8c"
+      }
+    },
+    {
+      "doc": "23",
+      "filename": "23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf",
+      "scope": "CBNI definitions/routes, exchange-rate events, exclusions, conditional settlement, seizure/detention/proceedings/release; not every procedural subsection reproduced.",
+      "routes": [
+        "part-1.html#cross-boundary-cash",
+        "part-3.html#core-duties"
+      ],
+      "text_sha256": {
+        "TC": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960",
+        "EN": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960"
+      }
+    },
+    {
+      "doc": "24",
+      "filename": "24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf",
+      "scope": "TBML definition and four non-exhaustive indicator categories; TC labelled study translation.",
+      "routes": [
+        "part-6.html#trade-based-laundering"
+      ],
+      "text_sha256": {
+        "EN": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b"
+      }
+    },
+    {
+      "doc": "25",
+      "filename": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf",
+      "scope": "2022 executive summary, methodology2.1–2.10 and MSO5.4.1–5.4.30; other sectors/statistical minutiae excluded.",
+      "routes": [
+        "part-1.html#risk-assessment"
+      ],
+      "text_sha256": {
+        "TC": "39d140261bfe1e7886bf3bbe068f2cf5de8a626bca154a2764190f73a7adb252",
+        "EN": "6b410a4644b662a0c595cc843b04730f0af50a7af4f0e129a2d5dafc6c37e254"
+      }
+    },
+    {
+      "doc": "26",
+      "filename": "26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf",
+      "scope": "UNSO/UNATMO1373 mapping, implementation gap, early-alert screening and existing offences.",
+      "routes": [
+        "part-1.html#international",
+        "part-1.html#sanctions"
+      ],
+      "text_sha256": {
+        "TC": "6829cc9518b597794287b65db41b6a8d1228a0437a8a10237b2440074ede51ee",
+        "EN": "2a44e23b7873502ddce5ee9afc5b919bee28287d08011080227b4c21e6e2ae5c"
+      }
+    }
+  ],
+  "limits": [
+    "Coverage routes and hashes do not establish semantic completeness by themselves.",
+    "Review findings and stated coverage, not a guarantee of every official question or word-for-word condensation.",
+    "Stored01–26 editions only, with dated risk/list statements and explicit25focus."
+  ]
+}

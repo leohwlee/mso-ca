@@ -1,0 +1,21 @@
+test_changed_archive_is_rejected (archive_test.ArchiveEvidenceTests.test_changed_archive_is_rejected) ... ok
+test_even_rehashed_archive_cannot_prove_wrong_original (archive_test.ArchiveEvidenceTests.test_even_rehashed_archive_cannot_prove_wrong_original) ... ok
+test_verified_archive_proves_removed_source (archive_test.ArchiveEvidenceTests.test_verified_archive_proves_removed_source) ... ok
+test_archived_source_rejected_even_if_quote_exists (scope_test.ReviewEvidenceTests.test_archived_source_rejected_even_if_quote_exists) ... ok
+test_changed_reviewed_statement_invalidates_review (scope_test.ReviewEvidenceTests.test_changed_reviewed_statement_invalidates_review) ... ok
+test_retained_explanation_cannot_change_without_evidence (scope_test.ReviewEvidenceTests.test_retained_explanation_cannot_change_without_evidence) ... ok
+test_archived_source_cannot_enter_patch (scope_test.SourceScopeTests.test_archived_source_cannot_enter_patch) ... ok
+test_english_only_source_must_disclose_study_translation (scope_test.SourceScopeTests.test_english_only_source_must_disclose_study_translation) ... ok
+test_existing_approved_item_is_accepted (scope_test.SourceScopeTests.test_existing_approved_item_is_accepted) ... ok
+test_language_override_cannot_hide_other_source_mismatch (scope_test.SourceScopeTests.test_language_override_cannot_hide_other_source_mismatch) ... ok
+test_each_part_links_to_existing_sections_and_sources (study_notes_test.SourceFirstNotesTests.test_each_part_links_to_existing_sections_and_sources) ... ok
+test_english_only_source_is_labelled_in_chinese (study_notes_test.SourceFirstNotesTests.test_english_only_source_is_labelled_in_chinese) ... ok
+test_recall_aids_do_not_remove_explanations_or_qualifiers (study_notes_test.SourceFirstNotesTests.test_recall_aids_do_not_remove_explanations_or_qualifiers) ... ok
+test_recall_tables_keep_boundaries_and_starting_events (study_notes_test.SourceFirstNotesTests.test_recall_tables_keep_boundaries_and_starting_events) ... ok
+test_rendering_has_no_bank_or_quote_dependency (study_notes_test.SourceFirstNotesTests.test_rendering_has_no_bank_or_quote_dependency) ... ok
+test_stage_names_are_visible_in_both_reading_languages (study_notes_test.SourceFirstNotesTests.test_stage_names_are_visible_in_both_reading_languages) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 6.478s
+
+OK

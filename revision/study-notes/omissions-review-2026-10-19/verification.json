@@ -1,0 +1,60 @@
+[
+  {
+    "command": "python docs/build_catalog.py --check",
+    "exit_code": 0,
+    "output": "Checked 26 selected publications, 21 reference publications, all original hashes and four directories.\n"
+  },
+  {
+    "command": "python revision/study-notes/build.py --check",
+    "exit_code": 0,
+    "output": "{\"status\": \"checked\", \"parts\": 7, \"sections\": 75, \"points\": 532, \"sources\": 26}\n"
+  },
+  {
+    "command": "python revision/study-notes/gap_check.py --check",
+    "exit_code": 0,
+    "output": "Bank gap audit: 525 identifiers checked; no bank content supplied to notes.\n"
+  },
+  {
+    "command": "python bank/audit/active_scope.py --check",
+    "exit_code": 0,
+    "output": "{\"questions\": 525, \"baseline_questions\": 357, \"approved_documents\": \"01–26\", \"module_counts\": {\"1\": 60, \"2\": 75, \"3\": 65, \"4\": 80, \"5\": 80, \"6\": 100, \"7\": 65}}\n"
+  },
+  {
+    "command": "python bank/audit/render_active_scope.py --check",
+    "exit_code": 0,
+    "output": "Current source accounting is consistent.\n"
+  },
+  {
+    "command": "python bank/audit/report.py --check",
+    "exit_code": 0,
+    "output": "{\"topic_count\": 242, \"mapped_questions\": 297, \"source_quotes\": 246, \"evidence_references\": 1922, \"current_questions\": 357, \"current_statements\": 1777, \"module_counts\": {\"1\": 32, \"2\": 53, \"3\": 43, \"4\": 59, \"5\": 56, \"6\": 74, \"7\": 40}}\n"
+  },
+  {
+    "command": "python bank/audit/terms_report.py --check",
+    "exit_code": 0,
+    "output": "{\"rows\": 188, \"quotes\": 202, \"evidence\": 1066, \"statuses\": {\"covered\": 104, \"reference\": 18, \"partial\": 59, \"missing\": 7}, \"current_questions\": 357, \"current_statements\": 1777}\n"
+  },
+  {
+    "command": "python bank/audit/p1_report.py --check",
+    "exit_code": 0,
+    "output": "{\"tasks\": 16, \"new_questions\": 18, \"new_statements\": 79, \"completed_p1_tasks\": 16, \"coverage_links\": 139}\n"
+  },
+  {
+    "command": "python bank/audit/remaining_report.py --check",
+    "exit_code": 0,
+    "output": "{\"written_questions\": 31, \"written_statements\": 155, \"new_questions\": 17, \"net_questions\": 19, \"net_statements\": 99, \"completed_tasks\": 20, \"coverage_links\": 176, \"specialist_links\": 16}\n"
+  },
+  {
+    "command": "python unittest discovery (workspace-local temporary directory)",
+    "tests": 16,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  {
+    "check": "protected sources, bank, app and earlier audit evidence unchanged",
+    "files": 362,
+    "changed": [],
+    "passed": true
+  }
+]

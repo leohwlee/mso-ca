@@ -4,6 +4,11 @@
 
 ## Download and open
 
+To read the seven-part notes and practise, choose **mso-study-bundle.zip** from the
+[latest release](https://github.com/leohwlee/mso-ca/releases/latest), extract everything
+and open `index.html`. Keep the folder structure: it includes the practice app and
+the cited 01–26 originals. The app's study-note links require this bundle.
+
 Download **mso-ca.html** from the [latest release](https://github.com/leohwlee/mso-ca/releases/latest).
 Choose that asset, rather than GitHub's source-code ZIP. Open the downloaded
 file in a browser. Everything required for the app is embedded in the file;

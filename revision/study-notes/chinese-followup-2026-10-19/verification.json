@@ -1,0 +1,36 @@
+[
+  {
+    "command": "python docs/build_catalog.py --check",
+    "exit_code": 0,
+    "output": "Checked 26 selected publications, 21 reference publications, all original hashes and four directories.\n"
+  },
+  {
+    "command": "python revision/study-notes/build.py --check",
+    "exit_code": 0,
+    "output": "{\"status\": \"checked\", \"parts\": 7, \"sections\": 75, \"points\": 497, \"sources\": 26}\n"
+  },
+  {
+    "command": "python revision/study-notes/gap_check.py --check",
+    "exit_code": 0,
+    "output": "Bank gap audit: 525 identifiers checked; no bank content supplied to notes.\n"
+  },
+  {
+    "command": "python unittest discovery (workspace-local temporary directory)",
+    "tests": 16,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  {
+    "check": "original outside-notes baseline, including questions/answers/IDs/sources",
+    "files": 348,
+    "changed": [],
+    "passed": true
+  },
+  {
+    "check": "follow-up baseline protected files and prior review evidence",
+    "files": 54,
+    "changed": [],
+    "passed": true
+  }
+]

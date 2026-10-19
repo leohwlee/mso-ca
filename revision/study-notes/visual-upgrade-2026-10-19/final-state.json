@@ -1,0 +1,103 @@
+{
+  "files": {
+    "revision/study-notes/build.py": "448d02325fd8a5906f4c7ad52448e791c07a264e91e0b7c988aecc94faef5fae",
+    "revision/study-notes/completeness-audit.json": "bf76a3d84262077208c42f848de616760c26f315da6444044d8efd7b0e223904",
+    "revision/study-notes/completeness-circulars-final-review.json": "99514887bc2a93b4f34fa836a6d5c817ba6e0089c39b6a4b311bb73d64732248",
+    "revision/study-notes/completeness-circulars-review.json": "f5d68b6ba9544bf2a7b89a0ca4763b8894b392bef0c0e802bdb689426e9da2bf",
+    "revision/study-notes/completeness-final-review.json": "02641df8a3646936dd9fc026b9251e5714bf55354950599fe386d3299720dc11",
+    "revision/study-notes/completeness-guideline-final-review.json": "e72f2db68ecd3e10bfa558cc0213022f505269c67cd5df3e993216b2a14ab1cf",
+    "revision/study-notes/completeness-guideline-review.json": "1bc111b1a437d604689e703748c01e0961e6a0e6fac45bb978cc17e6a04c642f",
+    "revision/study-notes/COMPLETENESS.md": "bca7c9274c86c09bcf2ae27b3e4d4a119eaad286549cdc245e04573d2f150ff8",
+    "revision/study-notes/coverage.json": "669bbb3cc963df8e6cc1348a2cb3cc3ecf1a45e01bfa9f5f9f0a5bb231d91efb",
+    "revision/study-notes/essentials.py": "45983361f496bd9ba35d6d0076cb2a138a4e310ed3f2bdfb81069e65f04d8011",
+    "revision/study-notes/gap-audit.json": "69cc09e84f0cb27e792f38965aaa515edfd930f905dbdfc6c7f9719a1f0ff779",
+    "revision/study-notes/gap_check.py": "d7942fcbf0c774ad209275ae714d06e04925cc64de8f86661f76a795ffbfe397",
+    "revision/study-notes/index.html": "52810d781112b7747d32fbce5414e197a51d63204d8b8bda92c119c17935f3c4",
+    "revision/study-notes/memory-review.json": "630b045158ca1d75209d813422d44044518bd885edb30317d06e7d75ab79221b",
+    "revision/study-notes/memory_panels.py": "6d6bfd4e6270b3802fbdcf4bb5a05106e9feef3aa0fa2bc8bf20d47e42a600d7",
+    "revision/study-notes/model.py": "32c6f6096e47fc7f65b1debfdbe8ccf5025d009e9fd59eee1f8379b6c8f479aa",
+    "revision/study-notes/part-1.html": "52810d781112b7747d32fbce5414e197a51d63204d8b8bda92c119c17935f3c4",
+    "revision/study-notes/part-2.html": "5ab603b38f4e0a77a168bdff4c91bf57c830e82975bcd16b689853134320d794",
+    "revision/study-notes/part-3.html": "35216601efdc5346fcdd49e30d098d9c0849b316bf8b597903672299a3518d8b",
+    "revision/study-notes/part-4.html": "9d4fed609141089c0cd119730cce94a9de0cb8c766a1a67c13d98f1832f5bcf9",
+    "revision/study-notes/part-5.html": "6083e992819d54b1e453b4f5f704eb731f892d2ecf0736a1d510813ce6ec6cf4",
+    "revision/study-notes/part-6.html": "5c664b87c2c674edd1aad6022aec127dd2e61ffe5dd04a9d9b30ad227200c92f",
+    "revision/study-notes/part-7.html": "71e3766be97b441b2b18223baab4c1ef83465cfaa6e497a163c3975999758ac0",
+    "revision/study-notes/part1.py": "2b328a9830d5d7831542ef6c50d3349728d9209f9ce95d69c4dea2dcc9d0bb7a",
+    "revision/study-notes/part2.py": "6870677a517d882fa5f08364cd55a805351e532077ee19ef65d7089d970dfbd9",
+    "revision/study-notes/part3.py": "8882ec4f8929ea1d925103080a37a4af942cdf57d5f67110390a96ccf4e4e9fb",
+    "revision/study-notes/part4.py": "2afb3cfa22202d5efa80cb4fadedd1278b9395270d0322a15a24c577f9cb0a98",
+    "revision/study-notes/part5.py": "d22d5e573e9ae04377a005b3d7c1fa4039624b2c27336bff92888a47169628e6",
+    "revision/study-notes/part6.py": "66aa4e382ba5381553f0402a7ce71b0bd28a2673586dc00e98ef5b0d8e3434c7",
+    "revision/study-notes/part7.py": "3f2f04b479e2fe54273e5641abca1c1aeaec71023a0087908a23424991a438c8",
+    "revision/study-notes/QA.md": "cdfc46868ec3aeb9662a31210cea4135789c64c368c8a41b6b5a9c433bed924e",
+    "revision/study-notes/README.md": "382c943fa4c09125429eb3347eaeafb0fe23ba0325199d5a9706353d71b116f2",
+    "revision/study-notes/source-review.json": "284597b54755dc11b1c0fc0ffaf5a9632a15ca7dcb67ea0c72e1e645eac48169",
+    "revision/study-notes/style.css": "d8b2edf61208d857d82145e169659701415a350d95f20ace5755495c9333c47e",
+    "revision/study-notes/verification.json": "9de5e854596fbca9ac300e4d2f722421ceb1fdce08bb088580e937fc488b2931",
+    "revision/study-notes/visual_panels.py": "8f70f31fded52fd117d794b448c09e0737978e2ab78c3f26bc191b858f992fa8",
+    "revision/study-notes/visual_render.py": "af8d55ef429df5ea2b476b2f4aae5b126cd63b3edf226604576eb404c727b08b",
+    "DESIGN.md": "c1b0f957f9f8b5ad6a367f28cb7ccbd57389912d0156a4d6f226b8a6191c843e",
+    ".impeccable/design.json": "fc47abbd6256b395e7c081b325926fbf7157bf551ad971308bc1f7dbc40a8d50"
+  },
+  "checks": {
+    "commands": 12,
+    "pages": 42,
+    "figures": 198,
+    "practice": 21,
+    "index": 6
+  },
+  "limitations": "Structural/source-route checks and targeted source-meaning review; no learner outcome study or blanket syllabus certification.",
+  "independent_review_binding": [
+    {
+      "path": "revision/study-notes/visual_panels.py",
+      "matches_final": false
+    },
+    {
+      "path": "revision/study-notes/visual_render.py",
+      "matches_final": true
+    },
+    {
+      "path": "revision/study-notes/part1.py",
+      "matches_final": true
+    },
+    {
+      "path": "revision/study-notes/part-1.html",
+      "matches_final": true
+    },
+    {
+      "path": "revision/study-notes/part-2.html",
+      "matches_final": true
+    },
+    {
+      "path": "revision/study-notes/part-3.html",
+      "matches_final": false
+    },
+    {
+      "path": "revision/study-notes/part-4.html",
+      "matches_final": true
+    },
+    {
+      "path": "revision/study-notes/part-5.html",
+      "matches_final": true
+    },
+    {
+      "path": "revision/study-notes/part-6.html",
+      "matches_final": true
+    },
+    {
+      "path": "revision/study-notes/part-7.html",
+      "matches_final": true
+    }
+  ],
+  "independent_review_addendum_binding": [
+    {
+      "path": "revision/study-notes/visual_panels.py",
+      "matches_final": true
+    },
+    {
+      "path": "revision/study-notes/part-3.html",
+      "matches_final": true
+    }
+  ]
+}

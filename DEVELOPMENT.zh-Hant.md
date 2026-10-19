@@ -14,7 +14,7 @@
 | `tests/` | JavaScript 功能測試及 Python 來源、覆核約束。 |
 | `bank/` | 出題工具、停用題號及覆核證據。 |
 | `docs/` | 原始文件、擷取文字、引文及必要說明。 |
-| `revision/` | 只保留舊資料歸檔入口及仍適用的文件矛盾裁決。 |
+| `revision/` | 七部分溫習資料、仍可使用的第6部分樣章網址、舊資料歸檔入口及文件矛盾裁決。 |
 
 Go 是打包及品質檢查工具，並非 App 後端。把現有測試改寫成另一種語言只會重做已正常運作的檢查。
 JavaScript 負責 App 操作；Python 負責來源擷取、出題及覆核記錄。
@@ -24,6 +24,7 @@ JavaScript 負責 App 操作；Python 負責來源擷取、出題及覆核記錄
 安裝 Go 1.27 或以上、Node.js 22 或以上及 Python 3.10 或以上，從倉庫根目錄執行：
 
 ```bash
+go run . -export-html dist/mso-ca.html
 go vet ./...
 go test ./...
 node --test tests/*.test.cjs
@@ -37,6 +38,12 @@ python bank/audit/p1_report.py --check
 python bank/audit/remaining_report.py --check
 go run . -export-html dist/mso-ca.html
 ```
+
+原文編寫的七部分筆記先執行 `python revision/study-notes/build.py`，再用
+`python revision/study-notes/gap_check.py` 另外作題庫查漏；正文生成器不讀題庫。
+兩個命令加上 `--check` 可檢查輸出一致性。舊Part 6樣章另以
+`python revision/part6-sample/build.py` 維護。CI與公開發佈流程亦會核對七部分閱讀頁，
+並建立完整離線學習包。
 
 Python 工具一般只用標準函式庫；重新擷取來源文字才需要 PyMuPDF。
 Windows 若 `python` 開啟 Store，可改用 `py -3`；中文輸出有問題時加 `-X utf8`。
@@ -64,5 +71,8 @@ git push origin vX.Y.Z
 
 把 `vX.Y.Z` 換成實際版本。自動流程會檢查並從該次提交建立 `mso-ca.html`。
 確認 CI 及 Release 成功，再下載附件核對；不可覆蓋已發佈標籤。
-舊溫習資料仍可從既有版本及[存檔](revision/README.md)取回，後續版本只發佈考試 App。
+舊溫習資料仍可從既有版本及[存檔](revision/README.md)取回，不再重建。
+v1.10.0起發佈 `mso-ca.html` 和 `mso-study-bundle.zip`；完整學習包含新版七部分筆記、
+練習App及由目錄解析的01–26原件。用 `python scripts/build_study_bundle.py` 建置，
+加 `--check` 核對全部成員及閱讀頁連結。全新工作區須先匯出App，再執行Python連結檢查。
 `dist/` 及 Python 快取是本機產物。

@@ -1,0 +1,23 @@
+{
+  "review": "Fee formula addendum to visual-semantics-final-review.json",
+  "date": "2026-10-19",
+  "result": "Confirmed: corrected bilingual formula includes additional-premises charges and agrees with stored Schedule 3 items 4 and 5 and Part 3 fees text",
+  "source": "docs/text/EN/04.txt, Schedule 3 items 4 and 5, lines 19461-19483",
+  "manuscript": "revision/study-notes/part3.py:114",
+  "change": "Application base fee + additional-premises charges + applicable per-person fit-and-proper test charges",
+  "verified_amounts": [
+    "Grant: 3810 + 2440 per additional premises + 945 per tested person",
+    "Renewal: 910 + 410 per additional premises + 945 per tested person"
+  ],
+  "generated_bilingual_text_verified": true,
+  "files": [
+    {
+      "path": "revision/study-notes/visual_panels.py",
+      "sha256": "8f70f31fded52fd117d794b448c09e0737978e2ab78c3f26bc191b858f992fa8"
+    },
+    {
+      "path": "revision/study-notes/part-3.html",
+      "sha256": "35216601efdc5346fcdd49e30d098d9c0849b316bf8b597903672299a3518d8b"
+    }
+  ]
+}

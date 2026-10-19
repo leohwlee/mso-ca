@@ -1,0 +1,70 @@
+{
+  "review": "Independent visual-panel legal-meaning review",
+  "date": "2026-10-19",
+  "result": "No remaining explicit contradiction found in the reviewed scope after corrections",
+  "scope": [
+    "cash-scope and statutory batch aggregation",
+    "shell-bank definition AND conditions",
+    "inspection versus investigation",
+    "CDD triggers and extent including tipping-off exception",
+    "PEP categories and common AND measures",
+    "wire information AND/OR and no-account condition",
+    "specified-decision effective date and review",
+    "STR responsibilities and retention clocks"
+  ],
+  "sources": [
+    "docs/text/EN/03.txt",
+    "docs/text/EN/04.txt",
+    "docs/text/EN/23.txt"
+  ],
+  "confirmed_corrections": [
+    "Cap629 section10 directly engaged carrier or forwarder, transports OR arranges transport, including multiple-forwarder restriction",
+    "Schedule2 section17 shell-bank definition and physical-presence test",
+    "Sections9 and11 inspection and investigation grounds distinguished",
+    "CDD beneficial-owner and purpose conditions, representative reasonable verification, tipping-off exception",
+    "Wire unique reference only when no account exists"
+  ],
+  "limitation": "Scoped source-faithfulness review of changed diagrams and related cargo wording; not blanket certification of all seven manuscripts or current-law verification",
+  "files": [
+    {
+      "path": "revision/study-notes/visual_panels.py",
+      "sha256": "f713ad2fe54775ca2fdc2c63484bf72957ee6c0a2c898f8aca5ede67308bb9e8"
+    },
+    {
+      "path": "revision/study-notes/visual_render.py",
+      "sha256": "af8d55ef429df5ea2b476b2f4aae5b126cd63b3edf226604576eb404c727b08b"
+    },
+    {
+      "path": "revision/study-notes/part1.py",
+      "sha256": "2b328a9830d5d7831542ef6c50d3349728d9209f9ce95d69c4dea2dcc9d0bb7a"
+    },
+    {
+      "path": "revision/study-notes/part-1.html",
+      "sha256": "52810d781112b7747d32fbce5414e197a51d63204d8b8bda92c119c17935f3c4"
+    },
+    {
+      "path": "revision/study-notes/part-2.html",
+      "sha256": "5ab603b38f4e0a77a168bdff4c91bf57c830e82975bcd16b689853134320d794"
+    },
+    {
+      "path": "revision/study-notes/part-3.html",
+      "sha256": "abcb91c5d309c5c6cf75435fc3d9673c0eefa54e5edd746dc9cdceaa4808fd1d"
+    },
+    {
+      "path": "revision/study-notes/part-4.html",
+      "sha256": "9d4fed609141089c0cd119730cce94a9de0cb8c766a1a67c13d98f1832f5bcf9"
+    },
+    {
+      "path": "revision/study-notes/part-5.html",
+      "sha256": "6083e992819d54b1e453b4f5f704eb731f892d2ecf0736a1d510813ce6ec6cf4"
+    },
+    {
+      "path": "revision/study-notes/part-6.html",
+      "sha256": "5c664b87c2c674edd1aad6022aec127dd2e61ffe5dd04a9d9b30ad227200c92f"
+    },
+    {
+      "path": "revision/study-notes/part-7.html",
+      "sha256": "71e3766be97b441b2b18223baab4c1ef83465cfaa6e497a163c3975999758ac0"
+    }
+  ]
+}

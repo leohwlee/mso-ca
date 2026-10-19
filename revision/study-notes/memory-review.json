@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-10-19T03:27:22.376501+00:00",
+  "reviewer": {
+    "role": "independent source-faithfulness sub-agent",
+    "agent": "/root/study_source_review",
+    "model": "Inherited parent model; exact runtime model identifier not exposed. This is not cross-model verification."
+  },
+  "verdict": "All ten reported recall-panel findings resolved. No unresolved material error identified within this bounded semantic review.",
+  "status_counts": {
+    "resolved": 10,
+    "partial": 0,
+    "unresolved": 0
+  },
+  "question_bank_used": false,
+  "content_edited_by_reviewer": false,
+  "tests_or_rendering_run_by_reviewer": false,
+  "bindings": {
+    "memory_panels_sha256": "51377f4fe7a8c7a788af5e70b42fb6533f60fe68d77b3a676c897e822d75434e",
+    "manuscript_sha256": {
+      "revision/study-notes/part1.py": "5efd10c9a93b9759e2d97e62787b026ee82531cd94dee5e2e8161eadcd22f9f1",
+      "revision/study-notes/part2.py": "7e7c2a63d1c855408eb8a3d6c78a56bf2b0501ea9cfc8fdb91662604a460976b",
+      "revision/study-notes/part3.py": "7c2f932a4cde10fa87e4ab261db4c620c9a37358077c729b8982994935f93332",
+      "revision/study-notes/part4.py": "48e115717c291d49cde87e84759df973888ecc6775ceae1f8183191f5afe6d24",
+      "revision/study-notes/part5.py": "1da26f2a2a99e55d189ac8939f20d9010759ef3d02ac8d8ba6a52f7f9d323899",
+      "revision/study-notes/part6.py": "ab00b7f823ed977ee961b655193886f41015b5a5675e528aa5b6a17c66eba4de",
+      "revision/study-notes/part7.py": "9cb8367957cb53d135eb01d8f8866e15670c184da686507a69e19787ee2de7cc"
+    },
+    "relevant_source_text_sha256": {
+      "docs/text/EN/01.txt": "908295f836745a31712fbc0ded041d47434212f2ea63400862414bbd5923b0d2",
+      "docs/text/TC/01.txt": "d5fa00d8625ab44b0201637cf5fe79d7f2c4cd7e269819fdf29b5b36521be4de",
+      "docs/text/EN/02.txt": "41ff76f531905650e4fb070d14575df4e51ae172fcacc3be4838f874bcdb977f",
+      "docs/text/TC/02.txt": "c45c615e0108d20e2696de9601b3e836a4802c2357f0bd8607b82907df32c337",
+      "docs/text/EN/03.txt": "6c602e7e4d82a4cf5bbd2a57b9e3fb5b8c20f9e4785c04a130baff34ab53d9ab",
+      "docs/text/TC/03.txt": "a22ad6aac57c9a85513ba3b1d3f44d8edd206b5278728a79454a353738d6f1ad",
+      "docs/text/EN/04.txt": "916a55f448f988bf51d814da36249414c659eb07f1b148da7bfbfc4269811aa1",
+      "docs/text/TC/04.txt": "4cc88b13d23b8e89fa3a6ce52b4041027d555289c0569421958ef0ae676af628",
+      "docs/text/EN/05.txt": "2491f72007b9c5efcd3d6c00b4f8ec6c669514c395e468e7b654ad745c0623c8",
+      "docs/text/TC/05.txt": "7b2521e94367502db8a2a4223be0ca07e849630f662abc40b20a40c6b1ae900e",
+      "docs/text/EN/06.txt": "09e767bd18cce69b416eea0a20aa577d647efb57be831f8a2feed997a1406676",
+      "docs/text/TC/06.txt": "1a306caf7ce345067ede0348c58b0fc9153971999c6d16b7a11e14124cb8d3a7",
+      "docs/text/EN/07.txt": "85677c9e208968782ecb9e62c45893796f7dd81bc74efee052579f79aa39ce93",
+      "docs/text/TC/07.txt": "6b2ea8f37af02b12c7bb205c2861dc573910fbc04745369d775e11ddae8f7654",
+      "docs/text/EN/09.txt": "3784682199c3a509f305e0401442c52b9461e4023bdd42f6f4a9a7202d6139b9",
+      "docs/text/TC/09.txt": "498bd4a41e7be4e60fb331c14061b2b535a006000be4e23aa53b630f3f2dd2b8",
+      "docs/text/EN/15.txt": "973824288c1ac155677468cb4a2da21045b81b711cb8e8f639d3b83b7af5c4ea",
+      "docs/text/TC/15.txt": "6503a6c2dcbde669cb809bfad922df53e6c4010888b95556583df975a91f4402",
+      "docs/text/EN/17.txt": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02",
+      "docs/text/TC/17.txt": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02",
+      "docs/text/EN/19.txt": "d97ff8fe89bc21e7300c89f4de605c0c2256035e626021ef94d29ed70b30f3a2",
+      "docs/text/TC/19.txt": "6a4699cacc07bdadcf2908d22f845c3958f6067b1b2b631592483d34e306d179",
+      "docs/text/EN/22.txt": "9a6a1a3e174d2131f2165c062e522a07a2a67a51cd160603edcdbf7746d23f8c",
+      "docs/text/TC/22.txt": "0c2a19f8ff7bdf2b5156b0db82123fc4dfe239b62dcdb870587b88c09ab08f3e",
+      "docs/text/EN/23.txt": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960",
+      "docs/text/TC/23.txt": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960",
+      "docs/text/EN/26.txt": "2a44e23b7873502ddce5ee9afc5b919bee28287d08011080227b4c21e6e2ae5c",
+      "docs/text/TC/26.txt": "6829cc9518b597794287b65db41b6a8d1228a0437a8a10237b2440074ede51ee"
+    },
+    "conflict_decisions_sha256": "f57cd8caf072182dcd99454eac37434125a3508f84608e25e26967010e1f7eed",
+    "historical_source_review_sha256": "284597b54755dc11b1c0fc0ffaf5a9632a15ca7dcb67ea0c72e1e645eac48169"
+  },
+  "historical_review_preserved": true,
+  "changes_since_historical_manuscript_binding": {
+    "revision/study-notes/part2.py": {
+      "prior_review_sha256": "4f2a3f83a0487c34f9ff9ba6d1de958d0df3111179e69737d18d6ab90cc38de4",
+      "current_sha256": "7e7c2a63d1c855408eb8a3d6c78a56bf2b0501ea9cfc8fdb91662604a460976b"
+    },
+    "revision/study-notes/part4.py": {
+      "prior_review_sha256": "15f91d1cf878741ad7bc49e025847916e3c7ae99a443ad16654bfa3e49d52a3a",
+      "current_sha256": "48e115717c291d49cde87e84759df973888ecc6775ceae1f8183191f5afe6d24"
+    },
+    "revision/study-notes/part6.py": {
+      "prior_review_sha256": "bfceea9ecf73573d0dfa2af957482d47cf332e6670fbeaa7f234458c44362e2b",
+      "current_sha256": "ab00b7f823ed977ee961b655193886f41015b5a5675e528aa5b6a17c66eba4de"
+    }
+  },
+  "scope": {
+    "new_material": "Read bilingual substantive table/diagram claims across all seven Parts in memory_panels.py, including notes and condition cells. Independently compared concepts, thresholds/operators, actor scope, deadlines, retention, CDD/SDD/EDD, PEPs, wire exceptions and statutory-defence conditions with the relevant stored deciding passages. No bank-derived content or answer-key review.",
+    "panels_reviewed": [
+      {
+        "part": 1,
+        "section": "money-laundering",
+        "id": "three-stages",
+        "kind": "sequence"
+      },
+      {
+        "part": 1,
+        "section": "terrorist-financing",
+        "id": "ml-tf-pf",
+        "kind": "table"
+      },
+      {
+        "part": 1,
+        "section": "international",
+        "id": "risk-lists",
+        "kind": "table"
+      },
+      {
+        "part": 1,
+        "section": "cross-boundary-cash",
+        "id": "cash-routes",
+        "kind": "table"
+      },
+      {
+        "part": 2,
+        "section": "changes",
+        "id": "licence-clocks",
+        "kind": "table"
+      },
+      {
+        "part": 2,
+        "section": "discipline",
+        "id": "penalty-ceilings",
+        "kind": "table"
+      },
+      {
+        "part": 2,
+        "section": "review",
+        "id": "review-clocks",
+        "kind": "table"
+      },
+      {
+        "part": 3,
+        "section": "core-duties",
+        "id": "money-boundaries",
+        "kind": "table"
+      },
+      {
+        "part": 3,
+        "section": "definitions",
+        "id": "ownership-boundary",
+        "kind": "table"
+      },
+      {
+        "part": 3,
+        "section": "fees",
+        "id": "fee-components",
+        "kind": "table"
+      },
+      {
+        "part": 4,
+        "section": "premises",
+        "id": "three-places",
+        "kind": "table"
+      },
+      {
+        "part": 4,
+        "section": "assessment",
+        "id": "assessment-pass",
+        "kind": "pass-rule"
+      },
+      {
+        "part": 4,
+        "section": "assessment",
+        "id": "assessment-clocks",
+        "kind": "table"
+      },
+      {
+        "part": 4,
+        "section": "exchange-note",
+        "id": "exchange-rights",
+        "kind": "table"
+      },
+      {
+        "part": 5,
+        "section": "risk-based",
+        "id": "risk-levels",
+        "kind": "table"
+      },
+      {
+        "part": 5,
+        "section": "institutional-assessment",
+        "id": "review-frequency",
+        "kind": "table"
+      },
+      {
+        "part": 5,
+        "section": "roles",
+        "id": "governance-roles",
+        "kind": "table"
+      },
+      {
+        "part": 6,
+        "section": "cdd",
+        "id": "four-cdd-measures",
+        "kind": "table"
+      },
+      {
+        "part": 6,
+        "section": "identity",
+        "id": "party-roles",
+        "kind": "table"
+      },
+      {
+        "part": 6,
+        "section": "enhanced",
+        "id": "sow-sof",
+        "kind": "table"
+      },
+      {
+        "part": 6,
+        "section": "simplified",
+        "id": "due-diligence-levels",
+        "kind": "table"
+      },
+      {
+        "part": 6,
+        "section": "peps",
+        "id": "pep-categories",
+        "kind": "table"
+      },
+      {
+        "part": 6,
+        "section": "wire-transfers",
+        "id": "transfer-information",
+        "kind": "table"
+      },
+      {
+        "part": 6,
+        "section": "intermediaries",
+        "id": "reliance-outsourcing",
+        "kind": "table"
+      },
+      {
+        "part": 7,
+        "section": "retention",
+        "id": "retention-clocks",
+        "kind": "table"
+      },
+      {
+        "part": 7,
+        "section": "after-report",
+        "id": "report-consent-defence",
+        "kind": "table"
+      },
+      {
+        "part": 7,
+        "section": "periodic-return",
+        "id": "return-period-deadline",
+        "kind": "table"
+      }
+    ],
+    "focused_existing_prose": "Newly reviewed existing prose is limited to Part2/Part4 cessation start-day precision, Part2 daily-penalty maxima/remedial-deadline precision, and the Part6 wire-transfers domestic-originator abbreviation clause (recipient data, traceability, absent-account reference condition, exact requestor and receipt-based three-business-day clock). Current hashes of all seven identify inputs; they do not assert a new full review of unchanged prose.",
+    "primary_passages": [
+      "01 assessment format/pass rules, paragraphs4.5-4.6,8.2,12.1-12.4",
+      "03 paragraphs1.9-1.13 and relevant chapter6 sanctions;2.2-2.12 institutional/new-product risk;3.5-3.13 governance/audit;4.1 CDD;4.3 connected parties;4.4 BO;4.8 SDD;4.9 EDD/PEP/SOW/SOF;4.11 reliance;5.3 annual high-risk review;8.3-8.8 records;9.7 training;10.5-10.12 wire information;chapter11 remittance",
+      "04 sections21,25,30-31,35-43,59,69,75;Schedule2 definitions,3(1B),4,9-10,12-13,15,18,20;Schedule3 fees",
+      "05 paragraphs4.4-4.11 premises,4.15 appointment basis,11.2 return deadline",
+      "06 relevant FAQ A9,A12,A16-A17,A28",
+      "15 periodic-return main text;17 sections3-6 consumer protection;19 FATF circular classifications;22-23 applicable CBNI declarations/definitions/routes;09 and26 sanctions/PF context"
+    ],
+    "lexical_emphasis": "Read the selective bilingual emphasis labels as lexical anchors. This semantic review does not certify the rendering algorithm, highlighting boundaries, visual presentation or accessibility."
+  },
+  "findings": [
+    {
+      "id": "MP01",
+      "target": "licence-clocks; part2.py changes; part4.py licensing-actions",
+      "finding": "Preserve seven days BEGINNING ON cessation date rather than afterward.",
+      "deciding_passage": "04 section 41(1)(b)",
+      "status": "resolved",
+      "resolution": "Final bilingual text read back against deciding passage."
+    },
+    {
+      "id": "MP02",
+      "target": "penalty-ceilings; part2.py discipline",
+      "finding": "Daily HK$100,000/HK$10,000 are maxima, after the specified remedial deadline, not fixed sums.",
+      "deciding_passage": "04 sections 21(4),43(4)",
+      "status": "resolved",
+      "resolution": "Final bilingual text read back against deciding passage."
+    },
+    {
+      "id": "MP03",
+      "target": "fee-components",
+      "finding": "Approval-fee label must identify ultimate owner rather than any owner.",
+      "deciding_passage": "04 Schedule 3 item 7",
+      "status": "resolved",
+      "resolution": "Final bilingual text read back against deciding passage."
+    },
+    {
+      "id": "MP04",
+      "target": "money-boundaries",
+      "finding": "Preserve licensed-VAS-provider HK$8,000 non-transfer occasional-transaction exception alongside general HK$120,000.",
+      "deciding_passage": "04 Schedule 2 section 3(1B)",
+      "status": "resolved",
+      "resolution": "Final bilingual text read back against deciding passage."
+    },
+    {
+      "id": "MP05",
+      "target": "due-diligence-levels / General low-risk simplification",
+      "finding": "Stop SDD when risk is no longer low, not for every risk increase.",
+      "deciding_passage": "03 paragraph 4.8.3(a)",
+      "status": "resolved",
+      "resolution": "Final bilingual text read back against deciding passage."
+    },
+    {
+      "id": "MP06",
+      "target": "due-diligence-levels / Other high-risk relationship",
+      "finding": "Mandatory senior approval PLUS one of two alternatives: SOW AND SOF; OR other additional mitigation. Chinese grouping must be unambiguous.",
+      "deciding_passage": "04 Schedule 2 section 15(a),(b)",
+      "status": "resolved",
+      "resolution": "Final bilingual text read back against deciding passage."
+    },
+    {
+      "id": "MP07",
+      "target": "reliance-outsourcing",
+      "finding": "An intermediary USUALLY has an existing independent relationship; do not invent an absolute eligibility condition.",
+      "deciding_passage": "03 paragraph 4.11.1",
+      "status": "resolved",
+      "resolution": "Final bilingual text read back against deciding passage."
+    },
+    {
+      "id": "MP08",
+      "target": "transfer-information / Domestic-wire information exception; part6.py wire-transfers domestic-wire clause",
+      "finding": "Abbreviate only originator information to a traceable account number, using unique reference only if no account; required recipient data remain. Full originator information goes on request to the receiving-next institution/CCE within three business days after request receipt, LEA immediately.",
+      "deciding_passage": "03 paragraphs 10.11-10.12 and footnote 71;04 Schedule 2 section 12(6)",
+      "status": "resolved",
+      "resolution": "Final bilingual panel and matching Part6 clause read back against03 paragraphs10.11-10.12; absent-account condition and receipt-based clock retained."
+    },
+    {
+      "id": "MP09",
+      "target": "governance-roles / Senior management",
+      "finding": "Preserve as-far-as-practicable qualification for enabling CO/MLRO resources/access.",
+      "deciding_passage": "03 paragraph 3.8",
+      "status": "resolved",
+      "resolution": "Final bilingual text read back against deciding passage."
+    },
+    {
+      "id": "MP10",
+      "target": "three-places / Business premises",
+      "finding": "Mixed premises require every occupant written consent to authorized entry, not merely unspecified consent.",
+      "deciding_passage": "04 section 30(3)(b)(ii);05 paragraph 4.6",
+      "status": "resolved",
+      "resolution": "Final bilingual text read back against deciding passage."
+    }
+  ],
+  "limitations": [
+    "Bounded independent agent review, not human legal advice or cross-model certification.",
+    "All new recall panels were read, but the entire01-26 source corpus was not re-read page by page. Source hashes identify editions and are not claims of exhaustive source coverage.",
+    "This record does not supersede or overwrite the historical source-review.json. Unchanged manuscript prose was not re-certified by this pass.",
+    "Stored repository editions and settled conflicts were used; current external legislation and risk lists were not researched.",
+    "Tables are supplements to the visible full notes. No claim that the new panels alone exhaust every applicable statutory rule or syllabus concept.",
+    "No question-bank edits, semantic coverage certification of all questions, rendered-HTML review or test execution was performed by this reviewer.",
+    "Bindings apply to exact raw bytes. Subsequent material content edits require renewed bounded review."
+  ],
+  "followup_reviews": [
+    {
+      "reviewed_at_utc": "2026-10-19T03:27:22.376501+00:00",
+      "scope": "Single domestic-wire clause in part6.py wire-transfers and corresponding transfer-information recall row only.",
+      "deciding_passage": "03 paragraphs10.11-10.12, with required recipient information preserved from paragraph10.6.",
+      "result": "Resolved. Originator information alone may be abbreviated; account number must be traceable; a unique reference is used only without an account; recipient data remain; full originator data go to the receiving-next institution/CCE within three business days after receiving request, and to law enforcement immediately.",
+      "prior_current_part6_sha256": "bfceea9ecf73573d0dfa2af957482d47cf332e6670fbeaa7f234458c44362e2b",
+      "current_part6_sha256": "ab00b7f823ed977ee961b655193886f41015b5a5675e528aa5b6a17c66eba4de",
+      "prior_current_memory_panels_sha256": "b4ab0bb4b5662d83f0f3df242abc6f86e05cff292ea5e7302c6842b6efcb7ef1",
+      "current_memory_panels_sha256": "51377f4fe7a8c7a788af5e70b42fb6533f60fe68d77b3a676c897e822d75434e",
+      "no_other_manuscript_delta_observed": true
+    }
+  ]
+}

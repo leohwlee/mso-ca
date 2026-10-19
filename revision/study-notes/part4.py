@@ -1,0 +1,160 @@
+"""Source-authored bilingual manuscript; independently revised 2026-10-19. No bank input."""
+from model import p, ref, block, section
+
+PART = dict(title=p('海關頒布的指引', 'Guidelines promulgated by the C&ED'),
+intro=p('把法律要求落實成申請、處所、人員、評核及日常經營安排；貨幣兌換另須遵守第34章的顧客保障規則。', 'Translate the law into applications, premises, staffing, assessment and day-to-day operation. Money changing also engages Cap.34 consumer-protection rules.'), sections=[
+section('premises', '營業處所、本地管理辦事處與紀錄儲存地方', 'Business premises, local management office and record storage', [
+    block('三種地方的用途不同', 'Three places with different purposes', [
+        ('特定營業處所是經營者擁有／租用、對外宣傳並供客戶交易的處所；到客戶辦公室或銀行／會計師辦事處並不因此使它成為自己的營業處所。上門、在客戶辦公室及流動安排可屬沒有特定處所模式，但仍須持牌。', 'Particular business premises are owned/leased, advertised premises where customers transact. Visits to customer, bank or accountant offices do not thereby make them the MSO’s premises. Door-to-door, customer-office and mobile arrangements may be no-particular-premises operations but still require licensing.'),
+        ('營業處所不得全屬住宅、與另一MSO／申請人共用、或須依賴其他佔用人／業主協助才可進入；招牌名稱須與商業登記相符。混合商住處所須每名佔用人書面同意法定進入。', 'Business premises must not be wholly residential, shared with another MSO/applicant, or accessible only with assistance of another occupant/owner. Signboard names match business registration. Mixed domestic/commercial premises need every occupant’s written entry consent.'),
+        ('沒有特定營業處所者須維持本地管理辦事處（LMO）：香港實體地址，可親身及電話聯絡，由獨資經營者、合夥人、董事、最終擁有人或合規主任駐守。不得是住宅或僅服務供應商地址；須有業主同意／租約等證明。不是所有有特定處所MSO都另外須設LMO。', 'No-particular-premises operators maintain an LMO: a physical Hong Kong address reachable in person/by phone, staffed by the proprietor, partner, director, ultimate owner or CO. It is not residential or merely a service-provider address; provide owner consent/tenancy evidence. Not every MSO with particular premises needs a separate LMO.'),
+        ('所有申請人須有香港實體本地紀錄儲存地方（LPS），保存受其控制的完整紀錄；不得是住宅或僅服務供應商地址。未能證明合規LMO／LPS可令申請無效／被拒；未能持續維持可引致暫時吊銷／撤銷。', 'All applicants need a physical Hong Kong LPS holding complete records under their control, not residential or merely a service-provider address. Failure to establish a compliant LMO/LPS can invalidate/refuse an application; failure to maintain it can lead to suspension/revocation.'),
+    ], [
+        ref('05', '第4.4–4.11段', '¶4.4–4.11', 'local place for storage of books and records'),
+    ], kind='list'),
+    block('與其他業務同址及商業登記', 'Sharing with another business and business registration', [
+        ('可與其他業務同址時，金錢服務須與其他業務清楚分隔和識別；與另一MSO共用處所經營金錢服務不獲接納。另須持有由稅務局局長發出的有效商業登記證（BR）；沒有有效證明可令申請不獲處理，已發牌者可被暫停／撤銷牌照。', 'Where premises are shared with another business, money service must be clearly partitioned and distinguished. Sharing with another MSO for money service is not accepted. Maintain a valid Business Registration (BR) Certificate issued by the Commissioner of Inland Revenue; absence can prevent application processing or expose an existing licence to suspension/revocation.'),
+        ('LMO及LPS的業主須准許把處所用於金錢服務業務，並在租約或業主信件中列明。只提供一個物理地址而沒有許可，並不足以符合指引。', 'For an LMO and LPS, the landlord must permit use for money-service business in the tenancy agreement or a landlord’s letter. Supplying a physical address alone does not satisfy the Guide.'),
+    ], [
+        ref('05', '第4.7–4.8、4.11、4.15(c)段', '¶4.7–4.8, 4.11, 4.15(c)', 'must be clearly partitioned'),
+    ], kind='list'),
+]),
+section('application', '新牌申請：文件、面見及正式聲明', 'New applications: documents, interview and declarations', [
+    block('完整申請的主要組成', 'Main components of a complete application', [
+        ('用表格1及適用補充表／附件，連同身分／公司與商業登記、業務計劃、AML政策、處所及人員證明等按清單提交。每個適用營業處所、LMO及LPS須按規定提供內外照片（4R約102×152毫米）。可親身、郵遞或使用指定電子渠道；不完整或未依限補交可不受理。', 'Submit Form 1 and applicable supplements/annexes with checklist identity/corporate/BR, business-plan, AML-policy, premises and personnel evidence. Supply required interior/exterior 4R photographs (about 102×152 mm) for applicable premises, LMO and LPS. Use the prescribed in-person/post/electronic routes; incomplete/late supplementation may invalidate processing.'),
+        ('接獲通知後安排面見、繳費及出示正本。獨資經營者本人出席；合夥／公司可按指引由合夥人／董事或獲適當授權人員出席，並備全體合夥人／董事會授權。處理時間取決於完整資料及審查，不能保證一個固定天數。', 'Attend the arranged interview, pay fees and produce originals. The proprietor attends personally; partnerships/corporations use partners/directors or properly authorized personnel as permitted, with all-partner/board authority. Processing depends on complete information and assessment, not a guaranteed fixed duration.'),
+        ('適當人選聲明按個人表格3A／法人表格3B及適用附錄完成，向合資格見證人作正式聲明，例如獲授權海關人員、執業專業人士、公證人或太平紳士。見證身分、簽署及聲明程序不能由普通影印代替。', 'Complete individual Form 3A/corporate Form 3B and applicable appendices before a qualifying witness, such as an authorized Customs officer, practising professional, notary or justice of the peace. Ordinary photocopying does not replace identity, signature and declaration formalities.'),
+    ], [
+        ref('05', '第4.15、5.1–5.9段及附件', '¶4.15, 5.1–5.9; annexes', 'Form 3A'),
+    ], kind='list'),
+    block('證明文件按身分及用途準備', 'Evidence by legal form and purpose', [
+        ('獨資／合夥提供有效商業登記及商業登記冊資料摘錄。本地公司另備成立證明、最新周年申報表NAR1及其後所有登記文件；新公司用NNC1（股份有限公司）或NNC1G（股份有限公司以外的公司）。非香港公司備非香港公司註冊證明、最新周年申報表NN3及其後存檔文件；新成立公司用NN1（在香港註冊的非香港公司詳情）。另按清單備章程及集團架構／持股比例。這些是公司文件，不是MSO半年交易申報表。', 'Proprietors/partnerships provide valid BR and business-register extracts. Local companies add incorporation and the latest annual return NAR1 plus subsequent filings; new companies use NNC1 (limited by shares) or NNC1G (not limited by shares). Non-Hong Kong companies provide their non-Hong Kong-company registration certificate and latest annual return NN3 plus subsequent filings; newly established companies use NN1 (particulars of a non-Hong Kong company registered in Hong Kong). Add constitution and group/ownership structure as listed. These corporate documents are not MSO half-yearly transaction returns.'),
+        ('每個適用處所、LMO及LPS提供已加蓋印花租約／業權、平面圖、內外兩張4R照片及業主准許指定用途信；LMO另備有效商業登記，商住處所另備全體佔用人同意。', 'For each applicable premises, LMO and LPS provide stamped tenancy/ownership, floor plan, two interior/exterior 4R photos and owner permission for the relevant use. LMOs add valid BR; mixed premises add every occupant’s consent.'),
+        ('個人伙伴／董事／最終擁有人按居留身分備3A及附錄、香港身分證或旅行證件個人資料頁；法人伙伴／董事按類型備3B及公司文件，境外未在港註冊者的成立證明須按指定規例核證。', 'Individual partners/directors/ultimate owners provide Form 3A/appendices and HKID or travel biodata according to residence. Corporate partners/directors provide Form 3B and applicable corporate evidence; overseas corporations unregistered in Hong Kong require certification under the specified regulations.'),
+        ('業務計劃及AML政策須由適用獨資／每名個人伙伴、董事及最終擁有人確認。另按清單備本地／境外第三方合約、CO／MLRO身分證、僱傭合約及申請前3個月內地址證明、銀行戶權證明及銀行確認作金錢服務用途。清單非盡錄，海關可再索資料。', 'Plans/policies require applicable proprietor/every individual partner, director and ultimate-owner endorsement. The checklist also covers local/foreign third-party contracts, CO/MLRO HKID/employment and address proof within three months before application, bank ownership and bank acknowledgement of money-service use. Customs may request more; the checklist is not exhaustive.'),
+    ], [
+        ref('05', '第16.1–16.3段，項目1–6', '¶16.1–16.3, items 1–6', 'Checklist for submission of supporting documents'),
+    ], kind='reference'),
+]),
+section('fitness', '適當人選：持續而非一次性的要求', 'Fitness and propriety: an ongoing requirement', [
+    block('法定因素與補充評核', 'Statutory and supplementary factors', [
+        ('須考慮指定香港／境外罪行、持續違反規管要求、破產／清盤／接管等法定事項，以及其他與適當人選有關的因素。被定罪或有某一負面因素不必然自動失格；關長按全部相關情況作整體判斷。獲牌後仍須持續符合。', 'Consider statutory Hong Kong/overseas offences, persistent regulatory non-compliance, bankruptcy/winding-up/receivership and other relevant matters. A conviction or single adverse factor does not automatically determine failure; the CCE assesses all circumstances. Fitness/propriety continues after licensing.'),
+        ('第10份指引補充：不遵守AMLO、牌照條件或其他規管義務、誠信／刑事紀錄及財政狀況。第11份再涵蓋對顧客是否公平、是否準備並能持續提供服務、CO等人員能力／知識、評核表現、資料是否真確及是否配合海關。', 'Document 10 adds AMLO/licence/regulatory compliance, honesty/criminal history and financial standing. Document 11 further considers fair customer treatment, readiness/ability to provide services, CO/personnel competence/knowledge, assessment performance, truthful information and cooperation with Customs.'),
+        ('其他因素包括組織、人手、財政及系統資源、有效內控／審核、利益衝突、其他罪行或待決控罪、專業／監管譴責、其他牌照限制、董事失格、未清償判決債項，以及其他業務帶來的洗錢／財務風險。停業很久或空有牌照而無服務準備也可影響判斷。', 'Other factors include organisation, staff, finance/systems, controls/audit, conflicts, other offences/pending charges, professional/regulatory censure, other licence restrictions, director disqualification, judgment debts and ML/financial risks from other businesses. Long inactivity or lack of service readiness can also matter.'),
+    ], [
+        ref('10', '第4–6段', '¶4–6', 'bankrupt'),
+        ref('11', '第5–7段', '¶5–7', 'conflict of interest'),
+        ref('05', '第7.1–7.2段', '¶7.1–7.2', 'fit and proper'),
+    ], kind='list'),
+    block('適當人選：法定必考慮的事項', 'Fitness and propriety: the statutory mandatory factors', [
+        ('香港定罪包括AMLO指定的CDD、視察／調查、妨礙或虛假資料、審裁處等罪行；UNATMO第14條罪行；DTROP第25(1)、25A(5)或(7)條及附表1罪行；OSCO第25(1)、25A(5)或(7)條及附表1或2罪行。重點不只是曾否洗錢，也包括指定不披露、通風報訊及不配合監管等行為。', 'Hong Kong convictions include the AMLO offences specified in section 30(4)(a), covering CDD, inspection/investigation, obstruction/false information and tribunal matters; UNATMO section 14; DTROP sections 25(1), 25A(5)/(7) and Schedule 1 offences; OSCO sections 25(1), 25A(5)/(7) and Schedule 1/2 offences. The test extends beyond laundering itself to specified disclosure, tipping-off and supervisory-compliance offences.'),
+        ('境外定罪包括：若在港作出會構成上述罪行的行為、洗錢／恐怖分子資金籌集，以及定罪必須裁定存在欺詐、貪污或不誠實的罪行。另須考慮持續不遵從AMLO／第51條規例；個人的未解除破產或破產程序；公司的清盤、清盤令或接管人。關長亦可考慮其他相關事項，並非只有一張定罪清單。', 'Foreign convictions include conduct that would constitute those offences in Hong Kong, ML/TF offences, and offences requiring a finding of fraud, corruption or dishonesty. Also consider persistent AMLO/section 51 regulation non-compliance; an individual’s undischarged bankruptcy/proceedings; and corporate liquidation, winding-up orders or receivership. The CCE also considers other relevant matters; this is not only a conviction checklist.'),
+    ], [
+        ref('04', '第30(4)條', 's.30(4)', 'acted fraudulently, corruptly or dishonestly'),
+        ref('05', '第4.3段', '¶4.3', 'undischarged bankrupt'),
+    ], kind='list'),
+    block('投訴、調查及財政誠信的例子', 'Complaints, investigations and financial-integrity examples', [
+        ('整體適當人選評估亦可考慮合理且真誠的客戶投訴；任何司法管轄區的刑事／紀律程序、已通知的可能程序，或可導致程序的調查；以及與債權人的妥協／安排。投訴或調查本身不自動證明有罪或不適當，仍須按完整個案評估。', 'Holistic fitness assessment may also consider reasonable good-faith customer complaints, criminal/disciplinary proceedings in any jurisdiction, notified potential proceedings or investigations that may lead to them, and creditor compromises/arrangements. A complaint or investigation does not automatically establish guilt or unfitness; assess the whole case.'),
+    ], [
+        ref('11', '第6(d)、(e)、(q)段', '¶6(d), (e), (q)', 'has been notified of any potential proceedings'),
+    ], kind='list'),
+]),
+section('assessment', '能力評核：誰參加、何時參加及合格標準', 'Competence assessment: participants, timing and pass criteria', [
+    block('提名及重新評核', 'Nomination and reassessment', [
+        ('最少一名負責監督AML政策／程序、並對合規承擔管理責任的高級管理人員須通過評核。獨資經營者本人參加；合夥／公司最多提名3名屬自然人的合夥人／董事，並於同一場次參加。', 'At least one senior manager overseeing AML policies/procedures and accountable for compliance must pass. The sole proprietor attends personally. Partnerships/corporations nominate up to three natural-person partners/directors, all in the same session.'),
+        ('新牌申請須在與海關面見當日起計30日內參加；需要評核的續牌申請人在收到邀請後30日內參加。續牌前90日內的提名安排須按通知辦理；不要把法定屆滿前45日申請期限與評核時間混合。', 'New applicants must attend within 30 days upon attending the Customs interview; renewal applicants requiring assessment attend within 30 days after receipt of invitation. Follow notice-based nomination arrangements within the 90-day pre-expiry window. These differ from the statutory 45-day renewal application deadline.'),
+        ('合夥／公司的通過人士全部離任，通過狀態失效；須在向海關具報合夥人／董事變更當日起計30日內安排評核。若須於180日內續牌，按第4.6段的續牌評核安排辦理。第8.2段不適用於獨資經營的持牌人。', 'When all passing nominees of a partnership/corporation leave, passing status lapses; arrange assessment within 30 days upon notifying Customs of the partnership/directorship change. If renewal falls within 180 days, follow paragraph 4.6’s renewal-assessment arrangements. Paragraph 8.2 excludes sole-proprietor licensees.'),
+        ('首次未通過後，獲給予另一次機會在成績通知發出當日起計30日後再考；英文原文是after 30 days upon notification of result。續牌重考另須在牌照屆滿前完成。不能把30日後誤記為30日內，也不表示可無限次重考或自動延牌。', 'Following failure, a further opportunity is given to retake after 30 days upon notification of result; the Chinese original specifies the issue of the result notification as the starting event. Renewal retakes must also be before licence expiry. “After 30 days” is not “within 30 days”, unlimited retakes or automatic licence extension.'),
+        ('35題、7個Part各5題、75分鐘，每題一個答案。整體最少答對25題，且每個Part不可錯多於2題；總分夠而某Part只對2題仍不合格。通過評核本身不保證發牌／續牌。', 'There are 35 questions, five per each of seven Parts, 1 hour and 15 minutes and one answer per question. Pass requires at least 25 overall and no more than two wrong in any Part. A sufficient total with only two correct in one Part still fails. Passing does not guarantee a licence/renewal.'),
+        ('第02份官方樣題使用多個陳述的組合選項；每題仍只選一個答案。複習時須理解每項陳述的條件／例外，而不是背選項字母。', 'Document 02 illustrates combination options containing several statements; each question still has one answer. Learn each rule’s conditions/exceptions rather than option letters.'),
+        ('第01份第6.1段列明主要出題依據為《打擊洗錢條例》、《打擊洗錢指引》、《金錢服務經營者牌照申請指引》及海關其他相關指引／通函。這不是一份只含01–26的封閉書目；01–26是本套筆記選定的原文範圍。樣題只展示題型，不能據此縮小知識範圍或推算考點頻率。', 'Paragraph 6.1 of document 01 identifies the AMLO, AML Guideline, Licensing Guide and other relevant Customs guidelines/circulars as the main sources. It does not define a closed list of documents 01–26: those are this set of notes’ selected originals. Samples illustrate format; they do not narrow the knowledge scope or establish topic frequency.'),
+    ], [
+        ref('01', '第3–8段', '¶3–8', '1 hour and 15 minutes'),
+        ref('02', '例1–7（只用於理解題型）', 'Examples 1–7 (format only)', 'Answer: d'),
+    ], kind='list'),
+    block('應考及結果', 'Attendance and results', [
+        ('攜有照片的身分證明、列印邀請及適用授權信；遲到不准入場。文具由場地提供，遵守禁止電子設備及通訊規則。答案填在指定答題紙；一題填多於一答案不給分。', 'Bring photo ID, printed invitation and applicable authority letter. Late entry is refused. Stationery is supplied; electronic-device/communication restrictions apply. Use the designated answer sheet; multiple answers to a question receive no credit.'),
+        ('結果在考試結束後14日內僅以電郵通知通過／不通過。欲覆檢須在成績通知發出當日起計7日內書面要求；海關在接獲覆檢要求日期起計14日內書面回覆，覆檢結果為最終；不提供實際分數／試題及正確答案。', 'Results are notified as pass/fail by email only within 14 days after the Assessment. Request rechecking in writing within seven days after the date of issue of the result notification. Customs replies in writing within 14 days after receipt of the rechecking request; that result is final. Exact scores, questions and correct answers are not disclosed.'),
+        ('按指引的惡劣天氣安排，早上8時或以後八號或以上風球／黑雨會改期；三號風球或黃／紅雨通常照常。實際場次須依邀請及海關通知。', 'Under the guide’s weather arrangements, a No.8-or-higher signal/black rain at or after 8 a.m. suspends the session; No.3/amber/red normally proceeds. Follow the actual invitation and Customs notices.'),
+    ], [
+        ref('01', '第8–13段', '¶8–13', '14 days'),
+    ], kind='list'),
+    block('提名及例外的限制', 'Nomination and discretionary exceptions', [
+        ('每次適用的新申請、沒有通過人士的續牌或唯一通過人士離任情況，按指引只作一次提名。無通過人士仍繼續營業，須由關長按個案酌情並施加適當牌照條件；不是經營者可自行宣布豁免。', 'The guide permits one nomination for each applicable new application, renewal without a passer, or loss of the only passer. Continuing with no passer requires case-specific CCE discretion and suitable licence conditions, not self-declared exemption.'),
+    ], [
+        ref('01', '第4.4、8.3段', '¶4.4, 8.3', 'only for once'),
+        ref('05', '第6.2段', '¶6.2', 'receipt'),
+    ], kind='list'),
+    block('續牌提名七日與應考三十日', 'Renewal nomination in seven days versus attendance in thirty', [
+        ('須安排考核的續牌情況，收到提名邀請函後7日內提名合資格人士；獲提名者在收到邀請函後30日內應考。七日是提名，三十日是應考，不可互換；未在七日內提名令續牌申請無效，舊牌照到期時失效。', 'Where assessment is required for renewal, nominate eligible person(s) within seven days after receiving the invitation; nominees attend within thirty days after receiving it. Seven days concerns nomination, thirty concerns attendance. Failure to nominate within seven days invalidates renewal, so the old licence lapses at expiry.'),
+        ('合資格人士須是監督金錢服務的高級管理層，直接參與公司政策／管治決策，並對合規職能及制度負責。不能只因是獲授權出席發牌面談的職員，便代替須為獨資經營者、合夥人或自然人董事的考核提名人。', 'An eligible person is senior management overseeing money service, directly involved in policy/governance decisions and accountable for compliance functions/systems. An employee authorized to attend a licensing interview does not thereby replace an assessment nominee who must be an eligible sole proprietor, partner or natural-person director.'),
+    ], [
+        ref('05', '第5.5、6.2、6.4(c)段', '¶5.5, 6.2, 6.4(c)', 'within seven days upon receipt of the invitation letter'),
+        ref('01', '第4.1–4.3段', '¶4.1–4.3', 'has a direct involvement'),
+    ], kind='list'),
+]),
+section('licensing-actions', '表格、變更、續牌及結業實務', 'Forms, changes, renewal and cessation in practice', [
+    block('事件與手續', 'Events and procedures', [
+        ('續牌用表格2，最遲屆滿前45日提交。海關一般在屆滿前90日提醒；沒有收到提醒不免責。須按通知期限交齊文件及完成適用評核；逾期／無效申請可令牌照屆滿。', 'Use Form 2 at least 45 days before expiry. Customs normally reminds around 90 days before expiry; lack of reminder is no excuse. Complete documents/assessment by notified deadlines; late/invalid applications can result in lapse.'),
+        ('新增董事／最終擁有人／合夥人用表格4事先申請；新處所／由無處所轉特定處所用表格5。後者須按要求更新業務計劃及AML政策；不能先營業再補報。', 'Use Form 4 for prior approval of new directors/ultimate owners/partners, and Form 5 for premises additions/no-particular-to-particular operation. Update business plan/AML policy where required; do not operate first and notify later.'),
+        ('一般資料變更用表格6，在改變日起一個月內通知，涵蓋名稱／聯絡、處所、銀行帳戶、業務、CO／MLRO等適用項目；兌換／匯款業務性質轉變須書面通知並交新計劃／政策。法律實體改變須重新申牌，不能只改資料。', 'Use Form 6 within one month for applicable name/contact, premises, bank-account, business and CO/MLRO changes. Changing between exchange/remittance activities requires written notification and updated plan/policy. A change of legal entity requires a fresh licence, not a particulars update.'),
+        ('結業／停止分行用表格7於停止前通知，自停止當日起計7日內交還牌照。停止全部特定處所但想改作無處所模式，依指引須重新申請，不能逕自把舊牌轉用。', 'Use Form 7 before cessation/branch closure and return the licence within seven days beginning on the cessation date. Closing all particular premises while continuing without premises requires a fresh application under the guide, not automatic reuse of the old licence.'),
+    ], [
+        ref('05', '第6、8–10段', 'Sections 6, 8–10', 'Form 7'),
+    ], kind='list'),
+    block('經營責任及銀行戶名', 'Operating duties and bank-account names', [
+        ('按牌照條件及法例營業，配合視察、保持紀錄、人員及資料更新並準時申報。用於金錢服務的銀行戶口須符合指引列明戶名：持牌公司，或持牌人的獨資經營者、合夥人、董事或最終擁有人；不是任何第三方的帳戶均可使用。', 'Operate under licence/law, cooperate with inspections, maintain records/personnel/current information and file returns on time. Money-service bank accounts use names permitted by the guide: the licensed company, proprietor, partner, director or ultimate owner, not arbitrary third parties.'),
+    ], [
+        ref('05', '第11.1–11.3段', '¶11.1–11.3', 'Where bank account(s) is used'),
+    ], kind='list'),
+]),
+section('penalty-factors', '罰款指引：上限不等於固定罰款', 'Penalty guidelines: a ceiling is not a fixed fine', [
+    block('第12及13份指引的評估因素', 'Assessment under documents 12 and 13', [
+        ('第12份屬發牌紀律罰款（第43條最高100萬元）；第13份屬指明CDD／紀錄等違規（第21條最高1,000萬元或利益／避免成本3倍的較大者）。不是每次違規都固定判上限或固定按利益3倍。', 'Document 12 concerns section 43 licensing penalties, capped at HK$1 million. Document 13 concerns section 21 specified CDD/record-related contraventions, capped at the greater of HK$10 million or three times profit/cost avoidance. Neither ceiling nor a three-times figure is an automatic penalty.'),
+        ('考慮違規性質、嚴重性、持續時間、是否故意／罔顧、是否系統性、造成損害及利益；亦看糾正措施、合作／主動披露、過往紀錄、其他相關處分及一致性。罰款應有阻嚇力，並按整體情況考慮財政影響，不應有很可能令經營者陷入財務困境的效果。', 'Consider nature, seriousness, duration, intent/recklessness, systemic failures, harm and benefit; also remediation, cooperation/voluntary disclosure, history, other sanctions and consistency. Penalties should deter, with financial impact assessed in context without the likely effect of putting the operator into financial jeopardy.'),
+    ], [
+        ref('12', '第4–9段', '¶4–9', 'deterrent'),
+        ref('13', '第3–9段', '¶3–9', 'three times'),
+    ], kind='list'),
+    block('罰款評估的四組因素', 'Four groups used in pecuniary-penalty assessment', [
+        ('第一組：違規的性質、嚴重性及影響，包括故意／罔顧／疏忽、期間頻率、損害及系統缺失；疏忽或純技術違規一般較輕，多項小缺失合計亦可能足以處分。', 'Group 1—nature, seriousness and impact: intent/recklessness/negligence, duration/frequency, harm and systemic weaknesses. Negligent/technical breaches are generally less serious; smaller issues can collectively justify action.'),
+        ('第二組：違規後行為，包括隱瞞、補救、合作及再犯風險。第三組：既往紀律／合規紀錄，包括相類違規、過往承諾及其他機關已採／可能採的處分。', 'Group 2—post-contravention conduct: concealment, remediation, cooperation and recurrence risk. Group 3—disciplinary/compliance history: similar breaches, previous undertakings and other authorities’ actual/likely action.'),
+        ('第四組：其他相關因素，包括行為當時有效指引、相類個案一致性、得益／避免成本、主動及完整披露等減輕因素。一般不就符合當時有效指引的行為作紀律處分；關長一般公開罰款決定。這是非盡列、按個案評估的指引，不是把每項固定加減分。', 'Group 4—other relevant factors: guidance current at the time, consistency with similar cases, benefit/cost avoidance and mitigation such as prompt complete disclosure. Generally no discipline is taken for conduct in line with then-current guidance; pecuniary decisions are usually publicized. These are non-exhaustive, case-specific factors, not a fixed points formula.'),
+    ], [
+        ref('12', '第4–9段', '¶4–9', 'generally the CCE will not take disciplinary action'),
+        ref('13', '第3–9段', '¶3–9', 'Other relevant factors'),
+    ], kind='list'),
+]),
+section('exchange-note', '第34章：兌換交易單及顧客撤銷權', 'Cap.34: transaction notes and rescission', [
+    block('適用範圍及交易步驟', 'Scope and transaction steps', [
+        ('第34章不適用於認可機構、符合條件的酒店兌換，以及顧客交付款額超過100,000元的交易。正好100,000元仍在此金額範圍內；這與AMLO一般非經常交易CDD的120,000元門檻完全不同。貨幣亦包括支票及旅行支票。', 'Cap.34 excludes authorized institutions, qualifying hotel exchange and transactions where the customer tenders more than HK$100,000. Exactly HK$100,000 remains within that monetary scope. This differs from AMLO’s HK$120,000 general occasional CDD threshold. Currency includes cheques and travellers’ cheques.'),
+        ('交易前按附表1填具一式兩份交易單，包括日期、貨幣／金額、已含所有收費的淨匯率、付予顧客的貨幣等值及總額（編號可選填），以及中英文名稱、地址、電話等；收銀員簽署，按實際可行情況解釋並要求顧客簽署。不同售出貨幣分單，按交易單全額付款，不另扣費。', 'Before exchange, prepare duplicate Schedule 1 notes with date, currencies/amounts, net rate inclusive of charges, equivalent amount of the currency issued and total (serial/transaction numbers are optional) and bilingual name/address/phone details. The cashier signs, explains as practicable and requests customer signature. Use separate notes for different currencies sold and pay the noted amount without further deduction.'),
+        ('正本交顧客，副本至少保存12個月並供警務人員依法查閱。交易完成前顧客拒絕，須立即退還全數款項；違反第4條的交易，顧客可在交易後3日內按第5條撤銷。', 'Give the original to the customer; retain the duplicate at least 12 months for lawful police inspection. A customer refusing before completion receives the full amount back immediately. Where section 4 is breached, the customer may rescind within three days under section 5.'),
+    ], [
+        ref('17', '第2–5條及附表1', 'ss.2–5; Schedule 1', 'within 3 days after the date'),
+    ], kind='list'),
+    block('正本、副本與簽署的要求', 'Original, duplicate and signature requirements', [
+        ('兌換商須簽署正本及副本，在切實可行範圍解釋內容；並須請顧客簽署正本，若副本未記錄簽署複本，亦須請顧客簽署副本。淨匯率須已包括收費／佣金，不可在交易單另述收費／佣金；只加入法定准許內容，不能任意附加免責條款。', 'The changer signs the original and duplicate and explains the contents as far as practicable. Separately, request the customer’s signature on the original and on the duplicate unless a copy of the signature is recorded there. State the net rate inclusive of charges/commission without separate reference to them on the note; include only authorized content, not arbitrary disclaimers.'),
+    ], [
+        ref('17', '第4(1)–(4)條', 's.4(1)–(4)', 'unless a copy of the signature is recorded on the duplicate'),
+    ], kind='list'),
+]),
+section('exchange-display', '匯率展示、廣告及責任', 'Rate displays, advertising and liability', [
+    block('買入／賣出從兌換商角度理解', 'Buying/selling from the changer’s perspective', [
+        ('淨匯率是已包括全部收費及佣金的每單位外幣港幣價格。對附表3內自己準備買入／賣出的貨幣，須在清楚、光線足夠及無遮擋的告示牌展示相應淨率；不是強制買賣全部17種貨幣。多塊牌的匯率須相同，可按10或100單位列示。展示的是最不利率，可以給顧客更佳率。', 'The net rate is the HKD price per foreign-currency unit inclusive of all charges and commission. Display the applicable net rates for Schedule 3 currencies the changer is prepared to buy or sell, clearly, visibly and with adequate lighting; there is no requirement to trade all 17 currencies. Multiple boards must show identical rates; units of 10 or 100 may be used. Display the least favourable rate; better rates may be offered.'),
+        ('附表3的17種貨幣：澳洲、加拿大、中國（不含香港、澳門、台灣）、歐盟、印度、印尼、日本、馬來西亞、菲律賓、韓國、新加坡、瑞士、台灣、泰國、英國、美國、越南。第16份通函解釋2025年8月24日起的附表更新。', 'The 17 Schedule 3 currencies are Australia, Canada, China excluding Hong Kong/Macao/Taiwan, EU, India, Indonesia, Japan, Malaysia, Philippines, Korea, Singapore, Switzerland, Taiwan, Thailand, UK, USA and Vietnam. Document 16 explains the amendments effective 24 August 2025.'),
+        ('未列於附表3的貨幣，在收取款項前須書面向顧客提供買入及賣出兩個淨率，並另按交易單規則辦理。不能只因不在展示清單便省略報價或交易單。', 'For currencies outside Schedule 3, provide both buy and sell net rates in writing before accepting money, as well as the transaction note. Absence from the display list does not dispense with quotation or note requirements.'),
+        ('廣告中買入與賣出率須同等顯著；不得宣傳收取／不收取佣金或其他收費，也不得就匯率、條款或條例適用性誤導。附表2允許的告示包括顧客自行承擔外幣管制限制及離開前核對款項；不是可任意添加免責條款。', 'Buy and sell rates in advertisements need equal prominence. Do not advertise charging/not charging commission or other fees, or mislead about rates, terms or applicability. Schedule 2 permits notices about currency-control responsibility and checking money before departure, not arbitrary disclaimers.'),
+        ('僱員違例可使僱主及符合條件的公司高級人員／合夥人同負責，法定合理防止措施等抗辯另論。第4條初犯屬第1級罰款，再犯第2級及6個月；第6、7、8、10條違規可第2級及6個月。', 'Employee breaches can engage employer and qualifying corporate-officer/partner liability, subject to statutory reasonable-prevention defences. Section 4 first offences carry level 1, subsequent offences level 2 and six months; sections 6, 7, 8 and 10 carry level 2 and six months.'),
+    ], [
+        ref('16', '正文第1頁', 'Main text p.1', '24 August 2025'),
+        ref('17', '第6–11條及附表2–3', 'ss.6–11; Schedules 2–3', 'least favourable'),
+    ], kind='list'),
+    block('同板比較及法定責任推定', 'Same-board comparison and statutory liability presumptions', [
+        ('同一貨幣的買入／賣出匯率須同等顯眼，並讓顧客毋須參看多於一塊告示牌便能比較兩者。多塊牌的匯率一致要求，與可在同一塊牌比較買賣率，是兩項相關而不同的條件。', 'Buying/selling rates for a currency need equal prominence and must be comparable without referring to more than one board. Identical rates across multiple boards and comparing both rates on one board are related but distinct conditions.'),
+        ('第11條在指定情況下把僱員的違規連繫至僱主，並可涉及公司董事、經理、秘書、相類高級人員及合夥人。沒有相反證據時，適用者被推定未採合理防止措施；須讀連法定適用身分及合理防止抗辯。僅提供專業意見，不會單因此成為董事慣常依其指示行事的人。', 'Section 11 links employee breaches to employers and can engage directors, managers, secretaries, similar officers and partners within its specified scope. In the absence of contrary evidence the applicable persons face presumptions about failure to take reasonable preventive steps, subject to the statutory actor scope and defence. Giving professional advice alone does not make its giver the person whose directions the directors habitually follow.'),
+    ], [
+        ref('17', '第8(1)(b)、11條', 'ss.8(1)(b), 11', 'without the need to refer to more than one board'),
+    ], kind='list'),
+]),
+])

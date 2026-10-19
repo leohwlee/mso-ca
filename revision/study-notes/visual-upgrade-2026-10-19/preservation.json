@@ -1,0 +1,25 @@
+{
+  "baseline_files": 891,
+  "changed_existing": [
+    "DESIGN.md",
+    ".impeccable/design.json",
+    "revision/study-notes/build.py",
+    "revision/study-notes/coverage.json",
+    "revision/study-notes/gap_check.py",
+    "revision/study-notes/index.html",
+    "revision/study-notes/part-1.html",
+    "revision/study-notes/part-2.html",
+    "revision/study-notes/part-3.html",
+    "revision/study-notes/part-4.html",
+    "revision/study-notes/part-5.html",
+    "revision/study-notes/part-6.html",
+    "revision/study-notes/part-7.html",
+    "revision/study-notes/part1.py",
+    "revision/study-notes/README.md",
+    "revision/study-notes/style.css"
+  ],
+  "unchanged_existing": 875,
+  "unexpected_changes": [],
+  "missing": [],
+  "protected_bank_sources_web_and_history_unchanged": true
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "command": "python revision/study-notes/build.py --check",
+    "exit_code": 0,
+    "output": "{\"status\": \"checked\", \"parts\": 7, \"sections\": 75, \"points\": 488, \"sources\": 26}\n"
+  },
+  {
+    "command": "python revision/study-notes/gap_check.py --check",
+    "exit_code": 0,
+    "output": "Bank gap audit: 525 identifiers checked; no bank content supplied to notes.\n"
+  },
+  {
+    "command": "python -m unittest discover -s tests -p *_test.py (workspace tempdir)",
+    "tests": 16,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  {
+    "check": "pre-existing files outside the authorized notes/test change",
+    "files": 348,
+    "changed": [],
+    "passed": true
+  },
+  {
+    "check": "older notes review/history files",
+    "files": 15,
+    "changed": [],
+    "passed": true
+  }
+]

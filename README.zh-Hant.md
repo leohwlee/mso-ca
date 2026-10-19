@@ -7,6 +7,13 @@
 
 ## 三步開始
 
+新版[七部分溫習資料](revision/study-notes/index.html)從01–26原文提煉概念、定義、
+要求、條件及例外，保留實際repo檔名引用；題庫只作查漏。見[範圍及維護說明](revision/study-notes/README.md)。v1.10.0起隨完整學習包發佈。
+
+**閱讀筆記及練習：**下載 [mso-study-bundle.zip](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip)，
+完整解壓後開啟 `index.html`。內含七部分筆記、練習App及引用的01–26原件；
+保留資料夾結構，閱讀、練習和來源連結才可離線互通。以下單檔下載供獨立練習，筆記連結須配合完整學習包。
+
 1. 從最新發佈版下載 **[mso-ca.html](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html)**。
 2. 用瀏覽器開啟下載的檔案，無須安裝、登入或啟動伺服器。
 3. 選擇 **EN**、**中文**或 **EN+中**，再開始模擬試或選擇練習部分。

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "kind": "independent-final-readback",
+  "reviewer": {
+    "agent": "/root/memory_hierarchy_audit",
+    "model": "same parent model; not cross-model review"
+  },
+  "status": "approved_within_stated_scope",
+  "scope": "Source 10–26 additions in essentials.py (11 source-bound blocks), baseline Part1 checked-baggage correction, and preservation of existing manuscript/memory-panel conditions. English and TC added prose read back against cited originals; not a new certification of every page/paragraph in the seven-part book.",
+  "initial_report": "revision/study-notes/completeness-circulars-review.json",
+  "resolution_summary": "C01–C14 substantive additions integrated and read back. CF01 applicant actor is now explicit in both languages. Bearer/qualifying cheque examples and unqualified customer-signature request remain corrected. No unresolved substantive errors identified within this bounded review.",
+  "open_findings": [],
+  "reviewed_resolutions": [
+    {
+      "ids": [
+        "C01"
+      ],
+      "outcome": "Checked baggage now expressly counts whether or not on the same conveyance."
+    },
+    {
+      "ids": [
+        "C02"
+      ],
+      "outcome": "Reasonable suspicion, no declaration-threshold import, ten working days/exclusions, authorized-officer applicant, court/proceedings/release branches and separate terrorist-property treatment are present."
+    },
+    {
+      "ids": [
+        "C03",
+        "C04"
+      ],
+      "outcome": "Five negotiable-instrument forms, qualifying examples, statutory traveller event and reference-rate publisher present."
+    },
+    {
+      "ids": [
+        "C05",
+        "C06",
+        "C12"
+      ],
+      "outcome": "Signature-copy rule, unqualified request for customer signature, same-board comparison, actor-scope/presumption/professional-advice qualifications present."
+    },
+    {
+      "ids": [
+        "C07",
+        "C08"
+      ],
+      "outcome": "Four penalty-factor groups, date-of-conduct guidance, publicity and holistic complaint/investigation/financial-integrity examples present."
+    },
+    {
+      "ids": [
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "outcome": "UNSCR1373 legal mapping, dated risk definitions/scales/terrorism-versus-TF distinction and dated countermeasure examples present."
+    },
+    {
+      "ids": [
+        "C13",
+        "C14"
+      ],
+      "outcome": "Basic declaration information and contextual payroll/outgoings TBML indicator present; doc24 citation must continue English-source/TC-study-translation rendering."
+    }
+  ],
+  "limits": [
+    "Source25 finding remains dated2022 and selected executive-summary/method/MSO scope",
+    "Source24 Chinese prose is a study translation, not an official Chinese original",
+    "No question bank read or used",
+    "Anchor existence is checked separately and is not relied on as semantic proof",
+    "Initial omission report and earlier reviews preserved"
+  ],
+  "bindings": {
+    "revision/study-notes/essentials.py": "ff7f22aa41ff48896845d7379e81228f6fc078b2de1eae4fe605770ccf8ce9cd",
+    "revision/study-notes/part1.py": "9da3f6a1c6c38a0234ab255c0a3f356e26612bb4b2a005a71ca192edacb310e8",
+    "revision/study-notes/memory_panels.py": "5b47609d746e1ef57b3d28c90293d79793ff857a668040e23c495648c3e82367",
+    "revision/CONFLICT-CALLS.md": "f57cd8caf072182dcd99454eac37434125a3508f84608e25e26967010e1f7eed",
+    "docs/catalog.json": "7de5e1fc4e031b3c1fbb7ad96f723895e9ddfc02950bdd95f0ba275a3bd720fe",
+    "docs/text/EN/10.txt": "3a378faecce11ce26890b7d7fc54bf52a56665df1adfdfa3ef847bee74145fad",
+    "docs/text/EN/11.txt": "d742283d13c4685a7650c62d54cb7979f364b87745eb5dca503a6d04a5b841a1",
+    "docs/text/EN/12.txt": "7de82dc23297bc83fdf167b2f23724ab369e3f1d5f279d76cb0b139fff3e3b81",
+    "docs/text/EN/13.txt": "74aa274da9fc9fdacc764a885797211e501a6dce2dd8b9cffa8272a83fa18ba4",
+    "docs/text/EN/14.txt": "957a691aae6c32234ae7e3c4157b2b5676e7648d272bbdfb1a3062b05fbdb40b",
+    "docs/text/EN/15.txt": "973824288c1ac155677468cb4a2da21045b81b711cb8e8f639d3b83b7af5c4ea",
+    "docs/text/EN/16.txt": "bffd462334ac20e9ef2d96b0db3508ce2acf0935021304d2e5bcfc9dc54ff8ae",
+    "docs/text/EN/17.txt": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02",
+    "docs/text/EN/18.txt": "184f4e17f55491dafe6c4fefcaed000411d69cc2b47aadbfd344620b4cf5727f",
+    "docs/text/EN/19.txt": "d97ff8fe89bc21e7300c89f4de605c0c2256035e626021ef94d29ed70b30f3a2",
+    "docs/text/EN/20.txt": "5b8115db9c36f805e661a570119aa490d3915b5cfa2bb0a4259ccfbfe322797a",
+    "docs/text/EN/21.txt": "eff8ef73f4c2349e17e6d5de1f50c7ab0b0474ed71706d295cb668d4a3d31d7c",
+    "docs/text/EN/22.txt": "9a6a1a3e174d2131f2165c062e522a07a2a67a51cd160603edcdbf7746d23f8c",
+    "docs/text/EN/23.txt": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960",
+    "docs/text/EN/24.txt": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b",
+    "docs/text/EN/25.txt": "6b410a4644b662a0c595cc843b04730f0af50a7af4f0e129a2d5dafc6c37e254",
+    "docs/text/EN/26.txt": "2a44e23b7873502ddce5ee9afc5b919bee28287d08011080227b4c21e6e2ae5c",
+    "docs/text/TC/17.txt": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02",
+    "docs/text/TC/23.txt": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960"
+  },
+  "resolved_findings": [
+    {
+      "id": "CF01",
+      "priority": "medium",
+      "target": "essentials.py Part1 cross-boundary-cash / Seizure and detention / third point",
+      "doc": "23",
+      "locator": "s.18(1)",
+      "anchor": "An authorized officer may, within the period mentioned in",
+      "issue": "The new English imperative 'For suspected crime proceeds, apply within that period…' and actorless TC can read as an instruction to the MSO. The statutory applicant is an authorized officer.",
+      "required_tc": "獲授權人員可在上述期間內向原訟法庭或區域法院申請第18條繼續扣留令。",
+      "required_en": "For suspected crime proceeds, an authorized officer may apply within that period to the Court of First Instance or District Court under section 18.",
+      "resolution": "Authorized officer explicitly stated in both TC and EN; checked against source23 s.18(1).",
+      "verified_final_point": {
+        "tc": "懷疑犯罪得益，獲授權人員可在上述期間內向原訟法庭或區域法院申請第18條繼續扣留令。法院須信納合理懷疑及扣留有理據，例如進一步調查來源、考慮相關刑事程序或沒收／充公程序。每次命令期不超過自命令日起3個月；新命令不得令總扣留超過首個法院命令日起2年。",
+        "en": "For suspected crime proceeds, an authorized officer may apply within that period to the Court of First Instance or District Court under section 18. The court must be satisfied of reasonable suspicion and justification, such as source investigation or consideration of relevant criminal/forfeiture/confiscation proceedings. Each order permits no more than three months from its date; renewals must not take total detention beyond two years from the first court order."
+      }
+    }
+  ],
+  "previous_essentials_sha256": "ca105e03519b7c5f3fabc9a8adfc6cd8dae1d8b6ab09549b4b24a654f7b192e4",
+  "final_readback_utc": "2026-10-19T04:47:36.486830+00:00",
+  "non_scope_changes_noted": [
+    "據法權產 terminology typo correction",
+    "Originator heading standardised to 匯款人"
+  ]
+}

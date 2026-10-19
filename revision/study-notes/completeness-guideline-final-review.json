@@ -1,0 +1,601 @@
+{
+  "review_type": "Final independent source read-back of source03-related completeness additions",
+  "created_utc": "2026-10-19T04:43:18.890082+00:00",
+  "reviewer": "study_source_review independent agent",
+  "verdict": "No outstanding material error found within the explicitly reviewed additions and corrected base point. G03-01–24 and focused follow-up findings resolved in the bound snapshot.",
+  "scope": {
+    "reviewed_new_blocks": [
+      {
+        "part": 1,
+        "topic": "money-laundering",
+        "title_tc": "財產及境外犯罪得益的涵義",
+        "title_en": "Property and proceeds from overseas conduct",
+        "line": 11,
+        "point_count": 2,
+        "limit": "Source03 paragraph1.9 ML proceeds/overseas-conduct limb reviewed; the separate statutory property definition is outside this bounded final review."
+      },
+      {
+        "part": 1,
+        "topic": "legal-framework",
+        "title_tc": "六項法例的英文全名及常用縮寫",
+        "title_en": "Full names behind the six legal abbreviations",
+        "line": 16,
+        "point_count": 2
+      },
+      {
+        "part": 2,
+        "topic": "statutory-map",
+        "title_tc": "監管、發牌與情報機關的名稱",
+        "title_en": "Names of the regulator, licensing bureau and intelligence unit",
+        "line": 21,
+        "point_count": 2,
+        "limit": "Source03 JFIU reporting-role limb reviewed; other document05 agency/licensing descriptions belong to parent review."
+      },
+      {
+        "part": 6,
+        "topic": "identity",
+        "title_tc": "國籍核實、地址及更名的條件",
+        "title_en": "Nationality verification, addresses and name-change conditions",
+        "line": 80,
+        "point_count": 2
+      },
+      {
+        "part": 6,
+        "topic": "peps",
+        "title_tc": "國際組織及批准人員的定義界線",
+        "title_en": "International organisations and who can approve PEP relationships",
+        "line": 85,
+        "point_count": 2
+      },
+      {
+        "part": 6,
+        "topic": "screening",
+        "title_tc": "匯款篩查的六組最低相關方",
+        "title_en": "Six minimum groups of relevant payment parties for screening",
+        "line": 90,
+        "point_count": 1
+      },
+      {
+        "part": 6,
+        "topic": "wire-transfers",
+        "title_tc": "匯款人資料的準確性與地址",
+        "title_en": "Accuracy of originator information and usable addresses",
+        "line": 94,
+        "point_count": 1
+      },
+      {
+        "part": 6,
+        "topic": "identity",
+        "title_tc": "信託核實的五類來源與組織合法目的",
+        "title_en": "Five trust-verification sources and legitimate organisational purpose",
+        "line": 150,
+        "point_count": 3
+      },
+      {
+        "part": 6,
+        "topic": "beneficial-owners",
+        "title_tc": "實益擁有人資料與極低風險核實",
+        "title_en": "BO information and exceptionally-low-risk verification",
+        "line": 156,
+        "point_count": 3
+      },
+      {
+        "part": 3,
+        "topic": "definitions",
+        "title_tc": "對等司法管轄區的評估不是只記名單",
+        "title_en": "Assessing equivalent jurisdictions beyond a memorised list",
+        "line": 162,
+        "point_count": 1
+      },
+      {
+        "part": 6,
+        "topic": "intermediaries",
+        "title_tc": "相關境外金融機構的三種關係",
+        "title_en": "Three relationship routes for a related foreign FI",
+        "line": 166,
+        "point_count": 2
+      },
+      {
+        "part": 6,
+        "topic": "intermediaries",
+        "title_tc": "本地中介人的保險及專業類別",
+        "title_en": "Insurance and professional categories of domestic intermediary",
+        "line": 171,
+        "point_count": 1
+      },
+      {
+        "part": 6,
+        "topic": "wire-transfers",
+        "title_tc": "戶口號碼、客戶識別號碼、交易參考號碼",
+        "title_en": "Account number, customer identifier and transaction reference",
+        "line": 175,
+        "point_count": 3
+      },
+      {
+        "part": 1,
+        "topic": "sanctions",
+        "title_tc": "恐怖分子財產、跨國旅行及間接控制",
+        "title_en": "Terrorist property, inter-state travel and indirect control",
+        "line": 181,
+        "point_count": 4
+      },
+      {
+        "part": 1,
+        "topic": "sanctions",
+        "title_tc": "第03份所列兩層反擴散框架",
+        "title_en": "The two-tier counter-proliferation framework in document 03",
+        "line": 188,
+        "point_count": 1
+      },
+      {
+        "part": 6,
+        "topic": "enhanced",
+        "title_tc": "關長書面反制要求可獨立於FATF呼籲",
+        "title_en": "CCE written countermeasure requirements can be independent of a FATF call",
+        "line": 192,
+        "point_count": 1
+      },
+      {
+        "part": 6,
+        "topic": "suspicion-indicators",
+        "title_tc": "化整為零、折返交易與其他警號",
+        "title_en": "Structuring/Smurfing, U-turn transactions and other red flags",
+        "line": 196,
+        "point_count": 4
+      },
+      {
+        "part": 7,
+        "topic": "after-report",
+        "title_tc": "提交STR時即覆核，不等待回覆",
+        "title_en": "Review upon filing an STR, without waiting for feedback",
+        "line": 203,
+        "point_count": 1
+      },
+      {
+        "part": 7,
+        "topic": "internal-report",
+        "title_tc": "以回饋持續改善STR質素",
+        "title_en": "Use feedback to improve STR quality",
+        "line": 207,
+        "point_count": 1
+      },
+      {
+        "part": 6,
+        "topic": "timing",
+        "title_tc": "號碼戶口仍須在付款訊息使用真名",
+        "title_en": "Numbered accounts still use real names in payment messages",
+        "line": 211,
+        "point_count": 1
+      },
+      {
+        "part": 5,
+        "topic": "group-controls",
+        "title_tc": "異常交易分析與集團雙向分享",
+        "title_en": "Unusual-transaction analysis and two-way group sharing",
+        "line": 215,
+        "point_count": 1
+      },
+      {
+        "part": 5,
+        "topic": "roles",
+        "title_tc": "管理資料的接收人及替補安排",
+        "title_en": "Management-information recipients and deputy cover",
+        "line": 219,
+        "point_count": 1
+      },
+      {
+        "part": 6,
+        "topic": "simplified",
+        "title_tc": "投資工具及退休計劃例外的責任人",
+        "title_en": "Responsible persons for investment-vehicle and retirement exceptions",
+        "line": 223,
+        "point_count": 3
+      },
+      {
+        "part": 6,
+        "topic": "monitoring",
+        "title_tc": "監察制度設計與資料供應",
+        "title_en": "Monitoring-system design and information access",
+        "line": 229,
+        "point_count": 1
+      },
+      {
+        "part": 6,
+        "topic": "identity-evidence",
+        "title_tc": "查冊、核證與地址要求的補充",
+        "title_en": "Company searches, certification and address requirements",
+        "line": 233,
+        "point_count": 3
+      }
+    ],
+    "base_delta": "part6.py / monitoring / first point only: mandatory-on-reactivation dormant CDD review and clear dormancy-policy definition, preserving no requirement for regular dormant review",
+    "deciding_originals": [
+      "03 stored EN/TC edition: deciding passages for each G03 finding, plus¶1.9,1.14,6.5–6.9 and4.15.2",
+      "04 stored EN/TC consolidated text: Schedule2 s18(7), applied over older03 wording under B33",
+      "06 stored EN edition: A4,A18–A19,A21,A24–A26 for corresponding clarification blocks; relevant TC checked as needed"
+    ],
+    "settled_decisions": [
+      "B33: re-domiciled entity treated like Hong Kong-incorporated for related-foreign-FI intermediary routes",
+      "E28: TC deputy appointment practicability versus EN same-status practicability",
+      "E29: EN board/delegated committee AND senior management; TC senior management"
+    ],
+    "additional_readbacks": [
+      "Terrorist-property definition under03¶6.5 footnote56, including lawful-source property possibility",
+      "Specified-property dealing and inter-state travel finance, mental elements and no-actual-terrorist-act requirement",
+      "UNATMO versus UNSO licensing actor/application recipient",
+      "Stored-edition two-tier PF resolution mapping under03¶6.9, explicitly dated rather than claiming live-current sanctions status",
+      "CCE written notice under03¶4.15.2, including higher-risk circumstances independent of a FATF call"
+    ],
+    "method": "Independent semantic reading of the current bilingual prose against the deciding original passages and settled decisions. No question-bank content used; quote anchors are locators rather than a semantic correctness test."
+  },
+  "input_sha256": {
+    "revision/study-notes/essentials.py": "ff7f22aa41ff48896845d7379e81228f6fc078b2de1eae4fe605770ccf8ce9cd",
+    "revision/study-notes/part6.py": "a9ab8f4180676b47c660f2b7ff4b25cbc985507566f0fdfa777c99b658b38c84",
+    "revision/study-notes/memory_panels.py": "5b47609d746e1ef57b3d28c90293d79793ff857a668040e23c495648c3e82367",
+    "revision/study-notes/part1.py": "9da3f6a1c6c38a0234ab255c0a3f356e26612bb4b2a005a71ca192edacb310e8",
+    "revision/study-notes/part2.py": "7e7c2a63d1c855408eb8a3d6c78a56bf2b0501ea9cfc8fdb91662604a460976b",
+    "revision/study-notes/part3.py": "7c2f932a4cde10fa87e4ab261db4c620c9a37358077c729b8982994935f93332",
+    "revision/study-notes/part4.py": "48e115717c291d49cde87e84759df973888ecc6775ceae1f8183191f5afe6d24",
+    "revision/study-notes/part5.py": "1da26f2a2a99e55d189ac8939f20d9010759ef3d02ac8d8ba6a52f7f9d323899",
+    "revision/study-notes/part7.py": "9cb8367957cb53d135eb01d8f8866e15670c184da686507a69e19787ee2de7cc",
+    "docs/text/EN/03.txt": "6c602e7e4d82a4cf5bbd2a57b9e3fb5b8c20f9e4785c04a130baff34ab53d9ab",
+    "docs/text/TC/03.txt": "a22ad6aac57c9a85513ba3b1d3f44d8edd206b5278728a79454a353738d6f1ad",
+    "docs/text/EN/04.txt": "916a55f448f988bf51d814da36249414c659eb07f1b148da7bfbfc4269811aa1",
+    "docs/text/TC/04.txt": "4cc88b13d23b8e89fa3a6ce52b4041027d555289c0569421958ef0ae676af628",
+    "docs/text/EN/06.txt": "09e767bd18cce69b416eea0a20aa577d647efb57be831f8a2feed997a1406676",
+    "docs/text/TC/06.txt": "1a306caf7ce345067ede0348c58b0fc9153971999c6d16b7a11e14124cb8d3a7",
+    "docs/text/EN/07.txt": "85677c9e208968782ecb9e62c45893796f7dd81bc74efee052579f79aa39ce93",
+    "docs/text/TC/07.txt": "6b2ea8f37af02b12c7bb205c2861dc573910fbc04745369d775e11ddae8f7654",
+    "revision/CONFLICT-CALLS.md": "f57cd8caf072182dcd99454eac37434125a3508f84608e25e26967010e1f7eed",
+    "revision/study-notes/completeness-guideline-review.json": "1bc111b1a437d604689e703748c01e0961e6a0e6fac45bb978cc17e6a04c642f",
+    "revision/study-notes/source-review.json": "284597b54755dc11b1c0fc0ffaf5a9632a15ca7dcb67ea0c72e1e645eac48169",
+    "revision/study-notes/memory-review.json": "630b045158ca1d75209d813422d44044518bd885edb30317d06e7d75ab79221b"
+  },
+  "prior_gap_findings": [
+    {
+      "id": "G03-01",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "5.2 footnote 53",
+        "deciding_anchor": "an MSO should conduct a review upon reactivation of the relationship"
+      },
+      "target": "part6.py / monitoring / 持續CDD及交易監察",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-02",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "4.3.12 and footnotes 23–25",
+        "deciding_anchor": "written confirmation from a trust company which is within the same financial group as the MSO"
+      },
+      "target": "part6.py / identity / 收集與核實須分開",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-03",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "4.3.9",
+        "deciding_anchor": "satisfy itself as to the legitimate purpose of the organisation"
+      },
+      "target": "part6.py / identity",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-04",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "4.4.2–4.4.3",
+        "deciding_anchor": "should endeavour to obtain the same identification information as at paragraph [4.3.2] as far as possible"
+      },
+      "target": "part6.py / beneficial-owners / 核實及特殊結構",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-05",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "4.16.2–4.16.3",
+        "deciding_anchor": "The MSO should document its assessment of the jurisdiction"
+      },
+      "target": "part6.py / simplified or intermediaries; part3.py / definitions",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-06",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "4.11.12–4.11.14",
+        "deciding_anchor": "it is a branch of the head office of the MSO"
+      },
+      "target": "part6.py / intermediaries / 可依賴的類別",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-07",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "10.5–10.7 and footnote 70",
+        "deciding_anchor": "is a different number from the unique transaction reference number"
+      },
+      "target": "part6.py / wire-transfers / 港幣8,000元的界線; memory_panels.py / wire fields",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-08",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "10.13",
+        "deciding_anchor": "prevent carrying out outgoing wire transfers that do not comply"
+      },
+      "target": "part6.py / wire-transfers",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-09",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "6.5(d)–(e)",
+        "deciding_anchor": "section 11L prohibits any person from providing or collecting any property to"
+      },
+      "target": "part1.py / legal-framework and part6.py / screening",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-10",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "6.7–6.8",
+        "deciding_anchor": "persons or entities acting on the behalf of or at the direction of"
+      },
+      "target": "part1.py / legal-framework and part6.py / screening",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-11",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "7.10(a)–(f)",
+        "deciding_anchor": "“Structuring” or “Smurfing”"
+      },
+      "target": "part6.py / suspicion-indicators",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-12",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "7.27",
+        "deciding_anchor": "irrespective of any subsequent feedback provided by the JFIU"
+      },
+      "target": "part7.py / after-report / 報告不會自動清除風險",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-13",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "4.14 footnote 50",
+        "deciding_anchor": "must reflect the real name of the account holder"
+      },
+      "target": "part6.py / timing / anonymous or numbered accounts",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-14",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "4.4.15–4.4.17 footnote 30",
+        "deciding_anchor": "The same controls should be applied to bearer share warrants"
+      },
+      "target": "part6.py / beneficial-owners / 核實及特殊結構",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-15",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "3.17 footnote 11",
+        "deciding_anchor": "This should include information and analysis of transactions or activities which appear unusual"
+      },
+      "target": "part5.py / group-wide",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-16",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "3.6 and 3.8(h); CONFLICT-CALLS E28–E29",
+        "deciding_anchor": "an alternate or deputy CO and MLRO"
+      },
+      "target": "part5.py / roles / 職位履職條件",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-17",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "4.8.10(d), 4.8.14–4.8.16",
+        "deciding_anchor": "stating, to its actual knowledge"
+      },
+      "target": "part6.py / simplified / 可用實益擁有人簡化的客戶",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-18",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "4.8.18",
+        "deciding_anchor": "an MSO may generally treat the employer as the customer"
+      },
+      "target": "part6.py / simplified / 產品及律師客戶戶口例外",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-19",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "4.11.8",
+        "deciding_anchor": "a licensed individual insurance agent"
+      },
+      "target": "part6.py / intermediaries / 可依賴的類別",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-20",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "5.4–5.5",
+        "deciding_anchor": "timely and sufficient information required to identify, analyse and effectively monitor"
+      },
+      "target": "part6.py / monitoring / 持續CDD及交易監察",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-21",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "7.23 and footnote 65",
+        "deciding_anchor": "taking into account feedback and guidance provided by the JFIU in its quarterly report"
+      },
+      "target": "part7.py / internal-report",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-22",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "10.3",
+        "deciding_anchor": "cover payment mechanism"
+      },
+      "target": "part6.py / wire-transfers / 範圍與豁除",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-23",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "Appendix A paragraphs 4–5, 9 and footnotes 73, 76",
+        "deciding_anchor": "obtaining a full company search"
+      },
+      "target": "part6.py / identity-evidence / 核證程序及責任; identity / current-existence evidence",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    },
+    {
+      "id": "G03-24",
+      "status": "resolved_in_bound_snapshot",
+      "source": {
+        "doc": "03",
+        "locator": "4.3.5 footnote 18",
+        "deciding_anchor": "communicate clearly to the customer the reasons"
+      },
+      "target": "part6.py / identity; essentials.py / 國籍核實、地址及更名的條件",
+      "resolution": "Compared the final bilingual source-bound addendum and/or corrected base monitoring point with the deciding original; operative concept, conditions and relevant exceptions now present."
+    }
+  ],
+  "final_pass_corrections": [
+    {
+      "id": "F03-01",
+      "status": "resolved_in_bound_snapshot",
+      "target": "essentials.py / roles / Management-information recipients and deputy cover",
+      "source": "03 TC¶3.8(h); CONFLICT-CALLS E28",
+      "initial_error": "TC placed practicability on equal status, copying the English qualification.",
+      "final_readback": "TC now says 如切實可行，應安排替代／代理CO及MLRO，而其應具相同地位; EN retains practicability on the deputy’s same status. The distinct language versions are preserved."
+    },
+    {
+      "id": "F03-02",
+      "status": "resolved_in_bound_snapshot",
+      "target": "essentials.py / intermediaries / Three relationship routes for a related foreign FI",
+      "source": "04 Schedule2 s18(7)(b)(ii)–(iii); CONFLICT-CALLS B33",
+      "initial_error": "Route3 did not exclude re-domiciled entities after correctly including them in route2.",
+      "final_readback": "Route2 covers qualifying re-domiciled MSOs as Hong Kong-incorporated; route3 explicitly applies to a foreign-incorporated MSO that is not a re-domiciled entity, in both languages."
+    },
+    {
+      "id": "F03-03",
+      "status": "resolved_in_bound_snapshot",
+      "target": "essentials.py / sanctions / Terrorist property, inter-state travel and indirect control",
+      "source": "03¶6.7(a)(iii),(b)",
+      "initial_error": "TC omitted persons from ownership of further entities and compressed the belonging-to limb.",
+      "final_readback": "TC now covers entities owned by the aforementioned persons/entities; both languages retain assets belonging to or owned/controlled by them."
+    },
+    {
+      "id": "F03-04",
+      "status": "resolved_in_bound_snapshot",
+      "target": "essentials.py / intermediaries / Insurance and professional categories of domestic intermediary",
+      "source": "03¶4.11.8(e)(ii)",
+      "initial_error": "TCSP deemed-licensee detail not explicit.",
+      "final_readback": "Both languages now explicitly include statutory deemed licensees; existing customer-specific/procedure conditions remain."
+    },
+    {
+      "id": "F03-05",
+      "status": "resolved_in_bound_snapshot",
+      "target": "essentials.py / suspicion-indicators / Structuring/Smurfing, U-turn transactions and other red flags",
+      "source": "03¶7.10(f)(i)",
+      "initial_error": "Companion flag introduced actual direction of the customer as an extra fact.",
+      "final_readback": "Now low-profile companions or people waiting outside, without requiring proof of direction; non-exhaustive/no-automatic-STR qualifications remain."
+    }
+  ],
+  "outstanding_material_findings": [],
+  "limits": [
+    "This final record covers the listed new source03-related additions and the single corrected base monitoring point, not all unchanged prose in every Part.",
+    "The memory_panels.py and other manuscript hashes are identity bindings; they do not assert a fresh comprehensive semantic review of all unchanged panels/manuscripts in this final pass.",
+    "Original completeness-guideline-review.json remains the historical gap observation. Parent integration and earlier source/memory review records are preserved without rewriting their evidence.",
+    "No new live-law research, no claim of current sanctions-list verification, and no legal certification. All references are the repository’s active stored originals.",
+    "No claim that every illustrative original-source example or every requirement in all01–26 publications has been exhaustively reproduced. No content, source, question-bank or test edits made by this reviewer."
+  ],
+  "postbinding_annotations": [
+    {
+      "at_utc": "2026-10-19T04:48:01.670790+00:00",
+      "authorization": "Explicit parent request to confirm three listed unrelated content deltas and rebind the current final review record.",
+      "earlier_review_record_sha256": "df4306b967e839c20cb7c960067677868cb8e88c771be39967f80491267db3da",
+      "earlier_reviewed_essentials_sha256": "ca105e03519b7c5f3fabc9a8adfc6cd8dae1d8b6ab09549b4b24a654f7b192e4",
+      "current_essentials_sha256": "ff7f22aa41ff48896845d7379e81228f6fc078b2de1eae4fe605770ccf8ce9cd",
+      "confirmed_deltas": [
+        {
+          "clause": "Statutory property definition TC",
+          "before": "可據法權產",
+          "after": "據法權產",
+          "scope": "Terminology correction in separate statutory property limb, outside this review’s source03 semantic scope."
+        },
+        {
+          "clause": "Wire-address heading TC",
+          "before": "發款人資料的準確性與地址",
+          "after": "匯款人資料的準確性與地址",
+          "scope": "Heading terminology only. Underlying reviewed point text unchanged."
+        },
+        {
+          "clause": "CBNI section18 detention-order applicant",
+          "before": "No explicit applicant named in TC/EN sentence",
+          "after": "獲授權人員 / an authorized officer explicitly named",
+          "scope": "Source23 clause outside this review’s source03 semantic scope; handled by other reviewer."
+        }
+      ],
+      "scope_verification": "Reversing exactly these three logical deltas (four TC/EN string substitutions) reconstructs the earlier reviewed essentials bytes with SHA256 ca105e03519b7c5f3fabc9a8adfc6cd8dae1d8b6ab09549b4b24a654f7b192e4. Therefore no other source03 block text changed; every other bound input remains identical.",
+      "verdict": "Prior bounded source03 semantic verdict carries forward. This confirms delta scope and preserves the prior reviewed snapshot binding; it does not newly certify the out-of-scope statutory/CBNI clauses."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "checked": "2026-10-19",
+  "results": [
+    {
+      "doc": "01",
+      "language": "EN",
+      "url": "https://eservices.customs.gov.hk/MSOS/download/licensing/Guidance_Notes_on_the_Competence_Assessment_for_Money_Service_Operators_en.pdf",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    },
+    {
+      "doc": "01",
+      "language": "TC",
+      "url": "https://eservices.customs.gov.hk/MSOS/download/licensing/Guidance_Notes_on_the_Competence_Assessment_for_Money_Service_Operators_zh_TW.pdf",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    },
+    {
+      "doc": "03",
+      "language": "EN",
+      "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_en.pdf",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    },
+    {
+      "doc": "03",
+      "language": "TC",
+      "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/AMLO_Guideline_zh_TW.pdf",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    },
+    {
+      "doc": "05",
+      "language": "EN",
+      "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Licensing_Guide_en.pdf",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    },
+    {
+      "doc": "05",
+      "language": "TC",
+      "url": "https://eservices.customs.gov.hk/MSOS/download/guideline/Licensing_Guide_zh_TW.pdf",
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+    }
+  ]
+}

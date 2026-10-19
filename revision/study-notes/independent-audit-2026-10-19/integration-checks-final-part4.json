@@ -1,0 +1,41 @@
+{
+  "integration": [
+    {
+      "part": 4,
+      "lang": "tc",
+      "selected": [
+        4
+      ],
+      "appLang": "tc",
+      "started": true,
+      "returnLink": "../revision/study-notes/part-4.html?lang=tc",
+      "errors": [],
+      "remoteRequests": []
+    },
+    {
+      "part": 4,
+      "lang": "en",
+      "selected": [
+        4
+      ],
+      "appLang": "en",
+      "started": true,
+      "returnLink": "../revision/study-notes/part-4.html?lang=en",
+      "errors": [],
+      "remoteRequests": []
+    },
+    {
+      "part": 4,
+      "lang": "both",
+      "selected": [
+        4
+      ],
+      "appLang": "both",
+      "started": true,
+      "returnLink": "../revision/study-notes/part-4.html?lang=both",
+      "errors": [],
+      "remoteRequests": []
+    }
+  ],
+  "indexChecks": []
+}

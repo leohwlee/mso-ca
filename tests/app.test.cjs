@@ -27,6 +27,35 @@ function app() {
   return code => vm.runInContext(code, ctx);
 }
 
+test('answer citations name the real repository files in the selected language', () => {
+  const run = app();
+  const catalog = JSON.parse(fs.readFileSync(path.join(root, 'docs/catalog.json')));
+  const guideline = catalog.documents.find(d => d.id === '03');
+  for (const lang of ['en', 'tc']) {
+    run(`S.lang='${lang}'`);
+    const rendered = run("sourceHTML(byId.get('m6-ca7'))");
+    assert.ok(rendered.includes(guideline.editions[lang.toUpperCase()].file));
+    assert.ok(rendered.includes('../docs/'));
+    assert.ok(rendered.includes('4.3.6'));
+  }
+  run("S.lang='both'");
+  const both = run("sourceHTML(byId.get('m6-ca7'))");
+  assert.ok(both.includes(guideline.editions.EN.file));
+  assert.ok(both.includes(guideline.editions.TC.file));
+});
+
+test('Chinese citations for source 24 retain the English original and study-translation label', () => {
+  const run = app();
+  const quotes = JSON.parse(fs.readFileSync(path.join(root, 'docs/quotes.json')));
+  const q = questions.find(q => quotes[q.id].tc.some(r => r.doc === '24'));
+  const catalog = JSON.parse(fs.readFileSync(path.join(root, 'docs/catalog.json')));
+  const doc = catalog.documents.find(d => d.id === '24');
+  run("S.lang='tc'");
+  const rendered = run(`sourceHTML(byId.get('${q.id}'))`);
+  assert.ok(rendered.includes(doc.editions.EN.file));
+  assert.ok(rendered.includes('學習譯文，英文原件'));
+});
+
 test('each mock contains 35 distinct questions, five from each part', () => {
   const run = app();
   for (let i=0; i<20; i++) {

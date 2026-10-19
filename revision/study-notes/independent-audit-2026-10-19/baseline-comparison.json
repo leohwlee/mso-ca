@@ -1,0 +1,122 @@
+{
+  "baseline_utc": "2026-10-19T05:21:09.598015+00:00",
+  "files_compared": 387,
+  "changed": [
+    {
+      "path": "revision/study-notes/README.md",
+      "before": "5879eee93e4a048623bce7e203a1114d5884be40fc11d86897c546e2fec44521",
+      "after": "6dcb0ea566aad6b5a1414a05381bede3be4794d57e226709aecbeeb86b59bd56"
+    },
+    {
+      "path": "revision/study-notes/build.py",
+      "before": "1f32d27c8adf50ca8cd5fafee33768d415862cd9fbd6e8d4d02bfddf1d4ff131",
+      "after": "1ca4c8a227f240fa2cfbc5959f6ef9965ee1e8d2308e1c99c834dea52cfcd6df"
+    },
+    {
+      "path": "revision/study-notes/coverage.json",
+      "before": "7f1dc46fbd2666ed95f9962df24468c669ce787a77903f597874fe95f11674f9",
+      "after": "ee3486b5ffc30bde062bd1afe8f2a858bfbc111537cd91a321ba0b7ee44cd2e8"
+    },
+    {
+      "path": "revision/study-notes/essentials.py",
+      "before": "ff7f22aa41ff48896845d7379e81228f6fc078b2de1eae4fe605770ccf8ce9cd",
+      "after": "45983361f496bd9ba35d6d0076cb2a138a4e310ed3f2bdfb81069e65f04d8011"
+    },
+    {
+      "path": "revision/study-notes/gap_check.py",
+      "before": "4319d1738dc58fa07833a22d41ffd28de3b55f704a52f8e9da156fef03ce3ad6",
+      "after": "5950de3c4ce54be4071eecaa60fbcc5745e81387cd4d3c2d50def81a8fb2f0da"
+    },
+    {
+      "path": "revision/study-notes/index.html",
+      "before": "b6b89be871ae1a1fd7794c7c230cfe6b0c023498f6c34e1228256b04582d50cb",
+      "after": "2546258d7049958b9f644c87d39ffc4c7c4d45649ade872b152a78049dbf432e"
+    },
+    {
+      "path": "revision/study-notes/memory_panels.py",
+      "before": "5b47609d746e1ef57b3d28c90293d79793ff857a668040e23c495648c3e82367",
+      "after": "7928501ea3d84ec588032ab4d99d272943d719757e11f10dc0dc020b85c6afb5"
+    },
+    {
+      "path": "revision/study-notes/part-1.html",
+      "before": "b6b89be871ae1a1fd7794c7c230cfe6b0c023498f6c34e1228256b04582d50cb",
+      "after": "2546258d7049958b9f644c87d39ffc4c7c4d45649ade872b152a78049dbf432e"
+    },
+    {
+      "path": "revision/study-notes/part-2.html",
+      "before": "81656ff00dfe8ab6572a8f6563c9e808cf0c9b1338a84f6517b19af5b59a39b7",
+      "after": "6882d58e85db141d756cc5cc3fc6de9cce91332978b15ab6c46cd485456d2575"
+    },
+    {
+      "path": "revision/study-notes/part-3.html",
+      "before": "b733106afdd43eaf1313fc4c545b648469d075b66add7cc6e88a2d9d3b39863b",
+      "after": "ed1cb98fac69995e68d7cced6a4316e69db2d2c691ec384b8a60b00a02723f33"
+    },
+    {
+      "path": "revision/study-notes/part-4.html",
+      "before": "e8fd11231910ed3599a7457c071731ef1d29b8410409c26cd4311effe6f6a1c3",
+      "after": "0eccc3c9cec3ea826459600c41233c950a45e99dc75900305296ec458e311fef"
+    },
+    {
+      "path": "revision/study-notes/part-5.html",
+      "before": "56f209440b41d613547fd1eefdab558e66ca2d582f390ac9956c957b5c32f386",
+      "after": "b1e591f99f0f0a62c2aa56df70ba341e4e870e2efbd2dd2fcc4e58c6f9a1bb7e"
+    },
+    {
+      "path": "revision/study-notes/part-6.html",
+      "before": "c965bd00b5e2743ca60793c85df83f44420874e8b5aba5b58e53de546a17adfb",
+      "after": "7b9b1cc6352146b06b37594d5a7b2fab0389b8a6366ef19d2a2aa7aabc9e1805"
+    },
+    {
+      "path": "revision/study-notes/part-7.html",
+      "before": "e89e6c5e79211a2d0b19c0bd1aa7496f708c22a935a5beff00e41e7e879d61a2",
+      "after": "9b7f43822f315908fd966757ee61eb4e856a4a3ca969afc61aa7d79ca68506b1"
+    },
+    {
+      "path": "revision/study-notes/part1.py",
+      "before": "9da3f6a1c6c38a0234ab255c0a3f356e26612bb4b2a005a71ca192edacb310e8",
+      "after": "1a27744ea0c68b619c437d65bfa8d729816173457e9140b03ff1117fa6d96d8d"
+    },
+    {
+      "path": "revision/study-notes/part2.py",
+      "before": "7e7c2a63d1c855408eb8a3d6c78a56bf2b0501ea9cfc8fdb91662604a460976b",
+      "after": "ca36278efa24932cf7c05c94df527ee177bf935064571cb07ac5299ac1e1c634"
+    },
+    {
+      "path": "revision/study-notes/part3.py",
+      "before": "7c2f932a4cde10fa87e4ab261db4c620c9a37358077c729b8982994935f93332",
+      "after": "e51f12bb9b2ced695afb9bde3fbeb7459ad7b9ab1a7b294de853f4c5c9539580"
+    },
+    {
+      "path": "revision/study-notes/part4.py",
+      "before": "48e115717c291d49cde87e84759df973888ecc6775ceae1f8183191f5afe6d24",
+      "after": "2afb3cfa22202d5efa80cb4fadedd1278b9395270d0322a15a24c577f9cb0a98"
+    },
+    {
+      "path": "revision/study-notes/part5.py",
+      "before": "1da26f2a2a99e55d189ac8939f20d9010759ef3d02ac8d8ba6a52f7f9d323899",
+      "after": "f621a7a6f36921488c94f39bf0521e7a8d2b5af45531ba746e3627fc4c434fa0"
+    },
+    {
+      "path": "revision/study-notes/part6.py",
+      "before": "a9ab8f4180676b47c660f2b7ff4b25cbc985507566f0fdfa777c99b658b38c84",
+      "after": "d02a0be267457b6462f8dc7fe456a953aa0ac731af3d32ff2ae33dc46d223f6a"
+    },
+    {
+      "path": "revision/study-notes/part7.py",
+      "before": "9cb8367957cb53d135eb01d8f8866e15670c184da686507a69e19787ee2de7cc",
+      "after": "93b8e86151a050bdcb6ca0465d994e8b668cfb9c10a16b2dc2638eaf020db98f"
+    },
+    {
+      "path": "revision/study-notes/style.css",
+      "before": "223e9c0d1c0eae01dbcd9fb85fc76991bdfbaa54b9133f0ae7eaaf30e44f28fd",
+      "after": "0e7dfa7fc6a8384b24fa7d4b46ad90ebf4966425b60d1a25bc37c3eb55148078"
+    },
+    {
+      "path": "tests/study_notes_test.py",
+      "before": "82ab3476ec11cb37ec6cc10f23d309498fd84b8dc9411f02401cb128088b44cb",
+      "after": "3054bd2cbd43dc52794b978c607f6744cf59c64b96d26cccaa889a88af7c802b"
+    }
+  ],
+  "missing": []
+}

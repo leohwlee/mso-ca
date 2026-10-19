@@ -1,0 +1,22 @@
+{
+  "task": "Part 6 bilingual sample",
+  "requested_model": "GPT-6.1 Sol",
+  "model_note": "User reported switching to Sol; account usage endpoint does not report current model or effort.",
+  "before": {
+    "recorded_at": "2026-10-18T14:05:24.092974+00:00",
+    "used_percent": 41,
+    "remaining_percent": 59,
+    "window_minutes": 10080,
+    "resets_at_unix": 1792895948
+  },
+  "after": {
+    "recorded_at": "2026-10-18T14:24:33.422129+00:00",
+    "used_percent": 41,
+    "remaining_percent": 59,
+    "window_minutes": 10080,
+    "resets_at_unix": 1792895948
+  },
+  "measurement_note": "Account-wide rounded percentage; may include concurrent chats and reporting delay.",
+  "reported_change_percentage_points": 0,
+  "interpretation": "No change in reported integer percentage. Actual consumption cannot be determined from this reading; it may be below display resolution or not yet reflected. Do not infer zero cost or extrapolate all remaining chapters from this sample."
+}

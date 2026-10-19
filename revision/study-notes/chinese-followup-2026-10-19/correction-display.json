@@ -1,0 +1,194 @@
+[
+  {
+    "part": 1,
+    "label": "npo",
+    "lang": "tc",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 1,
+    "label": "npo",
+    "lang": "en",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 1,
+    "label": "npo",
+    "lang": "both",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 2,
+    "label": "retained-records",
+    "lang": "tc",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 2,
+    "label": "retained-records",
+    "lang": "en",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 2,
+    "label": "retained-records",
+    "lang": "both",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "label": "trust",
+    "lang": "tc",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "label": "trust",
+    "lang": "en",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "label": "trust",
+    "lang": "both",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "label": "applicability",
+    "lang": "tc",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "label": "applicability",
+    "lang": "en",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "label": "applicability",
+    "lang": "both",
+    "device": "desktop",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 1,
+    "label": "npo",
+    "lang": "tc",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 1,
+    "label": "npo",
+    "lang": "en",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 1,
+    "label": "npo",
+    "lang": "both",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 2,
+    "label": "retained-records",
+    "lang": "tc",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 2,
+    "label": "retained-records",
+    "lang": "en",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 2,
+    "label": "retained-records",
+    "lang": "both",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "label": "trust",
+    "lang": "tc",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "label": "trust",
+    "lang": "en",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "label": "trust",
+    "lang": "both",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "label": "applicability",
+    "lang": "tc",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "label": "applicability",
+    "lang": "en",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  },
+  {
+    "part": 3,
+    "label": "applicability",
+    "lang": "both",
+    "device": "mobile",
+    "visible": true,
+    "overflow": false
+  }
+]
