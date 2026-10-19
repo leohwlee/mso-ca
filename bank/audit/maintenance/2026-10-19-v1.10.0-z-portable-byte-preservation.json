@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "date": "2026-10-19",
+  "reason": "Prevent git archive and checkout newline conversion from changing reviewed source texts, question-bank evidence and browser tests. Content and prior evidence remain unchanged.",
+  "documentation_updates": {
+    ".gitattributes": {
+      "before_text": "# Preserve downloaded official HTML bytes so recorded source hashes stay valid.\ndocs/**/*.html -text\n# Preserve source/review hashes across Windows and Linux checkouts.\nrevision/study-notes/** -text\nrevision/part6-sample/** -text\n.gitattributes text eol=lf\n.gitignore text eol=lf\n.github/workflows/*.yml text eol=lf\nweb/*.html text eol=lf\nweb/*.js text eol=lf\nweb/*.css text eol=lf\nweb/fonts/*.txt text eol=lf\n# These reviewed extracted texts have CRLF byte hashes in the study manifest.\ndocs/text/EN/15.txt -text\ndocs/text/TC/15.txt -text\n",
+      "before_sha256": "5afa27fa52902070d2e09eef453926fd2f1cd756e959d0675c01dae60e11af2f",
+      "after_sha256": "db814a7c24618ec951e9995b8a688fe70e9e5638b2731b8dc0cd70c60775d78e"
+    }
+  }
+}

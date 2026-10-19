@@ -13,3 +13,8 @@ web/fonts/*.txt text eol=lf
 # These reviewed extracted texts have CRLF byte hashes in the study manifest.
 docs/text/EN/15.txt -text
 docs/text/TC/15.txt -text
+# Keep reviewed extracted text exact in archives and checkouts.
+docs/text/** -text
+tests/*.cjs text eol=lf
+web/questions.json text eol=lf
+docs/quotes.json text eol=lf
