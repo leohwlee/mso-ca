@@ -10,3 +10,6 @@ web/*.html text eol=lf
 web/*.js text eol=lf
 web/*.css text eol=lf
 web/fonts/*.txt text eol=lf
+# These reviewed extracted texts have CRLF byte hashes in the study manifest.
+docs/text/EN/15.txt -text
+docs/text/TC/15.txt -text
