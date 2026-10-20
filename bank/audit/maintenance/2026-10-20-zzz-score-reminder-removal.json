@@ -1,0 +1,26 @@
+{
+  "status": "verified",
+  "date": "2026-10-20",
+  "reason": "Owner-requested removal of test-score backup/migration reminders from bilingual READMEs, release notes and future bundle instructions. No question, study-note or app behaviour change.",
+  "archive": "bank/audit/history/2026-10-20-before-score-reminder-removal.zip",
+  "archive_sha256": "851626fd8690d8a51be8341a74e4c795d065918c4f79afe355dbd097d67746ed",
+  "archive_updates": {
+    "README.md": {
+      "before_sha256": "938f83ab02803cd91348987c1d9922f289a871a6306661dfdba9267dfbd81ac6",
+      "after_sha256": "a1e8fe809a49066e768c8975b57cf6ca8eef7ac2906ff4203f401b8366618886"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "6a8f9ede205964d1f5378bd1c48c67e0d48507ec36d7e4b4d7188d5a2139f01e",
+      "after_sha256": "1f8fd19d0089d0c0f0cb566ca0f3887a0d7404b5f1681444e52cad61fff1d2c5"
+    },
+    "CHANGELOG.md": {
+      "before_sha256": "3bd9c39cd4f82e8b007c1007873cd5e6157c49a017e582607be5c288b7e9d4ed",
+      "after_sha256": "3d7964bea0276adc11e2e7dda413cb266d75d53c9d5501dfb3f146c49eee2078"
+    },
+    "scripts/build_study_bundle.py": {
+      "before_sha256": "b6752ff79e51d21189f0d2905330bc3a6110d222734d0381b863dc26213a1c6b",
+      "after_sha256": "e9c5eff775a459e0206e111bdc2f4ef6e2932429864196e82b86337a7e040fad"
+    }
+  },
+  "documentation_updates": {}
+}

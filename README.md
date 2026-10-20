@@ -36,7 +36,7 @@ screens, table headings and language-switch positioning have also been improved.
 Read the [content review](revision/study-notes/depth-review-2026-10-20/REPORT.md),
 [visual review and previews](revision/study-notes/visual-refinement-2026-10-20/REPORT.md)
 for checked ranges and remaining limits. Counts are not coverage percentages.
-The 525 questions, answers, scoring and history format are unchanged.
+The 525 questions, answers and scoring are unchanged.
 
 ## Choose how to practise
 
@@ -55,14 +55,10 @@ Statements and their option references are reordered together at each draw.
 Distractors test conditions, actors, deadlines, thresholds and exceptions;
 each statement has its own explanation.
 
-## Your results
+## Review results
 
-Expand **Mock exam results and history** to review completed attempts or save
-them to a readable `.md` backup. History is stored in the browser; it does not
-sync between devices. **Export it before replacing the app, moving its file,
-switching browsers or clearing browser data.** You can load that backup in the
-new copy. An unfinished exam containing a retired question must be restarted;
-completed recorded scores are preserved.
+Expand **Mock exam results and history** to review completed attempts.
+Results are stored locally in the browser.
 
 [Full user guide and troubleshooting](docs/USAGE.md)
 
