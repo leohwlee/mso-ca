@@ -159,7 +159,7 @@ if('IntersectionObserver' in window){
 current(location.hash.slice(1)||nav[0]?.dataset.section);
 })();
 """
-def part_nav(n):return '<nav class="part-nav" aria-label="Parts">'+''.join(f'<a href="part-{i}.html"'+(' aria-current="page"' if n==i else '')+f'>Part {i}</a>' for i in PARTS)+'</nav>'
+def part_nav(n):return '<nav class="part-nav" aria-label="章節導覽 / Parts">'+''.join(f'<a href="part-{i}.html"'+(' aria-current="page"' if n==i else '')+'>'+label(f'第{i}部分',f'Part {i}')+'</a>' for i in PARTS)+'</nav>'
 def render_block(b):
     title='<h3>'+pair(b['title'])+'</h3>'
     if b['kind']=='flow':

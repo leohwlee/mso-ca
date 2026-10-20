@@ -394,7 +394,7 @@ function homeView() {
     </div>`;
 
   const chips = MODULES.map(m =>
-    `<button class="chip ${pmodSel.has(m.n) ? 'on' : ''}" data-pm="${m.n}" aria-pressed="${pmodSel.has(m.n)}">Part ${m.n} ${esc(S.lang === 'en' ? '' : '')}${esc(shortMod(m))}</button>`).join('');
+    `<button class="chip ${pmodSel.has(m.n) ? 'on' : ''}" data-pm="${m.n}" aria-pressed="${pmodSel.has(m.n)}">${ui(`Part ${m.n}`, `第${m.n}部分`)} ${esc(shortMod(m))}</button>`).join('');
 
   return topbarHTML() + `
   <div class="wrap">

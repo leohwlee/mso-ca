@@ -3,13 +3,13 @@
   "method": "Original passages -> concepts, definitions, requirements, conditions and exceptions. Source-bound recall comparisons supplement full visible prose. The bank is used only by the separate gap audit.",
   "limitations": "Anchors prove source location, not semantic completeness. See depth-review-2026-10-20/REPORT.md and its per-source inventories for the current depth review, bilingual meaning checks, source-selected statutory coverage, reference-detail decisions and unresolved verification boundaries. This is not a line-by-line bilingual audit of every full volume or a guarantee about unknown official questions. Official source categories extend beyond the owner-selected 01–26. Historical reviews remain preserved, not proof of this review. Dated findings/lists retain their publication date.",
   "manuscripts": {
-    "part1.py": "d83b54107a1c102ddbda3f026d0fa70a6c27ee9479a5452dcd8e144e0f67bc5f",
-    "part2.py": "52ed661a67fb3f91dc5b81eec14d56645a644cf42acaf91e2b76ac0fe2e8e60a",
-    "part3.py": "5bb11e38bc136f5bab452cee59ab68fb06a25561dbf0774247126a0846df6628",
-    "part4.py": "a866bbb4836c66e48facf85fcc8779d7c58a1f95d3eae32ab8bca876ebc03c53",
-    "part5.py": "78e1f78141799d5ae8918cd1905b7a89412f1c0a16fc9ddf2187b0c30e637ba5",
-    "part6.py": "4ac6c08a30d8ac3fd4a11b6bdf010410aa17c32471c66cd30b2e551c2a859dfc",
-    "part7.py": "274acc15797329c896f2cddd1a9af46d4d28c214890b78847f17e617233d3fc8"
+    "part1.py": "03621b06fc292c931af817aa0ebe8fc3263db8b3bea69cebef3000ef0aebbfb8",
+    "part2.py": "be06fa056a56df29a85f4874571a442bcb8e12534b9c1fb771ade84b51b62063",
+    "part3.py": "c327d32cc0a04735f69ef1ebade03ab4950afa4a6c5beeee02ab73ca0ffde928",
+    "part4.py": "c1373a476f0ca63b0fd708a90280fccabc29b64055bda03a2f392ec2b80ea949",
+    "part5.py": "45b999b481bd911de9741dd97a806072d01e173a5bdfdf8acbe22a2660af2c29",
+    "part6.py": "e68a08a544b86e00852e144d0c5daf52706860e60029a2b319a8916c983e7073",
+    "part7.py": "ba523b58c13821da75e05699b43c6e156deedb7519a9e7fc4b729e30085dc5b0"
   },
   "essentials": {
     "sha256": "45983361f496bd9ba35d6d0076cb2a138a4e310ed3f2bdfb81069e65f04d8011",
@@ -17,7 +17,7 @@
     "points": 0
   },
   "recall": {
-    "sha256": "38c5b87ded3bca3fd74907db0c4a5807fb934209265ca5400cecbda2b3793148",
+    "sha256": "12e9f787f1e1e8a91743bb0b83ef24866871b2e6bdbcc5e4195b69e8b6b92164",
     "tables": 11,
     "diagrams": 22,
     "visual_sources": {
@@ -1676,7 +1676,7 @@
             {
               "doc": "04",
               "locator": {
-                "tc": "附表3A–3K；Part 2筆記末節",
+                "tc": "附表3A–3K；第2部分筆記末節",
                 "en": "Schedules 3A–3K; Part 2 notes, final section"
               },
               "anchor": "Information to be Provided in Cash Transaction Report"

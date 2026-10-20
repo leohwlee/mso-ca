@@ -387,7 +387,7 @@ section('screening', '制裁及恐怖分子篩查', 'Sanctions and terrorist scr
         ('建立及更新恐怖分子／受指定人士資料庫，涵蓋香港憲報、商經局及海關提示名單；可用第三方資料庫，但須抽查完整及準確。聯合國新名單應盡快加入，不等香港立法後才處理風險。', 'Maintain a database covering Gazette, CEDB and C&ED-notified designations. Third-party databases require completeness/accuracy checks. Add new UN lists promptly, without waiting for Hong Kong implementation before addressing risk.'),
         ('建立關係時篩查客戶及實益擁有人；名單新增／更新後盡快重查；執行跨境電傳／匯款前篩查全部相關人士。客戶風險低亦須篩查；關連人士及代表按RBA延伸處理。', 'Screen customers/beneficial owners on establishment and promptly after designation updates; screen all relevant cross-border wire/remittance parties before execution. Screening applies even to low-risk customers; extend it to connected parties/representatives on an RBA.'),
         ('相似姓名先加強核查確認是否真正命中，保存篩查及核查結果；有恐怖分子、擴散資金籌集或違反制裁懷疑時報JFIU。外判海外辦事處篩查／維護名單，最終責任仍在本機構。', 'Investigate potential name matches to determine genuine hits and keep screening/check results. Report TF/PF/sanctions suspicions to the JFIU. Overseas-office screening/database maintenance does not transfer ultimate responsibility.'),
-        ('法律禁止交易與按風險採EDD是不同層次；不能因風險評為低便忽略適用制裁禁令。合法特許須按相應法例向保安局或商經局申請，詳見Part 1。', 'A legal prohibition differs from risk-based EDD: low risk does not override applicable sanctions. Licensing exceptions require the competent Security Bureau/CEDB process under the relevant law, explained in Part 1.'),
+        ('法律禁止交易與按風險採EDD是不同層次；不能因風險評為低便忽略適用制裁禁令。合法特許須按相應法例向保安局或商經局申請，詳見第1部分。', 'A legal prohibition differs from risk-based EDD: low risk does not override applicable sanctions. Licensing exceptions require the competent Security Bureau/CEDB process under the relevant law, explained in Part 1.'),
     ], [
         ref('03', '第6.6–6.8、6.12–6.19段及註58', '¶6.6–6.8, 6.12–6.19; footnotes 58', 'irrespective of the risk profile attributed to the customer'),
     ], kind='list'),
@@ -552,7 +552,7 @@ section('trade-based-laundering', '貿易洗錢：定義與四類風險指標', 
 ]),
 section('suspicion-indicators', '其他可疑交易指標', 'Other suspicious-activity indicators', [
     block('使用方法：記住分類，理解具體警號', 'Use: remember the groups and understand the indicators', [
-        ('第7.10段分六組列出43項非盡列警號。學習時要能認識具體模式及其可疑之處，毋須逐字背例句；單一警號不是定罪或自動必報STR的充分條件。依第7.10段末的要求作進一步調查，至少初步查詢資金來源及要求額外CDD佐證；形成知悉／懷疑時，按Part 7的法定及內部程序盡快報告。', 'Paragraph 7.10 gives 43 non-exhaustive indicators in six groups. Recognise the specific patterns and why they matter; verbatim memorisation of examples is unnecessary. A single indicator is not proof or an automatic STR trigger. Under the end of paragraph 7.10, investigate further, at least making initial SOF enquiries and requesting additional CDD evidence; report knowledge/suspicion promptly through the statutory/internal procedures in Part 7.'),
+        ('第7.10段分六組列出43項非盡列警號。學習時要能認識具體模式及其可疑之處，毋須逐字背例句；單一警號不是定罪或自動必報STR的充分條件。依第7.10段末的要求作進一步調查，至少初步查詢資金來源及要求額外CDD佐證；形成知悉／懷疑時，按第7部分的法定及內部程序盡快報告。', 'Paragraph 7.10 gives 43 non-exhaustive indicators in six groups. Recognise the specific patterns and why they matter; verbatim memorisation of examples is unnecessary. A single indicator is not proof or an automatic STR trigger. Under the end of paragraph 7.10, investigate further, at least making initial SOF enquiries and requesting additional CDD evidence; report knowledge/suspicion promptly through the statutory/internal procedures in Part 7.'),
     ], [
         ref('03', '第7.9–7.11段', '¶7.9–7.11', 'list of non-exhaustive red flag indicators'),
     ], kind='list'),
@@ -572,7 +572,7 @@ section('suspicion-indicators', '其他可疑交易指標', 'Other suspicious-ac
     block('三、貿易洗錢：十一項', '3. Trade-based laundering: eleven indicators', [
         ('（1）高風險起點／目的地；（2）高風險貨物，例如高價低體積貨物（如電子產品），以及周轉快且難估值的軍民兩用貨物；（3）提單／發票的貨物描述與實際付運貨物有重大差異；（4）發票貨價與公平市場價值有重大差異。', '(1) Higher-risk origin/destination; (2) higher-risk goods, e.g. high-value low-volume goods (such as electronics) and dual-use goods with high turnover and valuation difficulties; (3) significant discrepancies between bill-of-lading/invoice descriptions and actual goods shipped; (4) significant discrepancies between invoice values and fair market value.'),
         ('（5）交易規模與業務不符；（6）付款方式增加風險，例如向高風險地區的新供應商預付款；（7）無關第三方付款；（8）信用證反覆延長／修改。', '(5) Size inconsistent with the business; (6) a payment method increasing risk, e.g. advance payment to a new supplier in a higher-risk jurisdiction; (7) unrelated third-party payments; (8) repeatedly extended/amended letters of credit.'),
-        ('（9）交易方似為幌子／空殼公司；（10）付運地點無合理理由經其他地區轉運；（11）付運貨物不合經濟常理。Part 6「貿易洗錢」另載第24份的四類指標，兩套分類不要混為同一清單。', '(9) Apparent front/shell-company trading parties; (10) unjustified trans-shipment through other locations; (11) shipments that make no economic sense. The TBML section separately explains document 24’s four indicator groups; these are distinct lists.'),
+        ('（9）交易方似為幌子／空殼公司；（10）付運地點無合理理由經其他地區轉運；（11）付運貨物不合經濟常理。第6部分「貿易洗錢」另載第24份的四類指標，兩套分類不要混為同一清單。', '(9) Apparent front/shell-company trading parties; (10) unjustified trans-shipment through other locations; (11) shipments that make no economic sense. The TBML section separately explains document 24’s four indicator groups; these are distinct lists.'),
     ], [
         ref('03', '第7.10(c)段及註62–63', '¶7.10(c); footnotes 62–63', 'the use of an advance payment for a shipment'),
     ], kind='list'),

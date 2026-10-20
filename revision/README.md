@@ -1,8 +1,8 @@
 # Archived revision pack / 已歸檔的舊溫習資料
 
-Current release: [v1.10.1](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.1). Use `mso-study-bundle.zip` for the updated seven-part notes, practice and originals 01–26.
+Current release: [v1.10.2](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.2). Use `mso-study-bundle.zip` for the updated seven-part notes, practice and originals 01–26.
 
-現行版本：[v1.10.1](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.1)。下載完整學習包，可離線閱讀更新後的七部分筆記、練習及01–26原件。
+現行版本：[v1.10.2](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.2)。下載完整學習包，可離線閱讀更新後的七部分筆記、練習及01–26原件。
 
 The new [seven-part study material](study-notes/index.html) uses the B annotated
 reference design, with source-authored bilingual concepts, definitions,

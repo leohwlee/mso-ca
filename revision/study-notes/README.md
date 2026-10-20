@@ -3,11 +3,11 @@
 Open [index.html](index.html) and select Part 1–7. The source-authored notes retain
 the B blue-gray reference style and Traditional Chinese, English and bilingual
 reading. Keep this folder inside the repository so original-file and practice
-links work. Alternatively, download [v1.10.1's complete study bundle](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.1),
+links work. Alternatively, download [v1.10.2's complete study bundle](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.2),
 extract it fully and open its root `index.html`. Reading pages embed their styles and font and work offline.
 
-開啟 [index.html](index.html)，選擇Part 1–7。筆記以01–26原文整理，保留B風格、
-繁體中文／英文／雙語與離線閱讀。保留於repo內，或下載[v1.10.1完整學習包](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.1)
+開啟 [index.html](index.html)，選擇第1至7部分。筆記以01–26原文整理，保留B風格、
+繁體中文／英文／雙語與離線閱讀。保留於repo內，或下載[v1.10.2完整學習包](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.2)
 並完整解壓、開啟根目錄的`index.html`，原件及練習連結才可正常使用。
 
 ## Current audit / 本輪審核
@@ -19,7 +19,7 @@ point pairs; the 11 tables and 22 diagrams remain. These counts are not coverage
 percentages. The report distinguishes source reading, meaning checks, selected
 statutory coverage, automated checks and actual browser inspection.
 
-[10月20日深度審核](depth-review-2026-10-20/REPORT.md)重新檢查七個Part，優先補足高優先級原文
+[10月20日深度審核](depth-review-2026-10-20/REPORT.md)重新檢查七個部分，優先補足高優先級原文
 的完整清單、適用條件及措辭強度。整合後有75主題、621組雙語要點，保留11張表及22個圖解；
 數量不代表覆蓋率。報告明列已讀原文、含義核對、法例選定範圍、自動檢查及實際頁面檢視。
 
@@ -50,7 +50,7 @@ the [preceding omission report](omissions-review-2026-10-19/REPORT.md),
 and [findings with source locations](omissions-review-2026-10-19/FINDINGS.md).
 
 第04／25份未納入內容的後續審核連同本次收尾已落實15組補充，共36組雙語要點，
-並重新生成七個Part。當時已批准的視覺優化後共有75個主題、533組雙語要點、11張表及22個示意圖（包括3棵決策樹）；
+並重新生成七個部分。當時已批准的視覺優化後共有75個主題、533組雙語要點、11張表及22個示意圖（包括3棵決策樹）；
 數量不是覆蓋率。[當輪收尾報告](approval-closeout-2026-10-19/REPORT.md)列出實際核對範圍、
 取捨及驗證，並把需要理解的核心概念和其他行業參考分開。
 歷史統計、其他行業行政費表／程序仍保留原文參考，不是因為未被引用便排除。
@@ -122,5 +122,5 @@ and history ZIPs remain evidence of their own versions. They were not used as pr
 of current content correctness. `coverage.json` is the current generated manifest.
 
 本輪基線保留原有改動及歷史紀錄；舊QA、COMPLETENESS、review、gap-audit及歷史ZIP
-不改寫、不作本版正確性的背書。早期Part 6樣章不作正式文稿來源。
+不改寫、不作本版正確性的背書。早期第6部分樣章不作正式文稿來源。
 公開發佈版本與下載方式見根目錄[版本記錄](../../CHANGELOG.md)；上述審核日期及歷史結論不因發佈而改寫。

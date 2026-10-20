@@ -1,0 +1,142 @@
+{
+  "status": "verified",
+  "date": "2026-10-20",
+  "reason": "Owner-authorized Chinese section terminology correction and v1.10.2 release. Preserves the previous manuscripts, generated pages, current source-route check and documentation before wording/version updates. English content, question bank, sources and scoring are unchanged; this is file preservation, not a new semantic review.",
+  "archive": "bank/audit/history/2026-10-20-before-chinese-section-wording.zip",
+  "archive_sha256": "ba831c379b9459b9b9bde5255fee752df2ff98ed9bcf16a4f4fe7f4cb1c31fd5",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "3d7964bea0276adc11e2e7dda413cb266d75d53c9d5501dfb3f146c49eee2078",
+      "after_sha256": "537fddabe7d96ea1751786e6d9ed83e4cb91641711f178defc17c91c1a6b0ed7"
+    },
+    "README.md": {
+      "before_sha256": "0903b795911864a084081dd340a3aebbd891c8dfa4f19e1526b5b65b85dcb50d",
+      "after_sha256": "46dbfb00ed1afd78c8a69e26045a6bee178c5b581fe4f91bb2b077dcd87de201"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "034b2143d21bca9c5e9b7efc8424cff5dd4e9b59e048998d4c0aa0f5ad3f992a",
+      "after_sha256": "becec0f75560e5a4e6fac610b8d523d470e59b4d6f6870704a944346385e88a3"
+    },
+    "docs/README.md": {
+      "before_sha256": "907e255369263605c7588e9a73135f60290c9113f6190539bf8e10cb7e5767df",
+      "after_sha256": "91032bb846126d933a067c44d6e129890cdcde2ef15f30da06d770c7fd39b47f"
+    },
+    "docs/README.zh-Hant.md": {
+      "before_sha256": "3a6c1a508cf4f62f9a4ba3d0f0171ee90666dc7be9680ae85ea01338abb28b17",
+      "after_sha256": "e960823611982e87d90c143df23ce72519de6a3b00e892af6e20368c3ddffca9"
+    },
+    "docs/USAGE.zh-Hant.md": {
+      "before_sha256": "603a69552261bb344cf42b3f0766ffb5b4fd5fda3379fadf46d8db4f65ab7ece",
+      "after_sha256": "e4e4d6b6fe0117b6c9a1e74de4e51f7aa4fed382358d6aaaa2c4da4258bbd16f"
+    },
+    "docs/archive/README.md": {
+      "before_sha256": "c9ce5c3622bb5bbee3c792932cc5136dcc8e26d4e03d62e406ccae790e8f2dc9",
+      "after_sha256": "00292f304e5fd3d3c3f256f06b2a010522844911571dd8699928b2d61ef6e528"
+    },
+    "docs/archive/README.zh-Hant.md": {
+      "before_sha256": "e71b72381f9d06570042dc2b7c8a06bf632da314de420071d48a9c30b934f9a0",
+      "after_sha256": "1e4a1263f2fc3a026403f5cef13ce5b37fae0e1a57112f733ae24dab88ee5bb2"
+    },
+    "docs/build_catalog.py": {
+      "before_sha256": "6fe8c77641e3a8edeed35e3fc00a2f55d46da932306ed1a23a0461cd96f23281",
+      "after_sha256": "f411ca7afba381374965437fdd021eb68e6d738485df6c4729f72cf1d5c8a6ce"
+    },
+    "revision/README.md": {
+      "before_sha256": "7650a73739dbe93d09a8dd8eb08c98910fb4f1c3575dd432d9041f1bb50a2991",
+      "after_sha256": "b0c17b27600aeb2ef04376b0a72b1fca58538a233b68d244069daa7018feb6b5"
+    },
+    "revision/part6-sample/README.md": {
+      "before_sha256": "8dbe14e6c02b271afefeebb76cefeff7810ce477f72e84bc96f65ff31abbab61",
+      "after_sha256": "99e160a421fea4e6ac37eeb251942949e6e0f0fc2decece2ff6a550b0d29ff2f"
+    },
+    "revision/study-notes/README.md": {
+      "before_sha256": "790e484f822d8840eddf76375f2f9be012c6bbaadf56e4ee876ad2b47fe36769",
+      "after_sha256": "24aaf7cad891766de6a7ec5fcfbccb9ee7dd188864387bf052116b9b5f258a00"
+    },
+    "revision/study-notes/build.py": {
+      "before_sha256": "818e01bd2e012a93def0c63db456f110418c551761e1c014eb1bd0a3796c74fb",
+      "after_sha256": "2c7d48996cfffdc33f75eeac03c187b5a2ee2a99f8d6e7d9fc9fe7506b7dee4a"
+    },
+    "revision/study-notes/coverage.json": {
+      "before_sha256": "82b1135947f483648b6ff998549e75480a4135cc982020e932de3cd475a827d0",
+      "after_sha256": "ec1d10b4252aa278bbd8601e0ac8b711e43de3726a28e99b899d46b613d316bc"
+    },
+    "revision/study-notes/index.html": {
+      "before_sha256": "a917333ce89ce11c0c9755a7a45e58e2dd9f7f8c48451024e090cfebea986ca1",
+      "after_sha256": "b71db6e9ebf6e0698f6193f007f1ef88162479e91a9c7d05ce290faef68b98b6"
+    },
+    "revision/study-notes/memory_panels.py": {
+      "before_sha256": "71da616d40336b7d10a04595c197a4ec9c1278d4e7158613793695cb05b08d13",
+      "after_sha256": "d0a74fa90e5c7736e190c988ac1e31ca625d3929c51c4dd7953f0c5788aae1af"
+    },
+    "revision/study-notes/part-1.html": {
+      "before_sha256": "a917333ce89ce11c0c9755a7a45e58e2dd9f7f8c48451024e090cfebea986ca1",
+      "after_sha256": "b71db6e9ebf6e0698f6193f007f1ef88162479e91a9c7d05ce290faef68b98b6"
+    },
+    "revision/study-notes/part-2.html": {
+      "before_sha256": "8c4b9e16816c0ee9d1c7099d9f7684aab9cb692a5eb117f39702eeca8675b557",
+      "after_sha256": "5d33733ace797805003a774ef5d79a05c84c4e3a9997673b9b99ed90ddbdeb69"
+    },
+    "revision/study-notes/part-3.html": {
+      "before_sha256": "43a05c56ee9ce5e332756dc45dc5f519137cad313b718f91838696dfd8f61f74",
+      "after_sha256": "a68a6dc31c480f04c27e7b2364db9b4d2971c89ab6b105f8b4e219431b951a1b"
+    },
+    "revision/study-notes/part-4.html": {
+      "before_sha256": "865cbe775e3902bbaaf9673d2ea41227d8cbc1000c7f9b6f815c3df221700625",
+      "after_sha256": "beb956a3cd74ec0e01daab69d934ebce5a289c1d3bdfac11a784209a8af01201"
+    },
+    "revision/study-notes/part-5.html": {
+      "before_sha256": "d818638d2b411e4d69f9a9b2beb6bc461e759ad7ee8e9314bfba7cc7a45148a9",
+      "after_sha256": "8309379ecf520b2eb46af48fe3b3e02c2a62c6aac59d39ab85cb204f0f0db633"
+    },
+    "revision/study-notes/part-6.html": {
+      "before_sha256": "1207b1f926cfdea6ce00359fb8b159b9bdbe0072627a56ab92e16ca0f53a85d8",
+      "after_sha256": "7673bb9a3c1db3b05e1478cb58d0b00b1ff145998c2961a579259f93bd61622d"
+    },
+    "revision/study-notes/part-7.html": {
+      "before_sha256": "a878aaa24eceba80827686b3f274517044295ac47bbc55d8c75f92baed6a001f",
+      "after_sha256": "230875b95fe4a2cad86a7e0dba3c8fff18f10208ffa635f63e0b456c1c9e1a9f"
+    },
+    "revision/study-notes/part1.py": {
+      "before_sha256": "d83b54107a1c102ddbda3f026d0fa70a6c27ee9479a5452dcd8e144e0f67bc5f",
+      "after_sha256": "03621b06fc292c931af817aa0ebe8fc3263db8b3bea69cebef3000ef0aebbfb8"
+    },
+    "revision/study-notes/part2.py": {
+      "before_sha256": "52ed661a67fb3f91dc5b81eec14d56645a644cf42acaf91e2b76ac0fe2e8e60a",
+      "after_sha256": "be06fa056a56df29a85f4874571a442bcb8e12534b9c1fb771ade84b51b62063"
+    },
+    "revision/study-notes/part3.py": {
+      "before_sha256": "5bb11e38bc136f5bab452cee59ab68fb06a25561dbf0774247126a0846df6628",
+      "after_sha256": "c327d32cc0a04735f69ef1ebade03ab4950afa4a6c5beeee02ab73ca0ffde928"
+    },
+    "revision/study-notes/part4.py": {
+      "before_sha256": "a866bbb4836c66e48facf85fcc8779d7c58a1f95d3eae32ab8bca876ebc03c53",
+      "after_sha256": "c1373a476f0ca63b0fd708a90280fccabc29b64055bda03a2f392ec2b80ea949"
+    },
+    "revision/study-notes/part5.py": {
+      "before_sha256": "78e1f78141799d5ae8918cd1905b7a89412f1c0a16fc9ddf2187b0c30e637ba5",
+      "after_sha256": "45b999b481bd911de9741dd97a806072d01e173a5bdfdf8acbe22a2660af2c29"
+    },
+    "revision/study-notes/part6.py": {
+      "before_sha256": "4ac6c08a30d8ac3fd4a11b6bdf010410aa17c32471c66cd30b2e551c2a859dfc",
+      "after_sha256": "e68a08a544b86e00852e144d0c5daf52706860e60029a2b319a8916c983e7073"
+    },
+    "revision/study-notes/part7.py": {
+      "before_sha256": "274acc15797329c896f2cddd1a9af46d4d28c214890b78847f17e617233d3fc8",
+      "after_sha256": "ba523b58c13821da75e05699b43c6e156deedb7519a9e7fc4b729e30085dc5b0"
+    },
+    "revision/study-notes/visual-refinement-2026-10-20/bank-source-routes.json": {
+      "before_sha256": "4737bc49cc0752f0eb9ec15b16039feffaac35d3c686d3db0835196e7007d7eb",
+      "after_sha256": "2038edf197e4575682703910f18de18851b044fe07d49a1cf6e6352054d96b0c"
+    },
+    "scripts/build_study_bundle.py": {
+      "before_sha256": "e9c5eff775a459e0206e111bdc2f4ef6e2932429864196e82b86337a7e040fad",
+      "after_sha256": "07a0ed442d44557978c3d01cc2335ef230bd804adaba72df4db24e9fef261cba"
+    },
+    "web/app.js": {
+      "before_sha256": "06b3a323b83fbedd41d6b4d8e521bd3259c73e5e9aeeddd07b8368395385bfda",
+      "after_sha256": "8de7d8e6679684f128e436059769e7d6f63ea936c9acd344b6e2252b434a1e40"
+    }
+  },
+  "documentation_updates": {}
+}

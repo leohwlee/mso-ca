@@ -1,5 +1,17 @@
 # Release notes / 版本更新
 
+## v1.10.2 — 20 October 2026
+
+- Uses natural Chinese section wording throughout current study notes, navigation, practice buttons and bundle instructions; English text remains in English.
+- Rebuilds the offline study bundle and practice app. The 525 questions, answers, grading and source editions are unchanged.
+- 現行中文筆記、章節導覽、練習按鈕及學習包說明統一使用「部分」，例如「閱讀七個部分」「第1部分」「每個部分」，避免中英混寫。
+- 重新打包離線學習包及練習頁面；525道題、答案、評分及來源版次不變。
+
+**Downloads / 下載：** `mso-study-bundle.zip` for notes, practice and originals 01–26; extract the entire ZIP and open `index.html`. `mso-ca.html` for standalone practice.
+完整學習包包含筆記、練習及01–26原件；完整解壓後開啟 `index.html`。單獨練習可下載 `mso-ca.html`。
+
+[Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.2)
+
 ## v1.10.1 — 20 October 2026
 
 - Expands the seven-part notes from 533 to 621 bilingual point pairs across 75 topics, prioritising High-source definitions, complete lists, conditions and exceptions. These are size counts, not official-syllabus coverage.
@@ -9,7 +21,7 @@
 - Refreshes all repository README entry points and the bundled instructions. The 525 questions, IDs, answers and grading are unchanged.
 - 七部分筆記由533增至621組雙語要點，涵蓋75個主題；優先補足高優先級原文的定義、完整清單、條件及例外。數量不是官方考綱覆蓋率。
 - 逐項覆核33個圖表；CDD觸發改為可並存情況圖，保留兩棵適用的決策樹，並釐清內層AND／OR、期限、培訓紀錄指引及紀律罰款上限。
-- 改善窄屏、雙語、表頭及跳轉位置；七個Part均經三種語言、五種寬度實測，共105組頁面檢查。
+- 改善窄屏、雙語、表頭及跳轉位置；七個部分均經三種語言、五種寬度實測，共105組頁面檢查。
 - 保留第26份已批准的中英文措辭差異，以及獨立的內容／視覺審核記錄。原件版次及01–26選定範圍未變。
 - 同步更新倉庫所有README入口及學習包說明；525題的ID、題目、答案及評分不變。
 

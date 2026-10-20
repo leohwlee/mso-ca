@@ -12,7 +12,7 @@ Basis: [official Guidance Notes, paragraphs 5.2-6.1](https://eservices.customs.g
 
 21 of the 47 publications have been removed from daily reading: covered extracts, old notices, repeat training, historical resolutions and lower-priority extensions. See [the decisions and reasons](archive/README.md). Originals and question evidence remain. Archiving does not establish withdrawal or exam exclusion; the current question bank uses only 01–26; archived material is historical reference.
 
-The v1.10.1 [seven-part notes](../revision/study-notes/index.html) retain lists, conditions and exceptions from the High-priority originals; see [review scope and limits](../revision/study-notes/README.md). Download the complete study bundle from the [release page](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.1) for offline reading. This release does not update source editions or extend the 01–26 selection.
+The v1.10.2 [seven-part notes](../revision/study-notes/index.html) retain lists, conditions and exceptions from the High-priority originals; see [review scope and limits](../revision/study-notes/README.md). Download the complete study bundle from the [release page](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.2) for offline reading. This release does not update source editions or extend the 01–26 selection.
 
 ## 01–09 · High priority
 

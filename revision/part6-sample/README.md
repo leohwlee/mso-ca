@@ -1,8 +1,8 @@
 # Part 6 study sample / 第6部分溫習樣章
 
-For v1.10.1, read [the maintained Part 6](../study-notes/part-6.html). This historical sample is not the current manuscript or a release asset; its original review describes its own version.
+For v1.10.2, read [the maintained Part 6](../study-notes/part-6.html). This historical sample is not the current manuscript or a release asset; its original review describes its own version.
 
-v1.10.1請閱讀[正式第6部分](../study-notes/part-6.html)。本頁為歷史樣章，不是現行文稿，也不隨發佈附送；原審核只適用於當時版本。
+v1.10.2請閱讀[正式第6部分](../study-notes/part-6.html)。本頁為歷史樣章，不是現行文稿，也不隨發佈附送；原審核只適用於當時版本。
 
 The [complete seven-part reading material](../study-notes/index.html) now uses the
 selected B design. This earlier URL remains supported; its maintained stylesheet

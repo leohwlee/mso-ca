@@ -2,7 +2,7 @@
 
 [Back to focused reading](../README.md)
 
-The v1.10.1 notes and offline study bundle include only 01–26. This directory remains reference material; publication does not add 27–47 to the selected scope. See [current notes and review limits](../../revision/study-notes/README.md).
+The v1.10.2 notes and offline study bundle include only 01–26. This directory remains reference material; publication does not add 27–47 to the selected scope. See [current notes and review limits](../../revision/study-notes/README.md).
 
 21 publications retained for reference and historical bank-source verification. They cannot support active questions and are outside first-pass reading. This is a study selection, not a withdrawal finding. Some contain distinct examples or history; they are not additional daily required reading.
 
