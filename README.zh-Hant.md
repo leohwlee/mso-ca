@@ -8,7 +8,7 @@
 
 ## 開始使用
 
-**閱讀筆記及練習：**下載 [mso-study-bundle.zip](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip)，
+**閱讀筆記及練習**：下載 [mso-study-bundle.zip](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip)，
 完整解壓後開啟 `index.html`。內含七部分筆記、練習App及引用的01–26原件；
 保留資料夾結構，閱讀、練習和來源連結才可離線互通。以下單檔下載供獨立練習，筆記連結須配合完整學習包。
 

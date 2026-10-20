@@ -1,0 +1,14 @@
+{
+  "status": "verified",
+  "date": "2026-10-20",
+  "reason": "GitHub rendered the punctuation-adjacent bold markers literally. Move the colon outside the emphasis; wording and source/application content unchanged.",
+  "archive": "bank/audit/history/2026-10-20-before-readme-bold-fix.zip",
+  "archive_sha256": "114e63ab8d5fa755945f542dbeeed526e496f6a2241f10b3883d422ee42bf997",
+  "archive_updates": {
+    "README.zh-Hant.md": {
+      "before_sha256": "c7bab2c0abb250c3efcee1d964f84954bb9db9776d03d4f12df9a1f5d051d655",
+      "after_sha256": "034b2143d21bca9c5e9b7efc8424cff5dd4e9b59e048998d4c0aa0f5ad3f992a"
+    }
+  },
+  "documentation_updates": {}
+}
