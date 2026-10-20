@@ -1,14 +1,12 @@
-# 金錢服務經營者能力評核 — 模擬試
+# 金錢服務經營者能力評核 — 溫習與練習
 
-[English](README.md) · [下載 App](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html) · [版本更新](CHANGELOG.md)
+[English](README.md) · [下載完整學習包](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [練習 App](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html) · [版本更新](CHANGELOG.md)
 
-**525 道英文／繁體中文組合題**，出題依據只限[閱讀文檔庫](docs/README.zh-Hant.md)
-的 **01–26**。可離線準備香港金錢服務經營者能力評核，只有**模擬試**與**自選練習**兩個模式。
+**七部分溫習筆記及525道組合題**，用於準備香港金錢服務經營者能力評核。
+筆記及練習均可離線使用，提供繁體中文、英文及雙語。選定來源為
+[閱讀文檔庫](docs/README.zh-Hant.md)的 **01–26**；練習分為**模擬試**與**自選練習**兩個模式。
 
-## 三步開始
-
-新版[七部分溫習資料](revision/study-notes/index.html)從01–26原文提煉概念、定義、
-要求、條件及例外，保留實際repo檔名引用；題庫只作查漏。見[範圍及維護說明](revision/study-notes/README.md)。v1.10.0起隨完整學習包發佈。
+## 開始使用
 
 **閱讀筆記及練習：**下載 [mso-study-bundle.zip](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip)，
 完整解壓後開啟 `index.html`。內含七部分筆記、練習App及引用的01–26原件；
@@ -21,7 +19,9 @@
 HTML 檔案已包含程式、題庫及字型。使用時無須下載整個專案或安裝 Go；
 官方參考原件另見閱讀文檔庫。
 
-![525題題庫及兩個模式的首頁](docs/images/app-preview.png)
+![現行藍灰練習首頁：模擬試及自選練習](docs/images/app-v1.10.1-tc.png)
+
+*繁體中文練習首頁，2026年10月20日從v1.10.1 App實際截取。*
 
 ## v1.10.1 溫習筆記更新
 
@@ -32,6 +32,10 @@ HTML 檔案已包含程式、題庫及字型。使用時無須下載整個專案
 [內容覆核](revision/study-notes/depth-review-2026-10-20/REPORT.md)及
 [視覺覆核與預覽](revision/study-notes/visual-refinement-2026-10-20/REPORT.md)
 列明實際核對範圍及剩餘限制；數量不是覆蓋率。525題的內容、答案及評分不變。
+
+![第6部分溫習筆記：何時須做客戶盡職審查，連同適用條件及原文引用](docs/images/study-v1.10.1-tc.png)
+
+*第6部分繁體中文閱讀示例，2026年10月20日從現行v1.10.1筆記實際截取；圖中CDD情況可同時適用。*
 
 ## 選擇練習方式
 
@@ -68,7 +72,7 @@ HTML 檔案已包含程式、題庫及字型。使用時無須下載整個專案
 | **合計** | | **525** |
 
 題庫保留8道官方參考試題，其餘為編寫的練習題，並非公開的歷屆真題。
-v1.9.0新增171道已覆核題目，保留354題，另移除3道依賴指定文檔庫以外來源的題目。
+題庫的過往改動見[版本更新](CHANGELOG.md)。
 
 - **01–26：** 現行題目的唯一來源。通函連結的外部文件不會自動納入範圍。
 - **27–47：** 保留作歷史參考，不納入有效題庫。

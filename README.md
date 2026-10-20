@@ -1,13 +1,13 @@
-# MSO Competence Assessment — Mock Exam
+# MSO Competence Assessment — Study and Practice
 
-[繁體中文](README.zh-Hant.md) · [Download the app](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html) · [Release notes](CHANGELOG.md)
+[繁體中文](README.zh-Hant.md) · [Download the study bundle](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [Practice app](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html) · [Release notes](CHANGELOG.md)
 
-**525 English / Traditional Chinese combination questions**, grounded only in
-documents **01–26** of the [reading library](docs/README.md). Practise offline
-for the Hong Kong Money Service Operator Competence Assessment, with two modes:
-mock exam and custom practice.
+**Seven-part study notes and 525 combination questions** for the Hong Kong Money
+Service Operator Competence Assessment. Read and practise offline in Traditional
+Chinese, English or both languages. The selected sources are documents **01–26**
+of the [reading library](docs/README.md); practice offers mock exam and custom practice.
 
-## Start in three steps
+## Start here
 
 For notes **and** practice, download **[mso-study-bundle.zip](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip)**,
 extract the whole archive and open `index.html`. It includes the seven-part notes,
@@ -23,7 +23,9 @@ The HTML file contains the app, question bank and fonts. You do not need to
 download the repository or install Go to use it. The official source documents
 are available separately in the reading library.
 
-![The two-mode app with the 525-question bank](docs/images/app-preview.png)
+![Current blue-gray practice homepage with mock exam and custom practice](docs/images/app-v1.10.1-en.png)
+
+*Practice homepage, English. Captured from the v1.10.1 app on 20 October 2026.*
 
 ## Updated study notes in v1.10.1
 
@@ -37,6 +39,10 @@ Read the [content review](revision/study-notes/depth-review-2026-10-20/REPORT.md
 [visual review and previews](revision/study-notes/visual-refinement-2026-10-20/REPORT.md)
 for checked ranges and remaining limits. Counts are not coverage percentages.
 The 525 questions, answers and scoring are unchanged.
+
+![Part 6 study notes showing when customer due diligence is required, with conditions and source citations](docs/images/study-v1.10.1-en.png)
+
+*Part 6 reading example, English. Captured from the current v1.10.1 notes on 20 October 2026; the CDD cases can overlap.*
 
 ## Choose how to practise
 
@@ -76,9 +82,8 @@ Results are stored locally in the browser.
 | **Total** | | **525** |
 
 The bank includes eight official sample questions. The remaining questions are
-authored practice material, not released past papers. The v1.9.0 expansion adds
-171 reviewed questions, retains 354 and retires three that depended on sources
-outside the selected library.
+authored practice material, not released past papers. See [release notes](CHANGELOG.md)
+for earlier changes to the bank.
 
 - **01–26:** the only approved sources for active questions. External documents linked by a circular are not automatically included.
 - **27–47:** preserved historical reference, excluded from the active bank.

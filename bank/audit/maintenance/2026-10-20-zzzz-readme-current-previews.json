@@ -1,0 +1,18 @@
+{
+  "status": "verified",
+  "date": "2026-10-20",
+  "reason": "Refresh stale README screenshot and describe the current seven-part study-and-practice product. Source/application content unchanged; four real screenshots have independent source/image hashes in docs/images/readme-previews.json.",
+  "archive": "bank/audit/history/2026-10-20-before-readme-preview-refresh.zip",
+  "archive_sha256": "0db7e09b655c8ff812b9339d2cf39328b6ad8bf240704e7ac8081aa92e0e1f2a",
+  "archive_updates": {
+    "README.md": {
+      "before_sha256": "a1e8fe809a49066e768c8975b57cf6ca8eef7ac2906ff4203f401b8366618886",
+      "after_sha256": "0903b795911864a084081dd340a3aebbd891c8dfa4f19e1526b5b65b85dcb50d"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "1f8fd19d0089d0c0f0cb566ca0f3887a0d7404b5f1681444e52cad61fff1d2c5",
+      "after_sha256": "c7bab2c0abb250c3efcee1d964f84954bb9db9776d03d4f12df9a1f5d051d655"
+    }
+  },
+  "documentation_updates": {}
+}
