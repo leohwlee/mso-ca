@@ -1,0 +1,2263 @@
+[
+  {
+    "part": 1,
+    "width": 390,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 153.578125,
+      "headerBottom": 142.171875
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [],
+    "tableData": [
+      {
+        "figure": "memory-ml-tf-pf",
+        "columnCount": 4,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Origin",
+            "hidden": "true"
+          },
+          {
+            "text": "Core concern",
+            "hidden": "true"
+          },
+          {
+            "text": "Legal conditions",
+            "hidden": "true"
+          },
+          {
+            "text": "Origin",
+            "hidden": "true"
+          },
+          {
+            "text": "Core concern",
+            "hidden": "true"
+          },
+          {
+            "text": "Legal conditions",
+            "hidden": "true"
+          },
+          {
+            "text": "Origin",
+            "hidden": "true"
+          },
+          {
+            "text": "Core concern",
+            "hidden": "true"
+          },
+          {
+            "text": "Legal conditions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-risk-lists",
+        "columnCount": 3,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": []
+  },
+  {
+    "part": 2,
+    "width": 390,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 153.578125,
+      "headerBottom": 142.171875
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [],
+    "tableData": [
+      {
+        "figure": "memory-inspection-versus-investigation",
+        "columnCount": 3,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Inspection: s.9",
+            "hidden": "true"
+          },
+          {
+            "text": "Investigation: ss.11–12",
+            "hidden": "true"
+          },
+          {
+            "text": "Inspection: s.9",
+            "hidden": "true"
+          },
+          {
+            "text": "Investigation: ss.11–12",
+            "hidden": "true"
+          },
+          {
+            "text": "Inspection: s.9",
+            "hidden": "true"
+          },
+          {
+            "text": "Investigation: ss.11–12",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": [
+      {
+        "figure": "memory-review-commencement",
+        "nodes": [
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "1\nDoes the notice specify another commencement time in the public interest?",
+            "yes": "YES\nUse the specified time; a stay may separately be sought under the applicable provision.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "2\nWithin 21 days after notice is sent, written notice that no review will be sought?",
+            "yes": "YES\nEffective when that written notice is given.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "3\nReview applied for within those 21 days?",
+            "yes": "YES\nConfirmed: on confirmation. Varied / substituted: then, subject to its terms. Withdrawn: on withdrawal.",
+            "no": "NO\nNeither notice nor application: effective when the 21-day period expires."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "part": 3,
+    "width": 390,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 154.4375,
+      "headerBottom": 142.171875
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [],
+    "tableData": [
+      {
+        "figure": "memory-ownership-boundary",
+        "columnCount": 3,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-money-boundaries",
+        "columnCount": 4,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "Aggregation, conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "Aggregation, conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "Aggregation, conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-money-boundaries",
+        "columnCount": 4,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "Aggregation, conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-money-boundaries",
+        "columnCount": 4,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "Aggregation, conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-fee-components",
+        "columnCount": 3,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": []
+  },
+  {
+    "part": 4,
+    "width": 390,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 153.578125,
+      "headerBottom": 142.171875
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [],
+    "tableData": [
+      {
+        "figure": "memory-three-places",
+        "columnCount": 3,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-assessment-clocks",
+        "columnCount": 4,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-assessment-clocks",
+        "columnCount": 4,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-assessment-clocks",
+        "columnCount": 4,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": []
+  },
+  {
+    "part": 5,
+    "width": 390,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 153.578125,
+      "headerBottom": 142.171875
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [],
+    "tableData": [
+      {
+        "figure": "memory-review-frequency",
+        "columnCount": 3,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Periodic / advance requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "Other triggers and limits",
+            "hidden": "true"
+          },
+          {
+            "text": "Periodic / advance requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "Other triggers and limits",
+            "hidden": "true"
+          },
+          {
+            "text": "Periodic / advance requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "Other triggers and limits",
+            "hidden": "true"
+          },
+          {
+            "text": "Periodic / advance requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "Other triggers and limits",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": []
+  },
+  {
+    "part": 6,
+    "width": 390,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 153.578125,
+      "headerBottom": 142.171875
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [],
+    "tableData": [
+      {
+        "figure": "memory-pep-categories",
+        "columnCount": 3,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "When the common enhanced measures apply",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions",
+            "hidden": "true"
+          },
+          {
+            "text": "When the common enhanced measures apply",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-reliance-outsourcing",
+        "columnCount": 3,
+        "headDisplay": "none",
+        "cellLabels": [
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": [
+      {
+        "figure": "memory-cdd-trigger-tree",
+        "nodes": [
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "1\nML/TF suspicion, or doubts about the truth / adequacy of existing identification information?",
+            "yes": "YES\nCDD triggers regardless of amount; assess STR duties separately. If reasonably believing that continued CDD would tip off the customer, may stop pursuing it, document the basis and file an STR.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "2\nEstablishing a business relationship?",
+            "yes": "YES\nCDD before establishment, regardless of amount; defer identity verification only if all conditions are met.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "3\nAn existing business relationship?",
+            "yes": "YES\nOngoing CDD and transaction monitoring; update on triggers and risk. Neither repeat onboarding for every transaction nor exempt low-value activity.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "4\nOccasional transaction at threshold? Wire / VA transfer ≥ HK$8,000; others ≥ HK$120,000 (or equivalent).",
+            "yes": "YES\nCDD before execution. Count a single operation and operations that appear linked.",
+            "no": "NO\nOnly this amount-based trigger is absent. Other duties may still apply."
+          }
+        ]
+      },
+      {
+        "figure": "memory-cdd-extent-tree",
+        "nodes": [
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "1\nHigh risk, or another applicable enhanced requirement?",
+            "yes": "YES\nBasic CDD + applicable enhanced measures, tailored to risk and the specific requirement; not the same PEP checklist in every case.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "2\nRisk analysis establishes low risk AND no ML/TF suspicion AND no identification doubts?",
+            "yes": "YES\nMay apply proportionate simplified measures; still identify / verify the customer and conduct ongoing monitoring.",
+            "no": "NO\nApply ordinary CDD and adapt measures to identified risks."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "part": 7,
+    "width": 390,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 154.4375,
+      "headerBottom": 142.171875
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [],
+    "tableData": [],
+    "decisions": []
+  },
+  {
+    "part": 1,
+    "width": 900,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [
+      "Concept",
+      "Origin",
+      "Core concern",
+      "Legal conditions",
+      "Concept / situation",
+      "Remember the distinction",
+      "Conditions and exceptions"
+    ],
+    "tableData": [
+      {
+        "figure": "memory-ml-tf-pf",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "資金來源Origin",
+            "hidden": "true"
+          },
+          {
+            "text": "核心問題Core concern",
+            "hidden": "true"
+          },
+          {
+            "text": "法律條件Legal conditions",
+            "hidden": "true"
+          },
+          {
+            "text": "資金來源Origin",
+            "hidden": "true"
+          },
+          {
+            "text": "核心問題Core concern",
+            "hidden": "true"
+          },
+          {
+            "text": "法律條件Legal conditions",
+            "hidden": "true"
+          },
+          {
+            "text": "資金來源Origin",
+            "hidden": "true"
+          },
+          {
+            "text": "核心問題Core concern",
+            "hidden": "true"
+          },
+          {
+            "text": "法律條件Legal conditions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-risk-lists",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": []
+  },
+  {
+    "part": 2,
+    "width": 900,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [
+      "Dimension",
+      "Inspection: s.9",
+      "Investigation: ss.11–12"
+    ],
+    "tableData": [
+      {
+        "figure": "memory-inspection-versus-investigation",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "查察：第9條Inspection: s.9",
+            "hidden": "true"
+          },
+          {
+            "text": "調查：第11–12條Investigation: ss.11–12",
+            "hidden": "true"
+          },
+          {
+            "text": "查察：第9條Inspection: s.9",
+            "hidden": "true"
+          },
+          {
+            "text": "調查：第11–12條Investigation: ss.11–12",
+            "hidden": "true"
+          },
+          {
+            "text": "查察：第9條Inspection: s.9",
+            "hidden": "true"
+          },
+          {
+            "text": "調查：第11–12條Investigation: ss.11–12",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": [
+      {
+        "figure": "memory-review-commencement",
+        "nodes": [
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "1\nDoes the notice specify another commencement time in the public interest?",
+            "yes": "YES\nUse the specified time; a stay may separately be sought under the applicable provision.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "2\nWithin 21 days after notice is sent, written notice that no review will be sought?",
+            "yes": "YES\nEffective when that written notice is given.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "3\nReview applied for within those 21 days?",
+            "yes": "YES\nConfirmed: on confirmation. Varied / substituted: then, subject to its terms. Withdrawn: on withdrawal.",
+            "no": "NO\nNeither notice nor application: effective when the 21-day period expires."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "part": 3,
+    "width": 900,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [
+      "Concept / situation",
+      "Remember the distinction",
+      "Conditions and exceptions",
+      "Person / transaction",
+      "Amount boundary",
+      "What it triggers",
+      "Aggregation, conditions and exceptions",
+      "Person / transaction",
+      "Amount boundary",
+      "What it triggers",
+      "Aggregation, conditions and exceptions",
+      "Person / transaction",
+      "Amount boundary",
+      "What it triggers",
+      "Aggregation, conditions and exceptions",
+      "Concept / situation",
+      "Remember the distinction",
+      "Conditions and exceptions"
+    ],
+    "tableData": [
+      {
+        "figure": "memory-ownership-boundary",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-money-boundaries",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "金額界線Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "觸發甚麼What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "合併、條件及例外Aggregation, conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "金額界線Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "觸發甚麼What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "合併、條件及例外Aggregation, conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "金額界線Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "觸發甚麼What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "合併、條件及例外Aggregation, conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-money-boundaries",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "金額界線Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "觸發甚麼What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "合併、條件及例外Aggregation, conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-money-boundaries",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "金額界線Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "觸發甚麼What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "合併、條件及例外Aggregation, conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-fee-components",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": []
+  },
+  {
+    "part": 4,
+    "width": 900,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [
+      "Concept / situation",
+      "Remember the distinction",
+      "Conditions and exceptions",
+      "Event / person",
+      "Starting event",
+      "Time requirement",
+      "Conditions and exceptions",
+      "Event / person",
+      "Starting event",
+      "Time requirement",
+      "Conditions and exceptions",
+      "Event / person",
+      "Starting event",
+      "Time requirement",
+      "Conditions and exceptions"
+    ],
+    "tableData": [
+      {
+        "figure": "memory-three-places",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-assessment-clocks",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-assessment-clocks",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-assessment-clocks",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": []
+  },
+  {
+    "part": 5,
+    "width": 900,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [
+      "Matter",
+      "Periodic / advance requirement",
+      "Other triggers and limits"
+    ],
+    "tableData": [
+      {
+        "figure": "memory-review-frequency",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "定期／事前要求Periodic / advance requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "另行觸發及界線Other triggers and limits",
+            "hidden": "true"
+          },
+          {
+            "text": "定期／事前要求Periodic / advance requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "另行觸發及界線Other triggers and limits",
+            "hidden": "true"
+          },
+          {
+            "text": "定期／事前要求Periodic / advance requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "另行觸發及界線Other triggers and limits",
+            "hidden": "true"
+          },
+          {
+            "text": "定期／事前要求Periodic / advance requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "另行觸發及界線Other triggers and limits",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": []
+  },
+  {
+    "part": 6,
+    "width": 900,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [
+      "Status category",
+      "When the common enhanced measures apply",
+      "Conditions",
+      "Concept / situation",
+      "Remember the distinction",
+      "Conditions and exceptions"
+    ],
+    "tableData": [
+      {
+        "figure": "memory-pep-categories",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "何時適用共同加強措施When the common enhanced measures apply",
+            "hidden": "true"
+          },
+          {
+            "text": "條件Conditions",
+            "hidden": "true"
+          },
+          {
+            "text": "何時適用共同加強措施When the common enhanced measures apply",
+            "hidden": "true"
+          },
+          {
+            "text": "條件Conditions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-reliance-outsourcing",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": [
+      {
+        "figure": "memory-cdd-trigger-tree",
+        "nodes": [
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "1\nML/TF suspicion, or doubts about the truth / adequacy of existing identification information?",
+            "yes": "YES\nCDD triggers regardless of amount; assess STR duties separately. If reasonably believing that continued CDD would tip off the customer, may stop pursuing it, document the basis and file an STR.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "2\nEstablishing a business relationship?",
+            "yes": "YES\nCDD before establishment, regardless of amount; defer identity verification only if all conditions are met.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "3\nAn existing business relationship?",
+            "yes": "YES\nOngoing CDD and transaction monitoring; update on triggers and risk. Neither repeat onboarding for every transaction nor exempt low-value activity.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "4\nOccasional transaction at threshold? Wire / VA transfer ≥ HK$8,000; others ≥ HK$120,000 (or equivalent).",
+            "yes": "YES\nCDD before execution. Count a single operation and operations that appear linked.",
+            "no": "NO\nOnly this amount-based trigger is absent. Other duties may still apply."
+          }
+        ]
+      },
+      {
+        "figure": "memory-cdd-extent-tree",
+        "nodes": [
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "1\nHigh risk, or another applicable enhanced requirement?",
+            "yes": "YES\nBasic CDD + applicable enhanced measures, tailored to risk and the specific requirement; not the same PEP checklist in every case.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "2\nRisk analysis establishes low risk AND no ML/TF suspicion AND no identification doubts?",
+            "yes": "YES\nMay apply proportionate simplified measures; still identify / verify the customer and conduct ongoing monitoring.",
+            "no": "NO\nApply ordinary CDD and adapt measures to identified risks."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "part": 7,
+    "width": 900,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [],
+    "tableData": [],
+    "decisions": []
+  },
+  {
+    "part": 1,
+    "width": 1440,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [
+      "Concept",
+      "Origin",
+      "Core concern",
+      "Legal conditions",
+      "Concept / situation",
+      "Remember the distinction",
+      "Conditions and exceptions"
+    ],
+    "tableData": [
+      {
+        "figure": "memory-ml-tf-pf",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "資金來源Origin",
+            "hidden": "true"
+          },
+          {
+            "text": "核心問題Core concern",
+            "hidden": "true"
+          },
+          {
+            "text": "法律條件Legal conditions",
+            "hidden": "true"
+          },
+          {
+            "text": "資金來源Origin",
+            "hidden": "true"
+          },
+          {
+            "text": "核心問題Core concern",
+            "hidden": "true"
+          },
+          {
+            "text": "法律條件Legal conditions",
+            "hidden": "true"
+          },
+          {
+            "text": "資金來源Origin",
+            "hidden": "true"
+          },
+          {
+            "text": "核心問題Core concern",
+            "hidden": "true"
+          },
+          {
+            "text": "法律條件Legal conditions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-risk-lists",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": []
+  },
+  {
+    "part": 2,
+    "width": 1440,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [
+      "Dimension",
+      "Inspection: s.9",
+      "Investigation: ss.11–12"
+    ],
+    "tableData": [
+      {
+        "figure": "memory-inspection-versus-investigation",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "查察：第9條Inspection: s.9",
+            "hidden": "true"
+          },
+          {
+            "text": "調查：第11–12條Investigation: ss.11–12",
+            "hidden": "true"
+          },
+          {
+            "text": "查察：第9條Inspection: s.9",
+            "hidden": "true"
+          },
+          {
+            "text": "調查：第11–12條Investigation: ss.11–12",
+            "hidden": "true"
+          },
+          {
+            "text": "查察：第9條Inspection: s.9",
+            "hidden": "true"
+          },
+          {
+            "text": "調查：第11–12條Investigation: ss.11–12",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": [
+      {
+        "figure": "memory-review-commencement",
+        "nodes": [
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "1\nDoes the notice specify another commencement time in the public interest?",
+            "yes": "YES\nUse the specified time; a stay may separately be sought under the applicable provision.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "2\nWithin 21 days after notice is sent, written notice that no review will be sought?",
+            "yes": "YES\nEffective when that written notice is given.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "3\nReview applied for within those 21 days?",
+            "yes": "YES\nConfirmed: on confirmation. Varied / substituted: then, subject to its terms. Withdrawn: on withdrawal.",
+            "no": "NO\nNeither notice nor application: effective when the 21-day period expires."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "part": 3,
+    "width": 1440,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [
+      "Concept / situation",
+      "Remember the distinction",
+      "Conditions and exceptions",
+      "Person / transaction",
+      "Amount boundary",
+      "What it triggers",
+      "Aggregation, conditions and exceptions",
+      "Person / transaction",
+      "Amount boundary",
+      "What it triggers",
+      "Aggregation, conditions and exceptions",
+      "Person / transaction",
+      "Amount boundary",
+      "What it triggers",
+      "Aggregation, conditions and exceptions",
+      "Concept / situation",
+      "Remember the distinction",
+      "Conditions and exceptions"
+    ],
+    "tableData": [
+      {
+        "figure": "memory-ownership-boundary",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-money-boundaries",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "金額界線Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "觸發甚麼What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "合併、條件及例外Aggregation, conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "金額界線Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "觸發甚麼What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "合併、條件及例外Aggregation, conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "金額界線Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "觸發甚麼What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "合併、條件及例外Aggregation, conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-money-boundaries",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "金額界線Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "觸發甚麼What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "合併、條件及例外Aggregation, conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-money-boundaries",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "金額界線Amount boundary",
+            "hidden": "true"
+          },
+          {
+            "text": "觸發甚麼What it triggers",
+            "hidden": "true"
+          },
+          {
+            "text": "合併、條件及例外Aggregation, conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-fee-components",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": []
+  },
+  {
+    "part": 4,
+    "width": 1440,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [
+      "Concept / situation",
+      "Remember the distinction",
+      "Conditions and exceptions",
+      "Event / person",
+      "Starting event",
+      "Time requirement",
+      "Conditions and exceptions",
+      "Event / person",
+      "Starting event",
+      "Time requirement",
+      "Conditions and exceptions",
+      "Event / person",
+      "Starting event",
+      "Time requirement",
+      "Conditions and exceptions"
+    ],
+    "tableData": [
+      {
+        "figure": "memory-three-places",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-assessment-clocks",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-assessment-clocks",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-assessment-clocks",
+        "columnCount": 4,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "起算事件Starting event",
+            "hidden": "true"
+          },
+          {
+            "text": "期限Time requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": []
+  },
+  {
+    "part": 5,
+    "width": 1440,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [
+      "Matter",
+      "Periodic / advance requirement",
+      "Other triggers and limits"
+    ],
+    "tableData": [
+      {
+        "figure": "memory-review-frequency",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "定期／事前要求Periodic / advance requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "另行觸發及界線Other triggers and limits",
+            "hidden": "true"
+          },
+          {
+            "text": "定期／事前要求Periodic / advance requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "另行觸發及界線Other triggers and limits",
+            "hidden": "true"
+          },
+          {
+            "text": "定期／事前要求Periodic / advance requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "另行觸發及界線Other triggers and limits",
+            "hidden": "true"
+          },
+          {
+            "text": "定期／事前要求Periodic / advance requirement",
+            "hidden": "true"
+          },
+          {
+            "text": "另行觸發及界線Other triggers and limits",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": []
+  },
+  {
+    "part": 6,
+    "width": 1440,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [
+      "Status category",
+      "When the common enhanced measures apply",
+      "Conditions",
+      "Concept / situation",
+      "Remember the distinction",
+      "Conditions and exceptions"
+    ],
+    "tableData": [
+      {
+        "figure": "memory-pep-categories",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "何時適用共同加強措施When the common enhanced measures apply",
+            "hidden": "true"
+          },
+          {
+            "text": "條件Conditions",
+            "hidden": "true"
+          },
+          {
+            "text": "何時適用共同加強措施When the common enhanced measures apply",
+            "hidden": "true"
+          },
+          {
+            "text": "條件Conditions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      },
+      {
+        "figure": "memory-reliance-outsourcing",
+        "columnCount": 3,
+        "headDisplay": "table-header-group",
+        "cellLabels": [
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          },
+          {
+            "text": "必記區別Remember the distinction",
+            "hidden": "true"
+          },
+          {
+            "text": "條件及例外Conditions and exceptions",
+            "hidden": "true"
+          }
+        ],
+        "labelledby": null
+      }
+    ],
+    "decisions": [
+      {
+        "figure": "memory-cdd-trigger-tree",
+        "nodes": [
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "1\nML/TF suspicion, or doubts about the truth / adequacy of existing identification information?",
+            "yes": "YES\nCDD triggers regardless of amount; assess STR duties separately. If reasonably believing that continued CDD would tip off the customer, may stop pursuing it, document the basis and file an STR.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "2\nEstablishing a business relationship?",
+            "yes": "YES\nCDD before establishment, regardless of amount; defer identity verification only if all conditions are met.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "3\nAn existing business relationship?",
+            "yes": "YES\nOngoing CDD and transaction monitoring; update on triggers and risk. Neither repeat onboarding for every transaction nor exempt low-value activity.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "4\nOccasional transaction at threshold? Wire / VA transfer ≥ HK$8,000; others ≥ HK$120,000 (or equivalent).",
+            "yes": "YES\nCDD before execution. Count a single operation and operations that appear linked.",
+            "no": "NO\nOnly this amount-based trigger is absent. Other duties may still apply."
+          }
+        ]
+      },
+      {
+        "figure": "memory-cdd-extent-tree",
+        "nodes": [
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "1\nHigh risk, or another applicable enhanced requirement?",
+            "yes": "YES\nBasic CDD + applicable enhanced measures, tailored to risk and the specific requirement; not the same PEP checklist in every case.",
+            "no": "NO ↓ Continue"
+          },
+          {
+            "childOrder": [
+              "decision-condition",
+              "decision-outcome",
+              "decision-continue"
+            ],
+            "test": "2\nRisk analysis establishes low risk AND no ML/TF suspicion AND no identification doubts?",
+            "yes": "YES\nMay apply proportionate simplified measures; still identify / verify the customer and conduct ongoing monitoring.",
+            "no": "NO\nApply ordinary CDD and adapt measures to identified risks."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "part": 7,
+    "width": 1440,
+    "skip": {
+      "active": "MAIN",
+      "id": "content",
+      "top": 124.609375,
+      "headerBottom": 136.609375
+    },
+    "keyboardSwitched": "en",
+    "accessibleColumnHeaders": [],
+    "tableData": [],
+    "decisions": []
+  }
+]

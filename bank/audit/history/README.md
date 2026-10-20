@@ -1,5 +1,9 @@
 # Historical audit evidence
 
+`2026-10-20-before-v1.10.1-readme-refresh.zip` preserves the exact README and generator bytes before the release documentation refresh. Its new maintenance record links old and new hashes. Earlier archives and review verdicts are unchanged.
+
+v1.10.1說明更新前的原檔已另存上述ZIP；新維護記錄連結前後雜湊，不覆蓋先前審核證據。
+
 The 18 October 2026 cleanup makes the reading-directory number the only document
 ID. Active quotes, text files, transcripts and audit references use it directly.
 No old-ID or old-filename lookup is used by the application or audit tools.

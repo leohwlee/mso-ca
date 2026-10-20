@@ -25,6 +25,19 @@ are available separately in the reading library.
 
 ![The two-mode app with the 525-question bank](docs/images/app-preview.png)
 
+## Updated study notes in v1.10.1
+
+The seven-part notes now contain 75 topics and 621 bilingual point pairs, with
+more complete definitions, lists, conditions and exceptions from the High-priority
+originals. All 33 visuals were reviewed: the CDD trigger map now shows cases that
+can overlap; two decision trees remain where branches are appropriate. Narrow
+screens, table headings and language-switch positioning have also been improved.
+
+Read the [content review](revision/study-notes/depth-review-2026-10-20/REPORT.md),
+[visual review and previews](revision/study-notes/visual-refinement-2026-10-20/REPORT.md)
+for checked ranges and remaining limits. Counts are not coverage percentages.
+The 525 questions, answers, scoring and history format are unchanged.
+
 ## Choose how to practise
 
 | Mode | What happens |

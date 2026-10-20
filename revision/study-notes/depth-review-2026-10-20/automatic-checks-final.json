@@ -1,0 +1,180 @@
+[
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "revision/study-notes/build.py"
+    ],
+    "exit_code": 0,
+    "seconds": 3.98,
+    "stdout": "{\"status\": \"built\", \"parts\": 7, \"sections\": 75, \"points\": 621, \"sources\": 26}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "revision/study-notes/gap_check.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.14,
+    "stdout": "Bank gap audit: 525 identifiers checked; no bank content supplied to notes.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "revision/study-notes/build.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 3.8,
+    "stdout": "{\"status\": \"checked\", \"parts\": 7, \"sections\": 75, \"points\": 621, \"sources\": 26}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "revision/study-notes/gap_check.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.14,
+    "stdout": "Bank gap audit: 525 identifiers checked; no bank content supplied to notes.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "bank/audit/report.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 1.05,
+    "stdout": "{\"topic_count\": 242, \"mapped_questions\": 297, \"source_quotes\": 246, \"evidence_references\": 1922, \"current_questions\": 357, \"current_statements\": 1777, \"module_counts\": {\"1\": 32, \"2\": 53, \"3\": 43, \"4\": 59, \"5\": 56, \"6\": 74, \"7\": 40}}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "bank/audit/terms_report.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.53,
+    "stdout": "{\"rows\": 188, \"quotes\": 202, \"evidence\": 1066, \"statuses\": {\"covered\": 104, \"reference\": 18, \"partial\": 59, \"missing\": 7}, \"current_questions\": 357, \"current_statements\": 1777}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "bank/audit/p1_report.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.44,
+    "stdout": "{\"tasks\": 16, \"new_questions\": 18, \"new_statements\": 79, \"completed_p1_tasks\": 16, \"coverage_links\": 139}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "bank/audit/remaining_report.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.44,
+    "stdout": "{\"written_questions\": 31, \"written_statements\": 155, \"new_questions\": 17, \"net_questions\": 19, \"net_statements\": 99, \"completed_tasks\": 20, \"coverage_links\": 176, \"specialist_links\": 16}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "*_test.py"
+    ],
+    "exit_code": 0,
+    "seconds": 4.67,
+    "stdout": "",
+    "stderr": "................\n----------------------------------------------------------------------\nRan 16 tests in 4.397s\n\nOK\n"
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "scripts/build_study_bundle.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.3,
+    "stdout": "{\"files\": 65, \"sha256\": \"fd18ea8bcc33494771f93b419c15271f9c3f1a5ff81d33a6803519e6e357952b\", \"bytes\": 75740574}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "scripts/build_study_bundle.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.31,
+    "stdout": "{\"files\": 65, \"sha256\": \"fd18ea8bcc33494771f93b419c15271f9c3f1a5ff81d33a6803519e6e357952b\", \"bytes\": 75740574}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-c",
+      "core.whitespace=cr-at-eol",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.16,
+    "stdout": "",
+    "stderr": "warning: in the working copy of 'revision/CONFLICT-CALLS.md', LF will be replaced by CRLF the next time Git touches it\n"
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "revision/study-notes/build.py"
+    ],
+    "exit_code": 0,
+    "seconds": 4.08,
+    "stdout": "{\"status\": \"built\", \"parts\": 7, \"sections\": 75, \"points\": 621, \"sources\": 26}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "revision/study-notes/build.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 3.89,
+    "stdout": "{\"status\": \"checked\", \"parts\": 7, \"sections\": 75, \"points\": 621, \"sources\": 26}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "scripts/build_study_bundle.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.3,
+    "stdout": "{\"files\": 65, \"sha256\": \"fd18ea8bcc33494771f93b419c15271f9c3f1a5ff81d33a6803519e6e357952b\", \"bytes\": 75740574}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "scripts/build_study_bundle.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.3,
+    "stdout": "{\"files\": 65, \"sha256\": \"fd18ea8bcc33494771f93b419c15271f9c3f1a5ff81d33a6803519e6e357952b\", \"bytes\": 75740574}\n",
+    "stderr": ""
+  }
+]

@@ -1,4 +1,4 @@
-"""Source-authored bilingual manuscript; source-checked 2026-10-19. No bank input."""
+"""Source-authored bilingual manuscript. Review scope: depth-review-2026-10-20/REPORT.md."""
 from model import p, ref, block, section
 
 PART = dict(title=p('金錢服務經營者的系統及管控措施（二）：打擊洗錢及恐怖分子資金籌集的管控範疇', 'MSO systems and controls (ii): AML/CFT control areas'),
@@ -78,7 +78,8 @@ section('identity', '身分資料：自然人、法人與信託', 'Identity info
 ]),
 section('identity-evidence', '身分文件與核證副本', 'Identity documents and certified copies', [
     block('常用文件與例外', 'Documents and exceptions', [
-        ('親身在香港的香港居民，使用香港身分證或簽證身分書；非居民使用有效旅行證件。沒有親身在香港的非居民，應使用有效護照／其他旅行證件、有照片的國民身分證或有效附照片國民駕駛執照。國際駕駛許可證／執照不獲接受。', 'For residents physically in Hong Kong use an HK identity card or document of identity; for non-residents use a valid travel document. For non-residents not physically in Hong Kong, a valid passport/travel document, photo national ID or valid photo national driving licence may be used. International driving permits/licences are not acceptable.'),
+        ('附錄A第1段先說，身在香港的個人以香港身分證或旅行證件核實；再特別說香港居民「應經常」以香港身分證或簽證身分書識別／核實，英文為should always。依既定裁決，學習兩語措辭，實務以香港身分證／簽證身分書處理香港居民；這項居民規則不只限於親身在港者。非居民親身在香港時用有效旅行證件。', 'Appendix A paragraph 1 first addresses individuals present in Hong Kong, then specifically says Hong Kong residents should always be identified/verified using an HK identity card or document of identity. The Chinese says 應經常 (usually). Retain the language difference under the settled decision and use HKID/document of identity for Hong Kong residents in practice; the resident rule is not confined to physical presence in Hong Kong. A non-resident present in Hong Kong uses a valid travel document.'),
+        ('非居民沒有親身在香港時，應使用有效護照／其他旅行證件、有照片的國民身分證，或由主管國家／政府機構簽發的有效附照片國民駕駛執照。國際駕駛許可證／執照不獲接受；不應把這個境外非居民例子套用到所有客戶。', 'For non-residents not physically present in Hong Kong, use a valid passport/other travel document, photo national ID, or valid photo national driving licence issued by a competent national/government agency. International driving permits/licences are unacceptable; this remote non-resident list does not apply indiscriminately to every customer.'),
         ('旅行證件不只護照；指引亦列澳門永久性居民身分證、台灣居民來往大陸通行證、海員身分證、往來台灣通行證、澳門居民入境許可證、因公往來港澳通行證及往來港澳通行證。', 'Travel documents are not limited to passports: the list includes Macau permanent resident ID, Mainland Travel Permit for Taiwan Residents, Seaman’s Identity Document, Taiwan Travel Permit for Mainland Residents, permits for Macau residents, and official-purpose/ordinary exit-entry permits for Hong Kong and Macau.'),
         ('香港出生而沒有有效旅行證件或身分證的未成年人，可用香港出生證明核實；同時記錄及核實代表／陪同的父母或監護人身分。無國民身分證制度且客戶無有照片旅行證件／駕照的地區，可在例外及RBA下接受其他證據，盡量有照片。', 'For a Hong Kong-born minor without a valid travel document/ID, verify using the birth certificate and record/verify the representing/accompanying parent or guardian. In jurisdictions without national IDs, where the customer lacks a photo travel document/licence, other evidence may exceptionally be accepted under RBA, preferably with a photograph.'),
     ], [
@@ -87,7 +88,7 @@ section('identity-evidence', '身分文件與核證副本', 'Identity documents 
     block('核證程序及責任', 'Certification and responsibility', [
         ('核證者須獨立及適當，並親眼看過正本。例子包括合資格中介人、對等司法管轄區司法人員、證件發出國使領館人員、太平紳士，以及會計師、律師、公證人或特許秘書等專業人士。', 'The certifier must be independent and appropriate and have seen the original. Examples include eligible intermediaries, equivalent-jurisdiction judiciary, embassy/consulate officials of the issuing country, Justices of the Peace and professionals such as accountants, lawyers, notaries and chartered secretaries.'),
         ('副本須簽署及註明日期、清晰列出姓名及職銜／身分，並聲明與正本相符。一般客戶自行核證不足；法人客戶內受專業操守約束的專業人士以其專業身分核證，可屬例外。', 'The copy needs signature/date, clear name and position/capacity and a true-copy statement. Customer self-certification is generally insufficient, but a professional within a legal-person customer may qualify if bound by professional conduct rules and acting professionally.'),
-        ('接受核證副本不會轉移CDD責任。來源地高風險、核證者不受規管，或對真偽／與客戶關係有疑問時，須採額外緩解措施。', 'Certified copies do not transfer CDD responsibility. Apply extra safeguards for higher-risk origins, unregulated certifiers or doubts about authenticity or whether the evidence relates to the customer.'),
+        ('接受核證副本不會轉移CDD責任。對來自高風險地區或任何地區不受規管實體的核證副本須特別審慎；不能確定真確性或懷疑文件並非關乎該客戶時，應採取額外風險緩減措施。', 'Certified copies do not transfer CDD responsibility. Exercise particular care with copies from higher-risk countries or unregulated entities in any jurisdiction. If authenticity is uncertain or the document may not relate to the customer, additional risk-mitigation measures should be taken.'),
     ], [
         ref('03', '附錄A第7–10段及註74–76', 'Appendix A ¶7–10, footnotes 74–76', 'the certifier will need to have seen the original'),
     ], kind='list'),
@@ -140,6 +141,12 @@ section('beneficial-owners', '實益擁有人：擁有權、控制與代他人�
         ref('25', '2022年版，第7.20、7.24–7.27段及註201', '2022 edition, ¶7.20, 7.24–7.27 and note 201', 'Significant controllers include'),
         ref('03', '第4.4.3–4.4.4段及註27', '¶4.4.3–4.4.4 and note 27', 'An MSO may refer to such registers'),
     ], kind='list'),
+    block('理解：沒有持股也可有最終控制權', 'Understand: ultimate control without share ownership', [
+        ('FAQ列的例子包括：透過與持股／表決權超過25%的擁有人之私人關連施加控制；或藉參與企業融資、密切家庭關係、歷史／合約聯繫，或公司違反某些付款約定而取得控制。這些是可能構成控制的例子，不是把所有親屬、債權人或合約對手自動當成實益擁有人。', 'FAQ examples include control through personal connections to owners of more than 25% of shares/votes, or through enterprise financing, close family relationships, historical/contractual associations or a company’s default on particular payments. These are possible routes to control, not automatic BO status for every relative, creditor or contracting party.'),
+        ('即使控制權從未實際行使，也可能從使用、享受或得益於法人的資產等情況推定存在。相反，如CDD所得資料完全沒有顯示另有最終控制人，FAQ不要求積極尋找這樣一個人；這不免除已知擁有權、控制結構及其他BO分支的識別要求。', 'Control may be presumed even if never actually exercised, for example through using, enjoying or benefiting from the legal person’s assets. Conversely, where nothing obtained during CDD suggests another ultimate controller exists, the FAQ does not require actively identifying such a person. This does not waive identification under known ownership/control structures or other BO limbs.'),
+    ], [
+        ref('06', '打擊洗錢問答A10（比例按法例及指引統一為超過25%）', 'AML/CFT FAQ A10 (percentage follows the law/Guideline: more than 25%)', 'exerts control without ownership'),
+    ], kind='list'),
 ]),
 section('representatives', '代表客戶行事者與授權', 'Persons acting for customers and authorisation', [
     block('PPTA的身分及權力', 'PPTA identity and authority', [
@@ -154,6 +161,13 @@ section('representatives', '代表客戶行事者與授權', 'Persons acting for
         ('低風險關係可用代表人名單作合理核實，但名單內身分及授權須由客戶內獨立於該等代表人的部門／人士確認，例如合規、審核或人力資源。仍須取得每名PPTA適用的基本識別資料，不能只存未經確認的姓名表。', 'For low-risk relationships a representative list may support reasonable verification where identity and authority are confirmed by an independent department/person within the customer, such as compliance, audit or HR. Obtain applicable basic identity details for every PPTA; an unconfirmed name list is insufficient.'),
     ], [
         ref('06', '打擊洗錢問答A9、A11–A12', 'AML/CFT FAQ A9, A11–A12', 'appropriate measures which are commensurate with the ML/TF risks'),
+    ], kind='list'),
+    block('記憶：PPTA最低識別資料的四項與五項', 'Remember: four and five minimum PPTA identification items', [
+        ('自然人PPTA至少四項：(1)全名；(2)出生日期；(3)國籍；(4)獨特識別號碼及文件類別。文件類別與號碼合列一項；不能只記姓名及證件號碼而省略出生日期／國籍。', 'For an individual PPTA obtain at least four items: (1) full name; (2) date of birth; (3) nationality; (4) unique identification number and document type. Number and type form one listed item; a name and ID number alone omit date of birth/nationality.'),
+        ('法人PPTA至少五項：(1)全名；(2)註冊、成立或登記日期；(3)註冊、成立或登記地點，包括註冊辦事處地址；(4)獨特識別號碼及文件類別；(5)主要營業地點（如與註冊辦事處地址不同）。這是識別資料清單；合理核實身分及另外核實授權的責任仍須履行。', 'For a legal-person PPTA obtain at least five items: (1) full name; (2) date of incorporation, establishment or registration; (3) place of incorporation, establishment or registration, including registered-office address; (4) unique identification number and document type; (5) principal place of business if different from the registered office. These are identification data; reasonable identity verification and separate verification of authority remain required.'),
+        ('法人透過面對面渠道開戶時，至少一名獲授權建立關係的自然人應現身；不用所有董事／BO到場。若代表法人開戶的人沒有親身在場接受識別，則須按非面對面風險處理，例如採額外CDD或使用關長認可且可靠獨立的數碼識別系統，不能因法人本身不可能現身就忽略代表的渠道風險。', 'For a legal person opening through a face-to-face channel, at least one natural person authorized to establish the relationship should be physically present; all directors/BOs need not attend. If the person acting for the legal person is not present for identification, mitigate the non-face-to-face risks, for example with additional CDD or a reliable independent digital identification system recognized by the CCE. A legal person’s inability to attend itself does not remove its representative’s channel risk.'),
+    ], [
+        ref('06', '打擊洗錢問答A9、A12', 'AML/CFT FAQ A9, A12', 'Natural person PPTA'),
     ], kind='list'),
 ]),
 section('timing', '核實時間、延後條件及審查失敗', 'Verification timing, deferral and failed CDD', [
@@ -189,7 +203,7 @@ section('simplified', '簡化盡職審查：可減甚麼、不能免甚麼', 'Si
     block('可用實益擁有人簡化的客戶', 'Customers eligible for beneficial-owner simplification', [
         ('包括條例金融機構；在對等司法管轄區成立、從事類似業務、備有相類CDD／紀錄措施並受相類監管的機構；股票交易所上市公司；香港政府／公共機構及同等地區相類機構。上市客戶亦須評估披露要求能否提供足夠擁有權透明度。', 'Categories include AMLO FIs; comparable institutions established in equivalent jurisdictions with similar measures and supervision; listed corporations; Hong Kong government/public bodies and equivalent counterparts. Assess whether a listed customer’s disclosure requirements provide sufficient beneficial-ownership transparency.'),
         ('投資工具須能確定：負責對全部投資者實施相類CDD的人是合資格金融機構／受監管機構，並有可靠制度；若投資工具及獲委任機構均不合資格，須識別並合理核實擁有／控制超過25%權益的投資者及其他適用實益擁有人。', 'For investment vehicles, ascertain that a qualifying FI/supervised institution performs comparable CDD on all investors with reliable controls. If neither vehicle nor appointed institution qualifies, identify and reasonably verify investors owning/controlling more than 25% and other applicable beneficial owners.'),
-        ('客戶擁有權鏈中有合資格實體，只可對該實體背後擁有人使用例外；與其無關的其他鏈條仍須追查。金融機構以代名公司持有基金或以服務提供者身分為投資工具開戶的特例，仍須有相應底層CDD及操作戶口的合約授權。', 'A qualifying entity within an ownership chain exempts only the owners behind that entity; unrelated chains still require tracing. Special FI nominee/fund-service accounts require the prescribed underlying CDD and contractual account authority.'),
+        ('擁有權鏈中的合資格實體，只豁免該實體背後的實益擁有人；與它無關的其他鏈仍須識別及合理核實。金融機構代名人／基金服務帳戶的額外條件另列於下文，不能只因名稱有「代名人」或「基金」便豁免。', 'A qualifying entity in an ownership chain exempts only its beneficial owners; unrelated chains still require identification and reasonable verification. Additional FI nominee/fund-service account conditions appear below: the labels “nominee” or “fund” alone do not qualify.'),
     ], [
         ref('03', '第4.8.10–4.8.16段', '¶4.8.10–4.8.16', 'beneficial owners in the ownership chain that are not connected'),
     ], kind='list'),
@@ -206,13 +220,25 @@ section('simplified', '簡化盡職審查：可減甚麼、不能免甚麼', 'Si
     ], [
         ref('03', '第4.8.10(d)、4.8.14–4.8.18段', '¶4.8.10(d), 4.8.14–4.8.18', 'stating, to its actual knowledge'),
     ], kind='list'),
+    block('認識：較低風險因素與五類簡化方法', 'Recognise: lower-risk factors and five types of simplification', [
+        ('第4.8.7(a)段的客戶例子：香港／對等司法管轄區政府或公共機構；受充分實益擁有權披露規定約束的上市法團；條例金融機構，或在對等司法管轄區成立、受符合FATF標準要求及監督的金融機構；以及在香港／對等地區獲准向公眾發售的集體投資計劃。', 'Paragraph 4.8.7(a) examples are Hong Kong/equivalent-jurisdiction government or public bodies; listed corporations subject to adequate beneficial-ownership transparency requirements; AMLO FIs or equivalent-jurisdiction FIs subject to and supervised for FATF-consistent requirements; and collective investment schemes authorised for public offering in Hong Kong/an equivalent jurisdiction.'),
+        ('產品因素為下文已列的合資格僱員退休計劃、退休保單及低保費人壽保單，須保留其條件和金額。國家因素為可靠消息來源識別有有效打擊洗錢制度，或貪污／其他犯罪較少。這些只是潛在較低風險因素，須整體評估；不是一見某類客戶便免做CDD。', 'Product factors are the qualifying employee retirement schemes, retirement policies and low-premium life policies already listed, retaining their conditions and amounts. Country factors are credible-source findings of effective AML/CFT systems or lower corruption/other crime. These are potential lower-risk factors requiring a holistic assessment, not automatic CDD exemptions.'),
+        ('第4.8.8段的五類可能方法：（a）對上述客戶接納其他可靠證據，例如金融機構牌照、上市或授權地位；（b）只在第4.8.9–4.8.20段條件下簡化BO審查；（c）降低身分資料更新頻率；（d）按合理金額門檻降低持續監察及交易審查程度；（e）由交易／關係類型推斷目的及擬具有性質。仍須持續監察，且有懷疑、資料疑問或不再低風險時停止簡化。', 'The five possible methods in paragraph 4.8.8 are: (a) alternative reliable evidence for those customers, such as FI licence, listed or authorisation status; (b) BO simplification only under paragraphs 4.8.9–4.8.20; (c) less frequent identity-information updates; (d) reduced monitoring/scrutiny based on a reasonable monetary threshold; (e) inferring purpose/nature from transaction or relationship type. Ongoing monitoring remains; suspicion, information doubts or loss of low-risk status stop simplification.'),
+    ], [
+        ref('03', '第4.8.2–4.8.8段', '¶4.8.2–4.8.8', 'Examples of possible SDD measures include'),
+    ], kind='list'),
+    block('須記條件：金融機構代名人及基金服務帳戶', 'Remember the conditions: FI nominee and fund-service accounts', [
+        ('第4.8.13段以客戶是條例所界定的金融機構為前提。路徑一：以代名人公司名義開戶，代金融機構或其相關客戶持有基金單位；金融機構須已對其相關客戶進行CDD。', 'Paragraph 4.8.13 starts with a customer that is an AMLO FI. Route one: an account in a nominee company’s name holds fund units for the FI or its underlying customers; the FI must have conducted CDD on its underlying customers.'),
+        ('路徑二：金融機構以投資公司的服務供應商（例如基金經理／保管人）身分，以投資公司名義開戶；相關投資者無權控制資產管理，而且金融機構已依AMLO對投資公司進行CDD。', 'Route two: the FI opens an account in an investment vehicle’s name as its service provider, such as manager/custodian; the underlying investors have no control over asset management, and the FI has conducted AMLO CDD on the investment vehicle.'),
+        ('兩條路徑均另須有合約文件／協議證明金融機構獲授權操作帳戶。符合相應路徑及共同條件，MSO才可選擇不識別／合理核實該客戶的BO；其他適用CDD及監察仍然保留。', 'Both routes also require contractual documents/agreement evidencing the FI’s authority to operate the account. Only with the relevant route and common condition may the MSO omit identification/reasonable verification of that customer’s BOs; other applicable CDD and monitoring remain.'),
+    ], [
+        ref('03', '第4.8.13段', '¶4.8.13', 'in the name of a nominee company'),
+    ], kind='list'),
 ]),
 section('enhanced', '加強盡職審查與資金／財富來源', 'Enhanced due diligence and sources of funds/wealth', [
     block('高風險的處理', 'Responding to high risk', [
         ('情況本質或關長書面通知顯示高風險，須採相稱EDD。建立／繼續高風險關係須取得高級管理層批准及加強持續監察；措施不足時再限制交易或戶口功能等減低剩餘風險。', 'Apply proportionate EDD where circumstances or a CCE written notice indicate high risk. Obtain senior approval to establish/continue high-risk relationships and enhance monitoring; impose additional limits/controls where residual risk remains.'),
         ('一般高風險情況，法例要求管理層批准，再確定財富及資金來源，或採其他額外緩解措施；特定政治人物情況則須完成全部指定措施，不能任選一項。', 'For general high-risk cases the law requires management approval plus establishing wealth/fund sources or other additional mitigation. Specified PEP cases require all prescribed measures rather than choosing one.'),
-        ('可用EDD例子：補充職業／資產資料、更頻密更新、查明關係及交易原因、資金目的地，以及要求首筆付款經相類CDD銀行的客戶本人戶口。例子清單並非每宗都要全部做。', 'Examples include further occupation/asset information, more frequent updates, relationship/transaction reasons, fund destinations and first payment through the customer’s bank account subject to comparable CDD. The examples are not a mandatory all-items checklist for every case.'),
-        ('高風險因素例子：不合理複雜架構、空殼／代名／不記名持股、現金密集業務、拆單規避門檻、無解釋第三方付款、無地理聯繫、代理制度不足，以及高貪污／制裁／恐怖活動地區。須綜合評估，不把單一線索當成已證犯罪。', 'Potential factors include unjustifiably complex/shell/nominee/bearer structures, cash-intensive businesses, structuring, unexplained third-party funding, absent geographical ties, weak agents and corruption/sanctions/terrorism risks. Assess holistically; a red flag is not proof of crime.'),
     ], [
         ref('03', '第4.9.1–4.9.6段及註36', '¶4.9.1–4.9.6; footnotes 36', 'no expectation for an MSO to conduct all the examples'),
         ref('04', '附表2第15條', 'Schedule 2 s.15', 'either'),
@@ -234,11 +260,32 @@ section('enhanced', '加強盡職審查與資金／財富來源', 'Enhanced due 
     ], [
         ref('03', '第4.15.2段', '¶4.15.2', 'independent of any call by the FATF'),
     ], kind='list'),
+    block('認識完整分類：潛在較高風險因素', 'Recognise the complete groups: potentially higher risks', [
+        ('客戶因素（1–4）：業務關係異乎尋常（例如距離遙遠原因不明、特定組別在一個或多個地點或多項服務交易）；空殼安排沒有明確合法商業目的；有代名人股東／董事、持票人股份／認股權證；擁有或經營現金密集業務。', 'Customer factors (1–4): unusual circumstances, such as unexplained geographical distance or defined groups transacting at one or more locations or across multiple services; shell arrangements without clear legitimate commercial purpose; nominee shareholders/directors or bearer shares/warrants; cash-intensive businesses.'),
+        ('客戶因素（5–7）：架構相對業務性質異常或過度複雜；對匯款人／收款人詳情所知甚少或不願披露；客戶或BO屬政治人物。PEP的具體措施仍按本節下方的類別及風險條件決定。', 'Customer factors (5–7): ownership unusually/excessively complex for the business; little knowledge of, or reluctance to disclose, originator/recipient details; a PEP customer or BO. The specific PEP measures still depend on category and risk, as explained below.'),
+        ('產品／交易／渠道因素（1–4）：匿名交易（可能涉及現金）；拆單規避CDD或匯款特別規定，從而避開審查／紀錄；多人匯一人或一人匯多人而無合理解釋；經常收到來歷不明或無聯繫第三方付款。', 'Product/transaction/channel factors (1–4): anonymous transactions, possibly cash; structuring to avoid CDD or special remittance requirements and thereby CDD/records; many-to-one or one-to-many transfers without reasonable explanation; frequent payments from unknown/unassociated third parties.'),
+        ('產品／交易／渠道因素（5–7）：與資金來源／目的地無明顯聯繫且無合理解釋；代理／交易對手交易量與整體或過往一般水平不一致；代理合規計劃未達標準。', 'Product/transaction/channel factors (5–7): no apparent ties to origin/destination and no reasonable explanation; agent/counterpart volume inconsistent overall or relative to typical past volume; substandard agent compliance programmes.'),
+        ('國家因素四項：可靠來源指出制度欠有效；貪污／其他犯罪程度高；受聯合國等的制裁、禁令或類似措施；向恐怖活動提供資金／支持，以及有指定恐怖組織活動（該項英文連詞為or）。上述為非盡列的風險例子，要綜合評估，不是自動定罪規則。', 'The four country factors are credible-source findings of ineffective AML/CFT systems; significant corruption/other crime; sanctions, embargoes or similar measures, for example by the UN; or funding/support for terrorism or designated terrorist organisations operating there. These are non-exhaustive risk examples for holistic assessment, not automatic proof of crime.'),
+    ], [
+        ref('03', '第4.9.5段及註35', '¶4.9.5; footnote 35', 'Examples of potentially higher risk factors'),
+    ], kind='list'),
+    block('理解如何履行：六類可能的EDD措施', 'Understand implementation: six possible EDD measures', [
+        ('（a）索取額外客戶資料，如職業、資產量及公開資料，用於風險分析，並更頻密更新客戶及BO資料；（b）補充了解關係擬具有的性質；（c）取得財富來源及資金來源資料。', '(a) Obtain additional customer information, such as occupation, assets and public information, to inform risk profiling and update customer/BO information more frequently; (b) obtain additional information on intended relationship nature; (c) obtain source-of-wealth and source-of-funds information.'),
+        ('（d）查明擬進行或已進行交易的原因；（e）評估資金目的地及交易原因資料；（f）要求首次付款經由客戶本人在遵守相類CDD標準的銀行帳戶。第4.9.6段及註36不要求每宗高風險關係做齊六例；按風險選擇相稱措施，但不能藉此略去PEP等另有規定的必須措施。', '(d) Obtain reasons for intended/completed transactions; (e) evaluate destination-of-funds and transaction-reason information; (f) require the first payment through the customer’s own account at a bank subject to similar CDD standards. Paragraph 4.9.6 and note 36 do not require all six examples for every high-risk relationship; choose proportionate measures without omitting separately prescribed duties such as applicable PEP measures.'),
+    ], [
+        ref('03', '第4.9.6段及註36', '¶4.9.6; footnote 36', 'Examples of possible EDD measures'),
+    ], kind='list'),
+    block('財富來源：甚麼情況須深入了解', 'Source of wealth: when deeper understanding is required', [
+        ('FAQ並不要求對每名客戶一律確立財富來源。列舉的高風險情況包括客戶／BO屬非香港政治人物、與香港／國際組織政治人物客戶或BO的高風險關係，以及適當時其他本質上高風險情況。政治人物所需全部措施仍按下節執行，不能用一般高風險措施的選項取代。', 'The FAQ does not expect source-of-wealth establishment for every customer. Its high-risk examples include a non-Hong Kong PEP customer/BO, a high-risk relationship with a Hong Kong/international-organisation PEP customer/BO and, where appropriate, other inherently high-risk situations. Apply the complete PEP measures in the next section; general high-risk alternatives do not replace them.'),
+        ('非高風險客戶的職業／公司業務性質等已有資料，通常應足以理解客戶狀況，並監察戶口結餘、交易金額及交易量是否與預期財富／背景相符。高風險客戶亦不必全用同一套程序；風險不足以支持時，無須收集數十年前的證據。這是按風險決定查證程度，不是免除應做的財富來源審查。', 'For non-high-risk customers, existing occupation/business-nature information should often provide a basic profile against which to monitor account balances and transaction values/volumes. High-risk customers need not all undergo identical procedures; evidence from decades ago is not expected where the risk does not justify it. This sets a risk-sensitive depth, not an exemption from required source-of-wealth work.'),
+    ], [
+        ref('06', '打擊洗錢問答A16', 'AML/CFT FAQ A16', 'collect evidence dating back decades'),
+    ], kind='list'),
 ]),
 section('peps', '政治人物：類別、親屬及加強措施', 'Politically exposed persons: categories, associates and measures', [
     block('政治人物的範圍', 'Who is a PEP', [
         ('非香港政治人物指在香港以外獲委以重要公職的人，現任或曾任均包括；例如國家／政府首長、高級政界／政府／司法／軍方人員、國有企業高層及重要政黨官員，不包括中級或初級人員。', 'A non-Hong Kong PEP holds/has held a prominent public function outside Hong Kong, including heads of state/government, senior politicians/government/judiciary/military, state-enterprise executives and important party officials, excluding middle/junior ranks.'),
-        ('香港政治人物為在香港獲委重要公職的人；國際組織政治人物包括董事、副董事、董事會成員等高級管理人員，不包括中級或初級人員。', 'Hong Kong PEPs hold/have held prominent public functions in Hong Kong. International-organisation PEPs include directors, deputies, board members and equivalent senior managers, excluding middle/junior officials.'),
+        ('香港政治人物指在香港擔任或曾擔任重要公職者，例如政府首長、資深從政者、高級政府／司法官員、政府擁有企業的高級行政人員及重要政黨幹事；不包括中級或更低級官員。國際組織政治人物包括獲委重要職能的董事、副董事、董事會成員或同等高級管理人員，亦不包括中級或更低級官員。', 'Hong Kong PEPs hold/have held prominent public functions in Hong Kong, including heads of government, senior politicians, senior government/judicial officials, senior executives of government-owned corporations and important party officials; middle/junior ranks are excluded. International-organisation PEPs hold/have held prominent functions including directors, deputy directors, board members or equivalent senior management, likewise excluding middle/junior officials.'),
         ('範圍亦包括配偶／伴侶、子女、父母、子女的配偶／伴侶，以及關係密切的人。密切聯繫包括緊密業務關係、共同實益擁有法人／信託，或實益擁有為政治人物利益設立的法人／信託。', 'The scope includes spouses/partners, children, parents, children’s spouses/partners and close associates: close business relations, joint beneficial ownership or beneficial ownership of an entity/trust set up for the PEP’s benefit.'),
     ], [
         ref('03', '第4.9.7–4.9.8、4.9.13–4.9.15段', '¶4.9.7–4.9.8, 4.9.13–4.9.15', 'a spouse or a partner of a child'),
@@ -266,6 +313,12 @@ section('remote', '非親身識別：額外措施與數碼例外', 'Non-face-to-
         ('補充措施可包括合資格人士核證、可靠資料庫／登記冊或適當科技，須逐案確保足以防冒認。非自然人客戶由遠端代表建立關係，或只提供公司文件副本，也須緩減增加的風險。', 'Supplementary measures may use suitable certification, reliable databases/registers or technology, assessed case by case against impersonation risk. Also mitigate increased risk for non-individual customers onboarded through remote representatives or document copies.'),
     ], [
         ref('03', '第4.10.1–4.10.5段', '¶4.10.1–4.10.5', 'not required to carry out any additional measures'),
+    ], kind='list'),
+    block('核證作為補充措施的範圍', 'Scope of certification as a supplementary measure', [
+        ('若選擇核證作為附表2第9條的補充措施，一般核證的是用作身分核實的文件，例如身分證、護照、公司註冊證書或職權證明書。無須把客戶交來的所有其他CDD資料或文件一律核證；如可與公開來源核對，也沒有一律核證的要求。', 'If certification is chosen as a supplementary measure under Schedule 2 section 9, it generally covers documents used for identity verification, such as ID cards, passports, incorporation certificates or certificates of incumbency. Certification is not expected for all other CDD information/documents or where the MSO can check the documents against public sources.'),
+        ('中文FAQ說應盡量容許有意的客戶向職員出示正本；英文說應一直給予此機會。實際安排應讓客戶有機會出示正本，而不是堅持只能付費取得核證副本。採用核證仍須遵守本部分「身分文件與核證副本」的核證人及程序要求。', 'The Chinese FAQ says to allow willing customers to present originals as far as possible; the English says they should always be given that opportunity. Provide an opportunity to show originals instead of insisting only on paid certification. Certification still follows the certifier/procedure requirements in Identity documents and certified copies above.'),
+    ], [
+        ref('06', '打擊洗錢問答A27', 'AML/CFT FAQ A27', 'There is no expectation to require certification for all other'),
     ], kind='list'),
 ]),
 section('intermediaries', '依賴中介人：條件與不可轉移責任', 'Reliance on intermediaries: conditions and retained responsibility', [
@@ -295,6 +348,11 @@ section('intermediaries', '依賴中介人：條件與不可轉移責任', 'Reli
         ('具體類別包括持牌個人保險代理、持牌保險代理機構、持牌保險經紀公司；會計類包括註冊會計師、執業法團及會計師事務所；地產類包括持牌地產代理及營業員；法律類包括香港律師及註冊外地律師，另有TCSP持牌人（包括法定當作持牌者）。仍須符合前文相應類別的附表2、該客戶及充分防洗錢程序條件，不能只憑職銜依賴。', 'Specific categories include licensed individual insurance agents, insurance agencies and insurance broker companies; accounting professionals include certified public accountants, corporate practices and firms; estate professionals include licensed estate agents and salespersons; legal professionals include Hong Kong solicitors and registered foreign lawyers, with TCSP licensees including statutory deemed licensees also eligible. The applicable Schedule 2, customer-specific and adequate-procedure conditions above still apply; a title alone is insufficient.'),
     ], [
         ref('03', '第4.11.8段', '¶4.11.8', 'a licensed individual insurance agent'),
+    ], kind='list'),
+    block('持續監察可獲協助，但不能轉移責任', 'Ongoing monitoring: assistance without transferring responsibility', [
+        ('依賴中介人的法定路徑只涵蓋附表2第2條CDD，不能依第18條把第5條持續CDD及交易監察交給中介人負責。不過，中介人可以協助收集更多文件、數據及資料，並提供或協調更新；MSO仍須確保自己保存的CDD紀錄現時有效及相關。', 'Statutory reliance on an intermediary covers Schedule 2 section 2 CDD; section 18 does not transfer section 5 ongoing CDD/transaction monitoring to the intermediary. It may nevertheless assist by collecting further documents, data and information and providing/coordinating updates. The MSO remains responsible for ensuring its own CDD records are up-to-date and relevant.'),
+    ], [
+        ref('06', '打擊洗錢問答A22', 'AML/CFT FAQ A22', 'provide or coordinate relevant updates'),
     ], kind='list'),
 ]),
 section('monitoring', '持續監察與原有客戶', 'Ongoing monitoring and pre-existing customers', [
@@ -339,6 +397,12 @@ section('screening', '制裁及恐怖分子篩查', 'Sanctions and terrorist scr
         ref('06', '打擊洗錢問答A24', 'AML/CFT FAQ A24', 'named parties'),
         ref('07', '附錄(2)第4頁', 'Appendix (2), p.4', 'irrespective of the risk profile'),
     ], kind='list'),
+    block('2018年制裁通函：兩語強度差異及共同要求', '2018 sanctions circular: language difference and common requirements', [
+        ('第26份第2頁的中文寫，列入聯合國安理會制裁決議／名單「已足以構成知悉或懷疑的理由」，法定責任（包括呈報）及罪行條文隨即適用；英文寫may constitute grounds（可能構成理由）。依擁有人2026年10月20日決定，保留兩語原文的強度差異，不擅自改成相同措辭，也不把「可能」理解為可以忽略名單。', 'Page 2 of document 26 says inclusion in a UNSC sanctions resolution/list “may constitute grounds for knowledge or suspicion”, triggering statutory obligations (including reporting) and offence provisions. The Chinese says inclusion is already sufficient grounds and those provisions immediately apply. Under the owner’s 20 October 2026 decision, retain this difference rather than silently harmonising the wording; “may” is not permission to disregard a list.'),
+        ('兩語共同要求：聯合國公布後，在實際可行情況下盡快篩查所列國家、個人、實體及活動，不論香港是否已實施相應制裁；保持CDD、持續監察及法定知悉／懷疑報告責任。名單資料庫由內部或外部供應，MSO均須負責及時更新。單純同名須先查明是否真正命中，見本節上文。', 'Both versions require screening listed countries, people, entities and activities as soon as practicable after UN promulgation, regardless of Hong Kong implementation, alongside CDD, ongoing monitoring and statutory knowledge/suspicion reporting duties. The MSO remains responsible for timely database updates whether maintained internally or by a provider. Investigate a mere name match to establish a genuine hit as explained above.'),
+    ], [
+        ref('26', '第2頁，(d)後段落及第2節末段（續第3頁）', 'p.2, paragraph after (d), and end of section 2 (continuing on p.3)', 'may constitute grounds for knowledge or suspicion'),
+    ], kind='list'),
 ]),
 section('third-party-payments', '第三方付款：例外接受與嚴格管控', 'Third-party payments: exceptional acceptance and strict controls', [
     block('接受條件及審查', 'Acceptance conditions and checks', [
@@ -349,6 +413,20 @@ section('third-party-payments', '第三方付款：例外接受與嚴格管控',
         ('鼓勵客戶指定本人名下銀行戶口以辨識來源。加強持續監察及員工培訓、向客戶清楚說明拒收／例外政策及文件要求；形成懷疑時報JFIU。', 'Encourage designated customer-owned bank accounts to identify funding. Enhance monitoring/training, explain rejection/exception and evidence policies to customers and report suspicion to the JFIU.'),
     ], [
         ref('08', '第4–6頁，主要措施第1–12項及註6', 'pp.4–6, key controls 1–12; footnote 6', 'only under exceptional and legitimate circumstances'),
+    ], kind='list'),
+    block('須認識：第08份列出的八項警號', 'Recognise: the eight red flags listed in document 08', [
+        ('(1)交易與對客戶的認知或交易目的不符，例如匯款與經濟活動、來源地或人士不相稱；(2)多名客戶看似合謀把一項交易拆為兩項或以上低於CDD門檻的交易。', '(1) Transactions are incompatible with knowledge of the customer or transaction purpose, such as a mismatch between remittances and economic activity, place of origin or person; (2) multiple customers appear to cooperate in splitting one transaction into two or more below CDD thresholds.'),
+        ('(3)多名看似無關客戶集中採相同交易模式，例如轉往同一個人帳戶；(4)大額金錢轉入／轉出香港境外並指示以現金支付，若匯款人／收款人是辦理一次性交易的非居民街客，情況更可疑。', '(3) Seemingly unrelated customers concentrate in the same transaction pattern, such as transfers to one individual’s account; (4) large sums move to/from outside Hong Kong with cash-payment instructions, especially a single transaction instructed by walk-in non-resident originators/recipients.'),
+        ('(5)客戶代表第三方交易，卻沒有適當業務關係；(6)多名看似無關客戶授權同一第三方（非受規管人士／實體），透過已建立的業務關係向MSO發出各種活動指示。', '(5) A customer transacts for a third party without an appropriate business relationship; (6) many seemingly unrelated customers authorize the same third party, who is not a regulated person/entity, to instruct the MSO on activities through their established relationships.'),
+        ('(7)由第三方資助的頻繁或大額轉帳，沒有可信商業理由／解釋；(8)客戶不能按要求立即提供額外身分證明文件。付款人姓名是第三方，或匯款與通常業務／活動不符時，應要求解釋匯款性質。這八項是非盡列警號，須跟進評估；不能把任何一項直接等同已證明洗錢。', '(7) Frequent or large transfers funded by a third party without credible commercial rationale/explanation; (8) customers cannot immediately provide additional identification documents as required. A third-party payer name or remittance inconsistent with usual business/activity calls for explanation of the remittance’s nature. These eight illustrative flags are non-exhaustive and require follow-up assessment; none automatically proves laundering.'),
+    ], [
+        ref('08', '「可疑交易訊號／潛在較高風險因素」，第2–3頁', 'Red flags/potentially higher risk factors, p.3', 'a single individual’s account'),
+    ], kind='list'),
+    block('第三方付款政策：五項內容與識別付款來源', 'Third-party payment policy: five components and identifying payment sources', [
+        ('通函要求政策／程序應獲高級管理層批准，並處理以下五項等內容：(a)可例外接受的合法情況及評估準則；(b)識別資金形式第三方付款的監察系統及管控；(c)適用時，判斷付款是否符合接受準則的盡職審查程序；(d)加強監察涉及第三方付款的客戶帳戶，並向JFIU報告所識別的懷疑；(e)負責執行各項政策／程序的指定經理或職員。制度應向相關職員有效傳達，並以嚴格合規監察落實。', 'The circular says policies/procedures should be approved by senior management and address, among other matters: (a) exceptional legitimate acceptance circumstances and criteria; (b) monitoring systems/controls identifying third-party payments in funds; (c) where applicable, due diligence assessing acceptance criteria; (d) enhanced monitoring of affected client accounts and JFIU reporting of identified suspicions; and (e) designated managers/staff responsible for implementation. The systems should be communicated effectively to relevant staff and enforced through robust compliance monitoring.'),
+        ('識別是否第三方付款，通函舉例應向客戶取得銀行結單、付款通知等佐證。海關強烈鼓勵要求客戶指定其本人名下銀行帳戶作所有付款，以在執行第三方付款前確認來源及完成必要審查；這是強烈鼓勵的做法，不能改寫為法例一律禁止其他付款方式。員工指引應有可接受付款人的例子，客戶亦應清楚獲告知拒收／例外接受政策及佐證要求。', 'The circular gives obtaining customer bank statements or advice slips as an example of how payments from third parties should be established. Customs strongly encourages requiring customers to designate own-name bank accounts for all payments, helping identify the source and complete necessary due diligence before effecting a third-party payment. This is strongly encouraged practice, not a statutory blanket ban on all other payment methods. Staff guidance should include acceptable-payer examples, and customers should be clearly informed of rejection/exception policies and supporting-document requirements.'),
+    ], [
+        ref('08', '主要管控措施第2、4–5、10–12項及註5（第3–5頁）', 'Key controls 2, 4–5, 10–12 and footnote 5 (pp.4–6)', 'the respective designated managers'),
     ], kind='list'),
 ]),
 section('delivery', '交付渠道、代理及境外對手風險', 'Delivery channels, agents and overseas counterpart risk', [
@@ -397,9 +475,9 @@ section('wire-receiving', '電傳轉帳：中介及受益機構責任', 'Wire tr
         ref('03', '第10.11–10.12、10.20段及註71', '¶10.11–10.12, 10.20; footnote 71', 'Domestic wire transfer means'),
     ], kind='list'),
     block('資料傳遞、缺漏與核實', 'Pass-through, missing data and verification', [
-        ('中介機構須保留並向下一站傳遞全部附隨發款人／受款人資料。若技術限制使跨境與相連本地轉帳間不能保留，須至少保存所收資料5年，反向情況亦適用。', 'Intermediaries retain and pass all accompanying originator/recipient information. If technical limitations prevent it remaining with a linked domestic/cross-border transfer, keep received information for at least five years, including the reverse direction.'),
-        ('中介及受益機構須有風險為本程序識別缺漏，決定執行、拒絕、暫停及跟進；發現缺資料應盡快向上手機構索取，未能取得時考慮限制／終止對手機構關係，或採合理緩解措施。', 'Intermediaries/beneficiaries need risk-based missing-data detection and execute/reject/suspend/follow-up policies. Obtain missing information promptly from the preceding institution; if unavailable, consider restricting/ending that institutional relationship or reasonable mitigation.'),
-        ('已知資料不完整或無意義，須盡快採合理措施減風險。受益機構收到達8,000元的轉帳，若此前未核實受款人，須核實其身分。', 'Known incomplete/meaningless data requires prompt reasonable mitigation. For transfers of at least HK$8,000, a beneficiary institution verifies a recipient not already verified.'),
+        ('中介機構須保留並向下一站傳遞全部附隨發款人／受款人資料。若技術限制使跨境與相連本地轉帳間不能保留，應至少保存所收資料5年，反向情況亦適用。', 'Intermediaries retain and pass all accompanying originator/recipient information. If technical limitations prevent it remaining with a linked domestic/cross-border transfer, received information should be kept for at least five years, including the reverse direction.'),
+        ('中介機構須採與直通式處理一致的合理措施，識別跨境電傳欠缺的資料；收款機構則須識別本地或跨境電傳欠缺資料，可用事後監察等合理措施。兩者均須有按風險決定執行／拒絕／暫停及跟進的政策，並在合理可行範圍內盡快向上一手機構取得適用欠缺資料；取不到時，中介機構「應考慮」、收款機構「須考慮」限制／終止與該機構的關係，或採合理緩減措施。', 'Intermediaries use reasonable measures consistent with straight-through processing to identify missing data in cross-border wires; beneficiary institutions identify missing data in domestic or cross-border wires, for example through post-event monitoring. Both need risk-based execute/reject/suspend/follow-up policies and must obtain applicable missing data from the preceding institution as soon as reasonably practicable; if unavailable, the intermediary should consider, and the beneficiary institution should consider (Chinese: 須考慮), restricting/ending that institutional relationship or reasonable mitigation.'),
+        ('已知資料不完整或無意義，須盡快採合理措施減風險。受益機構收到達8,000元的轉帳，若此前未核實受款人，應核實其身分。', 'Known incomplete/meaningless data requires prompt reasonable mitigation. For transfers of at least HK$8,000, a beneficiary institution should verify a recipient not already verified.'),
     ], [
         ref('03', '第10.14–10.22段', '¶10.14–10.22', 'incomplete or meaningless'),
     ], kind='list'),
@@ -432,13 +510,13 @@ section('trade-based-laundering', '貿易洗錢：定義與四類風險指標', 
         ref('24', '第1–2頁（中文為學習譯文）', 'pp.1–2', 'By no means is this a conclusive list'),
     ], kind='list'),
     block('結構及業務活動指標', 'Structural and business-activity indicators', [
-        ('結構：不合理複雜架構、空殼或缺乏人手／資產、地址不符業務、短期大量註冊、名義擁有人不了解業務、網站空泛／欠缺、名稱模仿知名企業、休眠後突然活躍，或與負面情報有關連。須同時考慮是否有合理解釋。', 'Structure: unjustifiably complex ownership, shells or minimal staff/assets, unsuitable addresses, mass recent registrations, nominees ignorant of business, generic/absent websites, imitation names, reactivated dormancy or adverse information. Consider reasonable explanations.'),
+        ('結構：不合理複雜架構或空殼、在打擊洗錢合規薄弱地區設立／設辦事處；地址似供大量公司登記（例如密集住宅、郵箱、商業／工業大廈，尤其沒有單位號碼），或與業務不符且無合理解釋；人手與貿易量不稱、名義擁有人不了解業務、網站空泛／欠缺、名稱模仿知名企業、無法解釋的休眠期，或有負面情報。這裏「集中註冊地址」不是「短期大量註冊」。', 'Structure: illogical complexity or shells; registration/offices in a jurisdiction with weak AML/CFT compliance; an apparent mass-registration address (dense housing, a post box or commercial/industrial building, especially without a unit number), or an address inappropriate for the business without explanation; staffing inconsistent with trade volume; uninformed nominees, generic/absent websites, imitation names, unexplained dormancy or adverse information. A mass-registration address is not a claim about numerous recent registrations.'),
         ('活動：貨物／規模與業務不符、不必要中介人／迂迴航線、不合理低利潤或超過能力的交易、突然龐大融資、新設或重啟企業在高門檻行業突然巨額交易，以及不必要複雜貿易融資。', 'Activity: goods/scale inconsistent with business, unnecessary intermediaries/routes, implausibly low margins or beyond-capacity trade, sudden large funding, new/reactivated businesses trading heavily in high-entry-barrier sectors, or unnecessarily complex trade finance.'),
     ], [
         ref('24', '印刷第3–4頁', 'Printed pp.3–4', 'Structural risk indicators'),
     ], kind='list'),
     block('單據／貨物及帳戶／付款指標', 'Document/goods and account/payment indicators', [
-        ('單據／貨物：合約、發票及付款的名稱不同；數量、品質或市場價格不符；描述過於籠統；單據偽造／遺失／不合理修改或被拒後重交；交易額與跨境資金不符；臨時進出口及路線不合理。', 'Documents/goods: inconsistent names across contracts/invoices/payments, mismatched quantity/quality/market value, vague descriptions, false/missing/unreasonably altered or resubmitted documents, trade values inconsistent with cross-border flows, and implausible temporary imports/exports or routes.'),
+        ('單據／貨物：合約、發票及付款的名稱不同；數量、品質或市場價格不符；描述過於籠統；單據偽造、遺失、反覆修改或被拒後重交；進口貨值與相應對外銀行轉帳不符，或出口貨值與境外來款不符。另兩項須分清：貨物在暫時進口／進料加工制度下進口，之後以偽造單據出口；以及沒有明顯經濟理由而經多個司法管轄區運送。', 'Documents/goods: inconsistent names across contracts, invoices and payments; quantity, quality or market-value discrepancies; vague descriptions; false, missing, repeatedly modified or resubmitted documents; imported trade values inconsistent with corresponding outward bank transfers, or exported trade values inconsistent with incoming foreign transfers. Distinguish goods imported under temporary-importation/inward-processing arrangements and later exported using falsified documents, from goods routed through jurisdictions without apparent economic justification.'),
         ('帳戶／付款：臨時改收款人、日期或金額；營業額與背景不符；資金快速進出且餘額很低；不相干第三方付款；分拆避門檻；突然放量後休眠；不尋常整數及循環轉帳。', 'Accounts/payments: last-minute beneficiary/date/amount changes, turnover inconsistent with profile, rapid pass-through with little balance, unrelated third-party funding, threshold splitting, spikes followed by dormancy, unusual round amounts and circular flows.'),
     ], [
         ref('24', '印刷第5–6頁', 'Printed pp.5–6', 'Account and transaction activity'),
@@ -459,21 +537,60 @@ section('trade-based-laundering', '貿易洗錢：定義與四類風險指標', 
     ], [
         ref('25', '2022年版，第4.44、4.57–4.59段及專題4.5', '2022 edition, ¶4.44, 4.57–4.59 and Box 4.5', 'Box 4.5'),
     ], kind='list'),
+    block('2026年通函：核實新設實體及交易真實性', '2026 circular: checking new entities and transaction genuineness', [
+        ('應特別留意新成立、缺乏顯著資產、員工及／或活躍業務運作的法人客戶，主動考慮反欺詐程序，審查客戶資料以核實交易真實性，並評估匯款人或收款人是否空殼公司。這是風險及真實性審查；不能只核對成立證明，亦不是把所有新公司一律拒收。', 'Pay particular attention to newly established legal entities lacking significant assets, employees and/or active business operations. Proactively consider anti-fraud procedures to scrutinize customer information, verify transaction genuineness and assess whether the originator or recipient is a shell. This examines risk and genuineness beyond incorporation evidence; it is not blanket rejection of all new companies.'),
+        ('評估交易合理性應合看客戶風險、資金／財富來源及歷史交易；如同時掌握匯款人及收款人資料，決定是否提交STR時應把兩邊資料一併考慮。不能把付款方檔案合格當作不再理會收款方警號的理由；疑似交易仍須連同懷疑根據報告。', 'Assess transaction reasonableness using customer risk, source of funds/wealth and transaction history. If information is held on both originator and recipient, take all of it into account when deciding whether to file an STR. A satisfactory payer file does not justify disregarding recipient red flags; report suspected activity together with the matters supporting the suspicion.'),
+    ], [
+        ref('18', '2026年1月20日通函第2–4項（第1–2頁）', '20 January 2026 circular, items 2–4 (p.2)', 'proactively consider to apply anti-fraud procedures'),
+    ], kind='list'),
+    block('貿易指標的具體例子與價格比較限制', 'Specific trade indicators and limits of price comparisons', [
+        ('結構／文件警號還包括不履行通常業務申報責任（原文以增值稅申報為例），以及複雜或經常性貿易卻採用異常簡單、像網上樣本的合約。這些是全球報告的例子，不能把增值稅申報誤寫為香港每家MSO的稅務要求；也不能只因文件齊全便忽略其是否與業務相稱。', 'Further structural/document indicators include non-compliance with ordinary business obligations (the source gives VAT returns as an example), and unusually simple, internet-template-like contracts for complex or regular trade. These are examples from a global report, not a VAT-filing requirement for every Hong Kong MSO. Complete-looking documents still need to be consistent with the actual business.'),
+        ('「不合理低利潤」的例子：批發進貨價已達或超過零售價，或持續以等於／低於成本出售。判斷可能須估計貨品的公平價格；沒有公開市場交易的貨品較難估價，原文註5明確保留這個限制。應把可靠市價、交易條件及其他背景合看，不能單憑猜測價格便認定洗錢。', 'Examples of unreasonably low margins include wholesale purchases at or above retail value, or consistent resale at or below cost. Assessment may require estimating a fair commodity price; footnote 5 specifically recognizes difficulty for commodities without an open market. Consider reliable prices, transaction terms and context rather than treating a guessed price as proof of laundering.'),
+    ], [
+        ref('24', '印刷第3–5頁及註5（中文為學習譯文）', 'Printed pp.3–5 and footnote 5', 'determining the profit margin'),
+    ], kind='list'),
 ]),
 section('suspicion-indicators', '其他可疑交易指標', 'Other suspicious-activity indicators', [
-    block('由行為及背景識別異常', 'Detect anomalies through behaviour and context', [
-        ('客戶拒絕提供正常資料、只願提供難核實資訊、過度關心申報門檻、顯得為不明第三方辦事，或交易與職業／財力不相稱。新客戶大額、頻密、分拆或無合理商業原因的現金／匯款均需留意。', 'Watch refusal of normal information, unverifiable details, excessive interest in reporting thresholds, apparent action for unknown third parties or transactions inconsistent with occupation/resources. Large/frequent/split new-customer cash/remittances without a sensible commercial purpose warrant attention.'),
-        ('資金短時間在多個戶口／國家轉移、無關人士替同一受款人匯款、與高風險地區／犯罪情報有關、或資金來源與說法不符，須合併客戶及關連交易分析。單一警號不是定罪，但不得忽略。', 'Rapid movements across accounts/countries, unrelated payers funding one recipient, high-risk/crime links or sources inconsistent with explanations require combined customer/linked-transaction analysis. One warning sign is not a conviction but cannot be ignored.'),
+    block('使用方法：記住分類，理解具體警號', 'Use: remember the groups and understand the indicators', [
+        ('第7.10段分六組列出43項非盡列警號。學習時要能認識具體模式及其可疑之處，毋須逐字背例句；單一警號不是定罪或自動必報STR的充分條件。依第7.10段末的要求作進一步調查，至少初步查詢資金來源及要求額外CDD佐證；形成知悉／懷疑時，按Part 7的法定及內部程序盡快報告。', 'Paragraph 7.10 gives 43 non-exhaustive indicators in six groups. Recognise the specific patterns and why they matter; verbatim memorisation of examples is unnecessary. A single indicator is not proof or an automatic STR trigger. Under the end of paragraph 7.10, investigate further, at least making initial SOF enquiries and requesting additional CDD evidence; report knowledge/suspicion promptly through the statutory/internal procedures in Part 7.'),
     ], [
-        ref('03', '第7.9–7.10段', '¶7.9–7.10', 'list of non-exhaustive red flag indicators'),
+        ref('03', '第7.9–7.11段', '¶7.9–7.11', 'list of non-exhaustive red flag indicators'),
     ], kind='list'),
-    block('化整為零、折返交易與其他警號', 'Structuring/Smurfing, U-turn transactions and other red flags', [
-        ('化整為零／分拆（Structuring／Smurfing）：本可用一宗或幾宗大額交易，卻改用多宗小額。可用來避開CDD門檻，但辨識相連操作仍須合併考慮；不是每宗低於門檻就各自免審查。', 'Structuring/Smurfing means many lower-value transactions where one or a few larger ones could be used. It can seek to avoid CDD thresholds, but apparently linked operations still require aggregation; each below-threshold payment is not automatically a separate exemption.'),
-        ('折返交易（U-turn）：境外某人／公司的來款，再匯回同一境外司法管轄區另一人／公司，或原匯款人在另一司法管轄區的戶口。另留意不必要多站轉款、多名匯款人集中付款予一人，以及不合理以大量小鈔換另一幣種大鈔。', 'A U-turn takes funds from a foreign person/company and remits them to another person/company in that same foreign jurisdiction or the sender’s account in another jurisdiction. Also watch unnecessary routing, multiple senders concentrating payments to one person and unusually large small-note exchanges for high-denomination notes in another currency.'),
-        ('代理／對手拒交識別資料，同一客戶資料逐次改拼寫或局部改動，同日向多個代理分流；低調陪同或在外等候的人、催促先交易後補文件、不理會費率，以及向衝突區慈善團體捐款，均可為相關警號。', 'Agent/counterparty ID refusal, evolving spelling/partial identity details for the same customer, same-day routing through multiple agents, low-profile companions or people waiting outside, pressure to transact before documents, no concern for rates, and conflict-zone charity donations can be relevant warning signs.'),
-        ('這是非盡列指標，單項不是定罪或一律必須交STR的充分條件；相關警號應促使進一步調查、初步資金來源查詢及支持文件。完成評估後仍有知悉／懷疑時，按既有法定及內部程序盡快報告。', 'These are non-exhaustive indicators, not automatic proof or an automatic STR requirement in every case. Relevant flags prompt further investigation, initial SOF enquiries and supporting evidence. Remaining knowledge/suspicion requires prompt reporting under statutory/internal procedures.'),
+    block('一、不合經濟常理的交易：九項', '1. Transactions without economic sense: nine indicators', [
+        ('（1）模式與客戶正常活動不符；（2）與對客戶的認知／經驗或交易目的不符，例如經濟活動、來源地或人士與所收匯款不相稱；（3）頻密交易刻意分拆至CDD門檻以下以免留下紀錄；（4）化整為零／分拆（Structuring／Smurfing）：本可用一宗或幾宗大額，卻作多宗小額。相連操作仍須合併考慮門檻。', '(1) A pattern inconsistent with normal activity; (2) incompatibility with customer knowledge/experience or purpose, e.g. a mismatch between economic activity, origin or person and remittances received; (3) frequent deliberate splitting below CDD thresholds to avoid records; (4) structuring/smurfing: many smaller transactions where one or a few larger ones could be used. Apparently linked operations still require threshold aggregation.'),
+        ('（5）折返交易（U-turn）：境外某人／公司的來款，再匯至同一境外司法管轄區另一人／公司，或原匯款人在另一司法管轄區的戶口；（6）不必要地經多間金融機構或人士轉款。', '(5) A U-turn: funds from a foreign person/company are remitted to another person/company in that same foreign jurisdiction or to the sender’s account in another jurisdiction; (6) unnecessary routing through multiple financial institutions or people.'),
+        ('（7）交易頻率／金額突然增加，無合理解釋，尤其涉及新收款人／目的地；（8）多名匯款人匯入同一個人戶口；（9）客戶與收款人無明顯關係，及／或私人匯款地與客戶無明顯家庭／商業聯繫，及／或匯出／收款地與客戶無關且不能充分解釋原因。', '(7) Unexplained sudden increases in frequency/value, particularly new destinations/people; (8) many senders to one individual’s account; (9) no apparent customer-recipient relationship, and/or personal remittances lack apparent family/business ties to the destination, and/or the customer has no connection with the sending/receiving jurisdiction and cannot sufficiently explain why.'),
     ], [
-        ref('03', '第7.10–7.11段', '¶7.10–7.11', '“Structuring” or “Smurfing”'),
+        ref('03', '第7.10(a)段', '¶7.10(a)', '“Structuring” or “Smurfing”'),
+    ], kind='list'),
+    block('二、現金：七項', '2. Cash: seven indicators', [
+        ('（1）與個人／業務背景不符的頻密大額現金交易；（2）大額或頻密匯款似與客戶業務無關；（3）大量小面額鈔票換另一貨幣大面額鈔票。', '(1) Frequent large cash transactions unjustified by the individual/business background; (2) large/frequent remittances apparently unrelated to the business; (3) unusually large small-note exchanges for high-denomination notes in another currency.'),
+        ('（4）尤其短期內多宗交易各低於CDD門檻或金額不大，但合計龐大或超過門檻；（5）多名客戶一起同時在不同分行進行大額現金交易；（6）假鈔／偽造金融票據；（7）定期向／從高風險地區作大額付款，而沒有明確真正交易基礎。', '(4) Numerous transactions, especially over a short period, each below the CDD threshold or not substantial but cumulatively substantial or over the threshold; (5) customers together making simultaneous large cash transactions at separate branches; (6) counterfeit notes/forged financial instruments; (7) regular large payments to/from higher-risk jurisdictions without clear genuine underlying transactions.'),
+    ], [
+        ref('03', '第7.10(b)段', '¶7.10(b)', 'Cash transactions'),
+    ], kind='list'),
+    block('三、貿易洗錢：十一項', '3. Trade-based laundering: eleven indicators', [
+        ('（1）高風險起點／目的地；（2）高風險貨物，例如高價低體積貨物（如電子產品），以及周轉快且難估值的軍民兩用貨物；（3）提單／發票的貨物描述與實際付運貨物有重大差異；（4）發票貨價與公平市場價值有重大差異。', '(1) Higher-risk origin/destination; (2) higher-risk goods, e.g. high-value low-volume goods (such as electronics) and dual-use goods with high turnover and valuation difficulties; (3) significant discrepancies between bill-of-lading/invoice descriptions and actual goods shipped; (4) significant discrepancies between invoice values and fair market value.'),
+        ('（5）交易規模與業務不符；（6）付款方式增加風險，例如向高風險地區的新供應商預付款；（7）無關第三方付款；（8）信用證反覆延長／修改。', '(5) Size inconsistent with the business; (6) a payment method increasing risk, e.g. advance payment to a new supplier in a higher-risk jurisdiction; (7) unrelated third-party payments; (8) repeatedly extended/amended letters of credit.'),
+        ('（9）交易方似為幌子／空殼公司；（10）付運地點無合理理由經其他地區轉運；（11）付運貨物不合經濟常理。Part 6「貿易洗錢」另載第24份的四類指標，兩套分類不要混為同一清單。', '(9) Apparent front/shell-company trading parties; (10) unjustified trans-shipment through other locations; (11) shipments that make no economic sense. The TBML section separately explains document 24’s four indicator groups; these are distinct lists.'),
+    ], [
+        ref('03', '第7.10(c)段及註62–63', '¶7.10(c); footnotes 62–63', 'the use of an advance payment for a shipment'),
+    ], kind='list'),
+    block('四、其他類型交易：七項', '4. Other types of transactions: seven indicators', [
+        ('（1）活動與年齡、職業或收入不符；（2）交易涉及據報與恐怖活動或指定恐怖分子有關的司法管轄區／實體；（3）經常改地址或獲授權簽署人；（4）向衝突區慈善／非牟利組織，或在與恐怖活動有關地區營運的組織捐款。', '(1) Activity inconsistent with age, occupation or income; (2) transactions with jurisdictions/entities reported to be associated with terrorist activities or designated terrorists; (3) frequent changes of address or authorised signatories; (4) donations to charities/NPOs in conflict zones or organisations operating in areas associated with terrorism.'),
+        ('（5）用虛假資料／第三方掩飾付款人或收款人；（6）向／從避稅天堂或與犯罪活動／高風險業務有關地區反覆付款，金額未必大；（7）與正常業務不符、沒有明顯經濟理由而匯至／來自高風險地區。', '(5) False information/third parties conceal payers or recipients; (6) repeated payments to/from tax havens or areas associated with crime/high-risk business, not necessarily large; (7) unexplained transfers to/from higher-risk jurisdictions inconsistent with normal business.'),
+    ], [
+        ref('03', '第7.10(d)段', '¶7.10(d)', 'other types of transactions'),
+    ], kind='list'),
+    block('五、代理／對手：四項', '5. Agents/counterparties: four indicators', [
+        ('（1）不願提供客戶識別資料；（2）相較同區其他代理／對手，有大量大額或可疑交易；（3）同一客戶大量交易中，多次出現不同姓名拼寫、虛假地址，或識別資料部分改變、部分維持不變；（4）同一客戶同日向多個代理／對手地點傳送資金，聲稱給同一或不同收款人。', '(1) Reluctance to provide customer identification information; (2) a high volume of large or suspicious transactions compared with local agents/counterparts; (3) a large volume for one customer with repeated different name spellings, false addresses or identification that changes in part while other parts remain the same; (4) funds sent by the same customer on the same day to several agent/counterpart locations for purportedly the same or different recipients.'),
+    ], [
+        ref('03', '第7.10(e)段', '¶7.10(e)', 'agents or counterparts of MSO'),
+    ], kind='list'),
+    block('六、客戶行為：五項', '6. Customer behaviour: five indicators', [
+        ('（1）由保持低調或在外等候的人陪同，或猶豫才提供資料；（2）催促交易，承諾之後才補文件；（3）不在乎手續費／匯率；（4）多名客戶似合作把一項交易拆成兩項或以上門檻以下交易，以規避申報要求；（5）不能為交易提供合理解釋。', '(1) Companions keep a low profile/wait outside, or the customer hesitates to provide details; (2) urgency to transact with promised later documents; (3) no interest in charges/exchange rates; (4) customers appear to cooperate in splitting one transaction into two or more below-threshold transactions to avoid reporting requirements; (5) inability to justify the transaction.'),
+    ], [
+        ref('03', '第7.10(f)段', '¶7.10(f)', 'customer’s behaviour'),
     ], kind='list'),
 ]),
 ])

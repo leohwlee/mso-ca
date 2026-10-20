@@ -1,11 +1,11 @@
-"""Source-authored bilingual manuscript; source-checked 2026-10-19. No bank input."""
+"""Source-authored bilingual manuscript. Review scope: depth-review-2026-10-20/REPORT.md."""
 from model import p, ref, block, section
 
 PART = dict(title=p('金錢服務經營者的系統及管控措施（三）：證明符合規定及監察合規水平', 'MSO systems and controls (iii): demonstrating and monitoring compliance'),
 intro=p('合規不止是有政策：須能展示已執行、已檢查及已處理問題的證據。把舉報、紀錄、審核、培訓和監管申報分開記。', 'Compliance requires evidence that controls were performed, checked and deficiencies addressed. Distinguish reporting, records, audit, training and regulatory returns.'), sections=[
 section('reporting-duty', '可疑交易舉報：觸發條件及時間', 'Suspicious transaction reporting: trigger and timing', [
     block('知悉、懷疑與法定義務', 'Knowledge, suspicion and the statutory duty', [
-        ('若知悉或懷疑財產全部或部分、直接或間接代表販毒／可公訴罪行得益，曾用於或擬用於該等罪行，或屬恐怖分子財產，須在合理情況下盡快向JFIU披露，並交代懷疑依據。', 'Disclose to the JFIU as soon as reasonable where the MSO knows or suspects that property wholly/partly, directly/indirectly represents proceeds of drug trafficking/an indictable offence, was or is intended to be used in it, or is terrorist property. Include the basis of knowledge or suspicion.'),
+        ('若知悉或懷疑財產全部或部分、直接或間接代表販毒／可公訴罪行得益，曾用於或擬用於該等罪行，或屬恐怖分子財產，須在合理情況下盡快向JFIU披露，並交代懷疑依據。 財產不限現金，也包括貨品、土地及權利；完整定義見Part 1「洗錢」。', 'Disclose to the JFIU as soon as reasonable where the MSO knows or suspects that property wholly/partly, directly/indirectly represents proceeds of drug trafficking/an indictable offence, was or is intended to be used in it, or is terrorist property. Include the basis of knowledge or suspicion. Property extends beyond cash to goods, land and rights; see Part 1 Money laundering for the full definition.'),
         ('知悉可包括實際知道、合理人士會據以認知事實的情況，或會促使合理人士進一步查詢的情況。懷疑較主觀，低於以確實證據證明；不必先知道確切上游罪行或證實資金必定來自犯罪。', 'Knowledge includes actual knowledge and circumstances that indicate facts to, or put on inquiry, a reasonable person. Suspicion is more subjective and falls short of firm proof. Identifying the exact predicate crime or proving criminal origin is not a prerequisite.'),
         ('金額沒有最低門檻；未完成、被拒絕或只是嘗試的交易也可觸發舉報。不能因沒有交易入帳或金額低於CDD門檻而不報。', 'There is no minimum reporting amount. Attempted, rejected or uncompleted transactions may trigger reporting. Neither absence of a completed transaction nor an amount below CDD thresholds removes the duty.'),
         ('不披露知悉或懷疑的最高刑罰為監禁3個月及罰款港幣50,000元；這與洗錢罪及通風報訊的刑罰不同。', 'Failure to disclose knowledge/suspicion carries a maximum of three months’ imprisonment and HK$50,000. Distinguish this from laundering and tipping-off penalties.'),
@@ -23,10 +23,10 @@ section('reporting-duty', '可疑交易舉報：觸發條件及時間', 'Suspici
 ]),
 section('internal-report', '內部報告與MLRO評估', 'Internal reporting and MLRO assessment', [
     block('從員工到JFIU', 'From staff to the JFIU', [
-        ('員工應知道MLRO是誰及如何報告；內部報告須不受不當延誤地送達。非負責洗錢舉報／合規職能的主管不得把員工報告篩走，匯報線應盡量短。', 'Staff must know the MLRO and reporting procedure. Reports must reach the MLRO without undue delay. Managers without reporting/compliance responsibility must not filter them out; reporting lines should be as short as possible.'),
-        ('員工按機構程序向MLRO報告懷疑後，已履行相關個人法定舉報義務。報告須有客戶詳情及引起懷疑的資料；MLRO應確認收妥並提醒避免通風報訊。', 'Staff who report suspicion to the MLRO under the MSO’s procedures discharge the relevant personal statutory duty. Include customer details and grounds; the MLRO acknowledges receipt and reminds staff about tipping off.'),
+        ('員工應知道MLRO是誰及如何報告；內部報告須不受不當延誤地送達。非負責洗錢舉報／合規職能的主管不得把員工報告篩走，匯報線應盡量短。', 'The MSO should ensure staff know the MLRO and reporting procedure. Reports must reach the MLRO without undue delay. Under no circumstances should managers without reporting/compliance responsibility filter them out; reporting lines should be as short as possible.'),
+        ('員工按機構程序向MLRO報告懷疑後，已履行相關個人法定舉報義務。內部報告應包括充分客戶詳情及引起懷疑的資料；MLRO必須確認收妥並提醒避免通風報訊（該句英文為should）。', 'Staff who report suspicion to the MLRO under the MSO’s procedures discharge the relevant personal statutory duty. Internal reports should include full customer details and grounds; the MLRO should acknowledge receipt and remind staff about tipping off (the Chinese uses 必須).'),
         ('MLRO須採取合理步驟考慮全部相關資料，包括CDD、持續監察、關連戶口的交易、歷史指示和關係年期。資料搜尋須與及時舉報取得平衡，不能無限等待收齊所有資料。', 'The MLRO takes reasonable steps to consider all relevant CDD, monitoring, connected-account activity, historical instructions and relationship duration. Balance information gathering with prompt reporting rather than waiting indefinitely for completeness.'),
-        ('評估後有知悉或懷疑，應盡快向JFIU披露；即使決定不報，也須保留考慮過程、理由及行動紀錄。緊急移走款項、關戶等情況應在報告標明，特殊緊急情況可考慮先電話通知。', 'If knowledge/suspicion remains, disclose promptly to the JFIU. If deciding not to report, retain deliberations, reasons and actions. Flag urgent fund movements/account closure; consider initial telephone notification in exceptional urgent cases.'),
+        ('評估後有知悉或懷疑，應盡快向JFIU披露；即使決定不報，也須保留考慮過程、理由及行動紀錄。緊急移走款項、關戶等情況應在報告標明，特殊緊急情況應考慮先電話通知。', 'If knowledge/suspicion remains, disclose promptly to the JFIU. If deciding not to report, retain deliberations, reasons and actions. Flag urgent fund movements/account closure; initial telephone notification should be considered in exceptional urgent cases.'),
         ('同時控制電傳轉帳兩端的機構，亦應在受該可疑轉帳影響的司法管轄區提交報告，並向財富情報組（JFIU）提供相關交易資料。', 'An MSO controlling both sides of a wire transfer should also report in jurisdictions affected by the suspicious transfer and make relevant transaction information available to their FIUs.'),
     ], [
         ref('03', '第7.12–7.23段', '¶7.12–7.23', 'under no circumstances should reports raised by staff be filtered out'),
@@ -35,6 +35,11 @@ section('internal-report', '內部報告與MLRO評估', 'Internal reporting and 
         ('應確保STR質素，考慮JFIU季度報告的分析、關注事項及回饋，以及海關不時發出的指引。這項季度回饋不是MSO半年定期申報，兩者目的及周期不同。', 'Ensure high-quality STRs by considering JFIU quarterly analysis, matters of interest/feedback and CCE guidance. This quarterly feedback is distinct from an MSO’s half-yearly periodic return; they serve different purposes and cycles.'),
     ], [
         ref('03', '第7.23段及註65', '¶7.23; footnotes 65', 'taking into account feedback and guidance provided by the JFIU in its quarterly report'),
+    ], kind='list'),
+    block('真誠評估後決定不報告的條件', 'Conditions when deciding in good faith not to report', [
+        ('第7.20段說，MLRO真誠行事，考慮全部可得資料後結論是沒有懷疑，則一般不大可能因不報STR而負刑責；必須妥存考慮及行動紀錄，證明合理行事。這不是只要寫「不懷疑」便絕對免責，也不是可以忽略未查明的警號。', 'Paragraph 7.20 says criminal liability for non-reporting is unlikely where the MLRO acts in good faith and concludes there is no suspicion after considering all available information. Proper records of deliberations/actions are vital to demonstrate reasonableness. Merely recording “no suspicion” is not absolute immunity or permission to disregard unresolved indicators.'),
+    ], [
+        ref('03', '第7.20段', '¶7.20', 'it is unlikely that there will be any criminal liability'),
     ], kind='list'),
 ]),
 section('tipping-off', '通風報訊與向客戶查詢的界線', 'Tipping off and enquiries to customers', [
@@ -47,9 +52,10 @@ section('tipping-off', '通風報訊與向客戶查詢的界線', 'Tipping off a
 ]),
 section('after-report', '報告之後：同意、抗辯與持續風險', 'After reporting: consent, defence and continuing risk', [
     block('報告不會自動清除風險', 'Reporting does not clear the relationship', [
+        ('JFIU會確認收到STR。若無需立即行動（例如就戶口發限制令），一般會給予同意運作戶口；否則MSO應採取適當行動，並按需要徵詢法律意見。這是第7.24段所述處理方式，不是每份STR都必然獲同意或自動解除限制。', 'The JFIU acknowledges STR receipt. If imminent action, such as an account restraint order, is unnecessary, consent to operate the account will usually be given; otherwise the MSO should act appropriately and seek legal advice where necessary. This describes paragraph 7.24, not guaranteed consent or automatic removal of restrictions for every STR.'),
         ('法定抗辯有條件：在披露行為前報告並取得JFIU同意後才行事；或行為後主動在合理情況下盡快報告。不能把「有交STR」當作無條件免責。', 'The statutory defence is conditional: report before the disclosed acts and act with JFIU consent, or report afterwards on the MSO’s own initiative as soon as reasonable. Filing an STR is not unconditional immunity.'),
-        ('提交STR時即須適當覆核關係及採取風險緩減，必要時交高級管理層決定，不能等JFIU回覆才處理。JFIU同意不是戶口無風險證明，亦不免除其他法律、監管及聲譽風險。', 'Review the relationship and apply appropriate mitigation upon filing an STR, escalating to senior management where necessary rather than waiting for JFIU feedback. Consent is not a clean bill of health and does not remove other legal, regulatory or reputational risks.'),
-        ('計劃終止關係，可在初次STR說明；之後再出現同類或不同的可疑事件，仍須向MLRO報告，由其決定是否進一步報JFIU。', 'Indicate intended termination in the initial STR where appropriate. Later suspicious events, whether similar or different, must still reach the MLRO for consideration of further JFIU reports.'),
+        ('提交STR後應立即適當覆核關係及採取風險緩減，必要時交高級管理層決定，不能等JFIU回覆才處理。JFIU同意不是戶口無風險證明，亦不免除其他法律、監管及聲譽風險。', 'The MSO should promptly review the relationship and apply appropriate mitigation upon filing an STR, escalating to senior management where necessary rather than waiting for JFIU feedback. Consent is not a clean bill of health and does not remove other legal, regulatory or reputational risks.'),
+        ('計劃終止關係，建議在初次STR說明；之後再出現同類或不同的可疑事件，仍須向MLRO報告，由其決定是否進一步報JFIU。', 'It is recommended to indicate intended termination in the initial STR. Later suspicious events, whether similar or different, must still reach the MLRO for consideration of further JFIU reports.'),
     ], [
         ref('03', '第7.22、7.24–7.28段', '¶7.22, 7.24–7.28', 'should not be construed as a'),
     ], kind='list'),
@@ -57,11 +63,13 @@ section('after-report', '報告之後：同意、抗辯與持續風險', 'After 
 section('evidence-records', '紀錄內容：建立可重組的審計線索', 'Record content: a reconstructable audit trail', [
     block('應保存甚麼', 'Records to retain', [
         ('CDD紀錄包括客戶、實益擁有人、受款人、代表客戶行事者及關連人士的識別／核實文件、資料，簡化及加強審查、風險評估、關係目的及性質、重要業務通訊，以及異常交易背景與目的分析結果。', 'CDD records include identity/verification documents and data for customers, beneficial owners, recipients, representatives and connected parties; SDD/EDD, risk assessments, relationship purpose/nature, material correspondence and analysis of unusual transactions.'),
-        ('每項本地及國際交易的文件與資料須足以重組個別交易，展示資金流及在需要時提供檢控證據。備存紀錄亦是證明合規，不只為執法而設。', 'Documents/data for each domestic and international transaction must allow reconstruction of the individual transaction and fund trail and support prosecution if needed. Records also demonstrate regulatory compliance.'),
-        ('保存全部向MLRO作出的內部報告：日期、經手職員、評估結果、有否報JFIU，以及定位相關文件的資料。另保存向JFIU提交的STR登記：日期、報告人及文件定位；兩份登記可合併。', 'Maintain internal-report records showing date, handlers, assessment, whether an STR followed and document locators. Keep an STR register showing date, reporter and document locators; the registers may be combined.'),
-        ('文件可保留正本，或以微縮膠片／電腦資料庫保存副本；資料及資訊可保存在微縮膠片或電腦資料庫。須完整清晰、可迅速交予獲授權的海關、其他機關及審核人員。', 'Keep original documents or copies on microfilm/computer database; data/information may be held on microfilm or computer database. Preserve a clear, complete trail retrievable swiftly for authorised regulators, authorities and auditors.'),
+        ('每項本地及國際交易的文件與資料應足以重組個別交易，展示資金流及在需要時提供檢控證據。備存紀錄亦是證明合規，不只為執法而設。', 'Documents/data for each domestic and international transaction should allow reconstruction of the individual transaction and fund trail and support prosecution if needed. Records also demonstrate regulatory compliance.'),
+        ('必須保存全部向MLRO作出的內部報告紀錄，亦須保留向JFIU提交的全部報告。內報紀錄應包括日期、經手職員、評估結果、有否報JFIU及文件定位；STR登記應包括日期、報告人及文件定位。兩份登記可合併。', 'All internal reports made to the MLRO and all reports to the JFIU must be retained. Internal records should show dates, handlers, assessment, whether an STR followed and document locators; the STR register should show date, reporter and document locators. The registers may be combined.'),
+        ('文件可保留正本，或以微縮膠片／電腦資料庫保存副本；資料及資訊可保存在微縮膠片或電腦資料庫。應完整清晰、可迅速交予獲授權的海關、其他機關及審核人員。', 'Keep original documents or copies on microfilm/computer database; data/information may be held on microfilm or computer database. The MSO should preserve a clear, complete trail retrievable swiftly for authorised regulators, authorities and auditors.'),
+        ('第8.3(d)段的「業務通訊」至少包括與CDD措施或戶口運作重大改變有關的重要通信；註66說不要求保存每一項通信，例如每封來往電郵，而是保存足以證明符合AMLO的通信。', 'Business correspondence under paragraph 8.3(d) includes, at minimum, correspondence material to CDD measures or significant account-operation changes. Note 66 does not expect every communication, such as each email, to be retained; keep enough to demonstrate AMLO compliance.'),
     ], [
         ref('03', '第7.29–7.30、8.1–8.3、8.5、8.7段', '¶7.29–7.30, 8.1–8.3, 8.5, 8.7', 'permit reconstruction of individual transactions'),
+        ref('03', '第8.3(d)段及註66', '¶8.3(d); footnotes 66', 'not expected to keep each and every correspondence'),
     ], kind='list'),
 ]),
 section('retention', '保存期限：起算點不同', 'Retention periods: different starting points', [
@@ -70,9 +78,10 @@ section('retention', '保存期限：起算點不同', 'Retention periods: diffe
         ('達CDD門檻的非經常交易CDD：自交易完成起至少5年。門檻為電傳／虛擬資產轉帳港幣8,000元，其他類型交易港幣120,000元。', 'CDD for threshold occasional transactions: retain for at least five years after transaction completion. Thresholds are HK$8,000 for wire/virtual-asset transfers and HK$120,000 for other transactions.'),
         ('交易紀錄：每宗交易完成後至少5年，期間關係結束不會縮短保存期。培訓紀錄則至少保存3年。', 'Transaction records: at least five years after completion of each transaction; ending the relationship does not shorten that period. Training records are retained for at least three years.'),
         ('關長可書面要求就指定客戶／交易延長保存期，原因包括進行中的調查或通知指定的其他目的。紀錄存放境外亦須符合香港要求。', 'The CCE may require longer retention by written notice for specified customers/transactions, including ongoing investigations or other specified purposes. Offshore storage does not remove Hong Kong requirements.'),
-        ('由中介人代做CDD，機構仍負責備存紀錄。須立即取得審查資料，並確保可按要求盡快取得文件；中介服務終止時亦須取回文件及紀錄。', 'The MSO remains responsible when intermediaries perform CDD. Obtain CDD data immediately, ensure documents are supplied as soon as reasonably practicable on request, and obtain records when intermediary services end.'),
+        ('由中介人代做CDD，機構仍負責備存紀錄。須立即取得審查資料，並確保可按要求盡快取得文件；中介服務終止時亦應確保取回文件及紀錄。', 'The MSO remains responsible when intermediaries perform CDD. CDD information must be obtained immediately and requested documents supplied as soon as reasonably practicable. The MSO should ensure records are obtained when intermediary services end.'),
     ], [
         ref('03', '第8.4、8.6、8.8–8.12、9.7段', '¶8.4, 8.6, 8.8–8.12, 9.7', 'Records should be maintained for a minimum of 3 years'),
+        ref('04', '附表2第18(4)(a)–(b)條', 'Schedule 2 s.18(4)(a)–(b)', 'immediately after the intermediary has carried out'),
     ], kind='comparison'),
     block('非經常交易及未獲接納申請', 'Occasional transactions and unsuccessful applications', [
         ('依第04份綜合條例附表2第20(3A)條，相關非經常交易CDD資料的5年從交易完成起計。未獲接納申請一般沒有AMLO通常備存紀錄責任，但可疑交易報告等其他責任仍可能要求保留有用紀錄，不能一律銷毀。', 'Under consolidated Schedule 2 section 20(3A), the five years for relevant occasional-transaction CDD records start at completion. Unsuccessful applications generally do not attract the ordinary AMLO record duty, but other obligations such as STR reporting may require useful records; do not automatically destroy everything.'),
@@ -86,7 +95,7 @@ section('independent-audit', '獨立審核：範圍及匯報', 'Independent audi
         ('設獨立審核職能，直接向高級管理層溝通，具足夠專長及資源；需要時亦應尋求外部覆核。', 'Establish an independent audit function with direct senior-management access and sufficient expertise/resources. Seek external review where appropriate.'),
         ('定期覆核制度、風險評估框架及RBA是否足夠；可疑交易報告制度及合規職能是否有效；相關員工的認知是否足夠。', 'Regularly review control/assessment/RBA adequacy, effectiveness of suspicious-reporting and compliance functions, and awareness of staff with AML responsibilities.'),
         ('覆核頻率及程度按業務性質、規模、複雜程度及風險決定；指引沒有為所有機構訂一個相同的固定審核週期。', 'Set review frequency and extent according to nature, size, complexity and risk; the Guideline does not impose one universal audit interval.'),
-        ('交易監察參數及門檻須有紀錄、定期檢視，並經獨立驗證，確保適合機構業務及環境。', 'Document and regularly review monitoring parameters/thresholds, with independent validation of their suitability for the MSO’s operations and context.'),
+        ('交易監察參數及門檻應有紀錄、定期檢視，並經獨立驗證，確保適合機構業務及環境。', 'Document and regularly review monitoring parameters/thresholds, with independent validation of their suitability for the MSO’s operations and context.'),
     ], [
         ref('03', '第3.11–3.13、5.8段', '¶3.11–3.13, 5.8', 'direct line of communication to the senior management'),
     ], kind='list'),
@@ -97,19 +106,33 @@ section('independent-audit', '獨立審核：範圍及匯報', 'Independent audi
     ], kind='list'),
 ]),
 section('training', '僱員甄選、培訓及成效證據', 'Screening, training and evidence of effectiveness', [
-    block('按職責安排', 'Tailor training to responsibilities', [
-        ('聘用員工須有適當甄選程序，確保高標準。新員工獲聘／任命後應盡早接受初始培訓，並定期接受更新培訓；範圍及頻率按機構風險、職責和經驗調整。', 'Use appropriate recruitment screening to ensure high standards. Give new staff initial training as soon as possible after hiring/appointment and regular refreshers, tailored to institutional risk, duties and experience.'),
-        ('所有相關員工須理解機構及個人法律責任、違規後果、機構程序、可疑交易辨識及匯報，以及與其職責相關的新興犯罪手法。', 'Relevant staff need to understand institutional/personal duties, consequences of breaches, internal procedures, suspicious-transaction recognition/reporting and relevant emerging techniques.'),
-        ('前線著重客戶接觸、CDD及識別警號；後勤著重核實、處理、異常結算／付款／交付指示；管理層、審核及CO須接受較高層次的制度及監督培訓；MLRO須掌握內部報告評估及對外舉報。', 'Frontline: customer contact, CDD and red flags. Back office: verification, processing and abnormal settlement/payment/delivery instructions. Management/audit/CO: higher-level systems and supervision. MLRO: internal assessment and external reporting.'),
-        ('應考慮混合網上、課堂、影片及手冊等培訓方法，材料須更新。至少3年保留受訓者、日期及培訓類型；測試理解、監察實際合規及內部報告質量／數量，並跟進無合理原因缺席者。', 'MSOs are encouraged to consider a mix of online, classroom, video and manual-based learning, with current materials. Keep trainee/date/type records for at least three years. Test understanding, monitor compliance and internal-report quality/quantity, and follow up unexplained absence.'),
+    block('培訓政策、時間及成效', 'Training policy, timing and effectiveness', [
+        ('聘用員工應有適當甄選程序，確保高標準。新員工獲聘／任命後應盡早接受初始培訓，並定期接受更新培訓；範圍及頻率按機構風險、職責和經驗調整。', 'MSOs should use appropriate recruitment screening to ensure high standards. Give new staff initial training as soon as possible after hiring/appointment and regular refreshers, tailored to institutional risk, duties and experience.'),
+        ('機構應有清晰明確的培訓政策。應考慮按資源及學習需要混合網上、課堂、影片及手冊等方法；可納入FATF文章／案例，並應能向關長證明材料最新及符合現行要求。應至少保存3年紀錄，顯示誰人受訓、何時及培訓類別。', 'Maintain a clear, well-articulated training policy. MSOs are encouraged to consider a mix of online, classroom, video and manual-based methods suited to resources and learning needs; FATF papers/typologies may be included. MSOs should demonstrate to the CCE that materials are current and aligned with requirements. They should keep records of who was trained, when and what type for at least three years.'),
+        ('應監察培訓成效，可採用以下三類方法：測試員工對內部程序、法定／監管責任及辨認可疑交易的理解；監察實際合規及內部報告質量／數量，以識別額外培訓需要並採行動；監察出席，跟進沒有合理原因的缺席。', 'MSOs should monitor training effectiveness. This may be achieved by: test understanding of internal procedures, statutory/regulatory obligations and suspicious-transaction recognition; monitor compliance and internal-report quality/quantity to identify further training needs and act; monitor attendance and follow up absence without reasonable cause.'),
     ], [
         ref('03', '第3.14、9.1–9.8段', '¶3.14, 9.1–9.8', 'initial training as soon as possible'),
+    ], kind='list'),
+    block('須記五項共同內容：第9.4段', 'Remember five common topics: paragraph 9.4', [
+        ('（a）機構及個人在AMLO下的CDD和紀錄責任，以及不遵守的後果；（b）在DTROP、OSCO及UNATMO下舉報可疑交易的責任及不舉報的後果。', '(a) Institutional and personal AMLO CDD/record duties and consequences of non-compliance; (b) suspicious-reporting duties under DTROP, OSCO and UNATMO and consequences of failure.'),
+        ('（c）DTROP、OSCO、UNATMO、UNSO、WMD(CPS)O及AMLO下其他與機構／個人相關的法定監管責任及違規後果；（d）內部政策程序，包括識別及舉報；（e）履行該職責所需的新興技巧、方法及趨勢。完整法例名稱見Part 1「香港法例」。', '(c) Other relevant institutional/personal statutory and regulatory duties and breach consequences under DTROP, OSCO, UNATMO, UNSO, WMD(CPS)O and AMLO; (d) internal policies/procedures, including identification/reporting; (e) emerging techniques, methods and trends needed for the role. Full ordinance names appear in Part 1’s legal framework.'),
+    ], [
+        ref('03', '第9.4段', '¶9.4', 'Staff should be made aware of'),
+    ], kind='list'),
+    block('五類職員：應理解的培訓重點', 'Five staff groups: training content to understand', [
+        ('第9.5段列出或適用於不同職員的範疇，須配合職責。所有新職員，不論資歷：洗錢／恐怖分子資金籌集背景及機構重視程度；識別並向MLRO舉報可疑交易的必要，以及通風報訊罪。', 'Paragraph 9.5 gives areas that may be appropriate to different staff, tailored to roles. All new staff, irrespective of seniority: ML/TF background and its importance to the MSO; the need to identify/report suspicion to the MLRO; and tipping off.'),
+        ('前線：作為與潛在洗錢人的第一接觸點，在機構策略中的重要性；與職責相關的CDD及紀錄政策程序；可疑情況、報告路線，以及何時須格外警覺。', 'Frontline: their strategic importance as the first contact with potential money launderers; role-relevant CDD and record procedures; suspicious circumstances, reporting lines and when extra vigilance is needed.'),
+        ('後勤（按職責）：客戶核實及處理程序；辨識不尋常活動，尤其異常結算、付款或交付指示。', 'Back office, according to role: customer verification and processing procedures; recognition of unusual activity, especially abnormal settlement, payment or delivery instructions.'),
+        ('管理人員，包括內部審計人員及CO：涵蓋制度各方面的較高層次培訓；監督／管理員工、審核制度、隨機抽查及向JFIU舉報的職責培訓。', 'Management, including internal auditors and COs: higher-level training across the whole regime; responsibilities for supervising/managing staff, auditing systems, random checks and JFIU reporting.'),
+        ('MLRO：評估收到的可疑交易報告及向JFIU舉報的特定職責；並持續掌握一般打擊洗錢要求及發展。', 'MLRO: specific responsibilities for assessing reports received and reporting to the JFIU; staying current with general AML/CFT requirements and developments.'),
+    ], [
+        ref('03', '第9.5段', '¶9.5', 'all new staff, irrespective of seniority'),
     ], kind='list'),
 ]),
 section('law-enforcement', '執法要求：命令與風險覆核', 'Law-enforcement requests: orders and risk review', [
     block('依命令範圍及時回應', 'Respond within the order’s scope and deadline', [
         ('設清晰程序，指派聯絡人及足夠資源處理搜查令、提交令、限制令及沒收令。搜查／提交令要求的範圍內資料須在指定期限提供；有困難時及早聯絡負責調查的人員。', 'Use clear procedures, a contact person and sufficient resources for search warrants, production, restraint and confiscation orders. Provide all material within a search/production order’s scope by its deadline; contact the investigator early if difficulties arise.'),
-        ('限制令在調查期間禁止處置指定財產；並非必然涵蓋關係內所有資產。定罪後法院可沒收犯罪得益；恐怖分子財產亦可能被充公。', 'A restraint order prohibits dealing with specified property pending investigation; it does not necessarily cover every asset in the relationship. Courts may confiscate criminal proceeds after conviction and forfeit terrorist property.'),
+        ('限制令在調查期間禁止處置指定財產；MSO必須確保能扣留命令涉及的財產；命令並非必然涵蓋關係內所有資產，應考慮香港法律下仍可動用哪些資產（如有）。定罪後法院可沒收犯罪得益；恐怖分子財產亦可能被充公。', 'A restraint order prohibits dealing with specified property pending investigation; the MSO must ensure it can withhold the property covered. The order need not cover every relationship asset; consider what, if any, assets may still be used under Hong Kong law. Courts may confiscate criminal proceeds after conviction and forfeit terrorist property.'),
         ('收到法院文件或涉罪情報要求後，及時評估客戶／關係風險並判斷有否懷疑；被提及的客戶也可能是受害人，不能單憑收到文件便視為罪犯。', 'After court documents or crime-related intelligence requests, promptly assess relationship/customer risk and possible suspicion. The named customer may be a victim; receipt alone does not establish guilt.'),
     ], [
         ref('03', '第7.31–7.35段', '¶7.31–7.35', 'the customer to whom the court document relates can be a victim'),

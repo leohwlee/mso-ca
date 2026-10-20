@@ -1,0 +1,74 @@
+{
+  "protected": {
+    "web/questions.json": {
+      "before": "4cc89c045c9f1fb1f8cb1e163154cabed6d3eb4e4349baf168b9ae56bfe1bce3",
+      "after": "4cc89c045c9f1fb1f8cb1e163154cabed6d3eb4e4349baf168b9ae56bfe1bce3"
+    },
+    "web/app.js": {
+      "before": "06b3a323b83fbedd41d6b4d8e521bd3259c73e5e9aeeddd07b8368395385bfda",
+      "after": "06b3a323b83fbedd41d6b4d8e521bd3259c73e5e9aeeddd07b8368395385bfda"
+    },
+    "docs/quotes.json": {
+      "before": "2045fdac5e258f395c86961a6df6dec8aa4b4eb32b405f1e26eae43e6daa1448",
+      "after": "2045fdac5e258f395c86961a6df6dec8aa4b4eb32b405f1e26eae43e6daa1448"
+    },
+    "revision/CONFLICT-CALLS.md": {
+      "before": "f5dfc01eeaf18310a191f483747ad73f47d0f8f3582ea2063d9f56b1e86574bb",
+      "after": "f5dfc01eeaf18310a191f483747ad73f47d0f8f3582ea2063d9f56b1e86574bb"
+    },
+    "bank/retired-ids.json": {
+      "before": "0d10a4054bfb5d4413bbfda3b125f8c8329f233ce417b6c09bb9ff29384fcb30",
+      "after": "0d10a4054bfb5d4413bbfda3b125f8c8329f233ce417b6c09bb9ff29384fcb30"
+    }
+  },
+  "manuscripts": {
+    "part1.py": {
+      "before": "d83b54107a1c102ddbda3f026d0fa70a6c27ee9479a5452dcd8e144e0f67bc5f",
+      "after": "d83b54107a1c102ddbda3f026d0fa70a6c27ee9479a5452dcd8e144e0f67bc5f"
+    },
+    "part2.py": {
+      "before": "52ed661a67fb3f91dc5b81eec14d56645a644cf42acaf91e2b76ac0fe2e8e60a",
+      "after": "52ed661a67fb3f91dc5b81eec14d56645a644cf42acaf91e2b76ac0fe2e8e60a"
+    },
+    "part3.py": {
+      "before": "5bb11e38bc136f5bab452cee59ab68fb06a25561dbf0774247126a0846df6628",
+      "after": "5bb11e38bc136f5bab452cee59ab68fb06a25561dbf0774247126a0846df6628"
+    },
+    "part4.py": {
+      "before": "a866bbb4836c66e48facf85fcc8779d7c58a1f95d3eae32ab8bca876ebc03c53",
+      "after": "a866bbb4836c66e48facf85fcc8779d7c58a1f95d3eae32ab8bca876ebc03c53"
+    },
+    "part5.py": {
+      "before": "78e1f78141799d5ae8918cd1905b7a89412f1c0a16fc9ddf2187b0c30e637ba5",
+      "after": "78e1f78141799d5ae8918cd1905b7a89412f1c0a16fc9ddf2187b0c30e637ba5"
+    },
+    "part6.py": {
+      "before": "4ac6c08a30d8ac3fd4a11b6bdf010410aa17c32471c66cd30b2e551c2a859dfc",
+      "after": "4ac6c08a30d8ac3fd4a11b6bdf010410aa17c32471c66cd30b2e551c2a859dfc"
+    },
+    "part7.py": {
+      "before": "274acc15797329c896f2cddd1a9af46d4d28c214890b78847f17e617233d3fc8",
+      "after": "274acc15797329c896f2cddd1a9af46d4d28c214890b78847f17e617233d3fc8"
+    }
+  },
+  "baseline_files_changed": [
+    "revision/study-notes/build.py",
+    "revision/study-notes/coverage.json",
+    "revision/study-notes/gap_check.py",
+    "revision/study-notes/index.html",
+    "revision/study-notes/part-1.html",
+    "revision/study-notes/part-2.html",
+    "revision/study-notes/part-3.html",
+    "revision/study-notes/part-4.html",
+    "revision/study-notes/part-5.html",
+    "revision/study-notes/part-6.html",
+    "revision/study-notes/part-7.html",
+    "revision/study-notes/README.md",
+    "revision/study-notes/style.css",
+    "revision/study-notes/visual_panels.py",
+    "revision/study-notes/visual_render.py",
+    "DESIGN.md"
+  ],
+  "old_review_files_unchanged": true,
+  "source_of_truth": "baseline.json and baseline.zip captured before this visual refinement"
+}

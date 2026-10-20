@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-20",
+  "baseline_commit": "d4297cd5621639a2b542a298d0527a55892ba6c6",
+  "scope": "Core learning-depth review with explicit per-source reading limits in REPORT.md, not exhaustive bilingual legal-volume certification",
+  "counts": {
+    "parts": 7,
+    "topics": 75,
+    "point_pairs": 621,
+    "tables": 11,
+    "diagrams": 22,
+    "bank_identifiers": 525
+  },
+  "protected_unchanged": {
+    "web/questions.json": true,
+    "docs/quotes.json": true,
+    "bank/retired-ids.json": true,
+    "web/app.js": true
+  },
+  "historical_note_evidence_unchanged": {
+    "revision/study-notes/completeness-audit.json": true,
+    "revision/study-notes/completeness-circulars-final-review.json": true,
+    "revision/study-notes/completeness-circulars-review.json": true,
+    "revision/study-notes/completeness-final-review.json": true,
+    "revision/study-notes/completeness-guideline-final-review.json": true,
+    "revision/study-notes/completeness-guideline-review.json": true,
+    "revision/study-notes/COMPLETENESS.md": true,
+    "revision/study-notes/essentials.py": true,
+    "revision/study-notes/gap-audit.json": true,
+    "revision/study-notes/memory-review.json": true,
+    "revision/study-notes/model.py": true,
+    "revision/study-notes/QA.md": true,
+    "revision/study-notes/source-review.json": true,
+    "revision/study-notes/style.css": true,
+    "revision/study-notes/verification.json": true,
+    "revision/study-notes/visual_render.py": true
+  },
+  "changed_tracked": [
+    "revision/CONFLICT-CALLS.md",
+    "revision/study-notes/README.md",
+    "revision/study-notes/build.py",
+    "revision/study-notes/coverage.json",
+    "revision/study-notes/gap_check.py",
+    "revision/study-notes/index.html",
+    "revision/study-notes/memory_panels.py",
+    "revision/study-notes/part-1.html",
+    "revision/study-notes/part-2.html",
+    "revision/study-notes/part-3.html",
+    "revision/study-notes/part-4.html",
+    "revision/study-notes/part-5.html",
+    "revision/study-notes/part-6.html",
+    "revision/study-notes/part-7.html",
+    "revision/study-notes/part1.py",
+    "revision/study-notes/part2.py",
+    "revision/study-notes/part3.py",
+    "revision/study-notes/part4.py",
+    "revision/study-notes/part5.py",
+    "revision/study-notes/part6.py",
+    "revision/study-notes/part7.py",
+    "revision/study-notes/visual_panels.py"
+  ],
+  "final_manuscript_sha256": {
+    "part1.py": "d83b54107a1c102ddbda3f026d0fa70a6c27ee9479a5452dcd8e144e0f67bc5f",
+    "part2.py": "52ed661a67fb3f91dc5b81eec14d56645a644cf42acaf91e2b76ac0fe2e8e60a",
+    "part3.py": "5bb11e38bc136f5bab452cee59ab68fb06a25561dbf0774247126a0846df6628",
+    "part4.py": "a866bbb4836c66e48facf85fcc8779d7c58a1f95d3eae32ab8bca876ebc03c53",
+    "part5.py": "78e1f78141799d5ae8918cd1905b7a89412f1c0a16fc9ddf2187b0c30e637ba5",
+    "part6.py": "4ac6c08a30d8ac3fd4a11b6bdf010410aa17c32471c66cd30b2e551c2a859dfc",
+    "part7.py": "274acc15797329c896f2cddd1a9af46d4d28c214890b78847f17e617233d3fc8"
+  },
+  "catalog_originals_check": "passed in automatic-checks-initial.json; original files unchanged afterwards",
+  "automatic_checks": "initial successful checks plus final rechecks; four initial conflict-history failures resolved using a NEW maintenance record",
+  "browser": {
+    "page_cases": 42,
+    "practice_cases": 21,
+    "index_cases": 6,
+    "failures": 0,
+    "manual_representatives": [
+      "1 TC desktop",
+      "2 EN mobile",
+      "3 both desktop",
+      "4 both mobile",
+      "5 TC desktop",
+      "6 EN desktop",
+      "7 TC mobile"
+    ]
+  },
+  "publication": "No push, tag or release in this review"
+}

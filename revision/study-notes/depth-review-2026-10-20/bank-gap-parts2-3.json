@@ -1,0 +1,1015 @@
+{
+  "method": "After source-first edits, read all Part 2/3 question stems and cited source locators; inspect statements only for selected potential gaps. No answer explanations used to author notes. Mapping is concept navigation, not proof each option is covered or correct.",
+  "question_count": 140,
+  "part_counts": {
+    "2": 75,
+    "3": 65
+  },
+  "bank_sha256": "4cc89c045c9f1fb1f8cb1e163154cabed6d3eb4e4349baf168b9ae56bfe1bce3",
+  "questions": [
+    {
+      "id": "m2-ca2",
+      "part": 2,
+      "concept_route": "part-2.html#changes",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-309",
+      "part": 2,
+      "concept_route": "part-2.html#discipline",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-310",
+      "part": 2,
+      "concept_route": "part-2.html#grant-renewal",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-311",
+      "part": 2,
+      "concept_route": "part-2.html#grant-renewal",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-312",
+      "part": 2,
+      "concept_route": "part-2.html#grant-renewal",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-313",
+      "part": 2,
+      "concept_route": "part-2.html#licence-scope",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-314",
+      "part": 2,
+      "concept_route": "part-2.html#changes",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-315",
+      "part": 2,
+      "concept_route": "part-2.html#changes",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-316",
+      "part": 2,
+      "concept_route": "part-2.html#changes",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-317",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-map",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-318",
+      "part": 2,
+      "concept_route": "part-2.html#inspection-investigation",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-321",
+      "part": 2,
+      "concept_route": "part-2.html#discipline",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-322",
+      "part": 2,
+      "concept_route": "part-2.html#discipline",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-323",
+      "part": 2,
+      "concept_route": "part-2.html#review",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-324",
+      "part": 2,
+      "concept_route": "part-2.html#review",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-340",
+      "part": 2,
+      "concept_route": "part-2.html#licence-scope",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-341",
+      "part": 2,
+      "concept_route": "part-2.html#licence-scope",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-342",
+      "part": 2,
+      "concept_route": "part-2.html#grant-renewal",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-343",
+      "part": 2,
+      "concept_route": "part-2.html#review",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-344",
+      "part": 2,
+      "concept_route": "part-2.html#enforcement",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-345",
+      "part": 2,
+      "concept_route": "part-2.html#enforcement",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-346",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-347",
+      "part": 2,
+      "concept_route": "part-2.html#enforcement",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-348",
+      "part": 2,
+      "concept_route": "part-2.html#review",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-349",
+      "part": 2,
+      "concept_route": "part-2.html#review",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-350",
+      "part": 2,
+      "concept_route": "part-2.html#review",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-351",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-352",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-353",
+      "part": 2,
+      "concept_route": "part-2.html#review",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-325",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-map",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-326",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-map",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-327",
+      "part": 2,
+      "concept_route": "part-2.html#inspection-investigation",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-328",
+      "part": 2,
+      "concept_route": "part-2.html#inspection-investigation",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-329",
+      "part": 2,
+      "concept_route": "part-2.html#inspection-investigation",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-330",
+      "part": 2,
+      "concept_route": "part-2.html#inspection-investigation",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-331",
+      "part": 2,
+      "concept_route": "part-2.html#inspection-investigation",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-332",
+      "part": 2,
+      "concept_route": "part-2.html#inspection-investigation",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-333",
+      "part": 2,
+      "concept_route": "part-2.html#inspection-investigation",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-334",
+      "part": 2,
+      "concept_route": "part-2.html#discipline",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-335",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-336",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-337",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-338",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-354",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-map",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-355",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-356",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-map",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-357",
+      "part": 2,
+      "concept_route": "part-2.html#licence-scope",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-358",
+      "part": 2,
+      "concept_route": "part-2.html#enforcement",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-359",
+      "part": 2,
+      "concept_route": "part-2.html#review",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-360",
+      "part": 2,
+      "concept_route": "part-2.html#inspection-investigation",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-363",
+      "part": 2,
+      "concept_route": "part-2.html#criminal-liability",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-364",
+      "part": 2,
+      "concept_route": "part-2.html#inspection-investigation",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-365",
+      "part": 2,
+      "concept_route": "part-2.html#inspection-investigation",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-366",
+      "part": 2,
+      "concept_route": "part-2.html#grant-renewal",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-367",
+      "part": 2,
+      "concept_route": "part-2.html#grant-renewal",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-368",
+      "part": 2,
+      "concept_route": "part-2.html#changes",
+      "additional_routes": [
+        "part-2.html#discipline"
+      ],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-369",
+      "part": 2,
+      "concept_route": "part-2.html#discipline",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-370",
+      "part": 2,
+      "concept_route": "part-2.html#discipline",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-371",
+      "part": 2,
+      "concept_route": "part-2.html#review",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-372",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-373",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-374",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-375",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-376",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-377",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-378",
+      "part": 2,
+      "concept_route": "part-2.html#changes",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-379",
+      "part": 2,
+      "concept_route": "part-2.html#discipline",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-380",
+      "part": 2,
+      "concept_route": "part-2.html#grant-renewal",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-381",
+      "part": 2,
+      "concept_route": "part-2.html#grant-renewal",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-382",
+      "part": 2,
+      "concept_route": "part-2.html#changes",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-383",
+      "part": 2,
+      "concept_route": "part-2.html#grant-renewal",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-384",
+      "part": 2,
+      "concept_route": "part-2.html#changes",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-385",
+      "part": 2,
+      "concept_route": "part-2.html#grant-renewal",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-386",
+      "part": 2,
+      "concept_route": "part-2.html#discipline",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m2-387",
+      "part": 2,
+      "concept_route": "part-2.html#statutory-administration",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-ca3",
+      "part": 3,
+      "concept_route": "part-3.html#core-duties",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-262",
+      "part": 3,
+      "concept_route": "part-3.html#core-duties",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-263",
+      "part": 3,
+      "concept_route": "part-3.html#core-duties",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-264",
+      "part": 3,
+      "concept_route": "part-3.html#simplification",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-265",
+      "part": 3,
+      "concept_route": "part-3.html#simplification",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-266",
+      "part": 3,
+      "concept_route": "part-3.html#special-cases",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-267",
+      "part": 3,
+      "concept_route": "part-3.html#definitions",
+      "additional_routes": [
+        "part-6.html#peps"
+      ],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-268",
+      "part": 3,
+      "concept_route": "part-3.html#special-cases",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-269",
+      "part": 3,
+      "concept_route": "part-6.html#remittances",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-270",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [
+        "part-6.html#intermediaries"
+      ],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-271",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [
+        "part-6.html#intermediaries"
+      ],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-272",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-273",
+      "part": 3,
+      "concept_route": "part-3.html#definitions",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-274",
+      "part": 3,
+      "concept_route": "part-3.html#definitions",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-275",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-276",
+      "part": 3,
+      "concept_route": "part-3.html#special-cases",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-277",
+      "part": 3,
+      "concept_route": "part-3.html#definitions",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-278",
+      "part": 3,
+      "concept_route": "part-3.html#definitions",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-279",
+      "part": 3,
+      "concept_route": "part-3.html#definitions",
+      "additional_routes": [
+        "part-6.html#peps"
+      ],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-280",
+      "part": 3,
+      "concept_route": "part-3.html#definitions",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-281",
+      "part": 3,
+      "concept_route": "part-3.html#core-duties",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-282",
+      "part": 3,
+      "concept_route": "part-3.html#simplification",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-283",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-284",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-285",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-286",
+      "part": 3,
+      "concept_route": "part-3.html#definitions",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-292",
+      "part": 3,
+      "concept_route": "part-6.html#wire-transfers",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-293",
+      "part": 3,
+      "concept_route": "part-6.html#wire-transfers",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-294",
+      "part": 3,
+      "concept_route": "part-6.html#wire-receiving",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-295",
+      "part": 3,
+      "concept_route": "part-3.html#special-cases",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-296",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [
+        "part-6.html#intermediaries"
+      ],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-297",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [
+        "part-6.html#intermediaries"
+      ],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-298",
+      "part": 3,
+      "concept_route": "part-3.html#definitions",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-300",
+      "part": 3,
+      "concept_route": "part-3.html#tribunal-schedule",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-301",
+      "part": 3,
+      "concept_route": "part-3.html#tribunal-schedule",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-302",
+      "part": 3,
+      "concept_route": "part-3.html#tribunal-schedule",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-303",
+      "part": 3,
+      "concept_route": "part-3.html#tribunal-schedule",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-304",
+      "part": 3,
+      "concept_route": "part-3.html#tribunal-schedule",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-305",
+      "part": 3,
+      "concept_route": "part-3.html#tribunal-schedule",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-306",
+      "part": 3,
+      "concept_route": "part-3.html#definitions",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-322",
+      "part": 3,
+      "concept_route": "part-6.html#wire-transfers",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-323",
+      "part": 3,
+      "concept_route": "part-3.html#fees",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-324",
+      "part": 3,
+      "concept_route": "part-3.html#fees",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-325",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [
+        "part-6.html#peps"
+      ],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-326",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [
+        "part-7.html#retention"
+      ],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-327",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [
+        "part-6.html#intermediaries"
+      ],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-328",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-329",
+      "part": 3,
+      "concept_route": "part-3.html#definitions",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-330",
+      "part": 3,
+      "concept_route": "part-6.html#wire-transfers",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-331",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-332",
+      "part": 3,
+      "concept_route": "part-3.html#special-cases",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-333",
+      "part": 3,
+      "concept_route": "part-6.html#wire-transfers",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-334",
+      "part": 3,
+      "concept_route": "part-3.html#special-cases",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-335",
+      "part": 3,
+      "concept_route": "part-3.html#core-duties",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-336",
+      "part": 3,
+      "concept_route": "part-3.html#core-duties",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-337",
+      "part": 3,
+      "concept_route": "part-3.html#core-duties",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-338",
+      "part": 3,
+      "concept_route": "part-3.html#core-duties",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-339",
+      "part": 3,
+      "concept_route": "part-3.html#simplification",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-340",
+      "part": 3,
+      "concept_route": "part-3.html#simplification",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-341",
+      "part": 3,
+      "concept_route": "part-3.html#core-duties",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-342",
+      "part": 3,
+      "concept_route": "part-6.html#wire-transfers",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-343",
+      "part": 3,
+      "concept_route": "part-6.html#remittances",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-344",
+      "part": 3,
+      "concept_route": "part-6.html#wire-transfers",
+      "additional_routes": [],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-345",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [
+        "part-6.html#intermediaries"
+      ],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    },
+    {
+      "id": "m3-346",
+      "part": 3,
+      "concept_route": "part-3.html#ongoing-and-records",
+      "additional_routes": [
+        "part-6.html#intermediaries"
+      ],
+      "status": "question-stem/concept review; not every statement or answer audited"
+    }
+  ]
+}

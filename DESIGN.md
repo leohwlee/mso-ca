@@ -216,6 +216,26 @@ Practice uses a centered container up to 1200px. At 960px and above the exam pla
 
 Use frontmatter sheet padding on desktop. Phone reading paper uses 24px 18px; phone practice paper uses 24px 20px. Sticky elements must leave content and focus targets visible. Comparison tables keep semantic markup while visibly stacking scenario, rule, misconception and citation in reading order on phones.
 
+Study figures adapt to their own available width, including the space used by
+the chapter rail: four-column comparisons reflow below 760px; three-column
+comparisons and role relations reflow below 640px. Keep short bilingual field
+labels together, with the full conditions immediately below their rule. Visually
+hidden table heads retain accessible column meaning, and individual tables use
+their figure or subgroup title as an accessible name. True peer comparisons use
+equal widths and equal body emphasis. Comparison signs stay with their amounts.
+
+Use a decision tree only for actual branches. CDD triggers that can coexist use
+an unnumbered case map with a cross-cutting suspicion requirement; the CDD-extent
+and decision-commencement trees retain explicit numbered continuation routes.
+Contain inner AND groups within their one outer OR/AND item. Anchor spacing follows
+the rendered toolbar height in each language mode, rather than a fixed estimate.
+
+圖表按實際可用寬度調整：四列表於760px以下、三列表及角色關係於640px以下重新排版。
+雙語短標籤保持緊湊，完整條件緊貼規則；隱藏的表頭仍供輔助閱讀工具識別。
+對等比較採等寬、等強調，數學比較符號與金額不分行。
+可同時適用的CDD觸發採無編號情況圖；真正分支保留決策樹，內層AND維持明確包含關係。
+跳轉留白依當前語言頂欄的實際高度計算。
+
 ## Elevation & Depth
 
 Depth comes primarily from frame/paper contrast and fine internal rules. Major sheets have a restrained blue ambient shadow; the exam rail remains unshadowed. Modals use stronger separation above a dimmed backdrop. Focus outlines indicate interaction rather than elevation. Exact shadow and motion extensions live in the sidecar.

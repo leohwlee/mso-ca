@@ -1,0 +1,1271 @@
+{
+  "time": "2026-10-20T05:10:03.194Z",
+  "hashes": {
+    "visual_panels.py": "de3b09161a720b32a7e486453fe445cdae8830f2844b623066340970f129a8e2",
+    "visual_render.py": "7ef3afc48f92ea2abcdd0d1300c17b157ae65eac46f78716cdb7371fdd91852a",
+    "style.css": "a211237605f04ff48fe6501da80a92cfa4fc51d7ddec3e01ec6e6bf2cd3ca0e2",
+    "build.py": "52440bc056a7d236588ab706cfdb5e1d32e820fb3cf76efb95784e8e232f8208",
+    "part-1.html": "37a7b2ff344c651abf028f5951495d5767ba0c7f7a518b94a624fe79fb959829",
+    "part-2.html": "f4ba449d1a3a79159894e536725ed7113147efd1681affd6940cf41b61fae345",
+    "part-3.html": "acff005403d35d1073f86b07e97eef09587851ffc5fa9b0919c0bdc957f3d59c",
+    "part-4.html": "0b3a7973a2fea4f616a1f40d5e20fa1033f26376b5ac3175bb1f7e62d73dda01",
+    "part-5.html": "35b2799c1177e8e91aed73992095f7a15c39667c51b5c08403c1c721fa72d60a",
+    "part-6.html": "e6b616340415b7994f72c8d7752ecf197986d8700e1852db05d209d85a7fdad5",
+    "part-7.html": "e8ab29bcd41e0e2241e1b506f8135322676fe35ee68e0e852698e8e37000329f"
+  },
+  "panels": [
+    {
+      "part": 1,
+      "id": "memory-three-stages",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.234375,
+        "width": 1078,
+        "height": 680.609375
+      },
+      "text": "三個常見階段：可重疊，不是固定步驟\nPlacement（存放）\n\n把犯罪現金放入金融體系。\n\n同一犯罪得益：進入體系\n犯罪現金\n存放\n→\n存入戶口\n\n教學例子：改變現金所在位置。\n\nLayering（分層交易）\n\n用多層複雜交易掩藏來源、截斷審計線索及提供匿名性。\n\n同一犯罪得益：掩藏線索\n原來戶口\n轉移、拆分\n→\n多層戶口／交易\n\n教學例子：增加追查來源的難度。\n\nIntegration（整合）\n\n使犯罪財富重新出現為貌似合法的資產或業務收益。\n\n同一犯罪得益：貌似合法\n犯罪得益\n重新呈現\n→\n貌似合法的投資／業務收益\n\n教學例子：外觀合法不會消除犯罪來源。\n\n三個階段是理解典型模式的工具，實際交易可同時涉及多個階段。匯款或兌換業務可能協助存放及分層，交易有商業外觀也不表示資金合法。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第1.9–1.10段"
+    },
+    {
+      "part": 1,
+      "id": "memory-ml-tf-pf",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 128.90625,
+        "width": 1078,
+        "height": 491.84375
+      },
+      "text": "ML、TF及PF：不要只看資金來源\n概念\t資金來源\t核心問題\t法律條件\n洗錢（ML）\t犯罪得益\t犯罪得益的來源被掩飾。\t財產可全部／部分、直接／間接代表得益；境外行為若在港會屬可公訴罪行也可涵蓋。\n恐怖分子資金籌集（TF）\t合法或非法\t合法或非法來源均可能涉及；看用途、對象及法定心理要素。\t供恐怖行為使用的財產須有意圖或知情，不必實際使用；向恐怖分子／聯繫者提供或為其籌集時，知道或罔顧對方身分均可涵蓋。\n擴散融資（PF）\t不可只憑來源判斷\t服務可能協助大規模毀滅武器及其運載方式。\t有合理理由相信或懷疑服務可能涉及PF便可能觸犯第526章；適用制裁禁令另須遵守。\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第1.9–1.10段; 第1.11–1.12、1.23–1.25段; 第1.14–1.27、6.1–6.4段"
+    },
+    {
+      "part": 1,
+      "id": "memory-risk-lists",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.765625,
+        "width": 1078,
+        "height": 645.75
+      },
+      "text": "風險名單與制裁名單\n概念／情境\t必記區別\t條件及例外\nFATF：呼籲採取行動\t相稱的加強盡職審查；指定情況另有反制措施。\t按有關聲明及海關通函區分；具體地區名單保留通函日期，不能當作永久名單。\nFATF：加強監察\t納入客戶整體風險評估。\t單憑列名不會自動令每宗客戶關係必須EDD。\n受指定人士／實體制裁\t依法凍結及禁止提供／處理資產等。\t不能用「低風險」取代法定禁止；只有適用豁免／有效特許才可在其範圍內行事。\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第1.13段; 第6.1–6.8段\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A17\n19_中重點_通函_財務行動特別組織的聲明（2026年7月3日）.pdf\n正文第1–3頁\n09_高_通函_識別和緩解大殺傷力武器擴散融資風險（2021年12月22日）.pdf\n正文第1–2頁\n26_中選讀_通函_聯合國制裁_原則及預警機制（2018年2月7日）.pdf\n正文第1–3頁"
+    },
+    {
+      "part": 1,
+      "id": "memory-cross-sector-mechanisms",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.609375,
+        "width": 1078,
+        "height": 570.15625
+      },
+      "text": "2022年報告：跨行業的價值轉移例子\n公司與戶口\n濫用公司架構／代名人\n掩藏\n→\n實際控制者／資金來源\n\n經公司戶口交易及匯款時，了解實益擁有人及商業目的，不能僅看公司已註冊。\n\n保險與物業\n犯罪得益投入資產\n改變外觀\n→\n退保／轉售所得\n\n是濫用機制例子，不表示每次退保或物業轉售均屬可疑；風險結論屬2022年報告。\n\n25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf\n第5.2.13–5.2.17、5.2.21、5.3.25–5.3.38、5.6.2、5.6.7–5.6.15、5.6.21、5.7.5、5.7.22、6.4.3、6.6.6–6.6.13段; 2022年版，第4.45–4.51段; 2022年版，第5.3.9、5.3.12–5.3.14、5.3.25–5.3.29段及專題5.9–5.10\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第5B、5C部"
+    },
+    {
+      "part": 1,
+      "id": "memory-cash-scope",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.875,
+        "width": 1078,
+        "height": 645.515625
+      },
+      "text": "同一門檻，不同申報途徑\n旅客攜帶\n現金類物品總值 > HK$120,000\n觸發\n→\n指定管制站入境：書面申報\n\n其他入境途徑／離境：按獲授權人員要求披露；披露持有大量物品時再按要求申報。未過入境檢查的指定機場過境情況另有豁免。\n\n貨物進出口\n同一法定批次總值 > HK$120,000\n觸發\n→\n進／出口前向海關申報\n\n法定批次可合併多批貨物：按第10條的同一承運人／運輸工具及客戶規則計算。非旅客進出口或安排進出口者須確保事前申報；第8–9條的過境、空運轉運、郵包及運輸工具經營者例外見正文。\n\n恰好HK$120,000不因這個「>」門檻觸發；CDD的一般非經常交易門檻是「≥」，不是同一制度。\n\n22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf\n正文第1頁\n23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf\n第2–7條及附表4; 第8–14條、附表5; 第2(1)、7(6)條; 第7條; 第17–19條; 附表2–3; 第8–11條; 附表2、3"
+    },
+    {
+      "part": 2,
+      "id": "memory-inspection-versus-investigation",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.328125,
+        "width": 1078,
+        "height": 434.25
+      },
+      "text": "日常查察與正式調查\n維度\t查察：第9條\t調查：第11–12條\n用途／基礎\t確定正在／曾經遵守及是否可能遵守「訂明規定」：不只指明條文，亦涵蓋適用通知、要求及牌照等條件\t第11(1)(a)：有合理因由相信可能犯罪；或(b)：為考慮第21／43條處分，有理由查究指明違反\n主要權力\t進入營業處所、查閱及複製紀錄、要求解釋\t要求紀錄、答覆問題、書面解釋及協助\n共同界線\t依法行使；法律專業保密權等保障保留\t受查者仍須遵從合法要求；刑事程序使用受強制陳述另有條件\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第9–20、81條"
+    },
+    {
+      "part": 2,
+      "id": "memory-licence-clocks",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.34375,
+        "width": 1078,
+        "height": 1135.734375
+      },
+      "text": "牌照事項：事前批准、1個月及結業通知\n新增董事／最終擁有人／合夥人\n起算／對照事件\n擬加入持牌人\n時間要求\n事先書面批准\n\n適用第35–37條的相應適當人選要求；一個月變更通知不能代替事先批准。\n\n新營業處所／無處所轉特定處所\n起算／對照事件\n擬在該處所營業\n時間要求\n營業前獲批及登記\n\n處所須適合；住宅佔用人同意等適用條件仍須符合。\n\n持牌人續牌\n起算／對照事件\n現有牌照屆滿日（向前計）\n時間要求\n最少提前45日\n\n按指定形式及費用作有效申請；有效申請待決時按第31條繼續有效，法定撤回／撤銷／暫停等情況另論。\n\n持牌人資料改變\n起算／對照事件\n改變當日\n時間要求\n起計1個月內書面通知\n\n「一個月」不能自行改成30日；需事先批准的項目仍須事先批准。\n\n持牌人全部／指定處所停業\n起算／對照事件\n停止當日\n時間要求\n停止前通知；當日起7日內交還牌照\n\n屬第41條結業規則；第34條撤銷／暫停的交還期限依通知，不能直接套用7日。\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第35–41條; 第24、30–32、42條; 第21–23、34、43–45條"
+    },
+    {
+      "part": 2,
+      "id": "memory-penalty-ceilings",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.765625,
+        "width": 1078,
+        "height": 549.421875
+      },
+      "text": "第21條與第43條：兩套罰款上限\n第21條：違反指明條文\n\n上限＝以下較大者：HK$10,000,000；3 ×（因違反而獲取的利潤或避免的成本）\n\n最高額不是必罰額；限期後持續違反補救要求另可每日最高HK$100,000。須依適用程序及條件。\n\n第43條：MSO牌照紀律處分\n\n上限 = HK$1,000,000\n\n牌照紀律制度；限期後持續違反補救要求另可每日最高HK$10,000。不可與第21條互換。\n\n兩者均是上限而非固定罰款；須依程序給予陳詞機會。罰款通常自決定生效起30日內或獲准較長期間繳付。\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第21–23、34、43–45條"
+    },
+    {
+      "part": 2,
+      "id": "memory-review-commencement",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.296875,
+        "width": 1078,
+        "height": 699.8125
+      },
+      "text": "指明決定：何時生效\n\n除條例另有規定外，依第75條判斷。申請覆核與申請暫緩是兩件事。\n\n1\n通知有基於公眾利益指定其他生效時間？\n是\n依通知指定時間；另可按適用條文申請暫緩。\n否 → 第2項\n2\n通知送出後21日內，書面通知不申請覆核？\n是\n在該書面通知作出時生效。\n否 → 第3項\n3\n在該21日內申請覆核？\n是\n確認：確認時；更改／取代：當時並按其條款；撤回：撤回時。\n否\n沒有上述通知或申請：21日期間屆滿時生效。\n\n21日起算事件是通知「送出」。覆核申請本身不構成暫緩；上訴也不自動暫緩。延長申請期及暫緩權詳見本節正文。\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第59(1)、69、73、75條"
+    },
+    {
+      "part": 3,
+      "id": "memory-ownership-boundary",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.828125,
+        "width": 1078,
+        "height": 675.703125
+      },
+      "text": "實益擁有人：超過25%與控制權\n概念／情境\t必記區別\t條件及例外\n公司\t超過25%股本或大會投票權；或最終控制管理。\t直接／間接均計；正好25%本身不符合擁有權門檻，仍須檢查控制。也包括交易為其進行的人。\n合夥\t超過25%資本／利潤或投票權；或最終控制管理。\t不能只找股份，或因未找到超過25%的人便停止查控制權。\n信託\t享有信託財產既得權益的受益人／受益人類別；授予人、受託人、保護人／執行人；最終控制的自然人。\t信託不能套用公司的25%門檻；既得權益可為將來享有或可被終止的權益，依定義判斷。\n公司角色與百分比例子\n\n公司角色及「25.1%／恰好25%」例子見Part 6「身分資料」圖；控制權是獨立條件，不能只檢查百分比。\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第1條\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.4.1–4.4.12段"
+    },
+    {
+      "part": 3,
+      "id": "memory-money-boundaries",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.40625,
+        "width": 1078,
+        "height": 1212.796875
+      },
+      "text": "金額相近，法律用途不同\nCDD及匯款核實\n對象及交易\t金額界線\t觸發甚麼\t合併、條件及例外\nMSO的非經常交易（一般非電傳）\t≥ HK$120,000\n等於亦包括\t執行前CDD\t沒有業務關係；單次或看來相連操作合併。建立關係、懷疑或資料疑問另有不限金額觸發。\n金融機構非經常電傳／VA轉移\t≥ HK$8,000\t執行前CDD\t相連操作合併；低於8,000元仍有電傳資料要求。持牌VASP非轉移交易另有8,000元規則，不套用所有MSO。\n非電傳外匯款發款人\t≥ HK$8,000\t第13條核實及紀錄\t指定識別文件及資料；不把所有一般交易CDD門檻改成8,000元。\n跨境現金申報：獨立制度\n對象及交易\t金額界線\t觸發甚麼\t合併、條件及例外\n跨境實體現金類物品\t> HK$120,000\n恰好不包括\t第629章申報／披露制度\t按旅客／貨物、管有、批次及豁除判斷；與CDD是兩套制度。\n找換交易保障：獨立制度\n對象及交易\t金額界線\t觸發甚麼\t合併、條件及例外\n兌換顧客交付的款額\t> HK$100,000\n恰好不豁除\t不適用第34章\t恰好100,000元仍在金額範圍，其他豁除另論；不是AMLO的CDD豁免。\n\n先辨認制度，再比較數字：≥包含相等；>不包含相等。不同交易類型與合併規則不能互借。\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第2–3、13條\n22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf\n正文第1頁\n23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf\n第2–7條及附表4\n17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf\n第2–5條及附表1"
+    },
+    {
+      "part": 3,
+      "id": "memory-shell-bank-and",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.3125,
+        "width": 1078,
+        "height": 625.234375
+      },
+      "text": "附表2第17條：空殼銀行的四項條件\n全部成立 · AND\n法團在香港以外某司法管轄區註冊成立\n獲准在該處從事銀行業務\n在該處沒有實體經營\n\n不隸屬另一家符合以下全部條件的法團：\n\n在某司法管轄區成立\nAND\n獲准在該處經營銀行業務\nAND\n在該處有實體經營\n\n實體經營＝在當地處所經營銀行業務 AND 至少一名全職僱員在該處履行銀行相關職務。第17條的直接禁止對象是認可機構的往來銀行關係，不是把MSO當作往來銀行。隸屬的定義見正文。\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第17(1)–(3)條"
+    },
+    {
+      "part": 3,
+      "id": "memory-fee-components",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.609375,
+        "width": 1078,
+        "height": 573.84375
+      },
+      "text": "牌照費：基本費加附加項目\n申請事項\t基本或逐項費用\t附加項目及條件\n新牌申請\tHK$3,810基本費。\t另每個額外營業處所HK$2,440；每名須評核人士HK$945。\n續牌\tHK$910基本費。\t另每個額外營業處所HK$410；每名須評核人士HK$945。\n董事／最終擁有人／合夥人批准\t每人HK$945。\t是批准申請費，不能當作整個牌照申請的全部費用。\n新增／改為特定營業處所\t每個處所HK$2,440。\t與續牌「額外處所」的HK$410不同；公開查閱登記冊免費，索副本另計。\n\n應付額＝適用申請基本費用＋額外營業處所費用＋適用的逐人適當人選測試費用。不是每名申請人都付齊表內所有項目；金額依repo所存2026年綜合版本。\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第27–28條；附表3"
+    },
+    {
+      "part": 4,
+      "id": "memory-three-places",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.234375,
+        "width": 1078,
+        "height": 491.84375
+      },
+      "text": "營業處所、LMO及LPS\n地方類別\t用途及適用對象\t地址及使用限制\n營業處所\t用作經營金錢服務的處所；自有／租用、對外宣傳及客戶交易是指引例子，非新增的全部成立測試。\t不得位於純住宅樓宇、與另一MSO／申請人共用或須他人協助才可進入；商住混合須全體佔用人書面同意獲授權人員進入。\n本地管理辦事處（LMO）\t沒有特定營業處所者須維持，供海關聯絡。\t香港實體地址，親身及電話可聯絡，由合資格管理／合規人士駐守；不接納MSO住宅或其服務供應商地址／處所。\n本地紀錄儲存地方（LPS）\t所有申請人須維持，保存其控制的完整紀錄。\t香港實體地址，不接納MSO住宅或其服務供應商地址／處所。LMO與LPS名稱相似，但義務及用途不同。\n05_高_牌照指引（2026年5月）.pdf\n第4.4–4.11段"
+    },
+    {
+      "part": 4,
+      "id": "memory-assessment-pass",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.40625,
+        "width": 1078,
+        "height": 391.734375
+      },
+      "text": "合格要同時過兩關\n\n35題 · 7個Part · 每Part 5題 · 75分鐘 · 每題一個答案\n\n全卷最少25／35\n\n而且\n\n每個Part最多錯2題\n\n兩個條件須同時符合；例如總分32／35，但某Part只對2／5，仍不合格。評核合格亦不保證獲發或續牌。\n\n01_高_能力評核須知（2022年12月）.pdf\n第3–8段\n02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf\n例1–7（只用於理解題型）"
+    },
+    {
+      "part": 4,
+      "id": "memory-assessment-clocks",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.140625,
+        "width": 1078,
+        "height": 1299.515625
+      },
+      "text": "相同數字，不同起算點\n申請及人事變更\n事項／人士\t起算事件\t期限\t條件及例外\n新牌評核\t與海關面見當日\t30日內應考\t適用於申請人的合資格人士；須參加，不是隨意延後的建議。\n續牌提名\t收到提名邀請\t7日內提名\t須安排評核的續牌情況；未有合資格提名令申請無效，舊牌照到期失效。七日提名與三十日應考不同。\n續牌評核\t收到評核邀請\t30日內應考\t需要評核的續牌情況；亦須依通知作提名，不能混同屆滿前45日的續牌申請期限。\n全部通過人士離任\t通知海關合夥人／董事變更當日起計\t30日內安排評核\t合夥／公司適用，獨資除外；180日內到期續牌的情況依續牌安排。\n應考結果及重考\n事項／人士\t起算事件\t期限\t條件及例外\n結果通知\t評核後\t14日內電郵通知\t保留通知作成績證明；不披露分數及試題答案。\n再次應考\t成績通知發出當日起計\t30日後才重考\t續牌重考須在牌照屆滿前；不是30日內重考，也不會自動延長牌照。\n覆核成績\n事項／人士\t起算事件\t期限\t條件及例外\n要求覆檢\t成績通知發出當日起計\t7日內書面要求\t不是收到後7日；逾期不受理。\n覆檢回覆\t接獲覆檢要求日期起計\t14日內書面回覆\t覆檢答案紀錄等技術錯誤；覆檢結果為最終。\n01_高_能力評核須知（2022年12月）.pdf\n第3–8段; 第8–13段; 第4.4、8.3段\n02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf\n例1–7（只用於理解題型）\n05_高_牌照指引（2026年5月）.pdf\n第6.2段"
+    },
+    {
+      "part": 4,
+      "id": "memory-exchange-rights",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.484375,
+        "width": 1078,
+        "height": 565.640625
+      },
+      "text": "拒絕未完成交易與撤銷已完成交易\n交易未完成\n客戶拒絕繼續\n須\n→\n即時退回所交全數款項\n\n是交易未完成時的拒絕權，不須等候3日。\n\n交易已完成\n有第4條違反\n才觸發這項權利\n→\n交易後3日內法定撤銷權\n\n須涉及第4條違規；不是任何已完成兌換均有無條件3日反悔權。\n\n第34章另要求把正本交顧客，副本至少保留12個月；這不取代同時適用的AMLO備存紀錄要求。\n\n17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf\n第2–5條及附表1"
+    },
+    {
+      "part": 5,
+      "id": "memory-risk-levels",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.234375,
+        "width": 1078,
+        "height": 500.640625
+      },
+      "text": "機構風險與客戶風險\n機構層面風險評估\n決定配置\n→\n制度、控制及資源\n\n涵蓋客戶、地域、產品／服務／交易及渠道等風險；小規模可簡化方法，不能省略。\n\n客戶層面風險評估\n決定強度\n→\n該客戶的CDD及持續監察\n\n以初步風險決定審查程度，再結合CDD資料整體評估及更新；不是只憑國籍或機械分數。\n\n兩層互相提供資訊：機構風險影響客戶評估方法；客戶及監察的新發現可促使機構評估更新。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第2.1、2.13–2.16、3.3段; 第2.13–2.16段"
+    },
+    {
+      "part": 5,
+      "id": "memory-review-frequency",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.796875,
+        "width": 1078,
+        "height": 504.046875
+      },
+      "text": "兩年、每年、事前：覆核節奏不可互換\n事項\t定期／事前要求\t另行觸發及界線\n機構風險評估\t每兩年及重大觸發事件時。\t新客戶組別／渠道／產品、重大流程／對手改變或嚴重違規可觸發；不是未滿兩年便毋須重做。\n新產品／渠道／科技\t推出或使用前先評估並緩解風險。\t包括現有產品使用新／發展中科技；不是只適用全新產品。\n高風險客戶CDD資料\t至少每年覆核，另按事件更新。\t持續監察並非每年才做一次；一般客戶不因這項規則一律有相同年度週期。\n獨立審核\t定期，頻率／程度按業務及風險。\t沒有所有機構一律每年或每兩年的固定審核期限。\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第2.3、2.5–2.10段; 第2.9、2.11–2.12段; 第5.1–5.14段及註52–53; 第3.11–3.13、5.8段"
+    },
+    {
+      "part": 5,
+      "id": "memory-control-responsibilities",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.671875,
+        "width": 1078,
+        "height": 918.359375
+      },
+      "text": "誰設計、誰判斷、誰獨立檢查\n高級管理層\n委任、支援並承擔管理責任\n→\nCO與MLRO\n\n應在切實可行範圍內確保權限、資源、資訊及直接溝通渠道；完整八項條件見正文。\n\n合規主任（CO）\n建立及監察\n→\nAML/CFT制度、培訓及合規\n\n應向高級管理層溝通主要AML/CFT事項，包括適當時的重大合規缺失；不限於缺失。\n\n洗錢報告主任（MLRO）\n評估內部報告，決定是否披露\n→\n聯合財富情報組（JFIU）\n\n保留評估理由及紀錄，防止通風報訊。\n\n獨立審計職能\n獨立檢查及提出改善\n→\n制度、程序及控制\n\n按規模及性質可內設或外聘，但須保持獨立；不是CO自行審核自己的工作。\n\n視業務規模及性質，CO與MLRO可由同一人兼任；圖中的職能不同，不代表必須是不同員工。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第3.5–3.10段及註9; 第3.6、3.8段; 第3.6、3.8(h)段; 第3.11–3.13、5.8段\n05_高_牌照指引（2026年5月）.pdf\n第4.15(a)段\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A23"
+    },
+    {
+      "part": 6,
+      "id": "memory-cdd-trigger-tree",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.75,
+        "width": 1078,
+        "height": 931.578125
+      },
+      "text": "何時須做CDD\n\nCDD＝客戶盡職審查。先留意適用於所有情況的懷疑／資料疑問，再對照關係及交易類型；各項可同時適用，並非答「是」便略過其餘要求。\n\n跨情況要求：任何金額\n懷疑ML/TF，或懷疑原有身分資料的真實性／充分性\n\nCDD觸發不論金額；另評估STR責任。若合理相信繼續CDD會通風報訊，可停止追查、記錄依據並提交STR。\n\n建立業務關係\n不論交易金額\n\n建立前做CDD，不論金額；只有符合全部條件才可延遲核實身分。\n\n已存在業務關係\n關係持續期間\n\n持續CDD及交易監察；按觸發事件及風險更新。不是每次交易重新開戶，也不是低額便免查。\n\n非經常交易\n電傳／虛擬資產轉帳 ≥ HK$8,000；其他 ≥ HK$120,000（或等值）。單筆或看來相連的交易合計。\n\n達門檻：執行前做CDD。未達門檻：只表示未觸發這項金額條件；上面的懷疑／資料疑問及其他義務仍適用。\n\n接著判斷CDD程度\n延遲核實及無法完成CDD\n非電傳匯款要求\n繼續CDD可能通風報訊的例外\n\n非電傳匯出款項 ≥ HK$8,000另有發款人核實／紀錄要求；低於HK$8,000的電傳亦須附基本資料。虛擬資產列於法定CDD觸發，並不表示MSO牌照准許提供所有VA服務。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.2.1–4.2.5、11.3段; 第5.1–5.14段及註52–53; 第1.25、5.13、7.6段"
+    },
+    {
+      "part": 6,
+      "id": "memory-party-roles",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 128.96875,
+        "width": 1078,
+        "height": 979.546875
+      },
+      "text": "客戶、實益擁有人、代表及關連人士\n公司甲：客戶\n建立關係／委託交易\n→\nMSO\n\n須識別及核實公司本身，不能只核實到場的人。\n\n個人乙：持股25.1%\n超過25%的擁有權\n→\n公司甲\n\n簡化例子：符合公司BO的持股一項；恰好25%不符合這一項，但其他控制條件仍可能符合。\n\n個人丙：PPTA代表\n獲授權代表\n→\n公司甲\n\n識別、合理核實代表身分，並核實授權；代表不會因此取代公司成為客戶。\n\n個人丁：董事\n屬關連人士\n→\n公司甲\n\n取得姓名；如同時是BO或代表，另按該身分處理。乙、丙、丁可以是同一人。\n\n完整BO定義及SCR\n\n這是公司例子，不能把25%套到信託。BO各類定義及SCR界線見本部分「實益擁有人」；第三方收款人不自動成為發款MSO的客戶。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.1.4–4.1.5段; 第4.3.4、4.3.14–4.3.19段及註26; 第4.4.1–4.4.12段\n07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf\n附錄第(3)部分，第5頁\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A9、A11–A12"
+    },
+    {
+      "part": 6,
+      "id": "memory-cdd-extent-tree",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.15625,
+        "width": 1078,
+        "height": 814.359375
+      },
+      "text": "CDD要做到甚麼程度\n\n基本措施：識別及核實客戶；如有實益擁有人，識別並採合理措施核實；業務關係的目的及性質並非明顯時取得資料；有代表時識別、合理核實代表身分，並核實授權。\n\n1\n高風險，或另有適用的加強要求？\n是\n基本CDD＋適用加強措施；按風險及具體規定決定內容，不是每種情況都套同一PEP清單。\n否 → 第2項\n2\n風險分析確認低風險 AND 無ML/TF懷疑 AND 無身分資料疑問？\n是\n可採取與風險相稱的簡化措施；仍須識別／核實客戶及持續監察。\n否\n採一般CDD，並按已識別的風險調整措施。\n加強措施及SOW／SOF\n非面對面條件及例外\n\n「低風險」不等於自動免識別／核實實益擁有人：附表2第4條須符合指定客戶／產品條件。非面對面等額外要求亦須獨立處理；依賴中介人不轉移MSO責任。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.1.1–4.1.5、4.6.1段; 第4.8.1–4.8.9段; 第4.8.10–4.8.16段; 第4.8.17–4.8.20段; 第4.8.10(d)、4.8.14–4.8.18段; 第4.8.2–4.8.8段; 第4.8.13段; 第4.9.1–4.9.6段及註36; 第4.10.1–4.10.5段\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第15條\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A27"
+    },
+    {
+      "part": 6,
+      "id": "memory-sow-sof",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.125,
+        "width": 1078,
+        "height": 618.515625
+      },
+      "text": "SOW與SOF：財富與本次資金\n同一位客戶 · SOW財富來源\n多年經營業務所得利潤\n累積成\n→\n整體累積財富\n\n教學例子：回答「整體財富怎樣形成」。可包括投資及繼承等來源。\n\n同一位客戶 · SOF資金來源\n本次出售物業所得\n存入\n→\n銀行戶口\n匯出\n→\n本次匯款\n\n教學例子：SOF追問本次款項由甚麼活動產生；銀行是傳送渠道，不是充分的來源解釋。\n\n按風險採取合理措施取得及佐證資料；需要同時確立SOW與SOF的情況不能任選其一。不是每案都要相同年期的全部財務歷史。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.9.24–4.9.26段\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A3–A8、A13–A15"
+    },
+    {
+      "part": 6,
+      "id": "memory-pep-categories",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.59375,
+        "width": 1078,
+        "height": 463.046875
+      },
+      "text": "PEP類別與加強措施\n身分類別\t何時適用共同加強措施\t條件\n非香港PEP\t客戶／BO屬非香港PEP\t包括客戶或其BO；並非三選一。現有關係後來才發現PEP身分也須處理。\n香港／國際組織PEP\t關係屬高風險\t建立時高風險、後來變高風險，或高風險關係後來發現PEP身分均涵蓋；本地PEP不自動一律高風險。\n\n前PEP是跨類別的離任狀態，不是第三個互斥地域類別。離任不自動停止措施；須適當評估沒有餘下高風險、獲高級管理層批准並保留理由，不能只按固定年期豁免。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.9.7–4.9.8、4.9.13–4.9.15段; 第4.9.9–4.9.12、4.9.16–4.9.23段及註37–42"
+    },
+    {
+      "part": 6,
+      "id": "memory-pep-common-and",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.640625,
+        "width": 1078,
+        "height": 478.25
+      },
+      "text": "適用時，三組措施同時需要\n全部 · AND\n建立／繼續關係前取得高級管理層批准\n\n採合理措施確立以下兩者：\n\n財富來源（SOW）\nAND\n資金來源（SOF）\n加強持續監察\n\n上圖先判斷類別及風險；發現既有關係中的PEP或風險轉高時也須處理。親屬／密切關係及前PEP適用細節見正文。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.9.7–4.9.8、4.9.13–4.9.15段; 第4.9.9–4.9.12、4.9.16–4.9.23段及註37–42"
+    },
+    {
+      "part": 6,
+      "id": "memory-reliance-outsourcing",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 128.90625,
+        "width": 1078,
+        "height": 364.453125
+      },
+      "text": "依賴中介人與外判\n概念／情境\t必記區別\t條件及例外\n依賴合資格中介人\t中介人通常有獨立的既有客戶關係及程序。\t須合資格、書面同意、立即取得CDD資料並可按要求無延誤取得支持文件；MSO責任不轉移。\n外判／代理\t按MSO程序及其控制執行。\t與法定中介人依賴不同；不能因此移轉CDD責任。第5條持續監察仍由MSO負責。\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.11.1–4.11.7段及註44; 第4.11.8–4.11.14段"
+    },
+    {
+      "part": 6,
+      "id": "memory-transfer-information",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 128.96875,
+        "width": 1078,
+        "height": 968.296875
+      },
+      "text": "跨境電傳：8,000元上下的資料及核實\n跨境電傳共同資料：不論是否達HK$8,000\n全部 · AND\n發款人姓名 ＋ 發款戶口號碼\n受款人姓名 ＋ 受款戶口號碼\n\n沒有該戶口才用可追查的獨特交易參考編號，不能任意取代現有戶口號碼。\n\n達HK$8,000：另加發款人資料\n至少一項 · OR\n地址\n客戶識別號碼\n身分證明文件號碼\n\n自然人：以下兩項合為一個選項\n\n出生日期\nAND\n出生地點\n\n發款人資料須準確，並完成適用CDD。低於門檻的非經常發款人一般毋須核實，但相連交易達門檻、懷疑及資料疑問仍須處理。\n\n這是跨境電傳資料包；本地電傳、批次檔案及轉帳類型豁免各有條件，見下文。不要把資料要求與機構傳送責任混成同一流程。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第10.5–10.13段及註70–71; 第10.14–10.22段; 第11.1–11.6段\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第1、13條"
+    },
+    {
+      "part": 6,
+      "id": "memory-wire-responsibilities",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.296875,
+        "width": 1078,
+        "height": 413.609375
+      },
+      "text": "電傳鏈條：每一站的責任\n資料隨付款鏈傳遞\n匯款機構：附上所需資料\n傳遞\n→\n中介機構：保留隨附資料\n傳遞\n→\n收款機構：偵測缺漏並作適用核實\n\n中介及收款機構須有風險為本程序，決定缺漏資料時執行、拒絕或暫停及跟進；不是每次缺漏自動拒絕。技術限制及本地轉帳例外見正文。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第10.1–10.4段; 第10.5–10.13段及註70–71; 第10.3、10.5–10.7、10.13段及註70; 第10.11–10.12、10.20段及註71; 第10.14–10.22段\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A25–A26\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第12(6)、(9)、(11)條"
+    },
+    {
+      "part": 6,
+      "id": "memory-trade-value-paths",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.71875,
+        "width": 1078,
+        "height": 601.59375
+      },
+      "text": "貿易洗錢：分開看貨物、單據與付款\n高報價格的簡化例子\n實際貨物價值較低\n不一致\n≠\n發票聲稱價值較高\n按單據付款\n→\n買方向賣方支付較多\n\n差額可把額外價值移向賣方；低報可反向移動價值。需結合商品、定價及關係評估。\n\n重複發票的簡化例子\n同一批貨物\n重複表示\n→\n多份發票／融資要求\n造成\n→\n多次付款\n\n指標是查詢線索，不是自動證明洗錢；虛假貨物、數量差異及單據矛盾見正文。\n\n18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf\n第1–3頁\n24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf\n第1–2頁（中文為學習譯文）; 印刷第5–6頁 · 中文為學習譯文；來源為英文原件\n25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf\n2022年版，第4.44、4.57–4.59段及專題4.5"
+    },
+    {
+      "part": 7,
+      "id": "memory-reporting-route",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.53125,
+        "width": 1078,
+        "height": 699.421875
+      },
+      "text": "內部報告：不經無關管理層篩選\n先內部披露\n員工發現知情／懷疑\n無不必要延誤地報告\n→\nMLRO評估\n\n按程序直接交MLRO；非報告／合規管理層不得把報告篩掉。內部報告應載事實及懷疑理由。\n\n評估後仍知情／懷疑\nMLRO\n迅速報告\n→\nJFIU\n\n考慮合理可得的相關CDD、交易及其他資料；不能無限期等齊所有資料。\n\n評估後沒有知情／懷疑\nMLRO判斷不報告\n必須留痕\n→\n保留理由及處理紀錄\n\n不是收到每份內部報告都自動向JFIU提交STR；其後新事實可能要求重新評估。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第7.12–7.23段"
+    },
+    {
+      "part": 7,
+      "id": "memory-after-report-parallel",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 129.046875,
+        "width": 1078,
+        "height": 365.0625
+      },
+      "text": "提交STR後：並行處理的事項\n並行處理，不是先後步驟\n評估法定披露／同意與抗辯條件；提交報告不等於自動獲准處理財產。\n應立即檢視客戶／關係風險及適當措施；不能只等待JFIU回覆。\n防止通風報訊；繼續監察，新可疑活動再交MLRO判斷是否另報。\n\n這三項是職責分類，不代表每案的措施完全相同；法定抗辯的「事前披露＋同意」或「事後自發且盡快披露」條件見正文。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第7.22、7.24–7.28段; 第1.25、5.13、7.6段"
+    },
+    {
+      "part": 7,
+      "id": "memory-retention-clocks",
+      "label": "tc-desktop",
+      "rect": {
+        "x": 290,
+        "y": 128.953125,
+        "width": 1078,
+        "height": 1108.109375
+      },
+      "text": "保存期：記「多久」也要記「何時開始」\n業務關係CDD\n起算／對照事件\n關係結束時\n時間要求\n關係持續期間，另加至少5年\n\n不能從開戶日起算5年後便刪除。關長書面要求更長期限時須延長。\n\n達CDD門檻的非經常交易CDD\n起算／對照事件\n交易完成時\n時間要求\n至少5年\n\n附表2第20(3A)條；相關8,000／120,000元觸發條件須按交易類型判斷。\n\n交易紀錄\n起算／對照事件\n每宗交易完成時\n時間要求\n至少5年\n\n期間關係結束不縮短保存期；不能一律把起算點改成關係結束。\n\n培訓紀錄\n起算／對照事件\n指引沒有另訂起算公式；按培訓日期保留紀錄\n時間要求\n應保存至少3年（指引）\n\n保存受訓者、日期及類型；與CDD／交易的5年規則不同。\n\n每一行有自己的起算事件，不共用同一時間軸。海關書面要求較長保存期及未成功開戶的風險考慮見下文。\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第8.4、8.6、8.8–8.12、9.7段\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第20(3A)條\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A28"
+    },
+    {
+      "part": 1,
+      "id": "memory-three-stages",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.53125,
+        "width": 611,
+        "height": 2310.984375
+      },
+      "text": "三個常見階段：可重疊，不是固定步驟\nThree common stages: overlapping, not a fixed sequence\nPlacement（存放）\nPlacement\n\n把犯罪現金放入金融體系。\nIntroduce criminal cash into the financial system.\n\n同一犯罪得益：進入體系\nSame criminal proceeds: entry\n犯罪現金\nCriminal cash\n存放\nPlacement\n→\n存入戶口\nDeposit into an account\n\n教學例子：改變現金所在位置。\nTeaching example: changes where the cash is held.\n\nLayering（分層交易）\nLayering\n\n用多層複雜交易掩藏來源、截斷審計線索及提供匿名性。\nUse complex layers of transactions to disguise origin, obscure the audit trail and provide anonymity.\n\n同一犯罪得益：掩藏線索\nSame proceeds: obscuring the trail\n原來戶口\nOriginal account\n轉移、拆分\nMove, split\n→\n多層戶口／交易\nLayers of accounts / transactions\n\n教學例子：增加追查來源的難度。\nTeaching example: makes the origin harder to trace.\n\nIntegration（整合）\nIntegration\n\n使犯罪財富重新出現為貌似合法的資產或業務收益。\nReturn criminal wealth as apparently legitimate assets or business proceeds.\n\n同一犯罪得益：貌似合法\nSame proceeds: apparent legitimacy\n犯罪得益\nCriminal proceeds\n重新呈現\nReappear as\n→\n貌似合法的投資／業務收益\nApparently lawful investment / business proceeds\n\n教學例子：外觀合法不會消除犯罪來源。\nTeaching example: a lawful appearance does not erase criminal origin.\n\n三個階段是理解典型模式的工具，實際交易可同時涉及多個階段。匯款或兌換業務可能協助存放及分層，交易有商業外觀也不表示資金合法。\nThe stages explain typical patterns; actual transactions can overlap them. Remittance and exchange can facilitate placement and layering, and a commercial appearance does not establish legitimacy.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第1.9–1.10段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶1.9–1.10"
+    },
+    {
+      "part": 1,
+      "id": "memory-ml-tf-pf",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.21875,
+        "width": 611,
+        "height": 1633
+      },
+      "text": "ML、TF及PF：不要只看資金來源\nML, TF and PF: origin is not the only concern\n概念\nConcept\n\t資金來源\nOrigin\n\t核心問題\nCore concern\n\t法律條件\nLegal conditions\n洗錢（ML）\nMoney laundering (ML)\n資金來源Origin\n犯罪得益\nCriminal proceeds\n核心問題Core concern\n犯罪得益的來源被掩飾。\nDisguises the criminal origin of proceeds.\n法律條件Legal conditions\n財產可全部／部分、直接／間接代表得益；境外行為若在港會屬可公訴罪行也可涵蓋。\nProperty may represent proceeds wholly/partly, directly/indirectly; overseas conduct that would be indictable in Hong Kong may be covered.\n恐怖分子資金籌集（TF）\nTerrorist financing (TF)\n資金來源Origin\n合法或非法\nLawful or unlawful\n核心問題Core concern\n合法或非法來源均可能涉及；看用途、對象及法定心理要素。\nLawful or unlawful funds may be involved; purpose, recipient and statutory mental elements matter.\n法律條件Legal conditions\n供恐怖行為使用的財產須有意圖或知情，不必實際使用；向恐怖分子／聯繫者提供或為其籌集時，知道或罔顧對方身分均可涵蓋。\nProperty for terrorist acts requires intent/knowledge, not actual use. Relevant provision/collection for a terrorist/associate covers knowledge or recklessness about that status.\n擴散融資（PF）\nProliferation financing (PF)\n資金來源Origin\n不可只憑來源判斷\nOrigin alone is not decisive\n核心問題Core concern\n服務可能協助大規模毀滅武器及其運載方式。\nServices may assist WMD and their means of delivery.\n法律條件Legal conditions\n有合理理由相信或懷疑服務可能涉及PF便可能觸犯第526章；適用制裁禁令另須遵守。\nCap.526 covers belief or suspicion on reasonable grounds that services may be connected to PF; applicable sanctions prohibitions also apply.\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第1.9–1.10段; 第1.11–1.12、1.23–1.25段; 第1.14–1.27、6.1–6.4段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶1.9–1.10; ¶1.11–1.12, 1.23–1.25; ¶1.14–1.27, 6.1–6.4"
+    },
+    {
+      "part": 1,
+      "id": "memory-risk-lists",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.734375,
+        "width": 611,
+        "height": 1644.65625
+      },
+      "text": "風險名單與制裁名單\nRisk lists and sanctions lists\n概念／情境\nConcept / situation\n\t必記區別\nRemember the distinction\n\t條件及例外\nConditions and exceptions\nFATF：呼籲採取行動\nFATF: call for action\n必記區別Remember the distinction\n相稱的加強盡職審查；指定情況另有反制措施。\nProportionate EDD; countermeasures in specified cases.\n條件及例外Conditions and exceptions\n按有關聲明及海關通函區分；具體地區名單保留通函日期，不能當作永久名單。\nDistinguish the applicable statement/circular. Country lists are dated snapshots, not permanent lists.\nFATF：加強監察\nFATF: increased monitoring\n必記區別Remember the distinction\n納入客戶整體風險評估。\nFactor into the overall customer risk assessment.\n條件及例外Conditions and exceptions\n單憑列名不會自動令每宗客戶關係必須EDD。\nListing alone does not automatically require EDD for every customer relationship.\n受指定人士／實體制裁\nDesignated-person/entity sanctions\n必記區別Remember the distinction\n依法凍結及禁止提供／處理資產等。\nStatutory freezing and prohibitions on availability/dealing.\n條件及例外Conditions and exceptions\n不能用「低風險」取代法定禁止；只有適用豁免／有效特許才可在其範圍內行事。\nA low-risk rating does not override a prohibition; only act within applicable exemptions/valid licences.\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第1.13段; 第6.1–6.8段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶1.13; ¶6.1–6.8\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A17\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A17\n19_中重點_通函_財務行動特別組織的聲明（2026年7月3日）.pdf\n正文第1–3頁\n19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf\nMain text pp.1–3\n09_高_通函_識別和緩解大殺傷力武器擴散融資風險（2021年12月22日）.pdf\n正文第1–2頁\n09_High_Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021).pdf\nMain text pp.1–2\n26_中選讀_通函_聯合國制裁_原則及預警機制（2018年2月7日）.pdf\n正文第1–3頁\n26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf\nMain text pp.1–3"
+    },
+    {
+      "part": 1,
+      "id": "memory-cross-sector-mechanisms",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.453125,
+        "width": 611,
+        "height": 1390.921875
+      },
+      "text": "2022年報告：跨行業的價值轉移例子\n2022 report: cross-sector value-transfer examples\n公司與戶口\nCompanies and accounts\n濫用公司架構／代名人\nMisuse of corporate structures / nominees\n掩藏\nConceals\n→\n實際控制者／資金來源\nActual controllers / fund origins\n\n經公司戶口交易及匯款時，了解實益擁有人及商業目的，不能僅看公司已註冊。\nFor company-account activity and remittances, understand beneficial ownership and business purpose; registration alone is insufficient.\n\n保險與物業\nInsurance and property\n犯罪得益投入資產\nProceeds placed into assets\n改變外觀\nChange appearance\n→\n退保／轉售所得\nSurrender / resale receipts\n\n是濫用機制例子，不表示每次退保或物業轉售均屬可疑；風險結論屬2022年報告。\nExamples of misuse, not a claim that every surrender or resale is suspicious; risk findings belong to the 2022 report.\n\n25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf\n第5.2.13–5.2.17、5.2.21、5.3.25–5.3.38、5.6.2、5.6.7–5.6.15、5.6.21、5.7.5、5.7.22、6.4.3、6.6.6–6.6.13段; 2022年版，第4.45–4.51段; 2022年版，第5.3.9、5.3.12–5.3.14、5.3.25–5.3.29段及專題5.9–5.10\n25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf\n¶5.2.13–5.2.17, 5.2.21, 5.3.25–5.3.38, 5.6.2, 5.6.7–5.6.15, 5.6.21, 5.7.5, 5.7.22, 6.4.3, 6.6.6–6.6.13; 2022 edition, ¶4.45–4.51; 2022 edition, ¶5.3.9, 5.3.12–5.3.14, 5.3.25–5.3.29 and Boxes 5.9–5.10\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第5B、5C部\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nParts 5B, 5C"
+    },
+    {
+      "part": 1,
+      "id": "memory-cash-scope",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.890625,
+        "width": 611,
+        "height": 1698.0625
+      },
+      "text": "同一門檻，不同申報途徑\nOne threshold, different declaration routes\n旅客攜帶\nCarried by travellers\n現金類物品總值 > HK$120,000\nCBNI total > HK$120,000\n觸發\nTriggers\n→\n指定管制站入境：書面申報\nEntering at a specified control point: written declaration\n\n其他入境途徑／離境：按獲授權人員要求披露；披露持有大量物品時再按要求申報。未過入境檢查的指定機場過境情況另有豁免。\nOther entry routes / departure: disclose on an authorized officer’s request; then declare as required if large quantities are disclosed. The specified airport-transit case without immigration clearance is exempt.\n\n貨物進出口\nCargo import / export\n同一法定批次總值 > HK$120,000\nSame statutory batch total > HK$120,000\n觸發\nTriggers\n→\n進／出口前向海關申報\nDeclare to Customs before import / export\n\n法定批次可合併多批貨物：按第10條的同一承運人／運輸工具及客戶規則計算。非旅客進出口或安排進出口者須確保事前申報；第8–9條的過境、空運轉運、郵包及運輸工具經營者例外見正文。\nA statutory batch can aggregate multiple consignments under section 10’s carrier / conveyance and customer rules. Non-traveller importers / exporters and persons causing import / export must ensure prior declaration. See the text for ss.8–9 transit, air-transhipment, postal and conveyance-operator exceptions.\n\n恰好HK$120,000不因這個「>」門檻觸發；CDD的一般非經常交易門檻是「≥」，不是同一制度。\nExactly HK$120,000 does not cross this “>” threshold. General occasional-transaction CDD uses “≥”: a different regime.\n\n22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf\n正文第1頁\n22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf\nMain text p.1\n23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf\n第2–7條及附表4; 第8–14條、附表5; 第2(1)、7(6)條; 第7條; 第17–19條; 附表2–3; 第8–11條; 附表2、3\n23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf\nss.2–7; Schedule 4; ss.8–14; Schedule 5; ss.2(1), 7(6); s.7; ss.17–19; Schedules 2–3; ss.8–11"
+    },
+    {
+      "part": 2,
+      "id": "memory-inspection-versus-investigation",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.3125,
+        "width": 611,
+        "height": 1321.65625
+      },
+      "text": "日常查察與正式調查\nInspection versus investigation\n維度\nDimension\n\t查察：第9條\nInspection: s.9\n\t調查：第11–12條\nInvestigation: ss.11–12\n用途／基礎\nPurpose / basis\n查察：第9條Inspection: s.9\n確定正在／曾經遵守及是否可能遵守「訂明規定」：不只指明條文，亦涵蓋適用通知、要求及牌照等條件\nAscertain current / past compliance and likelihood of compliance with prescribed requirements: not just specified provisions, but applicable notices, requirements and licence conditions\n調查：第11–12條Investigation: ss.11–12\n第11(1)(a)：有合理因由相信可能犯罪；或(b)：為考慮第21／43條處分，有理由查究指明違反\ns.11(1)(a): reasonable cause to believe an offence may have occurred; OR (b): reason to enquire into specified contraventions for considering s.21 / s.43 action\n主要權力\nMain powers\n查察：第9條Inspection: s.9\n進入營業處所、查閱及複製紀錄、要求解釋\nEnter business premises, inspect / copy records, require explanations\n調查：第11–12條Investigation: ss.11–12\n要求紀錄、答覆問題、書面解釋及協助\nRequire records, answers, written explanations and assistance\n共同界線\nShared limits\n查察：第9條Inspection: s.9\n依法行使；法律專業保密權等保障保留\nExercise lawfully; safeguards including legal professional privilege remain\n調查：第11–12條Investigation: ss.11–12\n受查者仍須遵從合法要求；刑事程序使用受強制陳述另有條件\nComply with lawful requirements; use of compelled statements in criminal proceedings has separate conditions\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第9–20、81條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nss.9–20, 81"
+    },
+    {
+      "part": 2,
+      "id": "memory-licence-clocks",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.1875,
+        "width": 611,
+        "height": 2474.609375
+      },
+      "text": "牌照事項：事前批准、1個月及結業通知\nLicence actions: prior approval, one month and cessation notices\n新增董事／最終擁有人／合夥人\nNew director / ultimate owner / partner\n起算／對照事件Starting / reference event\n擬加入持牌人\nProposed appointment / ownership\n時間要求Timing requirement\n事先書面批准\nWritten approval beforehand\n\n適用第35–37條的相應適當人選要求；一個月變更通知不能代替事先批准。\nApply the corresponding fitness test under ss.35–37; one-month notification does not replace prior approval.\n\n新營業處所／無處所轉特定處所\nNew premises / no-particular to particular premises\n起算／對照事件Starting / reference event\n擬在該處所營業\nProposed operation there\n時間要求Timing requirement\n營業前獲批及登記\nApproval and registration before operation\n\n處所須適合；住宅佔用人同意等適用條件仍須符合。\nSuitability and applicable domestic-occupant consent conditions remain necessary.\n\n持牌人續牌\nLicensee renewal\n起算／對照事件Starting / reference event\n現有牌照屆滿日（向前計）\nExisting expiry date (count backwards)\n時間要求Timing requirement\n最少提前45日\nAt least 45 days before expiry\n\n按指定形式及費用作有效申請；有效申請待決時按第31條繼續有效，法定撤回／撤銷／暫停等情況另論。\nUse the prescribed form/fees. A valid pending application continues validity under s.31, subject to statutory withdrawal/revocation/suspension and other outcomes.\n\n持牌人資料改變\nLicensee particulars change\n起算／對照事件Starting / reference event\n改變當日\nDate of change\n時間要求Timing requirement\n起計1個月內書面通知\nWritten notice within one month beginning on that date\n\n「一個月」不能自行改成30日；需事先批准的項目仍須事先批准。\nDo not substitute “30 days” for “one month”; prior-approval events still require prior approval.\n\n持牌人全部／指定處所停業\nLicensee ceases all / specified-premises business\n起算／對照事件Starting / reference event\n停止當日\nCessation date\n時間要求Timing requirement\n停止前通知；當日起7日內交還牌照\nNotify beforehand; surrender within seven days beginning on cessation\n\n屬第41條結業規則；第34條撤銷／暫停的交還期限依通知，不能直接套用7日。\nThis is s.41 cessation; s.34 revocation/suspension surrender follows the notice, not automatically seven days.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第35–41條; 第24、30–32、42條; 第21–23、34、43–45條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nss.35–41; ss.24, 30–32, 42; ss.21–23, 34, 43–45"
+    },
+    {
+      "part": 2,
+      "id": "memory-penalty-ceilings",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.875,
+        "width": 611,
+        "height": 1250.59375
+      },
+      "text": "第21條與第43條：兩套罰款上限\nSections 21 and 43: two penalty ceilings\n第21條：違反指明條文\nSection 21: specified-provision contraventions\n\n上限＝以下較大者：HK$10,000,000；3 ×（因違反而獲取的利潤或避免的成本）\nMaximum = the greater of: HK$10,000,000; 3 × (profit gained or costs avoided through the contravention)\n\n最高額不是必罰額；限期後持續違反補救要求另可每日最高HK$100,000。須依適用程序及條件。\nA ceiling is not an automatic fine. Continued non-compliance with remedial requirements after the deadline may separately attract up to HK$100,000 per day, subject to the applicable procedure and conditions.\n\n第43條：MSO牌照紀律處分\nSection 43: MSO licensing discipline\n\n上限 = HK$1,000,000\nMaximum = HK$1,000,000\n\n牌照紀律制度；限期後持續違反補救要求另可每日最高HK$10,000。不可與第21條互換。\nLicensing discipline; continued non-compliance with remedial requirements after the deadline may separately attract up to HK$10,000 per day. Do not substitute the section 21 ceiling.\n\n兩者均是上限而非固定罰款；須依程序給予陳詞機會。罰款通常自決定生效起30日內或獲准較長期間繳付。\nBoth are ceilings, not fixed fines, and hearing procedures apply. Fines normally fall due within 30 days after the decision takes effect, or a longer allowed period.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第21–23、34、43–45條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nss.21–23, 34, 43–45"
+    },
+    {
+      "part": 2,
+      "id": "memory-review-commencement",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.53125,
+        "width": 611,
+        "height": 1631.171875
+      },
+      "text": "指明決定：何時生效\nSpecified decisions: when they take effect\n\n除條例另有規定外，依第75條判斷。申請覆核與申請暫緩是兩件事。\nSubject to other provisions, apply section 75. Review and a stay application are distinct.\n\n1\n通知有基於公眾利益指定其他生效時間？\nDoes the notice specify another commencement time in the public interest?\n是YES\n依通知指定時間；另可按適用條文申請暫緩。\nUse the specified time; a stay may separately be sought under the applicable provision.\n否 → 第2項NO → step 2\n2\n通知送出後21日內，書面通知不申請覆核？\nWithin 21 days after notice is sent, written notice that no review will be sought?\n是YES\n在該書面通知作出時生效。\nEffective when that written notice is given.\n否 → 第3項NO → step 3\n3\n在該21日內申請覆核？\nReview applied for within those 21 days?\n是YES\n確認：確認時；更改／取代：當時並按其條款；撤回：撤回時。\nConfirmed: on confirmation. Varied / substituted: then, subject to its terms. Withdrawn: on withdrawal.\n否NO\n沒有上述通知或申請：21日期間屆滿時生效。\nNeither notice nor application: effective when the 21-day period expires.\n\n21日起算事件是通知「送出」。覆核申請本身不構成暫緩；上訴也不自動暫緩。延長申請期及暫緩權詳見本節正文。\nThe 21-day clock starts when notice is sent. Review does not itself constitute a stay; appeal is not an automatic stay either. Extensions and stay powers are explained below.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第59(1)、69、73、75條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nss.59(1), 69, 73, 75"
+    },
+    {
+      "part": 3,
+      "id": "memory-ownership-boundary",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.875,
+        "width": 611,
+        "height": 1745.484375
+      },
+      "text": "實益擁有人：超過25%與控制權\nBeneficial owners: more than 25% and control\n概念／情境\nConcept / situation\n\t必記區別\nRemember the distinction\n\t條件及例外\nConditions and exceptions\n公司\nCorporation\n必記區別Remember the distinction\n超過25%股本或大會投票權；或最終控制管理。\nMore than 25% share capital or general-meeting votes; or ultimate management control.\n條件及例外Conditions and exceptions\n直接／間接均計；正好25%本身不符合擁有權門檻，仍須檢查控制。也包括交易為其進行的人。\nDirect/indirect interests count. Exactly 25% alone misses the ownership threshold; still examine control and persons on whose behalf transactions occur.\n合夥\nPartnership\n必記區別Remember the distinction\n超過25%資本／利潤或投票權；或最終控制管理。\nMore than 25% capital/profit or voting rights; or ultimate management control.\n條件及例外Conditions and exceptions\n不能只找股份，或因未找到超過25%的人便停止查控制權。\nDo not search only for shares or stop examining control when no person exceeds 25%.\n信託\nTrust\n必記區別Remember the distinction\n享有信託財產既得權益的受益人／受益人類別；授予人、受託人、保護人／執行人；最終控制的自然人。\nBeneficiaries/classes with vested interests in trust property; settlors, trustees, protectors/enforcers; individuals with ultimate control.\n條件及例外Conditions and exceptions\n信託不能套用公司的25%門檻；既得權益可為將來享有或可被終止的權益，依定義判斷。\nDo not apply the corporate 25% threshold to trusts; vested interests can include future or defeasible interests under the definition.\n公司角色與百分比例子\nCorporate roles and percentage example\n\n公司角色及「25.1%／恰好25%」例子見Part 6「身分資料」圖；控制權是獨立條件，不能只檢查百分比。\nSee Part 6’s Identity information diagram for corporate roles and the 25.1% / exactly 25% example. Control is a separate limb; do not check percentages alone.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第1條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 s.1\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.4.1–4.4.12段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.4.1–4.4.12"
+    },
+    {
+      "part": 3,
+      "id": "memory-money-boundaries",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.671875,
+        "width": 611,
+        "height": 3525.8125
+      },
+      "text": "金額相近，法律用途不同\nSimilar amounts, different legal purposes\nCDD及匯款核實\nCDD and remittance verification\n對象及交易\nPerson / transaction\n\t金額界線\nAmount boundary\n\t觸發甚麼\nWhat it triggers\n\t合併、條件及例外\nAggregation, conditions and exceptions\nMSO的非經常交易（一般非電傳）\nMSO occasional transaction (general non-wire)\n金額界線Amount boundary\n≥ HK$120,000\n等於亦包括\n≥ HK$120,000\nAt least HK$120,000; includes equality.\n觸發甚麼What it triggers\n執行前CDD\nCDD before execution\n合併、條件及例外Aggregation, conditions and exceptions\n沒有業務關係；單次或看來相連操作合併。建立關係、懷疑或資料疑問另有不限金額觸發。\nNo business relationship; aggregate apparently linked operations. Relationship, suspicion and information doubts separately trigger CDD regardless of amount.\n金融機構非經常電傳／VA轉移\nFI occasional wire / VA transfer\n金額界線Amount boundary\n≥ HK$8,000\n≥ HK$8,000\n觸發甚麼What it triggers\n執行前CDD\nCDD before execution\n合併、條件及例外Aggregation, conditions and exceptions\n相連操作合併；低於8,000元仍有電傳資料要求。持牌VASP非轉移交易另有8,000元規則，不套用所有MSO。\nAggregate linked operations; below HK$8,000 wire information duties remain. Licensed-VASP non-transfer transactions have a separate HK$8,000 rule, not a universal MSO rule.\n非電傳外匯款發款人\nNon-wire outward-remittance originator\n金額界線Amount boundary\n≥ HK$8,000\n≥ HK$8,000\n觸發甚麼What it triggers\n第13條核實及紀錄\nSection 13 verification and records\n合併、條件及例外Aggregation, conditions and exceptions\n指定識別文件及資料；不把所有一般交易CDD門檻改成8,000元。\nUse specified identity documents and records; this does not lower the general CDD threshold for every transaction.\n跨境現金申報：獨立制度\nCross-boundary cash: a separate regime\n對象及交易\nPerson / transaction\n\t金額界線\nAmount boundary\n\t觸發甚麼\nWhat it triggers\n\t合併、條件及例外\nAggregation, conditions and exceptions\n跨境實體現金類物品\nCross-boundary physical CBNIs\n金額界線Amount boundary\n> HK$120,000\n恰好不包括\n> HK$120,000\nAggregate value above HK$120,000; equality excluded.\n觸發甚麼What it triggers\n第629章申報／披露制度\nCap.629 declaration / disclosure regime\n合併、條件及例外Aggregation, conditions and exceptions\n按旅客／貨物、管有、批次及豁除判斷；與CDD是兩套制度。\nApply traveller/cargo routes, possession, batches and exclusions; this is a separate regime from CDD.\n找換交易保障：獨立制度\nExchange protections: a separate regime\n對象及交易\nPerson / transaction\n\t金額界線\nAmount boundary\n\t觸發甚麼\nWhat it triggers\n\t合併、條件及例外\nAggregation, conditions and exceptions\n兌換顧客交付的款額\nAmount tendered by exchange customer\n金額界線Amount boundary\n> HK$100,000\n恰好不豁除\n> HK$100,000\nMore than HK$100,000; equality not excluded.\n觸發甚麼What it triggers\n不適用第34章\nCap.34 monetary exclusion\n合併、條件及例外Aggregation, conditions and exceptions\n恰好100,000元仍在金額範圍，其他豁除另論；不是AMLO的CDD豁免。\nExactly HK$100,000 remains within monetary scope, subject to other exclusions; this is not an AMLO CDD exemption.\n\n先辨認制度，再比較數字：≥包含相等；>不包含相等。不同交易類型與合併規則不能互借。\nIdentify the regime before comparing amounts: ≥ includes equality; > excludes it. Transaction types and aggregation rules are not interchangeable.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第2–3、13條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 ss.2–3, 13\n22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf\n正文第1頁\n22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf\nMain text p.1\n23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf\n第2–7條及附表4\n23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf\nss.2–7; Schedule 4\n17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf\n第2–5條及附表1\n17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf\nss.2–5; Schedule 1"
+    },
+    {
+      "part": 3,
+      "id": "memory-shell-bank-and",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 157.09375,
+        "width": 611,
+        "height": 1215.15625
+      },
+      "text": "附表2第17條：空殼銀行的四項條件\nSchedule 2 s.17: four shell-bank conditions\n全部成立 · AND\nALL · AND\n法團在香港以外某司法管轄區註冊成立\nCorporation incorporated in a jurisdiction outside Hong Kong\n獲准在該處從事銀行業務\nAuthorized to conduct banking there\n在該處沒有實體經營\nNo physical presence there\n\n不隸屬另一家符合以下全部條件的法團：\nUnaffiliated with another corporation meeting ALL of these conditions:\n\n在某司法管轄區成立\nIncorporated in a jurisdiction\nAND\n獲准在該處經營銀行業務\nAuthorized to conduct banking there\nAND\n在該處有實體經營\nPhysically present there\n\n實體經營＝在當地處所經營銀行業務 AND 至少一名全職僱員在該處履行銀行相關職務。第17條的直接禁止對象是認可機構的往來銀行關係，不是把MSO當作往來銀行。隸屬的定義見正文。\nPhysical presence = banking at premises there AND at least one full-time employee performing banking-related duties there. Section 17 directly prohibits authorized institutions’ relevant correspondent relationships; it does not treat MSOs as correspondent banks. See the text for affiliation.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第17(1)–(3)條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 s.17(1)–(3)"
+    },
+    {
+      "part": 3,
+      "id": "memory-fee-components",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.5,
+        "width": 611,
+        "height": 1712.640625
+      },
+      "text": "牌照費：基本費加附加項目\nLicence fees: base plus additive components\n申請事項\nApplication\n\t基本或逐項費用\nBase or per-item charge\n\t附加項目及條件\nAdditions and conditions\n新牌申請\nGrant application\n基本或逐項費用Base or per-item charge\nHK$3,810基本費。\nHK$3,810 base.\n附加項目及條件Additions and conditions\n另每個額外營業處所HK$2,440；每名須評核人士HK$945。\nPlus HK$2,440 per additional business premises and HK$945 per person subject to the fit-and-proper test.\n續牌\nRenewal\n基本或逐項費用Base or per-item charge\nHK$910基本費。\nHK$910 base.\n附加項目及條件Additions and conditions\n另每個額外營業處所HK$410；每名須評核人士HK$945。\nPlus HK$410 per additional business premises and HK$945 per tested person.\n董事／最終擁有人／合夥人批准\nDirector / ultimate owner / partner approval\n基本或逐項費用Base or per-item charge\n每人HK$945。\nHK$945 per person.\n附加項目及條件Additions and conditions\n是批准申請費，不能當作整個牌照申請的全部費用。\nAn approval application fee, not the total fee for a licence application.\n新增／改為特定營業處所\nAdd / move to particular premises\n基本或逐項費用Base or per-item charge\n每個處所HK$2,440。\nHK$2,440 per premises.\n附加項目及條件Additions and conditions\n與續牌「額外處所」的HK$410不同；公開查閱登記冊免費，索副本另計。\nDifferent from renewal’s HK$410 additional-premises component. Public register inspection is free; copies have separate charges.\n\n應付額＝適用申請基本費用＋額外營業處所費用＋適用的逐人適當人選測試費用。不是每名申請人都付齊表內所有項目；金額依repo所存2026年綜合版本。\nPayable fee = relevant application base fee + additional-premises charges + applicable per-person fit-and-proper test charges. Not every applicant pays every component; amounts follow the repo’s 2026 consolidated edition.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第27–28條；附表3\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nss.27–28; Schedule 3"
+    },
+    {
+      "part": 4,
+      "id": "memory-three-places",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.125,
+        "width": 611,
+        "height": 1465.640625
+      },
+      "text": "營業處所、LMO及LPS\nBusiness premises, LMO and LPS\n地方類別\nType of place\n\t用途及適用對象\nPurpose and applicability\n\t地址及使用限制\nAddress and use restrictions\n營業處所\nBusiness premises\n用途及適用對象Purpose and applicability\n用作經營金錢服務的處所；自有／租用、對外宣傳及客戶交易是指引例子，非新增的全部成立測試。\nPremises used to operate money service. Ownership/lease, advertising and customer transactions are illustrative, not an added all-conditions test.\n地址及使用限制Address and use restrictions\n不得位於純住宅樓宇、與另一MSO／申請人共用或須他人協助才可進入；商住混合須全體佔用人書面同意獲授權人員進入。\nNot in a wholly residential building, shared with another MSO/applicant or accessible only with others’ assistance; mixed premises need all occupants’ written consent to authorized entry.\n本地管理辦事處（LMO）\nLocal management office (LMO)\n用途及適用對象Purpose and applicability\n沒有特定營業處所者須維持，供海關聯絡。\nRequired for no-particular-premises operators, as a Customs contact point.\n地址及使用限制Address and use restrictions\n香港實體地址，親身及電話可聯絡，由合資格管理／合規人士駐守；不接納MSO住宅或其服務供應商地址／處所。\nPhysical Hong Kong address, reachable in person/by phone and staffed by qualifying management/compliance personnel; the MSO’s residential or service-provider address/premises is not accepted.\n本地紀錄儲存地方（LPS）\nLocal place for storage (LPS)\n用途及適用對象Purpose and applicability\n所有申請人須維持，保存其控制的完整紀錄。\nRequired for all applicants, holding complete records under their control.\n地址及使用限制Address and use restrictions\n香港實體地址，不接納MSO住宅或其服務供應商地址／處所。LMO與LPS名稱相似，但義務及用途不同。\nPhysical Hong Kong address; the MSO’s residential or service-provider address/premises is not accepted. LMO and LPS have different functions and coverage.\n05_高_牌照指引（2026年5月）.pdf\n第4.4–4.11段\n05_High_Licensing Guide (May 2026).pdf\n¶4.4–4.11"
+    },
+    {
+      "part": 4,
+      "id": "memory-assessment-pass",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.90625,
+        "width": 611,
+        "height": 898.046875
+      },
+      "text": "合格要同時過兩關\nPassing requires both gates\n\n35題 · 7個Part · 每Part 5題 · 75分鐘 · 每題一個答案\n35 questions · 7 Parts · 5 per Part · 75 minutes · one answer per question\n\n全卷最少25／35\nAt least 25 / 35 overall\n\n而且\nAND\n\n每個Part最多錯2題\nNo more than 2 wrong in every Part\n\n兩個條件須同時符合；例如總分32／35，但某Part只對2／5，仍不合格。評核合格亦不保證獲發或續牌。\nBoth conditions must hold. For example, 32/35 overall with only 2/5 correct in one Part still fails. Passing does not guarantee a licence or renewal.\n\n01_高_能力評核須知（2022年12月）.pdf\n第3–8段\n01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf\n¶3–8\n02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf\n例1–7（只用於理解題型）\n02_High_Competence Assessment - Sample Questions (12 May 2021).pdf\nExamples 1–7 (format only)"
+    },
+    {
+      "part": 4,
+      "id": "memory-assessment-clocks",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.953125,
+        "width": 611,
+        "height": 4225.53125
+      },
+      "text": "相同數字，不同起算點\nSame numbers, different starting events\n申請及人事變更\nApplications and personnel changes\n事項／人士\nEvent / person\n\t起算事件\nStarting event\n\t期限\nTime requirement\n\t條件及例外\nConditions and exceptions\n新牌評核\nNew-application assessment\n起算事件Starting event\n與海關面見當日\nUpon attending the Customs interview\n期限Time requirement\n30日內應考\nAttend within 30 days\n條件及例外Conditions and exceptions\n適用於申請人的合資格人士；須參加，不是隨意延後的建議。\nFor the applicant’s eligible nominees; this is an attendance requirement.\n續牌提名\nRenewal nomination\n起算事件Starting event\n收到提名邀請\nReceipt of nomination invitation\n期限Time requirement\n7日內提名\nNominate within seven days\n條件及例外Conditions and exceptions\n須安排評核的續牌情況；未有合資格提名令申請無效，舊牌照到期失效。七日提名與三十日應考不同。\nFor renewals requiring assessment; no eligible nomination invalidates the application and the old licence lapses at expiry. Nomination differs from thirty-day attendance.\n續牌評核\nRenewal assessment\n起算事件Starting event\n收到評核邀請\nReceipt of assessment invitation\n期限Time requirement\n30日內應考\nAttend within 30 days\n條件及例外Conditions and exceptions\n需要評核的續牌情況；亦須依通知作提名，不能混同屆滿前45日的續牌申請期限。\nFor renewal cases requiring assessment, with notice-based nomination; distinct from the 45-day renewal-application deadline.\n全部通過人士離任\nAll passing nominees leave\n起算事件Starting event\n通知海關合夥人／董事變更當日起計\nUpon notifying Customs of partner/director change\n期限Time requirement\n30日內安排評核\nArrange assessment within 30 days\n條件及例外Conditions and exceptions\n合夥／公司適用，獨資除外；180日內到期續牌的情況依續牌安排。\nApplies to partnerships/corporations, not proprietorships; renewal within 180 days follows renewal arrangements.\n應考結果及重考\nResults and retakes\n事項／人士\nEvent / person\n\t起算事件\nStarting event\n\t期限\nTime requirement\n\t條件及例外\nConditions and exceptions\n結果通知\nResult notification\n起算事件Starting event\n評核後\nAfter assessment\n期限Time requirement\n14日內電郵通知\nEmail within 14 days\n條件及例外Conditions and exceptions\n保留通知作成績證明；不披露分數及試題答案。\nRetain it as evidence; exact scores and question answers are not disclosed.\n再次應考\nRetake\n起算事件Starting event\n成績通知發出當日起計\nUpon notification of result\n期限Time requirement\n30日後才重考\nRetake after 30 days\n條件及例外Conditions and exceptions\n續牌重考須在牌照屆滿前；不是30日內重考，也不會自動延長牌照。\nRenewal retakes must precede licence expiry; this is not “within 30 days” and does not extend the licence.\n覆核成績\nRechecking results\n事項／人士\nEvent / person\n\t起算事件\nStarting event\n\t期限\nTime requirement\n\t條件及例外\nConditions and exceptions\n要求覆檢\nRequest rechecking\n起算事件Starting event\n成績通知發出當日起計\nAfter the date of result-notification issue\n期限Time requirement\n7日內書面要求\nWritten request within seven days\n條件及例外Conditions and exceptions\n不是收到後7日；逾期不受理。\nThe clock is issue, not receipt; late requests are not considered.\n覆檢回覆\nRechecking reply\n起算事件Starting event\n接獲覆檢要求日期起計\nAfter receipt of rechecking request\n期限Time requirement\n14日內書面回覆\nWritten reply within 14 days\n條件及例外Conditions and exceptions\n覆檢答案紀錄等技術錯誤；覆檢結果為最終。\nRechecks technical matters such as answer-recording errors; the result is final.\n01_高_能力評核須知（2022年12月）.pdf\n第3–8段; 第8–13段; 第4.4、8.3段\n01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf\n¶3–8; ¶8–13; ¶4.4, 8.3\n02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf\n例1–7（只用於理解題型）\n02_High_Competence Assessment - Sample Questions (12 May 2021).pdf\nExamples 1–7 (format only)\n05_高_牌照指引（2026年5月）.pdf\n第6.2段\n05_High_Licensing Guide (May 2026).pdf\n¶6.2"
+    },
+    {
+      "part": 4,
+      "id": "memory-exchange-rights",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.125,
+        "width": 611,
+        "height": 1423.796875
+      },
+      "text": "拒絕未完成交易與撤銷已完成交易\nDeclining an unfinished exchange versus rescinding a completed one\n交易未完成\nTransaction not completed\n客戶拒絕繼續\nCustomer declines to proceed\n須\nMust\n→\n即時退回所交全數款項\nImmediately return the full amount tendered\n\n是交易未完成時的拒絕權，不須等候3日。\nThis concerns an unfinished transaction; it is not a three-day waiting period.\n\n交易已完成\nTransaction completed\n有第4條違反\nSection 4 breach\n才觸發這項權利\nTriggers this right\n→\n交易後3日內法定撤銷權\nStatutory rescission within 3 days after the transaction\n\n須涉及第4條違規；不是任何已完成兌換均有無條件3日反悔權。\nRequires a section 4 breach; this is not an unconditional cooling-off right for every completed exchange.\n\n第34章另要求把正本交顧客，副本至少保留12個月；這不取代同時適用的AMLO備存紀錄要求。\nCap.34 also requires the original for the customer and duplicate retention for at least 12 months; this does not displace concurrently applicable AMLO records duties.\n\n17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf\n第2–5條及附表1\n17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf\nss.2–5; Schedule 1"
+    },
+    {
+      "part": 5,
+      "id": "memory-risk-levels",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.875,
+        "width": 611,
+        "height": 1286.25
+      },
+      "text": "機構風險與客戶風險\nInstitutional risk and customer risk\n機構層面風險評估\nInstitutional risk assessment\n決定配置\nShapes allocation\n→\n制度、控制及資源\nSystems, controls and resources\n\n涵蓋客戶、地域、產品／服務／交易及渠道等風險；小規模可簡化方法，不能省略。\nCovers customer, geographical, product / service / transaction and channel risks; small scale allows simpler methods, not omission.\n\n客戶層面風險評估\nCustomer risk assessment\n決定強度\nShapes intensity\n→\n該客戶的CDD及持續監察\nThat customer’s CDD and ongoing monitoring\n\n以初步風險決定審查程度，再結合CDD資料整體評估及更新；不是只憑國籍或機械分數。\nUse initial risk to set CDD extent, then assess holistically with CDD data and update; nationality or a mechanical score alone is insufficient.\n\n兩層互相提供資訊：機構風險影響客戶評估方法；客戶及監察的新發現可促使機構評估更新。\nThe levels inform one another: institutional risk shapes customer assessment; customer and monitoring findings can trigger institutional updates.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第2.1、2.13–2.16、3.3段; 第2.13–2.16段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶2.1, 2.13–2.16, 3.3; ¶2.13–2.16"
+    },
+    {
+      "part": 5,
+      "id": "memory-review-frequency",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.765625,
+        "width": 611,
+        "height": 1607.859375
+      },
+      "text": "兩年、每年、事前：覆核節奏不可互換\nTwo-yearly, annual, before launch: do not interchange review clocks\n事項\nMatter\n\t定期／事前要求\nPeriodic / advance requirement\n\t另行觸發及界線\nOther triggers and limits\n機構風險評估\nInstitutional risk assessment\n定期／事前要求Periodic / advance requirement\n每兩年及重大觸發事件時。\nEvery two years and upon material triggers.\n另行觸發及界線Other triggers and limits\n新客戶組別／渠道／產品、重大流程／對手改變或嚴重違規可觸發；不是未滿兩年便毋須重做。\nNew segments/channels/products, material process/counterparty changes or significant breaches may trigger review before two years.\n新產品／渠道／科技\nNew products / channels / technology\n定期／事前要求Periodic / advance requirement\n推出或使用前先評估並緩解風險。\nAssess and mitigate before launch/use.\n另行觸發及界線Other triggers and limits\n包括現有產品使用新／發展中科技；不是只適用全新產品。\nIncludes new/developing technology for existing products, not only entirely new products.\n高風險客戶CDD資料\nHigh-risk customer CDD records\n定期／事前要求Periodic / advance requirement\n至少每年覆核，另按事件更新。\nReview at least annually, with event-driven updates.\n另行觸發及界線Other triggers and limits\n持續監察並非每年才做一次；一般客戶不因這項規則一律有相同年度週期。\nOngoing monitoring is not an annual-only task; this does not impose the same universal annual cycle on every customer.\n獨立審核\nIndependent audit\n定期／事前要求Periodic / advance requirement\n定期，頻率／程度按業務及風險。\nRegular, with frequency/extent based on business and risk.\n另行觸發及界線Other triggers and limits\n沒有所有機構一律每年或每兩年的固定審核期限。\nNo single annual or two-year audit deadline applies universally.\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第2.3、2.5–2.10段; 第2.9、2.11–2.12段; 第5.1–5.14段及註52–53; 第3.11–3.13、5.8段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶2.3, 2.5–2.10; ¶2.9, 2.11–2.12; ¶5.1–5.14; footnotes 52–53; ¶3.11–3.13, 5.8"
+    },
+    {
+      "part": 5,
+      "id": "memory-control-responsibilities",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.734375,
+        "width": 611,
+        "height": 2369.8125
+      },
+      "text": "誰設計、誰判斷、誰獨立檢查\nWho designs, decides and independently checks\n高級管理層\nSenior management\n委任、支援並承擔管理責任\nAppoints, supports and manages risk\n→\nCO與MLRO\nCO and MLRO\n\n應在切實可行範圍內確保權限、資源、資訊及直接溝通渠道；完整八項條件見正文。\nShould, as far as practicable, ensure authority, resources, information and direct communication; see the eight conditions below.\n\n合規主任（CO）\nCompliance officer (CO)\n建立及監察\nEstablishes and monitors\n→\nAML/CFT制度、培訓及合規\nAML/CFT systems, training and compliance\n\n應向高級管理層溝通主要AML/CFT事項，包括適當時的重大合規缺失；不限於缺失。\nShould communicate key AML/CFT issues to senior management, including significant compliance deficiencies where appropriate; not deficiencies alone.\n\n洗錢報告主任（MLRO）\nMoney laundering reporting officer (MLRO)\n評估內部報告，決定是否披露\nAssesses internal reports and decides disclosure\n→\n聯合財富情報組（JFIU）\nJoint Financial Intelligence Unit (JFIU)\n\n保留評估理由及紀錄，防止通風報訊。\nKeep assessment reasons and records; prevent tipping off.\n\n獨立審計職能\nIndependent audit function\n獨立檢查及提出改善\nIndependently tests and recommends improvements\n→\n制度、程序及控制\nSystems, procedures and controls\n\n按規模及性質可內設或外聘，但須保持獨立；不是CO自行審核自己的工作。\nMay be internal or external depending on size and nature, but must remain independent; not CO self-review.\n\n視業務規模及性質，CO與MLRO可由同一人兼任；圖中的職能不同，不代表必須是不同員工。\nCO and MLRO may be combined depending on business size and nature; distinct functions do not necessarily mean separate employees.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第3.5–3.10段及註9; 第3.6、3.8段; 第3.6、3.8(h)段; 第3.11–3.13、5.8段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶3.5–3.10; footnotes 9; ¶3.6, 3.8; ¶3.6, 3.8(h); ¶3.11–3.13, 5.8\n05_高_牌照指引（2026年5月）.pdf\n第4.15(a)段\n05_High_Licensing Guide (May 2026).pdf\n¶4.15(a)\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A23\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A23"
+    },
+    {
+      "part": 6,
+      "id": "memory-cdd-trigger-tree",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.765625,
+        "width": 611,
+        "height": 2202.296875
+      },
+      "text": "何時須做CDD\nWhen CDD is required\n\nCDD＝客戶盡職審查。先留意適用於所有情況的懷疑／資料疑問，再對照關係及交易類型；各項可同時適用，並非答「是」便略過其餘要求。\nCDD = customer due diligence. Check suspicion / identification doubts across all situations, then the relationship or transaction case. Requirements can coexist; a matching case does not remove other applicable duties.\n\n跨情況要求：任何金額\nAcross all cases: any amount\n懷疑ML/TF，或懷疑原有身分資料的真實性／充分性\nML/TF suspicion, or doubts about the truth / adequacy of existing identification information\n\nCDD觸發不論金額；另評估STR責任。若合理相信繼續CDD會通風報訊，可停止追查、記錄依據並提交STR。\nCDD triggers regardless of amount; assess STR duties separately. If reasonably believing that continued CDD would tip off the customer, may stop pursuing it, document the basis and file an STR.\n\n建立業務關係\nNew business relationship\n不論交易金額\nRegardless of transaction amount\n\n建立前做CDD，不論金額；只有符合全部條件才可延遲核實身分。\nCDD before establishment, regardless of amount; defer identity verification only if all conditions are met.\n\n已存在業務關係\nExisting business relationship\n關係持續期間\nThroughout the relationship\n\n持續CDD及交易監察；按觸發事件及風險更新。不是每次交易重新開戶，也不是低額便免查。\nOngoing CDD and transaction monitoring; update on triggers and risk. Neither repeat onboarding for every transaction nor exempt low-value activity.\n\n非經常交易\nOccasional transaction\n電傳／虛擬資產轉帳 ≥ HK$8,000；其他 ≥ HK$120,000（或等值）。單筆或看來相連的交易合計。\nWire / VA transfer ≥ HK$8,000; others ≥ HK$120,000 (or equivalent). A single operation or linked operations in aggregate.\n\n達門檻：執行前做CDD。未達門檻：只表示未觸發這項金額條件；上面的懷疑／資料疑問及其他義務仍適用。\nAt threshold: CDD before execution. Below threshold: only this amount-based trigger is absent; the cross-cutting suspicion / doubt trigger and other duties still apply.\n\n接著判斷CDD程度\nThen determine CDD extent\n延遲核實及無法完成CDD\nDeferred verification and inability to complete CDD\n非電傳匯款要求\nNon-wire remittance requirements\n繼續CDD可能通風報訊的例外\nException where continued CDD may tip off\n\n非電傳匯出款項 ≥ HK$8,000另有發款人核實／紀錄要求；低於HK$8,000的電傳亦須附基本資料。虛擬資產列於法定CDD觸發，並不表示MSO牌照准許提供所有VA服務。\nNon-wire outward remittances ≥ HK$8,000 have separate originator verification / record duties; wires below HK$8,000 still need basic information. Listing VA in statutory CDD triggers does not authorize all VA services under an MSO licence.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.2.1–4.2.5、11.3段; 第5.1–5.14段及註52–53; 第1.25、5.13、7.6段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.2.1–4.2.5, 11.3; ¶5.1–5.14; footnotes 52–53; ¶1.25, 5.13, 7.6"
+    },
+    {
+      "part": 6,
+      "id": "memory-party-roles",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.65625,
+        "width": 611,
+        "height": 2485.4375
+      },
+      "text": "客戶、實益擁有人、代表及關連人士\nCustomer, beneficial owner, representative and connected party\n公司甲：客戶\nCompany A: customer\n建立關係／委託交易\nEstablishes relationship / instructs transaction\n→\nMSO\n\n須識別及核實公司本身，不能只核實到場的人。\nIdentify and verify the company itself, not only the person attending.\n\n個人乙：持股25.1%\nIndividual B: holds 25.1%\n超過25%的擁有權\nOwnership above 25%\n→\n公司甲\nCompany A\n\n簡化例子：符合公司BO的持股一項；恰好25%不符合這一項，但其他控制條件仍可能符合。\nSimplified example: satisfies the corporate BO shareholding limb; exactly 25% does not satisfy that limb, but other control limbs may apply.\n\n個人丙：PPTA代表\nIndividual C: PPTA representative\n獲授權代表\nAuthorized to act for\n→\n公司甲\nCompany A\n\n識別、合理核實代表身分，並核實授權；代表不會因此取代公司成為客戶。\nIdentify, reasonably verify the representative, and verify authority; representation does not replace the company as customer.\n\n個人丁：董事\nIndividual D: director\n屬關連人士\nIs a connected party of\n→\n公司甲\nCompany A\n\n取得姓名；如同時是BO或代表，另按該身分處理。乙、丙、丁可以是同一人。\nObtain the name; apply additional duties if also BO or representative. B, C and D may be the same person.\n\n完整BO定義及SCR\nFull BO definitions and SCR\n\n這是公司例子，不能把25%套到信託。BO各類定義及SCR界線見本部分「實益擁有人」；第三方收款人不自動成為發款MSO的客戶。\nA company example: do not apply 25% to trusts. See Beneficial owners for each definition and SCR distinctions; a third-party beneficiary is not automatically the ordering MSO’s customer.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.1.4–4.1.5段; 第4.3.4、4.3.14–4.3.19段及註26; 第4.4.1–4.4.12段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.1.4–4.1.5; ¶4.3.4, 4.3.14–4.3.19; footnotes 26; ¶4.4.1–4.4.12\n07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf\n附錄第(3)部分，第5頁\n07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf\nAppendix (3), p.5\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A9、A11–A12\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A9, A11–A12"
+    },
+    {
+      "part": 6,
+      "id": "memory-cdd-extent-tree",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.40625,
+        "width": 611,
+        "height": 1770.28125
+      },
+      "text": "CDD要做到甚麼程度\nHow much CDD is needed\n\n基本措施：識別及核實客戶；如有實益擁有人，識別並採合理措施核實；業務關係的目的及性質並非明顯時取得資料；有代表時識別、合理核實代表身分，並核實授權。\nBasic measures: identify / verify the customer; where there is a BO, identify and take reasonable verification measures; obtain purpose / intended nature information where not obvious for a business relationship; identify and reasonably verify a representative and verify authority.\n\n1\n高風險，或另有適用的加強要求？\nHigh risk, or another applicable enhanced requirement?\n是YES\n基本CDD＋適用加強措施；按風險及具體規定決定內容，不是每種情況都套同一PEP清單。\nBasic CDD + applicable enhanced measures, tailored to risk and the specific requirement; not the same PEP checklist in every case.\n否 → 第2項NO → step 2\n2\n風險分析確認低風險 AND 無ML/TF懷疑 AND 無身分資料疑問？\nRisk analysis establishes low risk AND no ML/TF suspicion AND no identification doubts?\n是YES\n可採取與風險相稱的簡化措施；仍須識別／核實客戶及持續監察。\nMay apply proportionate simplified measures; still identify / verify the customer and conduct ongoing monitoring.\n否NO\n採一般CDD，並按已識別的風險調整措施。\nApply ordinary CDD and adapt measures to identified risks.\n加強措施及SOW／SOF\nEnhanced measures and SOW / SOF\n非面對面條件及例外\nNon-face-to-face conditions and exceptions\n\n「低風險」不等於自動免識別／核實實益擁有人：附表2第4條須符合指定客戶／產品條件。非面對面等額外要求亦須獨立處理；依賴中介人不轉移MSO責任。\nLow risk is not automatic BO identification / verification exemption: Schedule 2 s.4 requires specified customer / product conditions. Address additional requirements such as non-face-to-face situations separately; intermediary reliance does not transfer MSO responsibility.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.1.1–4.1.5、4.6.1段; 第4.8.1–4.8.9段; 第4.8.10–4.8.16段; 第4.8.17–4.8.20段; 第4.8.10(d)、4.8.14–4.8.18段; 第4.8.2–4.8.8段; 第4.8.13段; 第4.9.1–4.9.6段及註36; 第4.10.1–4.10.5段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.1.1–4.1.5, 4.6.1; ¶4.8.1–4.8.9; ¶4.8.10–4.8.16; ¶4.8.17–4.8.20; ¶4.8.10(d), 4.8.14–4.8.18; ¶4.8.2–4.8.8; ¶4.8.13; ¶4.9.1–4.9.6; footnotes 36; ¶4.10.1–4.10.5\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第15條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 s.15\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A27\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A27"
+    },
+    {
+      "part": 6,
+      "id": "memory-sow-sof",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 157.03125,
+        "width": 611,
+        "height": 1700.796875
+      },
+      "text": "SOW與SOF：財富與本次資金\nSOW and SOF: accumulated wealth and specific funds\n同一位客戶 · SOW財富來源\nSame customer · SOW\n多年經營業務所得利潤\nProfits from running a business over years\n累積成\nAccumulate into\n→\n整體累積財富\nOverall accumulated wealth\n\n教學例子：回答「整體財富怎樣形成」。可包括投資及繼承等來源。\nTeaching example: explains how overall wealth arose. Other sources include investments and inheritance.\n\n同一位客戶 · SOF資金來源\nSame customer · SOF\n本次出售物業所得\nProceeds from this property sale\n存入\nDeposited into\n→\n銀行戶口\nBank account\n匯出\nSent as\n→\n本次匯款\nThis remittance\n\n教學例子：SOF追問本次款項由甚麼活動產生；銀行是傳送渠道，不是充分的來源解釋。\nTeaching example: SOF asks which activity generated this money. The bank is a channel, not a sufficient explanation of origin.\n\n按風險採取合理措施取得及佐證資料；需要同時確立SOW與SOF的情況不能任選其一。不是每案都要相同年期的全部財務歷史。\nObtain and corroborate information with reasonable, risk-based measures. Where both SOW and SOF are required, neither substitutes for the other. No identical full historical lookback applies to every case.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.9.24–4.9.26段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.9.24–4.9.26\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A3–A8、A13–A15\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A3–A8, A13–A15"
+    },
+    {
+      "part": 6,
+      "id": "memory-pep-categories",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.140625,
+        "width": 611,
+        "height": 1148.640625
+      },
+      "text": "PEP類別與加強措施\nPEP categories and enhanced measures\n身分類別\nStatus category\n\t何時適用共同加強措施\nWhen the common enhanced measures apply\n\t條件\nConditions\n非香港PEP\nNon-Hong Kong PEP\n何時適用共同加強措施When the common enhanced measures apply\n客戶／BO屬非香港PEP\nCustomer / BO is a non-Hong Kong PEP\n條件Conditions\n包括客戶或其BO；並非三選一。現有關係後來才發現PEP身分也須處理。\nCovers customer/BO; these are not alternatives. Later discovery within an existing relationship also requires action.\n香港／國際組織PEP\nHong Kong / international-organisation PEP\n何時適用共同加強措施When the common enhanced measures apply\n關係屬高風險\nThe relationship is high risk\n條件Conditions\n建立時高風險、後來變高風險，或高風險關係後來發現PEP身分均涵蓋；本地PEP不自動一律高風險。\nCovers high risk at establishment, later becoming high risk, or PEP discovery in a high-risk relationship. Domestic status is not universally high risk.\n\n前PEP是跨類別的離任狀態，不是第三個互斥地域類別。離任不自動停止措施；須適當評估沒有餘下高風險、獲高級管理層批准並保留理由，不能只按固定年期豁免。\nFormer PEP is a status across categories, not a third mutually exclusive geographical class. Leaving office does not automatically end measures: assess that no high risk remains, obtain senior approval and retain reasons; no fixed-year automatic exemption.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.9.7–4.9.8、4.9.13–4.9.15段; 第4.9.9–4.9.12、4.9.16–4.9.23段及註37–42\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.9.7–4.9.8, 4.9.13–4.9.15; ¶4.9.9–4.9.12, 4.9.16–4.9.23; footnotes 37–42"
+    },
+    {
+      "part": 6,
+      "id": "memory-pep-common-and",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.78125,
+        "width": 611,
+        "height": 961
+      },
+      "text": "適用時，三組措施同時需要\nWhen applicable, all three groups of measures\n全部 · AND\nALL · AND\n建立／繼續關係前取得高級管理層批准\nSenior-management approval before establishing / continuing the relationship\n\n採合理措施確立以下兩者：\nTake reasonable measures to establish BOTH:\n\n財富來源（SOW）\nSource of wealth (SOW)\nAND\n資金來源（SOF）\nSource of funds (SOF)\n加強持續監察\nEnhanced ongoing monitoring\n\n上圖先判斷類別及風險；發現既有關係中的PEP或風險轉高時也須處理。親屬／密切關係及前PEP適用細節見正文。\nFirst apply the category and risk matrix above. Act on PEP discovery in existing relationships and increased risk too. See the text for family / close associates and former PEP details.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.9.7–4.9.8、4.9.13–4.9.15段; 第4.9.9–4.9.12、4.9.16–4.9.23段及註37–42\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.9.7–4.9.8, 4.9.13–4.9.15; ¶4.9.9–4.9.12, 4.9.16–4.9.23; footnotes 37–42"
+    },
+    {
+      "part": 6,
+      "id": "memory-reliance-outsourcing",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.265625,
+        "width": 611,
+        "height": 953.265625
+      },
+      "text": "依賴中介人與外判\nIntermediary reliance and outsourcing\n概念／情境\nConcept / situation\n\t必記區別\nRemember the distinction\n\t條件及例外\nConditions and exceptions\n依賴合資格中介人\nReliance on a qualifying intermediary\n必記區別Remember the distinction\n中介人通常有獨立的既有客戶關係及程序。\nThe intermediary usually has an existing independent customer relationship/procedures.\n條件及例外Conditions and exceptions\n須合資格、書面同意、立即取得CDD資料並可按要求無延誤取得支持文件；MSO責任不轉移。\nEligibility, written consent, immediate CDD data and supporting-record availability without delay are required; MSO liability remains.\n外判／代理\nOutsourcing / agency\n必記區別Remember the distinction\n按MSO程序及其控制執行。\nActs under the MSO’s procedures/control.\n條件及例外Conditions and exceptions\n與法定中介人依賴不同；不能因此移轉CDD責任。第5條持續監察仍由MSO負責。\nDifferent from statutory reliance; CDD liability is not transferred. Schedule 2 s.5 ongoing monitoring remains with the MSO.\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.11.1–4.11.7段及註44; 第4.11.8–4.11.14段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.11.1–4.11.7; footnotes 44; ¶4.11.8–4.11.14"
+    },
+    {
+      "part": 6,
+      "id": "memory-transfer-information",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.296875,
+        "width": 611,
+        "height": 1982.515625
+      },
+      "text": "跨境電傳：8,000元上下的資料及核實\nCross-border wires: information and verification around HK$8,000\n跨境電傳共同資料：不論是否達HK$8,000\nCross-border wires: common information at both amounts\n全部 · AND\nALL · AND\n發款人姓名 ＋ 發款戶口號碼\nOriginator name + originator account number\n受款人姓名 ＋ 受款戶口號碼\nBeneficiary name + beneficiary account number\n\n沒有該戶口才用可追查的獨特交易參考編號，不能任意取代現有戶口號碼。\nUse a traceable unique transaction reference only where no account exists; not freely in place of an existing account number.\n\n達HK$8,000：另加發款人資料\nAt least HK$8,000: additional originator information\n至少一項 · OR\nAT LEAST ONE · OR\n地址\nAddress\n客戶識別號碼\nCustomer identification number\n身分證明文件號碼\nIdentification-document number\n\n自然人：以下兩項合為一個選項\nIndividual: these two together form ONE option\n\n出生日期\nDate of birth\nAND\n出生地點\nPlace of birth\n\n發款人資料須準確，並完成適用CDD。低於門檻的非經常發款人一般毋須核實，但相連交易達門檻、懷疑及資料疑問仍須處理。\nOriginator data must be accurate and applicable CDD completed. Below-threshold occasional originators generally need not be verified, but linked totals, suspicion and doubts still matter.\n\n這是跨境電傳資料包；本地電傳、批次檔案及轉帳類型豁免各有條件，見下文。不要把資料要求與機構傳送責任混成同一流程。\nThis is the cross-border wire information packet. Domestic wires, batch files and excluded transfer types have separate conditions below. Data requirements and institutional transmission responsibilities are different questions.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第10.5–10.13段及註70–71; 第10.14–10.22段; 第11.1–11.6段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶10.5–10.13; footnotes 70–71; ¶10.14–10.22; ¶11.1–11.6\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第1、13條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 ss.1, 13"
+    },
+    {
+      "part": 6,
+      "id": "memory-wire-responsibilities",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.46875,
+        "width": 611,
+        "height": 1204.515625
+      },
+      "text": "電傳鏈條：每一站的責任\nWire-transfer chain: responsibilities at each stage\n資料隨付款鏈傳遞\nInformation travels with the payment chain\n匯款機構：附上所需資料\nOrdering institution: include required data\n傳遞\nPass on\n→\n中介機構：保留隨附資料\nIntermediary institution: retain accompanying data\n傳遞\nPass on\n→\n收款機構：偵測缺漏並作適用核實\nBeneficiary institution: detect omissions and verify where applicable\n\n中介及收款機構須有風險為本程序，決定缺漏資料時執行、拒絕或暫停及跟進；不是每次缺漏自動拒絕。技術限制及本地轉帳例外見正文。\nIntermediary and beneficiary institutions need risk-based procedures to execute, reject or suspend and follow up when data are missing; no automatic rejection for every omission. Technical limitations and domestic exceptions are detailed below.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第10.1–10.4段; 第10.5–10.13段及註70–71; 第10.3、10.5–10.7、10.13段及註70; 第10.11–10.12、10.20段及註71; 第10.14–10.22段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶10.1–10.4; ¶10.5–10.13; footnotes 70–71; ¶10.3, 10.5–10.7, 10.13; footnotes 70; ¶10.11–10.12, 10.20; footnote 71; ¶10.14–10.22\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A25–A26\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A25–A26\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第12(6)、(9)、(11)條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 s.12(6), (9), (11)"
+    },
+    {
+      "part": 6,
+      "id": "memory-trade-value-paths",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.25,
+        "width": 611,
+        "height": 1885.734375
+      },
+      "text": "貿易洗錢：分開看貨物、單據與付款\nTrade-based laundering: separate goods, documents and payments\n高報價格的簡化例子\nSimplified over-invoicing example\n實際貨物價值較低\nLower actual goods value\n不一致\nMismatch\n≠\n發票聲稱價值較高\nHigher invoiced value\n按單據付款\nPayment against invoice\n→\n買方向賣方支付較多\nBuyer pays seller more\n\n差額可把額外價值移向賣方；低報可反向移動價值。需結合商品、定價及關係評估。\nThe difference can move extra value to the seller; under-invoicing can reverse the direction. Assess goods, pricing and relationships.\n\n重複發票的簡化例子\nSimplified multiple-invoicing example\n同一批貨物\nOne shipment\n重複表示\nRepresented repeatedly\n→\n多份發票／融資要求\nMultiple invoices / financing requests\n造成\nGenerate\n→\n多次付款\nRepeated payments\n\n指標是查詢線索，不是自動證明洗錢；虛假貨物、數量差異及單據矛盾見正文。\nIndicators prompt enquiry; they do not automatically prove laundering. See the text for phantom goods, quantity differences and document inconsistencies.\n\n18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf\n第1–3頁\n18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf\npp.1–3\n24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf\n第1–2頁（中文為學習譯文）; 印刷第5–6頁 · 中文為學習譯文；來源為英文原件\n24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf\npp.1–2; Printed pp.5–6\n25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf\n2022年版，第4.44、4.57–4.59段及專題4.5\n25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf\n2022 edition, ¶4.44, 4.57–4.59 and Box 4.5"
+    },
+    {
+      "part": 7,
+      "id": "memory-reporting-route",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 157.078125,
+        "width": 611,
+        "height": 1673.015625
+      },
+      "text": "內部報告：不經無關管理層篩選\nInternal reporting: no unrelated management filter\n先內部披露\nInternal disclosure\n員工發現知情／懷疑\nStaff identify knowledge / suspicion\n無不必要延誤地報告\nReport without undue delay\n→\nMLRO評估\nMLRO assesses\n\n按程序直接交MLRO；非報告／合規管理層不得把報告篩掉。內部報告應載事實及懷疑理由。\nReport directly under the procedure; non-reporting / non-compliance management must not filter it out. Include facts and grounds.\n\n評估後仍知情／懷疑\nKnowledge / suspicion after assessment\nMLRO\n迅速報告\nReport promptly\n→\nJFIU\n\n考慮合理可得的相關CDD、交易及其他資料；不能無限期等齊所有資料。\nConsider reasonably available relevant CDD, transaction and other information; do not wait indefinitely for everything.\n\n評估後沒有知情／懷疑\nNo knowledge / suspicion after assessment\nMLRO判斷不報告\nMLRO decides not to report\n必須留痕\nDocument\n→\n保留理由及處理紀錄\nRetain reasons and action records\n\n不是收到每份內部報告都自動向JFIU提交STR；其後新事實可能要求重新評估。\nNot every internal report automatically becomes an STR to JFIU; new facts may require reassessment.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第7.12–7.23段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶7.12–7.23"
+    },
+    {
+      "part": 7,
+      "id": "memory-after-report-parallel",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 156.21875,
+        "width": 611,
+        "height": 855.828125
+      },
+      "text": "提交STR後：並行處理的事項\nAfter an STR: concurrent responsibilities\n並行處理，不是先後步驟\nCONCURRENT, not sequential\n評估法定披露／同意與抗辯條件；提交報告不等於自動獲准處理財產。\nAssess statutory disclosure / consent and defence conditions; filing is not automatic permission to deal.\n應立即檢視客戶／關係風險及適當措施；不能只等待JFIU回覆。\nShould immediately review customer / relationship risk and appropriate measures; do not merely wait for JFIU.\n防止通風報訊；繼續監察，新可疑活動再交MLRO判斷是否另報。\nPrevent tipping off; keep monitoring and refer new suspicious activity to the MLRO for further-report decisions.\n\n這三項是職責分類，不代表每案的措施完全相同；法定抗辯的「事前披露＋同意」或「事後自發且盡快披露」條件見正文。\nThese are responsibility categories, not identical actions in every case. The statutory defence alternatives—prior disclosure + consent, or own-initiative disclosure as soon as reasonable afterwards—are explained below.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第7.22、7.24–7.28段; 第1.25、5.13、7.6段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶7.22, 7.24–7.28; ¶1.25, 5.13, 7.6"
+    },
+    {
+      "part": 7,
+      "id": "memory-retention-clocks",
+      "label": "both-middle",
+      "rect": {
+        "x": 237,
+        "y": 157.078125,
+        "width": 611,
+        "height": 2346.734375
+      },
+      "text": "保存期：記「多久」也要記「何時開始」\nRetention: remember the duration AND its starting event\n業務關係CDD\nRelationship CDD\n起算／對照事件Starting / reference event\n關係結束時\nWhen it ends\n時間要求Timing requirement\n關係持續期間，另加至少5年\nThroughout the relationship plus at least five years\n\n不能從開戶日起算5年後便刪除。關長書面要求更長期限時須延長。\nDo not delete five years after opening. Extend for a longer CCE written requirement.\n\n達CDD門檻的非經常交易CDD\nCDD for threshold occasional transactions\n起算／對照事件Starting / reference event\n交易完成時\nTransaction completion\n時間要求Timing requirement\n至少5年\nAt least five years\n\n附表2第20(3A)條；相關8,000／120,000元觸發條件須按交易類型判斷。\nSchedule 2 s.20(3A); apply the relevant HK$8,000/HK$120,000 triggers by transaction type.\n\n交易紀錄\nTransaction records\n起算／對照事件Starting / reference event\n每宗交易完成時\nCompletion of each transaction\n時間要求Timing requirement\n至少5年\nAt least five years\n\n期間關係結束不縮短保存期；不能一律把起算點改成關係結束。\nRelationship termination during that period does not shorten it; do not replace the starting event universally with relationship end.\n\n培訓紀錄\nTraining records\n起算／對照事件Starting / reference event\n指引沒有另訂起算公式；按培訓日期保留紀錄\nNo separate statutory starting formula is stated; keep dated training records\n時間要求Timing requirement\n應保存至少3年（指引）\nShould retain for at least three years (Guideline)\n\n保存受訓者、日期及類型；與CDD／交易的5年規則不同。\nKeep trainee, date and type; distinct from the five-year CDD/transaction rule.\n\n每一行有自己的起算事件，不共用同一時間軸。海關書面要求較長保存期及未成功開戶的風險考慮見下文。\nEach row has its own starting event, not a common timeline. Longer written CCE requirements and risk considerations for unsuccessful applications are detailed below.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第8.4、8.6、8.8–8.12、9.7段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶8.4, 8.6, 8.8–8.12, 9.7\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第20(3A)條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 s.20(3A)\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A28\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A28"
+    },
+    {
+      "part": 1,
+      "id": "memory-three-stages",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.25,
+        "width": 330,
+        "height": 2730.421875
+      },
+      "text": "三個常見階段：可重疊，不是固定步驟\nThree common stages: overlapping, not a fixed sequence\nPlacement（存放）\nPlacement\n\n把犯罪現金放入金融體系。\nIntroduce criminal cash into the financial system.\n\n同一犯罪得益：進入體系\nSame criminal proceeds: entry\n犯罪現金\nCriminal cash\n存放\nPlacement\n→\n存入戶口\nDeposit into an account\n\n教學例子：改變現金所在位置。\nTeaching example: changes where the cash is held.\n\nLayering（分層交易）\nLayering\n\n用多層複雜交易掩藏來源、截斷審計線索及提供匿名性。\nUse complex layers of transactions to disguise origin, obscure the audit trail and provide anonymity.\n\n同一犯罪得益：掩藏線索\nSame proceeds: obscuring the trail\n原來戶口\nOriginal account\n轉移、拆分\nMove, split\n→\n多層戶口／交易\nLayers of accounts / transactions\n\n教學例子：增加追查來源的難度。\nTeaching example: makes the origin harder to trace.\n\nIntegration（整合）\nIntegration\n\n使犯罪財富重新出現為貌似合法的資產或業務收益。\nReturn criminal wealth as apparently legitimate assets or business proceeds.\n\n同一犯罪得益：貌似合法\nSame proceeds: apparent legitimacy\n犯罪得益\nCriminal proceeds\n重新呈現\nReappear as\n→\n貌似合法的投資／業務收益\nApparently lawful investment / business proceeds\n\n教學例子：外觀合法不會消除犯罪來源。\nTeaching example: a lawful appearance does not erase criminal origin.\n\n三個階段是理解典型模式的工具，實際交易可同時涉及多個階段。匯款或兌換業務可能協助存放及分層，交易有商業外觀也不表示資金合法。\nThe stages explain typical patterns; actual transactions can overlap them. Remittance and exchange can facilitate placement and layering, and a commercial appearance does not establish legitimacy.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第1.9–1.10段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶1.9–1.10"
+    },
+    {
+      "part": 1,
+      "id": "memory-ml-tf-pf",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.03125,
+        "width": 330,
+        "height": 2058.65625
+      },
+      "text": "ML、TF及PF：不要只看資金來源\nML, TF and PF: origin is not the only concern\n概念\nConcept\n\t資金來源\nOrigin\n\t核心問題\nCore concern\n\t法律條件\nLegal conditions\n洗錢（ML）\nMoney laundering (ML)\n資金來源Origin\n犯罪得益\nCriminal proceeds\n核心問題Core concern\n犯罪得益的來源被掩飾。\nDisguises the criminal origin of proceeds.\n法律條件Legal conditions\n財產可全部／部分、直接／間接代表得益；境外行為若在港會屬可公訴罪行也可涵蓋。\nProperty may represent proceeds wholly/partly, directly/indirectly; overseas conduct that would be indictable in Hong Kong may be covered.\n恐怖分子資金籌集（TF）\nTerrorist financing (TF)\n資金來源Origin\n合法或非法\nLawful or unlawful\n核心問題Core concern\n合法或非法來源均可能涉及；看用途、對象及法定心理要素。\nLawful or unlawful funds may be involved; purpose, recipient and statutory mental elements matter.\n法律條件Legal conditions\n供恐怖行為使用的財產須有意圖或知情，不必實際使用；向恐怖分子／聯繫者提供或為其籌集時，知道或罔顧對方身分均可涵蓋。\nProperty for terrorist acts requires intent/knowledge, not actual use. Relevant provision/collection for a terrorist/associate covers knowledge or recklessness about that status.\n擴散融資（PF）\nProliferation financing (PF)\n資金來源Origin\n不可只憑來源判斷\nOrigin alone is not decisive\n核心問題Core concern\n服務可能協助大規模毀滅武器及其運載方式。\nServices may assist WMD and their means of delivery.\n法律條件Legal conditions\n有合理理由相信或懷疑服務可能涉及PF便可能觸犯第526章；適用制裁禁令另須遵守。\nCap.526 covers belief or suspicion on reasonable grounds that services may be connected to PF; applicable sanctions prohibitions also apply.\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第1.9–1.10段; 第1.11–1.12、1.23–1.25段; 第1.14–1.27、6.1–6.4段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶1.9–1.10; ¶1.11–1.12, 1.23–1.25; ¶1.14–1.27, 6.1–6.4"
+    },
+    {
+      "part": 1,
+      "id": "memory-risk-lists",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 161.984375,
+        "width": 330,
+        "height": 2018.25
+      },
+      "text": "風險名單與制裁名單\nRisk lists and sanctions lists\n概念／情境\nConcept / situation\n\t必記區別\nRemember the distinction\n\t條件及例外\nConditions and exceptions\nFATF：呼籲採取行動\nFATF: call for action\n必記區別Remember the distinction\n相稱的加強盡職審查；指定情況另有反制措施。\nProportionate EDD; countermeasures in specified cases.\n條件及例外Conditions and exceptions\n按有關聲明及海關通函區分；具體地區名單保留通函日期，不能當作永久名單。\nDistinguish the applicable statement/circular. Country lists are dated snapshots, not permanent lists.\nFATF：加強監察\nFATF: increased monitoring\n必記區別Remember the distinction\n納入客戶整體風險評估。\nFactor into the overall customer risk assessment.\n條件及例外Conditions and exceptions\n單憑列名不會自動令每宗客戶關係必須EDD。\nListing alone does not automatically require EDD for every customer relationship.\n受指定人士／實體制裁\nDesignated-person/entity sanctions\n必記區別Remember the distinction\n依法凍結及禁止提供／處理資產等。\nStatutory freezing and prohibitions on availability/dealing.\n條件及例外Conditions and exceptions\n不能用「低風險」取代法定禁止；只有適用豁免／有效特許才可在其範圍內行事。\nA low-risk rating does not override a prohibition; only act within applicable exemptions/valid licences.\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第1.13段; 第6.1–6.8段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶1.13; ¶6.1–6.8\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A17\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A17\n19_中重點_通函_財務行動特別組織的聲明（2026年7月3日）.pdf\n正文第1–3頁\n19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf\nMain text pp.1–3\n09_高_通函_識別和緩解大殺傷力武器擴散融資風險（2021年12月22日）.pdf\n正文第1–2頁\n09_High_Circular - Identification and Mitigation of Proliferation Financing Risks (22 Dec 2021).pdf\nMain text pp.1–2\n26_中選讀_通函_聯合國制裁_原則及預警機制（2018年2月7日）.pdf\n正文第1–3頁\n26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf\nMain text pp.1–3"
+    },
+    {
+      "part": 1,
+      "id": "memory-cross-sector-mechanisms",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.28125,
+        "width": 330,
+        "height": 1676.875
+      },
+      "text": "2022年報告：跨行業的價值轉移例子\n2022 report: cross-sector value-transfer examples\n公司與戶口\nCompanies and accounts\n濫用公司架構／代名人\nMisuse of corporate structures / nominees\n掩藏\nConceals\n→\n實際控制者／資金來源\nActual controllers / fund origins\n\n經公司戶口交易及匯款時，了解實益擁有人及商業目的，不能僅看公司已註冊。\nFor company-account activity and remittances, understand beneficial ownership and business purpose; registration alone is insufficient.\n\n保險與物業\nInsurance and property\n犯罪得益投入資產\nProceeds placed into assets\n改變外觀\nChange appearance\n→\n退保／轉售所得\nSurrender / resale receipts\n\n是濫用機制例子，不表示每次退保或物業轉售均屬可疑；風險結論屬2022年報告。\nExamples of misuse, not a claim that every surrender or resale is suspicious; risk findings belong to the 2022 report.\n\n25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf\n第5.2.13–5.2.17、5.2.21、5.3.25–5.3.38、5.6.2、5.6.7–5.6.15、5.6.21、5.7.5、5.7.22、6.4.3、6.6.6–6.6.13段; 2022年版，第4.45–4.51段; 2022年版，第5.3.9、5.3.12–5.3.14、5.3.25–5.3.29段及專題5.9–5.10\n25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf\n¶5.2.13–5.2.17, 5.2.21, 5.3.25–5.3.38, 5.6.2, 5.6.7–5.6.15, 5.6.21, 5.7.5, 5.7.22, 6.4.3, 6.6.6–6.6.13; 2022 edition, ¶4.45–4.51; 2022 edition, ¶5.3.9, 5.3.12–5.3.14, 5.3.25–5.3.29 and Boxes 5.9–5.10\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第5B、5C部\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nParts 5B, 5C"
+    },
+    {
+      "part": 1,
+      "id": "memory-cash-scope",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 161.890625,
+        "width": 330,
+        "height": 2181.84375
+      },
+      "text": "同一門檻，不同申報途徑\nOne threshold, different declaration routes\n旅客攜帶\nCarried by travellers\n現金類物品總值 > HK$120,000\nCBNI total > HK$120,000\n觸發\nTriggers\n→\n指定管制站入境：書面申報\nEntering at a specified control point: written declaration\n\n其他入境途徑／離境：按獲授權人員要求披露；披露持有大量物品時再按要求申報。未過入境檢查的指定機場過境情況另有豁免。\nOther entry routes / departure: disclose on an authorized officer’s request; then declare as required if large quantities are disclosed. The specified airport-transit case without immigration clearance is exempt.\n\n貨物進出口\nCargo import / export\n同一法定批次總值 > HK$120,000\nSame statutory batch total > HK$120,000\n觸發\nTriggers\n→\n進／出口前向海關申報\nDeclare to Customs before import / export\n\n法定批次可合併多批貨物：按第10條的同一承運人／運輸工具及客戶規則計算。非旅客進出口或安排進出口者須確保事前申報；第8–9條的過境、空運轉運、郵包及運輸工具經營者例外見正文。\nA statutory batch can aggregate multiple consignments under section 10’s carrier / conveyance and customer rules. Non-traveller importers / exporters and persons causing import / export must ensure prior declaration. See the text for ss.8–9 transit, air-transhipment, postal and conveyance-operator exceptions.\n\n恰好HK$120,000不因這個「>」門檻觸發；CDD的一般非經常交易門檻是「≥」，不是同一制度。\nExactly HK$120,000 does not cross this “>” threshold. General occasional-transaction CDD uses “≥”: a different regime.\n\n22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf\n正文第1頁\n22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf\nMain text p.1\n23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf\n第2–7條及附表4; 第8–14條、附表5; 第2(1)、7(6)條; 第7條; 第17–19條; 附表2–3; 第8–11條; 附表2、3\n23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf\nss.2–7; Schedule 4; ss.8–14; Schedule 5; ss.2(1), 7(6); s.7; ss.17–19; Schedules 2–3; ss.8–11"
+    },
+    {
+      "part": 2,
+      "id": "memory-inspection-versus-investigation",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.28125,
+        "width": 330,
+        "height": 1615.921875
+      },
+      "text": "日常查察與正式調查\nInspection versus investigation\n維度\nDimension\n\t查察：第9條\nInspection: s.9\n\t調查：第11–12條\nInvestigation: ss.11–12\n用途／基礎\nPurpose / basis\n查察：第9條Inspection: s.9\n確定正在／曾經遵守及是否可能遵守「訂明規定」：不只指明條文，亦涵蓋適用通知、要求及牌照等條件\nAscertain current / past compliance and likelihood of compliance with prescribed requirements: not just specified provisions, but applicable notices, requirements and licence conditions\n調查：第11–12條Investigation: ss.11–12\n第11(1)(a)：有合理因由相信可能犯罪；或(b)：為考慮第21／43條處分，有理由查究指明違反\ns.11(1)(a): reasonable cause to believe an offence may have occurred; OR (b): reason to enquire into specified contraventions for considering s.21 / s.43 action\n主要權力\nMain powers\n查察：第9條Inspection: s.9\n進入營業處所、查閱及複製紀錄、要求解釋\nEnter business premises, inspect / copy records, require explanations\n調查：第11–12條Investigation: ss.11–12\n要求紀錄、答覆問題、書面解釋及協助\nRequire records, answers, written explanations and assistance\n共同界線\nShared limits\n查察：第9條Inspection: s.9\n依法行使；法律專業保密權等保障保留\nExercise lawfully; safeguards including legal professional privilege remain\n調查：第11–12條Investigation: ss.11–12\n受查者仍須遵從合法要求；刑事程序使用受強制陳述另有條件\nComply with lawful requirements; use of compelled statements in criminal proceedings has separate conditions\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第9–20、81條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nss.9–20, 81"
+    },
+    {
+      "part": 2,
+      "id": "memory-licence-clocks",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.53125,
+        "width": 330,
+        "height": 2977.0625
+      },
+      "text": "牌照事項：事前批准、1個月及結業通知\nLicence actions: prior approval, one month and cessation notices\n新增董事／最終擁有人／合夥人\nNew director / ultimate owner / partner\n起算／對照事件Starting / reference event\n擬加入持牌人\nProposed appointment / ownership\n時間要求Timing requirement\n事先書面批准\nWritten approval beforehand\n\n適用第35–37條的相應適當人選要求；一個月變更通知不能代替事先批准。\nApply the corresponding fitness test under ss.35–37; one-month notification does not replace prior approval.\n\n新營業處所／無處所轉特定處所\nNew premises / no-particular to particular premises\n起算／對照事件Starting / reference event\n擬在該處所營業\nProposed operation there\n時間要求Timing requirement\n營業前獲批及登記\nApproval and registration before operation\n\n處所須適合；住宅佔用人同意等適用條件仍須符合。\nSuitability and applicable domestic-occupant consent conditions remain necessary.\n\n持牌人續牌\nLicensee renewal\n起算／對照事件Starting / reference event\n現有牌照屆滿日（向前計）\nExisting expiry date (count backwards)\n時間要求Timing requirement\n最少提前45日\nAt least 45 days before expiry\n\n按指定形式及費用作有效申請；有效申請待決時按第31條繼續有效，法定撤回／撤銷／暫停等情況另論。\nUse the prescribed form/fees. A valid pending application continues validity under s.31, subject to statutory withdrawal/revocation/suspension and other outcomes.\n\n持牌人資料改變\nLicensee particulars change\n起算／對照事件Starting / reference event\n改變當日\nDate of change\n時間要求Timing requirement\n起計1個月內書面通知\nWritten notice within one month beginning on that date\n\n「一個月」不能自行改成30日；需事先批准的項目仍須事先批准。\nDo not substitute “30 days” for “one month”; prior-approval events still require prior approval.\n\n持牌人全部／指定處所停業\nLicensee ceases all / specified-premises business\n起算／對照事件Starting / reference event\n停止當日\nCessation date\n時間要求Timing requirement\n停止前通知；當日起7日內交還牌照\nNotify beforehand; surrender within seven days beginning on cessation\n\n屬第41條結業規則；第34條撤銷／暫停的交還期限依通知，不能直接套用7日。\nThis is s.41 cessation; s.34 revocation/suspension surrender follows the notice, not automatically seven days.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第35–41條; 第24、30–32、42條; 第21–23、34、43–45條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nss.35–41; ss.24, 30–32, 42; ss.21–23, 34, 43–45"
+    },
+    {
+      "part": 2,
+      "id": "memory-penalty-ceilings",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 161.703125,
+        "width": 330,
+        "height": 1651.3125
+      },
+      "text": "第21條與第43條：兩套罰款上限\nSections 21 and 43: two penalty ceilings\n第21條：違反指明條文\nSection 21: specified-provision contraventions\n\n上限＝以下較大者：HK$10,000,000；3 ×（因違反而獲取的利潤或避免的成本）\nMaximum = the greater of: HK$10,000,000; 3 × (profit gained or costs avoided through the contravention)\n\n最高額不是必罰額；限期後持續違反補救要求另可每日最高HK$100,000。須依適用程序及條件。\nA ceiling is not an automatic fine. Continued non-compliance with remedial requirements after the deadline may separately attract up to HK$100,000 per day, subject to the applicable procedure and conditions.\n\n第43條：MSO牌照紀律處分\nSection 43: MSO licensing discipline\n\n上限 = HK$1,000,000\nMaximum = HK$1,000,000\n\n牌照紀律制度；限期後持續違反補救要求另可每日最高HK$10,000。不可與第21條互換。\nLicensing discipline; continued non-compliance with remedial requirements after the deadline may separately attract up to HK$10,000 per day. Do not substitute the section 21 ceiling.\n\n兩者均是上限而非固定罰款；須依程序給予陳詞機會。罰款通常自決定生效起30日內或獲准較長期間繳付。\nBoth are ceilings, not fixed fines, and hearing procedures apply. Fines normally fall due within 30 days after the decision takes effect, or a longer allowed period.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第21–23、34、43–45條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nss.21–23, 34, 43–45"
+    },
+    {
+      "part": 2,
+      "id": "memory-review-commencement",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 161.921875,
+        "width": 330,
+        "height": 2190.203125
+      },
+      "text": "指明決定：何時生效\nSpecified decisions: when they take effect\n\n除條例另有規定外，依第75條判斷。申請覆核與申請暫緩是兩件事。\nSubject to other provisions, apply section 75. Review and a stay application are distinct.\n\n1\n通知有基於公眾利益指定其他生效時間？\nDoes the notice specify another commencement time in the public interest?\n是YES\n依通知指定時間；另可按適用條文申請暫緩。\nUse the specified time; a stay may separately be sought under the applicable provision.\n否 → 第2項NO → step 2\n2\n通知送出後21日內，書面通知不申請覆核？\nWithin 21 days after notice is sent, written notice that no review will be sought?\n是YES\n在該書面通知作出時生效。\nEffective when that written notice is given.\n否 → 第3項NO → step 3\n3\n在該21日內申請覆核？\nReview applied for within those 21 days?\n是YES\n確認：確認時；更改／取代：當時並按其條款；撤回：撤回時。\nConfirmed: on confirmation. Varied / substituted: then, subject to its terms. Withdrawn: on withdrawal.\n否NO\n沒有上述通知或申請：21日期間屆滿時生效。\nNeither notice nor application: effective when the 21-day period expires.\n\n21日起算事件是通知「送出」。覆核申請本身不構成暫緩；上訴也不自動暫緩。延長申請期及暫緩權詳見本節正文。\nThe 21-day clock starts when notice is sent. Review does not itself constitute a stay; appeal is not an automatic stay either. Extensions and stay powers are explained below.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第59(1)、69、73、75條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nss.59(1), 69, 73, 75"
+    },
+    {
+      "part": 3,
+      "id": "memory-ownership-boundary",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.453125,
+        "width": 330,
+        "height": 2274.921875
+      },
+      "text": "實益擁有人：超過25%與控制權\nBeneficial owners: more than 25% and control\n概念／情境\nConcept / situation\n\t必記區別\nRemember the distinction\n\t條件及例外\nConditions and exceptions\n公司\nCorporation\n必記區別Remember the distinction\n超過25%股本或大會投票權；或最終控制管理。\nMore than 25% share capital or general-meeting votes; or ultimate management control.\n條件及例外Conditions and exceptions\n直接／間接均計；正好25%本身不符合擁有權門檻，仍須檢查控制。也包括交易為其進行的人。\nDirect/indirect interests count. Exactly 25% alone misses the ownership threshold; still examine control and persons on whose behalf transactions occur.\n合夥\nPartnership\n必記區別Remember the distinction\n超過25%資本／利潤或投票權；或最終控制管理。\nMore than 25% capital/profit or voting rights; or ultimate management control.\n條件及例外Conditions and exceptions\n不能只找股份，或因未找到超過25%的人便停止查控制權。\nDo not search only for shares or stop examining control when no person exceeds 25%.\n信託\nTrust\n必記區別Remember the distinction\n享有信託財產既得權益的受益人／受益人類別；授予人、受託人、保護人／執行人；最終控制的自然人。\nBeneficiaries/classes with vested interests in trust property; settlors, trustees, protectors/enforcers; individuals with ultimate control.\n條件及例外Conditions and exceptions\n信託不能套用公司的25%門檻；既得權益可為將來享有或可被終止的權益，依定義判斷。\nDo not apply the corporate 25% threshold to trusts; vested interests can include future or defeasible interests under the definition.\n公司角色與百分比例子\nCorporate roles and percentage example\n\n公司角色及「25.1%／恰好25%」例子見Part 6「身分資料」圖；控制權是獨立條件，不能只檢查百分比。\nSee Part 6’s Identity information diagram for corporate roles and the 25.1% / exactly 25% example. Control is a separate limb; do not check percentages alone.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第1條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 s.1\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.4.1–4.4.12段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.4.1–4.4.12"
+    },
+    {
+      "part": 3,
+      "id": "memory-money-boundaries",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.625,
+        "width": 330,
+        "height": 4450.65625
+      },
+      "text": "金額相近，法律用途不同\nSimilar amounts, different legal purposes\nCDD及匯款核實\nCDD and remittance verification\n對象及交易\nPerson / transaction\n\t金額界線\nAmount boundary\n\t觸發甚麼\nWhat it triggers\n\t合併、條件及例外\nAggregation, conditions and exceptions\nMSO的非經常交易（一般非電傳）\nMSO occasional transaction (general non-wire)\n金額界線Amount boundary\n≥ HK$120,000\n等於亦包括\n≥ HK$120,000\nAt least HK$120,000; includes equality.\n觸發甚麼What it triggers\n執行前CDD\nCDD before execution\n合併、條件及例外Aggregation, conditions and exceptions\n沒有業務關係；單次或看來相連操作合併。建立關係、懷疑或資料疑問另有不限金額觸發。\nNo business relationship; aggregate apparently linked operations. Relationship, suspicion and information doubts separately trigger CDD regardless of amount.\n金融機構非經常電傳／VA轉移\nFI occasional wire / VA transfer\n金額界線Amount boundary\n≥ HK$8,000\n≥ HK$8,000\n觸發甚麼What it triggers\n執行前CDD\nCDD before execution\n合併、條件及例外Aggregation, conditions and exceptions\n相連操作合併；低於8,000元仍有電傳資料要求。持牌VASP非轉移交易另有8,000元規則，不套用所有MSO。\nAggregate linked operations; below HK$8,000 wire information duties remain. Licensed-VASP non-transfer transactions have a separate HK$8,000 rule, not a universal MSO rule.\n非電傳外匯款發款人\nNon-wire outward-remittance originator\n金額界線Amount boundary\n≥ HK$8,000\n≥ HK$8,000\n觸發甚麼What it triggers\n第13條核實及紀錄\nSection 13 verification and records\n合併、條件及例外Aggregation, conditions and exceptions\n指定識別文件及資料；不把所有一般交易CDD門檻改成8,000元。\nUse specified identity documents and records; this does not lower the general CDD threshold for every transaction.\n跨境現金申報：獨立制度\nCross-boundary cash: a separate regime\n對象及交易\nPerson / transaction\n\t金額界線\nAmount boundary\n\t觸發甚麼\nWhat it triggers\n\t合併、條件及例外\nAggregation, conditions and exceptions\n跨境實體現金類物品\nCross-boundary physical CBNIs\n金額界線Amount boundary\n> HK$120,000\n恰好不包括\n> HK$120,000\nAggregate value above HK$120,000; equality excluded.\n觸發甚麼What it triggers\n第629章申報／披露制度\nCap.629 declaration / disclosure regime\n合併、條件及例外Aggregation, conditions and exceptions\n按旅客／貨物、管有、批次及豁除判斷；與CDD是兩套制度。\nApply traveller/cargo routes, possession, batches and exclusions; this is a separate regime from CDD.\n找換交易保障：獨立制度\nExchange protections: a separate regime\n對象及交易\nPerson / transaction\n\t金額界線\nAmount boundary\n\t觸發甚麼\nWhat it triggers\n\t合併、條件及例外\nAggregation, conditions and exceptions\n兌換顧客交付的款額\nAmount tendered by exchange customer\n金額界線Amount boundary\n> HK$100,000\n恰好不豁除\n> HK$100,000\nMore than HK$100,000; equality not excluded.\n觸發甚麼What it triggers\n不適用第34章\nCap.34 monetary exclusion\n合併、條件及例外Aggregation, conditions and exceptions\n恰好100,000元仍在金額範圍，其他豁除另論；不是AMLO的CDD豁免。\nExactly HK$100,000 remains within monetary scope, subject to other exclusions; this is not an AMLO CDD exemption.\n\n先辨認制度，再比較數字：≥包含相等；>不包含相等。不同交易類型與合併規則不能互借。\nIdentify the regime before comparing amounts: ≥ includes equality; > excludes it. Transaction types and aggregation rules are not interchangeable.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第2–3、13條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 ss.2–3, 13\n22_中選讀_通函_實體貨幣及不記名可轉讓票據跨境流動條例（2018年7月31日）.pdf\n正文第1頁\n22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf\nMain text p.1\n23_中選讀_實體貨幣及不記名可轉讓票據跨境流動條例全文（第629章） (2026-07-31, Bilingual).pdf\n第2–7條及附表4\n23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf\nss.2–7; Schedule 4\n17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf\n第2–5條及附表1\n17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf\nss.2–5; Schedule 1"
+    },
+    {
+      "part": 3,
+      "id": "memory-shell-bank-and",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.046875,
+        "width": 330,
+        "height": 1480.828125
+      },
+      "text": "附表2第17條：空殼銀行的四項條件\nSchedule 2 s.17: four shell-bank conditions\n全部成立 · AND\nALL · AND\n法團在香港以外某司法管轄區註冊成立\nCorporation incorporated in a jurisdiction outside Hong Kong\n獲准在該處從事銀行業務\nAuthorized to conduct banking there\n在該處沒有實體經營\nNo physical presence there\n\n不隸屬另一家符合以下全部條件的法團：\nUnaffiliated with another corporation meeting ALL of these conditions:\n\n在某司法管轄區成立\nIncorporated in a jurisdiction\nAND\n獲准在該處經營銀行業務\nAuthorized to conduct banking there\nAND\n在該處有實體經營\nPhysically present there\n\n實體經營＝在當地處所經營銀行業務 AND 至少一名全職僱員在該處履行銀行相關職務。第17條的直接禁止對象是認可機構的往來銀行關係，不是把MSO當作往來銀行。隸屬的定義見正文。\nPhysical presence = banking at premises there AND at least one full-time employee performing banking-related duties there. Section 17 directly prohibits authorized institutions’ relevant correspondent relationships; it does not treat MSOs as correspondent banks. See the text for affiliation.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第17(1)–(3)條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 s.17(1)–(3)"
+    },
+    {
+      "part": 3,
+      "id": "memory-fee-components",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 161.671875,
+        "width": 330,
+        "height": 2182.6875
+      },
+      "text": "牌照費：基本費加附加項目\nLicence fees: base plus additive components\n申請事項\nApplication\n\t基本或逐項費用\nBase or per-item charge\n\t附加項目及條件\nAdditions and conditions\n新牌申請\nGrant application\n基本或逐項費用Base or per-item charge\nHK$3,810基本費。\nHK$3,810 base.\n附加項目及條件Additions and conditions\n另每個額外營業處所HK$2,440；每名須評核人士HK$945。\nPlus HK$2,440 per additional business premises and HK$945 per person subject to the fit-and-proper test.\n續牌\nRenewal\n基本或逐項費用Base or per-item charge\nHK$910基本費。\nHK$910 base.\n附加項目及條件Additions and conditions\n另每個額外營業處所HK$410；每名須評核人士HK$945。\nPlus HK$410 per additional business premises and HK$945 per tested person.\n董事／最終擁有人／合夥人批准\nDirector / ultimate owner / partner approval\n基本或逐項費用Base or per-item charge\n每人HK$945。\nHK$945 per person.\n附加項目及條件Additions and conditions\n是批准申請費，不能當作整個牌照申請的全部費用。\nAn approval application fee, not the total fee for a licence application.\n新增／改為特定營業處所\nAdd / move to particular premises\n基本或逐項費用Base or per-item charge\n每個處所HK$2,440。\nHK$2,440 per premises.\n附加項目及條件Additions and conditions\n與續牌「額外處所」的HK$410不同；公開查閱登記冊免費，索副本另計。\nDifferent from renewal’s HK$410 additional-premises component. Public register inspection is free; copies have separate charges.\n\n應付額＝適用申請基本費用＋額外營業處所費用＋適用的逐人適當人選測試費用。不是每名申請人都付齊表內所有項目；金額依repo所存2026年綜合版本。\nPayable fee = relevant application base fee + additional-premises charges + applicable per-person fit-and-proper test charges. Not every applicant pays every component; amounts follow the repo’s 2026 consolidated edition.\n\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n第27–28條；附表3\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nss.27–28; Schedule 3"
+    },
+    {
+      "part": 4,
+      "id": "memory-three-places",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 161.796875,
+        "width": 330,
+        "height": 1826.5
+      },
+      "text": "營業處所、LMO及LPS\nBusiness premises, LMO and LPS\n地方類別\nType of place\n\t用途及適用對象\nPurpose and applicability\n\t地址及使用限制\nAddress and use restrictions\n營業處所\nBusiness premises\n用途及適用對象Purpose and applicability\n用作經營金錢服務的處所；自有／租用、對外宣傳及客戶交易是指引例子，非新增的全部成立測試。\nPremises used to operate money service. Ownership/lease, advertising and customer transactions are illustrative, not an added all-conditions test.\n地址及使用限制Address and use restrictions\n不得位於純住宅樓宇、與另一MSO／申請人共用或須他人協助才可進入；商住混合須全體佔用人書面同意獲授權人員進入。\nNot in a wholly residential building, shared with another MSO/applicant or accessible only with others’ assistance; mixed premises need all occupants’ written consent to authorized entry.\n本地管理辦事處（LMO）\nLocal management office (LMO)\n用途及適用對象Purpose and applicability\n沒有特定營業處所者須維持，供海關聯絡。\nRequired for no-particular-premises operators, as a Customs contact point.\n地址及使用限制Address and use restrictions\n香港實體地址，親身及電話可聯絡，由合資格管理／合規人士駐守；不接納MSO住宅或其服務供應商地址／處所。\nPhysical Hong Kong address, reachable in person/by phone and staffed by qualifying management/compliance personnel; the MSO’s residential or service-provider address/premises is not accepted.\n本地紀錄儲存地方（LPS）\nLocal place for storage (LPS)\n用途及適用對象Purpose and applicability\n所有申請人須維持，保存其控制的完整紀錄。\nRequired for all applicants, holding complete records under their control.\n地址及使用限制Address and use restrictions\n香港實體地址，不接納MSO住宅或其服務供應商地址／處所。LMO與LPS名稱相似，但義務及用途不同。\nPhysical Hong Kong address; the MSO’s residential or service-provider address/premises is not accepted. LMO and LPS have different functions and coverage.\n05_高_牌照指引（2026年5月）.pdf\n第4.4–4.11段\n05_High_Licensing Guide (May 2026).pdf\n¶4.4–4.11"
+    },
+    {
+      "part": 4,
+      "id": "memory-assessment-pass",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.546875,
+        "width": 330,
+        "height": 1104.71875
+      },
+      "text": "合格要同時過兩關\nPassing requires both gates\n\n35題 · 7個Part · 每Part 5題 · 75分鐘 · 每題一個答案\n35 questions · 7 Parts · 5 per Part · 75 minutes · one answer per question\n\n全卷最少25／35\nAt least 25 / 35 overall\n\n而且\nAND\n\n每個Part最多錯2題\nNo more than 2 wrong in every Part\n\n兩個條件須同時符合；例如總分32／35，但某Part只對2／5，仍不合格。評核合格亦不保證獲發或續牌。\nBoth conditions must hold. For example, 32/35 overall with only 2/5 correct in one Part still fails. Passing does not guarantee a licence or renewal.\n\n01_高_能力評核須知（2022年12月）.pdf\n第3–8段\n01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf\n¶3–8\n02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf\n例1–7（只用於理解題型）\n02_High_Competence Assessment - Sample Questions (12 May 2021).pdf\nExamples 1–7 (format only)"
+    },
+    {
+      "part": 4,
+      "id": "memory-assessment-clocks",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.265625,
+        "width": 330,
+        "height": 4813.765625
+      },
+      "text": "相同數字，不同起算點\nSame numbers, different starting events\n申請及人事變更\nApplications and personnel changes\n事項／人士\nEvent / person\n\t起算事件\nStarting event\n\t期限\nTime requirement\n\t條件及例外\nConditions and exceptions\n新牌評核\nNew-application assessment\n起算事件Starting event\n與海關面見當日\nUpon attending the Customs interview\n期限Time requirement\n30日內應考\nAttend within 30 days\n條件及例外Conditions and exceptions\n適用於申請人的合資格人士；須參加，不是隨意延後的建議。\nFor the applicant’s eligible nominees; this is an attendance requirement.\n續牌提名\nRenewal nomination\n起算事件Starting event\n收到提名邀請\nReceipt of nomination invitation\n期限Time requirement\n7日內提名\nNominate within seven days\n條件及例外Conditions and exceptions\n須安排評核的續牌情況；未有合資格提名令申請無效，舊牌照到期失效。七日提名與三十日應考不同。\nFor renewals requiring assessment; no eligible nomination invalidates the application and the old licence lapses at expiry. Nomination differs from thirty-day attendance.\n續牌評核\nRenewal assessment\n起算事件Starting event\n收到評核邀請\nReceipt of assessment invitation\n期限Time requirement\n30日內應考\nAttend within 30 days\n條件及例外Conditions and exceptions\n需要評核的續牌情況；亦須依通知作提名，不能混同屆滿前45日的續牌申請期限。\nFor renewal cases requiring assessment, with notice-based nomination; distinct from the 45-day renewal-application deadline.\n全部通過人士離任\nAll passing nominees leave\n起算事件Starting event\n通知海關合夥人／董事變更當日起計\nUpon notifying Customs of partner/director change\n期限Time requirement\n30日內安排評核\nArrange assessment within 30 days\n條件及例外Conditions and exceptions\n合夥／公司適用，獨資除外；180日內到期續牌的情況依續牌安排。\nApplies to partnerships/corporations, not proprietorships; renewal within 180 days follows renewal arrangements.\n應考結果及重考\nResults and retakes\n事項／人士\nEvent / person\n\t起算事件\nStarting event\n\t期限\nTime requirement\n\t條件及例外\nConditions and exceptions\n結果通知\nResult notification\n起算事件Starting event\n評核後\nAfter assessment\n期限Time requirement\n14日內電郵通知\nEmail within 14 days\n條件及例外Conditions and exceptions\n保留通知作成績證明；不披露分數及試題答案。\nRetain it as evidence; exact scores and question answers are not disclosed.\n再次應考\nRetake\n起算事件Starting event\n成績通知發出當日起計\nUpon notification of result\n期限Time requirement\n30日後才重考\nRetake after 30 days\n條件及例外Conditions and exceptions\n續牌重考須在牌照屆滿前；不是30日內重考，也不會自動延長牌照。\nRenewal retakes must precede licence expiry; this is not “within 30 days” and does not extend the licence.\n覆核成績\nRechecking results\n事項／人士\nEvent / person\n\t起算事件\nStarting event\n\t期限\nTime requirement\n\t條件及例外\nConditions and exceptions\n要求覆檢\nRequest rechecking\n起算事件Starting event\n成績通知發出當日起計\nAfter the date of result-notification issue\n期限Time requirement\n7日內書面要求\nWritten request within seven days\n條件及例外Conditions and exceptions\n不是收到後7日；逾期不受理。\nThe clock is issue, not receipt; late requests are not considered.\n覆檢回覆\nRechecking reply\n起算事件Starting event\n接獲覆檢要求日期起計\nAfter receipt of rechecking request\n期限Time requirement\n14日內書面回覆\nWritten reply within 14 days\n條件及例外Conditions and exceptions\n覆檢答案紀錄等技術錯誤；覆檢結果為最終。\nRechecks technical matters such as answer-recording errors; the result is final.\n01_高_能力評核須知（2022年12月）.pdf\n第3–8段; 第8–13段; 第4.4、8.3段\n01_High_Guidance Notes on the Competence Assessment (Dec 2022).pdf\n¶3–8; ¶8–13; ¶4.4, 8.3\n02_高_金錢服務經營者適用的能力評核_參考試題（2021年5月12日）.pdf\n例1–7（只用於理解題型）\n02_High_Competence Assessment - Sample Questions (12 May 2021).pdf\nExamples 1–7 (format only)\n05_高_牌照指引（2026年5月）.pdf\n第6.2段\n05_High_Licensing Guide (May 2026).pdf\n¶6.2"
+    },
+    {
+      "part": 4,
+      "id": "memory-exchange-rights",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.578125,
+        "width": 330,
+        "height": 1700.875
+      },
+      "text": "拒絕未完成交易與撤銷已完成交易\nDeclining an unfinished exchange versus rescinding a completed one\n交易未完成\nTransaction not completed\n客戶拒絕繼續\nCustomer declines to proceed\n須\nMust\n→\n即時退回所交全數款項\nImmediately return the full amount tendered\n\n是交易未完成時的拒絕權，不須等候3日。\nThis concerns an unfinished transaction; it is not a three-day waiting period.\n\n交易已完成\nTransaction completed\n有第4條違反\nSection 4 breach\n才觸發這項權利\nTriggers this right\n→\n交易後3日內法定撤銷權\nStatutory rescission within 3 days after the transaction\n\n須涉及第4條違規；不是任何已完成兌換均有無條件3日反悔權。\nRequires a section 4 breach; this is not an unconditional cooling-off right for every completed exchange.\n\n第34章另要求把正本交顧客，副本至少保留12個月；這不取代同時適用的AMLO備存紀錄要求。\nCap.34 also requires the original for the customer and duplicate retention for at least 12 months; this does not displace concurrently applicable AMLO records duties.\n\n17_中重點_貨幣兌換商條例全文（第34章） (2025-08-24, Bilingual).pdf\n第2–5條及附表1\n17_Medium-Essential_Full Money Changers Ordinance, Cap. 34 (2025-08-24, Bilingual).pdf\nss.2–5; Schedule 1"
+    },
+    {
+      "part": 5,
+      "id": "memory-risk-levels",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.046875,
+        "width": 330,
+        "height": 1585.203125
+      },
+      "text": "機構風險與客戶風險\nInstitutional risk and customer risk\n機構層面風險評估\nInstitutional risk assessment\n決定配置\nShapes allocation\n→\n制度、控制及資源\nSystems, controls and resources\n\n涵蓋客戶、地域、產品／服務／交易及渠道等風險；小規模可簡化方法，不能省略。\nCovers customer, geographical, product / service / transaction and channel risks; small scale allows simpler methods, not omission.\n\n客戶層面風險評估\nCustomer risk assessment\n決定強度\nShapes intensity\n→\n該客戶的CDD及持續監察\nThat customer’s CDD and ongoing monitoring\n\n以初步風險決定審查程度，再結合CDD資料整體評估及更新；不是只憑國籍或機械分數。\nUse initial risk to set CDD extent, then assess holistically with CDD data and update; nationality or a mechanical score alone is insufficient.\n\n兩層互相提供資訊：機構風險影響客戶評估方法；客戶及監察的新發現可促使機構評估更新。\nThe levels inform one another: institutional risk shapes customer assessment; customer and monitoring findings can trigger institutional updates.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第2.1、2.13–2.16、3.3段; 第2.13–2.16段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶2.1, 2.13–2.16, 3.3; ¶2.13–2.16"
+    },
+    {
+      "part": 5,
+      "id": "memory-review-frequency",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.140625,
+        "width": 330,
+        "height": 2076.109375
+      },
+      "text": "兩年、每年、事前：覆核節奏不可互換\nTwo-yearly, annual, before launch: do not interchange review clocks\n事項\nMatter\n\t定期／事前要求\nPeriodic / advance requirement\n\t另行觸發及界線\nOther triggers and limits\n機構風險評估\nInstitutional risk assessment\n定期／事前要求Periodic / advance requirement\n每兩年及重大觸發事件時。\nEvery two years and upon material triggers.\n另行觸發及界線Other triggers and limits\n新客戶組別／渠道／產品、重大流程／對手改變或嚴重違規可觸發；不是未滿兩年便毋須重做。\nNew segments/channels/products, material process/counterparty changes or significant breaches may trigger review before two years.\n新產品／渠道／科技\nNew products / channels / technology\n定期／事前要求Periodic / advance requirement\n推出或使用前先評估並緩解風險。\nAssess and mitigate before launch/use.\n另行觸發及界線Other triggers and limits\n包括現有產品使用新／發展中科技；不是只適用全新產品。\nIncludes new/developing technology for existing products, not only entirely new products.\n高風險客戶CDD資料\nHigh-risk customer CDD records\n定期／事前要求Periodic / advance requirement\n至少每年覆核，另按事件更新。\nReview at least annually, with event-driven updates.\n另行觸發及界線Other triggers and limits\n持續監察並非每年才做一次；一般客戶不因這項規則一律有相同年度週期。\nOngoing monitoring is not an annual-only task; this does not impose the same universal annual cycle on every customer.\n獨立審核\nIndependent audit\n定期／事前要求Periodic / advance requirement\n定期，頻率／程度按業務及風險。\nRegular, with frequency/extent based on business and risk.\n另行觸發及界線Other triggers and limits\n沒有所有機構一律每年或每兩年的固定審核期限。\nNo single annual or two-year audit deadline applies universally.\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第2.3、2.5–2.10段; 第2.9、2.11–2.12段; 第5.1–5.14段及註52–53; 第3.11–3.13、5.8段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶2.3, 2.5–2.10; ¶2.9, 2.11–2.12; ¶5.1–5.14; footnotes 52–53; ¶3.11–3.13, 5.8"
+    },
+    {
+      "part": 5,
+      "id": "memory-control-responsibilities",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.234375,
+        "width": 330,
+        "height": 2846.515625
+      },
+      "text": "誰設計、誰判斷、誰獨立檢查\nWho designs, decides and independently checks\n高級管理層\nSenior management\n委任、支援並承擔管理責任\nAppoints, supports and manages risk\n→\nCO與MLRO\nCO and MLRO\n\n應在切實可行範圍內確保權限、資源、資訊及直接溝通渠道；完整八項條件見正文。\nShould, as far as practicable, ensure authority, resources, information and direct communication; see the eight conditions below.\n\n合規主任（CO）\nCompliance officer (CO)\n建立及監察\nEstablishes and monitors\n→\nAML/CFT制度、培訓及合規\nAML/CFT systems, training and compliance\n\n應向高級管理層溝通主要AML/CFT事項，包括適當時的重大合規缺失；不限於缺失。\nShould communicate key AML/CFT issues to senior management, including significant compliance deficiencies where appropriate; not deficiencies alone.\n\n洗錢報告主任（MLRO）\nMoney laundering reporting officer (MLRO)\n評估內部報告，決定是否披露\nAssesses internal reports and decides disclosure\n→\n聯合財富情報組（JFIU）\nJoint Financial Intelligence Unit (JFIU)\n\n保留評估理由及紀錄，防止通風報訊。\nKeep assessment reasons and records; prevent tipping off.\n\n獨立審計職能\nIndependent audit function\n獨立檢查及提出改善\nIndependently tests and recommends improvements\n→\n制度、程序及控制\nSystems, procedures and controls\n\n按規模及性質可內設或外聘，但須保持獨立；不是CO自行審核自己的工作。\nMay be internal or external depending on size and nature, but must remain independent; not CO self-review.\n\n視業務規模及性質，CO與MLRO可由同一人兼任；圖中的職能不同，不代表必須是不同員工。\nCO and MLRO may be combined depending on business size and nature; distinct functions do not necessarily mean separate employees.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第3.5–3.10段及註9; 第3.6、3.8段; 第3.6、3.8(h)段; 第3.11–3.13、5.8段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶3.5–3.10; footnotes 9; ¶3.6, 3.8; ¶3.6, 3.8(h); ¶3.11–3.13, 5.8\n05_高_牌照指引（2026年5月）.pdf\n第4.15(a)段\n05_High_Licensing Guide (May 2026).pdf\n¶4.15(a)\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A23\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A23"
+    },
+    {
+      "part": 6,
+      "id": "memory-cdd-trigger-tree",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 161.859375,
+        "width": 330,
+        "height": 3106.4375
+      },
+      "text": "何時須做CDD\nWhen CDD is required\n\nCDD＝客戶盡職審查。先留意適用於所有情況的懷疑／資料疑問，再對照關係及交易類型；各項可同時適用，並非答「是」便略過其餘要求。\nCDD = customer due diligence. Check suspicion / identification doubts across all situations, then the relationship or transaction case. Requirements can coexist; a matching case does not remove other applicable duties.\n\n跨情況要求：任何金額\nAcross all cases: any amount\n懷疑ML/TF，或懷疑原有身分資料的真實性／充分性\nML/TF suspicion, or doubts about the truth / adequacy of existing identification information\n\nCDD觸發不論金額；另評估STR責任。若合理相信繼續CDD會通風報訊，可停止追查、記錄依據並提交STR。\nCDD triggers regardless of amount; assess STR duties separately. If reasonably believing that continued CDD would tip off the customer, may stop pursuing it, document the basis and file an STR.\n\n建立業務關係\nNew business relationship\n不論交易金額\nRegardless of transaction amount\n\n建立前做CDD，不論金額；只有符合全部條件才可延遲核實身分。\nCDD before establishment, regardless of amount; defer identity verification only if all conditions are met.\n\n已存在業務關係\nExisting business relationship\n關係持續期間\nThroughout the relationship\n\n持續CDD及交易監察；按觸發事件及風險更新。不是每次交易重新開戶，也不是低額便免查。\nOngoing CDD and transaction monitoring; update on triggers and risk. Neither repeat onboarding for every transaction nor exempt low-value activity.\n\n非經常交易\nOccasional transaction\n電傳／虛擬資產轉帳 ≥ HK$8,000；其他 ≥ HK$120,000（或等值）。單筆或看來相連的交易合計。\nWire / VA transfer ≥ HK$8,000; others ≥ HK$120,000 (or equivalent). A single operation or linked operations in aggregate.\n\n達門檻：執行前做CDD。未達門檻：只表示未觸發這項金額條件；上面的懷疑／資料疑問及其他義務仍適用。\nAt threshold: CDD before execution. Below threshold: only this amount-based trigger is absent; the cross-cutting suspicion / doubt trigger and other duties still apply.\n\n接著判斷CDD程度\nThen determine CDD extent\n延遲核實及無法完成CDD\nDeferred verification and inability to complete CDD\n非電傳匯款要求\nNon-wire remittance requirements\n繼續CDD可能通風報訊的例外\nException where continued CDD may tip off\n\n非電傳匯出款項 ≥ HK$8,000另有發款人核實／紀錄要求；低於HK$8,000的電傳亦須附基本資料。虛擬資產列於法定CDD觸發，並不表示MSO牌照准許提供所有VA服務。\nNon-wire outward remittances ≥ HK$8,000 have separate originator verification / record duties; wires below HK$8,000 still need basic information. Listing VA in statutory CDD triggers does not authorize all VA services under an MSO licence.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.2.1–4.2.5、11.3段; 第5.1–5.14段及註52–53; 第1.25、5.13、7.6段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.2.1–4.2.5, 11.3; ¶5.1–5.14; footnotes 52–53; ¶1.25, 5.13, 7.6"
+    },
+    {
+      "part": 6,
+      "id": "memory-party-roles",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 161.953125,
+        "width": 330,
+        "height": 2861.453125
+      },
+      "text": "客戶、實益擁有人、代表及關連人士\nCustomer, beneficial owner, representative and connected party\n公司甲：客戶\nCompany A: customer\n建立關係／委託交易\nEstablishes relationship / instructs transaction\n→\nMSO\n\n須識別及核實公司本身，不能只核實到場的人。\nIdentify and verify the company itself, not only the person attending.\n\n個人乙：持股25.1%\nIndividual B: holds 25.1%\n超過25%的擁有權\nOwnership above 25%\n→\n公司甲\nCompany A\n\n簡化例子：符合公司BO的持股一項；恰好25%不符合這一項，但其他控制條件仍可能符合。\nSimplified example: satisfies the corporate BO shareholding limb; exactly 25% does not satisfy that limb, but other control limbs may apply.\n\n個人丙：PPTA代表\nIndividual C: PPTA representative\n獲授權代表\nAuthorized to act for\n→\n公司甲\nCompany A\n\n識別、合理核實代表身分，並核實授權；代表不會因此取代公司成為客戶。\nIdentify, reasonably verify the representative, and verify authority; representation does not replace the company as customer.\n\n個人丁：董事\nIndividual D: director\n屬關連人士\nIs a connected party of\n→\n公司甲\nCompany A\n\n取得姓名；如同時是BO或代表，另按該身分處理。乙、丙、丁可以是同一人。\nObtain the name; apply additional duties if also BO or representative. B, C and D may be the same person.\n\n完整BO定義及SCR\nFull BO definitions and SCR\n\n這是公司例子，不能把25%套到信託。BO各類定義及SCR界線見本部分「實益擁有人」；第三方收款人不自動成為發款MSO的客戶。\nA company example: do not apply 25% to trusts. See Beneficial owners for each definition and SCR distinctions; a third-party beneficiary is not automatically the ordering MSO’s customer.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.1.4–4.1.5段; 第4.3.4、4.3.14–4.3.19段及註26; 第4.4.1–4.4.12段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.1.4–4.1.5; ¶4.3.4, 4.3.14–4.3.19; footnotes 26; ¶4.4.1–4.4.12\n07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf\n附錄第(3)部分，第5頁\n07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf\nAppendix (3), p.5\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A9、A11–A12\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A9, A11–A12"
+    },
+    {
+      "part": 6,
+      "id": "memory-cdd-extent-tree",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.09375,
+        "width": 330,
+        "height": 2536.671875
+      },
+      "text": "CDD要做到甚麼程度\nHow much CDD is needed\n\n基本措施：識別及核實客戶；如有實益擁有人，識別並採合理措施核實；業務關係的目的及性質並非明顯時取得資料；有代表時識別、合理核實代表身分，並核實授權。\nBasic measures: identify / verify the customer; where there is a BO, identify and take reasonable verification measures; obtain purpose / intended nature information where not obvious for a business relationship; identify and reasonably verify a representative and verify authority.\n\n1\n高風險，或另有適用的加強要求？\nHigh risk, or another applicable enhanced requirement?\n是YES\n基本CDD＋適用加強措施；按風險及具體規定決定內容，不是每種情況都套同一PEP清單。\nBasic CDD + applicable enhanced measures, tailored to risk and the specific requirement; not the same PEP checklist in every case.\n否 → 第2項NO → step 2\n2\n風險分析確認低風險 AND 無ML/TF懷疑 AND 無身分資料疑問？\nRisk analysis establishes low risk AND no ML/TF suspicion AND no identification doubts?\n是YES\n可採取與風險相稱的簡化措施；仍須識別／核實客戶及持續監察。\nMay apply proportionate simplified measures; still identify / verify the customer and conduct ongoing monitoring.\n否NO\n採一般CDD，並按已識別的風險調整措施。\nApply ordinary CDD and adapt measures to identified risks.\n加強措施及SOW／SOF\nEnhanced measures and SOW / SOF\n非面對面條件及例外\nNon-face-to-face conditions and exceptions\n\n「低風險」不等於自動免識別／核實實益擁有人：附表2第4條須符合指定客戶／產品條件。非面對面等額外要求亦須獨立處理；依賴中介人不轉移MSO責任。\nLow risk is not automatic BO identification / verification exemption: Schedule 2 s.4 requires specified customer / product conditions. Address additional requirements such as non-face-to-face situations separately; intermediary reliance does not transfer MSO responsibility.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.1.1–4.1.5、4.6.1段; 第4.8.1–4.8.9段; 第4.8.10–4.8.16段; 第4.8.17–4.8.20段; 第4.8.10(d)、4.8.14–4.8.18段; 第4.8.2–4.8.8段; 第4.8.13段; 第4.9.1–4.9.6段及註36; 第4.10.1–4.10.5段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.1.1–4.1.5, 4.6.1; ¶4.8.1–4.8.9; ¶4.8.10–4.8.16; ¶4.8.17–4.8.20; ¶4.8.10(d), 4.8.14–4.8.18; ¶4.8.2–4.8.8; ¶4.8.13; ¶4.9.1–4.9.6; footnotes 36; ¶4.10.1–4.10.5\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第15條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 s.15\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A27\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A27"
+    },
+    {
+      "part": 6,
+      "id": "memory-sow-sof",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162,
+        "width": 330,
+        "height": 1991.671875
+      },
+      "text": "SOW與SOF：財富與本次資金\nSOW and SOF: accumulated wealth and specific funds\n同一位客戶 · SOW財富來源\nSame customer · SOW\n多年經營業務所得利潤\nProfits from running a business over years\n累積成\nAccumulate into\n→\n整體累積財富\nOverall accumulated wealth\n\n教學例子：回答「整體財富怎樣形成」。可包括投資及繼承等來源。\nTeaching example: explains how overall wealth arose. Other sources include investments and inheritance.\n\n同一位客戶 · SOF資金來源\nSame customer · SOF\n本次出售物業所得\nProceeds from this property sale\n存入\nDeposited into\n→\n銀行戶口\nBank account\n匯出\nSent as\n→\n本次匯款\nThis remittance\n\n教學例子：SOF追問本次款項由甚麼活動產生；銀行是傳送渠道，不是充分的來源解釋。\nTeaching example: SOF asks which activity generated this money. The bank is a channel, not a sufficient explanation of origin.\n\n按風險採取合理措施取得及佐證資料；需要同時確立SOW與SOF的情況不能任選其一。不是每案都要相同年期的全部財務歷史。\nObtain and corroborate information with reasonable, risk-based measures. Where both SOW and SOF are required, neither substitutes for the other. No identical full historical lookback applies to every case.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.9.24–4.9.26段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.9.24–4.9.26\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A3–A8、A13–A15\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A3–A8, A13–A15"
+    },
+    {
+      "part": 6,
+      "id": "memory-pep-categories",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.609375,
+        "width": 330,
+        "height": 1609.671875
+      },
+      "text": "PEP類別與加強措施\nPEP categories and enhanced measures\n身分類別\nStatus category\n\t何時適用共同加強措施\nWhen the common enhanced measures apply\n\t條件\nConditions\n非香港PEP\nNon-Hong Kong PEP\n何時適用共同加強措施When the common enhanced measures apply\n客戶／BO屬非香港PEP\nCustomer / BO is a non-Hong Kong PEP\n條件Conditions\n包括客戶或其BO；並非三選一。現有關係後來才發現PEP身分也須處理。\nCovers customer/BO; these are not alternatives. Later discovery within an existing relationship also requires action.\n香港／國際組織PEP\nHong Kong / international-organisation PEP\n何時適用共同加強措施When the common enhanced measures apply\n關係屬高風險\nThe relationship is high risk\n條件Conditions\n建立時高風險、後來變高風險，或高風險關係後來發現PEP身分均涵蓋；本地PEP不自動一律高風險。\nCovers high risk at establishment, later becoming high risk, or PEP discovery in a high-risk relationship. Domestic status is not universally high risk.\n\n前PEP是跨類別的離任狀態，不是第三個互斥地域類別。離任不自動停止措施；須適當評估沒有餘下高風險、獲高級管理層批准並保留理由，不能只按固定年期豁免。\nFormer PEP is a status across categories, not a third mutually exclusive geographical class. Leaving office does not automatically end measures: assess that no high risk remains, obtain senior approval and retain reasons; no fixed-year automatic exemption.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.9.7–4.9.8、4.9.13–4.9.15段; 第4.9.9–4.9.12、4.9.16–4.9.23段及註37–42\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.9.7–4.9.8, 4.9.13–4.9.15; ¶4.9.9–4.9.12, 4.9.16–4.9.23; footnotes 37–42"
+    },
+    {
+      "part": 6,
+      "id": "memory-pep-common-and",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.28125,
+        "width": 330,
+        "height": 1199.671875
+      },
+      "text": "適用時，三組措施同時需要\nWhen applicable, all three groups of measures\n全部 · AND\nALL · AND\n建立／繼續關係前取得高級管理層批准\nSenior-management approval before establishing / continuing the relationship\n\n採合理措施確立以下兩者：\nTake reasonable measures to establish BOTH:\n\n財富來源（SOW）\nSource of wealth (SOW)\nAND\n資金來源（SOF）\nSource of funds (SOF)\n加強持續監察\nEnhanced ongoing monitoring\n\n上圖先判斷類別及風險；發現既有關係中的PEP或風險轉高時也須處理。親屬／密切關係及前PEP適用細節見正文。\nFirst apply the category and risk matrix above. Act on PEP discovery in existing relationships and increased risk too. See the text for family / close associates and former PEP details.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.9.7–4.9.8、4.9.13–4.9.15段; 第4.9.9–4.9.12、4.9.16–4.9.23段及註37–42\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.9.7–4.9.8, 4.9.13–4.9.15; ¶4.9.9–4.9.12, 4.9.16–4.9.23; footnotes 37–42"
+    },
+    {
+      "part": 6,
+      "id": "memory-reliance-outsourcing",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 161.8125,
+        "width": 330,
+        "height": 1182.140625
+      },
+      "text": "依賴中介人與外判\nIntermediary reliance and outsourcing\n概念／情境\nConcept / situation\n\t必記區別\nRemember the distinction\n\t條件及例外\nConditions and exceptions\n依賴合資格中介人\nReliance on a qualifying intermediary\n必記區別Remember the distinction\n中介人通常有獨立的既有客戶關係及程序。\nThe intermediary usually has an existing independent customer relationship/procedures.\n條件及例外Conditions and exceptions\n須合資格、書面同意、立即取得CDD資料並可按要求無延誤取得支持文件；MSO責任不轉移。\nEligibility, written consent, immediate CDD data and supporting-record availability without delay are required; MSO liability remains.\n外判／代理\nOutsourcing / agency\n必記區別Remember the distinction\n按MSO程序及其控制執行。\nActs under the MSO’s procedures/control.\n條件及例外Conditions and exceptions\n與法定中介人依賴不同；不能因此移轉CDD責任。第5條持續監察仍由MSO負責。\nDifferent from statutory reliance; CDD liability is not transferred. Schedule 2 s.5 ongoing monitoring remains with the MSO.\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第4.11.1–4.11.7段及註44; 第4.11.8–4.11.14段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶4.11.1–4.11.7; footnotes 44; ¶4.11.8–4.11.14"
+    },
+    {
+      "part": 6,
+      "id": "memory-transfer-information",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 161.84375,
+        "width": 330,
+        "height": 2474.953125
+      },
+      "text": "跨境電傳：8,000元上下的資料及核實\nCross-border wires: information and verification around HK$8,000\n跨境電傳共同資料：不論是否達HK$8,000\nCross-border wires: common information at both amounts\n全部 · AND\nALL · AND\n發款人姓名 ＋ 發款戶口號碼\nOriginator name + originator account number\n受款人姓名 ＋ 受款戶口號碼\nBeneficiary name + beneficiary account number\n\n沒有該戶口才用可追查的獨特交易參考編號，不能任意取代現有戶口號碼。\nUse a traceable unique transaction reference only where no account exists; not freely in place of an existing account number.\n\n達HK$8,000：另加發款人資料\nAt least HK$8,000: additional originator information\n至少一項 · OR\nAT LEAST ONE · OR\n地址\nAddress\n客戶識別號碼\nCustomer identification number\n身分證明文件號碼\nIdentification-document number\n\n自然人：以下兩項合為一個選項\nIndividual: these two together form ONE option\n\n出生日期\nDate of birth\nAND\n出生地點\nPlace of birth\n\n發款人資料須準確，並完成適用CDD。低於門檻的非經常發款人一般毋須核實，但相連交易達門檻、懷疑及資料疑問仍須處理。\nOriginator data must be accurate and applicable CDD completed. Below-threshold occasional originators generally need not be verified, but linked totals, suspicion and doubts still matter.\n\n這是跨境電傳資料包；本地電傳、批次檔案及轉帳類型豁免各有條件，見下文。不要把資料要求與機構傳送責任混成同一流程。\nThis is the cross-border wire information packet. Domestic wires, batch files and excluded transfer types have separate conditions below. Data requirements and institutional transmission responsibilities are different questions.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第10.5–10.13段及註70–71; 第10.14–10.22段; 第11.1–11.6段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶10.5–10.13; footnotes 70–71; ¶10.14–10.22; ¶11.1–11.6\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第1、13條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 ss.1, 13"
+    },
+    {
+      "part": 6,
+      "id": "memory-wire-responsibilities",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.5,
+        "width": 330,
+        "height": 1522.890625
+      },
+      "text": "電傳鏈條：每一站的責任\nWire-transfer chain: responsibilities at each stage\n資料隨付款鏈傳遞\nInformation travels with the payment chain\n匯款機構：附上所需資料\nOrdering institution: include required data\n傳遞\nPass on\n→\n中介機構：保留隨附資料\nIntermediary institution: retain accompanying data\n傳遞\nPass on\n→\n收款機構：偵測缺漏並作適用核實\nBeneficiary institution: detect omissions and verify where applicable\n\n中介及收款機構須有風險為本程序，決定缺漏資料時執行、拒絕或暫停及跟進；不是每次缺漏自動拒絕。技術限制及本地轉帳例外見正文。\nIntermediary and beneficiary institutions need risk-based procedures to execute, reject or suspend and follow up when data are missing; no automatic rejection for every omission. Technical limitations and domestic exceptions are detailed below.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第10.1–10.4段; 第10.5–10.13段及註70–71; 第10.3、10.5–10.7、10.13段及註70; 第10.11–10.12、10.20段及註71; 第10.14–10.22段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶10.1–10.4; ¶10.5–10.13; footnotes 70–71; ¶10.3, 10.5–10.7, 10.13; footnotes 70; ¶10.11–10.12, 10.20; footnote 71; ¶10.14–10.22\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A25–A26\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A25–A26\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第12(6)、(9)、(11)條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 s.12(6), (9), (11)"
+    },
+    {
+      "part": 6,
+      "id": "memory-trade-value-paths",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.3125,
+        "width": 330,
+        "height": 2120.09375
+      },
+      "text": "貿易洗錢：分開看貨物、單據與付款\nTrade-based laundering: separate goods, documents and payments\n高報價格的簡化例子\nSimplified over-invoicing example\n實際貨物價值較低\nLower actual goods value\n不一致\nMismatch\n≠\n發票聲稱價值較高\nHigher invoiced value\n按單據付款\nPayment against invoice\n→\n買方向賣方支付較多\nBuyer pays seller more\n\n差額可把額外價值移向賣方；低報可反向移動價值。需結合商品、定價及關係評估。\nThe difference can move extra value to the seller; under-invoicing can reverse the direction. Assess goods, pricing and relationships.\n\n重複發票的簡化例子\nSimplified multiple-invoicing example\n同一批貨物\nOne shipment\n重複表示\nRepresented repeatedly\n→\n多份發票／融資要求\nMultiple invoices / financing requests\n造成\nGenerate\n→\n多次付款\nRepeated payments\n\n指標是查詢線索，不是自動證明洗錢；虛假貨物、數量差異及單據矛盾見正文。\nIndicators prompt enquiry; they do not automatically prove laundering. See the text for phantom goods, quantity differences and document inconsistencies.\n\n18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf\n第1–3頁\n18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf\npp.1–3\n24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf\n第1–2頁（中文為學習譯文）; 印刷第5–6頁 · 中文為學習譯文；來源為英文原件\n24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf\npp.1–2; Printed pp.5–6\n25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf\n2022年版，第4.44、4.57–4.59段及專題4.5\n25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf\n2022 edition, ¶4.44, 4.57–4.59 and Box 4.5"
+    },
+    {
+      "part": 7,
+      "id": "memory-reporting-route",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.0625,
+        "width": 330,
+        "height": 1917.484375
+      },
+      "text": "內部報告：不經無關管理層篩選\nInternal reporting: no unrelated management filter\n先內部披露\nInternal disclosure\n員工發現知情／懷疑\nStaff identify knowledge / suspicion\n無不必要延誤地報告\nReport without undue delay\n→\nMLRO評估\nMLRO assesses\n\n按程序直接交MLRO；非報告／合規管理層不得把報告篩掉。內部報告應載事實及懷疑理由。\nReport directly under the procedure; non-reporting / non-compliance management must not filter it out. Include facts and grounds.\n\n評估後仍知情／懷疑\nKnowledge / suspicion after assessment\nMLRO\n迅速報告\nReport promptly\n→\nJFIU\n\n考慮合理可得的相關CDD、交易及其他資料；不能無限期等齊所有資料。\nConsider reasonably available relevant CDD, transaction and other information; do not wait indefinitely for everything.\n\n評估後沒有知情／懷疑\nNo knowledge / suspicion after assessment\nMLRO判斷不報告\nMLRO decides not to report\n必須留痕\nDocument\n→\n保留理由及處理紀錄\nRetain reasons and action records\n\n不是收到每份內部報告都自動向JFIU提交STR；其後新事實可能要求重新評估。\nNot every internal report automatically becomes an STR to JFIU; new facts may require reassessment.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第7.12–7.23段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶7.12–7.23"
+    },
+    {
+      "part": 7,
+      "id": "memory-after-report-parallel",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 162.5625,
+        "width": 330,
+        "height": 1198.890625
+      },
+      "text": "提交STR後：並行處理的事項\nAfter an STR: concurrent responsibilities\n並行處理，不是先後步驟\nCONCURRENT, not sequential\n評估法定披露／同意與抗辯條件；提交報告不等於自動獲准處理財產。\nAssess statutory disclosure / consent and defence conditions; filing is not automatic permission to deal.\n應立即檢視客戶／關係風險及適當措施；不能只等待JFIU回覆。\nShould immediately review customer / relationship risk and appropriate measures; do not merely wait for JFIU.\n防止通風報訊；繼續監察，新可疑活動再交MLRO判斷是否另報。\nPrevent tipping off; keep monitoring and refer new suspicious activity to the MLRO for further-report decisions.\n\n這三項是職責分類，不代表每案的措施完全相同；法定抗辯的「事前披露＋同意」或「事後自發且盡快披露」條件見正文。\nThese are responsibility categories, not identical actions in every case. The statutory defence alternatives—prior disclosure + consent, or own-initiative disclosure as soon as reasonable afterwards—are explained below.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第7.22、7.24–7.28段; 第1.25、5.13、7.6段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶7.22, 7.24–7.28; ¶1.25, 5.13, 7.6"
+    },
+    {
+      "part": 7,
+      "id": "memory-retention-clocks",
+      "label": "both-mobile",
+      "rect": {
+        "x": 30,
+        "y": 161.765625,
+        "width": 330,
+        "height": 2905.375
+      },
+      "text": "保存期：記「多久」也要記「何時開始」\nRetention: remember the duration AND its starting event\n業務關係CDD\nRelationship CDD\n起算／對照事件Starting / reference event\n關係結束時\nWhen it ends\n時間要求Timing requirement\n關係持續期間，另加至少5年\nThroughout the relationship plus at least five years\n\n不能從開戶日起算5年後便刪除。關長書面要求更長期限時須延長。\nDo not delete five years after opening. Extend for a longer CCE written requirement.\n\n達CDD門檻的非經常交易CDD\nCDD for threshold occasional transactions\n起算／對照事件Starting / reference event\n交易完成時\nTransaction completion\n時間要求Timing requirement\n至少5年\nAt least five years\n\n附表2第20(3A)條；相關8,000／120,000元觸發條件須按交易類型判斷。\nSchedule 2 s.20(3A); apply the relevant HK$8,000/HK$120,000 triggers by transaction type.\n\n交易紀錄\nTransaction records\n起算／對照事件Starting / reference event\n每宗交易完成時\nCompletion of each transaction\n時間要求Timing requirement\n至少5年\nAt least five years\n\n期間關係結束不縮短保存期；不能一律把起算點改成關係結束。\nRelationship termination during that period does not shorten it; do not replace the starting event universally with relationship end.\n\n培訓紀錄\nTraining records\n起算／對照事件Starting / reference event\n指引沒有另訂起算公式；按培訓日期保留紀錄\nNo separate statutory starting formula is stated; keep dated training records\n時間要求Timing requirement\n應保存至少3年（指引）\nShould retain for at least three years (Guideline)\n\n保存受訓者、日期及類型；與CDD／交易的5年規則不同。\nKeep trainee, date and type; distinct from the five-year CDD/transaction rule.\n\n每一行有自己的起算事件，不共用同一時間軸。海關書面要求較長保存期及未成功開戶的風險考慮見下文。\nEach row has its own starting event, not a common timeline. Longer written CCE requirements and risk considerations for unsuccessful applications are detailed below.\n\n03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf\n第8.4、8.6、8.8–8.12、9.7段\n03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf\n¶8.4, 8.6, 8.8–8.12, 9.7\n04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf\n附表2第20(3A)條\n04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf\nSchedule 2 s.20(3A)\n06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md\n打擊洗錢問答A28\n06_High_FAQ applicable to all MSOs (C&ED portal).md\nAML/CFT FAQ A28"
+    }
+  ],
+  "anchors": [
+    {
+      "width": 390,
+      "lang": "tc",
+      "toolbarBottom": 119.1875,
+      "figureTop": 143.734375,
+      "scrollWidth": 390
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "toolbarBottom": 117.984375,
+      "figureTop": 141.625,
+      "scrollWidth": 390
+    },
+    {
+      "width": 390,
+      "lang": "both",
+      "toolbarBottom": 142.171875,
+      "figureTop": 166.859375,
+      "scrollWidth": 390
+    },
+    {
+      "width": 900,
+      "lang": "tc",
+      "toolbarBottom": 109.390625,
+      "figureTop": 133.640625,
+      "scrollWidth": 900
+    },
+    {
+      "width": 900,
+      "lang": "en",
+      "toolbarBottom": 108.09375,
+      "figureTop": 133.453125,
+      "scrollWidth": 900
+    },
+    {
+      "width": 900,
+      "lang": "both",
+      "toolbarBottom": 136.609375,
+      "figureTop": 160.765625,
+      "scrollWidth": 900
+    },
+    {
+      "width": 1440,
+      "lang": "tc",
+      "toolbarBottom": 109.390625,
+      "figureTop": 133.75,
+      "scrollWidth": 1440
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "toolbarBottom": 108.09375,
+      "figureTop": 133.125,
+      "scrollWidth": 1440
+    },
+    {
+      "width": 1440,
+      "lang": "both",
+      "toolbarBottom": 136.609375,
+      "figureTop": 160.84375,
+      "scrollWidth": 1440
+    }
+  ]
+}

@@ -3,6 +3,11 @@
 def render(panel, pair):
     def para(v, cls=''):
         return '<p'+(' class="'+cls+'"' if cls else '')+'>'+pair(v)+'</p>'
+    def logic_item(value):
+        if 'tc' in value:
+            return pair(value)
+        # The whole contained group is ONE option in the surrounding AND/OR list.
+        return '<div class="nested-logic">'+para(value['lead'],'nested-lead')+'<div class="nested-members">'+''.join(('<b class="nested-join">AND</b>' if i else '')+'<div>'+pair(item)+'</div>' for i,item in enumerate(value['all']))+'</div></div>'
     def paths(rows):
         out='<div class="visual-paths">'
         for row in rows:
@@ -31,14 +36,21 @@ def render(panel, pair):
     elif kind=='decision':
         out+='<ol class="decision-tree">'
         for i,node in enumerate(panel['nodes']):
-            out+='<li class="decision-node"><div class="decision-condition"><span class="decision-number" aria-hidden="true">'+str(i+1)+'</span>'+pair(node['test'])+'</div><div class="decision-outcome"><b class="branch-label">'+pair(node.get('yes_label',dict(tc='是',en='YES')))+'</b>'+pair(node['yes'])+'</div><div class="decision-continue"><b>'+pair(node.get('no_label',dict(tc='否 ↓ 繼續',en='NO ↓ Continue')))+'</b>'+('<div>'+pair(node['no'])+'</div>' if node.get('no') else '')+'</div></li>'
+            next_label=dict(tc=f'否 → 第{i+2}項',en=f'NO → step {i+2}')
+            out+='<li class="decision-node"><div class="decision-condition"><span class="decision-number" aria-hidden="true">'+str(i+1)+'</span>'+pair(node['test'])+'</div><div class="decision-outcome"><b class="branch-label">'+pair(node.get('yes_label',dict(tc='是',en='YES')))+'</b>'+pair(node['yes'])+'</div><div class="decision-continue"><b>'+pair(node.get('no_label',next_label))+'</b>'+('<div>'+pair(node['no'])+'</div>' if node.get('no') else '')+'</div></li>'
         out+='</ol>'
         if panel.get('end'):out+=para(panel['end'],'decision-end')
+    elif kind=='trigger-cases':
+        out+='<div class="trigger-cases">'
+        for row in panel['cases']:
+            out+='<div class="trigger-case'+(' cross-cutting' if row.get('cross_cutting') else '')+'"><h4>'+pair(row['label'])+'</h4><div class="trigger-condition">'+pair(row['condition'])+'</div>'+para(row['action'],'trigger-action')+'</div>'
+        out+='</div>'
+        if panel.get('end'):out+=para(panel['end'],'memory-note')
     elif kind=='logic':
-        out+='<div class="logic-group"><div class="logic-operator">'+pair(panel['operator'])+'</div><ul>'+''.join('<li>'+pair(v)+'</li>' for v in panel['items'])+'</ul></div>'
+        out+='<div class="logic-group"><div class="logic-operator">'+pair(panel['operator'])+'</div><ul>'+''.join('<li>'+logic_item(v)+'</li>' for v in panel['items'])+'</ul></div>'
     elif kind=='packet':
         for group in panel['groups']:
-            out+='<div class="data-packet"><h4>'+pair(group['title'])+'</h4><div class="logic-group"><div class="logic-operator">'+pair(group['operator'])+'</div><ul>'+''.join('<li>'+pair(v)+'</li>' for v in group['items'])+'</ul></div>'+para(group['note'],'path-note')+'</div>'
+            out+='<div class="data-packet"><h4>'+pair(group['title'])+'</h4><div class="logic-group"><div class="logic-operator">'+pair(group['operator'])+'</div><ul>'+''.join('<li>'+logic_item(v)+'</li>' for v in group['items'])+'</ul></div>'+para(group['note'],'path-note')+'</div>'
     elif kind=='formula':
         for row in panel['formulae']:
             out+='<div class="penalty-formula"><h4>'+pair(row['label'])+'</h4>'+para(row['expression'],'formula-expression')+para(row['note'])+'</div>'

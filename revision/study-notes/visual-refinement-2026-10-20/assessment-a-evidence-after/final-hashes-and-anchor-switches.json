@@ -1,0 +1,72 @@
+{
+  "time": "2026-10-20T05:13:33.626Z",
+  "hashes": {
+    "visual_panels.py": "de3b09161a720b32a7e486453fe445cdae8830f2844b623066340970f129a8e2",
+    "visual_render.py": "7ef3afc48f92ea2abcdd0d1300c17b157ae65eac46f78716cdb7371fdd91852a",
+    "style.css": "a211237605f04ff48fe6501da80a92cfa4fc51d7ddec3e01ec6e6bf2cd3ca0e2",
+    "build.py": "0f4d6b2787bc284a18df8ae33ffa1afb4c2dc49a1733c54f2d037da9460d1799",
+    "part-1.html": "a917333ce89ce11c0c9755a7a45e58e2dd9f7f8c48451024e090cfebea986ca1",
+    "part-2.html": "c2cfdeb0b6ebbde7a9b222b08cf39a5450dca6353f660c4e908d5d4addd9505d",
+    "part-3.html": "43a05c56ee9ce5e332756dc45dc5f519137cad313b718f91838696dfd8f61f74",
+    "part-4.html": "865cbe775e3902bbaaf9673d2ea41227d8cbc1000c7f9b6f815c3df221700625",
+    "part-5.html": "d818638d2b411e4d69f9a9b2beb6bc461e759ad7ee8e9314bfba7cc7a45148a9",
+    "part-6.html": "1207b1f926cfdea6ce00359fb8b159b9bdbe0072627a56ab92e16ca0f53a85d8",
+    "part-7.html": "9f981e6863258f36895b954859546a29ecda5ce147d8080eedc710b16d7c58a7"
+  },
+  "anchorLanguageSwitches": [
+    {
+      "width": 390,
+      "lang": "tc",
+      "top": 659.734375,
+      "bottom": 119.1875
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "top": 1500.625,
+      "bottom": 117.984375
+    },
+    {
+      "width": 390,
+      "lang": "both",
+      "top": 3366.859375,
+      "bottom": 142.171875
+    },
+    {
+      "width": 900,
+      "lang": "tc",
+      "top": 462.640625,
+      "bottom": 109.390625
+    },
+    {
+      "width": 900,
+      "lang": "en",
+      "top": 1124.453125,
+      "bottom": 108.09375
+    },
+    {
+      "width": 900,
+      "lang": "both",
+      "top": 2678.765625,
+      "bottom": 136.609375
+    },
+    {
+      "width": 1440,
+      "lang": "tc",
+      "top": 463.75,
+      "bottom": 109.390625
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "top": 1126.125,
+      "bottom": 108.09375
+    },
+    {
+      "width": 1440,
+      "lang": "both",
+      "top": 2350.84375,
+      "bottom": 136.609375
+    }
+  ]
+}

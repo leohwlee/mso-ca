@@ -23,9 +23,12 @@ CATALOG=json.loads((ROOT/'docs/catalog.json').read_text(encoding='utf-8'))
 DOCS={d['id']:d for d in CATALOG['documents']}
 e=html.escape
 def normal(text):return re.sub(r'\s+',' ',text).casefold()
+def keep_units(markup):
+    # Keep the mathematical boundary with its value; neither means the same alone.
+    return re.sub(r'(?:≥|≤|&gt;|&lt;)\s*(?:HK\$\s*)?\d[\d,]*(?:\.\d+)?%?',lambda m:'<span class="numeric-unit">'+m.group()+'</span>',markup)
 def pair(value):
-    if value['tc']==value['en']:return '<span class="shared">'+e(value['tc'])+'</span>'
-    return ''.join(f'<span class="{lang}" lang="{"zh-Hant" if lang=="tc" else "en"}">{e(value[lang])}</span>' for lang in ('tc','en'))
+    if value['tc']==value['en']:return '<span class="shared">'+keep_units(e(value['tc']))+'</span>'
+    return ''.join(f'<span class="{lang}" lang="{"zh-Hant" if lang=="tc" else "en"}">'+keep_units(e(value[lang]))+'</span>' for lang in ('tc','en'))
 def label(tc,en):return pair(dict(tc=tc,en=en))
 
 def emphasized_pair(value):
@@ -40,7 +43,7 @@ def emphasized_pair(value):
             if i==3:break
             chunks.extend((e(value[lang][end:m.start()]),'<strong class="recall-term">'+e(m.group())+'</strong>'));end=m.end()
         chunks.append(e(value[lang][end:]))
-        out.append(f'<span class="{lang}" lang="{"zh-Hant" if lang=="tc" else "en"}">'+''.join(chunks)+'</span>')
+        out.append(f'<span class="{lang}" lang="{"zh-Hant" if lang=="tc" else "en"}">'+keep_units(''.join(chunks))+'</span>')
     return ''.join(out)
 
 def compact_citations(refs):
@@ -112,19 +115,38 @@ def validate():
 SCRIPT=r"""
 (()=>{
 const buttons=[...document.querySelectorAll('[data-language]')];
+const toolbar=document.querySelector('.toolbar');
+function anchorOffset(){
+ document.documentElement.style.setProperty('--anchor-offset',(Math.ceil(toolbar.getBoundingClientRect().height)+16)+'px');
+}
+function revealHash(){
+ const target=document.getElementById(decodeURIComponent(location.hash.slice(1)));
+ if(target)target.scrollIntoView({block:'start'});
+}
 function language(lang){
  if(!['tc','en','both'].includes(lang))lang='tc';
+ const destination=document.getElementById(decodeURIComponent(location.hash.slice(1)));
+ const offset=parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop)||0;
+ const atDestination=destination&&Math.abs(destination.getBoundingClientRect().top-offset-(parseFloat(getComputedStyle(destination).scrollMarginTop)||0))<32;
  document.body.dataset.lang=lang;document.documentElement.lang=lang==='en'?'en':'zh-Hant';
  buttons.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.language===lang)));
  try{sessionStorage.setItem('mso-study-language',lang)}catch{}
  document.querySelectorAll('.part-nav a,.practice-link,footer a,.visual-links a').forEach(a=>{
   const u=new URL(a.href);u.searchParams.set('lang',lang);a.href=u.href;
  });
+ anchorOffset();
+ // Preserve a just-followed reference without jumping back to an old hash after scrolling.
+ if(atDestination)requestAnimationFrame(()=>{anchorOffset();revealHash()});
 }
 buttons.forEach(b=>b.addEventListener('click',()=>language(b.dataset.language)));
 let saved=new URLSearchParams(location.search).get('lang');
 try{saved=saved||sessionStorage.getItem('mso-study-language')}catch{}
 language(saved||'tc');
+if('ResizeObserver' in window)new ResizeObserver(anchorOffset).observe(toolbar);
+window.addEventListener('resize',anchorOffset);
+// Resolve the initial hash only after fonts and the chosen language determine height.
+document.fonts.ready.then(()=>{anchorOffset();if(location.hash)revealHash()});
+window.addEventListener('hashchange',()=>{anchorOffset();revealHash()});
 const nav=[...document.querySelectorAll('[data-section]')];
 function current(id){nav.forEach(a=>a.setAttribute('aria-current',a.dataset.section===id?'location':'false'))}
 nav.forEach(a=>a.addEventListener('click',()=>current(a.dataset.section)));
@@ -150,15 +172,18 @@ def render_panel(panel):
     out=[f'<figure class="memory-panel" id="memory-{key}" aria-labelledby="memory-title-{key}"><h3 id="memory-title-{key}">'+title+'</h3>']
     if panel['kind']=='table':
         if panel.get('groups'):
-            for group in panel['groups']:
-                subset=dict(panel,rows=group['rows']);subset.pop('groups',None)
-                out.append('<h4 class="table-group-title">'+pair(group['title'])+'</h4>')
+            for group_number,group in enumerate(panel['groups'],1):
+                group_id=f'memory-title-{key}-group-{group_number}'
+                subset=dict(panel,rows=group['rows'],table_label=group_id);subset.pop('groups',None)
+                out.append('<h4 class="table-group-title" id="'+group_id+'">'+pair(group['title'])+'</h4>')
                 rendered=render_panel(subset)
                 out.append(rendered[rendered.index('<table'):rendered.index('</table>')+8])
             if panel.get('note'):out.append('<p class="memory-note">'+pair(panel['note'])+'</p>')
             out.append(compact_citations(panel['refs'])+'</figure>')
             return ''.join(out)
-        out.append('<table class="memory-table columns-'+str(len(panel['headers']))+'" role="table"><thead role="rowgroup"><tr role="row">'+''.join('<th scope="col" role="columnheader">'+pair(h)+'</th>' for h in panel['headers'])+'</tr></thead>')
+        table_class='memory-table columns-'+str(len(panel['headers']))+(' peer-comparison' if panel.get('peers') else '')
+        table_label=panel.get('table_label','memory-title-'+key)
+        out.append('<table class="'+table_class+'" role="table" aria-labelledby="'+table_label+'"><thead role="rowgroup"><tr role="row">'+''.join('<th scope="col" role="columnheader">'+pair(h)+'</th>' for h in panel['headers'])+'</tr></thead>')
         for row in panel['rows']:
             out.append('<tbody role="rowgroup"><tr role="row"><th scope="row" role="rowheader">'+pair(row[0])+'</th>')
             for i,cell in enumerate(row[1:],1):
@@ -210,7 +235,7 @@ def manifest():
     recall=dict(sha256=hashlib.sha256((HERE/'memory_panels.py').read_bytes()).hexdigest(),tables=sum(panel['kind']=='table' for sections in PANELS.values() for panels in sections.values() for panel in panels),diagrams=sum(panel['kind']!='table' for sections in PANELS.values() for panels in sections.values() for panel in panels))
     recall['visual_sources']={name:hashlib.sha256((HERE/name).read_bytes()).hexdigest() for name in ('visual_panels.py','visual_render.py')}
     essentials=dict(sha256=hashlib.sha256((HERE/'essentials.py').read_bytes()).hexdigest(),blocks=sum(len(blocks) for topics in ADDITIONS.values() for blocks in topics.values()),points=sum(len(block['points']) for topics in ADDITIONS.values() for blocks in topics.values() for block in blocks))
-    return dict(scope='Repository originals 01–26; source-authored seven-part revision notes',method='Original passages -> concepts, definitions, requirements, conditions and exceptions. Source-bound recall comparisons supplement full visible prose. The bank is used only by the separate gap audit.',limitations='Anchors prove source location, not semantic completeness. Documents 04 and 25 were read throughout in English and reassessed for learning scope. Chinese checks cover core and added material, not a line-by-line full-volume translation audit. Other-sector regimes and cross-sector mechanisms are included selectively; detailed administrative procedures and statistics remain source references. See approval-closeout-2026-10-19/REPORT.md for the latest omitted-content decisions and boundaries; earlier reports remain historical evidence. Dated findings/lists retain their publication date.',manuscripts={f'part{n}.py':hashlib.sha256((HERE/f'part{n}.py').read_bytes()).hexdigest() for n in PARTS},essentials=essentials,recall=recall,source_text_sha256={doc:{lang:hashlib.sha256((ROOT/f'docs/text/{lang}/{doc}.txt').read_bytes()).hexdigest() for lang in (('EN',) if doc=='24' else ('TC','EN'))} for doc in documents},documents=documents,parts=parts)
+    return dict(scope='Repository originals 01–26; source-authored seven-part revision notes',method='Original passages -> concepts, definitions, requirements, conditions and exceptions. Source-bound recall comparisons supplement full visible prose. The bank is used only by the separate gap audit.',limitations='Anchors prove source location, not semantic completeness. See depth-review-2026-10-20/REPORT.md and its per-source inventories for the current depth review, bilingual meaning checks, source-selected statutory coverage, reference-detail decisions and unresolved verification boundaries. This is not a line-by-line bilingual audit of every full volume or a guarantee about unknown official questions. Official source categories extend beyond the owner-selected 01–26. Historical reviews remain preserved, not proof of this review. Dated findings/lists retain their publication date.',manuscripts={f'part{n}.py':hashlib.sha256((HERE/f'part{n}.py').read_bytes()).hexdigest() for n in PARTS},essentials=essentials,recall=recall,source_text_sha256={doc:{lang:hashlib.sha256((ROOT/f'docs/text/{lang}/{doc}.txt').read_bytes()).hexdigest() for lang in (('EN',) if doc=='24' else ('TC','EN'))} for doc in documents},documents=documents,parts=parts)
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');args=ap.parse_args();validate()

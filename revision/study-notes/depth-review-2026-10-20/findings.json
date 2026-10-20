@@ -1,0 +1,581 @@
+[
+  {
+    "id": "G01",
+    "part": 1,
+    "anchor": "money-laundering",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶1.9–1.10",
+    "problem": "定義欠目的成分，容易將ML概念與處理犯罪得益罪混同",
+    "impact": "記名稱；理解目的與罪行分別",
+    "resolution": "保留掩飾／掩藏／使犯罪得益看似非犯罪得益的目的；三階段名稱、含義及可重疊仍保留",
+    "status": "implemented"
+  },
+  {
+    "id": "G02",
+    "part": 1,
+    "anchor": "international",
+    "priority": "中：理解／參考",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶1.13",
+    "problem": "FATF職能過於概括",
+    "impact": "認識組織及作用",
+    "resolution": "補成立年份、標準與有效實施、相互評估；不把本輪查閱當作最新國家名單核證",
+    "status": "implemented"
+  },
+  {
+    "id": "G03",
+    "part": 1,
+    "anchor": "legal-framework",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶1.2；Glossary Financial institution(s)",
+    "problem": "未指出指引FI一詞一般採FATF定義，可能一律誤用AMLO定義",
+    "impact": "理解語境，勿混用定義",
+    "resolution": "補定義適用語境；修正正文及圖表引用末段1.28為實際1.27",
+    "status": "implemented"
+  },
+  {
+    "id": "G04",
+    "part": 5,
+    "anchor": "institutional-assessment",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶2.3、2.5–2.10",
+    "problem": "地域因素及資源考慮未完整展開",
+    "impact": "認識清單及如何評估",
+    "resolution": "補國家風險四類及資源性質／規模／質素等條件",
+    "status": "implemented"
+  },
+  {
+    "id": "G05",
+    "part": 5,
+    "anchor": "customer-assessment",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶2.13–2.16及註5–8",
+    "problem": "抽象分數／權重表述取代了指引的具體框架要求",
+    "impact": "記三組；理解兩層評估關係",
+    "resolution": "改為框架與業務性質規模相稱、依機構評估、三組因素；記錄須證明評估方法及CDD／監察適切性",
+    "status": "implemented"
+  },
+  {
+    "id": "G06",
+    "part": 5,
+    "anchor": "control-framework",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶3.1–3.4",
+    "problem": "簡化制度只概括小型低風險，欠全部適用條件",
+    "impact": "記條件",
+    "resolution": "列明三條件AND及相應機構評估／控制要求，不等於不用制度",
+    "status": "implemented"
+  },
+  {
+    "id": "G07",
+    "part": 5,
+    "anchor": "roles",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶3.5–3.10及註9",
+    "problem": "CO／MLRO角色、八項支援條件未完整；部分should寫成須",
+    "impact": "記職能、誰負責；保留強度",
+    "resolution": "補CO四職能、MLRO三職能、八條件及切實可行／規模限制；圖中不再把CO溝通限於重大缺失",
+    "status": "implemented"
+  },
+  {
+    "id": "G08",
+    "part": 6,
+    "anchor": "simplified",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶4.8.2–4.8.8",
+    "problem": "低風險只寫一般概念，難以認識原文因素與簡化方法",
+    "impact": "認識完整分類；理解例子",
+    "resolution": "補四類客戶／三類產品／兩類國家因素及五類簡化方法；不把例子列為強制全做",
+    "status": "implemented"
+  },
+  {
+    "id": "G09",
+    "part": 6,
+    "anchor": "simplified",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶4.8.13",
+    "problem": "金融機構代名人／基金服務戶口條件不夠具體",
+    "impact": "記AND／OR條件",
+    "resolution": "補兩途徑及書面合約授權條件，與其他法定BO例外分開",
+    "status": "implemented"
+  },
+  {
+    "id": "G10",
+    "part": 6,
+    "anchor": "enhanced",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶4.9.5–4.9.6及註35–36",
+    "problem": "EDD只留高風險標籤，難以應用",
+    "impact": "認識因素；理解措施選擇",
+    "resolution": "展開潛在高風險18因素（7／7／4）及六類可能EDD措施，明示非每項一律必做",
+    "status": "implemented"
+  },
+  {
+    "id": "G11",
+    "part": 6,
+    "anchor": "peps",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶4.9.7–4.9.23及註37–42",
+    "problem": "香港／國際組織PEP職位範圍容易被泛稱重要公職取代",
+    "impact": "記類別與措施，勿將普通中低級職位算入",
+    "resolution": "補香港六類及國際組織高級職位例子；保留三類PEP適用措施及前PEP條件",
+    "status": "implemented"
+  },
+  {
+    "id": "G12",
+    "part": 6,
+    "anchor": "identity-evidence",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "附錄A；¶4.3.12及註21–25",
+    "problem": "將HK居民規則誤縮至人在香港；非居民遙距文件及核證條件欠清楚",
+    "impact": "記可接受來源及限制",
+    "resolution": "修正居民適用範圍及三類遙距文件；保留E18等既定兩語差異，核證人風險是加倍謹慎而非自動固定加項",
+    "status": "implemented"
+  },
+  {
+    "id": "G13",
+    "part": 6,
+    "anchor": "representatives",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "06"
+    ],
+    "source_files": [
+      "06_High_FAQ applicable to all MSOs (C&ED portal).md",
+      "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md"
+    ],
+    "locator": "AML FAQ A9、A12",
+    "problem": "PPTA基本資料只寫指定資料，讀者無法列出",
+    "impact": "須能列出清單",
+    "resolution": "列自然人四項／法人五項及面授至少一名代表；身分與授權分開",
+    "status": "implemented"
+  },
+  {
+    "id": "G14",
+    "part": 6,
+    "anchor": "beneficial-owners",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "06"
+    ],
+    "source_files": [
+      "06_High_FAQ applicable to all MSOs (C&ED portal).md",
+      "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md"
+    ],
+    "locator": "AML FAQ A10",
+    "problem": "非持股控制只有抽象定義",
+    "impact": "理解控制，例子非自動BO",
+    "resolution": "補私人關係、融資／合約等實際控制途徑及未行使控制／無跡象界線",
+    "status": "implemented"
+  },
+  {
+    "id": "G15",
+    "part": 6,
+    "anchor": "enhanced",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "06"
+    ],
+    "source_files": [
+      "06_High_FAQ applicable to all MSOs (C&ED portal).md",
+      "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md"
+    ],
+    "locator": "AML FAQ A16",
+    "problem": "SOW容易被理解為所有客戶皆須追溯多年",
+    "impact": "理解適用條件",
+    "resolution": "補按風險及已有背景決定深度，不將高風險要求普遍化",
+    "status": "implemented"
+  },
+  {
+    "id": "G16",
+    "part": 6,
+    "anchor": "intermediaries",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "06"
+    ],
+    "source_files": [
+      "06_High_FAQ applicable to all MSOs (C&ED portal).md",
+      "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md"
+    ],
+    "locator": "AML FAQ A22",
+    "problem": "不能轉移監控責任可能被誤讀為中介不可協助",
+    "impact": "理解責任與協助分別",
+    "resolution": "明確可協助收集／更新資料，法定監控責任仍由MSO承擔",
+    "status": "implemented"
+  },
+  {
+    "id": "G17",
+    "part": 6,
+    "anchor": "remote",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "06"
+    ],
+    "source_files": [
+      "06_High_FAQ applicable to all MSOs (C&ED portal).md",
+      "06_高_適用於所有金錢服務經營者的常見問題（海關網站）.md"
+    ],
+    "locator": "AML FAQ A27",
+    "problem": "核證範圍容易變成所有CDD文件必須核證",
+    "impact": "記限制",
+    "resolution": "補通常限身分文件、可靠公開資料及看原件機會等限制",
+    "status": "implemented"
+  },
+  {
+    "id": "G18",
+    "part": 6,
+    "anchor": "wire-receiving",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶10.15–10.22",
+    "problem": "中介機構跨境直通處理與收款機構事後監察混合；should強度被提高",
+    "impact": "記角色、門檻、例外",
+    "resolution": "分清角色／本地與跨境適用，修正保存和收款人核實的should，保留10.20兩語差異",
+    "status": "implemented"
+  },
+  {
+    "id": "G19",
+    "part": 6,
+    "anchor": "suspicion-indicators",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶7.10(a)–(f)及註62–63",
+    "problem": "可疑交易只留數個例子，省去整組重要模式",
+    "impact": "記分類；能認識具體模式，毋須逐字背43句",
+    "resolution": "完整展開六組43項，保留非盡列／非自動定罪或必報、相連交易、AND／OR及實際貨物等條件",
+    "status": "implemented"
+  },
+  {
+    "id": "G20",
+    "part": 6,
+    "anchor": "trade-based-laundering",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "24"
+    ],
+    "source_files": [
+      "24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf",
+      "24_中選讀_貿易洗錢風險指標（2021年3月_英文原文）.pdf"
+    ],
+    "locator": "印刷第3–5頁及註5",
+    "problem": "集中註冊地址誤成近期大量註冊；偽造出口文件被概括為路線不合理",
+    "impact": "理解指標；中文為學習譯文",
+    "resolution": "改回地址特徵、暫時進口／進料加工後偽造文件出口，與無經濟理由轉運分開；補進口／出口兩方向金額比較",
+    "status": "implemented"
+  },
+  {
+    "id": "G21",
+    "part": 7,
+    "anchor": "training",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶9.4–9.8",
+    "problem": "培訓只寫定期培訓，欠內容及按職位區分",
+    "impact": "記內容及角色；方法是可選例子",
+    "resolution": "補五類共同內容、五組員工角色、三類成效評估方法；3年保存用should／應",
+    "status": "implemented"
+  },
+  {
+    "id": "G22",
+    "part": 7,
+    "anchor": "internal-report",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶7.12、7.15–7.16、7.21",
+    "problem": "員工知悉程序／內報內容／確認收報的措辭強度混用",
+    "impact": "理解直接報送及強度",
+    "resolution": "分開must／should；7.16中文必須確認、英文should明示；緊急電話為應考慮",
+    "status": "implemented"
+  },
+  {
+    "id": "G23",
+    "part": 7,
+    "anchor": "internal-report",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶7.20",
+    "problem": "只說不報留紀錄，欠真誠判斷的條件及保障界線",
+    "impact": "記全部條件",
+    "resolution": "補真誠、考慮全部可得資料後無懷疑時一般不大可能負刑責；不是絕對免責",
+    "status": "implemented"
+  },
+  {
+    "id": "G24",
+    "part": 7,
+    "anchor": "after-report",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶7.24、7.26–7.27",
+    "problem": "確認收報／通常同意／風險覆核過於概括",
+    "impact": "理解同意及風險處理分別",
+    "resolution": "補無需立即行動時通常同意、否則適當行動／法律意見；修正風險覆核should，不等於報告後自動可交易",
+    "status": "implemented"
+  },
+  {
+    "id": "G25",
+    "part": 7,
+    "anchor": "evidence-records",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶8.3(d)及註66；¶8.5",
+    "problem": "重要業務通信沒有定義，容易當成所有電郵",
+    "impact": "記最低內容與例外",
+    "resolution": "補最低涵蓋CDD／戶口重大改變，保留不用每項通信的限制；交易重構按should",
+    "status": "implemented"
+  },
+  {
+    "id": "G26",
+    "part": 7,
+    "anchor": "retention",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03",
+      "04"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf",
+      "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf",
+      "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf"
+    ],
+    "locator": "03 ¶8.10–8.12；04附表2第18條",
+    "problem": "中介終止交回與立即取得資料／應要求交文件可能混為一種強度",
+    "impact": "記不同責任與時間",
+    "resolution": "分別標明should及法定must，不更改法定五年起點",
+    "status": "implemented"
+  },
+  {
+    "id": "G27",
+    "part": 7,
+    "anchor": "law-enforcement",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶7.33",
+    "problem": "限制令只保留名稱，欠MSO應採取的動作",
+    "impact": "理解適用資產及行動",
+    "resolution": "補必須能扣留指定財產；依法考慮其餘資產可否使用而非自動放行",
+    "status": "implemented"
+  },
+  {
+    "id": "G28",
+    "part": 5,
+    "anchor": "policy",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "21"
+    ],
+    "source_files": [
+      "21_Medium-Selected_Guidelines for Submission of AML-CFT Policy (Ver 12-2019).pdf",
+      "21_中選讀_遞交打擊洗錢及恐怖分子資金籌集政策的指引（12-2019版）.pdf"
+    ],
+    "locator": "項目5、8",
+    "problem": "渠道／匯款地區概括詞省去提交資料",
+    "impact": "認識應提交資料",
+    "resolution": "補面對面／非面對面百分比、分開匯入／匯出目標司法管轄區",
+    "status": "implemented"
+  },
+  {
+    "id": "G29",
+    "part": 1,
+    "anchor": "risk-assessment",
+    "priority": "中：理解／參考",
+    "source_documents": [
+      "25"
+    ],
+    "source_files": [
+      "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf",
+      "25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf"
+    ],
+    "locator": "2022版¶5.4.16、5.4.20",
+    "problem": "非實地監察被簡化，容易誤解不用面談或非高風險不用監察",
+    "impact": "理解歷史機制，不背活動數量",
+    "resolution": "補評級資料來源、選定者面談及指定期交文件，放2022參考塊；頻率依較後15",
+    "status": "implemented"
+  },
+  {
+    "id": "G30",
+    "part": 6,
+    "anchor": "screening",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "26"
+    ],
+    "source_files": [
+      "26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf",
+      "26_中選讀_通函_聯合國制裁_原則及預警機制（2018年2月7日）.pdf"
+    ],
+    "locator": "PDF第2頁(d)後段；第3頁",
+    "problem": "制裁名單列入中英文已足以／may constitute有不同強度",
+    "impact": "保留差異，不把近似姓名當真命中",
+    "resolution": "依擁有人本輪決定並列差異；保留及時篩查與知悉／懷疑報告共同要求",
+    "status": "implemented"
+  },
+  {
+    "id": "G31",
+    "part": 4,
+    "anchor": "premises",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "05"
+    ],
+    "source_files": [
+      "05_High_Licensing Guide (May 2026).pdf",
+      "05_高_牌照指引（2026年5月）.pdf"
+    ],
+    "locator": "¶5.1–5.9",
+    "problem": "正文修正後處所圖表仍保留舊概括",
+    "impact": "圖表須與正文同條件",
+    "resolution": "同步改處所用途、全住宅大廈、LMO／LPS住宅及服務供應商地址限制",
+    "status": "implemented"
+  },
+  {
+    "id": "G32",
+    "part": 7,
+    "anchor": "after-report",
+    "priority": "高：適用條件／可獨立學習",
+    "source_documents": [
+      "03"
+    ],
+    "source_files": [
+      "03_High_Guideline on AML-CFT for Money Service Operators (Jun 2023).pdf",
+      "03_高_打擊洗錢及恐怖分子資金籌集指引（金錢服務經營者適用）（2023年6月）.pdf"
+    ],
+    "locator": "¶3.8–3.9、7.15、7.27",
+    "problem": "圖解的須／立即指令比正文更強，CO只剩重大缺失",
+    "impact": "圖是記憶導覽，不能代替完整條件",
+    "resolution": "同步角色圖及報告圖措辭，完整清單仍放正文",
+    "status": "implemented"
+  }
+]

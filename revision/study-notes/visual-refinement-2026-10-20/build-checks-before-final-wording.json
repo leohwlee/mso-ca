@@ -1,0 +1,62 @@
+[
+  {
+    "command": [
+      "go",
+      "run",
+      ".",
+      "-export-html",
+      "dist/mso-ca.html"
+    ],
+    "exit_code": 0,
+    "stdout": "wrote dist/mso-ca.html\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "revision/study-notes/gap_check.py"
+    ],
+    "exit_code": 0,
+    "stdout": "Bank gap audit: 525 identifiers checked; no bank content supplied to notes.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "revision/study-notes/gap_check.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "Bank gap audit: 525 identifiers checked; no bank content supplied to notes.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "revision/study-notes/build.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"checked\", \"parts\": 7, \"sections\": 75, \"points\": 621, \"sources\": 26}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "scripts/build_study_bundle.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"files\": 65, \"sha256\": \"ec2171bcf42abd77c1f986a2d5159f2382986487d162490c53458cce5d78f06c\", \"bytes\": 75793889}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "scripts/build_study_bundle.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"files\": 65, \"sha256\": \"ec2171bcf42abd77c1f986a2d5159f2382986487d162490c53458cce5d78f06c\", \"bytes\": 75793889}\n",
+    "stderr": ""
+  }
+]

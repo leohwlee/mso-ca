@@ -1,0 +1,7282 @@
+{
+  "summary": {
+    "stage": "after",
+    "pilot": false,
+    "pageCases": 105,
+    "panelCases": 495,
+    "failures": [],
+    "errors": [],
+    "remote": []
+  },
+  "hashes": {
+    "part-1.html": "a917333ce89ce11c0c9755a7a45e58e2dd9f7f8c48451024e090cfebea986ca1",
+    "part-2.html": "8c4b9e16816c0ee9d1c7099d9f7684aab9cb692a5eb117f39702eeca8675b557",
+    "part-3.html": "43a05c56ee9ce5e332756dc45dc5f519137cad313b718f91838696dfd8f61f74",
+    "part-4.html": "865cbe775e3902bbaaf9673d2ea41227d8cbc1000c7f9b6f815c3df221700625",
+    "part-5.html": "d818638d2b411e4d69f9a9b2beb6bc461e759ad7ee8e9314bfba7cc7a45148a9",
+    "part-6.html": "1207b1f926cfdea6ce00359fb8b159b9bdbe0072627a56ab92e16ca0f53a85d8",
+    "part-7.html": "a878aaa24eceba80827686b3f274517044295ac47bbc55d8c75f92baed6a001f"
+  },
+  "results": [
+    {
+      "part": 1,
+      "lang": "tc",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 330,
+          "height": 1485,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 330,
+          "height": 1117,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 330,
+          "height": 1102,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 330,
+          "height": 859,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 330,
+          "height": 1028,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "en",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 330,
+          "height": 1639,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 330,
+          "height": 1377,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 330,
+          "height": 1226,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 330,
+          "height": 1013,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 330,
+          "height": 1376,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "both",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 330,
+          "height": 2730,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 330,
+          "height": 2059,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 330,
+          "height": 2018,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 330,
+          "height": 1677,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 330,
+          "height": 2182,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "tc",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 330,
+          "height": 853,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 330,
+          "height": 1692,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 330,
+          "height": 768,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 330,
+          "height": 1187,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "en",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 330,
+          "height": 1064,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 330,
+          "height": 1919,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 330,
+          "height": 1023,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 330,
+          "height": 1451,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "both",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 330,
+          "height": 1616,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 330,
+          "height": 2977,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 330,
+          "height": 1651,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 330,
+          "height": 2190,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "tc",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 330,
+          "height": 1227,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 330,
+          "height": 2298,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 330,
+          "height": 757,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 330,
+          "height": 1212,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "en",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 330,
+          "height": 1408,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 330,
+          "height": 2868,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 330,
+          "height": 911,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 330,
+          "height": 1396,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "both",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 330,
+          "height": 2275,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 330,
+          "height": 4451,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 330,
+          "height": 1481,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 330,
+          "height": 2183,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "tc",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 330,
+          "height": 949,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 330,
+          "height": 574,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 330,
+          "height": 2873,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 330,
+          "height": 831,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "en",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 330,
+          "height": 1179,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 330,
+          "height": 655,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 330,
+          "height": 3153,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 330,
+          "height": 1092,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "both",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 330,
+          "height": 1827,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 330,
+          "height": 1105,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 330,
+          "height": 4814,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 330,
+          "height": 1701,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "tc",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 330,
+          "height": 809,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 330,
+          "height": 1134,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 330,
+          "height": 1469,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "en",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 330,
+          "height": 1015,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 330,
+          "height": 1337,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 330,
+          "height": 1805,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "both",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 330,
+          "height": 1585,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 330,
+          "height": 2076,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 330,
+          "height": 2847,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "tc",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 330,
+          "height": 1466,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 330,
+          "height": 1550,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 330,
+          "height": 1244,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 330,
+          "height": 1017,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 330,
+          "height": 799,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 330,
+          "height": 601,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 330,
+          "height": 623,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 330,
+          "height": 1262,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 330,
+          "height": 707,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 330,
+          "height": 1068,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "en",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 330,
+          "height": 1827,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 330,
+          "height": 1809,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 330,
+          "height": 1585,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 330,
+          "height": 1220,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 330,
+          "height": 1003,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 330,
+          "height": 746,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 330,
+          "height": 768,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 330,
+          "height": 1526,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 330,
+          "height": 944,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 330,
+          "height": 1290,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "both",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 330,
+          "height": 3106,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 330,
+          "height": 2861,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 330,
+          "height": 2537,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 330,
+          "height": 1992,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 330,
+          "height": 1610,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 330,
+          "height": 1200,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 330,
+          "height": 1182,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 330,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 330,
+          "height": 2475,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 330,
+          "height": 1523,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 330,
+          "height": 2120,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "tc",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 330,
+          "height": 1029,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 330,
+          "height": 555,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 330,
+          "height": 1660,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "en",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 330,
+          "height": 1247,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 330,
+          "height": 757,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 330,
+          "height": 1792,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "both",
+      "width": 390,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 330,
+          "height": 1917,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 330,
+          "height": 1199,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 330,
+          "height": 2905,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "tc",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 540,
+          "height": 1320,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 540,
+          "height": 1039,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 540,
+          "height": 974,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 540,
+          "height": 773,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 540,
+          "height": 886,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "en",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 540,
+          "height": 1427,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 540,
+          "height": 1126,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 540,
+          "height": 1023,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 540,
+          "height": 835,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 540,
+          "height": 1042,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "both",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 540,
+          "height": 2351,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 540,
+          "height": 1730,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 540,
+          "height": 1687,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 540,
+          "height": 1411,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 540,
+          "height": 1700,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "tc",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 540,
+          "height": 776,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 540,
+          "height": 1507,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 540,
+          "height": 657,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 540,
+          "height": 964,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "en",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 540,
+          "height": 862,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 540,
+          "height": 1672,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 540,
+          "height": 761,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 540,
+          "height": 1114,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "both",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 540,
+          "height": 1337,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 540,
+          "height": 2542,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 540,
+          "height": 1271,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 540,
+          "height": 1617,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "tc",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 540,
+          "height": 1014,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 540,
+          "height": 2103,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 540,
+          "height": 680,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 540,
+          "height": 1048,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "en",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 540,
+          "height": 1157,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 540,
+          "height": 2316,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 540,
+          "height": 737,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 540,
+          "height": 1163,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "both",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 540,
+          "height": 1811,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 540,
+          "height": 3587,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 540,
+          "height": 1229,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 540,
+          "height": 1786,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "tc",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 540,
+          "height": 834,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 540,
+          "height": 497,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 540,
+          "height": 2709,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 540,
+          "height": 755,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "en",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 540,
+          "height": 1006,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 540,
+          "height": 524,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 540,
+          "height": 2853,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 540,
+          "height": 876,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "both",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 540,
+          "height": 1539,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 540,
+          "height": 897,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 540,
+          "height": 4350,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 540,
+          "height": 1406,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "tc",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 540,
+          "height": 760,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 540,
+          "height": 949,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 540,
+          "height": 1354,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "en",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 540,
+          "height": 826,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 540,
+          "height": 1037,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 540,
+          "height": 1456,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "both",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 540,
+          "height": 1346,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 540,
+          "height": 1591,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 540,
+          "height": 2379,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "tc",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 540,
+          "height": 1167,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 540,
+          "height": 1388,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 540,
+          "height": 1019,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 540,
+          "height": 922,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 540,
+          "height": 673,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 540,
+          "height": 533,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 540,
+          "height": 574,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 540,
+          "height": 1079,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 540,
+          "height": 621,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 540,
+          "height": 982,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "en",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 540,
+          "height": 1395,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 540,
+          "height": 1574,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 540,
+          "height": 1208,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 540,
+          "height": 1032,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 540,
+          "height": 759,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 540,
+          "height": 590,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 540,
+          "height": 603,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 540,
+          "height": 1251,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 540,
+          "height": 739,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 540,
+          "height": 1159,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "both",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 540,
+          "height": 2303,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 540,
+          "height": 2464,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 540,
+          "height": 1925,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 540,
+          "height": 1706,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 540,
+          "height": 1193,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 540,
+          "height": 975,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 540,
+          "height": 969,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 540,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 540,
+          "height": 2017,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 540,
+          "height": 1228,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 540,
+          "height": 1903,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "tc",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 540,
+          "height": 955,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 540,
+          "height": 420,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 540,
+          "height": 1405,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "en",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 540,
+          "height": 1062,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 540,
+          "height": 564,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 540,
+          "height": 1548,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "both",
+      "width": 600,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 540,
+          "height": 1659,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 540,
+          "height": 870,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 540,
+          "height": 2404,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "tc",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 672,
+          "height": 1330,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 672,
+          "height": 963,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 672,
+          "height": 732,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 672,
+          "height": 737,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 672,
+          "height": 869,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "en",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 672,
+          "height": 1378,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 672,
+          "height": 1078,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 672,
+          "height": 819,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 672,
+          "height": 848,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 672,
+          "height": 1006,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "both",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 672,
+          "height": 2311,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 672,
+          "height": 1683,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 672,
+          "height": 1416,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 672,
+          "height": 1391,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 672,
+          "height": 1650,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "tc",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 672,
+          "height": 521,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 262,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 672,
+          "height": 1163,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 672,
+          "height": 644,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 672,
+          "height": 970,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "en",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 672,
+          "height": 751,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 262,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 672,
+          "height": 1319,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 672,
+          "height": 721,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 672,
+          "height": 1034,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "both",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 672,
+          "height": 1143,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 262,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 672,
+          "height": 2099,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 672,
+          "height": 1222,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 672,
+          "height": 1543,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "tc",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 672,
+          "height": 762,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 672,
+          "height": 2019,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 672,
+          "height": 657,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 672,
+          "height": 660,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "en",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 672,
+          "height": 962,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 672,
+          "height": 2184,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 672,
+          "height": 715,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 672,
+          "height": 862,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "both",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 672,
+          "height": 1538,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 672,
+          "height": 3502,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 672,
+          "height": 1186,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 672,
+          "height": 1332,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "tc",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 672,
+          "height": 607,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 672,
+          "height": 421,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 672,
+          "height": 2626,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 672,
+          "height": 733,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "en",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 672,
+          "height": 837,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 672,
+          "height": 451,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 672,
+          "height": 2713,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 672,
+          "height": 857,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "both",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 672,
+          "height": 1316,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 672,
+          "height": 756,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 672,
+          "height": 4331,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 672,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 672,
+          "height": 1366,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "tc",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 672,
+          "height": 501,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 672,
+          "height": 619,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 672,
+          "height": 942,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "en",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 672,
+          "height": 615,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 672,
+          "height": 796,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 672,
+          "height": 1139,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "both",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 672,
+          "height": 916,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 672,
+          "height": 1256,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 672,
+          "height": 1694,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "tc",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 672,
+          "height": 1079,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 672,
+          "height": 1008,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 672,
+          "height": 976,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 672,
+          "height": 904,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 672,
+          "height": 492,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 672,
+          "height": 539,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 672,
+          "height": 422,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 672,
+          "height": 1088,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 672,
+          "height": 635,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 672,
+          "height": 948,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "en",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 672,
+          "height": 1286,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 672,
+          "height": 1189,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 672,
+          "height": 1131,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 672,
+          "height": 1041,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 672,
+          "height": 659,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 672,
+          "height": 568,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 672,
+          "height": 508,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 672,
+          "height": 1177,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 672,
+          "height": 699,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 672,
+          "height": 1130,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "both",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 672,
+          "height": 2145,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 672,
+          "height": 1785,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 672,
+          "height": 1770,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 672,
+          "height": 1701,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 672,
+          "height": 1022,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 672,
+          "height": 961,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 672,
+          "height": 832,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 235,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 672,
+          "height": 1956,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 672,
+          "height": 1205,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 672,
+          "height": 1843,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "tc",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 672,
+          "height": 935,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 672,
+          "height": 426,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 672,
+          "height": 1152,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "en",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 672,
+          "height": 1068,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 672,
+          "height": 541,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 672,
+          "height": 1221,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "both",
+      "width": 768,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 672,
+          "height": 1646,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 672,
+          "height": 856,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 672,
+          "height": 2038,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "tc",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 611,
+          "height": 1330,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 611,
+          "height": 963,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 611,
+          "height": 935,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 611,
+          "height": 737,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 611,
+          "height": 896,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "en",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 611,
+          "height": 1378,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 611,
+          "height": 1078,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 611,
+          "height": 1014,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 611,
+          "height": 848,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 611,
+          "height": 1028,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "both",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 611,
+          "height": 2311,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 611,
+          "height": 1633,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 611,
+          "height": 1645,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 611,
+          "height": 1391,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 611,
+          "height": 1698,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "tc",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 611,
+          "height": 781,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 611,
+          "height": 1514,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 611,
+          "height": 673,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 611,
+          "height": 970,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "en",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 611,
+          "height": 839,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 611,
+          "height": 1598,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 611,
+          "height": 721,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 611,
+          "height": 1120,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "both",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 611,
+          "height": 1322,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 611,
+          "height": 2475,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 611,
+          "height": 1251,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 611,
+          "height": 1631,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "tc",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 611,
+          "height": 1023,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 611,
+          "height": 2076,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 611,
+          "height": 686,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 611,
+          "height": 1024,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "en",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 611,
+          "height": 1079,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 611,
+          "height": 2234,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 611,
+          "height": 715,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 611,
+          "height": 1111,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "both",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 611,
+          "height": 1745,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 611,
+          "height": 3526,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 611,
+          "height": 1215,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 611,
+          "height": 1713,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "tc",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 611,
+          "height": 839,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 611,
+          "height": 515,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 611,
+          "height": 2626,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 611,
+          "height": 762,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "en",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 611,
+          "height": 925,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 611,
+          "height": 513,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 611,
+          "height": 2741,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 611,
+          "height": 886,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "both",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 611,
+          "height": 1466,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 611,
+          "height": 898,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 611,
+          "height": 4226,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 611,
+          "height": 1424,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "tc",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 611,
+          "height": 712,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 611,
+          "height": 955,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 611,
+          "height": 1313,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "en",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 611,
+          "height": 807,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 611,
+          "height": 1045,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 611,
+          "height": 1475,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "both",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 611,
+          "height": 1286,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 611,
+          "height": 1608,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 611,
+          "height": 2370,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "tc",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 611,
+          "height": 1145,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 611,
+          "height": 1374,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 611,
+          "height": 976,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 611,
+          "height": 904,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 611,
+          "height": 649,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 611,
+          "height": 539,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 611,
+          "height": 551,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 611,
+          "height": 1088,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 611,
+          "height": 635,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 611,
+          "height": 969,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "en",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 611,
+          "height": 1315,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 611,
+          "height": 1597,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 611,
+          "height": 1131,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 611,
+          "height": 1041,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 611,
+          "height": 736,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 611,
+          "height": 568,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 611,
+          "height": 608,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 611,
+          "height": 1204,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 611,
+          "height": 699,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 611,
+          "height": 1151,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "both",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 611,
+          "height": 2202,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 611,
+          "height": 2485,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 611,
+          "height": 1770,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 611,
+          "height": 1701,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 611,
+          "height": 1149,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 611,
+          "height": 961,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 611,
+          "height": 953,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "block",
+              "rowDisplay": "block",
+              "firstDataCellWidth": 611,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 611,
+          "height": 1983,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 611,
+          "height": 1205,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 611,
+          "height": 1886,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "tc",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 611,
+          "height": 962,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 611,
+          "height": 426,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 611,
+          "height": 1418,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "en",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 611,
+          "height": 1068,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 611,
+          "height": 541,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 611,
+          "height": 1477,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "both",
+      "width": 900,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 611,
+          "height": 1673,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 611,
+          "height": 856,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 611,
+          "height": 2347,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "tc",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 1078,
+          "height": 681,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 1078,
+          "height": 492,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 1078,
+          "height": 646,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 1078,
+          "height": 570,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 1078,
+          "height": 646,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "en",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 1078,
+          "height": 733,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 1078,
+          "height": 665,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 1078,
+          "height": 675,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 1078,
+          "height": 584,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 1078,
+          "height": 696,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "lang": "both",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-stages",
+          "width": 1078,
+          "height": 1195,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-ml-tf-pf",
+          "width": 1078,
+          "height": 1028,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-risk-lists",
+          "width": 1078,
+          "height": 1185,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-cross-sector-mechanisms",
+          "width": 1078,
+          "height": 976,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cash-scope",
+          "width": 1078,
+          "height": 1144,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "tc",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 1078,
+          "height": 434,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 420,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 1078,
+          "height": 1136,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 1078,
+          "height": 549,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 1078,
+          "height": 700,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "en",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 1078,
+          "height": 549,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 420,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 1078,
+          "height": 1148,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 1078,
+          "height": 667,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 1078,
+          "height": 773,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "lang": "both",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-inspection-versus-investigation",
+          "width": 1078,
+          "height": 855,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 420,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-licence-clocks",
+          "width": 1078,
+          "height": 1844,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-penalty-ceilings",
+          "width": 1078,
+          "height": 1069,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-commencement",
+          "width": 1078,
+          "height": 1123,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "tc",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 1078,
+          "height": 676,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 1078,
+          "height": 1213,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 1078,
+          "height": 625,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 1078,
+          "height": 574,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "en",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 1078,
+          "height": 761,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 1078,
+          "height": 1443,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 1078,
+          "height": 625,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 1078,
+          "height": 689,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "lang": "both",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-ownership-boundary",
+          "width": 1078,
+          "height": 1250,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-money-boundaries",
+          "width": 1078,
+          "height": 2314,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-shell-bank-and",
+          "width": 1078,
+          "height": 1066,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-fee-components",
+          "width": 1078,
+          "height": 1073,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "tc",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 1078,
+          "height": 492,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 1078,
+          "height": 392,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 1078,
+          "height": 1300,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 1078,
+          "height": 566,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "en",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 1078,
+          "height": 607,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 1078,
+          "height": 390,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 1078,
+          "height": 1501,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 1078,
+          "height": 591,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "lang": "both",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-three-places",
+          "width": 1078,
+          "height": 970,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-assessment-pass",
+          "width": 1078,
+          "height": 665,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-assessment-clocks",
+          "width": 1078,
+          "height": 2399,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            },
+            {
+              "labelled": true,
+              "expectedHeaders": 4,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 237,
+              "accessibleHeaders": 4
+            }
+          ]
+        },
+        {
+          "id": "memory-exchange-rights",
+          "width": 1078,
+          "height": 961,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "tc",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 1078,
+          "height": 501,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 1078,
+          "height": 504,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 1078,
+          "height": 918,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "en",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 1078,
+          "height": 501,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 1078,
+          "height": 619,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 1078,
+          "height": 966,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "lang": "both",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-risk-levels",
+          "width": 1078,
+          "height": 778,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-review-frequency",
+          "width": 1078,
+          "height": 964,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-control-responsibilities",
+          "width": 1078,
+          "height": 1485,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "tc",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 1078,
+          "height": 932,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 1078,
+          "height": 980,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 1078,
+          "height": 814,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 1078,
+          "height": 619,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 1078,
+          "height": 463,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 1078,
+          "height": 478,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 1078,
+          "height": 364,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 1078,
+          "height": 968,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 1078,
+          "height": 414,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 1078,
+          "height": 602,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "en",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 1078,
+          "height": 1081,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 1078,
+          "height": 1031,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 1078,
+          "height": 857,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 1078,
+          "height": 644,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 1078,
+          "height": 521,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 1078,
+          "height": 507,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 1078,
+          "height": 422,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 1078,
+          "height": 1024,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 1078,
+          "height": 493,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 1078,
+          "height": 670,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "lang": "both",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-cdd-trigger-tree",
+          "width": 1078,
+          "height": 1783,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-party-roles",
+          "width": 1078,
+          "height": 1585,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-cdd-extent-tree",
+          "width": 1078,
+          "height": 1416,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-sow-sof",
+          "width": 1078,
+          "height": 1065,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-pep-categories",
+          "width": 1078,
+          "height": 855,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-pep-common-and",
+          "width": 1078,
+          "height": 841,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-reliance-outsourcing",
+          "width": 1078,
+          "height": 688,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": [
+            {
+              "labelled": true,
+              "expectedHeaders": 3,
+              "headerDisplay": "table-header-group",
+              "rowDisplay": "table-row",
+              "firstDataCellWidth": 377,
+              "accessibleHeaders": 3
+            }
+          ]
+        },
+        {
+          "id": "memory-transfer-information",
+          "width": 1078,
+          "height": 1686,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-wire-responsibilities",
+          "width": 1078,
+          "height": 814,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-trade-value-paths",
+          "width": 1078,
+          "height": 1093,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "tc",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 1078,
+          "height": 699,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 1078,
+          "height": 365,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 1078,
+          "height": 1108,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "en",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 1078,
+          "height": 696,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 1078,
+          "height": 394,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 1078,
+          "height": 1138,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "lang": "both",
+      "width": 1440,
+      "pageOverflow": false,
+      "panels": [
+        {
+          "id": "memory-reporting-route",
+          "width": 1078,
+          "height": 1136,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-after-report-parallel",
+          "width": 1078,
+          "height": 649,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        },
+        {
+          "id": "memory-retention-clocks",
+          "width": 1078,
+          "height": 1856,
+          "overflow": false,
+          "spills": [],
+          "hiddenWrongLanguage": true,
+          "columns": []
+        }
+      ]
+    }
+  ]
+}

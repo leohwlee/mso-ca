@@ -31,7 +31,7 @@ def audit():
     return dict(method='Post-authoring identifier/source-route check only. This tool does not assess bank-statement semantics or prove completeness. Manual concept review is recorded separately.',bank_sha256=hashlib.sha256(bank_path.read_bytes()).hexdigest(),quotes_sha256=hashlib.sha256(quotes_path.read_bytes()).hexdigest(),manuscripts=manifest()['manuscripts'],essentials=manifest()['essentials'],recall=manifest()['recall'],questions_checked=len(rows),historical_supplements=ADDITIONS,source_routes=source_routes,source_overlap=rows)
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');ap.add_argument('--output',type=Path,default=HERE/'visual-upgrade-2026-10-19'/'bank-source-routes.json');args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');ap.add_argument('--output',type=Path,default=HERE/'visual-refinement-2026-10-20'/'bank-source-routes.json');args=ap.parse_args()
     text=json.dumps(audit(),ensure_ascii=False,indent=2)+'\n';path=args.output
     if args.check:assert path.read_text(encoding='utf-8')==text,'Stale gap audit'
     else:path.write_text(text,encoding='utf-8',newline='\n')

@@ -1,5 +1,13 @@
 # Conflicting sources and how each is settled
 
+## Additional owner decision — 20 October 2026
+
+**D26-20261020 — sanctions-list inclusion and grounds for suspicion.**
+`26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf`, p.2, paragraph after (d), says inclusion “may constitute grounds for knowledge or suspicion”.
+`26_中選讀_通函_聯合國制裁_原則及預警機制（2018年2月7日）.pdf`, p.2, the corresponding paragraph, says “已足以構成知悉或懷疑的理由” and that the statutory duties/offence provisions “隨即適用”. Both original PDF pages were inspected; the Chinese text extraction is incomplete here.
+
+Owner decision in this review: **保留两语措辞差异**. Study notes must explicitly retain the difference, without silently harmonising the strength. Preserve the common requirements for prompt screening after UN promulgation regardless of Hong Kong implementation, and applicable knowledge/suspicion reporting obligations. This does not decide that a merely similar name is a confirmed match. See the [depth review](study-notes/depth-review-2026-10-20/REPORT.md) and Part 6 screening. The historical decisions below remain unchanged.
+
 A fresh check of the 23 official documents in September 2026 found 95 places where they disagree, or seem to. The owner decided every one on 26 and 27 September 2026, and on 27 September one more (B42) that came up while the decisions were being applied. On 28 September the owner decided E41, which the blind review of module 6 turned up. These decisions replace the 24 calls of 24 and 25 September 2026. The revision pack and the question bank (`web/questions.json`) follow them.
 
 ## Document numbers

@@ -1,4 +1,4 @@
-"""Source-authored bilingual manuscript; source-checked 2026-10-19. No bank input."""
+"""Source-authored bilingual manuscript. Review scope: depth-review-2026-10-20/REPORT.md."""
 from model import p, ref, block, section
 
 PART = dict(title=p('《打擊洗錢及恐怖分子資金籌集條例》：附表', 'Anti-Money Laundering and Counter-Terrorist Financing Ordinance: schedules'),
@@ -38,6 +38,12 @@ section('definitions', '附表1及附表2：重要定義', 'Schedules 1 and 2: k
     ], kind='list'),
 ]),
 section('core-duties', '四項盡職審查與觸發條件', 'Four CDD measures and their triggers', [
+    block('須認識：核實客戶身分的五類法定來源', 'Recognise: five statutory sources for customer identity verification', [
+        ('附表2第2(1)(a)條列出五類替代來源（OR）：(1)政府機構；(2)有關當局或任何其他有關主管當局；(3)在香港以外執行相類職能的主管當局；(4)認可數碼識別系統；(5)有關當局認可的任何其他可靠及獨立來源。可採用來自這些來源的文件、數據或資料，不只限於一種紙本證件，亦不是任何看似可信的資料便自動合資格。', 'Schedule 2 section 2(1)(a) provides five alternative sources (OR): (1) a governmental body; (2) the relevant authority or any other relevant authority; (3) an overseas authority performing similar functions; (4) a recognized digital identification system; or (5) any other reliable and independent source recognized by the relevant authority. Documents, data or information from these sources may be used: the rule is not restricted to one paper identity document, nor does every apparently credible source automatically qualify.'),
+        ('適用於MSO的認可是海關關長的認可。另須分清：第2(1)(d)(i)條關於代表客戶行事的人，明列的是政府、相關當局、境外相類當局、及認可的其他可靠獨立來源四類；該清單沒有另列「認可數碼識別系統」一項。代表的身分核實與代表客戶行事的授權核實仍是兩項工作。', 'For an MSO, recognition is by the CCE. Distinguish section 2(1)(d)(i) for a person acting for a customer: it expressly lists four categories—governmental bodies, relevant authorities, similar overseas authorities and recognized other reliable independent sources—and does not separately list a recognized digital identification system. Verifying the representative’s identity and verifying authority to act remain separate tasks.'),
+    ], [
+        ref('04', '附表2第1條「認可數碼識別系統」、第2(1)(a)、(d)(i)–(ii)條', 'Schedule 2 s.1 “recognized digital identification system”; s.2(1)(a), (d)(i)–(ii)', 'a governmental body'),
+    ], kind='list'),
     block('完整措施及時間', 'Full measures and timing', [
         ('四項CDD：識別及核實客戶；識別實益擁有人並採合理措施核實及了解法人／信託結構；取得業務關係目的及擬具有的性質資料（明顯可見者除外）；識別／核實代表客戶行事的人及其授權。識別和核實是不同工作。', 'The four CDD measures are: identify/verify the customer; identify beneficial owners and reasonably verify them, understanding legal-person/trust structures; obtain the relationship’s purpose/intended nature unless obvious; and identify/verify persons acting for the customer and their authority. Identification and verification are separate tasks.'),
         ('須在建立業務關係前、一般非經常交易等於或超過120,000元前、金融機構非經常電傳轉賬或虛擬資產轉移等於或超過8,000元前進行CDD。單次或看似有關連的多次操作須合併考慮。持牌虛擬資產服務提供者另有非轉賬非經常交易8,000元規則，不能套作所有MSO的一般門檻。', 'CDD precedes a business relationship, general occasional transactions of at least HK$120,000, and financial-institution occasional wire/VA transfers of at least HK$8,000. Consider single or apparently linked operations together. Licensed VAS providers have a separate HK$8,000 non-transfer occasional-transaction rule; it is not every MSO’s general threshold.'),
@@ -127,7 +133,7 @@ section('tribunal-schedule', '附表4：審裁處成員及聆訊安排', 'Schedu
     block('成員、表決及出席', 'Membership, voting and attendance', [
         ('主席須具高等法院法官委任資格，且除審裁處主席等法定例外外不是公職人員。主席任期不超過3年，可續任。局長另委任非公職人員組成委員團，依主席建議為每宗覆核選兩名普通成員。', 'The chair must qualify for appointment as a judge of the High Court and not be a public officer except statutory tribunal-chair exceptions. The term is up to three years, renewable. The Secretary appoints a non-public-officer panel and, on the chair’s recommendation, two ordinary members for each review.'),
         ('一般須主席及兩名普通成員在席，多數票決定；法律問題由主席單獨決定。主席任期在案件中途屆滿可繼續完成該案；成員變更，須各方同意才繼續，否則中止但可重開。', 'Normally the chair and two ordinary members sit and decide by majority; the chair alone decides law. A chair whose term expires mid-review may finish it. Membership changes require parties’ consent to continue; otherwise proceedings discontinue but may restart.'),
-        ('一般公開聆訊；為司法公正可依職權或申請決定非公開，申請非公開本身的聆訊也非公開。各方可親身、公司由高級人員／僱員、合夥由合夥人、當局由代表出席，亦可由律師／大律師或獲准其他人代表。', 'Hearings are normally public. Justice may require privacy on initiative/application; the privacy application itself is heard privately. Parties may attend personally, corporations through officers/employees, partnerships through partners and authorities through representatives, and use lawyers or other persons with leave.'),
+        ('一般公開聆訊；為司法公正可依職權或申請決定非公開，申請非公開本身的聆訊也非公開。各方可親身、公司由高級人員／僱員、合夥由合夥人、當局由代表出席，亦可由律師／大律師或獲准其他人代表。', 'Hearings are normally public. Justice may require privacy on initiative/application; the privacy application itself is heard privately. Parties may attend personally, corporations through officers/employees, partnerships through partners and authorities through representatives, and are entitled to representation by a solicitor or counsel; representation by any other person requires the Tribunal’s leave.'),
     ], [
         ref('04', '第56條；附表4第2–6條', 's.56; Schedule 4 ss.2–6', 'a question of law is to be determined by the chairperson alone'),
     ], kind='list'),

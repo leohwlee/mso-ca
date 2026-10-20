@@ -1,11 +1,11 @@
-"""Source-authored bilingual manuscript; source-checked 2026-10-19. No bank input."""
+"""Source-authored bilingual manuscript. Review scope: depth-review-2026-10-20/REPORT.md."""
 from model import p, ref, block, section
 
 PART = dict(title=p('有關打擊洗錢及恐怖分子資金籌集與打擊擴散資金籌集的常識', 'General knowledge on AML/CFT and Counter Proliferation Financing'),
 intro=p('理解資金如何被濫用、香港的法律與風險背景，以及制裁和跨境現金申報的作用。', 'Understand how funds are misused, Hong Kong’s legal and risk context, and the roles of sanctions and cross-boundary cash declarations.'), sections=[
 section('money-laundering', '洗錢：犯罪得益及三個階段', 'Money laundering: criminal proceeds and three stages', [
     block('定義與過程', 'Definition and process', [
-        ('洗錢是把犯罪得益偽裝成合法財產的過程；包括處理明知或有合理理由相信代表犯罪得益的財產。財產本身不一定看來可疑，亦不限於現金。', 'Money laundering disguises criminal proceeds as legitimate property. It includes dealing with property known or reasonably believed to represent criminal proceeds. The property need not look suspicious and is not limited to cash.'),
+        ('洗錢的法定定義著重行為的意圖：令犯罪得益或全部／部分、直接／間接代表該得益的財產，表面上不像犯罪得益。另須區分DTROP／OSCO第25條的處理犯罪得益罪：處理財產時知道或有合理理由相信它代表犯罪得益。財產不限現金，亦不必表面可疑。', 'The statutory ML definition concerns an act intended to make crime proceeds, or property wholly/partly and directly/indirectly representing them, appear not to be such proceeds. Distinguish the DTROP/OSCO section 25 dealing offence: dealing while knowing or having reasonable grounds to believe the property represents crime proceeds. Property is not limited to cash and need not look suspicious.'),
         ('存放：把犯罪現金放入金融體系，例如分拆存款或兌換。分層：透過多次轉移、不同帳戶或司法管轄區掩藏來源。整合：使資金以投資、資產或業務收益等形式重新出現為合法財富。', 'Placement introduces criminal cash into the financial system, for example through split deposits or exchange. Layering obscures its origin through transfers, accounts or jurisdictions. Integration returns it as apparently legitimate investments, assets or business income.'),
         ('三個階段是理解典型模式的工具，實際交易可同時涉及多個階段。匯款或兌換業務可能協助存放及分層，交易有商業外觀也不表示資金合法。', 'The stages explain typical patterns; actual transactions can overlap them. Remittance and exchange can facilitate placement and layering, and a commercial appearance does not establish legitimacy.'),
     ], [
@@ -45,7 +45,7 @@ section('legal-framework', '香港法律：各條例處理的問題', 'Hong Kong
         ('第575章《聯合國（反恐怖主義措施）條例》（UNATMO）：恐怖分子財產、相關服務及披露。第537章《聯合國制裁條例》（UNSO）：在香港實施聯合國安全理事會決議所要求的制裁。第526章《大規模毀滅武器（提供服務的管制）條例》：管制可能協助大規模毀滅武器發展、生產、獲取、儲存及運載方式的服務；有合理理由相信或懷疑服務可能涉及擴散融資時，禁止提供。', 'Cap.575 UNATMO addresses terrorist property, related services and disclosure. Cap.537 UNSO implements sanctions required by UN Security Council resolutions. Cap.526 controls services that will/may assist WMD development, production, acquisition, stockpiling or delivery, and prohibits services where the provider believes or suspects on reasonable grounds that they may be connected to PF.'),
         ('第405／455章的洗錢罪最高可罰款500萬元及監禁14年；不披露知悉／懷疑事項最高可罰款5萬元及監禁3個月；通風報訊最高可監禁3年。恐怖分子資金籌集相關罪行可監禁14年及罰款。須分清犯罪、披露及監管處分是不同責任。', 'The DTROP/OSCO laundering offence carries up to HK$5 million and 14 years. Failure to disclose carries up to HK$50,000 and three months; tipping-off up to three years. Relevant TF offences carry up to 14 years and a fine. Criminal liability, disclosure duties and regulatory sanctions are distinct.'),
     ], [
-        ref('03', '第1.14–1.28、6.1–6.4段', '¶1.14–1.28, 6.1–6.4', 'imprisonment for 14 years'),
+        ref('03', '第1.14–1.27、6.1–6.4段', '¶1.14–1.27, 6.1–6.4', 'imprisonment for 14 years'),
     ], kind='list'),
     block('六項法例的英文全名及常用縮寫', 'Full names behind the six legal abbreviations', [
         ('AMLO是第615章《打擊洗錢及恐怖分子資金籌集條例》；DTROP是第405章《販毒（追討得益）條例》；OSCO是第455章《有組織及嚴重罪行條例》。不要把一般犯罪得益的洗錢責任只限於毒品得益。', 'AMLO: Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap.615. DTROP: Drug Trafficking (Recovery of Proceeds) Ordinance, Cap.405. OSCO: Organized and Serious Crimes Ordinance, Cap.455. Laundering liability for indictable-crime proceeds is not confined to drug proceeds.'),
@@ -60,10 +60,15 @@ section('legal-framework', '香港法律：各條例處理的問題', 'Hong Kong
     ], [
         ref('25', '2022年版，第3.15–3.19、4.50段及註95', '2022 edition, ¶3.15–3.19, 4.50 and note 95', 'Restraint and confiscation/forfeiture'),
     ], kind='reference'),
+    block('用語邊界：指引中的金融機構', 'Terminology boundary: financial institutions in the Guideline', [
+        ('第03份的用語一般沿用AMLO涵義；詞彙表特別說明，FI（Financial Institution，金融機構）除另有指明外，採FATF建議的定義。寫明「AMLO所界定的金融機構」時，才用該法定範圍。不能把指引所有FI字眼都直接當成同一份香港機構牌照清單；本地電傳、合資格中介人及SDD各有具體定義／條件，見Part 3及Part 6。', 'Terms in document 03 generally follow AMLO meanings. Its glossary specifically says FI (Financial Institution) follows the FATF Recommendations unless otherwise specified, for example “an FI as defined in the AMLO”. Do not read every FI reference as the same list of Hong Kong licensed institutions. Domestic wires, eligible intermediaries and SDD have their own specified definitions/conditions in Parts 3 and 6.'),
+    ], [
+        ref('03', '第1.2段及「主要用語及縮寫詞彙」金融機構條目', '¶1.2 and Glossary, Financial institution(s)', 'unless specified otherwise'),
+    ], kind='list'),
 ]),
 section('international', 'FATF與司法管轄區風險', 'FATF and jurisdiction risk', [
     block('標準、名單與法律須分開理解', 'Distinguish standards, lists and law', [
-        ('財務行動特別組織（FATF）制定打擊洗錢、恐怖分子資金籌集及擴散融資的國際標準；香港是成員。FATF建議及相互評估促進有效制度，但不是直接取代香港法例的發牌或定罪條文。', 'The Financial Action Task Force (FATF) sets international AML/CFT and proliferation-financing standards. Hong Kong is a member. Recommendations and mutual evaluations support effective regimes; they do not replace Hong Kong’s licensing or criminal provisions.'),
+        ('財務行動特別組織（FATF）是1989年成立的跨政府組織，制定標準並推動法律、監管及操作措施的有效實施，以打擊洗錢、恐怖分子資金籌集及擴散資金籌集。香港是成員，須實施最新建議。特別組織透過司法管轄區相互評估及嚴格跟進監察合規，並識別高風險及其他受監察地區；建議不是香港法例的替代品。', 'The Financial Action Task Force (FATF), an inter-governmental body formed in 1989, sets standards and promotes effective legal, regulatory and operational measures against ML, TF and PF. Hong Kong is a member obliged to implement its latest Recommendations. FATF monitors compliance through jurisdiction evaluations and stringent follow-up, including identifying high-risk and other monitored jurisdictions; its Recommendations do not replace Hong Kong law.'),
         ('「呼籲採取行動」類別要求加強盡職審查；特定高風險地區另有反制措施。「加強監察」類別須納入風險評估，但並非單憑列名便一律要求加強盡職審查。FATF風險名單亦不是聯合國的指定人士制裁名單。', 'The call-for-action category requires enhanced due diligence, with countermeasures for specified high-risk jurisdictions. Increased monitoring informs risk assessment but does not by itself require EDD in every case. FATF risk lists are distinct from UN designated-person sanctions lists.'),
         ('第19份2026年7月3日通函記錄：朝鮮及伊朗須採取反制措施；緬甸須採取與風險相稱的加強措施；加強監察新增波斯尼亞和黑塞哥維那及伊拉克。這是該通函日期的名單，運作時須使用最新官方更新。', 'Document 19, dated 3 July 2026, records countermeasures for DPRK and Iran, proportionate enhanced measures for Myanmar, and additions of Bosnia and Herzegovina and Iraq to increased monitoring. This is the circular’s dated snapshot; operations require current official updates.'),
     ], [
@@ -131,6 +136,17 @@ section('risk-assessment', '香港風險評估：威脅、脆弱性與行業風�
     ], [
         ref('25', '2022年版，第5.3.9、5.3.12–5.3.14、5.3.25–5.3.29段及專題5.9–5.10', '2022 edition, ¶5.3.9, 5.3.12–5.3.14, 5.3.25–5.3.29 and Boxes 5.9–5.10', 'Examples of red flags that may indicate'),
     ], kind='list'),
+    block('2022年報告：Hawala結算與四級監督優次', '2022 report: Hawala settlement and four supervision priorities', [
+        ('Hawala（哈瓦拉）透過主要建基於信任和溝通的經紀網絡安排匯款，經紀之間可用現金、物業或服務結算。重點是價值可以轉移而不必觀察到相同款項直接以銀行電傳跨境；這種機制與報告當時「未對香港MSO業構成明顯威脅」的歷史評估須分開理解。', 'Hawala arranges remittances through brokers relying mainly on trust and communication; dealers may settle in cash, property or services. Value can move without an observable direct cross-border bank wire of the same money. Distinguish that mechanism from the report’s historical assessment of no obvious threat to Hong Kong’s MSO sector at the time.'),
+        ('海關在報告中的監管矩陣結合兩項：整體風險評級，及反映每年營業額的影響評級；再配合持續非實地監察，分成高、中高、中、低四級監督優次，安排相稱的監管範圍與力度。這四級不是報告整體風險評估的五級尺度，也不是規定所有MSO必須採用的客戶評級數目。', 'The report’s Customs supervision matrix combines an overall risk rating with an impact rating reflecting annual turnover. Together with ongoing off-site monitoring, it assigns four priorities—high, medium-high, medium or low—for proportionate supervisory extent and engagement. These four priorities differ from the report’s five-level overall risk scale and do not prescribe the number of customer-risk categories every MSO must use.'),
+    ], [
+        ref('25', '2022年版，第5.4.8–5.4.10、5.4.14–5.4.16段', '2022 edition, ¶5.4.8–5.4.10, 5.4.14–5.4.16', 'an impact rating reflecting its annual turnover'),
+    ], kind='list'),
+    block('2022年參考：更新監管評級及非實地監察', '2022 reference: updating supervisory ratings and off-site monitoring', [
+        ('第5.4.16段列評級更新資料的例子：定期風險狀況評估、業務計劃及AML/CFT政策、定期業務報表、實地面談意見。第5.4.20段說非實地監察也用於非高風險MSO的常規查核，或為其後實地視察先收資料／初評；選定者須到海關辦事處面談及在指定期內交文件。「非實地」不等於不用面談，「非高風險」不等於免受監察。這是2022報告的程序描述，申報頻率按Part 7所列較後文件理解。', 'Paragraph 5.4.16 gives rating-update inputs: periodic risk profiling, business plans and AML/CFT policies, regular business returns, and on-site interview feedback. Paragraph 5.4.20 describes off-site monitoring for routine checks of non-high-risk MSOs or advance information/preliminary assessment before an on-site inspection; selected MSOs attend interviews at Customs offices and submit documents within a specified period. Off-site does not mean no interview, nor does non-high risk mean no supervision. This describes the 2022 report; later reporting-frequency requirements appear in Part 7.'),
+    ], [
+        ref('25', '2022年版，第5.4.16、5.4.20段', '2022 edition, ¶5.4.16, 5.4.20', 'off-site monitoring is strategically deployed'),
+    ], kind='reference'),
 ]),
 section('sanctions', '恐怖主義及擴散融資的定向金融制裁', 'Targeted financial sanctions for terrorism and proliferation', [
     block('禁止、凍結及許可', 'Prohibitions, freezing and licences', [

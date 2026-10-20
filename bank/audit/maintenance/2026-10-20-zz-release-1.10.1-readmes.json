@@ -1,0 +1,82 @@
+{
+  "status": "verified",
+  "date": "2026-10-20",
+  "reason": "Owner-authorized v1.10.1 publication and all README refresh; historical review bodies, sources and question content unchanged.",
+  "archive": "bank/audit/history/2026-10-20-before-v1.10.1-readme-refresh.zip",
+  "archive_sha256": "cd5e0dd26c2a902b7356fa746d90956a77c7e2e7bf9c5465a1110103d5e9b629",
+  "archive_updates": {
+    "bank/audit/history/README.md": {
+      "before_sha256": "ebd843820a5edc8a90e3a4f13fd1353d3dcb19b37c30804fbd1c7093835e5c14",
+      "after_sha256": "031c9b22336ca57aeb9b7a80e214425b3028673a175d81654bc1e58e1f7a7965"
+    },
+    "bank/audit/README.md": {
+      "before_sha256": "4be5c90c59d2159cd7e2d1e940392a502875cfb71807b9d3d877fdd7fa9b08b2",
+      "after_sha256": "245dc2afea614c3c2be7f7576009bd2a91cc24776d094cca71c1ce80ea392fcd"
+    },
+    "bank/batches/active26/README.md": {
+      "before_sha256": "cfc0b1346a745987d711b34fc7f952e0fe132390575d593364d5cc3d03719a0e",
+      "after_sha256": "bdc5f1813e43f4a5fe225812f3814de7eec7ec9bb7efacaf5f28f93a9feaec80"
+    },
+    "docs/archive/README.md": {
+      "before_sha256": "5f554dacbba500508e12b31877c72f356b598f8b2e68d1d4b045dd784f5f93a5",
+      "after_sha256": "c9ce5c3622bb5bbee3c792932cc5136dcc8e26d4e03d62e406ccae790e8f2dc9"
+    },
+    "docs/archive/README.zh-Hant.md": {
+      "before_sha256": "c857ad31b319a9e6bd8af1ac478a3e40c91959d3a07fc2f4d5482d1b0cd79f48",
+      "after_sha256": "e71b72381f9d06570042dc2b7c8a06bf632da314de420071d48a9c30b934f9a0"
+    },
+    "docs/README.md": {
+      "before_sha256": "ceace0ddd50dad7884e4bfb3d472be41a47fbe86a9fa06ba2a7d53e2c91a4282",
+      "after_sha256": "907e255369263605c7588e9a73135f60290c9113f6190539bf8e10cb7e5767df"
+    },
+    "docs/README.zh-Hant.md": {
+      "before_sha256": "4cef549179d66103ee5f63ce5c1b30e6530194f1247f3d17650918c169ef18b6",
+      "after_sha256": "3a6c1a508cf4f62f9a4ba3d0f0171ee90666dc7be9680ae85ea01338abb28b17"
+    },
+    "README.md": {
+      "before_sha256": "ac32ac34e60d3340fa7f46b4fe23fbda4fcf10142aca8bd641924c8e1122f77c",
+      "after_sha256": "938f83ab02803cd91348987c1d9922f289a871a6306661dfdba9267dfbd81ac6"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "2a8a39d8d64c489099bd742b554341e540a0e619b728866670431a19099eb025",
+      "after_sha256": "6a8f9ede205964d1f5378bd1c48c67e0d48507ec36d7e4b4d7188d5a2139f01e"
+    },
+    "revision/part6-sample/README.md": {
+      "before_sha256": "1a475f92315a41ac08b406cc49d18be1c05a3fce1031b2f77b8e3d813151d5ed",
+      "after_sha256": "8dbe14e6c02b271afefeebb76cefeff7810ce477f72e84bc96f65ff31abbab61"
+    },
+    "revision/README.md": {
+      "before_sha256": "a8607d73801bedb712ea8467185663b274d6bbc61579ad5f92ea4d6898e4ada0",
+      "after_sha256": "7650a73739dbe93d09a8dd8eb08c98910fb4f1c3575dd432d9041f1bb50a2991"
+    },
+    "revision/study-notes/depth-review-2026-10-20/README.md": {
+      "before_sha256": "d638b308a2ce9f5290ff742b6afa739de5a1364c68d28a0d7f6efa093d7abf51",
+      "after_sha256": "ed8a302c94b9f4eadc0a22bcf42ef313a6ec61b02c2bced1c2fe7c0ab56b20aa"
+    },
+    "revision/study-notes/README.md": {
+      "before_sha256": "78adab6bded1f2d775402067e4895ca9acf73a1e906a2c32290c46a21d5d4d4a",
+      "after_sha256": "790e484f822d8840eddf76375f2f9be012c6bbaadf56e4ee876ad2b47fe36769"
+    },
+    "web/fonts/README.txt": {
+      "before_sha256": "723ba05522087971294127553a563b8d25010ba0ae1e7f22540fcc0e0f37fd09",
+      "after_sha256": "87b40db53b07dc819cc6db31fcb0ae7489712cd5acfdfa90827d8cec4060f0b7"
+    },
+    "CHANGELOG.md": {
+      "before_sha256": "e14c25dce06d7c9d1d834ff17438ed22d018487033616dff0f67fe77a7654e0c",
+      "after_sha256": "3bd9c39cd4f82e8b007c1007873cd5e6157c49a017e582607be5c288b7e9d4ed"
+    },
+    "docs/build_catalog.py": {
+      "before_sha256": "5bc8e3dc546558feabbf9b4a93a8a2de7d450ce627321994cd3cb79d2f207bd0",
+      "after_sha256": "6fe8c77641e3a8edeed35e3fc00a2f55d46da932306ed1a23a0461cd96f23281"
+    },
+    "bank/audit/report.py": {
+      "before_sha256": "57f31c42d843cba4787aae2b3ab808ea6016ac55e684167f44ffee93ca22a7c6",
+      "after_sha256": "3dc822aee5609a7f60427f6313e138182a50ee27fc3177493c62c69b27a216ed"
+    },
+    "scripts/build_study_bundle.py": {
+      "before_sha256": "1b965ee76f22eb2a0195a15a793f958ad9bf3a0aabeb372a8c52b83e2cdc1713",
+      "after_sha256": "b6752ff79e51d21189f0d2905330bc3a6110d222734d0381b863dc26213a1c6b"
+    }
+  },
+  "documentation_updates": {}
+}

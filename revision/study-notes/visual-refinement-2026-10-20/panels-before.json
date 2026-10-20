@@ -1,0 +1,3681 @@
+{
+  "1": {
+    "money-laundering": [
+      {
+        "id": "three-stages",
+        "kind": "stages",
+        "title": {
+          "tc": "三個常見階段：可重疊，不是固定步驟",
+          "en": "Three common stages: overlapping, not a fixed sequence"
+        },
+        "steps": [
+          {
+            "term": {
+              "tc": "Placement（存放）",
+              "en": "Placement"
+            },
+            "meaning": {
+              "tc": "把犯罪現金放入金融體系。",
+              "en": "Introduce criminal cash into the financial system."
+            }
+          },
+          {
+            "term": {
+              "tc": "Layering（分層交易）",
+              "en": "Layering"
+            },
+            "meaning": {
+              "tc": "用多層複雜交易掩藏來源、截斷審計線索及提供匿名性。",
+              "en": "Use complex layers of transactions to disguise origin, obscure the audit trail and provide anonymity."
+            }
+          },
+          {
+            "term": {
+              "tc": "Integration（整合）",
+              "en": "Integration"
+            },
+            "meaning": {
+              "tc": "使犯罪財富重新出現為貌似合法的資產或業務收益。",
+              "en": "Return criminal wealth as apparently legitimate assets or business proceeds."
+            }
+          }
+        ],
+        "note": {
+          "tc": "三個階段是理解典型模式的工具，實際交易可同時涉及多個階段。匯款或兌換業務可能協助存放及分層，交易有商業外觀也不表示資金合法。",
+          "en": "The stages explain typical patterns; actual transactions can overlap them. Remittance and exchange can facilitate placement and layering, and a commercial appearance does not establish legitimacy."
+        },
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第1.9–1.10段",
+              "en": "¶1.9–1.10"
+            },
+            "anchor": "Placement - the disposal"
+          }
+        ],
+        "examples": [
+          {
+            "label": {
+              "tc": "同一犯罪得益：進入體系",
+              "en": "Same criminal proceeds: entry"
+            },
+            "nodes": [
+              {
+                "tc": "犯罪現金",
+                "en": "Criminal cash"
+              },
+              {
+                "tc": "存入戶口",
+                "en": "Deposit into an account"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "存放",
+                "en": "Placement"
+              }
+            ],
+            "note": {
+              "tc": "教學例子：改變現金所在位置。",
+              "en": "Teaching example: changes where the cash is held."
+            }
+          },
+          {
+            "label": {
+              "tc": "同一犯罪得益：掩藏線索",
+              "en": "Same proceeds: obscuring the trail"
+            },
+            "nodes": [
+              {
+                "tc": "原來戶口",
+                "en": "Original account"
+              },
+              {
+                "tc": "多層戶口／交易",
+                "en": "Layers of accounts / transactions"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "轉移、拆分",
+                "en": "Move, split"
+              }
+            ],
+            "note": {
+              "tc": "教學例子：增加追查來源的難度。",
+              "en": "Teaching example: makes the origin harder to trace."
+            }
+          },
+          {
+            "label": {
+              "tc": "同一犯罪得益：貌似合法",
+              "en": "Same proceeds: apparent legitimacy"
+            },
+            "nodes": [
+              {
+                "tc": "犯罪得益",
+                "en": "Criminal proceeds"
+              },
+              {
+                "tc": "貌似合法的投資／業務收益",
+                "en": "Apparently lawful investment / business proceeds"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "重新呈現",
+                "en": "Reappear as"
+              }
+            ],
+            "note": {
+              "tc": "教學例子：外觀合法不會消除犯罪來源。",
+              "en": "Teaching example: a lawful appearance does not erase criminal origin."
+            }
+          }
+        ]
+      }
+    ],
+    "terrorist-financing": [
+      {
+        "id": "ml-tf-pf",
+        "kind": "table",
+        "title": {
+          "tc": "ML、TF及PF：不要只看資金來源",
+          "en": "ML, TF and PF: origin is not the only concern"
+        },
+        "headers": [
+          {
+            "tc": "概念",
+            "en": "Concept"
+          },
+          {
+            "tc": "資金來源",
+            "en": "Origin"
+          },
+          {
+            "tc": "核心問題",
+            "en": "Core concern"
+          },
+          {
+            "tc": "法律條件",
+            "en": "Legal conditions"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "tc": "洗錢（ML）",
+              "en": "Money laundering (ML)"
+            },
+            {
+              "tc": "犯罪得益",
+              "en": "Criminal proceeds"
+            },
+            {
+              "tc": "犯罪得益的來源被掩飾。",
+              "en": "Disguises the criminal origin of proceeds."
+            },
+            {
+              "tc": "財產可全部／部分、直接／間接代表得益；境外行為若在港會屬可公訴罪行也可涵蓋。",
+              "en": "Property may represent proceeds wholly/partly, directly/indirectly; overseas conduct that would be indictable in Hong Kong may be covered."
+            }
+          ],
+          [
+            {
+              "tc": "恐怖分子資金籌集（TF）",
+              "en": "Terrorist financing (TF)"
+            },
+            {
+              "tc": "合法或非法",
+              "en": "Lawful or unlawful"
+            },
+            {
+              "tc": "合法或非法來源均可能涉及；看用途、對象及法定心理要素。",
+              "en": "Lawful or unlawful funds may be involved; purpose, recipient and statutory mental elements matter."
+            },
+            {
+              "tc": "供恐怖行為使用的財產須有意圖或知情，不必實際使用；向恐怖分子／聯繫者提供或為其籌集時，知道或罔顧對方身分均可涵蓋。",
+              "en": "Property for terrorist acts requires intent/knowledge, not actual use. Relevant provision/collection for a terrorist/associate covers knowledge or recklessness about that status."
+            }
+          ],
+          [
+            {
+              "tc": "擴散融資（PF）",
+              "en": "Proliferation financing (PF)"
+            },
+            {
+              "tc": "不可只憑來源判斷",
+              "en": "Origin alone is not decisive"
+            },
+            {
+              "tc": "服務可能協助大規模毀滅武器及其運載方式。",
+              "en": "Services may assist WMD and their means of delivery."
+            },
+            {
+              "tc": "有合理理由相信或懷疑服務可能涉及PF便可能觸犯第526章；適用制裁禁令另須遵守。",
+              "en": "Cap.526 covers belief or suspicion on reasonable grounds that services may be connected to PF; applicable sanctions prohibitions also apply."
+            }
+          ]
+        ],
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第1.9–1.10段",
+              "en": "¶1.9–1.10"
+            },
+            "anchor": "Placement - the disposal"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第1.11–1.12、1.23–1.25段",
+              "en": "¶1.11–1.12, 1.23–1.25"
+            },
+            "anchor": "terrorist financing"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第1.14–1.27、6.1–6.4段",
+              "en": "¶1.14–1.27, 6.1–6.4"
+            },
+            "anchor": "imprisonment for 14 years"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "international": [
+      {
+        "id": "risk-lists",
+        "kind": "table",
+        "title": {
+          "tc": "風險名單與制裁名單",
+          "en": "Risk lists and sanctions lists"
+        },
+        "headers": [
+          {
+            "tc": "概念／情境",
+            "en": "Concept / situation"
+          },
+          {
+            "tc": "必記區別",
+            "en": "Remember the distinction"
+          },
+          {
+            "tc": "條件及例外",
+            "en": "Conditions and exceptions"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "tc": "FATF：呼籲採取行動",
+              "en": "FATF: call for action"
+            },
+            {
+              "tc": "相稱的加強盡職審查；指定情況另有反制措施。",
+              "en": "Proportionate EDD; countermeasures in specified cases."
+            },
+            {
+              "tc": "按有關聲明及海關通函區分；具體地區名單保留通函日期，不能當作永久名單。",
+              "en": "Distinguish the applicable statement/circular. Country lists are dated snapshots, not permanent lists."
+            }
+          ],
+          [
+            {
+              "tc": "FATF：加強監察",
+              "en": "FATF: increased monitoring"
+            },
+            {
+              "tc": "納入客戶整體風險評估。",
+              "en": "Factor into the overall customer risk assessment."
+            },
+            {
+              "tc": "單憑列名不會自動令每宗客戶關係必須EDD。",
+              "en": "Listing alone does not automatically require EDD for every customer relationship."
+            }
+          ],
+          [
+            {
+              "tc": "受指定人士／實體制裁",
+              "en": "Designated-person/entity sanctions"
+            },
+            {
+              "tc": "依法凍結及禁止提供／處理資產等。",
+              "en": "Statutory freezing and prohibitions on availability/dealing."
+            },
+            {
+              "tc": "不能用「低風險」取代法定禁止；只有適用豁免／有效特許才可在其範圍內行事。",
+              "en": "A low-risk rating does not override a prohibition; only act within applicable exemptions/valid licences."
+            }
+          ]
+        ],
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第1.13段",
+              "en": "¶1.13"
+            },
+            "anchor": "As a member of the FATF"
+          },
+          {
+            "doc": "06",
+            "locator": {
+              "tc": "打擊洗錢問答A17",
+              "en": "AML/CFT FAQ A17"
+            },
+            "anchor": "conducting EDD is not mandatory"
+          },
+          {
+            "doc": "19",
+            "locator": {
+              "tc": "正文第1–3頁",
+              "en": "Main text pp.1–3"
+            },
+            "anchor": "Myanmar"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第6.1–6.8段",
+              "en": "¶6.1–6.8"
+            },
+            "anchor": "Secretary for Security"
+          },
+          {
+            "doc": "09",
+            "locator": {
+              "tc": "正文第1–2頁",
+              "en": "Main text pp.1–2"
+            },
+            "anchor": "proliferation financing"
+          },
+          {
+            "doc": "26",
+            "locator": {
+              "tc": "正文第1–3頁",
+              "en": "Main text pp.1–3"
+            },
+            "anchor": "time gap"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "cross-boundary-cash": [
+      {
+        "id": "cash-scope",
+        "kind": "paths",
+        "title": {
+          "tc": "同一門檻，不同申報途徑",
+          "en": "One threshold, different declaration routes"
+        },
+        "refs": [
+          {
+            "doc": "22",
+            "locator": {
+              "tc": "正文第1頁",
+              "en": "Main text p.1"
+            },
+            "anchor": "HK$120,000"
+          },
+          {
+            "doc": "23",
+            "locator": {
+              "tc": "第2–7條及附表4",
+              "en": "ss.2–7; Schedule 4"
+            },
+            "anchor": "nominal value"
+          },
+          {
+            "doc": "23",
+            "locator": {
+              "tc": "第8–14條、附表5",
+              "en": "ss.8–14; Schedule 5"
+            },
+            "anchor": "Written notice about not instituting criminal proceedings on payment"
+          },
+          {
+            "doc": "23",
+            "locator": {
+              "tc": "第2(1)、7(6)條",
+              "en": "ss.2(1), 7(6)"
+            },
+            "anchor": "signed but does not state a payee’s name"
+          },
+          {
+            "doc": "23",
+            "locator": {
+              "tc": "第7條",
+              "en": "s.7"
+            },
+            "anchor": "means the person arrives at the specified control point concerned"
+          },
+          {
+            "doc": "23",
+            "locator": {
+              "tc": "第17–19條",
+              "en": "ss.17–19"
+            },
+            "anchor": "not more than 10 working days after the day of seizure"
+          },
+          {
+            "doc": "23",
+            "locator": {
+              "tc": "附表2–3",
+              "en": "Schedules 2–3"
+            },
+            "anchor": "If applicable, the name and address of the recipient of the CBNIs"
+          },
+          {
+            "doc": "23",
+            "locator": {
+              "tc": "第8–11條",
+              "en": "ss.8–11"
+            },
+            "anchor": "same carrier for the same customer"
+          },
+          {
+            "doc": "23",
+            "locator": {
+              "tc": "附表2、3",
+              "en": "Schedules 2–3"
+            },
+            "anchor": "Information to be Provided in Declaration"
+          }
+        ],
+        "paths": [
+          {
+            "label": {
+              "tc": "旅客攜帶",
+              "en": "Carried by travellers"
+            },
+            "nodes": [
+              {
+                "tc": "現金類物品總值 > HK$120,000",
+                "en": "CBNI total > HK$120,000"
+              },
+              {
+                "tc": "指定管制站入境：書面申報",
+                "en": "Entering at a specified control point: written declaration"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "觸發",
+                "en": "Triggers"
+              }
+            ],
+            "note": {
+              "tc": "其他入境途徑／離境：按獲授權人員要求披露；披露持有大量物品時再按要求申報。未過入境檢查的指定機場過境情況另有豁免。",
+              "en": "Other entry routes / departure: disclose on an authorized officer’s request; then declare as required if large quantities are disclosed. The specified airport-transit case without immigration clearance is exempt."
+            }
+          },
+          {
+            "label": {
+              "tc": "貨物進出口",
+              "en": "Cargo import / export"
+            },
+            "nodes": [
+              {
+                "tc": "同一法定批次總值 > HK$120,000",
+                "en": "Same statutory batch total > HK$120,000"
+              },
+              {
+                "tc": "進／出口前向海關申報",
+                "en": "Declare to Customs before import / export"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "觸發",
+                "en": "Triggers"
+              }
+            ],
+            "note": {
+              "tc": "法定批次可合併多批貨物：按第10條的同一承運人／運輸工具及客戶規則計算。非旅客進出口或安排進出口者須確保事前申報；第8–9條的過境、空運轉運、郵包及運輸工具經營者例外見正文。",
+              "en": "A statutory batch can aggregate multiple consignments under section 10’s carrier / conveyance and customer rules. Non-traveller importers / exporters and persons causing import / export must ensure prior declaration. See the text for ss.8–9 transit, air-transhipment, postal and conveyance-operator exceptions."
+            }
+          }
+        ],
+        "note": {
+          "tc": "恰好HK$120,000不因這個「>」門檻觸發；CDD的一般非經常交易門檻是「≥」，不是同一制度。",
+          "en": "Exactly HK$120,000 does not cross this “>” threshold. General occasional-transaction CDD uses “≥”: a different regime."
+        }
+      }
+    ],
+    "risk-assessment": [
+      {
+        "id": "cross-sector-mechanisms",
+        "kind": "paths",
+        "title": {
+          "tc": "2022年報告：跨行業的價值轉移例子",
+          "en": "2022 report: cross-sector value-transfer examples"
+        },
+        "refs": [
+          {
+            "doc": "25",
+            "locator": {
+              "tc": "第5.2.13–5.2.17、5.2.21、5.3.25–5.3.38、5.6.2、5.6.7–5.6.15、5.6.21、5.7.5、5.7.22、6.4.3、6.6.6–6.6.13段",
+              "en": "¶5.2.13–5.2.17, 5.2.21, 5.3.25–5.3.38, 5.6.2, 5.6.7–5.6.15, 5.6.21, 5.7.5, 5.7.22, 6.4.3, 6.6.6–6.6.13"
+            },
+            "anchor": "Mule account networks"
+          },
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "第5B、5C部",
+              "en": "Parts 5B, 5C"
+            },
+            "anchor": "Regulation of Dealings in Precious Metals and Stones"
+          },
+          {
+            "doc": "25",
+            "locator": {
+              "tc": "2022年版，第4.45–4.51段",
+              "en": "2022 edition, ¶4.45–4.51"
+            },
+            "anchor": "Purchase of insurance products"
+          },
+          {
+            "doc": "25",
+            "locator": {
+              "tc": "2022年版，第5.3.9、5.3.12–5.3.14、5.3.25–5.3.29段及專題5.9–5.10",
+              "en": "2022 edition, ¶5.3.9, 5.3.12–5.3.14, 5.3.25–5.3.29 and Boxes 5.9–5.10"
+            },
+            "anchor": "Examples of red flags that may indicate"
+          }
+        ],
+        "paths": [
+          {
+            "label": {
+              "tc": "公司與戶口",
+              "en": "Companies and accounts"
+            },
+            "nodes": [
+              {
+                "tc": "濫用公司架構／代名人",
+                "en": "Misuse of corporate structures / nominees"
+              },
+              {
+                "tc": "實際控制者／資金來源",
+                "en": "Actual controllers / fund origins"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "掩藏",
+                "en": "Conceals"
+              }
+            ],
+            "note": {
+              "tc": "經公司戶口交易及匯款時，了解實益擁有人及商業目的，不能僅看公司已註冊。",
+              "en": "For company-account activity and remittances, understand beneficial ownership and business purpose; registration alone is insufficient."
+            }
+          },
+          {
+            "label": {
+              "tc": "保險與物業",
+              "en": "Insurance and property"
+            },
+            "nodes": [
+              {
+                "tc": "犯罪得益投入資產",
+                "en": "Proceeds placed into assets"
+              },
+              {
+                "tc": "退保／轉售所得",
+                "en": "Surrender / resale receipts"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "改變外觀",
+                "en": "Change appearance"
+              }
+            ],
+            "note": {
+              "tc": "是濫用機制例子，不表示每次退保或物業轉售均屬可疑；風險結論屬2022年報告。",
+              "en": "Examples of misuse, not a claim that every surrender or resale is suspicious; risk findings belong to the 2022 report."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "changes": [
+      {
+        "id": "licence-clocks",
+        "kind": "clocks",
+        "title": {
+          "tc": "牌照事項：事先、當月及結業前後",
+          "en": "Licence actions: prior approval, a month, and cessation"
+        },
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "第35–41條",
+              "en": "ss.35–41"
+            },
+            "anchor": "within 1 month beginning on the date on which the change takes place"
+          },
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "第24、30–32、42條",
+              "en": "ss.24, 30–32, 42"
+            },
+            "anchor": "not later than 45 days before the licence is due to expire"
+          },
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "第21–23、34、43–45條",
+              "en": "ss.21–23, 34, 43–45"
+            },
+            "anchor": "3 times the amount of the profit gained"
+          }
+        ],
+        "note": null,
+        "clocks": [
+          {
+            "label": {
+              "tc": "新增董事／最終擁有人／合夥人",
+              "en": "New director / ultimate owner / partner"
+            },
+            "start": {
+              "tc": "擬加入持牌人",
+              "en": "Proposed appointment / ownership"
+            },
+            "duration": {
+              "tc": "事先書面批准",
+              "en": "Written approval beforehand"
+            },
+            "note": {
+              "tc": "適用第35–37條的相應適當人選要求；一個月變更通知不能代替事先批准。",
+              "en": "Apply the corresponding fitness test under ss.35–37; one-month notification does not replace prior approval."
+            }
+          },
+          {
+            "label": {
+              "tc": "新營業處所／無處所轉特定處所",
+              "en": "New premises / no-particular to particular premises"
+            },
+            "start": {
+              "tc": "擬在該處所營業",
+              "en": "Proposed operation there"
+            },
+            "duration": {
+              "tc": "營業前獲批及登記",
+              "en": "Approval and registration before operation"
+            },
+            "note": {
+              "tc": "處所須適合；住宅佔用人同意等適用條件仍須符合。",
+              "en": "Suitability and applicable domestic-occupant consent conditions remain necessary."
+            }
+          },
+          {
+            "label": {
+              "tc": "持牌人續牌",
+              "en": "Licensee renewal"
+            },
+            "start": {
+              "tc": "現有牌照屆滿日（向前計）",
+              "en": "Existing expiry date (count backwards)"
+            },
+            "duration": {
+              "tc": "最少提前45日",
+              "en": "At least 45 days before expiry"
+            },
+            "note": {
+              "tc": "按指定形式及費用作有效申請；有效申請待決時按第31條繼續有效，法定撤回／撤銷／暫停等情況另論。",
+              "en": "Use the prescribed form/fees. A valid pending application continues validity under s.31, subject to statutory withdrawal/revocation/suspension and other outcomes."
+            }
+          },
+          {
+            "label": {
+              "tc": "持牌人資料改變",
+              "en": "Licensee particulars change"
+            },
+            "start": {
+              "tc": "改變當日",
+              "en": "Date of change"
+            },
+            "duration": {
+              "tc": "起計1個月內書面通知",
+              "en": "Written notice within one month beginning on that date"
+            },
+            "note": {
+              "tc": "「一個月」不能自行改成30日；需事先批准的項目仍須事先批准。",
+              "en": "Do not substitute “30 days” for “one month”; prior-approval events still require prior approval."
+            }
+          },
+          {
+            "label": {
+              "tc": "持牌人全部／指定處所停業",
+              "en": "Licensee ceases all / specified-premises business"
+            },
+            "start": {
+              "tc": "停止當日",
+              "en": "Cessation date"
+            },
+            "duration": {
+              "tc": "停止前通知；當日起7日內交還牌照",
+              "en": "Notify beforehand; surrender within seven days beginning on cessation"
+            },
+            "note": {
+              "tc": "屬第41條結業規則；第34條撤銷／暫停的交還期限依通知，不能直接套用7日。",
+              "en": "This is s.41 cessation; s.34 revocation/suspension surrender follows the notice, not automatically seven days."
+            }
+          }
+        ]
+      }
+    ],
+    "discipline": [
+      {
+        "id": "penalty-ceilings",
+        "kind": "formula",
+        "title": {
+          "tc": "第21條與第43條：兩套罰款上限",
+          "en": "Sections 21 and 43: two penalty ceilings"
+        },
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "第21–23、34、43–45條",
+              "en": "ss.21–23, 34, 43–45"
+            },
+            "anchor": "3 times the amount of the profit gained"
+          }
+        ],
+        "note": {
+          "tc": "兩者均是上限而非固定罰款；須依程序給予陳詞機會。罰款通常自決定生效起30日內或獲准較長期間繳付。",
+          "en": "Both are ceilings, not fixed fines, and hearing procedures apply. Fines normally fall due within 30 days after the decision takes effect, or a longer allowed period."
+        },
+        "formulae": [
+          {
+            "label": {
+              "tc": "第21條：違反指明條文",
+              "en": "Section 21: specified-provision contraventions"
+            },
+            "expression": {
+              "tc": "上限 = 較大者 { HK$10,000,000；所得利益／避免成本 × 3 }",
+              "en": "Maximum = greater of { HK$10,000,000; benefit gained / cost avoided × 3 }"
+            },
+            "note": {
+              "tc": "最高額不是必罰額；限期後持續違反補救要求另可每日最高HK$100,000。須依適用程序及條件。",
+              "en": "A ceiling is not an automatic fine. Continued non-compliance with remedial requirements after the deadline may separately attract up to HK$100,000 per day, subject to the applicable procedure and conditions."
+            }
+          },
+          {
+            "label": {
+              "tc": "第43條：MSO牌照紀律處分",
+              "en": "Section 43: MSO licensing discipline"
+            },
+            "expression": {
+              "tc": "上限 = HK$1,000,000",
+              "en": "Maximum = HK$1,000,000"
+            },
+            "note": {
+              "tc": "牌照紀律制度；限期後持續違反補救要求另可每日最高HK$10,000。不可與第21條互換。",
+              "en": "Licensing discipline; continued non-compliance with remedial requirements after the deadline may separately attract up to HK$10,000 per day. Do not substitute the section 21 ceiling."
+            }
+          }
+        ]
+      }
+    ],
+    "review": [
+      {
+        "id": "review-commencement",
+        "kind": "decision",
+        "title": {
+          "tc": "指明決定：何時生效",
+          "en": "Specified decisions: when they take effect"
+        },
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "第59(1)、69、73、75條",
+              "en": "ss.59(1), 69, 73, 75"
+            },
+            "anchor": "Time when specified decisions take effect"
+          }
+        ],
+        "intro": {
+          "tc": "除條例另有規定外，依第75條判斷。申請覆核與申請暫緩是兩件事。",
+          "en": "Subject to other provisions, apply section 75. Review and a stay application are distinct."
+        },
+        "nodes": [
+          {
+            "test": {
+              "tc": "通知有基於公眾利益指定其他生效時間？",
+              "en": "Does the notice specify another commencement time in the public interest?"
+            },
+            "yes": {
+              "tc": "依通知指定時間；另可按適用條文申請暫緩。",
+              "en": "Use the specified time; a stay may separately be sought under the applicable provision."
+            }
+          },
+          {
+            "test": {
+              "tc": "通知送出後21日內，書面通知不申請覆核？",
+              "en": "Within 21 days after notice is sent, written notice that no review will be sought?"
+            },
+            "yes": {
+              "tc": "在該書面通知作出時生效。",
+              "en": "Effective when that written notice is given."
+            }
+          },
+          {
+            "test": {
+              "tc": "在該21日內申請覆核？",
+              "en": "Review applied for within those 21 days?"
+            },
+            "yes": {
+              "tc": "確認：確認時；更改／取代：當時並按其條款；撤回：撤回時。",
+              "en": "Confirmed: on confirmation. Varied / substituted: then, subject to its terms. Withdrawn: on withdrawal."
+            },
+            "no_label": {
+              "tc": "否",
+              "en": "NO"
+            },
+            "no": {
+              "tc": "沒有上述通知或申請：21日期間屆滿時生效。",
+              "en": "Neither notice nor application: effective when the 21-day period expires."
+            }
+          }
+        ],
+        "note": {
+          "tc": "21日起算事件是通知「送出」。覆核申請本身不構成暫緩；上訴也不自動暫緩。延長申請期及暫緩權詳見本節正文。",
+          "en": "The 21-day clock starts when notice is sent. Review does not itself constitute a stay; appeal is not an automatic stay either. Extensions and stay powers are explained below."
+        }
+      }
+    ],
+    "inspection-investigation": [
+      {
+        "id": "inspection-versus-investigation",
+        "kind": "table",
+        "title": {
+          "tc": "日常查察與正式調查",
+          "en": "Inspection versus investigation"
+        },
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "第9–20、81條",
+              "en": "ss.9–20, 81"
+            },
+            "anchor": "If a person claims a lien"
+          }
+        ],
+        "headers": [
+          {
+            "tc": "維度",
+            "en": "Dimension"
+          },
+          {
+            "tc": "查察：第9條",
+            "en": "Inspection: s.9"
+          },
+          {
+            "tc": "調查：第11–12條",
+            "en": "Investigation: ss.11–12"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "tc": "用途／基礎",
+              "en": "Purpose / basis"
+            },
+            {
+              "tc": "確定正在／曾經遵守及是否可能遵守「訂明規定」：不只指明條文，亦涵蓋適用通知、要求及牌照等條件",
+              "en": "Ascertain current / past compliance and likelihood of compliance with prescribed requirements: not just specified provisions, but applicable notices, requirements and licence conditions"
+            },
+            {
+              "tc": "第11(1)(a)：有合理因由相信可能犯罪；或(b)：為考慮第21／43條處分，有理由查究指明違反",
+              "en": "s.11(1)(a): reasonable cause to believe an offence may have occurred; OR (b): reason to enquire into specified contraventions for considering s.21 / s.43 action"
+            }
+          ],
+          [
+            {
+              "tc": "主要權力",
+              "en": "Main powers"
+            },
+            {
+              "tc": "進入營業處所、查閱及複製紀錄、要求解釋",
+              "en": "Enter business premises, inspect / copy records, require explanations"
+            },
+            {
+              "tc": "要求紀錄、答覆問題、書面解釋及協助",
+              "en": "Require records, answers, written explanations and assistance"
+            }
+          ],
+          [
+            {
+              "tc": "共同界線",
+              "en": "Shared limits"
+            },
+            {
+              "tc": "依法行使；法律專業保密權等保障保留",
+              "en": "Exercise lawfully; safeguards including legal professional privilege remain"
+            },
+            {
+              "tc": "受查者仍須遵從合法要求；刑事程序使用受強制陳述另有條件",
+              "en": "Comply with lawful requirements; use of compelled statements in criminal proceedings has separate conditions"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "3": {
+    "core-duties": [
+      {
+        "id": "money-boundaries",
+        "kind": "table",
+        "title": {
+          "tc": "金額相近，法律用途不同",
+          "en": "Similar amounts, different legal purposes"
+        },
+        "headers": [
+          {
+            "tc": "對象及交易",
+            "en": "Person / transaction"
+          },
+          {
+            "tc": "金額界線",
+            "en": "Amount boundary"
+          },
+          {
+            "tc": "觸發甚麼",
+            "en": "What it triggers"
+          },
+          {
+            "tc": "合併、條件及例外",
+            "en": "Aggregation, conditions and exceptions"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "tc": "MSO的非經常交易（一般非電傳）",
+              "en": "MSO occasional transaction (general non-wire)"
+            },
+            {
+              "tc": "≥ HK$120,000\n等於亦包括",
+              "en": "≥ HK$120,000\nAt least HK$120,000; includes equality."
+            },
+            {
+              "tc": "執行前CDD",
+              "en": "CDD before execution"
+            },
+            {
+              "tc": "沒有業務關係；單次或看來相連操作合併。建立關係、懷疑或資料疑問另有不限金額觸發。",
+              "en": "No business relationship; aggregate apparently linked operations. Relationship, suspicion and information doubts separately trigger CDD regardless of amount."
+            }
+          ],
+          [
+            {
+              "tc": "金融機構非經常電傳／VA轉移",
+              "en": "FI occasional wire / VA transfer"
+            },
+            {
+              "tc": "≥ HK$8,000",
+              "en": "≥ HK$8,000"
+            },
+            {
+              "tc": "執行前CDD",
+              "en": "CDD before execution"
+            },
+            {
+              "tc": "相連操作合併；低於8,000元仍有電傳資料要求。持牌VASP非轉移交易另有8,000元規則，不套用所有MSO。",
+              "en": "Aggregate linked operations; below HK$8,000 wire information duties remain. Licensed-VASP non-transfer transactions have a separate HK$8,000 rule, not a universal MSO rule."
+            }
+          ],
+          [
+            {
+              "tc": "非電傳外匯款發款人",
+              "en": "Non-wire outward-remittance originator"
+            },
+            {
+              "tc": "≥ HK$8,000",
+              "en": "≥ HK$8,000"
+            },
+            {
+              "tc": "第13條核實及紀錄",
+              "en": "Section 13 verification and records"
+            },
+            {
+              "tc": "指定識別文件及資料；不把所有一般交易CDD門檻改成8,000元。",
+              "en": "Use specified identity documents and records; this does not lower the general CDD threshold for every transaction."
+            }
+          ],
+          [
+            {
+              "tc": "跨境實體現金類物品",
+              "en": "Cross-boundary physical CBNIs"
+            },
+            {
+              "tc": "> HK$120,000\n恰好不包括",
+              "en": "> HK$120,000\nAggregate value above HK$120,000; equality excluded."
+            },
+            {
+              "tc": "第629章申報／披露制度",
+              "en": "Cap.629 declaration / disclosure regime"
+            },
+            {
+              "tc": "按旅客／貨物、管有、批次及豁除判斷；與CDD是兩套制度。",
+              "en": "Apply traveller/cargo routes, possession, batches and exclusions; this is a separate regime from CDD."
+            }
+          ],
+          [
+            {
+              "tc": "兌換顧客交付的款額",
+              "en": "Amount tendered by exchange customer"
+            },
+            {
+              "tc": "> HK$100,000\n恰好不豁除",
+              "en": "> HK$100,000\nMore than HK$100,000; equality not excluded."
+            },
+            {
+              "tc": "不適用第34章",
+              "en": "Cap.34 monetary exclusion"
+            },
+            {
+              "tc": "恰好100,000元仍在金額範圍，其他豁除另論；不是AMLO的CDD豁免。",
+              "en": "Exactly HK$100,000 remains within monetary scope, subject to other exclusions; this is not an AMLO CDD exemption."
+            }
+          ]
+        ],
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "附表2第2–3、13條",
+              "en": "Schedule 2 ss.2–3, 13"
+            },
+            "anchor": "before establishing a business relationship with the customer"
+          },
+          {
+            "doc": "22",
+            "locator": {
+              "tc": "正文第1頁",
+              "en": "Main text p.1"
+            },
+            "anchor": "HK$120,000"
+          },
+          {
+            "doc": "23",
+            "locator": {
+              "tc": "第2–7條及附表4",
+              "en": "ss.2–7; Schedule 4"
+            },
+            "anchor": "nominal value"
+          },
+          {
+            "doc": "17",
+            "locator": {
+              "tc": "第2–5條及附表1",
+              "en": "ss.2–5; Schedule 1"
+            },
+            "anchor": "within 3 days after the date"
+          }
+        ],
+        "note": {
+          "tc": "先辨認制度，再比較數字：≥包含相等；>不包含相等。不同交易類型與合併規則不能互借。",
+          "en": "Identify the regime before comparing amounts: ≥ includes equality; > excludes it. Transaction types and aggregation rules are not interchangeable."
+        },
+        "groups": [
+          {
+            "title": {
+              "tc": "CDD及匯款核實",
+              "en": "CDD and remittance verification"
+            },
+            "rows": [
+              [
+                {
+                  "tc": "MSO的非經常交易（一般非電傳）",
+                  "en": "MSO occasional transaction (general non-wire)"
+                },
+                {
+                  "tc": "≥ HK$120,000\n等於亦包括",
+                  "en": "≥ HK$120,000\nAt least HK$120,000; includes equality."
+                },
+                {
+                  "tc": "執行前CDD",
+                  "en": "CDD before execution"
+                },
+                {
+                  "tc": "沒有業務關係；單次或看來相連操作合併。建立關係、懷疑或資料疑問另有不限金額觸發。",
+                  "en": "No business relationship; aggregate apparently linked operations. Relationship, suspicion and information doubts separately trigger CDD regardless of amount."
+                }
+              ],
+              [
+                {
+                  "tc": "金融機構非經常電傳／VA轉移",
+                  "en": "FI occasional wire / VA transfer"
+                },
+                {
+                  "tc": "≥ HK$8,000",
+                  "en": "≥ HK$8,000"
+                },
+                {
+                  "tc": "執行前CDD",
+                  "en": "CDD before execution"
+                },
+                {
+                  "tc": "相連操作合併；低於8,000元仍有電傳資料要求。持牌VASP非轉移交易另有8,000元規則，不套用所有MSO。",
+                  "en": "Aggregate linked operations; below HK$8,000 wire information duties remain. Licensed-VASP non-transfer transactions have a separate HK$8,000 rule, not a universal MSO rule."
+                }
+              ],
+              [
+                {
+                  "tc": "非電傳外匯款發款人",
+                  "en": "Non-wire outward-remittance originator"
+                },
+                {
+                  "tc": "≥ HK$8,000",
+                  "en": "≥ HK$8,000"
+                },
+                {
+                  "tc": "第13條核實及紀錄",
+                  "en": "Section 13 verification and records"
+                },
+                {
+                  "tc": "指定識別文件及資料；不把所有一般交易CDD門檻改成8,000元。",
+                  "en": "Use specified identity documents and records; this does not lower the general CDD threshold for every transaction."
+                }
+              ]
+            ]
+          },
+          {
+            "title": {
+              "tc": "跨境現金申報：獨立制度",
+              "en": "Cross-boundary cash: a separate regime"
+            },
+            "rows": [
+              [
+                {
+                  "tc": "跨境實體現金類物品",
+                  "en": "Cross-boundary physical CBNIs"
+                },
+                {
+                  "tc": "> HK$120,000\n恰好不包括",
+                  "en": "> HK$120,000\nAggregate value above HK$120,000; equality excluded."
+                },
+                {
+                  "tc": "第629章申報／披露制度",
+                  "en": "Cap.629 declaration / disclosure regime"
+                },
+                {
+                  "tc": "按旅客／貨物、管有、批次及豁除判斷；與CDD是兩套制度。",
+                  "en": "Apply traveller/cargo routes, possession, batches and exclusions; this is a separate regime from CDD."
+                }
+              ]
+            ]
+          },
+          {
+            "title": {
+              "tc": "找換交易保障：獨立制度",
+              "en": "Exchange protections: a separate regime"
+            },
+            "rows": [
+              [
+                {
+                  "tc": "兌換顧客交付的款額",
+                  "en": "Amount tendered by exchange customer"
+                },
+                {
+                  "tc": "> HK$100,000\n恰好不豁除",
+                  "en": "> HK$100,000\nMore than HK$100,000; equality not excluded."
+                },
+                {
+                  "tc": "不適用第34章",
+                  "en": "Cap.34 monetary exclusion"
+                },
+                {
+                  "tc": "恰好100,000元仍在金額範圍，其他豁除另論；不是AMLO的CDD豁免。",
+                  "en": "Exactly HK$100,000 remains within monetary scope, subject to other exclusions; this is not an AMLO CDD exemption."
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "definitions": [
+      {
+        "id": "ownership-boundary",
+        "kind": "table",
+        "title": {
+          "tc": "實益擁有人：超過25%與控制權",
+          "en": "Beneficial owners: more than 25% and control"
+        },
+        "headers": [
+          {
+            "tc": "概念／情境",
+            "en": "Concept / situation"
+          },
+          {
+            "tc": "必記區別",
+            "en": "Remember the distinction"
+          },
+          {
+            "tc": "條件及例外",
+            "en": "Conditions and exceptions"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "tc": "公司",
+              "en": "Corporation"
+            },
+            {
+              "tc": "超過25%股本或大會投票權；或最終控制管理。",
+              "en": "More than 25% share capital or general-meeting votes; or ultimate management control."
+            },
+            {
+              "tc": "直接／間接均計；正好25%本身不符合擁有權門檻，仍須檢查控制。也包括交易為其進行的人。",
+              "en": "Direct/indirect interests count. Exactly 25% alone misses the ownership threshold; still examine control and persons on whose behalf transactions occur."
+            }
+          ],
+          [
+            {
+              "tc": "合夥",
+              "en": "Partnership"
+            },
+            {
+              "tc": "超過25%資本／利潤或投票權；或最終控制管理。",
+              "en": "More than 25% capital/profit or voting rights; or ultimate management control."
+            },
+            {
+              "tc": "不能只找股份，或因未找到超過25%的人便停止查控制權。",
+              "en": "Do not search only for shares or stop examining control when no person exceeds 25%."
+            }
+          ],
+          [
+            {
+              "tc": "信託",
+              "en": "Trust"
+            },
+            {
+              "tc": "享有信託財產既得權益的受益人／受益人類別；授予人、受託人、保護人／執行人；最終控制的自然人。",
+              "en": "Beneficiaries/classes with vested interests in trust property; settlors, trustees, protectors/enforcers; individuals with ultimate control."
+            },
+            {
+              "tc": "信託不能套用公司的25%門檻；既得權益可為將來享有或可被終止的權益，依定義判斷。",
+              "en": "Do not apply the corporate 25% threshold to trusts; vested interests can include future or defeasible interests under the definition."
+            }
+          ]
+        ],
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "附表2第1條",
+              "en": "Schedule 2 s.1"
+            },
+            "anchor": "more than 25%"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.4.1–4.4.12段",
+              "en": "¶4.4.1–4.4.12"
+            },
+            "anchor": "more than 25% of the issued share capital"
+          }
+        ],
+        "note": {
+          "tc": "公司角色及「25.1%／恰好25%」例子見Part 6「身分資料」圖；控制權是獨立條件，不能只檢查百分比。",
+          "en": "See Part 6’s Identity information diagram for corporate roles and the 25.1% / exactly 25% example. Control is a separate limb; do not check percentages alone."
+        },
+        "links": [
+          {
+            "href": "part-6.html#memory-party-roles",
+            "label": {
+              "tc": "公司角色與百分比例子",
+              "en": "Corporate roles and percentage example"
+            }
+          }
+        ]
+      }
+    ],
+    "fees": [
+      {
+        "id": "fee-components",
+        "kind": "table",
+        "title": {
+          "tc": "牌照費：基本費加附加項目",
+          "en": "Licence fees: base plus additive components"
+        },
+        "headers": [
+          {
+            "tc": "概念／情境",
+            "en": "Concept / situation"
+          },
+          {
+            "tc": "必記區別",
+            "en": "Remember the distinction"
+          },
+          {
+            "tc": "條件及例外",
+            "en": "Conditions and exceptions"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "tc": "新牌申請",
+              "en": "Grant application"
+            },
+            {
+              "tc": "HK$3,810基本費。",
+              "en": "HK$3,810 base."
+            },
+            {
+              "tc": "另每個額外營業處所HK$2,440；每名須評核人士HK$945。",
+              "en": "Plus HK$2,440 per additional business premises and HK$945 per person subject to the fit-and-proper test."
+            }
+          ],
+          [
+            {
+              "tc": "續牌",
+              "en": "Renewal"
+            },
+            {
+              "tc": "HK$910基本費。",
+              "en": "HK$910 base."
+            },
+            {
+              "tc": "另每個額外營業處所HK$410；每名須評核人士HK$945。",
+              "en": "Plus HK$410 per additional business premises and HK$945 per tested person."
+            }
+          ],
+          [
+            {
+              "tc": "董事／最終擁有人／合夥人批准",
+              "en": "Director / ultimate owner / partner approval"
+            },
+            {
+              "tc": "每人HK$945。",
+              "en": "HK$945 per person."
+            },
+            {
+              "tc": "是批准申請費，不能當作整個牌照申請的全部費用。",
+              "en": "An approval application fee, not the total fee for a licence application."
+            }
+          ],
+          [
+            {
+              "tc": "新增／改為特定營業處所",
+              "en": "Add / move to particular premises"
+            },
+            {
+              "tc": "每個處所HK$2,440。",
+              "en": "HK$2,440 per premises."
+            },
+            {
+              "tc": "與續牌「額外處所」的HK$410不同；公開查閱登記冊免費，索副本另計。",
+              "en": "Different from renewal’s HK$410 additional-premises component. Public register inspection is free; copies have separate charges."
+            }
+          ]
+        ],
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "第27–28條；附表3",
+              "en": "ss.27–28; Schedule 3"
+            },
+            "anchor": "3,810"
+          }
+        ],
+        "note": {
+          "tc": "應付額＝適用申請基本費用＋額外營業處所費用＋適用的逐人適當人選測試費用。不是每名申請人都付齊表內所有項目；金額依repo所存2026年綜合版本。",
+          "en": "Payable fee = relevant application base fee + additional-premises charges + applicable per-person fit-and-proper test charges. Not every applicant pays every component; amounts follow the repo’s 2026 consolidated edition."
+        }
+      }
+    ],
+    "special-cases": [
+      {
+        "id": "shell-bank-and",
+        "kind": "logic",
+        "title": {
+          "tc": "附表2第17條：空殼銀行的四項條件",
+          "en": "Schedule 2 s.17: four shell-bank conditions"
+        },
+        "refs": [
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "附表2第17(1)–(3)條",
+              "en": "Schedule 2 s.17(1)–(3)"
+            },
+            "anchor": "Correspondent banking relationships with shell banks"
+          }
+        ],
+        "operator": {
+          "tc": "全部成立 · AND",
+          "en": "ALL · AND"
+        },
+        "items": [
+          {
+            "tc": "法團在香港以外某司法管轄區註冊成立",
+            "en": "Corporation incorporated in a jurisdiction outside Hong Kong"
+          },
+          {
+            "tc": "獲准在該處從事銀行業務",
+            "en": "Authorized to conduct banking there"
+          },
+          {
+            "tc": "在該處沒有實體經營",
+            "en": "No physical presence there"
+          },
+          {
+            "tc": "不隸屬另一家在某司法管轄區成立、獲准在該處經營銀行業務 AND 在該處有實體經營的法團",
+            "en": "Unaffiliated with another corporation incorporated in a jurisdiction, authorized to conduct banking there AND physically present there"
+          }
+        ],
+        "note": {
+          "tc": "實體經營＝在當地處所經營銀行業務 AND 至少一名全職僱員在該處履行銀行相關職務。第17條的直接禁止對象是認可機構的往來銀行關係，不是把MSO當作往來銀行。隸屬的定義見正文。",
+          "en": "Physical presence = banking at premises there AND at least one full-time employee performing banking-related duties there. Section 17 directly prohibits authorized institutions’ relevant correspondent relationships; it does not treat MSOs as correspondent banks. See the text for affiliation."
+        }
+      }
+    ]
+  },
+  "4": {
+    "premises": [
+      {
+        "id": "three-places",
+        "kind": "table",
+        "title": {
+          "tc": "營業處所、LMO及LPS",
+          "en": "Business premises, LMO and LPS"
+        },
+        "headers": [
+          {
+            "tc": "概念／情境",
+            "en": "Concept / situation"
+          },
+          {
+            "tc": "必記區別",
+            "en": "Remember the distinction"
+          },
+          {
+            "tc": "條件及例外",
+            "en": "Conditions and exceptions"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "tc": "營業處所",
+              "en": "Business premises"
+            },
+            {
+              "tc": "用作經營金錢服務的處所；自有／租用、對外宣傳及客戶交易是指引例子，非新增的全部成立測試。",
+              "en": "Premises used to operate money service. Ownership/lease, advertising and customer transactions are illustrative, not an added all-conditions test."
+            },
+            {
+              "tc": "不得位於純住宅樓宇、與另一MSO／申請人共用或須他人協助才可進入；商住混合須全體佔用人書面同意獲授權人員進入。",
+              "en": "Not in a wholly residential building, shared with another MSO/applicant or accessible only with others’ assistance; mixed premises need all occupants’ written consent to authorized entry."
+            }
+          ],
+          [
+            {
+              "tc": "本地管理辦事處（LMO）",
+              "en": "Local management office (LMO)"
+            },
+            {
+              "tc": "沒有特定營業處所者須維持，供海關聯絡。",
+              "en": "Required for no-particular-premises operators, as a Customs contact point."
+            },
+            {
+              "tc": "香港實體地址，親身及電話可聯絡，由合資格管理／合規人士駐守；不接納MSO住宅或其服務供應商地址／處所。",
+              "en": "Physical Hong Kong address, reachable in person/by phone and staffed by qualifying management/compliance personnel; the MSO’s residential or service-provider address/premises is not accepted."
+            }
+          ],
+          [
+            {
+              "tc": "本地紀錄儲存地方（LPS）",
+              "en": "Local place for storage (LPS)"
+            },
+            {
+              "tc": "所有申請人須維持，保存其控制的完整紀錄。",
+              "en": "Required for all applicants, holding complete records under their control."
+            },
+            {
+              "tc": "香港實體地址，不接納MSO住宅或其服務供應商地址／處所。LMO與LPS名稱相似，但義務及用途不同。",
+              "en": "Physical Hong Kong address; the MSO’s residential or service-provider address/premises is not accepted. LMO and LPS have different functions and coverage."
+            }
+          ]
+        ],
+        "refs": [
+          {
+            "doc": "05",
+            "locator": {
+              "tc": "第4.4–4.11段",
+              "en": "¶4.4–4.11"
+            },
+            "anchor": "local place for storage of books and records"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "assessment": [
+      {
+        "id": "assessment-pass",
+        "kind": "pass-rule",
+        "title": {
+          "tc": "合格要同時過兩關",
+          "en": "Passing requires both gates"
+        },
+        "facts": {
+          "tc": "35題 · 7個Part · 每Part 5題 · 75分鐘 · 每題一個答案",
+          "en": "35 questions · 7 Parts · 5 per Part · 75 minutes · one answer per question"
+        },
+        "gates": [
+          {
+            "tc": "全卷最少25／35",
+            "en": "At least 25 / 35 overall"
+          },
+          {
+            "tc": "每個Part最多錯2題",
+            "en": "No more than 2 wrong in every Part"
+          }
+        ],
+        "note": {
+          "tc": "兩個條件須同時符合；例如總分32／35，但某Part只對2／5，仍不合格。評核合格亦不保證獲發或續牌。",
+          "en": "Both conditions must hold. For example, 32/35 overall with only 2/5 correct in one Part still fails. Passing does not guarantee a licence or renewal."
+        },
+        "refs": [
+          {
+            "doc": "01",
+            "locator": {
+              "tc": "第3–8段",
+              "en": "¶3–8"
+            },
+            "anchor": "1 hour and 15 minutes"
+          },
+          {
+            "doc": "02",
+            "locator": {
+              "tc": "例1–7（只用於理解題型）",
+              "en": "Examples 1–7 (format only)"
+            },
+            "anchor": "Answer: d"
+          }
+        ]
+      },
+      {
+        "id": "assessment-clocks",
+        "kind": "table",
+        "title": {
+          "tc": "相同數字，不同起算點",
+          "en": "Same numbers, different starting events"
+        },
+        "headers": [
+          {
+            "tc": "事項／人士",
+            "en": "Event / person"
+          },
+          {
+            "tc": "起算事件",
+            "en": "Starting event"
+          },
+          {
+            "tc": "期限",
+            "en": "Time requirement"
+          },
+          {
+            "tc": "條件及例外",
+            "en": "Conditions and exceptions"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "tc": "新牌評核",
+              "en": "New-application assessment"
+            },
+            {
+              "tc": "與海關面見當日",
+              "en": "Upon attending the Customs interview"
+            },
+            {
+              "tc": "30日內應考",
+              "en": "Attend within 30 days"
+            },
+            {
+              "tc": "適用於申請人的合資格人士；須參加，不是隨意延後的建議。",
+              "en": "For the applicant’s eligible nominees; this is an attendance requirement."
+            }
+          ],
+          [
+            {
+              "tc": "續牌提名",
+              "en": "Renewal nomination"
+            },
+            {
+              "tc": "收到提名邀請",
+              "en": "Receipt of nomination invitation"
+            },
+            {
+              "tc": "7日內提名",
+              "en": "Nominate within seven days"
+            },
+            {
+              "tc": "須安排評核的續牌情況；未有合資格提名令申請無效，舊牌照到期失效。七日提名與三十日應考不同。",
+              "en": "For renewals requiring assessment; no eligible nomination invalidates the application and the old licence lapses at expiry. Nomination differs from thirty-day attendance."
+            }
+          ],
+          [
+            {
+              "tc": "續牌評核",
+              "en": "Renewal assessment"
+            },
+            {
+              "tc": "收到評核邀請",
+              "en": "Receipt of assessment invitation"
+            },
+            {
+              "tc": "30日內應考",
+              "en": "Attend within 30 days"
+            },
+            {
+              "tc": "需要評核的續牌情況；亦須依通知作提名，不能混同屆滿前45日的續牌申請期限。",
+              "en": "For renewal cases requiring assessment, with notice-based nomination; distinct from the 45-day renewal-application deadline."
+            }
+          ],
+          [
+            {
+              "tc": "全部通過人士離任",
+              "en": "All passing nominees leave"
+            },
+            {
+              "tc": "通知海關合夥人／董事變更當日起計",
+              "en": "Upon notifying Customs of partner/director change"
+            },
+            {
+              "tc": "30日內安排評核",
+              "en": "Arrange assessment within 30 days"
+            },
+            {
+              "tc": "合夥／公司適用，獨資除外；180日內到期續牌的情況依續牌安排。",
+              "en": "Applies to partnerships/corporations, not proprietorships; renewal within 180 days follows renewal arrangements."
+            }
+          ],
+          [
+            {
+              "tc": "再次應考",
+              "en": "Retake"
+            },
+            {
+              "tc": "成績通知發出當日起計",
+              "en": "Upon notification of result"
+            },
+            {
+              "tc": "30日後才重考",
+              "en": "Retake after 30 days"
+            },
+            {
+              "tc": "續牌重考須在牌照屆滿前；不是30日內重考，也不會自動延長牌照。",
+              "en": "Renewal retakes must precede licence expiry; this is not “within 30 days” and does not extend the licence."
+            }
+          ],
+          [
+            {
+              "tc": "結果通知",
+              "en": "Result notification"
+            },
+            {
+              "tc": "評核後",
+              "en": "After assessment"
+            },
+            {
+              "tc": "14日內電郵通知",
+              "en": "Email within 14 days"
+            },
+            {
+              "tc": "保留通知作成績證明；不披露分數及試題答案。",
+              "en": "Retain it as evidence; exact scores and question answers are not disclosed."
+            }
+          ],
+          [
+            {
+              "tc": "要求覆檢",
+              "en": "Request rechecking"
+            },
+            {
+              "tc": "成績通知發出當日起計",
+              "en": "After the date of result-notification issue"
+            },
+            {
+              "tc": "7日內書面要求",
+              "en": "Written request within seven days"
+            },
+            {
+              "tc": "不是收到後7日；逾期不受理。",
+              "en": "The clock is issue, not receipt; late requests are not considered."
+            }
+          ],
+          [
+            {
+              "tc": "覆檢回覆",
+              "en": "Rechecking reply"
+            },
+            {
+              "tc": "接獲覆檢要求日期起計",
+              "en": "After receipt of rechecking request"
+            },
+            {
+              "tc": "14日內書面回覆",
+              "en": "Written reply within 14 days"
+            },
+            {
+              "tc": "覆檢答案紀錄等技術錯誤；覆檢結果為最終。",
+              "en": "Rechecks technical matters such as answer-recording errors; the result is final."
+            }
+          ]
+        ],
+        "refs": [
+          {
+            "doc": "01",
+            "locator": {
+              "tc": "第3–8段",
+              "en": "¶3–8"
+            },
+            "anchor": "1 hour and 15 minutes"
+          },
+          {
+            "doc": "02",
+            "locator": {
+              "tc": "例1–7（只用於理解題型）",
+              "en": "Examples 1–7 (format only)"
+            },
+            "anchor": "Answer: d"
+          },
+          {
+            "doc": "01",
+            "locator": {
+              "tc": "第8–13段",
+              "en": "¶8–13"
+            },
+            "anchor": "14 days"
+          },
+          {
+            "doc": "01",
+            "locator": {
+              "tc": "第4.4、8.3段",
+              "en": "¶4.4, 8.3"
+            },
+            "anchor": "only for once"
+          },
+          {
+            "doc": "05",
+            "locator": {
+              "tc": "第6.2段",
+              "en": "¶6.2"
+            },
+            "anchor": "receipt"
+          }
+        ],
+        "note": null,
+        "groups": [
+          {
+            "title": {
+              "tc": "申請及人事變更",
+              "en": "Applications and personnel changes"
+            },
+            "rows": [
+              [
+                {
+                  "tc": "新牌評核",
+                  "en": "New-application assessment"
+                },
+                {
+                  "tc": "與海關面見當日",
+                  "en": "Upon attending the Customs interview"
+                },
+                {
+                  "tc": "30日內應考",
+                  "en": "Attend within 30 days"
+                },
+                {
+                  "tc": "適用於申請人的合資格人士；須參加，不是隨意延後的建議。",
+                  "en": "For the applicant’s eligible nominees; this is an attendance requirement."
+                }
+              ],
+              [
+                {
+                  "tc": "續牌提名",
+                  "en": "Renewal nomination"
+                },
+                {
+                  "tc": "收到提名邀請",
+                  "en": "Receipt of nomination invitation"
+                },
+                {
+                  "tc": "7日內提名",
+                  "en": "Nominate within seven days"
+                },
+                {
+                  "tc": "須安排評核的續牌情況；未有合資格提名令申請無效，舊牌照到期失效。七日提名與三十日應考不同。",
+                  "en": "For renewals requiring assessment; no eligible nomination invalidates the application and the old licence lapses at expiry. Nomination differs from thirty-day attendance."
+                }
+              ],
+              [
+                {
+                  "tc": "續牌評核",
+                  "en": "Renewal assessment"
+                },
+                {
+                  "tc": "收到評核邀請",
+                  "en": "Receipt of assessment invitation"
+                },
+                {
+                  "tc": "30日內應考",
+                  "en": "Attend within 30 days"
+                },
+                {
+                  "tc": "需要評核的續牌情況；亦須依通知作提名，不能混同屆滿前45日的續牌申請期限。",
+                  "en": "For renewal cases requiring assessment, with notice-based nomination; distinct from the 45-day renewal-application deadline."
+                }
+              ],
+              [
+                {
+                  "tc": "全部通過人士離任",
+                  "en": "All passing nominees leave"
+                },
+                {
+                  "tc": "通知海關合夥人／董事變更當日起計",
+                  "en": "Upon notifying Customs of partner/director change"
+                },
+                {
+                  "tc": "30日內安排評核",
+                  "en": "Arrange assessment within 30 days"
+                },
+                {
+                  "tc": "合夥／公司適用，獨資除外；180日內到期續牌的情況依續牌安排。",
+                  "en": "Applies to partnerships/corporations, not proprietorships; renewal within 180 days follows renewal arrangements."
+                }
+              ]
+            ]
+          },
+          {
+            "title": {
+              "tc": "應考結果及重考",
+              "en": "Results and retakes"
+            },
+            "rows": [
+              [
+                {
+                  "tc": "結果通知",
+                  "en": "Result notification"
+                },
+                {
+                  "tc": "評核後",
+                  "en": "After assessment"
+                },
+                {
+                  "tc": "14日內電郵通知",
+                  "en": "Email within 14 days"
+                },
+                {
+                  "tc": "保留通知作成績證明；不披露分數及試題答案。",
+                  "en": "Retain it as evidence; exact scores and question answers are not disclosed."
+                }
+              ],
+              [
+                {
+                  "tc": "再次應考",
+                  "en": "Retake"
+                },
+                {
+                  "tc": "成績通知發出當日起計",
+                  "en": "Upon notification of result"
+                },
+                {
+                  "tc": "30日後才重考",
+                  "en": "Retake after 30 days"
+                },
+                {
+                  "tc": "續牌重考須在牌照屆滿前；不是30日內重考，也不會自動延長牌照。",
+                  "en": "Renewal retakes must precede licence expiry; this is not “within 30 days” and does not extend the licence."
+                }
+              ]
+            ]
+          },
+          {
+            "title": {
+              "tc": "覆核成績",
+              "en": "Rechecking results"
+            },
+            "rows": [
+              [
+                {
+                  "tc": "要求覆檢",
+                  "en": "Request rechecking"
+                },
+                {
+                  "tc": "成績通知發出當日起計",
+                  "en": "After the date of result-notification issue"
+                },
+                {
+                  "tc": "7日內書面要求",
+                  "en": "Written request within seven days"
+                },
+                {
+                  "tc": "不是收到後7日；逾期不受理。",
+                  "en": "The clock is issue, not receipt; late requests are not considered."
+                }
+              ],
+              [
+                {
+                  "tc": "覆檢回覆",
+                  "en": "Rechecking reply"
+                },
+                {
+                  "tc": "接獲覆檢要求日期起計",
+                  "en": "After receipt of rechecking request"
+                },
+                {
+                  "tc": "14日內書面回覆",
+                  "en": "Written reply within 14 days"
+                },
+                {
+                  "tc": "覆檢答案紀錄等技術錯誤；覆檢結果為最終。",
+                  "en": "Rechecks technical matters such as answer-recording errors; the result is final."
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "exchange-note": [
+      {
+        "id": "exchange-rights",
+        "kind": "paths",
+        "title": {
+          "tc": "拒絕未完成交易與撤銷已完成交易",
+          "en": "Declining an unfinished exchange versus rescinding a completed one"
+        },
+        "refs": [
+          {
+            "doc": "17",
+            "locator": {
+              "tc": "第2–5條及附表1",
+              "en": "ss.2–5; Schedule 1"
+            },
+            "anchor": "within 3 days after the date"
+          }
+        ],
+        "note": {
+          "tc": "第34章另要求把正本交顧客，副本至少保留12個月；這不取代同時適用的AMLO備存紀錄要求。",
+          "en": "Cap.34 also requires the original for the customer and duplicate retention for at least 12 months; this does not displace concurrently applicable AMLO records duties."
+        },
+        "paths": [
+          {
+            "label": {
+              "tc": "交易未完成",
+              "en": "Transaction not completed"
+            },
+            "nodes": [
+              {
+                "tc": "客戶拒絕繼續",
+                "en": "Customer declines to proceed"
+              },
+              {
+                "tc": "即時退回所交全數款項",
+                "en": "Immediately return the full amount tendered"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "須",
+                "en": "Must"
+              }
+            ],
+            "note": {
+              "tc": "是交易未完成時的拒絕權，不須等候3日。",
+              "en": "This concerns an unfinished transaction; it is not a three-day waiting period."
+            }
+          },
+          {
+            "label": {
+              "tc": "交易已完成",
+              "en": "Transaction completed"
+            },
+            "nodes": [
+              {
+                "tc": "有第4條違反",
+                "en": "Section 4 breach"
+              },
+              {
+                "tc": "交易後3日內法定撤銷權",
+                "en": "Statutory rescission within 3 days after the transaction"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "才觸發這項權利",
+                "en": "Triggers this right"
+              }
+            ],
+            "note": {
+              "tc": "須涉及第4條違規；不是任何已完成兌換均有無條件3日反悔權。",
+              "en": "Requires a section 4 breach; this is not an unconditional cooling-off right for every completed exchange."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "risk-based": [
+      {
+        "id": "risk-levels",
+        "kind": "relationships",
+        "title": {
+          "tc": "機構風險與客戶風險",
+          "en": "Institutional risk and customer risk"
+        },
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第2.1、2.13–2.16、3.3段",
+              "en": "¶2.1, 2.13–2.16, 3.3"
+            },
+            "anchor": "allocate its resources more effectively"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第2.13–2.16段",
+              "en": "¶2.13–2.16"
+            },
+            "anchor": "finalise the customer risk assessment"
+          }
+        ],
+        "note": {
+          "tc": "兩層互相提供資訊：機構風險影響客戶評估方法；客戶及監察的新發現可促使機構評估更新。",
+          "en": "The levels inform one another: institutional risk shapes customer assessment; customer and monitoring findings can trigger institutional updates."
+        },
+        "relations": [
+          {
+            "from": {
+              "tc": "機構層面風險評估",
+              "en": "Institutional risk assessment"
+            },
+            "verb": {
+              "tc": "決定配置",
+              "en": "Shapes allocation"
+            },
+            "to": {
+              "tc": "制度、控制及資源",
+              "en": "Systems, controls and resources"
+            },
+            "note": {
+              "tc": "涵蓋客戶、地域、產品／服務／交易及渠道等風險；小規模可簡化方法，不能省略。",
+              "en": "Covers customer, geographical, product / service / transaction and channel risks; small scale allows simpler methods, not omission."
+            }
+          },
+          {
+            "from": {
+              "tc": "客戶層面風險評估",
+              "en": "Customer risk assessment"
+            },
+            "verb": {
+              "tc": "決定強度",
+              "en": "Shapes intensity"
+            },
+            "to": {
+              "tc": "該客戶的CDD及持續監察",
+              "en": "That customer’s CDD and ongoing monitoring"
+            },
+            "note": {
+              "tc": "以初步風險決定審查程度，再結合CDD資料整體評估及更新；不是只憑國籍或機械分數。",
+              "en": "Use initial risk to set CDD extent, then assess holistically with CDD data and update; nationality or a mechanical score alone is insufficient."
+            }
+          }
+        ]
+      }
+    ],
+    "institutional-assessment": [
+      {
+        "id": "review-frequency",
+        "kind": "table",
+        "title": {
+          "tc": "兩年、每年、事前：覆核節奏不可互換",
+          "en": "Two-yearly, annual, before launch: do not interchange review clocks"
+        },
+        "headers": [
+          {
+            "tc": "事項",
+            "en": "Matter"
+          },
+          {
+            "tc": "定期／事前要求",
+            "en": "Periodic / advance requirement"
+          },
+          {
+            "tc": "另行觸發及界線",
+            "en": "Other triggers and limits"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "tc": "機構風險評估",
+              "en": "Institutional risk assessment"
+            },
+            {
+              "tc": "每兩年及重大觸發事件時。",
+              "en": "Every two years and upon material triggers."
+            },
+            {
+              "tc": "新客戶組別／渠道／產品、重大流程／對手改變或嚴重違規可觸發；不是未滿兩年便毋須重做。",
+              "en": "New segments/channels/products, material process/counterparty changes or significant breaches may trigger review before two years."
+            }
+          ],
+          [
+            {
+              "tc": "新產品／渠道／科技",
+              "en": "New products / channels / technology"
+            },
+            {
+              "tc": "推出或使用前先評估並緩解風險。",
+              "en": "Assess and mitigate before launch/use."
+            },
+            {
+              "tc": "包括現有產品使用新／發展中科技；不是只適用全新產品。",
+              "en": "Includes new/developing technology for existing products, not only entirely new products."
+            }
+          ],
+          [
+            {
+              "tc": "高風險客戶CDD資料",
+              "en": "High-risk customer CDD records"
+            },
+            {
+              "tc": "至少每年覆核，另按事件更新。",
+              "en": "Review at least annually, with event-driven updates."
+            },
+            {
+              "tc": "持續監察並非每年才做一次；一般客戶不因這項規則一律有相同年度週期。",
+              "en": "Ongoing monitoring is not an annual-only task; this does not impose the same universal annual cycle on every customer."
+            }
+          ],
+          [
+            {
+              "tc": "獨立審核",
+              "en": "Independent audit"
+            },
+            {
+              "tc": "定期，頻率／程度按業務及風險。",
+              "en": "Regular, with frequency/extent based on business and risk."
+            },
+            {
+              "tc": "沒有所有機構一律每年或每兩年的固定審核期限。",
+              "en": "No single annual or two-year audit deadline applies universally."
+            }
+          ]
+        ],
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第2.3、2.5–2.10段",
+              "en": "¶2.3, 2.5–2.10"
+            },
+            "anchor": "conduct its assessment every two years"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第2.9、2.11–2.12段",
+              "en": "¶2.9, 2.11–2.12"
+            },
+            "anchor": "prior to the launch of the new"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第5.1–5.14段及註52–53",
+              "en": "¶5.1–5.14; footnotes 52–53"
+            },
+            "anchor": "preferably the MSO adopts a relationship-based approach"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第3.11–3.13、5.8段",
+              "en": "¶3.11–3.13, 5.8"
+            },
+            "anchor": "direct line of communication to the senior management"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "roles": [
+      {
+        "id": "control-responsibilities",
+        "kind": "relationships",
+        "title": {
+          "tc": "誰設計、誰判斷、誰獨立檢查",
+          "en": "Who designs, decides and independently checks"
+        },
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第3.5–3.10段及註9",
+              "en": "¶3.5–3.10; footnotes 9"
+            },
+            "anchor": "functions of CO and MLRO may be performed by the same"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第3.6、3.8段",
+              "en": "¶3.6, 3.8"
+            },
+            "anchor": "normally based in Hong Kong"
+          },
+          {
+            "doc": "05",
+            "locator": {
+              "tc": "第4.15(a)段",
+              "en": "¶4.15(a)"
+            },
+            "anchor": "employee under the definition"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第3.6、3.8(h)段",
+              "en": "¶3.6, 3.8(h)"
+            },
+            "anchor": "an alternate or deputy CO and MLRO"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第3.11–3.13、5.8段",
+              "en": "¶3.11–3.13, 5.8"
+            },
+            "anchor": "direct line of communication to the senior management"
+          },
+          {
+            "doc": "06",
+            "locator": {
+              "tc": "打擊洗錢問答A23",
+              "en": "AML/CFT FAQ A23"
+            },
+            "anchor": "segregation"
+          }
+        ],
+        "relations": [
+          {
+            "from": {
+              "tc": "高級管理層",
+              "en": "Senior management"
+            },
+            "verb": {
+              "tc": "委任、支援並承擔管理責任",
+              "en": "Appoints, supports and manages risk"
+            },
+            "to": {
+              "tc": "CO與MLRO",
+              "en": "CO and MLRO"
+            },
+            "note": {
+              "tc": "應在切實可行範圍內確保權限、資源、資訊及直接溝通渠道；完整八項條件見正文。",
+              "en": "Should, as far as practicable, ensure authority, resources, information and direct communication; see the eight conditions below."
+            }
+          },
+          {
+            "from": {
+              "tc": "合規主任（CO）",
+              "en": "Compliance officer (CO)"
+            },
+            "verb": {
+              "tc": "建立及監察",
+              "en": "Establishes and monitors"
+            },
+            "to": {
+              "tc": "AML/CFT制度、培訓及合規",
+              "en": "AML/CFT systems, training and compliance"
+            },
+            "note": {
+              "tc": "應向高級管理層溝通主要AML/CFT事項，包括適當時的重大合規缺失；不限於缺失。",
+              "en": "Should communicate key AML/CFT issues to senior management, including significant compliance deficiencies where appropriate; not deficiencies alone."
+            }
+          },
+          {
+            "from": {
+              "tc": "洗錢報告主任（MLRO）",
+              "en": "Money laundering reporting officer (MLRO)"
+            },
+            "verb": {
+              "tc": "評估內部報告，決定是否披露",
+              "en": "Assesses internal reports and decides disclosure"
+            },
+            "to": {
+              "tc": "聯合財富情報組（JFIU）",
+              "en": "Joint Financial Intelligence Unit (JFIU)"
+            },
+            "note": {
+              "tc": "保留評估理由及紀錄，防止通風報訊。",
+              "en": "Keep assessment reasons and records; prevent tipping off."
+            }
+          },
+          {
+            "from": {
+              "tc": "獨立審計職能",
+              "en": "Independent audit function"
+            },
+            "verb": {
+              "tc": "獨立檢查及提出改善",
+              "en": "Independently tests and recommends improvements"
+            },
+            "to": {
+              "tc": "制度、程序及控制",
+              "en": "Systems, procedures and controls"
+            },
+            "note": {
+              "tc": "按規模及性質可內設或外聘，但須保持獨立；不是CO自行審核自己的工作。",
+              "en": "May be internal or external depending on size and nature, but must remain independent; not CO self-review."
+            }
+          }
+        ],
+        "note": {
+          "tc": "視業務規模及性質，CO與MLRO可由同一人兼任；圖中的職能不同，不代表必須是不同員工。",
+          "en": "CO and MLRO may be combined depending on business size and nature; distinct functions do not necessarily mean separate employees."
+        }
+      }
+    ]
+  },
+  "6": {
+    "cdd": [],
+    "identity": [
+      {
+        "id": "party-roles",
+        "kind": "relationships",
+        "title": {
+          "tc": "客戶、實益擁有人、代表及關連人士",
+          "en": "Customer, beneficial owner, representative and connected party"
+        },
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.1.4–4.1.5段",
+              "en": "¶4.1.4–4.1.5"
+            },
+            "anchor": "generally excludes the third parties"
+          },
+          {
+            "doc": "07",
+            "locator": {
+              "tc": "附錄第(3)部分，第5頁",
+              "en": "Appendix (3), p.5"
+            },
+            "anchor": "treated a PPTA as the customer"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.3.4、4.3.14–4.3.19段及註26",
+              "en": "¶4.3.4, 4.3.14–4.3.19; footnotes 26"
+            },
+            "anchor": "identify all the connected parties"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.4.1–4.4.12段",
+              "en": "¶4.4.1–4.4.12"
+            },
+            "anchor": "more than 25% of the issued share capital"
+          },
+          {
+            "doc": "06",
+            "locator": {
+              "tc": "打擊洗錢問答A9、A11–A12",
+              "en": "AML/CFT FAQ A9, A11–A12"
+            },
+            "anchor": "appropriate measures which are commensurate with the ML/TF risks"
+          }
+        ],
+        "note": {
+          "tc": "這是公司例子，不能把25%套到信託。BO各類定義及SCR界線見本部分「實益擁有人」；第三方收款人不自動成為發款MSO的客戶。",
+          "en": "A company example: do not apply 25% to trusts. See Beneficial owners for each definition and SCR distinctions; a third-party beneficiary is not automatically the ordering MSO’s customer."
+        },
+        "relations": [
+          {
+            "from": {
+              "tc": "公司甲：客戶",
+              "en": "Company A: customer"
+            },
+            "verb": {
+              "tc": "建立關係／委託交易",
+              "en": "Establishes relationship / instructs transaction"
+            },
+            "to": {
+              "tc": "MSO",
+              "en": "MSO"
+            },
+            "note": {
+              "tc": "須識別及核實公司本身，不能只核實到場的人。",
+              "en": "Identify and verify the company itself, not only the person attending."
+            }
+          },
+          {
+            "from": {
+              "tc": "個人乙：持股25.1%",
+              "en": "Individual B: holds 25.1%"
+            },
+            "verb": {
+              "tc": "超過25%的擁有權",
+              "en": "Ownership above 25%"
+            },
+            "to": {
+              "tc": "公司甲",
+              "en": "Company A"
+            },
+            "note": {
+              "tc": "簡化例子：符合公司BO的持股一項；恰好25%不符合這一項，但其他控制條件仍可能符合。",
+              "en": "Simplified example: satisfies the corporate BO shareholding limb; exactly 25% does not satisfy that limb, but other control limbs may apply."
+            }
+          },
+          {
+            "from": {
+              "tc": "個人丙：PPTA代表",
+              "en": "Individual C: PPTA representative"
+            },
+            "verb": {
+              "tc": "獲授權代表",
+              "en": "Authorized to act for"
+            },
+            "to": {
+              "tc": "公司甲",
+              "en": "Company A"
+            },
+            "note": {
+              "tc": "識別、合理核實代表身分，並核實授權；代表不會因此取代公司成為客戶。",
+              "en": "Identify, reasonably verify the representative, and verify authority; representation does not replace the company as customer."
+            }
+          },
+          {
+            "from": {
+              "tc": "個人丁：董事",
+              "en": "Individual D: director"
+            },
+            "verb": {
+              "tc": "屬關連人士",
+              "en": "Is a connected party of"
+            },
+            "to": {
+              "tc": "公司甲",
+              "en": "Company A"
+            },
+            "note": {
+              "tc": "取得姓名；如同時是BO或代表，另按該身分處理。乙、丙、丁可以是同一人。",
+              "en": "Obtain the name; apply additional duties if also BO or representative. B, C and D may be the same person."
+            }
+          }
+        ],
+        "links": [
+          {
+            "href": "#beneficial-owners",
+            "label": {
+              "tc": "完整BO定義及SCR",
+              "en": "Full BO definitions and SCR"
+            }
+          }
+        ]
+      }
+    ],
+    "enhanced": [
+      {
+        "id": "sow-sof",
+        "kind": "paths",
+        "title": {
+          "tc": "SOW與SOF：財富與本次資金",
+          "en": "SOW and SOF: accumulated wealth and specific funds"
+        },
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.9.24–4.9.26段",
+              "en": "¶4.9.24–4.9.26"
+            },
+            "anchor": "the origin of an individual"
+          },
+          {
+            "doc": "06",
+            "locator": {
+              "tc": "打擊洗錢問答A3–A8、A13–A15",
+              "en": "AML/CFT FAQ A3–A8, A13–A15"
+            },
+            "anchor": "biodata"
+          }
+        ],
+        "note": {
+          "tc": "按風險採取合理措施取得及佐證資料；需要同時確立SOW與SOF的情況不能任選其一。不是每案都要相同年期的全部財務歷史。",
+          "en": "Obtain and corroborate information with reasonable, risk-based measures. Where both SOW and SOF are required, neither substitutes for the other. No identical full historical lookback applies to every case."
+        },
+        "paths": [
+          {
+            "label": {
+              "tc": "同一位客戶 · SOW財富來源",
+              "en": "Same customer · SOW"
+            },
+            "nodes": [
+              {
+                "tc": "多年經營業務所得利潤",
+                "en": "Profits from running a business over years"
+              },
+              {
+                "tc": "整體累積財富",
+                "en": "Overall accumulated wealth"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "累積成",
+                "en": "Accumulate into"
+              }
+            ],
+            "note": {
+              "tc": "教學例子：回答「整體財富怎樣形成」。可包括投資及繼承等來源。",
+              "en": "Teaching example: explains how overall wealth arose. Other sources include investments and inheritance."
+            }
+          },
+          {
+            "label": {
+              "tc": "同一位客戶 · SOF資金來源",
+              "en": "Same customer · SOF"
+            },
+            "nodes": [
+              {
+                "tc": "本次出售物業所得",
+                "en": "Proceeds from this property sale"
+              },
+              {
+                "tc": "銀行戶口",
+                "en": "Bank account"
+              },
+              {
+                "tc": "本次匯款",
+                "en": "This remittance"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "存入",
+                "en": "Deposited into"
+              },
+              {
+                "tc": "匯出",
+                "en": "Sent as"
+              }
+            ],
+            "note": {
+              "tc": "教學例子：SOF追問本次款項由甚麼活動產生；銀行是傳送渠道，不是充分的來源解釋。",
+              "en": "Teaching example: SOF asks which activity generated this money. The bank is a channel, not a sufficient explanation of origin."
+            }
+          }
+        ]
+      }
+    ],
+    "simplified": [
+      {
+        "id": "cdd-extent-tree",
+        "kind": "decision",
+        "title": {
+          "tc": "CDD要做到甚麼程度",
+          "en": "How much CDD is needed"
+        },
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.1.1–4.1.5、4.6.1段",
+              "en": "¶4.1.1–4.1.5, 4.6.1"
+            },
+            "anchor": "The following are CDD measures applicable to an MSO"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.8.1–4.8.9段",
+              "en": "¶4.8.1–4.8.9"
+            },
+            "anchor": "it is still required to continuously monitor"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.8.10–4.8.16段",
+              "en": "¶4.8.10–4.8.16"
+            },
+            "anchor": "beneficial owners in the ownership chain that are not connected"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.8.17–4.8.20段",
+              "en": "¶4.8.17–4.8.20"
+            },
+            "anchor": "moneys or securities of the customer"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.8.10(d)、4.8.14–4.8.18段",
+              "en": "¶4.8.10(d), 4.8.14–4.8.18"
+            },
+            "anchor": "stating, to its actual knowledge"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.8.2–4.8.8段",
+              "en": "¶4.8.2–4.8.8"
+            },
+            "anchor": "Examples of possible SDD measures include"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.8.13段",
+              "en": "¶4.8.13"
+            },
+            "anchor": "in the name of a nominee company"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.9.1–4.9.6段及註36",
+              "en": "¶4.9.1–4.9.6; footnotes 36"
+            },
+            "anchor": "no expectation for an MSO to conduct all the examples"
+          },
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "附表2第15條",
+              "en": "Schedule 2 s.15"
+            },
+            "anchor": "either"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.10.1–4.10.5段",
+              "en": "¶4.10.1–4.10.5"
+            },
+            "anchor": "not required to carry out any additional measures"
+          },
+          {
+            "doc": "06",
+            "locator": {
+              "tc": "打擊洗錢問答A27",
+              "en": "AML/CFT FAQ A27"
+            },
+            "anchor": "There is no expectation to require certification for all other"
+          }
+        ],
+        "intro": {
+          "tc": "基本措施：識別及核實客戶；如有實益擁有人，識別並採合理措施核實；業務關係的目的及性質並非明顯時取得資料；有代表時識別、合理核實代表身分，並核實授權。",
+          "en": "Basic measures: identify / verify the customer; where there is a BO, identify and take reasonable verification measures; obtain purpose / intended nature information where not obvious for a business relationship; identify and reasonably verify a representative and verify authority."
+        },
+        "nodes": [
+          {
+            "test": {
+              "tc": "高風險，或另有適用的加強要求？",
+              "en": "High risk, or another applicable enhanced requirement?"
+            },
+            "yes": {
+              "tc": "基本CDD＋適用加強措施；按風險及具體規定決定內容，不是每種情況都套同一PEP清單。",
+              "en": "Basic CDD + applicable enhanced measures, tailored to risk and the specific requirement; not the same PEP checklist in every case."
+            }
+          },
+          {
+            "test": {
+              "tc": "風險分析確認低風險 AND 無ML/TF懷疑 AND 無身分資料疑問？",
+              "en": "Risk analysis establishes low risk AND no ML/TF suspicion AND no identification doubts?"
+            },
+            "yes": {
+              "tc": "可採取與風險相稱的簡化措施；仍須識別／核實客戶及持續監察。",
+              "en": "May apply proportionate simplified measures; still identify / verify the customer and conduct ongoing monitoring."
+            },
+            "no_label": {
+              "tc": "否",
+              "en": "NO"
+            },
+            "no": {
+              "tc": "採一般CDD，並按已識別的風險調整措施。",
+              "en": "Apply ordinary CDD and adapt measures to identified risks."
+            }
+          }
+        ],
+        "note": {
+          "tc": "「低風險」不等於自動免識別／核實實益擁有人：附表2第4條須符合指定客戶／產品條件。非面對面等額外要求亦須獨立處理；依賴中介人不轉移MSO責任。",
+          "en": "Low risk is not automatic BO identification / verification exemption: Schedule 2 s.4 requires specified customer / product conditions. Address additional requirements such as non-face-to-face situations separately; intermediary reliance does not transfer MSO responsibility."
+        },
+        "links": [
+          {
+            "href": "#enhanced",
+            "label": {
+              "tc": "加強措施及SOW／SOF",
+              "en": "Enhanced measures and SOW / SOF"
+            }
+          },
+          {
+            "href": "#remote",
+            "label": {
+              "tc": "非面對面條件及例外",
+              "en": "Non-face-to-face conditions and exceptions"
+            }
+          }
+        ]
+      }
+    ],
+    "peps": [
+      {
+        "id": "pep-categories",
+        "kind": "table",
+        "title": {
+          "tc": "PEP類別與加強措施",
+          "en": "PEP categories and enhanced measures"
+        },
+        "headers": [
+          {
+            "tc": "身分類別",
+            "en": "Status category"
+          },
+          {
+            "tc": "何時適用共同加強措施",
+            "en": "When the common enhanced measures apply"
+          },
+          {
+            "tc": "條件",
+            "en": "Conditions"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "tc": "非香港PEP",
+              "en": "Non-Hong Kong PEP"
+            },
+            {
+              "tc": "客戶／BO屬非香港PEP",
+              "en": "Customer / BO is a non-Hong Kong PEP"
+            },
+            {
+              "tc": "包括客戶或其BO；並非三選一。現有關係後來才發現PEP身分也須處理。",
+              "en": "Covers customer/BO; these are not alternatives. Later discovery within an existing relationship also requires action."
+            }
+          ],
+          [
+            {
+              "tc": "香港／國際組織PEP",
+              "en": "Hong Kong / international-organisation PEP"
+            },
+            {
+              "tc": "關係屬高風險",
+              "en": "The relationship is high risk"
+            },
+            {
+              "tc": "建立時高風險、後來變高風險，或高風險關係後來發現PEP身分均涵蓋；本地PEP不自動一律高風險。",
+              "en": "Covers high risk at establishment, later becoming high risk, or PEP discovery in a high-risk relationship. Domestic status is not universally high risk."
+            }
+          ]
+        ],
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.9.7–4.9.8、4.9.13–4.9.15段",
+              "en": "¶4.9.7–4.9.8, 4.9.13–4.9.15"
+            },
+            "anchor": "a spouse or a partner of a child"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.9.9–4.9.12、4.9.16–4.9.23段及註37–42",
+              "en": "¶4.9.9–4.9.12, 4.9.16–4.9.23; footnotes 37–42"
+            },
+            "anchor": "not merely on prescribed time limits"
+          }
+        ],
+        "note": {
+          "tc": "前PEP是跨類別的離任狀態，不是第三個互斥地域類別。離任不自動停止措施；須適當評估沒有餘下高風險、獲高級管理層批准並保留理由，不能只按固定年期豁免。",
+          "en": "Former PEP is a status across categories, not a third mutually exclusive geographical class. Leaving office does not automatically end measures: assess that no high risk remains, obtain senior approval and retain reasons; no fixed-year automatic exemption."
+        }
+      },
+      {
+        "id": "pep-common-and",
+        "kind": "logic",
+        "title": {
+          "tc": "適用時，三組措施同時需要",
+          "en": "When applicable, all three groups of measures"
+        },
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.9.7–4.9.8、4.9.13–4.9.15段",
+              "en": "¶4.9.7–4.9.8, 4.9.13–4.9.15"
+            },
+            "anchor": "a spouse or a partner of a child"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.9.9–4.9.12、4.9.16–4.9.23段及註37–42",
+              "en": "¶4.9.9–4.9.12, 4.9.16–4.9.23; footnotes 37–42"
+            },
+            "anchor": "not merely on prescribed time limits"
+          }
+        ],
+        "operator": {
+          "tc": "全部 · AND",
+          "en": "ALL · AND"
+        },
+        "items": [
+          {
+            "tc": "建立／繼續關係前取得高級管理層批准",
+            "en": "Senior-management approval before establishing / continuing the relationship"
+          },
+          {
+            "tc": "採合理措施確立財富來源 AND 資金來源",
+            "en": "Reasonable measures to establish source of wealth AND source of funds"
+          },
+          {
+            "tc": "加強持續監察",
+            "en": "Enhanced ongoing monitoring"
+          }
+        ],
+        "note": {
+          "tc": "上圖先判斷類別及風險；發現既有關係中的PEP或風險轉高時也須處理。親屬／密切關係及前PEP適用細節見正文。",
+          "en": "First apply the category and risk matrix above. Act on PEP discovery in existing relationships and increased risk too. See the text for family / close associates and former PEP details."
+        }
+      }
+    ],
+    "wire-transfers": [
+      {
+        "id": "transfer-information",
+        "kind": "packet",
+        "title": {
+          "tc": "跨境電傳：8,000元上下的資料及核實",
+          "en": "Cross-border wires: information and verification around HK$8,000"
+        },
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第10.5–10.13段及註70–71",
+              "en": "¶10.5–10.13; footnotes 70–71"
+            },
+            "anchor": "within 3 business days after the request is received"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第10.14–10.22段",
+              "en": "¶10.14–10.22"
+            },
+            "anchor": "incomplete or meaningless"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第11.1–11.6段",
+              "en": "¶11.1–11.6"
+            },
+            "anchor": "date and time of receipt of the instruction"
+          },
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "附表2第1、13條",
+              "en": "Schedule 2 ss.1, 13"
+            },
+            "anchor": "certificate of identity"
+          }
+        ],
+        "note": {
+          "tc": "這是跨境電傳資料包；本地電傳、批次檔案及轉帳類型豁免各有條件，見下文。不要把資料要求與機構傳送責任混成同一流程。",
+          "en": "This is the cross-border wire information packet. Domestic wires, batch files and excluded transfer types have separate conditions below. Data requirements and institutional transmission responsibilities are different questions."
+        },
+        "groups": [
+          {
+            "title": {
+              "tc": "跨境電傳共同資料：不論是否達HK$8,000",
+              "en": "Cross-border wires: common information at both amounts"
+            },
+            "operator": {
+              "tc": "全部 · AND",
+              "en": "ALL · AND"
+            },
+            "items": [
+              {
+                "tc": "發款人姓名 ＋ 發款戶口號碼",
+                "en": "Originator name + originator account number"
+              },
+              {
+                "tc": "受款人姓名 ＋ 受款戶口號碼",
+                "en": "Beneficiary name + beneficiary account number"
+              }
+            ],
+            "note": {
+              "tc": "沒有該戶口才用可追查的獨特交易參考編號，不能任意取代現有戶口號碼。",
+              "en": "Use a traceable unique transaction reference only where no account exists; not freely in place of an existing account number."
+            }
+          },
+          {
+            "title": {
+              "tc": "達HK$8,000：另加發款人資料",
+              "en": "At least HK$8,000: additional originator information"
+            },
+            "operator": {
+              "tc": "至少一項 · OR",
+              "en": "AT LEAST ONE · OR"
+            },
+            "items": [
+              {
+                "tc": "地址",
+                "en": "Address"
+              },
+              {
+                "tc": "客戶識別號碼",
+                "en": "Customer identification number"
+              },
+              {
+                "tc": "身分證明文件號碼",
+                "en": "Identification-document number"
+              },
+              {
+                "tc": "自然人：出生日期 AND 出生地點",
+                "en": "Individual: date of birth AND place of birth"
+              }
+            ],
+            "note": {
+              "tc": "發款人資料須準確，並完成適用CDD。低於門檻的非經常發款人一般毋須核實，但相連交易達門檻、懷疑及資料疑問仍須處理。",
+              "en": "Originator data must be accurate and applicable CDD completed. Below-threshold occasional originators generally need not be verified, but linked totals, suspicion and doubts still matter."
+            }
+          }
+        ]
+      }
+    ],
+    "intermediaries": [
+      {
+        "id": "reliance-outsourcing",
+        "kind": "table",
+        "title": {
+          "tc": "依賴中介人與外判",
+          "en": "Intermediary reliance and outsourcing"
+        },
+        "headers": [
+          {
+            "tc": "概念／情境",
+            "en": "Concept / situation"
+          },
+          {
+            "tc": "必記區別",
+            "en": "Remember the distinction"
+          },
+          {
+            "tc": "條件及例外",
+            "en": "Conditions and exceptions"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "tc": "依賴合資格中介人",
+              "en": "Reliance on a qualifying intermediary"
+            },
+            {
+              "tc": "中介人通常有獨立的既有客戶關係及程序。",
+              "en": "The intermediary usually has an existing independent customer relationship/procedures."
+            },
+            {
+              "tc": "須合資格、書面同意、立即取得CDD資料並可按要求無延誤取得支持文件；MSO責任不轉移。",
+              "en": "Eligibility, written consent, immediate CDD data and supporting-record availability without delay are required; MSO liability remains."
+            }
+          ],
+          [
+            {
+              "tc": "外判／代理",
+              "en": "Outsourcing / agency"
+            },
+            {
+              "tc": "按MSO程序及其控制執行。",
+              "en": "Acts under the MSO’s procedures/control."
+            },
+            {
+              "tc": "與法定中介人依賴不同；不能因此移轉CDD責任。第5條持續監察仍由MSO負責。",
+              "en": "Different from statutory reliance; CDD liability is not transferred. Schedule 2 s.5 ongoing monitoring remains with the MSO."
+            }
+          ]
+        ],
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.11.1–4.11.7段及註44",
+              "en": "¶4.11.1–4.11.7; footnotes 44"
+            },
+            "anchor": "does not apply to outsourcing or agency relationships"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.11.8–4.11.14段",
+              "en": "¶4.11.8–4.11.14"
+            },
+            "anchor": "an institution that carries on a business similar"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "triggers": [
+      {
+        "id": "cdd-trigger-tree",
+        "kind": "decision",
+        "title": {
+          "tc": "何時須做CDD",
+          "en": "When CDD is required"
+        },
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第4.2.1–4.2.5、11.3段",
+              "en": "¶4.2.1–4.2.5, 11.3"
+            },
+            "anchor": "whether the transaction is carried out in a single operation"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第5.1–5.14段及註52–53",
+              "en": "¶5.1–5.14; footnotes 52–53"
+            },
+            "anchor": "preferably the MSO adopts a relationship-based approach"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第1.25、5.13、7.6段",
+              "en": "¶1.25, 5.13, 7.6"
+            },
+            "anchor": "has not yet been reported to the JFIU"
+          }
+        ],
+        "intro": {
+          "tc": "CDD＝客戶盡職審查。由上至下判斷；任何適用觸發均須處理，不以「低於門檻」取代風險判斷。",
+          "en": "CDD = customer due diligence. Read down the branches; address every applicable trigger. A below-threshold amount does not replace risk assessment."
+        },
+        "nodes": [
+          {
+            "test": {
+              "tc": "懷疑洗錢／恐怖分子資金籌集，或懷疑原有身分資料真實性／充分性？",
+              "en": "ML/TF suspicion, or doubts about the truth / adequacy of existing identification information?"
+            },
+            "yes": {
+              "tc": "CDD觸發不論金額；另評估STR責任。若合理相信繼續CDD會通風報訊，可停止追查、記錄依據並提交STR。",
+              "en": "CDD triggers regardless of amount; assess STR duties separately. If reasonably believing that continued CDD would tip off the customer, may stop pursuing it, document the basis and file an STR."
+            }
+          },
+          {
+            "test": {
+              "tc": "將建立業務關係？",
+              "en": "Establishing a business relationship?"
+            },
+            "yes": {
+              "tc": "建立前做CDD，不論金額；只有符合全部條件才可延遲核實身分。",
+              "en": "CDD before establishment, regardless of amount; defer identity verification only if all conditions are met."
+            }
+          },
+          {
+            "test": {
+              "tc": "已存在業務關係？",
+              "en": "An existing business relationship?"
+            },
+            "yes": {
+              "tc": "持續CDD及交易監察；按觸發事件及風險更新。不是每次交易重新開戶，也不是低額便免查。",
+              "en": "Ongoing CDD and transaction monitoring; update on triggers and risk. Neither repeat onboarding for every transaction nor exempt low-value activity."
+            }
+          },
+          {
+            "test": {
+              "tc": "非經常交易達門檻？電傳／虛擬資產轉帳 ≥ HK$8,000；其他 ≥ HK$120,000（或等值）。",
+              "en": "Occasional transaction at threshold? Wire / VA transfer ≥ HK$8,000; others ≥ HK$120,000 (or equivalent)."
+            },
+            "yes": {
+              "tc": "執行前做CDD。單筆及看來相連的交易須合計。",
+              "en": "CDD before execution. Count a single operation and operations that appear linked."
+            },
+            "no_label": {
+              "tc": "否",
+              "en": "NO"
+            },
+            "no": {
+              "tc": "僅表示未觸發這項金額條件。其他義務仍可能適用。",
+              "en": "Only this amount-based trigger is absent. Other duties may still apply."
+            }
+          }
+        ],
+        "note": {
+          "tc": "非電傳匯出款項 ≥ HK$8,000另有發款人核實／紀錄要求；低於HK$8,000的電傳亦須附基本資料。虛擬資產列於法定CDD觸發，並不表示MSO牌照准許提供所有VA服務。",
+          "en": "Non-wire outward remittances ≥ HK$8,000 have separate originator verification / record duties; wires below HK$8,000 still need basic information. Listing VA in statutory CDD triggers does not authorize all VA services under an MSO licence."
+        },
+        "links": [
+          {
+            "href": "#memory-cdd-extent-tree",
+            "label": {
+              "tc": "接著判斷CDD程度",
+              "en": "Then determine CDD extent"
+            }
+          },
+          {
+            "href": "#timing",
+            "label": {
+              "tc": "延遲核實及無法完成CDD",
+              "en": "Deferred verification and inability to complete CDD"
+            }
+          },
+          {
+            "href": "#remittances",
+            "label": {
+              "tc": "非電傳匯款要求",
+              "en": "Non-wire remittance requirements"
+            }
+          },
+          {
+            "href": "part-7.html#tipping-off",
+            "label": {
+              "tc": "繼續CDD可能通風報訊的例外",
+              "en": "Exception where continued CDD may tip off"
+            }
+          }
+        ]
+      }
+    ],
+    "wire-receiving": [
+      {
+        "id": "wire-responsibilities",
+        "kind": "paths",
+        "title": {
+          "tc": "電傳鏈條：每一站的責任",
+          "en": "Wire-transfer chain: responsibilities at each stage"
+        },
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第10.1–10.4段",
+              "en": "¶10.1–10.4"
+            },
+            "anchor": "the card is not used as a payment system"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第10.5–10.13段及註70–71",
+              "en": "¶10.5–10.13; footnotes 70–71"
+            },
+            "anchor": "within 3 business days after the request is received"
+          },
+          {
+            "doc": "06",
+            "locator": {
+              "tc": "打擊洗錢問答A25–A26",
+              "en": "AML/CFT FAQ A25–A26"
+            },
+            "anchor": "except where no alternative exists"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第10.3、10.5–10.7、10.13段及註70",
+              "en": "¶10.3, 10.5–10.7, 10.13; footnotes 70"
+            },
+            "anchor": "is a different number from the unique transaction reference number"
+          },
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "附表2第12(6)、(9)、(11)條",
+              "en": "Schedule 2 s.12(6), (9), (11)"
+            },
+            "anchor": "domestic wire transfer"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第10.11–10.12、10.20段及註71",
+              "en": "¶10.11–10.12, 10.20; footnote 71"
+            },
+            "anchor": "Domestic wire transfer means"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第10.14–10.22段",
+              "en": "¶10.14–10.22"
+            },
+            "anchor": "incomplete or meaningless"
+          }
+        ],
+        "paths": [
+          {
+            "label": {
+              "tc": "資料隨付款鏈傳遞",
+              "en": "Information travels with the payment chain"
+            },
+            "nodes": [
+              {
+                "tc": "匯款機構：附上所需資料",
+                "en": "Ordering institution: include required data"
+              },
+              {
+                "tc": "中介機構：保留隨附資料",
+                "en": "Intermediary institution: retain accompanying data"
+              },
+              {
+                "tc": "收款機構：偵測缺漏並作適用核實",
+                "en": "Beneficiary institution: detect omissions and verify where applicable"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "傳遞",
+                "en": "Pass on"
+              },
+              {
+                "tc": "傳遞",
+                "en": "Pass on"
+              }
+            ],
+            "note": {
+              "tc": "中介及收款機構須有風險為本程序，決定缺漏資料時執行、拒絕或暫停及跟進；不是每次缺漏自動拒絕。技術限制及本地轉帳例外見正文。",
+              "en": "Intermediary and beneficiary institutions need risk-based procedures to execute, reject or suspend and follow up when data are missing; no automatic rejection for every omission. Technical limitations and domestic exceptions are detailed below."
+            }
+          }
+        ]
+      }
+    ],
+    "trade-based-laundering": [
+      {
+        "id": "trade-value-paths",
+        "kind": "paths",
+        "title": {
+          "tc": "貿易洗錢：分開看貨物、單據與付款",
+          "en": "Trade-based laundering: separate goods, documents and payments"
+        },
+        "refs": [
+          {
+            "doc": "18",
+            "locator": {
+              "tc": "第1–3頁",
+              "en": "pp.1–3"
+            },
+            "anchor": "trade-based money laundering"
+          },
+          {
+            "doc": "24",
+            "locator": {
+              "tc": "第1–2頁（中文為學習譯文）",
+              "en": "pp.1–2"
+            },
+            "anchor": "By no means is this a conclusive list"
+          },
+          {
+            "doc": "24",
+            "locator": {
+              "tc": "印刷第5–6頁",
+              "en": "Printed pp.5–6"
+            },
+            "anchor": "Account and transaction activity"
+          },
+          {
+            "doc": "25",
+            "locator": {
+              "tc": "2022年版，第4.44、4.57–4.59段及專題4.5",
+              "en": "2022 edition, ¶4.44, 4.57–4.59 and Box 4.5"
+            },
+            "anchor": "Box 4.5"
+          }
+        ],
+        "paths": [
+          {
+            "label": {
+              "tc": "高報價格的簡化例子",
+              "en": "Simplified over-invoicing example"
+            },
+            "nodes": [
+              {
+                "tc": "實際貨物價值較低",
+                "en": "Lower actual goods value"
+              },
+              {
+                "tc": "發票聲稱價值較高",
+                "en": "Higher invoiced value"
+              },
+              {
+                "tc": "買方向賣方支付較多",
+                "en": "Buyer pays seller more"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "不一致",
+                "en": "Mismatch"
+              },
+              {
+                "tc": "按單據付款",
+                "en": "Payment against invoice"
+              }
+            ],
+            "note": {
+              "tc": "差額可把額外價值移向賣方；低報可反向移動價值。需結合商品、定價及關係評估。",
+              "en": "The difference can move extra value to the seller; under-invoicing can reverse the direction. Assess goods, pricing and relationships."
+            },
+            "symbols": [
+              "≠",
+              "→"
+            ]
+          },
+          {
+            "label": {
+              "tc": "重複發票的簡化例子",
+              "en": "Simplified multiple-invoicing example"
+            },
+            "nodes": [
+              {
+                "tc": "同一批貨物",
+                "en": "One shipment"
+              },
+              {
+                "tc": "多份發票／融資要求",
+                "en": "Multiple invoices / financing requests"
+              },
+              {
+                "tc": "多次付款",
+                "en": "Repeated payments"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "重複表示",
+                "en": "Represented repeatedly"
+              },
+              {
+                "tc": "造成",
+                "en": "Generate"
+              }
+            ],
+            "note": {
+              "tc": "指標是查詢線索，不是自動證明洗錢；虛假貨物、數量差異及單據矛盾見正文。",
+              "en": "Indicators prompt enquiry; they do not automatically prove laundering. See the text for phantom goods, quantity differences and document inconsistencies."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "retention": [
+      {
+        "id": "retention-clocks",
+        "kind": "clocks",
+        "title": {
+          "tc": "保存期：記「多久」也要記「何時開始」",
+          "en": "Retention: remember the duration AND its starting event"
+        },
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第8.4、8.6、8.8–8.12、9.7段",
+              "en": "¶8.4, 8.6, 8.8–8.12, 9.7"
+            },
+            "anchor": "Records should be maintained for a minimum of 3 years"
+          },
+          {
+            "doc": "04",
+            "locator": {
+              "tc": "附表2第20(3A)條",
+              "en": "Schedule 2 s.20(3A)"
+            },
+            "anchor": "occasional transaction is completed"
+          },
+          {
+            "doc": "06",
+            "locator": {
+              "tc": "打擊洗錢問答A28",
+              "en": "AML/CFT FAQ A28"
+            },
+            "anchor": "unsuccessful"
+          }
+        ],
+        "note": {
+          "tc": "每一行有自己的起算事件，不共用同一時間軸。海關書面要求較長保存期及未成功開戶的風險考慮見下文。",
+          "en": "Each row has its own starting event, not a common timeline. Longer written CCE requirements and risk considerations for unsuccessful applications are detailed below."
+        },
+        "clocks": [
+          {
+            "label": {
+              "tc": "業務關係CDD",
+              "en": "Relationship CDD"
+            },
+            "start": {
+              "tc": "關係結束時",
+              "en": "When it ends"
+            },
+            "duration": {
+              "tc": "關係持續期間，另加至少5年",
+              "en": "Throughout the relationship plus at least five years"
+            },
+            "note": {
+              "tc": "不能從開戶日起算5年後便刪除。關長書面要求更長期限時須延長。",
+              "en": "Do not delete five years after opening. Extend for a longer CCE written requirement."
+            }
+          },
+          {
+            "label": {
+              "tc": "達CDD門檻的非經常交易CDD",
+              "en": "CDD for threshold occasional transactions"
+            },
+            "start": {
+              "tc": "交易完成時",
+              "en": "Transaction completion"
+            },
+            "duration": {
+              "tc": "至少5年",
+              "en": "At least five years"
+            },
+            "note": {
+              "tc": "附表2第20(3A)條；相關8,000／120,000元觸發條件須按交易類型判斷。",
+              "en": "Schedule 2 s.20(3A); apply the relevant HK$8,000/HK$120,000 triggers by transaction type."
+            }
+          },
+          {
+            "label": {
+              "tc": "交易紀錄",
+              "en": "Transaction records"
+            },
+            "start": {
+              "tc": "每宗交易完成時",
+              "en": "Completion of each transaction"
+            },
+            "duration": {
+              "tc": "至少5年",
+              "en": "At least five years"
+            },
+            "note": {
+              "tc": "期間關係結束不縮短保存期；不能一律把起算點改成關係結束。",
+              "en": "Relationship termination during that period does not shorten it; do not replace the starting event universally with relationship end."
+            }
+          },
+          {
+            "label": {
+              "tc": "培訓紀錄",
+              "en": "Training records"
+            },
+            "start": {
+              "tc": "指引沒有另訂起算公式；按培訓日期保留紀錄",
+              "en": "No separate statutory starting formula is stated; keep dated training records"
+            },
+            "duration": {
+              "tc": "至少3年",
+              "en": "At least three years"
+            },
+            "note": {
+              "tc": "保存受訓者、日期及類型；與CDD／交易的5年規則不同。",
+              "en": "Keep trainee, date and type; distinct from the five-year CDD/transaction rule."
+            }
+          }
+        ]
+      }
+    ],
+    "after-report": [
+      {
+        "id": "after-report-parallel",
+        "kind": "logic",
+        "title": {
+          "tc": "提交STR後：並行處理的事項",
+          "en": "After an STR: concurrent responsibilities"
+        },
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第7.22、7.24–7.28段",
+              "en": "¶7.22, 7.24–7.28"
+            },
+            "anchor": "should not be construed as a"
+          },
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第1.25、5.13、7.6段",
+              "en": "¶1.25, 5.13, 7.6"
+            },
+            "anchor": "has not yet been reported to the JFIU"
+          }
+        ],
+        "operator": {
+          "tc": "並行處理，不是先後步驟",
+          "en": "CONCURRENT, not sequential"
+        },
+        "items": [
+          {
+            "tc": "評估法定披露／同意與抗辯條件；提交報告不等於自動獲准處理財產。",
+            "en": "Assess statutory disclosure / consent and defence conditions; filing is not automatic permission to deal."
+          },
+          {
+            "tc": "應立即檢視客戶／關係風險及適當措施；不能只等待JFIU回覆。",
+            "en": "Should immediately review customer / relationship risk and appropriate measures; do not merely wait for JFIU."
+          },
+          {
+            "tc": "防止通風報訊；繼續監察，新可疑活動再交MLRO判斷是否另報。",
+            "en": "Prevent tipping off; keep monitoring and refer new suspicious activity to the MLRO for further-report decisions."
+          }
+        ],
+        "note": {
+          "tc": "這三項是職責分類，不代表每案的措施完全相同；法定抗辯的「事前披露＋同意」或「事後自發且盡快披露」條件見正文。",
+          "en": "These are responsibility categories, not identical actions in every case. The statutory defence alternatives—prior disclosure + consent, or own-initiative disclosure as soon as reasonable afterwards—are explained below."
+        }
+      }
+    ],
+    "periodic-return": [],
+    "internal-report": [
+      {
+        "id": "reporting-route",
+        "kind": "paths",
+        "title": {
+          "tc": "內部報告：不經無關管理層篩選",
+          "en": "Internal reporting: no unrelated management filter"
+        },
+        "refs": [
+          {
+            "doc": "03",
+            "locator": {
+              "tc": "第7.12–7.23段",
+              "en": "¶7.12–7.23"
+            },
+            "anchor": "under no circumstances should reports raised by staff be filtered out"
+          }
+        ],
+        "paths": [
+          {
+            "label": {
+              "tc": "先內部披露",
+              "en": "Internal disclosure"
+            },
+            "nodes": [
+              {
+                "tc": "員工發現知情／懷疑",
+                "en": "Staff identify knowledge / suspicion"
+              },
+              {
+                "tc": "MLRO評估",
+                "en": "MLRO assesses"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "無不必要延誤地報告",
+                "en": "Report without undue delay"
+              }
+            ],
+            "note": {
+              "tc": "按程序直接交MLRO；非報告／合規管理層不得把報告篩掉。內部報告應載事實及懷疑理由。",
+              "en": "Report directly under the procedure; non-reporting / non-compliance management must not filter it out. Include facts and grounds."
+            }
+          },
+          {
+            "label": {
+              "tc": "評估後仍知情／懷疑",
+              "en": "Knowledge / suspicion after assessment"
+            },
+            "nodes": [
+              {
+                "tc": "MLRO",
+                "en": "MLRO"
+              },
+              {
+                "tc": "JFIU",
+                "en": "JFIU"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "迅速報告",
+                "en": "Report promptly"
+              }
+            ],
+            "note": {
+              "tc": "考慮合理可得的相關CDD、交易及其他資料；不能無限期等齊所有資料。",
+              "en": "Consider reasonably available relevant CDD, transaction and other information; do not wait indefinitely for everything."
+            }
+          },
+          {
+            "label": {
+              "tc": "評估後沒有知情／懷疑",
+              "en": "No knowledge / suspicion after assessment"
+            },
+            "nodes": [
+              {
+                "tc": "MLRO判斷不報告",
+                "en": "MLRO decides not to report"
+              },
+              {
+                "tc": "保留理由及處理紀錄",
+                "en": "Retain reasons and action records"
+              }
+            ],
+            "edges": [
+              {
+                "tc": "必須留痕",
+                "en": "Document"
+              }
+            ],
+            "note": {
+              "tc": "不是收到每份內部報告都自動向JFIU提交STR；其後新事實可能要求重新評估。",
+              "en": "Not every internal report automatically becomes an STR to JFIU; new facts may require reassessment."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

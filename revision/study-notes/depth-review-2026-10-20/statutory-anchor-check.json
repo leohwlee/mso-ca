@@ -1,0 +1,172 @@
+{
+  "status": "text-location-only; semantic checks are documented separately",
+  "new_blocks": 11,
+  "bilingual_points": 23,
+  "checks": [
+    {
+      "part": 1,
+      "section": "risk-assessment",
+      "title": "2022 report: Hawala settlement and four supervision priorities",
+      "doc": "25",
+      "locator": {
+        "tc": "2022年版，第5.4.8–5.4.10、5.4.14–5.4.16段",
+        "en": "2022 edition, ¶5.4.8–5.4.10, 5.4.14–5.4.16"
+      },
+      "anchor_found": true,
+      "filenames": {
+        "TC": "25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+        "EN": "25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf"
+      }
+    },
+    {
+      "part": 2,
+      "section": "inspection-investigation",
+      "title": "Section 17 warrants: preserving documents and a different penalty",
+      "doc": "04",
+      "locator": {
+        "tc": "第17(1)–(3)、(7)、(9)–(11)條；期限見上文",
+        "en": "s.17(1)–(3), (7), (9)–(11); see above for time limits"
+      },
+      "anchor_found": true,
+      "filenames": {
+        "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+        "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+      }
+    },
+    {
+      "part": 2,
+      "section": "grant-renewal",
+      "title": "Remember: licence-condition commencement and pending renewal",
+      "doc": "04",
+      "locator": {
+        "tc": "第30(6)–(9)、31(5)–(12)、32(2)–(4)條",
+        "en": "ss.30(6)–(9), 31(5)–(12), 32(2)–(4)"
+      },
+      "anchor_found": true,
+      "filenames": {
+        "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+        "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+      }
+    },
+    {
+      "part": 2,
+      "section": "grant-renewal",
+      "title": "Recognise: information a licence must contain",
+      "doc": "04",
+      "locator": {
+        "tc": "第33條",
+        "en": "s.33"
+      },
+      "anchor_found": true,
+      "filenames": {
+        "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+        "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+      }
+    },
+    {
+      "part": 2,
+      "section": "discipline",
+      "title": "Recognise: contents of refusal and disciplinary notices",
+      "doc": "04",
+      "locator": {
+        "tc": "第22(2)–(3)、35(5)–(6)、36(5)–(6)、37(5)–(6)、44(2)–(3)條",
+        "en": "ss.22(2)–(3), 35(5)–(6), 36(5)–(6), 37(5)–(6), 44(2)–(3)"
+      },
+      "anchor_found": true,
+      "filenames": {
+        "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+        "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+      }
+    },
+    {
+      "part": 3,
+      "section": "core-duties",
+      "title": "Recognise: five statutory sources for customer identity verification",
+      "doc": "04",
+      "locator": {
+        "tc": "附表2第1條「認可數碼識別系統」、第2(1)(a)、(d)(i)–(ii)條",
+        "en": "Schedule 2 s.1 “recognized digital identification system”; s.2(1)(a), (d)(i)–(ii)"
+      },
+      "anchor_found": true,
+      "filenames": {
+        "TC": "04_高_打擊洗錢及恐怖分子資金籌集條例（第615章）（2026年9月24日綜合版）.pdf",
+        "EN": "04_High_AMLO Cap 615 - Consolidated (24 Sep 2026).pdf"
+      }
+    },
+    {
+      "part": 5,
+      "section": "customer-assessment",
+      "title": "2023 supervisory findings: follow-up after a risk factor rises",
+      "doc": "07",
+      "locator": {
+        "tc": "正文第1項；附錄(1)，第1、3頁",
+        "en": "Main finding 1; Appendix (1), pp.1, 3"
+      },
+      "anchor_found": true,
+      "filenames": {
+        "TC": "07_高_通函_客戶盡職審查相關監管工作中的發現（2023年11月22日）.pdf",
+        "EN": "07_High_Circular - Supervisory Findings on Customer Due Diligence (22 Nov 2023).pdf"
+      }
+    },
+    {
+      "part": 6,
+      "section": "third-party-payments",
+      "title": "Recognise: the eight red flags listed in document 08",
+      "doc": "08",
+      "locator": {
+        "tc": "「可疑交易訊號／潛在較高風險因素」，第2–3頁",
+        "en": "Red flags/potentially higher risk factors, p.3"
+      },
+      "anchor_found": true,
+      "filenames": {
+        "TC": "08_高_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf",
+        "EN": "08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf"
+      }
+    },
+    {
+      "part": 6,
+      "section": "third-party-payments",
+      "title": "Third-party payment policy: five components and identifying payment sources",
+      "doc": "08",
+      "locator": {
+        "tc": "主要管控措施第2、4–5、10–12項及註5（第3–5頁）",
+        "en": "Key controls 2, 4–5, 10–12 and footnote 5 (pp.4–6)"
+      },
+      "anchor_found": true,
+      "filenames": {
+        "TC": "08_高_通函_第三方支付涉及的洗錢及恐怖分子資金籌集風險（2024年9月17日）.pdf",
+        "EN": "08_High_Circular - ML-TF Risks of Third Party Payments (17 Sep 2024).pdf"
+      }
+    },
+    {
+      "part": 6,
+      "section": "trade-based-laundering",
+      "title": "2026 circular: checking new entities and transaction genuineness",
+      "doc": "18",
+      "locator": {
+        "tc": "2026年1月20日通函第2–4項（第1–2頁）",
+        "en": "20 January 2026 circular, items 2–4 (p.2)"
+      },
+      "anchor_found": true,
+      "filenames": {
+        "TC": "18_中重點_通函_打擊以貿易進行洗錢活動指引（2026年1月20日）.pdf",
+        "EN": "18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf"
+      }
+    },
+    {
+      "part": 6,
+      "section": "trade-based-laundering",
+      "title": "Specific trade indicators and limits of price comparisons",
+      "doc": "24",
+      "locator": {
+        "tc": "印刷第3–5頁及註5（中文為學習譯文）",
+        "en": "Printed pp.3–5 and footnote 5"
+      },
+      "anchor_found": true,
+      "filenames": {
+        "TC": "24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf",
+        "EN": "24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf"
+      }
+    }
+  ]
+}

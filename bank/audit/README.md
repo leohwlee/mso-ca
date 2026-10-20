@@ -1,6 +1,9 @@
 > The original 23-source audit reports below describe the preserved historical
 > baseline. Current 01–26 scope and additions are verified separately in
 > [ACTIVE-SCOPE.md](ACTIVE-SCOPE.md). Historical completion is not current coverage.
+> v1.10.1 updates the seven-part reading material, not this historical question audit.
+> See [the separate notes review](../../revision/study-notes/README.md).
+> v1.10.1筆記的覆核另列；以下歷史題庫審核不作新版筆記完整性的證明。
 
 # 七个单元考点覆盖审核
 

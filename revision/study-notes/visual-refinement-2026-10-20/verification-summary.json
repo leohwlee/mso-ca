@@ -1,0 +1,20 @@
+{
+  "final_pages_match_display_evidence": true,
+  "page_cases": 105,
+  "panel_cases": 495,
+  "go_test": "passed",
+  "go_vet": "passed",
+  "javascript_tests": {
+    "passed": 8
+  },
+  "python_tests": {
+    "passed": 16,
+    "initial_environment_error": "Windows sandbox temporary-directory access; rerun with repository-local tempdir. No test changes."
+  },
+  "catalog": "passed",
+  "audit_reports": "see audit-checks.json",
+  "build_and_bundle": "see build-checks.json",
+  "integration": "42 pages + 21 practice starts + 6 index cases; see browser-checks.json and integration-checks.json",
+  "preservation": "see preservation.json; seven manuscripts and protected bank/app/evidence bytes match baseline",
+  "whitespace": "git diff --check flags CRLF in byte-preserved files; with cr-at-eol recognition it passes. .gitattributes sets revision/study-notes/** -text to preserve hashes; no newline normalization or repo configuration change was made."
+}

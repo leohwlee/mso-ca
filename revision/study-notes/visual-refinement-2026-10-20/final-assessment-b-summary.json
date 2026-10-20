@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "pageStates": 63,
+  "headersByMode": [
+    {
+      "lang": "tc",
+      "width": 390,
+      "count": 52
+    },
+    {
+      "lang": "tc",
+      "width": 900,
+      "count": 52
+    },
+    {
+      "lang": "tc",
+      "width": 1440,
+      "count": 52
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "count": 52
+    },
+    {
+      "lang": "en",
+      "width": 900,
+      "count": 52
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "count": 52
+    },
+    {
+      "lang": "both",
+      "width": 390,
+      "count": 52
+    },
+    {
+      "lang": "both",
+      "width": 900,
+      "count": 52
+    },
+    {
+      "lang": "both",
+      "width": 1440,
+      "count": 52
+    }
+  ],
+  "tableInstances": 135,
+  "emptyTableNames": 0,
+  "numericUnits": 216,
+  "directMemoryAnchors": 297,
+  "crossPartActivations": 18,
+  "languageTransitions": 126,
+  "oldHashChecks": 3,
+  "minimumDirectTitleGap": 23.609375,
+  "minimumCrossPartTitleGap": 23.921875,
+  "minimumLanguageTitleGap": 23.640625,
+  "failures": [],
+  "harnessNote": "The 19 language-anchor entries in final-assessment-b-browser.json resulted from locator automatic scrolling and are superseded by final-assessment-b-language.json coordinate clicks. Other browser checks are valid."
+}

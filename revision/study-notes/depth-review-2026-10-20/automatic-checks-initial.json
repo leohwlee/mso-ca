@@ -1,0 +1,217 @@
+[
+  {
+    "command": [
+      "go",
+      "run",
+      ".",
+      "-export-html",
+      "dist/mso-ca.html"
+    ],
+    "exit_code": 0,
+    "seconds": 9.34,
+    "stdout": "wrote dist/mso-ca.html\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "revision/study-notes/build.py"
+    ],
+    "exit_code": 0,
+    "seconds": 3.89,
+    "stdout": "{\"status\": \"built\", \"parts\": 7, \"sections\": 75, \"points\": 618, \"sources\": 26}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "revision/study-notes/gap_check.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.14,
+    "stdout": "Bank gap audit: 525 identifiers checked; no bank content supplied to notes.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "revision/study-notes/build.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 3.67,
+    "stdout": "{\"status\": \"checked\", \"parts\": 7, \"sections\": 75, \"points\": 618, \"sources\": 26}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "revision/study-notes/gap_check.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.14,
+    "stdout": "Bank gap audit: 525 identifiers checked; no bank content supplied to notes.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "go",
+      "vet",
+      "./..."
+    ],
+    "exit_code": 0,
+    "seconds": 4.12,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "go",
+      "test",
+      "./..."
+    ],
+    "exit_code": 0,
+    "seconds": 7.86,
+    "stdout": "ok  \tmso-ca\t4.364s\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "--test",
+      "tests\\app.test.cjs"
+    ],
+    "exit_code": 0,
+    "seconds": 0.5,
+    "stdout": "✔ answer citations name the real repository files in the selected language (3.9084ms)\n✔ Chinese citations for source 24 retain the English original and study-translation label (4.2098ms)\n✔ each mock contains 35 distinct questions, five from each part (5.4231ms)\n✔ custom practice respects a single or multiple selected parts and cycles without duplicates (1.4917ms)\n✔ grading requires both total score and per-part floor (1.3399ms)\n✔ source update invalidates incomplete paper but preserves completed scores and history export (3.1438ms)\n✔ home offers two study modes and keeps history within an expandable exam section (1.6031ms)\n✔ statement permutations retain the correct option and the matching explanations (6.9186ms)\nℹ tests 8\nℹ suites 0\nℹ pass 8\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 260.8591\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "*_test.py"
+    ],
+    "exit_code": 0,
+    "seconds": 4.78,
+    "stdout": "",
+    "stderr": "................\n----------------------------------------------------------------------\nRan 16 tests in 4.427s\n\nOK\n"
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "docs/build_catalog.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.36,
+    "stdout": "Checked 26 selected publications, 21 reference publications, all original hashes and four directories.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "bank/audit/active_scope.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.14,
+    "stdout": "{\"questions\": 525, \"baseline_questions\": 357, \"approved_documents\": \"01–26\", \"module_counts\": {\"1\": 60, \"2\": 75, \"3\": 65, \"4\": 80, \"5\": 80, \"6\": 100, \"7\": 65}}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "bank/audit/render_active_scope.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.08,
+    "stdout": "Current source accounting is consistent.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "bank/audit/report.py",
+      "--check"
+    ],
+    "exit_code": 1,
+    "seconds": 0.22,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\report.py\", line 223, in <module>\n    main()\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\report.py\", line 208, in main\n    d=read(); v=validate(d); outputs=render(d,v)\n                ^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\report.py\", line 38, in validate\n    state = load_state()\n            ^^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 235, in load_state\n    completion, bank, quotes, proven = completion_followup(bank, quotes, scope_proven)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 91, in completion_followup\n    proven = maintenance_followups(extra_proven)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 75, in maintenance_followups\n    check_hash(p, update['after_sha256'])\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 22, in check_hash\n    assert any(hashlib.sha256(value).hexdigest() == expected for value in variants), f'Snapshot changed: {path}'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Snapshot changed: revision/CONFLICT-CALLS.md\n"
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "bank/audit/terms_report.py",
+      "--check"
+    ],
+    "exit_code": 1,
+    "seconds": 0.19,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\terms_report.py\", line 162, in <module>\n    result = validate(data)\n             ^^^^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\terms_report.py\", line 32, in validate\n    state = load_state()\n            ^^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 235, in load_state\n    completion, bank, quotes, proven = completion_followup(bank, quotes, scope_proven)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 91, in completion_followup\n    proven = maintenance_followups(extra_proven)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 75, in maintenance_followups\n    check_hash(p, update['after_sha256'])\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 22, in check_hash\n    assert any(hashlib.sha256(value).hexdigest() == expected for value in variants), f'Snapshot changed: {path}'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Snapshot changed: revision/CONFLICT-CALLS.md\n"
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "bank/audit/p1_report.py",
+      "--check"
+    ],
+    "exit_code": 1,
+    "seconds": 0.2,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\p1_report.py\", line 46, in <module>\n    state = load_state()\n            ^^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 235, in load_state\n    completion, bank, quotes, proven = completion_followup(bank, quotes, scope_proven)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 91, in completion_followup\n    proven = maintenance_followups(extra_proven)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 75, in maintenance_followups\n    check_hash(p, update['after_sha256'])\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 22, in check_hash\n    assert any(hashlib.sha256(value).hexdigest() == expected for value in variants), f'Snapshot changed: {path}'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Snapshot changed: revision/CONFLICT-CALLS.md\n"
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "bank/audit/remaining_report.py",
+      "--check"
+    ],
+    "exit_code": 1,
+    "seconds": 0.19,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\remaining_report.py\", line 42, in <module>\n    state=load_state();d=state.get('remaining_implementation');assert d\n          ^^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 235, in load_state\n    completion, bank, quotes, proven = completion_followup(bank, quotes, scope_proven)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 91, in completion_followup\n    proven = maintenance_followups(extra_proven)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 75, in maintenance_followups\n    check_hash(p, update['after_sha256'])\n  File \"D:\\Repositories\\mso-ca\\bank\\audit\\state.py\", line 22, in check_hash\n    assert any(hashlib.sha256(value).hexdigest() == expected for value in variants), f'Snapshot changed: {path}'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Snapshot changed: revision/CONFLICT-CALLS.md\n"
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "scripts/build_study_bundle.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.3,
+    "stdout": "{\"files\": 65, \"sha256\": \"d2eac95711c8ff39aab24f7320fd010179dee9ae2f4569b532a16073c0127a45\", \"bytes\": 75735406}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\leohw\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "scripts/build_study_bundle.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.31,
+    "stdout": "{\"files\": 65, \"sha256\": \"d2eac95711c8ff39aab24f7320fd010179dee9ae2f4569b532a16073c0127a45\", \"bytes\": 75735406}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-c",
+      "core.whitespace=cr-at-eol",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 0.16,
+    "stdout": "",
+    "stderr": "warning: in the working copy of 'revision/CONFLICT-CALLS.md', LF will be replaced by CRLF the next time Git touches it\n"
+  }
+]
