@@ -16,7 +16,6 @@ from essentials import ADDITIONS
 from visual_panels import apply as apply_visuals
 from visual_render import render as render_visual
 from traps import TRAPS
-from quick import QUICK
 from tiers import TIERS, LABELS as TIER_LABELS, PREFIXES as TIER_PREFIXES
 for number, additions in ADDITIONS.items():
     for topic, blocks in additions.items():
@@ -67,18 +66,6 @@ def citations(refs):
             entries.append(f'<div class="{lang}" lang="{"zh-Hant" if lang=="tc" else "en"}"><a href="../../docs/{e(quote(ed["path"],safe="/"))}" target="_blank" rel="noopener">{e(ed["file"])}</a><span class="locator">{e(r["locator"][lang]+translated)}</span></div>')
         out.append('<div class="source-citation">'+''.join(entries)+'</div>')
     return '<div class="citations">'+''.join(out)+'</div>'
-
-def section_text(n,sid,lang='en'):
-    out=[]
-    def walk(value):
-        if isinstance(value,dict):
-            if isinstance(value.get(lang),str):out.append(value[lang])
-            for k,v in value.items():
-                if k!='refs':walk(v)
-        elif isinstance(value,list):
-            for v in value:walk(v)
-    walk(next(s for s in PARTS[n]['sections'] if s['id']==sid)['blocks']);walk(PANELS[n].get(sid,[]))
-    return ' '.join(out)
 
 def validate():
     used=set()
@@ -145,12 +132,6 @@ def validate():
                 check_pairs(trap['text']);trap_ids+=trap['ids']
                 assert set(trap['ids'])<=decisions,trap['ids']
     assert len(trap_ids)==len(set(trap_ids)),trap_ids
-    # Quick-sheet facts must already be stated in the section they link to.
-    for n,items in QUICK.items():
-        assert 5<=len(items)<=12,n
-        for item in items:
-            check_pairs(item)
-            assert normal(item['check']) in normal(section_text(n,item['section'])),(n,item['section'],item['check'])
 
 SCRIPT=r"""
 (()=>{
@@ -258,11 +239,6 @@ def render_panel(panel):
     out.append(compact_citations(panel['refs'])+'</figure>')
     return ''.join(out)
 
-def quick_sheet(n):
-    titles={s['id']:s['title'] for s in PARTS[n]['sections']}
-    items=''.join('<li><a href="#'+item['section']+'"><b class="quick-value">'+pair(item['value'])+'</b><span class="quick-text">'+pair(item['text'])+'</span><span class="quick-link">'+pair(titles[item['section']])+'</span></a></li>' for item in QUICK[n])
-    return '<section class="quick-sheet" aria-labelledby="quick-title"><h2 id="quick-title">'+label('必背速查','Must-know quick sheet')+'</h2><ol class="quick-grid">'+items+'</ol><p class="quick-note">'+label('每項連到詳細內容及原文引用；遇有差異，以正文為準。','Each item links to the full text and citations; where they differ, the full text prevails.')+'</p></section>'
-
 def study_key(n):
     letters=''.join(TIERS[n].values());traps=sum(len(v) for v in TRAPS.get(n,{}).values())
     chips=''.join('<span class="tier-chip tier-'+k+'">'+pair(v)+'</span><span class="key-count">'+str(letters.count(k))+'</span>' for k,v in TIER_LABELS.items())
@@ -275,7 +251,7 @@ def page(n):
         body.append(f'<section class="chapter" id="{s["id"]}" aria-labelledby="title-{s["id"]}"><div class="section-heading"><span class="section-number">{i:02d}</span><h2 id="title-{s["id"]}">'+pair(s['title'])+'</h2></div>'+''.join(render_panel(panel) for panel in PANELS[n].get(s['id'],[]))+''.join(render_block(b,letter) for b,letter in zip(s['blocks'],TIERS[n][s['id']]))+render_traps(TRAPS.get(n,{}).get(s['id'],[]))+'</section>')
     font=base64.b64encode((ROOT/'web/fonts/dmsans.woff2').read_bytes()).decode('ascii')
     css='@font-face{font-family:"Study Sans";src:url(data:font/woff2;base64,'+font+') format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}'+(HERE/'style.css').read_text(encoding='utf-8')
-    return '<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MSO · Part '+str(n)+' · Study Notes</title><style>'+css+'</style></head><body data-lang="tc"><a class="skip-link" href="#content">'+label('跳至正文','Skip to content')+'</a><header class="toolbar"><div class="toolbar-inner"><div class="brand">MSO Competence Assessment Study Note</div><div class="languages" role="group" aria-label="閱讀語言 / Reading language"><button data-language="tc" aria-pressed="true">繁體中文</button><button data-language="en" aria-pressed="false">English</button><button data-language="both" aria-pressed="false">雙語 / Both</button></div><a class="practice-link" href="../../dist/mso-ca.html?part='+str(n)+'">'+label('練習','Practice')+'</a></div>'+part_nav(n)+'</header><div class="layout"><aside class="sidebar"><h2>'+label('本章目錄','In this part')+'</h2><nav>'+''.join(nav)+'</nav></aside><main id="content" tabindex="-1"><header class="hero"><h1>'+label('第'+str(n)+'部分 · '+part['title']['tc'],'Part '+str(n)+' · '+part['title']['en'])+'</h1></header><p class="part-intro">'+pair(part['intro'])+'</p>'+study_key(n)+quick_sheet(n)+''.join(body)+'<footer><a href="../../dist/mso-ca.html?part='+str(n)+'">'+label('前往本部分練習','Practise this part')+'</a></footer></main></div><script>'+SCRIPT+'</script></body></html>\n'
+    return '<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MSO · Part '+str(n)+' · Study Notes</title><style>'+css+'</style></head><body data-lang="tc"><a class="skip-link" href="#content">'+label('跳至正文','Skip to content')+'</a><header class="toolbar"><div class="toolbar-inner"><div class="brand">MSO Competence Assessment Study Note</div><div class="languages" role="group" aria-label="閱讀語言 / Reading language"><button data-language="tc" aria-pressed="true">繁體中文</button><button data-language="en" aria-pressed="false">English</button><button data-language="both" aria-pressed="false">雙語 / Both</button></div><a class="practice-link" href="../../dist/mso-ca.html?part='+str(n)+'">'+label('練習','Practice')+'</a></div>'+part_nav(n)+'</header><div class="layout"><aside class="sidebar"><h2>'+label('本章目錄','In this part')+'</h2><nav>'+''.join(nav)+'</nav></aside><main id="content" tabindex="-1"><header class="hero"><h1>'+label('第'+str(n)+'部分 · '+part['title']['tc'],'Part '+str(n)+' · '+part['title']['en'])+'</h1></header><p class="part-intro">'+pair(part['intro'])+'</p>'+study_key(n)+''.join(body)+'<footer><a href="../../dist/mso-ca.html?part='+str(n)+'">'+label('前往本部分練習','Practise this part')+'</a></footer></main></div><script>'+SCRIPT+'</script></body></html>\n'
 
 class Inspector(HTMLParser):
     def __init__(self):super().__init__();self.ids=[];self.links=[]

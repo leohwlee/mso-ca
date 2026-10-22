@@ -534,28 +534,9 @@ body[data-lang=both] .deadline-start .en::before{content:" / "}
 body[data-lang=both] .id-list .en,body[data-lang=both] .id-step .en{margin-top:0}
 body[data-lang=both] .id-step .en::before{content:" / "}
 body[data-lang=both] .id-step .en{display:inline}
-/* Must-know quick sheet at the top of each part. */
-.quick-sheet{margin:0 0 44px;padding:22px 24px 16px;background:var(--wash);border-top:3px solid var(--accent)}
-.quick-sheet>h2{margin:0 0 14px;font-size:19px;color:var(--accent)}
-.quick-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin:0;padding:0;list-style:none}
-.quick-grid a{display:flex;flex-direction:column;gap:4px;height:100%;padding:12px 14px;background:var(--paper);border:1px solid var(--line);color:var(--ink);text-decoration:none}
-.quick-grid a:hover,.quick-grid a:focus-visible{border-color:var(--accent)}
-.quick-value{font:600 18px/1.35 "DM Mono",Consolas,"Microsoft JhengHei",monospace;color:var(--accent)}
-.quick-text{font-size:14px;line-height:1.6}
-.quick-link{margin-top:auto;padding-top:4px;font-size:12px;color:var(--muted)}
-.quick-link::before{content:"→ "}
-.quick-note{margin:12px 0 0;font-size:12px;color:var(--muted)}
-body[data-lang=both] .quick-value .en{margin-top:0;color:var(--accent);font-size:14px}
-body[data-lang=both] .quick-link .en{margin-top:0}
 @media(max-width:900px){.id-columns{grid-template-columns:1fr}.id-column+.id-column{border-left:0;border-top:1px solid var(--line)}.id-column{padding:16px 0}}
 @media(max-width:600px){
  .deadline-row{grid-template-columns:1fr}
  .deadline-seg-label{font-size:11px}
- .quick-sheet{padding:18px 14px 12px;margin-left:-4px;margin-right:-4px}
- .quick-grid{grid-template-columns:1fr 1fr;gap:8px}
- .quick-grid a{padding:10px}
- .quick-value{font-size:15px}
- .quick-text{font-size:13px}
 }
-@media print{.deadline-row,.id-column,.quick-grid li{break-inside:avoid}.quick-sheet{background:none;border:1px solid var(--line)}}
-@media(max-width:600px){body[data-lang=both] .quick-grid{grid-template-columns:1fr}}
+@media print{.deadline-row,.id-column{break-inside:avoid}}

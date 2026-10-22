@@ -1,0 +1,50 @@
+{
+  "status": "verified",
+  "date": "2026-10-23",
+  "reason": "Owner decision (23 Oct 2026) to remove the must-know quick sheet added in the exam-focus pass; study tiers, exam traps and figures remain. Preserves the files as committed in that pass; question bank, answers, scoring and source originals are unchanged. See revision/study-notes/exam-focus-2026-10-22/REPORT.md.",
+  "archive": "bank/audit/history/2026-10-23-remove-quick-sheet-before.zip",
+  "archive_sha256": "eb10961dd0e5f7e03ff4fbade64aed6aa496505c16ee194bd3f6b3495e0d8c5d",
+  "archive_updates": {
+    "revision/study-notes/README.md": {
+      "before_sha256": "b869e71fc464cb626bfd1c8e39b4dd7ed8382b378a903c210ec3bcc31e7b5edd",
+      "after_sha256": "529553562927f525e38e1dd0cd0cbc219bb9938f8f9802a24160f53c946a3791"
+    },
+    "revision/study-notes/build.py": {
+      "before_sha256": "efd2ed047d696cbbf08fd10dc40ccc7036f26101a6f135fc7e7066f7cb5ab4e2",
+      "after_sha256": "23b639b860ed301f36b739851fffa2b29c4e15152c568454cc95a17bf5de1281"
+    },
+    "revision/study-notes/index.html": {
+      "before_sha256": "43de380b0d8e16ad59470cf23f5eb99920a0d35c80dccde6601bfd7539680112",
+      "after_sha256": "268a535c0141cfe30564def0afeb7b679227bed9c426a9cf21b14d13750891a8"
+    },
+    "revision/study-notes/part-1.html": {
+      "before_sha256": "43de380b0d8e16ad59470cf23f5eb99920a0d35c80dccde6601bfd7539680112",
+      "after_sha256": "268a535c0141cfe30564def0afeb7b679227bed9c426a9cf21b14d13750891a8"
+    },
+    "revision/study-notes/part-2.html": {
+      "before_sha256": "f849632b65917a86582ed9f252ac1abdf108f3a7732edeaaa9a47cdcfa659da4",
+      "after_sha256": "b1edaa679f1d4260f1b8473f375306ecf21b120f9267ff56daf4acc8af0e4251"
+    },
+    "revision/study-notes/part-3.html": {
+      "before_sha256": "33cf72f09e0123a8eef74d6994128d1faf25ebf7c4e06283421a458ac202b3f2",
+      "after_sha256": "bbfeb0c0f68d0a11fbf7c711e61eb92b4c8b1ec32b77eb2049535596a1b00ec9"
+    },
+    "revision/study-notes/part-4.html": {
+      "before_sha256": "b789a54f9625b546a9b905276956f52c763ddffed3d10610aebae9f1d1582254",
+      "after_sha256": "057f67632c5e3a611f7e31bf23e36a690fe46b6fa21925926d09b313ccb3a10b"
+    },
+    "revision/study-notes/part-5.html": {
+      "before_sha256": "1e948328b64144b8bc56a444c3892cc63ae55e208a258ea8dfa873cc8bbf9985",
+      "after_sha256": "6ceb403c37e99947566f158f62a17b4a6bdbebb9da113f43db327bc7aa60eb27"
+    },
+    "revision/study-notes/part-6.html": {
+      "before_sha256": "74ff8b76eccb2a99664ceca0e7390032e3a23c1148c32b0c809df82135435fca",
+      "after_sha256": "4bf0e257ea207c3050dc7208089a86f19b8709bf4a9f3b694f5b7110553cbd96"
+    },
+    "revision/study-notes/part-7.html": {
+      "before_sha256": "a3340c7443f1ec01596ae371e6b6b51bef42b16530d6375fc2537edaf3d63241",
+      "after_sha256": "c24a4fb4fa43f90fbe167120353fea80ec68e78303ec1398a4c78ae3a0dcc4e9"
+    }
+  },
+  "documentation_updates": {}
+}

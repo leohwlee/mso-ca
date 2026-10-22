@@ -19,14 +19,13 @@ tier (Remember, Understand, Recognise, Reference), and 69 amber exam traps resta
 owner decisions in `revision/CONFLICT-CALLS.md` that give one answer in both languages.
 New figures: an amount line for similar thresholds (Part 3), per-row deadline tracks for
 licensing and assessment clocks (Parts 2 and 4), a three-column identity-data figure
-(Part 6) and a must-know quick sheet at the top of each part. The notes have 75 topics,
+(Part 6). The notes have 75 topics,
 626 bilingual point pairs, 9 tables and 25 diagrams.
 
 [應試重點報告](exam-focus-2026-10-22/REPORT.md)逐項核對03、05及06的編號清單，補全六份清單，
 包括可疑交易報告制度的三項組成（第7.7–7.8段）。每個內容組標上學習層次（必記、理解、認識、參考），
 並以琥珀色列出69項易錯提示，取自`revision/CONFLICT-CALLS.md`中兩語同一答案的擁有人裁決。
-新圖包括金額數軸（第3部分）、牌照及評核期限圖（第2及第4部分）、三類客戶身分資料圖（第6部分），
-以及每部分開頭的必背速查。現有75主題、626組雙語要點、9張表及25個圖解。
+新圖包括金額數軸（第3部分）、牌照及評核期限圖（第2及第4部分）、三類客戶身分資料圖（第6部分）。現有75主題、626組雙語要點、9張表及25個圖解。
 
 ## Previous audit, 20 October / 10月20日審核
 
@@ -106,15 +105,13 @@ adds a second layer of prose. `memory_panels.py` holds explicit source reference
 the selected comparisons. `visual_panels.py` adapts/adds source-bound diagrams;
 `visual_render.py` provides native, offline HTML rendering. `tiers.py` gives every
 block its study tier; `traps.py` holds the exam traps, each tied to a CONFLICT-CALLS
-decision number that `build.py` checks; `quick.py` holds each part's quick sheet, whose
-facts `build.py` requires in the linked section. `build.py` validates and renders without
+decision number that `build.py` checks. `build.py` validates and renders without
 reading the bank.
 
 `part1.py`至`part7.py`保存整合後文稿；舊第二輪補充已併入相應主題，
 `essentials.py`只保留空白兼容入口。`memory_panels.py`的圖表有明確原文引用。
 `visual_panels.py`處理圖解內容及改編，`visual_render.py`負責離線HTML表達；`tiers.py`為每個內容組定學習層次，
-`traps.py`保存易錯提示，每項對應CONFLICT-CALLS裁決編號並由`build.py`核對；
-`quick.py`保存各部分必背速查，`build.py`會核對每項事實確實見於所連章節；生成器不讀題庫。
+`traps.py`保存易錯提示，每項對應CONFLICT-CALLS裁決編號並由`build.py`核對；生成器不讀題庫。
 
 `gap_check.py` separately checks 525 identifiers and source routes after authoring;
 it cannot establish semantic completeness. Its current output is
