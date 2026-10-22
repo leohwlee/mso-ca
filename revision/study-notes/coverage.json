@@ -3,13 +3,13 @@
   "method": "Original passages -> concepts, definitions, requirements, conditions and exceptions. Source-bound recall comparisons supplement full visible prose. The bank is used only by the separate gap audit.",
   "limitations": "Anchors prove source location, not semantic completeness. See depth-review-2026-10-20/REPORT.md and its per-source inventories for the current depth review, bilingual meaning checks, source-selected statutory coverage, reference-detail decisions and unresolved verification boundaries. This is not a line-by-line bilingual audit of every full volume or a guarantee about unknown official questions. Official source categories extend beyond the owner-selected 01–26. Historical reviews remain preserved, not proof of this review. Dated findings/lists retain their publication date.",
   "manuscripts": {
-    "part1.py": "03621b06fc292c931af817aa0ebe8fc3263db8b3bea69cebef3000ef0aebbfb8",
+    "part1.py": "3cfb0e8f30e9ba8cdc8f397eb89b15a09c55897e00ea3777eac6d6ea241a17ec",
     "part2.py": "be06fa056a56df29a85f4874571a442bcb8e12534b9c1fb771ade84b51b62063",
     "part3.py": "c327d32cc0a04735f69ef1ebade03ab4950afa4a6c5beeee02ab73ca0ffde928",
-    "part4.py": "c1373a476f0ca63b0fd708a90280fccabc29b64055bda03a2f392ec2b80ea949",
+    "part4.py": "949e93517b757efb257e1067a487a1b69f55bf90f5c6500cd3e9a9394edac308",
     "part5.py": "45b999b481bd911de9741dd97a806072d01e173a5bdfdf8acbe22a2660af2c29",
-    "part6.py": "e68a08a544b86e00852e144d0c5daf52706860e60029a2b319a8916c983e7073",
-    "part7.py": "ba523b58c13821da75e05699b43c6e156deedb7519a9e7fc4b729e30085dc5b0"
+    "part6.py": "dbcac544447f6b6f97b16a37525c0f1cfd3945dfd1e22da4f432cbf5404eb9bf",
+    "part7.py": "45d4a329aca0a883e7ed9b421a9ff6ebf7e21f08f9e33e910bc526bbd01350b1"
   },
   "essentials": {
     "sha256": "45983361f496bd9ba35d6d0076cb2a138a4e310ed3f2bdfb81069e65f04d8011",
@@ -18,11 +18,24 @@
   },
   "recall": {
     "sha256": "12e9f787f1e1e8a91743bb0b83ef24866871b2e6bdbcc5e4195b69e8b6b92164",
-    "tables": 11,
-    "diagrams": 22,
+    "tables": 9,
+    "diagrams": 25,
     "visual_sources": {
-      "visual_panels.py": "711e8e22edc32bc5f93a275fb6eb57f019cb05d905747ea5ac6417ac836cc40e",
-      "visual_render.py": "7ef3afc48f92ea2abcdd0d1300c17b157ae65eac46f78716cdb7371fdd91852a"
+      "visual_panels.py": "368f788972e57b26ce4d94714bf759ec8281f7bd6af978c12d582c3eeef3816b",
+      "visual_render.py": "4fc7f19bb80ccb760b4c3d7784f4157e7daab6175c6b86a336541916e67065a8"
+    }
+  },
+  "exam_focus": {
+    "traps": 69,
+    "tiers": {
+      "M": 106,
+      "U": 64,
+      "R": 37,
+      "F": 22
+    },
+    "sources": {
+      "traps.py": "ed47b4e0863421ecddf1c027165afd9978365d6fa5e1964d559bc8607d3c1777",
+      "tiers.py": "d197c0ff97bb0b91e8b73ff210948483cba777077f7172115531d7b0ba2925a3"
     }
   },
   "source_text_sha256": {
@@ -458,7 +471,7 @@
             "tc": "香港法律：各條例處理的問題",
             "en": "Hong Kong’s laws: the role of each ordinance"
           },
-          "points": 9,
+          "points": 10,
           "memory_panels": [],
           "refs": [
             {
@@ -958,7 +971,7 @@
           ]
         }
       ],
-      "points": 84
+      "points": 85
     },
     {
       "part": 2,
@@ -1206,7 +1219,7 @@
           "memory_panels": [
             {
               "id": "licence-clocks",
-              "kind": "clocks",
+              "kind": "deadlines",
               "rows": 0
             }
           ],
@@ -1541,7 +1554,7 @@
           "memory_panels": [
             {
               "id": "money-boundaries",
-              "kind": "table",
+              "kind": "thresholds",
               "rows": 5
             }
           ],
@@ -1954,8 +1967,8 @@
             },
             {
               "id": "assessment-clocks",
-              "kind": "table",
-              "rows": 8
+              "kind": "deadlines",
+              "rows": 0
             }
           ],
           "refs": [
@@ -2095,7 +2108,7 @@
             "tc": "表格、變更、續牌及結業實務",
             "en": "Forms, changes, renewal and cessation in practice"
           },
-          "points": 12,
+          "points": 13,
           "memory_panels": [],
           "refs": [
             {
@@ -2260,7 +2273,7 @@
           ]
         }
       ],
-      "points": 74
+      "points": 75
     },
     {
       "part": 5,
@@ -2748,6 +2761,11 @@
               "id": "party-roles",
               "kind": "relationships",
               "rows": 0
+            },
+            {
+              "id": "identity-data",
+              "kind": "id-columns",
+              "rows": 0
             }
           ],
           "refs": [
@@ -2838,6 +2856,22 @@
                 "en": "AML/CFT FAQ A9, A11–A12"
               },
               "anchor": "appropriate measures which are commensurate with the ML/TF risks"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.3.2–4.3.13段及註18–20",
+                "en": "¶4.3.2–4.3.13; footnotes 18–20"
+              },
+              "anchor": "cannot act as a proof of current existence"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.3.9、4.3.12段及註23–25",
+                "en": "¶4.3.9, 4.3.12; footnotes 23–25"
+              },
+              "anchor": "written confirmation from a trust company which is within the same financial group"
             }
           ]
         },
@@ -3406,7 +3440,7 @@
             "tc": "依賴中介人：條件與不可轉移責任",
             "en": "Reliance on intermediaries: conditions and retained responsibility"
           },
-          "points": 11,
+          "points": 12,
           "memory_panels": [
             {
               "id": "reliance-outsourcing",
@@ -4023,7 +4057,7 @@
           ]
         }
       ],
-      "points": 208
+      "points": 209
     },
     {
       "part": 7,
@@ -4073,7 +4107,7 @@
             "tc": "內部報告與MLRO評估",
             "en": "Internal reporting and MLRO assessment"
           },
-          "points": 7,
+          "points": 9,
           "memory_panels": [
             {
               "id": "reporting-route",
@@ -4105,6 +4139,14 @@
                 "en": "¶7.20"
               },
               "anchor": "it is unlikely that there will be any criminal liability"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第7.7–7.8段",
+                "en": "¶7.7–7.8"
+              },
+              "anchor": "post-reporting risk mitigation and prevention of tipping off"
             },
             {
               "doc": "03",
@@ -4412,7 +4454,7 @@
           ]
         }
       ],
-      "points": 61
+      "points": 63
     }
   ]
 }

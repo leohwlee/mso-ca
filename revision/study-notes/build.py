@@ -15,6 +15,9 @@ from memory_panels import PANELS, EMPHASIS
 from essentials import ADDITIONS
 from visual_panels import apply as apply_visuals
 from visual_render import render as render_visual
+from traps import TRAPS
+from quick import QUICK
+from tiers import TIERS, LABELS as TIER_LABELS, PREFIXES as TIER_PREFIXES
 for number, additions in ADDITIONS.items():
     for topic, blocks in additions.items():
         next(section for section in PARTS[number]['sections'] if section['id']==topic)['blocks'].extend(blocks)
@@ -65,6 +68,18 @@ def citations(refs):
         out.append('<div class="source-citation">'+''.join(entries)+'</div>')
     return '<div class="citations">'+''.join(out)+'</div>'
 
+def section_text(n,sid,lang='en'):
+    out=[]
+    def walk(value):
+        if isinstance(value,dict):
+            if isinstance(value.get(lang),str):out.append(value[lang])
+            for k,v in value.items():
+                if k!='refs':walk(v)
+        elif isinstance(value,list):
+            for v in value:walk(v)
+    walk(next(s for s in PARTS[n]['sections'] if s['id']==sid)['blocks']);walk(PANELS[n].get(sid,[]))
+    return ' '.join(out)
+
 def validate():
     used=set()
     for n,part in PARTS.items():
@@ -111,6 +126,31 @@ def validate():
                     assert '01'<=r['doc']<='26'
                     assert normal(r['anchor']) in normal((ROOT/f'docs/text/EN/{r["doc"]}.txt').read_text(encoding='utf-8'))
     assert len(panel_ids)==len(set(panel_ids)),panel_ids
+    # Every block has one study tier; a title that already names a tier must agree.
+    for n,part in PARTS.items():
+        assert set(TIERS[n])=={s['id'] for s in part['sections']},n
+        for s in part['sections']:
+            letters=TIERS[n][s['id']]
+            assert len(letters)==len(s['blocks']) and set(letters)<=set(TIER_LABELS),(n,s['id'])
+            for letter,b in zip(letters,s['blocks']):
+                for other,prefixes in TIER_PREFIXES.items():
+                    if any(b['title'][lang].startswith(prefixes[lang]) for lang in ('tc','en')):assert other==letter,(n,s['id'],b['title']['en'])
+    # Exam traps restate owner decisions, so each ID must exist in CONFLICT-CALLS.
+    decisions=set(re.findall(r'^\| ([BWEN]\d+) \|',(ROOT/'revision/CONFLICT-CALLS.md').read_text(encoding='utf-8'),re.M))
+    trap_ids=[]
+    for n,sections in TRAPS.items():
+        for sid,traps in sections.items():
+            assert sid in {s['id'] for s in PARTS[n]['sections']},(n,sid)
+            for trap in traps:
+                check_pairs(trap['text']);trap_ids+=trap['ids']
+                assert set(trap['ids'])<=decisions,trap['ids']
+    assert len(trap_ids)==len(set(trap_ids)),trap_ids
+    # Quick-sheet facts must already be stated in the section they link to.
+    for n,items in QUICK.items():
+        assert 5<=len(items)<=12,n
+        for item in items:
+            check_pairs(item)
+            assert normal(item['check']) in normal(section_text(n,item['section'])),(n,item['section'],item['check'])
 
 SCRIPT=r"""
 (()=>{
@@ -160,12 +200,24 @@ current(location.hash.slice(1)||nav[0]?.dataset.section);
 })();
 """
 def part_nav(n):return '<nav class="part-nav" aria-label="章節導覽 / Parts">'+''.join(f'<a href="part-{i}.html"'+(' aria-current="page"' if n==i else '')+'>'+label(f'第{i}部分',f'Part {i}')+'</a>' for i in PARTS)+'</nav>'
-def render_block(b):
-    title='<h3>'+pair(b['title'])+'</h3>'
+def tier_title(b,letter):
+    title=dict(b['title'])
+    for lang in ('tc','en'):
+        for prefix in TIER_PREFIXES[letter][lang]:
+            if title[lang].startswith(prefix):title[lang]=title[lang][len(prefix):]
+    return '<span class="tier-chip tier-'+letter+'">'+pair(TIER_LABELS[letter])+'</span>'+pair(title)
+
+def render_traps(traps):
+    if not traps:return ''
+    items=''.join('<li><span class="trap-ids">'+' '.join(trap['ids'])+'</span>'+pair(trap['text'])+'</li>' for trap in traps)
+    return '<aside class="exam-traps"><h3>'+label('易錯提示','Exam traps')+'</h3><ul>'+items+'</ul><p class="trap-source">'+label('編號對應repo內《CONFLICT-CALLS》的擁有人裁決。','Numbers refer to the owner decisions in the repository’s CONFLICT-CALLS file.')+'</p></aside>'
+
+def render_block(b,letter):
+    title='<h3>'+tier_title(b,letter)+'</h3>'
     if b['kind']=='flow':
         points='<div class="flow-stack">'+'<div class="arrow" aria-hidden="true"></div>'.join('<div class="flow-node">'+pair(p)+'</div>' for p in b['points'])+'</div>'
     else:points='<ul class="concept-list">'+''.join('<li>'+emphasized_pair(p)+'</li>' for p in b['points'])+'</ul>'
-    return '<div class="concept-block'+(' '+b['kind'] if b['kind'] in ('flow','reference') else '')+'">'+title+points+citations(b['refs'])+'</div>'
+    return '<div class="concept-block tier-block-'+letter+(' '+b['kind'] if b['kind'] in ('flow','reference') else '')+'">'+title+points+citations(b['refs'])+'</div>'
 
 def render_panel(panel):
     key=panel['id'];title=pair(panel['title'])
@@ -206,14 +258,24 @@ def render_panel(panel):
     out.append(compact_citations(panel['refs'])+'</figure>')
     return ''.join(out)
 
+def quick_sheet(n):
+    titles={s['id']:s['title'] for s in PARTS[n]['sections']}
+    items=''.join('<li><a href="#'+item['section']+'"><b class="quick-value">'+pair(item['value'])+'</b><span class="quick-text">'+pair(item['text'])+'</span><span class="quick-link">'+pair(titles[item['section']])+'</span></a></li>' for item in QUICK[n])
+    return '<section class="quick-sheet" aria-labelledby="quick-title"><h2 id="quick-title">'+label('必背速查','Must-know quick sheet')+'</h2><ol class="quick-grid">'+items+'</ol><p class="quick-note">'+label('每項連到詳細內容及原文引用；遇有差異，以正文為準。','Each item links to the full text and citations; where they differ, the full text prevails.')+'</p></section>'
+
+def study_key(n):
+    letters=''.join(TIERS[n].values());traps=sum(len(v) for v in TRAPS.get(n,{}).values())
+    chips=''.join('<span class="tier-chip tier-'+k+'">'+pair(v)+'</span><span class="key-count">'+str(letters.count(k))+'</span>' for k,v in TIER_LABELS.items())
+    return '<div class="study-key">'+chips+'<span class="key-traps">'+label(f'易錯提示 {traps} 項',f'{traps} exam traps')+'</span></div>'
+
 def page(n):
     part=PARTS[n];nav=[];body=[]
     for i,s in enumerate(part['sections'],1):
         nav.append(f'<a href="#{s["id"]}" data-section="{s["id"]}"><span class="nav-number">{i:02d}</span><span>'+pair(s['title'])+'</span></a>')
-        body.append(f'<section class="chapter" id="{s["id"]}" aria-labelledby="title-{s["id"]}"><div class="section-heading"><span class="section-number">{i:02d}</span><h2 id="title-{s["id"]}">'+pair(s['title'])+'</h2></div>'+''.join(render_panel(panel) for panel in PANELS[n].get(s['id'],[]))+''.join(render_block(b) for b in s['blocks'])+'</section>')
+        body.append(f'<section class="chapter" id="{s["id"]}" aria-labelledby="title-{s["id"]}"><div class="section-heading"><span class="section-number">{i:02d}</span><h2 id="title-{s["id"]}">'+pair(s['title'])+'</h2></div>'+''.join(render_panel(panel) for panel in PANELS[n].get(s['id'],[]))+''.join(render_block(b,letter) for b,letter in zip(s['blocks'],TIERS[n][s['id']]))+render_traps(TRAPS.get(n,{}).get(s['id'],[]))+'</section>')
     font=base64.b64encode((ROOT/'web/fonts/dmsans.woff2').read_bytes()).decode('ascii')
     css='@font-face{font-family:"Study Sans";src:url(data:font/woff2;base64,'+font+') format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}'+(HERE/'style.css').read_text(encoding='utf-8')
-    return '<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MSO · Part '+str(n)+' · Study Notes</title><style>'+css+'</style></head><body data-lang="tc"><a class="skip-link" href="#content">'+label('跳至正文','Skip to content')+'</a><header class="toolbar"><div class="toolbar-inner"><div class="brand">MSO Competence Assessment Study Note</div><div class="languages" role="group" aria-label="閱讀語言 / Reading language"><button data-language="tc" aria-pressed="true">繁體中文</button><button data-language="en" aria-pressed="false">English</button><button data-language="both" aria-pressed="false">雙語 / Both</button></div><a class="practice-link" href="../../dist/mso-ca.html?part='+str(n)+'">'+label('練習','Practice')+'</a></div>'+part_nav(n)+'</header><div class="layout"><aside class="sidebar"><h2>'+label('本章目錄','In this part')+'</h2><nav>'+''.join(nav)+'</nav></aside><main id="content" tabindex="-1"><header class="hero"><h1>'+label('第'+str(n)+'部分 · '+part['title']['tc'],'Part '+str(n)+' · '+part['title']['en'])+'</h1></header><p class="part-intro">'+pair(part['intro'])+'</p>'+''.join(body)+'<footer><a href="../../dist/mso-ca.html?part='+str(n)+'">'+label('前往本部分練習','Practise this part')+'</a></footer></main></div><script>'+SCRIPT+'</script></body></html>\n'
+    return '<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MSO · Part '+str(n)+' · Study Notes</title><style>'+css+'</style></head><body data-lang="tc"><a class="skip-link" href="#content">'+label('跳至正文','Skip to content')+'</a><header class="toolbar"><div class="toolbar-inner"><div class="brand">MSO Competence Assessment Study Note</div><div class="languages" role="group" aria-label="閱讀語言 / Reading language"><button data-language="tc" aria-pressed="true">繁體中文</button><button data-language="en" aria-pressed="false">English</button><button data-language="both" aria-pressed="false">雙語 / Both</button></div><a class="practice-link" href="../../dist/mso-ca.html?part='+str(n)+'">'+label('練習','Practice')+'</a></div>'+part_nav(n)+'</header><div class="layout"><aside class="sidebar"><h2>'+label('本章目錄','In this part')+'</h2><nav>'+''.join(nav)+'</nav></aside><main id="content" tabindex="-1"><header class="hero"><h1>'+label('第'+str(n)+'部分 · '+part['title']['tc'],'Part '+str(n)+' · '+part['title']['en'])+'</h1></header><p class="part-intro">'+pair(part['intro'])+'</p>'+study_key(n)+quick_sheet(n)+''.join(body)+'<footer><a href="../../dist/mso-ca.html?part='+str(n)+'">'+label('前往本部分練習','Practise this part')+'</a></footer></main></div><script>'+SCRIPT+'</script></body></html>\n'
 
 class Inspector(HTMLParser):
     def __init__(self):super().__init__();self.ids=[];self.links=[]
@@ -234,8 +296,9 @@ def manifest():
         parts.append(dict(part=n,title=p['title'],sections=entries,points=sum(e['points'] for e in entries)))
     recall=dict(sha256=hashlib.sha256((HERE/'memory_panels.py').read_bytes()).hexdigest(),tables=sum(panel['kind']=='table' for sections in PANELS.values() for panels in sections.values() for panel in panels),diagrams=sum(panel['kind']!='table' for sections in PANELS.values() for panels in sections.values() for panel in panels))
     recall['visual_sources']={name:hashlib.sha256((HERE/name).read_bytes()).hexdigest() for name in ('visual_panels.py','visual_render.py')}
+    exam_focus=dict(traps=sum(len(v) for sections in TRAPS.values() for v in sections.values()),tiers={k:''.join(t for sections in TIERS.values() for t in sections.values()).count(k) for k in TIER_LABELS},sources={name:hashlib.sha256((HERE/name).read_bytes()).hexdigest() for name in ('traps.py','tiers.py')})
     essentials=dict(sha256=hashlib.sha256((HERE/'essentials.py').read_bytes()).hexdigest(),blocks=sum(len(blocks) for topics in ADDITIONS.values() for blocks in topics.values()),points=sum(len(block['points']) for topics in ADDITIONS.values() for blocks in topics.values() for block in blocks))
-    return dict(scope='Repository originals 01–26; source-authored seven-part revision notes',method='Original passages -> concepts, definitions, requirements, conditions and exceptions. Source-bound recall comparisons supplement full visible prose. The bank is used only by the separate gap audit.',limitations='Anchors prove source location, not semantic completeness. See depth-review-2026-10-20/REPORT.md and its per-source inventories for the current depth review, bilingual meaning checks, source-selected statutory coverage, reference-detail decisions and unresolved verification boundaries. This is not a line-by-line bilingual audit of every full volume or a guarantee about unknown official questions. Official source categories extend beyond the owner-selected 01–26. Historical reviews remain preserved, not proof of this review. Dated findings/lists retain their publication date.',manuscripts={f'part{n}.py':hashlib.sha256((HERE/f'part{n}.py').read_bytes()).hexdigest() for n in PARTS},essentials=essentials,recall=recall,source_text_sha256={doc:{lang:hashlib.sha256((ROOT/f'docs/text/{lang}/{doc}.txt').read_bytes()).hexdigest() for lang in (('EN',) if doc=='24' else ('TC','EN'))} for doc in documents},documents=documents,parts=parts)
+    return dict(scope='Repository originals 01–26; source-authored seven-part revision notes',method='Original passages -> concepts, definitions, requirements, conditions and exceptions. Source-bound recall comparisons supplement full visible prose. The bank is used only by the separate gap audit.',limitations='Anchors prove source location, not semantic completeness. See depth-review-2026-10-20/REPORT.md and its per-source inventories for the current depth review, bilingual meaning checks, source-selected statutory coverage, reference-detail decisions and unresolved verification boundaries. This is not a line-by-line bilingual audit of every full volume or a guarantee about unknown official questions. Official source categories extend beyond the owner-selected 01–26. Historical reviews remain preserved, not proof of this review. Dated findings/lists retain their publication date.',manuscripts={f'part{n}.py':hashlib.sha256((HERE/f'part{n}.py').read_bytes()).hexdigest() for n in PARTS},essentials=essentials,recall=recall,exam_focus=exam_focus,source_text_sha256={doc:{lang:hashlib.sha256((ROOT/f'docs/text/{lang}/{doc}.txt').read_bytes()).hexdigest() for lang in (('EN',) if doc=='24' else ('TC','EN'))} for doc in documents},documents=documents,parts=parts)
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');args=ap.parse_args();validate()

@@ -163,4 +163,73 @@ def apply(original, parts):
     for s in parts[7]['sections']:
         if s['id']=='internal-report':
             for b in s['blocks']:b['kind']='list'
+
+    # Exam-focus pass: near amounts on one ordinal line; filled/hollow shows whether equality counts.
+    v=old('money-boundaries');rows=v['rows']
+    def lane(row,tick,inclusive,boundary,**kw):return dict(label=row[0],tick=tick,inclusive=inclusive,boundary=boundary,trigger=row[2],detail=row[3],**kw)
+    replace('money-boundaries','thresholds',ticks=[
+        dict(key='8k',at=16,label=p('HK$8,000','HK$8,000')),
+        dict(key='100k',at=58,label=p('HK$100,000','HK$100,000')),
+        dict(key='120k',at=80,label=p('HK$120,000','HK$120,000'))],
+        lane_groups=[
+        dict(title=p('AMLO：CDD及匯款核實','AMLO: CDD and remittance verification'),lanes=[
+            lane(rows[1],'8k',True,p('≥ HK$8,000：恰好8,000元亦適用','≥ HK$8,000: exactly HK$8,000 is included')),
+            lane(rows[2],'8k',True,p('≥ HK$8,000：恰好8,000元亦適用','≥ HK$8,000: exactly HK$8,000 is included')),
+            lane(rows[0],'120k',True,p('≥ HK$120,000：恰好120,000元亦適用','≥ HK$120,000: exactly HK$120,000 is included'))]),
+        dict(title=p('第629章：跨境現金申報（獨立制度）','Cap.629: cross-boundary cash declarations (separate regime)'),lanes=[
+            lane(rows[3],'120k',False,p('> HK$120,000：恰好120,000元不觸發','> HK$120,000: exactly HK$120,000 does not trigger'))]),
+        dict(title=p('第34章：找換交易保障（獨立制度）','Cap.34: exchange-transaction protections (separate regime)'),lanes=[
+            lane(rows[4],'100k',False,p('> HK$100,000：恰好100,000元仍受第34章規管','> HK$100,000: exactly HK$100,000 stays within Cap.34'),exclusion=True)])],
+        scale_note=p('刻度只表示金額先後，不按比例。同一個120,000元：一般非經常交易CDD用「≥」，跨境申報用「>」。','Positions show order only, not scale. At the same HK$120,000, occasional-transaction CDD uses “≥” while cross-boundary declaration uses “>”.'))
+
+    # Deadlines: each row has its own starting event; no shared timeline across unrelated events.
+    def seg(kind,start,end,label=None):return {'kind':kind,'from':start,'to':end,'label':label}
+    def deadline(row,anchor,segments,at):
+        if isinstance(row,dict):row=[row['label'],row['start'],row['duration'],row['note']]
+        return dict(label=row[0],start=row[1],duration=row[2],note=row[3],anchor=anchor,segments=segments,at=at)
+    def after(row,anchor,amount):return deadline(row,anchor,[seg('window',8,62,amount),seg('late',62,100,p('逾期','Late'))],8)
+    def before(row,anchor,amount):return deadline(row,anchor,[seg('window',0,40,amount),seg('late',40,88,p('太遲','Too late'))],88)
+    def prior(row,anchor,amount):return deadline(row,anchor,[seg('window',0,64,amount),seg('late',64,100,p('事後不行','Not after'))],64)
+    def wait(row,anchor,blocked,amount):return deadline(row,anchor,[seg('late',8,52,blocked),seg('window',52,100,amount)],8)
+    not_scale=p('每行有自己的起算事件，不共用時間軸；線段長度只表示先後，不按比例。','Each row has its own starting event; rows do not share a timeline, and segment lengths show direction only, not scale.')
+    v=old('licence-clocks');rows=v.pop('clocks')
+    replace('licence-clocks','deadlines',scale_note=not_scale,deadlines=[
+        prior(rows[0],p('擬加入','Proposed appointment'),p('事先書面批准','Prior written approval')),
+        prior(rows[1],p('開始營業','Start operating'),p('營業前獲批','Approved first')),
+        before(rows[2],p('牌照屆滿','Licence expiry'),p('最少提前45日','≥ 45 days before')),
+        after(rows[3],p('改變當日','Date of change'),p('1個月內通知','Notify ≤ 1 month')),
+        deadline(rows[4],p('停止營業','Cessation'),[seg('window',0,40,p('事先通知','Notify first')),seg('window2',40,70,p('7日內交還','Return ≤ 7 days')),seg('late',70,100,p('逾期','Late'))],40)])
+    v=old('assessment-clocks');rows=v.pop('rows');v.pop('headers');v.pop('groups')
+    received=p('收到邀請','Invitation received');issued=p('成績發出','Result issued')
+    replace('assessment-clocks','deadlines',scale_note=not_scale,deadline_groups=[
+        dict(title=p('申請及人事變更','Applications and personnel changes'),rows=[
+            after(rows[0],p('面見海關','Customs interview'),p('30日內應考','Attend ≤ 30 days')),
+            after(rows[1],received,p('7日內提名','Nominate ≤ 7 days')),
+            after(rows[2],received,p('30日內應考','Attend ≤ 30 days')),
+            after(rows[3],p('通知變更','Change notified'),p('30日內安排','Arrange ≤ 30 days'))]),
+        dict(title=p('應考結果及重考','Results and retakes'),rows=[
+            after(rows[5],p('評核','Assessment'),p('14日內電郵','Email ≤ 14 days')),
+            wait(rows[4],issued,p('等候30日','Wait 30 days'),p('之後可重考','Retake after'))]),
+        dict(title=p('覆核成績','Rechecking results'),rows=[
+            after(rows[6],issued,p('7日內書面要求','Request ≤ 7 days')),
+            after(rows[7],p('收到要求','Request received'),p('14日內回覆','Reply ≤ 14 days'))])])
+
+    # Part 6 anchor figure: what to collect and verify for each customer type (¶4.3.2–4.3.12).
+    add(6,'identity','identity-data','id-columns',p('三類客戶：收集甚麼、核實甚麼','Three customer types: what to collect and what to verify'),refs=refs(6,'identity',[0,4]),columns=[
+        dict(title=p('自然人','Individual'),paras=p('第4.3.2–4.3.3段','¶4.3.2–4.3.3'),
+            collect=[p('全名','Full name'),p('出生日期','Date of birth'),p('國籍','Nationality'),p('獨特識別號碼（例如身份證或護照號碼）及文件的類別','Unique identification number (e.g. identity card or passport number) and document type')],
+            verify=[p('姓名','Name'),p('出生日期','Date of birth'),p('獨特識別號碼及文件的類別','Unique identification number and document type')],
+            sources=[p('香港身份證或其他國家的身份證','Hong Kong identity card or other national identity card'),p('有效的旅遊證件（例如未過期的護照）','Valid travel document (e.g. unexpired passport)'),p('其他可靠及獨立來源的文件、數據或資料（例如政府機構發出的文件）','Other documents, data or information from a reliable and independent source (e.g. issued by a government body)')],
+            note=p('國籍須收集，但不在一般核實項目內；另須取得住址資料（第4.3.5段），不代表一律要地址證明。','Nationality is collected but is not in the general verification set; also obtain residential address information (¶4.3.5), without a universal address-proof requirement.')),
+        dict(title=p('法人','Legal person'),paras=p('第4.3.6–4.3.7段','¶4.3.6–4.3.7'),
+            collect=[p('全名','Full name'),p('註冊、成立或登記的日期','Date of incorporation, establishment or registration'),p('註冊、成立或登記的地點（包括註冊辦事處地址）','Place of incorporation, establishment or registration (including registered office address)'),p('獨特識別號碼（例如註冊號碼或商業登記號碼）及文件的類別','Unique identification number (e.g. incorporation or business registration number) and document type'),p('主要營業地點（如與註冊辦事處地址不同）','Principal place of business (if different from the registered office)')],
+            verify=[p('名稱','Name'),p('法定形式','Legal form'),p('現時（核實時）仍然存在','Current existence (at the time of verification)'),p('規管和約束該法人的權力','Powers that regulate and bind it')],
+            sources=[p('公司註冊證明書','Certificate of incorporation'),p('獨立公司註冊登記冊的記錄','Record in an independent company registry'),p('職權證明書','Certificate of incumbency'),p('良好聲譽證明書','Certificate of good standing'),p('註冊記錄','Record of registration'),p('合夥協議或契約','Partnership agreement or deed'),p('章程文件','Constitutional document'),p('其他可靠及獨立來源的相關文件、數據或資料','Other relevant documents, data or information from a reliable and independent source')],
+            note=p('公司註冊證明書未必證明現時仍然存在，可能需要多於一份文件。','A certificate of incorporation may not prove current existence; more than one document may be needed.')),
+        dict(title=p('信託或類似法律安排','Trust or similar legal arrangement'),paras=p('第4.3.11–4.3.12段','¶4.3.11–4.3.12'),
+            collect=[p('信託或法律安排的名稱','Name of the trust or legal arrangement'),p('成立或結算日期','Date of establishment or settlement'),p('以法律監管有關信託或法律安排的司法管轄區','Jurisdiction whose laws govern it'),p('任何官方機構授予的獨特識別號碼（如有）及文件的類別','Unique identification number (if any) granted by an official body and document type'),p('註冊辦事處地址（如適用）','Registered office address (if applicable)')],
+            verify=[p('名稱','Name'),p('法定形式','Legal form'),p('現時（核實時）仍然存在','Current existence (at the time of verification)'),p('規管和約束該信託的權力','Powers that regulate and bind the trust')],
+            sources=[p('信託契據或類似文書','Trust deed or similar instrument'),p('成立信託的相關國家的合適登記冊記錄','Record of an appropriate register in the country of establishment'),p('以專業身分行事的受託人簽發的書面確認書','Written confirmation from a trustee acting in a professional capacity'),p('已覆核相關文書的律師簽發的書面確認書','Written confirmation from a lawyer who has reviewed the instrument'),p('同屬一個金融集團的信託公司簽發的書面確認書（如該公司管理有關信託）','Written confirmation from a same-group trust company that manages the trust')],
+            note=p('核實的是規管和約束「該信託」的權力（裁決E24）；不要把公司的25%門檻套用到信託。','Verify the powers that bind the trust itself (decision E24); do not apply the corporate 25% threshold to trusts.'))],
+        note=p('「收集」與「核實」是兩件事：收集的項目比須核實的多。','Collection and verification differ: more is collected than must be verified.'))
     return panels
