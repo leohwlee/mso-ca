@@ -1,0 +1,54 @@
+{
+ "status": "verified",
+ "date": "2026-10-23",
+ "reason": "Owner-requested gap-filling questions and statement corrections (see bank/audit/active-followups/2026-10-23-gap-items.json). Preserves the bank, quotes and the documentation, generated source accounting and study-note route check as they were before the counts changed. Question content is reviewed in the follow-up record; this record only links the documentation hashes.",
+ "archive": "bank/audit/history/2026-10-23-before-gap-items.zip",
+ "archive_sha256": "c5b6b244643120f62f006273231048aeaec273ded4a0384ab39cf454c1f4385d",
+ "archive_updates": {
+  "README.md": {
+   "before_sha256": "46dbfb00ed1afd78c8a69e26045a6bee178c5b581fe4f91bb2b077dcd87de201",
+   "after_sha256": "194447f60867a9d97e98c9a737de5b1a8a501d6a7c3924d4d1e806fbf1776aaf"
+  },
+  "README.zh-Hant.md": {
+   "before_sha256": "becec0f75560e5a4e6fac610b8d523d470e59b4d6f6870704a944346385e88a3",
+   "after_sha256": "298ac7ca2467955a1602c881b1bacf72f76a1e1bf582ac989f93a85f2d3207c8"
+  },
+  "DEVELOPMENT.md": {
+   "before_sha256": "64ea40f370b6fde9148fe24cbed40b20835a069bf4cf2e3efb98a72dbd613335",
+   "after_sha256": "7ae1b064dd08a8c6901f8b378fe6924f27ececa2ba55b969d2024a9916ae5fc1"
+  },
+  "DEVELOPMENT.zh-Hant.md": {
+   "before_sha256": "41c2edd39975edeeab48a58d78aee897b33715d5f703473bd77ca10fcaa61a7b",
+   "after_sha256": "a78cd94290b6befc9c4c899139cfcd140353b8b820f3bf16f0e517eba500369a"
+  },
+  "docs/USAGE.md": {
+   "before_sha256": "7c2d6519558773ded73048734491cd98ff42ddd2c40a32942aeeaff7ecae86ef",
+   "after_sha256": "71b2acb6c76159bfce24cb39765573511f5e1c03474188f818b267d6a8efbba7"
+  },
+  "docs/USAGE.zh-Hant.md": {
+   "before_sha256": "e4e4d6b6fe0117b6c9a1e74de4e51f7aa4fed382358d6aaaa2c4da4258bbd16f",
+   "after_sha256": "1ca637f1558aa80f0beea703e69bd42ba16b5547a96a6eb917413ecefe8ec604"
+  },
+  "CHANGELOG.md": {
+   "before_sha256": "537fddabe7d96ea1751786e6d9ed83e4cb91641711f178defc17c91c1a6b0ed7",
+   "after_sha256": "b292b08e78bb393bf18b7e1c3990d76c7eb78d35b6c78dc8e7d009c8e91720a3"
+  },
+  "docs/QUESTION-SOURCES.md": {
+   "before_sha256": "3dbaca7d0336c6b63047d492328d3ba14d04e624ac01afcbebb582527008616b",
+   "after_sha256": "b8f76d2f444a8a499754403a173dac25a54a6c1ea30ef9ce12c4974b61cab1be"
+  },
+  "docs/QUESTION-SOURCES.zh-Hant.md": {
+   "before_sha256": "1975b6b2a30fe92a7e1e45f6d746ced0cfd760729b339fadfd23d354ead69cea",
+   "after_sha256": "b2564be5d74da1b72d6c8ed8b856fef60d9f886fd8833c0930b9df2cb8190d5c"
+  },
+  "bank/audit/history/README.md": {
+   "before_sha256": "031c9b22336ca57aeb9b7a80e214425b3028673a175d81654bc1e58e1f7a7965",
+   "after_sha256": "b6b0397d62e82de5e0e75784e3290635c6fbc9f48ec6e836bf17976a6769d383"
+  },
+  "revision/study-notes/visual-refinement-2026-10-20/bank-source-routes.json": {
+   "before_sha256": "34946a7c4a92810d54e07a59a988bd8a2fffbea72d1023c0f978a8103abc6757",
+   "after_sha256": "ca9b6aa42fb000db8137572e04eb1f8c389b353ca7cf4941167c25f3ab5c9686"
+  }
+ },
+ "documentation_updates": {}
+}

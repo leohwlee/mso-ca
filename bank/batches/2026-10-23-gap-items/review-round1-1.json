@@ -1,0 +1,1043 @@
+[
+ {
+  "id": "m1-178",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶6.11",
+    "en": "an MSO operating internationally will need to be aware of the scope and focus of relevant sanctions regimes in those jurisdictions",
+    "tc": "但經營國際業務的金錢服務經營者仍須注意該等司法管轄區的相關制裁制度的範疇及重點"
+   },
+   {
+    "doc": "03",
+    "locator": "¶6.11",
+    "en": "Where these sanctions regimes may affect its operations, the MSO should consider what implications exist and take appropriate measures",
+    "tc": "如這些制裁制度可能對金錢服務經營者的業務構成影響，則金錢服務經營者應考慮這會引致甚麼影響，並採取適當措施"
+   },
+   {
+    "doc": "03",
+    "locator": "¶6.7(a)(ii)",
+    "en": "persons or entities acting on the behalf of or at the direction of the designated persons or entities, or owned or controlled by them",
+    "tc": "向代表被指認的個人或實體、按其指示行事，或由其擁有或控制的一干個人或實體"
+   },
+   {
+    "doc": "03",
+    "locator": "¶6.7(a)(ii)–(iii)",
+    "en": "(ii) persons or entities acting on the behalf of or at the direction of the designated persons or entities, or owned or controlled by them, or (iii) entities owned by the aforementioned",
+    "tc": "(ii) 向代表被指認的個人或實體、按其指示行事，或由其擁有或控制的一干個人或實體、或 (iii) 向上文所述者擁有的實體"
+   }
+  ],
+  "doubts": [
+   "'Needs to understand' paraphrases the source's 'will need to be aware of' (TC keeps 注意). I read it as a faithful paraphrase, not a change of modal or scope.",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-294",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "04",
+    "locator": "Sch. 2 s.12(8)",
+    "en": "If a financial institution acts as an intermediary institution in a wire transfer, it must transmit all of the information that it receives with the transfer to the institution to which it passes on the transfer instruction.",
+    "tc": "如金融機構在電傳轉賬中以中介機構身分行事，它須將其連同該項轉賬一併獲得的所有資料，傳遞予收取它的轉賬指示的機構"
+   },
+   {
+    "doc": "04",
+    "locator": "Sch. 2 s.12(9)(a)(i)",
+    "en": "if the wire transfer is not accompanied by the information required under subsection (3)(b), it must as soon as reasonably practicable— (i) obtain the information from the institution from which it receives the transfer instruction",
+    "tc": "如有關電傳轉賬並無附隨根據第(3)(b) 款規定的資料，該金融機構須在合理地切實可行的範圍內，盡快 —— (i) 向發出轉賬指示予它的機構，取得有關資料"
+   },
+   {
+    "doc": "04",
+    "locator": "Sch. 2 s.12(9)(b) (also (10)(b))",
+    "en": "if the financial institution is aware that the accompanying information that purports to be the information required under subsection (3)(b) is incomplete or meaningless, it must as soon as reasonably practicable take reasonable measures to mitigate the risk of money laundering or terrorist financing involved",
+    "tc": "如該金融機構察覺到附隨的看來是第(3)(b) 款所規定的資料並不完整，或不具意義，它須在合理地切實可行的範圍內，盡快採取合理措施，減低所涉的洗錢或恐怖分子資金籌集的風險"
+   },
+   {
+    "doc": "04",
+    "locator": "Sch. 2 s.12(10)",
+    "en": "Where a financial institution is a beneficiary institution or an intermediary institution in a wire transfer that is not a domestic wire transfer",
+    "tc": "如金融機構在並非本地電傳轉賬的電傳轉賬中屬收款機構或中介機構"
+   },
+   {
+    "doc": "04",
+    "locator": "Sch. 2 s.12(10)(a)(ii) (also (9)(a)(ii))",
+    "en": "if the missing information cannot be obtained, either— (A) consider restricting or terminating its business relationship with the institution referred to in subparagraph (i); or (B) take reasonable measures to mitigate the risk of money laundering or terrorist financing involved",
+    "tc": "( 如未能取得有關的遺漏資料) —— (A) 考慮限制或結束它與第(i) 節提述的機構的業務關係；或 (B) 採取合理措施，減低所涉的洗錢或恐怖分子資金籌集的風險"
+   }
+  ],
+  "doubts": [
+   "",
+   "Under the AMLO (B20) a domestic transfer's beneficiary institution chases only the s.12(3)(b) account or reference number, which is what the statement says.",
+   "Stated generically ('the required information'); true both for a domestic transfer (s.12(9)(b), the (3)(b) information) and a non-domestic one (s.12(10)(b), the (3) information).",
+   "",
+   "Omits 'as soon as reasonably practicable', which governs all of s.12(9)(a)/(10)(a). That is a timing element, not a condition limiting when the duty applies, so the statement is still implied by the source."
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m4-396",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "05",
+    "locator": "¶2.3",
+    "en": "does not include such a service that is incidental to the main business e.g. retail business accepting foreign currencies in transactions",
+    "tc": "但不包括附帶於主要業務的該等服務，例如在交易中接受外幣的零售業務"
+   },
+   {
+    "doc": "05",
+    "locator": "¶2.3(b)",
+    "en": "consists solely of transactions for the purchase by that person of non‐Hong Kong currencies in exchange for Hong Kong currency",
+    "tc": "只包括該人以港元貨幣作兌換的購入非港元貨幣的交易"
+   },
+   {
+    "doc": "05",
+    "locator": "¶2.4(c)",
+    "en": "arranging for the receipt of money in a place outside Hong Kong",
+    "tc": "安排在香港以外地方收取金錢"
+   },
+   {
+    "doc": "05",
+    "locator": "¶3.1",
+    "en": "CCE will not accept any application for grant or renewal of licence if an applicant has been exempted from the MSO licensing requirements",
+    "tc": "如申請人本身獲豁免於金錢服務經營者的發牌規定，關長將不會接納任何由其提出要求批給牌照或將牌照續期的申請"
+   }
+  ],
+  "doubts": [
+   "The EN statement does not repeat 'incidental to the main business', but it reproduces the Guide's own example (retail business accepting foreign currencies in transactions), so I read it as T. Per B26 this exclusion is in the Guide only, not the Ordinance; the statement is expressly about the Guide.",
+   "",
+   "",
+   "Follows ¶3.1 'will not accept' (W5); ¶5.10(k) 'may refuse' is outside the cited range."
+  ],
+  "tc_mismatch": [
+   "TC adds 附帶 ('incidentally' accepting foreign currency), echoing the source's 'incidental to the main business'; EN has no equivalent word. Same verdict in both, but EN is marginally less qualified.",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-161",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶2.4 fn 3",
+    "en": "“Credible sources” refers to information that is produced by reputable and universally recognised international organisations and other bodies that make such information publicly and widely available",
+    "tc": "「可靠消息來源」是指由一些有良好聲譽和廣為人知的國際組織及其他組織所提供及廣泛流傳的資訊"
+   },
+   {
+    "doc": "03",
+    "locator": "¶2.4 fn 3",
+    "en": "as well as relevant national government bodies and non-government organisations",
+    "tc": "以及有關的政府組織和非政府機構"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.15",
+    "en": "International organisations referred to in paragraph [4.9.14] are entities established by formal political agreements between their member States that have the status of international treaties",
+    "tc": "第[4.9.14]段所指的國際組織指由成員國根據具有國際條約地位的正式政治協議成立的實體"
+   },
+   {
+    "doc": "19",
+    "locator": "item (2)",
+    "en": "the list of jurisdictions that have committed to resolve swiftly strategic deficiencies in their regime to counter money laundering, terrorist financing, and proliferation financing within agreed timeframes",
+    "tc": "承諾於協定時間內迅速解決其在打擊洗錢、恐怖分子資金籌集及大規模毀滅武器擴散資金籌集制度方面的策略性缺失"
+   },
+   {
+    "doc": "06",
+    "locator": "A17",
+    "en": "conducting EDD is not mandatory for customers connected to jurisdictions listed in the FATF statement: “Improving Global Anti-Money Laundering and Counter-Financing of Terrorism (“AML/CFT”) Compliance: On-going Process”",
+    "tc": "對與題為“改善全球打擊洗錢及恐怖分子資金籌集的合規情況：持續進展”的特別組織聲明所列司法管轄區有關連的客戶採取更嚴格盡職審查措施並非強制性規定"
+   }
+  ],
+  "doubts": [
+   "EN says 'international organisations or other bodies' where the source says 'and other bodies'; both describe the producers of the information, so no change of meaning.",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   "TC adds 自動 ('does not automatically make EDD mandatory'); EN and the FAQ simply say EDD is not mandatory. Both T."
+  ]
+ },
+ {
+  "id": "m6-410",
+  "verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.3.6 fn 19",
+    "en": "Legal person refers to any entities other than natural person that can establish a permanent customer relationship with an MSO or otherwise own property",
+    "tc": "法人指任何自然人以外能夠與金錢服務經營者建立永久客戶關係或以其他形式擁有財產的實體"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.1.3 fn 12",
+    "en": "a trust means an express trust or any similar arrangement for which a legal-binding document (i.e. a trust deed or in any other forms) is in place",
+    "tc": "信託是指明示信託或附有具法律約束力文件(即信託契據或任何其他形式)的任何類似安排"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.3.12 fn 25",
+    "en": "they act in the course of a profession or business which consists of or includes the provision of services in connection with the administration or management of trusts (or a particular aspect of the administration or management of trusts)",
+    "tc": "是指他們在包含或包括提供信託管理服務(或某方面的信託管理服務)的行業或業務的過程中管理信託"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.3.12(c)",
+    "en": "written confirmation from a trustee acting in a professional capacity",
+    "tc": "由以專業身分行事的受託人25簽發的書面確認書"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "EN compresses 'consists of or includes the provision of services in connection with the administration or management of trusts' into 'includes trust-management services'; fn 25 defines the term 'in this context' (¶4.3.12(c)), which the stem's CDD framing covers. Read as a faithful paraphrase.",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-480",
+  "verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.4.6(a)(i)",
+    "en": "owns or controls, directly or indirectly, including through a trust or bearer share holding, more than 25% of the issued share capital of the corporation",
+    "tc": "直接或間接地擁有或控制（包括透過信託或持票人股份持有）該法團已發行股本的25%以上"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.4.6(a)(iii)",
+    "en": "exercises ultimate control over the management of the corporation",
+    "tc": "行使對該法團的管理最終的控制權"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.4.9",
+    "en": "an MSO should identify any natural person who ultimately has a controlling ownership interest (i.e. more than 25%) in the legal person",
+    "tc": "金錢服務經營者應識別任何在該法人內最終掌握控制擁有權益（即25%以上）的自然人"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.4.9",
+    "en": "If there is no such natural person (i.e. no natural person falls within the definition of beneficial owners set out in paragraphs [4.4.6] to [4.4.8]), the MSO should identify the relevant natural persons who hold the position of senior managing official",
+    "tc": "如沒有這類自然人擁有或控制該法人（即沒有自然人符合第[4.4.6]至[4.4.8]段所載有關實益擁有人的定義），金錢服務經營者應識別擔任高級管理人員的相關自然人"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   "The fallback applies only if no natural person falls within ¶4.4.6–4.4.8; Mr Lee does (¶4.4.6(a)(iii)), so it is not needed. The MSO must still look through the 75% holding company for other natural persons, but that is a separate step, not the fallback."
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-497",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.9.5(a)(ii)",
+    "en": "legal persons or legal arrangements that involve a shell vehicle without a clear and legitimate commercial purpose",
+    "tc": "法人或法律安排牽涉空殼公司，而並沒有明確及合法的商業目的"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.5(a)(iii)",
+    "en": "companies that have nominee shareholders, nominee directors, bearer shares or bearer share warrants",
+    "tc": "有代名人股東、代名人董事、持票人股份或持票人認股權證的公司"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.5(a)",
+    "en": "(a) customer risk factor: (i) business relationship is conducted in unusual circumstances",
+    "tc": "(a) 客戶風險因素： (i) 業務關係異乎尋常"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.5(a)(vii)",
+    "en": "the customer or the beneficial owner of the customer is a politically exposed person",
+    "tc": "客戶或該客戶的實益擁有人屬政治人物"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.5(a)(vi)",
+    "en": "customer knows little or is reluctant to disclose details about the recipient/ originator",
+    "tc": "客戶對於收款人／匯款人的詳情所知甚少，或不願披露有關詳情"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.5(a)(vii)–(b)",
+    "en": "(vii) the customer or the beneficial owner of the customer is a politically exposed person. (b) product, service, transaction or delivery channel risk factors",
+    "tc": "(vii) 客戶或該客戶的實益擁有人屬政治人物。 (b) 產品、服務、交易或交付渠道的風險因素"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-499",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.9.5(c)(i)",
+    "en": "countries or jurisdictions identified by credible sources, such as mutual evaluation or detailed assessment reports, as not having effective AML/CFT Systems",
+    "tc": "可靠消息來源（例如相互評估報告或詳盡的評估報告）識別為欠缺有效打擊洗錢／恐怖分子資金籌集風險制度的國家或司法管轄區"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.5(c)(ii)",
+    "en": "countries or jurisdictions identified by credible sources as having a significant level of corruption or other criminal activity",
+    "tc": "可靠消息來源識別為貪污或其他犯罪活動較多的國家或司法管轄區"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.5(c)(iv)",
+    "en": "countries, jurisdictions or geographical areas identified by credible sources as providing funding or support for terrorist activities, or that have designated terrorist organisations operation",
+    "tc": "可靠消息來源識別為向恐怖分子提供資金或支持恐怖活動，以及有指定恐怖主義組織在其境內運作的國家、司法管轄區或地區"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.5(c)(iii)",
+    "en": "countries or jurisdictions subject to sanctions, embargoes or similar measures issued by, for example, the United Nations",
+    "tc": "受到例如由聯合國等組織所實施的制裁、禁令或類似措施約束的國家或司法管轄區"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.5(b)(v)",
+    "en": "customer involves in transactions that have no apparent ties to the destination/origination jurisdiction and with no reasonable explanations",
+    "tc": "客戶所參與的交易與其目的地／來源地並無明顯關連而沒有合理解釋"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   "",
+   "The wording matches ¶4.9.5(b)(v), but the Guideline lists it under (b) product, service, transaction or delivery channel risk factors, not (c) country risk factors. F because the stem asks for country risk factors; a reader who looks only at the jurisdiction element might call it T."
+  ],
+  "tc_mismatch": [
+   "TC says 國家 only, where EN says 'Jurisdictions' and the source says 國家或司法管轄區. Narrower but still within the list item, so the verdict is unaffected.",
+   "",
+   "",
+   "TC says 國家 only, where EN says 'Jurisdictions' and the source says 國家或司法管轄區. Narrower but still within the list item, so the verdict is unaffected.",
+   ""
+  ]
+ },
+ {
+  "id": "m6-501",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.8.7(a)(i)",
+    "en": "a government entity or a public body32 in Hong Kong or in an equivalent jurisdiction",
+    "tc": "在香港或對等司法管轄區的政府機構或公共機構"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.8.7(b)(iii)(A)",
+    "en": "an annual premium of no more than $8,000 or an equivalent amount in any other currency is payable",
+    "tc": "須繳付的每年保費不多於8,000 元（或折算為任何其他貨幣的相同款額）"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.8.7(a)(iv)",
+    "en": "a collective investment scheme authorised for offering to the public in Hong Kong or in an equivalent jurisdiction",
+    "tc": "在香港或對等司法管轄區獲授權向公眾發售的集體投資計劃"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.8.7(a)",
+    "en": "(a) customer risk factors: (i) a government entity or a public body",
+    "tc": "(a) 客戶風險因素： (i) 在香港或對等司法管轄區的政府機構或公共機構"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.8.7(c)(i)",
+    "en": "countries or jurisdictions identified by credible sources, such as mutual evaluation or detailed assessment reports, as having effective AML/CFT Systems",
+    "tc": "可靠消息來源（例如相互評估報告或詳盡的評估報告）識別為具備有效打擊洗錢／恐怖分子資金籌集風險制度的國家或司法管轄區"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.8.7(b)(ii)",
+    "en": "an insurance policy for the purposes of a provident, pension, retirement or superannuation scheme (however described) that does not contain a surrender clause and cannot be used as a collateral",
+    "tc": "為公積金計劃、退休金計劃、退休計劃或離職金計劃（不論實際如何稱述）的目的而購買、不載有退回條款及不可用作抵押品的保險單"
+   }
+  ],
+  "doubts": [
+   "",
+   "$20,000 is the single-premium limit in (b)(iii)(B); the annual-premium limit is $8,000, so an annual premium up to $20,000 reaches cases the list leaves out.",
+   "",
+   "",
+   "",
+   "In EN the clause 'that has no surrender clause and cannot be used as collateral' could grammatically attach to 'pension scheme'; read naturally (and as TC makes explicit) it describes the policy, matching (b)(ii)."
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   "TC says 國家 only, where EN says 'Countries or jurisdictions' and the source says 國家或司法管轄區. Verdict unaffected.",
+   ""
+  ]
+ },
+ {
+  "id": "m6-503",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.3.2(a)–(b)",
+    "en": "obtaining at least the following identification information: (a) full name; (b) date of birth",
+    "tc": "最低限度應收集以下識別資料以識別該客戶： (a) 全名； (b) 出生日期"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.3.2",
+    "en": "(a) full name; (b) date of birth; (c) nationality; and (d) unique identification number",
+    "tc": "(a) 全名； (b) 出生日期； (c) 國籍；及 (d) 獨特識別號碼"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.3.2(d)",
+    "en": "unique identification number (e.g. identity card number or passport number) and document type",
+    "tc": "獨特識別號碼（例如身份證或護照號碼）及文件的類別"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.3.2(b)–(d)",
+    "en": "(b) date of birth; (c) nationality; and (d) unique identification number (e.g. identity card number or passport number) and document type",
+    "tc": "(b) 出生日期； (c) 國籍；及 (d) 獨特識別號碼（例如身份證或護照號碼）及文件的類別"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.3.3",
+    "en": "an MSO should verify the name, date of birth, unique identification number and document type of the customer by reference to documents, data or information provided by a reliable and independent source",
+    "tc": "應根據可靠及獨立來源所提供的文件、數據或資料，核實該客戶的姓名、出生日期、獨特識別號碼及文件的類別"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-505",
+  "verdicts": [
+   "T",
+   "F",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.4.6(a)(i)",
+    "en": "owns or controls, directly or indirectly, including through a trust or bearer share holding, more than 25% of the issued share capital of the corporation",
+    "tc": "直接或間接地擁有或控制（包括透過信託或持票人股份持有）該法團已發行股本的25%以上"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.4.9",
+    "en": "any natural person who ultimately has a controlling ownership interest (i.e. more than 25%) in the legal person",
+    "tc": "任何在該法人內最終掌握控制擁有權益（即25%以上）的自然人"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.4.13",
+    "en": "The objective is to follow the chain of ownerships to the beneficial owners of the customer.",
+    "tc": "目標是從擁有權鏈狀架構中追蹤客戶的實益擁有人"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.4.13",
+    "en": "an MSO should understand its ownership and control structure, including identification of any intermediate layers",
+    "tc": "金錢服務經營者應了解該客戶的擁有權及控制權結構，包括識別任何中介層"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.4.1",
+    "en": "Beneficial owner refers to the natural person(s) who ultimately owns or controls the customer",
+    "tc": "實益擁有人是指最終擁有、控制客戶或由客戶代其進行交易或活動的自然人"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   "",
+   "B14: under the AMLO a beneficial owner can be a non-individual where the corporation acts on behalf of another person. The statement is limited to the Guideline and to these facts (no one acting for another), where ¶4.4.1 says natural person(s), so T."
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-507",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.9.3",
+    "en": "An MSO should obtain approval from its senior management to establish a business relationship that presents a high ML/TF risk, or continue an existing business relationship where the relationship is subsequently assessed to present a high ML/TF risk",
+    "tc": "金錢服務經營者應取得其高級管理層的批准，以建立可引致高度洗錢／恐怖分子資金籌集風險的業務關係，或維持現有業務關係，而該業務關係其後被評為可造成高度洗錢／恐怖分子資金籌集風險"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.3",
+    "en": "An MSO should obtain approval from its senior management",
+    "tc": "金錢服務經營者應取得其高級管理層的批准"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.6(c)",
+    "en": "obtaining information on the source of funds and source of wealth of the customer",
+    "tc": "就客戶的財富來源及資金來源索取額外資料"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.6(f)",
+    "en": "requiring the first payment to be carried out through an account in the customer’s name with a bank subject to similar CDD standards",
+    "tc": "規定第一次作出的付款是經由以該客戶的名義在須遵從類似盡職審查標準的銀行開設的戶口進行"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.9.1",
+    "en": "An MSO must apply EDD measures in relation to a business relationship or transaction to mitigate and manage the high ML/TF risks",
+    "tc": "金錢服務經營者必須對業務關係或交易執行更嚴格的盡職審查措施，以減低及管理以下情況所涉及的高度洗錢／恐怖分子資金籌集風險"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   "'Is an example' leaves the class implicit (an example of possible EDD measures, from the stem and the preceding context); the measure itself matches ¶4.9.6(f).",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-509",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F",
+   "T"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.13.1",
+    "en": "it must not establish a business relationship or carry out any occasional transaction with that customer",
+    "tc": "則不可與該客戶建立業務關係，或與該客戶執行任何非經常交易"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.13.1",
+    "en": "and where there is relevant knowledge or suspicion, should make an STR to the JFIU",
+    "tc": "而如有相關知悉或懷疑，應向財富情報組提交可疑交易報告"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.13.1",
+    "en": "and where there is relevant knowledge or suspicion, should make an STR to the JFIU",
+    "tc": "而如有相關知悉或懷疑，應向財富情報組提交可疑交易報告"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.13.1",
+    "en": "Where the MSO is unable to comply with relevant CDD requirements set out in this Chapter and the ongoing due diligence requirements set out in Chapter 5, it must not establish a business relationship or carry out any occasional transaction",
+    "tc": "如金錢服務經營者不能夠遵守本章載列的相關盡職審查規定及第5章載列的持續盡職審查規定，則不可與該客戶建立業務關係，或與該客戶執行任何非經常交易"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.13.1",
+    "en": "or must terminate business relationship as soon as reasonably practicable (where applicable)",
+    "tc": "盡快結束業務關係（如適用）"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   "Delayed verification (¶4.7.1) is available only after establishing a business relationship, never for an occasional transaction (B16), and the customer here refuses any identification; the Guideline has no 30-day rule.",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m6-511",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶4.8.7(a)(i)",
+    "en": "a government entity or a public body32 in Hong Kong or in an equivalent jurisdiction",
+    "tc": "在香港或對等司法管轄區的政府機構或公共機構"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.8.2",
+    "en": "An MSO may apply SDD measures in relation to a business relationship or transaction if it determines that, taking into account its risk assessment, the business relationship or transaction presents a low ML/TF risk",
+    "tc": "如金錢服務經營者經考慮風險評估結果後，斷定業務關係或交易的洗錢／恐怖分子資金籌集風險屬於低，可對有關業務關係或交易執行簡化盡職審查措施"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.8.4",
+    "en": "The assessment of low risks should be supported by an adequate analysis of ML/TF risks by the MSO",
+    "tc": "如金錢服務經營者將風險評為低，應輔以其對洗錢／恐怖分子資金籌集風險的適當分析"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.8.5",
+    "en": "The SDD measures applied should be commensurate with the nature and level of ML/TF risk, based on the lower ML/TF risk factors identified by the MSO",
+    "tc": "金錢服務經營者應根據已識別的較低風險因素，執行與洗錢／恐怖分子資金籌集風險性質及水平相稱的簡化盡職審查措施"
+   },
+   {
+    "doc": "03",
+    "locator": "¶4.8.6",
+    "en": "When an MSO applies SDD measures, it is still required to continuously monitor its business relationship",
+    "tc": "金錢服務經營者即使執行簡化盡職審查措施，仍須按照附表2第5條及第5章所載持續監察其業務關係"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "The Guideline does not say this in terms. F rests on ¶4.8.4 (low-risk assessment supported by an adequate analysis of ML/TF risks by the MSO) and fn 31 (consider a range of factors holistically): a lower-risk factor is an input to the analysis, not the analysis itself.",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   "EN says SDD 'replaces' ongoing monitoring (definite); TC says 持續監察可改為 (ongoing monitoring 'may be changed to') an annual review. Different modal force, but both contradict ¶4.8.6, so F in both."
+  ]
+ },
+ {
+  "id": "m7-218",
+  "verdicts": [
+   "F",
+   "F",
+   "F",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "F",
+   "F",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶7.9",
+    "en": "An MSO should appoint an MLRO as a central reference point for reporting suspicious transactions",
+    "tc": "金錢服務經營者應委任一名洗錢報告主任作為報告可疑交易的中央聯絡點"
+   },
+   {
+    "doc": "03",
+    "locator": "¶7.7(b)",
+    "en": "implementing clear policies and procedures over internal reporting, reporting to the JFIU, post-reporting risk mitigation and prevention of tipping off",
+    "tc": "就內部報告、向財富情報組作出報告、作出報告後如何減低風險及防止通風報訊執行清晰的政策和程序"
+   },
+   {
+    "doc": "03",
+    "locator": "¶7.7",
+    "en": "The AML/CFT Systems should include: (a) appointment of an MLRO (see Chapter 3)",
+    "tc": "打擊洗錢／恐怖分子資金籌集制度應包括： (a) 委任一名洗錢報告主任（請參閱第3章）"
+   },
+   {
+    "doc": "03",
+    "locator": "¶7.7(c)",
+    "en": "keeping proper records of internal reports and STRs",
+    "tc": "備存內部報告及可疑交易報告的妥善紀錄"
+   },
+   {
+    "doc": "03",
+    "locator": "¶7.7(b)",
+    "en": "post-reporting risk mitigation and prevention of tipping off",
+    "tc": "作出報告後如何減低風險及防止通風報訊"
+   }
+  ],
+  "doubts": [
+   "All five statements depart from ¶7.7/¶7.9, so this reads as a none-of-the-above item. Here: the Guideline names the MLRO, not the compliance officer, as the central reference point (actor).",
+   "",
+   "Staff and MLRO training is required elsewhere (Chapter 9) but is not one of the three ¶7.7 elements of the STR systems.",
+   "¶7.7(c) sets no retention period, nor do the chapter 7 record provisions (¶7.29–7.30); 'at least seven years' is added.",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-221",
+  "verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "03",
+    "locator": "¶1.14",
+    "en": "the Drug Trafficking (Recovery of Proceeds) Ordinance, Cap. 405 (DTROP)",
+    "tc": "《販毒（追討得益）條例》（第405章）"
+   },
+   {
+    "doc": "03",
+    "locator": "¶1.14",
+    "en": "the Organized and Serious Crimes Ordinance, Cap. 455 (OSCO)",
+    "tc": "《有組織及嚴重罪行條例》（第455章）"
+   },
+   {
+    "doc": "03",
+    "locator": "¶1.14",
+    "en": "the United Nations (Anti-Terrorism Measures) Ordinance, Cap. 575 (UNATMO)",
+    "tc": "《聯合國（反恐怖主義措施）條例》（第575章）"
+   },
+   {
+    "doc": "03",
+    "locator": "¶1.14",
+    "en": "the United Nations Sanctions Ordinance, Cap. 537 (UNSO)",
+    "tc": "《聯合國制裁條例》（第537章）"
+   }
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m3-347",
+  "verdicts": [
+   "F",
+   "F",
+   "F",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "F",
+   "F",
+   "F",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   {
+    "doc": "04",
+    "locator": "Sch. 2 s.13(2)(c)(i)–(ii)",
+    "en": "(i) the originator’s name; (ii) the originator’s identification document number",
+    "tc": "(i) 匯款人的姓名； (ii) 匯款人的識別文件的號碼"
+   },
+   {
+    "doc": "04",
+    "locator": "Sch. 2 s.13(2)(c)(iii)–(iv)",
+    "en": "(iii) the originator’s address; (iv) the currency and amount involved",
+    "tc": "(iii) 匯款人的地址； (iv) 所涉的貨幣及款額"
+   },
+   {
+    "doc": "04",
+    "locator": "Sch. 2 s.13(2)(c)(iv)–(v)",
+    "en": "(iv) the currency and amount involved; and (v) the date and time of receipt of the instructions",
+    "tc": "(iv) 所涉的貨幣及款額；及 (v) 接獲指示的日期及時間"
+   },
+   {
+    "doc": "04",
+    "locator": "Sch. 2 s.13(2)(c)(v)",
+    "en": "the date and time of receipt of the instructions, the recipient’s name and address and the method of delivery",
+    "tc": "接獲指示的日期及時間、收款人的姓名及地址，以及送遞的方式"
+   },
+   {
+    "doc": "04",
+    "locator": "Sch. 2 s.13(2)(c)(ii)",
+    "en": "the originator’s identification document number and, if the originator’s identification document is a travel document, the place of issue of the travel document",
+    "tc": "匯款人的識別文件的號碼，以及( 如匯款人的識別文件是旅行證件) 發出旅行證件的地方"
+   }
+  ],
+  "doubts": [
+   "All five pairs contain one item s.13(2)(c) does not list, so this reads as a none-of-the-above item. Here: date and place of birth is a wire-transfer particular (s.12(3)(c)), not a remittance one.",
+   "The originator's account number is a wire-transfer particular (s.12(3)(b)), not in s.13(2)(c).",
+   "",
+   "The recipient's account number is a wire-transfer particular (s.12(3)(e)), not in s.13(2)(c).",
+   "The travel document number is required (as the originator's identification document number), but s.13(2)(c)(ii) requires the place, not the date, of issue."
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ }
+]

@@ -2,7 +2,7 @@
 
 [繁體中文](README.zh-Hant.md) · [Download the study bundle](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [Practice app](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html) · [Release notes](CHANGELOG.md)
 
-**Seven-part study notes and 525 combination questions** for the Hong Kong Money
+**Seven-part study notes and 552 combination questions** for the Hong Kong Money
 Service Operator Competence Assessment. Read and practise offline in Traditional
 Chinese, English or both languages. The selected sources are documents **01–26**
 of the [reading library](docs/README.md); practice offers mock exam and custom practice.
@@ -40,7 +40,7 @@ screens, table headings and language-switch positioning have also been improved.
 Read the [content review](revision/study-notes/depth-review-2026-10-20/REPORT.md),
 [visual review and previews](revision/study-notes/visual-refinement-2026-10-20/REPORT.md)
 for checked ranges and remaining limits. Counts are not coverage percentages.
-The 525 questions, answers and scoring are unchanged.
+That update left the 525 questions, answers and scoring unchanged.
 
 ![Part 6 study notes showing when customer due diligence is required, with conditions and source citations](docs/images/study-v1.10.1-en.png)
 
@@ -74,14 +74,14 @@ Results are stored locally in the browser.
 
 | Part | Topic | Questions |
 |---|---|---:|
-| 1 | General AML/CFT and counter-proliferation financing | 60 |
+| 1 | General AML/CFT and counter-proliferation financing | 63 |
 | 2 | AMLO Parts 1–7 | 75 |
-| 3 | AMLO Schedules | 65 |
-| 4 | C&ED guidelines | 80 |
-| 5 | Governance and strategy | 80 |
-| 6 | AML/CFT control areas | 100 |
-| 7 | Demonstrating and monitoring compliance | 65 |
-| **Total** | | **525** |
+| 3 | AMLO Schedules | 66 |
+| 4 | C&ED guidelines | 83 |
+| 5 | Governance and strategy | 81 |
+| 6 | AML/CFT control areas | 116 |
+| 7 | Demonstrating and monitoring compliance | 68 |
+| **Total** | | **552** |
 
 The bank includes eight official sample questions. The remaining questions are
 authored practice material, not released past papers. See [release notes](CHANGELOG.md)

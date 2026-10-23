@@ -20,6 +20,8 @@ def outputs():
                 bydoc[quote['doc']].add(qid)
     record_path=ROOT/'bank/audit/active26-implementation.json'
     record=load('bank/audit/active26-implementation.json') if record_path.exists() else None
+    followup_dir=ROOT/'bank/audit/active-followups'
+    followups=[dict(json.loads(p.read_text(encoding='utf8')),file=p.name) for p in sorted(followup_dir.glob('*.json'))] if followup_dir.exists() else []
     def mapping(tc):
         lang='TC' if tc else 'EN'
         lines=['# '+('現行題庫來源：01–26' if tc else 'Active question sources: 01–26'),'',
@@ -38,23 +40,35 @@ def outputs():
            '[Current review record](../bank/audit/ACTIVE-SCOPE.md) · [Complete catalog](catalog.json)'),'']
         return '\n'.join(lines)
     report=['# Active 01–26 question-bank scope','',
-      'Owner decision: 18 October 2026. Approximately 525 bilingual combination questions; seven parts; mock exam and custom practice only. This personal practice scope is not the official exam syllabus.','',
+      'Owner decision: 18 October 2026. Approximately 525 bilingual combination questions; seven parts; mock exam and custom practice only. This personal practice scope is not the official exam syllabus.','']
+    report += [f'Owner request: {f["date"]}. {f["owner_request"]}' for f in followups]
+    report += ['' for f in followups[:1]]
+    report += [
       f'Active questions: **{len(bank)}**. Statements: **{sum(len(q["truth"]) for q in bank)}**.','',
       '| Part | Questions | Mock draw |','|---|---|---|']
     report += [f'| {m} | {counts[m]} | 5 |' for m in range(1,8)]
     report += ['','## Review and provenance','',
-      'The 357-question baseline is preserved byte-for-byte in `history/2026-10-18-before-active26.zip`. Three archived-circular items (m1-140, m1-141, m1-181) are retired, with their IDs reserved. All other baseline questions and their quotes are unchanged.','',
+      'The 357-question baseline is preserved byte-for-byte in `history/2026-10-18-before-active26.zip`. Three archived-circular items (m1-140, m1-141, m1-181) are retired, with their IDs reserved. All other baseline questions and their quotes were unchanged by that expansion'+('; later reviewed revisions are listed below.' if followups else '.'),'',
       'The four original audit reports describe the original 23-source checklist. They validate a reconstructed historical bank; they do not claim to cover this expansion. The new record validates retained content, retirements, final blind answers, source hashes and topic mappings separately.','']
     if record:
         report += [f'New questions: **{len(record["added_question_ids"])}**. Final bilingual blind review records: **{len(record["blind_review"]["items"])}**.','',
           'Reviewers answered without keys or explanations. Agents inherited the parent model; this is independent context review, not a claimed different-model-family panel. Every recorded verdict is bound to the final stem, statements and citation by a text hash.','']
+    if followups:
+        report += ['## Later reviewed changes','',
+          'Each later change has its own record in `active-followups/` and an archive of the bank it started from. The check unwinds them newest first and then validates the record above unchanged. Revised items keep their IDs; their earlier text and quotes stay in the archive.','',
+          '| Date | Added | Revised | Blind review records | Archive |','|---|---|---|---|---|']
+        report += [f'| {f["date"]} | {len(f["added_question_ids"])} | {len(f["revised_question_ids"])} | {len(f["blind_review"]["items"])} | `{f["archive"].removeprefix("bank/audit/")}` |' for f in followups]
+        report += ['']
+        for f in followups:
+            report += [f'{f["date"]}: {f["method_summary"]}','']
     report += ['## Coverage boundaries','',
       '- Only local publications 01–26 support answers, including exceptions and distractors. Numbering does not import documents linked by a circular.',
       '- Coverage maps distinguish a new rule from a new application. Decision-changing scenarios may reuse a rule; decorative variants and repeated statements are excluded.',
       '- Document 24 has no official Chinese edition. Its Chinese questions and explanations are study translations, visibly labelled; deciding quotes remain English.',
       '- Report 25 findings are explicitly dated to the 2022 report, not presented as a live country-risk assessment.',
       '- Source quote checks verify occurrence, not legal meaning. Blind answers and explanation review provide the semantic checks; no claim of perfect accuracy or complete official exam coverage is made.',
-      '', '[Source-by-source accounting](../../docs/QUESTION-SOURCES.md) · [Machine-readable evidence](active26-implementation.json)','']
+      '', '[Source-by-source accounting](../../docs/QUESTION-SOURCES.md) · [Machine-readable evidence](active26-implementation.json)'+
+      ''.join(f' · [{f["date"]} follow-up](active-followups/{f["file"]})' for f in followups),'']
     return {'docs/QUESTION-SOURCES.md':mapping(False),'docs/QUESTION-SOURCES.zh-Hant.md':mapping(True),'bank/audit/ACTIVE-SCOPE.md':'\n'.join(report)}
 
 if __name__=='__main__':

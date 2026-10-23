@@ -1,0 +1,494 @@
+{
+ "instructions": "Independently judge every statement against the cited local source in each language. Do not read keys, notes, patches or the bank. Return id, verdicts, tc_verdicts (T/F arrays), quotes (one deciding source excerpt per statement), doubts and tc_mismatch (empty strings when none). A language=en quote for doc24 is an English original supporting a clearly labelled Chinese study translation.",
+ "items": [
+  {
+   "id": "m1-178",
+   "module": 1,
+   "source": {
+    "en": "AML/CFT Guideline ¶6.7(a)(ii)–(iii) and ¶6.11",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》第6.7(a)(ii)至(iii)及6.11段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which statements about the reach of financial sanctions and an MSO’s international operations are correct?",
+    "statements": [
+     "An MSO operating internationally needs to understand the scope and focus of relevant sanctions regimes in those jurisdictions, despite the usual position under Hong Kong law.",
+     "Where relevant foreign sanctions regimes may affect its operations, an MSO should consider what implications exist and take appropriate measures.",
+     "Without a Chief Executive’s licence, the UNSO prohibition on providing funds covers entities owned by designated persons, but excludes entities merely controlled by them.",
+     "Without a Chief Executive’s licence, the prohibition also reaches funds supplied to an entity owned by a person who acts on behalf of a designated person or entity."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關金融制裁的涵蓋範圍及金錢服務經營者國際業務的陳述，哪些正確？",
+    "statements": [
+     "經營國際業務的金錢服務經營者仍須注意該等司法管轄區相關制裁制度的範疇及重點，不能因香港法律的一般立場而略過。",
+     "如其他司法管轄區的相關制裁制度可能對業務構成影響，金錢服務經營者應考慮這會引致甚麼影響，並採取適當措施。",
+     "未獲行政長官特許時，《聯合國制裁條例》禁止提供資金的範圍包括被指認個人擁有的實體，但不包括僅由其控制的實體。",
+     "未獲行政長官特許時，如某人代表被指認的個人或實體行事，向該人所擁有的實體提供資金，亦在禁止範圍之內。"
+    ]
+   }
+  },
+  {
+   "id": "m3-294",
+   "module": 3,
+   "source": {
+    "en": "AMLO Sch. 2 s.12(8)–(10)",
+    "tc": "《打擊洗錢條例》附表2第12(8)至(10)條"
+   },
+   "en": {
+    "q": "Under the AMLO, which of the following are correct about an MSO that is an intermediary institution or a beneficiary institution in a wire transfer?",
+    "statements": [
+     "Acting as an intermediary institution in a wire transfer, the MSO must transmit all of the information it receives with the transfer to the institution to which it passes on the transfer instruction.",
+     "If a domestic wire transfer reaches it as beneficiary institution without the originator's account or reference number, the MSO must obtain that number from the instructing institution as soon as reasonably practicable.",
+     "A beneficiary institution aware that accompanying information purporting to be the required information is incomplete or meaningless must, as soon as reasonably practicable, take reasonable measures to mitigate the ML/TF risk.",
+     "For a wire transfer that is not domestic, the MSO as an intermediary institution, like a beneficiary institution, must as soon as reasonably practicable obtain any missing required information from the instructing institution.",
+     "If missing information it is required to obtain cannot be obtained, the MSO must either consider restricting or terminating its business relationship with the instructing institution, or take reasonable measures to mitigate the ML/TF risk involved."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢條例》，關於在電傳轉賬中屬中介機構或收款機構的金錢服務經營者，下列哪些陳述正確？",
+    "statements": [
+     "該金錢服務經營者如在電傳轉賬中以中介機構身分行事，須將其連同該項轉賬一併獲得的所有資料，傳遞予收取它的轉賬指示的機構。",
+     "如本地電傳轉賬送達作為收款機構的該經營者時沒有附隨匯款人戶口號碼或參考編號，該經營者須在合理地切實可行的範圍內，盡快向發出轉賬指示的機構取得該號碼。",
+     "收款機構如察覺附隨的看來是規定資料的資料並不完整或不具意義，須在合理地切實可行的範圍內，盡快採取合理措施減低洗錢／恐怖分子資金籌集風險。",
+     "就並非本地的電傳轉賬而言，作為中介機構的該經營者與收款機構一樣，須在合理地切實可行的範圍內，盡快向發出轉賬指示的機構取得遺漏的規定資料。",
+     "如未能取得其須取得的遺漏資料，該經營者須考慮限制或結束它與發出轉賬指示的機構的業務關係，或採取合理措施減低所涉的洗錢／恐怖分子資金籌集風險。"
+    ]
+   }
+  },
+  {
+   "id": "m4-396",
+   "module": 4,
+   "source": {
+    "en": "Licensing Guide ¶2.3–2.4, ¶3.1",
+    "tc": "《牌照指引》 第2.3至2.4段、 第3.1段"
+   },
+   "en": {
+    "q": "Which conclusions correctly apply the licensing boundaries to these proposed businesses?",
+    "statements": [
+     "The Licensing Guide treats a retailer accepting foreign currency in its sales as outside a money changing service.",
+     "A hotel that sells foreign notes to guests qualifies for the hotel exclusion just because all customers are guests.",
+     "A Hong Kong business arranging receipt of money overseas can be remittance even without sending the money itself.",
+     "An applicant already exempt from the MSO licensing requirements cannot elect to obtain an MSO licence nonetheless."
+    ]
+   },
+   "tc": {
+    "q": "以下哪些結論正確把發牌範圍應用於這些擬議業務？",
+    "statements": [
+     "《牌照指引》把零售商在交易中附帶接受外幣，視為不屬貨幣兌換服務。",
+     "酒店只向住客賣出外幣鈔票，便因所有客戶均為住客而符合酒店排除條件。",
+     "在香港經營並安排於香港以外收取金錢，即使不自行送款也可構成匯款服務。",
+     "已獲豁免金錢服務經營者發牌規定的申請人，不能仍選擇取得該牌照。"
+    ]
+   }
+  },
+  {
+   "id": "m1-161",
+   "module": 1,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶2.4 footnote 3 and ¶4.9.15; C&ED Circular MSSB/FATF_02/2026 item (2); FAQ applicable to all MSOs, Q17",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》第2.4段附註3及第4.9.15段；海關通函MSSB/FATF_02/2026第(2)項；適用於所有金錢服務經營者的常見問題第17問"
+   },
+   "en": {
+    "q": "Which of the following are correct about international organisations and sources of information used in assessing ML/TF risk?",
+    "statements": [
+     "Credible sources are information produced by reputable, universally recognised international organisations or other bodies that make it publicly and widely available.",
+     "Beyond the named international bodies, the examples of credible sources include relevant national government bodies, while excluding non-government organisations.",
+     "For PEP identification, an international organisation is established through formal political agreements between its member States that have the status of international treaties.",
+     "Jurisdictions under increased monitoring have committed to resolve strategic deficiencies in their ML/TF/PF regimes swiftly within agreed timeframes.",
+     "A customer’s connection to a jurisdiction listed in the FATF statement on improving global AML/CFT compliance through the On-going Process does not make EDD mandatory."
+    ]
+   },
+   "tc": {
+    "q": "關於國際組織及評估洗錢／恐怖分子資金籌集風險所用的資料來源，下列哪些陳述正確？",
+    "statements": [
+     "可靠消息來源是由有良好聲譽和廣為人知的國際組織及其他組織所提供、並廣泛流傳的資訊。",
+     "除具名的國際組織外，可靠消息來源的例子亦包括有關的政府組織，但並不包括非政府機構所提供的資訊。",
+     "就識別政治人物而言，國際組織的成立依據，是成員國之間具有國際條約地位的正式政治協議。",
+     "被加強監察的司法管轄區，已承諾在協定時間內迅速解決打擊洗錢、恐怖分子資金籌集及擴散資金籌集制度的策略性缺失。",
+     "客戶與特別組織「持續進展」聲明所列司法管轄區有關連，並不令更嚴格盡職審查措施自動成為強制性規定。"
+    ]
+   }
+  },
+  {
+   "id": "m6-410",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.1.3 footnote 12, ¶4.3.6 footnote 19 and ¶4.3.12(c) with footnote 25",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》第4.1.3段附註12、第4.3.6段附註19及第4.3.12(c)段與附註25"
+   },
+   "en": {
+    "q": "Which of the following are correct about legal persons, trusts and professional trustees in customer due diligence?",
+    "statements": [
+     "A legal person is an entity other than a natural person that can establish a permanent customer relationship with an MSO or otherwise own property.",
+     "A trust includes an express trust or a similar arrangement with a legally binding document, which may take a form other than a trust deed.",
+     "A trustee acts professionally when administering a trust in a profession or business that includes trust-management services, even for a particular aspect.",
+     "A written confirmation issued by a trustee acting in a professional capacity is one example of a document for verifying the identity of a trust customer."
+    ]
+   },
+   "tc": {
+    "q": "關於客戶盡職審查中的法人、信託及以專業身分行事的受託人，下列哪些陳述正確？",
+    "statements": [
+     "法人是自然人以外，能夠與金錢服務經營者建立永久客戶關係或以其他形式擁有財產的實體。",
+     "信託包括明示信託，或附有具法律約束力文件的類似安排；有關文件可以採用信託契據以外的其他形式。",
+     "受託人在包含提供信託管理服務（或某方面的信託管理服務）的行業或業務過程中管理信託，即屬以專業身分行事。",
+     "核實屬信託的客戶的身分時，可參考的文件例子包括由以專業身分行事的受託人簽發的書面確認書。"
+    ]
+   }
+  },
+  {
+   "id": "m6-480",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.4.6–4.4.9",
+    "tc": "《打擊洗錢指引》第4.4.6–4.4.9段"
+   },
+   "en": {
+    "q": "A company is owned 25% by Ms Chan and 75% by a holding company; Mr Lee ultimately controls management without owning shares. Which statements are correct?",
+    "statements": [
+     "Ms Chan qualifies as a beneficial owner through her holding of exactly 25% of the issued share capital.",
+     "Mr Lee’s ultimate management control can make him a beneficial owner despite having no shares.",
+     "The MSO can stop at the holding company without identifying the relevant ultimate natural persons.",
+     "Identifying Mr Lee as the controlling person removes the need to use the senior-managing-official fallback."
+    ]
+   },
+   "tc": {
+    "q": "陳女士持有公司25%股本，控股公司持有75%；李先生沒有股份但最終控制管理。下列哪些陳述正確？",
+    "statements": [
+     "陳女士正好持有已發行股本25%，已憑此達到實益擁有人的股權標準。",
+     "李先生即使沒有股份，仍可因最終管理控制權而是實益擁有人。",
+     "經營者可停留於控股公司層面，不識別相關最終自然人。",
+     "已識別李先生為控制的自然人，便毋須改用高級管理人員後備安排。"
+    ]
+   }
+  },
+  {
+   "id": "m6-497",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.5(a)",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.5(a)段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are examples of potentially higher customer risk factors?",
+    "statements": [
+     "A legal person or legal arrangement that involves a shell vehicle without a clear and legitimate commercial purpose",
+     "A company that has nominee shareholders, nominee directors, bearer shares or bearer share warrants",
+     "A company customer that was incorporated less than a year before its business relationship with the MSO began",
+     "A customer that is not itself a politically exposed person but whose beneficial owner is one",
+     "A customer who knows little about, or is reluctant to disclose details of, the recipient or originator",
+     "A customer who wishes to conduct transactions in a currency that is not freely convertible"
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，下列哪些屬潛在較高風險因素中客戶風險因素的例子？",
+    "statements": [
+     "牽涉空殼公司而沒有明確及合法商業目的的法人或法律安排",
+     "有代名人股東、代名人董事、持票人股份或持票人認股權證的公司",
+     "在與金錢服務經營者建立業務關係前不足一年才成立為法團的公司客戶",
+     "客戶本身不是政治人物，但其實益擁有人屬政治人物的客戶",
+     "對收款人／匯款人的詳情所知甚少，或不願披露有關詳情的客戶",
+     "希望以一種不可自由兌換的貨幣與金錢服務經營者進行交易的客戶"
+    ]
+   }
+  },
+  {
+   "id": "m6-499",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.5(b)(v) and (c)",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.5(b)(v)及(c)段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are examples of potentially higher country risk factors?",
+    "statements": [
+     "Jurisdictions identified by credible sources as not having effective AML/CFT Systems",
+     "Jurisdictions identified by credible sources as having a significant level of corruption or other criminal activity",
+     "Jurisdictions that receive a high volume of remittances sent from Hong Kong through licensed MSOs",
+     "Jurisdictions subject to sanctions, embargoes or similar measures issued by, for example, the United Nations",
+     "Transactions with no apparent ties to the destination or origination jurisdiction and no reasonable explanation"
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，下列哪些屬潛在較高風險因素中國家風險因素的例子？",
+    "statements": [
+     "可靠消息來源識別為欠缺有效打擊洗錢／恐怖分子資金籌集風險制度的國家",
+     "可靠消息來源識別為貪污或其他犯罪活動較多的國家或司法管轄區",
+     "接收大量由香港經持牌金錢服務經營者匯出款項的國家或司法管轄區",
+     "受到例如由聯合國等組織所實施的制裁、禁令或類似措施約束的國家",
+     "所參與的交易與其目的地／來源地並無明顯關連而沒有合理解釋的情況"
+    ]
+   }
+  },
+  {
+   "id": "m6-501",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.8.7",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.8.7段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are examples of potentially lower risk factors?",
+    "statements": [
+     "A government entity or a public body in Hong Kong or in an equivalent jurisdiction",
+     "A life insurance policy for which an annual premium of no more than $20,000 is payable",
+     "A collective investment scheme authorised for offering to the public in Hong Kong or in an equivalent jurisdiction",
+     "A customer that has kept a business relationship with the MSO for over five years without any suspicious activity",
+     "Countries or jurisdictions identified by credible sources as having effective AML/CFT Systems",
+     "An insurance policy for a pension scheme that has no surrender clause and cannot be used as collateral"
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，下列哪些屬潛在較低風險因素的例子？",
+    "statements": [
+     "在香港或對等司法管轄區的政府機構或公共機構客戶",
+     "須繳付的每年保費不多於20,000元或等值款額的人壽保險單",
+     "在香港或對等司法管轄區獲授權向公眾發售的集體投資計劃",
+     "與金錢服務經營者已維持業務關係逾五年而從無可疑活動的客戶",
+     "可靠消息來源識別為具備有效打擊洗錢／恐怖分子資金籌集風險制度的國家",
+     "為退休金計劃而購買、不載有退回條款及不可用作抵押品的保險單"
+    ]
+   }
+  },
+  {
+   "id": "m6-503",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.2–4.3.3",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.3.2至4.3.3段"
+   },
+   "en": {
+    "q": "An MSO’s account-opening form for individual customers collects the items below. Which statements are correct under the AML/CFT Guideline?",
+    "statements": [
+     "The customer’s full name and date of birth are both part of the minimum identification information.",
+     "The customer’s sex is also part of the minimum identification information the MSO should obtain.",
+     "An identity card or passport number, with the document type, is part of the minimum identification information.",
+     "The customer’s place of birth is also part of the minimum identification information the MSO should obtain.",
+     "Name, date of birth, unique identification number and document type should be verified from a reliable, independent source."
+    ]
+   },
+   "tc": {
+    "q": "某金錢服務經營者為個人客戶開戶的表格收集以下資料。根據《打擊洗錢及恐怖分子資金籌集指引》，下列哪些陳述正確？",
+    "statements": [
+     "客戶的全名及出生日期，均屬須收集的最低限度識別資料。",
+     "客戶的性別，亦屬金錢服務經營者須收集的最低限度識別資料。",
+     "身份證或護照號碼及文件的類別，屬須收集的最低限度識別資料。",
+     "客戶的出生地點，亦屬金錢服務經營者須收集的最低限度識別資料。",
+     "應根據可靠及獨立來源核實姓名、出生日期、獨特識別號碼及文件類別。"
+    ]
+   }
+  },
+  {
+   "id": "m6-505",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.4.1, ¶4.4.6, ¶4.4.9 and ¶4.4.13",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.4.1、4.4.6、4.4.9及4.4.13段"
+   },
+   "en": {
+    "q": "Ms Wong holds 20% of a corporate customer’s shares. Star Holdings holds the other 80%, and Mr Ho owns all of Star Holdings. No one else exercises control. Which statements are correct under the AML/CFT Guideline?",
+    "statements": [
+     "Mr Ho is a beneficial owner, as he indirectly owns or controls more than 25% of the customer’s issued share capital.",
+     "Ms Wong is a beneficial owner, as her direct 20% shareholding is a controlling ownership interest.",
+     "Star Holdings, as the 80% shareholder, is itself the beneficial owner, so tracing can stop there.",
+     "The MSO should identify Star Holdings as an intermediate layer and follow the chain of ownership to the beneficial owners.",
+     "Under the Guideline, the beneficial owners to be identified here are natural persons who ultimately own or control the customer."
+    ]
+   },
+   "tc": {
+    "q": "王女士持有某法團客戶20%股份，星輝控股持有其餘80%，而何先生擁有星輝控股全部股份。此外沒有其他人行使控制權。根據《打擊洗錢及恐怖分子資金籌集指引》，下列哪些陳述正確？",
+    "statements": [
+     "何先生間接擁有或控制客戶已發行股本的25%以上，屬實益擁有人。",
+     "王女士直接持有20%股份，屬控制擁有權益，故她是實益擁有人。",
+     "星輝控股作為持有80%的股東，本身已是實益擁有人，追查至此即可。",
+     "經營者應識別星輝控股這個中介層，並沿擁有權鏈追蹤至實益擁有人。",
+     "按指引，此個案須識別的實益擁有人，是最終擁有或控制客戶的自然人。"
+    ]
+   }
+  },
+  {
+   "id": "m6-507",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.9.1, ¶4.9.3 and ¶4.9.6(c), (f)",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.9.1、4.9.3段及第4.9.6(c)、(f)段"
+   },
+   "en": {
+    "q": "An MSO has assessed an existing customer relationship as now presenting a high ML/TF risk; the customer is not a politically exposed person. Which statements are correct under the AML/CFT Guideline?",
+    "statements": [
+     "The MSO should obtain approval from its senior management to continue the existing business relationship.",
+     "The Guideline requires approval from the compliance officer before the existing relationship continues.",
+     "Obtaining information on the source of funds and source of wealth of the customer is a possible EDD measure.",
+     "Requiring the first payment through a customer-named account at a bank with similar CDD standards is an example.",
+     "As the customer is not a politically exposed person, EDD measures are not required despite the high-risk assessment."
+    ]
+   },
+   "tc": {
+    "q": "某金錢服務經營者評定一項現有業務關係如今可引致高度洗錢／恐怖分子資金籌集風險；有關客戶並非政治人物。根據《打擊洗錢及恐怖分子資金籌集指引》，下列哪些陳述正確？",
+    "statements": [
+     "金錢服務經營者應取得其高級管理層的批准，以維持該現有業務關係。",
+     "指引規定在維持該業務關係之前，須先取得合規主任的批准。",
+     "就客戶的財富來源及資金來源索取額外資料，是可能執行的措施之一。",
+     "規定第一次付款經由客戶名義在類似盡職審查標準的銀行戶口進行，亦屬例子。",
+     "由於客戶並非政治人物，即使評為高風險，亦不必執行更嚴格的盡職審查措施。"
+    ]
+   }
+  },
+  {
+   "id": "m6-509",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.13.1",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.13.1段"
+   },
+   "en": {
+    "q": "A walk-in customer wants to make an occasional transaction that requires CDD but refuses to produce any identification document. Which statements are correct under the AML/CFT Guideline?",
+    "statements": [
+     "The MSO must not carry out the occasional transaction for the customer while the CDD requirements cannot be met.",
+     "The MSO must make an STR to the JFIU once CDD cannot be completed, even without any knowledge or suspicion.",
+     "Where it has relevant knowledge or suspicion about the customer, the MSO should make an STR to the JFIU.",
+     "The MSO may carry out the transaction if the customer promises to provide identification within 30 days.",
+     "If such a failure arose in an existing business relationship, the MSO must terminate it as soon as reasonably practicable."
+    ]
+   },
+   "tc": {
+    "q": "一名臨時到訪的客戶要求進行須執行盡職審查的非經常交易，但拒絕出示任何身分證明文件。根據《打擊洗錢及恐怖分子資金籌集指引》，下列哪些陳述正確？",
+    "statements": [
+     "在未能符合盡職審查規定的情況下，金錢服務經營者不可為該客戶執行該非經常交易。",
+     "未能完成盡職審查，即使沒有任何知悉或懷疑，亦須向財富情報組提交可疑交易報告。",
+     "如對該客戶有相關知悉或懷疑，金錢服務經營者應向財富情報組提交可疑交易報告。",
+     "如客戶承諾在30日內提供身分證明文件，金錢服務經營者可先執行該交易。",
+     "如屬現有業務關係出現這情況，須在合理地切實可行的範圍內盡快結束業務關係。"
+    ]
+   }
+  },
+  {
+   "id": "m6-511",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.8.2, ¶4.8.4–4.8.6 and ¶4.8.7(a)(i)",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.8.2段、第4.8.4至4.8.6段及第4.8.7(a)(i)段"
+   },
+   "en": {
+    "q": "An MSO is onboarding a Hong Kong government department as a customer and plans to apply SDD measures. Which statements are correct under the AML/CFT Guideline?",
+    "statements": [
+     "A government entity in Hong Kong is an example of a potentially lower customer risk factor.",
+     "SDD may be applied if, taking into account its risk assessment, the MSO determines the relationship presents a low ML/TF risk.",
+     "The customer’s status as a government department can itself serve as the adequate analysis of the risks.",
+     "The SDD measures should be commensurate with the nature and level of the risk, based on the lower risk factors identified.",
+     "Applying SDD measures replaces ongoing monitoring of the relationship with a review at the end of each year."
+    ]
+   },
+   "tc": {
+    "q": "某金錢服務經營者接納一個香港政府部門為客戶，並計劃執行簡化盡職審查措施。根據《打擊洗錢及恐怖分子資金籌集指引》，下列哪些陳述正確？",
+    "statements": [
+     "在香港的政府機構，是潛在較低客戶風險因素的例子。",
+     "經考慮風險評估後斷定業務關係屬低風險，便可執行簡化盡職審查措施。",
+     "客戶屬政府部門的身分本身，即足以作為適當的風險分析。",
+     "簡化盡職審查措施應根據已識別的較低風險因素，與風險性質及水平相稱。",
+     "執行簡化盡職審查措施後，持續監察可改為每年年底檢討一次業務關係。"
+    ]
+   }
+  },
+  {
+   "id": "m7-218",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.7 and ¶7.9",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第7.7及7.9段"
+   },
+   "en": {
+    "q": "An MSO’s manual lists the following as elements that its AML/CFT Systems for suspicious transaction reporting should include. Which entries match the AML/CFT Guideline?",
+    "statements": [
+     "Appointment of a compliance officer as the central reference point for suspicious transaction reporting",
+     "Clear policies and procedures over internal reporting and over reporting suspicious transactions to the CCE",
+     "Regular attendance at relevant training by the MLRO and by frontline staff members",
+     "Keeping proper records of internal reports and STRs for at least seven years after each report",
+     "Policies and procedures for post-reporting risk elimination and the prevention of tipping off"
+    ]
+   },
+   "tc": {
+    "q": "某金錢服務經營者的手冊列出其有關報告可疑交易的打擊洗錢／恐怖分子資金籌集制度應包括以下元素。下列哪些項目與指引相符？",
+    "statements": [
+     "委任一名合規主任作為報告可疑交易的中央聯絡點",
+     "就內部報告及向關長報告可疑交易執行清晰的政策和程序",
+     "洗錢報告主任及前線工作人員定期參加相關培訓",
+     "備存內部報告及可疑交易報告的妥善紀錄，每份最少七年",
+     "就作出報告後如何消除風險及防止通風報訊執行政策和程序"
+    ]
+   }
+  },
+  {
+   "id": "m1-221",
+   "module": 1,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.14",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.14段"
+   },
+   "en": {
+    "q": "Regarding the main pieces of legislation in Hong Kong concerned with ML, TF, PF and financial sanctions, as the AML/CFT Guideline lists them, which statements are correct?",
+    "statements": [
+     "The Drug Trafficking (Recovery of Proceeds) Ordinance is one of them.",
+     "The Organized and Serious Offences Ordinance is one of them.",
+     "The United Nations (Anti-Terrorism Measures) Ordinance is one of them.",
+     "The United Nations Sanctions (Enforcement) Ordinance is one of them."
+    ]
+   },
+   "tc": {
+    "q": "關於《打擊洗錢及恐怖分子資金籌集指引》所列、香港與洗錢、恐怖分子資金籌集、擴散資金籌集及金融制裁有關的主要法例，下列哪些陳述正確？",
+    "statements": [
+     "《販毒（追討得益）條例》是其中之一。",
+     "《有組織及嚴重罪案條例》是其中之一。",
+     "《聯合國（反恐怖主義措施）條例》是其中之一。",
+     "《聯合國制裁（執行）條例》是其中之一。"
+    ]
+   }
+  },
+  {
+   "id": "m3-347",
+   "module": 3,
+   "source": {
+    "en": "AMLO Sch. 2 s.13(1)–(2)",
+    "tc": "《打擊洗錢條例》附表2第13(1)至(2)條"
+   },
+   "en": {
+    "q": "Before carrying out a remittance transaction, other than a wire transfer, of $8,000 or more, which pairs of particulars must a licensed MSO record under the AMLO?",
+    "statements": [
+     "The originator’s name, and the originator’s date and place of birth",
+     "The originator’s address, and the number of the originator’s account",
+     "The currency and amount involved, and the purpose of the remittance",
+     "The recipient’s name and address, and the number of the recipient’s account",
+     "The travel document number, and the date on which that document was issued"
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢條例》，持牌金錢服務經營者在進行款額相等於$8,000或以上而並非電傳轉賬的匯款交易之前，須記錄下列哪些資料組合？",
+    "statements": [
+     "匯款人的姓名，以及匯款人的出生日期及地方",
+     "匯款人的地址，以及匯款人的戶口號碼",
+     "所涉的貨幣及款額，以及匯款的目的",
+     "收款人的姓名及地址，以及收款人的戶口號碼",
+     "旅行證件的號碼，以及發出旅行證件的日期"
+    ]
+   }
+  }
+ ],
+ "text_sha256": {
+  "m1-178": "17fd0af29612b4ef94612e0382df4c476127d6c0e2b453c485f96ea3d117c089",
+  "m3-294": "0cb1c6fc2e884ce9d2f7200eb3cc68bf7e83db8b2651a0f111805300468279ac",
+  "m4-396": "46d5397a7d7ca97002d3d1d7079b822e306f65f0a151d481d9babc14aff17ad2",
+  "m1-161": "ca790a9865a10f5bedeb2aef975755afa093f208d988452fa20b2c0187bc50a9",
+  "m6-410": "0ff01b1a80af6a9dee21b23f5cdf38e55a5376d9514b0b553fcb606dad187190",
+  "m6-480": "f775040766511d119732a23cf85bb5067447dbfbbc1c33ae5697cc4083d99e73",
+  "m6-497": "98943c52a4241a522db81715f0e3439b4d19c91c9594c9157de4c8c295f656f3",
+  "m6-499": "833adbdadc8d342be9aca8e44e4ff4649cd44bd0b3e02281b85abb117932e791",
+  "m6-501": "9529b04a0725aa8015fa46134d3d0cf3b2fc86735a5d68ba1d4d58418177bf12",
+  "m6-503": "1aaf57e467ae9167dda5a28f2304e188cc37bb22d2a61e990a56dafd4c90c346",
+  "m6-505": "8492834defdae4ef6704ae78aacaab0b07b5d8a1a6ac73a27fb8cb852dac9b4e",
+  "m6-507": "abde8c578be2aa3d806651fbd512bda0c08099e07a0c01e0f8214a3b1e890ea6",
+  "m6-509": "5631c571956102b20ad3cd1f07091449654cf5e8dac41846869747d5ec6e2d41",
+  "m6-511": "42854d64f5b5241cca412090aa88d965ab345da1d962427ce1ebb90c98543d44",
+  "m7-218": "7d47c468296136beda65381da1d196febb6b5d75595138edbd8773d8544e91b1",
+  "m1-221": "dfbed0344d799d02504dd9721cabfd8a60cf60a502790d9eff09c4e17e49cffb",
+  "m3-347": "dfff69ea8b7cab1d199963f9c0b687046ed157bf011cf96d030b688bf6e962c6"
+ }
+}
