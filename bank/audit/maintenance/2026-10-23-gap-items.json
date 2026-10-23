@@ -3,7 +3,7 @@
  "date": "2026-10-23",
  "reason": "Owner-requested gap-filling questions and statement corrections (see bank/audit/active-followups/2026-10-23-gap-items.json). Preserves the bank, quotes and the documentation, generated source accounting and study-note route check as they were before the counts changed. Question content is reviewed in the follow-up record; this record only links the documentation hashes.",
  "archive": "bank/audit/history/2026-10-23-before-gap-items.zip",
- "archive_sha256": "5f405492c2c12942a6a2ef3dde838c509196753f0ba63b9d2371f984621bff61",
+ "archive_sha256": "c5b6b244643120f62f006273231048aeaec273ded4a0384ab39cf454c1f4385d",
  "archive_updates": {
   "README.md": {
    "before_sha256": "46dbfb00ed1afd78c8a69e26045a6bee178c5b581fe4f91bb2b077dcd87de201",
@@ -46,8 +46,8 @@
    "after_sha256": "b6b0397d62e82de5e0e75784e3290635c6fbc9f48ec6e836bf17976a6769d383"
   },
   "revision/study-notes/visual-refinement-2026-10-20/bank-source-routes.json": {
-   "before_sha256": "2038edf197e4575682703910f18de18851b044fe07d49a1cf6e6352054d96b0c",
-   "after_sha256": "236838fa874e6b32c8417da39c07a1eb3713b19c134861e8843cc0ffa9f766f5"
+   "before_sha256": "34946a7c4a92810d54e07a59a988bd8a2fffbea72d1023c0f978a8103abc6757",
+   "after_sha256": "ca9b6aa42fb000db8137572e04eb1f8c389b353ca7cf4941167c25f3ab5c9686"
   }
  },
  "documentation_updates": {}

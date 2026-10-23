@@ -4,7 +4,7 @@
  "owner_request": "Add about 25–30 questions for the gaps found in the 23 October bank review and correct the statements it flagged; then add about five more questions whose answer is None of the above.",
  "method_summary": "27 questions added and 12 revised. Every added or revised item was answered blind, statement by statement in both languages, from the cited sources by Claude subagents (claude-opus-5-5, the same model as the author) working in fresh contexts without keys, explanations or quotes; this is independent-context review, not a different-model panel. No verdict differed from the key in any round. After round 1 (34 items) the wording reviewers questioned and the differences between languages were corrected, and 22 items were reviewed again by two new subagents, with doubts limited to cases where a careful candidate could reasonably reach the opposite verdict; round 3 reviewed the five items with no true statement added on the owner's second request. One round-2 doubt (m6-480, how the Chinese writes the more-than-25% threshold) is kept with the author's resolution. Each recorded verdict is bound to the final stem, statements and citation by a text hash.",
  "archive": "bank/audit/history/2026-10-23-before-gap-items.zip",
- "archive_sha256": "5f405492c2c12942a6a2ef3dde838c509196753f0ba63b9d2371f984621bff61",
+ "archive_sha256": "c5b6b244643120f62f006273231048aeaec273ded4a0384ab39cf454c1f4385d",
  "approved_documents": [
   "01",
   "02",
