@@ -1,0 +1,50 @@
+{
+ "status": "verified",
+ "date": "2026-10-23",
+ "reason": "Owner-authorized v1.11.0 release. Dates the release notes, points the READMEs, reading directory and study-note download links at v1.11.0, and updates the study bundle README counts (626 point pairs, 34 visuals, 552 questions). Preserves the previous bytes of these documents; question bank, answers, scoring, sources and notes content are unchanged. This is file preservation, not a new semantic review.",
+ "archive": "bank/audit/history/2026-10-23-before-v1.11.0-release.zip",
+ "archive_sha256": "1ec8e5a788c153d82d2eadfcb8591744842c3aebcf9031316f5feedd4632d200",
+ "archive_updates": {
+  "CHANGELOG.md": {
+   "before_sha256": "b292b08e78bb393bf18b7e1c3990d76c7eb78d35b6c78dc8e7d009c8e91720a3",
+   "after_sha256": "5f6a1b2e8bfe085c2428a869853aed55a47e324447b8eb7522f916b57f44716b"
+  },
+  "README.md": {
+   "before_sha256": "194447f60867a9d97e98c9a737de5b1a8a501d6a7c3924d4d1e806fbf1776aaf",
+   "after_sha256": "5c6cc0577e337588742a4ce6ffd3a8099dcd477c72b00df6429752628e88979f"
+  },
+  "README.zh-Hant.md": {
+   "before_sha256": "298ac7ca2467955a1602c881b1bacf72f76a1e1bf582ac989f93a85f2d3207c8",
+   "after_sha256": "8521787824db0f0c72f19cf48395f07584efaba0b863bfa895621585e8e3f0fd"
+  },
+  "docs/README.md": {
+   "before_sha256": "91032bb846126d933a067c44d6e129890cdcde2ef15f30da06d770c7fd39b47f",
+   "after_sha256": "6ed488ca8e278dbcc496fb6df9171848057eb59e1ea1ea29913c1233eca14d66"
+  },
+  "docs/README.zh-Hant.md": {
+   "before_sha256": "e960823611982e87d90c143df23ce72519de6a3b00e892af6e20368c3ddffca9",
+   "after_sha256": "5308a9e90d0fdf7f534e91a81afb81aef168df37b7e454c3c32bcbb5200df50e"
+  },
+  "docs/archive/README.md": {
+   "before_sha256": "00292f304e5fd3d3c3f256f06b2a010522844911571dd8699928b2d61ef6e528",
+   "after_sha256": "0813b91e9f5752cd741d4061b27e06f8bea41b7a4b2c2aa3491333ccd87b14af"
+  },
+  "docs/archive/README.zh-Hant.md": {
+   "before_sha256": "1e4a1263f2fc3a026403f5cef13ce5b37fae0e1a57112f733ae24dab88ee5bb2",
+   "after_sha256": "0f0603a9c32a0a56f364b83ef6c5ead6378d0e178cb00dc65f2d1e34a08f4f24"
+  },
+  "docs/build_catalog.py": {
+   "before_sha256": "f411ca7afba381374965437fdd021eb68e6d738485df6c4729f72cf1d5c8a6ce",
+   "after_sha256": "f492ea5e6cf4cc087393efc0eb2eb16d11b5ef2c5cdd7c98afa547b4d6c1ba2d"
+  },
+  "revision/study-notes/README.md": {
+   "before_sha256": "529553562927f525e38e1dd0cd0cbc219bb9938f8f9802a24160f53c946a3791",
+   "after_sha256": "8b0c61f78fef319d7463262e60dac19b4526782216e70a7f32417e8b841cd0c1"
+  },
+  "scripts/build_study_bundle.py": {
+   "before_sha256": "07a0ed442d44557978c3d01cc2335ef230bd804adaba72df4db24e9fef261cba",
+   "after_sha256": "a3e1bad084ae927302e5a1652a5e3fe7881636e7cd78cf138201732650651522"
+  }
+ },
+ "documentation_updates": {}
+}
