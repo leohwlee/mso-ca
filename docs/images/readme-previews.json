@@ -1,11 +1,11 @@
 {
-  "version": "v1.11.0",
-  "captured_at": "2026-10-23T03:30:57.346Z",
-  "source_commit": "50205607cbbd1bada1d330db41fd73efda74a558",
+  "version": "v1.12.0",
+  "captured_at": "2026-10-23T06:34:08.719Z",
+  "source_commit": "13f0b2c68bde48a45b0cd4a8c7152a3c51324505",
   "method": "Fresh isolated browser contexts; actual offline pages; no synthetic scores or image edits.",
   "captures": [
     {
-      "file": "docs/images/app-v1.11.0-en.png",
+      "file": "docs/images/app-v1.12.0-en.png",
       "source": "dist/mso-ca.html",
       "lang": "en",
       "anchor": "",
@@ -18,20 +18,20 @@
       "image_sha256": "b82036dd3ae0b4e43b1a450aace552c0c7e924d20c9cb7409c0583d04d2c0911"
     },
     {
-      "file": "docs/images/study-v1.11.0-en.png",
+      "file": "docs/images/study-v1.12.0-en.png",
       "source": "revision/study-notes/part-6.html",
       "lang": "en",
       "anchor": "#memory-cdd-trigger-tree",
       "viewport": {
         "width": 1440,
-        "height": 1230
+        "height": 1264
       },
       "full_page": false,
-      "source_sha256": "4bf0e257ea207c3050dc7208089a86f19b8709bf4a9f3b694f5b7110553cbd96",
-      "image_sha256": "3c1ef7ce138cbadfc8c75ace74519fc563132dc9ef2dc4498ee2eb30fdc0a5a7"
+      "source_sha256": "3016c028933e0167d81581fd33f5c8d431caf7e2131fac7fa500921108d29379",
+      "image_sha256": "73dbc1a7c388c5747e10140f6520b895d39bba969d21862c019194d27fc07d5d"
     },
     {
-      "file": "docs/images/app-v1.11.0-tc.png",
+      "file": "docs/images/app-v1.12.0-tc.png",
       "source": "dist/mso-ca.html",
       "lang": "tc",
       "anchor": "",
@@ -44,17 +44,17 @@
       "image_sha256": "6f8d4bd2e7e52b1ec4d884097d15851fedf86681058a68b450394460f5b77bd1"
     },
     {
-      "file": "docs/images/study-v1.11.0-tc.png",
+      "file": "docs/images/study-v1.12.0-tc.png",
       "source": "revision/study-notes/part-6.html",
       "lang": "tc",
       "anchor": "#memory-cdd-trigger-tree",
       "viewport": {
         "width": 1440,
-        "height": 1082
+        "height": 1116
       },
       "full_page": false,
-      "source_sha256": "4bf0e257ea207c3050dc7208089a86f19b8709bf4a9f3b694f5b7110553cbd96",
-      "image_sha256": "77c7bf0812cc89aee72620a8ac5ce64e89317f0f7658e2e3fe5499d922cfbd69"
+      "source_sha256": "3016c028933e0167d81581fd33f5c8d431caf7e2131fac7fa500921108d29379",
+      "image_sha256": "97f79fd0d7c53445b8fb7f0df41cb61f206b2e642b5eca9621c9347f75c5797d"
     }
   ],
   "errors": [],

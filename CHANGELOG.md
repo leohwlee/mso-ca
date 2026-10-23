@@ -1,11 +1,20 @@
 # Release notes / 版本更新
 
-## Unreleased
+## v1.12.0 — 23 October 2026
 
-- README previews and descriptions now show v1.11.0: the practice homepage and a Part 6 reading example were captured again from the released app and notes.
-- Releases publish only `mso-study-bundle.zip`, which contains the practice app, the seven-part notes and the cited originals 01–26; extract it and open `index.html`. The standalone `mso-ca.html` was removed from the v1.11.0 release, and the READMEs and user guides link only to the bundle.
-- README預覽及說明更新至v1.11.0：練習首頁及第6部分閱讀示例均從已發佈的App及筆記重新截取。
-- 發佈版只提供 `mso-study-bundle.zip`，內含練習App、七部分筆記及引用的01–26原件；完整解壓後開啟 `index.html`。v1.11.0已移除單獨的 `mso-ca.html`，README及使用指南只連結學習包。
+- Marks every place where the seven-part notes apply a source-conflict ruling: 131 purple numbers (118 points and 13 figures) across 93 rulings. The numbers are the owner decisions in `revision/CONFLICT-CALLS.md` (B, W, E, N and the 20 October decision D26). A dashed number means each language keeps its own wording; U1–U4 mark four language differences the text handles that are not yet in CONFLICT-CALLS.
+- Each part ends with "Rulings in this part": the question, the decision, every place it is used, links to other parts and the recorded entry, whose document numbers open the cited originals. Exam-trap numbers link there too.
+- Three amber "Check" notes flag points that may not match the ruling they apply (B6 in Part 3, B13 in Part 4, E23 in Part 6). Note text, the 552 questions, answers, scoring and source editions are unchanged.
+- README previews were captured again from v1.12.0; the Part 6 example now shows ruling numbers. Releases publish only `mso-study-bundle.zip`, which contains the practice app, the seven-part notes and the cited originals 01–26. The standalone `mso-ca.html` was removed from the v1.11.0 release, and the READMEs and user guides link only to the bundle.
+- 七部分筆記中每個套用來源矛盾裁決的地方，現都標上紫色編號：共131處（118個要點及13個圖表），涉及93項裁決。編號即`revision/CONFLICT-CALLS.md`中的擁有人裁決（B、W、E、N及10月20日的D26）；虛線編號表示兩語各按本身語文，U1–U4標示正文已處理、但尚未列入CONFLICT-CALLS的四項兩語差異。
+- 每部分末設「本部分的裁決」，列出問題、裁決、所有出現位置、其他部分連結及裁決記錄原文；記錄中的文件編號可開啟所引原件。易錯提示的編號亦連到該處。
+- 三項琥珀色「核對」提示標出可能與所套用裁決不一致的要點（第3部分B6、第4部分B13、第6部分E23）。筆記文字、552道題、答案、評分及來源版次均不變。
+- README預覽從v1.12.0重新截取，第6部分示例可見裁決編號。發佈版只提供 `mso-study-bundle.zip`，內含練習App、七部分筆記及引用的01–26原件；v1.11.0已移除單獨的 `mso-ca.html`，README及使用指南只連結學習包。
+
+**Download / 下載：** `mso-study-bundle.zip` contains the notes, practice and originals 01–26; extract the entire ZIP and open `index.html`.
+完整學習包包含筆記、練習及01–26原件；完整解壓後開啟 `index.html`。
+
+[Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.12.0)
 
 ## v1.11.0 — 23 October 2026
 

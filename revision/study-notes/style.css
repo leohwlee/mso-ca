@@ -540,3 +540,49 @@ body[data-lang=both] .id-step .en{display:inline}
  .deadline-seg-label{font-size:11px}
 }
 @media print{.deadline-row,.id-column{break-inside:avoid}}
+/* Ruling marks: a number beside each point or figure that applies a recorded ruling. */
+:root{--ruling:#5b3f86;--ruling-wash:#f5f1fa;--ruling-line:#d9cfea}
+.concept-list li.ruled{padding-left:.7em;border-left:2px solid var(--ruling-line)}
+.ruling-chip{display:inline-block;margin-left:6px;padding:0 6px;border:1px solid var(--ruling);border-radius:3px;background:var(--ruling-wash);color:var(--ruling);font:600 12px/1.7 "DM Mono",Consolas,monospace;text-decoration:none;vertical-align:.1em;white-space:nowrap}
+.ruling-chip+.ruling-chip{margin-left:4px}
+.ruling-chip>span{margin-right:3px;font:400 12px/1 "Segoe UI Symbol","Apple Symbols",sans-serif}
+.ruling-chip:hover{background:var(--ruling);color:var(--paper)}
+.ruling-chip.kind-lang{border-style:dashed}
+.ruling-chip.kind-unlisted{border-style:dotted;background:var(--paper)}
+.ruling-check{margin:8px 0 0;padding:6px 10px;border-left:3px solid var(--warning);background:var(--warm);color:var(--warning);font-size:14px;line-height:1.7}
+.ruling-strip{margin:-8px 0 18px;font-size:13px;color:var(--ruling)}
+body[data-lang=both] .ruling-strip>.en{margin-top:4px;color:var(--ruling)}
+.study-key .key-rulings{margin-left:8px;padding:1px 8px;background:var(--ruling-wash);color:var(--ruling);border-radius:3px;font-weight:600;text-decoration:none}
+.trap-ids a{color:inherit;text-decoration:none}
+.trap-ids a:hover{text-decoration:underline}
+.rulings-register{margin-top:40px;border-top:2px solid var(--ruling-line)}
+.rulings-register .section-number{color:var(--ruling)}
+.register-intro{max-width:78ch;margin:0 0 8px;font-size:15px;line-height:1.8;color:var(--muted)}
+.ruling-entry{max-width:78ch;margin:20px 0;padding:16px 20px 14px;border-left:3px solid var(--ruling);background:var(--ruling-wash)}
+.ruling-entry.kind-lang{border-left-style:dashed}
+.ruling-entry.kind-unlisted{border-left-style:dotted;background:#faf8fc}
+.ruling-entry:target{outline:2px solid var(--ruling);outline-offset:2px}
+.ruling-head{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:0 0 6px;font-size:13px}
+.ruling-id{padding:0 7px;border-radius:3px;background:var(--ruling);color:var(--paper);font:600 13px/1.7 "DM Mono",Consolas,monospace}
+.ruling-kind{color:var(--ruling);font-weight:600}
+.ruling-entry h3{margin:0 0 10px;font-size:17px;line-height:1.6;color:var(--accent)}
+.ruling-decision{margin:0 0 8px;font-size:16px;line-height:1.8}
+.ruling-label{display:block;font-size:12px;font-weight:600;letter-spacing:.02em;color:var(--ruling)}
+.ruling-where,.ruling-elsewhere{margin:10px 0 0;font-size:14px;line-height:1.7}
+.ruling-where a{display:block;text-decoration:none}
+.ruling-where a:hover{text-decoration:underline}
+.ruling-elsewhere a{display:inline-block;margin-right:16px}
+.place-number{margin-right:8px;font:500 12px "DM Mono",Consolas,monospace;color:var(--muted)}
+.ruling-record{margin-top:12px;font-size:13px;line-height:1.7}
+.ruling-record summary{cursor:pointer;font-weight:600;color:var(--ruling)}
+.record-origin{margin:6px 0 0;color:var(--muted)}
+.ruling-record dl{margin:4px 0 0}
+.ruling-record dt{margin-top:8px;font-weight:600;color:var(--muted)}
+.ruling-record dd{margin:2px 0 0;overflow-wrap:anywhere}
+.ruling-record ul{margin:0;padding-left:1.2em}
+body[data-lang=both] :is(.key-rulings,.ruling-kind,.ruling-label,.ruling-elsewhere a,.ruling-record summary,.ruling-record dt,.record-origin)>.en{display:inline;margin:0;color:inherit}
+body[data-lang=both] :is(.key-rulings,.ruling-kind,.ruling-label,.ruling-elsewhere a,.ruling-record summary,.ruling-record dt,.record-origin)>.en::before{content:" / "}
+body[data-lang=both] .ruling-where a>.en{display:inline;margin:0}
+body[data-lang=both] .ruling-where a>.en::before{content:" / "}
+@media(max-width:600px){.ruling-entry{padding:14px 14px 12px}.concept-list li.ruled{padding-left:.55em}}
+@media print{.ruling-entry{break-inside:avoid;background:none}.ruling-chip{background:none}}
