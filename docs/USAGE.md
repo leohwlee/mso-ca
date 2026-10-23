@@ -40,6 +40,23 @@ The selected pool is shuffled and cycles again after every question has been see
 Statements can appear in a different order on another attempt. Learn the rule
 and its conditions, rather than an option letter or statement number.
 
+Practice draws the questions you have not answered yet before the ones you
+have. The **Wrong-answer book** on the home page keeps every question answered
+wrong, in practice or in a mock exam, until you answer it right twice in a row;
+select **Practise the book** to drill them. Both live in the browser's storage
+with your history.
+
+## Read the notes
+
+The seven-part notes open from the study bundle's `index.html` or from
+**Study notes** in the practice app. The toolbar offers three views: **All**,
+**Remember + Understand** (hides the Recognise and Reference blocks) and
+**Remember only**. **Ruling marks** switches the purple decision numbers and the
+rulings register on when you want to check a point against the owner's
+source-conflict decisions; they are hidden by default. **Numbers** opens a page
+that lists every amount, period, fee and penalty with its starting point and a
+link back to the notes section.
+
 ## Back up and restore results
 
 1. Expand **Mock exam results and history** on the home page.

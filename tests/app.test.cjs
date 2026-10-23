@@ -115,6 +115,30 @@ test('home offers two study modes and keeps history within an expandable exam se
   }
 });
 
+test('a wrong answer enters the book and leaves it after two right answers in a row', () => {
+  const run = app();
+  run("startPractice(['m1-gn71']); answerPractice((byId.get('m1-gn71').answer + 1) % 5)");
+  assert.deepEqual([...run("Object.keys(store.get('book', {}))")], ['m1-gn71']);
+  assert.deepEqual([...run("bookIds()")], ['m1-gn71']);
+  run("nextPracticeQ(); answerPractice(byId.get('m1-gn71').answer)");
+  assert.equal(run("store.get('book', {})['m1-gn71'].k"), 1);
+  run("nextPracticeQ(); answerPractice(byId.get('m1-gn71').answer)");
+  assert.deepEqual([...run("Object.keys(store.get('book', {}))")], []);
+  assert.deepEqual([...run("store.get('seen', [])")], ['m1-gn71']);
+  const drawn = run("startExam(); const drawn = exam.qids.includes('m1-gn71'); exam.answers = {}; finishExam(false); drawn");
+  assert.equal(run("bookIds().length"), 35);
+  assert.equal(run("store.get('seen', []).length"), drawn ? 35 : 36);
+});
+
+test('practice draws the unseen questions of the selected parts before the seen ones', () => {
+  const run = app();
+  run("pmodSel = new Set([1]); store.set('seen', byMod.get(1).slice(0, 10).map(q => q.id)); startPractice()");
+  const pool = [...run('practice.pool')], seen = new Set(run("store.get('seen', [])"));
+  assert.equal(pool.length, run('byMod.get(1).length'));
+  assert.deepEqual(pool.map(id => seen.has(id)), pool.map((_, i) => i >= pool.length - 10));
+  assert.match(run('homeView()'), /錯題本|Wrong-answer book/);
+});
+
 test('statement permutations retain the correct option and the matching explanations', () => {
   const run = app();
   assert.equal(run(`bank.every(q => {

@@ -64,6 +64,20 @@ const store = {
 const attemptsKey = () => 'attempts';
 const examKey = () => 'exam';
 
+/* The wrong-answer book: every question answered wrong, in practice or in a
+   mock, stays listed until it is answered right twice in a row. `seen` is every
+   question answered at least once, so practice can draw unseen questions first. */
+const book = { get: () => store.get('book', {}), set: v => store.set('book', v) };
+const seenIds = () => new Set(store.get('seen', []));
+function recordAnswer(qid, ok) {
+  const seen = seenIds(); seen.add(qid); store.set('seen', [...seen]);
+  const b = book.get(), e = b[qid];
+  if (!ok) b[qid] = { w: (e ? e.w : 0) + 1, k: 0, t: Date.now() };
+  else if (e && ++e.k >= 2) delete b[qid];
+  book.set(b);
+}
+const bookIds = () => Object.keys(book.get()).filter(id => byId.has(id));
+
 /* ---------------- helpers ---------------- */
 
 const $ = sel => document.querySelector(sel);
@@ -395,6 +409,9 @@ function homeView() {
 
   const chips = MODULES.map(m =>
     `<button class="chip ${pmodSel.has(m.n) ? 'on' : ''}" data-pm="${m.n}" aria-pressed="${pmodSel.has(m.n)}">${ui(`Part ${m.n}`, `第${m.n}部分`)} ${esc(shortMod(m))}</button>`).join('');
+  const seen = seenIds();
+  const selected = bank.filter(inPractice), unseen = selected.filter(q => !seen.has(q.id)).length;
+  const wrong = bookIds().length;
 
   return topbarHTML() + `
   <div class="wrap">
@@ -410,6 +427,17 @@ function homeView() {
       </div>
       <div class="actions">
         <button class="btn secondary" id="btn-practice" ${bank.length ? '' : 'disabled'}>${ui('Start practice', '開始練習')}</button>
+        <span class="note">${ui(`${unseen} of ${selected.length} selected questions not yet answered; those come first.`,
+          `所選${selected.length}題中有${unseen}題未做過，會先抽未做過的。`)}</span>
+      </div>
+    </div>
+    <div class="card">
+      <h2>${ui('Wrong-answer book', '錯題本')} · ${wrong}</h2>
+      <div class="sub">${ui('Every question answered wrong in practice or in a mock exam is kept here until you answer it right twice in a row.',
+        '練習或模擬試答錯的題目會記在這裏，連續答對兩次才移除。')}</div>
+      <div class="actions">
+        <button class="btn" id="btn-book" ${wrong ? '' : 'disabled'}>${ui('Practise the book', '練錯題')}</button>
+        ${wrong ? `<button class="btn secondary small" id="btn-book-clear">${ui('Clear the book', '清空錯題本')}</button>` : ''}
       </div>
     </div>
     <details class="exam-history">
@@ -486,6 +514,13 @@ function bindHome() {
   };
   const prac = $('#btn-practice');
   if (prac) prac.onclick = () => startPractice();
+  const bookBtn = $('#btn-book');
+  if (bookBtn) bookBtn.onclick = () => startPractice(shuffle(bookIds()));
+  const bookClear = $('#btn-book-clear');
+  if (bookClear) bookClear.onclick = () => confirmModal(
+    ui('Clear the wrong-answer book?', '清空錯題本？'),
+    ui('Every question listed in the book will be removed. Your history is kept.', '錯題本內的題目會全部移除，過往紀錄不受影響。'),
+    ui('Clear', '清空'), () => { book.set({}); render(); }, true);
   document.querySelectorAll('#pmods .chip[data-pm]').forEach(c => {
     c.onclick = () => {
       const n = +c.dataset.pm;
@@ -805,6 +840,7 @@ function confirmSubmit() {
 function finishExam(auto) {
   stopTimer();
   const g = grade(exam.qids, exam.answers);
+  for (const qid of exam.qids) recordAnswer(qid, exam.answers[qid] === byId.get(qid).answer);
   const attempt = {
     ts: Date.now(),
     minutes: exam.minutes,
@@ -1202,7 +1238,10 @@ function progressCardHTML(attempts) {
 /* ---------------- practice ---------------- */
 
 function startPractice(customPool = null) {
-  const pool = customPool ? customPool.slice() : shuffle(bank.filter(inPractice).map(q => q.id));
+  const seen = seenIds(), ids = bank.filter(inPractice).map(q => q.id);
+  // unseen questions first, then the rest; each group shuffled
+  const pool = customPool ? customPool.slice()
+    : shuffle(ids.filter(id => !seen.has(id))).concat(shuffle(ids.filter(id => seen.has(id))));
   if (!pool.length) { toast(ui('No questions in the chosen modules', '所選單元沒有題目')); return; }
   practice = {
     pool, idx: 0,
@@ -1226,6 +1265,16 @@ function nextPracticeQ(advance = true) {
   practice.chosen = null;
 }
 
+function answerPractice(orig) {
+  if (practice.chosen !== null) return;
+  const q = byId.get(practice.pool[practice.idx]);
+  practice.chosen = orig;
+  practice.tally.seen++;
+  const ok = orig === q.answer;
+  if (ok) practice.tally.right++;
+  recordAnswer(q.id, ok);
+}
+
 function practiceView() {
   const q = byId.get(practice.pool[practice.idx]);
   const done = practice.chosen !== null;
@@ -1238,7 +1287,7 @@ function practiceView() {
     <div class="qcard">
       <div class="qmeta">
         <span class="qnum">${ui('Practice', '練習')}</span>
-        <span class="qmod">M${q.module} · ${esc(modName(q.module))}</span>
+        <span class="qmod">M${q.module} · ${esc(modName(q.module))}${q.id in book.get() ? ' · ' + ui('in the book', '錯題本') : ''}</span>
         <span class="tally" style="margin-left:auto">${ui('This session', '本節')}: <b>${t.right}</b>/${t.seen}</span>
       </div>
       ${stemHTML(q, arr.perm, done)}
@@ -1263,13 +1312,7 @@ function practiceView() {
 
 function bindPractice() {
   document.querySelectorAll('#opts .opt:not([disabled])').forEach(b => {
-    b.onclick = () => {
-      const q = byId.get(practice.pool[practice.idx]);
-      practice.chosen = +b.dataset.orig;
-      practice.tally.seen++;
-      if (practice.chosen === q.answer) practice.tally.right++;
-      render();
-    };
+    b.onclick = () => { answerPractice(+b.dataset.orig); render(); };
   });
   const nx = $('#btn-pnext');
   if (nx) nx.onclick = () => { nextPracticeQ(); render(); window.scrollTo(0, 0); };

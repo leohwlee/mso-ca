@@ -18,11 +18,11 @@
   },
   "recall": {
     "sha256": "12e9f787f1e1e8a91743bb0b83ef24866871b2e6bdbcc5e4195b69e8b6b92164",
-    "tables": 9,
-    "diagrams": 25,
+    "tables": 14,
+    "diagrams": 65,
     "visual_sources": {
-      "visual_panels.py": "368f788972e57b26ce4d94714bf759ec8281f7bd6af978c12d582c3eeef3816b",
-      "visual_render.py": "4fc7f19bb80ccb760b4c3d7784f4157e7daab6175c6b86a336541916e67065a8"
+      "visual_panels.py": "4483829dc61e2ea14cbfe231a81ac7d41fc8fe2e019160195eb1744e9b705813",
+      "visual_render.py": "6bf9788e5563990dbc045611bddfebe863cf4617e83ba27285f39168f636e3c5"
     }
   },
   "exam_focus": {
@@ -143,8 +143,13 @@
         "U3",
         "U4"
       ],
-      "sha256": "f10c92e35be97ce381e3d025d2eff54007cd9933da9475237ebc089607ede583"
+      "sha256": "c25314404bc90145b2f3a3ddb455cf7df62e8e223a02e47288ce4ae70dd1244c"
     }
+  },
+  "amounts": {
+    "sha256": "6406d54aa4cff399bde028f15d9dae45081782f2689e52a42b332cc28f9d1464",
+    "groups": 7,
+    "rows": 70
   },
   "source_text_sha256": {
     "01": {
@@ -253,9 +258,12 @@
   },
   "documents": {
     "01": [
+      "part-2.html#grant-renewal",
+      "part-4.html#application",
       "part-4.html#assessment"
     ],
     "02": [
+      "part-4.html#application",
       "part-4.html#assessment"
     ],
     "03": [
@@ -304,6 +312,7 @@
     ],
     "04": [
       "part-1.html#money-laundering",
+      "part-1.html#legal-framework",
       "part-1.html#risk-assessment",
       "part-2.html#statutory-map",
       "part-2.html#criminal-liability",
@@ -327,6 +336,7 @@
       "part-4.html#application",
       "part-4.html#fitness",
       "part-5.html#group-controls",
+      "part-6.html#cdd",
       "part-6.html#beneficial-owners",
       "part-6.html#timing",
       "part-6.html#simplified",
@@ -378,8 +388,10 @@
       "part-6.html#third-party-payments"
     ],
     "09": [
+      "part-1.html#legal-framework",
       "part-1.html#international",
       "part-1.html#sanctions",
+      "part-2.html#statutory-map",
       "part-5.html#institutional-assessment"
     ],
     "10": [
@@ -437,6 +449,7 @@
       "part-1.html#legal-framework",
       "part-1.html#risk-assessment",
       "part-1.html#sanctions",
+      "part-2.html#statutory-map",
       "part-5.html#risk-based",
       "part-6.html#beneficial-owners",
       "part-6.html#monitoring",
@@ -446,8 +459,10 @@
       "part-7.html#law-enforcement"
     ],
     "26": [
+      "part-1.html#legal-framework",
       "part-1.html#international",
       "part-1.html#sanctions",
+      "part-2.html#statutory-map",
       "part-6.html#screening"
     ]
   },
@@ -580,7 +595,18 @@
             "en": "Hong Kong’s laws: the role of each ordinance"
           },
           "points": 10,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "six-laws",
+              "kind": "table",
+              "rows": 6
+            },
+            {
+              "id": "osco-four",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "03",
@@ -613,6 +639,94 @@
                 "en": "¶1.2 and Glossary, Financial institution(s)"
               },
               "anchor": "unless specified otherwise"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第1.14–1.27、6.1–6.4段",
+                "en": "¶1.14–1.27, 6.1–6.4"
+              },
+              "anchor": "imprisonment for 14 years"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第1.14、1.19–1.27段",
+                "en": "¶1.14, 1.19–1.27"
+              },
+              "anchor": "Drug Trafficking (Recovery of Proceeds)"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第6.1–6.8段",
+                "en": "¶6.1–6.8"
+              },
+              "anchor": "Secretary for Security"
+            },
+            {
+              "doc": "09",
+              "locator": {
+                "tc": "正文第1–2頁",
+                "en": "Main text pp.1–2"
+              },
+              "anchor": "proliferation financing"
+            },
+            {
+              "doc": "26",
+              "locator": {
+                "tc": "正文第1–3頁",
+                "en": "Main text pp.1–3"
+              },
+              "anchor": "time gap"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第6.5–6.8段及註56",
+                "en": "¶6.5–6.8; footnotes 56"
+              },
+              "anchor": "section 11L prohibits any person from providing or collecting any property to"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第24–25、29條；附表1",
+                "en": "ss.24–25, 29; Schedule 1"
+              },
+              "anchor": "money changing service"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第5條",
+                "en": "s.5"
+              },
+              "anchor": "intent to defraud any relevant"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第7.1–7.5段及註60",
+                "en": "¶7.1–7.5; footnotes 60"
+              },
+              "anchor": "Suspicion is personal and falls short of proof"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第1.25、5.13、7.6段",
+                "en": "¶1.25, 5.13, 7.6"
+              },
+              "anchor": "has not yet been reported to the JFIU"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第1.14–1.27、6.1–6.4段",
+                "en": "¶1.14–1.27, 6.1–6.4"
+              },
+              "anchor": "imprisonment for 14 years"
             }
           ]
         },
@@ -849,7 +963,18 @@
             "en": "Targeted financial sanctions for terrorism and proliferation"
           },
           "points": 15,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "sanctions-actors",
+              "kind": "table",
+              "rows": 4
+            },
+            {
+              "id": "pace-four",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "03",
@@ -914,6 +1039,54 @@
                 "en": "2022 edition, ¶9.1, 9.17, 9.26, 9.45–9.46"
               },
               "anchor": "Prevention"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第6.1–6.8段",
+                "en": "¶6.1–6.8"
+              },
+              "anchor": "Secretary for Security"
+            },
+            {
+              "doc": "09",
+              "locator": {
+                "tc": "正文第1–2頁",
+                "en": "Main text pp.1–2"
+              },
+              "anchor": "proliferation financing"
+            },
+            {
+              "doc": "26",
+              "locator": {
+                "tc": "正文第1–3頁",
+                "en": "Main text pp.1–3"
+              },
+              "anchor": "time gap"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第6.5–6.8段及註56",
+                "en": "¶6.5–6.8; footnotes 56"
+              },
+              "anchor": "section 11L prohibits any person from providing or collecting any property to"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第6.6–6.8、6.12–6.19段及註58",
+                "en": "¶6.6–6.8, 6.12–6.19; footnotes 58"
+              },
+              "anchor": "irrespective of the risk profile attributed to the customer"
+            },
+            {
+              "doc": "25",
+              "locator": {
+                "tc": "2022年版，第9.1、9.17、9.26、9.45–9.46段",
+                "en": "2022 edition, ¶9.1, 9.17, 9.26, 9.45–9.46"
+              },
+              "anchor": "Prevention"
             }
           ]
         },
@@ -928,6 +1101,11 @@
             {
               "id": "cash-scope",
               "kind": "paths",
+              "rows": 0
+            },
+            {
+              "id": "cbni-forms",
+              "kind": "checklist",
               "rows": 0
             }
           ],
@@ -1075,6 +1253,22 @@
                 "en": "Schedules 2–3"
               },
               "anchor": "Information to be Provided in Declaration"
+            },
+            {
+              "doc": "23",
+              "locator": {
+                "tc": "第2(1)、7(6)條",
+                "en": "ss.2(1), 7(6)"
+              },
+              "anchor": "signed but does not state a payee’s name"
+            },
+            {
+              "doc": "23",
+              "locator": {
+                "tc": "第7條",
+                "en": "s.7"
+              },
+              "anchor": "means the person arrives at the specified control point concerned"
             }
           ]
         }
@@ -1095,7 +1289,13 @@
             "en": "Structure, regulators and the status of guidelines"
           },
           "points": 8,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "who-does-what",
+              "kind": "table",
+              "rows": 9
+            }
+          ],
           "refs": [
             {
               "doc": "04",
@@ -1136,6 +1336,118 @@
                 "en": "ss.27–28"
               },
               "anchor": "Commissioner to maintain register of licensees"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第2、5、7、20A條及附表1",
+                "en": "ss.2, 5, 7, 20A; Schedule 1"
+              },
+              "anchor": "not subsidiary legislation"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第1.6段",
+                "en": "¶1.6"
+              },
+              "anchor": "must"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第1.1、5.1段",
+                "en": "¶1.1, 5.1"
+              },
+              "anchor": "Money Service Supervision Bureau"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第7.1、7.19段",
+                "en": "¶7.1, 7.19"
+              },
+              "anchor": "Joint Financial Intelligence Unit"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第6.1–6.8段",
+                "en": "¶6.1–6.8"
+              },
+              "anchor": "Secretary for Security"
+            },
+            {
+              "doc": "09",
+              "locator": {
+                "tc": "正文第1–2頁",
+                "en": "Main text pp.1–2"
+              },
+              "anchor": "proliferation financing"
+            },
+            {
+              "doc": "26",
+              "locator": {
+                "tc": "正文第1–3頁",
+                "en": "Main text pp.1–3"
+              },
+              "anchor": "time gap"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第6.5–6.8段及註56",
+                "en": "¶6.5–6.8; footnotes 56"
+              },
+              "anchor": "section 11L prohibits any person from providing or collecting any property to"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第55–76、76A–76C、81條",
+                "en": "ss.55–76, 76A–76C, 81"
+              },
+              "anchor": "notice informing the person of the decision has been sent"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第3–4、23、26、45、50–51、55–58、76–80條",
+                "en": "ss.3–4, 23, 26, 45, 50–51, 55–58, 76–80"
+              },
+              "anchor": "except Parts 5, 5A, 5B and 5C"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第3.5–3.10段及註9",
+                "en": "¶3.5–3.10; footnotes 9"
+              },
+              "anchor": "functions of CO and MLRO may be performed by the same"
+            },
+            {
+              "doc": "25",
+              "locator": {
+                "tc": "2022年版，第3.38–3.39、3.46–3.47段",
+                "en": "2022 edition, ¶3.38–3.39, 3.46–3.47"
+              },
+              "anchor": "reasonable prospect of conviction"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第7.1、7.12段",
+                "en": "¶7.1, 7.12"
+              },
+              "anchor": "as soon as it is reasonable"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第21–23、34、43–45條",
+                "en": "ss.21–23, 34, 43–45"
+              },
+              "anchor": "3 times the amount of the profit gained"
             }
           ]
         },
@@ -1238,7 +1550,18 @@
             "en": "Money-service definition, exclusions and the unlicensed offence"
           },
           "points": 6,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "exempt-persons",
+              "kind": "checklist",
+              "rows": 0
+            },
+            {
+              "id": "remittance-three",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "04",
@@ -1247,6 +1570,46 @@
                 "en": "ss.24–25, 29; Schedule 1"
               },
               "anchor": "money changing service"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第2.3–2.4、3.1段",
+                "en": "¶2.3–2.4, 3.1"
+              },
+              "anchor": "arranging for the receipt of money in a place outside Hong Kong"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表1第1部第1條",
+                "en": "Schedule 1 Part 1 s.1"
+              },
+              "anchor": "remittance service"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第24–25、29條；附表1",
+                "en": "ss.24–25, 29; Schedule 1"
+              },
+              "anchor": "money changing service"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第2.3–2.4、3.1段",
+                "en": "¶2.3–2.4, 3.1"
+              },
+              "anchor": "arranging for the receipt of money in a place outside Hong Kong"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表1第1部第1條",
+                "en": "Schedule 1 Part 1 s.1"
+              },
+              "anchor": "remittance service"
             },
             {
               "doc": "05",
@@ -1273,7 +1636,18 @@
             "en": "Grant, validity and renewal"
           },
           "points": 9,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "renewal-timeline",
+              "kind": "deadlines",
+              "rows": 0
+            },
+            {
+              "id": "licence-contents",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "04",
@@ -1314,6 +1688,62 @@
                 "en": "¶4.2.1–4.2.3"
               },
               "anchor": "share of the capital or profits"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第24、30–32、42條",
+                "en": "ss.24, 30–32, 42"
+              },
+              "anchor": "not later than 45 days before the licence is due to expire"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第30(6)–(9)、31(5)–(12)、32(2)–(4)條",
+                "en": "ss.30(6)–(9), 31(5)–(12), 32(2)–(4)"
+              },
+              "anchor": "whichever is the later"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第6、8–10段",
+                "en": "Sections 6, 8–10"
+              },
+              "anchor": "Form 7"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第6.3–6.4、10.2–10.3段",
+                "en": "¶6.3–6.4, 10.2–10.3"
+              },
+              "anchor": "the existing licence will lapse automatically"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第5.5、6.2、6.4(c)段",
+                "en": "¶5.5, 6.2, 6.4(c)"
+              },
+              "anchor": "within seven days upon receipt of the invitation letter"
+            },
+            {
+              "doc": "01",
+              "locator": {
+                "tc": "第4.1–4.3段",
+                "en": "¶4.1–4.3"
+              },
+              "anchor": "has a direct involvement"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第33條",
+                "en": "s.33"
+              },
+              "anchor": "Form of licence"
             }
           ]
         },
@@ -1378,6 +1808,16 @@
               "id": "penalty-ceilings",
               "kind": "formula",
               "rows": 0
+            },
+            {
+              "id": "section-43-three",
+              "kind": "checklist",
+              "rows": 0
+            },
+            {
+              "id": "section-44-notice",
+              "kind": "checklist",
+              "rows": 0
             }
           ],
           "refs": [
@@ -1404,6 +1844,22 @@
                 "en": "ss.21–23, 34, 43–45"
               },
               "anchor": "3 times the amount of the profit gained"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第21–23、34、43–45條",
+                "en": "ss.21–23, 34, 43–45"
+              },
+              "anchor": "3 times the amount of the profit gained"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第22(2)–(3)、35(5)–(6)、36(5)–(6)、37(5)–(6)、44(2)–(3)條",
+                "en": "ss.22(2)–(3), 35(5)–(6), 36(5)–(6), 37(5)–(6), 44(2)–(3)"
+              },
+              "anchor": "the terms in which the licensee is reprimanded"
             }
           ]
         },
@@ -1664,6 +2120,11 @@
               "id": "money-boundaries",
               "kind": "thresholds",
               "rows": 5
+            },
+            {
+              "id": "five-sources",
+              "kind": "checklist",
+              "rows": 0
             }
           ],
           "refs": [
@@ -1714,6 +2175,14 @@
                 "en": "ss.2–5; Schedule 1"
               },
               "anchor": "within 3 days after the date"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表2第1條「認可數碼識別系統」、第2(1)(a)、(d)(i)–(ii)條",
+                "en": "Schedule 2 s.1 “recognized digital identification system”; s.2(1)(a), (d)(i)–(ii)"
+              },
+              "anchor": "a governmental body"
             }
           ]
         },
@@ -1724,8 +2193,22 @@
             "en": "Simplified CDD: only specified measures are omitted"
           },
           "points": 4,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "sdd-eligible",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表2第3–4條",
+                "en": "Schedule 2 ss.3–4"
+              },
+              "anchor": "Simplified customer due diligence"
+            },
             {
               "doc": "04",
               "locator": {
@@ -1965,7 +2448,18 @@
             "en": "New applications: documents, interview and declarations"
           },
           "points": 13,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "application-route",
+              "kind": "paths",
+              "rows": 0
+            },
+            {
+              "id": "refusal-grounds",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "05",
@@ -2006,6 +2500,70 @@
                 "en": "s.30(3)"
               },
               "anchor": "the premises are suitable"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第4.15、5.1–5.9、6.3段及附件",
+                "en": "¶4.15, 5.1–5.9, 6.3; annexes"
+              },
+              "anchor": "Form 3A"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第3.1、5.10段",
+                "en": "¶3.1, 5.10"
+              },
+              "anchor": "none of the senior management of an applicant"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第30(3)條",
+                "en": "s.30(3)"
+              },
+              "anchor": "the premises are suitable"
+            },
+            {
+              "doc": "01",
+              "locator": {
+                "tc": "第3–8段",
+                "en": "¶3–8"
+              },
+              "anchor": "1 hour and 15 minutes"
+            },
+            {
+              "doc": "02",
+              "locator": {
+                "tc": "例1–7（只用於理解題型）",
+                "en": "Examples 1–7 (format only)"
+              },
+              "anchor": "Answer: d"
+            },
+            {
+              "doc": "01",
+              "locator": {
+                "tc": "第8–13段",
+                "en": "¶8–13"
+              },
+              "anchor": "14 days"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第3.1、5.10段",
+                "en": "¶3.1, 5.10"
+              },
+              "anchor": "none of the senior management of an applicant"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第30(3)條",
+                "en": "s.30(3)"
+              },
+              "anchor": "the premises are suitable"
             }
           ]
         },
@@ -2016,7 +2574,13 @@
             "en": "Fitness and propriety: an ongoing requirement"
           },
           "points": 6,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "s30-4-matters",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "10",
@@ -2065,6 +2629,22 @@
                 "en": "¶6(d), (e), (q)"
               },
               "anchor": "has been notified of any potential proceedings"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "第30(4)條",
+                "en": "s.30(4)"
+              },
+              "anchor": "acted fraudulently, corruptly or dishonestly"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第4.3段",
+                "en": "¶4.3"
+              },
+              "anchor": "undischarged bankrupt"
             }
           ]
         },
@@ -2225,7 +2805,28 @@
             "en": "Forms, changes, renewal and cessation in practice"
           },
           "points": 13,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "licensee-duties-ten",
+              "kind": "checklist",
+              "rows": 0
+            },
+            {
+              "id": "form6-fourteen",
+              "kind": "checklist",
+              "rows": 0
+            },
+            {
+              "id": "invalid-renewal-three",
+              "kind": "checklist",
+              "rows": 0
+            },
+            {
+              "id": "revocation-nine",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "05",
@@ -2234,6 +2835,38 @@
                 "en": "Sections 6, 8–10"
               },
               "anchor": "Form 7"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第11.1–11.3段",
+                "en": "¶11.1–11.3"
+              },
+              "anchor": "Where bank account(s) is used"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第8.1–8.4、9.1–9.3段",
+                "en": "¶8.1–8.4, 9.1–9.3"
+              },
+              "anchor": "Change in occupants of the particular premises"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第6.3–6.4、10.2–10.3段",
+                "en": "¶6.3–6.4, 10.2–10.3"
+              },
+              "anchor": "the existing licence will lapse automatically"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第7.1–7.3、13.1段",
+                "en": "¶7.1–7.3, 13.1"
+              },
+              "anchor": "a money service has never been provided"
             },
             {
               "doc": "05",
@@ -2276,7 +2909,13 @@
             "en": "Penalty guidelines: a ceiling is not a fixed fine"
           },
           "points": 7,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "penalty-four-groups",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "12",
@@ -2293,6 +2932,22 @@
                 "en": "¶3–9"
               },
               "anchor": "three times"
+            },
+            {
+              "doc": "12",
+              "locator": {
+                "tc": "第4–9段",
+                "en": "¶4–9"
+              },
+              "anchor": "generally the CCE will not take disciplinary action"
+            },
+            {
+              "doc": "13",
+              "locator": {
+                "tc": "第3–9段",
+                "en": "¶3–9"
+              },
+              "anchor": "Other relevant factors"
             },
             {
               "doc": "12",
@@ -2467,6 +3122,11 @@
               "id": "review-frequency",
               "kind": "table",
               "rows": 4
+            },
+            {
+              "id": "assessment-scope",
+              "kind": "checklist",
+              "rows": 0
             }
           ],
           "refs": [
@@ -2525,6 +3185,22 @@
                 "en": "¶3.11–3.13, 5.8"
               },
               "anchor": "direct line of communication to the senior management"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第2.2–2.6段",
+                "en": "¶2.2–2.6"
+              },
+              "anchor": "the number and proportion of customers identified as high risk"
+            },
+            {
+              "doc": "09",
+              "locator": {
+                "tc": "正文第1–2頁",
+                "en": "Main text pp.1–2"
+              },
+              "anchor": "proliferation financing"
             }
           ]
         },
@@ -2581,8 +3257,22 @@
             "en": "Control framework and conditions for simplification"
           },
           "points": 3,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "control-minimum",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第3.1–3.4段",
+                "en": "¶3.1–3.4"
+              },
+              "anchor": "an independent audit function"
+            },
             {
               "doc": "03",
               "locator": {
@@ -2604,6 +3294,11 @@
             {
               "id": "control-responsibilities",
               "kind": "relationships",
+              "rows": 0
+            },
+            {
+              "id": "co-mlro-functions",
+              "kind": "checklist",
               "rows": 0
             }
           ],
@@ -2687,6 +3382,22 @@
                 "en": "AML/CFT FAQ A23"
               },
               "anchor": "segregation"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第3.5–3.10段及註9",
+                "en": "¶3.5–3.10; footnotes 9"
+              },
+              "anchor": "functions of CO and MLRO may be performed by the same"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第3.6、3.8段",
+                "en": "¶3.6, 3.8"
+              },
+              "anchor": "normally based in Hong Kong"
             }
           ]
         },
@@ -2780,7 +3491,18 @@
             "en": "Customer due diligence: definition and four measures"
           },
           "points": 6,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "cdd-route",
+              "kind": "paths",
+              "rows": 0
+            },
+            {
+              "id": "cdd-four-measures",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "03",
@@ -2805,6 +3527,46 @@
                 "en": "Appendix (3), p.5"
               },
               "anchor": "treated a PPTA as the customer"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.1.1–4.1.5、4.6.1段",
+                "en": "¶4.1.1–4.1.5, 4.6.1"
+              },
+              "anchor": "The following are CDD measures applicable to an MSO"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.7.1–4.7.3段",
+                "en": "¶4.7.1–4.7.3"
+              },
+              "anchor": "necessary not to interrupt the normal conduct"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表2第3條",
+                "en": "Schedule 2 s.3"
+              },
+              "anchor": "before carrying out for the customer an occasional transaction"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.7.4、4.13.1–4.14.1段",
+                "en": "¶4.7.4, 4.13.1–4.14.1"
+              },
+              "anchor": "must not open, or maintain any anonymous account"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.1.1–4.1.5、4.6.1段",
+                "en": "¶4.1.1–4.1.5, 4.6.1"
+              },
+              "anchor": "The following are CDD measures applicable to an MSO"
             }
           ]
         },
@@ -3041,7 +3803,18 @@
             "en": "Beneficial owners: ownership, control and acting for another"
           },
           "points": 19,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "ownership-examples",
+              "kind": "paths",
+              "rows": 0
+            },
+            {
+              "id": "scr-five-conditions",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "03",
@@ -3106,6 +3879,46 @@
                 "en": "AML/CFT FAQ A10 (percentage follows the law/Guideline: more than 25%)"
               },
               "anchor": "exerts control without ownership"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.4.1–4.4.12段",
+                "en": "¶4.4.1–4.4.12"
+              },
+              "anchor": "more than 25% of the issued share capital"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.4.3–4.4.4、4.4.13–4.4.18段",
+                "en": "¶4.4.3–4.4.4, 4.4.13–4.4.18"
+              },
+              "anchor": "annually thereafter from each beneficial owner"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表2第1條",
+                "en": "Schedule 2 s.1"
+              },
+              "anchor": "more than 25%"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表2第1條",
+                "en": "Schedule 2 s.1"
+              },
+              "anchor": "beneficial owner"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.4.6–4.4.12段",
+                "en": "¶4.4.6–4.4.12"
+              },
+              "anchor": "senior managing official"
             }
           ]
         },
@@ -3116,7 +3929,13 @@
             "en": "Persons acting for customers and authorisation"
           },
           "points": 7,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "ppta-items",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "03",
@@ -3149,6 +3968,14 @@
                 "en": "AML/CFT FAQ A9, A12"
               },
               "anchor": "Natural person PPTA"
+            },
+            {
+              "doc": "06",
+              "locator": {
+                "tc": "打擊洗錢問答A9、A12",
+                "en": "AML/CFT FAQ A9, A12"
+              },
+              "anchor": "Natural person PPTA"
             }
           ]
         },
@@ -3159,7 +3986,13 @@
             "en": "Verification timing, deferral and failed CDD"
           },
           "points": 7,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "deferral-conditions",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "03",
@@ -3192,6 +4025,22 @@
                 "en": "¶4.14.1; footnotes 50"
               },
               "anchor": "must reflect the real name of the account holder"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.7.1–4.7.3段",
+                "en": "¶4.7.1–4.7.3"
+              },
+              "anchor": "necessary not to interrupt the normal conduct"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表2第3條",
+                "en": "Schedule 2 s.3"
+              },
+              "anchor": "before carrying out for the customer an occasional transaction"
             }
           ]
         },
@@ -3206,6 +4055,16 @@
             {
               "id": "cdd-extent-tree",
               "kind": "decision",
+              "rows": 0
+            },
+            {
+              "id": "sdd-vs-edd",
+              "kind": "table",
+              "rows": 5
+            },
+            {
+              "id": "sdd-five-methods",
+              "kind": "checklist",
               "rows": 0
             }
           ],
@@ -3361,6 +4220,70 @@
                 "en": "AML/CFT FAQ A27"
               },
               "anchor": "There is no expectation to require certification for all other"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.8.1–4.8.9段",
+                "en": "¶4.8.1–4.8.9"
+              },
+              "anchor": "it is still required to continuously monitor"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表2第3(1)(e)條",
+                "en": "Schedule 2 s.3(1)(e)"
+              },
+              "anchor": "the veracity or adequacy of any information previously"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.8.10–4.8.16段",
+                "en": "¶4.8.10–4.8.16"
+              },
+              "anchor": "beneficial owners in the ownership chain that are not connected"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.9.1–4.9.6段及註36",
+                "en": "¶4.9.1–4.9.6; footnotes 36"
+              },
+              "anchor": "no expectation for an MSO to conduct all the examples"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表2第15條",
+                "en": "Schedule 2 s.15"
+              },
+              "anchor": "either"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.9.9–4.9.12、4.9.16–4.9.23段及註37–42",
+                "en": "¶4.9.9–4.9.12, 4.9.16–4.9.23; footnotes 37–42"
+              },
+              "anchor": "not merely on prescribed time limits"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第3.1–3.4段",
+                "en": "¶3.1–3.4"
+              },
+              "anchor": "an independent audit function"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.8.13段",
+                "en": "¶4.8.13"
+              },
+              "anchor": "in the name of a nominee company"
             }
           ]
         },
@@ -3375,6 +4298,16 @@
             {
               "id": "sow-sof",
               "kind": "paths",
+              "rows": 0
+            },
+            {
+              "id": "higher-risk-factors",
+              "kind": "checklist",
+              "rows": 0
+            },
+            {
+              "id": "edd-six-measures",
+              "kind": "checklist",
               "rows": 0
             }
           ],
@@ -3458,6 +4391,22 @@
                 "en": "AML/CFT FAQ A3–A8, A13–A15"
               },
               "anchor": "biodata"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.9.6段及註36",
+                "en": "¶4.9.6; footnote 36"
+              },
+              "anchor": "Examples of possible EDD measures"
+            },
+            {
+              "doc": "06",
+              "locator": {
+                "tc": "打擊洗錢問答A16",
+                "en": "AML/CFT FAQ A16"
+              },
+              "anchor": "collect evidence dating back decades"
             }
           ]
         },
@@ -3546,7 +4495,13 @@
             "en": "Non-face-to-face identification: extra measures and digital exception"
           },
           "points": 6,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "remote-measures",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "03",
@@ -3563,6 +4518,14 @@
                 "en": "AML/CFT FAQ A27"
               },
               "anchor": "There is no expectation to require certification for all other"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第4.10.1–4.10.5段",
+                "en": "¶4.10.1–4.10.5"
+              },
+              "anchor": "not required to carry out any additional measures"
             }
           ]
         },
@@ -3697,7 +4660,13 @@
             "en": "Sanctions and terrorist screening"
           },
           "points": 7,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "screening-six-parties",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "03",
@@ -3730,6 +4699,22 @@
                 "en": "p.2, paragraph after (d), and end of section 2 (continuing on p.3)"
               },
               "anchor": "may constitute grounds for knowledge or suspicion"
+            },
+            {
+              "doc": "06",
+              "locator": {
+                "tc": "打擊洗錢問答A24",
+                "en": "AML/CFT FAQ A24"
+              },
+              "anchor": "named parties"
+            },
+            {
+              "doc": "07",
+              "locator": {
+                "tc": "附錄(2)第4頁",
+                "en": "Appendix (2), p.4"
+              },
+              "anchor": "irrespective of the risk profile"
             }
           ]
         },
@@ -3740,7 +4725,18 @@
             "en": "Third-party payments: exceptional acceptance and strict controls"
           },
           "points": 11,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "tpp-red-flags",
+              "kind": "checklist",
+              "rows": 0
+            },
+            {
+              "id": "tpp-policy-five",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "08",
@@ -3749,6 +4745,22 @@
                 "en": "pp.4–6, key controls 1–12; footnote 6"
               },
               "anchor": "only under exceptional and legitimate circumstances"
+            },
+            {
+              "doc": "08",
+              "locator": {
+                "tc": "「可疑交易訊號／潛在較高風險因素」，第2–3頁",
+                "en": "Red flags/potentially higher risk factors, p.3"
+              },
+              "anchor": "a single individual’s account"
+            },
+            {
+              "doc": "08",
+              "locator": {
+                "tc": "主要管控措施第2、4–5、10–12項及註5（第3–5頁）",
+                "en": "Key controls 2, 4–5, 10–12 and footnote 5 (pp.4–6)"
+              },
+              "anchor": "the respective designated managers"
             },
             {
               "doc": "08",
@@ -3972,7 +4984,18 @@
             "en": "Non-wire remittances: originator and required records"
           },
           "points": 5,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "wire-vs-remittance",
+              "kind": "table",
+              "rows": 7
+            },
+            {
+              "id": "remittance-record",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "03",
@@ -3997,6 +5020,70 @@
                 "en": "2022 edition, ¶4.55–4.56"
               },
               "anchor": "individual cash couriers repeatedly carry cash"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第10.1–10.4段",
+                "en": "¶10.1–10.4"
+              },
+              "anchor": "the card is not used as a payment system"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第10.5–10.13段及註70–71",
+                "en": "¶10.5–10.13; footnotes 70–71"
+              },
+              "anchor": "within 3 business days after the request is received"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表2第12(6)、(9)、(11)條",
+                "en": "Schedule 2 s.12(6), (9), (11)"
+              },
+              "anchor": "domestic wire transfer"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第10.11–10.12、10.20段及註71",
+                "en": "¶10.11–10.12, 10.20; footnote 71"
+              },
+              "anchor": "Domestic wire transfer means"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第11.1–11.6段",
+                "en": "¶11.1–11.6"
+              },
+              "anchor": "date and time of receipt of the instruction"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表2第1、13條",
+                "en": "Schedule 2 ss.1, 13"
+              },
+              "anchor": "certificate of identity"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第11.1–11.6段",
+                "en": "¶11.1–11.6"
+              },
+              "anchor": "date and time of receipt of the instruction"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表2第1、13條",
+                "en": "Schedule 2 ss.1, 13"
+              },
+              "anchor": "certificate of identity"
             }
           ]
         },
@@ -4205,7 +5292,13 @@
             "en": "Suspicious transaction reporting: trigger and timing"
           },
           "points": 7,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "str-route",
+              "kind": "paths",
+              "rows": 0
+            }
+          ],
           "refs": [
             {
               "doc": "03",
@@ -4230,6 +5323,46 @@
                 "en": "¶7.1, 7.12"
               },
               "anchor": "as soon as it is reasonable"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第7.1–7.5段及註60",
+                "en": "¶7.1–7.5; footnotes 60"
+              },
+              "anchor": "Suspicion is personal and falls short of proof"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第7.12–7.23段",
+                "en": "¶7.12–7.23"
+              },
+              "anchor": "under no circumstances should reports raised by staff be filtered out"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第7.20段",
+                "en": "¶7.20"
+              },
+              "anchor": "it is unlikely that there will be any criminal liability"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第7.22、7.24–7.28段",
+                "en": "¶7.22, 7.24–7.28"
+              },
+              "anchor": "should not be construed as a"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第1.25、5.13、7.6段",
+                "en": "¶1.25, 5.13, 7.6"
+              },
+              "anchor": "has not yet been reported to the JFIU"
             }
           ]
         },
@@ -4242,8 +5375,8 @@
           "points": 9,
           "memory_panels": [
             {
-              "id": "reporting-route",
-              "kind": "paths",
+              "id": "str-system-three",
+              "kind": "checklist",
               "rows": 0
             }
           ],
@@ -4283,10 +5416,10 @@
             {
               "doc": "03",
               "locator": {
-                "tc": "第7.12–7.23段",
-                "en": "¶7.12–7.23"
+                "tc": "第7.7–7.8段",
+                "en": "¶7.7–7.8"
               },
-              "anchor": "under no circumstances should reports raised by staff be filtered out"
+              "anchor": "post-reporting risk mitigation and prevention of tipping off"
             }
           ]
         },
@@ -4357,8 +5490,30 @@
             "en": "Record content: a reconstructable audit trail"
           },
           "points": 5,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "report-registers",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第7.29–7.30、8.1–8.3、8.5、8.7段",
+                "en": "¶7.29–7.30, 8.1–8.3, 8.5, 8.7"
+              },
+              "anchor": "permit reconstruction of individual transactions"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第8.3(d)段及註66",
+                "en": "¶8.3(d); footnotes 66"
+              },
+              "anchor": "not expected to keep each and every correspondence"
+            },
             {
               "doc": "03",
               "locator": {
@@ -4484,8 +5639,38 @@
             "en": "Screening, training and evidence of effectiveness"
           },
           "points": 10,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "training-topics",
+              "kind": "checklist",
+              "rows": 0
+            }
+          ],
           "refs": [
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第3.14、9.1–9.8段",
+                "en": "¶3.14, 9.1–9.8"
+              },
+              "anchor": "initial training as soon as possible"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第9.4段",
+                "en": "¶9.4"
+              },
+              "anchor": "Staff should be made aware of"
+            },
+            {
+              "doc": "03",
+              "locator": {
+                "tc": "第9.5段",
+                "en": "¶9.5"
+              },
+              "anchor": "all new staff, irrespective of seniority"
+            },
             {
               "doc": "03",
               "locator": {
@@ -4546,8 +5731,30 @@
             "en": "Periodic returns: half-yearly electronic submission"
           },
           "points": 6,
-          "memory_panels": [],
+          "memory_panels": [
+            {
+              "id": "return-clocks",
+              "kind": "deadlines",
+              "rows": 0
+            }
+          ],
           "refs": [
+            {
+              "doc": "15",
+              "locator": {
+                "tc": "正文第1–2頁及附件第3–5頁",
+                "en": "Main text pp.1–2; annex pp.3–5"
+              },
+              "anchor": "The new lodgement arrangement is on a half-yearly basis"
+            },
+            {
+              "doc": "05",
+              "locator": {
+                "tc": "第11.2段",
+                "en": "¶11.2"
+              },
+              "anchor": "within 2 weeks"
+            },
             {
               "doc": "15",
               "locator": {

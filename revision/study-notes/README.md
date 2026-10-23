@@ -10,6 +10,30 @@ extract it fully and open its root `index.html`. Reading pages embed their style
 繁體中文／英文／雙語與離線閱讀。保留於repo內，或下載[v1.12.1完整學習包](https://github.com/leohwlee/mso-ca/releases/tag/v1.12.1)
 並完整解壓、開啟根目錄的`index.html`，原件及練習連結才可正常使用。
 
+## Study aids, 23 October / 10月23日學習輔助
+
+The toolbar gains a study-tier filter (All; Remember + Understand; Remember only) and a
+**Ruling marks** switch: the 131 purple numbers and each part's rulings register stay
+hidden until switched on, so the reading view is the plain notes. [amounts.html](amounts.html)
+lists 70 amounts, shares, periods, fees and penalties in seven groups, each with its
+starting point or condition, a link to the notes section and the cited passage; `amounts.py`
+holds the rows and `build.py` checks every anchor and section. Figures grow from 34 to 79:
+35 list cards (`checklist` panels that show the number of items of a source list, with
+easily confused items where the exam uses them), four new tables (the six main laws, who
+does what, SDD versus EDD, wire transfers versus non-wire remittances, plus the sanctions
+actors), the renewal line, the new-licence route, the CDD route, the STR route from
+discovery to after disclosure (which replaces the former internal-reporting figure; ruling
+W11 now marks it), beneficial-owner shareholding examples and the periodic-return clocks.
+Point text, questions, answers and sources are unchanged.
+
+工具列新增學習層次篩選（全部／必記＋理解／只看必記）及「裁決標記」開關：131處紫色編號及各部分的
+裁決登記冊預設隱藏，按下才顯示。[amounts.html](amounts.html)集中70項金額、比例、期限、費用及刑罰，
+分七組，每行寫明起算點或條件、連到筆記小節及所引原文；`amounts.py`存放各行，`build.py`核對每個錨點及小節。
+圖表由34個增至79個：35張清單卡（`checklist`，標明原文清單的項數，並在試題常混淆處列出易混項）、
+四張新表（六條主要法例、誰做甚麼、簡化與加強、電傳與非電傳匯款，另有制裁角色表）、續牌主線、
+新牌申請流程、CDD流程、由發現到披露之後的可疑交易報告流程（取代原內部報告圖；裁決W11改標於此）、
+實益擁有人持股例子及定期申報期限。要點文字、題目、答案及原件不變。
+
 ## Ruling marks, 23 October / 10月23日裁決標記
 
 At the owner's request, every place where the notes apply a source-conflict ruling now
@@ -124,12 +148,12 @@ separately; the archived legislation is not represented as live-verified law.
 `part1.py`–`part7.py` hold the consolidated manuscripts, including the former
 second-pass additions. `essentials.py` is an empty compatibility module; it no longer
 adds a second layer of prose. `memory_panels.py` holds explicit source references for
-the selected comparisons. `visual_panels.py` adapts/adds source-bound diagrams;
-`visual_render.py` provides native, offline HTML rendering. `tiers.py` gives every
-block its study tier; `traps.py` holds the exam traps, each tied to a CONFLICT-CALLS
-decision number that `build.py` checks. `rulings.py` ties each ruling mark to one point
-or figure by its English text; `build.py` checks every anchor and number. `build.py`
-validates and renders without reading the bank.
+the selected comparisons. `visual_panels.py` adapts/adds source-bound diagrams, including
+the list cards; `visual_render.py` provides native, offline HTML rendering. `tiers.py`
+gives every block its study tier; `traps.py` holds the exam traps, each tied to a
+CONFLICT-CALLS decision number that `build.py` checks. `rulings.py` ties each ruling mark
+to one point or figure by its English text; `amounts.py` holds the numbers page. `build.py`
+checks every anchor, number and section, and validates and renders without reading the bank.
 
 `part1.py`至`part7.py`保存整合後文稿；舊第二輪補充已併入相應主題，
 `essentials.py`只保留空白兼容入口。`memory_panels.py`的圖表有明確原文引用。
