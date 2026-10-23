@@ -59,6 +59,22 @@ def check_source_texts(d):
         assert digest((ROOT/p).read_bytes().replace(b'\r\n',b'\n')) == sha, p
 
 
+def check_reviews(d, current, quotes, reviewed, mapped):
+    """Every reviewed item has a blind review bound to its final text, every added item a
+    topic mapping naming only documents it cites, and the source texts are the reviewed ones."""
+    reviews = d['blind_review']['items']
+    assert len(reviews) == len(reviewed)
+    assert {r['answer']['id'] for r in reviews} == reviewed
+    for r in reviews:
+        check_review(r, current[r['answer']['id']])
+    assert {r['question_id'] for r in d['coverage']} == mapped
+    for r in d['coverage']:
+        assert r['topic'] and r['locator'] and set(r['documents']) <= APPROVED, r
+        cited = {x['doc'] for side in quotes[r['question_id']].values() for x in side}
+        assert set(r['documents']) <= cited, r
+    check_source_texts(d)
+
+
 def archived_bank(d, proven):
     archive_path = ROOT / d['archive']
     assert digest(archive_path.read_bytes()) == d['archive_sha256'], f'Archive changed: {d["archive"]}'
@@ -95,18 +111,7 @@ def unwind(d, bank, quotes, proven):
         assert (current[qid], quotes[qid]) != (before[qid], old_quotes[qid]), f'Revision changes nothing: {qid}'
     for qid in added | revised:
         assert all(x['doc'] in APPROVED for side in quotes[qid].values() for x in side), qid
-    reviews = d['blind_review']['items']
-    assert len(reviews) == len(added | revised)
-    assert {r['answer']['id'] for r in reviews} == added | revised
-    for r in reviews:
-        check_review(r, current[r['answer']['id']])
-    mappings = d['coverage']
-    assert {r['question_id'] for r in mappings} == added
-    for r in mappings:
-        assert r['topic'] and r['locator'] and set(r['documents']) <= APPROVED, r
-        cited = {x['doc'] for side in quotes[r['question_id']].values() for x in side}
-        assert set(r['documents']) <= cited, r
-    check_source_texts(d)
+    check_reviews(d, current, quotes, added | revised, added)
     rebuilt = [before[q['id']] if q['id'] in revised else q for q in bank if q['id'] not in added]
     rebuilt_quotes = {qid:(old_quotes[qid] if qid in revised else v) for qid,v in quotes.items() if qid not in added}
     return rebuilt, rebuilt_quotes
@@ -150,18 +155,7 @@ def recover_active26(bank, quotes):
     for qid,sides in quotes.items():
         assert all(q['doc'] in APPROVED for side in sides.values() for q in side), qid
     assert dict(collections.Counter(str(q['module']) for q in bank)) == d['module_counts']
-    reviews = d['blind_review']['items']
-    assert len(reviews) == len(added)
-    assert {r['answer']['id'] for r in reviews} == added
-    for r in reviews:
-        check_review(r, current[r['answer']['id']])
-    mappings = d['coverage']
-    assert {r['question_id'] for r in mappings} == added
-    for r in mappings:
-        assert r['topic'] and r['locator'] and set(r['documents']) <= APPROVED, r
-        cited = {x['doc'] for side in quotes[r['question_id']].values() for x in side}
-        assert set(r['documents']) <= cited, r
-    check_source_texts(d)
+    check_reviews(d, current, quotes, added, added)
     return old_bank, old_quotes, proven
 
 

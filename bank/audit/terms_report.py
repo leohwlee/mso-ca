@@ -4,28 +4,15 @@ python -X utf8 bank/audit/terms_report.py [--check]
 The JSON is a reviewed snapshot, not a keyword search or an exam coverage score.
 """
 import collections
-import hashlib
 import json
 import pathlib
-import re
 import sys
-import unicodedata
-from state import load_state, verify_hash
+from state import load_state, verify_hash, check_snapshot, norm, table, emit
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 STATUS = {'covered': '列示要点已考', 'partial': '部分覆盖', 'missing': '未直接测试', 'reference': '参考／范围边界'}
 CATEGORIES = {'external': '机构及外部角色', 'internal': '内部角色与责任分工', 'concept': '名词定义及易混概念', 'instrument': '法例、指引及工具的用途'}
-
-def norm(s):
-    return re.sub(r'\s+', '', unicodedata.normalize('NFKC', s))
-
-def cell(s):
-    return str(s).replace('|', '／').replace('\n', ' ')
-
-def table(headers, rows):
-    return ['| ' + ' | '.join(headers) + ' |', '|' + '|'.join(['---'] * len(headers)) + '|'] + [
-        '| ' + ' | '.join(cell(c) for c in row) + ' |' for row in rows]
 
 def validate(d):
     source_ids = {d['id'] for d in json.loads((ROOT/'docs/catalog.json').read_text(encoding='utf8'))['documents'] if d['original_bank_source']}
@@ -52,13 +39,9 @@ def validate(d):
         if r['status'] == 'covered':
             assert r['tested'] and not r['untested'], r['id']
         for e in r['tested'] + r.get('context_mentions', []):
-            q = qb[e['qid']]
-            assert len(e['snapshot']) == len(e['statements'])
-            for i, snapshot in zip(e['statements'], e['snapshot']):
-                assert 1 <= i <= len(q['truth'])
-                assert snapshot == dict(statement=i, truth=q['truth'][i-1], en=q['en']['statements'][i-1], tc=q['tc']['statements'][i-1]), (r['id'], e['qid'], i)
-                assert (e['qid'], i) != ('m3-261', 3), 'Known incorrect statement cannot establish coverage'
-                evidence_count += 1
+            check_snapshot(qb[e['qid']], e['statements'], e['snapshot'], (r['id'], e['qid']))
+            assert e['qid'] != 'm3-261' or 3 not in e['statements'], 'Known incorrect statement cannot establish coverage'
+            evidence_count += len(e['statements'])
         for p in r['untested'] + r.get('reference_points', []):
             assert p['priority'] in ['P1', 'P2', 'P3', 'reference'], r['id']
             for lang, key in [('EN', 'quote_en'), ('TC', 'quote_tc')]:
@@ -99,12 +82,12 @@ def render(d, v):
         ['客户及相关人士', '客户与公司代表的区别；BO／PEP 的主要类别；部分 connected parties 定义', '合伙／信托的有关连者及身份重叠；BO 与 ultimate owner 分开判断；代他人行事与其他类别的 BO 认定'],
         ['基本名词', '洗钱／恐怖融资、三阶段、知悉／怀疑、财富来源／资金来源、业务关系／非经常交易', '恐怖分子财产的定义；兑换／汇款服务的部分范围；信托、国际组织及识别号码的定义细节'],
         ['文件用途及证明角色', '主要条例和指引用途、发牌与纪律制度、部分证明人职责', '适当人选声明见证人、身份文件认证人的完整职责和适用资格；面见代表与应考代表区别'],
-    ])
+    ], ' ')
     lines += ['', '## 建议补题顺序', '',
         '先补实务判断会改变的主体和概念，再补完整清单及定义细节，最后才考虑低价值考务名词。优先级是教学判断，不代表官方出题频率。以下是跨来源合并的工作包，不是“一行一题”。', '']
     lines += table(['顺序', '补题方向', '具体目标', '对应记录', '落实状态'], [
         [g['id'] + ' ' + g['priority'], g['title'], g['reason'], '、'.join(g['row_ids']),
-         ('P1/P2已补；P3按下列明细保留' if any(p['priority'] in ['P1','P2'] for r in d['rows'] if r['id'] in g['row_ids'] for p in r['untested']) else 'P3可选，保留') if implementation else '待补'] for g in d['priority_groups']])
+         ('P1/P2已补；P3按下列明细保留' if any(p['priority'] in ['P1','P2'] for r in d['rows'] if r['id'] in g['row_ids'] for p in r['untested']) else 'P3可选，保留') if implementation else '待补'] for g in d['priority_groups']], ' ')
     lines += ['', '其他记录中的 P2／P3 细节保留在下面，按学习价值选择，不能为了让每个机关都出题而机械扩充。原总体审核的 40 项补题任务与本表有重叠，**不得把两张清单的数量相加**。', '',
         '## 全部专项映射', '',
         f'共 {v["rows"]} 行来源映射：列示要点已考 {v["statuses"].get("covered",0)} 行、部分覆盖 {v["statuses"].get("partial",0)} 行、未直接测试 {v["statuses"].get("missing",0)} 行、参考／范围边界 {v["statuses"].get("reference",0)} 行。同一主体可在不同来源承担不同职责，因此这些不是独立机构数或考试覆盖率。题号后的 `#` 是当前文件中的句序；练习时会重新排序。', '']
@@ -132,7 +115,7 @@ def render(d, v):
             lines += ['']
     lines += ['## 资料范围和核验', '',
         '沿用总体审核的归档版本及范围决定。专项逐份检查与机构、角色、概念和工具用途有关的内容；不把其他行业的完整监管制度或没有来源支持的机构百科搬入 MSO 题库。', '']
-    lines += table(['资料', '文件', '专项处理'], [[s['doc'], s['title'], s['note']] for s in d['source_accounting']])
+    lines += table(['资料', '文件', '专项处理'], [[s['doc'], s['title'], s['note']] for s in d['source_accounting']], ' ')
     lines += ['', f'核验：{v["evidence"]} 条题句引用与当前双语题句、真假值逐一保存快照；{v["quotes"]} 段双语缺口／边界引文与归档原文匹配。机械核验用于防止错题号、错引文和版本漂移，不能取代实质判断。', '',
         '保留限制：这是对既定 23 份归档资料的检查，未重查官网是否已更新；未对全部旧题重做双语盲答。“未直接测试”不代表从来没有在解释中讲过。原审核发现的 `m3-261#3` 错误和 `m1-142#5` 范围问题仍待处理，本专项没有将已知错误题句当成有效覆盖。', '',
         '维护：运行 `python -X utf8 bank/audit/terms_report.py --check` 检查本报告。题库、来源或范围决定变化时必须重判映射；不能仅替换摘要值。', '']
@@ -160,10 +143,5 @@ def render(d, v):
 if __name__ == '__main__':
     data = json.loads((HERE / 'terms-and-roles.json').read_text(encoding='utf8'))
     result = validate(data)
-    expected = render(data, result)
-    target = HERE / 'TERMS-AND-ROLES.md'
-    if '--check' in sys.argv:
-        assert target.read_text(encoding='utf8') == expected, 'Generated report differs'
-    else:
-        target.write_text(expected, encoding='utf8')
+    emit(HERE / 'TERMS-AND-ROLES.md', render(data, result), '--check' in sys.argv)
     print(json.dumps({k:v for k,v in result.items() if k not in ['implementation','p1_implementation','remaining_implementation']}, ensure_ascii=False))

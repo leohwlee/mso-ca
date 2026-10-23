@@ -2,7 +2,7 @@
 import json
 import pathlib
 import sys
-from state import load_state
+from state import load_state, emit
 
 HERE = pathlib.Path(__file__).resolve().parent
 
@@ -46,10 +46,5 @@ if __name__ == '__main__':
     state = load_state()
     d = state.get('p1_implementation')
     assert d, 'No verified P1 implementation record'
-    target = HERE / 'P1-PROCESSES.md'
-    expected = render(d)
-    if '--check' in sys.argv:
-        assert target.read_text(encoding='utf8') == expected, 'Regenerate P1-PROCESSES.md'
-    else:
-        target.write_text(expected, encoding='utf8')
+    emit(HERE / 'P1-PROCESSES.md', render(d), '--check' in sys.argv)
     print(json.dumps(dict(tasks=len(d['task_results']), **d['statistics']), ensure_ascii=False))

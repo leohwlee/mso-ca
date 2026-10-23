@@ -1,0 +1,38 @@
+{
+  "status": "verified",
+  "date": "2026-10-23",
+  "reason": "Code simplification, PR D (23 Oct 2026): shared helpers in the audit chain (bank/audit/state.py): one newline-variant function behind check_hash and prove_archived_text, one evidence-snapshot check used by the completion, P1 and terms records and the coverage and terms reports, one documentation_updates verifier used by the maintenance, completion, P1 and implementation records, one norm and one Markdown table function for the two reports, and one emit function for writing or checking a generated report; active_scope.py's unwind and recover_active26 share one check_reviews function; the unused sha() helper and unused imports go. Every generated report, coverage.json and the mutation tests are unchanged. Adds the Unreleased changelog entry. Preserves the previous bytes of the changed files; the question bank, answers, quotes, scoring, notes and source originals are unchanged by this record.",
+  "archive": "bank/audit/history/2026-10-23-before-simplify-audit-chain.zip",
+  "archive_sha256": "0c21eb67077c967817aac8b73343cdc7e113e9ef1c625fde5144c3d81236ee07",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "610eb35001c77c0cf10a7787af9e50cf3725a8cca9ba47ffa8d87382c1bac959",
+      "after_sha256": "fd1e1fcc788dd49330e53f29a2ef1873f05da8199d3c59489c6b3c708e46b43d"
+    },
+    "bank/audit/active_scope.py": {
+      "before_sha256": "d091f05b14a68351cfe644db4c43370551194b126b35f3c06435f0242148c868",
+      "after_sha256": "f2e27a28e38a58a2a30fef629ca9265840f5701274328593864dc35042acd842"
+    },
+    "bank/audit/p1_report.py": {
+      "before_sha256": "ad131645078da11b876bdb1f945bfd2c10c90805ed4de1f12beae7e893946e77",
+      "after_sha256": "03210b7b3a305aca3f7059893affbb6c1827de787ba8599a5c973057f7b3c899"
+    },
+    "bank/audit/remaining_report.py": {
+      "before_sha256": "ba89396b7319fcb5b94f86c85213ee0bc56c15c42ba003fd33d3393a3625d66d",
+      "after_sha256": "5725fcc06f540a2d9d18eea89e943734f263bdacb316328be5d88fd8bb61f6e7"
+    },
+    "bank/audit/report.py": {
+      "before_sha256": "3dc822aee5609a7f60427f6313e138182a50ee27fc3177493c62c69b27a216ed",
+      "after_sha256": "09d0f22a68760520934c7eb6a994aa3797585a80d0d71fd3e2d093af252c6c87"
+    },
+    "bank/audit/state.py": {
+      "before_sha256": "4bf7e923c51f430b7d0e65a5ca88abc801c9b96d59be823db430ab5b251acf55",
+      "after_sha256": "d83b5bfe46eb5e3f1253355799d5045e116b0e57264a11f8b023fadc65c65ec2"
+    },
+    "bank/audit/terms_report.py": {
+      "before_sha256": "dbac58791b83bffbc7c1e7cb86c5821a9cd848908649ec5b8fdda1daf6421a56",
+      "after_sha256": "14e4c85f4b2499c2a8d0184a6dcc2a77638c4dfa0d75919e0d09cbac68145ac8"
+    }
+  },
+  "documentation_updates": {}
+}

@@ -2,35 +2,69 @@
 import hashlib
 import json
 import pathlib
+import re
+import unicodedata
 import zipfile
 from active_scope import recover
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 
-def sha(path):
-    return hashlib.sha256((ROOT / path).read_bytes()).hexdigest()
+def newline_variants(path, data):
+    """The bytes as Git may check them out: LF in the index, CRLF on Windows for text
+    files. Permit only this byte-level conversion, never a content change."""
+    variants = [data]
+    if pathlib.Path(path).suffix.lower() in {'.json', '.md', '.py', '.txt', '.go'}:
+        lf = data.replace(b'\r\n', b'\n')
+        variants += [lf, lf.replace(b'\n', b'\r\n')]
+    return variants
 
 def check_hash(path, expected):
     data = (ROOT / path).read_bytes()
-    variants = [data]
-    if pathlib.Path(path).suffix.lower() in {'.json', '.md', '.py', '.txt', '.go'}:
-        # Git uses LF in the index and may check text out as CRLF on Windows.
-        # Permit only this byte-level conversion, never a content change.
-        lf = data.replace(b'\r\n', b'\n')
-        variants.extend([lf, lf.replace(b'\n', b'\r\n')])
-    assert any(hashlib.sha256(value).hexdigest() == expected for value in variants), f'Snapshot changed: {path}'
+    assert any(hashlib.sha256(value).hexdigest() == expected for value in newline_variants(path, data)), f'Snapshot changed: {path}'
 
 def encoded(value, newline):
     return (json.dumps(value, ensure_ascii=False, indent=1) + '\n').replace('\n', newline).encode('utf8')
 
 def prove_archived_text(proven, path, data):
     """The archive bytes are already verified; permit Git's newline conversion."""
-    proven.add((path, hashlib.sha256(data).hexdigest()))
-    if pathlib.Path(path).suffix.lower() in {'.json', '.md', '.py', '.txt', '.go'}:
-        lf = data.replace(b'\r\n', b'\n')
-        for version in (lf, lf.replace(b'\n', b'\r\n')):
-            proven.add((path, hashlib.sha256(version).hexdigest()))
+    for version in newline_variants(path, data):
+        proven.add((path, hashlib.sha256(version).hexdigest()))
+
+def check_snapshot(q, statements, snapshot, where=None):
+    """An evidence row still quotes its statements as they are: number, truth value and both texts."""
+    assert len(snapshot) == len(statements), where
+    for i, s in zip(statements, snapshot):
+        assert 1 <= i <= len(q['truth']), (where, i)
+        assert s == dict(statement=i, truth=q['truth'][i-1], en=q['en']['statements'][i-1], tc=q['tc']['statements'][i-1]), ('changed evidence', where, i)
+
+def documentation_updates(updates, proven):
+    """Each preserved document text hashes as recorded, and the live file (or a later version
+    already proven) matches the after-hash; returns the recorded before-hashes."""
+    before = {}
+    for p, update in updates.items():
+        assert hashlib.sha256(update['before_text'].encode('utf8')).hexdigest() == update['before_sha256'], p
+        if (p, update['after_sha256']) not in proven:
+            check_hash(p, update['after_sha256'])
+        proven.add((p, update['before_sha256']))
+        before[p] = update['before_sha256']
+    return before
+
+def norm(text):
+    return re.sub(r'\s+', '', unicodedata.normalize('NFKC', text))
+
+def table(headers, rows, newline='；'):
+    """A Markdown table; pipes and line breaks inside a cell are replaced."""
+    cell = lambda value: str(value).replace('|', '／').replace('\n', newline)
+    return ['| '+' | '.join(headers)+' |', '|'+'|'.join(['---']*len(headers))+'|'] + [
+        '| '+' | '.join(cell(c) for c in row)+' |' for row in rows]
+
+def emit(path, text, check):
+    """Write a generated report, or with --check assert the saved one is current."""
+    if check:
+        assert path.read_text(encoding='utf8') == text, f'Regenerate {path.name}'
+    else:
+        path.write_text(text, encoding='utf8', newline='\n')
 
 def validate_reviews(record, current):
     reviewed = set()
@@ -78,12 +112,7 @@ def maintenance_followups(extra_proven=None):
             if (move['after'], move['sha256']) not in proven:
                 check_hash(move['after'], move['sha256'])
             proven.add((move['before'], move['sha256']))
-        for p, update in record['documentation_updates'].items():
-            before = update['before_text'].encode('utf8')
-            assert hashlib.sha256(before).hexdigest() == update['before_sha256'], p
-            if (p, update['after_sha256']) not in proven:
-                check_hash(p, update['after_sha256'])
-            proven.add((p, update['before_sha256']))
+        documentation_updates(record['documentation_updates'], proven)
     return proven
 
 def completion_followup(bank, quotes, extra_proven=None):
@@ -145,11 +174,7 @@ def completion_followup(bank, quotes, extra_proven=None):
         proven.add((p,digest))
     assert len(old_bank) == baseline['questions']
     assert sum(len(q['truth']) for q in old_bank) == baseline['statements']
-    for p, update in d.get('documentation_updates', {}).items():
-        assert hashlib.sha256(update['before_text'].encode('utf8')).hexdigest() == update['before_sha256']
-        if (p, update['after_sha256']) not in proven:
-            check_hash(p, update['after_sha256'])
-        proven.add((p, update['before_sha256']))
+    documentation_updates(d.get('documentation_updates', {}), proven)
     audit = json.loads((HERE / 'coverage.json').read_text(encoding='utf8'))
     backlog = {b['id']:b for b in audit['backlog']}
     tasks = {t['backlog_id'] for t in d['task_results'] if t['status']=='completed'}
@@ -158,13 +183,9 @@ def completion_followup(bank, quotes, extra_proven=None):
     assert {row['task_id'] for row in d['coverage']} == tasks
     for row in d['coverage']:
         assert row['topic_id'] in backlog[row['task_id']]['topic_ids']
-    def check_rows(rows):
-        for row in rows:
-            q = current[row['question_id']]
-            assert row['statements'] and len(row['snapshot'])==len(row['statements'])
-            for i,snapshot in zip(row['statements'],row['snapshot']):
-                assert snapshot == dict(statement=i,truth=q['truth'][i-1],en=q['en']['statements'][i-1],tc=q['tc']['statements'][i-1])
-    check_rows(d['coverage']); check_rows(d['specialist_coverage'])
+    for row in d['coverage'] + d['specialist_coverage']:
+        assert row['statements']
+        check_snapshot(current[row['question_id']], row['statements'], row['snapshot'], row['question_id'])
     terms=json.loads((HERE/'terms-and-roles.json').read_text(encoding='utf8'))
     required={(r['id'],i) for r in terms['rows'] for i,g in enumerate(r['untested']) if g['priority']=='P3'}
     assert required == {(r['row_id'],r['gap_index']) for r in d['specialist_coverage']}
@@ -202,11 +223,7 @@ def latest_followup(bank, quotes, proven=None):
         proven.add((p, digest))
     assert len(old_bank) == baseline['questions']
     assert sum(len(q['truth']) for q in old_bank) == baseline['statements']
-    for p, update in d.get('documentation_updates', {}).items():
-        assert hashlib.sha256(update['before_text'].encode('utf8')).hexdigest() == update['before_sha256']
-        if (p,update['after_sha256']) not in proven:
-            check_hash(p, update['after_sha256'])
-        proven.add((p, update['before_sha256']))
+    documentation_updates(d.get('documentation_updates', {}), proven)
     tasks = {t['backlog_id'] for t in d['task_results'] if t['status'] == 'completed'}
     assert tasks == set(baseline['p1_task_ids'])
     audit = json.loads((HERE / 'coverage.json').read_text(encoding='utf8'))
@@ -216,10 +233,8 @@ def latest_followup(bank, quotes, proven=None):
     assert {row['task_id'] for row in d['coverage']} == tasks
     for row in d['coverage']:
         assert row['topic_id'] in backlog[row['task_id']]['topic_ids']
-        q = current[row['question_id']]
-        assert row['statements'] and len(row['snapshot']) == len(row['statements'])
-        for i, snapshot in zip(row['statements'], row['snapshot']):
-            assert snapshot == dict(statement=i, truth=q['truth'][i-1], en=q['en']['statements'][i-1], tc=q['tc']['statements'][i-1])
+        assert row['statements']
+        check_snapshot(current[row['question_id']], row['statements'], row['snapshot'], row['question_id'])
     assert len(added) == d['statistics']['new_questions']
     assert sum(len(current[qid]['truth']) for qid in added) == d['statistics']['new_statements']
     validate_reviews(d, current)
@@ -250,11 +265,7 @@ def load_state():
         if (p, expected) not in proven:
             check_hash(p, expected)
     historical_hashes = dict(d['baseline']['sha256'])
-    for p, update in d.get('documentation_updates', {}).items():
-        assert hashlib.sha256(update['before_text'].encode('utf8')).hexdigest() == update['before_sha256']
-        if (p, update['after_sha256']) not in proven:
-            check_hash(p, update['after_sha256'])
-        historical_hashes[p] = update['before_sha256']
+    historical_hashes.update(documentation_updates(d.get('documentation_updates', {}), proven))
     retired = {r['old_id']: r for r in d['replacements']}
     ids = json.loads((ROOT / 'bank/retired-ids.json').read_text(encoding='utf8'))['ids']
     assert retired.keys().isdisjoint(current)
@@ -286,11 +297,8 @@ def load_state():
         gap = rows[row['row_id']]['untested'][row['gap_index']]
         assert row['point'] == gap['point'] and row['priority'] == gap['priority']
         fulfilled.add((row['row_id'], row['gap_index']))
-        assert row['question_id'] in current
-        q = current[row['question_id']]
-        assert row['statements'] and len(row['snapshot']) == len(row['statements'])
-        for i, s in zip(row['statements'], row['snapshot']):
-            assert s == dict(statement=i, truth=q['truth'][i-1], en=q['en']['statements'][i-1], tc=q['tc']['statements'][i-1])
+        assert row['question_id'] in current and row['statements']
+        check_snapshot(current[row['question_id']], row['statements'], row['snapshot'], row['question_id'])
     assert required <= fulfilled, 'Unfilled P1/P2 gap'
     assert len(required) == d['statistics']['priority_gap_mappings']
     validate_reviews(d, current)
