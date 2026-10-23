@@ -337,8 +337,9 @@ def render_ruling(rid,places,n):
 
 def render_register(n):
     places=ruling_places(n)
-    intro=label('以下是本部分正文、圖表及易錯提示套用的裁決。紫色編號標在套用裁決的要點旁；按編號可回到這裏，核對裁決、出現位置及裁決記錄原文。B＝兩份文件之間，W＝同一文件內，E＝中英文本之間，N＝核對後不屬矛盾，D26＝擁有人2026年10月20日決定；U＝正文已處理、但未列入CONFLICT-CALLS的兩語差異。虛線編號表示兩語各按本身語文；黃色「核對」提示表示該句可能與所套用的裁決不一致。',
-        'These are the rulings applied in this part’s text, figures and exam traps. A purple number marks each point that applies one; select it to come here and check the decision, where it is used and the recorded entry. B = between two documents, W = within one document, E = English and Chinese texts, N = checked, not a conflict, D26 = the owner decision of 20 October 2026; U = a language difference the text handles that is not in CONFLICT-CALLS. A dashed number means each language keeps its own wording; an amber “Check” note means the point may not match the ruling it applies.')
+    checks=any(mark['check'] for (m,*_),mark in RULED_POINTS.items() if m==n)
+    intro=label('以下是本部分正文、圖表及易錯提示套用的裁決。紫色編號標在套用裁決的要點旁；按編號可回到這裏，核對裁決、出現位置及裁決記錄原文。B＝兩份文件之間，W＝同一文件內，E＝中英文本之間，N＝核對後不屬矛盾，D26＝擁有人2026年10月20日決定；U＝正文已處理、但未列入CONFLICT-CALLS的兩語差異。虛線編號表示兩語各按本身語文。'+('黃色「核對」提示表示該句可能與所套用的裁決不一致。' if checks else ''),
+        'These are the rulings applied in this part’s text, figures and exam traps. A purple number marks each point that applies one; select it to come here and check the decision, where it is used and the recorded entry. B = between two documents, W = within one document, E = English and Chinese texts, N = checked, not a conflict, D26 = the owner decision of 20 October 2026; U = a language difference the text handles that is not in CONFLICT-CALLS. A dashed number means each language keeps its own wording.'+(' An amber “Check” note means the point may not match the ruling it applies.' if checks else ''))
     entries=''.join(render_ruling(rid,places[rid],n) for rid in sorted(places,key=ruling_order))
     return '<section class="chapter rulings-register" id="rulings" aria-labelledby="title-rulings"><div class="section-heading"><span class="section-number" aria-hidden="true">⚖</span><h2 id="title-rulings">'+label('本部分的裁決','Rulings in this part')+'</h2></div><p class="register-intro">'+intro+'</p>'+entries+'</section>'
 

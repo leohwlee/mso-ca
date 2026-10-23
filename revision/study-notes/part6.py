@@ -195,10 +195,11 @@ section('timing', '核實時間、延後條件及審查失敗', 'Verification ti
 section('simplified', '簡化盡職審查：可減甚麼、不能免甚麼', 'Simplified due diligence: permitted reductions and limits', [
     block('低風險簡化與法定實益擁有人例外', 'Low-risk simplification and beneficial-owner exceptions', [
         ('須有充分風險分析支持低風險判斷，簡化程度與風險相稱；可降低資料更新／交易監察頻率，或由交易／關係類型推斷目的及性質。仍須持續監察。', 'Support a low-risk finding with adequate analysis and apply proportionate simplification, such as less frequent updates/monitoring or inferring purpose from the transaction/relationship type. Ongoing monitoring remains required.'),
-        ('風險升高不再屬低風險、出現洗錢／恐怖分子資金籌集懷疑，或對已有識別／核實資料真確性有疑問，即不可採用或繼續簡化。', 'Stop or do not apply SDD if risk is no longer low, ML/TF is suspected or identification/verification evidence is doubted.'),
+        ('風險升高不再屬低風險、出現洗錢／恐怖分子資金籌集懷疑，或對已有識別／核實資料的真實性或充分性有疑問，即不可採用或繼續簡化。', 'Stop or do not apply SDD if risk is no longer low, ML/TF is suspected, or there are doubts about the veracity or adequacy of identification/verification information.'),
         ('不識別／核實實益擁有人是附表2第4條的特定例外，不是「所有低風險客戶免查實益擁有人」。客戶本身、代表及其他仍適用的CDD措施須繼續履行。', 'Omitting beneficial-owner identification/verification is a specific Schedule 2 s.4 exception, not a general waiver for every low-risk customer. Customer/representative checks and other applicable CDD still remain.'),
     ], [
         ref('03', '第4.8.1–4.8.9段', '¶4.8.1–4.8.9', 'it is still required to continuously monitor'),
+        ref('04', '附表2第3(1)(e)條', 'Schedule 2 s.3(1)(e)', 'the veracity or adequacy of any information previously'),
     ], kind='list'),
     block('可用實益擁有人簡化的客戶', 'Customers eligible for beneficial-owner simplification', [
         ('包括條例金融機構；在對等司法管轄區成立、從事類似業務、備有相類CDD／紀錄措施並受相類監管的機構；股票交易所上市公司；香港政府／公共機構及同等地區相類機構。上市客戶亦須評估披露要求能否提供足夠擁有權透明度。', 'Categories include AMLO FIs; comparable institutions established in equivalent jurisdictions with similar measures and supervision; listed corporations; Hong Kong government/public bodies and equivalent counterparts. Assess whether a listed customer’s disclosure requirements provide sufficient beneficial-ownership transparency.'),

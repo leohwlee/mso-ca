@@ -1,5 +1,23 @@
 # Release notes / 版本更新
 
+## v1.12.1 — 23 October 2026
+
+- Corrects the three study-note points that v1.12.0 flagged as not matching the owner's rulings, and removes their amber "Check" notes:
+  - Part 3 fees (B6): HK$945 is payable for each person subject to the fit-and-proper test, at grant and again at every renewal. The point no longer calls it a one-off fee, and now also cites Schedule 3 items 4–5.
+  - Part 4 fitness (B13): the CCE must also have regard to any other matter it considers relevant. The Chinese no longer says 可 (may).
+  - Part 6 simplified CDD (E23): simplified measures stop on doubts about the veracity or adequacy of identification or verification information. The Chinese now includes 充分 (adequacy), and the point also cites Schedule 2 s.3(1)(e).
+- The 131 ruling marks and 93 rulings, the 552 questions, answers, scoring and source editions are unchanged. README previews were captured again from v1.12.1.
+- 修正v1.12.0標出與擁有人裁決不一致的三個筆記要點，並移除相應的琥珀色「核對」提示：
+  - 第3部分費用（B6）：每名受適當人選測試的人士須繳HK$945，批牌及每次續牌均須繳付，不再寫作一次性；另補引附表3第4–5項。
+  - 第4部分適當人選（B13）：關長亦須考慮其認為有關的任何其他事宜，中文不再寫「可」。
+  - 第6部分簡化盡職審查（E23）：對識別／核實資料的真實性或充分性有疑問，即停止簡化；中文補上「充分」，另補引附表2第3(1)(e)條。
+- 131處裁決標記及93項裁決、552道題、答案、評分及來源版次均不變。README預覽從v1.12.1重新截取。
+
+**Download / 下載：** `mso-study-bundle.zip` contains the notes, practice and originals 01–26; extract the entire ZIP and open `index.html`.
+完整學習包包含筆記、練習及01–26原件；完整解壓後開啟 `index.html`。
+
+[Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.12.1)
+
 ## v1.12.0 — 23 October 2026
 
 - Marks every place where the seven-part notes apply a source-conflict ruling: 131 purple numbers (118 points and 13 figures) across 93 rulings. The numbers are the owner decisions in `revision/CONFLICT-CALLS.md` (B, W, E, N and the 20 October decision D26). A dashed number means each language keeps its own wording; U1–U4 mark four language differences the text handles that are not yet in CONFLICT-CALLS.

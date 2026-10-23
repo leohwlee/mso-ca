@@ -7,8 +7,9 @@ without a CONFLICT-CALLS entry, so they can be checked too.
 
 An anchor is part of the English text of exactly one point in its section, or
 'panel:<id>' for a whole figure. build.py checks every anchor and number, marks the point
-and lists each ruling, with its recorded entry, at the end of the Part. A check note flags
-text that may not match the ruling it applies; the text itself is unchanged.
+and lists each ruling, with its recorded entry, at the end of the Part. A check note can flag
+text that may not match its ruling until the owner settles it; the v1.12.0 notes on B6, B13
+and E23 were settled on 23 Oct 2026 by correcting the text.
 """
 from model import p
 
@@ -83,9 +84,7 @@ MARKS = {1: {
     ],
     'fees': [
         m('B6', 'Grant application: HK$3,810 base'),
-        m('B6', 'Each fit-and-proper test applicant pays a one-off test fee',
-          check=p('本句寫「一次性測試費」，而裁決B6記：每名受測試人士HK$945，批牌及每次續牌都要繳付，不是一次性。請核對這句應否修改。',
-                  'This point says “a one-off test fee”, while ruling B6 says HK$945 is paid for each tested person at grant and again at every renewal, not once. Check whether the point should change.')),
+        m('B6', 'HK$945 is payable for each person subject to the fit-and-proper test'),
         m('B6', 'panel:fee-components'),
     ],
 }, 4: {
@@ -102,9 +101,7 @@ MARKS = {1: {
     'fitness': [
         m('B3 B12 B13', 'Consider statutory Hong Kong/overseas offences'),
         m('B12', 'Document 10 adds AMLO/licence/regulatory compliance'),
-        m('B3 B12 B13', 'Foreign convictions include conduct',
-          check=p('中文寫「關長亦可考慮其他相關事項」，用「可」；裁決B13記「必須考慮」（英文要點只寫also considers）。請核對中文措辭。',
-                  'The Chinese says 關長亦可考慮 (the CCE “may” also consider) other relevant matters; ruling B13 says “must have regard to”. The English point only says “also considers”. Check the Chinese wording.')),
+        m('B3 B12 B13', 'Foreign convictions include conduct'),
     ],
     'assessment': [
         m('W1', 'At least one senior manager overseeing AML policies'),
@@ -167,9 +164,7 @@ MARKS = {1: {
         m('B16', 'Identity verification may exceptionally follow'),
     ],
     'simplified': [
-        m('E23', 'Stop or do not apply SDD',
-          check=p('中文只寫對資料「真確性」有疑問；裁決E23記「真實或充分」（英文要點只寫evidence is doubted）。請核對是否補上「充分」。',
-                  'The Chinese mentions only doubts about 真確性 (veracity); ruling E23 says “veracity or adequacy” (真實或充分). The English point only says the evidence is doubted. Check whether adequacy should be added.')),
+        m('E23', 'Stop or do not apply SDD'),
         m('B31', 'Categories include AMLO FIs'),
         m('E22', 'A solicitor/firm client account qualifies'),
     ],

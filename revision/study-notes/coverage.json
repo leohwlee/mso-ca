@@ -5,10 +5,10 @@
   "manuscripts": {
     "part1.py": "3cfb0e8f30e9ba8cdc8f397eb89b15a09c55897e00ea3777eac6d6ea241a17ec",
     "part2.py": "be06fa056a56df29a85f4874571a442bcb8e12534b9c1fb771ade84b51b62063",
-    "part3.py": "c327d32cc0a04735f69ef1ebade03ab4950afa4a6c5beeee02ab73ca0ffde928",
-    "part4.py": "949e93517b757efb257e1067a487a1b69f55bf90f5c6500cd3e9a9394edac308",
+    "part3.py": "07b2ee64896aff844ca705902cf0da023236e2081ae649b54b68408b18516adc",
+    "part4.py": "7facf55879333b38bf30ae0994297ddbf05ce6b6fa91227b9f0bfe46a3b994a0",
     "part5.py": "45b999b481bd911de9741dd97a806072d01e173a5bdfdf8acbe22a2660af2c29",
-    "part6.py": "dbcac544447f6b6f97b16a37525c0f1cfd3945dfd1e22da4f432cbf5404eb9bf",
+    "part6.py": "11eacae31f4f30d5eb653295c1916436c4af22cc2c638d843769072f71b257ae",
     "part7.py": "45d4a329aca0a883e7ed9b421a9ff6ebf7e21f08f9e33e910bc526bbd01350b1"
   },
   "essentials": {
@@ -47,7 +47,7 @@
         "6": 52,
         "7": 11
       },
-      "checks": 3,
+      "checks": 0,
       "rulings": [
         "B1",
         "B2",
@@ -143,7 +143,7 @@
         "U3",
         "U4"
       ],
-      "sha256": "a4b04897fe7ec45d30551139138cd69831fd2d5a539023e0a2114d62eb9b7076"
+      "sha256": "f10c92e35be97ce381e3d025d2eff54007cd9933da9475237ebc089607ede583"
     }
   },
   "source_text_sha256": {
@@ -1865,6 +1865,14 @@
             {
               "doc": "04",
               "locator": {
+                "tc": "附表3第4–5項",
+                "en": "Schedule 3 items 4–5"
+              },
+              "anchor": "plus for each person who is subject to the fit"
+            },
+            {
+              "doc": "04",
+              "locator": {
                 "tc": "第27–28條；附表3",
                 "en": "ss.27–28; Schedule 3"
               },
@@ -3211,6 +3219,14 @@
               "anchor": "it is still required to continuously monitor"
             },
             {
+              "doc": "04",
+              "locator": {
+                "tc": "附表2第3(1)(e)條",
+                "en": "Schedule 2 s.3(1)(e)"
+              },
+              "anchor": "the veracity or adequacy of any information previously"
+            },
+            {
               "doc": "03",
               "locator": {
                 "tc": "第4.8.10–4.8.16段",
@@ -3265,6 +3281,14 @@
                 "en": "¶4.8.1–4.8.9"
               },
               "anchor": "it is still required to continuously monitor"
+            },
+            {
+              "doc": "04",
+              "locator": {
+                "tc": "附表2第3(1)(e)條",
+                "en": "Schedule 2 s.3(1)(e)"
+              },
+              "anchor": "the veracity or adequacy of any information previously"
             },
             {
               "doc": "03",
