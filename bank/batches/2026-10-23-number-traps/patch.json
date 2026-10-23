@@ -1,0 +1,3864 @@
+[
+ {
+  "id": "m5-08",
+  "module": 5,
+  "truth": [
+   false,
+   false,
+   true,
+   true,
+   true
+  ],
+  "traps": [
+   "scope",
+   "reversed",
+   null,
+   null,
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶2.13–2.14",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第2.13至2.14段"
+  },
+  "en": {
+   "q": "Which of the following statements about the customer risk assessment described in the AML/CFT Guideline are correct?",
+   "statements": [
+    "The finalised customer risk assessment determines the level and type of transaction monitoring only; the extent of ongoing CDD is the same for every customer whatever the assessment shows",
+    "The assessment is of no assistance in differentiating between the risks of individual customers and business relationships, since the same CDD measures are applied to every relationship",
+    "An MSO should assess the ML/TF risks associated with a customer or a proposed business relationship, an exercise usually referred to as a customer risk assessment",
+    "Where the ML/TF risks associated with the business relationship are higher, the amount and type of information obtained, and the extent to which it is verified, should be increased",
+    "Where the ML/TF risks associated with the business relationship are lower, the information obtained and the extent of its verification may be simplified"
+   ],
+   "notes": [
+    "False: ¶2.14 states the finalised customer risk assessment “determines the level and type of ongoing monitoring (including ongoing CDD and transaction monitoring)”. Ongoing CDD, like transaction monitoring, is scaled to the assessment.",
+    "False: ¶2.13 states “The risk assessment conducted will also assist the MSO to differentiate between the risks of individual customers and business relationships”. The assessment assists differentiation; it does not require the same extent of CDD for every relationship.",
+    "True: ¶2.13 states “An MSO should assess the ML/TF risks associated with a customer or a proposed business relationship, which is usually referred to as a customer risk assessment”.",
+    "True: ¶2.13 states “the amount and type of information obtained, and the extent to which this information is verified, should be increased where the ML/TF risks associated with the business relationship are higher”.",
+    "True: ¶2.13 states “It may also be simplified where the ML/TF risks associated with the business relationship are lower”."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關客戶風險評估的陳述，哪些是正確的？",
+   "statements": [
+    "敲定的客戶風險評估決定交易監察的程度和類別；不論評估結果如何，每名客戶的持續盡職審查程度均相同",
+    "該評估無助於分辨個別客戶與業務關係所涉的風險，因為每項業務關係均採取相同的盡職審查措施",
+    "金錢服務經營者應評估與客戶或擬開展的業務關係有關的洗錢／恐怖分子資金籌集風險，這類評估一般稱為客戶風險評估",
+    "如與業務關係有關的洗錢／恐怖分子資金籌集風險較高，便需索取數量及類別更多的資料，並以更嚴謹的方式核實資料",
+    "如與業務關係有關的洗錢／恐怖分子資金籌集風險較低，金錢服務經營者則可簡化審查程序"
+   ],
+   "notes": [
+    "不正確：第2.14段列明評估結果「將決定持續監察（包括持續的盡職審查及持續的交易監察）的程度和類別」。持續的盡職審查與交易監察一樣，均按評估結果調整。",
+    "不正確：第2.13段列明「評估風險有助金錢服務經營者分辨個別客戶與業務關係所涉的風險」。評估有助分辨風險，並非每項業務關係都採取相同程度的盡職審查。",
+    "正確：第2.13段列明「金錢服務經營者應評估與客戶或擬開展的業務關係有關的洗錢／恐怖分子資金籌集風險，這類評估一般稱為客戶風險評估」。",
+    "正確：第2.13段列明「如果與業務關係有關的洗錢／恐怖分子資金籌集風險較高，便需索取數量及類別更多的資料，並以更嚴謹方式核實資料」。",
+    "正確：第2.13段列明「如果與業務關係有關的洗錢／恐怖分子資金籌集風險較低，則可簡化審查程序」。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "which determines the level and type of ongoing monitoring (including ongoing CDD and transaction monitoring)"
+    },
+    {
+     "doc": "03",
+     "text": "The risk assessment conducted will also assist the MSO to differentiate between the risks of individual customers and business relationships"
+    },
+    {
+     "doc": "03",
+     "text": "An MSO should assess the ML/TF risks associated with a customer or a proposed business relationship, which is usually referred to as a customer risk assessment"
+    },
+    {
+     "doc": "03",
+     "text": "the amount and type of information obtained, and the extent to which this information is verified, should be increased where the ML/TF risks associated with the business relationship are higher"
+    },
+    {
+     "doc": "03",
+     "text": "It may also be simplified where the ML/TF risks associated with the business relationship are lower"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "評估結果將決定持續監察（包括持續的盡職審查及持續的交易監察）的程度和類別"
+    },
+    {
+     "doc": "03",
+     "text": "評估風險有助金錢服務經營者分辨個別客戶與業務關係所涉的風險"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者應評估與客戶或擬開展的業務關係有關的洗錢／恐怖分子資金籌集風險，這類評估一般稱為客戶風險評估"
+    },
+    {
+     "doc": "03",
+     "text": "如果與業務關係有關的洗錢／恐怖分子資金籌集風險較高，便需索取數量及類別更多的資料，並以更嚴謹方式核實資料"
+    },
+    {
+     "doc": "03",
+     "text": "如果與業務關係有關的洗錢／恐怖分子資金籌集風險較低，則可簡化審查程序"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m3-324",
+  "module": 3,
+  "truth": [
+   false,
+   true,
+   false,
+   true
+  ],
+  "traps": [
+   "scope",
+   null,
+   "condition",
+   null
+  ],
+  "source": {
+   "en": "AMLO Sch. 3 items 1–2, 6–8 and 10; s.39(1)–(3)",
+   "tc": "《打擊洗錢條例》附表3第1至2、6至8及10項；第39(1)至(3)條"
+  },
+  "en": {
+   "q": "Regarding the fees Schedule 3 to the AMLO sets for approving a licensee's director, ultimate owner or partner, for copies of entries in the register of licensees, and for moving a money service to particular premises, which of the following are correct?",
+   "statements": [
+    "An application for approval to become a licensee's director carries a fee of $945 for each application that is made.",
+    "For each person in relation to whom approval to become a licensee's ultimate owner or partner is sought, the fee is $945.",
+    "An uncertified copy of an entry in the register of licensees costs $160 per copy, the same as a certified copy.",
+    "An MSO moving from no particular premises to particular premises pays $2,440 per business premises covered by its application."
+   ],
+   "notes": [
+    "Incorrect: item 6 of Schedule 3 charges $945 for each person in relation to whom the application is made, not $945 for each application.",
+    "Correct: items 7 and 8 of Schedule 3 charge $945 for each person in relation to whom the application is made, for approval to become a licensee's ultimate owner and to become a licensee's partner.",
+    "Incorrect: item 2 of Schedule 3 charges $1.5 per page or portion of a page for an uncertified copy of an entry in, or extract from, the register; $160 per copy is the fee in item 1 for certifying a copy.",
+    "Correct: s.39 covers moving from operation without particular premises to particular premises; Schedule 3 item 10 charges $2,440 for each business premises, not only additional premises."
+   ]
+  },
+  "tc": {
+   "q": "關於《打擊洗錢條例》附表3就批准擔任持牌人董事、最終擁有人或合夥人的申請、持牌人登記冊記項的複本，以及改為在特定處所經營金錢服務所訂的費用，下列哪些陳述正確？",
+   "statements": [
+    "申請要求批准擔任持牌人董事的費用，為每宗提出的申請$945。",
+    "就申請批准擔任持牌人最終擁有人或合夥人而言，申請所關乎的每一人須繳費$945。",
+    "提供登記冊內記項的未經核證複本，費用為每份$160，與核證複本相同。",
+    "持牌人由無特定處所改為在特定處所經營金錢服務，其申請按每一營業處所收費$2,440。"
+   ],
+   "notes": [
+    "不正確：附表3第6項訂明的費用，是就提出申請所關乎的每一人收取$945，並非每宗申請收取$945。",
+    "正確：附表3第7及8項訂明，申請要求批准擔任持牌人最終擁有人或持牌人合夥人，均須就提出申請所關乎的每一人繳付$945。",
+    "不正確：附表3第2項訂明，提供登記冊內記項或其摘錄的未經核證複本，按每頁或每頁的部分收費$1.5；每份$160是第1項就核證複本訂明的費用。",
+    "正確：第39條處理原本不在特定處所經營而申請在特定處所經營；附表3第10項按每一營業處所收取$2,440，並非只就額外處所收費。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "04",
+     "text": "Application for an approval to become a licensee's director 945 for each person in relation to whom the application is made"
+    },
+    {
+     "doc": "04",
+     "text": "Application for an approval to become a licensee's ultimate owner 945 for each person in relation to whom the application is made"
+    },
+    {
+     "doc": "04",
+     "text": "For providing an uncertified copy of an entry in, or extract from, the register 1.5 per page or portion of a page"
+    },
+    {
+     "doc": "04",
+     "text": "Application to operate a money service at particular premises 2,440 for each business premises"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "04",
+     "text": "申請要求批准擔任持牌人董事就提出申請所關乎的每一人$945"
+    },
+    {
+     "doc": "04",
+     "text": "申請要求批准擔任持牌人最終擁有人就提出申請所關乎的每一人$945"
+    },
+    {
+     "doc": "04",
+     "text": "提供登記冊內記項或其摘錄的未經核證複本每頁或每頁的部分$1.5"
+    },
+    {
+     "doc": "04",
+     "text": "申請要求在特定處所經營金錢服務每一營業處所$2,440"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m1-224",
+  "module": 1,
+  "truth": [
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   null,
+   "number",
+   null,
+   "number"
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.22–1.25",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.22至1.25段"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following are correct about the maximum penalties for the main money laundering and terrorist financing offences?",
+   "statements": [
+    "Dealing with property while knowing or having reasonable grounds to believe it represents the proceeds of drug trafficking or of an indictable offence carries up to 14 years' imprisonment and a fine of $5 million.",
+    "A person who fails to disclose, as soon as it is reasonable, knowledge or suspicion that property represents another person's proceeds of an indictable offence faces up to 3 months' imprisonment and a fine of $50,000.",
+    "Tipping off, that is disclosing a matter likely to prejudice an investigation after knowing or suspecting that a disclosure has been made, carries a maximum of 7 years' imprisonment and a fine on conviction.",
+    "Providing or collecting property for terrorists, or making property or financial services available to them, is an offence under the UNATMO punishable by up to 14 years' imprisonment and a fine.",
+    "Under the DTROP, the OSCO and the UNATMO, the offence of failing to disclose knowledge or suspicion of the proceeds of crime carries a maximum fine of $500,000 together with 3 months' imprisonment."
+   ],
+   "notes": [
+    "Correct: ¶1.22 says the highest penalty for the section 25 dealing offence upon conviction is imprisonment for 14 years and a fine of $5 million.",
+    "Correct: ¶1.24 says the failure-to-disclose offence carries a maximum term of imprisonment of 3 months and a fine of $50,000 upon conviction.",
+    "Incorrect: ¶1.25 says the maximum penalty for tipping off upon conviction is imprisonment for 3 years and a fine, not 7 years.",
+    "Correct: ¶1.23 says the UNATMO criminalises the provision or collection of property and making property or financial services available to terrorists, with a maximum of 14 years' imprisonment and a fine.",
+    "Incorrect: ¶1.24 puts the maximum fine for failing to disclose at $50,000, together with 3 months' imprisonment; $500,000 is not the figure."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關主要洗錢及恐怖分子資金籌集罪行最高刑罰的陳述，哪些正確？",
+   "statements": [
+    "任何人知道或有合理理由相信某財產代表任何人的販毒或可公訴罪行的得益而仍處理該財產，一經定罪，最高刑罰為監禁14年及罰款五百萬元。",
+    "任何人知悉或懷疑某財產代表他人可公訴罪行的得益，而未能在合理範圍內盡快作出披露，一經定罪，最高刑罰為監禁3個月及罰款50,000元。",
+    "「通風報訊」即知道或懷疑已曾作出披露，仍向其他人披露相當可能損害調查的事宜，一經定罪，最高刑罰為監禁7年及罰款。",
+    "根據《聯合國（反恐怖主義措施）條例》，向恐怖分子提供或籌集財產，或向他們提供任何財產或金融服務，均屬違法，最高刑罰為監禁14年及罰款。",
+    "根據《販毒（追討得益）條例》、《有組織及嚴重罪行條例》及《聯合國（反恐怖主義措施）條例》，不披露知悉或懷疑的最高罰款為500,000元，另加監禁3個月。"
+   ],
+   "notes": [
+    "正確：第1.22段指第25條處理財產罪經定罪後的最高刑罰為監禁14年及罰款五百萬元。",
+    "正確：第1.24段指未能在合理範圍內盡快作出披露的罪行，一經定罪，最高刑罰為監禁3個月及罰款50,000元。",
+    "不正確：第1.25段指通風報訊一經定罪的最高刑罰為監禁3年及罰款，並非7年。",
+    "正確：第1.23段指《聯合國（反恐怖主義措施）條例》訂明向恐怖分子提供或籌集財產及向他們提供財產或金融服務均屬違法，最高刑罰為監禁14年及罰款。",
+    "不正確：第1.24段訂明不披露的最高罰款為50,000元，另加監禁3個月；500,000元並非該罪行的罰款上限。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "The highest penalty for the offence upon conviction is imprisonment for 14 years and a fine of $5 million"
+    },
+    {
+     "doc": "03",
+     "text": "This offence carries a maximum term of imprisonment of 3 months and a fine of $50,000 upon conviction"
+    },
+    {
+     "doc": "03",
+     "text": "The maximum penalty for the offence upon conviction is imprisonment for 3 years and a fine"
+    },
+    {
+     "doc": "03",
+     "text": "criminalizes the provision or collection of property and making any property or financial (or related) services available"
+    },
+    {
+     "doc": "03",
+     "text": "This offence carries a maximum term of imprisonment of 3 months and a fine of $50,000 upon conviction"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "若犯此罪，經定罪後的最高刑罰為監禁14年及罰款五百萬元"
+    },
+    {
+     "doc": "03",
+     "text": "若犯此罪，一經定罪，最高刑罰為監禁3個月及罰款50,000元"
+    },
+    {
+     "doc": "03",
+     "text": "若犯此罪，一經定罪，最高刑罰為監禁3年及罰款"
+    },
+    {
+     "doc": "03",
+     "text": "向恐怖分子或與恐怖分子有聯繫者提供或籌集財產及向他們提供任何財產或金融（或有關的）服務，均屬違法"
+    },
+    {
+     "doc": "03",
+     "text": "若犯此罪，一經定罪，最高刑罰為監禁3個月及罰款50,000元"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m1-225",
+  "module": 1,
+  "truth": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "traps": [
+   null,
+   "name",
+   null,
+   "name",
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.14–1.15 and ¶1.19–1.27",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.14至1.15及1.19至1.27段"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following correctly name the main pieces of Hong Kong legislation concerned with money laundering, terrorist financing and proliferation financing?",
+   "statements": [
+    "The Drug Trafficking (Recovery of Proceeds) Ordinance, Cap. 405, is, alongside the AMLO, one of the main pieces of legislation in Hong Kong concerned with the laundering of criminal proceeds.",
+    "The Organized and Serious Offences Ordinance, Cap. 455, among other things creates the money laundering offence for the proceeds of indictable offences in Hong Kong.",
+    "The United Nations (Anti-Terrorism Measures) Ordinance, Cap. 575, criminalises the provision or collection of property, and the making of property or financial services available, to terrorists or terrorist associates.",
+    "The Weapons of Mass Destruction (Control of Supply of Services) Ordinance, Cap. 526, controls the provision of services that may assist the development of weapons of mass destruction.",
+    "The Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615, imposes customer due diligence and record-keeping requirements on MSOs and gives the CCE powers to supervise compliance with them."
+   ],
+   "notes": [
+    "Correct: ¶1.14 lists the Drug Trafficking (Recovery of Proceeds) Ordinance, Cap. 405, among the six main pieces of legislation, and ¶1.19 describes its proceeds provisions.",
+    "Incorrect: Cap. 455 is the Organized and Serious Crimes Ordinance; ¶1.14 and ¶1.20 use that name, and \"Offences\" is not part of it.",
+    "Correct: ¶1.23 says the UNATMO, Cap. 575, criminalises the provision or collection of property and the making of property or financial (or related) services available to terrorists or terrorist associates.",
+    "Incorrect: Cap. 526 is the Weapons of Mass Destruction (Control of Provision of Services) Ordinance; ¶1.14 and ¶1.27 use \"Provision of Services\", not \"Supply of Services\".",
+    "Correct: ¶1.15 says the AMLO imposes requirements relating to CDD and record-keeping on MSOs and provides the CCE with powers to supervise compliance with these and other requirements under the AMLO."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關香港打擊洗錢、恐怖分子資金籌集及擴散資金籌集主要法例名稱的陳述，哪些正確？",
+   "statements": [
+    "《販毒（追討得益）條例》（第405章）與打擊洗錢條例同屬香港與清洗犯罪得益有關的主要法例之一。",
+    "《有組織及嚴重犯罪條例》（第455章）除其他事項外，訂立了在香港清洗可公訴罪行得益的洗錢罪行。",
+    "《聯合國（反恐怖主義措施）條例》（第575章）訂明向恐怖分子或與其有聯繫者提供或籌集財產及提供財產或金融服務，均屬違法。",
+    "《大規模毀滅武器（提供服務的監管）條例》（第526章）管制可能協助發展大規模毀滅武器的服務的提供。",
+    "《打擊洗錢及恐怖分子資金籌集條例》（第615章）對金錢服務經營者施加客戶盡職審查及備存紀錄規定，並賦予關長監督權力。"
+   ],
+   "notes": [
+    "正確：第1.14段把《販毒（追討得益）條例》（第405章）列為六條主要法例之一，第1.19段說明其追討得益的條文。",
+    "不正確：第455章的名稱是《有組織及嚴重罪行條例》；第1.14及1.20段均用此名，並非「嚴重犯罪條例」。",
+    "正確：第1.23段指《聯合國（反恐怖主義措施）條例》（第575章）訂明向恐怖分子提供或籌集財產及向他們提供財產或金融服務均屬違法。",
+    "不正確：第526章的名稱是《大規模毀滅武器（提供服務的管制）條例》；第1.14及1.27段均用「提供服務的管制」，並非「監管」。",
+    "正確：第1.15段說明打擊洗錢條例將關於客戶盡職審查及備存紀錄的規定施加於金錢服務經營者，並賦予關長權力監督該等規定及條例下其他規定的合規情況。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "the Drug Trafficking (Recovery of Proceeds) Ordinance, Cap. 405 (DTROP), the Organized and Serious Crimes Ordinance, Cap. 455 (OSCO)"
+    },
+    {
+     "doc": "03",
+     "text": "the Organized and Serious Crimes Ordinance, Cap. 455 (OSCO), the United Nations (Anti-Terrorism Measures) Ordinance, Cap. 575 (UNATMO)"
+    },
+    {
+     "doc": "03",
+     "text": "criminalizes the provision or collection of property and making any property or financial (or related) services available"
+    },
+    {
+     "doc": "03",
+     "text": "the Weapons of Mass Destruction (Control of Provision of Services) Ordinance, Cap. 526 (WMD(CPS)O)"
+    },
+    {
+     "doc": "03",
+     "text": "The AMLO imposes requirements relating to customer due diligence (CDD) and record-keeping on MSOs and provides the CCE with powers to supervise compliance with these requirements and other requirements under the AMLO"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "《販毒（追討得益）條例》（第405章）、《有組織及嚴重罪行條例》（第455章）"
+    },
+    {
+     "doc": "03",
+     "text": "《有組織及嚴重罪行條例》（第455章）、《聯合國（反恐怖主義措施）條例》（第575章）"
+    },
+    {
+     "doc": "03",
+     "text": "向恐怖分子或與恐怖分子有聯繫者提供或籌集財產及向他們提供任何財產或金融（或有關的）服務，均屬違法"
+    },
+    {
+     "doc": "03",
+     "text": "《聯合國制裁條例》（第537章）及《大規模毀滅武器（提供服務的管制）條例》（第526章）"
+    },
+    {
+     "doc": "03",
+     "text": "打擊洗錢條例將關於客戶盡職審查（盡職審查）及備存紀錄的規定施加於金錢服務經營者，以及賦予關長權力，以監督該等規定及打擊洗錢條例下的其他規定的合規情況"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m1-226",
+  "module": 1,
+  "truth": [
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   null,
+   "period",
+   null,
+   "actor"
+  ],
+  "source": {
+   "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629, ss.17–18",
+   "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》（第629章）第17至18條"
+  },
+  "en": {
+   "q": "Regarding the seizure and detention of cash-type items (CBNIs) under the Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, which of the following are correct?",
+   "statements": [
+    "CBNIs seized under section 17 on suspicion that they are crime proceeds or terrorist property may be detained for not more than 10 working days after the day of seizure.",
+    "For that purpose a working day is a day that is not a general holiday or a Saturday, and not a black rainstorm warning day or a gale warning day.",
+    "A court order authorising the continued detention of the CBNIs may specify a period of up to 6 months beginning on the date of the order.",
+    "A new order extending the detention must not result in the total period of detention exceeding 2 years beginning on the date of the first order.",
+    "Within the initial detention period, the authorized officer applies to a magistrate for the order authorising the continued detention of the CBNIs."
+   ],
+   "notes": [
+    "Correct: s.17(2) lets an authorized officer detain the CBNIs for a period of not more than 10 working days after the day of seizure, subject to sections 18 and 19.",
+    "Correct: s.17(4) defines a working day as a day that is not a general holiday or a Saturday, or a black rainstorm warning day or gale warning day.",
+    "Incorrect: s.18(3) says the period specified in the order must not exceed 3 months beginning on the date of the order; 6 months is not the limit.",
+    "Correct: s.18(5) says a new order must not result in the total period of detention exceeding 2 years beginning on the date of the first order under s.18(2).",
+    "Incorrect: s.18(1) has the authorized officer apply to the Court, not a magistrate, for an order authorising continued detention."
+   ]
+  },
+  "tc": {
+   "q": "關於《實體貨幣及不記名可轉讓票據跨境流動條例》下檢取及扣留現金類物品的規定，下列哪些陳述正確？",
+   "statements": [
+    "根據第17條因懷疑屬犯罪得益或恐怖分子財產而檢取的現金類物品，扣留不得超過檢取日期後的10個工作日。",
+    "就此而言，「工作日」指並非公眾假期或星期六，亦非黑色暴雨警告日或烈風警告日的任何一個日子。",
+    "法院授權繼續扣留該等現金類物品的命令所指明的期間，不得超過自該命令的日期起計的6個月為限。",
+    "延長扣留的新命令，不得致使現金類物品的總扣留期間，超過自首個法院命令的日期起計的2年。",
+    "獲授權人員須在最初的10個工作日扣留期間內，向裁判官申請授權繼續扣留現金類物品的命令。"
+   ],
+   "notes": [
+    "正確：第17(2)條訂明，在第18及19條規限下，獲授權人員扣留現金類物品的期間不得超過檢取日期後的10個工作日。",
+    "正確：第17(4)條界定工作日為並非公眾假期或星期六，亦非黑色暴雨警告日或烈風警告日的日子。",
+    "不正確：第18(3)條訂明命令指明的期間不得超過自該命令的日期起計的3個月，並非6個月。",
+    "正確：第18(5)條訂明新命令不得致使總扣留期間超過自根據第18(2)條作出的命令的日期起計的2年。",
+    "不正確：第18(1)條訂明獲授權人員向法院而非裁判官申請授權繼續扣留的命令。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "23",
+     "text": "an authorized officer may detain the CBNIs for a period of not more than 10 working days after the day of seizure"
+    },
+    {
+     "doc": "23",
+     "text": "working day (工作日) means a day that is not— (a) a general holiday or a Saturday; or (b) a black rainstorm warning day or gale warning day as defined by section 71(2) of the Interpretation and General Clauses Ordinance (Cap. 1)"
+    },
+    {
+     "doc": "23",
+     "text": "The period must not exceed 3 months beginning on the date of the order"
+    },
+    {
+     "doc": "23",
+     "text": "result in the total period of the detention of the CBNIs exceeding 2 years beginning on the date of the order made under subsection (2)"
+    },
+    {
+     "doc": "23",
+     "text": "apply to the Court for an order to authorize the continued detention of CBNIs"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "23",
+     "text": "獲授權人員可扣留有關現金類物品，惟扣留期間不得超過檢取日期後的10 個工作日"
+    },
+    {
+     "doc": "23",
+     "text": "工作日 (working day) 指並非以下日子的日子 —— (a) 公眾假期或星期六；或 (b) 《釋義及通則條例》( 第1 章) 第71(2) 條所界定的黑色暴雨警告日或烈風警告日"
+    },
+    {
+     "doc": "23",
+     "text": "該期間不得超過自該命令的日期起計的3 個月"
+    },
+    {
+     "doc": "23",
+     "text": "不得致使有關現金類物品的總扣留期間，超過自根據第(2) 款作出的命令的日期起計的2 年"
+    },
+    {
+     "doc": "23",
+     "text": "獲授權人員可在第17(2) 條所述的期間內，向法院申請命令"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m1-227",
+  "module": 1,
+  "truth": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "traps": [
+   null,
+   "number",
+   null,
+   "actor",
+   null
+  ],
+  "source": {
+   "en": "Cap. 629 ss.2(1) and 12(2); C&ED Circular MSSB/MIS_06/2018 (31 Jul 2018) p.1",
+   "tc": "第629章第2(1)及12(2)條；海關通函MSSB/MIS_06/2018（2018年7月31日）第1頁"
+  },
+  "en": {
+   "q": "Regarding the amount and the exchange rates used for the cross-boundary declaration and disclosure of cash-type items (CBNIs), which of the following are correct?",
+   "statements": [
+    "CBNIs are a large quantity for the declaration and disclosure system only where their total value exceeds HK$120,000; exactly HK$120,000 is not a large quantity.",
+    "A traveller who arrives at a specified control point possessing CBNIs with a total value of HK$120,000 or more is in possession of a large quantity and must declare them.",
+    "The reference exchange rate means the opening indicative counter exchange selling rate published by The Hong Kong Association of Banks.",
+    "The reference exchange rate used to value foreign-currency CBNIs is the rate published by the Hong Kong Monetary Authority for the day concerned.",
+    "For CBNIs imported or exported as cargo, the Hong Kong dollar equivalent is calculated at the reference exchange rate published on the 15th day of the preceding month."
+   ],
+   "notes": [
+    "Correct: the circular describes a large quantity of CBNIs as one whose total value is more than HK$120,000, so a total of exactly HK$120,000 does not exceed it.",
+    "Incorrect: a large quantity means a total value exceeding HK$120,000; a total of exactly HK$120,000 does not reach the threshold, so no declaration duty arises from the amount.",
+    "Correct: s.2(1) defines the reference exchange rate as the opening indicative counter exchange selling rate published by The Hong Kong Association of Banks.",
+    "Incorrect: s.2(1) names The Hong Kong Association of Banks, not the Hong Kong Monetary Authority, as the publisher of the reference exchange rate.",
+    "Correct: s.12(2) calculates the equivalent at the reference exchange rate published on the 15th day of the month preceding the month of import or export."
+   ]
+  },
+  "tc": {
+   "q": "關於現金類物品跨境申報及披露制度所用的款額及匯價，下列哪些陳述正確？",
+   "statements": [
+    "現金類物品的總值超過港幣120,000元才屬申報及披露制度所指的「大量」；總值恰好為120,000元並不屬大量。",
+    "旅客抵達指明管制站時管有總值達港幣120,000元或以上的現金類物品，即屬管有大量現金類物品，須作出申報。",
+    "根據第2(1)條，參考匯價指由香港銀行公會所公布的外匯賣出開市參考牌價，用以計算現金類物品的價值。",
+    "用以計算外幣現金類物品港元等值的參考匯價，是香港金融管理局就有關日子所公布的外匯賣出開市牌價。",
+    "以貨物方式輸入或輸出的現金類物品，其港元等值須按對上一個月第15日（參考日）公布的參考匯價計算。"
+   ],
+   "notes": [
+    "正確：通函把「大量」現金類物品描述為總價值高於港幣120,000元，恰好120,000元並未超過該款額。",
+    "不正確：「大量」指總值超過港幣120,000元；恰好120,000元未達門檻，不會因款額而產生申報責任。",
+    "正確：第2(1)條界定參考匯價為香港銀行公會所公布的外匯賣出開市參考牌價。",
+    "不正確：第2(1)條指明公布參考匯價的是香港銀行公會，而非香港金融管理局。",
+    "正確：第12(2)條訂明港元等值按對上一個月第15日（參考日）就有關貨幣公布的參考匯價計算。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "22",
+     "text": "a traveller who arrives in Hong Kong via a specified control point and is in possession of a large quantity of CBNIs (i.e. the total value of which is more than HK$120,000) must make a written declaration to a Customs officer"
+    },
+    {
+     "doc": "22",
+     "text": "a traveller who arrives in Hong Kong via a specified control point and is in possession of a large quantity of CBNIs (i.e. the total value of which is more than HK$120,000) must make a written declaration to a Customs officer"
+    },
+    {
+     "doc": "23",
+     "text": "reference exchange rate (參考匯價) means the opening indicative counter exchange selling rate published by The Hong Kong Association of Banks"
+    },
+    {
+     "doc": "23",
+     "text": "reference exchange rate (參考匯價) means the opening indicative counter exchange selling rate published by The Hong Kong Association of Banks"
+    },
+    {
+     "doc": "23",
+     "text": "calculated at the reference exchange rate for the currency published on the 15th day of the month preceding the month in which the CBNI is imported or exported"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "22",
+     "text": "經指明管制站抵達香港的旅客，如管有大量現金類物品（即總價值高於港幣120,000元），須使用紅綠通道系統下的紅通道，向海關人員作出書面申報"
+    },
+    {
+     "doc": "22",
+     "text": "經指明管制站抵達香港的旅客，如管有大量現金類物品（即總價值高於港幣120,000元），須使用紅綠通道系統下的紅通道，向海關人員作出書面申報"
+    },
+    {
+     "doc": "23",
+     "text": "參考匯價 (reference exchange rate) 指由《香港銀行公會條例》( 第364 章) 第3 條成立為法團的香港銀行公會所公布的外匯賣出開市參考牌價"
+    },
+    {
+     "doc": "23",
+     "text": "參考匯價 (reference exchange rate) 指由《香港銀行公會條例》( 第364 章) 第3 條成立為法團的香港銀行公會所公布的外匯賣出開市參考牌價"
+    },
+    {
+     "doc": "23",
+     "text": "其港元等值須按照在對上一個月的第15 日( 參考日) 就有關貨幣公布的參考匯價，予以計算"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m1-228",
+  "module": 1,
+  "truth": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "traps": [
+   null,
+   "number",
+   null,
+   "condition",
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.13, ¶1.26 and ¶6.9",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.13、1.26及6.9段"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following are correct about the FATF and the United Nations Security Council resolutions it describes?",
+   "statements": [
+    "The FATF is an inter-governmental body formed in 1989 whose objectives are to set standards and promote effective implementation of measures against ML, TF and PF.",
+    "The FATF was established in 1999, and the FATF Recommendations it issues are recognised as the international standard for combating ML, TF and PF.",
+    "The global tier of the Security Council's two-tiered approach to proliferation financing rests on UNSCR 1540 (2004) and its successor resolutions.",
+    "In the country-specific tier, UNSCR 2231 (2015) and its successor resolutions are directed against the Democratic People's Republic of Korea.",
+    "In Hong Kong, most United Nations Security Council resolutions are implemented under the United Nations Sanctions Ordinance, Cap. 537, as the Guideline notes."
+   ],
+   "notes": [
+    "Correct: ¶1.13 describes the FATF as an inter-governmental body established in 1989 to set standards and promote effective implementation of measures against ML, TF and PF.",
+    "Incorrect: ¶1.13 gives 1989, not 1999, as the year the FATF was established.",
+    "Correct: ¶6.9(a) describes the global approach under UNSCR 1540 (2004) and its successor resolutions.",
+    "Incorrect: ¶6.9(b) directs UNSCR 2231 (2015) against the Islamic Republic of Iran; the resolution against the DPRK is UNSCR 1718 (2006).",
+    "Correct: ¶1.26 says most UNSC resolutions are implemented in Hong Kong under the UNSO."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關財務行動特別組織及其所述聯合國安理會決議的陳述，哪些正確？",
+   "statements": [
+    "財務行動特別組織是在1989年成立的跨政府組織，宗旨是制訂標準並推動有效執行打擊洗錢、恐怖分子資金籌集及擴散資金籌集的措施。",
+    "財務行動特別組織在1999年成立，其建議獲承認為打擊洗錢、恐怖分子資金籌集及擴散資金籌集的國際標準。",
+    "聯合國安理會遏止擴散資金籌集的兩個層面中，全球層面以安理會第1540 (2004)號決議及其後續決議為基礎。",
+    "在國家層面，安理會第2231 (2015)號決議及其後續決議是針對朝鮮民主主義人民共和國的。",
+    "在香港，大部分聯合國安理會決議均根據《聯合國制裁條例》（第537章）實施，正如指引所述。"
+   ],
+   "notes": [
+    "正確：第1.13段說明特別組織是在1989年成立的跨政府組織，宗旨是制訂標準並推動有效執行打擊洗錢、恐怖分子資金籌集及擴散資金籌集的措施。",
+    "不正確：第1.13段寫明特別組織在1989年成立，並非1999年。",
+    "正確：第6.9(a)段說明全球層面根據安理會第1540 (2004)號決議及其後續決議。",
+    "不正確：第6.9(b)段的第2231 (2015)號決議是針對伊朗；針對朝鮮的是第1718 (2006)號決議。",
+    "正確：第1.26段指在香港，大部分聯合國安理會決議均根據《聯合國制裁條例》實施。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "The Financial Action Task Force (the FATF) is an inter-governmental body formed in 1989. The objectives of the FATF are to set standards and promote effective implementation of legal, regulatory and operational measures for combating of ML, TF, PF"
+    },
+    {
+     "doc": "03",
+     "text": "The Financial Action Task Force (the FATF) is an inter-governmental body formed in 1989. The objectives of the FATF are to set standards and promote effective implementation of legal, regulatory and operational measures for combating of ML, TF, PF"
+    },
+    {
+     "doc": "03",
+     "text": "global approach under UNSCR 1540 (2004) and its successor resolutions"
+    },
+    {
+     "doc": "03",
+     "text": "country-specific approach under UNSCR 1718 (2006) against the Democratic People’s Republic of Korea (DPRK) and UNSCR 2231 (2015)"
+    },
+    {
+     "doc": "03",
+     "text": "Most UNSCRs are implemented in Hong Kong under the UNSO"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "財務行動特別組織（特別組織）在1989年成立的跨政府組織，其宗旨是制訂標準，並推動有效執行法律、監管及作業措施"
+    },
+    {
+     "doc": "03",
+     "text": "財務行動特別組織（特別組織）在1989年成立的跨政府組織，其宗旨是制訂標準，並推動有效執行法律、監管及作業措施"
+    },
+    {
+     "doc": "03",
+     "text": "在全球層面根據安理會第1540 (2004)號決議及其後續決議"
+    },
+    {
+     "doc": "03",
+     "text": "在國家層面根據針對朝鮮民主主義人民共和國（朝鮮）的安理會第1718 (2006)號決議及針對伊朗伊斯蘭共和國（伊朗）的第2231 (2015)號決議"
+    },
+    {
+     "doc": "03",
+     "text": "在香港，大部分聯合國安理會決議均根據《聯合國制裁條例》實施"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m2-388",
+  "module": 2,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "period",
+   null,
+   null,
+   "period"
+  ],
+  "source": {
+   "en": "AMLO ss.30(10), 31(2), (10)–(12)",
+   "tc": "《打擊洗錢條例》第30(10)、31(2)、(10)至(12)條"
+  },
+  "en": {
+   "q": "Regarding the period of validity of a money service operator licence and the timing of its renewal under the AMLO, which of the following are correct?",
+   "statements": [
+    "Subject to section 34, a licence granted under section 30 is valid for 2 years, or any other period the Commissioner determines in a particular case, beginning on the date of grant.",
+    "An application for the renewal of a licence must be made not later than 30 days before the licence is due to expire, in the form and manner the Commissioner specifies.",
+    "If a renewal application is pending when the licence expires, the licence stays in force until renewed or until a refusal takes effect, unless withdrawn, revoked or suspended.",
+    "A renewal takes effect on the day following the expiration of the licence or, where section 31(10) kept the licence in force, on the day following the day on which it would otherwise have expired.",
+    "Subject to section 34, a licence renewed under section 31 is valid for 3 years, or a shorter period the Commissioner determines, beginning on the day the renewal takes effect."
+   ],
+   "notes": [
+    "Correct: s.30(10) makes a licence valid for 2 years, or any other period determined by the Commissioner in a particular case, beginning on the date on which it is granted.",
+    "Incorrect: s.31(2)(a) requires the renewal application to be made not later than 45 days before the licence is due to expire, not 30 days.",
+    "Correct: s.31(10) keeps a licence in force until it is renewed or the refusal takes effect, unless the application is withdrawn or the licence is revoked or suspended under s.34.",
+    "Correct: s.31(11) makes a renewal take effect on the day following the expiration of the licence or, if s.31(10) applies, on the day following the day on which the licence would have expired but for that subsection.",
+    "Incorrect: s.31(12) makes a renewed licence valid for 2 years, or a shorter period the Commissioner determines; 3 years is not the period."
+   ]
+  },
+  "tc": {
+   "q": "關於《打擊洗錢條例》下金錢服務經營者牌照的有效期及續期時間，下列哪些陳述正確？",
+   "statements": [
+    "除第34條另有規定外，根據第30條批給的牌照有效期為2年，或關長在特定個案中決定的其他期間，自牌照批給當日起計。",
+    "牌照續期的申請須在牌照期滿前30日或之前，以關長指明的格式及方式，由持牌人向關長提出有關申請。",
+    "如牌照在續期申請獲決定前屆滿，除非申請被撤回或牌照被撤銷或暫時吊銷，否則牌照在獲續期或拒絕決定生效前仍然有效。",
+    "續期在牌照有效期屆滿之日的翌日生效；如牌照因第31(10)條而仍然有效，則在若無該款即本應屆滿之日的翌日生效。",
+    "除第34條另有規定外，根據第31條續期的牌照有效期為3年，或關長決定的較短期間，自續期生效當日起計。"
+   ],
+   "notes": [
+    "正確：第30(10)條訂明牌照有效期為2年，或關長在特定個案中決定的其他期間，自牌照批給當日起計。",
+    "不正確：第31(2)(a)條規定續期申請須在牌照期滿前45日或之前提出，並非30日。",
+    "正確：第31(10)條訂明，除非申請被撤回或牌照根據第34條被撤銷或暫時吊銷，否則牌照在獲續期前或拒絕決定生效前仍然有效。",
+    "正確：第31(11)條訂明續期在牌照有效期屆滿之日的翌日生效，或如第31(10)條適用，則在若無該款牌照本應屆滿之日的翌日生效。",
+    "不正確：第31(12)條訂明續期的牌照有效期為2年或關長決定的較短期間，並非3年。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "04",
+     "text": "a licence granted under this section is valid for 2 years or, if the Commissioner considers it appropriate in any particular case, any other period determined by the Commissioner, beginning on the date on which it is granted"
+    },
+    {
+     "doc": "04",
+     "text": "must be made not later than 45 days before the licence is due to expire"
+    },
+    {
+     "doc": "04",
+     "text": "remains in force— (a) until the licence is renewed; or (b) if the renewal is refused, until the Commissioner’s decision to refuse to renew the licence takes effect, unless the application is withdrawn or the licence is revoked or suspended under section 34"
+    },
+    {
+     "doc": "04",
+     "text": "takes effect— (a) on the day following the expiration of the licence"
+    },
+    {
+     "doc": "04",
+     "text": "renewed under this section is valid for 2 years or, if the Commissioner considers it appropriate in any particular case, any shorter period determined by the Commissioner, beginning on the date on which it is renewed"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "04",
+     "text": "根據本條批給的牌照有效期為2 年或( 如關長在特定個案中認為適當的話) 關長決定的其他期間，有效期自該牌照批給當日起計"
+    },
+    {
+     "doc": "04",
+     "text": "在牌照期滿前45 日或之前提出"
+    },
+    {
+     "doc": "04",
+     "text": "(a) 該牌照在獲續期前，仍然有效；或 (b) ( 如該續期申請遭拒絕) 在關長拒絕將該牌照續期的決定生效前，該牌照仍然有效"
+    },
+    {
+     "doc": "04",
+     "text": "在有關牌照的有效期屆滿之日的翌日生效"
+    },
+    {
+     "doc": "04",
+     "text": "根據本條續期的牌照有效期為2 年或( 如關長在特定個案中認為合適的話) 關長決定的較短期間，有效期自該牌照續期生效當日起計"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m2-389",
+  "module": 2,
+  "truth": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "traps": [
+   null,
+   "period",
+   null,
+   "number",
+   null
+  ],
+  "source": {
+   "en": "AMLO ss.39A and 41",
+   "tc": "《打擊洗錢條例》第39A及41條"
+  },
+  "en": {
+   "q": "Regarding a licensee's duties under the AMLO to display its licence and to notify the Commissioner of the cessation of its business, which of the following are correct?",
+   "statements": [
+    "A licensee intending to cease operating a money service must, before the date of cessation, notify the Commissioner in writing of that intention and of the date of cessation.",
+    "The licensee must return the licence to the Commissioner for cancellation or amendment within 14 days beginning on the date of cessation.",
+    "If a licence is returned for cancellation under section 41, no licence fee paid in respect of the grant or renewal of the licence is to be refunded.",
+    "A licensee who, without reasonable excuse, contravenes section 41(1) is liable on conviction to a fine at level 5 and to imprisonment for 6 months.",
+    "A licensee licensed to operate at specified premises must display the original of the licence in a conspicuous place there, and a contravention without reasonable excuse carries a fine at level 5."
+   ],
+   "notes": [
+    "Correct: s.41(1)(a) requires the licensee, before the date of cessation, to notify the Commissioner in writing of the intention and the date of cessation.",
+    "Incorrect: s.41(1)(b) requires the licence to be returned within 7 days beginning on the date of cessation, not 14 days.",
+    "Correct: s.41(3) says that where a licence is returned for cancellation, no licence fee paid for the grant or renewal of the licence is to be refunded.",
+    "Incorrect: s.41(4) makes an unexcused contravention punishable by a fine at level 5 only; it does not add imprisonment.",
+    "Correct: s.39A(1) requires the original licence to be displayed in a conspicuous place at the specified premises, and s.39A(2) sets the penalty at a fine at level 5."
+   ]
+  },
+  "tc": {
+   "q": "關於《打擊洗錢條例》下持牌人展示牌照及向關長具報停業的責任，下列哪些陳述正確？",
+   "statements": [
+    "持牌人如擬停止經營金錢服務，須在停業日期前，藉書面向關長具報該意向及停業日期。",
+    "持牌人須在自停業日期起計的14日內，將牌照交回關長，以作取消或修訂。",
+    "如牌照根據第41條交回以作取消，已就該牌照的批給或續期繳付的牌照費不予退回。",
+    "持牌人無合理辯解而違反第41(1)條，一經定罪，可處第5級罰款及監禁6個月。",
+    "獲發牌在指明處所經營的持牌人，須在該處所的顯眼地方展示牌照正本，違反可處第5級罰款。"
+   ],
+   "notes": [
+    "正確：第41(1)(a)條規定持牌人須在停業日期前，藉書面向關長具報該意向及停業日期。",
+    "不正確：第41(1)(b)條規定須在自停業日期起計的7日內交回牌照，並非14日。",
+    "正確：第41(3)條訂明牌照根據本條交回以作取消，已就批給或續期繳付的牌照費不予退回。",
+    "不正確：第41(4)條訂明無合理辯解而違反只可處第5級罰款，並無監禁。",
+    "正確：第39A(1)條規定在指明處所的顯眼地方展示牌照正本，第39A(2)條訂明罰則為第5級罰款。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "04",
+     "text": "before the date of cessation, notify the Commissioner in writing of that intention and the date of cessation"
+    },
+    {
+     "doc": "04",
+     "text": "return the licence to the Commissioner for cancellation or amendment within 7 days beginning on the date of cessation"
+    },
+    {
+     "doc": "04",
+     "text": "If a licence is returned for cancellation under this section, no licence fee paid in respect of the grant or renewal of the licence is to be refunded"
+    },
+    {
+     "doc": "04",
+     "text": "A licensee who, without reasonable excuse, contravenes subsection (1) commits an offence and is liable on conviction to a fine at level 5. 42"
+    },
+    {
+     "doc": "04",
+     "text": "must display the original of the licence in a conspicuous place at the specified premises"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "04",
+     "text": "在停業日期前，藉書面向關長具報該意向及停業日期"
+    },
+    {
+     "doc": "04",
+     "text": "在自停業日期起計的7 日內，將該牌照交回關長，以作取消或修訂"
+    },
+    {
+     "doc": "04",
+     "text": "如有牌照根據本條交回以作取消，已就該牌照的批給或續期繳付的牌照費不予退回"
+    },
+    {
+     "doc": "04",
+     "text": "任何持牌人無合理辯解而違反第(1) 款，即屬犯罪，一經定罪，可處第5 級罰款。 42. 牌照在持牌人去世等時不再有效"
+    },
+    {
+     "doc": "04",
+     "text": "領有牌照在牌照指明的處所經營金錢服務的持牌人，須在該指明的處所內的一處顯眼地方，展示該牌照的正本"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m2-390",
+  "module": 2,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "number",
+   null,
+   null,
+   "number"
+  ],
+  "source": {
+   "en": "AMLO ss.21(2)–(4) and 43(2)–(4)",
+   "tc": "《打擊洗錢條例》第21(2)至(4)及43(2)至(4)條"
+  },
+  "en": {
+   "q": "Regarding the pecuniary penalties the AMLO lets a relevant authority impose on a financial institution for contravening a specified provision, and the Commissioner impose on a money service licensee for licensing breaches, which of the following are correct?",
+   "statements": [
+    "Under section 21 the relevant authority may order a financial institution to pay a pecuniary penalty not exceeding the greater of $10,000,000 or 3 times the profit gained or costs avoided as a result of the contravention.",
+    "Under section 43 the Commissioner may order a licensee that has breached a condition of its licence to pay a pecuniary penalty of up to $10,000,000 for the breach.",
+    "A licensee ordered to pay a section 43 penalty must pay it within 30 days, or any longer period the Commissioner specifies by notice, after the order takes effect as a specified decision.",
+    "If a financial institution fails to comply with a section 21 remedial order, the relevant authority may further order a daily penalty not exceeding $100,000 for each day the failure continues after the specified date.",
+    "If a licensee fails to comply with a section 43 remedial order, the Commissioner may further order a daily pecuniary penalty not exceeding $50,000 for each day on which the failure continues."
+   ],
+   "notes": [
+    "Correct: s.21(2)(c) caps the penalty at the greater of $10,000,000 or 3 times the amount of the profit gained, or costs avoided, as a result of the contravention.",
+    "Incorrect: s.43(2)(c) caps the licensing penalty at $1,000,000; $10,000,000 is the section 21 figure for financial institutions.",
+    "Correct: s.43(3) requires payment within 30 days, or any longer period the Commissioner specifies by notice under s.44(2), after the order has taken effect under s.75.",
+    "Correct: s.21(4) allows a further daily pecuniary penalty not exceeding $100,000 for each day on which the failure continues after the date specified in the order.",
+    "Incorrect: s.43(4) caps the daily penalty for a licensee at $10,000 for each day on which the failure continues, not $50,000."
+   ]
+  },
+  "tc": {
+   "q": "關於《打擊洗錢條例》容許有關當局就違反指明的條文對金融機構施加，以及關長就發牌違規對金錢服務持牌人施加的罰款，下列哪些陳述正確？",
+   "statements": [
+    "根據第21條，有關當局可命令金融機構繳付罰款，最高數額為$10,000,000或因違反而獲取的利潤或避免的開支的3倍，以較大者為準。",
+    "根據第43條，關長可命令違反其牌照任何條件的持牌人，就該項違反繳付不超逾$10,000,000的罰款。",
+    "被命令繳付第43條罰款的持牌人，須在命令作為指明決定生效後的30日內，或關長藉通知指明的較長期間內繳付。",
+    "如金融機構沒有遵從第21條飭令採取糾正行動的命令，有關當局可進一步命令就限期後持續的每一日，繳付不超逾$100,000的按日罰款。",
+    "如持牌人沒有遵從第43條命令採取糾正行動的命令，關長可進一步命令就持續的每一日，繳付不超逾$50,000的按日罰款。"
+   ],
+   "notes": [
+    "正確：第21(2)(c)條訂明罰款上限為$10,000,000或因違反而獲取的利潤或避免的開支的3倍，以較大者為準。",
+    "不正確：第43(2)(c)條的發牌罰款上限為$1,000,000；$10,000,000是第21條對金融機構的數額。",
+    "正確：第43(3)條規定須在命令根據第75條生效後的30日內，或關長根據第44(2)條藉通知指明的較長期間內繳付。",
+    "正確：第21(4)條容許就限期後持續不遵從的每一日，進一步命令繳付不超逾$100,000的按日罰款。",
+    "不正確：第43(4)條訂明持牌人的按日罰款上限為每日$10,000，並非$50,000。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "04",
+     "text": "pay a pecuniary penalty not exceeding the amount that is the greater of— (i) $10,000,000; or (ii) 3 times the amount of the profit gained, or costs avoided, by the financial institution as a result of the contravention"
+    },
+    {
+     "doc": "04",
+     "text": "to order the licensee to pay a pecuniary penalty not exceeding $1,000,000"
+    },
+    {
+     "doc": "04",
+     "text": "must pay the penalty within— (a) 30 days; or (b) any longer period that the Commissioner may specify by notice under section 44(2), after the order has taken effect as a specified decision under section 75"
+    },
+    {
+     "doc": "04",
+     "text": "may further order the financial institution to pay a daily pecuniary penalty not exceeding $100,000 for each day on which the failure continues"
+    },
+    {
+     "doc": "04",
+     "text": "may further order the licensee to pay a daily pecuniary penalty not exceeding $10,000 for each day on which the failure continues"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "04",
+     "text": "命令該機構繳付最高數額如下( 以金額較大者為準) 的罰款 —— (i) $10,000,000；或 (ii) 因該項違反而令該機構獲取的利潤或避免的開支的金額的3 倍"
+    },
+    {
+     "doc": "04",
+     "text": "命令有關持牌人繳付不多於$1,000,000 的罰款"
+    },
+    {
+     "doc": "04",
+     "text": "根據本條被命令繳付罰款的持牌人，須在該命令根據第75 條作為指明決定而生效後的以下期間內，繳付該罰款 —— (a) 30 日；或 (b) 關長根據第44(2) 條指明的較長期間"
+    },
+    {
+     "doc": "04",
+     "text": "就沒有遵從命令的狀況於該命令指明的採取糾正行動的限期後持續的每一日，繳付不超逾$100,000 的按日罰款"
+    },
+    {
+     "doc": "04",
+     "text": "關長可進一步命令該持牌人，就沒有遵從首述命令的狀況在首述命令指明的採取糾正行動的期限後持續的每一日，繳付不超逾$10,000 的按日罰款"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m2-391",
+  "module": 2,
+  "truth": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "traps": [
+   null,
+   "period",
+   null,
+   "number",
+   null
+  ],
+  "source": {
+   "en": "AMLO ss.17(1), 52 and 53",
+   "tc": "《打擊洗錢條例》第17(1)、52及53條"
+  },
+  "en": {
+   "q": "Regarding the time limits and penalties the AMLO attaches to warrants, false information in applications and the prosecution of Part 5 offences, which of the following are correct?",
+   "statements": [
+    "Proceedings for an offence under Part 5, other than an indictable offence, may be instituted within 12 months after the offence is discovered by, or comes to the notice of, the Commissioner.",
+    "Proceedings for a non-indictable Part 5 offence must be instituted within 6 months after the offence is discovered by, or comes to the notice of, the Commissioner.",
+    "A person who, in an application, gives information that is false or misleading in a material particular, knowing that or reckless as to it, is liable to a fine at level 5 and imprisonment for 6 months.",
+    "A person who knowingly or recklessly gives materially false or misleading information in an application is liable on conviction to a fine at level 6 and to imprisonment for 2 years.",
+    "A warrant issued under section 17 authorises entry to the premises, if necessary by force, at any time within the period of 7 days beginning on the date of the warrant."
+   ],
+   "notes": [
+    "Correct: s.53 allows proceedings for a non-indictable Part 5 offence within 12 months after the offence is discovered by, or comes to the notice of, the Commissioner, despite s.26 of the Magistrates Ordinance.",
+    "Incorrect: s.53 gives 12 months, not 6 months, after the offence is discovered by or comes to the notice of the Commissioner.",
+    "Correct: s.52(3) makes the offence of giving materially false or misleading information punishable by a fine at level 5 and imprisonment for 6 months.",
+    "Incorrect: s.52(3) sets the penalty at a fine at level 5 and imprisonment for 6 months, not level 6 and 2 years.",
+    "Correct: s.17(1)(a) authorises entry to the premises, if necessary by force, at any time within the period of 7 days beginning on the date of the warrant."
+   ]
+  },
+  "tc": {
+   "q": "關於《打擊洗錢條例》就手令、申請中的虛假資料及檢控第5部罪行所訂的時限及罰則，下列哪些陳述正確？",
+   "statements": [
+    "就第5部所訂罪行（可公訴罪行除外）提出的法律程序，可於關長發現或知悉有關罪行後12個月內提出。",
+    "就第5部所訂非可公訴罪行提出的法律程序，須於關長發現或知悉有關罪行後6個月內提出。",
+    "任何人在申請中提供明知或罔顧是否在要項上屬虛假或具誤導性的資料，一經定罪，可處第5級罰款及監禁6個月。",
+    "任何人在申請中明知或罔顧地提供在要項上屬虛假或具誤導性的資料，一經定罪，可處第6級罰款及監禁2年。",
+    "根據第17條發出的手令，授權在手令日期起計的7日期間內的任何時間進入有關處所，如有必要可強行進入。"
+   ],
+   "notes": [
+    "正確：第53條訂明，即使《裁判官條例》第26條有任何規定，第5部非可公訴罪行的法律程序可於關長發現或知悉有關罪行後12個月內提出。",
+    "不正確：第53條訂明的時限是關長發現或知悉罪行後12個月，並非6個月。",
+    "正確：第52(3)條訂明提供在要項上屬虛假或具誤導性資料的罪行，一經定罪，可處第5級罰款及監禁6個月。",
+    "不正確：第52(3)條的罰則是第5級罰款及監禁6個月，並非第6級罰款及監禁2年。",
+    "正確：第17(1)(a)條授權在手令日期起計的7日期間內的任何時間進入處所，如有必要可強行進入。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "04",
+     "text": "proceedings may be instituted for an offence, other than an indictable offence, under this Part within 12 months after the offence is discovered by, or comes to the notice of, the Commissioner"
+    },
+    {
+     "doc": "04",
+     "text": "proceedings may be instituted for an offence, other than an indictable offence, under this Part within 12 months after the offence is discovered by, or comes to the notice of, the Commissioner"
+    },
+    {
+     "doc": "04",
+     "text": "is liable on conviction to a fine at level 5 and to imprisonment for 6 months. 53. Time limit for prosecution"
+    },
+    {
+     "doc": "04",
+     "text": "is liable on conviction to a fine at level 5 and to imprisonment for 6 months. 53. Time limit for prosecution"
+    },
+    {
+     "doc": "04",
+     "text": "enter the premises, if necessary by force, at any time within the period of 7 days beginning on the date of the warrant"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "04",
+     "text": "可於關長發現或知悉有關罪行後12 個月內提出"
+    },
+    {
+     "doc": "04",
+     "text": "可於關長發現或知悉有關罪行後12 個月內提出"
+    },
+    {
+     "doc": "04",
+     "text": "任何人犯第(1) 或(2) 款所訂罪行，一經定罪，可處第5 級罰款及監禁6 個月。 53. 檢控時限"
+    },
+    {
+     "doc": "04",
+     "text": "任何人犯第(1) 或(2) 款所訂罪行，一經定罪，可處第5 級罰款及監禁6 個月。 53. 檢控時限"
+    },
+    {
+     "doc": "04",
+     "text": "在自該手令日期起計的7 日的期間內，隨時進入該處所，而如有必要，可強行進入"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m2-392",
+  "module": 2,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "period",
+   null,
+   null,
+   "number"
+  ],
+  "source": {
+   "en": "AMLO ss.56(1) and 59(1)–(3)",
+   "tc": "《打擊洗錢條例》第56(1)及59(1)至(3)條"
+  },
+  "en": {
+   "q": "Regarding applications to the Anti-Money Laundering and Counter-Terrorist Financing Review Tribunal and its composition, which of the following are correct?",
+   "statements": [
+    "A person aggrieved by a specified decision may apply to the Tribunal for a review within the period of 21 days after the notice informing the person of the decision has been sent.",
+    "The 21 days allowed for applying for a review begin on the day the person receives the notice informing the person of the decision, rather than the day it is sent.",
+    "The Tribunal may by order extend the time for applying, but only after the applicant and the specified authority have had a reasonable opportunity to be heard and if satisfied there is good cause.",
+    "Except as Schedule 4 otherwise provides, the Tribunal consists of a chairperson and 2 other members, who are appointed by the Secretary.",
+    "Except as Schedule 4 otherwise provides, the Tribunal consists of a chairperson and 4 other members, who are appointed by the Secretary."
+   ],
+   "notes": [
+    "Correct: s.59(1) allows the application within the period of 21 days after the notice informing the person of the decision has been sent.",
+    "Incorrect: s.59(1) runs the 21 days from the sending of the notice; receipt by the person is not the starting event.",
+    "Correct: s.59(2)–(3) allow an extension by order only after the applicant and the specified authority have had a reasonable opportunity to be heard and the Tribunal is satisfied there is good cause.",
+    "Correct: s.56(1) provides that, except as otherwise provided in Schedule 4, the Tribunal consists of a chairperson and 2 other members appointed by the Secretary.",
+    "Incorrect: s.56(1) provides for 2 other members besides the chairperson, not 4."
+   ]
+  },
+  "tc": {
+   "q": "關於向打擊洗錢及恐怖分子資金籌集覆核審裁處申請覆核及審裁處的組成，下列哪些陳述正確？",
+   "statements": [
+    "因指明決定感到受屈的人，可在告知該決定的通知送出後的21日期間，向審裁處申請覆核該決定。",
+    "申請覆核的21日期間，由該人接獲告知決定的通知當日起計，而非由通知送出當日起計。",
+    "審裁處可藉命令延展申請限期，但須先讓申請人及指明當局獲給予合理的陳詞機會，並信納有良好因由。",
+    "除附表4另有規定外，審裁處由局長委任的一名主席及2名其他成員組成。",
+    "除附表4另有規定外，審裁處由局長委任的一名主席及4名其他成員組成。"
+   ],
+   "notes": [
+    "正確：第59(1)條容許在告知決定的通知送出後的21日期間內提出覆核申請。",
+    "不正確：第59(1)條的21日由通知送出當日起計，接獲通知並非起算事件。",
+    "正確：第59(2)至(3)條訂明審裁處只有在申請人及指明當局均獲合理陳詞機會，並信納有良好因由時，才可藉命令批給延展。",
+    "正確：第56(1)條訂明，除附表4另有規定外，審裁處由局長委任的一名主席及2名其他成員組成。",
+    "不正確：第56(1)條訂明主席以外的其他成員是2名，並非4名。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "04",
+     "text": "notice informing the person of the decision has been sent"
+    },
+    {
+     "doc": "04",
+     "text": "notice informing the person of the decision has been sent"
+    },
+    {
+     "doc": "04",
+     "text": "after the applicant and the specified authority have been given a reasonable opportunity to be heard; and (b) if it is satisfied that there is a good cause for granting the extension"
+    },
+    {
+     "doc": "04",
+     "text": "the Tribunal consists of— (a) a chairperson; and (b) 2 other members, appointed by the Secretary"
+    },
+    {
+     "doc": "04",
+     "text": "the Tribunal consists of— (a) a chairperson; and (b) 2 other members, appointed by the Secretary"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "04",
+     "text": "可在告知該決定的通知送出後的21 日期間，向審裁處申請覆核該決定"
+    },
+    {
+     "doc": "04",
+     "text": "可在告知該決定的通知送出後的21 日期間，向審裁處申請覆核該決定"
+    },
+    {
+     "doc": "04",
+     "text": "(a) 申請人及指明當局均已獲給予合理的陳詞機會；及 (b) 審裁處信納有良好因由批給延展"
+    },
+    {
+     "doc": "04",
+     "text": "審裁處由局長委任的以下人士組成 —— (a) 一名主席；及 (b) 2 名其他成員"
+    },
+    {
+     "doc": "04",
+     "text": "審裁處由局長委任的以下人士組成 —— (a) 一名主席；及 (b) 2 名其他成員"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m2-393",
+  "module": 2,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "number",
+   null,
+   null,
+   "number"
+  ],
+  "source": {
+   "en": "AMLO ss.5(5)–(6) and 10(1)–(2)",
+   "tc": "《打擊洗錢條例》第5(5)至(6)及10(1)至(2)條"
+  },
+  "en": {
+   "q": "Regarding the penalties the AMLO sets for contravening a specified provision and for failing to comply with a requirement imposed under the routine inspection power, which of the following are correct?",
+   "statements": [
+    "Knowingly contravening a specified provision exposes a financial institution, on conviction on indictment, to a fine of $1,000,000 and to imprisonment for 2 years.",
+    "A financial institution that contravenes a specified provision with intent to defraud a relevant authority is liable on conviction on indictment to a fine of $1,000,000 and to imprisonment for 5 years.",
+    "On summary conviction, contravening a specified provision with intent to defraud a relevant authority carries a fine of $500,000 and imprisonment for 1 year.",
+    "A person who, without reasonable excuse, fails to comply with a requirement imposed under section 9 is liable on conviction on indictment to a fine of $200,000 and to imprisonment for 1 year.",
+    "On summary conviction, failing without reasonable excuse to comply with a section 9 requirement carries a fine at level 6 and imprisonment for 6 months."
+   ],
+   "notes": [
+    "Correct: s.5(5)(a) makes a knowing contravention punishable on indictment by a fine of $1,000,000 and imprisonment for 2 years.",
+    "Incorrect: s.5(6)(a) sets the indictable penalty for the intent-to-defraud offence at $1,000,000 and imprisonment for 7 years, not 5 years.",
+    "Correct: s.5(6)(b) sets the summary penalty for the intent-to-defraud offence at a fine of $500,000 and imprisonment for 1 year.",
+    "Correct: s.10(2)(a) makes the unexcused failure punishable on indictment by a fine of $200,000 and imprisonment for 1 year.",
+    "Incorrect: s.10(2)(b) sets the summary penalty at a fine at level 5 and imprisonment for 6 months; level 6 is the figure for the section 5 offence."
+   ]
+  },
+  "tc": {
+   "q": "關於《打擊洗錢條例》就違反指明的條文及不遵從根據例行查察權力施加的要求所訂的罰則，下列哪些陳述正確？",
+   "statements": [
+    "金融機構明知而違反指明的條文，循公訴程序定罪後可被判處的刑罰為罰款$1,000,000及監禁2年。",
+    "金融機構出於詐騙有關當局的意圖而違反指明的條文，一經循公訴程序定罪，可處罰款$1,000,000及監禁5年。",
+    "出於詐騙有關當局的意圖而違反指明的條文，一經循簡易程序定罪，可處罰款$500,000及監禁1年。",
+    "任何人無合理辯解而沒有遵從根據第9條施加的要求，一經循公訴程序定罪，可處罰款$200,000及監禁1年。",
+    "無合理辯解而沒有遵從第9條的要求，一經循簡易程序定罪，可處第6級罰款及監禁6個月。"
+   ],
+   "notes": [
+    "正確：第5(5)(a)條訂明明知而違反，一經循公訴程序定罪，可處罰款$1,000,000及監禁2年。",
+    "不正確：第5(6)(a)條訂明出於詐騙意圖的罪行循公訴程序定罪可處罰款$1,000,000及監禁7年，並非5年。",
+    "正確：第5(6)(b)條訂明出於詐騙意圖的罪行循簡易程序定罪可處罰款$500,000及監禁1年。",
+    "正確：第10(2)(a)條訂明無合理辯解而不遵從，循公訴程序定罪可處罰款$200,000及監禁1年。",
+    "不正確：第10(2)(b)條訂明循簡易程序定罪可處第5級罰款及監禁6個月；第6級是第5條罪行的罰款級別。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "04",
+     "text": "institution knowingly contravenes a specified provision, the financial institution commits an offence and is liable— (a) on conviction on indictment to a fine of $1,000,000 and to imprisonment for 2 years"
+    },
+    {
+     "doc": "04",
+     "text": "on conviction on indictment to a fine of $1,000,000 and to imprisonment for 7 years"
+    },
+    {
+     "doc": "04",
+     "text": "on conviction on indictment to a fine of $1,000,000 and to imprisonment for 7 years; or (b) on summary conviction to a fine of $500,000 and to imprisonment for 1 year"
+    },
+    {
+     "doc": "04",
+     "text": "on conviction on indictment to a fine of $200,000 and to imprisonment for 1 year"
+    },
+    {
+     "doc": "04",
+     "text": "on conviction on indictment to a fine of $200,000 and to imprisonment for 1 year; or (b) on summary conviction to a fine at level 5 and to imprisonment for 6 months"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "04",
+     "text": "一經循公訴程序定罪，可處罰款$1,000,000 及監禁2 年"
+    },
+    {
+     "doc": "04",
+     "text": "一經循公訴程序定罪，可處罰款$1,000,000 及監禁7 年"
+    },
+    {
+     "doc": "04",
+     "text": "一經循簡易程序定罪，可處罰款$500,000 及監禁1 年"
+    },
+    {
+     "doc": "04",
+     "text": "一經循公訴程序定罪，可處罰款$200,000 及監禁1 年"
+    },
+    {
+     "doc": "04",
+     "text": "一經循公訴程序定罪，可處罰款$200,000 及監禁1 年；或 (b) 一經循簡易程序定罪，可處第5級罰款及監禁6個月"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m3-348",
+  "module": 3,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "number",
+   null,
+   null,
+   "condition"
+  ],
+  "source": {
+   "en": "AMLO Sch. 2 s.3(1), (1A) and (2)",
+   "tc": "《打擊洗錢條例》附表2第3(1)、(1A)及(2)條"
+  },
+  "en": {
+   "q": "Regarding when Schedule 2 to the AMLO requires customer due diligence measures to be carried out, which of the following are correct?",
+   "statements": [
+    "CDD must be carried out before an occasional transaction involving an amount equal to or above $120,000, whether it is carried out in a single operation or in several operations that appear to be linked.",
+    "An occasional transaction that is a wire transfer requires CDD only where it involves an amount equal to or above $120,000; a smaller wire transfer is governed by section 12 alone.",
+    "An occasional transaction that is a virtual asset transfer requires CDD where the virtual assets involved amount to no less than $8,000, in one operation or several linked ones.",
+    "CDD must be carried out when the institution suspects that the customer or the customer's account is involved in money laundering or terrorist financing, whatever the amount.",
+    "Where verifying identity first would interrupt the normal conduct of business, an institution may verify after establishing the business relationship without needing to satisfy any other condition."
+   ],
+   "notes": [
+    "Correct: s.3(1)(b) of Schedule 2 requires CDD before an occasional transaction involving an amount equal to or above $120,000, in a single operation or in several operations that appear to be linked.",
+    "Incorrect: s.3(1A)(a) of Schedule 2 sets the occasional-transaction threshold for a wire transfer at an amount equal to or above $8,000, not $120,000.",
+    "Correct: s.3(1A)(b) of Schedule 2 covers a virtual asset transfer involving virtual assets that amount to no less than $8,000.",
+    "Correct: s.3(1)(d) of Schedule 2 requires CDD when the institution suspects that the customer or the customer's account is involved in money laundering or terrorist financing; no amount is attached.",
+    "Incorrect: s.3(2) of Schedule 2 allows later verification only if that is necessary not to interrupt the normal conduct of business and any resulting ML/TF risk is effectively managed; both conditions apply."
+   ]
+  },
+  "tc": {
+   "q": "關於《打擊洗錢條例》附表2規定何時須執行客戶盡職審查措施，下列哪些陳述正確？",
+   "statements": [
+    "在執行涉及相等於$120,000或以上款額的非經常交易前須執行客戶盡職審查，不論以單一次或有關連的若干次操作執行。",
+    "屬電傳轉賬的非經常交易在涉及相等於$120,000或以上的款額時才須客戶盡職審查；較小額者由第12條規管。",
+    "屬虛擬資產轉賬的非經常交易，如涉及相當於不少於$8,000的虛擬資產，不論以單一次或有關連的若干次操作執行，均須客戶盡職審查。",
+    "當機構懷疑客戶或客戶的戶口涉及洗錢或恐怖分子資金籌集時，不論款額多少，均須執行客戶盡職審查措施。",
+    "如先行核實身分會干擾業務的正常運作，機構可在建立業務關係之後才核實身分，而無需符合任何其他條件。"
+   ],
+   "notes": [
+    "正確：附表2第3(1)(b)條規定，在執行涉及相等於$120,000或以上款額的非經常交易之前須執行客戶盡職審查，不論是以單一次操作或以覺得有關連的若干次操作執行。",
+    "不正確：附表2第3(1A)(a)條把電傳轉賬的非經常交易門檻定為相等於$8,000或以上，並非$120,000。",
+    "正確：附表2第3(1A)(b)條涵蓋涉及相當於不少於$8,000的虛擬資產的虛擬資產轉賬。",
+    "正確：附表2第3(1)(d)條規定，當機構懷疑客戶或客戶的戶口涉及洗錢或恐怖分子資金籌集時須執行客戶盡職審查，並無款額限制。",
+    "不正確：附表2第3(2)條只容許在為不干擾業務正常運作而屬必需，而且所引致的洗錢或恐怖分子資金籌集風險已獲有效管理的情況下才延後核實；兩項條件均須符合。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "04",
+     "text": "before carrying out for the customer an occasional transaction involving an amount equal to or above $120,000 or an equivalent amount in any other currency, whether the transaction is carried out in a single operation or in several operations that appear to the financial institution or the DNFBP to be linked"
+    },
+    {
+     "doc": "04",
+     "text": "a wire transfer involving an amount equal to or above $8,000 or an equivalent amount in any other currency"
+    },
+    {
+     "doc": "04",
+     "text": "a virtual asset transfer involving virtual assets that amount to no less than $8,000"
+    },
+    {
+     "doc": "04",
+     "text": "when the financial institution or the DNFBP suspects that the customer or the customer’s account is involved in money laundering or terrorist financing"
+    },
+    {
+     "doc": "04",
+     "text": "this is necessary not to interrupt the normal conduct of business with regard to the customer; and (b) any risk of money laundering or terrorist financing that may be caused by carrying out the verification after establishing the business relationship is effectively managed"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "04",
+     "text": "在為該客戶執行涉及相等於$120,000 或以上的款額( 或折算為任何其他貨幣的相同款額) 的非經常交易之前，不論該交易是以單一次操作執行，或是以該機構或該人士覺得是有關連的若干次操作執行"
+    },
+    {
+     "doc": "04",
+     "text": "屬電傳轉賬，並涉及相等於$8,000 或以上的款額( 或折算為任何其他貨幣的相同款額)"
+    },
+    {
+     "doc": "04",
+     "text": "屬虛擬資產轉賬，並涉及相當於不少於$8,000 的虛擬資產"
+    },
+    {
+     "doc": "04",
+     "text": "當該機構或該人士懷疑客戶或客戶的戶口涉及洗錢或恐怖分子資金籌集時"
+    },
+    {
+     "doc": "04",
+     "text": "與為就客戶的業務正常運作不造成干擾，如此行事是必需的；及 (b) 在業務關係建立之後才進行核實而可能引致的洗錢或恐怖分子資金籌集風險，已獲有效管理"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m3-349",
+  "module": 3,
+  "truth": [
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   null,
+   "number",
+   null,
+   "number"
+  ],
+  "source": {
+   "en": "AMLO s.5(4) and Sch. 2 s.4(4)–(5)",
+   "tc": "《打擊洗錢條例》第5(4)條及附表2第4(4)至(5)條"
+  },
+  "en": {
+   "q": "Regarding the product-based simplified due diligence in Schedule 2 to the AMLO and the stored value limit below which Schedule 2 does not apply to a stored value facility, which of the following are correct?",
+   "statements": [
+    "Where the product related to the transaction falls within section 4(5), the institution may carry out only the measures in section 2(1)(a), (ab), (c) and (d) of Schedule 2 instead of all the CDD measures.",
+    "A life insurance policy qualifies as such a product where an annual premium of no more than $8,000, or an equivalent amount in another currency, is payable.",
+    "A life insurance policy also qualifies where a single premium of no more than $50,000, or an equivalent amount in another currency, is payable.",
+    "A retirement scheme qualifies where it provides retirement benefits to employees, contributions are deducted from income from employment and the rules do not permit the assignment of a member's interest.",
+    "Schedule 2 applies to the issue of a stored value facility by an SVF licensee or a bank only if the maximum value that can be stored on the facility exceeds $8,000."
+   ],
+   "notes": [
+    "Correct: s.4(4) of Schedule 2 lets the institution carry out only the measures in s.2(1)(a), (ab), (c) and (d) where it reasonably believes the product falls within s.4(5).",
+    "Correct: s.4(5)(c)(i) of Schedule 2 names a life insurance policy under which an annual premium of no more than $8,000 or an equivalent amount in any other currency is payable.",
+    "Incorrect: s.4(5)(c)(ii) of Schedule 2 sets the single-premium limit at no more than $20,000, not $50,000.",
+    "Correct: s.4(5)(a) of Schedule 2 describes a provident, pension, retirement or superannuation scheme meeting those three conditions.",
+    "Incorrect: s.5(4)(a) of the AMLO applies Schedule 2 to such a stored value facility only if the maximum value that can be stored on it exceeds $3,000, not $8,000."
+   ]
+  },
+  "tc": {
+   "q": "關於《打擊洗錢條例》附表2以產品為本的簡化客戶盡職審查，以及附表2不就儲值支付工具適用的儲值限額，下列哪些陳述正確？",
+   "statements": [
+    "如產品屬第4(5)條所指的產品，機構可只執行附表2第2(1)(a)、(ab)、(c)及(d)條所列措施，無需執行全部。",
+    "人壽保險單如須繳付的每年保費不多於$8,000（或折算為任何其他貨幣的相同款額），即屬該類產品之一。",
+    "人壽保險單如須繳付的一筆整付保費不多於$50,000（或折算為任何其他貨幣的相同款額），亦屬該類產品之一。",
+    "向僱員提供退休福利的退休計劃，如供款是從受僱工作的入息中扣減，且計劃規則不准許轉讓成員利益，亦屬該類產品。",
+    "在可儲存於儲值支付工具的最高價值超逾$8,000的情況下，附表2才就工具持牌人或銀行發行該工具而適用於該工具。"
+   ],
+   "notes": [
+    "正確：附表2第4(4)條訂明，機構如有合理理由相信產品屬第4(5)條所指的產品，可只執行第2(1)(a)、(ab)、(c)及(d)條所列的措施。",
+    "正確：附表2第4(5)(c)(i)條指明須繳付的每年保費不多於$8,000（或折算為任何其他貨幣的相同款額）的人壽保險單。",
+    "不正確：附表2第4(5)(c)(ii)條把一筆整付保費的上限定為不多於$20,000，並非$50,000。",
+    "正確：附表2第4(5)(a)條描述符合該三項條件的公積金計劃、退休金計劃、退休計劃或離職金計劃。",
+    "不正確：《打擊洗錢條例》第5(4)(a)條訂明，只有在可儲存於該工具的最高價值超逾$3,000時附表2才適用，並非$8,000。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "04",
+     "text": "may, instead of carrying out all the customer due diligence measures, carry out only the measures set out in section 2(1)(a), (ab), (c) and (d) of this Schedule in relation to a customer if the financial institution or the DNFBP has reasonable grounds to believe that the product related to the transaction falls within subsection (5)"
+    },
+    {
+     "doc": "04",
+     "text": "a life insurance policy in respect of which— (i) an annual premium of no more than $8,000 or an equivalent amount in any other currency is payable"
+    },
+    {
+     "doc": "04",
+     "text": "a single premium of no more than $20,000 or an equivalent amount in any other currency is payable"
+    },
+    {
+     "doc": "04",
+     "text": "a provident, pension, retirement or superannuation scheme (however described) that provides retirement benefits to employees, where contributions to the scheme are made by way of deduction from income from employment and the scheme rules do not permit the assignment of a member’s interest under the scheme"
+    },
+    {
+     "doc": "04",
+     "text": "the maximum value that can be stored on the facility exceeds $3,000"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "04",
+     "text": "該機構或該人士可只就客戶執行本附表第2(1)(a)、(ab)、(c) 及(d) 條所列的客戶盡職審查措施，而無需執行所有措施"
+    },
+    {
+     "doc": "04",
+     "text": "符合以下說明的人壽保險單 —— (i) 須繳付的每年保費不多於$8,000( 或折算為任何其他貨幣的相同款額)"
+    },
+    {
+     "doc": "04",
+     "text": "須繳付的一筆整付保費不多於$20,000( 或折算為任何其他貨幣的相同款額)"
+    },
+    {
+     "doc": "04",
+     "text": "向僱員提供退休福利的公積金計劃、退休金計劃、退休計劃或離職金計劃( 不論實際如何稱述)，而計劃的供款是從受僱工作獲得的入息中扣減而作出的，且計劃的規則並不准許轉讓計劃下的成員利益"
+    },
+    {
+     "doc": "04",
+     "text": "可儲存於該工具的最高價值，超逾$3,000"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m3-350",
+  "module": 3,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "period",
+   null,
+   null,
+   "actor"
+  ],
+  "source": {
+   "en": "AMLO Sch. 2 s.18(1)–(3)",
+   "tc": "《打擊洗錢條例》附表2第18(1)至(3)條"
+  },
+  "en": {
+   "q": "Regarding the carrying out of customer due diligence measures by means of an intermediary under Schedule 2 to the AMLO, which of the following are correct?",
+   "statements": [
+    "An institution may use a specified intermediary to carry out a CDD measure only if the intermediary consents in writing to be the institution's intermediary.",
+    "The institution must be satisfied that the intermediary will provide copies of the CDD documents, data or information it obtained within 7 days of a request.",
+    "An institution that carries out a CDD measure by means of an intermediary remains liable under the Ordinance for any failure to carry out that measure.",
+    "An accounting professional, estate agent, legal professional or TCSP licensee is a specified intermediary if it satisfies the institution that it has adequate ML/TF procedures.",
+    "A licensed money service operator is among the financial institutions that section 18(3)(b) of Schedule 2 names as specified intermediaries for CDD purposes."
+   ],
+   "notes": [
+    "Correct: s.18(1)(a) of Schedule 2 requires the intermediary to consent in writing to be the institution's intermediary.",
+    "Incorrect: s.18(1)(b) of Schedule 2 requires the institution to be satisfied that the intermediary will, on request, provide the copies or records without delay; no 7-day period is given.",
+    "Correct: s.18(2) of Schedule 2 keeps the institution liable under the Ordinance for a failure to carry out the CDD measure done through an intermediary.",
+    "Correct: s.18(3)(a) of Schedule 2 lists those four kinds of person, provided they can satisfy the institution that they have adequate procedures to prevent money laundering and terrorist financing.",
+    "Incorrect: s.18(3)(b) of Schedule 2 names authorized institutions, licensed corporations, authorized insurers and licensed insurance agents, agencies and broker companies; a licensed money service operator is not in the list."
+   ]
+  },
+  "tc": {
+   "q": "關於根據《打擊洗錢條例》附表2藉著中介人執行客戶盡職審查措施，下列哪些陳述正確？",
+   "statements": [
+    "機構只有在指明中介人藉書面同意擔任其中介人的情況下，才可藉著該中介人代為執行任何一項客戶盡職審查措施。",
+    "機構須信納中介人可在其提出要求後的7日內，提供該中介人在執行客戶盡職審查措施的過程中所取得的文件複本或數據及資料的紀錄。",
+    "藉著中介人執行客戶盡職審查措施的金融機構，仍然根據本條例就未有執行該項客戶盡職審查措施負有法律責任。",
+    "會計專業人士、地產代理、法律專業人士或信託或公司服務持牌人，如令機構信納其有充分程序防止洗錢及恐怖分子資金籌集，即屬指明中介人。",
+    "持牌金錢服務經營者屬附表2第18(3)(b)條為客戶盡職審查目的而指明為指明中介人的其中一類金融機構。"
+   ],
+   "notes": [
+    "正確：附表2第18(1)(a)條規定中介人須藉書面同意擔任該機構的中介人。",
+    "不正確：附表2第18(1)(b)條規定機構須信納中介人可應其要求，沒有延誤地提供複本或紀錄；條文並無訂明7日期限。",
+    "正確：附表2第18(2)條訂明藉著中介人執行客戶盡職審查措施的機構，仍然根據本條例就未有執行該措施負有法律責任。",
+    "正確：附表2第18(3)(a)條列出該四類人士，條件是他們能令機構信納其有充分程序以防止洗錢及恐怖分子資金籌集。",
+    "不正確：附表2第18(3)(b)條指明的是認可機構、持牌法團、獲授權保險人及持牌保險代理、代理機構或經紀公司；持牌金錢服務經營者不在其中。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "04",
+     "text": "the intermediary consents in writing to be the financial institution’s or the DNFBP’s intermediary"
+    },
+    {
+     "doc": "04",
+     "text": "will on request provide a copy of any document, or a record of any data or information, obtained by the intermediary in the course of carrying out the customer due diligence measure without delay"
+    },
+    {
+     "doc": "04",
+     "text": "that carries out a customer due diligence measure by means of an intermediary remains liable under this Ordinance for a failure to carry out that customer due diligence measure"
+    },
+    {
+     "doc": "04",
+     "text": "any of the following persons who is able to satisfy the financial institution or the DNFBP that they have adequate procedures in place to prevent money laundering and terrorist financing"
+    },
+    {
+     "doc": "04",
+     "text": "a financial institution that is an authorized institution, a licensed corporation, an authorized insurer, a licensed individual insurance agent, licensed insurance agency or licensed insurance broker company"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "04",
+     "text": "該中介人藉書面同意擔任該機構或該人士的中介人"
+    },
+    {
+     "doc": "04",
+     "text": "該中介人可應其要求，沒有延誤地提供該中介人在執行客戶盡職審查措施時取得的文件複本，或取得的數據或資料的紀錄"
+    },
+    {
+     "doc": "04",
+     "text": "藉著中介人執行客戶盡職審查措施的金融機構或指定非金融業人士，仍然根據本條例就未有執行客戶盡職審查措施負有法律責任"
+    },
+    {
+     "doc": "04",
+     "text": "任何能夠令有關金融機構或指定非金融業人士信納其本身有充分程序以防止洗錢及恐怖分子資金籌集的任何以下人士"
+    },
+    {
+     "doc": "04",
+     "text": "屬認可機構、持牌法團、獲授權保險人、持牌個人保險代理、持牌保險代理機構或持牌保險經紀公司的金融機構"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m3-351",
+  "module": 3,
+  "truth": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "traps": [
+   null,
+   "scope",
+   null,
+   "name",
+   null
+  ],
+  "source": {
+   "en": "AMLO Sch. 2 ss.1(1) and 13",
+   "tc": "《打擊洗錢條例》附表2第1(1)及13條"
+  },
+  "en": {
+   "q": "Regarding the special requirements of Schedule 2 to the AMLO for remittance transactions that are not wire transfers, and the definition of an identification document, which of the following are correct?",
+   "statements": [
+    "Section 13 applies to a remittance transaction, other than a wire transfer, carried out by a licensed money service operator and involving an amount equal to or above $8,000 or its equivalent.",
+    "Section 13 applies to every remittance transaction of $8,000 or above carried out by a licensed money service operator, including one that is a wire transfer.",
+    "Before carrying out the remittance transaction, the operator must verify the originator's identity by reference to the originator's identification document.",
+    "For an individual, an identification document means an identity card, certificate of identity, document of identity or travel document as defined by the Registration of Persons Ordinance (Cap. 177).",
+    "For the purposes of section 13, a remittance transaction means a transaction for sending, or arranging for the sending of, money to a place outside Hong Kong."
+   ],
+   "notes": [
+    "Correct: s.13(1) of Schedule 2 applies the section to a remittance transaction, other than a wire transfer, involving an amount equal to or above $8,000 or an equivalent amount, carried out by a licensed money service operator.",
+    "Incorrect: s.13(1) of Schedule 2 excludes a wire transfer; wire transfers are dealt with under section 12.",
+    "Correct: s.13(2)(b) of Schedule 2 requires the operator to verify the identity of the originator by reference to the originator's identification document.",
+    "Incorrect: s.1(1) of Schedule 2 defines those documents by reference to section 2(1) of the Immigration Ordinance (Cap. 115), not the Registration of Persons Ordinance.",
+    "Correct: s.13(3) of Schedule 2 defines a remittance transaction as a transaction for sending, or arranging for the sending of, money to a place outside Hong Kong."
+   ]
+  },
+  "tc": {
+   "q": "關於《打擊洗錢條例》附表2就並非電傳轉賬的匯款交易所訂的特別規定及識別文件的定義，下列哪些陳述正確？",
+   "statements": [
+    "第13條適用於持牌金錢服務經營者進行、涉及相等於$8,000或以上款額（或其等值）而並非電傳轉賬的匯款交易。",
+    "第13條適用於持牌金錢服務經營者進行的每宗$8,000或以上的匯款交易，包括屬電傳轉賬的交易。",
+    "在進行該匯款交易之前，持牌金錢服務經營者須藉參考匯款人的識別文件，核實匯款人的身分。",
+    "就個人而言，識別文件指《人事登記條例》（第177章）所界定的身分證、身分證明書、簽證身分書或旅行證件。",
+    "就附表2第13條而言，匯款交易指為將金錢送往或安排將金錢送往香港以外地方而進行的交易。"
+   ],
+   "notes": [
+    "正確：附表2第13(1)條訂明本條適用於持牌金錢服務經營者進行、涉及相等於$8,000或以上款額而並非電傳轉賬的匯款交易。",
+    "不正確：附表2第13(1)條明文排除電傳轉賬；電傳轉賬由第12條處理。",
+    "正確：附表2第13(2)(b)條規定經營者須藉參考匯款人的識別文件核實匯款人的身分。",
+    "不正確：附表2第1(1)條以《入境條例》（第115章）第2(1)條界定該等文件，並非《人事登記條例》。",
+    "正確：附表2第13(3)條界定匯款交易為將金錢或安排將金錢送往香港以外地方而進行的交易。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "04",
+     "text": "This section applies to a remittance transaction, other than a wire transfer, involving an amount equal to or above $8,000 or an equivalent amount in any other currency, that is carried out by a licensed money service operator"
+    },
+    {
+     "doc": "04",
+     "text": "This section applies to a remittance transaction, other than a wire transfer, involving an amount equal to or above $8,000 or an equivalent amount in any other currency, that is carried out by a licensed money service operator"
+    },
+    {
+     "doc": "04",
+     "text": "verify the identity of the originator by reference to the originator’s identification document"
+    },
+    {
+     "doc": "04",
+     "text": "in relation to an individual, means his or her identity card, certificate of identity, document of identity or travel document, as defined by section 2(1) of the Immigration Ordinance (Cap. 115)"
+    },
+    {
+     "doc": "04",
+     "text": "remittance transaction (匯款交易) means a transaction for sending, or arranging for the sending of, money to a place outside Hong Kong"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "04",
+     "text": "凡持牌金錢服務經營者進行涉及相等於$8,000 或以上的款額( 或折算為任何其他貨幣的相同款額) 的匯款交易，而該項交易並非電傳轉賬，本條適用於該項交易"
+    },
+    {
+     "doc": "04",
+     "text": "凡持牌金錢服務經營者進行涉及相等於$8,000 或以上的款額( 或折算為任何其他貨幣的相同款額) 的匯款交易，而該項交易並非電傳轉賬，本條適用於該項交易"
+    },
+    {
+     "doc": "04",
+     "text": "藉參考匯款人的識別文件，核實匯款人的身分"
+    },
+    {
+     "doc": "04",
+     "text": "就個人而言，指該人的身分證、身分證明書、簽證身分書或旅行證件( 該等文件為《入境條例》( 第115 章) 第2(1) 條所界定者)"
+    },
+    {
+     "doc": "04",
+     "text": "匯款交易 (remittance transaction) 指為將金錢或安排將金錢送往香港以外地方而進行的交易"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m3-352",
+  "module": 3,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "number",
+   null,
+   null,
+   "actor"
+  ],
+  "source": {
+   "en": "AMLO Sch. 2 s.9(1)",
+   "tc": "《打擊洗錢條例》附表2第9(1)條"
+  },
+  "en": {
+   "q": "Regarding the special requirements of Schedule 2 to the AMLO for a customer who has not been physically present for identification purposes, which of the following are correct?",
+   "statements": [
+    "The institution must carry out at least one of the measures listed in section 9(1); it is not required to carry out all of the listed measures before taking on the customer concerned.",
+    "The institution must carry out at least two of the measures listed in section 9(1) before it may take on a customer who has not been physically present for identification purposes.",
+    "One listed measure is further verifying the customer's identity on the basis of documents, data or information not previously used to verify that identity under Schedule 2.",
+    "One listed measure is ensuring the customer's first payment comes from an account in the customer's name with an authorized institution or a qualifying institution in an equivalent jurisdiction.",
+    "The first-payment measure is satisfied where the payment comes from an account held in the name of any third party whom the customer nominates for the purpose."
+   ],
+   "notes": [
+    "Correct: s.9(1) of Schedule 2 requires the institution to carry out at least one of the listed measures.",
+    "Incorrect: s.9(1) of Schedule 2 says at least one measure; it does not require two.",
+    "Correct: s.9(1)(a) of Schedule 2 lists further verification on the basis of documents, data or information referred to in s.2(1)(a) or (ab) but not previously used for that purpose.",
+    "Correct: s.9(1)(c) of Schedule 2 lists ensuring that the first payment is carried out through an account opened in the customer's name with an authorized institution or an institution in an equivalent jurisdiction that meets the conditions in s.9(1)(c)(ii).",
+    "Incorrect: s.9(1)(c) of Schedule 2 requires the account to be opened in the customer's name; a third party's account does not satisfy the measure."
+   ]
+  },
+  "tc": {
+   "q": "關於《打擊洗錢條例》附表2就客戶沒有為身分識別的目的而現身時適用的特別規定，下列哪些陳述正確？",
+   "statements": [
+    "機構只須執行第9(1)條所列措施中的最少一項，而無需在接納該客戶前執行該條所列的全部措施。",
+    "機構須先執行第9(1)條所列措施中的最少兩項，才可接納沒有為身分識別的目的而現身的該客戶。",
+    "其中一項措施是以不曾用於根據附表2核實該客戶身分的文件、數據或資料為基礎，進一步核實該客戶的身分。",
+    "其中一項措施是確保客戶戶口的第一次付款，經由以客戶名義在認可機構或對等司法管轄區內合資格機構開設的戶口進行。",
+    "如第一次付款來自客戶為此目的而提名的任何第三方名下的戶口，即已符合有關第一次付款的該項措施。"
+   ],
+   "notes": [
+    "正確：附表2第9(1)條規定機構須執行所列措施中的最少一項。",
+    "不正確：附表2第9(1)條訂明最少一項措施，並無要求兩項。",
+    "正確：附表2第9(1)(a)條列出以第2(1)(a)或(ab)條提述但不曾用於核實該客戶身分的文件、數據或資料為基礎，進一步核實身分。",
+    "正確：附表2第9(1)(c)條列出確保第一次付款是經由以客戶的名義在認可機構或對等司法管轄區內符合第9(1)(c)(ii)條條件的機構開設的戶口進行。",
+    "不正確：附表2第9(1)(c)條規定戶口須以客戶的名義開設；第三方的戶口不符合該措施。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "04",
+     "text": "If a customer has not been physically present for identification purposes, a financial institution or a DNFBP must carry out at least one of the following measures"
+    },
+    {
+     "doc": "04",
+     "text": "If a customer has not been physically present for identification purposes, a financial institution or a DNFBP must carry out at least one of the following measures"
+    },
+    {
+     "doc": "04",
+     "text": "further verifying the customer’s identity on the basis of documents, data or information referred to in section 2(1)(a) or (ab) of this Schedule but not previously used for the purposes of verification of the customer’s identity under that section"
+    },
+    {
+     "doc": "04",
+     "text": "the first payment made in relation to the customer’s account is carried out through an account opened in the customer’s name with— (i) an authorized institution"
+    },
+    {
+     "doc": "04",
+     "text": "the first payment made in relation to the customer’s account is carried out through an account opened in the customer’s name with— (i) an authorized institution"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "04",
+     "text": "如客戶不曾為身分識別的目的而現身，金融機構或指定非金融業人士須執行以下最少一項措施"
+    },
+    {
+     "doc": "04",
+     "text": "如客戶不曾為身分識別的目的而現身，金融機構或指定非金融業人士須執行以下最少一項措施"
+    },
+    {
+     "doc": "04",
+     "text": "以本附表第2(1)(a) 或(ab) 條提述的但不曾用於根據該條核實該客戶身分的文件、數據或資料為基礎，進一步核實該客戶的身分"
+    },
+    {
+     "doc": "04",
+     "text": "確保就該客戶的戶口作出的付款( 如有多於一次的付款作出，則指第一次的付款) 是經由以該客戶的名義在以下的機構開設的戶口進行 —— (i) 認可機構"
+    },
+    {
+     "doc": "04",
+     "text": "確保就該客戶的戶口作出的付款( 如有多於一次的付款作出，則指第一次的付款) 是經由以該客戶的名義在以下的機構開設的戶口進行 —— (i) 認可機構"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m4-416",
+  "module": 4,
+  "truth": [
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   null,
+   "period",
+   null,
+   "condition"
+  ],
+  "source": {
+   "en": "Licensing Guide (May 2026) ¶6.1–6.4",
+   "tc": "《牌照指引》（2026年5月）第6.1至6.4條"
+  },
+  "en": {
+   "q": "According to the Licensing Guide, which of the following are correct about the renewal timeline for a money service operator licence?",
+   "statements": [
+    "Under the Licensing Guide a licensee is required to renew the MSO licence not later than 45 days before the licence is due to expire.",
+    "The department sends each licensee a reminder, with the invitation letter for nominating eligible persons for the Assessment, 90 days before the licence expires.",
+    "The licensee is required to nominate the eligible persons for the Assessment within 14 days upon receipt of the invitation letter from the department.",
+    "The eligible persons nominated for the Assessment will attend the Assessment within 30 days upon receipt of the invitation letter sent by the department.",
+    "A renewal application with outstanding supporting documents remains valid provided the missing documents reach C&ED at any time before the licence expires."
+   ],
+   "notes": [
+    "Correct: ¶6.1 says a licensee is required to renew the MSO licence not later than 45 days before the licence is due to expire.",
+    "Correct: ¶6.2 says the department sends the reminder with the invitation letter to each licensee 90 days before the expiry of the licence.",
+    "Incorrect: ¶6.2 gives the licensee seven days upon receipt of the invitation letter to nominate the eligible persons, not 14 days.",
+    "Correct: ¶6.2 says the eligible persons nominated will attend the Assessment within 30 days upon receipt of the invitation letter.",
+    "Incorrect: ¶6.4(b) deems the application invalid if, after a reminder for outstanding documents, the licensee fails to produce all the supporting documents within the specified period."
+   ]
+  },
+  "tc": {
+   "q": "根據《牌照指引》，以下有關金錢服務經營者牌照續期時間表的陳述，哪些正確？",
+   "statements": [
+    "根據《牌照指引》，持牌人須在金錢服務經營者牌照期滿前45日或之前將牌照續期。",
+    "本署會在牌照有效期屆滿前90日向每名持牌人發出提示通知，並夾附邀請提名合資格人士應考的信件。",
+    "持牌人須在接獲本署發出的邀請信當日起計14日內，提名其合資格人士應考能力評核。",
+    "獲提名應考能力評核的合資格人士，將在接獲本署邀請信當日起計30日內應考能力評核。",
+    "續牌申請如尚欠證明文件，在牌照屆滿前任何時間補交海關即可，申請仍然有效並會獲處理。"
+   ],
+   "notes": [
+    "正確：第6.1條訂明須在金錢服務經營者牌照期滿前45日或之前將牌照續期。",
+    "正確：第6.2條訂明本署會在牌照有效期屆滿前90日向每名持牌人發出提示通知，並夾附邀請信。",
+    "不正確：第6.2條訂明持牌人須在接獲邀請信當日起計7日內提名合資格人士，並非14日。",
+    "正確：第6.2條訂明獲提名的合資格人士將在接獲邀請信當日起計30日內應考能力評核。",
+    "不正確：第6.4(b)條訂明，海關發信催交尚欠文件後，持牌人如未能在指明期限內遞交所有證明文件，申請即被視作無效。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "05",
+     "text": "A licensee is required to renew the MSO licence not later than 45 days before the licence is due to expire"
+    },
+    {
+     "doc": "05",
+     "text": "the department will send a reminder enclosing with the invitation letter for nominating the eligible person(s), i.e. sole-proprietor, partner(s) or director(s) of the licensee, to attend the Assessment to each licensee 90 days before the expiry of the licence"
+    },
+    {
+     "doc": "05",
+     "text": "The licensee is required to nominate the eligible person(s) for the Assessment within seven days upon receipt of the invitation letter"
+    },
+    {
+     "doc": "05",
+     "text": "The eligible person(s) nominated for the Assessment will attend the Assessment within 30 days upon receipt of the invitation letter"
+    },
+    {
+     "doc": "05",
+     "text": "when a reminder for provision of any outstanding documents issued to the licensee by C&ED but the licensee fails to produce all the supporting documents within specified period"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "05",
+     "text": "須在金錢服務經營者牌照期滿前45日或之前將牌照續期"
+    },
+    {
+     "doc": "05",
+     "text": "本署會在牌照有效期屆滿前90日向每名持牌人發出提示通知，並夾附信件邀請提名合資格人士（即持牌人的獨資經營者、合夥人或董事）應考能力評核"
+    },
+    {
+     "doc": "05",
+     "text": "持牌人須在接獲邀請信當日起計7日內提名合資格人士應考能力評核"
+    },
+    {
+     "doc": "05",
+     "text": "獲提名應考能力評核的合資格人士將在接獲邀請信當日起計30日內應考能力評核"
+    },
+    {
+     "doc": "05",
+     "text": "海關已向持牌人發信催交尚欠文件，但持牌人未能在指明期限內遞交所有證明文件"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m4-417",
+  "module": 4,
+  "truth": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "traps": [
+   null,
+   "period",
+   null,
+   "reversed",
+   null
+  ],
+  "source": {
+   "en": "Guidance Notes on the Competence Assessment (Dec 2022) ¶4.5 and ¶12.1–12.4",
+   "tc": "《能力評核須知》（2022年12月）第4.5及12.1至12.4段"
+  },
+  "en": {
+   "q": "According to the Guidance Notes on the Competence Assessment, which of the following are correct about results, re-checking and re-taking the Assessment?",
+   "statements": [
+    "Candidates are notified of the Assessment result, PASS or FAIL, by e-mail only, within 14 days after the Assessment, and should keep the notification.",
+    "A candidate who is not satisfied with the result may write for re-checking of the Assessment papers within 14 days after the date of issuance of the result notification.",
+    "The re-checking result is sent in writing within 14 days after receipt of the request, and the answer sheet is re-checked for technical errors such as incorrect mark entries.",
+    "On re-checking, the C&ED will disclose the candidate's exact score to the candidate, although not the Assessment questions or the correct answers.",
+    "For granting a licence, an eligible person who fails may be arranged to re-take the Assessment after 30 days upon the notification of result."
+   ],
+   "notes": [
+    "Correct: ¶12.1 says candidates will only be notified of the results, PASS or FAIL, by e-mail only within 14 days after the Assessment.",
+    "Incorrect: ¶12.2 allows the re-checking request within seven days after the date of issuance of the result notification, not 14 days; late submission is not considered.",
+    "Correct: ¶12.3 says the result is sent in writing within 14 days after receipt of the re-checking request and that the answer sheet is re-checked for technical errors.",
+    "Incorrect: ¶12.4 says the C&ED will not disclose the exact scores, the Assessment questions or the corresponding correct answers in any case.",
+    "Correct: ¶4.5 gives the applicant another opportunity to arrange the eligible person to re-take the Assessment after 30 days upon the notification of result."
+   ]
+  },
+  "tc": {
+   "q": "根據《能力評核須知》，以下有關成績通知、覆檢及再次應考的陳述，哪些正確？",
+   "statements": [
+    "能力評核結果（合格或不合格）會在考試結束後14日內僅以電郵方式通知應考者，應考者應保留該通知。",
+    "應考者如對成績不滿，可在發出成績通知當日起計14日內，以書面要求覆檢能力評核試卷。",
+    "覆檢結果會在接獲覆檢要求日期起計14日內以書面發出，覆檢時會留意輸入分數出錯等技術錯誤。",
+    "覆檢時，海關會披露應考者的實際分數，但不會披露能力評核的試題或正確答案。",
+    "就批給牌照而言，未能合格的合資格人士可於成績通知發出當日起計30日後再次應考能力評核。"
+   ],
+   "notes": [
+    "正確：第12.1段訂明能力評核結果（合格或不合格）會在考試結束後14日內僅以電郵方式通知應考者。",
+    "不正確：第12.2段容許在發出成績通知當日起計7日內要求覆檢，並非14日；逾期要求不獲受理。",
+    "正確：第12.3段訂明覆檢結果會在接獲覆檢要求日期起計14日內以書面發出，並會留意技術錯誤。",
+    "不正確：第12.4段訂明海關在任何情況下均不會披露實際分數、能力評核的試題及相關正確答案。",
+    "正確：第4.5段訂明申請人將獲給予另一次機會，安排合資格人士於成績通知發出當日起計30日後再次應考。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "01",
+     "text": "Candidates will only be notified of the results, i.e. PASS or FAIL, by E-MAIL only within 14 days after the Assessment"
+    },
+    {
+     "doc": "01",
+     "text": "may, within seven days after the date of issuance of the result notification, write to the Licensing Control Division"
+    },
+    {
+     "doc": "01",
+     "text": "the result will be sent to the candidates concerned in writing within 14 days after receipt of the re-checking request. The answer sheet will be re-checked for technical errors such as incorrect mark entries and data inconsistencies"
+    },
+    {
+     "doc": "01",
+     "text": "The C&ED will not disclose the exact scores, the Assessment questions and the corresponding correct answers in any case"
+    },
+    {
+     "doc": "01",
+     "text": "the applicant will be given another opportunity to arrange the eligible person(s) to re-take the Assessment after 30 days upon the notification of result"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "01",
+     "text": "能力評核結果將會在考試結束後 14 日內僅以電郵方式通知應考者，成績分為合格或不合格"
+    },
+    {
+     "doc": "01",
+     "text": "可在發出成績通知當日起計 7 日內，致函牌照管制課"
+    },
+    {
+     "doc": "01",
+     "text": "海關將會覆檢應考者的答題紙，並會在接獲覆檢要求日期起計 14 日內以書面向有關應考者發出覆檢結果。覆檢答題紙時會留意技術錯誤，例如輸入分數出錯及數據前後不一"
+    },
+    {
+     "doc": "01",
+     "text": "海關在任何情況下均不會披露實際分數、能力評核的試題及相關正確答案"
+    },
+    {
+     "doc": "01",
+     "text": "該申請人將獲給予另一次機會安排合資格人士於成績通知發出當日起計 30 日後再次應考能力評核"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m4-418",
+  "module": 4,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "number",
+   null,
+   null,
+   "condition"
+  ],
+  "source": {
+   "en": "Guidance Notes on the Competence Assessment (Dec 2022) ¶4.2–4.4",
+   "tc": "《能力評核須知》（2022年12月）第4.2至4.4段"
+  },
+  "en": {
+   "q": "According to the Guidance Notes on the Competence Assessment, which of the following are correct about nominating eligible persons for the Assessment?",
+   "statements": [
+    "Where the licence applicant or licensee is a natural person operating as a partnership, not more than THREE partners can be nominated to participate in the Assessment.",
+    "Where the licence applicant or licensee is a corporation, up to FIVE individual directors who are natural persons can be nominated to participate in the Assessment.",
+    "Because the Assessment is conducted on a company basis, the candidates of the same company under an application or licence must attend the same session in all circumstances.",
+    "A licensee may nominate eligible persons within 90 days before the expiry of the licence where it has no eligible person who has passed the Assessment.",
+    "A licensee may nominate further eligible persons at any time it wishes to add a passed eligible person, in addition to the circumstances listed in the Guidance Notes."
+   ],
+   "notes": [
+    "Correct: ¶4.2(i)(b) says not more than THREE partners can be nominated to participate in the Assessment.",
+    "Incorrect: ¶4.2(ii)(b) limits the nomination to not more than THREE directors, not five.",
+    "Correct: ¶4.3 says that, as the Assessment is conducted on a company basis, candidates of the same company must attend the same session in all circumstances.",
+    "Correct: ¶4.4(ii) lists nomination within 90 days before the expiry of the licence where the licensee has no eligible person who has passed the Assessment.",
+    "Incorrect: ¶4.4 says nomination is made only for once and only under the three circumstances it lists; there is no open-ended right to nominate."
+   ]
+  },
+  "tc": {
+   "q": "根據《能力評核須知》，以下有關提名合資格人士應考能力評核的陳述，哪些正確？",
+   "statements": [
+    "如牌照申請人或持牌人是自然人並以合夥經營，不得提名超過三名合夥人應考能力評核。",
+    "如牌照申請人或持牌人是法團，可提名最多五名屬自然人的個別董事參與應考能力評核。",
+    "由於能力評核以公司為單位進行，同屬一所公司的應考者在任何情況下均必須應考同一時段的能力評核。",
+    "持牌人在牌照有效期屆滿前90日內，如已沒有合資格人士在能力評核取得合格成績，可提名合資格人士應考。",
+    "除須知所列的情況外，持牌人可在任何想增加合格合資格人士的時候，另行提名合資格人士應考。"
+   ],
+   "notes": [
+    "正確：第4.2(i)(b)段訂明不得提名超過三名合夥人應考能力評核。",
+    "不正確：第4.2(ii)(b)段把提名限於不超過三名董事，並非五名。",
+    "正確：第4.3段訂明，由於能力評核以公司為單位進行，同屬一所公司的應考者在任何情況下均必須應考同一時段。",
+    "正確：第4.4(ii)段列出在牌照有效期屆滿前90日內而持牌人已沒有合資格人士取得合格成績的情況。",
+    "不正確：第4.4段訂明僅限在所列三種情況下提名一次；並無隨時另行提名的權利。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "01",
+     "text": "the partners in the partnership (not more than THREE partners can be nominated to participate in the Assessment)"
+    },
+    {
+     "doc": "01",
+     "text": "the individual directors, who must be natural persons, of a corporation (not more than THREE directors can be nominated to participate in the Assessment)"
+    },
+    {
+     "doc": "01",
+     "text": "Given that the Assessment is conducted on a company basis, the candidates of the same company/corporation under an application/an MSO licence must attend the same session of the Assessment in all circumstances"
+    },
+    {
+     "doc": "01",
+     "text": "Within 90 days before the expiry of the licence and the licensee has no eligible person who has passed the Assessment"
+    },
+    {
+     "doc": "01",
+     "text": "Nomination for eligible person(s) to attend the Assessment would be made by a licence applicant / a licensee only for once and under the following circumstances"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "01",
+     "text": "合夥的合夥人（不得提名超過三名合夥人應考能力評核）"
+    },
+    {
+     "doc": "01",
+     "text": "法團內必須屬自然人的個別董事（不得提名超過三名董事應考能力評核）"
+    },
+    {
+     "doc": "01",
+     "text": "鑑於能力評核會以公司為單位進行，就某一申請／金錢服務經營者牌照而言，同屬一所公司／法團的應考者在任何情況下均必須應考同一時段的能力評核"
+    },
+    {
+     "doc": "01",
+     "text": "在牌照有效期屆滿前 90 日內，而持牌人已沒有合資格人士在能力評核取得合格成績"
+    },
+    {
+     "doc": "01",
+     "text": "牌照申請人／持牌人僅限在下列情況下提名合資格人士應考能力評核一次"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m4-419",
+  "module": 4,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "period",
+   null,
+   null,
+   "number"
+  ],
+  "source": {
+   "en": "Money Changers Ordinance, Cap. 34, ss.4(8), 4(11), 5 and 6(6)–(7)",
+   "tc": "《貨幣兌換商條例》（第34章）第4(8)、4(11)、5及6(6)至(7)條"
+  },
+  "en": {
+   "q": "Regarding the periods, units and penalties in the Money Changers Ordinance, Cap. 34, which of the following are correct?",
+   "statements": [
+    "A money changer shall retain the duplicate copy of a completed transaction note for not less than 12 months and produce it for inspection and copying on demand by a police officer.",
+    "Where a money changer contravenes section 4 in respect of an exchange transaction, the other party may rescind the transaction within 7 days after the date of the transaction.",
+    "A money changer may display a net rate of exchange in multiple units of 10 or 100 units of foreign currency with a corresponding adjustment to the Hong Kong dollar figure.",
+    "A money changer who contravenes section 4(1), (3) to (8) or (10) is liable to a fine at level 1 for a first offence, and to a fine at level 2 and 6 months' imprisonment for a later offence.",
+    "A money changer who contravenes section 6 on displaying rates of exchange is liable to a fine at level 1 only, with no term of imprisonment attached."
+   ],
+   "notes": [
+    "Correct: s.4(8) requires the duplicate copy of a completed transaction note to be retained for not less than 12 months and produced on demand by a police officer.",
+    "Incorrect: s.5 allows the other party to rescind the transaction within 3 days after the date of the transaction, not 7 days.",
+    "Correct: s.6(6) lets a money changer display a net rate in multiple units of 10 or 100 units of foreign currency with a corresponding adjustment to the Hong Kong dollar figure.",
+    "Correct: s.4(11) sets a fine at level 1 for a first offence and a fine at level 2 and imprisonment for 6 months for a second or subsequent offence.",
+    "Incorrect: s.6(7) makes a contravention of section 6 punishable by a fine at level 2 and imprisonment for 6 months."
+   ]
+  },
+  "tc": {
+   "q": "關於《貨幣兌換商條例》（第34章）所訂的期限、單位及罰則，下列哪些陳述正確？",
+   "statements": [
+    "貨幣兌換商須將填妥的交易單據複本保留至少12個月，並須在警務人員提出要求時出示複本以供查閱和複製。",
+    "貨幣兌換商在某宗兌換交易中違反第4條，交易的另一方可在交易日期後7天內撤銷該宗交易。",
+    "貨幣兌換商可展示以外幣10單位或100單位的倍數計算的淨匯率，以及經相應調整的港元數字。",
+    "貨幣兌換商違反第4(1)、(3)至(8)或(10)條，首次定罪處第1級罰款，再犯處第2級罰款及監禁6個月。",
+    "貨幣兌換商違反第6條有關展示匯率的規定，可處第1級罰款，而不會被判處任何監禁刑罰。"
+   ],
+   "notes": [
+    "正確：第4(8)條規定將填妥的交易單據複本保留至少12個月，並須在警務人員提出要求時出示。",
+    "不正確：第5條容許交易的另一方在交易日期後3天內撤銷該宗交易，並非7天。",
+    "正確：第6(6)條容許貨幣兌換商展示以外幣10單位或100單位的倍數計算的淨匯率，以及經相應調整的港元數字。",
+    "正確：第4(11)條訂明第一次定罪可處第1級罰款，第二次或其後定罪可處第2級罰款及監禁6個月。",
+    "不正確：第6(7)條訂明違反第6條可處第2級罰款及監禁6個月。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "17",
+     "text": "A money changer shall retain the duplicate copy of a completed transaction note for not less than 12 months and shall produce the duplicate for inspection and copying on demand by a police officer"
+    },
+    {
+     "doc": "17",
+     "text": "rescind the transaction within 3 days after the date thereof"
+    },
+    {
+     "doc": "17",
+     "text": "A money changer may display a net rate of exchange in multiple units of 10 or 100 units of foreign currency with a corresponding adjustment to the Hong Kong dollar figure"
+    },
+    {
+     "doc": "17",
+     "text": "is liable to a fine at level 1 for a first offence and to a fine at level 2 and to imprisonment for 6 months for a second or subsequent offence"
+    },
+    {
+     "doc": "17",
+     "text": "A money changer who contravenes this section commits an offence and is liable to a fine at level 2 and to imprisonment for 6 months. (Amended E.R. 2 of 2021) (Replaced 9 of 1989 s. 7)"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "17",
+     "text": "貨幣兌換商須將填妥的交易單據複本保留至少12 個月，並須在警務人員提出要求時，出示複本以供查閱和複製"
+    },
+    {
+     "doc": "17",
+     "text": "在交易日期後3 天內，撤銷該宗交易"
+    },
+    {
+     "doc": "17",
+     "text": "貨幣兌換商可展示以外幣10 單位或100 單位的倍數計算的淨匯率，以及經相應調整的港元數字"
+    },
+    {
+     "doc": "17",
+     "text": "如屬第一次定罪，可處第1 級罰款，如屬第二次或其後定罪，可處第2 級罰款及監禁6 個月"
+    },
+    {
+     "doc": "17",
+     "text": "貨幣兌換商違反本條，即屬犯罪，可處第2 級罰款及監禁6 個月。 ( 編輯修訂——2021 年第2 號編輯修訂紀錄) ( 由1989 年第9 號第7 條代替)"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m4-420",
+  "module": 4,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "number",
+   null,
+   null,
+   "name"
+  ],
+  "source": {
+   "en": "Licensing Guide (May 2026) ¶5.1, ¶6.3 and ¶16.1",
+   "tc": "《牌照指引》（2026年5月）第5.1、6.3及16.1條"
+  },
+  "en": {
+   "q": "According to the Licensing Guide, which of the following are correct about the photographs and supporting documents for a licence application?",
+   "statements": [
+    "For a new application to operate a money service at particular premises, at least two photographs of size 102x152 mm, that is 4R size, should be attached to the application form.",
+    "The photographs of the particular premises attached to the application form must be of size 127x178 mm, that is 5R size, not 4R size.",
+    "One photograph should show the inner part, such as the counter or office, and another the outer part, such as the signboard, of the particular premises.",
+    "Where the applicant has separate premises serving as the local place of storage or local management office, at least two photographs should also be attached for each of them.",
+    "The supporting documents, stamped with the applicant's company chop, are submitted together with the application form to the Companies Registry."
+   ],
+   "notes": [
+    "Correct: ¶5.1 asks for at least two photographs of size 102x152 mm (4R-size) with a new application to operate at particular premises.",
+    "Incorrect: ¶5.1 and ¶6.3 specify 102x152 mm (4R-size); 5R size is not the requirement.",
+    "Correct: ¶5.1 says one photograph should show the inner part, such as the counter or office, and another the outer part, such as the signboard.",
+    "Correct: ¶5.1 says that where separate premises serve as LPS and/or LMO, at least two photographs should also be attached for each.",
+    "Incorrect: ¶16.1 says the documents, stamped with the applicant's company chop, are submitted to the Money Service Supervision Bureau of C&ED, not the Companies Registry."
+   ]
+  },
+  "tc": {
+   "q": "根據《牌照指引》，以下有關牌照申請的照片及證明文件的陳述，哪些正確？",
+   "statements": [
+    "如屬在特定處所經營金錢服務的新申請，申請書應夾附最少兩張尺寸為102x152毫米（即4R尺寸）的照片。",
+    "夾附於申請書的特定處所照片，尺寸必須為127x178毫米（即5R尺寸），而非4R尺寸。",
+    "其中一張照片應顯示特定處所的內部（例如櫃枱或辦事處），而另一張應顯示外部（例如招牌）。",
+    "如申請人以另外的處所作為本地儲存帳目及紀錄的地點或本地管理辦事處，亦應就每一個該等處所分別夾附最少兩張照片。",
+    "證明文件須蓋上申請人的公司印章，連同填妥的申請表格及附件一併遞交公司註冊處。"
+   ],
+   "notes": [
+    "正確：第5.1條要求在特定處所經營金錢服務的新申請夾附最少兩張尺寸為102x152毫米（即4R尺寸）的照片。",
+    "不正確：第5.1及6.3條指明的尺寸是102x152毫米（即4R尺寸），並非5R尺寸。",
+    "正確：第5.1條訂明其中一張照片應顯示內部（例如櫃枱或辦事處），另一張應顯示外部（例如招牌）。",
+    "正確：第5.1條訂明如以另外的處所作為本地儲存帳目及紀錄的地點及／或本地管理辦事處，應就每一個分別夾附最少兩張照片。",
+    "不正確：第16.1條訂明蓋上公司印章的文件須遞交香港海關金錢服務監理科，並非公司註冊處。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "05",
+     "text": "For new application to operate a money service at particular premises, at least two photographs of size 102x152 mm (i.e. 4R‐size) should be attached to the application form"
+    },
+    {
+     "doc": "05",
+     "text": "For new application to operate a money service at particular premises, at least two photographs of size 102x152 mm (i.e. 4R‐size) should be attached to the application form"
+    },
+    {
+     "doc": "05",
+     "text": "One photograph should show the inner part such as counter or office of the particular premises, whereas another photograph should show the outer part such as signboard of the particular premises"
+    },
+    {
+     "doc": "05",
+     "text": "Where an applicant also has separate premises which serve as LPS and/ or LMO, at least two photographs should also be at"
+    },
+    {
+     "doc": "05",
+     "text": "applicant is required to submit the following documents (stamped with the applicant’s company chop) together with the completed application form, i.e. Form 1 or 2, annex and supplementary information sheet to the Money Service Supervision Bureau of C&ED"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "05",
+     "text": "如屬在特定處所經營金錢服務的新申請，申請書應夾附最少兩張尺寸為102x152 毫米（即4R尺寸）的照片"
+    },
+    {
+     "doc": "05",
+     "text": "如屬在特定處所經營金錢服務的新申請，申請書應夾附最少兩張尺寸為102x152 毫米（即4R尺寸）的照片"
+    },
+    {
+     "doc": "05",
+     "text": "其中一張照片應顯示特定處所的內部，例如櫃枱或辦事處，而另一張照片則應顯示特定處所的外部，例如招牌"
+    },
+    {
+     "doc": "05",
+     "text": "如申請人以另外的處所作為本地儲存帳目及紀錄的地點及／或本地管理辦事處，則應就每多一個本地儲存帳目及紀錄的地點及／或本地管理辦事處分別夾附最少兩張照片"
+    },
+    {
+     "doc": "05",
+     "text": "向香港海關金錢服務監理科遞交下列文件（文件須蓋上申請人的公司印章）"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m4-421",
+  "module": 4,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "name",
+   null,
+   null,
+   "scope"
+  ],
+  "source": {
+   "en": "Disciplinary Action Guideline on Imposition of Pecuniary Penalty (Apr 2018) ¶1–4; Disciplinary Fining Guideline (May 2018) ¶1–3",
+   "tc": "《施加罰款紀律行動指引》（2018年4月）第1至4段；《紀律處分罰款指引》（2018年5月）第1至3段"
+  },
+  "en": {
+   "q": "Regarding the two C&ED guidelines on pecuniary penalties for money service operators, which of the following are correct?",
+   "statements": [
+    "The Disciplinary Action Guideline on Imposition of Pecuniary Penalty is published under section 45(1) of the AMLO and concerns the power in section 43(2)(c).",
+    "The Disciplinary Fining Guideline is also published under section 45(1) of the AMLO and concerns the penalty power in section 43(2)(c).",
+    "The Disciplinary Fining Guideline concerns penalties on an MSO that contravenes a specified provision as defined by section 5(11) of the AMLO.",
+    "Under both guidelines, as a matter of policy the CCE will usually publicise all his decisions to impose a pecuniary penalty on an MSO.",
+    "Under the Disciplinary Fining Guideline, a breach of a licence condition counts as a contravention of a specified provision and is fined under section 21."
+   ],
+   "notes": [
+    "Correct: ¶3 of the April 2018 guideline says it is published under section 45(1) to indicate how the CCE will exercise the power conferred by section 43(2)(c).",
+    "Incorrect: ¶2 of the May 2018 guideline says it is published under section 23(1) of the AMLO and concerns the fining power under section 21(2)(c).",
+    "Correct: ¶1 of the May 2018 guideline applies to an MSO that contravenes a specified provision as defined by section 5(11) of the AMLO.",
+    "Correct: ¶4 of the April 2018 guideline and ¶3 of the May 2018 guideline both say the CCE will usually publicise all his decisions to impose pecuniary penalty.",
+    "Incorrect: ¶1 of the May 2018 guideline confines the section 21 power to a contravention of a specified provision as defined by section 5(11); a breach of a licence condition is a section 43 ground listed in ¶1(b) of the April 2018 guideline."
+   ]
+  },
+  "tc": {
+   "q": "關於海關就金錢服務經營者罰款發出的兩份指引，下列哪些陳述正確？",
+   "statements": [
+    "《施加罰款紀律行動指引》根據《打擊洗錢條例》第45(1)條公布，關乎第43(2)(c)條授予關長的罰款權力。",
+    "《紀律處分罰款指引》同樣根據《打擊洗錢條例》第45(1)條公布，關乎第43(2)(c)條的罰款權力。",
+    "《紀律處分罰款指引》關乎對違反《打擊洗錢條例》第5(11)條所界定的指明的條文的金錢服務經營者施加罰款。",
+    "根據兩份指引，按照目前的政策，關長通常會公布所有向金錢服務經營者施加罰款的決定。",
+    "根據《紀律處分罰款指引》，違反牌照條件視為違反指明的條文，並根據第21條施加罰款。"
+   ],
+   "notes": [
+    "正確：2018年4月指引第3段指出該指引根據第45(1)條公布，以示明關長會以何種方式行使第43(2)(c)條授予的權力。",
+    "不正確：2018年5月指引第2段指出該指引根據《打擊洗錢條例》第23(1)條公布，關乎第21(2)(c)條下的罰款權力。",
+    "正確：2018年5月指引第1段適用於違反《打擊洗錢條例》第5(11)條所界定的指明的條文的金錢服務經營者。",
+    "正確：2018年4月指引第4段及2018年5月指引第3段均指出關長通常會公布所有施加罰款的決定。",
+    "不正確：2018年5月指引第1段把第21條的權力限於違反第5(11)條所界定的指明的條文；違反牌照條件是2018年4月指引第1(b)段所列的第43條理由。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "12",
+     "text": "This Guideline is published under section 45(1) of the AMLO to indicate the manner in which the CCE will exercise the power conferred by section 43(2)(c)"
+    },
+    {
+     "doc": "13",
+     "text": "This guideline is published under section 23(1) of the AMLO to indicate the manner in which the CCE will exercise the fining power under section 21(2)(c)"
+    },
+    {
+     "doc": "13",
+     "text": "if the MSO contravenes a specified provision as defined by section 5(11) of the AMLO"
+    },
+    {
+     "doc": "13",
+     "text": "As a matter of policy, the CCE will usually publicise all his decisions to impose pecuniary penalty"
+    },
+    {
+     "doc": "13",
+     "text": "if the MSO contravenes a specified provision as defined by section 5(11) of the AMLO"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "12",
+     "text": "本指引根據打擊洗錢條例第45(1)條公布，以示明關長會以何種方式行使第43(2)(c)條授予的權力"
+    },
+    {
+     "doc": "13",
+     "text": "本指引根據打擊洗錢條例第23(1)條公布，以示明關長會以何種方式行使第21(2)(c)條下的罰款權力"
+    },
+    {
+     "doc": "13",
+     "text": "若金錢服務經營者違反打擊洗錢條例第5(11)條所界定的指明的條文"
+    },
+    {
+     "doc": "13",
+     "text": "按照目前的政策，關長通常會公布所有施加罰款的決定"
+    },
+    {
+     "doc": "13",
+     "text": "若金錢服務經營者違反打擊洗錢條例第5(11)條所界定的指明的條文"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m5-140",
+  "module": 5,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "actor",
+   null,
+   null,
+   "period"
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶2.9–2.10",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第2.9至2.10段"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following are correct about keeping the institutional ML/TF risk assessment up to date?",
+   "statements": [
+    "An MSO should conduct its institutional ML/TF risk assessment every two years and upon trigger events which are material to its business and risk exposure.",
+    "The results of the review of the institutional risk assessment should be documented and approved by the MSO's Money Laundering Reporting Officer.",
+    "Trigger events may include a significant breach of the AML/CFT Systems, the acquisition of new customer segments or delivery channels, or the launch of new products.",
+    "An MSO should keep records of the institutional risk assessment, including the risk factors identified and assessed and the information sources taken into account.",
+    "Once documented, the institutional ML/TF risk assessment need only be repeated every three years, unless a material trigger event occurs in the meantime."
+   ],
+   "notes": [
+    "Correct: ¶2.9 says an MSO should conduct its assessment every two years and upon trigger events which are material to the MSO's business and risk exposure.",
+    "Incorrect: ¶2.9 says the results of the review should be documented and approved by the MSO's senior management, not the MLRO.",
+    "Correct: ¶2.9 lists those examples of trigger events, together with significant changes to operational processes, target customers and business counterparts.",
+    "Correct: ¶2.10 says an MSO should maintain records of the institutional ML/TF risk assessment, including the risk factors identified and assessed and the information sources taken into account.",
+    "Incorrect: ¶2.9 sets the regular cycle at every two years; three years is not the interval."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關確保機構層面洗錢／恐怖分子資金籌集風險評估反映現況的陳述，哪些正確？",
+   "statements": [
+    "金錢服務經營者應每兩年進行一次機構層面的風險評估，並在會顯著影響其業務及所面對風險的觸發事件發生後覆核評估。",
+    "機構層面風險評估的覆核結果應記錄在案，並由金錢服務經營者的洗錢報告主任審批。",
+    "觸發事件可包括嚴重違反打擊洗錢／恐怖分子資金籌集制度、收購新的客戶類別或交付渠道，或推出新的產品及服務。",
+    "金錢服務經營者應備存機構層面風險評估的紀錄，包括所識別及評估的風險因素及所考慮的資料來源。",
+    "機構層面的風險評估一經記錄在案，除非有重大觸發事件發生，否則每三年重新進行一次即可。"
+   ],
+   "notes": [
+    "正確：第2.9段訂明金錢服務經營者應每兩年進行一次評估，並在會顯著影響其業務及所面對風險的觸發事件發生後覆核評估。",
+    "不正確：第2.9段訂明覆核的結果應由金錢服務經營者的高級管理層審批，並非洗錢報告主任。",
+    "正確：第2.9段列出該等觸發事件例子，以及營運程序、目標客戶及交易對手有重大改變的情況。",
+    "正確：第2.10段訂明金錢服務經營者應備存機構層面風險評估的紀錄，包括所識別及評估的風險因素及所考慮的資料來源。",
+    "不正確：第2.9段訂明的定期週期是每兩年一次，並非三年。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "an MSO should conduct its assessment every two years and upon trigger events which are material to the MSO’s business and risk exposure"
+    },
+    {
+     "doc": "03",
+     "text": "Results of the review should be documented and approved by the MSO’s senior management"
+    },
+    {
+     "doc": "03",
+     "text": "Trigger events may include a significant breach of the MSO’s AML/CFT Systems, the acquisition of new customer segments or delivery channels, the launch of new products and services by the MSO"
+    },
+    {
+     "doc": "03",
+     "text": "An MSO should maintain records and relevant documents of the institutional ML/TF risk assessment, including the risk factors identified and assessed, the information sources taken into account"
+    },
+    {
+     "doc": "03",
+     "text": "an MSO should conduct its assessment every two years and upon trigger events which are material to the MSO’s business and risk exposure"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "金錢服務經營者應每兩年進行一次評估，而當會顯著影響該金錢服務經營者的業務及所面對風險的觸發事件發生後亦應覆核其評估"
+    },
+    {
+     "doc": "03",
+     "text": "覆核的結果應記錄在案，並由金錢服務經營者的高級管理層審批"
+    },
+    {
+     "doc": "03",
+     "text": "觸發事件可包括嚴重違反金錢服務經營者的打擊洗錢／恐怖分子資金籌集制度、收購新的客戶類別或交付渠道、金錢服務經營者推出新的產品及服務"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者應備存機構層面的洗錢／恐怖分子資金籌集風險評估的紀錄和相關文件，包括所識別及評估的風險因素、所考慮的資料來源"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者應每兩年進行一次評估，而當會顯著影響該金錢服務經營者的業務及所面對風險的觸發事件發生後亦應覆核其評估"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m5-141",
+  "module": 5,
+  "truth": [
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   null,
+   "condition",
+   null,
+   "scope"
+  ],
+  "source": {
+   "en": "Guidelines for Submission of Business Plan (Ver 12-2019), preamble and items 1, 8 and 9",
+   "tc": "《遞交業務計劃的指引》（12-2019版）前言及第1、8及9項"
+  },
+  "en": {
+   "q": "According to the Guidelines for Submission of Business Plan, which of the following are correct about the information an applicant must provide?",
+   "statements": [
+    "The applicant should provide the expected profit margin and turnover for each type of product and service for the next two years, and the running capital for daily operation.",
+    "The applicant should provide the account number and the owner of any bank account used for the business, and no third party bank account is allowed.",
+    "An applicant that considers it has no need to open a bank account for the business may simply state so in the business plan without further explanation.",
+    "The applicant must confirm in writing in the business plan that any change in the particulars provided to the Commissioner will be notified in writing within one month.",
+    "The business plan need not mention the business logo or the trademark that the applicant will use to promote the money service business."
+   ],
+   "notes": [
+    "Correct: item 9 asks for the expected profit margin and turnover on each type of product and service for the next two years and the running capital for daily operation.",
+    "Correct: item 8 asks for the account number and owner of any bank account used for the business and states that no third party bank account is allowed.",
+    "Incorrect: the note to item 8 requires such an applicant to provide details on how the company will provide money service without a bank account.",
+    "Correct: the preamble requires written confirmation that the licensee will notify the Commissioner in writing of any change within one month beginning on the date on which the change takes place.",
+    "Incorrect: item 1 asks for the company name, business name, website address, business logo and trademark used to promote the money service business."
+   ]
+  },
+  "tc": {
+   "q": "根據《遞交業務計劃的指引》，以下有關申請人須提供的資料的陳述，哪些正確？",
+   "statements": [
+    "申請人應就未來兩年每類產品及服務的預計利潤幅度和營業額，以及業務日常運作的營運資本提供資料。",
+    "申請人應提供用以經營業務的銀行戶口的帳戶號碼及擁有人，且不得使用第三方銀行戶口。",
+    "申請人如認為無需開設銀行戶口，在業務計劃內說明此點即可，而無需作進一步解釋。",
+    "申請人須在業務計劃內藉書面確認，提供予關長的詳情如有改變，會在自改變發生之日起計的一個月內藉書面具報。",
+    "業務計劃無需提及申請人將用作推廣其金錢服務業務的業務標誌或商標等有關資料。"
+   ],
+   "notes": [
+    "正確：第9項要求就未來兩年每類產品及服務的預計利潤幅度和營業額及業務日常運作的營運資本提供資料。",
+    "正確：第8項要求提供用以經營業務的銀行戶口的帳戶號碼及擁有人，並訂明不得使用第三方銀行戶口。",
+    "不正確：第8項的註明要求該等申請人詳述如何在沒有銀行戶口的情況下提供金錢服務。",
+    "正確：前言要求申請人藉書面確認會在自改變發生之日起計的一個月內，藉書面向關長具報有關改變。",
+    "不正確：第1項要求就將用作推廣金錢服務業務的公司名稱、業務名稱、網址、業務標誌及商標提供資料。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "20",
+     "text": "Provide information on the expected profit margin and turnover on each type of product and service for the next two years and the running capital for the daily operation of the business"
+    },
+    {
+     "doc": "20",
+     "text": "Provide information of any bank accounts used for the business, such as account number and owner of the bank account (No third party bank account is allowed)"
+    },
+    {
+     "doc": "20",
+     "text": "If the applicant considers there is no need to open bank account for the business, the applicant is required to provide details on how will the company provide money service without bank account"
+    },
+    {
+     "doc": "20",
+     "text": "the licensee must notify the Commissioner in writing of change within one month beginning on the date on which the change takes place"
+    },
+    {
+     "doc": "20",
+     "text": "Provide information on the company name, business name, website address, business logo and trademark that will be used to promote the money service business"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "20",
+     "text": "就未來兩年每類產品及服務的預計利潤幅度和營業額及業務日常運作的營運資本提供資料"
+    },
+    {
+     "doc": "20",
+     "text": "就任何用以經營業務的銀行戶口提供資料，例如帳戶號碼、銀行戶口的擁有人（不得使用第三方銀行戶口）等"
+    },
+    {
+     "doc": "20",
+     "text": "如申請人認為無需為經營業務開設銀行戶口，申請人便須詳述如何在沒有銀行戶口的情況下提供金錢服務"
+    },
+    {
+     "doc": "20",
+     "text": "該持牌人須在自改變發生之日起計的一個月內，藉書面向關長具報有關改變"
+    },
+    {
+     "doc": "20",
+     "text": "就將用作推廣金錢服務業務的公司名稱、業務名稱、網址、業務標誌及商標提供資料"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m5-142",
+  "module": 5,
+  "truth": [
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   null,
+   "condition",
+   null,
+   "actor"
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.5, ¶3.7–3.9 and footnote 9",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第3.5、3.7至3.9段及註9"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following are correct about the Compliance Officer and the Money Laundering Reporting Officer of an MSO?",
+   "statements": [
+    "Compliance management arrangements should, at a minimum, include oversight by senior management and the appointment of a Compliance Officer and a Money Laundering Reporting Officer.",
+    "Senior management should appoint a CO at management level with overall responsibility for the AML/CFT Systems, and a senior staff member as MLRO and central reference point for STRs.",
+    "The Compliance Officer and the Money Laundering Reporting Officer must always be two different persons, whatever the size of the MSO and its business.",
+    "Senior management should, as far as practicable, ensure that the CO and MLRO are normally based in Hong Kong and of a sufficient level of seniority and authority within the MSO.",
+    "It is the MLRO, rather than the CO, who is responsible for developing and continuously reviewing the MSO's AML/CFT Systems to keep them up to date."
+   ],
+   "notes": [
+    "Correct: ¶3.5 says compliance management arrangements should, at a minimum, include oversight by senior management and the appointment of a CO and an MLRO.",
+    "Correct: ¶3.7 says senior management should appoint a CO at the management level with overall responsibility for the AML/CFT Systems and a senior staff as the MLRO to act as the central reference point for suspicious transaction reporting.",
+    "Incorrect: footnote 9 says that, depending on the size of an MSO, the functions of CO and MLRO may be performed by the same person.",
+    "Correct: ¶3.8(c) and (d) say the CO and MLRO should be normally based in Hong Kong and of a sufficient level of seniority and authority within the MSO.",
+    "Incorrect: ¶3.9(a) gives the CO responsibility for developing and/or continuously reviewing the MSO's AML/CFT Systems."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關金錢服務經營者的合規主任及洗錢報告主任的陳述，哪些正確？",
+   "statements": [
+    "合規管理安排最低限度應包括由高級管理層監督，以及委任一名合規主任及一名洗錢報告主任。",
+    "高級管理層應委任一名屬管理層的合規主任全面負責打擊洗錢／恐怖分子資金籌集制度，並委任一名高級職員擔任洗錢報告主任。",
+    "不論金錢服務經營者的規模及業務如何，合規主任及洗錢報告主任必須由兩名不同的人分別擔任。",
+    "高級管理層應在切實可行的範圍內，確保合規主任及洗錢報告主任通常長駐香港，並在該經營者具有一定的資歷及權力。",
+    "負責制訂及持續覆核金錢服務經營者的打擊洗錢／恐怖分子資金籌集制度的是洗錢報告主任，而非合規主任。"
+   ],
+   "notes": [
+    "正確：第3.5段訂明合規管理安排最低限度應包括由高級管理層監督，以及委任一名合規主任及一名洗錢報告主任。",
+    "正確：第3.7段訂明高級管理層應委任一名屬管理層的合規主任全面負責制度，並委任一名高級職員擔任洗錢報告主任，作為報告可疑交易的中央聯絡點。",
+    "不正確：註9訂明合規主任及洗錢報告主任的職能可由同一人執行，視乎金錢服務經營者的規模而定。",
+    "正確：第3.8(c)及(d)段訂明合規主任及洗錢報告主任應通常長駐香港，並在該經營者具有一定的資歷及權力。",
+    "不正確：第3.9(a)段把制訂及╱或持續覆核打擊洗錢／恐怖分子資金籌集制度的責任交予合規主任。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "Compliance management arrangements should, at a minimum, include oversight by the MSO’s senior management, and appointment of a Compliance Officer (CO)"
+    },
+    {
+     "doc": "03",
+     "text": "the senior management should appoint a CO at the management level to have the overall responsibility for the establishment and maintenance of the MSO’s AML/CFT Systems; and a senior staff as the MLRO to act as the central reference point for suspicious transaction reporting"
+    },
+    {
+     "doc": "03",
+     "text": "Depending on the size of an MSO, the functions of CO and MLRO may be performed by the same person"
+    },
+    {
+     "doc": "03",
+     "text": "(c) normally based in Hong Kong; (d) of a sufficient level of seniority and authority within the MSO"
+    },
+    {
+     "doc": "03",
+     "text": "the CO should assume responsibility for: (a) developing and/or continuously reviewing the MSO’s AML/CFT Systems"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "合規管理安排最低限度應包括由金錢服務經營者的高級管理層監督，以及委任一名合規主任及一名洗錢報告主任"
+    },
+    {
+     "doc": "03",
+     "text": "高級管理層尤其應該委任一名屬管理層的合規主任，全面負責建立及維持金錢服務經營者的打擊洗錢／恐怖分子資金籌集制度；並委任一名高級職員擔任洗錢報告主任，作為報告可疑交易的中央聯絡點"
+    },
+    {
+     "doc": "03",
+     "text": "合規主任及洗錢報告主任的職能可由同一人執行，視乎金錢服務經營者的規模而定"
+    },
+    {
+     "doc": "03",
+     "text": "(c) 通常長駐香港； (d) 在該金錢服務經營者具有一定的資歷及權力"
+    },
+    {
+     "doc": "03",
+     "text": "規主任尤其應負責： (a) 制訂及╱或持續覆核金錢服務經營者的打擊洗錢／恐怖分子資金籌集制度"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m7-221",
+  "module": 7,
+  "truth": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "traps": [
+   null,
+   "actor",
+   null,
+   "number",
+   null
+  ],
+  "source": {
+   "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶3.30 and ¶3.38–3.39",
+   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第3.30及3.38至3.39段"
+  },
+  "en": {
+   "q": "According to the Hong Kong ML/TF Risk Assessment Report 2022, which of the following are correct about the Joint Financial Intelligence Unit (JFIU) and the suspicious transaction reports it receives?",
+   "statements": [
+    "The JFIU is the dedicated unit of the Hong Kong Police Force and the C&ED together, which receives, analyses and disseminates STRs filed by FIs, DNFBPs and members of the public.",
+    "The JFIU is operated by the Hong Kong Police Force alone; the C&ED is involved only when an STR concerns a customs offence such as smuggling.",
+    "On receipt of each STR, the JFIU conducts intelligence analysis under its risk-assessment mechanism, examining the report's degree of suspicion, severity and level of risk.",
+    "The number of STRs reached its peak in 2019, when 51 588 reports were filed, partly because of an improving compliance culture since the AMLO took effect.",
+    "The Financial Investigations, JFIU and Risk Assessment formations were detached from the Narcotics Bureau to form the FIIB with effect from 1 June 2021."
+   ],
+   "notes": [
+    "Correct: ¶3.38 describes the JFIU as the dedicated unit jointly operated by the HKPF and the C&ED to receive, analyse and disseminate STRs filed by FIs, DNFBPs and members of the public.",
+    "Incorrect: ¶3.38 says the JFIU is jointly operated by the HKPF and the C&ED; the C&ED is a joint operator, not an occasional participant.",
+    "Correct: ¶3.38 says that on receipt of each STR the JFIU examines it and conducts intelligence analysis under its risk-assessment mechanism, looking at its degree of suspicion, severity and level of risk.",
+    "Incorrect: ¶3.39 says the number of STRs peaked in 2017 and then dropped to 51 588 in 2019 after outreach work improved STR quality.",
+    "Correct: ¶3.30 says the three formations were detached from the NB to form a new FIIB with effect from 1 June 2021."
+   ]
+  },
+  "tc": {
+   "q": "根據《香港洗錢及恐怖分子資金籌集風險評估報告》2022，以下有關聯合財富情報組及其接收的可疑交易報告的陳述，哪些正確？",
+   "statements": [
+    "聯合財富情報組由警務處和海關共同組成，專責接收、分析及發布金融機構、指定非金融業人士和市民提交的可疑交易報告。",
+    "聯合財富情報組由警務處單獨運作；海關在可疑交易報告涉及走私等海關職權範圍內的罪行時才會參與其中。",
+    "每當接獲可疑交易報告，聯合財富情報組會按風險評估機制審視報告內容，包括可疑情況、嚴重程度和風險水平，並進行情報分析。",
+    "可疑交易報告的數目在2019年錄得新高，當年共有51 588份，部分原因是打擊洗錢條例實施後合規文化持續改善。",
+    "財富調查、聯合財富情報及風險評估三個單位由2021年6月1日起脫離毒品調查科，成為新的財富情報及調查科。"
+   ],
+   "notes": [
+    "正確：第3.38段說明聯合財富情報組由警務處和海關的人員組成，專責接收、分析及發布金融機構、指定非金融業人士和市民提交的可疑交易報告。",
+    "不正確：第3.38段說明聯合財富情報組由警務處和海關的人員組成；海關是共同組成單位的一方，並非偶然參與。",
+    "正確：第3.38段說明每當接獲可疑交易報告，聯合財富情報組會按風險評估機制審視報告內容，包括可疑情況、嚴重程度和風險水平，並進行情報分析。",
+    "不正確：第3.39段說明可疑交易報告的數目在2017年錄得新高，其後在2019年回落至51 588份。",
+    "正確：第3.30段說明該三個單位由2021年6月1日起脫離毒品調查科，成為新的財富情報及調查科。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "25",
+     "text": "the JFIU continued to be the dedicated unit jointly operated by the HKPF and the C&ED to receive, analyse and disseminate STRs filed by FIs, DNFBPs and members of the public"
+    },
+    {
+     "doc": "25",
+     "text": "the JFIU continued to be the dedicated unit jointly operated by the HKPF and the C&ED to receive, analyse and disseminate STRs filed by FIs, DNFBPs and members of the public"
+    },
+    {
+     "doc": "25",
+     "text": "the JFIU will examine and conduct intelligence analysis in accordance with its risk-assessment mechanism, examining aspects of the report, including its degree of suspicion, severity and level of risk"
+    },
+    {
+     "doc": "25",
+     "text": "The number of STRs continued to increase and reached its peak in 2017, partly due to an improving AML/CFT compliance culture since implementation of the AMLO in 2012. The number then dropped to 51 588 in 2019"
+    },
+    {
+     "doc": "25",
+     "text": "these three formations were detached from the NB to form a new FIIB with effect from 1 June 2021"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "25",
+     "text": "繼續由警務處和海關的人員組成，專責接收、分析及發布由金融機構、指定非金融業人士和巿民提交的可疑交易報告"
+    },
+    {
+     "doc": "25",
+     "text": "繼續由警務處和海關的人員組成，專責接收、分析及發布由金融機構、指定非金融業人士和巿民提交的可疑交易報告"
+    },
+    {
+     "doc": "25",
+     "text": "每當接獲可疑交易報告，聯合財富情報組會按風險評估機制審視報告內容，包括可疑情況、嚴重程度和風險水平，並進行情報分析"
+    },
+    {
+     "doc": "25",
+     "text": "可疑交易報告的數目持續上升，並在2017 年錄得新高，部分原因是自2012 年《打擊洗錢條例》實施後，打擊洗錢及恐怖分子資金籌集方面的合規文化持續改善。在聯合財富情報組積極協助舉報機構提高可疑交易報告的質素下，這類報告的數目在2019 年回落至51 588 份"
+    },
+    {
+     "doc": "25",
+     "text": "上述三個單位由2021 年6 月1 日起脫離毒品調查科，成為新的財富情報及調查科"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m7-222",
+  "module": 7,
+  "truth": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "traps": [
+   null,
+   "modal",
+   null,
+   "reversed",
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.29–7.30",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第7.29至7.30段"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following are correct about the records an MSO keeps of internal ML/TF reports and of STRs made to the JFIU?",
+   "statements": [
+    "The record of ML/TF reports made to the MLRO should include the report's date, the staff subsequently handling it, the assessment results and where the papers can be located.",
+    "Keeping a record of all ML/TF reports made to the MLRO is recommended but optional, since only STRs actually filed with the JFIU must be recorded.",
+    "The record of STRs made to the JFIU should include the date of the STR, the person who made it and information to allow the papers relevant to it to be located.",
+    "The internal-report record need not say whether the report led to an STR to the JFIU, since that information appears in the STR register instead.",
+    "The register of STRs made to the JFIU may be combined with the register of internal reports made to the MLRO, if considered appropriate."
+   ],
+   "notes": [
+    "Correct: ¶7.29 lists the date the report was made, the staff members subsequently handling the report, the results of the assessment and information to allow the relevant papers to be located, as well as whether an STR followed.",
+    "Incorrect: ¶7.29 says an MSO must establish and maintain a record of all ML/TF reports made to the MLRO; it is a requirement, not an option.",
+    "Correct: ¶7.30 says the record should include the date of the STR, the person who made the STR and information to allow the relevant papers to be located.",
+    "Incorrect: ¶7.29 lists whether the internal report resulted in an STR to the JFIU among the details the record of internal reports should include.",
+    "Correct: ¶7.30 says the STR register may be combined with the register of internal reports, if considered appropriate."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關金錢服務經營者就內部洗錢報告及向財富情報組提交的可疑交易報告所保存紀錄的陳述，哪些正確？",
+   "statements": [
+    "向洗錢報告主任作出的洗錢／恐怖分子資金籌集報告紀錄，應收錄報告日期、其後處理的人員、評估結果及相關文件存放何處。",
+    "保存向洗錢報告主任作出的所有洗錢／恐怖分子資金籌集報告的紀錄屬建議而非強制，因為實際向財富情報組提交的報告才須記錄。",
+    "向財富情報組提交的可疑交易報告的紀錄，應收錄提交報告日期、提交報告的人，以及相關文件存放何處等詳情。",
+    "內部報告紀錄無需載明該報告有否導致向財富情報組提交可疑交易報告，因為該資料已載於可疑交易報告紀錄冊。",
+    "如果認為恰當，向財富情報組提交的可疑交易報告紀錄冊可與向洗錢報告主任作出的內部報告紀錄冊合併處理。"
+   ],
+   "notes": [
+    "正確：第7.29段列出作出報告日期、其後處理報告的人員、評估結果及相關文件存放何處等詳情，以及有否導致提交可疑交易報告。",
+    "不正確：第7.29段訂明金錢服務經營者必須建立及保存向洗錢報告主任作出的所有洗錢／恐怖分子資金籌集報告的完整紀錄；這是規定而非選擇。",
+    "正確：第7.30段訂明紀錄應收錄提交可疑交易報告日期、提交報告的人，以及相關文件存放何處等詳情。",
+    "不正確：第7.29段把內部報告有否導致須向財富情報組提交可疑交易報告，列為內部報告紀錄應收錄的詳情之一。",
+    "正確：第7.30段訂明如果認為恰當，這紀錄冊可與內部報告紀錄冊合併處理。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "The record should include details of the date the report was made, the staff members subsequently handling the report, the results of the assessment, whether the internal report resulted in an STR to the JFIU"
+    },
+    {
+     "doc": "03",
+     "text": "An MSO must establish and maintain a record of all ML/TF reports made to the MLRO"
+    },
+    {
+     "doc": "03",
+     "text": "The record should include details of the date of the STR, the person who made the STR, and information to allow the papers relevant to the STR to be located"
+    },
+    {
+     "doc": "03",
+     "text": "whether the internal report resulted in an STR to the JFIU, and information to allow the papers relevant to the report to be located"
+    },
+    {
+     "doc": "03",
+     "text": "This register may be combined with the register of internal reports, if considered appropriate"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "該紀錄應收錄作出報告日期、其後處理報告的人員、評估結果、內部報告有否導致須向財富情報組提交可疑交易報告"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者必須建立及保存向洗錢報告主任作出的所有洗錢／恐怖分子資金籌集報告的完整紀錄"
+    },
+    {
+     "doc": "03",
+     "text": "該紀錄應收錄提交可疑交易報告日期、提交可疑交易報告的人，以及可疑交易報告的相關文件存放何處等詳情"
+    },
+    {
+     "doc": "03",
+     "text": "內部報告有否導致須向財富情報組提交可疑交易報告，以及報告的相關文件存放何處等詳情"
+    },
+    {
+     "doc": "03",
+     "text": "如果認為恰當，這紀錄冊可與內部報告紀錄冊合併處理"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m7-223",
+  "module": 7,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "number",
+   null,
+   null,
+   "scope"
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶9.5–9.7",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第9.5至9.7段"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following are correct about staff training and training records?",
+   "statements": [
+    "Whatever training approach is adopted, an MSO should monitor and keep records of who has been trained, when the staff received the training and the type of training provided.",
+    "Training records should be kept for a minimum of 7 years, the same period for which an MSO keeps its transaction records under the AMLO.",
+    "For all new staff, irrespective of seniority, appropriate training may include an introduction to the background to ML/TF and to reporting suspicious transactions to the MLRO and tipping-off.",
+    "An MSO may consider including available FATF papers and typologies in its training materials, and should be able to demonstrate to the CCE that all materials are up to date.",
+    "Back-office staff need no AML/CFT training, since the training programme in the Guideline is directed at staff who deal directly with the public."
+   ],
+   "notes": [
+    "Correct: ¶9.7 says an MSO should monitor and maintain records of who have been trained, when the staff received the training and the type of the training provided.",
+    "Incorrect: ¶9.7 says training records should be maintained for a minimum of 3 years, not 7 years.",
+    "Correct: ¶9.5(a) says that, for all new staff irrespective of seniority, appropriate training may include an introduction to the background to ML/TF and to the need to identify and report suspicious transactions to the MLRO and the offence of tipping-off.",
+    "Correct: ¶9.6 says an MSO may consider including available FATF papers and typologies as part of the training materials and should be able to demonstrate to the CCE that all materials are up-to-date and in line with current requirements and standards.",
+    "Incorrect: ¶9.5(c) sets out training for back-office staff on customer verification, processing procedures and recognising unusual activities."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關職員培訓及培訓紀錄的陳述，哪些正確？",
+   "statements": [
+    "無論使用哪種培訓方法，金錢服務經營者應監察誰人已接受培訓、職員何時接受培訓以及培訓的類別，並備存紀錄。",
+    "培訓紀錄應最少保存7年，與金錢服務經營者根據打擊洗錢條例保存交易紀錄的期限相同。",
+    "就所有新職員（不論資歷），適用的培訓可包括洗錢／恐怖分子資金籌集的背景、向洗錢報告主任舉報的必要及「通風報訊」罪行。",
+    "金錢服務經營者可考慮使用特別組織的文章及典型案件作為培訓材料，並應能向關長證明所有培訓材料均是最新的。",
+    "後勤職員無需接受打擊洗錢培訓，因為指引的培訓計劃是針對與公眾有直接接觸的前線工作人員。"
+   ],
+   "notes": [
+    "正確：第9.7段訂明金錢服務經營者應監察誰人已接受培訓、職員何時接受培訓以及所提供培訓的類別，並備存紀錄。",
+    "不正確：第9.7段訂明培訓紀錄應最少保存3年，並非7年。",
+    "正確：第9.5(a)段訂明，就所有新職員（不論資歷）而言，適用的培訓範疇可包括洗錢／恐怖分子資金籌集的背景簡介、向洗錢報告主任舉報可疑交易的必要及「通風報訊」的罪行。",
+    "正確：第9.6段訂明金錢服務經營者可考慮使用特別組織的文章及典型案件作為培訓材料，並應能夠向關長證明所有培訓材料是最新的，並符合現行規定及標準。",
+    "不正確：第9.5(c)段列出後勤職員在客戶核實、處理程序及識別不尋常活動方面的培訓。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "an MSO should monitor and maintain records of who have been trained, when the staff received the training and the type of the training provided"
+    },
+    {
+     "doc": "03",
+     "text": "Records should be maintained for a minimum of 3 years"
+    },
+    {
+     "doc": "03",
+     "text": "all new staff, irrespective of seniority: (i) an introduction to the background to ML/TF and the importance placed on ML/TF by the MSO; and (ii) the need for identifying and reporting of any suspicious transactions to the MLRO, and the offence of “tipping-off”"
+    },
+    {
+     "doc": "03",
+     "text": "An MSO may consider including available FATF papers and typologies as part of the training materials. The MSO should be able to demonstrate to the CCE that all materials are up-to-date and in line with current requirements and standards"
+    },
+    {
+     "doc": "03",
+     "text": "back-office staff, depending on their roles: (i) appropriate training on customer verification and relevant processing procedures; and (ii) how to recognise unusual activities including abnormal settlements, payments or delivery instructions"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "金錢服務經營者應監察誰人已接受培訓、職員何時接受培訓，以及所提供培訓的類別，並備存紀錄"
+    },
+    {
+     "doc": "03",
+     "text": "紀錄應最少保存3年"
+    },
+    {
+     "doc": "03",
+     "text": "所有新職員（不論資歷） (i) 洗錢／恐怖分子資金籌集的背景及金錢服務經營者對洗錢／ 73 恐怖分子資金籌集問題的重視的簡介；及 (ii) 識別可疑交易及向洗錢報告主任舉報任何可疑交易的必要，以及認識「通風報訊」的罪行"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者可考慮使用特別組織的文章及典型案件作為培訓材料。金錢服務經營者應能夠向關長證明所有培訓材料應是最新的，並且應符合現行規定及標準"
+    },
+    {
+     "doc": "03",
+     "text": "後勤職員（視乎他們的職責）： (i) 客戶核實及相關處理程序的適當培訓，及 (ii) 如何識別不尋常活動，包括不正常的結算、付款及交付指示"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m7-224",
+  "module": 7,
+  "truth": [
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   null,
+   "period",
+   null,
+   "actor"
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.11–3.13",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第3.11至3.13段"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following are correct about an MSO's independent audit function?",
+   "statements": [
+    "An MSO should establish an independent audit function with a direct line of communication to senior management and sufficient expertise and resources for its work.",
+    "The audit function's regular review should cover the adequacy of the AML/CFT Systems, the effectiveness of STR systems and the compliance function, and staff awareness.",
+    "The Guideline fixes the audit function's review of the AML/CFT Systems at once every calendar year for every MSO, regardless of its size or risk.",
+    "Where appropriate, the MSO should also seek a review of its AML/CFT Systems from external parties in addition to its own independent audit function.",
+    "The independent audit function reports to the Compliance Officer, who decides which of its findings are passed on to the MSO's senior management."
+   ],
+   "notes": [
+    "Correct: ¶3.11 says the independent audit function should have a direct line of communication to senior management and sufficient expertise and resources to carry out its responsibilities.",
+    "Correct: ¶3.12 lists the adequacy of the AML/CFT Systems, risk assessment framework and RBA, the effectiveness of STR systems and of the compliance function, and the level of awareness of staff with AML/CFT responsibilities.",
+    "Incorrect: ¶3.13 says the frequency and extent of the review should be commensurate with the nature, size and complexity of the business and its ML/TF risks; no fixed annual interval is set.",
+    "Correct: ¶3.13 says that, where appropriate, the MSO should also seek a review from external parties.",
+    "Incorrect: ¶3.11 gives the audit function a direct line of communication to senior management; it does not route through the CO."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關金錢服務經營者獨立審核職能的陳述，哪些正確？",
+   "statements": [
+    "金錢服務經營者應設立獨立的審核職能，該職能應能與高級管理層直接溝通，並具備充足的專門知識及資源以履行職責。",
+    "審核職能的定期覆核範圍應包括打擊洗錢／恐怖分子資金籌集制度是否合適、報告可疑交易制度及合規職能是否有效，以及職員的意識水平。",
+    "指引把每名金錢服務經營者對打擊洗錢／恐怖分子資金籌集制度的審核覆核定為每個公曆年進行一次，不論其規模或風險。",
+    "在適當情況下，金錢服務經營者除本身的獨立審核職能外，亦應尋求外界對其打擊洗錢／恐怖分子資金籌集制度進行覆核。",
+    "獨立審核職能須向合規主任匯報，並由合規主任決定哪些審核結果可以提交金錢服務經營者的高級管理層。"
+   ],
+   "notes": [
+    "正確：第3.11段訂明獨立審核職能應能與高級管理層直接溝通，並具備充足的專門知識及資源以履行職責。",
+    "正確：第3.12段列出制度、風險評估框架及風險為本方法的應用是否合適、報告可疑交易制度及合規職能是否有效，以及負責打擊洗錢職員的意識水平。",
+    "不正確：第3.13段訂明覆核的頻密程度及範圍應與業務性質、規模及複雜程度以及所產生的風險相稱；並無訂明固定的每年一次。",
+    "正確：第3.13段訂明在適當情況下，金錢服務經營者亦應尋求外界進行覆核。",
+    "不正確：第3.11段訂明審核職能應能與高級管理層直接溝通；並非經合規主任轉達。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "An MSO should establish an independent audit function which should have a direct line of communication to the senior management of the MSO. The function should have sufficient expertise and resources to enable it to carry out its responsibilities"
+    },
+    {
+     "doc": "03",
+     "text": "(a) adequacy of the MSO’s AML/CFT Systems, ML/TF risk assessment framework and application of RBA; (b) effectiveness of suspicious transaction reporting systems; (c) effectiveness of the compliance function; and (d) level of awareness of staff having AML/CFT responsibilities"
+    },
+    {
+     "doc": "03",
+     "text": "The frequency and extent of the review should be commensurate with the nature, size and complexity of its business and the ML/TF risks arising from those businesses"
+    },
+    {
+     "doc": "03",
+     "text": "Where appropriate, the MSO should also seek a review from external parties"
+    },
+    {
+     "doc": "03",
+     "text": "An MSO should establish an independent audit function which should have a direct line of communication to the senior management of the MSO"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "金錢服務經營者應設立獨立的審核職能。這職能應能與金錢服務經營者的高級管理層直接溝通。此職能應具備充足的專門知識及資源，讓其履行職責"
+    },
+    {
+     "doc": "03",
+     "text": "(a) 金錢服務經營者的打擊洗錢／恐怖分子資金籌集制度、洗錢／恐怖分子資金籌集風險評估框架及風險為本方法的應用情況是否合適； (b) 報告可疑交易的制度是否有效； (c) 合規職能是否有效；及 14 (d) 職員對負責打擊洗錢／恐怖分子資金籌集的意識水平"
+    },
+    {
+     "doc": "03",
+     "text": "覆核的頻密程度及範圍應與金錢服務經營者的業務性質、規模及複雜程度，以及該等業務所產生的洗錢／恐怖分子資金籌集風險相稱"
+    },
+    {
+     "doc": "03",
+     "text": "在適當情況下，金錢服務經營者亦應尋求外界進行覆核"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者應設立獨立的審核職能。這職能應能與金錢服務經營者的高級管理層直接溝通"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m6-513",
+  "module": 6,
+  "truth": [
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   null,
+   "period",
+   null,
+   "scope"
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.11–10.12",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第10.11至10.12段"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following are correct about originator information that an ordering institution chooses not to include in a wire transfer?",
+   "statements": [
+    "For a domestic wire transfer, an ordering institution may include only the originator's account number or, if there is no account, a unique reference number, provided it permits traceability.",
+    "An ordering institution that omits complete originator information must provide it within 3 business days after a request from the institution it passes the instruction to, or from the CCE.",
+    "The complete originator information must be provided within 3 business days after the wire transfer is sent, whether or not any request for it is received.",
+    "Such information should be made available to law enforcement agencies immediately upon request, without waiting for the 3 business days allowed to other requesters.",
+    "The option to omit complete originator information applies equally to cross-border wire transfers, provided the account or reference number permits traceability."
+   ],
+   "notes": [
+    "Correct: ¶10.11 allows, for a domestic wire transfer, including only the originator's account number or a unique reference number, provided that the number permits traceability of the wire transfer.",
+    "Correct: ¶10.12 requires the complete required originator information within 3 business days after the request from the receiving institution or the CCE is received.",
+    "Incorrect: ¶10.12 runs the 3 business days from receipt of a request; there is no duty to send the information unasked within 3 business days of the transfer.",
+    "Correct: ¶10.12 says such information should be made available to law enforcement agencies immediately upon request.",
+    "Incorrect: ¶10.11 confines the option to domestic wire transfers; the batch-file arrangement in ¶10.10 for overseas recipients is different, because the batch file must still carry complete originator and recipient information."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關匯款機構選擇不加入電傳轉帳的匯款人資料的陳述，哪些正確？",
+   "statements": [
+    "就本地電傳轉帳，匯款機構可僅加入匯款人的戶口號碼或（如沒有戶口）獨特參考編號，但該號碼必須可用作追蹤有關電傳轉帳。",
+    "選擇不加入全部所需匯款人資料的匯款機構，須在接獲收取其轉帳指示的機構或關長的要求後的3個營業日內提供該等資料。",
+    "不論有否接獲任何要求，全部所需匯款人資料均須在電傳轉帳發出後的3個營業日內主動提供。",
+    "該等資料亦需按執法機構要求立即提供，不能等待向其他要求者提供資料的3個營業日期限。",
+    "凡戶口號碼或參考編號可用作追蹤，不加入全部所需匯款人資料的選擇同樣適用於跨境電傳轉帳。"
+   ],
+   "notes": [
+    "正確：第10.11段容許就本地電傳轉帳僅加入匯款人的戶口號碼或獨特參考編號，但該號碼必須可用作追蹤有關電傳轉帳。",
+    "正確：第10.12段規定須在接獲收取其轉帳指示的機構或關長的要求後的3個營業日內，提供全部所需匯款人資料。",
+    "不正確：第10.12段的3個營業日由接獲要求起計；並無規定在轉帳後3個營業日內主動提供。",
+    "正確：第10.12段訂明該等資料亦需按執法機構要求立即提供。",
+    "不正確：第10.11段把該選擇限於本地電傳轉帳；第10.10段向香港以外收款人傳遞群組檔案的安排並不相同，因為群組檔案仍須載有所需的匯款人及收款人資料。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "an ordering institution may choose not to include the complete required originator information in the wire transfer but only include the originator’s account number or, in the absence of an account, a unique reference number, provided that the number permits traceability of the wire transfer"
+    },
+    {
+     "doc": "03",
+     "text": "it must, on the request of the institution to which it passes on the transfer instruction or the CCE, provide complete required originator information within 3 business days after the request is received"
+    },
+    {
+     "doc": "03",
+     "text": "it must, on the request of the institution to which it passes on the transfer instruction or the CCE, provide complete required originator information within 3 business days after the request is received"
+    },
+    {
+     "doc": "03",
+     "text": "such information should be made available to law enforcement agencies immediately upon request"
+    },
+    {
+     "doc": "03",
+     "text": "For a domestic wire transfer71, an ordering institution may choose not to include the complete required originator information in the wire transfer"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "匯款機構可選擇不將全部所需匯款人資料加入電傳轉帳，而僅加入匯款人的戶口號碼或（如沒有此戶口號碼）獨特參考編號，但該號碼必須可用作追蹤有關電傳轉帳"
+    },
+    {
+     "doc": "03",
+     "text": "則須在收取它的轉帳指示的機構或關長的要求下，在接獲該要求後的3個營業日內，提供全部所需匯款人資料"
+    },
+    {
+     "doc": "03",
+     "text": "則須在收取它的轉帳指示的機構或關長的要求下，在接獲該要求後的3個營業日內，提供全部所需匯款人資料"
+    },
+    {
+     "doc": "03",
+     "text": "該等資料亦需按執法機構要求立即提供"
+    },
+    {
+     "doc": "03",
+     "text": "就本地電傳轉帳71，匯款機構可選擇不將全部所需匯款人資料加入電傳轉帳"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m6-514",
+  "module": 6,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "number",
+   null,
+   null,
+   "actor"
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.2.4, ¶4.2.6 and footnote 15",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.2.4、4.2.6段及註15"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following are correct about the amount thresholds for occasional transactions and third-party cash transactions?",
+   "statements": [
+    "When a person not named on an account's mandate undertakes a cash transaction of $120,000 or more, the MSO should ask for that person's identity document and retain a copy.",
+    "The third-party cash transaction rule in the Guideline applies once the cash involved reaches $8,000, the same threshold as applies to a wire transfer.",
+    "An MSO should be vigilant that linked occasional transactions could meet or exceed the $8,000 threshold for wire or virtual asset transfers and the $120,000 threshold for others.",
+    "The suspicion of ML/TF criterion for carrying out CDD applies irrespective of the $120,000 or $8,000 thresholds that apply to occasional transactions.",
+    "The third-party cash transaction rule in ¶4.2.6 is directed at large cash deposits made personally by the account holder whose name is on the mandate."
+   ],
+   "notes": [
+    "Correct: ¶4.2.6 says that when a cash transaction involving an amount equal to or exceeding $120,000 is undertaken by a person not on the mandate, the MSO should ask for the person's identity document and retain a copy.",
+    "Incorrect: ¶4.2.6 sets the third-party cash transaction amount at $120,000 or more; $8,000 is the wire transfer threshold in ¶4.2.1.",
+    "Correct: ¶4.2.4 says an MSO should be vigilant to linked occasional transactions meeting or exceeding the $8,000 and $120,000 thresholds, and carry out CDD when it becomes aware they are met.",
+    "Correct: footnote 15 says the suspicion criterion applies irrespective of the $120,000 or $8,000 threshold applicable to occasional transactions.",
+    "Incorrect: ¶4.2.6 concerns cash transactions made by third parties other than the customer, specifically a person whose name does not appear on the mandate of the account."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關非經常交易及第三方現金交易款額門檻的陳述，哪些正確？",
+   "statements": [
+    "姓名不在帳戶委託書上的人進行相等於120,000元或以上的現金交易時，金錢服務經營者應要求其身分證明文件並存檔副本。",
+    "指引有關第三方現金交易的規定，在現金款額達8,000元時即適用，與電傳轉帳的盡職審查門檻相同。",
+    "金錢服務經營者應留意有關連的非經常交易，可能達至或超越電傳轉帳或虛擬資產轉帳的8,000元門檻及其他交易的120,000元門檻。",
+    "就執行盡職審查而言，懷疑涉及洗錢／恐怖分子資金籌集的準則，不受非經常交易的120,000元或8,000元門檻限制。",
+    "第4.2.6段有關第三方現金交易的規定，是針對姓名載於帳戶委託書的帳戶持有人親自進行的大額現金存款。"
+   ],
+   "notes": [
+    "正確：第4.2.6段訂明，姓名不在帳戶委託書上的人進行相等於120,000元或以上的現金交易時，金錢服務經營者應要求該人提供身分證明文件並存檔副本。",
+    "不正確：第4.2.6段把第三方現金交易的款額定為120,000元或以上；8,000元是第4.2.1段電傳轉帳的門檻。",
+    "正確：第4.2.4段訂明金錢服務經營者應留意有關連的非經常交易可能達至或超越8,000元及120,000元門檻，並在知悉達至門檻時執行盡職審查。",
+    "正確：註15訂明即使低於非經常交易的120,000元或8,000元門檻，懷疑的準則仍然適用。",
+    "不正確：第4.2.6段關乎客戶以外的第三方進行的現金交易，即姓名不在帳戶委託書上的人。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "When a cash transaction involving an amount equal to or exceeding $120,000 is undertaken by a person whose name does not appear on the mandate of an account, an MSO should ask for the person’s identity document and retain a copy"
+    },
+    {
+     "doc": "03",
+     "text": "When a cash transaction involving an amount equal to or exceeding $120,000 is undertaken by a person whose name does not appear on the mandate of an account, an MSO should ask for the person’s identity document and retain a copy"
+    },
+    {
+     "doc": "03",
+     "text": "a series of linked occasional transactions could meet or exceed the CDD thresholds of $8,000 (for wire transfers or virtual asset transfers involving virtual assets) and $120,000 (for other types of transactions)"
+    },
+    {
+     "doc": "03",
+     "text": "This criterion applies irrespective of the $120,000 or $8,000 threshold applicable to occasional transactions set out in paragraph [4.2.1(b)]"
+    },
+    {
+     "doc": "03",
+     "text": "Cash transactions may be made by third parties other than the customer. Such transactions may represent an increased risk of ML"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "如某人進行的現金交易總值涉及相等於120,000元或以上，而該人的姓名不在帳戶委託書上，金錢服務經營者應要求該人提供身分證明文件，並將該等文件的副本存檔"
+    },
+    {
+     "doc": "03",
+     "text": "如某人進行的現金交易總值涉及相等於120,000元或以上，而該人的姓名不在帳戶委託書上，金錢服務經營者應要求該人提供身分證明文件，並將該等文件的副本存檔"
+    },
+    {
+     "doc": "03",
+     "text": "留意一連串有關連的非經常交易達至或超越（電傳轉帳或涉及虛擬資產的虛擬資產轉帳的）8,000元的盡職審查門檻和（其他各類交易的）120,000元門檻的可能性"
+    },
+    {
+     "doc": "03",
+     "text": "即使低於第[4.2.1(b)]段載列適用於非經常交易訂於120,000元或8,000元的門檻，此準則仍然適用"
+    },
+    {
+     "doc": "03",
+     "text": "現金交易可能由客戶以外的第三方進行，該等交易或構成較高洗錢風險"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m6-515",
+  "module": 6,
+  "truth": [
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "traps": [
+   null,
+   null,
+   null,
+   "period",
+   "period"
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.4.16–4.4.17",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.4.16至4.4.17段"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following are correct about customers whose ownership involves bearer shares?",
+   "statements": [
+    "Where bearer shares are deposited with an authorised or registered custodian, the MSO should seek independent evidence of this, for example confirmation from the registered agent.",
+    "As part of its ongoing periodic review, the MSO should obtain evidence to confirm the authorised or registered custodian of the bearer shares.",
+    "Where the shares are not deposited with such a custodian, the MSO should obtain declarations from each beneficial owner prior to account opening and annually thereafter.",
+    "Where the shares are not deposited with a custodian, the declarations from beneficial owners are renewed every two years after account opening.",
+    "The MSO should require the customer to notify it of any change in the ownership of the shares within 30 days of the change."
+   ],
+   "notes": [
+    "Correct: ¶4.4.16 says the MSO should seek independent evidence, for example confirmation from the registered agent that an authorised/registered custodian holds the bearer shares.",
+    "Correct: ¶4.4.16 says that, as part of its ongoing periodic review, the MSO should obtain evidence to confirm the authorised/registered custodian of the bearer shares.",
+    "Correct: ¶4.4.17 says the MSO should obtain declarations prior to account opening and annually thereafter from each beneficial owner of such shares.",
+    "Incorrect: ¶4.4.17 requires the declarations annually, not every two years.",
+    "Incorrect: ¶4.4.17 requires the customer to notify the MSO immediately of any changes in the ownership of the shares; no 30-day period is given."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關擁有權涉及持票人股份的客戶的陳述，哪些正確？",
+   "statements": [
+    "持票人股份如已存放於認可或註冊保管人，金錢服務經營者應尋求這方面的獨立證據，例如註冊代理發出的確認書。",
+    "金錢服務經營者應取得證據以確定持票人股份的認可或註冊保管人，作為其持續定期覆核的一部分。",
+    "股份如非存放於該等保管人，金錢服務經營者應在開立戶口前及其後每年向每名實益擁有人索取聲明。",
+    "股份如非存放於認可或註冊保管人，實益擁有人的聲明在開立戶口後每兩年更新一次即可。",
+    "金錢服務經營者應要求客戶在持票人股份的擁有權有任何變動後30日內知會該經營者。"
+   ],
+   "notes": [
+    "正確：第4.4.16段訂明金錢服務經營者應尋求獨立證據，例如註冊代理發出的認可╱註冊保管人持有持票人股份的確認書。",
+    "正確：第4.4.16段訂明金錢服務經營者應取得證據以確定持票人股份的認可╱註冊保管人，作為其持續定期覆核的一部分。",
+    "正確：第4.4.17段訂明金錢服務經營者應在開立戶口前及其後每年向每名這類股份的實益擁有人索取聲明。",
+    "不正確：第4.4.17段要求每年索取聲明，並非每兩年。",
+    "不正確：第4.4.17段要求客戶即時知會有關股份擁有權的任何變動；並無30日期限。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "an MSO should seek independent evidence of this, for example confirmation from the registered agent that an authorised/registered custodian holds the bearer shares"
+    },
+    {
+     "doc": "03",
+     "text": "As part of the MSO’s ongoing periodic review, it should obtain evidence to confirm the authorised/registered custodian of the bearer shares"
+    },
+    {
+     "doc": "03",
+     "text": "an MSO should obtain declarations prior to account opening and annually thereafter from each beneficial owner of such shares"
+    },
+    {
+     "doc": "03",
+     "text": "an MSO should obtain declarations prior to account opening and annually thereafter from each beneficial owner of such shares"
+    },
+    {
+     "doc": "03",
+     "text": "The MSO should also require the customer to notify it immediately of any changes in the ownership of the shares"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "金錢服務經營者應尋求這方面的獨立證據（例如註冊代理發出的認可╱註冊保管人持有持票人股份的確認書"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者應取得證據以確定持票人股份的認可╱註冊保管人，作為其持續定期覆核的一部分"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者應在開立戶口前及其後每年向每名這類股份的實益擁有人索取聲明"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者應在開立戶口前及其後每年向每名這類股份的實益擁有人索取聲明"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者亦應要求客戶即時知會有關股份擁有權的任何變動情況"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m6-516",
+  "module": 6,
+  "truth": [
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   "scope",
+   null,
+   null,
+   "period"
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.12.1 and ¶5.3",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.12.1及5.3段"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following are correct about periodic reviews of high-risk customers and CDD for pre-existing customers?",
+   "statements": [
+    "All customers that present high ML/TF risks should be subject to a minimum of an annual review, or more frequent reviews if the MSO deems it necessary.",
+    "Every customer, whatever its risk rating, must have its CDD information reviewed by the MSO at least once a year to keep it up to date.",
+    "Pre-existing customers are those with whom the MSO's business relationship was established before the AMLO came into effect on 1 April 2012.",
+    "CDD must be performed on a pre-existing customer when a material change occurs in the way the account is operated or the MSO suspects ML/TF involvement.",
+    "All pre-existing customers had to be brought under full CDD within 12 months of 1 April 2012, whether or not any trigger event occurred."
+   ],
+   "notes": [
+    "Correct: ¶5.3 says all customers that present high ML/TF risks should be subject to a minimum of an annual review, or more frequent reviews if deemed necessary by the MSO.",
+    "Incorrect: ¶5.3 attaches the minimum annual review to customers presenting high ML/TF risks; it does not impose it on every customer.",
+    "Correct: ¶4.12.1 describes pre-existing customers as those with whom the business relationship was established before the AMLO came into effect on 1 April 2012.",
+    "Correct: ¶4.12.1(b) and (c) list a material change in the way the account is operated and suspicion that the customer or account is involved in ML/TF among the triggers.",
+    "Incorrect: ¶4.12.1 makes CDD for pre-existing customers trigger-based; it sets no 12-month deadline for all of them."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關高風險客戶的定期覆核及先前客戶的盡職審查的陳述，哪些正確？",
+   "statements": [
+    "金錢服務經營者最低限度應每年對所有可引致高度風險的客戶覆核一次，並在認為有需要時更頻密地覆核。",
+    "不論風險評級如何，每名客戶的盡職審查資料均必須由金錢服務經營者最少每年覆核一次以反映現況。",
+    "先前客戶指於2012年4月1日打擊洗錢條例生效前，與金錢服務經營者建立業務關係的客戶。",
+    "當先前客戶的戶口操作模式有相當程度的轉變，或經營者懷疑其涉及洗錢／恐怖分子資金籌集時，必須執行盡職審查。",
+    "不論有否觸發事件，所有先前客戶均須在2012年4月1日起計12個月內完成全面的盡職審查。"
+   ],
+   "notes": [
+    "正確：第5.3段訂明金錢服務經營者最低限度應每年對所有可引致高度風險的客戶進行一次覆核，並在認為有需要時進行更頻密的覆核。",
+    "不正確：第5.3段的最低限度每年覆核只適用於可引致高度風險的客戶；並非每名客戶。",
+    "正確：第4.12.1段把先前客戶描述為於2012年4月1日打擊洗錢條例生效前與之建立業務關係的客戶。",
+    "正確：第4.12.1(b)及(c)段把戶口操作模式出現相當程度的轉變及懷疑客戶或戶口涉及洗錢／恐怖分子資金籌集列為觸發情況。",
+    "不正確：第4.12.1段對先前客戶的盡職審查以觸發情況為本；並無就全部先前客戶訂明12個月期限。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "All customers that present high ML/TF risks should be subject to a minimum of an annual review, or more frequent reviews if deemed necessary by the MSO"
+    },
+    {
+     "doc": "03",
+     "text": "All customers that present high ML/TF risks should be subject to a minimum of an annual review, or more frequent reviews if deemed necessary by the MSO"
+    },
+    {
+     "doc": "03",
+     "text": "pre-existing customers (with whom the business relationship was established before the AMLO came into effect on 1 April 2012)"
+    },
+    {
+     "doc": "03",
+     "text": "(b) a material change occurs in the way in which the customer’s account is operated; (c) the MSO suspects that the customer or the customer’s account is involved in ML/TF"
+    },
+    {
+     "doc": "03",
+     "text": "An MSO must perform the CDD measures prescribed in Schedule 2 and this Guideline in respect of pre-existing customers (with whom the business relationship was established before the AMLO came into effect on 1 April 2012), when"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "金錢服務經營者最低限度應每年對所有可引致洗錢／恐怖分子資金籌集高度風險的客戶進行一次覆核，並在認為有需要時對有關客戶進行更頻密的覆核"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者最低限度應每年對所有可引致洗錢／恐怖分子資金籌集高度風險的客戶進行一次覆核，並在認為有需要時對有關客戶進行更頻密的覆核"
+    },
+    {
+     "doc": "03",
+     "text": "先前客戶（於2012年4月1日打擊洗錢條例生效前與之建立業務關係的客戶）"
+    },
+    {
+     "doc": "03",
+     "text": "(b) 該客戶的戶口的操作模式出現相當程度的轉變； (c) 金錢服務經營者懷疑該客戶或該客戶的戶口涉及洗錢／恐怖分子資金籌集"
+    },
+    {
+     "doc": "03",
+     "text": "當有以下情況，金錢服務經營者必須對先前客戶（於2012年4月1日打擊洗錢條例生效前與之建立業務關係的客戶）執行附表2及本指引所指明的盡職審查措施"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m6-517",
+  "module": 6,
+  "truth": [
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "traps": [
+   null,
+   null,
+   "condition",
+   null,
+   "number"
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.16 and footnote 58; FAQ applicable to all MSOs, Q24",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.16段及註58；《適用於所有金錢服務經營者的常見問題》問24"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline and the C&ED FAQ, which of the following are correct about sanctions screening?",
+   "statements": [
+    "An MSO should screen customers and their beneficial owners against the current database when the relationship is established, and against new designations as soon as practicable.",
+    "An MSO should screen all relevant parties in a cross-border wire transfer, including a remittance transaction, against the current database before executing the transfer.",
+    "Screening may be dispensed with for customers whose risk profile is low, since the screening requirement in the Guideline follows a risk-based approach.",
+    "For a cross-border wire transfer or remittance, the FAQ requires screening of the originator, the recipient, the ordering, intermediary and beneficiary institutions and named parties.",
+    "The FAQ requires only the originator and the recipient to be screened; the ordering, intermediary and beneficiary institutions need not be screened."
+   ],
+   "notes": [
+    "Correct: ¶6.16(a) and (b) require screening of customers and any beneficial owners at establishment of the relationship and against all new and updated designations as soon as practicable.",
+    "Correct: ¶6.16(c) requires screening of all relevant parties in a cross-border wire transfer, including a remittance transaction, against the current database before executing the transfer.",
+    "Incorrect: footnote 58 says screening should be carried out irrespective of the risk profile attributed to the customer.",
+    "Correct: FAQ A24 lists six relevant parties: originator, recipient, ordering institution, intermediary institution, beneficiary institution and named parties in the payment message.",
+    "Incorrect: FAQ A24 names the ordering, intermediary and beneficiary institutions among the parties to be screened at a minimum."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》及海關的常見問題，以下有關制裁篩查的陳述，哪些正確？",
+   "statements": [
+    "金錢服務經營者應在建立關係時根據當時的數據庫篩查客戶及其實益擁有人，並盡快根據新增及更新的指認篩查。",
+    "金錢服務經營者應在執行跨境電傳轉帳（包括匯款交易）前，根據當時的數據庫對相關各方進行篩查。",
+    "由於指引的篩查規定採用風險為本的方法，風險狀況較低的客戶可免予篩查，以節省資源。",
+    "就跨境電傳轉帳或匯款交易，常見問題要求最低限度篩查匯款人、收款人、匯款、中介及收款機構及被具名的人士。",
+    "常見問題要求篩查匯款人及收款人；匯款機構、中介機構及收款機構等付款鏈中的機構無需篩查。"
+   ],
+   "notes": [
+    "正確：第6.16(a)及(b)段要求在建立關係當時篩查客戶及任何實益擁有人，並在切實可行範圍內盡快根據所有新增及更新的指認篩查。",
+    "正確：第6.16(c)段要求在執行跨境電傳轉帳（包括匯款交易）前，根據當時的數據庫對相關各方進行篩查。",
+    "不正確：註58訂明不論客戶的風險狀況為何均應篩查。",
+    "正確：常見問題答24列出六類相關各方：匯款人、收款人、匯款機構、中介機構、收款機構及撥付訊息中被具名的人士。",
+    "不正確：常見問題答24把匯款機構、中介機構及收款機構列入最低限度須篩查的各方。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "screening its customers and any beneficial owners of the customers against current database at the establishment of the relationship; (b) screening its customers and any beneficial owners of the customers against all new and any updated designations to the database as soon as practicable"
+    },
+    {
+     "doc": "03",
+     "text": "screening all relevant parties in a cross-border / cross-boundary wire transfer (including remittance transaction) against current database before executing the transfer"
+    },
+    {
+     "doc": "03",
+     "text": "Screening should be carried out irrespective of the risk profile attributed to the customer"
+    },
+    {
+     "doc": "06",
+     "text": "(a) originator; (b) recipient; (c) ordering institution; (d) intermediary institution; (e) beneficiary institution; and (f) named parties (e.g., individuals, companies, banks etc) in the payment message"
+    },
+    {
+     "doc": "06",
+     "text": "(a) originator; (b) recipient; (c) ordering institution; (d) intermediary institution; (e) beneficiary institution; and (f) named parties (e.g., individuals, companies, banks etc) in the payment message"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "在建立關係當時，根據當時的數據庫對客戶及該等客戶的任何實益擁有人進行篩查； (b) 在切實可行範圍內盡快根據數據庫內所有新增及任何更新的指認對客戶及該等客戶的任何實益擁有人進行篩查"
+    },
+    {
+     "doc": "03",
+     "text": "在執行跨境電傳轉帳（包括匯款交易）前根據當時的數據庫對相關各方進行篩查"
+    },
+    {
+     "doc": "03",
+     "text": "不論客戶的風險狀況為何均應篩查"
+    },
+    {
+     "doc": "06",
+     "text": "(a) 匯款人； (b) 收款人； (c) 匯款機構； (d) 中介機構； (e) 收款機構；及 (f) 撥付訊息中被具名的人士（例如個人、公司、銀行等）"
+    },
+    {
+     "doc": "06",
+     "text": "(a) 匯款人； (b) 收款人； (c) 匯款機構； (d) 中介機構； (e) 收款機構；及 (f) 撥付訊息中被具名的人士（例如個人、公司、銀行等）"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m6-518",
+  "module": 6,
+  "truth": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "traps": [
+   null,
+   "number",
+   null,
+   "condition",
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.2–4.3.5",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.3.2至4.3.5段"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following are correct about identifying and verifying a customer who is a natural person?",
+   "statements": [
+    "An MSO should identify the customer by obtaining at least the full name, date of birth, nationality, and the unique identification number and document type.",
+    "The identification information required at a minimum consists of three items: the full name, the date of birth and the identity card or passport number.",
+    "An MSO should verify the name, date of birth, unique identification number and document type against reliable sources such as a Hong Kong identity card or passport.",
+    "An identification document without a photograph may be accepted as a matter of routine, provided the customer's other identification details match.",
+    "An MSO should obtain the residential address information of a customer that is a natural person, in addition to the identification information."
+   ],
+   "notes": [
+    "Correct: ¶4.3.2 lists full name, date of birth, nationality, and unique identification number and document type as the minimum identification information.",
+    "Incorrect: ¶4.3.2 requires four items including nationality and the document type, not three.",
+    "Correct: ¶4.3.3 says the MSO should verify the name, date of birth, unique identification number and document type against reliable and independent sources, examples being a Hong Kong identity card or other national identity card and a valid travel document.",
+    "Incorrect: ¶4.3.4 allows a document without a photograph only in exceptional circumstances, where the MSO cannot obtain one with a photograph and the associated risks have been properly assessed and mitigated.",
+    "Correct: ¶4.3.5 says an MSO should obtain the residential address information of a customer that is a natural person."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關識別和核實屬自然人的客戶的陳述，哪些正確？",
+   "statements": [
+    "金錢服務經營者最低限度應收集全名、出生日期、國籍，以及獨特識別號碼及文件的類別，以識別客戶。",
+    "最低限度須收集的識別資料為三項，即全名、出生日期及身份證或護照號碼，無需收集國籍。",
+    "金錢服務經營者應根據香港身份證或有效旅遊證件等可靠來源，核實客戶的姓名、出生日期、識別號碼及文件類別。",
+    "凡客戶的其他識別資料相符，沒有照片的身分證明文件可作為常規接納，無需另行評估風險。",
+    "金錢服務經營者除收集上述識別資料外，亦應向屬自然人的客戶索取其住址資料以供紀錄。"
+   ],
+   "notes": [
+    "正確：第4.3.2段把全名、出生日期、國籍，以及獨特識別號碼及文件的類別列為最低限度的識別資料。",
+    "不正確：第4.3.2段要求四項資料，包括國籍及文件的類別，並非三項。",
+    "正確：第4.3.3段訂明應根據可靠及獨立來源核實姓名、出生日期、獨特識別號碼及文件的類別，例子包括香港身份證或其他國家的身份證及有效的旅遊證件。",
+    "不正確：第4.3.4段只容許在情況特殊、未能取得載有照片的文件，並經妥善評估和減低風險後，才接納沒有照片的身分證明文件。",
+    "正確：第4.3.5段訂明金錢服務經營者應向屬自然人的客戶索取住址資料。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "an MSO should identify the customer by obtaining at least the following identification information: (a) full name; (b) date of birth; (c) nationality; and (d) unique identification number (e.g. identity card number or passport number) and document type"
+    },
+    {
+     "doc": "03",
+     "text": "an MSO should identify the customer by obtaining at least the following identification information: (a) full name; (b) date of birth; (c) nationality; and (d) unique identification number (e.g. identity card number or passport number) and document type"
+    },
+    {
+     "doc": "03",
+     "text": "an MSO should verify the name, date of birth, unique identification number and document type of the customer by reference to documents, data or information provided by a reliable and independent source, examples of which include: (a) Hong Kong identity card or other national identity card; (b) valid travel document (e.g. unexpired passport)"
+    },
+    {
+     "doc": "03",
+     "text": "In exceptional circumstances where an MSO is unable to obtain an identification document with a photograph, the MSO may accept an identification document without a photograph if the associated risks have been properly assessed and mitigated"
+    },
+    {
+     "doc": "03",
+     "text": "An MSO should obtain the residential address information of a customer that is a"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "金錢服務經營者最低限度應收集以下識別資料以識別該客戶： (a) 全名； (b) 出生日期； (c) 國籍；及 (d) 獨特識別號碼（例如身份證或護照號碼）及文件的類別"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者最低限度應收集以下識別資料以識別該客戶： (a) 全名； (b) 出生日期； (c) 國籍；及 (d) 獨特識別號碼（例如身份證或護照號碼）及文件的類別"
+    },
+    {
+     "doc": "03",
+     "text": "應根據可靠及獨立來源所提供的文件、數據或資料，核實該客戶的姓名、出生日期、獨特識別號碼及文件的類別，例如： (a) 香港身份證或其他國家的身份證； (b) 有效的旅遊證件（例如未過期的護照）"
+    },
+    {
+     "doc": "03",
+     "text": "如因情況特殊以致金錢服務經營者未能取得載有照片的身分證明文件，金錢服務經營者經妥善評估和減低所涉及的風險後，可以接納沒有照片的身分證明文件"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者應向屬自然人的客戶索取住址資料"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m6-519",
+  "module": 6,
+  "truth": [
+   true,
+   false,
+   false,
+   true,
+   true
+  ],
+  "traps": [
+   null,
+   "number",
+   "scope",
+   null,
+   null
+  ],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶11.6; AMLO Sch. 2 s.13(2)",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第11.6段；《打擊洗錢條例》附表2第13(2)條"
+  },
+  "en": {
+   "q": "According to the AML/CFT Guideline, which of the following are correct about the record an MSO makes before a remittance transaction that is not a wire transfer?",
+   "statements": [
+    "Before a remittance of $8,000 or above, the MSO must record the originator's name and address, the currency and amount, and the date and time of receipt of the instruction.",
+    "The recording duty applies only to remittance transactions of $120,000 or above, or an equivalent amount in another currency, that are not wire transfers.",
+    "The MSO must also record the recipient's identification document number, together with the recipient's name and address and the method of delivery.",
+    "The MSO must record the originator's identification document number and, if that document is a travel document, the place of issue of the travel document.",
+    "The MSO should be able to justify that it kept the originator and transaction records in accordance with Chapter 8, so the information can be made available to the CCE."
+   ],
+   "notes": [
+    "Correct: ¶11.6 lists the originator's name, the originator's address, the currency and amount involved, and the date and time of receipt of the instruction among the items to be recorded for a remittance of $8,000 or above.",
+    "Incorrect: ¶11.6 sets the threshold at $8,000 or above, or an equivalent amount in any other currency, not $120,000.",
+    "Incorrect: ¶11.6 requires the recipient's name and address and the method of delivery; it does not call for the recipient's identification document number.",
+    "Correct: ¶11.6 requires the originator's identification document number and, if the identification document is a travel document, the place of issue of the travel document.",
+    "Correct: ¶11.6 says the MSO should be able to justify that it has taken steps in accordance with Chapter 8 to keep the records with a view to making the information available to the CCE."
+   ]
+  },
+  "tc": {
+   "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關金錢服務經營者在進行並非電傳轉帳的匯款交易前須作記錄的陳述，哪些正確？",
+   "statements": [
+    "在進行8,000元或以上的匯款交易前，經營者須記錄匯款人的姓名及地址、所涉貨幣及款額，以及接獲指示的日期及時間。",
+    "記錄責任適用於120,000元或以上（或折算為其他貨幣的相同款額）而並非電傳轉帳的匯款交易，低於該款額者無需記錄。",
+    "金錢服務經營者亦須記錄收款人的識別文件號碼，連同收款人的姓名及地址以及送遞的方式。",
+    "金錢服務經營者須記錄匯款人的識別文件號碼，以及（如該文件是旅行證件）發出旅行證件的地方。",
+    "金錢服務經營者應能證明已按照第8章的規定保存匯款人及相關交易的紀錄，以便有需要時向關長提供該等資料。"
+   ],
+   "notes": [
+    "正確：第11.6段把匯款人的姓名、匯款人的地址、所涉的貨幣及款額，以及接獲指示的日期及時間列為8,000元或以上匯款交易須記錄的項目。",
+    "不正確：第11.6段把門檻定為8,000元或以上（或折算為任何其他貨幣的相同款額），並非120,000元。",
+    "不正確：第11.6段要求記錄收款人的姓名及地址以及送遞的方式；並無要求收款人的識別文件號碼。",
+    "正確：第11.6段要求記錄匯款人的識別文件的號碼，以及（如匯款人的識別文件是旅行證件）發出旅行證件的地方。",
+    "正確：第11.6段訂明金錢服務經營者應能證明已按照第8章的規定採取步驟保存紀錄，以便有需要時向海關關長提供該等資料。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {
+     "doc": "03",
+     "text": "an MSO is required to record (a) the originator’s name; (b) the originator’s identification document number and, if the originator’s identification document is a travel document, the place of issue of the travel document; (c) the originator’s address; (d) the currency and amount involved; and (e) the date and time of receipt of the instruction"
+    },
+    {
+     "doc": "03",
+     "text": "Before carrying out a remittance transaction, other than a wire transfer, of $8,000 or above or of an equivalent amount in any other currency"
+    },
+    {
+     "doc": "03",
+     "text": "the date and time of receipt of the instruction, the recipient’s name and address and the method of delivery"
+    },
+    {
+     "doc": "03",
+     "text": "the originator’s identification document number and, if the originator’s identification document is a travel document, the place of issue of the travel document"
+    },
+    {
+     "doc": "03",
+     "text": "An MSO should be able to justify that they have taken steps in accordance with Chapter 8 to keep the record of the originator and the related"
+    }
+   ],
+   "tc": [
+    {
+     "doc": "03",
+     "text": "金錢服務經營者須記錄 (a) 匯款人的姓名； (b) 匯款人的識別文件的號碼，以及（如匯款人的識別文件是旅行證件）發出旅行證件的地方；(c) 匯款人的地址；(d) 所涉的貨幣及款額；及(e) 接獲指示的日期及時間"
+    },
+    {
+     "doc": "03",
+     "text": "在進行涉及8,000元或以上的款額（或折算為任何其他貨幣的相同款額）的匯款交易之前，而該項交易並非電傳轉帳"
+    },
+    {
+     "doc": "03",
+     "text": "接獲指示的日期及時間、收款人的姓名及地址，以及送遞的方式"
+    },
+    {
+     "doc": "03",
+     "text": "匯款人的識別文件的號碼，以及（如匯款人的識別文件是旅行證件）發出旅行證件的地方"
+    },
+    {
+     "doc": "03",
+     "text": "金錢服務經營者應能證明已按照第8章的規定採取步驟保存匯款人的紀錄及相關交易的資料，以便有需要時向海關關長提供該等資料"
+    }
+   ]
+  }
+ }
+]

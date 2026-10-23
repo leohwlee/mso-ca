@@ -1,0 +1,129 @@
+[
+ {
+  "id": "m1-225",
+  "verdicts": ["T", "F", "T", "F", "T"],
+  "tc_verdicts": ["T", "F", "T", "F", "T"],
+  "quotes": [
+   {"doc": "03", "locator": "¶1.14", "en": "The main pieces of legislation in Hong Kong that are concerned with ML, TF, PF and financial sanctions are the AMLO, the Drug Trafficking (Recovery of Proceeds) Ordinance, Cap. 405 (DTROP)", "tc": "在香港，與洗錢、恐怖分子資金籌集、擴散資金籌集及金融制裁有關的主要法例為打擊洗錢條例、《販毒（追討得益）條例》（第405章）"},
+   {"doc": "03", "locator": "¶1.14 (and ¶1.20(c))", "en": "the Organized and Serious Crimes Ordinance, Cap. 455 (OSCO)", "tc": "《有組織及嚴重罪行條例》（第455章）"},
+   {"doc": "03", "locator": "¶1.23", "en": "The UNATMO, among other things, criminalizes the provision or collection of property and making any property or financial (or related) services available to terrorists or terrorist associates.", "tc": "除其他事項外，《聯合國（反恐怖主義措施）條例》訂明，向恐怖分子或與恐怖分子有聯繫者提供或籌集財產及向他們提供任何財產或金融（或有關的）服務，均屬違法。"},
+   {"doc": "03", "locator": "¶1.14 (and ¶1.27)", "en": "the Weapons of Mass Destruction (Control of Provision of Services) Ordinance, Cap. 526 (WMD(CPS)O)", "tc": "《大規模毀滅武器（提供服務的管制）條例》（第526章）"},
+   {"doc": "03", "locator": "¶1.15 (full name and Cap. 615 at ¶1.1)", "en": "The AMLO imposes requirements relating to customer due diligence (CDD) and record-keeping on MSOs and provides the CCE with powers to supervise compliance with these requirements and other requirements under the AMLO.", "tc": "打擊洗錢條例將關於客戶盡職審查（盡職審查）及備存紀錄的規定施加於金錢服務經營者，以及賦予關長權力，以監督該等規定及打擊洗錢條例下的其他規定的合規情況。"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m1-228",
+  "verdicts": ["T", "F", "T", "F", "T"],
+  "tc_verdicts": ["T", "F", "T", "F", "T"],
+  "quotes": [
+   {"doc": "03", "locator": "¶1.13", "en": "The Financial Action Task Force (the FATF) is an inter-governmental body formed in 1989. The objectives of the FATF are to set standards and promote effective implementation of legal, regulatory and operational measures for combating of ML, TF, PF", "tc": "財務行動特別組織（特別組織）在1989年成立的跨政府組織，其宗旨是制訂標準，並推動有效執行法律、監管及作業措施，以打擊洗錢、恐怖分子資金籌集、擴散資金籌集及其他影響國際金融體系完整性的相關威脅。"},
+   {"doc": "03", "locator": "¶1.13", "en": "an inter-governmental body formed in 1989", "tc": "在1989年成立的跨政府組織"},
+   {"doc": "03", "locator": "¶6.9", "en": "(a) global approach under UNSCR 1540 (2004) and its successor resolutions", "tc": "(a)在全球層面根據安理會第1540 (2004)號決議及其後續決議"},
+   {"doc": "03", "locator": "¶6.9", "en": "(b) country-specific approach under UNSCR 1718 (2006) against the Democratic People’s Republic of Korea (DPRK) and UNSCR 2231 (2015) against the Islamic Republic of Iran (Iran) and their successor resolutions.", "tc": "(b)在國家層面根據針對朝鮮民主主義人民共和國（朝鮮）的安理會第1718 (2006)號決議及針對伊朗伊斯蘭共和國（伊朗）的第2231 (2015)號決議及其後續決議。"},
+   {"doc": "03", "locator": "¶1.26 (Cap. 537 at ¶1.14)", "en": "Most UNSCRs are implemented in Hong Kong under the UNSO.", "tc": "在香港，大部分聯合國安理會決議均根據《聯合國制裁條例》實施。"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m2-388",
+  "verdicts": ["T", "F", "T", "T", "F"],
+  "tc_verdicts": ["T", "F", "T", "T", "F"],
+  "quotes": [
+   {"doc": "04", "locator": "s.30(10)", "en": "Subject to section 34, a licence granted under this section is valid for 2 years or, if the Commissioner considers it appropriate in any particular case, any other period determined by the Commissioner, beginning on the date on which it is granted.", "tc": "除第34 條另有規定外，根據本條批給的牌照有效期為2年或( 如關長在特定個案中認為適當的話) 關長決定的其他期間，有效期自該牌照批給當日起計。"},
+   {"doc": "04", "locator": "s.31(2)(a)", "en": "must be made not later than 45 days before the licence is due to expire", "tc": "在牌照期滿前45 日或之前提出"},
+   {"doc": "04", "locator": "s.31(10)", "en": "remains in force— (a) until the licence is renewed; or (b) if the renewal is refused, until the Commissioner’s decision to refuse to renew the licence takes effect, unless the application is withdrawn or the licence is revoked or suspended under section 34.", "tc": "則除非該申請被撤回，或該牌照根據第34 條被撤銷或暫時吊銷，否則 —— (a) 該牌照在獲續期前，仍然有效；或 (b) ( 如該續期申請遭拒絕) 在關長拒絕將該牌照續期的決定生效前，該牌照仍然有效。"},
+   {"doc": "04", "locator": "s.31(11)", "en": "A renewal granted under this section takes effect— (a) on the day following the expiration of the licence; or (b) if subsection (10) applies, on the day following the day on which the licence would have expired but for that subsection.", "tc": "根據本條批給的續期 —— (a) 在有關牌照的有效期屆滿之日的翌日生效；或 (b) ( 如屬第(10) 款適用的情況) 在有關牌照的有效期若無第(10) 款規定即本應屆滿之日的翌日有效。"},
+   {"doc": "04", "locator": "s.31(12)", "en": "Subject to section 34, a licence renewed under this section is valid for 2 years or, if the Commissioner considers it appropriate in any particular case, any shorter period determined by the Commissioner, beginning on the date on which it is renewed.", "tc": "除第34 條另有規定外，根據本條續期的牌照有效期為2年或( 如關長在特定個案中認為合適的話) 關長決定的較短期間，有效期自該牌照續期生效當日起計。"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m3-348",
+  "verdicts": ["T", "F", "T", "T", "F"],
+  "tc_verdicts": ["T", "F", "T", "T", "F"],
+  "quotes": [
+   {"doc": "04", "locator": "Sch. 2 s.3(1)(b)", "en": "before carrying out for the customer an occasional transaction involving an amount equal to or above $120,000 or an equivalent amount in any other currency, whether the transaction is carried out in a single operation or in several operations that appear to the financial institution or the DNFBP to be linked", "tc": "在為該客戶執行涉及相等於$120,000 或以上的款額( 或折算為任何其他貨幣的相同款額) 的非經常交易之前，不論該交易是以單一次操作執行，或是以該機構或該人士覺得是有關連的若干次操作執行"},
+   {"doc": "04", "locator": "Sch. 2 s.3(1A)(a)", "en": "despite subsection (1)(b), a financial institution must carry out customer due diligence measures in relation to a customer before carrying out for the customer an occasional transaction that is— (a) a wire transfer involving an amount equal to or above $8,000 or an equivalent amount in any other currency", "tc": "即使有第(1)(b) 款的規定，在為客户執行符合以下說明的非經常交易之前，金融機構須就該客户執行客户盡職審查措施 —— (a) 屬電傳轉賬，並涉及相等於$8,000 或以上的款額( 或折算為任何其他貨幣的相同款額)"},
+   {"doc": "04", "locator": "Sch. 2 s.3(1A)(b)", "en": "(b) a virtual asset transfer involving virtual assets that amount to no less than $8,000, whether the transaction is carried out in a single operation or in several operations that appear to the financial institution to be linked.", "tc": "(b) 屬虛擬資產轉賬，並涉及相當於不少於$8,000 的虛擬資產，不論該交易是以單一次操作執行，或是以該機構覺得是有關連的若干次操作執行。"},
+   {"doc": "04", "locator": "Sch. 2 s.3(1)(d)", "en": "when the financial institution or the DNFBP suspects that the customer or the customer’s account is involved in money laundering or terrorist financing", "tc": "當該機構或該人士懷疑客戶或客戶的戶口涉及洗錢或恐怖分子資金籌集時"},
+   {"doc": "04", "locator": "Sch. 2 s.3(2)", "en": "after establishing a business relationship with the customer if— (a) this is necessary not to interrupt the normal conduct of business with regard to the customer; and (b) any risk of money laundering or terrorist financing that may be caused by carrying out the verification after establishing the business relationship is effectively managed.", "tc": "可在與客戶建立業務關係之後才核實客戶的身分，或客戶的實益擁有人的身分 —— (a) 與為就客戶的業務正常運作不造成干擾，如此行事是必需的；及 (b) 在業務關係建立之後才進行核實而可能引致的洗錢或恐怖分子資金籌集風險，已獲有效管理。"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m3-350",
+  "verdicts": ["T", "F", "T", "T", "F"],
+  "tc_verdicts": ["T", "F", "T", "T", "F"],
+  "quotes": [
+   {"doc": "04", "locator": "Sch. 2 s.18(1)(a)", "en": "may carry out any customer due diligence measure by means of an intermediary specified in subsection (3) if— (a) the intermediary consents in writing to be the financial institution’s or the DNFBP’s intermediary", "tc": "在以下情況下，金融機構或指定非金融業人士可藉著第(3) 款指明中介人執行客戶盡職審查措施 —— (a) 該中介人藉書面同意擔任該機構或該人士的中介人"},
+   {"doc": "04", "locator": "Sch. 2 s.18(1)(b)", "en": "the financial institution or the DNFBP is satisfied that the intermediary will on request provide a copy of any document, or a record of any data or information, obtained by the intermediary in the course of carrying out the customer due diligence measure without delay.", "tc": "該機構或該人士信納，該中介人可應其要求，沒有延誤地提供該中介人在執行客戶盡職審查措施時取得的文件複本，或取得的數據或資料的紀錄。"},
+   {"doc": "04", "locator": "Sch. 2 s.18(2)", "en": "A financial institution or a DNFBP that carries out a customer due diligence measure by means of an intermediary remains liable under this Ordinance for a failure to carry out that customer due diligence measure.", "tc": "藉著中介人執行客戶盡職審查措施的金融機構或指定非金融業人士，仍然根據本條例就未有執行客戶盡職審查措施負有法律責任。"},
+   {"doc": "04", "locator": "Sch. 2 s.18(3)(a)", "en": "any of the following persons who is able to satisfy the financial institution or the DNFBP that they have adequate procedures in place to prevent money laundering and terrorist financing— (i) an accounting professional; (ii) an estate agent; (iii) a legal professional; (iv) a TCSP licensee", "tc": "任何能夠令有關金融機構或指定非金融業人士信納其本身有充分程序以防止洗錢及恐怖分子資金籌集的任何以下人士 —— (i) 會計專業人士； (ii) 地產代理； (iii) 法律專業人士； (iv) 信託或公司服務持牌人"},
+   {"doc": "04", "locator": "Sch. 2 s.18(3)(b)", "en": "a financial institution that is an authorized institution, a licensed corporation, an authorized insurer, a licensed individual insurance agent, licensed insurance agency or licensed insurance broker company", "tc": "屬認可機構、持牌法團、獲授權保險人、持牌個人保險代理、持牌保險代理機構或持牌保險經紀公司的金融機構"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m3-352",
+  "verdicts": ["T", "F", "T", "T", "F"],
+  "tc_verdicts": ["T", "F", "T", "T", "F"],
+  "quotes": [
+   {"doc": "04", "locator": "Sch. 2 s.9(1)", "en": "If a customer has not been physically present for identification purposes, a financial institution or a DNFBP must carry out at least one of the following measures", "tc": "如客戶不曾為身分識別的目的而現身，金融機構或指定非金融業人士須執行以下最少一項措施"},
+   {"doc": "04", "locator": "Sch. 2 s.9(1)", "en": "must carry out at least one of the following measures", "tc": "須執行以下最少一項措施"},
+   {"doc": "04", "locator": "Sch. 2 s.9(1)(a)", "en": "further verifying the customer’s identity on the basis of documents, data or information referred to in section 2(1)(a) or (ab) of this Schedule but not previously used for the purposes of verification of the customer’s identity under that section", "tc": "以本附表第2(1)(a) 或(ab) 條提述的但不曾用於根據該條核實該客戶身分的文件、數據或資料為基礎，進一步核實該客戶的身分"},
+   {"doc": "04", "locator": "Sch. 2 s.9(1)(c)", "en": "ensuring that the payment or, if there is more than one payment, the first payment made in relation to the customer’s account is carried out through an account opened in the customer’s name with— (i) an authorized institution; or (ii) an institution that— (A) is incorporated or established in an equivalent jurisdiction", "tc": "確保就該客戶的戶口作出的付款( 如有多於一次的付款作出，則指第一次的付款) 是經由以該客戶的名義在以下的機構開設的戶口進行 —— (i) 認可機構；或 (ii) 符合以下說明的機構 —— (A) 在對等司法管轄區成立為法團或設立"},
+   {"doc": "04", "locator": "Sch. 2 s.9(1)(c)", "en": "is carried out through an account opened in the customer’s name with", "tc": "是經由以該客戶的名義在以下的機構開設的戶口進行"}
+  ],
+  "doubts": ["", "", "", "s.9(1)(c)(ii) requires the equivalent-jurisdiction institution to also carry on a business similar to an authorized institution, have measures ensuring compliance with similar requirements and be supervised for them ((B)–(D)); the English statement compresses this to 'an equivalent-jurisdiction institution', which a strict reader could call a widened scope. I read it as naming the measure, hence true.", ""],
+  "tc_mismatch": ["", "", "", "Minor: the Chinese says 對等司法管轄區同類機構 (an institution of the same kind in an equivalent jurisdiction), carrying the (B) 'business similar to an authorized institution' condition that the English 'equivalent-jurisdiction institution' omits. Same verdict in both languages.", ""]
+ },
+ {
+  "id": "m7-223",
+  "verdicts": ["T", "F", "T", "T", "F"],
+  "tc_verdicts": ["T", "F", "T", "T", "F"],
+  "quotes": [
+   {"doc": "03", "locator": "¶9.7", "en": "No matter which training approach is adopted, an MSO should monitor and maintain records of who have been trained, when the staff received the training and the type of the training provided.", "tc": "無論使用哪種培訓方法，金錢服務經營者應監察誰人已接受培訓、職員何時接受培訓，以及所提供培訓的類別，並備存紀錄。"},
+   {"doc": "03", "locator": "¶9.7", "en": "Records should be maintained for a minimum of 3 years.", "tc": "紀錄應最少保存3年。"},
+   {"doc": "03", "locator": "¶9.5(a)", "en": "all new staff, irrespective of seniority: (i) an introduction to the background to ML/TF and the importance placed on ML/TF by the MSO; and (ii) the need for identifying and reporting of any suspicious transactions to the MLRO, and the offence of “tipping-off”", "tc": "所有新職員（不論資歷） (i) 洗錢／恐怖分子資金籌集的背景及金錢服務經營者對洗錢／恐怖分子資金籌集問題的重視的簡介；及 (ii) 識別可疑交易及向洗錢報告主任舉報任何可疑交易的必要，以及認識「通風報訊」的罪行"},
+   {"doc": "03", "locator": "¶9.6", "en": "An MSO may consider including available FATF papers and typologies as part of the training materials. The MSO should be able to demonstrate to the CCE that all materials are up-to-date and in line with current requirements and standards.", "tc": "金錢服務經營者應視乎可運用的資源及職員的培訓需要，考慮在提供培訓時混合使用各種培訓技巧及工具。"},
+   {"doc": "03", "locator": "¶9.5(c)", "en": "back-office staff, depending on their roles: (i) appropriate training on customer verification and relevant processing procedures; and (ii) how to recognise unusual activities including abnormal settlements, payments or delivery instructions", "tc": "後勤職員（視乎他們的職責）： (i) 客戶核實及相關處理程序的適當培訓，及 (ii) 如何識別不尋常活動，包括不正常的結算、付款及交付指示"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "Not a defect: the English says 'encouraged to consider' a mix of techniques (EN ¶9.6 'is encouraged to consider') while the Chinese says 應考慮 (TC ¶9.6 應…考慮); each follows its own official text, as ruling E26 records.", ""]
+ },
+ {
+  "id": "m6-513",
+  "verdicts": ["T", "T", "F", "T", "F"],
+  "tc_verdicts": ["T", "T", "F", "T", "F"],
+  "quotes": [
+   {"doc": "03", "locator": "¶10.11", "en": "For a domestic wire transfer, an ordering institution may choose not to include the complete required originator information in the wire transfer but only include the originator’s account number or, in the absence of an account, a unique reference number, provided that the number permits traceability of the wire transfer.", "tc": "就本地電傳轉帳，匯款機構可選擇不將全部所需匯款人資料加入電傳轉帳，而僅加入匯款人的戶口號碼或（如沒有此戶口號碼）獨特參考編號，但該號碼必須可用作追蹤有關電傳轉帳。"},
+   {"doc": "03", "locator": "¶10.12", "en": "it must, on the request of the institution to which it passes on the transfer instruction or the CCE, provide complete required originator information within 3 business days after the request is received.", "tc": "則須在收取它的轉帳指示的機構或關長的要求下，在接獲該要求後的3個營業日內，提供全部所需匯款人資料。"},
+   {"doc": "03", "locator": "¶10.12", "en": "on the request of the institution to which it passes on the transfer instruction or the CCE, provide complete required originator information within 3 business days after the request is received", "tc": "須在收取它的轉帳指示的機構或關長的要求下，在接獲該要求後的3個營業日內，提供全部所需匯款人資料"},
+   {"doc": "03", "locator": "¶10.12", "en": "In addition, such information should be made available to law enforcement agencies immediately upon request.", "tc": "此外，該等資料亦需按執法機構要求立即提供。"},
+   {"doc": "03", "locator": "¶10.11", "en": "For a domestic wire transfer, an ordering institution may choose not to include the complete required originator information in the wire transfer", "tc": "就本地電傳轉帳，匯款機構可選擇不將全部所需匯款人資料加入電傳轉帳"}
+  ],
+  "doubts": ["", "", "", "", "Adjacent ¶10.10 lets a batch file of transfers to recipients outside Hong Kong carry only the account or reference number in each wire transfer, but only where the batch file itself contains the required originator and recipient information; a candidate who reaches for ¶10.10 should still find the statement false, since that is not omitting the information and the stated condition (traceability alone) is not ¶10.10's."]
+  ,
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m6-519",
+  "verdicts": ["T", "F", "F", "T", "T"],
+  "tc_verdicts": ["T", "F", "F", "T", "T"],
+  "quotes": [
+   {"doc": "03", "locator": "¶11.6 (items (a), (c), (d), (e))", "en": "Before carrying out a remittance transaction, other than a wire transfer, of $8,000 or above or of an equivalent amount in any other currency, an MSO is required to record (a) the originator’s name", "tc": "在進行涉及8,000元或以上的款額（或折算為任何其他貨幣的相同款額）的匯款交易之前，而該項交易並非電傳轉帳，金錢服務經營者須記錄 (a) 匯款人的姓名"},
+   {"doc": "04", "locator": "Sch. 2 s.13(1)", "en": "This section applies to a remittance transaction, other than a wire transfer, involving an amount equal to or above $8,000 or an equivalent amount in any other currency, that is carried out by a licensed money service operator.", "tc": "凡持牌金錢服務經營者進行涉及相等於$8,000 或以上的款額( 或折算為任何其他貨幣的相同款額) 的匯款交易，而該項交易並非電傳轉賬，本條適用於該項交易。"},
+   {"doc": "03", "locator": "¶11.6(e) (Sch. 2 s.13(2)(c)(v))", "en": "(e) the date and time of receipt of the instruction, the recipient’s name and address and the method of delivery.", "tc": "(e) 接獲指示的日期及時間、收款人的姓名及地址，以及送遞的方式。"},
+   {"doc": "03", "locator": "¶11.6(b) (Sch. 2 s.13(2)(c)(ii))", "en": "(b) the originator’s identification document number and, if the originator’s identification document is a travel document, the place of issue of the travel document", "tc": "(b) 匯款人的識別文件的號碼，以及（如匯款人的識別文件是旅行證件）發出旅行證件的地方"},
+   {"doc": "03", "locator": "¶11.6", "en": "An MSO should be able to justify that they have taken steps in accordance with Chapter 8 to keep the record of the originator and the related transaction with a view to making this information available to the CCE should the need arise.", "tc": "金錢服務經營者應能證明已按照第8章的規定採取步驟保存匯款人的紀錄及相關交易的資料，以便有需要時向海關關長提供該等資料。"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ }
+]

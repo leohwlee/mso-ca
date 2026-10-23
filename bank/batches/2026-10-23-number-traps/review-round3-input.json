@@ -1,0 +1,268 @@
+{
+ "instructions": "Independently judge every statement against the cited local source in each language. Do not read keys, notes, patches or the bank. Return id, verdicts, tc_verdicts (T/F arrays), quotes (one deciding source excerpt per statement), doubts and tc_mismatch (empty strings when none). A language=en quote for doc24 is an English original supporting a clearly labelled Chinese study translation.",
+ "items": [
+  {
+   "id": "m1-225",
+   "module": 1,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.14, ¶1.19–1.27",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.14、1.19至1.27段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following correctly name the main pieces of Hong Kong legislation concerned with money laundering, terrorist financing and proliferation financing?",
+    "statements": [
+     "The Drug Trafficking (Recovery of Proceeds) Ordinance, Cap. 405, is, alongside the AMLO, one of the main pieces of legislation in Hong Kong concerned with the laundering of criminal proceeds.",
+     "The Organized and Serious Offences Ordinance, Cap. 455, among other things creates the money laundering offence for the proceeds of indictable offences in Hong Kong.",
+     "The United Nations (Anti-Terrorism Measures) Ordinance, Cap. 575, criminalises the provision or collection of property, and the making of property or financial services available, to terrorists or terrorist associates.",
+     "The Weapons of Mass Destruction (Control of Supply of Services) Ordinance, Cap. 526, controls the provision of services that may assist the development of weapons of mass destruction.",
+     "The Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615, imposes customer due diligence and record-keeping requirements on MSOs and gives the CCE powers to supervise compliance with them."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關香港打擊洗錢、恐怖分子資金籌集及擴散資金籌集主要法例名稱的陳述，哪些正確？",
+    "statements": [
+     "《販毒（追討得益）條例》（第405章）與打擊洗錢條例同屬香港與清洗犯罪得益有關的主要法例之一。",
+     "《有組織及嚴重犯罪條例》（第455章）除其他事項外，訂立了在香港清洗可公訴罪行得益的洗錢罪行。",
+     "《聯合國（反恐怖主義措施）條例》（第575章）訂明向恐怖分子或與其有聯繫者提供或籌集財產及提供財產或金融服務，均屬違法。",
+     "《大規模毀滅武器（提供服務的監管）條例》（第526章）管制可能協助發展大規模毀滅武器的服務的提供。",
+     "《打擊洗錢及恐怖分子資金籌集條例》（第615章）對金錢服務經營者施加客戶盡職審查及備存紀錄規定，並賦予關長監督權力。"
+    ]
+   }
+  },
+  {
+   "id": "m1-228",
+   "module": 1,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.13, ¶1.26 and ¶6.9",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.13、1.26及6.9段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about the FATF and the United Nations Security Council resolutions it describes?",
+    "statements": [
+     "The FATF is an inter-governmental body formed in 1989 whose objectives are to set standards and promote effective implementation of measures against ML, TF and PF.",
+     "The FATF was established in 1999, and the FATF Recommendations it issues are recognised as the international standard for combating ML, TF and PF.",
+     "The global tier of the Security Council's two-tiered approach to proliferation financing rests on UNSCR 1540 (2004) and its successor resolutions.",
+     "In the country-specific tier, UNSCR 2231 (2015) and its successor resolutions are directed against the Democratic People's Republic of Korea.",
+     "In Hong Kong, most United Nations Security Council resolutions are implemented under the United Nations Sanctions Ordinance, Cap. 537, as the Guideline notes."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關財務行動特別組織及其所述聯合國安理會決議的陳述，哪些正確？",
+    "statements": [
+     "財務行動特別組織是在1989年成立的跨政府組織，宗旨是制訂標準並推動有效執行打擊洗錢、恐怖分子資金籌集及擴散資金籌集的措施。",
+     "財務行動特別組織在1999年成立，其建議獲承認為打擊洗錢、恐怖分子資金籌集及擴散資金籌集的國際標準。",
+     "聯合國安理會遏止擴散資金籌集的兩個層面中，全球層面以安理會第1540 (2004)號決議及其後續決議為基礎。",
+     "在國家層面，安理會第2231 (2015)號決議及其後續決議是針對朝鮮民主主義人民共和國的。",
+     "在香港，大部分聯合國安理會決議均根據《聯合國制裁條例》（第537章）實施，正如指引所述。"
+    ]
+   }
+  },
+  {
+   "id": "m2-388",
+   "module": 2,
+   "source": {
+    "en": "AMLO ss.30(10), 31(2), (10)–(12)",
+    "tc": "《打擊洗錢條例》第30(10)、31(2)、(10)至(12)條"
+   },
+   "en": {
+    "q": "Regarding the period of validity of a money service operator licence and the timing of its renewal under the AMLO, which of the following are correct?",
+    "statements": [
+     "Subject to section 34, a licence granted under section 30 is valid for 2 years, or any other period the Commissioner determines in a particular case, beginning on the date of grant.",
+     "An application for the renewal of a licence must be made not later than 30 days before the licence is due to expire, in the form and manner the Commissioner specifies.",
+     "If a renewal application is pending when the licence expires, the licence stays in force until renewed or until a refusal takes effect, unless withdrawn, revoked or suspended.",
+     "A renewal takes effect on the day following the expiration of the licence or, where section 31(10) kept the licence in force, on the day following the day on which it would otherwise have expired.",
+     "Subject to section 34, a licence renewed under section 31 is valid for 3 years, or a shorter period the Commissioner determines, beginning on the day the renewal takes effect."
+    ]
+   },
+   "tc": {
+    "q": "關於《打擊洗錢條例》下金錢服務經營者牌照的有效期及續期時間，下列哪些陳述正確？",
+    "statements": [
+     "除第34條另有規定外，根據第30條批給的牌照有效期為2年，或關長在特定個案中決定的其他期間，自牌照批給當日起計。",
+     "牌照續期的申請須在牌照期滿前30日或之前，以關長指明的格式及方式，由持牌人向關長提出有關申請。",
+     "如牌照在續期申請獲決定前屆滿，除非申請被撤回或牌照被撤銷或暫時吊銷，否則牌照在獲續期或拒絕決定生效前仍然有效。",
+     "續期在牌照有效期屆滿之日的翌日生效；如牌照因第31(10)條而仍然有效，則在若無該款即本應屆滿之日的翌日生效。",
+     "除第34條另有規定外，根據第31條續期的牌照有效期為3年，或關長決定的較短期間，自續期生效當日起計。"
+    ]
+   }
+  },
+  {
+   "id": "m3-348",
+   "module": 3,
+   "source": {
+    "en": "AMLO Sch. 2 s.3(1), (1A) and (2)",
+    "tc": "《打擊洗錢條例》附表2第3(1)、(1A)及(2)條"
+   },
+   "en": {
+    "q": "Regarding when Schedule 2 to the AMLO requires customer due diligence measures to be carried out, which of the following are correct?",
+    "statements": [
+     "CDD must be carried out before an occasional transaction involving an amount equal to or above $120,000, whether it is carried out in a single operation or in several operations that appear to be linked.",
+     "An occasional transaction that is a wire transfer requires CDD only where it involves an amount equal to or above $120,000; a smaller wire transfer is governed by section 12 alone.",
+     "An occasional transaction that is a virtual asset transfer requires CDD where the virtual assets involved amount to no less than $8,000, in one operation or several linked ones.",
+     "CDD must be carried out when the institution suspects that the customer or the customer's account is involved in money laundering or terrorist financing, whatever the amount.",
+     "Where verifying identity first would interrupt the normal conduct of business, an institution may verify after establishing the business relationship without needing to satisfy any other condition."
+    ]
+   },
+   "tc": {
+    "q": "關於《打擊洗錢條例》附表2規定何時須執行客戶盡職審查措施，下列哪些陳述正確？",
+    "statements": [
+     "在執行涉及相等於$120,000或以上款額的非經常交易前須執行客戶盡職審查，不論以單一次或有關連的若干次操作執行。",
+     "屬電傳轉賬的非經常交易在涉及相等於$120,000或以上的款額時才須客戶盡職審查；較小額者由第12條規管。",
+     "屬虛擬資產轉賬的非經常交易，如涉及相當於不少於$8,000的虛擬資產，不論以單一次或有關連的若干次操作執行，均須客戶盡職審查。",
+     "當機構懷疑客戶或客戶的戶口涉及洗錢或恐怖分子資金籌集時，不論款額多少，均須執行客戶盡職審查措施。",
+     "如先行核實身分會干擾業務的正常運作，機構可在建立業務關係之後才核實身分，而無需符合任何其他條件。"
+    ]
+   }
+  },
+  {
+   "id": "m3-350",
+   "module": 3,
+   "source": {
+    "en": "AMLO Sch. 2 s.18(1)–(3)",
+    "tc": "《打擊洗錢條例》附表2第18(1)至(3)條"
+   },
+   "en": {
+    "q": "Regarding the carrying out of customer due diligence measures by means of an intermediary under Schedule 2 to the AMLO, which of the following are correct?",
+    "statements": [
+     "An institution may use a specified intermediary to carry out a CDD measure only if the intermediary consents in writing to be the institution's intermediary.",
+     "The institution must be satisfied that the intermediary will provide copies of the CDD documents, data or information it obtained within 7 days of a request.",
+     "An institution that carries out a CDD measure by means of an intermediary remains liable under the Ordinance for any failure to carry out that measure.",
+     "An accounting professional, estate agent, legal professional or TCSP licensee is a specified intermediary if it satisfies the institution that it has adequate ML/TF procedures.",
+     "A licensed money service operator is among the financial institutions that section 18(3)(b) of Schedule 2 names as specified intermediaries for CDD purposes."
+    ]
+   },
+   "tc": {
+    "q": "關於根據《打擊洗錢條例》附表2藉著中介人執行客戶盡職審查措施，下列哪些陳述正確？",
+    "statements": [
+     "機構只有在指明中介人藉書面同意擔任其中介人的情況下，才可藉著該中介人代為執行任何一項客戶盡職審查措施。",
+     "機構須信納中介人可在其提出要求後的7日內，提供該中介人在執行客戶盡職審查措施的過程中所取得的文件複本或數據及資料的紀錄。",
+     "藉著中介人執行客戶盡職審查措施的金融機構，仍然根據本條例就未有執行該項客戶盡職審查措施負有法律責任。",
+     "會計專業人士、地產代理、法律專業人士或信託或公司服務持牌人，如令機構信納其有充分程序防止洗錢及恐怖分子資金籌集，即屬指明中介人。",
+     "持牌金錢服務經營者屬附表2第18(3)(b)條為客戶盡職審查目的而指明為指明中介人的其中一類金融機構。"
+    ]
+   }
+  },
+  {
+   "id": "m3-352",
+   "module": 3,
+   "source": {
+    "en": "AMLO Sch. 2 s.9(1)",
+    "tc": "《打擊洗錢條例》附表2第9(1)條"
+   },
+   "en": {
+    "q": "Regarding the special requirements of Schedule 2 to the AMLO for a customer who has not been physically present for identification purposes, which of the following are correct?",
+    "statements": [
+     "The institution must carry out at least one of the measures listed in section 9(1); it is not required to carry out all of the listed measures before taking on the customer.",
+     "The institution must carry out at least two of the measures listed in section 9(1) before it may take on a customer who was not physically present for identification purposes.",
+     "One listed measure is further verifying the customer's identity on the basis of documents, data or information not previously used to verify that identity under Schedule 2.",
+     "One listed measure is ensuring that the first payment on the customer's account comes from an account in the customer's name with an authorized institution or an equivalent-jurisdiction institution.",
+     "The first-payment measure is satisfied where the payment comes from an account held in the name of any third party whom the customer nominates for the purpose."
+    ]
+   },
+   "tc": {
+    "q": "關於《打擊洗錢條例》附表2就客戶沒有為身分識別的目的而現身時適用的特別規定，下列哪些陳述正確？",
+    "statements": [
+     "機構只須執行第9(1)條所列措施中的最少一項，而無需在接納客戶前執行該條所列的全部措施。",
+     "機構須先執行第9(1)條所列措施中的最少兩項，才可接納沒有為身分識別的目的而現身的客戶。",
+     "其中一項措施是以不曾用於根據附表2核實該客戶身分的文件、數據或資料為基礎，進一步核實客戶的身分。",
+     "其中一項措施是確保客戶戶口的第一次付款，經由以客戶名義在認可機構或對等司法管轄區同類機構開設的戶口進行。",
+     "如第一次付款來自客戶為此目的而提名的任何第三方名下的戶口，即已符合有關第一次付款的措施。"
+    ]
+   }
+  },
+  {
+   "id": "m7-223",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶9.5–9.7",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第9.5至9.7段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about staff training and training records?",
+    "statements": [
+     "Whatever training approach is adopted, an MSO should monitor and keep records of who has been trained, when the staff received the training and the type of training provided.",
+     "Training records should be kept for a minimum of 7 years, the same period for which an MSO keeps its transaction records under the AMLO.",
+     "For all new staff, irrespective of seniority, appropriate training may include an introduction to the background to ML/TF and to reporting suspicious transactions to the MLRO and tipping-off.",
+     "An MSO is encouraged to consider a mix of training techniques, may include FATF papers and typologies in its materials, and should be able to show the CCE that the materials are up to date.",
+     "Back-office staff need no AML/CFT training, since the training programme in the Guideline is directed at staff who deal directly with the public."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關職員培訓及培訓紀錄的陳述，哪些正確？",
+    "statements": [
+     "無論使用哪種培訓方法，金錢服務經營者應監察誰人已接受培訓、職員何時接受培訓以及培訓的類別，並備存紀錄。",
+     "培訓紀錄應最少保存7年，與金錢服務經營者根據打擊洗錢條例保存交易紀錄的期限相同。",
+     "就所有新職員（不論資歷），適用的培訓可包括洗錢／恐怖分子資金籌集的背景、向洗錢報告主任舉報的必要及「通風報訊」罪行。",
+     "金錢服務經營者應考慮混合使用各種培訓技巧，可把特別組織的文章納入培訓材料，並應能向關長證明材料是最新的。",
+     "後勤職員無需接受打擊洗錢培訓，因為指引的培訓計劃是針對與公眾有直接接觸的前線工作人員。"
+    ]
+   }
+  },
+  {
+   "id": "m6-513",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.11–10.12",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第10.11至10.12段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about originator information that an ordering institution chooses not to include in a wire transfer?",
+    "statements": [
+     "For a domestic wire transfer, an ordering institution may include only the originator's account number or, if there is no account, a unique reference number, provided it permits traceability.",
+     "An ordering institution that omits complete originator information must provide it within 3 business days after a request from the institution it passes the instruction to, or from the CCE.",
+     "The complete originator information must be provided within 3 business days after the wire transfer is sent, whether or not any request for it is received.",
+     "Such information should be made available to law enforcement agencies immediately upon request, without waiting for the 3 business days allowed to other requesters.",
+     "The option to omit complete originator information applies equally to cross-border wire transfers, provided the account or reference number permits traceability."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關匯款機構選擇不加入電傳轉帳的匯款人資料的陳述，哪些正確？",
+    "statements": [
+     "就本地電傳轉帳，匯款機構可僅加入匯款人的戶口號碼或（如沒有戶口）獨特參考編號，但該號碼必須可用作追蹤有關電傳轉帳。",
+     "選擇不加入全部所需匯款人資料的匯款機構，須在接獲收取其轉帳指示的機構或關長的要求後的3個營業日內提供該等資料。",
+     "不論有否接獲任何要求，全部所需匯款人資料均須在電傳轉帳發出後的3個營業日內主動提供。",
+     "該等資料亦需按執法機構要求立即提供，不能等待向其他要求者提供資料的3個營業日期限。",
+     "凡戶口號碼或參考編號可用作追蹤，不加入全部所需匯款人資料的選擇同樣適用於跨境電傳轉帳。"
+    ]
+   }
+  },
+  {
+   "id": "m6-519",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶11.6; AMLO Sch. 2 s.13(2)",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第11.6段；《打擊洗錢條例》附表2第13(2)條"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about the record an MSO makes before a remittance transaction that is not a wire transfer?",
+    "statements": [
+     "Before a remittance of $8,000 or above, the MSO must record the originator's name and address, the currency and amount, and the date and time of receipt of the instruction.",
+     "The recording duty applies only to remittance transactions of $120,000 or above, or an equivalent amount in another currency, that are not wire transfers.",
+     "The MSO must also record the recipient's identification document number, together with the recipient's name and address and the method of delivery.",
+     "The MSO must record the originator's identification document number and, if that document is a travel document, the place of issue of the travel document.",
+     "The MSO should be able to justify that it kept the originator and transaction records in accordance with Chapter 8, so the information can be made available to the CCE."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關金錢服務經營者在進行並非電傳轉帳的匯款交易前須作記錄的陳述，哪些正確？",
+    "statements": [
+     "在進行8,000元或以上的匯款交易前，經營者須記錄匯款人的姓名及地址、所涉貨幣及款額，以及接獲指示的日期及時間。",
+     "記錄責任適用於120,000元或以上（或折算為其他貨幣的相同款額）而並非電傳轉帳的匯款交易，低於該款額者無需記錄。",
+     "金錢服務經營者亦須記錄收款人的識別文件號碼，連同收款人的姓名及地址以及送遞的方式。",
+     "金錢服務經營者須記錄匯款人的識別文件號碼，以及（如該文件是旅行證件）發出旅行證件的地方。",
+     "金錢服務經營者應能證明已按照第8章的規定保存匯款人及相關交易的紀錄，以便有需要時向關長提供該等資料。"
+    ]
+   }
+  }
+ ],
+ "text_sha256": {
+  "m1-225": "045d27ad6918aac2824f34da6662c00fb0d9c1a11d31861f8984ffa61278992e",
+  "m1-228": "33d13c7803b98a856a783b8493742138a240ad344bee7e66751a84f78d7024c3",
+  "m2-388": "5a8ed18f29bed63a77509c5cb6f7a597eea4b6653c6f9c9e5c76f83c4437ce30",
+  "m3-348": "ccc1a12346b8f3917a119a2d5ef58edd5f18671f1dc726de6c368b5c6082a8dc",
+  "m3-350": "c9aadaf7d7ec0691c372cb7753001c7e69f669ccce26f517e6aa9ba0bd34146f",
+  "m3-352": "4f6866bee6cf2bef77ff78c558f77cc0551102e59e8b38608b59b1c8628d9d58",
+  "m7-223": "7753fd1bc76502e5bd9c3910d1d93c59bd176f58ac2ada2d0e45433a36ae7809",
+  "m6-513": "6aaf997d6d7a9b3bf997d332197f6e8066cf4e7ad47a2b801293118745f73b09",
+  "m6-519": "d1fbd4abdb3e2e30546dc70553c91cd93fa67822a321263bb6b61cf6b26e95d3"
+ }
+}

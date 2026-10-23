@@ -1,7 +1,7 @@
 {
   "method": "Post-authoring identifier/source-route check only. This tool does not assess bank-statement semantics or prove completeness. Manual concept review is recorded separately.",
-  "bank_sha256": "3d456c0006249933cad15693f69bfee3fe56d09e51f3cabc72bbc3a14fa9e0f6",
-  "quotes_sha256": "eeda46782074abcf03b5c32959d7b74207fd3fbb5ce33b820fa67ea00ca4296f",
+  "bank_sha256": "7d129a234afa76450a5fbc6c5cec346e4b0ac0aa2e66b695e65e273f6bdffc46",
+  "quotes_sha256": "bbeaf000deaf213f996ea8aabd8d0d2561ade201952cc8dd6545d6ad3761da12",
   "manuscripts": {
     "part1.py": "3cfb0e8f30e9ba8cdc8f397eb89b15a09c55897e00ea3777eac6d6ea241a17ec",
     "part2.py": "be06fa056a56df29a85f4874571a442bcb8e12534b9c1fb771ade84b51b62063",
@@ -25,7 +25,7 @@
       "visual_render.py": "6bf9788e5563990dbc045611bddfebe863cf4617e83ba27285f39168f636e3c5"
     }
   },
-  "questions_checked": 552,
+  "questions_checked": 588,
   "historical_supplements": [
     {
       "topic": "Customer assessment framework and finalisation",
@@ -726,6 +726,42 @@
       ]
     },
     {
+      "id": "m1-224",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-225",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-226",
+      "part": 1,
+      "source_documents": [
+        "23"
+      ]
+    },
+    {
+      "id": "m1-227",
+      "part": 1,
+      "source_documents": [
+        "22",
+        "23"
+      ]
+    },
+    {
+      "id": "m1-228",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
       "id": "m2-ca2",
       "part": 2,
       "source_documents": [
@@ -1252,6 +1288,48 @@
       ]
     },
     {
+      "id": "m2-388",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-389",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-390",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-391",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-392",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m2-393",
+      "part": 2,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
       "id": "m3-ca3",
       "part": 3,
       "source_documents": [
@@ -1709,6 +1787,41 @@
     },
     {
       "id": "m3-347",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-348",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-349",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-350",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-351",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m3-352",
       "part": 3,
       "source_documents": [
         "04"
@@ -2306,6 +2419,49 @@
       ]
     },
     {
+      "id": "m4-416",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-417",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-418",
+      "part": 4,
+      "source_documents": [
+        "01"
+      ]
+    },
+    {
+      "id": "m4-419",
+      "part": 4,
+      "source_documents": [
+        "17"
+      ]
+    },
+    {
+      "id": "m4-420",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-421",
+      "part": 4,
+      "source_documents": [
+        "12",
+        "13"
+      ]
+    },
+    {
       "id": "m5-07",
       "part": 5,
       "source_documents": [
@@ -2872,6 +3028,27 @@
       "part": 5,
       "source_documents": [
         "14"
+      ]
+    },
+    {
+      "id": "m5-140",
+      "part": 5,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m5-141",
+      "part": 5,
+      "source_documents": [
+        "20"
+      ]
+    },
+    {
+      "id": "m5-142",
+      "part": 5,
+      "source_documents": [
+        "03"
       ]
     },
     {
@@ -3720,6 +3897,56 @@
       ]
     },
     {
+      "id": "m6-513",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-514",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-515",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-516",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-517",
+      "part": 6,
+      "source_documents": [
+        "03",
+        "06"
+      ]
+    },
+    {
+      "id": "m6-518",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-519",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
       "id": "m7-ca5",
       "part": 7,
       "source_documents": [
@@ -4191,6 +4418,34 @@
     },
     {
       "id": "m7-220",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-221",
+      "part": 7,
+      "source_documents": [
+        "25"
+      ]
+    },
+    {
+      "id": "m7-222",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-223",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-224",
       "part": 7,
       "source_documents": [
         "03"
