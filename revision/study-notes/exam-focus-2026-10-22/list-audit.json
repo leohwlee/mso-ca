@@ -1,0 +1,1589 @@
+{
+ "method": "Each enumerated list item in documents 03 and 05 was given distinctive phrases and matched against the rendered English note text (points and figures). Every item not found by phrase was checked by hand against the note passage that cites it. Phrase matching is a triage aid, not proof of meaning.",
+ "scope": {
+  "03": "Lettered lists with three or more items in chapters 1-10; chapter 11 and Appendix A lists checked by hand",
+  "05": "Lettered lists with three or more items",
+  "06": "FAQ lists A1, A2, A10, A12 and A24 checked by hand"
+ },
+ "items": [
+  {
+   "document": "03",
+   "item": "1.20a",
+   "description": "police/customs investigate organized crime triad",
+   "phrase_check": "found",
+   "disposition": "Added: Part 1 legal-framework, ¶1.20 (a)-(d)"
+  },
+  {
+   "document": "03",
+   "item": "1.20b",
+   "description": "confiscate restraint charging orders",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "1.20c",
+   "description": "ML offence proceeds indictable offences",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "1.20d",
+   "description": "greater sentence info",
+   "phrase_check": "found",
+   "disposition": "Added: Part 1 legal-framework, ¶1.20 (a)-(d)"
+  },
+  {
+   "document": "03",
+   "item": "2.2",
+   "description": "customers/countries/operations/products",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 5 institutional-assessment: customers, countries, operations, products/channels"
+  },
+  {
+   "document": "03",
+   "item": "2.3a",
+   "description": "documenting process qualitative quantitative",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "2.3b",
+   "description": "consider all factors before overall risk",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "2.3c",
+   "description": "senior mgmt approval of results",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "2.3d",
+   "description": "kept up to date",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "2.3e",
+   "description": "provide to CCE when required",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "2.4a",
+   "description": "target market customer segments",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "2.4b",
+   "description": "corruption organised crime transparency of BO",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "2.4c",
+   "description": "nature scale diversity complexity",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "2.4d",
+   "description": "delivery channel non-face-to-face agents",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 5 institutional-assessment: delivery channels, reliance on third parties, agent networks"
+  },
+  {
+   "document": "03",
+   "item": "2.4e",
+   "description": "risk mgmt resources qualified staff / audit regulatory findings",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.2a",
+   "description": "systems approved by senior mgmt",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.2b",
+   "description": "monitor implementation enhance",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.2c",
+   "description": "enhanced measures higher risks",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.3",
+   "description": "three conditions simplified systems",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.4a",
+   "description": "compliance management arrangements",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.4b",
+   "description": "independent audit function",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.4c",
+   "description": "employee screening",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.4d",
+   "description": "ongoing training programme",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 5 control-framework: continuing training"
+  },
+  {
+   "document": "03",
+   "item": "3.8a",
+   "description": "qualified knowledge",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 5 roles: eight conditions (a)-(h) listed"
+  },
+  {
+   "document": "03",
+   "item": "3.8b",
+   "description": "independent of operational (size)",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.8c",
+   "description": "normally based in Hong Kong",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.8d",
+   "description": "seniority and authority",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.8e",
+   "description": "direct access senior mgmt",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.8f",
+   "description": "fully conversant",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 5 roles: (f) full familiarity with statutory/regulatory requirements and business risks"
+  },
+  {
+   "document": "03",
+   "item": "3.8g",
+   "description": "timely access to information",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.8h",
+   "description": "resources alternate deputy",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.9a",
+   "description": "develop/review systems",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.9b",
+   "description": "oversee all aspects",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.9c",
+   "description": "communicate with senior management deficiencies",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.9d",
+   "description": "staff training adequate",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.12a",
+   "description": "adequacy systems RA framework RBA",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.12b",
+   "description": "STR systems effectiveness",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.12c",
+   "description": "compliance function effectiveness",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "3.12d",
+   "description": "staff awareness",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.1a",
+   "description": "governmental body",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.1b",
+   "description": "CCE/RA",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.1c",
+   "description": "overseas similar authority",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.1d",
+   "description": "recognized digital identification system",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.1e",
+   "description": "other recognized reliable independent source",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.2a",
+   "description": "full name",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.2b",
+   "description": "date of birth",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.2c",
+   "description": "nationality",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.2d",
+   "description": "unique id number & document type",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.3a",
+   "description": "HKID/national ID",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.3b",
+   "description": "travel document passport",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.3c",
+   "description": "other gov-issued",
+   "phrase_check": "found",
+   "disposition": "Added: Part 6 identity, ¶4.3.3 (a)-(c)"
+  },
+  {
+   "document": "03",
+   "item": "4.3.6b",
+   "description": "date of incorporation",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.6c",
+   "description": "place of incorporation registered office",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.6d",
+   "description": "incorporation/BR number",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 identity: ID number/type"
+  },
+  {
+   "document": "03",
+   "item": "4.3.6e",
+   "description": "principal place of business",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.7a",
+   "description": "cert of incorporation",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.7b",
+   "description": "independent company registry",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.7c",
+   "description": "incumbency",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.7d",
+   "description": "good standing",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.7e",
+   "description": "record of registration",
+   "phrase_check": "found",
+   "disposition": "Added: Part 6 identity, ¶4.3.7 all eight examples"
+  },
+  {
+   "document": "03",
+   "item": "4.3.7f",
+   "description": "partnership agreement deed",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.7g",
+   "description": "constitutional document",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.8",
+   "description": "well-known reputable long history public info",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.11a",
+   "description": "name of trust",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 identity: trusts, collect name"
+  },
+  {
+   "document": "03",
+   "item": "4.3.11b",
+   "description": "date of establishment/settlement",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.11c",
+   "description": "governing law jurisdiction",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.11d",
+   "description": "tax id / charity number",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.11e",
+   "description": "registered office address",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.12a",
+   "description": "trust deed",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 identity: five trust-verification sources (1)-(5)"
+  },
+  {
+   "document": "03",
+   "item": "4.3.12b",
+   "description": "register record",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.12c",
+   "description": "professional trustee confirmation",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.12d",
+   "description": "lawyer reviewed instrument",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.3.12e",
+   "description": "group trust company confirmation",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 identity: (5) same-financial-group trust-company confirmation"
+  },
+  {
+   "document": "03",
+   "item": "4.3.19",
+   "description": "director/partner/trustee/senior mgmt",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.4.10a",
+   "description": "beneficiaries vested interest",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.4.10b",
+   "description": "settlor",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.4.10c",
+   "description": "trustee",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.4.10d",
+   "description": "protector or enforcer",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.4.10e",
+   "description": "ultimate control",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.7.1a",
+   "description": "risk effectively managed",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.7.1b",
+   "description": "not interrupt normal conduct",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.7.1c",
+   "description": "completed as soon as reasonably practicable",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.7.3a",
+   "description": "timeframe",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.7.3b",
+   "description": "limits on number/types/amount",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.7.3c",
+   "description": "monitor large complex",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.7.3d",
+   "description": "senior mgmt informed pending",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.7.3e",
+   "description": "no payout to third party",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 timing: generally do not pay third parties, plus four conditions"
+  },
+  {
+   "document": "03",
+   "item": "4.8.3",
+   "description": "no longer low / suspicion / doubts",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.8.8a",
+   "description": "accept other docs (licence/listed proof)",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.8.8b",
+   "description": "SDD on BOs",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.8.8c",
+   "description": "reduce frequency of updates",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.8.8d",
+   "description": "reduce monitoring threshold",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.8.8e",
+   "description": "infer purpose",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.8.10a",
+   "description": "FI",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.8.10c",
+   "description": "listed corporation",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.8.10d",
+   "description": "investment vehicle",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.8.10e",
+   "description": "government public body",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 simplified: Hong Kong government/public bodies"
+  },
+  {
+   "document": "03",
+   "item": "4.8.10f",
+   "description": "equivalent govt",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 simplified: equivalent counterparts"
+  },
+  {
+   "document": "03",
+   "item": "4.8.17a",
+   "description": "provident pension scheme",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.8.17b",
+   "description": "insurance policy for pension no surrender",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.8.17c",
+   "description": "life insurance premium 8000/20000",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.8.19",
+   "description": "client account mingled agent",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.5",
+   "description": "unusual circumstances / anonymous / structured",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.6a",
+   "description": "additional customer info occupation assets",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.6b",
+   "description": "additional info nature of relationship",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.6c",
+   "description": "SOF SOW",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.6d",
+   "description": "reasons for transactions",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.6e",
+   "description": "destination of funds",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.6f",
+   "description": "first payment via own bank account",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.7",
+   "description": "spouse partner child parent",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.7x",
+   "description": "spouse or partner of a child",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 peps: children’s spouses/partners"
+  },
+  {
+   "document": "03",
+   "item": "4.9.10a",
+   "description": "senior approval",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.10b",
+   "description": "SOW SOF",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.10c",
+   "description": "enhanced ongoing monitoring",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.12a",
+   "description": "informal influence",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.12b",
+   "description": "seniority of position",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.12c",
+   "description": "previous/current function linked",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.17",
+   "description": "HK/IO PEP high risk",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.23a",
+   "description": "nature of functions",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.23b",
+   "description": "geographical risk",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.9.23c",
+   "description": "nature of relationship channel product",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.10.1a",
+   "description": "further verify with docs not previously used",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 remote: further verification using unused independent evidence"
+  },
+  {
+   "document": "03",
+   "item": "4.10.1b",
+   "description": "supplementary measures",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.10.1c",
+   "description": "first payment through customer bank account",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.11.8a",
+   "description": "FI",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.11.8b",
+   "description": "accounting professional",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.11.8c",
+   "description": "estate agent",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.11.8d",
+   "description": "legal professional",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.11.8e",
+   "description": "TCSP licensee",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.11.9",
+   "description": "check register / enquiries stature / review policies",
+   "phrase_check": "found",
+   "disposition": "Added: Part 6 intermediaries, ¶4.11.9 (a)-(c)"
+  },
+  {
+   "document": "03",
+   "item": "4.11.10b",
+   "description": "registered licensed regulated",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.11.10c",
+   "description": "measures similar to Sch2",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 intermediaries: similar measures and supervision"
+  },
+  {
+   "document": "03",
+   "item": "4.11.10d",
+   "description": "supervised",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.12.1a",
+   "description": "unusual/significant transaction",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.12.1b",
+   "description": "material change in account operation",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 monitoring: material account changes"
+  },
+  {
+   "document": "03",
+   "item": "4.16.2a",
+   "description": "FSRB membership mutual evaluation",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.16.2b",
+   "description": "strategic deficiencies",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "4.16.2c",
+   "description": "CCE advisory circular",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 3 definitions: CCE advisories"
+  },
+  {
+   "document": "03",
+   "item": "4.16.2d",
+   "description": "other publications",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "5.4",
+   "description": "size complexity risk systems other business products",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "5.7a",
+   "description": "nature type of transactions abnormal size frequency",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "5.7b",
+   "description": "series structuring",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "5.7c",
+   "description": "counterparties",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "5.7d",
+   "description": "geographical origin destination",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "5.7e",
+   "description": "normal activity turnover",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "6.5a",
+   "description": "s.6 freeze",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "6.5b",
+   "description": "s.7",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "6.5c",
+   "description": "s.8",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "6.5d",
+   "description": "s.8A dealing",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "6.5e",
+   "description": "s.11L travel",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "6.16a",
+   "description": "at establishment",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "6.16b",
+   "description": "new designations as soon as practicable",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 screening: promptly after designation updates"
+  },
+  {
+   "document": "03",
+   "item": "6.16c",
+   "description": "screen wire parties before executing",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "7.2",
+   "description": "actual/indicate/inquiry",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "7.7a",
+   "description": "appoint MLRO",
+   "phrase_check": "found",
+   "disposition": "Added: Part 7 internal-report, ¶7.7 (a)-(c) and ¶7.8"
+  },
+  {
+   "document": "03",
+   "item": "7.7b",
+   "description": "policies internal reporting JFIU post-reporting tipping",
+   "phrase_check": "found",
+   "disposition": "Added: Part 7 internal-report, ¶7.7"
+  },
+  {
+   "document": "03",
+   "item": "7.7c",
+   "description": "records of internal reports and STRs",
+   "phrase_check": "found",
+   "disposition": "Added: Part 7 internal-report, ¶7.7"
+  },
+  {
+   "document": "03",
+   "item": "7.8",
+   "description": "ongoing check STR systems",
+   "phrase_check": "found",
+   "disposition": "Added: Part 7 internal-report, ¶7.8"
+  },
+  {
+   "document": "03",
+   "item": "7.9a",
+   "description": "review disclosures exception reports",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "7.9b",
+   "description": "maintain records of reviews",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 5 roles: maintaining all internal-review records"
+  },
+  {
+   "document": "03",
+   "item": "7.9c",
+   "description": "guidance avoid tipping off",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 5 roles: guiding staff on avoiding tipping off"
+  },
+  {
+   "document": "03",
+   "item": "7.17a",
+   "description": "connected accounts relationship-based",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 7 internal-report: connected-account activity"
+  },
+  {
+   "document": "03",
+   "item": "7.17b",
+   "description": "previous patterns length of relationship",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 7 internal-report: historical instructions and relationship duration"
+  },
+  {
+   "document": "03",
+   "item": "7.17c",
+   "description": "questioning SAFE",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "8.2a",
+   "description": "audit trail",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "8.2b",
+   "description": "available swiftly",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "8.2c",
+   "description": "demonstrate compliance",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 7 evidence-records: records also demonstrate regulatory compliance"
+  },
+  {
+   "document": "03",
+   "item": "8.3a",
+   "description": "identity docs",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "8.3b",
+   "description": "SDD/EDD records",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "8.3c",
+   "description": "purpose and nature records",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "8.3d",
+   "description": "account file / business correspondence",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "8.3e",
+   "description": "results of analysis",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "9.4a",
+   "description": "CDD/record-keeping obligations consequences",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "9.4b",
+   "description": "STR consequences",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 7 training: (b) suspicious-reporting duties and consequences of failure"
+  },
+  {
+   "document": "03",
+   "item": "9.4c",
+   "description": "other obligations UNSO WMD",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "9.4d",
+   "description": "policies procedures",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "9.4e",
+   "description": "new emerging techniques",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "9.8a",
+   "description": "testing understanding",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "9.8b",
+   "description": "monitoring compliance quality/quantity of internal reports",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 7 training: internal-report quality/quantity"
+  },
+  {
+   "document": "03",
+   "item": "9.8c",
+   "description": "attendance follow-up",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "10.4a",
+   "description": "MSO-FI own behalf",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 wire-transfers: MSO-FI transfers where both act for themselves are excluded"
+  },
+  {
+   "document": "03",
+   "item": "10.4c",
+   "description": "card transactions",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 6 wire-transfers: card exclusion conditions"
+  },
+  {
+   "document": "03",
+   "item": "10.5c",
+   "description": "address or cust ID or ID doc no or DOB/POB",
+   "phrase_check": "found"
+  },
+  {
+   "document": "03",
+   "item": "10.6",
+   "description": "below 8000 four items",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "2.4a",
+   "description": "sending outside",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "2.4b",
+   "description": "receiving from outside",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "2.4c",
+   "description": "arranging receipt outside",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "2.9a",
+   "description": "premises addresses",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "2.9b",
+   "description": "endorsed conditions",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "2.9c",
+   "description": "validity period",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "2.10a",
+   "description": "death",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "2.10b",
+   "description": "dissolution",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "2.10c",
+   "description": "winding up",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "3.1a",
+   "description": "authorized institution",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "3.1b",
+   "description": "licensed corporation ancillary",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "3.1c",
+   "description": "authorized insurer",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "3.1d",
+   "description": "insurance broker",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "3.1e",
+   "description": "appointed insurance agent",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "3.1f",
+   "description": "SVF licensee",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "3.1g",
+   "description": "designated retail payment system",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.1",
+   "description": "individual/partners/directors + ultimate owners fit and proper",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.2.2",
+   "description": "partnership capital profits",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 3 definitions / Part 2: more than 25% of capital, profits or votes"
+  },
+  {
+   "document": "05",
+   "item": "4.2.3",
+   "description": "corporation issued share capital trust bearer",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.2.3c",
+   "description": "ultimate control management",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.3a",
+   "description": "convictions listed offences",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 4 fitness: Hong Kong convictions list"
+  },
+  {
+   "document": "05",
+   "item": "4.3b",
+   "description": "overseas convictions",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.3c",
+   "description": "persistent failure",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 4 fitness: persistent regulatory non-compliance"
+  },
+  {
+   "document": "05",
+   "item": "4.3d",
+   "description": "bankruptcy",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.3e",
+   "description": "liquidation receiver",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.3f",
+   "description": "other matters",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.4a",
+   "description": "occupied for operating",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.4b",
+   "description": "advertised signboard",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.4c",
+   "description": "regularly controlled landlord tenant",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.5a",
+   "description": "door-to-door",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.5b",
+   "description": "customer office",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 4 premises: customer-office meetings"
+  },
+  {
+   "document": "05",
+   "item": "4.5c",
+   "description": "mobile electronic devices",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.6",
+   "description": "accessible",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.6x",
+   "description": "wholly residential",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.6y",
+   "description": "used by other MSO",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.6z",
+   "description": "signboard name differs from BR",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.15a",
+   "description": "CO MLRO",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.15b",
+   "description": "pass assessment",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "4.15c",
+   "description": "business registration valid BR",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "5.5",
+   "description": "sole proprietor partner authorised staff interview",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "5.10a",
+   "description": "F&P",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "5.10b",
+   "description": "unsuitable premises",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "5.10c",
+   "description": "no occupant consent",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "5.10d",
+   "description": "no LPS",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "5.10e",
+   "description": "no LMO",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "5.10f",
+   "description": "no business plan/AML policy",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "5.10g",
+   "description": "no competent CO/MLRO",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "5.10h",
+   "description": "incomplete application",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "5.10i",
+   "description": "none attends assessment",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "5.10j",
+   "description": "none passes assessment",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 4 application: no senior manager attending or passing"
+  },
+  {
+   "document": "05",
+   "item": "5.10k",
+   "description": "exempted s.25",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "7.1a",
+   "description": "no longer F&P",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "7.1b",
+   "description": "occupant revokes consent",
+   "phrase_check": "not found",
+   "disposition": "Present as paraphrase (checked by hand): Part 4 licensing-actions: (b) an occupant withdrawing entry consent"
+  },
+  {
+   "document": "05",
+   "item": "7.1c",
+   "description": "new occupant refuses",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "7.1d",
+   "description": "LPS failure",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "7.1e",
+   "description": "LMO failure",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "7.1f",
+   "description": "periodic return late",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "7.1g",
+   "description": "licence not used for purpose",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "7.1h",
+   "description": "AMLO breach Part 5",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "7.1i",
+   "description": "no competent CO/MLRO",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "11.1a",
+   "description": "report STR",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "11.1b",
+   "description": "AML policy",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "11.1c",
+   "description": "remain F&P",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "11.1d",
+   "description": "occupant consent",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "11.1e",
+   "description": "display original licence",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "11.1f",
+   "description": "maintain LPS",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "11.1g",
+   "description": "LMO contact point",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "11.1h",
+   "description": "senior mgmt attended assessment",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "11.1i",
+   "description": "periodic return",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "11.1j",
+   "description": "bank account name",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "13.1",
+   "description": "reprimand remedial penalty",
+   "phrase_check": "found"
+  },
+  {
+   "document": "05",
+   "item": "11.1",
+   "description": "licensee obligations (a)-(j)",
+   "phrase_check": "summarised only before this review",
+   "disposition": "Added: Part 4 licensing-actions, ¶11.1 (a)-(j)"
+  }
+ ]
+}

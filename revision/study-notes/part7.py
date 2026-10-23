@@ -41,6 +41,12 @@ section('internal-report', '內部報告與MLRO評估', 'Internal reporting and 
     ], [
         ref('03', '第7.20段', '¶7.20', 'it is unlikely that there will be any criminal liability'),
     ], kind='list'),
+    block('可疑交易報告制度的三項組成', 'The three components of the STR reporting system', [
+        ('第7.7段：MSO應執行適當的打擊洗錢／恐怖分子資金籌集制度，以履行法定舉報責任，並妥為管理和減低可疑交易報告所涉客戶或交易的風險。制度應包括三項：(a) 委任一名洗錢報告主任（MLRO）；(b) 就內部報告、向財富情報組（JFIU）作出報告、作出報告後如何減低風險及防止通風報訊，執行清晰的政策和程序；(c) 備存內部報告及可疑交易報告的妥善紀錄。', 'Paragraph 7.7: the MSO should implement appropriate AML/CFT systems to fulfil its statutory reporting obligations and properly manage and mitigate the risks of any customer or transaction involved in an STR. The systems should include three components: (a) appointment of an MLRO; (b) clear policies and procedures over internal reporting, reporting to the JFIU, post-reporting risk mitigation and prevention of tipping off; and (c) proper records of internal reports and STRs.'),
+        ('第7.8段另要求制訂措施，持續查核這套舉報制度是否符合法律及監管規定並行之有效；措施的類別及程度應與洗錢／恐怖分子資金籌集風險及業務的性質和規模配合。第7.7段只列上述三項：員工培訓見第9章、獨立審核見第3章，屬其他制度要求。', 'Paragraph 7.8 adds measures to check, on an ongoing basis, that these reporting systems comply with legal and regulatory requirements and operate effectively; their type and extent should suit the ML/TF risk and the nature and size of the business. Paragraph 7.7 lists only the three components above: staff training (Chapter 9) and independent audit (Chapter 3) are separate system requirements.'),
+    ], [
+        ref('03', '第7.7–7.8段', '¶7.7–7.8', 'post-reporting risk mitigation and prevention of tipping off'),
+    ], kind='list'),
 ]),
 section('tipping-off', '通風報訊與向客戶查詢的界線', 'Tipping off and enquiries to customers', [
     block('避免妨礙調查', 'Avoid prejudicing an investigation', [

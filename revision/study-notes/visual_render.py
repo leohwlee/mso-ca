@@ -54,6 +54,49 @@ def render(panel, pair):
     elif kind=='formula':
         for row in panel['formulae']:
             out+='<div class="penalty-formula"><h4>'+pair(row['label'])+'</h4>'+para(row['expression'],'formula-expression')+para(row['note'])+'</div>'
+    elif kind=='thresholds':
+        # Ordinal amount line: position shows order only; the marker shows whether equality counts.
+        ticks={t['key']:t for t in panel['ticks']}
+        def track(lane):
+            at=ticks[lane['tick']]['at']
+            guides=''.join('<span class="lane-guide" style="--at:'+str(t['at'])+'%"></span>' for t in panel['ticks'])
+            return '<div class="lane-track" aria-hidden="true">'+guides+'<span class="lane-bar'+(' exclusion' if lane.get('exclusion') else '')+'" style="--at:'+str(at)+'%"></span><span class="lane-marker '+('inclusive' if lane['inclusive'] else 'exclusive')+'" style="--at:'+str(at)+'%"></span><span class="lane-value" style="--at:'+str(at)+'%">'+('≥ ' if lane['inclusive'] else '> ')+ticks[lane['tick']]['label']['en']+'</span></div>'
+        out+='<div class="threshold-legend"><span><i class="lane-marker inclusive" aria-hidden="true"></i>'+pair(dict(tc='實心：等於門檻亦適用（≥）',en='Filled: applies at exactly the amount (≥)'))+'</span><span><i class="lane-marker exclusive" aria-hidden="true"></i>'+pair(dict(tc='空心：須超過門檻（>）',en='Hollow: must exceed the amount (>)'))+'</span></div>'
+        out+='<div class="threshold-chart"><div class="threshold-axis" aria-hidden="true"><span></span><div class="axis-track">'+''.join('<b class="axis-tick" style="--at:'+str(t['at'])+'%">'+pair(t['label'])+'</b>' for t in panel['ticks'])+'</div></div>'
+        for group in panel['lane_groups']:
+            out+='<div class="threshold-group"><h4>'+pair(group['title'])+'</h4>'
+            for lane in group['lanes']:
+                out+='<div class="threshold-lane"><div class="lane-label"><p class="lane-name">'+pair(lane['label'])+'</p><p class="lane-boundary">'+pair(lane['boundary'])+'</p></div>'+track(lane)+'<p class="lane-trigger"><b>'+pair(dict(tc='觸發',en='Triggers'))+'</b>'+pair(lane['trigger'])+'</p>'+para(lane['detail'],'lane-detail')+'</div>'
+            out+='</div>'
+        out+='</div>'+para(panel['scale_note'],'threshold-scale-note')
+    elif kind=='deadlines':
+        # Every row keeps its own starting event; segment lengths illustrate direction, never a shared time scale.
+        def edge(at):return ' edge-left' if at<18 else ' edge-right' if at>82 else ''
+        def track(row):
+            out='<div class="deadline-track" aria-hidden="true">'
+            for seg in row['segments']:
+                centre=(seg['from']+seg['to'])/2
+                out+='<span class="deadline-seg '+seg['kind']+'" style="--from:'+str(seg['from'])+'%;--to:'+str(seg['to'])+'%"></span>'
+                if seg.get('label'):out+='<b class="deadline-seg-label '+seg['kind']+edge(centre)+'" style="--at:'+str(centre)+'%">'+pair(seg['label'])+'</b>'
+            return out+'<span class="deadline-anchor" style="--at:'+str(row['at'])+'%"></span><em class="deadline-anchor-label'+edge(row['at'])+'" style="--at:'+str(row['at'])+'%">'+pair(row['anchor'])+'</em></div>'
+        def rows(items):
+            return ''.join('<div class="deadline-row"><div class="deadline-label"><h4>'+pair(r['label'])+'</h4><p class="deadline-start"><b>'+pair(dict(tc='起算',en='Starts'))+'</b>'+pair(r['start'])+'</p><p class="deadline-rule">'+pair(r['duration'])+'</p></div>'+track(r)+para(r['note'],'deadline-note')+'</div>' for r in items)
+        out+='<div class="deadline-legend"><span><i class="deadline-key window" aria-hidden="true"></i>'+pair(dict(tc='實線：須在此期間辦理',en='Solid: act within this period'))+'</span><span><i class="deadline-key late" aria-hidden="true"></i>'+pair(dict(tc='斜紋：太遲或不可',en='Hatched: too late or not allowed'))+'</span><span><i class="deadline-key anchor" aria-hidden="true"></i>'+pair(dict(tc='圓圈：起算事件',en='Ring: starting event'))+'</span></div>'
+        if panel.get('deadline_groups'):
+            out+=''.join('<div class="deadline-group"><h4 class="deadline-group-title">'+pair(g['title'])+'</h4><div class="deadline-chart">'+rows(g['rows'])+'</div></div>' for g in panel['deadline_groups'])
+        else:out+='<div class="deadline-chart">'+rows(panel['deadlines'])+'</div>'
+        out+=para(panel['scale_note'],'threshold-scale-note')
+    elif kind=='id-columns':
+        def numbered(title,items,cls=''):
+            return '<p class="id-step"><b class="id-count">'+str(len(items))+'</b>'+pair(title)+'</p><ol class="id-list'+cls+'">'+''.join('<li>'+pair(x)+'</li>' for x in items)+'</ol>'
+        out+='<div class="id-columns">'
+        for col in panel['columns']:
+            out+='<section class="id-column"><h4>'+pair(col['title'])+'<span class="id-para">'+pair(col['paras'])+'</span></h4>'
+            out+=numbered(dict(tc='最低限度收集',en='Collect at least'),col['collect'])
+            out+=numbered(dict(tc='須核實',en='Verify'),col['verify'],' verify')
+            out+=numbered(dict(tc='核實來源例子',en='Example sources'),col['sources'],' sources')
+            out+=para(col['note'],'id-note')+'</section>'
+        out+='</div>'
     else:
         raise AssertionError(kind)
     return out

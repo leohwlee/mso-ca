@@ -1,0 +1,74 @@
+{
+  "status": "verified",
+  "date": "2026-10-22",
+  "reason": "Owner-requested exam-focus pass on the seven-part study notes (22 Oct 2026): list completeness fixes, study tiers, exam traps restating CONFLICT-CALLS decisions, quick sheets and new figures (amount line, deadline tracks, identity data). Preserves the previous files; question bank, answers, scoring and source originals are unchanged. See revision/study-notes/exam-focus-2026-10-22/REPORT.md.",
+  "archive": "bank/audit/history/2026-10-22-exam-focus-notes-before.zip",
+  "archive_sha256": "660278448caaa40720e9742bddf31eaac6d51f7ce59427aba56ec6aeec39abd1",
+  "archive_updates": {
+    "revision/study-notes/README.md": {
+      "before_sha256": "24aaf7cad891766de6a7ec5fcfbccb9ee7dd188864387bf052116b9b5f258a00",
+      "after_sha256": "b869e71fc464cb626bfd1c8e39b4dd7ed8382b378a903c210ec3bcc31e7b5edd"
+    },
+    "revision/study-notes/build.py": {
+      "before_sha256": "2c7d48996cfffdc33f75eeac03c187b5a2ee2a99f8d6e7d9fc9fe7506b7dee4a",
+      "after_sha256": "efd2ed047d696cbbf08fd10dc40ccc7036f26101a6f135fc7e7066f7cb5ab4e2"
+    },
+    "revision/study-notes/coverage.json": {
+      "before_sha256": "ec1d10b4252aa278bbd8601e0ac8b711e43de3726a28e99b899d46b613d316bc",
+      "after_sha256": "0ea8fcf705174d1281cfb636dc2fb418d93fe03bff433c865a743e459b42ecc4"
+    },
+    "revision/study-notes/index.html": {
+      "before_sha256": "b71db6e9ebf6e0698f6193f007f1ef88162479e91a9c7d05ce290faef68b98b6",
+      "after_sha256": "43de380b0d8e16ad59470cf23f5eb99920a0d35c80dccde6601bfd7539680112"
+    },
+    "revision/study-notes/part-1.html": {
+      "before_sha256": "b71db6e9ebf6e0698f6193f007f1ef88162479e91a9c7d05ce290faef68b98b6",
+      "after_sha256": "43de380b0d8e16ad59470cf23f5eb99920a0d35c80dccde6601bfd7539680112"
+    },
+    "revision/study-notes/part-2.html": {
+      "before_sha256": "5d33733ace797805003a774ef5d79a05c84c4e3a9997673b9b99ed90ddbdeb69",
+      "after_sha256": "f849632b65917a86582ed9f252ac1abdf108f3a7732edeaaa9a47cdcfa659da4"
+    },
+    "revision/study-notes/part-3.html": {
+      "before_sha256": "a68a6dc31c480f04c27e7b2364db9b4d2971c89ab6b105f8b4e219431b951a1b",
+      "after_sha256": "33cf72f09e0123a8eef74d6994128d1faf25ebf7c4e06283421a458ac202b3f2"
+    },
+    "revision/study-notes/part-4.html": {
+      "before_sha256": "beb956a3cd74ec0e01daab69d934ebce5a289c1d3bdfac11a784209a8af01201",
+      "after_sha256": "b789a54f9625b546a9b905276956f52c763ddffed3d10610aebae9f1d1582254"
+    },
+    "revision/study-notes/part-5.html": {
+      "before_sha256": "8309379ecf520b2eb46af48fe3b3e02c2a62c6aac59d39ab85cb204f0f0db633",
+      "after_sha256": "1e948328b64144b8bc56a444c3892cc63ae55e208a258ea8dfa873cc8bbf9985"
+    },
+    "revision/study-notes/part-6.html": {
+      "before_sha256": "7673bb9a3c1db3b05e1478cb58d0b00b1ff145998c2961a579259f93bd61622d",
+      "after_sha256": "74ff8b76eccb2a99664ceca0e7390032e3a23c1148c32b0c809df82135435fca"
+    },
+    "revision/study-notes/part-7.html": {
+      "before_sha256": "230875b95fe4a2cad86a7e0dba3c8fff18f10208ffa635f63e0b456c1c9e1a9f",
+      "after_sha256": "a3340c7443f1ec01596ae371e6b6b51bef42b16530d6375fc2537edaf3d63241"
+    },
+    "revision/study-notes/part1.py": {
+      "before_sha256": "03621b06fc292c931af817aa0ebe8fc3263db8b3bea69cebef3000ef0aebbfb8",
+      "after_sha256": "3cfb0e8f30e9ba8cdc8f397eb89b15a09c55897e00ea3777eac6d6ea241a17ec"
+    },
+    "revision/study-notes/part4.py": {
+      "before_sha256": "c1373a476f0ca63b0fd708a90280fccabc29b64055bda03a2f392ec2b80ea949",
+      "after_sha256": "949e93517b757efb257e1067a487a1b69f55bf90f5c6500cd3e9a9394edac308"
+    },
+    "revision/study-notes/part6.py": {
+      "before_sha256": "e68a08a544b86e00852e144d0c5daf52706860e60029a2b319a8916c983e7073",
+      "after_sha256": "dbcac544447f6b6f97b16a37525c0f1cfd3945dfd1e22da4f432cbf5404eb9bf"
+    },
+    "revision/study-notes/part7.py": {
+      "before_sha256": "ba523b58c13821da75e05699b43c6e156deedb7519a9e7fc4b729e30085dc5b0",
+      "after_sha256": "45d4a329aca0a883e7ed9b421a9ff6ebf7e21f08f9e33e910bc526bbd01350b1"
+    },
+    "revision/study-notes/visual-refinement-2026-10-20/bank-source-routes.json": {
+      "before_sha256": "2038edf197e4575682703910f18de18851b044fe07d49a1cf6e6352054d96b0c",
+      "after_sha256": "34946a7c4a92810d54e07a59a988bd8a2fffbea72d1023c0f978a8103abc6757"
+    }
+  },
+  "documentation_updates": {}
+}
