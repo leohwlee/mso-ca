@@ -1,17 +1,22 @@
 # Release notes / 版本更新
 
-## Unreleased
+## v1.13.0 — 23 October 2026
 
 - Study notes: the toolbar gains a study-tier filter (All; Remember + Understand; Remember only) and a **Ruling marks** switch; the 131 purple ruling numbers and the per-part rulings register are hidden until switched on. A new **Numbers** page (`amounts.html`) lists 70 amounts, shares, periods, fees and penalties in seven groups, each with its starting point or condition, a link to the notes section and the cited passage.
 - Figures grow from 34 to 79: 35 list cards that show the number of items in a source list (the four CDD measures, the three STR-system components, the six screening parties, the fourteen Form 6 changes, the nine revocation examples, the section 25 exemptions, the PPTA items and more), four new comparison tables (the six main laws, who does what, SDD versus EDD, wire transfers versus non-wire remittances) and a sanctions-actors table, the renewal line (90, 45, 7 and 30 days), the new-licence route, the CDD route, the STR route from discovery to after disclosure (replacing the former internal-reporting figure), beneficial-owner shareholding examples and the periodic-return clocks. Point text is unchanged.
 - Practice app: a **Wrong-answer book** keeps every question answered wrong, in practice or in a mock, until it is answered right twice in a row, with a button to practise it; custom practice draws unseen questions before seen ones and the home page shows how many remain. The stylesheet is one layer instead of a base plus overrides, with no visual change (verified by computed-style comparison).
 - Adds 36 independently blind-reviewed questions (588 in total: 68 / 81 / 71 / 89 / 84 / 123 / 72) whose false statements change one number, period, name or actor in an otherwise faithful sentence: the 14-year / $5 million and 3-month / $50,000 penalties, the six main laws' exact names, the Cap. 629 detention periods and the HK$120,000 line, the 2-year licence and 45-day renewal, the 7-day licence return, $1,000,000 against $10,000,000 and $10,000 against $100,000 a day, the 21-day review window, the $120,000 / $8,000 CDD lines, the Schedule 2 product and intermediary rules, the renewal, result and nomination timelines, Cap. 34's 12 months and 3 days, the 102x152 mm photographs, the two penalty guidelines, the two-year institutional review, the 3-business-day originator rule, annual bearer-share declarations, 1 April 2012, the six screening parties, the four identification items, the remittance record items, the JFIU's quarterly report, the STR registers, 3-year training records and the audit function. m5-08 no longer mirrors a statement in m5-103 and m3-324 has its own stem; answers are unchanged.
-- Scoring and source editions are unchanged.
+- Scoring and source editions are unchanged. README previews were captured again from v1.13.0.
 - 筆記：工具列新增學習層次篩選（全部／必記＋理解／只看必記）及「裁決標記」開關，131處紫色裁決編號及各部分的裁決登記冊預設隱藏，按下才顯示。新增**數字總表**（`amounts.html`），分七組集中70項金額、比例、期限、費用及刑罰，每行寫明起算點或條件，並連到筆記小節及所引原文。
 - 圖表由34個增至79個：35張標明項數的清單卡（四項CDD措施、可疑交易報告制度三項組成、篩查六組相關方、表格6的十四項變更、九類撤牌例子、第25條豁免、PPTA資料等）、四張新對照表（六條主要法例、誰做甚麼、簡化與加強、電傳與非電傳匯款）及制裁角色表、續牌主線（90、45、7、30日）、新牌申請流程、CDD流程、由發現到披露之後的可疑交易報告流程（取代原內部報告圖）、實益擁有人持股例子及定期申報期限。要點文字不變。
 - 練習App：新增**錯題本**，練習或模擬試答錯的題目會保留至連續答對兩次，並可一鍵練習；自選練習先抽未做過的題目，首頁顯示尚餘多少題。樣式表合併為一層，視覺不變（以計算樣式逐項比對核實）。
 - 新增36道經獨立盲審的題目（合共588題：68／81／71／89／84／123／72），錯誤陳述都只改動原文句子中的一個數字、期限、名稱或主體：監禁14年及罰款五百萬元與監禁3個月及罰款50,000元、六條主要法例的準確名稱、第629章的扣留期限及港幣120,000元界線、2年牌照及45日續期、7日交回牌照、$1,000,000與$10,000,000及每日$10,000與$100,000、21日覆核期限、$120,000及$8,000盡職審查門檻、附表2的產品及中介人規定、續牌、成績及提名時限、第34章的12個月及3天、102x152毫米照片、兩份罰款指引、每兩年的機構風險評估、3個營業日的匯款人資料規定、每年的持票人股份聲明、2012年4月1日、六組篩查相關方、四項識別資料、匯款紀錄項目、財富情報組季度報告、可疑交易報告紀錄冊、3年培訓紀錄及審核職能。m5-08不再與m5-103互為鏡像，m3-324有自己的題幹；答案不變。
-- 評分及來源版次均不變。
+- 評分及來源版次均不變。README預覽從v1.13.0重新截取。
+
+**Download / 下載：** `mso-study-bundle.zip` contains the notes, practice and originals 01–26; extract the entire ZIP and open `index.html`.
+完整學習包包含筆記、練習及01–26原件；完整解壓後開啟 `index.html`。
+
+[Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.0)
 
 ## v1.12.1 — 23 October 2026
 

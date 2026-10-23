@@ -3,11 +3,11 @@
 Open [index.html](index.html) and select Part 1–7. The source-authored notes retain
 the B blue-gray reference style and Traditional Chinese, English and bilingual
 reading. Keep this folder inside the repository so original-file and practice
-links work. Alternatively, download [v1.12.1's complete study bundle](https://github.com/leohwlee/mso-ca/releases/tag/v1.12.1),
+links work. Alternatively, download [v1.13.0's complete study bundle](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.0),
 extract it fully and open its root `index.html`. Reading pages embed their styles and font and work offline.
 
 開啟 [index.html](index.html)，選擇第1至7部分。筆記以01–26原文整理，保留B風格、
-繁體中文／英文／雙語與離線閱讀。保留於repo內，或下載[v1.12.1完整學習包](https://github.com/leohwlee/mso-ca/releases/tag/v1.12.1)
+繁體中文／英文／雙語與離線閱讀。保留於repo內，或下載[v1.13.0完整學習包](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.0)
 並完整解壓、開啟根目錄的`index.html`，原件及練習連結才可正常使用。
 
 ## Study aids, 23 October / 10月23日學習輔助

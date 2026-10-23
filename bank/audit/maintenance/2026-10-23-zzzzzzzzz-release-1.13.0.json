@@ -1,0 +1,54 @@
+{
+  "status": "verified",
+  "date": "2026-10-23",
+  "reason": "v1.13.0 release preparation (23 Oct 2026): dates the release notes, points the version links, the catalog texts, the notes README and the bundle README at v1.13.0, rewrites the README what's-new sections for the study aids of batch 1 and the 36 number-trap questions of batch 2, and replaces the README previews with v1.13.0 captures. Preserves the previous bytes of these files; the question bank, answers, scoring, notes content and source originals are unchanged by this record.",
+  "archive": "bank/audit/history/2026-10-23-before-v1.13.0-release.zip",
+  "archive_sha256": "5550d95b6192d9d170b7a279fc2824cf0e4649b1e8de44e66afa92fa670a4c03",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "9753621e0723d8ca114d8d7d040efe44bdb337e38a896ba14476833e23da447b",
+      "after_sha256": "fb6ad444663bf2dec0dbcd9f846c22cd356cb6b6748c857c37571920b85baee5"
+    },
+    "README.md": {
+      "before_sha256": "40614fd0cde16c79167c382faf7200b962702ef7c934d43906b018f3b61f7b98",
+      "after_sha256": "851065b38d7e40c6ec893c246f740fbc9d90da9c57cbf106e1de7671bd7d2adc"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "c9b0958c21bd822661589b03a8c7cb1883a8250a810a34df08d671141bd3a3a8",
+      "after_sha256": "5abf5a37ed3a1b05b2b5a511950cd513fa5c0317da949872f168e3244519fb19"
+    },
+    "docs/README.md": {
+      "before_sha256": "d00522f39b090c7530344421d6d1e977be137855215e98e11ceb18ca016bd449",
+      "after_sha256": "766d1f8c03e7943455678fe85e565be8452a8e22947d5d5bc022bc35c7780082"
+    },
+    "docs/README.zh-Hant.md": {
+      "before_sha256": "179c6115f29bce53a169e1aa7ebbdc209a0ad88b245ce56c709df72da35b3910",
+      "after_sha256": "6e71751dfee234173aed035a1bf65599235924eff7e629bb2c2884b3d357efdb"
+    },
+    "docs/archive/README.md": {
+      "before_sha256": "e259a96b7f2f512d6a19a45cc71acefd27a8a2bc08c3b5c9faf5d0808d892e15",
+      "after_sha256": "aa660213a1e8e61451a5f3e4537b33d4fc6a2d9774dfcec6a8866f42a0c664cd"
+    },
+    "docs/archive/README.zh-Hant.md": {
+      "before_sha256": "ed4c75f1d2c026257d28c9f4fb47433cc1047ab202ff0ac88fb94553f6748322",
+      "after_sha256": "6ea76f6706519c9b78054b1e23c8254920310f78c244bc6c7e5d000351f5ea05"
+    },
+    "docs/build_catalog.py": {
+      "before_sha256": "442078416cd7278a10c37f07df603d774fa5b24251a83a9f313afa3036b84585",
+      "after_sha256": "13407268c9ec79b30dec0ef3710c9030f63552c49033477424084422ddcdb50f"
+    },
+    "docs/images/readme-previews.json": {
+      "before_sha256": "7e673f9aa81870ddc9ddd0abf18e65aef69ccd6458fb6f72fc087c0f3806d9ad",
+      "after_sha256": "de692b2c3f8bac7853b52cc9632545fc40305e842f655986130bd57b8e91e620"
+    },
+    "revision/study-notes/README.md": {
+      "before_sha256": "49b91f85e058bb2862680abe9721e588508f1550d972cccdac362e4fe32d9764",
+      "after_sha256": "904af10dcebff7f7ad2df9698d18a4ba992b0170d1bc463d3b8b69e6e0c75b72"
+    },
+    "scripts/build_study_bundle.py": {
+      "before_sha256": "aa2e5d937d0d860d42681405f2e9d932071c115919d82749f742b17a79f7c085",
+      "after_sha256": "b1d0bc84adab452e427c4a627ad9d57ac568efd16e89ef346e138266e0fa3264"
+    }
+  },
+  "documentation_updates": {}
+}
