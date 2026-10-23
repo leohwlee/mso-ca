@@ -1,5 +1,9 @@
 # Historical audit evidence
 
+`2026-10-23-before-number-traps.zip` preserves the bank, quotes, generated accounting and count-bearing documentation before 36 number, period, name and actor trap questions were added and 2 revised. The blind reviews and coverage are in `../active-followups/2026-10-23-number-traps.json`; the maintenance record of the same date links the documentation hashes.
+
+新增36道數字、期限、名稱及主體陷阱題及修訂2題前的題庫、引文、生成的來源統計及載有題數的文件已另存上述ZIP；盲審及覆蓋對照見跟進記錄，同日的維護記錄連結文件雜湊。
+
 `2026-10-23-before-gap-items.zip` preserves the bank, quotes, generated accounting and count-bearing documentation before 27 questions were added and 12 revised. The blind reviews and coverage are in `../active-followups/2026-10-23-gap-items.json`; `active_scope.py` unwinds that record before checking the active26 record unchanged.
 
 新增27題及修訂12題前的題庫、引文、生成的來源統計及載有題數的文件已另存上述ZIP；盲審及覆蓋對照見跟進記錄，核驗時先還原該記錄，再按原樣核驗active26記錄。

@@ -1,0 +1,198 @@
+[
+ {
+  "id": "m4-421",
+  "verdicts": ["T", "F", "T", "T", "F"],
+  "tc_verdicts": ["T", "F", "T", "T", "F"],
+  "quotes": [
+   {"doc": "12", "locator": "¶3", "en": "This Guideline is published under section 45(1) of the AMLO to indicate the manner in which the CCE will exercise the power conferred by section 43(2)(c).", "tc": "本指引根據打擊洗錢條例第45(1)條公布，以示明關長會以何種方式行使第43(2)(c)條授予的權力。"},
+   {"doc": "13", "locator": "¶2", "en": "This guideline is published under section 23(1) of the AMLO to indicate the manner in which the CCE will exercise the fining power under section 21(2)(c).", "tc": "本指引根據打擊洗錢條例第23(1)條公布，以示明關長會以何種方式行使第21(2)(c)條下的罰款權力。"},
+   {"doc": "13", "locator": "¶1", "en": "the Commissioner of Customs and Excise (‘CCE’) may impose a pecuniary penalty either on its own or together with other disciplinary sanctions on a money service operator (‘MSO’) if the MSO contravenes a specified provision as defined by section 5(11) of the AMLO", "tc": "若金錢服務經營者違反打擊洗錢條例第5(11)條所界定的指明的條文，海關關長(關長)可以向該人純粹實施罰款或同時實施其他紀律制裁。"},
+   {"doc": "13", "locator": "¶3 (doc 12 ¶4 is word for word the same)", "en": "As a matter of policy, the CCE will usually publicise all his decisions to impose pecuniary penalty.", "tc": "按照目前的政策，關長通常會公布所有施加罰款的決定。"},
+   {"doc": "12", "locator": "¶1(b) (licence conditions are a s.43 ground in doc 12; doc 13 ¶1 covers only specified provisions under s.5(11), which lists Schedule 2 sections)", "en": "Under section 43 of the Anti-Money Laundering and Counter-Terrorist Financing Ordinance Chapter 615 (“AMLO”), the Commissioner of Customs and Excise (“CCE”) may, amongst other disciplinary actions, impose a pecuniary penalty on a person licensed to operate a money service (“the licensee”), if the licensee contravenes- (a) any regulation made under section 51 of the AMLO; (b) any of the conditions of the licensee’s licence", "tc": "根據第615章《打擊洗錢及恐怖分子資金籌集條例》(打擊洗錢條例) 第43條，若有經營金錢服務的持牌人(持牌人)違反－ (a) 根據打擊洗錢條例第51條訂立的規例； (b) 其牌照的任何條件"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m5-140",
+  "verdicts": ["T", "F", "T", "T", "F"],
+  "tc_verdicts": ["T", "F", "T", "T", "F"],
+  "quotes": [
+   {"doc": "03", "locator": "¶2.9", "en": "an MSO should conduct its assessment every two years and upon trigger events which are material to the MSO’s business and risk exposure", "tc": "金錢服務經營者應每兩年進行一次評估，而當會顯著影響該金錢服務經營者的業務及所面對風險的觸發事件發生後亦應覆核其評估"},
+   {"doc": "03", "locator": "¶2.9", "en": "Results of the review should be documented and approved by the MSO’s senior management.", "tc": "覆核的結果應記錄在案，並由金錢服務經營者的高級管理層審批。"},
+   {"doc": "03", "locator": "¶2.9", "en": "Trigger events may include a significant breach of the MSO’s AML/CFT Systems, the acquisition of new customer segments or delivery channels, the launch of new products and services by the MSO", "tc": "觸發事件可包括嚴重違反金錢服務經營者的打擊洗錢／恐怖分子資金籌集制度、收購新的客戶類別或交付渠道、金錢服務經營者推出新的產品及服務"},
+   {"doc": "03", "locator": "¶2.10", "en": "An MSO should maintain records and relevant documents of the institutional ML/TF risk assessment, including the risk factors identified and assessed, the information sources taken into account", "tc": "金錢服務經營者應備存機構層面的洗錢／恐怖分子資金籌集風險評估的紀錄和相關文件，包括所識別及評估的風險因素、所考慮的資料來源"},
+   {"doc": "03", "locator": "¶2.9", "en": "an MSO should conduct its assessment every two years and upon trigger events which are material to the MSO’s business and risk exposure", "tc": "金錢服務經營者應每兩年進行一次評估"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m5-141",
+  "verdicts": ["T", "T", "F", "T", "F"],
+  "tc_verdicts": ["T", "T", "F", "T", "F"],
+  "quotes": [
+   {"doc": "20", "locator": "item 9", "en": "Provide information on the expected profit margin and turnover on each type of product and service for the next two years and the running capital for the daily operation of the business", "tc": "就未來兩年每類產品及服務的預計利潤幅度和營業額及業務日常運作的營運資本提供資料。"},
+   {"doc": "20", "locator": "item 8", "en": "Provide information of any bank accounts used for the business, such as account number and owner of the bank account (No third party bank account is allowed), etc.", "tc": "就任何用以經營業務的銀行戶口提供資料，例如帳戶號碼、銀行戶口的擁有人（不得使用第三方銀行戶口）等。"},
+   {"doc": "20", "locator": "item 8, Note", "en": "If the applicant considers there is no need to open bank account for the business, the applicant is required to provide details on how will the company provide money service without bank account.", "tc": "如申請人認為無需為經營業務開設銀行戶口，申請人便須詳述如何在沒有銀行戶口的情況下提供金錢服務。"},
+   {"doc": "20", "locator": "preamble, 2nd paragraph", "en": "the applicant is required to confirm in writing in the business plan that he/she is well aware of and will comply with the statutory requirement that if there is any change in the particulars that are provided to the Commissioner of Customs and Excise (“Commissioner”) for the grant or renewal of money service operator (“MSO”) licence, the licensee must notify the Commissioner in writing of change within one month beginning on the date on which the change takes place", "tc": "申請人須於業務計劃內藉書面確認全然知悉並會遵從下述法定規定，即如持牌人為申請批給金錢服務經營者牌照或將牌照續期而提供予海關關長（「關長」）的詳情有改變，該持牌人須在自改變發生之日起計的一個月內，藉書面向關長具報有關改變。"},
+   {"doc": "20", "locator": "item 1", "en": "Provide information on the company name, business name, website address, business logo and trademark that will be used to promote the money service business.", "tc": "就將用作推廣金錢服務業務的公司名稱、業務名稱、網址、業務標誌及商標提供資料。"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m5-142",
+  "verdicts": ["T", "T", "F", "T", "F"],
+  "tc_verdicts": ["T", "T", "F", "T", "F"],
+  "quotes": [
+   {"doc": "03", "locator": "¶3.5", "en": "Compliance management arrangements should, at a minimum, include oversight by the MSO’s senior management, and appointment of a Compliance Officer (CO) and a Money Laundering Reporting Officer (MLRO)", "tc": "合規管理安排最低限度應包括由金錢服務經營者的高級管理層監督，以及委任一名合規主任及一名洗錢報告主任"},
+   {"doc": "03", "locator": "¶3.7", "en": "the senior management should appoint a CO at the management level to have the overall responsibility for the establishment and maintenance of the MSO’s AML/CFT Systems; and a senior staff as the MLRO to act as the central reference point for suspicious transaction reporting", "tc": "高級管理層尤其應該委任一名屬管理層的合規主任，全面負責建立及維持金錢服務經營者的打擊洗錢／恐怖分子資金籌集制度；並委任一名高級職員擔任洗錢報告主任，作為報告可疑交易的中央聯絡點"},
+   {"doc": "03", "locator": "footnote 9 (to ¶3.5)", "en": "Depending on the size of an MSO, the functions of CO and MLRO may be performed by the same person.", "tc": "合規主任及洗錢報告主任的職能可由同一人執行，視乎金錢服務經營者的規模而定。"},
+   {"doc": "03", "locator": "¶3.8(c)–(d)", "en": "senior management should, as far as practicable, ensure that the CO and MLRO are: ... (c) normally based in Hong Kong; (d) of a sufficient level of seniority and authority within the MSO", "tc": "高級管理層應在切實可行的範圍內，確保合規主任及洗錢報告主任：...(c) 通常長駐香港； (d) 在該金錢服務經營者具有一定的資歷及權力"},
+   {"doc": "03", "locator": "¶3.9(a)", "en": "the CO should assume responsibility for: (a) developing and/or continuously reviewing the MSO’s AML/CFT Systems ... to ensure they remain up-to-date", "tc": "合規主任尤其應負責： (a) 制訂及╱或持續覆核金錢服務經營者的打擊洗錢／恐怖分子資金籌集制度...以確保制度反映現況"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m7-221",
+  "verdicts": ["T", "F", "T", "F", "T"],
+  "tc_verdicts": ["T", "F", "T", "F", "T"],
+  "quotes": [
+   {"doc": "25", "locator": "¶3.38", "en": "the JFIU continued to be the dedicated unit jointly operated by the HKPF and the C&ED to receive, analyse and disseminate STRs filed by FIs, DNFBPs and members of the public", "tc": "聯合財富情報組在2021年6月成為財富情報及調查科轄下單位後，繼續由警務處和海關的人員組成，專責接收、分析及發布由金融機構、指定非金融業人士和巿民提交的可疑交易報告"},
+   {"doc": "25", "locator": "¶3.38", "en": "the dedicated unit jointly operated by the HKPF and the C&ED", "tc": "繼續由警務處和海關的人員組成"},
+   {"doc": "25", "locator": "¶3.38", "en": "On receipt of each STR, the JFIU will examine and conduct intelligence analysis in accordance with its risk-assessment mechanism, examining aspects of the report, including its degree of suspicion, severity and level of risk.", "tc": "每當接獲可疑交易報告，聯合財富情報組會按風險評估機制審視報告內容，包括可疑情況、嚴重程度和風險水平，並進行情報分析。"},
+   {"doc": "25", "locator": "¶3.39", "en": "The number of STRs continued to increase and reached its peak in 2017, partly due to an improving AML/CFT compliance culture since implementation of the AMLO in 2012. The number then dropped to 51 588 in 2019", "tc": "可疑交易報告的數目持續上升，並在2017年錄得新高，部分原因是自2012年《打擊洗錢條例》實施後，打擊洗錢及恐怖分子資金籌集方面的合規文化持續改善。...這類報告的數目在2019年回落至51 588份。"},
+   {"doc": "25", "locator": "¶3.30", "en": "(i) the Financial Investigation Division (“FID”) ... (ii) the JFIU ... and (iii) a Risk Assessment Unit (“RAU”) ... these three formations were detached from the NB to form a new FIIB with effect from 1 June 2021", "tc": "i) 財富調查組...ii) 聯合財富情報組...以及iii) 風險評估小組...上述三個單位由2021年6月1日起脫離毒品調查科，成為新的財富情報及調查科。"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m7-222",
+  "verdicts": ["T", "F", "T", "F", "T"],
+  "tc_verdicts": ["T", "F", "T", "F", "T"],
+  "quotes": [
+   {"doc": "03", "locator": "¶7.29", "en": "The record should include details of the date the report was made, the staff members subsequently handling the report, the results of the assessment, whether the internal report resulted in an STR to the JFIU, and information to allow the papers relevant to the report to be located.", "tc": "該紀錄應收錄作出報告日期、其後處理報告的人員、評估結果、內部報告有否導致須向財富情報組提交可疑交易報告，以及報告的相關文件存放何處等詳情。"},
+   {"doc": "03", "locator": "¶7.29", "en": "An MSO must establish and maintain a record of all ML/TF reports made to the MLRO.", "tc": "金錢服務經營者必須建立及保存向洗錢報告主任作出的所有洗錢／恐怖分子資金籌集報告的完整紀錄。"},
+   {"doc": "03", "locator": "¶7.30", "en": "The record should include details of the date of the STR, the person who made the STR, and information to allow the papers relevant to the STR to be located.", "tc": "該紀錄應收錄提交可疑交易報告日期、提交可疑交易報告的人，以及可疑交易報告的相關文件存放何處等詳情。"},
+   {"doc": "03", "locator": "¶7.29", "en": "the results of the assessment, whether the internal report resulted in an STR to the JFIU, and information to allow the papers relevant to the report to be located", "tc": "評估結果、內部報告有否導致須向財富情報組提交可疑交易報告，以及報告的相關文件存放何處等詳情"},
+   {"doc": "03", "locator": "¶7.30", "en": "This register may be combined with the register of internal reports, if considered appropriate.", "tc": "如果認為恰當，這紀錄冊可與內部報告紀錄冊合併處理。"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m7-223",
+  "verdicts": ["T", "F", "T", "T", "F"],
+  "tc_verdicts": ["T", "F", "T", "T", "F"],
+  "quotes": [
+   {"doc": "03", "locator": "¶9.7", "en": "No matter which training approach is adopted, an MSO should monitor and maintain records of who have been trained, when the staff received the training and the type of the training provided.", "tc": "無論使用哪種培訓方法，金錢服務經營者應監察誰人已接受培訓、職員何時接受培訓，以及所提供培訓的類別，並備存紀錄。"},
+   {"doc": "03", "locator": "¶9.7", "en": "Records should be maintained for a minimum of 3 years.", "tc": "紀錄應最少保存3年。"},
+   {"doc": "03", "locator": "¶9.5(a)", "en": "all new staff, irrespective of seniority: (i) an introduction to the background to ML/TF and the importance placed on ML/TF by the MSO; and (ii) the need for identifying and reporting of any suspicious transactions to the MLRO, and the offence of “tipping-off”", "tc": "所有新職員（不論資歷） (i) 洗錢／恐怖分子資金籌集的背景及金錢服務經營者對洗錢／恐怖分子資金籌集問題的重視的簡介；及 (ii) 識別可疑交易及向洗錢報告主任舉報任何可疑交易的必要，以及認識「通風報訊」的罪行"},
+   {"doc": "03", "locator": "¶9.6", "en": "An MSO is encouraged to consider using a mix of training techniques and tools in delivering training ... An MSO may consider including available FATF papers and typologies as part of the training materials. The MSO should be able to demonstrate to the CCE that all materials are up-to-date", "tc": "金錢服務經營者應視乎可運用的資源及職員的培訓需要，考慮在提供培訓時混合使用各種培訓技巧及工具。...金錢服務經營者可考慮使用特別組織的文章及典型案件作為培訓材料。金錢服務經營者應能夠向關長證明所有培訓材料應是最新的"},
+   {"doc": "03", "locator": "¶9.5(c)", "en": "back-office staff, depending on their roles: (i) appropriate training on customer verification and relevant processing procedures; and (ii) how to recognise unusual activities", "tc": "後勤職員（視乎他們的職責）： (i) 客戶核實及相關處理程序的適當培訓，及 (ii) 如何識別不尋常活動"}
+  ],
+  "doubts": ["", "", "", "Modal softening: the source says an MSO 'is encouraged to consider using' a mix (TC 應…考慮, should consider) and 'may consider including' FATF papers; the statement says it 'may use' a mix (TC 可混合使用). Neither text obliges a mix (E26), so 'may' is not contradicted, but a very strict reader might call the modal changed, especially in the Chinese view (應考慮 → 可).", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m7-224",
+  "verdicts": ["T", "T", "F", "T", "F"],
+  "tc_verdicts": ["T", "T", "F", "T", "F"],
+  "quotes": [
+   {"doc": "03", "locator": "¶3.11", "en": "An MSO should establish an independent audit function which should have a direct line of communication to the senior management of the MSO. The function should have sufficient expertise and resources to enable it to carry out its responsibilities", "tc": "金錢服務經營者應設立獨立的審核職能。這職能應能與金錢服務經營者的高級管理層直接溝通。此職能應具備充足的專門知識及資源，讓其履行職責"},
+   {"doc": "03", "locator": "¶3.12(a)–(d)", "en": "(a) adequacy of the MSO’s AML/CFT Systems, ML/TF risk assessment framework and application of RBA; (b) effectiveness of suspicious transaction reporting systems; (c) effectiveness of the compliance function; and (d) level of awareness of staff having AML/CFT responsibilities.", "tc": "(a) 金錢服務經營者的打擊洗錢／恐怖分子資金籌集制度、洗錢／恐怖分子資金籌集風險評估框架及風險為本方法的應用情況是否合適； (b) 報告可疑交易的制度是否有效； (c) 合規職能是否有效；及 (d) 職員對負責打擊洗錢／恐怖分子資金籌集的意識水平。"},
+   {"doc": "03", "locator": "¶3.13", "en": "The frequency and extent of the review should be commensurate with the nature, size and complexity of its business and the ML/TF risks arising from those businesses.", "tc": "覆核的頻密程度及範圍應與金錢服務經營者的業務性質、規模及複雜程度，以及該等業務所產生的洗錢／恐怖分子資金籌集風險相稱。"},
+   {"doc": "03", "locator": "¶3.13", "en": "Where appropriate, the MSO should also seek a review from external parties.", "tc": "在適當情況下，金錢服務經營者亦應尋求外界進行覆核。"},
+   {"doc": "03", "locator": "¶3.11", "en": "an independent audit function which should have a direct line of communication to the senior management of the MSO", "tc": "這職能應能與金錢服務經營者的高級管理層直接溝通"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m6-513",
+  "verdicts": ["T", "T", "F", "T", "F"],
+  "tc_verdicts": ["T", "T", "F", "T", "F"],
+  "quotes": [
+   {"doc": "03", "locator": "¶10.11", "en": "For a domestic wire transfer, an ordering institution may choose not to include the complete required originator information in the wire transfer but only include the originator’s account number or, in the absence of an account, a unique reference number, provided that the number permits traceability of the wire transfer.", "tc": "就本地電傳轉帳，匯款機構可選擇不將全部所需匯款人資料加入電傳轉帳，而僅加入匯款人的戶口號碼或（如沒有此戶口號碼）獨特參考編號，但該號碼必須可用作追蹤有關電傳轉帳。"},
+   {"doc": "03", "locator": "¶10.12", "en": "it must, on the request of the institution to which it passes on the transfer instruction or the CCE, provide complete required originator information within 3 business days after the request is received", "tc": "則須在收取它的轉帳指示的機構或關長的要求下，在接獲該要求後的3個營業日內，提供全部所需匯款人資料"},
+   {"doc": "03", "locator": "¶10.12", "en": "on the request of the institution to which it passes on the transfer instruction or the CCE, provide complete required originator information within 3 business days after the request is received", "tc": "在收取它的轉帳指示的機構或關長的要求下，在接獲該要求後的3個營業日內，提供全部所需匯款人資料"},
+   {"doc": "03", "locator": "¶10.12", "en": "In addition, such information should be made available to law enforcement agencies immediately upon request.", "tc": "此外，該等資料亦需按執法機構要求立即提供。"},
+   {"doc": "03", "locator": "¶10.11", "en": "For a domestic wire transfer, an ordering institution may choose not to include the complete required originator information", "tc": "就本地電傳轉帳，匯款機構可選擇不將全部所需匯款人資料加入電傳轉帳"}
+  ],
+  "doubts": ["The statement drops the qualifier 'in the absence of an account' (TC 如沒有此戶口號碼) before 'a unique reference number', so it reads as a free choice between account number and reference number. I read it as a faithful summary of ¶10.11 and rule it true, but a strict reader could call the dropped condition a qualifier defect. Same for the Chinese statement.", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m6-514",
+  "verdicts": ["T", "F", "T", "T", "F"],
+  "tc_verdicts": ["T", "F", "T", "T", "F"],
+  "quotes": [
+   {"doc": "03", "locator": "¶4.2.6", "en": "When a cash transaction involving an amount equal to or exceeding $120,000 is undertaken by a person whose name does not appear on the mandate of an account, an MSO should ask for the person’s identity document and retain a copy to facilitate its ongoing monitoring.", "tc": "如某人進行的現金交易總值涉及相等於120,000元或以上，而該人的姓名不在帳戶委託書上，金錢服務經營者應要求該人提供身分證明文件，並將該等文件的副本存檔，以便持續監察。"},
+   {"doc": "03", "locator": "¶4.2.6", "en": "When a cash transaction involving an amount equal to or exceeding $120,000 is undertaken by a person whose name does not appear on the mandate of an account", "tc": "如某人進行的現金交易總值涉及相等於120,000元或以上，而該人的姓名不在帳戶委託書上"},
+   {"doc": "03", "locator": "¶4.2.4", "en": "An MSO should be vigilant to the possibility that a series of linked occasional transactions could meet or exceed the CDD thresholds of $8,000 (for wire transfers or virtual asset transfers involving virtual assets) and $120,000 (for other types of transactions).", "tc": "金錢服務經營者應提高警覺，留意一連串有關連的非經常交易達至或超越（電傳轉帳或涉及虛擬資產的虛擬資產轉帳的）8,000元的盡職審查門檻和（其他各類交易的）120,000元門檻的可能性。"},
+   {"doc": "03", "locator": "footnote 15 (to ¶4.2.1(c))", "en": "This criterion applies irrespective of the $120,000 or $8,000 threshold applicable to occasional transactions set out in paragraph [4.2.1(b)].", "tc": "即使低於第[4.2.1(b)]段載列適用於非經常交易訂於120,000元或8,000元的門檻，此準則仍然適用。"},
+   {"doc": "03", "locator": "¶4.2.6", "en": "Cash transactions may be made by third parties other than the customer. ... undertaken by a person whose name does not appear on the mandate of an account", "tc": "現金交易可能由客戶以外的第三方進行...而該人的姓名不在帳戶委託書上"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m6-516",
+  "verdicts": ["T", "F", "T", "T", "F"],
+  "tc_verdicts": ["T", "F", "T", "T", "F"],
+  "quotes": [
+   {"doc": "03", "locator": "¶5.3", "en": "All customers that present high ML/TF risks should be subject to a minimum of an annual review, or more frequent reviews if deemed necessary by the MSO, to ensure the CDD information retained remains up-to-date and relevant.", "tc": "金錢服務經營者最低限度應每年對所有可引致洗錢／恐怖分子資金籌集高度風險的客戶進行一次覆核，並在認為有需要時對有關客戶進行更頻密的覆核，以確保盡職審查資料反映現況及仍屬相關的。"},
+   {"doc": "03", "locator": "¶5.3", "en": "All customers that present high ML/TF risks should be subject to a minimum of an annual review", "tc": "金錢服務經營者最低限度應每年對所有可引致洗錢／恐怖分子資金籌集高度風險的客戶進行一次覆核"},
+   {"doc": "03", "locator": "¶4.12.1", "en": "pre-existing customers (with whom the business relationship was established before the AMLO came into effect on 1 April 2012)", "tc": "先前客戶（於2012年4月1日打擊洗錢條例生效前與之建立業務關係的客戶）"},
+   {"doc": "03", "locator": "¶4.12.1(b)–(c)", "en": "An MSO must perform the CDD measures ... in respect of pre-existing customers ... when: ... (b) a material change occurs in the way in which the customer’s account is operated; (c) the MSO suspects that the customer or the customer’s account is involved in ML/TF", "tc": "當有以下情況，金錢服務經營者必須對先前客戶...執行附表2及本指引所指明的盡職審查措施：...(b) 該客戶的戶口的操作模式出現相當程度的轉變； (c) 金錢服務經營者懷疑該客戶或該客戶的戶口涉及洗錢／恐怖分子資金籌集"},
+   {"doc": "03", "locator": "¶4.12.1(a)–(d)", "en": "An MSO must perform the CDD measures prescribed in Schedule 2 and this Guideline in respect of pre-existing customers ... when: (a) a transaction takes place ... (b) a material change occurs ... (c) the MSO suspects ... or (d) the MSO doubts the veracity or adequacy", "tc": "當有以下情況，金錢服務經營者必須對先前客戶...執行附表2及本指引所指明的盡職審查措施： (a) 有關乎該客戶的交易發生...(b)...(c)...或 (d) 金錢服務經營者懷疑過往...取得的資料是否真實或充分"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m6-517",
+  "verdicts": ["T", "T", "F", "T", "F"],
+  "tc_verdicts": ["T", "T", "F", "T", "F"],
+  "quotes": [
+   {"doc": "03", "locator": "¶6.16(a)–(b)", "en": "(a) screening its customers and any beneficial owners of the customers against current database at the establishment of the relationship; (b) screening its customers and any beneficial owners of the customers against all new and any updated designations to the database as soon as practicable", "tc": "(a) 在建立關係當時，根據當時的數據庫對客戶及該等客戶的任何實益擁有人進行篩查； (b) 在切實可行範圍內盡快根據數據庫內所有新增及任何更新的指認對客戶及該等客戶的任何實益擁有人進行篩查"},
+   {"doc": "03", "locator": "¶6.16(c)", "en": "screening all relevant parties in a cross-border / cross-boundary wire transfer (including remittance transaction) against current database before executing the transfer", "tc": "在執行跨境電傳轉帳（包括匯款交易）前根據當時的數據庫對相關各方進行篩查"},
+   {"doc": "03", "locator": "footnote 58 (to ¶6.16)", "en": "Screening should be carried out irrespective of the risk profile attributed to the customer.", "tc": "不論客戶的風險狀況為何均應篩查。"},
+   {"doc": "06", "locator": "A24", "en": "An MSO should, at a minimum, screen the following relevant parties in cross border / cross boundary wire transfer and remittance transaction: (a) originator; (b) recipient; (c) ordering institution; (d) intermediary institution; (e) beneficiary institution; and (f) named parties (e.g., individuals, companies, banks etc) in the payment message.", "tc": "在跨境電傳轉帳或匯款交易中，金錢服務經營者最低限度應篩查以下相關各方： (a) 匯款人； (b) 收款人； (c) 匯款機構； (d) 中介機構； (e) 收款機構；及 (f) 撥付訊息中被具名的人士（例如個人、公司、銀行等）。"},
+   {"doc": "06", "locator": "A24", "en": "(c) ordering institution; (d) intermediary institution; (e) beneficiary institution", "tc": "(c) 匯款機構； (d) 中介機構； (e) 收款機構"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m6-518",
+  "verdicts": ["T", "F", "T", "F", "T"],
+  "tc_verdicts": ["T", "F", "T", "F", "T"],
+  "quotes": [
+   {"doc": "03", "locator": "¶4.3.2", "en": "an MSO should identify the customer by obtaining at least the following identification information: (a) full name; (b) date of birth; (c) nationality; and (d) unique identification number (e.g. identity card number or passport number) and document type.", "tc": "金錢服務經營者最低限度應收集以下識別資料以識別該客戶： (a) 全名； (b) 出生日期； (c) 國籍；及 (d) 獨特識別號碼（例如身份證或護照號碼）及文件的類別。"},
+   {"doc": "03", "locator": "¶4.3.2", "en": "at least the following identification information: (a) full name; (b) date of birth; (c) nationality; and (d) unique identification number (e.g. identity card number or passport number) and document type", "tc": "最低限度應收集以下識別資料以識別該客戶： (a) 全名； (b) 出生日期； (c) 國籍；及 (d) 獨特識別號碼（例如身份證或護照號碼）及文件的類別"},
+   {"doc": "03", "locator": "¶4.3.3", "en": "an MSO should verify the name, date of birth, unique identification number and document type of the customer by reference to documents, data or information provided by a reliable and independent source, examples of which include: (a) Hong Kong identity card or other national identity card; (b) valid travel document (e.g. unexpired passport)", "tc": "應根據可靠及獨立來源所提供的文件、數據或資料，核實該客戶的姓名、出生日期、獨特識別號碼及文件的類別，例如： (a) 香港身份證或其他國家的身份證； (b) 有效的旅遊證件（例如未過期的護照）"},
+   {"doc": "03", "locator": "¶4.3.4", "en": "In exceptional circumstances where an MSO is unable to obtain an identification document with a photograph, the MSO may accept an identification document without a photograph if the associated risks have been properly assessed and mitigated.", "tc": "如因情況特殊以致金錢服務經營者未能取得載有照片的身分證明文件，金錢服務經營者經妥善評估和減低所涉及的風險後，可以接納沒有照片的身分證明文件。"},
+   {"doc": "03", "locator": "¶4.3.5", "en": "An MSO should obtain the residential address information of a customer that is a natural person", "tc": "金錢服務經營者應向屬自然人的客戶索取住址資料"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""]
+ },
+ {
+  "id": "m6-519",
+  "verdicts": ["T", "F", "F", "T", "T"],
+  "tc_verdicts": ["T", "T", "F", "T", "T"],
+  "quotes": [
+   {"doc": "03", "locator": "¶11.6 (= AMLO Sch. 2 s.13(2)(c))", "en": "Before carrying out a remittance transaction, other than a wire transfer, of $8,000 or above or of an equivalent amount in any other currency, an MSO is required to record (a) the originator’s name; ... (c) the originator’s address; (d) the currency and amount involved; and (e) the date and time of receipt of the instruction", "tc": "在進行涉及8,000元或以上的款額（或折算為任何其他貨幣的相同款額）的匯款交易之前，而該項交易並非電傳轉帳，金錢服務經營者須記錄 (a) 匯款人的姓名；...(c) 匯款人的地址；(d) 所涉的貨幣及款額；及(e) 接獲指示的日期及時間"},
+   {"doc": "03", "locator": "¶11.6 (= AMLO Sch. 2 s.13(1))", "en": "Before carrying out a remittance transaction, other than a wire transfer, of $8,000 or above or of an equivalent amount in any other currency, an MSO is required to record", "tc": "在進行涉及8,000元或以上的款額（或折算為任何其他貨幣的相同款額）的匯款交易之前，而該項交易並非電傳轉帳，金錢服務經營者須記錄"},
+   {"doc": "03", "locator": "¶11.6(b) and (e) (= Sch. 2 s.13(2)(c)(ii), (v))", "en": "(b) the originator’s identification document number ... (e) the date and time of receipt of the instruction, the recipient’s name and address and the method of delivery", "tc": "(b) 匯款人的識別文件的號碼...(e) 接獲指示的日期及時間、收款人的姓名及地址，以及送遞的方式"},
+   {"doc": "03", "locator": "¶11.6(b) (= Sch. 2 s.13(2)(c)(ii))", "en": "(b) the originator’s identification document number and, if the originator’s identification document is a travel document, the place of issue of the travel document", "tc": "(b) 匯款人的識別文件的號碼，以及（如匯款人的識別文件是旅行證件）發出旅行證件的地方"},
+   {"doc": "03", "locator": "¶11.6, last sentence", "en": "An MSO should be able to justify that they have taken steps in accordance with Chapter 8 to keep the record of the originator and the related transaction with a view to making this information available to the CCE should the need arise.", "tc": "金錢服務經營者應能證明已按照第8章的規定採取步驟保存匯款人的紀錄及相關交易的資料，以便有需要時向海關關長提供該等資料。"}
+  ],
+  "doubts": ["", "English: 'applies only to ... $120,000 or above' narrows the $8,000 duty, so false. Chinese: the statement has no 只/僅 ('記錄責任適用於120,000元或以上...的匯款交易'); under the FORMAT.md number rule a duty stated for $120,000 or above is implied by a source that sets it at $8,000 or above, so read strictly the Chinese statement is true. A candidate reading 適用於120,000元或以上 as stating the threshold would call it false; the verdict depends on whether 只/僅 is added.", "", "", ""],
+  "tc_mismatch": ["", "The Chinese drops the English 'only' (只/僅). The English claims the duty is confined to $120,000-or-above remittances (false); the Chinese merely says the duty applies to such remittances, which the source implies (true under FORMAT.md). Add 只／僅 to the Chinese to make the two statements the same claim.", "", "", ""]
+ }
+]

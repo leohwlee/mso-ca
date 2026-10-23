@@ -1,0 +1,558 @@
+{
+ "instructions": "Independently judge every statement against the cited local source in each language. Do not read keys, notes, patches or the bank. Return id, verdicts, tc_verdicts (T/F arrays), quotes (one deciding source excerpt per statement), doubts and tc_mismatch (empty strings when none). A language=en quote for doc24 is an English original supporting a clearly labelled Chinese study translation.",
+ "items": [
+  {
+   "id": "m4-417",
+   "module": 4,
+   "source": {
+    "en": "Guidance Notes on the Competence Assessment (Dec 2022) ¶4.5 and ¶12.1–12.4",
+    "tc": "《能力評核須知》（2022年12月）第4.5及12.1至12.4段"
+   },
+   "en": {
+    "q": "According to the Guidance Notes on the Competence Assessment, which of the following are correct about results, re-checking and re-taking the Assessment?",
+    "statements": [
+     "Candidates are notified of the Assessment result, PASS or FAIL, by e-mail only, within 14 days after the Assessment, and should keep the notification.",
+     "A candidate who is not satisfied with the result may write for re-checking of the Assessment papers within 14 days after the date of issuance of the result notification.",
+     "The re-checking result is sent in writing within 14 days after receipt of the request, and the answer sheet is re-checked for technical errors such as incorrect mark entries.",
+     "On re-checking, the C&ED will disclose the candidate's exact score to the candidate, although not the Assessment questions or the correct answers.",
+     "For granting a licence, an eligible person who fails may be arranged to re-take the Assessment after 30 days upon the notification of result."
+    ]
+   },
+   "tc": {
+    "q": "根據《能力評核須知》，以下有關成績通知、覆檢及再次應考的陳述，哪些正確？",
+    "statements": [
+     "能力評核結果（合格或不合格）會在考試結束後14日內僅以電郵方式通知應考者。",
+     "應考者如對成績不滿，可在發出成績通知當日起計14日內，以書面要求覆檢能力評核試卷。",
+     "覆檢結果會在接獲覆檢要求日期起計14日內以書面發出，覆檢時會留意輸入分數出錯等技術錯誤。",
+     "覆檢時，海關會披露應考者的實際分數，但不會披露能力評核的試題或正確答案。",
+     "就批給牌照而言，未能合格的合資格人士可於成績通知發出當日起計30日後再次應考能力評核。"
+    ]
+   }
+  },
+  {
+   "id": "m4-418",
+   "module": 4,
+   "source": {
+    "en": "Guidance Notes on the Competence Assessment (Dec 2022) ¶4.2–4.4",
+    "tc": "《能力評核須知》（2022年12月）第4.2至4.4段"
+   },
+   "en": {
+    "q": "According to the Guidance Notes on the Competence Assessment, which of the following are correct about nominating eligible persons for the Assessment?",
+    "statements": [
+     "Where the licence applicant or licensee is a partnership, not more than THREE partners can be nominated to participate in the Assessment.",
+     "Where the licence applicant or licensee is a corporation, up to FIVE individual directors who are natural persons can be nominated to participate in the Assessment.",
+     "Because the Assessment is conducted on a company basis, the candidates of the same company under an application or licence must attend the same session in all circumstances.",
+     "A licensee may nominate eligible persons within 90 days before the expiry of the licence where it has no eligible person who has passed the Assessment.",
+     "A licensee may nominate further eligible persons at any time it wishes to add a passed eligible person, in addition to the circumstances listed in the Guidance Notes."
+    ]
+   },
+   "tc": {
+    "q": "根據《能力評核須知》，以下有關提名合資格人士應考能力評核的陳述，哪些正確？",
+    "statements": [
+     "如牌照申請人或持牌人是合夥，不得提名超過三名合夥人應考能力評核，不論合夥人數目。",
+     "如牌照申請人或持牌人是法團，可提名最多五名屬自然人的個別董事參與應考能力評核。",
+     "由於能力評核以公司為單位進行，同屬一所公司的應考者在任何情況下均必須應考同一時段的能力評核。",
+     "持牌人在牌照有效期屆滿前90日內，如已沒有合資格人士在能力評核取得合格成績，可提名合資格人士應考。",
+     "除須知所列的情況外，持牌人可在任何想增加合格合資格人士的時候，另行提名合資格人士應考。"
+    ]
+   }
+  },
+  {
+   "id": "m4-419",
+   "module": 4,
+   "source": {
+    "en": "Money Changers Ordinance, Cap. 34, ss.4(8), 4(11), 5 and 6(6)–(7)",
+    "tc": "《貨幣兌換商條例》（第34章）第4(8)、4(11)、5及6(6)至(7)條"
+   },
+   "en": {
+    "q": "Regarding the periods, units and penalties in the Money Changers Ordinance, Cap. 34, which of the following are correct?",
+    "statements": [
+     "A money changer shall retain the duplicate copy of a completed transaction note for not less than 12 months and produce it for inspection on demand by a police officer.",
+     "Where a money changer contravenes section 4 in respect of an exchange transaction, the other party may rescind the transaction within 7 days after the date of the transaction.",
+     "A money changer may display a net rate of exchange in multiple units of 10 or 100 units of foreign currency with a corresponding adjustment to the Hong Kong dollar figure.",
+     "A money changer who contravenes section 4 is liable to a fine at level 1 for a first offence, and to a fine at level 2 and 6 months' imprisonment for a later offence.",
+     "A money changer who contravenes section 6 on displaying rates of exchange is liable to a fine at level 1 only, with no term of imprisonment attached."
+    ]
+   },
+   "tc": {
+    "q": "關於《貨幣兌換商條例》（第34章）所訂的期限、單位及罰則，下列哪些陳述正確？",
+    "statements": [
+     "貨幣兌換商須將填妥的交易單據複本保留至少12個月，並須在警務人員提出要求時出示以供查閱。",
+     "貨幣兌換商在某宗兌換交易中違反第4條，交易的另一方可在交易日期後7天內撤銷該宗交易。",
+     "貨幣兌換商可展示以外幣10單位或100單位的倍數計算的淨匯率，以及經相應調整的港元數字。",
+     "貨幣兌換商違反第4條，第一次定罪可處第1級罰款，第二次或其後定罪可處第2級罰款及監禁6個月。",
+     "貨幣兌換商違反第6條有關展示匯率的規定，只可處第1級罰款，而不會被判處監禁。"
+    ]
+   }
+  },
+  {
+   "id": "m4-420",
+   "module": 4,
+   "source": {
+    "en": "Licensing Guide (May 2026) ¶5.1, ¶6.3 and ¶16.1",
+    "tc": "《牌照指引》（2026年5月）第5.1、6.3及16.1條"
+   },
+   "en": {
+    "q": "According to the Licensing Guide, which of the following are correct about the photographs and supporting documents for a licence application?",
+    "statements": [
+     "For a new application to operate a money service at particular premises, at least two photographs of size 102x152 mm, that is 4R size, should be attached to the application form.",
+     "The photographs of the particular premises attached to the application form must be of size 127x178 mm, that is 5R size, not 4R size.",
+     "One photograph should show the inner part, such as the counter or office, and another the outer part, such as the signboard, of the particular premises.",
+     "Where the applicant has separate premises serving as the local place of storage or local management office, at least two photographs should also be attached for each of them.",
+     "The supporting documents, stamped with the applicant's company chop, are submitted together with the application form to the Companies Registry."
+    ]
+   },
+   "tc": {
+    "q": "根據《牌照指引》，以下有關牌照申請的照片及證明文件的陳述，哪些正確？",
+    "statements": [
+     "如屬在特定處所經營金錢服務的新申請，申請書應夾附最少兩張尺寸為102x152毫米（即4R尺寸）的照片。",
+     "夾附於申請書的特定處所照片，尺寸必須為127x178毫米（即5R尺寸），而非4R尺寸。",
+     "其中一張照片應顯示特定處所的內部（例如櫃枱或辦事處），而另一張應顯示外部（例如招牌）。",
+     "如申請人以另外的處所作為本地儲存帳目及紀錄的地點或本地管理辦事處，亦應就每一個該等處所分別夾附最少兩張照片。",
+     "證明文件須蓋上申請人的公司印章，連同填妥的申請表格及附件一併遞交公司註冊處。"
+    ]
+   }
+  },
+  {
+   "id": "m4-421",
+   "module": 4,
+   "source": {
+    "en": "Disciplinary Action Guideline on Imposition of Pecuniary Penalty (Apr 2018) ¶1–4; Disciplinary Fining Guideline (May 2018) ¶1–3",
+    "tc": "《施加罰款紀律行動指引》（2018年4月）第1至4段；《紀律處分罰款指引》（2018年5月）第1至3段"
+   },
+   "en": {
+    "q": "Regarding the two C&ED guidelines on pecuniary penalties for money service operators, which of the following are correct?",
+    "statements": [
+     "The Disciplinary Action Guideline on Imposition of Pecuniary Penalty is published under section 45(1) of the AMLO and concerns the power in section 43(2)(c).",
+     "The Disciplinary Fining Guideline is also published under section 45(1) of the AMLO and concerns the penalty power in section 43(2)(c).",
+     "The Disciplinary Fining Guideline concerns penalties on an MSO that contravenes a specified provision as defined by section 5(11) of the AMLO.",
+     "Under both guidelines, as a matter of policy the CCE will usually publicise all his decisions to impose a pecuniary penalty on an MSO.",
+     "Under the Disciplinary Fining Guideline, the CCE's fining power extends to a breach of any condition attached to the licensee's licence."
+    ]
+   },
+   "tc": {
+    "q": "關於海關就金錢服務經營者罰款發出的兩份指引，下列哪些陳述正確？",
+    "statements": [
+     "《施加罰款紀律行動指引》根據《打擊洗錢條例》第45(1)條公布，關乎第43(2)(c)條授予關長的罰款權力。",
+     "《紀律處分罰款指引》同樣根據《打擊洗錢條例》第45(1)條公布，關乎第43(2)(c)條的罰款權力。",
+     "《紀律處分罰款指引》關乎對違反《打擊洗錢條例》第5(11)條所界定的指明的條文的金錢服務經營者施加罰款。",
+     "根據兩份指引，按照目前的政策，關長通常會公布所有向金錢服務經營者施加罰款的決定。",
+     "根據《紀律處分罰款指引》，關長的罰款權力延伸至持牌人違反其牌照所附任何條件的情況。"
+    ]
+   }
+  },
+  {
+   "id": "m5-140",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶2.9–2.10",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第2.9至2.10段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about keeping the institutional ML/TF risk assessment up to date?",
+    "statements": [
+     "An MSO should conduct its institutional ML/TF risk assessment every two years and upon trigger events which are material to its business and risk exposure.",
+     "The results of the review of the institutional risk assessment should be documented and approved by the MSO's Money Laundering Reporting Officer.",
+     "Trigger events may include a significant breach of the AML/CFT Systems, the acquisition of new customer segments or delivery channels, or the launch of new products.",
+     "An MSO should keep records of the institutional risk assessment, including the risk factors identified and assessed and the information sources taken into account.",
+     "Once documented, the institutional ML/TF risk assessment need only be repeated every three years, unless a material trigger event occurs in the meantime."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關確保機構層面洗錢／恐怖分子資金籌集風險評估反映現況的陳述，哪些正確？",
+    "statements": [
+     "金錢服務經營者應每兩年進行一次機構層面的風險評估，並在會顯著影響其業務及所面對風險的觸發事件發生後覆核評估。",
+     "機構層面風險評估的覆核結果應記錄在案，並由金錢服務經營者的洗錢報告主任審批。",
+     "觸發事件可包括嚴重違反打擊洗錢／恐怖分子資金籌集制度、收購新的客戶類別或交付渠道，或推出新的產品及服務。",
+     "金錢服務經營者應備存機構層面風險評估的紀錄，包括所識別及評估的風險因素及所考慮的資料來源。",
+     "機構層面的風險評估一經記錄在案，除非有重大觸發事件發生，否則只需每三年重新進行一次。"
+    ]
+   }
+  },
+  {
+   "id": "m5-141",
+   "module": 5,
+   "source": {
+    "en": "Guidelines for Submission of Business Plan (Ver 12-2019), preamble and items 1, 8 and 9",
+    "tc": "《遞交業務計劃的指引》（12-2019版）前言及第1、8及9項"
+   },
+   "en": {
+    "q": "According to the Guidelines for Submission of Business Plan, which of the following are correct about the information an applicant must provide?",
+    "statements": [
+     "The applicant should provide the expected profit margin and turnover for each type of product and service for the next two years, and the running capital for daily operation.",
+     "The applicant should provide the account number and the owner of any bank account used for the business, and no third party bank account is allowed.",
+     "An applicant that considers it has no need to open a bank account for the business may simply state so in the business plan without further explanation.",
+     "The applicant must confirm in writing in the business plan that any change in the particulars provided to the Commissioner will be notified in writing within one month.",
+     "The business plan need not mention the business logo or the trademark that the applicant will use to promote the money service business."
+    ]
+   },
+   "tc": {
+    "q": "根據《遞交業務計劃的指引》，以下有關申請人須提供的資料的陳述，哪些正確？",
+    "statements": [
+     "申請人應就未來兩年每類產品及服務的預計利潤幅度和營業額，以及業務日常運作的營運資本提供資料。",
+     "申請人應提供用以經營業務的銀行戶口的帳戶號碼及擁有人，且不得使用第三方銀行戶口。",
+     "申請人如認為無需開設銀行戶口，只需在業務計劃內說明此點，而無需進一步解釋。",
+     "申請人須在業務計劃內藉書面確認，提供予關長的詳情如有改變，會在自改變發生之日起計的一個月內藉書面具報。",
+     "業務計劃無需提及申請人將用作推廣其金錢服務業務的業務標誌或商標等有關資料。"
+    ]
+   }
+  },
+  {
+   "id": "m5-142",
+   "module": 5,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.5, ¶3.7–3.9 and footnote 9",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第3.5、3.7至3.9段及註9"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about the Compliance Officer and the Money Laundering Reporting Officer of an MSO?",
+    "statements": [
+     "Compliance management arrangements should, at a minimum, include oversight by senior management and the appointment of a Compliance Officer and a Money Laundering Reporting Officer.",
+     "Senior management should appoint a CO at management level with overall responsibility for the AML/CFT Systems, and a senior staff member as MLRO and central reference point for STRs.",
+     "The Compliance Officer and the Money Laundering Reporting Officer must always be two different persons, whatever the size of the MSO and its business.",
+     "Senior management should, as far as practicable, ensure that the CO and MLRO are normally based in Hong Kong and of a sufficient level of seniority and authority within the MSO.",
+     "It is the MLRO, rather than the CO, who is responsible for developing and continuously reviewing the MSO's AML/CFT Systems to keep them up to date."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關金錢服務經營者的合規主任及洗錢報告主任的陳述，哪些正確？",
+    "statements": [
+     "合規管理安排最低限度應包括由高級管理層監督，以及委任一名合規主任及一名洗錢報告主任。",
+     "高級管理層應委任一名屬管理層的合規主任全面負責打擊洗錢制度，並委任一名高級職員擔任洗錢報告主任。",
+     "不論金錢服務經營者的規模及業務如何，合規主任及洗錢報告主任必須由兩名不同的人分別擔任。",
+     "高級管理層應在切實可行的範圍內，確保合規主任及洗錢報告主任通常長駐香港，並在該經營者具有一定的資歷及權力。",
+     "負責制訂及持續覆核金錢服務經營者打擊洗錢制度並確保其反映現況的是洗錢報告主任，而非合規主任。"
+    ]
+   }
+  },
+  {
+   "id": "m7-221",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.23 and footnote 65; HK ML/TF Risk Assessment Report (2022) ¶3.38",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第7.23段及註65；《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第3.38段"
+   },
+   "en": {
+    "q": "Regarding the JFIU's quarterly report and the JFIU itself, which of the following are correct?",
+    "statements": [
+     "An MSO should ensure its STRs are of high quality, taking into account the feedback and guidance in the JFIU's quarterly report and from the CCE from time to time.",
+     "The quarterly report consists of two parts, an analysis of STRs and matters of interest and feedback, and is available at a secure area of the JFIU's website.",
+     "The quarterly report on suspicious transaction reporting is published by the Commissioner of Customs and Excise rather than by the JFIU.",
+     "The JFIU is the dedicated unit jointly operated by the Hong Kong Police Force and the C&ED to receive, analyse and disseminate STRs filed with it.",
+     "The quarterly report is relevant only to the money service sector and does not address the other financial sectors that file STRs."
+    ]
+   },
+   "tc": {
+    "q": "關於財富情報組的季度報告及財富情報組本身，下列哪些陳述正確？",
+    "statements": [
+     "金錢服務經營者應留意財富情報組在季度報告及關長不時提供的反饋意見及導引，以確保其可疑交易報告屬高水平。",
+     "季度報告分為兩個部分，即可疑交易報告的分析，以及注意事項及反饋意見，並可於財富情報組網站的限制區查閱。",
+     "有關可疑交易報告的季度報告是由海關關長而非財富情報組發布，關長並據此提供反饋意見。",
+     "聯合財富情報組由警務處和海關的人員組成，專責接收、分析及發布向其提交的可疑交易報告。",
+     "季度報告只與金錢服務業有關，並不涉及銀行等其他同樣須提交可疑交易報告的金融業界。"
+    ]
+   }
+  },
+  {
+   "id": "m7-222",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶7.29–7.30",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第7.29至7.30段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about the records an MSO keeps of internal ML/TF reports and of STRs made to the JFIU?",
+    "statements": [
+     "The record of ML/TF reports made to the MLRO should include the date of the report, the staff subsequently handling it, the assessment results and whether an STR followed.",
+     "Keeping a record of all ML/TF reports made to the MLRO is recommended but optional, since only STRs actually filed with the JFIU must be recorded.",
+     "The record of STRs made to the JFIU should include the date of the STR, the person who made it and information to allow the papers relevant to it to be located.",
+     "The record of STRs made to the JFIU must also state the amount involved in each transaction reported and the JFIU's acknowledgement reference.",
+     "The register of STRs made to the JFIU may be combined with the register of internal reports made to the MLRO, if considered appropriate."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關金錢服務經營者就內部洗錢報告及向財富情報組提交的可疑交易報告所保存紀錄的陳述，哪些正確？",
+    "statements": [
+     "向洗錢報告主任作出的洗錢報告紀錄，應收錄報告日期、其後處理的人員、評估結果及有否導致提交可疑交易報告。",
+     "保存向洗錢報告主任作出的所有洗錢報告的紀錄只屬建議而非強制，因為只有實際向財富情報組提交的報告才須記錄。",
+     "向財富情報組提交的可疑交易報告的紀錄，應收錄提交報告日期、提交報告的人，以及相關文件存放何處等詳情。",
+     "向財富情報組提交的可疑交易報告的紀錄，亦必須載明每宗交易所涉款額及財富情報組的確認收件編號。",
+     "如果認為恰當，向財富情報組提交的可疑交易報告紀錄冊可與向洗錢報告主任作出的內部報告紀錄冊合併處理。"
+    ]
+   }
+  },
+  {
+   "id": "m7-223",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶9.5–9.7",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第9.5至9.7段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about staff training and training records?",
+    "statements": [
+     "Whatever training approach is adopted, an MSO should monitor and keep records of who has been trained, when the staff received the training and the type of training provided.",
+     "Training records should be kept for a minimum of 7 years, the same period for which an MSO keeps its transaction records under the AMLO.",
+     "All new staff, irrespective of seniority, should get an introduction to the background to ML/TF, the need to report suspicious transactions to the MLRO and tipping-off.",
+     "An MSO may use a mix of training techniques, may include FATF papers and typologies in its materials, and should be able to show the CCE that the materials are up to date.",
+     "Back-office staff need no AML/CFT training, since the training programme in the Guideline is directed at staff who deal directly with the public."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關職員培訓及培訓紀錄的陳述，哪些正確？",
+    "statements": [
+     "無論使用哪種培訓方法，金錢服務經營者應監察誰人已接受培訓、職員何時接受培訓以及培訓的類別，並備存紀錄。",
+     "培訓紀錄應最少保存7年，與金錢服務經營者根據打擊洗錢條例保存交易紀錄的期限相同。",
+     "所有新職員不論資歷，均應獲簡介洗錢／恐怖分子資金籌集的背景、向洗錢報告主任舉報的必要及「通風報訊」的罪行。",
+     "金錢服務經營者可混合使用各種培訓技巧，可把特別組織的文章納入培訓材料，並應能向關長證明材料是最新的。",
+     "後勤職員無需接受打擊洗錢培訓，因為指引的培訓計劃只針對與公眾有直接接觸的前線職員。"
+    ]
+   }
+  },
+  {
+   "id": "m7-224",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶3.11–3.13",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第3.11至3.13段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about an MSO's independent audit function?",
+    "statements": [
+     "An MSO should establish an independent audit function with a direct line of communication to senior management and sufficient expertise and resources for its work.",
+     "The audit function's regular review should cover the adequacy of the AML/CFT Systems, the effectiveness of STR systems and the compliance function, and staff awareness.",
+     "The Guideline fixes the audit function's review of the AML/CFT Systems at once every calendar year for every MSO, regardless of its size or risk.",
+     "Where appropriate, the MSO should also seek a review of its AML/CFT Systems from external parties in addition to its own independent audit function.",
+     "The independent audit function reports to the Compliance Officer, who decides which of its findings are passed on to the MSO's senior management."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關金錢服務經營者獨立審核職能的陳述，哪些正確？",
+    "statements": [
+     "金錢服務經營者應設立獨立的審核職能，該職能應能與高級管理層直接溝通，並具備充足的專門知識及資源以履行職責。",
+     "審核職能的定期覆核範圍應包括打擊洗錢制度是否合適、報告可疑交易制度及合規職能是否有效，以及職員的意識水平。",
+     "指引把每名金錢服務經營者對打擊洗錢制度的審核覆核，一律定為每個公曆年進行一次，不論規模或風險。",
+     "在適當情況下，金錢服務經營者除本身的獨立審核職能外，亦應尋求外界對其打擊洗錢制度進行覆核。",
+     "獨立審核職能向合規主任匯報，由合規主任決定哪些審核結果可提交金錢服務經營者的高級管理層。"
+    ]
+   }
+  },
+  {
+   "id": "m6-513",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶10.11–10.12",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第10.11至10.12段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about originator information that an ordering institution chooses not to include in a wire transfer?",
+    "statements": [
+     "For a domestic wire transfer, an ordering institution may include only the originator's account number or a unique reference number, provided it permits traceability.",
+     "An ordering institution that omits complete originator information must provide it within 3 business days after a request from the receiving institution or the CCE.",
+     "The complete originator information must be provided within 3 business days after the wire transfer is sent, whether or not any request for it is received.",
+     "Such information should be made available to law enforcement agencies immediately upon request, without waiting for the 3 business days allowed to other requesters.",
+     "The option to omit complete originator information applies equally to cross-border wire transfers, provided the account or reference number permits traceability."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關匯款機構選擇不加入電傳轉帳的匯款人資料的陳述，哪些正確？",
+    "statements": [
+     "就本地電傳轉帳，匯款機構可僅加入匯款人的戶口號碼或獨特參考編號，但該號碼必須可用作追蹤有關電傳轉帳。",
+     "選擇不加入全部所需匯款人資料的匯款機構，須在接獲收取其轉帳指示的機構或關長的要求後的3個營業日內提供該等資料。",
+     "不論有否接獲任何要求，全部所需匯款人資料均須在電傳轉帳發出後的3個營業日內主動提供。",
+     "該等資料亦需按執法機構要求立即提供，不能等待向其他要求者提供資料的3個營業日期限。",
+     "只要戶口號碼或參考編號可用作追蹤，不加入全部所需匯款人資料的選擇同樣適用於跨境電傳轉帳。"
+    ]
+   }
+  },
+  {
+   "id": "m6-514",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.2.4, ¶4.2.6 and footnote 15",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.2.4、4.2.6段及註15"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about the amount thresholds for occasional transactions and third-party cash transactions?",
+    "statements": [
+     "When a person not named on an account's mandate undertakes a cash transaction of $120,000 or more, the MSO should ask for that person's identity document and retain a copy.",
+     "The third-party cash transaction rule in the Guideline applies once the cash involved reaches $8,000, the same threshold as applies to a wire transfer.",
+     "An MSO should be vigilant that linked occasional transactions could meet or exceed the $8,000 threshold for wire or virtual asset transfers and the $120,000 threshold for others.",
+     "The suspicion of ML/TF criterion for carrying out CDD applies irrespective of the $120,000 or $8,000 thresholds that apply to occasional transactions.",
+     "The third-party cash transaction rule in ¶4.2.6 is directed at large cash deposits made personally by the account holder whose name is on the mandate."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關非經常交易及第三方現金交易款額門檻的陳述，哪些正確？",
+    "statements": [
+     "姓名不在帳戶委託書上的人進行相等於120,000元或以上的現金交易時，金錢服務經營者應要求其身分證明文件並存檔副本。",
+     "指引有關第三方現金交易的規定，在現金款額達8,000元時即適用，與電傳轉帳的盡職審查門檻相同。",
+     "金錢服務經營者應留意一連串有關連的非經常交易，可能達至或超越電傳轉帳的8,000元門檻及其他交易的120,000元門檻。",
+     "就執行盡職審查而言，懷疑涉及洗錢／恐怖分子資金籌集的準則，不受非經常交易的120,000元或8,000元門檻限制。",
+     "第4.2.6段有關第三方現金交易的規定，是針對姓名載於帳戶委託書的帳戶持有人親自進行的大額現金存款。"
+    ]
+   }
+  },
+  {
+   "id": "m6-515",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.4.16–4.4.17",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.4.16至4.4.17段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about customers whose ownership involves bearer shares?",
+    "statements": [
+     "Where bearer shares are deposited with an authorised or registered custodian, the MSO should seek independent evidence of this, for example confirmation from the registered agent.",
+     "As part of its ongoing periodic review, the MSO should obtain evidence to confirm the authorised or registered custodian of the bearer shares.",
+     "Where the shares are not deposited with such a custodian, the MSO should obtain declarations from each beneficial owner prior to account opening and annually thereafter.",
+     "Where the shares are not deposited with a custodian, the declarations from beneficial owners are renewed every two years after account opening.",
+     "The MSO should require the customer to notify it of any change in the ownership of the shares within 30 days of the change."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關擁有權涉及持票人股份的客戶的陳述，哪些正確？",
+    "statements": [
+     "持票人股份如已存放於認可或註冊保管人，金錢服務經營者應尋求這方面的獨立證據，例如註冊代理發出的確認書。",
+     "金錢服務經營者應取得證據以確定持票人股份的認可或註冊保管人，作為其持續定期覆核的一部分。",
+     "股份如非存放於該等保管人，金錢服務經營者應在開立戶口前及其後每年向每名實益擁有人索取聲明。",
+     "股份如非存放於認可或註冊保管人，實益擁有人的聲明在開立戶口後每兩年更新一次即可。",
+     "金錢服務經營者應要求客戶在持票人股份的擁有權有任何變動後30日內知會該經營者。"
+    ]
+   }
+  },
+  {
+   "id": "m6-516",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.12.1 and ¶5.3",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.12.1及5.3段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about periodic reviews of high-risk customers and CDD for pre-existing customers?",
+    "statements": [
+     "All customers that present high ML/TF risks should be subject to a minimum of an annual review, or more frequent reviews if the MSO deems it necessary.",
+     "Every customer, whatever its risk rating, must have its CDD information reviewed by the MSO at least once a year to keep it up to date.",
+     "Pre-existing customers are those with whom the MSO's business relationship was established before the AMLO came into effect on 1 April 2012.",
+     "CDD must be performed on a pre-existing customer when a material change occurs in the way the account is operated or the MSO suspects ML/TF involvement.",
+     "All pre-existing customers had to be brought under full CDD within 12 months of 1 April 2012, whether or not any trigger event occurred."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關高風險客戶的定期覆核及先前客戶的盡職審查的陳述，哪些正確？",
+    "statements": [
+     "金錢服務經營者最低限度應每年對所有可引致高度風險的客戶覆核一次，並在認為有需要時更頻密地覆核。",
+     "不論風險評級如何，每名客戶的盡職審查資料均必須由金錢服務經營者最少每年覆核一次以反映現況。",
+     "先前客戶指於2012年4月1日打擊洗錢條例生效前，與金錢服務經營者建立業務關係的客戶。",
+     "當先前客戶的戶口操作模式出現相當程度的轉變，或經營者懷疑該客戶涉及洗錢時，必須對該客戶執行盡職審查。",
+     "不論有否觸發事件，所有先前客戶均須在2012年4月1日起計12個月內完成全面的盡職審查。"
+    ]
+   }
+  },
+  {
+   "id": "m6-517",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶6.16 and footnote 58; FAQ applicable to all MSOs, Q24",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第6.16段及註58；《適用於所有金錢服務經營者的常見問題》問24"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline and the C&ED FAQ, which of the following are correct about sanctions screening?",
+    "statements": [
+     "An MSO should screen customers and their beneficial owners against the current database when the relationship is established, and against new designations as soon as practicable.",
+     "An MSO should screen all relevant parties in a cross-border wire transfer, including a remittance transaction, against the current database before executing the transfer.",
+     "Screening may be dispensed with for customers whose risk profile is low, since the screening requirement in the Guideline follows a risk-based approach.",
+     "For a cross-border wire transfer or remittance, the FAQ requires screening of the originator, the recipient, the ordering, intermediary and beneficiary institutions and named parties.",
+     "The FAQ requires only the originator and the recipient to be screened; the ordering, intermediary and beneficiary institutions need not be screened."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》及海關的常見問題，以下有關制裁篩查的陳述，哪些正確？",
+    "statements": [
+     "金錢服務經營者應在建立關係時根據當時的數據庫篩查客戶及其實益擁有人，並盡快根據新增及更新的指認篩查。",
+     "金錢服務經營者應在執行跨境電傳轉帳（包括匯款交易）前，根據當時的數據庫對相關各方進行篩查。",
+     "由於指引的篩查規定採用風險為本的方法，風險狀況較低的客戶可免予篩查，以節省資源。",
+     "就跨境電傳轉帳或匯款交易，常見問題要求最低限度篩查匯款人、收款人、匯款、中介及收款機構及被具名的人士。",
+     "常見問題只要求篩查匯款人及收款人；匯款機構、中介機構及收款機構等付款鏈中的機構無需篩查。"
+    ]
+   }
+  },
+  {
+   "id": "m6-518",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶4.3.2–4.3.5",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第4.3.2至4.3.5段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about identifying and verifying a customer who is a natural person?",
+    "statements": [
+     "An MSO should identify the customer by obtaining at least the full name, date of birth, nationality, and the unique identification number and document type.",
+     "The identification information required at a minimum consists of three items: the full name, the date of birth and the identity card or passport number.",
+     "An MSO should verify the name, date of birth, unique identification number and document type against reliable sources such as a Hong Kong identity card or passport.",
+     "An identification document without a photograph may be accepted as a matter of routine, provided the customer's other identification details match.",
+     "An MSO should obtain the residential address information of a customer that is a natural person, in addition to the identification information."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關識別和核實屬自然人的客戶的陳述，哪些正確？",
+    "statements": [
+     "金錢服務經營者最低限度應收集全名、出生日期、國籍，以及獨特識別號碼及文件的類別，以識別客戶。",
+     "最低限度須收集的識別資料為三項，即全名、出生日期及身份證或護照號碼，無需收集國籍。",
+     "金錢服務經營者應根據香港身份證或有效旅遊證件等可靠來源，核實客戶的姓名、出生日期、識別號碼及文件類別。",
+     "只要客戶的其他識別資料相符，沒有照片的身分證明文件可作為常規接納，無需另行評估風險。",
+     "金錢服務經營者除收集上述識別資料外，亦應向屬自然人的客戶索取其住址資料以供紀錄。"
+    ]
+   }
+  },
+  {
+   "id": "m6-519",
+   "module": 6,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶11.6; AMLO Sch. 2 s.13(2)",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第11.6段；《打擊洗錢條例》附表2第13(2)條"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about the record an MSO makes before a remittance transaction that is not a wire transfer?",
+    "statements": [
+     "Before a remittance of $8,000 or above, the MSO must record the originator's name and address, the currency and amount, and the date and time of receipt of the instruction.",
+     "The recording duty applies only to remittance transactions of $120,000 or above, or an equivalent amount in another currency, that are not wire transfers.",
+     "The MSO must also record the recipient's identification document number, together with the recipient's name and address and the method of delivery.",
+     "The MSO must record the originator's identification document number and, if that document is a travel document, the place of issue of the travel document.",
+     "The MSO should be able to justify that it kept the originator and transaction records in accordance with Chapter 8, so the information can be made available to the CCE."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關金錢服務經營者在進行並非電傳轉帳的匯款交易前須作記錄的陳述，哪些正確？",
+    "statements": [
+     "在進行8,000元或以上的匯款交易前，經營者須記錄匯款人的姓名及地址、所涉貨幣及款額，以及接獲指示的日期及時間。",
+     "記錄責任只適用於120,000元或以上（或折算為其他貨幣的相同款額）而並非電傳轉帳的匯款交易。",
+     "金錢服務經營者亦須記錄收款人的識別文件號碼，連同收款人的姓名及地址以及送遞的方式。",
+     "金錢服務經營者須記錄匯款人的識別文件號碼，以及（如該文件是旅行證件）發出旅行證件的地方。",
+     "金錢服務經營者應能證明已按照第8章的規定保存匯款人及相關交易的紀錄，以便有需要時向關長提供該等資料。"
+    ]
+   }
+  }
+ ],
+ "text_sha256": {
+  "m4-417": "85152bfcbee55db07493bfbbe89961363f87f4a5b1393d22cae3526330b38475",
+  "m4-418": "31726ef0d2ce94cee77319c9871f55e18210d39564298c22403dca04e37b62e6",
+  "m4-419": "f132d7e60fa0902e2d9e23d07ae9e18f6353fc3ecef0ea70190f0f51ae3d6c84",
+  "m4-420": "618d6588b7b4c02db8eb3152533d443cf5ef5983e03cf10adfff5deeeb24016f",
+  "m4-421": "3cdfba7cbe6ae69aa6e4321c6bb2b47ab0a20a3bd63d10af846f2c165d116bcb",
+  "m5-140": "6cb84a82c859fcb1647fd7f1191a79e94ab947c9fb9cbce5f8a9a888c5353f42",
+  "m5-141": "7cbc454ebdcc31e10df88865ecdfed58acaf56aa73684ad30de4568d84b2c256",
+  "m5-142": "eeba72cbf8304aabb7b4148a0eeb8aca73246a8aa56634a813ada275aa348bb5",
+  "m7-221": "aaccbc8adcbd2938cfadadeae2fc6e2109adc23aa42bcd3a9e3f067a445bf7aa",
+  "m7-222": "5decee40502c323151374ccaa694213fcf78486b0f5a24d15dacdc795c6bc3be",
+  "m7-223": "39c60f15b06f2075c7c42d0871cc557c05a659da9d8eee9d89b4611ecf47f083",
+  "m7-224": "814c9be52700fce59f51410adf1cb455a1561113ba44f2b9cc62dec634f41bfb",
+  "m6-513": "4b8085eed167f7f027c488822a3953e635ece1a91d556de74eff6070481ceca0",
+  "m6-514": "2957881e9dc21b6a14df1c137a50eb11ef3044463353b901928d193d6846e9cf",
+  "m6-515": "8c2525156dfe11a32e302544498325d7b147f83838fe18a7fa317cf3094b166c",
+  "m6-516": "84b4f7aac38ad515175cc4f85e9867244cad8056403657b84c25bea66893d309",
+  "m6-517": "79e560e694d42ed9ce55e691b849c80f29b5f9c86cbe7a9ff416aa7baa81f669",
+  "m6-518": "58f70428b09ca5a64df16744ac960d0e9137d087a14d7381ada553835c6dce33",
+  "m6-519": "297c5f8f32c4d4cf56902fb0c856ac9047596760abe42f882dea47ef74095a1c"
+ }
+}

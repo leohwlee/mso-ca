@@ -2,7 +2,7 @@
 
 [繁體中文](README.zh-Hant.md) · [Download the study bundle](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [Release notes](CHANGELOG.md)
 
-**Seven-part study notes and 552 combination questions** for the Hong Kong Money
+**Seven-part study notes and 588 combination questions** for the Hong Kong Money
 Service Operator Competence Assessment. Read and practise offline in Traditional
 Chinese, English or both languages. The selected sources are documents **01–26**
 of the [reading library](docs/README.md); practice offers mock exam and custom practice.
@@ -32,7 +32,8 @@ with links to the cited originals. v1.12.1 corrects the three points that v1.12.
 flagged as not matching their ruling: the fitness-test fee (B6), the CCE's duty to
 consider other relevant matters (B13) and when simplified CDD stops (E23).
 
-The 552 questions and their answers are unchanged. v1.11.0 added 27 reviewed
+The unreleased second batch adds 36 blind-reviewed questions whose false statements
+change a number, a period, a name or an actor, for 588 in all. v1.11.0 added 27 reviewed
 questions and the exam-focus aids: study tiers, 69 exam traps and new figures. The
 notes have 75 topics, 626 bilingual point pairs, 9 tables and 25 diagrams. Counts
 are not coverage percentages.
@@ -72,14 +73,14 @@ Results are stored locally in the browser.
 
 | Part | Topic | Questions |
 |---|---|---:|
-| 1 | General AML/CFT and counter-proliferation financing | 63 |
-| 2 | AMLO Parts 1–7 | 75 |
-| 3 | AMLO Schedules | 66 |
-| 4 | C&ED guidelines | 83 |
-| 5 | Governance and strategy | 81 |
-| 6 | AML/CFT control areas | 116 |
-| 7 | Demonstrating and monitoring compliance | 68 |
-| **Total** | | **552** |
+| 1 | General AML/CFT and counter-proliferation financing | 68 |
+| 2 | AMLO Parts 1–7 | 81 |
+| 3 | AMLO Schedules | 71 |
+| 4 | C&ED guidelines | 89 |
+| 5 | Governance and strategy | 84 |
+| 6 | AML/CFT control areas | 123 |
+| 7 | Demonstrating and monitoring compliance | 72 |
+| **Total** | | **588** |
 
 The bank includes eight official sample questions. The remaining questions are
 authored practice material, not released past papers. See [release notes](CHANGELOG.md)

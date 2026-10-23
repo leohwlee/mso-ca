@@ -1,0 +1,94 @@
+{
+ "instructions": "Independently judge every statement against the cited local source in each language. Do not read keys, notes, patches or the bank. Return id, verdicts, tc_verdicts (T/F arrays), quotes (one deciding source excerpt per statement), doubts and tc_mismatch (empty strings when none). A language=en quote for doc24 is an English original supporting a clearly labelled Chinese study translation.",
+ "items": [
+  {
+   "id": "m1-225",
+   "module": 1,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.14–1.15 and ¶1.19–1.27",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.14至1.15及1.19至1.27段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following correctly name the main pieces of Hong Kong legislation concerned with money laundering, terrorist financing and proliferation financing?",
+    "statements": [
+     "The Drug Trafficking (Recovery of Proceeds) Ordinance, Cap. 405, is, alongside the AMLO, one of the main pieces of legislation in Hong Kong concerned with the laundering of criminal proceeds.",
+     "The Organized and Serious Offences Ordinance, Cap. 455, among other things creates the money laundering offence for the proceeds of indictable offences in Hong Kong.",
+     "The United Nations (Anti-Terrorism Measures) Ordinance, Cap. 575, criminalises the provision or collection of property, and the making of property or financial services available, to terrorists or terrorist associates.",
+     "The Weapons of Mass Destruction (Control of Supply of Services) Ordinance, Cap. 526, controls the provision of services that may assist the development of weapons of mass destruction.",
+     "The Anti-Money Laundering and Counter-Terrorist Financing Ordinance, Cap. 615, imposes customer due diligence and record-keeping requirements on MSOs and gives the CCE powers to supervise compliance with them."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關香港打擊洗錢、恐怖分子資金籌集及擴散資金籌集主要法例名稱的陳述，哪些正確？",
+    "statements": [
+     "《販毒（追討得益）條例》（第405章）與打擊洗錢條例同屬香港與清洗犯罪得益有關的主要法例之一。",
+     "《有組織及嚴重犯罪條例》（第455章）除其他事項外，訂立了在香港清洗可公訴罪行得益的洗錢罪行。",
+     "《聯合國（反恐怖主義措施）條例》（第575章）訂明向恐怖分子或與其有聯繫者提供或籌集財產及提供財產或金融服務，均屬違法。",
+     "《大規模毀滅武器（提供服務的監管）條例》（第526章）管制可能協助發展大規模毀滅武器的服務的提供。",
+     "《打擊洗錢及恐怖分子資金籌集條例》（第615章）對金錢服務經營者施加客戶盡職審查及備存紀錄規定，並賦予關長監督權力。"
+    ]
+   }
+  },
+  {
+   "id": "m3-352",
+   "module": 3,
+   "source": {
+    "en": "AMLO Sch. 2 s.9(1)",
+    "tc": "《打擊洗錢條例》附表2第9(1)條"
+   },
+   "en": {
+    "q": "Regarding the special requirements of Schedule 2 to the AMLO for a customer who has not been physically present for identification purposes, which of the following are correct?",
+    "statements": [
+     "The institution must carry out at least one of the measures listed in section 9(1); it is not required to carry out all of the listed measures before taking on the customer concerned.",
+     "The institution must carry out at least two of the measures listed in section 9(1) before it may take on a customer who has not been physically present for identification purposes.",
+     "One listed measure is further verifying the customer's identity on the basis of documents, data or information not previously used to verify that identity under Schedule 2.",
+     "One listed measure is ensuring the customer's first payment comes from an account in the customer's name with an authorized institution or a qualifying institution in an equivalent jurisdiction.",
+     "The first-payment measure is satisfied where the payment comes from an account held in the name of any third party whom the customer nominates for the purpose."
+    ]
+   },
+   "tc": {
+    "q": "關於《打擊洗錢條例》附表2就客戶沒有為身分識別的目的而現身時適用的特別規定，下列哪些陳述正確？",
+    "statements": [
+     "機構只須執行第9(1)條所列措施中的最少一項，而無需在接納該客戶前執行該條所列的全部措施。",
+     "機構須先執行第9(1)條所列措施中的最少兩項，才可接納沒有為身分識別的目的而現身的該客戶。",
+     "其中一項措施是以不曾用於根據附表2核實該客戶身分的文件、數據或資料為基礎，進一步核實該客戶的身分。",
+     "其中一項措施是確保客戶戶口的第一次付款，經由以客戶名義在認可機構或對等司法管轄區內合資格機構開設的戶口進行。",
+     "如第一次付款來自客戶為此目的而提名的任何第三方名下的戶口，即已符合有關第一次付款的該項措施。"
+    ]
+   }
+  },
+  {
+   "id": "m7-223",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶9.5–9.7",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第9.5至9.7段"
+   },
+   "en": {
+    "q": "According to the AML/CFT Guideline, which of the following are correct about staff training and training records?",
+    "statements": [
+     "Whatever training approach is adopted, an MSO should monitor and keep records of who has been trained, when the staff received the training and the type of training provided.",
+     "Training records should be kept for a minimum of 7 years, the same period for which an MSO keeps its transaction records under the AMLO.",
+     "For all new staff, irrespective of seniority, appropriate training may include an introduction to the background to ML/TF and to reporting suspicious transactions to the MLRO and tipping-off.",
+     "An MSO may consider including available FATF papers and typologies in its training materials, and should be able to demonstrate to the CCE that all materials are up to date.",
+     "Back-office staff need no AML/CFT training, since the training programme in the Guideline is directed at staff who deal directly with the public."
+    ]
+   },
+   "tc": {
+    "q": "根據《打擊洗錢及恐怖分子資金籌集指引》，以下有關職員培訓及培訓紀錄的陳述，哪些正確？",
+    "statements": [
+     "無論使用哪種培訓方法，金錢服務經營者應監察誰人已接受培訓、職員何時接受培訓以及培訓的類別，並備存紀錄。",
+     "培訓紀錄應最少保存7年，與金錢服務經營者根據打擊洗錢條例保存交易紀錄的期限相同。",
+     "就所有新職員（不論資歷），適用的培訓可包括洗錢／恐怖分子資金籌集的背景、向洗錢報告主任舉報的必要及「通風報訊」罪行。",
+     "金錢服務經營者可考慮使用特別組織的文章及典型案件作為培訓材料，並應能向關長證明所有培訓材料均是最新的。",
+     "後勤職員無需接受打擊洗錢培訓，因為指引的培訓計劃是針對與公眾有直接接觸的前線工作人員。"
+    ]
+   }
+  }
+ ],
+ "text_sha256": {
+  "m1-225": "fa0bd6c1f5b7c419a36a5abc1d3be83f4f2700ab15044dd2a45d630557a3fa81",
+  "m3-352": "4ee0fa5db93d0650c96e3f71c6b8ecd7d4018cd2da05f67757d1f4e8730a87c2",
+  "m7-223": "76da082cdc3b087be0367c527bb4d5e9daac903826037ab8244198e882bda2e1"
+ }
+}

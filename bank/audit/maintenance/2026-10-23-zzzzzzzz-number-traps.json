@@ -1,0 +1,54 @@
+{
+  "status": "verified",
+  "date": "2026-10-23",
+  "reason": "Owner-requested second batch: 36 number, period, name and actor trap questions and two wording revisions (see bank/audit/active-followups/2026-10-23-number-traps.json). Preserves the bank, quotes, generated source accounting, study-note route check and count-bearing documentation as they were before the counts changed. Question content is reviewed in the follow-up record; this record only links the documentation hashes.",
+  "archive": "bank/audit/history/2026-10-23-before-number-traps.zip",
+  "archive_sha256": "bb6a2bb443f2c324b8a703b9bca1e9196c485353bed7f5b62effd643213f76a4",
+  "archive_updates": {
+    "README.md": {
+      "before_sha256": "3d5acd3340c9dd1d6ad975128e53715769c37ef7c14cfca5e9b75ea13cd423f6",
+      "after_sha256": "3335c583fc6eb8625b926ccbb8309a3fba325c51984b8ed80e8a658369047fce"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "e4b94fb4f1e83ea74b8580c69b120f7bc0b63b1baea64f64def76054fa79e17e",
+      "after_sha256": "67c8abffbd640121493dc3307ef84f8dec965716f7e7b600c0e7c78d34df3178"
+    },
+    "DEVELOPMENT.md": {
+      "before_sha256": "ddc75e9351ed52bf24ea78a49ac334dc877ed7a96df84c7fbb7c3f410667e387",
+      "after_sha256": "4f3fb0dff2dae7de4ce887515a422deb16cb232aeabd3dc7d93e880be349a9e3"
+    },
+    "DEVELOPMENT.zh-Hant.md": {
+      "before_sha256": "bba7db3f96dfb11e2a5c78c150128cd3ea8687bf3338d17411d3b693330c0c26",
+      "after_sha256": "6f916e9b0ca159c4aa088c549bfd95a301d8136c37b779e5feb083d338a4e8d2"
+    },
+    "CHANGELOG.md": {
+      "before_sha256": "daef146a11dcba59c5650183a6645ce4b9cb481fdbd5ce88975564b0c61a2e2d",
+      "after_sha256": "3668d5f80063f4b3b36651cdcd3b9407232c7683822d35d1841a8842d3c725b2"
+    },
+    "docs/QUESTION-SOURCES.md": {
+      "before_sha256": "b8f76d2f444a8a499754403a173dac25a54a6c1ea30ef9ce12c4974b61cab1be",
+      "after_sha256": "f3968e9ed62243b9b9ed417dcf3563383bf8777f047b298ab226d3eaa9c934dd"
+    },
+    "docs/QUESTION-SOURCES.zh-Hant.md": {
+      "before_sha256": "b2564be5d74da1b72d6c8ed8b856fef60d9f886fd8833c0930b9df2cb8190d5c",
+      "after_sha256": "b2b479b0bb1147c05e2e26efda5c323effe462c62f81ee30a42a3797966f7f2d"
+    },
+    "bank/audit/history/README.md": {
+      "before_sha256": "b6b0397d62e82de5e0e75784e3290635c6fbc9f48ec6e836bf17976a6769d383",
+      "after_sha256": "7ebb8856b0337593a92f056567b6f7a9d7a61a667ef503ed9d25b217ad0cf462"
+    },
+    "bank/audit/ACTIVE-SCOPE.md": {
+      "before_sha256": "cc885808a7e4ac5f30c2f11bbe78884913005588fa4706b561312e4860c109e5",
+      "after_sha256": "b4c2cc4f4239d4b7fb3b7a8efc7c3745cc7ab7545f38a660a304714627d52d63"
+    },
+    "scripts/build_study_bundle.py": {
+      "before_sha256": "88b5be4e6f1012592890dfc19c9885cf7c36077f0beead3703871cf6be13ffc0",
+      "after_sha256": "8f8493d6c94418442732e8567a679eb6d1f7d17d0f1a8a550c700b3106b116d6"
+    },
+    "revision/study-notes/visual-refinement-2026-10-20/bank-source-routes.json": {
+      "before_sha256": "d36fd9ac675e13f69aa13dc552e05cdedb951ee3a7fc90facd9a0c1997cbdccb",
+      "after_sha256": "c9149a95fbb4484a12367277ac481dc287dd5c85dfc9c181b86d5972ec7feac4"
+    }
+  },
+  "documentation_updates": {}
+}
