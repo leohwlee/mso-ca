@@ -3,12 +3,30 @@
 Open [index.html](index.html) and select Part 1–7. The source-authored notes retain
 the B blue-gray reference style and Traditional Chinese, English and bilingual
 reading. Keep this folder inside the repository so original-file and practice
-links work. Alternatively, download [v1.11.0's complete study bundle](https://github.com/leohwlee/mso-ca/releases/tag/v1.11.0),
+links work. Alternatively, download [v1.12.0's complete study bundle](https://github.com/leohwlee/mso-ca/releases/tag/v1.12.0),
 extract it fully and open its root `index.html`. Reading pages embed their styles and font and work offline.
 
 開啟 [index.html](index.html)，選擇第1至7部分。筆記以01–26原文整理，保留B風格、
-繁體中文／英文／雙語與離線閱讀。保留於repo內，或下載[v1.11.0完整學習包](https://github.com/leohwlee/mso-ca/releases/tag/v1.11.0)
+繁體中文／英文／雙語與離線閱讀。保留於repo內，或下載[v1.12.0完整學習包](https://github.com/leohwlee/mso-ca/releases/tag/v1.12.0)
 並完整解壓、開啟根目錄的`index.html`，原件及練習連結才可正常使用。
+
+## Ruling marks, 23 October / 10月23日裁決標記
+
+At the owner's request, every place where the notes apply a source-conflict ruling now
+carries a purple number: 131 marks (118 points and 13 figures) across 93 rulings. The
+numbers are the decisions in `revision/CONFLICT-CALLS.md` (B, W, E, N and D26). A dashed
+number means each language keeps its own wording. Four U numbers mark language differences
+the text handles that have no CONFLICT-CALLS entry. Each Part ends with "Rulings in this
+part": the question, the decision, every place it is used, links to other Parts and the
+recorded entry with links to the cited originals. Three amber "Check" notes flag points
+that may not match the ruling they apply (B6 in Part 3, B13 in Part 4, E23 in Part 6).
+The point text is unchanged.
+
+應擁有人要求，筆記中每個套用來源矛盾裁決的地方，現都標上紫色編號：共131處（118個要點及13個圖表），
+涉及93項裁決。編號對應`revision/CONFLICT-CALLS.md`的裁決（B、W、E、N及D26）；虛線編號表示兩語各按本身語文。
+四個U編號標示正文已處理、但未列入CONFLICT-CALLS的兩語差異。每部分末設「本部分的裁決」，列出問題、裁決、
+所有出現位置、其他部分連結，以及附原件連結的裁決記錄原文。三項琥珀色「核對」提示標出可能與所套用裁決不一致的要點
+（第3部分B6、第4部分B13、第6部分E23）；要點文字未改動。
 
 ## Exam-focus pass, 22 October / 10月22日應試重點整理
 
@@ -105,13 +123,15 @@ adds a second layer of prose. `memory_panels.py` holds explicit source reference
 the selected comparisons. `visual_panels.py` adapts/adds source-bound diagrams;
 `visual_render.py` provides native, offline HTML rendering. `tiers.py` gives every
 block its study tier; `traps.py` holds the exam traps, each tied to a CONFLICT-CALLS
-decision number that `build.py` checks. `build.py` validates and renders without
-reading the bank.
+decision number that `build.py` checks. `rulings.py` ties each ruling mark to one point
+or figure by its English text; `build.py` checks every anchor and number. `build.py`
+validates and renders without reading the bank.
 
 `part1.py`至`part7.py`保存整合後文稿；舊第二輪補充已併入相應主題，
 `essentials.py`只保留空白兼容入口。`memory_panels.py`的圖表有明確原文引用。
 `visual_panels.py`處理圖解內容及改編，`visual_render.py`負責離線HTML表達；`tiers.py`為每個內容組定學習層次，
-`traps.py`保存易錯提示，每項對應CONFLICT-CALLS裁決編號並由`build.py`核對；生成器不讀題庫。
+`traps.py`保存易錯提示，每項對應CONFLICT-CALLS裁決編號並由`build.py`核對；`rulings.py`以英文原句把每個裁決標記連到一個要點或圖表，
+`build.py`核對每個定位及編號；生成器不讀題庫。
 
 `gap_check.py` separately checks 525 identifiers and source routes after authoring;
 it cannot establish semantic completeness. Its current output is

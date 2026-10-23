@@ -1,0 +1,98 @@
+{
+  "status": "verified",
+  "date": "2026-10-23",
+  "reason": "Owner request (23 Oct 2026) to mark every place where the seven-part study notes apply a source-conflict ruling, then release v1.12.0. Adds 131 ruling marks (118 points, 13 figures) across 93 rulings, a per-Part register with each ruling, its places and its recorded CONFLICT-CALLS entry, and three check notes where a point may not match its ruling (new source: revision/study-notes/rulings.py). Dates the v1.12.0 release notes, points the READMEs, reading directory, archive note and study-note download links at v1.12.0, updates the study bundle README, and replaces the v1.11.0 README previews with screenshots captured from v1.12.0 (hashes in docs/images/readme-previews.json). Preserves the previous bytes of these files; note text, question bank, answers, scoring, source originals and CONFLICT-CALLS are unchanged.",
+  "archive": "bank/audit/history/2026-10-23-before-v1.12.0-ruling-marks.zip",
+  "archive_sha256": "8fed81a113b4ad6a2d0d0a229299c793debb51814db5dcb274f6ec6b393f9b69",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "fe3339c920dc2091a0dff294294bc7e1565a5792c4388f50e9aaf5d7846c03a8",
+      "after_sha256": "2aed29a2af412a6ae6e2c14b7e4ad742f14eb2cfd6faa6728f5e6093a73c1e60"
+    },
+    "README.md": {
+      "before_sha256": "7a61ba6cd1574c8ceb3429e46da3378b880a2b7176dbfe2e944b75675802f81c",
+      "after_sha256": "38f48ea347501ba8c22fa159e852d512ba75a738f676a7a2f61dcaaee547245f"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "ec76da662f8b20d42f538a65e714d34d4edf5af4ed815a999fcc5c0614ddab7c",
+      "after_sha256": "eee7bbcc149cc8a3b7f7c71db239fa81a22af8486bee463acae37890d523ca59"
+    },
+    "docs/README.md": {
+      "before_sha256": "6ed488ca8e278dbcc496fb6df9171848057eb59e1ea1ea29913c1233eca14d66",
+      "after_sha256": "aa729888452eb3c13d0807b112a555b9d7e25a80a1b6601880411c9312112558"
+    },
+    "docs/README.zh-Hant.md": {
+      "before_sha256": "5308a9e90d0fdf7f534e91a81afb81aef168df37b7e454c3c32bcbb5200df50e",
+      "after_sha256": "1622cadff19e01ed100cc4342282deb9dac419dd102f3fbf2ee46d04abc3354a"
+    },
+    "docs/archive/README.md": {
+      "before_sha256": "0813b91e9f5752cd741d4061b27e06f8bea41b7a4b2c2aa3491333ccd87b14af",
+      "after_sha256": "b56c6b6413230b4b7152dc47985282f18402504007d9d47a254d0dc533583458"
+    },
+    "docs/archive/README.zh-Hant.md": {
+      "before_sha256": "0f0603a9c32a0a56f364b83ef6c5ead6378d0e178cb00dc65f2d1e34a08f4f24",
+      "after_sha256": "3d9b14a828f129b119fe7b3be91b73908051e2525f9c48514e443ca3a7f0e5c4"
+    },
+    "docs/build_catalog.py": {
+      "before_sha256": "f492ea5e6cf4cc087393efc0eb2eb16d11b5ef2c5cdd7c98afa547b4d6c1ba2d",
+      "after_sha256": "17e6773042224fa3eef47813879df1a65509addca9e093701edb3806e89c626c"
+    },
+    "docs/images/readme-previews.json": {
+      "before_sha256": "6401dc89b7722f43a041e72b694b0ae7a2d44948c6c27bee3749651937cd1b30",
+      "after_sha256": "2c552c1023a5536a3f52851ecc8804f57fcbadc22c83eb62fa63a3684a8bfedb"
+    },
+    "revision/study-notes/README.md": {
+      "before_sha256": "8b0c61f78fef319d7463262e60dac19b4526782216e70a7f32417e8b841cd0c1",
+      "after_sha256": "612581b6382025215c85d0b51390b820dd8df4ebc9953751e1f223119f3df5f2"
+    },
+    "revision/study-notes/build.py": {
+      "before_sha256": "23b639b860ed301f36b739851fffa2b29c4e15152c568454cc95a17bf5de1281",
+      "after_sha256": "9e539f21f0618a34475b3b9f8b7fde5d1f0ed04cd5dc1a0de3087d89a905b4e5"
+    },
+    "revision/study-notes/coverage.json": {
+      "before_sha256": "0ea8fcf705174d1281cfb636dc2fb418d93fe03bff433c865a743e459b42ecc4",
+      "after_sha256": "8080201c148f6c3d872a437a24e2e89d4ddff5776ec4d84f78db7857ffd96edf"
+    },
+    "revision/study-notes/index.html": {
+      "before_sha256": "268a535c0141cfe30564def0afeb7b679227bed9c426a9cf21b14d13750891a8",
+      "after_sha256": "0b5067f4e33ddb8a790cc0128c41ce026e564b0fba3b554d425722a54d13cb4e"
+    },
+    "revision/study-notes/part-1.html": {
+      "before_sha256": "268a535c0141cfe30564def0afeb7b679227bed9c426a9cf21b14d13750891a8",
+      "after_sha256": "0b5067f4e33ddb8a790cc0128c41ce026e564b0fba3b554d425722a54d13cb4e"
+    },
+    "revision/study-notes/part-2.html": {
+      "before_sha256": "b1edaa679f1d4260f1b8473f375306ecf21b120f9267ff56daf4acc8af0e4251",
+      "after_sha256": "aa24e6fea04da1a8aca34d69dcad6f479a17799d16546ea1ae2337b84ce1d2b2"
+    },
+    "revision/study-notes/part-3.html": {
+      "before_sha256": "bbfeb0c0f68d0a11fbf7c711e61eb92b4c8b1ec32b77eb2049535596a1b00ec9",
+      "after_sha256": "6af27d68263a0e38362ee15dbe58ec8163f5a7f93fb22a49cbe527f9c72773a3"
+    },
+    "revision/study-notes/part-4.html": {
+      "before_sha256": "057f67632c5e3a611f7e31bf23e36a690fe46b6fa21925926d09b313ccb3a10b",
+      "after_sha256": "409a63ed66d63ad51d6838ffcf2093ab114f49cd0a5900d10874767ed8b39a2f"
+    },
+    "revision/study-notes/part-5.html": {
+      "before_sha256": "6ceb403c37e99947566f158f62a17b4a6bdbebb9da113f43db327bc7aa60eb27",
+      "after_sha256": "1c8d7203ef7695150a9315769f81f69f2c68bec401a690e9c72558f014841223"
+    },
+    "revision/study-notes/part-6.html": {
+      "before_sha256": "4bf0e257ea207c3050dc7208089a86f19b8709bf4a9f3b694f5b7110553cbd96",
+      "after_sha256": "3016c028933e0167d81581fd33f5c8d431caf7e2131fac7fa500921108d29379"
+    },
+    "revision/study-notes/part-7.html": {
+      "before_sha256": "c24a4fb4fa43f90fbe167120353fea80ec68e78303ec1398a4c78ae3a0dcc4e9",
+      "after_sha256": "def366109d3ea77f57c783decd1ce7e2ead75d8a7c49a65bdfe9d6bcd62574c9"
+    },
+    "revision/study-notes/style.css": {
+      "before_sha256": "280ac0b46331f07394285a828aa27c4590e57e50175dcca137ef7a462dbde06a",
+      "after_sha256": "87089568560a8e92fbbd1c31ac6c46828596f96251daf7566c6b17c5c5a9e6c8"
+    },
+    "scripts/build_study_bundle.py": {
+      "before_sha256": "a3e1bad084ae927302e5a1652a5e3fe7881636e7cd78cf138201732650651522",
+      "after_sha256": "a40e0544a150c6cb5abdc81b50ff028e9eb26e3eab6eceb5d55023dad2b4b678"
+    }
+  },
+  "documentation_updates": {}
+}

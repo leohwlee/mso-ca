@@ -17,28 +17,31 @@ The bundle contains the seven-part notes, the practice app and the cited 01–26
 originals. Keep the folders together so study, practice and source links work
 offline. You do not need to download the repository or install Go.
 
-![Blue-gray practice homepage with mock exam and custom practice](docs/images/app-v1.11.0-en.png)
+![Blue-gray practice homepage with mock exam and custom practice](docs/images/app-v1.12.0-en.png)
 
-*Practice homepage, English. Captured from the v1.11.0 app on 23 October 2026.*
+*Practice homepage, English. Captured from the v1.12.0 app on 23 October 2026.*
 
-## What's new in v1.11.0
+## What's new in v1.12.0
 
-The bank has 27 more independently reviewed questions, 552 in total. Ten of them
-have no true statement, so "None of the above" is sometimes the answer. Twelve
-existing questions were corrected without changing any answer.
+The notes now mark every place where they apply a source-conflict ruling. A purple
+number beside a point or figure, such as B27 or E13, names the owner decision in
+[CONFLICT-CALLS](revision/CONFLICT-CALLS.md): 131 marks across 93 rulings. A dashed
+number means each language keeps its own wording. Each part ends with "Rulings in
+this part", which gives the decision, every place it is used and the recorded entry,
+with links to the cited originals. Three amber "Check" notes flag points that may
+not match their ruling.
 
-The notes add exam-focus aids. Every block carries a study tier (Remember,
-Understand, Recognise, Reference), 69 amber exam traps restate the owner's
-source-conflict decisions, and new figures compare similar thresholds, deadlines
-and identity data. The notes have 75 topics, 626 bilingual point pairs, 9 tables
-and 25 diagrams. Counts are not coverage percentages.
+The 552 questions and their answers are unchanged. v1.11.0 added 27 reviewed
+questions and the exam-focus aids: study tiers, 69 exam traps and new figures. The
+notes have 75 topics, 626 bilingual point pairs, 9 tables and 25 diagrams. Counts
+are not coverage percentages.
 
-Read the [exam-focus report](revision/study-notes/exam-focus-2026-10-22/REPORT.md) (in Chinese)
+Read the [notes' scope and ruling marks](revision/study-notes/README.md)
 and the [current review evidence](bank/audit/ACTIVE-SCOPE.md).
 
-![Part 6 study notes showing when customer due diligence is required, with conditions and source citations](docs/images/study-v1.11.0-en.png)
+![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.12.0-en.png)
 
-*Part 6 reading example, English. Captured from the v1.11.0 notes on 23 October 2026; the CDD cases can overlap.*
+*Part 6 reading example, English. Captured from the v1.12.0 notes on 23 October 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
 
 ## Choose how to practise
 
