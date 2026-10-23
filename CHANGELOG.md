@@ -1,5 +1,10 @@
 # Release notes / 版本更新
 
+## Unreleased
+
+- Removes the branches of the Go tests that were written for the old question bank and no longer run: every item carries a note per statement and may be reordered, and `TestBankIntegrity` rejects anything else, so `TestComboExplanationNamesFalseStatements`, the single-quote form of `docs/quotes.json` and the fixed-item and unannotated-item paths in six other tests never executed. The guard itself stays; `sameSet` becomes the standard library's `slices.Equal`. 120 lines fewer. The 588 questions, answers, scoring, generated pages and source editions are unchanged.
+- 刪除Go測試中為舊題庫而寫、已不再執行的分支：每題都有逐句註解並可重排，`TestBankIntegrity`亦不接受其他形式，因此`TestComboExplanationNamesFalseStatements`、`docs/quotes.json`的單引文形式及另外六個測試中的固定次序與無註解分支從未運行。守衛本身保留；`sameSet`改用標準庫的`slices.Equal`。少120行。588道題、答案、評分、生成頁面及來源版次均不變。
+
 ## v1.13.0 — 23 October 2026
 
 - Study notes: the toolbar gains a study-tier filter (All; Remember + Understand; Remember only) and a **Ruling marks** switch; the 131 purple ruling numbers and the per-part rulings register are hidden until switched on. A new **Numbers** page (`amounts.html`) lists 70 amounts, shares, periods, fees and penalties in seven groups, each with its starting point or condition, a link to the notes section and the cited passage.

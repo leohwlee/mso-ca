@@ -1,0 +1,22 @@
+{
+  "status": "verified",
+  "date": "2026-10-23",
+  "reason": "Code simplification, PR B (23 Oct 2026): removes the Go test branches written for the old question bank that no longer run, because TestBankIntegrity requires every item to carry a note per statement and to allow reordering (TestComboExplanationNamesFalseStatements, the single-quote form of docs/quotes.json, the fixed-item and unannotated-item paths in six other tests), replaces sameSet with the standard library's slices.Equal, and adds the Unreleased changelog entry. Preserves the previous bytes of these files; the question bank, answers, quotes, scoring, generated pages, notes and source originals are unchanged by this record.",
+  "archive": "bank/audit/history/2026-10-23-before-simplify-go-tests.zip",
+  "archive_sha256": "9a97b21eb04791278a5d18657cd7498f62f056579aaadece4213d7f925f706b2",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "82e278c66ae6db7629e3675d74f162b710423980e135b3a576fce9bbb83f92ef",
+      "after_sha256": "15de7b0e6f10f108d7ac51222a6441390d792fd9beb9e110adba04bb46eaad25"
+    },
+    "questions_test.go": {
+      "before_sha256": "e6890f51c351ab395278e458cb81c7ea018de3f9a442b0ab039b03523ea10a63",
+      "after_sha256": "ef06da8b2c61fb41040652e3575dab165f836dc3b8ad79e608227755115e759e"
+    },
+    "sources_test.go": {
+      "before_sha256": "9fbc0515ad1a49f42d667c7413558ccecae6277e586e03a8273155166e2a267e",
+      "after_sha256": "f196368f83a44623fa47076fffd1502569da46f5cb881403829250849af9eabb"
+    }
+  },
+  "documentation_updates": {}
+}

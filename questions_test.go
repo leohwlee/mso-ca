@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"regexp"
+	"slices"
 	"sort"
 	"strconv"
 	"strings"
@@ -141,18 +142,6 @@ func loadBank(t *testing.T) []question {
 	return bank
 }
 
-func sameSet(a, b []int) bool {
-	if len(a) != len(b) {
-		return false
-	}
-	for i := range a {
-		if a[i] != b[i] {
-			return false
-		}
-	}
-	return true
-}
-
 // canonicalOrder is the order the app displays options in, and the order they
 // are stored in: C&ED's order for C&ED's blocks, otherwise smaller sets first and
 // then by number, with All / None of the above last. bank/combo.py writes them
@@ -173,7 +162,7 @@ func canonicalOrder(opts []option, n int) []option {
 		for _, b := range block {
 			found := false
 			for _, o := range body {
-				found = found || sameSet(o.Set, b)
+				found = found || slices.Equal(o.Set, b)
 			}
 			if !found {
 				return false
@@ -251,17 +240,13 @@ func TestBankIntegrity(t *testing.T) {
 					t.Errorf("%s (%s): statement %d empty", q.ID, lang, i+1)
 				}
 			}
-			if q.annotated() {
-				if len(l.Notes) != n {
-					t.Errorf("%s (%s): %d notes for %d statements", q.ID, lang, len(l.Notes), n)
+			if len(l.Notes) != n {
+				t.Errorf("%s (%s): %d notes for %d statements", q.ID, lang, len(l.Notes), n)
+			}
+			for i, s := range l.Notes {
+				if strings.TrimSpace(s) == "" {
+					t.Errorf("%s (%s): note %d empty", q.ID, lang, i+1)
 				}
-				for i, s := range l.Notes {
-					if strings.TrimSpace(s) == "" {
-						t.Errorf("%s (%s): note %d empty", q.ID, lang, i+1)
-					}
-				}
-			} else if strings.TrimSpace(l.Explain) == "" {
-				t.Errorf("%s (%s): neither notes nor an explanation", q.ID, lang)
 			}
 		}
 
@@ -270,23 +255,19 @@ func TestBankIntegrity(t *testing.T) {
 			t.Errorf("%s: every item must allow reordering and carry a note per statement", q.ID)
 		}
 
-		if q.annotated() {
-			if len(q.Traps) != n {
-				t.Errorf("%s: %d trap codes for %d statements", q.ID, len(q.Traps), n)
-			} else {
-				for i, tr := range q.Traps {
-					switch {
-					case q.Truth[i] && tr != nil:
-						t.Errorf("%s: statement %d is true but carries the trap %q", q.ID, i+1, *tr)
-					case !q.Truth[i] && tr == nil:
-						t.Errorf("%s: statement %d is false but names no trap", q.ID, i+1)
-					case tr != nil && !trapCodes[*tr]:
-						t.Errorf("%s: statement %d has the unknown trap %q", q.ID, i+1, *tr)
-					}
+		if len(q.Traps) != n {
+			t.Errorf("%s: %d trap codes for %d statements", q.ID, len(q.Traps), n)
+		} else {
+			for i, tr := range q.Traps {
+				switch {
+				case q.Truth[i] && tr != nil:
+					t.Errorf("%s: statement %d is true but carries the trap %q", q.ID, i+1, *tr)
+				case !q.Truth[i] && tr == nil:
+					t.Errorf("%s: statement %d is false but names no trap", q.ID, i+1)
+				case tr != nil && !trapCodes[*tr]:
+					t.Errorf("%s: statement %d has the unknown trap %q", q.ID, i+1, *tr)
 				}
 			}
-		} else if len(q.Traps) > 0 {
-			t.Errorf("%s: trap codes without notes", q.ID)
 		}
 
 		if len(q.Options) != 5 {
@@ -457,9 +438,6 @@ func TestOptionSymmetry(t *testing.T) {
 func TestTruthCounts(t *testing.T) {
 	var n, allTrue, oneFalse, more int
 	for _, q := range loadBank(t) {
-		if !q.annotated() {
-			continue
-		}
 		n++
 		f := 0
 		for _, v := range q.Truth {
@@ -580,14 +558,11 @@ func TestNoDuplicateStems(t *testing.T) {
 // twice, and a near copy with the opposite truth tells a candidate which of the
 // two to doubt; an audit in September 2026 found 77 near-identical pairs, 19 of
 // them true in one item and false in the other. Exact repeats are caught here;
-// a near copy needs a reader. This checks every active item after migration.
+// a near copy needs a reader.
 func TestNoTwinStatements(t *testing.T) {
 	for _, lang := range []string{"en", "tc"} {
 		seen := map[string]string{}
 		for _, q := range loadBank(t) {
-			if !q.annotated() {
-				continue
-			}
 			for i, s := range q.side(lang).Statements {
 				k := strings.TrimSpace(nonWord.ReplaceAllString(strings.ToLower(s), " "))
 				where := fmt.Sprintf("%s statement %d", q.ID, i+1)
@@ -736,9 +711,8 @@ func TestChineseStatutoryTerms(t *testing.T) {
 // TestNoDanglingReference: 該 means "the said", so 該客戶 is a customer already
 // named. Used cold it renders "the customer" or "the MSO" word for word and
 // leaves the reader asking which one; the sources name it first. A candidate
-// reads the stem first. The statements of an item the app reorders may come in
-// any order, so each may lean only on the stem; those of a fixed item are read in
-// order. A note may lean on its own statement, an explanation on everything.
+// reads the stem first. The app reorders the statements, so each may lean only
+// on the stem. A note may lean on its own statement, an explanation on everything.
 var danglingRefs = []struct {
 	form        *regexp.Regexp // 該, an optional classifier, the noun
 	antecedents []string       // one of these, said earlier, gives it something to refer to
@@ -776,16 +750,10 @@ func TestNoDanglingReference(t *testing.T) {
 			}
 		}
 		check("", q.Tc.Q)
-		read := q.Tc.Q
 		for i, s := range q.Tc.Statements {
-			if q.Fixed {
-				check(read, s)
-				read += s
-			} else {
-				check(q.Tc.Q, s)
-				if i < len(q.Tc.Notes) {
-					check(q.Tc.Q+s, q.Tc.Notes[i])
-				}
+			check(q.Tc.Q, s)
+			if i < len(q.Tc.Notes) {
+				check(q.Tc.Q+s, q.Tc.Notes[i])
 			}
 		}
 		check(q.Tc.Q+strings.Join(q.Tc.Statements, ""), q.Tc.Explain)
@@ -844,11 +812,11 @@ func TestMLTFPairing(t *testing.T) {
 // TestNoPositionalReferences: the app reorders an item's statements at every
 // draw and renumbers its options, so "statement 2", "option B" or 選項三 names
 // whatever landed there in that draw, not what the author meant. Notes refer to
-// what a statement says. Only a fixed item's explanation may number statements,
-// because its statements never move. The September 2026 review found 37
-// positional references written against the authored order.
+// what a statement says. The September 2026 review found 37 positional
+// references written against the authored order.
 func TestNoPositionalReferences(t *testing.T) {
-	options := []*regexp.Regexp{
+	patterns := []*regexp.Regexp{
+		// an option named by its number, letter or place
 		regexp.MustCompile(`(?i)\b(?:option|distractor)s?\s*\(?[1-5]\)?\b`),
 		// the letter stays case-sensitive: lower-cased, "answer a question" and
 		// "the choice a licensee makes" would both match and fail a sound question
@@ -856,9 +824,7 @@ func TestNoPositionalReferences(t *testing.T) {
 		regexp.MustCompile(`(?i)\b(?:first|second|third|fourth|fifth|last)\s+(?:option|choice|answer)\b`),
 		regexp.MustCompile(`選項\s*[一二三四五1-5A-Ea-e]`),
 		regexp.MustCompile(`第[一二三四五]個?選項`),
-	}
-	// a statement named by its place, or leaning on the ones printed before it
-	statements := []*regexp.Regexp{
+		// a statement named by its place, or leaning on the ones printed before it
 		regexp.MustCompile(`(?i)\bstatements?\s*\(?\d`),
 		regexp.MustCompile(`(?i)\b(?:first|second|third|fourth|fifth|sixth|last|other)\s+statements?\b`),
 		regexp.MustCompile(`陳述\s*[（(]?\d`),
@@ -876,13 +842,7 @@ func TestNoPositionalReferences(t *testing.T) {
 				fields[fmt.Sprintf("note %d", i+1)] = s
 			}
 			for name, text := range fields {
-				// a fixed item's statements never move, so its explanation may
-				// number them; the items converted from the old bank are fixed
-				pats := options
-				if !q.Fixed {
-					pats = append(append([]*regexp.Regexp{}, options...), statements...)
-				}
-				for _, re := range pats {
+				for _, re := range patterns {
 					if m := re.FindString(text); m != "" {
 						t.Errorf("%s (%s %s): refers to a statement or option by position (%q); name it by what it says",
 							q.ID, lang, name, m)
@@ -1100,7 +1060,7 @@ func TestNoAbsoluteTell(t *testing.T) {
 		"en": regexp.MustCompile(`(?i)\b(only|solely|exclusively|alone|always|never|at all|whatsoever|need not|not required|no requirement|nothing more|no more than)\b|in (every|all) cases?`),
 		"tc": regexp.MustCompile(`只|僅|一律|完全|絕不|永不|毫無|無須|毋須|不得`),
 	}
-	statTell(t, "an absolute qualifier", absolute, 0.60, 0.45, false)
+	statTell(t, "an absolute qualifier", absolute, 0.60, 0.45)
 }
 
 // TestNoNegationTell: after the absolutes were repaired, statements containing
@@ -1113,21 +1073,18 @@ func TestNoNegationTell(t *testing.T) {
 		"en": regexp.MustCompile(`(?i)\b(not|no|never|neither|nor|without|cannot)\b|n't\b`),
 		"tc": regexp.MustCompile(`不|無|沒有|未|非|毋|毋須|不得`),
 	}
-	statTell(t, "a negation", negation, 0.50, 0.35, true)
+	statTell(t, "a negation", negation, 0.50, 0.35)
 }
 
 // statTell checks that statements matching a pattern are true at a healthy rate
 // bank-wide and in each module with enough of them.
-func statTell(t *testing.T, what string, re map[string]*regexp.Regexp, floor, modFloor float64, annotatedOnly bool) {
+func statTell(t *testing.T, what string, re map[string]*regexp.Regexp, floor, modFloor float64) {
 	t.Helper()
 	bank := loadBank(t)
 	for _, lang := range []string{"en", "tc"} {
 		var total, trueOnes int
 		perTotal, perTrue := map[int]int{}, map[int]int{}
 		for _, q := range bank {
-			if annotatedOnly && !q.annotated() {
-				continue
-			}
 			for i, s := range q.side(lang).Statements {
 				if i >= q.n() || !re[lang].MatchString(s) {
 					continue
@@ -1217,60 +1174,6 @@ func TestNoNumberInterrogatives(t *testing.T) {
 						break
 					}
 				}
-			}
-		}
-	}
-}
-
-// TestComboExplanationNamesFalseStatements: a fixed item's explanation says
-// which statements are false, or that none is, and that must be the answer the
-// truth gives. An explanation that argues for a different set of statements is
-// invisible until a candidate who chose correctly reads that they were wrong.
-// Collect every "statement N is false", not just the first, and read "none of
-// them is false" as all true.
-func TestComboExplanationNamesFalseStatements(t *testing.T) {
-	falseStatements := map[string]*regexp.Regexp{
-		"en": regexp.MustCompile(`\b(?i:statements?)\s+(\d+(?:(?:\s*,\s*|\s+and\s+|\s*&\s*)(?:(?i:statement)\s+)?\d+)*)\s+(?:is|are)\s+(?:false|incorrect|wrong|untrue|not correct)`),
-		"tc": regexp.MustCompile(`陳述\s*(\d+(?:\s*(?:、|及|和|與|,|，)\s*(?:陳述)?\s*\d+)*)\s*(?:均|皆|都|亦)?\s*(?:不正確|錯誤|並不正確|屬錯誤|有誤|不準確)`),
-	}
-	noneFalse := map[string]*regexp.Regexp{
-		"en": regexp.MustCompile(`none of them is false|(?i:no) statement is false|(?i:all) (?:four|five|the) statements (?:are|is) (?:correct|true)|(?i:every) statement is (?:correct|true)|(?i:none) of the (?:four |five )?statements (?:is|are) (?:false|incorrect)`),
-		"tc": regexp.MustCompile(`(?:四|五)項陳述(?:均|全部|皆)(?:正確|屬實)|所有陳述(?:均|皆)正確|全部陳述(?:均|皆)?正確|各項陳述(?:均|皆)正確|(?:沒有|並無)不正確的陳述|陳述1、2、3\s*及\s*4\s*均正確|陳述1、2、3、4\s*及\s*5\s*均正確`),
-	}
-	digits := regexp.MustCompile(`\d+`)
-	for _, q := range loadBank(t) {
-		if !q.Fixed || q.annotated() {
-			continue
-		}
-		var want []string
-		for i, v := range q.Truth {
-			if !v {
-				want = append(want, strconv.Itoa(i+1))
-			}
-		}
-		for _, lang := range []string{"en", "tc"} {
-			explain := q.side(lang).Explain
-			named := map[int]bool{}
-			for _, m := range falseStatements[lang].FindAllStringSubmatch(explain, -1) {
-				for _, d := range digits.FindAllString(m[1], -1) {
-					n, _ := strconv.Atoi(d)
-					named[n] = true
-				}
-			}
-			var got []string
-			for n := 1; n <= q.n(); n++ {
-				if named[n] {
-					got = append(got, strconv.Itoa(n))
-				}
-			}
-			switch none := noneFalse[lang].MatchString(explain); {
-			case len(got) == 0 && !none:
-				t.Errorf("%s (%s): the explanation does not say which statements are false", q.ID, lang)
-			case len(got) > 0 && none:
-				t.Errorf("%s (%s): the explanation says both that statements %s are false and that none is", q.ID, lang, strings.Join(got, ", "))
-			case strings.Join(got, ",") != strings.Join(want, ","):
-				t.Errorf("%s (%s): the explanation calls statements [%s] false, but the truth makes [%s] false",
-					q.ID, lang, strings.Join(got, ","), strings.Join(want, ","))
 			}
 		}
 	}
