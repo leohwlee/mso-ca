@@ -26,14 +26,14 @@ def expected_questions():
 def audit():
     bank_path=ROOT/'web/questions.json';quotes_path=ROOT/'docs/quotes.json'
     bank=json.loads(bank_path.read_text(encoding='utf-8'));quotes=json.loads(quotes_path.read_text(encoding='utf-8'))
-    source_routes=manifest()['documents']; rows=[]
+    data=manifest();source_routes=data['documents'];rows=[]
     for q in bank:
         docs=sorted({r['doc'] for lang in ('tc','en') for r in quotes[q['id']][lang]})
         assert all(source_routes[d] for d in docs),(q['id'],docs)
         # Keep identifiers and source routes only. Content generation imports none of this.
         rows.append(dict(id=q['id'],part=q['module'],source_documents=docs))
     assert len(rows)==len({r['id'] for r in rows})==expected_questions()
-    return dict(method='Post-authoring identifier/source-route check only. This tool does not assess bank-statement semantics or prove completeness. Manual concept review is recorded separately.',bank_sha256=hashlib.sha256(bank_path.read_bytes()).hexdigest(),quotes_sha256=hashlib.sha256(quotes_path.read_bytes()).hexdigest(),manuscripts=manifest()['manuscripts'],essentials=manifest()['essentials'],recall=manifest()['recall'],questions_checked=len(rows),historical_supplements=ADDITIONS,source_routes=source_routes,source_overlap=rows)
+    return dict(method='Post-authoring identifier/source-route check only. This tool does not assess bank-statement semantics or prove completeness. Manual concept review is recorded separately.',bank_sha256=hashlib.sha256(bank_path.read_bytes()).hexdigest(),quotes_sha256=hashlib.sha256(quotes_path.read_bytes()).hexdigest(),manuscripts=data['manuscripts'],essentials=data['essentials'],recall=data['recall'],questions_checked=len(rows),historical_supplements=ADDITIONS,source_routes=source_routes,source_overlap=rows)
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');ap.add_argument('--output',type=Path,default=HERE/'visual-refinement-2026-10-20'/'bank-source-routes.json');args=ap.parse_args()

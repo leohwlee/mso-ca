@@ -3,7 +3,7 @@
 Run gap_check.py separately after authoring; it does not supply page content.
 """
 from __future__ import annotations
-import argparse, base64, copy, hashlib, html, importlib, json, re
+import argparse, base64, copy, functools, hashlib, html, importlib, json, re
 from pathlib import Path
 from urllib.parse import quote, unquote, urlsplit
 from html.parser import HTMLParser
@@ -54,12 +54,17 @@ def resolve_rulings():
 RULED_POINTS,RULED_PANELS=resolve_rulings()
 e=html.escape
 def normal(text):return re.sub(r'\s+',' ',text).casefold()
+@functools.cache
+def source_text(doc):return normal((ROOT/f'docs/text/EN/{doc}.txt').read_text(encoding='utf-8'))
+def edition(doc,lang):return DOCS[doc]['editions']['EN' if doc=='24' else lang.upper()]
+def original(ed,text):return f'<a href="../../docs/{e(quote(ed["path"],safe="/"))}" target="_blank" rel="noopener">{text}</a>'
+def span(lang,inner,tag='span'):return f'<{tag} class="{lang}" lang="{"zh-Hant" if lang=="tc" else "en"}">{inner}</{tag}>'
 def keep_units(markup):
     # Keep the mathematical boundary with its value; neither means the same alone.
     return re.sub(r'(?:≥|≤|&gt;|&lt;)\s*(?:HK\$\s*)?\d[\d,]*(?:\.\d+)?%?',lambda m:'<span class="numeric-unit">'+m.group()+'</span>',markup)
 def pair(value):
     if value['tc']==value['en']:return '<span class="shared">'+keep_units(e(value['tc']))+'</span>'
-    return ''.join(f'<span class="{lang}" lang="{"zh-Hant" if lang=="tc" else "en"}">'+keep_units(e(value[lang]))+'</span>' for lang in ('tc','en'))
+    return ''.join(span(lang,keep_units(e(value[lang]))) for lang in ('tc','en'))
 def label(tc,en):return pair(dict(tc=tc,en=en))
 
 def emphasized_pair(value,suffix=None):
@@ -74,7 +79,7 @@ def emphasized_pair(value,suffix=None):
             if i==3:break
             chunks.extend((e(value[lang][end:m.start()]),'<strong class="recall-term">'+e(m.group())+'</strong>'));end=m.end()
         chunks.append(e(value[lang][end:]))
-        out.append(f'<span class="{lang}" lang="{"zh-Hant" if lang=="tc" else "en"}">'+keep_units(''.join(chunks))+suffix.get(lang,'')+'</span>')
+        out.append(span(lang,keep_units(''.join(chunks))+suffix.get(lang,'')))
     return ''.join(out)
 
 def compact_citations(refs):
@@ -90,9 +95,9 @@ def citations(refs):
     for r in refs:
         entries=[]
         for lang in ('tc','en'):
-            ed=DOCS[r['doc']]['editions']['EN' if r['doc']=='24' else lang.upper()]
+            ed=edition(r['doc'],lang)
             translated=' · 中文為學習譯文；來源為英文原件' if r['doc']=='24' and lang=='tc' else ''
-            entries.append(f'<div class="{lang}" lang="{"zh-Hant" if lang=="tc" else "en"}"><a href="../../docs/{e(quote(ed["path"],safe="/"))}" target="_blank" rel="noopener">{e(ed["file"])}</a><span class="locator">{e(r["locator"][lang]+translated)}</span></div>')
+            entries.append(span(lang,original(ed,e(ed['file']))+'<span class="locator">'+e(r['locator'][lang]+translated)+'</span>','div'))
         out.append('<div class="source-citation">'+''.join(entries)+'</div>')
     return '<div class="citations">'+''.join(out)+'</div>'
 
@@ -109,10 +114,9 @@ def validate():
                 for point in b['points']:assert point['tc'].strip() and point['en'].strip()
                 for r in b['refs']:
                     doc=r['doc'];assert '01'<=doc<='26',doc;used.add(doc)
-                    assert normal(r['anchor']) in normal((ROOT/f'docs/text/EN/{doc}.txt').read_text(encoding='utf-8')),(n,s['id'],r)
+                    assert normal(r['anchor']) in source_text(doc),(n,s['id'],r)
                     for lang in ('TC','EN'):
-                        ed=DOCS[doc]['editions']['EN' if doc=='24' else lang]
-                        assert (ROOT/'docs'/ed['path']).is_file(),ed
+                        ed=edition(doc,lang);assert (ROOT/'docs'/ed['path']).is_file(),ed
         assert len(ids)==len(set(ids)),n
     assert used=={f'{n:02d}' for n in range(1,27)},sorted(used)
     panel_ids=[]
@@ -131,7 +135,7 @@ def validate():
                 check_pairs(panel)
                 assert panel['refs']
                 if panel['kind']=='table':
-                    assert 3 <= len(panel['headers']) <= 4
+                    assert 3 <= len(panel['headers']) <= 4 and not panel.get('groups'),panel['id']
                     assert all(len(row)==len(panel['headers']) and all(cell['tc'] and cell['en'] for cell in row) for row in panel['rows'])
                 if panel['kind']=='decision':
                     assert panel['nodes'][-1].get('no') or panel.get('end'),panel['id']
@@ -143,7 +147,7 @@ def validate():
                     assert len(row['nodes'])==len(row['edges'])+1,panel['id']
                 for r in panel['refs']:
                     assert '01'<=r['doc']<='26'
-                    assert normal(r['anchor']) in normal((ROOT/f'docs/text/EN/{r["doc"]}.txt').read_text(encoding='utf-8'))
+                    assert normal(r['anchor']) in source_text(r['doc'])
     assert len(panel_ids)==len(set(panel_ids)),panel_ids
     # Every numbers-page row points at a real section and cites an anchored passage.
     for group in AMOUNT_GROUPS:
@@ -151,7 +155,7 @@ def validate():
         for row in group['rows']:
             assert any(s['id']==row['section'] for s in PARTS[row['part']]['sections']),(group['id'],row['value']['en'])
             for r in row['refs']:
-                assert '01'<=r['doc']<='26' and normal(r['anchor']) in normal((ROOT/f'docs/text/EN/{r["doc"]}.txt').read_text(encoding='utf-8')),(row['value']['en'],r)
+                assert '01'<=r['doc']<='26' and normal(r['anchor']) in source_text(r['doc']),(row['value']['en'],r)
     # Every block has one study tier; a title that already names a tier must agree.
     for n,part in PARTS.items():
         assert set(TIERS[n])=={s['id'] for s in part['sections']},n
@@ -162,7 +166,7 @@ def validate():
                 for other,prefixes in TIER_PREFIXES.items():
                     if any(b['title'][lang].startswith(prefixes[lang]) for lang in ('tc','en')):assert other==letter,(n,s['id'],b['title']['en'])
     # Exam traps restate owner decisions, so each ID must exist in CONFLICT-CALLS.
-    decisions=set(re.findall(r'^\| ([BWEN]\d+) \|',(ROOT/'revision/CONFLICT-CALLS.md').read_text(encoding='utf-8'),re.M))
+    decisions=set(CALLS)
     trap_ids=[]
     for n,sections in TRAPS.items():
         for sid,traps in sections.items():
@@ -255,12 +259,15 @@ current(location.hash.slice(1)||nav[0]?.dataset.section);
 })();
 """
 def part_nav(n):return '<nav class="part-nav" aria-label="章節導覽 / Parts">'+''.join(f'<a href="part-{i}.html"'+(' aria-current="page"' if n==i else '')+'>'+label(f'第{i}部分',f'Part {i}')+'</a>' for i in PARTS)+'</nav>'
-def tier_title(b,letter):
-    title=dict(b['title'])
-    for lang in ('tc','en'):
-        for prefix in TIER_PREFIXES[letter][lang]:
-            if title[lang].startswith(prefix):title[lang]=title[lang][len(prefix):]
-    return '<span class="tier-chip tier-'+letter+'">'+pair(TIER_LABELS[letter])+'</span>'+pair(title)
+def plain_title(title):
+    """The title without its tier word; validate() checks a title names only the block's own tier."""
+    out=dict(title)
+    for prefixes in TIER_PREFIXES.values():
+        for lang in ('tc','en'):
+            for prefix in prefixes[lang]:
+                if out[lang].startswith(prefix):out[lang]=out[lang][len(prefix):]
+    return out
+def tier_title(b,letter):return '<span class="tier-chip tier-'+letter+'">'+pair(TIER_LABELS[letter])+'</span>'+pair(plain_title(b['title']))
 
 def render_traps(traps,sid):
     if not traps:return ''
@@ -294,7 +301,7 @@ def ruling_chips(ids):
     return out
 def ruling_strip(mark):
     chips=ruling_chips(mark['ids'])
-    return '<p class="ruling-strip">'+''.join(f'<span class="{lang}" lang="{"zh-Hant" if lang=="tc" else "en"}">'+('本圖表套用的裁決' if lang=='tc' else 'Rulings applied in this figure')+chips[lang]+'</span>' for lang in ('tc','en'))+'</p>'
+    return '<p class="ruling-strip">'+''.join(span(lang,('本圖表套用的裁決' if lang=='tc' else 'Rulings applied in this figure')+chips[lang]) for lang in ('tc','en'))+'</p>'
 
 def render_point(p,mark,anchor):
     if not mark:return '<li>'+emphasized_pair(p)+'</li>'
@@ -310,13 +317,6 @@ def render_block(b,letter,n=None,sid=None,bi=None):
     else:points='<ul class="concept-list">'+''.join(render_point(p,mark,f'rule-{sid}-{bi}-{pi}') for pi,(p,mark) in enumerate(zip(b['points'],marks)))+'</ul>'
     return '<div class="concept-block tier-block-'+letter+(' '+b['kind'] if b['kind'] in ('flow','reference') else '')+'">'+title+points+citations(b['refs'])+'</div>'
 
-def plain_title(title):
-    out=dict(title)
-    for prefixes in TIER_PREFIXES.values():
-        for lang in ('tc','en'):
-            for prefix in prefixes[lang]:
-                if out[lang].startswith(prefix):out[lang]=out[lang][len(prefix):]
-    return out
 def ruling_places(n):
     """Every place in Part n that applies a ruling, in reading order."""
     places={}
@@ -343,8 +343,7 @@ def record_text(text):
     def link(match):
         doc,chinese=match.group(1),bool(match.group(2))
         if not '01'<=doc<='26':return match.group(0)
-        ed=DOCS[doc]['editions']['TC' if chinese and doc!='24' else 'EN']
-        return f'(<a href="../../docs/{e(quote(ed["path"],safe="/"))}" target="_blank" rel="noopener">{doc}</a>)'+(match.group(2) or '')
+        return '('+original(edition(doc,'TC' if chinese else 'EN'),doc)+')'+(match.group(2) or '')
     out=re.sub(r'\((\d{2})\)( \(Chinese\))?',link,e(text.strip().lstrip('•').strip(),quote=False))
     return re.sub(r'\*([^*]+)\*',r'<em>\1</em>',out)
 
@@ -352,7 +351,7 @@ def render_record(rid):
     field=lambda tc,en,body:'<dt>'+label(tc,en)+'</dt><dd lang="en">'+body+'</dd>'
     if rid in RULING_RECORDS:
         r=RULING_RECORDS[rid];origin=pair(r['record'])
-        sources=''.join('<li>'+(f'<a href="../../docs/{e(quote(DOCS[doc]["editions"][lang]["path"],safe="/"))}" target="_blank" rel="noopener">{doc}</a> · ')+e(text)+'</li>' for doc,lang,text in r['sources'])
+        sources=''.join('<li>'+original(edition(doc,lang),doc)+' · '+e(text)+'</li>' for doc,lang,text in r['sources'])
         body=field('來源','Sources','<ul>'+sources+'</ul>')+(field('裁決','Decision',e(r['decision'])) if r['decision'] else '')
     else:
         row=CALLS[rid];origin=label(f'revision/CONFLICT-CALLS.md，{rid}',f'revision/CONFLICT-CALLS.md, {rid}')
@@ -378,29 +377,21 @@ def render_register(n):
     entries=''.join(render_ruling(rid,places[rid],n) for rid in sorted(places,key=ruling_order))
     return '<section class="chapter rulings-register" id="rulings" aria-labelledby="title-rulings"><div class="section-heading"><span class="section-number" aria-hidden="true">⚖</span><h2 id="title-rulings">'+label('本部分的裁決','Rulings in this part')+'</h2></div><p class="register-intro">'+intro+'</p>'+entries+'</section>'
 
+def table_html(headers,rows,label,extra_class=''):
+    """rows: (row header html, [cell html, ...]); the first cell is the value column."""
+    out=['<table class="memory-table columns-'+str(len(headers))+extra_class+'" role="table" aria-labelledby="'+label+'"><thead role="rowgroup"><tr role="row">'+''.join('<th scope="col" role="columnheader">'+pair(h)+'</th>' for h in headers)+'</tr></thead>']
+    for head,cells in rows:
+        out.append('<tbody role="rowgroup"><tr role="row"><th scope="row" role="rowheader">'+head+'</th>')
+        for i,cell in enumerate(cells,1):
+            out.append('<td role="cell"'+(' class="memory-value"' if i==1 else '')+'><span class="cell-label" aria-hidden="true">'+pair(headers[i])+'</span>'+cell+'</td>')
+        out.append('</tr></tbody>')
+    return ''.join(out)+'</table>'
+
 def render_panel(panel):
     key=panel['id'];title=pair(panel['title'])
-    out=[f'<figure class="memory-panel" id="memory-{key}" aria-labelledby="memory-title-{key}"><h3 id="memory-title-{key}">'+title+'</h3>'+(ruling_strip(RULED_PANELS[key]) if key in RULED_PANELS and not panel.get('table_label') else '')]
+    out=[f'<figure class="memory-panel" id="memory-{key}" aria-labelledby="memory-title-{key}"><h3 id="memory-title-{key}">'+title+'</h3>'+(ruling_strip(RULED_PANELS[key]) if key in RULED_PANELS else '')]
     if panel['kind']=='table':
-        if panel.get('groups'):
-            for group_number,group in enumerate(panel['groups'],1):
-                group_id=f'memory-title-{key}-group-{group_number}'
-                subset=dict(panel,rows=group['rows'],table_label=group_id);subset.pop('groups',None)
-                out.append('<h4 class="table-group-title" id="'+group_id+'">'+pair(group['title'])+'</h4>')
-                rendered=render_panel(subset)
-                out.append(rendered[rendered.index('<table'):rendered.index('</table>')+8])
-            if panel.get('note'):out.append('<p class="memory-note">'+pair(panel['note'])+'</p>')
-            out.append(compact_citations(panel['refs'])+'</figure>')
-            return ''.join(out)
-        table_class='memory-table columns-'+str(len(panel['headers']))+(' peer-comparison' if panel.get('peers') else '')
-        table_label=panel.get('table_label','memory-title-'+key)
-        out.append('<table class="'+table_class+'" role="table" aria-labelledby="'+table_label+'"><thead role="rowgroup"><tr role="row">'+''.join('<th scope="col" role="columnheader">'+pair(h)+'</th>' for h in panel['headers'])+'</tr></thead>')
-        for row in panel['rows']:
-            out.append('<tbody role="rowgroup"><tr role="row"><th scope="row" role="rowheader">'+pair(row[0])+'</th>')
-            for i,cell in enumerate(row[1:],1):
-                out.append('<td role="cell"'+(' class="memory-value"' if i==1 else '')+'><span class="cell-label" aria-hidden="true">'+pair(panel['headers'][i])+'</span>'+emphasized_pair(cell)+'</td>')
-            out.append('</tr></tbody>')
-        out.append('</table>')
+        out.append(table_html(panel['headers'],[(pair(row[0]),[emphasized_pair(cell) for cell in row[1:]]) for row in panel['rows']],'memory-title-'+key,' peer-comparison' if panel.get('peers') else ''))
     elif panel['kind']=='stages':
         out.append('<ul class="stage-sequence">')
         for i,step in enumerate(panel['steps']):
@@ -457,9 +448,8 @@ def amounts_page():
         for row in g['rows']:
             section=next(s for s in PARTS[row['part']]['sections'] if s['id']==row['section'])
             where=f'<a class="amount-where" href="part-{row["part"]}.html#{row["section"]}">'+label(f'第{row["part"]}部分 · '+section['title']['tc'],f'Part {row["part"]} · '+section['title']['en'])+'</a>'
-            cells=[('memory-value',emphasized_pair(row['what'])),('',emphasized_pair(row['basis'])),('',where+compact_citations(row['refs']))]
-            rows.append('<tbody role="rowgroup"><tr role="row"><th scope="row" role="rowheader">'+pair(row['value'])+'</th>'+''.join('<td role="cell"'+(f' class="{cls}"' if cls else '')+'><span class="cell-label" aria-hidden="true">'+pair(AMOUNT_HEADERS[k+1])+'</span>'+html_ for k,(cls,html_) in enumerate(cells))+'</tr></tbody>')
-        table='<figure class="memory-panel amounts"><table class="memory-table columns-4" role="table" aria-labelledby="title-'+g['id']+'"><thead role="rowgroup"><tr role="row">'+''.join('<th scope="col" role="columnheader">'+pair(h)+'</th>' for h in AMOUNT_HEADERS)+'</tr></thead>'+''.join(rows)+'</table></figure>'
+            rows.append((pair(row['value']),[emphasized_pair(row['what']),emphasized_pair(row['basis']),where+compact_citations(row['refs'])]))
+        table='<figure class="memory-panel amounts">'+table_html(AMOUNT_HEADERS,rows,'title-'+g['id'])+'</figure>'
         body.append(f'<section class="chapter" id="{g["id"]}" aria-labelledby="title-{g["id"]}"><div class="section-heading"><span class="section-number">{i:02d}</span><h2 id="title-{g["id"]}">'+pair(g['title'])+'</h2></div><p class="intro">'+pair(g['intro'])+'</p>'+table+'</section>')
     main='<header class="hero"><h1>'+label('數字與期限總表','Numbers and deadlines')+'</h1></header><p class="part-intro">'+label('七個部分的金額、百分比、日數、年期、費用及刑罰集中在一頁：每行寫明適用情形、起算點或條件，並連到筆記小節及原文。相近的數字放在一起，方便比較。','Every amount, percentage, number of days, period, fee and penalty from the seven parts on one page: each row says when it applies, where its clock starts or what it requires, and links to the notes section and the source. Similar figures sit together for comparison.')+'</p>'+''.join(body)+'<footer><a href="index.html">'+label('返回筆記','Back to the notes')+'</a></footer>'
     return shell('MSO · Numbers · Study Notes',None,''.join(nav),main)
