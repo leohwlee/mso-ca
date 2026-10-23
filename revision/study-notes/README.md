@@ -3,11 +3,11 @@
 Open [index.html](index.html) and select Part 1–7. The source-authored notes retain
 the B blue-gray reference style and Traditional Chinese, English and bilingual
 reading. Keep this folder inside the repository so original-file and practice
-links work. Alternatively, download [v1.12.0's complete study bundle](https://github.com/leohwlee/mso-ca/releases/tag/v1.12.0),
+links work. Alternatively, download [v1.12.1's complete study bundle](https://github.com/leohwlee/mso-ca/releases/tag/v1.12.1),
 extract it fully and open its root `index.html`. Reading pages embed their styles and font and work offline.
 
 開啟 [index.html](index.html)，選擇第1至7部分。筆記以01–26原文整理，保留B風格、
-繁體中文／英文／雙語與離線閱讀。保留於repo內，或下載[v1.12.0完整學習包](https://github.com/leohwlee/mso-ca/releases/tag/v1.12.0)
+繁體中文／英文／雙語與離線閱讀。保留於repo內，或下載[v1.12.1完整學習包](https://github.com/leohwlee/mso-ca/releases/tag/v1.12.1)
 並完整解壓、開啟根目錄的`index.html`，原件及練習連結才可正常使用。
 
 ## Ruling marks, 23 October / 10月23日裁決標記
@@ -18,15 +18,19 @@ numbers are the decisions in `revision/CONFLICT-CALLS.md` (B, W, E, N and D26). 
 number means each language keeps its own wording. Four U numbers mark language differences
 the text handles that have no CONFLICT-CALLS entry. Each Part ends with "Rulings in this
 part": the question, the decision, every place it is used, links to other Parts and the
-recorded entry with links to the cited originals. Three amber "Check" notes flag points
-that may not match the ruling they apply (B6 in Part 3, B13 in Part 4, E23 in Part 6).
-The point text is unchanged.
+recorded entry with links to the cited originals. v1.12.0 flagged three points that did
+not match their ruling; on the owner's decision, v1.12.1 corrects them: the HK$945
+fitness-test fee is paid for each tested person at grant and every renewal (B6, Part 3),
+the CCE must have regard to any other relevant matter (B13, Part 4), and simplified CDD
+stops on doubts about veracity or adequacy (E23, Part 6). Each now also cites the
+Schedule 3 or Schedule 2 provision it follows where that was missing.
 
 應擁有人要求，筆記中每個套用來源矛盾裁決的地方，現都標上紫色編號：共131處（118個要點及13個圖表），
 涉及93項裁決。編號對應`revision/CONFLICT-CALLS.md`的裁決（B、W、E、N及D26）；虛線編號表示兩語各按本身語文。
 四個U編號標示正文已處理、但未列入CONFLICT-CALLS的兩語差異。每部分末設「本部分的裁決」，列出問題、裁決、
-所有出現位置、其他部分連結，以及附原件連結的裁決記錄原文。三項琥珀色「核對」提示標出可能與所套用裁決不一致的要點
-（第3部分B6、第4部分B13、第6部分E23）；要點文字未改動。
+所有出現位置、其他部分連結，以及附原件連結的裁決記錄原文。v1.12.0曾標出三個與裁決不一致的要點；按擁有人決定，
+v1.12.1已修正：適當人選測試費每名受測試人士HK$945，批牌及每次續牌均須繳付（第3部分B6）；關長須考慮其認為有關的
+任何其他事宜（第4部分B13）；對資料的真實性或充分性有疑問即停止簡化盡職審查（第6部分E23）。欠缺的附表3／附表2出處亦已補上。
 
 ## Exam-focus pass, 22 October / 10月22日應試重點整理
 

@@ -124,9 +124,10 @@ section('fees', '附表3：金錢服務牌照費用', 'Schedule 3: MSO licensing
         ref('04', '第27–28條；附表3', 'ss.27–28; Schedule 3', '3,810'),
     ], kind='list'),
     block('申請費、適當人選測試費與退費', 'Application fees, fitness-test fees and refunds', [
-        ('發牌／續牌申請費一經收取，不論其後批准或拒絕均不退還；每位適當人選測試申請人須付一次性測試費，也不退還。不要把申請不成功誤當成可取回費用，亦不要把每人費用算作整家公司只付一次。', 'Grant/renewal application fees are non-refundable whether approved or refused. Each fit-and-proper test applicant pays a one-off test fee, also non-refundable. An unsuccessful application does not create a refund, and a per-person charge is not one charge for the whole company.'),
+        ('發牌／續牌申請費一經收取，不論其後批准或拒絕均不退還；每名受適當人選測試的人士須繳HK$945，批牌及每次續牌均須繳付，同樣不予退還。不要把申請不成功誤當成可取回費用，亦不要把每人費用算作整家公司只付一次。', 'Grant/renewal application fees are non-refundable whether approved or refused. HK$945 is payable for each person subject to the fit-and-proper test, at grant and again at every renewal, and is also non-refundable. An unsuccessful application does not create a refund, and a per-person charge is not one charge for the whole company.'),
     ], [
         ref('05', '第2.8、4.13–4.14、6.3段', '¶2.8, 4.13–4.14, 6.3', 'fee paid for the fit and proper person test is non'),
+        ref('04', '附表3第4–5項', 'Schedule 3 items 4–5', 'plus for each person who is subject to the fit'),
     ], kind='list'),
 ]),
 section('tribunal-schedule', '附表4：審裁處成員及聆訊安排', 'Schedule 4: tribunal membership and hearings', [

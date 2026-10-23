@@ -1,0 +1,114 @@
+{
+  "status": "verified",
+  "date": "2026-10-23",
+  "reason": "Owner decision (23 Oct 2026) on the three check notes added in v1.12.0: correct each point to match its ruling and release v1.12.1. Part 3 fees (B6): HK$945 per tested person at grant and every renewal, not a one-off fee, citing Schedule 3 items 4-5. Part 4 fitness (B13): the CCE must have regard to any other relevant matter (Chinese no longer 可). Part 6 simplified CDD (E23): doubts about veracity or adequacy (Chinese adds 充分), citing Schedule 2 s.3(1)(e). Removes the check notes, regenerates the notes and the gap-pass output, dates the v1.12.1 release notes, points version links and the bundle README at v1.12.1 and replaces the README previews with v1.12.1 captures. Preserves the previous bytes of these files; the 131 ruling marks, question bank, answers, scoring, source originals and CONFLICT-CALLS are unchanged.",
+  "archive": "bank/audit/history/2026-10-23-before-v1.12.1-ruling-fixes.zip",
+  "archive_sha256": "8c6a4f08726b4dfe12be3aaf62ef70307cad5b44f5229ecc252b653dcfcf38ac",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "0c83353c99d60b3703a1b6c987971d59c73d8c28506e79db1bc1988a8e9ff618",
+      "after_sha256": "21bddbcbb98719827d56804760a5ce4b9911f11a06dd56a5474a59553383a467"
+    },
+    "README.md": {
+      "before_sha256": "699ce01f299472667d8b24b1d8480eb2924bd247618cb7c9577fc44a6e71b8f9",
+      "after_sha256": "f0c4b21b3010446805eecd470f6f1fed151872341bc592421297fb1cd1419884"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "6177cb0d53c225a667ddcce29ace976d745e10b016b0f6df137fca038bbce782",
+      "after_sha256": "4ea2a8030a8f59151ef2865a7513454e348ba05032d8f7b93daeb0a0ab5fd554"
+    },
+    "docs/README.md": {
+      "before_sha256": "aa729888452eb3c13d0807b112a555b9d7e25a80a1b6601880411c9312112558",
+      "after_sha256": "d00522f39b090c7530344421d6d1e977be137855215e98e11ceb18ca016bd449"
+    },
+    "docs/README.zh-Hant.md": {
+      "before_sha256": "1622cadff19e01ed100cc4342282deb9dac419dd102f3fbf2ee46d04abc3354a",
+      "after_sha256": "179c6115f29bce53a169e1aa7ebbdc209a0ad88b245ce56c709df72da35b3910"
+    },
+    "docs/archive/README.md": {
+      "before_sha256": "b56c6b6413230b4b7152dc47985282f18402504007d9d47a254d0dc533583458",
+      "after_sha256": "e259a96b7f2f512d6a19a45cc71acefd27a8a2bc08c3b5c9faf5d0808d892e15"
+    },
+    "docs/archive/README.zh-Hant.md": {
+      "before_sha256": "3d9b14a828f129b119fe7b3be91b73908051e2525f9c48514e443ca3a7f0e5c4",
+      "after_sha256": "ed4c75f1d2c026257d28c9f4fb47433cc1047ab202ff0ac88fb94553f6748322"
+    },
+    "docs/build_catalog.py": {
+      "before_sha256": "17e6773042224fa3eef47813879df1a65509addca9e093701edb3806e89c626c",
+      "after_sha256": "442078416cd7278a10c37f07df603d774fa5b24251a83a9f313afa3036b84585"
+    },
+    "docs/images/readme-previews.json": {
+      "before_sha256": "2c552c1023a5536a3f52851ecc8804f57fcbadc22c83eb62fa63a3684a8bfedb",
+      "after_sha256": "7e673f9aa81870ddc9ddd0abf18e65aef69ccd6458fb6f72fc087c0f3806d9ad"
+    },
+    "revision/study-notes/README.md": {
+      "before_sha256": "612581b6382025215c85d0b51390b820dd8df4ebc9953751e1f223119f3df5f2",
+      "after_sha256": "3ec5bc631383ed4c3805b8447bd089bb07e9e917a6343ed0cd35348f6d242207"
+    },
+    "revision/study-notes/build.py": {
+      "before_sha256": "334920caf44a7e0e34bed310e84d01c28f1fe9862a6ee2967079c39710ffcc11",
+      "after_sha256": "7435478a2bef4435e7dbe45b1aab5bdc45f68458876dd8a80fb024bedd9984a5"
+    },
+    "revision/study-notes/coverage.json": {
+      "before_sha256": "8080201c148f6c3d872a437a24e2e89d4ddff5776ec4d84f78db7857ffd96edf",
+      "after_sha256": "202495dbc851fc86972471936281b36572f047810b6dd41f935863481dea531b"
+    },
+    "revision/study-notes/index.html": {
+      "before_sha256": "0b5067f4e33ddb8a790cc0128c41ce026e564b0fba3b554d425722a54d13cb4e",
+      "after_sha256": "d258e28786868b95c9709c6087ee0c16b2a75afed05132c0e72dca4423708805"
+    },
+    "revision/study-notes/part-1.html": {
+      "before_sha256": "0b5067f4e33ddb8a790cc0128c41ce026e564b0fba3b554d425722a54d13cb4e",
+      "after_sha256": "d258e28786868b95c9709c6087ee0c16b2a75afed05132c0e72dca4423708805"
+    },
+    "revision/study-notes/part-2.html": {
+      "before_sha256": "aa24e6fea04da1a8aca34d69dcad6f479a17799d16546ea1ae2337b84ce1d2b2",
+      "after_sha256": "e3f37ed3a2bdef9c646ce12be60e1ff48c8097f92e57d2acf597a612bd8993a0"
+    },
+    "revision/study-notes/part-3.html": {
+      "before_sha256": "6af27d68263a0e38362ee15dbe58ec8163f5a7f93fb22a49cbe527f9c72773a3",
+      "after_sha256": "1e4d2494a8029aed50cd2be27a282af7380a03257f32ed5e0cbe318dbf5eba32"
+    },
+    "revision/study-notes/part-4.html": {
+      "before_sha256": "409a63ed66d63ad51d6838ffcf2093ab114f49cd0a5900d10874767ed8b39a2f",
+      "after_sha256": "87c6088d38dae3dd1947b8ad8bbaa52c409ddb28cab5bd8210c665cd14dea0b1"
+    },
+    "revision/study-notes/part-5.html": {
+      "before_sha256": "1c8d7203ef7695150a9315769f81f69f2c68bec401a690e9c72558f014841223",
+      "after_sha256": "3b6772ac1f142cb64e8e575bb77b800b37016407985d5c451c8d3512be66dfc5"
+    },
+    "revision/study-notes/part-6.html": {
+      "before_sha256": "3016c028933e0167d81581fd33f5c8d431caf7e2131fac7fa500921108d29379",
+      "after_sha256": "99fd9c3c74a3577e575175837f28361971dbcb85f339b1af91da8d5d0cd50739"
+    },
+    "revision/study-notes/part-7.html": {
+      "before_sha256": "def366109d3ea77f57c783decd1ce7e2ead75d8a7c49a65bdfe9d6bcd62574c9",
+      "after_sha256": "662b904662f0bb8b515b04f702b01b0bd261dff5ab0189da4d670aab8e18a112"
+    },
+    "revision/study-notes/part3.py": {
+      "before_sha256": "c327d32cc0a04735f69ef1ebade03ab4950afa4a6c5beeee02ab73ca0ffde928",
+      "after_sha256": "07b2ee64896aff844ca705902cf0da023236e2081ae649b54b68408b18516adc"
+    },
+    "revision/study-notes/part4.py": {
+      "before_sha256": "949e93517b757efb257e1067a487a1b69f55bf90f5c6500cd3e9a9394edac308",
+      "after_sha256": "7facf55879333b38bf30ae0994297ddbf05ce6b6fa91227b9f0bfe46a3b994a0"
+    },
+    "revision/study-notes/part6.py": {
+      "before_sha256": "dbcac544447f6b6f97b16a37525c0f1cfd3945dfd1e22da4f432cbf5404eb9bf",
+      "after_sha256": "11eacae31f4f30d5eb653295c1916436c4af22cc2c638d843769072f71b257ae"
+    },
+    "revision/study-notes/rulings.py": {
+      "before_sha256": "a4b04897fe7ec45d30551139138cd69831fd2d5a539023e0a2114d62eb9b7076",
+      "after_sha256": "f10c92e35be97ce381e3d025d2eff54007cd9933da9475237ebc089607ede583"
+    },
+    "revision/study-notes/visual-refinement-2026-10-20/bank-source-routes.json": {
+      "before_sha256": "ca9b6aa42fb000db8137572e04eb1f8c389b353ca7cf4941167c25f3ab5c9686",
+      "after_sha256": "b07b136c1b0602651fa10ee2c657ad019834d6f6eaac16444fe10b0aee8abd4f"
+    },
+    "scripts/build_study_bundle.py": {
+      "before_sha256": "fd4f76e1c438e5f0b2e9f998ae65b1cd8db861358dcf684c2ff2248dc1f6de3c",
+      "after_sha256": "4ca07900c1452e98b902606ea76248749f8e876ffaf0883d6e169409bc3493c9"
+    }
+  },
+  "documentation_updates": {}
+}

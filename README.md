@@ -17,19 +17,20 @@ The bundle contains the seven-part notes, the practice app and the cited 01–26
 originals. Keep the folders together so study, practice and source links work
 offline. You do not need to download the repository or install Go.
 
-![Blue-gray practice homepage with mock exam and custom practice](docs/images/app-v1.12.0-en.png)
+![Blue-gray practice homepage with mock exam and custom practice](docs/images/app-v1.12.1-en.png)
 
-*Practice homepage, English. Captured from the v1.12.0 app on 23 October 2026.*
+*Practice homepage, English. Captured from the v1.12.1 app on 23 October 2026.*
 
-## What's new in v1.12.0
+## What's new in v1.12.1
 
 The notes now mark every place where they apply a source-conflict ruling. A purple
 number beside a point or figure, such as B27 or E13, names the owner decision in
 [CONFLICT-CALLS](revision/CONFLICT-CALLS.md): 131 marks across 93 rulings. A dashed
 number means each language keeps its own wording. Each part ends with "Rulings in
 this part", which gives the decision, every place it is used and the recorded entry,
-with links to the cited originals. Three amber "Check" notes flag points that may
-not match their ruling.
+with links to the cited originals. v1.12.1 corrects the three points that v1.12.0
+flagged as not matching their ruling: the fitness-test fee (B6), the CCE's duty to
+consider other relevant matters (B13) and when simplified CDD stops (E23).
 
 The 552 questions and their answers are unchanged. v1.11.0 added 27 reviewed
 questions and the exam-focus aids: study tiers, 69 exam traps and new figures. The
@@ -39,9 +40,9 @@ are not coverage percentages.
 Read the [notes' scope and ruling marks](revision/study-notes/README.md)
 and the [current review evidence](bank/audit/ACTIVE-SCOPE.md).
 
-![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.12.0-en.png)
+![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.12.1-en.png)
 
-*Part 6 reading example, English. Captured from the v1.12.0 notes on 23 October 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
+*Part 6 reading example, English. Captured from the v1.12.1 notes on 23 October 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
 
 ## Choose how to practise
 
