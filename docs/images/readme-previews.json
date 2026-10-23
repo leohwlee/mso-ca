@@ -1,11 +1,11 @@
 {
-  "version": "v1.12.1",
-  "captured_at": "2026-10-23T06:45:20.838Z",
-  "source_commit": "1a8955d29c825355a1cd117fd2600640755f2e21",
+  "version": "v1.13.0",
+  "captured_at": "2026-10-23T13:19:52.809Z",
+  "source_commit": "c07ea71e614f52d95106842459e72915ce3b80fb",
   "method": "Fresh isolated browser contexts; actual offline pages; no synthetic scores or image edits.",
   "captures": [
     {
-      "file": "docs/images/app-v1.12.1-en.png",
+      "file": "docs/images/app-v1.13.0-en.png",
       "source": "dist/mso-ca.html",
       "lang": "en",
       "anchor": "",
@@ -14,24 +14,24 @@
         "height": 1000
       },
       "full_page": true,
-      "source_sha256": "8995e8390a222d92a235ab88a47952804fab2a5e10771c7346bed8d7fb5a544b",
-      "image_sha256": "b82036dd3ae0b4e43b1a450aace552c0c7e924d20c9cb7409c0583d04d2c0911"
+      "source_sha256": "46c1f85a7d46297e688fd742cac6e423e81565af15775c9915b7dbe1f59bc1ee",
+      "image_sha256": "743b17ef860395e6508b47db5fd5e02f51296462b1cefe0126e809e15cae0178"
     },
     {
-      "file": "docs/images/study-v1.12.1-en.png",
+      "file": "docs/images/study-v1.13.0-en.png",
       "source": "revision/study-notes/part-6.html",
       "lang": "en",
       "anchor": "#memory-cdd-trigger-tree",
       "viewport": {
         "width": 1440,
-        "height": 1264
+        "height": 1249
       },
       "full_page": false,
-      "source_sha256": "99fd9c3c74a3577e575175837f28361971dbcb85f339b1af91da8d5d0cd50739",
-      "image_sha256": "73dbc1a7c388c5747e10140f6520b895d39bba969d21862c019194d27fc07d5d"
+      "source_sha256": "0447cf1d7292488575e7985329de3d9d6ac11f866c340122b2d8c3085c3de4b8",
+      "image_sha256": "43acef232cf96ecb97454c1c0f3d0632eef002a567a7284ca25154ee86db2ba4"
     },
     {
-      "file": "docs/images/app-v1.12.1-tc.png",
+      "file": "docs/images/app-v1.13.0-tc.png",
       "source": "dist/mso-ca.html",
       "lang": "tc",
       "anchor": "",
@@ -40,21 +40,21 @@
         "height": 1000
       },
       "full_page": true,
-      "source_sha256": "8995e8390a222d92a235ab88a47952804fab2a5e10771c7346bed8d7fb5a544b",
-      "image_sha256": "6f8d4bd2e7e52b1ec4d884097d15851fedf86681058a68b450394460f5b77bd1"
+      "source_sha256": "46c1f85a7d46297e688fd742cac6e423e81565af15775c9915b7dbe1f59bc1ee",
+      "image_sha256": "450c7d6102c40308dabadce31dd39e96631d297164e6cccc09c354f9bfc3463b"
     },
     {
-      "file": "docs/images/study-v1.12.1-tc.png",
+      "file": "docs/images/study-v1.13.0-tc.png",
       "source": "revision/study-notes/part-6.html",
       "lang": "tc",
       "anchor": "#memory-cdd-trigger-tree",
       "viewport": {
         "width": 1440,
-        "height": 1116
+        "height": 1083
       },
       "full_page": false,
-      "source_sha256": "99fd9c3c74a3577e575175837f28361971dbcb85f339b1af91da8d5d0cd50739",
-      "image_sha256": "97f79fd0d7c53445b8fb7f0df41cb61f206b2e642b5eca9621c9347f75c5797d"
+      "source_sha256": "0447cf1d7292488575e7985329de3d9d6ac11f866c340122b2d8c3085c3de4b8",
+      "image_sha256": "0fec8bfae74fa96bf2903dd3deebd46c6e3182798bfb985e77e8d6f5fb45ca14"
     }
   ],
   "errors": [],

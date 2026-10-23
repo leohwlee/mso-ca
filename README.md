@@ -17,33 +17,35 @@ The bundle contains the seven-part notes, the practice app and the cited 01–26
 originals. Keep the folders together so study, practice and source links work
 offline. You do not need to download the repository or install Go.
 
-![Blue-gray practice homepage with mock exam and custom practice](docs/images/app-v1.12.1-en.png)
+![Blue-gray practice homepage with mock exam, custom practice and the wrong-answer book](docs/images/app-v1.13.0-en.png)
 
-*Practice homepage, English. Captured from the v1.12.1 app on 23 October 2026.*
+*Practice homepage, English. Captured from the v1.13.0 app on 23 October 2026.*
 
-## What's new in v1.12.1
+## What's new in v1.13.0
 
-The notes now mark every place where they apply a source-conflict ruling. A purple
-number beside a point or figure, such as B27 or E13, names the owner decision in
-[CONFLICT-CALLS](revision/CONFLICT-CALLS.md): 131 marks across 93 rulings. A dashed
-number means each language keeps its own wording. Each part ends with "Rulings in
-this part", which gives the decision, every place it is used and the recorded entry,
-with links to the cited originals. v1.12.1 corrects the three points that v1.12.0
-flagged as not matching their ruling: the fitness-test fee (B6), the CCE's duty to
-consider other relevant matters (B13) and when simplified CDD stops (E23).
+The bank grows to 588 questions: 36 blind-reviewed questions whose false statements
+change one number, period, name or actor in an otherwise faithful sentence — penalty
+figures, the six main laws' exact names, the Cap. 629 periods and the HK$120,000 line,
+licence periods and fees, the $120,000 / $8,000 CDD lines, the renewal, result and
+nomination timelines, the six screening parties, training records and more. The
+practice app keeps a **wrong-answer book** (a question stays until it is answered
+right twice in a row) and draws unseen questions first in custom practice.
 
-The unreleased second batch adds 36 blind-reviewed questions whose false statements
-change a number, a period, a name or an actor, for 588 in all. v1.11.0 added 27 reviewed
-questions and the exam-focus aids: study tiers, 69 exam traps and new figures. The
-notes have 75 topics, 626 bilingual point pairs, 9 tables and 25 diagrams. Counts
+The notes gain a study-tier filter and a **Ruling marks** switch on the toolbar, a
+**Numbers** page with 70 amounts, periods, fees and penalties, and 45 new figures,
+79 in all: 35 list cards that show how many items a source list has, comparison
+tables, and routes for renewal, new licences, CDD and STRs. The purple ruling numbers
+(131 marks across 93 rulings) name the owner decisions in
+[CONFLICT-CALLS](revision/CONFLICT-CALLS.md) and stay hidden until switched on. The
+notes have 75 topics, 626 bilingual point pairs, 14 tables and 65 diagrams. Counts
 are not coverage percentages.
 
 Read the [notes' scope and ruling marks](revision/study-notes/README.md)
 and the [current review evidence](bank/audit/ACTIVE-SCOPE.md).
 
-![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.12.1-en.png)
+![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.13.0-en.png)
 
-*Part 6 reading example, English. Captured from the v1.12.1 notes on 23 October 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
+*Part 6 reading example, English. Captured from the v1.13.0 notes on 23 October 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
 
 ## Choose how to practise
 
