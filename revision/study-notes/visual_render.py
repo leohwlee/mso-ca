@@ -86,6 +86,16 @@ def render(panel, pair):
             out+=''.join('<div class="deadline-group"><h4 class="deadline-group-title">'+pair(g['title'])+'</h4><div class="deadline-chart">'+rows(g['rows'])+'</div></div>' for g in panel['deadline_groups'])
         else:out+='<div class="deadline-chart">'+rows(panel['deadlines'])+'</div>'
         out+=para(panel['scale_note'],'threshold-scale-note')
+    elif kind=='checklist':
+        # A source list with its length made explicit, so a candidate can count the items.
+        def group(title,items,operator=None):
+            head='<p class="checklist-head"><b class="checklist-count">'+str(len(items))+'</b>'+(pair(title) if title else '')+(('<span class="checklist-operator">'+pair(operator)+'</span>') if operator else '')+'</p>'
+            return '<div class="checklist-group">'+head+'<ol class="checklist-items'+(' long' if len(items)>=8 else '')+'">'+''.join('<li>'+pair(x)+'</li>' for x in items)+'</ol></div>'
+        out+='<div class="checklist">'
+        if panel.get('groups'):out+=''.join(group(g['title'],g['items'],g.get('operator')) for g in panel['groups'])
+        else:out+=group(panel.get('lead'),panel['items'],panel.get('operator'))
+        if panel.get('confuse'):out+='<p class="checklist-confuse"><b>'+pair(dict(tc='易混項',en='Easily confused'))+'</b>'+''.join('<span>'+pair(x)+'</span>' for x in panel['confuse'])+'</p>'
+        out+='</div>'
     elif kind=='id-columns':
         def numbered(title,items,cls=''):
             return '<p class="id-step"><b class="id-count">'+str(len(items))+'</b>'+pair(title)+'</p><ol class="id-list'+cls+'">'+''.join('<li>'+pair(x)+'</li>' for x in items)+'</ol>'

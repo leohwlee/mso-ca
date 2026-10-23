@@ -18,11 +18,11 @@
   },
   "recall": {
     "sha256": "12e9f787f1e1e8a91743bb0b83ef24866871b2e6bdbcc5e4195b69e8b6b92164",
-    "tables": 9,
-    "diagrams": 25,
+    "tables": 14,
+    "diagrams": 65,
     "visual_sources": {
-      "visual_panels.py": "368f788972e57b26ce4d94714bf759ec8281f7bd6af978c12d582c3eeef3816b",
-      "visual_render.py": "4fc7f19bb80ccb760b4c3d7784f4157e7daab6175c6b86a336541916e67065a8"
+      "visual_panels.py": "4483829dc61e2ea14cbfe231a81ac7d41fc8fe2e019160195eb1744e9b705813",
+      "visual_render.py": "6bf9788e5563990dbc045611bddfebe863cf4617e83ba27285f39168f636e3c5"
     }
   },
   "questions_checked": 552,
@@ -70,9 +70,12 @@
   ],
   "source_routes": {
     "01": [
+      "part-2.html#grant-renewal",
+      "part-4.html#application",
       "part-4.html#assessment"
     ],
     "02": [
+      "part-4.html#application",
       "part-4.html#assessment"
     ],
     "03": [
@@ -121,6 +124,7 @@
     ],
     "04": [
       "part-1.html#money-laundering",
+      "part-1.html#legal-framework",
       "part-1.html#risk-assessment",
       "part-2.html#statutory-map",
       "part-2.html#criminal-liability",
@@ -144,6 +148,7 @@
       "part-4.html#application",
       "part-4.html#fitness",
       "part-5.html#group-controls",
+      "part-6.html#cdd",
       "part-6.html#beneficial-owners",
       "part-6.html#timing",
       "part-6.html#simplified",
@@ -195,8 +200,10 @@
       "part-6.html#third-party-payments"
     ],
     "09": [
+      "part-1.html#legal-framework",
       "part-1.html#international",
       "part-1.html#sanctions",
+      "part-2.html#statutory-map",
       "part-5.html#institutional-assessment"
     ],
     "10": [
@@ -254,6 +261,7 @@
       "part-1.html#legal-framework",
       "part-1.html#risk-assessment",
       "part-1.html#sanctions",
+      "part-2.html#statutory-map",
       "part-5.html#risk-based",
       "part-6.html#beneficial-owners",
       "part-6.html#monitoring",
@@ -263,8 +271,10 @@
       "part-7.html#law-enforcement"
     ],
     "26": [
+      "part-1.html#legal-framework",
       "part-1.html#international",
       "part-1.html#sanctions",
+      "part-2.html#statutory-map",
       "part-6.html#screening"
     ]
   },

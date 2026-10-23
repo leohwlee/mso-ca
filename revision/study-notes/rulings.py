@@ -215,11 +215,11 @@ MARKS = {1: {
     ],
     'trade-based-laundering': [m('E32', 'TBML disguises criminal proceeds')],
 }, 7: {
+    'reporting-duty': [m('W11', 'panel:str-route')],
     'internal-report': [
         m('U4', 'the Chinese uses 必須'),
         m('W11', 'Balance information gathering with prompt reporting'),
         m('E30', 'An MSO controlling both sides'),
-        m('W11', 'panel:reporting-route'),
     ],
     'tipping-off': [m('W10', 'Revealing information likely to prejudice')],
     'retention': [m('W8', 'The MSO remains responsible when intermediaries')],

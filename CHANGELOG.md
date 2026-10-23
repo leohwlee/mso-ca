@@ -1,5 +1,16 @@
 # Release notes / 版本更新
 
+## Unreleased
+
+- Study notes: the toolbar gains a study-tier filter (All; Remember + Understand; Remember only) and a **Ruling marks** switch; the 131 purple ruling numbers and the per-part rulings register are hidden until switched on. A new **Numbers** page (`amounts.html`) lists 70 amounts, shares, periods, fees and penalties in seven groups, each with its starting point or condition, a link to the notes section and the cited passage.
+- Figures grow from 34 to 79: 35 list cards that show the number of items in a source list (the four CDD measures, the three STR-system components, the six screening parties, the fourteen Form 6 changes, the nine revocation examples, the section 25 exemptions, the PPTA items and more), four new comparison tables (the six main laws, who does what, SDD versus EDD, wire transfers versus non-wire remittances) and a sanctions-actors table, the renewal line (90, 45, 7 and 30 days), the new-licence route, the CDD route, the STR route from discovery to after disclosure (replacing the former internal-reporting figure), beneficial-owner shareholding examples and the periodic-return clocks. Point text is unchanged.
+- Practice app: a **Wrong-answer book** keeps every question answered wrong, in practice or in a mock, until it is answered right twice in a row, with a button to practise it; custom practice draws unseen questions before seen ones and the home page shows how many remain. The stylesheet is one layer instead of a base plus overrides, with no visual change (verified by computed-style comparison).
+- The 552 questions, answers, scoring and source editions are unchanged.
+- 筆記：工具列新增學習層次篩選（全部／必記＋理解／只看必記）及「裁決標記」開關，131處紫色裁決編號及各部分的裁決登記冊預設隱藏，按下才顯示。新增**數字總表**（`amounts.html`），分七組集中70項金額、比例、期限、費用及刑罰，每行寫明起算點或條件，並連到筆記小節及所引原文。
+- 圖表由34個增至79個：35張標明項數的清單卡（四項CDD措施、可疑交易報告制度三項組成、篩查六組相關方、表格6的十四項變更、九類撤牌例子、第25條豁免、PPTA資料等）、四張新對照表（六條主要法例、誰做甚麼、簡化與加強、電傳與非電傳匯款）及制裁角色表、續牌主線（90、45、7、30日）、新牌申請流程、CDD流程、由發現到披露之後的可疑交易報告流程（取代原內部報告圖）、實益擁有人持股例子及定期申報期限。要點文字不變。
+- 練習App：新增**錯題本**，練習或模擬試答錯的題目會保留至連續答對兩次，並可一鍵練習；自選練習先抽未做過的題目，首頁顯示尚餘多少題。樣式表合併為一層，視覺不變（以計算樣式逐項比對核實）。
+- 552道題、答案、評分及來源版次均不變。
+
 ## v1.12.1 — 23 October 2026
 
 - Corrects the three study-note points that v1.12.0 flagged as not matching the owner's rulings, and removes their amber "Check" notes:

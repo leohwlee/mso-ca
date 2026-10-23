@@ -586,3 +586,49 @@ body[data-lang=both] .ruling-where a>.en{display:inline;margin:0}
 body[data-lang=both] .ruling-where a>.en::before{content:" / "}
 @media(max-width:600px){.ruling-entry{padding:14px 14px 12px}.concept-list li.ruled{padding-left:.55em}}
 @media print{.ruling-entry{break-inside:avoid;background:none}.ruling-chip{background:none}}
+/* Study controls: tier filter, ruling-mark toggle and the numbers page link in the toolbar. */
+.tiers{display:flex;gap:3px;flex-shrink:0}
+.tiers button,.toggle-rulings{color:var(--muted);background:white;border:1px solid var(--line);border-radius:3px;padding:4px 9px;font-size:12px;line-height:1.5;min-height:28px;white-space:nowrap}
+.tiers button:hover,.toggle-rulings:hover{background:var(--wash)}
+.tiers button[aria-pressed=true]{color:white;background:var(--accent);border-color:var(--accent)}
+.toggle-rulings{color:var(--ruling);border-color:var(--ruling-line)}
+.toggle-rulings[aria-pressed=true]{color:white;background:var(--ruling);border-color:var(--ruling)}
+.numbers-link{font-size:13px;text-decoration:none;border-left:1px solid var(--line);padding-left:16px;white-space:nowrap}
+.numbers-link[aria-current=page]{font-weight:650}
+body[data-lang=both] :is(.tiers button,.toggle-rulings,.numbers-link)>.en{display:inline;margin:0;color:inherit}
+body[data-lang=both] :is(.tiers button,.toggle-rulings,.numbers-link)>.en::before{content:" / "}
+body[data-tier=M] .concept-block:not(.tier-block-M),body[data-tier=MU] .concept-block:is(.tier-block-R,.tier-block-F){display:none}
+body[data-rulings=off] :is(.ruling-chip,.ruling-strip,.ruling-check,.rulings-register,.key-rulings,.sidebar a[data-section=rulings]){display:none}
+body[data-rulings=off] .concept-list li.ruled{padding-left:.35em;border-left:0}
+@media(max-width:1180px){.toolbar-inner{flex-wrap:wrap;row-gap:8px}.brand{flex-basis:100%;margin-right:0}}
+@media(max-width:600px){.tiers button,.toggle-rulings{padding:4px 7px;font-size:11px}.numbers-link{padding-left:10px}}
+/* List cards: a source list with its length made explicit. */
+.checklist{border-top:1px solid var(--ink);border-bottom:1px solid var(--line);padding:4px 0 12px}
+.checklist-group{padding:14px 0 6px}
+.checklist-group+.checklist-group{border-top:1px dashed var(--line)}
+.checklist-head{display:flex;align-items:center;gap:10px;margin:0 0 8px;font-size:15px;font-weight:600;color:var(--accent)}
+.checklist-count{display:inline-grid;place-items:center;min-width:30px;height:30px;padding:0 8px;border-radius:15px;background:var(--accent);color:var(--paper);font:600 15px "DM Mono",Consolas,monospace}
+.checklist-operator{margin-left:auto;font-size:12px;font-weight:650;color:var(--warning);background:var(--warm);padding:3px 8px;white-space:nowrap}
+.checklist-items{margin:0;padding-left:28px;font-size:16px;line-height:1.75}
+.checklist-items li{padding:4px 0 4px 2px;break-inside:avoid}
+.checklist-items li::marker{color:var(--accent);font-weight:600}
+.checklist-confuse{margin:14px 0 0;padding:10px 14px;background:var(--warm);color:var(--warning);font-size:14px;line-height:1.7}
+.checklist-confuse>b{display:block;font-size:12px;margin-bottom:4px}
+.checklist-confuse>span{display:block}
+.checklist-confuse>span+span{margin-top:4px}
+body[data-lang=both] :is(.checklist-head,.checklist-operator,.checklist-confuse>b)>.en{display:inline;margin:0;color:inherit}
+body[data-lang=both] :is(.checklist-head,.checklist-operator,.checklist-confuse>b)>.en::before{content:" / "}
+@container study-figure (min-width:720px){.checklist-items.long{columns:2;column-gap:36px}}
+@media print{.checklist-group{break-inside:avoid}}
+/* Numbers page: one table per group, the first column is the figure. */
+.memory-panel.amounts{margin-top:12px}
+.amounts .memory-table thead th:first-child{width:22%}
+.amounts .memory-table thead th:nth-child(2){width:30%}
+.amounts .memory-table thead th:nth-child(3){width:28%}
+.amounts .memory-table thead th:nth-child(4){width:20%}
+.amounts .memory-table tbody th{font:600 17px/1.5 "DM Mono",Consolas,"Microsoft JhengHei",monospace}
+.amounts .memory-table .memory-value{font-weight:400}
+.amount-where{display:block;font-size:14px;line-height:1.6;margin-bottom:6px}
+.amounts .citations{margin-top:0}
+body[data-lang=both] .amount-where>.en{display:inline;margin:0}
+body[data-lang=both] .amount-where>.en::before{content:" / "}
