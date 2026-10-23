@@ -27,7 +27,7 @@ are available separately in the reading library.
 
 *Practice homepage, English. Captured from the v1.10.1 app on 20 October 2026.*
 
-The [v1.10.2 wording update](CHANGELOG.md) uses natural Chinese section labels in notes, navigation and practice. The previews below were captured in v1.10.1.
+[v1.11.0](CHANGELOG.md) adds 27 reviewed questions, ten of them with no true statement, and exam-focus aids in the notes: study tiers, 69 exam traps and new figures. The previews below were captured in v1.10.1.
 
 ## Updated study notes in v1.10.1
 
