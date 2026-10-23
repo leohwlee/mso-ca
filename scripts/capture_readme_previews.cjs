@@ -9,6 +9,7 @@ const { pathToFileURL } = require('node:url');
 const { execFileSync } = require('node:child_process');
 const root = path.resolve(__dirname, '..');
 const version = fs.readFileSync(path.join(root, 'CHANGELOG.md'), 'utf8').match(/^## (v[\d.]+) /m)[1];
+const questions = JSON.parse(fs.readFileSync(path.join(root, 'web/questions.json'), 'utf8')).length;
 const output = path.join(root, 'docs/images');
 const hash = data => crypto.createHash('sha256').update(data).digest('hex');
 
@@ -41,7 +42,7 @@ const hash = data => crypto.createHash('sha256').update(data).digest('hex');
         if (kind === 'app') {
           await page.locator('#btn-start').waitFor({state:'visible'});
           const count = await page.evaluate(() => window.BANK.length);
-          if (count !== 525) throw new Error(`Unexpected bank count ${count}`);
+          if (count !== questions) throw new Error(`Unexpected bank count ${count}`);
         } else {
           await page.locator('#memory-cdd-trigger-tree').waitFor({state:'visible'});
           await page.evaluate(() => document.getElementById('memory-cdd-trigger-tree').scrollIntoView());

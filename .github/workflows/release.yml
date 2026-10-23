@@ -1,6 +1,7 @@
 name: Release
 
-# Builds the offline exam app from the tagged commit and publishes it.
+# Builds the offline study bundle from the tagged commit and publishes it as the
+# only release asset; the practice app, notes and originals 01–26 are inside it.
 # dist/ is gitignored; release assets are produced from source at tag time.
 on:
   push:
@@ -45,13 +46,13 @@ jobs:
           python3 revision/study-notes/build.py --check
           python3 revision/study-notes/gap_check.py --check
 
-      - name: Build single-file app
+      - name: Build study bundle
         run: |
           mkdir -p dist
           go run . -export-html dist/mso-ca.html
           python3 scripts/build_study_bundle.py
           python3 scripts/build_study_bundle.py --check
-          ls -lh dist/mso-ca.html
+          ls -lh dist/mso-ca.html dist/mso-study-bundle.zip
 
 
       # The release notes are the tag's message, so an annotated tag says what
@@ -69,6 +70,6 @@ jobs:
           else
             notes=--generate-notes
           fi
-          gh release create "$GITHUB_REF_NAME" dist/mso-ca.html dist/mso-study-bundle.zip \
+          gh release create "$GITHUB_REF_NAME" dist/mso-study-bundle.zip \
             --title "$GITHUB_REF_NAME" \
             "$notes"

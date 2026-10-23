@@ -4,7 +4,7 @@
 
 ## What is necessary
 
-Users need only the released `mso-ca.html` and a browser. There is no server,
+Users need only the released `mso-study-bundle.zip` and a browser. There is no server,
 database, account system, package manager or API key.
 
 | Files | Purpose |
@@ -74,19 +74,22 @@ checked against their original review hashes without rebuilding the discontinued
 
 ## Release
 
-Update bilingual `CHANGELOG.md`, run the checks and inspect the HTML. Review and
-commit changes, then push the branch. When publication is authorized, save the
-version's notes in a file and create a new annotated tag:
+Update bilingual `CHANGELOG.md`, run the checks and inspect the HTML. Then refresh
+the README previews from the new version: build `dist/mso-ca.html`, run
+`node scripts/capture_readme_previews.cjs` (Playwright required) and point both
+READMEs at the new images, replacing the previous ones. Review and commit changes,
+then push the branch. When publication is authorized, save the version's notes in
+a file and create a new annotated tag:
 
 ```bash
 git tag -a vX.Y.Z --cleanup=whitespace -F notes.md
 git push origin vX.Y.Z
 ```
 
-Replace `vX.Y.Z` with an unused version. The release workflow checks and builds
-`mso-ca.html` from that exact commit. Confirm CI and Release succeeded, then download
-and verify the asset. Never overwrite a published tag. The old revision pack is
-available from earlier releases and the [archive](revision/README.md); new releases
-contain `mso-ca.html` and, from v1.10.0, `mso-study-bundle.zip` with the new notes,
-practice target and catalog-resolved originals 01–26. The historical pack is not
+Replace `vX.Y.Z` with an unused version. The release workflow checks that exact
+commit, builds `mso-ca.html` and the study bundle, and publishes only
+`mso-study-bundle.zip`: the practice app, the seven-part notes and the
+catalog-resolved originals 01–26 are inside it. Confirm CI and Release succeeded,
+then verify the asset. Never overwrite a published tag. The old revision pack is
+available from earlier releases and the [archive](revision/README.md); it is not
 rebuilt. `dist/` and Python caches are local build outputs.
