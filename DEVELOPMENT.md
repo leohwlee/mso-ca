@@ -9,7 +9,7 @@ database, account system, package manager or API key.
 
 | Files | Purpose |
 |---|---|
-| `web/` | App screens, behaviour, styles, fonts and 525 bilingual questions. |
+| `web/` | App screens, behaviour, styles, fonts and 552 bilingual questions. |
 | `main.go`, `go.mod` | Combine the app into one offline HTML file. No third-party Go dependencies. |
 | Four `*_test.go` files | Check the exported file, answers, source quotations, language and guessing patterns. |
 | `tests/` | JavaScript app behaviour and Python source/review constraints. |
@@ -60,8 +60,11 @@ Open `dist/mso-ca.html`. For live development, run
 
 Read [the format](bank/FORMAT.md), [authoring workflow](docs/authoring/exam-prep/GUIDE.md)
 and [source maintenance](docs/SOURCE-MAINTENANCE.md) before changing the bank.
-The current scope report validates 525 questions from documents 01–26; the four
-older reports reconstruct their historical bank rather than claim current coverage.
+The current scope report validates 552 questions from documents 01–26: it unwinds
+each reviewed change recorded in `bank/audit/active-followups/` (newest first, each
+with its blind reviews and an archive of the bank it started from) and then checks
+the active26 record unchanged. The four older reports reconstruct their historical
+bank rather than claim current coverage.
 All 1,526 retired IDs remain reserved. Keep verified historical sources and reviews.
 
 When changing a file bound by an older review, preserve the prior bytes in an

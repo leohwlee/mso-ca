@@ -5,6 +5,7 @@ import json
 import pathlib
 import sys
 import unittest
+import zipfile
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('bank_apply',ROOT/'bank/apply.py')
@@ -60,6 +61,32 @@ class ReviewEvidenceTests(unittest.TestCase):
     def test_archived_source_rejected_even_if_quote_exists(self):
         self.quotes['m2-366']['en'][0]['doc']='43'
         with self.assertRaises(AssertionError):
+            recover(self.bank,self.quotes)
+
+    def test_changed_followup_statement_invalidates_review(self):
+        item=next(q for q in self.bank if q['id']=='m6-497')
+        item['tc']['statements'][0]+='（未經覆核）'
+        with self.assertRaisesRegex(AssertionError,'Stale blind review'):
+            recover(self.bank,self.quotes)
+
+    def test_reviewer_doubt_needs_a_recorded_resolution(self):
+        import active_scope
+        followup=json.loads((ROOT/'bank/audit/active-followups/2026-10-23-gap-items.json').read_text(encoding='utf8'))
+        review=next(r for r in followup['blind_review']['items'] if any(r['answer']['doubts']))
+        q=next(q for q in self.bank if q['id']==review['answer']['id'])
+        active_scope.check_review(review,q)
+        review.pop('resolutions')
+        with self.assertRaisesRegex(AssertionError,'Unresolved reviewer doubt'):
+            active_scope.check_review(review,q)
+
+    def test_revised_item_reverted_without_record_fails(self):
+        followup=json.loads((ROOT/'bank/audit/active-followups/2026-10-23-gap-items.json').read_text(encoding='utf8'))
+        with zipfile.ZipFile(ROOT/followup['archive']) as archive:
+            old=next(q for q in json.loads(archive.read('web/questions.json')) if q['id']=='m6-480')
+            old_quotes=json.loads(archive.read('docs/quotes.json'))['m6-480']
+        index=next(i for i,q in enumerate(self.bank) if q['id']=='m6-480')
+        self.bank[index]=old; self.quotes['m6-480']=old_quotes
+        with self.assertRaisesRegex(AssertionError,'Revision changes nothing'):
             recover(self.bank,self.quotes)
 
 

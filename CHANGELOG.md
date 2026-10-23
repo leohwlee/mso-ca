@@ -1,5 +1,12 @@
 # Release notes / 版本更新
 
+## Unreleased
+
+- Adds 27 independently reviewed questions (552 in total: 63 / 75 / 66 / 83 / 81 / 116 / 68). They cover the Guideline's potentially higher and lower risk factor lists, minimum identification data for individuals and trusts, layered beneficial and ultimate ownership, failure to complete CDD, wire transfers below $8,000, the STR system elements, the extent of EDD for PEPs, and near-identical names of the JFIU and of the main ordinances. Ten questions have no true statement, so "None of the above" is now sometimes the answer; five of them test the renewal timeline, the fit and proper criteria, staff training records, delivery-channel risks, and how Hong Kong implements UN sanctions and counter-proliferation financing.
+- Corrects 12 existing questions without changing any answer: removes added inferences and clauses missing from the other language, restores a dropped qualifier, says when a rule comes from the Licensing Guide or differs between the Ordinance and the Guideline, replaces two statements that depended on one FATF plenary's list changes, and replaces one hair-splitting distractor.
+- 新增27道已獨立盲審的題目（合共552題：63／75／66／83／81／116／68），涵蓋指引的潛在較高及較低風險因素清單、自然人及信託的最低限度識別資料、多層持股的實益擁有人及最終擁有人、未能完成盡職審查的後果、8,000元以下電傳轉帳須附隨的資料、可疑交易報告制度的元素、對政治人物採取更嚴格盡職審查的程度，以及財富情報組和主要條例的近似名稱。其中10題沒有正確陳述，「以上皆非」不再永遠是錯誤選項；當中5題考核續牌時限、適當人選準則、培訓紀錄、交付渠道風險，以及香港如何執行聯合國制裁及打擊擴散融資。
+- 修正12道現有題目，答案不變：刪去原文沒有的推論及只在一種語言出現的子句、補回遺漏的限定詞、註明規則出自《牌照指引》或條例與指引的分別、替換兩項只取決於某次特別組織全體會議名單變動的陳述，以及替換一個過於瑣碎的干擾項。
+
 ## v1.10.2 — 20 October 2026
 
 - Uses natural Chinese section wording throughout current study notes, navigation, practice buttons and bundle instructions; English text remains in English.

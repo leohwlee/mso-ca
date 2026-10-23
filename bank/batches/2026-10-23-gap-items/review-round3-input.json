@@ -1,0 +1,148 @@
+{
+ "instructions": "Independently judge every statement against the cited local source in each language. Do not read keys, notes, patches or the bank. Return id, verdicts, tc_verdicts (T/F arrays), quotes (one deciding source excerpt per statement), doubts and tc_mismatch (empty strings when none). A language=en quote for doc24 is an English original supporting a clearly labelled Chinese study translation.",
+ "items": [
+  {
+   "id": "m4-414",
+   "module": 4,
+   "source": {
+    "en": "Licensing Guide (May 2026) ¶6.1–6.4",
+    "tc": "《牌照指引》（2026年5月）第6.1至6.4段"
+   },
+   "en": {
+    "q": "Jade Exchange Ltd’s licence expires on 30 June 2027, and none of its eligible persons has passed the Competence Assessment. It receives C&ED’s invitation letter on 2 April 2027. According to the Licensing Guide, which statements are correct?",
+    "statements": [
+     "Jade Exchange may submit its renewal application as late as 15 June 2027, as the licence is then still valid.",
+     "Having received the invitation letter on 2 April 2027, it may nominate its eligible persons up to 2 May 2027.",
+     "Its nominated eligible persons may sit the Assessment on any date before the licence expires on 30 June 2027.",
+     "If the nominee misses the designated Assessment session, C&ED will still process the renewal on the other documents.",
+     "If Jade Exchange misses the nomination deadline, C&ED will first send it a reminder before treating the application as invalid."
+    ]
+   },
+   "tc": {
+    "q": "翠匯有限公司的牌照於2027年6月30日屆滿，其合資格人士均未通過能力評核；公司於2027年4月2日接獲海關的邀請信。根據《牌照指引》，下列哪些陳述正確？",
+    "statements": [
+     "翠匯有限公司可遲至2027年6月15日才遞交續牌申請，因為牌照屆時仍然有效。",
+     "公司於2027年4月2日接獲邀請信，可延至2027年5月2日才提名合資格人士。",
+     "獲提名的合資格人士可在牌照於2027年6月30日屆滿前的任何日子應考能力評核。",
+     "如獲提名人士缺席指定時段的能力評核，海關仍會按其他文件處理續牌申請。",
+     "如公司錯過提名限期，海關會先發信提示，然後才把申請視為無效。"
+    ]
+   }
+  },
+  {
+   "id": "m1-223",
+   "module": 1,
+   "source": {
+    "en": "Circular MSSB/MIS_06/2021 (22 Dec 2021) p.1; Circular MSSB/SAN_01/2018 (7 Feb 2018) s.1 p.1",
+    "tc": "海關通函MSSB/MIS_06/2021（2021年12月22日）第1頁；海關通函MSSB/SAN_01/2018（2018年2月7日）第1條第1頁"
+   },
+   "en": {
+    "q": "An MSO’s compliance briefing summarises how Hong Kong gives effect to UN sanctions and counters proliferation financing. According to C&ED’s circulars on proliferation financing risks and on United Nations Sanctions, which statements are correct?",
+    "statements": [
+     "The counter-proliferation financing regime relies on UNSO regulations that apply to every sanctioned country alike.",
+     "Under the WMD(CPS)O, lending money is treated as a financial transaction outside the services the Ordinance controls.",
+     "The WMD(CPS)O offence requires the person to know for certain that the services will assist WMD activities.",
+     "Hong Kong generally implements UNSC sanctions through the UNATMO, and implements Resolution 1373 on terrorism under the UNSO.",
+     "A UNSC Committee’s designation of property as terrorist property takes effect here through the CCE’s specification under the UNATMO."
+    ]
+   },
+   "tc": {
+    "q": "某金錢服務經營者的合規簡報概述香港如何執行聯合國制裁及打擊擴散融資。根據海關有關擴散融資風險及聯合國制裁的通函，下列哪些陳述正確？",
+    "statements": [
+     "打擊擴散融資制度依靠一套同樣適用於所有受制裁國家的《聯合國制裁條例》規例。",
+     "《大規模毀滅武器（提供服務的管制）條例》所管制的服務，把借出款項排除在外。",
+     "《大規模毀滅武器（提供服務的管制）條例》的罪行，須以確知有關服務會協助大規模毀滅武器活動為條件。",
+     "香港一般以《聯合國（反恐怖主義措施）條例》實施安理會制裁，第1373號決議則以《聯合國制裁條例》實施。",
+     "安理會委員會把財產指定為恐怖分子財產，在香港是由海關關長根據《聯合國（反恐怖主義措施）條例》指明。"
+    ]
+   }
+  },
+  {
+   "id": "m5-139",
+   "module": 5,
+   "source": {
+    "en": "Circular MSSB/MIS_05/2021 (13 Dec 2021) ¶1–3 and ¶5–6",
+    "tc": "海關通函MSSB/MIS_05/2021（2021年12月13日）第1至3段及第5至6段"
+   },
+   "en": {
+    "q": "An MSO plans to use a new overseas payout partner for its cross-border remittances. According to C&ED’s circular on ML/TF risks associated with delivery channels, which statements are correct?",
+    "statements": [
+     "The MSO may assess the partner’s ML/TF risks after remittances through it have begun, at its next scheduled review.",
+     "Its institutional risk assessment covers customer, jurisdiction and product risks, leaving delivery-channel risks to a separate review.",
+     "The circular’s caution about delivery channels applies to business partners and counterparties, while customers in a channel are outside it.",
+     "If it suspects that a remittance involves proceeds of an indictable offence, the MSO should report to the overseas authority that froze the funds.",
+     "The circular was prompted by cross-border remittances that failed because customers’ funds were frozen by authorities in Hong Kong."
+    ]
+   },
+   "tc": {
+    "q": "某金錢服務經營者計劃採用一個新的海外派款夥伴處理跨境匯款。根據海關有關與交付渠道有關的洗錢及恐怖分子資金籌集風險的通函，下列哪些陳述正確？",
+    "statements": [
+     "金錢服務經營者可在開始經該夥伴匯款後，於下次定期檢討時才評估其洗錢及恐怖分子資金籌集風險。",
+     "機構層面風險評估涵蓋客戶、司法管轄區及產品／服務風險，交付渠道風險則留待另行檢討。",
+     "通函就交付渠道要求的審慎評估適用於業務夥伴及交易對手，屬渠道一部分的客戶則在範圍以外。",
+     "如懷疑某宗匯款涉及可公訴罪行的得益，金錢服務經營者應向凍結有關資金的海外當局報告。",
+     "促成這份通函的事件，是客戶資金遭香港的監管或執法機構凍結，以致跨境匯款落空。"
+    ]
+   }
+  },
+  {
+   "id": "m4-415",
+   "module": 4,
+   "source": {
+    "en": "F&P Guideline (Apr 2018) ¶3, ¶5(a), (c) and ¶6",
+    "tc": "《有關適當人選準則的指引》（2018年4月）第3段、第5(a)及(c)段及第6段"
+   },
+   "en": {
+    "q": "Mr Wu applies for an MSO licence. According to the Guideline on Criteria for Determining Fitness and Propriety (April 2018), which statements are correct?",
+    "statements": [
+     "If Mr Wu falls within section 30(4) of the AMLO, the CCE must refuse his application on that ground.",
+     "The factor on failure to comply covers requirements imposed under the AMLO but leaves out regulations made by the CCE.",
+     "For a corporate applicant, the factor arises on dissolution rather than on winding up or a receiver’s appointment over its property.",
+     "The Guideline’s listed factors form a complete list that confines what the CCE may consider."
+    ]
+   },
+   "tc": {
+    "q": "胡先生申請金錢服務經營者牌照。根據《有關適當人選準則的指引》（2018年4月），下列哪些陳述正確？",
+    "statements": [
+     "如胡先生屬《打擊洗錢條例》第30(4)條所指定的人士，關長須因此拒絕其申請。",
+     "有關遵從要求的因素涵蓋打擊洗錢條例施加的要求，但把關長訂立的規例排除在外。",
+     "就法團申請人而言，有關因素在法團解散時才觸發，清盤或委任接管人則屬範圍以外。",
+     "指引所列的因素已構成完整清單，關長評估適當人選時所能考慮的事宜以此為限。"
+    ]
+   }
+  },
+  {
+   "id": "m7-220",
+   "module": 7,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶9.2, ¶9.5–9.7",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第9.2段及第9.5至9.7段"
+   },
+   "en": {
+    "q": "An MSO’s training plan for 2027 contains the following entries. According to the AML/CFT Guideline, which entries are correct?",
+    "statements": [
+     "Training records will show who attended and when, leaving out the type of training each person received.",
+     "AML/CFT training is reserved for front-line staff, since they are the first point of contact with potential money launderers.",
+     "Refresher training is held when new ML/TF legislation takes effect, in place of regular refresher training.",
+     "The CCE is responsible for showing that the MSO’s training materials are up to date and meet current standards."
+    ]
+   },
+   "tc": {
+    "q": "某金錢服務經營者2027年的培訓計劃載有以下項目。根據《打擊洗錢及恐怖分子資金籌集指引》，下列哪些項目正確？",
+    "statements": [
+     "培訓紀錄會記錄出席者及受訓日期，但略去各人所接受培訓的類別。",
+     "打擊洗錢培訓專為前線工作人員而設，因為他們是與潛在洗錢人的第一個接觸點。",
+     "複修培訓安排在新的洗錢／恐怖分子資金籌集法例生效時舉行，以此代替定期培訓。",
+     "證明金錢服務經營者的培訓材料屬最新並符合現行標準，是關長的責任。"
+    ]
+   }
+  }
+ ],
+ "text_sha256": {
+  "m4-414": "25b1e2decadb97bc3b54c230fc8a03e161683a2fc7cec55b966caf5ea0ad330e",
+  "m1-223": "bec8b43664a05ab5dd1288fcb5ccb61002e99b37779ca7f08d62d9a7f7d5eb0a",
+  "m5-139": "c5d5cf8b04c71b5c8d6b836009fc65554043d97054c3f4ef214a383a5e9e94a0",
+  "m4-415": "cf2f5606c554f64abde2e9dd648c0d3eda3eef8c02c699aa21ecfb237e6a0cd1",
+  "m7-220": "013406288a15e34552bbfed315b65fb0c03aab834e1a789d4398845e28e34a37"
+ }
+}

@@ -1,7 +1,7 @@
 {
   "method": "Post-authoring identifier/source-route check only. This tool does not assess bank-statement semantics or prove completeness. Manual concept review is recorded separately.",
-  "bank_sha256": "4cc89c045c9f1fb1f8cb1e163154cabed6d3eb4e4349baf168b9ae56bfe1bce3",
-  "quotes_sha256": "2045fdac5e258f395c86961a6df6dec8aa4b4eb32b405f1e26eae43e6daa1448",
+  "bank_sha256": "3d456c0006249933cad15693f69bfee3fe56d09e51f3cabc72bbc3a14fa9e0f6",
+  "quotes_sha256": "eeda46782074abcf03b5c32959d7b74207fd3fbb5ce33b820fa67ea00ca4296f",
   "manuscripts": {
     "part1.py": "03621b06fc292c931af817aa0ebe8fc3263db8b3bea69cebef3000ef0aebbfb8",
     "part2.py": "be06fa056a56df29a85f4874571a442bcb8e12534b9c1fb771ade84b51b62063",
@@ -25,7 +25,7 @@
       "visual_render.py": "7ef3afc48f92ea2abcdd0d1300c17b157ae65eac46f78716cdb7371fdd91852a"
     }
   },
-  "questions_checked": 525,
+  "questions_checked": 552,
   "historical_supplements": [
     {
       "topic": "Customer assessment framework and finalisation",
@@ -691,6 +691,28 @@
       "part": 1,
       "source_documents": [
         "25"
+      ]
+    },
+    {
+      "id": "m1-221",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-222",
+      "part": 1,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m1-223",
+      "part": 1,
+      "source_documents": [
+        "09",
+        "26"
       ]
     },
     {
@@ -1676,6 +1698,13 @@
       ]
     },
     {
+      "id": "m3-347",
+      "part": 3,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
       "id": "m4-ca4",
       "part": 4,
       "source_documents": [
@@ -2246,6 +2275,27 @@
       ]
     },
     {
+      "id": "m4-413",
+      "part": 4,
+      "source_documents": [
+        "04"
+      ]
+    },
+    {
+      "id": "m4-414",
+      "part": 4,
+      "source_documents": [
+        "05"
+      ]
+    },
+    {
+      "id": "m4-415",
+      "part": 4,
+      "source_documents": [
+        "10"
+      ]
+    },
+    {
       "id": "m5-07",
       "part": 5,
       "source_documents": [
@@ -2805,6 +2855,13 @@
       "part": 5,
       "source_documents": [
         "18"
+      ]
+    },
+    {
+      "id": "m5-139",
+      "part": 5,
+      "source_documents": [
+        "14"
       ]
     },
     {
@@ -3541,6 +3598,118 @@
       ]
     },
     {
+      "id": "m6-497",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-498",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-499",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-500",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-501",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-502",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-503",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-504",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-505",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-506",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-507",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-508",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-509",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-510",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-511",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m6-512",
+      "part": 6,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
       "id": "m7-ca5",
       "part": 7,
       "source_documents": [
@@ -3991,6 +4160,27 @@
     },
     {
       "id": "m7-217",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-218",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-219",
+      "part": 7,
+      "source_documents": [
+        "03"
+      ]
+    },
+    {
+      "id": "m7-220",
       "part": 7,
       "source_documents": [
         "03"

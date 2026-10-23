@@ -68,7 +68,7 @@ The app uses only local documents 01–26. Each answer includes a source locator
 Document 24 has no official Chinese edition: its Chinese practice text is
 labelled a study translation. Document 25 findings refer to the 2022 report.
 The separate legacy revision pack has an older scope and is not the source of
-truth for the 525-question bank.
+truth for the current question bank.
 
 ## Troubleshooting
 

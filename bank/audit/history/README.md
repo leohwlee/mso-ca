@@ -1,5 +1,9 @@
 # Historical audit evidence
 
+`2026-10-23-before-gap-items.zip` preserves the bank, quotes, generated accounting and count-bearing documentation before 27 questions were added and 12 revised. The blind reviews and coverage are in `../active-followups/2026-10-23-gap-items.json`; `active_scope.py` unwinds that record before checking the active26 record unchanged.
+
+新增27題及修訂12題前的題庫、引文、生成的來源統計及載有題數的文件已另存上述ZIP；盲審及覆蓋對照見跟進記錄，核驗時先還原該記錄，再按原樣核驗active26記錄。
+
 `2026-10-20-before-v1.10.1-readme-refresh.zip` preserves the exact README and generator bytes before the release documentation refresh. Its new maintenance record links old and new hashes. Earlier archives and review verdicts are unchanged.
 
 v1.10.1說明更新前的原檔已另存上述ZIP；新維護記錄連結前後雜湊，不覆蓋先前審核證據。

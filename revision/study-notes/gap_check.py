@@ -18,6 +18,11 @@ ADDITIONS=[
     dict(topic='Occasional CDD completion-date retention and unsuccessful applications',source='04 Schedule 2 s.20(3A); 06 A28',notes='part-7.html#retention'),
 ]
 
+def expected_questions():
+    """The active bank size stated by the newest reviewed bank record."""
+    records=sorted((ROOT/'bank/audit/active-followups').glob('*.json')) or [ROOT/'bank/audit/active26-implementation.json']
+    return json.loads(records[-1].read_text(encoding='utf-8'))['questions']
+
 def audit():
     bank_path=ROOT/'web/questions.json';quotes_path=ROOT/'docs/quotes.json'
     bank=json.loads(bank_path.read_text(encoding='utf-8'));quotes=json.loads(quotes_path.read_text(encoding='utf-8'))
@@ -27,13 +32,13 @@ def audit():
         assert all(source_routes[d] for d in docs),(q['id'],docs)
         # Keep identifiers and source routes only. Content generation imports none of this.
         rows.append(dict(id=q['id'],part=q['module'],source_documents=docs))
-    assert len(rows)==len({r['id'] for r in rows})==525
+    assert len(rows)==len({r['id'] for r in rows})==expected_questions()
     return dict(method='Post-authoring identifier/source-route check only. This tool does not assess bank-statement semantics or prove completeness. Manual concept review is recorded separately.',bank_sha256=hashlib.sha256(bank_path.read_bytes()).hexdigest(),quotes_sha256=hashlib.sha256(quotes_path.read_bytes()).hexdigest(),manuscripts=manifest()['manuscripts'],essentials=manifest()['essentials'],recall=manifest()['recall'],questions_checked=len(rows),historical_supplements=ADDITIONS,source_routes=source_routes,source_overlap=rows)
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');ap.add_argument('--output',type=Path,default=HERE/'visual-refinement-2026-10-20'/'bank-source-routes.json');args=ap.parse_args()
-    text=json.dumps(audit(),ensure_ascii=False,indent=2)+'\n';path=args.output
+    result=audit();text=json.dumps(result,ensure_ascii=False,indent=2)+'\n';path=args.output
     if args.check:assert path.read_text(encoding='utf-8')==text,'Stale gap audit'
     else:path.write_text(text,encoding='utf-8',newline='\n')
-    print('Bank gap audit: 525 identifiers checked; no bank content supplied to notes.')
+    print(f'Bank gap audit: {result["questions_checked"]} identifiers checked; no bank content supplied to notes.')
 if __name__=='__main__':main()

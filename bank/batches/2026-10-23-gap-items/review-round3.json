@@ -1,0 +1,149 @@
+[
+ {
+  "id": "m4-414",
+  "verdicts": ["F", "F", "F", "F", "F"],
+  "tc_verdicts": ["F", "F", "F", "F", "F"],
+  "quotes": [
+   {"doc": "05", "locator": "¶6.1",
+    "en": "A licensee is required to renew the MSO licence not later than 45 days before the licence is due to expire.",
+    "tc": "須在金錢服務經營者牌照期滿前45日或之前將牌照續期。"},
+   {"doc": "05", "locator": "¶6.2",
+    "en": "The licensee is required to nominate the eligible person(s) for the Assessment within seven days upon receipt of the invitation letter.",
+    "tc": "持牌人須在接獲邀請信當日起計7日內提名合資格人士應考能力評核。"},
+   {"doc": "05", "locator": "¶6.2",
+    "en": "The eligible person(s) nominated for the Assessment will attend the Assessment within 30 days upon receipt of the invitation letter.",
+    "tc": "獲提名應考能力評核的合資格人士將在接獲邀請信當日起計30日內應考能力評核。"},
+   {"doc": "05", "locator": "¶6.2",
+    "en": "Failure to attend the designated session of the Assessment will result in rejection of the corresponding application.",
+    "tc": "如未能在指定的時段應考能力評核，會導致相關申請被拒絕。"},
+   {"doc": "05", "locator": "¶6.4(c)",
+    "en": "a licensee fails to nominate any eligible person(s) for the Assessment within seven day upon receipt of the invitation letter.",
+    "tc": "持牌人未有在接獲邀請信當日起計7日內提名任何合資格人士應考能力評核。"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""],
+  "notes": [
+   "False (period): ¶6.1 requires renewal not later than 45 days before expiry, i.e. by 16 May 2027 for a 30 June 2027 expiry; ¶6.4(a) deems a Form 2 not submitted 45 days before expiry an invalid application. 15 June 2027 is only 15 days before expiry, and the licence still being valid is irrelevant.",
+   "False (period): ¶6.2 requires nomination within seven days upon receipt of the invitation letter, i.e. by about 9 April 2027. 2 May 2027 is the end of the 30-day Assessment window, not the nomination deadline.",
+   "False (period): ¶6.2 says the nominee will attend the Assessment within 30 days upon receipt of the invitation letter (by 2 May 2027) and must attend at the specified date, time and centre; not on any date up to expiry.",
+   "False (reversed): ¶6.2 says failure to attend the designated session will result in rejection of the corresponding application (consistent with B1: 'will' for a renewal).",
+   "False: ¶6.4(c) deems the renewal application invalid where the licensee fails to nominate any eligible person within seven days of receipt. The Guide's reminders are the 90-day reminder enclosing the invitation letter (¶6.2) and the reminder for outstanding documents (¶6.3, ¶6.4(b)); no reminder follows a missed nomination. Nomination is needed here because no eligible person has passed (B5)."
+  ]
+ },
+ {
+  "id": "m1-223",
+  "verdicts": ["F", "F", "F", "F", "F"],
+  "tc_verdicts": ["F", "F", "F", "F", "F"],
+  "quotes": [
+   {"doc": "09", "locator": "p.1",
+    "en": "including the regulations made under the United Nations Sanctions Ordinance which are specific to the Democratic People’s Republic of Korea and Iran",
+    "tc": "香港根據法例實施打擊擴散融資制度，包括根據《聯合國制裁條例》針對朝鮮及伊朗訂立的規例"},
+   {"doc": "09", "locator": "p.1",
+    "en": "The provision of services is widely defined and includes the lending of money or other provision of financial assistance.",
+    "tc": "提供服務被廣泛界定為及包括借出款項或以其他方式提供金融資助。"},
+   {"doc": "26", "locator": "s.1(a) p.1",
+    "en": "for a person to provide any services where he believes or suspects, on reasonable grounds, that those services will or may assist the development, production, acquisition or stockpiling of WMD",
+    "tc": "如某人提供任何服務，而該人基於合理理由相信或懷疑該等服務將會或可能在香港或其他地方協助發展、生產、取得或貯存大規模毀滅武器，即屬犯罪"},
+   {"doc": "26", "locator": "s.1 p.1",
+    "en": "United Nations sanctions are generally implemented in Hong Kong via regulations under the United Nations Sanctions Ordinance (Cap.537) (“UNSO”), except for UNSC Resolution 1373 relating to terrorism which is covered by the United Nations (Anti-Terrorism Measures) Ordinance (Cap.575) (“UNATMO”).",
+    "tc": "一般而言，香港是根據《聯合國制裁條例》（第537 章）下的規例實施聯合國施加的制裁，但聯合國安理會關於恐怖主義的第1373 號決議則除外，因該決議已納入《聯合國(反恐怖主義措施)條例》（第575 章）。"},
+   {"doc": "26", "locator": "s.1 p.1",
+    "en": "A designation by a Committee of the UNSC of a person as a terrorist or terrorist associate or of property as terrorist property is effected through specification by the Chief Executive under the UNATMO.",
+    "tc": "凡某人或任何財產被聯合國安理會委員會指定為恐怖分子或與恐怖分子有聯繫者或恐怖分子財產，行政長官可指明該人或該財產。"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""],
+  "notes": [
+   "False: circular 09 says the counter-PF regime includes UNSO regulations specific to the DPRK and Iran (plus the WMD(CPS)O); they do not apply to every sanctioned country alike.",
+   "False (reversed): circular 09 says the provision of services is widely defined and includes the lending of money or other provision of financial assistance.",
+   "False: the s.4 offence turns on belief or suspicion, on reasonable grounds, that the services will or may assist WMD activities (circular 09: may be connected to PF); certain knowledge is not required.",
+   "False (reversed): UN sanctions are generally implemented via regulations under the UNSO; Resolution 1373 on terrorism is the exception, covered by the UNATMO.",
+   "False (actor): the designation is effected through specification by the Chief Executive (行政長官), not the CCE (海關關長). This passage is on p.1, within the Chinese extract."
+  ]
+ },
+ {
+  "id": "m5-139",
+  "verdicts": ["F", "F", "F", "F", "F"],
+  "tc_verdicts": ["F", "F", "F", "F", "F"],
+  "quotes": [
+   {"doc": "14", "locator": "¶6",
+    "en": "The C&ED expects each MSO to have comprehensive risk assessment before engaging other parties in its business model",
+    "tc": "海關要求各金錢服務經營者，在其業務模式下與其他各方開展合作之前，先進行全面風險評估"},
+   {"doc": "14", "locator": "¶2",
+    "en": "MSOs are required to identify, assess and understand the ML/TF risks of their businesses, based on customer, jurisdiction, product/service, and delivery channel risks",
+    "tc": "金錢服務經營者須按照客戶、司法管轄區、產品／服務及交付渠道的風險，來識別、評估和理解其業務的洗錢及恐怖分子資金籌集風險。"},
+   {"doc": "14", "locator": "¶3",
+    "en": "when establishing or maintaining business relationships with potential or existing customers, business partners, and/or counterparties who are part of the MSOs’ delivery channels for effecting the remittance, MSOs should exercise caution",
+    "tc": "金錢服務經營者與潛在或現有客戶、業務夥伴及／或交易對手(作為金錢服務經營者交付渠道的一部分，以發出匯款指示)建立或維持業務關係時，尤其應審慎評估此等渠道面對的洗錢及恐怖分子資金籌集風險程度。"},
+   {"doc": "14", "locator": "¶5",
+    "en": "they should, as soon as reasonably practical, file a suspicious transaction report with the Joint Financial Intelligence Unit (JFIU).",
+    "tc": "金錢服務經營者須在切實可行範圍內，盡快向聯合財富情報組提交可疑交易報告。"},
+   {"doc": "14", "locator": "¶1",
+    "en": "in which customers’ funds were frozen by the regulatory bodies or law enforcement agencies in other jurisdictions",
+    "tc": "近期發生金錢服務經營者因客戶資金遭其他司法管轄區的監管或執法機構凍結，而未能進行跨境匯款的事件。"}
+  ],
+  "doubts": ["", "", "", "", ""],
+  "tc_mismatch": ["", "", "", "", ""],
+  "notes": [
+   "False (timing): ¶6 expects a comprehensive risk assessment before engaging other parties in the business model; the regular review of channels in ¶3 is additional, not a substitute for assessing first.",
+   "False: ¶2 bases the IRA on customer, jurisdiction, product/service and delivery channel risks, and ¶1 stresses the IRA particularly on delivery channel risks outside Hong Kong. Minor wording only: EN statement says 'product', TC 產品／服務; immaterial to the verdict.",
+   "False (scope): ¶3 covers potential or existing customers, business partners and/or counterparties who are part of the MSO's delivery channels.",
+   "False (actor): ¶5 requires a suspicious transaction report to the JFIU as soon as reasonably practical; nothing about reporting to an overseas authority.",
+   "False: ¶1 refers to customers' funds frozen by regulatory bodies or law enforcement agencies in other jurisdictions, not in Hong Kong."
+  ]
+ },
+ {
+  "id": "m4-415",
+  "verdicts": ["F", "F", "F", "F"],
+  "tc_verdicts": ["F", "F", "F", "F"],
+  "quotes": [
+   {"doc": "10", "locator": "¶3",
+    "en": "Whilst an applicant falling within section 30(4) will be subject to scrutiny as to his fitness and propriety to operate a money service, the CCE will have regard to the facts and circumstances of each individual applicant before determining whether he/she is a fit and proper person.",
+    "tc": "雖然倘申請人屬第30(4)條所指定的人士，其是否適合經營金錢服務便須經過仔細審查，但關長亦會考慮個別申請人的事實及情況，才斷定申請人是否適當人選。"},
+   {"doc": "10", "locator": "¶5(a)",
+    "en": "Whether the person has failed to comply with any requirement imposed under the AMLO or any regulation made by the CCE.",
+    "tc": "該人是否曾不遵從打擊洗錢條例施加的要求或關長訂立的任何規例。"},
+   {"doc": "10", "locator": "¶5(c)",
+    "en": "Whether the person, being a corporation, is in the course of being wound-up or where a receiver, or such other person having the powers and duties of a receiver, has been appointed in relation to or in respect of any property of the corporation.",
+    "tc": "(如該人屬法團)該人是否在清盤中，或是否有接管人或具接管人權力及責任的其他人士已就該法團或法團任何財產而獲委任。"},
+   {"doc": "10", "locator": "¶6",
+    "en": "The Guideline provides general guidance and are not intended to be exhaustive or comprehensive.",
+    "tc": "本文件乃一般性指引，並未全面或毫無遺漏地列出所有相關事項。"}
+  ],
+  "doubts": ["", "", "", ""],
+  "tc_mismatch": ["", "", "", ""],
+  "notes": [
+   "False: ¶3 says an applicant within s.30(4) is subject to scrutiny, and the CCE has regard to the facts and circumstances of each applicant before deciding; no automatic refusal (B3).",
+   "False (scope): ¶5(a) covers failure to comply with any requirement imposed under the AMLO or any regulation made by the CCE.",
+   "False: ¶5(c) is engaged where a corporation is in the course of being wound up or a receiver (or person with a receiver's powers and duties) has been appointed over its property; dissolution is not the trigger.",
+   "False: ¶6 says the Guideline is not intended to be exhaustive or comprehensive and all relevant factors are considered, including but not limited to the AMLO criteria and ¶5; ¶2 also lets the CCE take into account any other matter he considers relevant."
+  ]
+ },
+ {
+  "id": "m7-220",
+  "verdicts": ["F", "F", "F", "F"],
+  "tc_verdicts": ["F", "F", "F", "F"],
+  "quotes": [
+   {"doc": "03", "locator": "¶9.7",
+    "en": "an MSO should monitor and maintain records of who have been trained, when the staff received the training and the type of the training provided.",
+    "tc": "金錢服務經營者應監察誰人已接受培訓、職員何時接受培訓，以及所提供培訓的類別，並備存紀錄。"},
+   {"doc": "03", "locator": "¶9.5(a)",
+    "en": "all new staff, irrespective of seniority",
+    "tc": "所有新職員（不論資歷）"},
+   {"doc": "03", "locator": "¶9.2",
+    "en": "Apart from the initial training, an MSO should also provide refresher training regularly to ensure that its staff are reminded of their responsibilities and are kept informed of new developments related to ML/TF.",
+    "tc": "金錢服務經營者除要安排初步培訓外，亦應定期舉辦複修培訓，確保其職員明白本身的責任，並掌握有關洗錢／恐怖分子資金籌集的最新發展。"},
+   {"doc": "03", "locator": "¶9.6",
+    "en": "The MSO should be able to demonstrate to the CCE that all materials are up-to-date and in line with current requirements and standards.",
+    "tc": "金錢服務經營者應能夠向關長證明所有培訓材料應是最新的，並且應符合現行規定及標準。"}
+  ],
+  "doubts": ["", "", "", ""],
+  "tc_mismatch": ["", "", "", ""],
+  "notes": [
+   "False: ¶9.7 requires records of who has been trained, when, and the type of training provided (kept for at least 3 years).",
+   "False (scope): ¶9.2 makes adequate training of its staff the MSO's responsibility, and ¶9.5 sets training for all new staff irrespective of seniority, back-office staff, managerial staff and MLROs, as well as front-line staff (whose role as first point of contact is ¶9.5(b)(i)).",
+   "False: ¶9.2 requires refresher training regularly, apart from initial training, to keep staff informed of new ML/TF developments; event-driven sessions cannot replace regular refresher training.",
+   "False (actor): ¶9.6 says the MSO should be able to demonstrate to the CCE that all materials are up to date and in line with current requirements and standards."
+  ]
+ }
+]
