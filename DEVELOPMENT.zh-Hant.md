@@ -4,7 +4,7 @@
 
 ## 保留甚麼，以及原因
 
-使用者只需下載 `mso-ca.html` 並用瀏覽器開啟；不需要伺服器、資料庫、帳戶或 API 金鑰。
+使用者只需下載 `mso-study-bundle.zip`，解壓後用瀏覽器開啟；不需要伺服器、資料庫、帳戶或 API 金鑰。
 
 | 檔案 | 用途 |
 |---|---|
@@ -62,7 +62,9 @@ Windows 若 `python` 開啟 Store，可改用 `py -3`；中文輸出有問題時
 
 ## 發佈
 
-更新雙語 `CHANGELOG.md`、完成檢查並開啟 HTML，檢視及提交改動後推送分支。
+更新雙語 `CHANGELOG.md`、完成檢查並開啟 HTML。然後從新版本重新截取README預覽：
+建置 `dist/mso-ca.html`，執行 `node scripts/capture_readme_previews.cjs`（須有Playwright），
+再把兩份README改用新圖片，取代舊圖片。檢視及提交改動後推送分支。
 獲授權發佈時，把該版更新說明存成檔案，再建立未使用的新版本標籤：
 
 ```bash
@@ -70,10 +72,10 @@ git tag -a vX.Y.Z --cleanup=whitespace -F notes.md
 git push origin vX.Y.Z
 ```
 
-把 `vX.Y.Z` 換成實際版本。自動流程會檢查並從該次提交建立 `mso-ca.html`。
-確認 CI 及 Release 成功，再下載附件核對；不可覆蓋已發佈標籤。
+把 `vX.Y.Z` 換成實際版本。自動流程會檢查該次提交，建立 `mso-ca.html` 及學習包，
+只發佈 `mso-study-bundle.zip`；練習App、七部分筆記及由目錄解析的01–26原件都在包內。
+確認 CI 及 Release 成功，再核對附件；不可覆蓋已發佈標籤。
 舊溫習資料仍可從既有版本及[存檔](revision/README.md)取回，不再重建。
-v1.10.0起發佈 `mso-ca.html` 和 `mso-study-bundle.zip`；完整學習包含新版七部分筆記、
-練習App及由目錄解析的01–26原件。用 `python scripts/build_study_bundle.py` 建置，
+用 `python scripts/build_study_bundle.py` 建置學習包，
 加 `--check` 核對全部成員及閱讀頁連結。全新工作區須先匯出App，再執行Python連結檢查。
 `dist/` 及 Python 快取是本機產物。

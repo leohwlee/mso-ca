@@ -1,0 +1,42 @@
+{
+ "status": "verified",
+ "date": "2026-10-23",
+ "reason": "Owner-requested README refresh after v1.11.0. Replaces the v1.10.1 previews with screenshots captured from the released v1.11.0 app and notes (source and image hashes in docs/images/readme-previews.json; the app source hash equals the v1.11.0 release asset) and describes v1.11.0. Makes mso-study-bundle.zip the only download: the READMEs, user guides and development guides no longer offer the standalone mso-ca.html, the release workflow publishes only the bundle, and the v1.11.0 download note drops the standalone file removed from that release. Preserves the previous bytes of these documents; question bank, answers, scoring, sources and notes content are unchanged. This is file preservation, not a new semantic review.",
+ "archive": "bank/audit/history/2026-10-23-before-readme-v1.11.0-bundle-only.zip",
+ "archive_sha256": "adcb3a70ea482bc17f7ba7ff3b109941043d7617e5bbfc2ab42a6e86a9f5b1b6",
+ "archive_updates": {
+  ".github/workflows/release.yml": {
+   "before_sha256": "29c16a662c2346fa513ba227a38286e13d3855ebc5ed18c2e8692122218181d3",
+   "after_sha256": "de63907c5e60a325d3556bb5a2ffd4566ec31e02c89a62b2b4ce2a1f6d7d1f8c"
+  },
+  "CHANGELOG.md": {
+   "before_sha256": "5f6a1b2e8bfe085c2428a869853aed55a47e324447b8eb7522f916b57f44716b",
+   "after_sha256": "fe3339c920dc2091a0dff294294bc7e1565a5792c4388f50e9aaf5d7846c03a8"
+  },
+  "DEVELOPMENT.md": {
+   "before_sha256": "7ae1b064dd08a8c6901f8b378fe6924f27ececa2ba55b969d2024a9916ae5fc1",
+   "after_sha256": "ddc75e9351ed52bf24ea78a49ac334dc877ed7a96df84c7fbb7c3f410667e387"
+  },
+  "DEVELOPMENT.zh-Hant.md": {
+   "before_sha256": "a78cd94290b6befc9c4c899139cfcd140353b8b820f3bf16f0e517eba500369a",
+   "after_sha256": "bba7db3f96dfb11e2a5c78c150128cd3ea8687bf3338d17411d3b693330c0c26"
+  },
+  "README.md": {
+   "before_sha256": "5c6cc0577e337588742a4ce6ffd3a8099dcd477c72b00df6429752628e88979f",
+   "after_sha256": "7a61ba6cd1574c8ceb3429e46da3378b880a2b7176dbfe2e944b75675802f81c"
+  },
+  "README.zh-Hant.md": {
+   "before_sha256": "8521787824db0f0c72f19cf48395f07584efaba0b863bfa895621585e8e3f0fd",
+   "after_sha256": "ec76da662f8b20d42f538a65e714d34d4edf5af4ed815a999fcc5c0614ddab7c"
+  },
+  "docs/USAGE.md": {
+   "before_sha256": "71b2acb6c76159bfce24cb39765573511f5e1c03474188f818b267d6a8efbba7",
+   "after_sha256": "20a26891c9e8576d934c1702325de5dc88c537013728db943612413708e655f5"
+  },
+  "docs/USAGE.zh-Hant.md": {
+   "before_sha256": "1ca637f1558aa80f0beea703e69bd42ba16b5547a96a6eb917413ecefe8ec604",
+   "after_sha256": "713ad29ec762e1ba9ab85ea38f3a3597e8cb1bdb3f724b186e6d6ef084b64755"
+  }
+ },
+ "documentation_updates": {}
+}

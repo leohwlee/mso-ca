@@ -1,5 +1,12 @@
 # Release notes / 版本更新
 
+## Unreleased
+
+- README previews and descriptions now show v1.11.0: the practice homepage and a Part 6 reading example were captured again from the released app and notes.
+- Releases publish only `mso-study-bundle.zip`, which contains the practice app, the seven-part notes and the cited originals 01–26; extract it and open `index.html`. The standalone `mso-ca.html` was removed from the v1.11.0 release, and the READMEs and user guides link only to the bundle.
+- README預覽及說明更新至v1.11.0：練習首頁及第6部分閱讀示例均從已發佈的App及筆記重新截取。
+- 發佈版只提供 `mso-study-bundle.zip`，內含練習App、七部分筆記及引用的01–26原件；完整解壓後開啟 `index.html`。v1.11.0已移除單獨的 `mso-ca.html`，README及使用指南只連結學習包。
+
 ## v1.11.0 — 23 October 2026
 
 - Adds exam-focus study aids to the seven-part notes: six source lists are completed, including the three components of the STR reporting system; every block carries a study tier (Remember, Understand, Recognise, Reference); 69 amber exam traps restate the owner's source-conflict decisions; new figures show similar thresholds, deadline tracks and identity data. The notes have 75 topics, 626 bilingual point pairs, 9 tables and 25 diagrams. Counts are not coverage percentages.
@@ -11,8 +18,8 @@
 - 修正12道現有題目，答案不變：刪去原文沒有的推論及只在一種語言出現的子句、補回遺漏的限定詞、註明規則出自《牌照指引》或條例與指引的分別、替換兩項只取決於某次特別組織全體會議名單變動的陳述，以及替換一個過於瑣碎的干擾項。
 - 重新打包離線學習包及練習頁面；來源版次及01–26選定範圍不變，12道修正題目的已存成績仍代表相同選項。
 
-**Downloads / 下載：** `mso-study-bundle.zip` for notes, practice and originals 01–26; extract the entire ZIP and open `index.html`. `mso-ca.html` for standalone practice.
-完整學習包包含筆記、練習及01–26原件；完整解壓後開啟 `index.html`。單獨練習可下載 `mso-ca.html`。
+**Download / 下載：** `mso-study-bundle.zip` contains the notes, practice and originals 01–26; extract the entire ZIP and open `index.html`.
+完整學習包包含筆記、練習及01–26原件；完整解壓後開啟 `index.html`。
 
 [Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.11.0)
 

@@ -1,6 +1,6 @@
 # 金錢服務經營者能力評核 — 溫習與練習
 
-[English](README.md) · [下載完整學習包](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [練習 App](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html) · [版本更新](CHANGELOG.md)
+[English](README.md) · [下載完整學習包](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [版本更新](CHANGELOG.md)
 
 **七部分溫習筆記及552道組合題**，用於準備香港金錢服務經營者能力評核。
 筆記及練習均可離線使用，提供繁體中文、英文及雙語。選定來源為
@@ -8,36 +8,30 @@
 
 ## 開始使用
 
-**閱讀筆記及練習**：下載 [mso-study-bundle.zip](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip)，
-完整解壓後開啟 `index.html`。內含七部分筆記、練習App及引用的01–26原件；
-保留資料夾結構，閱讀、練習和來源連結才可離線互通。以下單檔下載供獨立練習，筆記連結須配合完整學習包。
+1. 從最新發佈版下載 **[mso-study-bundle.zip](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip)**。
+2. 完整解壓後，用瀏覽器開啟 `index.html`，無須安裝、登入或啟動伺服器。
+3. 選擇閱讀七部分筆記或練習。練習時選擇 **EN**、**中文**或 **EN+中**，再開始模擬試或選擇練習部分。
 
-1. 從最新發佈版下載 **[mso-ca.html](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html)**。
-2. 用瀏覽器開啟下載的檔案，無須安裝、登入或啟動伺服器。
-3. 選擇 **EN**、**中文**或 **EN+中**，再開始模擬試或選擇練習部分。
+學習包內含七部分筆記、練習App及引用的01–26原件；保留資料夾結構，
+閱讀、練習和來源連結才可離線互通。使用時無須下載整個專案或安裝 Go。
 
-HTML 檔案已包含程式、題庫及字型。使用時無須下載整個專案或安裝 Go；
-官方參考原件另見閱讀文檔庫。
+![藍灰練習首頁：模擬試及自選練習](docs/images/app-v1.11.0-tc.png)
 
-![現行藍灰練習首頁：模擬試及自選練習](docs/images/app-v1.10.1-tc.png)
+*繁體中文練習首頁，2026年10月23日從v1.11.0 App實際截取。*
 
-*繁體中文練習首頁，2026年10月20日從v1.10.1 App實際截取。*
+## v1.11.0 更新
 
-[v1.11.0](CHANGELOG.md)新增27道已覆核題目（其中10題沒有正確陳述），筆記加入應試重點：學習層次、69項易錯提示及新圖表。以下預覽保留v1.10.1的實際截圖。
+題庫新增27道已獨立盲審的題目，合共552題。其中10題沒有正確陳述，「以上皆非」有時是正確答案。
+另修正12道現有題目，答案不變。
 
-## v1.10.1 溫習筆記更新
+筆記加入應試重點：每個內容組標上學習層次（必記、理解、認識、參考）；69項琥珀色易錯提示取自擁有人的來源裁決；
+新增圖表對照相近金額、期限及身分資料。筆記現有75個主題、626組雙語要點、9張表及25個圖解；數量不是覆蓋率。
 
-七部分筆記現有75個主題、621組雙語要點，補足高優先級原文的定義、清單、
-條件及例外。33個圖表已逐項覆核：CDD觸發圖呈現可同時適用的情況，
-另保留兩棵適合分支判斷的決策樹，並改善窄屏、表頭及語言切換後的閱讀位置。
+詳見[應試重點整理](revision/study-notes/exam-focus-2026-10-22/REPORT.md)及[現行覆核證據](bank/audit/ACTIVE-SCOPE.md)。
 
-[內容覆核](revision/study-notes/depth-review-2026-10-20/REPORT.md)及
-[視覺覆核與預覽](revision/study-notes/visual-refinement-2026-10-20/REPORT.md)
-列明實際核對範圍及剩餘限制；數量不是覆蓋率。該次更新沒有改動525題的內容、答案及評分。
+![第6部分溫習筆記：何時須做客戶盡職審查，連同適用條件及原文引用](docs/images/study-v1.11.0-tc.png)
 
-![第6部分溫習筆記：何時須做客戶盡職審查，連同適用條件及原文引用](docs/images/study-v1.10.1-tc.png)
-
-*第6部分繁體中文閱讀示例，2026年10月20日從v1.10.1筆記實際截取；圖中CDD情況可同時適用。*
+*第6部分繁體中文閱讀示例，2026年10月23日從v1.11.0筆記實際截取；圖中CDD情況可同時適用。*
 
 ## 選擇練習方式
 

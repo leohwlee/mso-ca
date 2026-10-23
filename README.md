@@ -1,6 +1,6 @@
 # MSO Competence Assessment — Study and Practice
 
-[繁體中文](README.zh-Hant.md) · [Download the study bundle](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [Practice app](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html) · [Release notes](CHANGELOG.md)
+[繁體中文](README.zh-Hant.md) · [Download the study bundle](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [Release notes](CHANGELOG.md)
 
 **Seven-part study notes and 552 combination questions** for the Hong Kong Money
 Service Operator Competence Assessment. Read and practise offline in Traditional
@@ -9,42 +9,36 @@ of the [reading library](docs/README.md); practice offers mock exam and custom p
 
 ## Start here
 
-For notes **and** practice, download **[mso-study-bundle.zip](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip)**,
-extract the whole archive and open `index.html`. It includes the seven-part notes,
-practice app and the cited 01–26 originals. Keep the folders together so study,
-practice and source links work offline. The standalone file below provides practice;
-its study-note links require the complete bundle.
+1. Download **[mso-study-bundle.zip](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip)** from the latest release.
+2. Extract the whole archive and open `index.html` in a browser. No installation, account or server is needed.
+3. Open the seven-part notes or practice. In practice, choose **EN**, **中文** or **EN+中**, then start a mock exam or select parts.
 
-1. Download **[mso-ca.html](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-ca.html)** from the latest release.
-2. Open the downloaded file in a browser. No installation, account or server is needed.
-3. Choose **EN**, **中文** or **EN+中**, then start a mock exam or select parts for practice.
+The bundle contains the seven-part notes, the practice app and the cited 01–26
+originals. Keep the folders together so study, practice and source links work
+offline. You do not need to download the repository or install Go.
 
-The HTML file contains the app, question bank and fonts. You do not need to
-download the repository or install Go to use it. The official source documents
-are available separately in the reading library.
+![Blue-gray practice homepage with mock exam and custom practice](docs/images/app-v1.11.0-en.png)
 
-![Current blue-gray practice homepage with mock exam and custom practice](docs/images/app-v1.10.1-en.png)
+*Practice homepage, English. Captured from the v1.11.0 app on 23 October 2026.*
 
-*Practice homepage, English. Captured from the v1.10.1 app on 20 October 2026.*
+## What's new in v1.11.0
 
-[v1.11.0](CHANGELOG.md) adds 27 reviewed questions, ten of them with no true statement, and exam-focus aids in the notes: study tiers, 69 exam traps and new figures. The previews below were captured in v1.10.1.
+The bank has 27 more independently reviewed questions, 552 in total. Ten of them
+have no true statement, so "None of the above" is sometimes the answer. Twelve
+existing questions were corrected without changing any answer.
 
-## Updated study notes in v1.10.1
+The notes add exam-focus aids. Every block carries a study tier (Remember,
+Understand, Recognise, Reference), 69 amber exam traps restate the owner's
+source-conflict decisions, and new figures compare similar thresholds, deadlines
+and identity data. The notes have 75 topics, 626 bilingual point pairs, 9 tables
+and 25 diagrams. Counts are not coverage percentages.
 
-The seven-part notes now contain 75 topics and 621 bilingual point pairs, with
-more complete definitions, lists, conditions and exceptions from the High-priority
-originals. All 33 visuals were reviewed: the CDD trigger map now shows cases that
-can overlap; two decision trees remain where branches are appropriate. Narrow
-screens, table headings and language-switch positioning have also been improved.
+Read the [exam-focus report](revision/study-notes/exam-focus-2026-10-22/REPORT.md) (in Chinese)
+and the [current review evidence](bank/audit/ACTIVE-SCOPE.md).
 
-Read the [content review](revision/study-notes/depth-review-2026-10-20/REPORT.md),
-[visual review and previews](revision/study-notes/visual-refinement-2026-10-20/REPORT.md)
-for checked ranges and remaining limits. Counts are not coverage percentages.
-That update left the 525 questions, answers and scoring unchanged.
+![Part 6 study notes showing when customer due diligence is required, with conditions and source citations](docs/images/study-v1.11.0-en.png)
 
-![Part 6 study notes showing when customer due diligence is required, with conditions and source citations](docs/images/study-v1.10.1-en.png)
-
-*Part 6 reading example, English. Captured from the v1.10.1 notes on 20 October 2026; the CDD cases can overlap.*
+*Part 6 reading example, English. Captured from the v1.11.0 notes on 23 October 2026; the CDD cases can overlap.*
 
 ## Choose how to practise
 
