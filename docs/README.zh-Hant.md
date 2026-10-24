@@ -12,7 +12,7 @@
 
 從47項收錄材料中移出21項：完整法例已覆蓋的摘錄、舊期通知、重複培訓、歷史決議及較遠離核心範圍的材料，見[移出清單及原因](archive/README.zh-Hant.md)。原件及題庫證據仍保留；移出不代表失效或不會考，現行題庫只用01–26，這些材料只供歷史參考。
 
-v1.13.2的[七部分溫習筆記](../revision/study-notes/index.html)保留高優先級原文的清單、條件及例外；[覆核範圍與限制](../revision/study-notes/README.md)另列。離線閱讀請從[版本頁](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.2)下載完整學習包。這次沒有更新來源版次或擴大01–26範圍。
+v1.13.3的[七部分溫習筆記](../revision/study-notes/index.html)保留高優先級原文的清單、條件及例外；[覆核範圍與限制](../revision/study-notes/README.md)另列。離線閱讀請從[版本頁](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.3)下載完整學習包。這次沒有更新來源版次或擴大01–26範圍。
 
 ## 01–09 · 高優先級
 

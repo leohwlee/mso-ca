@@ -1,11 +1,11 @@
 {
-  "version": "v1.13.2",
-  "captured_at": "2026-10-24T09:42:30.995Z",
-  "source_commit": "f0a18345c069d52beedeee61cb7a88acd5518568",
+  "version": "v1.13.3",
+  "captured_at": "2026-10-24T10:55:14.053Z",
+  "source_commit": "6c7f63d81bec77a5552acec7d309250715f520d0",
   "method": "Fresh isolated browser contexts; actual offline pages; no synthetic scores or image edits.",
   "captures": [
     {
-      "file": "docs/images/app-v1.13.2-en.png",
+      "file": "docs/images/app-v1.13.3-en.png",
       "source": "dist/mso-ca.html",
       "lang": "en",
       "anchor": "",
@@ -18,7 +18,7 @@
       "image_sha256": "743b17ef860395e6508b47db5fd5e02f51296462b1cefe0126e809e15cae0178"
     },
     {
-      "file": "docs/images/study-v1.13.2-en.png",
+      "file": "docs/images/study-v1.13.3-en.png",
       "source": "revision/study-notes/part-6.html",
       "lang": "en",
       "anchor": "#memory-cdd-trigger-tree",
@@ -27,11 +27,11 @@
         "height": 1249
       },
       "full_page": false,
-      "source_sha256": "0447cf1d7292488575e7985329de3d9d6ac11f866c340122b2d8c3085c3de4b8",
+      "source_sha256": "91df72264f839026fe3d816ed63c09691bc1ae305b4d5027348e664f646bbc80",
       "image_sha256": "43acef232cf96ecb97454c1c0f3d0632eef002a567a7284ca25154ee86db2ba4"
     },
     {
-      "file": "docs/images/app-v1.13.2-tc.png",
+      "file": "docs/images/app-v1.13.3-tc.png",
       "source": "dist/mso-ca.html",
       "lang": "tc",
       "anchor": "",
@@ -44,7 +44,7 @@
       "image_sha256": "450c7d6102c40308dabadce31dd39e96631d297164e6cccc09c354f9bfc3463b"
     },
     {
-      "file": "docs/images/study-v1.13.2-tc.png",
+      "file": "docs/images/study-v1.13.3-tc.png",
       "source": "revision/study-notes/part-6.html",
       "lang": "tc",
       "anchor": "#memory-cdd-trigger-tree",
@@ -53,7 +53,7 @@
         "height": 1083
       },
       "full_page": false,
-      "source_sha256": "0447cf1d7292488575e7985329de3d9d6ac11f866c340122b2d8c3085c3de4b8",
+      "source_sha256": "91df72264f839026fe3d816ed63c09691bc1ae305b4d5027348e664f646bbc80",
       "image_sha256": "0fec8bfae74fa96bf2903dd3deebd46c6e3182798bfb985e77e8d6f5fb45ca14"
     }
   ],
