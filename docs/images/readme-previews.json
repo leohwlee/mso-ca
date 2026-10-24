@@ -1,11 +1,11 @@
 {
-  "version": "v1.13.0",
-  "captured_at": "2026-10-23T13:19:52.809Z",
-  "source_commit": "c07ea71e614f52d95106842459e72915ce3b80fb",
+  "version": "v1.13.1",
+  "captured_at": "2026-10-24T04:58:59.826Z",
+  "source_commit": "7cb87a27523b0b25951a15f90bec469c0d565c1d",
   "method": "Fresh isolated browser contexts; actual offline pages; no synthetic scores or image edits.",
   "captures": [
     {
-      "file": "docs/images/app-v1.13.0-en.png",
+      "file": "docs/images/app-v1.13.1-en.png",
       "source": "dist/mso-ca.html",
       "lang": "en",
       "anchor": "",
@@ -14,11 +14,11 @@
         "height": 1000
       },
       "full_page": true,
-      "source_sha256": "46c1f85a7d46297e688fd742cac6e423e81565af15775c9915b7dbe1f59bc1ee",
+      "source_sha256": "1fc8bc51cb8ac1eaf698f478754ee3568fe4907843b1af75a3189e5db7104279",
       "image_sha256": "743b17ef860395e6508b47db5fd5e02f51296462b1cefe0126e809e15cae0178"
     },
     {
-      "file": "docs/images/study-v1.13.0-en.png",
+      "file": "docs/images/study-v1.13.1-en.png",
       "source": "revision/study-notes/part-6.html",
       "lang": "en",
       "anchor": "#memory-cdd-trigger-tree",
@@ -31,7 +31,7 @@
       "image_sha256": "43acef232cf96ecb97454c1c0f3d0632eef002a567a7284ca25154ee86db2ba4"
     },
     {
-      "file": "docs/images/app-v1.13.0-tc.png",
+      "file": "docs/images/app-v1.13.1-tc.png",
       "source": "dist/mso-ca.html",
       "lang": "tc",
       "anchor": "",
@@ -40,11 +40,11 @@
         "height": 1000
       },
       "full_page": true,
-      "source_sha256": "46c1f85a7d46297e688fd742cac6e423e81565af15775c9915b7dbe1f59bc1ee",
+      "source_sha256": "1fc8bc51cb8ac1eaf698f478754ee3568fe4907843b1af75a3189e5db7104279",
       "image_sha256": "450c7d6102c40308dabadce31dd39e96631d297164e6cccc09c354f9bfc3463b"
     },
     {
-      "file": "docs/images/study-v1.13.0-tc.png",
+      "file": "docs/images/study-v1.13.1-tc.png",
       "source": "revision/study-notes/part-6.html",
       "lang": "tc",
       "anchor": "#memory-cdd-trigger-tree",
