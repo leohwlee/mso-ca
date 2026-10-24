@@ -152,29 +152,14 @@ type quote struct {
 	Language string `json:"language,omitempty"`
 }
 
-// quoteSet is one language's quotes for an item: one per statement for an item
-// written with notes, or a single deciding quote for an item from the old bank.
-type quoteSet []quote
-
-func (s *quoteSet) UnmarshalJSON(b []byte) error {
-	if len(b) > 0 && b[0] == '{' {
-		var one quote
-		if err := json.Unmarshal(b, &one); err != nil {
-			return err
-		}
-		*s = quoteSet{one}
-		return nil
-	}
-	return json.Unmarshal(b, (*[]quote)(s))
-}
-
-func loadQuotes(t *testing.T) map[string]map[string]quoteSet {
+// loadQuotes reads, for every item and each language, one quote per statement.
+func loadQuotes(t *testing.T) map[string]map[string][]quote {
 	t.Helper()
 	b, err := os.ReadFile(filepath.Join("docs", "quotes.json"))
 	if err != nil {
 		t.Fatalf("read docs/quotes.json: %v", err)
 	}
-	var qs map[string]map[string]quoteSet
+	var qs map[string]map[string][]quote
 	if err := json.Unmarshal(b, &qs); err != nil {
 		t.Fatalf("parse docs/quotes.json: %v", err)
 	}
@@ -354,9 +339,8 @@ func TestSourceTextsCurrent(t *testing.T) {
 
 // TestQuotesFromCitedSources: every question stores, in each language, the
 // passages that decide it, copied verbatim from a document its citation names:
-// one per statement for an item written with notes (for a true statement the
-// passage that supports it, for a false one the passage it departs from), and a
-// single deciding quote for an item from the old bank. Until September 2026 the
+// one per statement (for a true statement the passage that supports it, for a
+// false one the passage it departs from). Until September 2026 the
 // bank stored no such passage, so every blind review had to find the deciding
 // words again from the citation alone; storing them makes grounding a
 // mechanical check, and a quote that stops matching flags a source that has
@@ -392,12 +376,8 @@ func TestQuotesFromCitedSources(t *testing.T) {
 		}
 		for _, lang := range []string{"en", "tc"} {
 			set, ok := entry[lang]
-			want := 1
-			if q.annotated() {
-				want = q.n()
-			}
-			if !ok || len(set) != want {
-				t.Errorf("%s (%s): %d quotes, want %d", q.ID, lang, len(set), want)
+			if !ok || len(set) != q.n() {
+				t.Errorf("%s (%s): %d quotes, want %d", q.ID, lang, len(set), q.n())
 				continue
 			}
 			citation := q.Source.En
@@ -411,10 +391,7 @@ func TestQuotesFromCitedSources(t *testing.T) {
 				}
 			}
 			for i, qt := range set {
-				where := fmt.Sprintf("%s (%s)", q.ID, lang)
-				if want > 1 {
-					where = fmt.Sprintf("%s (%s, statement %d)", q.ID, lang, i+1)
-				}
+				where := fmt.Sprintf("%s (%s, statement %d)", q.ID, lang, i+1)
 				if strings.TrimSpace(qt.Text) == "" {
 					t.Errorf("%s: empty quote", where)
 					continue
