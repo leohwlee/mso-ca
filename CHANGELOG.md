@@ -1,6 +1,6 @@
 # Release notes / 版本更新
 
-## Unreleased
+## v1.13.1 — 24 October 2026
 
 - Removes the branches of the Go tests that were written for the old question bank and no longer run: every item carries a note per statement and may be reordered, and `TestBankIntegrity` rejects anything else, so `TestComboExplanationNamesFalseStatements`, the single-quote form of `docs/quotes.json` and the fixed-item and unannotated-item paths in six other tests never executed. The guard itself stays; `sameSet` becomes the standard library's `slices.Equal`. 120 lines fewer. The 588 questions, answers, scoring, generated pages and source editions are unchanged.
 - Simplifies the notes builder (`revision/study-notes/build.py`, `model.py`, `gap_check.py`) without changing the seven parts: one cached reader for the source texts (the build is several times faster), one edition lookup and one original-document link shared by citations, ruling records and the validator, one language-span helper, one title-prefix stripper, and one table renderer shared by the figures and the Numbers page; the unused grouped-table branch, the `g()` helper and three repeated `manifest()` calls go. The seven part pages, `coverage.json` and `bank-source-routes.json` are byte-identical; `amounts.html` now closes every table cell with `</td>`, which browsers already did, so its DOM and rendering are unchanged (checked with Playwright in all three reading languages). 17 lines fewer.
@@ -10,6 +10,11 @@
 - 精簡筆記生成器（`revision/study-notes/build.py`、`model.py`、`gap_check.py`），七個部分的內容不變：來源文本改為一次讀取並快取（生成快數倍），引文、裁決記錄及校驗共用同一個版本查找及原件連結函數，語言span、標題層次前綴及表格各只保留一個寫法，圖表與數字總表共用同一個表格渲染；移除無圖表使用的分組表格分支、未調用的`g()`及三次重複的`manifest()`調用。七個部分頁面、`coverage.json`及`bank-source-routes.json`字節一致；`amounts.html`的每個表格單元格現在都有`</td>`結束標籤（瀏覽器本來就會自動補上），DOM與顯示不變（以Playwright在三種閱讀語言下核對）。少17行。
 - 精簡審計鏈（`bank/audit/state.py`、`active_scope.py`及四個報告腳本），報告內容不變：雜湊檢查共用一個換行變體函數，五處題句快照斷言合為一個，四處`documentation_updates`迴圈合為一個校驗函數，`norm`與Markdown表格各只保留一份，生成報告的寫入或`--check`比對合為一個`emit`函數（在任何平台都以LF寫出，即Git儲存的形式），現行範圍記錄及其後續記錄共用一個`check_reviews`函數；移除未使用的`sha()`及未使用的import。`coverage.json`、全部生成的審計報告及變異測試均不變。少47行。
 - 精簡練習App（`web/app.js`、`web/style.css`），顯示與儲存的內容不變：`ui`、內容／選項／陳述渲染、成績判語及紀錄檔案共用一個三向語言切換（`byLang`）；選項按鈕、答題紙及鍵盤共用一個`toggleAnswer`；A–E／1–5按鍵共用一個`keyIndex`；評分與已儲存成績共用一個`result`；單元短標籤改放在`MODULES`；儲存鍵改為常量；移除從未讀取的`justFinished`及無元素使用的`.optrow`樣式。以固定腳本用新舊程式碼渲染全部畫面、紀錄檔案及儲存狀態並逐字比對（103個快照一致）；首頁的DOM、計算樣式及截圖在Playwright中一致。少35行。
+
+**Download / 下載：** `mso-study-bundle.zip` contains the notes, practice and originals 01–26; extract the entire ZIP and open `index.html`.
+完整學習包包含筆記、練習及01–26原件；完整解壓後開啟 `index.html`。
+
+[Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.1)
 
 ## v1.13.0 — 23 October 2026
 
