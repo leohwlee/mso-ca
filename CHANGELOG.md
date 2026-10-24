@@ -1,9 +1,14 @@
 # Release notes / 版本更新
 
-## Unreleased
+## v1.13.4 — 24 October 2026
 
 - The mock exam's start and end times now come from one clock reading. They were two separate readings, so when they straddled a millisecond the paper ended 1 ms after the 75 minutes and the test of the exam length failed now and then (the v1.13.3 Release run had to be re-run for this). Nothing else changes.
 - 模擬試的開始與結束時間改為取自同一次時鐘讀數。以前分兩次讀取，跨越毫秒時結束時間會比75分鐘多1毫秒，令考試時長的測試偶爾失敗（v1.13.3的Release流程因此重跑過一次）。其他不變。
+
+**Download / 下載：** `mso-study-bundle.zip` contains the notes, practice and originals 01–26; extract the entire ZIP and open `index.html`.
+完整學習包包含筆記、練習及01–26原件；完整解壓後開啟 `index.html`。
+
+[Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.4)
 
 ## v1.13.3 — 24 October 2026
 
