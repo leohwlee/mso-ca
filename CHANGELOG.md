@@ -1,5 +1,10 @@
 # Release notes / 版本更新
 
+## Unreleased
+
+- The mock exam's start and end times now come from one clock reading. They were two separate readings, so when they straddled a millisecond the paper ended 1 ms after the 75 minutes and the test of the exam length failed now and then (the v1.13.3 Release run had to be re-run for this). Nothing else changes.
+- 模擬試的開始與結束時間改為取自同一次時鐘讀數。以前分兩次讀取，跨越毫秒時結束時間會比75分鐘多1毫秒，令考試時長的測試偶爾失敗（v1.13.3的Release流程因此重跑過一次）。其他不變。
+
 ## v1.13.3 — 24 October 2026
 
 - Removes from the notes stylesheet (`revision/study-notes/style.css`) the rules for 17 classes that no generated page and no generator emits, left from earlier page designs (`question-map`, `qid`, `reading-map`, `reading-overview`, `study-rule`, `rule-grid`, `rule-copy`, `misconception`, `context-heading`, `overview-comparison`, `overview-table`, `legend`, `table-wrap`, `citation-row`, `third-flow`, `diagram-title`, `table-group-title`): 53 rules and one selector of the print rule, 15 lines fewer. Every page embeds the stylesheet, so the nine pages change only inside their `<style>` element; their markup and scripts are identical, and so are every element's computed style and the full-page screenshots in each reading language, with ruling marks on and off, under each tier filter, at 1280 and 390 px and in print emulation.
