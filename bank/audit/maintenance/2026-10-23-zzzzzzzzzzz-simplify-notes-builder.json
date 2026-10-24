@@ -1,0 +1,30 @@
+{
+  "status": "verified",
+  "date": "2026-10-23",
+  "reason": "Code simplification, PR C (23 Oct 2026): shared helpers in the notes builder (revision/study-notes/build.py): one cached source-text reader, one edition lookup and one original-document link for citations, ruling records and the validator, one language-span helper, one title-prefix stripper and one table renderer shared by the figures and the Numbers page; the unused grouped-table branch, model.py's unused g() helper and gap_check.py's repeated manifest() calls are removed. The seven part pages, index.html, coverage.json and bank-source-routes.json are byte-identical; amounts.html gains the </td> tags the old numbers-page markup omitted, with DOM and rendering verified identical in Playwright in all three reading languages. Adds the Unreleased changelog entry. Preserves the previous bytes of the changed files; the question bank, answers, quotes, scoring, notes content and source originals are unchanged by this record.",
+  "archive": "bank/audit/history/2026-10-23-before-simplify-notes-builder.zip",
+  "archive_sha256": "b17e862f892cedbe6e9eea0830f97a08909c328557a6d4b632a034cae5f071fc",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "15de7b0e6f10f108d7ac51222a6441390d792fd9beb9e110adba04bb46eaad25",
+      "after_sha256": "610eb35001c77c0cf10a7787af9e50cf3725a8cca9ba47ffa8d87382c1bac959"
+    },
+    "revision/study-notes/amounts.html": {
+      "before_sha256": "938b8974ff475511e9fadf38a889f38e2bf10f024ea4ebac8d2deb2be06871a6",
+      "after_sha256": "cf3f9d73e8f465ea22e39651ddb36501af6bcdbd769d003596f52a8881be6304"
+    },
+    "revision/study-notes/build.py": {
+      "before_sha256": "e81041dba03a3377dc84f2c9ff8ed0ac78fc37d19e6de63629a1ca7849c41d2d",
+      "after_sha256": "8f2c4dfe428a9d03567278672d164c4af970d043a90614c3e15457d051e18afd"
+    },
+    "revision/study-notes/gap_check.py": {
+      "before_sha256": "b012029d794dbbc3df0c64b27fceb8aad99b6680e6431537f6f41313253cda44",
+      "after_sha256": "5435a6d81d23b14aa44af21b6506ee5d8520882c9a2469837882d9e91af9ad25"
+    },
+    "revision/study-notes/model.py": {
+      "before_sha256": "32c6f6096e47fc7f65b1debfdbe8ccf5025d009e9fd59eee1f8379b6c8f479aa",
+      "after_sha256": "4accbc8d5b65838415a6d7e241fdc8a71c7ecd2b7b6dd540c71dc4787ac61c00"
+    }
+  },
+  "documentation_updates": {}
+}
