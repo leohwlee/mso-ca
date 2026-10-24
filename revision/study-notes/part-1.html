@@ -62,7 +62,6 @@ main { min-width: 0; max-width: 1060px; }
 h2 { font-size: 25px; line-height: 1.45; font-weight: 650; letter-spacing: -.02em; margin: 0; text-wrap: pretty; }
 h3 { font-size: 17px; line-height: 1.6; font-weight: 650; margin: 0 0 16px; }
 .intro { max-width: 72ch; margin: 0 0 30px 38px; color: var(--muted); }
-.table-wrap { margin: 32px 0; }
 table { width: 100%; table-layout: fixed; border-collapse: collapse; }
 th, td { text-align: left; vertical-align: top; overflow-wrap: anywhere; }
 thead th { padding: 12px 16px; color: var(--muted); font-size: 13px; font-weight: 500; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); }
@@ -73,7 +72,6 @@ tbody th { color: var(--accent); font-size: 16px; line-height: 1.65; font-weight
 tbody tr:first-child td { padding: 24px 16px 18px; font-size: 16px; }
 tbody tr:first-child td:last-child { background: var(--warm); }
 tbody + tbody { border-top: 1px solid var(--line); }
-.citation-row td { padding: 0 0 22px; }
 .citations { font-size: 12px; line-height: 1.65; color: var(--muted); }
 .source-citation { margin-top: 10px; overflow-wrap: anywhere; }
 .source-citation a { color: var(--muted); text-decoration-color: #a6b7a9; }
@@ -91,17 +89,11 @@ tbody + tbody { border-top: 1px solid var(--line); }
 .action { background: #fff7e5; border-color: #d8c59e; }
 .stop { background: #273c32; border-color: #273c32; color: white; }
 body[data-lang=both] .stop .en { color: #e1e9df; }
-.legend { font-size: 12px; color: var(--muted); margin: 16px 0; }
 .flow-stack > .flow-node + .flow-node { margin-top: 12px; }
-.third-flow > .arrow { width: 50%; margin-left: 50%; }
-.third-flow > .flow-node { margin-left: calc(50% + 8px); }
 .note, .example { margin: 30px 0; padding: 20px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .note h3, .example h3 { color: var(--accent); margin-bottom: 8px; }
 .note p, .example p { margin: 0; max-width: 72ch; font-size: 16px; }
 .example { padding: 20px 24px; border: 0; background: var(--warm); }
-.question-map { font-size: 12px; line-height: 1.9; color: var(--muted); margin-top: 24px; }
-.question-map > .tc, .question-map > .en { margin-bottom: 4px; }
-.qid { display: inline-block; font-size: 12px; margin: 0 10px 0 0; font-variant-numeric: tabular-nums; }
 footer { font-size: 13px; line-height: 1.8; color: var(--muted); border-top: 1px solid var(--line); padding-top: 24px; }
 [hidden] { display: none !important; }
 @media (min-width: 1500px) { .layout { gap: 64px; } }
@@ -140,10 +132,8 @@ footer { font-size: 13px; line-height: 1.8; color: var(--muted); border-top: 1px
   .flow { margin-left: -2px; margin-right: -2px; padding: 16px; }
   .flow-node { padding: 16px; }
   .branches { grid-template-columns: 1fr; gap: 16px; }
-  .third-flow > .flow-node, .third-flow > .arrow { margin-left: 0; width: 100%; }
   table, tbody, tr, td, tbody th { display: block; width: 100%; }
   thead { display: none; }
-  .table-wrap { margin: 30px 0; }
   tbody:first-of-type th { border-top: 1px solid var(--ink); }
   tbody th { padding: 20px 0 12px; font-size: 17px; }
   tbody tr:first-child td { padding: 0 0 16px; font-size: 16px; }
@@ -155,13 +145,12 @@ footer { font-size: 13px; line-height: 1.8; color: var(--muted); border-top: 1px
   body[data-lang=tc] tbody tr:first-child td:nth-child(3)::before { content: '容易混淆'; }
   body[data-lang=en] tbody tr:first-child td:nth-child(2)::before { content: 'Rule'; }
   body[data-lang=en] tbody tr:first-child td:nth-child(3)::before { content: 'Easy to confuse'; }
-  .citation-row td { padding: 0 0 24px; }
   .note, .example { margin: 24px 0; }
   .example { padding: 16px; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }
 @media print {
-  .toolbar, .sidebar, .skip-link, .question-map { display: none !important; }
+  .toolbar, .sidebar, .skip-link { display: none !important; }
   .layout { display: block; padding: 0; }
   body { font-size: 11pt; }
   main { max-width: none; }
@@ -173,17 +162,14 @@ footer { font-size: 13px; line-height: 1.8; color: var(--muted); border-top: 1px
 }
 
 /* B: annotated reference sheets, shared by all seven parts. */
-body{background:#edf2f6}.toolbar{border-color:#d5e0e8}.toolbar-inner{max-width:1440px;padding:16px 32px}.brand{font-family:Georgia,"Times New Roman",serif;color:#173f63;font-size:16px;font-weight:400}.part-nav{display:flex;gap:28px;max-width:1440px;margin:auto;padding:0 32px;overflow:auto;border-top:1px solid #edf2f6}.part-nav a{display:block;white-space:nowrap;text-decoration:none;color:#526a7e;font-size:13px;padding:12px 0 10px;border-bottom:2px solid transparent}.part-nav a[aria-current=page]{color:#173f63;border-color:#173f63;font-weight:650}.practice-link{font-size:13px;text-decoration:none;border-left:1px solid #d5e0e8;padding-left:16px}.layout{grid-template-columns:190px minmax(0,1fr);gap:28px;padding-top:32px}.sidebar{top:146px;max-height:calc(100vh - 172px);padding-top:10px}.sidebar a{grid-template-columns:1fr;padding:10px 8px;font-size:13px}.sidebar a:has(.nav-number){grid-template-columns:22px minmax(0,1fr)}main{background:#fff;padding:36px 40px;box-shadow:0 12px 32px #173f6308;max-width:none}.hero{padding-bottom:28px;margin-bottom:28px}.hero h1{color:#173f63;font-size:30px;line-height:1.5}.chapter{scroll-margin-top:30px}.chapter+.chapter{padding-top:32px}.section-heading{gap:12px}h2{color:#173f63;font-size:25px}h3{color:#173f63}.intro{margin-left:0;font-size:17px}.citations{font-size:13px}.locator{font-size:13px}.source-citation a{color:#526a7e}.flow{background:#edf2f6;padding:24px}.step{color:#173f63}.note{border-color:#d5e0e8}.example{background:#fff5e3}.reading-overview{margin-bottom:44px}.reading-overview>p{max-width:72ch;color:#526a7e}.reading-map{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;padding:20px 0;list-style:none;border-top:1px solid #d5e0e8;border-bottom:1px solid #d5e0e8;font-size:15px;color:#173f63}.reading-map li+li{border-left:1px solid #d5e0e8;padding-left:24px}.study-rule{padding:26px 0;border-bottom:1px solid #d5e0e8}.rule-grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:28px}.rule-copy:only-child{grid-column:1/-1;max-width:72ch}.rule-copy h3,.misconception h3{font-size:14px;font-weight:650;margin:0 0 10px}.rule-copy p{margin:0;font-size:17px;line-height:1.85}.rule-copy .detail{margin-top:12px;font-size:15px;color:#526a7e}.misconception{background:#fff5e3;padding:16px;align-self:start}.misconception h3{color:#6d491a}.misconception p{font-size:15px;line-height:1.8;margin:0;color:#55472f}.study-rule>.citations{margin-top:20px;max-width:90ch}.evidence{font-size:13px;margin:8px 0 0;padding:0;color:#526a7e;white-space:pre-line;overflow-wrap:anywhere}.study-rule .question-map{margin:10px 0 0}.citations a{overflow-wrap:anywhere}.question-map{font-size:12px}html{scroll-padding-top:125px}
-@media(max-width:1050px){.layout{grid-template-columns:165px minmax(0,1fr);gap:20px}main{padding:28px}.rule-grid{grid-template-columns:1fr;gap:16px}.misconception{max-width:72ch}.reading-map{grid-template-columns:1fr;gap:12px}.reading-map li+li{padding:0;border:0}}
-@media(max-width:800px){.layout{display:block;padding:20px}.sidebar{padding-top:0}.sidebar a{display:block;min-width:190px}.sidebar a:has(.nav-number){display:grid}.hero h1{font-size:28px}main{padding:28px}.part-nav{gap:24px;padding:0 20px}.toolbar-inner{padding:14px 20px}.reading-overview{margin-bottom:32px}}
-@media(max-width:600px){.toolbar-inner{padding:10px 16px}.brand{font-size:14px}.practice-link{font-size:12px;margin-left:auto}.part-nav{padding:0 16px;gap:22px}.part-nav a{font-size:12px;padding:9px 0}.layout{padding:18px 12px 40px}.sidebar{margin-bottom:20px}main{padding:24px 18px}.hero h1{font-size:25px}.chapter{scroll-margin-top:18px}.rule-copy p{font-size:16px}.hero{padding-bottom:24px}html{scroll-padding-top:154px}.reading-map{font-size:14px}.flow{padding:16px}.rule-grid{gap:14px}.study-rule{padding:22px 0}.citations,.locator,.evidence{font-size:12px}.misconception{padding:16px}.sidebar nav{padding-left:4px;padding-right:4px}}
-@media print{body{background:white}main{padding:0;box-shadow:none}.part-nav,.practice-link{display:none}.layout{padding:0}.reading-map,.study-rule{break-inside:avoid}.rule-grid{display:block}.misconception{margin-top:12px}.evidence{font-size:9pt}}
+body{background:#edf2f6}.toolbar{border-color:#d5e0e8}.toolbar-inner{max-width:1440px;padding:16px 32px}.brand{font-family:Georgia,"Times New Roman",serif;color:#173f63;font-size:16px;font-weight:400}.part-nav{display:flex;gap:28px;max-width:1440px;margin:auto;padding:0 32px;overflow:auto;border-top:1px solid #edf2f6}.part-nav a{display:block;white-space:nowrap;text-decoration:none;color:#526a7e;font-size:13px;padding:12px 0 10px;border-bottom:2px solid transparent}.part-nav a[aria-current=page]{color:#173f63;border-color:#173f63;font-weight:650}.practice-link{font-size:13px;text-decoration:none;border-left:1px solid #d5e0e8;padding-left:16px}.layout{grid-template-columns:190px minmax(0,1fr);gap:28px;padding-top:32px}.sidebar{top:146px;max-height:calc(100vh - 172px);padding-top:10px}.sidebar a{grid-template-columns:1fr;padding:10px 8px;font-size:13px}.sidebar a:has(.nav-number){grid-template-columns:22px minmax(0,1fr)}main{background:#fff;padding:36px 40px;box-shadow:0 12px 32px #173f6308;max-width:none}.hero{padding-bottom:28px;margin-bottom:28px}.hero h1{color:#173f63;font-size:30px;line-height:1.5}.chapter{scroll-margin-top:30px}.chapter+.chapter{padding-top:32px}.section-heading{gap:12px}h2{color:#173f63;font-size:25px}h3{color:#173f63}.intro{margin-left:0;font-size:17px}.citations{font-size:13px}.locator{font-size:13px}.source-citation a{color:#526a7e}.flow{background:#edf2f6;padding:24px}.step{color:#173f63}.note{border-color:#d5e0e8}.example{background:#fff5e3}.evidence{font-size:13px;margin:8px 0 0;padding:0;color:#526a7e;white-space:pre-line;overflow-wrap:anywhere}.citations a{overflow-wrap:anywhere}html{scroll-padding-top:125px}
+@media(max-width:1050px){.layout{grid-template-columns:165px minmax(0,1fr);gap:20px}main{padding:28px}}
+@media(max-width:800px){.layout{display:block;padding:20px}.sidebar{padding-top:0}.sidebar a{display:block;min-width:190px}.sidebar a:has(.nav-number){display:grid}.hero h1{font-size:28px}main{padding:28px}.part-nav{gap:24px;padding:0 20px}.toolbar-inner{padding:14px 20px}}
+@media(max-width:600px){.toolbar-inner{padding:10px 16px}.brand{font-size:14px}.practice-link{font-size:12px;margin-left:auto}.part-nav{padding:0 16px;gap:22px}.part-nav a{font-size:12px;padding:9px 0}.layout{padding:18px 12px 40px}.sidebar{margin-bottom:20px}main{padding:24px 18px}.hero h1{font-size:25px}.chapter{scroll-margin-top:18px}.hero{padding-bottom:24px}html{scroll-padding-top:154px}.flow{padding:16px}.citations,.locator,.evidence{font-size:12px}.sidebar nav{padding-left:4px;padding-right:4px}}
+@media print{body{background:white}main{padding:0;box-shadow:none}.part-nav,.practice-link{display:none}.layout{padding:0}.evidence{font-size:9pt}}
 
-.context-heading{margin:32px 0 0;padding:18px 0 0;border-top:1px solid #aebfcf;max-width:75ch}.context-heading h3{font-size:19px;line-height:1.65;margin:0}.study-rule+.context-heading{margin-top:40px}.reading-overview+section .context-heading{margin-top:24px}
 
-.overview-comparison{margin-top:32px}.overview-comparison h2{font-size:22px}.overview-comparison>p{font-size:14px;color:#526a7e;max-width:72ch;margin:12px 0 20px}.overview-table thead th:first-child{width:28%}.overview-table thead th:nth-child(2){width:72%}.overview-table tbody tr:first-child td:last-child{background:white}.overview-table .citations{margin-top:8px}
 
-.diagram-title{font-size:22px;margin-bottom:20px}
 
 main:focus{outline:none}main:focus-visible .hero{border-bottom-color:var(--accent)}
 
@@ -301,7 +287,6 @@ main:focus{outline:none}main:focus-visible .hero{border-bottom-color:var(--accen
 .penalty-formula p{font-size:16px;margin:12px 0}
 .penalty-formula .formula-expression{font-size:22px;font-weight:600;color:var(--accent);line-height:1.7}
 .visual-links{display:flex;flex-wrap:wrap;gap:12px 24px;margin:20px 0;font-size:14px}
-.table-group-title{padding-top:25px}
 .stage-sequence{grid-template-columns:1fr;gap:0;padding-bottom:0}
 .stage-sequence li+li{padding:24px 0 0;border-left:0;border-top:1px solid var(--line)}
 .stage-sequence li{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.25fr);gap:12px 28px;padding:20px 0}

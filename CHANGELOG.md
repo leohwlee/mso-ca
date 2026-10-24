@@ -1,5 +1,10 @@
 # Release notes / 版本更新
 
+## Unreleased
+
+- Removes from the notes stylesheet (`revision/study-notes/style.css`) the rules for 17 classes that no generated page and no generator emits, left from earlier page designs (`question-map`, `qid`, `reading-map`, `reading-overview`, `study-rule`, `rule-grid`, `rule-copy`, `misconception`, `context-heading`, `overview-comparison`, `overview-table`, `legend`, `table-wrap`, `citation-row`, `third-flow`, `diagram-title`, `table-group-title`): 53 rules and one selector of the print rule, 15 lines fewer. Every page embeds the stylesheet, so the nine pages change only inside their `<style>` element; their markup and scripts are identical, and so are every element's computed style and the full-page screenshots in each reading language, with ruling marks on and off, under each tier filter, at 1280 and 390 px and in print emulation.
+- 移除筆記樣式表（`revision/study-notes/style.css`）中17個早期頁面設計遺留、任何生成頁面及生成器都不輸出的類別的規則（`question-map`、`qid`、`reading-map`、`reading-overview`、`study-rule`、`rule-grid`、`rule-copy`、`misconception`、`context-heading`、`overview-comparison`、`overview-table`、`legend`、`table-wrap`、`citation-row`、`third-flow`、`diagram-title`、`table-group-title`）：共53條規則及列印規則中的一個選擇器，少15行。每頁內嵌樣式表，故九個頁面只有`<style>`元素內容改變；標記與腳本一致，三種閱讀語言、裁決標記開關、各學習層次篩選、1280及390像素寬度及列印模式下每個元素的計算樣式與整頁截圖亦一致。
+
 ## v1.13.2 — 24 October 2026
 
 - Removes `revision/study-notes/essentials.py`, the empty compatibility module left when the second-pass supplements were consolidated into `part1.py`–`part7.py` on 19 October 2026, together with the merge loop in `build.py` that read it. `coverage.json` and `bank-source-routes.json` no longer carry an `essentials` entry (its hash, 0 blocks and 0 points); the seven part pages, the Numbers page and the bundle are byte-identical. The pre-consolidation source stays in `independent-audit-2026-10-19/baseline.zip`.
