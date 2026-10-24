@@ -26,30 +26,25 @@ Python handles source extraction, authoring and review records.
 Install Go 1.27+, Node.js 22+ and Python 3.10+. Run from the repository root:
 
 ```bash
-go run . -export-html dist/mso-ca.html
-go vet ./...
-go test ./...
-node --test tests/*.test.cjs
-python -m unittest discover -s tests -p '*_test.py'
-python docs/build_catalog.py --check
-python bank/audit/active_scope.py --check
-python bank/audit/render_active_scope.py --check
-python bank/audit/report.py --check
-python bank/audit/terms_report.py --check
-python bank/audit/p1_report.py --check
-python bank/audit/remaining_report.py --check
-go run . -export-html dist/mso-ca.html
+python scripts/check.py
 ```
+
+The script is the one list of checks; CI and the release workflow run exactly it.
+In order, stopping at the first failure: the practice-app export
+(`go run . -export-html dist/mso-ca.html`, which the Python link tests and the
+bundle read), `go vet`, `go test`, the Node tests, the Python tests,
+`docs/build_catalog.py --check`, `bank/audit/active_scope.py --check`,
+`bank/audit/render_active_scope.py --check`, the four audit reports
+(`report.py`, `terms_report.py`, `p1_report.py`, `remaining_report.py --check`),
+the notes builder and gap audit (`revision/study-notes/build.py --check`,
+`gap_check.py --check`), then `scripts/build_study_bundle.py` and its `--check`,
+which verifies every bundle member and all reading-page links. `--list` prints
+the commands so that one can be run alone.
 
 For the source-authored seven-part reading material, run
 `python revision/study-notes/build.py`, then the separate bank gap pass with
 `python revision/study-notes/gap_check.py`. The renderer does not read the bank.
-Use both with `--check` to verify deterministic output. The historical Part 6
-sample has its separate `python revision/part6-sample/build.py` command.
-CI and release checks also verify these generated notes and build the complete
-offline bundle with `python scripts/build_study_bundle.py` (`--check` verifies
-every member and all reading-page links). Build the practice target before the
-Python link tests on a fresh checkout.
+The historical Part 6 sample has its separate `python revision/part6-sample/build.py` command.
 
 Python tools use the standard library; only source re-extraction needs PyMuPDF.
 On Windows, use `py -3` if `python` opens the Store, or `-X utf8` for Chinese output.

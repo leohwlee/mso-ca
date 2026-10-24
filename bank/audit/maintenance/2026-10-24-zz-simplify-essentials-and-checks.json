@@ -1,0 +1,55 @@
+{
+  "status": "verified",
+  "date": "2026-10-24",
+  "reason": "Simplification items E1 and E2, approved by the owner on 24 October 2026. E1: revision/study-notes/essentials.py, the empty compatibility module (ADDITIONS = {}) left when the second-pass supplements were consolidated into part1.py-part7.py on 19 October 2026, is deleted; its bytes are preserved in this archive and its pre-consolidation source stays in independent-audit-2026-10-19/baseline.zip. build.py loses the import, the merge loop and the manifest's essentials entry, and gap_check.py no longer copies that entry, so coverage.json and visual-refinement-2026-10-20/bank-source-routes.json lose only the essentials key (sha256, blocks 0, points 0); index.html, amounts.html and the seven part pages are byte-identical. E2: the new scripts/check.py is the single list of checks (app export, Go, Node and Python tests, every --check script, bundle build and check, stopping at the first failure); .github/workflows/ci.yml and release.yml run it instead of their own copies of the command list, and DEVELOPMENT.md and DEVELOPMENT.zh-Hant.md describe it instead of listing the commands. revision/study-notes/README.md drops its sentence about the compatibility module. CHANGELOG.md gains the bilingual Unreleased bullets. No question, answer, quote, audit report or notes content changes.",
+  "archive": "bank/audit/history/2026-10-24-before-simplify-essentials-and-checks.zip",
+  "archive_sha256": "f91a1ecf0b41dc0296ee971b7cafcf12c5e673e2f64edb05894e4e43b5a91a03",
+  "archive_updates": {
+    ".github/workflows/ci.yml": {
+      "before_sha256": "e35aedbc4b4dde6151f2116e00e43d4c257f4d675c820febc8bdc9acb02081d4",
+      "after_sha256": "9f74ec1e4be259dbefb10792ce8139d814239a6767e6fb295091c57d1e4982fc"
+    },
+    ".github/workflows/release.yml": {
+      "before_sha256": "de63907c5e60a325d3556bb5a2ffd4566ec31e02c89a62b2b4ce2a1f6d7d1f8c",
+      "after_sha256": "335d1b724d103926a5e15e527566f72a48c4b32b374cce952d2e6798cc250cac"
+    },
+    "CHANGELOG.md": {
+      "before_sha256": "0e30074ff79863a2102bda35283a40577e9bfc959a002db48333e23c6e101ddb",
+      "after_sha256": "d04968501a84d25d4ed0b0e011932b2fd5efebebb9272b046b0eb4147953c120"
+    },
+    "DEVELOPMENT.md": {
+      "before_sha256": "45908ac4608a68230a7fd40c1253e91b15dd7bee2983f1408759042c7c2dd395",
+      "after_sha256": "c6500577e7e1075cf9decefe71ee93155cad545f1afbc57cce67cb8b0a57f0d7"
+    },
+    "DEVELOPMENT.zh-Hant.md": {
+      "before_sha256": "b57c76d867072301b04c78ad9a43a75226de3884d7194e8bd44f38a05d73447c",
+      "after_sha256": "9fd0c3964c7ca8efe7b13210278653ffcea2e31367055ba3065c0927c6cc027b"
+    },
+    "revision/study-notes/README.md": {
+      "before_sha256": "4cbcfa39617b236ce5ec68e2a5d72211a700aa21dd072b58c04dc95b4d1fcab9",
+      "after_sha256": "c0d7e089ff19b8f11d611182cedf8f6084b0968a304b2af44510272c0329636f"
+    },
+    "revision/study-notes/build.py": {
+      "before_sha256": "4fbcb56f781deea3c86f2fee0af4ab9a6eb9bc9205137e5dc16565402f5087a5",
+      "after_sha256": "299e93e7fd6fefe67d0d395d805a0f412188fb1136c1232b0a8e2f4fe5192bcf"
+    },
+    "revision/study-notes/coverage.json": {
+      "before_sha256": "3f2daff4884aa9605b9e065e74a12b03f6ca2c779eeee113c0e43e23530cf1f7",
+      "after_sha256": "709c0ea47a52083a22b7aa65be926d916731c16eb5237c9d5996c3192f01399f"
+    },
+    "revision/study-notes/gap_check.py": {
+      "before_sha256": "d6c6cc606cec10a19c48014efa1152777c7c3f7a17b3c1714851c4ca50ea4d71",
+      "after_sha256": "5986a1f5e89ad74c255208bec3fcdb520da44b4c080c17c935226bb9c22a9a55"
+    },
+    "revision/study-notes/visual-refinement-2026-10-20/bank-source-routes.json": {
+      "before_sha256": "c9149a95fbb4484a12367277ac481dc287dd5c85dfc9c181b86d5972ec7feac4",
+      "after_sha256": "cdd68cc633868256ff1a7834a38dd64fa1ed144aabfc168cf80dd62301a6a03d"
+    }
+  },
+  "documentation_updates": {},
+  "archive_preserved": {
+    "revision/study-notes/essentials.py": {
+      "sha256": "af49041dd69cdead1adec400c2c6fa0c97514141717e4b51ca8417a78b2d2cc2"
+    }
+  }
+}
