@@ -1,0 +1,26 @@
+{
+  "status": "verified",
+  "date": "2026-10-24",
+  "reason": "Code simplification, PR A (24 Oct 2026): shared helpers and dead code in the practice app (web/app.js, web/style.css): one three-way language switch behind the chrome text, content, option and statement renderers, the results verdict and the history file; one answer toggle for the option buttons, the answer sheet and the keyboard; one key-to-position reader; one verdict function behind grading and recorded attempts; the chip labels move into MODULES; the storage keys become constants; the never-read justFinished flag and the unused .optrow style are removed; tests/app.test.cjs uses the constants. Every view, the history file and the saved state were rendered from a fixed script with the old and the new code and compared string for string (103 snapshots identical); the home page's DOM, computed styles and screenshots are identical in Playwright in each reading language. Adds the Unreleased changelog entry. Preserves the previous bytes of the changed files; the question bank, answers, quotes, scoring, notes and source originals are unchanged by this record.",
+  "archive": "bank/audit/history/2026-10-24-before-simplify-app.zip",
+  "archive_sha256": "d66f9b3be5aa6f1b1124812bc8aed87695efc0b331516c68737b9aae0b6f4aa2",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "fd1e1fcc788dd49330e53f29a2ef1873f05da8199d3c59489c6b3c708e46b43d",
+      "after_sha256": "8abf67f99a84d5038ca0465cfcea2623443c26165cc3c792a3b90b30d759578a"
+    },
+    "tests/app.test.cjs": {
+      "before_sha256": "f8957037b6e2d0e603902aae9e60b465dd686e1c4c55121af01881717f6d8570",
+      "after_sha256": "0eb9ba6ccdda7ba4ac5940930df381edc4e6ef3f61d4b9213c8ef1094781a9d1"
+    },
+    "web/app.js": {
+      "before_sha256": "a15ba64933d2ce3184637992ae2409b144423029b90a5edf05ca4b33ea73d86f",
+      "after_sha256": "cc2b5deabaac82e71f977666a0df47c86578d12aec35f8b9d7452e66da43206f"
+    },
+    "web/style.css": {
+      "before_sha256": "9d62d297b14cb6ff82d30452a49d2bd727f03821fa5a082c1a562256703a5ce6",
+      "after_sha256": "32faeac378dc66294bb4078e5ee9a9c0b31ea9a564a504192b88f3cd8aadf3be"
+    }
+  },
+  "documentation_updates": {}
+}
