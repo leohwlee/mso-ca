@@ -24,26 +24,21 @@ JavaScript 負責 App 操作；Python 負責來源擷取、出題及覆核記錄
 安裝 Go 1.27 或以上、Node.js 22 或以上及 Python 3.10 或以上，從倉庫根目錄執行：
 
 ```bash
-go run . -export-html dist/mso-ca.html
-go vet ./...
-go test ./...
-node --test tests/*.test.cjs
-python -m unittest discover -s tests -p '*_test.py'
-python docs/build_catalog.py --check
-python bank/audit/active_scope.py --check
-python bank/audit/render_active_scope.py --check
-python bank/audit/report.py --check
-python bank/audit/terms_report.py --check
-python bank/audit/p1_report.py --check
-python bank/audit/remaining_report.py --check
-go run . -export-html dist/mso-ca.html
+python scripts/check.py
 ```
+
+此腳本是唯一一份檢查清單；CI 與公開發佈流程執行的正是它。依次執行、遇錯即停：
+匯出練習App（`go run . -export-html dist/mso-ca.html`，Python連結測試及學習包都讀取它）、
+`go vet`、`go test`、Node測試、Python測試、`docs/build_catalog.py --check`、
+`bank/audit/active_scope.py --check`、`bank/audit/render_active_scope.py --check`、
+四份審核報告（`report.py`、`terms_report.py`、`p1_report.py`、`remaining_report.py --check`）、
+筆記生成器及題庫查漏（`revision/study-notes/build.py --check`、`gap_check.py --check`），
+最後執行 `scripts/build_study_bundle.py` 及其 `--check`（核對學習包全部成員及閱讀頁連結）。
+加 `--list` 只列出命令，方便單獨執行其中一項。
 
 原文編寫的七部分筆記先執行 `python revision/study-notes/build.py`，再用
 `python revision/study-notes/gap_check.py` 另外作題庫查漏；正文生成器不讀題庫。
-兩個命令加上 `--check` 可檢查輸出一致性。舊Part 6樣章另以
-`python revision/part6-sample/build.py` 維護。CI與公開發佈流程亦會核對七部分閱讀頁，
-並建立完整離線學習包。
+舊Part 6樣章另以 `python revision/part6-sample/build.py` 維護。
 
 Python 工具一般只用標準函式庫；重新擷取來源文字才需要 PyMuPDF。
 Windows 若 `python` 開啟 Store，可改用 `py -3`；中文輸出有問題時加 `-X utf8`。
@@ -76,6 +71,4 @@ git push origin vX.Y.Z
 只發佈 `mso-study-bundle.zip`；練習App、七部分筆記及由目錄解析的01–26原件都在包內。
 確認 CI 及 Release 成功，再核對附件；不可覆蓋已發佈標籤。
 舊溫習資料仍可從既有版本及[存檔](revision/README.md)取回，不再重建。
-用 `python scripts/build_study_bundle.py` 建置學習包，
-加 `--check` 核對全部成員及閱讀頁連結。全新工作區須先匯出App，再執行Python連結檢查。
 `dist/` 及 Python 快取是本機產物。

@@ -26,34 +26,10 @@ jobs:
         with:
           node-version: 22
 
-      # A tag that fails the bank checks must not become a download.
-      - name: Build practice target for reading-link checks
-        run: go run . -export-html dist/mso-ca.html
-
-      - name: Verify
-        run: |
-          go vet ./...
-          go test ./...
-          node --test tests/*.test.cjs
-          python3 -m unittest discover -s tests -p '*_test.py'
-          python3 docs/build_catalog.py --check
-          python3 bank/audit/active_scope.py --check
-          python3 bank/audit/render_active_scope.py --check
-          python3 bank/audit/report.py --check
-          python3 bank/audit/terms_report.py --check
-          python3 bank/audit/p1_report.py --check
-          python3 bank/audit/remaining_report.py --check
-          python3 revision/study-notes/build.py --check
-          python3 revision/study-notes/gap_check.py --check
-
-      - name: Build study bundle
-        run: |
-          mkdir -p dist
-          go run . -export-html dist/mso-ca.html
-          python3 scripts/build_study_bundle.py
-          python3 scripts/build_study_bundle.py --check
-          ls -lh dist/mso-ca.html dist/mso-study-bundle.zip
-
+      # A tag that fails the checks must not become a download. scripts/check.py runs
+      # the same checks as CI and leaves dist/mso-study-bundle.zip behind.
+      - name: Check and build
+        run: python3 scripts/check.py
 
       # The release notes are the tag's message, so an annotated tag says what
       # changed. Branches are merged without pull requests, so GitHub's generated

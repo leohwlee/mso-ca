@@ -146,8 +146,9 @@ separately; the archived legislation is not represented as live-verified law.
 ## Maintain / 維護
 
 `part1.py`–`part7.py` hold the consolidated manuscripts, including the former
-second-pass additions. `essentials.py` is an empty compatibility module; it no longer
-adds a second layer of prose. `memory_panels.py` holds explicit source references for
+second-pass additions; the `essentials.py` module that carried them was removed on
+24 October 2026 and its pre-consolidation source stays in
+`independent-audit-2026-10-19/baseline.zip`. `memory_panels.py` holds explicit source references for
 the selected comparisons. `visual_panels.py` adapts/adds source-bound diagrams, including
 the list cards; `visual_render.py` provides native, offline HTML rendering. `tiers.py`
 gives every block its study tier; `traps.py` holds the exam traps, each tied to a
@@ -156,7 +157,7 @@ to one point or figure by its English text; `amounts.py` holds the numbers page.
 checks every anchor, number and section, and validates and renders without reading the bank.
 
 `part1.py`至`part7.py`保存整合後文稿；舊第二輪補充已併入相應主題，
-`essentials.py`只保留空白兼容入口。`memory_panels.py`的圖表有明確原文引用。
+原載補充的`essentials.py`已於2026年10月24日移除，整合前原稿保存在`independent-audit-2026-10-19/baseline.zip`。`memory_panels.py`的圖表有明確原文引用。
 `visual_panels.py`處理圖解內容及改編，`visual_render.py`負責離線HTML表達；`tiers.py`為每個內容組定學習層次，
 `traps.py`保存易錯提示，每項對應CONFLICT-CALLS裁決編號並由`build.py`核對；`rulings.py`以英文原句把每個裁決標記連到一個要點或圖表，
 `build.py`核對每個定位及編號；生成器不讀題庫。

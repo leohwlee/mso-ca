@@ -24,31 +24,9 @@ jobs:
         with:
           node-version: 22
 
-      - name: Vet and test
-        run: |
-          go run . -export-html dist/mso-ca.html
-          go vet ./...
-          go test ./...
-          node --test tests/*.test.cjs
-          python3 -m unittest discover -s tests -p '*_test.py'
-
-      - name: Verify coverage and review evidence
-        run: |
-          python3 docs/build_catalog.py --check
-          python3 bank/audit/active_scope.py --check
-          python3 bank/audit/render_active_scope.py --check
-          python3 bank/audit/report.py --check
-          python3 bank/audit/terms_report.py --check
-          python3 bank/audit/p1_report.py --check
-          python3 bank/audit/remaining_report.py --check
-          python3 revision/study-notes/build.py --check
-          python3 revision/study-notes/gap_check.py --check
-
-      # Building here catches an export that fails even when the bank is sound.
-      - name: Build single-file app
-        run: |
-          mkdir -p dist
-          go run . -export-html dist/mso-ca.html
-          python3 scripts/build_study_bundle.py
-          python3 scripts/build_study_bundle.py --check
-          ls -lh dist/mso-ca.html
+      # scripts/check.py is the one list of checks, shared with the release workflow
+      # and DEVELOPMENT.md: it exports the app, runs the Go, Node and Python tests and
+      # every --check script, then builds and checks the offline bundle, so an export
+      # or bundle that fails even when the bank is sound is caught here too.
+      - name: Check and build
+        run: python3 scripts/check.py

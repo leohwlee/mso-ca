@@ -12,16 +12,12 @@ HERE=Path(__file__).resolve().parent
 ROOT=HERE.parents[1]
 PARTS={n:copy.deepcopy(importlib.import_module(f'part{n}').PART) for n in range(1,8)}
 from memory_panels import PANELS, EMPHASIS
-from essentials import ADDITIONS
 from visual_panels import apply as apply_visuals
 from visual_render import render as render_visual
 from traps import TRAPS
 from tiers import TIERS, LABELS as TIER_LABELS, PREFIXES as TIER_PREFIXES
 from rulings import MARKS as RULING_MARKS, ISSUES as RULING_ISSUES, DECISIONS as RULING_DECISIONS, RECORDS as RULING_RECORDS
 from amounts import GROUPS as AMOUNT_GROUPS
-for number, additions in ADDITIONS.items():
-    for topic, blocks in additions.items():
-        next(section for section in PARTS[number]['sections'] if section['id']==topic)['blocks'].extend(blocks)
 PANELS=apply_visuals(PANELS,PARTS)
 CATALOG=json.loads((ROOT/'docs/catalog.json').read_text(encoding='utf-8'))
 DOCS={d['id']:d for d in CATALOG['documents']}
@@ -475,9 +471,8 @@ def manifest():
     recall['visual_sources']={name:hashlib.sha256((HERE/name).read_bytes()).hexdigest() for name in ('visual_panels.py','visual_render.py')}
     exam_focus=dict(traps=sum(len(v) for sections in TRAPS.values() for v in sections.values()),tiers={k:''.join(t for sections in TIERS.values() for t in sections.values()).count(k) for k in TIER_LABELS},sources={name:hashlib.sha256((HERE/name).read_bytes()).hexdigest() for name in ('traps.py','tiers.py')})
     exam_focus['ruling_marks']=dict(marks={str(n):sum(len(v) for v in RULING_MARKS.get(n,{}).values()) for n in PARTS},checks=sum(bool(mark['check']) for mark in [*RULED_POINTS.values(),*RULED_PANELS.values()]),rulings=sorted(RULING_PARTS,key=ruling_order),sha256=hashlib.sha256((HERE/'rulings.py').read_bytes()).hexdigest())
-    essentials=dict(sha256=hashlib.sha256((HERE/'essentials.py').read_bytes()).hexdigest(),blocks=sum(len(blocks) for topics in ADDITIONS.values() for blocks in topics.values()),points=sum(len(block['points']) for topics in ADDITIONS.values() for blocks in topics.values() for block in blocks))
     amounts=dict(sha256=hashlib.sha256((HERE/'amounts.py').read_bytes()).hexdigest(),groups=len(AMOUNT_GROUPS),rows=sum(len(g['rows']) for g in AMOUNT_GROUPS))
-    return dict(scope='Repository originals 01–26; source-authored seven-part revision notes',method='Original passages -> concepts, definitions, requirements, conditions and exceptions. Source-bound recall comparisons supplement full visible prose. The bank is used only by the separate gap audit.',limitations='Anchors prove source location, not semantic completeness. See depth-review-2026-10-20/REPORT.md and its per-source inventories for the current depth review, bilingual meaning checks, source-selected statutory coverage, reference-detail decisions and unresolved verification boundaries. This is not a line-by-line bilingual audit of every full volume or a guarantee about unknown official questions. Official source categories extend beyond the owner-selected 01–26. Historical reviews remain preserved, not proof of this review. Dated findings/lists retain their publication date.',manuscripts={f'part{n}.py':hashlib.sha256((HERE/f'part{n}.py').read_bytes()).hexdigest() for n in PARTS},essentials=essentials,recall=recall,exam_focus=exam_focus,amounts=amounts,source_text_sha256={doc:{lang:hashlib.sha256((ROOT/f'docs/text/{lang}/{doc}.txt').read_bytes()).hexdigest() for lang in (('EN',) if doc=='24' else ('TC','EN'))} for doc in documents},documents=documents,parts=parts)
+    return dict(scope='Repository originals 01–26; source-authored seven-part revision notes',method='Original passages -> concepts, definitions, requirements, conditions and exceptions. Source-bound recall comparisons supplement full visible prose. The bank is used only by the separate gap audit.',limitations='Anchors prove source location, not semantic completeness. See depth-review-2026-10-20/REPORT.md and its per-source inventories for the current depth review, bilingual meaning checks, source-selected statutory coverage, reference-detail decisions and unresolved verification boundaries. This is not a line-by-line bilingual audit of every full volume or a guarantee about unknown official questions. Official source categories extend beyond the owner-selected 01–26. Historical reviews remain preserved, not proof of this review. Dated findings/lists retain their publication date.',manuscripts={f'part{n}.py':hashlib.sha256((HERE/f'part{n}.py').read_bytes()).hexdigest() for n in PARTS},recall=recall,exam_focus=exam_focus,amounts=amounts,source_text_sha256={doc:{lang:hashlib.sha256((ROOT/f'docs/text/{lang}/{doc}.txt').read_bytes()).hexdigest() for lang in (('EN',) if doc=='24' else ('TC','EN'))} for doc in documents},documents=documents,parts=parts)
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');args=ap.parse_args();validate()
