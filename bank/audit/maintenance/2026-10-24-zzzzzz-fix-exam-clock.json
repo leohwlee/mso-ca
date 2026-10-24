@@ -1,0 +1,18 @@
+{
+  "status": "verified",
+  "date": "2026-10-24",
+  "reason": "Fix approved by the owner on 24 October 2026: web/app.js startExam() takes one Date.now() reading for both startedAt and endsAt. The two separate readings could straddle a millisecond, so endsAt - startedAt was occasionally 75 minutes plus 1 ms; tests/app.test.cjs asserts the exact length and failed intermittently (the first Release run for v1.13.3 failed this way and was re-run). The exam's questions, drawing, answers, scoring, storage keys and every other behaviour are unchanged; the single-file app is regenerated from the same sources. CHANGELOG.md gains the bilingual Unreleased bullets. The question bank, answers, quotes, notes and source originals are unchanged.",
+  "archive": "bank/audit/history/2026-10-24-before-fix-exam-clock.zip",
+  "archive_sha256": "ee4b6b22655ec14aaf519c8396ba6775894af68a6f59b665d914f8d8194ff7cf",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "700371d9794d4bf801d1b057aaf21d20f6dc7a897e137865c8a45adbd02a4eb1",
+      "after_sha256": "cb4cecd1e45e43cb0a30318c7cf050cf86e8a058429cb5f3a39e48d005fbdc5f"
+    },
+    "web/app.js": {
+      "before_sha256": "cc2b5deabaac82e71f977666a0df47c86578d12aec35f8b9d7452e66da43206f",
+      "after_sha256": "a9313fa7eb71d8996600829877b825827d6aadab31ae0e9b9186c2ef2f5338a7"
+    }
+  },
+  "documentation_updates": {}
+}

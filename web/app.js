@@ -605,10 +605,11 @@ function startExam() {
       perm[q.id] = drawPerm(q);
     }
   }
+  const now = Date.now();
   exam = {
     qids, perm, answers: {}, flags: [],
     cur: 0, minutes,
-    startedAt: Date.now(), endsAt: Date.now() + minutes * 60000,
+    startedAt: now, endsAt: now + minutes * 60000,
   };
   warned = new Set();
   saveExam();
