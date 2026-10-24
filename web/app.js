@@ -7,18 +7,19 @@ const SOURCE_INDEX = {"documents":{"01":{"tc":{"filename":"01_高_能力評核�
 
 /* ---------------- constants ---------------- */
 
+/* the seven parts of the paper; `short` is the label of the practice chip */
 const MODULES = [
   { n: 1, en: 'General knowledge on AML/CFT and Counter Proliferation Financing',
-    tc: '有關打擊洗錢及恐怖分子資金籌集與打擊擴散資金籌集的常識' },
-  { n: 2, en: 'Parts 1–7 of the AMLO', tc: '《打擊洗錢條例》第1至7部' },
-  { n: 3, en: 'Schedules to the AMLO', tc: '《打擊洗錢條例》的附表' },
-  { n: 4, en: 'Guidelines promulgated by the C&ED', tc: '海關頒布的指引' },
+    tc: '有關打擊洗錢及恐怖分子資金籌集與打擊擴散資金籌集的常識', short: ['General AML/CFT', '常識'] },
+  { n: 2, en: 'Parts 1–7 of the AMLO', tc: '《打擊洗錢條例》第1至7部', short: ['AMLO Parts 1–7', '條例1–7部'] },
+  { n: 3, en: 'Schedules to the AMLO', tc: '《打擊洗錢條例》的附表', short: ['AMLO Schedules', '條例附表'] },
+  { n: 4, en: 'Guidelines promulgated by the C&ED', tc: '海關頒布的指引', short: ['C&ED guidelines', '海關指引'] },
   { n: 5, en: "MSO's systems and controls (i): institutional governance and strategy",
-    tc: '金錢服務經營者的系統及管控措施(i)：機構層面的管治及策略' },
+    tc: '金錢服務經營者的系統及管控措施(i)：機構層面的管治及策略', short: ['Governance', '管治'] },
   { n: 6, en: "MSO's systems and controls (ii): AML/CFT control areas",
-    tc: '金錢服務經營者的系統及管控措施(ii)：打擊洗錢及恐怖分子資金籌集的管控範疇' },
+    tc: '金錢服務經營者的系統及管控措施(ii)：打擊洗錢及恐怖分子資金籌集的管控範疇', short: ['Control areas', '管控範疇'] },
   { n: 7, en: "MSO's systems and controls (iii): demonstrating and monitoring compliance",
-    tc: '金錢服務經營者的系統及管控措施(iii)：證明符合規定及監察合規水平' },
+    tc: '金錢服務經營者的系統及管控措施(iii)：證明符合規定及監察合規水平', short: ['Compliance', '證明合規'] },
 ];
 
 const CFG = {
@@ -38,7 +39,6 @@ let S = { lang: null, view: 'home', theme: 'auto' };   // lang null = not chosen
 let exam = null;                // active exam state
 let practice = null;            // active practice state
 let reviewAttempt = null;       // attempt shown on results view
-let justFinished = false;       // results view: fresh submit vs history review
 let timerId = null;
 let homeNotice = null;          // one-shot message on home
 let pmodSel = new Set([1, 2, 3, 4, 5, 6, 7]); // practice module selection
@@ -61,8 +61,7 @@ const store = {
   del(k) { try { localStorage.removeItem('msoca:' + k); } catch {} },
 };
 
-const attemptsKey = () => 'attempts';
-const examKey = () => 'exam';
+const ATTEMPTS = 'attempts', EXAM = 'exam';   // storage keys (under the msoca: prefix)
 
 /* The wrong-answer book: every question answered wrong, in practice or in a
    mock, stays listed until it is answered right twice in a row. `seen` is every
@@ -195,37 +194,29 @@ function shuffle(a) {
   return a;
 }
 
-/* ui(en, tc): chrome text in the current language mode */
-function ui(en, tc) {
-  if (S.lang === 'en') return en;
-  if (S.lang === 'tc') return tc;
-  return en + ' · ' + tc;
-}
+/* text in the current language mode: the English, the Chinese, or the given form of both */
+const byLang = (en, tc, both) => S.lang === 'en' ? en : S.lang === 'tc' ? tc : both;
+const ui = (en, tc) => byLang(en, tc, en + ' · ' + tc);                       // chrome text
+const plain = (en, tc) => byLang(en, tc, en + ' ｜ ' + tc);                    // the history file
+const bilingual = (en, tc) => byLang(en, tc, `${en}<span class="tcline">${tc}</span>`);  // escaped content
 
 /* bilingual content block (stem / explanation / note) */
 function contentPair(en, tc) {
   en = esc(en); tc = esc(tc);
-  if (S.lang === 'en') return en ? `<div>${en}</div>` : '';
-  if (S.lang === 'tc') return tc ? `<div>${tc}</div>` : '';
-  return en || tc ? `<div>${en}</div><div class="tcline">${tc}</div>` : '';
+  return byLang(en ? `<div>${en}</div>` : '', tc ? `<div>${tc}</div>` : '',
+    en || tc ? `<div>${en}</div><div class="tcline">${tc}</div>` : '');
 }
 const contentHTML = (obj, field) => contentPair(obj.en[field], obj.tc[field]);
 
 /* an option as shown: a set of statement numbers, or All / None of the above */
-function optionHTML(o) {
-  const en = esc(optLabel(o, 'en')), tc = esc(optLabel(o, 'tc'));
-  if (S.lang === 'en') return en;
-  if (S.lang === 'tc') return tc;
-  return `${en}<span class="tcline">${tc}</span>`;
-}
+const optionHTML = o => bilingual(esc(optLabel(o, 'en')), esc(optLabel(o, 'tc')));
 
 /* The numbered statements, in the order drawn. Once a question is answered
    (`reveal`) each is marked correct or not, with the kind of trap a false one
    sets and the note saying why, in the source's words. */
 function statementsHTML(q, perm, reveal = false) {
   const rows = perm.map(i => {
-    const e = esc(q.en.statements[i]), t = esc(q.tc.statements[i]);
-    const body = S.lang === 'en' ? e : S.lang === 'tc' ? t : `${e}<span class="tcline">${t}</span>`;
+    const body = bilingual(esc(q.en.statements[i]), esc(q.tc.statements[i]));
     if (!reveal) return `<li>${body}</li>`;
     const ok = q.truth[i];
     const trap = !ok && q.traps && TRAPS[q.traps[i]];
@@ -252,7 +243,7 @@ function optsHTML(arr, cls = () => '', disabled = false) {
 }
 
 function sourceHTML(q) {
-  const src = S.lang === 'en' ? q.source.en : S.lang === 'tc' ? q.source.tc : q.source.en + ' · ' + q.source.tc;
+  const src = ui(q.source.en, q.source.tc);
   const langs = S.lang === 'both' ? ['tc','en'] : [S.lang];
   const files = (SOURCE_INDEX.questions[q.id] || []).map(doc => langs.map(lang => {
     const file = SOURCE_INDEX.documents[doc][lang];
@@ -282,6 +273,13 @@ function fmtDate(ts) {
 
 /* ---------------- scoring ---------------- */
 
+/* a pass needs both the total and every module's floor; a saved attempt keeps its recorded verdict */
+function result(score, moduleWrong, moduleTotal, pass) {
+  const floorsOK = moduleWrong.every(w => w <= CFG.maxWrongPerModule);
+  const totalOK = score >= CFG.passTotal;
+  return { score, moduleWrong, moduleTotal, floorsOK, totalOK, pass: pass ?? (floorsOK && totalOK) };
+}
+
 function grade(qids, answers) {
   const moduleWrong = [0, 0, 0, 0, 0, 0, 0];
   const moduleTotal = [0, 0, 0, 0, 0, 0, 0];
@@ -293,25 +291,22 @@ function grade(qids, answers) {
     if (answers[qid] === q.answer) score++;
     else moduleWrong[q.module - 1]++;
   }
-  const floorsOK = moduleWrong.every(w => w <= CFG.maxWrongPerModule);
-  const totalOK = score >= CFG.passTotal;
-  return { score, moduleWrong, moduleTotal, floorsOK, totalOK, pass: floorsOK && totalOK };
+  return result(score, moduleWrong, moduleTotal);
 }
 
 // A saved attempt keeps the result it was given when submitted. Questions can later be removed from
 // the bank or re-keyed, so grading the answers again would change a recorded pass or fail; show the
 // recorded result instead, and count each module's questions from the ids (m6-12 is module 6).
+const moduleOf = qid => Number((/^m(\d)-/.exec(qid) || [])[1]);
 function recordedResult(a) {
   if (typeof a.score !== 'number' || !Array.isArray(a.moduleWrong)) return grade(a.qids, a.answers);
   const moduleTotal = [0, 0, 0, 0, 0, 0, 0];
   for (const qid of a.qids) {
     const q = byId.get(qid);
-    const m = q ? q.module : Number((/^m(\d)-/.exec(qid) || [])[1]);
+    const m = q ? q.module : moduleOf(qid);
     if (m >= 1 && m <= 7) moduleTotal[m - 1]++;
   }
-  const floorsOK = a.moduleWrong.every(w => w <= CFG.maxWrongPerModule);
-  const totalOK = a.score >= CFG.passTotal;
-  return { score: a.score, moduleWrong: a.moduleWrong, moduleTotal, floorsOK, totalOK, pass: !!a.pass };
+  return result(a.score, a.moduleWrong, moduleTotal, !!a.pass);
 }
 
 /* ---------------- render root ---------------- */
@@ -380,8 +375,8 @@ function bindCommon() {
 
 function homeView() {
   if (!S.lang) return langView();
-  const attempts = store.get(attemptsKey(), []);
-  const saved = store.get(examKey(), null);
+  const attempts = store.get(ATTEMPTS, []);
+  const saved = store.get(EXAM, null);
   const minutes = customMinutes || CFG.minutes;
 
   const examCard = saved ? `
@@ -408,7 +403,7 @@ function homeView() {
     </div>`;
 
   const chips = MODULES.map(m =>
-    `<button class="chip ${pmodSel.has(m.n) ? 'on' : ''}" data-pm="${m.n}" aria-pressed="${pmodSel.has(m.n)}">${ui(`Part ${m.n}`, `第${m.n}部分`)} ${esc(shortMod(m))}</button>`).join('');
+    `<button class="chip ${pmodSel.has(m.n) ? 'on' : ''}" data-pm="${m.n}" aria-pressed="${pmodSel.has(m.n)}">${ui(`Part ${m.n}`, `第${m.n}部分`)} ${esc(ui(...m.short))}</button>`).join('');
   const seen = seenIds();
   const selected = bank.filter(inPractice), unseen = selected.filter(q => !seen.has(q.id)).length;
   const wrong = bookIds().length;
@@ -465,14 +460,6 @@ function homeView() {
   </div>`;
 }
 
-function shortMod(m) {
-  /* compact module label for chips */
-  const shortEn = ['General AML/CFT', 'AMLO Parts 1–7', 'AMLO Schedules', 'C&ED guidelines',
-    'Governance', 'Control areas', 'Compliance'][m.n - 1];
-  const shortTc = ['常識', '條例1–7部', '條例附表', '海關指引', '管治', '管控範疇', '證明合規'][m.n - 1];
-  return ui(shortEn, shortTc);
-}
-
 function historyHTML(attempts) {
   const rows = [...attempts].reverse().map((a, ri) => {
     const idx = attempts.length - 1 - ri;
@@ -500,7 +487,7 @@ function bindHome() {
   if (resume) resume.onclick = () => resumeExam();
   const left = $('#resume-left');
   if (left) homeTick = setInterval(() => {
-    const s = store.get(examKey(), null);
+    const s = store.get(EXAM, null);
     if (!s) return;
     if (Date.now() >= s.endsAt) { exam = s; finishExam(true); return; }
     left.textContent = fmtTime(s.endsAt - Date.now());
@@ -510,7 +497,7 @@ function bindHome() {
     confirmModal(
       ui('Discard this attempt?', '確定放棄此卷？'),
       ui('The exam in progress will be deleted. It will not appear in your history.', '進行中的模擬試將被刪除，且不會計入紀錄。'),
-      ui('Discard', '放棄'), () => { store.del(examKey()); render(); }, true);
+      ui('Discard', '放棄'), () => { store.del(EXAM); render(); }, true);
   };
   const prac = $('#btn-practice');
   if (prac) prac.onclick = () => startPractice();
@@ -534,9 +521,8 @@ function bindHome() {
   if (all) all.onclick = () => { pmodSel = new Set([1, 2, 3, 4, 5, 6, 7]); store.set('pmods', [...pmodSel]); render(); };
   document.querySelectorAll('[data-review]').forEach(b => {
     b.onclick = () => {
-      const attempts = store.get(attemptsKey(), []);
+      const attempts = store.get(ATTEMPTS, []);
       reviewAttempt = attempts[+b.dataset.review];
-      justFinished = false;
       reviewFilter = 'all';
       S.view = 'results'; render();
       window.scrollTo(0, 0);
@@ -563,14 +549,14 @@ function bindHome() {
   }
   const clear = $('#btn-clear');
   if (clear) clear.onclick = () => {
-    const n = store.get(attemptsKey(), []).length;
+    const n = store.get(ATTEMPTS, []).length;
     confirmModal(
       ui('Clear all history?', '清除所有紀錄？'),
       ui(`All ${n} attempt${n === 1 ? '' : 's'} and the Progress card will be removed from this browser. This cannot be undone — save history to a file first if you may want it later.`,
          `此瀏覽器內的${n}次應考紀錄及進度卡將被刪除，且無法復原。如日後可能需要，請先將紀錄儲存至檔案。`),
       ui('Clear history', '清除紀錄'),
       () => {
-        store.del(attemptsKey());
+        store.del(ATTEMPTS);
         homeNotice = ui('History cleared.', '紀錄已清除。');
         render();
       }, true);
@@ -579,7 +565,7 @@ function bindHome() {
     b.onclick = () => { const body = $('#mq-' + b.dataset.mq); if (body) body.hidden = !body.hidden; };
   });
   const weak = $('#btn-practice-weak');
-  if (weak) weak.onclick = () => startPractice(stats(store.get(attemptsKey(), [])).mostMissed.map(x => x.qid));
+  if (weak) weak.onclick = () => startPractice(stats(store.get(ATTEMPTS, [])).mostMissed.map(x => x.qid));
 }
 
 /* ---------------- first-run language chooser ---------------- */
@@ -640,18 +626,18 @@ function resumeExam() {
   window.scrollTo(0, 0);
 }
 
-function saveExam() { if (exam) store.set(examKey(), exam); }
+function saveExam() { if (exam) store.set(EXAM, exam); }
 
 /* A source-scope update may retire questions. Completed results keep their
    original scores; an incomplete paper must be restarted with 35 valid items. */
 function loadExam() {
-  const e = store.get(examKey(), null);
+  const e = store.get(EXAM, null);
   if (!e || !Array.isArray(e.qids)) return null;
   const valid = e.qids.length === CFG.total && new Set(e.qids).size === CFG.total &&
     e.qids.every(id => byId.has(id)) && MODULES.every(m =>
       e.qids.filter(id => byId.get(id).module === m.n).length === CFG.perModule);
   if (valid) return e;
-  store.del(examKey());
+  store.del(EXAM);
   homeNotice = ui('The question bank has changed. Please start a new mock exam; completed results are kept.',
     '題庫已更新，請重新開始模擬試；已完成的考試成績仍會保留。');
   return null;
@@ -744,14 +730,7 @@ function omrSheetHTML() {
 
 function bindExam() {
   document.querySelectorAll('#opts .opt').forEach(b => {
-    b.onclick = () => {
-      const q = byId.get(exam.qids[exam.cur]);
-      const orig = +b.dataset.orig;
-      if (exam.answers[q.id] === orig) delete exam.answers[q.id];  // click again to erase
-      else exam.answers[q.id] = orig;
-      saveExam();
-      rerenderExamKeepScroll();
-    };
+    b.onclick = () => toggleAnswer(exam.qids[exam.cur], +b.dataset.orig);
   });
   const flag = $('#btn-flag');
   if (flag) flag.onclick = () => {
@@ -776,14 +755,9 @@ function bindExam() {
   document.querySelectorAll('[data-mark]').forEach(b => {
     b.onclick = () => {                       // mark the sheet directly
       const [i, di] = b.dataset.mark.split(':').map(Number);
-      const qid = exam.qids[i];
       // the bubbles were drawn through the question's arrangement, so read the
       // answer back the same way
-      const orig = examArr(qid).order[di];
-      if (exam.answers[qid] === orig) delete exam.answers[qid];
-      else exam.answers[qid] = orig;
-      saveExam();
-      rerenderExamKeepScroll();
+      toggleAnswer(exam.qids[i], examArr(exam.qids[i]).order[di]);
     };
   });
   // keep the current row visible inside the sticky rail (wide layout only)
@@ -795,6 +769,17 @@ function bindExam() {
 function rerenderExamKeepScroll() {
   const y = window.scrollY; render(); window.scrollTo(0, y);
 }
+
+/* answer an exam question with the stored option index `orig`; the same pick again erases it */
+function toggleAnswer(qid, orig) {
+  if (exam.answers[qid] === orig) delete exam.answers[qid];
+  else exam.answers[qid] = orig;
+  saveExam();
+  rerenderExamKeepScroll();
+}
+
+/* the option position a key names: A–E or 1–5, else -1 */
+const keyIndex = k => k.length === 1 ? Math.max('abcde'.indexOf(k), '12345'.indexOf(k)) : -1;
 
 function gotoQ(i) {
   if (i < 0 || i >= exam.qids.length) return;
@@ -812,14 +797,9 @@ function examKeys(e) {
     if (e.target && e.target.tagName === 'BUTTON') return;   // a focused button already handles Enter
     if (exam.cur === exam.qids.length - 1) confirmSubmit(); else gotoQ(exam.cur + 1);
   }
-  else if (k.length === 1 && ('abcde'.includes(k) || '12345'.includes(k))) {
-    const di = 'abcde'.includes(k) ? 'abcde'.indexOf(k) : '12345'.indexOf(k);
-    const q = byId.get(exam.qids[exam.cur]);
-    const orig = examArr(q.id).order[di];
-    if (exam.answers[q.id] === orig) delete exam.answers[q.id];
-    else exam.answers[q.id] = orig;
-    saveExam();
-    rerenderExamKeepScroll();
+  else if (keyIndex(k) >= 0) {
+    const qid = exam.qids[exam.cur];
+    toggleAnswer(qid, examArr(qid).order[keyIndex(k)]);
   }
 }
 
@@ -848,13 +828,12 @@ function finishExam(auto) {
     qids: exam.qids, perm: exam.perm, answers: exam.answers,
     score: g.score, moduleWrong: g.moduleWrong, pass: g.pass, auto: !!auto,
   };
-  const attempts = store.get(attemptsKey(), []);
+  const attempts = store.get(ATTEMPTS, []);
   attempts.push(attempt);
-  store.set(attemptsKey(), attempts);
-  store.del(examKey());
+  store.set(ATTEMPTS, attempts);
+  store.del(EXAM);
   exam = null;
   reviewAttempt = attempt;
-  justFinished = true;
   reviewFilter = 'all';
   S.view = 'results'; render();
   window.scrollTo(0, 0);
@@ -932,8 +911,7 @@ function resultsView() {
     }
     return (lang === 'en' ? 'Failed: ' : '不合格原因：') + reasons.join(lang === 'en' ? ' and ' : '；');
   };
-  const why = S.lang === 'en' ? whyIn('en') : S.lang === 'tc' ? whyIn('tc')
-    : whyIn('en') + '<br>' + whyIn('tc');
+  const why = byLang(whyIn('en'), whyIn('tc'), whyIn('en') + '<br>' + whyIn('tc'));
 
   const wrongIdx = a.qids.map((qid, i) => byId.has(qid) && a.answers[qid] !== byId.get(qid).answer ? i : -1).filter(i => i >= 0);
   const shown = i => reviewFilter === 'all' || wrongIdx.includes(i);
@@ -986,7 +964,7 @@ function resultsView() {
 }
 
 function removedItemHTML(qid, i) {
-  const m = Number((/^m(\d)-/.exec(qid) || [])[1]);
+  const m = moduleOf(qid);
   return `
   <div class="qcard review-item" id="rev-${i}">
     <div class="qmeta">
@@ -1065,17 +1043,10 @@ function fmtDateFull(ts) {
 /* plain-text (no HTML) question text in the current language mode, for the file;
    the statements in their stored order, which is how the options are numbered */
 function qStem(q) {
-  const stem = S.lang === 'en' ? q.en.q : S.lang === 'tc' ? q.tc.q : q.en.q + ' ｜ ' + q.tc.q;
-  const list = q.en.statements.map((en, i) => {
-    const t = q.tc.statements[i];
-    return `(${i + 1}) ` + (S.lang === 'en' ? en : S.lang === 'tc' ? t : en + ' ｜ ' + t);
-  }).join('  ');
-  return stem + '  ' + list;
+  const list = q.en.statements.map((en, i) => `(${i + 1}) ` + plain(en, q.tc.statements[i])).join('  ');
+  return plain(q.en.q, q.tc.q) + '  ' + list;
 }
-function optText(q, i) {
-  const o = q.options[i];
-  return S.lang === 'en' ? optLabel(o, 'en') : S.lang === 'tc' ? optLabel(o, 'tc') : optLabel(o, 'en') + ' ｜ ' + optLabel(o, 'tc');
-}
+const optText = (q, i) => plain(optLabel(q.options[i], 'en'), optLabel(q.options[i], 'tc'));
 
 /* aggregate all attempts: accuracy per module, and questions most often missed */
 function stats(attempts) {
@@ -1101,7 +1072,7 @@ function stats(attempts) {
 
 /* the saved file: readable Markdown + a JSON data block the app reads back */
 function historyMarkdown(attempts) {
-  const L = (en, tc) => S.lang === 'en' ? en : S.lang === 'tc' ? tc : en + ' / ' + tc;
+  const L = (en, tc) => byLang(en, tc, en + ' / ' + tc);
   const st = stats(attempts);
   const out = [];
   out.push(`# ${L('MSO Competence Assessment — mock exam history', '金錢服務經營者能力評核 — 模擬試紀錄')}`, '');
@@ -1148,7 +1119,7 @@ function downloadText(text, filename, type) {
 }
 
 function saveHistoryFile() {
-  downloadText(historyMarkdown(store.get(attemptsKey(), [])),
+  downloadText(historyMarkdown(store.get(ATTEMPTS, [])),
     'mso-ca-history-' + new Date().toISOString().slice(0, 10) + '.md', 'text/markdown');
 }
 
@@ -1163,10 +1134,10 @@ function importHistoryText(text) {
   // an attempt may name questions this edition no longer has; the views skip those, so keep it
   const valid = list.filter(a => a && typeof a.ts === 'number' && Array.isArray(a.qids) && a.answers
     && typeof a.score === 'number' && Array.isArray(a.moduleWrong));
-  const existing = store.get(attemptsKey(), []);
+  const existing = store.get(ATTEMPTS, []);
   const have = new Set(existing.map(a => a.ts));
   const added = valid.filter(a => !have.has(a.ts));
-  store.set(attemptsKey(), existing.concat(added).sort((x, y) => x.ts - y.ts));
+  store.set(ATTEMPTS, existing.concat(added).sort((x, y) => x.ts - y.ts));
   return { found: valid.length, added: added.length };
 }
 
@@ -1320,9 +1291,8 @@ function bindPractice() {
   document.onkeydown = e => {
     if (S.view !== 'practice' || $('.modal-back') || e.ctrlKey || e.metaKey || e.altKey) return;
     const k = e.key.toLowerCase();
-    if (practice.chosen === null && k.length === 1 && ('abcde'.includes(k) || '12345'.includes(k))) {
-      const di = 'abcde'.includes(k) ? 'abcde'.indexOf(k) : '12345'.indexOf(k);
-      const el = document.querySelectorAll('#opts .opt')[di];
+    if (practice.chosen === null && keyIndex(k) >= 0) {
+      const el = document.querySelectorAll('#opts .opt')[keyIndex(k)];
       if (el) el.click();
     } else if (practice.chosen !== null && (k === 'arrowright' || (k === 'enter' && e.target.tagName !== 'BUTTON'))) {
       nextPracticeQ(); render(); window.scrollTo(0, 0);

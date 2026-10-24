@@ -93,12 +93,12 @@ test('source update invalidates incomplete paper but preserves completed scores 
   const run = app();
   run(`startExam(); const old = {qids: [...exam.qids], answers:{}, score:28,
     moduleWrong:[1,1,1,1,1,1,1], pass:true, ts:Date.now(), usedMs:1000};
-    byId.delete(exam.qids[0]); store.set(attemptsKey(), [old]);`);
+    byId.delete(exam.qids[0]); store.set(ATTEMPTS, [old]);`);
   assert.equal(run('loadExam()'), null);
-  assert.equal(run('store.get(examKey(),null)'), null);
+  assert.equal(run('store.get(EXAM,null)'), null);
   assert.equal(run('recordedResult(old).score'), 28);
   assert.equal(run('recordedResult(old).pass'), true);
-  assert.equal(run('store.get(attemptsKey(),[]).length'), 1);
+  assert.equal(run('store.get(ATTEMPTS,[]).length'), 1);
   assert.equal(run('historyMarkdown([old]).includes("28/35")'), true);
 });
 
