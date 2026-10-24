@@ -1,11 +1,16 @@
 # Release notes / 版本更新
 
-## Unreleased
+## v1.13.2 — 24 October 2026
 
 - Removes `revision/study-notes/essentials.py`, the empty compatibility module left when the second-pass supplements were consolidated into `part1.py`–`part7.py` on 19 October 2026, together with the merge loop in `build.py` that read it. `coverage.json` and `bank-source-routes.json` no longer carry an `essentials` entry (its hash, 0 blocks and 0 points); the seven part pages, the Numbers page and the bundle are byte-identical. The pre-consolidation source stays in `independent-audit-2026-10-19/baseline.zip`.
 - One check script: `python scripts/check.py` exports the practice app, runs the Go, Node and Python tests and every `--check` script in the documented order, then builds and checks the offline bundle, stopping at the first failure. CI, the release workflow and `DEVELOPMENT.md` call it instead of keeping three copies of the same command list; `--list` prints the commands for running one alone.
 - 移除`revision/study-notes/essentials.py`：這是2026年10月19日把第二輪補充併入`part1.py`至`part7.py`後留下的空白兼容模組，連同`build.py`中讀取它的合併迴圈一併刪去。`coverage.json`及`bank-source-routes.json`不再有`essentials`一項（其雜湊、0個內容組、0個要點）；七個部分頁面、數字總表及學習包字節一致。整合前原稿保存在`independent-audit-2026-10-19/baseline.zip`。
 - 統一檢查腳本：`python scripts/check.py`依文件次序匯出練習App、執行Go／Node／Python測試及全部`--check`腳本，再建置並核對離線學習包，遇錯即停。CI、公開發佈流程及`DEVELOPMENT.md`都改為調用它，不再各自保留一份相同的命令清單；加`--list`只列出命令，方便單獨執行。
+
+**Download / 下載：** `mso-study-bundle.zip` contains the notes, practice and originals 01–26; extract the entire ZIP and open `index.html`.
+完整學習包包含筆記、練習及01–26原件；完整解壓後開啟 `index.html`。
+
+[Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.2)
 
 ## v1.13.1 — 24 October 2026
 
