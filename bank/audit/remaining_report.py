@@ -2,7 +2,7 @@
 import json
 import pathlib
 import sys
-from state import load_state
+from state import load_state, emit
 
 HERE=pathlib.Path(__file__).resolve().parent
 
@@ -40,7 +40,5 @@ def render(d,state):
 
 if __name__=='__main__':
     state=load_state();d=state.get('remaining_implementation');assert d
-    text=render(d,state);p=HERE/'REMAINING.md'
-    if '--check' in sys.argv:assert p.read_text(encoding='utf8')==text,'Regenerate REMAINING.md'
-    else:p.write_text(text,encoding='utf8')
+    emit(HERE/'REMAINING.md',render(d,state),'--check' in sys.argv)
     print(json.dumps(d['statistics'],ensure_ascii=False))

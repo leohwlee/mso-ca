@@ -7,28 +7,15 @@ Coverage statuses describe the recorded baseline, not an official syllabus score
 Follow-ups record subsequent additions without rewriting that baseline.
 """
 import collections
-import hashlib
 import json
 import pathlib
-import re
 import sys
-import unicodedata
-from state import load_state, verify_hash
+from state import load_state, verify_hash, check_snapshot, norm, table, emit
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 STATUS = {'covered':'已覆盖','partial':'部分覆盖','missing':'未覆盖','reference':'参考／范围边界'}
 MODULES = {1:'一般知识',2:'条例正文',3:'条例附表',4:'海关指引',5:'管治与策略',6:'合规控制',7:'合规监察与证明'}
-
-def norm(text):
-    return re.sub(r'\s+', '', unicodedata.normalize('NFKC', text))
-
-def cell(value):
-    return str(value).replace('|', '／').replace('\n','；')
-
-def table(headers, rows):
-    return ['| '+' | '.join(headers)+' |','|'+'|'.join(['---']*len(headers))+'|'] + [
-        '| '+' | '.join(cell(c) for c in row)+' |' for row in rows]
 
 def read():
     return json.loads((HERE/'coverage.json').read_text(encoding='utf8'))
@@ -54,11 +41,8 @@ def validate(d):
         assert t['missing_aspects'] or t['status'] not in ['partial','missing'], t['id']
         for e in t['evidence']:
             q=qb[e['question_id']]; mapped.add(q['id'])
-            assert len(e['snapshot']) == len(e['statements'])
-            for i,s in zip(e['statements'],e['snapshot']):
-                assert 1<=i<=len(q['truth']),(t['id'],q['id'],i)
-                assert s==dict(statement=i,truth=q['truth'][i-1],en=q['en']['statements'][i-1],tc=q['tc']['statements'][i-1]),f'changed evidence: {t["id"]} {q["id"]} #{i}'
-                count_evidence+=1
+            check_snapshot(q, e['statements'], e['snapshot'], (t['id'], q['id']))
+            count_evidence+=len(e['statements'])
         for p in t['source_pages']:
             assert all(1<=n<=len(texts[p['language'],p['doc']].split('\f')) for n in p['pages']),t['id']
         for quote in t['source_quotes']:
@@ -208,18 +192,14 @@ def render(d,v):
     return {'README.md':'\n'.join(readme),'COVERAGE.md':'\n'.join(details)}
 
 def main():
-    d=read(); v=validate(d); outputs=render(d,v)
-    if '--check' in sys.argv:
+    d=read(); v=validate(d); outputs=render(d,v); check='--check' in sys.argv
+    if check:
         assert d['validation']==v, 'saved validation counts differ'
     else:
         d['validation']=v
         (HERE/'coverage.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     for filename, text in outputs.items():
-        p=HERE/filename
-        if '--check' in sys.argv:
-            assert p.read_text(encoding='utf8')==text,f'regenerate {filename}'
-        else:
-            p.write_text(text,encoding='utf8')
+        emit(HERE/filename, text, check)
     print(json.dumps(v,ensure_ascii=False))
 
 if __name__=='__main__':
