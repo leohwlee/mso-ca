@@ -17,19 +17,19 @@ The bundle contains the seven-part notes, the practice app and the cited 01–26
 originals. Keep the folders together so study, practice and source links work
 offline. You do not need to download the repository or install Go.
 
-![Blue-gray practice homepage with mock exam, custom practice and the wrong-answer book](docs/images/app-v1.13.2-en.png)
+![Blue-gray practice homepage with mock exam, custom practice and the wrong-answer book](docs/images/app-v1.13.3-en.png)
 
-*Practice homepage, English. Captured from the v1.13.2 app on 24 October 2026.*
+*Practice homepage, English. Captured from the v1.13.3 app on 24 October 2026.*
 
-## What's new in v1.13.2
+## What's new in v1.13.3
 
-A maintenance release. The notes builder drops the empty `essentials` module left when
-the supplements were consolidated into the seven parts on 19 October, and the repository's
-checks now live in one script shared by CI, the release workflow and the development guide.
-Like v1.13.1, which made the code behind the app, the notes and the checks 219 lines
-shorter, it changes nothing you read or practise: the seven part pages, the Numbers page
-and the offline bundle are byte-identical to v1.13.1, and the 588 questions, their answers
-and explanations, the notes and the source editions are those of v1.13.0.
+A maintenance release that completes the October code clean-up begun in v1.13.1. The notes
+stylesheet loses the rules for 17 classes left from earlier page designs that no page uses;
+every page embeds the stylesheet, so each of the nine pages is a little smaller. Nothing you
+read or practise changes: every element's computed style and every screenshot were compared
+with v1.13.2 in each reading language, with ruling marks on and off, under each tier filter,
+at desktop and phone widths and in print, and the 588 questions, their answers and
+explanations, the notes and the source editions are those of v1.13.0.
 
 v1.13.0 grew the bank to 588 questions: 36 blind-reviewed questions whose false statements
 change one number, period, name or actor in an otherwise faithful sentence — penalty
@@ -51,9 +51,9 @@ are not coverage percentages.
 Read the [notes' scope and ruling marks](revision/study-notes/README.md)
 and the [current review evidence](bank/audit/ACTIVE-SCOPE.md).
 
-![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.13.2-en.png)
+![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.13.3-en.png)
 
-*Part 6 reading example, English. Captured from the v1.13.2 notes on 24 October 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
+*Part 6 reading example, English. Captured from the v1.13.3 notes on 24 October 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
 
 ## Choose how to practise
 
