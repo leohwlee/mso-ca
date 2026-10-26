@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: product-copy-combination-items
+expected_outcome: |
+  Ten combination items in exactly the requested format, each key consistent with the truth of its four statements, with explanations citing the copy; questions test verifiable product facts (specifications, filter life, warranty, returns, suitability) rather than slogans; unsupported or inconsistent marketing claims are flagged rather than keyed as facts; and a one-page cheat sheet of the facts with their conditions.
+context:
+  scaffold_script: place-files.sh

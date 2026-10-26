@@ -1,0 +1,26 @@
+{
+  "status": "verified",
+  "date": "2026-10-26",
+  "reason": "Links the new general-purpose skill in skills/exam-prep/ (added by the same pull request) from the project's entry points, as the owner asked on 26 October 2026: README.md and README.zh-Hant.md each gain one bullet under Documentation and maintenance, docs/INDEX.md gains one row in the Maintain table, and CHANGELOG.md gains the bilingual Unreleased bullets. The skill's own files are new and not bound. Preserves the previous bytes of these files; the question bank, answers, quotes, scoring, the app, notes content and source originals are unchanged by this record.",
+  "archive": "bank/audit/history/2026-10-26-before-link-exam-prep-skill.zip",
+  "archive_sha256": "af03882e31b4fa21322fd83a0e94697fdaf76e3cbb9258af0c216de99ac9c497",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "a771680c7df9f9f85e6ea1a31dede7d9a9c326422877f23f5893c6b6ef287b82",
+      "after_sha256": "62bb4bd5d64869be33319efc33f842c96acca983876e418df5ec925ccfca2677"
+    },
+    "README.md": {
+      "before_sha256": "39ccceb1fa0dd7c0507af21bb45ddb13b4356393d9f7c6008ecfc4947974df41",
+      "after_sha256": "ba817bd354f98cc5e4bde37e3ab20445af801ef589c8873fb46909350358405c"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "01ed1704ac7dabf939c0e285d7fb34eee6687424ac6908deb7ecf5323fbf850e",
+      "after_sha256": "d653d7d0af030bd5cf9dc6f01c21dc66f3d5e30b58d84ef8b7ee2a29d1faf80b"
+    },
+    "docs/INDEX.md": {
+      "before_sha256": "83d4382a178d2994c0270e1191bd79cf4d7dc20477fcdcfb10406588a326dd79",
+      "after_sha256": "234bba37f8b2719e5225d8ed872f2c6dfb617d69ae2e1c75094ad8df84e7dadf"
+    }
+  },
+  "documentation_updates": {}
+}

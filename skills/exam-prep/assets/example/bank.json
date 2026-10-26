@@ -1,0 +1,834 @@
+{
+  "cases": {
+    "c1": {
+      "en": {
+        "title": "Mei's loans",
+        "text": "Mei holds an adult card. On 1 May she borrows 10 books and 2 DVDs."
+      },
+      "zh-Hant": {
+        "title": "美的借閱",
+        "text": "美持有成人證。5月1日她借了10本圖書及2張DVD。"
+      }
+    }
+  },
+  "items": [
+    {
+      "id": "1-001",
+      "section": "1",
+      "kind": "single",
+      "version": 1,
+      "source": {
+        "en": "Lending Rules r.1.2",
+        "zh-Hant": "借閱規則第1.2條"
+      },
+      "notes_anchor": "membership",
+      "quotes": [
+        {
+          "doc": "01",
+          "lang": "en",
+          "text": "one proof of address issued within the last three months"
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "text": "一份三個月內發出的住址證明"
+        }
+      ],
+      "answer": 0,
+      "en": {
+        "stem": "Besides a photo identity document, what must an applicant for a library card show?",
+        "options": [
+          "A proof of address dated in the past three months",
+          "A proof of address dated in the past twelve months",
+          "A reference letter from a current library card holder",
+          "A proof of income dated in the past three months"
+        ],
+        "option_notes": [
+          "Correct: r.1.2 requires one proof of address issued within the last three months.",
+          "Wrong period: r.1.2 says within the last three months, not twelve.",
+          "Not required: r.1.2 names only proof of identity and proof of address.",
+          "Wrong document: r.1.2 asks for proof of address, not of income."
+        ]
+      },
+      "zh-Hant": {
+        "stem": "申請圖書證時，除附相片的身分證明外，申請人還須出示甚麼？",
+        "options": [
+          "三個月內發出的住址證明",
+          "十二個月內發出的住址證明",
+          "現有會員發出的推薦信件",
+          "三個月內發出的入息證明"
+        ],
+        "option_notes": [
+          "正確：第1.2條要求一份三個月內發出的住址證明。",
+          "期限錯誤：第1.2條規定三個月內，不是十二個月。",
+          "毋須提交：第1.2條只列身分證明及住址證明。",
+          "文件錯誤：第1.2條要求住址證明，不是入息證明。"
+        ]
+      }
+    },
+    {
+      "id": "1-002",
+      "section": "1",
+      "kind": "multi",
+      "version": 1,
+      "source": {
+        "en": "Lending Rules r.2.4",
+        "zh-Hant": "借閱規則第2.4條"
+      },
+      "notes_anchor": "loans",
+      "quotes": [
+        {
+          "doc": "01",
+          "lang": "en",
+          "text": "Reference books, periodicals of the current month and items marked \"Library use only\" may not be borrowed."
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "text": "參考書、當月期刊及標明「只限館內使用」的資料不可外借。"
+        }
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "en": {
+        "stem": "Which of these may **NOT** be borrowed? Choose all that apply.",
+        "options": [
+          "Reference books",
+          "This month's periodicals",
+          "Library-use-only items",
+          "Earlier periodicals",
+          "DVDs of any kind"
+        ],
+        "option_notes": [
+          "Excluded: r.2.4 names reference books.",
+          "Excluded: r.2.4 names periodicals of the current month.",
+          "Excluded: r.2.4 names items marked \"Library use only\".",
+          "May be borrowed: r.2.4 excludes only the current month's periodicals.",
+          "May be borrowed: r.2.2 gives DVDs a 7-day loan period."
+        ]
+      },
+      "zh-Hant": {
+        "stem": "以下哪些資料**不可**外借？選出所有適用者。",
+        "options": [
+          "參考書",
+          "當月期刊",
+          "只限館內使用的資料",
+          "以往月份的期刊",
+          "任何DVD"
+        ],
+        "option_notes": [
+          "不可外借：第2.4條列明參考書。",
+          "不可外借：第2.4條列明當月期刊。",
+          "不可外借：第2.4條列明標明「只限館內使用」的資料。",
+          "可外借：第2.4條只排除當月期刊。",
+          "可外借：第2.2條訂明DVD借期為7日。"
+        ]
+      }
+    },
+    {
+      "id": "1-003",
+      "section": "1",
+      "kind": "tf",
+      "version": 1,
+      "source": {
+        "en": "Lending Rules r.1.1",
+        "zh-Hant": "借閱規則第1.1條"
+      },
+      "notes_anchor": "membership",
+      "quotes": [
+        {
+          "doc": "01",
+          "lang": "en",
+          "text": "Children under 12 may hold a junior card with the written consent of a parent or guardian."
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "text": "未滿12歲的兒童經父母或監護人書面同意，可持有兒童證。"
+        }
+      ],
+      "answer": true,
+      "traps": null,
+      "en": {
+        "stem": "Children under 12 can hold a junior card only if a parent or guardian agrees to it in writing.",
+        "explain": "True: r.1.1 makes written consent of a parent or guardian the condition for a junior card."
+      },
+      "zh-Hant": {
+        "stem": "未滿12歲的兒童要持有兒童證，必須先取得父母或監護人的書面同意。",
+        "explain": "正確：第1.1條以父母或監護人的書面同意為持有兒童證的條件。"
+      }
+    },
+    {
+      "id": "1-004",
+      "section": "1",
+      "kind": "combo",
+      "version": 1,
+      "source": {
+        "en": "Lending Rules r.1.1, 1.3–1.4",
+        "zh-Hant": "借閱規則第1.1、1.3至1.4條"
+      },
+      "notes_anchor": "membership",
+      "quotes": [
+        {
+          "doc": "01",
+          "lang": "en",
+          "for": 0,
+          "text": "A card is valid for three years and may be renewed in person or online."
+        },
+        {
+          "doc": "01",
+          "lang": "en",
+          "for": 1,
+          "text": "A lost card must be reported within 7 days."
+        },
+        {
+          "doc": "01",
+          "lang": "en",
+          "for": 2,
+          "text": "A replacement card costs $20."
+        },
+        {
+          "doc": "01",
+          "lang": "en",
+          "for": 3,
+          "text": "Any resident of the district aged 12 or over may apply for an adult card."
+        },
+        {
+          "doc": "01",
+          "lang": "en",
+          "for": 4,
+          "text": "may be renewed in person or online"
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "for": 0,
+          "text": "圖書證有效期為三年，可親身或於網上續期。"
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "for": 1,
+          "text": "遺失圖書證須於7日內報失。"
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "for": 2,
+          "text": "補發圖書證收費$20。"
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "for": 3,
+          "text": "區內年滿12歲的居民均可申請成人證。"
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "for": 4,
+          "text": "可親身或於網上續期"
+        }
+      ],
+      "truth": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "traps": [
+        null,
+        "period",
+        null,
+        null,
+        "scope"
+      ],
+      "en": {
+        "stem": "Which of the following are correct about library cards?",
+        "statements": [
+          "Cards last three years, and members can renew them online.",
+          "A lost card must be reported to the library within 14 days.",
+          "A replacement for a lost card costs the member $20.",
+          "Residents of the district can apply for an adult card from the age of 12.",
+          "A card may be renewed in person at the library only."
+        ],
+        "statement_notes": [
+          "True: r.1.3 gives three years and allows renewal in person or online.",
+          "False, period changed: r.1.4 requires a report within 7 days, not 14.",
+          "True: r.1.4 sets the replacement charge at $20.",
+          "True: r.1.1 opens adult cards to any district resident aged 12 or over.",
+          "False, scope narrowed: r.1.3 allows renewal online as well as in person."
+        ]
+      },
+      "zh-Hant": {
+        "stem": "以下哪些有關圖書證的說法正確？",
+        "statements": [
+          "每張圖書證可用三年，會員可在網上辦理續期。",
+          "遺失圖書證須於14日內向圖書館報失。",
+          "補發遺失的圖書證，會員須繳付$20。",
+          "居於本區、12歲或以上的人士可申請成人證。",
+          "圖書證只可親身到圖書館辦理續期。"
+        ],
+        "statement_notes": [
+          "正確：第1.3條訂明有效期三年，可親身或於網上續期。",
+          "錯誤，期限被改：第1.4條規定7日內報失，不是14日。",
+          "正確：第1.4條訂明補發收費$20。",
+          "正確：第1.1條容許區內年滿12歲的居民申請成人證。",
+          "錯誤，範圍被收窄：第1.3條亦容許於網上續期。"
+        ]
+      },
+      "options": [
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        "all"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "1-005",
+      "section": "1",
+      "kind": "match",
+      "version": 1,
+      "source": {
+        "en": "Lending Rules r.1.4, 2.1",
+        "zh-Hant": "借閱規則第1.4、2.1條"
+      },
+      "notes_anchor": "loans",
+      "quotes": [
+        {
+          "doc": "01",
+          "lang": "en",
+          "text": "An adult card holder may borrow up to 12 items at a time; a junior card holder up to 6."
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "text": "成人證持有人每次最多可借12項資料；兒童證持有人最多6項。"
+        }
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "en": {
+        "stem": "Match each case with the rule that applies to it.",
+        "left": [
+          "Adult card holder",
+          "Junior card holder",
+          "Lost card"
+        ],
+        "right": [
+          "Up to 12 items at a time",
+          "Up to 6 items at a time",
+          "Report within 7 days",
+          "Renew every year"
+        ],
+        "explain": "r.2.1 sets 12 items for adult cards and 6 for junior cards; r.1.4 requires a lost card to be reported within 7 days. Cards last three years (r.1.3), so nothing requires yearly renewal."
+      },
+      "zh-Hant": {
+        "stem": "把每種情況與適用的規則配對。",
+        "left": [
+          "成人證持有人",
+          "兒童證持有人",
+          "遺失圖書證"
+        ],
+        "right": [
+          "每次最多借12項",
+          "每次最多借6項",
+          "須於7日內報失",
+          "須每年續期"
+        ],
+        "explain": "第2.1條訂明成人證最多12項、兒童證最多6項；第1.4條規定遺失圖書證須於7日內報失。圖書證有效期為三年（第1.3條），並無每年續期的規定。"
+      }
+    },
+    {
+      "id": "1-006",
+      "section": "1",
+      "kind": "cloze",
+      "version": 1,
+      "points": 2,
+      "source": {
+        "en": "Lending Rules r.1.3–1.4",
+        "zh-Hant": "借閱規則第1.3至1.4條"
+      },
+      "notes_anchor": "membership",
+      "quotes": [
+        {
+          "doc": "01",
+          "lang": "en",
+          "text": "A card is valid for three years"
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "text": "圖書證有效期為三年"
+        }
+      ],
+      "en": {
+        "stem": "A card is valid for {{1}} years, and a replacement card costs ${{2}}.",
+        "answers": [
+          [
+            "three",
+            "3"
+          ],
+          [
+            "20"
+          ]
+        ],
+        "explain": "r.1.3: valid for three years; r.1.4: a replacement card costs $20."
+      },
+      "zh-Hant": {
+        "stem": "圖書證有效期為{{1}}年，補發圖書證收費${{2}}。",
+        "answers": [
+          [
+            "三",
+            "3"
+          ],
+          [
+            "20"
+          ]
+        ],
+        "explain": "第1.3條：有效期三年；第1.4條：補發收費$20。"
+      }
+    },
+    {
+      "id": "2-001",
+      "section": "2",
+      "kind": "order",
+      "version": 1,
+      "source": {
+        "en": "Lending Rules r.3.4",
+        "zh-Hant": "借閱規則第3.4條"
+      },
+      "notes_anchor": "returns",
+      "quotes": [
+        {
+          "doc": "01",
+          "lang": "en",
+          "text": "staff check the item, update the record and shelve it"
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "text": "職員檢查資料、更新紀錄後上架"
+        }
+      ],
+      "en": {
+        "stem": "Put the steps of a return in order.",
+        "items": [
+          "The member puts the item in the chute or hands it to staff",
+          "Staff check the item",
+          "Staff update the record",
+          "Staff shelve the item"
+        ],
+        "explain": "r.3.4: the member returns the item; staff check it, update the record and shelve it."
+      },
+      "zh-Hant": {
+        "stem": "按次序排列歸還資料的步驟。",
+        "items": [
+          "會員把資料放入還書槽或交給職員",
+          "職員檢查資料",
+          "職員更新紀錄",
+          "職員把資料上架"
+        ],
+        "explain": "第3.4條：會員歸還資料後，職員檢查資料、更新紀錄，然後上架。"
+      }
+    },
+    {
+      "id": "2-002",
+      "section": "2",
+      "kind": "numeric",
+      "version": 1,
+      "source": {
+        "en": "Lending Rules r.3.1",
+        "zh-Hant": "借閱規則第3.1條"
+      },
+      "notes_anchor": "fines",
+      "quotes": [
+        {
+          "doc": "01",
+          "lang": "en",
+          "text": "A fine of $1 a day is charged for each overdue book, up to a maximum of $30 per item."
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "text": "每本逾期圖書每日罰款$1，每項最高$30。"
+        }
+      ],
+      "answer": 12,
+      "tolerance": 0,
+      "en": {
+        "stem": "An adult card holder returns one book 12 days late. What is the fine?",
+        "unit": "$",
+        "explain": "r.3.1: $1 a day for 12 days is $12, below the $30 cap."
+      },
+      "zh-Hant": {
+        "stem": "成人證持有人逾期12日歸還一本圖書，罰款是多少？",
+        "unit": "$",
+        "explain": "第3.1條：每日$1，12日即$12，未達每項$30的上限。"
+      }
+    },
+    {
+      "id": "2-003",
+      "section": "2",
+      "kind": "short",
+      "version": 1,
+      "points": 2,
+      "source": {
+        "en": "Lending Rules r.2.3",
+        "zh-Hant": "借閱規則第2.3條"
+      },
+      "notes_anchor": "loans",
+      "quotes": [
+        {
+          "doc": "01",
+          "lang": "en",
+          "text": "A loan may be renewed twice, unless another member has reserved the item."
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "text": "每項外借資料可續借兩次，但已有其他會員預約者除外。"
+        }
+      ],
+      "en": {
+        "stem": "State how many times a loan may be renewed, and the one case in which it may not be renewed at all.",
+        "model_answer": "Twice; but not if another member has reserved the item (r.2.3).",
+        "rubric": [
+          {
+            "text": "States the limit of two renewals",
+            "marks": 1
+          },
+          {
+            "text": "Names the exception: another member has reserved the item",
+            "marks": 1
+          }
+        ]
+      },
+      "zh-Hant": {
+        "stem": "說明外借資料可續借多少次，以及在哪一種情況下不可續借。",
+        "model_answer": "可續借兩次；但如已有其他會員預約，則不可續借（第2.3條）。",
+        "rubric": [
+          {
+            "text": "指出最多續借兩次",
+            "marks": 1
+          },
+          {
+            "text": "指出例外：已有其他會員預約該資料",
+            "marks": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-004",
+      "section": "2",
+      "kind": "essay",
+      "version": 1,
+      "points": 3,
+      "source": {
+        "en": "Lending Rules r.3.1, 3.3",
+        "zh-Hant": "借閱規則第3.1、3.3條"
+      },
+      "notes_anchor": "fines",
+      "quotes": [
+        {
+          "doc": "01",
+          "lang": "en",
+          "text": "No fines are charged on junior cards."
+        },
+        {
+          "doc": "01",
+          "lang": "en",
+          "text": "An item overdue for 60 days is treated as lost; the member pays the replacement cost plus a $10 processing fee."
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "text": "兒童證不設罰款。"
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "text": "逾期60日的資料當作遺失處理；會員須繳付重置費用及$10手續費。"
+        }
+      ],
+      "en": {
+        "stem": "Two books on a junior card are 70 days overdue. Advise the parent on what the library will charge for them, with reasons.",
+        "model_answer": "No daily fines apply, because junior cards carry no fines (r.3.1). At 70 days each book is past the 60 days after which an item is treated as lost (r.3.3), so the member pays each book's replacement cost plus a $10 processing fee.",
+        "rubric": [
+          {
+            "text": "No daily fines on a junior card",
+            "marks": 1
+          },
+          {
+            "text": "Overdue for 60 days or more: treated as lost",
+            "marks": 1
+          },
+          {
+            "text": "Replacement cost plus a $10 processing fee for each book",
+            "marks": 1
+          }
+        ]
+      },
+      "zh-Hant": {
+        "stem": "一張兒童證借出的兩本圖書已逾期70日。向家長說明圖書館會就這兩本書收取甚麼費用，並說明理由。",
+        "model_answer": "兒童證不設罰款，所以不會按日罰款（第3.1條）。逾期70日已超過60日，資料當作遺失處理（第3.3條），會員須就每本書繳付重置費用及$10手續費。",
+        "rubric": [
+          {
+            "text": "兒童證不設按日罰款",
+            "marks": 1
+          },
+          {
+            "text": "逾期60日或以上當作遺失",
+            "marks": 1
+          },
+          {
+            "text": "每本須付重置費用及$10手續費",
+            "marks": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-005",
+      "section": "2",
+      "kind": "single",
+      "version": 1,
+      "case": "c1",
+      "source": {
+        "en": "Lending Rules r.2.1",
+        "zh-Hant": "借閱規則第2.1條"
+      },
+      "notes_anchor": "loans",
+      "quotes": [
+        {
+          "doc": "01",
+          "lang": "en",
+          "text": "An adult card holder may borrow up to 12 items at a time"
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "text": "成人證持有人每次最多可借12項資料"
+        }
+      ],
+      "answer": 0,
+      "en": {
+        "stem": "How many more items may Mei borrow on 1 May?",
+        "options": [
+          "None",
+          "Two",
+          "Four",
+          "Six"
+        ],
+        "option_notes": [
+          "Correct: r.2.1 allows 12 items at a time, and she already has 12.",
+          "Wrong: books and DVDs both count towards the 12 items.",
+          "Wrong: there is no separate allowance beyond 12 items.",
+          "Wrong: 6 is the junior card limit, and it does not add to 12."
+        ]
+      },
+      "zh-Hant": {
+        "stem": "美在5月1日還可多借多少項資料？",
+        "options": [
+          "零項",
+          "兩項",
+          "四項",
+          "六項"
+        ],
+        "option_notes": [
+          "正確：第2.1條每次最多12項，她已借12項。",
+          "錯誤：圖書及DVD均計入12項之內。",
+          "錯誤：12項以外並無額外限額。",
+          "錯誤：6項是兒童證的上限，不會加在12項之上。"
+        ]
+      }
+    },
+    {
+      "id": "2-006",
+      "section": "2",
+      "kind": "tf",
+      "version": 1,
+      "case": "c1",
+      "source": {
+        "en": "Lending Rules r.2.2",
+        "zh-Hant": "借閱規則第2.2條"
+      },
+      "notes_anchor": "loans",
+      "quotes": [
+        {
+          "doc": "01",
+          "lang": "en",
+          "text": "The loan period is 21 days for books and 7 days for DVDs."
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "text": "圖書借期為21日，DVD借期為7日。"
+        }
+      ],
+      "answer": false,
+      "traps": "period",
+      "en": {
+        "stem": "Mei's DVDs are due back 21 days after 1 May.",
+        "explain": "False, period changed: r.2.2 gives DVDs 7 days; 21 days is the loan period for books."
+      },
+      "zh-Hant": {
+        "stem": "美借的DVD須於5月1日後21日內歸還。",
+        "explain": "錯誤，期限被改：第2.2條訂明DVD借期為7日；21日是圖書的借期。"
+      }
+    },
+    {
+      "id": "2-007",
+      "section": "2",
+      "kind": "combo",
+      "version": 1,
+      "source": {
+        "en": "Lending Rules r.3.1–3.3",
+        "zh-Hant": "借閱規則第3.1至3.3條"
+      },
+      "notes_anchor": "fines",
+      "quotes": [
+        {
+          "doc": "01",
+          "lang": "en",
+          "for": 0,
+          "text": "A fine of $1 a day is charged for each overdue book, up to a maximum of $30 per item."
+        },
+        {
+          "doc": "01",
+          "lang": "en",
+          "for": 1,
+          "text": "Borrowing is suspended while fines of $50 or more are outstanding."
+        },
+        {
+          "doc": "01",
+          "lang": "en",
+          "for": 2,
+          "text": "An item overdue for 60 days is treated as lost"
+        },
+        {
+          "doc": "01",
+          "lang": "en",
+          "for": 3,
+          "text": "No fines are charged on junior cards."
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "for": 0,
+          "text": "每本逾期圖書每日罰款$1，每項最高$30。"
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "for": 1,
+          "text": "未繳罰款達$50或以上時，暫停借閱。"
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "for": 2,
+          "text": "逾期60日的資料當作遺失處理"
+        },
+        {
+          "doc": "01",
+          "lang": "zh-Hant",
+          "for": 3,
+          "text": "兒童證不設罰款。"
+        }
+      ],
+      "truth": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "traps": [
+        null,
+        "number",
+        null,
+        null
+      ],
+      "en": {
+        "stem": "Which of the following are correct about overdue items and fines?",
+        "statements": [
+          "An overdue book costs $1 a day in fines, up to $30 for the item.",
+          "Borrowing is suspended while $30 or more in fines is outstanding.",
+          "An item that is 60 days overdue is treated as lost by the library.",
+          "No fines are charged on books borrowed with a junior card at all."
+        ],
+        "statement_notes": [
+          "True: r.3.1 charges $1 a day, up to a maximum of $30 per item.",
+          "False, number changed: r.3.2 suspends borrowing from $50 of outstanding fines, so $30–$49 does not suspend it.",
+          "True: r.3.3 treats an item overdue for 60 days as lost.",
+          "True: r.3.1 says no fines are charged on junior cards."
+        ]
+      },
+      "zh-Hant": {
+        "stem": "以下哪些有關逾期資料及罰款的說法正確？",
+        "statements": [
+          "逾期圖書按日罰款$1，每項罰款以$30為上限。",
+          "未繳罰款達$30或以上時，即暫停借閱。",
+          "逾期60日的資料由圖書館當作遺失處理。",
+          "以兒童證借出的圖書一概不設任何罰款。"
+        ],
+        "statement_notes": [
+          "正確：第3.1條每日罰款$1，每項最高$30。",
+          "錯誤，金額被改：第3.2條在未繳罰款達$50或以上時才暫停借閱，$30至$49不會。",
+          "正確：第3.3條把逾期60日的資料當作遺失處理。",
+          "正確：第3.1條訂明兒童證不設罰款。"
+        ]
+      },
+      "options": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        "all"
+      ],
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "harbourview-library",
+  "title": {"en": "Harbourview Library Rules — practice", "zh-Hant": "海景圖書館借閱規則——練習"},
+  "languages": ["en", "zh-Hant"],
+  "language_names": {"en": "English", "zh-Hant": "繁體中文"},
+  "sections": [
+    {"id": "1", "title": {"en": "Membership", "zh-Hant": "會員資格"}, "draw": 2},
+    {"id": "2", "title": {"en": "Loans and fines", "zh-Hant": "借閱及罰款"}, "draw": 2}
+  ],
+  "paper": {
+    "minutes": 10,
+    "pass": {"min_percent": 60},
+    "negative_marking": 0
+  },
+  "kinds": {
+    "single": {"shuffle": true},
+    "multi": {"shuffle": true, "scoring": "all-or-nothing"},
+    "combo": {"shuffle_statements": true},
+    "match": {"scoring": "partial"},
+    "order": {"scoring": "all-or-nothing"},
+    "cloze": {"scoring": "partial", "case_sensitive": false}
+  },
+  "review": {"clear_after": 2},
+  "notes": {"url": "notes.html"},
+  "disclaimer": {
+    "en": "A fictional example. Answers follow the cited rules; this is not an official product.",
+    "zh-Hant": "虛構示例。答案按所引規則判斷；並非官方產品。"
+  },
+  "retired_ids": []
+}

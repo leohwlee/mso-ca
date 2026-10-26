@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: zh-biology-notes-and-tf
+expected_outcome: |
+  Simplified Chinese revision notes organised by the handout's topics with section references, plus 15 true/false items with answers and explanations whose false items each change one detail of the handout (a fair trap, not a trick), and 3 short-answer questions with model answers and point-based mark schemes. Everything is grounded in the handout.
+context:
+  scaffold_script: place-files.sh
