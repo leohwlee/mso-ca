@@ -1,0 +1,1043 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mock exam</title>
+<style>
+:root {
+  --bg: #f6f6f3; --paper: #ffffff; --ink: #1d1f22; --muted: #5d6268; --line: #dcdcd6;
+  --accent: #2357c6; --accent-ink: #ffffff; --soft: #eaf0fb;
+  --good: #1d7a46; --good-soft: #e3f3e9; --bad: #b3261e; --bad-soft: #fbe7e5; --warn: #8a5a00; --warn-soft: #fdf1d8;
+  --radius: 10px; --shadow: 0 1px 2px rgba(0,0,0,.06), 0 2px 8px rgba(0,0,0,.04);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121315; --paper: #1b1d20; --ink: #e8e8e6; --muted: #a2a6ab; --line: #33363b;
+    --accent: #7aa2ff; --accent-ink: #0d1117; --soft: #1f2a40;
+    --good: #5cc48a; --good-soft: #15281d; --bad: #ff8a80; --bad-soft: #301816; --warn: #e8b85a; --warn-soft: #2d2412;
+    --shadow: none; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121315; --paper: #1b1d20; --ink: #e8e8e6; --muted: #a2a6ab; --line: #33363b;
+  --accent: #7aa2ff; --accent-ink: #0d1117; --soft: #1f2a40;
+  --good: #5cc48a; --good-soft: #15281d; --bad: #ff8a80; --bad-soft: #301816; --warn: #e8b85a; --warn-soft: #2d2412;
+  --shadow: none; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); }
+body { font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif; }
+button, input, select, textarea { font: inherit; color: inherit; }
+a { color: var(--accent); }
+.top { position: sticky; top: 0; z-index: 5; background: var(--paper); border-bottom: 1px solid var(--line); }
+.top-in { max-width: 980px; margin: 0 auto; padding: 10px 16px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.brand { font-weight: 650; margin-right: auto; cursor: pointer; }
+.top select, .top button { background: transparent; border: 1px solid var(--line); border-radius: 8px; padding: 4px 8px; }
+main { max-width: 980px; margin: 0 auto; padding: 20px 16px 64px; }
+.card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 16px; box-shadow: var(--shadow); }
+.card h2 { margin: 0 0 6px; font-size: 1.15rem; }
+.muted { color: var(--muted); }
+.small { font-size: .88rem; }
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 720px) { .grid2 { grid-template-columns: 1fr; } }
+.btn { border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink); border-radius: 8px; padding: 8px 14px; cursor: pointer; font-weight: 600; }
+.btn.ghost { background: transparent; color: var(--accent); }
+.btn.plain { background: transparent; color: var(--ink); border-color: var(--line); font-weight: 500; }
+.btn.danger { background: transparent; color: var(--bad); border-color: var(--bad); }
+.btn:disabled { opacity: .45; cursor: default; }
+.chip { border: 1px solid var(--line); background: transparent; border-radius: 999px; padding: 4px 12px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.badge { display: inline-block; border-radius: 999px; padding: 1px 10px; font-size: .82rem; font-weight: 650; }
+.badge.pass { background: var(--good-soft); color: var(--good); }
+.badge.fail { background: var(--bad-soft); color: var(--bad); }
+.badge.note { background: var(--warn-soft); color: var(--warn); }
+.alt { display: block; color: var(--muted); font-size: .94em; margin-top: 2px; }
+.pri { display: inline; }
+.src .alt { display: inline; margin: 0; }
+.src .alt::before { content: " / "; }
+.modal h2 { font-size: 1.1rem; margin: 0 0 8px; }
+.q-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; flex-wrap: wrap; margin-bottom: 8px; }
+.case { border-left: 3px solid var(--accent); background: var(--soft); padding: 10px 14px; border-radius: 0 8px 8px 0; margin: 0 0 14px; }
+.stem { font-size: 1.06rem; margin: 0 0 12px; }
+.hint { color: var(--muted); font-size: .88rem; margin: -4px 0 10px; }
+.statements { margin: 0 0 14px; padding: 0; list-style: none; counter-reset: st; }
+.statements li { padding: 8px 10px 8px 40px; position: relative; border-radius: 8px; }
+.statements li::before { content: attr(data-n) "."; position: absolute; left: 12px; top: 8px; font-weight: 650; color: var(--muted); }
+.statements li.t { background: var(--good-soft); }
+.statements li.f { background: var(--bad-soft); }
+.opts { display: grid; gap: 8px; }
+.opt { display: flex; gap: 10px; text-align: left; width: 100%; border: 1px solid var(--line); background: var(--paper); border-radius: 9px; padding: 10px 12px; cursor: pointer; align-items: flex-start; }
+.opt:hover:not(:disabled) { border-color: var(--accent); }
+.opt .L { flex: none; width: 1.7em; height: 1.7em; border-radius: 50%; border: 1px solid var(--line); display: inline-flex; align-items: center; justify-content: center; font-weight: 650; font-size: .88rem; }
+.opt.sel { border-color: var(--accent); background: var(--soft); }
+.opt.sel .L { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.opt.key { border-color: var(--good); background: var(--good-soft); }
+.opt.miss { border-color: var(--bad); background: var(--bad-soft); }
+.opt:disabled { cursor: default; color: inherit; }
+.why { display: block; color: var(--muted); font-size: .9rem; margin-top: 4px; }
+.verdict { border-radius: 8px; padding: 10px 14px; margin: 14px 0 6px; font-weight: 600; }
+.verdict.good { background: var(--good-soft); color: var(--good); }
+.verdict.bad { background: var(--bad-soft); color: var(--bad); }
+.verdict.part { background: var(--warn-soft); color: var(--warn); }
+.explain { margin-top: 10px; }
+.src { margin-top: 10px; color: var(--muted); font-size: .9rem; }
+.match-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: center; padding: 6px 0; border-bottom: 1px dashed var(--line); }
+@media (max-width: 560px) { .match-row { grid-template-columns: 1fr; } }
+.match-row select { width: 100%; padding: 6px; border-radius: 8px; border: 1px solid var(--line); background: var(--paper); }
+.order-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.order-list li { display: flex; gap: 8px; align-items: center; border: 1px solid var(--line); border-radius: 9px; padding: 8px 10px; background: var(--paper); }
+.order-list li .grow { flex: 1; }
+.order-list button { border: 1px solid var(--line); background: transparent; border-radius: 6px; padding: 2px 8px; cursor: pointer; }
+.cloze input, .cloze select, .num { border: 1px solid var(--line); border-radius: 6px; padding: 3px 8px; min-width: 6em; background: var(--paper); }
+textarea { width: 100%; min-height: 8em; border: 1px solid var(--line); border-radius: 9px; padding: 10px; background: var(--paper); }
+.essay textarea { min-height: 16em; }
+.model { background: var(--soft); border-radius: 8px; padding: 10px 14px; margin: 8px 0; }
+.rubric label { display: flex; gap: 8px; align-items: flex-start; padding: 4px 0; }
+.exam-wrap { display: grid; grid-template-columns: 1fr 230px; gap: 16px; align-items: start; }
+@media (max-width: 860px) { .exam-wrap { grid-template-columns: 1fr; } .sheet { order: -1; } }
+.sheet { position: sticky; top: 64px; }
+.sheet h3 { font-size: .85rem; margin: 10px 0 6px; color: var(--muted); font-weight: 600; }
+.sheet .cells { display: grid; grid-template-columns: repeat(auto-fill, minmax(34px, 1fr)); gap: 5px; }
+.cell { border: 1px solid var(--line); background: var(--paper); border-radius: 6px; height: 32px; cursor: pointer; font-size: .82rem; position: relative; }
+.cell.ans { background: var(--soft); border-color: var(--accent); }
+.cell.cur { outline: 2px solid var(--accent); outline-offset: 1px; }
+.cell.flag::after { content: ""; position: absolute; top: 3px; right: 3px; width: 7px; height: 7px; border-radius: 50%; background: var(--warn); }
+.timer { font-variant-numeric: tabular-nums; font-weight: 650; }
+.timer.low { color: var(--bad); }
+.bar { display: flex; gap: 8px; justify-content: space-between; flex-wrap: wrap; margin-top: 16px; }
+table.t { width: 100%; border-collapse: collapse; font-size: .94rem; }
+table.t th, table.t td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+.hist { list-style: none; margin: 0; padding: 0; }
+.hist li { display: flex; justify-content: space-between; gap: 8px; padding: 7px 0; border-bottom: 1px solid var(--line); cursor: pointer; }
+.big { font-size: 2rem; font-weight: 700; margin: 4px 0; }
+.modal-back { position: fixed; inset: 0; background: rgba(0,0,0,.45); display: flex; align-items: center; justify-content: center; z-index: 20; padding: 16px; }
+.modal { background: var(--paper); border-radius: 12px; padding: 20px; max-width: 440px; width: 100%; border: 1px solid var(--line); }
+.toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 8px; z-index: 30; max-width: 90vw; }
+.foot { margin-top: 28px; color: var(--muted); font-size: .85rem; }
+kbd { border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; font-size: .8em; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media print { .top, .sheet, .bar { display: none; } }
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in" id="top"></div></header>
+<main id="app"></main>
+<script id="spec-data" type="application/json">/*SPEC*/</script>
+<script id="bank-data" type="application/json">/*BANK*/</script>
+<script>
+(() => {
+'use strict';
+
+// ------------------------------------------------------------ data
+const SPEC = JSON.parse(document.getElementById('spec-data').textContent);
+const RAW = JSON.parse(document.getElementById('bank-data').textContent);
+const BANK = Array.isArray(RAW) ? { items: RAW, cases: {} } : { items: RAW.items || [], cases: RAW.cases || {} };
+const LANGS = (SPEC.languages && SPEC.languages.length) ? SPEC.languages : ['en'];
+const RETIRED = new Set(SPEC.retired_ids || []);
+const KINDS = new Set(['single', 'multi', 'tf', 'combo', 'match', 'order', 'cloze', 'numeric', 'short', 'essay']);
+const ITEMS = new Map();
+BANK.items.forEach(it => { if (it && it.id && !RETIRED.has(it.id) && KINDS.has(it.kind)) ITEMS.set(it.id, it); });
+const SECTIONS = (SPEC.sections || []).map(s => Object.assign({}, s, { id: String(s.id) }));
+const NS = 'exam-prep:' + (SPEC.id || 'default') + ':';
+const LETTERS = (SPEC.letters || 'ABCDEFGHIJ').split('');
+
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(NS + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(NS + k, JSON.stringify(v)); } catch (e) { /* storage full or blocked */ } },
+  del(k) { try { localStorage.removeItem(NS + k); } catch (e) { /* ignore */ } },
+};
+
+// ------------------------------------------------------------ interface strings
+const UI = {
+  en: {
+    mock: 'Mock exam', mockDesc: '{0} questions · {1} · {2}', untimed: 'untimed', minutes: '{0} minutes',
+    start: 'Start a paper', resume: 'Resume the paper in progress', discard: 'Discard it',
+    practice: 'Practice', practiceDesc: 'Feedback after every answer.', all: 'All', count: 'Questions', allOf: 'All ({0})',
+    unseenFirst: 'Unseen questions first', startPractice: 'Start practice', unseenLeft: '{0} of {1} not yet seen',
+    wrong: 'Wrong-answer book', wrongDesc: '{0} questions; each clears after {1} correct answers in a row.', wrongEmpty: 'Nothing here yet.', practiseWrong: 'Practise them',
+    history: 'Past papers', historyEmpty: 'No papers yet.', exportH: 'Export', importH: 'Import', clearH: 'Clear',
+    confirmClear: 'Delete every saved paper, the wrong-answer book and the seen counts on this device?', del: 'Delete', cancel: 'Cancel', ok: 'OK',
+    passScore: 'pass mark {0}', passPercent: 'pass mark {0}%', passSection: 'at least {0} per section', passWrong: 'at most {0} wrong per section', noRule: 'no pass mark set',
+    question: 'Question {0} of {1}', prev: 'Previous', next: 'Next', flag: 'Flag', unflag: 'Unflag', submit: 'Submit',
+    confirmSubmit: 'Submit the paper?', unanswered: '{0} unanswered, {1} flagged.', timeUp: 'Time is up: the paper has been submitted.',
+    markTitle: 'Mark your written answers', markIntro: 'Compare each answer with the model answer and give the marks the scheme allows. Be strict: the real marker will be.',
+    yourAnswer: 'Your answer', model: 'Model answer', scheme: 'Mark scheme', marks: '{0} marks', mark1: '1 mark', finishMarking: 'Finish marking', noText: '(no answer)',
+    result: 'Result', passed: 'Passed', failed: 'Not passed', score: '{0} of {1}', reasons: 'Why: ',
+    rScore: 'the total is below {0}', rPercent: 'the total is below {0}%', rSection: 'section {0} has fewer than {1}', rWrong: 'section {0} has more than {1} wrong',
+    section: 'Section', wrongN: 'Wrong', points: 'Points', time: 'Time taken', review: 'Review',
+    correct: 'Correct', incorrect: 'Not right', partly: 'Partly right: {0} of {1}', pending: 'Awaiting your marking',
+    yourChoice: 'Your answer: {0}', key: 'Correct answer: {0}', none: 'none', source: 'Source', notes: 'Read this in the notes',
+    practiseThese: 'Practise the ones I got wrong', home: 'Home', changed: 'This question has changed since this paper; the result is kept as recorded.', gone: 'This question is no longer in the bank.',
+    check: 'Check', done: 'Done', finished: 'Practice finished', summary: '{0} of {1} right', again: 'Again',
+    chooseOne: 'Choose one answer.', chooseAll: 'Choose all that apply.', tfHint: 'True or false?', T: 'True', F: 'False',
+    matchHint: 'Choose the match for each entry.', orderHint: 'Put these in order with the arrows.', clozeHint: 'Fill in the blanks.',
+    numHint: 'Enter a number.', writeHint: 'Write your answer, then mark it against the scheme.',
+    allAbove: 'All of the above', noneAbove: 'None of the above', and: ' and ', only: '{0} only',
+    statementTrue: 'True', statementFalse: 'False', language: 'Language', both: 'Both', theme: 'Theme', auto: 'Auto', light: 'Light', dark: 'Dark',
+    imported: '{0} papers imported.', badFile: 'That file is not an exported history for this exam.', discarded: 'The bank has changed, so the unfinished paper was discarded.',
+    keys: 'Keys: A–H or 1–9 choose, ← → move, F flags, Enter checks.', items: '{0} questions in the bank', accepted: 'Accepted: {0}', tolerance: '± {0}',
+  },
+  'zh-Hant': {
+    mock: '模擬考試', mockDesc: '{0}題 · {1} · {2}', untimed: '不限時', minutes: '{0}分鐘',
+    start: '開始一份試卷', resume: '繼續未完成的試卷', discard: '捨棄',
+    practice: '練習', practiceDesc: '每答一題即顯示對錯及解釋。', all: '全部', count: '題數', allOf: '全部（{0}）',
+    unseenFirst: '先出未做過的題目', startPractice: '開始練習', unseenLeft: '{1}題中有{0}題未做過',
+    wrong: '錯題本', wrongDesc: '共{0}題；連續答對{1}次即移出。', wrongEmpty: '暫時沒有錯題。', practiseWrong: '練習錯題',
+    history: '過往試卷', historyEmpty: '尚未有試卷紀錄。', exportH: '匯出', importH: '匯入', clearH: '清除',
+    confirmClear: '刪除本裝置上所有試卷紀錄、錯題本及做題次數？', del: '刪除', cancel: '取消', ok: '確定',
+    passScore: '合格分數{0}', passPercent: '合格分數{0}%', passSection: '每部分最少{0}分', passWrong: '每部分最多錯{0}題', noRule: '未設合格分數',
+    question: '第{0}題，共{1}題', prev: '上一題', next: '下一題', flag: '標記', unflag: '取消標記', submit: '交卷',
+    confirmSubmit: '確定交卷？', unanswered: '{0}題未答，{1}題已標記。', timeUp: '時間到，試卷已自動提交。',
+    markTitle: '評閱你的文字答案', markIntro: '把答案與參考答案比較，按評分準則給分。請從嚴評分。',
+    yourAnswer: '你的答案', model: '參考答案', scheme: '評分準則', marks: '{0}分', mark1: '1分', finishMarking: '完成評分', noText: '（未作答）',
+    result: '成績', passed: '合格', failed: '不合格', score: '{0} / {1}', reasons: '原因：',
+    rScore: '總分低於{0}', rPercent: '總分低於{0}%', rSection: '第{0}部分少於{1}分', rWrong: '第{0}部分錯多於{1}題',
+    section: '部分', wrongN: '錯', points: '分數', time: '用時', review: '檢視',
+    correct: '正確', incorrect: '不正確', partly: '部分正確：{0} / {1}', pending: '等待你評分',
+    yourChoice: '你的答案：{0}', key: '正確答案：{0}', none: '無', source: '出處', notes: '在筆記中閱讀',
+    practiseThese: '練習答錯的題目', home: '主頁', changed: '此題在本試卷後已修改；成績按當時紀錄保留。', gone: '此題已不在題庫中。',
+    check: '核對', done: '完成', finished: '練習完成', summary: '{1}題答對{0}題', again: '再練一次',
+    chooseOne: '選一個答案。', chooseAll: '選出所有適用的答案。', tfHint: '正確還是錯誤？', T: '正確', F: '錯誤',
+    matchHint: '為每一項選出配對。', orderHint: '用箭咀排列次序。', clozeHint: '填寫空格。',
+    numHint: '輸入數字。', writeHint: '寫下答案，然後按評分準則評分。',
+    allAbove: '以上皆是', noneAbove: '以上皆非', and: ' 及 ', only: '只有 {0}',
+    statementTrue: '正確', statementFalse: '錯誤', language: '語言', both: '雙語', theme: '外觀', auto: '自動', light: '淺色', dark: '深色',
+    imported: '已匯入{0}份試卷。', badFile: '此檔案不是本考試匯出的紀錄。', discarded: '題庫已更新，未完成的試卷已捨棄。',
+    keys: '按鍵：A–H或1–9選答案，← →換題，F標記，Enter核對。', items: '題庫共{0}題', accepted: '可接受：{0}', tolerance: '± {0}',
+  },
+  'zh-Hans': {
+    mock: '模拟考试', mockDesc: '{0}题 · {1} · {2}', untimed: '不限时', minutes: '{0}分钟',
+    start: '开始一份试卷', resume: '继续未完成的试卷', discard: '舍弃',
+    practice: '练习', practiceDesc: '每答一题即显示对错及解释。', all: '全部', count: '题数', allOf: '全部（{0}）',
+    unseenFirst: '先出未做过的题目', startPractice: '开始练习', unseenLeft: '{1}题中有{0}题未做过',
+    wrong: '错题本', wrongDesc: '共{0}题；连续答对{1}次即移出。', wrongEmpty: '暂时没有错题。', practiseWrong: '练习错题',
+    history: '过往试卷', historyEmpty: '尚未有试卷记录。', exportH: '导出', importH: '导入', clearH: '清除',
+    confirmClear: '删除本设备上所有试卷记录、错题本及做题次数？', del: '删除', cancel: '取消', ok: '确定',
+    passScore: '合格分数{0}', passPercent: '合格分数{0}%', passSection: '每部分最少{0}分', passWrong: '每部分最多错{0}题', noRule: '未设合格分数',
+    question: '第{0}题，共{1}题', prev: '上一题', next: '下一题', flag: '标记', unflag: '取消标记', submit: '交卷',
+    confirmSubmit: '确定交卷？', unanswered: '{0}题未答，{1}题已标记。', timeUp: '时间到，试卷已自动提交。',
+    markTitle: '评阅你的文字答案', markIntro: '把答案与参考答案比较，按评分标准给分。请从严评分。',
+    yourAnswer: '你的答案', model: '参考答案', scheme: '评分标准', marks: '{0}分', mark1: '1分', finishMarking: '完成评分', noText: '（未作答）',
+    result: '成绩', passed: '合格', failed: '不合格', score: '{0} / {1}', reasons: '原因：',
+    rScore: '总分低于{0}', rPercent: '总分低于{0}%', rSection: '第{0}部分少于{1}分', rWrong: '第{0}部分错多于{1}题',
+    section: '部分', wrongN: '错', points: '分数', time: '用时', review: '查看',
+    correct: '正确', incorrect: '不正确', partly: '部分正确：{0} / {1}', pending: '等待你评分',
+    yourChoice: '你的答案：{0}', key: '正确答案：{0}', none: '无', source: '出处', notes: '在笔记中阅读',
+    practiseThese: '练习答错的题目', home: '主页', changed: '此题在本试卷后已修改；成绩按当时记录保留。', gone: '此题已不在题库中。',
+    check: '核对', done: '完成', finished: '练习完成', summary: '{1}题答对{0}题', again: '再练一次',
+    chooseOne: '选一个答案。', chooseAll: '选出所有适用的答案。', tfHint: '正确还是错误？', T: '正确', F: '错误',
+    matchHint: '为每一项选出配对。', orderHint: '用箭头排列次序。', clozeHint: '填写空格。',
+    numHint: '输入数字。', writeHint: '写下答案，然后按评分标准评分。',
+    allAbove: '以上皆是', noneAbove: '以上皆非', and: ' 及 ', only: '只有 {0}',
+    statementTrue: '正确', statementFalse: '错误', language: '语言', both: '双语', theme: '外观', auto: '自动', light: '浅色', dark: '深色',
+    imported: '已导入{0}份试卷。', badFile: '此文件不是本考试导出的记录。', discarded: '题库已更新，未完成的试卷已舍弃。',
+    keys: '按键：A–H或1–9选答案，← →换题，F标记，Enter核对。', items: '题库共{0}题', accepted: '可接受：{0}', tolerance: '± {0}',
+  },
+};
+
+let prefs = Object.assign({ lang: LANGS[0], theme: 'auto' }, store.get('prefs', {}));
+if (prefs.lang !== 'both' && !LANGS.includes(prefs.lang)) prefs.lang = LANGS[0];
+if (prefs.lang === 'both' && LANGS.length < 2) prefs.lang = LANGS[0];
+
+function uiLang(lang) { return lang || (prefs.lang === 'both' ? LANGS[0] : prefs.lang); }
+function stringsFor(lang) {
+  const l = uiLang(lang);
+  if (UI[l]) return UI[l];
+  if (/^zh-(cn|sg|hans)/i.test(l)) return UI['zh-Hans'];
+  if (/^zh/i.test(l)) return UI['zh-Hant'];
+  return UI.en;
+}
+function t(key, ...args) {
+  const l = uiLang();
+  const over = ((SPEC.ui || {})[l] || {})[key];
+  const s = over != null ? over : (stringsFor()[key] != null ? stringsFor()[key] : (UI.en[key] != null ? UI.en[key] : key));
+  return String(s).replace(/\{(\d)\}/g, (_, i) => args[+i]);
+}
+function tl(lang, key, ...args) {
+  const over = ((SPEC.ui || {})[lang] || {})[key];
+  const s = over != null ? over : (stringsFor(lang)[key] != null ? stringsFor(lang)[key] : UI.en[key]);
+  return String(s).replace(/\{(\d)\}/g, (_, i) => args[+i]);
+}
+
+// ------------------------------------------------------------ helpers
+const $ = sel => document.querySelector(sel);
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+function fmt(s) {
+  return esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/`([^`]+)`/g, '<code>$1</code>').replace(/\n/g, '<br>');
+}
+function loc(v, lang) {
+  if (v == null) return '';
+  if (typeof v === 'string') return v;
+  return v[lang] != null ? v[lang] : (v[LANGS[0]] != null ? v[LANGS[0]] : Object.values(v)[0] || '');
+}
+function showLangs() { return prefs.lang === 'both' ? LANGS : [prefs.lang]; }
+function field(it, lang, name) { return (it[lang] || {})[name]; }
+function L(it, name, idx) {
+  return showLangs().map((lg, n) => {
+    let v = field(it, lg, name);
+    if (idx != null) v = Array.isArray(v) ? v[idx] : undefined;
+    if (v == null || v === '') return '';
+    return `<span class="${n ? 'alt' : 'pri'}" lang="${esc(lg)}">${fmt(v)}</span>`;
+  }).join('');
+}
+function Ls(value) {
+  return showLangs().map((lg, n) => {
+    const v = loc(value, lg);
+    return v ? `<span class="${n ? 'alt' : 'pri'}" lang="${esc(lg)}">${fmt(v)}</span>` : '';
+  }).join('');
+}
+function shuffle(a) {
+  a = a.slice();
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+function range(n) { return Array.from({ length: n }, (_, i) => i); }
+function kconf(it, key, d) {
+  if (Object.prototype.hasOwnProperty.call(it, key)) return it[key];
+  const k = (SPEC.kinds || {})[it.kind] || {};
+  return Object.prototype.hasOwnProperty.call(k, key) ? k[key] : d;
+}
+function shuffles(it) {
+  if (it.official || it.fixed) return false;
+  if (it.kind === 'single' || it.kind === 'multi') return !!kconf(it, 'shuffle', true);
+  if (it.kind === 'combo') return !!kconf(it, 'shuffle_statements', true);
+  return it.kind === 'order' || it.kind === 'match';
+}
+function written(it) { return it.kind === 'short' || it.kind === 'essay'; }
+function maxPoints(it) {
+  if (it.points != null) return it.points;
+  if (written(it)) {
+    const f = it[LANGS[0]] || {};
+    if (f.rubric) return f.rubric.reduce((a, r) => a + (+r.marks || 0), 0);
+    if (f.levels) return Math.max(...f.levels.map(r => +r.marks || 0));
+  }
+  return 1;
+}
+function sectionTitle(id, lang) { const s = SECTIONS.find(x => x.id === String(id)); return s ? (loc(s.title, lang || uiLang()) || s.id) : String(id); }
+function sectionName(id) { const s = SECTIONS.find(x => x.id === String(id)); return s && s.title ? Ls(s.title) : esc(id); }
+function nrm(s, cs) { s = String(s == null ? '' : s).normalize('NFKC').replace(/\s+/g, ' ').trim(); return cs ? s : s.toLowerCase(); }
+function fmtTime(ms) { const s = Math.max(0, Math.round(ms / 1000)); const h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), x = s % 60; return (h ? h + ':' + String(m).padStart(2, '0') : m) + ':' + String(x).padStart(2, '0'); }
+function fmtDate(ts) { try { return new Date(ts).toLocaleString(uiLang(), { dateStyle: 'medium', timeStyle: 'short' }); } catch (e) { return new Date(ts).toISOString(); } }
+function toast(msg) { const d = document.createElement('div'); d.className = 'toast'; d.textContent = msg; document.body.appendChild(d); setTimeout(() => d.remove(), 3200); }
+function modal(title, body, okLabel, onOK, danger) {
+  const back = document.createElement('div');
+  back.className = 'modal-back';
+  back.innerHTML = `<div class="modal" role="dialog" aria-modal="true"><h2>${esc(title)}</h2><p>${esc(body)}</p><div class="row" style="justify-content:flex-end"><button class="btn plain" data-m="no">${esc(t('cancel'))}</button><button class="btn ${danger ? 'danger' : ''}" data-m="yes">${esc(okLabel)}</button></div></div>`;
+  back.addEventListener('click', e => { const m = e.target.dataset.m; if (m || e.target === back) { back.remove(); if (m === 'yes') onOK(); } });
+  document.body.appendChild(back);
+  back.querySelector('[data-m="yes"]').focus();
+}
+
+// ------------------------------------------------------------ instances, display and grading
+function makeInst(it) {
+  const inst = { id: it.id, v: it.version || 1 };
+  const f = it[LANGS[0]] || {};
+  if (it.kind === 'single' || it.kind === 'multi') {
+    const n = (f.options || []).length, pin = it.pin_last || 0;
+    let head = range(n - pin);
+    if (shuffles(it)) head = shuffle(head);
+    inst.perm = head.concat(range(pin).map(i => n - pin + i));
+  } else if (it.kind === 'combo') {
+    inst.perm = shuffles(it) ? shuffle(range(it.truth.length)) : range(it.truth.length);
+  } else if (it.kind === 'match') {
+    inst.perm = shuffle(range((f.right || []).length));
+  } else if (it.kind === 'order') {
+    let p = shuffle(range((f.items || []).length));
+    if (p.length > 1 && p.every((x, i) => x === i)) p = p.slice(1).concat(p[0]);
+    inst.perm = p;
+  }
+  return inst;
+}
+function comboShown(it, inst) {
+  const newOf = {};
+  inst.perm.forEach((stored, pos) => { newOf[stored + 1] = pos + 1; });
+  const opts = (it.options || []).map((o, idx) => ({ stored: idx, set: (o === 'all' || o === 'none') ? o : o.map(x => newOf[x]).sort((a, b) => a - b) }));
+  if (!shuffles(it)) return opts;
+  const sets = opts.filter(o => Array.isArray(o.set)).sort((a, b) => a.set.length - b.set.length || a.set.join(',').localeCompare(b.set.join(','), undefined, { numeric: true }));
+  return sets.concat(opts.filter(o => !Array.isArray(o.set)));
+}
+function comboLabel(set, lang) {
+  if (set === 'all') return tl(lang, 'allAbove');
+  if (set === 'none') return tl(lang, 'noneAbove');
+  if (set.length === 1) return tl(lang, 'only', set[0]);
+  const zh = /^zh/i.test(lang);
+  return set.slice(0, -1).join(zh ? '、' : ', ') + tl(lang, 'and') + set[set.length - 1];
+}
+function comboLabelHTML(set) {
+  if (Array.isArray(set)) return `<span class="pri">${esc(comboLabel(set, uiLang()))}</span>`;
+  return showLangs().map((lg, n) => `<span class="${n ? 'alt' : 'pri'}" lang="${esc(lg)}">${esc(comboLabel(set, lg))}</span>`).join('');
+}
+function isBlank(it, r) {
+  switch (it.kind) {
+    case 'multi': return !r || !r.length;
+    case 'match': return !r || r.every(x => x == null);
+    case 'order': return !r;
+    case 'cloze': return !r || r.every(x => !nrm(x));
+    case 'numeric': return r == null || nrm(r) === '';
+    case 'short': case 'essay': return !r || !nrm(r.text);
+    default: return r == null;
+  }
+}
+function grade(it, inst, r) {
+  const max = maxPoints(it);
+  const out = { max, earned: 0, blank: isBlank(it, r), full: false, pending: false };
+  let share = 0;
+  const f = it[LANGS[0]] || {};
+  switch (it.kind) {
+    case 'single': case 'tf': case 'combo': share = (!out.blank && r === it.answer) ? 1 : 0; break;
+    case 'multi': {
+      const keys = new Set(it.answer || []), got = new Set(r || []);
+      const hits = [...got].filter(x => keys.has(x)).length, wrongs = got.size - hits;
+      share = kconf(it, 'scoring', 'all-or-nothing') === 'partial' ? Math.max(0, (hits - wrongs) / keys.size) : (hits === keys.size && wrongs === 0 ? 1 : 0);
+      break;
+    }
+    case 'match': {
+      const key = it.answer || range((f.left || []).length);
+      const right = key.filter((k, i) => r && r[i] === k).length;
+      share = kconf(it, 'scoring', 'partial') === 'partial' ? right / key.length : (right === key.length ? 1 : 0);
+      break;
+    }
+    case 'order': {
+      const seq = r || inst.perm;
+      const right = seq.filter((x, i) => x === i).length;
+      share = kconf(it, 'scoring', 'all-or-nothing') === 'partial' ? right / seq.length : (right === seq.length ? 1 : 0);
+      break;
+    }
+    case 'cloze': {
+      const cs = !!kconf(it, 'case_sensitive', false);
+      const blanks = (f.answers || []).length;
+      let right = 0;
+      for (let b = 0; b < blanks; b++) {
+        const acc = new Set();
+        LANGS.forEach(lg => ((field(it, lg, 'answers') || [])[b] || []).forEach(a => acc.add(nrm(a, cs))));
+        if (r && acc.has(nrm(r[b], cs))) right++;
+      }
+      share = kconf(it, 'scoring', 'partial') === 'partial' ? (blanks ? right / blanks : 0) : (right === blanks ? 1 : 0);
+      break;
+    }
+    case 'numeric': {
+      const x = parseFloat(String(r == null ? '' : r).replace(/[,\s]/g, '').replace(/[^\d.eE+-]/g, ''));
+      let tol = it.tolerance;
+      if (tol == null && it.tolerance_pct != null) tol = Math.abs(it.answer) * it.tolerance_pct / 100;
+      share = (!out.blank && isFinite(x) && Math.abs(x - it.answer) <= (tol || 0) + 1e-9) ? 1 : 0;
+      break;
+    }
+    case 'short': case 'essay':
+      if (out.blank) { share = 0; break; }
+      if (!r || r.marks == null) { out.pending = true; return out; }
+      out.earned = Math.min(max, r.marks); out.full = out.earned >= max; return out;
+  }
+  out.earned = share * max;
+  out.full = share >= 1 - 1e-9;
+  const neg = (SPEC.paper || {}).negative_marking || 0;
+  if (neg && !out.blank && share === 0) out.earned = -neg * max;
+  return out;
+}
+function fmtPts(x) { return Number.isInteger(x) ? String(x) : x.toFixed(2).replace(/\.?0+$/, ''); }
+
+// ------------------------------------------------------------ records
+function getSeen() { return store.get('seen', {}); }
+function getWrong() {
+  const w = store.get('wrong', {});
+  let changed = false;
+  Object.keys(w).forEach(id => { const it = ITEMS.get(id); if (!it || (it.version || 1) !== w[id].v) { delete w[id]; changed = true; } });
+  if (changed) store.set('wrong', w);
+  return w;
+}
+function record(it, full) {
+  const seen = getSeen(); seen[it.id] = (seen[it.id] || 0) + 1; store.set('seen', seen);
+  const w = getWrong(), need = (SPEC.review || {}).clear_after || 2;
+  if (!full) w[it.id] = { v: it.version || 1, streak: 0 };
+  else if (w[it.id]) { w[it.id].streak += 1; if (w[it.id].streak >= need) delete w[it.id]; }
+  store.set('wrong', w);
+}
+function getHistory() { return store.get('history', []); }
+
+// ------------------------------------------------------------ drawing a paper
+function drawSection(sec) {
+  const pool = [...ITEMS.values()].filter(it => String(it.section) === sec.id);
+  const units = [], cases = {};
+  pool.forEach(it => { if (it.case) { (cases[it.case] = cases[it.case] || []).push(it); } else units.push([it]); });
+  Object.values(cases).forEach(u => units.push(u));
+  let need = sec.draw || 0;
+  const out = [];
+  for (const u of shuffle(units)) { if (need <= 0) break; if (u.length <= need) { out.push(...u); need -= u.length; } }
+  return out;
+}
+function startMock() {
+  const now = Date.now();
+  const minutes = (SPEC.paper || {}).minutes || 0;
+  const items = [];
+  SECTIONS.forEach(sec => drawSection(sec).forEach(it => items.push({ id: it.id, v: it.version || 1, section: sec.id, inst: makeInst(it), resp: null, flag: false })));
+  exam = { startedAt: now, endsAt: minutes ? now + minutes * 60000 : null, items, pos: 0 };
+  saveExam();
+  go('exam');
+}
+let exam = null;
+function saveExam() { if (exam) store.set('current', exam); }
+function loadExam() {
+  const e = store.get('current', null);
+  if (!e) return null;
+  const ok = e.items && e.items.every(x => { const it = ITEMS.get(x.id); return it && (it.version || 1) === x.v; });
+  if (!ok) { store.del('current'); toast(t('discarded')); return null; }
+  return e;
+}
+
+// ------------------------------------------------------------ rendering one item
+function itemHTML(it, inst, r, mode) {
+  // mode: 'answer' (editable), 'review' (key and explanations shown)
+  const rev = mode === 'review';
+  let h = '';
+  if (it.case && BANK.cases[it.case]) {
+    const c = BANK.cases[it.case];
+    h += `<div class="case">${showLangs().map((lg, n) => { const x = c[lg] || {}; return `<div class="${n ? 'alt' : 'pri'}" lang="${esc(lg)}">${x.title ? `<strong>${fmt(x.title)}</strong><br>` : ''}${fmt(x.text || '')}</div>`; }).join('')}</div>`;
+  }
+  if (it.kind === 'cloze') h += `<div class="stem cloze">${clozeStem(it, r, rev)}</div>`;
+  else h += `<div class="stem">${L(it, 'stem')}</div>`;
+  switch (it.kind) {
+    case 'single': case 'multi': {
+      h += `<p class="hint">${esc(t(it.kind === 'single' ? 'chooseOne' : 'chooseAll'))}</p><div class="opts">`;
+      const chosen = it.kind === 'single' ? (r == null ? [] : [r]) : (r || []);
+      const keys = it.kind === 'single' ? [it.answer] : (it.answer || []);
+      inst.perm.forEach((stored, pos) => {
+        let cls = chosen.includes(stored) ? ' sel' : '';
+        if (rev) cls += keys.includes(stored) ? ' key' : (chosen.includes(stored) ? ' miss' : '');
+        h += `<button class="opt${cls}" data-act="pick" data-i="${stored}" ${rev ? 'disabled' : ''} aria-pressed="${chosen.includes(stored)}"><span class="L">${LETTERS[pos]}</span><span>${L(it, 'options', stored)}${rev ? whyHTML(it, 'option_notes', stored) : ''}</span></button>`;
+      });
+      h += '</div>';
+      break;
+    }
+    case 'tf': {
+      h += `<p class="hint">${esc(t('tfHint'))}</p><div class="opts">`;
+      [true, false].forEach((v, pos) => {
+        let cls = r === v ? ' sel' : '';
+        if (rev) cls += it.answer === v ? ' key' : (r === v ? ' miss' : '');
+        h += `<button class="opt${cls}" data-act="tf" data-v="${v ? 1 : 0}" ${rev ? 'disabled' : ''} aria-pressed="${r === v}"><span class="L">${LETTERS[pos]}</span><span>${esc(t(v ? 'T' : 'F'))}</span></button>`;
+      });
+      h += '</div>';
+      break;
+    }
+    case 'combo': {
+      h += '<ol class="statements">';
+      inst.perm.forEach((stored, pos) => {
+        const cls = rev ? (it.truth[stored] ? ' class="t"' : ' class="f"') : '';
+        const badge = rev ? ` <span class="badge ${it.truth[stored] ? 'pass' : 'fail'}">${esc(t(it.truth[stored] ? 'statementTrue' : 'statementFalse'))}</span>` : '';
+        h += `<li data-n="${pos + 1}"${cls}>${L(it, 'statements', stored)}${badge}${rev ? whyHTML(it, 'statement_notes', stored) : ''}</li>`;
+      });
+      h += `</ol><p class="hint">${esc(t('chooseOne'))}</p><div class="opts">`;
+      comboShown(it, inst).forEach((o, pos) => {
+        let cls = r === o.stored ? ' sel' : '';
+        if (rev) cls += it.answer === o.stored ? ' key' : (r === o.stored ? ' miss' : '');
+        h += `<button class="opt${cls}" data-act="pick" data-i="${o.stored}" ${rev ? 'disabled' : ''} aria-pressed="${r === o.stored}"><span class="L">${LETTERS[pos]}</span><span>${comboLabelHTML(o.set)}</span></button>`;
+      });
+      h += '</div>';
+      break;
+    }
+    case 'match': {
+      const f = it[uiLang()] || it[LANGS[0]];
+      const key = it.answer || range((f.left || []).length);
+      h += `<p class="hint">${esc(t('matchHint'))}</p>`;
+      (f.left || []).forEach((_, i) => {
+        const cur = r ? r[i] : null;
+        let sel = `<select data-act="match" data-i="${i}" ${rev ? 'disabled' : ''}><option value="">—</option>`;
+        inst.perm.forEach((stored, pos) => { sel += `<option value="${stored}" ${cur === stored ? 'selected' : ''}>${LETTERS[pos]}. ${esc(loc(f.right[stored]))}</option>`; });
+        sel += '</select>';
+        let tail = '';
+        if (rev) tail = `<span class="why">${cur === key[i] ? '✓' : '✗'} ${esc(t('key', LETTERS[inst.perm.indexOf(key[i])] + '. ' + f.right[key[i]]))}</span>`;
+        h += `<div class="match-row"><div>${L(it, 'left', i)}</div><div>${sel}${tail}</div></div>`;
+      });
+      break;
+    }
+    case 'order': {
+      const seq = r || inst.perm;
+      h += `<p class="hint">${esc(t('orderHint'))}</p><ol class="order-list">`;
+      seq.forEach((stored, pos) => {
+        const mark = rev ? (stored === pos ? '✓ ' : '✗ ') : '';
+        h += `<li><span class="grow">${mark}${L(it, 'items', stored)}</span>${rev ? '' : `<button data-act="up" data-p="${pos}" aria-label="up" ${pos === 0 ? 'disabled' : ''}>↑</button><button data-act="down" data-p="${pos}" aria-label="down" ${pos === seq.length - 1 ? 'disabled' : ''}>↓</button>`}</li>`;
+      });
+      h += '</ol>';
+      if (rev) h += `<div class="model"><strong>${esc(t('key', ''))}</strong><ol>${range(seq.length).map(i => `<li>${L(it, 'items', i)}</li>`).join('')}</ol></div>`;
+      break;
+    }
+    case 'cloze':
+      h += `<p class="hint">${esc(t('clozeHint'))}</p>`;
+      break;
+    case 'numeric': {
+      const unit = loc(field(it, uiLang(), 'unit') || field(it, LANGS[0], 'unit'));
+      const before = /^(?:[A-Z]{0,3}[$€£¥₩₹]|[$€£¥₩₹])$/.test(unit);
+      const input = `<input class="num" data-act="num" inputmode="decimal" value="${esc(r == null ? '' : r)}" ${rev ? 'disabled' : ''}>`;
+      h += `<p class="hint">${esc(t('numHint'))}</p><div class="row">${before ? `<span>${esc(unit)}</span> ${input}` : `${input} <span>${esc(unit)}</span>`}</div>`;
+      if (rev) {
+        let tol = it.tolerance; if (tol == null && it.tolerance_pct != null) tol = Math.abs(it.answer) * it.tolerance_pct / 100;
+        const shown = before ? unit + it.answer : it.answer + (unit ? ' ' + unit : '');
+        h += `<p class="why">${esc(t('key', shown + (tol ? ' (' + t('tolerance', tol) + ')' : '')))}</p>`;
+      }
+      break;
+    }
+    case 'short': case 'essay': {
+      const text = r ? r.text || '' : '';
+      if (mode === 'answer') h += `<p class="hint">${esc(t('writeHint'))}</p><div class="${it.kind}"><textarea data-act="write">${esc(text)}</textarea></div>`;
+      else h += `<p><strong>${esc(t('yourAnswer'))}</strong></p><div class="model" style="background:transparent;border:1px solid var(--line)">${text ? fmt(text) : esc(t('noText'))}</div>` + modelHTML(it, r, mode === 'mark');
+      break;
+    }
+  }
+  if (rev) {
+    if (field(it, uiLang(), 'explain') || field(it, LANGS[0], 'explain')) h += `<div class="explain">${L(it, 'explain')}</div>`;
+    h += `<div class="src">${esc(t('source'))}: ${Ls(it.source)}${notesLink(it)}</div>`;
+  }
+  return h;
+}
+function whyHTML(it, name, idx) { const x = L(it, name, idx); return x ? `<span class="why">${x}</span>` : ''; }
+function notesLink(it) {
+  const url = (SPEC.notes || {}).url;
+  return url && it.notes_anchor ? ` · <a href="${esc(url)}#${esc(it.notes_anchor)}" target="_blank" rel="noopener">${esc(t('notes'))}</a>` : '';
+}
+function modelHTML(it, r, editable) {
+  const lg = uiLang(), f = it[lg] || it[LANGS[0]] || {};
+  let h = `<p><strong>${esc(t('model'))}</strong></p><div class="model">${L(it, 'model_answer')}</div><p><strong>${esc(t('scheme'))}</strong></p><div class="rubric">`;
+  const ticks = (r && r.ticks) || [];
+  const m = x => esc(+x === 1 ? t('mark1') : t('marks', x));
+  if (f.rubric) f.rubric.forEach((p, i) => { h += `<label><input type="checkbox" data-act="tick" data-r="${i}" ${ticks[i] ? 'checked' : ''} ${editable ? '' : 'disabled'}><span>${fmt(p.text)} <span class="muted">(${m(p.marks)})</span></span></label>`; });
+  else if (f.levels) f.levels.forEach((p, i) => { h += `<label><input type="radio" name="lvl-${esc(it.id)}" data-act="level" data-r="${i}" ${r && r.level === i ? 'checked' : ''} ${editable ? '' : 'disabled'}><span>${fmt(p.text)} <span class="muted">(${m(p.marks)})</span></span></label>`; });
+  return h + '</div>';
+}
+function clozeStem(it, r, rev) {
+  return showLangs().map((lg, n) => {
+    const stem = esc(field(it, lg, 'stem') || '');
+    const choices = field(it, lg, 'choices');
+    const primary = n === 0;
+    const body = stem.replace(/\{\{(\d+)\}\}/g, (_, k) => {
+      const b = +k - 1, cur = r ? (r[b] || '') : '';
+      if (!primary) return '____';
+      if (rev) {
+        const acc = (field(it, lg, 'answers') || [])[b] || [];
+        const ok = acc.some(a => nrm(a, kconf(it, 'case_sensitive', false)) === nrm(cur, kconf(it, 'case_sensitive', false)));
+        return `<strong>${esc(cur || '—')}</strong> <span class="badge ${ok ? 'pass' : 'fail'}">${esc(acc.join(' / '))}</span>`;
+      }
+      if (choices && choices[b]) return `<select data-act="cloze" data-b="${b}"><option value=""></option>${choices[b].map(c => `<option ${c === cur ? 'selected' : ''}>${esc(c)}</option>`).join('')}</select>`;
+      return `<input data-act="cloze" data-b="${b}" value="${esc(cur)}" autocomplete="off" size="10">`;
+    });
+    return `<span class="${n ? 'alt' : 'pri'}" lang="${esc(lg)}">${body.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>')}</span>`;
+  }).join('');
+}
+function respLabel(it, inst, r) {
+  if (isBlank(it, r)) return t('none');
+  if (it.kind === 'single' || it.kind === 'multi') return [].concat(r).map(s => LETTERS[inst.perm.indexOf(s)]).sort().join(', ');
+  if (it.kind === 'combo') { const pos = comboShown(it, inst).findIndex(o => o.stored === r); return LETTERS[pos]; }
+  if (it.kind === 'tf') return t(r ? 'T' : 'F');
+  return '';
+}
+
+// ------------------------------------------------------------ responses (shared by exam and practice)
+function applyAction(it, inst, r, el) {
+  const act = el.dataset.act;
+  if (act === 'pick') {
+    const i = +el.dataset.i;
+    if (it.kind === 'multi') { const s = new Set(r || []); s.has(i) ? s.delete(i) : s.add(i); return [...s].sort((a, b) => a - b); }
+    return r === i ? null : i;
+  }
+  if (act === 'tf') { const v = el.dataset.v === '1'; return r === v ? null : v; }
+  if (act === 'match') { const f = it[LANGS[0]]; const a = r ? r.slice() : (f.left || []).map(() => null); a[+el.dataset.i] = el.value === '' ? null : +el.value; return a; }
+  if (act === 'up' || act === 'down') { const a = (r || inst.perm).slice(); const p = +el.dataset.p, q = act === 'up' ? p - 1 : p + 1; if (q < 0 || q >= a.length) return a; [a[p], a[q]] = [a[q], a[p]]; return a; }
+  if (act === 'cloze') { const n = ((it[LANGS[0]] || {}).answers || []).length; const a = r ? r.slice() : Array(n).fill(''); a[+el.dataset.b] = el.value; return a; }
+  if (act === 'num') return el.value;
+  if (act === 'write') return Object.assign({}, r || {}, { text: el.value });
+  if (act === 'tick') {
+    const f = it[uiLang()] || it[LANGS[0]];
+    const ticks = ((r && r.ticks) || []).slice(); ticks[+el.dataset.r] = el.checked;
+    const marks = (f.rubric || []).reduce((a, p, i) => a + (ticks[i] ? +p.marks : 0), 0);
+    return Object.assign({}, r || {}, { ticks, marks });
+  }
+  if (act === 'level') { const f = it[uiLang()] || it[LANGS[0]]; const i = +el.dataset.r; return Object.assign({}, r || {}, { level: i, marks: +f.levels[i].marks }); }
+  return r;
+}
+function keyChoice(e, it, inst) {
+  // A–H or 1–9 picks the option at that display position
+  const k = e.key.toUpperCase();
+  let pos = LETTERS.indexOf(k);
+  if (pos < 0 && /^[1-9]$/.test(k)) pos = +k - 1;
+  if (pos < 0) return null;
+  if (it.kind === 'single' || it.kind === 'multi') return inst.perm[pos] == null ? null : { act: 'pick', i: inst.perm[pos] };
+  if (it.kind === 'combo') { const o = comboShown(it, inst)[pos]; return o ? { act: 'pick', i: o.stored } : null; }
+  if (it.kind === 'tf' && pos < 2) return { act: 'tf', v: pos === 0 ? '1' : '0' };
+  return null;
+}
+
+// ------------------------------------------------------------ views
+let view = 'home', practice = null, viewing = null, timerId = null;
+function go(v) { view = v; render(); window.scrollTo(0, 0); }
+function render() {
+  document.documentElement.lang = uiLang();
+  document.documentElement.dataset.theme = prefs.theme === 'auto' ? '' : prefs.theme;
+  if (prefs.theme === 'auto') delete document.documentElement.dataset.theme;
+  document.title = loc(SPEC.title, uiLang()) || t('mock');
+  renderTop();
+  const app = $('#app');
+  if (view === 'exam' && exam) app.innerHTML = examView();
+  else if (view === 'mark' && exam) app.innerHTML = markView();
+  else if (view === 'results' && viewing) app.innerHTML = resultsView(viewing);
+  else if (view === 'practice' && practice) app.innerHTML = practiceView();
+  else { view = 'home'; app.innerHTML = homeView(); }
+  if (view === 'exam') startTimer(); else stopTimer();
+}
+function renderTop() {
+  let h = `<span class="brand" data-act="home" role="button" tabindex="0">${esc(loc(SPEC.title, uiLang()) || t('mock'))}</span>`;
+  if (view === 'exam' && exam) h += `<span class="timer" id="timer"></span>`;
+  if (LANGS.length > 1) {
+    h += `<label class="small muted">${esc(t('language'))} <select data-act="lang">${LANGS.map(l => `<option value="${esc(l)}" ${prefs.lang === l ? 'selected' : ''}>${esc((SPEC.language_names || {})[l] || l)}</option>`).join('')}<option value="both" ${prefs.lang === 'both' ? 'selected' : ''}>${esc(t('both'))}</option></select></label>`;
+  }
+  h += `<label class="small muted">${esc(t('theme'))} <select data-act="theme">${['auto', 'light', 'dark'].map(x => `<option value="${x}" ${prefs.theme === x ? 'selected' : ''}>${esc(t(x))}</option>`).join('')}</select></label>`;
+  $('#top').innerHTML = h;
+}
+function passText() {
+  const p = (SPEC.paper || {}).pass || {};
+  const parts = [];
+  if (p.min_score != null) parts.push(t('passScore', p.min_score));
+  if (p.min_percent != null) parts.push(t('passPercent', p.min_percent));
+  if (p.min_per_section != null) parts.push(t('passSection', p.min_per_section));
+  if (p.max_wrong_per_section != null) parts.push(t('passWrong', p.max_wrong_per_section));
+  return parts.length ? parts.join(', ') : t('noRule');
+}
+let pracSel = null, pracCount = 20, pracUnseen = true;
+function homeView() {
+  const total = SECTIONS.reduce((a, s) => a + (s.draw || 0), 0);
+  const minutes = (SPEC.paper || {}).minutes;
+  const current = store.get('current', null);
+  let h = '<div class="grid2">';
+  h += `<section class="card"><h2>${esc(t('mock'))}</h2><p class="muted">${esc(t('mockDesc', total, minutes ? t('minutes', minutes) : t('untimed'), passText()))}</p>`;
+  h += `<table class="t small"><tr><th>${esc(t('section'))}</th><th>${esc(t('count'))}</th></tr>${SECTIONS.map(s => `<tr><td>${sectionName(s.id)}</td><td>${s.draw || 0}</td></tr>`).join('')}</table>`;
+  h += `<div class="bar">${current ? `<button class="btn" data-act="resume">${esc(t('resume'))}</button><button class="btn plain" data-act="discard">${esc(t('discard'))}</button>` : `<button class="btn" data-act="mock">${esc(t('start'))}</button>`}</div></section>`;
+  if (pracSel == null) pracSel = new Set(SECTIONS.map(s => s.id));
+  const pool = [...ITEMS.values()].filter(it => pracSel.has(String(it.section)));
+  const seen = getSeen();
+  const unseen = pool.filter(it => !seen[it.id]).length;
+  h += `<section class="card"><h2>${esc(t('practice'))}</h2><p class="muted">${esc(t('practiceDesc'))}</p><div class="row">`;
+  h += `<button class="chip" data-act="secall" aria-pressed="${pracSel.size === SECTIONS.length}">${esc(t('all'))}</button>`;
+  SECTIONS.forEach(s => { h += `<button class="chip" data-act="sec" data-s="${esc(s.id)}" aria-pressed="${pracSel.has(s.id)}">${esc(sectionTitle(s.id))}</button>`; });
+  h += `</div><div class="row" style="margin-top:10px"><label>${esc(t('count'))} <select data-act="pcount">${[10, 20, 50].filter(n => n < pool.length).map(n => `<option value="${n}" ${pracCount === n ? 'selected' : ''}>${n}</option>`).join('')}<option value="0" ${pracCount === 0 || pracCount >= pool.length ? 'selected' : ''}>${esc(t('allOf', pool.length))}</option></select></label>`;
+  h += `<label><input type="checkbox" data-act="punseen" ${pracUnseen ? 'checked' : ''}> ${esc(t('unseenFirst'))}</label></div>`;
+  h += `<p class="small muted">${esc(t('unseenLeft', unseen, pool.length))}</p><div class="bar"><button class="btn" data-act="practice" ${pool.length ? '' : 'disabled'}>${esc(t('startPractice'))}</button></div></section>`;
+  const w = getWrong(), wn = Object.keys(w).length;
+  h += `<section class="card"><h2>${esc(t('wrong'))}</h2><p class="muted">${wn ? esc(t('wrongDesc', wn, (SPEC.review || {}).clear_after || 2)) : esc(t('wrongEmpty'))}</p><div class="bar"><button class="btn" data-act="wrongbook" ${wn ? '' : 'disabled'}>${esc(t('practiseWrong'))}</button></div></section>`;
+  const hist = getHistory();
+  h += `<section class="card"><h2>${esc(t('history'))}</h2>`;
+  if (!hist.length) h += `<p class="muted">${esc(t('historyEmpty'))}</p>`;
+  else h += `<ul class="hist">${hist.slice().reverse().map(a => `<li data-act="open" data-u="${esc(a.uid)}"><span>${esc(fmtDate(a.ts))}</span><span>${esc(t('score', fmtPts(a.earned), fmtPts(a.max)))} ${a.pass == null ? '' : `<span class="badge ${a.pass ? 'pass' : 'fail'}">${esc(t(a.pass ? 'passed' : 'failed'))}</span>`}</span></li>`).join('')}</ul>`;
+  h += `<div class="bar"><span class="row"><button class="btn plain" data-act="export">${esc(t('exportH'))}</button><label class="btn plain">${esc(t('importH'))}<input type="file" accept=".json,application/json" data-act="import" hidden></label></span><button class="btn danger" data-act="clear" ${hist.length || wn ? '' : 'disabled'}>${esc(t('clearH'))}</button></div></section>`;
+  h += '</div>';
+  h += `<div class="foot">${SPEC.disclaimer ? `<p>${Ls(SPEC.disclaimer)}</p>` : ''}<p>${esc(t('items', ITEMS.size))} · ${esc(t('keys'))}</p></div>`;
+  return h;
+}
+
+// --- exam
+function curExamItem() { const x = exam.items[exam.pos]; return [ITEMS.get(x.id), x]; }
+function examView() {
+  const [it, x] = curExamItem();
+  const n = exam.items.length;
+  let h = '<div class="exam-wrap"><section class="card">';
+  h += `<div class="q-head"><strong>${esc(t('question', exam.pos + 1, n))}</strong><span class="muted small">${sectionName(x.section)}</span></div>`;
+  h += itemHTML(it, x.inst, x.resp, 'answer');
+  h += `<div class="bar"><span class="row"><button class="btn plain" data-act="prev" ${exam.pos === 0 ? 'disabled' : ''}>← ${esc(t('prev'))}</button><button class="btn plain" data-act="next" ${exam.pos === n - 1 ? 'disabled' : ''}>${esc(t('next'))} →</button></span><span class="row"><button class="btn ghost" data-act="flag">${esc(t(x.flag ? 'unflag' : 'flag'))}</button><button class="btn" data-act="submit">${esc(t('submit'))}</button></span></div>`;
+  h += '</section><aside class="card sheet">';
+  SECTIONS.forEach(sec => {
+    const idx = exam.items.map((y, i) => [y, i]).filter(([y]) => y.section === sec.id);
+    if (!idx.length) return;
+    h += `<h3>${esc(sectionTitle(sec.id))}</h3><div class="cells">`;
+    idx.forEach(([y, i]) => {
+      const yit = ITEMS.get(y.id);
+      const cls = (isBlank(yit, y.resp) ? '' : ' ans') + (y.flag ? ' flag' : '') + (i === exam.pos ? ' cur' : '');
+      h += `<button class="cell${cls}" data-act="jump" data-q="${i}" aria-label="${i + 1}">${i + 1}</button>`;
+    });
+    h += '</div>';
+  });
+  return h + '</aside></div>';
+}
+function startTimer() {
+  stopTimer();
+  const tick = () => {
+    const el = document.getElementById('timer');
+    if (!exam || !el) return;
+    const now = Date.now();
+    if (exam.endsAt) {
+      const left = exam.endsAt - now;
+      el.textContent = fmtTime(left);
+      el.classList.toggle('low', left < 5 * 60000);
+      if (left <= 0) { finishExam(true); }
+    } else el.textContent = fmtTime(now - exam.startedAt);
+  };
+  tick();
+  timerId = setInterval(tick, 1000);
+}
+function stopTimer() { if (timerId) { clearInterval(timerId); timerId = null; } }
+function confirmSubmit() {
+  const un = exam.items.filter(x => isBlank(ITEMS.get(x.id), x.resp)).length, fl = exam.items.filter(x => x.flag).length;
+  modal(t('confirmSubmit'), t('unanswered', un, fl), t('submit'), () => finishExam(false));
+}
+function finishExam(auto) {
+  stopTimer();
+  const now = Date.now();
+  exam.finishedAt = exam.endsAt ? Math.min(now, exam.endsAt) : now;
+  saveExam();
+  if (auto) toast(t('timeUp'));
+  const toMark = exam.items.filter(x => { const it = ITEMS.get(x.id); return written(it) && !isBlank(it, x.resp); });
+  if (toMark.length) go('mark'); else finalize();
+}
+function markView() {
+  let h = `<section class="card"><h2>${esc(t('markTitle'))}</h2><p class="muted">${esc(t('markIntro'))}</p></section>`;
+  exam.items.forEach((x, i) => {
+    const it = ITEMS.get(x.id);
+    if (!written(it) || isBlank(it, x.resp)) return;
+    h += `<section class="card" data-q="${i}"><div class="q-head"><strong>${esc(t('question', i + 1, exam.items.length))}</strong><span class="muted small">${sectionName(x.section)}</span></div>${itemHTML(it, x.inst, x.resp, 'mark')}</section>`;
+  });
+  return h + `<div class="bar"><span></span><button class="btn" data-act="finishmark">${esc(t('finishMarking'))}</button></div>`;
+}
+function evaluate(rows) {
+  const per = {};
+  SECTIONS.forEach(s => { per[s.id] = { earned: 0, max: 0, wrong: 0, n: 0 }; });
+  let earned = 0, max = 0;
+  rows.forEach(r => {
+    const p = per[r.section] || (per[r.section] = { earned: 0, max: 0, wrong: 0, n: 0 });
+    p.earned += r.earned; p.max += r.max; p.n += 1; if (!r.full) p.wrong += 1;
+    earned += r.earned; max += r.max;
+  });
+  const rule = (SPEC.paper || {}).pass || {};
+  const reasons = [];
+  if (rule.min_score != null && earned < rule.min_score) reasons.push({ k: 'rScore', a: [rule.min_score] });
+  if (rule.min_percent != null && max && 100 * earned / max < rule.min_percent) reasons.push({ k: 'rPercent', a: [rule.min_percent] });
+  Object.keys(per).forEach(sid => {
+    const p = per[sid];
+    if (!p.n) return;
+    if (rule.min_per_section != null && p.earned < rule.min_per_section) reasons.push({ k: 'rSection', a: [sid, rule.min_per_section] });
+    if (rule.max_wrong_per_section != null && p.wrong > rule.max_wrong_per_section) reasons.push({ k: 'rWrong', a: [sid, rule.max_wrong_per_section] });
+  });
+  const hasRule = ['min_score', 'min_percent', 'min_per_section', 'max_wrong_per_section'].some(k => rule[k] != null);
+  return { per, earned, max, reasons, pass: hasRule ? reasons.length === 0 : null };
+}
+function finalize() {
+  const rows = exam.items.map(x => {
+    const it = ITEMS.get(x.id);
+    const g = grade(it, x.inst, x.resp);
+    if (g.pending) { g.earned = 0; g.full = false; }
+    record(it, g.full);
+    return { id: x.id, v: x.v, section: x.section, inst: x.inst, resp: x.resp, earned: g.earned, max: g.max, full: g.full, blank: g.blank };
+  });
+  const ev = evaluate(rows);
+  const attempt = { uid: exam.startedAt.toString(36) + Math.random().toString(36).slice(2, 7), ts: exam.startedAt, duration: exam.finishedAt - exam.startedAt, mode: 'mock', items: rows, earned: ev.earned, max: ev.max, pass: ev.pass, reasons: ev.reasons };
+  const hist = getHistory(); hist.push(attempt); store.set('history', hist);
+  store.del('current'); exam = null;
+  viewing = attempt; go('results');
+}
+function resultsView(a) {
+  const ev = evaluate(a.items);
+  let h = `<section class="card"><h2>${esc(t('result'))}</h2><div class="big">${esc(t('score', fmtPts(a.earned), fmtPts(a.max)))}</div>`;
+  if (a.pass != null) h += `<p><span class="badge ${a.pass ? 'pass' : 'fail'}">${esc(t(a.pass ? 'passed' : 'failed'))}</span> ${a.reasons && a.reasons.length ? esc(t('reasons') + a.reasons.map(r => t(r.k, ...(r.k === 'rSection' || r.k === 'rWrong' ? [sectionTitle(r.a[0]), r.a[1]] : r.a))).join('; ')) : ''}</p>`;
+  h += `<p class="muted small">${esc(fmtDate(a.ts))} · ${esc(t('time'))} ${esc(fmtTime(a.duration || 0))}</p>`;
+  h += `<table class="t"><tr><th>${esc(t('section'))}</th><th>${esc(t('points'))}</th><th>${esc(t('wrongN'))}</th></tr>${Object.keys(ev.per).filter(s => ev.per[s].n).map(s => `<tr><td>${sectionName(s)}</td><td>${fmtPts(ev.per[s].earned)} / ${fmtPts(ev.per[s].max)}</td><td>${ev.per[s].wrong}</td></tr>`).join('')}</table>`;
+  const wrongIds = a.items.filter(r => !r.full && ITEMS.has(r.id)).map(r => r.id);
+  h += `<div class="bar"><button class="btn plain" data-act="home">${esc(t('home'))}</button><button class="btn" data-act="practisewrong" ${wrongIds.length ? '' : 'disabled'}>${esc(t('practiseThese'))}</button></div></section>`;
+  h += `<h2 style="font-size:1.05rem">${esc(t('review'))}</h2>`;
+  a.items.forEach((r, i) => {
+    const it = ITEMS.get(r.id);
+    h += `<section class="card"><div class="q-head"><strong>${esc(t('question', i + 1, a.items.length))} <span class="muted small">${esc(r.id)}</span></strong><span>${verdictBadge(r)}</span></div>`;
+    if (!it) { h += `<p class="muted">${esc(t('gone'))} (${esc(r.id)})</p></section>`; return; }
+    if ((it.version || 1) !== r.v) { h += `<p><span class="badge note">${esc(t('changed'))}</span></p></section>`; return; }
+    h += itemHTML(it, r.inst, r.resp, 'review');
+    if (it.kind === 'single' || it.kind === 'multi' || it.kind === 'combo' || it.kind === 'tf') h += `<p class="small muted">${esc(t('yourChoice', respLabel(it, r.inst, r.resp)))}</p>`;
+    h += '</section>';
+  });
+  return h;
+}
+function verdictBadge(r) {
+  if (r.full) return `<span class="badge pass">${esc(t('correct'))}</span>`;
+  if (r.earned > 0) return `<span class="badge note">${esc(t('partly', fmtPts(r.earned), fmtPts(r.max)))}</span>`;
+  return `<span class="badge fail">${esc(t('incorrect'))}</span>`;
+}
+
+// --- practice
+function startPractice(ids) {
+  practice = { queue: ids, pos: 0, inst: null, resp: null, checked: false, right: 0, done: 0 };
+  nextPractice(false);
+  go('practice');
+}
+function nextPractice(advance) {
+  if (advance) practice.pos += 1;
+  if (practice.pos >= practice.queue.length) { practice.inst = null; return; }
+  practice.inst = makeInst(ITEMS.get(practice.queue[practice.pos]));
+  practice.resp = null; practice.checked = false; practice.grade = null;
+}
+function practiceView() {
+  const p = practice;
+  if (!p.inst) {
+    return `<section class="card"><h2>${esc(t('finished'))}</h2><div class="big">${esc(t('summary', p.right, p.done))}</div><div class="bar"><button class="btn plain" data-act="home">${esc(t('home'))}</button><button class="btn" data-act="again">${esc(t('again'))}</button></div></section>`;
+  }
+  const it = ITEMS.get(p.queue[p.pos]);
+  let h = `<section class="card"><div class="q-head"><strong>${esc(t('question', p.pos + 1, p.queue.length))}</strong><span class="muted small">${sectionName(it.section)}</span></div>`;
+  if (!p.checked) {
+    h += itemHTML(it, p.inst, p.resp, 'answer');
+    h += `<div class="bar"><button class="btn plain" data-act="home">${esc(t('home'))}</button><button class="btn" data-act="check">${esc(t('check'))}</button></div>`;
+  } else if (written(it) && p.grade && p.grade.pending) {
+    h += itemHTML(it, p.inst, p.resp, 'mark');
+    h += `<div class="bar"><span></span><button class="btn" data-act="selfmarked">${esc(t('done'))}</button></div>`;
+  } else {
+    const g = p.grade;
+    const cls = g.full ? 'good' : (g.earned > 0 ? 'part' : 'bad');
+    const word = g.full ? t('correct') : (g.earned > 0 ? t('partly', fmtPts(g.earned), fmtPts(g.max)) : t('incorrect'));
+    h += `<div class="verdict ${cls}">${esc(word)}</div>`;
+    h += itemHTML(it, p.inst, p.resp, 'review');
+    h += `<div class="bar"><button class="btn plain" data-act="home">${esc(t('home'))}</button><button class="btn" data-act="pnext">${esc(t('next'))} →</button></div>`;
+  }
+  return h + '</section>';
+}
+function checkPractice() {
+  const it = ITEMS.get(practice.queue[practice.pos]);
+  practice.grade = grade(it, practice.inst, practice.resp);
+  practice.checked = true;
+  if (!practice.grade.pending) closePracticeItem(it);
+  render();
+}
+function closePracticeItem(it) {
+  record(it, practice.grade.full);
+  practice.done += 1;
+  if (practice.grade.full) practice.right += 1;
+}
+function practicePool() {
+  const pool = [...ITEMS.values()].filter(it => pracSel.has(String(it.section)));
+  const seen = getSeen();
+  let ids;
+  if (pracUnseen) ids = shuffle(pool.filter(it => !seen[it.id])).concat(shuffle(pool.filter(it => seen[it.id])));
+  else ids = shuffle(pool);
+  ids = ids.map(it => it.id);
+  return pracCount ? ids.slice(0, pracCount) : ids;
+}
+
+// ------------------------------------------------------------ history files
+function exportHistory() {
+  const data = { exam: SPEC.id || 'default', exported: new Date().toISOString(), history: getHistory(), wrong: getWrong(), seen: getSeen() };
+  const blob = new Blob([JSON.stringify(data, null, 1)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `${SPEC.id || 'exam'}-history-${new Date().toISOString().slice(0, 10)}.json`;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+}
+function importHistory(file) {
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const d = JSON.parse(reader.result);
+      if (!d || d.exam !== (SPEC.id || 'default') || !Array.isArray(d.history)) throw new Error('bad');
+      const hist = getHistory(), have = new Set(hist.map(a => a.uid));
+      const add = d.history.filter(a => a && a.uid && !have.has(a.uid));
+      store.set('history', hist.concat(add).sort((x, y) => x.ts - y.ts));
+      const w = getWrong(); Object.entries(d.wrong || {}).forEach(([id, e]) => { if (!w[id] && ITEMS.has(id)) w[id] = e; }); store.set('wrong', w);
+      const s = getSeen(); Object.entries(d.seen || {}).forEach(([id, n]) => { s[id] = Math.max(s[id] || 0, n); }); store.set('seen', s);
+      toast(t('imported', add.length)); render();
+    } catch (e) { toast(t('badFile')); }
+  };
+  reader.readAsText(file);
+}
+
+// ------------------------------------------------------------ events
+function setResp(el) {
+  if (view === 'exam') {
+    const [it, x] = curExamItem();
+    x.resp = applyAction(it, x.inst, x.resp, el);
+    saveExam();
+  } else if (view === 'practice' && practice && practice.inst) {
+    const it = ITEMS.get(practice.queue[practice.pos]);
+    practice.resp = applyAction(it, practice.inst, practice.resp, el);
+  } else if (view === 'mark') {
+    const card = el.closest('[data-q]');
+    const x = exam.items[+card.dataset.q];
+    x.resp = applyAction(ITEMS.get(x.id), x.inst, x.resp, el);
+    saveExam();
+    return;
+  }
+}
+document.addEventListener('click', e => {
+  const el = e.target.closest('[data-act]');
+  if (!el || el.disabled) return;
+  const act = el.dataset.act;
+  if (['pick', 'tf', 'up', 'down'].includes(act)) { setResp(el); render(); return; }
+  if (['tick', 'level'].includes(act)) {
+    if (view === 'practice') { const it = ITEMS.get(practice.queue[practice.pos]); practice.resp = applyAction(it, practice.inst, practice.resp, el); }
+    else setResp(el);
+    return;
+  }
+  switch (act) {
+    case 'home': go('home'); break;
+    case 'mock': startMock(); break;
+    case 'resume': exam = loadExam(); if (exam) { if (exam.finishedAt) { go('mark'); } else go('exam'); } else render(); break;
+    case 'discard': modal(t('discard'), '', t('discard'), () => { store.del('current'); render(); }, true); break;
+    case 'prev': exam.pos = Math.max(0, exam.pos - 1); saveExam(); render(); break;
+    case 'next': exam.pos = Math.min(exam.items.length - 1, exam.pos + 1); saveExam(); render(); break;
+    case 'jump': exam.pos = +el.dataset.q; saveExam(); render(); break;
+    case 'flag': curExamItem()[1].flag = !curExamItem()[1].flag; saveExam(); render(); break;
+    case 'submit': confirmSubmit(); break;
+    case 'finishmark': finalize(); break;
+    case 'open': viewing = getHistory().find(a => a.uid === el.dataset.u); if (viewing) go('results'); break;
+    case 'practisewrong': startPractice(viewing.items.filter(r => !r.full && ITEMS.has(r.id)).map(r => r.id)); break;
+    case 'secall': pracSel = pracSel.size === SECTIONS.length ? new Set() : new Set(SECTIONS.map(s => s.id)); render(); break;
+    case 'sec': { const s = el.dataset.s; pracSel.has(s) ? pracSel.delete(s) : pracSel.add(s); render(); break; }
+    case 'practice': startPractice(practicePool()); break;
+    case 'wrongbook': startPractice(shuffle(Object.keys(getWrong()).filter(id => ITEMS.has(id)))); break;
+    case 'check': checkPractice(); break;
+    case 'selfmarked': { const it = ITEMS.get(practice.queue[practice.pos]); const r = practice.resp || {}; practice.grade = grade(it, practice.inst, Object.assign({ marks: 0 }, r)); closePracticeItem(it); render(); break; }
+    case 'pnext': nextPractice(true); render(); window.scrollTo(0, 0); break;
+    case 'again': startPractice(shuffle(practice.queue)); break;
+    case 'export': exportHistory(); break;
+    case 'clear': modal(t('clearH'), t('confirmClear'), t('del'), () => { ['history', 'wrong', 'seen', 'current'].forEach(k => store.del(k)); render(); }, true); break;
+  }
+});
+document.addEventListener('change', e => {
+  const el = e.target.closest('[data-act]');
+  if (!el) return;
+  const act = el.dataset.act;
+  if (act === 'lang') { prefs.lang = el.value; store.set('prefs', prefs); render(); }
+  else if (act === 'theme') { prefs.theme = el.value; store.set('prefs', prefs); render(); }
+  else if (act === 'pcount') { pracCount = +el.value; }
+  else if (act === 'punseen') { pracUnseen = el.checked; }
+  else if (act === 'import' && el.files && el.files[0]) { importHistory(el.files[0]); el.value = ''; }
+  else if (act === 'match') { setResp(el); if (view === 'exam') render(); }
+  else if (act === 'cloze' && el.tagName === 'SELECT') { setResp(el); }
+});
+document.addEventListener('input', e => {
+  const el = e.target.closest('[data-act]');
+  if (!el) return;
+  if (['cloze', 'num', 'write'].includes(el.dataset.act)) {
+    setResp(el);
+    if (view === 'exam') {
+      const [it, x] = curExamItem();
+      const cell = document.querySelector(`.cell[data-q="${exam.pos}"]`);
+      if (cell) cell.classList.toggle('ans', !isBlank(it, x.resp));
+    }
+  }
+});
+document.addEventListener('keydown', e => {
+  if (e.target.closest('input, textarea, select') || e.ctrlKey || e.metaKey || e.altKey) return;
+  if (document.querySelector('.modal-back')) return;
+  if (e.key === 'Enter' && e.target.closest('[data-act="home"]')) { go('home'); return; }
+  if (view === 'exam' && exam) {
+    const [it, x] = curExamItem();
+    if (e.key === 'ArrowLeft' && exam.pos > 0) { exam.pos--; saveExam(); render(); return; }
+    if (e.key === 'ArrowRight' && exam.pos < exam.items.length - 1) { exam.pos++; saveExam(); render(); return; }
+    if (e.key.toLowerCase() === 'f') { x.flag = !x.flag; saveExam(); render(); return; }
+    const c = keyChoice(e, it, x.inst);
+    if (c) { x.resp = applyAction(it, x.inst, x.resp, { dataset: { act: c.act, i: c.i, v: c.v } }); saveExam(); render(); }
+  } else if (view === 'practice' && practice && practice.inst) {
+    const it = ITEMS.get(practice.queue[practice.pos]);
+    if (e.key === 'Enter') { if (!practice.checked) checkPractice(); else if (!(practice.grade && practice.grade.pending)) { nextPractice(true); render(); } return; }
+    if (!practice.checked) { const c = keyChoice(e, it, practice.inst); if (c) { practice.resp = applyAction(it, practice.inst, practice.resp, { dataset: { act: c.act, i: c.i, v: c.v } }); render(); } }
+  }
+});
+
+// ------------------------------------------------------------ start
+exam = null;
+render();
+})();
+</script>
+</body>
+</html>

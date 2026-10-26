@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: policy-mcq-mock-exam
+expected_outcome: |
+  An offline HTML mock exam of 20 single-answer, four-option questions drawn only from the policy, timed at 30 minutes with an 80% pass mark, plus a separate answer key that explains each answer with the policy section it rests on. Keys are correct and unique; distractors are wrong on substance rather than by overstatement; the key is not given away by length or wording.
+context:
+  scaffold_script: place-files.sh
