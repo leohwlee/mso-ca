@@ -103,6 +103,11 @@ transactions of 120,000 or more" is still true (every such transaction is over
 impose). Where a person *may* apply within 14 days, "may apply within 7 days" is
 implied. Either avoid such statements or key them true on purpose and say why.
 
+**The exclusion rule.** An exclusion does not state its converse. "Opened
+cartridges cannot be returned" does not say a sealed spare can be, unless the
+source also says what the main rule covers. Do not key a statement on the
+converse; pick another trap, or raise the gap with the owner.
+
 **Write some true statements that look wrong**: an accurate "must", a rule that
 surprises, a narrow-sounding item that the source really lists. Otherwise "the
 surprising one is false" becomes a tell.
@@ -148,6 +153,12 @@ literalness (`added`, `qualifier`, `modal`).
   "holds 1.2 litres") gives it away; so does a figure quoted in passing in
   another stem. `bank_tool.py check` warns of near-identical statements keyed
   opposite ways; read across the paper for the rest yourself.
+- With written questions on the same paper, list each one's scoring points
+  first and keep every true/false or option statement off them: a statement
+  that asserts a point, or a premise the mark scheme rewards ("the light
+  reaction needs light" beside a question that scores that premise), hands over
+  marks. When you notice such an overlap, rewrite one of the two; a "weak
+  residual hint" is still a giveaway.
 
 ## Explanations
 
@@ -211,7 +222,10 @@ the direction differed between languages, so measure rather than assume.
    remove that.
 9. **Copied wording.** A key lifted from the source among reworded distractors,
    or a true statement that is the source's sentence cut down or joined, is
-   found by matching. `bank_tool.py check` warns of both from the stored quotes.
+   found by matching. `bank_tool.py check` warns of both from the stored quotes:
+   a key that copies 6 or more consecutive words (10 CJK characters) of its quote,
+   two words (three characters) more than any distractor; a true statement whose
+   text is 80% its quote's, or that repeats a whole clause of it.
 
 State the ceiling with every percentage: the strongest surface-feature guesser in
 the reference bank averaged 11.7 of 35 over 4,000 simulated papers against a pass

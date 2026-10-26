@@ -83,13 +83,14 @@ def main():
 
     # Notes that echo a false statement's wrong version are caught; the template's own notes are not.
     template = (HERE.parent / "assets" / "notes-template.html").read_text(encoding="utf-8")
-    leak = '<aside class="trap">Saying a lost card must be reported to the library within 14 days gets it wrong.</aside>'
+    leak = ('<aside class="trap"><span lang="en">Saying a lost card must be reported to the library within 14 days gets it wrong.</span>'
+            '<span lang="zh-Hant">說遺失圖書證須於14日內向圖書館報失是錯的。</span></aside>')
     with tempfile.TemporaryDirectory() as tmp:
         clean, leaky = Path(tmp) / "clean.html", Path(tmp) / "leaky.html"
         clean.write_text(template, encoding="utf-8")
         leaky.write_text(template.replace("</main>", leak + "</main>"), encoding="utf-8")
-        said = lambda page: any("echo a false statement" in m for _, m in bt.check(spec, bank, notes=page).warnings)  # noqa: E731
-        ok(said(leaky) and not said(clean), "warns of notes that echo a false statement")
+        said = lambda page: {m.split(":")[0] for _, m in bt.check(spec, bank, notes=page).warnings if "echo a false statement" in m}  # noqa: E731
+        ok(said(leaky) == {"en", "zh-Hant"} and not said(clean), "warns of notes that echo a false statement, in each language of a bilingual page")
 
     # Generated option sets: exactly one equals the true set; all/none last; symmetric sizes.
     rng = random.Random(3)

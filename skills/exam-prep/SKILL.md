@@ -313,7 +313,9 @@ Every item, in every format:
   as true, elsewhere in the bank. A new application of a known rule is welcome
   when the decision turns on different facts; a restatement is not new coverage.
   Nor may one item answer another on the same paper ("holds 4 litres" keyed true
-  beside "holds 1.2 litres" keyed false).
+  beside "holds 1.2 litres" keyed false), and no statement may assert a scoring
+  point, or a premise the mark scheme rewards, of a written question on that
+  paper. An overlap you notice is rewritten, not shipped as a "weak hint".
 - **Parity.** Keep options (or statements) in one length band, trimming the key
   rather than padding distractors. Put absolutes, negations and hedges on true and
   false statements alike.

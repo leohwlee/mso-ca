@@ -29,7 +29,7 @@ from pathlib import Path
 KINDS = {"single", "multi", "tf", "combo", "match", "order", "cloze", "numeric", "short", "essay"}
 OBJECTIVE = KINDS - {"short", "essay"}
 ALL, NONE = "all", "none"
-TRAP_CODES = {"offlist", "added", "scope", "reversed", "qualifier", "number", "period",
+TRAP_CODES = {"offlist", "added", "scope", "reversed", "qualifier", "degree", "number", "period",
               "actor", "modal", "name", "condition"}
 
 # ---------------------------------------------------------------- loading
@@ -628,9 +628,10 @@ def page_segments(page):
 def notes_leaks(rep, spec, bank, page):
     """False statements the notes repeat with their defect: a trap note that quotes
     the wrong version turns practice into recognition."""
-    segs = [seq_tokens(s) for s in page_segments(page)]
-    segs = [s for s in segs if s]
-    if not segs:
+    # a bilingual paragraph holds both languages: read it the way each statement is written
+    texts = page_segments(page)
+    by_script = {True: [seq_tokens(s, cjk=True) for s in texts], False: [seq_tokens(s, cjk=False) for s in texts]}
+    if not texts:
         return
     for item in bank["items"]:
         k = item.get("kind")
@@ -664,7 +665,7 @@ def notes_leaks(rep, spec, bank, page):
                     return sum(m.size for m in difflib.SequenceMatcher(None, a, win, autojunk=False).get_matching_blocks() if m.size >= 2) / len(a)
                 need = set(wrong)
                 width, step = len(wrong) + len(wrong) // 2, max(1, len(wrong) // 3)
-                windows = (seg[i:i + width] for seg in segs for i in range(0, max(1, len(seg) - len(wrong) + 1), step))
+                windows = (seg[i:i + width] for seg in by_script[cjk] if seg for i in range(0, max(1, len(seg) - len(wrong) + 1), step))
                 for win in windows:
                     if len(need & set(win)) < 0.6 * len(need):
                         continue
@@ -729,10 +730,10 @@ def near_twins(rep, statements, ratio=0.8):
                     rep.warn(iid, f"{lang}: a statement keyed {truth} nearly repeats one keyed {jtruth} in {jid}; on one paper either gives the other away")
 
 
-def seq_tokens(text):
-    """The text as a sequence: characters for CJK, words otherwise."""
+def seq_tokens(text, cjk=None):
+    """The text as a sequence: characters for CJK, words otherwise (or as `cjk` says)."""
     t = norm(text).lower()
-    if is_cjk(t):
+    if is_cjk(t) if cjk is None else cjk:
         return [c for c in t if c.isalnum()]
     return re.findall(r"\w+", t)
 
@@ -779,8 +780,10 @@ def copied_from_quotes(rep, spec, bank):
                 kj = max(keys, key=lambda j: run(opts[j]))
                 kr = run(opts[kj])
                 dr = max(run(o) for j, o in enumerate(opts) if j not in keys)
-                if kr >= floor(opts[kj]) and dr < kr / 2:
-                    rep.warn(iid, f"{lang}: the key copies {kr} consecutive {'characters' if is_cjk(opts[kj]) else 'words'} of its quote and no distractor copies half as many; paraphrase it")
+                margin = 3 if is_cjk(opts[kj]) else 2
+                if kr >= floor(opts[kj]) and dr <= kr - margin:
+                    unit = "characters" if is_cjk(opts[kj]) else "words"
+                    rep.warn(iid, f"{lang}: the key copies {kr} consecutive {unit} of its quote, {kr - dr} more than any distractor; paraphrase it")
             elif k in ("combo", "tf"):
                 pairs = list(zip(f.get("statements") or [], item.get("truth") or [])) if k == "combo" else [(f.get("stem"), item.get("answer"))]
                 for n, (s, truth) in enumerate(pairs, 1):
