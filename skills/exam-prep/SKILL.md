@@ -102,8 +102,9 @@ flashcards", "a mock paper from chapter 5".
 4. **Check**: `bank_tool.py check` (with `--sources` if you extracted the text,
    and `--notes` when you made notes), then answer every item yourself once from
    a `packet` with the key hidden, and `compare`. Fix what that finds and
-   re-answer only the items you changed; a second full round, and the tells
-   report below 20 items, cost more than they find at this scale.
+   re-answer only the items you changed. Look at each page you built once, at
+   one desktop and one phone width; at this scale a second full round, the tells
+   report below 20 items and sets of screenshots cost more than they find.
 5. **Deliver exactly what was asked, in the form asked**: the app
    (`build_app.py`) when they want an exam to sit on screen, a paper and key
    (`bank_tool.py paper`) when they want something to print or check, notes from
@@ -306,6 +307,9 @@ Every item, in every format:
 - **Paraphrase true statements**, keeping every qualifier. A true statement
   copied word for word from the source can be recognised by matching rather than
   understood, and next to reworded false statements it becomes a tell.
+  Paraphrase means a new structure (another subject, another clause order, or a
+  consequence the source implies); synonyms swapped into the source's own
+  sentence are still a copy.
 - **Statements and options stand alone**: no "statement 2", "the above", "the
   former", nothing that breaks when the app shuffles them. Frequency words
   ("usually", "often") appear only where the source uses them.

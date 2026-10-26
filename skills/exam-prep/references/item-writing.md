@@ -48,7 +48,11 @@ Contents: [Stems](#stems) · [Keys and distractors](#keys-and-distractors) ·
   chloroplast) is eliminated without knowing the rule.
 - **Paraphrase keys and true statements.** Keep every qualifier, but do not copy
   the sentence: a verbatim key is found by matching, and among reworded
-  distractors it stands out.
+  distractors it stands out. Change the structure, not just the words: "when
+  temperature is too high, enzyme activity falls and so does the rate" is still
+  the source's sentence with synonyms in it; "the rate drops in excessive heat
+  because the enzymes slow down" is a paraphrase. The bundled check catches
+  copied runs, not synonym swaps, so read for these yourself.
 - **Verify invented falsehoods.** A distractor wrong on substance carries an
   invented fact. Check it is not true somewhere else in the material, or under
   another permitted route.

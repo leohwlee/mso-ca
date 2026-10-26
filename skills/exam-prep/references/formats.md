@@ -72,7 +72,7 @@ Fields every item has:
 
 | Field | Meaning |
 |---|---|
-| `id` | Stable and never reused, e.g. `"2-014"`. Retired ids go in `spec.retired_ids`. |
+| `id` | Stable and never reused, e.g. `"2-014"`. Retired ids go in `spec.retired_ids`. The app shows it, so where the source numbers its own sections, choose ids nobody can mistake for a clause number (`"P4-02"`, or the source's own section number). |
 | `section` | A section id from the spec. |
 | `kind` | One of the kinds below. |
 | `version` | Integer, default 1. Raise it whenever meaning, truth, key or option set changes. |
@@ -139,7 +139,12 @@ the statements, so the checks can re-derive it.
   chosen with odds proportional to how many members of the key's size it has, and
   the key is placed on a random member of its size.
 - **An examiner's printed block** is reproduced verbatim and its order kept:
-  mark such items `fixed: true` and give `options` yourself.
+  mark such items `fixed: true` and give `options` yourself. Work out what the
+  block allows and tell the owner the consequence: "1, 2 and 3 / 1, 2 and 4 /
+  2, 3 and 4 / 1, 3 and 4 / all" allows no false statement or exactly one, so a
+  candidate who spots one false statement can answer without judging the other
+  three. Ask whether the real paper varies its block before treating it as
+  fixed.
 - **All and none.** `"all"` means every statement is true; `"none"` that none is.
   When present they are the last option. A shuffle never moves them.
 - **Vary the number of false statements.** Aim at a spread (for example, roughly
