@@ -1,6 +1,6 @@
 # MSO Competence Assessment — Study and Practice
 
-[繁體中文](README.zh-Hant.md) · [Download the study bundle](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [Release notes](CHANGELOG.md)
+[繁體中文](README.zh-Hant.md) · [Download the study bundle](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [Release notes](CHANGELOG.md) · [The exam-prep skill](skills/exam-prep/README.md)
 
 **Seven-part study notes and 588 combination questions** for the Hong Kong Money
 Service Operator Competence Assessment. Read and practise offline in Traditional
@@ -101,13 +101,42 @@ for earlier changes to the bank.
 
 [Source-by-source accounting](docs/QUESTION-SOURCES.md) · [Current review evidence](bank/audit/ACTIVE-SCOPE.md)
 
+## Make your own: the exam-prep skill
+
+The method behind this bank is packaged as **[exam-prep](skills/exam-prep/README.md)**,
+a general-purpose Agent Skill. Give a coding agent any document or copy, and it
+returns revision notes, practice questions or an offline mock exam, in any
+subject, language and exam format. Examples:
+- a policy made into an onboarding quiz;
+- a textbook chapter made into notes and true/false items;
+- product copy made into certification practice.
+
+The same model was tested side by side with and without the skill, on three
+such requests, over five rounds of tightening checks:
+
+| Request | With the skill | Without |
+|---|---|---|
+| Policy → offline mock exam | 11/11 | 10/11 |
+| Chinese handout → notes and true/false | 12/13 | 9/13 |
+| Product copy → combination items | 11/12 | 6/12 |
+
+Without the skill, the same model:
+- copied the source into keys;
+- let one question give away another;
+- wrote notes that turned "mainly" into "only";
+- wrote notes that spelled out every false statement.
+
+The [skill's page](skills/exam-prep/README.md) has the scenarios it suits, what
+makes it different, the full test results and the cost. The download is
+[exam-prep-v3.0.0.zip](https://github.com/leohwlee/mso-ca/releases/download/exam-prep-v3.0.0/exam-prep-v3.0.0.zip).
+
 ## Documentation and maintenance
 
 - **Seven-part study notes:** Included in the study bundle from v1.10.0. [Source and reading pages](revision/study-notes/index.html) contain concepts, definitions, conditions and exceptions from originals 01–26, with actual filename citations. The bank is used only to check omissions. See [scope and maintenance](revision/study-notes/README.md).
 - **Study:** [User guide](docs/USAGE.md) and [26-document reading order](docs/README.md).
 - **Build and check:** [Development guide](DEVELOPMENT.md).
 - **Write or review questions:** [Question format](bank/FORMAT.md), [source maintenance](docs/SOURCE-MAINTENANCE.md) and [agent-neutral authoring workflow](docs/authoring/exam-prep/GUIDE.md).
-- **Make study material from other documents:** the [exam-prep skill](skills/exam-prep/README.md) is a general-purpose Agent Skill distilled from this repository. It turns any documents or copy into study notes, practice questions and mock exams, in any subject, language or exam format. This bank's own rules stay in the question format and authoring workflow above.
+- **Make study material from other documents:** the [exam-prep skill](skills/exam-prep/README.md), described [above](#make-your-own-the-exam-prep-skill). This bank's own rules stay in the question format and authoring workflow.
 - **Find other documentation:** [Documentation index](docs/INDEX.md).
 
 Any human or coding agent can begin with [AGENTS.md](AGENTS.md). No particular

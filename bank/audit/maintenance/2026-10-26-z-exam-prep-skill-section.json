@@ -1,0 +1,18 @@
+{
+  "status": "verified",
+  "date": "2026-10-26",
+  "reason": "Gives the exam-prep skill (skills/exam-prep/, merged in #39) its own section in README.md and README.zh-Hant.md, as the owner asked on 26 October 2026: what the skill does, the round-five results of its with/without-skill tests, and links to the skill's page and to its separate release, exam-prep-v3.0.0. The header link row gains a link to the skill, and the earlier documentation bullet now points to the new section. The skill's own README files are not bound. Preserves the previous bytes of both files; the question bank, answers, quotes, scoring, the app, notes content and source originals are unchanged by this record.",
+  "archive": "bank/audit/history/2026-10-26-before-exam-prep-skill-section.zip",
+  "archive_sha256": "eb344cdef210c79001568e5baebd27f203d37d7ae1e6b350646c49036d965790",
+  "archive_updates": {
+    "README.md": {
+      "before_sha256": "fca0f2e7f6963efd399d7629686b367fa878a90a042d00bd77d25cd408faf571",
+      "after_sha256": "5fb5af73f2bca6549383978c43aebefa38489b38170b244f66a5b2a76bb98048"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "74dd655f0db5ef09b866df734d9ad7d5384e7e4365c347bfaf2415baa351174d",
+      "after_sha256": "8e18ff9a89bf32d1dc81110d3507afd89141586d655cb23045cc864f1bd9f6d2"
+    }
+  },
+  "documentation_updates": {}
+}
