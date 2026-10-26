@@ -1,6 +1,6 @@
 # 金錢服務經營者能力評核 — 溫習與練習
 
-[English](README.md) · [下載完整學習包](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [版本更新](CHANGELOG.md)
+[English](README.md) · [下載完整學習包](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [版本更新](CHANGELOG.md) · [exam-prep 技能](skills/exam-prep/README.zh-Hant.md)
 
 **七部分溫習筆記及588道組合題**，用於準備香港金錢服務經營者能力評核。
 筆記及練習均可離線使用，提供繁體中文、英文及雙語。選定來源為
@@ -78,12 +78,39 @@ v1.13.0將題庫增至588題：新增36道已盲審題目，錯誤陳述都只�
 
 [逐份來源對照](docs/QUESTION-SOURCES.zh-Hant.md) · [現行覆核證據](bank/audit/ACTIVE-SCOPE.md)
 
+## 自己製作：exam-prep 技能
+
+本題庫背後的方法已整理成通用的 Agent Skill **[exam-prep](skills/exam-prep/README.zh-Hant.md)**。
+把任何文件或文案交給編程代理，它就會做出溫習筆記、練習題或離線模擬試，不限科目、
+語言及考試形式。例如：
+- 把政策做成入職測驗；
+- 把課本章節做成筆記及判斷題；
+- 把產品文案做成認證練習題。
+
+同一個模型在使用及不使用技能的情況下，就三個這類要求做了對照測試，檢查項目
+經五輪逐步收緊：
+
+| 要求 | 使用技能 | 不使用 |
+|---|---|---|
+| 政策 → 離線模擬試 | 11/11 | 10/11 |
+| 中文講義 → 筆記及判斷題 | 12/13 | 9/13 |
+| 產品文案 → 組合題 | 11/12 | 6/12 |
+
+不使用技能時，同一個模型：
+- 把原文照抄成答案；
+- 讓一題洩露另一題；
+- 筆記把「主要」寫成「只」；
+- 筆記寫出每一條錯誤陳述。
+
+[技能頁面](skills/exam-prep/README.zh-Hant.md)載有適用情境、與別不同之處、完整測試結果及成本。
+下載：[exam-prep-v3.0.0.zip](https://github.com/leohwlee/mso-ca/releases/download/exam-prep-v3.0.0/exam-prep-v3.0.0.zip)。
+
 ## 文件及維護
 
 - **開始溫習：** [使用指南](docs/USAGE.zh-Hant.md)、[26份資料閱讀順序](docs/README.zh-Hant.md)。
 - **建立及檢查程式：** [開發說明](DEVELOPMENT.zh-Hant.md)。
 - **出題及覆核：** [題目格式](bank/FORMAT.md)、[來源維護](docs/SOURCE-MAINTENANCE.zh-Hant.md)、[通用編寫流程](docs/authoring/exam-prep/GUIDE.md)。
-- **用其他文件製作溫習資料：** [exam-prep 技能](skills/exam-prep/README.zh-Hant.md)是從本 repo 提煉的通用 Agent Skill，可把任何文件或文案變成溫習筆記、練習題及模擬試，不限科目、語言或考試形式。本題庫自身的規則仍以上述題目格式及編寫流程為準。
+- **用其他文件製作溫習資料：** 見上文的 [exam-prep 技能](#自己製作exam-prep-技能)。本題庫自身的規則仍以題目格式及編寫流程為準。
 - **查找其他說明：** [文件索引](docs/INDEX.md)。
 
 任何人工維護者或編程代理均可從[AGENTS.md](AGENTS.md)開始，無須指定代理、外掛或專用指令。
