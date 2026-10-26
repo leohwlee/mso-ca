@@ -107,6 +107,7 @@ for earlier changes to the bank.
 - **Study:** [User guide](docs/USAGE.md) and [26-document reading order](docs/README.md).
 - **Build and check:** [Development guide](DEVELOPMENT.md).
 - **Write or review questions:** [Question format](bank/FORMAT.md), [source maintenance](docs/SOURCE-MAINTENANCE.md) and [agent-neutral authoring workflow](docs/authoring/exam-prep/GUIDE.md).
+- **Make study material from other documents:** the [exam-prep skill](skills/exam-prep/README.md) is a general-purpose Agent Skill distilled from this repository. It turns any documents or copy into study notes, practice questions and mock exams, in any subject, language or exam format. This bank's own rules stay in the question format and authoring workflow above.
 - **Find other documentation:** [Documentation index](docs/INDEX.md).
 
 Any human or coding agent can begin with [AGENTS.md](AGENTS.md). No particular

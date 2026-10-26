@@ -83,6 +83,7 @@ v1.13.0將題庫增至588題：新增36道已盲審題目，錯誤陳述都只�
 - **開始溫習：** [使用指南](docs/USAGE.zh-Hant.md)、[26份資料閱讀順序](docs/README.zh-Hant.md)。
 - **建立及檢查程式：** [開發說明](DEVELOPMENT.zh-Hant.md)。
 - **出題及覆核：** [題目格式](bank/FORMAT.md)、[來源維護](docs/SOURCE-MAINTENANCE.zh-Hant.md)、[通用編寫流程](docs/authoring/exam-prep/GUIDE.md)。
+- **用其他文件製作溫習資料：** [exam-prep 技能](skills/exam-prep/README.zh-Hant.md)是從本 repo 提煉的通用 Agent Skill，可把任何文件或文案變成溫習筆記、練習題及模擬試，不限科目、語言或考試形式。本題庫自身的規則仍以上述題目格式及編寫流程為準。
 - **查找其他說明：** [文件索引](docs/INDEX.md)。
 
 任何人工維護者或編程代理均可從[AGENTS.md](AGENTS.md)開始，無須指定代理、外掛或專用指令。

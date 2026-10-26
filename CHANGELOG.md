@@ -1,5 +1,10 @@
 # Release notes / 版本更新
 
+## Unreleased
+
+- Adds [`skills/exam-prep/`](skills/exam-prep/README.md), a general-purpose Agent Skill distilled from this repository's history. It turns any documents or copy into study notes, practice questions and mock exams, in any subject, language or exam format, and brings its own checks, an offline mock-exam app, a notes template and three behaviour tests. The README and the documentation index link to it. The question bank, the app, the notes and the source originals are unchanged.
+- 新增 [`skills/exam-prep/`](skills/exam-prep/README.zh-Hant.md)：從本 repo 發展歷程提煉的通用 Agent Skill，可把任何文件或文案變成溫習筆記、練習題及模擬試，不限科目、語言或考試形式，並附檢查工具、離線模擬試應用程式、筆記範本及三個行為測試。README 及文件索引已加入連結。題庫、應用程式、筆記及來源原件均不變。
+
 ## v1.13.4 — 24 October 2026
 
 - The mock exam's start and end times now come from one clock reading. They were two separate readings, so when they straddled a millisecond the paper ended 1 ms after the 75 minutes and the test of the exam length failed now and then (the v1.13.3 Release run had to be re-run for this). Nothing else changes.

@@ -21,6 +21,7 @@
 | Follow the question schema and exam rules / 題目格式及評分規則 | [Question format](../bank/FORMAT.md) |
 | Maintain editions, numbering and evidence / 維護版本、編號及證據 | [Source maintenance](SOURCE-MAINTENANCE.md) · [來源維護](SOURCE-MAINTENANCE.zh-Hant.md) |
 | Author and independently review / 編寫及獨立覆核 | [Agent-neutral workflow](authoring/exam-prep/GUIDE.md) |
+| Make study material from other documents / 用其他文件製作溫習資料 | [exam-prep skill](../skills/exam-prep/README.md) · [exam-prep 技能](../skills/exam-prep/README.zh-Hant.md) |
 | Verify this expansion / 核驗本次擴充 | [Current scope audit](../bank/audit/ACTIVE-SCOPE.md) · [Review packets](../bank/batches/active26/README.md) |
 | Understand rights / 內容權利 | [Content licensing](../LICENSE-CONTENT.md) |
 
