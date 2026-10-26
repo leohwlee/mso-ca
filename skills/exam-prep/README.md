@@ -132,10 +132,12 @@ reads, so anyone can re-run them.
 
 ## Install
 
-Download [exam-prep-v3.0.0.zip](https://github.com/leohwlee/mso-ca/releases/download/exam-prep-v3.0.0/exam-prep-v3.0.0.zip)
-and unzip it into your agent's skills folder. For Claude Code, use one of:
-- `~/.claude/skills/exam-prep/`, for all projects;
-- `<project>/.claude/skills/exam-prep/`, for one project.
+Download [exam-prep-v3.0.0.zip](https://github.com/leohwlee/mso-ca/releases/download/exam-prep-v3.0.0/exam-prep-v3.0.0.zip).
+It holds one folder, `exam-prep/`. For Claude Code, unzip it into one of:
+- `~/.claude/skills/`, for all projects;
+- `<project>/.claude/skills/`, for one project.
+
+Either way, `SKILL.md` should end up at `.../skills/exam-prep/SKILL.md`.
 
 Then ask in plain words, for example:
 "Turn these PDFs into revision notes and a 40-question mock exam".

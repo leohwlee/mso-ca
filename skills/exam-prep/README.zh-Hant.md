@@ -116,10 +116,12 @@ Aiken 或 Anki。
 
 ## 安裝
 
-下載 [exam-prep-v3.0.0.zip](https://github.com/leohwlee/mso-ca/releases/download/exam-prep-v3.0.0/exam-prep-v3.0.0.zip)，
-解壓到代理的技能資料夾。Claude Code 可用以下其中一個：
-- `~/.claude/skills/exam-prep/`：所有項目適用；
-- `<項目>/.claude/skills/exam-prep/`：只限單一項目。
+下載 [exam-prep-v3.0.0.zip](https://github.com/leohwlee/mso-ca/releases/download/exam-prep-v3.0.0/exam-prep-v3.0.0.zip)。
+壓縮檔內只有一個資料夾 `exam-prep/`。使用 Claude Code 時，解壓到以下其中一處：
+- `~/.claude/skills/`：所有項目適用；
+- `<項目>/.claude/skills/`：只限單一項目。
+
+無論哪一處，`SKILL.md` 都應位於 `.../skills/exam-prep/SKILL.md`。
 
 然後直接提出要求，例如：「把這些 PDF 做成溫習筆記和一份 40 題的模擬試」。
 
