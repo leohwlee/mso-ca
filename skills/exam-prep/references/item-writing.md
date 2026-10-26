@@ -81,12 +81,19 @@ the paraphrased true statements beside it.
 | `scope` | The rule widened or narrowed | "every licensee, **with or without** premises, must keep a local office" |
 | `reversed` | The rule turned around | "the duty **does not** cover a suspicion raised internally but not yet reported" when it does |
 | `qualifier` | A limiting condition dropped | "independent of all operational functions", without "subject to the size of the firm" |
+| `degree` | The source's own degree, frequency or duration word moved | *mainly* → *only*; *least* → *not at all*; *no longer rises* → *falls*; *only briefly* → *for a long time*; *about 3/4* → *3/4* |
 | `number` | A sum, share, dose or threshold changed so that the statement claims what the source does not | 25% for 10%; 500 mg for 250 mg |
 | `period` | A time limit changed, on the same test as `number` | within one month for within 7 days; 5 years for 3 years |
 | `actor` | The duty or power given to the wrong person or body | the compliance officer for the reporting officer; the regulator for the intelligence unit |
 | `modal` | must / should / may changed, or reduce / avoid / eliminate | "eliminate the risk" for "mitigate the risk" |
 | `name` | A near-identical name of a body, law, form or concept | "Joint Financial *Investigation* Unit" for "Joint Financial *Intelligence* Unit" |
 | `condition` | The rule moved to the wrong case | a rule for wire transfers applied to a transfer that is not one |
+
+**Spend the source's degree words on false statements.** Where the source grades
+its own claims and the owner wants detail traps, aim about half the false
+statements at those words (`degree`). Keeping a section for a short answer is no
+reason to leave its degree words untested: test a different point of the same
+section in the true/false items, so neither answers the other.
 
 **The implication rule.** A changed number or period makes a statement false
 only if the source no longer implies it. Where the source requires
@@ -133,7 +140,9 @@ literalness (`added`, `qualifier`, `modal`).
 - Where the source has rules on dates, quantities or conditions, at least two
   items should open with a situation, even in a fact-statement format: a
   combination stem can give the customer's facts and ask which statements are
-  correct about them. One scenario statement inside a recall item is not one.
+  correct about them. The situation should decide at least two of the item's
+  statements; one scenario statement inside a recall item is not a scenario
+  item.
 - No item may answer another: in a case set, or anywhere on one paper. A true
   statement that restates another item's falsified one ("holds 4 litres" beside
   "holds 1.2 litres") gives it away; so does a figure quoted in passing in
@@ -192,12 +201,17 @@ the direction differed between languages, so measure rather than assume.
 7. **Twins and leaning statements.** Near-identical statements across items, one
    true and one false, tell the candidate which to doubt (77 pairs were found
    once, 19 with opposite truth). A statement that refers to another exposes
-   their relationship.
+   their relationship. Within one item, a statement that keeps a qualifier
+   ("reduces lead by as much as 99%") beside one that drops the same kind
+   ("90% less fluoride") marks the second as the false one.
 8. **Position and structure.** Answer letters and the position of false
    statements must spread (no letter above about 40%). In a combination item,
    the option set itself can point at the key (the option sharing most with the
    others, the statement printed most often); generated symmetric option sets
    remove that.
+9. **Copied wording.** A key lifted from the source among reworded distractors,
+   or a true statement that is the source's sentence cut down or joined, is
+   found by matching. `bank_tool.py check` warns of both from the stored quotes.
 
 State the ceiling with every percentage: the strongest surface-feature guesser in
 the reference bank averaged 11.7 of 35 over 4,000 simulated papers against a pass

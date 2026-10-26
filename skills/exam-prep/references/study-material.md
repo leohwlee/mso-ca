@@ -68,9 +68,11 @@ branches. Show nested AND/OR conditions explicitly.
   the trap is and what the source says. Draw them from the owner's conflict
   rulings, the near-identical names and numbers, and the trap kinds the exam
   uses. A trap list collected on a separate page is read once and forgotten.
-  Write the callout from the source ("carotenoids *mainly* absorb blue-violet
-  light: the source does not say *only*"), never by copying the bank's false
-  statements: notes that list the paper's traps turn practice into recognition.
+  Write the callout as the rule and the word to watch ("watch the word:
+  carotenoids *mainly* absorb blue-violet light"), never as the wrong version
+  ("saying 'part of the oxygen comes from CO₂' is wrong"): notes that spell out
+  the paper's false statements turn practice into recognition.
+  `bank_tool.py check --notes` warns when a passage echoes one.
 - **Rulings visible but quiet.** Where a point applies one of the owner's conflict
   rulings, a small mark can link to the ruling, hidden until switched on, so the
   plain reading view stays plain.
@@ -158,7 +160,9 @@ general lessons:
 Check every page three ways:
 
 1. **Mechanically**: `scripts/notes_check.py` — every block cited, tiers valid,
-   anchors resolve, ids unique, every language present in each bilingual block.
+   anchors resolve, ids unique, every language present in each bilingual block;
+   and `bank_tool.py check --notes` — every `notes_anchor` exists, and no
+   passage echoes a false statement's wrong version.
 2. **Visually**: render every figure and look at it for overlaps, clipping,
    arrows crossing text and colours that mean nothing.
 3. **At real widths**: desktop and phone, in every language view. Open the file

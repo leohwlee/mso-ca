@@ -153,11 +153,11 @@
       "answer": true,
       "traps": null,
       "en": {
-        "stem": "A child under 12 may hold a junior card only with the written consent of a parent or guardian.",
+        "stem": "Children under 12 can hold a junior card only if a parent or guardian agrees to it in writing.",
         "explain": "True: r.1.1 makes written consent of a parent or guardian the condition for a junior card."
       },
       "zh-Hant": {
-        "stem": "未滿12歲的兒童須經父母或監護人書面同意，方可持有兒童證。",
+        "stem": "未滿12歲的兒童要持有兒童證，必須先取得父母或監護人的書面同意。",
         "explain": "正確：第1.1條以父母或監護人的書面同意為持有兒童證的條件。"
       }
     },
@@ -250,10 +250,10 @@
       "en": {
         "stem": "Which of the following are correct about library cards?",
         "statements": [
-          "A card is valid for three years and may be renewed online.",
+          "Cards last three years, and members can renew them online.",
           "A lost card must be reported to the library within 14 days.",
           "A replacement for a lost card costs the member $20.",
-          "Any district resident aged 12 or over may apply for an adult card.",
+          "Residents of the district can apply for an adult card from the age of 12.",
           "A card may be renewed in person at the library only."
         ],
         "statement_notes": [
@@ -267,10 +267,10 @@
       "zh-Hant": {
         "stem": "以下哪些有關圖書證的說法正確？",
         "statements": [
-          "圖書證有效期為三年，可於網上續期。",
+          "每張圖書證可用三年，會員可在網上辦理續期。",
           "遺失圖書證須於14日內向圖書館報失。",
           "補發遺失的圖書證，會員須繳付$20。",
-          "區內年滿12歲的居民均可申請成人證。",
+          "居於本區、12歲或以上的人士可申請成人證。",
           "圖書證只可親身到圖書館辦理續期。"
         ],
         "statement_notes": [
@@ -793,7 +793,7 @@
       "zh-Hant": {
         "stem": "以下哪些有關逾期資料及罰款的說法正確？",
         "statements": [
-          "每本逾期圖書每日罰款$1，每項最高$30。",
+          "逾期圖書按日罰款$1，每項罰款以$30為上限。",
           "未繳罰款達$30或以上時，即暫停借閱。",
           "逾期60日的資料由圖書館當作遺失處理。",
           "以兒童證借出的圖書一概不設任何罰款。"

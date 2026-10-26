@@ -99,11 +99,11 @@ flashcards", "a mock paper from chapter 5".
    with a citation, a deciding quote and an explanation per option or
    statement, following Phase 4. Keep `spec.json`, `bank.json` and any script
    in one `work/` folder: they let anyone regenerate the products.
-4. **Check**: `bank_tool.py check` (with `--sources` if you extracted the text),
-   then answer every item yourself once from a `packet` with the key hidden, and
-   `compare`. Fix what that finds and re-read only the items you changed; a
-   second full round, and the tells report below 20 items, cost more than they
-   find at this scale.
+4. **Check**: `bank_tool.py check` (with `--sources` if you extracted the text,
+   and `--notes` when you made notes), then answer every item yourself once from
+   a `packet` with the key hidden, and `compare`. Fix what that finds and
+   re-answer only the items you changed; a second full round, and the tells
+   report below 20 items, cost more than they find at this scale.
 5. **Deliver exactly what was asked, in the form asked**: the app
    (`build_app.py`) when they want an exam to sit on screen, a paper and key
    (`bank_tool.py paper`) when they want something to print or check, notes from
@@ -247,9 +247,10 @@ distractors. Use the bank only afterwards, to find gaps.
   recall exactly), *Understand* (reasoning and conditions), *Recognise* (enough to
   spot it in an option), *Reference* (context). Offer a filter by tier.
 - **Put the traps where they arise**: the near-identical name, the neighbouring
-  threshold, the other actor, the owner's conflict rulings. Describe the
-  confusion and state the rule; never copy the bank's false statements into the
-  notes, or the notes hand over the paper and practice becomes recognition.
+  threshold, the other actor, the owner's conflict rulings. State the rule and
+  the word to watch, never the wrong version: notes that spell out the bank's
+  false statements hand over the paper, and practice becomes recognition
+  (`bank_tool.py check --notes` warns of it).
 - **One language per view**, plus a combined view when there are two. No page
   compares the editions.
 - **Prefer aids that change how the content is read** (a tier filter, a numbers
@@ -299,6 +300,9 @@ Every item, in every format:
   (mainly → only, least → not at all, no longer rises → falls, within a range →
   always), its neighbouring numbers and its near-identical actors. Swapping in
   an unrelated term (mitochondria for chloroplast) is an easy mark, not a trap.
+  Where the source grades its claims and the owner wants detail traps, aim about
+  half the false statements at its degree words; a short answer on a section is
+  no reason to leave that section's degree words untested.
 - **Paraphrase true statements**, keeping every qualifier. A true statement
   copied word for word from the source can be recognised by matching rather than
   understood, and next to reworded false statements it becomes a tell.
@@ -380,8 +384,9 @@ analysis: [verification](references/verification.md).
   the device with export and import, a language switch, and a link from each item
   to its notes. It shuffles per draw (options, or statements with the options
   relabelled) identically in every language, and stores answers by stable id and
-  version, so a bank change cannot corrupt history. The review after a mock
-  shows each item's id, which the printed key also gives. Before handing it
+  version, so a bank change cannot corrupt history. Each question shows its
+  item id, during the paper and in the review, and the printed key gives it
+  too, so a trainer can match a question to the key. Before handing it
   over, sit one paper: submit it, check the score and the pass rule either side
   of the pass mark, and let a copy built with `"minutes": 1` run out to see it
   submit itself.
@@ -390,7 +395,9 @@ analysis: [verification](references/verification.md).
   items) and writes the question paper and a separate key with explanations
   and citations, shuffled once and frozen. A key that accompanies the app must
   identify answers by their wording, not by letter, because the app reshuffles
-  options at every draw; or set `"shuffle": false` for that paper. Instructions
+  options at every draw; or set `"shuffle": false` for that paper. An owner who
+  does not work in Markdown gets the key as a page to open and print (HTML or
+  PDF), not raw `.md`. Instructions
   that tell candidates how statements are judged say that a faithful rewording
   is still true ([item writing](references/item-writing.md#the-trap-taxonomy)).
 - **Other targets** (flashcards, QTI, Moodle XML, GIFT): see

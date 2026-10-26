@@ -74,7 +74,22 @@ def main():
         after = any(expect in m for _, m in bt.check(s, b, sources=EX / "sources").warnings)
         ok(after and not before, f"warns of {name} ({expect!r})")
 
-    warned("near-twin statements keyed both ways", lambda s, b: by(b, "2-007")["en"]["statements"].__setitem__(1, "A card is valid for two years and may be renewed online."), "nearly repeats")
+    warned("near-twin statements keyed both ways", lambda s, b: by(b, "2-007")["en"]["statements"].__setitem__(1, "Cards last two years, and members can renew them online."), "nearly repeats")
+    warned("a key lifted from its quote among reworded distractors", lambda s, b: by(b, "1-001")["en"].update(
+        options=["One proof of address issued within the last three months", "A utility bill from the past year",
+                 "A letter from a current member", "A recent payslip"]), "the key copies")
+    warned("a true statement copied from its quote", lambda s, b: by(b, "1-004")["en"]["statements"].__setitem__(0, "A card is valid for three years and may be renewed in person or online."), "its quote's own text")
+    warned("a true statement that repeats a clause of its quote", lambda s, b: by(b, "1-004")["en"]["statements"].__setitem__(0, "Renewal is open to members, and a card is valid for three years and may be renewed."), "repeats a clause")
+
+    # Notes that echo a false statement's wrong version are caught; the template's own notes are not.
+    template = (HERE.parent / "assets" / "notes-template.html").read_text(encoding="utf-8")
+    leak = '<aside class="trap">Saying a lost card must be reported to the library within 14 days gets it wrong.</aside>'
+    with tempfile.TemporaryDirectory() as tmp:
+        clean, leaky = Path(tmp) / "clean.html", Path(tmp) / "leaky.html"
+        clean.write_text(template, encoding="utf-8")
+        leaky.write_text(template.replace("</main>", leak + "</main>"), encoding="utf-8")
+        said = lambda page: any("echo a false statement" in m for _, m in bt.check(spec, bank, notes=page).warnings)  # noqa: E731
+        ok(said(leaky) and not said(clean), "warns of notes that echo a false statement")
 
     # Generated option sets: exactly one equals the true set; all/none last; symmetric sizes.
     rng = random.Random(3)

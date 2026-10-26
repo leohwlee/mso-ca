@@ -738,7 +738,7 @@ function examView() {
   const [it, x] = curExamItem();
   const n = exam.items.length;
   let h = '<div class="exam-wrap"><section class="card">';
-  h += `<div class="q-head"><strong>${esc(t('question', exam.pos + 1, n))}</strong><span class="muted small">${sectionName(x.section)}</span></div>`;
+  h += `<div class="q-head"><strong>${esc(t('question', exam.pos + 1, n))} <span class="muted small">${esc(x.id)}</span></strong><span class="muted small">${sectionName(x.section)}</span></div>`;
   h += itemHTML(it, x.inst, x.resp, 'answer');
   h += `<div class="bar"><span class="row"><button class="btn plain" data-act="prev" ${exam.pos === 0 ? 'disabled' : ''}>← ${esc(t('prev'))}</button><button class="btn plain" data-act="next" ${exam.pos === n - 1 ? 'disabled' : ''}>${esc(t('next'))} →</button></span><span class="row"><button class="btn ghost" data-act="flag">${esc(t(x.flag ? 'unflag' : 'flag'))}</button><button class="btn" data-act="submit">${esc(t('submit'))}</button></span></div>`;
   h += '</section><aside class="card sheet">';
@@ -874,7 +874,7 @@ function practiceView() {
     return `<section class="card"><h2>${esc(t('finished'))}</h2><div class="big">${esc(t('summary', p.right, p.done))}</div><div class="bar"><button class="btn plain" data-act="home">${esc(t('home'))}</button><button class="btn" data-act="again">${esc(t('again'))}</button></div></section>`;
   }
   const it = ITEMS.get(p.queue[p.pos]);
-  let h = `<section class="card"><div class="q-head"><strong>${esc(t('question', p.pos + 1, p.queue.length))}</strong><span class="muted small">${sectionName(it.section)}</span></div>`;
+  let h = `<section class="card"><div class="q-head"><strong>${esc(t('question', p.pos + 1, p.queue.length))} <span class="muted small">${esc(it.id)}</span></strong><span class="muted small">${sectionName(it.section)}</span></div>`;
   if (!p.checked) {
     h += itemHTML(it, p.inst, p.resp, 'answer');
     h += `<div class="bar"><button class="btn plain" data-act="home">${esc(t('home'))}</button><button class="btn" data-act="check">${esc(t('check'))}</button></div>`;

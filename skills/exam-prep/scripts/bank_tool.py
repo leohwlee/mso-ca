@@ -14,6 +14,7 @@ an error, so it can gate a build. Standard library only.
 import argparse
 import difflib
 import hashlib
+import html
 import itertools
 import json
 import math
@@ -598,6 +599,7 @@ def check(spec, bank, sources=None, notes=None):
             rep.warn(f"section {sid}", f"{pool[sid]} items for a draw of {draw}: candidates will soon recognise papers")
     near_duplicates(rep, spec, bank)
     near_twins(rep, statements)
+    copied_from_quotes(rep, spec, bank)
     if sources:
         check_quotes(rep, spec, bank, Path(sources))
     if notes:
@@ -607,7 +609,70 @@ def check(spec, bank, sources=None, notes=None):
             a = item.get("notes_anchor")
             if a and a not in anchors:
                 rep.err(item.get("id"), f"notes_anchor '{a}' is not an id in {notes}")
+        notes_leaks(rep, spec, bank, page)
     return rep
+
+
+BLOCK_TAGS = r"p|li|td|th|tr|div|section|aside|h[1-6]|dt|dd|caption|figcaption|blockquote|pre|br|hr|table|ul|ol"
+
+
+def page_segments(page):
+    """The readable text of an HTML or Markdown notes page, one string per paragraph,
+    list item, heading or table cell, so words from neighbouring cells never join."""
+    t = re.sub(r"(?is)<(script|style)\b.*?</\1>", "\n", page)
+    t = re.sub(rf"(?is)</?({BLOCK_TAGS})\b[^>]*>", "\n", t)
+    t = html.unescape(re.sub(r"(?s)<[^>]+>", "", t))
+    return [s for line in t.splitlines() for s in line.split("|") if s.strip()]
+
+
+def notes_leaks(rep, spec, bank, page):
+    """False statements the notes repeat with their defect: a trap note that quotes
+    the wrong version turns practice into recognition."""
+    segs = [seq_tokens(s) for s in page_segments(page)]
+    segs = [s for s in segs if s]
+    if not segs:
+        return
+    for item in bank["items"]:
+        k = item.get("kind")
+        for lang in langs(spec):
+            f = lang_fields(item, lang) or {}
+            if k == "combo":
+                false = [s for s, t in zip(f.get("statements") or [], item.get("truth") or []) if t is False]
+            elif k == "tf" and item.get("answer") is False:
+                false = [f.get("stem")]
+            else:
+                continue
+            qs = [seq_tokens(q["text"]) for q in item.get("quotes") or []
+                  if isinstance(q, dict) and isinstance(q.get("text"), str) and q.get("lang", lang) == lang]
+            for s in false:
+                if not isinstance(s, str) or not qs:
+                    continue
+                cjk = is_cjk(s)
+                st = seq_tokens(s)
+                q = max(qs, key=lambda q: covered(st, q, 4 if cjk else 3))
+                changed = [op for op in difflib.SequenceMatcher(None, st, q, autojunk=False).get_opcodes() if op[0] != "equal"]
+                if not changed:
+                    continue
+                # the false wording around the defect, and the source's wording it replaced
+                ctx = 3 if cjk else 2
+                wrong = st[max(0, min(o[1] for o in changed) - ctx):max(o[2] for o in changed) + ctx]
+                right = q[max(0, min(o[3] for o in changed) - ctx):max(o[4] for o in changed) + ctx]
+                if len(wrong) < (6 if cjk else 4):
+                    continue
+
+                def share(a, win):
+                    return sum(m.size for m in difflib.SequenceMatcher(None, a, win, autojunk=False).get_matching_blocks() if m.size >= 2) / len(a)
+                need = set(wrong)
+                width, step = len(wrong) + len(wrong) // 2, max(1, len(wrong) // 3)
+                windows = (seg[i:i + width] for seg in segs for i in range(0, max(1, len(seg) - len(wrong) + 1), step))
+                for win in windows:
+                    if len(need & set(win)) < 0.6 * len(need):
+                        continue
+                    mw, mr = share(wrong, win), share(right, win)
+                    if mw >= 0.6 and mw - mr >= 0.05:
+                        near = "".join(win) if cjk else " ".join(win)
+                        rep.warn(item.get("id"), f"{lang}: the notes echo a false statement's wrong version ('{near}'); state the rule as the source does instead")
+                        break
 
 
 def near_duplicates(rep, spec, bank, threshold=0.75):
@@ -662,6 +727,78 @@ def near_twins(rep, statements, ratio=0.8):
                 if difflib.SequenceMatcher(None, text, jtext).ratio() >= ratio:
                     seen.add((iid, jid))
                     rep.warn(iid, f"{lang}: a statement keyed {truth} nearly repeats one keyed {jtruth} in {jid}; on one paper either gives the other away")
+
+
+def seq_tokens(text):
+    """The text as a sequence: characters for CJK, words otherwise."""
+    t = norm(text).lower()
+    if is_cjk(t):
+        return [c for c in t if c.isalnum()]
+    return re.findall(r"\w+", t)
+
+
+def shared_run(a, b):
+    """The longest run of consecutive tokens a and b share."""
+    if not a or not b:
+        return 0
+    return difflib.SequenceMatcher(None, a, b, autojunk=False).find_longest_match(0, len(a), 0, len(b)).size
+
+
+def covered(a, b, block):
+    """How many tokens of a lie in runs of at least `block` tokens shared with b, in
+    order: source text that was only cut down or joined counts in full."""
+    if not a or not b:
+        return 0
+    blocks = difflib.SequenceMatcher(None, a, b, autojunk=False).get_matching_blocks()
+    return sum(m.size for m in blocks if m.size >= block)
+
+
+def copied_from_quotes(rep, spec, bank):
+    """Keys lifted from the source among reworded distractors, and true statements
+    copied whole: a candidate finds them by matching the wording, not knowing the rule."""
+    for item in bank["items"]:
+        k, iid = item.get("kind"), item.get("id")
+        for lang in langs(spec):
+            qs = [seq_tokens(q["text"]) for q in item.get("quotes") or []
+                  if isinstance(q, dict) and isinstance(q.get("text"), str) and q.get("lang", lang) == lang]
+            if not qs:
+                continue
+            f = lang_fields(item, lang) or {}
+
+            def run(s):
+                return max(shared_run(seq_tokens(s), q) for q in qs)
+
+            def floor(s):
+                return 10 if is_cjk(s) else 6
+            if k in ("single", "multi"):
+                opts = [o for o in f.get("options") or [] if isinstance(o, str)]
+                keys = {item.get("answer")} if k == "single" else set(item.get("answer") or [])
+                keys = {j for j in keys if isinstance(j, int) and 0 <= j < len(opts)}
+                if not keys or len(keys) == len(opts):
+                    continue
+                kj = max(keys, key=lambda j: run(opts[j]))
+                kr = run(opts[kj])
+                dr = max(run(o) for j, o in enumerate(opts) if j not in keys)
+                if kr >= floor(opts[kj]) and dr < kr / 2:
+                    rep.warn(iid, f"{lang}: the key copies {kr} consecutive {'characters' if is_cjk(opts[kj]) else 'words'} of its quote and no distractor copies half as many; paraphrase it")
+            elif k in ("combo", "tf"):
+                pairs = list(zip(f.get("statements") or [], item.get("truth") or [])) if k == "combo" else [(f.get("stem"), item.get("answer"))]
+                for n, (s, truth) in enumerate(pairs, 1):
+                    if truth is True and isinstance(s, str):
+                        st = seq_tokens(s)
+                        block = 4 if is_cjk(s) else 3
+                        r = max(covered(st, q, block) for q in qs)
+                        where = f"statement {n}" if k == "combo" else "the statement"
+                        unit = "characters" if is_cjk(s) else "words"
+                        if len(st) >= floor(s) and r >= 0.8 * len(st):
+                            rep.warn(iid, f"{lang}: {where} is true and {r} of its {len(st)} {unit} are its quote's own text; paraphrase it")
+                            continue
+                        least = 8 if is_cjk(s) else 6
+                        for clause in re.split(r"[,;:，；：、。]", s):
+                            ct = seq_tokens(clause)
+                            if len(ct) >= least and any(shared_run(ct, q) >= 0.9 * len(ct) for q in qs):
+                                rep.warn(iid, f"{lang}: {where} is true and repeats a clause of its quote word for word ('{clause.strip()}'); paraphrase it")
+                                break
 
 
 def source_texts(sources):
@@ -1573,7 +1710,7 @@ def main(argv=None):
     c.add_argument("spec")
     c.add_argument("bank")
     c.add_argument("--sources", help="folder of extracted texts (NN.txt or LANG/NN.txt) to find quotes in")
-    c.add_argument("--notes", help="notes page whose ids notes_anchor must name")
+    c.add_argument("--notes", help="notes page whose ids notes_anchor must name; also warns where it echoes a false statement")
     c.add_argument("--json", action="store_true")
     c.add_argument("--max-warnings", type=int, default=60)
     c.set_defaults(fn=cmd_check)
