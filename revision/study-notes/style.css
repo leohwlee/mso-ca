@@ -617,3 +617,22 @@ body[data-lang=both] :is(.checklist-head,.checklist-operator,.checklist-confuse>
 .amounts .citations{margin-top:0}
 body[data-lang=both] .amount-where>.en{display:inline;margin:0}
 body[data-lang=both] .amount-where>.en::before{content:" / "}
+/* Hover/tap study tips: legislation codes and section numbers in the body text. */
+.cite-tip{border-bottom:1px dotted #173f63;cursor:help;background:linear-gradient(transparent 70%,#d6e7da 0)}
+.cite-tip:hover,.cite-tip:focus,.cite-tip.is-open{background:#d6e7da;outline:none}
+.heading-tip{cursor:help}
+.heading-tip:hover,.heading-tip:focus-within,.heading-tip.is-open{background:linear-gradient(transparent 60%,#edf2f6 0)}
+.tip-hint{max-width:72ch;margin:-8px 0 28px;font-size:15px;line-height:1.7;color:var(--muted)}
+#cite-tooltip{position:fixed;z-index:80;max-width:min(36rem,calc(100vw - 24px));background:#173f63;color:#fff;padding:12px 14px;border-radius:8px;font-size:14px;line-height:1.55;box-shadow:0 12px 32px rgba(23,63,99,.28);display:none}
+#cite-tooltip.is-visible{display:block}
+#cite-tooltip .tip-name{font-weight:650;margin:0 0 6px}
+#cite-tooltip .tip-body{margin:0}
+#cite-tooltip .tip-en-block{margin-top:.65em;opacity:.92}
+body[data-lang=en] #cite-tooltip .tip-tc-block{display:none}
+body[data-lang=tc] #cite-tooltip .tip-en-block{display:none}
+#cite-tooltip .tip-note{margin:.7em 0 0;font-size:12px;opacity:.75}
+@media print{
+ #cite-tooltip{display:none!important}
+ .cite-tip{border-bottom:0;background:none}
+ .heading-tip:hover,.heading-tip:focus-within,.heading-tip.is-open{background:none}
+}

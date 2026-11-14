@@ -18,6 +18,7 @@ from traps import TRAPS
 from tiers import TIERS, LABELS as TIER_LABELS, PREFIXES as TIER_PREFIXES
 from rulings import MARKS as RULING_MARKS, ISSUES as RULING_ISSUES, DECISIONS as RULING_DECISIONS, RECORDS as RULING_RECORDS
 from amounts import GROUPS as AMOUNT_GROUPS
+from tips import apply_tips
 PANELS=apply_visuals(PANELS,PARTS)
 CATALOG=json.loads((ROOT/'docs/catalog.json').read_text(encoding='utf-8'))
 DOCS={d['id']:d for d in CATALOG['documents']}
@@ -422,10 +423,11 @@ def toolbar(n=None):
     practice='<a class="practice-link" href="../../dist/mso-ca.html?part='+str(n or 1)+'">'+label('練習','Practice')+'</a>'
     return '<header class="toolbar"><div class="toolbar-inner"><div class="brand">MSO Competence Assessment Study Note</div>'+languages+controls+numbers+practice+'</div>'+part_nav(n)+'</header>'
 
+TIP_HINT='<p class="tip-hint">'+label('帶點線底線的法例代號、條次和部分標題可以懸停（手機點一下）查看簡稱和含義；這是學習提示，不是法例原文。連到原文PDF或附錄的出處連結維持普通連結。','Dotted underlines mark legislation codes, section numbers and some headings: hover (or tap on a phone) to see the short title and what it means. This is a study aid, not the official text of the law. Official source, PDF and appendix citation links stay ordinary links.')+'</p>'
 def shell(title,n,nav,main):
     font=base64.b64encode((ROOT/'web/fonts/dmsans.woff2').read_bytes()).decode('ascii')
     css='@font-face{font-family:"Study Sans";src:url(data:font/woff2;base64,'+font+') format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}'+(HERE/'style.css').read_text(encoding='utf-8')
-    return '<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+title+'</title><style>'+css+'</style></head><body data-lang="tc"><a class="skip-link" href="#content">'+label('跳至正文','Skip to content')+'</a>'+toolbar(n)+'<div class="layout"><aside class="sidebar"><h2>'+label('本章目錄','In this part')+'</h2><nav>'+nav+'</nav></aside><main id="content" tabindex="-1">'+main+'</main></div><script>'+SCRIPT+'</script></body></html>\n'
+    return apply_tips('<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+title+'</title><style>'+css+'</style></head><body data-lang="tc" data-part="'+str(n or 'amounts')+'"><a class="skip-link" href="#content">'+label('跳至正文','Skip to content')+'</a>'+toolbar(n)+'<div class="layout"><aside class="sidebar"><h2>'+label('本章目錄','In this part')+'</h2><nav>'+nav+'</nav></aside><main id="content" tabindex="-1">'+main+'</main></div><script>'+SCRIPT+'</script></body></html>\n')
 
 def page(n):
     part=PARTS[n];nav=[];body=[]
@@ -434,7 +436,7 @@ def page(n):
         body.append(f'<section class="chapter" id="{s["id"]}" aria-labelledby="title-{s["id"]}"><div class="section-heading"><span class="section-number">{i:02d}</span><h2 id="title-{s["id"]}">'+pair(s['title'])+'</h2></div>'+''.join(render_panel(panel) for panel in PANELS[n].get(s['id'],[]))+''.join(render_block(b,letter,n,s['id'],bi) for bi,(b,letter) in enumerate(zip(s['blocks'],TIERS[n][s['id']])))+render_traps(TRAPS.get(n,{}).get(s['id'],[]),s['id'])+'</section>')
     nav.append('<a href="#rulings" data-section="rulings"><span class="nav-number" aria-hidden="true">⚖</span><span>'+label('本部分的裁決','Rulings in this part')+'</span></a>')
     body.append(render_register(n))
-    main='<header class="hero"><h1>'+label('第'+str(n)+'部分 · '+part['title']['tc'],'Part '+str(n)+' · '+part['title']['en'])+'</h1></header><p class="part-intro">'+pair(part['intro'])+'</p>'+study_key(n)+''.join(body)+'<footer><a href="../../dist/mso-ca.html?part='+str(n)+'">'+label('前往本部分練習','Practise this part')+'</a></footer>'
+    main='<header class="hero"><h1>'+label('第'+str(n)+'部分 · '+part['title']['tc'],'Part '+str(n)+' · '+part['title']['en'])+'</h1></header><p class="part-intro">'+pair(part['intro'])+'</p>'+TIP_HINT+study_key(n)+''.join(body)+'<footer><a href="../../dist/mso-ca.html?part='+str(n)+'">'+label('前往本部分練習','Practise this part')+'</a></footer>'
     return shell('MSO · Part '+str(n)+' · Study Notes',n,''.join(nav),main)
 
 AMOUNT_HEADERS=[dict(tc='數值',en='Value'),dict(tc='適用情形',en='Applies to'),dict(tc='起算點／條件',en='Starting point / condition'),dict(tc='筆記與出處',en='Notes and source')]
@@ -450,7 +452,7 @@ def amounts_page():
             rows.append((pair(row['value']),[emphasized_pair(row['what']),emphasized_pair(row['basis']),where+compact_citations(row['refs'])]))
         table='<figure class="memory-panel amounts">'+table_html(AMOUNT_HEADERS,rows,'title-'+g['id'])+'</figure>'
         body.append(f'<section class="chapter" id="{g["id"]}" aria-labelledby="title-{g["id"]}"><div class="section-heading"><span class="section-number">{i:02d}</span><h2 id="title-{g["id"]}">'+pair(g['title'])+'</h2></div><p class="intro">'+pair(g['intro'])+'</p>'+table+'</section>')
-    main='<header class="hero"><h1>'+label('數字與期限總表','Numbers and deadlines')+'</h1></header><p class="part-intro">'+label('七個部分的金額、百分比、日數、年期、費用及刑罰集中在一頁：每行寫明適用情形、起算點或條件，並連到筆記小節及原文。相近的數字放在一起，方便比較。','Every amount, percentage, number of days, period, fee and penalty from the seven parts on one page: each row says when it applies, where its clock starts or what it requires, and links to the notes section and the source. Similar figures sit together for comparison.')+'</p>'+''.join(body)+'<footer><a href="index.html">'+label('返回筆記','Back to the notes')+'</a></footer>'
+    main='<header class="hero"><h1>'+label('數字與期限總表','Numbers and deadlines')+'</h1></header><p class="part-intro">'+label('七個部分的金額、百分比、日數、年期、費用及刑罰集中在一頁：每行寫明適用情形、起算點或條件，並連到筆記小節及原文。相近的數字放在一起，方便比較。','Every amount, percentage, number of days, period, fee and penalty from the seven parts on one page: each row says when it applies, where its clock starts or what it requires, and links to the notes section and the source. Similar figures sit together for comparison.')+'</p>'+TIP_HINT+''.join(body)+'<footer><a href="index.html">'+label('返回筆記','Back to the notes')+'</a></footer>'
     return shell('MSO · Numbers · Study Notes',None,''.join(nav),main)
 
 class Inspector(HTMLParser):

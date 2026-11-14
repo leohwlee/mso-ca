@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Study notes: hover/tap study tips on legislation codes and section numbers in the body text (official short title, a one-line gloss, and a note that this is a study aid, not the official text of the law). Official source, PDF and appendix citation links (`<a>`, `.citations`, `.source-citation`, `.visual-links`) stay ordinary links. The seven-part notes remain the plain-language rewrite with examples, same-section overlap trimmed, and the Cap. 221 Schedule 8 six-level fine comparison (HK$2,000 / 5,000 / 10,000 / 25,000 / 50,000 / 100,000). Counts stay 74 topics, 574 bilingual point pairs and 75 numbers-page rows in eight groups. The 572 questions, answers, scoring and bank scope are unchanged.
+- 溫習筆記：正文中的法例代號及條次可懸停或點按查看學習提示（官方簡稱、一句白話說明，並註明只是學習提示而非法例原文）。連到原文PDF或附錄的出處連結（`<a>`、`.citations`、`.source-citation`、`.visual-links`）維持普通連結。七部分仍為白話改寫並附例子、已刪同一小節重複，並保留第221章附表8六級罰款對照（港幣2,000／5,000／10,000／25,000／50,000／100,000元）。數量仍為74個主題、574組雙語要點及八組共75項數字總表列。572道題、答案、評分及題庫範圍均不變。
+
 ## v1.14.2 — 14 November 2026
 
 - Study notes: rewrite the seven parts in plain language with examples, trim same-section overlap, and add the Cap. 221 Schedule 8 fine levels (HK$2,000 / 5,000 / 10,000 / 25,000 / 50,000 / 100,000) on Part 2 and the numbers page. Cap. 221 is not in the 01–24/26 set texts; the amounts rows cite in-scope “fine at level n” wording only. The notes now have 74 topics, 574 bilingual point pairs and 75 numbers-page rows in eight groups. The 572 questions, answers, scoring and bank scope are unchanged. README previews were captured again from v1.14.2.
