@@ -3,9 +3,10 @@
 - This repository is agent-neutral. Start with this file and
   [the authoring workflow](docs/authoring/exam-prep/GUIDE.md); no agent-specific
   configuration or command is required.
-- The owner's active exam scope is ONLY documents 01–24 and 26, with approximately
-  525 bilingual questions across the existing seven parts. The app has two
-  modes: mock exam and custom practice (one or multiple parts).
+- The owner's active exam scope is ONLY documents 01–24 and 26, with 572
+  bilingual questions across the existing seven parts (60 / 81 / 71 / 89 / 80 /
+  123 / 68). The app has two modes: mock exam and custom practice (one or
+  multiple parts).
 - Before editing questions, revision content, sources or reading order, read
   [source maintenance](docs/SOURCE-MAINTENANCE.md),
   [question format](bank/FORMAT.md) and the applicable authoring guide.
