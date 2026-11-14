@@ -68,6 +68,13 @@ const ATTEMPTS = 'attempts', EXAM = 'exam';   // storage keys (under the msoca: 
    question answered at least once, so practice can draw unseen questions first. */
 const book = { get: () => store.get('book', {}), set: v => store.set('book', v) };
 const seenIds = () => new Set(store.get('seen', []));
+/* Wipe the "answered at least once" list so practice draws every selected
+   question as unseen. Does not touch mock-exam history, an exam in progress,
+   language or theme. Pass true to empty the wrong-answer book as well. */
+function clearSeen(alsoBook = false) {
+  store.del('seen');
+  if (alsoBook) book.set({});
+}
 function recordAnswer(qid, ok) {
   const seen = seenIds(); seen.add(qid); store.set('seen', [...seen]);
   const b = book.get(), e = b[qid];
@@ -199,6 +206,8 @@ const byLang = (en, tc, both) => S.lang === 'en' ? en : S.lang === 'tc' ? tc : b
 const ui = (en, tc) => byLang(en, tc, en + ' · ' + tc);                       // chrome text
 const plain = (en, tc) => byLang(en, tc, en + ' ｜ ' + tc);                    // the history file
 const bilingual = (en, tc) => byLang(en, tc, `${en}<span class="tcline">${tc}</span>`);  // escaped content
+/* 1-based item over the length of the current paper or practice pool */
+const questionNumHTML = (i, n) => `${ui('Question', '第')} ${i} / ${n}${S.lang === 'tc' ? ' 題' : ''}`;
 
 /* bilingual content block (stem / explanation / note) */
 function contentPair(en, tc) {
@@ -422,6 +431,7 @@ function homeView() {
       </div>
       <div class="actions">
         <button class="btn secondary" id="btn-practice" ${bank.length ? '' : 'disabled'}>${ui('Start practice', '開始練習')}</button>
+        ${seen.size ? `<button class="btn secondary small" id="btn-clear-seen">${ui('Clear answered record', '清除已做紀錄')}</button>` : ''}
         <span class="note">${ui(`${unseen} of ${selected.length} selected questions not yet answered; those come first.`,
           `所選${selected.length}題中有${unseen}題未做過，會先抽未做過的。`)}</span>
       </div>
@@ -508,6 +518,28 @@ function bindHome() {
     ui('Clear the wrong-answer book?', '清空錯題本？'),
     ui('Every question listed in the book will be removed. Your history is kept.', '錯題本內的題目會全部移除，過往紀錄不受影響。'),
     ui('Clear', '清空'), () => { book.set({}); render(); }, true);
+  const clearSeenBtn = $('#btn-clear-seen');
+  if (clearSeenBtn) clearSeenBtn.onclick = () => {
+    const nBook = bookIds().length;
+    confirmModal(
+      ui('Clear the answered record?', '清除已做紀錄？'),
+      ui('Every question will again be treated as not yet answered, so practice will draw from the full selected set. The wrong-answer book, mock exam history and any exam in progress are kept. This cannot be undone.',
+         '所有題目會再視為未做過，練習會重新從所選題目抽題。錯題本、模擬試紀錄及進行中的模擬試不受影響。此操作無法復原。'),
+      ui('Clear answered record', '清除已做紀錄'),
+      () => {
+        clearSeen();
+        homeNotice = ui('Answered record cleared.', '已做紀錄已清除。');
+        render();
+      }, true,
+      nBook ? {
+        label: ui('Clear record and the book', '連錯題本一併清除'),
+        onClick: () => {
+          clearSeen(true);
+          homeNotice = ui('Answered record and wrong-answer book cleared.', '已做紀錄及錯題本已清除。');
+          render();
+        },
+      } : null);
+  };
   document.querySelectorAll('#pmods .chip[data-pm]').forEach(c => {
     c.onclick = () => {
       const n = +c.dataset.pm;
@@ -673,7 +705,7 @@ function examView() {
       <div>
         <div class="qcard">
           <div class="qmeta">
-            <span class="qnum">${ui('Question', '第')} ${exam.cur + 1} / ${n}${S.lang === 'tc' ? ' 題' : ''}</span>
+            <span class="qnum">${questionNumHTML(exam.cur + 1, n)}</span>
             <span class="qmod">M${q.module} · ${esc(modName(q.module))}</span>
             <button class="qflag ${flagged ? 'on' : ''}" id="btn-flag">${icon('flag')} ${flagged ? ui('Flagged', '已標記') : ui('Flag', '標記')}</button>
           </div>
@@ -1258,7 +1290,7 @@ function practiceView() {
   <div class="wrap">
     <div class="qcard">
       <div class="qmeta">
-        <span class="qnum">${ui('Practice', '練習')}</span>
+        <span class="qnum">${questionNumHTML(practice.idx + 1, practice.pool.length)}</span>
         <span class="qmod">M${q.module} · ${esc(modName(q.module))}${q.id in book.get() ? ' · ' + ui('in the book', '錯題本') : ''}</span>
         <span class="tally" style="margin-left:auto">${ui('This session', '本節')}: <b>${t.right}</b>/${t.seen}</span>
       </div>
