@@ -2,8 +2,15 @@
 
 ## Unreleased
 
-- Study notes: hover/tap study tips on legislation codes and section numbers in the body text (official short title, a one-line gloss, and a note that this is a study aid, not the official text of the law). Official source, PDF and appendix citation links (`<a>`, `.citations`, `.source-citation`, `.visual-links`) stay ordinary links. The seven-part notes remain the plain-language rewrite with examples, same-section overlap trimmed, and the Cap. 221 Schedule 8 six-level fine comparison (HK$2,000 / 5,000 / 10,000 / 25,000 / 50,000 / 100,000). Counts stay 74 topics, 574 bilingual point pairs and 75 numbers-page rows in eight groups. The 572 questions, answers, scoring and bank scope are unchanged.
-- 溫習筆記：正文中的法例代號及條次可懸停或點按查看學習提示（官方簡稱、一句白話說明，並註明只是學習提示而非法例原文）。連到原文PDF或附錄的出處連結（`<a>`、`.citations`、`.source-citation`、`.visual-links`）維持普通連結。七部分仍為白話改寫並附例子、已刪同一小節重複，並保留第221章附表8六級罰款對照（港幣2,000／5,000／10,000／25,000／50,000／100,000元）。數量仍為74個主題、574組雙語要點及八組共75項數字總表列。572道題、答案、評分及題庫範圍均不變。
+## v1.14.3 — 14 November 2026
+
+- Study notes: hover (desktop) or tap (phone) legislation codes and resolvable section numbers in the body text to show the official short title, a one-line study gloss, and a note that this is a study aid, not the official text of the law. Official source, PDF and appendix citation links (`<a>`, `.citations`, `.source-citation`, `.visual-links`) stay ordinary links and do not get that effect. Section 25 is resolved from surrounding context (AMLO s.25 is a licensing exemption; DTROP/OSCO s.25 is the dealing offence). This checkout of the notes still includes the plain-language rewrite, examples, same-section overlap trim, and the Cap. 221 Schedule 8 six-level fine comparison (HK$2,000 / 5,000 / 10,000 / 25,000 / 50,000 / 100,000) that already shipped in v1.14.2. Counts stay 74 topics, 574 bilingual point pairs and 75 numbers-page rows in eight groups. The 572 questions, answers, scoring and bank scope (documents **01–24 and 26**; document 25 remains retired) are unchanged. README previews were captured again from v1.14.3.
+- 溫習筆記：正文中的法例代號及可分辨條次，可在電腦懸停或在手機點按，查看官方簡稱、一句白話說明，以及「這是學習提示，不是法例原文」的註明。連到原文PDF或附錄的出處連結（`<a>`、`.citations`、`.source-citation`、`.visual-links`）維持普通連結，不加這種效果。第25條按上下文分辨（AMLO 第25條是發牌豁免；DTROP／OSCO 第25條是處理犯罪得益）。本工作副本的筆記仍包括白話改寫、例子、同一小節重複刪減，以及第221章附表8六級罰款對照（港幣2,000／5,000／10,000／25,000／50,000／100,000元）；那些筆記修訂已隨 v1.14.2 發出。數量仍為74個主題、574組雙語要點及八組共75項數字總表列。572道題、答案、評分及題庫範圍（**01–24及26**；第25份仍退役）均不變。README預覽從v1.14.3重新截取。
+
+**Download / 下載：** `mso-study-bundle.zip` contains the notes, practice and originals 01–24 and 26; extract the entire ZIP and open `index.html`.
+完整學習包包含筆記、練習及01–24及26原件；完整解壓後開啟 `index.html`。
+
+[Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.14.3)
 
 ## v1.14.2 — 14 November 2026
 

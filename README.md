@@ -17,33 +17,32 @@ The bundle contains the seven-part notes, the practice app and the cited 01–24
 originals. Keep the folders together so study, practice and source links work
 offline. You do not need to download the repository or install Go.
 
-![Blue-gray practice homepage with mock exam, custom practice and the wrong-answer book](docs/images/app-v1.14.2-en.png)
+![Blue-gray practice homepage with mock exam, custom practice and the wrong-answer book](docs/images/app-v1.14.3-en.png)
 
-*Practice homepage, English. Captured from the v1.14.2 app on 14 November 2026.*
+*Practice homepage, English. Captured from the v1.14.3 app on 14 November 2026.*
 
-## Current study notes
+## What's new in v1.14.3
 
-The seven-part notes in this checkout (not yet a numbered release) include:
+A study-notes release. Legislation codes and resolvable section numbers in the
+body text can be hovered (desktop) or tapped (phone) to show the official short
+title, a one-line study gloss, and a note that this is a study aid, not the
+official text of the law. Official source, PDF and appendix citation links —
+the `<a>`, `.citations`, `.source-citation` and `.visual-links` links — stay
+ordinary links and do not get that effect. Section 25 is resolved from
+surrounding context: AMLO s.25 is a licensing exemption; DTROP/OSCO s.25 is
+the dealing offence.
 
-- a **plain-language rewrite** of all seven parts, with **examples**;
-- **same-section overlap** trimmed so a rule is not repeated in the same section;
-- the **Cap. 221 Schedule 8** six-level fine comparison on Part 2 and the Numbers page (HK$2,000 / 5,000 / 10,000 / 25,000 / 50,000 / 100,000). Cap. 221 is not in the 01–24/26 set texts; the amounts rows cite in-scope “fine at level n” wording only;
-- **hover/tap study tips** on legislation codes and section numbers in the body text (for example Cap. 537, AMLO, 《打擊洗錢及恐怖分子資金籌集條例》). A dotted underline marks the term; the tip shows the official short title, a one-line study gloss, and a note that it is a study aid, not the official text of the law. Official source, PDF and appendix citation links — the `<a>`, `.citations`, `.source-citation` and `.visual-links` links — stay ordinary links and are not given that effect.
-
-Live counts stay 74 topics, 574 bilingual point pairs, 75 visuals (14 tables, 61 diagrams, 33 of them list cards) and 75 amounts, periods, fees and penalties in eight groups. The 572 questions, answers, scoring and bank scope are unchanged. The last numbered notes release remains v1.14.2.
-
-## What's new in v1.14.2
-
-A study-notes release. The seven parts are rewritten in plain language with
-examples, and same-section overlap is trimmed. Part 2 and the **Numbers** page add
-the six fine levels from Schedule 8 to the Criminal Procedure Ordinance (Cap. 221):
-levels 1–6 are HK$2,000 / 5,000 / 10,000 / 25,000 / 50,000 / 100,000. Cap. 221 is
-not in the 01–24/26 set texts, which usually only write “a fine at level n”; the
-amounts rows cite that in-scope wording only. The dollar figures themselves come
-from Cap. 221 Sch. 8, not from those AMLO / Cap. 34 / Cap. 629 provisions. The
-572 questions, their answers and explanations, scoring, bank scope (documents
-**01–24 and 26**; document 25 still retired) and the practice app are unchanged
-from v1.14.1.
+This checkout of the notes still includes the **plain-language rewrite** of all
+seven parts, with **examples**; **same-section overlap** trimmed so a rule is
+not repeated in the same section; and the **Cap. 221 Schedule 8** six-level
+fine comparison on Part 2 and the Numbers page (HK$2,000 / 5,000 / 10,000 /
+25,000 / 50,000 / 100,000). Those notes revisions already shipped in v1.14.2.
+Cap. 221 is not in the 01–24/26 set texts, which usually only write “a fine at
+level n”; the amounts rows cite that in-scope wording only. The dollar figures
+themselves come from Cap. 221 Sch. 8, not from those AMLO / Cap. 34 / Cap. 629
+provisions. The 572 questions, their answers and explanations, scoring, bank
+scope (documents **01–24 and 26**; document 25 still retired) and the practice
+app are unchanged from v1.14.2.
 
 The selected sources remain documents **01–24 and 26**. Document 25, the 2022 Hong Kong
 Money Laundering and Terrorist Financing Risk Assessment Report, was removed from
@@ -69,9 +68,9 @@ practice questions and mock exams.
 Read the [notes' scope and ruling marks](revision/study-notes/README.md)
 and the [current review evidence](bank/audit/ACTIVE-SCOPE.md).
 
-![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.14.2-en.png)
+![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.14.3-en.png)
 
-*Part 6 reading example, English. Captured from the v1.14.2 notes on 14 November 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
+*Part 6 reading example, English. Captured from the v1.14.3 notes on 14 November 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
 
 ## Choose how to practise
 
