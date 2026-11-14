@@ -1,0 +1,94 @@
+{
+  "status": "verified",
+  "date": "2026-11-14",
+  "reason": "Study notes rewrite, 14 November 2026: replace part1.py–part7.py with a plain-language rewrite that adds examples and trims same-section overlap, and add the Cap. 221 Schedule 8 fine levels (HK$2,000 / 5,000 / 10,000 / 25,000 / 50,000 / 100,000) to Part 2 and amounts.py. Cap. 221 is not in the 01–24/26 set texts; the amounts rows cite in-scope “fine at level n” wording only. Regenerates the seven part pages, the numbers page, coverage.json and the gap-audit routes. CHANGELOG.md Unreleased and revision/study-notes/README.md record the live counts (74 topics, 574 bilingual point pairs, 75 numbers-page rows). Preserves the previous bytes of these files; question IDs, answers, quotes, scoring, the practice app and source originals are unchanged.",
+  "archive": "bank/audit/history/2026-11-14-before-study-notes-rewrite.zip",
+  "archive_sha256": "717fd30dff8058a2787e651f0d8460d1511bc7d98ebf1730b94c80d23bdafa1f",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "e5004dc584cc9418692432fbe4d041f36efd049d79c446572aade1a557935572",
+      "after_sha256": "d5087c6daa4185504137f94526688c0051cb30d48cc0940bbac972a818fdaa9b"
+    },
+    "revision/study-notes/README.md": {
+      "before_sha256": "b276d01583bb14ae0cdd122864a772be1c7b6b28859c4aad3ec349dc46ca7449",
+      "after_sha256": "34f23394bee3e789d9ae53abeafe08687253328a9d41706fbf384723f1282e1b"
+    },
+    "revision/study-notes/amounts.html": {
+      "before_sha256": "4493eb95d69da44c1fd17ac8453ec0950a173d806a571b1947e7894b5b13eada",
+      "after_sha256": "64c4493ab9fcd1c12c516f98f43b4a5aa7d91f4ace3932dc9516ce7ee7187b1c"
+    },
+    "revision/study-notes/amounts.py": {
+      "before_sha256": "91cf481aebdd72f1a97e070470d12c8e612399fb43f26824287e39dbb6a5bcee",
+      "after_sha256": "fa665634aeeec5ea298677e35116330db14200af3a9d2bdf1cb2569004717b78"
+    },
+    "revision/study-notes/coverage.json": {
+      "before_sha256": "109f79334d24454c64aeb60a2ea5e6828afe625cfb5184064596fad6fed66129",
+      "after_sha256": "7d2b0bfa73609034effbf9e3a0aba4c169afb7e11207108d35a7e03fd1bb5161"
+    },
+    "revision/study-notes/index.html": {
+      "before_sha256": "92c8cd06d707b7ede25c699ac9bb80dbf2e5d1038b79a28bfec865c5f3a0fc4f",
+      "after_sha256": "36d82b056919903aa882c71c0b365a622d8b949788f86f953fd2dd435c17e12f"
+    },
+    "revision/study-notes/part-1.html": {
+      "before_sha256": "92c8cd06d707b7ede25c699ac9bb80dbf2e5d1038b79a28bfec865c5f3a0fc4f",
+      "after_sha256": "36d82b056919903aa882c71c0b365a622d8b949788f86f953fd2dd435c17e12f"
+    },
+    "revision/study-notes/part-2.html": {
+      "before_sha256": "7d729b5c5a5fefb693135abe4f663f4f8084ada09eda4f3c9f8b8a218c889b0f",
+      "after_sha256": "ea227f7cf55d174bd00e6b7a76c8a6238bda6791335de3191836a7d842238e38"
+    },
+    "revision/study-notes/part-3.html": {
+      "before_sha256": "c20140ccbc84f5531a10ab1317c10ec2ed991b650cd4c798c47a0d64e0c13339",
+      "after_sha256": "fd03e5e9f58ae08772e4a864c796919a802bd4d751ca6fe898d8d81866161e9b"
+    },
+    "revision/study-notes/part-4.html": {
+      "before_sha256": "77b131d8aa19cfcec4eab615a38d770ee4cec69ebb98d0b613f3cf5daac7596c",
+      "after_sha256": "48a6419ff7ae9738f4a536d6cc232cb62f4d3921af7783337312c5608141fbe1"
+    },
+    "revision/study-notes/part-5.html": {
+      "before_sha256": "4d4cb5bba1c8ce855ad32531bd3133ad86a4ae353a0dcb9b6fda06d5132cf8a0",
+      "after_sha256": "a034c2ffcb3be6810ca0f169c9046bd55896e6246958f96d2bff26a97d68eb94"
+    },
+    "revision/study-notes/part-6.html": {
+      "before_sha256": "0857bdac789e543f72a08cf65198ab95bace17ddd2eea8db13e1b149582e9670",
+      "after_sha256": "1e297b0de17ed500965805a7f0aff9c527e047d01ede9112691c47aeb70bc7a3"
+    },
+    "revision/study-notes/part-7.html": {
+      "before_sha256": "24bd753407f009597b9876bba3cc2b9357879489abf7bc2d4e2a2762eedd003b",
+      "after_sha256": "04779049e2e22cf4067d472671a764aa162aba5aa1deeeaa479683e3384cb0a7"
+    },
+    "revision/study-notes/part1.py": {
+      "before_sha256": "cf24d419cfe0c53d032269fb626d72ad68def898aa31d0bdbfeff924ffd9c4c0",
+      "after_sha256": "745b0536086280aad8259815e31e412bd9e4692c5d4e5160ee9fbbc5815cace5"
+    },
+    "revision/study-notes/part2.py": {
+      "before_sha256": "be06fa056a56df29a85f4874571a442bcb8e12534b9c1fb771ade84b51b62063",
+      "after_sha256": "db9fb5b945662d64f91d1f71c6c6466dff03a7876b1257332cc3b87cfc9694f5"
+    },
+    "revision/study-notes/part3.py": {
+      "before_sha256": "07b2ee64896aff844ca705902cf0da023236e2081ae649b54b68408b18516adc",
+      "after_sha256": "6f6c2b6e51cf8c85a594a3b0721700eb476bf6d2d24f05f83a5bbbe549f4478b"
+    },
+    "revision/study-notes/part4.py": {
+      "before_sha256": "35847fee678af35b48a7425bd5640a3f5e31eb0dadabd0875cce656b85050c56",
+      "after_sha256": "e1d95bb8bcaea91648a69cdebb1e2cf8715ee3f8d08a4ff6c87df8fb15a982d0"
+    },
+    "revision/study-notes/part5.py": {
+      "before_sha256": "07228c7cc23034dda7c996307f9306f45dab789ef1bf205f8fb87585595fccae",
+      "after_sha256": "6d7c42cbd67e9c9603e70e8f4c548f17f6e868b57cee33d75bfc232638d14ee5"
+    },
+    "revision/study-notes/part6.py": {
+      "before_sha256": "c777411d387571181592fe09cb0b825537411ff842dbac9d82e9ddfdfac47322",
+      "after_sha256": "de636a07abcb1f11404ad89b61ef8748e6de3c0510e711a7155580588de64693"
+    },
+    "revision/study-notes/part7.py": {
+      "before_sha256": "e34db2f2f36386c3c87df8bf0f846cf56f0c12e8cf8c75df3713dc7514e6c1db",
+      "after_sha256": "3c1c72c6afbb3450f9fa7f52f1507db21b332d4f1fcbee1d1c4f7fea75dae965"
+    },
+    "revision/study-notes/visual-refinement-2026-10-20/bank-source-routes.json": {
+      "before_sha256": "745b7be38e22dad5a41775d942baea54cfb81768b4bddc98df8eecc9d0273adf",
+      "after_sha256": "19fbc66cd3a7ea05e4955b0be7ec8d94748e80dd8fc4299bfaa8889d9694f43e"
+    }
+  },
+  "documentation_updates": {}
+}

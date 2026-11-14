@@ -10,15 +10,25 @@ extract it fully and open its root `index.html`. Reading pages embed their style
 繁體中文／英文／雙語與離線閱讀。保留於repo內，或下載[v1.14.1完整學習包](https://github.com/leohwlee/mso-ca/releases/tag/v1.14.1)
 並完整解壓、開啟根目錄的`index.html`，原件及練習連結才可正常使用。
 
+## Plain-language rewrite, 14 November 2026 / 2026年11月14日白話改寫
+
+The seven part manuscripts were rewritten in plain language with examples, and same-section overlap was trimmed. Part 2 and the numbers page add the six fine levels from Schedule 8 to the Criminal Procedure Ordinance (Cap. 221): levels 1–6 are HK$2,000 / 5,000 / 10,000 / 25,000 / 50,000 / 100,000. Cap. 221 is not in the 01–24/26 set texts, which usually only write “a fine at level n”; the new amounts rows cite that in-scope wording only (document 17 levels 1–2, document 23 level 3, document 04 levels 4–6, including AMLO s.76E for “a fine at level 4”). The dollar figures themselves come from Cap. 221 Sch. 8, not from those AMLO/Cap.34/Cap.629 provisions. The question bank is unchanged.
+
+七部分文稿改為白話並加入例子，刪去同一小節內的重複。第2部分及數字總表加入《刑事訴訟程序條例》（第221章）附表8的六級罰款：第1至6級為港幣2,000／5,000／10,000／25,000／50,000／100,000元。第221章不在01–24及26指定文本內，那些文本通常只寫「第n級罰款」；新表列只引用准許來源中的該等行文（第17份第1–2級、第23份第3級、第04份第4–6級，包括《打擊洗錢條例》第76E條的「第4級罰款」）。金額本身來自第221章附表8，不是那些條文寫出的數字。題庫不變。
+
+The live notes now have 74 topics, 574 bilingual point pairs, 75 visuals (14 tables, 61 diagrams, 33 of them list cards), and a numbers page with 75 amounts, periods, fees and penalties in eight groups. The selected-reading figures below describe the notes as they stood before this rewrite.
+
+現行筆記有74個主題、574組雙語要點、75個圖表（14張表、61個圖解，其中33張是清單卡），以及八組共75項金額、期限、費用及刑罰的數字總表。下文選定範圍的數量是改寫前的紀錄。
+
 ## Selected reading, 14 November 2026 / 2026年11月14日選定範圍
 
 On 14 November 2026 the owner removed document 25, the 2022 Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report, from personal practice reading and from the live notes. This is a study selection, not a finding that the official exam cannot use the report. Number 25 stays reserved; document 26 is not renumbered. Points that also appear in an allowed source (01–24 or 26) were re-cited; points that only the 2022 report supported were dropped.
 
 擁有人於2026年11月14日把第25份（2022年香港洗錢及恐怖分子資金籌集風險評估報告）移出個人練習閱讀及現行筆記。這是學習取捨，不是斷定正式考試不會用該報告。第25號保留，第26項不重新編號。仍見於01–24或26的規則改掛那些來源；只在2022年報告出現的論點已刪除。
 
-The live notes now have 74 topics, 573 bilingual point pairs, 75 visuals (14 tables, 61 diagrams, 33 of them list cards), and a numbers page with 69 amounts, periods, fees and penalties. The 23 October figures below describe the notes as they stood before this change.
+After that change the notes had 74 topics, 573 bilingual point pairs, 75 visuals (14 tables, 61 diagrams, 33 of them list cards), and a numbers page with 69 amounts, periods, fees and penalties. The 23 October figures below describe the notes as they stood before the selected-reading change.
 
-現行筆記有74個主題、573組雙語要點、75個圖表（14張表、61個圖解，其中33張是清單卡），以及集中69項金額、期限、費用及刑罰的數字總表。下文10月23日的數量是改動前的紀錄。
+當時筆記有74個主題、573組雙語要點、75個圖表（14張表、61個圖解，其中33張是清單卡），以及集中69項金額、期限、費用及刑罰的數字總表。下文10月23日的數量是選定範圍改動前的紀錄。
 
 ## Study aids, 23 October / 10月23日學習輔助
 
