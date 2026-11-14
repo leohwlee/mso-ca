@@ -3,13 +3,13 @@
   "method": "Original passages -> concepts, definitions, requirements, conditions and exceptions. Source-bound recall comparisons supplement full visible prose. The bank is used only by the separate gap audit.",
   "limitations": "Anchors prove source location, not semantic completeness. See depth-review-2026-10-20/REPORT.md and its per-source inventories for the current depth review, bilingual meaning checks, source-selected statutory coverage, reference-detail decisions and unresolved verification boundaries. This is not a line-by-line bilingual audit of every full volume or a guarantee about unknown official questions. Official source categories extend beyond the owner-selected 01–24 and 26. Historical reviews remain preserved, not proof of this review. Dated findings/lists retain their publication date.",
   "manuscripts": {
-    "part1.py": "cf24d419cfe0c53d032269fb626d72ad68def898aa31d0bdbfeff924ffd9c4c0",
-    "part2.py": "be06fa056a56df29a85f4874571a442bcb8e12534b9c1fb771ade84b51b62063",
-    "part3.py": "07b2ee64896aff844ca705902cf0da023236e2081ae649b54b68408b18516adc",
-    "part4.py": "35847fee678af35b48a7425bd5640a3f5e31eb0dadabd0875cce656b85050c56",
-    "part5.py": "07228c7cc23034dda7c996307f9306f45dab789ef1bf205f8fb87585595fccae",
-    "part6.py": "c777411d387571181592fe09cb0b825537411ff842dbac9d82e9ddfdfac47322",
-    "part7.py": "e34db2f2f36386c3c87df8bf0f846cf56f0c12e8cf8c75df3713dc7514e6c1db"
+    "part1.py": "745b0536086280aad8259815e31e412bd9e4692c5d4e5160ee9fbbc5815cace5",
+    "part2.py": "db9fb5b945662d64f91d1f71c6c6466dff03a7876b1257332cc3b87cfc9694f5",
+    "part3.py": "6f6c2b6e51cf8c85a594a3b0721700eb476bf6d2d24f05f83a5bbbe549f4478b",
+    "part4.py": "e1d95bb8bcaea91648a69cdebb1e2cf8715ee3f8d08a4ff6c87df8fb15a982d0",
+    "part5.py": "6d7c42cbd67e9c9603e70e8f4c548f17f6e868b57cee33d75bfc232638d14ee5",
+    "part6.py": "de636a07abcb1f11404ad89b61ef8748e6de3c0510e711a7155580588de64693",
+    "part7.py": "3c1c72c6afbb3450f9fa7f52f1507db21b332d4f1fcbee1d1c4f7fea75dae965"
   },
   "recall": {
     "sha256": "12e9f787f1e1e8a91743bb0b83ef24866871b2e6bdbcc5e4195b69e8b6b92164",
@@ -142,9 +142,9 @@
     }
   },
   "amounts": {
-    "sha256": "91cf481aebdd72f1a97e070470d12c8e612399fb43f26824287e39dbb6a5bcee",
-    "groups": 7,
-    "rows": 69
+    "sha256": "fa665634aeeec5ea298677e35116330db14200af3a9d2bdf1cb2569004717b78",
+    "groups": 8,
+    "rows": 75
   },
   "source_text_sha256": {
     "01": {
@@ -1250,7 +1250,7 @@
             "tc": "違反盡職審查要求：知情與欺詐意圖",
             "en": "CDD offences: knowledge and intent to defraud"
           },
-          "points": 6,
+          "points": 7,
           "memory_panels": [],
           "refs": [
             {
@@ -1819,7 +1819,7 @@
           ]
         }
       ],
-      "points": 95
+      "points": 96
     },
     {
       "part": 3,
