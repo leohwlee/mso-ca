@@ -63,7 +63,10 @@ The seven-part notes open from the study bundle's `index.html` or from
 rulings register on when you want to check a point against the owner's
 source-conflict decisions; they are hidden by default. **Numbers** opens a page
 that lists every amount, period, fee and penalty with its starting point and a
-link back to the notes section.
+link back to the notes section. Dotted underlines on legislation codes and
+section numbers in the body text are hover/tap study tips (official short title,
+a one-line gloss, and a study-aid note). Official source, PDF and appendix
+citation links stay ordinary links.
 
 ## Back up and restore results
 

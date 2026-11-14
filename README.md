@@ -21,6 +21,17 @@ offline. You do not need to download the repository or install Go.
 
 *Practice homepage, English. Captured from the v1.14.2 app on 14 November 2026.*
 
+## Current study notes
+
+The seven-part notes in this checkout (not yet a numbered release) include:
+
+- a **plain-language rewrite** of all seven parts, with **examples**;
+- **same-section overlap** trimmed so a rule is not repeated in the same section;
+- the **Cap. 221 Schedule 8** six-level fine comparison on Part 2 and the Numbers page (HK$2,000 / 5,000 / 10,000 / 25,000 / 50,000 / 100,000). Cap. 221 is not in the 01–24/26 set texts; the amounts rows cite in-scope “fine at level n” wording only;
+- **hover/tap study tips** on legislation codes and section numbers in the body text (for example Cap. 537, AMLO, 《打擊洗錢及恐怖分子資金籌集條例》). A dotted underline marks the term; the tip shows the official short title, a one-line study gloss, and a note that it is a study aid, not the official text of the law. Official source, PDF and appendix citation links — the `<a>`, `.citations`, `.source-citation` and `.visual-links` links — stay ordinary links and are not given that effect.
+
+Live counts stay 74 topics, 574 bilingual point pairs, 75 visuals (14 tables, 61 diagrams, 33 of them list cards) and 75 amounts, periods, fees and penalties in eight groups. The 572 questions, answers, scoring and bank scope are unchanged. The last numbered notes release remains v1.14.2.
+
 ## What's new in v1.14.2
 
 A study-notes release. The seven parts are rewritten in plain language with

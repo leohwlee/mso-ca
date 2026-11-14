@@ -20,6 +20,12 @@ The live notes now have 74 topics, 574 bilingual point pairs, 75 visuals (14 tab
 
 現行筆記有74個主題、574組雙語要點、75個圖表（14張表、61個圖解，其中33張是清單卡），以及八組共75項金額、期限、費用及刑罰的數字總表。下文選定範圍的數量是改寫前的紀錄。
 
+## Hover/tap study tips / 懸停學習提示
+
+Legislation codes and section numbers in the body text carry a dotted underline. Hover on a desktop or tap on a phone to see the official short title, a one-line plain-language gloss, and a note that this is a study aid, not the official text of the law. The same section number is resolved from the surrounding paragraph or cell, so AMLO section 25 (a licensing exemption) is not mixed with DTROP/OSCO section 25 (dealing with proceeds). Official source, PDF and appendix citation links (`<a>`, `.citations`, `.source-citation`, `.visual-links`) stay ordinary links.
+
+正文中的法例代號及條次帶點線底線。電腦懸停或手機點一下，可見官方簡稱、一句白話說明，以及「這是學習提示，不是法例原文」的註明。同一條次按所在段落或表格單元的上下文分辨，所以 AMLO 第25條（發牌豁免）不會與 DTROP／OSCO 第25條（處理犯罪得益）混為一談。連到原文PDF或附錄的出處連結（`<a>`、`.citations`、`.source-citation`、`.visual-links`）維持普通連結。
+
 ## Selected reading, 14 November 2026 / 2026年11月14日選定範圍
 
 On 14 November 2026 the owner removed document 25, the 2022 Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report, from personal practice reading and from the live notes. This is a study selection, not a finding that the official exam cannot use the report. Number 25 stays reserved; document 26 is not renumbered. Points that also appear in an allowed source (01–24 or 26) were re-cited; points that only the 2022 report supported were dropped.
