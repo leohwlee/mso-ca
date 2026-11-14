@@ -1,0 +1,58 @@
+{
+  "status": "verified",
+  "date": "2026-11-14",
+  "reason": "v1.14.1 release preparation (14 Nov 2026): dates the Unreleased practice-app UX as v1.14.1, points the version links, the catalog texts, the notes README and the bundle README at v1.14.1, replaces the README what's-new paragraph with the home-page Clear answered record control and session question position (572 questions from documents 01–24 and 26 unchanged), and replaces the README previews with v1.14.1 captures. Preserves the previous bytes of these files; this record does not change question IDs, answers, quotes, scoring or source originals.",
+  "archive": "bank/audit/history/2026-11-14-before-release-1.14.1.zip",
+  "archive_sha256": "31c140b92d67b11a562154fa2e4d08bb5e33c4442e2942c1a698c6397dc6f0a9",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "f4a443461d29abf02a23538ad4f565b0f435d0c15a2231156370ec391a81d6fd",
+      "after_sha256": "e5004dc584cc9418692432fbe4d041f36efd049d79c446572aade1a557935572"
+    },
+    "README.md": {
+      "before_sha256": "392a65e07bab5203b5b7020e5245637ca92163a102940733315b41c9c8ec920b",
+      "after_sha256": "51470753272bccbe1fe7a624c238b14341276adf20d1213df663333674ded8e4"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "59faacc18bb741e654391459fb85a2cb15075eaf50585b95eadaf94779e230c6",
+      "after_sha256": "883b57c1f43186a972e7e9bbeae7d8888254a51e68ecf1ddcac40446d96329cb"
+    },
+    "docs/README.md": {
+      "before_sha256": "b37b52b183b9e5692314ed24ce0423a022d62341f99614f20ac87696fe1a393f",
+      "after_sha256": "7a613d06540a93e432c45b7c5661e72d421ce3d05cde98f4a6c1bddf9afd54ba"
+    },
+    "docs/README.zh-Hant.md": {
+      "before_sha256": "ca9fb84dc5477a175bd460d19751a96e58255800c1dd7d9e6138ceeb47e5d244",
+      "after_sha256": "7625b9f4ec130a65793f4d4fe87e71742a1a0a51603a693a3fdad6db7567cf1d"
+    },
+    "docs/archive/README.md": {
+      "before_sha256": "9563f0e4784e7b35c841deb4dbbb3a3c75786b1953ed35d938de6aa61cf0762d",
+      "after_sha256": "ae70327eaaca3989399824859f70c2927be5ae2681b81074e88878802078de49"
+    },
+    "docs/archive/README.zh-Hant.md": {
+      "before_sha256": "5e37e2d9759d8ac274526e9ae98d3bd00e90b1592fd86d107fe3f9e187d649c4",
+      "after_sha256": "b47746c5d9933158db83c73c47365b14d8fa8bf4171f60b9d23f20f12346c996"
+    },
+    "docs/build_catalog.py": {
+      "before_sha256": "037977f39e6f7c3ea1820cd7f50f65cde2486ca681b7bcc2ec5a91ebe1b7e44a",
+      "after_sha256": "45719e8f83688f0bb208c69d7e9cda866746a7d86f74b015fb3b5f45825a6d27"
+    },
+    "docs/images/readme-previews.json": {
+      "before_sha256": "128391181a10bfee7f410a48991fa27c46874ee49d0482b1fd9e013140a9f8ac",
+      "after_sha256": "e52f5ed6aacb1957295f5711cea8812b3b01cc5ec186f6e1be17d83e8418d418"
+    },
+    "revision/study-notes/README.md": {
+      "before_sha256": "ef1abd54bef89886371f1d921b32a785e6a648a5a222cbf21aacef40e7c46389",
+      "after_sha256": "b276d01583bb14ae0cdd122864a772be1c7b6b28859c4aad3ec349dc46ca7449"
+    },
+    "revision/README.md": {
+      "before_sha256": "d2425361d5f7c5e905fc5aac431a2fc036b958090c763cf4ac68cad558a6afc0",
+      "after_sha256": "75bd7e3a328fe449c0f04c38936738d5b3004c1a437020543b632e46b2a5a089"
+    },
+    "scripts/build_study_bundle.py": {
+      "before_sha256": "5dee4255d830ebc3504eda03e4433772e8c1fcc3829182a2cbf93ad95f2dbcb3",
+      "after_sha256": "0bc9540e742aeb86a521906d113ae4d025819abba05be8d4f237c3654c5d77f7"
+    }
+  },
+  "documentation_updates": {}
+}
