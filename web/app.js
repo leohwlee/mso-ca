@@ -411,7 +411,7 @@ function homeView() {
   return topbarHTML() + `
   <div class="wrap">
     ${homeNotice ? `<div class="card"><div class="sub" style="margin:0">${homeNotice}</div></div>` : ''}
-    <p class="scope-note">${ui('Question sources: documents 01–26 in your reading library.', '出題範圍：閱讀文檔庫第01–26份文件。')}</p>
+    <p class="scope-note">${ui('Question sources: documents 01–24 and 26 in your reading library.', '出題範圍：閱讀文檔庫第01–24及26份文件。')}</p>
     ${examCard}
     <div class="card">
       <h2>${ui('Custom practice', '自選練習')}</h2>

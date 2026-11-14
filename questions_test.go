@@ -118,7 +118,7 @@ var (
 	gn71      = [][]int{{1, 2, 3}, {2, 3, 4}, {1, 3, 4}, {1, 2, 5}, {3, 4, 5}}
 )
 
-// Minimum bank size after the owner-approved 01–26 source expansion.
+// Minimum bank size after the owner-approved source expansion. The live allowlist is 01–24 and 26.
 var minPerModule = map[int]int{1: 60, 2: 75, 3: 65, 4: 80, 5: 80, 6: 100, 7: 65}
 
 func wantTotal() int {

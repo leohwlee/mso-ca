@@ -3,11 +3,11 @@
 Open [index.html](index.html) and select Part 1–7. The source-authored notes retain
 the B blue-gray reference style and Traditional Chinese, English and bilingual
 reading. Keep this folder inside the repository so original-file and practice
-links work. Alternatively, download [v1.13.4's complete study bundle](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.4),
+links work. Alternatively, download [v1.14.0's complete study bundle](https://github.com/leohwlee/mso-ca/releases/tag/v1.14.0),
 extract it fully and open its root `index.html`. Reading pages embed their styles and font and work offline.
 
 開啟 [index.html](index.html)，選擇第1至7部分。筆記以01–24及26原文整理，保留B風格、
-繁體中文／英文／雙語與離線閱讀。保留於repo內，或下載[v1.13.4完整學習包](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.4)
+繁體中文／英文／雙語與離線閱讀。保留於repo內，或下載[v1.14.0完整學習包](https://github.com/leohwlee/mso-ca/releases/tag/v1.14.0)
 並完整解壓、開啟根目錄的`index.html`，原件及練習連結才可正常使用。
 
 ## Selected reading, 14 November 2026 / 2026年11月14日選定範圍
@@ -172,13 +172,13 @@ checks every anchor, number and section, and validates and renders without readi
 `traps.py`保存易錯提示，每項對應CONFLICT-CALLS裁決編號並由`build.py`核對；`rulings.py`以英文原句把每個裁決標記連到一個要點或圖表，
 `build.py`核對每個定位及編號；生成器不讀題庫。
 
-`gap_check.py` separately checks 525 identifiers and source routes after authoring;
+`gap_check.py` separately checks 572 identifiers and source routes after authoring;
 it cannot establish semantic completeness. Its current output is
 `visual-refinement-2026-10-20/bank-source-routes.json`. Earlier outputs remain historical evidence. Manual question-stem concept
 checking is described in the audit report; no question content supplies the notes.
 
 題庫只於最後作題幹概念及來源路徑查漏，發現問題後回原文核實；
-不把自動來源對應稱為525題每個陳述均已覆蓋。題目、答案及評分未改。
+不把自動來源對應稱為572題每個陳述均已覆蓋。題目、答案及評分未改。
 
 ```text
 python revision/study-notes/build.py

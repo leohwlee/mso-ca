@@ -2,8 +2,21 @@
 
 ## Unreleased
 
-- Adds [`skills/exam-prep/`](skills/exam-prep/README.md), a general-purpose Agent Skill distilled from this repository's history. It turns any documents or copy into study notes, practice questions and mock exams, in any subject, language or exam format, and brings its own checks, an offline mock-exam app, a notes template and three behaviour tests. The README and the documentation index link to it. The question bank, the app, the notes and the source originals are unchanged.
-- 新增 [`skills/exam-prep/`](skills/exam-prep/README.zh-Hant.md)：從本 repo 發展歷程提煉的通用 Agent Skill，可把任何文件或文案變成溫習筆記、練習題及模擬試，不限科目、語言或考試形式，並附檢查工具、離線模擬試應用程式、筆記範本及三個行為測試。README 及文件索引已加入連結。題庫、應用程式、筆記及來源原件均不變。
+## v1.14.0 — 14 November 2026
+
+- Adds [`skills/exam-prep/`](skills/exam-prep/README.md), a general-purpose Agent Skill distilled from this repository's history. It turns any documents or copy into study notes, practice questions and mock exams, in any subject, language or exam format, and brings its own checks, an offline mock-exam app, a notes template and three behaviour tests. The README and the documentation index link to it.
+- 新增 [`skills/exam-prep/`](skills/exam-prep/README.zh-Hant.md)：從本 repo 發展歷程提煉的通用 Agent Skill，可把任何文件或文案變成溫習筆記、練習題及模擬試，不限科目、語言或考試形式，並附檢查工具、離線模擬試應用程式、筆記範本及三個行為測試。README 及文件索引已加入連結。
+- Retires document 25, the 2022 Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report, from daily reading and from the live question bank, because it did not appear in the exam the owner sat. This is a study selection, not a finding that the official exam cannot use the report. Number 25 stays reserved in the archive; document 26 is not renumbered. 23 questions that cited only that report are retired, with their IDs reserved. The active allowlist is documents **01–24 and 26**.
+- 把第25份（2022年香港洗錢及恐怖分子資金籌集風險評估報告）移出日常閱讀及現行題庫，因為擁有人應考時沒有考到這份報告。這是學習取捨，不是斷定正式考試不會用該報告。第25號保留在存檔，第26項不重新編號。23道只引用該報告的題目已退役，題號保留。現行出題範圍為**01–24及26**。
+- Adds seven independently blind-reviewed Part 1 questions (m1-229 to m1-235) from the remaining official sources so that module again meets the 60-question floor; narrows m1-226 to Cap. 629 s.18 (crime-proceeds-only continuation and two-year cap); and repairs absolute-qualifier wording on six of the new items without changing truth values or option sets. The bank is **572** questions (60 / 81 / 71 / 89 / 80 / 123 / 68).
+- 從其餘官方來源新增七道經獨立盲審的第1部分題目（m1-229至m1-235），使該部分再次達到60題下限；把m1-226收窄至第629章第18條（僅限犯罪得益的延扣及兩年上限）；並修訂其中六題的絕對用語，真假值及選項不變。題庫現為**572**題（60／81／71／89／80／123／68）。
+- Live notes drop the points that only the 2022 report supported and re-cite those that also appear in an allowed source. They now have 74 topics, 573 bilingual point pairs, 75 visuals (14 tables, 61 diagrams) and a numbers page with 69 amounts, periods, fees and penalties. README previews were captured again from v1.14.0.
+- 現行筆記刪去只由2022年報告支持的論點，仍見於准許來源的改掛那些來源。現有74個主題、573組雙語要點、75個圖表（14張表、61個圖解）及集中69項金額、期限、費用及刑罰的數字總表。README預覽從v1.14.0重新截取。
+
+**Download / 下載：** `mso-study-bundle.zip` contains the notes, practice and originals 01–24 and 26; extract the entire ZIP and open `index.html`.
+完整學習包包含筆記、練習及01–24及26原件；完整解壓後開啟 `index.html`。
+
+[Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.14.0)
 
 ## v1.13.4 — 24 October 2026
 

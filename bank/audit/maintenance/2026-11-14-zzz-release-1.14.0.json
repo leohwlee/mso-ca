@@ -1,0 +1,94 @@
+{
+  "status": "verified",
+  "date": "2026-11-14",
+  "reason": "v1.14.0 release preparation (14 Nov 2026): dates the release notes, points the version links, the catalog texts, the notes README and the bundle README at v1.14.0, replaces the README what's-new paragraph with the scope and bank change (document 25 retired, 572 questions from 01–24 and 26, exam-prep skill), corrects current-scope counts and copy across DEVELOPMENT, AGENTS, INDEX, SOURCE-MAINTENANCE, the practice-app home note and the release workflow comment, and replaces the README previews with v1.14.0 captures. Preserves the previous bytes of these files; this record does not change question IDs, answers, quotes or source originals.",
+  "archive": "bank/audit/history/2026-11-14-before-release-1.14.0.zip",
+  "archive_sha256": "15ecaca1c9711a936d54d3fc4ffb1beb79cd6ff5e1228e8d442cfa4de0cfbeb9",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "c0fc21d2058022c73a3404806e5f4899d1bafbd295d3cf415529c0ea7623f16f",
+      "after_sha256": "f7b33a9fc13d731ca04000999acaca440c035e31d791f1a1569dead28293315d"
+    },
+    "README.md": {
+      "before_sha256": "0257e7f3b857d0727deb8eff37684cfdbcccffffd09006d9a0dc999d9b0eb5db",
+      "after_sha256": "392a65e07bab5203b5b7020e5245637ca92163a102940733315b41c9c8ec920b"
+    },
+    "README.zh-Hant.md": {
+      "before_sha256": "2836abaa8bab15506b1ae3a1a4764d72d479f8e375385b839a570e301f37e229",
+      "after_sha256": "59faacc18bb741e654391459fb85a2cb15075eaf50585b95eadaf94779e230c6"
+    },
+    "DEVELOPMENT.md": {
+      "before_sha256": "96db09a9bee7a5909a64ca48951b9134d8391e0aa517069b7a5941be328790e0",
+      "after_sha256": "cf7d470a202b340d28483c4108a79f72d6ff43466263606712d09859c4f4d234"
+    },
+    "DEVELOPMENT.zh-Hant.md": {
+      "before_sha256": "0b0f1e59c05c59617d268c1defa3d7b558e58dfbcefef478e9f36dcc15449623",
+      "after_sha256": "c8a44034566a26ca8d692985ad33449982cf9dd7643da367cd4eacce7ed8a920"
+    },
+    "AGENTS.md": {
+      "before_sha256": "4ef121aaef862e8a55ea3ed72a79a298848f72fc9acdbd5e01c427435ae16deb",
+      "after_sha256": "9748992a043fd38fb4b7608bb556d88ef996ee80c70e76219307c2d01b06f976"
+    },
+    "docs/INDEX.md": {
+      "before_sha256": "234bba37f8b2719e5225d8ed872f2c6dfb617d69ae2e1c75094ad8df84e7dadf",
+      "after_sha256": "44a9ccda0c9b5dbe4e1fc6dbee76cdfff5242e96315644aaf7cb6205f103ff54"
+    },
+    "docs/build_catalog.py": {
+      "before_sha256": "44f7897e5642942a76efed43b74af1741cba243268cfc07b0dbedc6ed3129a59",
+      "after_sha256": "037977f39e6f7c3ea1820cd7f50f65cde2486ca681b7bcc2ec5a91ebe1b7e44a"
+    },
+    "docs/README.md": {
+      "before_sha256": "c012a82eb481efb45ff31d90bf1813bba38e08b5003bed34a4ce327d669ad9d5",
+      "after_sha256": "b37b52b183b9e5692314ed24ce0423a022d62341f99614f20ac87696fe1a393f"
+    },
+    "docs/README.zh-Hant.md": {
+      "before_sha256": "1eda671bd63e1b222ee38f06500967b0bcced74c670a2006ee3afe3ed869cb27",
+      "after_sha256": "ca9fb84dc5477a175bd460d19751a96e58255800c1dd7d9e6138ceeb47e5d244"
+    },
+    "docs/archive/README.md": {
+      "before_sha256": "d247a0ee09537340e61d58776599c210187d93c89d3781ed4372b62212af61ed",
+      "after_sha256": "9563f0e4784e7b35c841deb4dbbb3a3c75786b1953ed35d938de6aa61cf0762d"
+    },
+    "docs/archive/README.zh-Hant.md": {
+      "before_sha256": "fb023783117be1e05d746c9d8f10f35e1dccea9a505b4f85990ab7567358eebb",
+      "after_sha256": "5e37e2d9759d8ac274526e9ae98d3bd00e90b1592fd86d107fe3f9e187d649c4"
+    },
+    "docs/SOURCE-MAINTENANCE.md": {
+      "before_sha256": "399a2a859fb1ae54493a2137e761922c7748af834408614e9e06545ce9069aa5",
+      "after_sha256": "5ce6070019f9858940d0901082227e6f33f4fa6182f194e1efa4730581578989"
+    },
+    "docs/SOURCE-MAINTENANCE.zh-Hant.md": {
+      "before_sha256": "a1ca230de806bac234c7e10f7722c5fa29596c61689bbf1d121e8a9aa4c51d3a",
+      "after_sha256": "65c51debe26af7e453fb9bfd502787d7ee66ecb388e1727ee156e9f75ee8818e"
+    },
+    "docs/images/readme-previews.json": {
+      "before_sha256": "e67b00d342a6e30efd27471a067556799f977451c91546e7b7249a080319c0a6",
+      "after_sha256": "128391181a10bfee7f410a48991fa27c46874ee49d0482b1fd9e013140a9f8ac"
+    },
+    "revision/study-notes/README.md": {
+      "before_sha256": "95b3f5b47ca8ade6787d695815503969f6598b79da2dee7a8212f506c4d45125",
+      "after_sha256": "ef1abd54bef89886371f1d921b32a785e6a648a5a222cbf21aacef40e7c46389"
+    },
+    "revision/README.md": {
+      "before_sha256": "4f2eedf8bd75f9ce05d6607c829d77bcc3f2b433777b63656664fca8ffa82c7b",
+      "after_sha256": "d2425361d5f7c5e905fc5aac431a2fc036b958090c763cf4ac68cad558a6afc0"
+    },
+    "scripts/build_study_bundle.py": {
+      "before_sha256": "2897d575da4c5cdbdc21f005d9a315333b42fb30885e39311877f68094dbc7a7",
+      "after_sha256": "5dee4255d830ebc3504eda03e4433772e8c1fcc3829182a2cbf93ad95f2dbcb3"
+    },
+    "web/app.js": {
+      "before_sha256": "a9313fa7eb71d8996600829877b825827d6aadab31ae0e9b9186c2ef2f5338a7",
+      "after_sha256": "cf1e022e70e07ccad7ee5f75ab86c848c5f0ec239d4de35bc00a3b0ffb1eb9e2"
+    },
+    ".github/workflows/release.yml": {
+      "before_sha256": "335d1b724d103926a5e15e527566f72a48c4b32b374cce952d2e6798cc250cac",
+      "after_sha256": "1004e6cfd28834a4b373000627947e08fb47600a104a5839e5e1e33a4b35fbf1"
+    },
+    "questions_test.go": {
+      "before_sha256": "ef06da8b2c61fb41040652e3575dab165f836dc3b8ad79e608227755115e759e",
+      "after_sha256": "e78c47dd73c1c97ffe4f68ea5edce247594554e5f46f6f85b77b22180402e055"
+    }
+  },
+  "documentation_updates": {}
+}

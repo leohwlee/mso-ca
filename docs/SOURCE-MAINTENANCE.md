@@ -9,8 +9,8 @@ use the same two-digit number. `catalog.json` is one flat sequence:
 
 - 01-09: High.
 - 10-19: Medium Essential.
-- 20-26: Medium Selected.
-- 27-47: reference archive, continuing the same sequence.
+- 20-24 and 26: Medium Selected. Document 25 is archived in the middle of the sequence; number 25 stays reserved.
+- Document 25 and 27-47: reference archive, continuing the same sequence.
 
 Companions have their own numbers. **17** is the full Cap. 34 after circular **16**;
 **23** is the full Cap. 629 after circular **22**. `parent_document` records their
