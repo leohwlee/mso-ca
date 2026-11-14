@@ -1,17 +1,17 @@
-# Active question sources: 01–26
+# Active question sources: 01–24 and 26
 
-Only these 26 local publications may support active questions. Documents 27–47 are excluded. Counts use deciding statement quotes, not a claim of complete document coverage. A question can use several documents.
+Only these 25 local publications (01–24 and 26) may support active questions. Document 25 and documents 27–47 are excluded. Counts use deciding statement quotes, not a claim of complete document coverage. A question can use several documents.
 
 | Part | Questions |
 |---|---|
-| 1 | 68 |
+| 1 | 60 |
 | 2 | 81 |
 | 3 | 71 |
 | 4 | 89 |
-| 5 | 84 |
+| 5 | 80 |
 | 6 | 123 |
-| 7 | 72 |
-| **Total** | **588** |
+| 7 | 68 |
+| **Total** | **572** |
 
 | Document | Original | Questions with deciding quotes |
 |---|---|---|
@@ -33,14 +33,13 @@ Only these 26 local publications may support active questions. Documents 27–47
 | 16 | [Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025)](EN/16_Medium-Essential_Circular%20-%20Amendments%20to%20the%20Money%20Changers%20Ordinance%20Cap%2034%20(17%20Nov%202025).pdf) | 1 |
 | 17 | [Full Money Changers Ordinance, Cap. 34](EN/17_Medium-Essential_Full%20Money%20Changers%20Ordinance,%20Cap.%2034%20(2025-08-24,%20Bilingual).pdf) | 9 |
 | 18 | [Circular - Trade-based Money Laundering Guidance (20 Jan 2026)](EN/18_Medium-Essential_Circular%20-%20Trade-based%20Money%20Laundering%20Guidance%20(20%20Jan%202026).pdf) | 5 |
-| 19 | [Circular - Statements issued by the FATF (3 Jul 2026)](EN/19_Medium-Essential_Circular%20-%20Statements%20issued%20by%20the%20FATF%20(3%20Jul%202026).pdf) | 2 |
+| 19 | [Circular - Statements issued by the FATF (3 Jul 2026)](EN/19_Medium-Essential_Circular%20-%20Statements%20issued%20by%20the%20FATF%20(3%20Jul%202026).pdf) | 4 |
 | 20 | [Guidelines for Submission of Business Plan (Ver 12-2019)](EN/20_Medium-Selected_Guidelines%20for%20Submission%20of%20Business%20Plan%20(Ver%2012-2019).pdf) | 7 |
 | 21 | [Guidelines for Submission of AML-CFT Policy (Ver 12-2019)](EN/21_Medium-Selected_Guidelines%20for%20Submission%20of%20AML-CFT%20Policy%20(Ver%2012-2019).pdf) | 6 |
 | 22 | [Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018)](EN/22_Medium-Selected_Circular%20-%20Cross-boundary%20Movement%20of%20Currency%20Ordinance%20Cap%20629%20(31%20Jul%202018).pdf) | 2 |
-| 23 | [Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629](EN/23_Medium-Selected_Full%20Cross-boundary%20Movement%20of%20Physical%20Currency%20and%20Bearer%20Negotiable%20Instruments%20Ordinance,%20Cap.%20629%20(2026-07-31,%20Bilingual).pdf) | 10 |
+| 23 | [Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629](EN/23_Medium-Selected_Full%20Cross-boundary%20Movement%20of%20Physical%20Currency%20and%20Bearer%20Negotiable%20Instruments%20Ordinance,%20Cap.%20629%20(2026-07-31,%20Bilingual).pdf) | 14 |
 | 24 | [Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021)](EN/24_Medium-Selected_Trade-Based%20Money%20Laundering%20Risk%20Indicators%20-%20FATF%20and%20Egmont%20(Mar%202021).pdf) | 10 |
-| 25 | [Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022)](EN/25_Medium-Selected_Hong%20Kong%20Money%20Laundering%20and%20Terrorist%20Financing%20Risk%20Assessment%20Report%20(2022).pdf) | 23 |
-| 26 | [Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018)](EN/26_Medium-Selected_Circular%20-%20United%20Nations%20Sanctions%20-%20Principles%20and%20Early%20Alerts%20(7%20Feb%202018).pdf) | 3 |
+| 26 | [Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018)](EN/26_Medium-Selected_Circular%20-%20United%20Nations%20Sanctions%20-%20Principles%20and%20Early%20Alerts%20(7%20Feb%202018).pdf) | 4 |
 
 Document 24 is English-only: Chinese questions are labelled study translations and retain English quotes. External publications merely linked by a circular do not become sources.
 

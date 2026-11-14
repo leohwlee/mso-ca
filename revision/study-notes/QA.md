@@ -6,7 +6,7 @@ the preceding version is preserved in `history/2026-10-19-bank-derived.zip`.
 ## Provenance / 來源
 
 Seven manuscripts were authored from the repository's original publications
-01–26. The main structure follows the seven assessment Parts in source 01.
+01–26 (the then-selected set). The main structure follows the seven assessment Parts in source 01.
 Definitions, actors, modal strength, thresholds, deadlines, exceptions and dated
 findings are taught directly. The renderer does not load the question/quote bank.
 The final build contains 74 topics and 450 bilingual explanatory points, with
@@ -27,6 +27,10 @@ a study translation from its English original. Existing conflict decisions apply
 
 第25份以行政摘要、方法及MSO行業為重點；第02份只用於題型說明。日期性資料
 保留原出版時間，不宣稱已核實repo版本以外的最新法例或名單。
+
+On 14 November 2026 the owner removed document 25 from personal practice reading and from the live notes and question scope. The 19 October provenance above records the then-selected 01–26 set; current selected originals are 01–24 and 26. Number 25 stays reserved. This is a study selection, not a finding that the official exam cannot use the report.
+
+2026年11月14日擁有人把第25份移出個人練習閱讀、現行筆記及題庫。上文10月19日來源說明記錄的是當時選定的01–26；現行選定原文為01–24及26，第25號保留。這是學習取捨，不是斷定正式考試不會用該報告。
 
 `coverage.json` binds the seven manuscripts and original extracted texts by
 SHA-256 and lists each source-to-section route. Anchor checks establish that a

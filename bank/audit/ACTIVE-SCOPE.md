@@ -1,21 +1,24 @@
-# Active 01–26 question-bank scope
+# Active 01–24 and 26 question-bank scope
 
 Owner decision: 18 October 2026. Approximately 525 bilingual combination questions; seven parts; mock exam and custom practice only. This personal practice scope is not the official exam syllabus.
 
 Owner request: 2026-10-23. Add about 25–30 questions for the gaps found in the 23 October bank review and correct the statements it flagged; then add about five more questions whose answer is None of the above.
 Owner request: 2026-10-23. Second batch of the 23 October review: add 30–40 questions whose false statements turn on a number, period, name or actor (blind-reviewed), replace the statement that mirrored another item, and give the two items that shared a stem their own stems.
+Owner request: 2026-11-14. Remove the 2022 Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report from personal MSO Competence Assessment practice materials entirely, including as a reference document and as a source of practice questions. The report did not come up on the exam the owner sat, and he does not want a large study session or questions set from it. This is a personal practice-scope decision, not a claim that the official exam can never use the report.
+Owner request: 2026-11-14. After removing the 2022 Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report from the personal practice materials, generate new practice questions from the remaining official sources (documents 01–24 and 26) if the bank would otherwise fall short. This follow-up adds Part 1 questions from those remaining sources so the module again meets the 60-question floor in tests/questions_test.go.
+Owner request: 2026-11-14. After the Part 1 top-up, repair the wording of the new Part 1 items so that absolute-qualifier tells do not mark false statements, without changing truth values, IDs or legal defects, so the bank meets the TestNoAbsoluteTell statistical floors.
 
-Active questions: **588**. Statements: **2760**.
+Active questions: **572**. Statements: **2703**.
 
 | Part | Questions | Mock draw |
 |---|---|---|
-| 1 | 68 | 5 |
+| 1 | 60 | 5 |
 | 2 | 81 | 5 |
 | 3 | 71 | 5 |
 | 4 | 89 | 5 |
-| 5 | 84 | 5 |
+| 5 | 80 | 5 |
 | 6 | 123 | 5 |
-| 7 | 72 | 5 |
+| 7 | 68 | 5 |
 
 ## Review and provenance
 
@@ -31,21 +34,30 @@ Reviewers answered without keys or explanations. Agents inherited the parent mod
 
 Each later change has its own record in `active-followups/` and an archive of the bank it started from. The check unwinds them newest first and then validates the record above unchanged. Revised items keep their IDs; their earlier text and quotes stay in the archive.
 
-| Date | Added | Revised | Blind review records | Archive |
-|---|---|---|---|---|
-| 2026-10-23 | 27 | 12 | 39 | `history/2026-10-23-before-gap-items.zip` |
-| 2026-10-23 | 36 | 2 | 38 | `history/2026-10-23-before-number-traps.zip` |
+| Date | Added | Revised | Retired | Blind review records | Archive |
+|---|---|---|---|---|---|
+| 2026-10-23 | 27 | 12 | 0 | 39 | `history/2026-10-23-before-gap-items.zip` |
+| 2026-10-23 | 36 | 2 | 0 | 38 | `history/2026-10-23-before-number-traps.zip` |
+| 2026-11-14 | 0 | 0 | 23 | 0 | `history/2026-11-14-before-retire-report25.zip` |
+| 2026-11-14 | 7 | 1 | 0 | 8 | `history/2026-11-14-before-part1-topup.zip` |
+| 2026-11-14 | 0 | 6 | 0 | 6 | `history/2026-11-14-before-absolute-tell-fix.zip` |
 
 2026-10-23: 27 questions added and 12 revised. Every added or revised item was answered blind, statement by statement in both languages, from the cited sources by Claude subagents (claude-opus-5-5, the same model as the author) working in fresh contexts without keys, explanations or quotes; this is independent-context review, not a different-model panel. No verdict differed from the key in any round. After round 1 (34 items) the wording reviewers questioned and the differences between languages were corrected, and 22 items were reviewed again by two new subagents, with doubts limited to cases where a careful candidate could reasonably reach the opposite verdict; round 3 reviewed the five items with no true statement added on the owner's second request. One round-2 doubt (m6-480, how the Chinese writes the more-than-25% threshold) is kept with the author's resolution. Each recorded verdict is bound to the final stem, statements and citation by a text hash.
 
 2026-10-23: 36 questions added and 2 revised. Every statement of every item was answered blind, in both languages, from the cited sources by Claude subagents (claude-fable-5-1, the same model as the author) working in fresh contexts without keys, explanations or quotes; this is independent-context review, not a different-model panel. The batch targets the traps the 23 October review found under-tested: a number, period, name or actor changed in an otherwise faithful statement (14 years / $5 million, 10 working days, 45 days, 7 days, $1,000,000 versus $10,000,000, 21 days, THREE nominees, 102x152 mm, two years, 3 business days, 3-year training records, and the names of the six main laws, the two penalty guidelines, the Immigration Ordinance and the Hong Kong Association of Banks). Each recorded verdict is bound to the final stem, statements and citation by a text hash; doubts carry the author's resolution.
 
+2026-11-14: 23 questions that cited only document 25 were retired and their IDs reserved in bank/retired-ids.json. Document 25 was moved from daily reading to the catalog archive; number 25 stays reserved and document 26 is not renumbered. Extracted texts at docs/text/EN/25.txt and docs/text/TC/25.txt are unchanged so historical source-text bindings still verify. No questions were added or revised, so no new blind answers or coverage mappings were required. Live study-note blocks that depended only on the 2022 report were dropped; a point that also appears in an allowed source was re-cited to that source.
+
+2026-11-14: Seven questions were added (m1-229 to m1-235) and one was revised (m1-226). The revision narrows the section 18 continuation and two-year cap in m1-226 to cash-type items suspected to be crime proceeds, and states the section 17(2) ten-working-day period as subject to sections 18 and 19. The new items cover the section 18 crime-proceeds-only scope and the definition of Court, section 18 extensions and return to an interested person, section 19 further detention, the 3 July 2026 Call for Action and increased-monitoring buckets, the cumulative section 18(2) conditions, and the 7 February 2018 early-alert and client-list screening passages that exist in both the English and the truncated Chinese file of document 26. Every added or revised item was answered blind, statement by statement in both languages, from the cited sources by executor subagents working in fresh contexts without keys, explanations or quotes; this is independent-context review, not a different-model panel. All 41 first-round verdicts matched the key. Wording of m1-226 and m1-235 was then tightened to close a second reading of the initial detention period as an absolute cap, to align English and Chinese modals, and to include the official Chinese note that the increased-monitoring statement on the FATF website is in English only. Those two items were reviewed again against the final text; all 9 second-round verdicts matched the key, with no remaining doubts or language mismatches. Two first-round doubts on unchanged items (m1-233-1 and m1-234-3) are kept with the author’s resolution. Each recorded verdict is bound to the final stem, statements and citation by a text hash. Truth values of m1-226 were unchanged, so its option sets were retained.
+
+2026-11-14: Six already-live Part 1 items were revised (m1-229, m1-230, m1-231, m1-233, m1-234 and m1-235). No questions were added or retired. The legal defects, truth values, traps, stems, option sets, notes, quotes and other statements are unchanged, except for the language-alignment edits recorded below. The first pass removed absolute-qualifier tells from seven false English statements, and from the matching Traditional Chinese where that text also used a word in the Chinese absolute regex. After an independent review of that text, two language-alignment issues were fixed rather than left with unresolved doubts or language mismatches: the parenthetical 「（只備有英文版）」 was removed from the Chinese of true statement m1-235-1 so both languages state the same supported fact, and the English of false statement m1-234-3 was later rewritten so it states the same mandatory delay as the unchanged Chinese, still without TestNoAbsoluteTell tokens. Every revised item was answered blind, statement by statement in both languages, from the cited sources by executor subagents working in fresh contexts without keys, explanations or quotes; this is independent-context review, not a different-model panel. All 30 first-round verdicts on the six items matched the key. The final text of m1-229, m1-230, m1-231 and m1-233 is bound to that first-round review. m1-234 and m1-235 were reviewed again after the first alignment; all 9 second-round verdicts matched the key, and m1-235 is bound only to that second-round review. m1-234 was reviewed a third time after the further English alignment; all 5 third-round verdicts matched the key, with no remaining doubts or language mismatches, and it is bound only to that third-round review. Each recorded verdict is bound to the final stem, statements and citation by a text hash. Truth values were unchanged, so existing option sets and answer indexes were retained.
+
 ## Coverage boundaries
 
-- Only local publications 01–26 support answers, including exceptions and distractors. Numbering does not import documents linked by a circular.
+- Only local publications 01–24 and 26 support answers, including exceptions and distractors. Numbering does not import documents linked by a circular.
 - Coverage maps distinguish a new rule from a new application. Decision-changing scenarios may reuse a rule; decorative variants and repeated statements are excluded.
 - Document 24 has no official Chinese edition. Its Chinese questions and explanations are study translations, visibly labelled; deciding quotes remain English.
-- Report 25 findings are explicitly dated to the 2022 report, not presented as a live country-risk assessment.
+- Document 25, the 2022 risk assessment report, was in the 18 October 2026 01–26 selection and was removed from the active practice scope on 14 November 2026. It cannot support live questions. Its findings remain historical evidence.
 - Source quote checks verify occurrence, not legal meaning. Blind answers and explanation review provide the semantic checks; no claim of perfect accuracy or complete official exam coverage is made.
 
-[Source-by-source accounting](../../docs/QUESTION-SOURCES.md) · [Machine-readable evidence](active26-implementation.json) · [2026-10-23 follow-up](active-followups/2026-10-23-gap-items.json) · [2026-10-23 follow-up](active-followups/2026-10-23-number-traps.json)
+[Source-by-source accounting](../../docs/QUESTION-SOURCES.md) · [Machine-readable evidence](active26-implementation.json) · [2026-10-23 follow-up](active-followups/2026-10-23-gap-items.json) · [2026-10-23 follow-up](active-followups/2026-10-23-number-traps.json) · [2026-11-14 follow-up](active-followups/2026-11-14-retire-report25.json) · [2026-11-14 follow-up](active-followups/2026-11-14-z-part1-topup.json) · [2026-11-14 follow-up](active-followups/2026-11-14-zz-absolute-tell-fix.json)

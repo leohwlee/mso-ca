@@ -2,12 +2,13 @@
 
 [返回精簡閱讀目錄](../README.zh-Hant.md)
 
-v1.13.4的正式筆記和離線學習包只納入01–26；本目錄的27–47仍供參考，不因本次發佈而納入。見[現行筆記及覆核限制](../../revision/study-notes/README.md)。
+最近一次已發佈的v1.13.4筆記和離線學習包當時納入01–26。其後擁有人於2026年11月14日把第25項移入本目錄；現行日常閱讀及題庫為01–24及26。27–47仍供參考，不因本次工作而納入。見[現行筆記及覆核限制](../../revision/study-notes/README.md)。
 
-共21項，保留原件供查閱及驗證歷史題庫；不支援現行題目，也不需要在第一輪逐份閱讀。這是復習取捨，不是判定文件已失效。部分材料仍有獨立例子或歷史資訊；只是不再列入日常閱讀。
+共22項，保留原件供查閱及驗證歷史題庫；不支援現行題目，也不需要在第一輪逐份閱讀。這是復習取捨，不是判定文件已失效。部分材料仍有獨立例子或歷史資訊；只是不再列入日常閱讀。第25項因擁有人2026年11月14日的練習範圍決定列入本目錄，編號保留，第26項並不改號。
 
 | 現行編號 | 文件及原件 | 移出原因／改讀甚麼 |
 |---|---|---|
+| 25 | **香港洗錢及恐怖分子資金籌集風險評估報告（2022年）** · [EN](<EN/25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf>) · [TC](<TC/25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf>) | 擁有人於2026年11月14日決定，因他應考時未遇見這份《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年），故將其移出個人練習閱讀及現行題庫範圍。這是復習取捨，並非斷定官方考試不會用到該報告。 |
 | 27 | **公安機關打擊「換錢黨」衍生違法犯罪的官方報道** · [ZH](<ZH/27_Reference_Official report on operations against illegal activities associated with money changers (2024-07, ZH).html>) | 新聞背景，沒有新增MSO合規要求。 |
 | 28 | **FATF擴散融資風險評估及緩解指引** · [EN](<EN/28_Reference_FATF Guidance on Proliferation Financing Risk Assessment and Mitigation (2021-06, EN).pdf>) | 國際方法及培訓延伸；本輪先掌握第03及09項的本地要求，需要深入例子時再查。 |
 | 29 | **大殺傷力武器擴散融資風險評估及緩解講義** · [BI](<BI/29_Reference_Webinar on Proliferation Financing Risk Assessment and Mitigation (2021-08, Bilingual).pdf>) | 國際方法及培訓延伸；本輪先掌握第03及09項的本地要求，需要深入例子時再查。 |
@@ -30,7 +31,7 @@ v1.13.4的正式筆記和離線學習包只納入01–26；本目錄的27–47�
 | 46 | **第16項建議實施指引諮詢說明文件** · [EN](<EN/46_Reference_R.16 Guidance public consultation explanatory memorandum (2026-06 consultation, EN).pdf>) | 支付透明度指引的歷史諮詢通知，非香港已生效要求；本輪不列作主要復習材料。 |
 | 47 | **第16項建議實施指引諮詢草案** · [EN](<EN/47_Reference_Draft Recommendation 16 Guidance for consultation (2026-06 consultation draft, EN).docx>) | 支付透明度指引的歷史諮詢通知，非香港已生效要求；本輪不列作主要復習材料。 |
 
-歷史參考資料接續日常材料，統一編為27–47。BI表示中英雙語，ZH表示官方簡體中文；不冒充繁體中文譯本。
+歷史參考資料包括故意保留在序列中間的第25項，以及接續編為27–47的材料。BI表示中英雙語，ZH表示官方簡體中文；不冒充繁體中文譯本。
 
 [改號前下載核對歷史](../../bank/audit/history/2026-10-18-download-review-before-continuous-numbering.json)
 

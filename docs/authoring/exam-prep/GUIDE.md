@@ -7,12 +7,12 @@ those rules in another skill or invent a new format.
 
 ## Scope and source decisions
 
-- Only documents **01–26** may decide active questions. Resolve editions through
+- Only documents **01–24 and 26** may decide active questions. Resolve editions through
   `docs/catalog.json`; document number, filename prefix and quote ID are identical.
 - Read [source maintenance](../../SOURCE-MAINTENANCE.md) before changing sources.
   External links, archived publications and the old revision pack do not extend scope.
 - Use each official language edition. Document 24 has English only: label Chinese
-  items as study translations and retain English quotes. Document 25 findings refer to 2022.
+  items as study translations and retain English quotes. Document 25 was removed from the personal practice scope on 14 November 2026 and must not decide new or retained active questions.
 - Follow the existing [source-conflict decisions](../../../revision/CONFLICT-CALLS.md).
   If an unresolved conflict changes the correct answer, identify the exact passages
   and ask the owner to resolve it. Reuse settled decisions and authorization.

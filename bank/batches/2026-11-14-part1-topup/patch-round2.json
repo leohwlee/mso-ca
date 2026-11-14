@@ -1,0 +1,192 @@
+[
+  {
+    "id": "m1-226",
+    "module": 1,
+    "truth": [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      "period",
+      null,
+      "actor"
+    ],
+    "source": {
+      "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629, ss.17–18",
+      "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》（第629章）第17至18條"
+    },
+    "en": {
+      "q": "Regarding the seizure and detention of cash-type items (CBNIs) under the Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, which of the following are correct?",
+      "statements": [
+        "Subject to sections 18 and 19, CBNIs seized under section 17 on suspicion that they are crime proceeds or terrorist property may be detained for not more than 10 working days after the day of seizure.",
+        "For that purpose a working day under section 17(4) is a day that is not a general holiday or a Saturday, and not a black rainstorm warning day or a gale warning day as defined by section 71(2) of Cap. 1.",
+        "An order made under section 18(2) authorising continued detention of CBNIs suspected to be crime proceeds may specify a period of up to 6 months beginning on the date of the order.",
+        "Under section 18(5), a new order extending detention of CBNIs suspected to be crime proceeds must not take the total period beyond 2 years beginning on the date of the order made under section 18(2).",
+        "Within the period mentioned in section 17(2), the authorized officer may apply to a magistrate for the order authorising continued detention of CBNIs suspected to be crime proceeds."
+      ],
+      "notes": [
+        "Correct: section 17(2) provides that, subject to sections 18 and 19, an authorized officer may detain such CBNIs for a period of not more than 10 working days after the day of seizure. Sections 18 and 19 then deal with continued detention.",
+        "Correct: s.17(4) defines a working day as a day that is not a general holiday or a Saturday, or a black rainstorm warning day or gale warning day.",
+        "Incorrect: even for CBNIs reasonably suspected to be property mentioned in s.17(1)(a), s.18(3) says the period specified in the order must not exceed 3 months beginning on the date of the order; 6 months is not the limit.",
+        "Correct: s.18 applies to CBNIs the officer reasonably suspects to be property mentioned in s.17(1)(a). A new order must not result in the total period of detention exceeding 2 years beginning on the date of the order made under s.18(2).",
+        "Incorrect: s.18(1) has the authorized officer apply to the Court, not a magistrate, for an order authorising continued detention of CBNIs reasonably suspected to be property mentioned in s.17(1)(a)."
+      ]
+    },
+    "tc": {
+      "q": "關於《實體貨幣及不記名可轉讓票據跨境流動條例》下檢取及扣留現金類物品的規定，下列哪些陳述正確？",
+      "statements": [
+        "除第18及19條另有規定外，根據第17條因懷疑屬犯罪得益或恐怖分子財產而檢取的現金類物品，可予扣留，惟扣留期間不得超過檢取日期後的10個工作日。",
+        "就此而言，第17(4)條所指的「工作日」指並非公眾假期或星期六，亦非《釋義及通則條例》（第1章）第71(2)條所界定的黑色暴雨警告日或烈風警告日的任何一個日子。",
+        "根據第18(2)條作出的、授權繼續扣留懷疑屬犯罪得益的現金類物品的命令，所指明期間不得超過自該命令日期起計的6個月。",
+        "根據第18(5)條，延長扣留懷疑屬犯罪得益的現金類物品的新命令，不得使總扣留期間超過自根據第18(2)條作出的命令的日期起計的2年。",
+        "獲授權人員可在第17(2)條所述的最初扣留期間內，向裁判官申請命令，以授權繼續扣留該人員合理地懷疑屬犯罪得益的現金類物品。"
+      ],
+      "notes": [
+        "正確：第17(2)條訂明，除第18及19條另有規定外，獲授權人員可扣留該等現金類物品，惟扣留期間不得超過檢取日期後的10個工作日。第18及19條其後處理繼續扣留。",
+        "正確：第17(4)條界定工作日為並非公眾假期或星期六，亦非黑色暴雨警告日或烈風警告日的日子。",
+        "不正確：即使是合理地懷疑屬第17(1)(a)條所述財產的現金類物品，第18(3)條亦訂明命令指明的期間不得超過自該命令的日期起計的3個月，並非6個月。",
+        "正確：第18條適用於該人員合理地懷疑屬第17(1)(a)條所述財產的現金類物品。新命令不得致使總扣留期間超過自根據第18(2)條作出的命令的日期起計的2年。",
+        "不正確：第18(1)條訂明，獲授權人員須向法院而非裁判官，申請授權繼續扣留合理地懷疑屬第17(1)(a)條所述財產的現金類物品的命令。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "23",
+          "text": "Subject to sections 18 and 19, an authorized officer may detain the CBNIs for a period of not more than 10 working days after the day of seizure"
+        },
+        {
+          "doc": "23",
+          "text": "working day (工作日) means a day that is not— (a) a general holiday or a Saturday; or (b) a black rainstorm warning day or gale warning day as defined by section 71(2) of the Interpretation and General Clauses Ordinance (Cap. 1)"
+        },
+        {
+          "doc": "23",
+          "text": "The period must not exceed 3 months beginning on the date of the order"
+        },
+        {
+          "doc": "23",
+          "text": "result in the total period of the detention of the CBNIs exceeding 2 years beginning on the date of the order made under subsection (2)"
+        },
+        {
+          "doc": "23",
+          "text": "apply to the Court for an order to authorize the continued detention of CBNIs the officer reasonably suspects to be property mentioned in section 17(1)(a)"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "23",
+          "text": "除第18及19條另有規定外，獲授權人員可扣留有關現金類物品，惟扣留期間不得超過檢取日期後的10個工作日"
+        },
+        {
+          "doc": "23",
+          "text": "工作日 (working day) 指並非以下日子的日子 —— (a) 公眾假期或星期六；或 (b) 《釋義及通則條例》( 第1 章) 第71(2) 條所界定的黑色暴雨警告日或烈風警告日"
+        },
+        {
+          "doc": "23",
+          "text": "該期間不得超過自該命令的日期起計的3 個月"
+        },
+        {
+          "doc": "23",
+          "text": "不得致使有關現金類物品的總扣留期間，超過自根據第(2) 款作出的命令的日期起計的2 年"
+        },
+        {
+          "doc": "23",
+          "text": "向法院申請命令，以授權將該人員合理地懷疑屬第17(1)(a) 條所述的財"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m1-235",
+    "module": 1,
+    "truth": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      "condition",
+      "scope"
+    ],
+    "source": {
+      "en": "C&ED Circular MSSB/FATF_02/2026 (3 July 2026) item (2)",
+      "tc": "香港海關通函 MSSB/FATF_02/2026（2026年7月3日）第(2)項"
+    },
+    "en": {
+      "q": "Regarding the FATF statement on jurisdictions under increased monitoring, as described in the C&ED circular of 3 July 2026, which of the following are correct?",
+      "statements": [
+        "In addition to the statement on High-Risk Jurisdictions subject to a Call for Action, the FATF has issued an updated statement on Jurisdictions under Increased Monitoring, which the circular indicates can be found on the FATF website.",
+        "The FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies in their regimes to counter money laundering, terrorist financing and proliferation financing.",
+        "Jurisdictions placed under increased monitoring are, by that listing alone, already subject to a FATF call for applying countermeasures to protect the international financial system.",
+        "The jurisdictions under increased monitoring, as described in that FATF statement, are limited to Myanmar only, and no other jurisdiction appears on the increased-monitoring list."
+      ],
+      "notes": [
+        "Correct: item (2) of the circular says that, in addition, the FATF has issued an updated statement on Jurisdictions under Increased Monitoring, and gives the address on the FATF website where that statement can be found.",
+        "Correct: the circular states that the FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies.",
+        "Incorrect: a call for applying countermeasures belongs to the Call for Action high-risk bucket, not to the increased-monitoring list as such.",
+        "Incorrect: increased monitoring is not confined to Myanmar. Myanmar is dealt with in the Call for Action statement, under the enhanced due diligence heading, and the increased-monitoring statement covers a list of jurisdictions."
+      ]
+    },
+    "tc": {
+      "q": "關於海關於2026年7月3日通函第(2)項所述，財務行動特別組織有關被加強監察的司法管轄區的聲明，下列哪些陳述正確？",
+      "statements": [
+        "除呼籲各方對高風險司法管轄區採取行動的聲明外，特別組織亦已發布一份有關被加強監察的司法管轄區的最新聲明，該聲明可於其網站（只備有英文版）取覽。",
+        "特別組織將會密切監察這些已被列入該份有關被加強監察的司法管轄區名單的司法管轄區，在處理該聲明所指已識別的策略性缺失方面所取得的進展。",
+        "單憑某一司法管轄區被列入被加強監察的司法管轄區名單，該司法管轄區便已經屬需遵從特別組織要求而採取針對措施的司法管轄區。",
+        "被加強監察的司法管轄區只限於緬甸一地，該份有關被加強監察的司法管轄區的最新名單並無載列緬甸以外的任何其他司法管轄區。"
+      ],
+      "notes": [
+        "正確：該通函第(2)項述明，此外，特別組織已發布一份有關被加強監察的司法管轄區的最新聲明，並提供該聲明可於特別組織網站取覽的位置。",
+        "正確：通函訂明，特別組織將會密切監察這些司法管轄區在處理已識別的策略性缺失方面的進展。",
+        "不正確：要求採取針對措施的呼籲屬呼籲採取行動的高風險一類，並非單憑被列入加強監察名單便會適用。",
+        "不正確：被加強監察並不限於緬甸。緬甸是在呼籲採取行動的聲明中，列於更嚴格盡職審查標題之下，而被加強監察的聲明則載有一份司法管轄區名單。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "19",
+          "text": "In addition, the FATF has issued an updated statement on Jurisdictions under Increased Monitoring"
+        },
+        {
+          "doc": "19",
+          "text": "The FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies"
+        },
+        {
+          "doc": "19",
+          "text": "Jurisdictions subject to a FATF call for applying countermeasures"
+        },
+        {
+          "doc": "19",
+          "text": "The statement sets out the list of jurisdictions that have committed to resolve swiftly strategic deficiencies in their regime to counter money laundering, terrorist financing, and proliferation financing within agreed timeframes and are subject to increased monitoring"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "19",
+          "text": "此外，特別組織發布了一份有關被加強監察的司法管轄區的最新聲明"
+        },
+        {
+          "doc": "19",
+          "text": "特別組織將會密切監察這些司法管轄區在處理已識別的策略性缺失方面的進展"
+        },
+        {
+          "doc": "19",
+          "text": "需遵從特別組織要求而採取針對措施的司法管轄區"
+        },
+        {
+          "doc": "19",
+          "text": "該聲明載有承諾於協定時間內迅速解決其在打擊洗錢、恐怖分子資金籌集及大規模毀滅武器擴散資金籌集制度方面的策略性缺失，且受加強監察的司法管轄區的名單"
+        }
+      ]
+    }
+  }
+]

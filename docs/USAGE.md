@@ -8,7 +8,7 @@ Download **mso-study-bundle.zip** from the
 [latest release](https://github.com/leohwlee/mso-ca/releases/latest). Choose that
 asset, rather than GitHub's source-code ZIP. Extract everything and open
 `index.html` in a browser. Keep the folder structure: the bundle contains the
-seven-part notes, the practice app (`dist/mso-ca.html`) and the cited 01–26
+seven-part notes, the practice app (`dist/mso-ca.html`) and the cited 01–24 and 26
 originals, and their links work offline only when kept together.
 
 Choose English, Traditional Chinese or the combined view using the language
@@ -74,13 +74,13 @@ for questions removed from the current bank may no longer be available.
 
 ## Sources and question interpretation
 
-The app uses only local documents 01–26. Each answer includes a source locator
+The app uses only local documents 01–24 and 26. Each answer includes a source locator
 (a section, paragraph or page) and per-statement explanation. Read the
 [source directory](README.md) for the actual editions and the
 [source mapping](QUESTION-SOURCES.md) for the bank's scope.
 
 Document 24 has no official Chinese edition: its Chinese practice text is
-labelled a study translation. Document 25 findings refer to the 2022 report.
+labelled a study translation. Document 25, the 2022 risk assessment report, was removed from personal practice reading and from the active question scope on 14 November 2026; this is a study selection, not a finding that the official exam cannot use the report.
 The separate legacy revision pack has an older scope and is not the source of
 truth for the current question bank.
 

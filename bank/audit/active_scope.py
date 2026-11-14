@@ -1,4 +1,4 @@
-"""Verify the active 01–26 bank and recover the unchanged historical baseline.
+"""Verify the active bank and recover the unchanged historical baseline.
 
 The four earlier audit reports concern their original 23-source checklist.
 This follow-up validates the current bank separately; old evidence is never
@@ -19,7 +19,13 @@ import zipfile
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 RECORD = ROOT / 'bank/audit/active26-implementation.json'
 FOLLOWUPS = ROOT / 'bank/audit/active-followups'
-APPROVED = {f'{n:02d}' for n in range(1, 27)}
+APPROVED = {f'{n:02d}' for n in range(1, 27)}  # source texts 01–26 remain on disk
+
+
+def question_scope():
+    """Documents allowed in live and newly authored questions (catalog question_bank_scope)."""
+    catalog = json.loads((ROOT / 'docs/catalog.json').read_text(encoding='utf8'))
+    return set(catalog['question_bank_scope']['documents'])
 
 
 def digest(data):
@@ -88,12 +94,15 @@ def archived_bank(d, proven):
     return old_bank, old_quotes
 
 
-def unwind(d, bank, quotes, proven):
+def unwind(d, bank, quotes, proven, later_retired=None):
     """Check one follow-up against the live bank; return the bank it started from.
 
     Added items leave; revised items return to their archived text and quotes.
-    Every other item passes through unchanged, so an unreviewed edit still meets
-    the checks of whichever record last reviewed it."""
+    Retired items are restored from the follow-up archive. Every other item
+    passes through unchanged, so an unreviewed edit still meets the checks of
+    whichever record last reviewed it. Empty added and revised lists are allowed.
+    IDs retired by a newer follow-up may now be in retired-ids.json even if this
+    older record originally added them."""
     assert d['status'] == 'verified', 'Follow-up review is incomplete'
     old_bank, old_quotes = archived_bank(d, proven)
     before = {q['id']:q for q in old_bank}
@@ -101,20 +110,28 @@ def unwind(d, bank, quotes, proven):
     assert len(current) == len(bank) == d['questions']
     assert set(quotes) == set(current)
     added = set(d['added_question_ids']); revised = set(d['revised_question_ids'])
+    retired = set(d.get('retired_ids', []))
     assert len(added) == len(d['added_question_ids']) and len(revised) == len(d['revised_question_ids'])
+    assert len(retired) == len(d.get('retired_ids', []))
     assert added.isdisjoint(before) and revised <= before.keys()
-    assert current.keys() == before.keys() | added
-    reserved = json.loads((ROOT/'bank/retired-ids.json').read_text(encoding='utf8'))['ids']
-    assert added.isdisjoint(reserved)
+    assert retired <= before.keys()
+    assert added.isdisjoint(revised) and added.isdisjoint(retired) and revised.isdisjoint(retired)
+    assert current.keys() == (before.keys() - retired) | added
+    reserved = set(json.loads((ROOT/'bank/retired-ids.json').read_text(encoding='utf8'))['ids'])
+    later_retired = set(later_retired or [])
+    assert added.isdisjoint(reserved - later_retired)
+    assert retired <= reserved and retired.isdisjoint(current)
     assert dict(collections.Counter(str(q['module']) for q in bank)) == d['module_counts']
     for qid in revised:
         assert (current[qid], quotes[qid]) != (before[qid], old_quotes[qid]), f'Revision changes nothing: {qid}'
     for qid in added | revised:
         assert all(x['doc'] in APPROVED for side in quotes[qid].values() for x in side), qid
+    for qid in current.keys() - added - revised:
+        assert current[qid] == before[qid], f'Unreviewed old question edit: {qid}'
+        assert quotes[qid] == old_quotes[qid], f'Unreviewed old quote edit: {qid}'
     check_reviews(d, current, quotes, added | revised, added)
-    rebuilt = [before[q['id']] if q['id'] in revised else q for q in bank if q['id'] not in added]
-    rebuilt_quotes = {qid:(old_quotes[qid] if qid in revised else v) for qid,v in quotes.items() if qid not in added}
-    return rebuilt, rebuilt_quotes
+    # Restore retired items from the archive; drop added; revert revised.
+    return old_bank, old_quotes
 
 
 def followups():
@@ -123,12 +140,22 @@ def followups():
     return [json.loads(p.read_text(encoding='utf8')) for p in sorted(FOLLOWUPS.glob('*.json'), reverse=True)]
 
 
+def check_live_quotes(quotes):
+    """The live bank may only cite the current question_bank_scope allowlist."""
+    allow = question_scope()
+    for qid, sides in quotes.items():
+        assert all(x['doc'] in allow for side in sides.values() for x in side), f'outside the approved 01–24 and 26 scope: {qid}'
+
+
 def recover(bank, quotes):
     if not RECORD.exists():
         return bank, quotes, set()
+    check_live_quotes(quotes)
     later = set()
+    later_retired = set()
     for record in followups():
-        bank, quotes = unwind(record, bank, quotes, later)
+        bank, quotes = unwind(record, bank, quotes, later, later_retired)
+        later_retired |= set(record.get('retired_ids', []))
     old_bank, old_quotes, proven = recover_active26(bank, quotes)
     return old_bank, old_quotes, proven | later
 
@@ -166,8 +193,8 @@ def main():
     old, _, _ = recover(bank,quotes)
     print(json.dumps({'questions':len(bank),'baseline_questions':len(old),
                       'reviewed_followups':len(followups()),
-                      'approved_documents':'01–26',
-                      'module_counts':dict(collections.Counter(q['module'] for q in bank))},ensure_ascii=False))
+                      'source_texts':'01–26',
+                      'question_scope':sorted(question_scope()),                      'module_counts':dict(collections.Counter(q['module'] for q in bank))},ensure_ascii=False))
 
 
 if __name__ == '__main__':

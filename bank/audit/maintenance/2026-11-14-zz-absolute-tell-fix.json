@@ -1,0 +1,34 @@
+{
+ "status": "verified",
+ "date": "2026-11-14",
+ "reason": "Wording-only repair of absolute-qualifier tells on six already-live Part 1 items (see bank/audit/active-followups/2026-11-14-zz-absolute-tell-fix.json). Preserves the bank, quotes, generated source accounting and count-bearing documentation as they were before those texts changed. Question content is reviewed in the follow-up record; this record only links the documentation hashes.",
+ "archive": "bank/audit/history/2026-11-14-before-absolute-tell-fix.zip",
+ "archive_sha256": "77bd670f6791cdd1912be7968cc38c7b8df8d08d99a716cdb5933696974e8dfd",
+ "archive_updates": {
+  "bank/audit/ACTIVE-SCOPE.md": {
+   "before_sha256": "f561147f3737c27fdbedf95cdbc71f5875f1ae6bf6d15313b1369f77a03afaa8",
+   "after_sha256": "bc779b5ba32af69482ccfeda230cf4957b1c63bf733d58d9aa119c8e163cf456"
+  },
+  "bank/audit/history/README.md": {
+   "before_sha256": "6c3897c0e125e5ee3f6adc43a03fb2aedcb9a3f29938811f58e0c78611498d80",
+   "after_sha256": "2d56aa885860f3580d773ff7f5360248bae84ed38decc6f1ef40c6328a4aef1f"
+  },
+  "docs/QUESTION-SOURCES.md": {
+   "before_sha256": "a375576d49babf77a98d8e88a16606fc2401de4f073a8c18345963fc4c4abf46",
+   "after_sha256": "b3f15104c1781ce34f45ab30f3270f60bd90594324888686cbe5f7c15ca92859"
+  },
+  "docs/QUESTION-SOURCES.zh-Hant.md": {
+   "before_sha256": "493855405ad6c774a591bd767c66aeb712a51b244114a079b3ff82dbbf8d22f2",
+   "after_sha256": "b2acbd42749686bc761829d54f2fcfbf8256dd3dc19e0bd11d8435c51aa8a8c6"
+  },
+  "web/questions.json": {
+   "before_sha256": "51a1572ce48c7a90c93be951f0b43ffcce9dca29305c5d00ab773ec2d72d1269",
+   "after_sha256": "288f4b71c42243eb9fc2edf659612df53e0d5038134cb55977c28b28ee37f6b2"
+  },
+  "revision/study-notes/visual-refinement-2026-10-20/bank-source-routes.json": {
+   "before_sha256": "9d55e65044d70a2ceba7c239c9b0724acdf1cb9e3f93495b8b31db7c44e6c5a3",
+   "after_sha256": "745b7be38e22dad5a41775d942baea54cfb81768b4bddc98df8eecc9d0273adf"
+  }
+ },
+ "documentation_updates": {}
+}

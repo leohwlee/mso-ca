@@ -10,7 +10,9 @@ def load(p):return json.loads((ROOT/p).read_text(encoding='utf8'))
 
 def outputs():
     bank=load('web/questions.json'); quotes=load('docs/quotes.json')
-    catalog=load('docs/catalog.json'); docs=catalog['documents'][:26]
+    catalog=load('docs/catalog.json')
+    allowed=set(catalog['question_bank_scope']['documents'])
+    docs=[d for d in catalog['documents'] if d['id'] in allowed]
     counts=collections.Counter(q['module'] for q in bank)
     bydoc={d['id']:set() for d in docs}
     for qid,sides in quotes.items():
@@ -24,9 +26,9 @@ def outputs():
     followups=[dict(json.loads(p.read_text(encoding='utf8')),file=p.name) for p in sorted(followup_dir.glob('*.json'))] if followup_dir.exists() else []
     def mapping(tc):
         lang='TC' if tc else 'EN'
-        lines=['# '+('現行題庫來源：01–26' if tc else 'Active question sources: 01–26'),'',
-          ('只使用以下26份本地原件；27–47不屬有效題庫。數字按逐句決定答案的引文計算，不代表整份文件已全面考核。每題可使用多份文件。' if tc else
-           'Only these 26 local publications may support active questions. Documents 27–47 are excluded. Counts use deciding statement quotes, not a claim of complete document coverage. A question can use several documents.'),'',
+        lines=['# '+('現行題庫來源：01–24及26' if tc else 'Active question sources: 01–24 and 26'),'',
+          ('只使用以下25份本地原件（01–24及26）；第25項及27–47不屬有效題庫。數字按逐句決定答案的引文計算，不代表整份文件已全面考核。每題可使用多份文件。' if tc else
+           'Only these 25 local publications (01–24 and 26) may support active questions. Document 25 and documents 27–47 are excluded. Counts use deciding statement quotes, not a claim of complete document coverage. A question can use several documents.'),'',
           '| '+('部分 | 題數' if tc else 'Part | Questions')+' |','|---|---|']
         lines += [f'| {m} | {counts[m]} |' for m in range(1,8)]
         lines += [f'| **'+('總數' if tc else 'Total')+f'** | **{len(bank)}** |','',
@@ -39,7 +41,7 @@ def outputs():
           ('[現行覆核記錄](../bank/audit/ACTIVE-SCOPE.md) · [完整資料目錄](catalog.json)' if tc else
            '[Current review record](../bank/audit/ACTIVE-SCOPE.md) · [Complete catalog](catalog.json)'),'']
         return '\n'.join(lines)
-    report=['# Active 01–26 question-bank scope','',
+    report=['# Active 01–24 and 26 question-bank scope','',
       'Owner decision: 18 October 2026. Approximately 525 bilingual combination questions; seven parts; mock exam and custom practice only. This personal practice scope is not the official exam syllabus.','']
     report += [f'Owner request: {f["date"]}. {f["owner_request"]}' for f in followups]
     report += ['' for f in followups[:1]]
@@ -56,16 +58,16 @@ def outputs():
     if followups:
         report += ['## Later reviewed changes','',
           'Each later change has its own record in `active-followups/` and an archive of the bank it started from. The check unwinds them newest first and then validates the record above unchanged. Revised items keep their IDs; their earlier text and quotes stay in the archive.','',
-          '| Date | Added | Revised | Blind review records | Archive |','|---|---|---|---|---|']
-        report += [f'| {f["date"]} | {len(f["added_question_ids"])} | {len(f["revised_question_ids"])} | {len(f["blind_review"]["items"])} | `{f["archive"].removeprefix("bank/audit/")}` |' for f in followups]
+          '| Date | Added | Revised | Retired | Blind review records | Archive |','|---|---|---|---|---|---|']
+        report += [f'| {f["date"]} | {len(f["added_question_ids"])} | {len(f["revised_question_ids"])} | {len(f.get("retired_ids",[]))} | {len(f["blind_review"]["items"])} | `{f["archive"].removeprefix("bank/audit/")}` |' for f in followups]
         report += ['']
         for f in followups:
             report += [f'{f["date"]}: {f["method_summary"]}','']
     report += ['## Coverage boundaries','',
-      '- Only local publications 01–26 support answers, including exceptions and distractors. Numbering does not import documents linked by a circular.',
+      '- Only local publications 01–24 and 26 support answers, including exceptions and distractors. Numbering does not import documents linked by a circular.',
       '- Coverage maps distinguish a new rule from a new application. Decision-changing scenarios may reuse a rule; decorative variants and repeated statements are excluded.',
       '- Document 24 has no official Chinese edition. Its Chinese questions and explanations are study translations, visibly labelled; deciding quotes remain English.',
-      '- Report 25 findings are explicitly dated to the 2022 report, not presented as a live country-risk assessment.',
+      '- Document 25, the 2022 risk assessment report, was in the 18 October 2026 01–26 selection and was removed from the active practice scope on 14 November 2026. It cannot support live questions. Its findings remain historical evidence.',
       '- Source quote checks verify occurrence, not legal meaning. Blind answers and explanation review provide the semantic checks; no claim of perfect accuracy or complete official exam coverage is made.',
       '', '[Source-by-source accounting](../../docs/QUESTION-SOURCES.md) · [Machine-readable evidence](active26-implementation.json)'+
       ''.join(f' · [{f["date"]} follow-up](active-followups/{f["file"]})' for f in followups),'']

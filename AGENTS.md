@@ -3,7 +3,7 @@
 - This repository is agent-neutral. Start with this file and
   [the authoring workflow](docs/authoring/exam-prep/GUIDE.md); no agent-specific
   configuration or command is required.
-- The owner's active exam scope is ONLY documents 01–26, with approximately
+- The owner's active exam scope is ONLY documents 01–24 and 26, with approximately
   525 bilingual questions across the existing seven parts. The app has two
   modes: mock exam and custom practice (one or multiple parts).
 - Before editing questions, revision content, sources or reading order, read
@@ -12,9 +12,9 @@
 - Use ONE document number: the reading order in `docs/catalog.json` is also the
   filename prefix, quote `doc`, extracted-text filename and transcript filename.
   `03` is the AML/CFT Guideline; `04` is Cap. 615. Do not add a second source ID.
-- The catalog has one flat sequence of 47 publications. Daily reading is 01-26:
-  01-09 High, 10-19 Medium Essential, 20-26 Medium Selected. Reference material
-  continues as 27-47 under docs/archive. The original coverage audits remain historical evidence for the
+- The catalog has one flat sequence of 47 publications. Daily reading is 01-24 and 26:
+  01-09 High, 10-19 Medium Essential, 20-24 and 26 Medium Selected. Document 25 is archived in the middle of the sequence on purpose and is not renumbered away; number 25 stays reserved. Reference material
+  continues as document 25 and 27-47 under docs/archive. The original coverage audits remain historical evidence for the
   original 23, marked `original_bank_source`. Current coverage is recorded in
   `bank/audit/active26-implementation.json`. Verify edition,
   language, content and citation mapping before using an addition in questions.
@@ -23,7 +23,7 @@
   Cap. 629 is 23 after circular 22. `parent_document` records that relationship.
   Bilingual originals are copied into TC and EN, with identical raw hashes.
   Resolve every source through `editions.path`; text uses text/LANG/NN.txt.
-  The periodic-return circular and transcript are 15. The owner has approved 01–26 for questions; verify edition, language
+  The periodic-return circular and transcript are 15. The owner has approved 01–24 and 26 for questions; verify edition, language
   and citation recognition for each actual use. Document 24 has no official
   Chinese version: TC questions are labelled study translations and their
   deciding quotes retain the English source with `language: "en"`. No runtime old-ID mapping is maintained.

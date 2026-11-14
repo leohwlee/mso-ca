@@ -182,7 +182,7 @@ def render(d,v):
     if (HERE/'active26-implementation.json').exists():
         readme = [
             '> The original 23-source audit reports below describe the preserved historical',
-            '> baseline. Current 01–26 scope and additions are verified separately in',
+            '> baseline. Current 01–24 and 26 scope and additions are verified separately in',
             '> [ACTIVE-SCOPE.md](ACTIVE-SCOPE.md). Historical completion is not current coverage.',
             '> v1.10.1 updates the seven-part reading material, not this historical question audit.',
             '> See [the separate notes review](../../revision/study-notes/README.md).',

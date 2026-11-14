@@ -36,7 +36,7 @@ replacing bank-derived explanations with source-first manuscripts.
   selection of one or multiple examination parts.
 - Preserve question IDs, question/answer content, historical evidence and saved
   results. A visual redesign does not authorize changing exam content or scoring.
-- Active exam source scope is documents 01–26. Resolve original editions through
+- Active exam source scope is documents 01–24 and 26. Resolve original editions through
   `docs/catalog.json`. Study citations must display actual repository filenames
   and useful paragraph/section locators, not only publication titles.
 - Author reading content from source passages into concepts, definitions,

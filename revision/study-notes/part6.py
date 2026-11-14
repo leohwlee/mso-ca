@@ -131,14 +131,8 @@ section('beneficial-owners', '實益擁有人：擁有權、控制與代他人�
         ref('03', '第4.4.6–4.4.12段', '¶4.4.6–4.4.12', 'senior managing official'),
     ], kind='list'),
     block('認識：重要控制人登記冊及CDD的關係', 'Recognise: the significant controllers register and CDD', [
-        ('2022年報告介紹重要控制人登記冊（SCR，Significant Controllers Register）：香港成立的公司須識別並保存重要控制人資料，上市公司獲豁除並另受證券法的披露規定約束。SCR由公司在註冊辦事處或香港訂明地點備存及更新，供執法人員依法查閱／複印；它不是把所有實益擁有人資料公開放在公司註冊處查冊系統。', 'The 2022 report describes the Significant Controllers Register (SCR): Hong Kong-incorporated companies identify and maintain significant-controller information; listed companies are exempt and subject to separate securities-law disclosure requirements. The company keeps and updates its SCR at its registered office or a prescribed Hong Kong place, making it available for lawful law-enforcement inspection/copying. This does not put all beneficial-owner details on the public Companies Registry search system.'),
-        ('第7.24段列五種擇一控制條件：直接／間接持有超過25%已發行股份；直接／間接持有超過25%表決權；直接／間接有權委任或罷免過半數董事；有權或實際對公司行使重大影響力／控制；或對非屬法人的信託／商號活動有上述重大影響力／控制，而其受託人／成員就該公司符合前四項任何一項。超過25%（>25%）包括25.1%，不包括恰好25%；恰好25%仍可能符合其他控制條件。', 'Paragraph 7.24 gives five alternative control conditions: directly/indirectly holding >25% of issued shares; directly/indirectly holding >25% of voting rights; directly/indirectly having the right to appoint/remove a majority of directors; having the right to exercise or actually exercising significant influence/control over the company; or such influence/control over a trust/firm that is not a legal person, whose trustees/members meet any of the first four conditions for the company. >25% includes 25.1%, but not exactly 25%; exactly 25% may still meet another control condition.'),
-        ('重要控制人包括最終有重大控制權的須登記人士（自然人或指明實體），以及有重大控制權且為公司成員的須登記法律實體（可在香港或境外成立）。因此SCR內可列法人，不能把它直接等同MSO須追查的所有自然人實益擁有人名單。公司須識別、核實及記錄最終控制自然人和中間法律實體的資料。', 'Significant controllers include registrable persons (natural persons or specified entities with ultimate significant control) and registrable legal entities with significant control that are members of the company, whether incorporated in Hong Kong or elsewhere. An SCR can therefore contain legal entities; it is not simply identical to the natural-person beneficial owners an MSO must trace. Companies identify, verify and record ultimate controlling individuals and intermediate legal entities.'),
-        ('SCR須載有指定代表的姓名或名稱及聯絡資料。公司須指定代表協助執法人員：可為居於香港的自然人成員／董事／僱員，或會計專業人士、法律專業人士、持牌TCSP。報告說明執法機構依法查閱SCR無須先取得法庭命令；這項執法權不等於MSO有相同查閱權。', 'The SCR must contain the designated representative’s name and contact details. A company designates a representative to assist law enforcement: a member/director/employee who is a natural person resident in Hong Kong, or an accounting professional, legal professional or licensed TCSP. The report states that law-enforcement access for lawful functions does not require a court order; this does not confer the same access power on an MSO.'),
-        ('2022年報告第7.25段說明：公司須向實益擁有人或相關人士送達通知，以書面確認實益擁有人的個人資料，並在訂明期限內匯報變動。沒有備存準確及最新的SCR，或拒絕執法部門依法查閱，屬刑事罪行。該段沒有列出具體日數，不應套用MSO牌照變更通知期限。', 'Paragraph 7.25 of the 2022 report describes notices to beneficial owners or related parties, written confirmation of beneficial owners’ particulars and reporting changes within the prescribed timeframe. Failure to keep an accurate, up-to-date SCR or refusal of lawful law-enforcement inspection is a criminal offence. The paragraph does not specify the number of days; MSO licensing notification deadlines must not be substituted.'),
-        ('海關指引註27明確容許MSO參閱這類登記冊以協助識別實益擁有人；如資料不公開，可直接向客戶索取紀錄。仍須按本節核實及了解擁有權／控制結構，不能把取得SCR當作完成全部CDD。', 'Customs Guideline note 27 expressly permits reference to such registers to assist identification of beneficial owners; where not public, the MSO may obtain the record directly from the customer. The verification and ownership/control analysis in this section still apply; obtaining an SCR is not completion of all CDD.'),
+        ('海關指引註27說明，公司須備存實益擁有人登記冊（例如按香港《公司條例》備存的重要控制人登記冊）。MSO可參閱這類登記冊以協助識別實益擁有人；如資料不公開，可直接向客戶索取紀錄。仍須按本節核實及了解擁有權／控制結構，不能把取得該登記冊當作完成全部CDD。', 'Guideline note 27 records that companies are required to maintain registers of their beneficial owners, for example the significant controllers register under the Companies Ordinance of Hong Kong. An MSO may refer to such registers to assist identification of beneficial owners; where a register is not publicly available, the MSO may obtain the record directly from the customer. The verification and ownership/control analysis in this section still apply; obtaining the register is not completion of all CDD.'),
     ], [
-        ref('25', '2022年版，第7.20、7.24–7.27段及註201', '2022 edition, ¶7.20, 7.24–7.27 and note 201', 'Significant controllers include'),
         ref('03', '第4.4.3–4.4.4段及註27', '¶4.4.3–4.4.4 and note 27', 'An MSO may refer to such registers'),
     ], kind='list'),
     block('理解：沒有持股也可有最終控制權', 'Understand: ultimate control without share ownership', [
@@ -376,13 +370,6 @@ section('monitoring', '持續監察與原有客戶', 'Ongoing monitoring and pre
     ], [
         ref('03', '第5.4–5.5段', '¶5.4–5.5', 'timely and sufficient information required to identify, analyse and effectively monitor'),
     ], kind='list'),
-    block('辨認：2022年報告列出的帳戶及轉移模式', 'Recognise: account and transfer patterns in the 2022 report', [
-        ('第4.63段列出的七類觀察包括：(1)開戶後隨即更換公司董事／股東；(2)收到一筆或數筆騙款後便停用帳戶；(3)開戶後不久改變裝置識別碼／互聯網規約地址（IP address）；(4)可疑客戶共用裝置識別碼／IP地址。重點是實際使用者、控制權及活動是否與原有客戶資料相符。', 'The seven observations in paragraph 4.63 include: (1) changes of company directors/shareholders soon after account opening; (2) abandoning accounts after one/few fraudulent receipts; (3) changing device identity/Internet Protocol (IP) address soon after opening; (4) suspicious customers sharing device identity/IP addresses. Consider whether actual users, control and activity match the customer information.'),
-        ('其餘三類是：(5)主要以轉數快（FPS，Faster Payment System）或其他網上支付平台轉移資金；(6)改用加密貨幣處置懷疑犯罪得益；(7)海外詐騙仍主要利用傳統銀行帳戶。這是2022年報告的犯罪模式觀察，不是說使用FPS、加密貨幣或傳統銀行本身便屬可疑或違法。', 'The other three are: (5) moving funds mainly via the Faster Payment System (FPS) or other online payment platforms; (6) using cryptocurrency to dispose of suspected proceeds; (7) continuing dominance of traditional bank accounts in overseas fraud cases. These are criminal-pattern observations in the 2022 report, not a claim that using FPS, cryptocurrency or traditional banks is itself suspicious or unlawful.'),
-        ('第4.64段另列暫存款項、大額交易、交易與客戶背景不相稱、大額現金、非本地居民個人帳戶及無商業目的交易等舉報指標。須結合交易背景及解釋判斷，不能把報告的歷史舉報排序當成考試權重或機械化定罪規則。', 'Paragraph 4.64 also lists temporary holding of funds, large transactions, transactions inconsistent with customer background, large cash transactions, non-resident personal accounts and transactions without a business purpose as reported indicators. Assess context and explanations; the historical reporting order is neither exam weighting nor a mechanical conviction rule.'),
-    ], [
-        ref('25', '2022年版，第4.62–4.64段', '2022 edition, ¶4.62–4.64', 'Common Device identity'),
-    ], kind='list'),
 ]),
 section('screening', '制裁及恐怖分子篩查', 'Sanctions and terrorist screening', [
     block('資料庫、時間與處理', 'Database, timing and response', [
@@ -497,11 +484,6 @@ section('remittances', '非電傳匯款：發款人與必備紀錄', 'Non-wire r
     ], [
         ref('04', '附表2第1、13條', 'Schedule 2 ss.1, 13', 'certificate of identity'),
     ], kind='list'),
-    block('理解：跨境申報不等於證明資金合法', 'Understand: a cross-boundary declaration does not establish lawful funds', [
-        ('2022年報告第4.55–4.56段指出，海關會從已申報及違規個案兩方面分析洗錢；報告中的不少申報違規並沒有被懷疑涉及洗錢。反過來，現金運送人即使按申報制度行事，多次把不清楚來源的現金帶到香港再經MSO兌換，仍有較高風險。申報是否合規、來源是否合理及是否需要STR，是不同問題。', 'Paragraphs 4.55–4.56 of the 2022 report describe Customs analysing both declarations and non-compliance cases for ML; many declaration breaches described were not suspected ML. Conversely, repeated cash carriage into Hong Kong for MSO exchange without full knowledge of its source remains a higher-risk pattern, even where declarations are made. Declaration compliance, a reasonable source explanation and the need for an STR are distinct questions.'),
-    ], [
-        ref('25', '2022年版，第4.55–4.56段', '2022 edition, ¶4.55–4.56', 'individual cash couriers repeatedly carry cash'),
-    ], kind='list'),
 ]),
 section('trade-based-laundering', '貿易洗錢：定義與四類風險指標', 'Trade-based money laundering: definition and four indicator groups', [
     block('概念及使用指標的方法', 'Concept and use of indicators', [
@@ -532,12 +514,6 @@ section('trade-based-laundering', '貿易洗錢：定義與四類風險指標', 
         ('與聲稱業務規模不符而缺少正常薪酬、營運開支或稅款交易，可屬結構風險線索。須連同整體背景及合理解釋評估，單一指標不等於洗錢證明。', 'An absence of ordinary payroll, operating-cost or tax transactions inconsistent with the claimed business can be a structural warning sign. Assess the full context and reasonable explanations; a single indicator is not proof of laundering.'),
     ], [
         ref('24', '印刷第3頁，結構風險指標', 'Printed p.3, Structural risk indicators', 'it lacks regular payroll transactions'),
-    ], kind='list'),
-    block('例子：貿易如何轉移價值', 'Examples: how trade moves value', [
-        ('2022年風險報告列出的手法包括高報／低報發票價值、同一貨物重複開票、超額／不足付運及虛構付運。重點是貨物、價格、數量及付款的真實關係，不能只因有發票就視為合理。這些是手法例子，不是完整定罪清單。', 'The 2022 risk report describes over/under-invoicing, multiple invoicing, over/under-shipment and phantom shipment. Examine the real relationship among goods, prices, quantities and payments; an invoice alone does not establish legitimacy. These are typology examples, not an exhaustive criminal test.'),
-        ('報告專題4.5：走私汽車的內地買款先進入主腦帳戶，再轉往香港MSO在內地的帳戶，主腦最後在香港取回主要為現金的款項。學習重點是兩地安排可轉移犯罪得益的價值，不必見到同一筆銀行匯款直接跨境；毋須背案例金額或人名。', 'Box 4.5 describes Mainland proceeds from smuggled cars moving through the mastermind’s account into a Hong Kong MSO’s Mainland account, followed by mainly cash collection in Hong Kong. The learning point is that coordinated arrangements can transfer value without a directly observed cross-border bank transfer of the same funds; names and case amounts are reference details.'),
-    ], [
-        ref('25', '2022年版，第4.44、4.57–4.59段及專題4.5', '2022 edition, ¶4.44, 4.57–4.59 and Box 4.5', 'Box 4.5'),
     ], kind='list'),
     block('2026年通函：核實新設實體及交易真實性', '2026 circular: checking new entities and transaction genuineness', [
         ('應特別留意新成立、缺乏顯著資產、員工及／或活躍業務運作的法人客戶，主動考慮反欺詐程序，審查客戶資料以核實交易真實性，並評估匯款人或收款人是否空殼公司。這是風險及真實性審查；不能只核對成立證明，亦不是把所有新公司一律拒收。', 'Pay particular attention to newly established legal entities lacking significant assets, employees and/or active business operations. Proactively consider anti-fraud procedures to scrutinize customer information, verify transaction genuineness and assess whether the originator or recipient is a shell. This examines risk and genuineness beyond incorporation evidence; it is not blanket rejection of all new companies.'),

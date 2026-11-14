@@ -1,6 +1,6 @@
 # Second source-led completeness pass / 第二輪原文查漏
 
-19 October 2026. Scope: the owner's selected originals 01–26, all seven Parts.
+19 October 2026. Scope at the time of this pass: the owner's then-selected originals 01–26, all seven Parts. On 14 November 2026 document 25 was removed from the current selected set; current selected originals are 01–24 and 26.
 This pass compares original concepts, definitions, actors, requirements, lists,
 amount operators, clock starting events and exceptions with the existing notes.
 Questions do not supply the additions or their headings.
@@ -51,13 +51,13 @@ is claimed. The bank, original publications and historical hashes are unchanged.
 Daily revision is intended to be possible directly from these notes. This is a
 source-faithful summary of the core material in the selected editions, not a
 word-for-word replacement or a guarantee of every official exam question.
-Document02 is used for assessment format only. Source25 focuses on its executive
-summary, methodology and MSO sector, rather than unrelated sectors' full chapters.
+Document02 is used for assessment format only. At the time of this pass, Source25 focused on its executive
+summary, methodology and MSO sector, rather than unrelated sectors' full chapters; on 14 November 2026 it was removed from current selected reading.
 Dated report/list findings retain their dates. Source24 Chinese remains a labelled
 study translation with the English original. Original filenames/locators remain
 available for optional detailed checking, rather than being necessary to complete
 an unexplained definition in the notes.
 
-筆記用於直接溫習，引用用於有需要時核對；不是聲稱逐字代替01–26所有內容或保證
-涵蓋每道官方考題。第25份聚焦行政摘要、方法及MSO章節；保留原文版本／年份及
+筆記用於直接溫習，引用用於有需要時核對；不是聲稱逐字代替當時選定的01–26（其後於2026年11月14日改為01–24及26）所有內容或保證
+涵蓋每道官方考題。第25份在該輪聚焦行政摘要、方法及MSO章節，現已移出現行選定閱讀；保留原文版本／年份及
 第24份學習譯文標示。沒有把舊季度申報、歷史數字或名單當成現時規則。

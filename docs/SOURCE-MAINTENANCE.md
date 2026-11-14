@@ -32,14 +32,14 @@ PDF, DOCX and HTML hashes preserve raw bytes; Markdown hashes fold CRLF to LF.
 previous companion extraction rules, preserving unchanged source text.
 Image labels in `transcripts/15.json` stay bound to their exact source PDFs.
 
-The owner-selected active bank uses **01–26 only**, as recorded in
+The owner-selected active bank uses **01–24 and 26 only**, as recorded in
 `catalog.json.question_bank_scope`. The original 23-source flag is historical;
 it is not the current allowlist. Verify edition, language, source context and
 citation patterns before authoring. Source 24 has no official Chinese text:
 label Chinese questions as study translations and store the actual English
 quote with `language: "en"`. The sole language override is TC/document 24.
-Documents 27–47 remain available for historical evidence checks but cannot
-support active questions. Linked websites or publications absent from 01–26
+Document 25 and documents 27–47 remain available for historical evidence checks but cannot
+support active questions. Linked websites or publications absent from 01–24 and 26
 are not additional sources; questions must be decided by the local document.
 
 ## Changing sources or order

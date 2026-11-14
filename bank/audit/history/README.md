@@ -1,5 +1,17 @@
 # Historical audit evidence
 
+`2026-11-14-before-absolute-tell-fix.zip` preserves the bank, quotes, generated accounting and count-bearing documentation after the 14 November 2026 Part 1 top-up (572 live questions) and before a wording-only repair of absolute qualifiers on seven false English statements in six already-reviewed Part 1 items (m1-229, m1-230, m1-231, m1-233, m1-234 and m1-235). The follow-up record is `../active-followups/2026-11-14-zz-absolute-tell-fix.json`; the maintenance record of the same date links the documentation hashes; the patch and keyless review packets are in `../../batches/2026-11-14-absolute-tell-fix/`. Earlier archives, including `2026-11-14-before-part1-topup.zip` and `2026-11-14-before-retire-report25.zip`, are unchanged.
+
+第1部分補題（當時題庫572題）之後、修訂六題中七句英語虛假陳述的絕對用語之前的題庫、引文、生成的來源統計及載有題數的文件已另存上述ZIP；跟進記錄見該JSON，同日的維護記錄連結文件雜湊，修訂包及無答案審題材料見該批次目錄。先前的存檔未被改動。
+
+`2026-11-14-before-part1-topup.zip` preserves the bank, quotes, generated accounting and count-bearing documentation before 7 Part 1 questions were added and 1 was revised so the module again met the 60-question floor. The follow-up record is `../active-followups/2026-11-14-z-part1-topup.json`; the maintenance record of the same date links the documentation hashes.
+
+第1部分補入7題並修訂1題、使該部分再次達到60題下限之前的題庫、引文、生成的來源統計及載有題數的文件已另存上述ZIP；跟進記錄見該JSON，同日的維護記錄連結文件雜湊。
+
+`2026-11-14-before-retire-report25.zip` preserves the bank, quotes, generated accounting and count-bearing documentation before 23 questions that cited only document 25 were retired and the 2022 risk assessment report was moved out of personal practice reading. The follow-up record is `../active-followups/2026-11-14-retire-report25.json`; the maintenance record of the same date links the documentation, catalog and script hashes.
+
+退役23道只引用第25份的題目、並把2022年風險評估報告移出個人練習閱讀之前的題庫、引文、生成的來源統計及載有題數的文件已另存上述ZIP；跟進記錄見該JSON，同日的維護記錄連結目錄、文檔及程式雜湊。
+
 `2026-10-23-before-number-traps.zip` preserves the bank, quotes, generated accounting and count-bearing documentation before 36 number, period, name and actor trap questions were added and 2 revised. The blind reviews and coverage are in `../active-followups/2026-10-23-number-traps.json`; the maintenance record of the same date links the documentation hashes.
 
 新增36道數字、期限、名稱及主體陷阱題及修訂2題前的題庫、引文、生成的來源統計及載有題數的文件已另存上述ZIP；盲審及覆蓋對照見跟進記錄，同日的維護記錄連結文件雜湊。

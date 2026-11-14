@@ -1,7 +1,7 @@
 {
   "schema_version": 5,
-  "updated": "2026-10-18",
-  "ordering": "One publication number: 01-09 high, 10-19 medium essential, 20-26 medium selected, 27-47 reference archive. Every companion has its own number.",
+  "updated": "2026-11-14",
+  "ordering": "One publication number: 01-09 high, 10-19 medium essential, 20-24 and 26 medium selected, with number 25 reserved in the archive; 25 and 27-47 are the reference archive. Every companion has its own number.",
   "selection_basis": {
     "reviewed_on": "2026-10-18",
     "official_syllabus": "https://eservices.customs.gov.hk/MSOS/download/licensing/Guidance_Notes_on_the_Competence_Assessment_for_Money_Service_Operators_zh_TW.pdf",
@@ -1209,7 +1209,7 @@
           "format": "pdf",
           "archived_on": "2026-10-18",
           "status": "archived_original",
-          "path": "EN/25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf",
+          "path": "archive/EN/25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf",
           "text_file": "text/EN/25.txt",
           "text_sha256": "6b410a4644b662a0c595cc843b04730f0af50a7af4f0e129a2d5dafc6c37e254"
         },
@@ -1220,14 +1220,18 @@
           "format": "pdf",
           "archived_on": "2026-10-18",
           "status": "archived_original",
-          "path": "TC/25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
+          "path": "archive/TC/25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf",
           "text_file": "text/TC/25.txt",
           "text_sha256": "39d140261bfe1e7886bf3bbe068f2cf5de8a626bca154a2764190f73a7adb252"
         }
       },
       "category": "source",
-      "reading_status": "active",
-      "study_focus": "select",
+      "reading_status": "archive",
+      "study_focus": "archive",
+      "archive_reason": {
+        "TC": "擁有人於2026年11月14日決定，因他應考時未遇見這份《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年），故將其移出個人練習閱讀及現行題庫範圍。這是復習取捨，並非斷定官方考試不會用到該報告。",
+        "EN": "Owner decision (14 November 2026): drop the 2022 Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report from personal practice reading and from the active question scope because it did not appear in the exam he sat. This is a study selection, not a finding that the official exam cannot use the report."
+      },
       "title": {
         "EN": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022)",
         "TC": "香港洗錢及恐怖分子資金籌集風險評估報告（2022年）"
@@ -2354,11 +2358,10 @@
       "22",
       "23",
       "24",
-      "25",
       "26"
     ],
-    "decided_on": "2026-10-18",
-    "basis": "Owner-selected practice scope; not a claim about the official examination scope.",
+    "decided_on": "2026-11-14",
+    "basis": "Owner-selected practice scope as updated on 14 November 2026, when the owner removed document 25 (the 2022 risk assessment report) from personal practice reading and from the active question bank because it did not appear in the exam he sat. This remains a personal practice scope, not a claim about the official examination scope.",
     "translation_exception": {
       "document": "24",
       "source_language": "EN",
