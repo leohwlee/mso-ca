@@ -2,8 +2,15 @@
 
 ## Unreleased
 
-- Study notes: rewrite the seven parts in plain language with examples, trim same-section overlap, and add the Cap. 221 Schedule 8 fine levels (HK$2,000 / 5,000 / 10,000 / 25,000 / 50,000 / 100,000) on Part 2 and the numbers page. Cap. 221 is not in the 01–24/26 set texts; the amounts rows cite in-scope “fine at level n” wording only. The notes now have 74 topics, 574 bilingual point pairs and 75 numbers-page rows in eight groups. The 572 questions, answers, scoring and bank scope are unchanged.
-- 溫習筆記：七部分改為白話並加入例子，刪去同一小節內的重複，並在第2部分及數字總表加入《刑事訴訟程序條例》（第221章）附表8的六級罰款（港幣2,000／5,000／10,000／25,000／50,000／100,000元）。第221章不在01–24及26指定文本內；表列只引用准許來源中「第n級罰款」的行文。筆記現有74個主題、574組雙語要點及八組共75項數字總表列。572道題、答案、評分及題庫範圍均不變。
+## v1.14.2 — 14 November 2026
+
+- Study notes: rewrite the seven parts in plain language with examples, trim same-section overlap, and add the Cap. 221 Schedule 8 fine levels (HK$2,000 / 5,000 / 10,000 / 25,000 / 50,000 / 100,000) on Part 2 and the numbers page. Cap. 221 is not in the 01–24/26 set texts; the amounts rows cite in-scope “fine at level n” wording only. The notes now have 74 topics, 574 bilingual point pairs and 75 numbers-page rows in eight groups. The 572 questions, answers, scoring and bank scope are unchanged. README previews were captured again from v1.14.2.
+- 溫習筆記：七部分改為白話並加入例子，刪去同一小節內的重複，並在第2部分及數字總表加入《刑事訴訟程序條例》（第221章）附表8的六級罰款（港幣2,000／5,000／10,000／25,000／50,000／100,000元）。第221章不在01–24及26指定文本內；表列只引用准許來源中「第n級罰款」的行文。筆記現有74個主題、574組雙語要點及八組共75項數字總表列。572道題、答案、評分及題庫範圍均不變。README預覽從v1.14.2重新截取。
+
+**Download / 下載：** `mso-study-bundle.zip` contains the notes, practice and originals 01–24 and 26; extract the entire ZIP and open `index.html`.
+完整學習包包含筆記、練習及01–24及26原件；完整解壓後開啟 `index.html`。
+
+[Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.14.2)
 
 ## v1.14.1 — 14 November 2026
 

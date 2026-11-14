@@ -2,7 +2,7 @@
 
 [Back to focused reading](../README.md)
 
-The v1.14.1 notes and offline study bundle include 01–24 and 26. Document 25 remains in this directory from the owner’s 14 November 2026 practice-scope decision; 27–47 remain reference material and are not added to the selected scope by this release. See [current notes and review limits](../../revision/study-notes/README.md).
+The v1.14.2 notes and offline study bundle include 01–24 and 26. Document 25 remains in this directory from the owner’s 14 November 2026 practice-scope decision; 27–47 remain reference material and are not added to the selected scope by this release. See [current notes and review limits](../../revision/study-notes/README.md).
 
 22 publications retained for reference and historical bank-source verification. They cannot support active questions and are outside first-pass reading. This is a study selection, not a withdrawal finding. Some contain distinct examples or history; they are not additional daily required reading. Document 25 is in this directory because of the owner’s 14 November 2026 practice-scope decision; its number is reserved and publication 26 is not renumbered.
 

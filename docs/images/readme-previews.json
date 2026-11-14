@@ -1,11 +1,11 @@
 {
-  "version": "v1.14.1",
-  "captured_at": "2026-11-14T10:16:59.572Z",
-  "source_commit": "1cef610c7c5fc82621b111a30e01ffd799b6acfa",
+  "version": "v1.14.2",
+  "captured_at": "2026-11-14T12:04:31.461Z",
+  "source_commit": "a0198a49078945e6eaeecbd97d0086152e69a62d",
   "method": "Fresh isolated browser contexts; actual offline pages; no synthetic scores or image edits.",
   "captures": [
     {
-      "file": "docs/images/app-v1.14.1-en.png",
+      "file": "docs/images/app-v1.14.2-en.png",
       "source": "dist/mso-ca.html",
       "lang": "en",
       "anchor": "",
@@ -15,23 +15,23 @@
       },
       "full_page": true,
       "source_sha256": "006dfdd5babc531245b528df101695e9894f8815f9d9b7e4532580fa7923373f",
-      "image_sha256": "6fe352b78b3ae33c1b85babe161be2b337dc90baa1f1dc5d495d539473ee5947"
+      "image_sha256": "294e82a4fe7e37562dd5a9e117188a28e9bbd2641dcb63c499ea45afb3a137cd"
     },
     {
-      "file": "docs/images/study-v1.14.1-en.png",
+      "file": "docs/images/study-v1.14.2-en.png",
       "source": "revision/study-notes/part-6.html",
       "lang": "en",
       "anchor": "#memory-cdd-trigger-tree",
       "viewport": {
         "width": 1440,
-        "height": 1220
+        "height": 1219
       },
       "full_page": false,
-      "source_sha256": "0857bdac789e543f72a08cf65198ab95bace17ddd2eea8db13e1b149582e9670",
-      "image_sha256": "44d1bf45a3719415324e20cb617484957fbbb7f0db3c22e94cc19be467715f6e"
+      "source_sha256": "1e297b0de17ed500965805a7f0aff9c527e047d01ede9112691c47aeb70bc7a3",
+      "image_sha256": "fbea22eedcc3330a37558e6ec02466ca740ad4ffbf58f6dd2220ad1dda57df5d"
     },
     {
-      "file": "docs/images/app-v1.14.1-tc.png",
+      "file": "docs/images/app-v1.14.2-tc.png",
       "source": "dist/mso-ca.html",
       "lang": "tc",
       "anchor": "",
@@ -41,10 +41,10 @@
       },
       "full_page": true,
       "source_sha256": "006dfdd5babc531245b528df101695e9894f8815f9d9b7e4532580fa7923373f",
-      "image_sha256": "d9e92ca06e72f3b04d20151f3ea8da7dae3f20631aec30a69c45b609fcf29f3d"
+      "image_sha256": "eea89cbac5e77cdedfd910dba0599d89215b263304ff16e4f13bb8a594ac3eb3"
     },
     {
-      "file": "docs/images/study-v1.14.1-tc.png",
+      "file": "docs/images/study-v1.14.2-tc.png",
       "source": "revision/study-notes/part-6.html",
       "lang": "tc",
       "anchor": "#memory-cdd-trigger-tree",
@@ -53,8 +53,8 @@
         "height": 1082
       },
       "full_page": false,
-      "source_sha256": "0857bdac789e543f72a08cf65198ab95bace17ddd2eea8db13e1b149582e9670",
-      "image_sha256": "6b6c8c03fae643f34821afbc618e5130b67fdf9e71c575bfc76200c560a050ef"
+      "source_sha256": "1e297b0de17ed500965805a7f0aff9c527e047d01ede9112691c47aeb70bc7a3",
+      "image_sha256": "1c000c90a9f19348ee3fdef4d8d3def4657a17bf417630084c05b3dd5e939826"
     }
   ],
   "errors": [],
