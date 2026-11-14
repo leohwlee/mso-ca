@@ -2,8 +2,15 @@
 
 ## Unreleased
 
-- Practice app: a home-page **Clear answered record** control resets which questions have been answered at least once, so custom practice again draws from the full selected set. The confirm can also empty the wrong-answer book; mock exam history, any exam in progress, language and appearance are kept. Practice sessions show the current item and the size of that session's pool (for example Question 12 / 81), which restarts at 1 when a new round begins.
-- 練習App：首頁新增**清除已做紀錄**，重設哪些題目曾作答，自選練習會再從所選題目全數抽題。確認時亦可一併清空錯題本；模擬試紀錄、進行中的模擬試、語言及外觀設定均保留。練習畫面顯示本題在本節題庫中的位置（例如第 12 / 81 題），新一輪開始時從1計。
+## v1.14.1 — 14 November 2026
+
+- Practice app: a home-page **Clear answered record** control resets which questions have been answered at least once, so custom practice again draws from the full selected set. The confirm can also empty the wrong-answer book; mock exam history, any exam in progress, language and appearance are kept. Practice sessions show the current item and the size of that session's pool (for example Question 12 / 81), which restarts at 1 when a new round begins. The 572 questions, answers, scoring, bank scope (documents **01–24 and 26**; document 25 remains retired) and source editions are unchanged. README previews were captured again from v1.14.1.
+- 練習App：首頁新增**清除已做紀錄**，重設哪些題目曾作答，自選練習會再從所選題目全數抽題。確認時亦可一併清空錯題本；模擬試紀錄、進行中的模擬試、語言及外觀設定均保留。練習畫面顯示本題在本節題庫中的位置（例如第 12 / 81 題），新一輪開始時從1計。572道題、答案、評分、題庫範圍（**01–24及26**；第25份仍退役）及來源版次均不變。README預覽從v1.14.1重新截取。
+
+**Download / 下載：** `mso-study-bundle.zip` contains the notes, practice and originals 01–24 and 26; extract the entire ZIP and open `index.html`.
+完整學習包包含筆記、練習及01–24及26原件；完整解壓後開啟 `index.html`。
+
+[Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.14.1)
 
 ## v1.14.0 — 14 November 2026
 
