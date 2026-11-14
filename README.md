@@ -17,20 +17,22 @@ The bundle contains the seven-part notes, the practice app and the cited 01–24
 originals. Keep the folders together so study, practice and source links work
 offline. You do not need to download the repository or install Go.
 
-![Blue-gray practice homepage with mock exam, custom practice and the wrong-answer book](docs/images/app-v1.14.1-en.png)
+![Blue-gray practice homepage with mock exam, custom practice and the wrong-answer book](docs/images/app-v1.14.2-en.png)
 
-*Practice homepage, English. Captured from the v1.14.1 app on 14 November 2026.*
+*Practice homepage, English. Captured from the v1.14.2 app on 14 November 2026.*
 
-## What's new in v1.14.1
+## What's new in v1.14.2
 
-A practice-app release. The home page gains **Clear answered record**, which resets
-which questions have been answered at least once so custom practice again draws from
-the full selected set; the confirm can also empty the wrong-answer book. Mock exam
-history, any exam in progress, language and appearance are kept. Practice sessions
-show the current item and the size of that session's pool (for example Question 12 / 81),
-restarting at 1 when a new round begins. The notes, the 572 questions, their answers
-and explanations, scoring and the source editions are those of v1.14.0: documents
-**01–24 and 26**, with document 25 still retired.
+A study-notes release. The seven parts are rewritten in plain language with
+examples, and same-section overlap is trimmed. Part 2 and the **Numbers** page add
+the six fine levels from Schedule 8 to the Criminal Procedure Ordinance (Cap. 221):
+levels 1–6 are HK$2,000 / 5,000 / 10,000 / 25,000 / 50,000 / 100,000. Cap. 221 is
+not in the 01–24/26 set texts, which usually only write “a fine at level n”; the
+amounts rows cite that in-scope wording only. The dollar figures themselves come
+from Cap. 221 Sch. 8, not from those AMLO / Cap. 34 / Cap. 629 provisions. The
+572 questions, their answers and explanations, scoring, bank scope (documents
+**01–24 and 26**; document 25 still retired) and the practice app are unchanged
+from v1.14.1.
 
 The selected sources remain documents **01–24 and 26**. Document 25, the 2022 Hong Kong
 Money Laundering and Terrorist Financing Risk Assessment Report, was removed from
@@ -44,11 +46,10 @@ Seven independently reviewed Part 1 questions were added so that module again me
 The practice app still keeps a **wrong-answer book** (a question stays until it is
 answered right twice in a row) and draws unseen questions first in custom practice.
 
-The notes drop the points that only the 2022 report supported and re-cite those that
-also appear in an allowed source. They keep the study-tier filter, the **Ruling marks**
-switch and the **Numbers** page. Live counts: 74 topics, 573 bilingual point pairs,
-75 visuals (14 tables, 61 diagrams, 33 of them list cards) and 69 amounts, periods,
-fees and penalties. Counts are not coverage percentages.
+The notes keep the study-tier filter, the **Ruling marks** switch and the
+**Numbers** page. Live counts: 74 topics, 574 bilingual point pairs, 75 visuals
+(14 tables, 61 diagrams, 33 of them list cards) and 75 amounts, periods, fees
+and penalties in eight groups. Counts are not coverage percentages.
 
 v1.14.0 also added the **[exam-prep](skills/exam-prep/README.md)** skill: a
 general-purpose Agent Skill that turns any documents or copy into study notes,
@@ -57,9 +58,9 @@ practice questions and mock exams.
 Read the [notes' scope and ruling marks](revision/study-notes/README.md)
 and the [current review evidence](bank/audit/ACTIVE-SCOPE.md).
 
-![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.14.1-en.png)
+![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.14.2-en.png)
 
-*Part 6 reading example, English. Captured from the v1.14.1 notes on 14 November 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
+*Part 6 reading example, English. Captured from the v1.14.2 notes on 14 November 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
 
 ## Choose how to practise
 
