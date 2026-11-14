@@ -1,0 +1,254 @@
+[
+  {
+    "id": "m1-226",
+    "verdicts": [
+      "T",
+      "T",
+      "F",
+      "T",
+      "F"
+    ],
+    "quotes": [
+      "Cap. 629 s.17(2): “Subject to sections 18 and 19, an authorized officer may detain the CBNIs for a period of not more than 10 working days after the day of seizure.” / 第17(2)條：除第18及19條另有規定外，獲授權人員可扣留有關現金類物品，惟扣留期間不得超過檢取日期後的10個工作日。",
+      "Cap. 629 s.17(4): “working day means a day that is not—(a) a general holiday or a Saturday; or (b) a black rainstorm warning day or gale warning day as defined by section 71(2) of the Interpretation and General Clauses Ordinance (Cap. 1).” / 工作日指並非以下日子的日子——(a) 公眾假期或星期六；或 (b) 《釋義及通則條例》第71(2)條所界定的黑色暴雨警告日或烈風警告日。",
+      "Cap. 629 s.18(3): “The period must not exceed 3 months beginning on the date of the order.” A new order under s.18(5)(a) likewise “must not specify a period exceeding 3 months beginning on the date of the order.” The source does not allow 6 months. / 第18(3)及(5)(a)條均為不得超過自該命令的日期起計的3個月，並非6個月。",
+      "Cap. 629 s.18(5)(b): a new order must not “result in the total period of the detention of the CBNIs exceeding 2 years beginning on the date of the order made under subsection (2).” / 新命令不得致使總扣留期間超過自根據第(2)款作出的命令的日期起計的2年。",
+      "Cap. 629 s.18(1) and (7): the officer may, within the period in s.17(2), “apply to the Court”; “Court means the Court of First Instance or the District Court,” not a magistrate. Official modal is “may” / 可, not must. / 向法院（原訟法庭或區域法院）申請，並非向裁判官申請。"
+    ],
+    "doubts": [
+      "s.17(2) opens with “Subject to sections 18 and 19” / 「除第18及19條另有規定外」. I still treat the statement as a true account of the initial s.17(2) detention period (10 working days after the day of seizure), with later statements covering court-ordered extensions. If read as an absolute cap on all detention of such CBNIs, it would be false.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "tc_mismatch": [
+      "EN tracks s.17(2)’s permission (“may be detained for not more than 10 working days”). TC is stronger: 「扣留不得超過檢取日期後的10個工作日」, dropping official 「可扣留…惟」. I still treat both as true paraphrases of the initial period, but the Chinese reads more like a hard cap.",
+      "",
+      "",
+      "",
+      "TC uses 「須…申請」(must apply); EN is only descriptive (“applies”). Official s.18(1) is “may” / 「可」. Both remain false because the application is to the Court (Court of First Instance or District Court), not a magistrate / 裁判官."
+    ]
+  },
+  {
+    "id": "m1-229",
+    "verdicts": [
+      "T",
+      "F",
+      "T",
+      "F",
+      "T"
+    ],
+    "quotes": [
+      "Cap. 629 s.18(1): “An authorized officer may, within the period mentioned in section 17(2), apply to the Court for an order to authorize the continued detention of CBNIs the officer reasonably suspects to be property mentioned in section 17(1)(a).” / 獲授權人員可在第17(2)條所述的期間內，向法院申請命令，以授權將該人員合理地懷疑屬第17(1)(a)條所述的財產的現金類物品，繼續扣留。",
+      "Cap. 629 s.18(1) limits the application to CBNIs reasonably suspected to be property mentioned in s.17(1)(a) (crime proceeds). It does not authorize a continued-detention order for CBNIs suspected only to be terrorist property under s.17(1)(b). The s.18 heading is likewise “Continued detention of CBNIs suspected to be crime proceeds”.",
+      "Cap. 629 s.18(7): “Court means the Court of First Instance or the District Court.” s.18(1) requires the application to be made to that Court. / 法院指原訟法庭或區域法院。",
+      "Cap. 629 s.18(7) names the Court of First Instance or the District Court, not a magistrate or the Court of Appeal. / 並非裁判官或上訴法庭。",
+      "Cap. 629 s.18(3): “An order made under subsection (2) may authorize the continued detention of the CBNIs for a period specified in the order. The period must not exceed 3 months beginning on the date of the order.” / 根據第(2)款作出的命令，可授權在該命令指明的期間內繼續扣留，而該期間不得超過自該命令的日期起計的3個月。"
+    ],
+    "doubts": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "tc_mismatch": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "m1-230",
+    "verdicts": [
+      "T",
+      "T",
+      "F",
+      "T",
+      "F"
+    ],
+    "quotes": [
+      "Cap. 629 s.18(5)(a): a new order must not “specify a period exceeding 3 months beginning on the date of the order.” The “order” in that sentence is the new order; s.18(4) is the authorized officer’s application. / 新命令指明的期間，不得超過自該命令的日期起計的3個月。",
+      "Cap. 629 s.18(5)(b): a new order must not “result in the total period of the detention of the CBNIs exceeding 2 years beginning on the date of the order made under subsection (2).” / 不得致使總扣留期間超過自根據第(2)款作出的命令的日期起計的2年。",
+      "Cap. 629 s.18(5)(b) caps the total period at 2 years beginning on the date of the s.18(2) order, not 5 years. / 總扣留期間上限為2年，並非5年。",
+      "Cap. 629 s.18(6): the Court may direct return to an interested person if “(a) the Court is satisfied on an application made by an interested person… that the conditions for their detention do not, or no longer, exist; or (b) the Court is satisfied on an application made by an authorized officer that their detention is no longer justified.” / 關係人申請並信納扣留情況不存在或不再存在，或獲授權人員申請並信納再無理據扣留。",
+      "Cap. 629 s.18(7): interested person means (a) the person from whom it was seized; (b) a person by whom or on whose behalf it was imported or exported; or (c) a person who otherwise has an interest in it — not (a) only. / 關係人包括(a)(b)(c)，並非只指從其處檢取的人。"
+    ],
+    "doubts": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "tc_mismatch": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "m1-231",
+    "verdicts": [
+      "T",
+      "T",
+      "T",
+      "F",
+      "F"
+    ],
+    "quotes": [
+      "Cap. 629 s.19: “If, at any time while CBNIs are being detained under section 17(2) or an order made under section 18, any of the following proceedings are instituted, the CBNIs may be detained until the proceedings have been concluded—” / 如根據第17(2)條或第18條命令被扣留，而在扣留的任何時間有以下任何法律程序提起，則在該程序結束前，該等物品可予繼續扣留。",
+      "Cap. 629 s.19(a): “proceedings instituted (whether in Hong Kong or elsewhere) against a person for an offence with which the CBNIs are connected.” / 就與該等物品相關的罪行，針對某人提起的法律程序（不論該程序是在香港或其他地方提起）。",
+      "Cap. 629 s.19(b): “proceedings instituted (whether in Hong Kong or elsewhere) which may result in the forfeiture or confiscation of the CBNIs.” / 可導致該等物品被沒收或充公的法律程序（不論該程序是在香港或其他地方提起）。",
+      "Cap. 629 s.19 allows detention “until the proceedings have been concluded,” not a further 10 working days after the day the proceedings are instituted (that 10-working-day limit is the initial s.17(2) period). / 可扣留至該程序結束前，並非再扣留程序提起當日後的10個工作日。",
+      "Cap. 629 s.19(a) and (b) both include proceedings instituted “whether in Hong Kong or elsewhere.” / 不論該程序是在香港或其他地方提起，並非只限在香港提起。"
+    ],
+    "doubts": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "tc_mismatch": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "m1-232",
+    "verdicts": [
+      "T",
+      "T",
+      "F",
+      "T",
+      "T",
+      "F"
+    ],
+    "quotes": [
+      "Circular MSSB/FATF_02/2026 item (1)(i): heading “Jurisdictions subject to a FATF call for applying countermeasures,” listing the Democratic People's Republic of Korea (DPRK) and Iran. / 第(1)(i)項標題「需遵從特別組織要求而採取針對措施的司法管轄區」，下列朝鮮民主主義人民共和國及伊朗。",
+      "Circular MSSB/FATF_02/2026 item (1)(ii): heading “Jurisdiction subject to a FATF call for applying enhanced due diligence measures proportionate to the risks arising from the jurisdiction,” naming Myanmar. / 第(1)(ii)項「需遵從特別組織要求而採取與風險相稱的更嚴格的盡職審查措施的司法管轄區」：緬甸。",
+      "Same item (1)(ii): Myanmar is subject to a call for enhanced due diligence, not countermeasures. Countermeasures against Myanmar are only to be considered if no further progress is made by October 2026. / 緬甸現屬更嚴格盡職審查，並非已與朝鮮及伊朗一樣須採取針對措施。",
+      "Circular MSSB/FATF_02/2026 item (1)(ii), Myanmar: “If no further progress is made by October 2026, the FATF will consider countermeasures.” / 「若緬甸於2026年10月或之前仍沒有取得進展，特別組織將會考慮對緬甸採取針對措施。」",
+      "Circular MSSB/FATF_02/2026 item (2): “Money service operators (“MSOs”) are reminded that two new jurisdictions were added into the list, namely Bosnia and Herzegovina and Iraq.” The list is the increased-monitoring list. / 「金錢服務經營者應留意，最新名單加入了兩個司法管轄區，即波斯尼亞和黑塞哥維那及伊拉克。」",
+      "Item (2) adds Bosnia and Herzegovina and Iraq to the increased-monitoring list, not to the item (1) Call for Action list of high-risk jurisdictions subject to a FATF call for countermeasures (DPRK and Iran). / 該兩地是加入被加強監察名單，並非呼籲採取行動、須採取針對措施的高風險名單。"
+    ],
+    "doubts": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "tc_mismatch": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "m1-233",
+    "verdicts": [
+      "T",
+      "T",
+      "T",
+      "T",
+      "T",
+      "F"
+    ],
+    "quotes": [
+      "Cap. 629 s.18(2)(a): the Court may make the order if satisfied that “there are reasonable grounds for suspecting that the CBNIs are property representing the proceeds of an indictable offence mentioned in section 25(1) of the Organized and Serious Crimes Ordinance (Cap. 455)” (joined by “and” to (b), so (a) is a necessary condition). / 法院如信納有合理理由懷疑屬《有組織及嚴重罪行條例》第25(1)條所述、代表從可公訴罪行的得益的財產…則可作出有關命令。",
+      "Cap. 629 s.18(2)(a) and (b) are cumulative (“and” / 「及」): the Court must also be satisfied that “the detention of the CBNIs is justified while” one of the steps in (b)(i)–(iii). / 並須信納在第18(2)(b)條所列其中一項行動進行期間，扣留是有理可據的。",
+      "Cap. 629 s.18(2)(b)(i): detention may be justified while “their origin or derivation is further investigated.” / 對該等物品的來源或如何獲得該等物品，作進一步調查。",
+      "Cap. 629 s.18(2)(b)(ii): while “consideration is given to the institution (whether in Hong Kong or elsewhere) of proceedings against a person for an offence with which the CBNIs are connected.” / 考慮就與該等物品相關的罪行，針對某人提起法律程序（不論在香港或其他地方提起）。",
+      "Cap. 629 s.18(2)(b)(iii): while “consideration is given to the institution (whether in Hong Kong or elsewhere) of proceedings which may result in the forfeiture or confiscation of the CBNIs.” / 考慮提起可導致該等物品被沒收或充公的法律程序（不論在香港或其他地方提起）。",
+      "Cap. 629 s.18(2) requires satisfaction of both (a) and (b). The Court may not make the order on the s.18(2)(b)(i) investigation ground alone, without also being satisfied of the reasonable-grounds suspicion in (a). / 不可單憑第18(2)(b)(i)條作出命令而無需信納(a)的合理理由懷疑。"
+    ],
+    "doubts": [
+      "“Only if satisfied” of s.18(2)(a) states a necessary condition, which is true because (a) and (b) are cumulative. I do not read it as claiming that (a) is the sole condition; statement 2 of the same item then states that (b) is also required.",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "tc_mismatch": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "m1-234",
+    "verdicts": [
+      "T",
+      "T",
+      "F",
+      "T",
+      "T"
+    ],
+    "quotes": [
+      "Circular MSSB/SAN_01/2018 opening: C&ED “would like to further elaborate the expectations on actions that should be taken by Money Service Operators (“MSOs”) regarding sanctions imposed by the United Nations Security Council (“UNSC”) and the early alert circulars which will be issued by the C&ED on this subject from time to time.” / 「現擬進一步闡述海關預期金錢服務經營者如何因應聯合國安全理事會所施加的制裁採取行動，並述明海關會不時就此事及早發出警示通函。」",
+      "Circular MSSB/SAN_01/2018 s.1 p.1: C&ED “requires them to screen all new designations against their client lists as soon as practicable whenever there are such updates.” / 「並規定但凡名單更新後，金錢服務經營者須在實際可行情況下，盡快按所有新指定的名單篩查本身的客戶名單。」",
+      "The same s.1 p.1 passage requires screening “whenever there are such updates,” and then states that, whether or not UNSC sanctions have been implemented through Hong Kong legislation, existing AML/CFT offences remain relevant. It does not confine screening to after Hong Kong implementation. / 並非只須在有關制裁已透過香港法例實施之後才篩查。",
+      "Circular MSSB/SAN_01/2018 s.1 p.1: “In practice, there is likely to be a time gap between issuance of new or revised sanctions resolutions and/or sanctions lists, and their implementation in Hong Kong.” / 「在實際運作上，新的制裁決議及／或制裁名單或其修訂版發出後，直至在香港實施兩者，時間上難免有落差。」",
+      "Circular MSSB/SAN_01/2018 s.1 p.1: “whether or not UNSC sanctions resolutions or sanctions lists have been implemented through Hong Kong legislation, there are offences under existing anti-money laundering and counter-terrorist financing laws that are relevant.” / 「不論聯合國安理會的制裁決議或制裁名單有否透過在香港立法實施，現行針對洗錢及恐怖分子資金籌集的法例已有相關適用的罪行。」"
+    ],
+    "doubts": [
+      "",
+      "",
+      "Document 26’s Chinese extract is truncated after the early pages. The Chinese for this false “need only after Hong Kong implementation” claim is complete on p.1 (screening “但凡名單更新後” and the “不論…有否透過在香港立法實施” offences reminder). Later English in s.1 also says MSOs should have regard to UNSC lists “as soon as practicable after they are promulgated… and regardless of whether the relevant sanctions have been implemented in Hong Kong”; that later sentence is missing from the truncated Chinese file, but p.1 alone already falsifies the statement in both languages.",
+      "",
+      ""
+    ],
+    "tc_mismatch": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "m1-235",
+    "verdicts": [
+      "T",
+      "T",
+      "F",
+      "F"
+    ],
+    "quotes": [
+      "Circular MSSB/FATF_02/2026 item (2): “In addition, the FATF has issued an updated statement on Jurisdictions under Increased Monitoring… which can be found at: [FATF URL].” Item (1) is the Call for Action statement. / 「此外，特別組織發布了一份有關被加強監察的司法管轄區的最新聲明，該聲明可於其網站（只備有英文版）取覽」。",
+      "Circular MSSB/FATF_02/2026 item (2): the statement lists jurisdictions that have committed to resolve strategic deficiencies in their regime to counter money laundering, terrorist financing, and proliferation financing; “The FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies.” / 「特別組織將會密切監察這些司法管轄區在處理已識別的策略性缺失方面的進展。」",
+      "Item (2) only “encourages its members to take into account the information presented in the statement in their risk analysis.” A FATF call for countermeasures is item (1)(i) (DPRK and Iran), not a consequence of increased-monitoring listing alone. / 被加強監察並非單憑列入該名單便須採取針對措施。",
+      "Item (2) does not limit the increased-monitoring list to Myanmar (Myanmar appears under item (1)(ii) as an EDD Call for Action jurisdiction). Item (2) records that “two new jurisdictions were added into the list, namely Bosnia and Herzegovina and Iraq.” / 被加強監察名單並非只限緬甸；該項加入了波斯尼亞和黑塞哥維那及伊拉克。"
+    ],
+    "doubts": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "tc_mismatch": [
+      "TC official adds that the statement is available on the website “只備有英文版”; the TC statement omits that language note and says only 「該聲明可於其網站取覽」. The omission does not change truth: both still correctly say the updated increased-monitoring statement can be found on the FATF website.",
+      "",
+      "",
+      ""
+    ]
+  }
+]

@@ -1,22 +1,22 @@
 {
-  "scope": "Repository originals 01–26; source-authored seven-part revision notes",
+  "scope": "Repository originals 01–24 and 26; source-authored seven-part revision notes",
   "method": "Original passages -> concepts, definitions, requirements, conditions and exceptions. Source-bound recall comparisons supplement full visible prose. The bank is used only by the separate gap audit.",
-  "limitations": "Anchors prove source location, not semantic completeness. See depth-review-2026-10-20/REPORT.md and its per-source inventories for the current depth review, bilingual meaning checks, source-selected statutory coverage, reference-detail decisions and unresolved verification boundaries. This is not a line-by-line bilingual audit of every full volume or a guarantee about unknown official questions. Official source categories extend beyond the owner-selected 01–26. Historical reviews remain preserved, not proof of this review. Dated findings/lists retain their publication date.",
+  "limitations": "Anchors prove source location, not semantic completeness. See depth-review-2026-10-20/REPORT.md and its per-source inventories for the current depth review, bilingual meaning checks, source-selected statutory coverage, reference-detail decisions and unresolved verification boundaries. This is not a line-by-line bilingual audit of every full volume or a guarantee about unknown official questions. Official source categories extend beyond the owner-selected 01–24 and 26. Historical reviews remain preserved, not proof of this review. Dated findings/lists retain their publication date.",
   "manuscripts": {
-    "part1.py": "3cfb0e8f30e9ba8cdc8f397eb89b15a09c55897e00ea3777eac6d6ea241a17ec",
+    "part1.py": "cf24d419cfe0c53d032269fb626d72ad68def898aa31d0bdbfeff924ffd9c4c0",
     "part2.py": "be06fa056a56df29a85f4874571a442bcb8e12534b9c1fb771ade84b51b62063",
     "part3.py": "07b2ee64896aff844ca705902cf0da023236e2081ae649b54b68408b18516adc",
-    "part4.py": "7facf55879333b38bf30ae0994297ddbf05ce6b6fa91227b9f0bfe46a3b994a0",
-    "part5.py": "45b999b481bd911de9741dd97a806072d01e173a5bdfdf8acbe22a2660af2c29",
-    "part6.py": "11eacae31f4f30d5eb653295c1916436c4af22cc2c638d843769072f71b257ae",
-    "part7.py": "45d4a329aca0a883e7ed9b421a9ff6ebf7e21f08f9e33e910bc526bbd01350b1"
+    "part4.py": "35847fee678af35b48a7425bd5640a3f5e31eb0dadabd0875cce656b85050c56",
+    "part5.py": "07228c7cc23034dda7c996307f9306f45dab789ef1bf205f8fb87585595fccae",
+    "part6.py": "c777411d387571181592fe09cb0b825537411ff842dbac9d82e9ddfdfac47322",
+    "part7.py": "e34db2f2f36386c3c87df8bf0f846cf56f0c12e8cf8c75df3713dc7514e6c1db"
   },
   "recall": {
     "sha256": "12e9f787f1e1e8a91743bb0b83ef24866871b2e6bdbcc5e4195b69e8b6b92164",
     "tables": 14,
-    "diagrams": 65,
+    "diagrams": 61,
     "visual_sources": {
-      "visual_panels.py": "4483829dc61e2ea14cbfe231a81ac7d41fc8fe2e019160195eb1744e9b705813",
+      "visual_panels.py": "83faebfa4c254fc2c8281104d924dd7f6316537c90e36c269798ce1eec4132c1",
       "visual_render.py": "6bf9788e5563990dbc045611bddfebe863cf4617e83ba27285f39168f636e3c5"
     }
   },
@@ -24,13 +24,13 @@
     "traps": 69,
     "tiers": {
       "M": 106,
-      "U": 64,
-      "R": 37,
-      "F": 22
+      "U": 55,
+      "R": 32,
+      "F": 17
     },
     "sources": {
       "traps.py": "ed47b4e0863421ecddf1c027165afd9978365d6fa5e1964d559bc8607d3c1777",
-      "tiers.py": "d197c0ff97bb0b91e8b73ff210948483cba777077f7172115531d7b0ba2925a3"
+      "tiers.py": "f1870c5d6e728fe6c5a127f82e59a3c7bff21013707360ae1defae0abdcff665"
     },
     "ruling_marks": {
       "marks": {
@@ -142,9 +142,9 @@
     }
   },
   "amounts": {
-    "sha256": "6406d54aa4cff399bde028f15d9dae45081782f2689e52a42b332cc28f9d1464",
+    "sha256": "91cf481aebdd72f1a97e070470d12c8e612399fb43f26824287e39dbb6a5bcee",
     "groups": 7,
-    "rows": 70
+    "rows": 69
   },
   "source_text_sha256": {
     "01": {
@@ -242,10 +242,6 @@
     "24": {
       "EN": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b"
     },
-    "25": {
-      "TC": "39d140261bfe1e7886bf3bbe068f2cf5de8a626bca154a2764190f73a7adb252",
-      "EN": "6b410a4644b662a0c595cc843b04730f0af50a7af4f0e129a2d5dafc6c37e254"
-    },
     "26": {
       "TC": "6829cc9518b597794287b65db41b6a8d1228a0437a8a10237b2440074ede51ee",
       "EN": "2a44e23b7873502ddce5ee9afc5b919bee28287d08011080227b4c21e6e2ae5c"
@@ -308,7 +304,6 @@
     "04": [
       "part-1.html#money-laundering",
       "part-1.html#legal-framework",
-      "part-1.html#risk-assessment",
       "part-2.html#statutory-map",
       "part-2.html#criminal-liability",
       "part-2.html#inspection-investigation",
@@ -438,21 +433,6 @@
     "24": [
       "part-6.html#trade-based-laundering"
     ],
-    "25": [
-      "part-1.html#money-laundering",
-      "part-1.html#terrorist-financing",
-      "part-1.html#legal-framework",
-      "part-1.html#risk-assessment",
-      "part-1.html#sanctions",
-      "part-2.html#statutory-map",
-      "part-5.html#risk-based",
-      "part-6.html#beneficial-owners",
-      "part-6.html#monitoring",
-      "part-6.html#remittances",
-      "part-6.html#trade-based-laundering",
-      "part-7.html#reporting-duty",
-      "part-7.html#law-enforcement"
-    ],
     "26": [
       "part-1.html#legal-framework",
       "part-1.html#international",
@@ -475,7 +455,7 @@
             "tc": "洗錢：犯罪得益及三個階段",
             "en": "Money laundering: criminal proceeds and three stages"
           },
-          "points": 7,
+          "points": 5,
           "memory_panels": [
             {
               "id": "three-stages",
@@ -509,14 +489,6 @@
               "anchor": "not to appear to be or so represent such proceeds"
             },
             {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第3.3段及註37–39",
-                "en": "2022 edition, ¶3.3 and notes 37–39"
-              },
-              "anchor": "It is not necessary for the prosecution to prove"
-            },
-            {
               "doc": "03",
               "locator": {
                 "tc": "第1.9–1.10段",
@@ -532,7 +504,7 @@
             "tc": "恐怖分子資金籌集：合法資金也可被濫用",
             "en": "Terrorist financing: legitimate funds can also be misused"
           },
-          "points": 4,
+          "points": 2,
           "memory_panels": [
             {
               "id": "ml-tf-pf",
@@ -548,14 +520,6 @@
                 "en": "¶1.11–1.12, 1.23–1.25"
               },
               "anchor": "terrorist financing"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第8.5、8.11、8.27–8.32段",
-                "en": "2022 edition, ¶8.5, 8.11, 8.27–8.32"
-              },
-              "anchor": "CHAPTER 8"
             },
             {
               "doc": "03",
@@ -589,7 +553,7 @@
             "tc": "香港法律：各條例處理的問題",
             "en": "Hong Kong’s laws: the role of each ordinance"
           },
-          "points": 10,
+          "points": 7,
           "memory_panels": [
             {
               "id": "six-laws",
@@ -618,14 +582,6 @@
                 "en": "¶1.14, 1.19–1.27"
               },
               "anchor": "Drug Trafficking (Recovery of Proceeds)"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第3.15–3.19、4.50段及註95",
-                "en": "2022 edition, ¶3.15–3.19, 4.50 and note 95"
-              },
-              "anchor": "Restraint and confiscation/forfeiture"
             },
             {
               "doc": "03",
@@ -823,151 +779,17 @@
           ]
         },
         {
-          "id": "risk-assessment",
-          "title": {
-            "tc": "香港風險評估：威脅、脆弱性與行業風險",
-            "en": "Hong Kong risk assessment: threats, vulnerabilities and sector risk"
-          },
-          "points": 27,
-          "memory_panels": [
-            {
-              "id": "cross-sector-mechanisms",
-              "kind": "paths",
-              "rows": 0
-            }
-          ],
-          "refs": [
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "行政摘要；第2.1–2.10、5.4.1–5.4.29段",
-                "en": "Executive summary; ¶2.1–2.10, 5.4.1–5.4.30"
-              },
-              "anchor": "The overall ML risk is therefore assessed to be medium-high"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，前言；行政摘要第3–5、24–29段；第2.4–2.9、5.4.1–5.4.12段",
-                "en": "2022 edition, Foreword; Executive summary ¶3–5, 24–29; ¶2.4–2.9, 5.4.1–5.4.12"
-              },
-              "anchor": "805"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第2.4–2.5、8.5段；行政摘要第18–23段",
-                "en": "2022 edition, ¶2.4–2.5, 8.5; Executive summary ¶18–23"
-              },
-              "anchor": "Threats refer to the scale and characteristics"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第4.39–4.41、4.52–4.59、4.63、7.11–7.12段及註94",
-                "en": "2022 edition, ¶4.39–4.41, 4.52–4.59, 4.63, 7.11–7.12 and footnote 94"
-              },
-              "anchor": "Cash kiting"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "第5.2.13–5.2.17、5.2.21、5.3.25–5.3.38、5.6.2、5.6.7–5.6.15、5.6.21、5.7.5、5.7.22、6.4.3、6.6.6–6.6.13段",
-                "en": "¶5.2.13–5.2.17, 5.2.21, 5.3.25–5.3.38, 5.6.2, 5.6.7–5.6.15, 5.6.21, 5.7.5, 5.7.22, 6.4.3, 6.6.6–6.6.13"
-              },
-              "anchor": "Mule account networks"
-            },
-            {
-              "doc": "04",
-              "locator": {
-                "tc": "第5B、5C部",
-                "en": "Parts 5B, 5C"
-              },
-              "anchor": "Regulation of Dealings in Precious Metals and Stones"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第4.45–4.51段",
-                "en": "2022 edition, ¶4.45–4.51"
-              },
-              "anchor": "Purchase of insurance products"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第5.3.9、5.3.12–5.3.14、5.3.25–5.3.29段及專題5.9–5.10",
-                "en": "2022 edition, ¶5.3.9, 5.3.12–5.3.14, 5.3.25–5.3.29 and Boxes 5.9–5.10"
-              },
-              "anchor": "Examples of red flags that may indicate"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第5.4.8–5.4.10、5.4.14–5.4.16段",
-                "en": "2022 edition, ¶5.4.8–5.4.10, 5.4.14–5.4.16"
-              },
-              "anchor": "an impact rating reflecting its annual turnover"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第5.4.16、5.4.20段",
-                "en": "2022 edition, ¶5.4.16, 5.4.20"
-              },
-              "anchor": "off-site monitoring is strategically deployed"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "第5.2.13–5.2.17、5.2.21、5.3.25–5.3.38、5.6.2、5.6.7–5.6.15、5.6.21、5.7.5、5.7.22、6.4.3、6.6.6–6.6.13段",
-                "en": "¶5.2.13–5.2.17, 5.2.21, 5.3.25–5.3.38, 5.6.2, 5.6.7–5.6.15, 5.6.21, 5.7.5, 5.7.22, 6.4.3, 6.6.6–6.6.13"
-              },
-              "anchor": "Mule account networks"
-            },
-            {
-              "doc": "04",
-              "locator": {
-                "tc": "第5B、5C部",
-                "en": "Parts 5B, 5C"
-              },
-              "anchor": "Regulation of Dealings in Precious Metals and Stones"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第4.45–4.51段",
-                "en": "2022 edition, ¶4.45–4.51"
-              },
-              "anchor": "Purchase of insurance products"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第5.3.9、5.3.12–5.3.14、5.3.25–5.3.29段及專題5.9–5.10",
-                "en": "2022 edition, ¶5.3.9, 5.3.12–5.3.14, 5.3.25–5.3.29 and Boxes 5.9–5.10"
-              },
-              "anchor": "Examples of red flags that may indicate"
-            }
-          ]
-        },
-        {
           "id": "sanctions",
           "title": {
             "tc": "恐怖主義及擴散融資的定向金融制裁",
             "en": "Targeted financial sanctions for terrorism and proliferation"
           },
-          "points": 15,
+          "points": 13,
           "memory_panels": [
             {
               "id": "sanctions-actors",
               "kind": "table",
               "rows": 4
-            },
-            {
-              "id": "pace-four",
-              "kind": "checklist",
-              "rows": 0
             }
           ],
           "refs": [
@@ -1028,14 +850,6 @@
               "anchor": "a two-tiered approach"
             },
             {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第9.1、9.17、9.26、9.45–9.46段",
-                "en": "2022 edition, ¶9.1, 9.17, 9.26, 9.45–9.46"
-              },
-              "anchor": "Prevention"
-            },
-            {
               "doc": "03",
               "locator": {
                 "tc": "第6.1–6.8段",
@@ -1074,14 +888,6 @@
                 "en": "¶6.6–6.8, 6.12–6.19; footnotes 58"
               },
               "anchor": "irrespective of the risk profile attributed to the customer"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第9.1、9.17、9.26、9.45–9.46段",
-                "en": "2022 edition, ¶9.1, 9.17, 9.26, 9.45–9.46"
-              },
-              "anchor": "Prevention"
             }
           ]
         },
@@ -1268,7 +1074,7 @@
           ]
         }
       ],
-      "points": 85
+      "points": 49
     },
     {
       "part": 2,
@@ -1421,20 +1227,12 @@
               "anchor": "functions of CO and MLRO may be performed by the same"
             },
             {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第3.38–3.39、3.46–3.47段",
-                "en": "2022 edition, ¶3.38–3.39, 3.46–3.47"
-              },
-              "anchor": "reasonable prospect of conviction"
-            },
-            {
               "doc": "03",
               "locator": {
-                "tc": "第7.1、7.12段",
-                "en": "¶7.1, 7.12"
+                "tc": "第7.1–7.5段及註60",
+                "en": "¶7.1–7.5; footnotes 60"
               },
-              "anchor": "as soon as it is reasonable"
+              "anchor": "Suspicion is personal and falls short of proof"
             },
             {
               "doc": "04",
@@ -3054,7 +2852,7 @@
             "tc": "風險為本方法：資源與風險相稱",
             "en": "Risk-based approach: match resources to risk"
           },
-          "points": 4,
+          "points": 3,
           "memory_panels": [
             {
               "id": "risk-levels",
@@ -3068,22 +2866,6 @@
               "locator": {
                 "tc": "第2.1、2.13–2.16、3.3段",
                 "en": "¶2.1, 2.13–2.16, 3.3"
-              },
-              "anchor": "allocate its resources more effectively"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第5.2節專題5.6（中文第61頁）",
-                "en": "2022 edition, section 5.2 Box 5.6 (English p.72)"
-              },
-              "anchor": "Box 5.6 - De-risking"
-            },
-            {
-              "doc": "03",
-              "locator": {
-                "tc": "第2.1、4.13.1段",
-                "en": "¶2.1, 4.13.1"
               },
               "anchor": "allocate its resources more effectively"
             },
@@ -3470,7 +3252,7 @@
           ]
         }
       ],
-      "points": 46
+      "points": 45
     },
     {
       "part": 6,
@@ -3797,16 +3579,11 @@
             "tc": "實益擁有人：擁有權、控制與代他人行事",
             "en": "Beneficial owners: ownership, control and acting for another"
           },
-          "points": 19,
+          "points": 14,
           "memory_panels": [
             {
               "id": "ownership-examples",
               "kind": "paths",
-              "rows": 0
-            },
-            {
-              "id": "scr-five-conditions",
-              "kind": "checklist",
               "rows": 0
             }
           ],
@@ -3852,14 +3629,6 @@
               "anchor": "senior managing official"
             },
             {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第7.20、7.24–7.27段及註201",
-                "en": "2022 edition, ¶7.20, 7.24–7.27 and note 201"
-              },
-              "anchor": "Significant controllers include"
-            },
-            {
               "doc": "03",
               "locator": {
                 "tc": "第4.4.3–4.4.4段及註27",
@@ -3898,22 +3667,6 @@
                 "en": "Schedule 2 s.1"
               },
               "anchor": "more than 25%"
-            },
-            {
-              "doc": "04",
-              "locator": {
-                "tc": "附表2第1條",
-                "en": "Schedule 2 s.1"
-              },
-              "anchor": "beneficial owner"
-            },
-            {
-              "doc": "03",
-              "locator": {
-                "tc": "第4.4.6–4.4.12段",
-                "en": "¶4.4.6–4.4.12"
-              },
-              "anchor": "senior managing official"
             }
           ]
         },
@@ -4611,7 +4364,7 @@
             "tc": "持續監察與原有客戶",
             "en": "Ongoing monitoring and pre-existing customers"
           },
-          "points": 9,
+          "points": 6,
           "memory_panels": [],
           "refs": [
             {
@@ -4637,14 +4390,6 @@
                 "en": "¶5.4–5.5"
               },
               "anchor": "timely and sufficient information required to identify, analyse and effectively monitor"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第4.62–4.64段",
-                "en": "2022 edition, ¶4.62–4.64"
-              },
-              "anchor": "Common Device identity"
             }
           ]
         },
@@ -4978,7 +4723,7 @@
             "tc": "非電傳匯款：發款人與必備紀錄",
             "en": "Non-wire remittances: originator and required records"
           },
-          "points": 5,
+          "points": 4,
           "memory_panels": [
             {
               "id": "wire-vs-remittance",
@@ -5007,14 +4752,6 @@
                 "en": "Schedule 2 ss.1, 13"
               },
               "anchor": "certificate of identity"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第4.55–4.56段",
-                "en": "2022 edition, ¶4.55–4.56"
-              },
-              "anchor": "individual cash couriers repeatedly carry cash"
             },
             {
               "doc": "03",
@@ -5088,14 +4825,8 @@
             "tc": "貿易洗錢：定義與四類風險指標",
             "en": "Trade-based money laundering: definition and four indicator groups"
           },
-          "points": 14,
-          "memory_panels": [
-            {
-              "id": "trade-value-paths",
-              "kind": "paths",
-              "rows": 0
-            }
-          ],
+          "points": 12,
+          "memory_panels": [],
           "refs": [
             {
               "doc": "18",
@@ -5146,14 +4877,6 @@
               "anchor": "it lacks regular payroll transactions"
             },
             {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第4.44、4.57–4.59段及專題4.5",
-                "en": "2022 edition, ¶4.44, 4.57–4.59 and Box 4.5"
-              },
-              "anchor": "Box 4.5"
-            },
-            {
               "doc": "18",
               "locator": {
                 "tc": "2026年1月20日通函第2–4項（第1–2頁）",
@@ -5168,38 +4891,6 @@
                 "en": "Printed pp.3–5 and footnote 5"
               },
               "anchor": "determining the profit margin"
-            },
-            {
-              "doc": "18",
-              "locator": {
-                "tc": "第1–3頁",
-                "en": "pp.1–3"
-              },
-              "anchor": "trade-based money laundering"
-            },
-            {
-              "doc": "24",
-              "locator": {
-                "tc": "第1–2頁（中文為學習譯文）",
-                "en": "pp.1–2"
-              },
-              "anchor": "By no means is this a conclusive list"
-            },
-            {
-              "doc": "24",
-              "locator": {
-                "tc": "印刷第5–6頁",
-                "en": "Printed pp.5–6"
-              },
-              "anchor": "Account and transaction activity"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第4.44、4.57–4.59段及專題4.5",
-                "en": "2022 edition, ¶4.44, 4.57–4.59 and Box 4.5"
-              },
-              "anchor": "Box 4.5"
             }
           ]
         },
@@ -5271,7 +4962,7 @@
           ]
         }
       ],
-      "points": 209
+      "points": 198
     },
     {
       "part": 7,
@@ -5286,7 +4977,7 @@
             "tc": "可疑交易舉報：觸發條件及時間",
             "en": "Suspicious transaction reporting: trigger and timing"
           },
-          "points": 7,
+          "points": 4,
           "memory_panels": [
             {
               "id": "str-route",
@@ -5302,22 +4993,6 @@
                 "en": "¶7.1–7.5; footnotes 60"
               },
               "anchor": "Suspicion is personal and falls short of proof"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第3.38–3.39、3.46–3.47段",
-                "en": "2022 edition, ¶3.38–3.39, 3.46–3.47"
-              },
-              "anchor": "reasonable prospect of conviction"
-            },
-            {
-              "doc": "03",
-              "locator": {
-                "tc": "第7.1、7.12段",
-                "en": "¶7.1, 7.12"
-              },
-              "anchor": "as soon as it is reasonable"
             },
             {
               "doc": "03",
@@ -5698,7 +5373,7 @@
             "tc": "執法要求：命令與風險覆核",
             "en": "Law-enforcement requests: orders and risk review"
           },
-          "points": 5,
+          "points": 3,
           "memory_panels": [],
           "refs": [
             {
@@ -5708,14 +5383,6 @@
                 "en": "¶7.31–7.35"
               },
               "anchor": "the customer to whom the court document relates can be a victim"
-            },
-            {
-              "doc": "25",
-              "locator": {
-                "tc": "2022年版，第3.49–3.57段",
-                "en": "2022 edition, ¶3.49–3.57"
-              },
-              "anchor": "Financial intelligence exchange"
             }
           ]
         },
@@ -5788,7 +5455,7 @@
           ]
         }
       ],
-      "points": 63
+      "points": 58
     }
   ]
 }

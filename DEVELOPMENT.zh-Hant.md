@@ -8,7 +8,7 @@
 
 | 檔案 | 用途 |
 |---|---|
-| `web/` | App 畫面、操作、樣式、字型及588道雙語題。 |
+| `web/` | App 畫面、操作、樣式、字型及565道雙語題。 |
 | `main.go`、`go.mod` | 把 App 打包成一個離線 HTML；沒有第三方 Go 依賴。 |
 | 四個 `*_test.go` | 檢查打包結果、答案、來源引文、語言及猜題線索。 |
 | `tests/` | JavaScript 功能測試及 Python 來源、覆核約束。 |
@@ -48,9 +48,9 @@ Windows 若 `python` 開啟 Store，可改用 `py -3`；中文輸出有問題時
 ## 題庫、來源與證據
 
 修改前閱讀[題目規格](bank/FORMAT.md)、[出題流程](docs/authoring/exam-prep/GUIDE.md)及
-[來源維護](docs/SOURCE-MAINTENANCE.zh-Hant.md)。現行報告核驗01–26來源的588題：
+[來源維護](docs/SOURCE-MAINTENANCE.zh-Hant.md)。現行報告核驗01–24及26來源的565題：
 先由新至舊還原 `bank/audit/active-followups/` 內每項已覆核改動（各附盲審記錄及改動前題庫存檔），
-再按原樣核驗active26記錄。四份舊報告重建各自的歷史題庫，不代表現行覆蓋率。1,526個停用題號仍不可重用。
+再按原樣核驗active26記錄。四份舊報告重建各自的歷史題庫，不代表現行覆蓋率。1,549個停用題號仍不可重用。
 
 更改被舊覆核綁定的文件時，先把原始位元組保存在不可改寫的存檔，再新增記錄連接新舊摘要。
 不得修改舊摘要來消除錯誤。舊溫習資料的原始碼仍與原覆核摘要核對，但不再日常重建。
@@ -68,7 +68,7 @@ git push origin vX.Y.Z
 ```
 
 把 `vX.Y.Z` 換成實際版本。自動流程會檢查該次提交，建立 `mso-ca.html` 及學習包，
-只發佈 `mso-study-bundle.zip`；練習App、七部分筆記及由目錄解析的01–26原件都在包內。
+只發佈 `mso-study-bundle.zip`；練習App、七部分筆記及由目錄解析的01–24及26原件都在包內。
 確認 CI 及 Release 成功，再核對附件；不可覆蓋已發佈標籤。
 舊溫習資料仍可從既有版本及[存檔](revision/README.md)取回，不再重建。
 `dist/` 及 Python 快取是本機產物。

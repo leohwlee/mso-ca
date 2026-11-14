@@ -2,17 +2,17 @@
 
 [繁體中文 →](README.zh-Hant.md)
 
-**26 daily publications, continuously numbered 01–26.** Companions each have their own number. Originals are directly in [TC](TC/) and [EN](EN/), 26 files per folder. Both bilingual laws are copied into both folders.
+**25 daily publications: 01–24 and 26.** Companions each have their own number. Daily originals are directly in [TC](TC/) and [EN](EN/), 25 files per folder. Both bilingual laws are copied into both folders.
 
-Filename order is 01–09 High → 10–19 Medium Essential → 20–26 Medium Selected, without gaps or separate source IDs. Circular 16 is followed by the full Cap. 34 as 17; circular 22 is followed by the full Cap. 629 as 23. Reference publications continue as 27–47 under archive.
+Filename order is 01–09 High → 10–19 Medium Essential → 20–24 and 26 Medium Selected. Number 25 is reserved and absent from the daily folders on purpose: on 14 November 2026 the owner moved the 2022 risk assessment report into the reference archive, and publication 26 is not renumbered. There is no separate source ID. Circular 16 is followed by the full Cap. 34 as 17; circular 22 is followed by the full Cap. 629 as 23. Reference publications are document 25 together with 27–47 under archive.
 
 **Master 03, 04 and 05 first:** the AML/CFT Guideline, Cap. 615 and Licensing Guide. Skim 01-02 for exam setup and examples; use 06-09 for application and specific expectations. After High, finish Medium Essential before selecting weaker topics from Medium Selected.
 
 Basis: [official Guidance Notes, paragraphs 5.2-6.1](https://eservices.customs.gov.hk/MSOS/download/licensing/Guidance_Notes_on_the_Competence_Assessment_for_Money_Service_Operators_en.pdf). The seven-module syllabus includes law, core and other guidelines, and circulars. These are study recommendations, not official exam weights.
 
-21 of the 47 publications have been removed from daily reading: covered extracts, old notices, repeat training, historical resolutions and lower-priority extensions. See [the decisions and reasons](archive/README.md). Originals and question evidence remain. Archiving does not establish withdrawal or exam exclusion; the current question bank uses only 01–26; archived material is historical reference.
+22 of the 47 publications have been removed from daily reading: covered extracts, old notices, repeat training, historical resolutions, lower-priority extensions, and the 2022 risk assessment report, which the owner removed from personal practice on 14 November 2026. See [the decisions and reasons](archive/README.md). Originals and question evidence remain. Archiving does not establish withdrawal or exam exclusion; the current question bank uses only 01–24 and 26; archived material is historical reference.
 
-The v1.13.4 [seven-part notes](../revision/study-notes/index.html) retain lists, conditions and exceptions from the High-priority originals; see [review scope and limits](../revision/study-notes/README.md). Download the complete study bundle from the [release page](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.4) for offline reading. This release does not update source editions or extend the 01–26 selection.
+The [seven-part notes](../revision/study-notes/index.html) retain lists, conditions and exceptions from the High-priority originals and the current daily selection (01–24 and 26); see [review scope and limits](../revision/study-notes/README.md). The last published offline bundle remains [v1.13.4](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.4). This work does not update source editions or create a new tagged release.
 
 ## 01–09 · High priority
 
@@ -43,7 +43,7 @@ The v1.13.4 [seven-part notes](../revision/study-notes/index.html) retain lists,
 | <a id="doc-18"></a><a id="related-18"></a>18 | [Circular - Trade-based Money Laundering Guidance (20 Jan 2026) · MSSB/MIS_01/2026](<EN/18_Medium-Essential_Circular - Trade-based Money Laundering Guidance (20 Jan 2026).pdf>) | Trade-based money laundering risks and controls. | Read customer and funding checks, warning signs, analysis and reporting; then select relevant indicators from item 24. |
 | <a id="doc-19"></a><a id="related-19"></a>19 | [Circular - Statements issued by the FATF (3 Jul 2026) · MSSB/FATF_02/2026](<EN/19_Medium-Essential_Circular - Statements issued by the FATF (3 Jul 2026).pdf>) | FATF statements on high-risk and monitored jurisdictions. | Learn the different responses and check for a newer statement before the exam. |
 
-## 20–26 · Medium selected
+## 20–24 and 26 · Medium selected
 
 | Number | Publication and original | What it is | Reading focus |
 |---|---|---|---|
@@ -52,7 +52,6 @@ The v1.13.4 [seven-part notes](../revision/study-notes/index.html) retain lists,
 | <a id="doc-22"></a><a id="related-22"></a>22 | [Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018) · MSSB/MIS_06/2018](<EN/22_Medium-Selected_Circular - Cross-boundary Movement of Currency Ordinance Cap 629 (31 Jul 2018).pdf>) | Summary of cross-boundary currency and bearer instrument requirements. | Distinguish thresholds, arrival/departure, passengers and cargo. |
 | <a id="doc-23"></a><a id="related-23"></a>23 | [Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629](<EN/23_Medium-Selected_Full Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629 (2026-07-31, Bilingual).pdf>) · Companion to 22 | Complete Cap. 629, including Parts 1-4 and Schedules 1-6; companion to circular 22. | Bilingual verified copy dated 31 July 2026, including Parts 1-4 and Schedules 1-6. Read definitions, passenger/cargo declaration and disclosure duties and the Schedule 4 threshold alongside the circular. Check control points against Schedule 1 of this edition. Use section numbers and printed legislative page labels when citing. |
 | <a id="doc-24"></a><a id="related-24"></a>24 | [Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021)](<EN/24_Medium-Selected_Trade-Based Money Laundering Risk Indicators - FATF and Egmont (Mar 2021).pdf>) | Joint FATF/Egmont trade-based money laundering risk indicators. | Read the handling notes and four indicator groups; understand rather than memorise the lists. |
-| <a id="doc-25"></a><a id="related-25"></a>25 | [Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022)](<EN/25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf>) | Hong Kong territory-wide and sectoral risk assessment. | Focus on section 5.4 and MSO cases; selectively read TF and PF chapters. |
 | <a id="doc-26"></a><a id="related-26"></a>26 | [Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018) · MSSB/SAN_01/2018](<EN/26_Medium-Selected_Circular - United Nations Sanctions - Principles and Early Alerts (7 Feb 2018).pdf>) | Principles of UN sanctions screening and early alerts. | Read alongside guideline chapter 6, including sanctions not yet implemented locally. |
 
 ## External reading beyond the app scope
@@ -71,7 +70,7 @@ The two FATF statements dated 19 June 2026 and June plenary outcomes linked by i
 
 Item 24 gives the English original in TC, explicitly marked as such. Item 30 is a reference extract; use the full Cap. 34 in item 17.
 
-The owner has approved only 01–26 for active questions. The original 23-source flag records history; archived-source questions are retired and additions have separate review evidence. Chinese questions using item 24 are labelled study translations and retain English deciding quotes.
+The owner has approved only 01–24 and 26 for active questions. On 14 November 2026 the owner also removed the 2022 risk assessment report (document 25) from personal practice reading and from the active question scope because it did not appear in the exam he sat; this is a study selection, not a finding that the official exam cannot use the report. The original 23-source flag records history; archived-source questions are retired and additions have separate review evidence. Chinese questions using item 24 are labelled study translations and retain English deciding quotes.
 
 [Source maintenance](SOURCE-MAINTENANCE.md) · [Question source mapping](QUESTION-SOURCES.md) · [Complete register](catalog.json)
 

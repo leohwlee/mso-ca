@@ -5,8 +5,8 @@ starts with a tier word must agree with its letter; build.py checks both.
 """
 
 TIERS = {
-    1: {'money-laundering': 'MUU', 'terrorist-financing': 'MU', 'legal-framework': 'MMFU', 'international': 'MU',
-        'risk-assessment': 'UFUUURRRF', 'sanctions': 'MUUMUF', 'cross-boundary-cash': 'MMRMRUF'},
+    1: {'money-laundering': 'MU', 'terrorist-financing': 'M', 'legal-framework': 'MMU', 'international': 'MU',
+        'sanctions': 'MUUMU', 'cross-boundary-cash': 'MMRMRUF'},
     2: {'statutory-map': 'UMR', 'criminal-liability': 'MMF', 'inspection-investigation': 'MURF', 'licence-scope': 'MM',
         'grant-renewal': 'MMRU', 'changes': 'M', 'discipline': 'MR', 'enforcement': 'U', 'review': 'MM',
         'statutory-administration': 'UFF', 'other-sector-regimes': 'FFFFFFF'},
@@ -14,15 +14,15 @@ TIERS = {
         'ongoing-and-records': 'M', 'fees': 'MU', 'tribunal-schedule': 'RF'},
     4: {'premises': 'MU', 'application': 'URUM', 'fitness': 'MMR', 'assessment': 'MRUMUF', 'licensing-actions': 'MUMMM',
         'penalty-factors': 'MR', 'exchange-note': 'MR', 'exchange-display': 'MU'},
-    5: {'risk-based': 'MU', 'institutional-assessment': 'MM', 'customer-assessment': 'MU', 'new-business': 'M',
+    5: {'risk-based': 'M', 'institutional-assessment': 'MM', 'customer-assessment': 'MU', 'new-business': 'M',
         'control-framework': 'M', 'roles': 'MMMU', 'group-controls': 'MUU', 'business-plan': 'R', 'policy': 'U'},
     6: {'cdd': 'MU', 'triggers': 'MM', 'identity': 'MMUUM', 'identity-evidence': 'MMU', 'beneficial-owners': 'MUUURU',
         'representatives': 'MUM', 'timing': 'MMU', 'simplified': 'MMMURM', 'enhanced': 'MMUURUU', 'peps': 'MMU',
-        'remote': 'MU', 'intermediaries': 'MMRRM', 'monitoring': 'MMMR', 'screening': 'MMU', 'third-party-payments': 'MRM',
-        'delivery': 'U', 'wire-transfers': 'MMUU', 'wire-receiving': 'MM', 'remittances': 'MMU',
-        'trade-based-laundering': 'MRRURRRR', 'suspicion-indicators': 'URRRRRR'},
-    7: {'reporting-duty': 'MU', 'internal-report': 'MUUM', 'tipping-off': 'M', 'after-report': 'M', 'evidence-records': 'M',
-        'retention': 'MM', 'independent-audit': 'MU', 'training': 'MMU', 'law-enforcement': 'UF', 'periodic-return': 'MM',
+        'remote': 'MU', 'intermediaries': 'MMRRM', 'monitoring': 'MMM', 'screening': 'MMU', 'third-party-payments': 'MRM',
+        'delivery': 'U', 'wire-transfers': 'MMUU', 'wire-receiving': 'MM', 'remittances': 'MM',
+        'trade-based-laundering': 'MRRURRR', 'suspicion-indicators': 'URRRRRR'},
+    7: {'reporting-duty': 'M', 'internal-report': 'MUUM', 'tipping-off': 'M', 'after-report': 'M', 'evidence-records': 'M',
+        'retention': 'MM', 'independent-audit': 'MU', 'training': 'MMU', 'law-enforcement': 'U', 'periodic-return': 'MM',
         'safe': 'M'},
 }
 

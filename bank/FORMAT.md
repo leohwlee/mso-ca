@@ -33,7 +33,7 @@ about that shape, the schema an item follows, and the rules a writer works to.
 | Option layout | "All of the above" (以上皆是) or "None of the above" (以上皆非), when present, is always option e). The other options list statement numbers. |
 | Statement order | The app shuffles the statements of every item at every draw and renumbers the options to match, so a letter cannot be memorised. Every statement has its own explanation without positional references. |
 | Retired | The 1,206 four-option items and 303 superseded combination items are out of the app. Their ids remain reserved in `bank/retired-ids.json`; their text and quotes are preserved in Git at `v1.7.5`. The remaining 38 old combination items have been migrated in place with their ids retained. |
-| Sources | On 18 October 2026 the owner limited the active bank to documents 01–26 and requested approximately 525 questions. Documents 27–47 remain historical reference, excluded from new and retained active questions. This is a personal study scope, not a statement that archived topics cannot appear on the official exam. |
+| Sources | On 18 October 2026 the owner limited the active bank to documents 01–26 and requested approximately 525 questions. On 14 November 2026 the owner removed document 25, the 2022 risk assessment report, from personal practice reading and from the active question scope, because it did not appear in the exam he sat; the current allowlist is 01–24 and 26. Document 25 and documents 27–47 remain historical reference, excluded from new and retained active questions. This is a personal study scope, not a statement that archived topics cannot appear on the official exam. |
 | App | Mock exam and custom practice only; custom practice selects one or more of Parts 1–7. Scores and review are supporting features within these modes. |
 | Applications | Expansion includes genuinely different decision-changing scenarios using approved rules. A source rule may recur when the case tests a different condition, exception or combination; names or amounts pasted onto otherwise identical claims are not new coverage. |
 
@@ -82,9 +82,9 @@ prefixes: `03` is the AML/CFT Guideline and `04` is Cap. 615. Read
 [source maintenance](../docs/SOURCE-MAINTENANCE.md) and use `docs/catalog.json`
 before working with a source or added reading material. There is no second ID.
 
-Daily publications and companions use continuous numbers 01–26: High 01–09,
-Medium Essential 10–19, Medium Selected 20–26. Reference publications continue
-as 27–47. These numbers also identify quotes and extracted text; no second
+Daily publications and companions use numbers 01–24 and 26: High 01–09,
+Medium Essential 10–19, Medium Selected 20–24 and 26. Number 25 is reserved for the archived 2022 risk assessment report and is not reused; document 26 is not renumbered. Reference publications continue
+as document 25 and 27–47. These numbers also identify quotes and extracted text; no second
 source ID is maintained.
 
 **The stem** names a topic in words, as C&ED's stems do: "Which of the

@@ -6,9 +6,19 @@ reading. Keep this folder inside the repository so original-file and practice
 links work. Alternatively, download [v1.13.4's complete study bundle](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.4),
 extract it fully and open its root `index.html`. Reading pages embed their styles and font and work offline.
 
-開啟 [index.html](index.html)，選擇第1至7部分。筆記以01–26原文整理，保留B風格、
+開啟 [index.html](index.html)，選擇第1至7部分。筆記以01–24及26原文整理，保留B風格、
 繁體中文／英文／雙語與離線閱讀。保留於repo內，或下載[v1.13.4完整學習包](https://github.com/leohwlee/mso-ca/releases/tag/v1.13.4)
 並完整解壓、開啟根目錄的`index.html`，原件及練習連結才可正常使用。
+
+## Selected reading, 14 November 2026 / 2026年11月14日選定範圍
+
+On 14 November 2026 the owner removed document 25, the 2022 Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report, from personal practice reading and from the live notes. This is a study selection, not a finding that the official exam cannot use the report. Number 25 stays reserved; document 26 is not renumbered. Points that also appear in an allowed source (01–24 or 26) were re-cited; points that only the 2022 report supported were dropped.
+
+擁有人於2026年11月14日把第25份（2022年香港洗錢及恐怖分子資金籌集風險評估報告）移出個人練習閱讀及現行筆記。這是學習取捨，不是斷定正式考試不會用該報告。第25號保留，第26項不重新編號。仍見於01–24或26的規則改掛那些來源；只在2022年報告出現的論點已刪除。
+
+The live notes now have 74 topics, 573 bilingual point pairs, 75 visuals (14 tables, 61 diagrams, 33 of them list cards), and a numbers page with 69 amounts, periods, fees and penalties. The 23 October figures below describe the notes as they stood before this change.
+
+現行筆記有74個主題、573組雙語要點、75個圖表（14張表、61個圖解，其中33張是清單卡），以及集中69項金額、期限、費用及刑罰的數字總表。下文10月23日的數量是改動前的紀錄。
 
 ## Study aids, 23 October / 10月23日學習輔助
 
@@ -117,7 +127,7 @@ and [findings with source locations](omissions-review-2026-10-19/FINDINGS.md).
 數量不是覆蓋率。[當輪收尾報告](approval-closeout-2026-10-19/REPORT.md)列出實際核對範圍、
 取捨及驗證，並把需要理解的核心概念和其他行業參考分開。
 歷史統計、其他行業行政費表／程序仍保留原文參考，不是因為未被引用便排除。
-這不是所有條文逐字翻譯審校，也不保證涵蓋未知官方試題；官方出題來源不限於01–26。
+這不是所有條文逐字翻譯審校，也不保證涵蓋未知官方試題；官方出題來源不限於個人選定的01–24及26。
 
 The [visual upgrade report](visual-upgrade-2026-10-19/REPORT.md) records all seven parts,
 the disposition of all 20 prior panels, 13 additions, independent reviews and actual

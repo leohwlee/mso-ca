@@ -362,9 +362,34 @@ func TestSourceTextsCurrent(t *testing.T) {
 // keys that rest on two passages pages apart, which a quote of one passage can
 // only half carry. Blind review still checks that the key follows from the
 // passage.
+func questionBankScope(t *testing.T) map[string]bool {
+	t.Helper()
+	raw, err := os.ReadFile(filepath.Join("docs", "catalog.json"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	var catalog struct {
+		QuestionBankScope struct {
+			Documents []string `json:"documents"`
+		} `json:"question_bank_scope"`
+	}
+	if err := json.Unmarshal(raw, &catalog); err != nil {
+		t.Fatal(err)
+	}
+	out := map[string]bool{}
+	for _, id := range catalog.QuestionBankScope.Documents {
+		out[id] = true
+	}
+	if len(out) == 0 {
+		t.Fatal("empty question_bank_scope")
+	}
+	return out
+}
+
 func TestQuotesFromCitedSources(t *testing.T) {
 	bank := loadBank(t)
 	quotes := loadQuotes(t)
+	scope := questionBankScope(t)
 	han := regexp.MustCompile(`\p{Han}`)
 	inBank := map[string]bool{}
 	for _, q := range bank {
@@ -386,7 +411,7 @@ func TestQuotesFromCitedSources(t *testing.T) {
 			}
 			cited := citedDocs(citation, lang)
 			for _, doc := range cited {
-				if doc < "01" || doc > "26" {
+				if !scope[doc] {
 					t.Errorf("%s (%s): citation names excluded document %s", q.ID, lang, doc)
 				}
 			}
@@ -396,8 +421,8 @@ func TestQuotesFromCitedSources(t *testing.T) {
 					t.Errorf("%s: empty quote", where)
 					continue
 				}
-				if qt.Doc < "01" || qt.Doc > "26" || len(qt.Doc) != 2 {
-					t.Errorf("%s: document %s is outside the approved 01–26 scope", where, qt.Doc)
+				if !scope[qt.Doc] || len(qt.Doc) != 2 {
+					t.Errorf("%s: document %s is outside the approved 01–24 and 26 scope", where, qt.Doc)
 				}
 				quoteLang := lang
 				if qt.Language != "" && qt.Language != lang {

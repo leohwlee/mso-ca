@@ -2,12 +2,13 @@
 
 [Back to focused reading](../README.md)
 
-The v1.13.4 notes and offline study bundle include only 01–26. This directory remains reference material; publication does not add 27–47 to the selected scope. See [current notes and review limits](../../revision/study-notes/README.md).
+The last published v1.13.4 notes and offline study bundle then included 01–26. The owner later moved document 25 here on 14 November 2026; current daily reading and the question bank use 01–24 and 26. 27–47 remain reference material and are not added to the selected scope by this work. See [current notes and review limits](../../revision/study-notes/README.md).
 
-21 publications retained for reference and historical bank-source verification. They cannot support active questions and are outside first-pass reading. This is a study selection, not a withdrawal finding. Some contain distinct examples or history; they are not additional daily required reading.
+22 publications retained for reference and historical bank-source verification. They cannot support active questions and are outside first-pass reading. This is a study selection, not a withdrawal finding. Some contain distinct examples or history; they are not additional daily required reading. Document 25 is in this directory because of the owner’s 14 November 2026 practice-scope decision; its number is reserved and publication 26 is not renumbered.
 
 | Current number | Publication and original | Reason / replacement reading |
 |---|---|---|
+| 25 | **Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022)** · [EN](<EN/25_Medium-Selected_Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022).pdf>) · [TC](<TC/25_中選讀_香港洗錢及恐怖分子資金籌集風險評估報告（2022年）.pdf>) | Owner decision (14 November 2026): drop the 2022 Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report from personal practice reading and from the active question scope because it did not appear in the exam he sat. This is a study selection, not a finding that the official exam cannot use the report. |
 | 27 | **Official report on operations against illegal activities associated with money changers** · [ZH](<ZH/27_Reference_Official report on operations against illegal activities associated with money changers (2024-07, ZH).html>) | News background, without additional MSO compliance duties. |
 | 28 | **FATF Guidance on Proliferation Financing Risk Assessment and Mitigation** · [EN](<EN/28_Reference_FATF Guidance on Proliferation Financing Risk Assessment and Mitigation (2021-06, EN).pdf>) | International methodology and training extension. First learn the local requirements in items 03 and 09; consult this for deeper examples. |
 | 29 | **Webinar on Proliferation Financing Risk Assessment and Mitigation** · [BI](<BI/29_Reference_Webinar on Proliferation Financing Risk Assessment and Mitigation (2021-08, Bilingual).pdf>) | International methodology and training extension. First learn the local requirements in items 03 and 09; consult this for deeper examples. |
@@ -30,7 +31,7 @@ The v1.13.4 notes and offline study bundle include only 01–26. This directory 
 | 46 | **R.16 Guidance public consultation explanatory memorandum** · [EN](<EN/46_Reference_R.16 Guidance public consultation explanatory memorandum (2026-06 consultation, EN).pdf>) | Historical consultation notice on payment transparency, rather than effective Hong Kong requirements; not a main study item in this pass. |
 | 47 | **Draft Recommendation 16 Guidance for consultation** · [EN](<EN/47_Reference_Draft Recommendation 16 Guidance for consultation (2026-06 consultation draft, EN).docx>) | Historical consultation notice on payment transparency, rather than effective Hong Kong requirements; not a main study item in this pass. |
 
-Reference materials continue the same sequence as 27–47. BI means bilingual and ZH official Simplified Chinese, not a Traditional Chinese translation.
+Reference materials include document 25, reserved in the middle of the sequence, and publications 27–47. BI means bilingual and ZH official Simplified Chinese, not a Traditional Chinese translation.
 
 [Pre-renumbering download history](../../bank/audit/history/2026-10-18-download-review-before-continuous-numbering.json)
 

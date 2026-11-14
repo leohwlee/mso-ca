@@ -1,0 +1,22 @@
+{
+ "status": "verified",
+ "date": "2026-11-14",
+ "reason": "Part 1 top-up: 7 questions added and 1 revised so the module again met the 60-question floor (see bank/audit/active-followups/2026-11-14-z-part1-topup.json). Preserves the bank, quotes, generated source accounting and count-bearing documentation as they were before those counts and texts changed. Question content is reviewed in the follow-up record; this record only links the documentation hashes.",
+ "archive": "bank/audit/history/2026-11-14-before-part1-topup.zip",
+ "archive_sha256": "527d0057b20baaa1732a867cd8efa5e9e4712a4191a22481a77ca1718bfe0bab",
+ "archive_updates": {
+  "bank/audit/ACTIVE-SCOPE.md": {
+   "before_sha256": "fc52f5736fdbbdb187eeb2a79ab0d9dc9e118e48ca55fbe88bbd1365bdff0cab",
+   "after_sha256": "f561147f3737c27fdbedf95cdbc71f5875f1ae6bf6d15313b1369f77a03afaa8"
+  },
+  "docs/quotes.json": {
+   "before_sha256": "ee6e2f161a886321111427bbbd3708db3b1e4924b7439f5e3631399cbec08460",
+   "after_sha256": "352a2f66bf6aa5110120e885bd71452aa10c5c3cb7b1d30235c8ebfe22f28df0"
+  },
+  "web/questions.json": {
+   "before_sha256": "8921fad5e3cb4f1f56eed59119dfad44eb460243dadea5278e3d20b97a4270a3",
+   "after_sha256": "51a1572ce48c7a90c93be951f0b43ffcce9dca29305c5d00ab773ec2d72d1269"
+  }
+ },
+ "documentation_updates": {}
+}

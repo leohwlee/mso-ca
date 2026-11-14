@@ -12,14 +12,6 @@ section('reporting-duty', '可疑交易舉報：觸發條件及時間', 'Suspici
     ], [
         ref('03', '第7.1–7.5段及註60', '¶7.1–7.5; footnotes 60', 'Suspicion is personal and falls short of proof'),
     ], kind='list'),
-    block('理解：情報分析、調查與檢控各有角色', 'Understand: intelligence analysis, investigation and prosecution', [
-        ('按2022年報告，聯合財富情報組（JFIU，Joint Financial Intelligence Unit）由警務處及海關共同運作，接收、分析和發布可疑交易報告（STR）情報。收到報告後會按可疑程度、嚴重性及風險分析，再發展或轉交有價值情報予調查單位／其他機構；提交STR不等於已證明犯罪或必然提出檢控。', 'The 2022 report describes the Joint Financial Intelligence Unit (JFIU), jointly operated by the Police and Customs, as receiving, analysing and disseminating suspicious transaction report (STR) intelligence. It assesses suspicion, severity and risk, then develops or disseminates valuable intelligence to investigative units/other agencies. Filing an STR does not establish crime or guarantee prosecution.'),
-        ('律政司刑事檢控科的檢控考慮是：證據顯示有合理機會定罪，並且檢控符合公眾利益；決定須獨立作出。這與本節「知悉或懷疑」便須盡快披露的責任不同，MSO不能等到掌握足以定罪的證據才報告。', 'The Department of Justice Prosecutions Division considers whether evidence shows a reasonable prospect of conviction AND prosecution is in the public interest, making decisions independently. This differs from the knowledge-or-suspicion disclosure duty described above; an MSO must not wait for evidence sufficient to convict before reporting.'),
-        ('STR數量也不是犯罪宗數。2022年報告指出數量受合規文化、報告質素及把多名嫌疑人／多個帳戶／多宗交易放入同一份大型報告等因素影響。學習重點是提供有用資料與可疑理由，不是把歷年STR升跌直接解作犯罪升跌。', 'STR totals are not crime counts. The 2022 report links volumes to compliance culture, report quality and large reports combining multiple suspects, accounts and transactions. The learning point is useful information and reasons for suspicion, rather than equating historical STR changes with changes in crime.'),
-    ], [
-        ref('25', '2022年版，第3.38–3.39、3.46–3.47段', '2022 edition, ¶3.38–3.39, 3.46–3.47', 'reasonable prospect of conviction'),
-        ref('03', '第7.1、7.12段', '¶7.1, 7.12', 'as soon as it is reasonable'),
-    ], kind='list'),
 ]),
 section('internal-report', '內部報告與MLRO評估', 'Internal reporting and MLRO assessment', [
     block('從員工到JFIU', 'From staff to the JFIU', [
@@ -143,12 +135,6 @@ section('law-enforcement', '執法要求：命令與風險覆核', 'Law-enforcem
     ], [
         ref('03', '第7.31–7.35段', '¶7.31–7.35', 'the customer to whom the court document relates can be a victim'),
     ], kind='list'),
-    block('參考：跨境情報與正式法律協助', 'Reference: cross-border intelligence and formal legal assistance', [
-        ('2022年報告所述埃格蒙特組織（Egmont Group）是各地財富情報單位（FIU）合作的網絡，支援跨境情報交換。JFIU依OSCO、DTROP及UNATMO有權交換情報，香港一方不以事先簽訂諒解備忘錄（MOU）為必要條件；若對方司法管轄區法律要求，則會考慮簽訂。', 'The 2022 report describes the Egmont Group as a network of financial intelligence units (FIUs) supporting cross-border intelligence exchange. JFIU can exchange information under OSCO, DTROP and UNATMO without an MOU being a prerequisite on the Hong Kong side; it will consider one if the counterpart jurisdiction’s law requires it.'),
-        ('情報交換並不等於刑事事宜相互法律協助（MLA）：正式取證、搜查及執行境外沒收等須依適用法律協助框架處理。第25份第3.55段另說明，MLAO及FOO不適用於中國內地、澳門及台灣；當時可循法院請求書及《證據條例》處理取證／提交文件等，不能把一般境外程序一概套用。這是2022年報告的制度背景。', 'Intelligence exchange is distinct from mutual legal assistance in criminal matters (MLA): formal evidence-taking, searches and enforcement of external confiscation orders follow applicable legal frameworks. Paragraph 3.55 separately states that the Mutual Legal Assistance in Criminal Matters Ordinance (MLAO) and Fugitive Offenders Ordinance (FOO) do not apply to the Mainland, Macao or Taiwan; the report describes court letters of request and the Evidence Ordinance for evidence-taking/document production. Do not apply a single overseas procedure indiscriminately. This is the 2022 report’s institutional background.'),
-    ], [
-        ref('25', '2022年版，第3.49–3.57段', '2022 edition, ¶3.49–3.57', 'Financial intelligence exchange'),
-    ], kind='reference'),
 ]),
 section('periodic-return', '定期申報：半年一次及電子提交', 'Periodic returns: half-yearly electronic submission', [
     block('2025年6月30日起的安排', 'Arrangement effective 30 June 2025', [

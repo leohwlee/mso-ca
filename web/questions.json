@@ -3463,1072 +3463,6 @@
   }
  },
  {
-  "id": "m1-206",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1,
-    3
-   ],
-   [
-    1,
-    4
-   ],
-   [
-    2,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   "all"
-  ],
-  "answer": 0,
-  "traps": [
-   null,
-   "reversed",
-   null,
-   "scope"
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶2.4",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第2.4段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which statements distinguish threats from vulnerabilities?",
-   "statements": [
-    "Threats include the scale and patterns of generation, inflows and outflows of crime proceeds.",
-    "Weaknesses in a jurisdiction’s defences are classified as threats rather than vulnerabilities.",
-    "Assessing terrorist-financing threats considers fund directions, sources and channels used.",
-    "Money-laundering threat assessment considers domestic predicates but excludes foreign ones."
-   ],
-   "notes": [
-    "True: ¶2.4 — Threats concern the proceeds or terrorist-linked funds.",
-    "False: ¶2.4 — Defensive weaknesses are vulnerabilities.",
-    "True: ¶2.4 — These are the specified TF threat dimensions.",
-    "False: ¶2.4 — Both internal and external threats are included."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些陳述正確區分威脅與脆弱程度？",
-   "statements": [
-    "威脅包括犯罪得益產生、流入和流出的規模與模式。",
-    "司法管轄區防範制度的薄弱之處，被分類為威脅而非脆弱程度。",
-    "評估恐怖分子資金籌集威脅，會考慮資金流向、來源及所用渠道。",
-    "洗錢威脅評估會考慮本地上游罪行，但不包括外來上游罪行。"
-   ],
-   "notes": [
-    "正確：第2.4段：威脅關乎犯罪得益或與恐怖主義有關的資金。",
-    "錯誤：第2.4段：防範制度的薄弱之處屬脆弱程度。",
-    "正確：第2.4段：這些是所述恐怖分子資金籌集威脅要素。",
-    "錯誤：第2.4段：內在和外在威脅均須考慮。"
-   ]
-  }
- },
- {
-  "id": "m1-207",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   true,
-   true
-  ],
-  "options": [
-   [
-    1,
-    2,
-    3
-   ],
-   [
-    1,
-    2,
-    4
-   ],
-   [
-    2,
-    3,
-    4
-   ],
-   [
-    1,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 3,
-  "traps": [
-   null,
-   "scope",
-   null,
-   null
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶2.4–2.5",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第2.4至2.5段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which descriptions of the World Bank risk method are correct?",
-   "statements": [
-    "The method examines causal relationships among regulatory, institutional and economic risk factors.",
-    "Risk ratings exclude qualitative information and are determined using quantitative figures in its place.",
-    "The report uses five rating levels, from low through medium categories to high, for risk assessment.",
-    "The resulting ratings can be presented visually in a risk-level heat map to display the findings."
-   ],
-   "notes": [
-    "True: ¶2.4–2.5 — The method links risks with their causal drivers.",
-    "False: ¶2.4–2.5 — Both qualitative and quantitative information are used.",
-    "True: ¶2.4–2.5 — Five levels are stated.",
-    "True: ¶2.4–2.5 — The heat map visualises the results."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些世界銀行風險評估方法的描述正確？",
-   "statements": [
-    "這方法分析規管安排、機構制度及經濟環境風險因素的因果關係。",
-    "風險評級會排除質量方面的資料，改為根據數量資料作出釐定。",
-    "報告使用五個評級水平，由低經不同中間級別至高以評估風險。",
-    "所得風險評級可用風險水平熱圖，以圖表方式展示評估結果。"
-   ],
-   "notes": [
-    "正確：第2.4至2.5段：這方法把風險與引發風險的因素聯繫起來。",
-    "錯誤：第2.4至2.5段：質量及數量資料均會使用。",
-    "正確：第2.4至2.5段：報告列明五個水平。",
-    "正確：第2.4至2.5段：熱圖用以展示評估結果。"
-   ]
-  }
- },
- {
-  "id": "m1-208",
-  "module": 1,
-  "truth": [
-   false,
-   true,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1,
-    2
-   ],
-   [
-    1,
-    4
-   ],
-   [
-    2,
-    3
-   ],
-   [
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 2,
-  "traps": [
-   "actor",
-   null,
-   null,
-   "scope"
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶2.6–2.7",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第2.6至2.7段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which descriptions of assessment participation are correct?",
-   "statements": [
-    "The assessment Steering Committee is chaired by the Commissioner of Customs and Excise.",
-    "The Inland Revenue Department assists with reviewing laundering threats arising from tax crimes.",
-    "Members form multidisciplinary teams with experienced practitioners to assess their sectors.",
-    "Assessment engagement is limited to public authorities and excludes private-sector stakeholders."
-   ],
-   "notes": [
-    "False: ¶2.6–2.7 — The chair is the Financial Services and the Treasury Bureau.",
-    "True: ¶2.6–2.7 — The report specifies this role for the Inland Revenue Department.",
-    "True: ¶2.6–2.7 — Sector assessments involve these multidisciplinary teams.",
-    "False: ¶2.6–2.7 — Private-sector stakeholders are also engaged."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些有關評估參與者的描述正確？",
-   "statements": [
-    "風險評估督導委員會由海關關長主導有關評估工作。",
-    "稅務局協助檢討由稅務罪行引致的洗錢威脅。",
-    "成員組成跨專業小組，由經驗豐富的業內人士評估所屬界別。",
-    "評估的參與範圍涵蓋公共機構，但排除了私營機構的持份者。"
-   ],
-   "notes": [
-    "錯誤：第2.6至2.7段：由財經事務及庫務局主導。",
-    "正確：第2.6至2.7段：報告明列稅務局的這項角色。",
-    "正確：第2.6至2.7段：界別評估由這些跨專業小組參與。",
-    "錯誤：第2.6至2.7段：亦會接觸私營機構持份者。"
-   ]
-  }
- },
- {
-  "id": "m1-209",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1
-   ],
-   [
-    2
-   ],
-   [
-    1,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   "all"
-  ],
-  "answer": 2,
-  "traps": [
-   null,
-   "reversed",
-   null,
-   "scope"
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶2.8–2.9",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第2.8至2.9段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which descriptions of the assessment process and scope are correct?",
-   "statements": [
-    "Interim findings went to the Steering Committee together with proposed risk-mitigation measures.",
-    "The second stage updated the assessment without considering the enhanced mitigation measures implemented.",
-    "Expanded analysis includes foreign corruption, foreign tax evasion and cross-border cash movements.",
-    "Coverage of legal arrangements is limited to local arrangements and excludes relevant foreign ones."
-   ],
-   "notes": [
-    "True: ¶2.8–2.9 — Both interim findings and mitigation proposals were reported.",
-    "False: ¶2.8–2.9 — The second stage expressly considered implemented enhancements.",
-    "True: ¶2.8–2.9 — These are expressly included threat areas.",
-    "False: ¶2.8–2.9 — The expansion includes relevant foreign arrangements."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些有關評估過程及範圍的描述正確？",
-   "statements": [
-    "中期結果連同建議的風險緩解措施一併向督導委員會匯報。",
-    "第二階段更新評估時，不考慮已推行的改良風險緩解措施。",
-    "擴大的分析涵蓋香港以外貪污、香港以外逃稅及跨境現金移動。",
-    "法律安排的涵蓋範圍包括本地安排，但排除了相關的外國安排。"
-   ],
-   "notes": [
-    "正確：第2.8至2.9段：中期結果及緩解建議均須匯報。",
-    "錯誤：第2.8至2.9段：第二階段明文考慮已推行的改善措施。",
-    "正確：第2.8至2.9段：這些是明文涵蓋的威脅範疇。",
-    "錯誤：第2.8至2.9段：擴大範圍包括相關外國安排。"
-   ]
-  }
- },
- {
-  "id": "m1-210",
-  "module": 1,
-  "truth": [
-   true,
-   true,
-   false,
-   true
-  ],
-  "options": [
-   [
-    1,
-    2,
-    3
-   ],
-   [
-    1,
-    2,
-    4
-   ],
-   [
-    2,
-    3,
-    4
-   ],
-   [
-    1,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 1,
-  "traps": [
-   null,
-   null,
-   "reversed",
-   null
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.1–5.4.2",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.1至5.4.2段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which descriptions of the MSO sector’s profile are correct?",
-   "statements": [
-    "The reported reduction in licensees was attributed partly to tighter entry control for the sector.",
-    "Some premises-based MSOs served corporate customers only and were not open to the public.",
-    "Most licensed MSOs carried on money changing alone rather than combining it with remittance.",
-    "MSOs without particular premises included providers using web platforms or mobile remittance applications."
-   ],
-   "notes": [
-    "True: ¶5.4.1–5.4.2 — The report links the decrease to tighter entry control and lower pandemic market activity.",
-    "True: ¶5.4.1–5.4.2 — The profile includes this corporate-only category.",
-    "False: ¶5.4.1–5.4.2 — The majority carried on both services.",
-    "True: ¶5.4.1–5.4.2 — These channels are expressly in the sector profile."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些有關金錢服務業概況的描述正確？",
-   "statements": [
-    "報告所述持牌人減少，部分歸因於收緊金錢服務業的發牌管制。",
-    "部分在特定處所經營的金錢服務經營者只服務企業，並不向公眾開放。",
-    "大部分持牌金錢服務經營者只經營貨幣兌換，而沒有同時經營匯款。",
-    "非在特定處所經營者，包括透過網上平台或流動應用程式提供匯款服務者。"
-   ],
-   "notes": [
-    "正確：第5.4.1至5.4.2段：報告將減少歸因於收緊市場規管及疫情令市場活動減少。",
-    "正確：第5.4.1至5.4.2段：概況包括這類只服務企業的經營者。",
-    "錯誤：第5.4.1至5.4.2段：大部分同時經營兩種服務。",
-    "正確：第5.4.1至5.4.2段：概況明文列有這些渠道。"
-   ]
-  }
- },
- {
-  "id": "m1-211",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1,
-    3
-   ],
-   [
-    1,
-    4
-   ],
-   [
-    2,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   "all"
-  ],
-  "answer": 0,
-  "traps": [
-   null,
-   "scope",
-   null,
-   "reversed"
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.3–5.4.5",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.3至5.4.5段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which descriptions of the MSO sector’s laundering threats are correct?",
-   "statements": [
-    "Cross-border fraud remained the largest laundering threat to the MSO sector in this assessment.",
-    "The medium-high threat finding concerned domestic crime, with foreign crime excluded from the finding.",
-    "The observed misuse of MSOs included both placement and layering of criminal proceeds.",
-    "In the typologies studied, theft displaced fraud as the most prevalent threat to the MSO sector."
-   ],
-   "notes": [
-    "True: ¶5.4.3–5.4.5 — The report ranks cross-border fraud as largest.",
-    "False: ¶5.4.3–5.4.5 — The finding covers domestic and foreign crime.",
-    "True: ¶5.4.3–5.4.5 — Both stages were observed.",
-    "False: ¶5.4.3–5.4.5 — Fraud was most prevalent; theft was among the following predicates."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些有關金錢服務業洗錢威脅的描述正確？",
-   "statements": [
-    "在這次評估中，跨境詐騙仍是金錢服務業最大的洗錢威脅。",
-    "中高程度威脅的評估只涉及本地罪行，並未涵蓋香港以外犯罪活動。",
-    "觀察所得金錢服務經營者被濫用的情況，涵蓋存放得益及分層交易。",
-    "在所研究的案例中，盜竊取代詐騙，成為金錢服務業最常面對的威脅。"
-   ],
-   "notes": [
-    "正確：第5.4.3至5.4.5段：報告把跨境詐騙列為最大威脅。",
-    "錯誤：第5.4.3至5.4.5段：評估同時涵蓋本地及香港以外罪行。",
-    "正確：第5.4.3至5.4.5段：兩個階段均有被利用的情況。",
-    "錯誤：第5.4.3至5.4.5段：詐騙最常見；盜竊屬其後所列上游罪行。"
-   ]
-  }
- },
- {
-  "id": "m1-212",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   true,
-   true
-  ],
-  "options": [
-   [
-    1,
-    2,
-    3
-   ],
-   [
-    1,
-    2,
-    4
-   ],
-   [
-    2,
-    3,
-    4
-   ],
-   [
-    1,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 3,
-  "traps": [
-   null,
-   "reversed",
-   null,
-   null
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.5–5.4.6; Box 5.11",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.5至5.4.6段； 專題 5.11"
-  },
-  "en": {
-   "q": "According to the 2022 report, which descriptions of fraud-related laundering and prevention are correct?",
-   "statements": [
-    "Money mules were recruited to receive criminal proceeds and facilitate remittances for remuneration.",
-    "In the telephone-deception case, use of a licensed MSO prevented conviction for laundering the proceeds.",
-    "C&ED and the Police conducted joint publicity to increase vigilance about suspicious remittances.",
-    "An MSO may be the last stop before a local deception victim’s money is sent outside Hong Kong."
-   ],
-   "notes": [
-    "True: ¶5.4.5–5.4.6; Box 5.11 — The report describes paid money mules.",
-    "False: ¶5.4.5–5.4.6; Box 5.11 — The mule was convicted despite using a licensed MSO.",
-    "True: ¶5.4.5–5.4.6; Box 5.11 — The report identifies joint C&ED/Police publicity.",
-    "True: ¶5.4.5–5.4.6; Box 5.11 — This explains the prevention role of intercepting suspicious remittances."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些有關詐騙洗錢及防範的描述正確？",
-   "statements": [
-    "罪犯聘用錢騾接收和匯出犯罪得益，並向錢騾支付報酬。",
-    "在電話騙案案例中，由於使用持牌金錢服務經營者，洗錢者並未被定罪。",
-    "海關與警方聯合宣傳，以提高金錢服務業對可疑匯款的警覺性。",
-    "本地騙案受害人的金錢匯出香港前，金錢服務經營者可能是最後一站。"
-   ],
-   "notes": [
-    "正確：第5.4.5至5.4.6段； 專題 5.11：報告描述收取報酬的錢騾。",
-    "錯誤：第5.4.5至5.4.6段； 專題 5.11：即使經持牌金錢服務經營者匯款，錢騾仍被定罪。",
-    "正確：第5.4.5至5.4.6段； 專題 5.11：報告記載海關與警方的聯合宣傳行動。",
-    "正確：第5.4.5至5.4.6段； 專題 5.11：這說明攔截可疑匯款的防罪角色。"
-   ]
-  }
- },
- {
-  "id": "m1-213",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1,
-    2
-   ],
-   [
-    1,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   [
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 1,
-  "traps": [
-   null,
-   "reversed",
-   null,
-   "condition"
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.7",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.7段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which descriptions of online-service risks and responses are correct?",
-   "statements": [
-    "More licensees operated online platforms without particular premises, increasing online transaction volume.",
-    "The increasing share of online transactions was assessed as removing the sector’s cybercrime threat.",
-    "Licensees were required to establish effective policies, procedures and internal controls for the risks involved.",
-    "Business-plan review focused on safeguards for face-to-face customers instead of non-face-to-face customers."
-   ],
-   "notes": [
-    "True: ¶5.4.7 — The report records this growth in online operations.",
-    "False: ¶5.4.7 — Cybercrime may become an emerging threat.",
-    "True: ¶5.4.7 — The response includes effective internal measures.",
-    "False: ¶5.4.7 — The example concerns non-face-to-face identification and verification."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些有關網上服務風險及應對的描述正確？",
-   "statements": [
-    "更多持牌人並非在特定處所經營網上平台，帶動網上交易量上升。",
-    "網上交易比重增加，被評估為消除了金錢服務業的網上罪行威脅。",
-    "持牌人須就所涉風險設立有效政策、程序及內部管控措施。",
-    "業務計劃審查針對親身出現客戶的保障，而非非親身出現客戶的保障。"
-   ],
-   "notes": [
-    "正確：第5.4.7段：報告記載這種網上經營增長。",
-    "錯誤：第5.4.7段：網上罪行可能成為新威脅。",
-    "正確：第5.4.7段：應對包括有效內部措施。",
-    "錯誤：第5.4.7段：例子涉及非親身出現客戶的識別及核實。"
-   ]
-  }
- },
- {
-  "id": "m1-214",
-  "module": 1,
-  "truth": [
-   true,
-   true,
-   true,
-   true
-  ],
-  "options": [
-   [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ],
-   [
-    1,
-    2,
-    3
-   ],
-   [
-    1,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 4,
-  "traps": [
-   null,
-   null,
-   null,
-   null
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.8–5.4.10",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.8至5.4.10段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which statements about hawala are correct?",
-   "statements": [
-    "Hawala is an alternative remittance system operating outside the traditional banking system.",
-    "Transfers in hawala use a broker network that operates mainly on trust and communication.",
-    "Settlement between hawala dealers can take the form of cash, property or the provision of services.",
-    "The assessment found no information indicating that the MSO sector was adopting hawala for remittances."
-   ],
-   "notes": [
-    "True: ¶5.4.8–5.4.10 — This is the report’s definition.",
-    "True: ¶5.4.8–5.4.10 — The network relies mainly on trust and communication.",
-    "True: ¶5.4.8–5.4.10 — All three settlement forms are listed.",
-    "True: ¶5.4.8–5.4.10 — This is the finding at the report’s date, not a permanent exemption from controls."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些有關哈瓦拉系統的陳述正確？",
-   "statements": [
-    "哈瓦拉是傳統銀行體系以外運作的另類匯款系統。",
-    "哈瓦拉匯款經由主要建基於信任和溝通的經紀網絡安排。",
-    "哈瓦拉交易的結算方式可採用現金、物業或提供服務。",
-    "評估並無資料顯示金錢服務業正在採用哈瓦拉方式匯款。"
-   ],
-   "notes": [
-    "正確：第5.4.8至5.4.10段：這是報告所述定義。",
-    "正確：第5.4.8至5.4.10段：網絡主要建基於信任及溝通。",
-    "正確：第5.4.8至5.4.10段：報告列有這三種結算方式。",
-    "正確：第5.4.8至5.4.10段：這是報告當時的評估，並非永久豁免管控。"
-   ]
-  }
- },
- {
-  "id": "m1-215",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1
-   ],
-   [
-    2
-   ],
-   [
-    1,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   "all"
-  ],
-  "answer": 2,
-  "traps": [
-   null,
-   "reversed",
-   null,
-   "scope"
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.9",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.9段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which findings about foreign domestic helpers’ remittances are correct?",
-   "statements": [
-    "The thematic study considered helpers’ remittance behaviour and the channels used by providers serving them.",
-    "The study found that helpers predominantly relied on unlicensed operators when remitting their earnings.",
-    "Transfers to recipients in the Philippines and Indonesia generally used bank transfers rather than hawala.",
-    "C&ED’s enforcement against unlicensed money services was confined to those operating through hawala."
-   ],
-   "notes": [
-    "True: ¶5.4.9 — Both behaviour and delivery channels were examined.",
-    "False: ¶5.4.9 — The study found predominant use of licensed MSOs.",
-    "True: ¶5.4.9 — The finding distinguishes bank settlement from hawala.",
-    "False: ¶5.4.9 — Enforcement applies whether hawala is involved or not."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些有關外傭匯款的研究結果正確？",
-   "statements": [
-    "專題研究考慮外傭的匯款行為，以及服務外傭的經營者所用交付渠道。",
-    "研究發現外傭匯出收入時，主要依靠無牌金錢服務經營者提供服務。",
-    "匯往菲律賓及印尼收款人的款項，一般經銀行轉帳而非哈瓦拉網絡完成。",
-    "海關針對無牌金錢服務的執法，只限經哈瓦拉系統經營的服務。"
-   ],
-   "notes": [
-    "正確：第5.4.9段：研究同時檢視行為及交付渠道。",
-    "錯誤：第5.4.9段：研究發現主要使用持牌金錢服務經營者。",
-    "正確：第5.4.9段：研究結果區分銀行轉帳與哈瓦拉。",
-    "錯誤：第5.4.9段：不論有否涉及哈瓦拉均採取執法行動。"
-   ]
-  }
- },
- {
-  "id": "m1-216",
-  "module": 1,
-  "truth": [
-   true,
-   true,
-   false,
-   true
-  ],
-  "options": [
-   [
-    1,
-    2,
-    3
-   ],
-   [
-    1,
-    2,
-    4
-   ],
-   [
-    2,
-    3,
-    4
-   ],
-   [
-    1,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 1,
-  "traps": [
-   null,
-   null,
-   "reversed",
-   null
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶5.4.11–5.4.12",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第5.4.11至5.4.12段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which factors explain the MSO sector’s vulnerability?",
-   "statements": [
-    "Differences in business size and operating models mean that threats and vulnerabilities are not uniform.",
-    "The combination of cash-intensive operations and global exposure creates inherent laundering vulnerability.",
-    "Transactions below customer identification and verification thresholds remove the reported laundering vulnerability.",
-    "Limited resources to understand risk and operate compliance systems can make smaller MSOs vulnerable to criminals."
-   ],
-   "notes": [
-    "True: ¶5.4.11–5.4.12 — The report rejects a uniform risk profile.",
-    "True: ¶5.4.11–5.4.12 — These inherent characteristics increase vulnerability.",
-    "False: ¶5.4.11–5.4.12 — Below-threshold transactions still pose relatively higher vulnerability.",
-    "True: ¶5.4.11–5.4.12 — Resource constraints can impair risk understanding and effective compliance controls."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些因素說明金錢服務業的脆弱程度？",
-   "statements": [
-    "經營規模及模式的差異，令所受威脅及脆弱程度並不一致。",
-    "現金密集的經營性質與全球聯繫，共同構成固有洗錢脆弱之處。",
-    "低於客戶身分識別和核實門檻的交易，消除了報告所述洗錢脆弱程度。",
-    "小型經營者如缺乏資源了解風險及運作合規系統，便容易被罪犯利用。"
-   ],
-   "notes": [
-    "正確：第5.4.11至5.4.12段：報告並不把全行業的風險視為一致。",
-    "正確：第5.4.11至5.4.12段：這些固有特徵增加脆弱程度。",
-    "錯誤：第5.4.11至5.4.12段：低於門檻的交易仍令業界較易被用作洗錢。",
-    "正確：第5.4.11至5.4.12段：資源限制可影響風險認識及有效合規管控。"
-   ]
-  }
- },
- {
-  "id": "m1-217",
-  "module": 1,
-  "truth": [
-   true,
-   true,
-   true,
-   true
-  ],
-  "options": [
-   [
-    1
-   ],
-   [
-    4
-   ],
-   [
-    1,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   "all"
-  ],
-  "answer": 4,
-  "traps": [
-   null,
-   null,
-   null,
-   null
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 Executive Summary ¶3–5",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 報告摘要 第3至5段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which statements about the second assessment’s purpose and evidence are correct?",
-   "statements": [
-    "Identifying and updating Hong Kong’s laundering and financing risks supports more targeted responses.",
-    "The earlier assessment provided a useful basis, while the second also examined subsequent changes.",
-    "The second assessment drew on extensive consultation and both quantitative and qualitative data analysis.",
-    "Mutual-evaluation shortcomings and new FATF requirements helped set the focus of the second assessment."
-   ],
-   "notes": [
-    "True: Executive Summary ¶3–5 — The assessment is intended to inform targeted responses.",
-    "True: Executive Summary ¶3–5 — The second assessment builds on and updates the first.",
-    "True: Executive Summary ¶3–5 — All these evidence sources are expressly identified.",
-    "True: Executive Summary ¶3–5 — The focus also included FATF requirements introduced or forthcoming."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些有關第二次評估目的及證據的陳述正確？",
-   "statements": [
-    "識別並更新香港的洗錢及資金籌集風險，有助制訂更具針對性的應對方案。",
-    "較早的評估提供實用基礎，第二次評估亦檢視首次評估以來的變化。",
-    "第二次評估進行廣泛諮詢，並採用定量及定性數據分析作為依據。",
-    "相互評估發現的不足及特別組織新規定，有助確立第二次評估的重點。"
-   ],
-   "notes": [
-    "正確：報告摘要 第3至5段：評估旨在支持具針對性的應對。",
-    "正確：報告摘要 第3至5段：第二次評估建基於首次評估並加以更新。",
-    "正確：報告摘要 第3至5段：報告明列這些證據來源。",
-    "正確：報告摘要 第3至5段：重點亦包括特別組織已實施或即將實施的規定。"
-   ]
-  }
- },
- {
-  "id": "m1-218",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   [
-    1,
-    2,
-    3
-   ],
-   [
-    1,
-    2,
-    4
-   ],
-   "all"
-  ],
-  "answer": 0,
-  "traps": [
-   null,
-   "reversed",
-   null,
-   "number"
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 Executive Summary ¶9, ¶18, ¶23",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 報告摘要 第9段、 第18段、 第23段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which comparisons of the reported risk findings are correct?",
-   "statements": [
-    "Domestic fraud posed a high laundering threat, while domestic drug-related crime posed a medium-high threat.",
-    "Hong Kong’s overall laundering vulnerability was rated high, although its overall threat was medium-high.",
-    "The report rated Hong Kong’s overall laundering risk as medium-high rather than as the lowest level.",
-    "The report rated the overall terrorist-financing risk as high, with its threat and vulnerability both high."
-   ],
-   "notes": [
-    "True: Executive Summary ¶9, ¶18, ¶23 — The report distinguishes these two threat ratings.",
-    "False: Executive Summary ¶9, ¶18, ¶23 — Vulnerability was medium, not high.",
-    "True: Executive Summary ¶9, ¶18, ¶23 — Executive Summary paragraph 18 states medium-high overall risk.",
-    "False: Executive Summary ¶9, ¶18, ¶23 — All three TF ratings were medium-low."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些有關報告風險結果的比較正確？",
-   "statements": [
-    "本地詐騙的洗錢威脅為高水平，本地毒品相關罪行則為中高水平。",
-    "香港整體洗錢脆弱程度被評為高水平，而整體洗錢威脅則為中高水平。",
-    "報告把香港整體洗錢風險評為中高水平，而不是最低水平。",
-    "報告把整體恐怖分子資金籌集風險評為高水平，威脅及脆弱程度亦均為高。"
-   ],
-   "notes": [
-    "正確：報告摘要 第9段、 第18段、 第23段：報告區分這兩種威脅評級。",
-    "錯誤：報告摘要 第9段、 第18段、 第23段：脆弱程度為中等，並非高水平。",
-    "正確：報告摘要 第9段、 第18段、 第23段：報告摘要第18段列明整體風險為中高水平。",
-    "錯誤：報告摘要 第9段、 第18段、 第23段：三項恐怖分子資金籌集評級均為中低水平。"
-   ]
-  }
- },
- {
-  "id": "m1-219",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   false,
-   true
-  ],
-  "options": [
-   [
-    1,
-    4
-   ],
-   [
-    2,
-    3
-   ],
-   [
-    1,
-    3,
-    4
-   ],
-   [
-    2,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 0,
-  "traps": [
-   null,
-   "scope",
-   "reversed",
-   null
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 Executive Summary ¶24–26",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 報告摘要 第24至26段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which conclusions about the first PF assessment are supported?",
-   "statements": [
-    "The first PF assessment formed an integral part of the second Hong Kong risk assessment.",
-    "The assessment informed government strategy only, without a purpose of informing the private sector.",
-    "The absence of substantial PF evidence in completed investigations led to a finding of no external PF threat.",
-    "Proximity to proliferation-sanctioned states contributed to the assessment of potential external PF threat."
-   ],
-   "notes": [
-    "True: Executive Summary ¶24–26 — The PF assessment was integrated into the second report.",
-    "False: Executive Summary ¶24–26 — Informing the private sector is an express purpose.",
-    "False: Executive Summary ¶24–26 — The report still identifies exposure to external threat.",
-    "True: Executive Summary ¶24–26 — Geography is part of the stated threat context."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些有關首次擴散資金籌集評估的結論有依據？",
-   "statements": [
-    "首次擴散資金籌集評估，是第二次香港風險評估工作的一部分。",
-    "這項評估只供政府制訂策略，並無讓私營界別了解風險的目的。",
-    "已完成調查未發現實質擴散資金籌集證據，因而評估為沒有外來威脅。",
-    "在地理上鄰近因擴散而受制裁的國家，是評估可能外來威脅的因素。"
-   ],
-   "notes": [
-    "正確：報告摘要 第24至26段：擴散資金籌集評估納入第二次報告。",
-    "錯誤：報告摘要 第24至26段：讓私營界別了解風險是明文目的。",
-    "錯誤：報告摘要 第24至26段：報告仍指出可能面對外來威脅。",
-    "正確：報告摘要 第24至26段：地理位置是所述威脅背景的一部分。"
-   ]
-  }
- },
- {
-  "id": "m1-220",
-  "module": 1,
-  "truth": [
-   true,
-   true,
-   true,
-   true
-  ],
-  "options": [
-   [
-    1,
-    2
-   ],
-   [
-    1,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   [
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 4,
-  "traps": [
-   null,
-   null,
-   null,
-   null
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 Executive Summary ¶27–29",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 報告摘要 第27至29段"
-  },
-  "en": {
-   "q": "According to the 2022 report, which descriptions of PF vulnerabilities and defences are correct?",
-   "statements": [
-    "Hong Kong’s open and business-friendly environment could be exploited by proliferation actors.",
-    "A busy transportation hub may attract actors seeking to conduct cargo activities prohibited by the UNSC.",
-    "Virtual assets can be used by sanctions evaders to raise and move funds outside traditional finance.",
-    "The report’s counter-proliferation defences included institutional cooperation and a private-sector defence system."
-   ],
-   "notes": [
-    "True: Executive Summary ¶27–29 — An enabling business environment can be a vulnerability if exploited.",
-    "True: Executive Summary ¶27–29 — The report identifies transport-related vulnerability.",
-    "True: Executive Summary ¶27–29 — The report identifies this potential virtual-asset channel.",
-    "True: Executive Summary ¶27–29 — Paragraph 28 identifies both cooperation and private-sector defences."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年報告，以下哪些有關擴散資金籌集脆弱之處及防禦的描述正確？",
-   "statements": [
-    "香港開放及便利營商的環境，可能被大規模毀滅武器擴散行事者利用。",
-    "活躍交通樞紐可能吸引尋求進行安理會禁止貨運活動的人。",
-    "逃避制裁者可利用虛擬資產，在傳統金融體系之外籌款及轉移資金。",
-    "報告所述打擊擴散防禦包括機構間協作，以及私營機構的防禦系統。"
-   ],
-   "notes": [
-    "正確：報告摘要 第27至29段：便利營商環境如被利用可成為脆弱之處。",
-    "正確：報告摘要 第27至29段：報告指出交通相關的脆弱之處。",
-    "正確：報告摘要 第27至29段：報告指出這個可能的虛擬資產渠道。",
-    "正確：報告摘要 第27至29段：第28段指出協作及私營界別防禦兩者。"
-   ]
-  }
- },
- {
   "id": "m1-221",
   "module": 1,
   "truth": [
@@ -4958,35 +3892,35 @@
   "en": {
    "q": "Regarding the seizure and detention of cash-type items (CBNIs) under the Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, which of the following are correct?",
    "statements": [
-    "CBNIs seized under section 17 on suspicion that they are crime proceeds or terrorist property may be detained for not more than 10 working days after the day of seizure.",
-    "For that purpose a working day is a day that is not a general holiday or a Saturday, and not a black rainstorm warning day or a gale warning day.",
-    "A court order authorising the continued detention of the CBNIs may specify a period of up to 6 months beginning on the date of the order.",
-    "A new order extending the detention must not result in the total period of detention exceeding 2 years beginning on the date of the first order.",
-    "Within the initial detention period, the authorized officer applies to a magistrate for the order authorising the continued detention of the CBNIs."
+    "Subject to sections 18 and 19, CBNIs seized under section 17 on suspicion that they are crime proceeds or terrorist property may be detained for not more than 10 working days after the day of seizure.",
+    "For that purpose a working day under section 17(4) is a day that is not a general holiday or a Saturday, and not a black rainstorm warning day or a gale warning day as defined by section 71(2) of Cap. 1.",
+    "An order made under section 18(2) authorising continued detention of CBNIs suspected to be crime proceeds may specify a period of up to 6 months beginning on the date of the order.",
+    "Under section 18(5), a new order extending detention of CBNIs suspected to be crime proceeds must not take the total period beyond 2 years beginning on the date of the order made under section 18(2).",
+    "Within the period mentioned in section 17(2), the authorized officer may apply to a magistrate for the order authorising continued detention of CBNIs suspected to be crime proceeds."
    ],
    "notes": [
-    "Correct: s.17(2) lets an authorized officer detain the CBNIs for a period of not more than 10 working days after the day of seizure, subject to sections 18 and 19.",
+    "Correct: section 17(2) provides that, subject to sections 18 and 19, an authorized officer may detain such CBNIs for a period of not more than 10 working days after the day of seizure. Sections 18 and 19 then deal with continued detention.",
     "Correct: s.17(4) defines a working day as a day that is not a general holiday or a Saturday, or a black rainstorm warning day or gale warning day.",
-    "Incorrect: s.18(3) says the period specified in the order must not exceed 3 months beginning on the date of the order; 6 months is not the limit.",
-    "Correct: s.18(5) says a new order must not result in the total period of detention exceeding 2 years beginning on the date of the first order under s.18(2).",
-    "Incorrect: s.18(1) has the authorized officer apply to the Court, not a magistrate, for an order authorising continued detention."
+    "Incorrect: even for CBNIs reasonably suspected to be property mentioned in s.17(1)(a), s.18(3) says the period specified in the order must not exceed 3 months beginning on the date of the order; 6 months is not the limit.",
+    "Correct: s.18 applies to CBNIs the officer reasonably suspects to be property mentioned in s.17(1)(a). A new order must not result in the total period of detention exceeding 2 years beginning on the date of the order made under s.18(2).",
+    "Incorrect: s.18(1) has the authorized officer apply to the Court, not a magistrate, for an order authorising continued detention of CBNIs reasonably suspected to be property mentioned in s.17(1)(a)."
    ]
   },
   "tc": {
    "q": "關於《實體貨幣及不記名可轉讓票據跨境流動條例》下檢取及扣留現金類物品的規定，下列哪些陳述正確？",
    "statements": [
-    "根據第17條因懷疑屬犯罪得益或恐怖分子財產而檢取的現金類物品，扣留不得超過檢取日期後的10個工作日。",
-    "就此而言，「工作日」指並非公眾假期或星期六，亦非黑色暴雨警告日或烈風警告日的任何一個日子。",
-    "法院授權繼續扣留該等現金類物品的命令所指明的期間，不得超過自該命令的日期起計的6個月為限。",
-    "延長扣留的新命令，不得致使現金類物品的總扣留期間，超過自首個法院命令的日期起計的2年。",
-    "獲授權人員須在最初的10個工作日扣留期間內，向裁判官申請授權繼續扣留現金類物品的命令。"
+    "除第18及19條另有規定外，根據第17條因懷疑屬犯罪得益或恐怖分子財產而檢取的現金類物品，可予扣留，惟扣留期間不得超過檢取日期後的10個工作日。",
+    "就此而言，第17(4)條所指的「工作日」指並非公眾假期或星期六，亦非《釋義及通則條例》（第1章）第71(2)條所界定的黑色暴雨警告日或烈風警告日的任何一個日子。",
+    "根據第18(2)條作出的、授權繼續扣留懷疑屬犯罪得益的現金類物品的命令，所指明期間不得超過自該命令日期起計的6個月。",
+    "根據第18(5)條，延長扣留懷疑屬犯罪得益的現金類物品的新命令，不得使總扣留期間超過自根據第18(2)條作出的命令的日期起計的2年。",
+    "獲授權人員可在第17(2)條所述的最初扣留期間內，向裁判官申請命令，以授權繼續扣留該人員合理地懷疑屬犯罪得益的現金類物品。"
    ],
    "notes": [
-    "正確：第17(2)條訂明，在第18及19條規限下，獲授權人員扣留現金類物品的期間不得超過檢取日期後的10個工作日。",
+    "正確：第17(2)條訂明，除第18及19條另有規定外，獲授權人員可扣留該等現金類物品，惟扣留期間不得超過檢取日期後的10個工作日。第18及19條其後處理繼續扣留。",
     "正確：第17(4)條界定工作日為並非公眾假期或星期六，亦非黑色暴雨警告日或烈風警告日的日子。",
-    "不正確：第18(3)條訂明命令指明的期間不得超過自該命令的日期起計的3個月，並非6個月。",
-    "正確：第18(5)條訂明新命令不得致使總扣留期間超過自根據第18(2)條作出的命令的日期起計的2年。",
-    "不正確：第18(1)條訂明獲授權人員向法院而非裁判官申請授權繼續扣留的命令。"
+    "不正確：即使是合理地懷疑屬第17(1)(a)條所述財產的現金類物品，第18(3)條亦訂明命令指明的期間不得超過自該命令的日期起計的3個月，並非6個月。",
+    "正確：第18條適用於該人員合理地懷疑屬第17(1)(a)條所述財產的現金類物品。新命令不得致使總扣留期間超過自根據第18(2)條作出的命令的日期起計的2年。",
+    "不正確：第18(1)條訂明，獲授權人員須向法院而非裁判官，申請授權繼續扣留合理地懷疑屬第17(1)(a)條所述財產的現金類物品的命令。"
    ]
   }
  },
@@ -5149,6 +4083,582 @@
     "正確：第6.9(a)段說明全球層面根據安理會第1540 (2004)號決議及其後續決議。",
     "不正確：第6.9(b)段的第2231 (2015)號決議是針對伊朗；針對朝鮮的是第1718 (2006)號決議。",
     "正確：第1.26段指在香港，大部分聯合國安理會決議均根據《聯合國制裁條例》實施。"
+   ]
+  }
+ },
+ {
+  "id": "m1-229",
+  "module": 1,
+  "truth": [
+   true,
+   false,
+   true,
+   false,
+   true
+  ],
+  "options": [
+   [
+    1,
+    3,
+    4
+   ],
+   [
+    1,
+    3,
+    5
+   ],
+   [
+    2,
+    3,
+    4
+   ],
+   [
+    2,
+    3,
+    5
+   ],
+   "all"
+  ],
+  "answer": 1,
+  "traps": [
+   null,
+   "scope",
+   null,
+   "actor",
+   null
+  ],
+  "source": {
+   "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629, ss.17(1) and 18(1), (3) and (7)",
+   "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》（第629章）第17(1)及18(1)、(3)及(7)條"
+  },
+  "en": {
+   "q": "Regarding a court order for the continued detention of seized cash-type items (CBNIs) under the Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, which of the following are correct?",
+   "statements": [
+    "An authorized officer may, within the period mentioned in section 17(2), apply to the Court for an order to authorize the continued detention of CBNIs the officer reasonably suspects to be property mentioned in section 17(1)(a).",
+    "An authorized officer may, within the period mentioned in section 17(2), apply to the Court for an order to authorize the continued detention of CBNIs the officer reasonably suspects to be terrorist property under section 17(1)(b).",
+    "For the purposes of section 18, Court means the Court of First Instance or the District Court, being the courts named in that section to hear an application for continued detention.",
+    "An application under section 18 for continued detention of the CBNIs is made to a magistrate or to the Court of Appeal, which that section treats as the Court for this purpose.",
+    "An order made under section 18(2) may authorize continued detention of the CBNIs for a period specified in the order, and that period must not exceed 3 months beginning on the date of the order."
+   ],
+   "notes": [
+    "Correct: s.18(1) lets an authorized officer, within the period mentioned in s.17(2), apply to the Court for an order authorizing the continued detention of CBNIs the officer reasonably suspects to be property mentioned in s.17(1)(a), that is, property representing proceeds of an OSCO s.25(1) indictable offence.",
+    "Incorrect: s.18(1) is confined to CBNIs reasonably suspected to be property mentioned in s.17(1)(a). Section 17(1)(b) terrorist property can be seized and detained for up to 10 working days under s.17, but the s.18 continued-detention order does not extend to it.",
+    "Correct: s.18(7) defines Court, for that section, as the Court of First Instance or the District Court.",
+    "Incorrect: s.18(7) defines Court as the Court of First Instance or the District Court. A magistrate and the Court of Appeal are not the courts named for a s.18 application.",
+    "Correct: s.18(3) says an order made under s.18(2) may authorize continued detention for a period specified in the order, and the period must not exceed 3 months beginning on the date of the order."
+   ]
+  },
+  "tc": {
+   "q": "關於《實體貨幣及不記名可轉讓票據跨境流動條例》下，就已檢取的現金類物品向法院申請繼續扣留命令，下列哪些陳述正確？",
+   "statements": [
+    "獲授權人員可在第17(2)條所述的期間內，向法院申請命令，以授權繼續扣留該人員合理地懷疑屬第17(1)(a)條所述財產的現金類物品。",
+    "獲授權人員可在第17(2)條所述的期間內，向法院申請命令，以授權繼續扣留該人員合理地懷疑屬第17(1)(b)條所述恐怖分子財產的現金類物品。",
+    "就第18條而言，「法院」指原訟法庭或區域法院，亦即該條所指明、有權審理繼續扣留現金類物品申請的該等法院。",
+    "根據第18條提出的繼續扣留現金類物品申請，是向裁判官或上訴法庭提出的，而該條把該等司法機構定為本條所指的法院。",
+    "根據第18(2)條作出的命令，可授權在命令指明的期間內繼續扣留有關現金類物品，而該期間不得超過自該命令的日期起計的3個月。"
+   ],
+   "notes": [
+    "正確：第18(1)條訂明，獲授權人員可在第17(2)條所述的期間內，向法院申請命令，以授權繼續扣留該人員合理地懷疑屬第17(1)(a)條所述財產的現金類物品，即代表《有組織及嚴重罪行條例》第25(1)條所述可公訴罪行得益的財產。",
+    "不正確：第18(1)條只涵蓋合理地懷疑屬第17(1)(a)條所述財產的現金類物品。第17(1)(b)條所述的恐怖分子財產可根據第17條檢取並扣留不多於10個工作日，但第18條的繼續扣留命令並不適用於該類物品。",
+    "正確：第18(7)條界定，就該條而言，「法院」指原訟法庭或區域法院。",
+    "不正確：第18(7)條所指的法院是原訟法庭或區域法院，並非裁判官或上訴法庭。",
+    "正確：第18(3)條訂明，根據第18(2)條作出的命令可授權在命令指明的期間內繼續扣留，而該期間不得超過自該命令的日期起計的3個月。"
+   ]
+  }
+ },
+ {
+  "id": "m1-230",
+  "module": 1,
+  "truth": [
+   true,
+   true,
+   false,
+   true,
+   false
+  ],
+  "options": [
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    1,
+    2,
+    4
+   ],
+   [
+    2,
+    3,
+    5
+   ],
+   [
+    2,
+    4,
+    5
+   ],
+   "all"
+  ],
+  "answer": 1,
+  "traps": [
+   null,
+   null,
+   "period",
+   null,
+   "scope"
+  ],
+  "source": {
+   "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629, s.18(4)–(7)",
+   "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》（第629章）第18(4)至(7)條"
+  },
+  "en": {
+   "q": "Regarding a new court order that extends the continued detention of cash-type items (CBNIs) suspected to be crime proceeds, and the return of those items, which of the following are correct?",
+   "statements": [
+    "Under section 18(5)(a), a new order made on an authorized officer's application must not specify a period exceeding 3 months beginning on the date of that new order.",
+    "Under section 18(5)(b), a new order must not result in the total period of detention of the CBNIs exceeding 2 years beginning on the date of the order made under section 18(2).",
+    "A new order made under section 18(4) may result in the total period of detention of the CBNIs reaching 5 years beginning on the date of the order made under section 18(2).",
+    "The Court may direct a return to an interested person if satisfied on that person's application that the conditions do not or no longer exist, or on an authorized officer's application that detention is no longer justified.",
+    "An interested person in relation to any CBNI means the person from whom it was seized, and does not include a person by whom or on whose behalf it was imported or exported, or a person who otherwise has an interest in it."
+   ],
+   "notes": [
+    "Correct: s.18(5)(a) says a new order must not specify a period exceeding 3 months beginning on the date of the order. A new order is made on an authorized officer's application under s.18(4).",
+    "Correct: s.18(5)(b) says a new order must not result in the total period of detention exceeding 2 years beginning on the date of the order made under s.18(2).",
+    "Incorrect: the cap in s.18(5)(b) is 2 years beginning on the date of the order made under s.18(2), not 5 years.",
+    "Correct: s.18(6) lets the Court direct a return to an interested person if satisfied on that person's application that the conditions for detention do not, or no longer, exist, or on an authorized officer's application that detention is no longer justified.",
+    "Incorrect: s.18(7) defines an interested person as the person from whom the CBNI was seized, a person by whom or on whose behalf it was imported or exported, or a person who otherwise has an interest in it. Confining the term to the person from whom it was seized narrows the definition."
+   ]
+  },
+  "tc": {
+   "q": "關於延長繼續扣留懷疑屬犯罪得益的現金類物品的新命令，以及發還該等物品，下列哪些陳述正確？",
+   "statements": [
+    "根據第18(5)(a)條，應獲授權人員申請作出的新命令，指明的期間不得超過自該新命令的日期起計的3個月。",
+    "新命令不得致使有關現金類物品的總扣留期間，超過自根據第18(2)條作出的命令的日期起計的2年。",
+    "新命令可致使有關現金類物品的總扣留期間，達到自根據第18(2)條作出的命令的日期起計的5年。",
+    "法院可在關係人申請並信納扣留情況不存在或不再存在時，或在獲授權人員申請並信納再無理據扣留時，指示將物品發還予關係人。",
+    "就現金類物品而言，「關係人」指該物品是從其處檢取的人，並不包括輸入或輸出該物品的人，亦不包括在其他方面對該物品有權益的人。"
+   ],
+   "notes": [
+    "正確：第18(5)(a)條訂明，新命令指明的期間不得超過自該命令的日期起計的3個月。新命令是應獲授權人員根據第18(4)條提出的申請而作出的。",
+    "正確：第18(5)(b)條訂明，新命令不得致使總扣留期間超過自根據第18(2)條作出的命令的日期起計的2年。",
+    "不正確：第18(5)(b)條的上限是自根據第18(2)條作出的命令的日期起計的2年，並非5年。",
+    "正確：第18(6)條訂明，法院可應該等物品的關係人的申請而信納扣留情況不存在或不再存在，或應獲授權人員的申請而信納再無理據扣留，然後指示將物品發還予關係人。",
+    "不正確：第18(7)條界定關係人包括該物品是從其處檢取的人、輸入或輸出該物品的人或由他人代為輸入或輸出的人，以及在其他方面對該物品有權益的人，並非只限於被檢取的人。"
+   ]
+  }
+ },
+ {
+  "id": "m1-231",
+  "module": 1,
+  "truth": [
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "options": [
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    1,
+    4,
+    5
+   ],
+   "all"
+  ],
+  "answer": 2,
+  "traps": [
+   null,
+   null,
+   null,
+   "period",
+   "scope"
+  ],
+  "source": {
+   "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629, s.19",
+   "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》（第629章）第19條"
+  },
+  "en": {
+   "q": "Regarding further detention of cash-type items (CBNIs) after proceedings have been instituted, which of the following are correct under the Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance?",
+   "statements": [
+    "If, while CBNIs are being detained under section 17(2) or an order made under section 18, specified proceedings are instituted, the CBNIs may be detained until those proceedings have been concluded.",
+    "The specified proceedings include proceedings instituted, whether in Hong Kong or elsewhere, against a person for an offence with which the CBNIs are connected.",
+    "The specified proceedings also include proceedings instituted, whether in Hong Kong or elsewhere, which may result in the forfeiture or confiscation of the CBNIs.",
+    "If those specified proceedings are instituted, the CBNIs may be detained for not more than 10 further working days after the day the proceedings are instituted, and must then be returned.",
+    "Proceedings instituted in Hong Kong can support this further detention of the CBNIs under section 19; proceedings instituted elsewhere do not count for that purpose."
+   ],
+   "notes": [
+    "Correct: s.19 says that if, at any time while CBNIs are being detained under s.17(2) or an order made under s.18, any of the listed proceedings are instituted, the CBNIs may be detained until the proceedings have been concluded.",
+    "Correct: s.19(a) covers proceedings instituted, whether in Hong Kong or elsewhere, against a person for an offence with which the CBNIs are connected.",
+    "Correct: s.19(b) covers proceedings instituted, whether in Hong Kong or elsewhere, which may result in the forfeiture or confiscation of the CBNIs.",
+    "Incorrect: once those proceedings are instituted, s.19 allows detention until the proceedings have been concluded, not a further limit of 10 working days.",
+    "Incorrect: both s.19(a) and (b) expressly include proceedings instituted in Hong Kong or elsewhere. Confining the rule to Hong Kong proceedings narrows the provision."
+   ]
+  },
+  "tc": {
+   "q": "關於在已提起法律程序後繼續扣留現金類物品，《實體貨幣及不記名可轉讓票據跨境流動條例》有以下哪些正確陳述？",
+   "statements": [
+    "如現金類物品根據第17(2)條或第18條命令被扣留，而在扣留期間有指明法律程序提起，則在該程序結束前該等物品可予繼續扣留。",
+    "該等指明的法律程序包括就與該等現金類物品相關的罪行，針對某人提起的法律程序，不論該程序是在香港或其他地方提起。",
+    "該等指明的法律程序亦包括可導致該等現金類物品被沒收或充公的法律程序，不論該程序是在香港或其他地方提起。",
+    "如該等指明的法律程序已提起，該等現金類物品只可再扣留不多於該程序提起當日後的10個工作日，其後必須發還。",
+    "在香港提起的法律程序才可支持這項第19條的進一步扣留；在香港以外地方提起的法律程序並不算在內。"
+   ],
+   "notes": [
+    "正確：第19條訂明，如現金類物品根據第17(2)條或按第18條命令被扣留，而在扣留期間有所列法律程序提起，則在該程序結束前，該等物品可予繼續扣留。",
+    "正確：第19(a)條涵蓋就與該等物品相關的罪行針對某人提起的法律程序，不論該程序是在香港或其他地方提起。",
+    "正確：第19(b)條涵蓋可導致該等物品被沒收或充公的法律程序，不論該程序是在香港或其他地方提起。",
+    "不正確：一旦提起該等法律程序，第19條容許扣留直至程序結束，而非再限於10個工作日。",
+    "不正確：第19(a)及(b)條均明文包括在香港或其他地方提起的法律程序，把範圍限於香港程序是收窄了條文。"
+   ]
+  }
+ },
+ {
+  "id": "m1-232",
+  "module": 1,
+  "truth": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   false
+  ],
+  "options": [
+   [
+    1,
+    2,
+    4,
+    5
+   ],
+   [
+    1,
+    3,
+    4,
+    6
+   ],
+   [
+    1,
+    3,
+    5,
+    6
+   ],
+   [
+    2,
+    3,
+    4,
+    5
+   ],
+   "all"
+  ],
+  "answer": 0,
+  "traps": [
+   null,
+   null,
+   "condition",
+   null,
+   null,
+   "condition"
+  ],
+  "source": {
+   "en": "C&ED Circular MSSB/FATF_02/2026 (3 July 2026) items (1)–(2)",
+   "tc": "香港海關通函 MSSB/FATF_02/2026（2026年7月3日）第(1)至(2)項"
+  },
+  "en": {
+   "q": "Regarding the FATF Call for Action and the increased-monitoring list described in the C&ED circular of 3 July 2026, which of the following are correct?",
+   "statements": [
+    "In the Call for Action statement, the Democratic People's Republic of Korea (DPRK) and Iran are jurisdictions subject to a FATF call for applying countermeasures.",
+    "Myanmar is the jurisdiction subject to a FATF call for applying enhanced due diligence measures proportionate to the risks arising from the jurisdiction.",
+    "Myanmar is already subject to a FATF call for applying countermeasures, in the same way as the Democratic People's Republic of Korea and Iran.",
+    "If no further progress is made by Myanmar by October 2026, the Financial Action Task Force will consider countermeasures against that jurisdiction.",
+    "Money service operators are reminded that two new jurisdictions were added to the increased-monitoring list, namely Bosnia and Herzegovina and Iraq.",
+    "Bosnia and Herzegovina and Iraq were added to the Call for Action list of high-risk jurisdictions subject to a FATF call for countermeasures."
+   ],
+   "notes": [
+    "Correct: under heading (1)(i), DPRK and Iran are the jurisdictions subject to a FATF call for applying countermeasures.",
+    "Correct: heading (1)(ii) names Myanmar as the jurisdiction subject to a FATF call for applying enhanced due diligence measures proportionate to the risks arising from the jurisdiction.",
+    "Incorrect: Myanmar is in the enhanced due diligence bucket, not the countermeasures bucket. The circular says that if no further progress is made by October 2026, the FATF will consider countermeasures.",
+    "Correct: the circular states that if no further progress is made by Myanmar by October 2026, the FATF will consider countermeasures.",
+    "Correct: item (2) reminds MSOs that two new jurisdictions were added into the increased-monitoring list, namely Bosnia and Herzegovina and Iraq.",
+    "Incorrect: Bosnia and Herzegovina and Iraq were added to the increased-monitoring list, not to the Call for Action or high-risk countermeasures list."
+   ]
+  },
+  "tc": {
+   "q": "關於海關於2026年7月3日通函所述，財務行動特別組織呼籲採取行動的名單與被加強監察的名單，下列哪些陳述正確？",
+   "statements": [
+    "在有關呼籲各方採取行動的聲明中，朝鮮民主主義人民共和國及伊朗屬需遵從特別組織要求而採取針對措施的司法管轄區。",
+    "在呼籲採取行動的聲明中，緬甸屬需遵從特別組織要求而採取與風險相稱的更嚴格的盡職審查措施的司法管轄區。",
+    "緬甸現已與朝鮮民主主義人民共和國及伊朗一樣，屬需遵從特別組織要求而採取針對措施的司法管轄區。",
+    "若緬甸於2026年10月或之前仍沒有取得進展，特別組織將會考慮對該司法管轄區採取針對措施。",
+    "金錢服務經營者應留意，最新被加強監察名單加入了兩個司法管轄區，即波斯尼亞和黑塞哥維那及伊拉克。",
+    "波斯尼亞和黑塞哥維那及伊拉克已被加入呼籲採取行動的高風險名單，須遵從特別組織要求採取針對措施。"
+   ],
+   "notes": [
+    "正確：第(1)(i)項標題下，朝鮮民主主義人民共和國及伊朗屬需遵從特別組織要求而採取針對措施的司法管轄區。",
+    "正確：第(1)(ii)項標題把緬甸列為需遵從特別組織要求而採取與風險相稱的更嚴格的盡職審查措施的司法管轄區。",
+    "不正確：緬甸屬更嚴格盡職審查一類，而非針對措施一類。通函訂明，若於2026年10月或之前仍沒有取得進展，特別組織才會考慮採取針對措施。",
+    "正確：通函訂明，若緬甸於2026年10月或之前仍沒有取得進展，特別組織將會考慮對緬甸採取針對措施。",
+    "正確：第(2)項提醒金錢服務經營者，最新名單加入了兩個司法管轄區，即波斯尼亞和黑塞哥維那及伊拉克，該名單是被加強監察的名單。",
+    "不正確：波斯尼亞和黑塞哥維那及伊拉克是加入被加強監察名單，而非呼籲採取行動或須採取針對措施的高風險名單。"
+   ]
+  }
+ },
+ {
+  "id": "m1-233",
+  "module": 1,
+  "truth": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "options": [
+   [
+    1,
+    2,
+    4,
+    6
+   ],
+   [
+    3,
+    4,
+    5,
+    6
+   ],
+   [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   [
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "all"
+  ],
+  "answer": 2,
+  "traps": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   "qualifier"
+  ],
+  "source": {
+   "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629, s.18(2)",
+   "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》（第629章）第18(2)條"
+  },
+  "en": {
+   "q": "Regarding the conditions on which the Court may make an order for the continued detention of cash-type items (CBNIs) suspected to be crime proceeds, which of the following are correct?",
+   "statements": [
+    "The Court may make the order only if satisfied there are reasonable grounds for suspecting the CBNIs are property representing the proceeds of an indictable offence mentioned in section 25(1) of the Organized and Serious Crimes Ordinance.",
+    "The Court must also be satisfied that detention of the CBNIs is justified while one of the steps listed in section 18(2)(b) is underway, those two sets of conditions being cumulative.",
+    "Under section 18(2)(b)(i), detention of the CBNIs may be justified while their origin or derivation is further investigated, being one of the steps during which detention may be justified.",
+    "Detention of the CBNIs may also be justified while consideration is given to instituting, whether in Hong Kong or elsewhere, proceedings against a person for an offence with which the CBNIs are connected.",
+    "Detention of the CBNIs may also be justified while consideration is given to instituting, whether in Hong Kong or elsewhere, proceedings which may result in the forfeiture or confiscation of the CBNIs.",
+    "The Court may make the continued detention order on the investigation ground in section 18(2)(b)(i), without being satisfied that there are reasonable grounds for suspecting that the CBNIs represent such crime proceeds."
+   ],
+   "notes": [
+    "Correct: s.18(2)(a) requires the Court to be satisfied that there are reasonable grounds for suspecting that the CBNIs are property representing the proceeds of an indictable offence mentioned in OSCO s.25(1).",
+    "Correct: s.18(2) joins paragraph (a) and paragraph (b) with 'and'. The Court must also be satisfied that detention is justified while one of the listed steps is underway.",
+    "Correct: s.18(2)(b)(i) lists further investigation of the origin or derivation of the CBNIs as a step during which detention may be justified.",
+    "Correct: s.18(2)(b)(ii) covers consideration of the institution, whether in Hong Kong or elsewhere, of proceedings against a person for an offence with which the CBNIs are connected.",
+    "Correct: s.18(2)(b)(iii) covers consideration of the institution, whether in Hong Kong or elsewhere, of proceedings which may result in the forfeiture or confiscation of the CBNIs.",
+    "Incorrect: the Court may make the order only if satisfied of both s.18(2)(a) and (b). The investigation ground in (b)(i) is not enough without reasonable grounds for suspecting that the CBNIs represent such crime proceeds."
+   ]
+  },
+  "tc": {
+   "q": "關於法院可作出命令，以繼續扣留懷疑屬犯罪得益的現金類物品所須信納的條件，下列哪些陳述正確？",
+   "statements": [
+    "法院只有在信納有合理理由懷疑有關現金類物品屬《有組織及嚴重罪行條例》第25(1)條所述、代表從可公訴罪行的得益的財產時，才可作出該命令。",
+    "法院亦須信納，在第18(2)(b)條所列其中一項行動進行期間，扣留該等現金類物品是有理可據的，而該兩項條件是累積適用的。",
+    "根據第18(2)(b)(i)條，在對該等現金類物品的來源或如何獲得該等物品作進一步調查期間，扣留該等物品可以是有理可據的。",
+    "在考慮就與該等現金類物品相關的罪行，針對某人提起法律程序期間（不論在香港或其他地方提起），扣留亦可以是有理可據的。",
+    "在考慮提起可導致該等現金類物品被沒收或充公的法律程序期間（不論在香港或其他地方提起），扣留亦可以是有理可據的。",
+    "法院可憑第18(2)(b)(i)條的進一步調查理由作出命令，而不信納有合理理由懷疑該等現金類物品代表上述犯罪得益。"
+   ],
+   "notes": [
+    "正確：第18(2)(a)條規定，法院須信納有合理理由懷疑，有關現金類物品屬《有組織及嚴重罪行條例》第25(1)條所述、代表從可公訴罪行的得益的財產。",
+    "正確：第18(2)條以「及」連接(a)段與(b)段。法院亦須信納，在所列其中一項行動進行期間，扣留是有理可據的。",
+    "正確：第18(2)(b)(i)條把對該等物品的來源或如何獲得該等物品作進一步調查，列為扣留可以是有理可據的其中一項行動。",
+    "正確：第18(2)(b)(ii)條涵蓋考慮就與該等物品相關的罪行針對某人提起法律程序，不論該程序是在香港或其他地方提起。",
+    "正確：第18(2)(b)(iii)條涵蓋考慮提起可導致該等物品被沒收或充公的法律程序，不論該程序是在香港或其他地方提起。",
+    "不正確：法院只有在同時信納第18(2)(a)及(b)條所述情況時，才可作出命令。單憑(b)(i)的調查理由，而沒有合理理由懷疑屬該等犯罪得益，並不足夠。"
+   ]
+  }
+ },
+ {
+  "id": "m1-234",
+  "module": 1,
+  "truth": [
+   true,
+   true,
+   false,
+   true,
+   true
+  ],
+  "options": [
+   [
+    1,
+    2,
+    3,
+    5
+   ],
+   [
+    1,
+    2,
+    4,
+    5
+   ],
+   [
+    1,
+    3,
+    4,
+    5
+   ],
+   [
+    2,
+    3,
+    4,
+    5
+   ],
+   "all"
+  ],
+  "answer": 1,
+  "traps": [
+   null,
+   null,
+   "condition",
+   null,
+   null
+  ],
+  "source": {
+   "en": "C&ED Circular MSSB/SAN_01/2018 (7 February 2018) opening and s.1 p.1",
+   "tc": "香港海關通函 MSSB/SAN_01/2018（2018年2月7日）開首及第1條第1頁"
+  },
+  "en": {
+   "q": "Regarding the C&ED circular of 7 February 2018 on United Nations sanctions and early alert circulars, which of the following are correct?",
+   "statements": [
+    "The C&ED will issue early alert circulars on this subject from time to time, and the circular further elaborates the expectations on actions MSOs should take regarding United Nations Security Council sanctions.",
+    "Whenever there are updates to the lists, the C&ED requires money service operators to screen all new designations against their client lists as soon as practicable.",
+    "MSOs must wait until the relevant sanctions have already been implemented through Hong Kong legislation before screening all new designations against their client lists.",
+    "In practice, there is likely to be a time gap between issuance of new or revised sanctions resolutions and/or sanctions lists, and their implementation in Hong Kong.",
+    "Whether or not UNSC sanctions resolutions or sanctions lists have been implemented through Hong Kong legislation, offences under existing anti-money laundering and counter-terrorist financing laws remain relevant."
+   ],
+   "notes": [
+    "Correct: the opening of the circular says the C&ED would like to further elaborate those expectations and refers to the early alert circulars which will be issued by the C&ED on this subject from time to time.",
+    "Correct: the circular provides that the C&ED requires MSOs to screen all new designations against their client lists as soon as practicable whenever there are such updates.",
+    "Incorrect: the screening duty is triggered whenever lists are updated, as soon as practicable. The circular does not confine that screening to after the sanctions have been implemented through Hong Kong legislation, and it separately points out the time gap before local implementation.",
+    "Correct: the circular states that, in practice, there is likely to be a time gap between issuance of new or revised sanctions resolutions and/or sanctions lists, and their implementation in Hong Kong.",
+    "Correct: the circular reminds MSOs that whether or not those resolutions or lists have been implemented through Hong Kong legislation, there are offences under existing anti-money laundering and counter-terrorist financing laws that are relevant."
+   ]
+  },
+  "tc": {
+   "q": "關於海關於2018年2月7日就聯合國制裁及及早發出警示通函所作的通函，下列哪些陳述正確？",
+   "statements": [
+    "該通函進一步闡述海關預期金錢服務經營者如何因應聯合國安全理事會所施加的制裁採取行動，並述明海關會不時就此事及早發出警示通函。",
+    "但凡名單更新後，海關規定金錢服務經營者須在實際可行情況下，盡快按所有新指定的名單篩查本身的客戶名單。",
+    "金錢服務經營者須在有關制裁已透過香港法例實施之後，才按所有新指定的名單篩查本身的客戶名單。",
+    "在實際運作上，新的制裁決議及／或制裁名單或其修訂版發出後，直至在香港實施兩者，時間上難免有落差。",
+    "不論聯合國安理會的制裁決議或制裁名單有否透過在香港立法實施，現行針對洗錢及恐怖分子資金籌集的法例已有相關適用的罪行。"
+   ],
+   "notes": [
+    "正確：通函開首表明擬進一步闡述海關預期金錢服務經營者如何因應聯合國安理會所施加的制裁採取行動，並述明海關會不時就此事及早發出警示通函。",
+    "正確：通函規定，但凡名單更新後，金錢服務經營者須在實際可行情況下，盡快按所有新指定的名單篩查本身的客戶名單。",
+    "不正確：篩查責任是但凡名單更新後，須在實際可行情況下盡快進行。通函並沒有把篩查限於制裁已透過香港法例實施之後，反而另行指出在香港實施前時間上難免有落差。",
+    "正確：通函訂明，在實際運作上，新的制裁決議及／或制裁名單或其修訂版發出後，直至在香港實施兩者，時間上難免有落差。",
+    "正確：通函提醒金錢服務經營者，不論聯合國安理會的制裁決議或制裁名單有否透過在香港立法實施，現行針對洗錢及恐怖分子資金籌集的法例已有相關適用的罪行。"
+   ]
+  }
+ },
+ {
+  "id": "m1-235",
+  "module": 1,
+  "truth": [
+   true,
+   true,
+   false,
+   false
+  ],
+  "options": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    1,
+    2,
+    3
+   ],
+   [
+    2,
+    3,
+    4
+   ],
+   "all"
+  ],
+  "answer": 0,
+  "traps": [
+   null,
+   null,
+   "condition",
+   "scope"
+  ],
+  "source": {
+   "en": "C&ED Circular MSSB/FATF_02/2026 (3 July 2026) item (2)",
+   "tc": "香港海關通函 MSSB/FATF_02/2026（2026年7月3日）第(2)項"
+  },
+  "en": {
+   "q": "Regarding the FATF statement on jurisdictions under increased monitoring, as described in the C&ED circular of 3 July 2026, which of the following are correct?",
+   "statements": [
+    "In addition to the statement on High-Risk Jurisdictions subject to a Call for Action, the FATF has issued an updated statement on Jurisdictions under Increased Monitoring, which the circular indicates can be found on the FATF website.",
+    "The FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies in their regimes to counter money laundering, terrorist financing and proliferation financing.",
+    "Jurisdictions placed under increased monitoring are, by that listing, already subject to a FATF call for applying countermeasures to protect the international financial system.",
+    "The jurisdictions under increased monitoring, as described in that FATF statement, are limited to Myanmar, and no other jurisdiction appears on the increased-monitoring list."
+   ],
+   "notes": [
+    "Correct: item (2) of the circular says that, in addition, the FATF has issued an updated statement on Jurisdictions under Increased Monitoring, and gives the address on the FATF website where that statement can be found.",
+    "Correct: the circular states that the FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies.",
+    "Incorrect: a call for applying countermeasures belongs to the Call for Action high-risk bucket, not to the increased-monitoring list as such.",
+    "Incorrect: increased monitoring is not confined to Myanmar. Myanmar is dealt with in the Call for Action statement, under the enhanced due diligence heading, and the increased-monitoring statement covers a list of jurisdictions."
+   ]
+  },
+  "tc": {
+   "q": "關於海關於2026年7月3日通函第(2)項所述，財務行動特別組織有關被加強監察的司法管轄區的聲明，下列哪些陳述正確？",
+   "statements": [
+    "除呼籲各方對高風險司法管轄區採取行動的聲明外，特別組織亦已發布一份有關被加強監察的司法管轄區的最新聲明，該聲明可於其網站取覽。",
+    "特別組織將會密切監察這些已被列入該份有關被加強監察的司法管轄區名單的司法管轄區，在處理該聲明所指已識別的策略性缺失方面所取得的進展。",
+    "單憑某一司法管轄區被列入被加強監察的司法管轄區名單，該司法管轄區便已經屬需遵從特別組織要求而採取針對措施的司法管轄區。",
+    "被加強監察的司法管轄區限於緬甸一地，該份有關被加強監察的司法管轄區的最新名單並無載列緬甸以外的任何其他司法管轄區。"
+   ],
+   "notes": [
+    "正確：該通函第(2)項述明，此外，特別組織已發布一份有關被加強監察的司法管轄區的最新聲明，並提供該聲明可於特別組織網站取覽的位置。",
+    "正確：通函訂明，特別組織將會密切監察這些司法管轄區在處理已識別的策略性缺失方面的進展。",
+    "不正確：要求採取針對措施的呼籲屬呼籲採取行動的高風險一類，並非單憑被列入加強監察名單便會適用。",
+    "不正確：被加強監察並不限於緬甸。緬甸是在呼籲採取行動的聲明中，列於更嚴格盡職審查標題之下，而被加強監察的聲明則載有一份司法管轄區名單。"
    ]
   }
  },
@@ -28769,292 +28279,6 @@
   }
  },
  {
-  "id": "m5-117",
-  "module": 5,
-  "truth": [
-   true,
-   false,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1,
-    2
-   ],
-   [
-    1,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   [
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 1,
-  "traps": [
-   null,
-   "offlist",
-   null,
-   "added"
-  ],
-  "source": {
-   "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.15",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.15段"
-  },
-  "en": {
-   "q": "According to the 2022 risk assessment report, which statements about C&ED’s supervisory risk model are correct?",
-   "statements": [
-    "Each MSO receives both an overall risk rating and an impact rating under the enhanced model.",
-    "The impact rating reflects the MSO’s number of premises rather than its annual turnover.",
-    "The two ratings form a matrix to determine the appropriate supervisory extent and priority.",
-    "The supervisory priority categories are high, medium-high, medium, medium-low and low."
-   ],
-   "notes": [
-    "True: ¶5.4.15 The enhanced model distinguishes overall risk from impact.",
-    "False: ¶5.4.15 The impact rating reflects annual turnover.",
-    "True: ¶5.4.15 The combined matrix determines supervisory extent and priority.",
-    "False: ¶5.4.15 There are four listed categories; medium-low is not included."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年風險評估報告，關於海關的監管風險模型，下列哪些陳述正確？",
-   "statements": [
-    "每名金錢服務經營者在經改良模型下，同時獲整體風險評級及影響評級。",
-    "影響評級反映金錢服務經營者的處所數目，而不是其每年營業額。",
-    "兩類評級組合成總滙模型，以確定適當的監管範圍及優先次序。",
-    "監督優次類別分為高級、中高級、中級、中低級及低級五個級別。"
-   ],
-   "notes": [
-    "正確：第5.4.15段，模型區分整體風險評級與對行業影響的評級。",
-    "錯誤：第5.4.15段，影響評級所反映的是每年營業額，並非處所數目。",
-    "正確：第5.4.15段，評級組合用於確定監管範圍與優先次序。",
-    "錯誤：第5.4.15段，列明的類別只有高、中高、中及低，沒有中低級。"
-   ]
-  }
- },
- {
-  "id": "m5-118",
-  "module": 5,
-  "truth": [
-   true,
-   true,
-   true,
-   true
-  ],
-  "options": [
-   [
-    2
-   ],
-   [
-    3
-   ],
-   [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 4,
-  "traps": [
-   null,
-   null,
-   null,
-   null
-  ],
-  "source": {
-   "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.13",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.13段"
-  },
-  "en": {
-   "q": "According to the 2022 risk assessment report, which statements about the supervisory response to sector vulnerabilities are correct?",
-   "statements": [
-    "The report describes enhanced licensing requirements intended to be proper and proportionate.",
-    "The sector-wide outreach programme targeted existing licensees’ understanding of institutional risk.",
-    "Marginal MSOs identified during outreach could receive relevant guidance as supervisory follow-up.",
-    "Tailor-made training could be used to remedy deficiencies identified in marginal MSOs."
-   ],
-   "notes": [
-    "True: ¶5.4.13 The response stresses proper and proportionate licensing requirements.",
-    "True: ¶5.4.13 The programme for existing licensees prioritised institutional risk understanding.",
-    "True: ¶5.4.13 Relevant AML/CFT guidance is one example of follow-up action.",
-    "True: ¶5.4.13 Tailor-made training is another stated remedial follow-up measure."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年風險評估報告，關於針對行業脆弱性的監管措施，下列哪些陳述正確？",
-   "statements": [
-    "報告指出加強發牌制度，目的是實施更適當合宜的發牌條件。",
-    "全行業外展計劃重點提升現有持牌人對機構風險的理解及意識。",
-    "在外展中發現稍低於標準的經營者，可獲相關指引作為監管跟進。",
-    "海關可提供專門培訓，以彌補稍低於標準的經營者所發現的不足。"
-   ],
-   "notes": [
-    "正確：第5.4.13段，報告明列措施是實施更適當合宜的發牌條件。",
-    "正確：第5.4.13段，計劃針對現有持牌人，重點是對制度風險的理解及認識。",
-    "正確：第5.4.13段，報告以提供相關打擊洗錢及恐怖分子資金籌集指引作為跟進例子。",
-    "正確：第5.4.13段，原文列明可提供專門培訓以彌補不足。"
-   ]
-  }
- },
- {
-  "id": "m5-119",
-  "module": 5,
-  "truth": [
-   true,
-   false,
-   true,
-   true
-  ],
-  "options": [
-   [
-    1,
-    2,
-    3
-   ],
-   [
-    1,
-    2,
-    4
-   ],
-   [
-    2,
-    3,
-    4
-   ],
-   [
-    1,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 3,
-  "traps": [
-   null,
-   "reversed",
-   null,
-   null
-  ],
-  "source": {
-   "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.27",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.26段"
-  },
-  "en": {
-   "q": "According to the 2022 risk assessment report, which statements about the territory-wide outreach programme launched in May 2020 are correct?",
-   "statements": [
-    "The programme sought to assist C&ED in assessing and determining individual MSOs’ risk profiles.",
-    "The programme aimed to replace each MSO’s own AML/CFT policy with one prescribed by C&ED.",
-    "The programme sought to address concerns and difficulties in adapting to the regulatory regime.",
-    "The programme addressed shortcomings alongside the implementation of risk-based monitoring."
-   ],
-   "notes": [
-    "True: ¶5.4.27 Individual risk-profile assessment is an express programme purpose.",
-    "False: ¶5.4.27 The aim is to help MSOs formulate their own policies, not replace them.",
-    "True: ¶5.4.27 Adapting to the regulatory regime is explicitly covered.",
-    "True: ¶5.4.27 Addressing shortcomings was linked to risk-based monitoring."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年風險評估報告，關於2020年5月展開的全港外展計劃，下列哪些陳述正確？",
-   "statements": [
-    "計劃協助海關評估及確定個別金錢服務經營者的風險狀況。",
-    "計劃以海關政策取代業者自身的打擊洗錢及恐怖分子資金籌集政策。",
-    "計劃亦處理業界適應監管制度時所遇到的關注事項及困難。",
-    "計劃配合實行風險為本的監察工作，協助處理業界的不足之處。"
-   ],
-   "notes": [
-    "正確：第5.4.26段，原文明列協助海關評估及確定個別經營者風險狀況。",
-    "錯誤：第5.4.26段，目的是協助經營者制訂本身的政策，並非以統一政策取代。",
-    "正確：第5.4.26段，原文包含適應監管制度時的關注及困難。",
-    "正確：第5.4.26段，報告將處理不足與風險為本監察工作相連。"
-   ]
-  }
- },
- {
-  "id": "m5-120",
-  "module": 5,
-  "truth": [
-   true,
-   false,
-   true,
-   true
-  ],
-  "options": [
-   [
-    1,
-    2,
-    3
-   ],
-   [
-    1,
-    2,
-    4
-   ],
-   [
-    2,
-    3,
-    4
-   ],
-   [
-    1,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 3,
-  "traps": [
-   null,
-   "reversed",
-   null,
-   null
-  ],
-  "source": {
-   "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.30",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.29段"
-  },
-  "en": {
-   "q": "According to the 2022 risk assessment report, which statements about the report’s next steps for the MSO sector are correct?",
-   "statements": [
-    "Innovation and new technology were to be encouraged to make AML/CFT compliance more efficient.",
-    "Special theme-based reviews were to focus proactively on low-risk areas of the sector.",
-    "Further study of cybercrime-related ML/TF/PF threats would inform supervisory measures and guidance.",
-    "Capability-building priorities covered risk understanding, reporting duties and TF/PF sanctions screening."
-   ],
-   "notes": [
-    "True: ¶5.4.30 The report encourages innovation to enhance compliance efficiency.",
-    "False: ¶5.4.30 The targeted areas are high-risk, not low-risk.",
-    "True: ¶5.4.30 The proposed cybercrime work covers ML, TF and PF threats.",
-    "True: ¶5.4.30 The stated capability priorities include all three subjects."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年風險評估報告，關於報告就金錢服務業提出的下一步工作，下列哪些陳述正確？",
-   "statements": [
-    "鼓勵創新及新科技，旨在提升遵從打擊洗錢及恐怖分子資金籌集規定的效率。",
-    "計劃會積極進行特別的專題檢討，並將監管注意力集中在行業內的低風險範疇。",
-    "進一步研究網絡犯罪所帶來的洗錢、恐怖分子及擴散資金籌集威脅，以制訂措施及指引。",
-    "能力提升重點涵蓋風險理解、可疑交易舉報責任及恐怖分子與擴散資金籌集的制裁篩查。"
-   ],
-   "notes": [
-    "正確：第5.4.29段，原文鼓勵創新及科技以更有效遵守規定。",
-    "錯誤：第5.4.29段，原文指針對高風險範疇，並非低風險範疇。",
-    "正確：第5.4.29段，研究涵蓋網絡犯罪引起的洗錢、恐怖分子及擴散資金籌集威脅。",
-    "正確：第5.4.29段，能力提升重點包括風險、舉報責任及針對性制裁篩查。"
-   ]
-  }
- },
- {
   "id": "m5-121",
   "module": 5,
   "truth": [
@@ -44002,224 +43226,6 @@
   }
  },
  {
-  "id": "m7-196",
-  "module": 7,
-  "truth": [
-   true,
-   true,
-   true,
-   true
-  ],
-  "options": [
-   [
-    1,
-    2,
-    3
-   ],
-   [
-    1,
-    2,
-    4
-   ],
-   [
-    2,
-    3,
-    4
-   ],
-   [
-    1,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 4,
-  "traps": [
-   null,
-   null,
-   null,
-   null
-  ],
-  "source": {
-   "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.16",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.16段"
-  },
-  "en": {
-   "q": "According to the 2022 risk assessment report, which statements about information used to keep supervisory risk ratings current are correct?",
-   "statements": [
-    "Periodic risk profiling is among the avenues used to keep individual MSO ratings up-to-date.",
-    "Business plans and AML/CFT policies submitted by applicants or licensees inform ongoing risk assessment.",
-    "Feedback from on-site interviews is used alongside analysis of regular business returns.",
-    "Outreach results help formulate supervisory priority categories and refine risk-based supervisory strategies."
-   ],
-   "notes": [
-    "True: ¶5.4.16 Periodic risk profiling is expressly listed.",
-    "True: ¶5.4.16 Plans and policies are examined as part of the assessment.",
-    "True: ¶5.4.16 Both returns analysis and interview feedback are listed sources.",
-    "True: ¶5.4.16 The report identifies both uses of outreach results."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年風險評估報告，關於保持監管風險評級更新所用資料，下列哪些陳述正確？",
-   "statements": [
-    "定期評估風險狀況，是保持個別金錢服務經營者評級更新的方法之一。",
-    "業務計劃及打擊洗錢及恐怖分子資金籌集政策，是持續評估的資料。",
-    "實地面談收集的意見，與定期業務報表的分析一併用於評估。",
-    "外展工作的結果，有助制訂監督優次類別及改善風險為本監管策略。"
-   ],
-   "notes": [
-    "正確：第5.4.16段，原文列明定期評估風險狀況。",
-    "正確：第5.4.16段，評估方法包括審視申請人或持牌人的業務計劃及政策。",
-    "正確：第5.4.16段，原文同時列出業務報表分析及實地面談意見。",
-    "正確：第5.4.16段，報告明列外展結果可協助制訂優次類別及改善監管策略。"
-   ]
-  }
- },
- {
-  "id": "m7-197",
-  "module": 7,
-  "truth": [
-   true,
-   false,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1,
-    2
-   ],
-   [
-    1,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   [
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 1,
-  "traps": [
-   null,
-   "scope",
-   null,
-   "condition"
-  ],
-  "source": {
-   "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.20",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.20段"
-  },
-  "en": {
-   "q": "According to the 2022 risk assessment report, which statements about off-site monitoring of MSOs are correct?",
-   "statements": [
-    "Off-site monitoring complements on-site inspections for MSOs with different risk profiles.",
-    "Routine off-site check-ups are reserved for MSOs already assessed as high risk.",
-    "Off-site work can collect advance information and provide a preliminary assessment before an on-site visit.",
-    "Selected MSOs must attend interviews at their own premises and provide documents within the specified period."
-   ],
-   "notes": [
-    "True: ¶5.4.20 Off-site work complements rather than replaces on-site inspections.",
-    "False: ¶5.4.20 The report expressly includes routine checks of non-high-risk MSOs.",
-    "True: ¶5.4.20 Off-site monitoring may precede an on-site inspection.",
-    "False: ¶5.4.20 The interview venue is the C&ED office, not the MSO premises."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年風險評估報告，關於金錢服務經營者的非實地監察，下列哪些陳述正確？",
-   "statements": [
-    "非實地監察配合針對不同風險狀況金錢服務經營者的實地視察。",
-    "常規非實地查核的對象，排除了未被評為高風險的金錢服務經營者。",
-    "非實地工作可在實地視察前收集資料，並作初步評估。",
-    "獲選經營者須在自己的業務處所出席面談，並在指定期間提供文件。"
-   ],
-   "notes": [
-    "正確：第5.4.20段，非實地監察是配合實地監察的措施。",
-    "錯誤：第5.4.20段，原文明列非高風險經營者的常規查核，而非僅限高風險。",
-    "正確：第5.4.20段，非實地監察可作為實地視察前的資料收集及初步評估。",
-    "錯誤：第5.4.20段，面談地點是海關辦事處，並非經營者自己的處所。"
-   ]
-  }
- },
- {
-  "id": "m7-198",
-  "module": 7,
-  "truth": [
-   true,
-   false,
-   true,
-   true
-  ],
-  "options": [
-   [
-    1,
-    2,
-    3
-   ],
-   [
-    1,
-    2,
-    4
-   ],
-   [
-    2,
-    3,
-    4
-   ],
-   [
-    1,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 3,
-  "traps": [
-   null,
-   "scope",
-   null,
-   null
-  ],
-  "source": {
-   "en": "Hong Kong Money Laundering and Terrorist Financing Risk Assessment Report (2022) ¶5.4.26",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》（2022年）第5.4.25段"
-  },
-  "en": {
-   "q": "According to the 2022 risk assessment report, which statements about capacity-building partnerships for MSOs are correct?",
-   "statements": [
-    "The reported outreach aimed to improve understanding of emerging trends and address sector shortcomings.",
-    "The reported improvements in suspicious transaction reporting concerned quantity, without any improvement in quality.",
-    "C&ED and InvestHK jointly organised capacity-building webinars for both local and overseas-based MSOs.",
-    "C&ED’s association collaboration exchanged industry practices and communicated new regulatory requirements."
-   ],
-   "notes": [
-    "True: ¶5.4.26 Both emerging trends and existing shortcomings are stated purposes.",
-    "False: ¶5.4.26 The report identifies improvements in both quantity and quality.",
-    "True: ¶5.4.26 The report names InvestHK and both local and overseas-based MSOs.",
-    "True: ¶5.4.26 The collaboration with the MSO association serves both stated purposes."
-   ]
-  },
-  "tc": {
-   "q": "根據2022年風險評估報告，關於提升金錢服務經營者能力的合作，下列哪些陳述正確？",
-   "statements": [
-    "報告指出外展工作旨在加強對新興趨勢的認識，並處理行業不足。",
-    "所述可疑交易報告的改善涉及數量，但不包括報告質量。",
-    "海關與投資推廣署合作，為本地及海外金錢服務經營者舉辦網絡研討會。",
-    "海關與業界協會合作，交換行業作業方式並傳達最新監管規定。"
-   ],
-   "notes": [
-    "正確：第5.4.25段，原文同時列出認識新趨勢及改善不足兩項目的。",
-    "錯誤：第5.4.25段，報告明列數量上升及質量改善。",
-    "正確：第5.4.25段，報告列明合作機構為投資推廣署，對象包括本地及海外經營者。",
-    "正確：第5.4.25段，與香港金錢服務業協會合作兼有交流作業方式及講解最新規定的作用。"
-   ]
-  }
- },
- {
   "id": "m7-199",
   "module": 7,
   "truth": [
@@ -45788,88 +44794,6 @@
     "不正確：第9.2段規定金錢服務經營者有責任為職員提供充分培訓，以執行打擊洗錢／恐怖分子資金籌集制度；第9.5段亦描述新職員、後勤職員、經理級人員及洗錢報告主任的培訓。",
     "不正確：第9.2段規定，除初步培訓外，亦應定期舉辦複修培訓，讓職員掌握最新發展。",
     "不正確：第9.6段規定，金錢服務經營者應能夠向關長證明所有培訓材料是最新的，並符合現行規定及標準。"
-   ]
-  }
- },
- {
-  "id": "m7-221",
-  "module": 7,
-  "truth": [
-   true,
-   false,
-   true,
-   false,
-   true
-  ],
-  "options": [
-   [
-    1,
-    3,
-    4
-   ],
-   [
-    1,
-    3,
-    5
-   ],
-   [
-    1,
-    2,
-    4,
-    5
-   ],
-   [
-    2,
-    3,
-    4,
-    5
-   ],
-   "none"
-  ],
-  "answer": 1,
-  "traps": [
-   null,
-   "actor",
-   null,
-   "number",
-   null
-  ],
-  "source": {
-   "en": "Hong Kong ML/TF Risk Assessment Report 2022 ¶3.30 and ¶3.38–3.39",
-   "tc": "《香港洗錢及恐怖分子資金籌集風險評估報告》2022 第3.30及3.38至3.39段"
-  },
-  "en": {
-   "q": "According to the Hong Kong ML/TF Risk Assessment Report 2022, which of the following are correct about the Joint Financial Intelligence Unit (JFIU) and the suspicious transaction reports it receives?",
-   "statements": [
-    "The JFIU is the dedicated unit of the Hong Kong Police Force and the C&ED together, which receives, analyses and disseminates STRs filed by FIs, DNFBPs and members of the public.",
-    "The JFIU is operated by the Hong Kong Police Force alone; the C&ED is involved only when an STR concerns a customs offence such as smuggling.",
-    "On receipt of each STR, the JFIU conducts intelligence analysis under its risk-assessment mechanism, examining the report's degree of suspicion, severity and level of risk.",
-    "The number of STRs reached its peak in 2019, when 51 588 reports were filed, partly because of an improving compliance culture since the AMLO took effect.",
-    "The Financial Investigations, JFIU and Risk Assessment formations were detached from the Narcotics Bureau to form the FIIB with effect from 1 June 2021."
-   ],
-   "notes": [
-    "Correct: ¶3.38 describes the JFIU as the dedicated unit jointly operated by the HKPF and the C&ED to receive, analyse and disseminate STRs filed by FIs, DNFBPs and members of the public.",
-    "Incorrect: ¶3.38 says the JFIU is jointly operated by the HKPF and the C&ED; the C&ED is a joint operator, not an occasional participant.",
-    "Correct: ¶3.38 says that on receipt of each STR the JFIU examines it and conducts intelligence analysis under its risk-assessment mechanism, looking at its degree of suspicion, severity and level of risk.",
-    "Incorrect: ¶3.39 says the number of STRs peaked in 2017 and then dropped to 51 588 in 2019 after outreach work improved STR quality.",
-    "Correct: ¶3.30 says the three formations were detached from the NB to form a new FIIB with effect from 1 June 2021."
-   ]
-  },
-  "tc": {
-   "q": "根據《香港洗錢及恐怖分子資金籌集風險評估報告》2022，以下有關聯合財富情報組及其接收的可疑交易報告的陳述，哪些正確？",
-   "statements": [
-    "聯合財富情報組由警務處和海關共同組成，專責接收、分析及發布金融機構、指定非金融業人士和市民提交的可疑交易報告。",
-    "聯合財富情報組由警務處單獨運作；海關在可疑交易報告涉及走私等海關職權範圍內的罪行時才會參與其中。",
-    "每當接獲可疑交易報告，聯合財富情報組會按風險評估機制審視報告內容，包括可疑情況、嚴重程度和風險水平，並進行情報分析。",
-    "可疑交易報告的數目在2019年錄得新高，當年共有51 588份，部分原因是打擊洗錢條例實施後合規文化持續改善。",
-    "財富調查、聯合財富情報及風險評估三個單位由2021年6月1日起脫離毒品調查科，成為新的財富情報及調查科。"
-   ],
-   "notes": [
-    "正確：第3.38段說明聯合財富情報組由警務處和海關的人員組成，專責接收、分析及發布金融機構、指定非金融業人士和市民提交的可疑交易報告。",
-    "不正確：第3.38段說明聯合財富情報組由警務處和海關的人員組成；海關是共同組成單位的一方，並非偶然參與。",
-    "正確：第3.38段說明每當接獲可疑交易報告，聯合財富情報組會按風險評估機制審視報告內容，包括可疑情況、嚴重程度和風險水平，並進行情報分析。",
-    "不正確：第3.39段說明可疑交易報告的數目在2017年錄得新高，其後在2019年回落至51 588份。",
-    "正確：第3.30段說明該三個單位由2021年6月1日起脫離毒品調查科，成為新的財富情報及調查科。"
    ]
   }
  },

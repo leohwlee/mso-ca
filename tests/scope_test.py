@@ -29,6 +29,9 @@ class SourceScopeTests(unittest.TestCase):
         self.item['quotes']['en'][0]['doc']='43'
         errors=authoring.problems(self.item)
         self.assertTrue(any('outside the approved' in e for e in errors))
+        self.item['quotes']['en'][0]['doc']='25'
+        errors=authoring.problems(self.item)
+        self.assertTrue(any('outside the approved' in e for e in errors))
 
     def test_language_override_cannot_hide_other_source_mismatch(self):
         self.item['quotes']['tc'][0]['language']='en'
@@ -49,7 +52,7 @@ class ReviewEvidenceTests(unittest.TestCase):
     def test_changed_reviewed_statement_invalidates_review(self):
         item=next(q for q in self.bank if q['id']=='m2-366')
         item['en']['statements'][0]+=' Changed after review.'
-        with self.assertRaisesRegex(AssertionError,'Stale blind review'):
+        with self.assertRaisesRegex(AssertionError,'Unreviewed old question edit'):
             recover(self.bank,self.quotes)
 
     def test_retained_explanation_cannot_change_without_evidence(self):
@@ -66,7 +69,7 @@ class ReviewEvidenceTests(unittest.TestCase):
     def test_changed_followup_statement_invalidates_review(self):
         item=next(q for q in self.bank if q['id']=='m6-497')
         item['tc']['statements'][0]+='（未經覆核）'
-        with self.assertRaisesRegex(AssertionError,'Stale blind review'):
+        with self.assertRaisesRegex(AssertionError,'Unreviewed old question edit'):
             recover(self.bank,self.quotes)
 
     def test_reviewer_doubt_needs_a_recorded_resolution(self):
@@ -86,7 +89,26 @@ class ReviewEvidenceTests(unittest.TestCase):
             old_quotes=json.loads(archive.read('docs/quotes.json'))['m6-480']
         index=next(i for i,q in enumerate(self.bank) if q['id']=='m6-480')
         self.bank[index]=old; self.quotes['m6-480']=old_quotes
-        with self.assertRaisesRegex(AssertionError,'Revision changes nothing'):
+        with self.assertRaisesRegex(AssertionError,'Unreviewed old question edit'):
+            recover(self.bank,self.quotes)
+
+    def test_followup_retirement_is_checked(self):
+        followup=json.loads((ROOT/'bank/audit/active-followups/2026-11-14-retire-report25.json').read_text(encoding='utf8'))
+        self.assertEqual(followup['retired_ids'][0],'m1-206')
+        with zipfile.ZipFile(ROOT/followup['archive']) as archive:
+            old=next(q for q in json.loads(archive.read('web/questions.json')) if q['id']=='m1-206')
+            old_quotes=json.loads(archive.read('docs/quotes.json'))['m1-206']
+        self.bank.append(old)
+        self.quotes['m1-206']=old_quotes
+        with self.assertRaises(AssertionError):
+            recover(self.bank,self.quotes)
+
+    def test_unrecorded_deletion_fails_recover(self):
+        qid=self.bank[0]['id']
+        self.assertNotIn(qid, json.loads((ROOT/'bank/audit/active-followups/2026-11-14-retire-report25.json').read_text(encoding='utf8'))['retired_ids'])
+        self.quotes.pop(qid)
+        self.bank[:]=[q for q in self.bank if q['id']!=qid]
+        with self.assertRaises(AssertionError):
             recover(self.bank,self.quotes)
 
 

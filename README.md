@@ -2,9 +2,9 @@
 
 [繁體中文](README.zh-Hant.md) · [Download the study bundle](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [Release notes](CHANGELOG.md) · [The exam-prep skill](skills/exam-prep/README.md)
 
-**Seven-part study notes and 588 combination questions** for the Hong Kong Money
+**Seven-part study notes and 565 combination questions** for the Hong Kong Money
 Service Operator Competence Assessment. Read and practise offline in Traditional
-Chinese, English or both languages. The selected sources are documents **01–26**
+Chinese, English or both languages. The selected sources are documents **01–24 and 26**
 of the [reading library](docs/README.md); practice offers mock exam and custom practice.
 
 ## Start here
@@ -13,7 +13,7 @@ of the [reading library](docs/README.md); practice offers mock exam and custom p
 2. Extract the whole archive and open `index.html` in a browser. No installation, account or server is needed.
 3. Open the seven-part notes or practice. In practice, choose **EN**, **中文** or **EN+中**, then start a mock exam or select parts.
 
-The bundle contains the seven-part notes, the practice app and the cited 01–26
+The bundle contains the seven-part notes, the practice app and the cited 01–24 and 26
 originals. Keep the folders together so study, practice and source links work
 offline. You do not need to download the repository or install Go.
 
@@ -81,23 +81,23 @@ Results are stored locally in the browser.
 
 | Part | Topic | Questions |
 |---|---|---:|
-| 1 | General AML/CFT and counter-proliferation financing | 68 |
+| 1 | General AML/CFT and counter-proliferation financing | 53 |
 | 2 | AMLO Parts 1–7 | 81 |
 | 3 | AMLO Schedules | 71 |
 | 4 | C&ED guidelines | 89 |
-| 5 | Governance and strategy | 84 |
+| 5 | Governance and strategy | 80 |
 | 6 | AML/CFT control areas | 123 |
-| 7 | Demonstrating and monitoring compliance | 72 |
-| **Total** | | **588** |
+| 7 | Demonstrating and monitoring compliance | 68 |
+| **Total** | | **565** |
 
 The bank includes eight official sample questions. The remaining questions are
 authored practice material, not released past papers. See [release notes](CHANGELOG.md)
 for earlier changes to the bank.
 
-- **01–26:** the only approved sources for active questions. External documents linked by a circular are not automatically included.
-- **27–47:** preserved historical reference, excluded from the active bank.
+- **01–24 and 26:** the only approved sources for active questions. External documents linked by a circular are not automatically included.
+- **25 and 27–47:** preserved historical reference, excluded from the active bank. Number 25 is reserved for the archived 2022 risk assessment report; document 26 is not renumbered.
 - **Document 24:** English original only; related Chinese questions are labelled **study translations** and retain English deciding quotations.
-- **Document 25:** findings are explicitly attributed to the **2022** risk report, not presented as a live risk assessment.
+- **Document 25:** removed from personal practice reading and from the active question scope on 14 November 2026, because it did not appear in the exam the owner sat. This is a study selection, not a finding that the official exam cannot use the report.
 
 [Source-by-source accounting](docs/QUESTION-SOURCES.md) · [Current review evidence](bank/audit/ACTIVE-SCOPE.md)
 
@@ -132,8 +132,8 @@ makes it different, the full test results and the cost. The download is
 
 ## Documentation and maintenance
 
-- **Seven-part study notes:** Included in the study bundle from v1.10.0. [Source and reading pages](revision/study-notes/index.html) contain concepts, definitions, conditions and exceptions from originals 01–26, with actual filename citations. The bank is used only to check omissions. See [scope and maintenance](revision/study-notes/README.md).
-- **Study:** [User guide](docs/USAGE.md) and [26-document reading order](docs/README.md).
+- **Seven-part study notes:** Included in the study bundle from v1.10.0. [Source and reading pages](revision/study-notes/index.html) contain concepts, definitions, conditions and exceptions from originals 01–24 and 26, with actual filename citations. The bank is used only to check omissions. See [scope and maintenance](revision/study-notes/README.md).
+- **Study:** [User guide](docs/USAGE.md) and [25-document reading order](docs/README.md).
 - **Build and check:** [Development guide](DEVELOPMENT.md).
 - **Write or review questions:** [Question format](bank/FORMAT.md), [source maintenance](docs/SOURCE-MAINTENANCE.md) and [agent-neutral authoring workflow](docs/authoring/exam-prep/GUIDE.md).
 - **Make study material from other documents:** the [exam-prep skill](skills/exam-prep/README.md), described [above](#make-your-own-the-exam-prep-skill). This bank's own rules stay in the question format and authoring workflow.

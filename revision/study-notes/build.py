@@ -21,6 +21,9 @@ from amounts import GROUPS as AMOUNT_GROUPS
 PANELS=apply_visuals(PANELS,PARTS)
 CATALOG=json.loads((ROOT/'docs/catalog.json').read_text(encoding='utf-8'))
 DOCS={d['id']:d for d in CATALOG['documents']}
+def question_scope():
+    return list(CATALOG['question_bank_scope']['documents'])
+
 CALLS_TEXT=(ROOT/'revision/CONFLICT-CALLS.md').read_text(encoding='utf-8')
 def conflict_rows():
     rows={}
@@ -109,12 +112,12 @@ def validate():
                 assert b['points'] and b['refs'],(n,s['id'])
                 for point in b['points']:assert point['tc'].strip() and point['en'].strip()
                 for r in b['refs']:
-                    doc=r['doc'];assert '01'<=doc<='26',doc;used.add(doc)
+                    doc=r['doc'];assert doc in question_scope(),doc;used.add(doc)
                     assert normal(r['anchor']) in source_text(doc),(n,s['id'],r)
                     for lang in ('TC','EN'):
                         ed=edition(doc,lang);assert (ROOT/'docs'/ed['path']).is_file(),ed
         assert len(ids)==len(set(ids)),n
-    assert used=={f'{n:02d}' for n in range(1,27)},sorted(used)
+    assert used==set(question_scope()),sorted(used)
     panel_ids=[]
     def check_pairs(value):
         if isinstance(value,dict):
@@ -142,7 +145,7 @@ def validate():
                 for row in panel.get('paths',[]):
                     assert len(row['nodes'])==len(row['edges'])+1,panel['id']
                 for r in panel['refs']:
-                    assert '01'<=r['doc']<='26'
+                    assert r['doc'] in question_scope()
                     assert normal(r['anchor']) in source_text(r['doc'])
     assert len(panel_ids)==len(set(panel_ids)),panel_ids
     # Every numbers-page row points at a real section and cites an anchored passage.
@@ -151,7 +154,7 @@ def validate():
         for row in group['rows']:
             assert any(s['id']==row['section'] for s in PARTS[row['part']]['sections']),(group['id'],row['value']['en'])
             for r in row['refs']:
-                assert '01'<=r['doc']<='26' and normal(r['anchor']) in source_text(r['doc']),(row['value']['en'],r)
+                assert r['doc'] in question_scope() and normal(r['anchor']) in source_text(r['doc']),(row['value']['en'],r)
     # Every block has one study tier; a title that already names a tier must agree.
     for n,part in PARTS.items():
         assert set(TIERS[n])=={s['id'] for s in part['sections']},n
@@ -335,10 +338,10 @@ for _n in PARTS:
     for _rid in ruling_places(_n):RULING_PARTS.setdefault(_rid,[]).append(_n)
 
 def record_text(text):
-    """Quote a CONFLICT-CALLS cell as recorded; link the cited 01–26 originals."""
+    """Quote a CONFLICT-CALLS cell as recorded; link the cited originals in the current question-bank scope."""
     def link(match):
         doc,chinese=match.group(1),bool(match.group(2))
-        if not '01'<=doc<='26':return match.group(0)
+        if doc not in question_scope():return match.group(0)
         return '('+original(edition(doc,'TC' if chinese else 'EN'),doc)+')'+(match.group(2) or '')
     out=re.sub(r'\((\d{2})\)( \(Chinese\))?',link,e(text.strip().lstrip('•').strip(),quote=False))
     return re.sub(r'\*([^*]+)\*',r'<em>\1</em>',out)
@@ -458,7 +461,7 @@ class Inspector(HTMLParser):
         if tag=='a':self.links.append(attrs.get('href',''))
 
 def manifest():
-    parts=[];documents={f'{n:02d}':[] for n in range(1,27)}
+    parts=[];documents={doc:[] for doc in question_scope()}
     for n,p in PARTS.items():
         entries=[]
         for s in p['sections']:
@@ -472,7 +475,7 @@ def manifest():
     exam_focus=dict(traps=sum(len(v) for sections in TRAPS.values() for v in sections.values()),tiers={k:''.join(t for sections in TIERS.values() for t in sections.values()).count(k) for k in TIER_LABELS},sources={name:hashlib.sha256((HERE/name).read_bytes()).hexdigest() for name in ('traps.py','tiers.py')})
     exam_focus['ruling_marks']=dict(marks={str(n):sum(len(v) for v in RULING_MARKS.get(n,{}).values()) for n in PARTS},checks=sum(bool(mark['check']) for mark in [*RULED_POINTS.values(),*RULED_PANELS.values()]),rulings=sorted(RULING_PARTS,key=ruling_order),sha256=hashlib.sha256((HERE/'rulings.py').read_bytes()).hexdigest())
     amounts=dict(sha256=hashlib.sha256((HERE/'amounts.py').read_bytes()).hexdigest(),groups=len(AMOUNT_GROUPS),rows=sum(len(g['rows']) for g in AMOUNT_GROUPS))
-    return dict(scope='Repository originals 01–26; source-authored seven-part revision notes',method='Original passages -> concepts, definitions, requirements, conditions and exceptions. Source-bound recall comparisons supplement full visible prose. The bank is used only by the separate gap audit.',limitations='Anchors prove source location, not semantic completeness. See depth-review-2026-10-20/REPORT.md and its per-source inventories for the current depth review, bilingual meaning checks, source-selected statutory coverage, reference-detail decisions and unresolved verification boundaries. This is not a line-by-line bilingual audit of every full volume or a guarantee about unknown official questions. Official source categories extend beyond the owner-selected 01–26. Historical reviews remain preserved, not proof of this review. Dated findings/lists retain their publication date.',manuscripts={f'part{n}.py':hashlib.sha256((HERE/f'part{n}.py').read_bytes()).hexdigest() for n in PARTS},recall=recall,exam_focus=exam_focus,amounts=amounts,source_text_sha256={doc:{lang:hashlib.sha256((ROOT/f'docs/text/{lang}/{doc}.txt').read_bytes()).hexdigest() for lang in (('EN',) if doc=='24' else ('TC','EN'))} for doc in documents},documents=documents,parts=parts)
+    return dict(scope='Repository originals 01–24 and 26; source-authored seven-part revision notes',method='Original passages -> concepts, definitions, requirements, conditions and exceptions. Source-bound recall comparisons supplement full visible prose. The bank is used only by the separate gap audit.',limitations='Anchors prove source location, not semantic completeness. See depth-review-2026-10-20/REPORT.md and its per-source inventories for the current depth review, bilingual meaning checks, source-selected statutory coverage, reference-detail decisions and unresolved verification boundaries. This is not a line-by-line bilingual audit of every full volume or a guarantee about unknown official questions. Official source categories extend beyond the owner-selected 01–24 and 26. Historical reviews remain preserved, not proof of this review. Dated findings/lists retain their publication date.',manuscripts={f'part{n}.py':hashlib.sha256((HERE/f'part{n}.py').read_bytes()).hexdigest() for n in PARTS},recall=recall,exam_focus=exam_focus,amounts=amounts,source_text_sha256={doc:{lang:hashlib.sha256((ROOT/f'docs/text/{lang}/{doc}.txt').read_bytes()).hexdigest() for lang in (('EN',) if doc=='24' else ('TC','EN'))} for doc in documents},documents=documents,parts=parts)
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');args=ap.parse_args();validate()

@@ -27,6 +27,12 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import combo  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+
+
+def question_scope():
+    """Documents allowed in new and retained active quotes (catalog question_bank_scope)."""
+    catalog = json.loads((ROOT / "docs/catalog.json").read_text(encoding="utf8"))
+    return set(catalog["question_bank_scope"]["documents"])
 TRAPS = {"offlist", "added", "scope", "reversed", "qualifier", "number", "period", "actor", "modal", "name", "condition"}
 SIMPLIFIED = "则说这为与应须时实际关条项过发会经务业资产权报单录证据审处规员责负济称纳统计认识义还进对当现并问题获确护险币汇银营类罚级构讯检视让论设读转选阶历场断备节约"
 POSITIONAL = re.compile(r"(?i)\bstatements?\s*\(?\d|\b(?:first|second|third|fourth|fifth|sixth|last|other)\s+statements?\b"
@@ -209,8 +215,8 @@ def problems(item):
             continue
         for i, q in enumerate(qs):
             doc, text = q.get("doc", ""), q.get("text", "")
-            if doc not in {f"{n:02d}" for n in range(1, 27)}:
-                out.append(f"quotes.{lang}[{i}]: document {doc!r} is outside the approved 01–26 scope")
+            if doc not in question_scope():
+                out.append(f"quotes.{lang}[{i}]: document {doc!r} is outside the approved 01–24 and 26 scope")
             quote_lang = q.get("language", lang)
             translated = lang == "tc" and doc == "24" and quote_lang == "en"
             if quote_lang != lang and not translated:

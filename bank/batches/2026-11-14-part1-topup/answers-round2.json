@@ -1,0 +1,73 @@
+[
+ {
+  "id": "m1-226",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T",
+   "F"
+  ],
+  "quotes": [
+   "Cap. 629 s.17(2): “Subject to sections 18 and 19, an authorized officer may detain the CBNIs for a period of not more than 10 working days after the day of seizure.” Those CBNIs are the items seized under s.17(1) if the officer reasonably suspects them to be crime proceeds (s.17(1)(a)) or terrorist property (s.17(1)(b)). TC s.17(2): 「除第18及19條另有規定外，獲授權人員可扣留有關現金類物品，惟扣留期間不得超過檢取日期後的10個工作日。」",
+   "Cap. 629 s.17(4): “working day means a day that is not—(a) a general holiday or a Saturday; or (b) a black rainstorm warning day or gale warning day as defined by section 71(2) of the Interpretation and General Clauses Ordinance (Cap. 1).” TC: 「工作日指並非以下日子的日子——(a) 公眾假期或星期六；或 (b) 《釋義及通則條例》(第1章)第71(2)條所界定的黑色暴雨警告日或烈風警告日。」",
+   "Cap. 629 s.18(3): “An order made under subsection (2) may authorize the continued detention of the CBNIs for a period specified in the order. The period must not exceed 3 months beginning on the date of the order.” TC: 「根據第(2)款作出的命令，可授權在該命令指明的期間內，繼續扣留有關現金類物品，而該期間不得超過自該命令的日期起計的3個月。」 The statement says 6 months.",
+   "Cap. 629 s.18(5): “A new order must not—(a) specify a period exceeding 3 months beginning on the date of the order; and (b) result in the total period of the detention of the CBNIs exceeding 2 years beginning on the date of the order made under subsection (2).” TC s.18(5)(b): 「不得致使有關現金類物品的總扣留期間，超過自根據第(2)款作出的命令的日期起計的2年。」",
+   "Cap. 629 s.18(1): “An authorized officer may, within the period mentioned in section 17(2), apply to the Court for an order to authorize the continued detention of CBNIs the officer reasonably suspects to be property mentioned in section 17(1)(a).” s.18(7): “Court means the Court of First Instance or the District Court.” TC: 「向法院申請命令」; 「法院指原訟法庭或區域法院」. The statement says a magistrate / 裁判官."
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-235",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "Circular MSSB/FATF_02/2026 item (2): “In addition, the FATF has issued an updated statement on Jurisdictions under Increased Monitoring … which can be found at: [FATF website URL].” Item (1) is the statement on High-Risk Jurisdictions subject to a Call for Action. TC item (2): 「此外，特別組織發布了一份有關被加強監察的司法管轄區的最新聲明，該聲明可於其網站（只備有英文版）取覽」。",
+   "Circular MSSB/FATF_02/2026 item (2): “The statement sets out the list of jurisdictions that have committed to resolve swiftly strategic deficiencies in their regime to counter money laundering, terrorist financing, and proliferation financing within agreed timeframes and are subject to increased monitoring. The FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies.” TC: 「特別組織將會密切監察這些司法管轄區在處理已識別的策略性缺失方面的進展」。",
+   "Circular MSSB/FATF_02/2026 item (2) describes those jurisdictions as subject to increased monitoring after committing to resolve strategic deficiencies; it does not call for countermeasures. The FATF call to apply countermeasures is in item (1)(i) (DPRK and Iran), a different list. TC item (1)(i) heading: 「需遵從特別組織要求而採取針對措施的司法管轄區」.",
+   "Circular MSSB/FATF_02/2026 item (2): “Money service operators (‘MSOs’) are reminded that two new jurisdictions were added into the list, namely Bosnia and Herzegovina and Iraq.” Myanmar is dealt with in item (1)(ii) (enhanced due diligence; countermeasures only to be considered if no further progress by October 2026), not as the sole jurisdiction under increased monitoring. TC: 「最新名單加入了兩個司法管轄區，即波斯尼亞和黑塞哥維那及伊拉克。」"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ }
+]

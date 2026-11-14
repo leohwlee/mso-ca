@@ -1,8 +1,8 @@
 # Archived revision pack / 已歸檔的舊溫習資料
 
-Current release: [v1.10.2](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.2). Use `mso-study-bundle.zip` for the updated seven-part notes, practice and originals 01–26.
+Current release: [v1.10.2](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.2). Use `mso-study-bundle.zip` for the updated seven-part notes, practice and originals 01–24 and 26.
 
-現行版本：[v1.10.2](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.2)。下載完整學習包，可離線閱讀更新後的七部分筆記、練習及01–26原件。
+現行版本：[v1.10.2](https://github.com/leohwlee/mso-ca/releases/tag/v1.10.2)。下載完整學習包，可離線閱讀更新後的七部分筆記、練習及01–24及26原件。
 
 The new [seven-part study material](study-notes/index.html) uses the B annotated
 reference design, with source-authored bilingual concepts, definitions,
@@ -14,7 +14,7 @@ The earlier [Part 6 sample URL](part6-sample/index.html) is retained as a histor
 要求、條件及例外，保留雙語及實際檔名引用，題庫只作查漏；見[範圍及維護說明](study-notes/README.md)。
 原第6部分樣章另作歷史樣本保留。以下是舊版歸檔說明。
 
-The exam app now has two modes and uses documents 01–26. The separate older
+The exam app now has two modes and uses documents 01–24 and 26. The separate older
 revision pack is no longer built or attached to new releases.
 Its generator, page sources and review tools are preserved byte-for-byte in
 [the cleanup archive](../bank/audit/history/2026-10-18-before-repository-cleanup.zip).

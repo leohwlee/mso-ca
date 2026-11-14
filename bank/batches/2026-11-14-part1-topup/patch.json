@@ -1,0 +1,832 @@
+[
+  {
+    "id": "m1-226",
+    "module": 1,
+    "truth": [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      "period",
+      null,
+      "actor"
+    ],
+    "source": {
+      "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629, ss.17–18",
+      "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》（第629章）第17至18條"
+    },
+    "en": {
+      "q": "Regarding the seizure and detention of cash-type items (CBNIs) under the Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, which of the following are correct?",
+      "statements": [
+        "Subject to sections 18 and 19, CBNIs seized under section 17 on suspicion that they are crime proceeds or terrorist property may be detained for not more than 10 working days after the day of seizure.",
+        "For that purpose a working day under section 17(4) is a day that is not a general holiday or a Saturday, and not a black rainstorm warning day or a gale warning day as defined by section 71(2) of Cap. 1.",
+        "An order made under section 18(2) authorising continued detention of CBNIs suspected to be crime proceeds may specify a period of up to 6 months beginning on the date of the order.",
+        "Under section 18(5), a new order extending detention of CBNIs suspected to be crime proceeds must not take the total period beyond 2 years beginning on the date of the order made under section 18(2).",
+        "Within the period mentioned in section 17(2), the authorized officer may apply to a magistrate for the order authorising continued detention of CBNIs suspected to be crime proceeds."
+      ],
+      "notes": [
+        "Correct: section 17(2) provides that, subject to sections 18 and 19, an authorized officer may detain such CBNIs for a period of not more than 10 working days after the day of seizure. Sections 18 and 19 then deal with continued detention.",
+        "Correct: s.17(4) defines a working day as a day that is not a general holiday or a Saturday, or a black rainstorm warning day or gale warning day.",
+        "Incorrect: even for CBNIs reasonably suspected to be property mentioned in s.17(1)(a), s.18(3) says the period specified in the order must not exceed 3 months beginning on the date of the order; 6 months is not the limit.",
+        "Correct: s.18 applies to CBNIs the officer reasonably suspects to be property mentioned in s.17(1)(a). A new order must not result in the total period of detention exceeding 2 years beginning on the date of the order made under s.18(2).",
+        "Incorrect: s.18(1) has the authorized officer apply to the Court, not a magistrate, for an order authorising continued detention of CBNIs reasonably suspected to be property mentioned in s.17(1)(a)."
+      ]
+    },
+    "tc": {
+      "q": "關於《實體貨幣及不記名可轉讓票據跨境流動條例》下檢取及扣留現金類物品的規定，下列哪些陳述正確？",
+      "statements": [
+        "除第18及19條另有規定外，根據第17條因懷疑屬犯罪得益或恐怖分子財產而檢取的現金類物品，可予扣留，惟扣留期間不得超過檢取日期後的10個工作日。",
+        "就此而言，第17(4)條所指的「工作日」指並非公眾假期或星期六，亦非《釋義及通則條例》（第1章）第71(2)條所界定的黑色暴雨警告日或烈風警告日的任何一個日子。",
+        "根據第18(2)條作出的、授權繼續扣留懷疑屬犯罪得益的現金類物品的命令，所指明期間不得超過自該命令日期起計的6個月。",
+        "根據第18(5)條，延長扣留懷疑屬犯罪得益的現金類物品的新命令，不得使總扣留期間超過自根據第18(2)條作出的命令的日期起計的2年。",
+        "獲授權人員可在第17(2)條所述的最初扣留期間內，向裁判官申請命令，以授權繼續扣留該人員合理地懷疑屬犯罪得益的現金類物品。"
+      ],
+      "notes": [
+        "正確：第17(2)條訂明，除第18及19條另有規定外，獲授權人員可扣留該等現金類物品，惟扣留期間不得超過檢取日期後的10個工作日。第18及19條其後處理繼續扣留。",
+        "正確：第17(4)條界定工作日為並非公眾假期或星期六，亦非黑色暴雨警告日或烈風警告日的日子。",
+        "不正確：即使是合理地懷疑屬第17(1)(a)條所述財產的現金類物品，第18(3)條亦訂明命令指明的期間不得超過自該命令的日期起計的3個月，並非6個月。",
+        "正確：第18條適用於該人員合理地懷疑屬第17(1)(a)條所述財產的現金類物品。新命令不得致使總扣留期間超過自根據第18(2)條作出的命令的日期起計的2年。",
+        "不正確：第18(1)條訂明，獲授權人員須向法院而非裁判官，申請授權繼續扣留合理地懷疑屬第17(1)(a)條所述財產的現金類物品的命令。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "23",
+          "text": "Subject to sections 18 and 19, an authorized officer may detain the CBNIs for a period of not more than 10 working days after the day of seizure"
+        },
+        {
+          "doc": "23",
+          "text": "working day (工作日) means a day that is not— (a) a general holiday or a Saturday; or (b) a black rainstorm warning day or gale warning day as defined by section 71(2) of the Interpretation and General Clauses Ordinance (Cap. 1)"
+        },
+        {
+          "doc": "23",
+          "text": "The period must not exceed 3 months beginning on the date of the order"
+        },
+        {
+          "doc": "23",
+          "text": "result in the total period of the detention of the CBNIs exceeding 2 years beginning on the date of the order made under subsection (2)"
+        },
+        {
+          "doc": "23",
+          "text": "apply to the Court for an order to authorize the continued detention of CBNIs the officer reasonably suspects to be property mentioned in section 17(1)(a)"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "23",
+          "text": "除第18及19條另有規定外，獲授權人員可扣留有關現金類物品，惟扣留期間不得超過檢取日期後的10個工作日"
+        },
+        {
+          "doc": "23",
+          "text": "工作日 (working day) 指並非以下日子的日子 —— (a) 公眾假期或星期六；或 (b) 《釋義及通則條例》( 第1 章) 第71(2) 條所界定的黑色暴雨警告日或烈風警告日"
+        },
+        {
+          "doc": "23",
+          "text": "該期間不得超過自該命令的日期起計的3 個月"
+        },
+        {
+          "doc": "23",
+          "text": "不得致使有關現金類物品的總扣留期間，超過自根據第(2) 款作出的命令的日期起計的2 年"
+        },
+        {
+          "doc": "23",
+          "text": "向法院申請命令，以授權將該人員合理地懷疑屬第17(1)(a) 條所述的財"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m1-229",
+    "module": 1,
+    "truth": [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    "traps": [
+      null,
+      "scope",
+      null,
+      "actor",
+      null
+    ],
+    "source": {
+      "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629, ss.17(1) and 18(1), (3) and (7)",
+      "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》（第629章）第17(1)及18(1)、(3)及(7)條"
+    },
+    "en": {
+      "q": "Regarding a court order for the continued detention of seized cash-type items (CBNIs) under the Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, which of the following are correct?",
+      "statements": [
+        "An authorized officer may, within the period mentioned in section 17(2), apply to the Court for an order to authorize the continued detention of CBNIs the officer reasonably suspects to be property mentioned in section 17(1)(a).",
+        "An authorized officer may, within the period mentioned in section 17(2), apply to the Court for an order to authorize the continued detention of CBNIs the officer reasonably suspects only to be terrorist property under section 17(1)(b).",
+        "For the purposes of section 18, Court means the Court of First Instance or the District Court, being the courts named in that section to hear an application for continued detention.",
+        "An application under section 18 for continued detention of the CBNIs is made to a magistrate or to the Court of Appeal, which that section treats as the Court for this purpose.",
+        "An order made under section 18(2) may authorize continued detention of the CBNIs for a period specified in the order, and that period must not exceed 3 months beginning on the date of the order."
+      ],
+      "notes": [
+        "Correct: s.18(1) lets an authorized officer, within the period mentioned in s.17(2), apply to the Court for an order authorizing the continued detention of CBNIs the officer reasonably suspects to be property mentioned in s.17(1)(a), that is, property representing proceeds of an OSCO s.25(1) indictable offence.",
+        "Incorrect: s.18(1) is confined to CBNIs reasonably suspected to be property mentioned in s.17(1)(a). Section 17(1)(b) terrorist property can be seized and detained for up to 10 working days under s.17, but the s.18 continued-detention order does not extend to it.",
+        "Correct: s.18(7) defines Court, for that section, as the Court of First Instance or the District Court.",
+        "Incorrect: s.18(7) defines Court as the Court of First Instance or the District Court. A magistrate and the Court of Appeal are not the courts named for a s.18 application.",
+        "Correct: s.18(3) says an order made under s.18(2) may authorize continued detention for a period specified in the order, and the period must not exceed 3 months beginning on the date of the order."
+      ]
+    },
+    "tc": {
+      "q": "關於《實體貨幣及不記名可轉讓票據跨境流動條例》下，就已檢取的現金類物品向法院申請繼續扣留命令，下列哪些陳述正確？",
+      "statements": [
+        "獲授權人員可在第17(2)條所述的期間內，向法院申請命令，以授權繼續扣留該人員合理地懷疑屬第17(1)(a)條所述財產的現金類物品。",
+        "獲授權人員可在第17(2)條所述的期間內，向法院申請命令，以授權繼續扣留該人員合理地懷疑只屬第17(1)(b)條所述恐怖分子財產的現金類物品。",
+        "就第18條而言，「法院」指原訟法庭或區域法院，亦即該條所指明、有權審理繼續扣留現金類物品申請的該等法院。",
+        "根據第18條提出的繼續扣留現金類物品申請，是向裁判官或上訴法庭提出的，而該條把該等司法機構定為本條所指的法院。",
+        "根據第18(2)條作出的命令，可授權在命令指明的期間內繼續扣留有關現金類物品，而該期間不得超過自該命令的日期起計的3個月。"
+      ],
+      "notes": [
+        "正確：第18(1)條訂明，獲授權人員可在第17(2)條所述的期間內，向法院申請命令，以授權繼續扣留該人員合理地懷疑屬第17(1)(a)條所述財產的現金類物品，即代表《有組織及嚴重罪行條例》第25(1)條所述可公訴罪行得益的財產。",
+        "不正確：第18(1)條只涵蓋合理地懷疑屬第17(1)(a)條所述財產的現金類物品。第17(1)(b)條所述的恐怖分子財產可根據第17條檢取並扣留不多於10個工作日，但第18條的繼續扣留命令並不適用於該類物品。",
+        "正確：第18(7)條界定，就該條而言，「法院」指原訟法庭或區域法院。",
+        "不正確：第18(7)條所指的法院是原訟法庭或區域法院，並非裁判官或上訴法庭。",
+        "正確：第18(3)條訂明，根據第18(2)條作出的命令可授權在命令指明的期間內繼續扣留，而該期間不得超過自該命令的日期起計的3個月。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "23",
+          "text": "apply to the Court for an order to authorize the continued detention of CBNIs the officer reasonably suspects to be property mentioned in section 17(1)(a)"
+        },
+        {
+          "doc": "23",
+          "text": "apply to the Court for an order to authorize the continued detention of CBNIs the officer reasonably suspects to be property mentioned in section 17(1)(a)"
+        },
+        {
+          "doc": "23",
+          "text": "Court (法院) means the Court of First Instance or the District Court"
+        },
+        {
+          "doc": "23",
+          "text": "Court (法院) means the Court of First Instance or the District Court"
+        },
+        {
+          "doc": "23",
+          "text": "The period must not exceed 3 months beginning on the date of the order"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "23",
+          "text": "向法院申請命令，以授權將該人員合理地懷疑屬第17(1)(a) 條所述的財"
+        },
+        {
+          "doc": "23",
+          "text": "向法院申請命令，以授權將該人員合理地懷疑屬第17(1)(a) 條所述的財"
+        },
+        {
+          "doc": "23",
+          "text": "法院 (Court) 指原訟法庭或區域法院"
+        },
+        {
+          "doc": "23",
+          "text": "法院 (Court) 指原訟法庭或區域法院"
+        },
+        {
+          "doc": "23",
+          "text": "該期間不得超過自該命令的日期起計的3 個月"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m1-230",
+    "module": 1,
+    "truth": [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      "period",
+      null,
+      "scope"
+    ],
+    "source": {
+      "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629, s.18(4)–(7)",
+      "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》（第629章）第18(4)至(7)條"
+    },
+    "en": {
+      "q": "Regarding a new court order that extends the continued detention of cash-type items (CBNIs) suspected to be crime proceeds, and the return of those items, which of the following are correct?",
+      "statements": [
+        "Under section 18(5)(a), a new order made on an authorized officer's application must not specify a period exceeding 3 months beginning on the date of that new order.",
+        "Under section 18(5)(b), a new order must not result in the total period of detention of the CBNIs exceeding 2 years beginning on the date of the order made under section 18(2).",
+        "A new order made under section 18(4) may result in the total period of detention of the CBNIs reaching 5 years beginning on the date of the order made under section 18(2).",
+        "The Court may direct a return to an interested person if satisfied on that person's application that the conditions do not or no longer exist, or on an authorized officer's application that detention is no longer justified.",
+        "An interested person in relation to any CBNI means only the person from whom it was seized, and does not include a person by whom or on whose behalf it was imported or exported, or a person who otherwise has an interest in it."
+      ],
+      "notes": [
+        "Correct: s.18(5)(a) says a new order must not specify a period exceeding 3 months beginning on the date of the order. A new order is made on an authorized officer's application under s.18(4).",
+        "Correct: s.18(5)(b) says a new order must not result in the total period of detention exceeding 2 years beginning on the date of the order made under s.18(2).",
+        "Incorrect: the cap in s.18(5)(b) is 2 years beginning on the date of the order made under s.18(2), not 5 years.",
+        "Correct: s.18(6) lets the Court direct a return to an interested person if satisfied on that person's application that the conditions for detention do not, or no longer, exist, or on an authorized officer's application that detention is no longer justified.",
+        "Incorrect: s.18(7) defines an interested person as the person from whom the CBNI was seized, a person by whom or on whose behalf it was imported or exported, or a person who otherwise has an interest in it. Confining the term to the person from whom it was seized narrows the definition."
+      ]
+    },
+    "tc": {
+      "q": "關於延長繼續扣留懷疑屬犯罪得益的現金類物品的新命令，以及發還該等物品，下列哪些陳述正確？",
+      "statements": [
+        "根據第18(5)(a)條，應獲授權人員申請作出的新命令，指明的期間不得超過自該新命令的日期起計的3個月。",
+        "新命令不得致使有關現金類物品的總扣留期間，超過自根據第18(2)條作出的命令的日期起計的2年。",
+        "新命令可致使有關現金類物品的總扣留期間，達到自根據第18(2)條作出的命令的日期起計的5年。",
+        "法院可在關係人申請並信納扣留情況不存在或不再存在時，或在獲授權人員申請並信納再無理據扣留時，指示將物品發還予關係人。",
+        "就現金類物品而言，「關係人」只指該物品是從其處檢取的人，並不包括輸入或輸出該物品的人，亦不包括在其他方面對該物品有權益的人。"
+      ],
+      "notes": [
+        "正確：第18(5)(a)條訂明，新命令指明的期間不得超過自該命令的日期起計的3個月。新命令是應獲授權人員根據第18(4)條提出的申請而作出的。",
+        "正確：第18(5)(b)條訂明，新命令不得致使總扣留期間超過自根據第18(2)條作出的命令的日期起計的2年。",
+        "不正確：第18(5)(b)條的上限是自根據第18(2)條作出的命令的日期起計的2年，並非5年。",
+        "正確：第18(6)條訂明，法院可應該等物品的關係人的申請而信納扣留情況不存在或不再存在，或應獲授權人員的申請而信納再無理據扣留，然後指示將物品發還予關係人。",
+        "不正確：第18(7)條界定關係人包括該物品是從其處檢取的人、輸入或輸出該物品的人或由他人代為輸入或輸出的人，以及在其他方面對該物品有權益的人，並非只限於被檢取的人。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "23",
+          "text": "specify a period exceeding 3 months beginning on the date of the order"
+        },
+        {
+          "doc": "23",
+          "text": "result in the total period of the detention of the CBNIs exceeding 2 years beginning on the date of the order made under subsection (2)"
+        },
+        {
+          "doc": "23",
+          "text": "result in the total period of the detention of the CBNIs exceeding 2 years beginning on the date of the order made under subsection (2)"
+        },
+        {
+          "doc": "23",
+          "text": "the Court may direct their return to an interested person in relation to the CBNIs"
+        },
+        {
+          "doc": "23",
+          "text": "interested person (關係人), in relation to any CBNI, means— (a) the person from whom it was seized; (b) a person by whom or on whose behalf it was imported or exported; or (c) a person who otherwise has an interest in it"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "23",
+          "text": "指明的期間，不得超過自該命令的日期起計的3 個月"
+        },
+        {
+          "doc": "23",
+          "text": "不得致使有關現金類物品的總扣留期間，超過自根據第(2) 款作出的命令的日期起計的2 年"
+        },
+        {
+          "doc": "23",
+          "text": "不得致使有關現金類物品的總扣留期間，超過自根據第(2) 款作出的命令的日期起計的2 年"
+        },
+        {
+          "doc": "23",
+          "text": "法院可指示將該等物品，發還予該等物品的關係人"
+        },
+        {
+          "doc": "23",
+          "text": "關係人 (interested person) 就現金類物品而言，指 —— (a) 如該物品是從某人處檢取的—— 該人；(b) 輸入或輸出該物品的人，或由他人代為輸入或輸出該物品的人；或 (c) 在其他方面對該物品有權益的人。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m1-231",
+    "module": 1,
+    "truth": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      null,
+      "period",
+      "scope"
+    ],
+    "source": {
+      "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629, s.19",
+      "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》（第629章）第19條"
+    },
+    "en": {
+      "q": "Regarding further detention of cash-type items (CBNIs) after proceedings have been instituted, which of the following are correct under the Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance?",
+      "statements": [
+        "If, while CBNIs are being detained under section 17(2) or an order made under section 18, specified proceedings are instituted, the CBNIs may be detained until those proceedings have been concluded.",
+        "The specified proceedings include proceedings instituted, whether in Hong Kong or elsewhere, against a person for an offence with which the CBNIs are connected.",
+        "The specified proceedings also include proceedings instituted, whether in Hong Kong or elsewhere, which may result in the forfeiture or confiscation of the CBNIs.",
+        "If those specified proceedings are instituted, the CBNIs may be detained for not more than 10 further working days after the day the proceedings are instituted, and must then be returned.",
+        "Only proceedings instituted in Hong Kong can support this further detention under section 19; proceedings instituted elsewhere do not count for that purpose."
+      ],
+      "notes": [
+        "Correct: s.19 says that if, at any time while CBNIs are being detained under s.17(2) or an order made under s.18, any of the listed proceedings are instituted, the CBNIs may be detained until the proceedings have been concluded.",
+        "Correct: s.19(a) covers proceedings instituted, whether in Hong Kong or elsewhere, against a person for an offence with which the CBNIs are connected.",
+        "Correct: s.19(b) covers proceedings instituted, whether in Hong Kong or elsewhere, which may result in the forfeiture or confiscation of the CBNIs.",
+        "Incorrect: once those proceedings are instituted, s.19 allows detention until the proceedings have been concluded, not a further limit of 10 working days.",
+        "Incorrect: both s.19(a) and (b) expressly include proceedings instituted in Hong Kong or elsewhere. Confining the rule to Hong Kong proceedings narrows the provision."
+      ]
+    },
+    "tc": {
+      "q": "關於在已提起法律程序後繼續扣留現金類物品，《實體貨幣及不記名可轉讓票據跨境流動條例》有以下哪些正確陳述？",
+      "statements": [
+        "如現金類物品根據第17(2)條或第18條命令被扣留，而在扣留期間有指明法律程序提起，則在該程序結束前該等物品可予繼續扣留。",
+        "該等指明的法律程序包括就與該等現金類物品相關的罪行，針對某人提起的法律程序，不論該程序是在香港或其他地方提起。",
+        "該等指明的法律程序亦包括可導致該等現金類物品被沒收或充公的法律程序，不論該程序是在香港或其他地方提起。",
+        "如該等指明的法律程序已提起，該等現金類物品只可再扣留不多於該程序提起當日後的10個工作日，其後必須發還。",
+        "只有在香港提起的法律程序才可支持這項第19條的進一步扣留；在香港以外地方提起的法律程序並不算在內。"
+      ],
+      "notes": [
+        "正確：第19條訂明，如現金類物品根據第17(2)條或按第18條命令被扣留，而在扣留期間有所列法律程序提起，則在該程序結束前，該等物品可予繼續扣留。",
+        "正確：第19(a)條涵蓋就與該等物品相關的罪行針對某人提起的法律程序，不論該程序是在香港或其他地方提起。",
+        "正確：第19(b)條涵蓋可導致該等物品被沒收或充公的法律程序，不論該程序是在香港或其他地方提起。",
+        "不正確：一旦提起該等法律程序，第19條容許扣留直至程序結束，而非再限於10個工作日。",
+        "不正確：第19(a)及(b)條均明文包括在香港或其他地方提起的法律程序，把範圍限於香港程序是收窄了條文。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "23",
+          "text": "the CBNIs may be detained until the proceedings have been concluded"
+        },
+        {
+          "doc": "23",
+          "text": "proceedings instituted (whether in Hong Kong or elsewhere) against a person for an offence with which the CBNIs are connected"
+        },
+        {
+          "doc": "23",
+          "text": "proceedings instituted (whether in Hong Kong or elsewhere) which may result in the forfeiture or confiscation of the CBNIs"
+        },
+        {
+          "doc": "23",
+          "text": "the CBNIs may be detained until the proceedings have been concluded"
+        },
+        {
+          "doc": "23",
+          "text": "proceedings instituted (whether in Hong Kong or elsewhere)"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "23",
+          "text": "在該程序結束前，該等物品可予繼續扣留"
+        },
+        {
+          "doc": "23",
+          "text": "就與該等物品相關的罪行，針對某人提起的法律程序( 不論該程序是在香港或其他地方提起)"
+        },
+        {
+          "doc": "23",
+          "text": "可導致該等物品被沒收或充公的法律程序( 不論該程序是在香港或其他地方提起)"
+        },
+        {
+          "doc": "23",
+          "text": "在該程序結束前，該等物品可予繼續扣留"
+        },
+        {
+          "doc": "23",
+          "text": "不論該程序是在香港或其他地方提起"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m1-232",
+    "module": 1,
+    "truth": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      "condition",
+      null,
+      null,
+      "condition"
+    ],
+    "source": {
+      "en": "C&ED Circular MSSB/FATF_02/2026 (3 July 2026) items (1)–(2)",
+      "tc": "香港海關通函 MSSB/FATF_02/2026（2026年7月3日）第(1)至(2)項"
+    },
+    "en": {
+      "q": "Regarding the FATF Call for Action and the increased-monitoring list described in the C&ED circular of 3 July 2026, which of the following are correct?",
+      "statements": [
+        "In the Call for Action statement, the Democratic People's Republic of Korea (DPRK) and Iran are jurisdictions subject to a FATF call for applying countermeasures.",
+        "Myanmar is the jurisdiction subject to a FATF call for applying enhanced due diligence measures proportionate to the risks arising from the jurisdiction.",
+        "Myanmar is already subject to a FATF call for applying countermeasures, in the same way as the Democratic People's Republic of Korea and Iran.",
+        "If no further progress is made by Myanmar by October 2026, the Financial Action Task Force will consider countermeasures against that jurisdiction.",
+        "Money service operators are reminded that two new jurisdictions were added to the increased-monitoring list, namely Bosnia and Herzegovina and Iraq.",
+        "Bosnia and Herzegovina and Iraq were added to the Call for Action list of high-risk jurisdictions subject to a FATF call for countermeasures."
+      ],
+      "notes": [
+        "Correct: under heading (1)(i), DPRK and Iran are the jurisdictions subject to a FATF call for applying countermeasures.",
+        "Correct: heading (1)(ii) names Myanmar as the jurisdiction subject to a FATF call for applying enhanced due diligence measures proportionate to the risks arising from the jurisdiction.",
+        "Incorrect: Myanmar is in the enhanced due diligence bucket, not the countermeasures bucket. The circular says that if no further progress is made by October 2026, the FATF will consider countermeasures.",
+        "Correct: the circular states that if no further progress is made by Myanmar by October 2026, the FATF will consider countermeasures.",
+        "Correct: item (2) reminds MSOs that two new jurisdictions were added into the increased-monitoring list, namely Bosnia and Herzegovina and Iraq.",
+        "Incorrect: Bosnia and Herzegovina and Iraq were added to the increased-monitoring list, not to the Call for Action or high-risk countermeasures list."
+      ]
+    },
+    "tc": {
+      "q": "關於海關於2026年7月3日通函所述，財務行動特別組織呼籲採取行動的名單與被加強監察的名單，下列哪些陳述正確？",
+      "statements": [
+        "在有關呼籲各方採取行動的聲明中，朝鮮民主主義人民共和國及伊朗屬需遵從特別組織要求而採取針對措施的司法管轄區。",
+        "在呼籲採取行動的聲明中，緬甸屬需遵從特別組織要求而採取與風險相稱的更嚴格的盡職審查措施的司法管轄區。",
+        "緬甸現已與朝鮮民主主義人民共和國及伊朗一樣，屬需遵從特別組織要求而採取針對措施的司法管轄區。",
+        "若緬甸於2026年10月或之前仍沒有取得進展，特別組織將會考慮對該司法管轄區採取針對措施。",
+        "金錢服務經營者應留意，最新被加強監察名單加入了兩個司法管轄區，即波斯尼亞和黑塞哥維那及伊拉克。",
+        "波斯尼亞和黑塞哥維那及伊拉克已被加入呼籲採取行動的高風險名單，須遵從特別組織要求採取針對措施。"
+      ],
+      "notes": [
+        "正確：第(1)(i)項標題下，朝鮮民主主義人民共和國及伊朗屬需遵從特別組織要求而採取針對措施的司法管轄區。",
+        "正確：第(1)(ii)項標題把緬甸列為需遵從特別組織要求而採取與風險相稱的更嚴格的盡職審查措施的司法管轄區。",
+        "不正確：緬甸屬更嚴格盡職審查一類，而非針對措施一類。通函訂明，若於2026年10月或之前仍沒有取得進展，特別組織才會考慮採取針對措施。",
+        "正確：通函訂明，若緬甸於2026年10月或之前仍沒有取得進展，特別組織將會考慮對緬甸採取針對措施。",
+        "正確：第(2)項提醒金錢服務經營者，最新名單加入了兩個司法管轄區，即波斯尼亞和黑塞哥維那及伊拉克，該名單是被加強監察的名單。",
+        "不正確：波斯尼亞和黑塞哥維那及伊拉克是加入被加強監察名單，而非呼籲採取行動或須採取針對措施的高風險名單。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "19",
+          "text": "Jurisdictions subject to a FATF call for applying countermeasures"
+        },
+        {
+          "doc": "19",
+          "text": "Jurisdiction subject to a FATF call for applying enhanced due diligence measures proportionate to the risks arising from the jurisdiction"
+        },
+        {
+          "doc": "19",
+          "text": "Jurisdiction subject to a FATF call for applying enhanced due diligence measures proportionate to the risks arising from the jurisdiction"
+        },
+        {
+          "doc": "19",
+          "text": "If no further progress is made by October 2026, the FATF will consider countermeasures"
+        },
+        {
+          "doc": "19",
+          "text": "Money service operators (“MSOs”) are reminded that two new jurisdictions were added into the list, namely Bosnia and Herzegovina and Iraq"
+        },
+        {
+          "doc": "19",
+          "text": "Money service operators (“MSOs”) are reminded that two new jurisdictions were added into the list, namely Bosnia and Herzegovina and Iraq"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "19",
+          "text": "需遵從特別組織要求而採取針對措施的司法管轄區"
+        },
+        {
+          "doc": "19",
+          "text": "需遵從特別組織要求而採取與風險相稱的更嚴格的盡職審查措施的司法管轄區"
+        },
+        {
+          "doc": "19",
+          "text": "需遵從特別組織要求而採取與風險相稱的更嚴格的盡職審查措施的司法管轄區"
+        },
+        {
+          "doc": "19",
+          "text": "若緬甸於2026年10月或之前仍沒有取得進展，特別組織將會考慮對緬甸採取針對措施"
+        },
+        {
+          "doc": "19",
+          "text": "最新名單加入了兩個司法管轄區，即波斯尼亞和黑塞哥維那及伊拉克"
+        },
+        {
+          "doc": "19",
+          "text": "最新名單加入了兩個司法管轄區，即波斯尼亞和黑塞哥維那及伊拉克"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m1-233",
+    "module": 1,
+    "truth": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "qualifier"
+    ],
+    "source": {
+      "en": "Cross-boundary Movement of Physical Currency and Bearer Negotiable Instruments Ordinance, Cap. 629, s.18(2)",
+      "tc": "《實體貨幣及不記名可轉讓票據跨境流動條例》（第629章）第18(2)條"
+    },
+    "en": {
+      "q": "Regarding the conditions on which the Court may make an order for the continued detention of cash-type items (CBNIs) suspected to be crime proceeds, which of the following are correct?",
+      "statements": [
+        "The Court may make the order only if satisfied there are reasonable grounds for suspecting the CBNIs are property representing the proceeds of an indictable offence mentioned in section 25(1) of the Organized and Serious Crimes Ordinance.",
+        "The Court must also be satisfied that detention of the CBNIs is justified while one of the steps listed in section 18(2)(b) is underway, those two sets of conditions being cumulative.",
+        "Under section 18(2)(b)(i), detention of the CBNIs may be justified while their origin or derivation is further investigated, being one of the steps during which detention may be justified.",
+        "Detention of the CBNIs may also be justified while consideration is given to instituting, whether in Hong Kong or elsewhere, proceedings against a person for an offence with which the CBNIs are connected.",
+        "Detention of the CBNIs may also be justified while consideration is given to instituting, whether in Hong Kong or elsewhere, proceedings which may result in the forfeiture or confiscation of the CBNIs.",
+        "The Court may make the continued detention order on the investigation ground in section 18(2)(b)(i) alone, without being satisfied that there are reasonable grounds for suspecting that the CBNIs represent such crime proceeds."
+      ],
+      "notes": [
+        "Correct: s.18(2)(a) requires the Court to be satisfied that there are reasonable grounds for suspecting that the CBNIs are property representing the proceeds of an indictable offence mentioned in OSCO s.25(1).",
+        "Correct: s.18(2) joins paragraph (a) and paragraph (b) with 'and'. The Court must also be satisfied that detention is justified while one of the listed steps is underway.",
+        "Correct: s.18(2)(b)(i) lists further investigation of the origin or derivation of the CBNIs as a step during which detention may be justified.",
+        "Correct: s.18(2)(b)(ii) covers consideration of the institution, whether in Hong Kong or elsewhere, of proceedings against a person for an offence with which the CBNIs are connected.",
+        "Correct: s.18(2)(b)(iii) covers consideration of the institution, whether in Hong Kong or elsewhere, of proceedings which may result in the forfeiture or confiscation of the CBNIs.",
+        "Incorrect: the Court may make the order only if satisfied of both s.18(2)(a) and (b). The investigation ground in (b)(i) is not enough without reasonable grounds for suspecting that the CBNIs represent such crime proceeds."
+      ]
+    },
+    "tc": {
+      "q": "關於法院可作出命令，以繼續扣留懷疑屬犯罪得益的現金類物品所須信納的條件，下列哪些陳述正確？",
+      "statements": [
+        "法院只有在信納有合理理由懷疑有關現金類物品屬《有組織及嚴重罪行條例》第25(1)條所述、代表從可公訴罪行的得益的財產時，才可作出該命令。",
+        "法院亦須信納，在第18(2)(b)條所列其中一項行動進行期間，扣留該等現金類物品是有理可據的，而該兩項條件是累積適用的。",
+        "根據第18(2)(b)(i)條，在對該等現金類物品的來源或如何獲得該等物品作進一步調查期間，扣留該等物品可以是有理可據的。",
+        "在考慮就與該等現金類物品相關的罪行，針對某人提起法律程序期間（不論在香港或其他地方提起），扣留亦可以是有理可據的。",
+        "在考慮提起可導致該等現金類物品被沒收或充公的法律程序期間（不論在香港或其他地方提起），扣留亦可以是有理可據的。",
+        "法院可單憑第18(2)(b)(i)條的進一步調查理由作出命令，而無須信納有合理理由懷疑該等現金類物品代表上述犯罪得益。"
+      ],
+      "notes": [
+        "正確：第18(2)(a)條規定，法院須信納有合理理由懷疑，有關現金類物品屬《有組織及嚴重罪行條例》第25(1)條所述、代表從可公訴罪行的得益的財產。",
+        "正確：第18(2)條以「及」連接(a)段與(b)段。法院亦須信納，在所列其中一項行動進行期間，扣留是有理可據的。",
+        "正確：第18(2)(b)(i)條把對該等物品的來源或如何獲得該等物品作進一步調查，列為扣留可以是有理可據的其中一項行動。",
+        "正確：第18(2)(b)(ii)條涵蓋考慮就與該等物品相關的罪行針對某人提起法律程序，不論該程序是在香港或其他地方提起。",
+        "正確：第18(2)(b)(iii)條涵蓋考慮提起可導致該等物品被沒收或充公的法律程序，不論該程序是在香港或其他地方提起。",
+        "不正確：法院只有在同時信納第18(2)(a)及(b)條所述情況時，才可作出命令。單憑(b)(i)的調查理由，而沒有合理理由懷疑屬該等犯罪得益，並不足夠。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "23",
+          "text": "there are reasonable grounds for suspecting that the CBNIs are property representing the proceeds of an indictable offence mentioned in section 25(1)"
+        },
+        {
+          "doc": "23",
+          "text": "the detention of the CBNIs is justified while"
+        },
+        {
+          "doc": "23",
+          "text": "their origin or derivation is further investigated"
+        },
+        {
+          "doc": "23",
+          "text": "consideration is given to the institution (whether in Hong Kong or elsewhere) of proceedings against a person for an offence with which the CBNIs are connected"
+        },
+        {
+          "doc": "23",
+          "text": "consideration is given to the institution (whether in Hong Kong or elsewhere) of proceedings which may result in the forfeiture or confiscation of the CBNIs"
+        },
+        {
+          "doc": "23",
+          "text": "there are reasonable grounds for suspecting that the CBNIs are property representing the proceeds of an indictable offence mentioned in section 25(1)"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "23",
+          "text": "有合理理由懷疑，有關現金類物品屬《有組織及嚴重罪行條例》( 第455 章) 第25(1) 條所述的、代表從可公訴罪行的得益的財產"
+        },
+        {
+          "doc": "23",
+          "text": "在以下行動進行期間，扣留該等物品是有理可據的"
+        },
+        {
+          "doc": "23",
+          "text": "對該等物品的來源或如何獲得該等物品，作進一步調查"
+        },
+        {
+          "doc": "23",
+          "text": "考慮就與該等物品相關的罪行，針對某人提起法律程序( 不論該程序是在香港或其他地方提起)"
+        },
+        {
+          "doc": "23",
+          "text": "考慮提起可導致該等物品被沒收或充公的法律程序( 不論該程序是在香港或其他地方提起)"
+        },
+        {
+          "doc": "23",
+          "text": "有合理理由懷疑，有關現金類物品屬《有組織及嚴重罪行條例》( 第455 章) 第25(1) 條所述的、代表從可公訴罪行的得益的財產"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m1-234",
+    "module": 1,
+    "truth": [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    "traps": [
+      null,
+      null,
+      "condition",
+      null,
+      null
+    ],
+    "source": {
+      "en": "C&ED Circular MSSB/SAN_01/2018 (7 February 2018) opening and s.1 p.1",
+      "tc": "香港海關通函 MSSB/SAN_01/2018（2018年2月7日）開首及第1條第1頁"
+    },
+    "en": {
+      "q": "Regarding the C&ED circular of 7 February 2018 on United Nations sanctions and early alert circulars, which of the following are correct?",
+      "statements": [
+        "The C&ED will issue early alert circulars on this subject from time to time, and the circular further elaborates the expectations on actions MSOs should take regarding United Nations Security Council sanctions.",
+        "Whenever there are updates to the lists, the C&ED requires money service operators to screen all new designations against their client lists as soon as practicable.",
+        "MSOs need only screen all new designations against their client lists after the relevant sanctions have already been implemented through Hong Kong legislation.",
+        "In practice, there is likely to be a time gap between issuance of new or revised sanctions resolutions and/or sanctions lists, and their implementation in Hong Kong.",
+        "Whether or not UNSC sanctions resolutions or sanctions lists have been implemented through Hong Kong legislation, offences under existing anti-money laundering and counter-terrorist financing laws remain relevant."
+      ],
+      "notes": [
+        "Correct: the opening of the circular says the C&ED would like to further elaborate those expectations and refers to the early alert circulars which will be issued by the C&ED on this subject from time to time.",
+        "Correct: the circular provides that the C&ED requires MSOs to screen all new designations against their client lists as soon as practicable whenever there are such updates.",
+        "Incorrect: the screening duty is triggered whenever lists are updated, as soon as practicable. The circular does not confine that screening to after the sanctions have been implemented through Hong Kong legislation, and it separately points out the time gap before local implementation.",
+        "Correct: the circular states that, in practice, there is likely to be a time gap between issuance of new or revised sanctions resolutions and/or sanctions lists, and their implementation in Hong Kong.",
+        "Correct: the circular reminds MSOs that whether or not those resolutions or lists have been implemented through Hong Kong legislation, there are offences under existing anti-money laundering and counter-terrorist financing laws that are relevant."
+      ]
+    },
+    "tc": {
+      "q": "關於海關於2018年2月7日就聯合國制裁及及早發出警示通函所作的通函，下列哪些陳述正確？",
+      "statements": [
+        "該通函進一步闡述海關預期金錢服務經營者如何因應聯合國安全理事會所施加的制裁採取行動，並述明海關會不時就此事及早發出警示通函。",
+        "但凡名單更新後，海關規定金錢服務經營者須在實際可行情況下，盡快按所有新指定的名單篩查本身的客戶名單。",
+        "金錢服務經營者只須在有關制裁已透過香港法例實施之後，才按所有新指定的名單篩查本身的客戶名單。",
+        "在實際運作上，新的制裁決議及／或制裁名單或其修訂版發出後，直至在香港實施兩者，時間上難免有落差。",
+        "不論聯合國安理會的制裁決議或制裁名單有否透過在香港立法實施，現行針對洗錢及恐怖分子資金籌集的法例已有相關適用的罪行。"
+      ],
+      "notes": [
+        "正確：通函開首表明擬進一步闡述海關預期金錢服務經營者如何因應聯合國安理會所施加的制裁採取行動，並述明海關會不時就此事及早發出警示通函。",
+        "正確：通函規定，但凡名單更新後，金錢服務經營者須在實際可行情況下，盡快按所有新指定的名單篩查本身的客戶名單。",
+        "不正確：篩查責任是但凡名單更新後，須在實際可行情況下盡快進行。通函並沒有把篩查限於制裁已透過香港法例實施之後，反而另行指出在香港實施前時間上難免有落差。",
+        "正確：通函訂明，在實際運作上，新的制裁決議及／或制裁名單或其修訂版發出後，直至在香港實施兩者，時間上難免有落差。",
+        "正確：通函提醒金錢服務經營者，不論聯合國安理會的制裁決議或制裁名單有否透過在香港立法實施，現行針對洗錢及恐怖分子資金籌集的法例已有相關適用的罪行。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "26",
+          "text": "the early alert circulars which will be issued by the C&ED on this subject from time to time"
+        },
+        {
+          "doc": "26",
+          "text": "requires them to screen all new designations against their client lists as soon as practicable whenever there are such updates"
+        },
+        {
+          "doc": "26",
+          "text": "requires them to screen all new designations against their client lists as soon as practicable whenever there are such updates"
+        },
+        {
+          "doc": "26",
+          "text": "there is likely to be a time gap between issuance of new or revised sanctions resolutions and/or sanctions lists, and their implementation in Hong Kong"
+        },
+        {
+          "doc": "26",
+          "text": "whether or not UNSC sanctions resolutions or sanctions lists have been implemented through Hong Kong legislation, there are offences under existing anti-money laundering and counter-terrorist financing laws that are relevant"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "26",
+          "text": "海關會不時就此事及早發出警示通函"
+        },
+        {
+          "doc": "26",
+          "text": "須在實際可行情況下，盡快按所有新指定的名單篩查本身的客戶名單"
+        },
+        {
+          "doc": "26",
+          "text": "須在實際可行情況下，盡快按所有新指定的名單篩查本身的客戶名單"
+        },
+        {
+          "doc": "26",
+          "text": "新的制裁決議及／或制裁名單或其修訂版發出後，直至在香港實施兩者，時間上難免有落差"
+        },
+        {
+          "doc": "26",
+          "text": "不論聯合國安理會的制裁決議或制裁名單有否透過在香港立法實施，現行針對洗錢及恐怖分子資金籌集的法例已有相關適用的罪行"
+        }
+      ]
+    }
+  },
+  {
+    "id": "m1-235",
+    "module": 1,
+    "truth": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "traps": [
+      null,
+      null,
+      "condition",
+      "scope"
+    ],
+    "source": {
+      "en": "C&ED Circular MSSB/FATF_02/2026 (3 July 2026) item (2)",
+      "tc": "香港海關通函 MSSB/FATF_02/2026（2026年7月3日）第(2)項"
+    },
+    "en": {
+      "q": "Regarding the FATF statement on jurisdictions under increased monitoring, as described in the C&ED circular of 3 July 2026, which of the following are correct?",
+      "statements": [
+        "In addition to the statement on High-Risk Jurisdictions subject to a Call for Action, the FATF has issued an updated statement on Jurisdictions under Increased Monitoring, which the circular indicates can be found on the FATF website.",
+        "The FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies in their regimes to counter money laundering, terrorist financing and proliferation financing.",
+        "Jurisdictions placed under increased monitoring are, by that listing alone, already subject to a FATF call for applying countermeasures to protect the international financial system.",
+        "The jurisdictions under increased monitoring, as described in that FATF statement, are limited to Myanmar only, and no other jurisdiction appears on the increased-monitoring list."
+      ],
+      "notes": [
+        "Correct: item (2) of the circular says that, in addition, the FATF has issued an updated statement on Jurisdictions under Increased Monitoring, and gives the address on the FATF website where that statement can be found.",
+        "Correct: the circular states that the FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies.",
+        "Incorrect: a call for applying countermeasures belongs to the Call for Action high-risk bucket, not to the increased-monitoring list as such.",
+        "Incorrect: increased monitoring is not confined to Myanmar. Myanmar is dealt with in the Call for Action statement, under the enhanced due diligence heading, and the increased-monitoring statement covers a list of jurisdictions."
+      ]
+    },
+    "tc": {
+      "q": "關於海關於2026年7月3日通函第(2)項所述，財務行動特別組織有關被加強監察的司法管轄區的聲明，下列哪些陳述正確？",
+      "statements": [
+        "除呼籲各方對高風險司法管轄區採取行動的聲明外，特別組織亦已發布一份有關被加強監察的司法管轄區的最新聲明，該聲明可於其網站（只備有英文版）取覽。",
+        "特別組織將會密切監察這些已被列入該份有關被加強監察的司法管轄區名單的司法管轄區，在處理該聲明所指已識別的策略性缺失方面所取得的進展。",
+        "單憑某一司法管轄區被列入被加強監察的司法管轄區名單，該司法管轄區便已經屬需遵從特別組織要求而採取針對措施的司法管轄區。",
+        "被加強監察的司法管轄區只限於緬甸一地，該份有關被加強監察的司法管轄區的最新名單並無載列緬甸以外的任何其他司法管轄區。"
+      ],
+      "notes": [
+        "正確：該通函第(2)項述明，此外，特別組織已發布一份有關被加強監察的司法管轄區的最新聲明，並提供該聲明可於特別組織網站取覽的位置。",
+        "正確：通函訂明，特別組織將會密切監察這些司法管轄區在處理已識別的策略性缺失方面的進展。",
+        "不正確：要求採取針對措施的呼籲屬呼籲採取行動的高風險一類，並非單憑被列入加強監察名單便會適用。",
+        "不正確：被加強監察並不限於緬甸。緬甸是在呼籲採取行動的聲明中，列於更嚴格盡職審查標題之下，而被加強監察的聲明則載有一份司法管轄區名單。"
+      ]
+    },
+    "quotes": {
+      "en": [
+        {
+          "doc": "19",
+          "text": "In addition, the FATF has issued an updated statement on Jurisdictions under Increased Monitoring"
+        },
+        {
+          "doc": "19",
+          "text": "The FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies"
+        },
+        {
+          "doc": "19",
+          "text": "Jurisdictions subject to a FATF call for applying countermeasures"
+        },
+        {
+          "doc": "19",
+          "text": "The statement sets out the list of jurisdictions that have committed to resolve swiftly strategic deficiencies in their regime to counter money laundering, terrorist financing, and proliferation financing within agreed timeframes and are subject to increased monitoring"
+        }
+      ],
+      "tc": [
+        {
+          "doc": "19",
+          "text": "此外，特別組織發布了一份有關被加強監察的司法管轄區的最新聲明"
+        },
+        {
+          "doc": "19",
+          "text": "特別組織將會密切監察這些司法管轄區在處理已識別的策略性缺失方面的進展"
+        },
+        {
+          "doc": "19",
+          "text": "需遵從特別組織要求而採取針對措施的司法管轄區"
+        },
+        {
+          "doc": "19",
+          "text": "該聲明載有承諾於協定時間內迅速解決其在打擊洗錢、恐怖分子資金籌集及大規模毀滅武器擴散資金籌集制度方面的策略性缺失，且受加強監察的司法管轄區的名單"
+        }
+      ]
+    }
+  }
+]

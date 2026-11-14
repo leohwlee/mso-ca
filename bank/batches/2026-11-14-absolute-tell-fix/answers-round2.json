@@ -1,0 +1,73 @@
+[
+ {
+  "id": "m1-234",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "EN (opening): the Customs and Excise Department (“C&ED”) would like to further elaborate the expectations on actions that should be taken by Money Service Operators (“MSOs”) regarding sanctions imposed by the United Nations Security Council (“UNSC”) and the early alert circulars which will be issued by the C&ED on this subject from time to time. TC (開首): 現擬進一步闡述海關預期金錢服務經營者如何因應聯合國安全理事會（聯合國安理會）所施加的制裁採取行動，並述明海關會不時就此事及早發出警示通函。",
+   "EN (s.1 p.1): The C&ED provides links to these notices in its circulars issued to MSOs and requires them to screen all new designations against their client lists as soon as practicable whenever there are such updates. TC (第1條第1頁): 海關會將這類公告的超連結載於發給金錢服務經營者的通函，並規定但凡名單更新後，金錢服務經營者須在實際可行情況下，盡快按所有新指定的名單篩查本身的客戶名單。",
+   "EN (s.1 p.1): In practice, there is likely to be a time gap between issuance of new or revised sanctions resolutions and/or sanctions lists, and their implementation in Hong Kong.  The C&ED would remind MSOs that whether or not UNSC sanctions resolutions or sanctions lists have been implemented through Hong Kong legislation, there are offences under existing anti-money laundering and counter-terrorist financing laws that are relevant. EN (s.1 continued after the page break): MSOs should therefore ensure that in their sanctions screening of customers and payments, they pay regard to countries, individuals, entities and activities included in UNSC sanctions resolutions and sanctions lists as soon as practicable after they are promulgated by the UNSC and regardless of whether the relevant sanctions have been implemented in Hong Kong via UNSO or otherwise. TC (第1條第1頁): 在實際運作上，新的制裁決議及／或制裁名單或其修訂版發出後，直至在香港實施兩者，時間上難免有落差。現提醒金錢服務經營者，不論聯合國安理會的制裁決議或制裁名單有否透過在香港立法實施，現行針對洗錢及恐怖分子資金籌集的法例已有相關適用的罪行。 Official TC extract is truncated after p.1; no later-page Chinese is quoted.",
+   "EN (s.1 p.1): In practice, there is likely to be a time gap between issuance of new or revised sanctions resolutions and/or sanctions lists, and their implementation in Hong Kong. TC (第1條第1頁): 在實際運作上，新的制裁決議及／或制裁名單或其修訂版發出後，直至在香港實施兩者，時間上難免有落差。",
+   "EN (s.1 p.1): The C&ED would remind MSOs that whether or not UNSC sanctions resolutions or sanctions lists have been implemented through Hong Kong legislation, there are offences under existing anti-money laundering and counter-terrorist financing laws that are relevant. TC (第1條第1頁): 現提醒金錢服務經營者，不論聯合國安理會的制裁決議或制裁名單有否透過在香港立法實施，現行針對洗錢及恐怖分子資金籌集的法例已有相關適用的罪行。"
+  ],
+  "doubts": [
+   "",
+   "",
+   "The most explicit English direction not to wait for Hong Kong implementation before screening appears after the page break, still in s.1. The official TC extract is truncated at that point, so the equivalent later-page Chinese cannot be quoted from the local file. The F verdict also follows from the p.1 reminder that existing AML/CTF offences remain relevant whether or not the sanctions have been implemented in Hong Kong, and from the absence of any permission or duty to defer screening until then.",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "The English statement says MSOs may defer screening until after Hong Kong implementation (a permission). The Chinese statement says they must screen only after the sanctions have already been implemented through Hong Kong legislation (須……才……, a mandatory delay). Both are false against the source, but the claims are not the same.",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "m1-235",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "F"
+  ],
+  "quotes": [
+   "EN item (2): In addition, the FATF has issued an updated statement on Jurisdictions under Increased Monitoring Note 6 which can be found at: https://www.fatf-gafi.org/content/fatf-gafi/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-june-2026.html EN item (1) heading, the referent of that “In addition”: (1) FATF Statement on High-Risk Jurisdictions subject to a Call for Action. TC 第(2)項: 此外，特別組織發布了一份有關被加強監察的司法管轄區的最新聲明，該聲明可於其網站（只備有英文版）取覽. TC 第(1)項標題: (1) 財務行動特別組織有關呼籲各方對高風險司法管轄區採取行動的聲明.",
+   "EN item (2): The statement sets out the list of jurisdictions that have committed to resolve swiftly strategic deficiencies in their regime to counter money laundering, terrorist financing, and proliferation financing within agreed timeframes and are subject to increased monitoring. The FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies. TC 第(2)項: 該聲明載有承諾於協定時間內迅速解決其在打擊洗錢、恐怖分子資金籌集及大規模毀滅武器擴散資金籌集制度方面的策略性缺失，且受加強監察的司法管轄區的名單。特別組織將會密切監察這些司法管轄區在處理已識別的策略性缺失方面的進展。",
+   "EN item (2) does not call for countermeasures: The FATF will closely monitor the progress made by these jurisdictions in addressing the identified strategic deficiencies and encourages its members to take into account the information presented in the statement in their risk analysis. EN item (1), a separate category: (i) Jurisdictions subject to a FATF call for applying countermeasures; and For all countries identified as high-risk, the FATF calls on all members and urges all jurisdictions to apply enhanced due diligence, and, in the most serious cases, apply countermeasures to protect the international financial system from the money laundering, terrorist financing, and proliferation financing risks emanating from those countries. TC 第(2)項: 特別組織將會密切監察這些司法管轄區在處理已識別的策略性缺失方面的進展，並鼓勵其成員在進行風險分析時參考該聲明所載述的資料。 TC 第(1)項(i): (i) 需遵從特別組織要求而採取針對措施的司法管轄區。",
+   "EN item (2): Money service operators (“MSOs”) are reminded that two new jurisdictions were added into the list, namely Bosnia and Herzegovina and Iraq. TC 第(2)項: 金錢服務經營者應留意，最新名單加入了兩個司法管轄區，即波斯尼亞和黑塞哥維那及伊拉克。"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   ""
+  ]
+ }
+]

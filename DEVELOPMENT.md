@@ -9,7 +9,7 @@ database, account system, package manager or API key.
 
 | Files | Purpose |
 |---|---|
-| `web/` | App screens, behaviour, styles, fonts and 588 bilingual questions. |
+| `web/` | App screens, behaviour, styles, fonts and 565 bilingual questions. |
 | `main.go`, `go.mod` | Combine the app into one offline HTML file. No third-party Go dependencies. |
 | Four `*_test.go` files | Check the exported file, answers, source quotations, language and guessing patterns. |
 | `tests/` | JavaScript app behaviour and Python source/review constraints. |
@@ -55,12 +55,12 @@ Open `dist/mso-ca.html`. For live development, run
 
 Read [the format](bank/FORMAT.md), [authoring workflow](docs/authoring/exam-prep/GUIDE.md)
 and [source maintenance](docs/SOURCE-MAINTENANCE.md) before changing the bank.
-The current scope report validates 588 questions from documents 01–26: it unwinds
+The current scope report validates 565 questions from documents 01–24 and 26: it unwinds
 each reviewed change recorded in `bank/audit/active-followups/` (newest first, each
 with its blind reviews and an archive of the bank it started from) and then checks
 the active26 record unchanged. The four older reports reconstruct their historical
 bank rather than claim current coverage.
-All 1,526 retired IDs remain reserved. Keep verified historical sources and reviews.
+All 1,549 retired IDs remain reserved. Keep verified historical sources and reviews.
 
 When changing a file bound by an older review, preserve the prior bytes in an
 immutable archive and add a maintenance record linking old and new hashes.
@@ -84,7 +84,7 @@ git push origin vX.Y.Z
 Replace `vX.Y.Z` with an unused version. The release workflow checks that exact
 commit, builds `mso-ca.html` and the study bundle, and publishes only
 `mso-study-bundle.zip`: the practice app, the seven-part notes and the
-catalog-resolved originals 01–26 are inside it. Confirm CI and Release succeeded,
+catalog-resolved originals 01–24 and 26 are inside it. Confirm CI and Release succeeded,
 then verify the asset. Never overwrite a published tag. The old revision pack is
 available from earlier releases and the [archive](revision/README.md); it is not
 rebuilt. `dist/` and Python caches are local build outputs.

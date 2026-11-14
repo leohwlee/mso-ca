@@ -1,0 +1,40 @@
+[
+ {
+  "id": "m1-234",
+  "verdicts": [
+   "T",
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "tc_verdicts": [
+   "T",
+   "T",
+   "F",
+   "T",
+   "T"
+  ],
+  "quotes": [
+   "EN opening: \"the Customs and Excise Department (“C&ED”) would like to further elaborate the expectations on actions that should be taken by Money Service Operators (“MSOs”) regarding sanctions imposed by the United Nations Security Council (“UNSC”) and the early alert circulars which will be issued by the C&ED on this subject from time to time.\" TC 開首: 「現擬進一步闡述海關預期金錢服務經營者如何因應聯合國安全理事會（聯合國安理會）所施加的制裁採取行動，並述明海關會不時就此事及早發出警示通函。」",
+   "EN s.1 p.1: \"Sanctions lists are published and updated via notices in the Government Gazette pursuant to the relevant legislation.  The C&ED provides links to these notices in its circulars issued to MSOs and requires them to screen all new designations against their client lists as soon as practicable whenever there are such updates.\" TC 第1條第1頁: 「政府憲報會依據相關法例刊登公告，以公布並更新制裁名單。海關會將這類公告的超連結載於發給金錢服務經營者的通函，並規定但凡名單更新後，金錢服務經營者須在實際可行情況下，盡快按所有新指定的名單篩查本身的客戶名單。」",
+   "EN s.1 p.1: \"In practice, there is likely to be a time gap between issuance of new or revised sanctions resolutions and/or sanctions lists, and their implementation in Hong Kong.  The C&ED would remind MSOs that whether or not UNSC sanctions resolutions or sanctions lists have been implemented through Hong Kong legislation, there are offences under existing anti-money laundering and counter-terrorist financing laws that are relevant.\" TC 第1條第1頁: 「在實際運作上，新的制裁決議及／或制裁名單或其修訂版發出後，直至在香港實施兩者，時間上難免有落差。現提醒金錢服務經營者，不論聯合國安理會的制裁決議或制裁名單有否透過在香港立法實施，現行針對洗錢及恐怖分子資金籌集的法例已有相關適用的罪行」 EN s.1 after the p.1 break (no corresponding official TC in the truncated extract): \"MSOs should therefore ensure that in their sanctions screening of customers and payments, they pay regard to countries, individuals, entities and activities included in UNSC sanctions resolutions and sanctions lists as soon as practicable after they are promulgated by the UNSC and regardless of whether the relevant sanctions have been implemented in Hong Kong via UNSO or otherwise.\"",
+   "EN s.1 p.1: \"In practice, there is likely to be a time gap between issuance of new or revised sanctions resolutions and/or sanctions lists, and their implementation in Hong Kong.\" TC 第1條第1頁: 「在實際運作上，新的制裁決議及／或制裁名單或其修訂版發出後，直至在香港實施兩者，時間上難免有落差。」",
+   "EN s.1 p.1: \"The C&ED would remind MSOs that whether or not UNSC sanctions resolutions or sanctions lists have been implemented through Hong Kong legislation, there are offences under existing anti-money laundering and counter-terrorist financing laws that are relevant.\" TC 第1條第1頁: 「現提醒金錢服務經營者，不論聯合國安理會的制裁決議或制裁名單有否透過在香港立法實施，現行針對洗錢及恐怖分子資金籌集的法例已有相關適用的罪行」"
+  ],
+  "doubts": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "tc_mismatch": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ]
+ }
+]
