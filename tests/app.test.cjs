@@ -139,6 +139,74 @@ test('practice draws the unseen questions of the selected parts before the seen 
   assert.match(run('homeView()'), /錯題本|Wrong-answer book/);
 });
 
+test('clearing the answered record restores unseen-first practice without touching history, the book or settings', () => {
+  const run = app();
+  run(`pmodSel = new Set([1]);
+    store.set('seen', byMod.get(1).slice(0, 10).map(q => q.id));
+    book.set({'m1-gn71': {w:1,k:0,t:1}});
+    store.set(ATTEMPTS, [{score:25,qids:['m1-gn71'],answers:{},moduleWrong:[0,0,0,0,0,0,0],pass:true,ts:1,usedMs:1}]);
+    store.set(EXAM, {cur:0});
+    store.set('lang','en');
+    store.set('theme','dark');`);
+  const htmlBefore = run('homeView()');
+  assert.match(htmlBefore, /id="btn-clear-seen"/);
+  assert.match(htmlBefore, /Clear answered record/);
+  run("S.lang='tc'");
+  assert.match(run('homeView()'), /清除已做紀錄/);
+  run("S.lang='en'; clearSeen()");
+  assert.deepEqual([...run("store.get('seen', [])")], []);
+  assert.equal(run("store.get('book', {})['m1-gn71'].w"), 1);
+  assert.equal(run("store.get(ATTEMPTS,[]).length"), 1);
+  assert.equal(run("store.get(EXAM,null).cur"), 0);
+  assert.equal(run("store.get('lang',null)"), 'en');
+  assert.equal(run("store.get('theme',null)"), 'dark');
+  const html = run('homeView()');
+  assert.doesNotMatch(html, /id="btn-clear-seen"/);
+  assert.match(html, /id="btn-book-clear"/);
+  const n = run('bank.filter(inPractice).length');
+  assert.match(html, new RegExp(`${n} of ${n} selected questions not yet answered`));
+  run('startPractice()');
+  const pool = [...run('practice.pool')];
+  assert.equal(pool.length, n);
+  assert.equal(new Set(pool).size, n);
+  run("clearSeen(true)");
+  assert.deepEqual([...run("store.get('seen', [])")], []);
+  assert.deepEqual([...run("Object.keys(store.get('book', {}))")], []);
+  assert.equal(run("store.get(ATTEMPTS,[]).length"), 1);
+  assert.equal(run("store.get(EXAM,null).cur"), 0);
+});
+
+test('clearing mock-exam history and the book still leave the answered record in place', () => {
+  const run = app();
+  run(`store.set('seen', ['m1-gn71']);
+    book.set({'m1-gn71': {w:1,k:0,t:1}});
+    store.set(ATTEMPTS, [{score:25}]);
+    store.set(EXAM, {cur:0});
+    store.del(ATTEMPTS);
+    book.set({});`);
+  assert.deepEqual([...run("store.get('seen', [])")], ['m1-gn71']);
+  assert.equal(run("store.get(EXAM,null).cur"), 0);
+  assert.match(run('homeView()'), /id="btn-clear-seen"/);
+  assert.doesNotMatch(run('homeView()'), /id="btn-clear"/);
+  assert.doesNotMatch(run('homeView()'), /id="btn-book-clear"/);
+});
+
+test('practice shows the current item out of this session pool and restarts after a round', () => {
+  const run = app();
+  run("startPractice(['m1-gn71','m2-ca2','m3-ca3'])");
+  assert.equal(run('practice.pool.length'), 3);
+  assert.notEqual(run('practice.pool.length'), run('bank.length'));
+  assert.match(run('practiceView()'), /Question 1 \/ 3/);
+  assert.match(run('practiceView()'), /This session/);
+  run('practice.idx=1; practice.perm=drawPerm(byId.get(practice.pool[1])); practice.chosen=null');
+  assert.match(run('practiceView()'), /Question 2 \/ 3/);
+  run("S.lang='tc'");
+  assert.match(run('practiceView()'), /第 2 \/ 3 題/);
+  run("S.lang='en'; practice.idx=2; nextPracticeQ()");
+  assert.equal(run('practice.idx'), 0);
+  assert.match(run('practiceView()'), /Question 1 \/ 3/);
+});
+
 test('statement permutations retain the correct option and the matching explanations', () => {
   const run = app();
   assert.equal(run(`bank.every(q => {

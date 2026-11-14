@@ -1,0 +1,30 @@
+{
+  "status": "verified",
+  "date": "2026-11-14",
+  "reason": "App UX, 14 November 2026: web/app.js gains a home-page Clear answered record control that wipes the practice seen list (and, from the same confirm, can empty the wrong-answer book) without touching mock-exam history, an exam in progress, language or theme; practice sessions show the current item over the length of that session pool, restarting at 1 when a new round begins. tests/app.test.cjs covers both behaviours. CHANGELOG.md Unreleased and the bilingual user guides describe them. Preserves the previous bytes of these files; question IDs, answers, quotes, scoring and source originals are unchanged.",
+  "archive": "bank/audit/history/2026-11-14-before-practice-ux.zip",
+  "archive_sha256": "e5b8d2c860e1de94e7bc284c5ce5df2bb0fa8eb56496a4fb011b084783953f60",
+  "archive_updates": {
+    "CHANGELOG.md": {
+      "before_sha256": "f7b33a9fc13d731ca04000999acaca440c035e31d791f1a1569dead28293315d",
+      "after_sha256": "f4a443461d29abf02a23538ad4f565b0f435d0c15a2231156370ec391a81d6fd"
+    },
+    "docs/USAGE.md": {
+      "before_sha256": "5788c28a0762fd679f2f3c39f501c26b20e0f383538d670b15a32a7f762c7bf0",
+      "after_sha256": "9467298cc0aa1ee140f862e5ca6bd2e4b04825c11cd81c4cdd908991b2597370"
+    },
+    "docs/USAGE.zh-Hant.md": {
+      "before_sha256": "12766f7c5abbb9300329ede2d7019807957c5f0344e8ad0e371c825eaad96611",
+      "after_sha256": "d868188bfb256467faed81cfa01b0547f4ba2daafdda46f7601a36518fe22dc8"
+    },
+    "tests/app.test.cjs": {
+      "before_sha256": "0eb9ba6ccdda7ba4ac5940930df381edc4e6ef3f61d4b9213c8ef1094781a9d1",
+      "after_sha256": "ed462f94ef59143ea79be0fd1de4c39402e0185d41c1e032fdd1eda23f1a8fd1"
+    },
+    "web/app.js": {
+      "before_sha256": "cf1e022e70e07ccad7ee5f75ab86c848c5f0ec239d4de35bc00a3b0ffb1eb9e2",
+      "after_sha256": "39d174a63c9cea3b5640d06cd3c46c191eb5bd1730c689ca3998fb048e180346"
+    }
+  },
+  "documentation_updates": {}
+}

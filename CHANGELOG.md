@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Practice app: a home-page **Clear answered record** control resets which questions have been answered at least once, so custom practice again draws from the full selected set. The confirm can also empty the wrong-answer book; mock exam history, any exam in progress, language and appearance are kept. Practice sessions show the current item and the size of that session's pool (for example Question 12 / 81), which restarts at 1 when a new round begins.
+- 練習App：首頁新增**清除已做紀錄**，重設哪些題目曾作答，自選練習會再從所選題目全數抽題。確認時亦可一併清空錯題本；模擬試紀錄、進行中的模擬試、語言及外觀設定均保留。練習畫面顯示本題在本節題庫中的位置（例如第 12 / 81 題），新一輪開始時從1計。
+
 ## v1.14.0 — 14 November 2026
 
 - Adds [`skills/exam-prep/`](skills/exam-prep/README.md), a general-purpose Agent Skill distilled from this repository's history. It turns any documents or copy into study notes, practice questions and mock exams, in any subject, language or exam format, and brings its own checks, an offline mock-exam app, a notes template and three behaviour tests. The README and the documentation index link to it.

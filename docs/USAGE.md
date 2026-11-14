@@ -41,10 +41,18 @@ Statements can appear in a different order on another attempt. Learn the rule
 and its conditions, rather than an option letter or statement number.
 
 Practice draws the questions you have not answered yet before the ones you
-have. The **Wrong-answer book** on the home page keeps every question answered
-wrong, in practice or in a mock exam, until you answer it right twice in a row;
-select **Practise the book** to drill them. Both live in the browser's storage
-with your history.
+have. The home page shows how many of the selected questions remain unseen.
+**Clear answered record** resets that list so every selected question is treated
+as not yet answered; the confirm can also empty the wrong-answer book. It does
+not remove mock-exam history or an exam in progress. The **Wrong-answer book**
+keeps every question answered wrong, in practice or in a mock exam, until you
+answer it right twice in a row; select **Practise the book** to drill them, or
+**Clear the book** to empty it. Both live in the browser's storage with your
+history.
+
+During practice, the page shows which item you are on and the size of the
+current session's pool (for example Question 12 / 81). After every question in
+that pool has been seen, a new round starts at 1.
 
 ## Read the notes
 
