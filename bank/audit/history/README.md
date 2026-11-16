@@ -1,5 +1,9 @@
 # Historical audit evidence
 
+`2026-11-16-before-retire-cap34.zip` preserves the bank, quotes, generated accounting and count-bearing documentation after the published v1.14.3 baseline (572 live questions; documents 01–24 and 26 in the question allowlist) and before nine Cap. 34 questions were retired, m1-151 was revised onto Guideline ¶1.14–1.15 only, and documents 16 and 17 were removed from `question_bank_scope` while remaining in daily reading. The follow-up record is `../active-followups/2026-11-16-retire-cap34.json`; the maintenance record of the same date links the documentation hashes; the patch and keyless review packet are in `../../batches/2026-11-16-retire-cap34/`. Earlier archives, including `2026-11-14-before-absolute-tell-fix.zip`, are unchanged.
+
+2026年11月16日退役九道第34章題目、修訂 m1-151，並把第16及17項移出有效題目範圍（仍留在日常閱讀）之前的題庫、引文、生成的來源統計及載有題數的文件已另存上述ZIP；跟進記錄見該JSON，同日的維護記錄連結文件雜湊，修訂包及無答案審題材料見該批次目錄。先前的存檔未被改動。
+
 `2026-11-14-before-absolute-tell-fix.zip` preserves the bank, quotes, generated accounting and count-bearing documentation after the 14 November 2026 Part 1 top-up (572 live questions) and before a wording-only repair of absolute qualifiers on seven false English statements in six already-reviewed Part 1 items (m1-229, m1-230, m1-231, m1-233, m1-234 and m1-235). The follow-up record is `../active-followups/2026-11-14-zz-absolute-tell-fix.json`; the maintenance record of the same date links the documentation hashes; the patch and keyless review packets are in `../../batches/2026-11-14-absolute-tell-fix/`. Earlier archives, including `2026-11-14-before-part1-topup.zip` and `2026-11-14-before-retire-report25.zip`, are unchanged.
 
 第1部分補題（當時題庫572題）之後、修訂六題中七句英語虛假陳述的絕對用語之前的題庫、引文、生成的來源統計及載有題數的文件已另存上述ZIP；跟進記錄見該JSON，同日的維護記錄連結文件雜湊，修訂包及無答案審題材料見該批次目錄。先前的存檔未被改動。

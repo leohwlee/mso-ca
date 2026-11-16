@@ -1,17 +1,17 @@
-# Active question sources: 01–24 and 26
+# Active question sources: 01–15, 18–24 and 26
 
-Only these 25 local publications (01–24 and 26) may support active questions. Document 25 and documents 27–47 are excluded. Counts use deciding statement quotes, not a claim of complete document coverage. A question can use several documents.
+Only these 23 local publications (01–15, 18–24 and 26) may support active questions. Documents 16 and 17 (the Cap. 34 circular and ordinance) remain in daily reading and the study notes, but do not support live questions after the 16 November 2026 practice-scope decision. Document 25 and documents 27–47 are excluded. Counts use deciding statement quotes, not a claim of complete document coverage. A question can use several documents.
 
 | Part | Questions |
 |---|---|
-| 1 | 60 |
+| 1 | 52 |
 | 2 | 81 |
 | 3 | 71 |
-| 4 | 89 |
+| 4 | 88 |
 | 5 | 80 |
 | 6 | 123 |
 | 7 | 68 |
-| **Total** | **572** |
+| **Total** | **563** |
 
 | Document | Original | Questions with deciding quotes |
 |---|---|---|
@@ -30,8 +30,6 @@ Only these 25 local publications (01–24 and 26) may support active questions. 
 | 13 | [Disciplinary Fining Guideline (May 2018)](EN/13_Medium-Essential_Disciplinary%20Fining%20Guideline%20(May%202018).pdf) | 6 |
 | 14 | [Circular - ML-TF Risks of Delivery Channels (13 Dec 2021)](EN/14_Medium-Essential_Circular%20-%20ML-TF%20Risks%20of%20Delivery%20Channels%20(13%20Dec%202021).pdf) | 4 |
 | 15 | [Circular - E-submission of the Periodic Return (30 May 2025)](EN/15_Medium-Essential_Circular%20-%20E-submission%20of%20the%20Periodic%20Return%20(30%20May%202025).pdf) | 3 |
-| 16 | [Circular - Amendments to the Money Changers Ordinance Cap 34 (17 Nov 2025)](EN/16_Medium-Essential_Circular%20-%20Amendments%20to%20the%20Money%20Changers%20Ordinance%20Cap%2034%20(17%20Nov%202025).pdf) | 1 |
-| 17 | [Full Money Changers Ordinance, Cap. 34](EN/17_Medium-Essential_Full%20Money%20Changers%20Ordinance,%20Cap.%2034%20(2025-08-24,%20Bilingual).pdf) | 9 |
 | 18 | [Circular - Trade-based Money Laundering Guidance (20 Jan 2026)](EN/18_Medium-Essential_Circular%20-%20Trade-based%20Money%20Laundering%20Guidance%20(20%20Jan%202026).pdf) | 5 |
 | 19 | [Circular - Statements issued by the FATF (3 Jul 2026)](EN/19_Medium-Essential_Circular%20-%20Statements%20issued%20by%20the%20FATF%20(3%20Jul%202026).pdf) | 4 |
 | 20 | [Guidelines for Submission of Business Plan (Ver 12-2019)](EN/20_Medium-Selected_Guidelines%20for%20Submission%20of%20Business%20Plan%20(Ver%2012-2019).pdf) | 7 |

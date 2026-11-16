@@ -3,10 +3,12 @@
 - This repository is agent-neutral. Start with this file and
   [the authoring workflow](docs/authoring/exam-prep/GUIDE.md); no agent-specific
   configuration or command is required.
-- The owner's active exam scope is ONLY documents 01–24 and 26, with 572
-  bilingual questions across the existing seven parts (60 / 81 / 71 / 89 / 80 /
-  123 / 68). The app has two modes: mock exam and custom practice (one or
-  multiple parts).
+- Daily reading remains documents 01–24 and 26. Live practice questions use
+  01–15, 18–24 and 26 (documents 16 and 17 stay in the reading pack and notes
+  but no longer support live questions). There are 563 bilingual questions
+  across the existing seven parts (52 / 81 / 71 / 88 / 80 / 123 / 68). The app
+  has two modes: mock exam and custom practice (one or multiple parts). This
+  is a personal practice-scope decision, not a claim about the official exam.
 - Before editing questions, revision content, sources or reading order, read
   [source maintenance](docs/SOURCE-MAINTENANCE.md),
   [question format](bank/FORMAT.md) and the applicable authoring guide.
@@ -24,7 +26,8 @@
   Cap. 629 is 23 after circular 22. `parent_document` records that relationship.
   Bilingual originals are copied into TC and EN, with identical raw hashes.
   Resolve every source through `editions.path`; text uses text/LANG/NN.txt.
-  The periodic-return circular and transcript are 15. The owner has approved 01–24 and 26 for questions; verify edition, language
+  The periodic-return circular and transcript are 15. Live questions use 01–15,
+  18–24 and 26; documents 16 and 17 remain in daily reading. Verify edition, language
   and citation recognition for each actual use. Document 24 has no official
   Chinese version: TC questions are labelled study translations and their
   deciding quotes retain the English source with `language: "en"`. No runtime old-ID mapping is maintained.

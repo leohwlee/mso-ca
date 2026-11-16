@@ -1,0 +1,38 @@
+{
+ "instructions": "Independently judge every statement against the cited local source in each language. Do not read keys, notes, patches or the bank. Return id, verdicts, tc_verdicts (T/F arrays), quotes (one deciding source excerpt per statement), doubts and tc_mismatch (empty strings when none). A language=en quote for doc24 is an English original supporting a clearly labelled Chinese study translation.",
+ "items": [
+  {
+   "id": "m1-151",
+   "module": 1,
+   "source": {
+    "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.14–1.15",
+    "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.14至1.15段"
+   },
+   "en": {
+    "q": "Regarding the ordinances listed in the AML/CFT Guideline, which of the following are correct?",
+    "statements": [
+     "As the Guideline cites them, the Organized and Serious Crimes Ordinance is Cap. 405 and the Drug Trafficking (Recovery of Proceeds) Ordinance is Cap. 455.",
+     "As the Guideline cites it, the ordinance whose chapter number is Cap. 537 is the United Nations (Anti-Terrorism Measures) Ordinance.",
+     "The AMLO imposes requirements relating to CDD and record-keeping on MSOs, and gives the JFIU powers to supervise compliance with these and the AMLO's other requirements.",
+     "As the Guideline cites it, the chapter number of the Weapons of Mass Destruction (Control of Provision of Services) Ordinance is Cap. 526.",
+     "As the Guideline cites it among those main pieces, the chapter number of the Drug Trafficking (Recovery of Proceeds) Ordinance is Cap. 405.",
+     "As the Guideline cites it among those main pieces, the chapter number of the United Nations (Anti-Terrorism Measures) Ordinance is Cap. 575."
+    ]
+   },
+   "tc": {
+    "q": "關於《打擊洗錢及恐怖分子資金籌集指引》所列的條例，下列哪些陳述正確？",
+    "statements": [
+     "根據本指引的引述，《有組織及嚴重罪行條例》為第405章，而《販毒（追討得益）條例》則為第455章。",
+     "根據本指引的引述，章號為第537章的條例是《聯合國（反恐怖主義措施）條例》。",
+     "《打擊洗錢條例》向金錢服務經營者施加盡職審查及備存紀錄的規定，並賦予財富情報組權力監督該等及其他規定的合規情況。",
+     "根據本指引的引述，《大規模毀滅武器（提供服務的管制）條例》的章號為第526章。",
+     "根據本指引的引述，在指引所列的主要法例之中，《販毒（追討得益）條例》的章號為第405章。",
+     "根據本指引的引述，在指引所列的主要法例之中，《聯合國（反恐怖主義措施）條例》的章號為第575章。"
+    ]
+   }
+  }
+ ],
+ "text_sha256": {
+  "m1-151": "c34ccb4b27942105b28f69bb7020f49123ec25955d9b096eb26b58822dd4bf5b"
+ }
+}

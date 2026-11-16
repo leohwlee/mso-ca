@@ -85,7 +85,9 @@ for questions removed from the current bank may no longer be available.
 
 ## Sources and question interpretation
 
-The app uses only local documents 01–24 and 26. Each answer includes a source locator
+Live questions use local documents 01–15, 18–24 and 26. Documents 16 and 17 remain
+in daily reading and the study notes but do not support live questions after
+16 November 2026. Each answer includes a source locator
 (a section, paragraph or page) and per-statement explanation. Read the
 [source directory](README.md) for the actual editions and the
 [source mapping](QUESTION-SOURCES.md) for the bank's scope.

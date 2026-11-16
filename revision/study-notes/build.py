@@ -23,7 +23,8 @@ PANELS=apply_visuals(PANELS,PARTS)
 CATALOG=json.loads((ROOT/'docs/catalog.json').read_text(encoding='utf-8'))
 DOCS={d['id']:d for d in CATALOG['documents']}
 def question_scope():
-    return list(CATALOG['question_bank_scope']['documents'])
+    """Daily-reading originals the notes may cite, including companions that no longer support live questions."""
+    return [d['id'] for d in CATALOG['documents'] if d.get('reading_status','active')=='active']
 
 CALLS_TEXT=(ROOT/'revision/CONFLICT-CALLS.md').read_text(encoding='utf-8')
 def conflict_rows():

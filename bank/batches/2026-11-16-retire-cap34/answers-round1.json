@@ -1,0 +1,20 @@
+[
+ {
+  "reviewed_text_sha256": "c34ccb4b27942105b28f69bb7020f49123ec25955d9b096eb26b58822dd4bf5b",
+  "answer": {
+   "id": "m1-151",
+   "verdicts": ["F", "F", "F", "T", "T", "T"],
+   "tc_verdicts": ["F", "F", "F", "T", "T", "T"],
+   "quotes": [
+    "Guideline ¶1.14 lists DTROP as Cap. 405 and OSCO as Cap. 455. The statement swaps those chapter numbers. / 第1.14段列《販毒（追討得益）條例》為第405章、《有組織及嚴重罪行條例》為第455章；陳述把兩者章號對調。",
+    "Guideline ¶1.14: Cap. 537 is the United Nations Sanctions Ordinance (UNSO); UNATMO is Cap. 575. / 第1.14段：第537章為《聯合國制裁條例》；《聯合國（反恐怖主義措施）條例》為第575章。",
+    "Guideline ¶1.15: the AMLO imposes CDD and record-keeping requirements on MSOs and provides the CCE, not the JFIU, with powers to supervise compliance. / 第1.15段：獲賦予監督權力的是關長，並非財富情報組。",
+    "Guideline ¶1.14: the Weapons of Mass Destruction (Control of Provision of Services) Ordinance, Cap. 526 (WMD(CPS)O). / 第1.14段：《大規模毀滅武器（提供服務的管制）條例》（第526章）。",
+    "Guideline ¶1.14 lists the Drug Trafficking (Recovery of Proceeds) Ordinance, Cap. 405 (DTROP), among the main pieces of legislation concerned with ML, TF, PF and financial sanctions. / 第1.14段列《販毒（追討得益）條例》（第405章）為該等主要法例之一。",
+    "Guideline ¶1.14 lists the United Nations (Anti-Terrorism Measures) Ordinance, Cap. 575 (UNATMO), among those main pieces. / 第1.14段列《聯合國（反恐怖主義措施）條例》（第575章）為該等主要法例之一。"
+   ],
+   "doubts": ["", "", "", "", "", ""],
+   "tc_mismatch": ["", "", "", "", "", ""]
+  }
+ }
+]
