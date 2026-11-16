@@ -1,11 +1,11 @@
 {
-  "version": "v1.14.4",
-  "captured_at": "2026-11-16T14:32:29.719Z",
-  "source_commit": "53b836cf232afd4be84c70f2f3e076724bb172dc",
+  "version": "v1.14.5",
+  "captured_at": "2026-11-16T14:55:26.344Z",
+  "source_commit": "87ed9c29b9e7e9666edd55c6439b2d1ea03455d9",
   "method": "Fresh isolated browser contexts; actual offline pages; no synthetic scores or image edits.",
   "captures": [
     {
-      "file": "docs/images/app-v1.14.4-en.png",
+      "file": "docs/images/app-v1.14.5-en.png",
       "source": "dist/mso-ca.html",
       "lang": "en",
       "anchor": "",
@@ -14,11 +14,11 @@
         "height": 1000
       },
       "full_page": true,
-      "source_sha256": "2b1284bb8beef8bb1e23e7a2b94948e9a04878df9101f6703b540a9a4817c660",
-      "image_sha256": "707e963595fa98594ff95606a3178d04a10eb1a844cb0bbc7815f4ad0ad1f977"
+      "source_sha256": "5c5e5aefecbc02d795b2512716b94224bac4445bf807c8cdbf7bb9b4d2435a62",
+      "image_sha256": "a4e1c47b6527ea40a175ee388c6c844a8c60e4da32a715bbc60b88b353595786"
     },
     {
-      "file": "docs/images/study-v1.14.4-en.png",
+      "file": "docs/images/study-v1.14.5-en.png",
       "source": "revision/study-notes/part-6.html",
       "lang": "en",
       "anchor": "#memory-cdd-trigger-tree",
@@ -31,7 +31,7 @@
       "image_sha256": "380ed590c5d39bd871ffd19f6a91b11e9641b90477a723f86daa497770e78940"
     },
     {
-      "file": "docs/images/app-v1.14.4-tc.png",
+      "file": "docs/images/app-v1.14.5-tc.png",
       "source": "dist/mso-ca.html",
       "lang": "tc",
       "anchor": "",
@@ -40,11 +40,11 @@
         "height": 1000
       },
       "full_page": true,
-      "source_sha256": "2b1284bb8beef8bb1e23e7a2b94948e9a04878df9101f6703b540a9a4817c660",
-      "image_sha256": "854911162835e53a9342eaca4003582e6e372a3904fe22526684e7ad24ea7bc3"
+      "source_sha256": "5c5e5aefecbc02d795b2512716b94224bac4445bf807c8cdbf7bb9b4d2435a62",
+      "image_sha256": "8f94d9d8c762719275720bcd96feb596a8f48dbc6f7bc40fdc771c6657c15fe2"
     },
     {
-      "file": "docs/images/study-v1.14.4-tc.png",
+      "file": "docs/images/study-v1.14.5-tc.png",
       "source": "revision/study-notes/part-6.html",
       "lang": "tc",
       "anchor": "#memory-cdd-trigger-tree",
