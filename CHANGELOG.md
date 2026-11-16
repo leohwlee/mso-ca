@@ -2,8 +2,15 @@
 
 ## Unreleased
 
-- Practice-scope change before the 17 November 2026 exam: retire nine live questions that test Cap. 34 (m1-190–m1-197 and m4-419) and reserve those IDs; revise m1-151 so it only tests AML/CFT Guideline ¶1.14–1.15 chapter numbers, with no circular or Money Changers Ordinance material. Documents 16 and 17 remain in daily reading and the study notes, but are removed from `question_bank_scope`. The live bank is **563** questions (52 / 81 / 71 / 88 / 80 / 123 / 68). This is a personal practice-scope decision, not a claim that Cap. 34 will be absent from the official examination. No study-bundle release or git tag is made in this change.
-- 2026年11月17日應考前的練習範圍調整：退役九道專門考核第34章的有效題目（m1-190至m1-197及m4-419）並保留題號；修訂 m1-151，使它只考核《打擊洗錢及恐怖分子資金籌集指引》第1.14至1.15段的章號，不再提述通函或《貨幣兌換商條例》。第16及17項仍在日常閱讀及筆記內，但已移出 `question_bank_scope`。現行題庫為**563**題（52／81／71／88／80／123／68）。這是個人練習範圍決定，不是斷定正式考試不會出現第34章。本次不發佈學習包，也不建立 git 標籤。
+## v1.14.4 — 16 November 2026
+
+- Practice-scope change before the 17 November 2026 exam: retire nine live questions that test Cap. 34 (m1-190–m1-197 and m4-419) and reserve those IDs; revise m1-151 so it only tests AML/CFT Guideline ¶1.14–1.15 chapter numbers, with no circular or Money Changers Ordinance material. Documents 16 and 17 remain in daily reading and the study notes, but are removed from `question_bank_scope`. The live bank is **563** questions (52 / 81 / 71 / 88 / 80 / 123 / 68). This is a personal practice-scope decision, not a claim that Cap. 34 will be absent from the official examination. README previews were captured again from v1.14.4.
+- 2026年11月17日應考前的練習範圍調整：退役九道專門考核第34章的有效題目（m1-190至m1-197及m4-419）並保留題號；修訂 m1-151，使它只考核《打擊洗錢及恐怖分子資金籌集指引》第1.14至1.15段的章號，不再提述通函或《貨幣兌換商條例》。第16及17項仍在日常閱讀及筆記內，但已移出 `question_bank_scope`。現行題庫為**563**題（52／81／71／88／80／123／68）。這是個人練習範圍決定，不是斷定正式考試不會出現第34章。README預覽從v1.14.4重新截取。
+
+**Download / 下載：** `mso-study-bundle.zip` contains the notes, practice and originals 01–24 and 26; extract the entire ZIP and open `index.html`.
+完整學習包包含筆記、練習及01–24及26原件；完整解壓後開啟 `index.html`。
+
+[Download / 下載](https://github.com/leohwlee/mso-ca/releases/tag/v1.14.4)
 
 ## v1.14.3 — 14 November 2026
 

@@ -17,47 +17,47 @@ The bundle contains the seven-part notes, the practice app and the cited 01–24
 originals. Keep the folders together so study, practice and source links work
 offline. You do not need to download the repository or install Go.
 
-![Blue-gray practice homepage with mock exam, custom practice and the wrong-answer book](docs/images/app-v1.14.3-en.png)
+![Blue-gray practice homepage with mock exam, custom practice and the wrong-answer book](docs/images/app-v1.14.4-en.png)
 
-*Practice homepage, English. Captured from the v1.14.3 app on 14 November 2026.*
+*Practice homepage, English. Captured from the v1.14.4 app on 16 November 2026.*
 
-## What's new in v1.14.3
+## What's new in v1.14.4
 
-A study-notes release. Legislation codes and resolvable section numbers in the
-body text can be hovered (desktop) or tapped (phone) to show the official short
-title, a one-line study gloss, and a note that this is a study aid, not the
-official text of the law. Official source, PDF and appendix citation links —
-the `<a>`, `.citations`, `.source-citation` and `.visual-links` links — stay
-ordinary links and do not get that effect. Section 25 is resolved from
-surrounding context: AMLO s.25 is a licensing exemption; DTROP/OSCO s.25 is
-the dealing offence.
+A practice-scope change before the 17 November 2026 exam. Nine live questions
+that test Cap. 34 (m1-190–m1-197 and m4-419) are retired and those IDs reserved.
+m1-151 is revised so it only tests AML/CFT Guideline ¶1.14–1.15 chapter numbers,
+with no circular or Money Changers Ordinance material. Documents 16 and 17
+remain in daily reading, the study notes and the originals in the study bundle,
+but are removed from `question_bank_scope`. The live bank is **563** questions
+(52 / 81 / 71 / 88 / 80 / 123 / 68). Part 1’s test floor is now 52. This is a
+personal practice-scope decision, not a claim that Cap. 34 will be absent from
+the official paper.
 
-This checkout of the notes still includes the **plain-language rewrite** of all
-seven parts, with **examples**; **same-section overlap** trimmed so a rule is
-not repeated in the same section; and the **Cap. 221 Schedule 8** six-level
-fine comparison on Part 2 and the Numbers page (HK$2,000 / 5,000 / 10,000 /
-25,000 / 50,000 / 100,000). Those notes revisions already shipped in v1.14.2.
-Cap. 221 is not in the 01–24/26 set texts, which usually only write “a fine at
-level n”; the amounts rows cite that in-scope wording only. The dollar figures
-themselves come from Cap. 221 Sch. 8, not from those AMLO / Cap. 34 / Cap. 629
-provisions. The 572 questions, their answers and explanations, scoring, bank
-scope (documents **01–24 and 26**; document 25 still retired) and the practice
-app are unchanged from v1.14.2.
+The notes still include the hover/tap legislation tips from v1.14.3: codes and
+resolvable section numbers in the body text can be hovered (desktop) or tapped
+(phone) to show the official short title, a one-line study gloss, and a note
+that this is a study aid, not the official text of the law. Official source,
+PDF and appendix citation links — the `<a>`, `.citations`, `.source-citation`
+and `.visual-links` links — stay ordinary links and do not get that effect.
+Section 25 is resolved from surrounding context: AMLO s.25 is a licensing
+exemption; DTROP/OSCO s.25 is the dealing offence. They also still include the
+**plain-language rewrite** of all seven parts, with **examples**; **same-section
+overlap** trimmed so a rule is not repeated in the same section; and the
+**Cap. 221 Schedule 8** six-level fine comparison on Part 2 and the Numbers
+page (HK$2,000 / 5,000 / 10,000 / 25,000 / 50,000 / 100,000). Those notes
+revisions already shipped in v1.14.2. Cap. 221 is not in the 01–24/26 set texts,
+which usually only write “a fine at level n”; the amounts rows cite that
+in-scope wording only. The dollar figures themselves come from Cap. 221 Sch. 8,
+not from those AMLO / Cap. 34 / Cap. 629 provisions.
 
-The selected sources remain documents **01–24 and 26**. Document 25, the 2022 Hong Kong
+Daily reading remains documents **01–24 and 26**. Document 25, the 2022 Hong Kong
 Money Laundering and Terrorist Financing Risk Assessment Report, was removed from
 personal practice reading and from the live question bank on 14 November 2026, because
 it did not appear in the exam the owner sat. This is a study selection, not a finding
 that the official exam cannot use the report. Number 25 stays reserved; document 26 is
 not renumbered. 23 questions that cited only that report are retired, with their IDs kept.
 
-Seven independently reviewed Part 1 questions were added in v1.14.0 so that module
-again met the then 60-question floor. On 16 November 2026 the live bank became
-**563** questions (52 / 81 / 71 / 88 / 80 / 123 / 68) after a practice-scope
-retirement of nine Cap. 34 items; Part 1’s test floor is now 52. This is a
-personal practice-scope decision before the 17 November 2026 exam, not a claim
-that Cap. 34 will be absent from the official paper. Documents 16 and 17 remain
-in daily reading and the study notes. The practice app still keeps a
+The practice app still keeps a
 **wrong-answer book** (a question stays until it is answered right twice in a
 row) and draws unseen questions first in custom practice.
 
@@ -73,9 +73,9 @@ practice questions and mock exams.
 Read the [notes' scope and ruling marks](revision/study-notes/README.md)
 and the [current review evidence](bank/audit/ACTIVE-SCOPE.md).
 
-![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.14.3-en.png)
+![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.14.4-en.png)
 
-*Part 6 reading example, English. Captured from the v1.14.3 notes on 14 November 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
+*Part 6 reading example, English. Captured from the v1.14.4 notes on 16 November 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
 
 ## Choose how to practise
 
