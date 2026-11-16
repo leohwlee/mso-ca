@@ -1,7 +1,7 @@
 {
   "method": "Post-authoring identifier/source-route check only. This tool does not assess bank-statement semantics or prove completeness. Manual concept review is recorded separately.",
-  "bank_sha256": "e979bc397639ab3e223927009b299d4a13fec60aead0b2edba0c2fcb80450d8f",
-  "quotes_sha256": "3f3a289013bf365613e44778d374166cf59ed543805e3564ad5d276b4c50709c",
+  "bank_sha256": "bf604c2298ce84f8e9fe6c9503761042cd4563ecebe12b4a9618e6384fc08532",
+  "quotes_sha256": "d84cecde1740d19750fdd49c5a69594c6713306e471db448cdf8dbdbca3bf576",
   "manuscripts": {
     "part1.py": "745b0536086280aad8259815e31e412bd9e4692c5d4e5160ee9fbbc5815cace5",
     "part2.py": "db9fb5b945662d64f91d1f71c6c6466dff03a7876b1257332cc3b87cfc9694f5",
@@ -20,7 +20,7 @@
       "visual_render.py": "6bf9788e5563990dbc045611bddfebe863cf4617e83ba27285f39168f636e3c5"
     }
   },
-  "questions_checked": 563,
+  "questions_checked": 527,
   "historical_supplements": [
     {
       "topic": "Customer assessment framework and finalisation",
@@ -323,38 +323,10 @@
       ]
     },
     {
-      "id": "m1-135",
-      "part": 1,
-      "source_documents": [
-        "19"
-      ]
-    },
-    {
-      "id": "m1-136",
-      "part": 1,
-      "source_documents": [
-        "18"
-      ]
-    },
-    {
-      "id": "m1-137",
-      "part": 1,
-      "source_documents": [
-        "18"
-      ]
-    },
-    {
       "id": "m1-138",
       "part": 1,
       "source_documents": [
         "08"
-      ]
-    },
-    {
-      "id": "m1-139",
-      "part": 1,
-      "source_documents": [
-        "22"
       ]
     },
     {
@@ -432,8 +404,7 @@
       "part": 1,
       "source_documents": [
         "03",
-        "06",
-        "19"
+        "06"
       ]
     },
     {
@@ -465,62 +436,6 @@
       ]
     },
     {
-      "id": "m1-198",
-      "part": 1,
-      "source_documents": [
-        "23"
-      ]
-    },
-    {
-      "id": "m1-199",
-      "part": 1,
-      "source_documents": [
-        "23"
-      ]
-    },
-    {
-      "id": "m1-200",
-      "part": 1,
-      "source_documents": [
-        "23"
-      ]
-    },
-    {
-      "id": "m1-201",
-      "part": 1,
-      "source_documents": [
-        "23"
-      ]
-    },
-    {
-      "id": "m1-202",
-      "part": 1,
-      "source_documents": [
-        "23"
-      ]
-    },
-    {
-      "id": "m1-203",
-      "part": 1,
-      "source_documents": [
-        "23"
-      ]
-    },
-    {
-      "id": "m1-204",
-      "part": 1,
-      "source_documents": [
-        "23"
-      ]
-    },
-    {
-      "id": "m1-205",
-      "part": 1,
-      "source_documents": [
-        "23"
-      ]
-    },
-    {
       "id": "m1-221",
       "part": 1,
       "source_documents": [
@@ -538,8 +453,7 @@
       "id": "m1-223",
       "part": 1,
       "source_documents": [
-        "09",
-        "26"
+        "09"
       ]
     },
     {
@@ -557,74 +471,10 @@
       ]
     },
     {
-      "id": "m1-226",
-      "part": 1,
-      "source_documents": [
-        "23"
-      ]
-    },
-    {
-      "id": "m1-227",
-      "part": 1,
-      "source_documents": [
-        "22",
-        "23"
-      ]
-    },
-    {
       "id": "m1-228",
       "part": 1,
       "source_documents": [
         "03"
-      ]
-    },
-    {
-      "id": "m1-229",
-      "part": 1,
-      "source_documents": [
-        "23"
-      ]
-    },
-    {
-      "id": "m1-230",
-      "part": 1,
-      "source_documents": [
-        "23"
-      ]
-    },
-    {
-      "id": "m1-231",
-      "part": 1,
-      "source_documents": [
-        "23"
-      ]
-    },
-    {
-      "id": "m1-232",
-      "part": 1,
-      "source_documents": [
-        "19"
-      ]
-    },
-    {
-      "id": "m1-233",
-      "part": 1,
-      "source_documents": [
-        "23"
-      ]
-    },
-    {
-      "id": "m1-234",
-      "part": 1,
-      "source_documents": [
-        "26"
-      ]
-    },
-    {
-      "id": "m1-235",
-      "part": 1,
-      "source_documents": [
-        "19"
       ]
     },
     {
@@ -2131,20 +1981,6 @@
       ]
     },
     {
-      "id": "m4-394",
-      "part": 4,
-      "source_documents": [
-        "26"
-      ]
-    },
-    {
-      "id": "m4-395",
-      "part": 4,
-      "source_documents": [
-        "26"
-      ]
-    },
-    {
       "id": "m4-396",
       "part": 4,
       "source_documents": [
@@ -2715,20 +2551,6 @@
       ]
     },
     {
-      "id": "m5-115",
-      "part": 5,
-      "source_documents": [
-        "24"
-      ]
-    },
-    {
-      "id": "m5-116",
-      "part": 5,
-      "source_documents": [
-        "24"
-      ]
-    },
-    {
       "id": "m5-121",
       "part": 5,
       "source_documents": [
@@ -2845,13 +2667,6 @@
       "part": 5,
       "source_documents": [
         "03"
-      ]
-    },
-    {
-      "id": "m5-137",
-      "part": 5,
-      "source_documents": [
-        "18"
       ]
     },
     {
@@ -3426,55 +3241,6 @@
       "source_documents": [
         "03",
         "06"
-      ]
-    },
-    {
-      "id": "m6-471",
-      "part": 6,
-      "source_documents": [
-        "24"
-      ]
-    },
-    {
-      "id": "m6-472",
-      "part": 6,
-      "source_documents": [
-        "24"
-      ]
-    },
-    {
-      "id": "m6-473",
-      "part": 6,
-      "source_documents": [
-        "24"
-      ]
-    },
-    {
-      "id": "m6-474",
-      "part": 6,
-      "source_documents": [
-        "24"
-      ]
-    },
-    {
-      "id": "m6-475",
-      "part": 6,
-      "source_documents": [
-        "24"
-      ]
-    },
-    {
-      "id": "m6-476",
-      "part": 6,
-      "source_documents": [
-        "18"
-      ]
-    },
-    {
-      "id": "m6-477",
-      "part": 6,
-      "source_documents": [
-        "18"
       ]
     },
     {
@@ -4056,27 +3822,6 @@
       "part": 7,
       "source_documents": [
         "03"
-      ]
-    },
-    {
-      "id": "m7-193",
-      "part": 7,
-      "source_documents": [
-        "24"
-      ]
-    },
-    {
-      "id": "m7-194",
-      "part": 7,
-      "source_documents": [
-        "24"
-      ]
-    },
-    {
-      "id": "m7-195",
-      "part": 7,
-      "source_documents": [
-        "24"
       ]
     },
     {

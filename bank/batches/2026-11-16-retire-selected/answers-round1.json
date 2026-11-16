@@ -1,0 +1,74 @@
+[
+ {
+  "reviewed_text_sha256": "6ba0716701cc421762249a55a8c30b9411aaa7c2e0aa5853317b0b8bf74905da",
+  "answer": {
+   "id": "m1-161",
+   "verdicts": [
+    "T",
+    "F",
+    "T",
+    "T"
+   ],
+   "tc_verdicts": [
+    "T",
+    "F",
+    "T",
+    "T"
+   ],
+   "quotes": [
+    "Guideline ¶2.4 footnote 3: credible sources are information produced by reputable, universally recognised international organisations and other bodies that make it publicly and widely available. / 第2.4段附註3：可靠消息來源是由有良好聲譽和廣為人知的國際組織及其他組織所提供並廣泛流傳的資訊。",
+    "Guideline ¶2.4 footnote 3 expressly includes relevant national government bodies and non-government organisations; excluding NGOs narrows the examples. / 第2.4段附註3明列有關的政府組織和非政府機構。",
+    "Guideline ¶4.9.15: international organisations are entities established by formal political agreements between member States that have the status of international treaties. / 第4.9.15段：國際組織由成員國根據具有國際條約地位的正式政治協議成立。",
+    "FAQ Q17: conducting EDD is not mandatory for customers connected to jurisdictions listed in the FATF On-going Process statement. / 常見問題第17問：採取更嚴格盡職審查措施並非強制性規定。"
+   ],
+   "doubts": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "tc_mismatch": [
+    "",
+    "",
+    "",
+    ""
+   ]
+  }
+ },
+ {
+  "reviewed_text_sha256": "42457da1813c7a8fa30992967c83c1913626b513141c2b823871800bf714be37",
+  "answer": {
+   "id": "m1-223",
+   "verdicts": [
+    "F",
+    "F",
+    "F",
+    "F"
+   ],
+   "tc_verdicts": [
+    "F",
+    "F",
+    "F",
+    "F"
+   ],
+   "quotes": [
+    "PF circular p.1: counter-PF regime implemented through UNSO regulations specific to the DPRK and Iran, and the WMD(CPS)O — not regulations that apply to every sanctioned country alike. / 通函第1頁：針對朝鮮及伊朗訂立的規例，並非適用於所有受制裁國家。",
+    "PF circular p.1: provision of services is widely defined and includes the lending of money. / 通函第1頁：提供服務包括借出款項。",
+    "PF circular p.1: s.4 WMD(CPS)O prohibits providing services where the person believes or suspects, on reasonable grounds, that they may be connected to PF; certainty is not required. / 通函第1頁：基於合理理由相信或懷疑，並非確知。",
+    "PF circular p.1–2: STRs to the JFIU as soon as practicable for genuine designated-person hits in monitoring, not with the next periodic return. / 通函：盡快向聯合財富情報組提交，並非下次定期申報。"
+   ],
+   "doubts": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "tc_mismatch": [
+    "",
+    "",
+    "",
+    ""
+   ]
+  }
+ }
+]

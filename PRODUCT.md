@@ -37,7 +37,7 @@ replacing bank-derived explanations with source-first manuscripts.
 - Preserve question IDs, question/answer content, historical evidence and saved
   results. A visual redesign does not authorize changing exam content or scoring.
 - Daily reading remains documents 01–24 and 26. Live practice questions use 01–15,
-  18–24 and 26; documents 16 and 17 stay in the notes and reading pack but do not
+  20 and 21; documents 16–19, 22–24 and 26 stay in the notes and reading pack but do not
   support live questions. Resolve original editions through
   `docs/catalog.json`. Study citations must display actual repository filenames
   and useful paragraph/section locators, not only publication titles.

@@ -2,7 +2,7 @@
 
 [繁體中文](README.zh-Hant.md) · [Download the study bundle](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [Release notes](CHANGELOG.md) · [The exam-prep skill](skills/exam-prep/README.md)
 
-**Seven-part study notes and 563 combination questions** for the Hong Kong Money
+**Seven-part study notes and 527 combination questions** for the Hong Kong Money
 Service Operator Competence Assessment. Read and practise offline in Traditional
 Chinese, English or both languages. The selected sources are documents **01–24 and 26**
 of the [reading library](docs/README.md); practice offers mock exam and custom practice.
@@ -31,6 +31,11 @@ remain in daily reading, the study notes and the originals in the study bundle,
 but are removed from `question_bank_scope`. The live bank is **563** questions
 (52 / 81 / 71 / 88 / 80 / 123 / 68). Part 1’s test floor is now 52. This is a
 personal practice-scope decision, not a claim that Cap. 34 will be absent from
+the official paper. A further 16 November 2026 practice-scope retirement removed
+documents 18, 19, 22, 23, 24 and 26 from the live allowlist as well (still kept
+in daily reading and the notes). The live bank is **527** questions
+(31 / 81 / 71 / 86 / 77 / 116 / 65). Part 1’s test floor is now 31 and Part 5’s
+is 77. This is likewise not a claim that those publications will be absent from
 the official paper.
 
 The notes still include the hover/tap legislation tips from v1.14.3: codes and
@@ -105,20 +110,20 @@ Results are stored locally in the browser.
 
 | Part | Topic | Questions |
 |---|---|---:|
-| 1 | General AML/CFT and counter-proliferation financing | 52 |
+| 1 | General AML/CFT and counter-proliferation financing | 31 |
 | 2 | AMLO Parts 1–7 | 81 |
 | 3 | AMLO Schedules | 71 |
-| 4 | C&ED guidelines | 88 |
-| 5 | Governance and strategy | 80 |
-| 6 | AML/CFT control areas | 123 |
-| 7 | Demonstrating and monitoring compliance | 68 |
-| **Total** | | **563** |
+| 4 | C&ED guidelines | 86 |
+| 5 | Governance and strategy | 77 |
+| 6 | AML/CFT control areas | 116 |
+| 7 | Demonstrating and monitoring compliance | 65 |
+| **Total** | | **527** |
 
 The bank includes eight official sample questions. The remaining questions are
 authored practice material, not released past papers. See [release notes](CHANGELOG.md)
 for earlier changes to the bank.
 
-- **01–15, 18–24 and 26:** the only approved sources for live questions. Documents 16 and 17 remain in daily reading and the study notes but do not support live questions after 16 November 2026. External documents linked by a circular are not automatically included.
+- **01–15, 20 and 21:** the only approved sources for live questions. Documents 16–19, 22–24 and 26 remain in daily reading and the study notes but do not support live questions after 16 November 2026. External documents linked by a circular are not automatically included.
 - **25 and 27–47:** preserved historical reference, excluded from the active bank. Number 25 is reserved for the archived 2022 risk assessment report; document 26 is not renumbered.
 - **Document 24:** English original only; related Chinese questions are labelled **study translations** and retain English deciding quotations.
 - **Document 25:** removed from personal practice reading and from the active question scope on 14 November 2026, because it did not appear in the exam the owner sat. This is a study selection, not a finding that the official exam cannot use the report.
