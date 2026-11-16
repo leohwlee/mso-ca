@@ -17,26 +17,22 @@ The bundle contains the seven-part notes, the practice app and the cited 01–24
 originals. Keep the folders together so study, practice and source links work
 offline. You do not need to download the repository or install Go.
 
-![Blue-gray practice homepage with mock exam, custom practice and the wrong-answer book](docs/images/app-v1.14.4-en.png)
+![Blue-gray practice homepage with mock exam, custom practice and the wrong-answer book](docs/images/app-v1.14.5-en.png)
 
-*Practice homepage, English. Captured from the v1.14.4 app on 16 November 2026.*
+*Practice homepage, English. Captured from the v1.14.5 app on 16 November 2026.*
 
-## What's new in v1.14.4
+## What's new in v1.14.5
 
-A practice-scope change before the 17 November 2026 exam. Nine live questions
-that test Cap. 34 (m1-190–m1-197 and m4-419) are retired and those IDs reserved.
-m1-151 is revised so it only tests AML/CFT Guideline ¶1.14–1.15 chapter numbers,
-with no circular or Money Changers Ordinance material. Documents 16 and 17
-remain in daily reading, the study notes and the originals in the study bundle,
-but are removed from `question_bank_scope`. The live bank is **563** questions
-(52 / 81 / 71 / 88 / 80 / 123 / 68). Part 1’s test floor is now 52. This is a
-personal practice-scope decision, not a claim that Cap. 34 will be absent from
-the official paper. A further 16 November 2026 practice-scope retirement removed
-documents 18, 19, 22, 23, 24 and 26 from the live allowlist as well (still kept
-in daily reading and the notes). The live bank is **527** questions
-(31 / 81 / 71 / 86 / 77 / 116 / 65). Part 1’s test floor is now 31 and Part 5’s
-is 77. This is likewise not a claim that those publications will be absent from
-the official paper.
+A further practice-scope change before the 17 November 2026 exam. Thirty-six live
+questions that test documents 18, 19, 22, 23, 24 and 26 are retired and those IDs
+reserved. m1-161 is revised so it no longer cites the July 2026 FATF circular;
+m1-223 is revised so it only tests the December 2021 PF circular. Together with
+the earlier Cap. 34 retirement, documents 16–19, 22–24 and 26 remain in daily
+reading, the study notes and the originals in the study bundle, but are removed
+from `question_bank_scope`. The live allowlist is **01–15, 20 and 21**. The live
+bank is **527** questions (31 / 81 / 71 / 86 / 77 / 116 / 65). Part 1’s test floor
+is now 31 and Part 5’s is 77. This is a personal practice-scope decision, not a
+claim that those publications will be absent from the official paper.
 
 The notes still include the hover/tap legislation tips from v1.14.3: codes and
 resolvable section numbers in the body text can be hovered (desktop) or tapped
@@ -78,9 +74,9 @@ practice questions and mock exams.
 Read the [notes' scope and ruling marks](revision/study-notes/README.md)
 and the [current review evidence](bank/audit/ACTIVE-SCOPE.md).
 
-![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.14.4-en.png)
+![Part 6 study notes showing when customer due diligence is required, with conditions, ruling numbers and source citations](docs/images/study-v1.14.5-en.png)
 
-*Part 6 reading example, English. Captured from the v1.14.4 notes on 16 November 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
+*Part 6 reading example, English. Captured from the v1.14.5 notes on 16 November 2026; the CDD cases can overlap, and the purple numbers are the rulings the figure applies.*
 
 ## Choose how to practise
 

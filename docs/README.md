@@ -12,7 +12,7 @@ Basis: [official Guidance Notes, paragraphs 5.2-6.1](https://eservices.customs.g
 
 22 of the 47 publications have been removed from daily reading: covered extracts, old notices, repeat training, historical resolutions, lower-priority extensions, and the 2022 risk assessment report, which the owner removed from personal practice on 14 November 2026. See [the decisions and reasons](archive/README.md). Originals and question evidence remain. Archiving does not establish withdrawal or exam exclusion. Daily reading remains 01–24 and 26; live questions use 01–15, 20 and 21 (documents 16–19, 22–24 and 26 stay in the reading pack and notes but no longer support live questions after 16 November 2026); archived material is historical reference.
 
-The v1.14.4 [seven-part notes](../revision/study-notes/index.html) retain lists, conditions and exceptions from the High-priority originals and the current daily selection (01–24 and 26); see [review scope and limits](../revision/study-notes/README.md). Download the complete study bundle from the [release page](https://github.com/leohwlee/mso-ca/releases/tag/v1.14.4) for offline reading. This release does not update source editions.
+The v1.14.5 [seven-part notes](../revision/study-notes/index.html) retain lists, conditions and exceptions from the High-priority originals and the current daily selection (01–24 and 26); see [review scope and limits](../revision/study-notes/README.md). Download the complete study bundle from the [release page](https://github.com/leohwlee/mso-ca/releases/tag/v1.14.5) for offline reading. This release does not update source editions.
 
 ## 01–09 · High priority
 
