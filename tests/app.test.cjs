@@ -46,12 +46,11 @@ test('answer citations name the real repository files in the selected language',
 
 test('Chinese citations for source 24 retain the English original and study-translation label', () => {
   const run = app();
-  const quotes = JSON.parse(fs.readFileSync(path.join(root, 'docs/quotes.json')));
-  const q = questions.find(q => quotes[q.id].tc.some(r => r.doc === '24'));
   const catalog = JSON.parse(fs.readFileSync(path.join(root, 'docs/catalog.json')));
   const doc = catalog.documents.find(d => d.id === '24');
+  // Document 24 remains in daily reading and SOURCE_INDEX; live questions no longer cite it.
   run("S.lang='tc'");
-  const rendered = run(`sourceHTML(byId.get('${q.id}'))`);
+  const rendered = run("sourceHTML({id: Object.keys(SOURCE_INDEX.questions).find(id => SOURCE_INDEX.questions[id].includes('24')), source:{en:'x', tc:'y'}})");
   assert.ok(rendered.includes(doc.editions.EN.file));
   assert.ok(rendered.includes('學習譯文，英文原件'));
 });

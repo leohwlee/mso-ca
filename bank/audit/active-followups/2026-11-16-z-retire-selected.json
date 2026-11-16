@@ -1,0 +1,242 @@
+{
+ "status": "verified",
+ "date": "2026-11-16",
+ "owner_request": "Further practice-scope change before the 17 November 2026 exam: stop practising documents 18, 19, 22, 23, 24 and 26 as live questions. Retire the 36 live items that specifically test those publications, revise m1-161 so it no longer cites the July 2026 FATF circular, revise m1-223 so it only tests the December 2021 PF circular, and remove those documents from the live question allowlist. Together with the earlier Cap. 34 decision, the live allowlist is 01–15, 20 and 21. Documents 16–19, 22–24 and 26 remain in daily reading and the study notes. This is a personal practice-scope decision, not a claim that those publications will be absent from the official examination.",
+ "method_summary": "Thirty-six live questions that cited only documents 18, 19, 22, 23, 24 and/or 26 were retired and their IDs reserved in bank/retired-ids.json. Each retired item was checked first: none also cited an in-scope source. m1-161 was revised in place: the FATF_02/2026 increased-monitoring statement was deleted; the four remaining statements (Guideline ¶2.4 footnote 3, ¶4.9.15, and FAQ Q17) were kept; sources and quotes no longer include the July 2026 circular; options were regenerated. m1-223 was revised in place: the two SAN_01/2018 statements were deleted; the three PF-circular statements were kept; a fourth false PF-circular statement was added so the item still has 4–6 statements (format rule); the stem and sources now refer only to circular MSSB/MIS_06/2021; “none of the above” remains the key. m1-151 was not changed in this follow-up. Documents 18, 19, 22, 23, 24 and 26 were removed from catalog.json.question_bank_scope but were not archived from daily reading, the study notes or the official PDFs. No new question IDs were added. The two revised items were answered blind, statement by statement in both languages, from docs/text EN/TC 03.txt, 06.txt and 09.txt without keys, explanations or quotes. All first-round verdicts matched the keys, with no doubts or language mismatches. Each recorded verdict is bound to the final stem, statements and citation by a text hash.",
+ "archive": "bank/audit/history/2026-11-16-before-retire-selected.zip",
+ "archive_sha256": "ef2d47b52bda68ddcfda9403bf161e5fb31314def451cb6fb0aca19fb823d6d4",
+ "approved_documents": [
+  "01",
+  "02",
+  "03",
+  "04",
+  "05",
+  "06",
+  "07",
+  "08",
+  "09",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26"
+ ],
+ "questions": 527,
+ "module_counts": {
+  "1": 31,
+  "2": 81,
+  "3": 71,
+  "4": 86,
+  "5": 77,
+  "6": 116,
+  "7": 65
+ },
+ "added_question_ids": [],
+ "revised_question_ids": [
+  "m1-161",
+  "m1-223"
+ ],
+ "retired_ids": [
+  "m1-135",
+  "m1-232",
+  "m1-235",
+  "m1-136",
+  "m1-137",
+  "m5-137",
+  "m6-476",
+  "m6-477",
+  "m1-139",
+  "m1-198",
+  "m1-199",
+  "m1-200",
+  "m1-201",
+  "m1-202",
+  "m1-203",
+  "m1-204",
+  "m1-205",
+  "m1-226",
+  "m1-227",
+  "m1-229",
+  "m1-230",
+  "m1-231",
+  "m1-233",
+  "m1-234",
+  "m4-394",
+  "m4-395",
+  "m5-115",
+  "m5-116",
+  "m6-471",
+  "m6-472",
+  "m6-473",
+  "m6-474",
+  "m6-475",
+  "m7-193",
+  "m7-194",
+  "m7-195"
+ ],
+ "revisions": [
+  {
+   "question_id": "m1-161",
+   "reason": "Delete statement 4, which cited FATF circular FATF_02/2026 item (2) (the increased-monitoring commitment). Keep the three Guideline statements and the FAQ Q17 statement (now statement 4). Remove the July 2026 circular from sources and quotes. Rebuild options from the remaining four-statement truth [T,F,T,T]; the generated key is official4 (statements 1, 3 and 4)."
+  },
+  {
+   "question_id": "m1-223",
+   "reason": "Delete statements 4 and 5, which cited SAN_01/2018 (document 26). Keep the three PF-circular statements (document 09). The format requires 4–6 statements, so add one further false statement from the same PF circular (a genuine designated-person hit may not be held for the next periodic return; STRs go to the JFIU as soon as practicable). The wording is distinct from m4-392/m4-393. The stem and sources now refer only to circular MSSB/MIS_06/2021. Rebuild options from all-false truth; “none of the above” remains the key."
+  }
+ ],
+ "source_text_sha256": {
+  "docs/text/EN/01.txt": "908295f836745a31712fbc0ded041d47434212f2ea63400862414bbd5923b0d2",
+  "docs/text/EN/02.txt": "41ff76f531905650e4fb070d14575df4e51ae172fcacc3be4838f874bcdb977f",
+  "docs/text/EN/03.txt": "6c602e7e4d82a4cf5bbd2a57b9e3fb5b8c20f9e4785c04a130baff34ab53d9ab",
+  "docs/text/EN/04.txt": "916a55f448f988bf51d814da36249414c659eb07f1b148da7bfbfc4269811aa1",
+  "docs/text/EN/05.txt": "2491f72007b9c5efcd3d6c00b4f8ec6c669514c395e468e7b654ad745c0623c8",
+  "docs/text/EN/06.txt": "09e767bd18cce69b416eea0a20aa577d647efb57be831f8a2feed997a1406676",
+  "docs/text/EN/07.txt": "85677c9e208968782ecb9e62c45893796f7dd81bc74efee052579f79aa39ce93",
+  "docs/text/EN/08.txt": "c011aae0d478aee648c832582e2fb5e75e91e1e6833d5109afda5ab66e00c244",
+  "docs/text/EN/09.txt": "3784682199c3a509f305e0401442c52b9461e4023bdd42f6f4a9a7202d6139b9",
+  "docs/text/EN/10.txt": "3a378faecce11ce26890b7d7fc54bf52a56665df1adfdfa3ef847bee74145fad",
+  "docs/text/EN/11.txt": "d742283d13c4685a7650c62d54cb7979f364b87745eb5dca503a6d04a5b841a1",
+  "docs/text/EN/12.txt": "7de82dc23297bc83fdf167b2f23724ab369e3f1d5f279d76cb0b139fff3e3b81",
+  "docs/text/EN/13.txt": "74aa274da9fc9fdacc764a885797211e501a6dce2dd8b9cffa8272a83fa18ba4",
+  "docs/text/EN/14.txt": "957a691aae6c32234ae7e3c4157b2b5676e7648d272bbdfb1a3062b05fbdb40b",
+  "docs/text/EN/15.txt": "fcd5a2eddc3e7415c7aeee2b2f8566e9d0fee234cb24b57728795a57708144f2",
+  "docs/text/EN/16.txt": "bffd462334ac20e9ef2d96b0db3508ce2acf0935021304d2e5bcfc9dc54ff8ae",
+  "docs/text/EN/17.txt": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02",
+  "docs/text/EN/18.txt": "184f4e17f55491dafe6c4fefcaed000411d69cc2b47aadbfd344620b4cf5727f",
+  "docs/text/EN/19.txt": "d97ff8fe89bc21e7300c89f4de605c0c2256035e626021ef94d29ed70b30f3a2",
+  "docs/text/EN/20.txt": "5b8115db9c36f805e661a570119aa490d3915b5cfa2bb0a4259ccfbfe322797a",
+  "docs/text/EN/21.txt": "eff8ef73f4c2349e17e6d5de1f50c7ab0b0474ed71706d295cb668d4a3d31d7c",
+  "docs/text/EN/22.txt": "9a6a1a3e174d2131f2165c062e522a07a2a67a51cd160603edcdbf7746d23f8c",
+  "docs/text/EN/23.txt": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960",
+  "docs/text/EN/24.txt": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b",
+  "docs/text/EN/25.txt": "6b410a4644b662a0c595cc843b04730f0af50a7af4f0e129a2d5dafc6c37e254",
+  "docs/text/EN/26.txt": "2a44e23b7873502ddce5ee9afc5b919bee28287d08011080227b4c21e6e2ae5c",
+  "docs/text/TC/01.txt": "d5fa00d8625ab44b0201637cf5fe79d7f2c4cd7e269819fdf29b5b36521be4de",
+  "docs/text/TC/02.txt": "c45c615e0108d20e2696de9601b3e836a4802c2357f0bd8607b82907df32c337",
+  "docs/text/TC/03.txt": "a22ad6aac57c9a85513ba3b1d3f44d8edd206b5278728a79454a353738d6f1ad",
+  "docs/text/TC/04.txt": "4cc88b13d23b8e89fa3a6ce52b4041027d555289c0569421958ef0ae676af628",
+  "docs/text/TC/05.txt": "7b2521e94367502db8a2a4223be0ca07e849630f662abc40b20a40c6b1ae900e",
+  "docs/text/TC/06.txt": "1a306caf7ce345067ede0348c58b0fc9153971999c6d16b7a11e14124cb8d3a7",
+  "docs/text/TC/07.txt": "6b2ea8f37af02b12c7bb205c2861dc573910fbc04745369d775e11ddae8f7654",
+  "docs/text/TC/08.txt": "2fee66b98482d6198eb903304b85a492e252e6d153c97027471163101a51faa3",
+  "docs/text/TC/09.txt": "498bd4a41e7be4e60fb331c14061b2b535a006000be4e23aa53b630f3f2dd2b8",
+  "docs/text/TC/10.txt": "3986315b49817d2500302fb14d6b766a19e9216946a52e9bdd4a842d0477e249",
+  "docs/text/TC/11.txt": "603d9a0272d9fc1dd509ce0c1db4f9b2be4d1ae4cceb541bae50b1158b9baa78",
+  "docs/text/TC/12.txt": "20b6ca2e167687184b0853155edaf4207a5461d4af72c38cbb6ea651f3ffb21b",
+  "docs/text/TC/13.txt": "02005281155be6a7c528acb7a94cbf9b5be4c1f9959437454b6031d8c0320873",
+  "docs/text/TC/14.txt": "88ae03601bfd2163aaa7171fcc6dc88159e1c24c87825c206c2cc38ecd8d774d",
+  "docs/text/TC/15.txt": "511f3dd05c92af3f0314975de84480c7e0efff15f69913efd47e70d90e458040",
+  "docs/text/TC/16.txt": "f83fef9e5d4a80c35fbb3c2a3a32e7477664aef772f72c1dd8cee8126fbc6854",
+  "docs/text/TC/17.txt": "e04da903b52488392e8951785c4cd8fc6fdc200986c862667dd1719afa076e02",
+  "docs/text/TC/18.txt": "f57b9b72fad554b31f4fba3466a5ddece46f692cf3827c1f4055133a0d89bdfb",
+  "docs/text/TC/19.txt": "6a4699cacc07bdadcf2908d22f845c3958f6067b1b2b631592483d34e306d179",
+  "docs/text/TC/20.txt": "be489ef64700c69f69657c5e12a0449f30274b83932850fd126411177878521c",
+  "docs/text/TC/21.txt": "26451a865f94cd84739e638f426b5f1054abc2ef3bbb01128b3218de9d92f4ee",
+  "docs/text/TC/22.txt": "0c2a19f8ff7bdf2b5156b0db82123fc4dfe239b62dcdb870587b88c09ab08f3e",
+  "docs/text/TC/23.txt": "3f60d9ec269428e3e3d053b9e28fd7b6ae2ed5027665445dd13a808d9deb6960",
+  "docs/text/TC/24.txt": "c42ffe38b7d974238cfb690f336267c0a060b60de8b25e637b98fb7da0fd040b",
+  "docs/text/TC/25.txt": "39d140261bfe1e7886bf3bbe068f2cf5de8a626bca154a2764190f73a7adb252",
+  "docs/text/TC/26.txt": "6829cc9518b597794287b65db41b6a8d1228a0437a8a10237b2440074ede51ee"
+ },
+ "blind_review": {
+  "method": "Independent-context bilingual blind review of the revised m1-161 and m1-223 against docs/text EN/TC 03.txt, 06.txt and 09.txt, without keys, notes, patches or the live bank. No items were added. The 36 retired identifiers are recorded in retired_ids and are reserved against reuse.",
+  "rounds": [
+   {
+    "round": 1,
+    "items": [
+     "m1-161",
+     "m1-223"
+    ],
+    "packet": "bank/batches/2026-11-16-retire-selected/review-input.json",
+    "answers": "bank/batches/2026-11-16-retire-selected/answers-round1.json"
+   }
+  ],
+  "items": [
+   {
+    "reviewed_text_sha256": "6ba0716701cc421762249a55a8c30b9411aaa7c2e0aa5853317b0b8bf74905da",
+    "answer": {
+     "id": "m1-161",
+     "verdicts": [
+      "T",
+      "F",
+      "T",
+      "T"
+     ],
+     "tc_verdicts": [
+      "T",
+      "F",
+      "T",
+      "T"
+     ],
+     "quotes": [
+      "Guideline ¶2.4 footnote 3: credible sources are information produced by reputable, universally recognised international organisations and other bodies that make it publicly and widely available. / 第2.4段附註3：可靠消息來源是由有良好聲譽和廣為人知的國際組織及其他組織所提供並廣泛流傳的資訊。",
+      "Guideline ¶2.4 footnote 3 expressly includes relevant national government bodies and non-government organisations; excluding NGOs narrows the examples. / 第2.4段附註3明列有關的政府組織和非政府機構。",
+      "Guideline ¶4.9.15: international organisations are entities established by formal political agreements between member States that have the status of international treaties. / 第4.9.15段：國際組織由成員國根據具有國際條約地位的正式政治協議成立。",
+      "FAQ Q17: conducting EDD is not mandatory for customers connected to jurisdictions listed in the FATF On-going Process statement. / 常見問題第17問：採取更嚴格盡職審查措施並非強制性規定。"
+     ],
+     "doubts": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tc_mismatch": [
+      "",
+      "",
+      "",
+      ""
+     ]
+    }
+   },
+   {
+    "reviewed_text_sha256": "42457da1813c7a8fa30992967c83c1913626b513141c2b823871800bf714be37",
+    "answer": {
+     "id": "m1-223",
+     "verdicts": [
+      "F",
+      "F",
+      "F",
+      "F"
+     ],
+     "tc_verdicts": [
+      "F",
+      "F",
+      "F",
+      "F"
+     ],
+     "quotes": [
+      "PF circular p.1: counter-PF regime implemented through UNSO regulations specific to the DPRK and Iran, and the WMD(CPS)O — not regulations that apply to every sanctioned country alike. / 通函第1頁：針對朝鮮及伊朗訂立的規例，並非適用於所有受制裁國家。",
+      "PF circular p.1: provision of services is widely defined and includes the lending of money. / 通函第1頁：提供服務包括借出款項。",
+      "PF circular p.1: s.4 WMD(CPS)O prohibits providing services where the person believes or suspects, on reasonable grounds, that they may be connected to PF; certainty is not required. / 通函第1頁：基於合理理由相信或懷疑，並非確知。",
+      "PF circular p.1–2: STRs to the JFIU as soon as practicable for genuine designated-person hits in monitoring, not with the next periodic return. / 通函：盡快向聯合財富情報組提交，並非下次定期申報。"
+     ],
+     "doubts": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tc_mismatch": [
+      "",
+      "",
+      "",
+      ""
+     ]
+    }
+   }
+  ]
+ },
+ "coverage": []
+}

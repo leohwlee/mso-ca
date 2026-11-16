@@ -7,14 +7,14 @@ those rules in another skill or invent a new format.
 
 ## Scope and source decisions
 
-- Only documents **01–15, 18–24 and 26** may decide active questions. Daily reading
-  remains 01–24 and 26; documents 16 and 17 stay in the reading pack and notes but
+- Only documents **01–15, 20 and 21** may decide active questions. Daily reading
+  remains 01–24 and 26; documents 16–19, 22–24 and 26 stay in the reading pack and notes but
   must not decide live questions after 16 November 2026. Resolve editions through
   `docs/catalog.json`; document number, filename prefix and quote ID are identical.
 - Read [source maintenance](../../SOURCE-MAINTENANCE.md) before changing sources.
   External links, archived publications and the old revision pack do not extend scope.
 - Use each official language edition. Document 24 has English only: label Chinese
-  items as study translations and retain English quotes. Document 25 was removed from the personal practice scope on 14 November 2026 and must not decide new or retained active questions. Documents 16 and 17 were removed from the live question allowlist on 16 November 2026 as a practice-scope decision, not a claim about the official exam.
+  items as study translations and retain English quotes. Document 25 was removed from the personal practice scope on 14 November 2026 and must not decide new or retained active questions. Documents 16–19, 22–24 and 26 were removed from the live question allowlist on 16 November 2026 as a practice-scope decision, not a claim about the official exam.
 - Follow the existing [source-conflict decisions](../../../revision/CONFLICT-CALLS.md).
   If an unresolved conflict changes the correct answer, identify the exact passages
   and ask the owner to resolve it. Reuse settled decisions and authorization.

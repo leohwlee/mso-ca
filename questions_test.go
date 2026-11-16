@@ -119,9 +119,9 @@ var (
 )
 
 // Minimum bank size after the owner-approved source expansion. Live questions use
-// 01–15, 18–24 and 26. The Part 1 floor is 52 after the 16 November 2026 Cap. 34
-// practice-scope retirement; other module floors are unchanged.
-var minPerModule = map[int]int{1: 52, 2: 75, 3: 65, 4: 80, 5: 80, 6: 100, 7: 65}
+// 01–15, 20 and 21. The Part 1 floor is 31 and the Part 5 floor is 77 after the
+// 16 November 2026 practice-scope retirements; other module floors are unchanged.
+var minPerModule = map[int]int{1: 31, 2: 75, 3: 65, 4: 80, 5: 77, 6: 100, 7: 65}
 
 func wantTotal() int {
 	n := 0

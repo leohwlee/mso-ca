@@ -1,5 +1,9 @@
 # Historical audit evidence
 
+`2026-11-16-before-retire-selected.zip` preserves the bank, quotes, generated accounting and count-bearing documentation after the published v1.14.4 baseline (563 live questions; documents 01–15, 18–24 and 26 in the question allowlist) and before 36 questions that test documents 18, 19, 22, 23, 24 and 26 were retired, m1-161 and m1-223 were revised onto remaining in-scope sources, and those documents were removed from `question_bank_scope` while remaining in daily reading. The follow-up record is `../active-followups/2026-11-16-z-retire-selected.json`; the maintenance record of the same date links the documentation hashes; the patch and keyless review packet are in `../../batches/2026-11-16-retire-selected/`. Earlier archives, including `2026-11-16-before-retire-cap34.zip`, are unchanged.
+
+2026年11月16日退役36道考核第18、19、22、23、24及26項的題目、修訂 m1-161 及 m1-223，並把該等文件移出有效題目範圍（仍留在日常閱讀）之前的題庫、引文、生成的來源統計及載有題數的文件已另存上述ZIP；跟進記錄見該JSON，同日的維護記錄連結文件雜湊，修訂包及無答案審題材料見該批次目錄。先前的存檔未被改動。
+
 `2026-11-16-before-retire-cap34.zip` preserves the bank, quotes, generated accounting and count-bearing documentation after the published v1.14.3 baseline (572 live questions; documents 01–24 and 26 in the question allowlist) and before nine Cap. 34 questions were retired, m1-151 was revised onto Guideline ¶1.14–1.15 only, and documents 16 and 17 were removed from `question_bank_scope` while remaining in daily reading. The follow-up record is `../active-followups/2026-11-16-retire-cap34.json`; the maintenance record of the same date links the documentation hashes; the patch and keyless review packet are in `../../batches/2026-11-16-retire-cap34/`. Earlier archives, including `2026-11-14-before-absolute-tell-fix.zip`, are unchanged.
 
 2026年11月16日退役九道第34章題目、修訂 m1-151，並把第16及17項移出有效題目範圍（仍留在日常閱讀）之前的題庫、引文、生成的來源統計及載有題數的文件已另存上述ZIP；跟進記錄見該JSON，同日的維護記錄連結文件雜湊，修訂包及無答案審題材料見該批次目錄。先前的存檔未被改動。

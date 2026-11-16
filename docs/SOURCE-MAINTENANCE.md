@@ -32,9 +32,9 @@ PDF, DOCX and HTML hashes preserve raw bytes; Markdown hashes fold CRLF to LF.
 previous companion extraction rules, preserving unchanged source text.
 Image labels in `transcripts/15.json` stay bound to their exact source PDFs.
 
-The owner-selected live question bank uses **01–15, 18–24 and 26**, as recorded in
-`catalog.json.question_bank_scope`. Daily reading remains 01–24 and 26: documents 16
-and 17 stay in the reading pack and notes but do not support live questions after
+The owner-selected live question bank uses **01–15, 20 and 21**, as recorded in
+`catalog.json.question_bank_scope`. Daily reading remains 01–24 and 26: documents 16–19,
+22–24 and 26 stay in the reading pack and notes but do not support live questions after
 16 November 2026. The original 23-source flag is historical; it is not the current
 allowlist. Verify edition, language, source context and citation patterns before
 authoring. Source 24 has no official Chinese text:

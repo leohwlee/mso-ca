@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Further practice-scope change before the 17 November 2026 exam: retire 36 live questions that test documents 18, 19, 22, 23, 24 and 26 and reserve those IDs; revise m1-161 so it no longer cites the July 2026 FATF circular; revise m1-223 so it only tests the December 2021 PF circular (format requires 4–6 statements, so one further PF-circular false statement was added and “none of the above” remains the key). Documents 16–19, 22–24 and 26 remain in daily reading and the study notes, but are removed from `question_bank_scope` (live allowlist **01–15, 20 and 21**). The live bank is **527** questions (31 / 81 / 71 / 86 / 77 / 116 / 65). This is a personal practice-scope decision, not a claim that those publications will be absent from the official examination. No study-bundle release or git tag is made in this change.
+- 2026年11月17日應考前的再一次練習範圍調整：退役36道考核第18、19、22、23、24及26項的有效題目並保留題號；修訂 m1-161，使它不再引用2026年7月FATF通函；修訂 m1-223，使它只考核2021年12月擴散融資通函（題目規格要求4至6句，因此另加一句同通函的虛假陳述，並以「以上皆非」為正確選項）。第16–19、22–24及26項仍在日常閱讀及筆記內，但已移出 `question_bank_scope`（有效題目範圍為**01–15、20及21**）。現行題庫為**527**題（31／81／71／86／77／116／65）。這是個人練習範圍決定，不是斷定正式考試不會出現該等文件。本次不發佈學習包，也不建立 git 標籤。
+
 ## v1.14.4 — 16 November 2026
 
 - Practice-scope change before the 17 November 2026 exam: retire nine live questions that test Cap. 34 (m1-190–m1-197 and m4-419) and reserve those IDs; revise m1-151 so it only tests AML/CFT Guideline ¶1.14–1.15 chapter numbers, with no circular or Money Changers Ordinance material. Documents 16 and 17 remain in daily reading and the study notes, but are removed from `question_bank_scope`. The live bank is **563** questions (52 / 81 / 71 / 88 / 80 / 123 / 68). This is a personal practice-scope decision, not a claim that Cap. 34 will be absent from the official examination. README previews were captured again from v1.14.4.

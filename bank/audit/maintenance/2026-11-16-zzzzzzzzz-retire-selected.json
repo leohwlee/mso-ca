@@ -1,0 +1,134 @@
+{
+ "status": "verified",
+ "date": "2026-11-16",
+ "reason": "Owner practice-scope decision of 16 November 2026: retire 36 live questions that test documents 18, 19, 22, 23, 24 and 26, revise m1-161 and m1-223 onto remaining in-scope sources, and remove those documents from the live question allowlist while leaving them in daily reading and the study notes. Together with the earlier Cap. 34 decision, live questions use 01–15, 20 and 21. This is a study selection before the 17 November 2026 exam, not a finding that those publications cannot appear on the official exam. Follow-up evidence is bank/audit/active-followups/2026-11-16-z-retire-selected.json. No git tag or study-bundle release is created by this record.",
+ "archive": "bank/audit/history/2026-11-16-before-retire-selected.zip",
+ "archive_sha256": "ef2d47b52bda68ddcfda9403bf161e5fb31314def451cb6fb0aca19fb823d6d4",
+ "archive_updates": {
+  "AGENTS.md": {
+   "before_sha256": "0e59445def45080bceef1d33fcd916ed34086a59543ae1d19db371b1b16f6fa5",
+   "after_sha256": "51486afccf00349bd4fcbab7ab96f54a67a225d6dbd7575fdb01429375f60d57"
+  },
+  "CHANGELOG.md": {
+   "before_sha256": "aa486d74881fb968717d2626abf69f0f79a07180267a87ce24cfe65dec9100f1",
+   "after_sha256": "38d83599abc513d3fee21f274118c64c63b16fd470fa807490ea6dc6d0484789"
+  },
+  "DEVELOPMENT.md": {
+   "before_sha256": "b54cc2f82bfe85b9c1f512aa1c196210b5044962733bdaa705daaf32a242103a",
+   "after_sha256": "dd8c24179e5a4706235efad8197dcb399733f7f71ffb9bb6c8882e1af39da13f"
+  },
+  "DEVELOPMENT.zh-Hant.md": {
+   "before_sha256": "1bdd130235b4c1a5524c71bcbe8eb48bd8245d7b03140c4d127bfe9056eda2bb",
+   "after_sha256": "32876acc0d133ca2334deb06c6361c77d86cd26548274cb060392784a41a9eba"
+  },
+  "PRODUCT.md": {
+   "before_sha256": "14a4b5240b8822ed43d8ed159d79ab9bcf401d9e46f8b434607e6180405d6290",
+   "after_sha256": "684b27a2ebf8136702ce30ecd9b760b45e9b734929994a382851dd9a63fc92e2"
+  },
+  "README.md": {
+   "before_sha256": "872179c0539022d9c279fc74ee8d8282c679b9460ad73b298a34c2657922f39e",
+   "after_sha256": "ebb25fcda7920a234584bbcb0539f4763e9af68aad74518bbfeea35e64db379c"
+  },
+  "README.zh-Hant.md": {
+   "before_sha256": "fd49db7d938639ab972c309e81f1cfc556a09f5297e1d49dc2247b903b957b8e",
+   "after_sha256": "8682d4519a6ee26ca5115007b686d9740dd3f7da2c92c97e9fa3d8621534390a"
+  },
+  "bank/FORMAT.md": {
+   "before_sha256": "7870f9ffbb1b3efb67ac53feb29359b57b06fcdc3739e39fec1f91dcc43dbbb9",
+   "after_sha256": "fdbe1cfe5f0abbd35b60d8b55ea747c563c2d08fef96c73c66024636232882ec"
+  },
+  "bank/audit/ACTIVE-SCOPE.md": {
+   "before_sha256": "224f99d7cad9db728bf65ffe34f84a7666301b5968c3e0a102a09449628d46c4",
+   "after_sha256": "cbe6eccd86450507f51d823aacbd6d17c499d4a7609d0638de7ed0fe941d0cc8"
+  },
+  "bank/audit/history/README.md": {
+   "before_sha256": "0192b780deaefee15dc46cfb0fb83d62853380774790f1d9f0033793da1ece99",
+   "after_sha256": "747b89a3bc472a0937ddf062c10174de5846b680d940fcbdd1a8917a8876399f"
+  },
+  "bank/audit/render_active_scope.py": {
+   "before_sha256": "aec48ccf42ebfc557fa6e6d2f0dc62d7226fc721d8960fc64469e7aed94caeca",
+   "after_sha256": "1cddc6cec5451985d5bec15a2605a61fc31843ca7187ac435394dd002d784ff6"
+  },
+  "bank/retired-ids.json": {
+   "before_sha256": "ebd5a05fe47b2958ac2ff6f44fd507a8068fe73b8a64b8e747b625f01e925af2",
+   "after_sha256": "4f4390c5bc51d72fdbaec99a17c80da44ffb5e136d87c404bf7fc50aab226e8c"
+  },
+  "docs/QUESTION-SOURCES.md": {
+   "before_sha256": "fb345c7abdf6c473198901dc5ddba2b85ca1e4a5720e983f8c1466332f3ad9e9",
+   "after_sha256": "202fccc6ee3e1c540f01807a65264a224d741af3e5b7a9c7a331a3ffcb2ecdfe"
+  },
+  "docs/QUESTION-SOURCES.zh-Hant.md": {
+   "before_sha256": "29fc7031c240ea53c9af085b9cdafd03c3b5e65edd9b1ac39868142ebdaf80ba",
+   "after_sha256": "19c654483c9fe12d7e2e4a911d015ec77225745e2d19da098ba580570b1d5289"
+  },
+  "docs/README.md": {
+   "before_sha256": "04bed0662cf7ad858da49e96ee459e93b4f4eda6862f66e109638ee1a2a3cdca",
+   "after_sha256": "25a593d17ec4ab740f762b73a3eaaa5b6524addc8ae76daea44921537adb0086"
+  },
+  "docs/README.zh-Hant.md": {
+   "before_sha256": "5cb2ea6441ea342e0dc29071e24d0963f792e3d4e4de90e3fce6140df92c0a32",
+   "after_sha256": "83b7c15589c670bc187fd50cfd77bb078540581e336600f553fdb2b8639bd638"
+  },
+  "docs/SOURCE-MAINTENANCE.md": {
+   "before_sha256": "a7c0215543a5cc9ed6bfcdb0669d0417a5bc8556c55123d98c2e6b3b8ed6de49",
+   "after_sha256": "6a565ff48f660e0fd0b0e0a218a10d30e144655000c1a0706ab65fb357070c02"
+  },
+  "docs/SOURCE-MAINTENANCE.zh-Hant.md": {
+   "before_sha256": "3a95c5485e96ff8ac4cb3ff0d2604132c683d85b9494eaf80bf62818fefc983e",
+   "after_sha256": "b134cbd7f13b4794a2721a1739de10b1737f4df8a7f08f5ff6841aee11774a7b"
+  },
+  "docs/USAGE.md": {
+   "before_sha256": "9c51b6010d990abcddebd8ddd64bb54a438fdb7078d8d5a5aca6484dfead9bd8",
+   "after_sha256": "793b5ecb214cccd4376f094e1479def920e5e1fef29635f5a7e2c10ee9a37fe6"
+  },
+  "docs/USAGE.zh-Hant.md": {
+   "before_sha256": "c93b5320ec6267cac24a66245f5277c412e71a76410a2a9179a8475a1346e3a2",
+   "after_sha256": "7536583edec74eb61d2344e88ed129658ee4409875fffbc3474075a5e0b27bc8"
+  },
+  "docs/authoring/exam-prep/GUIDE.md": {
+   "before_sha256": "3ac8ba6e13fb550f0a180f92cf7ba04e58858e15c93fb0953f7dd67a62855a8e",
+   "after_sha256": "5760b71215e6072c682bee1a56556049b0216a2fa1c06b2e20cac0e4c95c5fb9"
+  },
+  "docs/build_catalog.py": {
+   "before_sha256": "e2235cd08b353fc552421599a9a1df13c56e8bcb09c2e056b18b121abb6957cd",
+   "after_sha256": "e1f8dd475d4c697ee98206705bbc1dbbef684b5445053287a3ae4b00705c880c"
+  },
+  "docs/catalog.json": {
+   "before_sha256": "93619ca6e7a43535888181f2939f7e8ace0c8c3993e260e40cfd9905a5745a5a",
+   "after_sha256": "77015341d221f74f2a22f35777d7b71f8f39b995537881fc01d238cd5833fea0"
+  },
+  "docs/quotes.json": {
+   "before_sha256": "3f3a289013bf365613e44778d374166cf59ed543805e3564ad5d276b4c50709c",
+   "after_sha256": "d84cecde1740d19750fdd49c5a69594c6713306e471db448cdf8dbdbca3bf576"
+  },
+  "questions_test.go": {
+   "before_sha256": "98a5b9ec312ea54898958d06b71dd8f8c25da7a6bcb6aa474a19dd69f6b107af",
+   "after_sha256": "49010269c750f3ed9d602dd61e14caa35f0871c2cb84240a850671312f200cc1"
+  },
+  "revision/study-notes/README.md": {
+   "before_sha256": "9dcec9431c034c43a3406b3ed3a1ef9dee8f7eb4146499c8851b8374da1595cb",
+   "after_sha256": "201ba4df4f2f636bb7c7f5bfd265b846a241fb11d6a3244eeda720734a668e71"
+  },
+  "revision/study-notes/visual-refinement-2026-10-20/bank-source-routes.json": {
+   "before_sha256": "248e4d93e2a03977ea56e6b42c34f06498e64e72d9e149e14fd8a20d28ffbdb5",
+   "after_sha256": "0c7f7762494e5e040b344424b8a0c64ce78368af6c83a0660e8c6a0330b07885"
+  },
+  "scripts/build_study_bundle.py": {
+   "before_sha256": "3c56c4e3d07f5612dd2c88eb19ce4af9895c4ce1a7151bd22ed457bee9a2c7e0",
+   "after_sha256": "0e3f4115984bd8fa0370ba417eb8489a182e9320e732c76cd4740b4c521ee9b8"
+  },
+  "tests/app.test.cjs": {
+   "before_sha256": "ed462f94ef59143ea79be0fd1de4c39402e0185d41c1e032fdd1eda23f1a8fd1",
+   "after_sha256": "67900243cc9ac390c1bfdbf35fb3302bf7b095048e7ab082a213863cae78b942"
+  },
+  "web/app.js": {
+   "before_sha256": "96c9e08480632068e5f9da10e2f82949ad1c9124ebb5c6d556f504b38e7d831d",
+   "after_sha256": "3bc64437e2f40a619a5dfb00bf56b66a735ae258d78dc8236791e02c2aee813d"
+  },
+  "web/questions.json": {
+   "before_sha256": "e979bc397639ab3e223927009b299d4a13fec60aead0b2edba0c2fcb80450d8f",
+   "after_sha256": "bf604c2298ce84f8e9fe6c9503761042cd4563ecebe12b4a9618e6384fc08532"
+  }
+ },
+ "documentation_updates": {}
+}
