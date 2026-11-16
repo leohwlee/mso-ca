@@ -1,7 +1,7 @@
 {
   "method": "Post-authoring identifier/source-route check only. This tool does not assess bank-statement semantics or prove completeness. Manual concept review is recorded separately.",
-  "bank_sha256": "288f4b71c42243eb9fc2edf659612df53e0d5038134cb55977c28b28ee37f6b2",
-  "quotes_sha256": "352a2f66bf6aa5110120e885bd71452aa10c5c3cb7b1d30235c8ebfe22f28df0",
+  "bank_sha256": "e979bc397639ab3e223927009b299d4a13fec60aead0b2edba0c2fcb80450d8f",
+  "quotes_sha256": "3f3a289013bf365613e44778d374166cf59ed543805e3564ad5d276b4c50709c",
   "manuscripts": {
     "part1.py": "745b0536086280aad8259815e31e412bd9e4692c5d4e5160ee9fbbc5815cace5",
     "part2.py": "db9fb5b945662d64f91d1f71c6c6466dff03a7876b1257332cc3b87cfc9694f5",
@@ -20,7 +20,7 @@
       "visual_render.py": "6bf9788e5563990dbc045611bddfebe863cf4617e83ba27285f39168f636e3c5"
     }
   },
-  "questions_checked": 572,
+  "questions_checked": 563,
   "historical_supplements": [
     {
       "topic": "Customer assessment framework and finalisation",
@@ -410,8 +410,7 @@
       "id": "m1-151",
       "part": 1,
       "source_documents": [
-        "03",
-        "16"
+        "03"
       ]
     },
     {
@@ -463,62 +462,6 @@
       "part": 1,
       "source_documents": [
         "08"
-      ]
-    },
-    {
-      "id": "m1-190",
-      "part": 1,
-      "source_documents": [
-        "17"
-      ]
-    },
-    {
-      "id": "m1-191",
-      "part": 1,
-      "source_documents": [
-        "17"
-      ]
-    },
-    {
-      "id": "m1-192",
-      "part": 1,
-      "source_documents": [
-        "17"
-      ]
-    },
-    {
-      "id": "m1-193",
-      "part": 1,
-      "source_documents": [
-        "17"
-      ]
-    },
-    {
-      "id": "m1-194",
-      "part": 1,
-      "source_documents": [
-        "17"
-      ]
-    },
-    {
-      "id": "m1-195",
-      "part": 1,
-      "source_documents": [
-        "17"
-      ]
-    },
-    {
-      "id": "m1-196",
-      "part": 1,
-      "source_documents": [
-        "17"
-      ]
-    },
-    {
-      "id": "m1-197",
-      "part": 1,
-      "source_documents": [
-        "17"
       ]
     },
     {
@@ -2360,13 +2303,6 @@
       "part": 4,
       "source_documents": [
         "01"
-      ]
-    },
-    {
-      "id": "m4-419",
-      "part": 4,
-      "source_documents": [
-        "17"
       ]
     },
     {

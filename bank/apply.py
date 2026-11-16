@@ -216,7 +216,7 @@ def problems(item):
         for i, q in enumerate(qs):
             doc, text = q.get("doc", ""), q.get("text", "")
             if doc not in question_scope():
-                out.append(f"quotes.{lang}[{i}]: document {doc!r} is outside the approved 01–24 and 26 scope")
+                out.append(f"quotes.{lang}[{i}]: document {doc!r} is outside the approved question-bank scope")
             quote_lang = q.get("language", lang)
             translated = lang == "tc" and doc == "24" and quote_lang == "en"
             if quote_lang != lang and not translated:

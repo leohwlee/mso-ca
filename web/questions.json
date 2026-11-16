@@ -1706,11 +1706,11 @@
   "id": "m1-151",
   "module": 1,
   "truth": [
+   false,
+   false,
+   false,
    true,
    true,
-   false,
-   false,
-   false,
    true
   ],
   "options": [
@@ -1722,69 +1722,69 @@
    [
     1,
     3,
-    5
+    4
    ],
    [
     2,
-    4,
+    3,
     5
    ],
    [
-    3,
     4,
+    5,
     6
    ],
    "all"
   ],
-  "answer": 0,
+  "answer": 3,
   "traps": [
-   null,
-   null,
    "number",
    "name",
    "actor",
+   null,
+   null,
    null
   ],
   "source": {
-   "en": "C&ED Circular MSSB/MIS_04/2025 (17 Nov 2025) ¶1; AML/CFT Guideline for MSOs (Jun 2023) ¶1.14–1.15",
-   "tc": "香港海關通函 MSSB/MIS_04/2025（2025年11月17日）第1段；《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.14至1.15段"
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.14–1.15",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.14至1.15段"
   },
   "en": {
-   "q": "Regarding the ordinances named in the AML/CFT Guideline and in the C&ED's circular of 17 November 2025 on the Money Changers Ordinance (MCO), which of the following are correct?",
+   "q": "Regarding the ordinances listed in the AML/CFT Guideline, which of the following are correct?",
    "statements": [
-    "According to the C&ED's reminder to MSOs, the MCO, Cap. 34, has been amended, with the amended Ordinance in effect from 24 August 2025.",
-    "Statutory obligations on transaction notes and rates display, set out in Schedules 2 and 3 to the MCO, are ones that MSOs carrying out money changing services should note.",
     "As the Guideline cites them, the Organized and Serious Crimes Ordinance is Cap. 405 and the Drug Trafficking (Recovery of Proceeds) Ordinance is Cap. 455.",
     "As the Guideline cites it, the ordinance whose chapter number is Cap. 537 is the United Nations (Anti-Terrorism Measures) Ordinance.",
     "The AMLO imposes requirements relating to CDD and record-keeping on MSOs, and gives the JFIU powers to supervise compliance with these and the AMLO's other requirements.",
-    "As the Guideline cites it, the chapter number of the Weapons of Mass Destruction (Control of Provision of Services) Ordinance is Cap. 526."
+    "As the Guideline cites it, the chapter number of the Weapons of Mass Destruction (Control of Provision of Services) Ordinance is Cap. 526.",
+    "As the Guideline cites it among those main pieces, the chapter number of the Drug Trafficking (Recovery of Proceeds) Ordinance is Cap. 405.",
+    "As the Guideline cites it among those main pieces, the chapter number of the United Nations (Anti-Terrorism Measures) Ordinance is Cap. 575."
    ],
    "notes": [
-    "Correct: paragraph 1 of the circular — MSOs are reminded that the Money Changers Ordinance (MCO), Cap. 34, has been amended and came into effect on 24 August 2025.",
-    "Correct: paragraph 1 of the circular — MSOs carrying out money changing services should take note of their statutory obligations relating to transaction notes and rates display required in Schedule 2 and 3 to the MCO.",
     "Incorrect: ¶1.14 — the Drug Trafficking (Recovery of Proceeds) Ordinance is Cap. 405 and the Organized and Serious Crimes Ordinance is Cap. 455; the two chapter numbers are swapped.",
     "Incorrect: ¶1.14 — Cap. 537 is the United Nations Sanctions Ordinance (UNSO); the United Nations (Anti-Terrorism Measures) Ordinance is Cap. 575.",
     "Incorrect: ¶1.15 — the AMLO imposes requirements relating to CDD and record-keeping on MSOs and provides the CCE, not the JFIU, with powers to supervise compliance with these requirements and other requirements under the AMLO.",
-    "Correct: ¶1.14 — the Weapons of Mass Destruction (Control of Provision of Services) Ordinance is Cap. 526 (WMD(CPS)O)."
+    "Correct: ¶1.14 — the Weapons of Mass Destruction (Control of Provision of Services) Ordinance is Cap. 526 (WMD(CPS)O).",
+    "Correct: ¶1.14 — the Drug Trafficking (Recovery of Proceeds) Ordinance is Cap. 405 (DTROP), listed among the main pieces of legislation concerned with ML, TF, PF and financial sanctions.",
+    "Correct: ¶1.14 — the United Nations (Anti-Terrorism Measures) Ordinance is Cap. 575 (UNATMO), listed among the main pieces of legislation concerned with ML, TF, PF and financial sanctions."
    ]
   },
   "tc": {
-   "q": "關於《打擊洗錢及恐怖分子資金籌集指引》及香港海關2025年11月17日有關《貨幣兌換商條例》的通函所提述的條例，下列哪些陳述正確？",
+   "q": "關於《打擊洗錢及恐怖分子資金籌集指引》所列的條例，下列哪些陳述正確？",
    "statements": [
-    "海關提醒金錢服務經營者，《貨幣兌換商條例》（第34章）已於2025年8月24日通過修訂並生效。",
-    "《貨幣兌換商條例》附表2及3內有關交易單據及展示匯率的法定責任，是經營貨幣兌換服務的金錢服務經營者需留意的。",
     "根據本指引的引述，《有組織及嚴重罪行條例》為第405章，而《販毒（追討得益）條例》則為第455章。",
     "根據本指引的引述，章號為第537章的條例是《聯合國（反恐怖主義措施）條例》。",
     "《打擊洗錢條例》向金錢服務經營者施加盡職審查及備存紀錄的規定，並賦予財富情報組權力監督該等及其他規定的合規情況。",
-    "根據本指引的引述，《大規模毀滅武器（提供服務的管制）條例》的章號為第526章。"
+    "根據本指引的引述，《大規模毀滅武器（提供服務的管制）條例》的章號為第526章。",
+    "根據本指引的引述，在指引所列的主要法例之中，《販毒（追討得益）條例》的章號為第405章。",
+    "根據本指引的引述，在指引所列的主要法例之中，《聯合國（反恐怖主義措施）條例》的章號為第575章。"
    ],
    "notes": [
-    "正確：通函第1段——金錢服務經營者請注意，《貨幣兌換商條例》已於2025年8月24日通過修訂並生效。",
-    "正確：通函第1段——任何經營貨幣兌換服務的金錢服務經營者需留意《貨幣兌換商條例》附表2及3內有關交易單據及展示匯率的法定責任。",
     "不正確：第1.14段——《販毒（追討得益）條例》為第405章，《有組織及嚴重罪行條例》為第455章；兩者的章號被對調。",
     "不正確：第1.14段——第537章為《聯合國制裁條例》；《聯合國（反恐怖主義措施）條例》為第575章。",
     "不正確：第1.15段——《打擊洗錢條例》將關於盡職審查及備存紀錄的規定施加於金錢服務經營者，而獲賦予權力以監督該等規定及該條例下其他規定的合規情況的是關長，並非財富情報組。",
-    "正確：第1.14段——《大規模毀滅武器（提供服務的管制）條例》為第526章。"
+    "正確：第1.14段——《大規模毀滅武器（提供服務的管制）條例》為第526章。",
+    "正確：第1.14段——《販毒（追討得益）條例》為第405章，並列為與洗錢、恐怖分子資金籌集、擴散資金籌集及金融制裁有關的主要法例之一。",
+    "正確：第1.14段——《聯合國（反恐怖主義措施）條例》為第575章，並列為與洗錢、恐怖分子資金籌集、擴散資金籌集及金融制裁有關的主要法例之一。"
    ]
   }
  },
@@ -2323,574 +2323,6 @@
     "錯誤：註2所列高利貸服務的對象是「澳門賭客」，而非澳門金錢服務經營者。",
     "正確：註2明列透過非法為賭客兌換大額港幣現金，繞過內地外幣兌換管制措施的目的。",
     "錯誤：註2指定的是「海外扣帳卡提款限額」，不是信用卡提款限額。"
-   ]
-  }
- },
- {
-  "id": "m1-190",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   [
-    1,
-    2,
-    4
-   ],
-   [
-    1,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 0,
-  "traps": [
-   null,
-   "scope",
-   null,
-   "reversed"
-  ],
-  "source": {
-   "en": "Money Changers Ordinance s.2",
-   "tc": "《貨幣兌換商條例》 第2條"
-  },
-  "en": {
-   "q": "Under the Money Changers Ordinance, which interpretations are correct?",
-   "statements": [
-    "A rate board may be a video display screen used to display the required net rates.",
-    "Currency in this Ordinance covers notes and coins but excludes travellers’ cheques.",
-    "Signing a transaction note includes affixing a chop or mark in place of a signature.",
-    "The net rate is the price per foreign currency unit before charges and commissions."
-   ],
-   "notes": [
-    "True: s.2 — The definition expressly includes a video display screen.",
-    "False: s.2 — Currency includes a cheque and a traveller’s cheque.",
-    "True: s.2 — The definition of sign includes a chop or mark.",
-    "False: s.2 — Net means after deducting all charges and commissions."
-   ]
-  },
-  "tc": {
-   "q": "根據《貨幣兌換商條例》，以下哪些釋義正確？",
-   "statements": [
-    "告示牌可為用作展示法定淨匯率的電視螢光屏幕。",
-    "本條例的貨幣涵蓋紙幣和硬幣，但不包括旅行支票。",
-    "在交易單據上簽署，包括以加蓋圖章或標記的方式簽署。",
-    "淨匯率是扣減所有收費及佣金之前每個外幣單位的價格。"
-   ],
-   "notes": [
-    "正確：第2條：定義明文包括電視螢光屏幕。",
-    "錯誤：第2條：貨幣包括支票及旅行支票。",
-    "正確：第2條：簽署的定義包括加蓋圖章或標記。",
-    "錯誤：第2條：淨價格須在扣減所有收費及佣金後計算。"
-   ]
-  }
- },
- {
-  "id": "m1-191",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   true,
-   false
-  ],
-  "options": [
-   [
-    3
-   ],
-   [
-    4
-   ],
-   [
-    1,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   "all"
-  ],
-  "answer": 2,
-  "traps": [
-   null,
-   "number",
-   null,
-   "actor"
-  ],
-  "source": {
-   "en": "Money Changers Ordinance s.3",
-   "tc": "《貨幣兌換商條例》 第3條"
-  },
-  "en": {
-   "q": "Which statements correctly describe the monetary exclusion in the Money Changers Ordinance?",
-   "statements": [
-    "The exclusion concerns the amount of currency tendered for exchange by the customer.",
-    "A transaction of exactly HK$100,000 is excluded by the monetary exclusion in the Ordinance.",
-    "The monetary exclusion also applies where the foreign currency exceeds the equivalent amount.",
-    "The Commissioner of Customs and Excise may change the specified sum by a Gazette notice."
-   ],
-   "notes": [
-    "True: s.3 — The test uses currency tendered for exchange.",
-    "False: s.3 — The amount must exceed, not merely equal, HK$100,000.",
-    "True: s.3 — The rule expressly includes the equivalent of the Hong Kong currency amount.",
-    "False: s.3 — The power belongs to the Chief Executive."
-   ]
-  },
-  "tc": {
-   "q": "以下哪些陳述正確描述《貨幣兌換商條例》的金額豁除？",
-   "statements": [
-    "金額豁除針對的是顧客所提供作兌換的貨幣款額。",
-    "一宗剛好十萬港元的交易獲本條例的金額豁除涵蓋。",
-    "外幣超過所訂港元款額的等值時，同樣適用金額豁除。",
-    "海關關長可藉憲報公告修訂本條例所指明的金額。"
-   ],
-   "notes": [
-    "正確：第3條：測試採用所提供作兌換的貨幣款額。",
-    "錯誤：第3條：款額須超過而非剛好等於十萬港元。",
-    "正確：第3條：條文明文涵蓋有關港元款額的等值。",
-    "錯誤：第3條：修訂金額的權力屬行政長官。"
-   ]
-  }
- },
- {
-  "id": "m1-192",
-  "module": 1,
-  "truth": [
-   true,
-   true,
-   false,
-   true
-  ],
-  "options": [
-   [
-    1,
-    2,
-    3
-   ],
-   [
-    1,
-    2,
-    4
-   ],
-   [
-    2,
-    3,
-    4
-   ],
-   [
-    1,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 1,
-  "traps": [
-   null,
-   null,
-   "qualifier",
-   null
-  ],
-  "source": {
-   "en": "Money Changers Ordinance s.4(1)",
-   "tc": "《貨幣兌換商條例》 第4(1)條"
-  },
-  "en": {
-   "q": "Before completing a covered exchange transaction, which steps concerning its transaction note are correct?",
-   "statements": [
-    "The money changer must make out the transaction note legibly in duplicate before completion.",
-    "The money changer must use Arabic numerals to complete the details of the exchange transaction.",
-    "The money changer must explain the transaction note to the customer even where this is impracticable.",
-    "The money changer must sign the transaction note as part of the steps required before completion."
-   ],
-   "notes": [
-    "True: s.4(1) — The note must be legible and made in duplicate.",
-    "True: s.4(1) — The prescribed details use Arabic numerals.",
-    "False: s.4(1) — Explanation is required in so far as is practicable.",
-    "True: s.4(1) — Signing is expressly required by subsection (1)(b)."
-   ]
-  },
-  "tc": {
-   "q": "完成受規管的兌換交易前，以下哪些有關交易單據的步驟正確？",
-   "statements": [
-    "貨幣兌換商須在完成交易前以可閱字迹填具一式兩份交易單據。",
-    "貨幣兌換商須以阿拉伯數字正確列明兌換交易的細節。",
-    "貨幣兌換商即使在不切實可行的情況下也必須向顧客解釋交易單據。",
-    "貨幣兌換商須在交易單據上簽署，作為完成交易前的規定步驟。"
-   ],
-   "notes": [
-    "正確：第4(1)條：單據須字迹可閱，並填具一式兩份。",
-    "正確：第4(1)條：條文規定以阿拉伯數字列明細節。",
-    "錯誤：第4(1)條：解釋義務受在切實可行範圍內的限制。",
-    "正確：第4(1)條：第(1)(b)款明文要求簽署交易單據。"
-   ]
-  }
- },
- {
-  "id": "m1-193",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   [
-    1,
-    2,
-    3
-   ],
-   [
-    2,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 0,
-  "traps": [
-   null,
-   "modal",
-   null,
-   "added"
-  ],
-  "source": {
-   "en": "Money Changers Ordinance s.4(2)–(4)",
-   "tc": "《貨幣兌換商條例》 第4(2)至(4)條"
-  },
-  "en": {
-   "q": "Which statements about required and permitted transaction-note content are correct?",
-   "statements": [
-    "The transaction date and the currency amount tendered by the customer are required details.",
-    "The transaction-note form has a statutory requirement to include a serial number and a transaction number.",
-    "The money changer must put its name, address and telephone number in the transaction-note form.",
-    "A transaction note may contain extra statements authorised by the customer but not the Ordinance."
-   ],
-   "notes": [
-    "True: s.4(2)–(4) — Subsection (2)(a) and (c) require the date and amount.",
-    "False: s.4(2)–(4) — Subsection (3) permits these numbers; it does not require them.",
-    "True: s.4(2)–(4) — Subsection (3) requires this contact information.",
-    "False: s.4(2)–(4) — Customer approval does not replace authorisation under the Ordinance."
-   ]
-  },
-  "tc": {
-   "q": "以下哪些有關交易單據必須及准許內容的陳述正確？",
-   "statements": [
-    "交易日期及顧客所提供的貨幣款額均屬必須填寫的細節。",
-    "交易單據表格在所有情況下均必須載有單據編號及交易號碼。",
-    "貨幣兌換商須在交易單據表格載有其姓名或名稱、地址及電話號碼。",
-    "交易單據可載有顧客批准而本條例並無授權的額外陳述。"
-   ],
-   "notes": [
-    "正確：第4(2)至(4)條：第(2)(a)及(c)款要求列明日期及款額。",
-    "錯誤：第4(2)至(4)條：第(3)款准許載有這些號碼，並非規定必須載有。",
-    "正確：第4(2)至(4)條：第(3)款要求載有這些聯絡資料。",
-    "錯誤：第4(2)至(4)條：顧客批准不能代替本條例的授權。"
-   ]
-  }
- },
- {
-  "id": "m1-194",
-  "module": 1,
-  "truth": [
-   true,
-   true,
-   false,
-   false
-  ],
-  "options": [
-   [
-    1,
-    2
-   ],
-   [
-    1,
-    4
-   ],
-   [
-    2,
-    3
-   ],
-   [
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 0,
-  "traps": [
-   null,
-   null,
-   "reversed",
-   "period"
-  ],
-  "source": {
-   "en": "Money Changers Ordinance s.4(5)–(8)",
-   "tc": "《貨幣兌換商條例》 第4(5)至(8)條"
-  },
-  "en": {
-   "q": "Which statements about delivering exchanged currency and keeping transaction notes are correct?",
-   "statements": [
-    "Selling several currencies to one customer requires a separate transaction note for each currency sold.",
-    "The full equivalent amount shown on the note must be handed over to the customer without any deduction.",
-    "When the exchanged currency is delivered, the customer receives the duplicate rather than the original note.",
-    "For this Ordinance, the statutory minimum retention period for a completed duplicate is six months after the transaction."
-   ],
-   "notes": [
-    "True: s.4(5)–(8) — Separate notes are required for each currency sold.",
-    "True: s.4(5)–(8) — Subsection (6) prohibits deduction from the amount shown.",
-    "False: s.4(5)–(8) — The original goes to the customer.",
-    "False: s.4(5)–(8) — This Ordinance requires not less than 12 months. Other record-keeping duties are separate."
-   ]
-  },
-  "tc": {
-   "q": "以下哪些有關交付兌換貨幣及保留交易單據的陳述正確？",
-   "statements": [
-    "向一名顧客賣出多種貨幣，須就每種賣出的貨幣發出獨立交易單據。",
-    "須將交易單據所示給予顧客的等值總款額交付顧客，不得作任何扣減。",
-    "將兌換所得的貨幣交付顧客時，顧客收取單據複本而非正本。",
-    "就本條例而言，填妥的交易單據複本的法定最低保存期為交易後六個月。"
-   ],
-   "notes": [
-    "正確：第4(5)至(8)條：每種賣出的貨幣均須有獨立單據。",
-    "正確：第4(5)至(8)條：第(6)款禁止從單據所示款額作扣減。",
-    "錯誤：第4(5)至(8)條：交予顧客的是正本。",
-    "錯誤：第4(5)至(8)條：本條例規定至少十二個月；其他備存紀錄義務另作處理。"
-   ]
-  }
- },
- {
-  "id": "m1-195",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1,
-    2
-   ],
-   [
-    1,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   [
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 1,
-  "traps": [
-   null,
-   "period",
-   null,
-   "scope"
-  ],
-  "source": {
-   "en": "Money Changers Ordinance s.4(9)–(10), s.5",
-   "tc": "《貨幣兌換商條例》 第4(9)至(10)條、 第5條"
-  },
-  "en": {
-   "q": "Which statements correctly distinguish refusing an unfinished exchange from rescinding a completed exchange?",
-   "statements": [
-    "Before lawful completion and full delivery of exchanged currency, the customer may refuse to proceed.",
-    "After a customer validly refuses to proceed, the money changer has three days to return the currency.",
-    "Where the money changer contravenes the transaction-note requirements, rescission is available within three days.",
-    "Using the statutory right to rescind replaces all the customer’s other rights and remedies for that transaction."
-   ],
-   "notes": [
-    "True: s.4(9)–(10), s.5 — Subsection (9) permits refusal before completion as described.",
-    "False: s.4(9)–(10), s.5 — Subsection (10) requires immediate return, not a three-day period.",
-    "True: s.4(9)–(10), s.5 — Section 5 allows rescission for a section 4 contravention within three days.",
-    "False: s.4(9)–(10), s.5 — Rescission is without prejudice to other rights or remedies."
-   ]
-  },
-  "tc": {
-   "q": "以下哪些陳述正確區分拒絕未完成兌換與撤銷已完成兌換？",
-   "statements": [
-    "在依法完成交易並悉數交付兌換貨幣之前，顧客可拒絕繼續交易。",
-    "顧客有效地拒絕繼續交易後，貨幣兌換商可在三天內交回貨幣。",
-    "貨幣兌換商違反交易單據規定時，另一方可在交易日期後三天內撤銷交易。",
-    "使用法定撤銷權會取代顧客對該宗交易享有的所有其他權利及補救辦法。"
-   ],
-   "notes": [
-    "正確：第4(9)至(10)條、 第5條：第(9)款准許顧客在所述完成交易之前拒絕繼續。",
-    "錯誤：第4(9)至(10)條、 第5條：第(10)款要求立即交回，並無三天寬限。",
-    "正確：第4(9)至(10)條、 第5條：第5條准許因違反第4條而在交易日期後三天內撤銷。",
-    "錯誤：第4(9)至(10)條、 第5條：撤銷並不損害其他權利或補救辦法。"
-   ]
-  }
- },
- {
-  "id": "m1-196",
-  "module": 1,
-  "truth": [
-   true,
-   true,
-   false,
-   true
-  ],
-  "options": [
-   [
-    1,
-    2,
-    3
-   ],
-   [
-    1,
-    2,
-    4
-   ],
-   [
-    2,
-    3,
-    4
-   ],
-   [
-    1,
-    3,
-    4
-   ],
-   "all"
-  ],
-  "answer": 1,
-  "traps": [
-   null,
-   null,
-   "reversed",
-   null
-  ],
-  "source": {
-   "en": "Money Changers Ordinance s.6(2)–(6)",
-   "tc": "《貨幣兌換商條例》 第6(2)至(6)條"
-  },
-  "en": {
-   "q": "Which practices meet the Money Changers Ordinance rules for displaying net exchange rates?",
-   "statements": [
-    "Where several rate boards are used, each board displays identical net-rate information to customers.",
-    "The board is sufficiently large, legible and located in a well-lit place with an unobstructed view.",
-    "The board displays the most favourable rate, while an unlisted less favourable rate may be offered.",
-    "Rates may be quoted for ten or one hundred foreign currency units with a matching Hong Kong dollar figure."
-   ],
-   "notes": [
-    "True: s.6(2)–(6) — Subsection (2) requires identical information.",
-    "True: s.6(2)–(6) — Subsection (3) sets size, legibility, lighting and visibility requirements.",
-    "False: s.6(2)–(6) — Subsection (4) requires the least favourable rate on the board; an unlisted rate may be more favourable.",
-    "True: s.6(2)–(6) — Subsection (6) permits these multiples with a corresponding adjustment."
-   ]
-  },
-  "tc": {
-   "q": "以下哪些做法符合《貨幣兌換商條例》展示淨匯率的規定？",
-   "statements": [
-    "如使用多塊匯率告示牌，所有告示牌均向顧客展示相同的淨匯率資料。",
-    "告示牌面積夠大、字迹清晰，並設於光線充足而顧客視線無阻的位置。",
-    "告示牌展示對顧客最優惠的匯率，而未列出的較不優惠匯率可另行要約。",
-    "淨匯率可按十或一百外幣單位的倍數展示，並相應調整港元數字。"
-   ],
-   "notes": [
-    "正確：第6(2)至(6)條：第(2)款要求所有告示牌資料相同。",
-    "正確：第6(2)至(6)條：第(3)款規定面積、可閱程度、照明及視線要求。",
-    "錯誤：第6(2)至(6)條：第(4)款要求展示優惠最少的匯率；未展示的匯率可較優惠。",
-    "正確：第6(2)至(6)條：第(6)款准許使用這些倍數並相應調整港元數字。"
-   ]
-  }
- },
- {
-  "id": "m1-197",
-  "module": 1,
-  "truth": [
-   true,
-   false,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1
-   ],
-   [
-    4
-   ],
-   [
-    1,
-    3
-   ],
-   [
-    2,
-    4
-   ],
-   "all"
-  ],
-  "answer": 2,
-  "traps": [
-   null,
-   "reversed",
-   null,
-   "reversed"
-  ],
-  "source": {
-   "en": "Money Changers Ordinance s.7–8",
-   "tc": "《貨幣兌換商條例》 第7至8條"
-  },
-  "en": {
-   "q": "Which statements about quotes for other currencies and advertising exchange rates are correct?",
-   "statements": [
-    "For a currency outside the prescribed list, written buying and selling rates must precede accepting currency.",
-    "The written rate quotation for a currency outside the prescribed list replaces the transaction note.",
-    "Advertising must give the buying and selling rates for each currency equal prominence to the customer.",
-    "A money changer may advertise that no commission is charged when that statement is factually accurate."
-   ],
-   "notes": [
-    "True: s.7–8 — Section 7(1) requires both rates in writing before acceptance.",
-    "False: s.7–8 — Section 7(2) requires both documents.",
-    "True: s.7–8 — Section 8(1)(a) requires equal prominence.",
-    "False: s.7–8 — Section 8(2)(b) prohibits advertising no commission."
-   ]
-  },
-  "tc": {
-   "q": "以下哪些有關其他貨幣報價及匯率宣傳的陳述正確？",
-   "statements": [
-    "對訂明名單以外的貨幣，須在接受貨幣前書面列出買入及賣出淨匯率。",
-    "對訂明名單以外貨幣發出的書面匯率單據，可取代正式交易單據。",
-    "匯率宣傳須使每種貨幣的買入匯率及賣出匯率對顧客同樣顯眼。",
-    "如果陳述符合事實，貨幣兌換商便可宣傳兌換交易不收取佣金。"
-   ],
-   "notes": [
-    "正確：第7至8條：第7(1)條要求在接受貨幣前書面列出兩種淨匯率。",
-    "錯誤：第7至8條：第7(2)條規定兩份單據均須發出。",
-    "正確：第7至8條：第8(1)(a)條規定兩種匯率同樣顯眼。",
-    "錯誤：第7至8條：第8(2)(b)條禁止宣傳不收取佣金。"
    ]
   }
  },
@@ -23606,86 +23038,6 @@
     "正確：第4.3段訂明，由於能力評核以公司為單位進行，同屬一所公司的應考者在任何情況下均必須應考同一時段。",
     "正確：第4.4(ii)段列出在牌照有效期屆滿前90日內而持牌人已沒有合資格人士取得合格成績的情況。",
     "不正確：第4.4段訂明僅限在所列三種情況下提名一次；並無隨時另行提名的權利。"
-   ]
-  }
- },
- {
-  "id": "m4-419",
-  "module": 4,
-  "truth": [
-   true,
-   false,
-   true,
-   true,
-   false
-  ],
-  "options": [
-   [
-    1,
-    3,
-    4
-   ],
-   [
-    1,
-    4,
-    5
-   ],
-   [
-    2,
-    3,
-    4
-   ],
-   [
-    2,
-    4,
-    5
-   ],
-   "all"
-  ],
-  "answer": 0,
-  "traps": [
-   null,
-   "period",
-   null,
-   null,
-   "number"
-  ],
-  "source": {
-   "en": "Money Changers Ordinance, Cap. 34, ss.4(8), 4(11), 5 and 6(6)–(7)",
-   "tc": "《貨幣兌換商條例》（第34章）第4(8)、4(11)、5及6(6)至(7)條"
-  },
-  "en": {
-   "q": "Regarding the periods, units and penalties in the Money Changers Ordinance, Cap. 34, which of the following are correct?",
-   "statements": [
-    "A money changer shall retain the duplicate copy of a completed transaction note for not less than 12 months and produce it for inspection and copying on demand by a police officer.",
-    "Where a money changer contravenes section 4 in respect of an exchange transaction, the other party may rescind the transaction within 7 days after the date of the transaction.",
-    "A money changer may display a net rate of exchange in multiple units of 10 or 100 units of foreign currency with a corresponding adjustment to the Hong Kong dollar figure.",
-    "A money changer who contravenes section 4(1), (3) to (8) or (10) is liable to a fine at level 1 for a first offence, and to a fine at level 2 and 6 months' imprisonment for a later offence.",
-    "A money changer who contravenes section 6 on displaying rates of exchange is liable to a fine at level 1 only, with no term of imprisonment attached."
-   ],
-   "notes": [
-    "Correct: s.4(8) requires the duplicate copy of a completed transaction note to be retained for not less than 12 months and produced on demand by a police officer.",
-    "Incorrect: s.5 allows the other party to rescind the transaction within 3 days after the date of the transaction, not 7 days.",
-    "Correct: s.6(6) lets a money changer display a net rate in multiple units of 10 or 100 units of foreign currency with a corresponding adjustment to the Hong Kong dollar figure.",
-    "Correct: s.4(11) sets a fine at level 1 for a first offence and a fine at level 2 and imprisonment for 6 months for a second or subsequent offence.",
-    "Incorrect: s.6(7) makes a contravention of section 6 punishable by a fine at level 2 and imprisonment for 6 months."
-   ]
-  },
-  "tc": {
-   "q": "關於《貨幣兌換商條例》（第34章）所訂的期限、單位及罰則，下列哪些陳述正確？",
-   "statements": [
-    "貨幣兌換商須將填妥的交易單據複本保留至少12個月，並須在警務人員提出要求時出示複本以供查閱和複製。",
-    "貨幣兌換商在某宗兌換交易中違反第4條，交易的另一方可在交易日期後7天內撤銷該宗交易。",
-    "貨幣兌換商可展示以外幣10單位或100單位的倍數計算的淨匯率，以及經相應調整的港元數字。",
-    "貨幣兌換商違反第4(1)、(3)至(8)或(10)條，首次定罪處第1級罰款，再犯處第2級罰款及監禁6個月。",
-    "貨幣兌換商違反第6條有關展示匯率的規定，可處第1級罰款，而不會被判處任何監禁刑罰。"
-   ],
-   "notes": [
-    "正確：第4(8)條規定將填妥的交易單據複本保留至少12個月，並須在警務人員提出要求時出示。",
-    "不正確：第5條容許交易的另一方在交易日期後3天內撤銷該宗交易，並非7天。",
-    "正確：第6(6)條容許貨幣兌換商展示以外幣10單位或100單位的倍數計算的淨匯率，以及經相應調整的港元數字。",
-    "正確：第4(11)條訂明第一次定罪可處第1級罰款，第二次或其後定罪可處第2級罰款及監禁6個月。",
-    "不正確：第6(7)條訂明違反第6條可處第2級罰款及監禁6個月。"
    ]
   }
  },

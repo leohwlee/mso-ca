@@ -11672,14 +11672,6 @@
  "m1-151": {
   "en": [
    {
-    "doc": "16",
-    "text": "has been amended and came into effect on 24 August 2025"
-   },
-   {
-    "doc": "16",
-    "text": "MSOs carrying out money changing services should take note of their statutory obligations relating to transaction notes and rates display required in Schedule 2 and 3 to the MCO"
-   },
-   {
     "doc": "03",
     "text": "the Drug Trafficking (Recovery of Proceeds) Ordinance, Cap. 405 (DTROP), the Organized and Serious Crimes Ordinance, Cap. 455 (OSCO)"
    },
@@ -11694,17 +11686,17 @@
    {
     "doc": "03",
     "text": "the Weapons of Mass Destruction (Control of Provision of Services) Ordinance, Cap. 526 (WMD(CPS)O)"
+   },
+   {
+    "doc": "03",
+    "text": "the Drug Trafficking (Recovery of Proceeds) Ordinance, Cap. 405 (DTROP)"
+   },
+   {
+    "doc": "03",
+    "text": "the United Nations (Anti-Terrorism Measures) Ordinance, Cap. 575 (UNATMO)"
    }
   ],
   "tc": [
-   {
-    "doc": "16",
-    "text": "已於2025年8月24日通過修訂並生效"
-   },
-   {
-    "doc": "16",
-    "text": "任何經營貨幣兌換服務的金錢服務經營者需留意《貨幣兌換商條例》附表2及3內，有關於交易單據及展示匯率的法定責任"
-   },
    {
     "doc": "03",
     "text": "《販毒（追討得益）條例》（第405章）、《有組織及嚴重罪行條例》（第455章）"
@@ -11720,6 +11712,14 @@
    {
     "doc": "03",
     "text": "《大規模毀滅武器（提供服務的管制）條例》（第526章）"
+   },
+   {
+    "doc": "03",
+    "text": "《販毒（追討得益）條例》（第405章）"
+   },
+   {
+    "doc": "03",
+    "text": "《聯合國（反恐怖主義措施）條例》（第575章）"
    }
   ]
  },
@@ -17891,310 +17891,6 @@
    }
   ]
  },
- "m1-190": {
-  "en": [
-   {
-    "doc": "17",
-    "text": "includes a video display screen"
-   },
-   {
-    "doc": "17",
-    "text": "includes a cheque and a traveller’s cheque"
-   },
-   {
-    "doc": "17",
-    "text": "includes to affix a chop or mark"
-   },
-   {
-    "doc": "17",
-    "text": "after deducting all charges and commissions"
-   }
-  ],
-  "tc": [
-   {
-    "doc": "17",
-    "text": "並且包括電視螢光屏幕"
-   },
-   {
-    "doc": "17",
-    "text": "貨幣 (currency) 包括支票及旅行支票"
-   },
-   {
-    "doc": "17",
-    "text": "簽署 (sign) 包括加蓋圖章或標記"
-   },
-   {
-    "doc": "17",
-    "text": "在扣減所有收費及佣金後"
-   }
-  ]
- },
- "m1-191": {
-  "en": [
-   {
-    "doc": "17",
-    "text": "where the amount of the currency tendered for exchange exceeds the sum of $100,000"
-   },
-   {
-    "doc": "17",
-    "text": "exceeds the sum of $100,000 in Hong Kong currency"
-   },
-   {
-    "doc": "17",
-    "text": "or the equivalent of such sum"
-   },
-   {
-    "doc": "17",
-    "text": "may be amended by the Chief Executive by notice in the Gazette"
-   }
-  ],
-  "tc": [
-   {
-    "doc": "17",
-    "text": "所提供兌換的貨幣款額超過港幣$100,000"
-   },
-   {
-    "doc": "17",
-    "text": "超過港幣$100,000 或其等值"
-   },
-   {
-    "doc": "17",
-    "text": "或其等值的任何兌換交易"
-   },
-   {
-    "doc": "17",
-    "text": "行政長官可藉憲報公告，修訂第(1)(c) 款所指明的金額"
-   }
-  ]
- },
- "m1-192": {
-  "en": [
-   {
-    "doc": "17",
-    "text": "legibly make out in duplicate a transaction note"
-   },
-   {
-    "doc": "17",
-    "text": "by correctly completing the details of the exchange transaction by using Arabic numerals"
-   },
-   {
-    "doc": "17",
-    "text": "explain, in so far as is practicable, the transaction note to the customer"
-   },
-   {
-    "doc": "17",
-    "text": "sign the transaction note"
-   }
-  ],
-  "tc": [
-   {
-    "doc": "17",
-    "text": "以可閱字迹填具一式兩份的交易單據"
-   },
-   {
-    "doc": "17",
-    "text": "並須以阿拉伯數字正確列明兌換交易的細節"
-   },
-   {
-    "doc": "17",
-    "text": "在切實可行範圍內，向顧客解釋該份交易單據的內容"
-   },
-   {
-    "doc": "17",
-    "text": "在交易單據上簽署"
-   }
-  ]
- },
- "m1-193": {
-  "en": [
-   {
-    "doc": "17",
-    "text": "the date of the transaction; (b) the type of currency tendered by the customer; (c) the amount of currency tendered by the customer"
-   },
-   {
-    "doc": "17",
-    "text": "may include in the form"
-   },
-   {
-    "doc": "17",
-    "text": "the money changer’s name, address and telephone number"
-   },
-   {
-    "doc": "17",
-    "text": "shall not include in a transaction note any statement other than a statement authorized by this Ordinance"
-   }
-  ],
-  "tc": [
-   {
-    "doc": "17",
-    "text": "交易日期； (b) 顧客所提供的貨幣種類； (c) 顧客所提供的貨幣款額"
-   },
-   {
-    "doc": "17",
-    "text": "表格內並可載有"
-   },
-   {
-    "doc": "17",
-    "text": "貨幣兌換商的中英文姓名或名稱、中英文地址及電話號碼"
-   },
-   {
-    "doc": "17",
-    "text": "不得在交易單據內載有任何並非本條例所授權作出的陳述"
-   }
-  ]
- },
- "m1-194": {
-  "en": [
-   {
-    "doc": "17",
-    "text": "issue a separate transaction note for each currency sold"
-   },
-   {
-    "doc": "17",
-    "text": "without any deduction"
-   },
-   {
-    "doc": "17",
-    "text": "issue the original of a transaction note to the customer"
-   },
-   {
-    "doc": "17",
-    "text": "retain the duplicate copy of a completed transaction note for not less than 12 months"
-   }
-  ],
-  "tc": [
-   {
-    "doc": "17",
-    "text": "就每一種賣出的貨幣，發出一份獨立交易單據"
-   },
-   {
-    "doc": "17",
-    "text": "而不得作任何扣減"
-   },
-   {
-    "doc": "17",
-    "text": "須將交易單據的正本一併發給顧客"
-   },
-   {
-    "doc": "17",
-    "text": "須將填妥的交易單據複本保留至少12 個月"
-   }
-  ]
- },
- "m1-195": {
-  "en": [
-   {
-    "doc": "17",
-    "text": "at any time before the money changer completes the transaction"
-   },
-   {
-    "doc": "17",
-    "text": "shall immediately hand back to the customer the currency tendered"
-   },
-   {
-    "doc": "17",
-    "text": "rescind the transaction within 3 days after the date thereof"
-   },
-   {
-    "doc": "17",
-    "text": "without prejudice to any other right or remedy"
-   }
-  ],
-  "tc": [
-   {
-    "doc": "17",
-    "text": "在貨幣兌換商藉遵照本條規定並將顧客兌換所得的貨幣悉數交給顧客以完成交易之前"
-   },
-   {
-    "doc": "17",
-    "text": "須立即將顧客所提供作兌換交易的貨幣交回顧客"
-   },
-   {
-    "doc": "17",
-    "text": "在交易日期後3 天內，撤銷該宗交易"
-   },
-   {
-    "doc": "17",
-    "text": "在不損害任何其他權利或補救辦法的情況下"
-   }
-  ]
- },
- "m1-196": {
-  "en": [
-   {
-    "doc": "17",
-    "text": "display, on all of the boards, identical information relating to the net rates of exchange displayed"
-   },
-   {
-    "doc": "17",
-    "text": "place the board in a well lit place where the customer has an unobstructed view of the board"
-   },
-   {
-    "doc": "17",
-    "text": "display on the board the net rate of exchange which is least favourable to the customer"
-   },
-   {
-    "doc": "17",
-    "text": "in multiple units of 10 or 100 units of foreign currency with a corresponding adjustment to the Hong Kong dollar figure"
-   }
-  ],
-  "tc": [
-   {
-    "doc": "17",
-    "text": "在所有告示牌上展示相同的淨匯率資料"
-   },
-   {
-    "doc": "17",
-    "text": "將告示牌放置在一個光線充足而顧客視線無阻的地方"
-   },
-   {
-    "doc": "17",
-    "text": "須是對顧客優惠最少的淨匯率"
-   },
-   {
-    "doc": "17",
-    "text": "可展示以外幣10 單位或100 單位的倍數計算的淨匯率，以及經相應調整的港元數字"
-   }
-  ]
- },
- "m1-197": {
-  "en": [
-   {
-    "doc": "17",
-    "text": "before he accepts any currency from the potential customer"
-   },
-   {
-    "doc": "17",
-    "text": "shall issue a transaction note in addition to the subsection (1) note"
-   },
-   {
-    "doc": "17",
-    "text": "give equal prominence to buying rates and selling rates for each currency"
-   },
-   {
-    "doc": "17",
-    "text": "that he charges no commission on an exchange transaction"
-   }
-  ],
-  "tc": [
-   {
-    "doc": "17",
-    "text": "在接受準顧客的貨幣前"
-   },
-   {
-    "doc": "17",
-    "text": "除須發出第(1) 款所提述的單據外，並須發出一張交易單據"
-   },
-   {
-    "doc": "17",
-    "text": "使每種貨幣的買入匯率及賣出匯率同樣顯眼"
-   },
-   {
-    "doc": "17",
-    "text": "他對兌換交易不收取佣金"
-   }
-  ]
- },
  "m1-198": {
   "en": [
    {
@@ -24026,52 +23722,6 @@
    {
     "doc": "01",
     "text": "牌照申請人／持牌人僅限在下列情況下提名合資格人士應考能力評核一次"
-   }
-  ]
- },
- "m4-419": {
-  "en": [
-   {
-    "doc": "17",
-    "text": "A money changer shall retain the duplicate copy of a completed transaction note for not less than 12 months and shall produce the duplicate for inspection and copying on demand by a police officer"
-   },
-   {
-    "doc": "17",
-    "text": "rescind the transaction within 3 days after the date thereof"
-   },
-   {
-    "doc": "17",
-    "text": "A money changer may display a net rate of exchange in multiple units of 10 or 100 units of foreign currency with a corresponding adjustment to the Hong Kong dollar figure"
-   },
-   {
-    "doc": "17",
-    "text": "is liable to a fine at level 1 for a first offence and to a fine at level 2 and to imprisonment for 6 months for a second or subsequent offence"
-   },
-   {
-    "doc": "17",
-    "text": "A money changer who contravenes this section commits an offence and is liable to a fine at level 2 and to imprisonment for 6 months. (Amended E.R. 2 of 2021) (Replaced 9 of 1989 s. 7)"
-   }
-  ],
-  "tc": [
-   {
-    "doc": "17",
-    "text": "貨幣兌換商須將填妥的交易單據複本保留至少12 個月，並須在警務人員提出要求時，出示複本以供查閱和複製"
-   },
-   {
-    "doc": "17",
-    "text": "在交易日期後3 天內，撤銷該宗交易"
-   },
-   {
-    "doc": "17",
-    "text": "貨幣兌換商可展示以外幣10 單位或100 單位的倍數計算的淨匯率，以及經相應調整的港元數字"
-   },
-   {
-    "doc": "17",
-    "text": "如屬第一次定罪，可處第1 級罰款，如屬第二次或其後定罪，可處第2 級罰款及監禁6 個月"
-   },
-   {
-    "doc": "17",
-    "text": "貨幣兌換商違反本條，即屬犯罪，可處第2 級罰款及監禁6 個月。 ( 編輯修訂——2021 年第2 號編輯修訂紀錄) ( 由1989 年第9 號第7 條代替)"
    }
   ]
  },

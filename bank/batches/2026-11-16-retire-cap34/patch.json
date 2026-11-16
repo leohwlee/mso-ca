@@ -1,0 +1,68 @@
+[
+ {
+  "id": "m1-151",
+  "module": 1,
+  "truth": [false, false, false, true, true, true],
+  "traps": ["number", "name", "actor", null, null, null],
+  "source": {
+   "en": "AML/CFT Guideline for MSOs (Jun 2023) ¶1.14–1.15",
+   "tc": "《打擊洗錢及恐怖分子資金籌集指引》（2023年6月）第1.14至1.15段"
+  },
+  "en": {
+   "q": "Regarding the ordinances listed in the AML/CFT Guideline, which of the following are correct?",
+   "statements": [
+    "As the Guideline cites them, the Organized and Serious Crimes Ordinance is Cap. 405 and the Drug Trafficking (Recovery of Proceeds) Ordinance is Cap. 455.",
+    "As the Guideline cites it, the ordinance whose chapter number is Cap. 537 is the United Nations (Anti-Terrorism Measures) Ordinance.",
+    "The AMLO imposes requirements relating to CDD and record-keeping on MSOs, and gives the JFIU powers to supervise compliance with these and the AMLO's other requirements.",
+    "As the Guideline cites it, the chapter number of the Weapons of Mass Destruction (Control of Provision of Services) Ordinance is Cap. 526.",
+    "As the Guideline cites it among those main pieces, the chapter number of the Drug Trafficking (Recovery of Proceeds) Ordinance is Cap. 405.",
+    "As the Guideline cites it among those main pieces, the chapter number of the United Nations (Anti-Terrorism Measures) Ordinance is Cap. 575."
+   ],
+   "notes": [
+    "Incorrect: ¶1.14 — the Drug Trafficking (Recovery of Proceeds) Ordinance is Cap. 405 and the Organized and Serious Crimes Ordinance is Cap. 455; the two chapter numbers are swapped.",
+    "Incorrect: ¶1.14 — Cap. 537 is the United Nations Sanctions Ordinance (UNSO); the United Nations (Anti-Terrorism Measures) Ordinance is Cap. 575.",
+    "Incorrect: ¶1.15 — the AMLO imposes requirements relating to CDD and record-keeping on MSOs and provides the CCE, not the JFIU, with powers to supervise compliance with these requirements and other requirements under the AMLO.",
+    "Correct: ¶1.14 — the Weapons of Mass Destruction (Control of Provision of Services) Ordinance is Cap. 526 (WMD(CPS)O).",
+    "Correct: ¶1.14 — the Drug Trafficking (Recovery of Proceeds) Ordinance is Cap. 405 (DTROP), listed among the main pieces of legislation concerned with ML, TF, PF and financial sanctions.",
+    "Correct: ¶1.14 — the United Nations (Anti-Terrorism Measures) Ordinance is Cap. 575 (UNATMO), listed among the main pieces of legislation concerned with ML, TF, PF and financial sanctions."
+   ]
+  },
+  "tc": {
+   "q": "關於《打擊洗錢及恐怖分子資金籌集指引》所列的條例，下列哪些陳述正確？",
+   "statements": [
+    "根據本指引的引述，《有組織及嚴重罪行條例》為第405章，而《販毒（追討得益）條例》則為第455章。",
+    "根據本指引的引述，章號為第537章的條例是《聯合國（反恐怖主義措施）條例》。",
+    "《打擊洗錢條例》向金錢服務經營者施加盡職審查及備存紀錄的規定，並賦予財富情報組權力監督該等及其他規定的合規情況。",
+    "根據本指引的引述，《大規模毀滅武器（提供服務的管制）條例》的章號為第526章。",
+    "根據本指引的引述，在指引所列的主要法例之中，《販毒（追討得益）條例》的章號為第405章。",
+    "根據本指引的引述，在指引所列的主要法例之中，《聯合國（反恐怖主義措施）條例》的章號為第575章。"
+   ],
+   "notes": [
+    "不正確：第1.14段——《販毒（追討得益）條例》為第405章，《有組織及嚴重罪行條例》為第455章；兩者的章號被對調。",
+    "不正確：第1.14段——第537章為《聯合國制裁條例》；《聯合國（反恐怖主義措施）條例》為第575章。",
+    "不正確：第1.15段——《打擊洗錢條例》將關於盡職審查及備存紀錄的規定施加於金錢服務經營者，而獲賦予權力以監督該等規定及該條例下其他規定的合規情況的是關長，並非財富情報組。",
+    "正確：第1.14段——《大規模毀滅武器（提供服務的管制）條例》為第526章。",
+    "正確：第1.14段——《販毒（追討得益）條例》為第405章，並列為與洗錢、恐怖分子資金籌集、擴散資金籌集及金融制裁有關的主要法例之一。",
+    "正確：第1.14段——《聯合國（反恐怖主義措施）條例》為第575章，並列為與洗錢、恐怖分子資金籌集、擴散資金籌集及金融制裁有關的主要法例之一。"
+   ]
+  },
+  "quotes": {
+   "en": [
+    {"doc": "03", "text": "the Drug Trafficking (Recovery of Proceeds) Ordinance, Cap. 405 (DTROP), the Organized and Serious Crimes Ordinance, Cap. 455 (OSCO)"},
+    {"doc": "03", "text": "the United Nations (Anti-Terrorism Measures) Ordinance, Cap. 575 (UNATMO), the United Nations Sanctions Ordinance, Cap. 537 (UNSO)"},
+    {"doc": "03", "text": "provides the CCE with powers to supervise compliance with these requirements and other requirements under the AMLO"},
+    {"doc": "03", "text": "the Weapons of Mass Destruction (Control of Provision of Services) Ordinance, Cap. 526 (WMD(CPS)O)"},
+    {"doc": "03", "text": "the Drug Trafficking (Recovery of Proceeds) Ordinance, Cap. 405 (DTROP)"},
+    {"doc": "03", "text": "the United Nations (Anti-Terrorism Measures) Ordinance, Cap. 575 (UNATMO)"}
+   ],
+   "tc": [
+    {"doc": "03", "text": "《販毒（追討得益）條例》（第405章）、《有組織及嚴重罪行條例》（第455章）"},
+    {"doc": "03", "text": "《聯合國（反恐怖主義措施）條例》（第575章）、《聯合國制裁條例》（第537章）"},
+    {"doc": "03", "text": "賦予關長權力，以監督該等規定及打擊洗錢條例下的其他規定的合規情況"},
+    {"doc": "03", "text": "《大規模毀滅武器（提供服務的管制）條例》（第526章）"},
+    {"doc": "03", "text": "《販毒（追討得益）條例》（第405章）"},
+    {"doc": "03", "text": "《聯合國（反恐怖主義措施）條例》（第575章）"}
+   ]
+  }
+ }
+]

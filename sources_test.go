@@ -422,7 +422,7 @@ func TestQuotesFromCitedSources(t *testing.T) {
 					continue
 				}
 				if !scope[qt.Doc] || len(qt.Doc) != 2 {
-					t.Errorf("%s: document %s is outside the approved 01–24 and 26 scope", where, qt.Doc)
+					t.Errorf("%s: document %s is outside the approved question-bank scope", where, qt.Doc)
 				}
 				quoteLang := lang
 				if qt.Language != "" && qt.Language != lang {

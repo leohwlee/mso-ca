@@ -144,7 +144,7 @@ def check_live_quotes(quotes):
     """The live bank may only cite the current question_bank_scope allowlist."""
     allow = question_scope()
     for qid, sides in quotes.items():
-        assert all(x['doc'] in allow for side in sides.values() for x in side), f'outside the approved 01–24 and 26 scope: {qid}'
+        assert all(x['doc'] in allow for side in sides.values() for x in side), f'outside the approved question-bank scope: {qid}'
 
 
 def recover(bank, quotes):

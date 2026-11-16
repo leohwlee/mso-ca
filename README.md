@@ -2,7 +2,7 @@
 
 [繁體中文](README.zh-Hant.md) · [Download the study bundle](https://github.com/leohwlee/mso-ca/releases/latest/download/mso-study-bundle.zip) · [Release notes](CHANGELOG.md) · [The exam-prep skill](skills/exam-prep/README.md)
 
-**Seven-part study notes and 572 combination questions** for the Hong Kong Money
+**Seven-part study notes and 563 combination questions** for the Hong Kong Money
 Service Operator Competence Assessment. Read and practise offline in Traditional
 Chinese, English or both languages. The selected sources are documents **01–24 and 26**
 of the [reading library](docs/README.md); practice offers mock exam and custom practice.
@@ -51,10 +51,15 @@ it did not appear in the exam the owner sat. This is a study selection, not a fi
 that the official exam cannot use the report. Number 25 stays reserved; document 26 is
 not renumbered. 23 questions that cited only that report are retired, with their IDs kept.
 
-Seven independently reviewed Part 1 questions were added so that module again meets the
-60-question floor. The bank is **572** questions (60 / 81 / 71 / 89 / 80 / 123 / 68).
-The practice app still keeps a **wrong-answer book** (a question stays until it is
-answered right twice in a row) and draws unseen questions first in custom practice.
+Seven independently reviewed Part 1 questions were added in v1.14.0 so that module
+again met the then 60-question floor. On 16 November 2026 the live bank became
+**563** questions (52 / 81 / 71 / 88 / 80 / 123 / 68) after a practice-scope
+retirement of nine Cap. 34 items; Part 1’s test floor is now 52. This is a
+personal practice-scope decision before the 17 November 2026 exam, not a claim
+that Cap. 34 will be absent from the official paper. Documents 16 and 17 remain
+in daily reading and the study notes. The practice app still keeps a
+**wrong-answer book** (a question stays until it is answered right twice in a
+row) and draws unseen questions first in custom practice.
 
 The notes keep the study-tier filter, the **Ruling marks** switch and the
 **Numbers** page. Live counts: 74 topics, 574 bilingual point pairs, 75 visuals
@@ -100,20 +105,20 @@ Results are stored locally in the browser.
 
 | Part | Topic | Questions |
 |---|---|---:|
-| 1 | General AML/CFT and counter-proliferation financing | 60 |
+| 1 | General AML/CFT and counter-proliferation financing | 52 |
 | 2 | AMLO Parts 1–7 | 81 |
 | 3 | AMLO Schedules | 71 |
-| 4 | C&ED guidelines | 89 |
+| 4 | C&ED guidelines | 88 |
 | 5 | Governance and strategy | 80 |
 | 6 | AML/CFT control areas | 123 |
 | 7 | Demonstrating and monitoring compliance | 68 |
-| **Total** | | **572** |
+| **Total** | | **563** |
 
 The bank includes eight official sample questions. The remaining questions are
 authored practice material, not released past papers. See [release notes](CHANGELOG.md)
 for earlier changes to the bank.
 
-- **01–24 and 26:** the only approved sources for active questions. External documents linked by a circular are not automatically included.
+- **01–15, 18–24 and 26:** the only approved sources for live questions. Documents 16 and 17 remain in daily reading and the study notes but do not support live questions after 16 November 2026. External documents linked by a circular are not automatically included.
 - **25 and 27–47:** preserved historical reference, excluded from the active bank. Number 25 is reserved for the archived 2022 risk assessment report; document 26 is not renumbered.
 - **Document 24:** English original only; related Chinese questions are labelled **study translations** and retain English deciding quotations.
 - **Document 25:** removed from personal practice reading and from the active question scope on 14 November 2026, because it did not appear in the exam the owner sat. This is a study selection, not a finding that the official exam cannot use the report.
